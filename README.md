@@ -9,6 +9,8 @@ I teach my sons programming. I upload the video and write the blog.
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Introduction to Math Induction Tool (Sum of Integers, Sum of Squares) | 数学归纳法简介（数列求和，数列平方和）| [Youtube](https://www.youtube.com/watch?v=mUTSBECjd8w) - [B站](
+数学归纳法简介（数列求和，数列平方和）) | [Introduction to Math Induction Tool (Sum of Integers, Sum of Squares)](https://helloacm.com/teaching-kids-programming-introduction-to-math-induction/) | 2020-12-07 |
 | Introduction to Algorithmic Complexity | 算法复杂度初探 | [Youtube](https://www.youtube.com/watch?v=Kcy37ktk2Rg) - [B站](https://www.bilibili.com/video/BV1zV41187VC/) | [Introduction to Algorithmic Complexity](https://helloacm.com/teaching-kids-programming-algorithmic-runtime-and-space-complexity/) | 2020-12-08 | 
 
 ## Data Structures 数据结构 
