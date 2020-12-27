@@ -29,6 +29,7 @@ I teach my sons programming. I upload the video and write the blog.
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Teaching Kids Programming – Prefix Sum Algorithm to Compute the Interval Sums | 前缀求线段区间和算法 Prefix Sum | [Youtube](https://www.youtube.com/watch?v=jWk6b6rx5xg) - [B站](https://www.bilibili.com/video/BV19a4y1J7RJ/) | [Teaching Kids Programming – Prefix Sum Algorithm to Compute the Interval Sums](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-compute-the-interval-sums/) | 2020-12-27 |
 | Binary Tree Traversal Algorithms | 二叉树的遍例算法 | [Youtube](https://www.youtube.com/watch?v=WdBlbOmIHlc) - [B站](https://www.bilibili.com/video/BV1QK411u7V1/) | [Binary Tree Traversal Algorithms](https://helloacm.com/teaching-kids-programming-binary-tree-traversal-algorithms/) | 2020-12-18 |
 | QuickSort Algorithm Simply Explained | 快排序算法 | [Youtube](https://www.youtube.com/watch?v=g8WvhdO6TSo) - [B站](https://www.bilibili.com/video/BV15f4y1i7Vt/) | [QuickSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-quicksort-algorithm-simply-explained/) | 2020-12-10 |
 | MergeSort Algorithm Simply Explained | 归并排序简介 | [Youtube](https://www.youtube.com/watch?v=aiJnCXsqwcg) - [B站](https://www.bilibili.com/video/BV1oV41187z1/) | [MergeSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-mergesort-simply-explained/) | 2020-12-11 |
