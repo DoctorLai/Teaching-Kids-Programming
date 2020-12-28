@@ -1,5 +1,5 @@
 # Teaching Kids Programming
-I teach my sons programming. I upload the video and write the blog.
+I teach my sons programming. I upload the video and write the blog. I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/doctorlai/)).
 
 - [Youtube Channel](https://www.youtube.com/channel/UCK2ugmUOoYne1qQfSAph4nQ)
 - Bilibili: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
