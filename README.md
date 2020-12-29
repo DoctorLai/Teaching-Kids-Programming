@@ -61,3 +61,6 @@ I teach my sons programming. I upload the video and write the blog. I am current
 | Sum of First N Odd Numbers (with Math Induction) | 前N个奇数之和（数学归纳法） | [Youtube](https://www.youtube.com/watch?v=qIn_Uig9FbI) - [B站](https://www.bilibili.com/video/BV1Ri4y157qT/) | [Sum of First N Odd Numbers (with Math Induction)](https://helloacm.com/teaching-kids-programming-sum-of-first-n-odd-numbers-with-math-induction/) | 2020-12-21 |
 | Backtracking Algorithm to Solve N-queen Problem | N皇后回溯算法求解 | [Youtube](https://www.youtube.com/watch?v=aFi-B8grleA) - [B站](https://www.bilibili.com/video/BV13f4y1e7RW/) | [Backtracking Algorithm to Solve N-queen Problem](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-solve-n-queen-problem/) | 2020-12-20 |
 Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
+
+
+![](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/2020-12-29%2015.02.18.jpg)
