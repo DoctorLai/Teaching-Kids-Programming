@@ -5,6 +5,8 @@ I teach my sons programming. I upload the video and write the blog. I am current
 - Bilibili: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
 - Blog: [https://helloacm.com/category/teaching-kids-programming/](https://helloacm.com/category/teaching-kids-programming/)
 
+If you find it useful, maybe you can support me a little bit. Thank you!
+<a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;"></a>
 
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
