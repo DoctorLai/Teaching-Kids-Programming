@@ -25,6 +25,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Data Structures 数据结构 
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Introduction to Graph Data Structure | 数据结构之图的简介 | [Youtube](https://youtu.be/HZUdZ-KObyI) - [B站](https://www.bilibili.com/video/BV1z54y1x7FA/) | [Introduction to Graph Data Structure](https://helloacm.com/teaching-kids-programming-introduction-to-graph-data-structure/) | 2021-01-02 |
 | Introduction to Heap and Priority Queue | 数据结构之堆和优先队列 | [Youtube](https://www.youtube.com/watch?v=rAIPf_o9r3o) - [B站](https://www.bilibili.com/video/BV1Gt4y1r7kK/) | [Introduction to Heap and Priority Queue](https://helloacm.com/teaching-kids-programming-introduction-to-heap-and-priority-queue/) | 2020-11-31 |
 | Introduction to Linked List Data Structure | 数据结构之单向链表 | [Youtube](https://www.youtube.com/watch?v=Y_kgUaOC6no) - [B站](https://www.bilibili.com/video/BV17i4y1w7iK/) | [Introduction to Linked List Data Structure](https://helloacm.com/teaching-kids-programming-linked-list-data-structure/) | 2020-11-28 |
 | Introduction to Trees, Binary Trees, Perfect Binary Trees, and BFS. | 树和广度优先 | [Youtube](https://www.youtube.com/watch?v=uMD-9jdqxOA) - [B站](https://www.bilibili.com/video/BV17t4y1Y7Mg/) | [Introduction to Trees, Binary Trees, Perfect Binary Trees, and BFS](https://helloacm.com/teaching-kids-programming-introduction-to-trees-binary-trees-perfect-binary-trees-and-bfs/) | 2020-11-27 |
