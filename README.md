@@ -52,6 +52,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Palindrome Permutation Algorithm | 回文数排列算法 | [Youtube](https://www.youtube.com/watch?v=9pw1YW-JTBM) - [B站](https://www.bilibili.com/video/BV1Yv411x7tf/) | [Palindrome Permutation Algorithm](https://helloacm.com/teaching-kids-programming-palindrome-permutation-algorithm/) | 2021-01-03 |
 | Minimum Cost to Connect Sticks (Priority Queue/Min Heap) | 贪心算法通过优先队列合并木头求最小代价 | [Youtube](https://www.youtube.com/watch?v=Z9Lr2S_goGw) - [B站](https://www.bilibili.com/video/BV1C64y1Z71t/) | [Minimum Cost to Connect Sticks (Priority Queue/Min Heap)](https://helloacm.com/teaching-kids-programming-minimum-cost-to-connect-sticks-priority-queue-min-heap/) | 2021-01-01 |
 | Compute the Intersection of the Intervals | 求线段区间相交的算法 | [Youtube](https://www.youtube.com/watch?v=_DWRhfMRnDQ) - [B站](https://www.bilibili.com/video/BV1hT4y1K7hG/) | [Compute the Intersection of the Intervals](https://helloacm.com/teaching-kids-programming-compute-the-intersection-of-the-intervals/) | 2020-12-25 |
 | Minimal Number of Brackets Needed to Make a Valid Parenthese String | 修复括号字符串算法 | [Youtube](https://www.youtube.com/watch?v=X163qQu8IyM) - [B站](https://www.bilibili.com/video/BV1F5411V7M2/) | [Minimal Number of Brackets Needed to Make a Valid Parenthese String](https://helloacm.com/teaching-kids-programming-minimal-number-of-brackets-needed-to-make-a-valid-parenthese-string/) | 2020-12-13 |
