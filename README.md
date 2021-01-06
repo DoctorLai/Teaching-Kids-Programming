@@ -36,6 +36,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Algorithms to Remove Nodes from a Linked List | 单向链表的删除节点的算法 | [Youtube](https://youtu.be/DeS-JhlnBAY) - [B站](https://www.bilibili.com/video/BV1p54y147WN/) | [Algorithms to Remove Nodes from a Linked List](https://helloacm.com/teaching-kids-programming-algorithms-to-remove-nodes-from-a-linked-list/) | 2021-01-06 |
 | Algorithms to Find the Cycle of a Linked List | 单向链表是否有环的算法 | [Youtube](https://www.youtube.com/watch?v=xAFB12LVqPw) - [B站](https://www.bilibili.com/video/BV1Tp4y1B77G/) | [Algorithms to Find the Cycle of a Linked List](https://helloacm.com/teaching-kids-programming-algorithms-to-find-the-cycle-of-a-linked-list/) | 2020-12-30 |
 | Fast and Slow Pointer to Obtain the Middle of the Linked List | 快慢指针求单向链表中间的算法 | [Youtube](https://youtu.be/iyQ-uHCgH_I) - [B站](https://www.bilibili.com/video/BV1nX4y1T77z/) | [Fast and Slow Pointer to Obtain the Middle of the Linked List](https://helloacm.com/teaching-kids-programming-fast-and-slow-pointer-to-obtain-the-middle-of-the-linked-list/) | 2020-12-29 |
 | Prefix Sum Algorithm to Compute the Interval Sums | 前缀求线段区间和算法 Prefix Sum | [Youtube](https://www.youtube.com/watch?v=jWk6b6rx5xg) - [B站](https://www.bilibili.com/video/BV19a4y1J7RJ/) | [Prefix Sum Algorithm to Compute the Interval Sums](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-compute-the-interval-sums/) | 2020-12-27 |
