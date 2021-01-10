@@ -13,6 +13,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Pascal Triangle Algorithms and Applications | 杨辉三角形(Pascal)的求解算法和应用 | [Youtube](https://youtu.be/uUdXScH-Qe0) - [B站](https://www.bilibili.com/video/BV1NK4y1W7iP/) | [Pascal Triangle Algorithms and Applications](https://helloacm.com/teaching-kids-programming-pascal-triangle-algorithms-and-applications/) | 2021-01-10 |
 | Pythagorean Theorem and Algorithm to Find Pythagorean Numbers | 勾股定理证明和求解算法 | [Youtube](https://youtu.be/F39ycJQO6i8) - [B站](https://www.bilibili.com/video/BV1FX4y1K7ZQ/) | [Pythagorean Theorem and Algorithm to Find Pythagorean Numbers](https://helloacm.com/teaching-kids-programming-pythagorean-theorem-and-algorithm-to-find-pythagorean-numbers/) | 2021-01-08 |
 | Hexadecimal Numbers Conversion | 十六进制转换 | [Youtube](https://www.youtube.com/watch?v=P9ZS37NXhAY) - [B站](https://www.bilibili.com/video/BV165411H7jt/) | [Binary and Decimal Conversion Algorithms](https://helloacm.com/teaching-kids-programming-hexadecimal-numbers-conversion/) | 2020-12-26 |
 | Binary and Decimal Conversion Algorithms | 二进制和十进制数字的转换算法 | [Youtube](https://www.youtube.com/watch?v=is-D9U5dTIk) - [B站](https://www.bilibili.com/video/BV1qV411b7F3/) | [Binary and Decimal Conversion Algorithms](https://helloacm.com/teaching-kids-programming-binary-and-decimal-conversion-algorithms/) | 2020-12-24 |
