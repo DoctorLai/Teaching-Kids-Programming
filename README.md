@@ -39,6 +39,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Compute the Kth Last Node of a Linked List (and Length of a Linked List) | 求单向链表倒数第K个节点(和链表长度算法) | [Youtube](https://youtu.be/Mq4fKnWpyt0) - [B站](https://www.bilibili.com/video/BV1ry4y127vF/) | [Compute the Kth Last Node of a Linked List (and Length of a Linked List)](https://helloacm.com/teaching-kids-programming-compute-the-kth-last-node-of-a-linked-list-and-length-of-a-linked-list/) | 2021-01-11 |
 | Binary Search Algorithm to Compute the Square Root | 二分搜索算法求根号的值 | [Youtube](https://youtu.be/_-bDvuBDxis) - [B站](https://www.bilibili.com/video/BV1dv411x7U7/) | [Binary Search Algorithm to Compute the Square Root](https://helloacm.com/teaching-kids-programming-binary-search-algorithm-to-compute-the-square-root/) | 2021-01-07 |
 | Algorithms to Remove Nodes from a Linked List | 单向链表的删除节点的算法 | [Youtube](https://youtu.be/DeS-JhlnBAY) - [B站](https://www.bilibili.com/video/BV1p54y147WN/) | [Algorithms to Remove Nodes from a Linked List](https://helloacm.com/teaching-kids-programming-algorithms-to-remove-nodes-from-a-linked-list/) | 2021-01-06 |
 | Algorithms to Find the Cycle of a Linked List | 单向链表是否有环的算法 | [Youtube](https://www.youtube.com/watch?v=xAFB12LVqPw) - [B站](https://www.bilibili.com/video/BV1Tp4y1B77G/) | [Algorithms to Find the Cycle of a Linked List](https://helloacm.com/teaching-kids-programming-algorithms-to-find-the-cycle-of-a-linked-list/) | 2020-12-30 |
