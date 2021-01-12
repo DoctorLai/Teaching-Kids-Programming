@@ -14,6 +14,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Logarithm Algorithm to Compute the Power x^n Function | 幂函数的Log(N)求解算法 | [Youtube](https://youtu.be/47fEQjGokbk) - [B站](https://www.bilibili.com/video/BV1QX4y1K7Lr/) | [Logarithm Algorithm to Compute the Power x^n Function](https://helloacm.com/teaching-kids-programming-logarithm-algorithm-to-compute-the-power-xn-function/) | 2021-01-12 |
 | Pascal Triangle Algorithms and Applications | 杨辉三角形(Pascal)的求解算法和应用 | [Youtube](https://youtu.be/uUdXScH-Qe0) - [B站](https://www.bilibili.com/video/BV1NK4y1W7iP/) | [Pascal Triangle Algorithms and Applications](https://helloacm.com/teaching-kids-programming-pascal-triangle-algorithms-and-applications/) | 2021-01-10 |
 | Pythagorean Theorem and Algorithm to Find Pythagorean Numbers | 勾股定理证明和求解算法 | [Youtube](https://youtu.be/F39ycJQO6i8) - [B站](https://www.bilibili.com/video/BV1FX4y1K7ZQ/) | [Pythagorean Theorem and Algorithm to Find Pythagorean Numbers](https://helloacm.com/teaching-kids-programming-pythagorean-theorem-and-algorithm-to-find-pythagorean-numbers/) | 2021-01-08 |
 | Hexadecimal Numbers Conversion | 十六进制转换 | [Youtube](https://www.youtube.com/watch?v=P9ZS37NXhAY) - [B站](https://www.bilibili.com/video/BV165411H7jt/) | [Binary and Decimal Conversion Algorithms](https://helloacm.com/teaching-kids-programming-hexadecimal-numbers-conversion/) | 2020-12-26 |
