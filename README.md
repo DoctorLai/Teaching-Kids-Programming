@@ -14,6 +14,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Introduction and Re-implement the zip and zip_longest Function in Python | Python中zip和zip_longest的实现 | [Youtube](https://youtu.be/cfkE5X-o1WY) - [B站](https://www.bilibili.com/video/BV17T4y1K7oR/) | [Introduction and Re-implement the zip and zip_longest Function in Python](https://helloacm.com/teaching-kids-programming-introduction-and-re-implement-the-zip-and-zip_longest-function-in-python/) | 2021-01-17 |
 | Algorithm to Transpose a Matrix | 矩阵转置的算法 | [Youtube](https://youtu.be/YTxTyVbcTEQ) - [B站](https://www.bilibili.com/video/BV1CA411H7q9/) | [Algorithm to Transpose a Matrix](https://helloacm.com/teaching-kids-programming-algorithm-to-transpose-a-matrix/) | 2021-01-13 |
 | Logarithm Algorithm to Compute the Power x^n Function | 幂函数的Log(N)求解算法 | [Youtube](https://youtu.be/47fEQjGokbk) - [B站](https://www.bilibili.com/video/BV1QX4y1K7Lr/) | [Logarithm Algorithm to Compute the Power x^n Function](https://helloacm.com/teaching-kids-programming-logarithm-algorithm-to-compute-the-power-xn-function/) | 2021-01-12 |
 | Pascal Triangle Algorithms and Applications | 杨辉三角形(Pascal)的求解算法和应用 | [Youtube](https://youtu.be/uUdXScH-Qe0) - [B站](https://www.bilibili.com/video/BV1NK4y1W7iP/) | [Pascal Triangle Algorithms and Applications](https://helloacm.com/teaching-kids-programming-pascal-triangle-algorithms-and-applications/) | 2021-01-10 |
