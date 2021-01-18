@@ -4,7 +4,7 @@ I teach my sons programming. I upload the video and write the blog. I am current
 
 The videos and blog are in **English**. The Teaching Programming Language is **Python**.
 
-# Channels and Blog
+## Channels and Blog
 - [Youtube Channel](https://www.youtube.com/channel/UCK2ugmUOoYne1qQfSAph4nQ)
 - Bilibili: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
 - Blog: [https://helloacm.com/category/teaching-kids-programming/](https://helloacm.com/category/teaching-kids-programming/)
