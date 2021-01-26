@@ -1,5 +1,5 @@
 # Teaching Kids Programming
-I teach my sons programming. I upload the video and write the blog. I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/doctorlai/)).
+I teach my sons (currently they are aged 6 and 8) programming. I upload the video and write the blog. I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/doctorlai/)).
 **If you would like to suggest the topics, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new?title=[Suggest%20Topic]).**
 
 The videos and blog are in **English**. The Teaching Programming Language is **Python**.
