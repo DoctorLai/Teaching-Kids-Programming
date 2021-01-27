@@ -47,6 +47,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Adding Two Linked Lists | 两个单向链表相加的算法(数字倒序) | [Youtube](https://youtu.be/vUNyqdeSLr4) - [B站](https://www.bilibili.com/video/BV1hp4y1s7uS/) | [Adding Two Linked Lists](https://helloacm.com/teaching-kids-programming-adding-two-linked-list/) | 2021-01-27 |
 | Search in a 2D Sorted Matrix | 有序矩阵里搜索算法 | [Youtube](https://youtu.be/tQfvaMALYf0) - [B站](https://www.bilibili.com/video/BV16K4y1W7Rv/) | [Search in a 2D Sorted Matrix](https://helloacm.com/teaching-kids-programming-search-in-a-2d-sorted-matrix/) | 2021-01-19 |
 | Using Binary Search to Find K-th Largest Number in Array | 二分查找算法求第K大数组元素 | [Youtube](https://youtu.be/MAqFlSQ7bYw) - [B站](https://www.bilibili.com/video/BV1Af4y1k7s6/) | [Using Binary Search to Find K-th Largest Number in Array](https://helloacm.com/teaching-kids-programming-using-binary-search-to-find-k-th-largest-number-in-array/) | 2021-01-16 |
 | Sorting a Linked List using Merge Sort (Divide and Conquer) | 对一个单向链表进行归并排序的算法 | [Youtube](https://youtu.be/hR65T_Zv3oA) - [B站](https://www.bilibili.com/video/BV1wT4y1K7Wk/) | [Sorting a Linked List using Merge Sort (Divide and Conquer)](https://helloacm.com/teaching-kids-programming-sorting-a-linked-list-using-merge-sort-divide-and-conquer/) | 2021-01-15 |
