@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/teaching-kids-programming.png)
+
 # Teaching Kids Programming
 I teach my sons (currently they are aged 6 and 8) programming. I upload the video and write the blog. I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/doctorlai/)).
 **If you would like to suggest the topics, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new?title=[Suggest%20Topic]).**
@@ -105,5 +107,3 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Backtracking Algorithm to Solve N-queen Problem | N皇后回溯算法求解 | [Youtube](https://www.youtube.com/watch?v=aFi-B8grleA) - [B站](https://www.bilibili.com/video/BV13f4y1e7RW/) | [Backtracking Algorithm to Solve N-queen Problem](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-solve-n-queen-problem/) | 2020-12-20 |
 Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
 
-
-![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/2020-11-05%2020.43.17.jpg)
