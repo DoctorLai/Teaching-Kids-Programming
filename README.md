@@ -106,4 +106,4 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
 
 
-![](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/2020-12-29%2015.02.18.jpg)
+![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/2020-11-05%2020.43.17.jpg)
