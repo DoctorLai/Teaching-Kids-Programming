@@ -55,6 +55,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Add One To List | 加1算法 | [Youtube](https://youtu.be/nC7FiVRonq4) - [B站](https://www.bilibili.com/video/BV1gy4y1276P/) | [Add One To List](https://helloacm.com/teaching-kids-programming-add-one-to-list/) | 2021-01-31 |
 | Finding Pythagorean Triplets in Array using Two Pointer or Hash Set | 在数组中找勾股数的两种算法 | [Youtube](https://youtu.be/LZrB9094ltg) - [B站](https://www.bilibili.com/video/BV1FX4y1N7GZ/) | [Finding Pythagorean Triplets in Array using Two Pointer or Hash Set](https://helloacm.com/teaching-kids-programming-finding-pythagorean-triplets-in-array-using-two-pointer-or-hash-set/) | 2021-01-28 |
 | Adding Two Linked Lists | 两个单向链表相加的算法(数字倒序) | [Youtube](https://youtu.be/vUNyqdeSLr4) - [B站](https://www.bilibili.com/video/BV1hp4y1s7uS/) | [Adding Two Linked Lists](https://helloacm.com/teaching-kids-programming-adding-two-linked-list/) | 2021-01-27 |
 | Search in a 2D Sorted Matrix | 有序矩阵里搜索算法 | [Youtube](https://youtu.be/tQfvaMALYf0) - [B站](https://www.bilibili.com/video/BV16K4y1W7Rv/) | [Search in a 2D Sorted Matrix](https://helloacm.com/teaching-kids-programming-search-in-a-2d-sorted-matrix/) | 2021-01-19 |
