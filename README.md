@@ -34,6 +34,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Algorithms to Check If Integer Power of Three | 整数是否是3的N次方的算法 | [Youtube](https://youtu.be/H2-7talharo) - [B站](https://www.bilibili.com/video/BV1hf4y1675h/) | [Algorithms to Check if Integer Power of Three](https://helloacm.com/teaching-kids-programming-algorithms-to-check-integer-power-of-three/) | 2021-02-01 |
 | Compute the Number of Trailing Zeros for Factorial N | 计算N阶乘尾巴零的个数 | [Youtube](https://youtu.be/UrOAFizkGJw) - [B站](https://www.bilibili.com/video/BV1hA411u7m1/) | [Compute the Number of Trailing Zeros for Factorial N](https://helloacm.com/teaching-kids-programming-compute-the-number-of-trailing-zeros-for-factorial-n/) | 2021-01-29 |
 | Pascal Triangle Algorithms and Applications | 杨辉三角形(Pascal)的求解算法和应用 | [Youtube](https://youtu.be/uUdXScH-Qe0) - [B站](https://www.bilibili.com/video/BV1NK4y1W7iP/) | [Pascal Triangle Algorithms and Applications](https://helloacm.com/teaching-kids-programming-pascal-triangle-algorithms-and-applications/) | 2021-01-10 |
 | Pythagorean Theorem and Algorithm to Find Pythagorean Numbers | 勾股定理证明和求解算法 | [Youtube](https://youtu.be/F39ycJQO6i8) - [B站](https://www.bilibili.com/video/BV1FX4y1K7ZQ/) | [Pythagorean Theorem and Algorithm to Find Pythagorean Numbers](https://helloacm.com/teaching-kids-programming-pythagorean-theorem-and-algorithm-to-find-pythagorean-numbers/) | 2021-01-08 |
