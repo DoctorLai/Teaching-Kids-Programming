@@ -82,6 +82,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Recursive Algorithm to Cut/Trim a Binary Search Tree | 裁剪二叉搜索树的递归算法 | [Youtube](https://youtu.be/ZbKwMEHKqkY) - [B站](https://www.bilibili.com/video/BV1Bf4y1r7Ae/) | [Recursive Algorithm to Cut/Trim a Binary Search Tree](https://helloacm.com/teaching-kids-programming-recursive-algorithm-to-cut-trim-a-binary-search-tree/) | 2021-02-03 |
 | Algorithm to Check If Array is Monotonic | 单调数组的两种算法 | [Youtube](https://www.youtube.com/watch?v=-OD_IihyxCc&feature=youtu.be) - [B站](https://www.bilibili.com/video/BV1AK4y1s7VT/) | [Algorithm to Check If Array is Monotonic](https://helloacm.com/teaching-kids-programming-algorithm-to-check-if-array-is-monotonic/) | 2021-01-26 |
 | Algorithms to Compute the Intersection of Two Linked Lists | 求两条单向链表交点的算法 | [Youtube](https://youtu.be/yotJBx0EM7k) - [B站](https://www.bilibili.com/video/BV1mf4y1k7w8/) | [Algorithms to Compute the Intersection of Two Linked Lists](https://helloacm.com/teaching-kids-programming-algorithms-to-compute-the-intersection-of-two-linked-lists/) | 2021-01-25 |
 | Divide and Conquer Algorithm to Merge K Sorted Linked List | 合并K个有序单向链表的算法 | [Youtube](https://youtu.be/ZDV1xg0xl5A) - [B站](https://www.bilibili.com/video/BV1h54y1p7pU/) | [Divide and Conquer Algorithm to Merge K Sorted Linked List](https://helloacm.com/teaching-kids-programming-divide-and-conquer-algorithm-to-merge-k-sorted-linked-list/) | 2021-01-24 |
