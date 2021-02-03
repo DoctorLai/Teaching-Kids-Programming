@@ -112,3 +112,5 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Backtracking Algorithm to Solve N-queen Problem | N皇后回溯算法求解 | [Youtube](https://www.youtube.com/watch?v=aFi-B8grleA) - [B站](https://www.bilibili.com/video/BV13f4y1e7RW/) | [Backtracking Algorithm to Solve N-queen Problem](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-solve-n-queen-problem/) | 2020-12-20 |
 Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
 
+## Tags
+#algorithms #algorithm #recursion #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning
