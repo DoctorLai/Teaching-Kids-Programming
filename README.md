@@ -19,6 +19,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Compute the Hamming Distance of Two Integers | 计算两整数的汉明距离的算法 | [Youtube](https://youtu.be/CxXWO-vUroU) - [B站](https://www.bilibili.com/video/BV1Dr4y1P7w7/) | [Compute the Hamming Distance of Two Integers](https://helloacm.com/teaching-kids-programming-compute-the-hamming-distance-of-two-integers/) | 2021-02-08 |
 | Python Function to Check If Valid IPv4 Address | IPv4地址字符串验证算法 | [Youtube](https://youtu.be/fREvOGVmZ0I) - [B站](https://www.bilibili.com/video/BV1CK4y1D7do/) | [Python Function to Check If Valid IPv4 Address](https://helloacm.com/teaching-kids-programming-python-function-to-check-if-valid-ipv4-address/) | 2021-02-07 |
 | Compute the Number of Set Bits in an Integer | 整数二进制表示中1的数量 | [Youtube](https://www.youtube.com/watch?v=DIBuAd6fbTQ&feature=youtu.be) - [B站](https://www.bilibili.com/video/BV1cU4y1x7G3/) | [Compute the Number of Set Bits in an Integer](https://helloacm.com/teaching-kids-programming-compute-the-number-of-set-bits-in-an-integer/) | 2021-02-06 |
 | Introduction to ASCII | ASCII简介 | [Youtube](https://youtu.be/cNy8iWpe9YY) - [B站](https://www.bilibili.com/video/BV1ct4y1B7GP/) | [Introduction to ASCII](https://helloacm.com/teaching-kids-programming-introduction-to-ascii/) | 2021-01-30 |
