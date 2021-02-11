@@ -85,6 +85,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Algorithms to Determine a Happy Number | 快乐数字算法 | [Youtube](https://youtu.be/NsrSkNmmh70) - [B站](https://www.bilibili.com/video/BV1NV411q7YG/) | [Algorithms to Determine a Happy Number](https://helloacm.com/teaching-kids-programming-algorithms-to-determine-a-happy-number/) | 2021-02-11 |
 | Find the Single Number in Array | 寻找数组中的单一元素算法 | [Youtube](https://youtu.be/xC3mIIBJwW8) - [B站](https://www.bilibili.com/video/BV1xU4y1W7nQ/) | [Find the Single Number in Array](https://helloacm.com/teaching-kids-programming-find-the-single-number-in-array/) | 2021-02-10 |
 | Recursive Algorithm to Merge Two Binary Trees | 递归算法合并两个二叉树 | [Youtube](https://youtu.be/NkB9ilZ1Qww) - [B站](https://www.bilibili.com/video/BV1KA411g77j/) | [Recursive Algorithm to Merge Two Binary Trees](https://helloacm.com/teaching-kids-programming-recursive-algorithm-to-merge-two-binary-trees/) | 2021-02-09 |
 | Breadth First Search Algorithm to Check if All Leaves in Same Level of Binary Tree | 广度优先算法检查二叉树的叶子节点是否为同一层 | [Youtube](https://youtu.be/5p91fQ3Tabw) - [B站](https://www.bilibili.com/video/BV1Qt4y1B7Pv/) | [Breadth First Search Algorithm to Check if All Leaves in Same Level of Binary Tree](https://helloacm.com/teaching-kids-programming-breadth-first-search-algorithm-to-check-if-all-leaves-in-same-level-of-binary-tree/) | 2021-02-05 |
