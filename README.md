@@ -85,6 +85,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Recursive Algorithm to Compute the Maximum Depth of the Binary Tree | 递归算法求二叉树的最大深度 | [Youtube](https://youtu.be/Qg5hz_fPkSw) - [B站](https://www.bilibili.com/video/BV1vo4y197tJ/) | [Recursive Algorithm to Compute the Maximum Depth of the Binary Tree](https://helloacm.com/teaching-kids-programming-recursive-algorithm-to-compute-the-maximum-depth-of-the-binary-tree/) | 2021-02-13 |
 | Algorithm to Reverse Words in a Sentence | 反转单词算法 | [Youtube](https://youtu.be/BBEcz_7UbGI) - [B站](https://www.bilibili.com/video/BV1zv411a7qS/) | [Algorithm to Reverse Words in a Sentence](https://helloacm.com/teaching-kids-programming-algorithm-to-reverse-words-in-a-sentence/) | 2021-02-12 |
 | Algorithms to Determine a Happy Number | 快乐数字算法 | [Youtube](https://youtu.be/NsrSkNmmh70) - [B站](https://www.bilibili.com/video/BV1NV411q7YG/) | [Algorithms to Determine a Happy Number](https://helloacm.com/teaching-kids-programming-algorithms-to-determine-a-happy-number/) | 2021-02-11 |
 | Find the Single Number in Array | 寻找数组中的单一元素算法 | [Youtube](https://youtu.be/xC3mIIBJwW8) - [B站](https://www.bilibili.com/video/BV1xU4y1W7nQ/) | [Find the Single Number in Array](https://helloacm.com/teaching-kids-programming-find-the-single-number-in-array/) | 2021-02-10 |
@@ -123,3 +124,4 @@ Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.you
 
 ## Tags
 #algorithms #algorithm #recursion #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning
+#math
