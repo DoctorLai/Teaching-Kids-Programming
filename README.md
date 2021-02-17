@@ -86,6 +86,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Ugly Number Detection Algorithm | 丑数判别算法 | [Youtube](https://youtu.be/dQFK_cpBmlg) - [B站](https://www.bilibili.com/video/BV1Sy4y1E7PA/) | [Ugly Number Detection Algorithm](https://helloacm.com/teaching-kids-programming-ugly-number-detection-algorithm/) | 2021-02-17 |
 | Using Hash Set or Hash Table to Count Next Element | 使用哈希表来统计下一元素 | [Youtube](https://youtu.be/SWGAnxzohJk) - [B站](https://www.bilibili.com/video/BV1jb4y1R7bH/) | [Using Hash Set or Hash Table to Count Next Element](https://helloacm.com/teaching-kids-programming-using-hash-set-or-hash-table-to-count-next-element/) | 2021-02-15 |
 | BFS Algorithm to Compute the Maximum Depth of the Binary Tree | 广度优先算法求二叉树的最大深度 | [Youtube](https://youtu.be/1-Fm9eBqiBw) - [B站](https://www.bilibili.com/video/BV1s5411E783/) | [BFS Algorithm to Compute the Maximum Depth of the Binary Tree](https://helloacm.com/teaching-kids-programming-bfs-algorithm-to-compute-the-maximum-depth-of-the-binary-tree/) | 2021-02-14 |
 | Recursive Algorithm to Compute the Maximum Depth of the Binary Tree | 递归算法求二叉树的最大深度 | [Youtube](https://youtu.be/Qg5hz_fPkSw) - [B站](https://www.bilibili.com/video/BV1vo4y197tJ/) | [Recursive Algorithm to Compute the Maximum Depth of the Binary Tree](https://helloacm.com/teaching-kids-programming-recursive-algorithm-to-compute-the-maximum-depth-of-the-binary-tree/) | 2021-02-13 |
