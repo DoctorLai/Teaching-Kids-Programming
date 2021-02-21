@@ -87,6 +87,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Compute the Max Product of 3 Numbers in the Array | 数组中最大三数的乘积 | [Youtube](https://youtu.be/4_Q7HG-yaVw) - [B站](https://www.bilibili.com/video/BV1Qf4y1z7YT/) | [Compute the Max Product of 3 Numbers in the Array](https://helloacm.com/teaching-kids-programming-compute-the-max-product-of-3-numbers-in-the-array/) | 2021-02-21 |
 | The Left Side View of Binary Tree via Breadth First Search Algorithm | 广度优先算法计算二叉树左视图 | [Youtube](https://youtu.be/Bgfw7JG46Hg) - [B站](https://www.bilibili.com/video/BV1qK4y1S7Ab/) | [The Left Side View of Binary Tree via Breadth First Search Algorithm](https://helloacm.com/teaching-kids-programming-the-left-side-view-of-binary-tree-via-breadth-first-search-algorithm/) | 2021-02-19 |
 | Recursive Depth First Search Algorithm to Compare Leaf Equivalent Trees | 递归深度优先算法判断两二叉树是否有相同叶子序列 | [Youtube](https://youtu.be/OFuqkYr1RYY) - [B站](https://www.bilibili.com/video/BV1Lr4y1A7Np/) | [Recursive Depth First Search Algorithm to Compare Leaf Equivalent Trees](https://helloacm.com/teaching-kids-programming-recursive-depth-first-search-algorithm-to-compare-leaf-equivalent-trees/) | 2021-02-18 |
 | Ugly Number Detection Algorithm | 丑数判别算法 | [Youtube](https://youtu.be/dQFK_cpBmlg) - [B站](https://www.bilibili.com/video/BV1Sy4y1E7PA/) | [Ugly Number Detection Algorithm](https://helloacm.com/teaching-kids-programming-ugly-number-detection-algorithm/) | 2021-02-17 |
