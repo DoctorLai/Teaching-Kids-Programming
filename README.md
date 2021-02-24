@@ -88,6 +88,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Recursive Algorithm to Find the Sum of Two Numbers in BSTs | 递归算法寻找两个二叉搜索树中的和 | [Youtube](https://youtu.be/De1PbMIt350) - [B站](https://www.bilibili.com/video/BV1SV411e7si/) | [Recursive Algorithm to Find the Sum of Two Numbers in BSTs](https://helloacm.com/teaching-kids-programming-recursive-algorithm-to-find-the-sum-of-two-numbers-in-bsts/) | 2021-02-24 |
 | Confusing Number Validation Algorithm | 令人困惑的数字判断算法 | [Youtube](https://youtu.be/u6GTvgS0SzQ) - [B站](https://www.bilibili.com/video/BV1zp4y1n7GM/) | [Confusing Number Validation Algorithm](https://helloacm.com/teaching-kids-programming-confusing-number-validation-algorithm/) | 2021-02-22 |
 | Compute the Max Product of 3 Numbers in the Array | 数组中最大三数的乘积 | [Youtube](https://youtu.be/4_Q7HG-yaVw) - [B站](https://www.bilibili.com/video/BV1Qf4y1z7YT/) | [Compute the Max Product of 3 Numbers in the Array](https://helloacm.com/teaching-kids-programming-compute-the-max-product-of-3-numbers-in-the-array/) | 2021-02-21 |
 | The Left Side View of Binary Tree via Breadth First Search Algorithm | 广度优先算法计算二叉树左视图 | [Youtube](https://youtu.be/Bgfw7JG46Hg) - [B站](https://www.bilibili.com/video/BV1qK4y1S7Ab/) | [The Left Side View of Binary Tree via Breadth First Search Algorithm](https://helloacm.com/teaching-kids-programming-the-left-side-view-of-binary-tree-via-breadth-first-search-algorithm/) | 2021-02-19 |
