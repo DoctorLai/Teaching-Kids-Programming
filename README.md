@@ -63,6 +63,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Introduction to Dynamic Programming Algorithm | 动态规化算法简介 | [Youtube](https://youtu.be/y01I9QSyLR4) - [B站](https://www.bilibili.com/video/BV1XU4y1W7XZ/) | [Introduction to Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-introduction-to-dynamic-programming-algorithm/) | 2021-02-25 |
 | Add One To List | 加1算法 | [Youtube](https://youtu.be/nC7FiVRonq4) - [B站](https://www.bilibili.com/video/BV1gy4y1276P/) | [Add One To List](https://helloacm.com/teaching-kids-programming-add-one-to-list/) | 2021-01-31 |
 | Finding Pythagorean Triplets in Array using Two Pointer or Hash Set | 在数组中找勾股数的两种算法 | [Youtube](https://youtu.be/LZrB9094ltg) - [B站](https://www.bilibili.com/video/BV1FX4y1N7GZ/) | [Finding Pythagorean Triplets in Array using Two Pointer or Hash Set](https://helloacm.com/teaching-kids-programming-finding-pythagorean-triplets-in-array-using-two-pointer-or-hash-set/) | 2021-01-28 |
 | Adding Two Linked Lists | 两个单向链表相加的算法(数字倒序) | [Youtube](https://youtu.be/vUNyqdeSLr4) - [B站](https://www.bilibili.com/video/BV1hp4y1s7uS/) | [Adding Two Linked Lists](https://helloacm.com/teaching-kids-programming-adding-two-linked-list/) | 2021-01-27 |
