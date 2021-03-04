@@ -64,6 +64,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Is Subsequence Algorithm via Two Pointer | 通过双指针来检查子串算法 | [Youtube](https://youtu.be/j1DJZaRkWqM) - [B站](https://www.bilibili.com/video/BV1ky4y1a7Mx/) | [Is Subsequence Algorithm via Two Pointer](https://helloacm.com/teaching-kids-programming-is-subsequence-algorithm-via-two-pointer/) | 2021-03-04 |
 | Count Number of Ways to Walk in a Grid using Dynamic Programming or Combination | 动态规化或组合数学算法来数方格里的走法 | [Youtube](https://youtu.be/TwUHdo48tdI) - [B站](https://www.bilibili.com/video/BV1xz4y1m7XW/) | [Count Number of Ways to Walk in a Grid using Dynamic Programming or Combination](https://helloacm.com/teaching-kids-programming-count-number-of-ways-to-walk-in-a-grid-using-dynamic-programming-or-combination/) | 2021-02-26 |
 | Introduction to Dynamic Programming Algorithm | 动态规化算法简介 | [Youtube](https://youtu.be/y01I9QSyLR4) - [B站](https://www.bilibili.com/video/BV1XU4y1W7XZ/) | [Introduction to Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-introduction-to-dynamic-programming-algorithm/) | 2021-02-25 |
 | Add One To List | 加1算法 | [Youtube](https://youtu.be/nC7FiVRonq4) - [B站](https://www.bilibili.com/video/BV1gy4y1276P/) | [Add One To List](https://helloacm.com/teaching-kids-programming-add-one-to-list/) | 2021-01-31 |
