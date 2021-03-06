@@ -87,6 +87,8 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Recursion in Five Minutes | 五分钟讲递归 | [Youtube](https://www.youtube.com/watch?v=uMD-9jdqxOA) - [B站](https://www.bilibili.com/video/BV1Va411F7qT/) | [Recursion in Five Minutes](https://helloacm.com/teaching-kids-programming-recursion-in-five-minutes/) | 2020-11-22 |
 
 ## Dynamic Programming Algorithms 动态规化算法
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
 | Dynamic Programming Algorithms to Compute the Least Number of Perfect Squares | 动态规化算法来求最少完美数之和 | [Youtube](https://youtu.be/vBuk_tfxJG0) - [B站](https://www.bilibili.com/video/BV1eV411Y7ev/) | [Dynamic Programming Algorithms to Compute the Least Number of Perfect Squares](https://helloacm.com/teaching-kids-programming-dynamic-programming-algorithms-to-compute-the-least-number-of-perfect-squares/) | 2021-03-06 |
 | Dynamic Programming Algorithms to Compute the Number of Derangement Permutations | 动态规化算法求错位排列数 | [Youtube](https://youtu.be/FtoZMJ59pm0) - [B站](https://www.bilibili.com/video/BV11N41197U1/) | [Dynamic Programming Algorithms to Compute the Number of Derangement Permutations](https://helloacm.com/teaching-kids-programming-dynamic-programming-algorithms-to-compute-the-number-of-derangement-permutations/) | 2021-03-03 |
 | Count Number of Ways to Walk in a Grid using Dynamic Programming or Combination | 动态规化或组合数学算法来数方格里的走法 | [Youtube](https://youtu.be/TwUHdo48tdI) - [B站](https://www.bilibili.com/video/BV1xz4y1m7XW/) | [Count Number of Ways to Walk in a Grid using Dynamic Programming or Combination](https://helloacm.com/teaching-kids-programming-count-number-of-ways-to-walk-in-a-grid-using-dynamic-programming-or-combination/) | 2021-02-26 |
