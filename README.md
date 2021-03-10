@@ -82,7 +82,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Algorithms to Search in a Binary Search Tree | 在二分搜索树里查找算法 | [Youtube](https://www.youtube.com/watch?v=ZyL4iPAza-I) - [B站](https://www.bilibili.com/video/BV1Xa4y1H7Bc/) | [Algorithms to Search in a Binary Search Tree](https://helloacm.com/teaching-kids-programming-algorithms-to-search-in-binary-search-tree/) | 2020-12-16 |
 | Algorithms of Greatest Common Divisor and Least Common Multiples | 求最大公约数和最小公倍数的算法 | [Youtube](https://www.youtube.com/watch?v=mmvdrFYu5X0) - [B站](https://www.bilibili.com/video/BV1XK41137KA/) | [Algorithms of Greatest Common Divisor and Least Common Multiples](https://helloacm.com/teaching-kids-programming-algorithms-of-greatest-common-divisor-and-least-common-multiples/) | 2020-12-03 |
 | From Linear Search to Binary Search Algorithm | 线性搜索到二分查找 | [Youtube](https://www.youtube.com/watch?v=nGzWpefKYAo) - [B站](https://www.bilibili.com/video/BV1Pi4y157vf/) | [From Linear Search to Binary Search Algorithm](https://helloacm.com/teaching-kids-programming-from-linear-search-to-binary-search-algorithm/) | 2020-11-23 |
-| Recursion in Five Minutes | 五分钟讲递归 | [Youtube](https://www.youtube.com/watch?v=uMD-9jdqxOA) - [B站](https://www.bilibili.com/video/BV1Va411F7qT/) | [Recursion in Five Minutes](https://helloacm.com/teaching-kids-programming-recursion-in-five-minutes/) | 2020-11-22 |
 
 ## Dynamic Programming Algorithms 动态规化算法
 | Title | Title Chinese | Video | Blog | Date |
@@ -97,6 +96,12 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Climbing the Stairs using Dynamic Programming Algorithm | 动态规化算法来计算爬楼梯的方法数 | [Youtube](https://youtu.be/KUWh5Ce3ELw) - [B站](https://www.bilibili.com/video/BV1MX4y1V7kD/) | [Climbing the Stairs using Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-climbing-the-stairs-using-dynamic-programming-algorithm/) | 2021-02-27 |
 | Count Number of Ways to Walk in a Grid using Dynamic Programming or Combination | 动态规化或组合数学算法来数方格里的走法 | [Youtube](https://youtu.be/TwUHdo48tdI) - [B站](https://www.bilibili.com/video/BV1xz4y1m7XW/) | [Count Number of Ways to Walk in a Grid using Dynamic Programming or Combination](https://helloacm.com/teaching-kids-programming-count-number-of-ways-to-walk-in-a-grid-using-dynamic-programming-or-combination/) | 2021-02-26 |
 | Introduction to Dynamic Programming Algorithm | 动态规化算法简介 | [Youtube](https://youtu.be/y01I9QSyLR4) - [B站](https://www.bilibili.com/video/BV1XU4y1W7XZ/) | [Introduction to Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-introduction-to-dynamic-programming-algorithm/) | 2021-02-25 |
+
+## Recursion 递归
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Recursive Permutation Algorithm | 递归全排列算法 | [Youtube](https://youtu.be/VFxjVEHhXdQ) - [B站](https://www.bilibili.com/video/BV1654y1a7s6/) | [Recursive Permutation Algorithm](https://helloacm.com/teaching-kids-programming-recursive-permutation-algorithm/) | 2021-03-10 |
+| Recursion in Five Minutes | 五分钟讲递归 | [Youtube](https://www.youtube.com/watch?v=uMD-9jdqxOA) - [B站](https://www.bilibili.com/video/BV1Va411F7qT/) | [Recursion in Five Minutes](https://helloacm.com/teaching-kids-programming-recursion-in-five-minutes/) | 2020-11-22 |
 
 ## Depth First Search + Backtracking Algorithms 深度优先算法+回溯
 | Title | Title Chinese | Video | Blog | Date |
