@@ -64,6 +64,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Two Array Intersection Algorithms | 两数组相交算法 | [Youtube](https://youtu.be/UHnIbBqLU5M) - [B站](https://www.bilibili.com/video/BV1EX4y137k8/) | [Two Array Intersection Algorithms](https://helloacm.com/teaching-kids-programming-two-array-intersection-algorithms/) | 2021-03-14 |
 | Is Subsequence Algorithm via Two Pointer | 通过双指针来检查子串算法 | [Youtube](https://youtu.be/j1DJZaRkWqM) - [B站](https://www.bilibili.com/video/BV1ky4y1a7Mx/) | [Is Subsequence Algorithm via Two Pointer](https://helloacm.com/teaching-kids-programming-is-subsequence-algorithm-via-two-pointer/) | 2021-03-04 |
 | Add One To List | 加1算法 | [Youtube](https://youtu.be/nC7FiVRonq4) - [B站](https://www.bilibili.com/video/BV1gy4y1276P/) | [Add One To List](https://helloacm.com/teaching-kids-programming-add-one-to-list/) | 2021-01-31 |
 | Finding Pythagorean Triplets in Array using Two Pointer or Hash Set | 在数组中找勾股数的两种算法 | [Youtube](https://youtu.be/LZrB9094ltg) - [B站](https://www.bilibili.com/video/BV1FX4y1N7GZ/) | [Finding Pythagorean Triplets in Array using Two Pointer or Hash Set](https://helloacm.com/teaching-kids-programming-finding-pythagorean-triplets-in-array-using-two-pointer-or-hash-set/) | 2021-01-28 |
