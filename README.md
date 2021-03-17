@@ -104,6 +104,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Recursion 递归
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Recursive Combination Algorithm | 递归组合算法 | [Youtube](https://youtu.be/S4bXLpou9CE) - [B站](https://www.bilibili.com/video/BV115411P7D5/) | [Recursive Combination Algorithm](https://helloacm.com/teaching-kids-programming-recursive-backtracking-algorithm-to-compute-the-combinations/) | 2021-03-17 |
 | Recursive Algorithm to Find the Lowest Common Ancestor of a Binary Search Tree | 递归算法求两节点的共同最低祖先 | [Youtube](https://youtu.be/5MUSjU7zEnk) - [B站](https://www.bilibili.com/video/BV1wi4y1K7dw/) | [Recursive Algorithm to Find the Lowest Common Ancestor of a Binary Search Tree](https://helloacm.com/teaching-kids-programming-recursive-algorithm-to-find-the-lowest-common-ancestor-of-a-binary-search-tree/) | 2021-03-13 |
 | Recursive Permutation Algorithm | 递归全排列算法 | [Youtube](https://youtu.be/VFxjVEHhXdQ) - [B站](https://www.bilibili.com/video/BV1654y1a7s6/) | [Recursive Permutation Algorithm](https://helloacm.com/teaching-kids-programming-recursive-permutation-algorithm/) | 2021-03-10 |
 | Recursion in Five Minutes | 五分钟讲递归 | [Youtube](https://www.youtube.com/watch?v=uMD-9jdqxOA) - [B站](https://www.bilibili.com/video/BV1Va411F7qT/) | [Recursion in Five Minutes](https://helloacm.com/teaching-kids-programming-recursion-in-five-minutes/) | 2020-11-22 |
