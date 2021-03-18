@@ -128,6 +128,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Two Sum Algorithm | 双和算法 | [Youtube](https://youtu.be/rnx3odsuksE) - [B站](https://www.bilibili.com/video/BV1Yp4y1h7cT/) | [Two Sum Algorithm](https://helloacm.com/teaching-kids-programming-two-sum-algorithm/) | 2021-03-18 |
 | Using a Stack to Remove All Adjacent Duplicates In String | 使用堆栈来移除相邻相同字符的算法 | [Youtube](https://youtu.be/lKIrVNEKOUM) - [B站](https://www.bilibili.com/video/BV1iV411Y7zf/) | [Using a Stack to Remove All Adjacent Duplicates In String](https://helloacm.com/teaching-kids-programming-using-a-stack-to-remove-all-adjacent-duplicates-in-string/) | 2021-03-08 |
 | Multipy Two Integers Without Multiplication, Division and Bit Shifting | 不用乘号除号和比特移位来计算两整数乘法 | [Youtube](https://youtu.be/Tw05IDsebr0) - [B站](https://www.bilibili.com/video/BV1My4y1a7yA/) | [Multipy Two Integers Without Multiplication, Division and Bit Shifting](https://helloacm.com/teaching-kids-programming-multipy-two-integers-without-multiplication-division-and-bit-shifting/) | 2021-03-05 |
 | Recursive Algorithm to Find the Sum of Two Numbers in BSTs | 递归算法寻找两个二叉搜索树中的和 | [Youtube](https://youtu.be/De1PbMIt350) - [B站](https://www.bilibili.com/video/BV1SV411e7si/) | [Recursive Algorithm to Find the Sum of Two Numbers in BSTs](https://helloacm.com/teaching-kids-programming-recursive-algorithm-to-find-the-sum-of-two-numbers-in-bsts/) | 2021-02-24 |
