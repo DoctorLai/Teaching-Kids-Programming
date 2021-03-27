@@ -130,6 +130,11 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | BFS Algorithm to Compute the Maximum Depth of the Binary Tree | 广度优先算法求二叉树的最大深度 | [Youtube](https://youtu.be/1-Fm9eBqiBw) - [B站](https://www.bilibili.com/video/BV1s5411E783/) | [BFS Algorithm to Compute the Maximum Depth of the Binary Tree](https://helloacm.com/teaching-kids-programming-bfs-algorithm-to-compute-the-maximum-depth-of-the-binary-tree/) | 2021-02-14 |
 | Revisit Breadth First Search Algorithm via Jump Game | 广度优先算法 Jump Game | [Youtube](https://www.youtube.com/watch?v=HaEcn2SLITM) - [B站](https://www.bilibili.com/video/BV1i64y1f772/) | [Revisit Breadth First Search Algorithm via Jump Game](https://helloacm.com/teaching-kids-programming-revisit-breadth-first-search-algorithm-via-a-jumping-game/) | 2020-12-05 |
 
+## Graphs 图论
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Algorithms to Find Center of Star Graph | 找星型图中心的算法 | [Youtube](https://youtu.be/-UC9Cc-VmwA) - [B站](https://www.bilibili.com/video/BV1XK411c7i6/) | [Find Center of Star Graph](https://helloacm.com/teaching-kids-programming-find-center-of-star-graph/) | 2021-03-27 |
+
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
