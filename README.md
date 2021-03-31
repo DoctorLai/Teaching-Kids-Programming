@@ -19,7 +19,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Compute the Hamming Distance of Two Integers | 计算两整数的汉明距离的算法 | [Youtube](https://youtu.be/CxXWO-vUroU) - [B站](https://www.bilibili.com/video/BV1Dr4y1P7w7/) | [Compute the Hamming Distance of Two Integers](https://helloacm.com/teaching-kids-programming-compute-the-hamming-distance-of-two-integers/) | 2021-02-08 |
 | Python Function to Check If Valid IPv4 Address | IPv4地址字符串验证算法 | [Youtube](https://youtu.be/fREvOGVmZ0I) - [B站](https://www.bilibili.com/video/BV1CK4y1D7do/) | [Python Function to Check If Valid IPv4 Address](https://helloacm.com/teaching-kids-programming-python-function-to-check-if-valid-ipv4-address/) | 2021-02-07 |
 | Compute the Number of Set Bits in an Integer | 整数二进制表示中1的数量 | [Youtube](https://www.youtube.com/watch?v=DIBuAd6fbTQ&feature=youtu.be) - [B站](https://www.bilibili.com/video/BV1cU4y1x7G3/) | [Compute the Number of Set Bits in an Integer](https://helloacm.com/teaching-kids-programming-compute-the-number-of-set-bits-in-an-integer/) | 2021-02-06 |
 | Introduction to ASCII | ASCII简介 | [Youtube](https://youtu.be/cNy8iWpe9YY) - [B站](https://www.bilibili.com/video/BV1ct4y1B7GP/) | [Introduction to ASCII](https://helloacm.com/teaching-kids-programming-introduction-to-ascii/) | 2021-01-30 |
@@ -47,6 +46,13 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Pythagorean Theorem and Algorithm to Find Pythagorean Numbers | 勾股定理证明和求解算法 | [Youtube](https://youtu.be/F39ycJQO6i8) - [B站](https://www.bilibili.com/video/BV1FX4y1K7ZQ/) | [Pythagorean Theorem and Algorithm to Find Pythagorean Numbers](https://helloacm.com/teaching-kids-programming-pythagorean-theorem-and-algorithm-to-find-pythagorean-numbers/) | 2021-01-08 |
 | Compute the Average and Median | 求平均数和中位数 | [Youtube](https://www.youtube.com/watch?v=mqKoDE5eUx8) - [B站](https://www.bilibili.com/video/BV1Tz4y1C7ii/) | [Compute the Average and Median](https://helloacm.com/teaching-kids-programming-compute-the-average-and-median/) | 2020-12-04 |
 | Introduction to Math Induction Tool (Sum of Integers, Sum of Squares) | 数学归纳法简介（数列求和，数列平方和）| [Youtube](https://www.youtube.com/watch?v=mUTSBECjd8w) - [B站](https://www.bilibili.com/video/BV1Py4y1B7bj/) | [Introduction to Math Induction Tool (Sum of Integers, Sum of Squares)](https://helloacm.com/teaching-kids-programming-introduction-to-math-induction/) | 2020-12-07 |
+
+## Bit 位
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Longest Consecutive Run of 1s in Binary | 求整数二进制中最大连续1的个数 | [Youtube](https://youtu.be/BbhcquVZ-Rc) - [B站](https://www.bilibili.com/video/BV1ip4y187Ry/) | [Longest Consecutive Run of 1s in Binary](https://helloacm.com/teaching-kids-programming-longest-consecutive-run-of-1s-in-binary/) | 2021-03-31 |
+| Compute the Hamming Distance of Two Integers | 计算两整数的汉明距离的算法 | [Youtube](https://youtu.be/CxXWO-vUroU) - [B站](https://www.bilibili.com/video/BV1Dr4y1P7w7/) | [Compute the Hamming Distance of Two Integers](https://helloacm.com/teaching-kids-programming-compute-the-hamming-distance-of-two-integers/) | 2021-02-08 |
+
 
 ## Data Structures 数据结构 
 | Title | Title Chinese | Video | Blog | Date |
