@@ -49,6 +49,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Bit 位
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Reverse Bits of a 32-bit Integer | 反转32位整数位 | [Youtube](https://youtu.be/AfMh1q00-zM) - [B站](https://www.bilibili.com/video/BV1jU4y1h7M4/) | [Reverse Bits of a 32-bit Integer](https://helloacm.com/teaching-kids-programming-reverse-bits-of-a-32-bit-integer/) | 2021-04-02 |
 | Longest Consecutive Run of 1s in Binary | 求整数二进制中最大连续1的个数 | [Youtube](https://youtu.be/BbhcquVZ-Rc) - [B站](https://www.bilibili.com/video/BV1ip4y187Ry/) | [Longest Consecutive Run of 1s in Binary](https://helloacm.com/teaching-kids-programming-longest-consecutive-run-of-1s-in-binary/) | 2021-03-31 |
 | Compute the Hamming Distance of Two Integers | 计算两整数的汉明距离的算法 | [Youtube](https://youtu.be/CxXWO-vUroU) - [B站](https://www.bilibili.com/video/BV1Dr4y1P7w7/) | [Compute the Hamming Distance of Two Integers](https://helloacm.com/teaching-kids-programming-compute-the-hamming-distance-of-two-integers/) | 2021-02-08 |
 | Compute the Number of Set Bits in an Integer | 整数二进制表示中1的数量 | [Youtube](https://www.youtube.com/watch?v=DIBuAd6fbTQ&feature=youtu.be) - [B站](https://www.bilibili.com/video/BV1cU4y1x7G3/) | [Compute the Number of Set Bits in an Integer](https://helloacm.com/teaching-kids-programming-compute-the-number-of-set-bits-in-an-integer/) | 2021-02-06 |
