@@ -1,10 +1,16 @@
 ![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/teaching-kids-programming.png)
 
 # Teaching Kids Programming
-I teach my sons (currently they are aged 6 and 8) programming. I upload the video and write the blog. I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/doctorlai/)).
+I teach my sons (currently they are aged 7 and 8) programming. I upload the video and write the blog. 
+
 **If you would like to suggest the topics, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new?title=[Suggest%20Topic]).**
 
 The videos and blog are in **English**. The Teaching Programming Language is **Python**.
+
+## About Me
+I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/doctorlai/)). I am located at Cambridge, UK - and I work for Amazon AWS S3 - and I work on [S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) from Day 1.
+
+Prior to AWS, I worked for General Electric as a Staff Software Engineer and I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
 
 ## Channels and Blog
 - [Youtube Channel](https://www.youtube.com/channel/UCK2ugmUOoYne1qQfSAph4nQ)
@@ -118,6 +124,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Depth First Search + Backtracking Algorithms 深度优先算法+回溯
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Depth First Search Algorithm to Determine a Univalue Binary Tree | 深度优先算法检查是否是单值二叉树 | [Youtube](https://youtu.be/IO_oQXU6YDw) - [B站](https://www.bilibili.com/video/BV1N64y1S7Si/) | [Depth First Search Algorithm to Determine a Univalue Binary Tree](https://helloacm.com/teaching-kids-programming-depth-first-search-algorithms-to-determine-a-univalue-binary-tree/) | 2021-04-03 |
 | Depth First Search Algorithm to Find the Only Child in Binary Tree | 深度优先算法找单孩子节点 | [Youtube](https://youtu.be/mfh6He330aw) - [B站](https://www.bilibili.com/video/BV1YA411N7ki/) | [Depth First Search Algorithm to Find the Only Child in Binary Tree](https://helloacm.com/teaching-kids-programming-depth-first-search-algorithm-to-find-the-only-child-in-binary-tree/) | 2021-03-29 |
 | Maximum Level Sum of a Binary Tree using DFS Algorithm | 深度优先算法找层节点和最大的那一层 | [Youtube](https://youtu.be/MNh4E0CnV3I) - [B站](https://www.bilibili.com/video/BV1jy4y1h76E/) | [Maximum Level Sum of a Binary Tree using DFS Algorithm](https://helloacm.com/teaching-kids-programming-maximum-level-sum-of-a-binary-tree-using-dfs-algorithm/) | 2021-03-25 |
 | Depth First Search Algorithm to Sum Root to Leaf Numbers in Binary Tree | 深度优先算法求根节点到叶子数字之和 | [Youtube](https://youtu.be/ftAEQLoI0W0) - [B站](https://www.bilibili.com/video/BV15A411N78u/) | [Depth First Search Algorithm to Sum Root to Leaf Numbers in Binary Tree](https://helloacm.com/teaching-kids-programming-depth-first-search-algorithm-to-sum-the-root-to-leaf-numbers-in-binary-tree/) | 2021-03-20 |
@@ -195,5 +202,4 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
 
 ## Tags
-#algorithms #algorithm #recursion #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning
-#math
+#algorithms #algorithm #recursion #math #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning #tutorial #computing
