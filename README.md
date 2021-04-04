@@ -25,6 +25,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Packing Boxes Algorithm using GroupBy | GroupBy算法 | [Youtube](https://youtu.be/nzjKqIYaLYs) - [B站](https://www.bilibili.com/video/BV1JK411w7r8/) | [Packing Boxes Algorithm using GroupBy](https://helloacm.com/teaching-kids-programming-packing-boxes-algorithm-using-groupby/) | 2021-04-04 |
 | Python Function to Check If Valid IPv4 Address | IPv4地址字符串验证算法 | [Youtube](https://youtu.be/fREvOGVmZ0I) - [B站](https://www.bilibili.com/video/BV1CK4y1D7do/) | [Python Function to Check If Valid IPv4 Address](https://helloacm.com/teaching-kids-programming-python-function-to-check-if-valid-ipv4-address/) | 2021-02-07 |
 | Introduction to ASCII | ASCII简介 | [Youtube](https://youtu.be/cNy8iWpe9YY) - [B站](https://www.bilibili.com/video/BV1ct4y1B7GP/) | [Introduction to ASCII](https://helloacm.com/teaching-kids-programming-introduction-to-ascii/) | 2021-01-30 |
 | Re-implement the enumerate in Python using yield in a Generator | Python中enumerate方法和实现 | [Youtube](https://youtu.be/r6bkEfOdo1A) - [B站](https://www.bilibili.com/video/BV1By4y1m74R/) | [Re-implement the enumerate in Python using yield in a Generator](https://helloacm.com/teaching-kids-programming-re-implement-the-enumerate-in-python-using-yield-in-a-generator/) | 2021-01-18 |
