@@ -156,6 +156,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Algorithms to Find Lucky Integer in an Array | 数组中找幸运数的算法 | [Youtube](https://youtu.be/m_TomexgaXE) - [B站](https://www.bilibili.com/video/BV1HK411w73w/) | [Algorithms to Find Lucky Integer in an Array](https://helloacm.com/teaching-kids-programming-finding-the-largest-lucky-number-in-the-array/) | 2021-04-06 |
 | Find N Unique Integers Sum up to Zero | 构建零和独有数组的算法 | [Youtube](https://youtu.be/7OUAKJeN1rg) - [B站](https://www.bilibili.com/video/BV1CK411w7i8/) | [Find N Unique Integers Sum up to Zero](https://helloacm.com/teaching-kids-programming-find-n-unique-integers-sum-up-to-zero/) | 2021-04-01 |
 | Palindrome Count Algorithm | 通过指定字符串构造回文字符串算法 | [Youtube](https://youtu.be/r_2JQ3jh6jI) - [B站](https://www.bilibili.com/video/BV1ry4y1t7Pv/) | [Palindrome Count Algorithm](https://helloacm.com/teaching-kids-programming-palindrome-count-algorithm/) | 2021-03-26 |
 | Two Sum Algorithm when Array is Sorted | 有序数组的双和算法 | [Youtube](https://youtu.be/eYuOHQ8j8BQ) - [B站](https://www.bilibili.com/video/BV15f4y1t7kP/) | [Two Sum Algorithm when Array is Sorted](https://helloacm.com/teaching-kids-programming-two-sum-algorithm-when-input-array-is-sorted/) | 2021-03-22 |
