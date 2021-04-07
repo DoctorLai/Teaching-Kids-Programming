@@ -76,6 +76,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Algorithms to Find the Inorder Successor of a Binary Search Tree | 在二叉搜索树中查找后继节点的算法 | [Youtube](https://youtu.be/XCFkt1E7qEQ) - [B站](https://www.bilibili.com/video/BV1Rv411j7mG/) | [Algorithms to Find the Inorder Successor of a Binary Search Tree](https://helloacm.com/teaching-kids-programming-algorithms-to-find-the-inorder-successor-of-a-binary-search-tree/) | 2021-04-07 |
 | Three Sum Algorithm | 数组三合算法 | [Youtube](https://youtu.be/nC_6Gk-xSNo) - [B站](https://www.bilibili.com/video/BV1ii4y1P7FC/) | [Three Sum Algorithm](https://helloacm.com/teaching-kids-programming-three-sum-algorithm/) | 2021-03-23 |
 | Two Array Intersection Algorithms | 两数组相交算法 | [Youtube](https://youtu.be/UHnIbBqLU5M) - [B站](https://www.bilibili.com/video/BV1EX4y137k8/) | [Two Array Intersection Algorithms](https://helloacm.com/teaching-kids-programming-two-array-intersection-algorithms/) | 2021-03-14 |
 | Is Subsequence Algorithm via Two Pointer | 通过双指针来检查子串算法 | [Youtube](https://youtu.be/j1DJZaRkWqM) - [B站](https://www.bilibili.com/video/BV1ky4y1a7Mx/) | [Is Subsequence Algorithm via Two Pointer](https://helloacm.com/teaching-kids-programming-is-subsequence-algorithm-via-two-pointer/) | 2021-03-04 |
