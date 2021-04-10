@@ -155,6 +155,12 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Algorithms to Find Center of Star Graph | 找星型图中心的算法 | [Youtube](https://youtu.be/-UC9Cc-VmwA) - [B站](https://www.bilibili.com/video/BV1XK411c7i6/) | [Find Center of Star Graph](https://helloacm.com/teaching-kids-programming-find-center-of-star-graph/) | 2021-03-27 |
 | Introduction to Graph Data Structure | 数据结构之图的简介 | [Youtube](https://youtu.be/HZUdZ-KObyI) - [B站](https://www.bilibili.com/video/BV1z54y1x7FA/) | [Introduction to Graph Data Structure](https://helloacm.com/teaching-kids-programming-introduction-to-graph-data-structure/) | 2021-01-02 |
 
+## Greedy Algorithm 贪心算法
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Greedy Algorithm to Complete Tasks | 贪心算法完成任务 | [Youtube](https://youtu.be/KbQ-x8qrXw0) - [B站](https://www.bilibili.com/video/BV19K4y1m7oj/) | [Greedy Algorithm to Complete Tasks](https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-complete-tasks/) | 2021-04-10 |
+| Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
+
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
@@ -205,7 +211,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Sum of First N Even Numbers (with Mathematic Induction) | 求前N个偶数之和（数学归纳法） | [Youtube](https://www.youtube.com/watch?v=p72HI0HGW80) - [B站](https://www.bilibili.com/video/BV1RK411u7j6/) | [Sum of First N Even Numbers (with Mathematic Induction)](https://helloacm.com/teaching-kids-programming-sum-of-first-n-even-numbers-with-mathematic-induction/) | 2020-12-22 |
 | Sum of First N Odd Numbers (with Math Induction) | 前N个奇数之和（数学归纳法） | [Youtube](https://www.youtube.com/watch?v=qIn_Uig9FbI) - [B站](https://www.bilibili.com/video/BV1Ri4y157qT/) | [Sum of First N Odd Numbers (with Math Induction)](https://helloacm.com/teaching-kids-programming-sum-of-first-n-odd-numbers-with-math-induction/) | 2020-12-21 |
 | Backtracking Algorithm to Solve N-queen Problem | N皇后回溯算法求解 | [Youtube](https://www.youtube.com/watch?v=aFi-B8grleA) - [B站](https://www.bilibili.com/video/BV13f4y1e7RW/) | [Backtracking Algorithm to Solve N-queen Problem](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-solve-n-queen-problem/) | 2020-12-20 |
-Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
 
 ## Tags
 #algorithms #algorithm #recursion #math #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning #tutorial #computing
