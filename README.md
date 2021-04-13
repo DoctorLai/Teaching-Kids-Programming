@@ -165,6 +165,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Converting Spreadsheet Column Titles to Number | 表格26进制列字母转换成十进制算法 | [Youtube](https://youtu.be/omlXDhncyAA) - [B站](https://www.bilibili.com/video/BV17U4y1h7nH/) | [Converting Spreadsheet Column Titles to Number](https://helloacm.com/teaching-kids-programming-converting-spreadsheet-column-titles-to-number/) | 2021-04-13 |
 | Using Heap (Priority Queue) to Generate Nth Ugly Number | 生成第N个丑数的堆算法 | [Youtube](https://youtu.be/DHWgxr5V9SM) - [B站](https://www.bilibili.com/video/BV1Mv41177tm/) | [Using Heap (Priority Queue) to Generate Nth Ugly Number](https://helloacm.com/teaching-kids-programming-using-heap-priority-queue-to-generate-nth-ugly-number/) | 2021-04-11 |
 | Set Split Algorithm | 集合拆分算法 | [Youtube](https://youtu.be/yvTL8uiigeg) - [B站](https://www.bilibili.com/video/BV1Kf4y1s74v/) | [Set Split Algorithm](https://helloacm.com/teaching-kids-programming-set-split-algorithm/) | 2021-04-09 |
 | Algorithms to Find Lucky Integer in an Array | 数组中找幸运数的算法 | [Youtube](https://youtu.be/m_TomexgaXE) - [B站](https://www.bilibili.com/video/BV1HK411w73w/) | [Algorithms to Find Lucky Integer in an Array](https://helloacm.com/teaching-kids-programming-finding-the-largest-lucky-number-in-the-array/) | 2021-04-06 |
