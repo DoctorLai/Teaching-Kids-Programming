@@ -168,6 +168,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sudoku Validator/Algorithm using 27 Hash Sets | 用27个哈希集合来验证数独是否有效 | [Youtube](https://youtu.be/gjY7CBqNtAs) - [B站](https://www.bilibili.com/video/BV1Dp4y1t7aj/) | [Sudoku Validator/Algorithm using 27 Hash Sets](https://helloacm.com/teaching-kids-programming-sudoku-validator/) | 2021-04-18 |
 | Unobstructed Buildings Algorithm via Monotonous Decreasing Stack | 单调递减堆栈计算未阻碍建筑物 | [Youtube](https://youtu.be/6c8AtNrKjro) - [B站](https://www.bilibili.com/video/BV1QK411w7Ag/) | [Unobstructed Buildings Algorithm via Monotonous Decreasing Stack](https://helloacm.com/teaching-kids-programming-unobstructed-buildings-algorithm-via-monotonous-decreasing-stack/) | 2021-04-15 |
 | Converting Spreadsheet Column Titles to Number | 表格26进制列字母转换成十进制算法 | [Youtube](https://youtu.be/omlXDhncyAA) - [B站](https://www.bilibili.com/video/BV17U4y1h7nH/) | [Converting Spreadsheet Column Titles to Number](https://helloacm.com/teaching-kids-programming-converting-spreadsheet-column-titles-to-number/) | 2021-04-13 |
 | Using Heap (Priority Queue) to Generate Nth Ugly Number | 生成第N个丑数的堆算法 | [Youtube](https://youtu.be/DHWgxr5V9SM) - [B站](https://www.bilibili.com/video/BV1Mv41177tm/) | [Using Heap (Priority Queue) to Generate Nth Ugly Number](https://helloacm.com/teaching-kids-programming-using-heap-priority-queue-to-generate-nth-ugly-number/) | 2021-04-11 |
