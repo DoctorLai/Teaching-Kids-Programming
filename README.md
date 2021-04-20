@@ -77,6 +77,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| N-ary Tree Preorder Traversal Algorithms using Iterations or Recursion | 先序遍例N叉树的递归和迭代算法 | [Youtube](https://youtu.be/2WOGmot2dMI) - [B站](https://www.bilibili.com/video/BV1aV411J7KF/) | [N-ary Tree Preorder Traversal Algorithms using Iterations or Recursion](https://helloacm.com/teaching-kids-programming-n-ary-tree-preorder-traversal-algorithms-using-iterations-or-recursion/) | 2021-04-20 |
 | Algorithms to Find the Inorder Successor of a Binary Search Tree | 在二叉搜索树中查找后继节点的算法 | [Youtube](https://youtu.be/XCFkt1E7qEQ) - [B站](https://www.bilibili.com/video/BV1Rv411j7mG/) | [Algorithms to Find the Inorder Successor of a Binary Search Tree](https://helloacm.com/teaching-kids-programming-algorithms-to-find-the-inorder-successor-of-a-binary-search-tree/) | 2021-04-07 |
 | Three Sum Algorithm | 数组三合算法 | [Youtube](https://youtu.be/nC_6Gk-xSNo) - [B站](https://www.bilibili.com/video/BV1ii4y1P7FC/) | [Three Sum Algorithm](https://helloacm.com/teaching-kids-programming-three-sum-algorithm/) | 2021-03-23 |
 | Two Array Intersection Algorithms | 两数组相交算法 | [Youtube](https://youtu.be/UHnIbBqLU5M) - [B站](https://www.bilibili.com/video/BV1EX4y137k8/) | [Two Array Intersection Algorithms](https://helloacm.com/teaching-kids-programming-two-array-intersection-algorithms/) | 2021-03-14 |
