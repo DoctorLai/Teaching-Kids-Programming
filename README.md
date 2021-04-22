@@ -170,6 +170,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Using GroupBy Algorithm to Compress String | 压缩字符串的GroupBy算法 | [Youtube](https://youtu.be/WmxNb7El3cw) - [B站](https://www.bilibili.com/video/BV12i4y1A7qR/) | [Using GroupBy Algorithm to Compress String](https://helloacm.com/teaching-kids-programming-using-groupby-algorithm-to-compress-string/) | 2021-04-22 |
 | Find Root of N-Ary Tree using Hash Set | 用哈希集合找出N叉树根节点的算法 | [Youtube](https://youtu.be/-pNmqoFUtGQ) - [B站](https://www.bilibili.com/video/BV1Mi4y1P7Ru/) | [Find Root of N-Ary Tree using Hash Set](https://helloacm.com/teaching-kids-programming-find-root-of-n-ary-tree-using-hash-set/) | 2021-04-21 |
 | Sudoku Validator/Algorithm using 27 Hash Sets | 用27个哈希集合来验证数独是否有效 | [Youtube](https://youtu.be/gjY7CBqNtAs) - [B站](https://www.bilibili.com/video/BV1Dp4y1t7aj/) | [Sudoku Validator/Algorithm using 27 Hash Sets](https://helloacm.com/teaching-kids-programming-sudoku-validator/) | 2021-04-18 |
 | Unobstructed Buildings Algorithm via Monotonous Decreasing Stack | 单调递减堆栈计算未阻碍建筑物 | [Youtube](https://youtu.be/6c8AtNrKjro) - [B站](https://www.bilibili.com/video/BV1QK411w7Ag/) | [Unobstructed Buildings Algorithm via Monotonous Decreasing Stack](https://helloacm.com/teaching-kids-programming-unobstructed-buildings-algorithm-via-monotonous-decreasing-stack/) | 2021-04-15 |
