@@ -172,6 +172,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Remove Vowels from a String | 删除字符串中的元音字符的算法 | [Youtube](https://youtu.be/5bLCOQhEa9c) - [B站](https://www.bilibili.com/video/BV1fK4y1o74u/) | [Remove Vowels from a String](https://helloacm.com/teaching-kids-programming-remove-vowels-from-a-string/) | 2021-04-25 |
 | Using GroupBy Algorithm to Compress String | 压缩字符串的GroupBy算法 | [Youtube](https://youtu.be/WmxNb7El3cw) - [B站](https://www.bilibili.com/video/BV12i4y1A7qR/) | [Using GroupBy Algorithm to Compress String](https://helloacm.com/teaching-kids-programming-using-groupby-algorithm-to-compress-string/) | 2021-04-22 |
 | Find Root of N-Ary Tree using Hash Set | 用哈希集合找出N叉树根节点的算法 | [Youtube](https://youtu.be/-pNmqoFUtGQ) - [B站](https://www.bilibili.com/video/BV1Mi4y1P7Ru/) | [Find Root of N-Ary Tree using Hash Set](https://helloacm.com/teaching-kids-programming-find-root-of-n-ary-tree-using-hash-set/) | 2021-04-21 |
 | Sudoku Validator/Algorithm using 27 Hash Sets | 用27个哈希集合来验证数独是否有效 | [Youtube](https://youtu.be/gjY7CBqNtAs) - [B站](https://www.bilibili.com/video/BV1Dp4y1t7aj/) | [Sudoku Validator/Algorithm using 27 Hash Sets](https://helloacm.com/teaching-kids-programming-sudoku-validator/) | 2021-04-18 |
