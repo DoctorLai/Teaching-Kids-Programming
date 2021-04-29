@@ -175,6 +175,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Noisy Palindrome Algorithms | 判别嘈杂回文字符串算法 | [Youtube](https://youtu.be/Tdl3rmLAHtM) - [B站](https://www.bilibili.com/video/BV1oV411J7T2/) | [Noisy Palindrome Algorithms](https://helloacm.com/teaching-kids-programming-noisy-palindrome-algorithms/) | 2021-04-29 |
 | Remove Vowels from a String | 删除字符串中的元音字符的算法 | [Youtube](https://youtu.be/5bLCOQhEa9c) - [B站](https://www.bilibili.com/video/BV1fK4y1o74u/) | [Remove Vowels from a String](https://helloacm.com/teaching-kids-programming-remove-vowels-from-a-string/) | 2021-04-25 |
 | Using GroupBy Algorithm to Compress String | 压缩字符串的GroupBy算法 | [Youtube](https://youtu.be/WmxNb7El3cw) - [B站](https://www.bilibili.com/video/BV12i4y1A7qR/) | [Using GroupBy Algorithm to Compress String](https://helloacm.com/teaching-kids-programming-using-groupby-algorithm-to-compress-string/) | 2021-04-22 |
 | Find Root of N-Ary Tree using Hash Set | 用哈希集合找出N叉树根节点的算法 | [Youtube](https://youtu.be/-pNmqoFUtGQ) - [B站](https://www.bilibili.com/video/BV1Mi4y1P7Ru/) | [Find Root of N-Ary Tree using Hash Set](https://helloacm.com/teaching-kids-programming-find-root-of-n-ary-tree-using-hash-set/) | 2021-04-21 |
