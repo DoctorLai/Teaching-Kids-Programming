@@ -13,7 +13,7 @@ I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/docto
 Prior to AWS, I worked for General Electric as a Staff Software Engineer and I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
 
 ## Channels and Blog
-- [Youtube Channel](https://www.youtube.com/channel/UCK2ugmUOoYne1qQfSAph4nQ)
+- [Youtube Channel: https://www.youtube.com/c/DoctorLai](https://www.youtube.com/c/DoctorLai)
 - Bilibili: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
 - Blog: [https://helloacm.com/category/teaching-kids-programming/](https://helloacm.com/category/teaching-kids-programming/)
 
@@ -170,6 +170,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Greedy Algorithm 贪心算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Dynamic Programming or Greedy Algorithm to Compute the Min Change | 最少零钱贪心算法 | [Youtube](https://youtu.be/IiFM8vKj9_Q) - [B站](https://www.bilibili.com/video/BV1oK4y1o7BH/) | [Dynamic Programming or Greedy Algorithm to Compute the Min Change](https://helloacm.com/teaching-kids-programming-dynamic-programming-or-greedy-algorithm-to-compute-the-min-change/) | 2021-05-01 |
 | Greedy Algorithm to Complete Tasks | 贪心算法完成任务 | [Youtube](https://youtu.be/KbQ-x8qrXw0) - [B站](https://www.bilibili.com/video/BV19K4y1m7oj/) | [Greedy Algorithm to Complete Tasks](https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-complete-tasks/) | 2021-04-10 |
 | Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
 
