@@ -177,6 +177,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Two Pointer Algorithm to Solve Four Sum Problem | 双指针找四数之和 | [Youtube](https://youtu.be/znDKgtfTHx8) - [B站](https://www.bilibili.com/video/BV1ao4y127Pr/) | [Two Pointer Algorithm to Solve Four Sum Problem](https://helloacm.com/teaching-kids-programming-two-pointer-algorithm-to-solve-four-sum-problem/) | 2021-05-02 |
 | Noisy Palindrome Algorithms | 判别嘈杂回文字符串算法 | [Youtube](https://youtu.be/Tdl3rmLAHtM) - [B站](https://www.bilibili.com/video/BV1oV411J7T2/) | [Noisy Palindrome Algorithms](https://helloacm.com/teaching-kids-programming-noisy-palindrome-algorithms/) | 2021-04-29 |
 | Remove Vowels from a String | 删除字符串中的元音字符的算法 | [Youtube](https://youtu.be/5bLCOQhEa9c) - [B站](https://www.bilibili.com/video/BV1fK4y1o74u/) | [Remove Vowels from a String](https://helloacm.com/teaching-kids-programming-remove-vowels-from-a-string/) | 2021-04-25 |
 | Using GroupBy Algorithm to Compress String | 压缩字符串的GroupBy算法 | [Youtube](https://youtu.be/WmxNb7El3cw) - [B站](https://www.bilibili.com/video/BV12i4y1A7qR/) | [Using GroupBy Algorithm to Compress String](https://helloacm.com/teaching-kids-programming-using-groupby-algorithm-to-compress-string/) | 2021-04-22 |
