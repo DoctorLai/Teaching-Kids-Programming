@@ -186,6 +186,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Three Consecutive Odds | 连续三个奇数 | [Youtube](https://youtu.be/JfRUv7Xfs_M) - [B站](https://www.bilibili.com/video/BV1NU4y1t7br/) | [Three Consecutive Odds](https://helloacm.com/teaching-kids-programming-three-consecutive-odds/) | 2021-05-08 |
 | Using Hash Set to Find Out Almost Same Strings | 哈希算法找是否相似字符串 | [Youtube](https://youtu.be/8UDZ_c_ABRI) - [B站](https://www.bilibili.com/video/BV11Q4y1d7Wv/) | [Using Hash Set to Find Out Almost Same Strings](https://helloacm.com/teaching-kids-programming-using-hash-set-to-find-out-almost-same-strings/) | 2021-05-07 |
 | Noisy Palindrome Algorithms | 判别嘈杂回文字符串算法 | [Youtube](https://youtu.be/Tdl3rmLAHtM) - [B站](https://www.bilibili.com/video/BV1oV411J7T2/) | [Noisy Palindrome Algorithms](https://helloacm.com/teaching-kids-programming-noisy-palindrome-algorithms/) | 2021-04-29 |
 | Remove Vowels from a String | 删除字符串中的元音字符的算法 | [Youtube](https://youtu.be/5bLCOQhEa9c) - [B站](https://www.bilibili.com/video/BV1fK4y1o74u/) | [Remove Vowels from a String](https://helloacm.com/teaching-kids-programming-remove-vowels-from-a-string/) | 2021-04-25 |
