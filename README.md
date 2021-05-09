@@ -130,6 +130,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Two Pointer Algorithm 双指针
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sum of Two Numbers Less Than Target using Two Pointer Algorithm | 双指针算法求小于目标的最大两数和 | [Youtube](https://youtu.be/3xUHxU4aNWg) - [B站](https://www.bilibili.com/video/BV1A64y1m77a/) | [Sum of Two Numbers Less Than Target using Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-sum-of-two-numbers-less-than-target-using-two-pointer-algorithm/) | 2021-05-09 |
 | Sum of Three Numbers Less than Target | 三数小于目标之和 | [Youtube](https://youtu.be/XvfjloLRJFo) - [B站](https://www.bilibili.com/video/BV1Qy4y1s7XZ/) | [Sum of Three Numbers Less than Target](https://helloacm.com/teaching-kids-programming-sum-of-three-numbers-less-than-target/) | 2021-05-03 |
 | Three Sum Algorithm | 数组三和算法 | [Youtube](https://youtu.be/nC_6Gk-xSNo) - [B站](https://www.bilibili.com/video/BV1ii4y1P7FC/) | [Three Sum Algorithm](https://helloacm.com/teaching-kids-programming-three-sum-algorithm/) | 2021-03-23 |
 | Two Pointer Algorithm to Solve Four Sum Problem | 双指针找四数之和 | [Youtube](https://youtu.be/znDKgtfTHx8) - [B站](https://www.bilibili.com/video/BV1ao4y127Pr/) | [Two Pointer Algorithm to Solve Four Sum Problem](https://helloacm.com/teaching-kids-programming-two-pointer-algorithm-to-solve-four-sum-problem/) | 2021-05-02 |
@@ -186,7 +187,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Sum of Two Numbers Less Than Target using Two Pointer Algorithm | 双指针算法求小于目标的最大两数和 | [Youtube](https://youtu.be/3xUHxU4aNWg) - [B站](https://www.bilibili.com/video/BV1A64y1m77a/) | [Sum of Two Numbers Less Than Target using Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-sum-of-two-numbers-less-than-target-using-two-pointer-algorithm/) | 2021-05-09 |
 | Three Consecutive Odds | 连续三个奇数 | [Youtube](https://youtu.be/JfRUv7Xfs_M) - [B站](https://www.bilibili.com/video/BV1NU4y1t7br/) | [Three Consecutive Odds](https://helloacm.com/teaching-kids-programming-three-consecutive-odds/) | 2021-05-08 |
 | Using Hash Set to Find Out Almost Same Strings | 哈希算法找是否相似字符串 | [Youtube](https://youtu.be/8UDZ_c_ABRI) - [B站](https://www.bilibili.com/video/BV11Q4y1d7Wv/) | [Using Hash Set to Find Out Almost Same Strings](https://helloacm.com/teaching-kids-programming-using-hash-set-to-find-out-almost-same-strings/) | 2021-05-07 |
 | Noisy Palindrome Algorithms | 判别嘈杂回文字符串算法 | [Youtube](https://youtu.be/Tdl3rmLAHtM) - [B站](https://www.bilibili.com/video/BV1oV411J7T2/) | [Noisy Palindrome Algorithms](https://helloacm.com/teaching-kids-programming-noisy-palindrome-algorithms/) | 2021-04-29 |
