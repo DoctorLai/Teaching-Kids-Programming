@@ -135,7 +135,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Three Sum Algorithm | 数组三和算法 | [Youtube](https://youtu.be/nC_6Gk-xSNo) - [B站](https://www.bilibili.com/video/BV1ii4y1P7FC/) | [Three Sum Algorithm](https://helloacm.com/teaching-kids-programming-three-sum-algorithm/) | 2021-03-23 |
 | Two Pointer Algorithm to Solve Four Sum Problem | 双指针找四数之和 | [Youtube](https://youtu.be/znDKgtfTHx8) - [B站](https://www.bilibili.com/video/BV1ao4y127Pr/) | [Two Pointer Algorithm to Solve Four Sum Problem](https://helloacm.com/teaching-kids-programming-two-pointer-algorithm-to-solve-four-sum-problem/) | 2021-05-02 |
 | Is Subsequence Algorithm via Two Pointer | 通过双指针来检查子串算法 | [Youtube](https://youtu.be/j1DJZaRkWqM) - [B站](https://www.bilibili.com/video/BV1ky4y1a7Mx/) | [Is Subsequence Algorithm via Two Pointer](https://helloacm.com/teaching-kids-programming-is-subsequence-algorithm-via-two-pointer/) | 2021-03-04 |
-| Add One To List | 加1算法 | [Youtube](https://youtu.be/nC7FiVRonq4) - [B站](https://www.bilibili.com/video/BV1gy4y1276P/) | [Add One To List](https://helloacm.com/teaching-kids-programming-add-one-to-list/) | 2021-01-31 |
 | Finding Pythagorean Triplets in Array using Two Pointer or Hash Set | 在数组中找勾股数的两种算法 | [Youtube](https://youtu.be/LZrB9094ltg) - [B站](https://www.bilibili.com/video/BV1FX4y1N7GZ/) | [Finding Pythagorean Triplets in Array using Two Pointer or Hash Set](https://helloacm.com/teaching-kids-programming-finding-pythagorean-triplets-in-array-using-two-pointer-or-hash-set/) | 2021-01-28 |
 
 ## Depth First Search + Backtracking Algorithms 深度优先算法+回溯
@@ -187,6 +186,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Add One To List | 加1算法 | [Youtube](https://youtu.be/nC7FiVRonq4) - [B站](https://www.bilibili.com/video/BV1gy4y1276P/) | [Add One To List](https://helloacm.com/teaching-kids-programming-add-one-to-list/) | 2021-01-31 |
 | Three Consecutive Odds | 连续三个奇数 | [Youtube](https://youtu.be/JfRUv7Xfs_M) - [B站](https://www.bilibili.com/video/BV1NU4y1t7br/) | [Three Consecutive Odds](https://helloacm.com/teaching-kids-programming-three-consecutive-odds/) | 2021-05-08 |
 | Using Hash Set to Find Out Almost Same Strings | 哈希算法找是否相似字符串 | [Youtube](https://youtu.be/8UDZ_c_ABRI) - [B站](https://www.bilibili.com/video/BV11Q4y1d7Wv/) | [Using Hash Set to Find Out Almost Same Strings](https://helloacm.com/teaching-kids-programming-using-hash-set-to-find-out-almost-same-strings/) | 2021-05-07 |
 | Noisy Palindrome Algorithms | 判别嘈杂回文字符串算法 | [Youtube](https://youtu.be/Tdl3rmLAHtM) - [B站](https://www.bilibili.com/video/BV1oV411J7T2/) | [Noisy Palindrome Algorithms](https://helloacm.com/teaching-kids-programming-noisy-palindrome-algorithms/) | 2021-04-29 |
