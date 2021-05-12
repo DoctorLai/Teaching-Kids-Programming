@@ -188,6 +188,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Remove One Number to Make Average | 去除1个数字凑成平均 | [Youtube](https://youtu.be/fZ32--_ULXY) - [B站](https://www.bilibili.com/video/BV1ff4y1a7Np/) | [Remove One Number to Make Average](https://helloacm.com/teaching-kids-programming-remove-one-number-to-make-average/) | 2021-05-12 |
 | Add One To List | 加1算法 | [Youtube](https://youtu.be/nC7FiVRonq4) - [B站](https://www.bilibili.com/video/BV1gy4y1276P/) | [Add One To List](https://helloacm.com/teaching-kids-programming-add-one-to-list/) | 2021-01-31 |
 | Three Consecutive Odds | 连续三个奇数 | [Youtube](https://youtu.be/JfRUv7Xfs_M) - [B站](https://www.bilibili.com/video/BV1NU4y1t7br/) | [Three Consecutive Odds](https://helloacm.com/teaching-kids-programming-three-consecutive-odds/) | 2021-05-08 |
 | Using Hash Set to Find Out Almost Same Strings | 哈希算法找是否相似字符串 | [Youtube](https://youtu.be/8UDZ_c_ABRI) - [B站](https://www.bilibili.com/video/BV11Q4y1d7Wv/) | [Using Hash Set to Find Out Almost Same Strings](https://helloacm.com/teaching-kids-programming-using-hash-set-to-find-out-almost-same-strings/) | 2021-05-07 |
