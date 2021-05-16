@@ -182,6 +182,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Greedy Algorithm 贪心算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Longest Interval Algorithm | 最长线段算法 | [Youtube](https://youtu.be/y57brlTY6Ac) - [B站](https://www.bilibili.com/video/BV1py4y1W7tZ/) | [Longest Interval Algorithm](https://helloacm.com/teaching-kids-programming-longest-interval-algorithm/) | 2021-05-16 |
 | Dynamic Programming or Greedy Algorithm to Compute the Min Change | 最少零钱贪心算法 | [Youtube](https://youtu.be/IiFM8vKj9_Q) - [B站](https://www.bilibili.com/video/BV1oK4y1o7BH/) | [Dynamic Programming or Greedy Algorithm to Compute the Min Change](https://helloacm.com/teaching-kids-programming-dynamic-programming-or-greedy-algorithm-to-compute-the-min-change/) | 2021-05-01 |
 | Greedy Algorithm to Complete Tasks | 贪心算法完成任务 | [Youtube](https://youtu.be/KbQ-x8qrXw0) - [B站](https://www.bilibili.com/video/BV19K4y1m7oj/) | [Greedy Algorithm to Complete Tasks](https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-complete-tasks/) | 2021-04-10 |
 | Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
@@ -189,7 +190,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Longest Interval Algorithm | 最长线段算法 | [Youtube](https://youtu.be/y57brlTY6Ac) - [B站](https://www.bilibili.com/video/BV1py4y1W7tZ/) | [Longest Interval Algorithm](https://helloacm.com/teaching-kids-programming-longest-interval-algorithm/) | 2021-05-16 |
 | Beer Bottle Exchange Algorithm via Simulation | 换酒瓶算法 | [Youtube](https://youtu.be/WqWfKXj5LGU) - [B站](https://www.bilibili.com/video/BV1Ty4y1W7cg/) | [Beer Bottle Exchange Algorithm via Simulation](https://helloacm.com/teaching-kids-programming-beer-bottle-exchange-algorithm-via-simulation/) | 2021-05-15 |
 | Binary Matrix Leftmost One | 寻找二进制矩阵中最左边的1 | [Youtube](https://youtu.be/_SIRAwVmieM) - [B站](https://www.bilibili.com/video/BV14541137Ny/) | [Binary Matrix Leftmost One](https://helloacm.com/teaching-kids-programming-binary-matrix-leftmost-one/) | 2021-05-14 |
 | Remove One Number to Make Average | 去除1个数字凑成平均 | [Youtube](https://youtu.be/fZ32--_ULXY) - [B站](https://www.bilibili.com/video/BV1ff4y1a7Np/) | [Remove One Number to Make Average](https://helloacm.com/teaching-kids-programming-remove-one-number-to-make-average/) | 2021-05-12 |
