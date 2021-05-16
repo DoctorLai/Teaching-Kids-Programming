@@ -189,6 +189,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Longest Interval Algorithm | 最长线段算法 | [Youtube](https://youtu.be/y57brlTY6Ac) - [B站](https://www.bilibili.com/video/BV1py4y1W7tZ/) | [Longest Interval Algorithm](https://helloacm.com/teaching-kids-programming-longest-interval-algorithm/) | 2021-05-16 |
 | Beer Bottle Exchange Algorithm via Simulation | 换酒瓶算法 | [Youtube](https://youtu.be/WqWfKXj5LGU) - [B站](https://www.bilibili.com/video/BV1Ty4y1W7cg/) | [Beer Bottle Exchange Algorithm via Simulation](https://helloacm.com/teaching-kids-programming-beer-bottle-exchange-algorithm-via-simulation/) | 2021-05-15 |
 | Binary Matrix Leftmost One | 寻找二进制矩阵中最左边的1 | [Youtube](https://youtu.be/_SIRAwVmieM) - [B站](https://www.bilibili.com/video/BV14541137Ny/) | [Binary Matrix Leftmost One](https://helloacm.com/teaching-kids-programming-binary-matrix-leftmost-one/) | 2021-05-14 |
 | Remove One Number to Make Average | 去除1个数字凑成平均 | [Youtube](https://youtu.be/fZ32--_ULXY) - [B站](https://www.bilibili.com/video/BV1ff4y1a7Np/) | [Remove One Number to Make Average](https://helloacm.com/teaching-kids-programming-remove-one-number-to-make-average/) | 2021-05-12 |
