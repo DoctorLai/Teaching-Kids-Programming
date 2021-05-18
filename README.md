@@ -183,6 +183,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Greedy Algorithm 贪心算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Flip One Digit via Greedy Algorithm | 贪心翻转一个数字 | [Youtube](https://youtu.be/8zpPvC0oXc0) - [B站](https://www.bilibili.com/video/BV1Yq4y1E7c3/) | [Flip One Digit via Greedy Algorithm](https://helloacm.com/teaching-kids-programming-flip-one-digit-via-greedy-algorithm/) | 2021-05-18 |
 | Longest Interval Algorithm | 最长线段算法 | [Youtube](https://youtu.be/y57brlTY6Ac) - [B站](https://www.bilibili.com/video/BV1py4y1W7tZ/) | [Longest Interval Algorithm](https://helloacm.com/teaching-kids-programming-longest-interval-algorithm/) | 2021-05-16 |
 | Dynamic Programming or Greedy Algorithm to Compute the Min Change | 最少零钱贪心算法 | [Youtube](https://youtu.be/IiFM8vKj9_Q) - [B站](https://www.bilibili.com/video/BV1oK4y1o7BH/) | [Dynamic Programming or Greedy Algorithm to Compute the Min Change](https://helloacm.com/teaching-kids-programming-dynamic-programming-or-greedy-algorithm-to-compute-the-min-change/) | 2021-05-01 |
 | Greedy Algorithm to Complete Tasks | 贪心算法完成任务 | [Youtube](https://youtu.be/KbQ-x8qrXw0) - [B站](https://www.bilibili.com/video/BV19K4y1m7oj/) | [Greedy Algorithm to Complete Tasks](https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-complete-tasks/) | 2021-04-10 |
