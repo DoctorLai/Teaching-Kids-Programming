@@ -130,6 +130,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Two Pointer Algorithm 双指针
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Two Pointer Algorithm to Rescue People in Rocketship | 双指针算法求最少火箭数 | [Youtube](https://youtu.be/I9_QLypqZao) - [B站](https://www.bilibili.com/video/BV1ov411579s/) | [Two Pointer Algorithm to Rescue People in Rocketship](https://helloacm.com/teaching-kids-programming-two-pointer-algorithm-to-rescue-people-in-rocketship/) | 2021-05-21 |
 | Lowest Sum of Pair Larger than Target via Two Pointer | 双指针算法求大于目标的最小两数和 | [Youtube](https://youtu.be/C9j513UjUXg) - [B站](https://www.bilibili.com/video/BV1yK4y197kL/) | [Lowest Sum of Pair Larger than Target via Two Pointer](https://helloacm.com/teaching-kids-programming-lowest-sum-of-pair-larger-than-target-via-two-pointer/) | 2021-05-20 |
 | Sum of Two Numbers Less Than Target using Two Pointer Algorithm | 双指针算法求小于目标的最大两数和 | [Youtube](https://youtu.be/3xUHxU4aNWg) - [B站](https://www.bilibili.com/video/BV1A64y1m77a/) | [Sum of Two Numbers Less Than Target using Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-sum-of-two-numbers-less-than-target-using-two-pointer-algorithm/) | 2021-05-09 |
 | Sum of Three Numbers Less than Target | 三数小于目标之和 | [Youtube](https://youtu.be/XvfjloLRJFo) - [B站](https://www.bilibili.com/video/BV1Qy4y1s7XZ/) | [Sum of Three Numbers Less than Target](https://helloacm.com/teaching-kids-programming-sum-of-three-numbers-less-than-target/) | 2021-05-03 |
