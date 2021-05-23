@@ -195,6 +195,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Minimum Number of Operations to Target Number | 最少操作转换到目标数字 | [Youtube](https://youtu.be/J67yIutNs2k) - [B站](https://www.bilibili.com/video/BV1dh411v714/) | [Minimum Number of Operations to Target Number](https://helloacm.com/teaching-kids-programming-minimum-number-of-operations-to-target-number/) | 2021-05-23 |
 | Rotation of Another String | 判断两字符串是否是旋转相等 | [Youtube](https://youtu.be/UHYCeOXpu2w) - [B站](https://www.bilibili.com/video/BV1xy4y1g7pa/) | [Rotation of Another String](https://helloacm.com/teaching-kids-programming-rotation-of-another-string/) | 2021-05-19 |
 | Beer Bottle Exchange Algorithm via Simulation | 换酒瓶算法 | [Youtube](https://youtu.be/WqWfKXj5LGU) - [B站](https://www.bilibili.com/video/BV1Ty4y1W7cg/) | [Beer Bottle Exchange Algorithm via Simulation](https://helloacm.com/teaching-kids-programming-beer-bottle-exchange-algorithm-via-simulation/) | 2021-05-15 |
 | Binary Matrix Leftmost One | 寻找二进制矩阵中最左边的1 | [Youtube](https://youtu.be/_SIRAwVmieM) - [B站](https://www.bilibili.com/video/BV14541137Ny/) | [Binary Matrix Leftmost One](https://helloacm.com/teaching-kids-programming-binary-matrix-leftmost-one/) | 2021-05-14 |
