@@ -193,6 +193,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Longest Common Prefix Algorithm | 最长公共前缀字符串算法 | [Youtube](https://youtu.be/a3UcTYDst_I) - [B站](https://www.bilibili.com/video/BV1eh411Y7Vk/) | [Longest Common Prefix Algorithm](https://helloacm.com/teaching-kids-programming-longest-common-prefix-algorithm/) | 2021-05-25 |
 | Largest Anagram Group | 最大的Anagram组的字符串数 | [Youtube](https://youtu.be/osI8ViUY3Ic) - [B站](https://www.bilibili.com/video/BV19o4y117Jj/) | [Largest Anagram Group](https://helloacm.com/teaching-kids-programming-largest-anagram-group/) | 2021-05-24 |
 | Minimum Number of Operations to Target Number | 最少操作转换到目标数字 | [Youtube](https://youtu.be/J67yIutNs2k) - [B站](https://www.bilibili.com/video/BV1dh411v714/) | [Minimum Number of Operations to Target Number](https://helloacm.com/teaching-kids-programming-minimum-number-of-operations-to-target-number/) | 2021-05-23 |
 | Rotation of Another String | 判断两字符串是否是旋转相等 | [Youtube](https://youtu.be/UHYCeOXpu2w) - [B站](https://www.bilibili.com/video/BV1xy4y1g7pa/) | [Rotation of Another String](https://helloacm.com/teaching-kids-programming-rotation-of-another-string/) | 2021-05-19 |
