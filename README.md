@@ -1,5 +1,3 @@
-![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/teaching-kids-programming.png)
-
 # Teaching Kids Programming
 I teach my sons (currently they are aged 7 and 8) programming. I upload the video and write the blog. 
 
@@ -262,3 +260,5 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 
 ## Tags
 #algorithms #algorithm #recursion #math #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning #tutorial #computing
+
+![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/teaching-kids-programming.png)
