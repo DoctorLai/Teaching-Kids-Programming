@@ -193,6 +193,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Remove One Letter to Transform to Another | 从一个字符串移除一个字符变成另一个字符串 | [Youtube](https://youtu.be/-CWQ-Xr5EaY) - [B站](https://www.bilibili.com/video/BV1iB4y1u7w4/) | [Remove One Letter to Transform to Another](https://helloacm.com/teaching-kids-programming-remove-one-letter/) | 2021-05-27 |
 | Check if the Sentence Is Pangram | 判别是否是Pangram字符串 | [Youtube](https://youtu.be/qkvXNFjbtmE) - [B站](https://www.bilibili.com/video/BV1L5411g7Eq/) | [Check if the Sentence Is Pangram](https://helloacm.com/teaching-kids-programming-check-if-the-sentence-is-pangram/) | 2021-05-26 |
 | Longest Common Prefix Algorithm | 最长公共前缀字符串算法 | [Youtube](https://youtu.be/a3UcTYDst_I) - [B站](https://www.bilibili.com/video/BV1eh411Y7Vk/) | [Longest Common Prefix Algorithm](https://helloacm.com/teaching-kids-programming-longest-common-prefix-algorithm/) | 2021-05-25 |
 | Largest Anagram Group | 最大的Anagram组的字符串数 | [Youtube](https://youtu.be/osI8ViUY3Ic) - [B站](https://www.bilibili.com/video/BV19o4y117Jj/) | [Largest Anagram Group](https://helloacm.com/teaching-kids-programming-largest-anagram-group/) | 2021-05-24 |
