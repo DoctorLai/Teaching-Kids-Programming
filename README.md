@@ -95,6 +95,11 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | MergeSort Algorithm Simply Explained | 归并排序简介 | [Youtube](https://www.youtube.com/watch?v=aiJnCXsqwcg) - [B站](https://www.bilibili.com/video/BV1oV41187z1/) | [MergeSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-mergesort-simply-explained/) | 2020-12-11 |
 | Algorithms to Search in a Binary Search Tree | 在二分搜索树里查找算法 | [Youtube](https://www.youtube.com/watch?v=ZyL4iPAza-I) - [B站](https://www.bilibili.com/video/BV1Xa4y1H7Bc/) | [Algorithms to Search in a Binary Search Tree](https://helloacm.com/teaching-kids-programming-algorithms-to-search-in-binary-search-tree/) | 2020-12-16 |
 | Algorithms of Greatest Common Divisor and Least Common Multiples | 求最大公约数和最小公倍数的算法 | [Youtube](https://www.youtube.com/watch?v=mmvdrFYu5X0) - [B站](https://www.bilibili.com/video/BV1XK41137KA/) | [Algorithms of Greatest Common Divisor and Least Common Multiples](https://helloacm.com/teaching-kids-programming-algorithms-of-greatest-common-divisor-and-least-common-multiples/) | 2020-12-03 |
+
+## Binary Search 二分搜索
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| K Numbers Greater Than or Equal to K | 二分查找确定大于或等于K的K个数 | [Youtube](https://youtu.be/AFigcWSibLs) - [B站](https://www.bilibili.com/video/BV1Co4y117tD/) | [K Numbers Greater Than or Equal to K](https://helloacm.com/teaching-kids-programming-k-numbers-greater-than-or-equal-to-k-using-binary-search/) | 2021-05-28 |
 | From Linear Search to Binary Search Algorithm | 线性搜索到二分查找 | [Youtube](https://www.youtube.com/watch?v=nGzWpefKYAo) - [B站](https://www.bilibili.com/video/BV1Pi4y157vf/) | [From Linear Search to Binary Search Algorithm](https://helloacm.com/teaching-kids-programming-from-linear-search-to-binary-search-algorithm/) | 2020-11-23 |
 
 ## Dynamic Programming Algorithms 动态规化算法
