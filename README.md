@@ -200,6 +200,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Substrings of Size Three with Distinct Characters | 具有不同字符的大小为3的子字符串 | [Youtube](https://youtu.be/wdaGDD-wir0) - [B站](https://www.bilibili.com/video/BV1XU4y1V7uB/) | [Substrings of Size Three with Distinct Characters](https://helloacm.com/teaching-kids-programming-substrings-of-size-three-with-distinct-characters/) | 2021-05-31 |
 | Check if Word Equals Summation of Two Words | 两单词是否数值相等 | [Youtube](https://youtu.be/DYWqVNdB_oU) - [B站](https://www.bilibili.com/video/BV1364y1o7wJ/) | [Check if Word Equals Summation of Two Words](https://helloacm.com/teaching-kids-programming-check-if-word-equals-summation-of-two-words/) | 2021-05-30 |
 | Remove One Letter to Transform to Another | 从一个字符串移除一个字符变成另一个字符串 | [Youtube](https://youtu.be/-CWQ-Xr5EaY) - [B站](https://www.bilibili.com/video/BV1iB4y1u7w4/) | [Remove One Letter to Transform to Another](https://helloacm.com/teaching-kids-programming-remove-one-letter/) | 2021-05-27 |
 | Check if the Sentence Is Pangram | 判别是否是Pangram字符串 | [Youtube](https://youtu.be/qkvXNFjbtmE) - [B站](https://www.bilibili.com/video/BV1L5411g7Eq/) | [Check if the Sentence Is Pangram](https://helloacm.com/teaching-kids-programming-check-if-the-sentence-is-pangram/) | 2021-05-26 |
