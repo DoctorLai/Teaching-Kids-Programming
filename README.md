@@ -41,6 +41,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Permutation of Rooks Do Not Attack Each Other | 棋盘上互不攻击的车 | [Youtube](https://youtu.be/6D6N6HuKwgY) - [B站](https://www.bilibili.com/video/BV1iq4y1j7Lv/) | [Permutation of Rooks Do Not Attack Each Other](https://helloacm.com/teaching-kids-programming-permutation-of-rooks-do-not-attack-each-other/) | 2021-06-02 |
 | Hour and Minute Angle on a Clock | 时针和分针的角度计算 | [Youtube](https://youtu.be/msqlE-UDYt0) - [B站](https://www.bilibili.com/video/BV1fh411U7VA/) | [Hour and Minute Angle on a Clock](https://helloacm.com/teaching-kids-programming-hour-and-minute-angle-on-a-clock/) | 2021-04-24 |
 | Generate Prime Numbers using Sieve of Eratosthenes Algorithms | Eratosthenes质数算法 | [Youtube](https://youtu.be/M_vDGRRhVQ0) - [B站](https://www.bilibili.com/video/BV1q54y1b7Sd/) | [Generate Prime Numbers using Sieve of Eratosthenes Algorithms](https://helloacm.com/teaching-kids-programmaing-generate-prime-numbers-using-sieve-of-eratosthenes-algorithms/) | 2021-04-14 |
 | Perfect Number Validation Algorithm | 完美数验证算法 | [Youtube](https://youtu.be/689ziYHS0bI) - [B站](https://www.bilibili.com/video/BV13X4y1L7S6/) | [Perfect Number Validation Algorithm](https://helloacm.com/teaching-kids-programming-perfect-number-validation-algorithm/) | 2021-02-23 |
