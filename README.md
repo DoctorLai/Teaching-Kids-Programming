@@ -98,6 +98,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Binary Search 二分搜索
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Insertion Index in Sorted List (bisect_right) | 有序列表中插入索引 (bisect_right) | [Youtube](https://youtu.be/zEZiZUV9_4A) - [B站](https://www.bilibili.com/video/BV1Qg41137tE/) | [Insertion Index in Sorted List (bisect_right)](https://helloacm.com/teaching-kids-programming-insertion-index-in-sorted-list-bisect_right/) | 2021-06-03 |
 | K Numbers Greater Than or Equal to K | 二分查找确定大于或等于K的K个数 | [Youtube](https://youtu.be/AFigcWSibLs) - [B站](https://www.bilibili.com/video/BV1Co4y117tD/) | [K Numbers Greater Than or Equal to K](https://helloacm.com/teaching-kids-programming-k-numbers-greater-than-or-equal-to-k-using-binary-search/) | 2021-05-28 |
 | Using Binary Search to Find K-th Largest Number in Array | 二分查找算法求第K大数组元素 | [Youtube](https://youtu.be/MAqFlSQ7bYw) - [B站](https://www.bilibili.com/video/BV1Af4y1k7s6/) | [Using Binary Search to Find K-th Largest Number in Array](https://helloacm.com/teaching-kids-programming-using-binary-search-to-find-k-th-largest-number-in-array/) | 2021-01-16 |
 | Binary Search Algorithm to Compute the Square Root | 二分搜索算法求根号的值 | [Youtube](https://youtu.be/_-bDvuBDxis) - [B站](https://www.bilibili.com/video/BV1dv411x7U7/) | [Binary Search Algorithm to Compute the Square Root](https://helloacm.com/teaching-kids-programming-binary-search-algorithm-to-compute-the-square-root/) | 2021-01-07 |
