@@ -204,6 +204,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sign of the Product of an Array | 求数组乘积的符号值 | [Youtube](https://youtu.be/LhdF2G4DvRk) - [B站](https://www.bilibili.com/video/BV1ug411G7tq/) | [Sign of the Product of an Array](https://helloacm.com/teaching-kids-programming-sign-of-the-product-of-an-array/) | 2021-06-06 |
 | Substrings of Size Three with Distinct Characters | 具有不同字符的大小为3的子字符串 | [Youtube](https://youtu.be/wdaGDD-wir0) - [B站](https://www.bilibili.com/video/BV1XU4y1V7uB/) | [Substrings of Size Three with Distinct Characters](https://helloacm.com/teaching-kids-programming-substrings-of-size-three-with-distinct-characters/) | 2021-06-01 |
 | Check if Word Equals Summation of Two Words | 两单词是否数值相等 | [Youtube](https://youtu.be/DYWqVNdB_oU) - [B站](https://www.bilibili.com/video/BV1364y1o7wJ/) | [Check if Word Equals Summation of Two Words](https://helloacm.com/teaching-kids-programming-check-if-word-equals-summation-of-two-words/) | 2021-05-30 |
 | Remove One Letter to Transform to Another | 从一个字符串移除一个字符变成另一个字符串 | [Youtube](https://youtu.be/-CWQ-Xr5EaY) - [B站](https://www.bilibili.com/video/BV1iB4y1u7w4/) | [Remove One Letter to Transform to Another](https://helloacm.com/teaching-kids-programming-remove-one-letter/) | 2021-05-27 |
