@@ -41,6 +41,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Rotate a 2D Matrix/Image 90 Degree AntiClockwise | 逆时针旋转矩阵算法 | [Youtube](https://youtu.be/rSHyJikWIo8) - [B站](https://www.bilibili.com/video/BV1i64y167eM/) | [Rotate a 2D Matrix/Image 90 Degree AntiClockwise](https://helloacm.com/teaching-kids-programming-rotate-a-2d-matrix-image-90-degree-anti-clockwise/) | 2021-06-08 |
 | Rotate a 2D Matrix/Image 90 Degree Clockwise | 顺时针旋转矩阵算法 | [Youtube](https://youtu.be/bYA4IjpINsg) - [B站](https://www.bilibili.com/video/BV1v44y167se/) | [Rotate a 2D Matrix/Image 90 Degree Clockwise](https://helloacm.com/teaching-kids-programming-rotate-a-2d-matrix-image-90-degree-clockwise/) | 2021-06-07 |
 | Permutation of Rooks Do Not Attack Each Other | 棋盘上互不攻击的车 | [Youtube](https://youtu.be/6D6N6HuKwgY) - [B站](https://www.bilibili.com/video/BV1iq4y1j7Lv/) | [Permutation of Rooks Do Not Attack Each Other](https://helloacm.com/teaching-kids-programming-permutation-of-rooks-do-not-attack-each-other/) | 2021-06-02 |
 | Hour and Minute Angle on a Clock | 时针和分针的角度计算 | [Youtube](https://youtu.be/msqlE-UDYt0) - [B站](https://www.bilibili.com/video/BV1fh411U7VA/) | [Hour and Minute Angle on a Clock](https://helloacm.com/teaching-kids-programming-hour-and-minute-angle-on-a-clock/) | 2021-04-24 |
