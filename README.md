@@ -207,7 +207,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Maximum Number by Inserting Five | 插入5后的最大数值 | [Youtube](https://youtu.be/PyZawYHF77c) - [B站](https://www.bilibili.com/video/BV18v411p7ki/) | [Maximum Number by Inserting Five](https://helloacm.com/teaching-kids-programming-sign-of-the-product-of-an-array/) | 2021-06-10 |
+| Maximum Number by Inserting Five | 插入5后的最大数值 | [Youtube](https://youtu.be/PyZawYHF77c) - [B站](https://www.bilibili.com/video/BV18v411p7ki/) | [Maximum Number by Inserting Five](https://helloacm.com/teaching-kids-programming-maximum-number-by-inserting-five/) | 2021-06-10 |
 | Sign of the Product of an Array | 求数组乘积的符号值 | [Youtube](https://youtu.be/LhdF2G4DvRk) - [B站](https://www.bilibili.com/video/BV1ug411G7tq/) | [Sign of the Product of an Array](https://helloacm.com/teaching-kids-programming-sign-of-the-product-of-an-array/) | 2021-06-06 |
 | Substrings of Size Three with Distinct Characters | 具有不同字符的大小为3的子字符串 | [Youtube](https://youtu.be/wdaGDD-wir0) - [B站](https://www.bilibili.com/video/BV1XU4y1V7uB/) | [Substrings of Size Three with Distinct Characters](https://helloacm.com/teaching-kids-programming-substrings-of-size-three-with-distinct-characters/) | 2021-06-01 |
 | Check if Word Equals Summation of Two Words | 两单词是否数值相等 | [Youtube](https://youtu.be/DYWqVNdB_oU) - [B站](https://www.bilibili.com/video/BV1364y1o7wJ/) | [Check if Word Equals Summation of Two Words](https://helloacm.com/teaching-kids-programming-check-if-word-equals-summation-of-two-words/) | 2021-05-30 |
