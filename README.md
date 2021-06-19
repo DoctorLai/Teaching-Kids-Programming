@@ -205,6 +205,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Greedy Algorithm 贪心算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sum of Distinct Positive Factorial Numbers | 不同正阶乘数之和 | [Youtube](https://youtu.be/XHKuC8U93Cs) - [B站](https://www.bilibili.com/video/BV14B4y1M7kG/) | [Sum of Distinct Positive Factorial Numbers](https://helloacm.com/teaching-kids-programming-sum-of-distinct-positive-factorial-numbers/) | 2021-06-19 |
 | Flip One Digit via Greedy Algorithm | 贪心翻转一个数字 | [Youtube](https://youtu.be/8zpPvC0oXc0) - [B站](https://www.bilibili.com/video/BV1Yq4y1E7c3/) | [Flip One Digit via Greedy Algorithm](https://helloacm.com/teaching-kids-programming-flip-one-digit-via-greedy-algorithm/) | 2021-05-18 |
 | Longest Interval Algorithm | 最长线段算法 | [Youtube](https://youtu.be/y57brlTY6Ac) - [B站](https://www.bilibili.com/video/BV1py4y1W7tZ/) | [Longest Interval Algorithm](https://helloacm.com/teaching-kids-programming-longest-interval-algorithm/) | 2021-05-16 |
 | Dynamic Programming or Greedy Algorithm to Compute the Min Change | 最少零钱贪心算法 | [Youtube](https://youtu.be/IiFM8vKj9_Q) - [B站](https://www.bilibili.com/video/BV1oK4y1o7BH/) | [Dynamic Programming or Greedy Algorithm to Compute the Min Change](https://helloacm.com/teaching-kids-programming-dynamic-programming-or-greedy-algorithm-to-compute-the-min-change/) | 2021-05-01 |
