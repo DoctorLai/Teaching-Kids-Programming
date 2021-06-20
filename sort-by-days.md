@@ -1,5 +1,5 @@
 # Teaching Kids Programming
-[Sort by Categories](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/README.md)
+[Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
 - Days 212 [Sum of Distinct Positive Factorial Numbers](https://helloacm.com/teaching-kids-programming-sum-of-distinct-positive-factorial-numbers/)  不同正阶乘数之和  [Youtube](https://youtu.be/XHKuC8U93Cs) - [B站](https://www.bilibili.com/video/BV14B4y1M7kG/) 
 - Days 211 [Depth First Search Algorithm to Compute the Max Width of a Binary Tree](https://helloacm.com/teaching-kids-programming-depth-first-search-algorithm-to-compute-the-max-width-of-a-binary-tree/)  深度优先算法求二叉树的最大宽度  [Youtube](https://youtu.be/wpspJg7PHbo) - [B站](https://www.bilibili.com/video/BV1u64y1d7fB/) 
 - Days 210 [Breadth First Search Algorithm to Compute the Max Width of a Binary Tree](https://helloacm.com/teaching-kids-programming-breadth-first-search-algorithm-to-compute-the-max-width-of-a-binary-tree/)  广度优先算法求二叉树最大宽度  [Youtube](https://youtu.be/JMA6OCkffSc) - [B站](https://www.bilibili.com/video/BV1bw411f7BX/) 
