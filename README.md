@@ -218,6 +218,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Swap Characters to Equalize Strings | 交换字符让两字符串相等 | [Youtube](https://youtu.be/aecXyMxiyG4) - [B站](https://www.bilibili.com/video/BV1Dq4y1L7o5/) | [Swap Characters to Equalize Strings](https://helloacm.com/teaching-kids-programming-swap-characters-to-equalize-strings/) | 2021-06-21 |
 | Max Product of Two Numbers | 数组中最大两数的乘积 | [Youtube](https://youtu.be/kCtePbGeoes) - [B站](https://www.bilibili.com/video/BV1SV41147Vj/) | [Max Product of Two Numbers](https://helloacm.com/teaching-kids-programming-max-product-of-two-numbers/) | 2021-06-11 |
 | Maximum Number by Inserting Five | 插入5后的最大数值 | [Youtube](https://youtu.be/PyZawYHF77c) - [B站](https://www.bilibili.com/video/BV18v411p7ki/) | [Maximum Number by Inserting Five](https://helloacm.com/teaching-kids-programming-maximum-number-by-inserting-five/) | 2021-06-10 |
 | Sign of the Product of an Array | 求数组乘积的符号值 | [Youtube](https://youtu.be/LhdF2G4DvRk) - [B站](https://www.bilibili.com/video/BV1ug411G7tq/) | [Sign of the Product of an Array](https://helloacm.com/teaching-kids-programming-sign-of-the-product-of-an-array/) | 2021-06-06 |
