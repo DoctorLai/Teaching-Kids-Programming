@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 215:  [Count Odd Numbers in an Interval Range](https://helloacm.com/teaching-kids-programming-count-odd-numbers-in-an-interval-range/)  数区间里奇数个数  [Youtube](https://youtu.be/21zYx63Fm_A) - [B站](https://www.bilibili.com/video/BV1No4y1C78v/) 
 - Day 214:  [Swap Characters to Equalize Strings](https://helloacm.com/teaching-kids-programming-swap-characters-to-equalize-strings/)  交换字符让两字符串相等  [Youtube](https://youtu.be/aecXyMxiyG4) - [B站](https://www.bilibili.com/video/BV1Dq4y1L7o5/) 
 - Day 213:  [Sum of Distinct Positive Factorial Numbers via Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-sum-of-distinct-positive-factorial-numbers-via-depth-first-search-algorithm/)  不同正阶乘数之和的递归深度优先解法  [Youtube](https://youtu.be/NLJ6X6VLxHs) - [B站](https://www.bilibili.com/video/BV1EU4y1G791/) 
 - Day 212:  [Sum of Distinct Positive Factorial Numbers](https://helloacm.com/teaching-kids-programming-sum-of-distinct-positive-factorial-numbers/)  不同正阶乘数之和  [Youtube](https://youtu.be/XHKuC8U93Cs) - [B站](https://www.bilibili.com/video/BV14B4y1M7kG/) 
