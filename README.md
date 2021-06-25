@@ -43,6 +43,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Number of Changing Directions | 改变方向的数字 | [Youtube](https://youtu.be/qVfsFU8Qt5w) - [B站](https://www.bilibili.com/video/BV1UB4y1K7C8/) | [Number of Changing Directions](https://helloacm.com/teaching-kids-programming-number-of-changing-directions/) | 2021-06-25 |
 | Count Odd Numbers in an Interval Range | 数区间里奇数个数 | [Youtube](https://youtu.be/21zYx63Fm_A) - [B站](https://www.bilibili.com/video/BV1No4y1C78v/) | [Count Odd Numbers in an Interval Range](https://helloacm.com/teaching-kids-programming-count-odd-numbers-in-an-interval-range/) | 2021-06-22 |
 | Rotate a 2D Matrix/Image 90 Degree AntiClockwise | 逆时针旋转矩阵算法 | [Youtube](https://youtu.be/rSHyJikWIo8) - [B站](https://www.bilibili.com/video/BV1i64y167eM/) | [Rotate a 2D Matrix/Image 90 Degree AntiClockwise](https://helloacm.com/teaching-kids-programming-rotate-a-2d-matrix-image-90-degree-anti-clockwise/) | 2021-06-08 |
 | Rotate a 2D Matrix/Image 90 Degree Clockwise | 顺时针旋转矩阵算法 | [Youtube](https://youtu.be/bYA4IjpINsg) - [B站](https://www.bilibili.com/video/BV1v44y167se/) | [Rotate a 2D Matrix/Image 90 Degree Clockwise](https://helloacm.com/teaching-kids-programming-rotate-a-2d-matrix-image-90-degree-clockwise/) | 2021-06-07 |
