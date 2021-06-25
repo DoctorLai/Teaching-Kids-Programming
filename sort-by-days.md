@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 218:  [Number of Changing Directions](https://helloacm.com/teaching-kids-programming-number-of-changing-directions/)  改变方向的数字  [Youtube](https://youtu.be/qVfsFU8Qt5w) - [B站](https://www.bilibili.com/video/BV1UB4y1K7C8/) 
 - Day 217:  [Breadth First Search Algorithm to Check If Two Binary Trees are Same](https://helloacm.com/teaching-kids-programming-breadth-first-search-algorithm-to-check-if-two-binary-trees-are-same/)  广度优先算法判断两二叉树是否相等  [Youtube](https://www.youtube.com/watch?v=GCYZZIbVsoM) - [B站](https://www.bilibili.com/video/BV1uV411x7Yr/) 
 - Day 216:  [Recursive Depth First Search Algorithm to Check If Two Binary Trees are Same](https://helloacm.com/teaching-kids-programming-recursive-depth-first-search-algorithm-to-check-if-two-binary-trees-are-same/)  递归深度优先算法判断两二叉树是否相等  [Youtube](https://youtu.be/j5lICLFenuo) - [B站](https://www.bilibili.com/video/BV1Uy4y1T7CJ/) 
 - Day 215:  [Count Odd Numbers in an Interval Range](https://helloacm.com/teaching-kids-programming-count-odd-numbers-in-an-interval-range/)  数区间里奇数个数  [Youtube](https://youtu.be/21zYx63Fm_A) - [B站](https://www.bilibili.com/video/BV1No4y1C78v/) 
