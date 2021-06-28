@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 220:  [Algorithms to Check if a Linked List is Palindrome](https://helloacm.com/teaching-kids-programming-algorithms-to-check-if-a-linked-list-is-palindrome/)  4种算法判断回文单向链表  [Youtube](https://youtu.be/lo5E3NXZwFs) - [B站](https://www.bilibili.com/video/BV1Wh411Y7U2/) 
 - Day 219:  [Dynamic Programming Algorithms to Compute the Maximum Non-Adjacent Tree Sum](https://helloacm.com/teaching-kids-programming-dynamic-programming-algorithms-to-compute-the-maximum-non-adjacent-tree-sum/)  动态规化算法求二叉树最大非相邻节点之和  [Youtube](https://youtu.be/NxD81K2H8pw) - [B站](https://www.bilibili.com/video/BV1sq4y1s7ZT/) 
 - Day 218:  [Number of Changing Directions](https://helloacm.com/teaching-kids-programming-number-of-changing-directions/)  改变方向的数字  [Youtube](https://youtu.be/qVfsFU8Qt5w) - [B站](https://www.bilibili.com/video/BV1UB4y1K7C8/) 
 - Day 217:  [Breadth First Search Algorithm to Check If Two Binary Trees are Same](https://helloacm.com/teaching-kids-programming-breadth-first-search-algorithm-to-check-if-two-binary-trees-are-same/)  广度优先算法判断两二叉树是否相等  [Youtube](https://www.youtube.com/watch?v=GCYZZIbVsoM) - [B站](https://www.bilibili.com/video/BV1uV411x7Yr/) 
