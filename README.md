@@ -81,6 +81,11 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Introduction to Queue Data Structure and Examples | 数据结构之队列 | [Youtube](https://www.youtube.com/watch?v=FUwxWmpQzuA) - [B站](https://www.bilibili.com/video/BV1PK41137Hu/) | [Introduction to Queue Data Structure and Examples](https://helloacm.com/teaching-kids-programming-introduction-to-queue-data-structure-and-examples/) | 2020-11-25 |
 | Reverse a List using a Stack | 数据结构之堆栈 | [Youtube](https://www.youtube.com/watch?v=mqot-fqG05Y) - [B站](https://www.bilibili.com/video/BV1ua4y1W7mr/) | [Reverse a List using a Stack](https://helloacm.com/teaching-kids-programming-reversing-a-list-using-stack/) | 2020-11-24 |
 
+## Hash Table 哈希表
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| First Unique Character in a String | 字符串中第一个唯一字符 | [Youtube](https://youtu.be/rtVeelvBT4c) - [B站](https://www.bilibili.com/video/BV1qy4y1M7hg/) | [First Unique Character in a String](https://helloacm.com/teaching-kids-programming-first-unique-character-in-a-string/) | 2021-06-28 |
+
 ## Algorithms 算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
