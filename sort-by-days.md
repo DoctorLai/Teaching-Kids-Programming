@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 221:  [First Unique Character in a String](https://helloacm.com/teaching-kids-programming-first-unique-character-in-a-string/)  字符串中第一个唯一字符  [Youtube](https://youtu.be/rtVeelvBT4c) - [B站](https://www.bilibili.com/video/BV1qy4y1M7hg/) 
 - Day 220:  [Algorithms to Check if a Linked List is Palindrome](https://helloacm.com/teaching-kids-programming-algorithms-to-check-if-a-linked-list-is-palindrome/)  4种算法判断回文单向链表  [Youtube](https://youtu.be/lo5E3NXZwFs) - [B站](https://www.bilibili.com/video/BV1Wh411Y7U2/) 
 - Day 219:  [Dynamic Programming Algorithms to Compute the Maximum Non-Adjacent Tree Sum](https://helloacm.com/teaching-kids-programming-dynamic-programming-algorithms-to-compute-the-maximum-non-adjacent-tree-sum/)  动态规化算法求二叉树最大非相邻节点之和  [Youtube](https://youtu.be/NxD81K2H8pw) - [B站](https://www.bilibili.com/video/BV1sq4y1s7ZT/) 
 - Day 218:  [Number of Changing Directions](https://helloacm.com/teaching-kids-programming-number-of-changing-directions/)  改变方向的数字  [Youtube](https://youtu.be/qVfsFU8Qt5w) - [B站](https://www.bilibili.com/video/BV1UB4y1K7C8/) 
