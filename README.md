@@ -84,9 +84,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Hash Table 哈希表
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Number of Quadruplets That Sum Target via Hash Table | 求目标和四元组数(哈希表) | [Youtube]() - [B站]() | [Number of Quadruplets That Sum Target via Hash Table](https://helloacm.com/teaching-kids-programming-number-of-quadruplets-that-sum-target-via-hash-table/) | 2021-06-30 |
-
-
+| Number of Quadruplets That Sum Target via Hash Table | 求目标和四元组数(哈希表) | [Youtube](https://youtu.be/m9Ns7V_Rc6o) - [B站](https://www.bilibili.com/video/BV1ah411h75i/) | [Number of Quadruplets That Sum Target via Hash Table](https://helloacm.com/teaching-kids-programming-number-of-quadruplets-that-sum-target-via-hash-table/) | 2021-06-30 |
 | First Unique Character in a String | 字符串中第一个唯一字符 | [Youtube](https://youtu.be/rtVeelvBT4c) - [B站](https://www.bilibili.com/video/BV1qy4y1M7hg/) | [First Unique Character in a String](https://helloacm.com/teaching-kids-programming-first-unique-character-in-a-string/) | 2021-06-28 |
 
 ## Algorithms 算法
