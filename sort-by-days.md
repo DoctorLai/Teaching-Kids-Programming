@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 225:  [Largest Odd Number in String](https://helloacm.com/teaching-kids-programming-largest-odd-number-in-string/)  字符串中的最大奇数  [Youtube](https://youtu.be/Pj27YtuFltw) - [B站](https://www.bilibili.com/video/BV1yo4y1Q77H/)
 - Day 224:  [Depth First Search Algorithm to Find the Largest Land](https://helloacm.com/teaching-kids-programming-depth-first-search-algorithm-to-find-the-largest-land/)  深度优先算法求最大岛屿大小  [Youtube](https://youtu.be/2poU9729RpQ) - [B站](https://www.bilibili.com/video/BV1rL411p75H/) 
 - Day 223:  [Number of Quadruplets That Sum Target via Hash Table](https://helloacm.com/teaching-kids-programming-number-of-quadruplets-that-sum-target-via-hash-table/)  求目标和四元组数(哈希表)  [Youtube](https://youtu.be/m9Ns7V_Rc6o) - [B站](https://www.bilibili.com/video/BV1ah411h75i/)
 - Day 222:  [Determine a Armstrong Number](https://helloacm.com/teaching-kids-programming-determine-a-armstrong-number/)  阿姆斯壮数算法  [Youtube](https://youtu.be/k4n94MG2jB0) - [B站](https://www.bilibili.com/video/BV1Hf4y1b7vt/)
