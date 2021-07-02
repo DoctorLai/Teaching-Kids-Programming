@@ -221,6 +221,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Greedy Algorithm 贪心算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Largest Odd Number in String | 字符串中的最大奇数 | [Youtube](https://youtu.be/Pj27YtuFltw) - [B站](https://www.bilibili.com/video/BV1yo4y1Q77H/) | [Largest Odd Number in String](https://helloacm.com/teaching-kids-programming-largest-odd-number-in-string/) | 2021-07-02 |
 | Sum of Distinct Positive Factorial Numbers | 不同正阶乘数之和 | [Youtube](https://youtu.be/XHKuC8U93Cs) - [B站](https://www.bilibili.com/video/BV14B4y1M7kG/) | [Sum of Distinct Positive Factorial Numbers](https://helloacm.com/teaching-kids-programming-sum-of-distinct-positive-factorial-numbers/) | 2021-06-19 |
 | Flip One Digit via Greedy Algorithm | 贪心翻转一个数字 | [Youtube](https://youtu.be/8zpPvC0oXc0) - [B站](https://www.bilibili.com/video/BV1Yq4y1E7c3/) | [Flip One Digit via Greedy Algorithm](https://helloacm.com/teaching-kids-programming-flip-one-digit-via-greedy-algorithm/) | 2021-05-18 |
 | Longest Interval Algorithm | 最长线段算法 | [Youtube](https://youtu.be/y57brlTY6Ac) - [B站](https://www.bilibili.com/video/BV1py4y1W7tZ/) | [Longest Interval Algorithm](https://helloacm.com/teaching-kids-programming-longest-interval-algorithm/) | 2021-05-16 |
