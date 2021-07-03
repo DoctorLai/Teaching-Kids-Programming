@@ -8,9 +8,7 @@ The videos and blog are in **English**. The Teaching Programming Language is **P
 **------>[All Videos/Posts sorted by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)<----------**
 
 ## About Me
-I am currently a SDE at Amazon AWS ([Linkedin](https://www.linkedin.com/in/doctorlai/)). I am located at Cambridge, UK - and I work for Amazon AWS S3 - and I work on [S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) from Day 1.
-
-Prior to AWS, I worked for General Electric as a Staff Software Engineer and I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
+I am currently a Senior Software Engineer at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). Prior to that I worked as a SDE for Amazon Web Service ([S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/)) and as a Staff Software Engineer for [General Electric Smallworld](https://www.ge.com/digital/applications/smallworld-gis-geospatial-asset-management) when I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
 
 ## Channels and Blog
 - [Youtube Channel: https://www.youtube.com/c/DoctorLai](https://www.youtube.com/c/DoctorLai)
