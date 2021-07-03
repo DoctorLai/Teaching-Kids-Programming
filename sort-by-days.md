@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 226:  [Max Number of Points on a Line](https://helloacm.com/teaching-kids-programming-max-number-of-points-on-a-line/)  求一条直线上最多的点数  [Youtube](https://youtu.be/OLQjEajzVPU) - [B站](https://www.bilibili.com/video/BV1ZV411p7o9/) 
 - Day 225:  [Largest Odd Number in String](https://helloacm.com/teaching-kids-programming-largest-odd-number-in-string/)  字符串中的最大奇数  [Youtube](https://youtu.be/Pj27YtuFltw) - [B站](https://www.bilibili.com/video/BV1yo4y1Q77H/)
 - Day 224:  [Depth First Search Algorithm to Find the Largest Land](https://helloacm.com/teaching-kids-programming-depth-first-search-algorithm-to-find-the-largest-land/)  深度优先算法求最大岛屿大小  [Youtube](https://youtu.be/2poU9729RpQ) - [B站](https://www.bilibili.com/video/BV1rL411p75H/) 
 - Day 223:  [Number of Quadruplets That Sum Target via Hash Table](https://helloacm.com/teaching-kids-programming-number-of-quadruplets-that-sum-target-via-hash-table/)  求目标和四元组数(哈希表)  [Youtube](https://youtu.be/m9Ns7V_Rc6o) - [B站](https://www.bilibili.com/video/BV1ah411h75i/)
