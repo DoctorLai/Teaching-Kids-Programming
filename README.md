@@ -231,6 +231,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Roman to Integer | 罗马数字转换到阿拉伯数 | [Youtube](https://youtu.be/pMFtfS-5MPQ) - [B站](https://www.bilibili.com/video/BV1ro4y1Q78Y/) | [Roman to Integer](https://helloacm.com/teaching-kids-programming-convert-romans-to-integers/) | 2021-07-04 |
 | Determine a Armstrong Number | 阿姆斯壮数算法 | [Youtube](https://youtu.be/k4n94MG2jB0) - [B站](https://www.bilibili.com/video/BV1Hf4y1b7vt/) | [Determine a Armstrong Number](https://helloacm.com/teaching-kids-programming-determine-a-armstrong-number/) | 2021-06-29 |
 | Swap Characters to Equalize Strings | 交换字符让两字符串相等 | [Youtube](https://youtu.be/aecXyMxiyG4) - [B站](https://www.bilibili.com/video/BV1Dq4y1L7o5/) | [Swap Characters to Equalize Strings](https://helloacm.com/teaching-kids-programming-swap-characters-to-equalize-strings/) | 2021-06-21 |
 | Max Product of Two Numbers | 数组中最大两数的乘积 | [Youtube](https://youtu.be/kCtePbGeoes) - [B站](https://www.bilibili.com/video/BV1SV41147Vj/) | [Max Product of Two Numbers](https://helloacm.com/teaching-kids-programming-max-product-of-two-numbers/) | 2021-06-11 |
