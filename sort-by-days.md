@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 228:  [Reverse Sublists to Convert to Target](https://helloacm.com/teaching-kids-programming-reverse-sublists-to-convert-to-target/)  反向子列表转换为目标  [Youtube](https://youtu.be/Zy87t4lvs5s) - [B站](https://www.bilibili.com/video/BV1jU4y137mU/) 
 - Day 227:  [Roman to Integer](https://helloacm.com/teaching-kids-programming-convert-romans-to-integers/)  罗马数字转换到阿拉伯数  [Youtube](https://youtu.be/pMFtfS-5MPQ) - [B站](https://www.bilibili.com/video/BV1ro4y1Q78Y/) 
 - Day 226:  [Max Number of Points on a Line](https://helloacm.com/teaching-kids-programming-max-number-of-points-on-a-line/)  求一条直线上最多的点数  [Youtube](https://youtu.be/OLQjEajzVPU) - [B站](https://www.bilibili.com/video/BV1ZV411p7o9/) 
 - Day 225:  [Largest Odd Number in String](https://helloacm.com/teaching-kids-programming-largest-odd-number-in-string/)  字符串中的最大奇数  [Youtube](https://youtu.be/Pj27YtuFltw) - [B站](https://www.bilibili.com/video/BV1yo4y1Q77H/)
