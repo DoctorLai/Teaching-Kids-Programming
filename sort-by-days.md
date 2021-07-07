@@ -1,6 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
-- Day 230:  [Multiples of 3 and 7](https://helloacm.com/teaching-kids-programming-multiples-of-3-and-7/)  3和7的倍数  [Youtube](https://helloacm.com/teaching-kids-programming-multiples-of-3-and-7/) - [B站](https://www.bilibili.com/video/BV14h41167pF/) 
+- Day 230:  [Multiples of 3 and 7](https://helloacm.com/teaching-kids-programming-multiples-of-3-and-7/)  3和7的倍数  [Youtube](https://youtu.be/MpChpv5tcxM) - [B站](https://www.bilibili.com/video/BV14h41167pF/) 
 - Day 229:  [Flip to Zeros](https://helloacm.com/teaching-kids-programming-flip-to-zeros/)  翻转数字转换为零  [Youtube](https://youtu.be/-zbssA-RggQ) - [B站](https://www.bilibili.com/video/BV14X4y1w7Ku/)
 - Day 228:  [Reverse Sublists to Convert to Target](https://helloacm.com/teaching-kids-programming-reverse-sublists-to-convert-to-target/)  反向子列表转换为目标  [Youtube](https://youtu.be/Zy87t4lvs5s) - [B站](https://www.bilibili.com/video/BV1jU4y137mU/) 
 - Day 227:  [Roman to Integer](https://helloacm.com/teaching-kids-programming-convert-romans-to-integers/)  罗马数字转换到阿拉伯数  [Youtube](https://youtu.be/pMFtfS-5MPQ) - [B站](https://www.bilibili.com/video/BV1ro4y1Q78Y/) 
