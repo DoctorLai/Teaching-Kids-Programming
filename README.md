@@ -232,6 +232,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Group Integers | 数字分组 | [Youtube](https://youtu.be/_fgubw1B5Ho) - [B站](https://www.bilibili.com/video/BV1FV411s7Y1/) | [Group Integers](https://helloacm.com/teaching-kids-programming-group-integers/) | 2021-07-08 |
 | Flip to Zeros | 翻转数字转换为零 | [Youtube](https://youtu.be/-zbssA-RggQ) - [B站](https://www.bilibili.com/video/BV14X4y1w7Ku/) | [Flip to Zeros](https://helloacm.com/teaching-kids-programming-flip-to-zeros/) | 2021-07-06 |
 | Reverse Sublists to Convert to Target | 反向子列表转换为目标 | [Youtube](https://youtu.be/Zy87t4lvs5s) - [B站](https://www.bilibili.com/video/BV1jU4y137mU/) | [Reverse Sublists to Convert to Target](https://helloacm.com/teaching-kids-programming-reverse-sublists-to-convert-to-target/) | 2021-07-05 |
 | Roman to Integer | 罗马数字转换到阿拉伯数 | [Youtube](https://youtu.be/pMFtfS-5MPQ) - [B站](https://www.bilibili.com/video/BV1ro4y1Q78Y/) | [Roman to Integer](https://helloacm.com/teaching-kids-programming-convert-romans-to-integers/) | 2021-07-04 |
