@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 232:  [Introducing the Chain Function in Python](https://helloacm.com/teaching-kids-programming-introducing-the-chain-function-in-python/)  Python中的chain函数  [Youtube](https://youtu.be/vS7evUxELZQ) - [B站](https://www.bilibili.com/video/BV13h41167kt/) 
 - Day 231:  [Group Integers](https://helloacm.com/teaching-kids-programming-group-integers/)  数字分组  [Youtube](https://youtu.be/_fgubw1B5Ho) - [B站](https://www.bilibili.com/video/BV1FV411s7Y1/) 
 - Day 230:  [Multiples of 3 and 7](https://helloacm.com/teaching-kids-programming-multiples-of-3-and-7/)  3和7的倍数  [Youtube](https://youtu.be/MpChpv5tcxM) - [B站](https://www.bilibili.com/video/BV14h41167pF/) 
 - Day 229:  [Flip to Zeros](https://helloacm.com/teaching-kids-programming-flip-to-zeros/)  翻转数字转换为零  [Youtube](https://youtu.be/-zbssA-RggQ) - [B站](https://www.bilibili.com/video/BV14X4y1w7Ku/)
