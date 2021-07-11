@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 234:  [Count Square Sum Triples](https://helloacm.com/teaching-kids-programming-count-square-sum-pythagorean-triples/)  数勾股定理三元组  [Youtube](https://youtu.be/Nf7c2QKVkBM) - [B站](https://www.bilibili.com/video/BV1Cb4y1r7dx/)
 - Day 233:  [Build Array from Permutation](https://helloacm.com/teaching-kids-programming-build-array-from-permutation/)  从排列构建数组  [Youtube](https://youtu.be/8ZyQnkkAg9k) - [B站](https://www.bilibili.com/video/BV1gb4y1k7My/)
 - Day 232:  [Introducing the Chain Function in Python](https://helloacm.com/teaching-kids-programming-introducing-the-chain-function-in-python/)  Python中的chain函数  [Youtube](https://youtu.be/vS7evUxELZQ) - [B站](https://www.bilibili.com/video/BV1nq4y1x73k/) 
 - Day 231:  [Group Integers](https://helloacm.com/teaching-kids-programming-group-integers/)  数字分组  [Youtube](https://youtu.be/_fgubw1B5Ho) - [B站](https://www.bilibili.com/video/BV1FV411s7Y1/) 
