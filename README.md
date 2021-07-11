@@ -233,6 +233,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Count Square Sum Triples | 数勾股定理三元组 | [Youtube](https://youtu.be/Nf7c2QKVkBM) - [B站](https://www.bilibili.com/video/BV1Cb4y1r7dx/) | [Count Square Sum Triples](https://helloacm.com/teaching-kids-programming-count-square-sum-pythagorean-triples/) | 2021-07-11 |
 | Build Array from Permutation | 从排列构建数组 | [Youtube](https://youtu.be/8ZyQnkkAg9k) - [B站](https://www.bilibili.com/video/BV1gb4y1k7My/) | [Build Array from Permutation](https://helloacm.com/teaching-kids-programming-build-array-from-permutation/) | 2021-07-10 |
 | Group Integers | 数字分组 | [Youtube](https://youtu.be/_fgubw1B5Ho) - [B站](https://www.bilibili.com/video/BV1FV411s7Y1/) | [Group Integers](https://helloacm.com/teaching-kids-programming-group-integers/) | 2021-07-08 |
 | Flip to Zeros | 翻转数字转换为零 | [Youtube](https://youtu.be/-zbssA-RggQ) - [B站](https://www.bilibili.com/video/BV14X4y1w7Ku/) | [Flip to Zeros](https://helloacm.com/teaching-kids-programming-flip-to-zeros/) | 2021-07-06 |
