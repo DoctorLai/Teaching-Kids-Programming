@@ -235,6 +235,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sort List by Reversing Once | 反转一次子序列使之排序 | [Youtube](https://youtu.be/Ccvv5csjFlU) - [B站](https://www.bilibili.com/video/BV1h44y127uG/) | [Sort List by Reversing Once](https://helloacm.com/teaching-kids-programming-sort-list-by-reversing-once/) | 2021-07-14 |
 | Count Square Sum Triples | 数勾股定理三元组 | [Youtube](https://youtu.be/Nf7c2QKVkBM) - [B站](https://www.bilibili.com/video/BV1Cb4y1r7dx/) | [Count Square Sum Triples](https://helloacm.com/teaching-kids-programming-count-square-sum-pythagorean-triples/) | 2021-07-11 |
 | Build Array from Permutation | 从排列构建数组 | [Youtube](https://youtu.be/8ZyQnkkAg9k) - [B站](https://www.bilibili.com/video/BV1gb4y1k7My/) | [Build Array from Permutation](https://helloacm.com/teaching-kids-programming-build-array-from-permutation/) | 2021-07-10 |
 | Group Integers | 数字分组 | [Youtube](https://youtu.be/_fgubw1B5Ho) - [B站](https://www.bilibili.com/video/BV1FV411s7Y1/) | [Group Integers](https://helloacm.com/teaching-kids-programming-group-integers/) | 2021-07-08 |
@@ -317,6 +318,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Backtracking Algorithm to Solve N-queen Problem | N皇后回溯算法求解 | [Youtube](https://www.youtube.com/watch?v=aFi-B8grleA) - [B站](https://www.bilibili.com/video/BV13f4y1e7RW/) | [Backtracking Algorithm to Solve N-queen Problem](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-solve-n-queen-problem/) | 2020-12-20 |
 
 ## Tags
-#algorithms #algorithm #recursion #math #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning #tutorial #computing
+#algorithms #algorithm #math #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning #tutorial #computing
 
 ![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/teaching-kids-programming.png)
