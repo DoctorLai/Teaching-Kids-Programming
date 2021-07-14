@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 237:  [Sort List by Reversing Once](https://helloacm.com/teaching-kids-programming-sort-list-by-reversing-once/)  反转一次子序列使之排序  [Youtube](https://youtu.be/Ccvv5csjFlU) - [B站](https://www.bilibili.com/video/BV1h44y127uG/)
 - Day 236:  [Brick Layout (Unlimited Knapsack) via Bottom Up Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-brick-layout-unlimited-knapsack-via-bottom-up-dynamic-programming-algorithm/)  至底向上的动态规划算法求砌砖头数(无限背包变种)  [Youtube](https://youtu.be/g1SUTLY2tj0) - [B站](https://www.bilibili.com/video/BV1KX4y1A7ER/) 
 - Day 235:  [Brick Layout (Unlimited Knapsack) via Top Down Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-brick-layout-unlimited-knapsack-via-top-down-dynamic-programming-algorithm/)  至顶向下的动态规划算法求砌砖头数(无限背包变种)  [Youtube](https://youtu.be/9ltdh-Ok2i4) - [B站](https://www.bilibili.com/video/BV1gU4y1G7di/) 
 - Day 234:  [Count Square Sum Triples](https://helloacm.com/teaching-kids-programming-count-square-sum-pythagorean-triples/)  数勾股定理三元组  [Youtube](https://youtu.be/Nf7c2QKVkBM) - [B站](https://www.bilibili.com/video/BV1Cb4y1r7dx/)
