@@ -235,6 +235,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sort List by Hamming Weight | 按哈明码算法排序列表 | [Youtube](https://youtu.be/O916HJkL6fs) - [B站](https://www.bilibili.com/video/BV19w411d7iC/) | [Sort List by Hamming Weight](https://helloacm.com/teaching-kids-programming-sort-list-by-hamming-weight/) | 2021-07-15 |
 | Sort List by Reversing Once | 反转一次子序列使之排序 | [Youtube](https://youtu.be/Ccvv5csjFlU) - [B站](https://www.bilibili.com/video/BV1h44y127uG/) | [Sort List by Reversing Once](https://helloacm.com/teaching-kids-programming-sort-list-by-reversing-once/) | 2021-07-14 |
 | Count Square Sum Triples | 数勾股定理三元组 | [Youtube](https://youtu.be/Nf7c2QKVkBM) - [B站](https://www.bilibili.com/video/BV1Cb4y1r7dx/) | [Count Square Sum Triples](https://helloacm.com/teaching-kids-programming-count-square-sum-pythagorean-triples/) | 2021-07-11 |
 | Build Array from Permutation | 从排列构建数组 | [Youtube](https://youtu.be/8ZyQnkkAg9k) - [B站](https://www.bilibili.com/video/BV1gb4y1k7My/) | [Build Array from Permutation](https://helloacm.com/teaching-kids-programming-build-array-from-permutation/) | 2021-07-10 |
