@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 240:  [Length of Longest Balanced Subsequence](https://helloacm.com/teaching-kids-programming-length-of-longest-balanced-subsequence/)  最长平衡子序列的长度  [Youtube](https://youtu.be/gWn_GTyxePs) - [B站](https://www.bilibili.com/video/BV1864y1X78A/) 
 - Day 239:  [Redistribute Characters to Make All Strings Equal](https://helloacm.com/teaching-kids-programming-redistribute-characters-to-make-all-strings-equal/)  重新分配字符以使所有字符串相等  [Youtube](https://youtu.be/Kske_Wmnuyc) - [B站](https://www.bilibili.com/video/BV1jb4y1k7a5/) 
 - Day 238:  [Sort List by Hamming Weight](https://helloacm.com/teaching-kids-programming-sort-list-by-hamming-weight/)  按哈明码算法排序列表  [Youtube](https://youtu.be/O916HJkL6fs) - [B站](https://www.bilibili.com/video/BV19w411d7iC/) 
 - Day 237:  [Sort List by Reversing Once](https://helloacm.com/teaching-kids-programming-sort-list-by-reversing-once/)  反转一次子序列使之排序  [Youtube](https://youtu.be/Ccvv5csjFlU) - [B站](https://www.bilibili.com/video/BV1h44y127uG/)
