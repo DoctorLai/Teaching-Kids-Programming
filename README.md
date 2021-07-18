@@ -235,6 +235,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sum of Unique Elements | 唯一元素的总和 | [Youtube](https://youtu.be/-2xFTHxQcGg) - [B站](https://www.bilibili.com/video/BV16w41197dh/) | [Sum of Unique Elements](https://helloacm.com/teaching-kids-programming-sum-of-unique-elements/) | 2021-07-18 |
 | Length of Longest Balanced Subsequence | 最长平衡子序列的长度 | [Youtube](https://youtu.be/gWn_GTyxePs) - [B站](https://www.bilibili.com/video/BV1864y1X78A/) | [Length of Longest Balanced Subsequence](https://helloacm.com/teaching-kids-programming-length-of-longest-balanced-subsequence/) | 2021-07-17 |
 | Redistribute Characters to Make All Strings Equal | 重新分配字符以使所有字符串相等 | [Youtube](https://youtu.be/Kske_Wmnuyc) - [B站](https://www.bilibili.com/video/BV1jb4y1k7a5/) | [Redistribute Characters to Make All Strings Equal](https://helloacm.com/teaching-kids-programming-redistribute-characters-to-make-all-strings-equal/) | 2021-07-16 |
 | Sort List by Hamming Weight | 按哈明码算法排序列表 | [Youtube](https://youtu.be/O916HJkL6fs) - [B站](https://www.bilibili.com/video/BV19w411d7iC/) | [Sort List by Hamming Weight](https://helloacm.com/teaching-kids-programming-sort-list-by-hamming-weight/) | 2021-07-15 |
