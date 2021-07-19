@@ -10,6 +10,8 @@ The videos and blog are in **English**. The Teaching Programming Language is **P
 ## About Me
 I am currently a Senior Software Engineer at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). Prior to that I worked as a SDE for Amazon Web Service ([S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/)) and as a Staff Software Engineer for [General Electric Smallworld](https://www.ge.com/digital/applications/smallworld-gis-geospatial-asset-management) when I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
 
+My profile at [MSRC](https://www.microsoft.com/en-us/research/people/zhihualai/)
+
 ## Channels and Blog
 - [Youtube Channel: https://www.youtube.com/c/DoctorLai](https://www.youtube.com/c/DoctorLai)
 - Bilibili: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
