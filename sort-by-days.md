@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 242:  [Maximum Number of Words You Can Type](https://helloacm.com/teaching-kids-programming-maximum-number-of-words-you-can-type/)  可以敲的最多单词数  [Youtube](https://youtu.be/IhkDvq2jI0s) - [B站](https://www.bilibili.com/video/BV1kg411M7hz/) 
 - Day 241:  [Sum of Unique Elements](https://helloacm.com/teaching-kids-programming-sum-of-unique-elements/)  唯一元素的总和  [Youtube](https://youtu.be/-2xFTHxQcGg) - [B站](https://www.bilibili.com/video/BV16w41197dh/) 
 - Day 240:  [Length of Longest Balanced Subsequence](https://helloacm.com/teaching-kids-programming-length-of-longest-balanced-subsequence/)  最长平衡子序列的长度  [Youtube](https://youtu.be/gWn_GTyxePs) - [B站](https://www.bilibili.com/video/BV1864y1X78A/) 
 - Day 239:  [Redistribute Characters to Make All Strings Equal](https://helloacm.com/teaching-kids-programming-redistribute-characters-to-make-all-strings-equal/)  重新分配字符以使所有字符串相等  [Youtube](https://youtu.be/Kske_Wmnuyc) - [B站](https://www.bilibili.com/video/BV1jb4y1k7a5/) 
