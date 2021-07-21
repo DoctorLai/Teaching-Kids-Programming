@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 244:  [Concatenation of Array](https://helloacm.com/teaching-kids-programming-concatenation-of-arrays/)  数组的串联  [Youtube](https://youtu.be/JnYjSVzyP7c) - [B站](https://www.bilibili.com/video/BV1tg411M7Z1/) 
 - Day 243:  [Find the Difference of Two Almost Same Strings](https://helloacm.com/teaching-kids-programming-find-the-difference-of-two-almost-same-strings/)  找出两个几乎相同的字符串的差异  [Youtube](https://youtu.be/eWPGSVaBUbk) - [B站](https://www.bilibili.com/video/BV1ZM4y1K7Bc/)
 - Day 242:  [Maximum Number of Words You Can Type](https://helloacm.com/teaching-kids-programming-maximum-number-of-words-you-can-type/)  可以敲的最多单词数  [Youtube](https://youtu.be/IhkDvq2jI0s) - [B站](https://www.bilibili.com/video/BV1kg411M7hz/) 
 - Day 241:  [Sum of Unique Elements](https://helloacm.com/teaching-kids-programming-sum-of-unique-elements/)  唯一元素的总和  [Youtube](https://youtu.be/-2xFTHxQcGg) - [B站](https://www.bilibili.com/video/BV16w41197dh/) 
