@@ -25,6 +25,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Delete Node in a Linked List (No access to Head) | 删除链表中的指定节点(无法访问头节点) | [Youtube](https://youtu.be/YClbls2J6_o) - [B站](https://www.bilibili.com/video/BV1cU4y1H7yV/) | [Delete Node in a Linked List (No access to Head)](https://helloacm.com/teaching-kids-programming-delete-node-in-a-linked-list/) | 2021-07-22 |
 | Concatenation of Array | 数组的串联 | [Youtube](https://youtu.be/JnYjSVzyP7c) - [B站](https://www.bilibili.com/video/BV1tg411M7Z1/) | [Concatenation of Array](https://helloacm.com/teaching-kids-programming-concatenation-of-arrays/) | 2021-07-21 |
 | Introducing the Chain Function in Python | Python中的chain函数 | [Youtube](https://youtu.be/vS7evUxELZQ) - [B站](https://www.bilibili.com/video/BV1nq4y1x73k/) | [Introducing the Chain Function in Python](https://helloacm.com/teaching-kids-programming-introducing-the-chain-function-in-python/) | 2021-07-09 |
 | Implement the Accumulate Function in Python | Python的accumulate函数的实现 | [Youtube](https://youtu.be/a2GStfm1hL0) - [B站](https://www.bilibili.com/video/BV1A64y1i7Sq/) | [Implement the Accumulate Function in Python](https://helloacm.com/teaching-kids-programming-implement-the-accumulate-function-in-python/) | 2021-04-23 |
