@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 247:  [Number of Positions in Line of People](https://helloacm.com/teaching-kids-programming-line-of-people/)  计算队列中满足两条件的可能位置数  [Youtube](https://youtu.be/11iBMvgKhrg) - [B站](https://www.bilibili.com/video/BV1dy4y1j77W/) 
 - Day 246:  [Square Matrix Diagonal Sum](https://helloacm.com/teaching-kids-programming-square-matrix-diagonal-sum/)  方形矩阵对角线之和  [Youtube](https://youtu.be/RWtCkcx2WgM) - [B站](https://www.bilibili.com/video/BV17q4y1X7HS/) 
 - Day 245:  [Delete Node in a Linked List (No access to Head)](https://helloacm.com/teaching-kids-programming-delete-node-in-a-linked-list/)  删除链表中的指定节点(无法访问头节点)  [Youtube](https://youtu.be/YClbls2J6_o) - [B站](https://www.bilibili.com/video/BV1cU4y1H7yV/) 
 - Day 244:  [Concatenation of Array](https://helloacm.com/teaching-kids-programming-concatenation-of-arrays/)  数组的串联  [Youtube](https://youtu.be/JnYjSVzyP7c) - [B站](https://www.bilibili.com/video/BV1tg411M7Z1/) 
