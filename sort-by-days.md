@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 249:  [ROT13 String Cipher Algorithm in Python](https://helloacm.com/teaching-kids-programming-rot13-string-cipher-algorithm-in-python/)  Python 中的 ROT13 字符串密码算法  [Youtube](https://youtu.be/eXSeyolqo6s) - [B站](https://www.bilibili.com/video/BV16q4y1X7NR/) 
 - Day 248:  [Count of Sublists with Same First and Last Values](https://helloacm.com/teaching-kids-programming-count-of-sublists-with-same-first-and-last-values/)  首尾相同字列表数  [Youtube](https://youtu.be/iSyUsykWmhU) - [B站](https://www.bilibili.com/video/BV1pU4y1H73F/) 
 - Day 247:  [Number of Positions in Line of People](https://helloacm.com/teaching-kids-programming-line-of-people/)  计算队列中满足两条件的可能位置数  [Youtube](https://youtu.be/11iBMvgKhrg) - [B站](https://www.bilibili.com/video/BV1dy4y1j77W/) 
 - Day 246:  [Square Matrix Diagonal Sum](https://helloacm.com/teaching-kids-programming-square-matrix-diagonal-sum/)  方形矩阵对角线之和  [Youtube](https://youtu.be/RWtCkcx2WgM) - [B站](https://www.bilibili.com/video/BV17q4y1X7HS/) 
