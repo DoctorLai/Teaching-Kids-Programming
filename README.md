@@ -25,7 +25,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Implement the Counter in Python | Counter方法的实现 | [Youtube](https://youtu.be/zz1ulzkcB0w) - [B站](https://www.bilibili.com/video/BV1MM4y1N7tZ/) | [Implement the String.Find Method in Python](https://helloacm.com/teaching-kids-programming-implement-the-string-find-method-in-python/) | 2021-07-27 |
+| Implement the Counter in Python | Counter方法的实现 | [Youtube](https://youtu.be/zz1ulzkcB0w) - [B站](https://www.bilibili.com/video/BV1MM4y1N7tZ/) | [Implement the Counter in Python](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-07-28 |
 | Implement the String.Find Method in Python | 字符串查找字符的线性算法 | [Youtube](https://youtu.be/vKrqJmstPSQ) - [B站](https://www.bilibili.com/video/BV1Eo4y1Q7DY/) | [Implement the String.Find Method in Python](https://helloacm.com/teaching-kids-programming-implement-the-string-find-method-in-python/) | 2021-07-27 |
 | ROT13 String Cipher Algorithm in Python | Python 中的 ROT13 字符串密码算法 | [Youtube](https://youtu.be/eXSeyolqo6s) - [B站](https://www.bilibili.com/video/BV16q4y1X7NR/) | [ROT13 String Cipher Algorithm in Python](https://helloacm.com/teaching-kids-programming-rot13-string-cipher-algorithm-in-python/) | 2021-07-26 |
 | Delete Node in a Linked List (No access to Head) | 删除链表中的指定节点(无法访问头节点) | [Youtube](https://youtu.be/YClbls2J6_o) - [B站](https://www.bilibili.com/video/BV1cU4y1H7yV/) | [Delete Node in a Linked List (No access to Head)](https://helloacm.com/teaching-kids-programming-delete-node-in-a-linked-list/) | 2021-07-22 |
