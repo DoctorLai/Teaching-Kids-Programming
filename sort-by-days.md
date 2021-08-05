@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 253:  [Algorithm to Determine Three Divisors Numbers](https://helloacm.com/teaching-kids-programming-three-divisors/)  三除数  [Youtube](https://youtu.be/7ZAkJAsXK6k) - [B站](https://www.bilibili.com/video/BV1qP4y1x7ja/) 
 - Day 252:  [Greatest Common Divisor of Strings](https://helloacm.com/teaching-kids-programming-greatest-common-divisor-of-strings/)  最大公约字符串算法  [Youtube](https://youtu.be/bAV00Ch24wM) - [B站](https://www.bilibili.com/video/BV1pQ4y1f78k/) 
 - Day 251:  [Implement the Counter in Python](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/)  Counter方法的实现  [Youtube](https://youtu.be/zz1ulzkcB0w) - [B站](https://www.bilibili.com/video/BV1MM4y1N7tZ/) 
 - Day 250:  [Implement the String.Find Method in Python](https://helloacm.com/teaching-kids-programming-implement-the-string-find-method-in-python/)  字符串查找字符的线性算法  [Youtube](https://youtu.be/vKrqJmstPSQ) - [B站](https://www.bilibili.com/video/BV1Eo4y1Q7DY/) 
