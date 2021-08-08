@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 255:  [Pairwise Linked List Nodes Swap Algorithm](https://helloacm.com/teaching-kids-programming-pairwise-linked-list-swap/)  成对链表交换算法  [Youtube](https://youtu.be/3WyVUINXXN4) - [B站](https://www.bilibili.com/video/BV1jQ4y127LY/)
 - Day 254:  [Inplace Algorithms to Remove Elements](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/)  原地移除目标元素  [Youtube](https://youtu.be/B6PClrgsanw) - [B站](https://www.bilibili.com/video/BV1dQ4y1f7k4/)
 - Day 253:  [Algorithm to Determine Three Divisors Numbers](https://helloacm.com/teaching-kids-programming-three-divisors/)  三除数  [Youtube](https://youtu.be/7ZAkJAsXK6k) - [B站](https://www.bilibili.com/video/BV1qP4y1x7ja/) 
 - Day 252:  [Greatest Common Divisor of Strings](https://helloacm.com/teaching-kids-programming-greatest-common-divisor-of-strings/)  最大公约字符串算法  [Youtube](https://youtu.be/bAV00Ch24wM) - [B站](https://www.bilibili.com/video/BV1pQ4y1f78k/) 
