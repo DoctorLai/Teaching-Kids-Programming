@@ -155,6 +155,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Recursion 递归
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Linked List Jumps via Recursion | 链表跳跃的递归算法 | [Youtube](https://youtu.be/hLL2ZeB1VCU) - [B站](https://www.bilibili.com/video/BV1n64y1s7zn/) | [Linked List Jumps via Recursion](https://helloacm.com/teaching-kids-programming-linked-list-jumps-via-recursion/) | 2021-08-09 |
 | Multiples of 3 and 7 | 3和7的倍数 | [Youtube](https://youtu.be/MpChpv5tcxM) - [B站](https://www.bilibili.com/video/BV14h41167pF/) | [Multiples of 3 and 7](https://helloacm.com/teaching-kids-programming-multiples-of-3-and-7/) | 2021-07-07 |
 | Algorithms to Check if a Linked List is Palindrome | 4种算法判断回文单向链表 | [Youtube](https://youtu.be/lo5E3NXZwFs) - [B站](https://www.bilibili.com/video/BV1Wh411Y7U2/) | [Algorithms to Check if a Linked List is Palindrome](https://helloacm.com/teaching-kids-programming-algorithms-to-check-if-a-linked-list-is-palindrome/) | 2021-06-27 |
 | Recursive Depth First Search Algorithm to Check If Two Binary Trees are Same | 递归深度优先算法判断两二叉树是否相等 | [Youtube](https://youtu.be/j5lICLFenuo) - [B站](https://www.bilibili.com/video/BV1Uy4y1T7CJ/) | [Recursive Depth First Search Algorithm to Check If Two Binary Trees are Same](https://helloacm.com/teaching-kids-programming-recursive-depth-first-search-algorithm-to-check-if-two-binary-trees-are-same/) | 2021-06-23 |
