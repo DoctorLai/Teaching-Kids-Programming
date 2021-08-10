@@ -50,6 +50,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Add Two Big Integers in Strings | 高精度加法算法 | [Youtube](https://youtu.be/DoBmrITwKN0) - [B站](https://www.bilibili.com/video/BV1rq4y1n7g9/) | [Add Two Big Integers in Strings](https://helloacm.com/teaching-kids-programming-add-two-big-integers-in-strings/) | 2021-08-10 |
 | Number of Positions in Line of People | 计算队列中满足两条件的可能位置数 | [Youtube](https://youtu.be/11iBMvgKhrg) - [B站](https://www.bilibili.com/video/BV1dy4y1j77W/) | [Number of Positions in Line of People](https://helloacm.com/teaching-kids-programming-line-of-people/) | 2021-07-24 |
 | Max Number of Points on a Line | 求一条直线上最多的点数 | [Youtube](https://youtu.be/OLQjEajzVPU) - [B站](https://www.bilibili.com/video/BV1ZV411p7o9/) | [Max Number of Points on a Line](https://helloacm.com/teaching-kids-programming-max-number-of-points-on-a-line/) | 2021-07-03 |
 | Number of Changing Directions | 改变方向的数字 | [Youtube](https://youtu.be/qVfsFU8Qt5w) - [B站](https://www.bilibili.com/video/BV1UB4y1K7C8/) | [Number of Changing Directions](https://helloacm.com/teaching-kids-programming-number-of-changing-directions/) | 2021-06-25 |
