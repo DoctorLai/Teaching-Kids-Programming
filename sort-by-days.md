@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 257:  [Add Two Big Integers in Strings](https://helloacm.com/teaching-kids-programming-add-two-big-integers-in-strings/)  高精度加法算法  [Youtube](https://youtu.be/DoBmrITwKN0) - [B站](https://www.bilibili.com/video/BV1rq4y1n7g9/)
 - Day 256:  [Linked List Jumps via Recursion](https://helloacm.com/teaching-kids-programming-linked-list-jumps-via-recursion/)  链表跳跃的递归算法  [Youtube](https://youtu.be/hLL2ZeB1VCU) - [B站](https://www.bilibili.com/video/BV1n64y1s7zn/) 
 - Day 255:  [Pairwise Linked List Nodes Swap Algorithm](https://helloacm.com/teaching-kids-programming-pairwise-linked-list-swap/)  成对链表交换算法  [Youtube](https://youtu.be/3WyVUINXXN4) - [B站](https://www.bilibili.com/video/BV1jQ4y127LY/)
 - Day 254:  [Inplace Algorithms to Remove Elements](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/)  原地移除目标元素  [Youtube](https://youtu.be/B6PClrgsanw) - [B站](https://www.bilibili.com/video/BV1dQ4y1f7k4/)
