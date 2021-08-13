@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 259:  [How to Verify a Max Heap?](https://helloacm.com/teaching-kids-programming-how-to-verify-a-max-heap/)  验证最大堆算法  [Youtube](https://youtu.be/xMii377Fzdw) - [B站](https://www.bilibili.com/video/BV19q4y1Q75Z/) 
 - Day 258:  [Arithmetic Sequence Permutation](https://helloacm.com/teaching-kids-programming-arithmetic-sequence-permutation/)  等差数列排列  [Youtube](https://youtu.be/Mpc7yLBBEZc) - [B站](https://www.bilibili.com/video/BV1Hh411B7Dv/) 
 - Day 257:  [Add Two Big Integers in Strings](https://helloacm.com/teaching-kids-programming-add-two-big-integers-in-strings/)  高精度加法算法  [Youtube](https://youtu.be/DoBmrITwKN0) - [B站](https://www.bilibili.com/video/BV1rq4y1n7g9/)
 - Day 256:  [Linked List Jumps via Recursion](https://helloacm.com/teaching-kids-programming-linked-list-jumps-via-recursion/)  链表跳跃的递归算法  [Youtube](https://youtu.be/hLL2ZeB1VCU) - [B站](https://www.bilibili.com/video/BV1n64y1s7zn/) 
