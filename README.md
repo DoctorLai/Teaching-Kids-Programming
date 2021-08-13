@@ -83,6 +83,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Data Structures 数据结构 
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| How to Verify a Max Heap? | 验证最大堆算法 | [Youtube](https://youtu.be/xMii377Fzdw) - [B站](https://www.bilibili.com/video/BV19q4y1Q75Z/) | [How to Verify a Max Heap?](https://helloacm.com/teaching-kids-programming-how-to-verify-a-max-heap/) | 2021-08-13 |
 | Python Implementation of Trie Data Structure (Prefix Tree) | 数据结构Trie(前缀树)的Python实现 | [Youtube](https://youtu.be/00vRXic9YLI) - [B站](https://www.bilibili.com/video/BV1hZ4y1P7At/) | [Python Implementation of Trie Data Structure (Prefix Tree)](https://helloacm.com/teaching-kids-programming-python-implementation-of-trie-data-structure-prefix-tree/) | 2021-03-11 |
 | Using Double-Ended Queue to Perform a Breadth First Search Algorithm to Compute the Sum of the Nodes in a Binary Tree | 双头队列和用广度优先算法来求二叉树节点之和 | [Youtube](https://youtu.be/00hltSlNVxE) - [B站](https://www.bilibili.com/video/BV1iX4y1M7Es/) | [Using Double-Ended Queue to Perform a Breadth First Search Algorithm to Compute the Sum of the Nodes in a Binary Tree](https://helloacm.com/deque-bfs-sum-of-tree-nodes/) | 2021-01-09 |
 | Introduction to Heap and Priority Queue | 数据结构之堆和优先队列 | [Youtube](https://www.youtube.com/watch?v=rAIPf_o9r3o) - [B站](https://www.bilibili.com/video/BV1Gt4y1r7kK/) | [Introduction to Heap and Priority Queue](https://helloacm.com/teaching-kids-programming-introduction-to-heap-and-priority-queue/) | 2020-11-31 |
