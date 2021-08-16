@@ -50,6 +50,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Island Shape Perimeter | 岛形周长算法 | [Youtube](https://youtu.be/Q2cp_CeW41w) - [B站](https://www.bilibili.com/video/BV1qL411J7En/) | [Island Shape Perimeter](https://helloacm.com/teaching-kids-programming-island-shape-perimeter/) | 2021-08-16 |
 | Arithmetic Sequence Permutation | 等差数列排列 | [Youtube](https://youtu.be/Mpc7yLBBEZc) - [B站](https://www.bilibili.com/video/BV1Hh411B7Dv/) | [Arithmetic Sequence Permutation](https://helloacm.com/teaching-kids-programming-arithmetic-sequence-permutation/) | 2021-08-12 |
 | Add Two Big Integers in Strings | 高精度加法算法 | [Youtube](https://youtu.be/DoBmrITwKN0) - [B站](https://www.bilibili.com/video/BV1rq4y1n7g9/) | [Add Two Big Integers in Strings](https://helloacm.com/teaching-kids-programming-add-two-big-integers-in-strings/) | 2021-08-10 |
 | Number of Positions in Line of People | 计算队列中满足两条件的可能位置数 | [Youtube](https://youtu.be/11iBMvgKhrg) - [B站](https://www.bilibili.com/video/BV1dy4y1j77W/) | [Number of Positions in Line of People](https://helloacm.com/teaching-kids-programming-line-of-people/) | 2021-07-24 |
