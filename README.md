@@ -233,7 +233,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Graphs 图论
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Find if Path Exists in Graph via Breadth First Search Algorithm | 图: 通过广度优先搜索算法查找两个顶点是否存在路径 | [Youtube](https://youtu.be/XtkF2q77XD0) - [B站](https://www.bilibili.com/video/BV1i64y1q7Jf/) | [Find if Path Exists in Graph via Breadth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-if-path-exists-in-graph-via-breadth-first-search-algorithm/) | 2021-08-18 |
+| Find if Path Exists in Graph via Breadth First Search Algorithm | 图: 通过广度优先搜索算法查找两个顶点是否存在路径 | [Youtube](https://youtu.be/XtkF2q77XD0) - [B站](https://www.bilibili.com/video/BV1x341167DF/) | [Find if Path Exists in Graph via Breadth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-if-path-exists-in-graph-via-breadth-first-search-algorithm/) | 2021-08-18 |
 | Reverse a Graph (Adjacency List) | 反转图(邻接列表) | [Youtube](https://youtu.be/PFWJLA_rtNc) - [B站](https://www.bilibili.com/video/BV1H5411c7ai/) | [Reverse a Graph (Adjacency List)](https://helloacm.com/teaching-kids-programming-reverse-a-graph/) | 2021-04-16 |
 | Algorithms to Find Center of Star Graph | 找星型图中心的算法 | [Youtube](https://youtu.be/-UC9Cc-VmwA) - [B站](https://www.bilibili.com/video/BV1XK411c7i6/) | [Find Center of Star Graph](https://helloacm.com/teaching-kids-programming-find-center-of-star-graph/) | 2021-03-27 |
 | Introduction to Graph Data Structure | 数据结构之图的简介 | [Youtube](https://youtu.be/HZUdZ-KObyI) - [B站](https://www.bilibili.com/video/BV1z54y1x7FA/) | [Introduction to Graph Data Structure](https://helloacm.com/teaching-kids-programming-introduction-to-graph-data-structure/) | 2021-01-02 |
