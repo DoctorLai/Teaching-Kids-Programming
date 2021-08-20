@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 263:  [Find if Path Exists in Graph via Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-if-path-exists-in-graph-via-depth-first-search-algorithm/)  图: 通过深度优先搜索算法查找两个顶点是否存在路径  [Youtube](https://youtu.be/PsuncvXSDT0) - [B站](https://www.bilibili.com/video/BV1xh411i7uH/) 
 - Day 262:  [Set Matrix Zeroes](https://helloacm.com/teaching-kids-programming-set-matrix-zeroes/)  矩阵置零算法  [Youtube](https://youtu.be/m2hVJkG7jYg) - [B站](https://www.bilibili.com/video/BV19o4y1U7sV/)
 - Day 261:  [Find if Path Exists in Graph via Breadth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-if-path-exists-in-graph-via-breadth-first-search-algorithm/)  图: 通过广度优先搜索算法查找两个顶点是否存在路径  [Youtube](https://youtu.be/XtkF2q77XD0) - [B站](https://www.bilibili.com/video/BV1x341167DF/)
 - Day 260:  [Island Shape Perimeter](https://helloacm.com/teaching-kids-programming-island-shape-perimeter/)  岛形周长算法  [Youtube](https://youtu.be/Q2cp_CeW41w) - [B站](https://www.bilibili.com/video/BV1qL411J7En/) 
