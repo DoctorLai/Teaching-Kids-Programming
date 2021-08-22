@@ -25,6 +25,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Matrix Prefix Sum Algorithm | 矩阵前缀和算法 | [Youtube](https://youtu.be/lS3LtoYA3FA) - [B站](https://www.bilibili.com/video/BV1Bb4y1S7dT/) | [Matrix Prefix Sum Algorithm](https://helloacm.com/teaching-kids-programming-matrix-prefix-sum-algorithm/) | 2021-08-22 |
 | Inplace Algorithms to Remove Elements | 原地移除目标元素 | [Youtube](https://youtu.be/B6PClrgsanw) - [B站](https://www.bilibili.com/video/BV1dQ4y1f7k4/) | [Inplace Algorithms to Remove Elements](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-08-07 |
 | Implement the Counter in Python | Counter方法的实现 | [Youtube](https://youtu.be/zz1ulzkcB0w) - [B站](https://www.bilibili.com/video/BV1MM4y1N7tZ/) | [Implement the Counter in Python](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-07-28 |
 | Implement the String.Find Method in Python | 字符串查找字符的线性算法 | [Youtube](https://youtu.be/vKrqJmstPSQ) - [B站](https://www.bilibili.com/video/BV1Eo4y1Q7DY/) | [Implement the String.Find Method in Python](https://helloacm.com/teaching-kids-programming-implement-the-string-find-method-in-python/) | 2021-07-27 |
@@ -352,5 +353,3 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 
 ## Tags
 #algorithms #algorithm #math #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning #tutorial #computing
-
-![](https://raw.githubusercontent.com/DoctorLai/Teaching-Kids-Programming/main/teaching-kids-programming.png)
