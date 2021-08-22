@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 265:  [Matrix Prefix Sum Algorithm](https://helloacm.com/teaching-kids-programming-matrix-prefix-sum-algorithm/)  矩阵前缀和算法  [Youtube](https://youtu.be/lS3LtoYA3FA) - [B站](https://www.bilibili.com/video/BV1Bb4y1S7dT/) 
 - Day 264:  [Anagram Substrings via Sliding Window](https://helloacm.com/teaching-kids-programming-anagram-substrings-via-sliding-window/)  滑动窗口数字谜子串  [Youtube](https://youtu.be/_BrOybtl4gI) - [B站](https://www.bilibili.com/video/BV1F64y1v7VB/) 
 - Day 263:  [Find if Path Exists in Graph via Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-if-path-exists-in-graph-via-depth-first-search-algorithm/)  图: 通过深度优先搜索算法查找两个顶点是否存在路径  [Youtube](https://youtu.be/PsuncvXSDT0) - [B站](https://www.bilibili.com/video/BV1xh411i7uH/) 
 - Day 262:  [Set Matrix Zeroes](https://helloacm.com/teaching-kids-programming-set-matrix-zeroes/)  矩阵置零算法  [Youtube](https://youtu.be/m2hVJkG7jYg) - [B站](https://www.bilibili.com/video/BV19o4y1U7sV/)
