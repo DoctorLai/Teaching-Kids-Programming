@@ -260,6 +260,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Two Sum in Binary Search Tree via Inorder and Two Pointer Algorithm | 二叉搜索树的双和算法(中序遍例+双指针) | [Youtube](https://youtu.be/zOLTJyB3BZY) - [B站](https://www.bilibili.com/video/BV1N64y1v7Z2/) | [Two Sum in Binary Search Tree via Inorder and Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-two-sum-in-binary-search-tree-via-inorder-and-two-pointer-algorithm/) | 2021-08-23 |
 | Pairwise Linked List Nodes Swap Algorithm | 成对链表交换算法 | [Youtube](https://youtu.be/3WyVUINXXN4) - [B站](https://www.bilibili.com/video/BV1jQ4y127LY/) | [Pairwise Linked List Nodes Swap Algorithm](https://helloacm.com/teaching-kids-programming-pairwise-linked-list-swap/) | 2021-08-08 |
 | Algorithm to Determine Three Divisors Numbers | 三除数 | [Youtube](https://youtu.be/7ZAkJAsXK6k) - [B站](https://www.bilibili.com/video/BV1qP4y1x7ja/) | [Algorithm to Determine Three Divisors Numbers](https://helloacm.com/teaching-kids-programming-three-divisors/) | 2021-08-05 |
 | Greatest Common Divisor of Strings | 最大公约字符串算法 | [Youtube](https://youtu.be/bAV00Ch24wM) - [B站](https://www.bilibili.com/video/BV1pQ4y1f78k/) | [Greatest Common Divisor of Strings](https://helloacm.com/teaching-kids-programming-greatest-common-divisor-of-strings/) | 2021-08-04 |
