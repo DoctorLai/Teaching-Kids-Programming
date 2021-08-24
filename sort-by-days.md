@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 267:  [Finding All Paths from Source to Target in a Directed Acyclic Graph (DAG) using Recursive Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-finding-all-paths-from-source-to-target-in-a-directed-acyclic-graph-dag-using-recursive-depth-first-search-algorithm/)  图: 通过深度优先搜索算法寻找从源到目地的所有路径  [Youtube](https://youtu.be/8aFHWCd7MCQ) - [B站](https://www.bilibili.com/video/BV12P4y1p7bL/) 
 - Day 266:  [Two Sum in Binary Search Tree via Inorder and Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-two-sum-in-binary-search-tree-via-inorder-and-two-pointer-algorithm/)  二叉搜索树的双和算法(中序遍例+双指针)  [Youtube](https://youtu.be/zOLTJyB3BZY) - [B站](https://www.bilibili.com/video/BV1N64y1v7Z2/) 
 - Day 265:  [Matrix Prefix Sum Algorithm](https://helloacm.com/teaching-kids-programming-matrix-prefix-sum-algorithm/)  矩阵前缀和算法  [Youtube](https://youtu.be/lS3LtoYA3FA) - [B站](https://www.bilibili.com/video/BV1Bb4y1S7dT/) 
 - Day 264:  [Anagram Substrings via Sliding Window](https://helloacm.com/teaching-kids-programming-anagram-substrings-via-sliding-window/)  滑动窗口数字谜子串  [Youtube](https://youtu.be/_BrOybtl4gI) - [B站](https://www.bilibili.com/video/BV1F64y1v7VB/) 
