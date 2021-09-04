@@ -267,6 +267,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Prefix Sum 前缀和
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Prefix Sum Algorithm to Find the Middle Index in Array | 前缀和算法计算数组中间索引 | [Youtube](https://youtu.be/BxKgX-6zY_M) - [B站](https://www.bilibili.com/video/BV123411i7wJ/) | [Prefix Sum Algorithm to Find the Middle Index in Array](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-find-the-middle-index-in-array/) | 2021-09-04 |
 | Longest Zero Sublist Sum via Prefix Sum | 前缀和算法计算最长零和子列表 | [Youtube](https://youtu.be/RJWPy9ls4Io) - [B站](https://www.bilibili.com/video/BV1Wq4y1T7Fk/) | [Longest Zero Sublist Sum via Prefix Sum](https://helloacm.com/teaching-kids-programming-longest-zero-sublist-sum-via-prefix-sum/) | 2021-09-03 |
 | Matrix Prefix Sum Algorithm | 矩阵前缀和算法 | [Youtube](https://youtu.be/lS3LtoYA3FA) - [B站](https://www.bilibili.com/video/BV1Bb4y1S7dT/) | [Matrix Prefix Sum Algorithm](https://helloacm.com/teaching-kids-programming-matrix-prefix-sum-algorithm/) | 2021-08-22 |
 | Prefix Sum Algorithm to Compute the Interval Sums | 前缀求线段区间和算法 Prefix Sum | [Youtube](https://www.youtube.com/watch?v=jWk6b6rx5xg) - [B站](https://www.bilibili.com/video/BV19a4y1J7RJ/) | [Prefix Sum Algorithm to Compute the Interval Sums](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-compute-the-interval-sums/) | 2020-12-27 |
