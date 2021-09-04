@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 277:  [Prefix Sum Algorithm to Find the Middle Index in Array](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-find-the-middle-index-in-array/)  前缀和算法计算数组中间索引  [Youtube](https://youtu.be/BxKgX-6zY_M) - [B站](https://www.bilibili.com/video/BV123411i7wJ/) 
 - Day 276:  [Longest Zero Sublist Sum via Prefix Sum](https://helloacm.com/teaching-kids-programming-longest-zero-sublist-sum-via-prefix-sum/)  前缀和算法计算最长零和子列表  [Youtube](https://youtu.be/RJWPy9ls4Io) - [B站](https://www.bilibili.com/video/BV1Wq4y1T7Fk/)
 - Day 275:  [Recursive Depth First Search Algorithm to Count the Surrounded Islands](https://helloacm.com/teaching-kids-programming-recursive-depth-first-search-algorithm-to-count-the-surrounded-islands/)  递归深度优先搜索算法数内陆数  [Youtube](https://youtu.be/EAARMg5cZF8) - [B站](https://www.bilibili.com/video/BV1b64y1Y77Y/) 
 - Day 274:  [Recursive Depth First Search Algorithm to Compute the Max Average of a Binary SubTree](https://helloacm.com/teaching-kids-programming-recursive-depth-first-search-algorithm-to-compute-the-max-average-of-a-binary-subtree/)  通过递归深度优先搜索算法计算最大平均子二叉树  [Youtube](https://youtu.be/uA-0MLzSbIg) - [B站](https://www.bilibili.com/video/BV1pf4y1J76Y/) 
