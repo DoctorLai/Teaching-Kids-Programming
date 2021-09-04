@@ -25,7 +25,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Matrix Prefix Sum Algorithm | 矩阵前缀和算法 | [Youtube](https://youtu.be/lS3LtoYA3FA) - [B站](https://www.bilibili.com/video/BV1Bb4y1S7dT/) | [Matrix Prefix Sum Algorithm](https://helloacm.com/teaching-kids-programming-matrix-prefix-sum-algorithm/) | 2021-08-22 |
 | Inplace Algorithms to Remove Elements | 原地移除目标元素 | [Youtube](https://youtu.be/B6PClrgsanw) - [B站](https://www.bilibili.com/video/BV1dQ4y1f7k4/) | [Inplace Algorithms to Remove Elements](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-08-07 |
 | Implement the Counter in Python | Counter方法的实现 | [Youtube](https://youtu.be/zz1ulzkcB0w) - [B站](https://www.bilibili.com/video/BV1MM4y1N7tZ/) | [Implement the Counter in Python](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-07-28 |
 | Implement the String.Find Method in Python | 字符串查找字符的线性算法 | [Youtube](https://youtu.be/vKrqJmstPSQ) - [B站](https://www.bilibili.com/video/BV1Eo4y1Q7DY/) | [Implement the String.Find Method in Python](https://helloacm.com/teaching-kids-programming-implement-the-string-find-method-in-python/) | 2021-07-27 |
@@ -119,7 +118,6 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Algorithms to Remove Nodes from a Linked List | 单向链表的删除节点的算法 | [Youtube](https://youtu.be/DeS-JhlnBAY) - [B站](https://www.bilibili.com/video/BV1p54y147WN/) | [Algorithms to Remove Nodes from a Linked List](https://helloacm.com/teaching-kids-programming-algorithms-to-remove-nodes-from-a-linked-list/) | 2021-01-06 |
 | Algorithms to Find the Cycle of a Linked List | 单向链表是否有环的算法 | [Youtube](https://www.youtube.com/watch?v=xAFB12LVqPw) - [B站](https://www.bilibili.com/video/BV1Tp4y1B77G/) | [Algorithms to Find the Cycle of a Linked List](https://helloacm.com/teaching-kids-programming-algorithms-to-find-the-cycle-of-a-linked-list/) | 2020-12-30 |
 | Fast and Slow Pointer to Obtain the Middle of the Linked List | 快慢指针求单向链表中间的算法 | [Youtube](https://youtu.be/iyQ-uHCgH_I) - [B站](https://www.bilibili.com/video/BV1nX4y1T77z/) | [Fast and Slow Pointer to Obtain the Middle of the Linked List](https://helloacm.com/teaching-kids-programming-fast-and-slow-pointer-to-obtain-the-middle-of-the-linked-list/) | 2020-12-29 |
-| Prefix Sum Algorithm to Compute the Interval Sums | 前缀求线段区间和算法 Prefix Sum | [Youtube](https://www.youtube.com/watch?v=jWk6b6rx5xg) - [B站](https://www.bilibili.com/video/BV19a4y1J7RJ/) | [Prefix Sum Algorithm to Compute the Interval Sums](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-compute-the-interval-sums/) | 2020-12-27 |
 | Binary Tree Traversal Algorithms | 二叉树的遍例算法 | [Youtube](https://www.youtube.com/watch?v=WdBlbOmIHlc) - [B站](https://www.bilibili.com/video/BV1QK411u7V1/) | [Binary Tree Traversal Algorithms](https://helloacm.com/teaching-kids-programming-binary-tree-traversal-algorithms/) | 2020-12-18 |
 | QuickSort Algorithm Simply Explained | 快排序算法 | [Youtube](https://www.youtube.com/watch?v=g8WvhdO6TSo) - [B站](https://www.bilibili.com/video/BV15f4y1i7Vt/) | [QuickSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-quicksort-algorithm-simply-explained/) | 2020-12-10 |
 | MergeSort Algorithm Simply Explained | 归并排序简介 | [Youtube](https://www.youtube.com/watch?v=aiJnCXsqwcg) - [B站](https://www.bilibili.com/video/BV1oV41187z1/) | [MergeSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-mergesort-simply-explained/) | 2020-12-11 |
@@ -265,6 +263,13 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Dynamic Programming or Greedy Algorithm to Compute the Min Change | 最少零钱贪心算法 | [Youtube](https://youtu.be/IiFM8vKj9_Q) - [B站](https://www.bilibili.com/video/BV1oK4y1o7BH/) | [Dynamic Programming or Greedy Algorithm to Compute the Min Change](https://helloacm.com/teaching-kids-programming-dynamic-programming-or-greedy-algorithm-to-compute-the-min-change/) | 2021-05-01 |
 | Greedy Algorithm to Complete Tasks | 贪心算法完成任务 | [Youtube](https://youtu.be/KbQ-x8qrXw0) - [B站](https://www.bilibili.com/video/BV19K4y1m7oj/) | [Greedy Algorithm to Complete Tasks](https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-complete-tasks/) | 2021-04-10 |
 | Greedy Algorithm of Buying Cars | 贪心算法买车 | [Youtube](https://www.youtube.com/watch?v=8MD5MqY27pE) - [B站](https://www.bilibili.com/video/BV1y64y1f7Xm/) | [Greedy Algorithm of Buying Cars](https://helloacm.com/teaching-kids-programming-greedy-algorithm-of-buying-cars/) | 2020-12-19 |
+
+## Prefix Sum 前缀和
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Longest Zero Sublist Sum via Prefix Sum | 前缀和算法计算最长零和子列表 | [Youtube](https://youtu.be/RJWPy9ls4Io) - [B站](https://www.bilibili.com/video/BV1Wq4y1T7Fk/) | [Longest Zero Sublist Sum via Prefix Sum](https://helloacm.com/teaching-kids-programming-longest-zero-sublist-sum-via-prefix-sum/) | 2021-09-03 |
+| Matrix Prefix Sum Algorithm | 矩阵前缀和算法 | [Youtube](https://youtu.be/lS3LtoYA3FA) - [B站](https://www.bilibili.com/video/BV1Bb4y1S7dT/) | [Matrix Prefix Sum Algorithm](https://helloacm.com/teaching-kids-programming-matrix-prefix-sum-algorithm/) | 2021-08-22 |
+| Prefix Sum Algorithm to Compute the Interval Sums | 前缀求线段区间和算法 Prefix Sum | [Youtube](https://www.youtube.com/watch?v=jWk6b6rx5xg) - [B站](https://www.bilibili.com/video/BV19a4y1J7RJ/) | [Prefix Sum Algorithm to Compute the Interval Sums](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-compute-the-interval-sums/) | 2020-12-27 |
 
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
