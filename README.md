@@ -50,6 +50,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Matrix Add, Subtraction and Multiplication Algorithm | 矩阵的加减相乘算法 | [Youtube](https://youtu.be/lBXNRLVyU7Q) - [B站](https://www.bilibili.com/video/BV1U64y1Y7q8/) | [Matrix Add, Subtraction and Multiplication Algorithm](https://helloacm.com/teaching-kids-programming-matrix-add-subtraction-and-multiplication-algorithm/) | 2021-09-06 |
 | Compute the Dot Product using Zip Function in Python | 在Python中使用Zip函数计算点积 | [Youtube](https://youtu.be/XGRWcQkHKKM) - [B站](https://www.bilibili.com/video/BV1QM4y137eX/) | [Compute the Dot Product using Zip Function in Python](https://helloacm.com/teaching-kids-programming-compute-the-dot-product-using-zip-function-in-python/) | 2021-09-05 |
 | Island Shape Perimeter | 岛形周长算法 | [Youtube](https://youtu.be/Q2cp_CeW41w) - [B站](https://www.bilibili.com/video/BV1qL411J7En/) | [Island Shape Perimeter](https://helloacm.com/teaching-kids-programming-island-shape-perimeter/) | 2021-08-16 |
 | Arithmetic Sequence Permutation | 等差数列排列 | [Youtube](https://youtu.be/Mpc7yLBBEZc) - [B站](https://www.bilibili.com/video/BV1Hh411B7Dv/) | [Arithmetic Sequence Permutation](https://helloacm.com/teaching-kids-programming-arithmetic-sequence-permutation/) | 2021-08-12 |
