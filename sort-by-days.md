@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 279:  [Matrix Add, Subtraction and Multiplication Algorithm](https://helloacm.com/teaching-kids-programming-matrix-add-subtraction-and-multiplication-algorithm/)  矩阵的加减相乘算法  [Youtube](https://youtu.be/lBXNRLVyU7Q) - [B站](https://www.bilibili.com/video/BV1U64y1Y7q8/)
 - Day 278:  [Compute the Dot Product using Zip Function in Python](https://helloacm.com/teaching-kids-programming-compute-the-dot-product-using-zip-function-in-python/)  在Python中使用Zip函数计算点积  [Youtube](https://youtu.be/XGRWcQkHKKM) - [B站](https://www.bilibili.com/video/BV1QM4y137eX/) 
 - Day 277:  [Prefix Sum Algorithm to Find the Middle Index in Array](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-find-the-middle-index-in-array/)  前缀和算法计算数组中间索引  [Youtube](https://youtu.be/BxKgX-6zY_M) - [B站](https://www.bilibili.com/video/BV123411i7wJ/) 
 - Day 276:  [Longest Zero Sublist Sum via Prefix Sum](https://helloacm.com/teaching-kids-programming-longest-zero-sublist-sum-via-prefix-sum/)  前缀和算法计算最长零和子列表  [Youtube](https://youtu.be/RJWPy9ls4Io) - [B站](https://www.bilibili.com/video/BV1Wq4y1T7Fk/)
