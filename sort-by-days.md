@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 281:  [Longest Substring with 2 Distinct Characters by Sliding Window Algorithm](https://helloacm.com/teaching-kids-programming-longest-substring-with-2-distinct-characters-by-sliding-window-algorithm/)  通过滑动窗口算法求具有最多2个不同字符的最长子串  [Youtube](https://youtu.be/0bz-j4PY1dk) - [B站](https://www.bilibili.com/video/BV1Gf4y1P7fF/) 
 - Day 280:  [Matrix Power Algorithm](https://helloacm.com/teaching-kids-programming-matrix-power-algorithm/)  矩阵的N次方算法  [Youtube](https://youtu.be/uPfNdd5Tnsc) - [B站](https://www.bilibili.com/video/BV11Q4y1y737/)
 - Day 279:  [Matrix Add, Subtraction and Multiplication Algorithm](https://helloacm.com/teaching-kids-programming-matrix-add-subtraction-and-multiplication-algorithm/)  矩阵的加减相乘算法  [Youtube](https://youtu.be/lBXNRLVyU7Q) - [B站](https://www.bilibili.com/video/BV1U64y1Y7q8/)
 - Day 278:  [Compute the Dot Product using Zip Function in Python](https://helloacm.com/teaching-kids-programming-compute-the-dot-product-using-zip-function-in-python/)  在Python中使用Zip函数计算点积  [Youtube](https://youtu.be/XGRWcQkHKKM) - [B站](https://www.bilibili.com/video/BV1QM4y137eX/) 
