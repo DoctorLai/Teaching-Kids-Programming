@@ -191,6 +191,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Sliding Window 滑动窗口
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Longest Substring with 2 Distinct Characters by Sliding Window Algorithm | 通过滑动窗口算法求具有最多2个不同字符的最长子串 | [Youtube](https://youtu.be/0bz-j4PY1dk) - [B站](https://www.bilibili.com/video/BV1Gf4y1P7fF/) | [Longest Substring with 2 Distinct Characters by Sliding Window Algorithm](https://helloacm.com/teaching-kids-programming-longest-substring-with-2-distinct-characters-by-sliding-window-algorithm/) | 2021-09-09 |
 | Anagram Substrings via Sliding Window | 滑动窗口数字谜子串 | [Youtube](https://youtu.be/_BrOybtl4gI) - [B站](https://www.bilibili.com/video/BV1F64y1v7VB/) | [Anagram Substrings via Sliding Window](https://helloacm.com/teaching-kids-programming-anagram-substrings-via-sliding-window/) | 2021-08-21 |
 
 ## Depth First Search + Backtracking Algorithms 深度优先算法+回溯
