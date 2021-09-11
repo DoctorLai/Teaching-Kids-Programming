@@ -188,6 +188,11 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Is Subsequence Algorithm via Two Pointer | 通过双指针来检查子串算法 | [Youtube](https://youtu.be/j1DJZaRkWqM) - [B站](https://www.bilibili.com/video/BV1ky4y1a7Mx/) | [Is Subsequence Algorithm via Two Pointer](https://helloacm.com/teaching-kids-programming-is-subsequence-algorithm-via-two-pointer/) | 2021-03-04 |
 | Finding Pythagorean Triplets in Array using Two Pointer or Hash Set | 在数组中找勾股数的两种算法 | [Youtube](https://youtu.be/LZrB9094ltg) - [B站](https://www.bilibili.com/video/BV1FX4y1N7GZ/) | [Finding Pythagorean Triplets in Array using Two Pointer or Hash Set](https://helloacm.com/teaching-kids-programming-finding-pythagorean-triplets-in-array-using-two-pointer-or-hash-set/) | 2021-01-28 |
 
+## Line Sweeping 扫描线
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Line Sweeping Algorithm to Compute the Most Frequent Number in Intervals | 通过Line Sweeping算法查找线段区间中出现最频的整数 | [Youtube](https://youtu.be/sDlLQ_GaPWA) - [B站](https://www.bilibili.com/video/BV11q4y1N7HG/) | [Line Sweeping Algorithm to Compute the Most Frequent Number in Intervals](https://helloacm.com/teaching-kids-programming-line-sweeping-algorithm-to-compute-the-most-frequent-number-in-intervals/) | 2021-09-11 |
+
 ## Sliding Window 滑动窗口
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
