@@ -194,6 +194,11 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 |:----:|:----:|:-------:|:----:|:----:|
 | Line Sweeping Algorithm to Compute the Most Frequent Number in Intervals | 通过Line Sweeping算法查找线段区间中出现最频的整数 | [Youtube](https://youtu.be/sDlLQ_GaPWA) - [B站](https://www.bilibili.com/video/BV11q4y1N7HG/) | [Line Sweeping Algorithm to Compute the Most Frequent Number in Intervals](https://helloacm.com/teaching-kids-programming-line-sweeping-algorithm-to-compute-the-most-frequent-number-in-intervals/) | 2021-09-11 |
 
+## Divide and Conquer 分而治之
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Divide and Conquer Algorithm to Find Longest Substring with Character Count of at Least K | 分而治之算法查找每个字符至少出现K次的最长子串 | [Youtube](https://youtu.be/oUk6vtm5mRg) - [B站](https://www.bilibili.com/video/BV1Wv411w769/) | [Divide and Conquer Algorithm to Find Longest Substring with Character Count of at Least K](https://helloacm.com/teaching-kids-programming-divide-and-conquer-algorithm-to-find-longest-substring-with-character-count-of-at-least-k/) | 2021-09-12 |
+
 ## Sliding Window 滑动窗口
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
