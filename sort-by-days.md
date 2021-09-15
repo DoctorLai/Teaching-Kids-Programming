@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 286:  [Minimum Difference Between Highest and Lowest of K Scores](https://helloacm.com/teaching-kids-programming-minimum-difference-between-highest-and-lowest-of-k-scores/)  从数组中找出K个数，求最高和最低的最小差异  [Youtube](https://youtu.be/SNX3PPARqY8) - [B站](https://www.bilibili.com/video/BV1MQ4y1k7st/)
 - Day 285:  [Reverse Only Letters via Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-reverse-only-letters-via-two-pointer-algorithm/)  双指针算法只反转英文字母  [Youtube](https://youtu.be/9E5kqES3BKs) - [B站](https://www.bilibili.com/video/BV15A411F7mK/)
 - Day 284:  [Divide and Conquer Algorithm to Find Longest Substring with Character Count of at Least K](https://helloacm.com/teaching-kids-programming-divide-and-conquer-algorithm-to-find-longest-substring-with-character-count-of-at-least-k/)  分而治之算法查找每个字符至少出现K次的最长子串  [Youtube](https://youtu.be/oUk6vtm5mRg) - [B站](https://www.bilibili.com/video/BV1Wv411w769/)
 - Day 283:  [Dynamic Programming Algorithm to Calculate Largest Square Submatrix](https://helloacm.com/teaching-kids-programming-dynamic-programming-algorithm-to-calculate-largest-square-submatrix/)  计算最大子正方矩阵的动态规划算法  [Youtube](https://youtu.be/DrQC6_Q3c64) - [B站](https://www.bilibili.com/video/BV1vq4y1N7wz/)
