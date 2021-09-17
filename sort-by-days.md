@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- Day 288:  [Leaderboard Algorithm: Compute the Ranking of Numbers](https://helloacm.com/teaching-kids-programming-leaderboard-algorithm-compute-the-ranking-of-numbers/)  数组分数排行榜算法  [Youtube](https://youtu.be/nWmKee8N_OI) - [B站](https://www.bilibili.com/video/BV1p64y1a7cr/)
 - Day 287:  [Evaluate Reverse Polish Notation](https://helloacm.com/teaching-kids-programming-evaluate-reverse-polish-notation/)  通过堆栈计算逆波兰表达式(RPN)的算法  [Youtube](https://youtu.be/fOd-7zMRwi8) - [B站](https://www.bilibili.com/video/BV13f4y1w78P/)
 - Day 286:  [Minimum Difference Between Highest and Lowest of K Scores](https://helloacm.com/teaching-kids-programming-minimum-difference-between-highest-and-lowest-of-k-scores/)  从数组中找出K个数，求最高和最低的最小差异  [Youtube](https://youtu.be/SNX3PPARqY8) - [B站](https://www.bilibili.com/video/BV1MQ4y1k7st/)
 - Day 285:  [Reverse Only Letters via Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-reverse-only-letters-via-two-pointer-algorithm/)  双指针算法只反转英文字母  [Youtube](https://youtu.be/9E5kqES3BKs) - [B站](https://www.bilibili.com/video/BV15A411F7mK/)
