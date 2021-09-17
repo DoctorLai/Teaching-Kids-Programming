@@ -8,17 +8,14 @@ The videos and blog are in **English**. The Teaching Programming Language is **P
 **------>[All Videos/Posts sorted by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)<----------**
 
 ## About Me
-I am currently a Senior Software Engineer at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). Prior to that I worked as a SDE for Amazon Web Service ([S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/)) and as a Staff Software Engineer for [General Electric Smallworld](https://www.ge.com/digital/applications/smallworld-gis-geospatial-asset-management) when I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
+I am currently a Senior Software Engineer at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). Prior to that I worked as a SDE (Software Development Engineer aka Someone Does Everything) for Amazon Web Service ([S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/)) and as a Staff Software Engineer for [General Electric Smallworld](https://www.ge.com/digital/applications/smallworld-gis-geospatial-asset-management) when I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
 
-My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/people/zhihualai/).
+My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/people/zhihualai/) - and you can view my latest updates at my person website: [https://zhihua-lai.com](https://zhihua-lai.com)
 
 ## Channels and Blog
 - [Youtube Channel: https://www.youtube.com/c/DoctorLai](https://www.youtube.com/c/DoctorLai)
 - Bilibili: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
 - Blog: [https://helloacm.com/category/teaching-kids-programming/](https://helloacm.com/category/teaching-kids-programming/)
-
-If you find it useful, maybe you can support me a little bit. Thank you!
-<br/>
 
 <a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>
 
@@ -387,4 +384,4 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 | Backtracking Algorithm to Solve N-queen Problem | N皇后回溯算法求解 | [Youtube](https://www.youtube.com/watch?v=aFi-B8grleA) - [B站](https://www.bilibili.com/video/BV13f4y1e7RW/) | [Backtracking Algorithm to Solve N-queen Problem](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-solve-n-queen-problem/) | 2020-12-20 |
 
 ## Tags
-#algorithms #algorithm #math #python #pythonprogramming #programming #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #coding #code #learning #tutorial #computing
+#algorithms #algorithm #math #python #pythonprogramming #programming #coding #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #learning #tutorial #computing #coding
