@@ -101,6 +101,7 @@ If you find it useful, maybe you can support me a little bit. Thank you!
 ## Hash Table 哈希表
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Leaderboard Algorithm: Compute the Ranking of Numbers | 数组分数排行榜算法 | [Youtube](https://youtu.be/nWmKee8N_OI) - [B站](https://www.bilibili.com/video/BV1p64y1a7cr/) | [Leaderboard Algorithm: Compute the Ranking of Numbers](https://helloacm.com/teaching-kids-programming-leaderboard-algorithm-compute-the-ranking-of-numbers/) | 2021-09-17 |
 | Set Matrix Zeroes | 矩阵置零算法 | [Youtube](https://youtu.be/m2hVJkG7jYg) - [B站](https://www.bilibili.com/video/BV19o4y1U7sV/) | [Set Matrix Zeroes](https://helloacm.com/teaching-kids-programming-set-matrix-zeroes/) | 2021-08-19 |
 | Count of Sublists with Same First and Last Values | 首尾相同字列表数 | [Youtube](https://youtu.be/iSyUsykWmhU) - [B站](https://www.bilibili.com/video/BV1pU4y1H73F/) | [Count of Sublists with Same First and Last Values](https://helloacm.com/teaching-kids-programming-count-of-sublists-with-same-first-and-last-values/) | 2021-07-25 |
 | Maximum Number of Words You Can Type | 可以敲的最多单词数 | [Youtube](https://youtu.be/IhkDvq2jI0s) - [B站](https://www.bilibili.com/video/BV1kg411M7hz/) | [Maximum Number of Words You Can Type](https://helloacm.com/teaching-kids-programming-maximum-number-of-words-you-can-type/) | 2021-07-19 |
