@@ -98,6 +98,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 ## Hash Table 哈希表
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Count Number of Pairs With Absolute Difference K | 绝对差值为K的数组对 | [Youtube](https://youtu.be/ksiDzheXHkQ) - [B站](https://www.bilibili.com/video/BV1Xf4y1c7cA/) | [Count Number of Pairs With Absolute Difference K](https://helloacm.com/teaching-kids-programming-count-number-of-pairs-with-absolute-difference-k/) | 2021-09-19 |
 | Leaderboard Algorithm: Compute the Ranking of Numbers | 数组分数排行榜算法 | [Youtube](https://youtu.be/nWmKee8N_OI) - [B站](https://www.bilibili.com/video/BV1p64y1a7cr/) | [Leaderboard Algorithm: Compute the Ranking of Numbers](https://helloacm.com/teaching-kids-programming-leaderboard-algorithm-compute-the-ranking-of-numbers/) | 2021-09-17 |
 | Set Matrix Zeroes | 矩阵置零算法 | [Youtube](https://youtu.be/m2hVJkG7jYg) - [B站](https://www.bilibili.com/video/BV19o4y1U7sV/) | [Set Matrix Zeroes](https://helloacm.com/teaching-kids-programming-set-matrix-zeroes/) | 2021-08-19 |
 | Count of Sublists with Same First and Last Values | 首尾相同字列表数 | [Youtube](https://youtu.be/iSyUsykWmhU) - [B站](https://www.bilibili.com/video/BV1pU4y1H73F/) | [Count of Sublists with Same First and Last Values](https://helloacm.com/teaching-kids-programming-count-of-sublists-with-same-first-and-last-values/) | 2021-07-25 |
