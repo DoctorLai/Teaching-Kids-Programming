@@ -19,6 +19,10 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 
 <a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>
 
+## Teaching Wife Programming in Chinese
+教小白媳妇编程，比教娃有难度. 不定期更新，对应教娃视频。
+- [列表](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
