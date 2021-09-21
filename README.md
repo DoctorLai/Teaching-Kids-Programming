@@ -26,6 +26,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Final Value of Variable After Performing Operations (via Reduce Function) | 变量自增或自减后的值(Reduce函数) | [Youtube](https://youtu.be/EhabxbCpT54) - [B站](https://www.bilibili.com/video/BV11f4y1w7qk/) | [Final Value of Variable After Performing Operations (via Reduce Function)]https://helloacm.com/teaching-kids-programming-final-value-of-variable-after-performing-operations-via-reduce-function/) | 2021-09-21 |
 | Inplace Algorithms to Remove Elements | 原地移除目标元素 | [Youtube](https://youtu.be/B6PClrgsanw) - [B站](https://www.bilibili.com/video/BV1dQ4y1f7k4/) | [Inplace Algorithms to Remove Elements](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-08-07 |
 | Implement the Counter in Python | Counter方法的实现 | [Youtube](https://youtu.be/zz1ulzkcB0w) - [B站](https://www.bilibili.com/video/BV1MM4y1N7tZ/) | [Implement the Counter in Python](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-07-28 |
 | Implement the String.Find Method in Python | 字符串查找字符的线性算法 | [Youtube](https://youtu.be/vKrqJmstPSQ) - [B站](https://www.bilibili.com/video/BV1Eo4y1Q7DY/) | [Implement the String.Find Method in Python](https://helloacm.com/teaching-kids-programming-implement-the-string-find-method-in-python/) | 2021-07-27 |
