@@ -1,7 +1,7 @@
 ## Teaching Wife Programming in Chinese
 教小白媳妇编程，比教娃有难度. 不定期更新，对应教娃视频。
-- [按天排序](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)
-- [主目录](https://github.com/DoctorLai/Teaching-Kids-Programming)
+- [按天排序 Sort by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)
+- [主目录 Index](https://github.com/DoctorLai/Teaching-Kids-Programming)
 
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
