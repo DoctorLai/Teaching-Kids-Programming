@@ -296,6 +296,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| All Odd Palindrome Substrings | 所有奇数回文子串 | [Youtube](https://youtu.be/srN-pjYhTL8) - [B站](https://www.bilibili.com/video/BV1nq4y1o7Uq/) | [All Odd Palindrome Substrings](https://helloacm.com/teaching-kids-programming-all-odd-palindrome-substrings/) | 2021-09-23 |
 | Minimum Difference Between Highest and Lowest of K Scores | 从数组中找出K个数，求最高和最低的最小差异 | [Youtube](https://youtu.be/SNX3PPARqY8) - [B站](https://www.bilibili.com/video/BV1MQ4y1k7st/) | [Minimum Difference Between Highest and Lowest of K Scores](https://helloacm.com/teaching-kids-programming-minimum-difference-between-highest-and-lowest-of-k-scores/) | 2021-09-15 |
 | Two Sum in Binary Search Tree via Inorder and Two Pointer Algorithm | 二叉搜索树的双和算法(中序遍例+双指针) | [Youtube](https://youtu.be/zOLTJyB3BZY) - [B站](https://www.bilibili.com/video/BV1N64y1v7Z2/) | [Two Sum in Binary Search Tree via Inorder and Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-two-sum-in-binary-search-tree-via-inorder-and-two-pointer-algorithm/) | 2021-08-23 |
 | Pairwise Linked List Nodes Swap Algorithm | 成对链表交换算法 | [Youtube](https://youtu.be/3WyVUINXXN4) - [B站](https://www.bilibili.com/video/BV1jQ4y127LY/) | [Pairwise Linked List Nodes Swap Algorithm](https://helloacm.com/teaching-kids-programming-pairwise-linked-list-swap/) | 2021-08-08 |
