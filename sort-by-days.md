@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+- Day 291:  [All Odd Palindrome Substrings](https://helloacm.com/teaching-kids-programming-all-odd-palindrome-substrings/)  所有奇数回文子串  [Youtube](https://youtu.be/srN-pjYhTL8) - [B站](https://www.bilibili.com/video/BV1nq4y1o7Uq/) 
 - Day 290:  [Final Value of Variable After Performing Operations (via Reduce Function)](https://helloacm.com/teaching-kids-programming-final-value-of-variable-after-performing-operations-via-reduce-function/)  变量自增或自减后的值(Reduce函数)  [Youtube](https://youtu.be/EhabxbCpT54) - [B站](https://www.bilibili.com/video/BV11f4y1w7qk/)
 - Day 289:  [Count Number of Pairs With Absolute Difference K](https://helloacm.com/teaching-kids-programming-count-number-of-pairs-with-absolute-difference-k/)  绝对差值为K的数组对  [Youtube](https://youtu.be/ksiDzheXHkQ) - [B站](https://www.bilibili.com/video/BV1Xf4y1c7cA/)
 - Day 288:  [Leaderboard Algorithm: Compute the Ranking of Numbers](https://helloacm.com/teaching-kids-programming-leaderboard-algorithm-compute-the-ranking-of-numbers/)  数组分数排行榜算法  [Youtube](https://youtu.be/nWmKee8N_OI) - [B站](https://www.bilibili.com/video/BV1p64y1a7cr/)
