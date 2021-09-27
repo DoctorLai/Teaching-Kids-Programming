@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+- Day 293:  [Number of Unique Email Addresses](https://helloacm.com/teaching-kids-programming-number-of-unique-email-addresses/)  唯一电子邮件数  [Youtube](https://youtu.be/97uFGTg-0QU) - [B站](https://www.bilibili.com/video/BV1rQ4y1Q7C7/) 
 - Day 292:  [Remove Consecutive Duplicates](https://helloacm.com/teaching-kids-programming-remove-consecutive-duplicates/)  删掉相邻重复字符  [Youtube](https://youtu.be/S9GHbz010so) - [B站](https://www.bilibili.com/video/BV1xU4y1A7JS/) 
 - Day 291:  [All Odd Palindrome Substrings](https://helloacm.com/teaching-kids-programming-all-odd-palindrome-substrings/)  所有奇数回文子串  [Youtube](https://youtu.be/srN-pjYhTL8) - [B站](https://www.bilibili.com/video/BV1nq4y1o7Uq/) 
 - Day 290:  [Final Value of Variable After Performing Operations (via Reduce Function)](https://helloacm.com/teaching-kids-programming-final-value-of-variable-after-performing-operations-via-reduce-function/)  变量自增或自减后的值(Reduce函数)  [Youtube](https://youtu.be/EhabxbCpT54) - [B站](https://www.bilibili.com/video/BV11f4y1w7qk/)
