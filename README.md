@@ -52,6 +52,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 ## Math 数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Finding Real Roots of a Quadratic Equation | 计算一元二次方程的实数根 | [Youtube](https://youtu.be/uibKiX8lDgI) - [B站](https://www.bilibili.com/video/BV1i44y147pG/) | [Finding Real Roots of a Quadratic Equation](https://helloacm.com/teaching-kids-programming-finding-real-roots-of-a-quadratic-equation/) | 2021-09-30 |
 | Compute the Max Fence Area via Bruteforce Algorithm or Parabola Quadratic Equation | 通过蛮力算法或抛物线二次方程计算最大围栏面积 | [Youtube](https://youtu.be/-8D3R5B-4Qk) - [B站](https://www.bilibili.com/video/BV1Gg411F7vP/) | [Compute the Max Fence Area via Bruteforce Algorithm or Parabola Quadratic Equation](https://helloacm.com/teaching-kids-programming-compute-the-max-fence-area-via-bruteforce-algorithm-or-parabola-quadratic-equation/) | 2021-09-28 |
 | Matrix Power Algorithm | 矩阵的N次方算法 | [Youtube](https://youtu.be/uPfNdd5Tnsc) - [B站](https://www.bilibili.com/video/BV11Q4y1y737/) | [Matrix Power Algorithm](https://helloacm.com/teaching-kids-programming-matrix-power-algorithm/) | 2021-09-09 |
 | Matrix Add, Subtraction and Multiplication Algorithm | 矩阵的加减相乘算法 | [Youtube](https://youtu.be/lBXNRLVyU7Q) - [B站](https://www.bilibili.com/video/BV1U64y1Y7q8/) | [Matrix Add, Subtraction and Multiplication Algorithm](https://helloacm.com/teaching-kids-programming-matrix-add-subtraction-and-multiplication-algorithm/) | 2021-09-06 |
