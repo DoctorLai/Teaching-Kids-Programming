@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+- Day 298:  [Introduction to Hashing Function](https://helloacm.com/teaching-kids-programming-introduction-to-hashing-function/)  哈希函数简介  [Youtube](https://youtu.be/m6q7Ig8U4Hg) - [B站](https://www.bilibili.com/video/BV1fq4y1o7aP/) 
 - Day 297:  [Convert 1-D Array to 2D Matrix (Reshape Algorithm)](https://helloacm.com/teaching-kids-programming-convert-1-d-array-to-2d-matrix-reshape-algorithm/)  把1维数组转换成2维矩阵  [Youtube](https://youtu.be/eholNY2KgjQ) - [B站](https://www.bilibili.com/video/BV1qT4y1Z7hv/)
 - Day 296:  [Finding Real Roots of a Quadratic Equation](https://helloacm.com/teaching-kids-programming-finding-real-roots-of-a-quadratic-equation/)  计算一元二次方程的实数根  [Youtube](https://youtu.be/uibKiX8lDgI) - [B站](https://www.bilibili.com/video/BV1i44y147pG/)
 - Day 295:  [Compute the Maximal Perimeter by Forming a Rectangle from N squares](https://helloacm.com/teaching-kids-programming-compute-the-maximal-perimeter-by-forming-a-rectangle-from-n-squares/)  计算把N个小正方形整成大长方形的最大周长  [Youtube](https://youtu.be/bvRWtGm88VY) - [B站](https://www.bilibili.com/video/BV1r64y187so/) 
