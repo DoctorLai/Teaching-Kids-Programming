@@ -26,6 +26,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Introduction to Hashing Function | 哈希函数简介 | [Youtube](https://youtu.be/m6q7Ig8U4Hg) - [B站](https://www.bilibili.com/video/BV1fq4y1o7aP/) | [Introduction to Hashing Function](https://helloacm.com/teaching-kids-programming-introduction-to-hashing-function/) | 2021-10-03 |
 | Convert 1-D Array to 2D Matrix (Reshape Algorithm) | 把1维数组转换成2维矩阵 | [Youtube](https://youtu.be/eholNY2KgjQ) - [B站](https://www.bilibili.com/video/BV1qT4y1Z7hv/) | [Convert 1-D Array to 2D Matrix (Reshape Algorithm)](https://helloacm.com/teaching-kids-programming-convert-1-d-array-to-2d-matrix-reshape-algorithm/) | 2021-10-02 |
 | Final Value of Variable After Performing Operations (via Reduce Function) | 变量自增或自减后的值(Reduce函数) | [Youtube](https://youtu.be/EhabxbCpT54) - [B站](https://www.bilibili.com/video/BV11f4y1w7qk/) | [Final Value of Variable After Performing Operations (via Reduce Function)](https://helloacm.com/teaching-kids-programming-final-value-of-variable-after-performing-operations-via-reduce-function/) | 2021-09-21 |
 | Inplace Algorithms to Remove Elements | 原地移除目标元素 | [Youtube](https://youtu.be/B6PClrgsanw) - [B站](https://www.bilibili.com/video/BV1dQ4y1f7k4/) | [Inplace Algorithms to Remove Elements](https://helloacm.com/teaching-kids-programming-implement-the-counter-method-in-python/) | 2021-08-07 |
