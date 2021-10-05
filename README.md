@@ -93,6 +93,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 ## Data Structures 数据结构 
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Design a Hash Table | 设计一个哈希表 | [Youtube](https://youtu.be/hpY7lHvICpI) - [B站](https://www.bilibili.com/video/BV1r34y1U7dE/) | [Design a Hash Table](https://helloacm.com/teaching-kids-programming-design-a-hash-table/) | 2021-10-04 |
 | Disjoint Set: Find if Path Exists in Graph via Union Find Algorithm | 并查集: 图中两个顶点的连通性 | [Youtube](https://youtu.be/58nnnUT0m48) - [B站](https://www.bilibili.com/video/BV13L411b7jC/) | [Disjoint Set: Find if Path Exists in Graph via Union Find Algorithm](https://helloacm.com/teaching-kids-programming-disjoint-set-find-if-path-exists-in-graph-via-union-find-algorithm/) | 2021-08-26 |
 | How to Verify a Max Heap? | 验证最大堆算法 | [Youtube](https://youtu.be/xMii377Fzdw) - [B站](https://www.bilibili.com/video/BV19q4y1Q75Z/) | [How to Verify a Max Heap?](https://helloacm.com/teaching-kids-programming-how-to-verify-a-max-heap/) | 2021-08-13 |
 | Python Implementation of Trie Data Structure (Prefix Tree) | 数据结构Trie(前缀树)的Python实现 | [Youtube](https://youtu.be/00vRXic9YLI) - [B站](https://www.bilibili.com/video/BV1hZ4y1P7At/) | [Python Implementation of Trie Data Structure (Prefix Tree)](https://helloacm.com/teaching-kids-programming-python-implementation-of-trie-data-structure-prefix-tree/) | 2021-03-11 |
