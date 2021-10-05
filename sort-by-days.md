@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+- Day 299:  [Design a Hash Table](https://helloacm.com/teaching-kids-programming-design-a-hash-table/)  设计一个哈希表  [Youtube](https://youtu.be/hpY7lHvICpI) - [B站](https://www.bilibili.com/video/BV1r34y1U7dE/) 
 - Day 298:  [Introduction to Hashing Function](https://helloacm.com/teaching-kids-programming-introduction-to-hashing-function/)  哈希函数简介  [Youtube](https://youtu.be/m6q7Ig8U4Hg) - [B站](https://www.bilibili.com/video/BV1fq4y1o7aP/) 
 - Day 297:  [Convert 1-D Array to 2D Matrix (Reshape Algorithm)](https://helloacm.com/teaching-kids-programming-convert-1-d-array-to-2d-matrix-reshape-algorithm/)  把1维数组转换成2维矩阵  [Youtube](https://youtu.be/eholNY2KgjQ) - [B站](https://www.bilibili.com/video/BV1qT4y1Z7hv/)
 - Day 296:  [Finding Real Roots of a Quadratic Equation](https://helloacm.com/teaching-kids-programming-finding-real-roots-of-a-quadratic-equation/)  计算一元二次方程的实数根  [Youtube](https://youtu.be/uibKiX8lDgI) - [B站](https://www.bilibili.com/video/BV1i44y147pG/)
