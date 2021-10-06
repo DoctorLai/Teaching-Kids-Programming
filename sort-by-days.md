@@ -1,5 +1,6 @@
 # Teaching Kids Programming
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+- Day 300:  [One-way Jump Game via Backtracking, DP and Greedy Algorithm](https://helloacm.com/teaching-kids-programming-one-way-jump-game-via-backtracking-dp-and-greedy-algorithm/)  单向跳跃游戏的几种解法: 回溯+两种动态规划+贪心算法  [Youtube](https://youtu.be/h8uBnfg2c7s) - [B站](https://www.bilibili.com/video/BV18341117dS/)
 - Day 299:  [Design a Hash Table](https://helloacm.com/teaching-kids-programming-design-a-hash-table/)  设计一个哈希表  [Youtube](https://youtu.be/hpY7lHvICpI) - [B站](https://www.bilibili.com/video/BV1r34y1U7dE/) 
 - Day 298:  [Introduction to Hashing Function](https://helloacm.com/teaching-kids-programming-introduction-to-hashing-function/)  哈希函数简介  [Youtube](https://youtu.be/m6q7Ig8U4Hg) - [B站](https://www.bilibili.com/video/BV1fq4y1o7aP/) 
 - Day 297:  [Convert 1-D Array to 2D Matrix (Reshape Algorithm)](https://helloacm.com/teaching-kids-programming-convert-1-d-array-to-2d-matrix-reshape-algorithm/)  把1维数组转换成2维矩阵  [Youtube](https://youtu.be/eholNY2KgjQ) - [B站](https://www.bilibili.com/video/BV1qT4y1Z7hv/)
