@@ -14,8 +14,9 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 
 ## Channels and Blog
 - [Youtube Channel: https://www.youtube.com/c/DoctorLai](https://www.youtube.com/c/DoctorLai)
-- Bilibili: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
 - Blog: [https://helloacm.com/category/teaching-kids-programming/](https://helloacm.com/category/teaching-kids-programming/)
+- B站: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
+- 西瓜视频: [https://www.ixigua.com/home/1399016302059111](https://www.ixigua.com/home/1399016302059111)
 
 <a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>
 
