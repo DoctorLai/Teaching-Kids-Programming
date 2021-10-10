@@ -1,0 +1,404 @@
+1
+00:00:02,159 --> 00:00:04,480
+okay
+
+2
+00:00:04,880 --> 00:00:11,519
+yep so today
+
+3
+00:00:08,800 --> 00:00:14,160
+come on eric uh i'm going to talk about
+
+4
+00:00:11,519 --> 00:00:14,160
+recursion
+
+5
+00:00:14,960 --> 00:00:20,160
+so tell me what's the question
+
+6
+00:00:18,199 --> 00:00:23,760
+i-c-u-r-s-i-o-n
+
+7
+00:00:20,160 --> 00:00:26,080
+recursion tell me what does it mean
+
+8
+00:00:23,760 --> 00:00:26,800
+i don't know you don't know what's what
+
+9
+00:00:26,080 --> 00:00:30,400
+does that mean
+
+10
+00:00:26,800 --> 00:00:32,480
+what does this word mean in english
+
+11
+00:00:30,400 --> 00:00:35,680
+i don't know okay that's right
+
+12
+00:00:32,480 --> 00:00:38,719
+simplicity properly please
+
+13
+00:00:35,680 --> 00:00:42,840
+recursion so
+
+14
+00:00:38,719 --> 00:00:44,160
+it's like something that calls itself
+
+15
+00:00:42,840 --> 00:00:46,399
+repeatedly
+
+16
+00:00:44,160 --> 00:00:46,399
+so
+
+17
+00:00:48,879 --> 00:00:53,440
+so for example if i define the function
+
+18
+00:00:51,120 --> 00:00:57,199
+yeah if i define the function
+
+19
+00:00:53,440 --> 00:01:01,120
+like let's say factorial yeah
+
+20
+00:00:57,199 --> 00:01:04,960
+you know factorial yeah like n factorial
+
+21
+00:01:01,120 --> 00:01:10,840
+equals n times n minus 1
+
+22
+00:01:04,960 --> 00:01:14,080
+times n minus 2 times until 1 right
+
+23
+00:01:10,840 --> 00:01:17,439
+yeah three factorial equals three times
+
+24
+00:01:14,080 --> 00:01:19,439
+two times one all right
+
+25
+00:01:17,439 --> 00:01:21,520
+so do you see this what's this what's
+
+26
+00:01:19,439 --> 00:01:25,040
+this bit
+
+27
+00:01:21,520 --> 00:01:25,520
+that's two factorial yeah and what's
+
+28
+00:01:25,040 --> 00:01:28,720
+this
+
+29
+00:01:25,520 --> 00:01:29,360
+that's one factorial i hope about four
+
+30
+00:01:28,720 --> 00:01:33,360
+factorial
+
+31
+00:01:29,360 --> 00:01:34,320
+equals four times three times two times
+
+32
+00:01:33,360 --> 00:01:37,360
+one right
+
+33
+00:01:34,320 --> 00:01:40,479
+yeah what's this
+
+34
+00:01:37,360 --> 00:01:44,000
+three factors yeah
+
+35
+00:01:40,479 --> 00:01:46,640
+do you understand so this problem can be
+
+36
+00:01:44,000 --> 00:01:47,439
+solved by solving a smaller problem
+
+37
+00:01:46,640 --> 00:01:50,560
+right
+
+38
+00:01:47,439 --> 00:01:52,960
+yeah okay so we call it
+
+39
+00:01:50,560 --> 00:01:54,000
+we can call this like let's call it f
+
+40
+00:01:52,960 --> 00:01:57,040
+function okay f
+
+41
+00:01:54,000 --> 00:02:00,560
+n okay so it's the
+
+42
+00:01:57,040 --> 00:02:04,000
+base case if it's one if
+
+43
+00:02:00,560 --> 00:02:08,640
+n is one
+
+44
+00:02:04,000 --> 00:02:12,160
+return one one factorial is what
+
+45
+00:02:08,640 --> 00:02:14,080
+one one then as we don't need to
+
+46
+00:02:12,160 --> 00:02:15,680
+write the errors but it's good to write
+
+47
+00:02:14,080 --> 00:02:19,120
+the errors
+
+48
+00:02:15,680 --> 00:02:23,599
+because you can say okay return if n is
+
+49
+00:02:19,120 --> 00:02:26,640
+one return one a has to return
+
+50
+00:02:23,599 --> 00:02:29,040
+and right this is n yeah
+
+51
+00:02:26,640 --> 00:02:29,040
+times
+
+52
+00:02:29,840 --> 00:02:37,840
+what's this f and -1
+
+53
+00:02:34,239 --> 00:02:39,519
+yeah look this is minus one we're
+
+54
+00:02:37,840 --> 00:02:40,720
+calling excel so this is called
+
+55
+00:02:39,519 --> 00:02:43,120
+recursion
+
+56
+00:02:40,720 --> 00:02:44,000
+look at it because now we are solving
+
+57
+00:02:43,120 --> 00:02:47,760
+this problem
+
+58
+00:02:44,000 --> 00:02:51,519
+by solving a smaller problem yeah
+
+59
+00:02:47,760 --> 00:02:54,319
+okay and now it comes itself okay
+
+60
+00:02:51,519 --> 00:02:55,840
+so so let's let's do this example f3
+
+61
+00:02:54,319 --> 00:02:59,200
+okay
+
+62
+00:02:55,840 --> 00:02:59,200
+so what do we have f3
+
+63
+00:02:59,920 --> 00:03:07,040
+f3 okay we come here n
+
+64
+00:03:03,200 --> 00:03:10,480
+is three it's not equals one so as yeah
+
+65
+00:03:07,040 --> 00:03:14,800
+what does it return so f3 it will return
+
+66
+00:03:10,480 --> 00:03:18,640
+three times f3 minus one f2 right
+
+67
+00:03:14,800 --> 00:03:21,680
+all right yes okay f2
+
+68
+00:03:18,640 --> 00:03:24,879
+calling itself if n is one no
+
+69
+00:03:21,680 --> 00:03:28,560
+right your f2 will become two
+
+70
+00:03:24,879 --> 00:03:31,519
+times f1 right yes
+
+71
+00:03:28,560 --> 00:03:32,959
+f1 if only was one then what we return
+
+72
+00:03:31,519 --> 00:03:36,000
+one
+
+73
+00:03:32,959 --> 00:03:36,319
+okay so we can going backwards two times
+
+74
+00:03:36,000 --> 00:03:42,000
+one
+
+75
+00:03:36,319 --> 00:03:47,360
+two two times three six so s3 equals six
+
+76
+00:03:42,000 --> 00:03:51,280
+yes any questions so far
+
+77
+00:03:47,360 --> 00:03:54,000
+no yeah no no it's easier is it
+
+78
+00:03:51,280 --> 00:03:54,000
+is it easy
+
+79
+00:03:54,560 --> 00:04:04,239
+okay so look what this recursion
+
+80
+00:04:01,519 --> 00:04:07,070
+look recursion anyway where is the
+
+81
+00:04:04,239 --> 00:04:10,300
+location happen can you tell me
+
+82
+00:04:07,070 --> 00:04:10,300
+[Music]
+
+83
+00:04:11,439 --> 00:04:14,959
+that yeah look this is the function we
+
+84
+00:04:13,840 --> 00:04:17,759
+defined here
+
+85
+00:04:14,959 --> 00:04:19,840
+yeah look it's calling itself with
+
+86
+00:04:17,759 --> 00:04:21,680
+another parameter which is a smaller
+
+87
+00:04:19,840 --> 00:04:22,960
+one right because we are solving the
+
+88
+00:04:21,680 --> 00:04:25,040
+problem with n
+
+89
+00:04:22,960 --> 00:04:26,400
+and now we're calling excel because the
+
+90
+00:04:25,040 --> 00:04:30,240
+recording is with n
+
+91
+00:04:26,400 --> 00:04:33,520
+minus one yeah so n n minus 1
+
+92
+00:04:30,240 --> 00:04:36,000
+and minus 2 until we reach n n equals 1
+
+93
+00:04:33,520 --> 00:04:39,280
+which we know how to solve it
+
+94
+00:04:36,000 --> 00:04:42,000
+yeah because when n is 1 we return 1
+
+95
+00:04:39,280 --> 00:04:43,040
+and when n is 2 it will return 2 times
+
+96
+00:04:42,000 --> 00:04:46,080
+f1
+
+97
+00:04:43,040 --> 00:04:47,360
+yeah which is 1. so we're calling itself
+
+98
+00:04:46,080 --> 00:04:50,080
+okay
+
+99
+00:04:47,360 --> 00:04:52,000
+yes okay do you want to input this in
+
+100
+00:04:50,080 --> 00:04:54,880
+the computer okay i'm going to turn this
+
+101
+00:04:52,000 --> 00:04:54,880
+off for a while
+

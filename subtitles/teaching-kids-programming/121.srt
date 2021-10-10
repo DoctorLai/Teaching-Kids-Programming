@@ -1,0 +1,932 @@
+1
+00:00:02,540 --> 00:00:05,620
+[Applause]
+
+2
+00:00:07,760 --> 00:00:10,990
+[Music]
+
+3
+00:00:14,960 --> 00:00:17,600
+problem
+
+4
+00:00:15,519 --> 00:00:18,960
+the problem is that we have three binary
+
+5
+00:00:17,600 --> 00:00:22,640
+tree one
+
+6
+00:00:18,960 --> 00:00:23,840
+two three four and then we want to sum
+
+7
+00:00:22,640 --> 00:00:26,480
+the loot
+
+8
+00:00:23,840 --> 00:00:27,199
+to the leaves so which is one two four
+
+9
+00:00:26,480 --> 00:00:30,400
+plus one
+
+10
+00:00:27,199 --> 00:00:31,760
+three yeah all right which is 137.
+
+11
+00:00:30,400 --> 00:00:33,200
+so yesterday we were using the
+
+12
+00:00:31,760 --> 00:00:34,239
+preference search yeah a little bit
+
+13
+00:00:33,200 --> 00:00:37,360
+review okay
+
+14
+00:00:34,239 --> 00:00:38,399
+so we we we visit the travelers tree
+
+15
+00:00:37,360 --> 00:00:40,559
+even
+
+16
+00:00:38,399 --> 00:00:41,600
+in level by level order which is
+
+17
+00:00:40,559 --> 00:00:44,239
+breakfast search yeah
+
+18
+00:00:41,600 --> 00:00:45,360
+breast first search and then we use the
+
+19
+00:00:44,239 --> 00:00:48,480
+queue
+
+20
+00:00:45,360 --> 00:00:50,399
+all right to push the note
+
+21
+00:00:48,480 --> 00:00:51,760
+and every time i take a note i need to
+
+22
+00:00:50,399 --> 00:00:53,520
+push its kit
+
+23
+00:00:51,760 --> 00:00:54,879
+back to the queue right back to the
+
+24
+00:00:53,520 --> 00:00:58,160
+queue and then
+
+25
+00:00:54,879 --> 00:00:59,760
+when it's a leaf now here we accumulate
+
+26
+00:00:58,160 --> 00:01:01,199
+the answer with the common value all
+
+27
+00:00:59,760 --> 00:01:04,080
+right doesn't make sense
+
+28
+00:01:01,199 --> 00:01:04,720
+and we will push it to the kill we how
+
+29
+00:01:04,080 --> 00:01:07,760
+do we get
+
+30
+00:01:04,720 --> 00:01:12,400
+12 how how do we
+
+31
+00:01:07,760 --> 00:01:15,759
+push 12 or 124 174 into the
+
+32
+00:01:12,400 --> 00:01:16,479
+cube from 12 so it's 12 times 10 plus 4.
+
+33
+00:01:15,759 --> 00:01:18,640
+am i right
+
+34
+00:01:16,479 --> 00:01:21,680
+yeah yeah okay so now can you tell me
+
+35
+00:01:18,640 --> 00:01:21,680
+what's that research
+
+36
+00:01:23,439 --> 00:01:28,880
+you can then yeah as long as
+
+37
+00:01:27,040 --> 00:01:30,720
+far as you can as steep as you can
+
+38
+00:01:28,880 --> 00:01:34,159
+travel yeah for example like
+
+39
+00:01:30,720 --> 00:01:38,159
+this is now one two three
+
+40
+00:01:34,159 --> 00:01:41,040
+four and then five
+
+41
+00:01:38,159 --> 00:01:41,040
+six seven
+
+42
+00:01:44,159 --> 00:01:47,840
+what's the order of the death star
+
+43
+00:01:45,680 --> 00:01:49,280
+search one two three four five six seven
+
+44
+00:01:47,840 --> 00:01:53,200
+eight
+
+45
+00:01:49,280 --> 00:01:55,040
+yes one two three four five six seven
+
+46
+00:01:53,200 --> 00:01:56,240
+i want to go to the left as steep as i
+
+47
+00:01:55,040 --> 00:01:59,520
+can right
+
+48
+00:01:56,240 --> 00:02:01,840
+now and then i finish here and then i go
+
+49
+00:01:59,520 --> 00:02:04,240
+as deep as i can from the right okay
+
+50
+00:02:01,840 --> 00:02:04,880
+not including the route again not
+
+51
+00:02:04,240 --> 00:02:06,960
+including
+
+52
+00:02:04,880 --> 00:02:08,959
+because look it's a it's basically a
+
+53
+00:02:06,960 --> 00:02:13,280
+recursive function
+
+54
+00:02:08,959 --> 00:02:13,280
+okay so because function like
+
+55
+00:02:14,080 --> 00:02:17,760
+okay so what's that what's the worst
+
+56
+00:02:15,520 --> 00:02:21,520
+meaning so look
+
+57
+00:02:17,760 --> 00:02:23,760
+yeah look if loot is now this is the
+
+58
+00:02:21,520 --> 00:02:25,440
+basic framework about definition if
+
+59
+00:02:23,760 --> 00:02:29,040
+bluetooth is numb we return
+
+60
+00:02:25,440 --> 00:02:31,120
+right yeah yeah and then now
+
+61
+00:02:29,040 --> 00:02:32,640
+now i need to visit the current note
+
+62
+00:02:31,120 --> 00:02:35,680
+right okay all right
+
+63
+00:02:32,640 --> 00:02:38,879
+yeah yeah okay let's do it
+
+64
+00:02:35,680 --> 00:02:39,440
+loot okay visit and then then we need to
+
+65
+00:02:38,879 --> 00:02:41,599
+visit
+
+66
+00:02:39,440 --> 00:02:42,800
+the left tree so we should lose our left
+
+67
+00:02:41,599 --> 00:02:45,840
+all right
+
+68
+00:02:42,800 --> 00:02:50,080
+all right and then visit
+
+69
+00:02:45,840 --> 00:02:51,519
+the right tree all right okay yeah so
+
+70
+00:02:50,080 --> 00:02:53,440
+that's the
+
+71
+00:02:51,519 --> 00:02:56,959
+framework of the deaf research so how
+
+72
+00:02:53,440 --> 00:02:59,360
+can we apply this to solve this problem
+
+73
+00:02:56,959 --> 00:03:00,720
+first of all what should we do now so
+
+74
+00:02:59,360 --> 00:03:01,360
+it's basically the same but we need to
+
+75
+00:03:00,720 --> 00:03:03,360
+remember
+
+76
+00:03:01,360 --> 00:03:05,280
+the the value yeah we need to carry over
+
+77
+00:03:03,360 --> 00:03:08,480
+the value so how about if i
+
+78
+00:03:05,280 --> 00:03:12,239
+change this with a current value right
+
+79
+00:03:08,480 --> 00:03:15,599
+yeah kind of like look
+
+80
+00:03:12,239 --> 00:03:18,879
+if root is noun then we return
+
+81
+00:03:15,599 --> 00:03:21,200
+zero right obviously yeah definitely
+
+82
+00:03:18,879 --> 00:03:22,080
+okay now i don't need to revisit the
+
+83
+00:03:21,200 --> 00:03:24,640
+loot right
+
+84
+00:03:22,080 --> 00:03:25,920
+look remember i have lose here but now
+
+85
+00:03:24,640 --> 00:03:29,599
+look what
+
+86
+00:03:25,920 --> 00:03:32,080
+i need to i need to
+
+87
+00:03:29,599 --> 00:03:32,879
+change one line of code which is to
+
+88
+00:03:32,080 --> 00:03:35,680
+return
+
+89
+00:03:32,879 --> 00:03:36,159
+the current value when we are at leaf
+
+90
+00:03:35,680 --> 00:03:37,680
+right
+
+91
+00:03:36,159 --> 00:03:39,760
+so let leaf know how do we do the
+
+92
+00:03:37,680 --> 00:03:40,799
+difference how do we check if it's a
+
+93
+00:03:39,760 --> 00:03:42,480
+leaf now
+
+94
+00:03:40,799 --> 00:03:43,840
+come on how do we check if it's not it
+
+95
+00:03:42,480 --> 00:03:47,040
+doesn't have any parent
+
+96
+00:03:43,840 --> 00:03:48,319
+so if you tell me if do you have any
+
+97
+00:03:47,040 --> 00:03:51,040
+kids not parents if
+
+98
+00:03:48,319 --> 00:03:51,040
+lou don't what
+
+99
+00:03:53,040 --> 00:03:58,959
+left left is num right
+
+100
+00:03:56,159 --> 00:04:00,080
+and read the right is none yeah we're
+
+101
+00:03:58,959 --> 00:04:03,280
+done
+
+102
+00:04:00,080 --> 00:04:06,319
+it's not the same but just right left
+
+103
+00:04:03,280 --> 00:04:08,319
+is toronto okay so now look if let us do
+
+104
+00:04:06,319 --> 00:04:09,519
+this now and left of life is numb so
+
+105
+00:04:08,319 --> 00:04:14,400
+what should we do
+
+106
+00:04:09,519 --> 00:04:14,400
+we return we don't work
+
+107
+00:04:27,280 --> 00:04:31,280
+ah yeah this current is the previous but
+
+108
+00:04:29,759 --> 00:04:32,400
+now we have this neutral value so we
+
+109
+00:04:31,280 --> 00:04:37,040
+can't stand on that
+
+110
+00:04:32,400 --> 00:04:37,040
+right okay now look dfs
+
+111
+00:04:37,120 --> 00:04:42,800
+pfs blue top left yes
+
+112
+00:04:40,160 --> 00:04:43,680
+and then we don't no no no this kind of
+
+113
+00:04:42,800 --> 00:04:47,919
+value how hard you
+
+114
+00:04:43,680 --> 00:04:50,479
+put push it here and we need to return
+
+115
+00:04:47,919 --> 00:04:52,000
+this is a okay and then we say b equal
+
+116
+00:04:50,479 --> 00:04:56,000
+dfs
+
+117
+00:04:52,000 --> 00:04:59,360
+rule right and then do this
+
+118
+00:04:56,000 --> 00:05:02,720
+and then we return what because look
+
+119
+00:04:59,360 --> 00:05:05,120
+this is the sum of the left tree
+
+120
+00:05:02,720 --> 00:05:06,720
+left tree this is the sum of the right
+
+121
+00:05:05,120 --> 00:05:09,199
+three and the answer is
+
+122
+00:05:06,720 --> 00:05:11,039
+one answer is one can you feel this
+
+123
+00:05:09,199 --> 00:05:14,160
+plant
+
+124
+00:05:11,039 --> 00:05:17,199
+doesn't make sense or blank
+
+125
+00:05:14,160 --> 00:05:18,479
+blank okay so this is the sum of the
+
+126
+00:05:17,199 --> 00:05:21,919
+electric look everything
+
+127
+00:05:18,479 --> 00:05:24,400
+look yeah one two three
+
+128
+00:05:21,919 --> 00:05:25,600
+and then there's one so this a is the
+
+129
+00:05:24,400 --> 00:05:28,720
+left string which is this
+
+130
+00:05:25,600 --> 00:05:32,800
+this one two three and right b b
+
+131
+00:05:28,720 --> 00:05:34,800
+is the right trick so return one
+
+132
+00:05:32,800 --> 00:05:36,240
+reason why come on it's all very obvious
+
+133
+00:05:34,800 --> 00:05:38,800
+so this is a this is b
+
+134
+00:05:36,240 --> 00:05:38,800
+and one
+
+135
+00:05:44,720 --> 00:05:48,320
+go to the left if you want to go to the
+
+136
+00:05:46,960 --> 00:05:50,560
+left
+
+137
+00:05:48,320 --> 00:05:51,520
+then we currently we know this value
+
+138
+00:05:50,560 --> 00:05:54,080
+current value
+
+139
+00:05:51,520 --> 00:05:55,039
+so how do we pass current definitely
+
+140
+00:05:54,080 --> 00:05:58,800
+current
+
+141
+00:05:55,039 --> 00:06:04,479
+current and what
+
+142
+00:05:58,800 --> 00:06:04,479
+we know value we are
+
+143
+00:06:04,840 --> 00:06:07,840
+right
+
+144
+00:06:10,880 --> 00:06:14,880
+right yeah because we are now adding
+
+145
+00:06:14,160 --> 00:06:17,039
+this
+
+146
+00:06:14,880 --> 00:06:19,120
+loot value yes we are adding this
+
+147
+00:06:17,039 --> 00:06:20,000
+bluetooth value but now the previous one
+
+148
+00:06:19,120 --> 00:06:22,960
+is current
+
+149
+00:06:20,000 --> 00:06:23,680
+current right look here suppose we are
+
+150
+00:06:22,960 --> 00:06:25,759
+here right
+
+151
+00:06:23,680 --> 00:06:26,720
+so the current value is what current
+
+152
+00:06:25,759 --> 00:06:30,000
+value is one
+
+153
+00:06:26,720 --> 00:06:32,000
+right and then the load value is two
+
+154
+00:06:30,000 --> 00:06:33,120
+and now we know if we want to move to
+
+155
+00:06:32,000 --> 00:06:36,160
+that three so
+
+156
+00:06:33,120 --> 00:06:39,520
+we should get 12 so it's current
+
+157
+00:06:36,160 --> 00:06:42,000
+this is current yeah times 10 is 10 plus
+
+158
+00:06:39,520 --> 00:06:44,160
+root of value yeah this is the lunar now
+
+159
+00:06:42,000 --> 00:06:46,720
+it's 2 so 10 plus 2 12
+
+160
+00:06:44,160 --> 00:06:49,199
+and then you'll go to the next line okay
+
+161
+00:06:46,720 --> 00:06:50,639
+that makes sense
+
+162
+00:06:49,199 --> 00:06:52,000
+so let's look with the little
+
+163
+00:06:50,639 --> 00:06:53,840
+modification we change we are
+
+164
+00:06:52,000 --> 00:06:55,919
+successfully changing this the
+
+165
+00:06:53,840 --> 00:06:57,840
+default search template to solve this
+
+166
+00:06:55,919 --> 00:06:59,680
+problem right therefore search
+
+167
+00:06:57,840 --> 00:07:01,120
+what's the current thing can you explain
+
+168
+00:06:59,680 --> 00:07:03,199
+to me what's the second parameter
+
+169
+00:07:01,120 --> 00:07:06,479
+current
+
+170
+00:07:03,199 --> 00:07:08,720
+current um what is it what why
+
+171
+00:07:06,479 --> 00:07:10,479
+what's this what's this what's this
+
+172
+00:07:08,720 --> 00:07:12,400
+parameter why are we
+
+173
+00:07:10,479 --> 00:07:15,199
+why why do we need to pass this
+
+174
+00:07:12,400 --> 00:07:17,199
+parameter current
+
+175
+00:07:15,199 --> 00:07:19,039
+yeah what does it mean this current so
+
+176
+00:07:17,199 --> 00:07:20,560
+look this current thing what does it
+
+177
+00:07:19,039 --> 00:07:24,000
+mean
+
+178
+00:07:20,560 --> 00:07:25,840
+it means that the lower
+
+179
+00:07:24,000 --> 00:07:27,599
+what are we doing here why we need to
+
+180
+00:07:25,840 --> 00:07:30,639
+pass the current times 10 plus
+
+181
+00:07:27,599 --> 00:07:35,840
+the what's this
+
+182
+00:07:30,639 --> 00:07:35,840
+uh it is it's what
+
+183
+00:07:36,720 --> 00:07:44,720
+what's the current it's it's 90 times
+
+184
+00:07:41,360 --> 00:07:46,720
+it's look if we are here at three what's
+
+185
+00:07:44,720 --> 00:07:50,319
+the current value
+
+186
+00:07:46,720 --> 00:07:52,479
+oh one weight what's that what if we
+
+187
+00:07:50,319 --> 00:07:59,840
+if we we are loot and if this is the
+
+188
+00:07:52,479 --> 00:07:59,840
+root now and what's the current value
+
+189
+00:08:05,919 --> 00:08:08,879
+a little bit yeah
+
+190
+00:08:09,280 --> 00:08:14,080
+leaf seven why is it seven no that's not
+
+191
+00:08:12,639 --> 00:08:17,680
+seven come on
+
+192
+00:08:14,080 --> 00:08:20,319
+one it only will be one five twelve
+
+193
+00:08:17,680 --> 00:08:21,280
+one two two three which number pick one
+
+194
+00:08:20,319 --> 00:08:23,520
+two
+
+195
+00:08:21,280 --> 00:08:27,840
+yeah twelve okay another one if the root
+
+196
+00:08:23,520 --> 00:08:27,840
+is here what's the current value
+
+197
+00:08:28,400 --> 00:08:33,039
+one four five one hundred forty five
+
+198
+00:08:30,960 --> 00:08:35,120
+okay if like
+
+199
+00:08:33,039 --> 00:08:37,760
+look if the load is here what's the
+
+200
+00:08:35,120 --> 00:08:40,880
+current value
+
+201
+00:08:37,760 --> 00:08:40,880
+if you don't know that is here what's
+
+202
+00:08:41,519 --> 00:08:45,680
+the current value is
+
+203
+00:08:46,000 --> 00:08:50,640
+14. yeah we're done so you know what's
+
+204
+00:08:48,240 --> 00:08:52,800
+color value yeah it's the value
+
+205
+00:08:50,640 --> 00:08:54,880
+let the previous from the root to the
+
+206
+00:08:52,800 --> 00:08:57,200
+node before to its parent
+
+207
+00:08:54,880 --> 00:08:58,880
+right now we need to pass this value how
+
+208
+00:08:57,200 --> 00:08:59,279
+do we pass this value we just times
+
+209
+00:08:58,880 --> 00:09:02,640
+these
+
+210
+00:08:59,279 --> 00:09:05,600
+10 we pass we times this 14 10 and then
+
+211
+00:09:02,640 --> 00:09:06,160
+plus this fight will be 145 right am
+
+212
+00:09:05,600 --> 00:09:10,240
+right
+
+213
+00:09:06,160 --> 00:09:14,080
+yeah what's the time complexity oh n
+
+214
+00:09:10,240 --> 00:09:15,040
+what's the n the number of nodes in the
+
+215
+00:09:14,080 --> 00:09:18,320
+binary tree
+
+216
+00:09:15,040 --> 00:09:18,320
+okay what's the space complex
+
+217
+00:09:19,600 --> 00:09:22,800
+because we are using the recursion the
+
+218
+00:09:21,680 --> 00:09:26,000
+question has the
+
+219
+00:09:22,800 --> 00:09:29,040
+complexity effects use of
+
+220
+00:09:26,000 --> 00:09:30,640
+stat you know navigation users do you
+
+221
+00:09:29,040 --> 00:09:34,000
+understand yeah yeah
+
+222
+00:09:30,640 --> 00:09:35,920
+okay so uh let up that will be it yeah
+
+223
+00:09:34,000 --> 00:09:38,880
+we're done today good job so
+
+224
+00:09:35,920 --> 00:09:41,120
+quick yeah yeah good job say bye bye bye
+
+225
+00:09:38,880 --> 00:09:44,000
+bye bye bye bye bye bye bye bye you want
+
+226
+00:09:41,120 --> 00:09:44,000
+to make it 10 minutes
+
+227
+00:09:48,000 --> 00:09:52,000
+so take a look okay i'm going to erase
+
+228
+00:09:50,399 --> 00:09:56,240
+this you know easily what's this
+
+229
+00:09:52,000 --> 00:09:58,560
+x b okay you actually you don't need to
+
+230
+00:09:56,240 --> 00:09:59,839
+assign to a plus b you can just return
+
+231
+00:09:58,560 --> 00:10:02,880
+these
+
+232
+00:09:59,839 --> 00:10:05,839
+return leads plus plus this okay doesn't
+
+233
+00:10:02,880 --> 00:10:05,839
+make sense
+

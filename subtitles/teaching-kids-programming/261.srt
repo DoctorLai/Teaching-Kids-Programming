@@ -1,0 +1,1596 @@
+1
+00:00:00,240 --> 00:00:03,679
+hello
+
+2
+00:00:02,159 --> 00:00:06,240
+hello everyone
+
+3
+00:00:03,679 --> 00:00:08,879
+yes okay so today we talk about graphs
+
+4
+00:00:06,240 --> 00:00:08,879
+what's graph
+
+5
+00:00:09,040 --> 00:00:15,440
+graph is data structure right with the
+
+6
+00:00:12,160 --> 00:00:18,160
+vertex and the edges yeah so the graph
+
+7
+00:00:15,440 --> 00:00:21,039
+will usually represent what with g
+
+8
+00:00:18,160 --> 00:00:23,680
+and then it's a set of what
+
+9
+00:00:21,039 --> 00:00:26,800
+a set of can you tell me is the set of v
+
+10
+00:00:23,680 --> 00:00:26,800
+and e what's really
+
+11
+00:00:28,000 --> 00:00:30,640
+vertex
+
+12
+00:00:29,519 --> 00:00:32,800
+and
+
+13
+00:00:30,640 --> 00:00:35,200
+vertex yeah
+
+14
+00:00:32,800 --> 00:00:37,360
+and what
+
+15
+00:00:35,200 --> 00:00:39,760
+this is vertex yeah
+
+16
+00:00:37,360 --> 00:00:39,760
+and what
+
+17
+00:00:40,960 --> 00:00:45,760
+that's the vertex and what's this
+
+18
+00:00:43,600 --> 00:00:47,520
+what's this what's this
+
+19
+00:00:45,760 --> 00:00:48,800
+what's this the connections between the
+
+20
+00:00:47,520 --> 00:00:51,520
+vertex
+
+21
+00:00:48,800 --> 00:00:54,480
+what do we call it star with e
+
+22
+00:00:51,520 --> 00:00:56,879
+[Music]
+
+23
+00:00:54,480 --> 00:00:58,559
+e b
+
+24
+00:00:56,879 --> 00:01:00,399
+yeah
+
+25
+00:00:58,559 --> 00:01:01,600
+vertex and edges
+
+26
+00:01:00,399 --> 00:01:02,399
+okay
+
+27
+00:01:01,600 --> 00:01:04,640
+so
+
+28
+00:01:02,399 --> 00:01:07,200
+this graph can be directional or
+
+29
+00:01:04,640 --> 00:01:10,640
+bi-directional yeah or any direction so
+
+30
+00:01:07,200 --> 00:01:12,960
+we can it can be bi-directional
+
+31
+00:01:10,640 --> 00:01:15,040
+what does it mean by direction
+
+32
+00:01:12,960 --> 00:01:17,759
+or direction okay
+
+33
+00:01:15,040 --> 00:01:20,720
+bi-directional or un-directional which
+
+34
+00:01:17,759 --> 00:01:23,200
+is the same iteration
+
+35
+00:01:20,720 --> 00:01:25,600
+and direction of iteration this is the
+
+36
+00:01:23,200 --> 00:01:28,159
+same thing and direction
+
+37
+00:01:25,600 --> 00:01:28,159
+what does it mean
+
+38
+00:01:29,280 --> 00:01:34,799
+look if it's directional you can have
+
+39
+00:01:32,320 --> 00:01:36,720
+this has error one can go to two but two
+
+40
+00:01:34,799 --> 00:01:39,920
+cannot go to one okay
+
+41
+00:01:36,720 --> 00:01:42,320
+right let's dive can i have two hours
+
+42
+00:01:39,920 --> 00:01:44,399
+yeah if you want to get to go to one you
+
+43
+00:01:42,320 --> 00:01:46,320
+have to put this right here right
+
+44
+00:01:44,399 --> 00:01:48,320
+then by direction it means you just put
+
+45
+00:01:46,320 --> 00:01:49,200
+a one heck of the two two can go to one
+
+46
+00:01:48,320 --> 00:01:51,280
+okay
+
+47
+00:01:49,200 --> 00:01:52,960
+two can go to three so you can go to two
+
+48
+00:01:51,280 --> 00:01:55,680
+so we can go to four or four can go to
+
+49
+00:01:52,960 --> 00:01:58,000
+three okay so uh this is the first
+
+50
+00:01:55,680 --> 00:02:00,240
+transition okay so if today's top is
+
+51
+00:01:58,000 --> 00:02:02,159
+very simple given a bi-directional or
+
+52
+00:02:00,240 --> 00:02:04,399
+un-directional graph
+
+53
+00:02:02,159 --> 00:02:05,840
+because it means that one thing goes to
+
+54
+00:02:04,399 --> 00:02:06,960
+it can go to one
+
+55
+00:02:05,840 --> 00:02:10,560
+and
+
+56
+00:02:06,960 --> 00:02:11,440
+something like that one two three three
+
+57
+00:02:10,560 --> 00:02:13,520
+four
+
+58
+00:02:11,440 --> 00:02:15,440
+so for example this one if i tell you
+
+59
+00:02:13,520 --> 00:02:18,000
+can can you find the path between one to
+
+60
+00:02:15,440 --> 00:02:20,000
+four yeah yeah because you can go to one
+
+61
+00:02:18,000 --> 00:02:22,400
+to two two three four okay how about
+
+62
+00:02:20,000 --> 00:02:24,239
+there's a graph and not yeah
+
+63
+00:02:22,400 --> 00:02:25,280
+five to six
+
+64
+00:02:24,239 --> 00:02:26,480
+and then
+
+65
+00:02:25,280 --> 00:02:29,760
+seven
+
+66
+00:02:26,480 --> 00:02:31,440
+can you go from three to seven
+
+67
+00:02:29,760 --> 00:02:33,040
+yeah because look this is a separate
+
+68
+00:02:31,440 --> 00:02:37,120
+right there's no edges between these two
+
+69
+00:02:33,040 --> 00:02:38,640
+components yeah simple okay easy yeah so
+
+70
+00:02:37,120 --> 00:02:40,560
+we've got this problem so we are given
+
+71
+00:02:38,640 --> 00:02:42,959
+these uh
+
+72
+00:02:40,560 --> 00:02:45,360
+these so how we are given this input
+
+73
+00:02:42,959 --> 00:02:47,920
+like one two two two two three three two
+
+74
+00:02:45,360 --> 00:02:49,280
+these edges yeah so how do we represent
+
+75
+00:02:47,920 --> 00:02:52,640
+the graph
+
+76
+00:02:49,280 --> 00:02:52,640
+how do we represent the graph
+
+77
+00:02:54,319 --> 00:03:01,680
+diversity remember adjacent adjacent
+
+78
+00:02:57,599 --> 00:03:04,159
+magic yeah one can go to
+
+79
+00:03:01,680 --> 00:03:05,200
+adjacent magic so for example like one
+
+80
+00:03:04,159 --> 00:03:08,879
+two two
+
+81
+00:03:05,200 --> 00:03:10,400
+two two three okay two two three
+
+82
+00:03:08,879 --> 00:03:11,840
+two two four
+
+83
+00:03:10,400 --> 00:03:13,440
+okay
+
+84
+00:03:11,840 --> 00:03:15,760
+so how do we represent
+
+85
+00:03:13,440 --> 00:03:16,050
+how how do we represent this we can use
+
+86
+00:03:15,760 --> 00:03:17,680
+the
+
+87
+00:03:16,050 --> 00:03:18,480
+[Music]
+
+88
+00:03:17,680 --> 00:03:21,840
+key
+
+89
+00:03:18,480 --> 00:03:25,280
+key and the value so how can we do this
+
+90
+00:03:21,840 --> 00:03:27,599
+the vertex we cut the vertex is the key
+
+91
+00:03:25,280 --> 00:03:28,480
+how what's the vertex one two three four
+
+92
+00:03:27,599 --> 00:03:30,000
+yeah
+
+93
+00:03:28,480 --> 00:03:31,040
+one two
+
+94
+00:03:30,000 --> 00:03:33,200
+three
+
+95
+00:03:31,040 --> 00:03:35,760
+four i know what's the value this is the
+
+96
+00:03:33,200 --> 00:03:38,000
+vertex vertex
+
+97
+00:03:35,760 --> 00:03:40,400
+and then this is the
+
+98
+00:03:38,000 --> 00:03:43,120
+value values this is the key here and
+
+99
+00:03:40,400 --> 00:03:45,680
+the values will be a list of the
+
+100
+00:03:43,120 --> 00:03:48,560
+note vertex list of vertex
+
+101
+00:03:45,680 --> 00:03:51,280
+so one can go to do one
+
+102
+00:03:48,560 --> 00:03:54,000
+and one can go to two we are done two
+
+103
+00:03:51,280 --> 00:03:54,000
+can go to one
+
+104
+00:03:54,480 --> 00:03:57,439
+one
+
+105
+00:03:55,519 --> 00:03:59,280
+four three yeah one four three or one
+
+106
+00:03:57,439 --> 00:04:01,599
+three four yeah so a list of nodes you
+
+107
+00:03:59,280 --> 00:04:03,360
+can go to three can go to work
+
+108
+00:04:01,599 --> 00:04:05,519
+uh two
+
+109
+00:04:03,360 --> 00:04:08,640
+and four and that one
+
+110
+00:04:05,519 --> 00:04:10,879
+yeah okay so you see this is the node uh
+
+111
+00:04:08,640 --> 00:04:13,120
+additional hash map yeah the keys are
+
+112
+00:04:10,879 --> 00:04:17,360
+the nodes the vertex the values are list
+
+113
+00:04:13,120 --> 00:04:17,360
+of the vertex that it can go to okay
+
+114
+00:04:18,479 --> 00:04:21,680
+yeah so
+
+115
+00:04:20,160 --> 00:04:23,199
+so given this
+
+116
+00:04:21,680 --> 00:04:24,880
+given this data structure yeah we
+
+117
+00:04:23,199 --> 00:04:26,960
+already know how to build this the
+
+118
+00:04:24,880 --> 00:04:28,720
+adjacent matrix from the given edges a
+
+119
+00:04:26,960 --> 00:04:30,000
+list of edges and
+
+120
+00:04:28,720 --> 00:04:31,919
+how can we
+
+121
+00:04:30,000 --> 00:04:34,320
+find out if there's a path between the
+
+122
+00:04:31,919 --> 00:04:36,800
+target uh the start to the finish to the
+
+123
+00:04:34,320 --> 00:04:39,440
+end what can we do how many what kind of
+
+124
+00:04:36,800 --> 00:04:40,960
+argument are we can we use to traverse
+
+125
+00:04:39,440 --> 00:04:43,040
+the graph
+
+126
+00:04:40,960 --> 00:04:46,240
+traverses three three three is also
+
+127
+00:04:43,040 --> 00:04:48,400
+graph yeah remember we talked about
+
+128
+00:04:46,240 --> 00:04:51,120
+how do we travel a tree remember how
+
+129
+00:04:48,400 --> 00:04:53,440
+many kind of eggs
+
+130
+00:04:51,120 --> 00:04:55,440
+breakfast such well and
+
+131
+00:04:53,440 --> 00:04:57,680
+that's what this is the two we are we
+
+132
+00:04:55,440 --> 00:04:59,280
+have learned so far okay so today we're
+
+133
+00:04:57,680 --> 00:05:00,800
+going to use the breakfast
+
+134
+00:04:59,280 --> 00:05:02,720
+yeah yeah of course yeah i'm showing you
+
+135
+00:05:00,800 --> 00:05:05,520
+later
+
+136
+00:05:02,720 --> 00:05:08,000
+three is also a graph okay yeah three is
+
+137
+00:05:05,520 --> 00:05:12,240
+also graph so breast research can be
+
+138
+00:05:08,000 --> 00:05:13,600
+also used to a traversal the
+
+139
+00:05:12,240 --> 00:05:16,400
+graph okay
+
+140
+00:05:13,600 --> 00:05:19,680
+so if for example one i want to find out
+
+141
+00:05:16,400 --> 00:05:21,600
+if one can go to three right so i put
+
+142
+00:05:19,680 --> 00:05:24,400
+the one in the queue yeah but remember
+
+143
+00:05:21,600 --> 00:05:26,800
+the processor is the cube right we put a
+
+144
+00:05:24,400 --> 00:05:28,960
+q1 here
+
+145
+00:05:26,800 --> 00:05:31,280
+so we take one out what's the key of
+
+146
+00:05:28,960 --> 00:05:32,720
+that one what one can travel to two
+
+147
+00:05:31,280 --> 00:05:35,680
+right two
+
+148
+00:05:32,720 --> 00:05:38,880
+okay i put it to it so i take a two out
+
+149
+00:05:35,680 --> 00:05:40,320
+where you can travel to one three four
+
+150
+00:05:38,880 --> 00:05:43,039
+okay so do we need to visit the one
+
+151
+00:05:40,320 --> 00:05:46,240
+again no because we we already come from
+
+152
+00:05:43,039 --> 00:05:49,250
+that if we visit if we don't if we keep
+
+153
+00:05:46,240 --> 00:05:50,880
+visiting what happened
+
+154
+00:05:49,250 --> 00:05:53,039
+[Music]
+
+155
+00:05:50,880 --> 00:05:55,759
+it will never end right
+
+156
+00:05:53,039 --> 00:05:56,960
+because look i just cover one and if i
+
+157
+00:05:55,759 --> 00:05:59,280
+take i
+
+158
+00:05:56,960 --> 00:06:00,720
+i put a two and two and comma one and
+
+159
+00:05:59,280 --> 00:06:03,360
+then it will be a cycle right you will
+
+160
+00:06:00,720 --> 00:06:04,720
+do this forever right so we need to kind
+
+161
+00:06:03,360 --> 00:06:06,800
+of what kind of data structure to
+
+162
+00:06:04,720 --> 00:06:09,120
+remember the notes we have visited
+
+163
+00:06:06,800 --> 00:06:11,520
+hashtag or notebook yeah we need to do
+
+164
+00:06:09,120 --> 00:06:16,160
+this this is a special
+
+165
+00:06:11,520 --> 00:06:16,160
+headset all set yeah set notebook set
+
+166
+00:06:16,560 --> 00:06:21,919
+okay so we we can start from the
+
+167
+00:06:20,080 --> 00:06:23,919
+notes and then we keep doing this
+
+168
+00:06:21,919 --> 00:06:25,199
+breakfast search and here all the notes
+
+169
+00:06:23,919 --> 00:06:28,319
+has been
+
+170
+00:06:25,199 --> 00:06:30,880
+searched visited right and if we can't
+
+171
+00:06:28,319 --> 00:06:32,800
+find the note when we're expanding the
+
+172
+00:06:30,880 --> 00:06:34,800
+notes if we can't find the finish let
+
+173
+00:06:32,800 --> 00:06:36,560
+the end then
+
+174
+00:06:34,800 --> 00:06:38,880
+then it will turn first otherwise if we
+
+175
+00:06:36,560 --> 00:06:41,840
+visit it and we'll return to okay simple
+
+176
+00:06:38,880 --> 00:06:41,840
+as that let's do this
+
+177
+00:06:44,400 --> 00:06:46,880
+define
+
+178
+00:06:45,759 --> 00:06:49,599
+that uh
+
+179
+00:06:46,880 --> 00:06:51,840
+pass past exists
+
+180
+00:06:49,599 --> 00:06:53,599
+as it is
+
+181
+00:06:51,840 --> 00:06:56,319
+so we're given a
+
+182
+00:06:53,599 --> 00:06:58,800
+star star
+
+183
+00:06:56,319 --> 00:07:00,560
+and the end
+
+184
+00:06:58,800 --> 00:07:02,960
+and then we're given a list of edges
+
+185
+00:07:00,560 --> 00:07:04,720
+yeah as this
+
+186
+00:07:02,960 --> 00:07:07,280
+okay so first of all we want to keep
+
+187
+00:07:04,720 --> 00:07:09,440
+this address is the list of the staff to
+
+188
+00:07:07,280 --> 00:07:12,639
+end right so we want to build a graph so
+
+189
+00:07:09,440 --> 00:07:14,840
+let's say gua equals before
+
+190
+00:07:12,639 --> 00:07:18,000
+remember what's the key default
+
+191
+00:07:14,840 --> 00:07:19,280
+dictionary what's the key what key is
+
+192
+00:07:18,000 --> 00:07:22,319
+the notes and
+
+193
+00:07:19,280 --> 00:07:23,520
+value is the list of the integer right
+
+194
+00:07:22,319 --> 00:07:25,759
+yeah
+
+195
+00:07:23,520 --> 00:07:25,759
+list
+
+196
+00:07:26,080 --> 00:07:29,599
+okay
+
+197
+00:07:27,280 --> 00:07:32,960
+so uh
+
+198
+00:07:29,599 --> 00:07:34,560
+i think we also need uh uh do we need to
+
+199
+00:07:32,960 --> 00:07:37,520
+end
+
+200
+00:07:34,560 --> 00:07:39,520
+no we don't need the n okay
+
+201
+00:07:37,520 --> 00:07:41,919
+and it's the number of edges like one
+
+202
+00:07:39,520 --> 00:07:43,919
+two three okay that's fine then we we go
+
+203
+00:07:41,919 --> 00:07:46,160
+through these four for
+
+204
+00:07:43,919 --> 00:07:48,720
+s e
+
+205
+00:07:46,160 --> 00:07:49,840
+in edges right
+
+206
+00:07:48,720 --> 00:07:50,560
+so look
+
+207
+00:07:49,840 --> 00:07:52,160
+g
+
+208
+00:07:50,560 --> 00:07:55,039
+s
+
+209
+00:07:52,160 --> 00:07:56,840
+dot append what
+
+210
+00:07:55,039 --> 00:08:01,120
+open one
+
+211
+00:07:56,840 --> 00:08:03,039
+um look yes that is e right
+
+212
+00:08:01,120 --> 00:08:07,520
+remember this is five dimensional so we
+
+213
+00:08:03,039 --> 00:08:07,520
+need to also need a g e dot apparently
+
+214
+00:08:09,120 --> 00:08:13,680
+opera s yes
+
+215
+00:08:11,120 --> 00:08:16,720
+because s can go to e it also means e
+
+216
+00:08:13,680 --> 00:08:17,759
+can go to s there so i put it in in the
+
+217
+00:08:16,720 --> 00:08:20,000
+notes right
+
+218
+00:08:17,759 --> 00:08:22,960
+this is the remember the value is the
+
+219
+00:08:20,000 --> 00:08:26,400
+list of notes it can go to from s yeah
+
+220
+00:08:22,960 --> 00:08:28,400
+e s can go to e right e can go to s okay
+
+221
+00:08:26,400 --> 00:08:30,560
+so once we have this adjacent this is
+
+222
+00:08:28,400 --> 00:08:33,520
+called adjacent metric
+
+223
+00:08:30,560 --> 00:08:33,520
+adjacent metric
+
+224
+00:08:34,159 --> 00:08:38,000
+okay adjusting method and then now i
+
+225
+00:08:36,800 --> 00:08:40,240
+need to
+
+226
+00:08:38,000 --> 00:08:42,880
+do what perfect search right so i have a
+
+227
+00:08:40,240 --> 00:08:44,640
+queue how how do we implement a
+
+228
+00:08:42,880 --> 00:08:46,080
+performance search here using what kind
+
+229
+00:08:44,640 --> 00:08:48,720
+of data structure
+
+230
+00:08:46,080 --> 00:08:50,320
+dk what's the kill mean double ended
+
+231
+00:08:48,720 --> 00:08:54,279
+thank you and then first of all i need
+
+232
+00:08:50,320 --> 00:08:54,279
+to put what in it
+
+233
+00:08:55,110 --> 00:08:59,360
+[Music]
+
+234
+00:08:57,839 --> 00:09:01,519
+you can travel from a style you can
+
+235
+00:08:59,360 --> 00:09:03,200
+travel from the end it's the same right
+
+236
+00:09:01,519 --> 00:09:04,959
+you can start from the start or you can
+
+237
+00:09:03,200 --> 00:09:07,040
+start from the finish yeah it doesn't
+
+238
+00:09:04,959 --> 00:09:09,279
+matter okay let's start from the start
+
+239
+00:09:07,040 --> 00:09:12,160
+yeah start okay
+
+240
+00:09:09,279 --> 00:09:14,160
+i know remember we need a hash set to
+
+241
+00:09:12,160 --> 00:09:15,120
+remember the notes we have seen yeah so
+
+242
+00:09:14,160 --> 00:09:16,880
+sin
+
+243
+00:09:15,120 --> 00:09:19,200
+equals what
+
+244
+00:09:16,880 --> 00:09:21,760
+what kind of data structure
+
+245
+00:09:19,200 --> 00:09:24,480
+said yes that's set it says contains
+
+246
+00:09:21,760 --> 00:09:26,560
+only the unique numbers right
+
+247
+00:09:24,480 --> 00:09:28,959
+and i know how we need to tell it trevor
+
+248
+00:09:26,560 --> 00:09:30,220
+is why what
+
+249
+00:09:28,959 --> 00:09:32,880
+why what
+
+250
+00:09:30,220 --> 00:09:33,920
+[Music]
+
+251
+00:09:32,880 --> 00:09:34,959
+why what
+
+252
+00:09:33,920 --> 00:09:37,600
+why
+
+253
+00:09:34,959 --> 00:09:39,200
+we have something right yeah why we have
+
+254
+00:09:37,600 --> 00:09:42,480
+something in the queue
+
+255
+00:09:39,200 --> 00:09:43,279
+then we have to finish uh place in take
+
+256
+00:09:42,480 --> 00:09:45,519
+a
+
+257
+00:09:43,279 --> 00:09:46,480
+element from the queue right so we we do
+
+258
+00:09:45,519 --> 00:09:50,200
+what
+
+259
+00:09:46,480 --> 00:09:50,200
+what the top left
+
+260
+00:09:50,800 --> 00:09:56,160
+what's the problem we want to take a pop
+
+261
+00:09:53,040 --> 00:09:57,839
+uh take a q the front of the queue for
+
+262
+00:09:56,160 --> 00:09:59,440
+the element of the queue
+
+263
+00:09:57,839 --> 00:10:02,160
+what
+
+264
+00:09:59,440 --> 00:10:05,360
+huh let's let's call it c
+
+265
+00:10:02,160 --> 00:10:07,440
+c equals q dot pop left yeah yeah let's
+
+266
+00:10:05,360 --> 00:10:09,920
+call it the kill we have the q we take
+
+267
+00:10:07,440 --> 00:10:11,360
+our first element look we couldn't take
+
+268
+00:10:09,920 --> 00:10:14,240
+a one out and
+
+269
+00:10:11,360 --> 00:10:14,240
+what do we need to do
+
+270
+00:10:17,120 --> 00:10:20,560
+first of all we need to find out if c
+
+271
+00:10:18,959 --> 00:10:24,720
+has been visited before right from the
+
+272
+00:10:20,560 --> 00:10:27,360
+scene yeah yes c in scene
+
+273
+00:10:24,720 --> 00:10:30,480
+continue right we have visited this yeah
+
+274
+00:10:27,360 --> 00:10:30,480
+can supporters continue
+
+275
+00:10:30,560 --> 00:10:35,600
+continue to the next without going there
+
+276
+00:10:32,880 --> 00:10:37,839
+continue means that continue continue to
+
+277
+00:10:35,600 --> 00:10:40,560
+the next loop yeah
+
+278
+00:10:37,839 --> 00:10:42,800
+continue okay
+
+279
+00:10:40,560 --> 00:10:43,760
+if we put a break what happened
+
+280
+00:10:42,800 --> 00:10:46,959
+um
+
+281
+00:10:43,760 --> 00:10:49,839
+it will stop stop you will jump to leap
+
+282
+00:10:46,959 --> 00:10:50,959
+after the loop okay that's what let's be
+
+283
+00:10:49,839 --> 00:10:51,920
+different
+
+284
+00:10:50,959 --> 00:10:54,320
+then
+
+285
+00:10:51,920 --> 00:10:56,959
+if at this point we haven't visited the
+
+286
+00:10:54,320 --> 00:11:00,680
+sea so we want to v we want to mark it
+
+287
+00:10:56,959 --> 00:11:03,770
+as a visit so how to do this cinder
+
+288
+00:11:00,680 --> 00:11:03,770
+[Music]
+
+289
+00:11:04,240 --> 00:11:08,560
+and now i need to
+
+290
+00:11:06,079 --> 00:11:11,600
+now this is called we already see note
+
+291
+00:11:08,560 --> 00:11:13,360
+that we want to re expand all the nodes
+
+292
+00:11:11,600 --> 00:11:14,880
+it converted right
+
+293
+00:11:13,360 --> 00:11:15,760
+so for
+
+294
+00:11:14,880 --> 00:11:18,079
+i
+
+295
+00:11:15,760 --> 00:11:18,079
+in
+
+296
+00:11:18,480 --> 00:11:24,480
+graph c right
+
+297
+00:11:21,279 --> 00:11:29,200
+and then what do we do we want to what
+
+298
+00:11:24,480 --> 00:11:31,440
+um depend cue a pen yeah that's why
+
+299
+00:11:29,200 --> 00:11:32,880
+open i
+
+300
+00:11:31,440 --> 00:11:33,900
+okay so
+
+301
+00:11:32,880 --> 00:11:35,200
+wait
+
+302
+00:11:33,900 --> 00:11:36,079
+[Music]
+
+303
+00:11:35,200 --> 00:11:38,079
+we
+
+304
+00:11:36,079 --> 00:11:42,880
+haven't
+
+305
+00:11:38,079 --> 00:11:46,320
+so if if c in sync so before left c here
+
+306
+00:11:42,880 --> 00:11:47,120
+we need to check if c equal equals n
+
+307
+00:11:46,320 --> 00:11:49,920
+right
+
+308
+00:11:47,120 --> 00:11:52,720
+because we already if this is the end
+
+309
+00:11:49,920 --> 00:11:55,200
+what do we do return one
+
+310
+00:11:52,720 --> 00:11:57,519
+reason true because we otherwise if this
+
+311
+00:11:55,200 --> 00:11:59,839
+finish what happened what what do we
+
+312
+00:11:57,519 --> 00:12:01,170
+mean here return one
+
+313
+00:11:59,839 --> 00:12:03,200
+what does it mean
+
+314
+00:12:01,170 --> 00:12:04,480
+[Music]
+
+315
+00:12:03,200 --> 00:12:06,800
+return
+
+316
+00:12:04,480 --> 00:12:10,560
+first it means that all the notes has
+
+317
+00:12:06,800 --> 00:12:12,639
+been visited but we can't find the n
+
+318
+00:12:10,560 --> 00:12:13,519
+right so that's the breakfast assume
+
+319
+00:12:12,639 --> 00:12:15,200
+right
+
+320
+00:12:13,519 --> 00:12:17,530
+yeah
+
+321
+00:12:15,200 --> 00:12:18,800
+okay does it make sense
+
+322
+00:12:17,530 --> 00:12:20,560
+[Music]
+
+323
+00:12:18,800 --> 00:12:22,720
+okay
+
+324
+00:12:20,560 --> 00:12:24,480
+okay so i'm going to erase this bit okay
+
+325
+00:12:22,720 --> 00:12:26,240
+so can you write this this is the most
+
+326
+00:12:24,480 --> 00:12:27,200
+important part okay so what do we do
+
+327
+00:12:26,240 --> 00:12:29,440
+here
+
+328
+00:12:27,200 --> 00:12:29,440
+um
+
+329
+00:12:32,240 --> 00:12:36,399
+yeah
+
+330
+00:12:34,399 --> 00:12:38,079
+yeah
+
+331
+00:12:36,399 --> 00:12:42,130
+four something for what
+
+332
+00:12:38,079 --> 00:12:44,000
+i yeah for i or anything like yeah
+
+333
+00:12:42,130 --> 00:12:47,440
+[Music]
+
+334
+00:12:44,000 --> 00:12:49,519
+g c what does gc mean
+
+335
+00:12:47,440 --> 00:12:50,880
+what does gc mean
+
+336
+00:12:49,519 --> 00:12:52,959
+it means
+
+337
+00:12:50,880 --> 00:12:55,200
+what
+
+338
+00:12:52,959 --> 00:12:57,760
+what does it mean
+
+339
+00:12:55,200 --> 00:13:00,880
+g what's g mean remember graph g c
+
+340
+00:12:57,760 --> 00:13:03,040
+what's g mean it means
+
+341
+00:13:00,880 --> 00:13:05,040
+what's i
+
+342
+00:13:03,040 --> 00:13:08,320
+i is the nodes
+
+343
+00:13:05,040 --> 00:13:10,160
+of nodes of what c can
+
+344
+00:13:08,320 --> 00:13:13,040
+what
+
+345
+00:13:10,160 --> 00:13:15,120
+what does this mean g s upon e g e upon
+
+346
+00:13:13,040 --> 00:13:15,120
+s
+
+347
+00:13:16,000 --> 00:13:21,040
+from s to e or e to s so what's the gc
+
+348
+00:13:19,440 --> 00:13:24,000
+mean
+
+349
+00:13:21,040 --> 00:13:26,480
+i can go to c yeah yeah all the nodes
+
+350
+00:13:24,000 --> 00:13:28,639
+can this is all the nodes c can go to
+
+351
+00:13:26,480 --> 00:13:30,399
+right and then we have nodes i so what
+
+352
+00:13:28,639 --> 00:13:32,240
+do we need to do
+
+353
+00:13:30,399 --> 00:13:34,000
+um
+
+354
+00:13:32,240 --> 00:13:36,160
+a pen yeah we want to push it into the
+
+355
+00:13:34,000 --> 00:13:38,480
+cube remember for the first research we
+
+356
+00:13:36,160 --> 00:13:40,480
+take the front of the queue
+
+357
+00:13:38,480 --> 00:13:44,000
+take the element from the front of q
+
+358
+00:13:40,480 --> 00:13:47,440
+take it out process it check if it's the
+
+359
+00:13:44,000 --> 00:13:49,920
+target element which is the end if not
+
+360
+00:13:47,440 --> 00:13:50,720
+if it's already visited or continue if
+
+361
+00:13:49,920 --> 00:13:53,040
+not
+
+362
+00:13:50,720 --> 00:13:55,199
+we explain the notes
+
+363
+00:13:53,040 --> 00:13:58,079
+if we expand the notes you can visit and
+
+364
+00:13:55,199 --> 00:13:59,360
+put it uh append on the key remember
+
+365
+00:13:58,079 --> 00:14:01,230
+yeah remember
+
+366
+00:13:59,360 --> 00:14:04,330
+what's by versus
+
+367
+00:14:01,230 --> 00:14:04,330
+[Music]
+
+368
+00:14:09,279 --> 00:14:11,920
+but
+
+369
+00:14:10,160 --> 00:14:13,760
+but the graph is the same yeah if you
+
+370
+00:14:11,920 --> 00:14:16,480
+look if it's a graph
+
+371
+00:14:13,760 --> 00:14:18,639
+it's the same yeah it's the same it's
+
+372
+00:14:16,480 --> 00:14:21,279
+the same right yeah so you start from
+
+373
+00:14:18,639 --> 00:14:23,920
+here so what's next you go to expand is
+
+374
+00:14:21,279 --> 00:14:25,120
+here here right and you take the tree
+
+375
+00:14:23,920 --> 00:14:26,880
+here because
+
+376
+00:14:25,120 --> 00:14:29,440
+yeah yeah and then the next one is you
+
+377
+00:14:26,880 --> 00:14:30,800
+take this and explain its kids here here
+
+378
+00:14:29,440 --> 00:14:32,240
+but you don't explain this one because
+
+379
+00:14:30,800 --> 00:14:34,560
+this one has been
+
+380
+00:14:32,240 --> 00:14:36,959
+visited before but why we don't have
+
+381
+00:14:34,560 --> 00:14:38,160
+these in the tree because in the tree
+
+382
+00:14:36,959 --> 00:14:40,240
+you you don't
+
+383
+00:14:38,160 --> 00:14:41,120
+you don't visit the parent again right
+
+384
+00:14:40,240 --> 00:14:42,959
+yeah
+
+385
+00:14:41,120 --> 00:14:45,279
+so we don't have that problem using the
+
+386
+00:14:42,959 --> 00:14:47,680
+set but in the graph you don't know if
+
+387
+00:14:45,279 --> 00:14:50,320
+that's parent right right so we need to
+
+388
+00:14:47,680 --> 00:14:52,639
+use this it doesn't make sense
+
+389
+00:14:50,320 --> 00:14:55,920
+what's the time compressed
+
+390
+00:14:52,639 --> 00:14:56,839
+oh n what's that what's n
+
+391
+00:14:55,920 --> 00:15:00,000
+number
+
+392
+00:14:56,839 --> 00:15:03,600
+of the number of nodes in the graph in
+
+393
+00:15:00,000 --> 00:15:05,839
+the vertex what's the space somewhere
+
+394
+00:15:03,600 --> 00:15:05,839
+um
+
+395
+00:15:06,000 --> 00:15:09,360
+yeah because we are using
+
+396
+00:15:10,000 --> 00:15:15,279
+dq and set yeah and the graph here graph
+
+397
+00:15:13,839 --> 00:15:17,680
+we have lots of this
+
+398
+00:15:15,279 --> 00:15:21,079
+place okay thanks thank you that's it
+
+399
+00:15:17,680 --> 00:15:21,079
+good job bye
+

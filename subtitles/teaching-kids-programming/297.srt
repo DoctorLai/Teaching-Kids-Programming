@@ -1,0 +1,784 @@
+1
+00:00:05,440 --> 00:00:08,800
+okay so today we're going to talk about
+
+2
+00:00:06,960 --> 00:00:11,120
+a simple problem which is called reshape
+
+3
+00:00:08,800 --> 00:00:12,880
+the metric okay so what's magic what
+
+4
+00:00:11,120 --> 00:00:15,759
+metric
+
+5
+00:00:12,880 --> 00:00:17,440
+uh let's say we're given a list of a way
+
+6
+00:00:15,759 --> 00:00:19,840
+okay one dimensional array right and
+
+7
+00:00:17,440 --> 00:00:21,920
+right dimension all right so it's a list
+
+8
+00:00:19,840 --> 00:00:24,800
+so let's say array equals
+
+9
+00:00:21,920 --> 00:00:26,480
+one two three four alright listen to me
+
+10
+00:00:24,800 --> 00:00:28,640
+write this to me look
+
+11
+00:00:26,480 --> 00:00:31,119
+at this four elements yeah and if you
+
+12
+00:00:28,640 --> 00:00:32,399
+want to if i tell you that i want to
+
+13
+00:00:31,119 --> 00:00:35,120
+reshape it
+
+14
+00:00:32,399 --> 00:00:38,000
+reshape it to two times two two rows two
+
+15
+00:00:35,120 --> 00:00:40,239
+columns so what does it become so
+
+16
+00:00:38,000 --> 00:00:42,960
+well what if it you want to shape it
+
+17
+00:00:40,239 --> 00:00:45,120
+like four times one
+
+18
+00:00:42,960 --> 00:00:47,360
+good job look two times two is like that
+
+19
+00:00:45,120 --> 00:00:49,920
+one two you always start feeling the
+
+20
+00:00:47,360 --> 00:00:53,120
+rose there one two
+
+21
+00:00:49,920 --> 00:00:55,039
+three four yeah okay so this is yeah so
+
+22
+00:00:53,120 --> 00:00:56,640
+yeah i know you mean four times one what
+
+23
+00:00:55,039 --> 00:00:59,039
+do you say four times one so what does
+
+24
+00:00:56,640 --> 00:01:02,320
+it come to come
+
+25
+00:00:59,039 --> 00:01:04,559
+ah one two three four easy
+
+26
+00:01:02,320 --> 00:01:06,560
+yeah so each one is a
+
+27
+00:01:04,559 --> 00:01:08,240
+it's a two dimensional array how about
+
+28
+00:01:06,560 --> 00:01:10,000
+one times four
+
+29
+00:01:08,240 --> 00:01:11,439
+nine it will be the same it'll be the
+
+30
+00:01:10,000 --> 00:01:13,680
+same
+
+31
+00:01:11,439 --> 00:01:15,280
+yeah yeah yeah
+
+32
+00:01:13,680 --> 00:01:16,880
+actually it will be different because
+
+33
+00:01:15,280 --> 00:01:18,479
+this is one dimension
+
+34
+00:01:16,880 --> 00:01:19,600
+if we convert it to one time slot you'll
+
+35
+00:01:18,479 --> 00:01:22,159
+be like that
+
+36
+00:01:19,600 --> 00:01:23,680
+another list yeah
+
+37
+00:01:22,159 --> 00:01:24,560
+okay let's just start to be different
+
+38
+00:01:23,680 --> 00:01:25,920
+okay
+
+39
+00:01:24,560 --> 00:01:27,280
+so however if i tell you i want to
+
+40
+00:01:25,920 --> 00:01:30,240
+convert this to
+
+41
+00:01:27,280 --> 00:01:33,439
+two times the three is it possible
+
+42
+00:01:30,240 --> 00:01:35,280
+two times no why is that because it
+
+43
+00:01:33,439 --> 00:01:38,000
+means four
+
+44
+00:01:35,280 --> 00:01:39,920
+yeah because look we only have five
+
+45
+00:01:38,000 --> 00:01:42,240
+six we're done whether we have four
+
+46
+00:01:39,920 --> 00:01:44,399
+elements but now the top is six evidence
+
+47
+00:01:42,240 --> 00:01:46,880
+so that's not possible so we do ten
+
+48
+00:01:44,399 --> 00:01:48,560
+scratch empty list
+
+49
+00:01:46,880 --> 00:01:49,840
+that's it yeah
+
+50
+00:01:48,560 --> 00:01:51,600
+so
+
+51
+00:01:49,840 --> 00:01:53,119
+first of all first question is how do we
+
+52
+00:01:51,600 --> 00:01:54,960
+allocate a
+
+53
+00:01:53,119 --> 00:01:56,719
+scratch
+
+54
+00:01:54,960 --> 00:01:59,200
+how do we allocate a three times two
+
+55
+00:01:56,719 --> 00:02:01,040
+metric with zero with zero
+
+56
+00:01:59,200 --> 00:02:03,119
+how do we how to allocate look three
+
+57
+00:02:01,040 --> 00:02:05,360
+times two three rows two columns yeah
+
+58
+00:02:03,119 --> 00:02:07,520
+three rows two columns so it will be
+
+59
+00:02:05,360 --> 00:02:10,080
+zero zero
+
+60
+00:02:07,520 --> 00:02:11,520
+zero zero how do we allocate these they
+
+61
+00:02:10,080 --> 00:02:13,200
+look like eyes
+
+62
+00:02:11,520 --> 00:02:15,440
+how do we look accurately a list of
+
+63
+00:02:13,200 --> 00:02:17,680
+lists yeah a list of these which has a
+
+64
+00:02:15,440 --> 00:02:19,280
+list which has three read these sublets
+
+65
+00:02:17,680 --> 00:02:21,599
+and each of these has
+
+66
+00:02:19,280 --> 00:02:22,400
+two elements there's three rows two
+
+67
+00:02:21,599 --> 00:02:24,560
+columns
+
+68
+00:02:22,400 --> 00:02:27,599
+so look if the target then let's say the
+
+69
+00:02:24,560 --> 00:02:29,440
+target equals one
+
+70
+00:02:27,599 --> 00:02:32,080
+zero right
+
+71
+00:02:29,440 --> 00:02:34,560
+for underscore means that we don't
+
+72
+00:02:32,080 --> 00:02:36,080
+we don't need to use this variable in
+
+73
+00:02:34,560 --> 00:02:38,000
+range
+
+74
+00:02:36,080 --> 00:02:39,680
+inventory how many how many elements are
+
+75
+00:02:38,000 --> 00:02:42,640
+these
+
+76
+00:02:39,680 --> 00:02:44,879
+three how many elements of each service
+
+77
+00:02:42,640 --> 00:02:47,200
+two two yeah so this is the columns
+
+78
+00:02:44,879 --> 00:02:49,599
+first anime you need to put in columns
+
+79
+00:02:47,200 --> 00:02:51,120
+and then this is a service yeah and then
+
+80
+00:02:49,599 --> 00:02:54,480
+four
+
+81
+00:02:51,120 --> 00:02:56,080
+in range invented how many laws
+
+82
+00:02:54,480 --> 00:02:57,120
+how many rows
+
+83
+00:02:56,080 --> 00:02:59,360
+uh
+
+84
+00:02:57,120 --> 00:03:01,840
+three zeros yeah that's the way we
+
+85
+00:02:59,360 --> 00:03:03,680
+allocate a two dimensional
+
+86
+00:03:01,840 --> 00:03:05,840
+uh two dimensional
+
+87
+00:03:03,680 --> 00:03:08,640
+in python okay which is this if we
+
+88
+00:03:05,840 --> 00:03:10,400
+replace this with the r and with the c
+
+89
+00:03:08,640 --> 00:03:11,760
+and this is r this is the way to
+
+90
+00:03:10,400 --> 00:03:14,080
+allocate a
+
+91
+00:03:11,760 --> 00:03:16,400
+two dimensional which is r times c
+
+92
+00:03:14,080 --> 00:03:19,360
+metric in person okay and then we can
+
+93
+00:03:16,400 --> 00:03:21,760
+start following the list one by one and
+
+94
+00:03:19,360 --> 00:03:24,159
+start feeling it in in you know one by
+
+95
+00:03:21,760 --> 00:03:26,480
+one in the world yeah look look
+
+96
+00:03:24,159 --> 00:03:27,760
+one two three four how how do we how do
+
+97
+00:03:26,480 --> 00:03:31,680
+we
+
+98
+00:03:27,760 --> 00:03:32,560
+allocate how do we feel it in here
+
+99
+00:03:31,680 --> 00:03:35,760
+yeah
+
+100
+00:03:32,560 --> 00:03:37,840
+uh yeah like look at it
+
+101
+00:03:35,760 --> 00:03:40,560
+so this is the animal in the face so
+
+102
+00:03:37,840 --> 00:03:41,519
+look one we put it here
+
+103
+00:03:40,560 --> 00:03:42,480
+two
+
+104
+00:03:41,519 --> 00:03:43,599
+two
+
+105
+00:03:42,480 --> 00:03:46,400
+three
+
+106
+00:03:43,599 --> 00:03:48,080
+four that's it that's the angle okay all
+
+107
+00:03:46,400 --> 00:03:50,319
+right so we write it and you'll be easy
+
+108
+00:03:48,080 --> 00:03:50,319
+quick
+
+109
+00:03:50,799 --> 00:03:54,080
+define
+
+110
+00:03:51,840 --> 00:03:56,080
+the keyword we shade
+
+111
+00:03:54,080 --> 00:03:56,959
+we want to reshape the first dimensional
+
+112
+00:03:56,080 --> 00:03:58,480
+metric
+
+113
+00:03:56,959 --> 00:04:00,480
+array to the
+
+114
+00:03:58,480 --> 00:04:01,760
+metric right we turn that let's say the
+
+115
+00:04:00,480 --> 00:04:04,159
+array a
+
+116
+00:04:01,760 --> 00:04:07,120
+we want to reshape it into our
+
+117
+00:04:04,159 --> 00:04:08,000
+arrow c columns
+
+118
+00:04:07,120 --> 00:04:09,840
+okay
+
+119
+00:04:08,000 --> 00:04:12,080
+so first single
+
+120
+00:04:09,840 --> 00:04:15,040
+first thing we need to check is
+
+121
+00:04:12,080 --> 00:04:16,000
+can we do this so right so let's
+
+122
+00:04:15,040 --> 00:04:17,759
+if
+
+123
+00:04:16,000 --> 00:04:20,560
+length a
+
+124
+00:04:17,759 --> 00:04:22,400
+not equal not equal one
+
+125
+00:04:20,560 --> 00:04:24,720
+let's say no equal one
+
+126
+00:04:22,400 --> 00:04:24,720
+length
+
+127
+00:04:25,759 --> 00:04:29,360
+this is
+
+128
+00:04:26,639 --> 00:04:31,360
+length three it's four do that times
+
+129
+00:04:29,360 --> 00:04:34,080
+tables
+
+130
+00:04:31,360 --> 00:04:36,720
+i is two c is two so how can we check if
+
+131
+00:04:34,080 --> 00:04:39,440
+it's equal if it's uh possible to do it
+
+132
+00:04:36,720 --> 00:04:41,120
+or not to check for times tables so r
+
+133
+00:04:39,440 --> 00:04:44,639
+times what
+
+134
+00:04:41,120 --> 00:04:46,400
+c right if it's not equal then return
+
+135
+00:04:44,639 --> 00:04:48,320
+empty right
+
+136
+00:04:46,400 --> 00:04:50,320
+okay and then next next we what should
+
+137
+00:04:48,320 --> 00:04:51,600
+we do we should create an answer
+
+138
+00:04:50,320 --> 00:04:54,000
+all right right
+
+139
+00:04:51,600 --> 00:04:58,400
+answer equals
+
+140
+00:04:54,000 --> 00:05:00,080
+zero for underscore in range one c or r
+
+141
+00:04:58,400 --> 00:05:01,840
+come on tell me
+
+142
+00:05:00,080 --> 00:05:03,120
+when you ask
+
+143
+00:05:01,840 --> 00:05:05,360
+for
+
+144
+00:05:03,120 --> 00:05:07,360
+underscore in range can you tell me what
+
+145
+00:05:05,360 --> 00:05:10,960
+should i put here
+
+146
+00:05:07,360 --> 00:05:12,880
+exactly here c c or r or c r or rc come
+
+147
+00:05:10,960 --> 00:05:15,520
+on
+
+148
+00:05:12,880 --> 00:05:18,880
+cr yes yeah first of all you see and
+
+149
+00:05:15,520 --> 00:05:21,440
+then r i found your nails yeah
+
+150
+00:05:18,880 --> 00:05:23,840
+okay and then we start from we started
+
+151
+00:05:21,440 --> 00:05:26,160
+feeling that right let's say the index i
+
+152
+00:05:23,840 --> 00:05:29,039
+equals yellow right and then we start to
+
+153
+00:05:26,160 --> 00:05:30,880
+loop into the start to iterate over this
+
+154
+00:05:29,039 --> 00:05:32,639
+answer
+
+155
+00:05:30,880 --> 00:05:34,639
+we start to iterate over this answer
+
+156
+00:05:32,639 --> 00:05:38,479
+metric right and then to fill in the
+
+157
+00:05:34,639 --> 00:05:40,560
+values so for r uh let's say for
+
+158
+00:05:38,479 --> 00:05:42,639
+we have used r okay let's let's do it
+
+159
+00:05:40,560 --> 00:05:44,160
+for
+
+160
+00:05:42,639 --> 00:05:45,600
+r okay
+
+161
+00:05:44,160 --> 00:05:47,520
+in range
+
+162
+00:05:45,600 --> 00:05:49,039
+ah
+
+163
+00:05:47,520 --> 00:05:49,919
+and then
+
+164
+00:05:49,039 --> 00:05:50,960
+for
+
+165
+00:05:49,919 --> 00:05:53,039
+cc
+
+166
+00:05:50,960 --> 00:05:55,759
+in range c i will go through each
+
+167
+00:05:53,039 --> 00:05:57,680
+element in the new
+
+168
+00:05:55,759 --> 00:05:59,280
+metric right
+
+169
+00:05:57,680 --> 00:06:02,479
+and then
+
+170
+00:05:59,280 --> 00:06:04,800
+answer we start to fill in the number r
+
+171
+00:06:02,479 --> 00:06:06,960
+c c equals what
+
+172
+00:06:04,800 --> 00:06:10,240
+equals one now this index is i so
+
+173
+00:06:06,960 --> 00:06:12,720
+where's the original a a1
+
+174
+00:06:10,240 --> 00:06:12,720
+a1
+
+175
+00:06:13,199 --> 00:06:17,120
+and then what should we do with the i if
+
+176
+00:06:14,960 --> 00:06:18,560
+we fill it what do we do
+
+177
+00:06:17,120 --> 00:06:20,639
+we should
+
+178
+00:06:18,560 --> 00:06:24,160
+move it to
+
+179
+00:06:20,639 --> 00:06:28,479
+move it to next so a plus equal one
+
+180
+00:06:24,160 --> 00:06:29,360
+that's not a that's i okay i plus equal
+
+181
+00:06:28,479 --> 00:06:32,160
+one
+
+182
+00:06:29,360 --> 00:06:35,160
+okay and then return
+
+183
+00:06:32,160 --> 00:06:35,160
+after
+
+184
+00:06:43,240 --> 00:06:46,619
+[Music]
+
+185
+00:07:03,120 --> 00:07:09,280
+but you didn't say a n is a time c all
+
+186
+00:07:06,639 --> 00:07:15,800
+right because i need to know what's n i
+
+187
+00:07:09,280 --> 00:07:15,800
+r n is okay why but you know what is
+
+188
+00:07:17,200 --> 00:07:20,260
+[Music]
+
+189
+00:07:26,560 --> 00:07:31,580
+um
+
+190
+00:07:28,520 --> 00:07:31,580
+[Music]
+
+191
+00:07:33,680 --> 00:07:37,440
+come on
+
+192
+00:07:35,680 --> 00:07:40,639
+it's very obvious hi all right we're
+
+193
+00:07:37,440 --> 00:07:42,160
+done that's it for today good job bye
+
+194
+00:07:40,639 --> 00:07:45,479
+bye bye
+
+195
+00:07:42,160 --> 00:07:45,479
+bye bye
+
+196
+00:07:46,319 --> 00:07:49,039
+okay that's it
+
