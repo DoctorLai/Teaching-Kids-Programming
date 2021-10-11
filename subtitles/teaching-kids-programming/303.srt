@@ -1,0 +1,3316 @@
+1
+00:00:00,080 --> 00:00:05,359
+hello hello
+
+2
+00:00:01,839 --> 00:00:08,480
+hello mr alright yes okay so today we
+
+3
+00:00:05,359 --> 00:00:10,880
+talk about k and n
+
+4
+00:00:08,480 --> 00:00:14,880
+k and n
+
+5
+00:00:10,880 --> 00:00:15,920
+okay k a number and nearest neighbors
+
+6
+00:00:14,880 --> 00:00:19,039
+can you put that down it's quite
+
+7
+00:00:15,920 --> 00:00:20,240
+dangerous nearest name neighbors
+
+8
+00:00:19,039 --> 00:00:21,240
+mirrors
+
+9
+00:00:20,240 --> 00:00:22,720
+neighbors
+
+10
+00:00:21,240 --> 00:00:24,080
+[Music]
+
+11
+00:00:22,720 --> 00:00:26,960
+neighbors
+
+12
+00:00:24,080 --> 00:00:29,519
+so what does it mean what does it mean
+
+13
+00:00:26,960 --> 00:00:31,279
+10 so it's like it's a machine learning
+
+14
+00:00:29,519 --> 00:00:32,320
+you know have you heard the word machine
+
+15
+00:00:31,279 --> 00:00:34,719
+learning
+
+16
+00:00:32,320 --> 00:00:37,200
+computer can land right
+
+17
+00:00:34,719 --> 00:00:38,879
+yeah predict make a prediction
+
+18
+00:00:37,200 --> 00:00:41,680
+we ask computer to
+
+19
+00:00:38,879 --> 00:00:43,120
+make predictions to learn from data
+
+20
+00:00:41,680 --> 00:00:47,039
+learn
+
+21
+00:00:43,120 --> 00:00:48,800
+from data yeah data
+
+22
+00:00:47,039 --> 00:00:51,360
+okay or sometimes we call it data
+
+23
+00:00:48,800 --> 00:00:52,879
+training set yeah so what does this mean
+
+24
+00:00:51,360 --> 00:00:54,399
+so i'll give you an example so we have
+
+25
+00:00:52,879 --> 00:00:55,680
+we have a few
+
+26
+00:00:54,399 --> 00:00:59,039
+uh
+
+27
+00:00:55,680 --> 00:01:01,120
+you know we know already uh existing
+
+28
+00:00:59,039 --> 00:01:03,440
+data and then if
+
+29
+00:01:01,120 --> 00:01:04,640
+you're given a new input what would be
+
+30
+00:01:03,440 --> 00:01:07,760
+the output
+
+31
+00:01:04,640 --> 00:01:08,799
+if this data if this fx
+
+32
+00:01:07,760 --> 00:01:09,600
+this look
+
+33
+00:01:08,799 --> 00:01:11,680
+okay
+
+34
+00:01:09,600 --> 00:01:14,000
+the function that takes the input x can
+
+35
+00:01:11,680 --> 00:01:16,320
+you put it down please question yeah
+
+36
+00:01:14,000 --> 00:01:18,240
+and then it generates the output yeah
+
+37
+00:01:16,320 --> 00:01:20,560
+output right output
+
+38
+00:01:18,240 --> 00:01:23,040
+but we don't know what's fx it's a very
+
+39
+00:01:20,560 --> 00:01:25,040
+complex model for example right
+
+40
+00:01:23,040 --> 00:01:26,880
+yeah yeah
+
+41
+00:01:25,040 --> 00:01:29,280
+for example like uh
+
+42
+00:01:26,880 --> 00:01:30,960
+it's very very complex for example the
+
+43
+00:01:29,280 --> 00:01:33,360
+computer predict the weather what's the
+
+44
+00:01:30,960 --> 00:01:36,240
+weather going to be like tomorrow
+
+45
+00:01:33,360 --> 00:01:38,240
+right it depends on lots of factors
+
+46
+00:01:36,240 --> 00:01:39,200
+right the temperature
+
+47
+00:01:38,240 --> 00:01:40,560
+the the
+
+48
+00:01:39,200 --> 00:01:41,680
+seasons
+
+49
+00:01:40,560 --> 00:01:44,799
+right
+
+50
+00:01:41,680 --> 00:01:45,600
+the the locations right
+
+51
+00:01:44,799 --> 00:01:47,920
+yeah
+
+52
+00:01:45,600 --> 00:01:49,439
+and the humidity yeah immediately yeah
+
+53
+00:01:47,920 --> 00:01:51,520
+and what's the going to what's the
+
+54
+00:01:49,439 --> 00:01:52,399
+weather going to be like
+
+55
+00:01:51,520 --> 00:01:54,960
+so
+
+56
+00:01:52,399 --> 00:01:57,280
+we don't know that the model or we can't
+
+57
+00:01:54,960 --> 00:02:00,000
+express this model in mathematics like
+
+58
+00:01:57,280 --> 00:02:02,479
+simple mathematic equation right but
+
+59
+00:02:00,000 --> 00:02:05,439
+so but we know already from his uh
+
+60
+00:02:02,479 --> 00:02:08,319
+history data yeah we know already it
+
+61
+00:02:05,439 --> 00:02:10,160
+happens before right
+
+62
+00:02:08,319 --> 00:02:12,080
+all right so so for example we have at
+
+63
+00:02:10,160 --> 00:02:14,800
+least input right
+
+64
+00:02:12,080 --> 00:02:16,080
+so maybe like like input
+
+65
+00:02:14,800 --> 00:02:18,000
+uh
+
+66
+00:02:16,080 --> 00:02:20,840
+temperature
+
+67
+00:02:18,000 --> 00:02:24,400
+temperature yeah
+
+68
+00:02:20,840 --> 00:02:27,280
+and what else
+
+69
+00:02:24,400 --> 00:02:29,280
+what that temperature like humidity
+
+70
+00:02:27,280 --> 00:02:31,840
+humidity yeah is it how do you spell
+
+71
+00:02:29,280 --> 00:02:32,800
+this one yeah i don't know what do you
+
+72
+00:02:31,840 --> 00:02:33,599
+mean
+
+73
+00:02:32,800 --> 00:02:37,280
+you know
+
+74
+00:02:33,599 --> 00:02:38,720
+the how wet really the
+
+75
+00:02:37,280 --> 00:02:39,920
+air right
+
+76
+00:02:38,720 --> 00:02:42,160
+something like that
+
+77
+00:02:39,920 --> 00:02:43,440
+and what location
+
+78
+00:02:42,160 --> 00:02:44,480
+yeah
+
+79
+00:02:43,440 --> 00:02:46,239
+yeah
+
+80
+00:02:44,480 --> 00:02:47,440
+location
+
+81
+00:02:46,239 --> 00:02:50,480
+location
+
+82
+00:02:47,440 --> 00:02:52,239
+so you we we have uh we have observed
+
+83
+00:02:50,480 --> 00:02:54,239
+this kind of data in the past right so
+
+84
+00:02:52,239 --> 00:02:55,120
+something like 25 degree
+
+85
+00:02:54,239 --> 00:02:57,599
+you know
+
+86
+00:02:55,120 --> 00:03:00,400
+you know maybe 30 percent yeah and the
+
+87
+00:02:57,599 --> 00:03:02,159
+weather will be sunny for example sunny
+
+88
+00:03:00,400 --> 00:03:04,239
+and then something like
+
+89
+00:03:02,159 --> 00:03:05,920
+something like it will be raining right
+
+90
+00:03:04,239 --> 00:03:07,040
+raining
+
+91
+00:03:05,920 --> 00:03:09,519
+okay
+
+92
+00:03:07,040 --> 00:03:11,519
+so these datas are we collected
+
+93
+00:03:09,519 --> 00:03:13,440
+we already have this data
+
+94
+00:03:11,519 --> 00:03:16,239
+right and we want to build a very
+
+95
+00:03:13,440 --> 00:03:20,720
+complex model yeah to given
+
+96
+00:03:16,239 --> 00:03:20,720
+uh tomorrow so x could be the
+
+97
+00:03:20,879 --> 00:03:25,599
+yeah x could be the
+
+98
+00:03:22,959 --> 00:03:27,360
+input right so we can
+
+99
+00:03:25,599 --> 00:03:28,959
+we know the location temperature
+
+100
+00:03:27,360 --> 00:03:30,400
+humidity for now and we want to predict
+
+101
+00:03:28,959 --> 00:03:31,280
+the weather tomorrow
+
+102
+00:03:30,400 --> 00:03:33,360
+right
+
+103
+00:03:31,280 --> 00:03:35,599
+and you'll be very complex and then we
+
+104
+00:03:33,360 --> 00:03:36,720
+ask computer to predict let's make a
+
+105
+00:03:35,599 --> 00:03:39,360
+prediction
+
+106
+00:03:36,720 --> 00:03:42,080
+based on what we know so far let's call
+
+107
+00:03:39,360 --> 00:03:43,519
+machine learning right so the data the
+
+108
+00:03:42,080 --> 00:03:47,120
+pc the
+
+109
+00:03:43,519 --> 00:03:47,310
+computer will work out right work out
+
+110
+00:03:47,120 --> 00:03:48,720
+the
+
+111
+00:03:47,310 --> 00:03:50,640
+[Music]
+
+112
+00:03:48,720 --> 00:03:52,640
+likelihood of the different kind of
+
+113
+00:03:50,640 --> 00:03:55,920
+weather based on this data
+
+114
+00:03:52,640 --> 00:03:57,439
+okay basic kind of machine learning
+
+115
+00:03:55,920 --> 00:04:00,799
+make sense
+
+116
+00:03:57,439 --> 00:04:02,879
+yeah okay so another example
+
+117
+00:04:00,799 --> 00:04:04,640
+another example could be it could be
+
+118
+00:04:02,879 --> 00:04:06,319
+simpler
+
+119
+00:04:04,640 --> 00:04:09,120
+okay so i have a
+
+120
+00:04:06,319 --> 00:04:11,040
+i have two two shapes on the only one
+
+121
+00:04:09,120 --> 00:04:13,120
+space
+
+122
+00:04:11,040 --> 00:04:14,799
+triangle
+
+123
+00:04:13,120 --> 00:04:17,919
+square
+
+124
+00:04:14,799 --> 00:04:19,199
+triangle triangles square
+
+125
+00:04:17,919 --> 00:04:20,400
+square
+
+126
+00:04:19,199 --> 00:04:22,639
+square
+
+127
+00:04:20,400 --> 00:04:25,000
+triangles and squares yeah that's true
+
+128
+00:04:22,639 --> 00:04:28,639
+triangles square
+
+129
+00:04:25,000 --> 00:04:29,520
+this yes okay
+
+130
+00:04:28,639 --> 00:04:31,360
+so
+
+131
+00:04:29,520 --> 00:04:33,600
+can you tell me
+
+132
+00:04:31,360 --> 00:04:36,960
+can you tell me
+
+133
+00:04:33,600 --> 00:04:39,520
+so i have a point here
+
+134
+00:04:36,960 --> 00:04:41,050
+so is it triangle is it
+
+135
+00:04:39,520 --> 00:04:42,240
+squared
+
+136
+00:04:41,050 --> 00:04:44,479
+[Music]
+
+137
+00:04:42,240 --> 00:04:45,680
+no no no i mean if i want to draw a
+
+138
+00:04:44,479 --> 00:04:47,520
+shape here
+
+139
+00:04:45,680 --> 00:04:48,639
+right this is the known input for the
+
+140
+00:04:47,520 --> 00:04:51,680
+computer
+
+141
+00:04:48,639 --> 00:04:52,960
+right like the weather thingy right we
+
+142
+00:04:51,680 --> 00:04:55,360
+have known
+
+143
+00:04:52,960 --> 00:04:58,160
+that at these points it would
+
+144
+00:04:55,360 --> 00:04:59,759
+a square and now there's a new input the
+
+145
+00:04:58,160 --> 00:05:02,160
+computer you ask computer to predict
+
+146
+00:04:59,759 --> 00:05:04,000
+what's the shape here
+
+147
+00:05:02,160 --> 00:05:06,479
+more likely you know
+
+148
+00:05:04,000 --> 00:05:09,120
+what's more what's likely to be a shape
+
+149
+00:05:06,479 --> 00:05:11,440
+here triangular square
+
+150
+00:05:09,120 --> 00:05:14,880
+um square
+
+151
+00:05:11,440 --> 00:05:18,160
+square where down why is this square
+
+152
+00:05:14,880 --> 00:05:22,160
+why is it square yeah it's square why
+
+153
+00:05:18,160 --> 00:05:25,759
+likely yeah it's likelihood more likely
+
+154
+00:05:22,160 --> 00:05:27,840
+likelihood okay so machine learning is
+
+155
+00:05:25,759 --> 00:05:29,919
+it won't solve a prediction problem it
+
+156
+00:05:27,840 --> 00:05:31,280
+could have at least there
+
+157
+00:05:29,919 --> 00:05:34,160
+um
+
+158
+00:05:31,280 --> 00:05:35,680
+you know it's not like 100 accurate it's
+
+159
+00:05:34,160 --> 00:05:38,479
+it's more like uh
+
+160
+00:05:35,680 --> 00:05:39,840
+optimum um like heuristic heuristic
+
+161
+00:05:38,479 --> 00:05:41,759
+heuristic yeah
+
+162
+00:05:39,840 --> 00:05:44,000
+uh so we also predict here and then the
+
+163
+00:05:41,759 --> 00:05:46,880
+computer will say it's a square so why
+
+164
+00:05:44,000 --> 00:05:47,759
+you say it's a square
+
+165
+00:05:46,880 --> 00:05:48,720
+come on
+
+166
+00:05:47,759 --> 00:05:52,560
+yeah
+
+167
+00:05:48,720 --> 00:05:54,400
+the arrow is square why
+
+168
+00:05:52,560 --> 00:05:56,720
+unless you can say it's a triangle and
+
+169
+00:05:54,400 --> 00:05:59,920
+you can base another story just explain
+
+170
+00:05:56,720 --> 00:06:02,639
+your thoughts why is this square here
+
+171
+00:05:59,920 --> 00:06:04,720
+[Music]
+
+172
+00:06:02,639 --> 00:06:06,800
+in what you do your instinct why is a
+
+173
+00:06:04,720 --> 00:06:08,319
+square here
+
+174
+00:06:06,800 --> 00:06:09,919
+i just guessed
+
+175
+00:06:08,319 --> 00:06:11,520
+and what based on what why is this
+
+176
+00:06:09,919 --> 00:06:14,240
+square square
+
+177
+00:06:11,520 --> 00:06:15,600
+a good guess yeah y is a square guess
+
+178
+00:06:14,240 --> 00:06:19,240
+how do you guess is the square oh it's
+
+179
+00:06:15,600 --> 00:06:19,240
+just learning this
+
+180
+00:06:20,800 --> 00:06:26,720
+it could be look
+
+181
+00:06:23,440 --> 00:06:29,520
+i'm at this point yeah i'm response
+
+182
+00:06:26,720 --> 00:06:32,080
+so if i k equals three i want to pick
+
+183
+00:06:29,520 --> 00:06:32,880
+the three nearest neighbors so at this
+
+184
+00:06:32,080 --> 00:06:36,080
+point
+
+185
+00:06:32,880 --> 00:06:37,280
+distance what are the three shortest
+
+186
+00:06:36,080 --> 00:06:39,919
+distance
+
+187
+00:06:37,280 --> 00:06:39,919
+to this point
+
+188
+00:06:41,120 --> 00:06:47,620
+if i put a triangle
+
+189
+00:06:43,680 --> 00:06:50,080
+what's the three circles distance
+
+190
+00:06:47,620 --> 00:06:53,039
+[Music]
+
+191
+00:06:50,080 --> 00:06:56,160
+yeah so these are three shot is decent k
+
+192
+00:06:53,039 --> 00:06:57,199
+equals here normally can you see
+
+193
+00:06:56,160 --> 00:06:59,759
+it could be
+
+194
+00:06:57,199 --> 00:07:01,599
+if there are only two possibilities
+
+195
+00:06:59,759 --> 00:07:04,400
+triangle and square
+
+196
+00:07:01,599 --> 00:07:06,800
+and we want to pick a k which is odd
+
+197
+00:07:04,400 --> 00:07:09,039
+so there is no even vote
+
+198
+00:07:06,800 --> 00:07:11,680
+yeah because there are two possibilities
+
+199
+00:07:09,039 --> 00:07:14,800
+and if i have three votes what does it
+
+200
+00:07:11,680 --> 00:07:16,720
+mean always one wins right yeah
+
+201
+00:07:14,800 --> 00:07:18,880
+two triangles
+
+202
+00:07:16,720 --> 00:07:20,080
+one two x square all two squares one
+
+203
+00:07:18,880 --> 00:07:22,240
+triangle right
+
+204
+00:07:20,080 --> 00:07:24,639
+yeah it it we don't have this even
+
+205
+00:07:22,240 --> 00:07:26,960
+though right if you put a k equals four
+
+206
+00:07:24,639 --> 00:07:29,039
+what could be the even both two square
+
+207
+00:07:26,960 --> 00:07:32,639
+two triangle you can't pick right so k
+
+208
+00:07:29,039 --> 00:07:34,080
+equals three so we pick the three nearly
+
+209
+00:07:32,639 --> 00:07:35,440
+one triangle
+
+210
+00:07:34,080 --> 00:07:38,639
+two squared
+
+211
+00:07:35,440 --> 00:07:41,280
+so we will vote for what
+
+212
+00:07:38,639 --> 00:07:43,680
+square square easy yeah that's how you
+
+213
+00:07:41,280 --> 00:07:46,400
+get guess let's yeah we will make a
+
+214
+00:07:43,680 --> 00:07:48,240
+guess based on this case okay easy yeah
+
+215
+00:07:46,400 --> 00:07:50,080
+this is machine learning let's simplify
+
+216
+00:07:48,240 --> 00:07:52,560
+this machine learning algorithm right
+
+217
+00:07:50,080 --> 00:07:55,520
+you ask computer to make a guess
+
+218
+00:07:52,560 --> 00:07:59,599
+based on what based on the existing data
+
+219
+00:07:55,520 --> 00:08:02,479
+we know this existing data existing data
+
+220
+00:07:59,599 --> 00:08:03,919
+existing data and we also call it data
+
+221
+00:08:02,479 --> 00:08:05,919
+set
+
+222
+00:08:03,919 --> 00:08:08,560
+training set data set training training
+
+223
+00:08:05,919 --> 00:08:10,479
+set training data set
+
+224
+00:08:08,560 --> 00:08:12,560
+yeah because these data are used to
+
+225
+00:08:10,479 --> 00:08:14,800
+train the computer
+
+226
+00:08:12,560 --> 00:08:16,319
+right what if you
+
+227
+00:08:14,800 --> 00:08:17,360
+did
+
+228
+00:08:16,319 --> 00:08:19,520
+sorry
+
+229
+00:08:17,360 --> 00:08:21,120
+will it be on the grid or something oh
+
+230
+00:08:19,520 --> 00:08:24,240
+my goodness
+
+231
+00:08:21,120 --> 00:08:26,879
+um because what if you don't know um
+
+232
+00:08:24,240 --> 00:08:28,639
+which one is close uh
+
+233
+00:08:26,879 --> 00:08:30,720
+okay how do you catch a circus display
+
+234
+00:08:28,639 --> 00:08:32,880
+right yeah only green yeah the distance
+
+235
+00:08:30,720 --> 00:08:34,399
+shut it distance you know that distance
+
+236
+00:08:32,880 --> 00:08:36,159
+you could be there that could be two
+
+237
+00:08:34,399 --> 00:08:36,429
+times the distance
+
+238
+00:08:36,159 --> 00:08:37,839
+the
+
+239
+00:08:36,429 --> 00:08:39,680
+[Music]
+
+240
+00:08:37,839 --> 00:08:42,320
+the distance yeah look
+
+241
+00:08:39,680 --> 00:08:44,959
+what kind of distance can you get
+
+242
+00:08:42,320 --> 00:08:49,040
+well if you have like one square and one
+
+243
+00:08:44,959 --> 00:08:51,760
+triangle close yeah and x y
+
+244
+00:08:49,040 --> 00:08:55,040
+what if um you had this um
+
+245
+00:08:51,760 --> 00:08:55,760
+point and a
+
+246
+00:08:55,040 --> 00:08:58,720
+is
+
+247
+00:08:55,760 --> 00:09:00,800
+one square one triangle and and and
+
+248
+00:08:58,720 --> 00:09:03,200
+there is another one um
+
+249
+00:09:00,800 --> 00:09:04,640
+called one circle
+
+250
+00:09:03,200 --> 00:09:07,839
+and then
+
+251
+00:09:04,640 --> 00:09:08,880
+another one that
+
+252
+00:09:07,839 --> 00:09:10,800
+also
+
+253
+00:09:08,880 --> 00:09:12,080
+um triangle and
+
+254
+00:09:10,800 --> 00:09:13,920
+square but
+
+255
+00:09:12,080 --> 00:09:15,600
+they're the same
+
+256
+00:09:13,920 --> 00:09:17,839
+from that point
+
+257
+00:09:15,600 --> 00:09:20,080
+where they're okay so if okay so that's
+
+258
+00:09:17,839 --> 00:09:22,080
+a very good choice yeah you have three
+
+259
+00:09:20,080 --> 00:09:24,480
+things three votes but one of them is
+
+260
+00:09:22,080 --> 00:09:26,640
+triangle one on one square and
+
+261
+00:09:24,480 --> 00:09:28,560
+one on and there are two right
+
+262
+00:09:26,640 --> 00:09:30,480
+in this case you just pick one on it's
+
+263
+00:09:28,560 --> 00:09:33,040
+it's just fifty fifty
+
+264
+00:09:30,480 --> 00:09:34,160
+or you could increase the k right to
+
+265
+00:09:33,040 --> 00:09:35,920
+five
+
+266
+00:09:34,160 --> 00:09:38,560
+yeah instead of picking three you're
+
+267
+00:09:35,920 --> 00:09:40,640
+picking five to see more yeah to get
+
+268
+00:09:38,560 --> 00:09:42,320
+more right got it
+
+269
+00:09:40,640 --> 00:09:45,440
+they understand what i'm saying yeah
+
+270
+00:09:42,320 --> 00:09:46,800
+yeah okay very clever very good yeah i
+
+271
+00:09:45,440 --> 00:09:48,560
+just thought i didn't think of that
+
+272
+00:09:46,800 --> 00:09:51,040
+before yeah but yeah you make a joke
+
+273
+00:09:48,560 --> 00:09:52,640
+that's a very special corner case okay
+
+274
+00:09:51,040 --> 00:09:54,480
+so we talk about distance there are two
+
+275
+00:09:52,640 --> 00:09:56,399
+kinds of distance you can
+
+276
+00:09:54,480 --> 00:09:57,440
+maybe you know look this is a point
+
+277
+00:09:56,399 --> 00:09:59,360
+right
+
+278
+00:09:57,440 --> 00:10:01,120
+x1
+
+279
+00:09:59,360 --> 00:10:03,600
+y1 right
+
+280
+00:10:01,120 --> 00:10:06,640
+x1 y1 okay yeah
+
+281
+00:10:03,600 --> 00:10:08,720
+so this is x1
+
+282
+00:10:06,640 --> 00:10:10,720
+this bit yeah
+
+283
+00:10:08,720 --> 00:10:13,279
+here is y1 okay
+
+284
+00:10:10,720 --> 00:10:15,200
+and another point here
+
+285
+00:10:13,279 --> 00:10:16,320
+okay so here
+
+286
+00:10:15,200 --> 00:10:17,360
+x2
+
+287
+00:10:16,320 --> 00:10:18,880
+here
+
+288
+00:10:17,360 --> 00:10:19,760
+y2 okay
+
+289
+00:10:18,880 --> 00:10:20,720
+what
+
+290
+00:10:19,760 --> 00:10:23,360
+got it
+
+291
+00:10:20,720 --> 00:10:24,880
+yeah what's the distance distance look
+
+292
+00:10:23,360 --> 00:10:28,800
+this sides could be
+
+293
+00:10:24,880 --> 00:10:28,800
+x1 minus x2 squared
+
+294
+00:10:30,560 --> 00:10:37,360
+plus y1 minus y2 square and then
+
+295
+00:10:34,959 --> 00:10:39,519
+square root that's one distance
+
+296
+00:10:37,360 --> 00:10:40,720
+right because we're only interested this
+
+297
+00:10:39,519 --> 00:10:42,399
+distance yeah
+
+298
+00:10:40,720 --> 00:10:45,040
+this distance
+
+299
+00:10:42,399 --> 00:10:48,800
+what's the distance it's equals to what
+
+300
+00:10:45,040 --> 00:10:52,480
+so this bit is x2 minus x1 this bit
+
+301
+00:10:48,800 --> 00:10:55,360
+this bit is what y2 minus y1 right so we
+
+302
+00:10:52,480 --> 00:10:57,600
+know this a b what's the distance look
+
+303
+00:10:55,360 --> 00:11:02,000
+we talk about this triangle thingy right
+
+304
+00:10:57,600 --> 00:11:02,000
+triangle this is a this is b what's this
+
+305
+00:11:02,240 --> 00:11:08,800
+no c what's the what's c
+
+306
+00:11:05,120 --> 00:11:11,760
+c what's c c square equals one
+
+307
+00:11:08,800 --> 00:11:12,640
+remember a square
+
+308
+00:11:11,760 --> 00:11:15,440
+b
+
+309
+00:11:12,640 --> 00:11:16,320
+yeah okay and it's all positive
+
+310
+00:11:15,440 --> 00:11:18,720
+yeah
+
+311
+00:11:16,320 --> 00:11:20,800
+got it that's that's where it comes from
+
+312
+00:11:18,720 --> 00:11:24,880
+and there's another distance called
+
+313
+00:11:20,800 --> 00:11:26,480
+manhattan distance which is just this x1
+
+314
+00:11:24,880 --> 00:11:27,519
+minus x2
+
+315
+00:11:26,480 --> 00:11:30,240
+plus
+
+316
+00:11:27,519 --> 00:11:32,800
+y1 minus y2 look what's this look at
+
+317
+00:11:30,240 --> 00:11:35,120
+this absolute value right
+
+318
+00:11:32,800 --> 00:11:37,360
+that's the true value so look if this is
+
+319
+00:11:35,120 --> 00:11:39,839
+three this is four
+
+320
+00:11:37,360 --> 00:11:42,399
+if this three this is four the distance
+
+321
+00:11:39,839 --> 00:11:45,360
+the my hands and distance would be three
+
+322
+00:11:42,399 --> 00:11:47,279
+three plus four equals seven
+
+323
+00:11:45,360 --> 00:11:48,959
+but the the first one i don't know what
+
+324
+00:11:47,279 --> 00:11:50,160
+what's the distance is four yeah this
+
+325
+00:11:48,959 --> 00:11:52,639
+one will be
+
+326
+00:11:50,160 --> 00:11:54,639
+three square plus four square
+
+327
+00:11:52,639 --> 00:11:56,959
+square root equals five okay so now two
+
+328
+00:11:54,639 --> 00:11:59,760
+distance you can choose any of them yeah
+
+329
+00:11:56,959 --> 00:12:05,040
+remember we picked the shortest distance
+
+330
+00:11:59,760 --> 00:12:05,040
+on the previous right yeah okay
+
+331
+00:12:05,360 --> 00:12:09,839
+so what are we trying to solve here if
+
+332
+00:12:07,680 --> 00:12:12,399
+this problem is quite complex and we
+
+333
+00:12:09,839 --> 00:12:15,760
+don't have a deterministic you know
+
+334
+00:12:12,399 --> 00:12:19,120
+deterministic what's deterministic
+
+335
+00:12:15,760 --> 00:12:22,240
+we don't have a deterministic way to
+
+336
+00:12:19,120 --> 00:12:24,079
+predict it so for example this fx the
+
+337
+00:12:22,240 --> 00:12:25,920
+model could become quite complex you
+
+338
+00:12:24,079 --> 00:12:28,079
+have you have the input
+
+339
+00:12:25,920 --> 00:12:29,839
+yeah we want to get the output so what's
+
+340
+00:12:28,079 --> 00:12:31,600
+the output
+
+341
+00:12:29,839 --> 00:12:34,880
+what's the output right
+
+342
+00:12:31,600 --> 00:12:37,680
+right fx right
+
+343
+00:12:34,880 --> 00:12:39,839
+you have a lot of training data and
+
+344
+00:12:37,680 --> 00:12:40,639
+we want to know what's the output
+
+345
+00:12:39,839 --> 00:12:44,560
+okay
+
+346
+00:12:40,639 --> 00:12:47,600
+so let's let's do this k n so
+
+347
+00:12:44,560 --> 00:12:49,839
+what's here so we find the k nearest
+
+348
+00:12:47,600 --> 00:12:51,760
+neighbors to the input and then we get
+
+349
+00:12:49,839 --> 00:12:54,000
+the average we can do the average of it
+
+350
+00:12:51,760 --> 00:12:56,160
+right or we pick a medium or we put the
+
+351
+00:12:54,000 --> 00:12:57,839
+weighted average right so there are lots
+
+352
+00:12:56,160 --> 00:12:59,360
+of ways but first of all is we need to
+
+353
+00:12:57,839 --> 00:13:00,639
+find the k
+
+354
+00:12:59,360 --> 00:13:03,120
+nearest
+
+355
+00:13:00,639 --> 00:13:05,600
+neighbors to the input right
+
+356
+00:13:03,120 --> 00:13:06,800
+okay and then we can do the average of
+
+357
+00:13:05,600 --> 00:13:08,480
+it
+
+358
+00:13:06,800 --> 00:13:10,959
+yeah
+
+359
+00:13:08,480 --> 00:13:13,200
+or we do the vote if it's if you want to
+
+360
+00:13:10,959 --> 00:13:14,880
+labeling right if we want
+
+361
+00:13:13,200 --> 00:13:16,079
+if there are two choice
+
+362
+00:13:14,880 --> 00:13:19,200
+okay
+
+363
+00:13:16,079 --> 00:13:21,600
+signed or square we we count a vote
+
+364
+00:13:19,200 --> 00:13:24,480
+whoever wins whoever got the major votes
+
+365
+00:13:21,600 --> 00:13:27,040
+wins right in that previous case
+
+366
+00:13:24,480 --> 00:13:29,040
+there are two votes of the squares
+
+367
+00:13:27,040 --> 00:13:31,440
+so we tend to vote
+
+368
+00:13:29,040 --> 00:13:32,240
+for that that point that's a square
+
+369
+00:13:31,440 --> 00:13:33,279
+right
+
+370
+00:13:32,240 --> 00:13:35,600
+yeah
+
+371
+00:13:33,279 --> 00:13:37,440
+and if if it's a value right if it's
+
+372
+00:13:35,600 --> 00:13:41,360
+already it could be chosen as a value
+
+373
+00:13:37,440 --> 00:13:42,480
+for example like look let's do this
+
+374
+00:13:41,360 --> 00:13:44,160
+x y
+
+375
+00:13:42,480 --> 00:13:47,120
+if we do have a
+
+376
+00:13:44,160 --> 00:13:48,800
+graph y equals x square right
+
+377
+00:13:47,120 --> 00:13:51,519
+yeah
+
+378
+00:13:48,800 --> 00:13:53,920
+remember we call it called
+
+379
+00:13:51,519 --> 00:13:56,160
+less thingy i don't know the little
+
+380
+00:13:53,920 --> 00:13:58,079
+graph yeah
+
+381
+00:13:56,160 --> 00:14:01,120
+nothing yeah look
+
+382
+00:13:58,079 --> 00:14:02,480
+look this one yeah y equals x squared is
+
+383
+00:14:01,120 --> 00:14:05,600
+this one right
+
+384
+00:14:02,480 --> 00:14:06,720
+yeah when x is zero y is zero what x one
+
+385
+00:14:05,600 --> 00:14:09,360
+y is one
+
+386
+00:14:06,720 --> 00:14:11,760
+one x is two four right
+
+387
+00:14:09,360 --> 00:14:12,959
+three nine yeah
+
+388
+00:14:11,760 --> 00:14:14,160
+okay
+
+389
+00:14:12,959 --> 00:14:16,399
+so if
+
+390
+00:14:14,160 --> 00:14:18,880
+if f x is
+
+391
+00:14:16,399 --> 00:14:22,079
+x square you know and then we pick a
+
+392
+00:14:18,880 --> 00:14:24,800
+value like if if it's 1.5
+
+393
+00:14:22,079 --> 00:14:26,320
+1.5 so let's pick them
+
+394
+00:14:24,800 --> 00:14:28,639
+k equals three
+
+395
+00:14:26,320 --> 00:14:30,320
+what are the three closest neighbors to
+
+396
+00:14:28,639 --> 00:14:32,720
+1.5
+
+397
+00:14:30,320 --> 00:14:35,600
+if if we have a training data on
+
+398
+00:14:32,720 --> 00:14:37,920
+integers yeah one
+
+399
+00:14:35,600 --> 00:14:40,160
+two
+
+400
+00:14:37,920 --> 00:14:42,240
+could be zero or three right it doesn't
+
+401
+00:14:40,160 --> 00:14:45,040
+matter we pick one three
+
+402
+00:14:42,240 --> 00:14:46,800
+okay yeah all right
+
+403
+00:14:45,040 --> 00:14:48,880
+and then what what's the
+
+404
+00:14:46,800 --> 00:14:50,880
+so what's the out what's the prediction
+
+405
+00:14:48,880 --> 00:14:54,160
+so we know these three are the three
+
+406
+00:14:50,880 --> 00:14:55,440
+nearest neighbors so look what is y this
+
+407
+00:14:54,160 --> 00:14:59,279
+is one right
+
+408
+00:14:55,440 --> 00:15:03,120
+f1 equals one f2 equals
+
+409
+00:14:59,279 --> 00:15:06,079
+4 right f3 equals
+
+410
+00:15:03,120 --> 00:15:08,160
+s2 equals 1 3 squared equals 1
+
+411
+00:15:06,079 --> 00:15:09,040
+9 9 okay so what's the average of this
+
+412
+00:15:08,160 --> 00:15:14,399
+one
+
+413
+00:15:09,040 --> 00:15:14,399
+1 plus 4 plus 9 divided by 3 equals
+
+414
+00:15:15,360 --> 00:15:17,519
+about
+
+415
+00:15:16,399 --> 00:15:19,360
+5
+
+416
+00:15:17,519 --> 00:15:21,040
+14 divided by
+
+417
+00:15:19,360 --> 00:15:25,639
+sorry
+
+418
+00:15:21,040 --> 00:15:25,639
+is about 5. is it about 5
+
+419
+00:15:26,639 --> 00:15:30,480
+three
+
+420
+00:15:28,240 --> 00:15:30,480
+four
+
+421
+00:15:31,920 --> 00:15:34,160
+uh
+
+422
+00:15:36,639 --> 00:15:41,920
+so we picked a stream near his neighbor
+
+423
+00:15:38,720 --> 00:15:44,560
+could be yeah one two three
+
+424
+00:15:41,920 --> 00:15:46,079
+okay but but this is the difference the
+
+425
+00:15:44,560 --> 00:15:48,720
+error rate
+
+426
+00:15:46,079 --> 00:15:50,880
+you know if this is the
+
+427
+00:15:48,720 --> 00:15:53,440
+uh produce too much error right because
+
+428
+00:15:50,880 --> 00:15:55,839
+it's e equals to five but
+
+429
+00:15:53,440 --> 00:15:58,320
+look it's not five right if you if you
+
+430
+00:15:55,839 --> 00:16:00,240
+pick this if you pick this what happened
+
+431
+00:15:58,320 --> 00:16:01,920
+if you pick this neighbor
+
+432
+00:16:00,240 --> 00:16:04,639
+right if you pick one two three you get
+
+433
+00:16:01,920 --> 00:16:07,040
+the five if you pick zero one two
+
+434
+00:16:04,639 --> 00:16:08,880
+right i put a zero here so what's the
+
+435
+00:16:07,040 --> 00:16:10,160
+what's that
+
+436
+00:16:08,880 --> 00:16:13,120
+what's the
+
+437
+00:16:10,160 --> 00:16:15,680
+average one plus three one plus four
+
+438
+00:16:13,120 --> 00:16:17,040
+plus zero divided by three
+
+439
+00:16:15,680 --> 00:16:19,600
+yeah
+
+440
+00:16:17,040 --> 00:16:20,959
+five divided by three
+
+441
+00:16:19,600 --> 00:16:22,959
+one point
+
+442
+00:16:20,959 --> 00:16:24,639
+roughly 1.7 right
+
+443
+00:16:22,959 --> 00:16:27,360
+yeah
+
+444
+00:16:24,639 --> 00:16:29,839
+so you see by picking but the the
+
+445
+00:16:27,360 --> 00:16:33,600
+correct answer the correct prediction is
+
+446
+00:16:29,839 --> 00:16:35,199
+1.5 squared will be 2.25 okay so which
+
+447
+00:16:33,600 --> 00:16:37,040
+one is closer
+
+448
+00:16:35,199 --> 00:16:40,560
+which one is closer
+
+449
+00:16:37,040 --> 00:16:41,759
+1.7 right 1.7 instead of
+
+450
+00:16:40,560 --> 00:16:45,120
+5 right
+
+451
+00:16:41,759 --> 00:16:48,000
+this one is closer so you see
+
+452
+00:16:45,120 --> 00:16:49,839
+they they produce a larger difference
+
+453
+00:16:48,000 --> 00:16:51,680
+depending on how you pick the neighbors
+
+454
+00:16:49,839 --> 00:16:54,000
+yeah yeah
+
+455
+00:16:51,680 --> 00:16:56,639
+if we pick if we increase the k
+
+456
+00:16:54,000 --> 00:16:59,519
+if we increase the k that the
+
+457
+00:16:56,639 --> 00:17:00,800
+the accuracy might improve
+
+458
+00:16:59,519 --> 00:17:02,959
+make sense
+
+459
+00:17:00,800 --> 00:17:04,799
+or if we have too many if we have more
+
+460
+00:17:02,959 --> 00:17:06,400
+data points around
+
+461
+00:17:04,799 --> 00:17:08,559
+if we let's say if we have more data
+
+462
+00:17:06,400 --> 00:17:11,039
+points around the 1.5 right
+
+463
+00:17:08,559 --> 00:17:13,280
+if i have one more data point around one
+
+464
+00:17:11,039 --> 00:17:15,919
+and then the accuracy will be very close
+
+465
+00:17:13,280 --> 00:17:18,480
+to 2.35 it depends on how how these
+
+466
+00:17:15,919 --> 00:17:20,559
+status so you see that what can you tell
+
+467
+00:17:18,480 --> 00:17:22,000
+me what's the advantage and disadvantage
+
+468
+00:17:20,559 --> 00:17:24,240
+of knn
+
+469
+00:17:22,000 --> 00:17:26,959
+okay based on this the advantage and
+
+470
+00:17:24,240 --> 00:17:29,120
+disadvantage
+
+471
+00:17:26,959 --> 00:17:31,679
+advantage
+
+472
+00:17:29,120 --> 00:17:34,240
+simple yeah we just pick the k nearest
+
+473
+00:17:31,679 --> 00:17:36,000
+name and make an average am right oh
+
+474
+00:17:34,240 --> 00:17:38,160
+yeah what's the disadvantage the
+
+475
+00:17:36,000 --> 00:17:39,840
+accuracy depends on how you pick how
+
+476
+00:17:38,160 --> 00:17:42,080
+where are the neighbors right
+
+477
+00:17:39,840 --> 00:17:45,039
+yeah you could produce a very large
+
+478
+00:17:42,080 --> 00:17:46,880
+difference right you see yeah
+
+479
+00:17:45,039 --> 00:17:48,320
+and if there are a thousand a million
+
+480
+00:17:46,880 --> 00:17:50,799
+data sets
+
+481
+00:17:48,320 --> 00:17:53,120
+data points
+
+482
+00:17:50,799 --> 00:17:55,440
+it could be very slow to
+
+483
+00:17:53,120 --> 00:17:57,360
+to evaluate the distance right the
+
+484
+00:17:55,440 --> 00:18:00,240
+certificate if they acquire a lot of
+
+485
+00:17:57,360 --> 00:18:02,559
+these data points right if there are n
+
+486
+00:18:00,240 --> 00:18:03,760
+data points the time complexity will be
+
+487
+00:18:02,559 --> 00:18:05,280
+o n right
+
+488
+00:18:03,760 --> 00:18:06,720
+right because you need to go through
+
+489
+00:18:05,280 --> 00:18:08,320
+this n
+
+490
+00:18:06,720 --> 00:18:10,720
+to find
+
+491
+00:18:08,320 --> 00:18:12,080
+to calculate the distance
+
+492
+00:18:10,720 --> 00:18:13,919
+and also
+
+493
+00:18:12,080 --> 00:18:15,679
+okay you need to sort it right you need
+
+494
+00:18:13,919 --> 00:18:18,080
+to sort of find the distance uh find the
+
+495
+00:18:15,679 --> 00:18:20,000
+shortest distance so if you sort it
+
+496
+00:18:18,080 --> 00:18:22,799
+you'll be always logged in
+
+497
+00:18:20,000 --> 00:18:25,200
+right but if you if we're using the hip
+
+498
+00:18:22,799 --> 00:18:28,080
+hip remember the heat the binary kind of
+
+499
+00:18:25,200 --> 00:18:28,080
+binary tree right
+
+500
+00:18:29,919 --> 00:18:34,080
+this is the biggest always speaking if
+
+501
+00:18:31,760 --> 00:18:36,240
+you don't mean here this is the smallest
+
+502
+00:18:34,080 --> 00:18:38,799
+of in the binary and then you'll be
+
+503
+00:18:36,240 --> 00:18:40,400
+reduced the time convexity will be
+
+504
+00:18:38,799 --> 00:18:42,880
+okay
+
+505
+00:18:40,400 --> 00:18:44,720
+log n right this is a bit better than
+
+506
+00:18:42,880 --> 00:18:45,760
+over n again right because k is smaller
+
+507
+00:18:44,720 --> 00:18:48,160
+than
+
+508
+00:18:45,760 --> 00:18:50,080
+n right much smaller than n so
+
+509
+00:18:48,160 --> 00:18:52,160
+a okay looking right
+
+510
+00:18:50,080 --> 00:18:54,640
+huh makes sense
+
+511
+00:18:52,160 --> 00:18:58,640
+okay so let's write uh the structure of
+
+512
+00:18:54,640 --> 00:18:59,760
+o n okay and you tell me okay
+
+513
+00:18:58,640 --> 00:19:02,400
+define
+
+514
+00:18:59,760 --> 00:19:05,600
+k and n
+
+515
+00:19:02,400 --> 00:19:07,919
+okay our input is x yeah
+
+516
+00:19:05,600 --> 00:19:08,960
+and then n equals let's say equals three
+
+517
+00:19:07,919 --> 00:19:10,559
+okay
+
+518
+00:19:08,960 --> 00:19:12,640
+by default yeah we can put a default
+
+519
+00:19:10,559 --> 00:19:14,880
+value can we put the difference if we
+
+520
+00:19:12,640 --> 00:19:17,280
+don't pass the default value you'll be
+
+521
+00:19:14,880 --> 00:19:18,160
+uh you if you don't pass the end you'll
+
+522
+00:19:17,280 --> 00:19:19,120
+be
+
+523
+00:19:18,160 --> 00:19:20,559
+uh
+
+524
+00:19:19,120 --> 00:19:22,559
+you'll be three yeah so we need to
+
+525
+00:19:20,559 --> 00:19:24,640
+answer first of all we need to answer
+
+526
+00:19:22,559 --> 00:19:25,679
+and bigger let's say bigger equals three
+
+527
+00:19:24,640 --> 00:19:27,039
+okay
+
+528
+00:19:25,679 --> 00:19:29,039
+okay
+
+529
+00:19:27,039 --> 00:19:31,120
+now we have a data point let's say the
+
+530
+00:19:29,039 --> 00:19:34,000
+data is here okay it's existing here
+
+531
+00:19:31,120 --> 00:19:34,720
+okay but we're putting here data is here
+
+532
+00:19:34,000 --> 00:19:36,400
+and
+
+533
+00:19:34,720 --> 00:19:38,480
+let's fill the data for example let's
+
+534
+00:19:36,400 --> 00:19:41,840
+fill the
+
+535
+00:19:38,480 --> 00:19:45,039
+let's feel the value of x as fx equals s
+
+536
+00:19:41,840 --> 00:19:45,039
+square okay let's say
+
+537
+00:19:45,200 --> 00:19:50,880
+this is uh this complex model is f x
+
+538
+00:19:48,160 --> 00:19:52,480
+here but these theta could be take a
+
+539
+00:19:50,880 --> 00:19:54,000
+could we already know and so we just
+
+540
+00:19:52,480 --> 00:19:56,960
+need to follow
+
+541
+00:19:54,000 --> 00:19:59,039
+i in red let's just fill the data here
+
+542
+00:19:56,960 --> 00:20:01,440
+but we can move this outside okay let's
+
+543
+00:19:59,039 --> 00:20:03,840
+let's move this outside for example
+
+544
+00:20:01,440 --> 00:20:07,120
+maybe we'll put a data here
+
+545
+00:20:03,840 --> 00:20:09,280
+data here okay down here and equation
+
+546
+00:20:07,120 --> 00:20:11,600
+okay so for example this data what does
+
+547
+00:20:09,280 --> 00:20:14,559
+it look like it's a dictionary and for i
+
+548
+00:20:11,600 --> 00:20:16,159
+in range let's say to minus 100 to 100
+
+549
+00:20:14,559 --> 00:20:17,520
+minus 1
+
+550
+00:20:16,159 --> 00:20:20,880
+101
+
+551
+00:20:17,520 --> 00:20:23,840
+and then what theta i
+
+552
+00:20:20,880 --> 00:20:25,600
+equals i times i right i times i squared
+
+553
+00:20:23,840 --> 00:20:27,840
+okay so when we fill the data yeah we
+
+554
+00:20:25,600 --> 00:20:30,240
+feel the data the data the keys
+
+555
+00:20:27,840 --> 00:20:32,320
+okay so now let's let's we have already
+
+556
+00:20:30,240 --> 00:20:35,600
+we already have this data theta is the
+
+557
+00:20:32,320 --> 00:20:37,200
+keys theta is like key value pairs right
+
+558
+00:20:35,600 --> 00:20:38,000
+for example one
+
+559
+00:20:37,200 --> 00:20:39,520
+one
+
+560
+00:20:38,000 --> 00:20:41,919
+two four
+
+561
+00:20:39,520 --> 00:20:44,000
+three nine something that i depending on
+
+562
+00:20:41,919 --> 00:20:47,120
+on your data it could be
+
+563
+00:20:44,000 --> 00:20:48,640
+complex this is the given mode uh given
+
+564
+00:20:47,120 --> 00:20:51,120
+already
+
+565
+00:20:48,640 --> 00:20:53,120
+historical data historical data we
+
+566
+00:20:51,120 --> 00:20:55,919
+already know training set
+
+567
+00:20:53,120 --> 00:20:57,919
+yeah training sets financing
+
+568
+00:20:55,919 --> 00:21:01,440
+training set
+
+569
+00:20:57,919 --> 00:21:02,480
+training set okay training set
+
+570
+00:21:01,440 --> 00:21:05,520
+and now
+
+571
+00:21:02,480 --> 00:21:08,240
+we want to find uh
+
+572
+00:21:05,520 --> 00:21:10,480
+we we want to calculate distance to all
+
+573
+00:21:08,240 --> 00:21:13,360
+the data points in the
+
+574
+00:21:10,480 --> 00:21:15,600
+uh in the training set okay so now let's
+
+575
+00:21:13,360 --> 00:21:17,360
+say we want to
+
+576
+00:21:15,600 --> 00:21:20,080
+get a cost
+
+577
+00:21:17,360 --> 00:21:22,799
+cost equals what because it's
+
+578
+00:21:20,080 --> 00:21:23,760
+an array right let's say
+
+579
+00:21:22,799 --> 00:21:26,799
+i
+
+580
+00:21:23,760 --> 00:21:28,840
+and then abs the distance yeah we can
+
+581
+00:21:26,799 --> 00:21:33,200
+calculate the distance right
+
+582
+00:21:28,840 --> 00:21:35,360
+i x i to the distance i minus x this is
+
+583
+00:21:33,200 --> 00:21:38,400
+the distance right and that's the tuple
+
+584
+00:21:35,360 --> 00:21:41,520
+the first value is the
+
+585
+00:21:38,400 --> 00:21:43,360
+the the the neighbor and the second
+
+586
+00:21:41,520 --> 00:21:44,640
+value of the tube is the distance is the
+
+587
+00:21:43,360 --> 00:21:46,799
+cost the
+
+588
+00:21:44,640 --> 00:21:48,159
+the distance to x right we use the
+
+589
+00:21:46,799 --> 00:21:52,240
+absolute value
+
+590
+00:21:48,159 --> 00:21:54,320
+and one for i in theta right
+
+591
+00:21:52,240 --> 00:21:56,480
+for i in data
+
+592
+00:21:54,320 --> 00:21:58,480
+okay and now we know we can we now need
+
+593
+00:21:56,480 --> 00:22:00,400
+to solve it yeah let's use the normal
+
+594
+00:21:58,480 --> 00:22:01,280
+sword okay
+
+595
+00:22:00,400 --> 00:22:03,760
+cost
+
+596
+00:22:01,280 --> 00:22:05,520
+the thought right but we want to sort by
+
+597
+00:22:03,760 --> 00:22:08,240
+what t
+
+598
+00:22:05,520 --> 00:22:08,240
+t right
+
+599
+00:22:10,840 --> 00:22:15,039
+equals x one right
+
+600
+00:22:14,240 --> 00:22:17,360
+okay
+
+601
+00:22:15,039 --> 00:22:18,720
+so we want to solve solve the cos array
+
+602
+00:22:17,360 --> 00:22:21,039
+by by
+
+603
+00:22:18,720 --> 00:22:23,200
+by by the distance in ascending order
+
+604
+00:22:21,039 --> 00:22:26,240
+that's what it means number x
+
+605
+00:22:23,200 --> 00:22:27,760
+x x one because x is the tuple right x0
+
+606
+00:22:26,240 --> 00:22:32,000
+is the neighbor
+
+607
+00:22:27,760 --> 00:22:34,159
+x1 is the cost is the distance
+
+608
+00:22:32,000 --> 00:22:36,480
+yeah why we need to solve the distance
+
+609
+00:22:34,159 --> 00:22:37,600
+we want to find out the
+
+610
+00:22:36,480 --> 00:22:39,120
+shortest
+
+611
+00:22:37,600 --> 00:22:41,760
+k
+
+612
+00:22:39,120 --> 00:22:43,679
+neighbors am right
+
+613
+00:22:41,760 --> 00:22:46,480
+are you are you with me
+
+614
+00:22:43,679 --> 00:22:48,559
+yeah excuse me
+
+615
+00:22:46,480 --> 00:22:51,120
+what's the terminology of this one if
+
+616
+00:22:48,559 --> 00:22:53,039
+there are n if that length of the data
+
+617
+00:22:51,120 --> 00:22:56,080
+is n what's the time that complex if we
+
+618
+00:22:53,039 --> 00:22:58,240
+sort an array with n numbers
+
+619
+00:22:56,080 --> 00:23:00,640
+what's the time complexity if we saw the
+
+620
+00:22:58,240 --> 00:23:00,640
+numbers
+
+621
+00:23:02,570 --> 00:23:05,790
+[Music]
+
+622
+00:23:06,159 --> 00:23:09,840
+so if we're using the heap if you're
+
+623
+00:23:08,000 --> 00:23:12,159
+using the heap the time capacity could
+
+624
+00:23:09,840 --> 00:23:14,000
+be improved as okay
+
+625
+00:23:12,159 --> 00:23:15,360
+log n right
+
+626
+00:23:14,000 --> 00:23:16,480
+yeah
+
+627
+00:23:15,360 --> 00:23:18,559
+okay
+
+628
+00:23:16,480 --> 00:23:20,559
+the heap yeah because we need to every
+
+629
+00:23:18,559 --> 00:23:23,120
+time we maintain a
+
+630
+00:23:20,559 --> 00:23:25,520
+heap we we insert the number
+
+631
+00:23:23,120 --> 00:23:28,240
+into a hip it needs to all log in
+
+632
+00:23:25,520 --> 00:23:30,799
+right and how many times we need to
+
+633
+00:23:28,240 --> 00:23:33,039
+take uh you know to take a number max
+
+634
+00:23:30,799 --> 00:23:34,559
+number or shortest number smallest
+
+635
+00:23:33,039 --> 00:23:37,760
+number from the hip
+
+636
+00:23:34,559 --> 00:23:39,360
+okay so this hip here
+
+637
+00:23:37,760 --> 00:23:41,120
+every time we take a
+
+638
+00:23:39,360 --> 00:23:43,679
+this is smallest hip
+
+639
+00:23:41,120 --> 00:23:46,480
+i will take it off one time but we need
+
+640
+00:23:43,679 --> 00:23:49,120
+to rebuild the hip let's look in and how
+
+641
+00:23:46,480 --> 00:23:51,919
+many times we need to take it do this
+
+642
+00:23:49,120 --> 00:23:54,480
+k times right because we need to k take
+
+643
+00:23:51,919 --> 00:23:55,279
+compute the k nearest right
+
+644
+00:23:54,480 --> 00:23:57,520
+yeah
+
+645
+00:23:55,279 --> 00:23:59,440
+so you need to okay which is better oh
+
+646
+00:23:57,520 --> 00:24:02,720
+and okay no okay logan
+
+647
+00:23:59,440 --> 00:24:04,400
+which is better okay why is that
+
+648
+00:24:02,720 --> 00:24:06,720
+because
+
+649
+00:24:04,400 --> 00:24:09,440
+k is
+
+650
+00:24:06,720 --> 00:24:11,120
+more than n right yeah and could be a
+
+651
+00:24:09,440 --> 00:24:12,559
+larger meaning if there are a million
+
+652
+00:24:11,120 --> 00:24:15,200
+data points right
+
+653
+00:24:12,559 --> 00:24:17,279
+this is obvious this is
+
+654
+00:24:15,200 --> 00:24:20,559
+much better because k k could be three
+
+655
+00:24:17,279 --> 00:24:22,799
+okay three compares to a minion
+
+656
+00:24:20,559 --> 00:24:26,080
+right i do it three times i do it a
+
+657
+00:24:22,799 --> 00:24:28,159
+million times which is faster
+
+658
+00:24:26,080 --> 00:24:30,880
+obviously yeah good job
+
+659
+00:24:28,159 --> 00:24:34,320
+okay now we sort it we saw it we saw
+
+660
+00:24:30,880 --> 00:24:37,520
+this already now we need to find out the
+
+661
+00:24:34,320 --> 00:24:38,799
+smallest one okay then we can return now
+
+662
+00:24:37,520 --> 00:24:42,480
+written what
+
+663
+00:24:38,799 --> 00:24:44,960
+that is we want to sum it first some
+
+664
+00:24:42,480 --> 00:24:45,520
+somewhat some
+
+665
+00:24:44,960 --> 00:24:47,360
+you data
+
+666
+00:24:45,520 --> 00:24:49,840
+the data
+
+667
+00:24:47,360 --> 00:24:52,640
+theta y x
+
+668
+00:24:49,840 --> 00:24:55,760
+uh x y x y x
+
+669
+00:24:52,640 --> 00:24:58,080
+zero yeah because 0 is the neighbor
+
+670
+00:24:55,760 --> 00:24:58,080
+right
+
+671
+00:24:58,400 --> 00:25:01,679
+4
+
+672
+00:24:59,679 --> 00:25:05,279
+x in
+
+673
+00:25:01,679 --> 00:25:06,000
+okay so data now i uh now now the cost
+
+674
+00:25:05,279 --> 00:25:08,400
+yeah
+
+675
+00:25:06,000 --> 00:25:11,360
+the cost is the
+
+676
+00:25:08,400 --> 00:25:12,640
+it's already sorted so cost
+
+677
+00:25:11,360 --> 00:25:15,279
+up to k
+
+678
+00:25:12,640 --> 00:25:17,760
+after n right after n is the first the
+
+679
+00:25:15,279 --> 00:25:19,760
+shortest the shortest season cost n
+
+680
+00:25:17,760 --> 00:25:22,159
+right so in cost
+
+681
+00:25:19,760 --> 00:25:23,600
+because up to n right
+
+682
+00:25:22,159 --> 00:25:25,840
+out to n
+
+683
+00:25:23,600 --> 00:25:27,840
+yeah because cost is
+
+684
+00:25:25,840 --> 00:25:30,159
+already sorted right sorted the first
+
+685
+00:25:27,840 --> 00:25:31,760
+element is that neighbor so we taking
+
+686
+00:25:30,159 --> 00:25:33,919
+the neighbors
+
+687
+00:25:31,760 --> 00:25:35,679
+the second one is the distance distance
+
+688
+00:25:33,919 --> 00:25:38,000
+to the input
+
+689
+00:25:35,679 --> 00:25:39,679
+right this is the sum and we how do we
+
+690
+00:25:38,000 --> 00:25:41,520
+get calculate the average how do we
+
+691
+00:25:39,679 --> 00:25:43,919
+calculate the average
+
+692
+00:25:41,520 --> 00:25:47,120
+how do we calculate average
+
+693
+00:25:43,919 --> 00:25:50,799
+we have some we have a how many numbers
+
+694
+00:25:47,120 --> 00:25:52,240
+what's the sum how many how many numbers
+
+695
+00:25:50,799 --> 00:25:53,039
+how many elements
+
+696
+00:25:52,240 --> 00:25:55,600
+are
+
+697
+00:25:53,039 --> 00:25:59,440
+a layer in in in here
+
+698
+00:25:55,600 --> 00:25:59,440
+how many numbers how many elements
+
+699
+00:25:59,520 --> 00:26:03,840
+and yeah so we just need to divide
+
+700
+00:26:01,279 --> 00:26:07,360
+divide n right this is sum yeah sum
+
+701
+00:26:03,840 --> 00:26:08,159
+divided by n is the average yeah
+
+702
+00:26:07,360 --> 00:26:10,240
+yeah
+
+703
+00:26:08,159 --> 00:26:12,080
+yeah this is average we don't you have
+
+704
+00:26:10,240 --> 00:26:15,120
+to get it so
+
+705
+00:26:12,080 --> 00:26:16,320
+overall this is the simplest clear and
+
+706
+00:26:15,120 --> 00:26:18,960
+uh
+
+707
+00:26:16,320 --> 00:26:21,760
+demonstration yeah so if
+
+708
+00:26:18,960 --> 00:26:24,320
+we use the average here but sometimes we
+
+709
+00:26:21,760 --> 00:26:26,480
+could use the weighted average right or
+
+710
+00:26:24,320 --> 00:26:28,240
+we could use the medium
+
+711
+00:26:26,480 --> 00:26:30,000
+or we could use some other functions
+
+712
+00:26:28,240 --> 00:26:32,960
+yeah this could be changed right this
+
+713
+00:26:30,000 --> 00:26:35,039
+could be adapted to different needs and
+
+714
+00:26:32,960 --> 00:26:38,000
+the sorting as i said could be
+
+715
+00:26:35,039 --> 00:26:38,880
+improved to okay login based on the heap
+
+716
+00:26:38,000 --> 00:26:40,720
+right
+
+717
+00:26:38,880 --> 00:26:42,240
+and then this input yeah input could be
+
+718
+00:26:40,720 --> 00:26:44,559
+different something it would be quite a
+
+719
+00:26:42,240 --> 00:26:46,159
+complex
+
+720
+00:26:44,559 --> 00:26:48,159
+you know complex
+
+721
+00:26:46,159 --> 00:26:50,400
+could be a vector right instead of
+
+722
+00:26:48,159 --> 00:26:52,480
+singular look this is x is the value
+
+723
+00:26:50,400 --> 00:26:53,360
+like how about it could be
+
+724
+00:26:52,480 --> 00:26:55,279
+a
+
+725
+00:26:53,360 --> 00:26:57,120
+a few variables right you could it could
+
+726
+00:26:55,279 --> 00:27:00,080
+be a vector and then you need to compute
+
+727
+00:26:57,120 --> 00:27:02,000
+the distance functions so the distance
+
+728
+00:27:00,080 --> 00:27:03,120
+function may not be may not be so
+
+729
+00:27:02,000 --> 00:27:04,559
+obvious because
+
+730
+00:27:03,120 --> 00:27:06,960
+in this case it's quite obvious yeah
+
+731
+00:27:04,559 --> 00:27:09,200
+because we're given a number f2 right
+
+732
+00:27:06,960 --> 00:27:11,279
+three what's the distance between three
+
+733
+00:27:09,200 --> 00:27:14,080
+and two easy three minus two distance
+
+734
+00:27:11,279 --> 00:27:16,000
+right absolute value right yeah
+
+735
+00:27:14,080 --> 00:27:18,559
+but it could be very complex distance
+
+736
+00:27:16,000 --> 00:27:20,960
+functions like it could be something you
+
+737
+00:27:18,559 --> 00:27:22,399
+know it could be a few uh
+
+738
+00:27:20,960 --> 00:27:26,080
+uh uh
+
+739
+00:27:22,399 --> 00:27:28,399
+a hundred values and what could be
+
+740
+00:27:26,080 --> 00:27:30,880
+distance by pitching those right
+
+741
+00:27:28,399 --> 00:27:31,840
+yeah or maybe two two values two values
+
+742
+00:27:30,880 --> 00:27:34,559
+x y
+
+743
+00:27:31,840 --> 00:27:36,720
+then you can calculate the distance at
+
+744
+00:27:34,559 --> 00:27:38,720
+distance yeah look if it's two elements
+
+745
+00:27:36,720 --> 00:27:41,600
+we could calculate the manhattan
+
+746
+00:27:38,720 --> 00:27:42,799
+distance we usually talk about right is
+
+747
+00:27:41,600 --> 00:27:46,080
+is what
+
+748
+00:27:42,799 --> 00:27:48,559
+absolute value of delta x data yeah data
+
+749
+00:27:46,080 --> 00:27:50,559
+what data is the difference between two
+
+750
+00:27:48,559 --> 00:27:52,880
+x values plus
+
+751
+00:27:50,559 --> 00:27:55,360
+absolute value of delta y okay
+
+752
+00:27:52,880 --> 00:27:59,120
+yeah or you could use this as a square
+
+753
+00:27:55,360 --> 00:28:01,679
+root from here square root beta x
+
+754
+00:27:59,120 --> 00:28:02,480
+square plus theta y
+
+755
+00:28:01,679 --> 00:28:03,600
+square
+
+756
+00:28:02,480 --> 00:28:05,840
+yeah the
+
+757
+00:28:03,600 --> 00:28:07,760
+less the two vector if there are even
+
+758
+00:28:05,840 --> 00:28:09,520
+input tangents to value and how about
+
+759
+00:28:07,760 --> 00:28:11,520
+three values so i value five values you
+
+760
+00:28:09,520 --> 00:28:14,399
+could define different distance
+
+761
+00:28:11,520 --> 00:28:17,200
+functions right for the input right
+
+762
+00:28:14,399 --> 00:28:19,440
+okay and data we talk about data data
+
+763
+00:28:17,200 --> 00:28:21,520
+could be very huge
+
+764
+00:28:19,440 --> 00:28:23,279
+so if it's very huge then the time the
+
+765
+00:28:21,520 --> 00:28:25,440
+performance of this kn could be very
+
+766
+00:28:23,279 --> 00:28:27,600
+slow because at real time you need to
+
+767
+00:28:25,440 --> 00:28:29,760
+evaluate the cost
+
+768
+00:28:27,600 --> 00:28:32,159
+of the input to the existing data in the
+
+769
+00:28:29,760 --> 00:28:33,600
+training set it could be slow right and
+
+770
+00:28:32,159 --> 00:28:36,320
+if we reduce that
+
+771
+00:28:33,600 --> 00:28:38,559
+if we reduce the data set
+
+772
+00:28:36,320 --> 00:28:41,279
+what what could happen accuracy might
+
+773
+00:28:38,559 --> 00:28:42,880
+might be my degree a lot right
+
+774
+00:28:41,279 --> 00:28:44,720
+it depends on how you choose the data
+
+775
+00:28:42,880 --> 00:28:46,880
+generally the more data
+
+776
+00:28:44,720 --> 00:28:48,480
+the better the higher p
+
+777
+00:28:46,880 --> 00:28:50,159
+accuracy am i right
+
+778
+00:28:48,480 --> 00:28:50,960
+yeah
+
+779
+00:28:50,159 --> 00:28:51,840
+yeah
+
+780
+00:28:50,960 --> 00:28:53,039
+but
+
+781
+00:28:51,840 --> 00:28:55,919
+as i said
+
+782
+00:28:53,039 --> 00:28:58,240
+the more data the slower and if we
+
+783
+00:28:55,919 --> 00:29:01,279
+reduce the number of the training data
+
+784
+00:28:58,240 --> 00:29:03,039
+we will also degrade the uh
+
+785
+00:29:01,279 --> 00:29:05,279
+degree the performance
+
+786
+00:29:03,039 --> 00:29:07,520
+right if only there are only a few data
+
+787
+00:29:05,279 --> 00:29:10,960
+sets then the prediction will be quite
+
+788
+00:29:07,520 --> 00:29:13,039
+highly biased right because it could be
+
+789
+00:29:10,960 --> 00:29:16,000
+it could be you know picking
+
+790
+00:29:13,039 --> 00:29:18,720
+some actual uh you know some incorrect
+
+791
+00:29:16,000 --> 00:29:21,360
+data sets data data points from this
+
+792
+00:29:18,720 --> 00:29:23,279
+data set it produced totally incorrect
+
+793
+00:29:21,360 --> 00:29:24,399
+prediction right and n equals three is
+
+794
+00:29:23,279 --> 00:29:26,799
+usually k
+
+795
+00:29:24,399 --> 00:29:27,840
+and k could be
+
+796
+00:29:26,799 --> 00:29:30,159
+five
+
+797
+00:29:27,840 --> 00:29:31,600
+seven you know nine those odd number
+
+798
+00:29:30,159 --> 00:29:33,840
+which is better right because we don't
+
+799
+00:29:31,600 --> 00:29:35,520
+we don't we don't want to avoid
+
+800
+00:29:33,840 --> 00:29:37,279
+we we don't want to you know we don't
+
+801
+00:29:35,520 --> 00:29:40,159
+want to
+
+802
+00:29:37,279 --> 00:29:42,960
+so why like n it needs to be odd because
+
+803
+00:29:40,159 --> 00:29:44,640
+we don't want the even votes right
+
+804
+00:29:42,960 --> 00:29:46,320
+as i said in the beginning triangle
+
+805
+00:29:44,640 --> 00:29:49,360
+square if we have
+
+806
+00:29:46,320 --> 00:29:51,360
+four if n equals four what could happen
+
+807
+00:29:49,360 --> 00:29:53,600
+two volts belongs to triangle two volts
+
+808
+00:29:51,360 --> 00:29:56,720
+belong to square and then we can make a
+
+809
+00:29:53,600 --> 00:29:59,440
+choice right but if it's k equals three
+
+810
+00:29:56,720 --> 00:30:01,520
+then we always can make a choice right
+
+811
+00:29:59,440 --> 00:30:03,200
+because there's a majority right that's
+
+812
+00:30:01,520 --> 00:30:05,760
+the majority
+
+813
+00:30:03,200 --> 00:30:07,120
+uh okay so that that's the k n that's
+
+814
+00:30:05,760 --> 00:30:09,679
+the machine learning that's the very
+
+815
+00:30:07,120 --> 00:30:12,720
+simplest machine learning accurate model
+
+816
+00:30:09,679 --> 00:30:15,360
+okay any questions so far
+
+817
+00:30:12,720 --> 00:30:17,440
+is it interesting useful
+
+818
+00:30:15,360 --> 00:30:20,240
+yeah it's for yeah
+
+819
+00:30:17,440 --> 00:30:23,200
+you see only one nine two one three nine
+
+820
+00:30:20,240 --> 00:30:25,440
+three nines implement of knm machine
+
+821
+00:30:23,200 --> 00:30:27,679
+learning algorithm okay
+
+822
+00:30:25,440 --> 00:30:29,919
+you see how powerful is that
+
+823
+00:30:27,679 --> 00:30:30,720
+okay
+
+824
+00:30:29,919 --> 00:30:33,200
+yeah
+
+825
+00:30:30,720 --> 00:30:34,159
+okay you want to say bye bye to people
+
+826
+00:30:33,200 --> 00:30:36,640
+bye
+
+827
+00:30:34,159 --> 00:30:39,520
+bye bye more update please can you be
+
+828
+00:30:36,640 --> 00:30:39,520
+more happy please
+
+829
+00:30:39,760 --> 00:30:43,159
+okay bye
+
