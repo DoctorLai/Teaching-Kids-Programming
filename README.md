@@ -308,7 +308,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Machine Learning 机器学习
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Introduction to KNN Machine Learning Algorithm | KNN机器学习算法简介 - KNN的Python实现 | [Youtube](https://youtu.be/gjGwaUaqzrI) - [B站](https://www.bilibili.com/video/BV113411C79k/) | [Introduction to KNN Machine Learning Algorithm](https://helloacm.com/teaching-kids-programming-introduction-to-knn-machine-learning-algorithm/) | 2021-10-10 |
+| Introduction to KNN Machine Learning Algorithm | KNN机器学习算法简介 - KNN的Python实现 | [Youtube](https://youtu.be/gjGwaUaqzrI) - [B站](https://www.bilibili.com/video/BV113411C79k/) - [西瓜](https://www.ixigua.com/7017715520304906765) | [Introduction to KNN Machine Learning Algorithm](https://helloacm.com/teaching-kids-programming-introduction-to-knn-machine-learning-algorithm/) | 2021-10-10 |
 
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
