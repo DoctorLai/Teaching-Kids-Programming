@@ -305,6 +305,11 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Matrix Prefix Sum Algorithm | 矩阵前缀和算法 | [Youtube](https://youtu.be/lS3LtoYA3FA) - [B站](https://www.bilibili.com/video/BV1Bb4y1S7dT/) | [Matrix Prefix Sum Algorithm](https://helloacm.com/teaching-kids-programming-matrix-prefix-sum-algorithm/) | 2021-08-22 |
 | Prefix Sum Algorithm to Compute the Interval Sums | 前缀求线段区间和算法 Prefix Sum | [Youtube](https://www.youtube.com/watch?v=jWk6b6rx5xg) - [B站](https://www.bilibili.com/video/BV19a4y1J7RJ/) | [Prefix Sum Algorithm to Compute the Interval Sums](https://helloacm.com/teaching-kids-programming-prefix-sum-algorithm-to-compute-the-interval-sums/) | 2020-12-27 |
 
+## Machine Learning 机器学习
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Introduction to KNN Machine Learning Algorithm | KNN机器学习算法简介 - KNN的Python实现 | [Youtube](https://youtu.be/gjGwaUaqzrI) - [B站](https://www.bilibili.com/video/BV113411C79k/) | [Introduction to KNN Machine Learning Algorithm](https://helloacm.com/teaching-kids-programming-introduction-to-knn-machine-learning-algorithm/) | 2021-10-10 |
+
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
