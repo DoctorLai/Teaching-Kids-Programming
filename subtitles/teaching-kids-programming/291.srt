@@ -1,0 +1,1964 @@
+1
+00:00:00,640 --> 00:00:04,880
+hello
+
+2
+00:00:01,680 --> 00:00:07,040
+hello mr mrwan how are you good okay
+
+3
+00:00:04,880 --> 00:00:09,760
+today we're going to talk about the old
+
+4
+00:00:07,040 --> 00:00:12,320
+power gym yeah what's perignon
+
+5
+00:00:09,760 --> 00:00:14,920
+the word when universes is the same can
+
+6
+00:00:12,320 --> 00:00:21,279
+you tell me an example race
+
+7
+00:00:14,920 --> 00:00:21,279
+car and any more i got that bob's place
+
+8
+00:00:23,279 --> 00:00:30,160
+yeah bob okay i'll pop yeah bob is it
+
+9
+00:00:27,199 --> 00:00:32,960
+bob okay yeah
+
+10
+00:00:30,160 --> 00:00:34,480
+how do we check it by the way reverse it
+
+11
+00:00:32,960 --> 00:00:36,239
+yeah we can reverse it and check it with
+
+12
+00:00:34,480 --> 00:00:38,559
+the thumb yeah we reverse it
+
+13
+00:00:36,239 --> 00:00:40,079
+that's one thing oh we can use two
+
+14
+00:00:38,559 --> 00:00:41,600
+pointer thing and check carry to buy a
+
+15
+00:00:40,079 --> 00:00:43,120
+character until the meat in the window
+
+16
+00:00:41,600 --> 00:00:45,200
+yeah yeah
+
+17
+00:00:43,120 --> 00:00:46,800
+yeah that's one easy way okay so today
+
+18
+00:00:45,200 --> 00:00:49,680
+we want to talk about oddparent what
+
+19
+00:00:46,800 --> 00:00:51,810
+does it mean so given a string like uh
+
+20
+00:00:49,680 --> 00:00:53,760
+you know let's give it a string a b
+
+21
+00:00:51,810 --> 00:00:55,039
+[Music]
+
+22
+00:00:53,760 --> 00:00:56,879
+let's just give this a string for
+
+23
+00:00:55,039 --> 00:01:00,160
+example like a bob
+
+24
+00:00:56,879 --> 00:01:02,320
+okay bob yay we want to find out the
+
+25
+00:01:00,160 --> 00:01:04,879
+soft strings the pen interest actually
+
+26
+00:01:02,320 --> 00:01:07,439
+okay so we uh any
+
+27
+00:01:04,879 --> 00:01:10,159
+uh what's what's the substring
+
+28
+00:01:07,439 --> 00:01:10,159
+substrings
+
+29
+00:01:10,320 --> 00:01:13,840
+what's sub strings both
+
+30
+00:01:14,080 --> 00:01:19,040
+what's substring sometimes a string
+
+31
+00:01:16,479 --> 00:01:21,920
+yeah which is what stop sensing how many
+
+32
+00:01:19,040 --> 00:01:23,840
+substrings can we have for the pop
+
+33
+00:01:21,920 --> 00:01:26,479
+one two three six
+
+34
+00:01:23,840 --> 00:01:26,479
+what are those
+
+35
+00:01:29,310 --> 00:01:41,640
+[Music]
+
+36
+00:01:38,640 --> 00:01:41,640
+oh
+
+37
+00:01:50,320 --> 00:01:55,040
+okay including an empty string is the
+
+38
+00:01:53,119 --> 00:01:57,759
+string is also kind of substring yeah a
+
+39
+00:01:55,040 --> 00:02:01,520
+special subject so it's a six six
+
+40
+00:01:57,759 --> 00:02:04,719
+section so among of those what uh which
+
+41
+00:02:01,520 --> 00:02:07,680
+are the pattern zones the substrings
+
+42
+00:02:04,719 --> 00:02:08,959
+how many of those are such things
+
+43
+00:02:07,680 --> 00:02:10,160
+this one is
+
+44
+00:02:08,959 --> 00:02:13,520
+yeah
+
+45
+00:02:10,160 --> 00:02:14,959
+okay this one maybe yes this one is yeah
+
+46
+00:02:13,520 --> 00:02:17,360
+single character
+
+47
+00:02:14,959 --> 00:02:19,200
+character right this one no right this
+
+48
+00:02:17,360 --> 00:02:20,560
+one no this one yes right
+
+49
+00:02:19,200 --> 00:02:22,879
+yeah
+
+50
+00:02:20,560 --> 00:02:25,360
+a layer any even
+
+51
+00:02:22,879 --> 00:02:28,800
+parent drums so the the the side the
+
+52
+00:02:25,360 --> 00:02:29,680
+lens is even are there any even present
+
+53
+00:02:28,800 --> 00:02:32,319
+here
+
+54
+00:02:29,680 --> 00:02:33,280
+no there oh yeah this this can tell you
+
+55
+00:02:32,319 --> 00:02:35,360
+uh
+
+56
+00:02:33,280 --> 00:02:35,360
+no
+
+57
+00:02:45,720 --> 00:02:50,440
+[Music]
+
+58
+00:02:47,440 --> 00:02:50,440
+okay
+
+59
+00:02:56,000 --> 00:03:00,560
+okay so you understand so we're given a
+
+60
+00:02:58,159 --> 00:03:03,040
+string okay so our task is to find out
+
+61
+00:03:00,560 --> 00:03:04,800
+if there are any pendulum which are the
+
+62
+00:03:03,040 --> 00:03:07,120
+size of
+
+63
+00:03:04,800 --> 00:03:08,640
+which are all uh you know all the sides
+
+64
+00:03:07,120 --> 00:03:10,319
+of the
+
+65
+00:03:08,640 --> 00:03:11,200
+peninsula uh
+
+66
+00:03:10,319 --> 00:03:12,400
+even
+
+67
+00:03:11,200 --> 00:03:13,920
+all the soil
+
+68
+00:03:12,400 --> 00:03:15,040
+okay
+
+69
+00:03:13,920 --> 00:03:18,480
+uh
+
+70
+00:03:15,040 --> 00:03:19,920
+okay okay do i make myself clear yeah so
+
+71
+00:03:18,480 --> 00:03:21,680
+given a string
+
+72
+00:03:19,920 --> 00:03:24,319
+we want to find
+
+73
+00:03:21,680 --> 00:03:26,000
+or to check if all
+
+74
+00:03:24,319 --> 00:03:28,560
+palindrome okay first of all it has to
+
+75
+00:03:26,000 --> 00:03:31,799
+be plain syndrome paddington
+
+76
+00:03:28,560 --> 00:03:31,799
+soft strings
+
+77
+00:03:32,480 --> 00:03:38,319
+uh odd off size okay all size
+
+78
+00:03:36,400 --> 00:03:40,239
+size so it doesn't make it doesn't mean
+
+79
+00:03:38,319 --> 00:03:43,920
+that there can't be
+
+80
+00:03:40,239 --> 00:03:47,840
+any challenges that are even sized okay
+
+81
+00:03:43,920 --> 00:03:47,840
+for example like what
+
+82
+00:03:50,959 --> 00:03:53,840
+c
+
+83
+00:03:52,000 --> 00:03:55,760
+a c okay so
+
+84
+00:03:53,840 --> 00:03:57,040
+for this one
+
+85
+00:03:55,760 --> 00:03:58,319
+for this one
+
+86
+00:03:57,040 --> 00:04:00,319
+what's that
+
+87
+00:03:58,319 --> 00:04:03,519
+can you find any panning drone that that
+
+88
+00:04:00,319 --> 00:04:04,319
+is uh even size um
+
+89
+00:04:03,519 --> 00:04:06,799
+yeah
+
+90
+00:04:04,319 --> 00:04:07,840
+cat and oh yeah that's it
+
+91
+00:04:06,799 --> 00:04:10,319
+is uh
+
+92
+00:04:07,840 --> 00:04:12,159
+all size okay so what we want we also
+
+93
+00:04:10,319 --> 00:04:13,519
+check if all the planets in substring
+
+94
+00:04:12,159 --> 00:04:16,320
+are all sides
+
+95
+00:04:13,519 --> 00:04:17,840
+any example any idea
+
+96
+00:04:16,320 --> 00:04:19,759
+um
+
+97
+00:04:17,840 --> 00:04:24,000
+any idea the first thing comes to mind
+
+98
+00:04:19,759 --> 00:04:26,800
+is what a palliative that has
+
+99
+00:04:24,000 --> 00:04:29,199
+an odd number we want to find out if all
+
+100
+00:04:26,800 --> 00:04:31,520
+the terms on substring are outside so if
+
+101
+00:04:29,199 --> 00:04:33,680
+they are even sides we need to say false
+
+102
+00:04:31,520 --> 00:04:36,080
+otherwise we will say yes
+
+103
+00:04:33,680 --> 00:04:39,120
+so for this one we said true false
+
+104
+00:04:36,080 --> 00:04:43,360
+because we find out that
+
+105
+00:04:39,120 --> 00:04:46,160
+these are even right but for this cac
+
+106
+00:04:43,360 --> 00:04:48,080
+we find we said yes because all the
+
+107
+00:04:46,160 --> 00:04:49,919
+subs uh particular substrings are
+
+108
+00:04:48,080 --> 00:04:52,720
+awesome
+
+109
+00:04:49,919 --> 00:04:54,560
+and this is even size so it's it's not
+
+110
+00:04:52,720 --> 00:04:57,840
+right
+
+111
+00:04:54,560 --> 00:04:57,840
+do i make
+
+112
+00:05:00,320 --> 00:05:03,440
+so you just need to find the paradigm
+
+113
+00:05:02,080 --> 00:05:06,400
+that has
+
+114
+00:05:03,440 --> 00:05:07,680
+an odd number of letters
+
+115
+00:05:06,400 --> 00:05:09,680
+we want to find out if there are
+
+116
+00:05:07,680 --> 00:05:11,759
+problems on that are even sides right if
+
+117
+00:05:09,680 --> 00:05:14,320
+they are even then we just return
+
+118
+00:05:11,759 --> 00:05:16,479
+immediately right twelves yeah okay so
+
+119
+00:05:14,320 --> 00:05:18,960
+any idea how can we do this this well
+
+120
+00:05:16,479 --> 00:05:20,160
+this is clever thing yeah we can prove
+
+121
+00:05:18,960 --> 00:05:22,639
+always
+
+122
+00:05:20,160 --> 00:05:24,560
+how do we proof us all the substrings in
+
+123
+00:05:22,639 --> 00:05:27,600
+what was the term complexity if we put
+
+124
+00:05:24,560 --> 00:05:27,600
+force all the substances
+
+125
+00:05:27,680 --> 00:05:32,880
+yeah if we prove us the substring how
+
+126
+00:05:29,680 --> 00:05:32,880
+what's the time complexity
+
+127
+00:05:34,800 --> 00:05:38,720
+oh and
+
+128
+00:05:36,160 --> 00:05:41,680
+4x square yeah because look if
+
+129
+00:05:38,720 --> 00:05:45,039
+a b c d okay what's the subject if we
+
+130
+00:05:41,680 --> 00:05:47,360
+have we have a left left pointer when we
+
+131
+00:05:45,039 --> 00:05:50,400
+make sure the left we we have another
+
+132
+00:05:47,360 --> 00:05:53,120
+loop to go uh to determine uh the right
+
+133
+00:05:50,400 --> 00:05:55,120
+pointer right okay okay so let's do it
+
+134
+00:05:53,120 --> 00:05:56,880
+and now let's
+
+135
+00:05:55,120 --> 00:05:58,720
+define
+
+136
+00:05:56,880 --> 00:06:00,639
+oh
+
+137
+00:05:58,720 --> 00:06:02,800
+odd parent okay
+
+138
+00:06:00,639 --> 00:06:05,280
+we want to find out all paddington all
+
+139
+00:06:02,800 --> 00:06:07,840
+the prince's substrings are all sized
+
+140
+00:06:05,280 --> 00:06:11,120
+okay let's say s
+
+141
+00:06:07,840 --> 00:06:12,960
+and equals length as well
+
+142
+00:06:11,120 --> 00:06:14,639
+for
+
+143
+00:06:12,960 --> 00:06:17,280
+i
+
+144
+00:06:14,639 --> 00:06:18,560
+in range
+
+145
+00:06:17,280 --> 00:06:21,360
+and right
+
+146
+00:06:18,560 --> 00:06:23,120
+right the eye is the left right right
+
+147
+00:06:21,360 --> 00:06:27,600
+yeah and then the right what should we
+
+148
+00:06:23,120 --> 00:06:27,600
+start with the right for j in range
+
+149
+00:06:27,759 --> 00:06:30,240
+whenever
+
+150
+00:06:31,280 --> 00:06:37,600
+i is the left j is what so it is from i
+
+151
+00:06:34,880 --> 00:06:39,759
+to n right yeah yeah and then we want to
+
+152
+00:06:37,600 --> 00:06:41,520
+try how do we check the parameters let's
+
+153
+00:06:39,759 --> 00:06:44,319
+say we we check the function check
+
+154
+00:06:41,520 --> 00:06:48,240
+pressure actually we want it here we can
+
+155
+00:06:44,319 --> 00:06:48,240
+just simply we cannot return this look
+
+156
+00:06:52,720 --> 00:06:55,809
+[Music]
+
+157
+00:07:01,199 --> 00:07:07,039
+yeah like i j equals zero zero right
+
+158
+00:07:04,880 --> 00:07:10,160
+zero
+
+159
+00:07:07,039 --> 00:07:12,639
+then s minus one and y
+
+160
+00:07:10,160 --> 00:07:15,039
+i smaller than j
+
+161
+00:07:12,639 --> 00:07:17,599
+if s i
+
+162
+00:07:15,039 --> 00:07:20,800
+not equal sj
+
+163
+00:07:17,599 --> 00:07:21,680
+then we do time false right
+
+164
+00:07:20,800 --> 00:07:24,639
+okay
+
+165
+00:07:21,680 --> 00:07:26,560
+otherwise i plus equals one and j minus
+
+166
+00:07:24,639 --> 00:07:28,000
+equals one right and then return true
+
+167
+00:07:26,560 --> 00:07:29,599
+got it
+
+168
+00:07:28,000 --> 00:07:30,800
+doesn't make sense
+
+169
+00:07:29,599 --> 00:07:31,599
+yeah
+
+170
+00:07:30,800 --> 00:07:32,560
+yeah
+
+171
+00:07:31,599 --> 00:07:34,960
+all right
+
+172
+00:07:32,560 --> 00:07:36,400
+look at me what am i doing here what's
+
+173
+00:07:34,960 --> 00:07:38,400
+this part doing here can you tell me
+
+174
+00:07:36,400 --> 00:07:40,639
+what's this part doing here
+
+175
+00:07:38,400 --> 00:07:41,479
+what does this mean
+
+176
+00:07:40,639 --> 00:07:44,960
+so
+
+177
+00:07:41,479 --> 00:07:44,960
+technically is
+
+178
+00:07:52,960 --> 00:07:56,639
+i know you know it i was just checking
+
+179
+00:07:54,720 --> 00:07:58,479
+if you're paying attention okay
+
+180
+00:07:56,639 --> 00:08:01,280
+yeah yeah okay
+
+181
+00:07:58,479 --> 00:08:03,680
+now look if checking and then look look
+
+182
+00:08:01,280 --> 00:08:06,000
+what's the what's that if the index from
+
+183
+00:08:03,680 --> 00:08:08,240
+goes from i to j inclusive okay so
+
+184
+00:08:06,000 --> 00:08:10,080
+what's the string what's the string the
+
+185
+00:08:08,240 --> 00:08:14,000
+string the substring okay at the same
+
+186
+00:08:10,080 --> 00:08:16,000
+string equals one s start from i to j
+
+187
+00:08:14,000 --> 00:08:16,960
+plus one right all right
+
+188
+00:08:16,000 --> 00:08:19,120
+right
+
+189
+00:08:16,960 --> 00:08:21,520
+if
+
+190
+00:08:19,120 --> 00:08:24,319
+if we find the pending jump
+
+191
+00:08:21,520 --> 00:08:28,319
+if this is a parent drum and it's
+
+192
+00:08:24,319 --> 00:08:30,560
+offside it's even size right so
+
+193
+00:08:28,319 --> 00:08:33,200
+how do we check its events as uh outside
+
+194
+00:08:30,560 --> 00:08:36,159
+uh even sorry
+
+195
+00:08:33,200 --> 00:08:38,560
+no no no the i to j i to j inclusive how
+
+196
+00:08:36,159 --> 00:08:41,120
+many sides of this how many sides from i
+
+197
+00:08:38,560 --> 00:08:43,839
+to j how many characters are there
+
+198
+00:08:41,120 --> 00:08:46,160
+if j minus i
+
+199
+00:08:43,839 --> 00:08:48,399
+plus one right then that's how many
+
+200
+00:08:46,160 --> 00:08:52,560
+characters from i to j
+
+201
+00:08:48,399 --> 00:08:55,040
+if this end one yeah or modular two yeah
+
+202
+00:08:52,560 --> 00:08:55,040
+model
+
+203
+00:09:06,959 --> 00:09:11,600
+equals zero it means this is the even
+
+204
+00:09:08,880 --> 00:09:13,360
+number and you check this st is the
+
+205
+00:09:11,600 --> 00:09:15,760
+parent zone we return
+
+206
+00:09:13,360 --> 00:09:17,440
+we return to return fourth right
+
+207
+00:09:15,760 --> 00:09:19,440
+return first
+
+208
+00:09:17,440 --> 00:09:20,399
+and then what what's missing here return
+
+209
+00:09:19,440 --> 00:09:21,360
+one
+
+210
+00:09:20,399 --> 00:09:23,680
+turn
+
+211
+00:09:21,360 --> 00:09:25,440
+what's missing after two yeah whether
+
+212
+00:09:23,680 --> 00:09:28,000
+what's the time constraint okay what's
+
+213
+00:09:25,440 --> 00:09:29,980
+the terms number three
+
+214
+00:09:28,000 --> 00:09:31,600
+what's the time complexity come on
+
+215
+00:09:29,980 --> 00:09:32,480
+[Applause]
+
+216
+00:09:31,600 --> 00:09:34,880
+square
+
+217
+00:09:32,480 --> 00:09:37,360
+this is one double places one loop and
+
+218
+00:09:34,880 --> 00:09:39,440
+then we need to check out what
+
+219
+00:09:37,360 --> 00:09:42,480
+we're done because the here
+
+220
+00:09:39,440 --> 00:09:45,120
+here is another end right
+
+221
+00:09:42,480 --> 00:09:46,640
+however we can improve this right we can
+
+222
+00:09:45,120 --> 00:09:49,200
+increase
+
+223
+00:09:46,640 --> 00:09:51,920
+all right look at me please right
+
+224
+00:09:49,200 --> 00:09:55,120
+do we actually need to check the go you
+
+225
+00:09:51,920 --> 00:09:56,720
+know go through the these right we can
+
+226
+00:09:55,120 --> 00:09:58,800
+get rid of these right because we are
+
+227
+00:09:56,720 --> 00:10:00,959
+now we need to first of all check if the
+
+228
+00:09:58,800 --> 00:10:04,399
+length is an even number but instead of
+
+229
+00:10:00,959 --> 00:10:06,640
+this we can do this look i plus one we
+
+230
+00:10:04,399 --> 00:10:09,200
+go through the the right would be l is i
+
+231
+00:10:06,640 --> 00:10:10,800
+plus one to n and then we put a step
+
+232
+00:10:09,200 --> 00:10:12,000
+here
+
+233
+00:10:10,800 --> 00:10:13,680
+yeah
+
+234
+00:10:12,000 --> 00:10:15,680
+what's this two mean
+
+235
+00:10:13,680 --> 00:10:19,360
+wait i don't see
+
+236
+00:10:15,680 --> 00:10:21,519
+i plus one to n j and two yeah so every
+
+237
+00:10:19,360 --> 00:10:23,760
+time we skip two because uh
+
+238
+00:10:21,519 --> 00:10:25,519
+even number x two is also even number
+
+239
+00:10:23,760 --> 00:10:27,600
+right yeah
+
+240
+00:10:25,519 --> 00:10:30,320
+yeah yeah i know we can get rid of which
+
+241
+00:10:27,600 --> 00:10:33,839
+parts
+
+242
+00:10:30,320 --> 00:10:33,839
+that one which
+
+243
+00:10:36,560 --> 00:10:40,079
+we always want to check we don't want to
+
+244
+00:10:38,240 --> 00:10:43,440
+get rid of this because we already know
+
+245
+00:10:40,079 --> 00:10:46,079
+this is an even number skipping at 2.
+
+246
+00:10:43,440 --> 00:10:48,880
+come on so we can get rid of that right
+
+247
+00:10:46,079 --> 00:10:51,120
+right so it will be easier right
+
+248
+00:10:48,880 --> 00:10:53,680
+let's all incubate it's not very good
+
+249
+00:10:51,120 --> 00:10:55,839
+okay so how can we improve it
+
+250
+00:10:53,680 --> 00:10:57,920
+okay so can you tell me what's the
+
+251
+00:10:55,839 --> 00:11:01,200
+what's the can you give me a few
+
+252
+00:10:57,920 --> 00:11:02,959
+patterns which are even sized pink
+
+253
+00:11:01,200 --> 00:11:04,480
+anymore anymore
+
+254
+00:11:02,959 --> 00:11:06,800
+anymore
+
+255
+00:11:04,480 --> 00:11:06,800
+um
+
+256
+00:11:07,519 --> 00:11:09,920
+um
+
+257
+00:11:08,399 --> 00:11:12,399
+any more
+
+258
+00:11:09,920 --> 00:11:15,040
+a let me think let me see
+
+259
+00:11:12,399 --> 00:11:17,200
+a race card no okay
+
+260
+00:11:15,040 --> 00:11:18,880
+what else
+
+261
+00:11:17,200 --> 00:11:22,480
+hmm let me think let me think let me
+
+262
+00:11:18,880 --> 00:11:24,160
+think bad this is not this is odd
+
+263
+00:11:22,480 --> 00:11:24,500
+what else
+
+264
+00:11:24,160 --> 00:11:26,160
+um
+
+265
+00:11:24,500 --> 00:11:27,360
+[Music]
+
+266
+00:11:26,160 --> 00:11:29,440
+anymore
+
+267
+00:11:27,360 --> 00:11:31,680
+you said this
+
+268
+00:11:29,440 --> 00:11:31,680
+huh
+
+269
+00:11:34,240 --> 00:11:38,399
+come on give me one more example which
+
+270
+00:11:35,920 --> 00:11:40,000
+is pendulum and even
+
+271
+00:11:38,399 --> 00:11:43,000
+okay
+
+272
+00:11:40,000 --> 00:11:43,000
+okay
+
+273
+00:11:55,040 --> 00:12:00,959
+okay so what what's
+
+274
+00:11:57,040 --> 00:12:00,959
+i got one more okay what's that
+
+275
+00:12:01,200 --> 00:12:06,240
+already okay
+
+276
+00:12:03,680 --> 00:12:08,079
+listen to me if it's a peninsula if it's
+
+277
+00:12:06,240 --> 00:12:10,000
+even side what does it mean we can fold
+
+278
+00:12:08,079 --> 00:12:11,200
+it right we can fold it so what does it
+
+279
+00:12:10,000 --> 00:12:13,279
+mean
+
+280
+00:12:11,200 --> 00:12:15,519
+look we can fold it in the middle yeah
+
+281
+00:12:13,279 --> 00:12:18,720
+then we can fold it yeah
+
+282
+00:12:15,519 --> 00:12:18,720
+and then what does this mean
+
+283
+00:12:18,880 --> 00:12:22,560
+there are two continuous characters
+
+284
+00:12:21,200 --> 00:12:25,040
+right
+
+285
+00:12:22,560 --> 00:12:27,120
+yeah isn't just like a mirror it's like
+
+286
+00:12:25,040 --> 00:12:30,079
+a mineral so that the these two
+
+287
+00:12:27,120 --> 00:12:31,440
+characters there should be if it's not
+
+288
+00:12:30,079 --> 00:12:32,800
+like a mirror
+
+289
+00:12:31,440 --> 00:12:35,440
+at least
+
+290
+00:12:32,800 --> 00:12:35,440
+everywhere
+
+291
+00:12:36,560 --> 00:12:42,800
+this is a mirror
+
+292
+00:12:39,839 --> 00:12:42,800
+okay and then
+
+293
+00:12:43,519 --> 00:12:48,079
+that's what's in there okay i see what
+
+294
+00:12:45,680 --> 00:12:48,079
+it means
+
+295
+00:12:48,399 --> 00:12:52,590
+what i was saying is that if it's a evil
+
+296
+00:12:50,639 --> 00:12:53,680
+laser even padding drum right
+
+297
+00:12:52,590 --> 00:12:56,639
+[Music]
+
+298
+00:12:53,680 --> 00:12:58,800
+i rely on for the last time come on yes
+
+299
+00:12:56,639 --> 00:13:01,120
+if it's even fair enough
+
+300
+00:12:58,800 --> 00:13:03,120
+there are two characters which needs to
+
+301
+00:13:01,120 --> 00:13:05,120
+be the same right yeah
+
+302
+00:13:03,120 --> 00:13:07,920
+and what does that mean if the original
+
+303
+00:13:05,120 --> 00:13:09,519
+question if they are original if there
+
+304
+00:13:07,920 --> 00:13:11,600
+is a string we want to find out if all
+
+305
+00:13:09,519 --> 00:13:12,560
+the paragraphs us
+
+306
+00:13:11,600 --> 00:13:14,880
+yeah
+
+307
+00:13:12,560 --> 00:13:16,079
+parents and substitutes are
+
+308
+00:13:14,880 --> 00:13:17,360
+er
+
+309
+00:13:16,079 --> 00:13:19,279
+what does it mean
+
+310
+00:13:17,360 --> 00:13:22,000
+what does it mean so we want to check
+
+311
+00:13:19,279 --> 00:13:24,560
+for if they are
+
+312
+00:13:22,000 --> 00:13:25,440
+if they are too continuous
+
+313
+00:13:24,560 --> 00:13:28,399
+that
+
+314
+00:13:25,440 --> 00:13:32,639
+if it is then it's false right
+
+315
+00:13:28,399 --> 00:13:32,639
+oh yes am i right yes
+
+316
+00:13:35,200 --> 00:13:39,600
+hurry up
+
+317
+00:13:37,440 --> 00:13:43,440
+can you repeat what i'm saying
+
+318
+00:13:39,600 --> 00:13:43,440
+huh can you repeat what i'm saying
+
+319
+00:13:51,760 --> 00:13:56,240
+what i'm saying is that if they are even
+
+320
+00:13:53,600 --> 00:14:00,000
+number pendulum if a pendulum is even
+
+321
+00:13:56,240 --> 00:14:03,600
+number the they they they will be two
+
+322
+00:14:00,000 --> 00:14:07,760
+continuous consecutive yeah consecutive
+
+323
+00:14:03,600 --> 00:14:09,519
+consecutive same letters all right
+
+324
+00:14:07,760 --> 00:14:11,519
+yeah yeah
+
+325
+00:14:09,519 --> 00:14:13,199
+okay so the original question is can we
+
+326
+00:14:11,519 --> 00:14:16,320
+find a peninsula
+
+327
+00:14:13,199 --> 00:14:18,639
+can uh earlier or all the peninsula such
+
+328
+00:14:16,320 --> 00:14:21,120
+students are outside
+
+329
+00:14:18,639 --> 00:14:24,320
+so we can check we can check if there
+
+330
+00:14:21,120 --> 00:14:27,040
+are consecutive send letters if they are
+
+331
+00:14:24,320 --> 00:14:29,360
+it means that there should be a parent
+
+332
+00:14:27,040 --> 00:14:31,199
+which is even says am right
+
+333
+00:14:29,360 --> 00:14:34,639
+okay so we can turn original question
+
+334
+00:14:31,199 --> 00:14:36,639
+into this this question am i right yeah
+
+335
+00:14:34,639 --> 00:14:40,079
+okay so how do we check it
+
+336
+00:14:36,639 --> 00:14:41,040
+um take it like this how do we check it
+
+337
+00:14:40,079 --> 00:14:42,880
+okay so
+
+338
+00:14:41,040 --> 00:14:44,880
+i'm going to write it quickly and you
+
+339
+00:14:42,880 --> 00:14:46,399
+can tell me if if the original question
+
+340
+00:14:44,880 --> 00:14:51,760
+is yes or no right
+
+341
+00:14:46,399 --> 00:14:53,680
+a a c b e f g okay original question if
+
+342
+00:14:51,760 --> 00:14:55,120
+they are or if all the planing
+
+343
+00:14:53,680 --> 00:14:58,079
+substrings are
+
+344
+00:14:55,120 --> 00:14:59,600
+numbers okay so what is this one
+
+345
+00:14:58,079 --> 00:15:03,360
+come on look at it
+
+346
+00:14:59,600 --> 00:15:05,199
+it's not why why it's not because
+
+347
+00:15:03,360 --> 00:15:10,180
+because i guess
+
+348
+00:15:05,199 --> 00:15:12,959
+three three one odd sorry so sorry what
+
+349
+00:15:10,180 --> 00:15:14,560
+[Music]
+
+350
+00:15:12,959 --> 00:15:16,560
+one
+
+351
+00:15:14,560 --> 00:15:18,240
+yeah but we the original question is
+
+352
+00:15:16,560 --> 00:15:20,800
+that we want to find out if all the
+
+353
+00:15:18,240 --> 00:15:23,040
+products on such string are all numbers
+
+354
+00:15:20,800 --> 00:15:24,320
+yeah okay okay another one just to make
+
+355
+00:15:23,040 --> 00:15:27,600
+sure you understand
+
+356
+00:15:24,320 --> 00:15:30,560
+c e f g
+
+357
+00:15:27,600 --> 00:15:32,800
+h i that's enough yes
+
+358
+00:15:30,560 --> 00:15:35,360
+two of us three
+
+359
+00:15:32,800 --> 00:15:35,360
+thousand folks
+
+360
+00:15:35,440 --> 00:15:40,800
+if you say false you need to tell me
+
+361
+00:15:37,440 --> 00:15:43,120
+which which two are the even size no i
+
+362
+00:15:40,800 --> 00:15:45,040
+see e f g h i
+
+363
+00:15:43,120 --> 00:15:46,959
+no no the pentagon needs to be pennies
+
+364
+00:15:45,040 --> 00:15:48,320
+no i don't think i don't think there is
+
+365
+00:15:46,959 --> 00:15:51,839
+one
+
+366
+00:15:48,320 --> 00:15:55,040
+then it's true right yeah yeah okay okay
+
+367
+00:15:51,839 --> 00:15:55,040
+c e f
+
+368
+00:15:58,240 --> 00:16:02,480
+so the question is we need to check if
+
+369
+00:16:00,160 --> 00:16:05,839
+they have two consecutive right because
+
+370
+00:16:02,480 --> 00:16:09,120
+if they are if i just say if they are
+
+371
+00:16:05,839 --> 00:16:11,040
+like this yeah there's only one unique
+
+372
+00:16:09,120 --> 00:16:13,120
+yeah yeah yeah that's that's right if
+
+373
+00:16:11,040 --> 00:16:13,920
+they are even pending drums what does it
+
+374
+00:16:13,120 --> 00:16:16,000
+mean
+
+375
+00:16:13,920 --> 00:16:20,000
+if they are even pendulum what does it
+
+376
+00:16:16,000 --> 00:16:22,800
+mean it means that it's a
+
+377
+00:16:20,000 --> 00:16:25,600
+no yeah it's false and then
+
+378
+00:16:22,800 --> 00:16:27,920
+there must be a two consecutive same
+
+379
+00:16:25,600 --> 00:16:29,360
+letter right to make up even parents all
+
+380
+00:16:27,920 --> 00:16:31,440
+right because
+
+381
+00:16:29,360 --> 00:16:33,360
+got it this is the most important thing
+
+382
+00:16:31,440 --> 00:16:36,800
+to remember do you understand
+
+383
+00:16:33,360 --> 00:16:36,800
+yeah yeah no yeah
+
+384
+00:16:41,600 --> 00:16:46,079
+these two kinds of planning this one is
+
+385
+00:16:43,600 --> 00:16:48,320
+even this one is all number right
+
+386
+00:16:46,079 --> 00:16:50,959
+yeah all number there's only one single
+
+387
+00:16:48,320 --> 00:16:52,639
+in the meter but even size what does it
+
+388
+00:16:50,959 --> 00:16:54,480
+mean there are two
+
+389
+00:16:52,639 --> 00:16:57,279
+in the middle
+
+390
+00:16:54,480 --> 00:16:59,199
+there are two in the middle consecutive
+
+391
+00:16:57,279 --> 00:17:01,040
+got it
+
+392
+00:16:59,199 --> 00:17:02,720
+okay let's try this
+
+393
+00:17:01,040 --> 00:17:06,640
+define
+
+394
+00:17:02,720 --> 00:17:06,640
+check let's just do a check s
+
+395
+00:17:06,880 --> 00:17:09,039
+for
+
+396
+00:17:08,079 --> 00:17:10,000
+i
+
+397
+00:17:09,039 --> 00:17:12,240
+in
+
+398
+00:17:10,000 --> 00:17:14,079
+range
+
+399
+00:17:12,240 --> 00:17:16,480
+land n
+
+400
+00:17:14,079 --> 00:17:17,280
+minus one huh go n1
+
+401
+00:17:16,480 --> 00:17:18,720
+look
+
+402
+00:17:17,280 --> 00:17:20,559
+if what
+
+403
+00:17:18,720 --> 00:17:22,400
+if s i
+
+404
+00:17:20,559 --> 00:17:25,679
+equal equal our
+
+405
+00:17:22,400 --> 00:17:27,360
+s i what next one is one what what's s
+
+406
+00:17:25,679 --> 00:17:29,120
+what's next next character current
+
+407
+00:17:27,360 --> 00:17:30,640
+character next character what should i
+
+408
+00:17:29,120 --> 00:17:33,200
+put here
+
+409
+00:17:30,640 --> 00:17:33,200
+if equals
+
+410
+00:17:37,200 --> 00:17:40,720
+because return false because there are
+
+411
+00:17:38,799 --> 00:17:42,320
+two consecutive letters then there must
+
+412
+00:17:40,720 --> 00:17:44,480
+be even
+
+413
+00:17:42,320 --> 00:17:47,200
+turning them right and otherwise we
+
+414
+00:17:44,480 --> 00:17:49,520
+return true
+
+415
+00:17:47,200 --> 00:17:50,559
+okay this should go here okay let's go
+
+416
+00:17:49,520 --> 00:17:54,240
+here
+
+417
+00:17:50,559 --> 00:17:54,240
+what's the time complexity for this one
+
+418
+00:17:55,039 --> 00:18:01,400
+what's the original first approach we're
+
+419
+00:17:56,720 --> 00:18:01,400
+talking about on n squared
+
+420
+00:18:11,200 --> 00:18:15,600
+yeah as i if i want to
+
+421
+00:18:13,280 --> 00:18:17,760
+change this s i s minus one what should
+
+422
+00:18:15,600 --> 00:18:20,400
+i do if i need to check the previous one
+
+423
+00:18:17,760 --> 00:18:21,760
+how would you like to change this
+
+424
+00:18:20,400 --> 00:18:24,080
+not plus one
+
+425
+00:18:21,760 --> 00:18:28,640
+what should i change here
+
+426
+00:18:24,080 --> 00:18:31,440
+uh we shall change we're changing here
+
+427
+00:18:28,640 --> 00:18:33,200
+to start with one right yeah up to
+
+428
+00:18:31,440 --> 00:18:34,799
+length n right
+
+429
+00:18:33,200 --> 00:18:37,039
+yeah okay
+
+430
+00:18:34,799 --> 00:18:39,280
+can you listen to us
+
+431
+00:18:37,039 --> 00:18:42,720
+okay now we can write this in one line
+
+432
+00:18:39,280 --> 00:18:45,039
+right we can just do this return all of
+
+433
+00:18:42,720 --> 00:18:46,400
+o means what everything yeah
+
+434
+00:18:45,039 --> 00:18:47,840
+okay
+
+435
+00:18:46,400 --> 00:18:48,799
+s i
+
+436
+00:18:47,840 --> 00:18:51,280
+equal
+
+437
+00:18:48,799 --> 00:18:52,480
+s i plus one
+
+438
+00:18:51,280 --> 00:18:53,520
+for
+
+439
+00:18:52,480 --> 00:18:54,880
+i
+
+440
+00:18:53,520 --> 00:18:57,840
+in
+
+441
+00:18:54,880 --> 00:18:57,840
+range
+
+442
+00:19:07,520 --> 00:19:11,360
+s minus one right because we we
+
+443
+00:19:09,600 --> 00:19:13,919
+approximate we need to check it plus one
+
+444
+00:19:11,360 --> 00:19:15,440
+can you put it back please
+
+445
+00:19:13,919 --> 00:19:17,679
+okay i'm going to erase this and then
+
+446
+00:19:15,440 --> 00:19:20,480
+you tell me yeah
+
+447
+00:19:17,679 --> 00:19:25,000
+come on come on just right what just
+
+448
+00:19:20,480 --> 00:19:25,000
+okay just do this i have
+
+449
+00:19:44,930 --> 00:19:48,009
+[Music]
+
+450
+00:19:50,480 --> 00:19:54,640
+have you paid attention to whatever it
+
+451
+00:19:52,080 --> 00:19:57,200
+says here look if s we want to check if
+
+452
+00:19:54,640 --> 00:19:58,640
+the two characters are the same right
+
+453
+00:19:57,200 --> 00:20:01,360
+yeah
+
+454
+00:19:58,640 --> 00:20:05,200
+so if what come on
+
+455
+00:20:01,360 --> 00:20:05,200
+if they are the same
+
+456
+00:20:18,840 --> 00:20:23,679
+yeah
+
+457
+00:20:20,400 --> 00:20:26,400
+unless we turn red false
+
+458
+00:20:23,679 --> 00:20:28,240
+okay okay look if i change these two
+
+459
+00:20:26,400 --> 00:20:31,280
+plus ones what should i check what
+
+460
+00:20:28,240 --> 00:20:31,280
+should i check check here
+
+461
+00:20:31,520 --> 00:20:36,950
+can you pay attention come on if i pop
+
+462
+00:20:34,480 --> 00:20:40,059
+to this first one what should i do here
+
+463
+00:20:36,950 --> 00:20:40,059
+[Music]
+
+464
+00:20:42,559 --> 00:20:46,000
+from zero
+
+465
+00:20:43,760 --> 00:20:46,880
+and minus one right this is the same
+
+466
+00:20:46,000 --> 00:20:48,240
+thing
+
+467
+00:20:46,880 --> 00:20:50,000
+and i'm going to write the one liner
+
+468
+00:20:48,240 --> 00:20:52,480
+again okay o
+
+469
+00:20:50,000 --> 00:20:53,520
+means everything needs to be the same as
+
+470
+00:20:52,480 --> 00:20:56,880
+i
+
+471
+00:20:53,520 --> 00:20:58,640
+equal equal s i plus 1
+
+472
+00:20:56,880 --> 00:21:00,159
+4
+
+473
+00:20:58,640 --> 00:21:04,400
+yeah for
+
+474
+00:21:00,159 --> 00:21:06,720
+i in range
+
+475
+00:21:04,400 --> 00:21:08,960
+then you're looking
+
+476
+00:21:06,720 --> 00:21:13,280
+and i'm looking at this lens s you're
+
+477
+00:21:08,960 --> 00:21:13,280
+looking this is less sorry let's ask
+
+478
+00:21:13,600 --> 00:21:17,520
+quick
+
+479
+00:21:14,720 --> 00:21:20,080
+so what does it mean we want to check if
+
+480
+00:21:17,520 --> 00:21:22,559
+s i equals the neighboring characters
+
+481
+00:21:20,080 --> 00:21:24,159
+are the same for the range i is for the
+
+482
+00:21:22,559 --> 00:21:25,440
+range up to
+
+483
+00:21:24,159 --> 00:21:28,000
+the length
+
+484
+00:21:25,440 --> 00:21:29,840
+minus one right and everything all so
+
+485
+00:21:28,000 --> 00:21:32,240
+this is the same okay the time
+
+486
+00:21:29,840 --> 00:21:33,280
+complexity is on the space complexity is
+
+487
+00:21:32,240 --> 00:21:35,360
+what
+
+488
+00:21:33,280 --> 00:21:37,440
+what's the speed conversely
+
+489
+00:21:35,360 --> 00:21:39,679
+one because we're not using any space
+
+490
+00:21:37,440 --> 00:21:42,679
+okay that's it for today good job
+
+491
+00:21:39,679 --> 00:21:42,679
+bye
+
