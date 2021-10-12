@@ -24,7 +24,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-Kids-Programming/tree/main/subtitles)
 
 # All Videos & Search
-**[View a List of All Videos and Search here](https://zhihua-lai.com/teaching/)**
+---->**[View a List of All Videos and Search here](https://zhihua-lai.com/teaching/)**<------
 
 ## Teaching Wife Programming in Chinese
 教小白媳妇编程，比教娃有难度. 不定期更新，对应教娃视频。
