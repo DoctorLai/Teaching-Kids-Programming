@@ -1,5 +1,5 @@
 # Teaching Kids Programming
-**[View a List of All Videos and Search here](https://zhihua-lai.com/teaching/)**
+---->**[View a List of All Videos and Search here](https://zhihua-lai.com/teaching/)**<-----
 
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 - Day 303:  [Introduction to KNN Machine Learning Algorithm](https://helloacm.com/teaching-kids-programming-introduction-to-knn-machine-learning-algorithm/)  KNN机器学习算法简介 - KNN的Python实现  [Youtube](https://youtu.be/gjGwaUaqzrI) - [B站](https://www.bilibili.com/video/BV113411C79k/) - [西瓜](https://www.ixigua.com/7017715520304906765)
