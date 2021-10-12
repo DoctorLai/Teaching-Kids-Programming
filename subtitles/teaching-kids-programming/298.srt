@@ -1,0 +1,2168 @@
+1
+00:00:00,870 --> 00:00:04,009
+[Music]
+
+2
+00:00:05,120 --> 00:00:09,360
+okay so today we're going to go into
+
+3
+00:00:06,799 --> 00:00:12,480
+these some basic concepts of this hash
+
+4
+00:00:09,360 --> 00:00:16,240
+hashing yeah hashing
+
+5
+00:00:12,480 --> 00:00:16,240
+hashing hash table hashing
+
+6
+00:00:19,279 --> 00:00:24,640
+how do you define a hash table in python
+
+7
+00:00:21,840 --> 00:00:26,640
+what's the alternative of hash table
+
+8
+00:00:24,640 --> 00:00:28,720
+like we have been using that for a long
+
+9
+00:00:26,640 --> 00:00:31,599
+time you know when solving some problems
+
+10
+00:00:28,720 --> 00:00:33,840
+hashing table like
+
+11
+00:00:31,599 --> 00:00:33,840
+what
+
+12
+00:00:34,000 --> 00:00:36,960
+any idea
+
+13
+00:00:35,360 --> 00:00:38,239
+what's that if you want to look up the
+
+14
+00:00:36,960 --> 00:00:42,480
+items
+
+15
+00:00:38,239 --> 00:00:42,480
+in a thingy what do we call it
+
+16
+00:00:44,559 --> 00:00:48,879
+is the name that i give you you know but
+
+17
+00:00:46,559 --> 00:00:50,320
+it's not official the inflation name is
+
+18
+00:00:48,879 --> 00:00:52,480
+the hash table okay
+
+19
+00:00:50,320 --> 00:00:53,920
+yeah but why we talk koi notebook yeah
+
+20
+00:00:52,480 --> 00:00:56,000
+because you want to look up the items
+
+21
+00:00:53,920 --> 00:00:58,079
+you put item in you write a sentence in
+
+22
+00:00:56,000 --> 00:00:59,760
+a notebook you look it up it's constant
+
+23
+00:00:58,079 --> 00:01:01,440
+time it's very fast you don't you
+
+24
+00:00:59,760 --> 00:01:03,359
+actually need to
+
+25
+00:01:01,440 --> 00:01:06,080
+perform the searches right
+
+26
+00:01:03,359 --> 00:01:08,720
+so in python we have this dictionary
+
+27
+00:01:06,080 --> 00:01:10,960
+dictionary so we can we can declare
+
+28
+00:01:08,720 --> 00:01:13,119
+dictionary like that a equal this is
+
+29
+00:01:10,960 --> 00:01:15,119
+additional yeah a equals dictionary you
+
+30
+00:01:13,119 --> 00:01:17,680
+can do this dictionary
+
+31
+00:01:15,119 --> 00:01:20,080
+yeah dictionary or
+
+32
+00:01:17,680 --> 00:01:22,159
+the one way first way is the oh you use
+
+33
+00:01:20,080 --> 00:01:24,720
+this yeah second
+
+34
+00:01:22,159 --> 00:01:25,840
+yeah this is the what do you call it
+
+35
+00:01:24,720 --> 00:01:29,040
+curly
+
+36
+00:01:25,840 --> 00:01:31,840
+and the third way is to what a equals
+
+37
+00:01:29,040 --> 00:01:34,320
+default dictionary default
+
+38
+00:01:31,840 --> 00:01:36,320
+edition okay and then you can give a
+
+39
+00:01:34,320 --> 00:01:38,840
+basic type of integer this is the value
+
+40
+00:01:36,320 --> 00:01:42,720
+type that's the value what type of a
+
+41
+00:01:38,840 --> 00:01:42,720
+value type of value
+
+42
+00:01:43,600 --> 00:01:46,240
+these two
+
+43
+00:01:45,280 --> 00:01:48,079
+the same
+
+44
+00:01:46,240 --> 00:01:49,759
+these two just look the same
+
+45
+00:01:48,079 --> 00:01:51,520
+so what's the difference between these
+
+46
+00:01:49,759 --> 00:01:53,520
+and these the difference is that when
+
+47
+00:01:51,520 --> 00:01:54,799
+the key does not exist in the in the
+
+48
+00:01:53,520 --> 00:01:58,719
+hash table
+
+49
+00:01:54,799 --> 00:02:00,560
+using this definition the
+
+50
+00:01:58,719 --> 00:02:02,719
+if the key isn't
+
+51
+00:02:00,560 --> 00:02:04,159
+in the in the hash table and it will
+
+52
+00:02:02,719 --> 00:02:06,399
+return the default value for the time
+
+53
+00:02:04,159 --> 00:02:08,720
+for for example you'll be
+
+54
+00:02:06,399 --> 00:02:11,680
+zero yeah the different type of integers
+
+55
+00:02:08,720 --> 00:02:13,120
+you know so look if if uh i can say look
+
+56
+00:02:11,680 --> 00:02:15,680
+a
+
+57
+00:02:13,120 --> 00:02:17,200
+something like a
+
+58
+00:02:15,680 --> 00:02:19,760
+eric okay
+
+59
+00:02:17,200 --> 00:02:20,640
+if i want to put in the a array without
+
+60
+00:02:19,760 --> 00:02:23,520
+ever
+
+61
+00:02:20,640 --> 00:02:26,640
+ever putting the values of eric right so
+
+62
+00:02:23,520 --> 00:02:29,920
+that will give me the zero unless i do a
+
+63
+00:02:26,640 --> 00:02:32,800
+array equals nine or whatever
+
+64
+00:02:29,920 --> 00:02:36,640
+right if if i use the the third approach
+
+65
+00:02:32,800 --> 00:02:38,959
+the default one but if i use the
+
+66
+00:02:36,640 --> 00:02:41,680
+first or second approach to declare a
+
+67
+00:02:38,959 --> 00:02:43,440
+hash table and a area with swallow error
+
+68
+00:02:41,680 --> 00:02:45,360
+yeah it was all errors i'm saying the
+
+69
+00:02:43,440 --> 00:02:47,840
+key does not exist like error does not
+
+70
+00:02:45,360 --> 00:02:50,400
+exist not here like little different but
+
+71
+00:02:47,840 --> 00:02:52,400
+using these two you know you can always
+
+72
+00:02:50,400 --> 00:02:54,239
+use this a dot
+
+73
+00:02:52,400 --> 00:02:56,560
+get yeah
+
+74
+00:02:54,239 --> 00:02:58,560
+get eric
+
+75
+00:02:56,560 --> 00:03:01,040
+and then the second value will be the
+
+76
+00:02:58,560 --> 00:03:03,680
+default which i can give like a
+
+77
+00:03:01,040 --> 00:03:05,200
+five and then if eric is the key is not
+
+78
+00:03:03,680 --> 00:03:07,200
+in the table and then you will return
+
+79
+00:03:05,200 --> 00:03:09,040
+the flag if it's not in the table and
+
+80
+00:03:07,200 --> 00:03:12,159
+you will look up the table the values
+
+81
+00:03:09,040 --> 00:03:14,879
+for the key equals errors right
+
+82
+00:03:12,159 --> 00:03:17,840
+that's that dictionary
+
+83
+00:03:14,879 --> 00:03:20,319
+so what's the term complexity of all is
+
+84
+00:03:17,840 --> 00:03:22,879
+like lookup i want to look up a key if
+
+85
+00:03:20,319 --> 00:03:24,239
+uh if a key is uh in a
+
+86
+00:03:22,879 --> 00:03:25,920
+dictionary
+
+87
+00:03:24,239 --> 00:03:26,959
+what's the time complexity there's three
+
+88
+00:03:25,920 --> 00:03:29,360
+or
+
+89
+00:03:26,959 --> 00:03:31,280
+few operations right the second one is i
+
+90
+00:03:29,360 --> 00:03:34,640
+want to update
+
+91
+00:03:31,280 --> 00:03:36,400
+update update of key value pair right
+
+92
+00:03:34,640 --> 00:03:37,599
+update
+
+93
+00:03:36,400 --> 00:03:39,680
+update
+
+94
+00:03:37,599 --> 00:03:41,519
+value with key
+
+95
+00:03:39,680 --> 00:03:43,200
+with the key right
+
+96
+00:03:41,519 --> 00:03:45,040
+and the third one i want to delete
+
+97
+00:03:43,200 --> 00:03:47,840
+remove it
+
+98
+00:03:45,040 --> 00:03:50,000
+today the key right
+
+99
+00:03:47,840 --> 00:03:51,920
+basically these are the three approaches
+
+100
+00:03:50,000 --> 00:03:54,560
+the common approaches that are
+
+101
+00:03:51,920 --> 00:03:56,560
+required for the hash table right like a
+
+102
+00:03:54,560 --> 00:03:59,200
+notebook if i want to
+
+103
+00:03:56,560 --> 00:04:02,080
+uh look it up a key if it's everything
+
+104
+00:03:59,200 --> 00:04:03,760
+in a book right a key value
+
+105
+00:04:02,080 --> 00:04:06,000
+a one constant right
+
+106
+00:04:03,760 --> 00:04:07,439
+and i want to update like eric
+
+107
+00:04:06,000 --> 00:04:08,879
+map area
+
+108
+00:04:07,439 --> 00:04:10,720
+equals nine
+
+109
+00:04:08,879 --> 00:04:12,480
+right
+
+110
+00:04:10,720 --> 00:04:13,680
+and i want to remove it what's the time
+
+111
+00:04:12,480 --> 00:04:14,959
+complexity for all these three
+
+112
+00:04:13,680 --> 00:04:18,160
+approaches come on
+
+113
+00:04:14,959 --> 00:04:18,160
+any anybody right
+
+114
+00:04:19,600 --> 00:04:23,040
+we own the first terms that's why a one
+
+115
+00:04:22,079 --> 00:04:24,800
+yeah
+
+116
+00:04:23,040 --> 00:04:26,240
+that's the
+
+117
+00:04:24,800 --> 00:04:27,919
+that's the
+
+118
+00:04:26,240 --> 00:04:29,360
+obvious reason that we want to use this
+
+119
+00:04:27,919 --> 00:04:33,280
+kind of data structure because we want
+
+120
+00:04:29,360 --> 00:04:33,280
+to achieve the o1 constant right
+
+121
+00:04:34,000 --> 00:04:36,639
+so um
+
+122
+00:04:36,800 --> 00:04:40,800
+so we're talking about the hash function
+
+123
+00:04:38,960 --> 00:04:42,560
+hashing function hashing function
+
+124
+00:04:40,800 --> 00:04:45,520
+hashing function what's hash function is
+
+125
+00:04:42,560 --> 00:04:47,040
+that function that to map
+
+126
+00:04:45,520 --> 00:04:51,120
+map
+
+127
+00:04:47,040 --> 00:04:53,840
+arbitrary length of data input into a
+
+128
+00:04:51,120 --> 00:04:55,600
+map arbitrary length of data into a
+
+129
+00:04:53,840 --> 00:04:59,120
+fixed size of
+
+130
+00:04:55,600 --> 00:05:00,240
+into a fixed size a table and fixed size
+
+131
+00:04:59,120 --> 00:05:02,160
+fixed size
+
+132
+00:05:00,240 --> 00:05:05,360
+so what does it mean
+
+133
+00:05:02,160 --> 00:05:07,280
+so look if i have a hatching table like
+
+134
+00:05:05,360 --> 00:05:09,759
+maybe there are only 10 elements right
+
+135
+00:05:07,280 --> 00:05:12,880
+only 10 elements maybe one two three
+
+136
+00:05:09,759 --> 00:05:15,759
+four five six seven
+
+137
+00:05:12,880 --> 00:05:16,960
+eight nine eight nine 10 yeah 10 element
+
+138
+00:05:15,759 --> 00:05:19,280
+this is a
+
+139
+00:05:16,960 --> 00:05:22,560
+hash table with size 10
+
+140
+00:05:19,280 --> 00:05:26,880
+right and i want to put a key
+
+141
+00:05:22,560 --> 00:05:29,600
+any key any key i want to put uh maybe
+
+142
+00:05:26,880 --> 00:05:31,520
+10 items any items for example like
+
+143
+00:05:29,600 --> 00:05:34,800
+something something coming area i want
+
+144
+00:05:31,520 --> 00:05:37,440
+to put this every thing
+
+145
+00:05:34,800 --> 00:05:38,720
+yeah and then there's a hash function
+
+146
+00:05:37,440 --> 00:05:41,039
+data
+
+147
+00:05:38,720 --> 00:05:42,880
+and then you'll give me
+
+148
+00:05:41,039 --> 00:05:44,080
+when this data
+
+149
+00:05:42,880 --> 00:05:46,320
+is
+
+150
+00:05:44,080 --> 00:05:49,520
+fit into this hash function and it will
+
+151
+00:05:46,320 --> 00:05:51,360
+give me a key a location to store these
+
+152
+00:05:49,520 --> 00:05:55,360
+error data so for example you will start
+
+153
+00:05:51,360 --> 00:05:57,039
+here right and then another one ryan
+
+154
+00:05:55,360 --> 00:06:00,000
+and then go through this
+
+155
+00:05:57,039 --> 00:06:01,919
+h function has function ryan
+
+156
+00:06:00,000 --> 00:06:05,560
+and then you'll give me a key okay maybe
+
+157
+00:06:01,919 --> 00:06:05,560
+store here right
+
+158
+00:06:06,080 --> 00:06:10,800
+so now next time i want to look it up
+
+159
+00:06:08,319 --> 00:06:12,240
+this data eric ryan and i need to call
+
+160
+00:06:10,800 --> 00:06:13,919
+this hedge function again and it will
+
+161
+00:06:12,240 --> 00:06:16,800
+tell me where to look for it but this is
+
+162
+00:06:13,919 --> 00:06:16,800
+the time interview
+
+163
+00:06:17,039 --> 00:06:21,840
+to look it up to locate locations right
+
+164
+00:06:19,600 --> 00:06:21,840
+so
+
+165
+00:06:22,560 --> 00:06:25,600
+if
+
+166
+00:06:23,360 --> 00:06:28,400
+if these keys i mean if there are many
+
+167
+00:06:25,600 --> 00:06:30,800
+many data what happened can you can you
+
+168
+00:06:28,400 --> 00:06:33,600
+imagine like what happened if if this
+
+169
+00:06:30,800 --> 00:06:35,680
+table is 10 and then if i have like a
+
+170
+00:06:33,600 --> 00:06:38,639
+hundred a million data
+
+171
+00:06:35,680 --> 00:06:38,639
+what can you imagine
+
+172
+00:06:38,960 --> 00:06:44,080
+what can you imagine in this case
+
+173
+00:06:41,440 --> 00:06:46,000
+so if i have too many datas here and i
+
+174
+00:06:44,080 --> 00:06:49,680
+want to map it into a fixed size what
+
+175
+00:06:46,000 --> 00:06:49,680
+happened they are arbitrary ones
+
+176
+00:06:49,759 --> 00:06:53,199
+it will take for longer and this is not
+
+177
+00:06:51,599 --> 00:06:55,840
+the most important reason the another
+
+178
+00:06:53,199 --> 00:06:57,919
+reason is there will be uh collision you
+
+179
+00:06:55,840 --> 00:06:59,599
+know the collision
+
+180
+00:06:57,919 --> 00:07:02,000
+collision
+
+181
+00:06:59,599 --> 00:07:03,120
+what does it mean collision in in
+
+182
+00:07:02,000 --> 00:07:05,039
+english
+
+183
+00:07:03,120 --> 00:07:06,960
+collide each other it means the
+
+184
+00:07:05,039 --> 00:07:08,560
+different different inputs
+
+185
+00:07:06,960 --> 00:07:10,960
+for example eric and ryan they are
+
+186
+00:07:08,560 --> 00:07:13,440
+different these keys are different right
+
+187
+00:07:10,960 --> 00:07:16,080
+but they after the hd calculation they
+
+188
+00:07:13,440 --> 00:07:17,120
+might point to the same
+
+189
+00:07:16,080 --> 00:07:19,360
+place
+
+190
+00:07:17,120 --> 00:07:19,360
+right
+
+191
+00:07:19,520 --> 00:07:24,319
+one one approach to solve this problem
+
+192
+00:07:22,000 --> 00:07:28,080
+is to what we can have instead of
+
+193
+00:07:24,319 --> 00:07:28,080
+solving one item we can do one
+
+194
+00:07:28,800 --> 00:07:34,160
+we can point it at linkeries or list
+
+195
+00:07:31,599 --> 00:07:35,039
+right for each each key
+
+196
+00:07:34,160 --> 00:07:36,639
+each
+
+197
+00:07:35,039 --> 00:07:38,080
+key here
+
+198
+00:07:36,639 --> 00:07:40,880
+and i can i
+
+199
+00:07:38,080 --> 00:07:44,400
+for example eric is here i stole here
+
+200
+00:07:40,880 --> 00:07:46,080
+and ryan if if if the hashing function
+
+201
+00:07:44,400 --> 00:07:48,720
+points to this location
+
+202
+00:07:46,080 --> 00:07:50,639
+and this location
+
+203
+00:07:48,720 --> 00:07:51,840
+yeah and i can append it to the linked
+
+204
+00:07:50,639 --> 00:07:54,240
+list right
+
+205
+00:07:51,840 --> 00:07:56,639
+so i don't overwrite i don't lose the
+
+206
+00:07:54,240 --> 00:07:58,720
+data this is one way of doing it right
+
+207
+00:07:56,639 --> 00:08:01,199
+what are we doing so
+
+208
+00:07:58,720 --> 00:08:03,599
+we want to uh
+
+209
+00:08:01,199 --> 00:08:06,720
+reduce the chance of collision
+
+210
+00:08:03,599 --> 00:08:09,520
+right one way of doing is by picking up
+
+211
+00:08:06,720 --> 00:08:12,000
+a good hashing function
+
+212
+00:08:09,520 --> 00:08:15,680
+yeah location function so this hashing
+
+213
+00:08:12,000 --> 00:08:15,680
+function h data
+
+214
+00:08:15,919 --> 00:08:21,440
+you need it needs to do what it needs to
+
+215
+00:08:18,240 --> 00:08:24,800
+calculate the key the the values the
+
+216
+00:08:21,440 --> 00:08:26,800
+the location which is maybe a certified
+
+217
+00:08:24,800 --> 00:08:27,919
+integer right a location
+
+218
+00:08:26,800 --> 00:08:29,919
+or
+
+219
+00:08:27,919 --> 00:08:32,479
+yeah let's say if it's a
+
+220
+00:08:29,919 --> 00:08:34,800
+32-bit integer
+
+221
+00:08:32,479 --> 00:08:36,080
+no matter how big is this data maybe a
+
+222
+00:08:34,800 --> 00:08:38,640
+minion
+
+223
+00:08:36,080 --> 00:08:42,560
+you always return a fixed size
+
+224
+00:08:38,640 --> 00:08:45,040
+fixed size fixed size uh location right
+
+225
+00:08:42,560 --> 00:08:46,480
+so we want we want to we want this
+
+226
+00:08:45,040 --> 00:08:48,399
+function to be
+
+227
+00:08:46,480 --> 00:08:49,680
+first of all it has to be very fast
+
+228
+00:08:48,399 --> 00:08:51,200
+right
+
+229
+00:08:49,680 --> 00:08:53,040
+this function calculation needs to be
+
+230
+00:08:51,200 --> 00:08:54,880
+fast if it's slow then there will be
+
+231
+00:08:53,040 --> 00:08:57,279
+overhead because this hatching function
+
+232
+00:08:54,880 --> 00:08:59,519
+i need to use it every time
+
+233
+00:08:57,279 --> 00:09:01,360
+to do what i need i need to use it every
+
+234
+00:08:59,519 --> 00:09:04,560
+time to calculate the location when i
+
+235
+00:09:01,360 --> 00:09:07,440
+want to retrieve a element from the
+
+236
+00:09:04,560 --> 00:09:09,360
+table when i when i want to update it
+
+237
+00:09:07,440 --> 00:09:12,160
+all right oh i want to remove it these
+
+238
+00:09:09,360 --> 00:09:14,080
+are free approach yeah three three
+
+239
+00:09:12,160 --> 00:09:15,519
+operations one
+
+240
+00:09:14,080 --> 00:09:17,760
+lookup
+
+241
+00:09:15,519 --> 00:09:21,760
+lookup
+
+242
+00:09:17,760 --> 00:09:24,480
+update yeah for the hashtable update
+
+243
+00:09:21,760 --> 00:09:26,640
+remote right remove
+
+244
+00:09:24,480 --> 00:09:29,040
+this last missing these three operations
+
+245
+00:09:26,640 --> 00:09:30,720
+all require me to
+
+246
+00:09:29,040 --> 00:09:32,240
+to calculate the hashing table hashing
+
+247
+00:09:30,720 --> 00:09:34,959
+key i have the key
+
+248
+00:09:32,240 --> 00:09:37,040
+why so needs to be fast if it's slow
+
+249
+00:09:34,959 --> 00:09:39,839
+then everything will be slow
+
+250
+00:09:37,040 --> 00:09:41,279
+the second i want to reduce the
+
+251
+00:09:39,839 --> 00:09:43,680
+collection
+
+252
+00:09:41,279 --> 00:09:45,680
+reduce the collection
+
+253
+00:09:43,680 --> 00:09:48,399
+what does it mean
+
+254
+00:09:45,680 --> 00:09:50,320
+right if you give me the eric
+
+255
+00:09:48,399 --> 00:09:51,600
+yeah oh you give me the ryan i don't
+
+256
+00:09:50,320 --> 00:09:53,360
+want them to point you to a certain
+
+257
+00:09:51,600 --> 00:09:55,040
+location right because the same location
+
+258
+00:09:53,360 --> 00:09:57,360
+all these will be falling falling back
+
+259
+00:09:55,040 --> 00:09:59,040
+into the linear search right look if
+
+260
+00:09:57,360 --> 00:10:01,760
+these everything just imagine in the
+
+261
+00:09:59,040 --> 00:10:04,480
+worst case if i xt
+
+262
+00:10:01,760 --> 00:10:07,200
+always returns zero no matter what data
+
+263
+00:10:04,480 --> 00:10:08,160
+you give you want to put in a hash table
+
+264
+00:10:07,200 --> 00:10:10,640
+or
+
+265
+00:10:08,160 --> 00:10:13,519
+put it in that zero location put it here
+
+266
+00:10:10,640 --> 00:10:15,600
+right this is intact zero yeah if i put
+
+267
+00:10:13,519 --> 00:10:17,920
+an array if it's here
+
+268
+00:10:15,600 --> 00:10:19,360
+i want to i put another right is here
+
+269
+00:10:17,920 --> 00:10:21,440
+and mommy
+
+270
+00:10:19,360 --> 00:10:23,040
+daddy right everything you put in here
+
+271
+00:10:21,440 --> 00:10:24,000
+so this hedge function
+
+272
+00:10:23,040 --> 00:10:25,760
+is
+
+273
+00:10:24,000 --> 00:10:28,640
+it's not working you always return a
+
+274
+00:10:25,760 --> 00:10:30,720
+zero means that location here so what
+
+275
+00:10:28,640 --> 00:10:32,320
+happened next time i want to
+
+276
+00:10:30,720 --> 00:10:33,680
+look at through this
+
+277
+00:10:32,320 --> 00:10:35,519
+this becomes
+
+278
+00:10:33,680 --> 00:10:39,760
+what what's the time frame let's say if
+
+279
+00:10:35,519 --> 00:10:39,760
+st is zero what's the timeline where st
+
+280
+00:10:40,640 --> 00:10:46,240
+oh oh what
+
+281
+00:10:42,880 --> 00:10:48,560
+what's the operation of looking up i
+
+282
+00:10:46,240 --> 00:10:52,320
+looking up a key in the list
+
+283
+00:10:48,560 --> 00:10:54,399
+how do you find an element in the list
+
+284
+00:10:52,320 --> 00:10:56,240
+from the beginning and then search it
+
+285
+00:10:54,399 --> 00:10:56,959
+what's the time to listen for that
+
+286
+00:10:56,240 --> 00:10:58,320
+yeah
+
+287
+00:10:56,959 --> 00:11:00,320
+update
+
+288
+00:10:58,320 --> 00:11:01,680
+update is based on the cover first of
+
+289
+00:11:00,320 --> 00:11:02,880
+all you need to find it and then you
+
+290
+00:11:01,680 --> 00:11:04,880
+update right
+
+291
+00:11:02,880 --> 00:11:06,160
+yeah so out there and look up at the
+
+292
+00:11:04,880 --> 00:11:08,000
+same it's open
+
+293
+00:11:06,160 --> 00:11:10,480
+remove
+
+294
+00:11:08,000 --> 00:11:12,560
+again you again if you want to remove it
+
+295
+00:11:10,480 --> 00:11:13,279
+you first need to find a way if it's in
+
+296
+00:11:12,560 --> 00:11:14,480
+a
+
+297
+00:11:13,279 --> 00:11:16,720
+table right
+
+298
+00:11:14,480 --> 00:11:18,640
+so it's still there right it's not to
+
+299
+00:11:16,720 --> 00:11:20,880
+mention that if you want to remove a
+
+300
+00:11:18,640 --> 00:11:24,160
+element from the list like maybe another
+
+301
+00:11:20,880 --> 00:11:26,640
+one to to shift all the elements right i
+
+302
+00:11:24,160 --> 00:11:28,480
+will talk about that so
+
+303
+00:11:26,640 --> 00:11:31,200
+we want to reduce the collision if if
+
+304
+00:11:28,480 --> 00:11:33,279
+everything is is you know if aaron is
+
+305
+00:11:31,200 --> 00:11:35,279
+still here ryan's done here mommy stop
+
+306
+00:11:33,279 --> 00:11:37,200
+here that is
+
+307
+00:11:35,279 --> 00:11:39,200
+great because they are only separate
+
+308
+00:11:37,200 --> 00:11:41,279
+places they have no
+
+309
+00:11:39,200 --> 00:11:43,120
+they have not collected each other so
+
+310
+00:11:41,279 --> 00:11:45,360
+this all hashing function helps us to
+
+311
+00:11:43,120 --> 00:11:46,800
+retrieve this r1 constant time because
+
+312
+00:11:45,360 --> 00:11:49,120
+the hashing function just points to the
+
+313
+00:11:46,800 --> 00:11:50,079
+location which doesn't doesn't have
+
+314
+00:11:49,120 --> 00:11:51,200
+other
+
+315
+00:11:50,079 --> 00:11:53,600
+values
+
+316
+00:11:51,200 --> 00:11:54,959
+stored right so i can just look it up to
+
+317
+00:11:53,600 --> 00:11:56,959
+whatever i want
+
+318
+00:11:54,959 --> 00:12:00,720
+and the third one is we call it
+
+319
+00:11:56,959 --> 00:12:02,079
+avalanche effect ever larger effect
+
+320
+00:12:00,720 --> 00:12:04,399
+what does it even mean what does this
+
+321
+00:12:02,079 --> 00:12:05,839
+mean it's in winter
+
+322
+00:12:04,399 --> 00:12:07,200
+so what can you explain to me what's an
+
+323
+00:12:05,839 --> 00:12:08,560
+avalanche event
+
+324
+00:12:07,200 --> 00:12:10,639
+so if
+
+325
+00:12:08,560 --> 00:12:12,959
+some people like to go skiing on my
+
+326
+00:12:10,639 --> 00:12:15,600
+panda i've left for and if they don't
+
+327
+00:12:12,959 --> 00:12:16,750
+escape they'll be buried
+
+328
+00:12:15,600 --> 00:12:18,399
+okay so yeah
+
+329
+00:12:16,750 --> 00:12:19,680
+[Music]
+
+330
+00:12:18,399 --> 00:12:22,959
+eric what
+
+331
+00:12:19,680 --> 00:12:25,680
+um so technically snowflake
+
+332
+00:12:22,959 --> 00:12:28,560
+and then it does a big collapsing it
+
+333
+00:12:25,680 --> 00:12:30,880
+looks like a big cloud yeah yeah yeah
+
+334
+00:12:28,560 --> 00:12:33,040
+so in this is what it means but in
+
+335
+00:12:30,880 --> 00:12:36,399
+computer enhancing effect is like this
+
+336
+00:12:33,040 --> 00:12:39,120
+one if i want to put this edge
+
+337
+00:12:36,399 --> 00:12:41,519
+and wait yeah all right
+
+338
+00:12:39,120 --> 00:12:45,279
+if this tells me is i i want to store
+
+339
+00:12:41,519 --> 00:12:46,399
+this location at 100 right and how about
+
+340
+00:12:45,279 --> 00:12:48,880
+h
+
+341
+00:12:46,399 --> 00:12:50,480
+if i have uppercase okay instead of
+
+342
+00:12:48,880 --> 00:12:53,279
+lowercase
+
+343
+00:12:50,480 --> 00:12:54,720
+this needs to be even the key change
+
+344
+00:12:53,279 --> 00:12:56,959
+slightly
+
+345
+00:12:54,720 --> 00:12:59,200
+what i mean i slide it could be you know
+
+346
+00:12:56,959 --> 00:13:03,200
+you know very slight variations from
+
+347
+00:12:59,200 --> 00:13:03,200
+lowercase to uppercase or vice versa
+
+348
+00:13:04,880 --> 00:13:09,839
+and then this value needs to be changed
+
+349
+00:13:06,959 --> 00:13:11,040
+as well it can be changed to maybe zero
+
+350
+00:13:09,839 --> 00:13:14,000
+or
+
+351
+00:13:11,040 --> 00:13:16,959
+two thousand yeah to understand
+
+352
+00:13:14,000 --> 00:13:20,880
+but if if if i change slightly it give
+
+353
+00:13:16,959 --> 00:13:23,519
+me 101 or 99 this is not good so all i
+
+354
+00:13:20,880 --> 00:13:25,200
+want this is evaluation which is good
+
+355
+00:13:23,519 --> 00:13:27,040
+it means that even a slight change in
+
+356
+00:13:25,200 --> 00:13:28,639
+the key you need to this hashing
+
+357
+00:13:27,040 --> 00:13:30,160
+function needs to give me something
+
+358
+00:13:28,639 --> 00:13:35,720
+totally different
+
+359
+00:13:30,160 --> 00:13:35,720
+do you understand like 2 000 yeah yeah
+
+360
+00:13:36,720 --> 00:13:41,120
+it's good in the hatching table these
+
+361
+00:13:38,480 --> 00:13:43,040
+are the these are the three
+
+362
+00:13:41,120 --> 00:13:45,199
+how do we measure if our hashing taper
+
+363
+00:13:43,040 --> 00:13:46,959
+high hygiene key is good
+
+364
+00:13:45,199 --> 00:13:49,120
+we want we want the hashing table to be
+
+365
+00:13:46,959 --> 00:13:50,000
+fast we want it to be
+
+366
+00:13:49,120 --> 00:13:52,800
+less
+
+367
+00:13:50,000 --> 00:13:54,639
+like connection we want it to be having
+
+368
+00:13:52,800 --> 00:13:55,600
+this evolution effect
+
+369
+00:13:54,639 --> 00:13:56,110
+right
+
+370
+00:13:55,600 --> 00:13:57,360
+so
+
+371
+00:13:56,110 --> 00:13:59,680
+[Music]
+
+372
+00:13:57,360 --> 00:14:02,320
+um okay so another thing i want to
+
+373
+00:13:59,680 --> 00:14:04,000
+mention here is that how do we yeah we
+
+374
+00:14:02,320 --> 00:14:06,639
+mentioned about the list here
+
+375
+00:14:04,000 --> 00:14:08,240
+how do we remove a list a element from
+
+376
+00:14:06,639 --> 00:14:11,360
+the list for example like
+
+377
+00:14:08,240 --> 00:14:12,320
+okay this is a list there one two
+
+378
+00:14:11,360 --> 00:14:13,360
+three
+
+379
+00:14:12,320 --> 00:14:14,639
+four
+
+380
+00:14:13,360 --> 00:14:16,320
+five
+
+381
+00:14:14,639 --> 00:14:18,480
+i want to remove the element three how
+
+382
+00:14:16,320 --> 00:14:19,519
+do we remove it
+
+383
+00:14:18,480 --> 00:14:21,680
+for example
+
+384
+00:14:19,519 --> 00:14:24,720
+these are the key all the hashing table
+
+385
+00:14:21,680 --> 00:14:27,120
+hash uh whatever right points to to a
+
+386
+00:14:24,720 --> 00:14:29,279
+link list to link list remember
+
+387
+00:14:27,120 --> 00:14:31,839
+remember here we talk about here this is
+
+388
+00:14:29,279 --> 00:14:33,440
+hyster table okay points to here
+
+389
+00:14:31,839 --> 00:14:35,760
+heisig table whatever they are pointed
+
+390
+00:14:33,440 --> 00:14:37,199
+to here this location and this is the
+
+391
+00:14:35,760 --> 00:14:39,760
+linked list right
+
+392
+00:14:37,199 --> 00:14:41,680
+so now i want to remove these three yeah
+
+393
+00:14:39,760 --> 00:14:44,320
+and i go through this list okay i found
+
+394
+00:14:41,680 --> 00:14:46,000
+the three here i want to remove it all
+
+395
+00:14:44,320 --> 00:14:47,630
+right yeah i want to remove this tree so
+
+396
+00:14:46,000 --> 00:14:50,240
+how do you do it
+
+397
+00:14:47,630 --> 00:14:52,480
+[Music]
+
+398
+00:14:50,240 --> 00:14:53,920
+yeah but how do we do it
+
+399
+00:14:52,480 --> 00:14:55,440
+how do we do it
+
+400
+00:14:53,920 --> 00:14:56,399
+just delete it
+
+401
+00:14:55,440 --> 00:14:57,839
+yeah
+
+402
+00:14:56,399 --> 00:14:58,959
+okay
+
+403
+00:14:57,839 --> 00:15:01,199
+skip it
+
+404
+00:14:58,959 --> 00:15:04,079
+escape it but we want to remove it yeah
+
+405
+00:15:01,199 --> 00:15:06,639
+one way of doing is this
+
+406
+00:15:04,079 --> 00:15:09,120
+okay so you make um
+
+407
+00:15:06,639 --> 00:15:11,600
+um you make one of these notes three the
+
+408
+00:15:09,120 --> 00:15:14,079
+same thing yeah yeah exactly so look i
+
+409
+00:15:11,600 --> 00:15:16,639
+can copy i can copy this value to the
+
+410
+00:15:14,079 --> 00:15:19,279
+last one i don't care about the order i
+
+411
+00:15:16,639 --> 00:15:21,120
+put it five and then we moved it
+
+412
+00:15:19,279 --> 00:15:23,040
+yeah yeah
+
+413
+00:15:21,120 --> 00:15:25,839
+why why is that because because look at
+
+414
+00:15:23,040 --> 00:15:27,120
+the list yeah remember the list a equals
+
+415
+00:15:25,839 --> 00:15:28,639
+this
+
+416
+00:15:27,120 --> 00:15:30,399
+right this list
+
+417
+00:15:28,639 --> 00:15:31,519
+what's that what's the time complexity
+
+418
+00:15:30,399 --> 00:15:33,040
+of this one what's the difference
+
+419
+00:15:31,519 --> 00:15:35,199
+between this one
+
+420
+00:15:33,040 --> 00:15:37,279
+what's the difference between these two
+
+421
+00:15:35,199 --> 00:15:39,120
+can somebody say they don't pull it from
+
+422
+00:15:37,279 --> 00:15:41,680
+the right and a
+
+423
+00:15:39,120 --> 00:15:42,959
+okay so like one two three four okay so
+
+424
+00:15:41,680 --> 00:15:44,160
+there you have it eight to four what
+
+425
+00:15:42,959 --> 00:15:45,759
+happened
+
+426
+00:15:44,160 --> 00:15:48,560
+we put the
+
+427
+00:15:45,759 --> 00:15:51,519
+which one the first one
+
+428
+00:15:48,560 --> 00:15:53,199
+last one the last one okay and eight
+
+429
+00:15:51,519 --> 00:15:54,880
+is
+
+430
+00:15:53,199 --> 00:15:56,480
+first one yeah the time complexity
+
+431
+00:15:54,880 --> 00:16:00,160
+between these two
+
+432
+00:15:56,480 --> 00:16:00,160
+removing the last one is
+
+433
+00:16:02,000 --> 00:16:06,639
+one yeah you just remove it because in
+
+434
+00:16:04,160 --> 00:16:08,959
+the last you just remove it but pop zero
+
+435
+00:16:06,639 --> 00:16:08,959
+what's the
+
+436
+00:16:10,800 --> 00:16:17,040
+why is that because computer needs to
+
+437
+00:16:14,800 --> 00:16:18,160
+shift it all the elements
+
+438
+00:16:17,040 --> 00:16:19,440
+yeah
+
+439
+00:16:18,160 --> 00:16:22,160
+all the elements
+
+440
+00:16:19,440 --> 00:16:23,279
+so take it out it needs to shift it look
+
+441
+00:16:22,160 --> 00:16:24,399
+two
+
+442
+00:16:23,279 --> 00:16:26,480
+five
+
+443
+00:16:24,399 --> 00:16:28,959
+four yeah whatever this is one way of
+
+444
+00:16:26,480 --> 00:16:31,199
+doing another way some computers the
+
+445
+00:16:28,959 --> 00:16:34,160
+computer aggregates sometimes they they
+
+446
+00:16:31,199 --> 00:16:36,399
+want to allocate another place and copy
+
+447
+00:16:34,160 --> 00:16:38,079
+over while this is oven as well
+
+448
+00:16:36,399 --> 00:16:39,519
+but generally speaking
+
+449
+00:16:38,079 --> 00:16:42,079
+a popping
+
+450
+00:16:39,519 --> 00:16:43,279
+we're talking about this yeah
+
+451
+00:16:42,079 --> 00:16:45,040
+we are not talking about the double
+
+452
+00:16:43,279 --> 00:16:46,880
+ended queue yes double ndq is totally
+
+453
+00:16:45,040 --> 00:16:49,440
+different it's all
+
+454
+00:16:46,880 --> 00:16:51,440
+the double ndq with the double nkq the
+
+455
+00:16:49,440 --> 00:16:53,680
+popping that element from the first and
+
+456
+00:16:51,440 --> 00:16:55,920
+last one is always a constant right but
+
+457
+00:16:53,680 --> 00:16:58,320
+for the normal lace if the popping if
+
+458
+00:16:55,920 --> 00:16:59,759
+we're removing the element from the last
+
+459
+00:16:58,320 --> 00:17:01,440
+it's a one
+
+460
+00:16:59,759 --> 00:17:04,880
+if we remove an element from the first
+
+461
+00:17:01,440 --> 00:17:04,880
+or any anyone in the middle is
+
+462
+00:17:06,240 --> 00:17:09,039
+right yeah
+
+463
+00:17:07,439 --> 00:17:12,400
+yeah in general speaking so when in the
+
+464
+00:17:09,039 --> 00:17:14,640
+middle we it's awareness right right
+
+465
+00:17:12,400 --> 00:17:14,640
+uh
+
+466
+00:17:15,199 --> 00:17:19,120
+any questions so far do you understand
+
+467
+00:17:17,839 --> 00:17:20,400
+what i'm saying
+
+468
+00:17:19,120 --> 00:17:22,400
+actually
+
+469
+00:17:20,400 --> 00:17:23,360
+if it's okay you don't understand fully
+
+470
+00:17:22,400 --> 00:17:25,039
+but
+
+471
+00:17:23,360 --> 00:17:27,360
+do you understand or which part you
+
+472
+00:17:25,039 --> 00:17:29,600
+don't quit quite understand
+
+473
+00:17:27,360 --> 00:17:32,000
+and maybe i can talk a little bit more
+
+474
+00:17:29,600 --> 00:17:33,280
+it's okay it's okay it's okay yeah okay
+
+475
+00:17:32,000 --> 00:17:35,600
+so tomorrow
+
+476
+00:17:33,280 --> 00:17:38,000
+basically is your hygiene table hygiene
+
+477
+00:17:35,600 --> 00:17:39,760
+table so tomorrow we're going to design
+
+478
+00:17:38,000 --> 00:17:42,559
+we will not design the hashing table
+
+479
+00:17:39,760 --> 00:17:44,480
+okay yeah okay do you understand the
+
+480
+00:17:42,559 --> 00:17:48,400
+haitian key the haitian key look
+
+481
+00:17:44,480 --> 00:17:50,720
+what did i say today with hashing key is
+
+482
+00:17:48,400 --> 00:17:53,280
+is to calculate a key
+
+483
+00:17:50,720 --> 00:17:55,760
+based on arbitrary large data it could
+
+484
+00:17:53,280 --> 00:17:57,679
+be zero zero it could be nothing or it
+
+485
+00:17:55,760 --> 00:18:00,000
+could be a one million characters or
+
+486
+00:17:57,679 --> 00:18:03,039
+maybe a thousand characters so this t
+
+487
+00:18:00,000 --> 00:18:06,000
+the length of these is arbitrary but the
+
+488
+00:18:03,039 --> 00:18:07,919
+output the output is always fixed yeah
+
+489
+00:18:06,000 --> 00:18:10,720
+it could be 32 bit
+
+490
+00:18:07,919 --> 00:18:14,400
+integer or it could be 122
+
+491
+00:18:10,720 --> 00:18:16,640
+a bit or 252 bit you know
+
+492
+00:18:14,400 --> 00:18:18,559
+some crypto currency could the
+
+493
+00:18:16,640 --> 00:18:20,720
+graphic hashing function and they
+
+494
+00:18:18,559 --> 00:18:23,280
+produce this 256
+
+495
+00:18:20,720 --> 00:18:24,880
+sha yes yeah
+
+496
+00:18:23,280 --> 00:18:27,760
+crypto function
+
+497
+00:18:24,880 --> 00:18:30,000
+so look because this is one way all
+
+498
+00:18:27,760 --> 00:18:33,440
+right it's one way right
+
+499
+00:18:30,000 --> 00:18:35,600
+you don't understand one way or two
+
+500
+00:18:33,440 --> 00:18:35,920
+do you understand one way or two way one
+
+501
+00:18:35,600 --> 00:18:37,120
+way
+
+502
+00:18:35,920 --> 00:18:38,960
+[Music]
+
+503
+00:18:37,120 --> 00:18:40,840
+do you understand look if i give you a
+
+504
+00:18:38,960 --> 00:18:42,880
+function h
+
+505
+00:18:40,840 --> 00:18:46,799
+h all right look can you tell me what
+
+506
+00:18:42,880 --> 00:18:48,799
+what is one way if hx equals x plus one
+
+507
+00:18:46,799 --> 00:18:50,480
+it's at least one way or two way
+
+508
+00:18:48,799 --> 00:18:52,000
+one minute
+
+509
+00:18:50,480 --> 00:18:53,840
+ah
+
+510
+00:18:52,000 --> 00:18:56,960
+well come on think about what's one way
+
+511
+00:18:53,840 --> 00:18:59,039
+one one way is one way is that from left
+
+512
+00:18:56,960 --> 00:19:01,919
+you can particular to the right and from
+
+513
+00:18:59,039 --> 00:19:05,840
+the right you can calculate the left
+
+514
+00:19:01,919 --> 00:19:05,840
+it's this one way or two very obvious
+
+515
+00:19:05,919 --> 00:19:10,320
+too well because if i give you x equals
+
+516
+00:19:08,080 --> 00:19:11,919
+two you know it's three if i give you
+
+517
+00:19:10,320 --> 00:19:14,720
+the right hand side is three you know x
+
+518
+00:19:11,919 --> 00:19:16,320
+is two right yeah this is two way but
+
+519
+00:19:14,720 --> 00:19:18,480
+question function you see one way or two
+
+520
+00:19:16,320 --> 00:19:18,480
+away
+
+521
+00:19:18,960 --> 00:19:23,600
+remember the left is arbitrary big a
+
+522
+00:19:21,360 --> 00:19:25,679
+minion characters and the left right is
+
+523
+00:19:23,600 --> 00:19:27,919
+my 32-bit integer
+
+524
+00:19:25,679 --> 00:19:29,600
+one one way obviously look a million
+
+525
+00:19:27,919 --> 00:19:31,679
+characters
+
+526
+00:19:29,600 --> 00:19:33,760
+it's a little bit but obviously i cannot
+
+527
+00:19:31,679 --> 00:19:36,240
+do this reverse right yeah there's no
+
+528
+00:19:33,760 --> 00:19:39,240
+way to reverse one to two from 30 to be
+
+529
+00:19:36,240 --> 00:19:39,240
+integrated
+
+530
+00:19:40,240 --> 00:19:43,919
+yeah
+
+531
+00:19:41,280 --> 00:19:46,640
+so h function is one way okay so this is
+
+532
+00:19:43,919 --> 00:19:48,160
+zero is one way one way one way function
+
+533
+00:19:46,640 --> 00:19:50,559
+okay one way function it has to be one
+
+534
+00:19:48,160 --> 00:19:52,080
+way function all right hashing table
+
+535
+00:19:50,559 --> 00:19:53,440
+testing
+
+536
+00:19:52,080 --> 00:19:55,280
+and we're going to
+
+537
+00:19:53,440 --> 00:19:56,559
+describe how to uh
+
+538
+00:19:55,280 --> 00:19:58,000
+we're going to implement this hygiene
+
+539
+00:19:56,559 --> 00:20:00,080
+table design the hashing table tomorrow
+
+540
+00:19:58,000 --> 00:20:02,080
+okay that's it for today good job bye
+
+541
+00:20:00,080 --> 00:20:05,080
+bye
+
+542
+00:20:02,080 --> 00:20:05,080
+bye
+
