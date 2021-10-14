@@ -1,10 +1,12 @@
 ## Teaching Wife Programming in Chinese
 教小白媳妇编程，比教娃有难度. 不定期更新，对应教娃视频。
+- [所有教妻子编程视频](https://zhihua-lai.com/teaching/ch/?s=wife)
 - [按天排序 Sort by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)
 - [主目录 Index](https://github.com/DoctorLai/Teaching-Kids-Programming)
 
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Three ways to compute the Fibonacci Numbers (Recursion and Iteration) | 第6课 教小白媳妇编程: 计算斐波那契数列的三种方法 | [Youtube](https://youtu.be/yUmrT_3e6jw) - [B站](https://www.bilibili.com/video/BV1wb4y1Y7SS/) - [西瓜](https://www.ixigua.com/7018704946669289992) | [Three ways to compute the Fibonacci Numbers](https://helloacm.com/teaching-kids-programming-computing-fibonacci-numbers-using-3-methods/) | 2021-10-14 |
 | Tuple vs. List in Python | 第5课 教小白媳妇编程：Python 入门之 Tuple 和 List (元组和数组列表) | [Youtube](https://youtu.be/VBzWjxcA6f8) - [B站](https://www.bilibili.com/video/BV1Hv411g78S/) - [西瓜](https://www.ixigua.com/7016528132513628708) |  - | 2021-10-07 |
 | While Loop, If Condition and Functions | 第4课 教小白媳妇编程：7分钟讲Python的while循环, IF分支判断和函数定义 | [Youtube](https://youtu.be/S8rNmpCWFXo) - [B站](https://www.bilibili.com/video/BV1Y44y147iP/)|  - | 2021-10-01 |
 | Variables and For Loop in Python | 第3课 教小白媳妇编程： 3分钟讲Python的变量和For循环 | [Youtube](https://www.youtube.com/watch?v=iWC1h9UqtJc) - [B站](https://www.bilibili.com/video/BV1Fg411w77q/)| - | 2021-09-26 |
