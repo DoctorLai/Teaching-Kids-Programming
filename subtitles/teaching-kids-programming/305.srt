@@ -1,0 +1,1772 @@
+1
+00:00:00,970 --> 00:00:04,020
+[Music]
+
+2
+00:00:06,560 --> 00:00:10,480
+so we have talked about the sub array
+
+3
+00:00:08,480 --> 00:00:13,200
+yeah remember i think
+
+4
+00:00:10,480 --> 00:00:13,200
+sub erase
+
+5
+00:00:14,160 --> 00:00:19,199
+what's the
+
+6
+00:00:15,839 --> 00:00:23,039
+it's a thing it's array like
+
+7
+00:00:19,199 --> 00:00:26,080
+is it it's a type of array sub array
+
+8
+00:00:23,039 --> 00:00:28,320
+type of an array continues it's
+
+9
+00:00:26,080 --> 00:00:30,800
+continuous okay
+
+10
+00:00:28,320 --> 00:00:34,160
+remember we have a few concepts
+
+11
+00:00:30,800 --> 00:00:36,719
+subsequence yeah subsequence
+
+12
+00:00:34,160 --> 00:00:38,399
+yeah and sub array yeah or substring if
+
+13
+00:00:36,719 --> 00:00:42,079
+you just string substring
+
+14
+00:00:38,399 --> 00:00:44,719
+subsequence subsequence is that
+
+15
+00:00:42,079 --> 00:00:46,640
+if you can remove one or more elements
+
+16
+00:00:44,719 --> 00:00:48,079
+from the original array or string and it
+
+17
+00:00:46,640 --> 00:00:50,320
+becomes subsequent it does not have to
+
+18
+00:00:48,079 --> 00:00:53,039
+be continued sub array is continued
+
+19
+00:00:50,320 --> 00:00:55,120
+right all right yeah right we have to be
+
+20
+00:00:53,039 --> 00:00:56,640
+continued okay we have talked about i
+
+21
+00:00:55,120 --> 00:00:58,480
+think we have talked about this in the
+
+22
+00:00:56,640 --> 00:01:01,199
+max sub array all right we're going to
+
+23
+00:00:58,480 --> 00:01:03,120
+calculate the max sub array sum right
+
+24
+00:01:01,199 --> 00:01:06,479
+so what's the next sub array sum what's
+
+25
+00:01:03,120 --> 00:01:08,640
+the sub rate that has the most sum in
+
+26
+00:01:06,479 --> 00:01:10,560
+this in the in this array array
+
+27
+00:01:08,640 --> 00:01:12,720
+everything have a look
+
+28
+00:01:10,560 --> 00:01:14,159
+another server continues
+
+29
+00:01:12,720 --> 00:01:16,080
+10 years
+
+30
+00:01:14,159 --> 00:01:17,920
+how much
+
+31
+00:01:16,080 --> 00:01:21,200
+you can you can pick this yeah you can
+
+32
+00:01:17,920 --> 00:01:23,680
+pick this that's six yeah all right all
+
+33
+00:01:21,200 --> 00:01:26,720
+you gonna pick here is 12. so the most
+
+34
+00:01:23,680 --> 00:01:29,840
+sub array is two is 12 right yeah
+
+35
+00:01:26,720 --> 00:01:32,400
+all right oh maybe
+
+36
+00:01:29,840 --> 00:01:32,400
+six months
+
+37
+00:01:34,560 --> 00:01:40,720
+what's that what do you mean
+
+38
+00:01:37,200 --> 00:01:42,320
+the subway doesn't yeah it look three to
+
+39
+00:01:40,720 --> 00:01:44,159
+one is a sub array two one is the
+
+40
+00:01:42,320 --> 00:01:47,119
+summary one is the sub right it has to
+
+41
+00:01:44,159 --> 00:01:49,360
+be continuous nice subsequence okay okay
+
+42
+00:01:47,119 --> 00:01:52,000
+yeah then why could you just do all of
+
+43
+00:01:49,360 --> 00:01:54,159
+them oh we're done okay let's see okay
+
+44
+00:01:52,000 --> 00:01:57,119
+because i i'm not sure i'm just checking
+
+45
+00:01:54,159 --> 00:01:58,719
+this it's like six minus five is one and
+
+46
+00:01:57,119 --> 00:02:00,880
+ten two yeah you're all right yeah you
+
+47
+00:01:58,719 --> 00:02:02,399
+can put all of it yeah okay so let's
+
+48
+00:02:00,880 --> 00:02:05,600
+what what how how are we solving this
+
+49
+00:02:02,399 --> 00:02:07,759
+remember we've talked about this before
+
+50
+00:02:05,600 --> 00:02:10,000
+yeah yeah greedy yeah and then oh the
+
+51
+00:02:07,759 --> 00:02:12,800
+first approach is what if we're not sure
+
+52
+00:02:10,000 --> 00:02:14,720
+we can always do this
+
+53
+00:02:12,800 --> 00:02:15,599
+how do we prove our thing we
+
+54
+00:02:14,720 --> 00:02:18,239
+what
+
+55
+00:02:15,599 --> 00:02:19,680
+we can profess the subway or sub
+
+56
+00:02:18,239 --> 00:02:22,800
+sub uh
+
+57
+00:02:19,680 --> 00:02:22,800
+sub array or sub
+
+58
+00:02:23,520 --> 00:02:28,480
+next if we if we determine the left part
+
+59
+00:02:26,239 --> 00:02:30,720
+you know the starting part of the sub
+
+60
+00:02:28,480 --> 00:02:34,640
+array and then we can proof us the next
+
+61
+00:02:30,720 --> 00:02:36,480
+yeah okay okay let's try this okay
+
+62
+00:02:34,640 --> 00:02:37,440
+this is just a little video and i'm
+
+63
+00:02:36,480 --> 00:02:38,640
+going to
+
+64
+00:02:37,440 --> 00:02:40,800
+introduce
+
+65
+00:02:38,640 --> 00:02:42,879
+a new concept of a new algorithm okay so
+
+66
+00:02:40,800 --> 00:02:46,080
+let's actually define
+
+67
+00:02:42,879 --> 00:02:48,319
+max sub array right separate
+
+68
+00:02:46,080 --> 00:02:51,440
+array sum
+
+69
+00:02:48,319 --> 00:02:53,599
+and we have the numbers nums
+
+70
+00:02:51,440 --> 00:02:56,319
+so first of all we want to get a n n
+
+71
+00:02:53,599 --> 00:02:59,120
+equals length num right
+
+72
+00:02:56,319 --> 00:02:59,120
+this is the length
+
+73
+00:02:59,599 --> 00:03:04,640
+and then that's the number the next sum
+
+74
+00:03:02,239 --> 00:03:06,959
+okay so the maximum is what let's assume
+
+75
+00:03:04,640 --> 00:03:09,360
+these numbers is not empty okay it's not
+
+76
+00:03:06,959 --> 00:03:10,800
+empty so assume a third okay i said
+
+77
+00:03:09,360 --> 00:03:13,840
+remember i said
+
+78
+00:03:10,800 --> 00:03:15,920
+n is bigger than zero okay
+
+79
+00:03:13,840 --> 00:03:17,280
+assert anything bigger than zero and at
+
+80
+00:03:15,920 --> 00:03:19,120
+the beginning we want to assign the
+
+81
+00:03:17,280 --> 00:03:20,879
+maximum to the max
+
+82
+00:03:19,120 --> 00:03:22,000
+possible and the negative
+
+83
+00:03:20,879 --> 00:03:24,000
+so what's the
+
+84
+00:03:22,000 --> 00:03:26,080
+what's the minimum what's the
+
+85
+00:03:24,000 --> 00:03:27,680
+smallest number you can think of you can
+
+86
+00:03:26,080 --> 00:03:30,560
+think of
+
+87
+00:03:27,680 --> 00:03:32,560
+minus infinity where the mass of
+
+88
+00:03:30,560 --> 00:03:34,799
+infinity yeah infinity
+
+89
+00:03:32,560 --> 00:03:37,360
+infinity is not actually not a concrete
+
+90
+00:03:34,799 --> 00:03:39,120
+number it's it's it's so small that you
+
+91
+00:03:37,360 --> 00:03:41,280
+can measure it okay
+
+92
+00:03:39,120 --> 00:03:45,599
+and then now we go
+
+93
+00:03:41,280 --> 00:03:49,280
+and we fall left we for left in range
+
+94
+00:03:45,599 --> 00:03:51,920
+range when we start with zero to n right
+
+95
+00:03:49,280 --> 00:03:54,560
+and then for we proof was the right yeah
+
+96
+00:03:51,920 --> 00:03:56,720
+if we decide if we already decide the
+
+97
+00:03:54,560 --> 00:03:59,120
+left path then we go to the right path
+
+98
+00:03:56,720 --> 00:04:02,400
+for r in range range one
+
+99
+00:03:59,120 --> 00:04:03,920
+we start with one l plus one right
+
+100
+00:04:02,400 --> 00:04:06,000
+can we start with the l yes we can
+
+101
+00:04:03,920 --> 00:04:07,920
+product because the sub array can be a
+
+102
+00:04:06,000 --> 00:04:09,360
+single number so we start with the l and
+
+103
+00:04:07,920 --> 00:04:10,799
+up to n right
+
+104
+00:04:09,360 --> 00:04:12,000
+i know
+
+105
+00:04:10,799 --> 00:04:13,680
+i don't know what
+
+106
+00:04:12,000 --> 00:04:16,239
+and now we want to calculate the sum
+
+107
+00:04:13,680 --> 00:04:18,000
+right we want to calculate some
+
+108
+00:04:16,239 --> 00:04:20,720
+yeah we want to calculate something they
+
+109
+00:04:18,000 --> 00:04:22,720
+know this sum equal as well we can do
+
+110
+00:04:20,720 --> 00:04:25,360
+this sum
+
+111
+00:04:22,720 --> 00:04:28,320
+somewhat uh
+
+112
+00:04:25,360 --> 00:04:31,040
+nums
+
+113
+00:04:28,320 --> 00:04:33,840
+to r plus one right then we calculate
+
+114
+00:04:31,040 --> 00:04:36,320
+sum and then we want to keep the maximum
+
+115
+00:04:33,840 --> 00:04:37,600
+so maximum answer equals
+
+116
+00:04:36,320 --> 00:04:38,639
+max
+
+117
+00:04:37,600 --> 00:04:42,160
+answer
+
+118
+00:04:38,639 --> 00:04:42,160
+s right and then return y
+
+119
+00:04:44,880 --> 00:04:48,320
+very obvious what's the term complexity
+
+120
+00:04:46,720 --> 00:04:51,120
+it's very tricky okay look what's the
+
+121
+00:04:48,320 --> 00:04:51,120
+term numerous things
+
+122
+00:04:53,520 --> 00:04:58,080
+yeah because this one yeah but we can
+
+123
+00:04:55,919 --> 00:05:00,720
+improve to all square right this is our
+
+124
+00:04:58,080 --> 00:05:02,800
+nqp right we can input over n square how
+
+125
+00:05:00,720 --> 00:05:04,720
+do we improve the length square so every
+
+126
+00:05:02,800 --> 00:05:07,199
+time
+
+127
+00:05:04,720 --> 00:05:09,039
+so every time we start with the l we put
+
+128
+00:05:07,199 --> 00:05:12,560
+x equals zero here
+
+129
+00:05:09,039 --> 00:05:14,960
+and then we just here s plus equals
+
+130
+00:05:12,560 --> 00:05:14,960
+nums
+
+131
+00:05:15,039 --> 00:05:17,919
+nums
+
+132
+00:05:16,160 --> 00:05:19,120
+ah right because every time we start
+
+133
+00:05:17,919 --> 00:05:21,199
+with air
+
+134
+00:05:19,120 --> 00:05:23,680
+the sum is zero
+
+135
+00:05:21,199 --> 00:05:25,280
+right and then we start adding the
+
+136
+00:05:23,680 --> 00:05:27,120
+the bit the server right now and then we
+
+137
+00:05:25,280 --> 00:05:29,120
+do this then in this case the term
+
+138
+00:05:27,120 --> 00:05:31,440
+complexity is our
+
+139
+00:05:29,120 --> 00:05:34,240
+if we do this optimization the sum is
+
+140
+00:05:31,440 --> 00:05:38,039
+gone so we accumulate the sum along the
+
+141
+00:05:34,240 --> 00:05:38,039
+way so what's the terminal
+
+142
+00:05:39,120 --> 00:05:42,000
+and what
+
+143
+00:05:40,960 --> 00:05:44,160
+come on
+
+144
+00:05:42,000 --> 00:05:45,039
+why you said i went free in in the first
+
+145
+00:05:44,160 --> 00:05:47,039
+place
+
+146
+00:05:45,039 --> 00:05:48,800
+oh and cupid and now i improve it so
+
+147
+00:05:47,039 --> 00:05:50,960
+what's the time to make sticks
+
+148
+00:05:48,800 --> 00:05:53,520
+oh and square we're done okay
+
+149
+00:05:50,960 --> 00:05:55,120
+so okay so this is the this is not new
+
+150
+00:05:53,520 --> 00:05:58,000
+okay we have talked about this before
+
+151
+00:05:55,120 --> 00:05:59,600
+all right this is just the review okay
+
+152
+00:05:58,000 --> 00:06:01,039
+um and we talk about the dynamic
+
+153
+00:05:59,600 --> 00:06:02,800
+programming actually
+
+154
+00:06:01,039 --> 00:06:05,440
+because at the time we didn't know that
+
+155
+00:06:02,800 --> 00:06:07,680
+dynamic programming is also fancy
+
+156
+00:06:05,440 --> 00:06:10,240
+there's a it's a fancy name called tadan
+
+157
+00:06:07,680 --> 00:06:10,240
+agreement
+
+158
+00:06:12,880 --> 00:06:18,319
+so it's actually an iterative
+
+159
+00:06:15,600 --> 00:06:21,360
+uh iterated dynamic programming
+
+160
+00:06:18,319 --> 00:06:24,319
+so what does it mean
+
+161
+00:06:21,360 --> 00:06:27,680
+so let's use this let's use dp
+
+162
+00:06:24,319 --> 00:06:27,680
+and dynamic programming i
+
+163
+00:06:27,919 --> 00:06:32,479
+that means that it
+
+164
+00:06:29,600 --> 00:06:35,039
+that's the maximum sub array
+
+165
+00:06:32,479 --> 00:06:36,240
+sum that ends up index i
+
+166
+00:06:35,039 --> 00:06:37,120
+okay
+
+167
+00:06:36,240 --> 00:06:40,639
+yeah
+
+168
+00:06:37,120 --> 00:06:43,280
+max sum max sum
+
+169
+00:06:40,639 --> 00:06:43,280
+sub array
+
+170
+00:06:44,800 --> 00:06:47,120
+and
+
+171
+00:06:46,160 --> 00:06:48,479
+add
+
+172
+00:06:47,120 --> 00:06:51,759
+index
+
+173
+00:06:48,479 --> 00:06:53,759
+i okay that's what you mean dpi okay
+
+174
+00:06:51,759 --> 00:06:56,880
+so what does it equal
+
+175
+00:06:53,759 --> 00:07:00,080
+is it equals that max
+
+176
+00:06:56,880 --> 00:07:01,520
+max y max of one
+
+177
+00:07:00,080 --> 00:07:06,000
+dp
+
+178
+00:07:01,520 --> 00:07:06,000
+the first previous one i minus one yeah
+
+179
+00:07:07,440 --> 00:07:11,840
+uh let's do this a little bit closer and
+
+180
+00:07:10,240 --> 00:07:14,880
+then zero
+
+181
+00:07:11,840 --> 00:07:16,160
+plus the numbers i
+
+182
+00:07:14,880 --> 00:07:17,039
+already
+
+183
+00:07:16,160 --> 00:07:18,720
+can you
+
+184
+00:07:17,039 --> 00:07:19,840
+understand this what does it mean so
+
+185
+00:07:18,720 --> 00:07:22,720
+look
+
+186
+00:07:19,840 --> 00:07:24,720
+i have a lot of few numbers we have 4
+
+187
+00:07:22,720 --> 00:07:26,240
+minus 10
+
+188
+00:07:24,720 --> 00:07:28,880
+1 okay
+
+189
+00:07:26,240 --> 00:07:30,800
+so at this point the max sub array sum
+
+190
+00:07:28,880 --> 00:07:33,520
+ending at this index
+
+191
+00:07:30,800 --> 00:07:35,360
+is it equals to the maximum of the
+
+192
+00:07:33,520 --> 00:07:38,160
+previous previous
+
+193
+00:07:35,360 --> 00:07:39,280
+previous sum plus this number yeah plus
+
+194
+00:07:38,160 --> 00:07:41,360
+this number
+
+195
+00:07:39,280 --> 00:07:43,280
+or if i don't pick the previous one if i
+
+196
+00:07:41,360 --> 00:07:45,680
+pick only the current current number
+
+197
+00:07:43,280 --> 00:07:47,759
+right right doesn't make sense so at
+
+198
+00:07:45,680 --> 00:07:49,120
+this point i can make a choice i can
+
+199
+00:07:47,759 --> 00:07:50,800
+make a choice
+
+200
+00:07:49,120 --> 00:07:53,360
+i can
+
+201
+00:07:50,800 --> 00:07:54,560
+choose to keep the previous separate sum
+
+202
+00:07:53,360 --> 00:07:57,759
+right
+
+203
+00:07:54,560 --> 00:07:59,759
+or i can abandon the previous operation
+
+204
+00:07:57,759 --> 00:08:03,360
+so this is abundant when we abandon it
+
+205
+00:07:59,759 --> 00:08:05,759
+then we start a new suburbanism is just
+
+206
+00:08:03,360 --> 00:08:08,639
+this number or we keep the previous
+
+207
+00:08:05,759 --> 00:08:12,080
+summary some in this case we add the the
+
+208
+00:08:08,639 --> 00:08:14,879
+current subway summits previous one plus
+
+209
+00:08:12,080 --> 00:08:16,960
+uh plus the number of this one right
+
+210
+00:08:14,879 --> 00:08:18,720
+so this is called captain argument it's
+
+211
+00:08:16,960 --> 00:08:20,800
+also iterated
+
+212
+00:08:18,720 --> 00:08:22,240
+dynamic programming okay it generated by
+
+213
+00:08:20,800 --> 00:08:24,720
+dynamic programming
+
+214
+00:08:22,240 --> 00:08:27,280
+so we can implement it without
+
+215
+00:08:24,720 --> 00:08:29,599
+keeping this dpi because we always look
+
+216
+00:08:27,280 --> 00:08:30,800
+because this dvi is an array right but
+
+217
+00:08:29,599 --> 00:08:33,680
+we can
+
+218
+00:08:30,800 --> 00:08:35,680
+implement this just using these the two
+
+219
+00:08:33,680 --> 00:08:37,279
+variables because for every time i
+
+220
+00:08:35,680 --> 00:08:41,519
+calculate dpi
+
+221
+00:08:37,279 --> 00:08:43,360
+all i need is dpi minus one right
+
+222
+00:08:41,519 --> 00:08:44,320
+okay let's do this because this is
+
+223
+00:08:43,360 --> 00:08:46,240
+called
+
+224
+00:08:44,320 --> 00:08:47,839
+it's quite similar to the dynamic
+
+225
+00:08:46,240 --> 00:08:49,680
+programming we have implemented in the
+
+226
+00:08:47,839 --> 00:08:52,080
+first few lessons right
+
+227
+00:08:49,680 --> 00:08:55,040
+in a long time ago just a little easier
+
+228
+00:08:52,080 --> 00:08:56,720
+just make sure you don't forget okay
+
+229
+00:08:55,040 --> 00:08:59,120
+and then we today we'll give you the
+
+230
+00:08:56,720 --> 00:09:01,279
+fencing name go kadam
+
+231
+00:08:59,120 --> 00:09:03,600
+okay negara is the
+
+232
+00:09:01,279 --> 00:09:06,240
+iterated dynamic programming languages
+
+233
+00:09:03,600 --> 00:09:07,600
+to a programming agreement to compute
+
+234
+00:09:06,240 --> 00:09:10,080
+the max
+
+235
+00:09:07,600 --> 00:09:11,760
+maximum sum of sub array in a one
+
+236
+00:09:10,080 --> 00:09:14,640
+dimensional array okay
+
+237
+00:09:11,760 --> 00:09:16,800
+usually if we use the blue force
+
+238
+00:09:14,640 --> 00:09:19,360
+then that time complexity will be o and
+
+239
+00:09:16,800 --> 00:09:21,360
+q ln square right on square for the
+
+240
+00:09:19,360 --> 00:09:22,480
+improved blue force
+
+241
+00:09:21,360 --> 00:09:25,360
+defined
+
+242
+00:09:22,480 --> 00:09:25,360
+next sub array
+
+243
+00:09:27,200 --> 00:09:31,040
+num
+
+244
+00:09:29,120 --> 00:09:32,480
+okay so now we how can we do this how
+
+245
+00:09:31,040 --> 00:09:34,880
+can we do this
+
+246
+00:09:32,480 --> 00:09:36,959
+uh and it goes lens
+
+247
+00:09:34,880 --> 00:09:38,240
+nums okay this is the same and then we
+
+248
+00:09:36,959 --> 00:09:40,480
+assert
+
+249
+00:09:38,240 --> 00:09:42,080
+we have said n is bigger than zero okay
+
+250
+00:09:40,480 --> 00:09:43,680
+we don't want to compute the separate
+
+251
+00:09:42,080 --> 00:09:45,760
+layer it doesn't
+
+252
+00:09:43,680 --> 00:09:48,320
+make any sense if we don't compute the
+
+253
+00:09:45,760 --> 00:09:49,279
+sub array of the empty array okay
+
+254
+00:09:48,320 --> 00:09:51,680
+now
+
+255
+00:09:49,279 --> 00:09:55,040
+i have this answer
+
+256
+00:09:51,680 --> 00:09:57,600
+answer let's say is max
+
+257
+00:09:55,040 --> 00:09:59,760
+max infinity right
+
+258
+00:09:57,600 --> 00:10:02,240
+right and then i have the current sum
+
+259
+00:09:59,760 --> 00:10:06,079
+okay let's put this as zero and then we
+
+260
+00:10:02,240 --> 00:10:08,480
+loop over the numbers i in
+
+261
+00:10:06,079 --> 00:10:10,240
+nums
+
+262
+00:10:08,480 --> 00:10:15,200
+okay now what
+
+263
+00:10:10,240 --> 00:10:17,279
+s will be equals to maximum of y um
+
+264
+00:10:15,200 --> 00:10:19,040
+s
+
+265
+00:10:17,279 --> 00:10:21,279
+and what
+
+266
+00:10:19,040 --> 00:10:23,360
+uh actually is maximum of
+
+267
+00:10:21,279 --> 00:10:25,760
+i we choose the current number or we
+
+268
+00:10:23,360 --> 00:10:28,079
+choose the s plus i
+
+269
+00:10:25,760 --> 00:10:30,640
+right and then answer
+
+270
+00:10:28,079 --> 00:10:33,920
+will be equals max
+
+271
+00:10:30,640 --> 00:10:35,760
+answer of another current so far okay as
+
+272
+00:10:33,920 --> 00:10:38,800
+s s will be
+
+273
+00:10:35,760 --> 00:10:41,680
+actually let's make rename the s to the
+
+274
+00:10:38,800 --> 00:10:44,640
+the maximum ending that current index so
+
+275
+00:10:41,680 --> 00:10:47,920
+let's say dp dpi okay let's put a dpi
+
+276
+00:10:44,640 --> 00:10:50,240
+this is a variable okay dpi equals zero
+
+277
+00:10:47,920 --> 00:10:52,160
+and dpi
+
+278
+00:10:50,240 --> 00:10:54,640
+dvi equals
+
+279
+00:10:52,160 --> 00:10:56,320
+max i this is the current remember we're
+
+280
+00:10:54,640 --> 00:10:57,839
+talking about the current number ending
+
+281
+00:10:56,320 --> 00:10:59,360
+the column we can start with canon
+
+282
+00:10:57,839 --> 00:11:01,600
+number oh we keep the previous sum so
+
+283
+00:10:59,360 --> 00:11:03,600
+which is dpi
+
+284
+00:11:01,600 --> 00:11:05,279
+plus i right and the next answer is the
+
+285
+00:11:03,600 --> 00:11:07,519
+next answer
+
+286
+00:11:05,279 --> 00:11:09,519
+we're going to we want to keep uh this
+
+287
+00:11:07,519 --> 00:11:12,800
+is the global maximum okay global
+
+288
+00:11:09,519 --> 00:11:15,440
+maximum we can do this dpi right dbi
+
+289
+00:11:12,800 --> 00:11:16,720
+and return
+
+290
+00:11:15,440 --> 00:11:18,480
+answer
+
+291
+00:11:16,720 --> 00:11:20,320
+what's the time complexity if you if you
+
+292
+00:11:18,480 --> 00:11:22,240
+look at these if you look at these
+
+293
+00:11:20,320 --> 00:11:23,600
+what's the thumbnail that's the can you
+
+294
+00:11:22,240 --> 00:11:27,120
+tell me
+
+295
+00:11:23,600 --> 00:11:29,839
+oh n yeah it's all yes
+
+296
+00:11:27,120 --> 00:11:29,839
+yes it's over
+
+297
+00:11:32,000 --> 00:11:36,480
+okay so let's go through this a little
+
+298
+00:11:33,760 --> 00:11:39,279
+bit okay answer global
+
+299
+00:11:36,480 --> 00:11:40,320
+global maximum at the beginning is max
+
+300
+00:11:39,279 --> 00:11:42,160
+is the
+
+301
+00:11:40,320 --> 00:11:43,279
+smallest number we can we can represent
+
+302
+00:11:42,160 --> 00:11:44,320
+in python is
+
+303
+00:11:43,279 --> 00:11:45,360
+negative
+
+304
+00:11:44,320 --> 00:11:49,360
+infinity
+
+305
+00:11:45,360 --> 00:11:52,480
+dpi is the what is the current
+
+306
+00:11:49,360 --> 00:11:55,600
+is the maximum sum of the sub array
+
+307
+00:11:52,480 --> 00:11:57,120
+that ends the index i s and the
+
+308
+00:11:55,600 --> 00:12:00,240
+current position now we go through these
+
+309
+00:11:57,120 --> 00:12:01,760
+numbers and we update it so
+
+310
+00:12:00,240 --> 00:12:05,760
+this this is
+
+311
+00:12:01,760 --> 00:12:07,279
+kadan angular yeah it's also dp
+
+312
+00:12:05,760 --> 00:12:09,519
+so it means that
+
+313
+00:12:07,279 --> 00:12:12,240
+we can choose
+
+314
+00:12:09,519 --> 00:12:16,160
+we can choose to ignore look alright
+
+315
+00:12:12,240 --> 00:12:18,000
+three two minus ten okay here
+
+316
+00:12:16,160 --> 00:12:19,279
+all right look what's the what's the
+
+317
+00:12:18,000 --> 00:12:20,959
+summary
+
+318
+00:12:19,279 --> 00:12:24,360
+of ending at
+
+319
+00:12:20,959 --> 00:12:24,360
+minus ten
+
+320
+00:12:25,600 --> 00:12:30,480
+what's the
+
+321
+00:12:26,880 --> 00:12:30,480
+subtle way of ending minus 10
+
+322
+00:12:30,639 --> 00:12:34,880
+if i if i have
+
+323
+00:12:32,480 --> 00:12:38,240
+what's the maximum sum of sub ray that
+
+324
+00:12:34,880 --> 00:12:40,000
+has to end at -10
+
+325
+00:12:38,240 --> 00:12:42,160
+ten
+
+326
+00:12:40,000 --> 00:12:43,760
+is it yeah is it minus seven can i
+
+327
+00:12:42,160 --> 00:12:47,120
+include the before then it would be
+
+328
+00:12:43,760 --> 00:12:49,360
+smaller right one you'll be infinite no
+
+329
+00:12:47,120 --> 00:12:51,360
+no no you'll be my five minus ten will
+
+330
+00:12:49,360 --> 00:12:54,399
+be minus five minus size bigger than
+
+331
+00:12:51,360 --> 00:12:57,360
+minus 10 that's what i mean yeah yeah
+
+332
+00:12:54,399 --> 00:13:01,120
+but if this is look if it is if this is
+
+333
+00:12:57,360 --> 00:13:03,680
+minus 3 minus 2 minus 10 what's the
+
+334
+00:13:01,120 --> 00:13:07,720
+maximum sum that ends that summaries on
+
+335
+00:13:03,680 --> 00:13:07,720
+the answer minus 10.
+
+336
+00:13:08,320 --> 00:13:12,320
+that's -10 right
+
+337
+00:13:10,320 --> 00:13:16,000
+yeah you see you see the difference yeah
+
+338
+00:13:12,320 --> 00:13:18,320
+so dpi is the sub is the maximum okay
+
+339
+00:13:16,000 --> 00:13:22,240
+let's duplicate it max sub array sum
+
+340
+00:13:18,320 --> 00:13:26,079
+that ends at i index i dpi so
+
+341
+00:13:22,240 --> 00:13:28,240
+ends at it ends at the index i
+
+342
+00:13:26,079 --> 00:13:31,680
+okay so and at this point so i need to
+
+343
+00:13:28,240 --> 00:13:34,160
+compare what i can compare if i keep the
+
+344
+00:13:31,680 --> 00:13:35,760
+previous sum right
+
+345
+00:13:34,160 --> 00:13:38,000
+well previous sum keep the previous
+
+346
+00:13:35,760 --> 00:13:40,320
+number is which is dpi minus one here
+
+347
+00:13:38,000 --> 00:13:40,320
+right
+
+348
+00:13:40,639 --> 00:13:43,600
+yeah
+
+349
+00:13:41,519 --> 00:13:46,160
+this is dynamically if i choose to keep
+
+350
+00:13:43,600 --> 00:13:48,160
+the previous sound
+
+351
+00:13:46,160 --> 00:13:49,839
+so that's two possibilities once to keep
+
+352
+00:13:48,160 --> 00:13:51,120
+it then
+
+353
+00:13:49,839 --> 00:13:53,680
+then the sum
+
+354
+00:13:51,120 --> 00:13:57,120
+will be previous dpi minus one plus the
+
+355
+00:13:53,680 --> 00:13:59,360
+numbers or if i choose to ignore to
+
+356
+00:13:57,120 --> 00:14:00,639
+abandon the previous sum
+
+357
+00:13:59,360 --> 00:14:03,440
+then the
+
+358
+00:14:00,639 --> 00:14:06,240
+sum will be what if i choose to ignore
+
+359
+00:14:03,440 --> 00:14:08,800
+any one and what what's the sum of the
+
+360
+00:14:06,240 --> 00:14:10,480
+one end at index like come on it will be
+
+361
+00:14:08,800 --> 00:14:12,480
+easy
+
+362
+00:14:10,480 --> 00:14:15,440
+10 it will be least number right so
+
+363
+00:14:12,480 --> 00:14:17,360
+that's what i mean dbi equals next i
+
+364
+00:14:15,440 --> 00:14:20,639
+max i is this number
+
+365
+00:14:17,360 --> 00:14:22,959
+dpi plus i is previous one plus this
+
+366
+00:14:20,639 --> 00:14:24,320
+number and we are going to choose the
+
+367
+00:14:22,959 --> 00:14:26,720
+maximum
+
+368
+00:14:24,320 --> 00:14:28,639
+and answer will be the global answer
+
+369
+00:14:26,720 --> 00:14:30,959
+right because we want to find out the
+
+370
+00:14:28,639 --> 00:14:34,720
+maximum sub array sum and then the
+
+371
+00:14:30,959 --> 00:14:36,240
+summary sum can ends at in in any index
+
+372
+00:14:34,720 --> 00:14:38,240
+right that's so that's why we keep
+
+373
+00:14:36,240 --> 00:14:40,880
+updating this group of answers so the
+
+374
+00:14:38,240 --> 00:14:43,519
+time context is of n what's the space
+
+375
+00:14:40,880 --> 00:14:45,279
+complexity are we using any space
+
+376
+00:14:43,519 --> 00:14:49,040
+no
+
+377
+00:14:45,279 --> 00:14:49,040
+what's a what's a space complexity
+
+378
+00:14:49,920 --> 00:14:54,320
+oh what
+
+379
+00:14:52,240 --> 00:14:56,560
+are we using any additional linear space
+
+380
+00:14:54,320 --> 00:14:58,320
+one a one whether
+
+381
+00:14:56,560 --> 00:15:00,320
+okay so this is called captain agreement
+
+382
+00:14:58,320 --> 00:15:02,240
+okay so previously we have talked about
+
+383
+00:15:00,320 --> 00:15:04,320
+it but we we we didn't know it was
+
+384
+00:15:02,240 --> 00:15:06,079
+called captain we just
+
+385
+00:15:04,320 --> 00:15:07,839
+named it that dynamic programming but
+
+386
+00:15:06,079 --> 00:15:10,399
+it's basically the same thing so today
+
+387
+00:15:07,839 --> 00:15:13,600
+is basically just the review okay just a
+
+388
+00:15:10,399 --> 00:15:14,560
+review of the previous lessons okay
+
+389
+00:15:13,600 --> 00:15:16,639
+uh
+
+390
+00:15:14,560 --> 00:15:18,800
+any questions
+
+391
+00:15:16,639 --> 00:15:20,959
+any questions
+
+392
+00:15:18,800 --> 00:15:22,880
+no okay so tomorrow we're going to use
+
+393
+00:15:20,959 --> 00:15:25,199
+this katanagaran to do something more
+
+394
+00:15:22,880 --> 00:15:26,959
+because yeah to do something wrong to do
+
+395
+00:15:25,199 --> 00:15:29,040
+something because this is very useful it
+
+396
+00:15:26,959 --> 00:15:30,560
+can be used to solve many many similar
+
+397
+00:15:29,040 --> 00:15:31,759
+problems like
+
+398
+00:15:30,560 --> 00:15:33,600
+like what
+
+399
+00:15:31,759 --> 00:15:35,600
+okay so i'll give you a little i give
+
+400
+00:15:33,600 --> 00:15:37,920
+you a little
+
+401
+00:15:35,600 --> 00:15:40,160
+uh problem to think about and then we
+
+402
+00:15:37,920 --> 00:15:42,000
+can talk about it tomorrow okay so given
+
+403
+00:15:40,160 --> 00:15:44,959
+look you know the price the stock price
+
+404
+00:15:42,000 --> 00:15:45,839
+yeah all right so i have a price that's
+
+405
+00:15:44,959 --> 00:15:47,279
+three
+
+406
+00:15:45,839 --> 00:15:50,639
+four two
+
+407
+00:15:47,279 --> 00:15:53,839
+one ten this is the price of every day
+
+408
+00:15:50,639 --> 00:15:55,040
+and you are you you can only buy and
+
+409
+00:15:53,839 --> 00:15:57,440
+sell
+
+410
+00:15:55,040 --> 00:16:00,240
+once and what's the maximum profit you
+
+411
+00:15:57,440 --> 00:16:03,759
+can get for example you can buy a three
+
+412
+00:16:00,240 --> 00:16:07,680
+and say at 10 the profit you get is what
+
+413
+00:16:03,759 --> 00:16:11,600
+10 minus 37 or you can sell buy at one
+
+414
+00:16:07,680 --> 00:16:13,759
+and sell at 10 right the price you know
+
+415
+00:16:11,600 --> 00:16:16,320
+like a price you've got a price yeah
+
+416
+00:16:13,759 --> 00:16:18,880
+you've got a toy today is worth worse
+
+417
+00:16:16,320 --> 00:16:21,279
+than one dollar tomorrow is ten dollars
+
+418
+00:16:18,880 --> 00:16:24,399
+if you buy it today and if you say
+
+419
+00:16:21,279 --> 00:16:26,480
+tomorrow how much benefit how much
+
+420
+00:16:24,399 --> 00:16:27,839
+profit you can make
+
+421
+00:16:26,480 --> 00:16:30,399
+how much profit
+
+422
+00:16:27,839 --> 00:16:32,880
+you can make if today you buy
+
+423
+00:16:30,399 --> 00:16:35,440
+let's say you buy a chocolate
+
+424
+00:16:32,880 --> 00:16:37,360
+one pound today
+
+425
+00:16:35,440 --> 00:16:40,959
+but it could you can say 10 pounds
+
+426
+00:16:37,360 --> 00:16:42,880
+tomorrow how much profit you can drink
+
+427
+00:16:40,959 --> 00:16:45,600
+come on easy
+
+428
+00:16:42,880 --> 00:16:49,839
+10. tomorrow you sell it at 10 today you
+
+429
+00:16:45,600 --> 00:16:51,360
+buy it at one what's the profit you can
+
+430
+00:16:49,839 --> 00:16:53,440
+nine yeah we're done look because you
+
+431
+00:16:51,360 --> 00:16:55,360
+pay one today right
+
+432
+00:16:53,440 --> 00:16:57,680
+you pay one to get it and tomorrow you
+
+433
+00:16:55,360 --> 00:17:00,720
+say they're ten that's nice so we want
+
+434
+00:16:57,680 --> 00:17:03,199
+to make find the minimum
+
+435
+00:17:00,720 --> 00:17:06,240
+minimum you can buy which is one and the
+
+436
+00:17:03,199 --> 00:17:08,079
+maximum you can say is 10 okay but we
+
+437
+00:17:06,240 --> 00:17:09,839
+we can talk about this tomorrow and we
+
+438
+00:17:08,079 --> 00:17:11,760
+can use this captain algorithm okay so
+
+439
+00:17:09,839 --> 00:17:13,280
+let's say for today good job good job
+
+440
+00:17:11,760 --> 00:17:15,360
+bye bye
+
+441
+00:17:13,280 --> 00:17:16,640
+bye bye
+
+442
+00:17:15,360 --> 00:17:19,640
+bye
+
+443
+00:17:16,640 --> 00:17:19,640
+bye
+
