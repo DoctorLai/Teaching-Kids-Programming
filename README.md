@@ -187,6 +187,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Recursion 递归
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Tower of Hanoi via Recursion (Math Induction Proof of Minimal Number of Moves) | 汉诺塔的递归算法和数学归纳法证明最少移动步数 | [Youtube](https://youtu.be/DI6iOpPa9rY) - [B站](https://www.bilibili.com/video/BV1eP4y1t7Vx/) - [西瓜](https://www.ixigua.com/7019575496098710030) | [Tower of Hanoi via Recursion (Math Induction Proof of Minimal Number of Moves)](https://helloacm.com/teaching-kids-programming-tower-of-hanoi-via-recursion-math-induction-proof-of-minimal-number-of-moves/) | 2021-10-16 |
 | Linked List Jumps via Recursion | 链表跳跃的递归算法 | [Youtube](https://youtu.be/hLL2ZeB1VCU) - [B站](https://www.bilibili.com/video/BV1n64y1s7zn/) | [Linked List Jumps via Recursion](https://helloacm.com/teaching-kids-programming-linked-list-jumps-via-recursion/) | 2021-08-09 |
 | Multiples of 3 and 7 | 3和7的倍数 | [Youtube](https://youtu.be/MpChpv5tcxM) - [B站](https://www.bilibili.com/video/BV14h41167pF/) | [Multiples of 3 and 7](https://helloacm.com/teaching-kids-programming-multiples-of-3-and-7/) | 2021-07-07 |
 | Algorithms to Check if a Linked List is Palindrome | 4种算法判断回文单向链表 | [Youtube](https://youtu.be/lo5E3NXZwFs) - [B站](https://www.bilibili.com/video/BV1Wh411Y7U2/) | [Algorithms to Check if a Linked List is Palindrome](https://helloacm.com/teaching-kids-programming-algorithms-to-check-if-a-linked-list-is-palindrome/) | 2021-06-27 |
