@@ -1,0 +1,1384 @@
+1
+00:00:00,080 --> 00:00:03,760
+so
+
+2
+00:00:01,199 --> 00:00:04,799
+hello hello mr everybody
+
+3
+00:00:03,760 --> 00:00:06,480
+yes
+
+4
+00:00:04,799 --> 00:00:08,800
+okay so today we talk about a math
+
+5
+00:00:06,480 --> 00:00:10,880
+problem which mess passes which is
+
+6
+00:00:08,800 --> 00:00:12,880
+called
+
+7
+00:00:10,880 --> 00:00:14,400
+no how do you pronounce this i know it
+
+8
+00:00:12,880 --> 00:00:16,960
+taught
+
+9
+00:00:14,400 --> 00:00:16,960
+and i
+
+10
+00:00:22,720 --> 00:00:27,599
+so we have a three only three yeah we
+
+11
+00:00:24,720 --> 00:00:29,359
+have uh first of all we have three
+
+12
+00:00:27,599 --> 00:00:32,079
+three rods
+
+13
+00:00:29,359 --> 00:00:34,559
+so you know what
+
+14
+00:00:32,079 --> 00:00:36,480
+okay three dots so
+
+15
+00:00:34,559 --> 00:00:37,920
+this is a
+
+16
+00:00:36,480 --> 00:00:40,480
+this is b
+
+17
+00:00:37,920 --> 00:00:40,480
+this is c
+
+18
+00:00:40,719 --> 00:00:46,399
+so we okay so we have uh
+
+19
+00:00:43,120 --> 00:00:48,800
+a we call it disk okay we have disk and
+
+20
+00:00:46,399 --> 00:00:48,800
+disk
+
+21
+00:00:49,039 --> 00:00:54,079
+if they want this if they play
+
+22
+00:00:51,680 --> 00:00:56,079
+initially that these antics are placed
+
+23
+00:00:54,079 --> 00:00:58,480
+on the first
+
+24
+00:00:56,079 --> 00:01:01,280
+first node okay so if there's only n
+
+25
+00:00:58,480 --> 00:01:02,719
+equals one how many moves
+
+26
+00:01:01,280 --> 00:01:05,760
+does it take
+
+27
+00:01:02,719 --> 00:01:07,680
+to move this a to c given this condition
+
+28
+00:01:05,760 --> 00:01:09,920
+yeah you only
+
+29
+00:01:07,680 --> 00:01:12,000
+these these sticks yeah is usually the
+
+30
+00:01:09,920 --> 00:01:14,080
+smaller place on the larger one so
+
+31
+00:01:12,000 --> 00:01:17,439
+you'll be like that disc
+
+32
+00:01:14,080 --> 00:01:20,400
+yeah it'll be smaller or last one
+
+33
+00:01:17,439 --> 00:01:22,560
+place on the bigger one okay so this
+
+34
+00:01:20,400 --> 00:01:25,040
+uh
+
+35
+00:01:22,560 --> 00:01:26,560
+the smaller can only be placed on the
+
+36
+00:01:25,040 --> 00:01:28,799
+bigger one
+
+37
+00:01:26,560 --> 00:01:31,040
+and you're only allowed to move one at a
+
+38
+00:01:28,799 --> 00:01:33,040
+time one at a time
+
+39
+00:01:31,040 --> 00:01:34,799
+okay you can't take small you can move
+
+40
+00:01:33,040 --> 00:01:37,520
+one at a time
+
+41
+00:01:34,799 --> 00:01:41,119
+okay and we are we want to move all the
+
+42
+00:01:37,520 --> 00:01:43,759
+discs from the left right to left right
+
+43
+00:01:41,119 --> 00:01:46,320
+most which is from a to c
+
+44
+00:01:43,759 --> 00:01:49,439
+so if there's only one
+
+45
+00:01:46,320 --> 00:01:51,040
+then we can just do a just move it yeah
+
+46
+00:01:49,439 --> 00:01:52,960
+yeah
+
+47
+00:01:51,040 --> 00:01:55,280
+all right
+
+48
+00:01:52,960 --> 00:01:57,360
+okay so let's let's if we use the t to
+
+49
+00:01:55,280 --> 00:01:59,840
+to represent the number of the the
+
+50
+00:01:57,360 --> 00:02:03,360
+minimum moves okay the minimums t one
+
+51
+00:01:59,840 --> 00:02:05,280
+equals one is easier if n is one t one
+
+52
+00:02:03,360 --> 00:02:06,450
+equals one okay
+
+53
+00:02:05,280 --> 00:02:09,510
+more interesting the
+
+54
+00:02:06,450 --> 00:02:09,510
+[Music]
+
+55
+00:02:11,840 --> 00:02:17,360
+how are we moving this can you tell me b
+
+56
+00:02:14,480 --> 00:02:19,360
+has to be placed on a you know a company
+
+57
+00:02:17,360 --> 00:02:21,040
+plays on b okay because b is smaller
+
+58
+00:02:19,360 --> 00:02:23,520
+than a okay
+
+59
+00:02:21,040 --> 00:02:26,000
+so how can we move this a b to here from
+
+60
+00:02:23,520 --> 00:02:26,000
+a to c
+
+61
+00:02:26,879 --> 00:02:30,080
+b
+
+62
+00:02:28,800 --> 00:02:30,959
+put on b
+
+63
+00:02:30,080 --> 00:02:33,280
+yeah
+
+64
+00:02:30,959 --> 00:02:34,239
+a put on c
+
+65
+00:02:33,280 --> 00:02:34,840
+b
+
+66
+00:02:34,239 --> 00:02:37,120
+b
+
+67
+00:02:34,840 --> 00:02:39,360
+predominantly okay so let's how many
+
+68
+00:02:37,120 --> 00:02:39,360
+moves
+
+69
+00:02:39,920 --> 00:02:44,319
+okay let's try again
+
+70
+00:02:42,640 --> 00:02:45,680
+one
+
+71
+00:02:44,319 --> 00:02:46,640
+two
+
+72
+00:02:45,680 --> 00:02:48,560
+three
+
+73
+00:02:46,640 --> 00:02:51,440
+okay three moves
+
+74
+00:02:48,560 --> 00:02:55,280
+okay now it's more interesting
+
+75
+00:02:51,440 --> 00:02:55,280
+see okay there are three three discs
+
+76
+00:02:55,680 --> 00:02:59,280
+okay come on play again
+
+77
+00:03:02,879 --> 00:03:05,840
+be
+
+78
+00:03:17,200 --> 00:03:21,760
+can see put on b yes yes
+
+79
+00:03:21,040 --> 00:03:23,760
+i
+
+80
+00:03:21,760 --> 00:03:24,720
+oh i mean c
+
+81
+00:03:23,760 --> 00:03:26,959
+and then
+
+82
+00:03:24,720 --> 00:03:26,959
+a
+
+83
+00:03:27,040 --> 00:03:30,239
+you want to restart you can restart i
+
+84
+00:03:29,440 --> 00:03:32,480
+think
+
+85
+00:03:30,239 --> 00:03:34,239
+i think there's something you know the
+
+86
+00:03:32,480 --> 00:03:36,239
+opposite out there because eventually
+
+87
+00:03:34,239 --> 00:03:38,000
+you want to put a to c and now at least
+
+88
+00:03:36,239 --> 00:03:39,040
+taken the place
+
+89
+00:03:38,000 --> 00:03:40,560
+yeah
+
+90
+00:03:39,040 --> 00:03:45,080
+so we start
+
+91
+00:03:40,560 --> 00:03:45,080
+yeah don't worry let's do it again
+
+92
+00:03:52,799 --> 00:03:55,799
+um
+
+93
+00:04:19,600 --> 00:04:23,280
+so five plus two seven okay
+
+94
+00:04:24,320 --> 00:04:26,639
+okay
+
+95
+00:04:25,280 --> 00:04:28,960
+great job so
+
+96
+00:04:26,639 --> 00:04:31,199
+okay so if there are n it gets more
+
+97
+00:04:28,960 --> 00:04:33,360
+complicated right if like four five six
+
+98
+00:04:31,199 --> 00:04:35,600
+it gets more complicated but the
+
+99
+00:04:33,360 --> 00:04:37,600
+the essentials are the same
+
+100
+00:04:35,600 --> 00:04:40,240
+so what are we trying what have we done
+
+101
+00:04:37,600 --> 00:04:42,160
+here is we want to move
+
+102
+00:04:40,240 --> 00:04:43,520
+the top layer and if there are any if
+
+103
+00:04:42,160 --> 00:04:45,919
+there are n here
+
+104
+00:04:43,520 --> 00:04:47,520
+we're going to move like n minus one
+
+105
+00:04:45,919 --> 00:04:49,680
+yeah minus one
+
+106
+00:04:47,520 --> 00:04:52,240
+it's excluding the last one yeah we want
+
+107
+00:04:49,680 --> 00:04:53,440
+to move these these two
+
+108
+00:04:52,240 --> 00:04:54,400
+here right
+
+109
+00:04:53,440 --> 00:04:56,000
+yeah
+
+110
+00:04:54,400 --> 00:04:57,120
+and i will move through here to here
+
+111
+00:04:56,000 --> 00:05:00,720
+right
+
+112
+00:04:57,120 --> 00:05:02,800
+yeah what why do we need to put it on c
+
+113
+00:05:00,720 --> 00:05:05,360
+because this is the target from a to c
+
+114
+00:05:02,800 --> 00:05:06,479
+we're moving everything from a yeah yeah
+
+115
+00:05:05,360 --> 00:05:09,280
+so
+
+116
+00:05:06,479 --> 00:05:11,600
+we this process is similar we just need
+
+117
+00:05:09,280 --> 00:05:13,360
+to this f minus we want to move the n
+
+118
+00:05:11,600 --> 00:05:16,160
+minus one but we don't know how to move
+
+119
+00:05:13,360 --> 00:05:18,639
+here but we can move this n minus one to
+
+120
+00:05:16,160 --> 00:05:21,360
+the middle right yeah
+
+121
+00:05:18,639 --> 00:05:24,400
+and now we move this because it's only
+
+122
+00:05:21,360 --> 00:05:28,000
+one now right so i only move it to here
+
+123
+00:05:24,400 --> 00:05:29,360
+and what's next i want to move these two
+
+124
+00:05:28,000 --> 00:05:32,080
+back to here all right
+
+125
+00:05:29,360 --> 00:05:34,560
+yeah so now every three step
+
+126
+00:05:32,080 --> 00:05:37,039
+two step so
+
+127
+00:05:34,560 --> 00:05:38,800
+so look
+
+128
+00:05:37,039 --> 00:05:41,600
+tn
+
+129
+00:05:38,800 --> 00:05:43,360
+equals first of all i want to move these
+
+130
+00:05:41,600 --> 00:05:45,759
+to here right
+
+131
+00:05:43,360 --> 00:05:46,880
+let's t a minus one right
+
+132
+00:05:45,759 --> 00:05:48,639
+yeah
+
+133
+00:05:46,880 --> 00:05:50,160
+plus here
+
+134
+00:05:48,639 --> 00:05:53,919
+plus one
+
+135
+00:05:50,160 --> 00:05:55,840
+then n minus one again
+
+136
+00:05:53,919 --> 00:05:58,319
+all right
+
+137
+00:05:55,840 --> 00:06:01,919
+okay so what is the equal t n equals two
+
+138
+00:05:58,319 --> 00:06:04,880
+times t n minus one plus one okay so can
+
+139
+00:06:01,919 --> 00:06:07,199
+you tell me what's t4
+
+140
+00:06:04,880 --> 00:06:09,120
+based on this t n equals two times t and
+
+141
+00:06:07,199 --> 00:06:10,710
+minus some previous one plus so what's t
+
+142
+00:06:09,120 --> 00:06:12,479
+four
+
+143
+00:06:10,710 --> 00:06:15,600
+[Music]
+
+144
+00:06:12,479 --> 00:06:17,039
+p three is seven t four is two times of
+
+145
+00:06:15,600 --> 00:06:20,000
+t three plus one
+
+146
+00:06:17,039 --> 00:06:20,000
+two times seven
+
+147
+00:06:27,520 --> 00:06:30,560
+yeah so yeah like that
+
+148
+00:06:29,520 --> 00:06:32,400
+so
+
+149
+00:06:30,560 --> 00:06:36,560
+so what's this equal okay what's this
+
+150
+00:06:32,400 --> 00:06:36,560
+equal but let's we can prove it
+
+151
+00:06:40,800 --> 00:06:48,400
+t one equals one t n equals two times t
+
+152
+00:06:46,080 --> 00:06:50,400
+n minus one plus one
+
+153
+00:06:48,400 --> 00:06:52,720
+okay so remember we talked about the
+
+154
+00:06:50,400 --> 00:06:54,400
+mathematic induction before right
+
+155
+00:06:52,720 --> 00:06:56,080
+what does it what does it mean is that
+
+156
+00:06:54,400 --> 00:06:58,720
+it's a message
+
+157
+00:06:56,080 --> 00:07:01,120
+storage to prove that a phenomena
+
+158
+00:06:58,720 --> 00:07:04,479
+stands how do we prove it we have a
+
+159
+00:07:01,120 --> 00:07:05,919
+formula we prove that t the basic case t
+
+160
+00:07:04,479 --> 00:07:09,039
+one it
+
+161
+00:07:05,919 --> 00:07:09,759
+uh stands and then we're assuming
+
+162
+00:07:09,039 --> 00:07:11,039
+t
+
+163
+00:07:09,759 --> 00:07:13,199
+k
+
+164
+00:07:11,039 --> 00:07:15,280
+and then we want to prove that t k minus
+
+165
+00:07:13,199 --> 00:07:17,599
+one also a plus one also exists okay
+
+166
+00:07:15,280 --> 00:07:20,160
+let's do this and then you understand
+
+167
+00:07:17,599 --> 00:07:22,560
+okay so actually this t n
+
+168
+00:07:20,160 --> 00:07:24,960
+is equals two times to the power of n
+
+169
+00:07:22,560 --> 00:07:29,039
+minus one remember the t one
+
+170
+00:07:24,960 --> 00:07:32,080
+equals one t two equals three t three
+
+171
+00:07:29,039 --> 00:07:34,160
+equals seven yeah t four equals
+
+172
+00:07:32,080 --> 00:07:36,960
+fifteen yeah two to two to the power of
+
+173
+00:07:34,160 --> 00:07:39,360
+four four sixty minus one fifteen two to
+
+174
+00:07:36,960 --> 00:07:40,800
+the power of three a minus one seven two
+
+175
+00:07:39,360 --> 00:07:42,960
+to the power of two
+
+176
+00:07:40,800 --> 00:07:45,680
+four minus one three two to the power of
+
+177
+00:07:42,960 --> 00:07:47,599
+1 2 minus 1.
+
+178
+00:07:45,680 --> 00:07:49,199
+yeah this is the equation but how can we
+
+179
+00:07:47,599 --> 00:07:52,800
+prove this is all right
+
+180
+00:07:49,199 --> 00:07:56,560
+t1 we just prove it when n is 1 is 1 t1
+
+181
+00:07:52,800 --> 00:07:59,520
+equals 1. that's fine if let's say tk
+
+182
+00:07:56,560 --> 00:08:00,560
+let's say t x yeah t x
+
+183
+00:07:59,520 --> 00:08:02,879
+t x
+
+184
+00:08:00,560 --> 00:08:05,599
+was t x equals two to the power of x
+
+185
+00:08:02,879 --> 00:08:07,599
+minus one right and that was t x plus
+
+186
+00:08:05,599 --> 00:08:09,680
+one t x plus one
+
+187
+00:08:07,599 --> 00:08:11,840
+equals one
+
+188
+00:08:09,680 --> 00:08:15,840
+t x plus one equals one two times this
+
+189
+00:08:11,840 --> 00:08:15,840
+we have two times t x two times
+
+190
+00:08:17,039 --> 00:08:22,720
+two t x plus one equals two times t x
+
+191
+00:08:21,199 --> 00:08:26,639
+two times t
+
+192
+00:08:22,720 --> 00:08:29,039
+x plus one right so this is 2 times
+
+193
+00:08:26,639 --> 00:08:32,880
+this bit
+
+194
+00:08:29,039 --> 00:08:33,680
+2 x minus 1 plus 1 right
+
+195
+00:08:32,880 --> 00:08:37,599
+yeah
+
+196
+00:08:33,680 --> 00:08:39,599
+so equals to a 2 2 times 2 x is 2 times
+
+197
+00:08:37,599 --> 00:08:41,200
+x plus 1 minus 2 plus one what's the
+
+198
+00:08:39,599 --> 00:08:44,000
+minus two plus one
+
+199
+00:08:41,200 --> 00:08:45,920
+look if we substitute this t x with
+
+200
+00:08:44,000 --> 00:08:48,320
+these then we can get this
+
+201
+00:08:45,920 --> 00:08:50,000
+two times two x plus one minus two plus
+
+202
+00:08:48,320 --> 00:08:54,000
+one is one
+
+203
+00:08:50,000 --> 00:08:55,360
+is what is minus two plus one
+
+204
+00:08:54,000 --> 00:08:58,959
+uh
+
+205
+00:08:55,360 --> 00:08:59,920
+oh no it's not all two t x is two
+
+206
+00:08:58,959 --> 00:09:02,160
+two x
+
+207
+00:08:59,920 --> 00:09:04,720
+is my two minus one right two x plus one
+
+208
+00:09:02,160 --> 00:09:07,360
+look t x plus one equals two x plus one
+
+209
+00:09:04,720 --> 00:09:08,800
+minus one okay so you look it also works
+
+210
+00:09:07,360 --> 00:09:09,839
+yeah because look
+
+211
+00:09:08,800 --> 00:09:13,279
+all right
+
+212
+00:09:09,839 --> 00:09:16,720
+x plus one yeah substitute so it also
+
+213
+00:09:13,279 --> 00:09:18,560
+uh it proves that t n equals two and
+
+214
+00:09:16,720 --> 00:09:20,880
+minus one because t n
+
+215
+00:09:18,560 --> 00:09:23,600
+plus one equals two times and two to the
+
+216
+00:09:20,880 --> 00:09:25,200
+power n plus 1 minus 1 i is the same
+
+217
+00:09:23,600 --> 00:09:27,279
+it's the same form
+
+218
+00:09:25,200 --> 00:09:28,240
+okay
+
+219
+00:09:27,279 --> 00:09:29,600
+uh
+
+220
+00:09:28,240 --> 00:09:31,519
+yeah
+
+221
+00:09:29,600 --> 00:09:35,080
+so we can write this simulation okay we
+
+222
+00:09:31,519 --> 00:09:35,080
+can write this simulation
+
+223
+00:09:36,080 --> 00:09:40,800
+define move okay let's move
+
+224
+00:09:38,640 --> 00:09:43,120
+how many disks and disk
+
+225
+00:09:40,800 --> 00:09:44,640
+we want to move from
+
+226
+00:09:43,120 --> 00:09:45,600
+source
+
+227
+00:09:44,640 --> 00:09:49,920
+to
+
+228
+00:09:45,600 --> 00:09:52,320
+destination yeah and then we have a
+
+229
+00:09:49,920 --> 00:09:55,760
+another road another road
+
+230
+00:09:52,320 --> 00:09:55,760
+temp let's call it temp okay
+
+231
+00:09:56,160 --> 00:10:01,519
+if n equals one what does it mean if we
+
+232
+00:09:59,200 --> 00:10:04,640
+only have one
+
+233
+00:10:01,519 --> 00:10:07,680
+we just move yeah we just move if any
+
+234
+00:10:04,640 --> 00:10:10,240
+goes wrong let's just move it print
+
+235
+00:10:07,680 --> 00:10:11,920
+okay move
+
+236
+00:10:10,240 --> 00:10:14,480
+disk
+
+237
+00:10:11,920 --> 00:10:15,920
+okay i'm just like this one
+
+238
+00:10:14,480 --> 00:10:17,600
+from
+
+239
+00:10:15,920 --> 00:10:19,200
+sauce
+
+240
+00:10:17,600 --> 00:10:20,880
+to
+
+241
+00:10:19,200 --> 00:10:23,200
+destination yeah because there's only
+
+242
+00:10:20,880 --> 00:10:26,880
+one right and then we do ten
+
+243
+00:10:23,200 --> 00:10:30,160
+okay there's only one i thought two's
+
+244
+00:10:26,880 --> 00:10:31,120
+spell disc is d i s
+
+245
+00:10:30,160 --> 00:10:34,640
+c
+
+246
+00:10:31,120 --> 00:10:36,320
+yeah oh that's maybe americans english i
+
+247
+00:10:34,640 --> 00:10:39,320
+don't know deep
+
+248
+00:10:36,320 --> 00:10:39,320
+d-i-d-i-s-k-d-i-s-c
+
+249
+00:10:40,800 --> 00:10:45,920
+yeah similar okay
+
+250
+00:10:42,640 --> 00:10:48,240
+return okay if not look we move what we
+
+251
+00:10:45,920 --> 00:10:48,240
+move
+
+252
+00:10:48,320 --> 00:10:52,320
+okay
+
+253
+00:10:50,000 --> 00:10:55,360
+if there are more than one so what do we
+
+254
+00:10:52,320 --> 00:10:58,000
+do what do we do remember what do we do
+
+255
+00:10:55,360 --> 00:10:58,000
+what do we do
+
+256
+00:10:58,160 --> 00:11:02,560
+if there are more than one we move the
+
+257
+00:10:59,600 --> 00:11:05,360
+top and minus one right minus one
+
+258
+00:11:02,560 --> 00:11:05,360
+from sauce
+
+259
+00:11:05,440 --> 00:11:09,120
+from sauce to to the term yeah turn the
+
+260
+00:11:07,600 --> 00:11:11,200
+middle one right
+
+261
+00:11:09,120 --> 00:11:13,519
+yeah
+
+262
+00:11:11,200 --> 00:11:16,880
+to the middle one and we use the
+
+263
+00:11:13,519 --> 00:11:18,959
+destination as a
+
+264
+00:11:16,880 --> 00:11:21,279
+you know intermediate term yeah and then
+
+265
+00:11:18,959 --> 00:11:23,519
+we need to do a print
+
+266
+00:11:21,279 --> 00:11:25,360
+we now we want to move what
+
+267
+00:11:23,519 --> 00:11:27,600
+move
+
+268
+00:11:25,360 --> 00:11:30,000
+move disk
+
+269
+00:11:27,600 --> 00:11:31,839
+and at this end
+
+270
+00:11:30,000 --> 00:11:33,120
+from
+
+271
+00:11:31,839 --> 00:11:35,839
+what
+
+272
+00:11:33,120 --> 00:11:35,839
+from source
+
+273
+00:11:36,800 --> 00:11:41,360
+and then to this is a normal to
+
+274
+00:11:38,800 --> 00:11:43,360
+destination
+
+275
+00:11:41,360 --> 00:11:45,279
+and then now
+
+276
+00:11:43,360 --> 00:11:46,880
+what's next we need to move this n minus
+
+277
+00:11:45,279 --> 00:11:48,800
+one yeah
+
+278
+00:11:46,880 --> 00:11:50,399
+move
+
+279
+00:11:48,800 --> 00:11:52,399
+n minus one
+
+280
+00:11:50,399 --> 00:11:56,519
+front
+
+281
+00:11:52,399 --> 00:11:56,519
+forward front forward
+
+282
+00:12:08,800 --> 00:12:13,040
+destination to use the destination and
+
+283
+00:12:10,959 --> 00:12:15,200
+we need to move from because now it's in
+
+284
+00:12:13,040 --> 00:12:17,600
+a destination right so we need to move
+
+285
+00:12:15,200 --> 00:12:19,519
+from destination
+
+286
+00:12:17,600 --> 00:12:20,959
+yeah
+
+287
+00:12:19,519 --> 00:12:23,959
+to uh
+
+288
+00:12:20,959 --> 00:12:23,959
+uh
+
+289
+00:12:27,560 --> 00:12:30,630
+[Music]
+
+290
+00:12:37,120 --> 00:12:41,920
+so actually it is because now it's in
+
+291
+00:12:39,440 --> 00:12:44,480
+slot testing is in the temp yeah
+
+292
+00:12:41,920 --> 00:12:46,480
+this is 10 10 we want to move to
+
+293
+00:12:44,480 --> 00:12:48,720
+destination yeah
+
+294
+00:12:46,480 --> 00:12:50,959
+destination right we'll move here 10
+
+295
+00:12:48,720 --> 00:12:53,360
+because look i already previously moved
+
+296
+00:12:50,959 --> 00:12:55,440
+enter minus one from source to ten
+
+297
+00:12:53,360 --> 00:12:56,800
+the middle one is the ten one and i want
+
+298
+00:12:55,440 --> 00:12:58,240
+to move the from the two one to the
+
+299
+00:12:56,800 --> 00:13:00,720
+destination
+
+300
+00:12:58,240 --> 00:13:01,600
+right and i'm using
+
+301
+00:13:00,720 --> 00:13:04,639
+the
+
+302
+00:13:01,600 --> 00:13:07,040
+source as the intermediate one as a term
+
+303
+00:13:04,639 --> 00:13:08,720
+right so let's restart here
+
+304
+00:13:07,040 --> 00:13:12,480
+okay
+
+305
+00:13:08,720 --> 00:13:15,360
+i know that's the agreement to solve and
+
+306
+00:13:12,480 --> 00:13:16,160
+you know arbitrary end you can put 100
+
+307
+00:13:15,360 --> 00:13:18,079
+here
+
+308
+00:13:16,160 --> 00:13:19,040
+and the computer will print the step for
+
+309
+00:13:18,079 --> 00:13:20,720
+you
+
+310
+00:13:19,040 --> 00:13:21,839
+correct
+
+311
+00:13:20,720 --> 00:13:23,360
+yeah
+
+312
+00:13:21,839 --> 00:13:25,920
+so you see so so
+
+313
+00:13:23,360 --> 00:13:28,079
+if your n equals four it's easy
+
+314
+00:13:25,920 --> 00:13:30,399
+your recursion look this is the question
+
+315
+00:13:28,079 --> 00:13:32,800
+yeah because because we are recursioning
+
+316
+00:13:30,399 --> 00:13:35,040
+solving n minus one right
+
+317
+00:13:32,800 --> 00:13:37,600
+because we are focusing on one one time
+
+318
+00:13:35,040 --> 00:13:39,120
+one step at a time we want to move the
+
+319
+00:13:37,600 --> 00:13:41,519
+end disc
+
+320
+00:13:39,120 --> 00:13:42,880
+all we want to focus is move the top n
+
+321
+00:13:41,519 --> 00:13:44,880
+minus one
+
+322
+00:13:42,880 --> 00:13:47,040
+top n minus one yeah
+
+323
+00:13:44,880 --> 00:13:49,440
+we want to move the top n minus one from
+
+324
+00:13:47,040 --> 00:13:51,360
+source to the middle one right
+
+325
+00:13:49,440 --> 00:13:54,160
+and then i want to move this the second
+
+326
+00:13:51,360 --> 00:13:55,600
+step move this to the destination and i
+
+327
+00:13:54,160 --> 00:13:57,120
+want to move these
+
+328
+00:13:55,600 --> 00:14:00,320
+to here
+
+329
+00:13:57,120 --> 00:14:04,000
+right yeah that's the question
+
+330
+00:14:00,320 --> 00:14:06,480
+okay okay so let's say if t
+
+331
+00:14:04,000 --> 00:14:06,650
+like one test
+
+332
+00:14:06,480 --> 00:14:08,079
+t
+
+333
+00:14:06,650 --> 00:14:11,360
+[Music]
+
+334
+00:14:08,079 --> 00:14:12,959
+five equals how many steps
+
+335
+00:14:11,360 --> 00:14:15,040
+remember the equation
+
+336
+00:14:12,959 --> 00:14:17,920
+i just proved before that two to the
+
+337
+00:14:15,040 --> 00:14:21,040
+power of n minus 1
+
+338
+00:14:17,920 --> 00:14:21,040
+so 2 to the power of 5
+
+339
+00:14:26,399 --> 00:14:33,279
+15
+
+340
+00:14:28,399 --> 00:14:36,320
+41 31 yes 31 okay got it yeah got it
+
+341
+00:14:33,279 --> 00:14:36,320
+any questions so far
+
+342
+00:14:37,360 --> 00:14:40,000
+any questions
+
+343
+00:14:40,560 --> 00:14:44,480
+okay good job okay that's it for today
+
+344
+00:14:42,560 --> 00:14:48,079
+good job
+
+345
+00:14:44,480 --> 00:14:48,079
+do something again if you want
+
+346
+00:14:49,440 --> 00:14:52,800
+okay that's it
+
