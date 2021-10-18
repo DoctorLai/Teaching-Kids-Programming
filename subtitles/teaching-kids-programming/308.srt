@@ -1,0 +1,2284 @@
+1
+00:00:00,240 --> 00:00:02,320
+go
+
+2
+00:00:01,199 --> 00:00:05,600
+hi
+
+3
+00:00:02,320 --> 00:00:08,000
+hello mr erin is right okay
+
+4
+00:00:05,600 --> 00:00:11,360
+okay i'm going to write a few rules to
+
+5
+00:00:08,000 --> 00:00:12,400
+make up a word okay let's say
+
+6
+00:00:11,360 --> 00:00:15,599
+ah
+
+7
+00:00:12,400 --> 00:00:17,199
+the legs of r r to i
+
+8
+00:00:15,599 --> 00:00:19,359
+it means that
+
+9
+00:00:17,199 --> 00:00:22,800
+the letter
+
+10
+00:00:19,359 --> 00:00:22,800
+followed by r is i okay
+
+11
+00:00:22,960 --> 00:00:24,960
+e
+
+12
+00:00:24,000 --> 00:00:26,880
+eric
+
+13
+00:00:24,960 --> 00:00:31,640
+oh you're getting this i know i'm not
+
+14
+00:00:26,880 --> 00:00:31,640
+finished yet because i can see
+
+15
+00:00:42,719 --> 00:00:46,960
+so we have given the list of we are
+
+16
+00:00:44,640 --> 00:00:49,440
+given a list of these rules and they
+
+17
+00:00:46,960 --> 00:00:51,360
+need to return the word lieutenant
+
+18
+00:00:49,440 --> 00:00:53,120
+and also
+
+19
+00:00:51,360 --> 00:00:55,280
+impossible
+
+20
+00:00:53,120 --> 00:00:56,719
+it's it's valid okay whatever it is in
+
+21
+00:00:55,280 --> 00:00:59,920
+the word
+
+22
+00:00:56,719 --> 00:01:02,000
+good yeah but
+
+23
+00:00:59,920 --> 00:01:03,520
+the the thing is it's always valid okay
+
+24
+00:01:02,000 --> 00:01:05,199
+it's always ready so
+
+25
+00:01:03,520 --> 00:01:07,360
+and the word doesn't contain the
+
+26
+00:01:05,199 --> 00:01:10,240
+duplicate letters okay if you if you
+
+27
+00:01:07,360 --> 00:01:12,000
+give a dad right
+
+28
+00:01:10,240 --> 00:01:14,159
+it doesn't have these yeah it doesn't
+
+29
+00:01:12,000 --> 00:01:15,840
+have these it doesn't have cycles here
+
+30
+00:01:14,159 --> 00:01:17,840
+it doesn't have pointing back because
+
+31
+00:01:15,840 --> 00:01:19,200
+look if you put this d
+
+32
+00:01:17,840 --> 00:01:21,360
+to a
+
+33
+00:01:19,200 --> 00:01:23,920
+i a to d okay
+
+34
+00:01:21,360 --> 00:01:25,680
+so we don't have the inputs for this so
+
+35
+00:01:23,920 --> 00:01:28,799
+all the letters
+
+36
+00:01:25,680 --> 00:01:31,200
+in the world is unique yeah unique my
+
+37
+00:01:28,799 --> 00:01:32,640
+first word
+
+38
+00:01:31,200 --> 00:01:34,560
+that's what i'm saying there's no
+
+39
+00:01:32,640 --> 00:01:35,420
+there's no unique there's no duplicate
+
+40
+00:01:34,560 --> 00:01:36,560
+letters okay
+
+41
+00:01:35,420 --> 00:01:38,799
+[Music]
+
+42
+00:01:36,560 --> 00:01:40,640
+yeah
+
+43
+00:01:38,799 --> 00:01:42,720
+if it is then
+
+44
+00:01:40,640 --> 00:01:44,079
+there's no way to use the angle then
+
+45
+00:01:42,720 --> 00:01:46,640
+there's no way to do it because there
+
+46
+00:01:44,079 --> 00:01:49,280
+could be there could be a
+
+47
+00:01:46,640 --> 00:01:51,600
+a different the the result would not be
+
+48
+00:01:49,280 --> 00:01:53,360
+unique right even though if there's a
+
+49
+00:01:51,600 --> 00:01:56,399
+duplicate numbers then there could be
+
+50
+00:01:53,360 --> 00:01:58,479
+different results okay correct
+
+51
+00:01:56,399 --> 00:02:00,079
+okay let's try again okay i'm not going
+
+52
+00:01:58,479 --> 00:02:01,280
+to write the ryan this time okay just
+
+53
+00:02:00,079 --> 00:02:03,280
+guess okay
+
+54
+00:02:01,280 --> 00:02:05,520
+let's guess
+
+55
+00:02:03,280 --> 00:02:06,399
+p to
+
+56
+00:02:05,520 --> 00:02:09,399
+a
+
+57
+00:02:06,399 --> 00:02:09,399
+okay
+
+58
+00:02:21,440 --> 00:02:26,400
+they speak spanish
+
+59
+00:02:23,680 --> 00:02:29,440
+okay s to b that [ __ ] s to p
+
+60
+00:02:26,400 --> 00:02:32,000
+a to i i to n
+
+61
+00:02:29,440 --> 00:02:34,800
+uh p to a okay so you got it yeah
+
+62
+00:02:32,000 --> 00:02:36,480
+okay so given these rules
+
+63
+00:02:34,800 --> 00:02:37,680
+given these twos we
+
+64
+00:02:36,480 --> 00:02:39,599
+we want to
+
+65
+00:02:37,680 --> 00:02:43,680
+restore we want to
+
+66
+00:02:39,599 --> 00:02:45,120
+cut the original one okay is it clear
+
+67
+00:02:43,680 --> 00:02:46,959
+yeah
+
+68
+00:02:45,120 --> 00:02:49,519
+any idea
+
+69
+00:02:46,959 --> 00:02:51,040
+any idea how do we do this
+
+70
+00:02:49,519 --> 00:02:53,360
+how do i do it
+
+71
+00:02:51,040 --> 00:02:56,720
+from these news what what can we get
+
+72
+00:02:53,360 --> 00:02:59,360
+what can we learn from these news
+
+73
+00:02:56,720 --> 00:03:01,680
+what can we learn from these these rules
+
+74
+00:02:59,360 --> 00:03:03,680
+connect to each other next to each other
+
+75
+00:03:01,680 --> 00:03:08,560
+and apart from that what can we learn
+
+76
+00:03:03,680 --> 00:03:10,879
+like s p goes to so p was next p a yeah
+
+77
+00:03:08,560 --> 00:03:13,440
+what's next
+
+78
+00:03:10,879 --> 00:03:15,280
+yeah yeah yeah oh good so the first
+
+79
+00:03:13,440 --> 00:03:16,959
+thing of this is
+
+80
+00:03:15,280 --> 00:03:20,959
+what are you trying to do
+
+81
+00:03:16,959 --> 00:03:22,720
+yes you follow it but follow from where
+
+82
+00:03:20,959 --> 00:03:25,920
+good that's a very good starting point
+
+83
+00:03:22,720 --> 00:03:25,920
+so where where to follow
+
+84
+00:03:26,000 --> 00:03:30,640
+you're following these yeah p to a a to
+
+85
+00:03:28,080 --> 00:03:32,480
+i i to n yeah because they lose so the
+
+86
+00:03:30,640 --> 00:03:33,920
+most important thing is to find out
+
+87
+00:03:32,480 --> 00:03:36,480
+which one
+
+88
+00:03:33,920 --> 00:03:38,879
+is the what
+
+89
+00:03:36,480 --> 00:03:40,720
+which one do we start start okay so
+
+90
+00:03:38,879 --> 00:03:42,560
+which one is the start
+
+91
+00:03:40,720 --> 00:03:44,959
+right okay there's one part missing so
+
+92
+00:03:42,560 --> 00:03:47,680
+we want to find the first letter
+
+93
+00:03:44,959 --> 00:03:50,239
+from these news how can we tell which
+
+94
+00:03:47,680 --> 00:03:52,879
+which letter is the question so we check
+
+95
+00:03:50,239 --> 00:03:56,720
+through all of them if the one who
+
+96
+00:03:52,879 --> 00:03:59,439
+only appears once is the one is
+
+97
+00:03:56,720 --> 00:04:02,400
+that yeah where's that yes good job yes
+
+98
+00:03:59,439 --> 00:04:04,799
+if it appears only once okay look
+
+99
+00:04:02,400 --> 00:04:05,599
+from s to a r
+
+100
+00:04:04,799 --> 00:04:07,120
+yeah
+
+101
+00:04:05,599 --> 00:04:08,319
+p to a all right
+
+102
+00:04:07,120 --> 00:04:09,680
+okay so look
+
+103
+00:04:08,319 --> 00:04:11,280
+for example this p
+
+104
+00:04:09,680 --> 00:04:13,439
+you got s to p
+
+105
+00:04:11,280 --> 00:04:15,280
+and you also have p to a right
+
+106
+00:04:13,439 --> 00:04:16,400
+but how about the last one the last one
+
+107
+00:04:15,280 --> 00:04:18,799
+i to n
+
+108
+00:04:16,400 --> 00:04:20,000
+oh yeah but that last one is also appear
+
+109
+00:04:18,799 --> 00:04:22,560
+once
+
+110
+00:04:20,000 --> 00:04:24,639
+hey almost there almost there nearly a
+
+111
+00:04:22,560 --> 00:04:27,919
+tray okay that's fine this one i
+
+112
+00:04:24,639 --> 00:04:31,120
+couldn't do later okay so is it wait i
+
+113
+00:04:27,919 --> 00:04:34,240
+got a question if if you do like stp
+
+114
+00:04:31,120 --> 00:04:38,160
+does s have to go fast
+
+115
+00:04:34,240 --> 00:04:40,840
+the key it means that p is next to s
+
+116
+00:04:38,160 --> 00:04:45,199
+okay it just means p is next to
+
+117
+00:04:40,840 --> 00:04:47,520
+s okay so look if you say appeal once n
+
+118
+00:04:45,199 --> 00:04:48,960
+and s appear only once so how can we
+
+119
+00:04:47,520 --> 00:04:53,040
+tell if it's
+
+120
+00:04:48,960 --> 00:04:53,040
+if s is in the first place
+
+121
+00:04:53,280 --> 00:04:57,199
+if s is the plus how do we know if n is
+
+122
+00:04:56,160 --> 00:05:00,080
+look
+
+123
+00:04:57,199 --> 00:05:02,960
+where's as s is in the first n is in the
+
+124
+00:05:00,080 --> 00:05:06,080
+last okay so we want to find out the
+
+125
+00:05:02,960 --> 00:05:09,680
+letter which appear only once
+
+126
+00:05:06,080 --> 00:05:13,840
+if we start from here it does this one
+
+127
+00:05:09,680 --> 00:05:15,680
+play like um like if it stp does p go
+
+128
+00:05:13,840 --> 00:05:18,240
+after s
+
+129
+00:05:15,680 --> 00:05:19,919
+yeah p go after s yes
+
+130
+00:05:18,240 --> 00:05:21,199
+p is next to x
+
+131
+00:05:19,919 --> 00:05:22,720
+okay
+
+132
+00:05:21,199 --> 00:05:25,199
+okay what you're doing what's your right
+
+133
+00:05:22,720 --> 00:05:27,759
+okay so you understand yeah so look
+
+134
+00:05:25,199 --> 00:05:29,919
+your solution is it's okay
+
+135
+00:05:27,759 --> 00:05:32,479
+there are only two letters s and n which
+
+136
+00:05:29,919 --> 00:05:36,639
+only appears in one yeah but we have to
+
+137
+00:05:32,479 --> 00:05:36,639
+distinguish between s and n so s
+
+138
+00:05:37,120 --> 00:05:43,600
+is the beginning and the last one yeah
+
+139
+00:05:40,240 --> 00:05:45,680
+so this look this is the in degree uh so
+
+140
+00:05:43,600 --> 00:05:47,759
+if we have this the p the in degree
+
+141
+00:05:45,680 --> 00:05:50,000
+right we call it in degree and then p to
+
+142
+00:05:47,759 --> 00:05:52,880
+a this is our degree so we want to find
+
+143
+00:05:50,000 --> 00:05:54,800
+a letter which doesn't have any indegree
+
+144
+00:05:52,880 --> 00:05:56,479
+right because it only
+
+145
+00:05:54,800 --> 00:05:59,120
+it doesn't have we don't have any
+
+146
+00:05:56,479 --> 00:06:00,160
+letters come going through the s right
+
+147
+00:05:59,120 --> 00:06:02,319
+okay
+
+148
+00:06:00,160 --> 00:06:03,600
+yeah and then we follow this s to p p to
+
+149
+00:06:02,319 --> 00:06:05,600
+a
+
+150
+00:06:03,600 --> 00:06:07,600
+i you know follow these okay
+
+151
+00:06:05,600 --> 00:06:09,919
+but you know if you don't yeah this is a
+
+152
+00:06:07,600 --> 00:06:12,720
+very uh efficient agreement but first of
+
+153
+00:06:09,919 --> 00:06:13,520
+all we uh if we don't have this if we
+
+154
+00:06:12,720 --> 00:06:14,639
+don't
+
+155
+00:06:13,520 --> 00:06:16,160
+uh
+
+156
+00:06:14,639 --> 00:06:17,759
+we don't have this uh efficient
+
+157
+00:06:16,160 --> 00:06:19,840
+algorithm we can always prove us how can
+
+158
+00:06:17,759 --> 00:06:22,800
+we move forward i'm just going to
+
+159
+00:06:19,840 --> 00:06:24,639
+say this idea proof of thing yeah
+
+160
+00:06:22,800 --> 00:06:26,240
+proof of thing we first first of all we
+
+161
+00:06:24,639 --> 00:06:27,759
+find the number of letters from these
+
+162
+00:06:26,240 --> 00:06:30,960
+rules yeah because we can find out the
+
+163
+00:06:27,759 --> 00:06:32,800
+letter which is a five s p i i i spam
+
+164
+00:06:30,960 --> 00:06:35,440
+right spend the five letters five
+
+165
+00:06:32,800 --> 00:06:37,360
+letters and we can proof of this
+
+166
+00:06:35,440 --> 00:06:39,919
+yeah this is the set we will compute
+
+167
+00:06:37,360 --> 00:06:40,880
+this in a set and now we prove forcing
+
+168
+00:06:39,919 --> 00:06:42,479
+it
+
+169
+00:06:40,880 --> 00:06:44,080
+using a different permutation and
+
+170
+00:06:42,479 --> 00:06:46,000
+remember computation one two three
+
+171
+00:06:44,080 --> 00:06:49,000
+permutation how many permutations are
+
+172
+00:06:46,000 --> 00:06:49,000
+these
+
+173
+00:06:49,360 --> 00:06:53,840
+permutations different orders how many
+
+174
+00:06:50,960 --> 00:06:54,800
+permutations six yeah one two three one
+
+175
+00:06:53,840 --> 00:06:58,479
+three two
+
+176
+00:06:54,800 --> 00:07:00,880
+two one three two three three two one
+
+177
+00:06:58,479 --> 00:07:02,479
+three one two three two one yeah because
+
+178
+00:07:00,880 --> 00:07:04,479
+you look at the first position you have
+
+179
+00:07:02,479 --> 00:07:06,080
+three letters three choice the second
+
+180
+00:07:04,479 --> 00:07:08,000
+partition you have two
+
+181
+00:07:06,080 --> 00:07:10,080
+right the second choice you have one so
+
+182
+00:07:08,000 --> 00:07:12,560
+three times two times one is six the
+
+183
+00:07:10,080 --> 00:07:14,720
+fourth communication if there are five
+
+184
+00:07:12,560 --> 00:07:17,280
+is five factorial right
+
+185
+00:07:14,720 --> 00:07:20,319
+so if i learn n letters if the rules
+
+186
+00:07:17,280 --> 00:07:21,919
+have n letters right so the complexities
+
+187
+00:07:20,319 --> 00:07:24,720
+o n factorial
+
+188
+00:07:21,919 --> 00:07:27,120
+once we have one factorial
+
+189
+00:07:24,720 --> 00:07:28,840
+o and factor this is the number of
+
+190
+00:07:27,120 --> 00:07:31,440
+possibility permutations their
+
+191
+00:07:28,840 --> 00:07:34,479
+permutation then we check we need to
+
+192
+00:07:31,440 --> 00:07:36,080
+check if it is the same rule of least if
+
+193
+00:07:34,479 --> 00:07:38,400
+it
+
+194
+00:07:36,080 --> 00:07:40,560
+if it satisfies all the rules right so
+
+195
+00:07:38,400 --> 00:07:42,000
+this needs to
+
+196
+00:07:40,560 --> 00:07:42,639
+do another o
+
+197
+00:07:42,000 --> 00:07:43,520
+n
+
+198
+00:07:42,639 --> 00:07:45,840
+right
+
+199
+00:07:43,520 --> 00:07:47,919
+o n right am right
+
+200
+00:07:45,840 --> 00:07:49,759
+yes you need to go through these rules
+
+201
+00:07:47,919 --> 00:07:51,360
+one by one
+
+202
+00:07:49,759 --> 00:07:53,280
+go through this loop
+
+203
+00:07:51,360 --> 00:07:54,960
+but how do you know doesn't really lose
+
+204
+00:07:53,280 --> 00:07:56,960
+and then you need to find how do you
+
+205
+00:07:54,960 --> 00:07:59,360
+check if it satisfies the rule right you
+
+206
+00:07:56,960 --> 00:08:00,879
+need to use this find
+
+207
+00:07:59,360 --> 00:08:02,960
+to find out
+
+208
+00:08:00,879 --> 00:08:05,759
+the number of the characters and then
+
+209
+00:08:02,960 --> 00:08:08,560
+it's next one so look if if we we have
+
+210
+00:08:05,759 --> 00:08:10,639
+this expand we need to find out the p
+
+211
+00:08:08,560 --> 00:08:12,960
+which is at this position and we have to
+
+212
+00:08:10,639 --> 00:08:15,280
+check its next one
+
+213
+00:08:12,960 --> 00:08:16,000
+if it's a now if it doesn't if it's not
+
+214
+00:08:15,280 --> 00:08:18,000
+a
+
+215
+00:08:16,000 --> 00:08:20,160
+then we return the force
+
+216
+00:08:18,000 --> 00:08:22,240
+it doesn't satisfy this rule right so
+
+217
+00:08:20,160 --> 00:08:23,680
+look we have to go through the end rules
+
+218
+00:08:22,240 --> 00:08:25,680
+for example the anus and for each
+
+219
+00:08:23,680 --> 00:08:28,080
+character we have to use the find or
+
+220
+00:08:25,680 --> 00:08:30,879
+index index to find out the
+
+221
+00:08:28,080 --> 00:08:33,279
+index of the
+
+222
+00:08:30,879 --> 00:08:34,719
+of this this character that a this
+
+223
+00:08:33,279 --> 00:08:39,039
+character p
+
+224
+00:08:34,719 --> 00:08:40,479
+in the permutation is another n so o n
+
+225
+00:08:39,039 --> 00:08:43,599
+bacteria
+
+226
+00:08:40,479 --> 00:08:45,920
+times n times n so this is
+
+227
+00:08:43,599 --> 00:08:46,640
+very very slow okay so we're not going
+
+228
+00:08:45,920 --> 00:08:48,640
+to
+
+229
+00:08:46,640 --> 00:08:50,720
+go uh implement this one but we can use
+
+230
+00:08:48,640 --> 00:08:52,959
+the it's a permutation yeah we can use
+
+231
+00:08:50,720 --> 00:08:55,920
+the word permutation
+
+232
+00:08:52,959 --> 00:08:57,279
+the the python yeah the python
+
+233
+00:08:55,920 --> 00:08:59,920
+has a
+
+234
+00:08:57,279 --> 00:09:01,760
+gita tool of permutation so what does it
+
+235
+00:08:59,920 --> 00:09:03,839
+mean
+
+236
+00:09:01,760 --> 00:09:08,360
+that's a slow
+
+237
+00:09:03,839 --> 00:09:08,360
+permutation so look we can fly
+
+238
+00:09:12,320 --> 00:09:15,279
+import
+
+239
+00:09:13,600 --> 00:09:17,279
+permutation we can use this
+
+240
+00:09:15,279 --> 00:09:19,600
+communication
+
+241
+00:09:17,279 --> 00:09:21,920
+yeah and then we can do that if these
+
+242
+00:09:19,600 --> 00:09:24,160
+letters even all the letters in a in a
+
+243
+00:09:21,920 --> 00:09:25,279
+set yeah if it's in a sense okay you
+
+244
+00:09:24,160 --> 00:09:27,120
+need to
+
+245
+00:09:25,279 --> 00:09:29,519
+calculate we need to process the rules
+
+246
+00:09:27,120 --> 00:09:30,240
+and put in a set and we can do this for
+
+247
+00:09:29,519 --> 00:09:31,040
+p
+
+248
+00:09:30,240 --> 00:09:34,399
+in
+
+249
+00:09:31,040 --> 00:09:37,839
+permutation permutation
+
+250
+00:09:34,399 --> 00:09:37,839
+permutation letters
+
+251
+00:09:37,920 --> 00:09:42,399
+okay now we can need to check if check p
+
+252
+00:09:40,720 --> 00:09:44,640
+if we need to check if
+
+253
+00:09:42,399 --> 00:09:46,399
+if satisfied all the rules yeah then
+
+254
+00:09:44,640 --> 00:09:49,360
+return p we can
+
+255
+00:09:46,399 --> 00:09:50,959
+return this permutation between p p p is
+
+256
+00:09:49,360 --> 00:09:52,560
+a two part okay it will return for
+
+257
+00:09:50,959 --> 00:09:53,519
+example if it's uh
+
+258
+00:09:52,560 --> 00:09:55,760
+s p
+
+259
+00:09:53,519 --> 00:09:58,080
+p a uh let's say eric you will return
+
+260
+00:09:55,760 --> 00:09:59,760
+this e
+
+261
+00:09:58,080 --> 00:10:01,680
+r
+
+262
+00:09:59,760 --> 00:10:05,120
+i
+
+263
+00:10:01,680 --> 00:10:05,120
+c okay we'll return this
+
+264
+00:10:06,800 --> 00:10:09,880
+[Music]
+
+265
+00:10:14,399 --> 00:10:17,600
+okay
+
+266
+00:10:15,680 --> 00:10:19,200
+okay so this is a twofold thing okay but
+
+267
+00:10:17,600 --> 00:10:20,959
+we're not going to go into the detail
+
+268
+00:10:19,200 --> 00:10:22,480
+with the check funny but you know what
+
+269
+00:10:20,959 --> 00:10:24,480
+we're going to check yeah we found first
+
+270
+00:10:22,480 --> 00:10:26,160
+of all we find out
+
+271
+00:10:24,480 --> 00:10:28,880
+we find out the index of the first
+
+272
+00:10:26,160 --> 00:10:31,519
+letter in the rule which is the we use
+
+273
+00:10:28,880 --> 00:10:34,000
+the index yeah we use the index to
+
+274
+00:10:31,519 --> 00:10:36,399
+index function will return
+
+275
+00:10:34,000 --> 00:10:38,480
+the index of first occurrence letter all
+
+276
+00:10:36,399 --> 00:10:40,560
+right and if it's a string if it's a
+
+277
+00:10:38,480 --> 00:10:42,160
+string or list we can also use the fine
+
+278
+00:10:40,560 --> 00:10:45,200
+the difference between the index and
+
+279
+00:10:42,160 --> 00:10:46,560
+finally is one the index shows raised
+
+280
+00:10:45,200 --> 00:10:49,040
+exception
+
+281
+00:10:46,560 --> 00:10:51,440
+if if the the thing you're looking for
+
+282
+00:10:49,040 --> 00:10:52,720
+does not exist in the list in october
+
+283
+00:10:51,440 --> 00:10:55,360
+but 5
+
+284
+00:10:52,720 --> 00:10:57,760
+would return minus 1 if it doesn't exist
+
+285
+00:10:55,360 --> 00:11:00,160
+and then index only
+
+286
+00:10:57,760 --> 00:11:01,200
+we can use the index method in for the
+
+287
+00:11:00,160 --> 00:11:02,800
+tuple but
+
+288
+00:11:01,200 --> 00:11:04,720
+we can't use the
+
+289
+00:11:02,800 --> 00:11:06,800
+uh find the method in the tube okay
+
+290
+00:11:04,720 --> 00:11:07,680
+that's one another difference okay
+
+291
+00:11:06,800 --> 00:11:09,519
+so
+
+292
+00:11:07,680 --> 00:11:11,040
+for we can implement the second one
+
+293
+00:11:09,519 --> 00:11:12,959
+right first of all we
+
+294
+00:11:11,040 --> 00:11:15,040
+we need to find out the first letter we
+
+295
+00:11:12,959 --> 00:11:17,200
+need to find out the first step okay
+
+296
+00:11:15,040 --> 00:11:19,040
+define let's say constructive
+
+297
+00:11:17,200 --> 00:11:20,640
+constructed reward we have constructed
+
+298
+00:11:19,040 --> 00:11:21,680
+word
+
+299
+00:11:20,640 --> 00:11:25,360
+and we have
+
+300
+00:11:21,680 --> 00:11:27,519
+we have a rules yeah we have a loose
+
+301
+00:11:25,360 --> 00:11:29,279
+so let's say
+
+302
+00:11:27,519 --> 00:11:31,200
+let's say we want to find out look we
+
+303
+00:11:29,279 --> 00:11:33,600
+will not have a little theta d theta
+
+304
+00:11:31,200 --> 00:11:36,079
+equals a set right
+
+305
+00:11:33,600 --> 00:11:37,519
+then we can do this for
+
+306
+00:11:36,079 --> 00:11:38,640
+do
+
+307
+00:11:37,519 --> 00:11:40,079
+in
+
+308
+00:11:38,640 --> 00:11:44,399
+lose okay
+
+309
+00:11:40,079 --> 00:11:46,320
+let's say the loose is like that e to i
+
+310
+00:11:44,399 --> 00:11:48,079
+e to r let
+
+311
+00:11:46,320 --> 00:11:50,240
+let's put it in a string okay into r
+
+312
+00:11:48,079 --> 00:11:50,880
+let's say e
+
+313
+00:11:50,240 --> 00:11:52,959
+e
+
+314
+00:11:50,880 --> 00:11:56,240
+bigger than r right that means the i is
+
+315
+00:11:52,959 --> 00:11:57,680
+next to e so we we first of all a b
+
+316
+00:11:56,240 --> 00:11:58,800
+equals
+
+317
+00:11:57,680 --> 00:12:00,480
+rule
+
+318
+00:11:58,800 --> 00:12:03,760
+does breaks
+
+319
+00:12:00,480 --> 00:12:06,800
+what's really mean split by this one
+
+320
+00:12:03,760 --> 00:12:08,000
+by the bigger equal so a is e b
+
+321
+00:12:06,800 --> 00:12:11,040
+okay
+
+322
+00:12:08,000 --> 00:12:12,959
+and now what we do
+
+323
+00:12:11,040 --> 00:12:15,760
+first of all we put all the letters in a
+
+324
+00:12:12,959 --> 00:12:18,320
+set right let's say data
+
+325
+00:12:15,760 --> 00:12:18,320
+dot at
+
+326
+00:12:18,800 --> 00:12:24,560
+this is a hashtag hashtag it will put a
+
+327
+00:12:21,120 --> 00:12:26,800
+in and then we also put a b in right we
+
+328
+00:12:24,560 --> 00:12:28,720
+also put a b in right
+
+329
+00:12:26,800 --> 00:12:30,720
+now the a
+
+330
+00:12:28,720 --> 00:12:33,600
+finally the data will contain what we
+
+331
+00:12:30,720 --> 00:12:35,120
+have is a set yeah it's a set of what
+
+332
+00:12:33,600 --> 00:12:36,800
+e
+
+333
+00:12:35,120 --> 00:12:39,040
+r
+
+334
+00:12:36,800 --> 00:12:40,560
+i
+
+335
+00:12:39,040 --> 00:12:42,320
+c okay
+
+336
+00:12:40,560 --> 00:12:44,160
+all right this this is the data set and
+
+337
+00:12:42,320 --> 00:12:46,399
+then now we need to go through the date
+
+338
+00:12:44,160 --> 00:12:47,920
+the rule again let's go through the loop
+
+339
+00:12:46,399 --> 00:12:49,440
+again and then let's take it what went
+
+340
+00:12:47,920 --> 00:12:52,800
+on okay
+
+341
+00:12:49,440 --> 00:12:55,120
+take one out at a time this is the same
+
+342
+00:12:52,800 --> 00:12:59,120
+a b equals do
+
+343
+00:12:55,120 --> 00:12:59,120
+the split this is the same okay
+
+344
+00:13:00,000 --> 00:13:04,240
+theta dot remover we want to remove this
+
+345
+00:13:02,880 --> 00:13:07,440
+one look
+
+346
+00:13:04,240 --> 00:13:09,519
+e to r
+
+347
+00:13:07,440 --> 00:13:11,839
+r to i
+
+348
+00:13:09,519 --> 00:13:14,800
+i to c
+
+349
+00:13:11,839 --> 00:13:17,200
+okay so we want to remove which one
+
+350
+00:13:14,800 --> 00:13:19,920
+theta doesn't move up
+
+351
+00:13:17,200 --> 00:13:22,399
+so we we have theta which is eic right
+
+352
+00:13:19,920 --> 00:13:24,560
+eic we already know eic in the data
+
+353
+00:13:22,399 --> 00:13:26,000
+there are four characters
+
+354
+00:13:24,560 --> 00:13:27,600
+and then now we go through the rule
+
+355
+00:13:26,000 --> 00:13:29,760
+again we want to remove
+
+356
+00:13:27,600 --> 00:13:31,920
+which key arrows
+
+357
+00:13:29,760 --> 00:13:34,720
+now we want to remove these or these
+
+358
+00:13:31,920 --> 00:13:36,480
+from the data so that we can get the
+
+359
+00:13:34,720 --> 00:13:37,360
+first characters
+
+360
+00:13:36,480 --> 00:13:39,279
+uh
+
+361
+00:13:37,360 --> 00:13:41,519
+we need to remove
+
+362
+00:13:39,279 --> 00:13:42,959
+this yes though we don't remove the b
+
+363
+00:13:41,519 --> 00:13:43,839
+yeah okay
+
+364
+00:13:42,959 --> 00:13:46,000
+look
+
+365
+00:13:43,839 --> 00:13:47,760
+with the move b yeah
+
+366
+00:13:46,000 --> 00:13:49,920
+and now the first letter is what the
+
+367
+00:13:47,760 --> 00:13:51,440
+current letter is first letter is one
+
+368
+00:13:49,920 --> 00:13:53,440
+this is a data it's a list and we
+
+369
+00:13:51,440 --> 00:13:55,519
+convert it to this
+
+370
+00:13:53,440 --> 00:13:57,120
+you contain only one characters because
+
+371
+00:13:55,519 --> 00:13:58,000
+we don't have duplicate numbers we only
+
+372
+00:13:57,120 --> 00:14:00,560
+have
+
+373
+00:13:58,000 --> 00:14:02,399
+uh unique numbers and then well the
+
+374
+00:14:00,560 --> 00:14:05,440
+first character the first depiction
+
+375
+00:14:02,399 --> 00:14:06,880
+there is only one element so ci cui is
+
+376
+00:14:05,440 --> 00:14:08,480
+the
+
+377
+00:14:06,880 --> 00:14:10,399
+is the first character and then we we
+
+378
+00:14:08,480 --> 00:14:11,519
+have we stole this answer here answer
+
+379
+00:14:10,399 --> 00:14:13,600
+equals this
+
+380
+00:14:11,519 --> 00:14:15,760
+uh answer it was cur because this is
+
+381
+00:14:13,600 --> 00:14:17,760
+first i know what we do
+
+382
+00:14:15,760 --> 00:14:19,680
+wire
+
+383
+00:14:17,760 --> 00:14:21,680
+c u r
+
+384
+00:14:19,680 --> 00:14:24,000
+okay so we we also need the mapping yeah
+
+385
+00:14:21,680 --> 00:14:26,399
+we also need to making from a to b yeah
+
+386
+00:14:24,000 --> 00:14:28,639
+so let's say the mapping and
+
+387
+00:14:26,399 --> 00:14:29,440
+this is a dictionary yeah i know we do
+
+388
+00:14:28,639 --> 00:14:31,040
+what
+
+389
+00:14:29,440 --> 00:14:33,120
+m a
+
+390
+00:14:31,040 --> 00:14:36,480
+equals b so we know
+
+391
+00:14:33,120 --> 00:14:38,399
+the next character of a is b okay so we
+
+392
+00:14:36,480 --> 00:14:41,120
+use a decision array look okay then we
+
+393
+00:14:38,399 --> 00:14:43,519
+look we current why this is current is
+
+394
+00:14:41,120 --> 00:14:46,560
+still in
+
+395
+00:14:43,519 --> 00:14:48,639
+in in mapping yeah look look
+
+396
+00:14:46,560 --> 00:14:50,320
+the last letter
+
+397
+00:14:48,639 --> 00:14:54,079
+the last letter does not have mapping
+
+398
+00:14:50,320 --> 00:14:56,320
+yeah because look e-i-c e-i-c
+
+399
+00:14:54,079 --> 00:14:58,320
+a c doesn't have a next letter right
+
+400
+00:14:56,320 --> 00:14:59,040
+every other letter has the next letter
+
+401
+00:14:58,320 --> 00:15:03,120
+the
+
+402
+00:14:59,040 --> 00:15:06,480
+m e equals r m r equals i m i equals c
+
+403
+00:15:03,120 --> 00:15:08,480
+so why we still not in the left next
+
+404
+00:15:06,480 --> 00:15:10,720
+letter for i
+
+405
+00:15:08,480 --> 00:15:12,720
+no no no no c doesn't have any letter
+
+406
+00:15:10,720 --> 00:15:13,680
+look it's from a to c c doesn't have
+
+407
+00:15:12,720 --> 00:15:17,279
+gold
+
+408
+00:15:13,680 --> 00:15:19,519
+if c goes nowhere okay so for current i
+
+409
+00:15:17,279 --> 00:15:21,360
+y r current in m means that we are not
+
+410
+00:15:19,519 --> 00:15:23,360
+reaching the last letter then we build
+
+411
+00:15:21,360 --> 00:15:26,639
+it we we need to answer
+
+412
+00:15:23,360 --> 00:15:30,000
+plus equal m current right
+
+413
+00:15:26,639 --> 00:15:32,079
+and then what current equals m current
+
+414
+00:15:30,000 --> 00:15:34,959
+right so we are moving to the next one
+
+415
+00:15:32,079 --> 00:15:34,959
+and return answer
+
+416
+00:15:35,120 --> 00:15:37,839
+okay
+
+417
+00:15:36,800 --> 00:15:39,040
+okay
+
+418
+00:15:37,839 --> 00:15:41,600
+you see
+
+419
+00:15:39,040 --> 00:15:43,360
+so the time complexity
+
+420
+00:15:41,600 --> 00:15:46,240
+we're going through the rules
+
+421
+00:15:43,360 --> 00:15:48,000
+one time two times still linear yeah
+
+422
+00:15:46,240 --> 00:15:50,160
+and then we'll go through the letters so
+
+423
+00:15:48,000 --> 00:15:52,639
+the time complexity will be o n right
+
+424
+00:15:50,160 --> 00:15:55,040
+because look ladies oh n is the number
+
+425
+00:15:52,639 --> 00:15:58,160
+of characters in the original in the
+
+426
+00:15:55,040 --> 00:15:59,600
+original world okay
+
+427
+00:15:58,160 --> 00:16:01,680
+yeah
+
+428
+00:15:59,600 --> 00:16:04,800
+okay yeah yeah sure
+
+429
+00:16:01,680 --> 00:16:07,120
+so look we're using a set yeah so data
+
+430
+00:16:04,800 --> 00:16:09,519
+first of all we put all the characters
+
+431
+00:16:07,120 --> 00:16:12,160
+in in there well this is this is called
+
+432
+00:16:09,519 --> 00:16:14,240
+characters in which you have eic and the
+
+433
+00:16:12,160 --> 00:16:17,120
+second second pass
+
+434
+00:16:14,240 --> 00:16:19,519
+we are removing the
+
+435
+00:16:17,120 --> 00:16:21,360
+the next yeah the next characters from
+
+436
+00:16:19,519 --> 00:16:24,959
+the set so
+
+437
+00:16:21,360 --> 00:16:28,079
+we remove r i c then i c so
+
+438
+00:16:24,959 --> 00:16:30,079
+what do we have left is e which is the
+
+439
+00:16:28,079 --> 00:16:31,839
+the first character now we start
+
+440
+00:16:30,079 --> 00:16:33,920
+building research in the character yeah
+
+441
+00:16:31,839 --> 00:16:36,000
+when we are not reaching the end of
+
+442
+00:16:33,920 --> 00:16:39,680
+character when the mapping
+
+443
+00:16:36,000 --> 00:16:42,320
+look and be sufficient area dictionary
+
+444
+00:16:39,680 --> 00:16:44,720
+m a equals b so we can use the key to
+
+445
+00:16:42,320 --> 00:16:45,920
+look for the next characters and then we
+
+446
+00:16:44,720 --> 00:16:48,160
+build it
+
+447
+00:16:45,920 --> 00:16:50,399
+and current is the next characters
+
+448
+00:16:48,160 --> 00:16:52,720
+and i'm removing the current variations
+
+449
+00:16:50,399 --> 00:16:54,639
+look if r i'm coming
+
+450
+00:16:52,720 --> 00:16:57,360
+and i put the answer
+
+451
+00:16:54,639 --> 00:17:00,079
+i add this append this r to the answer
+
+452
+00:16:57,360 --> 00:17:02,240
+which is for example i and then i move
+
+453
+00:17:00,079 --> 00:17:03,759
+it to the next one which is i and i move
+
+454
+00:17:02,240 --> 00:17:05,039
+it to the next one i'll build it and the
+
+455
+00:17:03,759 --> 00:17:07,360
+wrong way
+
+456
+00:17:05,039 --> 00:17:09,360
+yeah let's return the answer
+
+457
+00:17:07,360 --> 00:17:10,240
+so we are using a set we can also using
+
+458
+00:17:09,360 --> 00:17:11,120
+the
+
+459
+00:17:10,240 --> 00:17:13,439
+what
+
+460
+00:17:11,120 --> 00:17:15,600
+mapping the dictionary yeah dictionary
+
+461
+00:17:13,439 --> 00:17:16,640
+remember the default uh decision area
+
+462
+00:17:15,600 --> 00:17:20,079
+from
+
+463
+00:17:16,640 --> 00:17:22,720
+from corrections input dictionaries and
+
+464
+00:17:20,079 --> 00:17:24,799
+we can do what we can theta
+
+465
+00:17:22,720 --> 00:17:25,600
+if it's additional we can tell the data
+
+466
+00:17:24,799 --> 00:17:28,880
+a
+
+467
+00:17:25,600 --> 00:17:31,120
+plus equals one and theta
+
+468
+00:17:28,880 --> 00:17:33,360
+b minus equals one okay so what does
+
+469
+00:17:31,120 --> 00:17:35,679
+this mean look let's take
+
+470
+00:17:33,360 --> 00:17:37,360
+this example eic for example okay and
+
+471
+00:17:35,679 --> 00:17:39,200
+then you know what i'm talking about
+
+472
+00:17:37,360 --> 00:17:42,799
+theta okay
+
+473
+00:17:39,200 --> 00:17:44,640
+theta a plus equals one so look e i c f
+
+474
+00:17:42,799 --> 00:17:46,559
+e i c
+
+475
+00:17:44,640 --> 00:17:48,400
+e r i
+
+476
+00:17:46,559 --> 00:17:51,840
+c
+
+477
+00:17:48,400 --> 00:17:54,320
+data we have these keys this is the keys
+
+478
+00:17:51,840 --> 00:17:55,760
+key and the value
+
+479
+00:17:54,320 --> 00:17:59,919
+so look
+
+480
+00:17:55,760 --> 00:18:02,000
+e to r so e will plus one r minus one
+
+481
+00:17:59,919 --> 00:18:04,400
+okay r to i
+
+482
+00:18:02,000 --> 00:18:06,799
+always plus one
+
+483
+00:18:04,400 --> 00:18:08,400
+i o minus one
+
+484
+00:18:06,799 --> 00:18:10,400
+i to c
+
+485
+00:18:08,400 --> 00:18:13,280
+i will plus one
+
+486
+00:18:10,400 --> 00:18:16,080
+c u n minus one okay so what do we have
+
+487
+00:18:13,280 --> 00:18:18,240
+all the intermediate characters yeah the
+
+488
+00:18:16,080 --> 00:18:21,280
+other intermediaries
+
+489
+00:18:18,240 --> 00:18:22,320
+they will be zero right yeah the first
+
+490
+00:18:21,280 --> 00:18:24,320
+letter
+
+491
+00:18:22,320 --> 00:18:26,080
+will be one this last letter will be
+
+492
+00:18:24,320 --> 00:18:27,919
+minus one right
+
+493
+00:18:26,080 --> 00:18:30,080
+so we just have to look through these
+
+494
+00:18:27,919 --> 00:18:32,640
+keys
+
+495
+00:18:30,080 --> 00:18:34,400
+we just have to loosen the keys
+
+496
+00:18:32,640 --> 00:18:36,480
+and find out the value which is bigger
+
+497
+00:18:34,400 --> 00:18:38,400
+than zero okay and we in this way in
+
+498
+00:18:36,480 --> 00:18:40,720
+this case we can find the first
+
+499
+00:18:38,400 --> 00:18:42,720
+character the last letter is my
+
+500
+00:18:40,720 --> 00:18:44,160
+negative yeah okay
+
+501
+00:18:42,720 --> 00:18:45,919
+makes sense
+
+502
+00:18:44,160 --> 00:18:47,600
+yeah and then
+
+503
+00:18:45,919 --> 00:18:49,360
+and then in this case we don't need to
+
+504
+00:18:47,600 --> 00:18:51,520
+go through the
+
+505
+00:18:49,360 --> 00:18:53,440
+these second iterations to remove it we
+
+506
+00:18:51,520 --> 00:18:55,520
+can only just go through one the rules
+
+507
+00:18:53,440 --> 00:18:57,520
+once right but still we still have to
+
+508
+00:18:55,520 --> 00:18:59,600
+keep this mapping you know we can we
+
+509
+00:18:57,520 --> 00:19:03,280
+need to keep the mapping and
+
+510
+00:18:59,600 --> 00:19:04,480
+like i needs to be equal to c right
+
+511
+00:19:03,280 --> 00:19:06,240
+right
+
+512
+00:19:04,480 --> 00:19:08,080
+so the key that this key will be the
+
+513
+00:19:06,240 --> 00:19:10,559
+current character and then the value
+
+514
+00:19:08,080 --> 00:19:12,160
+will be its next character right next
+
+515
+00:19:10,559 --> 00:19:14,000
+characters
+
+516
+00:19:12,160 --> 00:19:16,160
+make sense
+
+517
+00:19:14,000 --> 00:19:17,520
+okay can you can you tell me i mean
+
+518
+00:19:16,160 --> 00:19:20,000
+what's your approach you don't have to
+
+519
+00:19:17,520 --> 00:19:21,760
+write a quote but you need to tell me
+
+520
+00:19:20,000 --> 00:19:24,880
+okay i'll give you an example and you
+
+521
+00:19:21,760 --> 00:19:28,000
+tell me what why okay let's let's see
+
+522
+00:19:24,880 --> 00:19:29,760
+i'm trying to think of another one okay
+
+523
+00:19:28,000 --> 00:19:30,960
+i'm trying to think about it you need to
+
+524
+00:19:29,760 --> 00:19:32,240
+tell me
+
+525
+00:19:30,960 --> 00:19:33,360
+what it is
+
+526
+00:19:32,240 --> 00:19:35,840
+okay
+
+527
+00:19:33,360 --> 00:19:35,840
+let's see
+
+528
+00:19:53,920 --> 00:19:57,170
+[Music]
+
+529
+00:20:01,280 --> 00:20:06,200
+okay i need to think about it okay wait
+
+530
+00:20:10,650 --> 00:20:13,789
+[Music]
+
+531
+00:20:17,840 --> 00:20:20,840
+uh
+
+532
+00:20:32,880 --> 00:20:35,039
+you
+
+533
+00:20:36,670 --> 00:20:39,759
+[Music]
+
+534
+00:20:41,360 --> 00:20:49,720
+it doesn't show what i connect to and it
+
+535
+00:20:44,000 --> 00:20:49,720
+doesn't show what r connects to i i
+
+536
+00:21:14,840 --> 00:21:20,080
+okay okay
+
+537
+00:21:18,240 --> 00:21:22,960
+so remember first of all we need to
+
+538
+00:21:20,080 --> 00:21:25,360
+finally find the first letter yeah
+
+539
+00:21:22,960 --> 00:21:28,360
+swisher
+
+540
+00:21:25,360 --> 00:21:28,360
+uh
+
+541
+00:21:33,039 --> 00:21:39,919
+yeah yeah yeah yeah yeah
+
+542
+00:21:36,080 --> 00:21:39,919
+all right yeah and and
+
+543
+00:21:41,600 --> 00:21:46,240
+yeah
+
+544
+00:21:42,880 --> 00:21:48,720
+yeah okay good job so can you tell me
+
+545
+00:21:46,240 --> 00:21:50,799
+what you why you how do you find an s in
+
+546
+00:21:48,720 --> 00:21:52,720
+the first place
+
+547
+00:21:50,799 --> 00:21:55,120
+why how do you know this is the first
+
+548
+00:21:52,720 --> 00:21:57,840
+first one i'm gonna do one
+
+549
+00:21:55,120 --> 00:22:00,320
+because because we because that's the
+
+550
+00:21:57,840 --> 00:22:02,960
+first one
+
+551
+00:22:00,320 --> 00:22:05,679
+okay okay
+
+552
+00:22:02,960 --> 00:22:09,280
+okay you don't have to stop i mean
+
+553
+00:22:05,679 --> 00:22:10,720
+remember we talk about going slowly yeah
+
+554
+00:22:09,280 --> 00:22:12,799
+at least
+
+555
+00:22:10,720 --> 00:22:14,159
+we don't have any loose that come that
+
+556
+00:22:12,799 --> 00:22:15,919
+goes to s
+
+557
+00:22:14,159 --> 00:22:18,000
+yeah you see
+
+558
+00:22:15,919 --> 00:22:20,640
+yeah this column doesn't have any
+
+559
+00:22:18,000 --> 00:22:22,799
+letters with s what does it mean so it
+
+560
+00:22:20,640 --> 00:22:24,240
+means s is the first one okay makes
+
+561
+00:22:22,799 --> 00:22:26,880
+sense
+
+562
+00:22:24,240 --> 00:22:28,799
+yeah is how you spell switzerland i i
+
+563
+00:22:26,880 --> 00:22:30,320
+don't know this
+
+564
+00:22:28,799 --> 00:22:32,159
+i don't know maybe
+
+565
+00:22:30,320 --> 00:22:35,600
+it doesn't look like it spelled
+
+566
+00:22:32,159 --> 00:22:39,760
+correctly okay unless we
+
+567
+00:22:35,600 --> 00:22:39,760
+i don't know or maybe there's a tea
+
+568
+00:22:42,400 --> 00:22:44,960
+okay that's it for today good job good
+
+569
+00:22:44,000 --> 00:22:46,000
+job
+
+570
+00:22:44,960 --> 00:22:49,000
+bye
+
+571
+00:22:46,000 --> 00:22:49,000
+bye
+
