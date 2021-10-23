@@ -1,8 +1,12 @@
 # Teaching Kids Programming
-The days listed in this page may not be accurate due to some date-input-errors, please refer to the following LINK for the references.
----->**[View a List of All Videos and Search here](https://zhihua-lai.com/teaching/)**<-----
+The days listed in this page may not be accurate due to some date-input-errors, please refer to this [LINK](https://zhihua-lai.com/teaching/) for the references.
 
-[Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+## Links
+- [View a List of All Videos and Search here](https://zhihua-lai.com/teaching/)
+- [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
+- [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
+
+## Sorted by Days
 - Day 312:  [Area and Circumferences of Circle and Monte Carlo Simulation Algorithm of PI](https://helloacm.com/teaching-kids-programming-area-and-circumferences-of-circle-and-monte-carlo-simulation-algorithm-of-pi/)  圆的面积和周长和蒙特卡罗估计圆周率算法的简介  [Youtube](https://youtu.be/JHRVAyfJg6w) - [B站](https://www.bilibili.com/video/BV1Eh411n7zu/) - [西瓜](https://www.ixigua.com/7022178069741830686)
 - Day 311:  [Remove a Node and Subtree using Depth First Search or Breadth First Search Algorithm (Process Kill)](https://helloacm.com/teaching-kids-programming-remove-a-node-and-subtree-using-depth-first-search-or-breadth-first-search-algorithm/)  深度优先和广度优先移除子树节点算法  [Youtube](https://youtu.be/e7tBJEEckdc) - [B站](https://www.bilibili.com/video/BV1BL4y1B767/) - [西瓜](https://www.ixigua.com/7021670232498373128) 
 - Day 310:  [Kth Smallest Element in a BST via Iterative Inorder Traversal Algorithm](https://helloacm.com/teaching-kids-programming-kth-smallest-element-in-a-bst-via-iterative-inorder-traversal-algorithm/) 通过迭代中序遍历算法在二叉搜索树中找的第K个最小元素  [Youtube](https://youtu.be/-TuXc3dQcGs) - [B站](https://www.bilibili.com/video/BV1EL4y1B7Ma/) - [西瓜](https://www.ixigua.com/7020904749721616932)
