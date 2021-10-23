@@ -1,4 +1,5 @@
 # Teaching Kids Programming
+The days listed in this page may not be accurate due to some date-input-errors, please refer to the following LINK for the references.
 ---->**[View a List of All Videos and Search here](https://zhihua-lai.com/teaching/)**<-----
 
 [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md) - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
