@@ -223,6 +223,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Divide and Conquer 分而治之
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Divide and Conquer Algorithm Explained (Max Number, Ruler Marker) | 分治算法简介 (求最大数, 尺子刻度标记) | [Youtube](https://youtu.be/0bUKxz0qPXg) - [B站](https://www.bilibili.com/video/BV1U34y1m7wG/) - [西瓜](https://www.ixigua.com/7022398180197138952) | [Divide and Conquer Algorithm Explained (Max Number, Ruler Marker)](https://helloacm.com/teaching-kids-programming-divide-and-conquer-algorithm-explained/) | 2021-10-23 |
 | Divide and Conquer Algorithm to Find Longest Substring with Character Count of at Least K | 分而治之算法查找每个字符至少出现K次的最长子串 | [Youtube](https://youtu.be/oUk6vtm5mRg) - [B站](https://www.bilibili.com/video/BV1Wv411w769/) | [Divide and Conquer Algorithm to Find Longest Substring with Character Count of at Least K](https://helloacm.com/teaching-kids-programming-divide-and-conquer-algorithm-to-find-longest-substring-with-character-count-of-at-least-k/) | 2021-09-12 |
 
 ## Sliding Window 滑动窗口
