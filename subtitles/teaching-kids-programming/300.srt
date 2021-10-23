@@ -1,0 +1,3328 @@
+1
+00:00:05,839 --> 00:00:10,480
+okay so remember a few uh months or
+
+2
+00:00:08,639 --> 00:00:13,920
+maybe several months ago we talked about
+
+3
+00:00:10,480 --> 00:00:16,480
+a game jump game right
+
+4
+00:00:13,920 --> 00:00:16,480
+an array
+
+5
+00:00:19,119 --> 00:00:23,119
+so each number your position i didn't
+
+6
+00:00:21,199 --> 00:00:25,359
+remember anything about the jump game
+
+7
+00:00:23,119 --> 00:00:27,680
+look at this number means that the first
+
+8
+00:00:25,359 --> 00:00:30,400
+distance you can jump look two you can
+
+9
+00:00:27,680 --> 00:00:32,880
+jump two one two right
+
+10
+00:00:30,400 --> 00:00:34,719
+yeah one you can jump one a few months
+
+11
+00:00:32,880 --> 00:00:36,480
+ago we talked about non-similar problems
+
+12
+00:00:34,719 --> 00:00:37,440
+which you can jump backwards
+
+13
+00:00:36,480 --> 00:00:39,440
+right
+
+14
+00:00:37,440 --> 00:00:41,360
+but now today this problem is a bit
+
+15
+00:00:39,440 --> 00:00:43,920
+little bit simpler so yeah
+
+16
+00:00:41,360 --> 00:00:46,000
+at the beginning you are here yes that's
+
+17
+00:00:43,920 --> 00:00:48,640
+you
+
+18
+00:00:46,000 --> 00:00:51,039
+i'm naked no naked
+
+19
+00:00:48,640 --> 00:00:53,920
+with some dress okay
+
+20
+00:00:51,039 --> 00:00:55,680
+okay so two it means like the next one
+
+21
+00:00:53,920 --> 00:00:58,800
+the phone is distance you can jump is
+
+22
+00:00:55,680 --> 00:01:00,160
+here right yeah one hey guys i got some
+
+23
+00:00:58,800 --> 00:01:02,160
+mayfield
+
+24
+00:01:00,160 --> 00:01:04,400
+okay so now you're here
+
+25
+00:01:02,160 --> 00:01:06,479
+so now you can jump one to the
+
+26
+00:01:04,400 --> 00:01:08,240
+to the front so here
+
+27
+00:01:06,479 --> 00:01:10,799
+and then you can jump one to the front
+
+28
+00:01:08,240 --> 00:01:12,479
+so here so the question becomes whether
+
+29
+00:01:10,799 --> 00:01:15,520
+you can jump from the beginning to the
+
+30
+00:01:12,479 --> 00:01:15,520
+end okay
+
+31
+00:01:17,119 --> 00:01:22,159
+yeah does it make sense okay this is not
+
+32
+00:01:19,520 --> 00:01:25,759
+drawing lesson come on let's not join
+
+33
+00:01:22,159 --> 00:01:28,000
+the scene what you drawing
+
+34
+00:01:25,759 --> 00:01:30,799
+what's that a cat cat cat okay what's
+
+35
+00:01:28,000 --> 00:01:33,280
+this oh that's a nice cute cat
+
+36
+00:01:30,799 --> 00:01:35,600
+so okay i repeat my question okay so
+
+37
+00:01:33,280 --> 00:01:38,400
+you're at at the beginning yes and the
+
+38
+00:01:35,600 --> 00:01:40,880
+number becomes means that the maximum
+
+39
+00:01:38,400 --> 00:01:42,479
+distance you will jump forward only so
+
+40
+00:01:40,880 --> 00:01:43,680
+two means that you can jump forward to
+
+41
+00:01:42,479 --> 00:01:45,840
+here right
+
+42
+00:01:43,680 --> 00:01:47,680
+yeah yeah one means you can jump here
+
+43
+00:01:45,840 --> 00:01:49,040
+and one you will jump here so you can
+
+44
+00:01:47,680 --> 00:01:51,759
+jump from the philippines i can't reach
+
+45
+00:01:49,040 --> 00:01:53,520
+the end properly you turn me fast or if
+
+46
+00:01:51,759 --> 00:01:56,000
+you can jump you'll tell me true if you
+
+47
+00:01:53,520 --> 00:01:56,880
+come jump send me five got it i tell you
+
+48
+00:01:56,000 --> 00:01:59,119
+two
+
+49
+00:01:56,880 --> 00:02:00,000
+okay another question another here look
+
+50
+00:01:59,119 --> 00:02:03,840
+two
+
+51
+00:02:00,000 --> 00:02:05,520
+one one zero zero four can you jump from
+
+52
+00:02:03,840 --> 00:02:09,719
+the beginning to the end
+
+53
+00:02:05,520 --> 00:02:09,719
+uh two one
+
+54
+00:02:14,720 --> 00:02:19,440
+it means it stays still right you come
+
+55
+00:02:16,879 --> 00:02:21,920
+jump forward right okay so let's do
+
+56
+00:02:19,440 --> 00:02:24,000
+maximum here one here you can only jump
+
+57
+00:02:21,920 --> 00:02:25,920
+the fullest distance you can jump at at
+
+58
+00:02:24,000 --> 00:02:27,760
+this point and now you're stuck with
+
+59
+00:02:25,920 --> 00:02:28,800
+here because you can't jump forward
+
+60
+00:02:27,760 --> 00:02:31,040
+right
+
+61
+00:02:28,800 --> 00:02:33,200
+yes i need any idea we are solving this
+
+62
+00:02:31,040 --> 00:02:35,360
+problem i know quite a lot of
+
+63
+00:02:33,200 --> 00:02:36,959
+algorithm we can solve we can
+
+64
+00:02:35,360 --> 00:02:38,640
+you know what kind of algorithm do we
+
+65
+00:02:36,959 --> 00:02:40,879
+think because we look at this is kind of
+
+66
+00:02:38,640 --> 00:02:43,280
+like uh what kind of arguments the
+
+67
+00:02:40,879 --> 00:02:44,879
+search right so what kind of search we
+
+68
+00:02:43,280 --> 00:02:46,720
+can do
+
+69
+00:02:44,879 --> 00:02:50,480
+what kind of studies we can do
+
+70
+00:02:46,720 --> 00:02:52,480
+oh we can do previously we talked
+
+71
+00:02:50,480 --> 00:02:54,560
+yeah remember a few days a few months
+
+72
+00:02:52,480 --> 00:02:56,800
+ago the problem becomes that f3 you can
+
+73
+00:02:54,560 --> 00:02:59,360
+jump forward or backward right two
+
+74
+00:02:56,800 --> 00:03:01,280
+directions and then i learn time we use
+
+75
+00:02:59,360 --> 00:03:03,280
+the different search preferences right
+
+76
+00:03:01,280 --> 00:03:05,360
+this is the simple version of that so
+
+77
+00:03:03,280 --> 00:03:07,760
+obviously we cannot still use the def
+
+78
+00:03:05,360 --> 00:03:09,120
+research or we can still use the best
+
+79
+00:03:07,760 --> 00:03:10,080
+research right
+
+80
+00:03:09,120 --> 00:03:11,680
+right
+
+81
+00:03:10,080 --> 00:03:13,680
+yeah
+
+82
+00:03:11,680 --> 00:03:16,720
+yeah make sense
+
+83
+00:03:13,680 --> 00:03:20,480
+ryan you're busy are you finished here
+
+84
+00:03:16,720 --> 00:03:24,480
+what's this that's the electrode and
+
+85
+00:03:20,480 --> 00:03:27,120
+what's this snorlax what's this tatter
+
+86
+00:03:24,480 --> 00:03:28,480
+okay i have no idea why these drawers
+
+87
+00:03:27,120 --> 00:03:30,000
+okay so definitely
+
+88
+00:03:28,480 --> 00:03:30,840
+search yeah
+
+89
+00:03:30,000 --> 00:03:33,280
+in this
+
+90
+00:03:30,840 --> 00:03:35,200
+case how can we test research
+
+91
+00:03:33,280 --> 00:03:37,920
+how can we develop
+
+92
+00:03:35,200 --> 00:03:40,799
+and we can um yes
+
+93
+00:03:37,920 --> 00:03:42,879
+so we we just can move along
+
+94
+00:03:40,799 --> 00:03:44,959
+something look at here right
+
+95
+00:03:42,879 --> 00:03:47,360
+here too right
+
+96
+00:03:44,959 --> 00:03:49,680
+so the next one i can jump is three and
+
+97
+00:03:47,360 --> 00:03:52,319
+one right yeah so i can jump to the
+
+98
+00:03:49,680 --> 00:03:54,560
+three or i can jump to the one
+
+99
+00:03:52,319 --> 00:03:56,799
+right if i jump to the three i can jumps
+
+100
+00:03:54,560 --> 00:03:57,760
+to the one one four
+
+101
+00:03:56,799 --> 00:03:59,040
+one
+
+102
+00:03:57,760 --> 00:04:01,360
+one four
+
+103
+00:03:59,040 --> 00:04:02,239
+if i jump for one i can jump to one
+
+104
+00:04:01,360 --> 00:04:05,280
+right
+
+105
+00:04:02,239 --> 00:04:07,680
+right okay am i right do you get taken
+
+106
+00:04:05,280 --> 00:04:09,200
+do you get this we expand uh
+
+107
+00:04:07,680 --> 00:04:11,280
+we explain
+
+108
+00:04:09,200 --> 00:04:13,360
+three search trees we are different
+
+109
+00:04:11,280 --> 00:04:16,479
+search right we different search
+
+110
+00:04:13,360 --> 00:04:18,000
+look and the one next one one okay so do
+
+111
+00:04:16,479 --> 00:04:20,239
+you notice there's a diff there's a
+
+112
+00:04:18,000 --> 00:04:23,440
+problem here what what is that
+
+113
+00:04:20,239 --> 00:04:26,800
+there's some some places we have visited
+
+114
+00:04:23,440 --> 00:04:29,120
+you know many many times right okay
+
+115
+00:04:26,800 --> 00:04:30,400
+yeah i know we can do some one simple
+
+116
+00:04:29,120 --> 00:04:32,800
+solutions to
+
+117
+00:04:30,400 --> 00:04:35,040
+make sure we don't calculate it over and
+
+118
+00:04:32,800 --> 00:04:36,400
+over again what keyword is that
+
+119
+00:04:35,040 --> 00:04:39,280
+okay um
+
+120
+00:04:36,400 --> 00:04:41,199
+dynamic dynamic programming dynamic
+
+121
+00:04:39,280 --> 00:04:44,160
+programming and especially we use the
+
+122
+00:04:41,199 --> 00:04:44,160
+keyword add
+
+123
+00:04:44,240 --> 00:04:48,800
+cash we're down cash to cash with me
+
+124
+00:04:46,639 --> 00:04:52,080
+yeah yeah yeah about cash i need you
+
+125
+00:04:48,800 --> 00:04:54,320
+with cash it's cash okay cash okay okay
+
+126
+00:04:52,080 --> 00:04:56,479
+let's try this stuff for search okay if
+
+127
+00:04:54,320 --> 00:04:58,720
+we don't put a cache it becomes like a
+
+128
+00:04:56,479 --> 00:04:59,919
+backtracking right we jump backtracking
+
+129
+00:04:58,720 --> 00:05:02,160
+we go
+
+130
+00:04:59,919 --> 00:05:04,880
+but so we have this we have the kind of
+
+131
+00:05:02,160 --> 00:05:06,800
+position now which start to jump as
+
+132
+00:05:04,880 --> 00:05:08,240
+furthest as possible along this way and
+
+133
+00:05:06,800 --> 00:05:10,400
+then if we come jump we just start
+
+134
+00:05:08,240 --> 00:05:12,880
+checking to the one and if we put a
+
+135
+00:05:10,400 --> 00:05:14,160
+cache right look why do we need a cache
+
+136
+00:05:12,880 --> 00:05:16,240
+look three
+
+137
+00:05:14,160 --> 00:05:18,960
+three here the next one will be one one
+
+138
+00:05:16,240 --> 00:05:19,840
+right these two yeah look two
+
+139
+00:05:18,960 --> 00:05:21,600
+one
+
+140
+00:05:19,840 --> 00:05:23,600
+so this one look
+
+141
+00:05:21,600 --> 00:05:26,560
+this one
+
+142
+00:05:23,600 --> 00:05:29,600
+all right look this one this one here
+
+143
+00:05:26,560 --> 00:05:30,400
+all right it's the same as this one
+
+144
+00:05:29,600 --> 00:05:31,919
+right
+
+145
+00:05:30,400 --> 00:05:34,160
+so what does it mean
+
+146
+00:05:31,919 --> 00:05:36,400
+so this this substrate
+
+147
+00:05:34,160 --> 00:05:38,880
+is the same as this substrate
+
+148
+00:05:36,400 --> 00:05:40,960
+so that's a duplication right if we
+
+149
+00:05:38,880 --> 00:05:43,280
+don't put the cache the compressive will
+
+150
+00:05:40,960 --> 00:05:45,520
+be exponential because we're over
+
+151
+00:05:43,280 --> 00:05:47,120
+calculating repeating repeatedly
+
+152
+00:05:45,520 --> 00:05:49,280
+calculating the same thing over and over
+
+153
+00:05:47,120 --> 00:05:51,520
+again that's why we put a cache right
+
+154
+00:05:49,280 --> 00:05:53,919
+put a cache that means that it's also a
+
+155
+00:05:51,520 --> 00:05:55,440
+kind of top-down dynamic programming
+
+156
+00:05:53,919 --> 00:05:58,319
+right top-down
+
+157
+00:05:55,440 --> 00:06:00,639
+yeah top-down top-down
+
+158
+00:05:58,319 --> 00:06:03,039
+dynamic programming
+
+159
+00:06:00,639 --> 00:06:04,319
+it's also we can we can implement with
+
+160
+00:06:03,039 --> 00:06:06,720
+recursion
+
+161
+00:06:04,319 --> 00:06:07,520
+with cache which is called minimization
+
+162
+00:06:06,720 --> 00:06:10,000
+yeah
+
+163
+00:06:07,520 --> 00:06:12,160
+okay yeah okay
+
+164
+00:06:10,000 --> 00:06:15,280
+okay let's implement this first okay
+
+165
+00:06:12,160 --> 00:06:18,080
+preferences we skip it today but
+
+166
+00:06:15,280 --> 00:06:21,919
+it's quite simple yeah so i just
+
+167
+00:06:18,080 --> 00:06:23,759
+i just give this idea again okay two
+
+168
+00:06:21,919 --> 00:06:25,120
+i can go to three and one i travel over
+
+169
+00:06:23,759 --> 00:06:26,319
+three and one right
+
+170
+00:06:25,120 --> 00:06:28,880
+three
+
+171
+00:06:26,319 --> 00:06:32,000
+i can travel one one four right you see
+
+172
+00:06:28,880 --> 00:06:34,000
+i visited this level by level right yeah
+
+173
+00:06:32,000 --> 00:06:37,120
+level by level
+
+174
+00:06:34,000 --> 00:06:39,680
+okay so let's do it
+
+175
+00:06:37,120 --> 00:06:40,800
+okay i need i need it i need these two
+
+176
+00:06:39,680 --> 00:06:43,120
+ready
+
+177
+00:06:40,800 --> 00:06:45,120
+oh okay
+
+178
+00:06:43,120 --> 00:06:47,520
+i haven't just finished all right that's
+
+179
+00:06:45,120 --> 00:06:47,520
+you're true
+
+180
+00:07:03,520 --> 00:07:08,080
+oh my god i need i need a
+
+181
+00:07:05,599 --> 00:07:11,919
+i need a tissue because it's so
+
+182
+00:07:08,080 --> 00:07:15,479
+so dry okay excuse me a second okay
+
+183
+00:07:11,919 --> 00:07:15,479
+excuse me
+
+184
+00:07:18,400 --> 00:07:23,520
+too noisy come on guys too noisy okay so
+
+185
+00:07:21,759 --> 00:07:25,759
+daddy is going to draw
+
+186
+00:07:23,520 --> 00:07:26,420
+the uh
+
+187
+00:07:25,759 --> 00:07:27,919
+that's it
+
+188
+00:07:26,420 --> 00:07:31,759
+[Music]
+
+189
+00:07:27,919 --> 00:07:34,560
+oh sorry can you sit there please
+
+190
+00:07:31,759 --> 00:07:36,880
+super out can you not touch the camera
+
+191
+00:07:34,560 --> 00:07:39,039
+it's shaking people will feel dizzy okay
+
+192
+00:07:36,880 --> 00:07:41,199
+i didn't shake the camera
+
+193
+00:07:39,039 --> 00:07:45,039
+before i did
+
+194
+00:07:41,199 --> 00:07:46,240
+if i okay i need probably neither
+
+195
+00:07:45,039 --> 00:07:50,240
+defect
+
+196
+00:07:46,240 --> 00:07:50,240
+oh i lost i think i lost it
+
+197
+00:07:51,039 --> 00:07:56,360
+so define that first yeah you find that
+
+198
+00:07:53,360 --> 00:07:56,360
+research
+
+199
+00:08:04,879 --> 00:08:08,240
+so look uh
+
+200
+00:08:06,639 --> 00:08:10,479
+actually let's jump let's put in the
+
+201
+00:08:08,240 --> 00:08:11,680
+jump here jump break
+
+202
+00:08:10,479 --> 00:08:12,639
+jump
+
+203
+00:08:11,680 --> 00:08:15,199
+okay
+
+204
+00:08:12,639 --> 00:08:17,599
+what you doing here earthquake
+
+205
+00:08:15,199 --> 00:08:19,599
+okay jump jump let's say uh we have
+
+206
+00:08:17,599 --> 00:08:21,360
+numbers here
+
+207
+00:08:19,599 --> 00:08:23,440
+okay so now
+
+208
+00:08:21,360 --> 00:08:25,199
+first of all we we know that this uh
+
+209
+00:08:23,440 --> 00:08:27,599
+there's how many numbers in the lens in
+
+210
+00:08:25,199 --> 00:08:29,280
+the numbers right and then we do a d
+
+211
+00:08:27,599 --> 00:08:30,479
+therefore
+
+212
+00:08:29,280 --> 00:08:32,320
+dfs
+
+213
+00:08:30,479 --> 00:08:33,120
+now we are in current position current
+
+214
+00:08:32,320 --> 00:08:35,200
+right
+
+215
+00:08:33,120 --> 00:08:37,200
+so i will feel i will start feeding this
+
+216
+00:08:35,200 --> 00:08:40,240
+function look
+
+217
+00:08:37,200 --> 00:08:43,120
+and all i need to do is return
+
+218
+00:08:40,240 --> 00:08:45,600
+return d f s zero yeah because we start
+
+219
+00:08:43,120 --> 00:08:47,200
+at the as a zero right
+
+220
+00:08:45,600 --> 00:08:50,399
+right
+
+221
+00:08:47,200 --> 00:08:52,720
+yeah so now look
+
+222
+00:08:50,399 --> 00:08:54,080
+now look what
+
+223
+00:08:52,720 --> 00:08:55,760
+what should we do with the default
+
+224
+00:08:54,080 --> 00:08:58,080
+search so at the beginning what should
+
+225
+00:08:55,760 --> 00:08:58,080
+we do
+
+226
+00:09:00,240 --> 00:09:06,480
+so look if this current position is
+
+227
+00:09:03,519 --> 00:09:09,440
+bigger or equal the n right so it means
+
+228
+00:09:06,480 --> 00:09:11,920
+that we already we know it's already up
+
+229
+00:09:09,440 --> 00:09:13,680
+you know we can reach the end right
+
+230
+00:09:11,920 --> 00:09:16,399
+all right yeah we can reach to the end
+
+231
+00:09:13,680 --> 00:09:18,640
+so we do turn on
+
+232
+00:09:16,399 --> 00:09:21,279
+come on we can reach to the end
+
+233
+00:09:18,640 --> 00:09:21,279
+we return
+
+234
+00:09:21,360 --> 00:09:25,120
+come on the binary
+
+235
+00:09:23,440 --> 00:09:26,880
+yes or no
+
+236
+00:09:25,120 --> 00:09:29,200
+we can reach the end
+
+237
+00:09:26,880 --> 00:09:30,000
+yes yeah true right
+
+238
+00:09:29,200 --> 00:09:31,920
+now
+
+239
+00:09:30,000 --> 00:09:33,279
+we are current right so we can do this
+
+240
+00:09:31,920 --> 00:09:34,240
+for
+
+241
+00:09:33,279 --> 00:09:35,120
+i
+
+242
+00:09:34,240 --> 00:09:37,279
+in
+
+243
+00:09:35,120 --> 00:09:38,160
+range
+
+244
+00:09:37,279 --> 00:09:39,760
+range
+
+245
+00:09:38,160 --> 00:09:42,480
+range
+
+246
+00:09:39,760 --> 00:09:44,720
+range we we start from
+
+247
+00:09:42,480 --> 00:09:47,360
+we start from one
+
+248
+00:09:44,720 --> 00:09:50,800
+and to the current current
+
+249
+00:09:47,360 --> 00:09:53,040
+lam's current right none is current
+
+250
+00:09:50,800 --> 00:09:54,560
+plus one right because we can jump from
+
+251
+00:09:53,040 --> 00:09:56,880
+we can
+
+252
+00:09:54,560 --> 00:09:59,360
+from current position we can jump one
+
+253
+00:09:56,880 --> 00:10:01,839
+step forward two steps of our anterior
+
+254
+00:09:59,360 --> 00:10:03,360
+alarms current position right and then
+
+255
+00:10:01,839 --> 00:10:06,560
+now look what
+
+256
+00:10:03,360 --> 00:10:09,279
+uh but obviously if this is over the
+
+257
+00:10:06,560 --> 00:10:11,839
+boundary we need to restrict this and uh
+
+258
+00:10:09,279 --> 00:10:14,160
+to the to the boundary so we will
+
+259
+00:10:11,839 --> 00:10:17,279
+replace this with mean
+
+260
+00:10:14,160 --> 00:10:21,760
+mean n and this number right
+
+261
+00:10:17,279 --> 00:10:21,760
+and now we can just say if dfs
+
+262
+00:10:21,839 --> 00:10:25,519
+i right plus
+
+263
+00:10:24,240 --> 00:10:28,160
+nums
+
+264
+00:10:25,519 --> 00:10:30,320
+all right look this is a d of s
+
+265
+00:10:28,160 --> 00:10:33,200
+if we can from this current position
+
+266
+00:10:30,320 --> 00:10:36,560
+don't work here and there this
+
+267
+00:10:33,200 --> 00:10:38,399
+this is the current position and
+
+268
+00:10:36,560 --> 00:10:40,720
+dude
+
+269
+00:10:38,399 --> 00:10:42,399
+uh actually no actually it's current
+
+270
+00:10:40,720 --> 00:10:44,800
+because we are current right we are
+
+271
+00:10:42,399 --> 00:10:46,800
+current okay we are current and if we
+
+272
+00:10:44,800 --> 00:10:48,880
+can jump
+
+273
+00:10:46,800 --> 00:10:51,760
+this step and we can jump to the end and
+
+274
+00:10:48,880 --> 00:10:51,760
+we return one
+
+275
+00:10:52,079 --> 00:10:54,399
+come on
+
+276
+00:10:54,560 --> 00:10:59,680
+we can jump to the end by
+
+277
+00:10:57,680 --> 00:11:01,600
+two and then otherwise if i can't find
+
+278
+00:10:59,680 --> 00:11:03,839
+the return
+
+279
+00:11:01,600 --> 00:11:05,680
+this is the default search yeah
+
+280
+00:11:03,839 --> 00:11:07,040
+okay so what's the time complexity of
+
+281
+00:11:05,680 --> 00:11:09,839
+this implementation what's the time
+
+282
+00:11:07,040 --> 00:11:12,910
+constitute of this implementation
+
+283
+00:11:09,839 --> 00:11:14,560
+what's the time complexity
+
+284
+00:11:12,910 --> 00:11:15,760
+[Music]
+
+285
+00:11:14,560 --> 00:11:18,160
+yeah what's the terms and practices of
+
+286
+00:11:15,760 --> 00:11:20,959
+this implementation come on backtracking
+
+287
+00:11:18,160 --> 00:11:23,120
+actually this is the best working moment
+
+288
+00:11:20,959 --> 00:11:24,480
+come on remember
+
+289
+00:11:23,120 --> 00:11:25,920
+look i'm here
+
+290
+00:11:24,480 --> 00:11:28,399
+i'm here look
+
+291
+00:11:25,920 --> 00:11:31,600
+uh please position look
+
+292
+00:11:28,399 --> 00:11:33,920
+one one one look the worst case yeah the
+
+293
+00:11:31,600 --> 00:11:35,600
+worst case is all one right yeah so here
+
+294
+00:11:33,920 --> 00:11:38,160
+i can jump to this
+
+295
+00:11:35,600 --> 00:11:41,040
+and here i can jump to this right yeah
+
+296
+00:11:38,160 --> 00:11:43,920
+or two two or two maybe two is better
+
+297
+00:11:41,040 --> 00:11:46,640
+look one two two from here i can jump to
+
+298
+00:11:43,920 --> 00:11:48,800
+this point and this one right from here
+
+299
+00:11:46,640 --> 00:11:50,800
+i can jump here and then here
+
+300
+00:11:48,800 --> 00:11:53,600
+right from here i can jump here and here
+
+301
+00:11:50,800 --> 00:11:56,160
+right so every time i jump i look this
+
+302
+00:11:53,600 --> 00:11:56,160
+is jumping
+
+303
+00:12:06,560 --> 00:12:11,839
+look every time look here
+
+304
+00:12:09,120 --> 00:12:13,279
+i can jump here and here
+
+305
+00:12:11,839 --> 00:12:14,240
+and here i can jump here and here
+
+306
+00:12:13,279 --> 00:12:16,079
+remember
+
+307
+00:12:14,240 --> 00:12:18,480
+every time i can expand into two what's
+
+308
+00:12:16,079 --> 00:12:20,639
+your time convexity
+
+309
+00:12:18,480 --> 00:12:22,160
+no really
+
+310
+00:12:20,639 --> 00:12:24,240
+no no no
+
+311
+00:12:22,160 --> 00:12:28,240
+you need to think not not not i'm
+
+312
+00:12:24,240 --> 00:12:30,880
+thinking okay okay i'm saying that
+
+313
+00:12:28,240 --> 00:12:32,639
+at each position i can expand to two and
+
+314
+00:12:30,880 --> 00:12:35,580
+each partition i can explain it to so
+
+315
+00:12:32,639 --> 00:12:37,200
+how many of the ways of doing that
+
+316
+00:12:35,580 --> 00:12:39,040
+[Music]
+
+317
+00:12:37,200 --> 00:12:41,680
+how many ways until you make there and
+
+318
+00:12:39,040 --> 00:12:43,920
+there and here yeah so look
+
+319
+00:12:41,680 --> 00:12:45,920
+each one i can explain look each one i
+
+320
+00:12:43,920 --> 00:12:47,040
+can explain to two
+
+321
+00:12:45,920 --> 00:12:49,920
+yeah
+
+322
+00:12:47,040 --> 00:12:52,240
+so what's how many of these are there
+
+323
+00:12:49,920 --> 00:12:54,160
+how many of these are there it's
+
+324
+00:12:52,240 --> 00:12:55,839
+exponential what can you think of
+
+325
+00:12:54,160 --> 00:12:57,760
+exponential one
+
+326
+00:12:55,839 --> 00:13:01,680
+oh okay remember
+
+327
+00:12:57,760 --> 00:13:03,440
+oh that two to the power of one
+
+328
+00:13:01,680 --> 00:13:04,320
+to the power one come on
+
+329
+00:13:03,440 --> 00:13:07,519
+yeah
+
+330
+00:13:04,320 --> 00:13:10,000
+yeah understand so that's that's bad we
+
+331
+00:13:07,519 --> 00:13:12,639
+want to avoid why is that i i told you
+
+332
+00:13:10,000 --> 00:13:14,480
+before look because these sub trees we
+
+333
+00:13:12,639 --> 00:13:16,399
+kept calculating over and over again
+
+334
+00:13:14,480 --> 00:13:17,920
+look two to the two here
+
+335
+00:13:16,399 --> 00:13:20,399
+right
+
+336
+00:13:17,920 --> 00:13:23,040
+and then here from look
+
+337
+00:13:20,399 --> 00:13:25,120
+do i jump i can you look at me if you
+
+338
+00:13:23,040 --> 00:13:27,839
+don't look at me you don't understand
+
+339
+00:13:25,120 --> 00:13:30,240
+look two i can jump from here and here
+
+340
+00:13:27,839 --> 00:13:31,440
+and two i can jump here and here look at
+
+341
+00:13:30,240 --> 00:13:34,920
+these two
+
+342
+00:13:31,440 --> 00:13:34,920
+look at these two
+
+343
+00:13:35,839 --> 00:13:39,600
+it's
+
+344
+00:13:37,200 --> 00:13:40,959
+if i calculate from this point
+
+345
+00:13:39,600 --> 00:13:42,959
+i jump here
+
+346
+00:13:40,959 --> 00:13:44,639
+but again from this point
+
+347
+00:13:42,959 --> 00:13:47,040
+again jump here the second time i don't
+
+348
+00:13:44,639 --> 00:13:49,360
+need to calculate it again it's like
+
+349
+00:13:47,040 --> 00:13:51,680
+fibonacci number right it's like simple
+
+350
+00:13:49,360 --> 00:13:53,440
+natural number f5
+
+351
+00:13:51,680 --> 00:13:56,160
+equals f4
+
+352
+00:13:53,440 --> 00:14:00,000
+plus f3 right look
+
+353
+00:13:56,160 --> 00:14:03,839
+f4 equals f4 f3 plus f2
+
+354
+00:14:00,000 --> 00:14:05,440
+you see the problem f3 equals f2 plus f1
+
+355
+00:14:03,839 --> 00:14:08,000
+you see the problem
+
+356
+00:14:05,440 --> 00:14:11,440
+you see the problem f3
+
+357
+00:14:08,000 --> 00:14:14,000
+repeated calculating right f2
+
+358
+00:14:11,440 --> 00:14:16,720
+yeah so if we don't put a cash in
+
+359
+00:14:14,000 --> 00:14:19,360
+in in a fibonacci number the time
+
+360
+00:14:16,720 --> 00:14:21,680
+complexity is exponential it's the same
+
+361
+00:14:19,360 --> 00:14:23,440
+here backtracking so what we did how do
+
+362
+00:14:21,680 --> 00:14:25,360
+we fix it
+
+363
+00:14:23,440 --> 00:14:27,920
+how do we fix it
+
+364
+00:14:25,360 --> 00:14:29,120
+dynamic programming the easiest way to
+
+365
+00:14:27,920 --> 00:14:31,920
+learn the programming how do we fix it
+
+366
+00:14:29,120 --> 00:14:33,440
+remember the cut the the values top down
+
+367
+00:14:31,920 --> 00:14:35,670
+remember the value how do we remember
+
+368
+00:14:33,440 --> 00:14:37,120
+the values
+
+369
+00:14:35,670 --> 00:14:39,040
+[Music]
+
+370
+00:14:37,120 --> 00:14:42,880
+brian has said it before what's the
+
+371
+00:14:39,040 --> 00:14:44,399
+keyword cash cash cash yeah cash we
+
+372
+00:14:42,880 --> 00:14:46,720
+remember it so
+
+373
+00:14:44,399 --> 00:14:48,560
+every current every current if you
+
+374
+00:14:46,720 --> 00:14:51,920
+visited it
+
+375
+00:14:48,560 --> 00:14:52,880
+we saw it so it doesn't take anything
+
+376
+00:14:51,920 --> 00:14:55,120
+but
+
+377
+00:14:52,880 --> 00:14:57,199
+who who can use this value who wants to
+
+378
+00:14:55,120 --> 00:14:59,680
+use the value that could be
+
+379
+00:14:57,199 --> 00:15:01,760
+other there could be n values in front
+
+380
+00:14:59,680 --> 00:15:04,160
+of it needs to use this value so let's
+
+381
+00:15:01,760 --> 00:15:06,320
+let's overall these time complexes all n
+
+382
+00:15:04,160 --> 00:15:08,880
+square okay okay we said that when
+
+383
+00:15:06,320 --> 00:15:11,199
+square without the cash
+
+384
+00:15:08,880 --> 00:15:14,079
+we can we sketch it's owen square
+
+385
+00:15:11,199 --> 00:15:15,839
+without the cash is exponential okay
+
+386
+00:15:14,079 --> 00:15:18,079
+and i understand this is a bit too
+
+387
+00:15:15,839 --> 00:15:21,279
+difficult to you so now i'm not going to
+
+388
+00:15:18,079 --> 00:15:25,880
+ask you any complexity time to messy
+
+389
+00:15:21,279 --> 00:15:25,880
+yeah if you don't understand this right
+
+390
+00:15:26,000 --> 00:15:31,680
+this is definite search right
+
+391
+00:15:29,519 --> 00:15:33,839
+how about we we can solve it this is
+
+392
+00:15:31,680 --> 00:15:35,920
+top-down programming we can solve it we
+
+393
+00:15:33,839 --> 00:15:36,800
+spotted up dynamic programming right
+
+394
+00:15:35,920 --> 00:15:40,160
+yeah
+
+395
+00:15:36,800 --> 00:15:40,160
+but remember what's better
+
+396
+00:15:45,120 --> 00:15:49,600
+fibonacci number every time we said
+
+397
+00:15:48,000 --> 00:15:51,600
+about top down and butter out you can
+
+398
+00:15:49,600 --> 00:15:53,120
+always remind yourself with the
+
+399
+00:15:51,600 --> 00:15:55,600
+fibonacci number because that's the
+
+400
+00:15:53,120 --> 00:15:57,279
+easiest problem you can think of using
+
+401
+00:15:55,600 --> 00:16:00,959
+the top down and bottom of the number
+
+402
+00:15:57,279 --> 00:16:05,440
+formula right look f3 equals
+
+403
+00:16:00,959 --> 00:16:07,600
+look fn right equals fn minus 1 plus fm
+
+404
+00:16:05,440 --> 00:16:10,320
+minus 2 right this is the top down this
+
+405
+00:16:07,600 --> 00:16:12,480
+is a fibonacci number right yeah top
+
+406
+00:16:10,320 --> 00:16:14,160
+down you're calculating f of n and you
+
+407
+00:16:12,480 --> 00:16:15,920
+need to calculate that in
+
+408
+00:16:14,160 --> 00:16:17,680
+f and minus minus two and then we use
+
+409
+00:16:15,920 --> 00:16:20,000
+the catch this is expanding to the tree
+
+410
+00:16:17,680 --> 00:16:20,800
+right look three
+
+411
+00:16:20,000 --> 00:16:23,199
+two
+
+412
+00:16:20,800 --> 00:16:24,959
+one and then one zero right
+
+413
+00:16:23,199 --> 00:16:26,399
+so top down is this way you want to
+
+414
+00:16:24,959 --> 00:16:27,680
+calculate f3
+
+415
+00:16:26,399 --> 00:16:29,600
+you want to call it the left side you
+
+416
+00:16:27,680 --> 00:16:31,279
+need to calculate f2 and f1 if you go to
+
+417
+00:16:29,600 --> 00:16:33,759
+f2 you need to carry every one zero
+
+418
+00:16:31,279 --> 00:16:34,560
+right bottom up is this our way this way
+
+419
+00:16:33,759 --> 00:16:38,639
+around
+
+420
+00:16:34,560 --> 00:16:41,120
+we to f 0 f 1 f 2 f 3 so right we
+
+421
+00:16:38,639 --> 00:16:42,240
+calculate this this way so we start with
+
+422
+00:16:41,120 --> 00:16:45,680
+f 0
+
+423
+00:16:42,240 --> 00:16:48,160
+f 1 and f 2 this way so this is
+
+424
+00:16:45,680 --> 00:16:49,360
+top bottom right the same
+
+425
+00:16:48,160 --> 00:16:50,959
+so look
+
+426
+00:16:49,360 --> 00:16:52,959
+this dfs
+
+427
+00:16:50,959 --> 00:16:54,560
+current this is the function to tell if
+
+428
+00:16:52,959 --> 00:16:56,959
+we can visit it
+
+429
+00:16:54,560 --> 00:16:57,920
+if we can jump from the current to the
+
+430
+00:16:56,959 --> 00:16:59,279
+end right
+
+431
+00:16:57,920 --> 00:17:01,600
+so so
+
+432
+00:16:59,279 --> 00:17:03,920
+so we can create a
+
+433
+00:17:01,600 --> 00:17:06,880
+function uh an array and to do this
+
+434
+00:17:03,920 --> 00:17:09,679
+product feeling the values right
+
+435
+00:17:06,880 --> 00:17:09,679
+right next to this
+
+436
+00:17:17,360 --> 00:17:21,439
+probably need a better eraser
+
+437
+00:17:26,480 --> 00:17:30,799
+so let's say
+
+438
+00:17:27,919 --> 00:17:32,720
+this dp equals
+
+439
+00:17:30,799 --> 00:17:34,559
+at the beginning they can't be reached
+
+440
+00:17:32,720 --> 00:17:37,120
+from the end we set it to false right
+
+441
+00:17:34,559 --> 00:17:38,640
+and initial state is false right
+
+442
+00:17:37,120 --> 00:17:40,000
+force times
+
+443
+00:17:38,640 --> 00:17:40,799
+n
+
+444
+00:17:40,000 --> 00:17:41,919
+right
+
+445
+00:17:40,799 --> 00:17:43,600
+but we
+
+446
+00:17:41,919 --> 00:17:45,679
+and the last point
+
+447
+00:17:43,600 --> 00:17:47,840
+right and the last location it's true
+
+448
+00:17:45,679 --> 00:17:50,799
+right actually it's true because you are
+
+449
+00:17:47,840 --> 00:17:53,520
+already at the last location so you know
+
+450
+00:17:50,799 --> 00:17:58,720
+pp minus one is true
+
+451
+00:17:53,520 --> 00:18:01,520
+so what's tp mean dp is the dp vp zero
+
+452
+00:17:58,720 --> 00:18:03,840
+means that if we can jump
+
+453
+00:18:01,520 --> 00:18:05,679
+if we can jump from the position zero to
+
+454
+00:18:03,840 --> 00:18:08,000
+the n to the n right
+
+455
+00:18:05,679 --> 00:18:09,760
+that's what it means so and
+
+456
+00:18:08,000 --> 00:18:11,840
+the answer of this question becomes
+
+457
+00:18:09,760 --> 00:18:16,720
+return
+
+458
+00:18:11,840 --> 00:18:18,320
+d p zero right db 0 okay
+
+459
+00:18:16,720 --> 00:18:20,160
+okay so then we can start feeling the
+
+460
+00:18:18,320 --> 00:18:21,840
+value from the from the right hand side
+
+461
+00:18:20,160 --> 00:18:23,760
+to the left you know bottom right so we
+
+462
+00:18:21,840 --> 00:18:25,120
+can do this for
+
+463
+00:18:23,760 --> 00:18:26,840
+i
+
+464
+00:18:25,120 --> 00:18:29,520
+in
+
+465
+00:18:26,840 --> 00:18:31,600
+range start from the last value which is
+
+466
+00:18:29,520 --> 00:18:33,679
+n minus two because n minus one we know
+
+467
+00:18:31,600 --> 00:18:34,799
+we already know it's true right minus
+
+468
+00:18:33,679 --> 00:18:36,000
+two to
+
+469
+00:18:34,799 --> 00:18:38,480
+zero
+
+470
+00:18:36,000 --> 00:18:41,120
+every time i decrement one
+
+471
+00:18:38,480 --> 00:18:42,960
+look this is two zero yeah excuse
+
+472
+00:18:41,120 --> 00:18:45,360
+excluding the last value which is minor
+
+473
+00:18:42,960 --> 00:18:47,200
+one okay and then this is a step
+
+474
+00:18:45,360 --> 00:18:49,360
+and then now we want to just calculate
+
+475
+00:18:47,200 --> 00:18:52,640
+the reach what's the reach the first is
+
+476
+00:18:49,360 --> 00:18:55,440
+you can jump which is the minimum
+
+477
+00:18:52,640 --> 00:18:57,440
+of n
+
+478
+00:18:55,440 --> 00:18:59,120
+minus one
+
+479
+00:18:57,440 --> 00:19:02,799
+and then i
+
+480
+00:18:59,120 --> 00:19:04,160
+i i is the nums
+
+481
+00:19:02,799 --> 00:19:06,320
+nums i
+
+482
+00:19:04,160 --> 00:19:08,720
+plus
+
+483
+00:19:06,320 --> 00:19:12,080
+because you are at i position and then
+
+484
+00:19:08,720 --> 00:19:14,400
+you can jump from i to num uh to number
+
+485
+00:19:12,080 --> 00:19:16,559
+i right so we need to minus one here
+
+486
+00:19:14,400 --> 00:19:18,559
+actually i'm not quite sure let me check
+
+487
+00:19:16,559 --> 00:19:20,240
+i think uh
+
+488
+00:19:18,559 --> 00:19:22,640
+yeah you need to minus one because yeah
+
+489
+00:19:20,240 --> 00:19:24,880
+minus one is the last index i minus nums
+
+490
+00:19:22,640 --> 00:19:26,960
+i right okay
+
+491
+00:19:24,880 --> 00:19:28,640
+okay so now look this is the furthest
+
+492
+00:19:26,960 --> 00:19:30,320
+you can reach and then we can start from
+
+493
+00:19:28,640 --> 00:19:31,919
+what from
+
+494
+00:19:30,320 --> 00:19:32,799
+for j
+
+495
+00:19:31,919 --> 00:19:34,320
+in
+
+496
+00:19:32,799 --> 00:19:38,160
+range
+
+497
+00:19:34,320 --> 00:19:40,799
+we start from i plus one right to reach
+
+498
+00:19:38,160 --> 00:19:43,039
+to reach to reach plus one
+
+499
+00:19:40,799 --> 00:19:47,760
+and if
+
+500
+00:19:43,039 --> 00:19:49,760
+if dpj if db trace can reach then tpi
+
+501
+00:19:47,760 --> 00:19:51,760
+also can reach yeah this is
+
+502
+00:19:49,760 --> 00:19:54,480
+uh very important right
+
+503
+00:19:51,760 --> 00:19:55,360
+very important look all right
+
+504
+00:19:54,480 --> 00:19:58,880
+here
+
+505
+00:19:55,360 --> 00:20:02,000
+i'm here at this position if dpj
+
+506
+00:19:58,880 --> 00:20:05,760
+because i i know this dpj this is tpj
+
+507
+00:20:02,000 --> 00:20:08,480
+here dpi is here i know i can jump to j
+
+508
+00:20:05,760 --> 00:20:10,480
+so if dpj can reach to the end and dpi
+
+509
+00:20:08,480 --> 00:20:12,000
+also can reach it to the end am i right
+
+510
+00:20:10,480 --> 00:20:14,640
+does it make sense
+
+511
+00:20:12,000 --> 00:20:16,640
+is sure does it make sense
+
+512
+00:20:14,640 --> 00:20:19,600
+uh
+
+513
+00:20:16,640 --> 00:20:23,120
+i plus one reach plus one yes exactly
+
+514
+00:20:19,600 --> 00:20:25,760
+so i mean look dppj
+
+515
+00:20:23,120 --> 00:20:28,080
+means that if jt is j
+
+516
+00:20:25,760 --> 00:20:29,360
+if we are standing at j can we reach to
+
+517
+00:20:28,080 --> 00:20:32,559
+the end
+
+518
+00:20:29,360 --> 00:20:35,600
+because we know dpi can jump to tpj
+
+519
+00:20:32,559 --> 00:20:39,520
+right we know i can jump to j so if dbj
+
+520
+00:20:35,600 --> 00:20:41,120
+is true what does it mean dpi is what
+
+521
+00:20:39,520 --> 00:20:42,320
+it's true right
+
+522
+00:20:41,120 --> 00:20:43,440
+so that's what it means and then we'll
+
+523
+00:20:42,320 --> 00:20:46,159
+determine division what's the time
+
+524
+00:20:43,440 --> 00:20:48,720
+complexity for this one
+
+525
+00:20:46,159 --> 00:20:51,200
+then i'll go
+
+526
+00:20:48,720 --> 00:20:52,480
+just guess because there are two fours
+
+527
+00:20:51,200 --> 00:20:55,039
+bonus
+
+528
+00:20:52,480 --> 00:20:55,039
+two flaws
+
+529
+00:20:55,679 --> 00:21:00,400
+down easy
+
+530
+00:20:57,360 --> 00:21:03,400
+easy peasy what's the specs unrest
+
+531
+00:21:00,400 --> 00:21:03,400
+idp
+
+532
+00:21:08,640 --> 00:21:13,600
+dynamic programming okay because we have
+
+533
+00:21:11,280 --> 00:21:16,799
+we are bottling up bottom the photo is
+
+534
+00:21:13,600 --> 00:21:19,120
+on the dp n right pp and not db zero so
+
+535
+00:21:16,799 --> 00:21:20,400
+this is kind of like a tree uh you know
+
+536
+00:21:19,120 --> 00:21:22,559
+growing
+
+537
+00:21:20,400 --> 00:21:26,559
+reversely so tpj is
+
+538
+00:21:22,559 --> 00:21:28,480
+dpn minus one is the answer we want to
+
+539
+00:21:26,559 --> 00:21:30,400
+tp zero is the answer we want to know
+
+540
+00:21:28,480 --> 00:21:32,400
+and then we grow it
+
+541
+00:21:30,400 --> 00:21:33,840
+we calculating we are not taking them
+
+542
+00:21:32,400 --> 00:21:35,360
+from dbz and we taking them from the
+
+543
+00:21:33,840 --> 00:21:36,799
+universe dp
+
+544
+00:21:35,360 --> 00:21:40,880
+dpj
+
+545
+00:21:36,799 --> 00:21:43,280
+dbm minus 1 dp n minus 2 dpn minus 3
+
+546
+00:21:40,880 --> 00:21:44,480
+until we reach the db 0 okay that's the
+
+547
+00:21:43,280 --> 00:21:46,640
+bottom
+
+548
+00:21:44,480 --> 00:21:49,520
+top on top down right remember we top
+
+549
+00:21:46,640 --> 00:21:52,080
+down we return df as zero right pf is
+
+550
+00:21:49,520 --> 00:21:54,320
+zero so it's this way top down bottom is
+
+551
+00:21:52,080 --> 00:21:56,960
+this way right okay because we start
+
+552
+00:21:54,320 --> 00:21:58,799
+putting start feeding this tv minus so
+
+553
+00:21:56,960 --> 00:22:01,200
+what's tv minus one i mean
+
+554
+00:21:58,799 --> 00:22:05,440
+uh just very simple what's db minus one
+
+555
+00:22:01,200 --> 00:22:07,840
+db minus one means the fast
+
+556
+00:22:05,440 --> 00:22:10,080
+cash first or last come on
+
+557
+00:22:07,840 --> 00:22:12,480
+last tv zero is the first yeah i keep on
+
+558
+00:22:10,080 --> 00:22:15,200
+forgetting
+
+559
+00:22:12,480 --> 00:22:17,280
+0 means the first one computer the array
+
+560
+00:22:15,200 --> 00:22:19,679
+index star with the first one right
+
+561
+00:22:17,280 --> 00:22:21,760
+minus 1 the other side yeah minus 1
+
+562
+00:22:19,679 --> 00:22:24,080
+minus 2 the second to the last right
+
+563
+00:22:21,760 --> 00:22:26,480
+exactly
+
+564
+00:22:24,080 --> 00:22:27,840
+okay so now
+
+565
+00:22:26,480 --> 00:22:30,640
+can we do better because all the
+
+566
+00:22:27,840 --> 00:22:33,120
+previous two uh definite search safer
+
+567
+00:22:30,640 --> 00:22:34,799
+search uh backtracking top-down dynamic
+
+568
+00:22:33,120 --> 00:22:37,120
+programming yeah recursion is the
+
+569
+00:22:34,799 --> 00:22:39,600
+minimization and then i need spot
+
+570
+00:22:37,120 --> 00:22:41,520
+dynamic programming is all
+
+571
+00:22:39,600 --> 00:22:43,120
+n square right in the in the worst case
+
+572
+00:22:41,520 --> 00:22:45,520
+o n square and we use this minimum
+
+573
+00:22:43,120 --> 00:22:47,520
+notation to remember the values that we
+
+574
+00:22:45,520 --> 00:22:49,280
+so so that we don't calculate it over
+
+575
+00:22:47,520 --> 00:22:51,440
+and over again but if you look at this
+
+576
+00:22:49,280 --> 00:22:54,320
+problem it's actually we can go through
+
+577
+00:22:51,440 --> 00:22:55,520
+this greedy what does it mean look i i
+
+578
+00:22:54,320 --> 00:22:58,880
+look look
+
+579
+00:22:55,520 --> 00:23:01,440
+i have this max reach we can reach
+
+580
+00:22:58,880 --> 00:23:03,840
+okay max ratio variable at the beginning
+
+581
+00:23:01,440 --> 00:23:05,120
+we update the zero so now let's do this
+
+582
+00:23:03,840 --> 00:23:06,240
+problem three
+
+583
+00:23:05,120 --> 00:23:08,559
+one
+
+584
+00:23:06,240 --> 00:23:09,440
+zero two
+
+585
+00:23:08,559 --> 00:23:10,400
+four
+
+586
+00:23:09,440 --> 00:23:14,320
+one
+
+587
+00:23:10,400 --> 00:23:14,320
+five okay can we reach to the end
+
+588
+00:23:16,720 --> 00:23:20,559
+can we reach to the end yes enough one
+
+589
+00:23:18,960 --> 00:23:24,320
+two three
+
+590
+00:23:20,559 --> 00:23:26,240
+one two one yeah we can raise yeah yeah
+
+591
+00:23:24,320 --> 00:23:27,360
+yeah and how can we do that look
+
+592
+00:23:26,240 --> 00:23:30,240
+three
+
+593
+00:23:27,360 --> 00:23:33,120
+what how far we can reach after two one
+
+594
+00:23:30,240 --> 00:23:34,159
+two three here here right so next range
+
+595
+00:23:33,120 --> 00:23:36,640
+is here
+
+596
+00:23:34,159 --> 00:23:38,080
+we don't do
+
+597
+00:23:36,640 --> 00:23:39,919
+yeah okay that's right we update this
+
+598
+00:23:38,080 --> 00:23:41,840
+next week yeah
+
+599
+00:23:39,919 --> 00:23:43,600
+here next switch
+
+600
+00:23:41,840 --> 00:23:45,600
+we don't need to update matching because
+
+601
+00:23:43,600 --> 00:23:48,400
+it's look one
+
+602
+00:23:45,600 --> 00:23:51,559
+is less than next week yeah we ignore it
+
+603
+00:23:48,400 --> 00:23:51,559
+see hello
+
+604
+00:23:53,840 --> 00:23:58,400
+make switch updated because look you can
+
+605
+00:23:56,000 --> 00:24:00,320
+go through to the here right
+
+606
+00:23:58,400 --> 00:24:01,360
+yeah and then you could go and then go
+
+607
+00:24:00,320 --> 00:24:03,760
+for
+
+608
+00:24:01,360 --> 00:24:05,440
+mx switch
+
+609
+00:24:03,760 --> 00:24:07,919
+update the mac series right
+
+610
+00:24:05,440 --> 00:24:09,279
+yeah next week here i can go to here and
+
+611
+00:24:07,919 --> 00:24:11,039
+then one
+
+612
+00:24:09,279 --> 00:24:12,080
+we don't have data make sure and here
+
+613
+00:24:11,039 --> 00:24:14,240
+look
+
+614
+00:24:12,080 --> 00:24:15,919
+when we go to the end we just check if
+
+615
+00:24:14,240 --> 00:24:18,400
+next stretch can reach the end that's it
+
+616
+00:24:15,919 --> 00:24:18,400
+simple
+
+617
+00:24:27,360 --> 00:24:34,480
+let's see another example so the three
+
+618
+00:24:30,720 --> 00:24:37,440
+cl zero zero one a hundred
+
+619
+00:24:34,480 --> 00:24:39,840
+two can we reach it
+
+620
+00:24:37,440 --> 00:24:40,960
+okay three
+
+621
+00:24:39,840 --> 00:24:43,440
+max reach
+
+622
+00:24:40,960 --> 00:24:45,760
+to here right yeah
+
+623
+00:24:43,440 --> 00:24:47,200
+yellow we don't update it zero or maybe
+
+624
+00:24:45,760 --> 00:24:50,000
+we change it here to one as well you
+
+625
+00:24:47,200 --> 00:24:51,840
+know we don't have that here 0
+
+626
+00:24:50,000 --> 00:24:54,480
+we don't update it right
+
+627
+00:24:51,840 --> 00:24:56,320
+one we don't update it because because
+
+628
+00:24:54,480 --> 00:24:58,240
+next switch is smaller than the heat
+
+629
+00:24:56,320 --> 00:24:59,039
+than this point so we don't update it
+
+630
+00:24:58,240 --> 00:25:01,440
+right
+
+631
+00:24:59,039 --> 00:25:03,919
+100 we don't update it too
+
+632
+00:25:01,440 --> 00:25:05,520
+so the max is less than n so we don't
+
+633
+00:25:03,919 --> 00:25:06,960
+update it right
+
+634
+00:25:05,520 --> 00:25:09,279
+so there are two things we need to check
+
+635
+00:25:06,960 --> 00:25:11,360
+once is when we update it we need to
+
+636
+00:25:09,279 --> 00:25:13,919
+be sure that the current partition is
+
+637
+00:25:11,360 --> 00:25:16,000
+less or equal to message right if it's
+
+638
+00:25:13,919 --> 00:25:17,679
+bigger than the message they we don't
+
+639
+00:25:16,000 --> 00:25:19,520
+update it because
+
+640
+00:25:17,679 --> 00:25:20,960
+you know we can't jump to from the
+
+641
+00:25:19,520 --> 00:25:23,440
+beginning to this point so there's no
+
+642
+00:25:20,960 --> 00:25:24,400
+way to update the max switch right
+
+643
+00:25:23,440 --> 00:25:26,559
+yeah
+
+644
+00:25:24,400 --> 00:25:29,840
+so what we do is going through this one
+
+645
+00:25:26,559 --> 00:25:29,840
+time what's the time complexity
+
+646
+00:25:29,919 --> 00:25:34,000
+oh when we're done yeah you see just one
+
+647
+00:25:32,080 --> 00:25:35,760
+time or one right what's the space from
+
+648
+00:25:34,000 --> 00:25:38,640
+hd
+
+649
+00:25:35,760 --> 00:25:40,480
+do we use any
+
+650
+00:25:38,640 --> 00:25:42,720
+a one because we only use one variable
+
+651
+00:25:40,480 --> 00:25:45,039
+it is not linear to the program scale
+
+652
+00:25:42,720 --> 00:25:46,880
+max reach mean yeah max region yeah
+
+653
+00:25:45,039 --> 00:25:48,159
+we're using a variable but it's just one
+
+654
+00:25:46,880 --> 00:25:50,960
+variable it's not
+
+655
+00:25:48,159 --> 00:25:53,200
+linear it's not an array that's affected
+
+656
+00:25:50,960 --> 00:25:54,320
+by n right it's not linear right that's
+
+657
+00:25:53,200 --> 00:25:56,559
+the difference
+
+658
+00:25:54,320 --> 00:25:57,520
+one constant doesn't mean it doesn't
+
+659
+00:25:56,559 --> 00:25:59,760
+mean
+
+660
+00:25:57,520 --> 00:26:02,159
+it doesn't use any space it means that
+
+661
+00:25:59,760 --> 00:26:04,000
+you use constant number of space it
+
+662
+00:26:02,159 --> 00:26:06,320
+means that no matter how big is your
+
+663
+00:26:04,000 --> 00:26:09,200
+array how big is these
+
+664
+00:26:06,320 --> 00:26:12,720
+all i need all i use is constant time of
+
+665
+00:26:09,200 --> 00:26:15,200
+constant thing it doesn't grow
+
+666
+00:26:12,720 --> 00:26:18,320
+if i need to allocate another array
+
+667
+00:26:15,200 --> 00:26:20,080
+which is size of n now that's o l right
+
+668
+00:26:18,320 --> 00:26:22,480
+if you have a million
+
+669
+00:26:20,080 --> 00:26:24,559
+items in an array and i need to create
+
+670
+00:26:22,480 --> 00:26:25,840
+another array which is a minion and
+
+671
+00:26:24,559 --> 00:26:28,080
+that's one right
+
+672
+00:26:25,840 --> 00:26:30,799
+yeah you see the problem yeah okay now
+
+673
+00:26:28,080 --> 00:26:32,640
+let's try this this is called greedy
+
+674
+00:26:30,799 --> 00:26:34,720
+you know what's greedy because you want
+
+675
+00:26:32,640 --> 00:26:37,679
+to eat them you want to get the biggest
+
+676
+00:26:34,720 --> 00:26:37,679
+one and you want it
+
+677
+00:26:38,970 --> 00:26:42,130
+[Music]
+
+678
+00:26:46,700 --> 00:26:49,759
+[Music]
+
+679
+00:26:51,840 --> 00:26:54,880
+length num right
+
+680
+00:26:55,760 --> 00:26:57,760
+reach
+
+681
+00:26:56,720 --> 00:26:59,200
+reach
+
+682
+00:26:57,760 --> 00:27:01,200
+equals zero
+
+683
+00:26:59,200 --> 00:27:02,640
+i equals zero the current position i
+
+684
+00:27:01,200 --> 00:27:04,480
+yeah look
+
+685
+00:27:02,640 --> 00:27:08,000
+y
+
+686
+00:27:04,480 --> 00:27:10,559
+i smaller than n and also
+
+687
+00:27:08,000 --> 00:27:12,080
+i is smaller than rich right small equal
+
+688
+00:27:10,559 --> 00:27:13,840
+rich right
+
+689
+00:27:12,080 --> 00:27:15,840
+small or equal rich now what should we
+
+690
+00:27:13,840 --> 00:27:17,279
+do
+
+691
+00:27:15,840 --> 00:27:20,919
+what should we do
+
+692
+00:27:17,279 --> 00:27:20,919
+huh what should we do
+
+693
+00:27:30,559 --> 00:27:34,320
+we are at this position we want to
+
+694
+00:27:32,080 --> 00:27:36,559
+update the reach which equals max which
+
+695
+00:27:34,320 --> 00:27:36,559
+one
+
+696
+00:27:38,559 --> 00:27:43,600
+i plus nums i right this is the first
+
+697
+00:27:41,679 --> 00:27:46,159
+statement you can jump
+
+698
+00:27:43,600 --> 00:27:48,480
+i know what i plus equals
+
+699
+00:27:46,159 --> 00:27:49,360
+one one monster and return how can we
+
+700
+00:27:48,480 --> 00:27:51,360
+check if
+
+701
+00:27:49,360 --> 00:27:53,840
+that if we can jump from the beginning
+
+702
+00:27:51,360 --> 00:27:53,840
+to the end
+
+703
+00:27:56,559 --> 00:28:01,360
+bigger bigger equal
+
+704
+00:28:00,000 --> 00:28:05,120
+and
+
+705
+00:28:01,360 --> 00:28:05,120
+minus one the last incident is mine
+
+706
+00:28:06,159 --> 00:28:09,679
+make sense what's the time conversion i
+
+707
+00:28:08,080 --> 00:28:11,070
+just asked you yeah can you answer it
+
+708
+00:28:09,679 --> 00:28:12,480
+again
+
+709
+00:28:11,070 --> 00:28:14,720
+[Music]
+
+710
+00:28:12,480 --> 00:28:16,720
+okay let me let me check if there's
+
+711
+00:28:14,720 --> 00:28:19,600
+anything i missed
+
+712
+00:28:16,720 --> 00:28:20,399
+out okay we saw today i think that's it
+
+713
+00:28:19,600 --> 00:28:22,480
+so
+
+714
+00:28:20,399 --> 00:28:24,159
+to sum up we have talked about this
+
+715
+00:28:22,480 --> 00:28:25,600
+problem how many solutions we have
+
+716
+00:28:24,159 --> 00:28:27,679
+talked about
+
+717
+00:28:25,600 --> 00:28:28,960
+first one is a tefl search without
+
+718
+00:28:27,679 --> 00:28:31,279
+minimization which is called
+
+719
+00:28:28,960 --> 00:28:33,440
+backtracking yeah backtracking
+
+720
+00:28:31,279 --> 00:28:36,080
+so this complexity is a bit complex
+
+721
+00:28:33,440 --> 00:28:37,760
+because it's o to n right exponential
+
+722
+00:28:36,080 --> 00:28:40,480
+just remember the fibonacci number is
+
+723
+00:28:37,760 --> 00:28:41,520
+quite similar yeah okay and if you put a
+
+724
+00:28:40,480 --> 00:28:44,240
+cash
+
+725
+00:28:41,520 --> 00:28:45,360
+that's research with the cash what do
+
+726
+00:28:44,240 --> 00:28:46,159
+you call it
+
+727
+00:28:45,360 --> 00:28:48,399
+top
+
+728
+00:28:46,159 --> 00:28:50,320
+top down dynamic programming yeah
+
+729
+00:28:48,399 --> 00:28:52,000
+top down dynamic programming recursion
+
+730
+00:28:50,320 --> 00:28:54,480
+with the minimization
+
+731
+00:28:52,000 --> 00:28:56,480
+the time connection is all
+
+732
+00:28:54,480 --> 00:28:58,799
+n square right
+
+733
+00:28:56,480 --> 00:29:00,799
+and then things we can do top down
+
+734
+00:28:58,799 --> 00:29:03,600
+sometimes most of case we can do butter
+
+735
+00:29:00,799 --> 00:29:03,600
+out very easy
+
+736
+00:29:04,960 --> 00:29:08,000
+up
+
+737
+00:29:06,000 --> 00:29:09,520
+bottom bottom up
+
+738
+00:29:08,000 --> 00:29:12,000
+dynamic programming yeah dynamic
+
+739
+00:29:09,520 --> 00:29:13,279
+programming we use that we fill this
+
+740
+00:29:12,000 --> 00:29:15,440
+array from the right hand side to the
+
+741
+00:29:13,279 --> 00:29:17,520
+left hand side right so let's top down
+
+742
+00:29:15,440 --> 00:29:18,399
+button out is also o n
+
+743
+00:29:17,520 --> 00:29:20,320
+square
+
+744
+00:29:18,399 --> 00:29:22,960
+yeah the time the space complexity for
+
+745
+00:29:20,320 --> 00:29:25,520
+these two is also o n squared okay
+
+746
+00:29:22,960 --> 00:29:27,679
+and then now we talk about the square
+
+747
+00:29:25,520 --> 00:29:30,960
+really yeah because we can always update
+
+748
+00:29:27,679 --> 00:29:32,320
+the furthest distance yeah yeah one
+
+749
+00:29:30,960 --> 00:29:34,080
+when we
+
+750
+00:29:32,320 --> 00:29:36,480
+when we current partition is smaller
+
+751
+00:29:34,080 --> 00:29:38,880
+than rich then we can update it until we
+
+752
+00:29:36,480 --> 00:29:41,840
+check if the series distance is bigger
+
+753
+00:29:38,880 --> 00:29:44,000
+or equal than the last last index this
+
+754
+00:29:41,840 --> 00:29:46,880
+is the comparison oh and the space
+
+755
+00:29:44,000 --> 00:29:49,039
+complexity is one right we also
+
+756
+00:29:46,880 --> 00:29:50,399
+mentioned the breakfast search
+
+757
+00:29:49,039 --> 00:29:52,399
+preference search yeah first of all
+
+758
+00:29:50,399 --> 00:29:53,360
+search is since it's like this because
+
+759
+00:29:52,399 --> 00:29:54,799
+we
+
+760
+00:29:53,360 --> 00:29:56,399
+it's like that yeah
+
+761
+00:29:54,799 --> 00:29:58,640
+if we put a catch can we focus on
+
+762
+00:29:56,399 --> 00:30:00,240
+preferences maybe if it's too hard we
+
+763
+00:29:58,640 --> 00:30:02,399
+can use the we can use the
+
+764
+00:30:00,240 --> 00:30:04,640
+minimalization table minimum oh yeah
+
+765
+00:30:02,399 --> 00:30:06,720
+yeah if we use the minimum then the time
+
+766
+00:30:04,640 --> 00:30:08,399
+conducts t will be reduced to o n square
+
+767
+00:30:06,720 --> 00:30:09,919
+because each each
+
+768
+00:30:08,399 --> 00:30:13,520
+each uh
+
+769
+00:30:09,919 --> 00:30:15,679
+so we will have a a flag like d p i
+
+770
+00:30:13,520 --> 00:30:18,799
+means that if we can jump from i to the
+
+771
+00:30:15,679 --> 00:30:19,679
+n so we only take it at least once right
+
+772
+00:30:18,799 --> 00:30:23,200
+but
+
+773
+00:30:19,679 --> 00:30:24,960
+it may take other how many times can the
+
+774
+00:30:23,200 --> 00:30:27,760
+mo in the world can
+
+775
+00:30:24,960 --> 00:30:30,080
+do do we need to access this dpi is our
+
+776
+00:30:27,760 --> 00:30:32,960
+end time so all n times n so it's one
+
+777
+00:30:30,080 --> 00:30:34,640
+square so this breakfast actually test
+
+778
+00:30:32,960 --> 00:30:36,080
+assertion perfect search is quite
+
+779
+00:30:34,640 --> 00:30:38,159
+similar it's just different ways of
+
+780
+00:30:36,080 --> 00:30:40,080
+traversing the tree right trevor
+
+781
+00:30:38,159 --> 00:30:40,960
+singletary remember
+
+782
+00:30:40,080 --> 00:30:43,279
+okay
+
+783
+00:30:40,960 --> 00:30:44,240
+one two three
+
+784
+00:30:43,279 --> 00:30:46,320
+four
+
+785
+00:30:44,240 --> 00:30:48,840
+five
+
+786
+00:30:46,320 --> 00:30:50,640
+six what's the death research in this
+
+787
+00:30:48,840 --> 00:30:51,840
+case uh
+
+788
+00:30:50,640 --> 00:30:53,120
+this is four
+
+789
+00:30:51,840 --> 00:30:55,600
+what's the difference search of these
+
+790
+00:30:53,120 --> 00:30:56,640
+three if we search these one
+
+791
+00:30:55,600 --> 00:30:59,600
+two
+
+792
+00:30:56,640 --> 00:31:03,120
+six three four five what's a boyfriend
+
+793
+00:30:59,600 --> 00:31:04,960
+search one two three six four five you
+
+794
+00:31:03,120 --> 00:31:07,440
+see just different ways of traversing
+
+795
+00:31:04,960 --> 00:31:10,080
+the search the domain the search space
+
+796
+00:31:07,440 --> 00:31:11,600
+is not it's the same right you still
+
+797
+00:31:10,080 --> 00:31:13,679
+need to search
+
+798
+00:31:11,600 --> 00:31:14,880
+you still need to search the entire tree
+
+799
+00:31:13,679 --> 00:31:16,480
+so it doesn't make a difference it's
+
+800
+00:31:14,880 --> 00:31:19,039
+just different order of troubles in the
+
+801
+00:31:16,480 --> 00:31:21,840
+tree the most important thing is cash
+
+802
+00:31:19,039 --> 00:31:24,159
+because we don't want to tackle anything
+
+803
+00:31:21,840 --> 00:31:25,840
+again and again and the most
+
+804
+00:31:24,159 --> 00:31:27,919
+optimal solution for this problem is
+
+805
+00:31:25,840 --> 00:31:30,080
+greedy because we update we use we just
+
+806
+00:31:27,919 --> 00:31:32,000
+go through it away once and that's it
+
+807
+00:31:30,080 --> 00:31:34,080
+okay and that's it we don't go to
+
+808
+00:31:32,000 --> 00:31:36,159
+another time so it's linear oh and so
+
+809
+00:31:34,080 --> 00:31:38,399
+which one is the best come on i haven't
+
+810
+00:31:36,159 --> 00:31:40,559
+asked you which one is the best
+
+811
+00:31:38,399 --> 00:31:42,159
+well greedy
+
+812
+00:31:40,559 --> 00:31:45,039
+obviously okay because it's less
+
+813
+00:31:42,159 --> 00:31:47,039
+complexity well done today okay good job
+
+814
+00:31:45,039 --> 00:31:49,120
+any questions so far
+
+815
+00:31:47,039 --> 00:31:52,799
+any questions so far
+
+816
+00:31:49,120 --> 00:31:53,679
+or you want to show people your drawing
+
+817
+00:31:52,799 --> 00:31:54,880
+hmm
+
+818
+00:31:53,679 --> 00:31:55,679
+that's it
+
+819
+00:31:54,880 --> 00:31:57,519
+right
+
+820
+00:31:55,679 --> 00:32:00,480
+ryan
+
+821
+00:31:57,519 --> 00:32:02,640
+okay so i wait for you to finish
+
+822
+00:32:00,480 --> 00:32:04,960
+you want to say hello thank you bye bye
+
+823
+00:32:02,640 --> 00:32:06,399
+to people what are you drawing a kitty
+
+824
+00:32:04,960 --> 00:32:08,480
+or a
+
+825
+00:32:06,399 --> 00:32:10,480
+pokemon
+
+826
+00:32:08,480 --> 00:32:14,840
+pikachu okay
+
+827
+00:32:10,480 --> 00:32:14,840
+show us your drawing skills
+
+828
+00:32:17,279 --> 00:32:24,559
+come on that's it
+
+829
+00:32:19,840 --> 00:32:24,559
+you're taking so much time hurry up
+
+830
+00:32:25,519 --> 00:32:28,840
+this way
+
+831
+00:32:35,039 --> 00:32:38,360
+bye bye
+
+832
+00:32:38,960 --> 00:32:42,099
+[Music]
+
