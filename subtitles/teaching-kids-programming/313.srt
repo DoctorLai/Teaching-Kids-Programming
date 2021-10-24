@@ -1,0 +1,2556 @@
+1
+00:00:04,799 --> 00:00:08,559
+okay so today we talk about divine
+
+2
+00:00:06,480 --> 00:00:10,960
+encounter yeah this is this concept is
+
+3
+00:00:08,559 --> 00:00:14,240
+not new yeah we have talked about this
+
+4
+00:00:10,960 --> 00:00:16,880
+before right yeah do you still remember
+
+5
+00:00:14,240 --> 00:00:19,520
+what problems uh have we used this kind
+
+6
+00:00:16,880 --> 00:00:21,520
+of strategy this is kind of like a
+
+7
+00:00:19,520 --> 00:00:23,039
+you know strategy that we solve the
+
+8
+00:00:21,520 --> 00:00:24,880
+problem
+
+9
+00:00:23,039 --> 00:00:28,480
+remember a few days ago we talked about
+
+10
+00:00:24,880 --> 00:00:30,640
+uh hanoi tower yeah hanoi tower remember
+
+11
+00:00:28,480 --> 00:00:32,000
+hanoi tower
+
+12
+00:00:30,640 --> 00:00:33,920
+yeah
+
+13
+00:00:32,000 --> 00:00:36,000
+we want to move this
+
+14
+00:00:33,920 --> 00:00:39,040
+the the
+
+15
+00:00:36,000 --> 00:00:40,960
+a b the disc from a to c yeah
+
+16
+00:00:39,040 --> 00:00:43,200
+so what does it include the divide and
+
+17
+00:00:40,960 --> 00:00:45,360
+conquer so we need to divide this into
+
+18
+00:00:43,200 --> 00:00:47,680
+three steps first
+
+19
+00:00:45,360 --> 00:00:49,120
+move the n minus one
+
+20
+00:00:47,680 --> 00:00:51,199
+this
+
+21
+00:00:49,120 --> 00:00:52,000
+from a
+
+22
+00:00:51,199 --> 00:00:55,280
+to
+
+23
+00:00:52,000 --> 00:00:56,960
+b right and then move the elastics and
+
+24
+00:00:55,280 --> 00:00:58,559
+from a to
+
+25
+00:00:56,960 --> 00:01:02,239
+c and then
+
+26
+00:00:58,559 --> 00:01:04,720
+the third step is moving the n minus one
+
+27
+00:01:02,239 --> 00:01:06,799
+this from b to c okay let's divide the
+
+28
+00:01:04,720 --> 00:01:09,200
+concept
+
+29
+00:01:06,799 --> 00:01:13,119
+so and also we talked about the merge
+
+30
+00:01:09,200 --> 00:01:14,960
+source remember merge sort yeah so given
+
+31
+00:01:13,119 --> 00:01:17,759
+a few numbers yeah given a few number
+
+32
+00:01:14,960 --> 00:01:20,640
+three two five one five
+
+33
+00:01:17,759 --> 00:01:23,520
+nine ten we want to solve sort of this
+
+34
+00:01:20,640 --> 00:01:27,360
+how can we imagine multistory
+
+35
+00:01:23,520 --> 00:01:28,799
+first of all we divide divide the to
+
+36
+00:01:27,360 --> 00:01:31,040
+sort it to solve the numbers in
+
+37
+00:01:28,799 --> 00:01:32,560
+ascending order first of all we divide
+
+38
+00:01:31,040 --> 00:01:34,720
+this into half
+
+39
+00:01:32,560 --> 00:01:37,119
+and we saw these two yeah
+
+40
+00:01:34,720 --> 00:01:38,840
+so look this is one two three and then
+
+41
+00:01:37,119 --> 00:01:42,320
+this is five nine
+
+42
+00:01:38,840 --> 00:01:44,799
+ten yeah everyone look look at me and
+
+43
+00:01:42,320 --> 00:01:45,920
+then once we saw the post part we merge
+
+44
+00:01:44,799 --> 00:01:48,560
+it
+
+45
+00:01:45,920 --> 00:01:51,759
+right right get it so let's divide uh
+
+46
+00:01:48,560 --> 00:01:54,880
+divide and conquer so what does it mean
+
+47
+00:01:51,759 --> 00:01:58,960
+can you from these two uh two examples
+
+48
+00:01:54,880 --> 00:01:58,960
+what does the meaning divide and conquer
+
+49
+00:01:59,040 --> 00:02:03,920
+i think it's like you divide it like
+
+50
+00:02:01,680 --> 00:02:03,920
+this
+
+51
+00:02:05,119 --> 00:02:09,840
+yeah solve it so they conquered conga
+
+52
+00:02:07,119 --> 00:02:13,200
+what's the conga mean like i
+
+53
+00:02:09,840 --> 00:02:14,800
+can't get new stuff i know i mean and
+
+54
+00:02:13,200 --> 00:02:17,360
+solve stuff
+
+55
+00:02:14,800 --> 00:02:18,640
+yeah yeah most likely okay so divide and
+
+56
+00:02:17,360 --> 00:02:20,400
+conquer is that
+
+57
+00:02:18,640 --> 00:02:23,120
+every time you know uh so divide and
+
+58
+00:02:20,400 --> 00:02:24,640
+conquer so usually we use the recursion
+
+59
+00:02:23,120 --> 00:02:26,720
+right so we can
+
+60
+00:02:24,640 --> 00:02:28,959
+recursively divide this problem into a
+
+61
+00:02:26,720 --> 00:02:31,519
+few you know not just two maybe a few
+
+62
+00:02:28,959 --> 00:02:34,000
+sub problems right divide this is the
+
+63
+00:02:31,519 --> 00:02:35,680
+divisor a big problem a very big problem
+
+64
+00:02:34,000 --> 00:02:38,400
+we divide it into
+
+65
+00:02:35,680 --> 00:02:40,800
+more right two or more problems
+
+66
+00:02:38,400 --> 00:02:43,440
+and then we recursively solve it solve
+
+67
+00:02:40,800 --> 00:02:45,519
+each part each small part right
+
+68
+00:02:43,440 --> 00:02:47,680
+and then what's next
+
+69
+00:02:45,519 --> 00:02:50,239
+once we solve it we use these results
+
+70
+00:02:47,680 --> 00:02:51,760
+from the smaller part to merge right to
+
+71
+00:02:50,239 --> 00:02:52,720
+get a bigger path right
+
+72
+00:02:51,760 --> 00:02:53,599
+right
+
+73
+00:02:52,720 --> 00:02:54,800
+yeah
+
+74
+00:02:53,599 --> 00:02:57,519
+okay so
+
+75
+00:02:54,800 --> 00:03:00,080
+what let's let's take an example okay
+
+76
+00:02:57,519 --> 00:03:02,480
+let's take a little example so i have a
+
+77
+00:03:00,080 --> 00:03:04,560
+way i want to get the maximum
+
+78
+00:03:02,480 --> 00:03:06,319
+of it very simple yeah in in python you
+
+79
+00:03:04,560 --> 00:03:07,360
+can just do this max
+
+80
+00:03:06,319 --> 00:03:09,840
+ai
+
+81
+00:03:07,360 --> 00:03:11,040
+how about i tell you to implement this
+
+82
+00:03:09,840 --> 00:03:12,400
+one way to
+
+83
+00:03:11,040 --> 00:03:14,159
+do one
+
+84
+00:03:12,400 --> 00:03:16,000
+return
+
+85
+00:03:14,159 --> 00:03:17,599
+yeah i know but
+
+86
+00:03:16,000 --> 00:03:20,000
+i don't want you to use this function
+
+87
+00:03:17,599 --> 00:03:22,239
+just implement it define max let's
+
+88
+00:03:20,000 --> 00:03:24,080
+define this max nums okay
+
+89
+00:03:22,239 --> 00:03:26,480
+so that letter will be very easy yeah
+
+90
+00:03:24,080 --> 00:03:28,959
+assuming this num is not empty
+
+91
+00:03:26,480 --> 00:03:31,200
+then we can do uh
+
+92
+00:03:28,959 --> 00:03:32,400
+like the answer equals
+
+93
+00:03:31,200 --> 00:03:34,879
+max
+
+94
+00:03:32,400 --> 00:03:37,120
+infinity negative infinity and then we
+
+95
+00:03:34,879 --> 00:03:38,400
+go through each number
+
+96
+00:03:37,120 --> 00:03:39,920
+yeah
+
+97
+00:03:38,400 --> 00:03:41,360
+in
+
+98
+00:03:39,920 --> 00:03:44,840
+num
+
+99
+00:03:41,360 --> 00:03:47,680
+and an answer equals
+
+100
+00:03:44,840 --> 00:03:49,599
+max okay so this is not
+
+101
+00:03:47,680 --> 00:03:52,640
+this uh so we are not using the max
+
+102
+00:03:49,599 --> 00:03:53,519
+function right so we can say if i bigger
+
+103
+00:03:52,640 --> 00:03:55,680
+than
+
+104
+00:03:53,519 --> 00:03:58,159
+answer
+
+105
+00:03:55,680 --> 00:04:00,640
+then answer equals i right and then
+
+106
+00:03:58,159 --> 00:04:03,200
+return i this is called the linear
+
+107
+00:04:00,640 --> 00:04:04,560
+linear we do this linear
+
+108
+00:04:03,200 --> 00:04:05,840
+linear time
+
+109
+00:04:04,560 --> 00:04:07,360
+right
+
+110
+00:04:05,840 --> 00:04:09,040
+very simple yeah we go through this
+
+111
+00:04:07,360 --> 00:04:10,480
+array first of all the answer is
+
+112
+00:04:09,040 --> 00:04:12,720
+negative
+
+113
+00:04:10,480 --> 00:04:15,200
+infinity we go through each number and i
+
+114
+00:04:12,720 --> 00:04:17,359
+will try to compare the number with the
+
+115
+00:04:15,200 --> 00:04:19,440
+answer and if it's bigger than an answer
+
+116
+00:04:17,359 --> 00:04:21,600
+we update it with the answer is the
+
+117
+00:04:19,440 --> 00:04:23,840
+current number right the time complexity
+
+118
+00:04:21,600 --> 00:04:26,880
+is o
+
+119
+00:04:23,840 --> 00:04:29,680
+if there are numbers in these nums oh
+
+120
+00:04:26,880 --> 00:04:32,000
+oh what's the space homelessly any space
+
+121
+00:04:29,680 --> 00:04:34,720
+no a one constant okay
+
+122
+00:04:32,000 --> 00:04:36,960
+constant space
+
+123
+00:04:34,720 --> 00:04:40,960
+okay so now look if we want to find
+
+124
+00:04:36,960 --> 00:04:42,960
+these numbers okay let's say
+
+125
+00:04:40,960 --> 00:04:45,360
+10 20
+
+126
+00:04:42,960 --> 00:04:48,320
+like one five
+
+127
+00:04:45,360 --> 00:04:50,240
+nine what's the maximum of this array
+
+128
+00:04:48,320 --> 00:04:51,280
+all right look what's the maximum of
+
+129
+00:04:50,240 --> 00:04:53,759
+this
+
+130
+00:04:51,280 --> 00:04:55,360
+twenty we can go through this yeah one
+
+131
+00:04:53,759 --> 00:04:57,520
+by one and try to compare with the
+
+132
+00:04:55,360 --> 00:04:59,360
+answer yeah that's the meaning and how
+
+133
+00:04:57,520 --> 00:05:01,600
+about we use the divided concept first
+
+134
+00:04:59,360 --> 00:05:03,280
+of all we divide this into half
+
+135
+00:05:01,600 --> 00:05:04,960
+or we can divide it into three parts
+
+136
+00:05:03,280 --> 00:05:07,680
+four parts depending but let's let's
+
+137
+00:05:04,960 --> 00:05:09,520
+just take one simple
+
+138
+00:05:07,680 --> 00:05:11,120
+divide
+
+139
+00:05:09,520 --> 00:05:12,800
+well that's a good question okay i'll
+
+140
+00:05:11,120 --> 00:05:14,400
+tell you later we first of all if we can
+
+141
+00:05:12,800 --> 00:05:16,880
+divide it into half okay so that
+
+142
+00:05:14,400 --> 00:05:18,400
+requires it needs to be at least two
+
+143
+00:05:16,880 --> 00:05:20,960
+elements right so we can divide it in
+
+144
+00:05:18,400 --> 00:05:22,960
+half we divide it in half
+
+145
+00:05:20,960 --> 00:05:25,680
+right so we because we saw this function
+
+146
+00:05:22,960 --> 00:05:28,080
+for example this one the maximum is nine
+
+147
+00:05:25,680 --> 00:05:30,479
+this one maximum is 20.
+
+148
+00:05:28,080 --> 00:05:32,720
+okay so now we compare this yeah how do
+
+149
+00:05:30,479 --> 00:05:35,120
+you get them
+
+150
+00:05:32,720 --> 00:05:37,680
+how do we get the it's nine or ten here
+
+151
+00:05:35,120 --> 00:05:40,560
+oh then we divide this into half right
+
+152
+00:05:37,680 --> 00:05:42,560
+yeah it might not be equally divided but
+
+153
+00:05:40,560 --> 00:05:44,400
+we can divide it and this is one number
+
+154
+00:05:42,560 --> 00:05:45,840
+that that's the thing you can't divide
+
+155
+00:05:44,400 --> 00:05:48,240
+one number into five
+
+156
+00:05:45,840 --> 00:05:51,919
+so we just written this number
+
+157
+00:05:48,240 --> 00:05:54,080
+look four five one divided into two
+
+158
+00:05:51,919 --> 00:05:57,360
+what's the biggest one five
+
+159
+00:05:54,080 --> 00:05:58,639
+okay and five and nine which is biggest
+
+160
+00:05:57,360 --> 00:06:00,720
+nine yeah
+
+161
+00:05:58,639 --> 00:06:01,840
+okay and nine this way here dividing
+
+162
+00:06:00,720 --> 00:06:05,440
+into two
+
+163
+00:06:01,840 --> 00:06:07,600
+this this part ten this far twenty
+
+164
+00:06:05,440 --> 00:06:09,360
+20 and 20 20
+
+165
+00:06:07,600 --> 00:06:10,319
+29 20.
+
+166
+00:06:09,360 --> 00:06:11,919
+okay
+
+167
+00:06:10,319 --> 00:06:14,080
+make sense
+
+168
+00:06:11,919 --> 00:06:15,520
+yeah okay so i'm going to implement this
+
+169
+00:06:14,080 --> 00:06:17,440
+and then you need to tell me what
+
+170
+00:06:15,520 --> 00:06:19,360
+advantage of using this approach using
+
+171
+00:06:17,440 --> 00:06:21,919
+this one look at this very simple one
+
+172
+00:06:19,360 --> 00:06:24,160
+right so i can just implement this why
+
+173
+00:06:21,919 --> 00:06:25,440
+should i care about using this divide
+
+174
+00:06:24,160 --> 00:06:27,280
+and conquer
+
+175
+00:06:25,440 --> 00:06:28,639
+just think about the advantage of using
+
+176
+00:06:27,280 --> 00:06:30,880
+this one okay
+
+177
+00:06:28,639 --> 00:06:32,000
+so first of all let's implement
+
+178
+00:06:30,880 --> 00:06:33,520
+sorry
+
+179
+00:06:32,000 --> 00:06:36,000
+much more quicker
+
+180
+00:06:33,520 --> 00:06:37,440
+quicker yeah it's related to cooking why
+
+181
+00:06:36,000 --> 00:06:39,039
+it's quicker
+
+182
+00:06:37,440 --> 00:06:40,639
+why it's quicker think about it okay
+
+183
+00:06:39,039 --> 00:06:43,039
+you're very close to the answer you're
+
+184
+00:06:40,639 --> 00:06:46,160
+very close defined let's say
+
+185
+00:06:43,039 --> 00:06:49,599
+let again this is max okay this is
+
+186
+00:06:46,160 --> 00:06:52,479
+numbers okay and now we need to have a
+
+187
+00:06:49,599 --> 00:06:55,039
+divide function inside divide
+
+188
+00:06:52,479 --> 00:06:55,039
+divide
+
+189
+00:06:55,280 --> 00:07:00,319
+divide and then
+
+190
+00:06:57,759 --> 00:07:00,319
+what divide
+
+191
+00:07:01,360 --> 00:07:05,759
+so divide um
+
+192
+00:07:03,599 --> 00:07:07,360
+maybe we can we don't need to be look
+
+193
+00:07:05,759 --> 00:07:08,240
+look if
+
+194
+00:07:07,360 --> 00:07:10,160
+lens
+
+195
+00:07:08,240 --> 00:07:12,080
+numbers
+
+196
+00:07:10,160 --> 00:07:15,120
+equal equal one if it's only one number
+
+197
+00:07:12,080 --> 00:07:17,599
+we just return it yeah return it
+
+198
+00:07:15,120 --> 00:07:19,120
+numbs zero
+
+199
+00:07:17,599 --> 00:07:20,880
+okay
+
+200
+00:07:19,120 --> 00:07:22,720
+now the meter power we want to separate
+
+201
+00:07:20,880 --> 00:07:23,759
+the meter power so meter power equals
+
+202
+00:07:22,720 --> 00:07:25,520
+one
+
+203
+00:07:23,759 --> 00:07:27,039
+length
+
+204
+00:07:25,520 --> 00:07:29,120
+nums
+
+205
+00:07:27,039 --> 00:07:32,400
+divided by two right
+
+206
+00:07:29,120 --> 00:07:33,840
+right and what's the left left max look
+
+207
+00:07:32,400 --> 00:07:35,520
+left max
+
+208
+00:07:33,840 --> 00:07:37,759
+equal then we called because we call
+
+209
+00:07:35,520 --> 00:07:39,599
+this one here max
+
+210
+00:07:37,759 --> 00:07:42,400
+nums
+
+211
+00:07:39,599 --> 00:07:44,479
+up to meet yeah up to mid
+
+212
+00:07:42,400 --> 00:07:47,039
+up to mid and what's the right max enter
+
+213
+00:07:44,479 --> 00:07:49,199
+me look so i separate this is the middle
+
+214
+00:07:47,039 --> 00:07:51,680
+part there are total number if there's
+
+215
+00:07:49,199 --> 00:07:54,080
+only one animal i'll return it right
+
+216
+00:07:51,680 --> 00:07:56,319
+we can't continue dividing it right
+
+217
+00:07:54,080 --> 00:07:59,599
+there's got to be somewhere we need to
+
+218
+00:07:56,319 --> 00:08:01,919
+terminate education meet is length yeah
+
+219
+00:07:59,599 --> 00:08:04,479
+the number of element divided by two
+
+220
+00:08:01,919 --> 00:08:06,960
+then max
+
+221
+00:08:04,479 --> 00:08:09,120
+up to mid right up to mid
+
+222
+00:08:06,960 --> 00:08:10,960
+right max
+
+223
+00:08:09,120 --> 00:08:13,919
+okay so if this is two then that two
+
+224
+00:08:10,960 --> 00:08:17,039
+divided by 2 is 1 right so meat is up to
+
+225
+00:08:13,919 --> 00:08:19,759
+1 so it's the first one and then y max 1
+
+226
+00:08:17,039 --> 00:08:21,840
+divided by 2
+
+227
+00:08:19,759 --> 00:08:24,639
+no sorry 1 divided by 2.
+
+228
+00:08:21,840 --> 00:08:28,000
+numbs and then a mixed meat
+
+229
+00:08:24,639 --> 00:08:30,080
+remember this yeah from mid to the end
+
+230
+00:08:28,000 --> 00:08:32,000
+up to the mid not equal right so look
+
+231
+00:08:30,080 --> 00:08:33,839
+left max
+
+232
+00:08:32,000 --> 00:08:36,159
+i divide it into two halves
+
+233
+00:08:33,839 --> 00:08:38,159
+this is the maximum part of the left
+
+234
+00:08:36,159 --> 00:08:41,360
+part left array
+
+235
+00:08:38,159 --> 00:08:43,919
+drive max is the max part
+
+236
+00:08:41,360 --> 00:08:45,920
+max value of the second half
+
+237
+00:08:43,919 --> 00:08:47,440
+and i just need to return the maximum
+
+238
+00:08:45,920 --> 00:08:48,800
+these two right
+
+239
+00:08:47,440 --> 00:08:50,959
+all right
+
+240
+00:08:48,800 --> 00:08:52,880
+so if
+
+241
+00:08:50,959 --> 00:08:54,800
+left max
+
+242
+00:08:52,880 --> 00:08:56,640
+bigger and right max would we determine
+
+243
+00:08:54,800 --> 00:08:59,360
+which one
+
+244
+00:08:56,640 --> 00:08:59,360
+right return
+
+245
+00:08:59,600 --> 00:09:04,080
+if left max bigger than right max return
+
+246
+00:09:04,240 --> 00:09:09,360
+and otherwise return
+
+247
+00:09:07,680 --> 00:09:12,720
+s or you know we don't need to write the
+
+248
+00:09:09,360 --> 00:09:14,880
+s return you have to explain half
+
+249
+00:09:12,720 --> 00:09:17,040
+good question we don't
+
+250
+00:09:14,880 --> 00:09:19,760
+like what i said we can split into three
+
+251
+00:09:17,040 --> 00:09:23,040
+four or five right but split into tough
+
+252
+00:09:19,760 --> 00:09:24,080
+is most easy way to implement
+
+253
+00:09:23,040 --> 00:09:25,839
+right
+
+254
+00:09:24,080 --> 00:09:29,200
+all right okay
+
+255
+00:09:25,839 --> 00:09:29,200
+so return right next yeah
+
+256
+00:09:31,120 --> 00:09:34,800
+make sense look if there's only one
+
+257
+00:09:33,200 --> 00:09:36,480
+element
+
+258
+00:09:34,800 --> 00:09:38,240
+yeah we can't separate into half we
+
+259
+00:09:36,480 --> 00:09:40,480
+determine it right it's the max of that
+
+260
+00:09:38,240 --> 00:09:42,720
+array right if it's if there's only if
+
+261
+00:09:40,480 --> 00:09:44,160
+at least it's one what's the max of this
+
+262
+00:09:42,720 --> 00:09:45,680
+one one is
+
+263
+00:09:44,160 --> 00:09:47,360
+an emitter
+
+264
+00:09:45,680 --> 00:09:49,200
+is the number of element divided by two
+
+265
+00:09:47,360 --> 00:09:51,600
+right that's the meter
+
+266
+00:09:49,200 --> 00:09:53,760
+left next we do cursory we divide we
+
+267
+00:09:51,600 --> 00:09:55,760
+divide this problem into two two halves
+
+268
+00:09:53,760 --> 00:09:57,680
+right the first row
+
+269
+00:09:55,760 --> 00:10:00,000
+we want to get the maximum left that
+
+270
+00:09:57,680 --> 00:10:01,120
+part and we're going to get the maximum
+
+271
+00:10:00,000 --> 00:10:03,200
+second half
+
+272
+00:10:01,120 --> 00:10:04,880
+right only closely we call this function
+
+273
+00:10:03,200 --> 00:10:06,560
+maximum
+
+274
+00:10:04,880 --> 00:10:07,680
+and then after these we get these two
+
+275
+00:10:06,560 --> 00:10:09,040
+numbers right
+
+276
+00:10:07,680 --> 00:10:10,640
+and now we need to compare which one is
+
+277
+00:10:09,040 --> 00:10:13,040
+bigger just return it
+
+278
+00:10:10,640 --> 00:10:14,640
+so like what i said look one two three
+
+279
+00:10:13,040 --> 00:10:17,519
+four
+
+280
+00:10:14,640 --> 00:10:18,560
+five six okay now look
+
+281
+00:10:17,519 --> 00:10:22,000
+right
+
+282
+00:10:18,560 --> 00:10:23,920
+into half and then look this into half
+
+283
+00:10:22,000 --> 00:10:25,600
+this into half
+
+284
+00:10:23,920 --> 00:10:28,000
+okay one two
+
+285
+00:10:25,600 --> 00:10:30,240
+into half okay now it's one number
+
+286
+00:10:28,000 --> 00:10:32,640
+one and two which one is bigger two
+
+287
+00:10:30,240 --> 00:10:34,800
+two and three which is bigger three
+
+288
+00:10:32,640 --> 00:10:37,120
+four and five okay now this is four and
+
+289
+00:10:34,800 --> 00:10:39,360
+five we can divide it into half right
+
+290
+00:10:37,120 --> 00:10:40,880
+four and five five is bigger
+
+291
+00:10:39,360 --> 00:10:43,680
+five and six
+
+292
+00:10:40,880 --> 00:10:45,279
+six is bigger okay now three and six
+
+293
+00:10:43,680 --> 00:10:49,680
+six is bigger you see
+
+294
+00:10:45,279 --> 00:10:52,160
+yeah so when we recursively divide this
+
+295
+00:10:49,680 --> 00:10:54,880
+right and the way you keep recursively
+
+296
+00:10:52,160 --> 00:10:57,360
+calling this this and here is only one
+
+297
+00:10:54,880 --> 00:10:58,880
+element and now because one element we
+
+298
+00:10:57,360 --> 00:11:01,040
+already know it's
+
+299
+00:10:58,880 --> 00:11:02,880
+the answer then
+
+300
+00:11:01,040 --> 00:11:06,240
+then what we
+
+301
+00:11:02,880 --> 00:11:07,360
+we back you know we start building this
+
+302
+00:11:06,240 --> 00:11:10,079
+recursion
+
+303
+00:11:07,360 --> 00:11:10,800
+from the bot to the up yeah then going
+
+304
+00:11:10,079 --> 00:11:14,000
+up
+
+305
+00:11:10,800 --> 00:11:15,680
+going up going up going up going up this
+
+306
+00:11:14,000 --> 00:11:17,680
+is like a trick
+
+307
+00:11:15,680 --> 00:11:19,519
+make sense
+
+308
+00:11:17,680 --> 00:11:20,720
+so okay so come come back to the
+
+309
+00:11:19,519 --> 00:11:22,399
+question
+
+310
+00:11:20,720 --> 00:11:24,640
+why do we have to use this one what's
+
+311
+00:11:22,399 --> 00:11:26,320
+the advantage of this one instead of you
+
+312
+00:11:24,640 --> 00:11:29,279
+know linear just going through this
+
+313
+00:11:26,320 --> 00:11:31,040
+element one by one to compare it
+
+314
+00:11:29,279 --> 00:11:32,720
+right
+
+315
+00:11:31,040 --> 00:11:35,200
+the linear one
+
+316
+00:11:32,720 --> 00:11:37,920
+we can use it on one computer but this
+
+317
+00:11:35,200 --> 00:11:39,680
+one if there are a million numbers
+
+318
+00:11:37,920 --> 00:11:41,120
+for one computer you need to go to a
+
+319
+00:11:39,680 --> 00:11:43,519
+million times
+
+320
+00:11:41,120 --> 00:11:45,600
+right but if i have two computer i can
+
+321
+00:11:43,519 --> 00:11:46,959
+divide the list into half million half
+
+322
+00:11:45,600 --> 00:11:49,519
+million
+
+323
+00:11:46,959 --> 00:11:50,800
+right and i can use these two computers
+
+324
+00:11:49,519 --> 00:11:53,279
+to do it
+
+325
+00:11:50,800 --> 00:11:54,480
+at the same time in parallel
+
+326
+00:11:53,279 --> 00:11:56,959
+am i right
+
+327
+00:11:54,480 --> 00:11:58,720
+or maybe a uh a minion computer let's
+
+328
+00:11:56,959 --> 00:12:01,120
+say a million computers you know just
+
+329
+00:11:58,720 --> 00:12:03,519
+one extreme cases
+
+330
+00:12:01,120 --> 00:12:06,399
+okay that makes sense
+
+331
+00:12:03,519 --> 00:12:08,800
+yeah if look let's let's don't think
+
+332
+00:12:06,399 --> 00:12:11,200
+about uh let's don't take
+
+333
+00:12:08,800 --> 00:12:13,279
+uh you know consider the communication
+
+334
+00:12:11,200 --> 00:12:15,519
+cost between these computers let's just
+
+335
+00:12:13,279 --> 00:12:16,639
+imagine you know these computers can
+
+336
+00:12:15,519 --> 00:12:20,079
+communicate
+
+337
+00:12:16,639 --> 00:12:21,680
+instantly without problems
+
+338
+00:12:20,079 --> 00:12:24,639
+100 numbers
+
+339
+00:12:21,680 --> 00:12:26,079
+for a single computer
+
+340
+00:12:24,639 --> 00:12:28,560
+you need to
+
+341
+00:12:26,079 --> 00:12:31,279
+go through these 100 numbers let's say i
+
+342
+00:12:28,560 --> 00:12:34,000
+have 10 computers
+
+343
+00:12:31,279 --> 00:12:35,200
+each computer take 10 numbers
+
+344
+00:12:34,000 --> 00:12:37,200
+right
+
+345
+00:12:35,200 --> 00:12:39,839
+am right
+
+346
+00:12:37,200 --> 00:12:42,399
+it makes sense so they can each computer
+
+347
+00:12:39,839 --> 00:12:44,079
+take 10 numbers 10 computers take 10
+
+348
+00:12:42,399 --> 00:12:46,160
+numbers so
+
+349
+00:12:44,079 --> 00:12:49,600
+each computer can doing this on the same
+
+350
+00:12:46,160 --> 00:12:53,639
+time in parallel in another paragraph
+
+351
+00:12:49,600 --> 00:12:53,639
+parallel what does it mean
+
+352
+00:12:54,480 --> 00:12:58,959
+it means two lines that go the same way
+
+353
+00:12:56,800 --> 00:13:03,279
+and then all right look at that what
+
+354
+00:12:58,959 --> 00:13:03,279
+does it mean so look why this is doing
+
+355
+00:13:03,440 --> 00:13:06,480
+okay so let's think about this example
+
+356
+00:13:05,519 --> 00:13:09,839
+okay
+
+357
+00:13:06,480 --> 00:13:10,959
+let's say eric you have a page of 100
+
+358
+00:13:09,839 --> 00:13:13,120
+pages
+
+359
+00:13:10,959 --> 00:13:15,200
+not 100 pages
+
+360
+00:13:13,120 --> 00:13:17,200
+and i don't care if you finish reading
+
+361
+00:13:15,200 --> 00:13:19,120
+it or you and write and finish it
+
+362
+00:13:17,200 --> 00:13:21,200
+together
+
+363
+00:13:19,120 --> 00:13:24,160
+so how how long does it take if if you
+
+364
+00:13:21,200 --> 00:13:26,240
+take you if you only you read the 100
+
+365
+00:13:24,160 --> 00:13:29,279
+pages it may be going to take what an
+
+366
+00:13:26,240 --> 00:13:31,839
+hour right supposedly it doesn't take a
+
+367
+00:13:29,279 --> 00:13:34,560
+long time to read okay okay i'm just
+
+368
+00:13:31,839 --> 00:13:37,839
+giving an example right ryan let's say
+
+369
+00:13:34,560 --> 00:13:40,240
+your personal reading the same speed and
+
+370
+00:13:37,839 --> 00:13:42,079
+how about if i say okay for the first 50
+
+371
+00:13:40,240 --> 00:13:44,079
+pages
+
+372
+00:13:42,079 --> 00:13:46,560
+you eric
+
+373
+00:13:44,079 --> 00:13:48,880
+you read it and then at the same time
+
+374
+00:13:46,560 --> 00:13:51,279
+ryan you can use read the second half
+
+375
+00:13:48,880 --> 00:13:53,360
+which is from 51 to 100.
+
+376
+00:13:51,279 --> 00:13:56,399
+so how long does it take for
+
+377
+00:13:53,360 --> 00:13:58,320
+for this page 100 pages
+
+378
+00:13:56,399 --> 00:14:01,040
+i don't get it sorry you don't get
+
+379
+00:13:58,320 --> 00:14:01,040
+anyone okay
+
+380
+00:14:01,360 --> 00:14:05,440
+so you have one book right a book of
+
+381
+00:14:04,160 --> 00:14:06,959
+maybe
+
+382
+00:14:05,440 --> 00:14:08,399
+okay
+
+383
+00:14:06,959 --> 00:14:11,279
+yeah
+
+384
+00:14:08,399 --> 00:14:15,160
+let's put this 100 chocolates yeah
+
+385
+00:14:11,279 --> 00:14:15,160
+easier 100 chocolates
+
+386
+00:14:15,440 --> 00:14:19,920
+100 chocolates
+
+387
+00:14:17,600 --> 00:14:19,920
+now
+
+388
+00:14:20,320 --> 00:14:23,519
+it takes you like an hour to eat one
+
+389
+00:14:22,720 --> 00:14:25,839
+chocolate
+
+390
+00:14:23,519 --> 00:14:29,560
+uh a minute to eat one chocolate okay a
+
+391
+00:14:25,839 --> 00:14:29,560
+minute you want chocolate
+
+392
+00:14:31,680 --> 00:14:35,920
+how long does it take for all the coins
+
+393
+00:14:33,600 --> 00:14:37,839
+all the chocolate coins to be eaten
+
+394
+00:14:35,920 --> 00:14:40,240
+100 minutes right
+
+395
+00:14:37,839 --> 00:14:41,600
+100 minutes
+
+396
+00:14:40,240 --> 00:14:43,279
+100 minutes
+
+397
+00:14:41,600 --> 00:14:45,519
+now ryan
+
+398
+00:14:43,279 --> 00:14:49,040
+you can hurt girga
+
+399
+00:14:45,519 --> 00:14:51,279
+right so how long does it take
+
+400
+00:14:49,040 --> 00:14:53,360
+15 minutes yeah that's what i say look
+
+401
+00:14:51,279 --> 00:14:55,199
+speed up
+
+402
+00:14:53,360 --> 00:14:57,360
+why why is it 15 minutes
+
+403
+00:14:55,199 --> 00:15:00,320
+because you two can eat it at the same
+
+404
+00:14:57,360 --> 00:15:02,800
+time that's in parallel
+
+405
+00:15:00,320 --> 00:15:04,160
+but why can't you just like
+
+406
+00:15:02,800 --> 00:15:06,880
+eat
+
+407
+00:15:04,160 --> 00:15:08,880
+away how big of a chocolate
+
+408
+00:15:06,880 --> 00:15:10,240
+i'll make a chocolate okay very very big
+
+409
+00:15:08,880 --> 00:15:11,600
+maybe this big
+
+410
+00:15:10,240 --> 00:15:13,360
+okay
+
+411
+00:15:11,600 --> 00:15:15,279
+okay okay come on come on if it was
+
+412
+00:15:13,360 --> 00:15:17,040
+really small yeah yeah i know just
+
+413
+00:15:15,279 --> 00:15:19,920
+example
+
+414
+00:15:17,040 --> 00:15:21,920
+so so my question my so here's the thing
+
+415
+00:15:19,920 --> 00:15:23,760
+okay there are a hundred numbers
+
+416
+00:15:21,920 --> 00:15:26,639
+and then like 10 computers they can do
+
+417
+00:15:23,760 --> 00:15:28,240
+this in parallel right they can do this
+
+418
+00:15:26,639 --> 00:15:30,560
+in parallel so let's speed up could be
+
+419
+00:15:28,240 --> 00:15:32,240
+10 10 times faster all right
+
+420
+00:15:30,560 --> 00:15:33,920
+i'm right because they can do it at the
+
+421
+00:15:32,240 --> 00:15:35,920
+same time that's the advantage of using
+
+422
+00:15:33,920 --> 00:15:37,839
+the divide and conquer because we can
+
+423
+00:15:35,920 --> 00:15:42,240
+divide this problem into a few sub
+
+424
+00:15:37,839 --> 00:15:43,680
+problems and they are independent right
+
+425
+00:15:42,240 --> 00:15:46,320
+they are independent and can be
+
+426
+00:15:43,680 --> 00:15:48,160
+processed in parallel at the same time
+
+427
+00:15:46,320 --> 00:15:50,320
+and when we get the result from each
+
+428
+00:15:48,160 --> 00:15:52,720
+part of the sub problems then we can
+
+429
+00:15:50,320 --> 00:15:55,360
+merge it yeah we can merge it
+
+430
+00:15:52,720 --> 00:15:57,600
+right like the maximum uh getting the
+
+431
+00:15:55,360 --> 00:15:59,199
+maximum right getting the maximum then
+
+432
+00:15:57,600 --> 00:16:00,560
+we can do what
+
+433
+00:15:59,199 --> 00:16:02,800
+uh we
+
+434
+00:16:00,560 --> 00:16:05,199
+we can compare right the maximum of each
+
+435
+00:16:02,800 --> 00:16:06,880
+part right am right are you right
+
+436
+00:16:05,199 --> 00:16:09,680
+yeah are you all right
+
+437
+00:16:06,880 --> 00:16:11,680
+yeah so let's see
+
+438
+00:16:09,680 --> 00:16:14,720
+let's divide and conquer any other
+
+439
+00:16:11,680 --> 00:16:17,040
+examples like we have talked about what
+
+440
+00:16:14,720 --> 00:16:20,639
+much sauce yeah munchie sauce
+
+441
+00:16:17,040 --> 00:16:20,639
+do you still remember the magic sauce
+
+442
+00:16:21,680 --> 00:16:26,880
+yeah i'm going to quickly write it okay
+
+443
+00:16:23,600 --> 00:16:26,880
+come on divide much easier
+
+444
+00:16:28,720 --> 00:16:31,920
+can you stop
+
+445
+00:16:29,839 --> 00:16:34,079
+stoplight please
+
+446
+00:16:31,920 --> 00:16:36,800
+numbs okay now look
+
+447
+00:16:34,079 --> 00:16:39,440
+if there's only one number
+
+448
+00:16:36,800 --> 00:16:43,199
+if there's only one number
+
+449
+00:16:39,440 --> 00:16:43,199
+then we return it right return this
+
+450
+00:16:43,920 --> 00:16:48,560
+return it right because what number one
+
+451
+00:16:46,639 --> 00:16:50,639
+number is already sorted right what
+
+452
+00:16:48,560 --> 00:16:52,079
+number is saudi now the meter power the
+
+453
+00:16:50,639 --> 00:16:54,560
+middle part is what
+
+454
+00:16:52,079 --> 00:16:56,160
+the middle part is the
+
+455
+00:16:54,560 --> 00:16:58,240
+nums
+
+456
+00:16:56,160 --> 00:16:59,600
+divided by two okay and then what's the
+
+457
+00:16:58,240 --> 00:17:00,560
+left one what's the
+
+458
+00:16:59,600 --> 00:17:01,759
+right
+
+459
+00:17:00,560 --> 00:17:03,360
+look
+
+460
+00:17:01,759 --> 00:17:05,760
+left
+
+461
+00:17:03,360 --> 00:17:06,880
+equals let's say we want to merge sort
+
+462
+00:17:05,760 --> 00:17:09,360
+the
+
+463
+00:17:06,880 --> 00:17:11,919
+the last part that's part numbers area
+
+464
+00:17:09,360 --> 00:17:11,919
+look at me
+
+465
+00:17:12,720 --> 00:17:17,439
+nouns up to me right
+
+466
+00:17:15,439 --> 00:17:20,400
+and can you tell me what to write left
+
+467
+00:17:17,439 --> 00:17:20,400
+right equals what
+
+468
+00:17:23,439 --> 00:17:27,039
+start from me to the end right now
+
+469
+00:17:29,200 --> 00:17:31,440
+okay
+
+470
+00:17:31,520 --> 00:17:36,799
+yeah i know what's next if i have left
+
+471
+00:17:33,679 --> 00:17:40,400
+and right what's next
+
+472
+00:17:36,799 --> 00:17:40,400
+if i have left and right what's next
+
+473
+00:17:40,559 --> 00:17:46,080
+can you not touch my computer for the
+
+474
+00:17:42,480 --> 00:17:47,600
+last time okay
+
+475
+00:17:46,080 --> 00:17:49,919
+all right
+
+476
+00:17:47,600 --> 00:17:51,760
+i have left part i have right what what
+
+477
+00:17:49,919 --> 00:17:53,840
+should i do look one two three how do
+
+478
+00:17:51,760 --> 00:17:55,039
+you how do you make how do we merge one
+
+479
+00:17:53,840 --> 00:17:56,400
+two three and
+
+480
+00:17:55,039 --> 00:17:58,320
+four five six
+
+481
+00:17:56,400 --> 00:18:01,200
+to make it
+
+482
+00:17:58,320 --> 00:18:03,360
+remember we merged to saute this yeah we
+
+483
+00:18:01,200 --> 00:18:05,520
+need to merge two saute this remember we
+
+484
+00:18:03,360 --> 00:18:07,919
+talked about this much saute this then
+
+485
+00:18:05,520 --> 00:18:10,480
+we just merge this is merged left and
+
+486
+00:18:07,919 --> 00:18:10,480
+right okay
+
+487
+00:18:11,679 --> 00:18:17,039
+that's the margin so remember look we
+
+488
+00:18:14,320 --> 00:18:18,080
+have salty this yet one two five one two
+
+489
+00:18:17,039 --> 00:18:19,200
+four and
+
+490
+00:18:18,080 --> 00:18:21,760
+three
+
+491
+00:18:19,200 --> 00:18:24,160
+four five how do we merge this look we
+
+492
+00:18:21,760 --> 00:18:26,400
+have two pointers we have one and three
+
+493
+00:18:24,160 --> 00:18:29,280
+yeah keep moving one and three which one
+
+494
+00:18:26,400 --> 00:18:32,240
+is smaller one one and then move it two
+
+495
+00:18:29,280 --> 00:18:35,360
+and three which is smaller two
+
+496
+00:18:32,240 --> 00:18:37,600
+two then i move it four and three
+
+497
+00:18:35,360 --> 00:18:39,039
+four three yeah and three i move this
+
+498
+00:18:37,600 --> 00:18:40,000
+yeah four and four okay it doesn't
+
+499
+00:18:39,039 --> 00:18:43,120
+matter
+
+500
+00:18:40,000 --> 00:18:45,760
+and i move this yeah five yeah
+
+501
+00:18:43,120 --> 00:18:46,910
+okay make sense
+
+502
+00:18:45,760 --> 00:18:48,240
+make sense
+
+503
+00:18:46,910 --> 00:18:51,520
+[Music]
+
+504
+00:18:48,240 --> 00:18:53,520
+okay this is much soft and then
+
+505
+00:18:51,520 --> 00:18:55,600
+the hanoi tower right we talked about
+
+506
+00:18:53,520 --> 00:18:56,559
+that and what else what else can we do
+
+507
+00:18:55,600 --> 00:18:59,679
+this
+
+508
+00:18:56,559 --> 00:18:59,679
+what else can we do this
+
+509
+00:18:59,840 --> 00:19:03,840
+we can okay i'm going to talk about
+
+510
+00:19:01,840 --> 00:19:08,559
+another quick problem okay just very
+
+511
+00:19:03,840 --> 00:19:10,799
+quick very quick alola another ruler
+
+512
+00:19:08,559 --> 00:19:10,799
+okay
+
+513
+00:19:23,280 --> 00:19:27,200
+and then look we have uh
+
+514
+00:19:24,960 --> 00:19:30,080
+in a meter in the middle and then do
+
+515
+00:19:27,200 --> 00:19:32,080
+this to this yeah yeah you want to do
+
+516
+00:19:30,080 --> 00:19:34,960
+this
+
+517
+00:19:32,080 --> 00:19:36,880
+yeah something like that
+
+518
+00:19:34,960 --> 00:19:38,720
+oh yeah
+
+519
+00:19:36,880 --> 00:19:40,799
+yeah lula so you have these different
+
+520
+00:19:38,720 --> 00:19:42,960
+measurements okay so we can have a
+
+521
+00:19:40,799 --> 00:19:44,799
+function like define
+
+522
+00:19:42,960 --> 00:19:46,080
+lula
+
+523
+00:19:44,799 --> 00:19:49,600
+left
+
+524
+00:19:46,080 --> 00:19:51,440
+you need left right
+
+525
+00:19:49,600 --> 00:19:52,640
+and then height height is least high
+
+526
+00:19:51,440 --> 00:19:54,799
+yeah
+
+527
+00:19:52,640 --> 00:19:54,799
+hi
+
+528
+00:19:55,200 --> 00:20:00,799
+okay so first of all meet the meat okay
+
+529
+00:19:57,440 --> 00:20:03,919
+so look it has to be r minus air has to
+
+530
+00:20:00,799 --> 00:20:06,320
+be the power of uh you know so basically
+
+531
+00:20:03,919 --> 00:20:08,480
+let's make this simple so so basically
+
+532
+00:20:06,320 --> 00:20:10,880
+you want to have a ruler which come
+
+533
+00:20:08,480 --> 00:20:13,039
+which can be separated recursively right
+
+534
+00:20:10,880 --> 00:20:15,760
+so in order for this to be
+
+535
+00:20:13,039 --> 00:20:17,840
+uh be possible to lose we we need to
+
+536
+00:20:15,760 --> 00:20:21,120
+make sure 2 to the power h equals r
+
+537
+00:20:17,840 --> 00:20:23,120
+minus l okay so this is the requirement
+
+538
+00:20:21,120 --> 00:20:24,480
+can i replace it
+
+539
+00:20:23,120 --> 00:20:25,840
+okay
+
+540
+00:20:24,480 --> 00:20:27,840
+okay
+
+541
+00:20:25,840 --> 00:20:30,960
+so first of all the meter one the meter
+
+542
+00:20:27,840 --> 00:20:33,120
+one equals air plus r
+
+543
+00:20:30,960 --> 00:20:35,039
+divided by two right
+
+544
+00:20:33,120 --> 00:20:37,280
+every yn
+
+545
+00:20:35,039 --> 00:20:40,159
+meter equals a plus one divided by two
+
+546
+00:20:37,280 --> 00:20:43,600
+we can do this just divided by two okay
+
+547
+00:20:40,159 --> 00:20:46,480
+all we can do is l plus ah 51 okay let's
+
+548
+00:20:43,600 --> 00:20:46,480
+draw the same okay
+
+549
+00:20:46,559 --> 00:20:50,880
+and now look if height is bigger than
+
+550
+00:20:49,360 --> 00:20:53,039
+zero
+
+551
+00:20:50,880 --> 00:20:56,320
+if the height is bigger than zero then
+
+552
+00:20:53,039 --> 00:20:59,120
+we do what what we can do we need to
+
+553
+00:20:56,320 --> 00:21:01,600
+do lula make the
+
+554
+00:20:59,120 --> 00:21:04,799
+for the first half which is which which
+
+555
+00:21:01,600 --> 00:21:07,760
+is what air and the meter
+
+556
+00:21:04,799 --> 00:21:10,000
+but the height will be five minus one
+
+557
+00:21:07,760 --> 00:21:10,000
+right
+
+558
+00:21:10,159 --> 00:21:15,120
+will be height minus one okay yeah what
+
+559
+00:21:12,320 --> 00:21:17,840
+did i say what did i say high minus one
+
+560
+00:21:15,120 --> 00:21:17,840
+what does this mean
+
+561
+00:21:18,240 --> 00:21:20,960
+you're not listening okay should i
+
+562
+00:21:19,600 --> 00:21:22,080
+repeat again
+
+563
+00:21:20,960 --> 00:21:24,799
+yeah
+
+564
+00:21:22,080 --> 00:21:27,120
+i want to i want to make um
+
+565
+00:21:24,799 --> 00:21:28,720
+to make the markers of the rulers right
+
+566
+00:21:27,120 --> 00:21:31,200
+so i want to get the middle one this one
+
+567
+00:21:28,720 --> 00:21:34,559
+this side get the middle one yeah
+
+568
+00:21:31,200 --> 00:21:36,240
+and then look i want recursively
+
+569
+00:21:34,559 --> 00:21:38,559
+recursively i want to
+
+570
+00:21:36,240 --> 00:21:40,720
+mark the left left side yeah this left
+
+571
+00:21:38,559 --> 00:21:43,600
+side which is this one and then i want
+
+572
+00:21:40,720 --> 00:21:44,400
+to mark now i want to mark at
+
+573
+00:21:43,600 --> 00:21:45,679
+here
+
+574
+00:21:44,400 --> 00:21:48,400
+here
+
+575
+00:21:45,679 --> 00:21:50,799
+which is meter and this is h and then i
+
+576
+00:21:48,400 --> 00:21:53,600
+want to mark what what's missing
+
+577
+00:21:50,799 --> 00:21:53,600
+what's this part
+
+578
+00:21:54,799 --> 00:21:59,280
+so what's the parameter what's the first
+
+579
+00:21:56,720 --> 00:22:02,799
+parameter i want to get
+
+580
+00:21:59,280 --> 00:22:06,240
+air to meet and now this is what
+
+581
+00:22:02,799 --> 00:22:06,240
+you really are busy right
+
+582
+00:22:06,559 --> 00:22:09,760
+what's the speed
+
+583
+00:22:08,799 --> 00:22:11,919
+it's
+
+584
+00:22:09,760 --> 00:22:14,880
+air to meet the air to meet and then
+
+585
+00:22:11,919 --> 00:22:17,520
+what's this b to r right
+
+586
+00:22:14,880 --> 00:22:20,400
+mid to r good r
+
+587
+00:22:17,520 --> 00:22:22,559
+right okay and then h minus one right
+
+588
+00:22:20,400 --> 00:22:24,159
+look this is quite similar to hanoi
+
+589
+00:22:22,559 --> 00:22:27,200
+tower right first of all there are three
+
+590
+00:22:24,159 --> 00:22:29,600
+steps we want to we want to complete the
+
+591
+00:22:27,200 --> 00:22:32,000
+marking of the ruler so what's the step
+
+592
+00:22:29,600 --> 00:22:33,120
+first of all we want to mark the center
+
+593
+00:22:32,000 --> 00:22:36,720
+right
+
+594
+00:22:33,120 --> 00:22:39,280
+and then the second step mark the left
+
+595
+00:22:36,720 --> 00:22:41,600
+the third step mark on the right
+
+596
+00:22:39,280 --> 00:22:43,919
+divide and conquer easy
+
+597
+00:22:41,600 --> 00:22:46,320
+and once we keep marking and when the
+
+598
+00:22:43,919 --> 00:22:48,559
+height is bigger than zero right if high
+
+599
+00:22:46,320 --> 00:22:50,240
+is you know if high is always is smaller
+
+600
+00:22:48,559 --> 00:22:52,080
+than zero height
+
+601
+00:22:50,240 --> 00:22:53,600
+height look this is the height
+
+602
+00:22:52,080 --> 00:22:55,520
+how long you want to mark it right
+
+603
+00:22:53,600 --> 00:22:57,200
+because the lower you know if you keep
+
+604
+00:22:55,520 --> 00:22:59,360
+doing that you'll be smaller right
+
+605
+00:22:57,200 --> 00:23:01,200
+always it will be shorter shorter
+
+606
+00:22:59,360 --> 00:23:02,559
+shorter the length yeah this is
+
+607
+00:23:01,200 --> 00:23:04,640
+controlled by the height the surf
+
+608
+00:23:02,559 --> 00:23:08,080
+parameter makes sense this would just be
+
+609
+00:23:04,640 --> 00:23:09,840
+a dot yeah when it's 0 so then that's
+
+610
+00:23:08,080 --> 00:23:10,880
+the time we stopped marking okay so
+
+611
+00:23:09,840 --> 00:23:12,480
+let's say
+
+612
+00:23:10,880 --> 00:23:14,400
+divide and conquer okay that's the
+
+613
+00:23:12,480 --> 00:23:16,559
+concept that's the concept that's a very
+
+614
+00:23:14,400 --> 00:23:18,080
+important concept of the computer
+
+615
+00:23:16,559 --> 00:23:19,679
+programming we use the divide and
+
+616
+00:23:18,080 --> 00:23:21,840
+conquer to solve
+
+617
+00:23:19,679 --> 00:23:24,400
+the a big problem
+
+618
+00:23:21,840 --> 00:23:26,320
+by dividing it into a smaller problem
+
+619
+00:23:24,400 --> 00:23:28,240
+and this small problem can be
+
+620
+00:23:26,320 --> 00:23:29,840
+independently
+
+621
+00:23:28,240 --> 00:23:32,880
+solved so it means that we can
+
+622
+00:23:29,840 --> 00:23:32,880
+parallelize you know
+
+623
+00:23:33,200 --> 00:23:38,000
+what's the advantage of
+
+624
+00:23:36,159 --> 00:23:39,679
+of the parallelization
+
+625
+00:23:38,000 --> 00:23:41,039
+parallelizing what why do we need to
+
+626
+00:23:39,679 --> 00:23:42,799
+parallelize it
+
+627
+00:23:41,039 --> 00:23:46,159
+what's the advantage what advantage we
+
+628
+00:23:42,799 --> 00:23:46,159
+can get from parallelizing it
+
+629
+00:23:47,120 --> 00:23:50,840
+to make it what
+
+630
+00:23:52,159 --> 00:23:56,400
+i was talking about the coins example so
+
+631
+00:23:54,880 --> 00:23:58,480
+what's the advantage of making it
+
+632
+00:23:56,400 --> 00:24:00,480
+parallel
+
+633
+00:23:58,480 --> 00:24:02,400
+it'll be quicker quicker yeah it'll be
+
+634
+00:24:00,480 --> 00:24:04,240
+quicker yes the polarization because
+
+635
+00:24:02,400 --> 00:24:05,200
+this problem can be done in parallel
+
+636
+00:24:04,240 --> 00:24:07,679
+okay
+
+637
+00:24:05,200 --> 00:24:09,760
+okay that's it for today good job
+
+638
+00:24:07,679 --> 00:24:13,080
+bye bye
+
+639
+00:24:09,760 --> 00:24:13,080
+bye bye
+
