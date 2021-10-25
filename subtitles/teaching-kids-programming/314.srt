@@ -1,0 +1,1208 @@
+1
+00:00:00,000 --> 00:00:03,040
+[Music]
+
+2
+00:00:03,760 --> 00:00:08,320
+we have talked about divide and conquer
+
+3
+00:00:05,440 --> 00:00:11,679
+yesterday right divide and conquer so
+
+4
+00:00:08,320 --> 00:00:14,160
+uh we have a big problem and then we
+
+5
+00:00:11,679 --> 00:00:16,800
+divide it into smaller chunks of work
+
+6
+00:00:14,160 --> 00:00:19,840
+and we can distribute them yeah
+
+7
+00:00:16,800 --> 00:00:21,119
+to solve them individually independently
+
+8
+00:00:19,840 --> 00:00:22,240
+and
+
+9
+00:00:21,119 --> 00:00:24,160
+remember
+
+10
+00:00:22,240 --> 00:00:25,519
+remember we have a few numbers yeah a
+
+11
+00:00:24,160 --> 00:00:26,880
+few numbers we're dividing the two
+
+12
+00:00:25,519 --> 00:00:29,119
+halves and then we
+
+13
+00:00:26,880 --> 00:00:30,960
+we check we get the maximum of the first
+
+14
+00:00:29,119 --> 00:00:33,440
+half and the maximum the second half
+
+15
+00:00:30,960 --> 00:00:36,559
+yeah and then we can merge them right
+
+16
+00:00:33,440 --> 00:00:37,440
+this is the same idea as the merge sort
+
+17
+00:00:36,559 --> 00:00:39,200
+yeah
+
+18
+00:00:37,440 --> 00:00:41,600
+so one advantage of this divide and
+
+19
+00:00:39,200 --> 00:00:44,160
+conquer is that we can do this
+
+20
+00:00:41,600 --> 00:00:46,079
+small task in parallel so in parallel
+
+21
+00:00:44,160 --> 00:00:47,680
+what's parallel so i have a task i can
+
+22
+00:00:46,079 --> 00:00:50,000
+do this in parallel
+
+23
+00:00:47,680 --> 00:00:51,840
+in parallel yeah i can do this tag i
+
+24
+00:00:50,000 --> 00:00:52,800
+have a task i can do this in parallel
+
+25
+00:00:51,840 --> 00:00:55,520
+layer
+
+26
+00:00:52,800 --> 00:00:57,840
+and then when this task the results for
+
+27
+00:00:55,520 --> 00:00:58,719
+these tasks completed i can merge it to
+
+28
+00:00:57,840 --> 00:01:00,719
+a big
+
+29
+00:00:58,719 --> 00:01:02,960
+uh you know merge it to get this the
+
+30
+00:01:00,719 --> 00:01:03,920
+solution for the entire big problem
+
+31
+00:01:02,960 --> 00:01:05,439
+right
+
+32
+00:01:03,920 --> 00:01:08,479
+so
+
+33
+00:01:05,439 --> 00:01:10,479
+if we parallelize this we can achieve
+
+34
+00:01:08,479 --> 00:01:12,159
+this performance speed up right
+
+35
+00:01:10,479 --> 00:01:15,280
+performance data you know the computers
+
+36
+00:01:12,159 --> 00:01:17,840
+have calls core they have cpu cpu
+
+37
+00:01:15,280 --> 00:01:20,799
+central process unit processing unit is
+
+38
+00:01:17,840 --> 00:01:23,200
+the brand of computer yeah brand
+
+39
+00:01:20,799 --> 00:01:26,400
+community they have 24 brands yeah my
+
+40
+00:01:23,200 --> 00:01:29,439
+computer have 24 cores 24 course 24
+
+41
+00:01:26,400 --> 00:01:31,680
+course cpu course yeah so each course is
+
+42
+00:01:29,439 --> 00:01:34,000
+like a brain okay when
+
+43
+00:01:31,680 --> 00:01:36,560
+so look if a task can be done in
+
+44
+00:01:34,000 --> 00:01:38,720
+parallel right for example if if it's
+
+45
+00:01:36,560 --> 00:01:42,560
+fully paralyzed but let's say there are
+
+46
+00:01:38,720 --> 00:01:42,560
+10 tasks 10 tasks
+
+47
+00:01:43,119 --> 00:01:47,520
+if i have only one brand yeah one core
+
+48
+00:01:45,200 --> 00:01:49,920
+cpu to do it it takes
+
+49
+00:01:47,520 --> 00:01:52,240
+it for example if it takes one minute to
+
+50
+00:01:49,920 --> 00:01:54,320
+complete one task then it needs 10
+
+51
+00:01:52,240 --> 00:01:56,799
+minutes to complete all these ten tasks
+
+52
+00:01:54,320 --> 00:01:58,880
+right but if i have a two cores
+
+53
+00:01:56,799 --> 00:02:01,200
+two cars two computers and these can be
+
+54
+00:01:58,880 --> 00:02:03,600
+taken in beta and how many minutes there
+
+55
+00:02:01,200 --> 00:02:06,079
+must be two people okay two people two
+
+56
+00:02:03,600 --> 00:02:09,079
+coins two cars is the same yeah so how
+
+57
+00:02:06,079 --> 00:02:09,079
+many
+
+58
+00:02:11,030 --> 00:02:15,280
+[Music]
+
+59
+00:02:12,400 --> 00:02:18,400
+okay this is the same assumption okay so
+
+60
+00:02:15,280 --> 00:02:20,480
+okay if you we if we were the one people
+
+61
+00:02:18,400 --> 00:02:24,000
+finished five coins another people
+
+62
+00:02:20,480 --> 00:02:26,319
+finished five five tasks
+
+63
+00:02:24,000 --> 00:02:28,560
+you know five tasks
+
+64
+00:02:26,319 --> 00:02:30,560
+uh so how long does it take
+
+65
+00:02:28,560 --> 00:02:33,040
+it takes four minutes five minutes yeah
+
+66
+00:02:30,560 --> 00:02:35,440
+exactly so look if i have this do this
+
+67
+00:02:33,040 --> 00:02:36,480
+in parallel so i can do this
+
+68
+00:02:35,440 --> 00:02:38,959
+five
+
+69
+00:02:36,480 --> 00:02:41,200
+yeah two brands two cars whatever yeah
+
+70
+00:02:38,959 --> 00:02:43,440
+and these are tasks or coins you pick
+
+71
+00:02:41,200 --> 00:02:45,840
+whatever the time
+
+72
+00:02:43,440 --> 00:02:48,000
+yeah one minute two minutes three
+
+73
+00:02:45,840 --> 00:02:49,519
+minutes four minutes five minutes right
+
+74
+00:02:48,000 --> 00:02:51,360
+because look the time is shortened
+
+75
+00:02:49,519 --> 00:02:53,599
+because these can be done in parallel
+
+76
+00:02:51,360 --> 00:02:55,920
+means that once one minute passed and
+
+77
+00:02:53,599 --> 00:02:58,400
+these can be done in parallel that's one
+
+78
+00:02:55,920 --> 00:03:00,959
+obvious way yeah one one quickest way is
+
+79
+00:02:58,400 --> 00:03:03,360
+to speed up yeah to get this performance
+
+80
+00:03:00,959 --> 00:03:05,680
+speed up right it's easier right so look
+
+81
+00:03:03,360 --> 00:03:08,400
+if a task is uh you know
+
+82
+00:03:05,680 --> 00:03:09,599
+if if we if we have a lot of tasks to
+
+83
+00:03:08,400 --> 00:03:12,879
+complete
+
+84
+00:03:09,599 --> 00:03:15,120
+and one easy way to make it faster
+
+85
+00:03:12,879 --> 00:03:16,159
+is to get more calls coming to help
+
+86
+00:03:15,120 --> 00:03:19,840
+right
+
+87
+00:03:16,159 --> 00:03:22,080
+right all right yes make sense
+
+88
+00:03:19,840 --> 00:03:23,280
+okay so look
+
+89
+00:03:22,080 --> 00:03:25,360
+it
+
+90
+00:03:23,280 --> 00:03:29,040
+now we introduced this concept called
+
+91
+00:03:25,360 --> 00:03:29,040
+the speed up okay what's with that
+
+92
+00:03:29,360 --> 00:03:33,680
+speed up
+
+93
+00:03:30,560 --> 00:03:35,920
+speedo is defined as the time of one
+
+94
+00:03:33,680 --> 00:03:39,519
+people one call
+
+95
+00:03:35,920 --> 00:03:42,319
+to uh finish the task divided by the
+
+96
+00:03:39,519 --> 00:03:45,760
+time of n calls or n people to have
+
+97
+00:03:42,319 --> 00:03:49,280
+divided class yeah so let's
+
+98
+00:03:45,760 --> 00:03:51,440
+is equal to 10 divided by five
+
+99
+00:03:49,280 --> 00:03:53,680
+exactly look if there are one people is
+
+100
+00:03:51,440 --> 00:03:56,640
+ten right if two people is five then the
+
+101
+00:03:53,680 --> 00:03:57,920
+speed up is two what easy and if ten
+
+102
+00:03:56,640 --> 00:03:59,439
+people this is
+
+103
+00:03:57,920 --> 00:04:03,040
+ten people that will be
+
+104
+00:03:59,439 --> 00:04:05,040
+one and speed up will be ten right
+
+105
+00:04:03,040 --> 00:04:07,760
+so let's speed up so
+
+106
+00:04:05,040 --> 00:04:10,000
+for this 100 if this class is a hundred
+
+107
+00:04:07,760 --> 00:04:11,200
+percent parallelizable minimum you know
+
+108
+00:04:10,000 --> 00:04:13,920
+you can just
+
+109
+00:04:11,200 --> 00:04:15,599
+you can this this work you can just
+
+110
+00:04:13,920 --> 00:04:18,079
+distribute it in parallel let's call
+
+111
+00:04:15,599 --> 00:04:20,320
+paralyzed but yeah and then the maximum
+
+112
+00:04:18,079 --> 00:04:22,639
+speed up is linear yeah given these n
+
+113
+00:04:20,320 --> 00:04:23,360
+chords you can achieve the speed up of n
+
+114
+00:04:22,639 --> 00:04:26,080
+i
+
+115
+00:04:23,360 --> 00:04:27,199
+that's linear yeah
+
+116
+00:04:26,080 --> 00:04:29,600
+that's the
+
+117
+00:04:27,199 --> 00:04:32,240
+number of core number of people number
+
+118
+00:04:29,600 --> 00:04:35,360
+of course let's speed up yeah and then
+
+119
+00:04:32,240 --> 00:04:37,440
+you can achieve this this new nino right
+
+120
+00:04:35,360 --> 00:04:38,560
+this is nina
+
+121
+00:04:37,440 --> 00:04:40,320
+but in
+
+122
+00:04:38,560 --> 00:04:43,360
+real life
+
+123
+00:04:40,320 --> 00:04:45,600
+in real life the the the task
+
+124
+00:04:43,360 --> 00:04:47,120
+compose sequential path and the
+
+125
+00:04:45,600 --> 00:04:49,919
+parallelized power what's the sequential
+
+126
+00:04:47,120 --> 00:04:51,520
+part if if i have a task
+
+127
+00:04:49,919 --> 00:04:53,440
+if i have a task look
+
+128
+00:04:51,520 --> 00:04:56,960
+i have tasks
+
+129
+00:04:53,440 --> 00:04:56,960
+look at these other tasks 10
+
+130
+00:04:59,120 --> 00:05:05,440
+and if i say okay these five
+
+131
+00:05:02,800 --> 00:05:08,080
+you can't distribute them in parallel
+
+132
+00:05:05,440 --> 00:05:10,000
+meaning that you can't have more course
+
+133
+00:05:08,080 --> 00:05:12,000
+helping to improve these you know
+
+134
+00:05:10,000 --> 00:05:14,880
+meaning these five needs to be taken
+
+135
+00:05:12,000 --> 00:05:17,360
+sequentially but these five you can ask
+
+136
+00:05:14,880 --> 00:05:19,759
+more course or people to come to help
+
+137
+00:05:17,360 --> 00:05:21,520
+right let's say five people five people
+
+138
+00:05:19,759 --> 00:05:22,400
+to help and you know
+
+139
+00:05:21,520 --> 00:05:24,720
+six
+
+140
+00:05:22,400 --> 00:05:27,039
+wow you quick look because this
+
+141
+00:05:24,720 --> 00:05:29,440
+needs to fight like one you'll take
+
+142
+00:05:27,039 --> 00:05:31,280
+five and then you'll eat one and then
+
+143
+00:05:29,440 --> 00:05:33,280
+the others will eat one one one or
+
+144
+00:05:31,280 --> 00:05:36,240
+exactly you're just taking one of them
+
+145
+00:05:33,280 --> 00:05:38,320
+yeah one black very good six wow yes
+
+146
+00:05:36,240 --> 00:05:40,080
+exactly so look the sequential part will
+
+147
+00:05:38,320 --> 00:05:42,400
+be one two
+
+148
+00:05:40,080 --> 00:05:44,240
+three four five and then the
+
+149
+00:05:42,400 --> 00:05:46,720
+parallelized bar right this is this
+
+150
+00:05:44,240 --> 00:05:48,320
+takes five five seconds five minutes or
+
+151
+00:05:46,720 --> 00:05:50,960
+whatever five you need
+
+152
+00:05:48,320 --> 00:05:52,880
+but now these can be taken by parallel
+
+153
+00:05:50,960 --> 00:05:55,199
+by five chords right
+
+154
+00:05:52,880 --> 00:05:57,039
+look at here to here only time equals
+
+155
+00:05:55,199 --> 00:05:58,639
+one so time would be five plus one
+
+156
+00:05:57,039 --> 00:06:01,919
+equals six
+
+157
+00:05:58,639 --> 00:06:03,840
+okay so we want ideally we want this
+
+158
+00:06:01,919 --> 00:06:06,000
+sequential part to as small as possible
+
+159
+00:06:03,840 --> 00:06:08,639
+right so we can have more costs to help
+
+160
+00:06:06,000 --> 00:06:10,720
+uh speed up and we want to
+
+161
+00:06:08,639 --> 00:06:13,840
+we we want to have these
+
+162
+00:06:10,720 --> 00:06:17,120
+this bit you know 100 i say now it's
+
+163
+00:06:13,840 --> 00:06:18,800
+just 50 right because look that ten and
+
+164
+00:06:17,120 --> 00:06:21,520
+then five of them can be
+
+165
+00:06:18,800 --> 00:06:23,919
+paralyzed but so this is 50
+
+166
+00:06:21,520 --> 00:06:26,880
+right so you want this percentage to go
+
+167
+00:06:23,919 --> 00:06:28,880
+up to 100 to have to utilize the
+
+168
+00:06:26,880 --> 00:06:31,280
+multi-course technology you have to have
+
+169
+00:06:28,880 --> 00:06:32,560
+more people to come to help right
+
+170
+00:06:31,280 --> 00:06:36,319
+so
+
+171
+00:06:32,560 --> 00:06:38,800
+so we're going to study a formula which
+
+172
+00:06:36,319 --> 00:06:40,400
+is has this uh sequential path
+
+173
+00:06:38,800 --> 00:06:41,680
+sequential part b
+
+174
+00:06:40,400 --> 00:06:43,039
+and then
+
+175
+00:06:41,680 --> 00:06:44,800
+if this b
+
+176
+00:06:43,039 --> 00:06:46,160
+this sequential part is b and then the
+
+177
+00:06:44,800 --> 00:06:48,080
+parabolic
+
+178
+00:06:46,160 --> 00:06:50,080
+the part which can be paralyzed but is
+
+179
+00:06:48,080 --> 00:06:51,039
+one minus b right
+
+180
+00:06:50,080 --> 00:06:52,960
+okay
+
+181
+00:06:51,039 --> 00:06:55,039
+because all these two added up to one
+
+182
+00:06:52,960 --> 00:06:56,240
+percent one one hundred percent which is
+
+183
+00:06:55,039 --> 00:06:59,280
+one okay
+
+184
+00:06:56,240 --> 00:07:02,560
+okay let's do this look
+
+185
+00:06:59,280 --> 00:07:05,919
+speed up equals t1 divided by tn right
+
+186
+00:07:02,560 --> 00:07:10,800
+and i can do this again t1
+
+187
+00:07:05,919 --> 00:07:14,160
+tn yeah tn equals what i can do is t1
+
+188
+00:07:10,800 --> 00:07:18,639
+and then it will be equals to the
+
+189
+00:07:14,160 --> 00:07:21,680
+sequential path plus part plus
+
+190
+00:07:18,639 --> 00:07:23,520
+the the parallelized path can be divided
+
+191
+00:07:21,680 --> 00:07:25,680
+by n right because look this is the
+
+192
+00:07:23,520 --> 00:07:27,280
+power which can be parallelized
+
+193
+00:07:25,680 --> 00:07:29,440
+which can be paralyzed but and then
+
+194
+00:07:27,280 --> 00:07:32,639
+they're n process you can
+
+195
+00:07:29,440 --> 00:07:34,080
+you can help to reduce the time to
+
+196
+00:07:32,639 --> 00:07:36,479
+one end right
+
+197
+00:07:34,080 --> 00:07:38,960
+okay so look remember we talked about b
+
+198
+00:07:36,479 --> 00:07:41,840
+is the sequential path so
+
+199
+00:07:38,960 --> 00:07:44,560
+so p if p is the what is the percentage
+
+200
+00:07:41,840 --> 00:07:47,440
+that can be parallelized so b p equals 1
+
+201
+00:07:44,560 --> 00:07:50,240
+minus b right p plus
+
+202
+00:07:47,440 --> 00:07:52,000
+p plus p equals 1 right this is the part
+
+203
+00:07:50,240 --> 00:07:54,160
+that can be parallelized but and this is
+
+204
+00:07:52,000 --> 00:07:57,280
+the part which cannot be parallelizable
+
+205
+00:07:54,160 --> 00:08:01,599
+so if we look we can cancel out these
+
+206
+00:07:57,280 --> 00:08:03,680
+so you'll be 1 divided by b
+
+207
+00:08:01,599 --> 00:08:05,520
+b let's uh
+
+208
+00:08:03,680 --> 00:08:08,160
+b will be
+
+209
+00:08:05,520 --> 00:08:10,560
+b will be 1 minus p right
+
+210
+00:08:08,160 --> 00:08:14,240
+so y minus p
+
+211
+00:08:10,560 --> 00:08:17,120
+1 minus b equals p plus p divided by n
+
+212
+00:08:14,240 --> 00:08:19,680
+right so look this is the formula
+
+213
+00:08:17,120 --> 00:08:22,800
+the maximum speed up okay i just look
+
+214
+00:08:19,680 --> 00:08:25,199
+from here to here right but p plus b is
+
+215
+00:08:22,800 --> 00:08:27,520
+the the percentage that can be needs to
+
+216
+00:08:25,199 --> 00:08:28,400
+be sequentially
+
+217
+00:08:27,520 --> 00:08:30,800
+you know
+
+218
+00:08:28,400 --> 00:08:32,959
+executed and the p is the part that you
+
+219
+00:08:30,800 --> 00:08:35,360
+can have more people to come to help
+
+220
+00:08:32,959 --> 00:08:38,240
+this 2 b plus p
+
+221
+00:08:35,360 --> 00:08:42,240
+b plus p equals 1 right ok so if i
+
+222
+00:08:38,240 --> 00:08:43,039
+substitute b with one minus
+
+223
+00:08:42,240 --> 00:08:44,880
+p
+
+224
+00:08:43,039 --> 00:08:47,279
+one minus p equals p and then we get
+
+225
+00:08:44,880 --> 00:08:49,680
+this right so this is the maximum we
+
+226
+00:08:47,279 --> 00:08:52,839
+call it amanda's law
+
+227
+00:08:49,680 --> 00:08:55,760
+maximum speed up maximum speed up
+
+228
+00:08:52,839 --> 00:08:59,040
+yeah okay so one p
+
+229
+00:08:55,760 --> 00:09:01,200
+is one what does it mean so one p is one
+
+230
+00:08:59,040 --> 00:09:03,360
+let's substitute one p is one means that
+
+231
+00:09:01,200 --> 00:09:05,120
+all these tasks can be a hundred percent
+
+232
+00:09:03,360 --> 00:09:06,959
+paralyzed but like like the ten coins
+
+233
+00:09:05,120 --> 00:09:09,920
+you can have ten people to come right to
+
+234
+00:09:06,959 --> 00:09:12,320
+half right so what p is one what's the
+
+235
+00:09:09,920 --> 00:09:14,880
+value one minus one zero
+
+236
+00:09:12,320 --> 00:09:16,959
+one minus n divided by n so when p is
+
+237
+00:09:14,880 --> 00:09:19,839
+one that will be becoming
+
+238
+00:09:16,959 --> 00:09:21,360
+one minus one that's zero plus one
+
+239
+00:09:19,839 --> 00:09:23,920
+divided by n
+
+240
+00:09:21,360 --> 00:09:24,800
+i was this value this is zero
+
+241
+00:09:23,920 --> 00:09:26,959
+yeah
+
+242
+00:09:24,800 --> 00:09:29,519
+one divided by one divided by n what's
+
+243
+00:09:26,959 --> 00:09:31,440
+what's this
+
+244
+00:09:29,519 --> 00:09:32,720
+what's the value of this every line any
+
+245
+00:09:31,440 --> 00:09:35,279
+one
+
+246
+00:09:32,720 --> 00:09:37,519
+right what's the value is one over one
+
+247
+00:09:35,279 --> 00:09:38,800
+over n
+
+248
+00:09:37,519 --> 00:09:40,959
+yeah
+
+249
+00:09:38,800 --> 00:09:42,480
+what's this that's n right
+
+250
+00:09:40,959 --> 00:09:44,880
+this is the linear
+
+251
+00:09:42,480 --> 00:09:47,760
+linear thing we talked about but if this
+
+252
+00:09:44,880 --> 00:09:50,560
+p is what zero
+
+253
+00:09:47,760 --> 00:09:53,360
+what happens if this p is zero
+
+254
+00:09:50,560 --> 00:09:56,160
+is one divided by one minus zero plus
+
+255
+00:09:53,360 --> 00:09:59,040
+zero divided n okay so this is easier
+
+256
+00:09:56,160 --> 00:10:02,000
+can tell me what's this
+
+257
+00:09:59,040 --> 00:10:02,000
+one and what's this
+
+258
+00:10:03,440 --> 00:10:08,480
+0 divided by n
+
+259
+00:10:05,680 --> 00:10:10,240
+n is bigger than 0 of obvious 0 divided
+
+260
+00:10:08,480 --> 00:10:12,800
+by 100 equals 1
+
+261
+00:10:10,240 --> 00:10:13,920
+0 this is 0. this is 1 right 1 divided
+
+262
+00:10:12,800 --> 00:10:17,040
+by 1
+
+263
+00:10:13,920 --> 00:10:18,959
+1 okay so it means that if no portion of
+
+264
+00:10:17,040 --> 00:10:21,600
+the word can be paralyzed and this is
+
+265
+00:10:18,959 --> 00:10:23,519
+sequential let's speed up is one because
+
+266
+00:10:21,600 --> 00:10:25,839
+these two are the same right
+
+267
+00:10:23,519 --> 00:10:27,680
+yeah because if you like 10 coins and
+
+268
+00:10:25,839 --> 00:10:29,680
+you need to eat them you need to
+
+269
+00:10:27,680 --> 00:10:31,360
+complete them one at a time
+
+270
+00:10:29,680 --> 00:10:33,839
+you can't have more people more course
+
+271
+00:10:31,360 --> 00:10:35,519
+to help you to shorten the time of the
+
+272
+00:10:33,839 --> 00:10:37,120
+of this work
+
+273
+00:10:35,519 --> 00:10:38,560
+but this time will be the same and the
+
+274
+00:10:37,120 --> 00:10:39,839
+speed up will be one
+
+275
+00:10:38,560 --> 00:10:43,200
+right
+
+276
+00:10:39,839 --> 00:10:46,720
+might make sense yeah so this formula
+
+277
+00:10:43,200 --> 00:10:49,440
+okay so today's this formula computes
+
+278
+00:10:46,720 --> 00:10:51,440
+the maximum speed up maximum speed up if
+
+279
+00:10:49,440 --> 00:10:54,720
+we use n
+
+280
+00:10:51,440 --> 00:10:56,720
+cos you know c b support or n p bar
+
+281
+00:10:54,720 --> 00:10:59,839
+to speed up the
+
+282
+00:10:56,720 --> 00:11:01,920
+the work the p percentage of what
+
+283
+00:10:59,839 --> 00:11:03,600
+p is the percentage of word that can be
+
+284
+00:11:01,920 --> 00:11:05,200
+parallelized but right
+
+285
+00:11:03,600 --> 00:11:08,160
+yeah that's the speed up okay and the
+
+286
+00:11:05,200 --> 00:11:10,560
+speed up is the time of using one people
+
+287
+00:11:08,160 --> 00:11:12,839
+to do it one course to do it divide it
+
+288
+00:11:10,560 --> 00:11:16,160
+by using mp to do it
+
+289
+00:11:12,839 --> 00:11:19,120
+okay any questions so far
+
+290
+00:11:16,160 --> 00:11:23,279
+no any question no
+
+291
+00:11:19,120 --> 00:11:25,920
+okay so to sum up we want to have uh
+
+292
+00:11:23,279 --> 00:11:28,959
+we want to design the the algorithm you
+
+293
+00:11:25,920 --> 00:11:29,760
+know to have this uh
+
+294
+00:11:28,959 --> 00:11:31,600
+p
+
+295
+00:11:29,760 --> 00:11:34,160
+bigger p
+
+296
+00:11:31,600 --> 00:11:36,800
+yeah bigger peak of a work that can be
+
+297
+00:11:34,160 --> 00:11:38,800
+parallelized right right if the work is
+
+298
+00:11:36,800 --> 00:11:39,760
+like zero percent parallelizable then it
+
+299
+00:11:38,800 --> 00:11:41,760
+can't be
+
+300
+00:11:39,760 --> 00:11:45,040
+speed up by using mathematical
+
+301
+00:11:41,760 --> 00:11:45,040
+technology okay
+
+302
+00:11:45,360 --> 00:11:49,959
+okay that's it for today bye bye
+
