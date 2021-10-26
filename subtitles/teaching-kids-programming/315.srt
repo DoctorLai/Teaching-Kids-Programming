@@ -1,0 +1,2480 @@
+1
+00:00:00,640 --> 00:00:04,480
+hello hello how are you today good okay
+
+2
+00:00:03,679 --> 00:00:06,240
+okay
+
+3
+00:00:04,480 --> 00:00:07,120
+i'm here so today we're going to talk
+
+4
+00:00:06,240 --> 00:00:08,400
+about
+
+5
+00:00:07,120 --> 00:00:10,559
+this
+
+6
+00:00:08,400 --> 00:00:10,559
+okay
+
+7
+00:00:11,040 --> 00:00:17,200
+so fluffy icon is a very popular well
+
+8
+00:00:13,759 --> 00:00:17,200
+known accurate in computer
+
+9
+00:00:27,640 --> 00:00:30,560
+[Music]
+
+10
+00:00:29,199 --> 00:00:33,440
+thing so
+
+11
+00:00:30,560 --> 00:00:35,520
+image pics uh you know we have an image
+
+12
+00:00:33,440 --> 00:00:37,600
+a picture and now we have some obstacles
+
+13
+00:00:35,520 --> 00:00:39,920
+here some obstacles
+
+14
+00:00:37,600 --> 00:00:42,239
+i don't know it's there yeah
+
+15
+00:00:39,920 --> 00:00:45,440
+now okay so dark
+
+16
+00:00:42,239 --> 00:00:49,039
+it's not dark it's maybe uh i don't know
+
+17
+00:00:45,440 --> 00:00:51,760
+okay so now if i drop uh
+
+18
+00:00:49,039 --> 00:00:55,680
+if i want to start flat filling the
+
+19
+00:00:51,760 --> 00:01:00,079
+image at this position okay
+
+20
+00:00:55,680 --> 00:01:02,000
+and then only fluffy we put a little bit
+
+21
+00:01:00,079 --> 00:01:03,680
+from the inside
+
+22
+00:01:02,000 --> 00:01:05,519
+so what what does it look like for
+
+23
+00:01:03,680 --> 00:01:07,920
+example you have a container with
+
+24
+00:01:05,519 --> 00:01:09,600
+something it looks like a blob with a
+
+25
+00:01:07,920 --> 00:01:12,240
+brush
+
+26
+00:01:09,600 --> 00:01:14,560
+so if you have a uh uh
+
+27
+00:01:12,240 --> 00:01:16,560
+looks like an island a bucket of you
+
+28
+00:01:14,560 --> 00:01:18,880
+know if you're starting the pouring
+
+29
+00:01:16,560 --> 00:01:20,720
+pouring pouring the ink glue at this
+
+30
+00:01:18,880 --> 00:01:22,560
+point you know the water the ink yeah
+
+31
+00:01:20,720 --> 00:01:26,640
+the ink
+
+32
+00:01:22,560 --> 00:01:26,640
+you start to put pull it in pour
+
+33
+00:01:27,280 --> 00:01:32,320
+so the image
+
+34
+00:01:29,280 --> 00:01:34,560
+will be finally like outside will be
+
+35
+00:01:32,320 --> 00:01:38,720
+blue yeah you'll be stuck this is the
+
+36
+00:01:34,560 --> 00:01:40,479
+final stage it's off off here outside
+
+37
+00:01:38,720 --> 00:01:43,040
+but not normally inside because the wind
+
+38
+00:01:40,479 --> 00:01:44,720
+cannot go inside the ink will stop okay
+
+39
+00:01:43,040 --> 00:01:46,799
+when we fly feeling
+
+40
+00:01:44,720 --> 00:01:49,280
+the flows will stop at the boundary and
+
+41
+00:01:46,799 --> 00:01:51,680
+the obstacles right all right
+
+42
+00:01:49,280 --> 00:01:51,680
+okay so
+
+43
+00:01:52,000 --> 00:01:55,280
+another and
+
+44
+00:01:53,360 --> 00:01:57,520
+another example is if we start to
+
+45
+00:01:55,280 --> 00:01:59,119
+fulfill the inside if we put a dot you
+
+46
+00:01:57,520 --> 00:02:02,560
+know if we start to pull it at the
+
+47
+00:01:59,119 --> 00:02:05,439
+center what was going to be like
+
+48
+00:02:02,560 --> 00:02:08,439
+and the inside will be all green yeah
+
+49
+00:02:05,439 --> 00:02:08,439
+yeah
+
+50
+00:02:11,039 --> 00:02:14,160
+so
+
+51
+00:02:12,160 --> 00:02:16,959
+let's let's use a very simple example
+
+52
+00:02:14,160 --> 00:02:18,879
+with the magic your matrix numbers yeah
+
+53
+00:02:16,959 --> 00:02:21,840
+numbers with two dimensional metrics
+
+54
+00:02:18,879 --> 00:02:24,720
+tournament let's say one one one two
+
+55
+00:02:21,840 --> 00:02:26,000
+three four four two
+
+56
+00:02:24,720 --> 00:02:27,840
+uh
+
+57
+00:02:26,000 --> 00:02:28,879
+one one two
+
+58
+00:02:27,840 --> 00:02:30,879
+two
+
+59
+00:02:28,879 --> 00:02:32,640
+one zero zero
+
+60
+00:02:30,879 --> 00:02:34,239
+one
+
+61
+00:02:32,640 --> 00:02:36,720
+okay so if i
+
+62
+00:02:34,239 --> 00:02:38,319
+if we are going to start fulfilling and
+
+63
+00:02:36,720 --> 00:02:41,440
+hit this position
+
+64
+00:02:38,319 --> 00:02:43,920
+with uh with the color the new color
+
+65
+00:02:41,440 --> 00:02:47,280
+will be equal to let's say
+
+66
+00:02:43,920 --> 00:02:48,319
+four okay so what does let's maybe
+
+67
+00:02:47,280 --> 00:02:50,800
+two
+
+68
+00:02:48,319 --> 00:02:53,440
+three what do you think it would be like
+
+69
+00:02:50,800 --> 00:02:54,720
+we can change all the twos to freeze
+
+70
+00:02:53,440 --> 00:02:57,760
+okay
+
+71
+00:02:54,720 --> 00:02:57,760
+okay let's hold on
+
+72
+00:02:58,080 --> 00:03:02,239
+we don't do the one stop all the way
+
+73
+00:03:00,080 --> 00:03:03,760
+yeah okay
+
+74
+00:03:02,239 --> 00:03:06,000
+so which which two you think you're
+
+75
+00:03:03,760 --> 00:03:08,560
+going to be changed with me
+
+76
+00:03:06,000 --> 00:03:09,760
+this this this this yeah okay so we
+
+77
+00:03:08,560 --> 00:03:11,280
+change it to
+
+78
+00:03:09,760 --> 00:03:12,080
+exactly yes
+
+79
+00:03:11,280 --> 00:03:14,400
+yeah
+
+80
+00:03:12,080 --> 00:03:16,800
+so the the problem because very simple
+
+81
+00:03:14,400 --> 00:03:18,879
+so we are starting to fully uh filming
+
+82
+00:03:16,800 --> 00:03:20,480
+the image with the partition with the
+
+83
+00:03:18,879 --> 00:03:22,239
+partition with the
+
+84
+00:03:20,480 --> 00:03:24,640
+with the color with the background with
+
+85
+00:03:22,239 --> 00:03:25,760
+a new color okay with the new color new
+
+86
+00:03:24,640 --> 00:03:27,120
+color
+
+87
+00:03:25,760 --> 00:03:28,319
+new color
+
+88
+00:03:27,120 --> 00:03:31,280
+so
+
+89
+00:03:28,319 --> 00:03:33,280
+new colors so we can change we can
+
+90
+00:03:31,280 --> 00:03:35,440
+change the pixel to the new color as
+
+91
+00:03:33,280 --> 00:03:37,120
+long as it's next to each other the
+
+92
+00:03:35,440 --> 00:03:39,120
+neighbor you know four direction the
+
+93
+00:03:37,120 --> 00:03:40,400
+neighbor yeah this is the neighbor this
+
+94
+00:03:39,120 --> 00:03:41,920
+is the neighbor this is the neighbor
+
+95
+00:03:40,400 --> 00:03:44,480
+yeah
+
+96
+00:03:41,920 --> 00:03:45,680
+to four neighbors as long as the inside
+
+97
+00:03:44,480 --> 00:03:47,599
+of the image
+
+98
+00:03:45,680 --> 00:03:49,680
+it's next to the name is the neighbor
+
+99
+00:03:47,599 --> 00:03:51,760
+and its color is the same as the
+
+100
+00:03:49,680 --> 00:03:53,439
+starting color right which is we need to
+
+101
+00:03:51,760 --> 00:03:56,080
+remember the starting color which is two
+
+102
+00:03:53,439 --> 00:03:58,640
+right as long as it is two then we can
+
+103
+00:03:56,080 --> 00:04:00,560
+keep doing this yeah and here no more
+
+104
+00:03:58,640 --> 00:04:02,159
+right until the pixel go out of the
+
+105
+00:04:00,560 --> 00:04:04,239
+image or it stops
+
+106
+00:04:02,159 --> 00:04:05,680
+after the other pixel right because we
+
+107
+00:04:04,239 --> 00:04:07,840
+don't change this one right we don't
+
+108
+00:04:05,680 --> 00:04:09,680
+change it because it's strong
+
+109
+00:04:07,840 --> 00:04:11,519
+no no that's a good question you cannot
+
+110
+00:04:09,680 --> 00:04:14,959
+leave neighbor only
+
+111
+00:04:11,519 --> 00:04:14,959
+horizontal or vertical right you
+
+112
+00:04:16,790 --> 00:04:19,899
+[Music]
+
+113
+00:04:23,360 --> 00:04:26,320
+the bottom one could go with the one
+
+114
+00:04:25,520 --> 00:04:27,600
+thing
+
+115
+00:04:26,320 --> 00:04:29,040
+which one which one are you talking
+
+116
+00:04:27,600 --> 00:04:30,880
+about
+
+117
+00:04:29,040 --> 00:04:33,759
+which one are you talking about
+
+118
+00:04:30,880 --> 00:04:34,560
+this one this could go to this
+
+119
+00:04:33,759 --> 00:04:36,160
+yeah
+
+120
+00:04:34,560 --> 00:04:37,600
+through the emitter
+
+121
+00:04:36,160 --> 00:04:39,120
+so you first thought of vertigo in the
+
+122
+00:04:37,600 --> 00:04:43,759
+horizon okay
+
+123
+00:04:39,120 --> 00:04:46,240
+what's your uh approach i mean any idea
+
+124
+00:04:43,759 --> 00:04:47,360
+if we're starting from a position i know
+
+125
+00:04:46,240 --> 00:04:50,880
+we follow it yeah
+
+126
+00:04:47,360 --> 00:04:54,160
+search level by level and also
+
+127
+00:04:50,880 --> 00:04:56,400
+yeah because these two sometimes can be
+
+128
+00:04:54,160 --> 00:04:58,080
+you know if one can can can be used to
+
+129
+00:04:56,400 --> 00:05:00,240
+solve the problem the other is also
+
+130
+00:04:58,080 --> 00:05:02,720
+going to be so conservative right these
+
+131
+00:05:00,240 --> 00:05:03,600
+two years are just different in the way
+
+132
+00:05:02,720 --> 00:05:06,400
+they
+
+133
+00:05:03,600 --> 00:05:08,960
+you know they do research right yeah
+
+134
+00:05:06,400 --> 00:05:12,639
+so let's do this uh
+
+135
+00:05:08,960 --> 00:05:12,639
+let's do the test search first okay
+
+136
+00:05:13,440 --> 00:05:16,320
+okay okay come on
+
+137
+00:05:14,960 --> 00:05:19,360
+define
+
+138
+00:05:16,320 --> 00:05:21,840
+let's say fluffier
+
+139
+00:05:19,360 --> 00:05:24,080
+we have an image yeah image
+
+140
+00:05:21,840 --> 00:05:25,360
+and we have a star partition starting
+
+141
+00:05:24,080 --> 00:05:27,759
+rows
+
+142
+00:05:25,360 --> 00:05:29,919
+uh styling column and then we want to
+
+143
+00:05:27,759 --> 00:05:31,039
+fill a new card new with the new color
+
+144
+00:05:29,919 --> 00:05:33,280
+right
+
+145
+00:05:31,039 --> 00:05:34,560
+yeah with the new color okay sorry about
+
+146
+00:05:33,280 --> 00:05:35,759
+that
+
+147
+00:05:34,560 --> 00:05:36,880
+and
+
+148
+00:05:35,759 --> 00:05:37,680
+okay so
+
+149
+00:05:36,880 --> 00:05:38,720
+so
+
+150
+00:05:37,680 --> 00:05:42,080
+what
+
+151
+00:05:38,720 --> 00:05:42,800
+how how do we do the process uh
+
+152
+00:05:42,080 --> 00:05:43,919
+we
+
+153
+00:05:42,800 --> 00:05:46,080
+search
+
+154
+00:05:43,919 --> 00:05:49,280
+research how to research
+
+155
+00:05:46,080 --> 00:05:53,440
+in a deficit order so what kind of
+
+156
+00:05:49,280 --> 00:05:53,440
+implementation usually we use with
+
+157
+00:06:00,639 --> 00:06:05,120
+okay so first of all we
+
+158
+00:06:02,400 --> 00:06:08,800
+i see the rows and the columns yeah the
+
+159
+00:06:05,120 --> 00:06:08,800
+rows will be length of image
+
+160
+00:06:09,280 --> 00:06:13,680
+and then column will be length of image
+
+161
+00:06:11,360 --> 00:06:13,680
+zero
+
+162
+00:06:15,199 --> 00:06:20,080
+okay so one question look if i start to
+
+163
+00:06:17,520 --> 00:06:22,000
+feel this that look i'm at this position
+
+164
+00:06:20,080 --> 00:06:23,840
+and i want to
+
+165
+00:06:22,000 --> 00:06:25,680
+recursively call this
+
+166
+00:06:23,840 --> 00:06:27,360
+and what happened how does it how do you
+
+167
+00:06:25,680 --> 00:06:30,960
+how do we prevent it going back to
+
+168
+00:06:27,360 --> 00:06:32,479
+filling the pictures we already feel
+
+169
+00:06:30,960 --> 00:06:33,520
+right that's one problem we need to
+
+170
+00:06:32,479 --> 00:06:36,240
+solve right
+
+171
+00:06:33,520 --> 00:06:37,440
+how do we look
+
+172
+00:06:36,240 --> 00:06:39,680
+yeah do you understand what i'm talking
+
+173
+00:06:37,440 --> 00:06:39,680
+about
+
+174
+00:06:42,080 --> 00:06:46,160
+okay so look i'm starting to feel this
+
+175
+00:06:44,720 --> 00:06:47,600
+with the pigs
+
+176
+00:06:46,160 --> 00:06:50,160
+three
+
+177
+00:06:47,600 --> 00:06:53,280
+three three three yeah so look i put it
+
+178
+00:06:50,160 --> 00:06:54,639
+in the three and then we call here
+
+179
+00:06:53,280 --> 00:06:55,599
+yeah
+
+180
+00:06:54,639 --> 00:06:58,160
+three
+
+181
+00:06:55,599 --> 00:07:01,039
+yeah and then see
+
+182
+00:06:58,160 --> 00:07:02,800
+okay so one way of one way because we
+
+183
+00:07:01,039 --> 00:07:04,479
+already changed this pixel to three so
+
+184
+00:07:02,800 --> 00:07:05,919
+it can't go back right when you go back
+
+185
+00:07:04,479 --> 00:07:07,280
+it's not a color one we're looking for
+
+186
+00:07:05,919 --> 00:07:10,000
+the color ones to
+
+187
+00:07:07,280 --> 00:07:12,319
+to to work yeah basically we're working
+
+188
+00:07:10,000 --> 00:07:14,479
+at the color pixel one and then when we
+
+189
+00:07:12,319 --> 00:07:16,319
+feel we we start to fill it with the
+
+190
+00:07:14,479 --> 00:07:18,319
+color three then you can't go back right
+
+191
+00:07:16,319 --> 00:07:20,880
+and how about this case look
+
+192
+00:07:18,319 --> 00:07:22,960
+what it means
+
+193
+00:07:20,880 --> 00:07:24,240
+okay so yeah that's a good question look
+
+194
+00:07:22,960 --> 00:07:26,319
+how look
+
+195
+00:07:24,240 --> 00:07:28,240
+usually recursion every question how do
+
+196
+00:07:26,319 --> 00:07:30,560
+you prevent it going back
+
+197
+00:07:28,240 --> 00:07:33,039
+so if i go to the if i if i'm in this
+
+198
+00:07:30,560 --> 00:07:36,479
+position ryan please keep quiet
+
+199
+00:07:33,039 --> 00:07:38,319
+if i'm in this partition if i go to this
+
+200
+00:07:36,479 --> 00:07:41,199
+does it hold does it go back
+
+201
+00:07:38,319 --> 00:07:43,199
+no no right how why is it not back over
+
+202
+00:07:41,199 --> 00:07:46,960
+because we we already changed this
+
+203
+00:07:43,199 --> 00:07:50,780
+picture to two what if it's just like
+
+204
+00:07:46,960 --> 00:07:52,400
+wait what if it's what if it's like
+
+205
+00:07:50,780 --> 00:07:54,720
+[Music]
+
+206
+00:07:52,400 --> 00:07:54,720
+this
+
+207
+00:07:55,840 --> 00:08:00,800
+like that what do you mean like that
+
+208
+00:07:58,800 --> 00:08:02,720
+on the chain
+
+209
+00:08:00,800 --> 00:08:04,400
+if if and here we want to change the
+
+210
+00:08:02,720 --> 00:08:06,000
+picture to one then that's going to be a
+
+211
+00:08:04,400 --> 00:08:06,879
+problem right because it's already in
+
+212
+00:08:06,000 --> 00:08:09,360
+one
+
+213
+00:08:06,879 --> 00:08:11,120
+right if you go here you already change
+
+214
+00:08:09,360 --> 00:08:13,680
+it this is one and you change it to one
+
+215
+00:08:11,120 --> 00:08:16,240
+and how about this pixel you think it's
+
+216
+00:08:13,680 --> 00:08:18,319
+a new pixel but it's not right yeah
+
+217
+00:08:16,240 --> 00:08:20,879
+so how can we fix this how can we
+
+218
+00:08:18,319 --> 00:08:22,560
+remember things using computer data
+
+219
+00:08:20,879 --> 00:08:23,919
+structure what kind of thing can we use
+
+220
+00:08:22,560 --> 00:08:27,240
+to remember
+
+221
+00:08:23,919 --> 00:08:27,240
+the thing
+
+222
+00:08:29,919 --> 00:08:32,160
+okay
+
+223
+00:08:32,560 --> 00:08:35,519
+okay so we have a different search
+
+224
+00:08:34,320 --> 00:08:39,200
+differences
+
+225
+00:08:35,519 --> 00:08:41,680
+and we are currently r c and we want to
+
+226
+00:08:39,200 --> 00:08:43,919
+just yeah we want to start filling with
+
+227
+00:08:41,680 --> 00:08:44,959
+the transition rc
+
+228
+00:08:43,919 --> 00:08:47,360
+right
+
+229
+00:08:44,959 --> 00:08:47,360
+and then
+
+230
+00:08:48,320 --> 00:08:52,959
+we first of all we need to have a scene
+
+231
+00:08:51,040 --> 00:08:56,000
+yeah scene equals
+
+232
+00:08:52,959 --> 00:08:57,839
+the hashtag yes set
+
+233
+00:08:56,000 --> 00:08:59,360
+right if
+
+234
+00:08:57,839 --> 00:09:01,839
+r c
+
+235
+00:08:59,360 --> 00:09:03,839
+in scene it's always seen if we already
+
+236
+00:09:01,839 --> 00:09:05,680
+visited this pizza before then we just
+
+237
+00:09:03,839 --> 00:09:06,720
+return yeah we simply return right i'm
+
+238
+00:09:05,680 --> 00:09:09,200
+right
+
+239
+00:09:06,720 --> 00:09:12,160
+yeah and then now if you know if this
+
+240
+00:09:09,200 --> 00:09:15,200
+pixel is not visited so what's the first
+
+241
+00:09:12,160 --> 00:09:17,680
+thing we need to do
+
+242
+00:09:15,200 --> 00:09:19,920
+we need to do what look rc we are
+
+243
+00:09:17,680 --> 00:09:21,279
+currently a position as if it's in the
+
+244
+00:09:19,920 --> 00:09:22,959
+notebook
+
+245
+00:09:21,279 --> 00:09:24,480
+if we have seen this before if we ever
+
+246
+00:09:22,959 --> 00:09:26,480
+think it would return
+
+247
+00:09:24,480 --> 00:09:28,000
+if not if we haven't seen it so what
+
+248
+00:09:26,480 --> 00:09:30,240
+should we do
+
+249
+00:09:28,000 --> 00:09:32,640
+what should we do
+
+250
+00:09:30,240 --> 00:09:34,839
+we add it add it to the notebook right
+
+251
+00:09:32,640 --> 00:09:38,080
+easy that
+
+252
+00:09:34,839 --> 00:09:38,880
+scene.area and rc okay look we we use
+
+253
+00:09:38,080 --> 00:09:39,680
+this
+
+254
+00:09:38,880 --> 00:09:42,240
+look
+
+255
+00:09:39,680 --> 00:09:44,640
+rc this is a tuber yeah tuber meaning
+
+256
+00:09:42,240 --> 00:09:45,519
+that we're remembering this position in
+
+257
+00:09:44,640 --> 00:09:46,720
+uh
+
+258
+00:09:45,519 --> 00:09:49,360
+in the notebook
+
+259
+00:09:46,720 --> 00:09:50,959
+and now now this picture is
+
+260
+00:09:49,360 --> 00:09:52,560
+it's not be immediately so what should
+
+261
+00:09:50,959 --> 00:09:55,680
+we do we should change the picture to
+
+262
+00:09:52,560 --> 00:09:56,880
+the new color right so new so the image
+
+263
+00:09:55,680 --> 00:09:59,040
+okay
+
+264
+00:09:56,880 --> 00:10:00,320
+image
+
+265
+00:09:59,040 --> 00:10:01,279
+uh
+
+266
+00:10:00,320 --> 00:10:06,240
+r
+
+267
+00:10:01,279 --> 00:10:06,240
+c will be to new color right new color
+
+268
+00:10:06,560 --> 00:10:11,279
+okay so now i have filled this picture
+
+269
+00:10:09,120 --> 00:10:13,279
+so i want to try the neighbor right we
+
+270
+00:10:11,279 --> 00:10:14,480
+want to try four neighbors right
+
+271
+00:10:13,279 --> 00:10:16,399
+yeah
+
+272
+00:10:14,480 --> 00:10:20,160
+so we can try
+
+273
+00:10:16,399 --> 00:10:24,079
+first of all we can try r minus one c
+
+274
+00:10:20,160 --> 00:10:26,560
+or r plus one c or r c minus one or c r
+
+275
+00:10:24,079 --> 00:10:29,519
+c plus one yeah this four position right
+
+276
+00:10:26,560 --> 00:10:30,560
+look this is rc what's this
+
+277
+00:10:29,519 --> 00:10:33,279
+ah
+
+278
+00:10:30,560 --> 00:10:37,360
+plus one c uh what's this
+
+279
+00:10:33,279 --> 00:10:39,200
+r minus one c what's this
+
+280
+00:10:37,360 --> 00:10:40,240
+ah
+
+281
+00:10:39,200 --> 00:10:41,040
+r what
+
+282
+00:10:40,240 --> 00:10:43,279
+r
+
+283
+00:10:41,040 --> 00:10:45,120
+c minus one
+
+284
+00:10:43,279 --> 00:10:48,399
+r c plus one
+
+285
+00:10:45,120 --> 00:10:50,720
+so look this is the oh we can do this in
+
+286
+00:10:48,399 --> 00:10:53,600
+four for all we can do is for
+
+287
+00:10:50,720 --> 00:10:56,079
+we can do a loop here dr dc is the
+
+288
+00:10:53,600 --> 00:10:58,959
+offset of the rows and columns in four
+
+289
+00:10:56,079 --> 00:11:00,959
+direction so you fold that right
+
+290
+00:10:58,959 --> 00:11:02,800
+so zero one
+
+291
+00:11:00,959 --> 00:11:05,440
+one zero
+
+292
+00:11:02,800 --> 00:11:07,600
+zero minus one
+
+293
+00:11:05,440 --> 00:11:09,360
+minus one zero yeah this is the four
+
+294
+00:11:07,600 --> 00:11:12,480
+fold this is the
+
+295
+00:11:09,360 --> 00:11:15,600
+the offset in on the offset
+
+296
+00:11:12,480 --> 00:11:18,800
+yeah offset so now the new r
+
+297
+00:11:15,600 --> 00:11:22,160
+nu r will be r plus p i
+
+298
+00:11:18,800 --> 00:11:23,760
+nu c will be c plus dc and then first of
+
+299
+00:11:22,160 --> 00:11:25,600
+all we need to check if this is inside
+
+300
+00:11:23,760 --> 00:11:27,519
+the image right so we need to check this
+
+301
+00:11:25,600 --> 00:11:30,480
+even inside if
+
+302
+00:11:27,519 --> 00:11:33,120
+zero smaller bigger than nr
+
+303
+00:11:30,480 --> 00:11:34,560
+smaller than r
+
+304
+00:11:33,120 --> 00:11:36,399
+and
+
+305
+00:11:34,560 --> 00:11:37,279
+n1 you can guess
+
+306
+00:11:36,399 --> 00:11:40,000
+zero
+
+307
+00:11:37,279 --> 00:11:42,079
+smaller or equal than nc
+
+308
+00:11:40,000 --> 00:11:44,399
+smaller than c if this is inside the
+
+309
+00:11:42,079 --> 00:11:48,160
+image right and then we do the
+
+310
+00:11:44,399 --> 00:11:50,240
+search recursively release n r and c y
+
+311
+00:11:48,160 --> 00:11:51,519
+all right
+
+312
+00:11:50,240 --> 00:11:53,680
+yeah
+
+313
+00:11:51,519 --> 00:11:56,160
+yeah checking if this new
+
+314
+00:11:53,680 --> 00:11:58,320
+neighbor is still inside the image then
+
+315
+00:11:56,160 --> 00:11:59,279
+we do this at night and see right am i
+
+316
+00:11:58,320 --> 00:12:00,959
+right
+
+317
+00:11:59,279 --> 00:12:02,880
+yes
+
+318
+00:12:00,959 --> 00:12:04,639
+and we just do the needs to call this
+
+319
+00:12:02,880 --> 00:12:06,670
+dms
+
+320
+00:12:04,639 --> 00:12:08,079
+dfs
+
+321
+00:12:06,670 --> 00:12:10,800
+[Music]
+
+322
+00:12:08,079 --> 00:12:14,320
+srs here
+
+323
+00:12:10,800 --> 00:12:14,320
+and then we can return the image
+
+324
+00:12:14,480 --> 00:12:17,519
+okay present the image
+
+325
+00:12:18,079 --> 00:12:20,399
+so
+
+326
+00:12:18,880 --> 00:12:21,920
+the most important thing is this one
+
+327
+00:12:20,399 --> 00:12:23,120
+right because we have to check we have
+
+328
+00:12:21,920 --> 00:12:25,760
+to
+
+329
+00:12:23,120 --> 00:12:27,600
+mark the visited pixels otherwise there
+
+330
+00:12:25,760 --> 00:12:29,760
+will be sometimes there will be infinity
+
+331
+00:12:27,600 --> 00:12:30,880
+roof especially if that
+
+332
+00:12:29,760 --> 00:12:32,639
+is what
+
+333
+00:12:30,880 --> 00:12:34,639
+uh
+
+334
+00:12:32,639 --> 00:12:36,079
+especially what okay okay there's one
+
+335
+00:12:34,639 --> 00:12:36,959
+thing missing okay that's one thing you
+
+336
+00:12:36,079 --> 00:12:39,279
+think
+
+337
+00:12:36,959 --> 00:12:41,519
+because we only want to mark the pixel
+
+338
+00:12:39,279 --> 00:12:42,880
+which is the same as the original color
+
+339
+00:12:41,519 --> 00:12:43,839
+so here
+
+340
+00:12:42,880 --> 00:12:46,000
+uh
+
+341
+00:12:43,839 --> 00:12:49,120
+so i have to put the color
+
+342
+00:12:46,000 --> 00:12:52,639
+color will be equals image
+
+343
+00:12:49,120 --> 00:12:55,040
+sisc right this is the
+
+344
+00:12:52,639 --> 00:12:57,360
+the pixel we are going to mark right so
+
+345
+00:12:55,040 --> 00:12:59,600
+we have to check uh
+
+346
+00:12:57,360 --> 00:13:02,320
+we have to check here right we have to
+
+347
+00:12:59,600 --> 00:13:02,320
+check somewhere
+
+348
+00:13:03,360 --> 00:13:07,680
+we have to check somewhere if here if
+
+349
+00:13:05,839 --> 00:13:08,639
+the new and
+
+350
+00:13:07,680 --> 00:13:10,480
+and
+
+351
+00:13:08,639 --> 00:13:13,200
+if the image
+
+352
+00:13:10,480 --> 00:13:13,200
+nr and c
+
+353
+00:13:13,440 --> 00:13:17,120
+equals the color right because we only
+
+354
+00:13:15,279 --> 00:13:19,519
+want to mark the
+
+355
+00:13:17,120 --> 00:13:21,360
+the pixel which the value equals to
+
+356
+00:13:19,519 --> 00:13:24,399
+color which is the star okay that's the
+
+357
+00:13:21,360 --> 00:13:25,680
+part that's missing okay am i right
+
+358
+00:13:24,399 --> 00:13:27,440
+yeah
+
+359
+00:13:25,680 --> 00:13:29,040
+otherwise you otherwise if you don't
+
+360
+00:13:27,440 --> 00:13:31,279
+have this what will happen you're
+
+361
+00:13:29,040 --> 00:13:32,240
+feeling every pixel right because it you
+
+362
+00:13:31,279 --> 00:13:33,360
+would just
+
+363
+00:13:32,240 --> 00:13:36,079
+go to
+
+364
+00:13:33,360 --> 00:13:38,160
+four directions without any check and
+
+365
+00:13:36,079 --> 00:13:40,240
+eventually this pixel will be only one
+
+366
+00:13:38,160 --> 00:13:42,639
+color which is new color so that's very
+
+367
+00:13:40,240 --> 00:13:45,040
+important because we only want to
+
+368
+00:13:42,639 --> 00:13:47,920
+expand we don't we only want to go to
+
+369
+00:13:45,040 --> 00:13:50,560
+the next neighbor to the neighbor only
+
+370
+00:13:47,920 --> 00:13:53,360
+if this neighbor has the color with the
+
+371
+00:13:50,560 --> 00:13:55,839
+same which is the original color right
+
+372
+00:13:53,360 --> 00:13:57,519
+all right all right that makes sense
+
+373
+00:13:55,839 --> 00:13:59,519
+and then you know it's definite search
+
+374
+00:13:57,519 --> 00:14:01,519
+one one problem of definite search is
+
+375
+00:13:59,519 --> 00:14:04,240
+these the calling depth you know because
+
+376
+00:14:01,519 --> 00:14:06,320
+look if if this is a very big picture
+
+377
+00:14:04,240 --> 00:14:08,880
+right a very big picture
+
+378
+00:14:06,320 --> 00:14:11,440
+and if there's no obstacles if there's
+
+379
+00:14:08,880 --> 00:14:13,839
+no obstacles it's just a blank picture
+
+380
+00:14:11,440 --> 00:14:17,199
+if i start feeling the
+
+381
+00:14:13,839 --> 00:14:19,120
+black color from from one corner right
+
+382
+00:14:17,199 --> 00:14:20,720
+yeah and then these were calling the
+
+383
+00:14:19,120 --> 00:14:22,160
+recursion recursion because this is
+
+384
+00:14:20,720 --> 00:14:24,480
+we're always
+
+385
+00:14:22,160 --> 00:14:26,079
+uh this is always true and then we're
+
+386
+00:14:24,480 --> 00:14:27,360
+calling location location equation
+
+387
+00:14:26,079 --> 00:14:29,600
+indication
+
+388
+00:14:27,360 --> 00:14:31,199
+and the depth the calling step the
+
+389
+00:14:29,600 --> 00:14:33,199
+callings as
+
+390
+00:14:31,199 --> 00:14:35,199
+uh recursion depths will be too much
+
+391
+00:14:33,199 --> 00:14:36,480
+will be bigger than the
+
+392
+00:14:35,199 --> 00:14:38,639
+uh you know
+
+393
+00:14:36,480 --> 00:14:40,720
+because the stack is six size right in
+
+394
+00:14:38,639 --> 00:14:42,320
+the computer there's a course call step
+
+395
+00:14:40,720 --> 00:14:44,399
+calling stack
+
+396
+00:14:42,320 --> 00:14:45,279
+calling stack it's a it's a fixed size
+
+397
+00:14:44,399 --> 00:14:47,360
+stack
+
+398
+00:14:45,279 --> 00:14:49,360
+it's a fixed size step okay i'm going to
+
+399
+00:14:47,360 --> 00:14:51,760
+talk about a little bit about the
+
+400
+00:14:49,360 --> 00:14:53,279
+corning stack so computer is like a
+
+401
+00:14:51,760 --> 00:14:55,920
+stack right it's a it's growing
+
+402
+00:14:53,279 --> 00:14:58,399
+downwards yeah a stack calling step so
+
+403
+00:14:55,920 --> 00:15:00,240
+every time you call a function right
+
+404
+00:14:58,399 --> 00:15:01,600
+i will come here you call the function
+
+405
+00:15:00,240 --> 00:15:04,639
+according that will happen is the
+
+406
+00:15:01,600 --> 00:15:06,480
+computer will remember push the address
+
+407
+00:15:04,639 --> 00:15:08,240
+you know push your address of the
+
+408
+00:15:06,480 --> 00:15:09,600
+current address yeah
+
+409
+00:15:08,240 --> 00:15:12,399
+kind of address
+
+410
+00:15:09,600 --> 00:15:14,480
+the location yeah location and i also
+
+411
+00:15:12,399 --> 00:15:16,880
+will push the parameters
+
+412
+00:15:14,480 --> 00:15:19,519
+here and we'll push the
+
+413
+00:15:16,880 --> 00:15:21,680
+uh you know the the local variable
+
+414
+00:15:19,519 --> 00:15:22,639
+storage of the function right somewhere
+
+415
+00:15:21,680 --> 00:15:24,880
+here
+
+416
+00:15:22,639 --> 00:15:26,399
+right and if you could keep calling
+
+417
+00:15:24,880 --> 00:15:28,160
+calling calling then you'll start
+
+418
+00:15:26,399 --> 00:15:30,720
+feeling this calling stack
+
+419
+00:15:28,160 --> 00:15:33,040
+and then once it reaches the maximum
+
+420
+00:15:30,720 --> 00:15:35,279
+size of the stack what happened boom the
+
+421
+00:15:33,040 --> 00:15:37,759
+computer just will complain that
+
+422
+00:15:35,279 --> 00:15:40,000
+stack overflow okay
+
+423
+00:15:37,759 --> 00:15:41,519
+make sense so stack is a fixed size in
+
+424
+00:15:40,000 --> 00:15:44,720
+computer because the computer has the
+
+425
+00:15:41,519 --> 00:15:46,720
+limited memory yeah memory is like a
+
+426
+00:15:44,720 --> 00:15:47,759
+brand you remember things in computer
+
+427
+00:15:46,720 --> 00:15:50,480
+right
+
+428
+00:15:47,759 --> 00:15:52,560
+the computer you remember the things in
+
+429
+00:15:50,480 --> 00:15:55,759
+ram what's that
+
+430
+00:15:52,560 --> 00:15:57,759
+random access memory it's like it's a
+
+431
+00:15:55,759 --> 00:15:59,839
+you know it's a memory thing so computer
+
+432
+00:15:57,759 --> 00:16:01,519
+can store the data information in the
+
+433
+00:15:59,839 --> 00:16:03,600
+ram and have a stack right call this
+
+434
+00:16:01,519 --> 00:16:05,360
+thing so one way to solve this problem
+
+435
+00:16:03,600 --> 00:16:07,199
+is we can use the
+
+436
+00:16:05,360 --> 00:16:09,920
+breakfast search we can we can do this
+
+437
+00:16:07,199 --> 00:16:12,079
+in iteratively yeah using a iterative
+
+438
+00:16:09,920 --> 00:16:13,600
+one and we can do this using breakfast
+
+439
+00:16:12,079 --> 00:16:16,000
+and we can even
+
+440
+00:16:13,600 --> 00:16:19,360
+implement the different search using uh
+
+441
+00:16:16,000 --> 00:16:23,079
+iterative yeah literally already
+
+442
+00:16:19,360 --> 00:16:23,079
+so let's do this
+
+443
+00:16:29,199 --> 00:16:32,240
+make sense every friend you've been
+
+444
+00:16:30,880 --> 00:16:33,680
+quiet today
+
+445
+00:16:32,240 --> 00:16:35,040
+okay
+
+446
+00:16:33,680 --> 00:16:37,199
+yeah
+
+447
+00:16:35,040 --> 00:16:38,959
+are you still with me yes
+
+448
+00:16:37,199 --> 00:16:42,959
+okay
+
+449
+00:16:38,959 --> 00:16:45,759
+so now again r c the same r will be the
+
+450
+00:16:42,959 --> 00:16:47,279
+number of rows which is length of image
+
+451
+00:16:45,759 --> 00:16:50,639
+right because the image is a two
+
+452
+00:16:47,279 --> 00:16:53,120
+dimensional ray and c will be length of
+
+453
+00:16:50,639 --> 00:16:54,720
+image 0 right because we think it's a
+
+454
+00:16:53,120 --> 00:16:56,000
+two dimensional array
+
+455
+00:16:54,720 --> 00:16:57,759
+okay
+
+456
+00:16:56,000 --> 00:17:00,480
+there's a pixel here if the length if
+
+457
+00:16:57,759 --> 00:17:02,079
+the image is only i mean if the image is
+
+458
+00:17:00,480 --> 00:17:04,559
+zero that's not
+
+459
+00:17:02,079 --> 00:17:06,319
+it is empty then this clock
+
+460
+00:17:04,559 --> 00:17:08,240
+i mean
+
+461
+00:17:06,319 --> 00:17:10,640
+this will report errors yeah but we
+
+462
+00:17:08,240 --> 00:17:13,439
+assert we're assuming the image is the
+
+463
+00:17:10,640 --> 00:17:15,760
+non-empty it's not empty it has at least
+
+464
+00:17:13,439 --> 00:17:17,600
+one row and one column okay
+
+465
+00:17:15,760 --> 00:17:19,199
+and the color this is the starting color
+
+466
+00:17:17,600 --> 00:17:23,120
+we want to follow we want to follow the
+
+467
+00:17:19,199 --> 00:17:26,720
+pixel with the color color equals image
+
+468
+00:17:23,120 --> 00:17:29,120
+image s-i-c-l okay
+
+469
+00:17:26,720 --> 00:17:30,720
+so in order to implement professors what
+
+470
+00:17:29,120 --> 00:17:33,120
+kind of data structure okay what kind of
+
+471
+00:17:30,720 --> 00:17:35,440
+data structure are we using to kill yeah
+
+472
+00:17:33,120 --> 00:17:39,919
+i mean python we're using the dq double
+
+473
+00:17:35,440 --> 00:17:41,360
+and the key well okay q equals pq
+
+474
+00:17:39,919 --> 00:17:44,720
+at the beginning
+
+475
+00:17:41,360 --> 00:17:47,360
+is the and the partition is srsc right
+
+476
+00:17:44,720 --> 00:17:48,799
+this is the partition
+
+477
+00:17:47,360 --> 00:17:50,640
+okay
+
+478
+00:17:48,799 --> 00:17:52,640
+and now we also need a hash table
+
+479
+00:17:50,640 --> 00:17:54,559
+notebook to remember the points we have
+
+480
+00:17:52,640 --> 00:17:58,679
+the pixel we have we've seen so we have
+
+481
+00:17:54,559 --> 00:17:58,679
+a cn equals one
+
+482
+00:18:02,720 --> 00:18:05,869
+[Music]
+
+483
+00:18:06,240 --> 00:18:11,360
+notebook what's number called c
+
+484
+00:18:08,880 --> 00:18:13,440
+set has said okay
+
+485
+00:18:11,360 --> 00:18:15,039
+what is that
+
+486
+00:18:13,440 --> 00:18:15,840
+so now y
+
+487
+00:18:15,039 --> 00:18:17,360
+q
+
+488
+00:18:15,840 --> 00:18:18,559
+okay y q
+
+489
+00:18:17,360 --> 00:18:20,799
+the
+
+490
+00:18:18,559 --> 00:18:24,559
+r c will be
+
+491
+00:18:20,799 --> 00:18:27,840
+how do you get the element from the q
+
+492
+00:18:24,559 --> 00:18:30,559
+how to get the element from q q to y
+
+493
+00:18:27,840 --> 00:18:32,960
+forward problem yeah
+
+494
+00:18:30,559 --> 00:18:34,799
+if you want only this is a kill
+
+495
+00:18:32,960 --> 00:18:37,280
+pop left you're taking one hour from the
+
+496
+00:18:34,799 --> 00:18:39,200
+left if you just pop what happened
+
+497
+00:18:37,280 --> 00:18:41,520
+it'll go for right yeah it will go for
+
+498
+00:18:39,200 --> 00:18:41,520
+all right
+
+499
+00:18:41,760 --> 00:18:46,400
+now we have this color we have this
+
+500
+00:18:44,559 --> 00:18:48,080
+color i know we want to mark it right we
+
+501
+00:18:46,400 --> 00:18:50,160
+want to mark it
+
+502
+00:18:48,080 --> 00:18:52,559
+we want to mark it with with the image
+
+503
+00:18:50,160 --> 00:18:55,360
+so image
+
+504
+00:18:52,559 --> 00:18:58,640
+rc equals new color right in new color
+
+505
+00:18:55,360 --> 00:19:00,960
+we want to change this color right
+
+506
+00:18:58,640 --> 00:19:03,600
+i know we need to
+
+507
+00:19:00,960 --> 00:19:06,480
+we need to do what if check if this is
+
+508
+00:19:03,600 --> 00:19:08,640
+already visited if rc in
+
+509
+00:19:06,480 --> 00:19:10,960
+scene we just continue right what's
+
+510
+00:19:08,640 --> 00:19:14,880
+continue mean
+
+511
+00:19:10,960 --> 00:19:16,880
+yes continue so continue just just skip
+
+512
+00:19:14,880 --> 00:19:19,120
+the rest of the loop and goes to the
+
+513
+00:19:16,880 --> 00:19:22,000
+next okay
+
+514
+00:19:19,120 --> 00:19:24,400
+and okay so that's the same what's next
+
+515
+00:19:22,000 --> 00:19:27,200
+if it's not enough no if it's not been
+
+516
+00:19:24,400 --> 00:19:29,120
+seen so what should have been the first
+
+517
+00:19:27,200 --> 00:19:30,880
+thing to do
+
+518
+00:19:29,120 --> 00:19:34,080
+if we're not if you haven't seen this
+
+519
+00:19:30,880 --> 00:19:37,240
+before what's the first thing
+
+520
+00:19:34,080 --> 00:19:37,240
+to do
+
+521
+00:19:51,600 --> 00:19:55,760
+okay so look at this is quite similar in
+
+522
+00:19:53,520 --> 00:19:57,360
+the differences yeah
+
+523
+00:19:55,760 --> 00:19:59,440
+except that we are using the q right and
+
+524
+00:19:57,360 --> 00:20:01,120
+then what should we do now
+
+525
+00:19:59,440 --> 00:20:04,640
+uh then we need to go through for the
+
+526
+00:20:01,120 --> 00:20:06,480
+next four four direction fdr dc
+
+527
+00:20:04,640 --> 00:20:08,640
+in okay look
+
+528
+00:20:06,480 --> 00:20:10,080
+again the same right okay
+
+529
+00:20:08,640 --> 00:20:11,520
+zero one
+
+530
+00:20:10,080 --> 00:20:13,280
+one zero
+
+531
+00:20:11,520 --> 00:20:16,320
+minus one
+
+532
+00:20:13,280 --> 00:20:20,080
+zero zero minus one
+
+533
+00:20:16,320 --> 00:20:21,360
+and then n r and c will be equals r plus
+
+534
+00:20:20,080 --> 00:20:23,840
+dr
+
+535
+00:20:21,360 --> 00:20:25,520
+c plus dc and now we need to check if
+
+536
+00:20:23,840 --> 00:20:28,400
+these two are in the ring right zero
+
+537
+00:20:25,520 --> 00:20:29,120
+smaller than nr smaller than r
+
+538
+00:20:28,400 --> 00:20:31,520
+and
+
+539
+00:20:29,120 --> 00:20:33,360
+zero smaller than equal and nc smaller
+
+540
+00:20:31,520 --> 00:20:35,120
+than c also
+
+541
+00:20:33,360 --> 00:20:37,679
+we need to check if this is the new
+
+542
+00:20:35,120 --> 00:20:39,679
+image yeah image
+
+543
+00:20:37,679 --> 00:20:41,120
+and uh okay i'm going to write here and
+
+544
+00:20:39,679 --> 00:20:43,440
+and what and we're going to check the
+
+545
+00:20:41,120 --> 00:20:45,440
+next piece the neighbor picture if it's
+
+546
+00:20:43,440 --> 00:20:46,880
+the same color
+
+547
+00:20:45,440 --> 00:20:49,840
+the color yeah
+
+548
+00:20:46,880 --> 00:20:52,000
+yeah we only feel the color
+
+549
+00:20:49,840 --> 00:20:54,640
+even we only feel the neighbor if it has
+
+550
+00:20:52,000 --> 00:20:55,919
+the same color as color right right
+
+551
+00:20:54,640 --> 00:20:57,679
+so n
+
+552
+00:20:55,919 --> 00:21:02,720
+image
+
+553
+00:20:57,679 --> 00:21:05,840
+and our new color nc equal equals
+
+554
+00:21:02,720 --> 00:21:08,000
+in this way then we do this q dot how do
+
+555
+00:21:05,840 --> 00:21:10,480
+we push it to the queue
+
+556
+00:21:08,000 --> 00:21:10,480
+q dot
+
+557
+00:21:10,960 --> 00:21:17,280
+q how do we put the element to the queue
+
+558
+00:21:14,640 --> 00:21:19,760
+a pen yeah look we take one element from
+
+559
+00:21:17,280 --> 00:21:22,320
+the queue and we we want to expand its
+
+560
+00:21:19,760 --> 00:21:24,960
+next kids neighbors into the keyword
+
+561
+00:21:22,320 --> 00:21:26,240
+which is an r and c
+
+562
+00:21:24,960 --> 00:21:28,559
+okay
+
+563
+00:21:26,240 --> 00:21:31,840
+and and that will be return image with
+
+564
+00:21:28,559 --> 00:21:31,840
+an image return image
+
+565
+00:21:32,320 --> 00:21:36,080
+okay so in this way we're doing this
+
+566
+00:21:34,000 --> 00:21:38,400
+iteratively without a calling stack so
+
+567
+00:21:36,080 --> 00:21:40,320
+it won't be you only you won't have this
+
+568
+00:21:38,400 --> 00:21:41,520
+code problem or stack overflow okay you
+
+569
+00:21:40,320 --> 00:21:43,840
+won't have this programmer stack
+
+570
+00:21:41,520 --> 00:21:46,159
+overflow
+
+571
+00:21:43,840 --> 00:21:49,200
+um
+
+572
+00:21:46,159 --> 00:21:51,520
+so as i said we are using the q here and
+
+573
+00:21:49,200 --> 00:21:54,400
+but we again we can use the stack right
+
+574
+00:21:51,520 --> 00:21:56,240
+we can use the stack
+
+575
+00:21:54,400 --> 00:21:58,960
+we can use the stack
+
+576
+00:21:56,240 --> 00:22:01,280
+so we can change this dq to us to a list
+
+577
+00:21:58,960 --> 00:22:03,520
+just to emulate a stack right
+
+578
+00:22:01,280 --> 00:22:06,480
+it also work right right you also want
+
+579
+00:22:03,520 --> 00:22:08,400
+it just but when you uh plot it
+
+580
+00:22:06,480 --> 00:22:10,640
+when you it's just the different orders
+
+581
+00:22:08,400 --> 00:22:12,559
+of plotting uh fulfilling the pixels
+
+582
+00:22:10,640 --> 00:22:14,159
+right with the q and step because the
+
+583
+00:22:12,559 --> 00:22:16,720
+way to
+
+584
+00:22:14,159 --> 00:22:18,640
+uh you know if push a few elements just
+
+585
+00:22:16,720 --> 00:22:21,919
+stack and then you only push the same
+
+586
+00:22:18,640 --> 00:22:24,080
+elements to kill the way to take it out
+
+587
+00:22:21,919 --> 00:22:26,400
+the dq or this step
+
+588
+00:22:24,080 --> 00:22:28,320
+the order of the sequence is different
+
+589
+00:22:26,400 --> 00:22:30,480
+but eventually all the pixel required
+
+590
+00:22:28,320 --> 00:22:33,760
+pixel are fulfilled right it's just
+
+591
+00:22:30,480 --> 00:22:35,280
+different order of of feeding uh pixels
+
+592
+00:22:33,760 --> 00:22:36,400
+make sense
+
+593
+00:22:35,280 --> 00:22:37,440
+anyway
+
+594
+00:22:36,400 --> 00:22:40,400
+make sense
+
+595
+00:22:37,440 --> 00:22:43,280
+okay so i'm going to write a image and
+
+596
+00:22:40,400 --> 00:22:45,679
+then you change it to the
+
+597
+00:22:43,280 --> 00:22:48,159
+to the final okay
+
+598
+00:22:45,679 --> 00:22:50,320
+let's say one one two so you're gonna
+
+599
+00:22:48,159 --> 00:22:54,520
+give it an input and we need to say the
+
+600
+00:22:50,320 --> 00:22:54,520
+output yeah that's it
+
+601
+00:22:57,520 --> 00:23:02,400
+it needs to be square doesn't it
+
+602
+00:23:00,240 --> 00:23:02,400
+no
+
+603
+00:23:02,799 --> 00:23:07,960
+can be rectangles
+
+604
+00:23:04,720 --> 00:23:07,960
+or triangles
+
+605
+00:23:08,720 --> 00:23:14,559
+okay so i'm starting at this position
+
+606
+00:23:11,039 --> 00:23:16,400
+four and i want to change it to color
+
+607
+00:23:14,559 --> 00:23:17,200
+five
+
+608
+00:23:16,400 --> 00:23:22,159
+okay
+
+609
+00:23:17,200 --> 00:23:22,159
+five five five five five five
+
+610
+00:23:22,290 --> 00:23:25,540
+[Music]
+
+611
+00:23:46,799 --> 00:23:51,440
+okay so one more question what's the
+
+612
+00:23:49,520 --> 00:23:53,279
+what's the data structure i will use how
+
+613
+00:23:51,440 --> 00:23:54,400
+do we prevent the picture
+
+614
+00:23:53,279 --> 00:23:56,640
+hotline
+
+615
+00:23:54,400 --> 00:23:59,440
+now how do we prevent the picture being
+
+616
+00:23:56,640 --> 00:24:04,320
+visited again
+
+617
+00:23:59,440 --> 00:24:04,320
+what is the coding in computers set
+
+618
+00:24:05,279 --> 00:24:10,480
+it only contains the unique elements
+
+619
+00:24:07,440 --> 00:24:13,480
+okay that's it for today good job
+
+620
+00:24:10,480 --> 00:24:13,480
+bye-bye
+
