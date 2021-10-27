@@ -162,6 +162,11 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Binary Search Algorithm to Compute the Square Root | 二分搜索算法求根号的值 | [Youtube](https://youtu.be/_-bDvuBDxis) - [B站](https://www.bilibili.com/video/BV1dv411x7U7/) | [Binary Search Algorithm to Compute the Square Root](https://helloacm.com/teaching-kids-programming-binary-search-algorithm-to-compute-the-square-root/) | 2021-01-07 |
 | From Linear Search to Binary Search Algorithm | 线性搜索到二分查找 | [Youtube](https://www.youtube.com/watch?v=nGzWpefKYAo) - [B站](https://www.bilibili.com/video/BV1Pi4y157vf/) | [From Linear Search to Binary Search Algorithm](https://helloacm.com/teaching-kids-programming-from-linear-search-to-binary-search-algorithm/) | 2020-11-23 |
 
+## Random 随机算法
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| The Fisher–Yates Random Shuffle Algorithm in Python | Fisher-Yates 随机洗牌算法 (Python) | [Youtube](https://youtu.be/L0x1jePVfaA) - [B站](https://www.bilibili.com/video/BV1c44y1i7F9/) - [西瓜](https://www.ixigua.com/7023881688295932430) | [The Fisher–Yates Random Shuffle Algorithm in Python](https://helloacm.com/teaching-kids-programming-the-fisher-yates-random-shuffle-algorithm-in-python/) | 2021-10-27 |
+
 ## Dynamic Programming Algorithms 动态规划算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
