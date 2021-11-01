@@ -1,0 +1,2224 @@
+1
+00:00:00,080 --> 00:00:03,439
+go
+
+2
+00:00:01,199 --> 00:00:05,040
+hello
+
+3
+00:00:03,439 --> 00:00:06,879
+so we have a you know the computer we
+
+4
+00:00:05,040 --> 00:00:08,639
+have keyboards yeah we have this control
+
+5
+00:00:06,879 --> 00:00:12,080
+c okay
+
+6
+00:00:08,639 --> 00:00:15,519
+ctrl c yeah okay so what's that ctrl c a
+
+7
+00:00:12,080 --> 00:00:18,960
+copy copy copy where
+
+8
+00:00:15,519 --> 00:00:20,880
+copy what and then ctrl v
+
+9
+00:00:18,960 --> 00:00:23,199
+paste it we want to paste why wouldn't
+
+10
+00:00:20,880 --> 00:00:25,199
+control p
+
+11
+00:00:23,199 --> 00:00:28,320
+that's a good question control p is for
+
+12
+00:00:25,199 --> 00:00:32,160
+print very very good question okay
+
+13
+00:00:28,320 --> 00:00:34,800
+control plus p is usually print you know
+
+14
+00:00:32,160 --> 00:00:37,680
+ctrl v i don't know why is it called v
+
+15
+00:00:34,800 --> 00:00:40,320
+but it's actually paste control
+
+16
+00:00:37,680 --> 00:00:43,600
+so when we control c so if we have a
+
+17
+00:00:40,320 --> 00:00:46,160
+test like eric and ryan yeah
+
+18
+00:00:43,600 --> 00:00:47,760
+if we select you know we select we stand
+
+19
+00:00:46,160 --> 00:00:49,600
+the text
+
+20
+00:00:47,760 --> 00:00:50,399
+press ctrl c
+
+21
+00:00:49,600 --> 00:00:53,520
+and
+
+22
+00:00:50,399 --> 00:00:55,440
+the selected text or image or file
+
+23
+00:00:53,520 --> 00:00:59,359
+whatever you selected
+
+24
+00:00:55,440 --> 00:01:00,879
+is paste is it store one copy in a clip
+
+25
+00:00:59,359 --> 00:01:02,640
+clipboard
+
+26
+00:01:00,879 --> 00:01:05,519
+clipboard
+
+27
+00:01:02,640 --> 00:01:07,680
+paper okay so in the buffer we have this
+
+28
+00:01:05,519 --> 00:01:08,640
+error right
+
+29
+00:01:07,680 --> 00:01:11,600
+okay
+
+30
+00:01:08,640 --> 00:01:13,520
+and then i control v again and then
+
+31
+00:01:11,600 --> 00:01:15,280
+we will have it
+
+32
+00:01:13,520 --> 00:01:17,119
+right here and if i keep practicing
+
+33
+00:01:15,280 --> 00:01:18,560
+you'll have multiple copies of that
+
+34
+00:01:17,119 --> 00:01:20,000
+right okay let's just control
+
+35
+00:01:18,560 --> 00:01:21,680
+sequentially
+
+36
+00:01:20,000 --> 00:01:22,799
+okay make sense
+
+37
+00:01:21,680 --> 00:01:26,000
+that's it
+
+38
+00:01:22,799 --> 00:01:28,400
+so today we there's a very simple uh you
+
+39
+00:01:26,000 --> 00:01:30,079
+know very interesting math problem so if
+
+40
+00:01:28,400 --> 00:01:32,320
+we have a keyboard right if we have a
+
+41
+00:01:30,079 --> 00:01:34,560
+keyboard like can you go back if we have
+
+42
+00:01:32,320 --> 00:01:35,920
+a keyboard like only have one character
+
+43
+00:01:34,560 --> 00:01:38,400
+which is a
+
+44
+00:01:35,920 --> 00:01:40,240
+right if we have a unless
+
+45
+00:01:38,400 --> 00:01:41,920
+at the beginning there's only one a in
+
+46
+00:01:40,240 --> 00:01:44,240
+the screen
+
+47
+00:01:41,920 --> 00:01:46,560
+so for each operation you can
+
+48
+00:01:44,240 --> 00:01:47,520
+do this you can select
+
+49
+00:01:46,560 --> 00:01:48,880
+you can
+
+50
+00:01:47,520 --> 00:01:50,479
+control
+
+51
+00:01:48,880 --> 00:01:51,680
+control c
+
+52
+00:01:50,479 --> 00:01:55,040
+or
+
+53
+00:01:51,680 --> 00:01:58,159
+current a's or a's yeah in a screen
+
+54
+00:01:55,040 --> 00:02:00,640
+or you can control v
+
+55
+00:01:58,159 --> 00:02:03,280
+control v to paste whatever in the
+
+56
+00:02:00,640 --> 00:02:04,640
+buffer yeah paste paste whatever you
+
+57
+00:02:03,280 --> 00:02:06,399
+copied last time
+
+58
+00:02:04,640 --> 00:02:09,280
+right so let's give an example we want
+
+59
+00:02:06,399 --> 00:02:12,080
+to find out the minimum number operation
+
+60
+00:02:09,280 --> 00:02:14,959
+to get the number uh to get n a for
+
+61
+00:02:12,080 --> 00:02:16,959
+example if i want to have a
+
+62
+00:02:14,959 --> 00:02:18,640
+sorry if i want to have
+
+63
+00:02:16,959 --> 00:02:20,319
+two a's
+
+64
+00:02:18,640 --> 00:02:22,400
+how can we do it so at the beginning we
+
+65
+00:02:20,319 --> 00:02:25,440
+only have one egg how can we make using
+
+66
+00:02:22,400 --> 00:02:28,319
+these two operations to make two days
+
+67
+00:02:25,440 --> 00:02:30,879
+come on quite easy yeah
+
+68
+00:02:28,319 --> 00:02:33,120
+a control c you have to start with one
+
+69
+00:02:30,879 --> 00:02:34,959
+name control c yeah yeah it's easier
+
+70
+00:02:33,120 --> 00:02:37,040
+control c and control v where done
+
+71
+00:02:34,959 --> 00:02:38,720
+because control c you copy this a and
+
+72
+00:02:37,040 --> 00:02:39,599
+then console v you put an a in there
+
+73
+00:02:38,720 --> 00:02:41,120
+right
+
+74
+00:02:39,599 --> 00:02:43,040
+okay how about
+
+75
+00:02:41,120 --> 00:02:45,360
+if it's only one a do we need to do
+
+76
+00:02:43,040 --> 00:02:48,800
+anything else no no because there's only
+
+77
+00:02:45,360 --> 00:02:51,680
+one okay so for that one a input one a
+
+78
+00:02:48,800 --> 00:02:56,080
+we need a zero operation two a's we need
+
+79
+00:02:51,680 --> 00:02:56,080
+a two because copy and paste three a's
+
+80
+00:02:56,959 --> 00:03:00,080
+you need
+
+81
+00:02:58,560 --> 00:03:01,120
+three three
+
+82
+00:03:00,080 --> 00:03:03,120
+copy
+
+83
+00:03:01,120 --> 00:03:06,879
+paste paste right
+
+84
+00:03:03,120 --> 00:03:09,680
+copy paste place three
+
+85
+00:03:06,879 --> 00:03:12,239
+four eight three
+
+86
+00:03:09,680 --> 00:03:14,640
+three or four come on easy three
+
+87
+00:03:12,239 --> 00:03:16,480
+three four three
+
+88
+00:03:14,640 --> 00:03:18,800
+minimum the better you say four you said
+
+89
+00:03:16,480 --> 00:03:18,800
+three
+
+90
+00:03:31,840 --> 00:03:33,440
+oh
+
+91
+00:03:32,640 --> 00:03:35,760
+yeah
+
+92
+00:03:33,440 --> 00:03:38,879
+that's the thing look so first of all
+
+93
+00:03:35,760 --> 00:03:40,720
+so first of all you copy you copy one a
+
+94
+00:03:38,879 --> 00:03:42,959
+yeah yeah you paste it
+
+95
+00:03:40,720 --> 00:03:46,239
+two a's twice
+
+96
+00:03:42,959 --> 00:03:48,480
+then you copy again oh copy again and
+
+97
+00:03:46,239 --> 00:03:50,720
+then paste it again so that's that's
+
+98
+00:03:48,480 --> 00:03:53,519
+four right is the four yeah yeah
+
+99
+00:03:50,720 --> 00:03:55,840
+okay so it's the same thing as copy
+
+100
+00:03:53,519 --> 00:03:58,239
+paste paste paste right
+
+101
+00:03:55,840 --> 00:04:00,879
+it's full copy paste space paste so you
+
+102
+00:03:58,239 --> 00:04:02,959
+can have copy face paste space or you
+
+103
+00:04:00,879 --> 00:04:07,120
+can have copy
+
+104
+00:04:02,959 --> 00:04:08,480
+paste paste copy paste paste copy paste
+
+105
+00:04:07,120 --> 00:04:10,319
+all fours yes
+
+106
+00:04:08,480 --> 00:04:12,560
+okay
+
+107
+00:04:10,319 --> 00:04:14,799
+five okay a a
+
+108
+00:04:12,560 --> 00:04:14,799
+a
+
+109
+00:04:27,440 --> 00:04:31,199
+can we do better no
+
+110
+00:04:29,280 --> 00:04:33,440
+there's no other way right
+
+111
+00:04:31,199 --> 00:04:35,600
+because it's five right it's fine
+
+112
+00:04:33,440 --> 00:04:38,560
+fine okay this is comes with interesting
+
+113
+00:04:35,600 --> 00:04:43,720
+ones six you will have six
+
+114
+00:04:38,560 --> 00:04:43,720
+how can we do this one two copy
+
+115
+00:04:48,560 --> 00:04:51,600
+copy
+
+116
+00:04:50,320 --> 00:04:53,680
+copy
+
+117
+00:04:51,600 --> 00:04:55,440
+paste
+
+118
+00:04:53,680 --> 00:04:56,639
+and then copy
+
+119
+00:04:55,440 --> 00:05:00,400
+paste paste
+
+120
+00:04:56,639 --> 00:05:01,520
+right all you can do is copy paste
+
+121
+00:05:00,400 --> 00:05:02,560
+paste
+
+122
+00:05:01,520 --> 00:05:06,479
+copy
+
+123
+00:05:02,560 --> 00:05:08,880
+paste right which one is cluster copy
+
+124
+00:05:06,479 --> 00:05:08,880
+copy
+
+125
+00:05:09,039 --> 00:05:13,039
+paste
+
+126
+00:05:10,960 --> 00:05:14,000
+paste
+
+127
+00:05:13,039 --> 00:05:17,199
+copy
+
+128
+00:05:14,000 --> 00:05:18,240
+paste yeah you see or
+
+129
+00:05:17,199 --> 00:05:20,160
+copy
+
+130
+00:05:18,240 --> 00:05:22,800
+paste paste
+
+131
+00:05:20,160 --> 00:05:25,840
+paste paste space space
+
+132
+00:05:22,800 --> 00:05:25,840
+or copy
+
+133
+00:05:26,000 --> 00:05:30,000
+paste
+
+134
+00:05:28,000 --> 00:05:31,120
+copy
+
+135
+00:05:30,000 --> 00:05:32,080
+paste
+
+136
+00:05:31,120 --> 00:05:33,919
+paste
+
+137
+00:05:32,080 --> 00:05:34,880
+okay seems fine yeah it seems fine yeah
+
+138
+00:05:33,919 --> 00:05:38,400
+you see
+
+139
+00:05:34,880 --> 00:05:39,199
+did you get it yeah so that goes on yeah
+
+140
+00:05:38,400 --> 00:05:40,400
+yeah
+
+141
+00:05:39,199 --> 00:05:42,320
+all right
+
+142
+00:05:40,400 --> 00:05:43,919
+so we can do this profile so yeah of
+
+143
+00:05:42,320 --> 00:05:45,440
+course we can try because for each
+
+144
+00:05:43,919 --> 00:05:48,000
+operation we can keep trying for each
+
+145
+00:05:45,440 --> 00:05:50,000
+one we can say it's copy or paste we can
+
+146
+00:05:48,000 --> 00:05:52,720
+keep trying this until we get it but
+
+147
+00:05:50,000 --> 00:05:54,320
+this is quite uh quite slow right
+
+148
+00:05:52,720 --> 00:05:56,319
+because there are lots of possibilities
+
+149
+00:05:54,320 --> 00:05:58,240
+for each operation there are two right
+
+150
+00:05:56,319 --> 00:06:00,319
+we can for each one we can say we can
+
+151
+00:05:58,240 --> 00:06:01,919
+choose copy or we can choose space why
+
+152
+00:06:00,319 --> 00:06:04,240
+does it need to be a
+
+153
+00:06:01,919 --> 00:06:06,000
+sorry why are there any a is there's
+
+154
+00:06:04,240 --> 00:06:07,440
+only one characters well why does it
+
+155
+00:06:06,000 --> 00:06:09,440
+have to be a
+
+156
+00:06:07,440 --> 00:06:11,360
+oh it could be b b whatever then the
+
+157
+00:06:09,440 --> 00:06:14,080
+point is that we need n we need these
+
+158
+00:06:11,360 --> 00:06:15,280
+two operations to come up with n exactly
+
+159
+00:06:14,080 --> 00:06:17,120
+n
+
+160
+00:06:15,280 --> 00:06:21,120
+times
+
+161
+00:06:17,120 --> 00:06:24,160
+a okay or whatever letter you choose
+
+162
+00:06:21,120 --> 00:06:29,199
+okay so this problem is quite clear okay
+
+163
+00:06:24,160 --> 00:06:29,199
+so how can what how can we minimize this
+
+164
+00:06:29,600 --> 00:06:35,919
+one how do we minimize this
+
+165
+00:06:34,000 --> 00:06:39,600
+so look if i have
+
+166
+00:06:35,919 --> 00:06:41,680
+look look if i have nine a's
+
+167
+00:06:39,600 --> 00:06:43,840
+so what's how do we quickly come up with
+
+168
+00:06:41,680 --> 00:06:45,919
+9 8
+
+169
+00:06:43,840 --> 00:06:47,680
+if we have three characters three a's in
+
+170
+00:06:45,919 --> 00:06:51,039
+the buffer we can press copy paste paste
+
+171
+00:06:47,680 --> 00:06:54,639
+three times right yeah all right okay so
+
+172
+00:06:51,039 --> 00:06:58,639
+another example if i have uh
+
+173
+00:06:54,639 --> 00:06:58,639
+if i have 99 a's
+
+174
+00:06:58,880 --> 00:07:04,479
+one obvious way you can copy one and
+
+175
+00:07:01,599 --> 00:07:05,440
+press paste 98 times right
+
+176
+00:07:04,479 --> 00:07:09,199
+yeah
+
+177
+00:07:05,440 --> 00:07:12,240
+that's that's obviously you can for n a
+
+178
+00:07:09,199 --> 00:07:15,520
+if n bigger than or e bigger than one
+
+179
+00:07:12,240 --> 00:07:18,560
+then that's the most the slowest method
+
+180
+00:07:15,520 --> 00:07:20,639
+you can say is end and anyway exactly
+
+181
+00:07:18,560 --> 00:07:22,240
+because you copy one a and you press
+
+182
+00:07:20,639 --> 00:07:24,080
+press
+
+183
+00:07:22,240 --> 00:07:26,479
+and minus one time right
+
+184
+00:07:24,080 --> 00:07:27,280
+yeah hold it so what's about me holding
+
+185
+00:07:26,479 --> 00:07:29,199
+it
+
+186
+00:07:27,280 --> 00:07:32,960
+hold it yeah yeah hold it
+
+187
+00:07:29,199 --> 00:07:35,759
+you get it right 1998 one slowest way i
+
+188
+00:07:32,960 --> 00:07:37,919
+can think of is i copy one a because i
+
+189
+00:07:35,759 --> 00:07:39,520
+already have one a right i copy one a
+
+190
+00:07:37,919 --> 00:07:44,080
+that takes one time
+
+191
+00:07:39,520 --> 00:07:46,080
+and i put press paste 80 98 times right
+
+192
+00:07:44,080 --> 00:07:50,800
+yeah
+
+193
+00:07:46,080 --> 00:07:54,160
+right or i can i can do what i can copy
+
+194
+00:07:50,800 --> 00:07:56,800
+i can copy three uh i can copy one
+
+195
+00:07:54,160 --> 00:07:57,680
+i can copy three a's
+
+196
+00:07:56,800 --> 00:07:59,360
+right
+
+197
+00:07:57,680 --> 00:08:01,440
+copy paste paste
+
+198
+00:07:59,360 --> 00:08:04,400
+and i copy these
+
+199
+00:08:01,440 --> 00:08:06,080
+yeah then i have three a's and i press
+
+200
+00:08:04,400 --> 00:08:07,199
+32 times
+
+201
+00:08:06,080 --> 00:08:09,199
+right
+
+202
+00:08:07,199 --> 00:08:11,120
+like make sense because each time i
+
+203
+00:08:09,199 --> 00:08:14,639
+press ctrl v
+
+204
+00:08:11,120 --> 00:08:16,000
+that would be 3 8 am right
+
+205
+00:08:14,639 --> 00:08:18,080
+makes sense
+
+206
+00:08:16,000 --> 00:08:20,000
+makes sense so obviously this is quicker
+
+207
+00:08:18,080 --> 00:08:22,160
+because look copy
+
+208
+00:08:20,000 --> 00:08:24,400
+paste paste
+
+209
+00:08:22,160 --> 00:08:26,240
+copy paste paste and copy
+
+210
+00:08:24,400 --> 00:08:28,000
+four times and then i need to press how
+
+211
+00:08:26,240 --> 00:08:30,800
+many of v
+
+212
+00:08:28,000 --> 00:08:34,320
+32 times right 32 times 30 times of v so
+
+213
+00:08:30,800 --> 00:08:35,599
+all together that will be 34 32 plus 4
+
+214
+00:08:34,320 --> 00:08:37,440
+36
+
+215
+00:08:35,599 --> 00:08:41,279
+which is less than
+
+216
+00:08:37,440 --> 00:08:44,399
+99 we're talking about right
+
+217
+00:08:41,279 --> 00:08:48,320
+99 we're talking about okay
+
+218
+00:08:44,399 --> 00:08:52,399
+make sense right yeah it was
+
+219
+00:08:48,320 --> 00:08:56,399
+98 because you need to chris knight
+
+220
+00:08:52,399 --> 00:08:59,680
+19 i want the 99 99 a right
+
+221
+00:08:56,399 --> 00:09:02,240
+i want to 99 8 so now i have uh
+
+222
+00:08:59,680 --> 00:09:04,560
+oh yeah you are right 32
+
+223
+00:09:02,240 --> 00:09:06,959
+because all together is 33 nine
+
+224
+00:09:04,560 --> 00:09:09,120
+33 times of a and i already have three
+
+225
+00:09:06,959 --> 00:09:12,480
+a's so i need to press another 32 times
+
+226
+00:09:09,120 --> 00:09:13,440
+to cut paste three a's 32 times right
+
+227
+00:09:12,480 --> 00:09:15,279
+okay
+
+228
+00:09:13,440 --> 00:09:18,480
+okay so this is interesting yeah because
+
+229
+00:09:15,279 --> 00:09:20,480
+we look if so we can
+
+230
+00:09:18,480 --> 00:09:22,000
+as we talk about the blue force is too
+
+231
+00:09:20,480 --> 00:09:23,839
+slow yeah we're not going to do the full
+
+232
+00:09:22,000 --> 00:09:24,800
+first thing here because it's so slow
+
+233
+00:09:23,839 --> 00:09:28,240
+right
+
+234
+00:09:24,800 --> 00:09:31,440
+so how about if i have an s function
+
+235
+00:09:28,240 --> 00:09:31,440
+a function f n
+
+236
+00:09:31,680 --> 00:09:37,120
+yeah
+
+237
+00:09:33,120 --> 00:09:39,839
+if n if i if it's you know if it's the
+
+238
+00:09:37,120 --> 00:09:41,920
+number the minimum number of uh
+
+239
+00:09:39,839 --> 00:09:43,920
+if it's the minimum number operations to
+
+240
+00:09:41,920 --> 00:09:47,440
+get n right
+
+241
+00:09:43,920 --> 00:09:49,920
+and i can send them it's equals to mean
+
+242
+00:09:47,440 --> 00:09:51,680
+mean of what medium
+
+243
+00:09:49,920 --> 00:09:54,800
+because i want to try
+
+244
+00:09:51,680 --> 00:09:57,200
+try to try all possibilities try all the
+
+245
+00:09:54,800 --> 00:09:58,160
+factors yeah factors
+
+246
+00:09:57,200 --> 00:10:00,000
+fine
+
+247
+00:09:58,160 --> 00:10:02,480
+like for example like 10 what's the
+
+248
+00:10:00,000 --> 00:10:03,760
+factor of 10
+
+249
+00:10:02,480 --> 00:10:07,200
+2
+
+250
+00:10:03,760 --> 00:10:09,839
+five right i want to try two and five
+
+251
+00:10:07,200 --> 00:10:11,279
+right because if f2 can be
+
+252
+00:10:09,839 --> 00:10:13,920
+if f2
+
+253
+00:10:11,279 --> 00:10:15,600
+yeah i can i can copy i can copy the f2
+
+254
+00:10:13,920 --> 00:10:18,720
+two characters in the buffer and i can
+
+255
+00:10:15,600 --> 00:10:21,279
+play page five times or i can copy five
+
+256
+00:10:18,720 --> 00:10:23,920
+characters into the buffer and press the
+
+257
+00:10:21,279 --> 00:10:26,000
+ctrl v two times right and i want to
+
+258
+00:10:23,920 --> 00:10:28,480
+compare the minimum of these
+
+259
+00:10:26,000 --> 00:10:29,320
+right i want to compare minimum please
+
+260
+00:10:28,480 --> 00:10:30,800
+make sense
+
+261
+00:10:29,320 --> 00:10:32,640
+[Music]
+
+262
+00:10:30,800 --> 00:10:35,200
+it doesn't make sense yeah it makes
+
+263
+00:10:32,640 --> 00:10:36,880
+sense yeah how about 20
+
+264
+00:10:35,200 --> 00:10:40,399
+what's the factor of 20
+
+265
+00:10:36,880 --> 00:10:41,200
+20 keys what's the fact that 2
+
+266
+00:10:40,399 --> 00:10:42,079
+4
+
+267
+00:10:41,200 --> 00:10:43,120
+5
+
+268
+00:10:42,079 --> 00:10:47,120
+5
+
+269
+00:10:43,120 --> 00:10:49,200
+10 yeah up to half right so now
+
+270
+00:10:47,120 --> 00:10:51,519
+now if this is f another function and i
+
+271
+00:10:49,200 --> 00:10:53,279
+can i can see if this is from another
+
+272
+00:10:51,519 --> 00:10:54,399
+sub problem right sub problem then i can
+
+273
+00:10:53,279 --> 00:10:57,279
+say okay
+
+274
+00:10:54,399 --> 00:10:59,920
+if i have i know the answer of
+
+275
+00:10:57,279 --> 00:11:01,760
+if this is a time this is b times this c
+
+276
+00:10:59,920 --> 00:11:03,120
+times this c times and then the minimum
+
+277
+00:11:01,760 --> 00:11:05,360
+will be what
+
+278
+00:11:03,120 --> 00:11:06,160
+means
+
+279
+00:11:05,360 --> 00:11:07,600
+a
+
+280
+00:11:06,160 --> 00:11:10,079
+plus
+
+281
+00:11:07,600 --> 00:11:12,000
+20 and two divided by two right it needs
+
+282
+00:11:10,079 --> 00:11:14,480
+another ten times right
+
+283
+00:11:12,000 --> 00:11:17,600
+all right place ten times right
+
+284
+00:11:14,480 --> 00:11:20,000
+and then mean and then what b
+
+285
+00:11:17,600 --> 00:11:21,680
+plus how many twenty divided by four
+
+286
+00:11:20,000 --> 00:11:22,800
+five times
+
+287
+00:11:21,680 --> 00:11:25,279
+c
+
+288
+00:11:22,800 --> 00:11:26,839
+twenty c plus twenty divided by five
+
+289
+00:11:25,279 --> 00:11:31,040
+four times
+
+290
+00:11:26,839 --> 00:11:32,720
+ten 20 divided by 10 to plus d to the
+
+291
+00:11:31,040 --> 00:11:34,240
+potential right so i want to get these
+
+292
+00:11:32,720 --> 00:11:35,519
+four numbers and
+
+293
+00:11:34,240 --> 00:11:38,880
+get the minimum
+
+294
+00:11:35,519 --> 00:11:41,600
+what's this up what's this kind of thing
+
+295
+00:11:38,880 --> 00:11:44,480
+well we talked about the thingy you know
+
+296
+00:11:41,600 --> 00:11:47,040
+what's this we talk about the thingy
+
+297
+00:11:44,480 --> 00:11:47,040
+what's this
+
+298
+00:11:47,279 --> 00:11:51,120
+yeah dynamic programming we have two
+
+299
+00:11:48,720 --> 00:11:52,240
+ways of doing it which is what
+
+300
+00:11:51,120 --> 00:11:54,839
+what
+
+301
+00:11:52,240 --> 00:11:56,079
+yeah the fibonacci number remember
+
+302
+00:11:54,839 --> 00:11:57,360
+yeah number
+
+303
+00:11:56,079 --> 00:11:58,399
+yeah
+
+304
+00:11:57,360 --> 00:12:01,120
+all right
+
+305
+00:11:58,399 --> 00:12:05,279
+uh fibonacci number yeah
+
+306
+00:12:01,120 --> 00:12:08,399
+ff f7 equals f6 plus f5
+
+307
+00:12:05,279 --> 00:12:10,880
+s6 plus equals f5 plus f4
+
+308
+00:12:08,399 --> 00:12:12,320
+okay about it yeah typical nice number
+
+309
+00:12:10,880 --> 00:12:14,320
+if you're going this way that will be
+
+310
+00:12:12,320 --> 00:12:17,519
+top down if you're going that way
+
+311
+00:12:14,320 --> 00:12:20,560
+starting from f1 s2
+
+312
+00:12:17,519 --> 00:12:23,440
+to fn that's butter up right
+
+313
+00:12:20,560 --> 00:12:25,760
+it's going this way uh that would be
+
+314
+00:12:23,440 --> 00:12:28,000
+when using the top down right make sense
+
+315
+00:12:25,760 --> 00:12:28,000
+right
+
+316
+00:12:28,079 --> 00:12:33,120
+so let's quickly implement uh top down
+
+317
+00:12:30,399 --> 00:12:34,880
+okay because top down gives the most
+
+318
+00:12:33,120 --> 00:12:35,920
+intuitive way of solving this problem
+
+319
+00:12:34,880 --> 00:12:37,120
+okay
+
+320
+00:12:35,920 --> 00:12:38,160
+define
+
+321
+00:12:37,120 --> 00:12:40,880
+n
+
+322
+00:12:38,160 --> 00:12:42,720
+obviously if n smaller or equals one
+
+323
+00:12:40,880 --> 00:12:44,639
+then we return zero right because we
+
+324
+00:12:42,720 --> 00:12:46,160
+already have one characters
+
+325
+00:12:44,639 --> 00:12:47,680
+yeah we don't need to continue right
+
+326
+00:12:46,160 --> 00:12:48,639
+there's only one characters then that's
+
+327
+00:12:47,680 --> 00:12:50,880
+it
+
+328
+00:12:48,639 --> 00:12:52,639
+now let's say answer equals what let's
+
+329
+00:12:50,880 --> 00:12:54,320
+say what's the slowness remember we
+
+330
+00:12:52,639 --> 00:12:57,279
+talked about the slowest way to come up
+
+331
+00:12:54,320 --> 00:13:00,079
+with n character what's the slowest way
+
+332
+00:12:57,279 --> 00:13:02,079
+how many answer equals one
+
+333
+00:13:00,079 --> 00:13:05,760
+what's your opinion
+
+334
+00:13:02,079 --> 00:13:09,000
+the very big number or what
+
+335
+00:13:05,760 --> 00:13:09,000
+[Music]
+
+336
+00:13:12,320 --> 00:13:16,800
+right we talk about this is the slowest
+
+337
+00:13:14,639 --> 00:13:19,839
+way right if left and a
+
+338
+00:13:16,800 --> 00:13:22,800
+i can copy one a and press nine times
+
+339
+00:13:19,839 --> 00:13:26,000
+place place nine times right so one plus
+
+340
+00:13:22,800 --> 00:13:28,240
+nine equals ten right this is zero yeah
+
+341
+00:13:26,000 --> 00:13:29,839
+and then i fall i
+
+342
+00:13:28,240 --> 00:13:32,720
+in range
+
+343
+00:13:29,839 --> 00:13:35,680
+i start with the second yeah and up two
+
+344
+00:13:32,720 --> 00:13:38,880
+and divided by 2 plus 1 yeah because up
+
+345
+00:13:35,680 --> 00:13:40,639
+to n divided by 2 and we give a plus 1
+
+346
+00:13:38,880 --> 00:13:42,880
+because this gives the inclusive this
+
+347
+00:13:40,639 --> 00:13:44,720
+number is increasing and divided by 2.
+
+348
+00:13:42,880 --> 00:13:46,160
+so now if
+
+349
+00:13:44,720 --> 00:13:49,839
+n
+
+350
+00:13:46,160 --> 00:13:52,639
+modulus i equal equals zero right look
+
+351
+00:13:49,839 --> 00:13:56,079
+look look i want to get the f10
+
+352
+00:13:52,639 --> 00:13:58,880
+all right f10 and then i fi
+
+353
+00:13:56,079 --> 00:14:03,199
+so what's the factor this is together
+
+354
+00:13:58,880 --> 00:14:05,600
+factor yeah two five right yeah
+
+355
+00:14:03,199 --> 00:14:07,680
+i know what should we do answer
+
+356
+00:14:05,600 --> 00:14:09,680
+equals mean
+
+357
+00:14:07,680 --> 00:14:11,199
+answer
+
+358
+00:14:09,680 --> 00:14:13,279
+and so what look
+
+359
+00:14:11,199 --> 00:14:15,680
+f
+
+360
+00:14:13,279 --> 00:14:19,279
+f what f i
+
+361
+00:14:15,680 --> 00:14:20,720
+f y y come on plus what
+
+362
+00:14:19,279 --> 00:14:22,959
+what
+
+363
+00:14:20,720 --> 00:14:24,959
+x y plus one
+
+364
+00:14:22,959 --> 00:14:27,279
+x y plus one come on think about it
+
+365
+00:14:24,959 --> 00:14:30,399
+what's the f5 f5 as well
+
+366
+00:14:27,279 --> 00:14:30,399
+and then return obviously
+
+367
+00:14:42,480 --> 00:14:46,639
+f2
+
+368
+00:14:43,600 --> 00:14:48,320
+plus one plus one five times yeah so now
+
+369
+00:14:46,639 --> 00:14:50,880
+what's b i
+
+370
+00:14:48,320 --> 00:14:52,240
+i is two so what's what's this
+
+371
+00:14:50,880 --> 00:14:53,920
+and
+
+372
+00:14:52,240 --> 00:14:55,760
+divided by
+
+373
+00:14:53,920 --> 00:14:58,399
+i right because you need that term right
+
+374
+00:14:55,760 --> 00:14:59,199
+look n is ten i is two twenty divided by
+
+375
+00:14:58,399 --> 00:15:00,160
+five
+
+376
+00:14:59,199 --> 00:15:02,399
+all right
+
+377
+00:15:00,160 --> 00:15:04,959
+yeah all right
+
+378
+00:15:02,399 --> 00:15:07,680
+one thing is missing if i don't put that
+
+379
+00:15:04,959 --> 00:15:10,720
+cash well done yeah because look this is
+
+380
+00:15:07,680 --> 00:15:12,639
+expand you know exponentially
+
+381
+00:15:10,720 --> 00:15:14,880
+you need to put a cash to remember the
+
+382
+00:15:12,639 --> 00:15:16,720
+fn because we don't want to repeatedly
+
+383
+00:15:14,880 --> 00:15:19,199
+take away fl right this is the same
+
+384
+00:15:16,720 --> 00:15:20,880
+thing as the fibonacci number right
+
+385
+00:15:19,199 --> 00:15:23,279
+yeah
+
+386
+00:15:20,880 --> 00:15:27,399
+top down top down and actually what's
+
+387
+00:15:23,279 --> 00:15:27,399
+the time complexity if it is
+
+388
+00:15:36,470 --> 00:15:40,480
+[Music]
+
+389
+00:15:38,800 --> 00:15:42,000
+don't worry about the complexity
+
+390
+00:15:40,480 --> 00:15:43,279
+remember the square
+
+391
+00:15:42,000 --> 00:15:45,519
+yeah yeah yeah
+
+392
+00:15:43,279 --> 00:15:47,759
+we can always verify the the tom come
+
+393
+00:15:45,519 --> 00:15:49,519
+next using butter up okay let's try the
+
+394
+00:15:47,759 --> 00:15:52,519
+butter
+
+395
+00:15:49,519 --> 00:15:52,519
+up
+
+396
+00:15:53,940 --> 00:15:57,059
+[Music]
+
+397
+00:15:59,360 --> 00:16:03,040
+let's say i convert it to
+
+398
+00:16:03,279 --> 00:16:07,040
+range range and plus one yeah because we
+
+399
+00:16:05,680 --> 00:16:08,399
+want to return
+
+400
+00:16:07,040 --> 00:16:10,160
+everything ryan can i have your
+
+401
+00:16:08,399 --> 00:16:12,720
+attention from the last time please let
+
+402
+00:16:10,160 --> 00:16:12,720
+me go backstage
+
+403
+00:16:12,870 --> 00:16:18,000
+[Music]
+
+404
+00:16:15,600 --> 00:16:20,399
+return dp this is the value i want to
+
+405
+00:16:18,000 --> 00:16:22,399
+store the number uh to store the value
+
+406
+00:16:20,399 --> 00:16:25,199
+so which which value should i return
+
+407
+00:16:22,399 --> 00:16:25,199
+okay right
+
+408
+00:16:25,440 --> 00:16:29,120
+dp which value dpi stores the number of
+
+409
+00:16:28,079 --> 00:16:31,120
+uh
+
+410
+00:16:29,120 --> 00:16:32,830
+stores of the answer for so what's the
+
+411
+00:16:31,120 --> 00:16:34,320
+dptpu
+
+412
+00:16:32,830 --> 00:16:36,399
+[Music]
+
+413
+00:16:34,320 --> 00:16:39,120
+and yeah dp and the last value of tp
+
+414
+00:16:36,399 --> 00:16:42,959
+minus one yeah this is the same
+
+415
+00:16:39,120 --> 00:16:43,759
+so now look i have what i have uh four
+
+416
+00:16:42,959 --> 00:16:46,079
+i
+
+417
+00:16:43,759 --> 00:16:47,759
+in range
+
+418
+00:16:46,079 --> 00:16:49,600
+i start from the second yeah because i
+
+419
+00:16:47,759 --> 00:16:51,519
+already know the first one and then up
+
+420
+00:16:49,600 --> 00:16:53,680
+to m plus one
+
+421
+00:16:51,519 --> 00:16:54,800
+and i can start from another for loop
+
+422
+00:16:53,680 --> 00:16:56,720
+for j
+
+423
+00:16:54,800 --> 00:17:02,600
+in range
+
+424
+00:16:56,720 --> 00:17:02,600
+start from the two i up to i plus one
+
+425
+00:17:04,400 --> 00:17:09,679
+well i divided by 2 plus 1
+
+426
+00:17:08,240 --> 00:17:12,480
+right
+
+427
+00:17:09,679 --> 00:17:18,199
+and then now we can try if
+
+428
+00:17:12,480 --> 00:17:18,199
+if i modulus j equal equal 0 right
+
+429
+00:17:18,400 --> 00:17:24,000
+dp
+
+430
+00:17:20,160 --> 00:17:25,919
+i equals mean of dpi okay so tell me
+
+431
+00:17:24,000 --> 00:17:27,760
+what's right here it's quite similar dpi
+
+432
+00:17:25,919 --> 00:17:30,720
+what
+
+433
+00:17:27,760 --> 00:17:32,720
+what if i found j is the one of the
+
+434
+00:17:30,720 --> 00:17:35,919
+factor of i
+
+435
+00:17:32,720 --> 00:17:38,640
+and dpi is the number the minimum number
+
+436
+00:17:35,919 --> 00:17:40,160
+of operations to come up with i
+
+437
+00:17:38,640 --> 00:17:41,919
+a's yeah
+
+438
+00:17:40,160 --> 00:17:44,559
+ias
+
+439
+00:17:41,919 --> 00:17:46,160
+so what's the value of dpi we want to
+
+440
+00:17:44,559 --> 00:17:49,120
+get the minimum all right you just you
+
+441
+00:17:46,160 --> 00:17:50,480
+was just saying if that 10 10 if i found
+
+442
+00:17:49,120 --> 00:17:53,080
+the 10
+
+443
+00:17:50,480 --> 00:17:56,400
+and then i is two and what's the value
+
+444
+00:17:53,080 --> 00:17:58,559
+dpi because um two and five are more
+
+445
+00:17:56,400 --> 00:17:59,840
+closer to each other and one on ten is
+
+446
+00:17:58,559 --> 00:18:02,000
+more
+
+447
+00:17:59,840 --> 00:18:05,440
+okay that's a very interesting point but
+
+448
+00:18:02,000 --> 00:18:07,520
+look here i have i call i a yeah i want
+
+449
+00:18:05,440 --> 00:18:10,640
+to come up with i
+
+450
+00:18:07,520 --> 00:18:14,240
+i want to come up with i and i know j
+
+451
+00:18:10,640 --> 00:18:16,640
+j yeah is the one of the factor of i so
+
+452
+00:18:14,240 --> 00:18:18,640
+it equals what dp j
+
+453
+00:18:16,640 --> 00:18:20,080
+plus 1 plus 1
+
+454
+00:18:18,640 --> 00:18:21,600
+plus 1 i
+
+455
+00:18:20,080 --> 00:18:24,880
+plus 1 i
+
+456
+00:18:21,600 --> 00:18:26,320
+look dpi plus i y
+
+457
+00:18:24,880 --> 00:18:28,720
+i need to divide
+
+458
+00:18:26,320 --> 00:18:32,320
+divided by because j time man i have
+
+459
+00:18:28,720 --> 00:18:34,320
+already i i i already have j
+
+460
+00:18:32,320 --> 00:18:36,000
+i already have j in the clipboard in a
+
+461
+00:18:34,320 --> 00:18:38,880
+buffer and i need to press how many
+
+462
+00:18:36,000 --> 00:18:41,120
+times i divided by j times right i have
+
+463
+00:18:38,880 --> 00:18:43,600
+two in the buffer i have two in the
+
+464
+00:18:41,120 --> 00:18:46,080
+buffer right so i have to have to place
+
+465
+00:18:43,600 --> 00:18:48,240
+five times yeah four times yeah because
+
+466
+00:18:46,080 --> 00:18:50,160
+i have to copy one and uh press four
+
+467
+00:18:48,240 --> 00:18:50,880
+times so it's one plus four equals five
+
+468
+00:18:50,160 --> 00:18:52,799
+right
+
+469
+00:18:50,880 --> 00:18:54,400
+all right
+
+470
+00:18:52,799 --> 00:18:55,919
+repeating zero okay so what's the time
+
+471
+00:18:54,400 --> 00:18:58,320
+complexity if you're looking this this
+
+472
+00:18:55,919 --> 00:19:00,320
+is quite obvious alright
+
+473
+00:18:58,320 --> 00:19:01,760
+everyone come on what's the
+
+474
+00:19:00,320 --> 00:19:03,919
+what's the time conversation if you look
+
+475
+00:19:01,760 --> 00:19:06,799
+at this
+
+476
+00:19:03,919 --> 00:19:06,799
+come on hurry up
+
+477
+00:19:07,280 --> 00:19:11,480
+why is the one square can you tell me
+
+478
+00:19:24,220 --> 00:19:27,239
+[Music]
+
+479
+00:19:27,919 --> 00:19:32,240
+so remember the previous one
+
+480
+00:19:30,240 --> 00:19:34,480
+top down here
+
+481
+00:19:32,240 --> 00:19:35,760
+there is only one four but inside the
+
+482
+00:19:34,480 --> 00:19:37,200
+four you need to do cushion two
+
+483
+00:19:35,760 --> 00:19:39,520
+different cushions to get the other
+
+484
+00:19:37,200 --> 00:19:41,200
+values so this is actually another four
+
+485
+00:19:39,520 --> 00:19:43,760
+right so it's actually the same o n
+
+486
+00:19:41,200 --> 00:19:47,760
+square and this one this one is bottom
+
+487
+00:19:43,760 --> 00:19:47,760
+right which one you think is better
+
+488
+00:19:47,919 --> 00:19:52,799
+which one is this one this one this one
+
+489
+00:19:51,039 --> 00:19:54,880
+because there's no recursion right
+
+490
+00:19:52,799 --> 00:19:56,640
+there's no recursion and you can just
+
+491
+00:19:54,880 --> 00:19:59,760
+implement but this needs to
+
+492
+00:19:56,640 --> 00:20:01,520
+you need to do it the in a reverse order
+
+493
+00:19:59,760 --> 00:20:03,600
+from the bottom to the up right and you
+
+494
+00:20:01,520 --> 00:20:06,799
+need to create we need to create an dp
+
+495
+00:20:03,600 --> 00:20:08,400
+array yeah dpi dpi at the beginning
+
+496
+00:20:06,799 --> 00:20:10,240
+equals i right because they have the
+
+497
+00:20:08,400 --> 00:20:12,799
+slope right
+
+498
+00:20:10,240 --> 00:20:15,039
+all right yeah okay so there are 10 a's
+
+499
+00:20:12,799 --> 00:20:17,280
+what's the what's the number of uh ways
+
+500
+00:20:15,039 --> 00:20:20,720
+you can do it okay if i want to have 10
+
+501
+00:20:17,280 --> 00:20:23,679
+8 come on one last question
+
+502
+00:20:20,720 --> 00:20:25,120
+how can we do it
+
+503
+00:20:23,679 --> 00:20:26,640
+how can we do it
+
+504
+00:20:25,120 --> 00:20:30,000
+come on think about it give me answer
+
+505
+00:20:26,640 --> 00:20:33,720
+let me let me check what's the 10 a yeah
+
+506
+00:20:30,000 --> 00:20:33,720
+how many how many
+
+507
+00:20:34,080 --> 00:20:38,720
+five
+
+508
+00:20:35,760 --> 00:20:40,640
+two five six six six six i'll turn it to
+
+509
+00:20:38,720 --> 00:20:44,080
+the sixth one
+
+510
+00:20:40,640 --> 00:20:47,720
+what six so we've won yeah
+
+511
+00:20:44,080 --> 00:20:47,720
+copy copy
+
+512
+00:20:55,919 --> 00:21:01,280
+okay so you try look okay
+
+513
+00:20:58,960 --> 00:21:03,679
+first of all copy
+
+514
+00:21:01,280 --> 00:21:07,520
+second place
+
+515
+00:21:03,679 --> 00:21:10,159
+you have two a's yeah an hour and paste
+
+516
+00:21:07,520 --> 00:21:11,760
+paste paste paste how many one two three
+
+517
+00:21:10,159 --> 00:21:12,640
+four five six
+
+518
+00:21:11,760 --> 00:21:15,039
+is it
+
+519
+00:21:12,640 --> 00:21:17,120
+because um because you know the practice
+
+520
+00:21:15,039 --> 00:21:20,320
+thing um
+
+521
+00:21:17,120 --> 00:21:21,679
+um and you do the one which is closer to
+
+522
+00:21:20,320 --> 00:21:24,660
+each other
+
+523
+00:21:21,679 --> 00:21:25,840
+why why is there one
+
+524
+00:21:24,660 --> 00:21:29,600
+[Music]
+
+525
+00:21:25,840 --> 00:21:29,600
+one time is it six really
+
+526
+00:21:35,520 --> 00:21:38,960
+copy
+
+527
+00:21:36,960 --> 00:21:40,799
+copy paste
+
+528
+00:21:38,960 --> 00:21:44,000
+and then
+
+529
+00:21:40,799 --> 00:21:45,200
+paste paste paste paste place paste
+
+530
+00:21:44,000 --> 00:21:47,520
+paper paste
+
+531
+00:21:45,200 --> 00:21:49,919
+copy paste
+
+532
+00:21:47,520 --> 00:21:49,919
+facebook
+
+533
+00:21:50,960 --> 00:21:55,360
+copy say copy
+
+534
+00:21:53,120 --> 00:21:57,679
+so copy
+
+535
+00:21:55,360 --> 00:22:00,240
+paste and then you need to copy again
+
+536
+00:21:57,679 --> 00:22:02,159
+you need to copy again look ryan yeah
+
+537
+00:22:00,240 --> 00:22:03,919
+here's one one missing
+
+538
+00:22:02,159 --> 00:22:06,640
+yeah you need to copy again because
+
+539
+00:22:03,919 --> 00:22:08,960
+otherwise the password is only one a
+
+540
+00:22:06,640 --> 00:22:11,200
+copy paste right
+
+541
+00:22:08,960 --> 00:22:14,159
+and i need to copy to make a two a's and
+
+542
+00:22:11,200 --> 00:22:15,840
+then copy paste space spaces one two
+
+543
+00:22:14,159 --> 00:22:17,200
+three four five six seven yeah that's
+
+544
+00:22:15,840 --> 00:22:18,799
+seven okay
+
+545
+00:22:17,200 --> 00:22:19,600
+that's the other how about we do these
+
+546
+00:22:18,799 --> 00:22:21,600
+five
+
+547
+00:22:19,600 --> 00:22:24,240
+look at copy
+
+548
+00:22:21,600 --> 00:22:27,039
+paste paste
+
+549
+00:22:24,240 --> 00:22:29,360
+paste paste and copy
+
+550
+00:22:27,039 --> 00:22:31,600
+paste how many one two three four five
+
+551
+00:22:29,360 --> 00:22:33,679
+six seven it's also okay
+
+552
+00:22:31,600 --> 00:22:36,960
+both ways okay okay
+
+553
+00:22:33,679 --> 00:22:38,159
+why copy let's know is what let's not
+
+554
+00:22:36,960 --> 00:22:40,880
+say copy
+
+555
+00:22:38,159 --> 00:22:40,880
+copy copy
+
+556
+00:22:49,840 --> 00:22:53,159
+good job
+
