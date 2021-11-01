@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sorted by Days
+- Day 320:  [Top Down and Bottom Up Dynamic Programming Algorithm to Type N letters on a 2-keys Keyboard](https://helloacm.com/teaching-kids-programming-top-down-and-bottom-up-dynamic-programming-algorithm-to-type-n-letters-on-a-2-keys-keyboard/)  至顶向下或由下至上的动态规划算法计算用2键键盘敲N个A的最佳方案数  [Youtube](https://youtu.be/knZsWwkzyRI) - [B站](https://www.bilibili.com/video/BV1J34y1o7Yq/) - [西瓜](https://www.ixigua.com/7025493172662829576)
 - Day 319:  [Estimate the Golden Ratio via Fibonacci Numbers in Python](https://helloacm.com/golden-ratio/)  黄金分割点的斐波那契数列估值算法  [Youtube](https://youtu.be/yjrsbCNDQ5Y) - [B站](https://www.bilibili.com/video/BV1fL4y1i7MC/) - [西瓜](https://www.ixigua.com/7024841592208884255) 
 - Day 318:  [Run-Length Encoding/Compression Algorithm](https://helloacm.com/teaching-kids-programming-run-length-encoding-compression-algorithm/)  行程编码/压缩算法 (Run-Length)  [Youtube](https://youtu.be/MxSQUKiipng) - [B站](https://www.bilibili.com/video/BV1sP4y1b7gi/) - [西瓜](https://www.ixigua.com/7024483044316840456) 
 - Day 317:  [Run-Length Decoding/Decompression Algorithm](https://helloacm.com/teaching-kids-programming-run-length-decoding-decompression-algorithm/)  行程解码/解压缩算法 (Run-Length)  [Youtube](https://youtu.be/eDTS0GrKMC8) - [B站](https://www.bilibili.com/video/BV1f44y1v78h/) - [西瓜](https://www.ixigua.com/7024214454866805255) 
