@@ -308,6 +308,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Greedy Algorithm 贪心算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Greedy Algorithm to Find Longest Increasing Subsequence in O(NLogN) via Binary Search | 贪心二分查找算法找出数组中的最长递增子序列 O(NLogN) | [Youtube](https://youtu.be/fk4df6VH3wE) - [B站](https://www.bilibili.com/video/BV1XU4y1u7ha/) - [西瓜](https://www.ixigua.com/7026066894738162212) | [Greedy Algorithm to Find Longest Increasing Subsequence in O(NLogN) via Binary Search](https://helloacm.com/teaching-kids-programming-greedy-algorithm-to-find-longest-increasing-subsequence-in-onlogn-via-binary-search/) | 2021-11-02 |
 | Largest Odd Number in String | 字符串中的最大奇数 | [Youtube](https://youtu.be/Pj27YtuFltw) - [B站](https://www.bilibili.com/video/BV1yo4y1Q77H/) | [Largest Odd Number in String](https://helloacm.com/teaching-kids-programming-largest-odd-number-in-string/) | 2021-07-02 |
 | Sum of Distinct Positive Factorial Numbers | 不同正阶乘数之和 | [Youtube](https://youtu.be/XHKuC8U93Cs) - [B站](https://www.bilibili.com/video/BV14B4y1M7kG/) | [Sum of Distinct Positive Factorial Numbers](https://helloacm.com/teaching-kids-programming-sum-of-distinct-positive-factorial-numbers/) | 2021-06-19 |
 | Flip One Digit via Greedy Algorithm | 贪心翻转一个数字 | [Youtube](https://youtu.be/8zpPvC0oXc0) - [B站](https://www.bilibili.com/video/BV1Yq4y1E7c3/) | [Flip One Digit via Greedy Algorithm](https://helloacm.com/teaching-kids-programming-flip-one-digit-via-greedy-algorithm/) | 2021-05-18 |
