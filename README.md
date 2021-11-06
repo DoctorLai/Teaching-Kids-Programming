@@ -221,6 +221,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Two Pointer Algorithm 双指针
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Remove Duplicates from Sorted Array via Two Pointer Algorithm | 删除有序列表中的重复元素(双指针算法) | [Youtube](https://youtu.be/ouOXrQM3S_M) - [B站](https://www.bilibili.com/video/BV1JU4y1M75e/) - [西瓜](https://www.ixigua.com/7027573358229193229) | [Remove Duplicates from Sorted Array via Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-remove-duplicates-from-sorted-array/) | 2021-11-06 |
 | Reverse Only Letters via Two Pointer Algorithm | 双指针算法只反转英文字母 | [Youtube](https://youtu.be/9E5kqES3BKs) - [B站](https://www.bilibili.com/video/BV15A411F7mK/) | [Reverse Only Letters via Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-reverse-only-letters-via-two-pointer-algorithm/) | 2021-09-14 |
 | Interval Overlaps via Two Pointer Algorithm | 双指针算法求线段的交集 | [Youtube](https://youtu.be/z2f2cLy15I4) - [B站](https://www.bilibili.com/video/BV1Xf4y1b7o7/) | [Interval Overlaps via Two Pointer Algorithm](https://helloacm.com/teaching-kids-programming-interval-overlaps-via-two-pointer-algorithm/) | 2021-05-31 |
 | Two Pointer Algorithm to Rescue People in Rocketship | 双指针算法求最少火箭数 | [Youtube](https://youtu.be/I9_QLypqZao) - [B站](https://www.bilibili.com/video/BV1ov411579s/) | [Two Pointer Algorithm to Rescue People in Rocketship](https://helloacm.com/teaching-kids-programming-two-pointer-algorithm-to-rescue-people-in-rocketship/) | 2021-05-21 |
