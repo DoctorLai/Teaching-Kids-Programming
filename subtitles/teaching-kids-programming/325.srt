@@ -1,0 +1,924 @@
+1
+00:00:00,640 --> 00:00:05,600
+so ah hello mr mr right now you're right
+
+2
+00:00:03,840 --> 00:00:08,000
+yeah yeah okay
+
+3
+00:00:05,600 --> 00:00:09,679
+so we talked about uh linguists okay
+
+4
+00:00:08,000 --> 00:00:11,840
+english
+
+5
+00:00:09,679 --> 00:00:13,519
+how many types of linguists do we have
+
+6
+00:00:11,840 --> 00:00:16,240
+linked this
+
+7
+00:00:13,519 --> 00:00:19,920
+another note tingly
+
+8
+00:00:16,240 --> 00:00:19,920
+yeah i think the tablet too
+
+9
+00:00:20,080 --> 00:00:24,960
+this is what what's this
+
+10
+00:00:22,880 --> 00:00:28,960
+this is
+
+11
+00:00:24,960 --> 00:00:30,480
+fingerli right and how what's doubly
+
+12
+00:00:28,960 --> 00:00:32,320
+what's w
+
+13
+00:00:30,480 --> 00:00:34,800
+it has a cycle
+
+14
+00:00:32,320 --> 00:00:36,880
+it has a side not not quite
+
+15
+00:00:34,800 --> 00:00:38,559
+what's singly means single direction
+
+16
+00:00:36,880 --> 00:00:40,160
+what doubling
+
+17
+00:00:38,559 --> 00:00:43,280
+direction
+
+18
+00:00:40,160 --> 00:00:45,760
+now now this is this is still singly the
+
+19
+00:00:43,280 --> 00:00:47,280
+doctor is that it has another additional
+
+20
+00:00:45,760 --> 00:00:50,320
+link from the
+
+21
+00:00:47,280 --> 00:00:51,120
+current node linked to the previous okay
+
+22
+00:00:50,320 --> 00:00:53,280
+okay
+
+23
+00:00:51,120 --> 00:00:54,160
+this is probably okay
+
+24
+00:00:53,280 --> 00:00:56,719
+yeah
+
+25
+00:00:54,160 --> 00:00:58,719
+so these are the data structure this is
+
+26
+00:00:56,719 --> 00:01:01,199
+the data structure to store the data
+
+27
+00:00:58,719 --> 00:01:02,640
+right it's one kind of data structure
+
+28
+00:01:01,199 --> 00:01:05,439
+and
+
+29
+00:01:02,640 --> 00:01:07,200
+how does it differ between the
+
+30
+00:01:05,439 --> 00:01:09,600
+the list you know normally we have a
+
+31
+00:01:07,200 --> 00:01:14,320
+list yeah a equals list
+
+32
+00:01:09,600 --> 00:01:16,720
+one two three four okay
+
+33
+00:01:14,320 --> 00:01:18,640
+the list is quite simple yeah it holds
+
+34
+00:01:16,720 --> 00:01:21,200
+the element right and then these
+
+35
+00:01:18,640 --> 00:01:23,040
+elements are put one by one next to each
+
+36
+00:01:21,200 --> 00:01:25,439
+other right so we can have this
+
+37
+00:01:23,040 --> 00:01:28,320
+randomness if we want to achieve the
+
+38
+00:01:25,439 --> 00:01:29,360
+third number we can just do a
+
+39
+00:01:28,320 --> 00:01:31,680
+a1
+
+40
+00:01:29,360 --> 00:01:35,040
+the first index the first number is a0
+
+41
+00:01:31,680 --> 00:01:35,040
+right the third number is one
+
+42
+00:01:35,439 --> 00:01:40,240
+anyone
+
+43
+00:01:37,840 --> 00:01:44,000
+what how can i retrieve this number i
+
+44
+00:01:40,240 --> 00:01:45,439
+don't next this is the list a1 how many
+
+45
+00:01:44,000 --> 00:01:46,399
+alright four
+
+46
+00:01:45,439 --> 00:01:48,640
+four
+
+47
+00:01:46,399 --> 00:01:49,840
+how many what's the what's this number
+
+48
+00:01:48,640 --> 00:01:51,680
+a1
+
+49
+00:01:49,840 --> 00:01:52,880
+if i put one number here what's this
+
+50
+00:01:51,680 --> 00:01:55,119
+three
+
+51
+00:01:52,880 --> 00:01:58,640
+two two yeah because it start with zero
+
+52
+00:01:55,119 --> 00:01:59,759
+like a0 a1 a2 a3 okay make sense good
+
+53
+00:01:58,640 --> 00:02:01,040
+job
+
+54
+00:01:59,759 --> 00:02:03,200
+okay so
+
+55
+00:02:01,040 --> 00:02:05,119
+now the thing is we're talking about the
+
+56
+00:02:03,200 --> 00:02:07,119
+thing clip here okay so we have head
+
+57
+00:02:05,119 --> 00:02:09,520
+here
+
+58
+00:02:07,119 --> 00:02:13,120
+and i'll come to the next we point to
+
+59
+00:02:09,520 --> 00:02:14,879
+the next okay so this is one two three
+
+60
+00:02:13,120 --> 00:02:16,319
+four
+
+61
+00:02:14,879 --> 00:02:17,200
+right
+
+62
+00:02:16,319 --> 00:02:19,120
+so
+
+63
+00:02:17,200 --> 00:02:21,040
+if we want to retrieve the number in the
+
+64
+00:02:19,120 --> 00:02:23,599
+second in the third now we can't we
+
+65
+00:02:21,040 --> 00:02:26,959
+can't just do this like the list why we
+
+66
+00:02:23,599 --> 00:02:29,200
+have to travel from the head head
+
+67
+00:02:26,959 --> 00:02:31,840
+and the next hit the next and the next
+
+68
+00:02:29,200 --> 00:02:34,840
+right so the traveling term is it's
+
+69
+00:02:31,840 --> 00:02:37,519
+linear right it's all what
+
+70
+00:02:34,840 --> 00:02:40,319
+if the previous one the eight of these
+
+71
+00:02:37,519 --> 00:02:42,480
+yeah it is one two three we want to get
+
+72
+00:02:40,319 --> 00:02:44,640
+these the term complexity so one yeah
+
+73
+00:02:42,480 --> 00:02:47,280
+because we know we know this address of
+
+74
+00:02:44,640 --> 00:02:49,440
+the a and we can based on the type of
+
+75
+00:02:47,280 --> 00:02:51,760
+element we can calculate the address of
+
+76
+00:02:49,440 --> 00:02:53,680
+any numbers in the array right
+
+77
+00:02:51,760 --> 00:02:55,360
+and then if look
+
+78
+00:02:53,680 --> 00:02:58,000
+because the array is quite simple right
+
+79
+00:02:55,360 --> 00:03:01,680
+we only we don't store any additional
+
+80
+00:02:58,000 --> 00:03:01,680
+overhead right but for this one
+
+81
+00:03:02,080 --> 00:03:06,080
+we also need to store one more one more
+
+82
+00:03:04,560 --> 00:03:08,239
+thing which is the point that points to
+
+83
+00:03:06,080 --> 00:03:10,800
+the next right so if we look there are
+
+84
+00:03:08,239 --> 00:03:13,519
+four numbers here one two three four we
+
+85
+00:03:10,800 --> 00:03:15,519
+need to store eight units of thing
+
+86
+00:03:13,519 --> 00:03:19,360
+because these four numbers
+
+87
+00:03:15,519 --> 00:03:21,519
+and each node we also have this
+
+88
+00:03:19,360 --> 00:03:24,799
+pointer to the next one
+
+89
+00:03:21,519 --> 00:03:27,120
+so yeah do you get it
+
+90
+00:03:24,799 --> 00:03:29,519
+um but for this one for the linked list
+
+91
+00:03:27,120 --> 00:03:31,360
+the the the only uh the advantage of
+
+92
+00:03:29,519 --> 00:03:33,440
+using english is that it does not have
+
+93
+00:03:31,360 --> 00:03:35,360
+to be continuous right so these and
+
+94
+00:03:33,440 --> 00:03:38,400
+these nodes could be separate it could
+
+95
+00:03:35,360 --> 00:03:40,720
+be separate apart in memory
+
+96
+00:03:38,400 --> 00:03:42,959
+but for this one the linked list for the
+
+97
+00:03:40,720 --> 00:03:45,120
+list it has to be continuous
+
+98
+00:03:42,959 --> 00:03:47,840
+so you know the computer ram is limited
+
+99
+00:03:45,120 --> 00:03:49,519
+the ram yeah like a table yeah if a
+
+100
+00:03:47,840 --> 00:03:52,400
+table is limited
+
+101
+00:03:49,519 --> 00:03:53,840
+so if i want to store like uh
+
+102
+00:03:52,400 --> 00:03:56,080
+you know sometimes i want to store
+
+103
+00:03:53,840 --> 00:03:57,200
+minion data right for example if this
+
+104
+00:03:56,080 --> 00:03:58,239
+this thing
+
+105
+00:03:57,200 --> 00:04:00,480
+uh
+
+106
+00:03:58,239 --> 00:04:02,959
+like a thousand a thousand elements
+
+107
+00:04:00,480 --> 00:04:05,439
+right and i want to allocate i can't
+
+108
+00:04:02,959 --> 00:04:07,840
+sometimes i cannot find a continuous
+
+109
+00:04:05,439 --> 00:04:10,319
+space for the hundred elements
+
+110
+00:04:07,840 --> 00:04:14,239
+right but for the language i can
+
+111
+00:04:10,319 --> 00:04:16,160
+because this linkage can be separate in
+
+112
+00:04:14,239 --> 00:04:17,680
+the notes i it could be separate in
+
+113
+00:04:16,160 --> 00:04:20,239
+different parts of the table yeah
+
+114
+00:04:17,680 --> 00:04:23,919
+overall right so i can do it
+
+115
+00:04:20,239 --> 00:04:25,759
+okay this is the one difference
+
+116
+00:04:23,919 --> 00:04:28,880
+okay so let's let's
+
+117
+00:04:25,759 --> 00:04:31,120
+let's do a very good
+
+118
+00:04:28,880 --> 00:04:34,000
+easy problem which is to find the length
+
+119
+00:04:31,120 --> 00:04:36,880
+of english right so let's say
+
+120
+00:04:34,000 --> 00:04:36,880
+i have a hat
+
+121
+00:04:38,560 --> 00:04:43,120
+i want to find the length of the linkage
+
+122
+00:04:40,240 --> 00:04:44,960
+how can i do this
+
+123
+00:04:43,120 --> 00:04:47,840
+how can we do this the length of
+
+124
+00:04:44,960 --> 00:04:50,400
+learning is head how can we do this
+
+125
+00:04:47,840 --> 00:04:52,160
+any idea
+
+126
+00:04:50,400 --> 00:04:54,160
+you want to travel
+
+127
+00:04:52,160 --> 00:04:55,520
+why you head
+
+128
+00:04:54,160 --> 00:04:56,560
+by your head
+
+129
+00:04:55,520 --> 00:04:59,040
+okay
+
+130
+00:04:56,560 --> 00:05:02,560
+y head is not the end yeah what do we do
+
+131
+00:04:59,040 --> 00:05:05,600
+but before that we need to declare a
+
+132
+00:05:02,560 --> 00:05:08,560
+number right answer
+
+133
+00:05:05,600 --> 00:05:10,400
+and why ahead what
+
+134
+00:05:08,560 --> 00:05:11,520
+what's next return
+
+135
+00:05:10,400 --> 00:05:13,840
+return
+
+136
+00:05:11,520 --> 00:05:15,600
+answer where do you put the channel why
+
+137
+00:05:13,840 --> 00:05:19,199
+your head what what what do we do with
+
+138
+00:05:15,600 --> 00:05:20,720
+the y hat come on you can do it
+
+139
+00:05:19,199 --> 00:05:22,560
+answer
+
+140
+00:05:20,720 --> 00:05:24,639
+uh
+
+141
+00:05:22,560 --> 00:05:26,720
+equals one okay and then what should we
+
+142
+00:05:24,639 --> 00:05:28,639
+do with the head
+
+143
+00:05:26,720 --> 00:05:30,160
+we should go with the hair moving to the
+
+144
+00:05:28,639 --> 00:05:33,280
+next head or next
+
+145
+00:05:30,160 --> 00:05:35,280
+hair equal as well head dot next okay
+
+146
+00:05:33,280 --> 00:05:36,880
+return answer
+
+147
+00:05:35,280 --> 00:05:38,400
+we're done what's the time to let's see
+
+148
+00:05:36,880 --> 00:05:40,479
+for this one
+
+149
+00:05:38,400 --> 00:05:42,479
+the n is the number of nodes in the
+
+150
+00:05:40,479 --> 00:05:45,600
+degrees right now this is iterated we
+
+151
+00:05:42,479 --> 00:05:47,199
+have iterative we can also do that do it
+
+152
+00:05:45,600 --> 00:05:48,880
+in recursion
+
+153
+00:05:47,199 --> 00:05:51,120
+so what how can we solve this purple
+
+154
+00:05:48,880 --> 00:05:52,880
+recursion look this is head right this
+
+155
+00:05:51,120 --> 00:05:55,280
+is head
+
+156
+00:05:52,880 --> 00:05:57,919
+so the the entire linked list the length
+
+157
+00:05:55,280 --> 00:06:01,520
+of entire linkage is what
+
+158
+00:05:57,919 --> 00:06:04,400
+is the thing this is what this is what
+
+159
+00:06:01,520 --> 00:06:08,720
+this whole thing here is what
+
+160
+00:06:04,400 --> 00:06:08,720
+start here what's this what's this note
+
+161
+00:06:09,199 --> 00:06:13,680
+hector next
+
+162
+00:06:10,639 --> 00:06:16,000
+we're done so look the link list
+
+163
+00:06:13,680 --> 00:06:19,280
+the length of the entire language is one
+
+164
+00:06:16,000 --> 00:06:21,280
+note here plus the notes i'm not sure
+
+165
+00:06:19,280 --> 00:06:23,600
+how many nodes are here but i know this
+
+166
+00:06:21,280 --> 00:06:26,720
+has next so i can use the recursion to
+
+167
+00:06:23,600 --> 00:06:29,360
+call itself to solve the problem
+
+168
+00:06:26,720 --> 00:06:32,160
+a smaller problem right
+
+169
+00:06:29,360 --> 00:06:35,440
+okay so define the terminal terminal
+
+170
+00:06:32,160 --> 00:06:36,479
+condition is that when the node is empty
+
+171
+00:06:35,440 --> 00:06:40,000
+yeah
+
+172
+00:06:36,479 --> 00:06:42,560
+lens head i don't know what should we do
+
+173
+00:06:40,000 --> 00:06:45,919
+what should we do
+
+174
+00:06:42,560 --> 00:06:48,639
+if okay if not head even head is numb or
+
+175
+00:06:45,919 --> 00:06:50,720
+not head okay then we return
+
+176
+00:06:48,639 --> 00:06:53,280
+num zero okay and then otherwise we
+
+177
+00:06:50,720 --> 00:06:53,280
+return one
+
+178
+00:06:54,400 --> 00:06:58,560
+yeah
+
+179
+00:06:55,280 --> 00:07:01,199
+head no no no how many notes are you
+
+180
+00:06:58,560 --> 00:07:01,199
+i don't know
+
+181
+00:07:09,919 --> 00:07:14,160
+yeah the question this is the question
+
+182
+00:07:11,919 --> 00:07:15,840
+calling itself this this
+
+183
+00:07:14,160 --> 00:07:16,800
+this calling itself right calling
+
+184
+00:07:15,840 --> 00:07:18,319
+yourself
+
+185
+00:07:16,800 --> 00:07:20,240
+why not because look we want to
+
+186
+00:07:18,319 --> 00:07:21,759
+calculate how many nodes are in entire
+
+187
+00:07:20,240 --> 00:07:23,599
+language
+
+188
+00:07:21,759 --> 00:07:25,039
+it's equals to one node here i know it's
+
+189
+00:07:23,599 --> 00:07:27,199
+one over here
+
+190
+00:07:25,039 --> 00:07:29,759
+and then use header next is this this is
+
+191
+00:07:27,199 --> 00:07:32,000
+something yeah this linkage and i call
+
+192
+00:07:29,759 --> 00:07:33,199
+itself to solve this and then return it
+
+193
+00:07:32,000 --> 00:07:34,319
+yeah
+
+194
+00:07:33,199 --> 00:07:36,960
+make sense
+
+195
+00:07:34,319 --> 00:07:39,280
+yeah yeah
+
+196
+00:07:36,960 --> 00:07:41,520
+so this because this recursion every
+
+197
+00:07:39,280 --> 00:07:44,160
+question has one problem uh it's called
+
+198
+00:07:41,520 --> 00:07:46,000
+step over from stack overflow because
+
+199
+00:07:44,160 --> 00:07:48,639
+every time we want to
+
+200
+00:07:46,000 --> 00:07:49,919
+uh call call a recursion calling we said
+
+201
+00:07:48,639 --> 00:07:52,800
+we need to push
+
+202
+00:07:49,919 --> 00:07:55,280
+you know push the address of the
+
+203
+00:07:52,800 --> 00:07:57,599
+corner and then we need to put a push
+
+204
+00:07:55,280 --> 00:07:59,440
+the parameters in the stack stack is the
+
+205
+00:07:57,599 --> 00:08:01,199
+fixed size in computer science in
+
+206
+00:07:59,440 --> 00:08:03,120
+computer right
+
+207
+00:08:01,199 --> 00:08:04,879
+in the computer
+
+208
+00:08:03,120 --> 00:08:08,000
+so once
+
+209
+00:08:04,879 --> 00:08:10,240
+once the number of elements it says the
+
+210
+00:08:08,000 --> 00:08:13,520
+stack size then you will cause that
+
+211
+00:08:10,240 --> 00:08:16,400
+overflow right if the linkage is or has
+
+212
+00:08:13,520 --> 00:08:19,919
+a minion element it probably will
+
+213
+00:08:16,400 --> 00:08:22,000
+will have this problem right so the best
+
+214
+00:08:19,919 --> 00:08:24,960
+approach would be the previous one which
+
+215
+00:08:22,000 --> 00:08:27,039
+is iterative okay for and for this
+
+216
+00:08:24,960 --> 00:08:29,759
+the question we can write it in white
+
+217
+00:08:27,039 --> 00:08:32,479
+line right look return one plus nine
+
+218
+00:08:29,759 --> 00:08:34,000
+head not hat or next
+
+219
+00:08:32,479 --> 00:08:35,690
+if
+
+220
+00:08:34,000 --> 00:08:38,399
+what if hat
+
+221
+00:08:35,690 --> 00:08:41,599
+[Music]
+
+222
+00:08:38,399 --> 00:08:42,320
+yellow yeah we can just remove this yeah
+
+223
+00:08:41,599 --> 00:08:44,399
+yeah
+
+224
+00:08:42,320 --> 00:08:47,440
+return yeah look at one nine return one
+
+225
+00:08:44,399 --> 00:08:48,560
+person then head down next right right
+
+226
+00:08:47,440 --> 00:08:50,320
+yeah
+
+227
+00:08:48,560 --> 00:08:52,480
+let's get ready
+
+228
+00:08:50,320 --> 00:08:56,160
+okay
+
+229
+00:08:52,480 --> 00:08:58,240
+okay so yeah that will be today
+
+230
+00:08:56,160 --> 00:09:01,240
+bye-bye
+
+231
+00:08:58,240 --> 00:09:01,240
+bye-bye
+
