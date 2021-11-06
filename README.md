@@ -120,6 +120,12 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Introduction to Queue Data Structure and Examples | 数据结构之队列 | [Youtube](https://www.youtube.com/watch?v=FUwxWmpQzuA) - [B站](https://www.bilibili.com/video/BV1PK41137Hu/) - [教媳妇油管](https://youtu.be/0CepjkEgoGE) - [教媳妇B](https://www.bilibili.com/video/BV1Uv411T73Z/) - [教媳妇Xigua](https://www.ixigua.com/7026352686702428708) | [Introduction to Queue Data Structure and Examples](https://helloacm.com/teaching-kids-programming-introduction-to-queue-data-structure-and-examples/) | 2020-11-25 |
 | Reverse a List using a Stack | 数据结构之堆栈 | [Youtube](https://www.youtube.com/watch?v=mqot-fqG05Y) - [B站](https://www.bilibili.com/video/BV1ua4y1W7mr/) | [Reverse a List using a Stack](https://helloacm.com/teaching-kids-programming-reversing-a-list-using-stack/) | 2020-11-24 |
 
+## Linked List 链表
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Length of a Linked List (Recursion / Iterative Algorithm) | 单向双向链接求长度的递归和迭代算法 | [Youtube](https://youtu.be/DCQj51wuzd4) - [B站](https://www.bilibili.com/video/BV1tR4y1E7aD/) - [西瓜](https://www.ixigua.com/7027376642783871501) | [Length of a Linked List (Recursion / Iterative Algorithm)](https://helloacm.com/teaching-kisd-programming-finding-the-length-of-a-linked-list-recursion-and-iterative-algorithm/) | 2021-11-05 |
+
+
 ## Hash Table 哈希表
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
