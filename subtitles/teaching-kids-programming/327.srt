@@ -1,0 +1,2320 @@
+1
+00:00:01,199 --> 00:00:07,120
+hello mr mr ryan how are you today
+
+2
+00:00:04,960 --> 00:00:09,040
+okay so you know how to multiply two
+
+3
+00:00:07,120 --> 00:00:12,400
+numbers yeah yeah
+
+4
+00:00:09,040 --> 00:00:14,920
+okay okay one two three four five six
+
+5
+00:00:12,400 --> 00:00:18,080
+how do you do it
+
+6
+00:00:14,920 --> 00:00:22,400
+okay okay how do we do it
+
+7
+00:00:18,080 --> 00:00:24,560
+one two we do this number times yeah
+
+8
+00:00:22,400 --> 00:00:26,480
+this number times this and then this
+
+9
+00:00:24,560 --> 00:00:31,400
+number times this and we put it in like
+
+10
+00:00:26,480 --> 00:00:31,400
+one and then okay number here
+
+11
+00:00:31,760 --> 00:00:36,079
+oh you're so lazy just give me how to
+
+12
+00:00:34,079 --> 00:00:38,079
+you know just teach me how to do it but
+
+13
+00:00:36,079 --> 00:00:39,680
+without giving me the example okay but i
+
+14
+00:00:38,079 --> 00:00:42,160
+understand what you mean yeah these
+
+15
+00:00:39,680 --> 00:00:44,000
+numbers are eight yeah
+
+16
+00:00:42,160 --> 00:00:45,440
+and then
+
+17
+00:00:44,000 --> 00:00:47,840
+seventy
+
+18
+00:00:45,440 --> 00:00:49,520
+three right and i please
+
+19
+00:00:47,840 --> 00:00:51,680
+hear something something and i i learned
+
+20
+00:00:49,520 --> 00:00:55,039
+together right you're lazy yeah yeah
+
+21
+00:00:51,680 --> 00:00:55,039
+yeah yeah you're lazy
+
+22
+00:00:56,840 --> 00:01:03,440
+okay so in python actually if we give
+
+23
+00:00:59,920 --> 00:01:04,799
+given two string and then these could be
+
+24
+00:01:03,440 --> 00:01:07,520
+you know very
+
+25
+00:01:04,799 --> 00:01:09,520
+huge abstract length right so you can
+
+26
+00:01:07,520 --> 00:01:11,520
+just directly if these are given two
+
+27
+00:01:09,520 --> 00:01:15,040
+strings and then you can just do you
+
+28
+00:01:11,520 --> 00:01:17,119
+know convert it to you can use this in a
+
+29
+00:01:15,040 --> 00:01:18,240
+and then convert the string to integer
+
+30
+00:01:17,119 --> 00:01:19,040
+times
+
+31
+00:01:18,240 --> 00:01:21,840
+in
+
+32
+00:01:19,040 --> 00:01:23,520
+b you know right and then you can
+
+33
+00:01:21,840 --> 00:01:24,799
+convert the result back to the string
+
+34
+00:01:23,520 --> 00:01:27,439
+right
+
+35
+00:01:24,799 --> 00:01:29,439
+yeah this would be it but we want to
+
+36
+00:01:27,439 --> 00:01:31,360
+understand how do we
+
+37
+00:01:29,439 --> 00:01:33,439
+let the computer do the math
+
+38
+00:01:31,360 --> 00:01:36,000
+do the multiplication because in some
+
+39
+00:01:33,439 --> 00:01:38,240
+other language right not in person like
+
+40
+00:01:36,000 --> 00:01:39,840
+in java in the
+
+41
+00:01:38,240 --> 00:01:42,880
+the integer
+
+42
+00:01:39,840 --> 00:01:45,920
+has a fixed size so you cannot store
+
+43
+00:01:42,880 --> 00:01:47,280
+you know for example in c c or in in c
+
+44
+00:01:45,920 --> 00:01:49,439
+plus plus
+
+45
+00:01:47,280 --> 00:01:51,680
+another problem in language and if you
+
+46
+00:01:49,439 --> 00:01:54,479
+declare in right
+
+47
+00:01:51,680 --> 00:01:57,840
+yeah if you declare the in integer a
+
+48
+00:01:54,479 --> 00:02:00,560
+right it can only store
+
+49
+00:01:57,840 --> 00:02:02,399
+stop a number which is four bytes so
+
+50
+00:02:00,560 --> 00:02:04,479
+this is for byte right
+
+51
+00:02:02,399 --> 00:02:06,960
+okay this is the highest sign but if
+
+52
+00:02:04,479 --> 00:02:08,640
+we're talking about you unsigned
+
+53
+00:02:06,960 --> 00:02:12,720
+individual which means that none
+
+54
+00:02:08,640 --> 00:02:14,640
+negative it will be a will be belongs to
+
+55
+00:02:12,720 --> 00:02:18,080
+you know 0
+
+56
+00:02:14,640 --> 00:02:20,720
+and 2 to 2 to the power of 32
+
+57
+00:02:18,080 --> 00:02:23,920
+to -1 right because it's 32-bit so this
+
+58
+00:02:20,720 --> 00:02:25,520
+is the maximum number that unsigned okay
+
+59
+00:02:23,920 --> 00:02:27,520
+and then
+
+60
+00:02:25,520 --> 00:02:30,720
+and signed
+
+61
+00:02:27,520 --> 00:02:33,120
+four by integer four by integer
+
+62
+00:02:30,720 --> 00:02:35,120
+yeah remember
+
+63
+00:02:33,120 --> 00:02:38,480
+what's by
+
+64
+00:02:35,120 --> 00:02:40,879
+32 bit yeah four by 32 bits yeah
+
+65
+00:02:38,480 --> 00:02:42,400
+right okay
+
+66
+00:02:40,879 --> 00:02:44,800
+computer
+
+67
+00:02:42,400 --> 00:02:46,640
+let's review this data uh
+
+68
+00:02:44,800 --> 00:02:48,400
+data unit right
+
+69
+00:02:46,640 --> 00:02:51,040
+what speed
+
+70
+00:02:48,400 --> 00:02:52,480
+a bit is a bit it is
+
+71
+00:02:51,040 --> 00:02:53,920
+a picture thing
+
+72
+00:02:52,480 --> 00:02:55,360
+yeah yeah well there are only two
+
+73
+00:02:53,920 --> 00:02:57,200
+possibilities
+
+74
+00:02:55,360 --> 00:03:00,239
+zero and one
+
+75
+00:02:57,200 --> 00:03:01,840
+okay so it's zero all one right let's
+
+76
+00:03:00,239 --> 00:03:04,239
+pick
+
+77
+00:03:01,840 --> 00:03:07,280
+and next one is byte the computer stores
+
+78
+00:03:04,239 --> 00:03:09,120
+the unit the basically uh storing data
+
+79
+00:03:07,280 --> 00:03:10,800
+units spiked
+
+80
+00:03:09,120 --> 00:03:11,920
+is eight bit
+
+81
+00:03:10,800 --> 00:03:14,400
+yeah
+
+82
+00:03:11,920 --> 00:03:15,680
+a bit what's a bit
+
+83
+00:03:14,400 --> 00:03:19,360
+it's like
+
+84
+00:03:15,680 --> 00:03:22,720
+so you have a b like zero
+
+85
+00:03:19,360 --> 00:03:25,599
+so that's binary okay so how what if if
+
+86
+00:03:22,720 --> 00:03:28,080
+this one one one one what's this
+
+87
+00:03:25,599 --> 00:03:30,799
+remember this binary what's this oh i'm
+
+88
+00:03:28,080 --> 00:03:31,760
+buying that
+
+89
+00:03:30,799 --> 00:03:35,040
+two
+
+90
+00:03:31,760 --> 00:03:37,440
+one plus two plus four plus eight right
+
+91
+00:03:35,040 --> 00:03:40,400
+that's one fifteen right and then one
+
+92
+00:03:37,440 --> 00:03:42,400
+one one one one one one one maximum is
+
+93
+00:03:40,400 --> 00:03:44,959
+one three i don't know
+
+94
+00:03:42,400 --> 00:03:48,720
+one plus two one plus two
+
+95
+00:03:44,959 --> 00:03:51,440
+plus 4 plus a plus 16 plus 32 plus 64
+
+96
+00:03:48,720 --> 00:03:54,959
+plus 128. so if you put all the nodes
+
+97
+00:03:51,440 --> 00:03:58,239
+together it's 255 okay so 8 by 8 bit a
+
+98
+00:03:54,959 --> 00:03:59,680
+byte is from 0 to 100 to 25 okay
+
+99
+00:03:58,239 --> 00:04:01,680
+similarly
+
+100
+00:03:59,680 --> 00:04:04,000
+what's what's the next one
+
+101
+00:04:01,680 --> 00:04:08,239
+kb kit bike
+
+102
+00:04:04,000 --> 00:04:09,680
+killer bike yeah it's a 10 24.
+
+103
+00:04:08,239 --> 00:04:13,760
+yeah look 10
+
+104
+00:04:09,680 --> 00:04:15,760
+24 bytes why is it 10 24 because 10 24
+
+105
+00:04:13,760 --> 00:04:17,759
+is 2 to the power of
+
+106
+00:04:15,760 --> 00:04:19,280
+1 10 right
+
+107
+00:04:17,759 --> 00:04:21,120
+yeah
+
+108
+00:04:19,280 --> 00:04:23,360
+okay
+
+109
+00:04:21,120 --> 00:04:27,120
+and what's next unit
+
+110
+00:04:23,360 --> 00:04:28,639
+10 24 kilobyte would be megabyte
+
+111
+00:04:27,120 --> 00:04:29,759
+10 24
+
+112
+00:04:28,639 --> 00:04:31,120
+kilobytes
+
+113
+00:04:29,759 --> 00:04:32,800
+what's next
+
+114
+00:04:31,120 --> 00:04:34,320
+what's next
+
+115
+00:04:32,800 --> 00:04:35,919
+gigabyte
+
+116
+00:04:34,320 --> 00:04:39,600
+what does that equal
+
+117
+00:04:35,919 --> 00:04:43,080
+what is equal that equals um 10 24 can
+
+118
+00:04:39,600 --> 00:04:43,080
+you guess 1024
+
+119
+00:04:49,340 --> 00:04:52,450
+[Music]
+
+120
+00:04:54,800 --> 00:04:57,040
+okay
+
+121
+00:05:05,919 --> 00:05:11,759
+integer is 32 bit so it
+
+122
+00:05:08,639 --> 00:05:14,240
+it represents the number from 0 to 232
+
+123
+00:05:11,759 --> 00:05:16,560
+to the power 32 minus 1 right so this is
+
+124
+00:05:14,240 --> 00:05:19,360
+a very big number but still not very
+
+125
+00:05:16,560 --> 00:05:20,560
+big enough right
+
+126
+00:05:19,360 --> 00:05:22,160
+so
+
+127
+00:05:20,560 --> 00:05:25,680
+um so
+
+128
+00:05:22,160 --> 00:05:27,360
+we have to know that how we do it uh
+
+129
+00:05:25,680 --> 00:05:30,000
+you know how how are we helping the
+
+130
+00:05:27,360 --> 00:05:32,720
+computers to do the math so one easy way
+
+131
+00:05:30,000 --> 00:05:36,080
+would be what
+
+132
+00:05:32,720 --> 00:05:39,360
+let's do this example again
+
+133
+00:05:36,080 --> 00:05:42,160
+okay so if if there are
+
+134
+00:05:39,360 --> 00:05:44,320
+three this is that a is three three
+
+135
+00:05:42,160 --> 00:05:46,479
+digit b is three digits so what's the
+
+136
+00:05:44,320 --> 00:05:48,960
+result what's the maximum
+
+137
+00:05:46,479 --> 00:05:52,560
+result what's the length of that result
+
+138
+00:05:48,960 --> 00:05:54,160
+how many digits of the a times b
+
+139
+00:05:52,560 --> 00:05:57,440
+how many digits
+
+140
+00:05:54,160 --> 00:06:00,000
+if if this is n this is m how many
+
+141
+00:05:57,440 --> 00:06:01,039
+maximum i mean how many digits
+
+142
+00:06:00,000 --> 00:06:02,960
+four
+
+143
+00:06:01,039 --> 00:06:04,400
+no wait no no
+
+144
+00:06:02,960 --> 00:06:08,080
+let me do the
+
+145
+00:06:04,400 --> 00:06:10,800
+how many digits i mean just the maximum
+
+146
+00:06:08,080 --> 00:06:12,960
+it looks like it might be a three digit
+
+147
+00:06:10,800 --> 00:06:14,880
+three digit yeah if it times one it'll
+
+148
+00:06:12,960 --> 00:06:15,840
+be four of three digits but if it times
+
+149
+00:06:14,880 --> 00:06:18,880
+this one
+
+150
+00:06:15,840 --> 00:06:22,080
+will be oh four digits
+
+151
+00:06:18,880 --> 00:06:24,319
+three five digits it's five six oaa okay
+
+152
+00:06:22,080 --> 00:06:27,440
+five six away
+
+153
+00:06:24,319 --> 00:06:28,880
+so what i'm saying is that if a
+
+154
+00:06:27,440 --> 00:06:31,840
+is n digit
+
+155
+00:06:28,880 --> 00:06:34,319
+b is mdg what's the maximum
+
+156
+00:06:31,840 --> 00:06:35,520
+of the result you can guess for example
+
+157
+00:06:34,319 --> 00:06:37,360
+like nine
+
+158
+00:06:35,520 --> 00:06:39,520
+yeah that's what i'm saying okay you
+
+159
+00:06:37,360 --> 00:06:40,319
+times these together
+
+160
+00:06:39,520 --> 00:06:42,960
+well
+
+161
+00:06:40,319 --> 00:06:45,000
+999 times 99
+
+162
+00:06:42,960 --> 00:06:47,919
+equals
+
+163
+00:06:45,000 --> 00:06:49,680
+998001 alright so six digits okay let's
+
+164
+00:06:47,919 --> 00:06:51,840
+try another example this is the maximum
+
+165
+00:06:49,680 --> 00:06:53,919
+you can get there so what what do it
+
+166
+00:06:51,840 --> 00:06:55,840
+what's that nine nine nine four digit
+
+167
+00:06:53,919 --> 00:06:57,440
+times three digit what's the maximum
+
+168
+00:06:55,840 --> 00:06:58,880
+digit
+
+169
+00:06:57,440 --> 00:07:01,599
+is is
+
+170
+00:06:58,880 --> 00:07:04,160
+this one is nine nine eight
+
+171
+00:07:01,599 --> 00:07:06,800
+zero one so seven digit okay so if you
+
+172
+00:07:04,160 --> 00:07:09,440
+like n digits of a mdg dot b so they're
+
+173
+00:07:06,800 --> 00:07:10,720
+term together the maximum is n plus and
+
+174
+00:07:09,440 --> 00:07:13,280
+digit right
+
+175
+00:07:10,720 --> 00:07:14,639
+yeah makes sense yeah the maximum is
+
+176
+00:07:13,280 --> 00:07:16,560
+nine right you can you can't put more
+
+177
+00:07:14,639 --> 00:07:17,360
+than nine right yeah
+
+178
+00:07:16,560 --> 00:07:19,280
+okay
+
+179
+00:07:17,360 --> 00:07:21,599
+so if we have this result then let's
+
+180
+00:07:19,280 --> 00:07:23,919
+start this without an answer answer all
+
+181
+00:07:21,599 --> 00:07:26,160
+right my answer will be the digit yeah
+
+182
+00:07:23,919 --> 00:07:29,199
+every every time you have a zero zero
+
+183
+00:07:26,160 --> 00:07:31,280
+zero at the beginning is zero
+
+184
+00:07:29,199 --> 00:07:33,840
+so if if i say
+
+185
+00:07:31,280 --> 00:07:35,360
+if i say i want to translate and times
+
+186
+00:07:33,840 --> 00:07:37,919
+this where do you
+
+187
+00:07:35,360 --> 00:07:40,479
+what does it put okay if we do this this
+
+188
+00:07:37,919 --> 00:07:43,599
+is from here to from right to the left
+
+189
+00:07:40,479 --> 00:07:46,080
+this is index zero this is index one so
+
+190
+00:07:43,599 --> 00:07:48,240
+if the index i
+
+191
+00:07:46,080 --> 00:07:50,400
+in index i
+
+192
+00:07:48,240 --> 00:07:52,720
+times index j
+
+193
+00:07:50,400 --> 00:07:54,879
+so where are we going to put
+
+194
+00:07:52,720 --> 00:07:57,199
+so two times six where where is it going
+
+195
+00:07:54,879 --> 00:07:57,199
+to be
+
+196
+00:07:57,599 --> 00:08:02,000
+where it's going to be
+
+197
+00:07:59,840 --> 00:08:04,319
+it's gonna be
+
+198
+00:08:02,000 --> 00:08:06,879
+so is it going to be i plus j right if
+
+199
+00:08:04,319 --> 00:08:08,080
+you look yeah all right
+
+200
+00:08:06,879 --> 00:08:10,400
+yeah
+
+201
+00:08:08,080 --> 00:08:13,599
+okay look let's try this again okay
+
+202
+00:08:10,400 --> 00:08:16,879
+let's try this again look what two six
+
+203
+00:08:13,599 --> 00:08:18,400
+times six times two is this is six is
+
+204
+00:08:16,879 --> 00:08:20,240
+twenty right this is twenty so it
+
+205
+00:08:18,400 --> 00:08:22,800
+actually is one twenty
+
+206
+00:08:20,240 --> 00:08:26,240
+right one twenty so we're going to put
+
+207
+00:08:22,800 --> 00:08:28,720
+twelve we want to put 12 where
+
+208
+00:08:26,240 --> 00:08:31,360
+we're going to put the 12 is i plus j
+
+209
+00:08:28,720 --> 00:08:33,440
+right look because because this j equals
+
+210
+00:08:31,360 --> 00:08:35,039
+zero yeah we're looking from the right
+
+211
+00:08:33,440 --> 00:08:38,560
+or left one
+
+212
+00:08:35,039 --> 00:08:39,519
+uh i equals one right zero one
+
+213
+00:08:38,560 --> 00:08:42,080
+so
+
+214
+00:08:39,519 --> 00:08:44,320
+one plus zero is one so we're going to
+
+215
+00:08:42,080 --> 00:08:46,640
+put this 120
+
+216
+00:08:44,320 --> 00:08:49,440
+at starting at a position
+
+217
+00:08:46,640 --> 00:08:51,519
+one right i plus three
+
+218
+00:08:49,440 --> 00:08:52,560
+right so if we're going to do this if
+
+219
+00:08:51,519 --> 00:08:55,519
+we're going to
+
+220
+00:08:52,560 --> 00:08:58,080
+if we're going to multiply each digit
+
+221
+00:08:55,519 --> 00:09:00,399
+yeah from each number and then we can
+
+222
+00:08:58,080 --> 00:09:02,640
+put it in corresponding
+
+223
+00:09:00,399 --> 00:09:03,760
+position right
+
+224
+00:09:02,640 --> 00:09:05,360
+yeah
+
+225
+00:09:03,760 --> 00:09:08,560
+now we can do this right
+
+226
+00:09:05,360 --> 00:09:10,160
+this is the way to do the uh
+
+227
+00:09:08,560 --> 00:09:12,320
+okay
+
+228
+00:09:10,160 --> 00:09:14,880
+okay so look all right
+
+229
+00:09:12,320 --> 00:09:16,160
+these numbers are they are represent
+
+230
+00:09:14,880 --> 00:09:18,640
+from the
+
+231
+00:09:16,160 --> 00:09:20,880
+most uh significant to the least
+
+232
+00:09:18,640 --> 00:09:23,600
+significant from the left what we call
+
+233
+00:09:20,880 --> 00:09:25,839
+the left side is the most significant
+
+234
+00:09:23,600 --> 00:09:27,760
+and and the right move side is least
+
+235
+00:09:25,839 --> 00:09:31,760
+significant right
+
+236
+00:09:27,760 --> 00:09:33,680
+so if if we can reverse the digit right
+
+237
+00:09:31,760 --> 00:09:36,880
+then we can do it in
+
+238
+00:09:33,680 --> 00:09:40,240
+using the index yeah why are we going to
+
+239
+00:09:36,880 --> 00:09:42,000
+do this so we make it simpler right
+
+240
+00:09:40,240 --> 00:09:43,600
+if we reverse the a that would be three
+
+241
+00:09:42,000 --> 00:09:47,920
+to one right look
+
+242
+00:09:43,600 --> 00:09:47,920
+but it's actually one two three if we do
+
+243
+00:09:48,320 --> 00:09:51,839
+by the way how do we reverse this if a i
+
+244
+00:09:50,480 --> 00:09:53,920
+want to make it reverse how do we
+
+245
+00:09:51,839 --> 00:09:55,760
+reverse it yes
+
+246
+00:09:53,920 --> 00:09:58,480
+how do you reverse it
+
+247
+00:09:55,760 --> 00:10:00,560
+2.0 yeah we can do foreign use the quick
+
+248
+00:09:58,480 --> 00:10:05,200
+one which is what
+
+249
+00:10:00,560 --> 00:10:05,200
+minus one test uh column
+
+250
+00:10:10,959 --> 00:10:15,600
+four four five six okay let's let's do
+
+251
+00:10:13,680 --> 00:10:17,839
+the reverse thing that'll be six five
+
+252
+00:10:15,600 --> 00:10:22,000
+four so yeah actually okay so this is
+
+253
+00:10:17,839 --> 00:10:24,560
+representing a this is b this is b
+
+254
+00:10:22,000 --> 00:10:26,959
+this is our way okay and this array is
+
+255
+00:10:24,560 --> 00:10:29,360
+three represents the number the universe
+
+256
+00:10:26,959 --> 00:10:31,120
+order is one two three times
+
+257
+00:10:29,360 --> 00:10:32,399
+four five six and then we have a result
+
+258
+00:10:31,120 --> 00:10:34,480
+your answer
+
+259
+00:10:32,399 --> 00:10:35,680
+at the beginning we have uh how many
+
+260
+00:10:34,480 --> 00:10:37,120
+digits
+
+261
+00:10:35,680 --> 00:10:39,680
+there are three digits there are three
+
+262
+00:10:37,120 --> 00:10:42,320
+digits the most will be the sixth digit
+
+263
+00:10:39,680 --> 00:10:43,920
+so i put a six yellow here
+
+264
+00:10:42,320 --> 00:10:45,360
+okay
+
+265
+00:10:43,920 --> 00:10:48,320
+okay so now
+
+266
+00:10:45,360 --> 00:10:51,040
+if i go from here the i digit
+
+267
+00:10:48,320 --> 00:10:53,760
+yeah that's three three i equals three i
+
+268
+00:10:51,040 --> 00:10:55,360
+equals zero i i equals zero for this one
+
+269
+00:10:53,760 --> 00:10:57,920
+and j equals
+
+270
+00:10:55,360 --> 00:10:59,120
+let's just start from here j for and
+
+271
+00:10:57,920 --> 00:11:02,480
+call this
+
+272
+00:10:59,120 --> 00:11:03,680
+three times six eighteen right
+
+273
+00:11:02,480 --> 00:11:05,600
+yeah
+
+274
+00:11:03,680 --> 00:11:08,880
+i equals zero j equals zero so the
+
+275
+00:11:05,600 --> 00:11:10,079
+result will be put in i plus j right
+
+276
+00:11:08,880 --> 00:11:12,320
+okay
+
+277
+00:11:10,079 --> 00:11:15,200
+so it's zero so eighteen look but it's
+
+278
+00:11:12,320 --> 00:11:16,880
+eighteen yeah we don't we ideally we
+
+279
+00:11:15,200 --> 00:11:19,920
+want to store only one digit in one
+
+280
+00:11:16,880 --> 00:11:22,959
+place right so 18 let's put it 18 and
+
+281
+00:11:19,920 --> 00:11:25,360
+here right because this is 18 right but
+
+282
+00:11:22,959 --> 00:11:27,760
+now we need to do what we need to spread
+
+283
+00:11:25,360 --> 00:11:29,600
+yeah we need to carry over 18 carry over
+
+284
+00:11:27,760 --> 00:11:31,839
+to this
+
+285
+00:11:29,600 --> 00:11:34,480
+so what what does it become all right
+
+286
+00:11:31,839 --> 00:11:36,959
+this is 18. even digit is 18 i don't
+
+287
+00:11:34,480 --> 00:11:38,959
+want to start more than 10 here then you
+
+288
+00:11:36,959 --> 00:11:42,079
+need to go
+
+289
+00:11:38,959 --> 00:11:42,079
+yeah so what does it become
+
+290
+00:11:47,519 --> 00:11:51,519
+yeah that's what i mean yeah so look
+
+291
+00:11:49,839 --> 00:11:56,160
+let's try another example three times
+
+292
+00:11:51,519 --> 00:11:58,959
+five here so where are we going to put
+
+293
+00:11:56,160 --> 00:12:01,440
+so let's put this a here okay one here
+
+294
+00:11:58,959 --> 00:12:04,800
+okay so we're going to put the 15 right
+
+295
+00:12:01,440 --> 00:12:04,800
+yes and the result will be in
+
+296
+00:12:05,120 --> 00:12:08,160
+in three i plus j so you'll be here
+
+297
+00:12:07,200 --> 00:12:10,880
+right
+
+298
+00:12:08,160 --> 00:12:12,320
+15 plus one is 16 right
+
+299
+00:12:10,880 --> 00:12:16,320
+yeah
+
+300
+00:12:12,320 --> 00:12:17,360
+but i need to carry over so what's that
+
+301
+00:12:16,320 --> 00:12:20,240
+um
+
+302
+00:12:17,360 --> 00:12:22,160
+six one yes six one you see
+
+303
+00:12:20,240 --> 00:12:24,320
+so if we're doing this
+
+304
+00:12:22,160 --> 00:12:26,079
+i and doing with j we keep going and
+
+305
+00:12:24,320 --> 00:12:28,880
+then we can get this result and we just
+
+306
+00:12:26,079 --> 00:12:30,720
+can after all we can just what reverse
+
+307
+00:12:28,880 --> 00:12:33,279
+this answer
+
+308
+00:12:30,720 --> 00:12:35,279
+yeah make sense
+
+309
+00:12:33,279 --> 00:12:37,360
+okay let's write it to you i think you
+
+310
+00:12:35,279 --> 00:12:40,000
+understand okay can you tell me the most
+
+311
+00:12:37,360 --> 00:12:41,519
+important takeaway is what if the digit
+
+312
+00:12:40,000 --> 00:12:44,959
+from i
+
+313
+00:12:41,519 --> 00:12:47,360
+a i l a i times b j
+
+314
+00:12:44,959 --> 00:12:50,639
+we're going to put the answer
+
+315
+00:12:47,360 --> 00:12:50,639
+where you're going to put the answer
+
+316
+00:12:57,200 --> 00:13:02,240
+we need to carry over to i plus j plus
+
+317
+00:12:59,440 --> 00:13:05,360
+one right because we don't want to store
+
+318
+00:13:02,240 --> 00:13:07,680
+a two digit or three digits we don't
+
+319
+00:13:05,360 --> 00:13:09,920
+want we only want to store one digit
+
+320
+00:13:07,680 --> 00:13:11,440
+yeah and we won't carry over
+
+321
+00:13:09,920 --> 00:13:13,200
+to the next one and
+
+322
+00:13:11,440 --> 00:13:15,200
+we can reverse it
+
+323
+00:13:13,200 --> 00:13:17,279
+yeah
+
+324
+00:13:15,200 --> 00:13:19,680
+okay for simplicity we don't consider
+
+325
+00:13:17,279 --> 00:13:21,920
+the negative numbers yeah so the numbers
+
+326
+00:13:19,680 --> 00:13:24,000
+a and b does not contain the negative
+
+327
+00:13:21,920 --> 00:13:26,079
+the minus sign right yeah but you can
+
+328
+00:13:24,000 --> 00:13:27,519
+handle it if if
+
+329
+00:13:26,079 --> 00:13:28,880
+two negatives
+
+330
+00:13:27,519 --> 00:13:30,240
+multiplied together they will be
+
+331
+00:13:28,880 --> 00:13:32,320
+positive yeah
+
+332
+00:13:30,240 --> 00:13:34,399
+if one of them is negative the result
+
+333
+00:13:32,320 --> 00:13:36,079
+will be one what
+
+334
+00:13:34,399 --> 00:13:37,200
+negative negative yeah exactly so we
+
+335
+00:13:36,079 --> 00:13:39,440
+don't have the
+
+336
+00:13:37,200 --> 00:13:40,240
+in for the simplicity we don't have the
+
+337
+00:13:39,440 --> 00:13:42,399
+uh
+
+338
+00:13:40,240 --> 00:13:44,959
+you know the a and b with the negative
+
+339
+00:13:42,399 --> 00:13:47,839
+number okay define
+
+340
+00:13:44,959 --> 00:13:50,000
+multiply
+
+341
+00:13:47,839 --> 00:13:52,480
+b okay
+
+342
+00:13:50,000 --> 00:13:53,680
+a b okay
+
+343
+00:13:52,480 --> 00:13:57,680
+and then look
+
+344
+00:13:53,680 --> 00:14:00,000
+and m equals length a
+
+345
+00:13:57,680 --> 00:14:01,920
+length b right and now we want to store
+
+346
+00:14:00,000 --> 00:14:04,079
+the answer in answer equal and the
+
+347
+00:14:01,920 --> 00:14:06,320
+beginning will be zero times one how
+
+348
+00:14:04,079 --> 00:14:07,440
+many digits the answer will be how many
+
+349
+00:14:06,320 --> 00:14:09,600
+digits
+
+350
+00:14:07,440 --> 00:14:10,560
+we just talk about how many digits it
+
+351
+00:14:09,600 --> 00:14:12,160
+will be
+
+352
+00:14:10,560 --> 00:14:15,160
+i
+
+353
+00:14:12,160 --> 00:14:15,160
+am
+
+354
+00:14:16,800 --> 00:14:20,959
+okay now we just need to reverse first
+
+355
+00:14:19,199 --> 00:14:22,480
+of all we need to reverse this a and b
+
+356
+00:14:20,959 --> 00:14:24,240
+right right
+
+357
+00:14:22,480 --> 00:14:28,839
+a equals a
+
+358
+00:14:24,240 --> 00:14:31,360
+plus dash current minus one b equals
+
+359
+00:14:28,839 --> 00:14:33,120
+b yeah this is the simple way python
+
+360
+00:14:31,360 --> 00:14:35,199
+right yeah otherwise you have to
+
+361
+00:14:33,120 --> 00:14:37,680
+implement a two-pointer thing to swap
+
+362
+00:14:35,199 --> 00:14:39,600
+yeah at two points
+
+363
+00:14:37,680 --> 00:14:40,959
+and then now we just need to go through
+
+364
+00:14:39,600 --> 00:14:41,920
+for i
+
+365
+00:14:40,959 --> 00:14:44,240
+in
+
+366
+00:14:41,920 --> 00:14:46,079
+range
+
+367
+00:14:44,240 --> 00:14:47,279
+n right
+
+368
+00:14:46,079 --> 00:14:48,160
+then
+
+369
+00:14:47,279 --> 00:14:49,120
+for
+
+370
+00:14:48,160 --> 00:14:50,079
+j
+
+371
+00:14:49,120 --> 00:14:51,600
+in
+
+372
+00:14:50,079 --> 00:14:53,600
+rent
+
+373
+00:14:51,600 --> 00:14:57,399
+okay by looking at these two number two
+
+374
+00:14:53,600 --> 00:14:57,399
+fours what's the time complexity
+
+375
+00:15:03,279 --> 00:15:09,120
+because these two are nested for loop
+
+376
+00:15:06,480 --> 00:15:11,519
+for each n for each eye you need to do j
+
+377
+00:15:09,120 --> 00:15:13,600
+times right so that's item straight so
+
+378
+00:15:11,519 --> 00:15:16,160
+it's 10 times
+
+379
+00:15:13,600 --> 00:15:18,399
+length for the two right for the two
+
+380
+00:15:16,160 --> 00:15:20,160
+numbers
+
+381
+00:15:18,399 --> 00:15:21,600
+by the way the a and b are given as a
+
+382
+00:15:20,160 --> 00:15:24,079
+stringer if you
+
+383
+00:15:21,600 --> 00:15:26,079
+one two three and then p will be four
+
+384
+00:15:24,079 --> 00:15:28,480
+five six
+
+385
+00:15:26,079 --> 00:15:30,320
+you need to give me a string str right
+
+386
+00:15:28,480 --> 00:15:31,440
+give me a string
+
+387
+00:15:30,320 --> 00:15:34,000
+now look
+
+388
+00:15:31,440 --> 00:15:37,279
+now i answer
+
+389
+00:15:34,000 --> 00:15:43,120
+i plus j right equals and i want to
+
+390
+00:15:37,279 --> 00:15:46,240
+times n a i times bi right so ai is the
+
+391
+00:15:43,120 --> 00:15:47,920
+ai is a string right it's a character
+
+392
+00:15:46,240 --> 00:15:50,639
+yeah we want to convert it how can we
+
+393
+00:15:47,920 --> 00:15:53,440
+convert this one to one
+
+394
+00:15:50,639 --> 00:15:56,399
+easy question this is string this is
+
+395
+00:15:53,440 --> 00:15:59,199
+integer how can we do this
+
+396
+00:15:56,399 --> 00:16:01,920
+one way is to leave in yeah
+
+397
+00:15:59,199 --> 00:16:04,720
+or remember the old function
+
+398
+00:16:01,920 --> 00:16:07,040
+odd one what does it give us
+
+399
+00:16:04,720 --> 00:16:09,360
+what does it give us
+
+400
+00:16:07,040 --> 00:16:12,480
+all the zero
+
+401
+00:16:09,360 --> 00:16:14,720
+all the zero give us 48 right so all the
+
+402
+00:16:12,480 --> 00:16:18,240
+y you just need to minus
+
+403
+00:16:14,720 --> 00:16:21,600
+40 a and that's another same thing
+
+404
+00:16:18,240 --> 00:16:24,959
+so here let's just do this a i
+
+405
+00:16:21,600 --> 00:16:26,079
+let's let's let's just do alt
+
+406
+00:16:24,959 --> 00:16:28,560
+a i
+
+407
+00:16:26,079 --> 00:16:29,440
+minus 40 a and then we need to times
+
+408
+00:16:28,560 --> 00:16:31,279
+what
+
+409
+00:16:29,440 --> 00:16:33,199
+times over d
+
+410
+00:16:31,279 --> 00:16:36,880
+a j
+
+411
+00:16:33,199 --> 00:16:39,120
+minus 40 a okay so
+
+412
+00:16:36,880 --> 00:16:41,360
+we but remember we need to carry over
+
+413
+00:16:39,120 --> 00:16:42,959
+right carry over
+
+414
+00:16:41,360 --> 00:16:43,920
+yeah so we pass
+
+415
+00:16:42,959 --> 00:16:46,079
+sorry
+
+416
+00:16:43,920 --> 00:16:48,000
+so actually this is not equal it's plus
+
+417
+00:16:46,079 --> 00:16:50,480
+equal right because the multiplier is
+
+418
+00:16:48,000 --> 00:16:53,120
+plus equals
+
+419
+00:16:50,480 --> 00:16:55,360
+and then answer
+
+420
+00:16:53,120 --> 00:16:57,680
+i plus j
+
+421
+00:16:55,360 --> 00:17:01,199
+plus one right plus one
+
+422
+00:16:57,680 --> 00:17:03,360
+plus one will be what
+
+423
+00:17:01,199 --> 00:17:05,039
+will be one so the next digit will be
+
+424
+00:17:03,360 --> 00:17:09,039
+the previous digit
+
+425
+00:17:05,039 --> 00:17:10,480
+plus equal previous this is the answer
+
+426
+00:17:09,039 --> 00:17:12,959
+i plus j
+
+427
+00:17:10,480 --> 00:17:15,679
+divided by 10 right carry over and then
+
+428
+00:17:12,959 --> 00:17:18,480
+we need to carry over the next one look
+
+429
+00:17:15,679 --> 00:17:19,760
+this 18 right 18 we want to carry over
+
+430
+00:17:18,480 --> 00:17:21,600
+to one and
+
+431
+00:17:19,760 --> 00:17:23,679
+to a and one right
+
+432
+00:17:21,600 --> 00:17:26,400
+so that's two steps first step is this
+
+433
+00:17:23,679 --> 00:17:29,120
+digit the i plus one plus j plus one
+
+434
+00:17:26,400 --> 00:17:31,600
+needs to carry over plus equal leasing
+
+435
+00:17:29,120 --> 00:17:35,360
+divided by ten and the second second
+
+436
+00:17:31,600 --> 00:17:37,200
+step is to do this 18 and do the modulus
+
+437
+00:17:35,360 --> 00:17:38,960
+so i plus j
+
+438
+00:17:37,200 --> 00:17:41,200
+modulus what
+
+439
+00:17:38,960 --> 00:17:41,200
+10.
+
+440
+00:17:42,240 --> 00:17:44,480
+yeah
+
+441
+00:17:44,880 --> 00:17:50,320
+what did i just say 18.
+
+442
+00:17:48,240 --> 00:17:52,080
+two steps first one is two one to carry
+
+443
+00:17:50,320 --> 00:17:54,480
+the one over to the next digit the
+
+444
+00:17:52,080 --> 00:17:57,360
+second step is make 18 a right by
+
+445
+00:17:54,480 --> 00:17:59,760
+modulus 10 right yeah so this can
+
+446
+00:17:57,360 --> 00:18:03,039
+carry over to a1 okay
+
+447
+00:17:59,760 --> 00:18:04,080
+now answer will return the number
+
+448
+00:18:03,039 --> 00:18:06,799
+okay
+
+449
+00:18:04,080 --> 00:18:08,720
+a number of number of these yeah so we
+
+450
+00:18:06,799 --> 00:18:09,880
+want to remove the
+
+451
+00:18:08,720 --> 00:18:11,120
+we remove the
+
+452
+00:18:09,880 --> 00:18:13,360
+[Music]
+
+453
+00:18:11,120 --> 00:18:16,320
+the leading zeros right
+
+454
+00:18:13,360 --> 00:18:17,840
+we all know that zeros okay
+
+455
+00:18:16,320 --> 00:18:20,720
+so first of all
+
+456
+00:18:17,840 --> 00:18:23,200
+if i do this dot join
+
+457
+00:18:20,720 --> 00:18:25,679
+john answer yeah my answer is uh array
+
+458
+00:18:23,200 --> 00:18:27,440
+of uh digits we want to make this answer
+
+459
+00:18:25,679 --> 00:18:29,520
+a array of
+
+460
+00:18:27,440 --> 00:18:32,160
+array of what array of
+
+461
+00:18:29,520 --> 00:18:34,320
+characters so what do we do
+
+462
+00:18:32,160 --> 00:18:34,320
+wait
+
+463
+00:18:35,039 --> 00:18:39,200
+okay so
+
+464
+00:18:36,720 --> 00:18:39,200
+array of
+
+465
+00:18:41,840 --> 00:18:46,960
+so this is this is array of uh digits
+
+466
+00:18:44,640 --> 00:18:50,160
+right array of digits
+
+467
+00:18:46,960 --> 00:18:53,840
+one for example the result is read as
+
+468
+00:18:50,160 --> 00:18:56,480
+210 right yes 210. well we want to join
+
+469
+00:18:53,840 --> 00:18:58,160
+that we want to join that
+
+470
+00:18:56,480 --> 00:18:59,760
+numbers together so how do we join the
+
+471
+00:18:58,160 --> 00:19:01,679
+numbers together
+
+472
+00:18:59,760 --> 00:19:04,799
+these days
+
+473
+00:19:01,679 --> 00:19:07,280
+remember we want first of all we want to
+
+474
+00:19:04,799 --> 00:19:10,320
+make it work make it this one
+
+475
+00:19:07,280 --> 00:19:13,039
+so first of all we want to make it this
+
+476
+00:19:10,320 --> 00:19:15,120
+yeah how to how to become how to convert
+
+477
+00:19:13,039 --> 00:19:17,760
+from a to here
+
+478
+00:19:15,120 --> 00:19:19,600
+yeah but this is the array
+
+479
+00:19:17,760 --> 00:19:21,360
+before that we need to do this map
+
+480
+00:19:19,600 --> 00:19:22,880
+maxing map
+
+481
+00:19:21,360 --> 00:19:24,400
+to star
+
+482
+00:19:22,880 --> 00:19:27,120
+the first one is the function and the
+
+483
+00:19:24,400 --> 00:19:29,919
+second one is the list which is a yeah
+
+484
+00:19:27,120 --> 00:19:31,120
+yeah so i met please and then i can join
+
+485
+00:19:29,919 --> 00:19:33,600
+it right
+
+486
+00:19:31,120 --> 00:19:35,520
+yeah and then join
+
+487
+00:19:33,600 --> 00:19:38,640
+but before i met him i need to reverse
+
+488
+00:19:35,520 --> 00:19:40,400
+it right reverse it look
+
+489
+00:19:38,640 --> 00:19:43,039
+reverse it first of all reverse it
+
+490
+00:19:40,400 --> 00:19:44,720
+convert it each one to the string and
+
+491
+00:19:43,039 --> 00:19:46,640
+join it right
+
+492
+00:19:44,720 --> 00:19:48,799
+if i tune it and i i will have something
+
+493
+00:19:46,640 --> 00:19:52,559
+like zero zero zero one two three i want
+
+494
+00:19:48,799 --> 00:19:55,120
+to remove this leading zero right yeah
+
+495
+00:19:52,559 --> 00:19:57,280
+yeah i want to remove this leading zeros
+
+496
+00:19:55,120 --> 00:19:59,520
+so we can use two functions to do one
+
+497
+00:19:57,280 --> 00:20:01,760
+function which is called
+
+498
+00:19:59,520 --> 00:20:05,280
+airstrip
+
+499
+00:20:01,760 --> 00:20:07,280
+by default air strip is stripping left
+
+500
+00:20:05,280 --> 00:20:10,159
+and by default if you don't give any
+
+501
+00:20:07,280 --> 00:20:12,400
+parameters you strip the white space
+
+502
+00:20:10,159 --> 00:20:13,440
+right the space white space
+
+503
+00:20:12,400 --> 00:20:14,559
+yeah
+
+504
+00:20:13,440 --> 00:20:15,919
+so look
+
+505
+00:20:14,559 --> 00:20:19,039
+look
+
+506
+00:20:15,919 --> 00:20:20,880
+anything here i put every
+
+507
+00:20:19,039 --> 00:20:23,120
+okay anyway here
+
+508
+00:20:20,880 --> 00:20:25,280
+there's a lot of space and i can say
+
+509
+00:20:23,120 --> 00:20:28,080
+airstrike
+
+510
+00:20:25,280 --> 00:20:30,559
+you you'll give me you remove anything
+
+511
+00:20:28,080 --> 00:20:31,440
+in front you'll give me one array
+
+512
+00:20:30,559 --> 00:20:34,159
+all right
+
+513
+00:20:31,440 --> 00:20:36,799
+and a lot of space will be after because
+
+514
+00:20:34,159 --> 00:20:39,440
+we don't remove it yet and we can call
+
+515
+00:20:36,799 --> 00:20:42,240
+another one called r strip
+
+516
+00:20:39,440 --> 00:20:45,440
+this is to remove the space white space
+
+517
+00:20:42,240 --> 00:20:46,799
+at the end so you'll become eric
+
+518
+00:20:45,440 --> 00:20:48,480
+okay
+
+519
+00:20:46,799 --> 00:20:51,520
+and then if you want to do both you can
+
+520
+00:20:48,480 --> 00:20:53,520
+just do call one string
+
+521
+00:20:51,520 --> 00:20:55,440
+and a parameter you can give a parameter
+
+522
+00:20:53,520 --> 00:20:58,159
+to it so for example if i give a
+
+523
+00:20:55,440 --> 00:21:00,000
+parameter to it so you will only
+
+524
+00:20:58,159 --> 00:21:02,400
+retrieve
+
+525
+00:21:00,000 --> 00:21:04,240
+what you will only remove the zeros
+
+526
+00:21:02,400 --> 00:21:05,760
+leading zero on the left side
+
+527
+00:21:04,240 --> 00:21:07,679
+so this one
+
+528
+00:21:05,760 --> 00:21:11,120
+i can remove this
+
+529
+00:21:07,679 --> 00:21:11,120
+dust air strip yeah
+
+530
+00:21:11,520 --> 00:21:14,799
+yeah
+
+531
+00:21:13,280 --> 00:21:18,159
+and then
+
+532
+00:21:14,799 --> 00:21:20,159
+look if if the result is zero times zero
+
+533
+00:21:18,159 --> 00:21:22,159
+what's what's the outcome of zero times
+
+534
+00:21:20,159 --> 00:21:24,000
+zero
+
+535
+00:21:22,159 --> 00:21:26,080
+it will be all zero and if i do the l
+
+536
+00:21:24,000 --> 00:21:27,679
+strip it'll be nothing so i have this is
+
+537
+00:21:26,080 --> 00:21:29,679
+the special case i have to check if it's
+
+538
+00:21:27,679 --> 00:21:32,000
+nothing then i'll return zero right
+
+539
+00:21:29,679 --> 00:21:34,080
+otherwise return x
+
+540
+00:21:32,000 --> 00:21:36,559
+makes sense
+
+541
+00:21:34,080 --> 00:21:38,320
+make sense everyone
+
+542
+00:21:36,559 --> 00:21:39,840
+yeah okay so what's the important thing
+
+543
+00:21:38,320 --> 00:21:41,840
+you learned today
+
+544
+00:21:39,840 --> 00:21:44,840
+come on give me one second
+
+545
+00:21:41,840 --> 00:21:44,840
+how
+
+546
+00:21:47,039 --> 00:21:50,640
+so
+
+547
+00:21:49,120 --> 00:21:52,640
+a i
+
+548
+00:21:50,640 --> 00:21:54,799
+times b j
+
+549
+00:21:52,640 --> 00:21:57,280
+okay first of all we reverse it and a i
+
+550
+00:21:54,799 --> 00:21:59,280
+times d where are we going to put answer
+
+551
+00:21:57,280 --> 00:22:00,640
+with your friends
+
+552
+00:21:59,280 --> 00:22:02,559
+put it in one
+
+553
+00:22:00,640 --> 00:22:05,440
+a i plus
+
+554
+00:22:02,559 --> 00:22:07,600
+j okay and then we need to carry over to
+
+555
+00:22:05,440 --> 00:22:09,200
+the next digit
+
+556
+00:22:07,600 --> 00:22:10,880
+okay
+
+557
+00:22:09,200 --> 00:22:13,280
+okay make sense
+
+558
+00:22:10,880 --> 00:22:15,919
+look we are reversing the actually this
+
+559
+00:22:13,280 --> 00:22:18,240
+is answer not the result okay and answer
+
+560
+00:22:15,919 --> 00:22:20,400
+we're reversing the result realize that
+
+561
+00:22:18,240 --> 00:22:21,360
+result is the list of
+
+562
+00:22:20,400 --> 00:22:23,840
+digits
+
+563
+00:22:21,360 --> 00:22:25,679
+it's an integer and now we convert it
+
+564
+00:22:23,840 --> 00:22:27,039
+using the map convert it to
+
+565
+00:22:25,679 --> 00:22:28,159
+list of
+
+566
+00:22:27,039 --> 00:22:30,799
+string
+
+567
+00:22:28,159 --> 00:22:32,720
+when it's list of string i can join it i
+
+568
+00:22:30,799 --> 00:22:34,320
+can join as a string and then i want to
+
+569
+00:22:32,720 --> 00:22:36,559
+remove the
+
+570
+00:22:34,320 --> 00:22:38,799
+leading zero okay and i want to check if
+
+571
+00:22:36,559 --> 00:22:40,640
+it's after removing the leading zero if
+
+572
+00:22:38,799 --> 00:22:43,039
+it is empty it means the result is
+
+573
+00:22:40,640 --> 00:22:45,280
+yellow right otherwise we return this
+
+574
+00:22:43,039 --> 00:22:47,760
+right
+
+575
+00:22:45,280 --> 00:22:47,760
+make sense
+
+576
+00:22:48,159 --> 00:22:50,720
+yeah make sense
+
+577
+00:22:49,600 --> 00:22:53,120
+happy
+
+578
+00:22:50,720 --> 00:22:54,160
+okay you can say bye bye bye
+
+579
+00:22:53,120 --> 00:22:58,190
+bye bye
+
+580
+00:22:54,160 --> 00:22:58,190
+[Music]
+
