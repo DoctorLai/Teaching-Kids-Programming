@@ -1,0 +1,3408 @@
+1
+00:00:00,240 --> 00:00:04,480
+hello
+
+2
+00:00:01,280 --> 00:00:06,560
+hello mr all right yeah good
+
+3
+00:00:04,480 --> 00:00:11,040
+okay so
+
+4
+00:00:06,560 --> 00:00:14,920
+so given an array of numbers numbers
+
+5
+00:00:11,040 --> 00:00:18,560
+one two three four five
+
+6
+00:00:14,920 --> 00:00:21,439
+okay so we want to able to implement two
+
+7
+00:00:18,560 --> 00:00:25,039
+functions one is to update
+
+8
+00:00:21,439 --> 00:00:28,160
+defined update
+
+9
+00:00:25,039 --> 00:00:30,720
+with the index to the value yeah
+
+10
+00:00:28,160 --> 00:00:33,600
+so these will change the number at index
+
+11
+00:00:30,720 --> 00:00:36,399
+to value right this is to be very easier
+
+12
+00:00:33,600 --> 00:00:39,280
+and another function would be to
+
+13
+00:00:36,399 --> 00:00:41,760
+sum to compute the sum
+
+14
+00:00:39,280 --> 00:00:46,640
+of a range
+
+15
+00:00:41,760 --> 00:00:48,160
+and from index to index right
+
+16
+00:00:46,640 --> 00:00:49,680
+so
+
+17
+00:00:48,160 --> 00:00:50,960
+basically we want to support these two
+
+18
+00:00:49,680 --> 00:00:52,960
+functions
+
+19
+00:00:50,960 --> 00:00:54,399
+what's the naive way of implementing it
+
+20
+00:00:52,960 --> 00:00:56,399
+for this one
+
+21
+00:00:54,399 --> 00:00:59,440
+if we want to update the index with num
+
+22
+00:00:56,399 --> 00:01:02,559
+with the value if this is numb
+
+23
+00:00:59,440 --> 00:01:04,720
+what's the what's your approach
+
+24
+00:01:02,559 --> 00:01:06,479
+come on this will be easy
+
+25
+00:01:04,720 --> 00:01:08,880
+you can
+
+26
+00:01:06,479 --> 00:01:08,880
+numbs
+
+27
+00:01:10,840 --> 00:01:16,080
+index equal
+
+28
+00:01:14,080 --> 00:01:18,880
+what's the time complexity for this
+
+29
+00:01:16,080 --> 00:01:20,880
+one oh one yeah perfect we're done and
+
+30
+00:01:18,880 --> 00:01:24,400
+now i want to sum the range from index
+
+31
+00:01:20,880 --> 00:01:25,680
+to index both are inclusive so it's from
+
+32
+00:01:24,400 --> 00:01:28,320
+two
+
+33
+00:01:25,680 --> 00:01:30,640
+by the way this means inclusive okay and
+
+34
+00:01:28,320 --> 00:01:32,320
+the exclusive is this yeah
+
+35
+00:01:30,640 --> 00:01:34,079
+a parenthesis okay
+
+36
+00:01:32,320 --> 00:01:36,320
+so example like
+
+37
+00:01:34,079 --> 00:01:38,159
+what's the number given this range the
+
+38
+00:01:36,320 --> 00:01:40,479
+integer
+
+39
+00:01:38,159 --> 00:01:43,439
+what's the number in this ignorance
+
+40
+00:01:40,479 --> 00:01:46,000
+integer uh
+
+41
+00:01:43,439 --> 00:01:49,439
+one two three and one two yeah and
+
+42
+00:01:46,000 --> 00:01:51,040
+what's the uh what's what's like
+
+43
+00:01:49,439 --> 00:01:52,720
+these
+
+44
+00:01:51,040 --> 00:01:54,440
+what's the numbers between integer
+
+45
+00:01:52,720 --> 00:01:57,680
+between this range
+
+46
+00:01:54,440 --> 00:01:57,680
+[Music]
+
+47
+00:01:58,320 --> 00:02:02,960
+so basically we want to sum the range
+
+48
+00:02:00,719 --> 00:02:04,880
+some of the range
+
+49
+00:02:02,960 --> 00:02:07,119
+what's your approach for this one we
+
+50
+00:02:04,880 --> 00:02:09,360
+want to sum up the range given the range
+
+51
+00:02:07,119 --> 00:02:11,280
+from two yeah this is wrong so how can
+
+52
+00:02:09,360 --> 00:02:12,800
+we stop it
+
+53
+00:02:11,280 --> 00:02:16,239
+you tell me you don't need to write i'll
+
+54
+00:02:12,800 --> 00:02:16,239
+write it for you so what's your punch
+
+55
+00:02:17,680 --> 00:02:20,000
+sorry
+
+56
+00:02:20,400 --> 00:02:25,520
+how how do you usually sum it
+
+57
+00:02:22,640 --> 00:02:27,920
+you know just something
+
+58
+00:02:25,520 --> 00:02:29,120
+yeah yeah yeah so you can write the loop
+
+59
+00:02:27,920 --> 00:02:32,000
+all right
+
+60
+00:02:29,120 --> 00:02:33,519
+so okay tell me answer equals one okay
+
+61
+00:02:32,000 --> 00:02:35,040
+you feel the brown
+
+62
+00:02:33,519 --> 00:02:36,160
+four
+
+63
+00:02:35,040 --> 00:02:37,680
+for
+
+64
+00:02:36,160 --> 00:02:40,080
+index
+
+65
+00:02:37,680 --> 00:02:41,680
+yeah in one
+
+66
+00:02:40,080 --> 00:02:43,120
+okay so what's that
+
+67
+00:02:41,680 --> 00:02:45,440
+come on
+
+68
+00:02:43,120 --> 00:02:48,400
+okay you feel the blank you must know
+
+69
+00:02:45,440 --> 00:02:48,400
+okay come on
+
+70
+00:02:52,640 --> 00:02:57,360
+and this is the answer okay what's this
+
+71
+00:02:56,080 --> 00:02:59,040
+what's what well you want to come
+
+72
+00:02:57,360 --> 00:03:00,959
+calculate the sum
+
+73
+00:02:59,040 --> 00:03:03,680
+so at the beginning at the beginning
+
+74
+00:03:00,959 --> 00:03:06,879
+what's the zero okay and the range in
+
+75
+00:03:03,680 --> 00:03:09,680
+well for index in one
+
+76
+00:03:06,879 --> 00:03:11,599
+red yes all right and then what's the
+
+77
+00:03:09,680 --> 00:03:13,519
+front index from yeah
+
+78
+00:03:11,599 --> 00:03:16,879
+what's the two index okay this is a bit
+
+79
+00:03:13,519 --> 00:03:19,120
+tricky so i put two or two plus one
+
+80
+00:03:16,879 --> 00:03:19,120
+yeah
+
+81
+00:03:20,560 --> 00:03:24,319
+what are we going to sum up with the
+
+82
+00:03:22,480 --> 00:03:25,840
+numbers here
+
+83
+00:03:24,319 --> 00:03:27,519
+what are we putting what are we doing
+
+84
+00:03:25,840 --> 00:03:29,519
+here get the number what's this number
+
+85
+00:03:27,519 --> 00:03:32,640
+what's this number
+
+86
+00:03:29,519 --> 00:03:34,799
+if the index in if we if it is index
+
+87
+00:03:32,640 --> 00:03:37,760
+yeah so what's that index
+
+88
+00:03:34,799 --> 00:03:39,920
+index is index and what's the value
+
+89
+00:03:37,760 --> 00:03:41,740
+what's that what's the value how do we
+
+90
+00:03:39,920 --> 00:03:44,560
+do how do we call it
+
+91
+00:03:41,740 --> 00:03:46,799
+[Music]
+
+92
+00:03:44,560 --> 00:03:49,200
+okay you know either why you say you
+
+93
+00:03:46,799 --> 00:03:50,799
+don't know you know it
+
+94
+00:03:49,200 --> 00:03:53,280
+makes sense what's the time complexity
+
+95
+00:03:50,799 --> 00:03:53,280
+for this one
+
+96
+00:03:58,400 --> 00:04:01,720
+oh and
+
+97
+00:04:02,720 --> 00:04:07,920
+so we can actually we can rewrite this
+
+98
+00:04:05,120 --> 00:04:11,439
+using the sum function yeah the
+
+99
+00:04:07,920 --> 00:04:13,519
+person has list we can just return some
+
+100
+00:04:11,439 --> 00:04:15,040
+somewhat uh num
+
+101
+00:04:13,519 --> 00:04:17,359
+okay you tell me
+
+102
+00:04:15,040 --> 00:04:18,959
+what should i put in there
+
+103
+00:04:17,359 --> 00:04:21,440
+and there's a column here so what should
+
+104
+00:04:18,959 --> 00:04:21,440
+i put here
+
+105
+00:04:23,040 --> 00:04:27,880
+come on return some numbers what
+
+106
+00:04:31,840 --> 00:04:35,840
+what are we doing here
+
+107
+00:04:33,680 --> 00:04:39,120
+we want to sum the range sum the numbers
+
+108
+00:04:35,840 --> 00:04:40,479
+from the from the full from two right so
+
+109
+00:04:39,120 --> 00:04:42,880
+some lumps
+
+110
+00:04:40,479 --> 00:04:43,680
+what should we put here
+
+111
+00:04:42,880 --> 00:04:44,960
+from
+
+112
+00:04:43,680 --> 00:04:45,759
+and
+
+113
+00:04:44,960 --> 00:04:47,120
+yeah
+
+114
+00:04:45,759 --> 00:04:49,680
+we're done okay
+
+115
+00:04:47,120 --> 00:04:52,080
+so the time of next is all in okay
+
+116
+00:04:49,680 --> 00:04:52,080
+okay so
+
+117
+00:04:52,320 --> 00:04:58,960
+so given this number right so given this
+
+118
+00:04:54,720 --> 00:05:02,000
+uh approach let's let's quickly
+
+119
+00:04:58,960 --> 00:05:02,000
+put a table here
+
+120
+00:05:04,000 --> 00:05:08,639
+for the table okay
+
+121
+00:05:05,680 --> 00:05:09,440
+so that's the space complexity and then
+
+122
+00:05:08,639 --> 00:05:11,840
+let's
+
+123
+00:05:09,440 --> 00:05:11,840
+update
+
+124
+00:05:12,160 --> 00:05:16,320
+update and then there's the
+
+125
+00:05:14,880 --> 00:05:19,120
+sum
+
+126
+00:05:16,320 --> 00:05:23,039
+the space complexity for okay maybe the
+
+127
+00:05:19,120 --> 00:05:26,080
+space complexity for the update
+
+128
+00:05:23,039 --> 00:05:27,600
+and let's space complexity for uh
+
+129
+00:05:26,080 --> 00:05:30,320
+sum okay
+
+130
+00:05:27,600 --> 00:05:32,800
+and the first one our pro we just talked
+
+131
+00:05:30,320 --> 00:05:35,600
+about the first approach let's do it n1
+
+132
+00:05:32,800 --> 00:05:38,560
+which is naive okay the update
+
+133
+00:05:35,600 --> 00:05:41,440
+we will update is on one right the time
+
+134
+00:05:38,560 --> 00:05:44,080
+is what a one right we just say r1
+
+135
+00:05:41,440 --> 00:05:46,080
+and then what's what's uh yeah okay okay
+
+136
+00:05:44,080 --> 00:05:48,240
+and what's this what's that when we sum
+
+137
+00:05:46,080 --> 00:05:50,479
+up the
+
+138
+00:05:48,240 --> 00:05:51,759
+sum so what's the times unless you just
+
+139
+00:05:50,479 --> 00:05:53,360
+said
+
+140
+00:05:51,759 --> 00:05:56,560
+you just said what
+
+141
+00:05:53,360 --> 00:05:56,560
+what's the terms of message value
+
+142
+00:05:58,400 --> 00:06:04,160
+number okay what's the sample message
+
+143
+00:06:01,210 --> 00:06:06,080
+[Music]
+
+144
+00:06:04,160 --> 00:06:08,639
+okay what's the space in mexico we're
+
+145
+00:06:06,080 --> 00:06:11,440
+using any space yeah a one okay okay
+
+146
+00:06:08,639 --> 00:06:13,520
+this is the pro okay
+
+147
+00:06:11,440 --> 00:06:15,759
+uh
+
+148
+00:06:13,520 --> 00:06:16,560
+okay so let the space come and let's
+
+149
+00:06:15,759 --> 00:06:18,160
+okay
+
+150
+00:06:16,560 --> 00:06:21,360
+okay
+
+151
+00:06:18,160 --> 00:06:23,520
+okay so look if they are n
+
+152
+00:06:21,360 --> 00:06:25,759
+n updates so ideally if there are n
+
+153
+00:06:23,520 --> 00:06:27,919
+updates and end sum
+
+154
+00:06:25,759 --> 00:06:30,319
+and operation of sum and one of these
+
+155
+00:06:27,919 --> 00:06:31,120
+will be o n square which is too slow
+
+156
+00:06:30,319 --> 00:06:31,919
+right
+
+157
+00:06:31,120 --> 00:06:33,600
+yeah
+
+158
+00:06:31,919 --> 00:06:35,360
+yeah i want to get
+
+159
+00:06:33,600 --> 00:06:37,840
+i was always
+
+160
+00:06:35,360 --> 00:06:39,360
+owens square right how do you pronounce
+
+161
+00:06:37,840 --> 00:06:41,440
+this o n
+
+162
+00:06:39,360 --> 00:06:44,080
+l n square o n square and how do you
+
+163
+00:06:41,440 --> 00:06:45,360
+pronounce these
+
+164
+00:06:44,080 --> 00:06:49,039
+squared
+
+165
+00:06:45,360 --> 00:06:49,039
+o sql all square
+
+166
+00:06:52,639 --> 00:06:58,000
+any other ways we can do this
+
+167
+00:06:55,759 --> 00:06:59,759
+any other ways we come up with a data
+
+168
+00:06:58,000 --> 00:07:02,800
+structure before remember how can we
+
+169
+00:06:59,759 --> 00:07:03,840
+come so look this is too slow right we
+
+170
+00:07:02,800 --> 00:07:05,759
+want to
+
+171
+00:07:03,840 --> 00:07:07,280
+get the sum of a range but this is too
+
+172
+00:07:05,759 --> 00:07:09,120
+slow so
+
+173
+00:07:07,280 --> 00:07:11,680
+what kind of data structure can we use
+
+174
+00:07:09,120 --> 00:07:13,550
+to make it faster
+
+175
+00:07:11,680 --> 00:07:16,709
+make it faster we
+
+176
+00:07:13,550 --> 00:07:16,709
+[Music]
+
+177
+00:07:18,880 --> 00:07:24,479
+okay so what's that called
+
+178
+00:07:21,680 --> 00:07:26,160
+start with the p what's that called
+
+179
+00:07:24,479 --> 00:07:28,319
+well what what what what are you doing
+
+180
+00:07:26,160 --> 00:07:31,120
+here you calculate the sum and then you
+
+181
+00:07:28,319 --> 00:07:33,039
+minus that what so what's that called
+
+182
+00:07:31,120 --> 00:07:35,840
+what's good
+
+183
+00:07:33,039 --> 00:07:38,319
+in the beginning what's that called
+
+184
+00:07:35,840 --> 00:07:40,560
+prefix prefix sum yeah prefix sum so we
+
+185
+00:07:38,319 --> 00:07:41,840
+change this to prefix okay so prefix
+
+186
+00:07:40,560 --> 00:07:44,920
+will be the numbers can you write the
+
+187
+00:07:41,840 --> 00:07:48,019
+prefix sum here
+
+188
+00:07:44,920 --> 00:07:48,019
+[Music]
+
+189
+00:07:56,639 --> 00:08:00,720
+okay so look if we want to calculate the
+
+190
+00:07:59,039 --> 00:08:03,759
+numbers between
+
+191
+00:08:00,720 --> 00:08:06,000
+uh two and four so i would need to get
+
+192
+00:08:03,759 --> 00:08:09,440
+the sum of these four numbers that will
+
+193
+00:08:06,000 --> 00:08:11,199
+be ten minus one right so that will be
+
+194
+00:08:09,440 --> 00:08:14,319
+so that time complexity for this one is
+
+195
+00:08:11,199 --> 00:08:14,319
+what if we given this
+
+196
+00:08:14,800 --> 00:08:19,520
+one yeah obviously because this just
+
+197
+00:08:16,960 --> 00:08:21,599
+involves the mathematic the subtraction
+
+198
+00:08:19,520 --> 00:08:22,479
+so look this is a one right
+
+199
+00:08:21,599 --> 00:08:25,680
+right
+
+200
+00:08:22,479 --> 00:08:27,440
+but okay so now what's the update look
+
+201
+00:08:25,680 --> 00:08:28,879
+how do we update it
+
+202
+00:08:27,440 --> 00:08:31,199
+so this is the
+
+203
+00:08:28,879 --> 00:08:32,880
+prefix sum yeah prefix
+
+204
+00:08:31,199 --> 00:08:35,519
+and then how about if i change this
+
+205
+00:08:32,880 --> 00:08:37,599
+three to four what would you do
+
+206
+00:08:35,519 --> 00:08:40,479
+first of all obviously i need to update
+
+207
+00:08:37,599 --> 00:08:42,399
+the num noms using one but what happened
+
+208
+00:08:40,479 --> 00:08:44,320
+to this prefix exam
+
+209
+00:08:42,399 --> 00:08:47,200
+what happened
+
+210
+00:08:44,320 --> 00:08:49,440
+how do we change this if i we just do
+
+211
+00:08:47,200 --> 00:08:51,200
+the previous one
+
+212
+00:08:49,440 --> 00:08:54,080
+yeah i know i know but do we need to do
+
+213
+00:08:51,200 --> 00:08:57,040
+that again or from the beginning
+
+214
+00:08:54,080 --> 00:08:57,040
+so what what number
+
+215
+00:08:58,399 --> 00:09:02,560
+i know i know but what i'm saying is now
+
+216
+00:09:00,640 --> 00:09:04,160
+i want to change the number three yeah
+
+217
+00:09:02,560 --> 00:09:05,519
+because we also have this update
+
+218
+00:09:04,160 --> 00:09:07,040
+function we want to change the number
+
+219
+00:09:05,519 --> 00:09:10,240
+three to four
+
+220
+00:09:07,040 --> 00:09:12,000
+right so does it affect anything any
+
+221
+00:09:10,240 --> 00:09:13,440
+numbers how do we changing the numbers
+
+222
+00:09:12,000 --> 00:09:14,640
+here we
+
+223
+00:09:13,440 --> 00:09:15,680
+put this
+
+224
+00:09:14,640 --> 00:09:17,760
+yeah
+
+225
+00:09:15,680 --> 00:09:19,040
+the difference yeah seven and i'm
+
+226
+00:09:17,760 --> 00:09:20,560
+changing
+
+227
+00:09:19,040 --> 00:09:23,120
+incrementing
+
+228
+00:09:20,560 --> 00:09:24,720
+all others yeah we're done okay so
+
+229
+00:09:23,120 --> 00:09:26,480
+what's the time complexity for this one
+
+230
+00:09:24,720 --> 00:09:28,160
+obviously you know you can do multiple
+
+231
+00:09:26,480 --> 00:09:30,560
+numbers what's that
+
+232
+00:09:28,160 --> 00:09:32,320
+yeah you just need to plus one for
+
+233
+00:09:30,560 --> 00:09:33,920
+everything else yeah
+
+234
+00:09:32,320 --> 00:09:35,279
+everything on the right okay that's
+
+235
+00:09:33,920 --> 00:09:37,850
+where done okay so what's the time to
+
+236
+00:09:35,279 --> 00:09:41,019
+place for this one
+
+237
+00:09:37,850 --> 00:09:41,019
+[Music]
+
+238
+00:09:42,880 --> 00:09:46,800
+oh n because this is a one this is one
+
+239
+00:09:45,040 --> 00:09:49,920
+plus together it's one because
+
+240
+00:09:46,800 --> 00:09:51,200
+if i change the number here what happens
+
+241
+00:09:49,920 --> 00:09:52,399
+if i change the first number what
+
+242
+00:09:51,200 --> 00:09:54,240
+happened
+
+243
+00:09:52,399 --> 00:09:56,800
+i need to change all the numbers yeah
+
+244
+00:09:54,240 --> 00:09:58,480
+because they all it's all affected right
+
+245
+00:09:56,800 --> 00:10:00,880
+so this is alright
+
+246
+00:09:58,480 --> 00:10:03,360
+look so look it seems that either you
+
+247
+00:10:00,880 --> 00:10:05,120
+have one or one here or o and a one here
+
+248
+00:10:03,360 --> 00:10:06,880
+right so if there are n operations here
+
+249
+00:10:05,120 --> 00:10:10,000
+any operation yeah one of them will be
+
+250
+00:10:06,880 --> 00:10:12,720
+two so right yeah make sense yeah so
+
+251
+00:10:10,000 --> 00:10:16,560
+today our task is to to
+
+252
+00:10:12,720 --> 00:10:19,760
+make one of these quicker than om okay
+
+253
+00:10:16,560 --> 00:10:21,839
+make sense yeah yeah okay by the way the
+
+254
+00:10:19,760 --> 00:10:25,040
+space complexity for uh for these two is
+
+255
+00:10:21,839 --> 00:10:27,920
+all you know oh ln okay
+
+256
+00:10:25,040 --> 00:10:30,079
+it's the other one smaller than oh n
+
+257
+00:10:27,920 --> 00:10:31,760
+yeah smaller than that okay so look
+
+258
+00:10:30,079 --> 00:10:33,839
+because we are using the prefix sum so
+
+259
+00:10:31,760 --> 00:10:35,760
+the space complexity yeah space
+
+260
+00:10:33,839 --> 00:10:36,560
+complexity is not
+
+261
+00:10:35,760 --> 00:10:39,120
+uh
+
+262
+00:10:36,560 --> 00:10:41,279
+you know it it's not constant anymore
+
+263
+00:10:39,120 --> 00:10:43,360
+right the update we need to update it
+
+264
+00:10:41,279 --> 00:10:45,680
+and then prefix okay
+
+265
+00:10:43,360 --> 00:10:48,079
+actually we can just use the uh yeah we
+
+266
+00:10:45,680 --> 00:10:50,959
+can just use one column to represent the
+
+267
+00:10:48,079 --> 00:10:52,320
+space complexity okay
+
+268
+00:10:50,959 --> 00:10:54,399
+okay so look
+
+269
+00:10:52,320 --> 00:10:55,519
+if from two so we can just do this
+
+270
+00:10:54,399 --> 00:10:57,040
+return
+
+271
+00:10:55,519 --> 00:10:58,640
+if it's all inclusive you want to
+
+272
+00:10:57,040 --> 00:11:01,120
+calculate the sum between this range
+
+273
+00:10:58,640 --> 00:11:02,640
+inclusive we can just look at prefix
+
+274
+00:11:01,120 --> 00:11:04,240
+prefix
+
+275
+00:11:02,640 --> 00:11:05,519
+uh two
+
+276
+00:11:04,240 --> 00:11:07,279
+minus
+
+277
+00:11:05,519 --> 00:11:09,519
+prefix
+
+278
+00:11:07,279 --> 00:11:12,079
+from minus one right yeah
+
+279
+00:11:09,519 --> 00:11:14,399
+from minus one yeah there is minus one
+
+280
+00:11:12,079 --> 00:11:16,480
+but but if front is zero then this will
+
+281
+00:11:14,399 --> 00:11:19,200
+be negative right we don't want that so
+
+282
+00:11:16,480 --> 00:11:21,600
+one way is to add a zero at the
+
+283
+00:11:19,200 --> 00:11:23,120
+beginning right so if we add a zero at
+
+284
+00:11:21,600 --> 00:11:24,480
+the beginning then
+
+285
+00:11:23,120 --> 00:11:26,240
+we don't have this problem so we can
+
+286
+00:11:24,480 --> 00:11:30,000
+just do this wrong and then we can plus
+
+287
+00:11:26,240 --> 00:11:31,760
+one here right make sense
+
+288
+00:11:30,000 --> 00:11:34,720
+yeah okay
+
+289
+00:11:31,760 --> 00:11:36,800
+so when we change the numbers so look if
+
+290
+00:11:34,720 --> 00:11:38,640
+i want to change these numbers to value
+
+291
+00:11:36,800 --> 00:11:41,519
+right yeah
+
+292
+00:11:38,640 --> 00:11:43,920
+or and all i want i need to do is to
+
+293
+00:11:41,519 --> 00:11:45,680
+what this is not the value and i just
+
+294
+00:11:43,920 --> 00:11:47,519
+need to increment the difference
+
+295
+00:11:45,680 --> 00:11:49,839
+differences value
+
+296
+00:11:47,519 --> 00:11:51,600
+minus nums
+
+297
+00:11:49,839 --> 00:11:55,360
+index okay
+
+298
+00:11:51,600 --> 00:11:58,320
+we call this data yeah data
+
+299
+00:11:55,360 --> 00:12:00,079
+different i know i want to
+
+300
+00:11:58,320 --> 00:12:01,120
+change the values
+
+301
+00:12:00,079 --> 00:12:03,120
+to
+
+302
+00:12:01,120 --> 00:12:06,000
+the all the values on the right to you
+
+303
+00:12:03,120 --> 00:12:07,120
+know cross this data plus this data yeah
+
+304
+00:12:06,000 --> 00:12:09,040
+make sense
+
+305
+00:12:07,120 --> 00:12:10,480
+that's what you did yeah
+
+306
+00:12:09,040 --> 00:12:13,440
+okay
+
+307
+00:12:10,480 --> 00:12:15,200
+okay now um
+
+308
+00:12:13,440 --> 00:12:16,880
+yeah okay let's find so that's the
+
+309
+00:12:15,200 --> 00:12:18,399
+second option
+
+310
+00:12:16,880 --> 00:12:21,120
+still to
+
+311
+00:12:18,399 --> 00:12:24,800
+a bit slow because look this is this one
+
+312
+00:12:21,120 --> 00:12:26,800
+sum o n this one update on i
+
+313
+00:12:24,800 --> 00:12:30,160
+look i have nine numbers
+
+314
+00:12:26,800 --> 00:12:32,240
+but you said to get a time call next to
+
+315
+00:12:30,160 --> 00:12:34,240
+see
+
+316
+00:12:32,240 --> 00:12:37,200
+and then this is
+
+317
+00:12:34,240 --> 00:12:39,360
+oh one yeah yeah that's less than
+
+318
+00:12:37,200 --> 00:12:41,760
+yeah yeah i know but look this is slow
+
+319
+00:12:39,360 --> 00:12:44,160
+so base we won't have these two we we
+
+320
+00:12:41,760 --> 00:12:46,399
+have these two functions and then each
+
+321
+00:12:44,160 --> 00:12:49,120
+one has n and time we want to call it
+
+322
+00:12:46,399 --> 00:12:50,079
+center of this has to be
+
+323
+00:12:49,120 --> 00:12:52,959
+n
+
+324
+00:12:50,079 --> 00:12:54,720
+yeah less than one yes no no not the
+
+325
+00:12:52,959 --> 00:12:57,440
+space complexity okay don't worry just
+
+326
+00:12:54,720 --> 00:12:58,240
+the time conducted okay so these two are
+
+327
+00:12:57,440 --> 00:13:00,399
+the time
+
+328
+00:12:58,240 --> 00:13:02,639
+yeah these two columns come next if let
+
+329
+00:13:00,399 --> 00:13:04,839
+your times end what happens
+
+330
+00:13:02,639 --> 00:13:06,880
+there will be n square right
+
+331
+00:13:04,839 --> 00:13:08,800
+yeah b
+
+332
+00:13:06,880 --> 00:13:12,000
+look o n is this
+
+333
+00:13:08,800 --> 00:13:12,800
+this is o n o n square
+
+334
+00:13:12,000 --> 00:13:15,440
+yeah
+
+335
+00:13:12,800 --> 00:13:17,279
+remote is going up very quickly when n
+
+336
+00:13:15,440 --> 00:13:19,279
+is a hundred is what
+
+337
+00:13:17,279 --> 00:13:21,120
+a hundred hundred what's that
+
+338
+00:13:19,279 --> 00:13:23,200
+ten thousand right
+
+339
+00:13:21,120 --> 00:13:26,079
+yeah it's very slow right yeah you need
+
+340
+00:13:23,200 --> 00:13:27,120
+to iterate a thousand uh uh ten thousand
+
+341
+00:13:26,079 --> 00:13:29,200
+times right
+
+342
+00:13:27,120 --> 00:13:31,839
+so we ideally we want to find something
+
+343
+00:13:29,200 --> 00:13:33,920
+you know under the end right underneath
+
+344
+00:13:31,839 --> 00:13:36,560
+maybe here look at log n right what do
+
+345
+00:13:33,920 --> 00:13:36,560
+you need to try
+
+346
+00:13:36,880 --> 00:13:40,959
+let's say even
+
+347
+00:13:38,480 --> 00:13:42,480
+if i want to call this function n times
+
+348
+00:13:40,959 --> 00:13:43,920
+right
+
+349
+00:13:42,480 --> 00:13:48,279
+makes sense
+
+350
+00:13:43,920 --> 00:13:48,279
+i want to call this function n times
+
+351
+00:13:48,639 --> 00:13:53,360
+because i say so i just want you know
+
+352
+00:13:51,279 --> 00:13:55,279
+let's make it faster yeah because look
+
+353
+00:13:53,360 --> 00:13:57,680
+the problem is is that i want to call
+
+354
+00:13:55,279 --> 00:13:59,760
+this function n times and n times this n
+
+355
+00:13:57,680 --> 00:14:02,079
+times the update n times the sum
+
+356
+00:13:59,760 --> 00:14:04,639
+and look if this one of them is n then
+
+357
+00:14:02,079 --> 00:14:07,360
+will be you're making the complexity of
+
+358
+00:14:04,639 --> 00:14:08,720
+n square right yeah without a d okay or
+
+359
+00:14:07,360 --> 00:14:10,959
+n square yeah
+
+360
+00:14:08,720 --> 00:14:12,880
+makes sense okay so let's look at these
+
+361
+00:14:10,959 --> 00:14:14,320
+nine numbers how about if i tell you
+
+362
+00:14:12,880 --> 00:14:16,720
+that
+
+363
+00:14:14,320 --> 00:14:17,600
+i want to group them into threes
+
+364
+00:14:16,720 --> 00:14:20,560
+yeah
+
+365
+00:14:17,600 --> 00:14:23,839
+and i want to have a blocks a blocks
+
+366
+00:14:20,560 --> 00:14:26,160
+a block which contains the
+
+367
+00:14:23,839 --> 00:14:28,160
+the sum of this block yeah
+
+368
+00:14:26,160 --> 00:14:30,880
+on the sum of this block
+
+369
+00:14:28,160 --> 00:14:33,120
+so you'll be aware of three yeah
+
+370
+00:14:30,880 --> 00:14:36,000
+okay so there are n numbers so i want
+
+371
+00:14:33,120 --> 00:14:38,079
+the block size with n okay block side
+
+372
+00:14:36,000 --> 00:14:38,880
+will be square and how many blocks are
+
+373
+00:14:38,079 --> 00:14:39,760
+there
+
+374
+00:14:38,880 --> 00:14:42,079
+three
+
+375
+00:14:39,760 --> 00:14:44,720
+which is the same as
+
+376
+00:14:42,079 --> 00:14:47,040
+the number will be square root of n i
+
+377
+00:14:44,720 --> 00:14:49,519
+make sense because look square root of n
+
+378
+00:14:47,040 --> 00:14:51,040
+times square root of n
+
+379
+00:14:49,519 --> 00:14:53,360
+is 10 right
+
+380
+00:14:51,040 --> 00:14:54,880
+makes sense 3 times 3 is 9. okay so
+
+381
+00:14:53,360 --> 00:14:57,880
+what's the sum of these these three
+
+382
+00:14:54,880 --> 00:14:57,880
+blocks
+
+383
+00:14:58,160 --> 00:15:02,399
+six
+
+384
+00:15:00,160 --> 00:15:04,399
+fifteen
+
+385
+00:15:02,399 --> 00:15:06,399
+and uh
+
+386
+00:15:04,399 --> 00:15:08,399
+okay so yeah
+
+387
+00:15:06,399 --> 00:15:11,199
+look sometimes sometimes this square
+
+388
+00:15:08,399 --> 00:15:12,800
+root n is not integer right for example
+
+389
+00:15:11,199 --> 00:15:14,959
+if there are only eight numbers you
+
+390
+00:15:12,800 --> 00:15:15,839
+can't find you can't separate it right
+
+391
+00:15:14,959 --> 00:15:18,320
+into
+
+392
+00:15:15,839 --> 00:15:20,800
+into three or right make sense it's just
+
+393
+00:15:18,320 --> 00:15:22,480
+a rough estimation we can
+
+394
+00:15:20,800 --> 00:15:24,560
+we can
+
+395
+00:15:22,480 --> 00:15:25,600
+allocate the block size of square root
+
+396
+00:15:24,560 --> 00:15:27,440
+of n
+
+397
+00:15:25,600 --> 00:15:28,480
+so why are these useful
+
+398
+00:15:27,440 --> 00:15:31,519
+so look
+
+399
+00:15:28,480 --> 00:15:36,240
+if they ask they are in a square root of
+
+400
+00:15:31,519 --> 00:15:37,120
+n blocks right so if i want to
+
+401
+00:15:36,240 --> 00:15:38,399
+if i want to
+
+402
+00:15:37,120 --> 00:15:39,839
+[Music]
+
+403
+00:15:38,399 --> 00:15:42,320
+if i want to work if i want to
+
+404
+00:15:39,839 --> 00:15:44,320
+accumulate to do the sum range in the
+
+405
+00:15:42,320 --> 00:15:45,600
+worst case how many blocks i need to
+
+406
+00:15:44,320 --> 00:15:47,600
+cover
+
+407
+00:15:45,600 --> 00:15:51,040
+in the worst case all of them all of
+
+408
+00:15:47,600 --> 00:15:53,279
+them so which is how many blocks
+
+409
+00:15:51,040 --> 00:15:55,839
+this one no no no nine blocks square
+
+410
+00:15:53,279 --> 00:15:59,120
+root of nine three blocks right
+
+411
+00:15:55,839 --> 00:16:00,720
+yeah so when we calculate it it will be
+
+412
+00:15:59,120 --> 00:16:02,800
+square root of n
+
+413
+00:16:00,720 --> 00:16:05,360
+the time conduction right and when we
+
+414
+00:16:02,800 --> 00:16:06,399
+update it so however if i want to update
+
+415
+00:16:05,360 --> 00:16:08,399
+look
+
+416
+00:16:06,399 --> 00:16:11,040
+look now if i want to change this number
+
+417
+00:16:08,399 --> 00:16:12,880
+the five to six what happened
+
+418
+00:16:11,040 --> 00:16:14,240
+if i want to change this five to six
+
+419
+00:16:12,880 --> 00:16:15,759
+what should we do first of all we need
+
+420
+00:16:14,240 --> 00:16:18,000
+to change this to six and what happened
+
+421
+00:16:15,759 --> 00:16:20,639
+here we have changes six and what number
+
+422
+00:16:18,000 --> 00:16:22,240
+should i change it yes
+
+423
+00:16:20,639 --> 00:16:24,240
+yeah look i just changed this i don't
+
+424
+00:16:22,240 --> 00:16:25,279
+need to worry about the rest right
+
+425
+00:16:24,240 --> 00:16:27,600
+yeah
+
+426
+00:16:25,279 --> 00:16:29,440
+okay so the time complexity for for this
+
+427
+00:16:27,600 --> 00:16:32,160
+uh let's say this is the square root
+
+428
+00:16:29,440 --> 00:16:34,639
+that decomposes uh decomposed
+
+429
+00:16:32,160 --> 00:16:37,279
+decomposition okay okay
+
+430
+00:16:34,639 --> 00:16:39,040
+so square root
+
+431
+00:16:37,279 --> 00:16:42,040
+d how do you pronounce this one
+
+432
+00:16:39,040 --> 00:16:42,040
+decomposition
+
+433
+00:16:42,160 --> 00:16:44,560
+how do you
+
+434
+00:16:44,800 --> 00:16:49,040
+think
+
+435
+00:16:46,959 --> 00:16:50,240
+don't go wrong and wrong make it easy
+
+436
+00:16:49,040 --> 00:16:52,079
+okay so
+
+437
+00:16:50,240 --> 00:16:54,320
+what's how do you compo pronounce the
+
+438
+00:16:52,079 --> 00:16:56,320
+composition yeah and put a d means that
+
+439
+00:16:54,320 --> 00:16:58,000
+the opposite yeah
+
+440
+00:16:56,320 --> 00:17:00,399
+decomposition square root of taken
+
+441
+00:16:58,000 --> 00:17:03,440
+position so
+
+442
+00:17:00,399 --> 00:17:04,720
+so look at the the time compresses o
+
+443
+00:17:03,440 --> 00:17:07,360
+square rule
+
+444
+00:17:04,720 --> 00:17:09,199
+nude square root of n
+
+445
+00:17:07,360 --> 00:17:11,439
+sum will be square root of n as well
+
+446
+00:17:09,199 --> 00:17:11,439
+right
+
+447
+00:17:12,079 --> 00:17:16,799
+no no no okay i make a mistake this is
+
+448
+00:17:14,640 --> 00:17:20,720
+to be one right and because we just
+
+449
+00:17:16,799 --> 00:17:20,720
+update the blocks right one block
+
+450
+00:17:21,520 --> 00:17:26,000
+yeah yeah look so if i times
+
+451
+00:17:24,319 --> 00:17:28,480
+all n times
+
+452
+00:17:26,000 --> 00:17:31,360
+so the time convexity if i multiply this
+
+453
+00:17:28,480 --> 00:17:34,080
+is you'll be all n times square root of
+
+454
+00:17:31,360 --> 00:17:36,480
+n right this is better than o and
+
+455
+00:17:34,080 --> 00:17:38,880
+square right make sense
+
+456
+00:17:36,480 --> 00:17:41,120
+when we update it we just uh
+
+457
+00:17:38,880 --> 00:17:42,480
+do what we just update it so you'll be
+
+458
+00:17:41,120 --> 00:17:43,520
+01 right
+
+459
+00:17:42,480 --> 00:17:45,120
+yeah
+
+460
+00:17:43,520 --> 00:17:47,840
+make sense
+
+461
+00:17:45,120 --> 00:17:47,840
+okay so um
+
+462
+00:17:48,000 --> 00:17:50,960
+uh
+
+463
+00:17:48,880 --> 00:17:53,120
+okay so the space complexity for for
+
+464
+00:17:50,960 --> 00:17:54,720
+this approach would be what how many
+
+465
+00:17:53,120 --> 00:17:56,480
+blocks there you'll be the how many
+
+466
+00:17:54,720 --> 00:18:01,320
+blocks are we using so what's the space
+
+467
+00:17:56,480 --> 00:18:01,320
+complexity what's the space complexity
+
+468
+00:18:02,400 --> 00:18:05,679
+what's a space complexity yes
+
+469
+00:18:06,000 --> 00:18:09,210
+[Music]
+
+470
+00:18:10,720 --> 00:18:14,240
+what's the spectrum how many it depends
+
+471
+00:18:12,720 --> 00:18:18,000
+it means how many blocks are we using
+
+472
+00:18:14,240 --> 00:18:18,000
+yeah how many blocks for the space ones
+
+473
+00:18:22,480 --> 00:18:26,559
+squared okay so it's base convexity i've
+
+474
+00:18:24,480 --> 00:18:29,679
+just put it here okay one square okay so
+
+475
+00:18:26,559 --> 00:18:31,919
+basically we just need one okay
+
+476
+00:18:29,679 --> 00:18:33,120
+and then it'll be one
+
+477
+00:18:31,919 --> 00:18:36,160
+okay
+
+478
+00:18:33,120 --> 00:18:38,720
+okay so now uh how how do we map look
+
+479
+00:18:36,160 --> 00:18:40,960
+this is suppose this index index will be
+
+480
+00:18:38,720 --> 00:18:43,840
+zero one two
+
+481
+00:18:40,960 --> 00:18:47,280
+and three four five six seven eight
+
+482
+00:18:43,840 --> 00:18:49,760
+right right and how do we map these to
+
+483
+00:18:47,280 --> 00:18:52,559
+index here how do we map these to index
+
+484
+00:18:49,760 --> 00:18:53,679
+one how to map this to index two if the
+
+485
+00:18:52,559 --> 00:18:57,600
+m
+
+486
+00:18:53,679 --> 00:19:00,000
+the block size is three how do we
+
+487
+00:18:57,600 --> 00:19:01,280
+map these original index to the block
+
+488
+00:19:00,000 --> 00:19:03,120
+index
+
+489
+00:19:01,280 --> 00:19:05,440
+very simple
+
+490
+00:19:03,120 --> 00:19:05,440
+okay
+
+491
+00:19:05,679 --> 00:19:09,000
+though it
+
+492
+00:19:10,000 --> 00:19:14,080
+any idea
+
+493
+00:19:11,919 --> 00:19:17,039
+how do we make zero one two to zero and
+
+494
+00:19:14,080 --> 00:19:18,799
+three four five two one six seven
+
+495
+00:19:17,039 --> 00:19:20,799
+eight two two
+
+496
+00:19:18,799 --> 00:19:24,440
+what what's the comment about it we need
+
+497
+00:19:20,799 --> 00:19:24,440
+to just do what
+
+498
+00:19:25,760 --> 00:19:30,480
+what happened if i divide it three four
+
+499
+00:19:27,520 --> 00:19:33,039
+zero one two all becomes zero right
+
+500
+00:19:30,480 --> 00:19:35,120
+yes divide it by three three four five
+
+501
+00:19:33,039 --> 00:19:37,120
+all become one the integer part right
+
+502
+00:19:35,120 --> 00:19:40,799
+it's not yet two right
+
+503
+00:19:37,120 --> 00:19:43,360
+yeah six seven eight divided by three
+
+504
+00:19:40,799 --> 00:19:45,840
+two right two or two point something
+
+505
+00:19:43,360 --> 00:19:48,400
+and what's this what what's the flaw and
+
+506
+00:19:45,840 --> 00:19:50,799
+do you still remember yes floor this is
+
+507
+00:19:48,400 --> 00:19:53,039
+floor this is ceiling right
+
+508
+00:19:50,799 --> 00:19:56,640
+yes mathematic this is wrong
+
+509
+00:19:53,039 --> 00:19:58,559
+three point five four equals one
+
+510
+00:19:56,640 --> 00:20:00,320
+three point
+
+511
+00:19:58,559 --> 00:20:03,600
+five ceiling
+
+512
+00:20:00,320 --> 00:20:07,280
+okay that's it so we just need to flow
+
+513
+00:20:03,600 --> 00:20:09,679
+the original index divided by
+
+514
+00:20:07,280 --> 00:20:10,480
+block size
+
+515
+00:20:09,679 --> 00:20:12,400
+okay
+
+516
+00:20:10,480 --> 00:20:13,280
+the floor then your map to the floor
+
+517
+00:20:12,400 --> 00:20:15,120
+right
+
+518
+00:20:13,280 --> 00:20:17,840
+make sense
+
+519
+00:20:15,120 --> 00:20:20,480
+okay so let's try this
+
+520
+00:20:17,840 --> 00:20:22,240
+let's try this
+
+521
+00:20:20,480 --> 00:20:24,240
+so first of all you know at the
+
+522
+00:20:22,240 --> 00:20:26,320
+beginning i just need to
+
+523
+00:20:24,240 --> 00:20:29,440
+okay that's the init function yeah init
+
+524
+00:20:26,320 --> 00:20:32,559
+function and we're taking the numbers
+
+525
+00:20:29,440 --> 00:20:33,360
+thinking around so first of all the n
+
+526
+00:20:32,559 --> 00:20:35,679
+okay
+
+527
+00:20:33,360 --> 00:20:37,360
+n will be equals to the length of the
+
+528
+00:20:35,679 --> 00:20:39,360
+numbers
+
+529
+00:20:37,360 --> 00:20:42,240
+all right and then m this is the block
+
+530
+00:20:39,360 --> 00:20:45,039
+size okay m block size would be the
+
+531
+00:20:42,240 --> 00:20:46,320
+square root yeah
+
+532
+00:20:45,039 --> 00:20:48,159
+square root
+
+533
+00:20:46,320 --> 00:20:50,480
+we if we want to use the square root we
+
+534
+00:20:48,159 --> 00:20:53,200
+have to import the mass yeah mass of
+
+535
+00:20:50,480 --> 00:20:55,919
+square root from mass import
+
+536
+00:20:53,200 --> 00:20:57,919
+square root okay yeah
+
+537
+00:20:55,919 --> 00:20:59,600
+square root of n and we want to change
+
+538
+00:20:57,919 --> 00:21:01,840
+it we want to
+
+539
+00:20:59,600 --> 00:21:03,840
+we want to convert it to integer pi
+
+540
+00:21:01,840 --> 00:21:05,919
+integer part so we can just do this in
+
+541
+00:21:03,840 --> 00:21:08,559
+that that's basically the flow function
+
+542
+00:21:05,919 --> 00:21:10,880
+right and now we also converted the uh
+
+543
+00:21:08,559 --> 00:21:12,640
+allocated blocks at the beginning the
+
+544
+00:21:10,880 --> 00:21:14,159
+block sum for each block at the
+
+545
+00:21:12,640 --> 00:21:15,520
+beginning
+
+546
+00:21:14,159 --> 00:21:18,400
+what does it equal
+
+547
+00:21:15,520 --> 00:21:20,799
+i'll be giving initialize to zero yes
+
+548
+00:21:18,400 --> 00:21:23,280
+times n plus one let's make it extra
+
+549
+00:21:20,799 --> 00:21:25,760
+space because sometimes it's not evenly
+
+550
+00:21:23,280 --> 00:21:27,679
+uh allocated right because i just said
+
+551
+00:21:25,760 --> 00:21:29,360
+that integer the square root of n might
+
+552
+00:21:27,679 --> 00:21:32,640
+not be an integer
+
+553
+00:21:29,360 --> 00:21:35,200
+and we have to allocate maybe one or two
+
+554
+00:21:32,640 --> 00:21:37,679
+yeah one or two yeah i like beginning
+
+555
+00:21:35,200 --> 00:21:39,919
+and then i just need to go through for i
+
+556
+00:21:37,679 --> 00:21:42,159
+in range
+
+557
+00:21:39,919 --> 00:21:44,559
+range n right this is the original index
+
+558
+00:21:42,159 --> 00:21:45,919
+and i want to put it in the blocks
+
+559
+00:21:44,559 --> 00:21:48,159
+blocks i
+
+560
+00:21:45,919 --> 00:21:51,679
+okay so tell me tell me
+
+561
+00:21:48,159 --> 00:21:53,360
+okay so plus what plus equals they are
+
+562
+00:21:51,679 --> 00:21:55,760
+the numbers
+
+563
+00:21:53,360 --> 00:21:58,720
+numbers i right so basically i want to
+
+564
+00:21:55,760 --> 00:22:02,159
+put the numbers at the numbers in each
+
+565
+00:21:58,720 --> 00:22:04,559
+block right so what did i just say so
+
+566
+00:22:02,159 --> 00:22:06,080
+the index i goes between
+
+567
+00:22:04,559 --> 00:22:08,400
+yeah and
+
+568
+00:22:06,080 --> 00:22:08,400
+plus
+
+569
+00:22:09,360 --> 00:22:15,039
+divide divided by okay two two forward
+
+570
+00:22:12,640 --> 00:22:17,440
+slash means the integer divide and you
+
+571
+00:22:15,039 --> 00:22:19,440
+get the integer which is this flaw okay
+
+572
+00:22:17,440 --> 00:22:22,000
+divided by the block size okay which
+
+573
+00:22:19,440 --> 00:22:24,080
+which one which variable is the box size
+
+574
+00:22:22,000 --> 00:22:26,000
+and um where that okay
+
+575
+00:22:24,080 --> 00:22:27,120
+and now we have this block set okay so
+
+576
+00:22:26,000 --> 00:22:28,960
+this is
+
+577
+00:22:27,120 --> 00:22:30,960
+this is any function the preparation
+
+578
+00:22:28,960 --> 00:22:34,640
+yeah preparation and now we want to
+
+579
+00:22:30,960 --> 00:22:36,400
+update after it's simply update
+
+580
+00:22:34,640 --> 00:22:38,840
+update
+
+581
+00:22:36,400 --> 00:22:41,440
+i want to update with the index with the
+
+582
+00:22:38,840 --> 00:22:43,679
+value first of all
+
+583
+00:22:41,440 --> 00:22:47,919
+first of all i want to find out which
+
+584
+00:22:43,679 --> 00:22:50,960
+index which in okay so the index look
+
+585
+00:22:47,919 --> 00:22:54,720
+so i need to do what i need to blocks
+
+586
+00:22:50,960 --> 00:22:56,880
+index divided by m this is the index
+
+587
+00:22:54,720 --> 00:22:58,720
+converting the index to the block id
+
+588
+00:22:56,880 --> 00:23:00,960
+right needs to pass the difference
+
+589
+00:22:58,720 --> 00:23:03,440
+what's the difference the current value
+
+590
+00:23:00,960 --> 00:23:05,760
+is value and i need to minus the
+
+591
+00:23:03,440 --> 00:23:07,360
+previous the previous value which is
+
+592
+00:23:05,760 --> 00:23:09,520
+nums
+
+593
+00:23:07,360 --> 00:23:11,440
+index right this is the difference right
+
+594
+00:23:09,520 --> 00:23:14,320
+yeah if you changing the five to six
+
+595
+00:23:11,440 --> 00:23:16,640
+this would be one right and i want to
+
+596
+00:23:14,320 --> 00:23:17,360
+update the block sum yeah
+
+597
+00:23:16,640 --> 00:23:19,360
+with
+
+598
+00:23:17,360 --> 00:23:21,520
+with one more right make sense and then
+
+599
+00:23:19,360 --> 00:23:23,840
+i just need to update the values again
+
+600
+00:23:21,520 --> 00:23:25,200
+so nums
+
+601
+00:23:23,840 --> 00:23:26,880
+index
+
+602
+00:23:25,200 --> 00:23:28,559
+equals value
+
+603
+00:23:26,880 --> 00:23:30,960
+look these two lines what's the time
+
+604
+00:23:28,559 --> 00:23:32,400
+complexity it's right on it's written on
+
+605
+00:23:30,960 --> 00:23:35,480
+the ball what's the time conversion for
+
+606
+00:23:32,400 --> 00:23:35,480
+the update
+
+607
+00:23:36,159 --> 00:23:38,960
+which one is it
+
+608
+00:23:37,679 --> 00:23:41,120
+look at this one
+
+609
+00:23:38,960 --> 00:23:42,240
+come on yes it's all one
+
+610
+00:23:41,120 --> 00:23:46,000
+okay
+
+611
+00:23:42,240 --> 00:23:47,679
+i need to this population is all
+
+612
+00:23:46,000 --> 00:23:48,960
+o n right because we're going through
+
+613
+00:23:47,679 --> 00:23:52,159
+the n
+
+614
+00:23:48,960 --> 00:23:55,679
+all right space complexity o n square
+
+615
+00:23:52,159 --> 00:23:58,640
+that okay n squared yeah o n plus one o
+
+616
+00:23:55,679 --> 00:24:01,440
+m okay which is square root of n okay
+
+617
+00:23:58,640 --> 00:24:03,120
+now the most uh
+
+618
+00:24:01,440 --> 00:24:04,880
+key part is to
+
+619
+00:24:03,120 --> 00:24:06,960
+sum the range
+
+620
+00:24:04,880 --> 00:24:10,159
+define summary okay come on this is the
+
+621
+00:24:06,960 --> 00:24:13,679
+last part okay some range let's say from
+
+622
+00:24:10,159 --> 00:24:17,600
+i to index j we want to sum the range
+
+623
+00:24:13,679 --> 00:24:20,080
+given this range i to j inclusive okay
+
+624
+00:24:17,600 --> 00:24:22,640
+okay at the beginning let's put the put
+
+625
+00:24:20,080 --> 00:24:23,600
+the sum in here in the answer variable
+
+626
+00:24:22,640 --> 00:24:24,960
+right
+
+627
+00:24:23,600 --> 00:24:26,159
+yeah
+
+628
+00:24:24,960 --> 00:24:28,480
+okay
+
+629
+00:24:26,159 --> 00:24:30,880
+and then now let's do this x this is the
+
+630
+00:24:28,480 --> 00:24:32,799
+point x okay let's this is the position
+
+631
+00:24:30,880 --> 00:24:34,880
+let's put it in the p okay p equals the
+
+632
+00:24:32,799 --> 00:24:36,240
+position and i
+
+633
+00:24:34,880 --> 00:24:38,720
+why
+
+634
+00:24:36,240 --> 00:24:40,880
+why it's not reaching the
+
+635
+00:24:38,720 --> 00:24:43,279
+j it when
+
+636
+00:24:40,880 --> 00:24:46,159
+when we are currently not summing up to
+
+637
+00:24:43,279 --> 00:24:50,240
+the we're not reaching the right the the
+
+638
+00:24:46,159 --> 00:24:51,679
+right most part okay okay so now here
+
+639
+00:24:50,240 --> 00:24:54,400
+again
+
+640
+00:24:51,679 --> 00:24:56,640
+this is the number and we have some
+
+641
+00:24:54,400 --> 00:24:58,080
+we have some which is 6
+
+642
+00:24:56,640 --> 00:24:59,600
+15
+
+643
+00:24:58,080 --> 00:25:01,919
+24 here
+
+644
+00:24:59,600 --> 00:25:04,240
+now if i tell you look look at me if i
+
+645
+00:25:01,919 --> 00:25:06,960
+tell you i want to sum this range i will
+
+646
+00:25:04,240 --> 00:25:08,720
+i want to sum up the range here
+
+647
+00:25:06,960 --> 00:25:11,360
+okay what would you do
+
+648
+00:25:08,720 --> 00:25:11,360
+what would you do
+
+649
+00:25:12,640 --> 00:25:17,279
+no no i want to sum the range three i
+
+650
+00:25:15,039 --> 00:25:19,520
+want to get the sum between three to
+
+651
+00:25:17,279 --> 00:25:20,880
+seven inclusive three four five six
+
+652
+00:25:19,520 --> 00:25:23,120
+seven what would you do what would you
+
+653
+00:25:20,880 --> 00:25:24,860
+sum up the sum what would you get the
+
+654
+00:25:23,120 --> 00:25:26,720
+sum
+
+655
+00:25:24,860 --> 00:25:28,720
+[Music]
+
+656
+00:25:26,720 --> 00:25:32,400
+no no we're given these whole numbers
+
+657
+00:25:28,720 --> 00:25:32,400
+and i tell you this is block sound
+
+658
+00:25:32,640 --> 00:25:36,159
+yeah there are three numbers would you
+
+659
+00:25:34,720 --> 00:25:38,880
+calculate some
+
+660
+00:25:36,159 --> 00:25:40,799
+how would you calculate some
+
+661
+00:25:38,880 --> 00:25:43,360
+um i would
+
+662
+00:25:40,799 --> 00:25:44,640
+just
+
+663
+00:25:43,360 --> 00:25:47,279
+now what's the difference than the
+
+664
+00:25:44,640 --> 00:25:51,039
+previous the the first one remember we
+
+665
+00:25:47,279 --> 00:25:51,039
+have this bros told you somewhere
+
+666
+00:25:51,120 --> 00:25:56,000
+making make use of this how do we make
+
+667
+00:25:53,200 --> 00:25:57,919
+use of it we just use that use that and
+
+668
+00:25:56,000 --> 00:26:00,320
+then we use that to to get the sum of
+
+669
+00:25:57,919 --> 00:26:03,360
+this block and then just proceed yeah
+
+670
+00:26:00,320 --> 00:26:04,559
+exactly yeah don't make it faster right
+
+671
+00:26:03,360 --> 00:26:06,080
+make sense
+
+672
+00:26:04,559 --> 00:26:07,039
+yeah because look
+
+673
+00:26:06,080 --> 00:26:09,360
+because
+
+674
+00:26:07,039 --> 00:26:13,120
+because these two yeah
+
+675
+00:26:09,360 --> 00:26:15,520
+yeah and most we we are traversing
+
+676
+00:26:13,120 --> 00:26:17,279
+one block the blocks the entire block we
+
+677
+00:26:15,520 --> 00:26:19,600
+don't need to go over
+
+678
+00:26:17,279 --> 00:26:21,679
+each animal in each block and for the
+
+679
+00:26:19,600 --> 00:26:23,520
+rest yeah these two rest
+
+680
+00:26:21,679 --> 00:26:25,279
+the animals
+
+681
+00:26:23,520 --> 00:26:26,559
+and most will be
+
+682
+00:26:25,279 --> 00:26:28,480
+roughly
+
+683
+00:26:26,559 --> 00:26:30,559
+square root of n
+
+684
+00:26:28,480 --> 00:26:32,880
+times two right
+
+685
+00:26:30,559 --> 00:26:36,559
+yeah let's make it the most and once you
+
+686
+00:26:32,880 --> 00:26:38,640
+release so the time constant will be
+
+687
+00:26:36,559 --> 00:26:41,200
+like that okay
+
+688
+00:26:38,640 --> 00:26:42,799
+the time conducts t why is that
+
+689
+00:26:41,200 --> 00:26:45,840
+because they are
+
+690
+00:26:42,799 --> 00:26:46,880
+square root of square root of n blocks
+
+691
+00:26:45,840 --> 00:26:48,159
+right
+
+692
+00:26:46,880 --> 00:26:49,279
+roughly okay
+
+693
+00:26:48,159 --> 00:26:51,279
+and then
+
+694
+00:26:49,279 --> 00:26:54,000
+for the rest which is not inside which
+
+695
+00:26:51,279 --> 00:26:56,080
+which is not covered in the entire block
+
+696
+00:26:54,000 --> 00:26:58,799
+i can just do this
+
+697
+00:26:56,080 --> 00:27:00,320
+sum yeah by individual number and that
+
+698
+00:26:58,799 --> 00:27:02,960
+let's say in the worst case it's two
+
+699
+00:27:00,320 --> 00:27:05,600
+times the square root but it's less
+
+700
+00:27:02,960 --> 00:27:08,080
+so this time complexity would be o
+
+701
+00:27:05,600 --> 00:27:09,440
+square root of n that's why we have here
+
+702
+00:27:08,080 --> 00:27:11,679
+right so look
+
+703
+00:27:09,440 --> 00:27:14,559
+now we just how do we check if how do we
+
+704
+00:27:11,679 --> 00:27:18,559
+check if it's currently if x is here
+
+705
+00:27:14,559 --> 00:27:20,399
+and then x plus plus the m size
+
+706
+00:27:18,559 --> 00:27:23,120
+is smaller than j right it's smaller
+
+707
+00:27:20,399 --> 00:27:24,799
+than the j then we can use the block sum
+
+708
+00:27:23,120 --> 00:27:25,760
+right we don't need to go through each
+
+709
+00:27:24,799 --> 00:27:27,360
+number
+
+710
+00:27:25,760 --> 00:27:29,600
+in the blocks because we already
+
+711
+00:27:27,360 --> 00:27:34,159
+pre-calculated the blocks
+
+712
+00:27:29,600 --> 00:27:38,000
+uh the sum in the block right okay
+
+713
+00:27:34,159 --> 00:27:40,960
+while p smaller than j then we say if
+
+714
+00:27:38,000 --> 00:27:43,120
+if p materials block size
+
+715
+00:27:40,960 --> 00:27:44,480
+equal equal zero
+
+716
+00:27:43,120 --> 00:27:46,799
+and
+
+717
+00:27:44,480 --> 00:27:50,080
+its cover it's covered this block is
+
+718
+00:27:46,799 --> 00:27:51,760
+totally covered so p plus m smaller
+
+719
+00:27:50,080 --> 00:27:53,600
+equals j
+
+720
+00:27:51,760 --> 00:27:55,279
+then we can just add the sum right
+
+721
+00:27:53,600 --> 00:27:57,840
+answer
+
+722
+00:27:55,279 --> 00:28:00,000
+plus equal the block size the sum will
+
+723
+00:27:57,840 --> 00:28:03,679
+be blocks
+
+724
+00:28:00,000 --> 00:28:05,760
+the block sum of current is p right p p
+
+725
+00:28:03,679 --> 00:28:08,640
+will be converted to the block size so
+
+726
+00:28:05,760 --> 00:28:10,720
+this is the box and then we need to jump
+
+727
+00:28:08,640 --> 00:28:13,039
+jump up the entire block right because
+
+728
+00:28:10,720 --> 00:28:15,440
+because look we already here we know
+
+729
+00:28:13,039 --> 00:28:18,000
+this number is 15 and covers three
+
+730
+00:28:15,440 --> 00:28:20,000
+numbers and once i calculate i added the
+
+731
+00:28:18,000 --> 00:28:21,679
+sum i need to jump to the next block
+
+732
+00:28:20,000 --> 00:28:24,720
+right make sense i don't need to jump
+
+733
+00:28:21,679 --> 00:28:26,559
+one by one i can jump to the next block
+
+734
+00:28:24,720 --> 00:28:27,360
+so
+
+735
+00:28:26,559 --> 00:28:28,720
+p
+
+736
+00:28:27,360 --> 00:28:30,880
+plus equal
+
+737
+00:28:28,720 --> 00:28:34,399
+jump by m unit yeah
+
+738
+00:28:30,880 --> 00:28:37,200
+plus even else okay else is that it's
+
+739
+00:28:34,399 --> 00:28:39,679
+not covered then i have to add it
+
+740
+00:28:37,200 --> 00:28:42,720
+i have to edit the column number right
+
+741
+00:28:39,679 --> 00:28:44,640
+so answer plus equal the current number
+
+742
+00:28:42,720 --> 00:28:47,039
+is nums
+
+743
+00:28:44,640 --> 00:28:47,039
+nums
+
+744
+00:28:47,360 --> 00:28:53,200
+uh p right times p and then p plus
+
+745
+00:28:50,960 --> 00:28:55,520
+equal one yeah we move by one by one
+
+746
+00:28:53,200 --> 00:28:58,960
+right right am right
+
+747
+00:28:55,520 --> 00:28:58,960
+return reason why
+
+748
+00:29:08,480 --> 00:29:11,440
+yes
+
+749
+00:29:09,679 --> 00:29:13,600
+okay do you really understand do you
+
+750
+00:29:11,440 --> 00:29:15,360
+want me to test you for a little bit
+
+751
+00:29:13,600 --> 00:29:17,679
+give you a little bit challenge okay
+
+752
+00:29:15,360 --> 00:29:19,840
+come come on okay that's easy so can you
+
+753
+00:29:17,679 --> 00:29:22,000
+explain to me what's this part
+
+754
+00:29:19,840 --> 00:29:27,799
+and what's this part i know
+
+755
+00:29:22,000 --> 00:29:27,799
+oh man okay so answer plus equals
+
+756
+00:29:33,760 --> 00:29:40,960
+yeah okay so look i want to calculate
+
+757
+00:29:35,919 --> 00:29:40,960
+the sum from three to seven from three
+
+758
+00:29:51,120 --> 00:29:55,159
+here and i look
+
+759
+00:29:58,320 --> 00:30:01,440
+otherwise if it's not covered by entire
+
+760
+00:30:00,640 --> 00:30:02,799
+block
+
+761
+00:30:01,440 --> 00:30:04,960
+then i have to add a
+
+762
+00:30:02,799 --> 00:30:07,120
+sum three and seven so so basically the
+
+763
+00:30:04,960 --> 00:30:10,399
+sum would be three plus fifteen plus
+
+764
+00:30:07,120 --> 00:30:12,880
+seven okay the 15 part is here the three
+
+765
+00:30:10,399 --> 00:30:15,360
+and seven part is here got it
+
+766
+00:30:12,880 --> 00:30:17,360
+make sense
+
+767
+00:30:15,360 --> 00:30:19,840
+yeah is it clear is it clear so the
+
+768
+00:30:17,360 --> 00:30:22,640
+individual if this individual is not
+
+769
+00:30:19,840 --> 00:30:25,120
+covered by this block
+
+770
+00:30:22,640 --> 00:30:27,520
+yeah it's not covered by the block like
+
+771
+00:30:25,120 --> 00:30:29,679
+in the range all right because look we
+
+772
+00:30:27,520 --> 00:30:31,120
+want to calculate the sum between these
+
+773
+00:30:29,679 --> 00:30:33,440
+two right
+
+774
+00:30:31,120 --> 00:30:34,559
+and it only covers one entire block
+
+775
+00:30:33,440 --> 00:30:36,399
+right
+
+776
+00:30:34,559 --> 00:30:37,840
+it covers the entire block then i can
+
+777
+00:30:36,399 --> 00:30:39,600
+edit
+
+778
+00:30:37,840 --> 00:30:41,360
+i can speed up the process i don't need
+
+779
+00:30:39,600 --> 00:30:43,919
+to add the numbers here right because i
+
+780
+00:30:41,360 --> 00:30:45,919
+already know like yeah make sense
+
+781
+00:30:43,919 --> 00:30:48,000
+i'm gonna release level over individual
+
+782
+00:30:45,919 --> 00:30:48,799
+i just get here i just edit
+
+783
+00:30:48,000 --> 00:30:50,720
+right
+
+784
+00:30:48,799 --> 00:30:54,880
+so the times complexity i just said
+
+785
+00:30:50,720 --> 00:30:57,039
+because they're at most square root of n
+
+786
+00:30:54,880 --> 00:30:59,840
+blocks so the worst case is square root
+
+787
+00:30:57,039 --> 00:31:02,399
+of n plus an individual yeah really this
+
+788
+00:30:59,840 --> 00:31:04,480
+individual cannot be more than
+
+789
+00:31:02,399 --> 00:31:05,840
+2 times square root of n right so all
+
+790
+00:31:04,480 --> 00:31:08,799
+together you'll be
+
+791
+00:31:05,840 --> 00:31:11,039
+o square root of n let's let's keep
+
+792
+00:31:08,799 --> 00:31:13,120
+let's this part the sum of this part
+
+793
+00:31:11,039 --> 00:31:14,399
+okay update we have to cover this okay
+
+794
+00:31:13,120 --> 00:31:17,120
+so now
+
+795
+00:31:14,399 --> 00:31:19,120
+the very last bit
+
+796
+00:31:17,120 --> 00:31:21,600
+okay so look oh
+
+797
+00:31:19,120 --> 00:31:24,480
+which one is bigger which one is bigger
+
+798
+00:31:21,600 --> 00:31:26,480
+sometimes we have these yeah log n
+
+799
+00:31:24,480 --> 00:31:28,399
+which one is bigger but they're tricky
+
+800
+00:31:26,480 --> 00:31:30,640
+okay because look this is square root of
+
+801
+00:31:28,399 --> 00:31:32,559
+the decomposition and we
+
+802
+00:31:30,640 --> 00:31:34,240
+in the future we're going to talk about
+
+803
+00:31:32,559 --> 00:31:36,320
+some other trees
+
+804
+00:31:34,240 --> 00:31:37,440
+some other techniques like segmentation
+
+805
+00:31:36,320 --> 00:31:40,960
+tree
+
+806
+00:31:37,440 --> 00:31:43,360
+sandwich tree which is all which has the
+
+807
+00:31:40,960 --> 00:31:46,399
+old lock end
+
+808
+00:31:43,360 --> 00:31:48,320
+lock and impulse method yeah
+
+809
+00:31:46,399 --> 00:31:50,720
+up there and sum okay so can you tell me
+
+810
+00:31:48,320 --> 00:31:52,240
+which one is bigger
+
+811
+00:31:50,720 --> 00:31:54,720
+if you don't know
+
+812
+00:31:52,240 --> 00:31:58,000
+we can always plug in a value let's say
+
+813
+00:31:54,720 --> 00:32:01,760
+let's let's factor n equals 100
+
+814
+00:31:58,000 --> 00:32:01,760
+what square root 100 10
+
+815
+00:32:02,399 --> 00:32:05,440
+okay so what's this number
+
+816
+00:32:04,240 --> 00:32:07,679
+log
+
+817
+00:32:05,440 --> 00:32:09,679
+2 to the 100 to the power of 100 2 to
+
+818
+00:32:07,679 --> 00:32:12,240
+the power of what
+
+819
+00:32:09,679 --> 00:32:15,039
+is roughly 100
+
+820
+00:32:12,240 --> 00:32:17,600
+power how many twos do you need
+
+821
+00:32:15,039 --> 00:32:21,039
+how many tools do you need come on
+
+822
+00:32:17,600 --> 00:32:21,039
+how many tools you need
+
+823
+00:32:26,799 --> 00:32:31,600
+one two three four five six seven
+
+824
+00:32:29,600 --> 00:32:33,679
+seven every seven is what two to the
+
+825
+00:32:31,600 --> 00:32:36,960
+power seven is one
+
+826
+00:32:33,679 --> 00:32:36,960
+okay two to the power of five
+
+827
+00:32:37,200 --> 00:32:40,880
+two to the power five four sixteen
+
+828
+00:32:39,760 --> 00:32:43,919
+thirty two
+
+829
+00:32:40,880 --> 00:32:47,760
+or a 62 yeah so it's between
+
+830
+00:32:43,919 --> 00:32:50,640
+64. it's between 64 to 128 so the number
+
+831
+00:32:47,760 --> 00:32:53,679
+is 2 to the power of 6000 something yeah
+
+832
+00:32:50,640 --> 00:32:54,880
+six so it's roughly six point something
+
+833
+00:32:53,679 --> 00:32:56,640
+so which is
+
+834
+00:32:54,880 --> 00:32:59,919
+which is faster
+
+835
+00:32:56,640 --> 00:33:02,240
+which is faster yeah slower than slow is
+
+836
+00:32:59,919 --> 00:33:03,600
+faster so but still this is quite good
+
+837
+00:33:02,240 --> 00:33:06,720
+okay okay
+
+838
+00:33:03,600 --> 00:33:08,799
+my sense today we complexities of square
+
+839
+00:33:06,720 --> 00:33:13,440
+root of n
+
+840
+00:33:08,799 --> 00:33:13,440
+and if you if we plot it this is o n
+
+841
+00:33:13,919 --> 00:33:18,399
+this will be
+
+842
+00:33:15,600 --> 00:33:20,480
+all log n
+
+843
+00:33:18,399 --> 00:33:22,559
+this will be
+
+844
+00:33:20,480 --> 00:33:24,159
+roughly of n square
+
+845
+00:33:22,559 --> 00:33:25,600
+and oh
+
+846
+00:33:24,159 --> 00:33:27,679
+uh
+
+847
+00:33:25,600 --> 00:33:31,200
+these will be more a little bit more
+
+848
+00:33:27,679 --> 00:33:33,440
+than these between yeah got it yeah
+
+849
+00:33:31,200 --> 00:33:34,559
+these will be square root of n okay
+
+850
+00:33:33,440 --> 00:33:36,840
+make sense
+
+851
+00:33:34,559 --> 00:33:41,159
+okay that's it for today good job
+
+852
+00:33:36,840 --> 00:33:41,159
+bye bye bye
+
