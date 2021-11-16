@@ -1,0 +1,2488 @@
+1
+00:00:04,000 --> 00:00:06,799
+okay
+
+2
+00:00:04,960 --> 00:00:10,160
+so we talked about the minimum spanning
+
+3
+00:00:06,799 --> 00:00:12,960
+tree yesterday and then the agreement we
+
+4
+00:00:10,160 --> 00:00:14,719
+uh we teaching is what
+
+5
+00:00:12,960 --> 00:00:16,720
+what what can i what what's the name of
+
+6
+00:00:14,719 --> 00:00:18,320
+the acura we talk about crosstalk
+
+7
+00:00:16,720 --> 00:00:20,800
+because okay
+
+8
+00:00:18,320 --> 00:00:23,359
+yeah okay
+
+9
+00:00:20,800 --> 00:00:25,199
+so okay so meaning expanding three okay
+
+10
+00:00:23,359 --> 00:00:27,359
+so let's review a little bit okay let's
+
+11
+00:00:25,199 --> 00:00:30,530
+review a little bit
+
+12
+00:00:27,359 --> 00:00:33,619
+so we have lisa
+
+13
+00:00:30,530 --> 00:00:33,619
+[Music]
+
+14
+00:00:39,810 --> 00:00:45,039
+[Music]
+
+15
+00:00:42,480 --> 00:00:48,000
+that looks like a diamond or something
+
+16
+00:00:45,039 --> 00:00:49,280
+yeah yeah yeah so one two five
+
+17
+00:00:48,000 --> 00:00:51,760
+four so
+
+18
+00:00:49,280 --> 00:00:54,320
+wait so what are we doing uh so we have
+
+19
+00:00:51,760 --> 00:00:56,719
+a four uh four vertex and then how many
+
+20
+00:00:54,320 --> 00:01:00,239
+edges we need to bear to for this
+
+21
+00:00:56,719 --> 00:01:02,320
+minimum spending trees so one two five
+
+22
+00:01:00,239 --> 00:01:04,080
+so how many edges
+
+23
+00:01:02,320 --> 00:01:06,799
+so far
+
+24
+00:01:04,080 --> 00:01:09,040
+one two four two one four okay two one
+
+25
+00:01:06,799 --> 00:01:13,520
+four two one four
+
+26
+00:01:09,040 --> 00:01:14,640
+two one is two one point two one four
+
+27
+00:01:13,520 --> 00:01:17,680
+so let us
+
+28
+00:01:14,640 --> 00:01:19,600
+so first of all we pick we have all the
+
+29
+00:01:17,680 --> 00:01:21,240
+vertices which is has
+
+30
+00:01:19,600 --> 00:01:23,280
+uh n doesn't matter
+
+31
+00:01:21,240 --> 00:01:25,280
+[Music]
+
+32
+00:01:23,280 --> 00:01:26,560
+what doesn't matter about the order you
+
+33
+00:01:25,280 --> 00:01:28,240
+say in
+
+34
+00:01:26,560 --> 00:01:30,479
+what do you mean like
+
+35
+00:01:28,240 --> 00:01:32,720
+like that is two one four so can you say
+
+36
+00:01:30,479 --> 00:01:34,000
+one two four it's okay it's okay but
+
+37
+00:01:32,720 --> 00:01:36,640
+first of all
+
+38
+00:01:34,000 --> 00:01:38,640
+first of all look we have n vertex four
+
+39
+00:01:36,640 --> 00:01:41,119
+vertices so we have uh we need to build
+
+40
+00:01:38,640 --> 00:01:44,479
+a minimum spanning tree with the four
+
+41
+00:01:41,119 --> 00:01:46,320
+trees yeah each one we separate uh no
+
+42
+00:01:44,479 --> 00:01:48,399
+edges just verticals and then we start
+
+43
+00:01:46,320 --> 00:01:50,720
+picking the edges that does not form the
+
+44
+00:01:48,399 --> 00:01:52,560
+cycle so the first one we notice in peak
+
+45
+00:01:50,720 --> 00:01:53,600
+is one and then the second one will pick
+
+46
+00:01:52,560 --> 00:01:55,920
+up two
+
+47
+00:01:53,600 --> 00:01:57,840
+and then now look three three because it
+
+48
+00:01:55,920 --> 00:01:59,759
+has form a cycle so that's why we don't
+
+49
+00:01:57,840 --> 00:02:01,119
+pick it i will skip it so the next one
+
+50
+00:01:59,759 --> 00:02:03,439
+is four right
+
+51
+00:02:01,119 --> 00:02:04,479
+yeah easy peasy so this is the minimum
+
+52
+00:02:03,439 --> 00:02:07,439
+expense
+
+53
+00:02:04,479 --> 00:02:09,599
+okay so that's a question with n vertex
+
+54
+00:02:07,439 --> 00:02:12,080
+uh what's the n minus one
+
+55
+00:02:09,599 --> 00:02:13,360
+okay n minus one yes and minus one edges
+
+56
+00:02:12,080 --> 00:02:16,000
+okay
+
+57
+00:02:13,360 --> 00:02:18,560
+okay so this one is that we start by
+
+58
+00:02:16,000 --> 00:02:20,560
+adding the edges right look we we have
+
+59
+00:02:18,560 --> 00:02:21,680
+this vertex and we start by adding the
+
+60
+00:02:20,560 --> 00:02:23,920
+edges
+
+61
+00:02:21,680 --> 00:02:25,680
+okay adding my edges
+
+62
+00:02:23,920 --> 00:02:27,920
+so the time connection as we talked
+
+63
+00:02:25,680 --> 00:02:30,000
+about we need to solve these edges by
+
+64
+00:02:27,920 --> 00:02:32,239
+the ascending order of the weight right
+
+65
+00:02:30,000 --> 00:02:32,959
+so we this is e
+
+66
+00:02:32,239 --> 00:02:35,200
+o
+
+67
+00:02:32,959 --> 00:02:36,480
+e log e right remember
+
+68
+00:02:35,200 --> 00:02:38,720
+the edges
+
+69
+00:02:36,480 --> 00:02:40,560
+let's just say both the time complexion
+
+70
+00:02:38,720 --> 00:02:42,480
+yeah the term complexity okay you can
+
+71
+00:02:40,560 --> 00:02:44,480
+just say what's the sound complexity
+
+72
+00:02:42,480 --> 00:02:46,319
+instead of just telling us
+
+73
+00:02:44,480 --> 00:02:47,200
+oh you want me to ask you the questions
+
+74
+00:02:46,319 --> 00:02:48,720
+okay
+
+75
+00:02:47,200 --> 00:02:50,560
+okay so what's the
+
+76
+00:02:48,720 --> 00:02:52,239
+because we are using what kind of data
+
+77
+00:02:50,560 --> 00:02:54,000
+structure will you need
+
+78
+00:02:52,239 --> 00:02:56,400
+no no with all kind of data structure
+
+79
+00:02:54,000 --> 00:02:59,280
+data structure you use to this joint set
+
+80
+00:02:56,400 --> 00:03:00,720
+this is john cena yeah okay
+
+81
+00:02:59,280 --> 00:03:02,239
+okay
+
+82
+00:03:00,720 --> 00:03:04,410
+this question especially for you yeah
+
+83
+00:03:02,239 --> 00:03:07,620
+because you answered
+
+84
+00:03:04,410 --> 00:03:07,620
+[Music]
+
+85
+00:03:15,840 --> 00:03:20,879
+and how many edges are there and minus
+
+86
+00:03:18,239 --> 00:03:24,400
+one no no i mean the maximum like for
+
+87
+00:03:20,879 --> 00:03:25,599
+example like if there are four
+
+88
+00:03:24,400 --> 00:03:27,840
+look
+
+89
+00:03:25,599 --> 00:03:30,239
+there's a cycle though yeah yeah i mean
+
+90
+00:03:27,840 --> 00:03:32,879
+the graph okay i like the graph if it's
+
+91
+00:03:30,239 --> 00:03:34,159
+the graph if there's a graph okay if
+
+92
+00:03:32,879 --> 00:03:35,200
+there's a graph
+
+93
+00:03:34,159 --> 00:03:37,920
+with n
+
+94
+00:03:35,200 --> 00:03:41,120
+m vertex yeah and vertex
+
+95
+00:03:37,920 --> 00:03:43,680
+and how many maximum number of edges can
+
+96
+00:03:41,120 --> 00:03:46,959
+you think about
+
+97
+00:03:43,680 --> 00:03:49,280
+think about it look it could be crossed
+
+98
+00:03:46,959 --> 00:03:53,760
+how many of these look
+
+99
+00:03:49,280 --> 00:03:56,159
+lots yeah i know infinity
+
+100
+00:03:53,760 --> 00:03:58,959
+how is that infinity look for each one
+
+101
+00:03:56,159 --> 00:04:01,040
+you have the edges to n minus one right
+
+102
+00:03:58,959 --> 00:04:03,599
+so for each one you have the edges to m
+
+103
+00:04:01,040 --> 00:04:06,000
+minus n times three
+
+104
+00:04:03,599 --> 00:04:07,840
+now look at four this is how is that n
+
+105
+00:04:06,000 --> 00:04:10,720
+times two look at these three edges how
+
+106
+00:04:07,840 --> 00:04:12,640
+many of them are three
+
+107
+00:04:10,720 --> 00:04:15,519
+so three edges that's the
+
+108
+00:04:12,640 --> 00:04:17,359
+next one two plus one right so it's n
+
+109
+00:04:15,519 --> 00:04:20,880
+minus one plus
+
+110
+00:04:17,359 --> 00:04:23,759
+n minus two plus tier one right so for
+
+111
+00:04:20,880 --> 00:04:26,240
+example n edges uh and vertex i the
+
+112
+00:04:23,759 --> 00:04:28,880
+first the first vertex has connections
+
+113
+00:04:26,240 --> 00:04:31,759
+to the n minus one right so it's n minus
+
+114
+00:04:28,880 --> 00:04:34,400
+one so for the second one
+
+115
+00:04:31,759 --> 00:04:36,880
+it has the edges to
+
+116
+00:04:34,400 --> 00:04:39,199
+n minus two right so you probably plus
+
+117
+00:04:36,880 --> 00:04:40,880
+one right okay so that's the total
+
+118
+00:04:39,199 --> 00:04:44,160
+number of edges
+
+119
+00:04:40,880 --> 00:04:46,080
+okay so it's in a scale of uh n
+
+120
+00:04:44,160 --> 00:04:47,840
+square right it's in the scale it's not
+
+121
+00:04:46,080 --> 00:04:49,120
+exactly the same
+
+122
+00:04:47,840 --> 00:04:51,280
+you get it
+
+123
+00:04:49,120 --> 00:04:51,280
+so
+
+124
+00:04:51,680 --> 00:04:56,160
+well why this is not working okay
+
+125
+00:04:54,000 --> 00:04:59,199
+because you missed the part which is
+
+126
+00:04:56,160 --> 00:04:59,199
+stuck to the board
+
+127
+00:05:00,320 --> 00:05:03,680
+so okay so
+
+128
+00:05:02,240 --> 00:05:06,080
+maybe okay so
+
+129
+00:05:03,680 --> 00:05:08,840
+what i'm trying to say here is this
+
+130
+00:05:06,080 --> 00:05:13,120
+you've got this dumb thing
+
+131
+00:05:08,840 --> 00:05:13,120
+yeah that's okay there we go
+
+132
+00:05:15,520 --> 00:05:17,919
+okay
+
+133
+00:05:17,120 --> 00:05:20,400
+let's
+
+134
+00:05:17,919 --> 00:05:22,479
+need to put numbers though no no i don't
+
+135
+00:05:20,400 --> 00:05:24,400
+for example this one let's consider the
+
+136
+00:05:22,479 --> 00:05:25,360
+first vertex right
+
+137
+00:05:24,400 --> 00:05:28,479
+this is
+
+138
+00:05:25,360 --> 00:05:29,680
+vertex so you can have the edges to
+
+139
+00:05:28,479 --> 00:05:32,320
+how many
+
+140
+00:05:29,680 --> 00:05:35,680
+how many vertices are five yeah but if
+
+141
+00:05:32,320 --> 00:05:39,840
+this is the n there are n vertices
+
+142
+00:05:35,680 --> 00:05:39,840
+and minus one okay so n minus
+
+143
+00:05:40,720 --> 00:05:44,720
+no no no
+
+144
+00:05:42,479 --> 00:05:45,759
+no no no okay next one because i'm
+
+145
+00:05:44,720 --> 00:05:48,560
+trying to
+
+146
+00:05:45,759 --> 00:05:50,639
+you can okay
+
+147
+00:05:48,560 --> 00:05:54,240
+when i said the questions then you it
+
+148
+00:05:50,639 --> 00:05:57,280
+answered okay so now so for the second
+
+149
+00:05:54,240 --> 00:05:59,199
+one how many edges you can have two
+
+150
+00:05:57,280 --> 00:06:00,560
+a minus one but we already count this so
+
+151
+00:05:59,199 --> 00:06:03,600
+we don't count it again yeah it's
+
+152
+00:06:00,560 --> 00:06:05,840
+literally set anymore n minus one
+
+153
+00:06:03,600 --> 00:06:08,639
+and one is one
+
+154
+00:06:05,840 --> 00:06:10,319
+minus two yeah and then the next one and
+
+155
+00:06:08,639 --> 00:06:12,319
+one is three
+
+156
+00:06:10,319 --> 00:06:15,039
+yeah and my why is that minus three
+
+157
+00:06:12,319 --> 00:06:17,440
+because it has two and one is three
+
+158
+00:06:15,039 --> 00:06:20,639
+how many
+
+159
+00:06:17,440 --> 00:06:23,120
+no look at you because i already have
+
+160
+00:06:20,639 --> 00:06:25,039
+two so you can't count these these right
+
+161
+00:06:23,120 --> 00:06:27,360
+so it's n minus three yeah
+
+162
+00:06:25,039 --> 00:06:30,639
+and minus one minus two okay so
+
+163
+00:06:27,360 --> 00:06:32,960
+i said n minus three okay and then after
+
+164
+00:06:30,639 --> 00:06:36,319
+a minus four yeah after one right so
+
+165
+00:06:32,960 --> 00:06:38,880
+what's this what's this sum n square
+
+166
+00:06:36,319 --> 00:06:42,160
+uh i don't know yet look so the first
+
+167
+00:06:38,880 --> 00:06:44,960
+first item is uh the sum will be n minus
+
+168
+00:06:42,160 --> 00:06:48,000
+one plus one how many items are there
+
+169
+00:06:44,960 --> 00:06:50,720
+times n minus one divided by two y yeah
+
+170
+00:06:48,000 --> 00:06:51,680
+so this is this is the equation to sum
+
+171
+00:06:50,720 --> 00:06:53,360
+the
+
+172
+00:06:51,680 --> 00:06:55,759
+uh
+
+173
+00:06:53,360 --> 00:06:57,039
+the you know aromatic
+
+174
+00:06:55,759 --> 00:07:00,880
+sequence right
+
+175
+00:06:57,039 --> 00:07:03,759
+so 1 plus 2 plus 3 plus 2 n minus 1 the
+
+176
+00:07:00,880 --> 00:07:06,400
+first item the last item how many items
+
+177
+00:07:03,759 --> 00:07:08,960
+online divided by two so it's n times n
+
+178
+00:07:06,400 --> 00:07:11,120
+minus one divided by two right so this
+
+179
+00:07:08,960 --> 00:07:13,919
+this is the number this is the possible
+
+180
+00:07:11,120 --> 00:07:16,639
+number of edges for a graph with n
+
+181
+00:07:13,919 --> 00:07:19,759
+vertex okay so because we because we
+
+182
+00:07:16,639 --> 00:07:23,440
+know this o e log e right
+
+183
+00:07:19,759 --> 00:07:26,080
+yeah and if this e edges is the v square
+
+184
+00:07:23,440 --> 00:07:28,560
+right because look this is a v square
+
+185
+00:07:26,080 --> 00:07:32,560
+so if we say o e
+
+186
+00:07:28,560 --> 00:07:32,560
+log v square okay
+
+187
+00:07:32,880 --> 00:07:34,800
+yeah
+
+188
+00:07:33,759 --> 00:07:38,560
+so look
+
+189
+00:07:34,800 --> 00:07:40,240
+this one we have say log a
+
+190
+00:07:38,560 --> 00:07:41,199
+log uh
+
+191
+00:07:40,240 --> 00:07:44,240
+a
+
+192
+00:07:41,199 --> 00:07:45,919
+a uh to the power b actually you can put
+
+193
+00:07:44,240 --> 00:07:48,879
+a b look look at this is magic you can
+
+194
+00:07:45,919 --> 00:07:50,879
+put a b to the before so it becomes b
+
+195
+00:07:48,879 --> 00:07:54,080
+times log a
+
+196
+00:07:50,879 --> 00:07:56,800
+okay so this is a logarithmic uh
+
+197
+00:07:54,080 --> 00:07:59,120
+transformation for example like
+
+198
+00:07:56,800 --> 00:08:01,840
+log
+
+199
+00:07:59,120 --> 00:08:03,680
+two to the base of a right a is two to
+
+200
+00:08:01,840 --> 00:08:06,160
+the power of three right two to the
+
+201
+00:08:03,680 --> 00:08:07,520
+power of three is a right so that equals
+
+202
+00:08:06,160 --> 00:08:08,400
+three times
+
+203
+00:08:07,520 --> 00:08:10,639
+log
+
+204
+00:08:08,400 --> 00:08:12,960
+two we're down three times left so e to
+
+205
+00:08:10,639 --> 00:08:12,960
+the seven
+
+206
+00:08:20,240 --> 00:08:23,360
+we can also say look we move it to
+
+207
+00:08:22,000 --> 00:08:26,960
+before
+
+208
+00:08:23,360 --> 00:08:26,960
+right so now we drop the constant
+
+209
+00:08:27,520 --> 00:08:33,039
+okay so now let's come into the today's
+
+210
+00:08:29,680 --> 00:08:33,039
+topic with more questions okay
+
+211
+00:08:33,760 --> 00:08:38,240
+today we're going to talk about
+
+212
+00:08:35,760 --> 00:08:41,599
+another aquarium to compute the minimum
+
+213
+00:08:38,240 --> 00:08:44,320
+spending tree which is called prince
+
+214
+00:08:41,599 --> 00:08:44,320
+prince okay
+
+215
+00:08:44,720 --> 00:08:49,839
+all right okay so the previous thing
+
+216
+00:08:47,200 --> 00:08:52,240
+the previous thing we picked up away we
+
+217
+00:08:49,839 --> 00:08:54,399
+picked the edges and we added to the
+
+218
+00:08:52,240 --> 00:08:55,279
+forest right and now this time we want
+
+219
+00:08:54,399 --> 00:08:57,680
+to
+
+220
+00:08:55,279 --> 00:09:00,160
+what we want to pick the vertex instead
+
+221
+00:08:57,680 --> 00:09:02,160
+so for example like
+
+222
+00:09:00,160 --> 00:09:05,600
+okay so you
+
+223
+00:09:02,160 --> 00:09:06,880
+so let's see what we can get okay
+
+224
+00:09:05,600 --> 00:09:09,680
+c
+
+225
+00:09:06,880 --> 00:09:11,440
+b
+
+226
+00:09:09,680 --> 00:09:15,600
+maybe here
+
+227
+00:09:11,440 --> 00:09:17,760
+okay let's say one two three four five
+
+228
+00:09:15,600 --> 00:09:17,760
+so
+
+229
+00:09:17,839 --> 00:09:20,880
+one two three before we pick the
+
+230
+00:09:19,279 --> 00:09:23,440
+smallest but now this time it's
+
+231
+00:09:20,880 --> 00:09:27,040
+different we can pick first of all which
+
+232
+00:09:23,440 --> 00:09:29,600
+letter which vertex you're going to pick
+
+233
+00:09:27,040 --> 00:09:30,240
+no no it doesn't matter pick one abcd or
+
+234
+00:09:29,600 --> 00:09:32,480
+e
+
+235
+00:09:30,240 --> 00:09:34,240
+okay because because why is it doesn't
+
+236
+00:09:32,480 --> 00:09:36,080
+matter because eventually all these
+
+237
+00:09:34,240 --> 00:09:39,360
+vertex will be in the minimum spanning
+
+238
+00:09:36,080 --> 00:09:41,519
+tree right right it's connected right
+
+239
+00:09:39,360 --> 00:09:44,080
+so we just pick a
+
+240
+00:09:41,519 --> 00:09:45,440
+okay so from a how many edges how many
+
+241
+00:09:44,080 --> 00:09:47,680
+edges
+
+242
+00:09:45,440 --> 00:09:49,760
+to one and two okay so now
+
+243
+00:09:47,680 --> 00:09:52,480
+now this is easy it's on board now we
+
+244
+00:09:49,760 --> 00:09:54,320
+can we have one it's not on a board okay
+
+245
+00:09:52,480 --> 00:09:55,200
+so then we pick the smallest one which
+
+246
+00:09:54,320 --> 00:09:57,680
+is
+
+247
+00:09:55,200 --> 00:09:57,680
+a to b
+
+248
+00:09:57,839 --> 00:10:00,959
+this is one okay
+
+249
+00:09:59,519 --> 00:10:03,519
+now
+
+250
+00:10:00,959 --> 00:10:08,079
+we have these yeah we have these three
+
+251
+00:10:03,519 --> 00:10:10,079
+now a or b how many veggies connect to a
+
+252
+00:10:08,079 --> 00:10:11,519
+now i have i have this one yeah i have
+
+253
+00:10:10,079 --> 00:10:13,920
+two this one
+
+254
+00:10:11,519 --> 00:10:17,240
+and how many edges you connect to the b
+
+255
+00:10:13,920 --> 00:10:17,240
+how many edges
+
+256
+00:10:21,839 --> 00:10:26,800
+so look i have one ap right so there are
+
+257
+00:10:24,560 --> 00:10:29,519
+two two out of it so first of all i pick
+
+258
+00:10:26,800 --> 00:10:31,200
+this one right pick a and then
+
+259
+00:10:29,519 --> 00:10:33,120
+there are two edges one and two because
+
+260
+00:10:31,200 --> 00:10:34,000
+i pick the smallest one so which is one
+
+261
+00:10:33,120 --> 00:10:37,120
+okay
+
+262
+00:10:34,000 --> 00:10:39,839
+so now i already have these yeah so how
+
+263
+00:10:37,120 --> 00:10:40,880
+many edges connected to these these one
+
+264
+00:10:39,839 --> 00:10:43,839
+right
+
+265
+00:10:40,880 --> 00:10:44,880
+this one and this one and this one yeah
+
+266
+00:10:43,839 --> 00:10:46,720
+right
+
+267
+00:10:44,880 --> 00:10:48,560
+so i pick the smallest which is two
+
+268
+00:10:46,720 --> 00:10:50,880
+right two three four i picked
+
+269
+00:10:48,560 --> 00:10:52,000
+the smallest one so i took this which is
+
+270
+00:10:50,880 --> 00:10:54,800
+d
+
+271
+00:10:52,000 --> 00:10:55,839
+two i yeah
+
+272
+00:10:54,800 --> 00:10:57,839
+then i
+
+273
+00:10:55,839 --> 00:10:59,920
+then that's the
+
+274
+00:10:57,839 --> 00:11:01,839
+the three i have built for now is this
+
+275
+00:10:59,920 --> 00:11:05,200
+included right
+
+276
+00:11:01,839 --> 00:11:08,640
+so now how many edges connected to
+
+277
+00:11:05,200 --> 00:11:08,640
+these a b or d
+
+278
+00:11:10,640 --> 00:11:13,839
+three
+
+279
+00:11:11,760 --> 00:11:16,480
+so no no i already know i already know
+
+280
+00:11:13,839 --> 00:11:18,880
+the tree minimum staining tree has abc
+
+281
+00:11:16,480 --> 00:11:19,920
+and how many edges which we haven't
+
+282
+00:11:18,880 --> 00:11:23,200
+added
+
+283
+00:11:19,920 --> 00:11:24,800
+connects to that vertex here one
+
+284
+00:11:23,200 --> 00:11:29,399
+what was one c
+
+285
+00:11:24,800 --> 00:11:29,399
+c c and then okay how many edges
+
+286
+00:11:31,600 --> 00:11:36,800
+okay how many one
+
+287
+00:11:33,839 --> 00:11:38,000
+what one how many vertex one how many
+
+288
+00:11:36,800 --> 00:11:39,600
+edges
+
+289
+00:11:38,000 --> 00:11:42,240
+two
+
+290
+00:11:39,600 --> 00:11:44,560
+so we pick four or five four four so we
+
+291
+00:11:42,240 --> 00:11:46,320
+pick four
+
+292
+00:11:44,560 --> 00:11:48,800
+uh four let's
+
+293
+00:11:46,320 --> 00:11:51,360
+uh let's see do you get it do you
+
+294
+00:11:48,800 --> 00:11:54,160
+understand this process so first of all
+
+295
+00:11:51,360 --> 00:11:56,880
+we randomly pick okay so the step one we
+
+296
+00:11:54,160 --> 00:11:59,600
+pick a vertex it doesn't have to it it's
+
+297
+00:11:56,880 --> 00:12:02,399
+it could be random pick the vertex
+
+298
+00:11:59,600 --> 00:12:02,399
+pick a vertex
+
+299
+00:12:03,240 --> 00:12:07,680
+v-e-r-t-x pick a vertex
+
+300
+00:12:06,560 --> 00:12:10,639
+and then
+
+301
+00:12:07,680 --> 00:12:12,959
+we we we need to separate these two uh
+
+302
+00:12:10,639 --> 00:12:14,959
+to this uh pick a vertex we want to put
+
+303
+00:12:12,959 --> 00:12:16,160
+it in these three i pick vertex and put
+
+304
+00:12:14,959 --> 00:12:18,160
+it in a tree
+
+305
+00:12:16,160 --> 00:12:19,920
+and then we have s equals all the
+
+306
+00:12:18,160 --> 00:12:22,720
+vertices
+
+307
+00:12:19,920 --> 00:12:24,639
+all the vertex and then we need to find
+
+308
+00:12:22,720 --> 00:12:28,480
+a vert a vertex
+
+309
+00:12:24,639 --> 00:12:32,639
+okay we need to find the vertex in s
+
+310
+00:12:28,480 --> 00:12:35,200
+right connecting to the existing tree
+
+311
+00:12:32,639 --> 00:12:37,440
+with the minimum edges edges
+
+312
+00:12:35,200 --> 00:12:38,880
+right so what i will try what are we
+
+313
+00:12:37,440 --> 00:12:41,200
+doing here look
+
+314
+00:12:38,880 --> 00:12:43,360
+uh
+
+315
+00:12:41,200 --> 00:12:47,120
+so if we have ap
+
+316
+00:12:43,360 --> 00:12:49,360
+right then then h is connected to a or b
+
+317
+00:12:47,120 --> 00:12:51,440
+is this a d
+
+318
+00:12:49,360 --> 00:12:52,800
+b d or b c
+
+319
+00:12:51,440 --> 00:12:55,279
+and then we just need to pick the
+
+320
+00:12:52,800 --> 00:12:57,519
+smallest of them and then try to and
+
+321
+00:12:55,279 --> 00:12:59,839
+then try to include these new
+
+322
+00:12:57,519 --> 00:13:01,920
+vertex new edges
+
+323
+00:12:59,839 --> 00:13:06,240
+in the tree make sense
+
+324
+00:13:01,920 --> 00:13:09,880
+okay let me write the step okay
+
+325
+00:13:06,240 --> 00:13:09,880
+let me know the steps
+
+326
+00:13:20,320 --> 00:13:25,279
+okay so now the first one we want to
+
+327
+00:13:22,560 --> 00:13:27,440
+field is that t will be equals to the
+
+328
+00:13:25,279 --> 00:13:29,600
+empty set right empty set
+
+329
+00:13:27,440 --> 00:13:31,360
+empty set this is the tree we are going
+
+330
+00:13:29,600 --> 00:13:33,680
+to
+
+331
+00:13:31,360 --> 00:13:35,519
+build define
+
+332
+00:13:33,680 --> 00:13:38,480
+prince
+
+333
+00:13:35,519 --> 00:13:41,440
+we have we have a graph right
+
+334
+00:13:38,480 --> 00:13:44,560
+so first of all we have a t equals m t
+
+335
+00:13:41,440 --> 00:13:47,440
+right and then no no no no
+
+336
+00:13:44,560 --> 00:13:48,560
+so we want to fill the vertex which is
+
+337
+00:13:47,440 --> 00:13:50,800
+vertical
+
+338
+00:13:48,560 --> 00:13:52,160
+let's say the vertex will be
+
+339
+00:13:50,800 --> 00:13:53,199
+e
+
+340
+00:13:52,160 --> 00:13:53,920
+and then
+
+341
+00:13:53,199 --> 00:13:56,320
+v
+
+342
+00:13:53,920 --> 00:13:58,320
+we will be let's say we start from the
+
+343
+00:13:56,320 --> 00:14:00,480
+beginning of the first node okay zero
+
+344
+00:13:58,320 --> 00:14:00,480
+okay
+
+345
+00:14:00,880 --> 00:14:03,040
+or
+
+346
+00:14:15,360 --> 00:14:18,560
+no no we don't need this why v in
+
+347
+00:14:17,120 --> 00:14:21,199
+different place what do you mean
+
+348
+00:14:18,560 --> 00:14:21,199
+different place
+
+349
+00:14:21,519 --> 00:14:26,560
+no no no this is the same i'm just
+
+350
+00:14:23,120 --> 00:14:28,839
+writing y v is not equal to
+
+351
+00:14:26,560 --> 00:14:30,720
+y v is not equal
+
+352
+00:14:28,839 --> 00:14:32,560
+to
+
+353
+00:14:30,720 --> 00:14:33,760
+right because we're going to
+
+354
+00:14:32,560 --> 00:14:35,360
+include
+
+355
+00:14:33,760 --> 00:14:37,839
+all the vertices anyway the minimum
+
+356
+00:14:35,360 --> 00:14:39,839
+spanning tree is is contains all the
+
+357
+00:14:37,839 --> 00:14:42,000
+vertex right all the vertex of the
+
+358
+00:14:39,839 --> 00:14:43,680
+original graph and it's connected right
+
+359
+00:14:42,000 --> 00:14:45,920
+because we're talking about a connective
+
+360
+00:14:43,680 --> 00:14:48,720
+it's just the edges is the
+
+361
+00:14:45,920 --> 00:14:50,399
+n minus one edges right right come on
+
+362
+00:14:48,720 --> 00:14:52,560
+see that
+
+363
+00:14:50,399 --> 00:14:56,240
+why v not equals the
+
+364
+00:14:52,560 --> 00:14:58,639
+uh gw why we haven't built enough vertex
+
+365
+00:14:56,240 --> 00:15:00,959
+we haven't included enough vertex in in
+
+366
+00:14:58,639 --> 00:15:02,959
+a minimum spanning tree now we need to
+
+367
+00:15:00,959 --> 00:15:05,600
+find the edges we need to find the
+
+368
+00:15:02,959 --> 00:15:08,560
+energy m n right the m and
+
+369
+00:15:05,600 --> 00:15:11,279
+m and n is the vertex number need to
+
+370
+00:15:08,560 --> 00:15:13,839
+find the edges five edges
+
+371
+00:15:11,279 --> 00:15:15,920
+find edges
+
+372
+00:15:13,839 --> 00:15:17,920
+okay so let's say we want to find what
+
+373
+00:15:15,920 --> 00:15:19,760
+we want to find the energy this this
+
+374
+00:15:17,920 --> 00:15:22,079
+function will return
+
+375
+00:15:19,760 --> 00:15:24,639
+the m
+
+376
+00:15:22,079 --> 00:15:28,000
+m it belongs to
+
+377
+00:15:24,639 --> 00:15:29,279
+belongs to existing v right existing v
+
+378
+00:15:28,000 --> 00:15:31,120
+and then
+
+379
+00:15:29,279 --> 00:15:32,160
+n belongs to
+
+380
+00:15:31,120 --> 00:15:36,079
+uh
+
+381
+00:15:32,160 --> 00:15:39,360
+g dot v minus m and minus v
+
+382
+00:15:36,079 --> 00:15:41,680
+this is look this is the vertex we have
+
+383
+00:15:39,360 --> 00:15:43,600
+included in a minimum spanning tree and
+
+384
+00:15:41,680 --> 00:15:44,720
+this is the vertex that we haven't
+
+385
+00:15:43,600 --> 00:15:47,040
+included
+
+386
+00:15:44,720 --> 00:15:50,639
+and we want to find out m n in these m
+
+387
+00:15:47,040 --> 00:15:53,360
+belongs to v and m belongs to v minus v
+
+388
+00:15:50,639 --> 00:15:55,680
+and also this edge is the smallest okay
+
+389
+00:15:53,360 --> 00:15:57,279
+and this is the smallest
+
+390
+00:15:55,680 --> 00:15:59,600
+smallest
+
+391
+00:15:57,279 --> 00:16:02,639
+and then after that then we can do what
+
+392
+00:15:59,600 --> 00:16:04,639
+we can include the graph t
+
+393
+00:16:02,639 --> 00:16:06,399
+equals t
+
+394
+00:16:04,639 --> 00:16:08,880
+including the graph right
+
+395
+00:16:06,399 --> 00:16:10,240
+with m to n
+
+396
+00:16:08,880 --> 00:16:12,320
+and then our v
+
+397
+00:16:10,240 --> 00:16:15,839
+will be equal to v
+
+398
+00:16:12,320 --> 00:16:19,680
+including the vertex vertex is
+
+399
+00:16:15,839 --> 00:16:19,680
+n right this is the the vertex
+
+400
+00:16:19,839 --> 00:16:22,880
+we want to include it right and a little
+
+401
+00:16:22,160 --> 00:16:24,320
+bit
+
+402
+00:16:22,880 --> 00:16:26,720
+a little bit
+
+403
+00:16:24,320 --> 00:16:30,240
+so the time complexity for this one okay
+
+404
+00:16:26,720 --> 00:16:33,680
+this is a bit tricky okay it is uh is o
+
+405
+00:16:30,240 --> 00:16:35,040
+uh e times the log e
+
+406
+00:16:33,680 --> 00:16:39,360
+log v
+
+407
+00:16:35,040 --> 00:16:39,360
+plus v times log of v okay
+
+408
+00:16:40,000 --> 00:16:43,920
+no no because we're going to use the
+
+409
+00:16:42,000 --> 00:16:45,600
+heap remember the heap
+
+410
+00:16:43,920 --> 00:16:48,240
+what's the hit by the way
+
+411
+00:16:45,600 --> 00:16:50,959
+anyone this is this first impression no
+
+412
+00:16:48,240 --> 00:16:50,959
+no no no no
+
+413
+00:16:54,800 --> 00:17:00,000
+but not quite
+
+414
+00:16:56,560 --> 00:17:03,120
+the hip remember is the binary tree with
+
+415
+00:17:00,000 --> 00:17:05,199
+the top data structure data structure
+
+416
+00:17:03,120 --> 00:17:07,199
+okay so the third data structure
+
+417
+00:17:05,199 --> 00:17:09,600
+priority two yeah the one that you said
+
+418
+00:17:07,199 --> 00:17:11,439
+is prior to q so every time when you
+
+419
+00:17:09,600 --> 00:17:14,400
+take the element out it's always with
+
+420
+00:17:11,439 --> 00:17:16,799
+the priority right the smaller smallest
+
+421
+00:17:14,400 --> 00:17:19,520
+yeah with the smallest okay so then that
+
+422
+00:17:16,799 --> 00:17:22,880
+takes all because we have vert v vertex
+
+423
+00:17:19,520 --> 00:17:25,760
+so that requires log of v okay and we
+
+424
+00:17:22,880 --> 00:17:28,319
+need to traverse all the edges
+
+425
+00:17:25,760 --> 00:17:31,440
+but because because the verb look at the
+
+426
+00:17:28,319 --> 00:17:34,480
+vertex the vertical number is smaller
+
+427
+00:17:31,440 --> 00:17:35,600
+equal to the edge number right
+
+428
+00:17:34,480 --> 00:17:38,880
+am i right
+
+429
+00:17:35,600 --> 00:17:38,880
+don't write it on the floor come on
+
+430
+00:17:38,960 --> 00:17:42,559
+okay so the term convexity can also be o
+
+431
+00:17:41,760 --> 00:17:45,360
+e
+
+432
+00:17:42,559 --> 00:17:47,840
+log log of v because this one is trivial
+
+433
+00:17:45,360 --> 00:17:50,000
+right it's e plus v log v so it's
+
+434
+00:17:47,840 --> 00:17:51,520
+trivial
+
+435
+00:17:50,000 --> 00:17:53,760
+okay
+
+436
+00:17:51,520 --> 00:17:53,760
+uh
+
+437
+00:17:55,120 --> 00:17:59,440
+so
+
+438
+00:17:56,320 --> 00:18:01,200
+the space complexity is of v you know
+
+439
+00:17:59,440 --> 00:18:02,320
+because we need the data structure to
+
+440
+00:18:01,200 --> 00:18:04,640
+store
+
+441
+00:18:02,320 --> 00:18:06,160
+right we need to store these yeah we
+
+442
+00:18:04,640 --> 00:18:08,480
+need to store the
+
+443
+00:18:06,160 --> 00:18:10,799
+number of the
+
+444
+00:18:08,480 --> 00:18:14,559
+vertex
+
+445
+00:18:10,799 --> 00:18:16,400
+and okay so i'm going to write a
+
+446
+00:18:14,559 --> 00:18:18,400
+tree a graph
+
+447
+00:18:16,400 --> 00:18:20,400
+okay and then you tell me okay
+
+448
+00:18:18,400 --> 00:18:22,640
+you tell me how we how we're going to
+
+449
+00:18:20,400 --> 00:18:25,039
+build the minimum spanning tree using
+
+450
+00:18:22,640 --> 00:18:27,520
+this uh you know using this queen's
+
+451
+00:18:25,039 --> 00:18:27,520
+algorithm
+
+452
+00:18:27,600 --> 00:18:30,640
+but first of all let me give you a one
+
+453
+00:18:29,200 --> 00:18:33,919
+question what's the difference between
+
+454
+00:18:30,640 --> 00:18:37,679
+prince and crisco
+
+455
+00:18:33,919 --> 00:18:37,679
+they start from different places
+
+456
+00:18:38,559 --> 00:18:41,679
+you
+
+457
+00:18:39,840 --> 00:18:42,400
+what's the difference between couscous
+
+458
+00:18:41,679 --> 00:18:44,160
+and
+
+459
+00:18:42,400 --> 00:18:46,240
+prince
+
+460
+00:18:44,160 --> 00:18:49,039
+what are we doing in the couscous we
+
+461
+00:18:46,240 --> 00:18:51,600
+start adding what we start adding the
+
+462
+00:18:49,039 --> 00:18:51,600
+minimum
+
+463
+00:18:52,720 --> 00:18:56,039
+okay so
+
+464
+00:19:03,200 --> 00:19:06,559
+one
+
+465
+00:19:04,320 --> 00:19:06,559
+two
+
+466
+00:19:07,200 --> 00:19:12,640
+two three
+
+467
+00:19:08,960 --> 00:19:15,360
+four five six seven
+
+468
+00:19:12,640 --> 00:19:15,360
+okay so i'm
+
+469
+00:19:16,640 --> 00:19:21,520
+for the couscous we are picking the
+
+470
+00:19:19,039 --> 00:19:24,320
+smallest edges and add it to the forest
+
+471
+00:19:21,520 --> 00:19:28,000
+right we adding the edges but for the
+
+472
+00:19:24,320 --> 00:19:29,039
+prince prince we're adding the vertex
+
+473
+00:19:28,000 --> 00:19:32,000
+right
+
+474
+00:19:29,039 --> 00:19:32,799
+yeah makes sense
+
+475
+00:19:32,000 --> 00:19:36,080
+so
+
+476
+00:19:32,799 --> 00:19:36,080
+so okay so for now
+
+477
+00:19:37,679 --> 00:19:43,360
+you want to try with the prince again
+
+478
+00:19:41,120 --> 00:19:47,039
+how are we building this
+
+479
+00:19:43,360 --> 00:19:48,799
+that was two pokemon cards
+
+480
+00:19:47,039 --> 00:19:51,960
+you can work together let each one see
+
+481
+00:19:48,799 --> 00:19:51,960
+as well
+
+482
+00:19:52,000 --> 00:19:57,600
+remember what did i tell you about
+
+483
+00:19:54,960 --> 00:20:00,000
+randomly pick one pick one
+
+484
+00:19:57,600 --> 00:20:02,880
+okay so pick up a oh slowly yeah hey and
+
+485
+00:20:00,000 --> 00:20:06,000
+then okay so for me and then we move to
+
+486
+00:20:02,880 --> 00:20:07,440
+the smallest one okay one b okay here
+
+487
+00:20:06,000 --> 00:20:09,440
+okay
+
+488
+00:20:07,440 --> 00:20:10,400
+okay so now now what happened what's
+
+489
+00:20:09,440 --> 00:20:12,000
+next
+
+490
+00:20:10,400 --> 00:20:16,240
+you start from
+
+491
+00:20:12,000 --> 00:20:16,240
+how many edges connected to these
+
+492
+00:20:17,360 --> 00:20:22,400
+okay
+
+493
+00:20:18,840 --> 00:20:24,320
+yeah okay yeah that makes that's okay
+
+494
+00:20:22,400 --> 00:20:28,919
+yes okay and i know how many edges
+
+495
+00:20:24,320 --> 00:20:28,919
+connected to these and then
+
+496
+00:20:43,280 --> 00:20:48,080
+yeah so can you tell me how did you do
+
+497
+00:20:45,280 --> 00:20:50,880
+it come on i just need to explanation
+
+498
+00:20:48,080 --> 00:20:53,840
+because we we just we just looked at
+
+499
+00:20:50,880 --> 00:20:56,159
+people this morning
+
+500
+00:20:53,840 --> 00:20:57,600
+what does it connect to and we cloud it
+
+501
+00:20:56,159 --> 00:21:00,799
+yeah okay
+
+502
+00:20:57,600 --> 00:21:02,559
+okay so look you pick a then
+
+503
+00:21:00,799 --> 00:21:04,480
+how many edges connected
+
+504
+00:21:02,559 --> 00:21:06,480
+to one and three you pick one right yes
+
+505
+00:21:04,480 --> 00:21:08,960
+and now you have a b how many edges
+
+506
+00:21:06,480 --> 00:21:09,760
+connected to a and b
+
+507
+00:21:08,960 --> 00:21:10,880
+uh
+
+508
+00:21:09,760 --> 00:21:13,200
+one
+
+509
+00:21:10,880 --> 00:21:14,400
+how many edges this one this one this
+
+510
+00:21:13,200 --> 00:21:16,080
+one right
+
+511
+00:21:14,400 --> 00:21:18,400
+and i pick the smallest which is two
+
+512
+00:21:16,080 --> 00:21:20,720
+right how many edges connected to one a
+
+513
+00:21:18,400 --> 00:21:20,720
+b c
+
+514
+00:21:23,200 --> 00:21:27,760
+seven four
+
+515
+00:21:25,280 --> 00:21:28,720
+six yeah then i pick four right
+
+516
+00:21:27,760 --> 00:21:31,039
+all right
+
+517
+00:21:28,720 --> 00:21:33,440
+and how many edges
+
+518
+00:21:31,039 --> 00:21:34,720
+how many edges i pick uh
+
+519
+00:21:33,440 --> 00:21:37,760
+connects to
+
+520
+00:21:34,720 --> 00:21:37,760
+a b c d
+
+521
+00:21:38,640 --> 00:21:42,640
+a b c d so look so how how do you do
+
+522
+00:21:41,200 --> 00:21:45,600
+that
+
+523
+00:21:42,640 --> 00:21:46,559
+so how many h is connected to a b c d
+
+524
+00:21:45,600 --> 00:21:49,120
+you just
+
+525
+00:21:46,559 --> 00:21:50,480
+do this how many edges will be easier
+
+526
+00:21:49,120 --> 00:21:53,200
+huh
+
+527
+00:21:50,480 --> 00:21:54,960
+how many edges connected to abcd come on
+
+528
+00:21:53,200 --> 00:21:58,400
+how many edges left
+
+529
+00:21:54,960 --> 00:22:00,000
+one which one is that one two two yeah
+
+530
+00:21:58,400 --> 00:22:01,919
+come on five and six you pick up did you
+
+531
+00:22:00,000 --> 00:22:04,880
+get it yes
+
+532
+00:22:01,919 --> 00:22:07,440
+yeah yes i feel like
+
+533
+00:22:04,880 --> 00:22:09,520
+not quite not quite no no no okay so for
+
+534
+00:22:07,440 --> 00:22:11,840
+example how can i give you one two okay
+
+535
+00:22:09,520 --> 00:22:11,840
+okay
+
+536
+00:22:24,840 --> 00:22:30,240
+together
+
+537
+00:22:26,720 --> 00:22:32,799
+you did you decide we work together
+
+538
+00:22:30,240 --> 00:22:32,799
+you decide
+
+539
+00:22:32,960 --> 00:22:36,480
+okay
+
+540
+00:22:34,400 --> 00:22:38,960
+but you need to tell me exactly not not
+
+541
+00:22:36,480 --> 00:22:39,840
+just write it you need to tell me
+
+542
+00:22:38,960 --> 00:22:41,280
+okay
+
+543
+00:22:39,840 --> 00:22:43,840
+do you understand you need to tell me
+
+544
+00:22:41,280 --> 00:22:46,000
+you're still in the same way
+
+545
+00:22:43,840 --> 00:22:48,159
+yeah same way because i i'm
+
+546
+00:22:46,000 --> 00:22:50,640
+because you might think about you know
+
+547
+00:22:48,159 --> 00:22:54,360
+it's uh
+
+548
+00:22:50,640 --> 00:22:54,360
+it's different right
+
+549
+00:22:54,880 --> 00:22:58,159
+one two three
+
+550
+00:22:57,360 --> 00:22:59,039
+two
+
+551
+00:22:58,159 --> 00:23:00,480
+three
+
+552
+00:22:59,039 --> 00:23:01,360
+three
+
+553
+00:23:00,480 --> 00:23:03,360
+four
+
+554
+00:23:01,360 --> 00:23:05,280
+five
+
+555
+00:23:03,360 --> 00:23:06,559
+and then five
+
+556
+00:23:05,280 --> 00:23:10,159
+one
+
+557
+00:23:06,559 --> 00:23:11,039
+one okay come on that's it
+
+558
+00:23:10,159 --> 00:23:14,159
+okay
+
+559
+00:23:11,039 --> 00:23:16,240
+so first of all so we start with a
+
+560
+00:23:14,159 --> 00:23:18,480
+thumbs up
+
+561
+00:23:16,240 --> 00:23:20,799
+okay
+
+562
+00:23:18,480 --> 00:23:22,960
+yeah yeah yeah no no no you can't do all
+
+563
+00:23:20,799 --> 00:23:24,960
+that ask you need to tell me
+
+564
+00:23:22,960 --> 00:23:27,760
+how did you make the decision because
+
+565
+00:23:24,960 --> 00:23:30,480
+you because you got d because it has two
+
+566
+00:23:27,760 --> 00:23:32,559
+connections um
+
+567
+00:23:30,480 --> 00:23:34,559
+yeah yeah yeah yeah yeah yeah three or
+
+568
+00:23:32,559 --> 00:23:37,440
+two and two is the smallest no no
+
+569
+00:23:34,559 --> 00:23:39,440
+actually you can just mark it here okay
+
+570
+00:23:37,440 --> 00:23:41,840
+so it'll be easier okay that's why
+
+571
+00:23:39,440 --> 00:23:44,640
+you'll choose okay now you have all uh
+
+572
+00:23:41,840 --> 00:23:47,919
+how many vertices you've got
+
+573
+00:23:44,640 --> 00:23:48,880
+and how many vertices you got uh you got
+
+574
+00:23:47,919 --> 00:23:51,919
+one
+
+575
+00:23:48,880 --> 00:23:54,799
+two a and d okay and then what's next um
+
+576
+00:23:51,919 --> 00:23:56,480
+we choose we choose this
+
+577
+00:23:54,799 --> 00:23:59,279
+how many
+
+578
+00:23:56,480 --> 00:24:00,960
+how many because you have one two three
+
+579
+00:23:59,279 --> 00:24:03,620
+oh i haven't put it here
+
+580
+00:24:00,960 --> 00:24:06,240
+so okay so so what
+
+581
+00:24:03,620 --> 00:24:08,799
+[Music]
+
+582
+00:24:06,240 --> 00:24:10,080
+and now three four yeah okay and then we
+
+583
+00:24:08,799 --> 00:24:12,799
+will pick up
+
+584
+00:24:10,080 --> 00:24:14,159
+the smallest smallest yeah
+
+585
+00:24:12,799 --> 00:24:16,159
+okay we're done
+
+586
+00:24:14,159 --> 00:24:18,880
+and we're not definitely not going up so
+
+587
+00:24:16,159 --> 00:24:20,480
+our only choice is down the reason why
+
+588
+00:24:18,880 --> 00:24:22,400
+we're not going up because we don't want
+
+589
+00:24:20,480 --> 00:24:24,080
+cycling
+
+590
+00:24:22,400 --> 00:24:27,120
+okay so what's next what's next how many
+
+591
+00:24:24,080 --> 00:24:29,440
+edges can enter a b is three uh
+
+592
+00:24:27,120 --> 00:24:31,679
+this is this
+
+593
+00:24:29,440 --> 00:24:34,559
+and then g is and then you choose the
+
+594
+00:24:31,679 --> 00:24:36,080
+smallest one one okay maybe i put a four
+
+595
+00:24:34,559 --> 00:24:39,440
+here okay i do
+
+596
+00:24:36,080 --> 00:24:41,440
+okay okay okay and then
+
+597
+00:24:39,440 --> 00:24:43,960
+i'm thinking of way different and then
+
+598
+00:24:41,440 --> 00:24:45,679
+how many edges connects to these
+
+599
+00:24:43,960 --> 00:24:48,320
+please
+
+600
+00:24:45,679 --> 00:24:50,080
+yeah this yeah yeah yeah
+
+601
+00:24:48,320 --> 00:24:52,080
+and then this is
+
+602
+00:24:50,080 --> 00:24:56,880
+definitely the smallest okay okay and
+
+603
+00:24:52,080 --> 00:24:58,480
+then and then this is the yeah yeah
+
+604
+00:24:56,880 --> 00:25:01,039
+yeah and how many edges connected
+
+605
+00:24:58,480 --> 00:25:02,720
+because look you have a b d c there and
+
+606
+00:25:01,039 --> 00:25:05,919
+then you get to pick one of them it's
+
+607
+00:25:02,720 --> 00:25:08,720
+okay because they are all five
+
+608
+00:25:05,919 --> 00:25:08,720
+no no no
+
+609
+00:25:08,799 --> 00:25:11,919
+because this one is already included
+
+610
+00:25:10,559 --> 00:25:15,120
+right
+
+611
+00:25:11,919 --> 00:25:17,600
+don't get in yeah yeah
+
+612
+00:25:15,120 --> 00:25:19,520
+okay so to sum up you have uh these
+
+613
+00:25:17,600 --> 00:25:21,760
+three right because look what what have
+
+614
+00:25:19,520 --> 00:25:23,440
+you done so far is pick an a
+
+615
+00:25:21,760 --> 00:25:28,640
+and then you pick up
+
+616
+00:25:23,440 --> 00:25:30,559
+d you pick a b you pick a g you pick
+
+617
+00:25:28,640 --> 00:25:32,559
+uh e i don't know yeah
+
+618
+00:25:30,559 --> 00:25:35,039
+you start building the vertex
+
+619
+00:25:32,559 --> 00:25:37,760
+right you start building the vertex by
+
+620
+00:25:35,039 --> 00:25:41,440
+choosing the smallest edge
+
+621
+00:25:37,760 --> 00:25:44,440
+okay okay that's it for today good job
+
+622
+00:25:41,440 --> 00:25:44,440
+bye
+
