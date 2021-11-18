@@ -130,6 +130,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Hash Table 哈希表
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Remove Last Duplicate Entries (Hash Table) | 去除数组中最后一个重复数字 (哈希表) | [Youtube](https://youtu.be/oFifQnpeS_I) - [B站](https://www.bilibili.com/video/BV19341187x6/) - [西瓜](https://www.ixigua.com/7032042495571657252) | [Remove Last Duplicate Entries (Hash Table)](https://helloacm.com/teaching-kids-programming-remove-last-duplicate-entries-hash-table/) | 2021-11-18 |
 | Number of Unique Email Addresses | 唯一电子邮件数 | [Youtube](https://youtu.be/97uFGTg-0QU) - [B站](https://www.bilibili.com/video/BV1rQ4y1Q7C7/) | [Number of Unique Email Addresses](https://helloacm.com/teaching-kids-programming-number-of-unique-email-addresses/) | 2021-09-27 |
 | Count Number of Pairs With Absolute Difference K | 绝对差值为K的数组对 | [Youtube](https://youtu.be/ksiDzheXHkQ) - [B站](https://www.bilibili.com/video/BV1Xf4y1c7cA/) | [Count Number of Pairs With Absolute Difference K](https://helloacm.com/teaching-kids-programming-count-number-of-pairs-with-absolute-difference-k/) | 2021-09-19 |
 | Leaderboard Algorithm: Compute the Ranking of Numbers | 数组分数排行榜算法 | [Youtube](https://youtu.be/nWmKee8N_OI) - [B站](https://www.bilibili.com/video/BV1p64y1a7cr/) | [Leaderboard Algorithm: Compute the Ranking of Numbers](https://helloacm.com/teaching-kids-programming-leaderboard-algorithm-compute-the-ranking-of-numbers/) | 2021-09-17 |
