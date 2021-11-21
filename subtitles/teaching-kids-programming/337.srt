@@ -1,0 +1,2028 @@
+1
+00:00:00,320 --> 00:00:06,160
+hello mr mr ryan how are you today
+
+2
+00:00:03,679 --> 00:00:08,720
+good day what's this
+
+3
+00:00:06,160 --> 00:00:10,719
+binary tree
+
+4
+00:00:08,720 --> 00:00:12,240
+what's the test right what's the test of
+
+5
+00:00:10,719 --> 00:00:14,799
+it
+
+6
+00:00:12,240 --> 00:00:16,720
+one two and then one two four
+
+7
+00:00:14,799 --> 00:00:18,160
+that's
+
+8
+00:00:16,720 --> 00:00:21,199
+one
+
+9
+00:00:18,160 --> 00:00:23,680
+two three three three levels three one
+
+10
+00:00:21,199 --> 00:00:25,279
+is the fourth one okay
+
+11
+00:00:23,680 --> 00:00:28,480
+go back away
+
+12
+00:00:25,279 --> 00:00:31,359
+so the binary trees are kind of uh fine
+
+13
+00:00:28,480 --> 00:00:33,680
+and cheese kind of black right and
+
+14
+00:00:31,359 --> 00:00:37,120
+for final three has for each note has
+
+15
+00:00:33,680 --> 00:00:39,680
+all mouse two kids and for each note it
+
+16
+00:00:37,120 --> 00:00:41,600
+has only you have uh one parent and
+
+17
+00:00:39,680 --> 00:00:43,600
+which note does not have parent and we
+
+18
+00:00:41,600 --> 00:00:44,879
+what do we call it
+
+19
+00:00:43,600 --> 00:00:46,800
+uh
+
+20
+00:00:44,879 --> 00:00:48,640
+doesn't have a parent i know the notes
+
+21
+00:00:46,800 --> 00:00:50,719
+which don't have these
+
+22
+00:00:48,640 --> 00:00:53,039
+children we call it leaves leaves or
+
+23
+00:00:50,719 --> 00:00:54,239
+terminal no okay that's easy so
+
+24
+00:00:53,039 --> 00:00:56,160
+previously we talked about these
+
+25
+00:00:54,239 --> 00:00:58,640
+different search purposes to count
+
+26
+00:00:56,160 --> 00:01:00,399
+number two in the depths yeah so do you
+
+27
+00:00:58,640 --> 00:01:01,199
+still remember
+
+28
+00:01:00,399 --> 00:01:01,920
+uh
+
+29
+00:01:01,199 --> 00:01:03,760
+so
+
+30
+00:01:01,920 --> 00:01:07,280
+first of all the final three let's try
+
+31
+00:01:03,760 --> 00:01:09,360
+this final three definition class three
+
+32
+00:01:07,280 --> 00:01:12,479
+class three
+
+33
+00:01:09,360 --> 00:01:14,240
+class three define the constructor
+
+34
+00:01:12,479 --> 00:01:18,000
+you need
+
+35
+00:01:14,240 --> 00:01:20,320
+so we will have what we have value
+
+36
+00:01:18,000 --> 00:01:22,159
+and we will have a left
+
+37
+00:01:20,320 --> 00:01:23,920
+equals num
+
+38
+00:01:22,159 --> 00:01:26,880
+and right
+
+39
+00:01:23,920 --> 00:01:29,840
+equals num right so this is basic
+
+40
+00:01:26,880 --> 00:01:33,040
+definition of binary three three node
+
+41
+00:01:29,840 --> 00:01:36,479
+okay and then say we can say self.value
+
+42
+00:01:33,040 --> 00:01:38,640
+equals value so look this value here
+
+43
+00:01:36,479 --> 00:01:41,119
+and self top
+
+44
+00:01:38,640 --> 00:01:43,439
+left left note where he points to here
+
+45
+00:01:41,119 --> 00:01:45,200
+he points to the left and he points to
+
+46
+00:01:43,439 --> 00:01:46,640
+the right right
+
+47
+00:01:45,200 --> 00:01:49,360
+and he could be numb at the beginning if
+
+48
+00:01:46,640 --> 00:01:51,520
+we knock and so parents to left
+
+49
+00:01:49,360 --> 00:01:53,360
+and then self
+
+50
+00:01:51,520 --> 00:01:55,600
+downright
+
+51
+00:01:53,360 --> 00:01:58,000
+equals right
+
+52
+00:01:55,600 --> 00:01:59,439
+and then let's do this this is this okay
+
+53
+00:01:58,000 --> 00:02:01,680
+so this is the
+
+54
+00:01:59,439 --> 00:02:02,799
+object that's the class three object
+
+55
+00:02:01,680 --> 00:02:04,799
+oriented programming we talked about
+
+56
+00:02:02,799 --> 00:02:06,240
+that yeah it has three properties value
+
+57
+00:02:04,799 --> 00:02:08,319
+left and right
+
+58
+00:02:06,240 --> 00:02:10,720
+so with this definition we can easily do
+
+59
+00:02:08,319 --> 00:02:12,879
+this different search easier so define
+
+60
+00:02:10,720 --> 00:02:15,200
+we want to get a depth
+
+61
+00:02:12,879 --> 00:02:16,239
+next steps yeah that's root with the
+
+62
+00:02:15,200 --> 00:02:20,319
+load
+
+63
+00:02:16,239 --> 00:02:24,720
+okay so if not root will return zero
+
+64
+00:02:20,319 --> 00:02:27,599
+for empty node it has the zero
+
+65
+00:02:24,720 --> 00:02:30,560
+very easy and now we just need to return
+
+66
+00:02:27,599 --> 00:02:32,720
+the maximum of our
+
+67
+00:02:30,560 --> 00:02:35,680
+depth
+
+68
+00:02:32,720 --> 00:02:40,000
+to the right to the left
+
+69
+00:02:35,680 --> 00:02:42,080
+and because we do the left and that's
+
+70
+00:02:40,000 --> 00:02:44,480
+wha
+
+71
+00:02:42,080 --> 00:02:46,480
+right right easy
+
+72
+00:02:44,480 --> 00:02:48,160
+look at the trees the noodle name to the
+
+73
+00:02:46,480 --> 00:02:49,680
+right plus one right because look if you
+
+74
+00:02:48,160 --> 00:02:52,080
+have a tree
+
+75
+00:02:49,680 --> 00:02:54,400
+if you know this tree the left you know
+
+76
+00:02:52,080 --> 00:02:56,560
+it's for example like three and you plus
+
+77
+00:02:54,400 --> 00:02:59,040
+one that's the depth and then if there
+
+78
+00:02:56,560 --> 00:02:59,920
+is right if this is four plus one is
+
+79
+00:02:59,040 --> 00:03:01,599
+five
+
+80
+00:02:59,920 --> 00:03:03,360
+so we are recursive we call this
+
+81
+00:03:01,599 --> 00:03:05,920
+recursive recursion and this is the same
+
+82
+00:03:03,360 --> 00:03:08,080
+function recursion to call to solve this
+
+83
+00:03:05,920 --> 00:03:09,680
+problem with the smaller size okay look
+
+84
+00:03:08,080 --> 00:03:11,840
+the left and then plus one because we
+
+85
+00:03:09,680 --> 00:03:13,040
+have to transfer the newton number makes
+
+86
+00:03:11,840 --> 00:03:16,400
+sense
+
+87
+00:03:13,040 --> 00:03:17,920
+i'm all we can do use the process search
+
+88
+00:03:16,400 --> 00:03:19,519
+you have to push the note up to a
+
+89
+00:03:17,920 --> 00:03:21,440
+visitor now what's the perfect search of
+
+90
+00:03:19,519 --> 00:03:23,599
+these orders one two three four
+
+91
+00:03:21,440 --> 00:03:26,400
+five yeah level by level and we use the
+
+92
+00:03:23,599 --> 00:03:28,959
+queue right we still double ndq remember
+
+93
+00:03:26,400 --> 00:03:31,120
+we use this this is a pen
+
+94
+00:03:28,959 --> 00:03:32,799
+we append the loot first
+
+95
+00:03:31,120 --> 00:03:35,519
+and then we take the no every time we
+
+96
+00:03:32,799 --> 00:03:36,319
+take it out we push its kick back to the
+
+97
+00:03:35,519 --> 00:03:38,000
+queue
+
+98
+00:03:36,319 --> 00:03:40,799
+right and for each node we have to
+
+99
+00:03:38,000 --> 00:03:43,200
+append we we can take everything out of
+
+100
+00:03:40,799 --> 00:03:45,599
+the queue and then append their children
+
+101
+00:03:43,200 --> 00:03:47,599
+so in this case we guarantee we can
+
+102
+00:03:45,599 --> 00:03:49,920
+guarantee that all the notes in the
+
+103
+00:03:47,599 --> 00:03:51,599
+queue belongs to the same level for
+
+104
+00:03:49,920 --> 00:03:54,640
+example like look
+
+105
+00:03:51,599 --> 00:03:56,879
+okay this one yeah
+
+106
+00:03:54,640 --> 00:03:59,040
+first of all i put the one up in right
+
+107
+00:03:56,879 --> 00:04:01,280
+that's the initial route i take it out
+
+108
+00:03:59,040 --> 00:04:02,319
+take everything in the queue off i push
+
+109
+00:04:01,280 --> 00:04:04,640
+the kids
+
+110
+00:04:02,319 --> 00:04:06,799
+which is two and three because two and
+
+111
+00:04:04,640 --> 00:04:08,959
+three are being on the same level yeah
+
+112
+00:04:06,799 --> 00:04:11,439
+or i can take then like 10 everything
+
+113
+00:04:08,959 --> 00:04:13,280
+out two three and push its kids five six
+
+114
+00:04:11,439 --> 00:04:15,760
+four five yeah
+
+115
+00:04:13,280 --> 00:04:17,199
+five six four five so look
+
+116
+00:04:15,760 --> 00:04:19,519
+at the same time
+
+117
+00:04:17,199 --> 00:04:22,400
+at any time the key the notes in the
+
+118
+00:04:19,519 --> 00:04:23,360
+queue belongs to the same level right
+
+119
+00:04:22,400 --> 00:04:25,759
+all right
+
+120
+00:04:23,360 --> 00:04:27,440
+so in this case we can have a single
+
+121
+00:04:25,759 --> 00:04:29,520
+variable to increment the depth where
+
+122
+00:04:27,440 --> 00:04:31,600
+every time we take everything out of a
+
+123
+00:04:29,520 --> 00:04:33,040
+queue we have a variable
+
+124
+00:04:31,600 --> 00:04:35,120
+alternatively
+
+125
+00:04:33,040 --> 00:04:37,360
+when we push the node into a queue we
+
+126
+00:04:35,120 --> 00:04:40,320
+can also remember the depth at a time
+
+127
+00:04:37,360 --> 00:04:42,720
+for example if instead we put a one atop
+
+128
+00:04:40,320 --> 00:04:44,320
+one and zero right
+
+129
+00:04:42,720 --> 00:04:47,199
+and now we take it off
+
+130
+00:04:44,320 --> 00:04:48,880
+we put the kit two and three but two
+
+131
+00:04:47,199 --> 00:04:51,680
+with the one
+
+132
+00:04:48,880 --> 00:04:53,440
+and the level zero plus one is two one
+
+133
+00:04:51,680 --> 00:04:54,880
+and then three one right so we have a
+
+134
+00:04:53,440 --> 00:04:57,120
+topper the second
+
+135
+00:04:54,880 --> 00:05:00,080
+second value in the tuple is the level
+
+136
+00:04:57,120 --> 00:05:01,680
+the first value is the note
+
+137
+00:05:00,080 --> 00:05:02,800
+right okay so let's see the little
+
+138
+00:05:01,680 --> 00:05:04,000
+review we have talked about this
+
+139
+00:05:02,800 --> 00:05:06,080
+previously
+
+140
+00:05:04,000 --> 00:05:08,960
+so today's task
+
+141
+00:05:06,080 --> 00:05:10,639
+we talked about these
+
+142
+00:05:08,960 --> 00:05:13,520
+similar but we are not talking about
+
+143
+00:05:10,639 --> 00:05:16,320
+binary tree we're talking about energy
+
+144
+00:05:13,520 --> 00:05:20,400
+so what's energy is that it has more
+
+145
+00:05:16,320 --> 00:05:22,160
+than two um two kids easy yeah
+
+146
+00:05:20,400 --> 00:05:23,680
+one it could be
+
+147
+00:05:22,160 --> 00:05:24,960
+two three
+
+148
+00:05:23,680 --> 00:05:26,639
+four
+
+149
+00:05:24,960 --> 00:05:28,160
+five right something like that and then
+
+150
+00:05:26,639 --> 00:05:29,039
+it could be
+
+151
+00:05:28,160 --> 00:05:31,680
+six
+
+152
+00:05:29,039 --> 00:05:33,520
+seven yeah up to
+
+153
+00:05:31,680 --> 00:05:35,280
+maximum you know it doesn't have to be
+
+154
+00:05:33,520 --> 00:05:37,280
+there's no fixed number it could be a
+
+155
+00:05:35,280 --> 00:05:38,400
+list of the children so let's define
+
+156
+00:05:37,280 --> 00:05:41,600
+this first
+
+157
+00:05:38,400 --> 00:05:43,360
+class 3 this is the same
+
+158
+00:05:41,600 --> 00:05:46,400
+and then define
+
+159
+00:05:43,360 --> 00:05:48,720
+init this is the reserved
+
+160
+00:05:46,400 --> 00:05:50,800
+constructor function means that whenever
+
+161
+00:05:48,720 --> 00:05:52,880
+we create a tree now this function will
+
+162
+00:05:50,800 --> 00:05:54,560
+be called constructor we call it
+
+163
+00:05:52,880 --> 00:05:55,680
+initializer okay
+
+164
+00:05:54,560 --> 00:05:57,600
+you need
+
+165
+00:05:55,680 --> 00:05:59,600
+some self
+
+166
+00:05:57,600 --> 00:06:01,120
+and then we have a value of course and
+
+167
+00:05:59,600 --> 00:06:03,120
+then we have a children we just have a
+
+168
+00:06:01,120 --> 00:06:04,240
+children
+
+169
+00:06:03,120 --> 00:06:05,759
+okay
+
+170
+00:06:04,240 --> 00:06:08,400
+at the beginning is the list of nothing
+
+171
+00:06:05,759 --> 00:06:11,840
+okay or you can put it now let's at
+
+172
+00:06:08,400 --> 00:06:14,240
+least this is the list of notes the list
+
+173
+00:06:11,840 --> 00:06:16,400
+of trees three notes okay three notes
+
+174
+00:06:14,240 --> 00:06:18,840
+for example trinomial
+
+175
+00:06:16,400 --> 00:06:22,080
+and now this is the same yeah
+
+176
+00:06:18,840 --> 00:06:25,680
+value equals value
+
+177
+00:06:22,080 --> 00:06:25,680
+theft of children
+
+178
+00:06:25,759 --> 00:06:30,000
+equals children okay
+
+179
+00:06:27,520 --> 00:06:33,440
+this is the template template for
+
+180
+00:06:30,000 --> 00:06:34,880
+for us to create a tree with the energy
+
+181
+00:06:33,440 --> 00:06:37,600
+and
+
+182
+00:06:34,880 --> 00:06:38,479
+not retrieve okay and language
+
+183
+00:06:37,600 --> 00:06:40,400
+so
+
+184
+00:06:38,479 --> 00:06:42,479
+simple we want to look at the maximum
+
+185
+00:06:40,400 --> 00:06:44,960
+depth
+
+186
+00:06:42,479 --> 00:06:46,160
+yeah so what's your approach
+
+187
+00:06:44,960 --> 00:06:48,880
+come on
+
+188
+00:06:46,160 --> 00:06:50,800
+is it the same as the financing
+
+189
+00:06:48,880 --> 00:06:51,680
+can we apply the same agreement to in
+
+190
+00:06:50,800 --> 00:06:53,520
+english
+
+191
+00:06:51,680 --> 00:06:56,479
+yeah of course that's a search professor
+
+192
+00:06:53,520 --> 00:06:58,479
+right easy but instead of left and right
+
+193
+00:06:56,479 --> 00:06:59,919
+we need to visit these this is the list
+
+194
+00:06:58,479 --> 00:07:01,280
+of children we just have to go through
+
+195
+00:06:59,919 --> 00:07:02,800
+the list of children
+
+196
+00:07:01,280 --> 00:07:05,520
+let me let me write it okay it should be
+
+197
+00:07:02,800 --> 00:07:06,639
+very very easy
+
+198
+00:07:05,520 --> 00:07:08,960
+and then then
+
+199
+00:07:06,639 --> 00:07:10,880
+uh for search preferences let's try with
+
+200
+00:07:08,960 --> 00:07:12,639
+the difference first okay
+
+201
+00:07:10,880 --> 00:07:14,560
+try with the temperature with the type
+
+202
+00:07:12,639 --> 00:07:16,560
+of search usually we implement within
+
+203
+00:07:14,560 --> 00:07:18,400
+our location right so it's very
+
+204
+00:07:16,560 --> 00:07:20,240
+recursion we don't have to worry about
+
+205
+00:07:18,400 --> 00:07:22,160
+uh maintaining the stack
+
+206
+00:07:20,240 --> 00:07:24,000
+because the computer just maintained the
+
+207
+00:07:22,160 --> 00:07:26,479
+stack for us and we can just with the
+
+208
+00:07:24,000 --> 00:07:27,599
+recursion it's easier for us to
+
+209
+00:07:26,479 --> 00:07:29,199
+uh
+
+210
+00:07:27,599 --> 00:07:32,240
+to implement it
+
+211
+00:07:29,199 --> 00:07:34,560
+it's usually almost intuitive way right
+
+212
+00:07:32,240 --> 00:07:35,360
+because we just call okay we want to get
+
+213
+00:07:34,560 --> 00:07:37,599
+the
+
+214
+00:07:35,360 --> 00:07:39,759
+depth of the left for example like
+
+215
+00:07:37,599 --> 00:07:41,199
+parachute left left
+
+216
+00:07:39,759 --> 00:07:43,680
+left substrate and then we're going to
+
+217
+00:07:41,199 --> 00:07:45,440
+get the depth of the right substrate and
+
+218
+00:07:43,680 --> 00:07:48,240
+we can just recursively call it because
+
+219
+00:07:45,440 --> 00:07:49,759
+it's already defined right
+
+220
+00:07:48,240 --> 00:07:51,840
+define
+
+221
+00:07:49,759 --> 00:07:53,840
+depth
+
+222
+00:07:51,840 --> 00:07:55,360
+and then this is the loop okay
+
+223
+00:07:53,840 --> 00:07:56,879
+so at the beginning it's the same we
+
+224
+00:07:55,360 --> 00:08:00,319
+want to check if it's empty right if
+
+225
+00:07:56,879 --> 00:08:00,319
+it's empty we'll return what
+
+226
+00:08:00,960 --> 00:08:05,360
+nothing okay you should not do it or if
+
+227
+00:08:03,440 --> 00:08:06,800
+you lose it's not okay
+
+228
+00:08:05,360 --> 00:08:08,800
+yeah look if
+
+229
+00:08:06,800 --> 00:08:10,879
+this if root is numb
+
+230
+00:08:08,800 --> 00:08:12,800
+or if not or
+
+231
+00:08:10,879 --> 00:08:15,280
+not no it's the same thing okay
+
+232
+00:08:12,800 --> 00:08:16,720
+return return zero yeah
+
+233
+00:08:15,280 --> 00:08:18,560
+within zero because we don't get the
+
+234
+00:08:16,720 --> 00:08:19,919
+depth yeah and now we have we want to
+
+235
+00:08:18,560 --> 00:08:21,840
+verif
+
+236
+00:08:19,919 --> 00:08:24,000
+kid is children right
+
+237
+00:08:21,840 --> 00:08:26,639
+yeah this children has a list of this is
+
+238
+00:08:24,000 --> 00:08:28,479
+the list of notes yeah list of notes
+
+239
+00:08:26,639 --> 00:08:30,080
+it's the list of three notes yeah three
+
+240
+00:08:28,479 --> 00:08:33,120
+three notes
+
+241
+00:08:30,080 --> 00:08:36,479
+this is the type of list of trainer
+
+242
+00:08:33,120 --> 00:08:38,479
+so answer equals zero now we just need
+
+243
+00:08:36,479 --> 00:08:41,039
+to go through for kids
+
+244
+00:08:38,479 --> 00:08:41,039
+and then for
+
+245
+00:08:53,200 --> 00:08:56,480
+and then we have we want to now what's
+
+246
+00:08:54,800 --> 00:08:57,839
+next we have a kit and then we want to
+
+247
+00:08:56,480 --> 00:08:59,680
+do what we don't call this function
+
+248
+00:08:57,839 --> 00:09:03,600
+because we need to get the test yeah all
+
+249
+00:08:59,680 --> 00:09:03,600
+right what's the death of a kid
+
+250
+00:09:05,600 --> 00:09:09,519
+that's kid yeah so now we want to
+
+251
+00:09:07,279 --> 00:09:11,519
+compare it that's the answer
+
+252
+00:09:09,519 --> 00:09:13,519
+equals next
+
+253
+00:09:11,519 --> 00:09:14,880
+answer
+
+254
+00:09:13,519 --> 00:09:17,440
+steps
+
+255
+00:09:14,880 --> 00:09:20,240
+kid yeah easy yeah
+
+256
+00:09:17,440 --> 00:09:22,000
+and then we tell what
+
+257
+00:09:20,240 --> 00:09:23,279
+answer
+
+258
+00:09:22,000 --> 00:09:24,480
+plus one
+
+259
+00:09:23,279 --> 00:09:27,360
+equals
+
+260
+00:09:24,480 --> 00:09:30,080
+answer plus one plus written answer look
+
+261
+00:09:27,360 --> 00:09:32,000
+we have we have a note yeah this is a
+
+262
+00:09:30,080 --> 00:09:33,440
+few notes this is the kid yeah this is a
+
+263
+00:09:32,000 --> 00:09:35,360
+kid
+
+264
+00:09:33,440 --> 00:09:37,920
+no doubt kid a lot of children list of
+
+265
+00:09:35,360 --> 00:09:39,680
+kids and i will get the notes
+
+266
+00:09:37,920 --> 00:09:40,640
+yeah plus one because we have to add
+
+267
+00:09:39,680 --> 00:09:42,720
+these
+
+268
+00:09:40,640 --> 00:09:44,320
+got it yeah make sense ryan you're with
+
+269
+00:09:42,720 --> 00:09:46,399
+me
+
+270
+00:09:44,320 --> 00:09:49,040
+okay so
+
+271
+00:09:46,399 --> 00:09:51,360
+this we can turn this into one nine yeah
+
+272
+00:09:49,040 --> 00:09:54,080
+into into one line let's just say
+
+273
+00:09:51,360 --> 00:09:56,640
+we're gonna say one oh yeah
+
+274
+00:09:54,080 --> 00:09:56,640
+return
+
+275
+00:09:56,720 --> 00:10:01,519
+okay this is one we can determine max we
+
+276
+00:09:58,959 --> 00:10:04,079
+can use this maximum here okay okay
+
+277
+00:10:01,519 --> 00:10:04,079
+next one
+
+278
+00:10:15,200 --> 00:10:19,519
+and then we need to give it a default
+
+279
+00:10:17,120 --> 00:10:22,399
+default let's parameter default zero
+
+280
+00:10:19,519 --> 00:10:23,839
+yeah why is it why we need to put it
+
+281
+00:10:22,399 --> 00:10:25,680
+before like that
+
+282
+00:10:23,839 --> 00:10:28,480
+and then plus one right this is the same
+
+283
+00:10:25,680 --> 00:10:31,800
+thing max function look what's next one
+
+284
+00:10:28,480 --> 00:10:35,680
+here this is the python inbuilt function
+
+285
+00:10:31,800 --> 00:10:35,680
+max123 what's the value
+
+286
+00:10:37,120 --> 00:10:41,040
+sorry yeah easy yeah and if you give a
+
+287
+00:10:39,440 --> 00:10:42,000
+max nothing
+
+288
+00:10:41,040 --> 00:10:43,600
+your
+
+289
+00:10:42,000 --> 00:10:45,040
+your complaint your screen the computer
+
+290
+00:10:43,600 --> 00:10:47,200
+will screen
+
+291
+00:10:45,040 --> 00:10:48,959
+so if you give that nothing at this time
+
+292
+00:10:47,200 --> 00:10:51,680
+nothing your skin you will say okay this
+
+293
+00:10:48,959 --> 00:10:54,160
+is not what i want but you can put the
+
+294
+00:10:51,680 --> 00:10:55,519
+second parameter default
+
+295
+00:10:54,160 --> 00:10:58,160
+equals zero
+
+296
+00:10:55,519 --> 00:11:01,200
+then this is okay right because look if
+
+297
+00:10:58,160 --> 00:11:03,200
+this is now if the evil children look if
+
+298
+00:11:01,200 --> 00:11:04,399
+load of children is numb terminal no the
+
+299
+00:11:03,200 --> 00:11:06,240
+leaf node
+
+300
+00:11:04,399 --> 00:11:08,240
+i need return zero here if you don't
+
+301
+00:11:06,240 --> 00:11:09,920
+give a return before zero
+
+302
+00:11:08,240 --> 00:11:11,040
+the computer says okay i don't know what
+
+303
+00:11:09,920 --> 00:11:13,519
+to do
+
+304
+00:11:11,040 --> 00:11:16,800
+makes sense because you asking me you're
+
+305
+00:11:13,519 --> 00:11:18,000
+asking me to get compute the maximum
+
+306
+00:11:16,800 --> 00:11:19,839
+of nothing
+
+307
+00:11:18,000 --> 00:11:22,399
+what's maximum if you compute the
+
+308
+00:11:19,839 --> 00:11:24,959
+maximum it has to compare right one what
+
+309
+00:11:22,399 --> 00:11:26,880
+number what's the maximum one one what's
+
+310
+00:11:24,959 --> 00:11:29,200
+the maximum one two two what's the
+
+311
+00:11:26,880 --> 00:11:30,880
+maximum of nothing i don't know but you
+
+312
+00:11:29,200 --> 00:11:33,040
+need to tell me
+
+313
+00:11:30,880 --> 00:11:34,959
+it's nothing
+
+314
+00:11:33,040 --> 00:11:37,440
+you have to say before equals zero okay
+
+315
+00:11:34,959 --> 00:11:38,959
+so let's case and then plus one we have
+
+316
+00:11:37,440 --> 00:11:40,640
+to press one okay so let's start test
+
+317
+00:11:38,959 --> 00:11:43,200
+research easier
+
+318
+00:11:40,640 --> 00:11:45,040
+okay let's talk about question search
+
+319
+00:11:43,200 --> 00:11:46,480
+a little bit
+
+320
+00:11:45,040 --> 00:11:50,320
+for the preferred search we can keep
+
+321
+00:11:46,480 --> 00:11:50,320
+these yeah obviously right right
+
+322
+00:11:55,200 --> 00:11:59,760
+so question search we use the q
+
+323
+00:11:57,519 --> 00:12:02,560
+obviously yeah with the q double n d
+
+324
+00:11:59,760 --> 00:12:04,639
+cube q equals p q
+
+325
+00:12:02,560 --> 00:12:07,200
+so at the beginning we want to push what
+
+326
+00:12:04,639 --> 00:12:08,880
+into the queue
+
+327
+00:12:07,200 --> 00:12:11,839
+we're going to push the word in a queue
+
+328
+00:12:08,880 --> 00:12:11,839
+children
+
+329
+00:12:13,360 --> 00:12:17,279
+to implement a perfect search at the
+
+330
+00:12:15,279 --> 00:12:19,519
+beginning we need to put something here
+
+331
+00:12:17,279 --> 00:12:21,200
+we need to put something into the queue
+
+332
+00:12:19,519 --> 00:12:22,880
+right node
+
+333
+00:12:21,200 --> 00:12:24,800
+i literally third
+
+334
+00:12:22,880 --> 00:12:26,720
+okay you said chosen i didn't hear it
+
+335
+00:12:24,800 --> 00:12:29,360
+okay
+
+336
+00:12:26,720 --> 00:12:30,639
+okay you have to be more confident
+
+337
+00:12:29,360 --> 00:12:31,920
+loot
+
+338
+00:12:30,639 --> 00:12:33,839
+so at the beginning
+
+339
+00:12:31,920 --> 00:12:35,279
+if we put a single loop right then every
+
+340
+00:12:33,839 --> 00:12:36,800
+time we need to take everything out of
+
+341
+00:12:35,279 --> 00:12:37,680
+the road okay
+
+342
+00:12:36,800 --> 00:12:38,959
+okay
+
+343
+00:12:37,680 --> 00:12:40,959
+so now
+
+344
+00:12:38,959 --> 00:12:43,360
+we have this answer at the beginning is
+
+345
+00:12:40,959 --> 00:12:44,880
+zero and then while
+
+346
+00:12:43,360 --> 00:12:46,880
+why are q
+
+347
+00:12:44,880 --> 00:12:49,040
+now what we need to do every time we
+
+348
+00:12:46,880 --> 00:12:51,920
+take a note out of q we need to
+
+349
+00:12:49,040 --> 00:12:54,000
+increment the answer the level right
+
+350
+00:12:51,920 --> 00:12:54,880
+make sense look
+
+351
+00:12:54,000 --> 00:12:56,160
+one
+
+352
+00:12:54,880 --> 00:12:57,120
+two
+
+353
+00:12:56,160 --> 00:12:58,959
+three
+
+354
+00:12:57,120 --> 00:12:59,839
+four
+
+355
+00:12:58,959 --> 00:13:01,760
+five
+
+356
+00:12:59,839 --> 00:13:04,480
+six what's the perfect search order of
+
+357
+00:13:01,760 --> 00:13:06,720
+these come on that's easy right
+
+358
+00:13:04,480 --> 00:13:08,399
+easy but how do we immunize it this is a
+
+359
+00:13:06,720 --> 00:13:09,600
+queue at the beginning we put a one here
+
+360
+00:13:08,399 --> 00:13:12,000
+right
+
+361
+00:13:09,600 --> 00:13:13,519
+one here the level the answer will be
+
+362
+00:13:12,000 --> 00:13:15,680
+zero and then here
+
+363
+00:13:13,519 --> 00:13:18,320
+okay answer will be zero now we take it
+
+364
+00:13:15,680 --> 00:13:20,320
+out we take everything off
+
+365
+00:13:18,320 --> 00:13:21,360
+take everything now we increment it to
+
+366
+00:13:20,320 --> 00:13:23,760
+one
+
+367
+00:13:21,360 --> 00:13:26,160
+i will push its key the kit of one is
+
+368
+00:13:23,760 --> 00:13:28,639
+two three four we push it in
+
+369
+00:13:26,160 --> 00:13:30,240
+okay and now every time we take it out
+
+370
+00:13:28,639 --> 00:13:32,320
+look we take two three four hour
+
+371
+00:13:30,240 --> 00:13:34,959
+everything in the key out
+
+372
+00:13:32,320 --> 00:13:37,440
+we need to increment the answer
+
+373
+00:13:34,959 --> 00:13:39,920
+what's the what's the kit what's the
+
+374
+00:13:37,440 --> 00:13:42,399
+children of two three and four
+
+375
+00:13:39,920 --> 00:13:44,000
+five six five six because these two does
+
+376
+00:13:42,399 --> 00:13:45,279
+not have to get i know we take this five
+
+377
+00:13:44,000 --> 00:13:46,800
+six
+
+378
+00:13:45,279 --> 00:13:50,000
+yeah and then we take everything out and
+
+379
+00:13:46,800 --> 00:13:52,800
+push it it has nothing okay so
+
+380
+00:13:50,000 --> 00:13:55,199
+science is three so that's it so why q
+
+381
+00:13:52,800 --> 00:13:56,720
+then answer plus equal one yeah as i
+
+382
+00:13:55,199 --> 00:13:58,320
+just said and i need to take everything
+
+383
+00:13:56,720 --> 00:14:01,360
+out so how many kids are there in the
+
+384
+00:13:58,320 --> 00:14:03,920
+queue which is length q right
+
+385
+00:14:01,360 --> 00:14:06,560
+and i have just to say four
+
+386
+00:14:03,920 --> 00:14:09,680
+in range and
+
+387
+00:14:06,560 --> 00:14:12,880
+i take it out current equals
+
+388
+00:14:09,680 --> 00:14:14,800
+q dot pop pop one for popular flow for
+
+389
+00:14:12,880 --> 00:14:17,040
+life
+
+390
+00:14:14,800 --> 00:14:19,440
+both left yes problem we want to take it
+
+391
+00:14:17,040 --> 00:14:22,399
+out from the left side right
+
+392
+00:14:19,440 --> 00:14:24,800
+there is no pop right down it's pop okay
+
+393
+00:14:22,399 --> 00:14:27,120
+pop is popped right top left is popular
+
+394
+00:14:24,800 --> 00:14:28,880
+okay okay
+
+395
+00:14:27,120 --> 00:14:30,240
+i will take it out right we take it out
+
+396
+00:14:28,880 --> 00:14:33,600
+then what do we need to do we need to
+
+397
+00:14:30,240 --> 00:14:38,240
+push it to kids yeah for kids
+
+398
+00:14:33,600 --> 00:14:38,240
+indoor dog children do the children
+
+399
+00:14:39,120 --> 00:14:43,040
+do the children and then we just killed
+
+400
+00:14:41,440 --> 00:14:45,680
+a pen
+
+401
+00:14:43,040 --> 00:14:47,839
+apparently that's it you know
+
+402
+00:14:45,680 --> 00:14:50,000
+you notice that the the breakfast search
+
+403
+00:14:47,839 --> 00:14:52,240
+and definition for the tree
+
+404
+00:14:50,000 --> 00:14:54,000
+is much easier than the graph we
+
+405
+00:14:52,240 --> 00:14:56,480
+remember a few days ago we talked about
+
+406
+00:14:54,000 --> 00:14:57,839
+the definition of professor jibber graph
+
+407
+00:14:56,480 --> 00:15:00,720
+right because the graph is
+
+408
+00:14:57,839 --> 00:15:03,760
+bi-directional so look if you
+
+409
+00:15:00,720 --> 00:15:06,160
+if you add travel from one to two
+
+410
+00:15:03,760 --> 00:15:08,320
+the binary tree you can't go back right
+
+411
+00:15:06,160 --> 00:15:10,399
+or the trees you there is no way for you
+
+412
+00:15:08,320 --> 00:15:13,600
+to go back but for the graph
+
+413
+00:15:10,399 --> 00:15:16,320
+if this if this is the identity graph
+
+414
+00:15:13,600 --> 00:15:18,079
+then if you visit what you visit from
+
+415
+00:15:16,320 --> 00:15:19,839
+one to two
+
+416
+00:15:18,079 --> 00:15:21,120
+and the next time you may travel back
+
+417
+00:15:19,839 --> 00:15:23,279
+and there will be cycle that's why we
+
+418
+00:15:21,120 --> 00:15:25,760
+need to use the hash set to remember the
+
+419
+00:15:23,279 --> 00:15:28,000
+nodes right the vertex so we don't visit
+
+420
+00:15:25,760 --> 00:15:30,480
+it again but for the
+
+421
+00:15:28,000 --> 00:15:32,800
+for the trees it's easier we don't we
+
+422
+00:15:30,480 --> 00:15:34,800
+don't need to define such thing right
+
+423
+00:15:32,800 --> 00:15:36,639
+well we can just go to follow the
+
+424
+00:15:34,800 --> 00:15:38,720
+children and they will go through
+
+425
+00:15:36,639 --> 00:15:40,959
+go from the root to the kids until it
+
+426
+00:15:38,720 --> 00:15:41,839
+hits the terminal node which that is
+
+427
+00:15:40,959 --> 00:15:43,519
+enough
+
+428
+00:15:41,839 --> 00:15:46,079
+and i will just return answer yeah we
+
+429
+00:15:43,519 --> 00:15:49,519
+can answer
+
+430
+00:15:46,079 --> 00:15:51,199
+levy so i was also talking about there's
+
+431
+00:15:49,519 --> 00:15:53,360
+another way of writing this question
+
+432
+00:15:51,199 --> 00:15:56,160
+search which is to append a
+
+433
+00:15:53,360 --> 00:15:57,040
+note and its level at the time right at
+
+434
+00:15:56,160 --> 00:15:59,360
+the time
+
+435
+00:15:57,040 --> 00:16:01,680
+so instead of instead of pushing the
+
+436
+00:15:59,360 --> 00:16:03,600
+single loop i push the tuple
+
+437
+00:16:01,680 --> 00:16:06,240
+i push the tempo so which is at the
+
+438
+00:16:03,600 --> 00:16:07,199
+beginner loop is one okay
+
+439
+00:16:06,240 --> 00:16:08,720
+yeah
+
+440
+00:16:07,199 --> 00:16:11,199
+so now i don't have i don't need to
+
+441
+00:16:08,720 --> 00:16:15,279
+write this answer right i don't need to
+
+442
+00:16:11,199 --> 00:16:15,279
+uh actually answer is zero let's say
+
+443
+00:16:17,279 --> 00:16:20,079
+answer input
+
+444
+00:16:26,959 --> 00:16:31,600
+so instead of taking n notes at the time
+
+445
+00:16:29,040 --> 00:16:34,160
+i take one note i always take one note
+
+446
+00:16:31,600 --> 00:16:37,120
+yeah i take one note
+
+447
+00:16:34,160 --> 00:16:39,600
+so i said carbon equal current and the
+
+448
+00:16:37,120 --> 00:16:43,519
+depth t equals
+
+449
+00:16:39,600 --> 00:16:45,839
+uh q dot uh poplar
+
+450
+00:16:43,519 --> 00:16:49,680
+right and i have these steps then i can
+
+451
+00:16:45,839 --> 00:16:52,000
+say answer equals max answer
+
+452
+00:16:49,680 --> 00:16:54,800
+answer b right and then
+
+453
+00:16:52,000 --> 00:16:58,480
+i don't need to i just need to oh yeah i
+
+454
+00:16:54,800 --> 00:17:00,160
+just need to do this for kid in
+
+455
+00:16:58,480 --> 00:17:02,240
+uh
+
+456
+00:17:00,160 --> 00:17:04,559
+okay so previously this is not good okay
+
+457
+00:17:02,240 --> 00:17:05,760
+this is carbon okay
+
+458
+00:17:04,559 --> 00:17:08,240
+yeah
+
+459
+00:17:05,760 --> 00:17:10,480
+for kids in current or children okay
+
+460
+00:17:08,240 --> 00:17:12,079
+previously the one is current there are
+
+461
+00:17:10,480 --> 00:17:14,640
+vietnamese i i
+
+462
+00:17:12,079 --> 00:17:17,839
+put a mistake there for kids in current
+
+463
+00:17:14,640 --> 00:17:19,679
+children and i killed a 10 kid
+
+464
+00:17:17,839 --> 00:17:21,439
+that's a topper and i put a second
+
+465
+00:17:19,679 --> 00:17:24,319
+variable which is the
+
+466
+00:17:21,439 --> 00:17:25,520
+uh what d plus one right
+
+467
+00:17:24,319 --> 00:17:28,319
+because the
+
+468
+00:17:25,520 --> 00:17:31,200
+current depth is d and then i push it to
+
+469
+00:17:28,319 --> 00:17:33,440
+kit the level with d plus one make sense
+
+470
+00:17:31,200 --> 00:17:36,240
+yeah that's a tougher and what every
+
+471
+00:17:33,440 --> 00:17:38,160
+next time i take one note out and i
+
+472
+00:17:36,240 --> 00:17:40,880
+compare them
+
+473
+00:17:38,160 --> 00:17:44,240
+compare with the maximum answer so in
+
+474
+00:17:40,880 --> 00:17:46,160
+this case i will get the maximum depth
+
+475
+00:17:44,240 --> 00:17:47,679
+so in all the cases there are
+
+476
+00:17:46,160 --> 00:17:49,039
+definitions we
+
+477
+00:17:47,679 --> 00:17:51,360
+definitely searching perfect search the
+
+478
+00:17:49,039 --> 00:17:53,760
+time complexity is over what if we there
+
+479
+00:17:51,360 --> 00:17:57,840
+are n nodes in a tree
+
+480
+00:17:53,760 --> 00:17:57,840
+oh and yeah what's a space complexity
+
+481
+00:17:58,240 --> 00:18:03,039
+n o and yeah because we're using the
+
+482
+00:18:00,480 --> 00:18:04,640
+queue right and then for recursion using
+
+483
+00:18:03,039 --> 00:18:06,160
+the stack right
+
+484
+00:18:04,640 --> 00:18:08,240
+okay
+
+485
+00:18:06,160 --> 00:18:09,919
+so so look to sum up this is quite
+
+486
+00:18:08,240 --> 00:18:12,799
+similar to
+
+487
+00:18:09,919 --> 00:18:15,840
+uh this is quite similar to uh
+
+488
+00:18:12,799 --> 00:18:16,880
+to getting the maximum depth of the
+
+489
+00:18:15,840 --> 00:18:19,120
+um
+
+490
+00:18:16,880 --> 00:18:21,600
+of the final tree the only difference is
+
+491
+00:18:19,120 --> 00:18:23,919
+with the children instead of two left
+
+492
+00:18:21,600 --> 00:18:25,840
+and right we need to get it from the
+
+493
+00:18:23,919 --> 00:18:26,960
+list of children and from the location
+
+494
+00:18:25,840 --> 00:18:30,480
+we're using that
+
+495
+00:18:26,960 --> 00:18:33,039
+for the deficient recursion to computers
+
+496
+00:18:30,480 --> 00:18:34,960
+maximum deaths after each and each
+
+497
+00:18:33,039 --> 00:18:37,760
+child each kid
+
+498
+00:18:34,960 --> 00:18:39,840
+and the maximum the the depth of this
+
+499
+00:18:37,760 --> 00:18:43,039
+entire tree
+
+500
+00:18:39,840 --> 00:18:45,200
+is the maximum depth of each kid
+
+501
+00:18:43,039 --> 00:18:46,640
+plus one right because it comes from the
+
+502
+00:18:45,200 --> 00:18:48,000
+current children okay
+
+503
+00:18:46,640 --> 00:18:50,080
+and then for the breakfast search we
+
+504
+00:18:48,000 --> 00:18:51,760
+just expanded level by level
+
+505
+00:18:50,080 --> 00:18:52,880
+okay that's it for today good job
+
+506
+00:18:51,760 --> 00:18:56,200
+bye-bye
+
+507
+00:18:52,880 --> 00:18:56,200
+bye bye
+
