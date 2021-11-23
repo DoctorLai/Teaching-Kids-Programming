@@ -1,5 +1,5 @@
 # Teaching Kids Programming
-I teach my sons (currently they are aged 8 and 9) programming. I upload the video and write the blog. 
+I teach my sons (currently they are aged 7 and 9) programming. I upload the video and write the blog. 
 
 **If you would like to suggest the topics, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new?title=[Suggest%20Topic]).**
 
