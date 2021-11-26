@@ -1,0 +1,876 @@
+1
+00:00:00,000 --> 00:00:02,560
+hello
+
+2
+00:00:01,040 --> 00:00:04,080
+hello mister here with me serrano all
+
+3
+00:00:02,560 --> 00:00:06,000
+right
+
+4
+00:00:04,080 --> 00:00:08,559
+yeah today we're going to talk about the
+
+5
+00:00:06,000 --> 00:00:10,400
+mode m-o-t-e what does it mean
+
+6
+00:00:08,559 --> 00:00:13,040
+what's mean mode
+
+7
+00:00:10,400 --> 00:00:14,000
+in mass mathematics in mass m is the
+
+8
+00:00:13,040 --> 00:00:16,000
+most
+
+9
+00:00:14,000 --> 00:00:17,520
+most yes the number that appears the
+
+10
+00:00:16,000 --> 00:00:18,240
+most okay
+
+11
+00:00:17,520 --> 00:00:20,160
+yeah
+
+12
+00:00:18,240 --> 00:00:22,560
+in the first early days we talked about
+
+13
+00:00:20,160 --> 00:00:24,960
+the average yeah average is the sum
+
+14
+00:00:22,560 --> 00:00:25,680
+divided by the the length the count
+
+15
+00:00:24,960 --> 00:00:27,359
+right
+
+16
+00:00:25,680 --> 00:00:29,840
+and we talk about the medium what's
+
+17
+00:00:27,359 --> 00:00:32,640
+medium the most immediate like one two
+
+18
+00:00:29,840 --> 00:00:35,040
+three what's the middle number
+
+19
+00:00:32,640 --> 00:00:36,640
+two that's the medium okay and how about
+
+20
+00:00:35,040 --> 00:00:38,960
+one two three four what's the medium two
+
+21
+00:00:36,640 --> 00:00:41,600
+is the required three two three two plus
+
+22
+00:00:38,960 --> 00:00:42,640
+three divided by two the average of the
+
+23
+00:00:41,600 --> 00:00:45,280
+most
+
+24
+00:00:42,640 --> 00:00:48,320
+the intermediate and the meter to right
+
+25
+00:00:45,280 --> 00:00:50,320
+3.5 2.5 way down okay so the mode is the
+
+26
+00:00:48,320 --> 00:00:52,879
+mode the number that appears the most in
+
+27
+00:00:50,320 --> 00:00:55,440
+a array list let's say
+
+28
+00:00:52,879 --> 00:00:58,719
+one two two three
+
+29
+00:00:55,440 --> 00:01:02,399
+three two what's this mode what's the
+
+30
+00:00:58,719 --> 00:01:04,400
+mode of it three two right two two yeah
+
+31
+00:01:02,399 --> 00:01:06,479
+two appears three times yeah okay so
+
+32
+00:01:04,400 --> 00:01:09,439
+today it's not very easy given a time
+
+33
+00:01:06,479 --> 00:01:10,320
+given an array we want to find the mode
+
+34
+00:01:09,439 --> 00:01:12,720
+easy
+
+35
+00:01:10,320 --> 00:01:14,640
+okay by the way if the number if the
+
+36
+00:01:12,720 --> 00:01:16,880
+most number appears twice then we return
+
+37
+00:01:14,640 --> 00:01:18,159
+the first one right for example if if
+
+38
+00:01:16,880 --> 00:01:21,040
+these
+
+39
+00:01:18,159 --> 00:01:21,040
+if this is four
+
+40
+00:01:21,360 --> 00:01:25,520
+no no if this is four what's the mug
+
+41
+00:01:24,240 --> 00:01:28,080
+oh sorry
+
+42
+00:01:25,520 --> 00:01:30,000
+what's the most two or three yeah we
+
+43
+00:01:28,080 --> 00:01:32,720
+just picked two right because they all
+
+44
+00:01:30,000 --> 00:01:34,320
+appear in the most times they are
+
+45
+00:01:32,720 --> 00:01:35,759
+two and three but we picked two the
+
+46
+00:01:34,320 --> 00:01:38,640
+first time okay
+
+47
+00:01:35,759 --> 00:01:38,640
+yeah yeah
+
+48
+00:01:39,119 --> 00:01:44,079
+how are we solving this
+
+49
+00:01:41,360 --> 00:01:46,240
+right we just open it by solving it how
+
+50
+00:01:44,079 --> 00:01:49,439
+how do we solving this what's your idea
+
+51
+00:01:46,240 --> 00:01:52,320
+what's your most intuitive uh what's the
+
+52
+00:01:49,439 --> 00:01:56,640
+most intuitive way of solving this kind
+
+53
+00:01:52,320 --> 00:01:59,040
+of problem like one thing set
+
+54
+00:01:56,640 --> 00:02:00,880
+how do we i mean
+
+55
+00:01:59,040 --> 00:02:03,119
+yeah we're using number but first of all
+
+56
+00:02:00,880 --> 00:02:05,119
+we need to find out which number appears
+
+57
+00:02:03,119 --> 00:02:07,759
+we need to find out the number of times
+
+58
+00:02:05,119 --> 00:02:09,840
+the most element appears right for
+
+59
+00:02:07,759 --> 00:02:12,080
+example we want to find out okay this
+
+60
+00:02:09,840 --> 00:02:14,319
+one element appears
+
+61
+00:02:12,080 --> 00:02:16,720
+most times which is two
+
+62
+00:02:14,319 --> 00:02:18,319
+now we can go through this array again
+
+63
+00:02:16,720 --> 00:02:21,200
+and if this
+
+64
+00:02:18,319 --> 00:02:21,520
+if this number
+
+65
+00:02:21,200 --> 00:02:24,000
+all appears
+
+66
+00:02:21,520 --> 00:02:26,720
+twice then we return it right
+
+67
+00:02:24,000 --> 00:02:28,400
+am i right for example this one
+
+68
+00:02:26,720 --> 00:02:30,480
+okay so we we need first of all we need
+
+69
+00:02:28,400 --> 00:02:32,640
+to go through this element uh arrays and
+
+70
+00:02:30,480 --> 00:02:34,879
+we find out that some element okay some
+
+71
+00:02:32,640 --> 00:02:36,959
+element appears
+
+72
+00:02:34,879 --> 00:02:38,640
+some element appears to us
+
+73
+00:02:36,959 --> 00:02:40,239
+appears three times and then we go
+
+74
+00:02:38,640 --> 00:02:42,319
+through the element again
+
+75
+00:02:40,239 --> 00:02:44,400
+yeah and we find out okay two appears
+
+76
+00:02:42,319 --> 00:02:45,680
+three times appears most times then we
+
+77
+00:02:44,400 --> 00:02:47,760
+determine it
+
+78
+00:02:45,680 --> 00:02:50,480
+doesn't make sense
+
+79
+00:02:47,760 --> 00:02:52,720
+okay so how how do we remember how do we
+
+80
+00:02:50,480 --> 00:02:55,040
+count the number number of frequency
+
+81
+00:02:52,720 --> 00:02:58,720
+counter yeah weather counter so look
+
+82
+00:02:55,040 --> 00:03:01,519
+this is a yeah if we counter it
+
+83
+00:02:58,720 --> 00:03:03,680
+what happened if counter a
+
+84
+00:03:01,519 --> 00:03:05,840
+from collection import counter if we
+
+85
+00:03:03,680 --> 00:03:06,800
+counter a so what does it give us if
+
+86
+00:03:05,840 --> 00:03:09,120
+this is
+
+87
+00:03:06,800 --> 00:03:12,000
+what does this give us
+
+88
+00:03:09,120 --> 00:03:12,800
+give us a dictionary right scenario
+
+89
+00:03:12,000 --> 00:03:15,680
+a
+
+90
+00:03:12,800 --> 00:03:18,959
+one appears one times two
+
+91
+00:03:15,680 --> 00:03:21,680
+appears three times three appear two
+
+92
+00:03:18,959 --> 00:03:23,680
+times okay so when we counter a
+
+93
+00:03:21,680 --> 00:03:26,400
+it would give us give us something like
+
+94
+00:03:23,680 --> 00:03:28,560
+this dictionary the keys are the unique
+
+95
+00:03:26,400 --> 00:03:31,440
+elements one two three yeah only one two
+
+96
+00:03:28,560 --> 00:03:34,640
+three appears in this one right and then
+
+97
+00:03:31,440 --> 00:03:36,720
+the the value this is called the value
+
+98
+00:03:34,640 --> 00:03:39,280
+is the number of times they appear right
+
+99
+00:03:36,720 --> 00:03:41,920
+yeah if we're not using this counter we
+
+100
+00:03:39,280 --> 00:03:44,159
+we can do this yeah d equals dictionary
+
+101
+00:03:41,920 --> 00:03:46,720
+yeah this is this center curly brace
+
+102
+00:03:44,159 --> 00:03:49,920
+yeah and this is calculated decent array
+
+103
+00:03:46,720 --> 00:03:53,519
+now we can say we can say well for i in
+
+104
+00:03:49,920 --> 00:03:56,480
+a for i in a if i in d yeah we need to
+
+105
+00:03:53,519 --> 00:03:59,519
+check because we if i in d then
+
+106
+00:03:56,480 --> 00:04:00,400
+d i plus equals 1 as if if it's
+
+107
+00:03:59,519 --> 00:04:02,959
+appearing
+
+108
+00:04:00,400 --> 00:04:04,879
+the first time then d i equals zero if
+
+109
+00:04:02,959 --> 00:04:07,439
+if we declaring additionally using this
+
+110
+00:04:04,879 --> 00:04:11,200
+kind of thing this is similar this is
+
+111
+00:04:07,439 --> 00:04:13,599
+the same as did yeah but if we're using
+
+112
+00:04:11,200 --> 00:04:16,400
+the default addition area this is a very
+
+113
+00:04:13,599 --> 00:04:18,639
+special way of declaring uh
+
+114
+00:04:16,400 --> 00:04:21,199
+map and we say we in
+
+115
+00:04:18,639 --> 00:04:23,280
+it means that if the key is not existing
+
+116
+00:04:21,199 --> 00:04:25,840
+in the dictionary then the byte for its
+
+117
+00:04:23,280 --> 00:04:31,360
+value is zero integer zero so we can say
+
+118
+00:04:25,840 --> 00:04:33,600
+for i in that a d i if this is d d i
+
+119
+00:04:31,360 --> 00:04:36,320
+plus equals one we don't need to check
+
+120
+00:04:33,600 --> 00:04:38,240
+if it appears before right but overall
+
+121
+00:04:36,320 --> 00:04:40,400
+this is the most simplest way counter a
+
+122
+00:04:38,240 --> 00:04:42,800
+and you give us this one two three so
+
+123
+00:04:40,400 --> 00:04:45,280
+now we just need to return the element
+
+124
+00:04:42,800 --> 00:04:46,639
+which element appears the most
+
+125
+00:04:45,280 --> 00:04:48,960
+which element by looking at this
+
+126
+00:04:46,639 --> 00:04:51,280
+dictionary two yeah okay
+
+127
+00:04:48,960 --> 00:04:53,199
+so how how do we do that because looking
+
+128
+00:04:51,280 --> 00:04:55,840
+at the value yeah yeah looking for value
+
+129
+00:04:53,199 --> 00:04:57,199
+so we can say look at look at this max
+
+130
+00:04:55,840 --> 00:05:00,320
+if this is t
+
+131
+00:04:57,199 --> 00:05:03,120
+max t if we give this max t it will give
+
+132
+00:05:00,320 --> 00:05:04,479
+us the most maximum of the key which is
+
+133
+00:05:03,120 --> 00:05:08,880
+three right
+
+134
+00:05:04,479 --> 00:05:11,120
+yeah but if we have max t top values
+
+135
+00:05:08,880 --> 00:05:13,600
+values
+
+136
+00:05:11,120 --> 00:05:15,759
+yeah if max dot d the value will give us
+
+137
+00:05:13,600 --> 00:05:17,360
+three right we want to give
+
+138
+00:05:15,759 --> 00:05:20,160
+we want to return
+
+139
+00:05:17,360 --> 00:05:21,360
+the key with most value right
+
+140
+00:05:20,160 --> 00:05:23,600
+yeah you
+
+141
+00:05:21,360 --> 00:05:24,880
+you find out the most value and then you
+
+142
+00:05:23,600 --> 00:05:26,560
+return the key
+
+143
+00:05:24,880 --> 00:05:28,479
+that's right and then we can do this
+
+144
+00:05:26,560 --> 00:05:29,199
+first of all we can do this yeah this is
+
+145
+00:05:28,479 --> 00:05:32,080
+n
+
+146
+00:05:29,199 --> 00:05:33,600
+and now we can go to four n for i
+
+147
+00:05:32,080 --> 00:05:34,560
+in a
+
+148
+00:05:33,600 --> 00:05:36,000
+if
+
+149
+00:05:34,560 --> 00:05:39,120
+if d i
+
+150
+00:05:36,000 --> 00:05:41,280
+d i equals n right if d i equals and
+
+151
+00:05:39,120 --> 00:05:42,720
+then return i right
+
+152
+00:05:41,280 --> 00:05:45,039
+make sense
+
+153
+00:05:42,720 --> 00:05:46,000
+yeah look look we can say this
+
+154
+00:05:45,039 --> 00:05:46,800
+for
+
+155
+00:05:46,000 --> 00:05:47,759
+i
+
+156
+00:05:46,800 --> 00:05:50,479
+in
+
+157
+00:05:47,759 --> 00:05:51,520
+num in a okay in a
+
+158
+00:05:50,479 --> 00:05:52,800
+if
+
+159
+00:05:51,520 --> 00:05:55,360
+if d i
+
+160
+00:05:52,800 --> 00:05:57,360
+equal or equal n and we can just return
+
+161
+00:05:55,360 --> 00:05:58,880
+i yeah easy yeah
+
+162
+00:05:57,360 --> 00:06:01,360
+okay yeah
+
+163
+00:05:58,880 --> 00:06:03,280
+oh okay i'm going to give you one
+
+164
+00:06:01,360 --> 00:06:04,840
+quicker way of doing this okay you can
+
+165
+00:06:03,280 --> 00:06:06,479
+just say
+
+166
+00:06:04,840 --> 00:06:08,560
+return
+
+167
+00:06:06,479 --> 00:06:10,000
+max
+
+168
+00:06:08,560 --> 00:06:11,280
+d
+
+169
+00:06:10,000 --> 00:06:14,560
+key
+
+170
+00:06:11,280 --> 00:06:16,319
+equals d dot get
+
+171
+00:06:14,560 --> 00:06:17,039
+and that's it
+
+172
+00:06:16,319 --> 00:06:20,000
+d
+
+173
+00:06:17,039 --> 00:06:22,479
+d is the counter right look this is the
+
+174
+00:06:20,000 --> 00:06:23,919
+counter and i want to return max t the
+
+175
+00:06:22,479 --> 00:06:26,639
+key
+
+176
+00:06:23,919 --> 00:06:30,319
+but key is d dot theta k is the value so
+
+177
+00:06:26,639 --> 00:06:33,440
+i want to return the item look
+
+178
+00:06:30,319 --> 00:06:35,199
+item which has the most
+
+179
+00:06:33,440 --> 00:06:38,400
+value
+
+180
+00:06:35,199 --> 00:06:41,280
+letter max t key comma key equals t
+
+181
+00:06:38,400 --> 00:06:43,759
+this is the syntax exactly doing this
+
+182
+00:06:41,280 --> 00:06:46,720
+okay max theta value
+
+183
+00:06:43,759 --> 00:06:49,280
+if we don't put the values is max t is
+
+184
+00:06:46,720 --> 00:06:51,440
+essentially the same as max t dot keys
+
+185
+00:06:49,280 --> 00:06:52,319
+it returns three which is not what we
+
+186
+00:06:51,440 --> 00:06:55,199
+want
+
+187
+00:06:52,319 --> 00:06:57,759
+and next the value is return d three
+
+188
+00:06:55,199 --> 00:07:00,000
+which is no we want to return two which
+
+189
+00:06:57,759 --> 00:07:02,319
+has the most key most value right so we
+
+190
+00:07:00,000 --> 00:07:04,240
+can say okay we can first the first way
+
+191
+00:07:02,319 --> 00:07:06,000
+is n equals that we get a three and now
+
+192
+00:07:04,240 --> 00:07:08,240
+we go through the numbers and check
+
+193
+00:07:06,000 --> 00:07:10,960
+which which value
+
+194
+00:07:08,240 --> 00:07:13,039
+which which value yeah which i which
+
+195
+00:07:10,960 --> 00:07:16,160
+element has the value
+
+196
+00:07:13,039 --> 00:07:18,080
+three right okay one is one no one two
+
+197
+00:07:16,160 --> 00:07:20,560
+okay appears three times and now we
+
+198
+00:07:18,080 --> 00:07:22,880
+return it all we can do here is this is
+
+199
+00:07:20,560 --> 00:07:25,280
+the center
+
+200
+00:07:22,880 --> 00:07:26,639
+alternative we can use this syntax okay
+
+201
+00:07:25,280 --> 00:07:28,890
+make sense
+
+202
+00:07:26,639 --> 00:07:31,990
+yeah what's the time complexity
+
+203
+00:07:28,890 --> 00:07:31,990
+[Music]
+
+204
+00:07:33,199 --> 00:07:37,759
+there are numbers in the area we also
+
+205
+00:07:35,759 --> 00:07:38,639
+we actually we need to go through twice
+
+206
+00:07:37,759 --> 00:07:40,880
+right
+
+207
+00:07:38,639 --> 00:07:42,000
+right counter
+
+208
+00:07:40,880 --> 00:07:42,960
+the counter
+
+209
+00:07:42,000 --> 00:07:45,199
+i went
+
+210
+00:07:42,960 --> 00:07:47,680
+and then we go through this again so
+
+211
+00:07:45,199 --> 00:07:49,440
+it's actually o to n
+
+212
+00:07:47,680 --> 00:07:51,120
+but we drop the constant yeah when we
+
+213
+00:07:49,440 --> 00:07:53,919
+talk about the time complexity we drop
+
+214
+00:07:51,120 --> 00:07:55,120
+the constant let's space complexity
+
+215
+00:07:53,919 --> 00:07:56,240
+count out
+
+216
+00:07:55,120 --> 00:07:57,280
+yeah
+
+217
+00:07:56,240 --> 00:08:00,080
+make sense
+
+218
+00:07:57,280 --> 00:08:04,560
+okay that's it for today bye-bye bye-bye
+
+219
+00:08:00,080 --> 00:08:04,560
+bye-bye okay that's it
+
