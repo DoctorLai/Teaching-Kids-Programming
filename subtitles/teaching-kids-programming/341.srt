@@ -1,0 +1,1336 @@
+1
+00:00:00,560 --> 00:00:05,600
+hello hello mr ariel all right yep okay
+
+2
+00:00:03,679 --> 00:00:08,480
+so today we talked about the repeated
+
+3
+00:00:05,600 --> 00:00:10,400
+kaylan substring okay repeat it repeat
+
+4
+00:00:08,480 --> 00:00:13,120
+it
+
+5
+00:00:10,400 --> 00:00:15,440
+okay lens
+
+6
+00:00:13,120 --> 00:00:17,359
+substring substring has to be continued
+
+7
+00:00:15,440 --> 00:00:18,880
+right remember
+
+8
+00:00:17,359 --> 00:00:21,600
+first string okay for example given
+
+9
+00:00:18,880 --> 00:00:23,680
+these a b c d abc okay
+
+10
+00:00:21,600 --> 00:00:27,519
+and when k is three
+
+11
+00:00:23,680 --> 00:00:29,119
+s is this we how many sub strings
+
+12
+00:00:27,519 --> 00:00:30,880
+which are lengths of
+
+13
+00:00:29,119 --> 00:00:35,520
+three abc
+
+14
+00:00:30,880 --> 00:00:38,000
+and cd are repeated more than once
+
+15
+00:00:35,520 --> 00:00:40,719
+abc and abc yeah because it appears
+
+16
+00:00:38,000 --> 00:00:42,800
+twice any other sub lens which is
+
+17
+00:00:40,719 --> 00:00:45,200
+how many sub layers which it has the
+
+18
+00:00:42,800 --> 00:00:47,200
+three lens how many subways which has
+
+19
+00:00:45,200 --> 00:00:48,960
+three lens
+
+20
+00:00:47,200 --> 00:00:51,280
+then three which has three characters
+
+21
+00:00:48,960 --> 00:00:53,039
+how many how many substrings which has
+
+22
+00:00:51,280 --> 00:00:57,320
+the three characters
+
+23
+00:00:53,039 --> 00:00:57,320
+a lot can you count
+
+24
+00:00:58,320 --> 00:01:02,719
+not really
+
+25
+00:00:59,600 --> 00:01:03,840
+abc bcd cdx
+
+26
+00:01:02,719 --> 00:01:05,199
+dib
+
+27
+00:01:03,840 --> 00:01:07,280
+abc
+
+28
+00:01:05,199 --> 00:01:08,880
+so how many of these five
+
+29
+00:01:07,280 --> 00:01:10,720
+five how many characters one two three
+
+30
+00:01:08,880 --> 00:01:13,280
+four five six seven
+
+31
+00:01:10,720 --> 00:01:14,080
+seven seven characters
+
+32
+00:01:13,280 --> 00:01:16,080
+so
+
+33
+00:01:14,080 --> 00:01:19,119
+look if we want to iterate proof of
+
+34
+00:01:16,080 --> 00:01:21,439
+thing all these k lengths so okay
+
+35
+00:01:19,119 --> 00:01:24,720
+let you say it's five yeah one two three
+
+36
+00:01:21,439 --> 00:01:27,759
+four five so it's actually the length n
+
+37
+00:01:24,720 --> 00:01:29,360
+minus k plus one okay
+
+38
+00:01:27,759 --> 00:01:31,840
+yeah
+
+39
+00:01:29,360 --> 00:01:34,240
+the length seven characters
+
+40
+00:01:31,840 --> 00:01:36,320
+okay we are looking for three
+
+41
+00:01:34,240 --> 00:01:38,880
+and then the number of uh the total
+
+42
+00:01:36,320 --> 00:01:42,159
+number of the substring which is k
+
+43
+00:01:38,880 --> 00:01:43,840
+length is n minus k plus 1
+
+44
+00:01:42,159 --> 00:01:45,520
+doesn't make sense because we we can we
+
+45
+00:01:43,840 --> 00:01:47,600
+can do this we can hope this can we
+
+46
+00:01:45,520 --> 00:01:49,439
+iterate for i
+
+47
+00:01:47,600 --> 00:01:51,600
+in range
+
+48
+00:01:49,439 --> 00:01:55,040
+start from zero okay the oh we don't put
+
+49
+00:01:51,600 --> 00:01:57,119
+a zero star from zero to n minus k
+
+50
+00:01:55,040 --> 00:02:00,479
+right
+
+51
+00:01:57,119 --> 00:02:02,560
+how many iterations n minus k
+
+52
+00:02:00,479 --> 00:02:03,840
+how many iterations
+
+53
+00:02:02,560 --> 00:02:04,799
+they are
+
+54
+00:02:03,840 --> 00:02:06,479
+uh
+
+55
+00:02:04,799 --> 00:02:10,239
+yeah is it
+
+56
+00:02:06,479 --> 00:02:11,760
+no no n minus k plus one okay plus one
+
+57
+00:02:10,239 --> 00:02:13,599
+yeah
+
+58
+00:02:11,760 --> 00:02:17,200
+so there they are they are n minus k
+
+59
+00:02:13,599 --> 00:02:19,680
+plus one iteration okay
+
+60
+00:02:17,200 --> 00:02:23,280
+so we want to find the so now this is
+
+61
+00:02:19,680 --> 00:02:25,120
+the way of finding all the substrings
+
+62
+00:02:23,280 --> 00:02:26,640
+with the
+
+63
+00:02:25,120 --> 00:02:28,160
+k lens
+
+64
+00:02:26,640 --> 00:02:29,760
+and we want to find out how do we check
+
+65
+00:02:28,160 --> 00:02:32,959
+in with the repeated ones how how can we
+
+66
+00:02:29,760 --> 00:02:36,000
+do it i mean in set instead of hash chat
+
+67
+00:02:32,959 --> 00:02:36,000
+yeah we use the hashtag
+
+68
+00:02:37,120 --> 00:02:40,080
+okay so i know we can do it okay that
+
+69
+00:02:38,959 --> 00:02:41,760
+would be easier what's the time
+
+70
+00:02:40,080 --> 00:02:43,040
+complexity if you're using this kind of
+
+71
+00:02:41,760 --> 00:02:47,040
+thing
+
+72
+00:02:43,040 --> 00:02:47,040
+and now it's written on the white board
+
+73
+00:02:47,920 --> 00:02:54,879
+and minus k right because we italy yeah
+
+74
+00:02:50,879 --> 00:02:54,879
+we're iterating that much time okay
+
+75
+00:02:57,200 --> 00:03:02,239
+okay
+
+76
+00:02:58,959 --> 00:03:05,840
+and you tell me okay define
+
+77
+00:03:02,239 --> 00:03:07,790
+define that let's say k learn substring
+
+78
+00:03:05,840 --> 00:03:09,760
+sub string string
+
+79
+00:03:07,790 --> 00:03:11,440
+[Music]
+
+80
+00:03:09,760 --> 00:03:12,959
+and we need the s we need the k all
+
+81
+00:03:11,440 --> 00:03:14,159
+right
+
+82
+00:03:12,959 --> 00:03:18,000
+yeah yeah yeah
+
+83
+00:03:14,159 --> 00:03:20,720
+okay so now we have uh this data
+
+84
+00:03:18,000 --> 00:03:22,480
+beta equals default dictionary okay
+
+85
+00:03:20,720 --> 00:03:25,200
+let's say
+
+86
+00:03:22,480 --> 00:03:27,519
+before dictionary
+
+87
+00:03:25,200 --> 00:03:29,440
+and the type is integer okay because we
+
+88
+00:03:27,519 --> 00:03:31,440
+are we are counting the number of
+
+89
+00:03:29,440 --> 00:03:32,959
+substrings we're counting the substring
+
+90
+00:03:31,440 --> 00:03:33,680
+and then the number of times they appear
+
+91
+00:03:32,959 --> 00:03:34,640
+right
+
+92
+00:03:33,680 --> 00:03:35,680
+all right
+
+93
+00:03:34,640 --> 00:03:37,840
+yes
+
+94
+00:03:35,680 --> 00:03:38,879
+can you can you tell me what to do next
+
+95
+00:03:37,840 --> 00:03:40,959
+data
+
+96
+00:03:38,879 --> 00:03:42,480
+and now we have these columns let's say
+
+97
+00:03:40,959 --> 00:03:44,959
+we have sharing
+
+98
+00:03:42,480 --> 00:03:46,400
+okay so that's because here
+
+99
+00:03:44,959 --> 00:03:48,319
+here i'm going to
+
+100
+00:03:46,400 --> 00:03:51,519
+current is the
+
+101
+00:03:48,319 --> 00:03:52,560
+current i'm going to use it as the k
+
+102
+00:03:51,519 --> 00:03:56,400
+lens
+
+103
+00:03:52,560 --> 00:03:56,400
+k lens substring okay
+
+104
+00:03:57,519 --> 00:04:02,560
+canon substring
+
+105
+00:03:59,680 --> 00:04:06,640
+yeah so
+
+106
+00:04:02,560 --> 00:04:08,640
+so okay let's say if it's here empty and
+
+107
+00:04:06,640 --> 00:04:11,680
+then we need to go through this
+
+108
+00:04:08,640 --> 00:04:14,680
+this there for i in
+
+109
+00:04:11,680 --> 00:04:14,680
+range
+
+110
+00:04:14,799 --> 00:04:18,959
+uh
+
+111
+00:04:16,479 --> 00:04:20,880
+let's just go go through the array first
+
+112
+00:04:18,959 --> 00:04:22,720
+the string first
+
+113
+00:04:20,880 --> 00:04:25,120
+and then we can build it yeah we can
+
+114
+00:04:22,720 --> 00:04:28,880
+concatenate the string
+
+115
+00:04:25,120 --> 00:04:32,000
+right and then if the length of it
+
+116
+00:04:28,880 --> 00:04:36,400
+is bigger than k so we need to look if i
+
+117
+00:04:32,000 --> 00:04:39,600
+just if this substring a b c d a b c
+
+118
+00:04:36,400 --> 00:04:42,400
+okay now i'm putting this current as a
+
+119
+00:04:39,600 --> 00:04:44,880
+and then i believe the b and i put a c
+
+120
+00:04:42,400 --> 00:04:46,560
+okay and next time
+
+121
+00:04:44,880 --> 00:04:48,479
+next time i put a d but which is more
+
+122
+00:04:46,560 --> 00:04:50,400
+than three characters so what should we
+
+123
+00:04:48,479 --> 00:04:52,160
+do at this moment
+
+124
+00:04:50,400 --> 00:04:55,120
+what should we do at this moment look we
+
+125
+00:04:52,160 --> 00:04:56,400
+have current iterating put a b c and b
+
+126
+00:04:55,120 --> 00:04:57,520
+now it's more than three characters what
+
+127
+00:04:56,400 --> 00:04:58,540
+should we do
+
+128
+00:04:57,520 --> 00:05:00,320
+uh
+
+129
+00:04:58,540 --> 00:05:01,680
+[Music]
+
+130
+00:05:00,320 --> 00:05:03,440
+pop yeah
+
+131
+00:05:01,680 --> 00:05:05,039
+but look currently the string is
+
+132
+00:05:03,440 --> 00:05:07,600
+immutable right so we can't do it so
+
+133
+00:05:05,039 --> 00:05:10,160
+let's put it at least or better we can
+
+134
+00:05:07,600 --> 00:05:14,000
+have a dq yeah dq because when we have a
+
+135
+00:05:10,160 --> 00:05:15,919
+dq top left is constant time right so we
+
+136
+00:05:14,000 --> 00:05:18,320
+can just say current
+
+137
+00:05:15,919 --> 00:05:20,880
+dot append i right
+
+138
+00:05:18,320 --> 00:05:22,960
+yeah i is the character abc
+
+139
+00:05:20,880 --> 00:05:25,280
+and if the current bigger than k then
+
+140
+00:05:22,960 --> 00:05:27,120
+current needs to do a
+
+141
+00:05:25,280 --> 00:05:28,000
+current
+
+142
+00:05:27,120 --> 00:05:30,479
+left
+
+143
+00:05:28,000 --> 00:05:30,479
+for black
+
+144
+00:05:30,880 --> 00:05:36,720
+now the current
+
+145
+00:05:32,800 --> 00:05:36,720
+is a string which has
+
+146
+00:05:37,280 --> 00:05:40,960
+what which
+
+147
+00:05:38,639 --> 00:05:43,039
+then we need to remember that remember
+
+148
+00:05:40,960 --> 00:05:44,400
+the number of times you appear right
+
+149
+00:05:43,039 --> 00:05:46,160
+current
+
+150
+00:05:44,400 --> 00:05:47,919
+plus equal one okay
+
+151
+00:05:46,160 --> 00:05:50,560
+yeah make sense
+
+152
+00:05:47,919 --> 00:05:52,479
+and then what should we do after that
+
+153
+00:05:50,560 --> 00:05:54,320
+now we need to find out okay answer
+
+154
+00:05:52,479 --> 00:05:56,160
+equals zero and we need to go through
+
+155
+00:05:54,320 --> 00:05:57,199
+the dictionary theta
+
+156
+00:05:56,160 --> 00:05:59,759
+for i
+
+157
+00:05:57,199 --> 00:06:00,720
+in data
+
+158
+00:05:59,759 --> 00:06:03,520
+if
+
+159
+00:06:00,720 --> 00:06:05,759
+theta i bigger than one time right
+
+160
+00:06:03,520 --> 00:06:07,199
+bigger than one time and answer plus
+
+161
+00:06:05,759 --> 00:06:09,280
+equals one
+
+162
+00:06:07,199 --> 00:06:10,880
+return
+
+163
+00:06:09,280 --> 00:06:13,039
+answer
+
+164
+00:06:10,880 --> 00:06:16,000
+make sense
+
+165
+00:06:13,039 --> 00:06:17,170
+what's the space complexity if you can
+
+166
+00:06:16,000 --> 00:06:20,589
+remember
+
+167
+00:06:17,170 --> 00:06:20,589
+[Music]
+
+168
+00:06:21,440 --> 00:06:25,680
+uh
+
+169
+00:06:22,400 --> 00:06:27,120
+okay so look data this is the
+
+170
+00:06:25,680 --> 00:06:28,880
+dq so
+
+171
+00:06:27,120 --> 00:06:31,120
+we we can we can
+
+172
+00:06:28,880 --> 00:06:34,479
+the key needs to be hash of because it
+
+173
+00:06:31,120 --> 00:06:36,960
+can't be the least so let's put here i
+
+174
+00:06:34,479 --> 00:06:38,639
+need to put please join
+
+175
+00:06:36,960 --> 00:06:40,720
+the join
+
+176
+00:06:38,639 --> 00:06:42,160
+current okay
+
+177
+00:06:40,720 --> 00:06:44,560
+what does this mean
+
+178
+00:06:42,160 --> 00:06:45,840
+empty space don't join current what does
+
+179
+00:06:44,560 --> 00:06:49,680
+it mean
+
+180
+00:06:45,840 --> 00:06:52,319
+uh it means you join not a space between
+
+181
+00:06:49,680 --> 00:06:54,800
+every yeah yeah nothing if they don't
+
+182
+00:06:52,319 --> 00:06:57,039
+put all this look if this the list is a
+
+183
+00:06:54,800 --> 00:07:00,800
+b c then
+
+184
+00:06:57,039 --> 00:07:02,800
+dot john you'll become a b c a okay
+
+185
+00:07:00,800 --> 00:07:05,520
+what's the space commercial uh are we
+
+186
+00:07:02,800 --> 00:07:07,759
+using any space yeah yeah
+
+187
+00:07:05,520 --> 00:07:09,759
+uh what what what is it how what's the
+
+188
+00:07:07,759 --> 00:07:11,759
+space complexity
+
+189
+00:07:09,759 --> 00:07:13,199
+so oh what
+
+190
+00:07:11,759 --> 00:07:15,190
+um
+
+191
+00:07:13,199 --> 00:07:18,000
+oh is it oh and
+
+192
+00:07:15,190 --> 00:07:21,199
+[Music]
+
+193
+00:07:18,000 --> 00:07:24,319
+no okay right why is that because every
+
+194
+00:07:21,199 --> 00:07:25,599
+look if it's more than k i just pop out
+
+195
+00:07:24,319 --> 00:07:27,199
+so
+
+196
+00:07:25,599 --> 00:07:29,840
+at any time
+
+197
+00:07:27,199 --> 00:07:32,560
+there is no more than k
+
+198
+00:07:29,840 --> 00:07:35,360
+elements in the current right okay okay
+
+199
+00:07:32,560 --> 00:07:37,840
+this this bit is okay
+
+200
+00:07:35,360 --> 00:07:39,440
+but this bit
+
+201
+00:07:37,840 --> 00:07:42,080
+how many of the data
+
+202
+00:07:39,440 --> 00:07:44,960
+default how many data how many current
+
+203
+00:07:42,080 --> 00:07:47,360
+is actually how many how many
+
+204
+00:07:44,960 --> 00:07:49,680
+uh kaylan substring we we talked about
+
+205
+00:07:47,360 --> 00:07:51,120
+like n minus k plus one okay so actually
+
+206
+00:07:49,680 --> 00:07:53,599
+okay plus
+
+207
+00:07:51,120 --> 00:07:55,360
+o and minus k
+
+208
+00:07:53,599 --> 00:07:59,199
+okay so you add it together it's
+
+209
+00:07:55,360 --> 00:08:01,199
+actually o n okay we're done yeah yeah
+
+210
+00:07:59,199 --> 00:08:03,120
+do you know how why we got this oven
+
+211
+00:08:01,199 --> 00:08:05,199
+okay yeah
+
+212
+00:08:03,120 --> 00:08:08,960
+this is m minus k plus one we drop a
+
+213
+00:08:05,199 --> 00:08:09,919
+constant and okay plus o n minus k
+
+214
+00:08:08,960 --> 00:08:11,840
+yeah
+
+215
+00:08:09,919 --> 00:08:14,080
+k is cancel out so it's
+
+216
+00:08:11,840 --> 00:08:14,080
+okay
+
+217
+00:08:15,440 --> 00:08:18,960
+so this bit yeah this bit we can make it
+
+218
+00:08:17,840 --> 00:08:22,000
+prettier
+
+219
+00:08:18,960 --> 00:08:22,000
+we can make it prettier
+
+220
+00:08:25,199 --> 00:08:29,440
+we can make it prettier so we can say
+
+221
+00:08:27,199 --> 00:08:32,560
+return
+
+222
+00:08:29,440 --> 00:08:35,919
+actually we want to theater yeah theater
+
+223
+00:08:32,560 --> 00:08:37,360
+theater what let's say namda
+
+224
+00:08:35,919 --> 00:08:38,800
+namda
+
+225
+00:08:37,360 --> 00:08:41,039
+x
+
+226
+00:08:38,800 --> 00:08:43,039
+x minus 1
+
+227
+00:08:41,039 --> 00:08:44,640
+for
+
+228
+00:08:43,039 --> 00:08:46,399
+x plus
+
+229
+00:08:44,640 --> 00:08:48,800
+x bigger than 1
+
+230
+00:08:46,399 --> 00:08:51,519
+plus 4
+
+231
+00:08:48,800 --> 00:08:54,320
+and then we have least the second value
+
+232
+00:08:51,519 --> 00:08:55,600
+which is the data
+
+233
+00:08:54,320 --> 00:08:57,680
+data the
+
+234
+00:08:55,600 --> 00:09:00,480
+values
+
+235
+00:08:57,680 --> 00:09:03,760
+yeah values
+
+236
+00:09:00,480 --> 00:09:06,080
+okay and we convert it to the list
+
+237
+00:09:03,760 --> 00:09:08,240
+look the theater the first one takes the
+
+238
+00:09:06,080 --> 00:09:09,839
+function or lambda function we which we
+
+239
+00:09:08,240 --> 00:09:12,240
+want to comp we want to find out how
+
+240
+00:09:09,839 --> 00:09:14,480
+many are bigger than one and then these
+
+241
+00:09:12,240 --> 00:09:16,240
+formula from data values because the
+
+242
+00:09:14,480 --> 00:09:19,040
+value is bigger than one it appears
+
+243
+00:09:16,240 --> 00:09:20,959
+smaller ones okay and at least is the
+
+244
+00:09:19,040 --> 00:09:23,040
+uh the filter and we want to find out
+
+245
+00:09:20,959 --> 00:09:24,240
+the lens yeah so we we put a lens over
+
+246
+00:09:23,040 --> 00:09:26,240
+it
+
+247
+00:09:24,240 --> 00:09:27,120
+yeah this is one way okay
+
+248
+00:09:26,240 --> 00:09:29,920
+yeah
+
+249
+00:09:27,120 --> 00:09:30,880
+or we can use the list comprehension
+
+250
+00:09:29,920 --> 00:09:31,920
+yeah
+
+251
+00:09:30,880 --> 00:09:34,160
+list
+
+252
+00:09:31,920 --> 00:09:36,000
+for uh
+
+253
+00:09:34,160 --> 00:09:37,839
+what we want to find out the key okay so
+
+254
+00:09:36,000 --> 00:09:39,680
+then it says i
+
+255
+00:09:37,839 --> 00:09:44,560
+for
+
+256
+00:09:39,680 --> 00:09:44,560
+forward data item yeah data item
+
+257
+00:09:45,040 --> 00:09:51,399
+for i for i j in theta item
+
+258
+00:09:53,360 --> 00:09:58,160
+and then if j is bigger than one okay
+
+259
+00:09:56,080 --> 00:09:59,839
+and at least will give you give us the
+
+260
+00:09:58,160 --> 00:10:02,480
+list of the
+
+261
+00:09:59,839 --> 00:10:04,880
+list of of what of the substring k
+
+262
+00:10:02,480 --> 00:10:07,120
+length substring and then we just need
+
+263
+00:10:04,880 --> 00:10:09,360
+to return the length okay this is the
+
+264
+00:10:07,120 --> 00:10:11,519
+the same okay which is
+
+265
+00:10:09,360 --> 00:10:14,720
+pretty much the same thing this is the
+
+266
+00:10:11,519 --> 00:10:16,959
+most uh intuitive way answer equals zero
+
+267
+00:10:14,720 --> 00:10:18,560
+we go through the dictionary we find out
+
+268
+00:10:16,959 --> 00:10:20,240
+if the value is bigger than one because
+
+269
+00:10:18,560 --> 00:10:21,760
+if battery is bigger than one means this
+
+270
+00:10:20,240 --> 00:10:23,360
+is repeated
+
+271
+00:10:21,760 --> 00:10:27,279
+makes sense
+
+272
+00:10:23,360 --> 00:10:30,560
+yeah answer equals plus equal to answer
+
+273
+00:10:27,279 --> 00:10:33,560
+so list this bit okay this bit
+
+274
+00:10:30,560 --> 00:10:33,560
+uh
+
+275
+00:10:34,959 --> 00:10:37,839
+yeah
+
+276
+00:10:36,160 --> 00:10:40,399
+okay so the
+
+277
+00:10:37,839 --> 00:10:42,800
+this bit um
+
+278
+00:10:40,399 --> 00:10:42,800
+what else
+
+279
+00:10:44,640 --> 00:10:48,880
+we can actually iterate over the
+
+280
+00:10:46,720 --> 00:10:52,160
+substring kn substring by the index
+
+281
+00:10:48,880 --> 00:10:52,160
+right so we can just do this
+
+282
+00:10:53,120 --> 00:10:59,760
+for i in range
+
+283
+00:10:56,320 --> 00:11:03,279
+m minus k and n will be the length of s
+
+284
+00:10:59,760 --> 00:11:05,120
+right obviously n minus k plus one
+
+285
+00:11:03,279 --> 00:11:09,519
+and then look the substring will be one
+
+286
+00:11:05,120 --> 00:11:12,079
+s equals uh substring will be
+
+287
+00:11:09,519 --> 00:11:17,519
+c u r so we don't need this okay c u i
+
+288
+00:11:12,079 --> 00:11:20,959
+equals s the substring substring what
+
+289
+00:11:17,519 --> 00:11:22,560
+start from i to i plus
+
+290
+00:11:20,959 --> 00:11:24,880
+k
+
+291
+00:11:22,560 --> 00:11:26,839
+right we start from i to i plus okay and
+
+292
+00:11:24,880 --> 00:11:30,560
+then theta
+
+293
+00:11:26,839 --> 00:11:33,440
+current plus equal one okay look
+
+294
+00:11:30,560 --> 00:11:34,320
+here is simpler
+
+295
+00:11:33,440 --> 00:11:38,160
+so
+
+296
+00:11:34,320 --> 00:11:40,720
+the index starts from zero to n minus k
+
+297
+00:11:38,160 --> 00:11:42,720
+yeah a minus k and that the substring of
+
+298
+00:11:40,720 --> 00:11:47,519
+the exactly the length
+
+299
+00:11:42,720 --> 00:11:48,399
+k so it's look from i to i plus k
+
+300
+00:11:47,519 --> 00:11:50,560
+yeah
+
+301
+00:11:48,399 --> 00:11:54,000
+i plus k minus 1 okay actually it's
+
+302
+00:11:50,560 --> 00:11:56,560
+minus 1 yeah 2 from 2 exclusive and now
+
+303
+00:11:54,000 --> 00:11:58,079
+we can just do this data and plus equal
+
+304
+00:11:56,560 --> 00:12:00,160
+one
+
+305
+00:11:58,079 --> 00:12:03,040
+yeah
+
+306
+00:12:00,160 --> 00:12:05,279
+make sense does it make sense
+
+307
+00:12:03,040 --> 00:12:07,040
+really
+
+308
+00:12:05,279 --> 00:12:08,320
+okay can you repeat what daddy says
+
+309
+00:12:07,040 --> 00:12:11,720
+today
+
+310
+00:12:08,320 --> 00:12:11,720
+so we
+
+311
+00:12:20,639 --> 00:12:23,639
+uh
+
+312
+00:12:25,920 --> 00:12:29,839
+b c
+
+313
+00:12:27,200 --> 00:12:29,839
+b c
+
+314
+00:12:30,160 --> 00:12:32,399
+um
+
+315
+00:12:32,480 --> 00:12:37,760
+so k this is the s
+
+316
+00:12:35,839 --> 00:12:38,959
+k equals three how many repeated
+
+317
+00:12:37,760 --> 00:12:40,880
+substring of
+
+318
+00:12:38,959 --> 00:12:42,399
+how many repeated calendar substring
+
+319
+00:12:40,880 --> 00:12:45,680
+appear
+
+320
+00:12:42,399 --> 00:12:47,680
+you know appear more than once
+
+321
+00:12:45,680 --> 00:12:49,600
+how many
+
+322
+00:12:47,680 --> 00:12:52,560
+[Music]
+
+323
+00:12:49,600 --> 00:12:54,160
+k usually so what do we do here we try
+
+324
+00:12:52,560 --> 00:12:56,639
+every
+
+325
+00:12:54,160 --> 00:12:58,160
+and then b b c
+
+326
+00:12:56,639 --> 00:12:59,680
+b c d
+
+327
+00:12:58,160 --> 00:13:01,279
+c d c
+
+328
+00:12:59,680 --> 00:13:02,800
+d c d
+
+329
+00:13:01,279 --> 00:13:06,680
+c d c
+
+330
+00:13:02,800 --> 00:13:06,680
+so which one is repeated
+
+331
+00:13:07,839 --> 00:13:11,120
+make sense
+
+332
+00:13:08,959 --> 00:13:12,720
+okay that's it for today good job
+
+333
+00:13:11,120 --> 00:13:15,720
+bye bye
+
+334
+00:13:12,720 --> 00:13:15,720
+bye
+
