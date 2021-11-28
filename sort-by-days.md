@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sorted by Days
+- Day 342:  [Number of Sublists with Max in Interval](https://helloacm.com/teaching-kids-programming-number-of-sublists-with-max-in-interval/)  数最大值在区间内的子列表数 (子序列, 数学)  [Youtube](https://youtu.be/51t81AT--Dc) - [B站](https://www.bilibili.com/video/BV1EQ4y1i77s/) - [西瓜](https://www.ixigua.com/7035668224142213639) 
 - Day 341:  [Repeated K-Length Substrings (Sliding Window)](https://helloacm.com/teaching-kids-programming-repeated-k-length-substrings-sliding-window/)  数重复出现的K长度的子串(滑动窗口算法)  [Youtube](https://youtu.be/gDXIF8S671k) - [B站](https://www.bilibili.com/video/BV1y3411t7Wg/) - [西瓜](https://www.ixigua.com/7035344006364004877)
 - Day 340:  [Python Function to Find the Mode in an Array (Most Frequent Number)](https://helloacm.com/teaching-kids-programming-python-function-to-find-the-mode-in-an-array-most-frequent-number/)  数组中的众数的计算 (Mode, 数学)  [Youtube](https://youtu.be/k98pAC2vb_0) - [B站](https://www.bilibili.com/video/BV1Fg411K7hy/) - [西瓜](https://www.ixigua.com/7034614572531057189)
 - Day 339:  [Compute the Number of Sublists by Combination in Math](https://helloacm.com/teaching-kids-programming-compute-the-number-of-sublists-by-combination-in-math/)  通过组合数学计算子序列总数  [Youtube](https://youtu.be/82IBw0xaZ1o) - [B站](https://www.bilibili.com/video/BV1RQ4y1v7NG/) - [西瓜](https://www.ixigua.com/7034249873100636708)
