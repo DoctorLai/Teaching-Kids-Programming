@@ -1,0 +1,1000 @@
+1
+00:00:04,960 --> 00:00:09,519
+okay so this is the final three and the
+
+2
+00:00:07,839 --> 00:00:12,000
+green ones
+
+3
+00:00:09,519 --> 00:00:12,799
+are the biggest are the piggies
+
+4
+00:00:12,000 --> 00:00:14,880
+then
+
+5
+00:00:12,799 --> 00:00:18,720
+all its descendants right it could be
+
+6
+00:00:14,880 --> 00:00:21,520
+now it could be bigger or equal than the
+
+7
+00:00:18,720 --> 00:00:24,800
+maximum value of all these sub 3 right
+
+8
+00:00:21,520 --> 00:00:28,480
+for example 6 is maximum it's
+
+9
+00:00:24,800 --> 00:00:31,359
+what's the biggest in in this substrate
+
+10
+00:00:28,480 --> 00:00:33,120
+6 six is bigger or equal three the
+
+11
+00:00:31,359 --> 00:00:35,360
+leaves are okay right
+
+12
+00:00:33,120 --> 00:00:37,520
+leaves of course the leaf for the leaf
+
+13
+00:00:35,360 --> 00:00:40,640
+note with no children
+
+14
+00:00:37,520 --> 00:00:42,399
+obviously they are the biggest of their
+
+15
+00:00:40,640 --> 00:00:43,760
+descendants because they are just lesser
+
+16
+00:00:42,399 --> 00:00:45,280
+okay and then two
+
+17
+00:00:43,760 --> 00:00:46,960
+it's not right because the biggest is
+
+18
+00:00:45,280 --> 00:00:48,640
+six it's not
+
+19
+00:00:46,960 --> 00:00:51,120
+all right
+
+20
+00:00:48,640 --> 00:00:53,360
+so we also called how many notes
+
+21
+00:00:51,120 --> 00:00:55,920
+satisfy these how many notes okay so
+
+22
+00:00:53,360 --> 00:00:58,879
+each note four yeah yeah how many one
+
+23
+00:00:55,920 --> 00:00:58,879
+two three four so because
+
+24
+00:01:05,280 --> 00:01:09,920
+than the maximum of its descendants
+
+25
+00:01:07,920 --> 00:01:11,280
+right yeah
+
+26
+00:01:09,920 --> 00:01:14,479
+so
+
+27
+00:01:11,280 --> 00:01:14,479
+what's your what's your idea
+
+28
+00:01:14,880 --> 00:01:18,080
+yeah proof of thing might work okay
+
+29
+00:01:16,640 --> 00:01:20,799
+proof of thing so how do we prove
+
+30
+00:01:18,080 --> 00:01:22,799
+foreign for each node
+
+31
+00:01:20,799 --> 00:01:24,799
+for each node we
+
+32
+00:01:22,799 --> 00:01:27,600
+okay so for each node we can profile
+
+33
+00:01:24,799 --> 00:01:29,920
+each node for each node we just check we
+
+34
+00:01:27,600 --> 00:01:32,400
+just go through that subtree again
+
+35
+00:01:29,920 --> 00:01:35,119
+to find out the maximum value right but
+
+36
+00:01:32,400 --> 00:01:37,520
+let's going to take
+
+37
+00:01:35,119 --> 00:01:38,720
+what's the term complexity figure out n
+
+38
+00:01:37,520 --> 00:01:40,479
+square yeah well now because they're
+
+39
+00:01:38,720 --> 00:01:42,720
+equal a foreign right
+
+40
+00:01:40,479 --> 00:01:44,000
+and then you visit for each node you
+
+41
+00:01:42,720 --> 00:01:46,720
+need to visit
+
+42
+00:01:44,000 --> 00:01:48,320
+this subtree and that's going to take
+
+43
+00:01:46,720 --> 00:01:50,880
+roughly o
+
+44
+00:01:48,320 --> 00:01:53,520
+n right on every g o n two but the time
+
+45
+00:01:50,880 --> 00:01:55,439
+converse is o n times n divided by two
+
+46
+00:01:53,520 --> 00:01:56,719
+which is one square okay
+
+47
+00:01:55,439 --> 00:01:59,119
+let's do stuff
+
+48
+00:01:56,719 --> 00:02:01,040
+however if if
+
+49
+00:01:59,119 --> 00:02:03,520
+how about if i tell you that at some
+
+50
+00:02:01,040 --> 00:02:05,840
+point we know at this point we know the
+
+51
+00:02:03,520 --> 00:02:08,479
+maximum of left tree and then the right
+
+52
+00:02:05,840 --> 00:02:10,959
+maximum of right three right i know
+
+53
+00:02:08,479 --> 00:02:12,160
+obviously at this point at this point we
+
+54
+00:02:10,959 --> 00:02:14,080
+know
+
+55
+00:02:12,160 --> 00:02:16,800
+we know what we know the maximum
+
+56
+00:02:14,080 --> 00:02:18,800
+electricity level net tree and maximum
+
+57
+00:02:16,800 --> 00:02:20,800
+of right tree we can do this recursively
+
+58
+00:02:18,800 --> 00:02:22,800
+right and then we obviously we know the
+
+59
+00:02:20,800 --> 00:02:25,760
+value column variable and if the current
+
+60
+00:02:22,800 --> 00:02:27,520
+value is bigger than the left max and
+
+61
+00:02:25,760 --> 00:02:30,000
+the right next
+
+62
+00:02:27,520 --> 00:02:31,920
+then we increment the answer make sense
+
+63
+00:02:30,000 --> 00:02:34,480
+and then you return the answer
+
+64
+00:02:31,920 --> 00:02:38,080
+now for this one we do ten for each
+
+65
+00:02:34,480 --> 00:02:42,160
+recursion we do this we we return the
+
+66
+00:02:38,080 --> 00:02:42,160
+the maximum of the sub tree okay
+
+67
+00:02:42,480 --> 00:02:45,360
+what i mean
+
+68
+00:02:45,440 --> 00:02:50,879
+if look leave this three okay okay i
+
+69
+00:02:48,000 --> 00:02:52,879
+have a note what's the
+
+70
+00:02:50,879 --> 00:02:55,599
+what's the pre-order for for this
+
+71
+00:02:52,879 --> 00:02:56,800
+chinese spanish what's the pre-order
+
+72
+00:02:55,599 --> 00:02:59,440
+ryan
+
+73
+00:02:56,800 --> 00:02:59,440
+pre-order
+
+74
+00:02:59,920 --> 00:03:06,159
+yeah one one two
+
+75
+00:03:02,720 --> 00:03:06,159
+what's the post order
+
+76
+00:03:09,760 --> 00:03:16,640
+one post order oh two one i mean
+
+77
+00:03:13,920 --> 00:03:19,920
+one what's that in order ryan what's
+
+78
+00:03:16,640 --> 00:03:23,440
+another if you want to visit the one in
+
+79
+00:03:19,920 --> 00:03:23,440
+in the middle what's the in order
+
+80
+00:03:23,519 --> 00:03:27,120
+uh
+
+81
+00:03:24,560 --> 00:03:28,239
+uh one two three let me know let's play
+
+82
+00:03:27,120 --> 00:03:31,180
+other here
+
+83
+00:03:28,239 --> 00:03:34,349
+what's the another come on
+
+84
+00:03:31,180 --> 00:03:34,349
+[Music]
+
+85
+00:03:40,959 --> 00:03:46,000
+so now look if we visit the tree which
+
+86
+00:03:43,680 --> 00:03:47,840
+is the post order post order because the
+
+87
+00:03:46,000 --> 00:03:50,159
+repose order will be to the left tree
+
+88
+00:03:47,840 --> 00:03:52,319
+first with the right trees up first for
+
+89
+00:03:50,159 --> 00:03:55,760
+each sub for each recursion code we
+
+90
+00:03:52,319 --> 00:03:58,239
+return the maximum of that subtree right
+
+91
+00:03:55,760 --> 00:04:00,400
+all right at this point we know the
+
+92
+00:03:58,239 --> 00:04:02,560
+maximum of the left left tree and the
+
+93
+00:04:00,400 --> 00:04:05,680
+right maximum of right tree
+
+94
+00:04:02,560 --> 00:04:07,599
+and if this node the neutron is bigger
+
+95
+00:04:05,680 --> 00:04:09,280
+than the both then we increment the
+
+96
+00:04:07,599 --> 00:04:11,439
+answer right
+
+97
+00:04:09,280 --> 00:04:14,159
+makes sense
+
+98
+00:04:11,439 --> 00:04:15,360
+what is that you're busy joining
+
+99
+00:04:14,159 --> 00:04:17,120
+increment
+
+100
+00:04:15,360 --> 00:04:19,600
+what increment
+
+101
+00:04:17,120 --> 00:04:19,600
+what do you mean
+
+102
+00:04:20,239 --> 00:04:23,919
+we're going to implement this
+
+103
+00:04:24,639 --> 00:04:26,880
+are you finished or not
+
+104
+00:04:26,080 --> 00:04:29,919
+no
+
+105
+00:04:26,880 --> 00:04:31,759
+okay i wait if you finish
+
+106
+00:04:29,919 --> 00:04:35,840
+wow what you drawing
+
+107
+00:04:31,759 --> 00:04:37,759
+ryan i'm doing a doodle right okay
+
+108
+00:04:35,840 --> 00:04:40,960
+that's it no more no more come on can i
+
+109
+00:04:37,759 --> 00:04:45,040
+have it start with shooting stars okay
+
+110
+00:04:40,960 --> 00:04:46,639
+so now let's say defined let's say count
+
+111
+00:04:45,040 --> 00:04:48,800
+maximum okay
+
+112
+00:04:46,639 --> 00:04:51,680
+no okay comments now
+
+113
+00:04:48,800 --> 00:04:52,720
+and then we have la lute what's missing
+
+114
+00:04:51,680 --> 00:04:54,720
+color
+
+115
+00:04:52,720 --> 00:04:56,720
+okay and then now we want to
+
+116
+00:04:54,720 --> 00:04:59,040
+accumulate the answer here answer equals
+
+117
+00:04:56,720 --> 00:05:01,840
+zero and we have a first order yeah
+
+118
+00:04:59,040 --> 00:05:03,520
+that's my search press close order load
+
+119
+00:05:01,840 --> 00:05:05,840
+so what's this function return by the
+
+120
+00:05:03,520 --> 00:05:08,080
+way what's the this function written it
+
+121
+00:05:05,840 --> 00:05:10,080
+returns with that
+
+122
+00:05:08,080 --> 00:05:11,680
+what's the what what are we talking
+
+123
+00:05:10,080 --> 00:05:12,479
+about what's what
+
+124
+00:05:11,680 --> 00:05:15,520
+look
+
+125
+00:05:12,479 --> 00:05:18,400
+i just said for the post order
+
+126
+00:05:15,520 --> 00:05:19,680
+yeah post order i if i'm at this point
+
+127
+00:05:18,400 --> 00:05:22,160
+loot
+
+128
+00:05:19,680 --> 00:05:24,880
+so this is the left max the max of the
+
+129
+00:05:22,160 --> 00:05:27,120
+left tree the right so what's your
+
+130
+00:05:24,880 --> 00:05:29,759
+return for this definition
+
+131
+00:05:27,120 --> 00:05:29,759
+the one
+
+132
+00:05:30,160 --> 00:05:33,919
+left left and left
+
+133
+00:05:33,039 --> 00:05:36,080
+what's
+
+134
+00:05:33,919 --> 00:05:37,840
+what's your return
+
+135
+00:05:36,080 --> 00:05:39,919
+yeah and then what's at this point i
+
+136
+00:05:37,840 --> 00:05:41,840
+need to return what you need to return
+
+137
+00:05:39,919 --> 00:05:43,600
+if root is
+
+138
+00:05:41,840 --> 00:05:46,479
+greater
+
+139
+00:05:43,600 --> 00:05:48,400
+than left max and right for each
+
+140
+00:05:46,479 --> 00:05:51,039
+recursion we just want to return the
+
+141
+00:05:48,400 --> 00:05:53,520
+maximum value of that substrate right
+
+142
+00:05:51,039 --> 00:05:55,840
+and then it can be compared by
+
+143
+00:05:53,520 --> 00:05:58,720
+by the by three values what are the
+
+144
+00:05:55,840 --> 00:06:01,120
+three values we need to compare
+
+145
+00:05:58,720 --> 00:06:02,479
+right now yeah do the value left and we
+
+146
+00:06:01,120 --> 00:06:05,360
+can do this because
+
+147
+00:06:02,479 --> 00:06:07,199
+the bottom up right in the bottom so we
+
+148
+00:06:05,360 --> 00:06:09,680
+we passed pass
+
+149
+00:06:07,199 --> 00:06:12,319
+so we passed top yeah we passed along
+
+150
+00:06:09,680 --> 00:06:12,319
+the way okay
+
+151
+00:06:14,720 --> 00:06:22,400
+so look now if not loot if loot is empty
+
+152
+00:06:18,400 --> 00:06:22,400
+what should we return the maximum
+
+153
+00:06:22,960 --> 00:06:26,639
+the very small value what can you think
+
+154
+00:06:25,440 --> 00:06:29,199
+of
+
+155
+00:06:26,639 --> 00:06:30,960
+the smallest value you can think of
+
+156
+00:06:29,199 --> 00:06:32,639
+plus one
+
+157
+00:06:30,960 --> 00:06:34,479
+y plus one
+
+158
+00:06:32,639 --> 00:06:35,759
+mass dot infinity yeah
+
+159
+00:06:34,479 --> 00:06:36,880
+infinity
+
+160
+00:06:35,759 --> 00:06:39,680
+and one
+
+161
+00:06:36,880 --> 00:06:43,039
+no we don't need one okay why why you
+
+162
+00:06:39,680 --> 00:06:47,199
+need to put plus one yeah no return
+
+163
+00:06:43,039 --> 00:06:50,800
+math dot infinite infinity then one
+
+164
+00:06:47,199 --> 00:06:54,639
+one what what one is coming on infinity
+
+165
+00:06:50,800 --> 00:06:57,440
+and one because if infinity and one is
+
+166
+00:06:54,639 --> 00:06:59,759
+smaller then
+
+167
+00:06:57,440 --> 00:07:02,160
+okay so you mean no no no no next
+
+168
+00:06:59,759 --> 00:07:04,639
+infinity is the smallest number we can
+
+169
+00:07:02,160 --> 00:07:06,000
+think of okay look i can think of
+
+170
+00:07:04,639 --> 00:07:07,919
+something
+
+171
+00:07:06,000 --> 00:07:09,599
+the first order we just say the first
+
+172
+00:07:07,919 --> 00:07:11,759
+order of the one
+
+173
+00:07:09,599 --> 00:07:13,919
+first order this is the root
+
+174
+00:07:11,759 --> 00:07:15,759
+and then this is left
+
+175
+00:07:13,919 --> 00:07:16,960
+this is the right so what's the post
+
+176
+00:07:15,759 --> 00:07:19,039
+order
+
+177
+00:07:16,960 --> 00:07:22,479
+first of the is left
+
+178
+00:07:19,039 --> 00:07:25,199
+left right and right okay so left equal
+
+179
+00:07:22,479 --> 00:07:25,199
+dfs
+
+180
+00:07:26,160 --> 00:07:30,639
+left
+
+181
+00:07:27,280 --> 00:07:30,639
+and then right
+
+182
+00:07:32,560 --> 00:07:37,520
+minus infinity just kidding
+
+183
+00:07:35,360 --> 00:07:38,880
+blue dot right okay so
+
+184
+00:07:37,520 --> 00:07:41,280
+so now
+
+185
+00:07:38,880 --> 00:07:42,319
+why do you have a minus infinity there
+
+186
+00:07:41,280 --> 00:07:45,039
+okay
+
+187
+00:07:42,319 --> 00:07:45,039
+okay so i have
+
+188
+00:08:03,760 --> 00:08:06,970
+[Music]
+
+189
+00:08:10,960 --> 00:08:15,520
+and one left is here and right right so
+
+190
+00:08:14,160 --> 00:08:18,160
+because this one
+
+191
+00:08:15,520 --> 00:08:20,000
+okay now at this point i need to i need
+
+192
+00:08:18,160 --> 00:08:22,400
+to compare i need to increment and what
+
+193
+00:08:20,000 --> 00:08:24,000
+cases i need to increment this answer
+
+194
+00:08:22,400 --> 00:08:27,199
+okay i need to put it here there's a
+
+195
+00:08:24,000 --> 00:08:29,199
+number here to to allow us to to
+
+196
+00:08:27,199 --> 00:08:31,360
+increment this value here non-local
+
+197
+00:08:29,199 --> 00:08:33,360
+answer okay so i in what cases we need
+
+198
+00:08:31,360 --> 00:08:36,240
+to increment our answer
+
+199
+00:08:33,360 --> 00:08:38,800
+if if one
+
+200
+00:08:36,240 --> 00:08:42,640
+if root of value
+
+201
+00:08:38,800 --> 00:08:44,959
+is bigger than one equal than one
+
+202
+00:08:42,640 --> 00:08:44,959
+come on
+
+203
+00:08:45,279 --> 00:08:48,800
+left and right yeah left
+
+204
+00:08:47,680 --> 00:08:52,399
+and
+
+205
+00:08:48,800 --> 00:08:53,200
+rule the value is bigger or equal than y
+
+206
+00:08:52,399 --> 00:08:55,279
+right
+
+207
+00:08:53,200 --> 00:08:56,480
+because now at this point this node is
+
+208
+00:08:55,279 --> 00:08:58,320
+bigger
+
+209
+00:08:56,480 --> 00:09:00,640
+this node's value is bigger than the
+
+210
+00:08:58,320 --> 00:09:03,120
+left tree and the right tree all right
+
+211
+00:09:00,640 --> 00:09:05,040
+i'm right all right and answer plus
+
+212
+00:09:03,120 --> 00:09:07,120
+equals one okay
+
+213
+00:09:05,040 --> 00:09:08,399
+and then i just have the difference
+
+214
+00:09:07,120 --> 00:09:11,920
+route
+
+215
+00:09:08,399 --> 00:09:11,920
+and then one return
+
+216
+00:09:13,200 --> 00:09:16,880
+return
+
+217
+00:09:15,120 --> 00:09:20,480
+answer
+
+218
+00:09:16,880 --> 00:09:20,480
+easy what's the time the next thing
+
+219
+00:09:24,480 --> 00:09:29,760
+each node is visited exactly one what's
+
+220
+00:09:26,640 --> 00:09:29,760
+the space convexity
+
+221
+00:09:30,560 --> 00:09:35,440
+because we're using the recursion post
+
+222
+00:09:32,560 --> 00:09:38,959
+order the stack okay this day the stack
+
+223
+00:09:35,440 --> 00:09:41,120
+is implicitly used okay by recursion is
+
+224
+00:09:38,959 --> 00:09:42,800
+a mistake the compiler the computer
+
+225
+00:09:41,120 --> 00:09:45,360
+build the stack okay
+
+226
+00:09:42,800 --> 00:09:47,279
+yeah here's the step for us
+
+227
+00:09:45,360 --> 00:09:49,200
+can can you not draw that i'm gonna ask
+
+228
+00:09:47,279 --> 00:09:51,200
+you questions can you explain to me
+
+229
+00:09:49,200 --> 00:09:53,920
+what's this function return test search
+
+230
+00:09:51,200 --> 00:09:56,480
+answer i no no no
+
+231
+00:09:53,920 --> 00:09:59,279
+what's this function return it returns
+
+232
+00:09:56,480 --> 00:10:01,839
+return it returns return max read dot
+
+233
+00:09:59,279 --> 00:10:04,640
+value what's right yeah yeah then what
+
+234
+00:10:01,839 --> 00:10:08,640
+does it mean that you return the max
+
+235
+00:10:04,640 --> 00:10:10,800
+element of this and maximum this and so
+
+236
+00:10:08,640 --> 00:10:13,120
+no no no so what do you compare it with
+
+237
+00:10:10,800 --> 00:10:14,720
+this okay let's return uh what return
+
+238
+00:10:13,120 --> 00:10:18,959
+the maximum of the
+
+239
+00:10:14,720 --> 00:10:21,440
+value in the current subtree right
+
+240
+00:10:18,959 --> 00:10:23,680
+you need to express it well okay i know
+
+241
+00:10:21,440 --> 00:10:25,839
+you understand but you need to try to
+
+242
+00:10:23,680 --> 00:10:27,440
+express it you're trying to explain to
+
+243
+00:10:25,839 --> 00:10:29,360
+people okay
+
+244
+00:10:27,440 --> 00:10:30,880
+make sense ryan do you understand any
+
+245
+00:10:29,360 --> 00:10:32,640
+questions
+
+246
+00:10:30,880 --> 00:10:33,839
+no okay
+
+247
+00:10:32,640 --> 00:10:34,720
+bye
+
+248
+00:10:33,839 --> 00:10:36,079
+bye
+
+249
+00:10:34,720 --> 00:10:38,800
+bye bye
+
+250
+00:10:36,079 --> 00:10:38,800
+bye
+
