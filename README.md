@@ -128,6 +128,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Linked List 链表
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Insert Into Linked List (Node Insertion Algorithm) | 链表节点插入算法 | [Youtube](https://youtu.be/OXVrsBs9a5I) - [B站](https://www.bilibili.com/video/BV16b4y1B7zu/) - [西瓜](https://www.ixigua.com/7036489085564748301) | [Insert Into Linked List (Node Insertion Algorithm)](https://helloacm.com/teaching-kids-programming-insert-into-linked-list-node-insertion-algorithm/) | 2021-11-30 |
 | Length of a Linked List (Recursion / Iterative Algorithm) | 单向双向链接求长度的递归和迭代算法 | [Youtube](https://youtu.be/DCQj51wuzd4) - [B站](https://www.bilibili.com/video/BV1tR4y1E7aD/) - [西瓜](https://www.ixigua.com/7027376642783871501) | [Length of a Linked List (Recursion / Iterative Algorithm)](https://helloacm.com/teaching-kisd-programming-finding-the-length-of-a-linked-list-recursion-and-iterative-algorithm/) | 2021-11-05 |
 | Introduction to Linked List Data Structure | 数据结构之单向链表 | [Youtube](https://www.youtube.com/watch?v=Y_kgUaOC6no) - [B站](https://www.bilibili.com/video/BV17i4y1w7iK/) | [Introduction to Linked List Data Structure](https://helloacm.com/teaching-kids-programming-linked-list-data-structure/) | 2020-12-28 |
 
