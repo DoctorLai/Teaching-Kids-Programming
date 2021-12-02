@@ -166,10 +166,16 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Algorithms to Find the Cycle of a Linked List | 单向链表是否有环的算法 | [Youtube](https://www.youtube.com/watch?v=xAFB12LVqPw) - [B站](https://www.bilibili.com/video/BV1Tp4y1B77G/) | [Algorithms to Find the Cycle of a Linked List](https://helloacm.com/teaching-kids-programming-algorithms-to-find-the-cycle-of-a-linked-list/) | 2020-12-30 |
 | Fast and Slow Pointer to Obtain the Middle of the Linked List | 快慢指针求单向链表中间的算法 | [Youtube](https://youtu.be/iyQ-uHCgH_I) - [B站](https://www.bilibili.com/video/BV1nX4y1T77z/) | [Fast and Slow Pointer to Obtain the Middle of the Linked List](https://helloacm.com/teaching-kids-programming-fast-and-slow-pointer-to-obtain-the-middle-of-the-linked-list/) | 2020-12-29 |
 | Binary Tree Traversal Algorithms | 二叉树的遍例算法 | [Youtube](https://www.youtube.com/watch?v=WdBlbOmIHlc) - [B站](https://www.bilibili.com/video/BV1QK411u7V1/) | [Binary Tree Traversal Algorithms](https://helloacm.com/teaching-kids-programming-binary-tree-traversal-algorithms/) | 2020-12-18 |
-| QuickSort Algorithm Simply Explained | 快排序算法 | [Youtube](https://www.youtube.com/watch?v=g8WvhdO6TSo) - [B站](https://www.bilibili.com/video/BV15f4y1i7Vt/) | [QuickSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-quicksort-algorithm-simply-explained/) | 2020-12-10 |
-| MergeSort Algorithm Simply Explained | 归并排序简介 | [Youtube](https://www.youtube.com/watch?v=aiJnCXsqwcg) - [B站](https://www.bilibili.com/video/BV1oV41187z1/) | [MergeSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-mergesort-simply-explained/) | 2020-12-11 |
 | Algorithms to Search in a Binary Search Tree | 在二分搜索树里查找算法 | [Youtube](https://www.youtube.com/watch?v=ZyL4iPAza-I) - [B站](https://www.bilibili.com/video/BV1Xa4y1H7Bc/) | [Algorithms to Search in a Binary Search Tree](https://helloacm.com/teaching-kids-programming-algorithms-to-search-in-binary-search-tree/) | 2020-12-16 |
 | Algorithms of Greatest Common Divisor and Least Common Multiples | 求最大公约数和最小公倍数的算法 | [Youtube](https://www.youtube.com/watch?v=mmvdrFYu5X0) - [B站](https://www.bilibili.com/video/BV1XK41137KA/) | [Algorithms of Greatest Common Divisor and Least Common Multiples](https://helloacm.com/teaching-kids-programming-algorithms-of-greatest-common-divisor-and-least-common-multiples/) | 2020-12-03 |
+
+## Sorting 排序
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Bubble Sorting (Simple Sorting Algorithm) | 简单排序之冒泡排序算法 | [Youtube](https://youtu.be/fY3dd_AyJMU) - [B站](https://www.bilibili.com/video/BV1zU4y1T7WB/) - [西瓜](https://www.ixigua.com/7037021135887827486) | [Bubble Sorting (Simple Sorting Algorithm)](https://helloacm.com/teaching-kids-programming-bubble-sorting-simple-sorting-algorithm/) | 2021-12-01 |
+| QuickSort Algorithm Simply Explained | 快排序算法 | [Youtube](https://www.youtube.com/watch?v=g8WvhdO6TSo) - [B站](https://www.bilibili.com/video/BV15f4y1i7Vt/) | [QuickSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-quicksort-algorithm-simply-explained/) | 2020-12-10 |
+| MergeSort Algorithm Simply Explained | 归并排序简介 | [Youtube](https://www.youtube.com/watch?v=aiJnCXsqwcg) - [B站](https://www.bilibili.com/video/BV1oV41187z1/) | [MergeSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-mergesort-simply-explained/) | 2020-12-11 |
+
 
 ## Binary Search 二分搜索
 | Title | Title Chinese | Video | Blog | Date |
