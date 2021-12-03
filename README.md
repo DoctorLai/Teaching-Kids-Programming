@@ -172,6 +172,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Sorting 排序
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Selection Sorting (Simple Sorting Algorithm) | 简单排序之选择排序算法 | [Youtube](https://youtu.be/CyD6YjfyDTM) - [B站](https://www.bilibili.com/video/BV12b4y1B7Kh/) - [西瓜](https://www.ixigua.com/7037228495205827103) | [Selection Sorting (Simple Sorting Algorithm)](https://helloacm.com/teaching-kids-programming-selection-sorting-simple-sorting-algorithm/) | 2021-12-02 |
 | Bubble Sorting (Simple Sorting Algorithm) | 简单排序之冒泡排序算法 | [Youtube](https://youtu.be/fY3dd_AyJMU) - [B站](https://www.bilibili.com/video/BV1zU4y1T7WB/) - [西瓜](https://www.ixigua.com/7037021135887827486) | [Bubble Sorting (Simple Sorting Algorithm)](https://helloacm.com/teaching-kids-programming-bubble-sorting-simple-sorting-algorithm/) | 2021-12-01 |
 | QuickSort Algorithm Simply Explained | 快排序算法 | [Youtube](https://www.youtube.com/watch?v=g8WvhdO6TSo) - [B站](https://www.bilibili.com/video/BV15f4y1i7Vt/) | [QuickSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-quicksort-algorithm-simply-explained/) | 2020-12-10 |
 | MergeSort Algorithm Simply Explained | 归并排序简介 | [Youtube](https://www.youtube.com/watch?v=aiJnCXsqwcg) - [B站](https://www.bilibili.com/video/BV1oV41187z1/) | [MergeSort Algorithm Simply Explained](https://helloacm.com/teaching-kids-programming-mergesort-simply-explained/) | 2020-12-11 |
