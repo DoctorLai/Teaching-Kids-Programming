@@ -1,0 +1,1628 @@
+1
+00:00:00,000 --> 00:00:02,240
+go
+
+2
+00:00:00,880 --> 00:00:05,359
+hello
+
+3
+00:00:02,240 --> 00:00:07,200
+hello mr mr ryan all right yeah
+
+4
+00:00:05,359 --> 00:00:08,800
+okay so yesterday we talked about the
+
+5
+00:00:07,200 --> 00:00:11,759
+bubble sorting which is a simple salt
+
+6
+00:00:08,800 --> 00:00:13,360
+right bubble saltine and we also talked
+
+7
+00:00:11,759 --> 00:00:16,720
+about
+
+8
+00:00:13,360 --> 00:00:19,039
+not non-simple sorting which is which
+
+9
+00:00:16,720 --> 00:00:20,880
+what kind of non-simple sorting we have
+
+10
+00:00:19,039 --> 00:00:23,760
+done in the past
+
+11
+00:00:20,880 --> 00:00:25,039
+the one with the oh and again yeah yeah
+
+12
+00:00:23,760 --> 00:00:28,240
+we're done
+
+13
+00:00:25,039 --> 00:00:30,240
+quick salt and another one
+
+14
+00:00:28,240 --> 00:00:32,320
+bubble sauce bubble sauce is a simple
+
+15
+00:00:30,240 --> 00:00:35,040
+saltine you know if there are numbers
+
+16
+00:00:32,320 --> 00:00:37,520
+and we have spread it and then
+
+17
+00:00:35,040 --> 00:00:40,079
+merge it together what do we call it
+
+18
+00:00:37,520 --> 00:00:41,840
+yeah i'm not salt
+
+19
+00:00:40,079 --> 00:00:44,559
+and with the bubble sauce
+
+20
+00:00:41,840 --> 00:00:46,239
+so let's say three two five
+
+21
+00:00:44,559 --> 00:00:48,239
+four
+
+22
+00:00:46,239 --> 00:00:50,960
+one okay so
+
+23
+00:00:48,239 --> 00:00:53,440
+when every time we start a round of
+
+24
+00:00:50,960 --> 00:00:55,199
+sorting we we swap the two numbers if
+
+25
+00:00:53,440 --> 00:00:57,520
+this number is bigger than the last one
+
+26
+00:00:55,199 --> 00:01:00,079
+right so look three and two three is
+
+27
+00:00:57,520 --> 00:01:02,559
+bigger than two so we swap it so we
+
+28
+00:01:00,079 --> 00:01:05,199
+actually when we perform this one longer
+
+29
+00:01:02,559 --> 00:01:07,680
+swapping we always move the largest
+
+30
+00:01:05,199 --> 00:01:10,560
+number to the to the end right so
+
+31
+00:01:07,680 --> 00:01:11,760
+basically we have a array we just divide
+
+32
+00:01:10,560 --> 00:01:13,280
+it into
+
+33
+00:01:11,760 --> 00:01:15,360
+two halves
+
+34
+00:01:13,280 --> 00:01:17,840
+the left sub array
+
+35
+00:01:15,360 --> 00:01:19,600
+that that sub array is the one which is
+
+36
+00:01:17,840 --> 00:01:21,520
+unsorted
+
+37
+00:01:19,600 --> 00:01:24,400
+yeah
+
+38
+00:01:21,520 --> 00:01:28,080
+and then the one on the right is sorted
+
+39
+00:01:24,400 --> 00:01:30,400
+so every time we do this bubble sorting
+
+40
+00:01:28,080 --> 00:01:32,880
+we move the one from the unsorted to the
+
+41
+00:01:30,400 --> 00:01:34,560
+salty one right make sense
+
+42
+00:01:32,880 --> 00:01:36,159
+okay so today we talked about another
+
+43
+00:01:34,560 --> 00:01:38,000
+sorting algorithm which is also simple
+
+44
+00:01:36,159 --> 00:01:41,200
+saudi arabia
+
+45
+00:01:38,000 --> 00:01:44,000
+which is called selection sort
+
+46
+00:01:41,200 --> 00:01:47,920
+selection sort
+
+47
+00:01:44,000 --> 00:01:47,920
+yeah what's selection selection
+
+48
+00:01:48,320 --> 00:01:50,799
+okay
+
+49
+00:01:49,119 --> 00:01:53,920
+selection sort
+
+50
+00:01:50,799 --> 00:01:55,920
+it means that okay so we have array like
+
+51
+00:01:53,920 --> 00:01:59,439
+three two five
+
+52
+00:01:55,920 --> 00:02:01,280
+four one seven right
+
+53
+00:01:59,439 --> 00:02:03,920
+okay so now
+
+54
+00:02:01,280 --> 00:02:07,119
+we if we divide this array into two sub
+
+55
+00:02:03,920 --> 00:02:08,959
+array the left one is the one which is
+
+56
+00:02:07,119 --> 00:02:10,560
+salted
+
+57
+00:02:08,959 --> 00:02:12,480
+and then the right
+
+58
+00:02:10,560 --> 00:02:13,760
+is the unsalted okay it's slightly
+
+59
+00:02:12,480 --> 00:02:16,000
+different
+
+60
+00:02:13,760 --> 00:02:18,319
+than the sim than the bubble soldering
+
+61
+00:02:16,000 --> 00:02:20,800
+bubble saltine is the opposite the left
+
+62
+00:02:18,319 --> 00:02:22,640
+is unsalted we bubble it out and move
+
+63
+00:02:20,800 --> 00:02:24,879
+the largest one to the end let's start
+
+64
+00:02:22,640 --> 00:02:27,280
+the inner third error
+
+65
+00:02:24,879 --> 00:02:30,640
+but the selection thought is the left
+
+66
+00:02:27,280 --> 00:02:32,640
+the left sub array is sorted the right
+
+67
+00:02:30,640 --> 00:02:34,800
+sub array this partition here is
+
+68
+00:02:32,640 --> 00:02:37,920
+inserted so look
+
+69
+00:02:34,800 --> 00:02:40,239
+so every time i pick from here which
+
+70
+00:02:37,920 --> 00:02:42,400
+number is the smallest
+
+71
+00:02:40,239 --> 00:02:45,280
+three to five for one second which one
+
+72
+00:02:42,400 --> 00:02:48,640
+which number is the smallest
+
+73
+00:02:45,280 --> 00:02:49,760
+one one then okay i said this one
+
+74
+00:02:48,640 --> 00:02:53,840
+right
+
+75
+00:02:49,760 --> 00:02:56,160
+and i swap it with these and here right
+
+76
+00:02:53,840 --> 00:02:58,400
+so what happens so this becomes three
+
+77
+00:02:56,160 --> 00:02:59,599
+this becomes one
+
+78
+00:02:58,400 --> 00:03:01,120
+all right
+
+79
+00:02:59,599 --> 00:03:03,040
+all right and now
+
+80
+00:03:01,120 --> 00:03:05,680
+in philosophy we have one element let's
+
+81
+00:03:03,040 --> 00:03:07,519
+move to here from two to seven which is
+
+82
+00:03:05,680 --> 00:03:09,680
+the smallest
+
+83
+00:03:07,519 --> 00:03:12,640
+which one is the smallest two okay then
+
+84
+00:03:09,680 --> 00:03:15,599
+two swap it with itself right
+
+85
+00:03:12,640 --> 00:03:17,680
+okay so then i need to move another one
+
+86
+00:03:15,599 --> 00:03:20,480
+to left five four
+
+87
+00:03:17,680 --> 00:03:22,720
+three seven which one is the smallest
+
+88
+00:03:20,480 --> 00:03:25,120
+uh three so what should we do with the
+
+89
+00:03:22,720 --> 00:03:26,000
+three put it
+
+90
+00:03:25,120 --> 00:03:26,720
+um
+
+91
+00:03:26,000 --> 00:03:28,879
+and
+
+92
+00:03:26,720 --> 00:03:31,280
+move it with a five yeah sloppy is five
+
+93
+00:03:28,879 --> 00:03:34,400
+so not five
+
+94
+00:03:31,280 --> 00:03:36,319
+three yeah and then now we i we have one
+
+95
+00:03:34,400 --> 00:03:39,200
+more element with the inner sorted so i
+
+96
+00:03:36,319 --> 00:03:41,760
+move it here so four five seven which is
+
+97
+00:03:39,200 --> 00:03:43,040
+the smallest four so what do we do with
+
+98
+00:03:41,760 --> 00:03:44,080
+the four
+
+99
+00:03:43,040 --> 00:03:46,239
+leave it
+
+100
+00:03:44,080 --> 00:03:48,239
+we stop with itself so it it doesn't
+
+101
+00:03:46,239 --> 00:03:50,879
+move okay and then five and seven okay
+
+102
+00:03:48,239 --> 00:03:52,720
+five is the smallest you get it
+
+103
+00:03:50,879 --> 00:03:54,480
+might make sense let's do another
+
+104
+00:03:52,720 --> 00:03:56,640
+example okay so you know i understand
+
+105
+00:03:54,480 --> 00:03:59,439
+this is very easy simple sorting
+
+106
+00:03:56,640 --> 00:04:02,080
+evidence is very very easy right looks
+
+107
+00:03:59,439 --> 00:04:04,480
+bubble solving right look right right
+
+108
+00:04:02,080 --> 00:04:06,640
+bubble sorting yeah you blow a purple
+
+109
+00:04:04,480 --> 00:04:07,840
+and the bigger bubble will be moving to
+
+110
+00:04:06,640 --> 00:04:08,640
+the end right
+
+111
+00:04:07,840 --> 00:04:11,519
+so
+
+112
+00:04:08,640 --> 00:04:14,239
+so we have a raise so the right hand
+
+113
+00:04:11,519 --> 00:04:16,320
+side then this part the right yeah is
+
+114
+00:04:14,239 --> 00:04:17,199
+the one already salted with the bubbles
+
+115
+00:04:16,320 --> 00:04:19,759
+of him
+
+116
+00:04:17,199 --> 00:04:20,959
+yeah you always pop it up
+
+117
+00:04:19,759 --> 00:04:23,520
+bubble up
+
+118
+00:04:20,959 --> 00:04:25,440
+bubble up largest element and bubble it
+
+119
+00:04:23,520 --> 00:04:28,800
+up yeah swap him but the ways the
+
+120
+00:04:25,440 --> 00:04:33,040
+selection thought is the opposite uh the
+
+121
+00:04:28,800 --> 00:04:35,919
+the area yeah this is this is sorted
+
+122
+00:04:33,040 --> 00:04:38,080
+and then here is unsorted yeah
+
+123
+00:04:35,919 --> 00:04:40,160
+so every time we perform a selection so
+
+124
+00:04:38,080 --> 00:04:43,199
+we have one more element
+
+125
+00:04:40,160 --> 00:04:45,680
+right select it from the unsorted area
+
+126
+00:04:43,199 --> 00:04:47,840
+so we have increased the sorted sub
+
+127
+00:04:45,680 --> 00:04:49,360
+array with one element and we have
+
+128
+00:04:47,840 --> 00:04:52,320
+decremented
+
+129
+00:04:49,360 --> 00:04:53,919
+let's unsorted sub array with one
+
+130
+00:04:52,320 --> 00:04:55,440
+element less
+
+131
+00:04:53,919 --> 00:04:58,720
+make sense
+
+132
+00:04:55,440 --> 00:05:00,720
+okay let's do one more example
+
+133
+00:04:58,720 --> 00:05:04,880
+five four
+
+134
+00:05:00,720 --> 00:05:07,039
+seven six two one
+
+135
+00:05:04,880 --> 00:05:10,550
+so what should we do
+
+136
+00:05:07,039 --> 00:05:13,720
+okay so now with five
+
+137
+00:05:10,550 --> 00:05:13,720
+[Music]
+
+138
+00:05:19,280 --> 00:05:22,639
+yeah
+
+139
+00:05:21,039 --> 00:05:26,080
+and uh
+
+140
+00:05:22,639 --> 00:05:29,360
+five swap with
+
+141
+00:05:26,080 --> 00:05:31,840
+six six yeah okay
+
+142
+00:05:29,360 --> 00:05:34,479
+six wow you got it pretty quickly yeah
+
+143
+00:05:31,840 --> 00:05:38,440
+let's the the that's it yeah that's the
+
+144
+00:05:34,479 --> 00:05:38,440
+egg one let's write it
+
+145
+00:05:38,960 --> 00:05:44,000
+and you need to think about
+
+146
+00:05:40,880 --> 00:05:45,199
+what's the kind complex pi
+
+147
+00:05:44,000 --> 00:05:46,720
+you need to think about the time
+
+148
+00:05:45,199 --> 00:05:51,120
+conversion
+
+149
+00:05:46,720 --> 00:05:51,120
+define let's call it selection sort
+
+150
+00:05:51,840 --> 00:05:57,039
+numbers
+
+151
+00:05:54,400 --> 00:05:59,919
+so now we want to call this n equal the
+
+152
+00:05:57,039 --> 00:06:01,039
+number of elements nums
+
+153
+00:05:59,919 --> 00:06:04,080
+right
+
+154
+00:06:01,039 --> 00:06:04,960
+so now i need to go through this for
+
+155
+00:06:04,080 --> 00:06:06,639
+i
+
+156
+00:06:04,960 --> 00:06:09,199
+in
+
+157
+00:06:06,639 --> 00:06:11,039
+range
+
+158
+00:06:09,199 --> 00:06:12,800
+n right
+
+159
+00:06:11,039 --> 00:06:15,280
+right and then i
+
+160
+00:06:12,800 --> 00:06:18,319
+for the and for now the mean index let's
+
+161
+00:06:15,280 --> 00:06:19,600
+say the mean index is i mean
+
+162
+00:06:18,319 --> 00:06:22,960
+index
+
+163
+00:06:19,600 --> 00:06:25,520
+is i and then i need to go through for j
+
+164
+00:06:22,960 --> 00:06:29,360
+in range
+
+165
+00:06:25,520 --> 00:06:30,240
+i plus 1 to n
+
+166
+00:06:29,360 --> 00:06:32,639
+if
+
+167
+00:06:30,240 --> 00:06:33,440
+numbers
+
+168
+00:06:32,639 --> 00:06:36,160
+j
+
+169
+00:06:33,440 --> 00:06:38,080
+yeah look this is index number j smaller
+
+170
+00:06:36,160 --> 00:06:41,759
+than nums
+
+171
+00:06:38,080 --> 00:06:43,840
+mean index yeah mean index
+
+172
+00:06:41,759 --> 00:06:45,280
+then i need to do what i need to
+
+173
+00:06:43,840 --> 00:06:48,560
+remember it
+
+174
+00:06:45,280 --> 00:06:51,520
+so now mean index
+
+175
+00:06:48,560 --> 00:06:52,720
+will be equal to z okay and then all
+
+176
+00:06:51,520 --> 00:06:54,479
+right
+
+177
+00:06:52,720 --> 00:06:57,360
+and then now at this one i just need to
+
+178
+00:06:54,479 --> 00:06:59,039
+swap the mean index with what with i
+
+179
+00:06:57,360 --> 00:07:00,319
+right because i want to put it in the i
+
+180
+00:06:59,039 --> 00:07:03,680
+right
+
+181
+00:07:00,319 --> 00:07:06,240
+so how do we swap two value a and b
+
+182
+00:07:03,680 --> 00:07:10,319
+how do we swap two values a and b
+
+183
+00:07:06,240 --> 00:07:11,520
+a b equals b a uh yes a b or we can use
+
+184
+00:07:10,319 --> 00:07:15,280
+another
+
+185
+00:07:11,520 --> 00:07:18,080
+variable t right t equals a a equals b b
+
+186
+00:07:15,280 --> 00:07:21,199
+equals t this is also okay
+
+187
+00:07:18,080 --> 00:07:23,039
+okay so now i need to swap the index at
+
+188
+00:07:21,199 --> 00:07:25,280
+mean index and i
+
+189
+00:07:23,039 --> 00:07:25,280
+okay
+
+190
+00:07:26,479 --> 00:07:30,080
+so what
+
+191
+00:07:28,000 --> 00:07:33,199
+number
+
+192
+00:07:30,080 --> 00:07:34,160
+j i want to sort the numbers i uh numbs
+
+193
+00:07:33,199 --> 00:07:35,520
+i
+
+194
+00:07:34,160 --> 00:07:38,639
+with nouns
+
+195
+00:07:35,520 --> 00:07:38,639
+i mean index right
+
+196
+00:07:39,919 --> 00:07:43,039
+and then i just swapped it
+
+197
+00:07:50,400 --> 00:07:54,160
+yeah
+
+198
+00:07:51,919 --> 00:07:56,479
+look it's so easy why
+
+199
+00:07:54,160 --> 00:07:59,840
+do you get it this one
+
+200
+00:07:56,479 --> 00:08:02,560
+yeah look
+
+201
+00:07:59,840 --> 00:08:04,000
+for i need to look for every round every
+
+202
+00:08:02,560 --> 00:08:07,360
+month i
+
+203
+00:08:04,000 --> 00:08:10,000
+i select i i choose the mean index right
+
+204
+00:08:07,360 --> 00:08:12,800
+so if look the mean index
+
+205
+00:08:10,000 --> 00:08:15,680
+will be i i want to swap the uh
+
+206
+00:08:12,800 --> 00:08:18,080
+i want to swap the minimum element right
+
+207
+00:08:15,680 --> 00:08:19,840
+smaller smaller list smallest element i
+
+208
+00:08:18,080 --> 00:08:22,160
+pick i choose the smallest element i
+
+209
+00:08:19,840 --> 00:08:25,120
+swap with i index
+
+210
+00:08:22,160 --> 00:08:28,400
+the the the index
+
+211
+00:08:25,120 --> 00:08:31,280
+ice element right the element i
+
+212
+00:08:28,400 --> 00:08:32,959
+so for j equals range so look that's
+
+213
+00:08:31,280 --> 00:08:36,479
+maybe it's easier then let's look at
+
+214
+00:08:32,959 --> 00:08:39,680
+these numbers it will be easier
+
+215
+00:08:36,479 --> 00:08:42,080
+uh one okay look at the beginning i is
+
+216
+00:08:39,680 --> 00:08:43,519
+here right look i is here
+
+217
+00:08:42,080 --> 00:08:45,600
+so j
+
+218
+00:08:43,519 --> 00:08:47,920
+i is here and then at the beginning the
+
+219
+00:08:45,600 --> 00:08:50,480
+mean index i set it to
+
+220
+00:08:47,920 --> 00:08:54,320
+to i right i'm not sure because because
+
+221
+00:08:50,480 --> 00:08:57,120
+i'm i'm looking i'm looking at from i to
+
+222
+00:08:54,320 --> 00:08:58,160
+this range picking the smallest so which
+
+223
+00:08:57,120 --> 00:09:02,240
+is
+
+224
+00:08:58,160 --> 00:09:04,720
+one right j in range i so j will be here
+
+225
+00:09:02,240 --> 00:09:06,560
+to the range i and pick the smallest
+
+226
+00:09:04,720 --> 00:09:09,839
+element which is one
+
+227
+00:09:06,560 --> 00:09:11,519
+right look and i swap this element with
+
+228
+00:09:09,839 --> 00:09:13,680
+the one and uh
+
+229
+00:09:11,519 --> 00:09:15,200
+and uh i right so because mean index
+
+230
+00:09:13,680 --> 00:09:18,160
+will be this one
+
+231
+00:09:15,200 --> 00:09:20,080
+my mini index will be pointing to the i
+
+232
+00:09:18,160 --> 00:09:21,680
+right so i swap it
+
+233
+00:09:20,080 --> 00:09:25,839
+if num j
+
+234
+00:09:21,680 --> 00:09:28,240
+smaller than nums mean index
+
+235
+00:09:25,839 --> 00:09:30,160
+at the beginning we are setting the mean
+
+236
+00:09:28,240 --> 00:09:31,760
+index to the i
+
+237
+00:09:30,160 --> 00:09:33,839
+and then we use the
+
+238
+00:09:31,760 --> 00:09:36,240
+the elements on the right compared to
+
+239
+00:09:33,839 --> 00:09:38,640
+itself okay if it's smaller then i
+
+240
+00:09:36,240 --> 00:09:40,480
+update the mean index
+
+241
+00:09:38,640 --> 00:09:42,160
+and if i go to the run what's the mean
+
+242
+00:09:40,480 --> 00:09:43,680
+index
+
+243
+00:09:42,160 --> 00:09:46,240
+what's the b index
+
+244
+00:09:43,680 --> 00:09:48,399
+yellow one two three four add me index
+
+245
+00:09:46,240 --> 00:09:51,040
+will be four and then
+
+246
+00:09:48,399 --> 00:09:54,640
+here i will just swap with four nums
+
+247
+00:09:51,040 --> 00:09:57,760
+slams i and nums mean index i'll just
+
+248
+00:09:54,640 --> 00:09:59,600
+swap these two variables okay
+
+249
+00:09:57,760 --> 00:10:01,600
+well
+
+250
+00:09:59,600 --> 00:10:02,839
+what's the time complexity look what's
+
+251
+00:10:01,600 --> 00:10:06,640
+the term number against
+
+252
+00:10:02,839 --> 00:10:09,040
+it all right what's the time complexity
+
+253
+00:10:06,640 --> 00:10:11,440
+n square where down square because we
+
+254
+00:10:09,040 --> 00:10:12,640
+have a for loop we have another for loop
+
+255
+00:10:11,440 --> 00:10:13,920
+okay
+
+256
+00:10:12,640 --> 00:10:15,839
+so
+
+257
+00:10:13,920 --> 00:10:20,079
+remember we stood backwards sorting we
+
+258
+00:10:15,839 --> 00:10:22,800
+can use the variable swap if if no two
+
+259
+00:10:20,079 --> 00:10:24,959
+elements right if the array is already
+
+260
+00:10:22,800 --> 00:10:27,440
+sorted then we don't swap we don't
+
+261
+00:10:24,959 --> 00:10:29,120
+continue right so in the best cases
+
+262
+00:10:27,440 --> 00:10:31,120
+when the array is already sorted the
+
+263
+00:10:29,120 --> 00:10:33,440
+bubble sorting if the time condenses oh
+
+264
+00:10:31,120 --> 00:10:34,959
+when right we know that
+
+265
+00:10:33,440 --> 00:10:37,279
+we talked about it yesterday but for
+
+266
+00:10:34,959 --> 00:10:39,519
+this one this is always o n square right
+
+267
+00:10:37,279 --> 00:10:41,920
+because there's no such thing to check
+
+268
+00:10:39,519 --> 00:10:43,600
+if it's already if array is already
+
+269
+00:10:41,920 --> 00:10:44,720
+sorted
+
+270
+00:10:43,600 --> 00:10:46,560
+it's still
+
+271
+00:10:44,720 --> 00:10:48,320
+the time complexity is still o and
+
+272
+00:10:46,560 --> 00:10:50,480
+square am right
+
+273
+00:10:48,320 --> 00:10:53,360
+yeah i'm going to check it again because
+
+274
+00:10:50,480 --> 00:10:55,600
+they they look if array is already
+
+275
+00:10:53,360 --> 00:10:58,720
+sorted you still need to perform this
+
+276
+00:10:55,600 --> 00:11:01,839
+right there's no such thing as checking
+
+277
+00:10:58,720 --> 00:11:04,800
+right if the array is sorted and no swap
+
+278
+00:11:01,839 --> 00:11:06,959
+but the good thing about this around uh
+
+279
+00:11:04,800 --> 00:11:08,160
+aggregate about the selection thought is
+
+280
+00:11:06,959 --> 00:11:11,279
+that
+
+281
+00:11:08,160 --> 00:11:12,880
+how many how many swabs does it perform
+
+282
+00:11:11,279 --> 00:11:15,040
+how many swabs
+
+283
+00:11:12,880 --> 00:11:16,079
+does it perform and whether that's a
+
+284
+00:11:15,040 --> 00:11:20,079
+good catch
+
+285
+00:11:16,079 --> 00:11:23,519
+no matter how complicated is the
+
+286
+00:11:20,079 --> 00:11:26,079
+array it always performs at most okay
+
+287
+00:11:23,519 --> 00:11:28,240
+and swap but for the purpose sorting
+
+288
+00:11:26,079 --> 00:11:30,560
+you know you never know right yo it's so
+
+289
+00:11:28,240 --> 00:11:33,120
+soft that would be n square yeah in the
+
+290
+00:11:30,560 --> 00:11:34,399
+worst cases look in the worst cases four
+
+291
+00:11:33,120 --> 00:11:37,360
+three two
+
+292
+00:11:34,399 --> 00:11:40,399
+uh yeah how many swap look
+
+293
+00:11:37,360 --> 00:11:42,320
+one swap two swap three slot four flop
+
+294
+00:11:40,399 --> 00:11:43,839
+and you put it at the end right and then
+
+295
+00:11:42,320 --> 00:11:46,880
+again one
+
+296
+00:11:43,839 --> 00:11:47,680
+two three four yeah
+
+297
+00:11:46,880 --> 00:11:48,560
+yeah
+
+298
+00:11:47,680 --> 00:11:51,200
+all right
+
+299
+00:11:48,560 --> 00:11:54,160
+so you perform a lot more swaps than
+
+300
+00:11:51,200 --> 00:11:55,279
+here but for this one we always have
+
+301
+00:11:54,160 --> 00:11:57,440
+this
+
+302
+00:11:55,279 --> 00:11:59,839
+answer but for the purpose of thing
+
+303
+00:11:57,440 --> 00:12:02,560
+the slope could be o n
+
+304
+00:11:59,839 --> 00:12:04,399
+square right it's actually n times m
+
+305
+00:12:02,560 --> 00:12:05,279
+minus one divided by two or whatever
+
+306
+00:12:04,399 --> 00:12:06,560
+yeah
+
+307
+00:12:05,279 --> 00:12:08,240
+but followers
+
+308
+00:12:06,560 --> 00:12:10,399
+let's let's do this
+
+309
+00:12:08,240 --> 00:12:12,639
+let's do this direction so
+
+310
+00:12:10,399 --> 00:12:14,720
+five four three two one okay so how many
+
+311
+00:12:12,639 --> 00:12:16,639
+soap do we have look
+
+312
+00:12:14,720 --> 00:12:18,720
+we always pick them
+
+313
+00:12:16,639 --> 00:12:19,760
+right we pick the smallest which is one
+
+314
+00:12:18,720 --> 00:12:20,639
+right
+
+315
+00:12:19,760 --> 00:12:23,279
+yeah
+
+316
+00:12:20,639 --> 00:12:23,279
+we swap it
+
+317
+00:12:23,760 --> 00:12:27,920
+one swap okay i hope everyone's one okay
+
+318
+00:12:26,079 --> 00:12:30,240
+which is the smallest
+
+319
+00:12:27,920 --> 00:12:31,920
+two two i swap it
+
+320
+00:12:30,240 --> 00:12:33,680
+three
+
+321
+00:12:31,920 --> 00:12:34,560
+okay
+
+322
+00:12:33,680 --> 00:12:36,720
+three
+
+323
+00:12:34,560 --> 00:12:40,160
+three i don't stop four i don't love
+
+324
+00:12:36,720 --> 00:12:42,639
+yeah friday i don't swap okay so look
+
+325
+00:12:40,160 --> 00:12:44,880
+at most two swaps okay
+
+326
+00:12:42,639 --> 00:12:47,279
+almost too slow
+
+327
+00:12:44,880 --> 00:12:49,600
+oh no no now we're doing too slow but
+
+328
+00:12:47,279 --> 00:12:52,399
+but look
+
+329
+00:12:49,600 --> 00:12:54,959
+this one you can say it's exactly o and
+
+330
+00:12:52,399 --> 00:12:57,279
+swap why is that because if i equals
+
+331
+00:12:54,959 --> 00:12:59,360
+mean index you swap an element with
+
+332
+00:12:57,279 --> 00:13:01,120
+excel does it count the slope
+
+333
+00:12:59,360 --> 00:13:04,160
+if you call this slope
+
+334
+00:13:01,120 --> 00:13:06,480
+it's a n swap if you don't count this up
+
+335
+00:13:04,160 --> 00:13:08,240
+like this right you always look i'm here
+
+336
+00:13:06,480 --> 00:13:09,760
+i'm picking the small air demand which
+
+337
+00:13:08,240 --> 00:13:12,160
+is three
+
+338
+00:13:09,760 --> 00:13:15,279
+i swap the switch with itself
+
+339
+00:13:12,160 --> 00:13:16,480
+does that color swap no
+
+340
+00:13:15,279 --> 00:13:18,639
+okay no
+
+341
+00:13:16,480 --> 00:13:19,839
+yeah but yeah maybe sometimes look
+
+342
+00:13:18,639 --> 00:13:23,600
+because
+
+343
+00:13:19,839 --> 00:13:25,600
+both are okay yeah if you count it as 12
+
+344
+00:13:23,600 --> 00:13:28,079
+that's okay because what look
+
+345
+00:13:25,600 --> 00:13:30,079
+this still gets executed if i equals
+
+346
+00:13:28,079 --> 00:13:33,120
+mean index right so it's work with
+
+347
+00:13:30,079 --> 00:13:36,320
+itself but if you count it as no slot
+
+348
+00:13:33,120 --> 00:13:39,519
+then we have to to release look at if
+
+349
+00:13:36,320 --> 00:13:40,560
+i not equals the mean index
+
+350
+00:13:39,519 --> 00:13:41,839
+right
+
+351
+00:13:40,560 --> 00:13:42,959
+then
+
+352
+00:13:41,839 --> 00:13:44,240
+we can
+
+353
+00:13:42,959 --> 00:13:47,040
+avoid
+
+354
+00:13:44,240 --> 00:13:50,399
+swapping excel okay so the time the
+
+355
+00:13:47,040 --> 00:13:52,720
+number of swaps at most is o n is n
+
+356
+00:13:50,399 --> 00:13:54,240
+slope right that's the advantage of the
+
+357
+00:13:52,720 --> 00:13:57,040
+selection thought
+
+358
+00:13:54,240 --> 00:13:58,320
+because they will be no more than n
+
+359
+00:13:57,040 --> 00:14:00,880
+swaps
+
+360
+00:13:58,320 --> 00:14:03,839
+but for the bubble sorting
+
+361
+00:14:00,880 --> 00:14:05,920
+these could be in the scale of o and
+
+362
+00:14:03,839 --> 00:14:08,000
+square right because the swapping would
+
+363
+00:14:05,920 --> 00:14:10,160
+be a lot more
+
+364
+00:14:08,000 --> 00:14:12,320
+every time you do the bubbling you
+
+365
+00:14:10,160 --> 00:14:15,440
+always always
+
+366
+00:14:12,320 --> 00:14:17,600
+14 minutes you always put
+
+367
+00:14:15,440 --> 00:14:19,839
+only move one element you don't change
+
+368
+00:14:17,600 --> 00:14:22,240
+the order of others so
+
+369
+00:14:19,839 --> 00:14:24,399
+so you will keep swapping swapping the
+
+370
+00:14:22,240 --> 00:14:26,399
+swapping will be more than the selection
+
+371
+00:14:24,399 --> 00:14:28,880
+saw
+
+372
+00:14:26,399 --> 00:14:31,199
+but what's the advantage of uh
+
+373
+00:14:28,880 --> 00:14:33,839
+what's the advantage of the bubble
+
+374
+00:14:31,199 --> 00:14:36,560
+sorting compared to selection salt
+
+375
+00:14:33,839 --> 00:14:39,440
+uh bubble sorting is technically the
+
+376
+00:14:36,560 --> 00:14:39,440
+opposite of
+
+377
+00:14:40,399 --> 00:14:45,920
+selecting saw is putting the minimum on
+
+378
+00:14:44,079 --> 00:14:46,800
+the front but
+
+379
+00:14:45,920 --> 00:14:47,600
+also
+
+380
+00:14:46,800 --> 00:14:49,440
+the
+
+381
+00:14:47,600 --> 00:14:51,519
+biggest number of
+
+382
+00:14:49,440 --> 00:14:52,399
+bags we're done and
+
+383
+00:14:51,519 --> 00:14:54,160
+when
+
+384
+00:14:52,399 --> 00:14:56,160
+in what cases
+
+385
+00:14:54,160 --> 00:14:58,399
+when the array is worth then the bubble
+
+386
+00:14:56,160 --> 00:15:01,120
+slotting is better it's quicker
+
+387
+00:14:58,399 --> 00:15:02,880
+when the away is already
+
+388
+00:15:01,120 --> 00:15:05,279
+yeah when the array is already sorted
+
+389
+00:15:02,880 --> 00:15:06,959
+the improved bubble sorting you know the
+
+390
+00:15:05,279 --> 00:15:09,519
+first one checks
+
+391
+00:15:06,959 --> 00:15:11,920
+there's no more swapping so yeah i think
+
+392
+00:15:09,519 --> 00:15:14,639
+the array is already sorted then i quit
+
+393
+00:15:11,920 --> 00:15:16,240
+so like that would be just o n
+
+394
+00:15:14,639 --> 00:15:18,160
+right
+
+395
+00:15:16,240 --> 00:15:20,240
+but the selection source still needs to
+
+396
+00:15:18,160 --> 00:15:21,199
+perform these you know two loops or one
+
+397
+00:15:20,240 --> 00:15:23,440
+square
+
+398
+00:15:21,199 --> 00:15:24,240
+but in what cases
+
+399
+00:15:23,440 --> 00:15:27,040
+look
+
+400
+00:15:24,240 --> 00:15:29,839
+if the swapping is very expensive
+
+401
+00:15:27,040 --> 00:15:32,959
+okay look if the sloping if you swap in
+
+402
+00:15:29,839 --> 00:15:36,240
+two elements is very expensive
+
+403
+00:15:32,959 --> 00:15:37,759
+then which which aggregate is better
+
+404
+00:15:36,240 --> 00:15:40,399
+selection saw or
+
+405
+00:15:37,759 --> 00:15:40,399
+bubble serving
+
+406
+00:15:42,959 --> 00:15:47,129
+good job bye
+
+407
+00:15:44,490 --> 00:15:47,129
+[Music]
+
