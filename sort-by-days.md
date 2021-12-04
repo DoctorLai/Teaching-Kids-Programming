@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sorted by Days
+- Day 348:  [Insertion Sorting (Simple Sorting Algorithm)](https://helloacm.com/teaching-kids-programming-insertion-sort-in-python-simple-sorting-algorithm/)  简单排序之插入排序算法  [Youtube](https://youtu.be/wvX6bJ-pEaQ) - [B站](https://www.bilibili.com/video/BV1a44y1h7xz/) - [西瓜](https://www.ixigua.com/7037622973640999460)
 - Day 347:  [Selection Sorting (Simple Sorting Algorithm)](https://helloacm.com/teaching-kids-programming-selection-sorting-simple-sorting-algorithm/)  简单排序之选择排序算法  [Youtube](https://youtu.be/CyD6YjfyDTM) - [B站](https://www.bilibili.com/video/BV12b4y1B7Kh/) - [西瓜](https://www.ixigua.com/7037228495205827103)
 - Day 346:  [Bubble Sorting (Simple Sorting Algorithm)](https://helloacm.com/teaching-kids-programming-bubble-sorting-simple-sorting-algorithm/)  简单排序之冒泡排序算法  [Youtube](https://youtu.be/fY3dd_AyJMU) - [B站](https://www.bilibili.com/video/BV1zU4y1T7WB/) - [西瓜](https://www.ixigua.com/7037021135887827486)
 - Day 345:  [Insert Into Linked List (Node Insertion Algorithm)](https://helloacm.com/teaching-kids-programming-insert-into-linked-list-node-insertion-algorithm/)  链表节点插入算法  [Youtube](https://youtu.be/OXVrsBs9a5I) - [B站](https://www.bilibili.com/video/BV16b4y1B7zu/) - [西瓜](https://www.ixigua.com/7036489085564748301)
