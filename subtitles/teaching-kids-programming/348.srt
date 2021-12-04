@@ -1,0 +1,3040 @@
+1
+00:00:00,080 --> 00:00:05,120
+hello mr all right yes
+
+2
+00:00:03,360 --> 00:00:07,040
+okay so uh
+
+3
+00:00:05,120 --> 00:00:09,440
+we talked about
+
+4
+00:00:07,040 --> 00:00:12,559
+quick thought yeah
+
+5
+00:00:09,440 --> 00:00:14,240
+quick start we talked about multi-source
+
+6
+00:00:12,559 --> 00:00:17,760
+before yeah
+
+7
+00:00:14,240 --> 00:00:20,320
+and we talked about the bubble sorting
+
+8
+00:00:17,760 --> 00:00:23,119
+and yesterday we talked about what
+
+9
+00:00:20,320 --> 00:00:25,439
+selection saw right
+
+10
+00:00:23,119 --> 00:00:25,439
+yeah
+
+11
+00:00:25,599 --> 00:00:28,800
+okay
+
+12
+00:00:26,720 --> 00:00:30,960
+so these two are simple sorting
+
+13
+00:00:28,800 --> 00:00:34,800
+algorithms simple simple means they are
+
+14
+00:00:30,960 --> 00:00:38,480
+easy to implement right but on average
+
+15
+00:00:34,800 --> 00:00:39,600
+their time complexities are an old and
+
+16
+00:00:38,480 --> 00:00:42,000
+square
+
+17
+00:00:39,600 --> 00:00:44,719
+graduated these two are the most
+
+18
+00:00:42,000 --> 00:00:47,360
+efficient sorting algorithm on average
+
+19
+00:00:44,719 --> 00:00:48,800
+the running times oven log n right yeah
+
+20
+00:00:47,360 --> 00:00:50,600
+so let's
+
+21
+00:00:48,800 --> 00:00:52,640
+let's what we have if we call the
+
+22
+00:00:50,600 --> 00:00:55,199
+array.function okay
+
+23
+00:00:52,640 --> 00:00:58,079
+bubble sorting selection saw okay so now
+
+24
+00:00:55,199 --> 00:01:00,320
+let's just do a quick review of probably
+
+25
+00:00:58,079 --> 00:01:02,320
+you know what kind of uh how does this
+
+26
+00:01:00,320 --> 00:01:05,360
+algorithm work okay so for example we
+
+27
+00:01:02,320 --> 00:01:06,320
+have quick sort yeah we let's say five
+
+28
+00:01:05,360 --> 00:01:09,840
+four
+
+29
+00:01:06,320 --> 00:01:13,520
+seven six one two quick so we randomly
+
+30
+00:01:09,840 --> 00:01:16,400
+pick a number as a pivot yeah as a pivot
+
+31
+00:01:13,520 --> 00:01:18,720
+and then we try to put
+
+32
+00:01:16,400 --> 00:01:21,840
+all the elements smaller than the pivot
+
+33
+00:01:18,720 --> 00:01:24,640
+yeah in the left and that's the pivot
+
+34
+00:01:21,840 --> 00:01:26,640
+yeah could be many right and then all
+
+35
+00:01:24,640 --> 00:01:28,240
+the elements they're bigger than pivot
+
+36
+00:01:26,640 --> 00:01:30,159
+on the right and then we recursively saw
+
+37
+00:01:28,240 --> 00:01:32,960
+that left and right right
+
+38
+00:01:30,159 --> 00:01:34,960
+but in the worst case if the array is
+
+39
+00:01:32,960 --> 00:01:37,520
+already sorted four three five four
+
+40
+00:01:34,960 --> 00:01:38,960
+three reverse thought here
+
+41
+00:01:37,520 --> 00:01:41,600
+and then every time you pick the first
+
+42
+00:01:38,960 --> 00:01:44,880
+one what happened so in this case you
+
+43
+00:01:41,600 --> 00:01:46,880
+you you don't partici uh partition into
+
+44
+00:01:44,880 --> 00:01:49,360
+two you always have all the elements on
+
+45
+00:01:46,880 --> 00:01:50,960
+the right hand side so in this case
+
+46
+00:01:49,360 --> 00:01:52,640
+uh what happened the time complexity
+
+47
+00:01:50,960 --> 00:01:55,280
+will be
+
+48
+00:01:52,640 --> 00:01:57,520
+downgraded to o n square okay period
+
+49
+00:01:55,280 --> 00:02:00,159
+multi thought yeah we know how to merge
+
+50
+00:01:57,520 --> 00:02:01,680
+two sorted lists so the idea is to
+
+51
+00:02:00,159 --> 00:02:03,119
+divide the list
+
+52
+00:02:01,680 --> 00:02:05,600
+divide the array
+
+53
+00:02:03,119 --> 00:02:07,840
+into two halves equally to half and i
+
+54
+00:02:05,600 --> 00:02:10,080
+will cursive we saw the left part and so
+
+55
+00:02:07,840 --> 00:02:12,000
+the right part and then we merge it yeah
+
+56
+00:02:10,080 --> 00:02:14,959
+the time come next on everything again
+
+57
+00:02:12,000 --> 00:02:17,360
+and worst case best case worst case
+
+58
+00:02:14,959 --> 00:02:20,319
+uh average case for
+
+59
+00:02:17,360 --> 00:02:21,760
+it is all in login okay
+
+60
+00:02:20,319 --> 00:02:23,920
+bubble sorting
+
+61
+00:02:21,760 --> 00:02:26,239
+every time we bubble out the biggest
+
+62
+00:02:23,920 --> 00:02:29,280
+number to the end right for example like
+
+63
+00:02:26,239 --> 00:02:30,959
+five four three two one so what's what
+
+64
+00:02:29,280 --> 00:02:32,560
+happened after one one of the problem
+
+65
+00:02:30,959 --> 00:02:35,599
+solving
+
+66
+00:02:32,560 --> 00:02:37,120
+four three two one five yeah so every
+
+67
+00:02:35,599 --> 00:02:39,280
+time you swap if it's bigger than the
+
+68
+00:02:37,120 --> 00:02:40,239
+next one right so that becomes four or
+
+69
+00:02:39,280 --> 00:02:41,360
+five
+
+70
+00:02:40,239 --> 00:02:43,440
+and then
+
+71
+00:02:41,360 --> 00:02:45,200
+and then five keep continuing to swap it
+
+72
+00:02:43,440 --> 00:02:46,000
+so piece of it so four three two one
+
+73
+00:02:45,200 --> 00:02:48,000
+right
+
+74
+00:02:46,000 --> 00:02:50,319
+so proper slotting the best case is we
+
+75
+00:02:48,000 --> 00:02:52,640
+can improve it if we can add a check if
+
+76
+00:02:50,319 --> 00:02:54,959
+the sorting if there's no swap then we
+
+77
+00:02:52,640 --> 00:02:57,680
+can terminate the loop right so that in
+
+78
+00:02:54,959 --> 00:02:59,519
+the best case is the time complexity o n
+
+79
+00:02:57,680 --> 00:03:00,640
+for the improved proper sorting in the
+
+80
+00:02:59,519 --> 00:03:03,040
+worst case
+
+81
+00:03:00,640 --> 00:03:06,879
+uh average case is o n square
+
+82
+00:03:03,040 --> 00:03:09,680
+right uh selection sort so five four
+
+83
+00:03:06,879 --> 00:03:12,959
+three two one how what's the selection
+
+84
+00:03:09,680 --> 00:03:14,080
+uh putting the smallest number at the
+
+85
+00:03:12,959 --> 00:03:17,400
+front
+
+86
+00:03:14,080 --> 00:03:17,400
+so it is
+
+87
+00:03:20,879 --> 00:03:26,400
+okay so every time we pick them
+
+88
+00:03:23,440 --> 00:03:30,000
+we swap the minimum value to the front
+
+89
+00:03:26,400 --> 00:03:32,080
+right so on the left hand side is sorted
+
+90
+00:03:30,000 --> 00:03:34,959
+on the right hand the right sub array is
+
+91
+00:03:32,080 --> 00:03:36,319
+unsorted every time we pick the smallest
+
+92
+00:03:34,959 --> 00:03:38,480
+element from the
+
+93
+00:03:36,319 --> 00:03:40,799
+unsalted and we swap
+
+94
+00:03:38,480 --> 00:03:42,640
+swap it to the front right to the front
+
+95
+00:03:40,799 --> 00:03:44,080
+of the unsorted right that's the
+
+96
+00:03:42,640 --> 00:03:46,000
+selection so
+
+97
+00:03:44,080 --> 00:03:47,760
+okay so today we're going to talk about
+
+98
+00:03:46,000 --> 00:03:49,519
+another sorting agreement which is
+
+99
+00:03:47,760 --> 00:03:50,319
+called what
+
+100
+00:03:49,519 --> 00:03:52,319
+uh
+
+101
+00:03:50,319 --> 00:03:53,920
+okay one more thing before i forgot is
+
+102
+00:03:52,319 --> 00:03:55,120
+selection thought the
+
+103
+00:03:53,920 --> 00:03:56,879
+the
+
+104
+00:03:55,120 --> 00:03:58,159
+the advantage of selection thought is
+
+105
+00:03:56,879 --> 00:04:00,480
+that we can
+
+106
+00:03:58,159 --> 00:04:03,519
+uh the number of swaps no
+
+107
+00:04:00,480 --> 00:04:05,920
+right is no more than n right if am
+
+108
+00:04:03,519 --> 00:04:08,080
+right because if if if the swapping is
+
+109
+00:04:05,920 --> 00:04:10,080
+quite expensive then we can choose the
+
+110
+00:04:08,080 --> 00:04:10,959
+selection so because butter sorting
+
+111
+00:04:10,080 --> 00:04:13,040
+could be
+
+112
+00:04:10,959 --> 00:04:15,519
+right it's always swapping soaking if
+
+113
+00:04:13,040 --> 00:04:16,560
+this operation is very expensive that
+
+114
+00:04:15,519 --> 00:04:18,479
+might not be
+
+115
+00:04:16,560 --> 00:04:21,199
+very good right all right
+
+116
+00:04:18,479 --> 00:04:22,960
+so that it has different advantage okay
+
+117
+00:04:21,199 --> 00:04:24,880
+and then we have we talked about today
+
+118
+00:04:22,960 --> 00:04:26,400
+we're going to talk about another simple
+
+119
+00:04:24,880 --> 00:04:29,360
+sorting algorithm okay
+
+120
+00:04:26,400 --> 00:04:32,320
+simple sorting simple means easy to
+
+121
+00:04:29,360 --> 00:04:35,919
+implement easy to understand right
+
+122
+00:04:32,320 --> 00:04:35,919
+it's called insertion thought
+
+123
+00:04:37,600 --> 00:04:40,960
+okay so
+
+124
+00:04:38,639 --> 00:04:43,600
+what does it mean look if
+
+125
+00:04:40,960 --> 00:04:45,280
+if we have five
+
+126
+00:04:43,600 --> 00:04:47,759
+four
+
+127
+00:04:45,280 --> 00:04:51,199
+three two one okay like that okay so how
+
+128
+00:04:47,759 --> 00:04:53,759
+do we select how do we sort it
+
+129
+00:04:51,199 --> 00:04:55,600
+so at the beginning we are here
+
+130
+00:04:53,759 --> 00:04:58,720
+and then we find
+
+131
+00:04:55,600 --> 00:04:59,840
+we want to we want to put this number
+
+132
+00:04:58,720 --> 00:05:00,800
+right
+
+133
+00:04:59,840 --> 00:05:03,360
+so
+
+134
+00:05:00,800 --> 00:05:05,199
+so at the beginning we have one one
+
+135
+00:05:03,360 --> 00:05:06,160
+element which is sorted
+
+136
+00:05:05,199 --> 00:05:07,520
+yeah
+
+137
+00:05:06,160 --> 00:05:10,960
+all right and we start with the second
+
+138
+00:05:07,520 --> 00:05:13,280
+element how do we put the four into the
+
+139
+00:05:10,960 --> 00:05:15,199
+into the front right we want to insert
+
+140
+00:05:13,280 --> 00:05:17,840
+this value to the front
+
+141
+00:05:15,199 --> 00:05:18,720
+to to the sorted right so it's four five
+
+142
+00:05:17,840 --> 00:05:21,199
+right
+
+143
+00:05:18,720 --> 00:05:21,199
+four five
+
+144
+00:05:21,280 --> 00:05:24,560
+now
+
+145
+00:05:22,320 --> 00:05:26,720
+i only put a three
+
+146
+00:05:24,560 --> 00:05:30,320
+i want to put a three in what cases
+
+147
+00:05:26,720 --> 00:05:32,320
+three at the very front yeah yeah okay
+
+148
+00:05:30,320 --> 00:05:34,560
+so how do we do do it look every time we
+
+149
+00:05:32,320 --> 00:05:36,400
+pick this number and we want to swap it
+
+150
+00:05:34,560 --> 00:05:38,800
+we want to insert it okay this is called
+
+151
+00:05:36,400 --> 00:05:41,440
+insert insert in the front of the lid
+
+152
+00:05:38,800 --> 00:05:44,240
+but how can we do it look three so when
+
+153
+00:05:41,440 --> 00:05:47,840
+these three is smaller than five right
+
+154
+00:05:44,240 --> 00:05:49,520
+when three is so smaller than five
+
+155
+00:05:47,840 --> 00:05:51,680
+so first of all we take the number t
+
+156
+00:05:49,520 --> 00:05:53,840
+equals three we remember it right
+
+157
+00:05:51,680 --> 00:05:56,240
+we remember it and then we move it we
+
+158
+00:05:53,840 --> 00:05:58,639
+shift it like look we shift it
+
+159
+00:05:56,240 --> 00:05:59,759
+so what happens is that i five i put it
+
+160
+00:05:58,639 --> 00:06:02,479
+here
+
+161
+00:05:59,759 --> 00:06:05,360
+four i put it here okay and then i have
+
+162
+00:06:02,479 --> 00:06:08,000
+a space for three so i put a three here
+
+163
+00:06:05,360 --> 00:06:11,039
+okay another one two
+
+164
+00:06:08,000 --> 00:06:13,360
+two two here so i key equals two right p
+
+165
+00:06:11,039 --> 00:06:15,120
+equals two
+
+166
+00:06:13,360 --> 00:06:18,080
+so now
+
+167
+00:06:15,120 --> 00:06:19,840
+two is here so i want to put it in the
+
+168
+00:06:18,080 --> 00:06:22,479
+front i want to insert it in the right
+
+169
+00:06:19,840 --> 00:06:24,080
+place of the fifth four five right it
+
+170
+00:06:22,479 --> 00:06:26,560
+could be in the middle but in this case
+
+171
+00:06:24,080 --> 00:06:29,039
+it's in front
+
+172
+00:06:26,560 --> 00:06:31,360
+so so what should i do look
+
+173
+00:06:29,039 --> 00:06:33,039
+so remember i already take the value to
+
+174
+00:06:31,360 --> 00:06:35,440
+here so
+
+175
+00:06:33,039 --> 00:06:36,639
+i move it all right look that's the
+
+176
+00:06:35,440 --> 00:06:39,199
+magic yeah
+
+177
+00:06:36,639 --> 00:06:42,080
+move the fire here
+
+178
+00:06:39,199 --> 00:06:45,680
+all right and i move the four here
+
+179
+00:06:42,080 --> 00:06:49,919
+i move the three here so and then i
+
+180
+00:06:45,680 --> 00:06:51,120
+change d here to two make sense
+
+181
+00:06:49,919 --> 00:06:52,960
+yeah
+
+182
+00:06:51,120 --> 00:06:55,120
+does it make sense
+
+183
+00:06:52,960 --> 00:06:57,120
+okay can i i want to give another more
+
+184
+00:06:55,120 --> 00:06:59,599
+example okay how about one here i put a
+
+185
+00:06:57,120 --> 00:07:02,160
+one now i want to put the one in
+
+186
+00:06:59,599 --> 00:07:05,280
+the list of these
+
+187
+00:07:02,160 --> 00:07:07,840
+whatever very front yeah yeah but but
+
+188
+00:07:05,280 --> 00:07:11,360
+all the other elements will be shifted
+
+189
+00:07:07,840 --> 00:07:13,840
+one position to the right right yeah
+
+190
+00:07:11,360 --> 00:07:16,240
+okay so how do we insert it how do we
+
+191
+00:07:13,840 --> 00:07:17,039
+enter we take we remember we want to we
+
+192
+00:07:16,240 --> 00:07:18,160
+know
+
+193
+00:07:17,039 --> 00:07:20,080
+we know
+
+194
+00:07:18,160 --> 00:07:22,960
+the current element is one we want to
+
+195
+00:07:20,080 --> 00:07:24,240
+put put a one in the front
+
+196
+00:07:22,960 --> 00:07:26,560
+so like look
+
+197
+00:07:24,240 --> 00:07:28,880
+one is smaller than five right
+
+198
+00:07:26,560 --> 00:07:32,080
+yeah one is smaller than five so what do
+
+199
+00:07:28,880 --> 00:07:35,599
+we do so this value this value this
+
+200
+00:07:32,080 --> 00:07:37,520
+value next value would be y one
+
+201
+00:07:35,599 --> 00:07:38,720
+will be copied over the value will be
+
+202
+00:07:37,520 --> 00:07:41,120
+five
+
+203
+00:07:38,720 --> 00:07:43,199
+and a copy over four yes so basically
+
+204
+00:07:41,120 --> 00:07:45,599
+you move it you move all these elements
+
+205
+00:07:43,199 --> 00:07:47,680
+one position to the right
+
+206
+00:07:45,599 --> 00:07:49,280
+okay now here
+
+207
+00:07:47,680 --> 00:07:52,000
+so this is the right place because it's
+
+208
+00:07:49,280 --> 00:07:54,240
+at the beginning right so i put one here
+
+209
+00:07:52,000 --> 00:07:55,440
+make sense
+
+210
+00:07:54,240 --> 00:07:57,280
+yeah
+
+211
+00:07:55,440 --> 00:07:59,280
+okay then let's try another example okay
+
+212
+00:07:57,280 --> 00:08:01,440
+just to make sure you totally understand
+
+213
+00:07:59,280 --> 00:08:01,440
+this
+
+214
+00:08:01,520 --> 00:08:05,520
+insertion so okay which is let's say
+
+215
+00:08:06,000 --> 00:08:08,400
+yellow
+
+216
+00:08:09,360 --> 00:08:13,280
+one
+
+217
+00:08:10,560 --> 00:08:15,680
+three five
+
+218
+00:08:13,280 --> 00:08:17,840
+four okay let's say
+
+219
+00:08:15,680 --> 00:08:20,960
+now
+
+220
+00:08:17,840 --> 00:08:21,919
+i'm here i want to put the four
+
+221
+00:08:20,960 --> 00:08:26,360
+four
+
+222
+00:08:21,919 --> 00:08:26,360
+people over five yeah
+
+223
+00:08:27,199 --> 00:08:33,360
+maybe put a two here i only put two okay
+
+224
+00:08:30,720 --> 00:08:34,159
+so it's in the middle right yeah but how
+
+225
+00:08:33,360 --> 00:08:36,479
+look
+
+226
+00:08:34,159 --> 00:08:38,719
+how i compared to this
+
+227
+00:08:36,479 --> 00:08:41,120
+this is smaller than that right
+
+228
+00:08:38,719 --> 00:08:42,240
+so i need to push these five to the
+
+229
+00:08:41,120 --> 00:08:44,800
+right right
+
+230
+00:08:42,240 --> 00:08:46,560
+yeah so it's pushing
+
+231
+00:08:44,800 --> 00:08:49,839
+five to the right i can just write this
+
+232
+00:08:46,560 --> 00:08:53,120
+value as five right and now here and
+
+233
+00:08:49,839 --> 00:08:54,880
+then i need to here two
+
+234
+00:08:53,120 --> 00:08:57,360
+all right two is smaller than three so i
+
+235
+00:08:54,880 --> 00:08:59,440
+push three on the right so yeah
+
+236
+00:08:57,360 --> 00:09:00,640
+yeah yeah
+
+237
+00:08:59,440 --> 00:09:01,519
+two is
+
+238
+00:09:00,640 --> 00:09:03,360
+is
+
+239
+00:09:01,519 --> 00:09:05,440
+is bigger than one right
+
+240
+00:09:03,360 --> 00:09:06,880
+so in this case what happened i don't
+
+241
+00:09:05,440 --> 00:09:08,480
+don't shift it
+
+242
+00:09:06,880 --> 00:09:10,880
+so i just need to
+
+243
+00:09:08,480 --> 00:09:11,839
+change this value to 2.
+
+244
+00:09:10,880 --> 00:09:14,320
+yeah
+
+245
+00:09:11,839 --> 00:09:14,320
+make sense
+
+246
+00:09:14,640 --> 00:09:18,640
+does it make sense
+
+247
+00:09:15,920 --> 00:09:22,120
+okay so let's go get to the code okay
+
+248
+00:09:18,640 --> 00:09:22,120
+and tell me
+
+249
+00:09:24,800 --> 00:09:29,240
+define
+
+250
+00:09:26,240 --> 00:09:29,240
+insertion
+
+251
+00:09:29,360 --> 00:09:36,720
+sort and now we have let's call it a
+
+252
+00:09:34,160 --> 00:09:39,680
+what do i miss
+
+253
+00:09:36,720 --> 00:09:39,680
+not even looking
+
+254
+00:09:40,640 --> 00:09:47,040
+so and equals length a
+
+255
+00:09:44,320 --> 00:09:47,040
+so let's say
+
+256
+00:09:47,839 --> 00:09:50,480
+let's say
+
+257
+00:09:48,800 --> 00:09:54,080
+we need to go through the array first
+
+258
+00:09:50,480 --> 00:09:57,680
+therefore i in red let's start with the
+
+259
+00:09:54,080 --> 00:09:58,480
+second value we have 1 to n
+
+260
+00:09:57,680 --> 00:09:59,600
+look
+
+261
+00:09:58,480 --> 00:10:02,000
+so
+
+262
+00:09:59,600 --> 00:10:04,240
+this is our way array a yeah a it was
+
+263
+00:10:02,000 --> 00:10:05,839
+away
+
+264
+00:10:04,240 --> 00:10:07,040
+1
+
+265
+00:10:05,839 --> 00:10:07,760
+0
+
+266
+00:10:07,040 --> 00:10:08,959
+to
+
+267
+00:10:07,760 --> 00:10:10,240
+5.
+
+268
+00:10:08,959 --> 00:10:12,959
+so i
+
+269
+00:10:10,240 --> 00:10:15,040
+start here yeah because at the beginning
+
+270
+00:10:12,959 --> 00:10:17,200
+we we have
+
+271
+00:10:15,040 --> 00:10:18,640
+we have already one
+
+272
+00:10:17,200 --> 00:10:19,920
+list
+
+273
+00:10:18,640 --> 00:10:21,839
+one sorted
+
+274
+00:10:19,920 --> 00:10:25,760
+one so the sorting this is less one
+
+275
+00:10:21,839 --> 00:10:28,079
+right we want to put the element in that
+
+276
+00:10:25,760 --> 00:10:31,680
+so now i need to remember what value is
+
+277
+00:10:28,079 --> 00:10:32,480
+it key equals the a
+
+278
+00:10:31,680 --> 00:10:36,079
+a
+
+279
+00:10:32,480 --> 00:10:37,519
+i right so key is this very uh
+
+280
+00:10:36,079 --> 00:10:40,160
+key
+
+281
+00:10:37,519 --> 00:10:40,160
+key is the
+
+282
+00:10:40,560 --> 00:10:44,720
+uh
+
+283
+00:10:41,600 --> 00:10:48,640
+actually the let me think about it it is
+
+284
+00:10:44,720 --> 00:10:50,800
+each key is a i right yeah key is a yeah
+
+285
+00:10:48,640 --> 00:10:51,920
+exactly
+
+286
+00:10:50,800 --> 00:10:56,160
+so now
+
+287
+00:10:51,920 --> 00:10:58,800
+j let's say j equals i
+
+288
+00:10:56,160 --> 00:10:58,800
+plus 1
+
+289
+00:10:58,839 --> 00:11:07,200
+y j equals y plus one j is here uh
+
+290
+00:11:04,720 --> 00:11:08,880
+j is here
+
+291
+00:11:07,200 --> 00:11:10,800
+so y j
+
+292
+00:11:08,880 --> 00:11:12,880
+uh actually j is
+
+293
+00:11:10,800 --> 00:11:16,240
+i minus one what j
+
+294
+00:11:12,880 --> 00:11:17,760
+y j bigger equals zero right
+
+295
+00:11:16,240 --> 00:11:20,880
+and
+
+296
+00:11:17,760 --> 00:11:22,560
+the key is smaller than
+
+297
+00:11:20,880 --> 00:11:26,079
+as long as the key
+
+298
+00:11:22,560 --> 00:11:28,560
+it keeps this value key is this value is
+
+299
+00:11:26,079 --> 00:11:31,519
+smaller than this value
+
+300
+00:11:28,560 --> 00:11:33,920
+yeah a j
+
+301
+00:11:31,519 --> 00:11:35,040
+now what do we do we need to set this
+
+302
+00:11:33,920 --> 00:11:37,040
+value
+
+303
+00:11:35,040 --> 00:11:40,880
+j plus one
+
+304
+00:11:37,040 --> 00:11:43,519
+a j plus one will be equals aj let's
+
+305
+00:11:40,880 --> 00:11:44,959
+let's we shifted it and then j minus
+
+306
+00:11:43,519 --> 00:11:47,920
+equals one
+
+307
+00:11:44,959 --> 00:11:50,160
+and at the end we need to set uh
+
+308
+00:11:47,920 --> 00:11:50,160
+a
+
+309
+00:11:50,320 --> 00:11:55,519
+j right we want to set this value aj
+
+310
+00:11:52,880 --> 00:11:57,600
+equals key am i
+
+311
+00:11:55,519 --> 00:11:59,839
+make sense
+
+312
+00:11:57,600 --> 00:11:59,839
+so
+
+313
+00:12:00,079 --> 00:12:02,320
+uh
+
+314
+00:12:04,079 --> 00:12:08,959
+there might be a problem if a actually
+
+315
+00:12:06,240 --> 00:12:10,880
+is a j plus one okay let me just double
+
+316
+00:12:08,959 --> 00:12:13,120
+check because this is this aggregate
+
+317
+00:12:10,880 --> 00:12:14,880
+it's not so easy to make it right at the
+
+318
+00:12:13,120 --> 00:12:16,639
+beginning we have to check the boundary
+
+319
+00:12:14,880 --> 00:12:19,920
+et cetera right
+
+320
+00:12:16,639 --> 00:12:19,920
+uh let's stop the chat
+
+321
+00:12:22,240 --> 00:12:26,399
+so if you're looking this this what's
+
+322
+00:12:24,480 --> 00:12:28,399
+the tongue complexity if you look at
+
+323
+00:12:26,399 --> 00:12:29,450
+these
+
+324
+00:12:28,399 --> 00:12:35,740
+i think it's
+
+325
+00:12:29,450 --> 00:12:35,740
+[Music]
+
+326
+00:12:36,240 --> 00:12:44,240
+is it right j uh smaller than aj aj plus
+
+327
+00:12:41,200 --> 00:12:47,040
+one equals aj j minus equal one
+
+328
+00:12:44,240 --> 00:12:49,600
+aj yeah the next value needs to be set
+
+329
+00:12:47,040 --> 00:12:49,600
+to the key
+
+330
+00:12:50,839 --> 00:12:55,760
+okay yeah i think i got a good idea
+
+331
+00:12:54,480 --> 00:12:57,760
+let's just
+
+332
+00:12:55,760 --> 00:12:58,880
+just run this okay let's just run this
+
+333
+00:12:57,760 --> 00:13:01,200
+and then
+
+334
+00:12:58,880 --> 00:13:03,440
+and we can correct the mistake if we
+
+335
+00:13:01,200 --> 00:13:03,440
+have
+
+336
+00:13:03,760 --> 00:13:08,720
+uh
+
+337
+00:13:04,959 --> 00:13:10,639
+one three five seven
+
+338
+00:13:08,720 --> 00:13:12,639
+uh let's say one three
+
+339
+00:13:10,639 --> 00:13:13,600
+seven
+
+340
+00:13:12,639 --> 00:13:16,800
+five
+
+341
+00:13:13,600 --> 00:13:19,120
+two okay yeah
+
+342
+00:13:16,800 --> 00:13:21,600
+n will be equals to what
+
+343
+00:13:19,120 --> 00:13:23,200
+one two three four five five why
+
+344
+00:13:21,600 --> 00:13:24,399
+yeah
+
+345
+00:13:23,200 --> 00:13:28,000
+i
+
+346
+00:13:24,399 --> 00:13:30,480
+will be from one to n right so i will be
+
+347
+00:13:28,000 --> 00:13:32,240
+in this event at the beginning will be
+
+348
+00:13:30,480 --> 00:13:36,079
+here right
+
+349
+00:13:32,240 --> 00:13:38,160
+j will be i minus one so j is here okay
+
+350
+00:13:36,079 --> 00:13:41,120
+j is here why
+
+351
+00:13:38,160 --> 00:13:43,040
+y j is bigger than zero
+
+352
+00:13:41,120 --> 00:13:46,639
+right j
+
+353
+00:13:43,040 --> 00:13:49,920
+is bigger than zero or bigger than zero
+
+354
+00:13:46,639 --> 00:13:53,760
+y j is bigger or equal than zero right
+
+355
+00:13:49,920 --> 00:13:55,199
+yeah and key key will be equals to ai q
+
+356
+00:13:53,760 --> 00:13:57,839
+will be three
+
+357
+00:13:55,199 --> 00:13:59,199
+key will be three at the beginning
+
+358
+00:13:57,839 --> 00:14:02,560
+so key
+
+359
+00:13:59,199 --> 00:14:04,000
+three is smaller than aj
+
+360
+00:14:02,560 --> 00:14:07,440
+is not right
+
+361
+00:14:04,000 --> 00:14:09,839
+no okay so look then this loop this
+
+362
+00:14:07,440 --> 00:14:12,480
+while loop is not
+
+363
+00:14:09,839 --> 00:14:14,639
+will not be executed and then the next
+
+364
+00:14:12,480 --> 00:14:17,199
+will be aj plus one
+
+365
+00:14:14,639 --> 00:14:20,399
+aj plus one will be this one equals key
+
+366
+00:14:17,199 --> 00:14:21,600
+so it basically set it to three
+
+367
+00:14:20,399 --> 00:14:24,160
+yeah
+
+368
+00:14:21,600 --> 00:14:25,839
+okay now move to the next one what's
+
+369
+00:14:24,160 --> 00:14:29,920
+what's n
+
+370
+00:14:25,839 --> 00:14:31,839
+here the number of the elements okay
+
+371
+00:14:29,920 --> 00:14:33,519
+maybe maybe this is not a very good
+
+372
+00:14:31,839 --> 00:14:35,120
+example here because this is already
+
+373
+00:14:33,519 --> 00:14:37,680
+know that so look
+
+374
+00:14:35,120 --> 00:14:40,800
+if it's in order this does nothing if
+
+375
+00:14:37,680 --> 00:14:43,120
+it's this in order if it's one two three
+
+376
+00:14:40,800 --> 00:14:45,760
+four five so what happened what's the
+
+377
+00:14:43,120 --> 00:14:46,959
+best cases this is already sorted so
+
+378
+00:14:45,760 --> 00:14:51,120
+look
+
+379
+00:14:46,959 --> 00:14:51,120
+if this is in order so can you tell me
+
+380
+00:14:51,199 --> 00:14:55,519
+do we go in here somehow if it's already
+
+381
+00:14:53,360 --> 00:14:59,040
+in order
+
+382
+00:14:55,519 --> 00:15:01,920
+yeah because j aj j is i minus one so we
+
+383
+00:14:59,040 --> 00:15:02,959
+always checking the previous value
+
+384
+00:15:01,920 --> 00:15:05,440
+yeah
+
+385
+00:15:02,959 --> 00:15:08,399
+if the previous value is bigger than the
+
+386
+00:15:05,440 --> 00:15:09,600
+key right it never it's never true right
+
+387
+00:15:08,399 --> 00:15:11,519
+array
+
+388
+00:15:09,600 --> 00:15:13,760
+yeah for assorted array
+
+389
+00:15:11,519 --> 00:15:17,519
+key is
+
+390
+00:15:13,760 --> 00:15:19,360
+always bigger key key is this very well
+
+391
+00:15:17,519 --> 00:15:20,800
+key is this value
+
+392
+00:15:19,360 --> 00:15:23,600
+and we are starting checking the
+
+393
+00:15:20,800 --> 00:15:26,399
+previous one key is always the
+
+394
+00:15:23,600 --> 00:15:28,639
+bigger than the previous value
+
+395
+00:15:26,399 --> 00:15:31,759
+right so these key keys smaller than
+
+396
+00:15:28,639 --> 00:15:35,519
+previous value never true is never true
+
+397
+00:15:31,759 --> 00:15:37,680
+so these y loop never gets x cubed
+
+398
+00:15:35,519 --> 00:15:41,279
+so what does it mean we all in the best
+
+399
+00:15:37,680 --> 00:15:42,959
+cases what is time complexity
+
+400
+00:15:41,279 --> 00:15:44,959
+oh and yeah it's like the bubble sorting
+
+401
+00:15:42,959 --> 00:15:47,440
+here bubble sorting we have
+
+402
+00:15:44,959 --> 00:15:50,079
+we have added a check if there are no
+
+403
+00:15:47,440 --> 00:15:52,160
+elements are being swapped in this round
+
+404
+00:15:50,079 --> 00:15:54,480
+it means that the array is already
+
+405
+00:15:52,160 --> 00:15:57,120
+sorted then we can terminate right
+
+406
+00:15:54,480 --> 00:15:59,360
+but here if it's already array is
+
+407
+00:15:57,120 --> 00:16:02,079
+already sorted then this while loop
+
+408
+00:15:59,360 --> 00:16:04,800
+never gets executed and then if the best
+
+409
+00:16:02,079 --> 00:16:08,240
+cases is o n right and in the worst
+
+410
+00:16:04,800 --> 00:16:10,000
+cases look five four three two one right
+
+411
+00:16:08,240 --> 00:16:12,079
+so look
+
+412
+00:16:10,000 --> 00:16:15,440
+so four
+
+413
+00:16:12,079 --> 00:16:18,160
+is right is smaller than five so i need
+
+414
+00:16:15,440 --> 00:16:20,720
+to so basically i need to squeeze the
+
+415
+00:16:18,160 --> 00:16:23,519
+previous element for the space to put in
+
+416
+00:16:20,720 --> 00:16:24,720
+the form do you get it
+
+417
+00:16:23,519 --> 00:16:27,600
+okay so
+
+418
+00:16:24,720 --> 00:16:29,120
+so look for example look here i'm right
+
+419
+00:16:27,600 --> 00:16:30,480
+here five right
+
+420
+00:16:29,120 --> 00:16:31,600
+all right
+
+421
+00:16:30,480 --> 00:16:34,399
+five
+
+422
+00:16:31,600 --> 00:16:36,880
+so look um this is already sorted right
+
+423
+00:16:34,399 --> 00:16:38,000
+here one three seconds sorry it says
+
+424
+00:16:36,880 --> 00:16:40,800
+nothing
+
+425
+00:16:38,000 --> 00:16:42,639
+so now for i want to squeeze
+
+426
+00:16:40,800 --> 00:16:44,160
+check the previous one squeeze if it's
+
+427
+00:16:42,639 --> 00:16:47,279
+smaller
+
+428
+00:16:44,160 --> 00:16:49,199
+so look five i miss this guy okay says
+
+429
+00:16:47,279 --> 00:16:51,680
+okay i'm smaller than you
+
+430
+00:16:49,199 --> 00:16:53,600
+you need to make space for me
+
+431
+00:16:51,680 --> 00:16:54,880
+so he will squeeze this seven to the
+
+432
+00:16:53,600 --> 00:16:56,639
+right
+
+433
+00:16:54,880 --> 00:16:57,920
+yeah
+
+434
+00:16:56,639 --> 00:16:58,880
+okay yeah
+
+435
+00:16:57,920 --> 00:17:01,440
+all right
+
+436
+00:16:58,880 --> 00:17:01,440
+okay two
+
+437
+00:17:01,680 --> 00:17:08,160
+smaller than seven yeah and then say
+
+438
+00:17:04,240 --> 00:17:08,160
+okay squeeze more space for me
+
+439
+00:17:09,520 --> 00:17:12,720
+two to the five
+
+440
+00:17:11,360 --> 00:17:14,799
+still smaller
+
+441
+00:17:12,720 --> 00:17:16,319
+so it's like you're waiting in the line
+
+442
+00:17:14,799 --> 00:17:19,120
+and then you're always checking okay
+
+443
+00:17:16,319 --> 00:17:22,079
+smaller than five okay please don't go
+
+444
+00:17:19,120 --> 00:17:23,679
+behind me because i'm smaller than you
+
+445
+00:17:22,079 --> 00:17:26,400
+yeah
+
+446
+00:17:23,679 --> 00:17:28,480
+so check the previous guy
+
+447
+00:17:26,400 --> 00:17:32,520
+it's still smaller right
+
+448
+00:17:28,480 --> 00:17:32,520
+okay make space for me
+
+449
+00:17:32,559 --> 00:17:36,640
+okay
+
+450
+00:17:34,000 --> 00:17:39,120
+yeah but but it's not doing one by one
+
+451
+00:17:36,640 --> 00:17:40,480
+it's doing all at once okay so let's do
+
+452
+00:17:39,120 --> 00:17:42,400
+so it's it's
+
+453
+00:17:40,480 --> 00:17:43,200
+it's not
+
+454
+00:17:42,400 --> 00:17:45,200
+look
+
+455
+00:17:43,200 --> 00:17:46,559
+two here so you check
+
+456
+00:17:45,200 --> 00:17:47,760
+okay
+
+457
+00:17:46,559 --> 00:17:49,760
+smaller
+
+458
+00:17:47,760 --> 00:17:51,600
+go to the right five
+
+459
+00:17:49,760 --> 00:17:52,480
+i am still smaller i'm still in the
+
+460
+00:17:51,600 --> 00:17:53,520
+front
+
+461
+00:17:52,480 --> 00:17:56,640
+three
+
+462
+00:17:53,520 --> 00:17:59,600
+yeah i'm i'm not in front of three two
+
+463
+00:17:56,640 --> 00:18:02,240
+no right it's okay i'm position i'm here
+
+464
+00:17:59,600 --> 00:18:04,320
+okay so for all other elements
+
+465
+00:18:02,240 --> 00:18:06,960
+so needs to be one position to the right
+
+466
+00:18:04,320 --> 00:18:08,559
+right so these three needs to
+
+467
+00:18:06,960 --> 00:18:10,000
+move one position to the right and then
+
+468
+00:18:08,559 --> 00:18:12,080
+you put a two here
+
+469
+00:18:10,000 --> 00:18:14,640
+like this that's what it does look aj
+
+470
+00:18:12,080 --> 00:18:16,880
+plus one equals aj
+
+471
+00:18:14,640 --> 00:18:18,240
+all right aj plus one equals aj what
+
+472
+00:18:16,880 --> 00:18:22,000
+does it mean so
+
+473
+00:18:18,240 --> 00:18:24,320
+look phi seven aj plus one equals aj
+
+474
+00:18:22,000 --> 00:18:26,640
+so what happened okay happen over here
+
+475
+00:18:24,320 --> 00:18:29,120
+if j is here so what happened up what
+
+476
+00:18:26,640 --> 00:18:30,400
+happened after this aj plus one equals
+
+477
+00:18:29,120 --> 00:18:31,919
+aj
+
+478
+00:18:30,400 --> 00:18:33,200
+what will be
+
+479
+00:18:31,919 --> 00:18:35,360
+happening
+
+480
+00:18:33,200 --> 00:18:38,799
+what will happen
+
+481
+00:18:35,360 --> 00:18:40,720
+it's okay c is here so five seven aj
+
+482
+00:18:38,799 --> 00:18:42,559
+plus one equals aj so what happened
+
+483
+00:18:40,720 --> 00:18:45,760
+after this
+
+484
+00:18:42,559 --> 00:18:48,080
+a j plus one is this one equals aj that
+
+485
+00:18:45,760 --> 00:18:50,240
+means that's what this is no no it's not
+
+486
+00:18:48,080 --> 00:18:52,000
+sloping i just this one a j plus one
+
+487
+00:18:50,240 --> 00:18:55,760
+equals aj what's happening
+
+488
+00:18:52,000 --> 00:18:59,200
+aj aj plus one equals aj
+
+489
+00:18:55,760 --> 00:19:03,120
+aj plus on equals aj so what happened
+
+490
+00:18:59,200 --> 00:19:06,400
+they're squeezing these two changes to
+
+491
+00:19:03,120 --> 00:19:09,120
+five five another two five and then
+
+492
+00:19:06,400 --> 00:19:11,919
+and then here aj plus one equals key so
+
+493
+00:19:09,120 --> 00:19:14,400
+the so because j will minus one i so j
+
+494
+00:19:11,919 --> 00:19:17,360
+will be here aj my plus one is here
+
+495
+00:19:14,400 --> 00:19:19,600
+equals key that would be whatever okay
+
+496
+00:19:17,360 --> 00:19:22,160
+right now okay so that's what in the
+
+497
+00:19:19,600 --> 00:19:23,679
+best cases is o n okay
+
+498
+00:19:22,160 --> 00:19:25,360
+okay i want to talk about another
+
+499
+00:19:23,679 --> 00:19:27,280
+another concept which is called stable
+
+500
+00:19:25,360 --> 00:19:30,080
+you're not stable
+
+501
+00:19:27,280 --> 00:19:32,480
+stable what does it mean
+
+502
+00:19:30,080 --> 00:19:32,480
+stable
+
+503
+00:19:32,960 --> 00:19:37,240
+what's the word in in english
+
+504
+00:19:40,720 --> 00:19:44,000
+what's not stable
+
+505
+00:19:44,160 --> 00:19:47,840
+not balanced
+
+506
+00:19:45,760 --> 00:19:50,320
+okay balance yeah yeah balance okay in
+
+507
+00:19:47,840 --> 00:19:52,960
+sorting aggregate stable means that look
+
+508
+00:19:50,320 --> 00:19:56,000
+if i have two value two two
+
+509
+00:19:52,960 --> 00:19:59,120
+two two and right so if these two okay
+
+510
+00:19:56,000 --> 00:20:00,880
+so this screen two if i i have these
+
+511
+00:19:59,120 --> 00:20:03,919
+so after sorting it like that will be
+
+512
+00:20:00,880 --> 00:20:05,520
+three two two four after sorting
+
+513
+00:20:03,919 --> 00:20:08,480
+yeah
+
+514
+00:20:05,520 --> 00:20:10,559
+after sorting if this green two is still
+
+515
+00:20:08,480 --> 00:20:11,440
+on the right of the black uh black tube
+
+516
+00:20:10,559 --> 00:20:13,679
+right
+
+517
+00:20:11,440 --> 00:20:15,440
+it's called stable
+
+518
+00:20:13,679 --> 00:20:18,320
+yeah because they are the same you
+
+519
+00:20:15,440 --> 00:20:19,760
+basically you can swap it and it's still
+
+520
+00:20:18,320 --> 00:20:22,080
+salty right
+
+521
+00:20:19,760 --> 00:20:24,159
+all right
+
+522
+00:20:22,080 --> 00:20:26,960
+yeah but for some egg run this would be
+
+523
+00:20:24,159 --> 00:20:27,760
+become two two
+
+524
+00:20:26,960 --> 00:20:30,640
+right
+
+525
+00:20:27,760 --> 00:20:34,400
+two two three four maybe yeah or another
+
+526
+00:20:30,640 --> 00:20:36,400
+kind of anger is what is two
+
+527
+00:20:34,400 --> 00:20:38,559
+two three four
+
+528
+00:20:36,400 --> 00:20:40,720
+so can you tell me which which which
+
+529
+00:20:38,559 --> 00:20:43,280
+sort of result is sort of stable which
+
+530
+00:20:40,720 --> 00:20:43,280
+one is not
+
+531
+00:20:44,480 --> 00:20:48,640
+which one is stable
+
+532
+00:20:47,200 --> 00:20:51,280
+which one is not
+
+533
+00:20:48,640 --> 00:20:54,159
+so the original array is three two two
+
+534
+00:20:51,280 --> 00:20:56,080
+four and then one sorted array is two
+
+535
+00:20:54,159 --> 00:20:57,679
+two three four the other one is two two
+
+536
+00:20:56,080 --> 00:20:58,720
+three four the only difference is these
+
+537
+00:20:57,679 --> 00:20:59,679
+two
+
+538
+00:20:58,720 --> 00:21:01,840
+left
+
+539
+00:20:59,679 --> 00:21:05,200
+why
+
+540
+00:21:01,840 --> 00:21:07,440
+okay yeah that's a good question no okay
+
+541
+00:21:05,200 --> 00:21:09,919
+so which one is salted which one is
+
+542
+00:21:07,440 --> 00:21:09,919
+stable
+
+543
+00:21:11,840 --> 00:21:16,720
+this one
+
+544
+00:21:14,159 --> 00:21:19,760
+this one yeah this one is solid stable
+
+545
+00:21:16,720 --> 00:21:21,840
+because the original uh order is the
+
+546
+00:21:19,760 --> 00:21:24,799
+green two comes after two
+
+547
+00:21:21,840 --> 00:21:27,120
+and this one the green two comes before
+
+548
+00:21:24,799 --> 00:21:29,280
+then actually you are
+
+549
+00:21:27,120 --> 00:21:30,720
+you are not maintaining the order of the
+
+550
+00:21:29,280 --> 00:21:34,159
+similar of the
+
+551
+00:21:30,720 --> 00:21:35,200
+equivalent elements am right make sense
+
+552
+00:21:34,159 --> 00:21:36,880
+yeah
+
+553
+00:21:35,200 --> 00:21:39,039
+okay so
+
+554
+00:21:36,880 --> 00:21:41,120
+the bubble sorting is stable right so
+
+555
+00:21:39,039 --> 00:21:43,120
+because every time you take a round to
+
+556
+00:21:41,120 --> 00:21:47,840
+buffer sorting the same angle as some
+
+557
+00:21:43,120 --> 00:21:50,960
+numbers so it's all uh is stable the ins
+
+558
+00:21:47,840 --> 00:21:53,200
+insertion salt is stable
+
+559
+00:21:50,960 --> 00:21:53,200
+the
+
+560
+00:21:53,520 --> 00:21:58,720
+what
+
+561
+00:21:55,600 --> 00:22:00,240
+the quick thought is not the much salt
+
+562
+00:21:58,720 --> 00:22:02,480
+is stable
+
+563
+00:22:00,240 --> 00:22:04,000
+the selection salt is not stable okay
+
+564
+00:22:02,480 --> 00:22:06,799
+i'll tell you why it's next install is
+
+565
+00:22:04,000 --> 00:22:06,799
+not stable okay
+
+566
+00:22:07,360 --> 00:22:11,400
+three
+
+567
+00:22:08,400 --> 00:22:11,400
+two
+
+568
+00:22:12,880 --> 00:22:15,120
+uh
+
+569
+00:22:18,640 --> 00:22:22,159
+um
+
+570
+00:22:20,080 --> 00:22:25,720
+three
+
+571
+00:22:22,159 --> 00:22:25,720
+four okay
+
+572
+00:22:27,039 --> 00:22:29,600
+yeah uh
+
+573
+00:22:29,919 --> 00:22:35,360
+okay maybe this is not a good example
+
+574
+00:22:32,799 --> 00:22:35,360
+let's say
+
+575
+00:22:35,840 --> 00:22:43,280
+so how does the selection so well you
+
+576
+00:22:38,559 --> 00:22:43,280
+always swap it right you always stop it
+
+577
+00:22:43,919 --> 00:22:47,360
+you always sloppy uh
+
+578
+00:22:47,520 --> 00:22:54,559
+so this is three this is three
+
+579
+00:22:50,320 --> 00:22:57,120
+so let's say this is two okay so and the
+
+580
+00:22:54,559 --> 00:22:59,280
+first one and the first one okay let's
+
+581
+00:22:57,120 --> 00:23:01,440
+let's make these three
+
+582
+00:22:59,280 --> 00:23:03,600
+and the first one you pick the smallest
+
+583
+00:23:01,440 --> 00:23:07,520
+index which is two
+
+584
+00:23:03,600 --> 00:23:11,120
+and then you swap it with three ah okay
+
+585
+00:23:07,520 --> 00:23:12,720
+so that's four okay two
+
+586
+00:23:11,120 --> 00:23:14,799
+yeah
+
+587
+00:23:12,720 --> 00:23:16,559
+okay all right look
+
+588
+00:23:14,799 --> 00:23:18,880
+selection so what happened
+
+589
+00:23:16,559 --> 00:23:22,960
+what selections are what element do you
+
+590
+00:23:18,880 --> 00:23:24,880
+pick which one is the smallest
+
+591
+00:23:22,960 --> 00:23:27,120
+okay so what happened what should i do
+
+592
+00:23:24,880 --> 00:23:28,159
+with two swap it with three right
+
+593
+00:23:27,120 --> 00:23:30,000
+yeah
+
+594
+00:23:28,159 --> 00:23:31,200
+so once you swap it what happens it'll
+
+595
+00:23:30,000 --> 00:23:33,280
+be two
+
+596
+00:23:31,200 --> 00:23:35,200
+four
+
+597
+00:23:33,280 --> 00:23:38,960
+three
+
+598
+00:23:35,200 --> 00:23:40,720
+three this is the problem this green
+
+599
+00:23:38,960 --> 00:23:43,440
+three is after
+
+600
+00:23:40,720 --> 00:23:46,480
+black three but now why do you need to
+
+601
+00:23:43,440 --> 00:23:48,400
+swap two with a green screen yo the
+
+602
+00:23:46,480 --> 00:23:50,080
+selection saw look
+
+603
+00:23:48,400 --> 00:23:52,000
+yesterday we talked about selections all
+
+604
+00:23:50,080 --> 00:23:53,919
+right what's the next song you pick the
+
+605
+00:23:52,000 --> 00:23:55,760
+minimum right
+
+606
+00:23:53,919 --> 00:23:57,600
+and you swap it right
+
+607
+00:23:55,760 --> 00:24:00,000
+so sorting with the
+
+608
+00:23:57,600 --> 00:24:02,080
+with the the beginning of the
+
+609
+00:24:00,000 --> 00:24:04,880
+unsalted list all right
+
+610
+00:24:02,080 --> 00:24:06,799
+yeah remember
+
+611
+00:24:04,880 --> 00:24:08,880
+let's let's hold the selection so what
+
+612
+00:24:06,799 --> 00:24:10,960
+yeah in terms of today is this freezing
+
+613
+00:24:08,880 --> 00:24:12,480
+yeah the bubble sorting is you know
+
+614
+00:24:10,960 --> 00:24:15,760
+every time swapping with the next one
+
+615
+00:24:12,480 --> 00:24:18,559
+right okay so let that's not stable okay
+
+616
+00:24:15,760 --> 00:24:20,880
+because look after one round of sorting
+
+617
+00:24:18,559 --> 00:24:23,520
+swapping the
+
+618
+00:24:20,880 --> 00:24:25,279
+the green three is now becomes in the
+
+619
+00:24:23,520 --> 00:24:26,640
+front of the black three that's not
+
+620
+00:24:25,279 --> 00:24:27,679
+stable right
+
+621
+00:24:26,640 --> 00:24:28,880
+right
+
+622
+00:24:27,679 --> 00:24:31,200
+make sense
+
+623
+00:24:28,880 --> 00:24:33,120
+okay so let's just release the taper for
+
+624
+00:24:31,200 --> 00:24:35,360
+these three sorting and a little bit
+
+625
+00:24:33,120 --> 00:24:35,360
+okay
+
+626
+00:24:35,440 --> 00:24:40,159
+what do we have
+
+627
+00:24:37,360 --> 00:24:40,159
+bubble sorting
+
+628
+00:24:40,480 --> 00:24:43,919
+and yesterday we talked about selection
+
+629
+00:24:42,640 --> 00:24:46,159
+soft
+
+630
+00:24:43,919 --> 00:24:47,919
+today we talked about insertions all
+
+631
+00:24:46,159 --> 00:24:49,760
+right
+
+632
+00:24:47,919 --> 00:24:51,840
+and
+
+633
+00:24:49,760 --> 00:24:54,320
+at the beginning last year we talked
+
+634
+00:24:51,840 --> 00:24:55,120
+about quick thought
+
+635
+00:24:54,320 --> 00:24:57,200
+yeah
+
+636
+00:24:55,120 --> 00:24:58,840
+and then merge sorry this is the five
+
+637
+00:24:57,200 --> 00:25:01,200
+sorting again we have learned so far
+
+638
+00:24:58,840 --> 00:25:03,600
+right yeah
+
+639
+00:25:01,200 --> 00:25:03,600
+all right
+
+640
+00:25:07,919 --> 00:25:12,960
+okay let's say the best case best case
+
+641
+00:25:10,880 --> 00:25:15,520
+time complexity
+
+642
+00:25:12,960 --> 00:25:18,320
+average time contact speed
+
+643
+00:25:15,520 --> 00:25:21,360
+worst case complexity
+
+644
+00:25:18,320 --> 00:25:23,760
+space complexity
+
+645
+00:25:21,360 --> 00:25:25,520
+and is it stable okay let's just
+
+646
+00:25:23,760 --> 00:25:26,559
+consider this okay
+
+647
+00:25:25,520 --> 00:25:30,480
+yeah
+
+648
+00:25:26,559 --> 00:25:30,480
+bubble sorting best case is o
+
+649
+00:25:32,960 --> 00:25:38,080
+n yeah average o n square
+
+650
+00:25:36,320 --> 00:25:39,760
+was one square
+
+651
+00:25:38,080 --> 00:25:40,840
+space o one
+
+652
+00:25:39,760 --> 00:25:43,919
+stable
+
+653
+00:25:40,840 --> 00:25:46,960
+yes selection sorry yesterday best case
+
+654
+00:25:43,919 --> 00:25:48,080
+is o n square yeah it doesn't average o
+
+655
+00:25:46,960 --> 00:25:51,840
+n square
+
+656
+00:25:48,080 --> 00:25:53,120
+was o n square space of one
+
+657
+00:25:51,840 --> 00:25:56,080
+is it stable
+
+658
+00:25:53,120 --> 00:26:00,720
+what no yeah remember that thing yeah
+
+659
+00:25:56,080 --> 00:26:00,720
+it's insane so today best cases
+
+660
+00:26:01,520 --> 00:26:05,919
+average average is also owens you know
+
+661
+00:26:04,240 --> 00:26:09,039
+this is simple sorting that everything
+
+662
+00:26:05,919 --> 00:26:11,360
+was is the same it's o n square okay
+
+663
+00:26:09,039 --> 00:26:14,000
+space or one
+
+664
+00:26:11,360 --> 00:26:17,520
+insertion saw is uh stable okay
+
+665
+00:26:14,000 --> 00:26:17,520
+quick sauce best case is
+
+666
+00:26:19,200 --> 00:26:23,679
+quick saw remember we picked brandon
+
+667
+00:26:20,960 --> 00:26:26,640
+choose the pivot and then we put the
+
+668
+00:26:23,679 --> 00:26:29,039
+elements before it smaller on the left
+
+669
+00:26:26,640 --> 00:26:30,559
+bigger on the right and we recursively
+
+670
+00:26:29,039 --> 00:26:32,159
+saw the both part
+
+671
+00:26:30,559 --> 00:26:35,279
+or what's the terminal recipe for the
+
+672
+00:26:32,159 --> 00:26:35,279
+salting you know it's me
+
+673
+00:26:36,320 --> 00:26:38,799
+why not
+
+674
+00:26:44,480 --> 00:26:47,679
+remember if it's the reverse yeah if
+
+675
+00:26:46,320 --> 00:26:49,360
+it's five four three two one and every
+
+676
+00:26:47,679 --> 00:26:50,880
+time you pick the pivot as the first
+
+677
+00:26:49,360 --> 00:26:53,120
+element and then
+
+678
+00:26:50,880 --> 00:26:54,960
+you are not making use of these fed they
+
+679
+00:26:53,120 --> 00:26:55,919
+partition into two halves or in square
+
+680
+00:26:54,960 --> 00:26:59,120
+space
+
+681
+00:26:55,919 --> 00:27:02,880
+uh worst case o and stable no
+
+682
+00:26:59,120 --> 00:27:02,880
+magistrate or when again
+
+683
+00:27:03,760 --> 00:27:07,840
+average or when logan yeah
+
+684
+00:27:08,080 --> 00:27:11,520
+worst case owen again
+
+685
+00:27:11,760 --> 00:27:15,840
+space oh and worst case is this stable
+
+686
+00:27:14,640 --> 00:27:17,679
+yes
+
+687
+00:27:15,840 --> 00:27:19,600
+okay so let's see
+
+688
+00:27:17,679 --> 00:27:21,600
+any questions what were you join do you
+
+689
+00:27:19,600 --> 00:27:23,200
+think it's better if
+
+690
+00:27:21,600 --> 00:27:25,039
+you you like the best
+
+691
+00:27:23,200 --> 00:27:26,480
+you have different advantages in this
+
+692
+00:27:25,039 --> 00:27:27,600
+advantage right
+
+693
+00:27:26,480 --> 00:27:30,080
+yeah
+
+694
+00:27:27,600 --> 00:27:32,559
+i like merge
+
+695
+00:27:30,080 --> 00:27:34,960
+because the it's quite safe it's stable
+
+696
+00:27:32,559 --> 00:27:36,960
+and it offers quite consistent
+
+697
+00:27:34,960 --> 00:27:38,000
+performance in the best every general
+
+698
+00:27:36,960 --> 00:27:39,200
+world right
+
+699
+00:27:38,000 --> 00:27:42,159
+yeah
+
+700
+00:27:39,200 --> 00:27:44,960
+and all these that have different right
+
+701
+00:27:42,159 --> 00:27:47,679
+look and this one is consistently o and
+
+702
+00:27:44,960 --> 00:27:50,159
+square which is very slow in 15 okay and
+
+703
+00:27:47,679 --> 00:27:51,760
+it's not stable so yeah i agree with you
+
+704
+00:27:50,159 --> 00:27:54,480
+much salt and it's very easy to
+
+705
+00:27:51,760 --> 00:27:57,520
+understand yeah much soft i have a
+
+706
+00:27:54,480 --> 00:27:59,200
+hundred and numbers to sort first of all
+
+707
+00:27:57,520 --> 00:28:01,600
+i cut into half
+
+708
+00:27:59,200 --> 00:28:04,399
+fifty fifty right
+
+709
+00:28:01,600 --> 00:28:06,960
+so i i don't care how you sort these 50
+
+710
+00:28:04,399 --> 00:28:10,080
+numbers each but once you have these 50
+
+711
+00:28:06,960 --> 00:28:11,600
+numbers we we know how to merge it right
+
+712
+00:28:10,080 --> 00:28:12,640
+much to sorting this do you still
+
+713
+00:28:11,600 --> 00:28:14,480
+remember
+
+714
+00:28:12,640 --> 00:28:16,720
+i don't put it together and for the 50
+
+715
+00:28:14,480 --> 00:28:20,000
+numbers we can keep dividing it
+
+716
+00:28:16,720 --> 00:28:21,679
+right into two halves we what how much
+
+717
+00:28:20,000 --> 00:28:23,760
+for each
+
+718
+00:28:21,679 --> 00:28:26,240
+for 50 numbers
+
+719
+00:28:23,760 --> 00:28:29,120
+we have 25 and 12 and keep dividing and
+
+720
+00:28:26,240 --> 00:28:31,200
+then we we top down and until we get one
+
+721
+00:28:29,120 --> 00:28:33,520
+element it's already sorted and now
+
+722
+00:28:31,200 --> 00:28:35,440
+we're starting to merge it back yeah one
+
+723
+00:28:33,520 --> 00:28:36,320
+element one limit we know how to merge
+
+724
+00:28:35,440 --> 00:28:38,080
+right
+
+725
+00:28:36,320 --> 00:28:39,600
+so we have two elements now and two
+
+726
+00:28:38,080 --> 00:28:40,799
+elements two and you know we know how to
+
+727
+00:28:39,600 --> 00:28:42,960
+merge
+
+728
+00:28:40,799 --> 00:28:44,000
+four elements four
+
+729
+00:28:42,960 --> 00:28:46,159
+got animals
+
+730
+00:28:44,000 --> 00:28:48,320
+you see this how beautiful is this
+
+731
+00:28:46,159 --> 00:28:50,000
+sorting angle right you know there are
+
+732
+00:28:48,320 --> 00:28:51,279
+quite a lot of knowledge about this
+
+733
+00:28:50,000 --> 00:28:53,120
+sorting agreement and then there are a
+
+734
+00:28:51,279 --> 00:28:55,440
+few more but
+
+735
+00:28:53,120 --> 00:28:57,120
+which which bits are simple sorting like
+
+736
+00:28:55,440 --> 00:28:58,559
+one two three these two are simple
+
+737
+00:28:57,120 --> 00:29:00,240
+sorting
+
+738
+00:28:58,559 --> 00:29:01,760
+why is that because the average is
+
+739
+00:29:00,240 --> 00:29:03,840
+always square
+
+740
+00:29:01,760 --> 00:29:06,399
+it's easy to implement right it's
+
+741
+00:29:03,840 --> 00:29:07,440
+usually two two four loop right
+
+742
+00:29:06,399 --> 00:29:09,200
+yeah
+
+743
+00:29:07,440 --> 00:29:11,279
+but for the quick solid multi so it's
+
+744
+00:29:09,200 --> 00:29:13,440
+it's usually complicated
+
+745
+00:29:11,279 --> 00:29:15,279
+right you have to write more a lot more
+
+746
+00:29:13,440 --> 00:29:17,600
+code using this
+
+747
+00:29:15,279 --> 00:29:20,799
+but you know the modern computer if you
+
+748
+00:29:17,600 --> 00:29:22,880
+use the a array that's all it's usually
+
+749
+00:29:20,799 --> 00:29:25,039
+based on quicksort
+
+750
+00:29:22,880 --> 00:29:27,440
+it's a mixed sorting agreement quicksort
+
+751
+00:29:25,039 --> 00:29:29,279
+and sometimes merge thought yeah these
+
+752
+00:29:27,440 --> 00:29:32,480
+three aggregates
+
+753
+00:29:29,279 --> 00:29:33,760
+yeah it's use use just useful to teach
+
+754
+00:29:32,480 --> 00:29:35,440
+you
+
+755
+00:29:33,760 --> 00:29:37,600
+how the algorithm works okay because
+
+756
+00:29:35,440 --> 00:29:40,799
+look if the number if there are million
+
+757
+00:29:37,600 --> 00:29:42,960
+numbers this is too slow a million times
+
+758
+00:29:40,799 --> 00:29:45,360
+a million it's crucial right
+
+759
+00:29:42,960 --> 00:29:50,520
+got it yeah okay that's it for today
+
+760
+00:29:45,360 --> 00:29:50,520
+good job bye bye bye bye bye
+
