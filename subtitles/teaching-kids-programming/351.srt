@@ -1,0 +1,1128 @@
+1
+00:00:00,399 --> 00:00:05,040
+hello
+
+2
+00:00:01,360 --> 00:00:07,759
+i don't mean stay with mr ryan all right
+
+3
+00:00:05,040 --> 00:00:10,080
+okay so we have a sentence s equals
+
+4
+00:00:07,759 --> 00:00:11,120
+hello
+
+5
+00:00:10,080 --> 00:00:12,320
+eric
+
+6
+00:00:11,120 --> 00:00:13,440
+hi
+
+7
+00:00:12,320 --> 00:00:14,920
+hi
+
+8
+00:00:13,440 --> 00:00:16,880
+ryan
+
+9
+00:00:14,920 --> 00:00:19,359
+hi okay so
+
+10
+00:00:16,880 --> 00:00:21,359
+we only have we have a
+
+11
+00:00:19,359 --> 00:00:24,320
+sentence with only the uppercase
+
+12
+00:00:21,359 --> 00:00:27,840
+lowercase letter let's space okay
+
+13
+00:00:24,320 --> 00:00:30,400
+we want to be able to truncate the first
+
+14
+00:00:27,840 --> 00:00:32,480
+the sentence by first few words for
+
+15
+00:00:30,400 --> 00:00:33,680
+for example k equals three then you need
+
+16
+00:00:32,480 --> 00:00:36,320
+to tell me
+
+17
+00:00:33,680 --> 00:00:38,239
+the the output will be
+
+18
+00:00:36,320 --> 00:00:39,600
+hello
+
+19
+00:00:38,239 --> 00:00:42,480
+eric
+
+20
+00:00:39,600 --> 00:00:44,960
+hi hi that's it because that's the first
+
+21
+00:00:42,480 --> 00:00:47,120
+three words and they're joined by a
+
+22
+00:00:44,960 --> 00:00:48,719
+space okay
+
+23
+00:00:47,120 --> 00:00:51,680
+so
+
+24
+00:00:48,719 --> 00:00:54,000
+look there's one tiny thing is that the
+
+25
+00:00:51,680 --> 00:00:56,480
+space man there may be extra space here
+
+26
+00:00:54,000 --> 00:00:58,399
+okay there may be extra space
+
+27
+00:00:56,480 --> 00:01:00,480
+another input maybe
+
+28
+00:00:58,399 --> 00:01:02,559
+maybe having these multiple spaces
+
+29
+00:01:00,480 --> 00:01:05,280
+between the words so we'll be able to
+
+30
+00:01:02,559 --> 00:01:07,360
+handle that we'll only be able to we
+
+31
+00:01:05,280 --> 00:01:08,799
+need to be able to return only single
+
+32
+00:01:07,360 --> 00:01:11,040
+space okay
+
+33
+00:01:08,799 --> 00:01:13,920
+there will be a single space so in order
+
+34
+00:01:11,040 --> 00:01:15,759
+to do this remember how do we
+
+35
+00:01:13,920 --> 00:01:18,479
+convert a string how do we convert the
+
+36
+00:01:15,759 --> 00:01:20,720
+string into an array of string by
+
+37
+00:01:18,479 --> 00:01:21,759
+what's the word what's the
+
+38
+00:01:20,720 --> 00:01:23,119
+join
+
+39
+00:01:21,759 --> 00:01:26,479
+split
+
+40
+00:01:23,119 --> 00:01:28,720
+which which one is it split yeah look if
+
+41
+00:01:26,479 --> 00:01:30,960
+you look at this is hollow array and
+
+42
+00:01:28,720 --> 00:01:34,240
+then high yeah
+
+43
+00:01:30,960 --> 00:01:36,320
+so if we split
+
+44
+00:01:34,240 --> 00:01:38,240
+look if we split the sentence by the
+
+45
+00:01:36,320 --> 00:01:39,119
+space then it will give me an array of
+
+46
+00:01:38,240 --> 00:01:40,400
+uh
+
+47
+00:01:39,119 --> 00:01:42,000
+string right
+
+48
+00:01:40,400 --> 00:01:45,520
+so look
+
+49
+00:01:42,000 --> 00:01:48,560
+if this string is a space
+
+50
+00:01:45,520 --> 00:01:50,240
+space b space c
+
+51
+00:01:48,560 --> 00:01:52,720
+if there's only one single string you
+
+52
+00:01:50,240 --> 00:01:54,399
+can say okay this is
+
+53
+00:01:52,720 --> 00:01:57,119
+s star spread
+
+54
+00:01:54,399 --> 00:02:00,560
+you can give a delimiter yes delimiter
+
+55
+00:01:57,119 --> 00:02:00,560
+what's this one mean delimiter
+
+56
+00:02:01,280 --> 00:02:05,119
+it means the limit
+
+57
+00:02:03,119 --> 00:02:07,920
+it means that the single thing between
+
+58
+00:02:05,119 --> 00:02:09,599
+these at the limiter so you can specify
+
+59
+00:02:07,920 --> 00:02:11,760
+a single space and you
+
+60
+00:02:09,599 --> 00:02:14,879
+you will return a
+
+61
+00:02:11,760 --> 00:02:16,640
+a list of a b c right but how about if
+
+62
+00:02:14,879 --> 00:02:20,000
+there are multiple states
+
+63
+00:02:16,640 --> 00:02:22,319
+then you if you split by single space
+
+64
+00:02:20,000 --> 00:02:24,400
+whatever you return something in this
+
+65
+00:02:22,319 --> 00:02:26,560
+page whatever you've written space
+
+66
+00:02:24,400 --> 00:02:28,640
+whatever you think
+
+67
+00:02:26,560 --> 00:02:30,640
+about the amount of times you've done it
+
+68
+00:02:28,640 --> 00:02:33,440
+sorry
+
+69
+00:02:30,640 --> 00:02:36,239
+so we have given lisa if
+
+70
+00:02:33,440 --> 00:02:37,200
+if we only if we have multiple spaces
+
+71
+00:02:36,239 --> 00:02:38,879
+and we
+
+72
+00:02:37,200 --> 00:02:41,200
+split by single space you will have
+
+73
+00:02:38,879 --> 00:02:44,319
+extra space empty space between this a
+
+74
+00:02:41,200 --> 00:02:46,400
+and b which is not what we want okay so
+
+75
+00:02:44,319 --> 00:02:48,959
+the key thing here is that we don't give
+
+76
+00:02:46,400 --> 00:02:51,120
+it a parameter so we just call extra
+
+77
+00:02:48,959 --> 00:02:53,680
+spirit and if i have extra space it will
+
+78
+00:02:51,120 --> 00:02:54,879
+ignore it even the space between before
+
+79
+00:02:53,680 --> 00:02:58,319
+and after
+
+80
+00:02:54,879 --> 00:03:01,280
+so you would still tell me abc
+
+81
+00:02:58,319 --> 00:03:03,920
+you still tell me a b
+
+82
+00:03:01,280 --> 00:03:06,560
+c okay even there are multiple space
+
+83
+00:03:03,920 --> 00:03:09,200
+between these two different words and if
+
+84
+00:03:06,560 --> 00:03:11,280
+there are extra space at the beginning
+
+85
+00:03:09,200 --> 00:03:13,920
+at the end okay by the way if there's a
+
+86
+00:03:11,280 --> 00:03:15,280
+string have a leading space
+
+87
+00:03:13,920 --> 00:03:17,760
+on
+
+88
+00:03:15,280 --> 00:03:20,319
+all the what do we call it the tailings
+
+89
+00:03:17,760 --> 00:03:22,800
+string we can use this strip
+
+90
+00:03:20,319 --> 00:03:25,360
+strip function s dot string function to
+
+91
+00:03:22,800 --> 00:03:28,640
+get rid of it and then we have a left
+
+92
+00:03:25,360 --> 00:03:31,120
+strip that airstrip which is take care
+
+93
+00:03:28,640 --> 00:03:32,640
+removes the leading space and we have a
+
+94
+00:03:31,120 --> 00:03:33,760
+r strip
+
+95
+00:03:32,640 --> 00:03:37,360
+yeah
+
+96
+00:03:33,760 --> 00:03:39,680
+holding koi strip of stripe strip yeah
+
+97
+00:03:37,360 --> 00:03:42,159
+strip to get rid of the
+
+98
+00:03:39,680 --> 00:03:44,959
+you know the tailings
+
+99
+00:03:42,159 --> 00:03:46,319
+what do you call the space at the end
+
+100
+00:03:44,959 --> 00:03:48,000
+this is the leading space what do you
+
+101
+00:03:46,319 --> 00:03:50,959
+call it alien
+
+102
+00:03:48,000 --> 00:03:54,879
+uh we call it tailing or
+
+103
+00:03:50,959 --> 00:03:55,680
+tail tail space okay whatever okay
+
+104
+00:03:54,879 --> 00:03:57,200
+so
+
+105
+00:03:55,680 --> 00:03:59,599
+yeah so
+
+106
+00:03:57,200 --> 00:04:01,840
+so we can split it and then what do we
+
+107
+00:03:59,599 --> 00:04:03,760
+need to do afterwards what do we need to
+
+108
+00:04:01,840 --> 00:04:06,000
+do afterwards
+
+109
+00:04:03,760 --> 00:04:07,920
+all right yes what do we need to do
+
+110
+00:04:06,000 --> 00:04:09,760
+afterwards we need to
+
+111
+00:04:07,920 --> 00:04:11,840
+do
+
+112
+00:04:09,760 --> 00:04:14,239
+so because if k
+
+113
+00:04:11,840 --> 00:04:17,280
+if k could be a minion we still need to
+
+114
+00:04:14,239 --> 00:04:19,600
+return the whole sentence right yeah if
+
+115
+00:04:17,280 --> 00:04:22,479
+the hello string hello every hello ryan
+
+116
+00:04:19,600 --> 00:04:25,199
+if k is 100 what happened we will return
+
+117
+00:04:22,479 --> 00:04:27,120
+hello every camera let's let's see yeah
+
+118
+00:04:25,199 --> 00:04:28,800
+yeah that's it so we we should be able
+
+119
+00:04:27,120 --> 00:04:29,680
+to handle that yeah
+
+120
+00:04:28,800 --> 00:04:31,840
+so
+
+121
+00:04:29,680 --> 00:04:34,479
+let's say define
+
+122
+00:04:31,840 --> 00:04:34,479
+truncate
+
+123
+00:04:34,639 --> 00:04:36,960
+sentence
+
+124
+00:04:38,160 --> 00:04:42,639
+the sentence s and a k okay
+
+125
+00:04:41,040 --> 00:04:46,880
+so first of all we don't want to split
+
+126
+00:04:42,639 --> 00:04:50,160
+it so you tell me a equals s dot spread
+
+127
+00:04:46,880 --> 00:04:51,199
+should i give you the parameter or not
+
+128
+00:04:50,160 --> 00:04:52,400
+yeah
+
+129
+00:04:51,199 --> 00:04:53,759
+no
+
+130
+00:04:52,400 --> 00:04:56,080
+if we don't give a parameter what
+
+131
+00:04:53,759 --> 00:04:56,080
+happens
+
+132
+00:04:59,280 --> 00:05:04,479
+yeah yeah okay and now we have look a is
+
+133
+00:05:02,160 --> 00:05:07,120
+an array of string right
+
+134
+00:05:04,479 --> 00:05:10,160
+so we want to how do we how to convert
+
+135
+00:05:07,120 --> 00:05:13,360
+it back from the array of string back to
+
+136
+00:05:10,160 --> 00:05:16,000
+the sentence to the s remember
+
+137
+00:05:13,360 --> 00:05:18,560
+so what
+
+138
+00:05:16,000 --> 00:05:20,000
+john what what what's john john by us in
+
+139
+00:05:18,560 --> 00:05:22,840
+the space yeah
+
+140
+00:05:20,000 --> 00:05:25,919
+john we want to join what
+
+141
+00:05:22,840 --> 00:05:28,320
+array all right up to k right so what
+
+142
+00:05:25,919 --> 00:05:29,680
+should i put here up to k this is column
+
+143
+00:05:28,320 --> 00:05:32,240
+up to k
+
+144
+00:05:29,680 --> 00:05:35,360
+but the k could be the smaller could be
+
+145
+00:05:32,240 --> 00:05:37,600
+bigger than the length of a right
+
+146
+00:05:35,360 --> 00:05:39,039
+yeah so what should i do here what's
+
+147
+00:05:37,600 --> 00:05:41,360
+your right here
+
+148
+00:05:39,039 --> 00:05:44,000
+what's what's here
+
+149
+00:05:41,360 --> 00:05:44,000
+what's here
+
+150
+00:05:44,160 --> 00:05:50,000
+this is k and we want we have a k and we
+
+151
+00:05:46,880 --> 00:05:51,199
+have a length of the a so which one
+
+152
+00:05:50,000 --> 00:05:54,560
+minus
+
+153
+00:05:51,199 --> 00:05:56,319
+km lens a which is the look k could be a
+
+154
+00:05:54,560 --> 00:05:59,600
+minion and lens there could be only four
+
+155
+00:05:56,319 --> 00:06:02,000
+words so so you have to return all of it
+
+156
+00:05:59,600 --> 00:06:04,080
+yeah i know i know we want to up to k so
+
+157
+00:06:02,000 --> 00:06:05,440
+which is what what do we there's a
+
+158
+00:06:04,080 --> 00:06:07,039
+function
+
+159
+00:06:05,440 --> 00:06:08,720
+that's a function to call which is
+
+160
+00:06:07,039 --> 00:06:09,440
+smaller so what do we call it i just
+
+161
+00:06:08,720 --> 00:06:11,280
+said it
+
+162
+00:06:09,440 --> 00:06:13,199
+[Music]
+
+163
+00:06:11,280 --> 00:06:15,919
+to get a smaller of these two values
+
+164
+00:06:13,199 --> 00:06:17,840
+right because the length a could be
+
+165
+00:06:15,919 --> 00:06:20,000
+four words k could be a minion so in
+
+166
+00:06:17,840 --> 00:06:22,240
+this case we need to return forward
+
+167
+00:06:20,000 --> 00:06:23,759
+right but if k is two words and the
+
+168
+00:06:22,240 --> 00:06:27,039
+length a could be
+
+169
+00:06:23,759 --> 00:06:29,039
+for us we want to return two words okay
+
+170
+00:06:27,039 --> 00:06:31,360
+so what what should i do here to get the
+
+171
+00:06:29,039 --> 00:06:34,160
+minimum so to get a smaller one so
+
+172
+00:06:31,360 --> 00:06:34,160
+what's the function
+
+173
+00:06:38,550 --> 00:06:41,800
+[Music]
+
+174
+00:06:47,120 --> 00:06:51,759
+the together picking functions makes to
+
+175
+00:06:49,280 --> 00:06:53,440
+get a smaller function
+
+176
+00:06:51,759 --> 00:06:55,120
+okay
+
+177
+00:06:53,440 --> 00:06:56,960
+make sense
+
+178
+00:06:55,120 --> 00:06:59,520
+yeah it makes sense to get a smaller one
+
+179
+00:06:56,960 --> 00:07:00,639
+okay so let a little bit yeah
+
+180
+00:06:59,520 --> 00:07:03,840
+yeah
+
+181
+00:07:00,639 --> 00:07:03,840
+yeah mike says
+
+182
+00:07:05,360 --> 00:07:10,880
+how about if the string is empty what
+
+183
+00:07:07,199 --> 00:07:12,720
+happened is this going to break yeah
+
+184
+00:07:10,880 --> 00:07:15,680
+no no
+
+185
+00:07:12,720 --> 00:07:18,000
+let's try s is empty empty string that's
+
+186
+00:07:15,680 --> 00:07:20,240
+pretty you'll be a ob empty
+
+187
+00:07:18,000 --> 00:07:23,599
+a is empty
+
+188
+00:07:20,240 --> 00:07:26,400
+single space.john empty up to
+
+189
+00:07:23,599 --> 00:07:27,280
+minimum k whatever length a is zero
+
+190
+00:07:26,400 --> 00:07:29,599
+right
+
+191
+00:07:27,280 --> 00:07:33,440
+so this value will be zero a empty
+
+192
+00:07:29,599 --> 00:07:35,360
+string up to zero so let's empty
+
+193
+00:07:33,440 --> 00:07:36,800
+return empty
+
+194
+00:07:35,360 --> 00:07:39,120
+you'll be returning
+
+195
+00:07:36,800 --> 00:07:40,960
+i think you'll be returning empty okay
+
+196
+00:07:39,120 --> 00:07:42,479
+yes so it's not gonna how about one
+
+197
+00:07:40,960 --> 00:07:43,599
+single word
+
+198
+00:07:42,479 --> 00:07:45,680
+hello
+
+199
+00:07:43,599 --> 00:07:47,759
+space that will be single words up to
+
+200
+00:07:45,680 --> 00:07:49,199
+length a would be one right so the
+
+201
+00:07:47,759 --> 00:07:50,000
+minimum will be
+
+202
+00:07:49,199 --> 00:07:51,520
+this
+
+203
+00:07:50,000 --> 00:07:54,319
+yeah
+
+204
+00:07:51,520 --> 00:07:56,000
+here okay so how about k equal is
+
+205
+00:07:54,319 --> 00:07:57,360
+negative basically at least it's going
+
+206
+00:07:56,000 --> 00:07:59,199
+to break okay
+
+207
+00:07:57,360 --> 00:08:00,879
+why is that because k if it's negative
+
+208
+00:07:59,199 --> 00:08:03,840
+it doesn't make sense
+
+209
+00:08:00,879 --> 00:08:07,520
+right if k is a minus ten
+
+210
+00:08:03,840 --> 00:08:09,759
+minus one doesn't make sense
+
+211
+00:08:07,520 --> 00:08:12,479
+actually my but
+
+212
+00:08:09,759 --> 00:08:13,360
+you might know my
+
+213
+00:08:12,479 --> 00:08:16,800
+look
+
+214
+00:08:13,360 --> 00:08:18,160
+this a equals one two three remember
+
+215
+00:08:16,800 --> 00:08:22,000
+a
+
+216
+00:08:18,160 --> 00:08:22,000
+one what's a one going to return
+
+217
+00:08:22,879 --> 00:08:25,120
+one
+
+218
+00:08:26,080 --> 00:08:28,960
+up to one yeah up to one so that'll be
+
+219
+00:08:27,840 --> 00:08:31,280
+one right
+
+220
+00:08:28,960 --> 00:08:34,479
+a minus one
+
+221
+00:08:31,280 --> 00:08:36,320
+zero so this is still make sense up to
+
+222
+00:08:34,479 --> 00:08:39,120
+minus one so you'll be
+
+223
+00:08:36,320 --> 00:08:41,200
+up to minus one should be
+
+224
+00:08:39,120 --> 00:08:44,480
+this one right
+
+225
+00:08:41,200 --> 00:08:46,959
+f2 up to so you p this one i think yeah
+
+226
+00:08:44,480 --> 00:08:48,640
+so it's better we check this k if k is
+
+227
+00:08:46,959 --> 00:08:49,920
+smaller than zero then it doesn't make
+
+228
+00:08:48,640 --> 00:08:52,160
+sense right
+
+229
+00:08:49,920 --> 00:08:53,440
+right if k is smaller than zero we just
+
+230
+00:08:52,160 --> 00:08:54,399
+return
+
+231
+00:08:53,440 --> 00:08:56,560
+return
+
+232
+00:08:54,399 --> 00:08:58,800
+nothing all we can you know soil an
+
+233
+00:08:56,560 --> 00:09:02,080
+exception raise exception raise
+
+234
+00:08:58,800 --> 00:09:02,080
+something raise an error okay
+
+235
+00:09:02,160 --> 00:09:06,839
+index slicing okay i'm going to say one
+
+236
+00:09:04,240 --> 00:09:08,720
+more thing index
+
+237
+00:09:06,839 --> 00:09:11,040
+lighting a
+
+238
+00:09:08,720 --> 00:09:11,920
+up to one is this right
+
+239
+00:09:11,040 --> 00:09:12,959
+a
+
+240
+00:09:11,920 --> 00:09:14,640
+one
+
+241
+00:09:12,959 --> 00:09:16,160
+two two
+
+242
+00:09:14,640 --> 00:09:18,720
+zero one
+
+243
+00:09:16,160 --> 00:09:22,640
+up to two so excluding three so it will
+
+244
+00:09:18,720 --> 00:09:25,040
+be two right make sense yeah okay so in
+
+245
+00:09:22,640 --> 00:09:27,600
+the index sizing suppose the negative
+
+246
+00:09:25,040 --> 00:09:28,560
+one right for example a minus one what's
+
+247
+00:09:27,600 --> 00:09:30,480
+it
+
+248
+00:09:28,560 --> 00:09:32,160
+what's this a minus one one two three a
+
+249
+00:09:30,480 --> 00:09:34,320
+minus one
+
+250
+00:09:32,160 --> 00:09:35,839
+a minus one is
+
+251
+00:09:34,320 --> 00:09:38,959
+the last one and remember we talked
+
+252
+00:09:35,839 --> 00:09:41,920
+about three yeah a minus two
+
+253
+00:09:38,959 --> 00:09:43,120
+two so exactly okay so we can also have
+
+254
+00:09:41,920 --> 00:09:46,560
+this a
+
+255
+00:09:43,120 --> 00:09:48,720
+minus two dash uh column then you'll be
+
+256
+00:09:46,560 --> 00:09:51,200
+starting one the second to the left here
+
+257
+00:09:48,720 --> 00:09:53,600
+and then to the end that'll be 2 3.
+
+258
+00:09:51,200 --> 00:09:54,560
+yeah so a
+
+259
+00:09:53,600 --> 00:09:56,080
+dash
+
+260
+00:09:54,560 --> 00:09:59,519
+to minus 2
+
+261
+00:09:56,080 --> 00:10:00,959
+0 to dash minus 2 so 0 to minus 2 so
+
+262
+00:09:59,519 --> 00:10:04,880
+i
+
+263
+00:10:00,959 --> 00:10:06,560
+this is minus 1 minus 2.
+
+264
+00:10:04,880 --> 00:10:08,320
+okay
+
+265
+00:10:06,560 --> 00:10:10,000
+yeah actually i have to check eight
+
+266
+00:10:08,320 --> 00:10:11,920
+times minus two give me a second to
+
+267
+00:10:10,000 --> 00:10:13,040
+check okay i'm not quite sure
+
+268
+00:10:11,920 --> 00:10:15,519
+wow
+
+269
+00:10:13,040 --> 00:10:17,279
+okay let's check let's check a equals
+
+270
+00:10:15,519 --> 00:10:21,839
+one two three
+
+271
+00:10:17,279 --> 00:10:25,839
+and if a dash minus 1
+
+272
+00:10:21,839 --> 00:10:25,839
+yeah 1 2 that's minus 2
+
+273
+00:10:26,000 --> 00:10:29,760
+1 ok ok yeah
+
+274
+00:10:28,399 --> 00:10:32,880
+so look
+
+275
+00:10:29,760 --> 00:10:33,760
+a is 1 two three
+
+276
+00:10:32,880 --> 00:10:38,000
+a
+
+277
+00:10:33,760 --> 00:10:39,279
+to touch minus one is one two a two dash
+
+278
+00:10:38,000 --> 00:10:42,800
+minus
+
+279
+00:10:39,279 --> 00:10:44,399
+my uh column minus two is one one okay
+
+280
+00:10:42,800 --> 00:10:47,680
+make sense
+
+281
+00:10:44,399 --> 00:10:50,680
+yeah yeah okay okay that's it for today
+
+282
+00:10:47,680 --> 00:10:50,680
+bye
+
