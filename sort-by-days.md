@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sorted by Days
+- Day 352:  [Find Gene Mutation Groups via Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-gene-mutation-groups-via-depth-first-search-algorithm/)  找出不同的基因组数(递归深度优先算法-图论)  [Youtube](https://youtu.be/tXgI_Ct_0tE) - [B站](https://www.bilibili.com/video/BV1wM4y1A7hc/) - [西瓜](https://www.ixigua.com/7038707150490698248) 
 - Day 351:  [Algorithm to Truncate Sentence via Split Function](https://helloacm.com/teaching-kids-programming-algorithm-to-truncate-sentence-via-split-function/)  截断句子的拆分算法 (Split)  [Youtube](https://youtu.be/XtrKsrLL7mI) - [B站](https://www.bilibili.com/video/BV1uY411x7Pr/) - [西瓜](https://www.ixigua.com/7038318037740552711)
 - Day 350:  [Counting Sort Algorithm in Python](https://helloacm.com/teaching-kids-programming-counting-sort-algorithm-in-python/)  统计排序算法 (Counting Sort)  [Youtube](https://youtu.be/4e_auZTN5gg) - [B站](https://www.bilibili.com/video/BV1VY411x755/) - [西瓜](https://www.ixigua.com/7038305711876473352) 
 - Day 349:  [Algorithms to Check if Linked List Strictly Increasing](https://helloacm.com/teaching-kids-programming-algorithms-to-check-if-linked-list-strictly-increasing/)  检查链表是否严格递增有序的算法  [Youtube](https://youtu.be/4pq413H6aaE) - [B站](https://www.bilibili.com/video/BV1gg411P7CJ/) - [西瓜](https://www.ixigua.com/7037894174867194398)
