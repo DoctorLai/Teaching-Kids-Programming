@@ -1,0 +1,2988 @@
+1
+00:00:00,640 --> 00:00:06,799
+hello hello mr are you right yeah okay
+
+2
+00:00:04,560 --> 00:00:09,679
+so yeah we have been talking about this
+
+3
+00:00:06,799 --> 00:00:11,040
+uh jin human gym problem yeah we have
+
+4
+00:00:09,679 --> 00:00:15,280
+this a
+
+5
+00:00:11,040 --> 00:00:17,359
+so this is the dna thing a pair with t
+
+6
+00:00:15,280 --> 00:00:19,920
+c pair with g
+
+7
+00:00:17,359 --> 00:00:21,920
+right a p plus t c but g and then it
+
+8
+00:00:19,920 --> 00:00:23,920
+could be many many right
+
+9
+00:00:21,920 --> 00:00:24,220
+so we want to find out
+
+10
+00:00:23,920 --> 00:00:25,359
+the
+
+11
+00:00:24,220 --> 00:00:30,359
+[Music]
+
+12
+00:00:25,359 --> 00:00:30,359
+gene mutation group right gene mutation
+
+13
+00:00:32,399 --> 00:00:37,600
+what gene mutation group it differs only
+
+14
+00:00:34,880 --> 00:00:38,559
+by one gene right for example a c c t
+
+15
+00:00:37,600 --> 00:00:40,239
+and
+
+16
+00:00:38,559 --> 00:00:42,239
+c c c t
+
+17
+00:00:40,239 --> 00:00:44,559
+it belongs to the same mutation group
+
+18
+00:00:42,239 --> 00:00:46,800
+because the only one difference
+
+19
+00:00:44,559 --> 00:00:48,879
+and a g c
+
+20
+00:00:46,800 --> 00:00:49,680
+t t
+
+21
+00:00:48,879 --> 00:00:50,480
+a
+
+22
+00:00:49,680 --> 00:00:51,280
+g
+
+23
+00:00:50,480 --> 00:00:54,000
+t
+
+24
+00:00:51,280 --> 00:00:58,079
+d t belongs to the same group right
+
+25
+00:00:54,000 --> 00:01:00,480
+but a g t c t is not right because
+
+26
+00:00:58,079 --> 00:01:02,879
+differs on this one and this one is
+
+27
+00:01:00,480 --> 00:01:05,760
+right different but this one
+
+28
+00:01:02,879 --> 00:01:05,760
+and then this one
+
+29
+00:01:06,080 --> 00:01:09,400
+is it looks
+
+30
+00:01:12,720 --> 00:01:17,600
+yes but but okay that's the thing look
+
+31
+00:01:14,960 --> 00:01:19,759
+because this one connects to the second
+
+32
+00:01:17,600 --> 00:01:23,040
+one right so this one yeah
+
+33
+00:01:19,759 --> 00:01:27,520
+a g c t
+
+34
+00:01:23,040 --> 00:01:28,159
+a g t t t and the second connects to the
+
+35
+00:01:27,520 --> 00:01:31,040
+c
+
+36
+00:01:28,159 --> 00:01:31,840
+a g t c t right yeah
+
+37
+00:01:31,040 --> 00:01:33,119
+yeah
+
+38
+00:01:31,840 --> 00:01:35,360
+so these two belongs to the same
+
+39
+00:01:33,119 --> 00:01:37,600
+mutation group okay
+
+40
+00:01:35,360 --> 00:01:39,280
+they understand because they
+
+41
+00:01:37,600 --> 00:01:40,960
+there's a connection
+
+42
+00:01:39,280 --> 00:01:42,799
+right so
+
+43
+00:01:40,960 --> 00:01:44,960
+the first day the day before yesterday
+
+44
+00:01:42,799 --> 00:01:46,720
+we talked about different search
+
+45
+00:01:44,960 --> 00:01:49,439
+yesterday we talked about preferences
+
+46
+00:01:46,720 --> 00:01:51,119
+right so this is a graph problem graph
+
+47
+00:01:49,439 --> 00:01:53,280
+problem
+
+48
+00:01:51,119 --> 00:01:55,040
+graph
+
+49
+00:01:53,280 --> 00:01:57,759
+how do you
+
+50
+00:01:55,040 --> 00:02:00,560
+how do you spell graph gr aph
+
+51
+00:01:57,759 --> 00:02:02,159
+it's a graph is the collection of vertex
+
+52
+00:02:00,560 --> 00:02:03,759
+and an edges
+
+53
+00:02:02,159 --> 00:02:06,000
+right
+
+54
+00:02:03,759 --> 00:02:09,679
+and then now we have one vertex this
+
+55
+00:02:06,000 --> 00:02:10,800
+vertex is the genes right the gene group
+
+56
+00:02:09,679 --> 00:02:12,560
+the gene
+
+57
+00:02:10,800 --> 00:02:14,959
+and where are the edges where to the
+
+58
+00:02:12,560 --> 00:02:14,959
+energies
+
+59
+00:02:16,180 --> 00:02:19,840
+[Music]
+
+60
+00:02:17,760 --> 00:02:21,200
+yeah but the problem you see this
+
+61
+00:02:19,840 --> 00:02:23,680
+problem
+
+62
+00:02:21,200 --> 00:02:25,760
+statement does not give you the edges
+
+63
+00:02:23,680 --> 00:02:26,959
+directly right it does not tell you okay
+
+64
+00:02:25,760 --> 00:02:29,280
+we these two
+
+65
+00:02:26,959 --> 00:02:31,760
+gene belongs to this edge there is no
+
+66
+00:02:29,280 --> 00:02:33,920
+but how do we find it now
+
+67
+00:02:31,760 --> 00:02:34,800
+that's a rule right we check if these
+
+68
+00:02:33,920 --> 00:02:37,440
+two
+
+69
+00:02:34,800 --> 00:02:39,599
+belongs to some mutation group but only
+
+70
+00:02:37,440 --> 00:02:41,120
+one right so if like there's one thing
+
+71
+00:02:39,599 --> 00:02:43,680
+one letter difference then there's an
+
+72
+00:02:41,120 --> 00:02:46,160
+edge right yeah and our test is that
+
+73
+00:02:43,680 --> 00:02:47,360
+look we have a server
+
+74
+00:02:46,160 --> 00:02:50,800
+server
+
+75
+00:02:47,360 --> 00:02:52,800
+vertex seven gene connected by uh
+
+76
+00:02:50,800 --> 00:02:55,120
+by edges and we want to find out how
+
+77
+00:02:52,800 --> 00:02:57,440
+many number of the connected groups in
+
+78
+00:02:55,120 --> 00:02:58,640
+this case there's two right
+
+79
+00:02:57,440 --> 00:03:00,080
+do you still remember the different
+
+80
+00:02:58,640 --> 00:03:02,080
+search
+
+81
+00:03:00,080 --> 00:03:05,120
+research is
+
+82
+00:03:02,080 --> 00:03:07,200
+traveling by you're like
+
+83
+00:03:05,120 --> 00:03:10,560
+traveling from a note to note by
+
+84
+00:03:07,200 --> 00:03:11,360
+traveling along the edges yeah exactly
+
+85
+00:03:10,560 --> 00:03:12,159
+so
+
+86
+00:03:11,360 --> 00:03:14,400
+yeah
+
+87
+00:03:12,159 --> 00:03:16,480
+and then you go no more that's right i
+
+88
+00:03:14,400 --> 00:03:17,360
+know yeah
+
+89
+00:03:16,480 --> 00:03:20,959
+yeah
+
+90
+00:03:17,360 --> 00:03:20,959
+quite right yeah you're quite right
+
+91
+00:03:21,840 --> 00:03:26,640
+so
+
+92
+00:03:23,920 --> 00:03:28,799
+so i'm just writing that
+
+93
+00:03:26,640 --> 00:03:33,120
+last thing again okay
+
+94
+00:03:28,799 --> 00:03:35,840
+define okay let's say fine number
+
+95
+00:03:33,120 --> 00:03:39,040
+of mutation group
+
+96
+00:03:35,840 --> 00:03:41,840
+and i'm given a gene look at these genes
+
+97
+00:03:39,040 --> 00:03:42,640
+these genes are vertex right
+
+98
+00:03:41,840 --> 00:03:45,200
+okay
+
+99
+00:03:42,640 --> 00:03:47,519
+so look we have uh
+
+100
+00:03:45,200 --> 00:03:49,280
+we have a definition of preferences yeah
+
+101
+00:03:47,519 --> 00:03:52,480
+this is could be definitely perfect
+
+102
+00:03:49,280 --> 00:03:52,480
+branch i know
+
+103
+00:03:52,720 --> 00:03:56,159
+we just
+
+104
+00:03:53,760 --> 00:03:58,480
+yeah we just don't implement here right
+
+105
+00:03:56,159 --> 00:04:01,200
+now so look we have answer this is the
+
+106
+00:03:58,480 --> 00:04:03,200
+number of group then we can say 4i in
+
+107
+00:04:01,200 --> 00:04:04,319
+gene right those who leave each gene
+
+108
+00:04:03,200 --> 00:04:05,200
+group
+
+109
+00:04:04,319 --> 00:04:06,400
+right
+
+110
+00:04:05,200 --> 00:04:08,159
+and
+
+111
+00:04:06,400 --> 00:04:10,400
+if i
+
+112
+00:04:08,159 --> 00:04:13,760
+still in left remember the first one the
+
+113
+00:04:10,400 --> 00:04:15,920
+left left equals saying
+
+114
+00:04:13,760 --> 00:04:18,239
+gene
+
+115
+00:04:15,920 --> 00:04:20,959
+if still in the left
+
+116
+00:04:18,239 --> 00:04:24,320
+and then we do a test search
+
+117
+00:04:20,959 --> 00:04:26,320
+i right next to the search i and then
+
+118
+00:04:24,320 --> 00:04:29,360
+answer plus equal one
+
+119
+00:04:26,320 --> 00:04:31,280
+right look yeah
+
+120
+00:04:29,360 --> 00:04:33,680
+so what with this different search you
+
+121
+00:04:31,280 --> 00:04:36,160
+will remove all the vertex that
+
+122
+00:04:33,680 --> 00:04:38,240
+connected to i okay all right
+
+123
+00:04:36,160 --> 00:04:40,560
+we can answer yeah we talked about that
+
+124
+00:04:38,240 --> 00:04:43,600
+the day before yesterday look
+
+125
+00:04:40,560 --> 00:04:45,360
+this i will go through this i look this
+
+126
+00:04:43,600 --> 00:04:47,680
+is the gene yeah there might be some
+
+127
+00:04:45,360 --> 00:04:50,160
+group right some group like that right
+
+128
+00:04:47,680 --> 00:04:52,000
+right here goes only i
+
+129
+00:04:50,160 --> 00:04:52,960
+and then once i do this step for search
+
+130
+00:04:52,000 --> 00:04:54,800
+i
+
+131
+00:04:52,960 --> 00:04:57,600
+then i the first thing i need to do is i
+
+132
+00:04:54,800 --> 00:04:59,120
+don't remove a uh g don't left and
+
+133
+00:04:57,600 --> 00:05:01,039
+remove a
+
+134
+00:04:59,120 --> 00:05:02,639
+so what does it do
+
+135
+00:05:01,039 --> 00:05:04,639
+then you will remove it from the genes
+
+136
+00:05:02,639 --> 00:05:06,880
+right remove it from genes
+
+137
+00:05:04,639 --> 00:05:09,840
+so you remove all these things so next
+
+138
+00:05:06,880 --> 00:05:12,639
+time you go here look i found another
+
+139
+00:05:09,840 --> 00:05:15,280
+group right i found another group
+
+140
+00:05:12,639 --> 00:05:17,440
+so answering comparative one and look at
+
+141
+00:05:15,280 --> 00:05:20,000
+this definition
+
+142
+00:05:17,440 --> 00:05:21,600
+the order of marking the nodes doesn't
+
+143
+00:05:20,000 --> 00:05:23,039
+matter here right that's why we can use
+
+144
+00:05:21,600 --> 00:05:24,560
+the preferences
+
+145
+00:05:23,039 --> 00:05:27,039
+makes sense
+
+146
+00:05:24,560 --> 00:05:28,560
+because all my target is to what all my
+
+147
+00:05:27,039 --> 00:05:30,240
+target is to what
+
+148
+00:05:28,560 --> 00:05:33,440
+to remove all these
+
+149
+00:05:30,240 --> 00:05:35,120
+as a whole i don't care in all order i
+
+150
+00:05:33,440 --> 00:05:36,240
+remove them right
+
+151
+00:05:35,120 --> 00:05:38,000
+make sense
+
+152
+00:05:36,240 --> 00:05:39,759
+so i can do breakfast search i can do
+
+153
+00:05:38,000 --> 00:05:41,600
+different search therefore search
+
+154
+00:05:39,759 --> 00:05:44,560
+recursion stack preference search using
+
+155
+00:05:41,600 --> 00:05:46,479
+the queue level by level right look this
+
+156
+00:05:44,560 --> 00:05:48,720
+is this is one this is two three three
+
+157
+00:05:46,479 --> 00:05:51,199
+four therefore search
+
+158
+00:05:48,720 --> 00:05:53,199
+all right the first search one two four
+
+159
+00:05:51,199 --> 00:05:56,400
+three breakfast search
+
+160
+00:05:53,199 --> 00:05:59,120
+one two three four make sense
+
+161
+00:05:56,400 --> 00:06:01,120
+okay so
+
+162
+00:05:59,120 --> 00:06:03,360
+do you still remember a data structure
+
+163
+00:06:01,120 --> 00:06:04,560
+which is perfect for it for this kind of
+
+164
+00:06:03,360 --> 00:06:06,479
+purpose
+
+165
+00:06:04,560 --> 00:06:08,880
+right so we want to find out the number
+
+166
+00:06:06,479 --> 00:06:11,440
+of the groups and we at the beginning we
+
+167
+00:06:08,880 --> 00:06:12,560
+have n groups and then we can if there's
+
+168
+00:06:11,440 --> 00:06:15,360
+an edge
+
+169
+00:06:12,560 --> 00:06:17,039
+we mark it as a group even less than h
+
+170
+00:06:15,360 --> 00:06:18,840
+we mark it as a group and then we can
+
+171
+00:06:17,039 --> 00:06:23,600
+find out the number of
+
+172
+00:06:18,840 --> 00:06:23,600
+groups what do you call it remember
+
+173
+00:06:23,759 --> 00:06:27,360
+do you still remember
+
+174
+00:06:25,520 --> 00:06:29,759
+a data structure
+
+175
+00:06:27,360 --> 00:06:31,120
+yes exactly this joint set these tunes
+
+176
+00:06:29,759 --> 00:06:36,080
+are unified
+
+177
+00:06:31,120 --> 00:06:38,639
+this joint set this joint set okay and
+
+178
+00:06:36,080 --> 00:06:41,039
+usually we can do this union fight so
+
+179
+00:06:38,639 --> 00:06:43,039
+what does the union find so this station
+
+180
+00:06:41,039 --> 00:06:44,880
+is a status structure which supports at
+
+181
+00:06:43,039 --> 00:06:47,039
+least these two kind of
+
+182
+00:06:44,880 --> 00:06:49,199
+operations which is unit
+
+183
+00:06:47,039 --> 00:06:52,240
+which is where another one is fine so
+
+184
+00:06:49,199 --> 00:06:55,919
+union you have two groups you union and
+
+185
+00:06:52,240 --> 00:06:58,960
+together union united in union find
+
+186
+00:06:55,919 --> 00:07:01,199
+you can tell if a vertex
+
+187
+00:06:58,960 --> 00:07:03,120
+element belongs to which group
+
+188
+00:07:01,199 --> 00:07:05,360
+right okay
+
+189
+00:07:03,120 --> 00:07:05,360
+so
+
+190
+00:07:06,000 --> 00:07:10,479
+i'm just quickly writing this at this
+
+191
+00:07:07,919 --> 00:07:12,560
+june set thingy okay
+
+192
+00:07:10,479 --> 00:07:14,080
+i think we talked about a long time ago
+
+193
+00:07:12,560 --> 00:07:16,000
+and you may forget a little bit but
+
+194
+00:07:14,080 --> 00:07:18,240
+that's all right so we can revisit it
+
+195
+00:07:16,000 --> 00:07:18,240
+now
+
+196
+00:07:20,800 --> 00:07:26,080
+defy
+
+197
+00:07:22,080 --> 00:07:27,599
+union find okay let's let's unify
+
+198
+00:07:26,080 --> 00:07:30,400
+that's a class
+
+199
+00:07:27,599 --> 00:07:31,840
+or actually that's a class class
+
+200
+00:07:30,400 --> 00:07:33,599
+and then we have an
+
+201
+00:07:31,840 --> 00:07:35,199
+indeed
+
+202
+00:07:33,599 --> 00:07:36,560
+in it
+
+203
+00:07:35,199 --> 00:07:38,800
+uh
+
+204
+00:07:36,560 --> 00:07:41,520
+which is the constructor
+
+205
+00:07:38,800 --> 00:07:44,319
+and now we have what sizes we want to
+
+206
+00:07:41,520 --> 00:07:45,280
+put a size which is a dictionary and we
+
+207
+00:07:44,319 --> 00:07:46,400
+can
+
+208
+00:07:45,280 --> 00:07:48,560
+have uh
+
+209
+00:07:46,400 --> 00:07:51,199
+you you can implement this as a fixed
+
+210
+00:07:48,560 --> 00:07:51,919
+size you can pass a parameter which is n
+
+211
+00:07:51,199 --> 00:07:53,360
+and
+
+212
+00:07:51,919 --> 00:07:54,720
+a number of groups
+
+213
+00:07:53,360 --> 00:07:56,400
+right if you know
+
+214
+00:07:54,720 --> 00:07:58,160
+if you know the number of groups then
+
+215
+00:07:56,400 --> 00:07:59,840
+you can pass the n and then create a
+
+216
+00:07:58,160 --> 00:08:01,440
+static array
+
+217
+00:07:59,840 --> 00:08:03,039
+which end size
+
+218
+00:08:01,440 --> 00:08:05,199
+with an element but we now use the
+
+219
+00:08:03,039 --> 00:08:07,120
+dictionary which is the more flexible
+
+220
+00:08:05,199 --> 00:08:10,240
+okay it's left of parent
+
+221
+00:08:07,120 --> 00:08:13,199
+parent that's koi pak okay
+
+222
+00:08:10,240 --> 00:08:14,720
+okay and then two two things one is the
+
+223
+00:08:13,199 --> 00:08:19,199
+five
+
+224
+00:08:14,720 --> 00:08:21,440
+five union and fine let's say one five a
+
+225
+00:08:19,199 --> 00:08:23,919
+yeah if it's not in there then we return
+
+226
+00:08:21,440 --> 00:08:25,919
+what if we want to find it
+
+227
+00:08:23,919 --> 00:08:28,080
+so if it's not in there what should we
+
+228
+00:08:25,919 --> 00:08:28,080
+do
+
+229
+00:08:28,960 --> 00:08:31,360
+what should we do
+
+230
+00:08:30,250 --> 00:08:35,440
+[Music]
+
+231
+00:08:31,360 --> 00:08:36,640
+we first of all if a is not in
+
+232
+00:08:35,440 --> 00:08:40,640
+not in
+
+233
+00:08:36,640 --> 00:08:42,399
+serve the parent right if it's not there
+
+234
+00:08:40,640 --> 00:08:45,039
+if it's not there
+
+235
+00:08:42,399 --> 00:08:45,039
+what should we do
+
+236
+00:08:52,000 --> 00:08:57,440
+so look if an element is not in a in a
+
+237
+00:08:55,440 --> 00:08:59,440
+parent then we want to set it up right
+
+238
+00:08:57,440 --> 00:09:02,880
+we want to set it right
+
+239
+00:08:59,440 --> 00:09:04,560
+yeah so we can say select or parent
+
+240
+00:09:02,880 --> 00:09:05,440
+sorry second
+
+241
+00:09:04,560 --> 00:09:07,600
+yeah
+
+242
+00:09:05,440 --> 00:09:10,399
+a equals one
+
+243
+00:09:07,600 --> 00:09:11,920
+a okay it belongs to itself
+
+244
+00:09:10,399 --> 00:09:14,399
+right if it's not a
+
+245
+00:09:11,920 --> 00:09:16,880
+if it belongs to the cell the
+
+246
+00:09:14,399 --> 00:09:18,480
+landline sizes at the beginning size a
+
+247
+00:09:16,880 --> 00:09:20,080
+will be equal to one and then we can
+
+248
+00:09:18,480 --> 00:09:22,399
+just return
+
+249
+00:09:20,080 --> 00:09:24,959
+return what return we want to return the
+
+250
+00:09:22,399 --> 00:09:28,320
+number of uh the group group which is
+
+251
+00:09:24,959 --> 00:09:29,920
+this right a okay so look at this
+
+252
+00:09:28,320 --> 00:09:32,480
+actually
+
+253
+00:09:29,920 --> 00:09:34,959
+this is okay so this is a class so we
+
+254
+00:09:32,480 --> 00:09:37,440
+need to uh we need to put the first
+
+255
+00:09:34,959 --> 00:09:40,480
+parameter excel to say it's a class
+
+256
+00:09:37,440 --> 00:09:41,279
+method okay say self a
+
+257
+00:09:40,480 --> 00:09:43,920
+right
+
+258
+00:09:41,279 --> 00:09:45,519
+otherwise look if
+
+259
+00:09:43,920 --> 00:09:47,760
+if not
+
+260
+00:09:45,519 --> 00:09:52,399
+okay if cell
+
+261
+00:09:47,760 --> 00:09:55,680
+dot parent a not equal a right if this
+
+262
+00:09:52,399 --> 00:09:58,680
+is not group then we can say what
+
+263
+00:09:55,680 --> 00:09:58,680
+self.parent
+
+264
+00:09:58,720 --> 00:10:03,200
+a
+
+265
+00:10:00,320 --> 00:10:03,680
+equals self
+
+266
+00:10:03,200 --> 00:10:07,360
+save define
+
+267
+00:10:03,680 --> 00:10:08,959
+file and then we pass this in okay self
+
+268
+00:10:07,360 --> 00:10:10,560
+dot parent a
+
+269
+00:10:08,959 --> 00:10:13,519
+okay
+
+270
+00:10:10,560 --> 00:10:17,120
+and then we we do this return
+
+271
+00:10:13,519 --> 00:10:18,800
+send the paragraph i expanded it a bit
+
+272
+00:10:17,120 --> 00:10:21,040
+so this thing okay we want to find a
+
+273
+00:10:18,800 --> 00:10:22,800
+pair we want to find its parent and look
+
+274
+00:10:21,040 --> 00:10:24,640
+if it's apparently it's not there like
+
+275
+00:10:22,800 --> 00:10:26,880
+we put it we set it to the parent and
+
+276
+00:10:24,640 --> 00:10:28,399
+then we can also send the size and
+
+277
+00:10:26,880 --> 00:10:29,920
+reconnect
+
+278
+00:10:28,399 --> 00:10:33,680
+if this look
+
+279
+00:10:29,920 --> 00:10:35,839
+what does mean look if this is ah okay
+
+280
+00:10:33,680 --> 00:10:37,279
+if these edges look eric i want to find
+
+281
+00:10:35,839 --> 00:10:39,120
+this
+
+282
+00:10:37,279 --> 00:10:40,320
+yeah i want to find this
+
+283
+00:10:39,120 --> 00:10:42,720
+a
+
+284
+00:10:40,320 --> 00:10:43,440
+but now it points to b and it points to
+
+285
+00:10:42,720 --> 00:10:46,480
+c
+
+286
+00:10:43,440 --> 00:10:48,560
+so because a's parent is not a and then
+
+287
+00:10:46,480 --> 00:10:51,600
+i need to do what so let me save the
+
+288
+00:10:48,560 --> 00:10:52,880
+parent a equals i find this one
+
+289
+00:10:51,600 --> 00:10:55,200
+and which is
+
+290
+00:10:52,880 --> 00:10:57,360
+again points to b so eventually i want
+
+291
+00:10:55,200 --> 00:10:59,200
+to compress the path because look
+
+292
+00:10:57,360 --> 00:11:01,360
+eventually even
+
+293
+00:10:59,200 --> 00:11:03,760
+if a path is too long then this
+
+294
+00:11:01,360 --> 00:11:07,279
+operation says the path find it will be
+
+295
+00:11:03,760 --> 00:11:09,440
+take a linear time right so if i do this
+
+296
+00:11:07,279 --> 00:11:11,680
+the next time i know i want to point it
+
+297
+00:11:09,440 --> 00:11:14,480
+to what i want to point here to here i
+
+298
+00:11:11,680 --> 00:11:15,279
+want to point this thing to here okay i
+
+299
+00:11:14,480 --> 00:11:18,000
+want to
+
+300
+00:11:15,279 --> 00:11:20,480
+shorten the path to look it up
+
+301
+00:11:18,000 --> 00:11:22,800
+right so ideally i want i want this kind
+
+302
+00:11:20,480 --> 00:11:25,680
+of structure this is parent this is
+
+303
+00:11:22,800 --> 00:11:28,480
+group a and i have these two that
+
+304
+00:11:25,680 --> 00:11:30,800
+belongs to the same group okay yeah
+
+305
+00:11:28,480 --> 00:11:30,800
+you see
+
+306
+00:11:31,120 --> 00:11:33,519
+these
+
+307
+00:11:34,640 --> 00:11:39,600
+these look two three four five and one
+
+308
+00:11:37,519 --> 00:11:42,240
+belongs to the same group one points to
+
+309
+00:11:39,600 --> 00:11:44,480
+itself which is points parent a two
+
+310
+00:11:42,240 --> 00:11:46,560
+parent points to parent a right to
+
+311
+00:11:44,480 --> 00:11:48,959
+parent one one points to parent one
+
+312
+00:11:46,560 --> 00:11:51,360
+right so that's why it is we can say
+
+313
+00:11:48,959 --> 00:11:54,320
+this is better than this
+
+314
+00:11:51,360 --> 00:11:56,959
+this is better than that yeah
+
+315
+00:11:54,320 --> 00:11:58,720
+yeah if you keep a union file status
+
+316
+00:11:56,959 --> 00:12:01,279
+check it like that what kind of problem
+
+317
+00:11:58,720 --> 00:12:01,279
+would be like
+
+318
+00:12:02,079 --> 00:12:05,360
+it will increase the lookup time right
+
+319
+00:12:03,839 --> 00:12:08,320
+because look i want to take the i want
+
+320
+00:12:05,360 --> 00:12:11,760
+to check out the go what's the group for
+
+321
+00:12:08,320 --> 00:12:12,959
+the tournament what
+
+322
+00:12:11,760 --> 00:12:15,600
+he said okay
+
+323
+00:12:12,959 --> 00:12:18,560
+it's the group it's the same group as
+
+324
+00:12:15,600 --> 00:12:19,920
+four okay what's four central three two
+
+325
+00:12:18,560 --> 00:12:22,800
+one you need to
+
+326
+00:12:19,920 --> 00:12:25,519
+look it up here so it takes time right
+
+327
+00:12:22,800 --> 00:12:28,720
+to go this way up right
+
+328
+00:12:25,519 --> 00:12:31,519
+but now look i i get get this parent and
+
+329
+00:12:28,720 --> 00:12:33,839
+then i reset it i reset it
+
+330
+00:12:31,519 --> 00:12:35,680
+so look five eventually you tell me is
+
+331
+00:12:33,839 --> 00:12:38,079
+one right yeah
+
+332
+00:12:35,680 --> 00:12:39,920
+so instead of pointing to four i then
+
+333
+00:12:38,079 --> 00:12:41,120
+point to one
+
+334
+00:12:39,920 --> 00:12:43,279
+four
+
+335
+00:12:41,120 --> 00:12:45,760
+you'll tell me it's one right
+
+336
+00:12:43,279 --> 00:12:47,680
+right but now it points to three
+
+337
+00:12:45,760 --> 00:12:49,600
+so to the next time i don't want to go
+
+338
+00:12:47,680 --> 00:12:51,600
+through this again so i point to one
+
+339
+00:12:49,600 --> 00:12:53,839
+three
+
+340
+00:12:51,600 --> 00:12:55,360
+to one right it's the same group as one
+
+341
+00:12:53,839 --> 00:12:57,360
+power now it tells me it's the same
+
+342
+00:12:55,360 --> 00:13:00,320
+group as two so now what do i do i point
+
+343
+00:12:57,360 --> 00:13:03,279
+to two all right so in this case
+
+344
+00:13:00,320 --> 00:13:05,360
+a strawberry a star right so what so
+
+345
+00:13:03,279 --> 00:13:07,360
+next time look two
+
+346
+00:13:05,360 --> 00:13:09,120
+what's the parent of two it's the same
+
+347
+00:13:07,360 --> 00:13:10,560
+as one okay one is one and that's just
+
+348
+00:13:09,120 --> 00:13:13,760
+one one
+
+349
+00:13:10,560 --> 00:13:15,040
+why does the note five have two arrows
+
+350
+00:13:13,760 --> 00:13:16,959
+okay okay
+
+351
+00:13:15,040 --> 00:13:19,440
+yeah it's the same yeah you see
+
+352
+00:13:16,959 --> 00:13:22,000
+do you see this guy getting it
+
+353
+00:13:19,440 --> 00:13:24,320
+so this this is called the compress
+
+354
+00:13:22,000 --> 00:13:27,200
+compress the path when looking
+
+355
+00:13:24,320 --> 00:13:28,560
+compress path when look up
+
+356
+00:13:27,200 --> 00:13:30,720
+look up okay
+
+357
+00:13:28,560 --> 00:13:32,959
+so self defined okay this is centrifugal
+
+358
+00:13:30,720 --> 00:13:35,760
+and then with the self define
+
+359
+00:13:32,959 --> 00:13:39,200
+we have also another uh which is called
+
+360
+00:13:35,760 --> 00:13:39,200
+union right union
+
+361
+00:13:39,279 --> 00:13:43,279
+which just needs to
+
+362
+00:13:41,440 --> 00:13:46,240
+get the thing union
+
+363
+00:13:43,279 --> 00:13:47,760
+union what does union do
+
+364
+00:13:46,240 --> 00:13:50,000
+union will put
+
+365
+00:13:47,760 --> 00:13:52,800
+you will tell okay two notes belongs to
+
+366
+00:13:50,000 --> 00:13:52,800
+the same right
+
+367
+00:13:52,880 --> 00:13:56,320
+define
+
+368
+00:13:53,920 --> 00:13:56,320
+union
+
+369
+00:13:56,800 --> 00:14:01,120
+cell
+
+370
+00:13:58,480 --> 00:14:03,920
+a b okay so then i
+
+371
+00:14:01,120 --> 00:14:06,000
+what should i do with that
+
+372
+00:14:03,920 --> 00:14:08,399
+first of all we need to check if two
+
+373
+00:14:06,000 --> 00:14:11,760
+equals the same right so now look we can
+
+374
+00:14:08,399 --> 00:14:11,760
+say okay uh
+
+375
+00:14:12,000 --> 00:14:16,240
+a
+
+376
+00:14:12,800 --> 00:14:18,240
+let's say x equals seven five we know
+
+377
+00:14:16,240 --> 00:14:21,199
+their self to find
+
+378
+00:14:18,240 --> 00:14:23,600
+a right and then y equals sev
+
+379
+00:14:21,199 --> 00:14:25,360
+to find b
+
+380
+00:14:23,600 --> 00:14:27,120
+if like belongs to the same group what
+
+381
+00:14:25,360 --> 00:14:29,040
+should we do
+
+382
+00:14:27,120 --> 00:14:30,720
+what should we do
+
+383
+00:14:29,040 --> 00:14:33,519
+we've already that belongs to the center
+
+384
+00:14:30,720 --> 00:14:36,079
+what should we do we just relax
+
+385
+00:14:33,519 --> 00:14:38,000
+that's a very good answer relax yeah we
+
+386
+00:14:36,079 --> 00:14:40,240
+turn we can just return yeah because
+
+387
+00:14:38,000 --> 00:14:42,240
+it's already in the same curve right
+
+388
+00:14:40,240 --> 00:14:43,600
+yeah in the same group
+
+389
+00:14:42,240 --> 00:14:45,920
+just return
+
+390
+00:14:43,600 --> 00:14:47,440
+okay now now look again again let's
+
+391
+00:14:45,920 --> 00:14:49,040
+visually look
+
+392
+00:14:47,440 --> 00:14:50,959
+so i have these
+
+393
+00:14:49,040 --> 00:14:52,160
+uh i have uh
+
+394
+00:14:50,959 --> 00:14:55,120
+these
+
+395
+00:14:52,160 --> 00:14:57,040
+only only one two three four four notes
+
+396
+00:14:55,120 --> 00:15:01,120
+and then i have
+
+397
+00:14:57,040 --> 00:15:01,120
+i have like a 100 here
+
+398
+00:15:01,839 --> 00:15:05,360
+so do you think okay
+
+399
+00:15:05,839 --> 00:15:10,160
+so now i'm i'm telling you like okay i
+
+400
+00:15:08,240 --> 00:15:12,399
+want to this this
+
+401
+00:15:10,160 --> 00:15:14,800
+yeah this is a this is b
+
+402
+00:15:12,399 --> 00:15:16,240
+now i tell you i want to union a a and b
+
+403
+00:15:14,800 --> 00:15:18,160
+so do you think
+
+404
+00:15:16,240 --> 00:15:19,760
+which one is better putting a to b or
+
+405
+00:15:18,160 --> 00:15:22,480
+putting b to a
+
+406
+00:15:19,760 --> 00:15:26,079
+a to b why is that because
+
+407
+00:15:22,480 --> 00:15:28,480
+a has less less notes
+
+408
+00:15:26,079 --> 00:15:30,320
+if okay if we put in b to a what
+
+409
+00:15:28,480 --> 00:15:32,959
+happened
+
+410
+00:15:30,320 --> 00:15:32,959
+it take
+
+411
+00:15:33,040 --> 00:15:36,720
+well what happened i mean what happened
+
+412
+00:15:35,199 --> 00:15:40,480
+what do you think because eventually
+
+413
+00:15:36,720 --> 00:15:42,959
+look if you put the b to a then the next
+
+414
+00:15:40,480 --> 00:15:45,120
+one the lookup you will have more
+
+415
+00:15:42,959 --> 00:15:47,519
+notes to compress right you have more
+
+416
+00:15:45,120 --> 00:15:50,320
+notes to handle because these eventually
+
+417
+00:15:47,519 --> 00:15:51,680
+will be relocated the path right so it
+
+418
+00:15:50,320 --> 00:15:54,880
+will be more work
+
+419
+00:15:51,680 --> 00:15:57,759
+to relocate all these nodes to to as we
+
+420
+00:15:54,880 --> 00:15:59,680
+assigned to a right but now if you look
+
+421
+00:15:57,759 --> 00:16:01,120
+if there's just one or two nodes you can
+
+422
+00:15:59,680 --> 00:16:03,040
+just do it why not to know that will be
+
+423
+00:16:01,120 --> 00:16:04,800
+easier right yeah
+
+424
+00:16:03,040 --> 00:16:07,279
+so then we need to
+
+425
+00:16:04,800 --> 00:16:11,600
+tell the sizes if
+
+426
+00:16:07,279 --> 00:16:11,600
+if the size is
+
+427
+00:16:11,920 --> 00:16:17,839
+x right is x right
+
+428
+00:16:14,639 --> 00:16:21,040
+smaller or if it's smaller than seven
+
+429
+00:16:17,839 --> 00:16:21,040
+sizes b
+
+430
+00:16:21,360 --> 00:16:27,120
+all right why and then we just swap it
+
+431
+00:16:22,959 --> 00:16:30,000
+how do we swap it x y how do we solve it
+
+432
+00:16:27,120 --> 00:16:30,000
+how do we solve it
+
+433
+00:16:30,959 --> 00:16:35,360
+how do we solve it if we want to solve
+
+434
+00:16:32,800 --> 00:16:39,040
+something something equals something
+
+435
+00:16:35,360 --> 00:16:41,279
+okay so x y equals y x
+
+436
+00:16:39,040 --> 00:16:44,480
+and now i want to
+
+437
+00:16:41,279 --> 00:16:48,079
+now x is thicker so i want to
+
+438
+00:16:44,480 --> 00:16:51,120
+merge y to x y so i have to say
+
+439
+00:16:48,079 --> 00:16:54,240
+serve the parent
+
+440
+00:16:51,120 --> 00:16:56,560
+i want to put the y to x
+
+441
+00:16:54,240 --> 00:16:59,680
+x is bigger x is bigger
+
+442
+00:16:56,560 --> 00:17:02,480
+so i want to assign b the parent of b y
+
+443
+00:16:59,680 --> 00:17:03,360
+equal to x y equals x
+
+444
+00:17:02,480 --> 00:17:05,600
+right
+
+445
+00:17:03,360 --> 00:17:07,520
+and then now i want to update the sizes
+
+446
+00:17:05,600 --> 00:17:08,480
+so served
+
+447
+00:17:07,520 --> 00:17:10,559
+the
+
+448
+00:17:08,480 --> 00:17:11,679
+size is
+
+449
+00:17:10,559 --> 00:17:14,559
+size is
+
+450
+00:17:11,679 --> 00:17:16,319
+x right because i put a y to x so the x
+
+451
+00:17:14,559 --> 00:17:20,880
+sizes will be
+
+452
+00:17:16,319 --> 00:17:22,640
+having addition of original set of sizes
+
+453
+00:17:20,880 --> 00:17:23,839
+why right
+
+454
+00:17:22,640 --> 00:17:26,799
+yeah
+
+455
+00:17:23,839 --> 00:17:28,799
+right makes sense
+
+456
+00:17:26,799 --> 00:17:30,720
+uh we can return the force here and then
+
+457
+00:17:28,799 --> 00:17:33,520
+we can return true here
+
+458
+00:17:30,720 --> 00:17:35,840
+right to make to to indicate whether we
+
+459
+00:17:33,520 --> 00:17:38,160
+succeed the
+
+460
+00:17:35,840 --> 00:17:40,000
+the the union right
+
+461
+00:17:38,160 --> 00:17:41,200
+make sense
+
+462
+00:17:40,000 --> 00:17:45,360
+yeah
+
+463
+00:17:41,200 --> 00:17:46,720
+if if the size is a uh x smaller than y
+
+464
+00:17:45,360 --> 00:17:48,040
+yes
+
+465
+00:17:46,720 --> 00:17:50,640
+okay
+
+466
+00:17:48,040 --> 00:17:55,520
+[Music]
+
+467
+00:17:50,640 --> 00:17:55,520
+a a is bigger than okay a is bigger
+
+468
+00:17:56,640 --> 00:18:00,799
+yes yes
+
+469
+00:17:58,240 --> 00:18:02,160
+all right yeah
+
+470
+00:18:00,799 --> 00:18:04,559
+um
+
+471
+00:18:02,160 --> 00:18:06,480
+okay and then another operation is to
+
+472
+00:18:04,559 --> 00:18:08,480
+get the count right to get account
+
+473
+00:18:06,480 --> 00:18:09,840
+define count
+
+474
+00:18:08,480 --> 00:18:11,520
+how self
+
+475
+00:18:09,840 --> 00:18:12,799
+this retains the number of connected
+
+476
+00:18:11,520 --> 00:18:14,880
+groups right
+
+477
+00:18:12,799 --> 00:18:16,799
+so it's uh it's a property property
+
+478
+00:18:14,880 --> 00:18:19,600
+value you can say property
+
+479
+00:18:16,799 --> 00:18:22,799
+property value here property value
+
+480
+00:18:19,600 --> 00:18:23,919
+so with this one we can just return
+
+481
+00:18:22,799 --> 00:18:26,640
+return
+
+482
+00:18:23,919 --> 00:18:29,840
+uh return the number of cards pretend if
+
+483
+00:18:26,640 --> 00:18:32,080
+the parent parent is a dictionary x uh
+
+484
+00:18:29,840 --> 00:18:35,280
+if it's a group right if it's a group
+
+485
+00:18:32,080 --> 00:18:38,160
+then x will be the same value with x
+
+486
+00:18:35,280 --> 00:18:40,480
+right so i can just return y
+
+487
+00:18:38,160 --> 00:18:43,120
+reason why
+
+488
+00:18:40,480 --> 00:18:47,520
+i need to sum
+
+489
+00:18:43,120 --> 00:18:48,400
+okay somewhat x equals or y
+
+490
+00:18:47,520 --> 00:18:49,760
+for
+
+491
+00:18:48,400 --> 00:18:51,600
+x y
+
+492
+00:18:49,760 --> 00:18:54,559
+in self
+
+493
+00:18:51,600 --> 00:18:56,480
+dot parent dot item right
+
+494
+00:18:54,559 --> 00:18:58,400
+all right
+
+495
+00:18:56,480 --> 00:19:00,720
+right
+
+496
+00:18:58,400 --> 00:19:03,840
+okay so this is the union file okay this
+
+497
+00:19:00,720 --> 00:19:06,320
+is the universe how can we use it as the
+
+498
+00:19:03,840 --> 00:19:08,960
+uh how can we use it how can we use it
+
+499
+00:19:06,320 --> 00:19:12,640
+in solving this kind of problem here
+
+500
+00:19:08,960 --> 00:19:12,640
+how can we use this installing time
+
+501
+00:19:13,620 --> 00:19:18,640
+[Music]
+
+502
+00:19:15,679 --> 00:19:21,120
+so we can look all right look
+
+503
+00:19:18,640 --> 00:19:23,679
+let's let's look at this okay
+
+504
+00:19:21,120 --> 00:19:26,000
+we haven't known right yeah
+
+505
+00:19:23,679 --> 00:19:28,799
+we have a that's a few notes
+
+506
+00:19:26,000 --> 00:19:30,559
+right so look if we know these neighbors
+
+507
+00:19:28,799 --> 00:19:31,760
+we can just union there yeah you need
+
+508
+00:19:30,559 --> 00:19:34,640
+union
+
+509
+00:19:31,760 --> 00:19:36,480
+yeah union these and then we can union
+
+510
+00:19:34,640 --> 00:19:38,960
+this and then later we just find out how
+
+511
+00:19:36,480 --> 00:19:41,600
+many connected groups all right make
+
+512
+00:19:38,960 --> 00:19:43,760
+sense oh yeah so it'll be easier it'll
+
+513
+00:19:41,600 --> 00:19:45,360
+be very straightforward intuitive right
+
+514
+00:19:43,760 --> 00:19:48,960
+intuitive
+
+515
+00:19:45,360 --> 00:19:53,480
+let's say define let's say fine
+
+516
+00:19:48,960 --> 00:19:53,480
+grooves fine grooves mutations
+
+517
+00:19:53,840 --> 00:19:58,880
+okay so now again again we want to find
+
+518
+00:19:56,880 --> 00:20:01,120
+out what we want to find out the g
+
+519
+00:19:58,880 --> 00:20:03,760
+equals g sets of g what what's the
+
+520
+00:20:01,120 --> 00:20:07,080
+advantage if we convert the list to the
+
+521
+00:20:03,760 --> 00:20:07,080
+it will be
+
+522
+00:20:09,440 --> 00:20:15,200
+okay now union phi equals union sign
+
+523
+00:20:12,320 --> 00:20:16,320
+that we we just defined this structure
+
+524
+00:20:15,200 --> 00:20:19,360
+and then
+
+525
+00:20:16,320 --> 00:20:21,840
+we go through that list therefore
+
+526
+00:20:19,360 --> 00:20:24,080
+i in g
+
+527
+00:20:21,840 --> 00:20:26,880
+f i ing
+
+528
+00:20:24,080 --> 00:20:28,720
+now we want to find out for
+
+529
+00:20:26,880 --> 00:20:30,720
+okay let's say for j
+
+530
+00:20:28,720 --> 00:20:33,039
+in range
+
+531
+00:20:30,720 --> 00:20:34,880
+length i right we want to stop we want
+
+532
+00:20:33,039 --> 00:20:36,480
+just find out the neighbors
+
+533
+00:20:34,880 --> 00:20:37,600
+all right
+
+534
+00:20:36,480 --> 00:20:39,919
+hey
+
+535
+00:20:37,600 --> 00:20:42,640
+why are you drawing my desk it looks
+
+536
+00:20:39,919 --> 00:20:45,120
+good a c c we want to find out the
+
+537
+00:20:42,640 --> 00:20:48,159
+neighbor how do we find out the neighbor
+
+538
+00:20:45,120 --> 00:20:48,159
+a equals
+
+539
+00:20:59,440 --> 00:21:04,240
+so for each letter i want to try try the
+
+540
+00:21:02,320 --> 00:21:06,080
+neighbors right and i want to find out
+
+541
+00:21:04,240 --> 00:21:08,159
+if it's in there right so look the
+
+542
+00:21:06,080 --> 00:21:09,039
+neighbor will be what uh
+
+543
+00:21:08,159 --> 00:21:11,679
+g
+
+544
+00:21:09,039 --> 00:21:15,200
+up to i i want up i want to pick the up
+
+545
+00:21:11,679 --> 00:21:17,120
+to i choice and replace with okay
+
+546
+00:21:15,200 --> 00:21:20,320
+i i need to go through that thing again
+
+547
+00:21:17,120 --> 00:21:22,480
+for x in
+
+548
+00:21:20,320 --> 00:21:24,320
+a
+
+549
+00:21:22,480 --> 00:21:25,280
+c
+
+550
+00:21:24,320 --> 00:21:28,240
+t
+
+551
+00:21:25,280 --> 00:21:32,720
+g right this is the four choices
+
+552
+00:21:28,240 --> 00:21:34,240
+and then then this column one is what
+
+553
+00:21:32,720 --> 00:21:36,159
+i
+
+554
+00:21:34,240 --> 00:21:39,760
+up to j
+
+555
+00:21:36,159 --> 00:21:42,840
+plus x plus i
+
+556
+00:21:39,760 --> 00:21:46,159
+j plus one to the n right
+
+557
+00:21:42,840 --> 00:21:48,000
+yeah okay so look
+
+558
+00:21:46,159 --> 00:21:51,120
+look at cameron you already look
+
+559
+00:21:48,000 --> 00:21:54,080
+currently this is j here right so what's
+
+560
+00:21:51,120 --> 00:21:57,039
+his neighbor i can pick the
+
+561
+00:21:54,080 --> 00:22:00,480
+letter up to it which is a and plus
+
+562
+00:21:57,039 --> 00:22:01,919
+plus their fourth choice yeah a c t g
+
+563
+00:22:00,480 --> 00:22:04,640
+and then plus one
+
+564
+00:22:01,919 --> 00:22:06,559
+plus the the next letter after it will
+
+565
+00:22:04,640 --> 00:22:08,640
+be ct right
+
+566
+00:22:06,559 --> 00:22:11,600
+do you get it
+
+567
+00:22:08,640 --> 00:22:13,760
+this is what it means here so when i am
+
+568
+00:22:11,600 --> 00:22:16,720
+at index j
+
+569
+00:22:13,760 --> 00:22:19,679
+i i have four choice and then i can pick
+
+570
+00:22:16,720 --> 00:22:22,480
+the choice pick the letters before it
+
+571
+00:22:19,679 --> 00:22:23,360
+and the letter after it concatenate it
+
+572
+00:22:22,480 --> 00:22:25,440
+right
+
+573
+00:22:23,360 --> 00:22:28,080
+i know what what's next
+
+574
+00:22:25,440 --> 00:22:29,200
+then i can say if
+
+575
+00:22:28,080 --> 00:22:32,559
+n
+
+576
+00:22:29,200 --> 00:22:36,240
+is in g right this is one lookup right
+
+577
+00:22:32,559 --> 00:22:37,919
+i know what's what do we do uf dot union
+
+578
+00:22:36,240 --> 00:22:40,960
+u n
+
+579
+00:22:37,919 --> 00:22:42,720
+i o n union i
+
+580
+00:22:40,960 --> 00:22:45,600
+with n
+
+581
+00:22:42,720 --> 00:22:48,799
+and now what do we do return
+
+582
+00:22:45,600 --> 00:22:50,960
+uf dot com
+
+583
+00:22:48,799 --> 00:22:51,679
+okay this is a property so we don't use
+
+584
+00:22:50,960 --> 00:22:55,840
+the
+
+585
+00:22:51,679 --> 00:22:55,840
+bracket to call it right yeah
+
+586
+00:22:55,919 --> 00:22:59,679
+all right
+
+587
+00:22:57,120 --> 00:22:59,679
+makes sense
+
+588
+00:22:59,760 --> 00:23:02,400
+mugs
+
+589
+00:23:00,960 --> 00:23:03,600
+yeah makes sense
+
+590
+00:23:02,400 --> 00:23:06,320
+accents
+
+591
+00:23:03,600 --> 00:23:09,600
+do you understand this one
+
+592
+00:23:06,320 --> 00:23:11,440
+look let me repeat again a little bit
+
+593
+00:23:09,600 --> 00:23:13,440
+let me repeat
+
+594
+00:23:11,440 --> 00:23:16,320
+union file we define this unified data
+
+595
+00:23:13,440 --> 00:23:18,320
+structure set we convert a list of
+
+596
+00:23:16,320 --> 00:23:23,799
+vertex g
+
+597
+00:23:18,320 --> 00:23:23,799
+to g so we can use the one constant
+
+598
+00:23:28,559 --> 00:23:32,240
+okay look when we go through each each
+
+599
+00:23:31,200 --> 00:23:34,000
+vertex
+
+600
+00:23:32,240 --> 00:23:36,320
+for each vertex
+
+601
+00:23:34,000 --> 00:23:38,799
+i generate its neighbor which is this
+
+602
+00:23:36,320 --> 00:23:42,000
+mutation right this is generally the
+
+603
+00:23:38,799 --> 00:23:42,000
+mutation mutation
+
+604
+00:23:42,880 --> 00:23:48,480
+okay what's this i'm testing what's this
+
+605
+00:23:46,400 --> 00:23:49,480
+that's if
+
+606
+00:23:48,480 --> 00:23:52,630
+the mutation
+
+607
+00:23:49,480 --> 00:23:52,630
+[Music]
+
+608
+00:23:54,000 --> 00:23:58,480
+vertex right yeah if we have robotics in
+
+609
+00:23:56,400 --> 00:23:59,919
+a group then what should we do now
+
+610
+00:23:58,480 --> 00:24:02,159
+we shall
+
+611
+00:23:59,919 --> 00:24:04,400
+um look for a
+
+612
+00:24:02,159 --> 00:24:04,400
+c
+
+613
+00:24:07,360 --> 00:24:10,570
+[Music]
+
+614
+00:24:14,640 --> 00:24:17,360
+and what's n
+
+615
+00:24:18,850 --> 00:24:22,400
+[Music]
+
+616
+00:24:20,799 --> 00:24:24,080
+what's this
+
+617
+00:24:22,400 --> 00:24:25,600
+the neighbor
+
+618
+00:24:24,080 --> 00:24:28,080
+neighbor so there will be four neighbors
+
+619
+00:24:25,600 --> 00:24:30,960
+so look i'm i'm visiting
+
+620
+00:24:28,080 --> 00:24:33,440
+vertex i right
+
+621
+00:24:30,960 --> 00:24:35,600
+i want to division and i
+
+622
+00:24:33,440 --> 00:24:37,760
+connect all its neighbor okay so here
+
+623
+00:24:35,600 --> 00:24:40,000
+there's a mistake here i need to remove
+
+624
+00:24:37,760 --> 00:24:42,480
+it g don't remove it do i need to remove
+
+625
+00:24:40,000 --> 00:24:45,840
+it yes because i already visited i need
+
+626
+00:24:42,480 --> 00:24:48,000
+to remove here am i
+
+627
+00:24:45,840 --> 00:24:49,919
+do i need to remove it probably not
+
+628
+00:24:48,000 --> 00:24:53,120
+right do i need to
+
+629
+00:24:49,919 --> 00:24:53,120
+do i need to probably know
+
+630
+00:24:57,279 --> 00:25:02,559
+properly we don't need to remove it so
+
+631
+00:24:59,760 --> 00:25:05,360
+we need to remove it
+
+632
+00:25:02,559 --> 00:25:07,120
+we can union it
+
+633
+00:25:05,360 --> 00:25:08,559
+we probably don't need to remove it we
+
+634
+00:25:07,120 --> 00:25:11,600
+probably don't need to remove it in this
+
+635
+00:25:08,559 --> 00:25:14,080
+case so if it's already in energy if if
+
+636
+00:25:11,600 --> 00:25:17,120
+we have this vertex in in the graph then
+
+637
+00:25:14,080 --> 00:25:19,840
+we union i because i and n are neighbors
+
+638
+00:25:17,120 --> 00:25:22,000
+they belong to the same group right so
+
+639
+00:25:19,840 --> 00:25:23,039
+yeah
+
+640
+00:25:22,000 --> 00:25:25,600
+yeah
+
+641
+00:25:23,039 --> 00:25:26,840
+okay so let's see in the same group okay
+
+642
+00:25:25,600 --> 00:25:28,799
+so let's try
+
+643
+00:25:26,840 --> 00:25:29,679
+okay
+
+644
+00:25:28,799 --> 00:25:31,600
+yeah
+
+645
+00:25:29,679 --> 00:25:33,279
+let me write it and can you simulate
+
+646
+00:25:31,600 --> 00:25:36,000
+this process
+
+647
+00:25:33,279 --> 00:25:37,279
+okay can you simulate it okay i have
+
+648
+00:25:36,000 --> 00:25:40,960
+this
+
+649
+00:25:37,279 --> 00:25:44,880
+a c t let's just try easy
+
+650
+00:25:40,960 --> 00:25:44,880
+okay c c t
+
+651
+00:25:45,360 --> 00:25:47,120
+t
+
+652
+00:25:45,520 --> 00:25:48,720
+[Music]
+
+653
+00:25:47,120 --> 00:25:51,279
+t
+
+654
+00:25:48,720 --> 00:25:52,480
+and then wave
+
+655
+00:25:51,279 --> 00:25:54,400
+c c
+
+656
+00:25:52,480 --> 00:25:55,760
+a okay and then
+
+657
+00:25:54,400 --> 00:25:58,320
+t
+
+658
+00:25:55,760 --> 00:26:00,799
+t t p okay so there are four they have
+
+659
+00:25:58,320 --> 00:26:02,240
+one two three four five finals union
+
+660
+00:26:00,799 --> 00:26:03,919
+five
+
+661
+00:26:02,240 --> 00:26:07,039
+okay you can say over one two three four
+
+662
+00:26:03,919 --> 00:26:10,159
+five the least okay
+
+663
+00:26:07,039 --> 00:26:12,080
+yeah yeah that's fine so i'm here atg
+
+664
+00:26:10,159 --> 00:26:14,080
+okay i'm a ct
+
+665
+00:26:12,080 --> 00:26:16,640
+so now what should i do where is
+
+666
+00:26:14,080 --> 00:26:18,400
+neighbor which one is neighbor n
+
+667
+00:26:16,640 --> 00:26:21,360
+yeah yeah neighbor so which one would
+
+668
+00:26:18,400 --> 00:26:21,360
+you know is his neighbor
+
+669
+00:26:22,159 --> 00:26:26,720
+this one okay so i connected yeah
+
+670
+00:26:24,640 --> 00:26:28,159
+okay does it have another other neighbor
+
+671
+00:26:26,720 --> 00:26:28,960
+with this one
+
+672
+00:26:28,159 --> 00:26:29,760
+uh
+
+673
+00:26:28,960 --> 00:26:32,000
+uh
+
+674
+00:26:29,760 --> 00:26:34,320
+no right not directly right okay
+
+675
+00:26:32,000 --> 00:26:35,919
+okay so now i try with this one probably
+
+676
+00:26:34,320 --> 00:26:37,360
+yeah we don't need to remove it if a new
+
+677
+00:26:35,919 --> 00:26:38,480
+movie that would be a mistake we don't
+
+678
+00:26:37,360 --> 00:26:40,880
+know
+
+679
+00:26:38,480 --> 00:26:42,799
+cct where's the yeah
+
+680
+00:26:40,880 --> 00:26:44,720
+you see okay and then
+
+681
+00:26:42,799 --> 00:26:46,880
+does it have any other no
+
+682
+00:26:44,720 --> 00:26:49,679
+okay
+
+683
+00:26:46,880 --> 00:26:49,679
+what's his neighbor
+
+684
+00:26:49,760 --> 00:26:53,420
+generally it's neighbor which one is a
+
+685
+00:26:52,320 --> 00:26:54,559
+his neighbor
+
+686
+00:26:53,420 --> 00:26:56,159
+[Music]
+
+687
+00:26:54,559 --> 00:26:59,279
+yeah okay
+
+688
+00:26:56,159 --> 00:27:00,799
+okay and then cca
+
+689
+00:26:59,279 --> 00:27:02,240
+cca
+
+690
+00:27:00,799 --> 00:27:03,760
+which is neighbor this one but we
+
+691
+00:27:02,240 --> 00:27:06,640
+already merge it that's fine we can do
+
+692
+00:27:03,760 --> 00:27:08,799
+it again yeah and tta okay so that's why
+
+693
+00:27:06,640 --> 00:27:10,640
+we don't remove it okay yeah if we move
+
+694
+00:27:08,799 --> 00:27:13,840
+it what happened if we don't move it
+
+695
+00:27:10,640 --> 00:27:15,360
+then for example here i i join this one
+
+696
+00:27:13,840 --> 00:27:17,360
+and then we move it
+
+697
+00:27:15,360 --> 00:27:18,720
+and i can't find this this one
+
+698
+00:27:17,360 --> 00:27:21,120
+do you get it
+
+699
+00:27:18,720 --> 00:27:22,720
+if we remove it and who who connects to
+
+700
+00:27:21,120 --> 00:27:24,640
+this nothing
+
+701
+00:27:22,720 --> 00:27:27,600
+right but we eventually we need these to
+
+702
+00:27:24,640 --> 00:27:30,159
+connect this so after this uf.com what's
+
+703
+00:27:27,600 --> 00:27:30,159
+the answer
+
+704
+00:27:30,320 --> 00:27:35,279
+we're done that's it
+
+705
+00:27:31,760 --> 00:27:37,520
+got it make sense yeah so which one do
+
+706
+00:27:35,279 --> 00:27:39,200
+you think that better i mean you can you
+
+707
+00:27:37,520 --> 00:27:40,080
+you understand the most
+
+708
+00:27:39,200 --> 00:27:41,919
+or you
+
+709
+00:27:40,080 --> 00:27:44,799
+you can implement it
+
+710
+00:27:41,919 --> 00:27:46,159
+how many ways of solving this problem
+
+711
+00:27:44,799 --> 00:27:47,279
+about
+
+712
+00:27:46,159 --> 00:27:50,960
+a lot
+
+713
+00:27:47,279 --> 00:27:53,520
+how many days we we talked about this
+
+714
+00:27:50,960 --> 00:27:55,279
+uh a few
+
+715
+00:27:53,520 --> 00:27:57,279
+what what is the field i mean how many
+
+716
+00:27:55,279 --> 00:27:59,520
+days we saw so many yesterday we talked
+
+717
+00:27:57,279 --> 00:28:00,480
+about what
+
+718
+00:27:59,520 --> 00:28:04,080
+we
+
+719
+00:28:00,480 --> 00:28:06,080
+we talked about the gene being released
+
+720
+00:28:04,080 --> 00:28:07,919
+yeah i know it's the same thing so what
+
+721
+00:28:06,080 --> 00:28:09,120
+kind of agreement i just talked at the
+
+722
+00:28:07,919 --> 00:28:10,720
+beginning
+
+723
+00:28:09,120 --> 00:28:15,320
+what kind of agreement
+
+724
+00:28:10,720 --> 00:28:15,320
+to solve the problem how to research
+
+725
+00:28:15,919 --> 00:28:21,039
+yeah okay professor steph associates
+
+726
+00:28:18,000 --> 00:28:23,279
+union fan so how many ways of doing it
+
+727
+00:28:21,039 --> 00:28:25,760
+three okay which one you think you can
+
+728
+00:28:23,279 --> 00:28:28,399
+understand the best
+
+729
+00:28:25,760 --> 00:28:31,600
+uh i'm not sure which one you think you
+
+730
+00:28:28,399 --> 00:28:33,600
+like the most i'm not sure
+
+731
+00:28:31,600 --> 00:28:36,480
+you're not talking about a big one which
+
+732
+00:28:33,600 --> 00:28:36,480
+one you like the best
+
+733
+00:28:36,640 --> 00:28:40,480
+which one you think it's the most easy
+
+734
+00:28:38,240 --> 00:28:42,880
+way to understand i mean
+
+735
+00:28:40,480 --> 00:28:44,799
+which one you think is the
+
+736
+00:28:42,880 --> 00:28:45,840
+most intuitive way of solving this
+
+737
+00:28:44,799 --> 00:28:47,600
+problem
+
+738
+00:28:45,840 --> 00:28:50,799
+i mean there's no right or wrong answer
+
+739
+00:28:47,600 --> 00:28:52,399
+i mean just a quick survey uh
+
+740
+00:28:50,799 --> 00:28:54,159
+i'm not sure
+
+741
+00:28:52,399 --> 00:28:56,080
+you're not sure yeah what do you mean
+
+742
+00:28:54,159 --> 00:28:57,760
+you're not sure i'll just choose this
+
+743
+00:28:56,080 --> 00:29:00,080
+one choose this one you think it's the
+
+744
+00:28:57,760 --> 00:29:01,360
+best yeah okay that's it for today bye
+
+745
+00:29:00,080 --> 00:29:02,559
+bye
+
+746
+00:29:01,360 --> 00:29:08,080
+bye bye
+
+747
+00:29:02,559 --> 00:29:08,080
+come on bye say bye bye bye bye
+
