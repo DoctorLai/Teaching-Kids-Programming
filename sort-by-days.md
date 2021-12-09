@@ -6,6 +6,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [Sort by Categories](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/README.md)
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
+## Sort by Days
 - Day 354 (2021-12-08): [Find Gene Mutation Groups via UnionFind Algorithm (Disjoint Set)](https://helloacm.com/teaching-kids-programming-find-gene-mutation-groups-via-unionfind-algorithm-disjoint-set/) 找出不同的基因组数(并查集+UnionFind-图论算法) [Youtube](https://youtu.be/Q5nvmR4LpNI) - [B站](https://www.bilibili.com/video/BV1zS4y1D7iJ/)  - [西瓜](https://www.ixigua.com/7039652391683097124) 
 - Day 353 (2021-12-07): [Find Gene Mutation Groups via Recursive Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-gene-mutation-groups-via-breadth-first-search-algorithm/) 找出不同的基因组数(广度优先搜索BFS-图论算法) [Youtube](https://youtu.be/RYCpAV-Cbpk) - [B站](https://www.bilibili.com/video/BV1W34y1X7Sp/)  - [西瓜](https://www.ixigua.com/7039090435372876301) 
 - Day 352 (2021-12-06): [Find Gene Mutation Groups via Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-gene-mutation-groups-via-depth-first-search-algorithm/) 找出不同的基因组数(递归深度优先搜索DFS-图论算法)
