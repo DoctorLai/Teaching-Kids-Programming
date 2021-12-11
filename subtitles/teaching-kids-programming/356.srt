@@ -1,0 +1,588 @@
+1
+00:00:00,080 --> 00:00:05,520
+hello hello mr ryan are you all right
+
+2
+00:00:02,480 --> 00:00:06,480
+yeah okay so we have a list of numbers
+
+3
+00:00:05,520 --> 00:00:11,679
+right
+
+4
+00:00:06,480 --> 00:00:14,639
+three a minus a minus three zero one so
+
+5
+00:00:11,679 --> 00:00:17,039
+which number appears
+
+6
+00:00:14,639 --> 00:00:20,160
+which if there's a k yeah if okay which
+
+7
+00:00:17,039 --> 00:00:22,240
+number comes in pairs in the at least if
+
+8
+00:00:20,160 --> 00:00:24,640
+there's k and then three
+
+9
+00:00:22,240 --> 00:00:27,599
+three a right okay and which one we
+
+10
+00:00:24,640 --> 00:00:30,400
+which which one has the largest k eight
+
+11
+00:00:27,599 --> 00:00:33,920
+yeah i see a larger than three because
+
+12
+00:00:30,400 --> 00:00:35,760
+and both a and three is negative
+
+13
+00:00:33,920 --> 00:00:38,559
+appears right
+
+14
+00:00:35,760 --> 00:00:40,559
+so yeah today we want to find out the k
+
+15
+00:00:38,559 --> 00:00:41,600
+and k largest k
+
+16
+00:00:40,559 --> 00:00:42,800
+largest
+
+17
+00:00:41,600 --> 00:00:45,920
+k
+
+18
+00:00:42,800 --> 00:00:47,520
+which it has minus k
+
+19
+00:00:45,920 --> 00:00:49,600
+in the array
+
+20
+00:00:47,520 --> 00:00:53,039
+right and
+
+21
+00:00:49,600 --> 00:00:56,320
+zero yeah minus zero
+
+22
+00:00:53,039 --> 00:00:58,640
+right okay so right yeah yeah
+
+23
+00:00:56,320 --> 00:01:01,199
+it's here it's the same so tlo is the
+
+24
+00:00:58,640 --> 00:01:03,760
+very special case and if zero appears
+
+25
+00:01:01,199 --> 00:01:05,680
+only once then we also think it's
+
+26
+00:01:03,760 --> 00:01:07,840
+negative also appears right it doesn't
+
+27
+00:01:05,680 --> 00:01:08,880
+have to be two zero okay
+
+28
+00:01:07,840 --> 00:01:11,280
+yeah
+
+29
+00:01:08,880 --> 00:01:13,920
+so in order to solve this problem so
+
+30
+00:01:11,280 --> 00:01:15,840
+what should we do
+
+31
+00:01:13,920 --> 00:01:17,920
+we
+
+32
+00:01:15,840 --> 00:01:22,240
+first of all we can move first yeah so
+
+33
+00:01:17,920 --> 00:01:24,080
+do first is that we try each number
+
+34
+00:01:22,240 --> 00:01:26,240
+so we can try each number let's say we
+
+35
+00:01:24,080 --> 00:01:28,400
+have this answer
+
+36
+00:01:26,240 --> 00:01:30,479
+at the beginning we have
+
+37
+00:01:28,400 --> 00:01:32,640
+negative infinity right
+
+38
+00:01:30,479 --> 00:01:36,640
+negative infinity
+
+39
+00:01:32,640 --> 00:01:37,840
+so we try each number for i in numbers
+
+40
+00:01:36,640 --> 00:01:40,799
+then
+
+41
+00:01:37,840 --> 00:01:42,320
+for each eye i need to check if it's
+
+42
+00:01:40,799 --> 00:01:46,000
+if if
+
+43
+00:01:42,320 --> 00:01:49,920
+minus i in numbers
+
+44
+00:01:46,000 --> 00:01:51,119
+then we do this answer equals max
+
+45
+00:01:49,920 --> 00:01:52,880
+answer
+
+46
+00:01:51,119 --> 00:01:56,240
+i okay
+
+47
+00:01:52,880 --> 00:01:59,439
+this is this is linear or when because
+
+48
+00:01:56,240 --> 00:02:02,000
+we are looking up an element in an array
+
+49
+00:01:59,439 --> 00:02:04,799
+this takes all in time right right
+
+50
+00:02:02,000 --> 00:02:07,119
+and i answer you go back and look if if
+
+51
+00:02:04,799 --> 00:02:09,360
+this number is not
+
+52
+00:02:07,119 --> 00:02:10,879
+if it doesn't find if we don't find any
+
+53
+00:02:09,360 --> 00:02:13,200
+if we don't find anything that's
+
+54
+00:02:10,879 --> 00:02:14,319
+satisfied if we only have this number
+
+55
+00:02:13,200 --> 00:02:16,239
+three two
+
+56
+00:02:14,319 --> 00:02:17,360
+then you you need to tell me it's minus
+
+57
+00:02:16,239 --> 00:02:19,920
+one because
+
+58
+00:02:17,360 --> 00:02:22,640
+we can't find any k okay don't put them
+
+59
+00:02:19,920 --> 00:02:24,720
+yeah we can't find anything okay so now
+
+60
+00:02:22,640 --> 00:02:26,000
+we just say return
+
+61
+00:02:24,720 --> 00:02:31,120
+minus one
+
+62
+00:02:26,000 --> 00:02:31,120
+then we yeah answer if answer
+
+63
+00:02:31,519 --> 00:02:34,160
+not equal
+
+64
+00:02:34,959 --> 00:02:39,200
+max infinity
+
+65
+00:02:37,440 --> 00:02:41,440
+else
+
+66
+00:02:39,200 --> 00:02:42,480
+minus one okay so this is the same thing
+
+67
+00:02:41,440 --> 00:02:43,280
+as
+
+68
+00:02:42,480 --> 00:02:44,800
+if
+
+69
+00:02:43,280 --> 00:02:47,120
+you can put this
+
+70
+00:02:44,800 --> 00:02:48,840
+writing this if answer
+
+71
+00:02:47,120 --> 00:02:51,280
+not equals mass
+
+72
+00:02:48,840 --> 00:02:53,040
+infinity return
+
+73
+00:02:51,280 --> 00:02:56,239
+answer
+
+74
+00:02:53,040 --> 00:02:58,159
+as written yeah s return minus one okay
+
+75
+00:02:56,239 --> 00:02:59,519
+this is the same thing okay we just put
+
+76
+00:02:58,159 --> 00:03:01,760
+this interest
+
+77
+00:02:59,519 --> 00:03:04,159
+into one line it's the same thing
+
+78
+00:03:01,760 --> 00:03:05,680
+so look this is time complexities o n
+
+79
+00:03:04,159 --> 00:03:07,680
+square why is that because going through
+
+80
+00:03:05,680 --> 00:03:09,200
+these it will be o n and then for each
+
+81
+00:03:07,680 --> 00:03:11,200
+one you need o n
+
+82
+00:03:09,200 --> 00:03:13,040
+so the problem is this one is takes time
+
+83
+00:03:11,200 --> 00:03:14,879
+right so we want to
+
+84
+00:03:13,040 --> 00:03:17,760
+speed up these
+
+85
+00:03:14,879 --> 00:03:19,200
+so we can use one kind of data count
+
+86
+00:03:17,760 --> 00:03:20,400
+hash table
+
+87
+00:03:19,200 --> 00:03:21,440
+hash set
+
+88
+00:03:20,400 --> 00:03:24,000
+notebook
+
+89
+00:03:21,440 --> 00:03:25,920
+to speed up this to make it a one so one
+
+90
+00:03:24,000 --> 00:03:28,640
+if this is one
+
+91
+00:03:25,920 --> 00:03:32,560
+n times one is n so let overall time
+
+92
+00:03:28,640 --> 00:03:35,920
+complexity is over n okay so so we can
+
+93
+00:03:32,560 --> 00:03:37,200
+just do this right we can just
+
+94
+00:03:35,920 --> 00:03:38,959
+we can just say
+
+95
+00:03:37,200 --> 00:03:42,400
+sim
+
+96
+00:03:38,959 --> 00:03:46,239
+equals set numbers right
+
+97
+00:03:42,400 --> 00:03:48,000
+or we can say sing equals counter yeah
+
+98
+00:03:46,239 --> 00:03:50,799
+counter numbers
+
+99
+00:03:48,000 --> 00:03:52,879
+so the set contains only unique elements
+
+100
+00:03:50,799 --> 00:03:55,920
+right so you just tell me okay which if
+
+101
+00:03:52,879 --> 00:03:58,000
+they are set if this is two to
+
+102
+00:03:55,920 --> 00:04:00,720
+one and then if you convert it to set
+
+103
+00:03:58,000 --> 00:04:02,080
+you will only have these two and one
+
+104
+00:04:00,720 --> 00:04:03,120
+right look
+
+105
+00:04:02,080 --> 00:04:04,000
+right
+
+106
+00:04:03,120 --> 00:04:06,640
+yeah
+
+107
+00:04:04,000 --> 00:04:08,000
+this is the num yeah if we convert it
+
+108
+00:04:06,640 --> 00:04:10,640
+to a set
+
+109
+00:04:08,000 --> 00:04:12,640
+you only contain the
+
+110
+00:04:10,640 --> 00:04:15,360
+unique number which is one and two and
+
+111
+00:04:12,640 --> 00:04:18,160
+looking up an element in the
+
+112
+00:04:15,360 --> 00:04:20,079
+set is a one look up because it has set
+
+113
+00:04:18,160 --> 00:04:22,320
+and for this counter
+
+114
+00:04:20,079 --> 00:04:24,080
+if we count the nums
+
+115
+00:04:22,320 --> 00:04:26,720
+so you will tell me additionally yeah
+
+116
+00:04:24,080 --> 00:04:27,600
+decision which is look two appears two
+
+117
+00:04:26,720 --> 00:04:30,320
+times
+
+118
+00:04:27,600 --> 00:04:33,280
+one appear one time okay and still you
+
+119
+00:04:30,320 --> 00:04:35,919
+can do this if minus i in numbs
+
+120
+00:04:33,280 --> 00:04:39,280
+you're looking at the key if your keys
+
+121
+00:04:35,919 --> 00:04:42,240
+is in the dictionary right yeah
+
+122
+00:04:39,280 --> 00:04:46,000
+so
+
+123
+00:04:42,240 --> 00:04:49,040
+any any questions so far uh answer
+
+124
+00:04:46,000 --> 00:04:50,960
+equals next answer actually here is
+
+125
+00:04:49,040 --> 00:04:52,400
+we can put it minus i or i it doesn't
+
+126
+00:04:50,960 --> 00:04:54,320
+matter okay because
+
+127
+00:04:52,400 --> 00:04:55,520
+because we're going through this entire
+
+128
+00:04:54,320 --> 00:04:57,360
+thing
+
+129
+00:04:55,520 --> 00:05:00,960
+right yeah so
+
+130
+00:04:57,360 --> 00:05:03,520
+i or minus i all work right
+
+131
+00:05:00,960 --> 00:05:07,440
+because look if you go into a
+
+132
+00:05:03,520 --> 00:05:11,120
+you can compare a and or minus a
+
+133
+00:05:07,440 --> 00:05:11,919
+right they come in pairs right yeah
+
+134
+00:05:11,120 --> 00:05:14,000
+uh
+
+135
+00:05:11,919 --> 00:05:16,960
+any questions so far
+
+136
+00:05:14,000 --> 00:05:19,759
+okay what's the space complexity
+
+137
+00:05:16,960 --> 00:05:22,479
+where down because we are using
+
+138
+00:05:19,759 --> 00:05:23,919
+headset yeah counter this and in the
+
+139
+00:05:22,479 --> 00:05:26,880
+worst case that
+
+140
+00:05:23,919 --> 00:05:28,560
+each number is unique right so you need
+
+141
+00:05:26,880 --> 00:05:30,080
+for example there are 10 elements and
+
+142
+00:05:28,560 --> 00:05:31,280
+then you need a
+
+143
+00:05:30,080 --> 00:05:34,880
+set
+
+144
+00:05:31,280 --> 00:05:36,000
+of counter or hashmap dictionary to
+
+145
+00:05:34,880 --> 00:05:39,039
+store
+
+146
+00:05:36,000 --> 00:05:42,680
+10 elements right okay good job that's
+
+147
+00:05:39,039 --> 00:05:42,680
+it for today bye
+
