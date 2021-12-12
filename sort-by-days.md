@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 358 (2021-12-12): [Longest Strictly Increasing Then Decreasing Sublist](https://helloacm.com/teaching-kids-programming-longest-strictly-increasing-then-decreasing-sublist/) 最长严格递增然后递减子列表 [Youtube](https://youtu.be/MUUvxbRjAww) - [B站](https://www.bilibili.com/video/BV1EP4y1G7th/)  - [西瓜](https://www.ixigua.com/7040884326002590238) 
 - Day 357 (2021-12-11): [Find Subsequence of Length K With the Largest Sum (Greedy, Sliding Window)](https://helloacm.com/teaching-kids-programming-find-subsequence-of-length-k-with-the-largest-sum/) 长度为K的最大和子序列(贪心和滑动窗口算法)
  [Youtube](https://youtu.be/pkaSvv43wSI) - [B站](https://www.bilibili.com/video/BV1nU4y1K7Bs/)  - [西瓜](https://www.ixigua.com/7040545505041973790) 
 - Day 356 (2021-12-10): [Finding Largest K Value with its Negative in Array using Hash Table/Set (K and -K)](https://helloacm.com/teaching-kids-programming-finding-largest-k-value-with-its-negative-in-array-using-hash-table-set-k-and-k/) 使用哈希表/集在数组中找到最大的 K 值及其负数(K 和 -K)
