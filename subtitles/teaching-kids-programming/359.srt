@@ -1,0 +1,1408 @@
+1
+00:00:00,240 --> 00:00:04,400
+hello mister we are all right mr ryan
+
+2
+00:00:02,560 --> 00:00:06,160
+are you right yeah
+
+3
+00:00:04,400 --> 00:00:09,120
+so what's dynamic programming we talked
+
+4
+00:00:06,160 --> 00:00:12,000
+about this a few times ago
+
+5
+00:00:09,120 --> 00:00:13,640
+talk uh dynamic programming
+
+6
+00:00:12,000 --> 00:00:16,669
+in one word in one word
+
+7
+00:00:13,640 --> 00:00:16,669
+[Music]
+
+8
+00:00:20,280 --> 00:00:23,440
+[Music]
+
+9
+00:00:28,480 --> 00:00:33,600
+it's
+
+10
+00:00:30,880 --> 00:00:36,320
+for remembering yeah remember we want to
+
+11
+00:00:33,600 --> 00:00:39,120
+remember the computer and the
+
+12
+00:00:36,320 --> 00:00:41,920
+computed result yeah so we don't want to
+
+13
+00:00:39,120 --> 00:00:45,200
+we calculate it over and over again
+
+14
+00:00:41,920 --> 00:00:46,559
+and specifically we can put the cache
+
+15
+00:00:45,200 --> 00:00:48,079
+the casting
+
+16
+00:00:46,559 --> 00:00:50,640
+above the
+
+17
+00:00:48,079 --> 00:00:52,800
+function the message so you ask the
+
+18
+00:00:50,640 --> 00:00:55,039
+computer to remember it yeah
+
+19
+00:00:52,800 --> 00:00:56,640
+to remember it okay
+
+20
+00:00:55,039 --> 00:00:59,280
+yeah let's uh
+
+21
+00:00:56,640 --> 00:01:01,440
+we have two kinds of dynamic programming
+
+22
+00:00:59,280 --> 00:01:03,199
+top down and bottom up depends on just
+
+23
+00:01:01,440 --> 00:01:05,119
+just think about the people matching
+
+24
+00:01:03,199 --> 00:01:08,560
+number your fibonacci number
+
+25
+00:01:05,119 --> 00:01:12,240
+now f n equals f n minus 1 plus s minus
+
+26
+00:01:08,560 --> 00:01:14,479
+2 right if we keep if we compute from fn
+
+27
+00:01:12,240 --> 00:01:17,200
+and then we need to fn uh n minus 1 and
+
+28
+00:01:14,479 --> 00:01:19,600
+minus 2 for n minus 1 we need n minus 2
+
+29
+00:01:17,200 --> 00:01:22,880
+and minus 3 right it's a tree right it's
+
+30
+00:01:19,600 --> 00:01:26,320
+a tree look if we want to compute fn i
+
+31
+00:01:22,880 --> 00:01:27,439
+now know become msn minus one and f n
+
+32
+00:01:26,320 --> 00:01:28,640
+minus two
+
+33
+00:01:27,439 --> 00:01:30,960
+and look
+
+34
+00:01:28,640 --> 00:01:33,439
+we only compute f m minus one we need
+
+35
+00:01:30,960 --> 00:01:36,240
+the f n minus two and
+
+36
+00:01:33,439 --> 00:01:38,400
+f and minus three right so look if we
+
+37
+00:01:36,240 --> 00:01:40,400
+want to compute this value
+
+38
+00:01:38,400 --> 00:01:42,640
+so we need two values
+
+39
+00:01:40,400 --> 00:01:44,720
+which is smaller and then if i want to
+
+40
+00:01:42,640 --> 00:01:46,479
+compute the n minus one i need a minus
+
+41
+00:01:44,720 --> 00:01:48,560
+one minus three so if we go in this way
+
+42
+00:01:46,479 --> 00:01:52,240
+let's stop down but if we're going from
+
+43
+00:01:48,560 --> 00:01:55,680
+that way if we start from f0 and f1 f2
+
+44
+00:01:52,240 --> 00:01:58,560
+let's bottom up right f top down
+
+45
+00:01:55,680 --> 00:02:00,079
+you can just say okay define f you can
+
+46
+00:01:58,560 --> 00:02:01,439
+say define
+
+47
+00:02:00,079 --> 00:02:06,399
+f n
+
+48
+00:02:01,439 --> 00:02:09,119
+and if if and equal equal 0 or n
+
+49
+00:02:06,399 --> 00:02:11,280
+equals 1 return n right
+
+50
+00:02:09,119 --> 00:02:15,440
+and otherwise i return
+
+51
+00:02:11,280 --> 00:02:16,879
+f n minus one plus f and minus two
+
+52
+00:02:15,440 --> 00:02:20,560
+okay
+
+53
+00:02:16,879 --> 00:02:20,560
+this is the top down top down
+
+54
+00:02:20,840 --> 00:02:25,360
+yeah i have your attention please yes
+
+55
+00:02:24,000 --> 00:02:27,760
+but this is
+
+56
+00:02:25,360 --> 00:02:31,040
+expensive why is that look
+
+57
+00:02:27,760 --> 00:02:33,120
+f and minus 2 here f m minus 2
+
+58
+00:02:31,040 --> 00:02:35,440
+right this could be a lot right look
+
+59
+00:02:33,120 --> 00:02:38,319
+it'll be f minus 3
+
+60
+00:02:35,440 --> 00:02:40,239
+f and minus four again look f n minus
+
+61
+00:02:38,319 --> 00:02:43,920
+three x minus three
+
+62
+00:02:40,239 --> 00:02:44,720
+it's expensive here f n minus three
+
+63
+00:02:43,920 --> 00:02:47,440
+yeah
+
+64
+00:02:44,720 --> 00:02:49,280
+and then f n minus four look how many
+
+65
+00:02:47,440 --> 00:02:51,680
+times i need to
+
+66
+00:02:49,280 --> 00:02:55,120
+at least over and over again but if i
+
+67
+00:02:51,680 --> 00:02:57,760
+magically put this here magically
+
+68
+00:02:55,120 --> 00:02:59,440
+and i just need to remember n value so
+
+69
+00:02:57,760 --> 00:03:00,640
+look the first time i kick your f n
+
+70
+00:02:59,440 --> 00:03:02,879
+minus two
+
+71
+00:03:00,640 --> 00:03:04,879
+i save it so next time
+
+72
+00:03:02,879 --> 00:03:06,159
+i won't continue this way because i
+
+73
+00:03:04,879 --> 00:03:08,400
+already know it
+
+74
+00:03:06,159 --> 00:03:10,959
+i already know it right
+
+75
+00:03:08,400 --> 00:03:15,200
+dynamic programming okay
+
+76
+00:03:10,959 --> 00:03:18,560
+so we have an array of numbers 1 5 11 5.
+
+77
+00:03:15,200 --> 00:03:20,560
+can you separate this array into two uh
+
+78
+00:03:18,560 --> 00:03:23,840
+subsequent okay remember the subsequent
+
+79
+00:03:20,560 --> 00:03:23,840
+and then the sum would be the same
+
+80
+00:03:24,080 --> 00:03:27,599
+do you understand the problem
+
+81
+00:03:26,480 --> 00:03:28,959
+this is
+
+82
+00:03:27,599 --> 00:03:30,799
+okay
+
+83
+00:03:28,959 --> 00:03:33,360
+and this one
+
+84
+00:03:30,799 --> 00:03:33,360
+subsequent
+
+85
+00:03:37,360 --> 00:03:42,640
+okay okay okay can you go back okay this
+
+86
+00:03:39,920 --> 00:03:42,640
+is not a dungeon
+
+87
+00:03:42,879 --> 00:03:47,599
+so look yes subsequent subsequence uh
+
+88
+00:03:46,159 --> 00:03:49,040
+subsequence and someplace what's the
+
+89
+00:03:47,599 --> 00:03:51,200
+difference between subsequent and
+
+90
+00:03:49,040 --> 00:03:54,080
+subless can you tell me what's the same
+
+91
+00:03:51,200 --> 00:03:56,560
+continuous and one of them is
+
+92
+00:03:54,080 --> 00:03:58,959
+okay the subsequence is not continuous
+
+93
+00:03:56,560 --> 00:04:02,400
+subsequence is that the original array
+
+94
+00:03:58,959 --> 00:04:02,400
+and we can okay
+
+95
+00:04:03,599 --> 00:04:09,120
+okay look listen to me not continuous
+
+96
+00:04:06,480 --> 00:04:11,280
+that's what i said okay subsequent not
+
+97
+00:04:09,120 --> 00:04:13,360
+continuous it's like the original array
+
+98
+00:04:11,280 --> 00:04:15,599
+and then you can remove zero or more
+
+99
+00:04:13,360 --> 00:04:17,519
+characters uh numbers right on it for
+
+100
+00:04:15,599 --> 00:04:19,359
+example one five eleven if i did it five
+
+101
+00:04:17,519 --> 00:04:22,240
+and five and the remaining would be one
+
+102
+00:04:19,359 --> 00:04:24,240
+eleven is a subsequence the sub this
+
+103
+00:04:22,240 --> 00:04:28,400
+is continuous right you pick remember
+
+104
+00:04:24,240 --> 00:04:29,680
+the cn1 cn2 right cn1 plus cn2
+
+105
+00:04:28,400 --> 00:04:32,560
+cn1
+
+106
+00:04:29,680 --> 00:04:33,520
+i have n elements i pick one
+
+107
+00:04:32,560 --> 00:04:35,440
+that
+
+108
+00:04:33,520 --> 00:04:37,840
+this is the number of way of picking one
+
+109
+00:04:35,440 --> 00:04:38,800
+out of n i have three apples
+
+110
+00:04:37,840 --> 00:04:40,960
+ryan
+
+111
+00:04:38,800 --> 00:04:42,720
+you want to pick one to eat how many
+
+112
+00:04:40,960 --> 00:04:45,360
+ways how many apples can you pick how
+
+113
+00:04:42,720 --> 00:04:47,840
+many different ways three exactly okay
+
+114
+00:04:45,360 --> 00:04:50,320
+so c and what makes me think
+
+115
+00:04:47,840 --> 00:04:52,160
+yeah cn1 is the meaning that the
+
+116
+00:04:50,320 --> 00:04:54,400
+subplace with only one single element
+
+117
+00:04:52,160 --> 00:04:57,040
+and cn2 is like you pick two index two
+
+118
+00:04:54,400 --> 00:04:58,479
+index 11 right now you pick these you
+
+119
+00:04:57,040 --> 00:05:00,960
+pick this
+
+120
+00:04:58,479 --> 00:05:03,280
+there are n elements you pick two
+
+121
+00:05:00,960 --> 00:05:05,840
+okay and then one five eleven this is
+
+122
+00:05:03,280 --> 00:05:08,720
+the service you pick this you pick this
+
+123
+00:05:05,840 --> 00:05:11,199
+five eleven five is a service okay so if
+
+124
+00:05:08,720 --> 00:05:14,320
+you do this that would be n times n plus
+
+125
+00:05:11,199 --> 00:05:16,479
+1 divided by 2 this is the number of the
+
+126
+00:05:14,320 --> 00:05:18,080
+total sub is continuous and that's the
+
+127
+00:05:16,479 --> 00:05:20,960
+in the scale if you want to prove first
+
+128
+00:05:18,080 --> 00:05:22,960
+it let's oh n square right but for some
+
+129
+00:05:20,960 --> 00:05:24,880
+subsequent
+
+130
+00:05:22,960 --> 00:05:26,720
+subsequent we can think it this way for
+
+131
+00:05:24,880 --> 00:05:29,199
+each number we can pick or not pick
+
+132
+00:05:26,720 --> 00:05:32,479
+right that gives us two choice for the
+
+133
+00:05:29,199 --> 00:05:34,720
+second element we can pick or not pick
+
+134
+00:05:32,479 --> 00:05:38,160
+give us another two choice so divide
+
+135
+00:05:34,720 --> 00:05:39,840
+into plus then or multiply
+
+136
+00:05:38,160 --> 00:05:42,400
+one question
+
+137
+00:05:39,840 --> 00:05:44,639
+multiply multiply and for the third one
+
+138
+00:05:42,400 --> 00:05:47,120
+i can i still have i can pick or not
+
+139
+00:05:44,639 --> 00:05:48,560
+pick so and i can multiply two so if
+
+140
+00:05:47,120 --> 00:05:51,639
+there are n elements what's the tongue
+
+141
+00:05:48,560 --> 00:05:51,639
+and brexit
+
+142
+00:05:56,800 --> 00:06:02,000
+you'll be something like level
+
+143
+00:05:59,120 --> 00:06:04,319
+yeah 2 to the power 1 is 2
+
+144
+00:06:02,000 --> 00:06:08,160
+2 to the power 1 is 2 and you know it's
+
+145
+00:06:04,319 --> 00:06:10,479
+very very stupid the graph
+
+146
+00:06:08,160 --> 00:06:13,520
+okay so um so if we want to prove
+
+147
+00:06:10,479 --> 00:06:15,919
+firstly right we can try
+
+148
+00:06:13,520 --> 00:06:18,960
+every subsequent we can generate
+
+149
+00:06:15,919 --> 00:06:19,840
+each subsequence and then for each one
+
+150
+00:06:18,960 --> 00:06:23,120
+yeah
+
+151
+00:06:19,840 --> 00:06:24,800
+we can get the sum of it
+
+152
+00:06:23,120 --> 00:06:28,160
+get the sum of it so
+
+153
+00:06:24,800 --> 00:06:30,000
+i know we can check if it's equals to
+
+154
+00:06:28,160 --> 00:06:31,360
+to what
+
+155
+00:06:30,000 --> 00:06:32,960
+t 0
+
+156
+00:06:31,360 --> 00:06:34,400
+the total sum look the total sum of
+
+157
+00:06:32,960 --> 00:06:37,440
+these is what
+
+158
+00:06:34,400 --> 00:06:39,680
+22 even okay so for the subsequence we
+
+159
+00:06:37,440 --> 00:06:41,120
+want to check the subsequent sum equals
+
+160
+00:06:39,680 --> 00:06:43,680
+to what
+
+161
+00:06:41,120 --> 00:06:46,160
+even to the equal number
+
+162
+00:06:43,680 --> 00:06:47,840
+yeah yep yeah yeah if it's even number
+
+163
+00:06:46,160 --> 00:06:49,680
+we can find that maybe we can find the
+
+164
+00:06:47,840 --> 00:06:52,800
+solution but if it's all number it's not
+
+165
+00:06:49,680 --> 00:06:55,599
+right if it is 23 or 5 there's no way to
+
+166
+00:06:52,800 --> 00:06:58,639
+split it into half right yeah
+
+167
+00:06:55,599 --> 00:07:00,720
+okay but look okay guess 22 this is the
+
+168
+00:06:58,639 --> 00:07:02,720
+total sum for the array and i want to
+
+169
+00:07:00,720 --> 00:07:05,919
+change i want to find the subsequent sum
+
+170
+00:07:02,720 --> 00:07:05,919
+that equals to what
+
+171
+00:07:06,000 --> 00:07:11,360
+to what eleven eleven whatever half of
+
+172
+00:07:08,639 --> 00:07:13,039
+it yeah eleven halfway so that takes to
+
+173
+00:07:11,360 --> 00:07:15,440
+get the sum of the subsequent that takes
+
+174
+00:07:13,039 --> 00:07:17,440
+one time so all together that'll be o n
+
+175
+00:07:15,440 --> 00:07:18,479
+times 2 to the power of n
+
+176
+00:07:17,440 --> 00:07:20,479
+right
+
+177
+00:07:18,479 --> 00:07:21,840
+n times 2 to the power this is quite
+
+178
+00:07:20,479 --> 00:07:24,080
+slow okay
+
+179
+00:07:21,840 --> 00:07:26,240
+so
+
+180
+00:07:24,080 --> 00:07:30,319
+so we want to use the dynamic
+
+181
+00:07:26,240 --> 00:07:32,720
+programming to save it yeah because look
+
+182
+00:07:30,319 --> 00:07:34,479
+we can come up with a function okay
+
+183
+00:07:32,720 --> 00:07:37,599
+come up with a function
+
+184
+00:07:34,479 --> 00:07:37,599
+so basically
+
+185
+00:07:38,560 --> 00:07:42,160
+as we as we talked about
+
+186
+00:07:41,039 --> 00:07:44,560
+for the
+
+187
+00:07:42,160 --> 00:07:46,960
+solid x number for this number we can
+
+188
+00:07:44,560 --> 00:07:49,360
+have two choice pick or nothing right
+
+189
+00:07:46,960 --> 00:07:51,680
+and now we also have one dimension which
+
+190
+00:07:49,360 --> 00:07:54,479
+is the remaining sum so at the beginning
+
+191
+00:07:51,680 --> 00:07:57,039
+we give a half of it like 22 will give
+
+192
+00:07:54,479 --> 00:07:58,800
+11. and if we decide to pick the number
+
+193
+00:07:57,039 --> 00:08:02,160
+we substitute a number
+
+194
+00:07:58,800 --> 00:08:04,080
+from 11 right and if we are originally n
+
+195
+00:08:02,160 --> 00:08:05,840
+and then if any any time
+
+196
+00:08:04,080 --> 00:08:08,479
+we're reaching the end
+
+197
+00:08:05,840 --> 00:08:10,560
+so we can we can do what we need to try
+
+198
+00:08:08,479 --> 00:08:13,520
+it out but
+
+199
+00:08:10,560 --> 00:08:17,120
+if the sum is being reduced to zero okay
+
+200
+00:08:13,520 --> 00:08:18,560
+so let's first of all substitute some
+
+201
+00:08:17,120 --> 00:08:21,120
+subset sum
+
+202
+00:08:18,560 --> 00:08:24,400
+i know we have nums
+
+203
+00:08:21,120 --> 00:08:26,560
+and then let's say tota tells uh can can
+
+204
+00:08:24,400 --> 00:08:27,599
+i have your attention not too too loud
+
+205
+00:08:26,560 --> 00:08:30,080
+please
+
+206
+00:08:27,599 --> 00:08:32,880
+counter equal sum
+
+207
+00:08:30,080 --> 00:08:34,399
+nums okay that's o n right but that's
+
+208
+00:08:32,880 --> 00:08:36,880
+okay
+
+209
+00:08:34,399 --> 00:08:39,200
+this is some function we can we can use
+
+210
+00:08:36,880 --> 00:08:41,919
+the mathematic building function some
+
+211
+00:08:39,200 --> 00:08:44,880
+function okay oh we can do this and uh
+
+212
+00:08:41,919 --> 00:08:47,200
+total equals zero for i in lumps and
+
+213
+00:08:44,880 --> 00:08:51,519
+total plus equals i right this is the
+
+214
+00:08:47,200 --> 00:08:51,519
+same thing that's our ni that's owen
+
+215
+00:08:51,839 --> 00:08:56,399
+if
+
+216
+00:08:52,839 --> 00:09:00,800
+total divided by 2
+
+217
+00:08:56,399 --> 00:09:00,800
+equal equal one yeah what does it mean
+
+218
+00:09:01,279 --> 00:09:04,800
+and now we need to return first can can
+
+219
+00:09:03,120 --> 00:09:06,480
+somebody explain to me what does this
+
+220
+00:09:04,800 --> 00:09:09,120
+mean
+
+221
+00:09:06,480 --> 00:09:09,120
+you want to check
+
+222
+00:09:09,440 --> 00:09:14,080
+yeah if it's all then there's no way to
+
+223
+00:09:11,120 --> 00:09:14,880
+split it into half right
+
+224
+00:09:14,080 --> 00:09:16,800
+or
+
+225
+00:09:14,880 --> 00:09:19,200
+module two
+
+226
+00:09:16,800 --> 00:09:20,959
+yeah or we can do this n one it's the
+
+227
+00:09:19,200 --> 00:09:22,560
+same thing modulated
+
+228
+00:09:20,959 --> 00:09:25,600
+0.2
+
+229
+00:09:22,560 --> 00:09:27,440
+okay now the half half would be
+
+230
+00:09:25,600 --> 00:09:29,839
+total
+
+231
+00:09:27,440 --> 00:09:32,080
+divided by 2. this is the sum okay let's
+
+232
+00:09:29,839 --> 00:09:33,760
+come up with a function define
+
+233
+00:09:32,080 --> 00:09:35,680
+dp
+
+234
+00:09:33,760 --> 00:09:37,760
+and now we are considering the ice
+
+235
+00:09:35,680 --> 00:09:40,399
+number from the left to the right okay
+
+236
+00:09:37,760 --> 00:09:42,080
+and now we are considering the sum
+
+237
+00:09:40,399 --> 00:09:46,240
+s right
+
+238
+00:09:42,080 --> 00:09:49,040
+look if i equal equal length
+
+239
+00:09:46,240 --> 00:09:51,360
+nums yeah we are running out of numbers
+
+240
+00:09:49,040 --> 00:09:53,279
+then we need to find out if the sum has
+
+241
+00:09:51,360 --> 00:09:54,880
+reduced to zero right
+
+242
+00:09:53,279 --> 00:09:56,160
+yeah yes
+
+243
+00:09:54,880 --> 00:09:57,519
+make sense
+
+244
+00:09:56,160 --> 00:09:59,600
+what did i just say
+
+245
+00:09:57,519 --> 00:10:02,000
+we we're checking if
+
+246
+00:09:59,600 --> 00:10:05,839
+the number reduced to zero and what
+
+247
+00:10:02,000 --> 00:10:08,079
+cases we need to do find if it's even
+
+248
+00:10:05,839 --> 00:10:10,000
+i don't know if i
+
+249
+00:10:08,079 --> 00:10:12,480
+that we're considering the numbers here
+
+250
+00:10:10,000 --> 00:10:12,480
+numbers
+
+251
+00:10:12,640 --> 00:10:18,959
+from left to zero index right index i
+
+252
+00:10:16,160 --> 00:10:22,240
+index i i index i i equals zero the
+
+253
+00:10:18,959 --> 00:10:23,839
+first number i equals length n
+
+254
+00:10:22,240 --> 00:10:25,839
+we are now at this point we are running
+
+255
+00:10:23,839 --> 00:10:28,079
+out of numbers if we are running our
+
+256
+00:10:25,839 --> 00:10:30,880
+number we need to check if the s the sum
+
+257
+00:10:28,079 --> 00:10:33,440
+has been reduced to zero okay
+
+258
+00:10:30,880 --> 00:10:36,160
+otherwise we can just do what i look at
+
+259
+00:10:33,440 --> 00:10:37,920
+any point if the s is reduced to is
+
+260
+00:10:36,160 --> 00:10:39,200
+below zero what does it mean what should
+
+261
+00:10:37,920 --> 00:10:42,000
+we return here
+
+262
+00:10:39,200 --> 00:10:43,440
+we will if the sum has been reduced to
+
+263
+00:10:42,000 --> 00:10:44,959
+zero
+
+264
+00:10:43,440 --> 00:10:48,800
+become negative
+
+265
+00:10:44,959 --> 00:10:51,200
+so what's your return 12 hours here
+
+266
+00:10:48,800 --> 00:10:52,640
+come on think about it
+
+267
+00:10:51,200 --> 00:10:54,720
+why is it true
+
+268
+00:10:52,640 --> 00:10:56,959
+because it's even
+
+269
+00:10:54,720 --> 00:10:59,279
+no no no i mean then something
+
+270
+00:10:56,959 --> 00:11:02,640
+false yes
+
+271
+00:10:59,279 --> 00:11:05,279
+if it falls below zero it means right we
+
+272
+00:11:02,640 --> 00:11:07,120
+are using too much sun right so in this
+
+273
+00:11:05,279 --> 00:11:09,279
+case it's not
+
+274
+00:11:07,120 --> 00:11:12,240
+this is not
+
+275
+00:11:09,279 --> 00:11:13,839
+not a way to separate to split the array
+
+276
+00:11:12,240 --> 00:11:17,040
+into half okay
+
+277
+00:11:13,839 --> 00:11:19,760
+then now i just need to do what return
+
+278
+00:11:17,040 --> 00:11:21,360
+dp if i pick the choice if i pick a
+
+279
+00:11:19,760 --> 00:11:24,800
+number okay look
+
+280
+00:11:21,360 --> 00:11:28,560
+i plus one and then s minus what nums i
+
+281
+00:11:24,800 --> 00:11:31,680
+right if i pick this number
+
+282
+00:11:28,560 --> 00:11:34,240
+or if i don't pick it d p y can you tell
+
+283
+00:11:31,680 --> 00:11:37,440
+me if i don't pick it what happened
+
+284
+00:11:34,240 --> 00:11:37,440
+if you don't figure it
+
+285
+00:11:37,519 --> 00:11:41,180
+what's the first parameter if i don't
+
+286
+00:11:39,040 --> 00:11:44,559
+pick it
+
+287
+00:11:41,180 --> 00:11:44,559
+[Music]
+
+288
+00:11:51,839 --> 00:11:55,519
+here i'm here
+
+289
+00:11:53,519 --> 00:11:57,760
+if i this number i don't pick so what
+
+290
+00:11:55,519 --> 00:11:58,639
+happen i should move to the next
+
+291
+00:11:57,760 --> 00:12:01,440
+so i
+
+292
+00:11:58,639 --> 00:12:03,920
+i plus one and then what's the thumb if
+
+293
+00:12:01,440 --> 00:12:05,440
+i don't take it
+
+294
+00:12:03,920 --> 00:12:08,959
+what what's the sound
+
+295
+00:12:05,440 --> 00:12:10,560
+if you don't know pick us
+
+296
+00:12:08,959 --> 00:12:12,079
+if i pick it i need to subtract if i
+
+297
+00:12:10,560 --> 00:12:13,360
+don't pick it what happen
+
+298
+00:12:12,079 --> 00:12:17,360
+you need to
+
+299
+00:12:13,360 --> 00:12:20,160
+be the same be the same so s
+
+300
+00:12:17,360 --> 00:12:20,160
+what's missing here
+
+301
+00:12:21,519 --> 00:12:27,040
+if i don't pick cash
+
+302
+00:12:23,680 --> 00:12:29,040
+if i don't pay cash yeah
+
+303
+00:12:27,040 --> 00:12:30,720
+there will be multiple times this
+
+304
+00:12:29,040 --> 00:12:32,800
+intermediate value being calculated
+
+305
+00:12:30,720 --> 00:12:34,720
+again again but if i
+
+306
+00:12:32,800 --> 00:12:38,399
+put the cash what's the what's the time
+
+307
+00:12:34,720 --> 00:12:40,560
+complexity if i put the cash
+
+308
+00:12:38,399 --> 00:12:44,240
+look at s baby
+
+309
+00:12:40,560 --> 00:12:45,839
+i i is the what then some length of the
+
+310
+00:12:44,240 --> 00:12:49,839
+numbers right
+
+311
+00:12:45,839 --> 00:12:52,880
+name s s is half total so okay let's say
+
+312
+00:12:49,839 --> 00:12:57,040
+half the total sum right so some
+
+313
+00:12:52,880 --> 00:12:59,120
+some let's say sum is s s times n okay
+
+314
+00:12:57,040 --> 00:13:01,279
+the time complexes o
+
+315
+00:12:59,120 --> 00:13:02,880
+s times n divided by 2 and we drop the
+
+316
+00:13:01,279 --> 00:13:05,440
+constant right because this is the total
+
+317
+00:13:02,880 --> 00:13:07,440
+sum we are looking for a half half of it
+
+318
+00:13:05,440 --> 00:13:08,639
+s times n
+
+319
+00:13:07,440 --> 00:13:12,079
+right
+
+320
+00:13:08,639 --> 00:13:13,680
+so look this is the total number of the
+
+321
+00:13:12,079 --> 00:13:16,160
+maximum
+
+322
+00:13:13,680 --> 00:13:18,800
+values we can catch right we can catch
+
+323
+00:13:16,160 --> 00:13:20,639
+and that also means the time complexity
+
+324
+00:13:18,800 --> 00:13:22,480
+right so look
+
+325
+00:13:20,639 --> 00:13:23,839
+make sense yeah
+
+326
+00:13:22,480 --> 00:13:26,480
+for this number
+
+327
+00:13:23,839 --> 00:13:28,720
+for i'm standing at this point for i'm
+
+328
+00:13:26,480 --> 00:13:30,480
+still looking at the ice number for this
+
+329
+00:13:28,720 --> 00:13:33,680
+number i can pick it
+
+330
+00:13:30,480 --> 00:13:34,639
+i can pick it yeah uh or i don't pick it
+
+331
+00:13:33,680 --> 00:13:36,880
+here
+
+332
+00:13:34,639 --> 00:13:39,760
+in both ways we need to move to the next
+
+333
+00:13:36,880 --> 00:13:41,920
+number and when we reach the end
+
+334
+00:13:39,760 --> 00:13:44,560
+when we reach end we have to check if
+
+335
+00:13:41,920 --> 00:13:47,839
+the sum is zero if we reduce the zero
+
+336
+00:13:44,560 --> 00:13:51,360
+then that's a good
+
+337
+00:13:47,839 --> 00:13:53,839
+okay and any at any point right if the
+
+338
+00:13:51,360 --> 00:13:54,959
+sum already falls below zero so we don't
+
+339
+00:13:53,839 --> 00:13:56,800
+pick
+
+340
+00:13:54,959 --> 00:13:58,880
+right
+
+341
+00:13:56,800 --> 00:14:01,279
+make sense
+
+342
+00:13:58,880 --> 00:14:03,519
+yeah so okay by the way these numbers
+
+343
+00:14:01,279 --> 00:14:06,160
+are non-negative okay
+
+344
+00:14:03,519 --> 00:14:07,839
+yeah yeah no negatives not about decimal
+
+345
+00:14:06,160 --> 00:14:09,760
+things
+
+346
+00:14:07,839 --> 00:14:12,000
+no decimal
+
+347
+00:14:09,760 --> 00:14:14,000
+not decimal just just positive integers
+
+348
+00:14:12,000 --> 00:14:15,680
+okay
+
+349
+00:14:14,000 --> 00:14:17,040
+okay that's it for today tomorrow we're
+
+350
+00:14:15,680 --> 00:14:18,639
+talking talk about the photo app
+
+351
+00:14:17,040 --> 00:14:22,639
+solution for this one okay it's quite
+
+352
+00:14:18,639 --> 00:14:22,639
+similar okay bye bye bye
+
