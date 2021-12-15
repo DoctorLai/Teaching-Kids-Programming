@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 360 (2021-12-14): [Find Partition Equal Subset Sum (Bottom Up Dynamic Programming Algorithm)](https://helloacm.com/teaching-kids-programming-find-partition-equal-subset-sum-bottom-up-dynamic-programming-algorithm/) 数组分成和相等的两个子序列 (由底向上动态规划算法) [Youtube](https://youtu.be/-4-8rT1R26o) - [B站](https://www.bilibili.com/video/BV1MZ4y1R747/)  - [西瓜](https://www.ixigua.com/7041852797746151944) 
 - Day 359 (2021-12-13): [Find Partition Equal Subset Sum (Top Down Dynamic Programming Algorithm)](https://helloacm.com/teaching-kids-programming-find-partition-equal-subset-sum-top-down-dynamic-programming-algorithm/) 数组分成和相等的两个子序列 (自顶向下动态规划算法) [Youtube](https://youtu.be/2ikhS9NNbmc) - [B站](https://www.bilibili.com/video/BV1Sr4y1D7Kp/)  - [西瓜](https://www.ixigua.com/7041277947424014885) 
 - Day 358 (2021-12-12): [Longest Strictly Increasing Then Decreasing Sublist](https://helloacm.com/teaching-kids-programming-longest-strictly-increasing-then-decreasing-sublist/) 最长严格递增然后递减子列表 [Youtube](https://youtu.be/MUUvxbRjAww) - [B站](https://www.bilibili.com/video/BV1EP4y1G7th/)  - [西瓜](https://www.ixigua.com/7040884326002590238) 
 - Day 357 (2021-12-11): [Find Subsequence of Length K With the Largest Sum (Greedy, Sliding Window)](https://helloacm.com/teaching-kids-programming-find-subsequence-of-length-k-with-the-largest-sum/) 长度为K的最大和子序列(贪心和滑动窗口算法)
