@@ -1,0 +1,2208 @@
+1
+00:00:00,000 --> 00:00:03,360
+hello hello
+
+2
+00:00:01,839 --> 00:00:05,839
+allow me stay with mr right now all
+
+3
+00:00:03,360 --> 00:00:08,320
+right okay so let's visit the binary
+
+4
+00:00:05,839 --> 00:00:10,639
+trees okay butter cheese binary trees
+
+5
+00:00:08,320 --> 00:00:13,519
+okay we talk about vinyl trees a lot of
+
+6
+00:00:10,639 --> 00:00:13,519
+times spinach
+
+7
+00:00:14,320 --> 00:00:18,160
+so in one sentence what spinal choice
+
+8
+00:00:18,960 --> 00:00:23,920
+is a tree with numbers
+
+9
+00:00:21,520 --> 00:00:25,039
+and the last two kids
+
+10
+00:00:23,920 --> 00:00:28,519
+okay
+
+11
+00:00:25,039 --> 00:00:31,920
+the left and the left of
+
+12
+00:00:28,519 --> 00:00:33,840
+the tree the root must be smaller than
+
+13
+00:00:31,920 --> 00:00:36,160
+it and then let's find the research
+
+14
+00:00:33,840 --> 00:00:37,680
+trick okay you're talking a little bit
+
+15
+00:00:36,160 --> 00:00:40,399
+more about it
+
+16
+00:00:37,680 --> 00:00:43,040
+okay so i pick the keywords okay so
+
+17
+00:00:40,399 --> 00:00:44,879
+two right binary two right
+
+18
+00:00:43,040 --> 00:00:47,280
+yeah and the numbers it's actually the
+
+19
+00:00:44,879 --> 00:00:49,600
+notes does not necessarily be numbers it
+
+20
+00:00:47,280 --> 00:00:52,640
+could be strings you know any type of
+
+21
+00:00:49,600 --> 00:00:55,360
+data so binary is like a data structure
+
+22
+00:00:52,640 --> 00:00:59,199
+okay it's a tree and what are trees
+
+23
+00:00:55,360 --> 00:01:00,320
+trees are directed a cyclic graph okay
+
+24
+00:00:59,199 --> 00:01:02,719
+yeah
+
+25
+00:01:00,320 --> 00:01:05,280
+directly means that it it's actually
+
+26
+00:01:02,719 --> 00:01:07,280
+don't have a doesn't have a
+
+27
+00:01:05,280 --> 00:01:10,080
+direction but we we call it directly
+
+28
+00:01:07,280 --> 00:01:14,240
+ascetical because usually we were given
+
+29
+00:01:10,080 --> 00:01:16,880
+these trees pine trees you know whatever
+
+30
+00:01:14,240 --> 00:01:18,880
+now we can only visit the kids from my
+
+31
+00:01:16,880 --> 00:01:21,840
+parents so it's always one direction
+
+32
+00:01:18,880 --> 00:01:23,280
+yeah we cannot go in a reverse order
+
+33
+00:01:21,840 --> 00:01:25,360
+yeah
+
+34
+00:01:23,280 --> 00:01:28,560
+unless you store the you know the
+
+35
+00:01:25,360 --> 00:01:30,960
+parents that's totally the other story
+
+36
+00:01:28,560 --> 00:01:32,720
+exactly it doesn't have a cycle if it
+
+37
+00:01:30,960 --> 00:01:34,479
+has cycle we call it graph okay it
+
+38
+00:01:32,720 --> 00:01:36,799
+doesn't have cycles
+
+39
+00:01:34,479 --> 00:01:39,759
+graph okay the trees are graph and the
+
+40
+00:01:36,799 --> 00:01:42,320
+binary tree particularly let a kid a
+
+41
+00:01:39,759 --> 00:01:44,399
+parent can only have two kids a mouth
+
+42
+00:01:42,320 --> 00:01:47,040
+you can have one kid you can have two
+
+43
+00:01:44,399 --> 00:01:49,040
+kids but you cannot have more than that
+
+44
+00:01:47,040 --> 00:01:52,560
+if it doesn't have any kids we call it
+
+45
+00:01:49,040 --> 00:01:54,640
+leaves okay if the parent if if a kid if
+
+46
+00:01:52,560 --> 00:01:57,360
+a note doesn't have a parent like what
+
+47
+00:01:54,640 --> 00:01:57,360
+what do we call it
+
+48
+00:01:57,950 --> 00:02:01,049
+[Music]
+
+49
+00:02:02,439 --> 00:02:09,840
+foreign okay so for this binary tree if
+
+50
+00:02:05,920 --> 00:02:09,840
+we remove one edge what will happen
+
+51
+00:02:10,160 --> 00:02:13,840
+uh it will
+
+52
+00:02:11,760 --> 00:02:15,760
+separate and be a forest
+
+53
+00:02:13,840 --> 00:02:17,360
+well done it will separate into two two
+
+54
+00:02:15,760 --> 00:02:19,360
+trees two sub
+
+55
+00:02:17,360 --> 00:02:22,319
+two trees okay one tree will be the
+
+56
+00:02:19,360 --> 00:02:23,760
+subset subtree of the another one of the
+
+57
+00:02:22,319 --> 00:02:26,400
+entire tree okay
+
+58
+00:02:23,760 --> 00:02:28,080
+so we call it uh let's multiply the sum
+
+59
+00:02:26,400 --> 00:02:29,520
+of these two right for example if i
+
+60
+00:02:28,080 --> 00:02:31,280
+remove this edge
+
+61
+00:02:29,520 --> 00:02:34,319
+so that will become a four okay so
+
+62
+00:02:31,280 --> 00:02:36,640
+what's the sum of these remaining trees
+
+63
+00:02:34,319 --> 00:02:39,440
+uh it's uh
+
+64
+00:02:36,640 --> 00:02:40,959
+eleven eleven then that's times the sum
+
+65
+00:02:39,440 --> 00:02:42,720
+which is forty-four
+
+66
+00:02:40,959 --> 00:02:44,959
+okay and then how about if i remove this
+
+67
+00:02:42,720 --> 00:02:44,959
+edge
+
+68
+00:02:45,200 --> 00:02:52,400
+that'll be ten times five is fifty okay
+
+69
+00:02:49,200 --> 00:02:54,879
+so this this is the maximum okay if we
+
+70
+00:02:52,400 --> 00:02:58,080
+keep removing because look they have how
+
+71
+00:02:54,879 --> 00:02:59,599
+many choice can we do can we separate
+
+72
+00:02:58,080 --> 00:03:01,920
+how many edges
+
+73
+00:02:59,599 --> 00:03:04,000
+if we cut that yeah yeah one four three
+
+74
+00:03:01,920 --> 00:03:05,519
+four so if you cut one edges they'll
+
+75
+00:03:04,000 --> 00:03:08,080
+become two okay
+
+76
+00:03:05,519 --> 00:03:09,760
+so we want to find out to maximize the
+
+77
+00:03:08,080 --> 00:03:10,560
+splitted sum
+
+78
+00:03:09,760 --> 00:03:12,640
+yeah
+
+79
+00:03:10,560 --> 00:03:15,120
+okay we want to maximize the split
+
+80
+00:03:12,640 --> 00:03:15,120
+system
+
+81
+00:03:15,760 --> 00:03:20,400
+how are we doing we how can we do it i
+
+82
+00:03:18,400 --> 00:03:23,519
+mean we
+
+83
+00:03:20,400 --> 00:03:25,680
+can do that so look this time
+
+84
+00:03:23,519 --> 00:03:27,519
+maxim sound okay so if we remove it
+
+85
+00:03:25,680 --> 00:03:30,400
+right so first of all
+
+86
+00:03:27,519 --> 00:03:30,400
+if we remove it
+
+87
+00:03:31,120 --> 00:03:35,360
+if we remove it we'll get two trees
+
+88
+00:03:32,720 --> 00:03:37,519
+right let's focus about the subtree
+
+89
+00:03:35,360 --> 00:03:39,920
+right because look if i remove this edge
+
+90
+00:03:37,519 --> 00:03:42,400
+this is a sub tree right if we know the
+
+91
+00:03:39,920 --> 00:03:44,319
+sub tree and
+
+92
+00:03:42,400 --> 00:03:46,879
+if known as substrate let's say if the
+
+93
+00:03:44,319 --> 00:03:47,680
+total sum is t okay
+
+94
+00:03:46,879 --> 00:03:50,239
+right
+
+95
+00:03:47,680 --> 00:03:51,680
+all right the total sum is t we can do
+
+96
+00:03:50,239 --> 00:03:53,680
+this with definitions your preference
+
+97
+00:03:51,680 --> 00:03:56,000
+search one go you won't go right yeah
+
+98
+00:03:53,680 --> 00:03:58,720
+remember if it is t and then if i tell
+
+99
+00:03:56,000 --> 00:04:02,400
+you b the sum of these is
+
+100
+00:03:58,720 --> 00:04:03,519
+our sub 3 is left side t prime
+
+101
+00:04:02,400 --> 00:04:06,799
+okay
+
+102
+00:04:03,519 --> 00:04:08,720
+okay what's the subtree of the remaining
+
+103
+00:04:06,799 --> 00:04:09,840
+i just actually
+
+104
+00:04:08,720 --> 00:04:11,840
+written
+
+105
+00:04:09,840 --> 00:04:14,159
+written there sorry
+
+106
+00:04:11,840 --> 00:04:16,880
+if the whole infinite sum of all
+
+107
+00:04:14,159 --> 00:04:18,239
+everything is t and if the subtree if
+
+108
+00:04:16,880 --> 00:04:20,160
+these subject
+
+109
+00:04:18,239 --> 00:04:22,560
+t prime and then what's the remaining
+
+110
+00:04:20,160 --> 00:04:23,680
+sum come on it's very obvious
+
+111
+00:04:22,560 --> 00:04:24,880
+one
+
+112
+00:04:23,680 --> 00:04:25,840
+that
+
+113
+00:04:24,880 --> 00:04:29,520
+no
+
+114
+00:04:25,840 --> 00:04:31,600
+sorry the whole minus t prime t minus d
+
+115
+00:04:29,520 --> 00:04:33,280
+prime yeah i would just written there
+
+116
+00:04:31,600 --> 00:04:36,400
+and then wrap it down
+
+117
+00:04:33,280 --> 00:04:38,639
+and then yeah you see so
+
+118
+00:04:36,400 --> 00:04:40,720
+yeah yeah so look at that maximum sum we
+
+119
+00:04:38,639 --> 00:04:42,639
+want the maximum these we have t
+
+120
+00:04:40,720 --> 00:04:44,639
+minus t prime
+
+121
+00:04:42,639 --> 00:04:46,479
+times t prime
+
+122
+00:04:44,639 --> 00:04:49,199
+right t
+
+123
+00:04:46,479 --> 00:04:51,680
+t minus t prime is least this will be
+
+124
+00:04:49,199 --> 00:04:53,040
+yeah if we remove this bit t prime is
+
+125
+00:04:51,680 --> 00:04:54,800
+this bit
+
+126
+00:04:53,040 --> 00:04:59,199
+okay so it's actually
+
+127
+00:04:54,800 --> 00:05:01,600
+t minus t prime is listed times t okay
+
+128
+00:04:59,199 --> 00:05:04,240
+so we want to maximize maximize we want
+
+129
+00:05:01,600 --> 00:05:08,320
+to maximize this maximize
+
+130
+00:05:04,240 --> 00:05:09,120
+maximize t minus t prime times t okay
+
+131
+00:05:08,320 --> 00:05:12,400
+uh
+
+132
+00:05:09,120 --> 00:05:14,000
+times equal okay sorry times t one okay
+
+133
+00:05:12,400 --> 00:05:16,800
+yeah
+
+134
+00:05:14,000 --> 00:05:18,320
+so in order to get this t
+
+135
+00:05:16,800 --> 00:05:20,320
+sum we can do this different social
+
+136
+00:05:18,320 --> 00:05:22,400
+processors it's easy yeah let's let's
+
+137
+00:05:20,320 --> 00:05:26,160
+quickly write it it's easy we've written
+
+138
+00:05:22,400 --> 00:05:26,160
+this before us defy
+
+139
+00:05:27,840 --> 00:05:32,560
+loot
+
+140
+00:05:30,000 --> 00:05:32,560
+if not
+
+141
+00:05:32,639 --> 00:05:35,520
+that pen is bad
+
+142
+00:05:34,160 --> 00:05:38,720
+nothing
+
+143
+00:05:35,520 --> 00:05:38,720
+then the sum will be what
+
+144
+00:05:44,340 --> 00:05:48,479
+[Music]
+
+145
+00:05:46,560 --> 00:05:50,160
+it's not good
+
+146
+00:05:48,479 --> 00:05:53,440
+okay it's wet
+
+147
+00:05:50,160 --> 00:05:56,800
+returns yellow okay
+
+148
+00:05:53,440 --> 00:06:00,319
+land return return
+
+149
+00:05:56,800 --> 00:06:02,720
+lose the value plus the left bit what's
+
+150
+00:06:00,319 --> 00:06:05,680
+that speed come on it's easy recursion
+
+151
+00:06:02,720 --> 00:06:08,639
+it's easy um depends
+
+152
+00:06:05,680 --> 00:06:11,440
+root of value plus the left bit sum what
+
+153
+00:06:08,639 --> 00:06:13,600
+and then plus somewhat the question come
+
+154
+00:06:11,440 --> 00:06:16,160
+on
+
+155
+00:06:13,600 --> 00:06:18,720
+i also calculated the sum of the entire
+
+156
+00:06:16,160 --> 00:06:21,039
+tree and then if the node is empty i can
+
+157
+00:06:18,720 --> 00:06:21,039
+return
+
+158
+00:06:21,520 --> 00:06:25,039
+and
+
+159
+00:06:22,400 --> 00:06:26,880
+and lose the value plus the left b plus
+
+160
+00:06:25,039 --> 00:06:28,800
+the right come on this is the easy part
+
+161
+00:06:26,880 --> 00:06:31,039
+you can figure it out
+
+162
+00:06:28,800 --> 00:06:31,039
+huh
+
+163
+00:06:36,240 --> 00:06:40,960
+yeah easy this is easier look at that
+
+164
+00:06:38,560 --> 00:06:43,120
+with the question and the question
+
+165
+00:06:40,960 --> 00:06:45,840
+look at the the sum of the entire tree
+
+166
+00:06:43,120 --> 00:06:47,120
+equals what look the sum of entire tree
+
+167
+00:06:45,840 --> 00:06:49,280
+equals one
+
+168
+00:06:47,120 --> 00:06:50,639
+plus the left the three the sum of the
+
+169
+00:06:49,280 --> 00:06:52,720
+that tree and the sum of right three
+
+170
+00:06:50,639 --> 00:06:55,199
+which is we already know we already know
+
+171
+00:06:52,720 --> 00:06:58,080
+yeah this is the recursion yeah yeah
+
+172
+00:06:55,199 --> 00:06:59,840
+okay make sense this is easy so if we go
+
+173
+00:06:58,080 --> 00:07:03,520
+in if we perform this step as search
+
+174
+00:06:59,840 --> 00:07:04,960
+because then recursive definition once
+
+175
+00:07:03,520 --> 00:07:08,000
+that takes over in time if they are
+
+176
+00:07:04,960 --> 00:07:09,520
+unknown right then we get this t right
+
+177
+00:07:08,000 --> 00:07:11,599
+right yeah
+
+178
+00:07:09,520 --> 00:07:13,759
+so then we could do another test search
+
+179
+00:07:11,599 --> 00:07:14,840
+and then at the meantime yeah we at the
+
+180
+00:07:13,759 --> 00:07:18,800
+meantime we
+
+181
+00:07:14,840 --> 00:07:21,440
+can because this is the such sum of
+
+182
+00:07:18,800 --> 00:07:24,000
+every sub tree right basically is the
+
+183
+00:07:21,440 --> 00:07:26,319
+sum of every subject this is the same as
+
+184
+00:07:24,000 --> 00:07:29,360
+we remove one edge right so we try every
+
+185
+00:07:26,319 --> 00:07:32,720
+possibility of removing each edges
+
+186
+00:07:29,360 --> 00:07:35,199
+so once we become remove one edges
+
+187
+00:07:32,720 --> 00:07:37,199
+once we become removing the edges that
+
+188
+00:07:35,199 --> 00:07:39,199
+would be a sum
+
+189
+00:07:37,199 --> 00:07:41,440
+yeah that would be a partial sum of
+
+190
+00:07:39,199 --> 00:07:44,479
+another subtree right
+
+191
+00:07:41,440 --> 00:07:46,000
+so we can do this
+
+192
+00:07:44,479 --> 00:07:47,599
+no
+
+193
+00:07:46,000 --> 00:07:50,080
+so we can we can do another type of
+
+194
+00:07:47,599 --> 00:07:50,080
+study okay
+
+195
+00:07:51,120 --> 00:07:55,599
+and
+
+196
+00:07:52,560 --> 00:07:55,599
+i possibly need
+
+197
+00:07:56,800 --> 00:07:59,039
+okay
+
+198
+00:08:00,800 --> 00:08:04,080
+wait give me one second
+
+199
+00:08:06,479 --> 00:08:10,840
+so guys let's have a little chat okay
+
+200
+00:08:09,520 --> 00:08:14,879
+sit down please
+
+201
+00:08:10,840 --> 00:08:14,879
+please okay so
+
+202
+00:08:15,759 --> 00:08:19,280
+so we can do another different search
+
+203
+00:08:17,199 --> 00:08:21,039
+okay tf
+
+204
+00:08:19,280 --> 00:08:23,039
+search route
+
+205
+00:08:21,039 --> 00:08:25,520
+so at the meantime we have this answer
+
+206
+00:08:23,039 --> 00:08:28,720
+at the beginning let's say
+
+207
+00:08:25,520 --> 00:08:31,280
+max infinity the negative
+
+208
+00:08:28,720 --> 00:08:33,279
+the the most small is the number we can
+
+209
+00:08:31,280 --> 00:08:36,080
+think of is the uh
+
+210
+00:08:33,279 --> 00:08:37,760
+minus negative okay minus negative okay
+
+211
+00:08:36,080 --> 00:08:39,599
+so this part is quite the same yeah if
+
+212
+00:08:37,760 --> 00:08:42,159
+not root
+
+213
+00:08:39,599 --> 00:08:44,800
+return return of zero actually we we
+
+214
+00:08:42,159 --> 00:08:49,040
+just copy over right i know we can have
+
+215
+00:08:44,800 --> 00:08:49,040
+uh these so the left bit
+
+216
+00:08:49,440 --> 00:08:54,640
+so so what the
+
+217
+00:08:51,839 --> 00:08:56,480
+the current will be equals rule the
+
+218
+00:08:54,640 --> 00:09:01,279
+value
+
+219
+00:08:56,480 --> 00:09:01,279
+plus therefore search rule the left
+
+220
+00:09:01,519 --> 00:09:06,480
+plus therefore search blue dot right
+
+221
+00:09:06,959 --> 00:09:11,519
+okay so once we have these values okay
+
+222
+00:09:09,120 --> 00:09:13,440
+so this is the subset summary so we can
+
+223
+00:09:11,519 --> 00:09:15,760
+say okay answer
+
+224
+00:09:13,440 --> 00:09:17,519
+equals max
+
+225
+00:09:15,760 --> 00:09:19,600
+answer yeah we want to get the maximum
+
+226
+00:09:17,519 --> 00:09:22,160
+right but now we know the total sum
+
+227
+00:09:19,600 --> 00:09:23,760
+right so before we call this function we
+
+228
+00:09:22,160 --> 00:09:26,160
+have a total
+
+229
+00:09:23,760 --> 00:09:27,200
+so the let's say this is called t equals
+
+230
+00:09:26,160 --> 00:09:30,480
+sum
+
+231
+00:09:27,200 --> 00:09:33,360
+blue right so we we use this function
+
+232
+00:09:30,480 --> 00:09:34,839
+to get the sum first and then t times
+
+233
+00:09:33,360 --> 00:09:38,160
+t minus
+
+234
+00:09:34,839 --> 00:09:39,600
+current times carbon right yeah that's
+
+235
+00:09:38,160 --> 00:09:42,240
+what we said yeah
+
+236
+00:09:39,600 --> 00:09:45,519
+right now we are at this point we know
+
+237
+00:09:42,240 --> 00:09:47,440
+that's the sum of this subtree right
+
+238
+00:09:45,519 --> 00:09:50,720
+yeah
+
+239
+00:09:47,440 --> 00:09:52,959
+and then t t is the total sum minus
+
+240
+00:09:50,720 --> 00:09:55,279
+the current subtree is the remaining
+
+241
+00:09:52,959 --> 00:09:58,000
+tree that's the the sum of linear tree
+
+242
+00:09:55,279 --> 00:10:00,160
+and times itself okay and then we turn
+
+243
+00:09:58,000 --> 00:10:01,120
+this is the same return
+
+244
+00:10:00,160 --> 00:10:02,399
+current
+
+245
+00:10:01,120 --> 00:10:05,200
+okay
+
+246
+00:10:02,399 --> 00:10:07,120
+yeah so we do this once we do this twice
+
+247
+00:10:05,200 --> 00:10:08,800
+uh to another so look these two
+
+248
+00:10:07,120 --> 00:10:10,000
+functions is quite similar right except
+
+249
+00:10:08,800 --> 00:10:13,040
+that
+
+250
+00:10:10,000 --> 00:10:15,440
+this function by itself
+
+251
+00:10:13,040 --> 00:10:17,920
+by itself is returns the
+
+252
+00:10:15,440 --> 00:10:20,560
+these two functions is actually the same
+
+253
+00:10:17,920 --> 00:10:23,519
+returning the sum of the current
+
+254
+00:10:20,560 --> 00:10:26,320
+sub carbon tree the only difference is
+
+255
+00:10:23,519 --> 00:10:28,880
+that we have added this plug in here
+
+256
+00:10:26,320 --> 00:10:31,279
+plug in this value to obtain the max
+
+257
+00:10:28,880 --> 00:10:33,120
+split tree a split sum
+
+258
+00:10:31,279 --> 00:10:34,880
+but it needs these t first right we
+
+259
+00:10:33,120 --> 00:10:36,480
+don't have this value first right so
+
+260
+00:10:34,880 --> 00:10:38,880
+that's why i need to call this function
+
+261
+00:10:36,480 --> 00:10:41,519
+first so get this t right because the
+
+262
+00:10:38,880 --> 00:10:42,720
+sum of a total tree doesn't change right
+
+263
+00:10:41,519 --> 00:10:44,560
+am i
+
+264
+00:10:42,720 --> 00:10:47,839
+yeah we can manage financing you know
+
+265
+00:10:44,560 --> 00:10:50,399
+the sum but yeah already right it's
+
+266
+00:10:47,839 --> 00:10:52,000
+never changing right it's not changing
+
+267
+00:10:50,399 --> 00:10:54,240
+but we can't call this function directly
+
+268
+00:10:52,000 --> 00:10:55,360
+because t we haven't known right we need
+
+269
+00:10:54,240 --> 00:10:57,360
+to get it
+
+270
+00:10:55,360 --> 00:11:00,959
+yeah right
+
+271
+00:10:57,360 --> 00:11:00,959
+this is o n this is o
+
+272
+00:11:01,970 --> 00:11:05,779
+[Music]
+
+273
+00:11:06,000 --> 00:11:08,320
+sorry
+
+274
+00:11:08,880 --> 00:11:14,320
+if i perform this oh n and this is our n
+
+275
+00:11:11,519 --> 00:11:14,320
+what's added together
+
+276
+00:11:21,120 --> 00:11:27,519
+okay so another way another way would be
+
+277
+00:11:24,800 --> 00:11:30,399
+will be similar to this instead of doing
+
+278
+00:11:27,519 --> 00:11:33,600
+this we can store all the values all the
+
+279
+00:11:30,399 --> 00:11:36,000
+subsystem in the in a set right in a set
+
+280
+00:11:33,600 --> 00:11:39,279
+which is unique yeah in a set and then
+
+281
+00:11:36,000 --> 00:11:40,800
+we can go through the set of later right
+
+282
+00:11:39,279 --> 00:11:42,959
+so i'm just clicking
+
+283
+00:11:40,800 --> 00:11:42,959
+yeah
+
+284
+00:11:43,130 --> 00:11:46,279
+[Music]
+
+285
+00:11:46,640 --> 00:11:51,120
+so we can go so look we have this sum
+
+286
+00:11:49,680 --> 00:11:54,000
+okay let's say
+
+287
+00:11:51,120 --> 00:11:55,760
+uh sum okay some equal a set right
+
+288
+00:11:54,000 --> 00:11:57,360
+what's that
+
+289
+00:11:55,760 --> 00:11:58,959
+what's set
+
+290
+00:11:57,360 --> 00:12:03,279
+set is
+
+291
+00:11:58,959 --> 00:12:05,680
+like if you it's better than the um
+
+292
+00:12:03,279 --> 00:12:09,440
+because if if you look up so for
+
+293
+00:12:05,680 --> 00:12:10,720
+something you would say set is 01 but in
+
+294
+00:12:09,440 --> 00:12:12,480
+list is
+
+295
+00:12:10,720 --> 00:12:14,399
+oh and yeah
+
+296
+00:12:12,480 --> 00:12:15,920
+okay it's not there is no one better
+
+297
+00:12:14,399 --> 00:12:19,120
+than the other it's just for different
+
+298
+00:12:15,920 --> 00:12:22,000
+purposes the set stores the unique
+
+299
+00:12:19,120 --> 00:12:23,440
+numbers only yeah it's a unique it only
+
+300
+00:12:22,000 --> 00:12:25,200
+stores the unique
+
+301
+00:12:23,440 --> 00:12:27,200
+elements all right
+
+302
+00:12:25,200 --> 00:12:30,240
+so let's say we have empty set and then
+
+303
+00:12:27,200 --> 00:12:33,360
+we have this therefore search first yeah
+
+304
+00:12:30,240 --> 00:12:35,839
+so this is the simple yeah if not loot
+
+305
+00:12:33,360 --> 00:12:37,839
+if you're not root return yellow yeah
+
+306
+00:12:35,839 --> 00:12:40,160
+yeah
+
+307
+00:12:37,839 --> 00:12:44,160
+and then left beat equals definite
+
+308
+00:12:40,160 --> 00:12:46,399
+search but the sum of the left tree
+
+309
+00:12:44,160 --> 00:12:48,320
+the sum of variety
+
+310
+00:12:46,399 --> 00:12:50,240
+because therefore search
+
+311
+00:12:48,320 --> 00:12:52,079
+through the right
+
+312
+00:12:50,240 --> 00:12:54,160
+yeah because requested recording this
+
+313
+00:12:52,079 --> 00:12:56,160
+function to attempt the sum from the
+
+314
+00:12:54,160 --> 00:12:59,519
+left bit left tree and left right by
+
+315
+00:12:56,160 --> 00:13:01,360
+three okay now we can do this sum
+
+316
+00:12:59,519 --> 00:13:03,920
+dot at
+
+317
+00:13:01,360 --> 00:13:07,800
+we add the left tree right look i need
+
+318
+00:13:03,920 --> 00:13:07,800
+to yeah and it looks
+
+319
+00:13:08,160 --> 00:13:14,560
+so one two three four five six seven so
+
+320
+00:13:12,160 --> 00:13:16,560
+look if calling this loot here and i
+
+321
+00:13:14,560 --> 00:13:19,360
+will call the left which is the three of
+
+322
+00:13:16,560 --> 00:13:21,279
+these the sum would be two four five
+
+323
+00:13:19,360 --> 00:13:23,600
+two plus four plus one eleven and i
+
+324
+00:13:21,279 --> 00:13:24,880
+added that eleven to the set okay
+
+325
+00:13:23,600 --> 00:13:27,279
+i thought right three what's the sum of
+
+326
+00:13:24,880 --> 00:13:30,320
+the right three is three plus six plus
+
+327
+00:13:27,279 --> 00:13:32,880
+seven is sixteen and i put a 16 in the
+
+328
+00:13:30,320 --> 00:13:32,880
+set right
+
+329
+00:13:35,839 --> 00:13:41,120
+right right
+
+330
+00:13:38,399 --> 00:13:45,360
+and also the current would be what
+
+331
+00:13:41,120 --> 00:13:46,480
+so i also need to add one thumb dot add
+
+332
+00:13:45,360 --> 00:13:48,639
+left
+
+333
+00:13:46,480 --> 00:13:51,920
+plus right
+
+334
+00:13:48,639 --> 00:13:54,639
+plus neutral value right
+
+335
+00:13:51,920 --> 00:13:57,279
+and i need to return this value return
+
+336
+00:13:54,639 --> 00:13:59,600
+this lieutenant speaker so let's total
+
+337
+00:13:57,279 --> 00:14:02,800
+okay let's put it let's say uh we can
+
+338
+00:13:59,600 --> 00:14:04,079
+save this in a value total left plus
+
+339
+00:14:02,800 --> 00:14:07,120
+right
+
+340
+00:14:04,079 --> 00:14:07,120
+plus neutral value
+
+341
+00:14:07,279 --> 00:14:10,000
+okay
+
+342
+00:14:08,480 --> 00:14:11,360
+look yeah
+
+343
+00:14:10,000 --> 00:14:13,279
+so
+
+344
+00:14:11,360 --> 00:14:15,440
+once i've done this what should i do
+
+345
+00:14:13,279 --> 00:14:17,839
+next next once i've done this i watch i
+
+346
+00:14:15,440 --> 00:14:17,839
+do next
+
+347
+00:14:18,000 --> 00:14:22,320
+we
+
+348
+00:14:19,040 --> 00:14:23,360
+run it so look if i do this i some add
+
+349
+00:14:22,320 --> 00:14:26,160
+the set
+
+350
+00:14:23,360 --> 00:14:28,880
+as the possible left tree sum the right
+
+351
+00:14:26,160 --> 00:14:31,600
+tree sum and then all over all right so
+
+352
+00:14:28,880 --> 00:14:32,720
+i need to go through the set right
+
+353
+00:14:31,600 --> 00:14:35,279
+right
+
+354
+00:14:32,720 --> 00:14:37,600
+and i know this uh i know these that's
+
+355
+00:14:35,279 --> 00:14:41,600
+the total right so i can do this
+
+356
+00:14:37,600 --> 00:14:43,680
+uh total equals that's a search root
+
+357
+00:14:41,600 --> 00:14:47,680
+for i yeah and then that goes through
+
+358
+00:14:43,680 --> 00:14:49,440
+that i in this set yes some sum set okay
+
+359
+00:14:47,680 --> 00:14:53,040
+and then answer
+
+360
+00:14:49,440 --> 00:14:55,680
+also be the minimum again
+
+361
+00:14:53,040 --> 00:14:58,160
+infinity yeah infinity
+
+362
+00:14:55,680 --> 00:14:59,920
+answer equals max
+
+363
+00:14:58,160 --> 00:15:04,000
+answer
+
+364
+00:14:59,920 --> 00:15:06,800
+t minus i right times i right
+
+365
+00:15:04,000 --> 00:15:09,199
+yeah this is the same so we actually we
+
+366
+00:15:06,800 --> 00:15:11,680
+do this we first of all perform this
+
+367
+00:15:09,199 --> 00:15:15,040
+step search and then we're collecting
+
+368
+00:15:11,680 --> 00:15:17,199
+all the sums in the set
+
+369
+00:15:15,040 --> 00:15:19,279
+yeah so the set contains all the
+
+370
+00:15:17,199 --> 00:15:21,120
+possible subsets sum because we're
+
+371
+00:15:19,279 --> 00:15:23,279
+adding the left sum
+
+372
+00:15:21,120 --> 00:15:25,440
+the right sum and then the current
+
+373
+00:15:23,279 --> 00:15:28,240
+overall sum right and then we go through
+
+374
+00:15:25,440 --> 00:15:31,839
+the set again
+
+375
+00:15:28,240 --> 00:15:33,680
+t yeah we already know this t also okay
+
+376
+00:15:31,839 --> 00:15:34,880
+so this function return that does two
+
+377
+00:15:33,680 --> 00:15:36,720
+purposes
+
+378
+00:15:34,880 --> 00:15:39,199
+first of all is to collect the values
+
+379
+00:15:36,720 --> 00:15:40,959
+the possible sums in this in set the
+
+380
+00:15:39,199 --> 00:15:43,120
+second value
+
+381
+00:15:40,959 --> 00:15:44,720
+the the purpose second purpose is to
+
+382
+00:15:43,120 --> 00:15:46,639
+return the sum
+
+383
+00:15:44,720 --> 00:15:50,000
+of the overall tree of the currency
+
+384
+00:15:46,639 --> 00:15:53,120
+right what it just did you just say
+
+385
+00:15:50,000 --> 00:15:55,839
+it to some of the overall things of the
+
+386
+00:15:53,120 --> 00:15:57,839
+tree and then what's the second purpose
+
+387
+00:15:55,839 --> 00:15:58,959
+the second purpose
+
+388
+00:15:57,839 --> 00:15:59,759
+is to
+
+389
+00:15:58,959 --> 00:16:02,480
+uh
+
+390
+00:15:59,759 --> 00:16:04,320
+add the overall
+
+391
+00:16:02,480 --> 00:16:06,639
+what are these sorry
+
+392
+00:16:04,320 --> 00:16:06,639
+i don't know
+
+393
+00:16:07,199 --> 00:16:09,040
+the um
+
+394
+00:16:07,290 --> 00:16:09,920
+[Music]
+
+395
+00:16:09,040 --> 00:16:11,680
+huh
+
+396
+00:16:09,920 --> 00:16:13,759
+what's the two purpose of this function
+
+397
+00:16:11,680 --> 00:16:15,440
+come on if you read this function
+
+398
+00:16:13,759 --> 00:16:18,720
+okay the search
+
+399
+00:16:15,440 --> 00:16:20,399
+uh is not ready to return zero yeah i
+
+400
+00:16:18,720 --> 00:16:22,079
+know i can read the code whatever what i
+
+401
+00:16:20,399 --> 00:16:25,120
+mean is what's the purpose of this
+
+402
+00:16:22,079 --> 00:16:26,880
+function what does it do come on
+
+403
+00:16:25,120 --> 00:16:28,800
+what's this what what what does they do
+
+404
+00:16:26,880 --> 00:16:29,600
+they are two things here yeah first
+
+405
+00:16:28,800 --> 00:16:31,920
+thing
+
+406
+00:16:29,600 --> 00:16:33,440
+and here's two things okay so what what
+
+407
+00:16:31,920 --> 00:16:35,519
+is these two
+
+408
+00:16:33,440 --> 00:16:37,440
+i'm saying like what's the purpose of
+
+409
+00:16:35,519 --> 00:16:38,240
+this function come on
+
+410
+00:16:37,440 --> 00:16:39,680
+um
+
+411
+00:16:38,240 --> 00:16:42,800
+some add
+
+412
+00:16:39,680 --> 00:16:44,079
+left yeah i know what's what
+
+413
+00:16:42,800 --> 00:16:47,199
+and some of the
+
+414
+00:16:44,079 --> 00:16:48,160
+ad right is adding the right part yeah
+
+415
+00:16:47,199 --> 00:16:50,639
+into
+
+416
+00:16:48,160 --> 00:16:50,639
+the set
+
+417
+00:17:02,839 --> 00:17:09,760
+is and it returns the answer
+
+418
+00:17:06,799 --> 00:17:10,559
+the value of the the sum of the country
+
+419
+00:17:09,760 --> 00:17:12,319
+yeah
+
+420
+00:17:10,559 --> 00:17:14,880
+okay that's two purposes yes i know you
+
+421
+00:17:12,319 --> 00:17:16,400
+understand yeah okay
+
+422
+00:17:14,880 --> 00:17:19,760
+but you need to work out on your
+
+423
+00:17:16,400 --> 00:17:22,799
+presentation skill to make it clear to
+
+424
+00:17:19,760 --> 00:17:24,959
+to demonstrate that okay extremely well
+
+425
+00:17:22,799 --> 00:17:26,959
+okay and then by going through this
+
+426
+00:17:24,959 --> 00:17:28,960
+number the subset there's some possible
+
+427
+00:17:26,959 --> 00:17:30,000
+sums in this in a
+
+428
+00:17:28,960 --> 00:17:31,840
+in a set
+
+429
+00:17:30,000 --> 00:17:34,080
+now we can try we can calculate the
+
+430
+00:17:31,840 --> 00:17:35,360
+maximum of the space sum right
+
+431
+00:17:34,080 --> 00:17:37,600
+yeah look
+
+432
+00:17:35,360 --> 00:17:38,320
+t minus i times i what's this mean come
+
+433
+00:17:37,600 --> 00:17:41,520
+on
+
+434
+00:17:38,320 --> 00:17:43,039
+e minus minus i times i yeah what's tm
+
+435
+00:17:41,520 --> 00:17:44,640
+can you explain to me what's this t
+
+436
+00:17:43,039 --> 00:17:46,480
+minus i times i
+
+437
+00:17:44,640 --> 00:17:49,760
+it's a t
+
+438
+00:17:46,480 --> 00:17:52,080
+which minus i and times i yeah what does
+
+439
+00:17:49,760 --> 00:17:52,080
+it mean
+
+440
+00:17:52,640 --> 00:17:56,960
+so what's t
+
+441
+00:17:54,799 --> 00:17:56,960
+t
+
+442
+00:17:57,200 --> 00:18:01,360
+did she
+
+443
+00:17:59,039 --> 00:18:04,640
+what's the t here t equals definition
+
+444
+00:18:01,360 --> 00:18:06,000
+what's t t is the difference it is the
+
+445
+00:18:04,640 --> 00:18:08,160
+difference actually
+
+446
+00:18:06,000 --> 00:18:09,120
+the tree what is in detail what does it
+
+447
+00:18:08,160 --> 00:18:11,360
+mean
+
+448
+00:18:09,120 --> 00:18:15,200
+what does it you just say here then t
+
+449
+00:18:11,360 --> 00:18:16,880
+equals definition so what's this meaning
+
+450
+00:18:15,200 --> 00:18:18,480
+the whole tree what what of the whole
+
+451
+00:18:16,880 --> 00:18:19,919
+tree
+
+452
+00:18:18,480 --> 00:18:21,760
+what are we doing here what are the
+
+453
+00:18:19,919 --> 00:18:26,320
+whole tree so what's the value if i call
+
+454
+00:18:21,760 --> 00:18:27,280
+t equals dfs good loot is here points to
+
+455
+00:18:26,320 --> 00:18:29,360
+here what
+
+456
+00:18:27,280 --> 00:18:32,080
+what what's the value of it
+
+457
+00:18:29,360 --> 00:18:34,160
+what's the value what's this t
+
+458
+00:18:32,080 --> 00:18:36,320
+t is the
+
+459
+00:18:34,160 --> 00:18:38,480
+value
+
+460
+00:18:36,320 --> 00:18:42,480
+is the what values come on what's the
+
+461
+00:18:38,480 --> 00:18:45,360
+what do we tell is the value huh it's a
+
+462
+00:18:42,480 --> 00:18:47,919
+load here root is one so what i call t
+
+463
+00:18:45,360 --> 00:18:49,200
+equals f research root and what does t
+
+464
+00:18:47,919 --> 00:18:51,919
+equal
+
+465
+00:18:49,200 --> 00:18:53,120
+t equals one
+
+466
+00:18:51,919 --> 00:18:56,400
+two
+
+467
+00:18:53,120 --> 00:18:58,000
+one one over two
+
+468
+00:18:56,400 --> 00:19:00,559
+what are we doing here one two three
+
+469
+00:18:58,000 --> 00:19:02,880
+four five six seven yeah whatever what i
+
+470
+00:19:00,559 --> 00:19:05,360
+would do with the number three
+
+471
+00:19:02,880 --> 00:19:06,799
+one two
+
+472
+00:19:05,360 --> 00:19:09,360
+wait one
+
+473
+00:19:06,799 --> 00:19:11,919
+what's this function return left plus y
+
+474
+00:19:09,360 --> 00:19:14,080
+plus root of value rule of value is one
+
+475
+00:19:11,919 --> 00:19:16,720
+left is
+
+476
+00:19:14,080 --> 00:19:18,640
+root left one two four three five six
+
+477
+00:19:16,720 --> 00:19:21,360
+seven
+
+478
+00:19:18,640 --> 00:19:23,919
+yes i okay you're still not getting it t
+
+479
+00:19:21,360 --> 00:19:26,000
+equals stiffer such load if we know that
+
+480
+00:19:23,919 --> 00:19:28,320
+if this is the tree i know that it's
+
+481
+00:19:26,000 --> 00:19:30,400
+pointing to here this is the loop
+
+482
+00:19:28,320 --> 00:19:32,400
+and what does it return if you say okay
+
+483
+00:19:30,400 --> 00:19:35,840
+it's written that plus y plus root of
+
+484
+00:19:32,400 --> 00:19:36,720
+value so the left is dfs root on left
+
+485
+00:19:35,840 --> 00:19:40,000
+here
+
+486
+00:19:36,720 --> 00:19:42,640
+right html to the right value is one so
+
+487
+00:19:40,000 --> 00:19:45,039
+it equals one plus the left b plus the
+
+488
+00:19:42,640 --> 00:19:46,960
+right bit so that okay so the left bit
+
+489
+00:19:45,039 --> 00:19:49,440
+equals two plus the that bit plus the
+
+490
+00:19:46,960 --> 00:19:52,000
+rabbit so it's recursion so so once this
+
+491
+00:19:49,440 --> 00:19:53,360
+function returns what
+
+492
+00:19:52,000 --> 00:19:56,160
+does it return
+
+493
+00:19:53,360 --> 00:19:56,980
+11 right now
+
+494
+00:19:56,160 --> 00:19:59,120
+the left face
+
+495
+00:19:56,980 --> 00:20:01,679
+[Music]
+
+496
+00:19:59,120 --> 00:20:03,520
+the right street yeah i know the left 3
+
+497
+00:20:01,679 --> 00:20:04,720
+plus the right trick what plus how do
+
+498
+00:20:03,520 --> 00:20:06,880
+you press the left tree and the
+
+499
+00:20:04,720 --> 00:20:09,679
+parachute the numbers what do you what
+
+500
+00:20:06,880 --> 00:20:12,799
+do we do with the numbers
+
+501
+00:20:09,679 --> 00:20:15,440
+that's the one i want um i want add them
+
+502
+00:20:12,799 --> 00:20:17,919
+together that's the sum okay t is the
+
+503
+00:20:15,440 --> 00:20:21,039
+sum so it's one plus two plus three plus
+
+504
+00:20:17,919 --> 00:20:24,320
+four plus five plus six yeah so that's
+
+505
+00:20:21,039 --> 00:20:26,640
+how much 38 right is it 28
+
+506
+00:20:24,320 --> 00:20:30,400
+wait two plus four six single five is
+
+507
+00:20:26,640 --> 00:20:32,400
+eleven eleven plus uh yeah okay
+
+508
+00:20:30,400 --> 00:20:34,480
+twenty eight okay so t twenty eight the
+
+509
+00:20:32,400 --> 00:20:37,600
+possible sum okay the left left bit is
+
+510
+00:20:34,480 --> 00:20:40,960
+one two plus one so i what's in the sum
+
+511
+00:20:37,600 --> 00:20:44,720
+sum is four five six seven yeah i know
+
+512
+00:20:40,960 --> 00:20:46,559
+what two plus four has five
+
+513
+00:20:44,720 --> 00:20:49,720
+yeah what's that
+
+514
+00:20:46,559 --> 00:20:49,720
+two plus
+
+515
+00:20:53,360 --> 00:20:59,679
+and then all together is what
+
+516
+00:20:57,120 --> 00:21:01,840
+is what 28 right okay
+
+517
+00:20:59,679 --> 00:21:04,799
+so i need to go through this number and
+
+518
+00:21:01,840 --> 00:21:06,320
+then i try to do this t minus i times i
+
+519
+00:21:04,799 --> 00:21:08,080
+okay coming back to this question what's
+
+520
+00:21:06,320 --> 00:21:09,679
+t minus i times i
+
+521
+00:21:08,080 --> 00:21:11,120
+it's the sum
+
+522
+00:21:09,679 --> 00:21:13,679
+minus
+
+523
+00:21:11,120 --> 00:21:17,360
+this is the total sum and the minus
+
+524
+00:21:13,679 --> 00:21:18,480
+i is here i see here i is here in one of
+
+525
+00:21:17,360 --> 00:21:21,280
+the
+
+526
+00:21:18,480 --> 00:21:23,679
+t minus i times i what does it mean
+
+527
+00:21:21,280 --> 00:21:25,280
+it means the total sum
+
+528
+00:21:23,679 --> 00:21:27,280
+subtract
+
+529
+00:21:25,280 --> 00:21:31,760
+the
+
+530
+00:21:27,280 --> 00:21:32,640
+i there yeah what does i represent the
+
+531
+00:21:31,760 --> 00:21:36,000
+the
+
+532
+00:21:32,640 --> 00:21:38,159
+left and right tree it's the sum of the
+
+533
+00:21:36,000 --> 00:21:41,440
+left right
+
+534
+00:21:38,159 --> 00:21:43,280
+is the sum of any sub tree right yeah
+
+535
+00:21:41,440 --> 00:21:45,840
+so remember coming back to this question
+
+536
+00:21:43,280 --> 00:21:47,600
+we want to split remove one edges and
+
+537
+00:21:45,840 --> 00:21:48,480
+split into two if we remove this one
+
+538
+00:21:47,600 --> 00:21:50,799
+edge
+
+539
+00:21:48,480 --> 00:21:53,760
+then this sum would be two plus one plus
+
+540
+00:21:50,799 --> 00:21:56,080
+five which is eleven and twenty-eight i
+
+541
+00:21:53,760 --> 00:21:57,280
+know 28 right so what's the sum of this
+
+542
+00:21:56,080 --> 00:21:59,840
+bit
+
+543
+00:21:57,280 --> 00:21:59,840
+it must be
+
+544
+00:21:59,919 --> 00:22:05,440
+something where down yeah the total is
+
+545
+00:22:01,919 --> 00:22:08,720
+28 never change this is 11 right so the
+
+546
+00:22:05,440 --> 00:22:10,159
+other part is 28 minus 11 and then last
+
+547
+00:22:08,720 --> 00:22:13,600
+product is what
+
+548
+00:22:10,159 --> 00:22:15,200
+t minus i times i that's it
+
+549
+00:22:13,600 --> 00:22:17,039
+makes sense
+
+550
+00:22:15,200 --> 00:22:18,480
+yeah we're done okay that's it for today
+
+551
+00:22:17,039 --> 00:22:21,480
+good job
+
+552
+00:22:18,480 --> 00:22:21,480
+bye
+
