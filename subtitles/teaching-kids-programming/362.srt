@@ -1,0 +1,1624 @@
+1
+00:00:01,199 --> 00:00:06,000
+hello mr mr ryan all right
+
+2
+00:00:04,160 --> 00:00:08,880
+okay so
+
+3
+00:00:06,000 --> 00:00:10,080
+we have a rod or rose or whatever a
+
+4
+00:00:08,880 --> 00:00:11,840
+stick yeah
+
+5
+00:00:10,080 --> 00:00:14,080
+yeah
+
+6
+00:00:11,840 --> 00:00:16,320
+basically the straight thing and we know
+
+7
+00:00:14,080 --> 00:00:18,400
+the length which is n this is the
+
+8
+00:00:16,320 --> 00:00:19,439
+integer positive integer
+
+9
+00:00:18,400 --> 00:00:21,520
+right
+
+10
+00:00:19,439 --> 00:00:23,039
+so we want to cut it
+
+11
+00:00:21,520 --> 00:00:25,199
+yeah we know
+
+12
+00:00:23,039 --> 00:00:27,039
+we want to cut it and sell it yeah we
+
+13
+00:00:25,199 --> 00:00:30,640
+want to cut it and say so
+
+14
+00:00:27,039 --> 00:00:32,399
+for example like if we have these
+
+15
+00:00:30,640 --> 00:00:33,920
+you know we have all these array prices
+
+16
+00:00:32,399 --> 00:00:37,200
+array okay
+
+17
+00:00:33,920 --> 00:00:39,760
+which is one three five
+
+18
+00:00:37,200 --> 00:00:43,280
+seven seven right let's see
+
+19
+00:00:39,760 --> 00:00:45,440
+okay so it means that if we kind of grow
+
+20
+00:00:43,280 --> 00:00:49,120
+it in colorado okay let's try a lot if
+
+21
+00:00:45,440 --> 00:00:50,719
+color rot with size one we can sell it
+
+22
+00:00:49,120 --> 00:00:52,079
+at one dollar
+
+23
+00:00:50,719 --> 00:00:55,760
+size two
+
+24
+00:00:52,079 --> 00:00:56,719
+three dollars five three five dollars
+
+25
+00:00:55,760 --> 00:00:59,359
+okay
+
+26
+00:00:56,719 --> 00:01:01,120
+okay so look this is i right so
+
+27
+00:00:59,359 --> 00:01:02,960
+basically price i
+
+28
+00:01:01,120 --> 00:01:05,920
+price i
+
+29
+00:01:02,960 --> 00:01:07,520
+means that we can sell the size with
+
+30
+00:01:05,920 --> 00:01:09,360
+size
+
+31
+00:01:07,520 --> 00:01:12,479
+i plus one right why is that parasol
+
+32
+00:01:09,360 --> 00:01:14,560
+because i is the index the first element
+
+33
+00:01:12,479 --> 00:01:18,000
+is zero okay
+
+34
+00:01:14,560 --> 00:01:20,159
+so if the n equals six right
+
+35
+00:01:18,000 --> 00:01:21,759
+if n equals six
+
+36
+00:01:20,159 --> 00:01:24,960
+how can we
+
+37
+00:01:21,759 --> 00:01:26,400
+cut the rod so that we sell the maximum
+
+38
+00:01:24,960 --> 00:01:28,640
+profit
+
+39
+00:01:26,400 --> 00:01:29,920
+so for example six i can cut it with one
+
+40
+00:01:28,640 --> 00:01:32,400
+plus five
+
+41
+00:01:29,920 --> 00:01:35,840
+right so in this case i will have i will
+
+42
+00:01:32,400 --> 00:01:35,840
+say what one plus
+
+43
+00:01:36,880 --> 00:01:41,040
+seven yeah
+
+44
+00:01:38,240 --> 00:01:43,920
+yeah okay that's
+
+45
+00:01:41,040 --> 00:01:45,520
+size one two three four five so one plus
+
+46
+00:01:43,920 --> 00:01:46,320
+seven
+
+47
+00:01:45,520 --> 00:01:47,680
+right
+
+48
+00:01:46,320 --> 00:01:51,600
+so that's eight
+
+49
+00:01:47,680 --> 00:01:55,200
+but if i cut it into three plus three
+
+50
+00:01:51,600 --> 00:01:58,479
+so one two three here so i could set it
+
+51
+00:01:55,200 --> 00:02:01,360
+with ten so this is bigger right or i
+
+52
+00:01:58,479 --> 00:02:02,320
+can cut it with two plus
+
+53
+00:02:01,360 --> 00:02:04,560
+four
+
+54
+00:02:02,320 --> 00:02:06,399
+so i could set it with
+
+55
+00:02:04,560 --> 00:02:07,360
+two plus five
+
+56
+00:02:06,399 --> 00:02:09,440
+uh
+
+57
+00:02:07,360 --> 00:02:12,000
+two plus four six and equal six so i
+
+58
+00:02:09,440 --> 00:02:15,280
+would say with three dollars for
+
+59
+00:02:12,000 --> 00:02:16,720
+for the size two three and four
+
+60
+00:02:15,280 --> 00:02:20,840
+for the six
+
+61
+00:02:16,720 --> 00:02:20,840
+so that would be two plus
+
+62
+00:02:22,160 --> 00:02:29,280
+so that could only be six
+
+63
+00:02:25,520 --> 00:02:31,440
+why is the complete on six could only be
+
+64
+00:02:29,280 --> 00:02:34,720
+do you get this problem
+
+65
+00:02:31,440 --> 00:02:34,720
+no no not really okay
+
+66
+00:02:34,840 --> 00:02:40,959
+sorry you get it kind of okay so look if
+
+67
+00:02:38,480 --> 00:02:41,840
+we said it was that if n equals six then
+
+68
+00:02:40,959 --> 00:02:44,879
+we can
+
+69
+00:02:41,840 --> 00:02:47,519
+split into two and four two for two
+
+70
+00:02:44,879 --> 00:02:49,519
+would be three dollars for four would be
+
+71
+00:02:47,519 --> 00:02:52,640
+seven dollars so
+
+72
+00:02:49,519 --> 00:02:56,319
+three plus seven is also ten right
+
+73
+00:02:52,640 --> 00:02:56,319
+any other options like
+
+74
+00:02:56,959 --> 00:03:01,840
+one five
+
+75
+00:02:58,800 --> 00:03:03,519
+three three two two four okay this is
+
+76
+00:03:01,840 --> 00:03:05,599
+only option right
+
+77
+00:03:03,519 --> 00:03:07,599
+okay
+
+78
+00:03:05,599 --> 00:03:08,959
+makes sense
+
+79
+00:03:07,599 --> 00:03:10,480
+so
+
+80
+00:03:08,959 --> 00:03:11,760
+how
+
+81
+00:03:10,480 --> 00:03:13,920
+so
+
+82
+00:03:11,760 --> 00:03:16,239
+what's your approach of doing this
+
+83
+00:03:13,920 --> 00:03:17,280
+what's your approach think about it
+
+84
+00:03:16,239 --> 00:03:20,239
+um
+
+85
+00:03:17,280 --> 00:03:21,680
+okay so you just see that price and
+
+86
+00:03:20,239 --> 00:03:24,000
+write
+
+87
+00:03:21,680 --> 00:03:24,000
+uh
+
+88
+00:03:24,640 --> 00:03:30,159
+everything up to the end that's right
+
+89
+00:03:27,920 --> 00:03:32,799
+yes and then like one two three four
+
+90
+00:03:30,159 --> 00:03:32,799
+five and
+
+91
+00:03:33,720 --> 00:03:44,930
+[Music]
+
+92
+00:03:45,360 --> 00:03:49,360
+again
+
+93
+00:03:46,560 --> 00:03:51,920
+five is seven well i know so we try
+
+94
+00:03:49,360 --> 00:03:54,080
+every possibility there we see look this
+
+95
+00:03:51,920 --> 00:03:55,760
+is the integer so we we we talked about
+
+96
+00:03:54,080 --> 00:03:58,480
+let's play how to split the integer
+
+97
+00:03:55,760 --> 00:04:01,200
+before right so if we have this as n
+
+98
+00:03:58,480 --> 00:04:03,599
+which is integer
+
+99
+00:04:01,200 --> 00:04:05,519
+we can spread this and right we can use
+
+100
+00:04:03,599 --> 00:04:06,400
+the default search preferences right
+
+101
+00:04:05,519 --> 00:04:09,439
+yeah
+
+102
+00:04:06,400 --> 00:04:12,000
+to do it so we can try with one okay so
+
+103
+00:04:09,439 --> 00:04:14,640
+one i split it to one i calculate this
+
+104
+00:04:12,000 --> 00:04:16,479
+so we have this function differential
+
+105
+00:04:14,640 --> 00:04:19,680
+with this current
+
+106
+00:04:16,479 --> 00:04:21,759
+uh what we with the remaining we know we
+
+107
+00:04:19,680 --> 00:04:24,000
+remember n right and then with this
+
+108
+00:04:21,759 --> 00:04:26,560
+current profit
+
+109
+00:04:24,000 --> 00:04:28,960
+right with the current profit
+
+110
+00:04:26,560 --> 00:04:31,199
+and what else do we need
+
+111
+00:04:28,960 --> 00:04:33,040
+and we can just look it up right so
+
+112
+00:04:31,199 --> 00:04:35,040
+let's just quickly write the suitable
+
+113
+00:04:33,040 --> 00:04:36,320
+for the different search and then
+
+114
+00:04:35,040 --> 00:04:37,360
+yeah
+
+115
+00:04:36,320 --> 00:04:39,840
+so look
+
+116
+00:04:37,360 --> 00:04:39,840
+so look
+
+117
+00:04:41,120 --> 00:04:46,160
+uh actually definitely says n right so
+
+118
+00:04:44,080 --> 00:04:49,120
+we don't probably not normally uh don't
+
+119
+00:04:46,160 --> 00:04:50,160
+need the left profit thing define
+
+120
+00:04:49,120 --> 00:04:51,199
+okay
+
+121
+00:04:50,160 --> 00:04:52,800
+okay
+
+122
+00:04:51,199 --> 00:04:54,720
+so
+
+123
+00:04:52,800 --> 00:04:57,440
+we want to find out
+
+124
+00:04:54,720 --> 00:04:58,960
+what the maximum right so we will have a
+
+125
+00:04:57,440 --> 00:05:01,120
+maximum
+
+126
+00:04:58,960 --> 00:05:02,639
+maximum perfect here right so let's say
+
+127
+00:05:01,120 --> 00:05:06,000
+maximum profit
+
+128
+00:05:02,639 --> 00:05:08,320
+at the beginning is zero right yeah
+
+129
+00:05:06,000 --> 00:05:10,880
+maximum perfect now we can look at this
+
+130
+00:05:08,320 --> 00:05:13,280
+we want to find out this n
+
+131
+00:05:10,880 --> 00:05:15,919
+we want to cut this n right cut this end
+
+132
+00:05:13,280 --> 00:05:18,240
+so we can try every possibility so at
+
+133
+00:05:15,919 --> 00:05:20,880
+the beginning for i
+
+134
+00:05:18,240 --> 00:05:21,759
+in range
+
+135
+00:05:20,880 --> 00:05:24,000
+right
+
+136
+00:05:21,759 --> 00:05:25,919
+for this end i can cut it or not tactic
+
+137
+00:05:24,000 --> 00:05:26,720
+right all right
+
+138
+00:05:25,919 --> 00:05:31,199
+yeah
+
+139
+00:05:26,720 --> 00:05:31,199
+so for this i i i range let's say
+
+140
+00:05:31,840 --> 00:05:35,360
+let's say what
+
+141
+00:05:33,120 --> 00:05:38,400
+so i want to try look for this n i can
+
+142
+00:05:35,360 --> 00:05:40,960
+try with up to n plus one right
+
+143
+00:05:38,400 --> 00:05:43,199
+up up to n plus one
+
+144
+00:05:40,960 --> 00:05:43,199
+yeah
+
+145
+00:05:43,280 --> 00:05:48,800
+and then i can cut it
+
+146
+00:05:45,440 --> 00:05:48,800
+uh hold on cut it
+
+147
+00:05:50,960 --> 00:05:57,360
+d f s i
+
+148
+00:05:54,000 --> 00:06:01,520
+right we can give us i
+
+149
+00:05:57,360 --> 00:06:03,199
+uh actually no dfs n minus i n minus i
+
+150
+00:06:01,520 --> 00:06:06,720
+plus
+
+151
+00:06:03,199 --> 00:06:10,240
+twice so now i can have this price i for
+
+152
+00:06:06,720 --> 00:06:13,280
+i right where is i but n minus i minus
+
+153
+00:06:10,240 --> 00:06:14,400
+one right because i start from zero
+
+154
+00:06:13,280 --> 00:06:16,639
+right
+
+155
+00:06:14,400 --> 00:06:16,639
+yeah
+
+156
+00:06:16,880 --> 00:06:21,199
+yeah make sense
+
+157
+00:06:18,960 --> 00:06:24,880
+now i have this answer will be at the
+
+158
+00:06:21,199 --> 00:06:28,240
+beginning of the match dot infinity
+
+159
+00:06:24,880 --> 00:06:30,319
+and then this answer will be the mean of
+
+160
+00:06:28,240 --> 00:06:32,720
+this answer
+
+161
+00:06:30,319 --> 00:06:36,000
+and then this week right and i just need
+
+162
+00:06:32,720 --> 00:06:38,880
+to write return answer all right
+
+163
+00:06:36,000 --> 00:06:40,960
+okay so now here i need to check if n is
+
+164
+00:06:38,880 --> 00:06:42,800
+smaller or equal than zero return zero
+
+165
+00:06:40,960 --> 00:06:45,280
+right
+
+166
+00:06:42,800 --> 00:06:49,720
+right yeah
+
+167
+00:06:45,280 --> 00:06:49,720
+so what's the problem with this one
+
+168
+00:06:51,120 --> 00:06:53,759
+why is it
+
+169
+00:06:52,240 --> 00:06:56,880
+actually
+
+170
+00:06:53,759 --> 00:06:59,120
+because and price price is uh
+
+171
+00:06:56,880 --> 00:07:00,880
+the okay so this index starts from zero
+
+172
+00:06:59,120 --> 00:07:03,680
+to 10 minus one
+
+173
+00:07:00,880 --> 00:07:06,080
+so but the the actual size it represent
+
+174
+00:07:03,680 --> 00:07:07,840
+is one to n right so it needs to plus
+
+175
+00:07:06,080 --> 00:07:10,160
+one so this is n
+
+176
+00:07:07,840 --> 00:07:11,599
+and that needs to m minus i minus the
+
+177
+00:07:10,160 --> 00:07:14,479
+price i right
+
+178
+00:07:11,599 --> 00:07:14,479
+right look
+
+179
+00:07:15,280 --> 00:07:21,120
+yeah so look look
+
+180
+00:07:18,160 --> 00:07:24,479
+i try every possibility for for i
+
+181
+00:07:21,120 --> 00:07:26,960
+currently the rod size is n right so the
+
+182
+00:07:24,479 --> 00:07:29,919
+log size is n how many possibilities of
+
+183
+00:07:26,960 --> 00:07:31,599
+cutting this i have this for example n
+
+184
+00:07:29,919 --> 00:07:35,280
+equals three how many possibilities of
+
+185
+00:07:31,599 --> 00:07:35,280
+cutting three and equals
+
+186
+00:07:37,759 --> 00:07:41,199
+zero one two three
+
+187
+00:07:42,400 --> 00:07:47,039
+how many possibilities six
+
+188
+00:07:49,680 --> 00:07:56,000
+the n equals three by n equals three
+
+189
+00:07:53,840 --> 00:07:59,280
+the size they are three how many how
+
+190
+00:07:56,000 --> 00:07:59,280
+many ways of cutting it
+
+191
+00:07:59,759 --> 00:08:05,680
+i can cut is one to two right or i can
+
+192
+00:08:02,560 --> 00:08:05,680
+cut it in two to one
+
+193
+00:08:06,000 --> 00:08:12,720
+or i can cut it with zero
+
+194
+00:08:09,840 --> 00:08:15,280
+sorry yeah is it sweet
+
+195
+00:08:12,720 --> 00:08:19,199
+so look i cut three ways cut it
+
+196
+00:08:15,280 --> 00:08:19,199
+if i don't cut it if i don't cut it
+
+197
+00:08:22,960 --> 00:08:29,199
+okay so look if n equals 3 here i is
+
+198
+00:08:26,080 --> 00:08:33,519
+from zero to two right i is from zero to
+
+199
+00:08:29,199 --> 00:08:36,640
+two so price will be from zero to two
+
+200
+00:08:33,519 --> 00:08:39,440
+oh okay yeah if i don't cut it actually
+
+201
+00:08:36,640 --> 00:08:42,640
+if we if i don't cut it the size will be
+
+202
+00:08:39,440 --> 00:08:45,519
+remaining the three right right okay
+
+203
+00:08:42,640 --> 00:08:49,200
+if i equals two
+
+204
+00:08:45,519 --> 00:08:51,760
+uh if i equals to two then n minus two
+
+205
+00:08:49,200 --> 00:08:54,560
+minus one okay so then i the remaining
+
+206
+00:08:51,760 --> 00:08:56,800
+would be n minus three x okay that makes
+
+207
+00:08:54,560 --> 00:08:59,279
+sense make sense
+
+208
+00:08:56,800 --> 00:09:01,920
+okay so look
+
+209
+00:08:59,279 --> 00:09:03,600
+what's this look i have a a rod with
+
+210
+00:09:01,920 --> 00:09:04,720
+size n
+
+211
+00:09:03,600 --> 00:09:08,320
+right
+
+212
+00:09:04,720 --> 00:09:11,120
+yeah yeah yeah this is basic so i try i
+
+213
+00:09:08,320 --> 00:09:13,120
+can try cutting with the
+
+214
+00:09:11,120 --> 00:09:16,320
+one cutting with two cutting with three
+
+215
+00:09:13,120 --> 00:09:18,959
+look if i cut it with i right
+
+216
+00:09:16,320 --> 00:09:23,040
+with cutting with the size i
+
+217
+00:09:18,959 --> 00:09:24,080
+okay look if i cutting with the size
+
+218
+00:09:23,040 --> 00:09:27,760
+um
+
+219
+00:09:24,080 --> 00:09:30,640
+size i actually is i i plus one the size
+
+220
+00:09:27,760 --> 00:09:32,720
+here is i plus one okay
+
+221
+00:09:30,640 --> 00:09:35,120
+okay so what's what's here what's
+
+222
+00:09:32,720 --> 00:09:36,399
+remaining here if this is i plus 1
+
+223
+00:09:35,120 --> 00:09:39,760
+what's here
+
+224
+00:09:36,399 --> 00:09:42,959
+the whole the whole thing is n
+
+225
+00:09:39,760 --> 00:09:43,920
+if this is i plus and what's here
+
+226
+00:09:42,959 --> 00:09:46,640
+n
+
+227
+00:09:43,920 --> 00:09:48,160
+minus i plus 1
+
+228
+00:09:46,640 --> 00:09:48,959
+plus
+
+229
+00:09:48,160 --> 00:09:52,160
+i
+
+230
+00:09:48,959 --> 00:09:52,959
+minus i
+
+231
+00:09:52,160 --> 00:09:56,399
+what
+
+232
+00:09:52,959 --> 00:09:57,600
+this is i plus one n minus i
+
+233
+00:09:56,399 --> 00:10:00,399
+minus one
+
+234
+00:09:57,600 --> 00:10:02,880
+minus one right so this speed is smaller
+
+235
+00:10:00,399 --> 00:10:05,279
+okay so if i cut if i want to keep a
+
+236
+00:10:02,880 --> 00:10:07,839
+size with i plus one so this bit i can
+
+237
+00:10:05,279 --> 00:10:10,640
+get a profit of what
+
+238
+00:10:07,839 --> 00:10:11,600
+price price i right yeah this is known
+
+239
+00:10:10,640 --> 00:10:13,279
+right
+
+240
+00:10:11,600 --> 00:10:15,440
+yeah okay
+
+241
+00:10:13,279 --> 00:10:17,839
+this speed is known yeah
+
+242
+00:10:15,440 --> 00:10:19,440
+and what's the what's the speed what's
+
+243
+00:10:17,839 --> 00:10:21,600
+this bit what's the price for getting
+
+244
+00:10:19,440 --> 00:10:21,600
+there
+
+245
+00:10:21,839 --> 00:10:27,440
+n minus i minus all right this is the
+
+246
+00:10:25,040 --> 00:10:27,440
+size
+
+247
+00:10:27,680 --> 00:10:32,399
+so but we we are not sure how many cuts
+
+248
+00:10:30,399 --> 00:10:34,399
+for this right so then we can call this
+
+249
+00:10:32,399 --> 00:10:36,560
+step from a different
+
+250
+00:10:34,399 --> 00:10:38,720
+dfs function to solve the problem with
+
+251
+00:10:36,560 --> 00:10:41,120
+the smaller size right
+
+252
+00:10:38,720 --> 00:10:42,640
+yeah so that's what this part is about
+
+253
+00:10:41,120 --> 00:10:44,800
+you see
+
+254
+00:10:42,640 --> 00:10:47,920
+yeah and then i i can do this with
+
+255
+00:10:44,800 --> 00:10:49,680
+answers and compare with get the minimum
+
+256
+00:10:47,920 --> 00:10:52,079
+okay what's what's the problem of this
+
+257
+00:10:49,680 --> 00:10:54,480
+approach definitely
+
+258
+00:10:52,079 --> 00:10:56,480
+okay if i tell you that
+
+259
+00:10:54,480 --> 00:10:58,640
+if i tell you that there's an easy way
+
+260
+00:10:56,480 --> 00:11:00,399
+to make a default search the proof of
+
+261
+00:10:58,640 --> 00:11:02,720
+thing deficit
+
+262
+00:11:00,399 --> 00:11:03,920
+into a dynamic programming
+
+263
+00:11:02,720 --> 00:11:06,320
+and
+
+264
+00:11:03,920 --> 00:11:08,399
+you have used this before so what will
+
+265
+00:11:06,320 --> 00:11:10,240
+it be
+
+266
+00:11:08,399 --> 00:11:12,640
+if i tell you an easy way there's an
+
+267
+00:11:10,240 --> 00:11:14,160
+easy way between this approach if i edit
+
+268
+00:11:12,640 --> 00:11:17,519
+something here that will be become a
+
+269
+00:11:14,160 --> 00:11:17,519
+top-down directory programming
+
+270
+00:11:17,680 --> 00:11:21,680
+what's the problem of this theory it
+
+271
+00:11:19,760 --> 00:11:24,320
+will be explaination because we
+
+272
+00:11:21,680 --> 00:11:29,160
+calculated yeah yeah we're going to put
+
+273
+00:11:24,320 --> 00:11:29,160
+a cache here right oh yeah oh yeah
+
+274
+00:11:32,940 --> 00:11:36,069
+[Music]
+
+275
+00:11:41,040 --> 00:11:44,000
+sorry nothing
+
+276
+00:11:45,360 --> 00:11:48,000
+uh
+
+277
+00:11:46,080 --> 00:11:49,920
+[Music]
+
+278
+00:11:48,000 --> 00:11:52,560
+what's the what's the why
+
+279
+00:11:49,920 --> 00:11:54,720
+what's this bit
+
+280
+00:11:52,560 --> 00:11:58,399
+we speak therefore search n minus i
+
+281
+00:11:54,720 --> 00:12:01,519
+minus one what's the can you expensive
+
+282
+00:11:58,399 --> 00:12:04,800
+okay so we know this is i
+
+283
+00:12:01,519 --> 00:12:07,680
+i mean i plus one and we can track it
+
+284
+00:12:04,800 --> 00:12:11,000
+and this is n minus i minus one but it
+
+285
+00:12:07,680 --> 00:12:11,000
+hasn't been
+
+286
+00:12:12,399 --> 00:12:17,200
+okay so you kind of yeah i understand
+
+287
+00:12:14,320 --> 00:12:19,200
+right now but yeah okay so
+
+288
+00:12:17,200 --> 00:12:21,440
+so we are trying every possibility for
+
+289
+00:12:19,200 --> 00:12:24,079
+this size and yeah we can try you know
+
+290
+00:12:21,440 --> 00:12:26,720
+keep a size with the keep a fixed size
+
+291
+00:12:24,079 --> 00:12:28,560
+right we only sell the size first part
+
+292
+00:12:26,720 --> 00:12:30,399
+of this yeah and then i get the profit
+
+293
+00:12:28,560 --> 00:12:32,560
+prices i right
+
+294
+00:12:30,399 --> 00:12:34,320
+and then when i cut a color size keep
+
+295
+00:12:32,560 --> 00:12:35,760
+the size i plus one and i have the
+
+296
+00:12:34,320 --> 00:12:37,279
+remaining size
+
+297
+00:12:35,760 --> 00:12:39,360
+so then i can call this function
+
+298
+00:12:37,279 --> 00:12:40,959
+recursive recovery function
+
+299
+00:12:39,360 --> 00:12:44,480
+deficit here
+
+300
+00:12:40,959 --> 00:12:46,880
+to find out to compute
+
+301
+00:12:44,480 --> 00:12:49,440
+the profit i can make
+
+302
+00:12:46,880 --> 00:12:51,519
+the profit i can make by
+
+303
+00:12:49,440 --> 00:12:52,399
+cutting you know at this point we are
+
+304
+00:12:51,519 --> 00:12:55,040
+not sure
+
+305
+00:12:52,399 --> 00:12:57,279
+the best of optimum way of cutting that
+
+306
+00:12:55,040 --> 00:12:58,959
+it would be no cut all there will be
+
+307
+00:12:57,279 --> 00:13:01,360
+many cuts but we don't know but we call
+
+308
+00:12:58,959 --> 00:13:02,320
+this function to recursively find it out
+
+309
+00:13:01,360 --> 00:13:03,440
+right
+
+310
+00:13:02,320 --> 00:13:06,320
+yeah
+
+311
+00:13:03,440 --> 00:13:08,079
+look this answer at the beginning is max
+
+312
+00:13:06,320 --> 00:13:10,480
+infinity and we're getting the minimum
+
+313
+00:13:08,079 --> 00:13:12,560
+we compare the minimum right and this is
+
+314
+00:13:10,480 --> 00:13:14,959
+this part is for i i already made the
+
+315
+00:13:12,560 --> 00:13:17,040
+decision i so this part i make the
+
+316
+00:13:14,959 --> 00:13:18,560
+decision so every time i make a little
+
+317
+00:13:17,040 --> 00:13:21,519
+decision right
+
+318
+00:13:18,560 --> 00:13:23,680
+look this this whole whole rod
+
+319
+00:13:21,519 --> 00:13:25,120
+i don't know how many cards i want right
+
+320
+00:13:23,680 --> 00:13:27,440
+that would be too complicated to
+
+321
+00:13:25,120 --> 00:13:30,000
+consider all these right but what should
+
+322
+00:13:27,440 --> 00:13:31,600
+i do now i can try okay let's make a
+
+323
+00:13:30,000 --> 00:13:34,480
+little
+
+324
+00:13:31,600 --> 00:13:36,720
+little decision what is that i can make
+
+325
+00:13:34,480 --> 00:13:37,760
+a decision okay i can cut the size with
+
+326
+00:13:36,720 --> 00:13:39,920
+one
+
+327
+00:13:37,760 --> 00:13:41,920
+yeah i can keep a size with one i can
+
+328
+00:13:39,920 --> 00:13:43,839
+keep the size with two i can keep a size
+
+329
+00:13:41,920 --> 00:13:46,480
+with three right
+
+330
+00:13:43,839 --> 00:13:48,880
+so i can keep size with this eye
+
+331
+00:13:46,480 --> 00:13:49,680
+and once i keep a size with i then i
+
+332
+00:13:48,880 --> 00:13:52,399
+know
+
+333
+00:13:49,680 --> 00:13:56,160
+the profit i made from from from cutting
+
+334
+00:13:52,399 --> 00:13:58,800
+this bit right right yeah
+
+335
+00:13:56,160 --> 00:14:00,639
+and then i i can keep doing this right
+
+336
+00:13:58,800 --> 00:14:02,720
+make sense
+
+337
+00:14:00,639 --> 00:14:05,199
+at least is explanation without the cash
+
+338
+00:14:02,720 --> 00:14:09,360
+right remember the difference that dfsn
+
+339
+00:14:05,199 --> 00:14:10,560
+is the maximum profit if we can
+
+340
+00:14:09,360 --> 00:14:15,040
+share
+
+341
+00:14:10,560 --> 00:14:17,920
+the rope with the size n right
+
+342
+00:14:15,040 --> 00:14:20,880
+and then i'm iterating all possibilities
+
+343
+00:14:17,920 --> 00:14:22,399
+of cutting the size n with the first cup
+
+344
+00:14:20,880 --> 00:14:25,279
+i
+
+345
+00:14:22,399 --> 00:14:27,680
+with the first cut i when i first
+
+346
+00:14:25,279 --> 00:14:31,600
+cut the size with the first i
+
+347
+00:14:27,680 --> 00:14:32,720
+i have remaining n minus i minus 1
+
+348
+00:14:31,600 --> 00:14:34,800
+right
+
+349
+00:14:32,720 --> 00:14:36,639
+and then i look this is a smaller size
+
+350
+00:14:34,800 --> 00:14:37,839
+with n at least it's smaller than n
+
+351
+00:14:36,639 --> 00:14:38,880
+right
+
+352
+00:14:37,839 --> 00:14:40,880
+you see
+
+353
+00:14:38,880 --> 00:14:42,639
+if this is smaller with n and i can
+
+354
+00:14:40,880 --> 00:14:44,959
+recursively calling me something to
+
+355
+00:14:42,639 --> 00:14:45,920
+solve a smaller problem
+
+356
+00:14:44,959 --> 00:14:48,240
+right
+
+357
+00:14:45,920 --> 00:14:51,199
+eventually i can look i need to produce
+
+358
+00:14:48,240 --> 00:14:53,920
+if n is smaller than zero if n
+
+359
+00:14:51,199 --> 00:14:56,800
+if n is zero the base cases
+
+360
+00:14:53,920 --> 00:14:59,680
+right too noisy if the n is zero means
+
+361
+00:14:56,800 --> 00:15:02,720
+that the size is zero what's that i can
+
+362
+00:14:59,680 --> 00:15:04,720
+sell empty i can sell air what
+
+363
+00:15:02,720 --> 00:15:06,560
+for nothing so what's the price of
+
+364
+00:15:04,720 --> 00:15:09,279
+selling nothing
+
+365
+00:15:06,560 --> 00:15:11,360
+right we're done zero
+
+366
+00:15:09,279 --> 00:15:14,079
+right okay
+
+367
+00:15:11,360 --> 00:15:16,160
+what do we call this dynamic programming
+
+368
+00:15:14,079 --> 00:15:17,120
+what kind of dynamic programming is this
+
+369
+00:15:16,160 --> 00:15:19,519
+top down
+
+370
+00:15:17,120 --> 00:15:20,399
+top down yeah is it total
+
+371
+00:15:19,519 --> 00:15:21,920
+yes
+
+372
+00:15:20,399 --> 00:15:23,120
+okay this is the top-down anime
+
+373
+00:15:21,920 --> 00:15:25,600
+programming so
+
+374
+00:15:23,120 --> 00:15:27,120
+uh so tomorrow we'll talk about butter
+
+375
+00:15:25,600 --> 00:15:28,160
+up okay
+
+376
+00:15:27,120 --> 00:15:29,680
+yeah and
+
+377
+00:15:28,160 --> 00:15:30,720
+what's the time from next year space
+
+378
+00:15:29,680 --> 00:15:34,029
+complexity
+
+379
+00:15:30,720 --> 00:15:34,029
+[Music]
+
+380
+00:15:35,279 --> 00:15:40,720
+let's look at their n
+
+381
+00:15:37,680 --> 00:15:41,600
+n right but for each one i have to do
+
+382
+00:15:40,720 --> 00:15:43,920
+this
+
+383
+00:15:41,600 --> 00:15:45,680
+one square yeah one square but the space
+
+384
+00:15:43,920 --> 00:15:47,040
+complexity
+
+385
+00:15:45,680 --> 00:15:49,279
+i want
+
+386
+00:15:47,040 --> 00:15:52,320
+i have a cache why is there one what's
+
+387
+00:15:49,279 --> 00:15:52,320
+the space from recipe
+
+388
+00:15:52,560 --> 00:15:56,800
+every ryan
+
+389
+00:15:54,240 --> 00:15:59,120
+anyone one final answer what's the specs
+
+390
+00:15:56,800 --> 00:16:00,160
+from let's see look at that n i put a
+
+391
+00:15:59,120 --> 00:16:02,399
+cache
+
+392
+00:16:00,160 --> 00:16:03,519
+how many states i need to store need to
+
+393
+00:16:02,399 --> 00:16:04,880
+catch
+
+394
+00:16:03,519 --> 00:16:07,120
+two
+
+395
+00:16:04,880 --> 00:16:09,600
+two or two
+
+396
+00:16:07,120 --> 00:16:11,920
+look at this n if n is a hundred how
+
+397
+00:16:09,600 --> 00:16:15,680
+many how many values of dfs and i need
+
+398
+00:16:11,920 --> 00:16:18,480
+to stop yeah one hundred and what's that
+
+399
+00:16:15,680 --> 00:16:20,480
+oh and yes we are done
+
+400
+00:16:18,480 --> 00:16:22,959
+yeah i know and look at that but the
+
+401
+00:16:20,480 --> 00:16:25,279
+space is the time is o n square why is
+
+402
+00:16:22,959 --> 00:16:26,160
+that for each end i need to iterate with
+
+403
+00:16:25,279 --> 00:16:28,560
+that
+
+404
+00:16:26,160 --> 00:16:29,839
+with n right got it
+
+405
+00:16:28,560 --> 00:16:33,880
+okay
+
+406
+00:16:29,839 --> 00:16:33,880
+okay that's it for today bye
+
