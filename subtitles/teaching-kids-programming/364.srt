@@ -1,0 +1,2840 @@
+1
+00:00:00,399 --> 00:00:04,640
+hello mr eric are you right
+
+2
+00:00:03,600 --> 00:00:05,440
+okay
+
+3
+00:00:04,640 --> 00:00:07,279
+so
+
+4
+00:00:05,440 --> 00:00:10,719
+remember we talked about professor
+
+5
+00:00:07,279 --> 00:00:13,840
+stephan right okay so that's one easy
+
+6
+00:00:10,719 --> 00:00:15,599
+graph one a b
+
+7
+00:00:13,840 --> 00:00:17,920
+c
+
+8
+00:00:15,599 --> 00:00:17,920
+the
+
+9
+00:00:18,000 --> 00:00:21,439
+e
+
+10
+00:00:19,359 --> 00:00:24,800
+okay so this is the quad
+
+11
+00:00:21,439 --> 00:00:27,119
+and directive yeah undirected there is
+
+12
+00:00:24,800 --> 00:00:31,119
+no direction undirected
+
+13
+00:00:27,119 --> 00:00:33,760
+graph okay and then
+
+14
+00:00:31,119 --> 00:00:35,760
+what's the perfect search order if we
+
+15
+00:00:33,760 --> 00:00:37,920
+start from a this is the sauce
+
+16
+00:00:35,760 --> 00:00:40,079
+a b c d e
+
+17
+00:00:37,920 --> 00:00:42,840
+and we use the q right yeah we push the
+
+18
+00:00:40,079 --> 00:00:45,840
+look at the beginning we push the q q
+
+19
+00:00:42,840 --> 00:00:48,960
+equals a right no right
+
+20
+00:00:45,840 --> 00:00:52,160
+so we take a no a we visit it yeah
+
+21
+00:00:48,960 --> 00:00:54,399
+yeah of course because it's a graph
+
+22
+00:00:52,160 --> 00:00:56,559
+and we don't want to revisit the note b
+
+23
+00:00:54,399 --> 00:00:59,760
+again once we visit it right so we take
+
+24
+00:00:56,559 --> 00:01:01,840
+the a out we check if we have a scene
+
+25
+00:00:59,760 --> 00:01:04,720
+and we have a signal we have seen we
+
+26
+00:01:01,840 --> 00:01:07,119
+have we have not seen a before so we put
+
+27
+00:01:04,720 --> 00:01:08,479
+this is output yeah we visited and we
+
+28
+00:01:07,119 --> 00:01:11,280
+put a here
+
+29
+00:01:08,479 --> 00:01:12,640
+what's the a's children b c d they'll
+
+30
+00:01:11,280 --> 00:01:14,080
+push the kids
+
+31
+00:01:12,640 --> 00:01:16,560
+into it
+
+32
+00:01:14,080 --> 00:01:17,439
+we take the b b out
+
+33
+00:01:16,560 --> 00:01:18,560
+right
+
+34
+00:01:17,439 --> 00:01:20,640
+yeah
+
+35
+00:01:18,560 --> 00:01:23,200
+we take b out
+
+36
+00:01:20,640 --> 00:01:25,439
+if it's not seen right we put it out
+
+37
+00:01:23,200 --> 00:01:27,840
+and then we put it we put this in here
+
+38
+00:01:25,439 --> 00:01:29,759
+what's the peace children
+
+39
+00:01:27,840 --> 00:01:33,040
+what's these children
+
+40
+00:01:29,759 --> 00:01:33,040
+these children
+
+41
+00:01:34,159 --> 00:01:38,000
+and
+
+42
+00:01:36,400 --> 00:01:41,280
+because it's un-directional look i
+
+43
+00:01:38,000 --> 00:01:43,280
+understand i think
+
+44
+00:01:41,280 --> 00:01:45,680
+a is already seen right
+
+45
+00:01:43,280 --> 00:01:48,880
+yeah so we don't we don't put it but
+
+46
+00:01:45,680 --> 00:01:50,479
+okay so b we put a we don't we don't put
+
+47
+00:01:48,880 --> 00:01:52,960
+it there's a way uh
+
+48
+00:01:50,479 --> 00:01:54,799
+we can check the theme check even note
+
+49
+00:01:52,960 --> 00:01:57,360
+we need to check if the note has been
+
+50
+00:01:54,799 --> 00:01:59,920
+visited before we push it to the queue
+
+51
+00:01:57,360 --> 00:02:02,719
+so it's been visited so we don't push it
+
+52
+00:01:59,920 --> 00:02:04,960
+to the queue so we only push the e out
+
+53
+00:02:02,719 --> 00:02:07,040
+right and we take the c out
+
+54
+00:02:04,960 --> 00:02:09,200
+we take the cr
+
+55
+00:02:07,040 --> 00:02:10,319
+we put a scene here what's the c's
+
+56
+00:02:09,200 --> 00:02:12,400
+children
+
+57
+00:02:10,319 --> 00:02:14,400
+hey right but we have visited here so we
+
+58
+00:02:12,400 --> 00:02:17,120
+don't push it right so continue we take
+
+59
+00:02:14,400 --> 00:02:17,120
+a dr
+
+60
+00:02:17,280 --> 00:02:23,840
+and now what's the these children
+
+61
+00:02:20,879 --> 00:02:28,239
+what's this chosen
+
+62
+00:02:23,840 --> 00:02:30,400
+a visited so we don't put it yeah and a
+
+63
+00:02:28,239 --> 00:02:33,680
+uh
+
+64
+00:02:30,400 --> 00:02:36,640
+uh yeah hey we uh we visited so we don't
+
+65
+00:02:33,680 --> 00:02:39,120
+put it yeah so let's let's put a d here
+
+66
+00:02:36,640 --> 00:02:41,280
+and then we take it er okay
+
+67
+00:02:39,120 --> 00:02:42,879
+so let's let's give us the order and
+
+68
+00:02:41,280 --> 00:02:44,800
+then we take e
+
+69
+00:02:42,879 --> 00:02:47,120
+a b c d e okay
+
+70
+00:02:44,800 --> 00:02:50,400
+what's the definite search
+
+71
+00:02:47,120 --> 00:02:52,879
+order if we start from a
+
+72
+00:02:50,400 --> 00:02:54,400
+a b e
+
+73
+00:02:52,879 --> 00:02:56,560
+a b e
+
+74
+00:02:54,400 --> 00:02:56,560
+c
+
+75
+00:02:58,480 --> 00:03:01,120
+d c
+
+76
+00:03:00,159 --> 00:03:06,159
+okay
+
+77
+00:03:01,120 --> 00:03:08,720
+a b e d c so to sum up the breakfast
+
+78
+00:03:06,159 --> 00:03:11,440
+search travel level by level so it
+
+79
+00:03:08,720 --> 00:03:13,519
+always increase the distance right so
+
+80
+00:03:11,440 --> 00:03:14,560
+when we find the c
+
+81
+00:03:13,519 --> 00:03:16,640
+we know
+
+82
+00:03:14,560 --> 00:03:18,640
+it's the shortest distance right if it's
+
+83
+00:03:16,640 --> 00:03:20,319
+an undirected graph we we know it's the
+
+84
+00:03:18,640 --> 00:03:23,040
+circ
+
+85
+00:03:20,319 --> 00:03:25,760
+or a to e right
+
+86
+00:03:23,040 --> 00:03:28,879
+for the data search we explore the nodes
+
+87
+00:03:25,760 --> 00:03:31,280
+until we can't right look we go to b and
+
+88
+00:03:28,879 --> 00:03:32,080
+now i'm just trying to follow the load
+
+89
+00:03:31,280 --> 00:03:33,120
+b
+
+90
+00:03:32,080 --> 00:03:36,879
+to e
+
+91
+00:03:33,120 --> 00:03:38,480
+this is quite similar to traveling the
+
+92
+00:03:36,879 --> 00:03:41,680
+binary tree and we talked about binaural
+
+93
+00:03:38,480 --> 00:03:42,799
+trees quite a lot right a b c d
+
+94
+00:03:41,680 --> 00:03:43,760
+a
+
+95
+00:03:42,799 --> 00:03:44,720
+b
+
+96
+00:03:43,760 --> 00:03:45,760
+c
+
+97
+00:03:44,720 --> 00:03:46,720
+d
+
+98
+00:03:45,760 --> 00:03:48,879
+e
+
+99
+00:03:46,720 --> 00:03:51,440
+f g i
+
+100
+00:03:48,879 --> 00:03:53,680
+a to b and i can travel to d
+
+101
+00:03:51,440 --> 00:03:54,400
+and i go back to e
+
+102
+00:03:53,680 --> 00:03:57,840
+c
+
+103
+00:03:54,400 --> 00:04:00,480
+f g and the process is a b c
+
+104
+00:03:57,840 --> 00:04:02,560
+d e f g okay for like breakfast for a
+
+105
+00:04:00,480 --> 00:04:04,959
+different search we use the stack but
+
+106
+00:04:02,560 --> 00:04:07,120
+usually we implement with the recursion
+
+107
+00:04:04,959 --> 00:04:08,959
+and then the computer
+
+108
+00:04:07,120 --> 00:04:10,879
+to maintain the stack for us because we
+
+109
+00:04:08,959 --> 00:04:13,200
+call a recursion then computer has the
+
+110
+00:04:10,879 --> 00:04:16,880
+stack right so the computer needs to
+
+111
+00:04:13,200 --> 00:04:18,239
+push the core into a stack yeah
+
+112
+00:04:16,880 --> 00:04:20,320
+so define
+
+113
+00:04:18,239 --> 00:04:21,840
+therefore search we are covering a
+
+114
+00:04:20,320 --> 00:04:23,759
+current right
+
+115
+00:04:21,840 --> 00:04:25,440
+so obviously there is a scene somewhere
+
+116
+00:04:23,759 --> 00:04:26,320
+we can put in the parameter or here
+
+117
+00:04:25,440 --> 00:04:29,680
+right
+
+118
+00:04:26,320 --> 00:04:33,120
+so if current in sin
+
+119
+00:04:29,680 --> 00:04:36,800
+we just don't continue with this return
+
+120
+00:04:33,120 --> 00:04:38,000
+otherwise for the note in
+
+121
+00:04:36,800 --> 00:04:40,160
+g
+
+122
+00:04:38,000 --> 00:04:42,560
+g is a graph at current
+
+123
+00:04:40,160 --> 00:04:43,759
+and then we can definitely search and
+
+124
+00:04:42,560 --> 00:04:45,199
+all right
+
+125
+00:04:43,759 --> 00:04:47,440
+yeah
+
+126
+00:04:45,199 --> 00:04:49,040
+and obviously we have to put it if we
+
+127
+00:04:47,440 --> 00:04:51,360
+check the current diffusion scene then
+
+128
+00:04:49,040 --> 00:04:53,520
+if not then we seen.add
+
+129
+00:04:51,360 --> 00:04:55,360
+a column
+
+130
+00:04:53,520 --> 00:04:57,680
+and that's the difference let's
+
+131
+00:04:55,360 --> 00:05:01,280
+in a calling exam right
+
+132
+00:04:57,680 --> 00:05:03,840
+g graph g g is the verb
+
+133
+00:05:01,280 --> 00:05:05,440
+a set of the vertex and edge right so we
+
+134
+00:05:03,840 --> 00:05:06,160
+can use the g
+
+135
+00:05:05,440 --> 00:05:08,639
+g
+
+136
+00:05:06,160 --> 00:05:10,240
+the vertex here that will give us the
+
+137
+00:05:08,639 --> 00:05:13,840
+list of the nodes
+
+138
+00:05:10,240 --> 00:05:13,840
+which for example g a
+
+139
+00:05:13,919 --> 00:05:17,840
+a will be a list of nodes connected to a
+
+140
+00:05:16,560 --> 00:05:20,080
+which is
+
+141
+00:05:17,840 --> 00:05:22,479
+b c d
+
+142
+00:05:20,080 --> 00:05:24,160
+this is called this is the way
+
+143
+00:05:22,479 --> 00:05:26,240
+to store the graph which is called
+
+144
+00:05:24,160 --> 00:05:31,759
+adjacent right
+
+145
+00:05:26,240 --> 00:05:33,199
+a g a d j a c an adjacent list
+
+146
+00:05:31,759 --> 00:05:35,520
+because we can
+
+147
+00:05:33,199 --> 00:05:36,800
+get the list of nodes it connects it
+
+148
+00:05:35,520 --> 00:05:39,759
+look
+
+149
+00:05:36,800 --> 00:05:42,880
+a connects to bcd okay how about g b so
+
+150
+00:05:39,759 --> 00:05:43,919
+what what does g b give us
+
+151
+00:05:42,880 --> 00:05:45,919
+g b
+
+152
+00:05:43,919 --> 00:05:47,919
+what's the g b give us
+
+153
+00:05:45,919 --> 00:05:50,840
+what's the nelson
+
+154
+00:05:47,919 --> 00:05:53,440
+e yeah and e okay you get it again this
+
+155
+00:05:50,840 --> 00:05:55,440
+is this adjacent metric is different
+
+156
+00:05:53,440 --> 00:05:58,639
+adjacent metric is the metric
+
+157
+00:05:55,440 --> 00:05:59,600
+right so if you have a metric one zero
+
+158
+00:05:58,639 --> 00:06:00,800
+one
+
+159
+00:05:59,600 --> 00:06:03,600
+zero
+
+160
+00:06:00,800 --> 00:06:04,880
+zero one zero one zero zero
+
+161
+00:06:03,600 --> 00:06:08,080
+one zero
+
+162
+00:06:04,880 --> 00:06:09,280
+zero zero one one okay this is adjacent
+
+163
+00:06:08,080 --> 00:06:11,120
+what does it mean
+
+164
+00:06:09,280 --> 00:06:13,600
+look at this diagonal is always one
+
+165
+00:06:11,120 --> 00:06:17,520
+because the standard you can say this is
+
+166
+00:06:13,600 --> 00:06:20,639
+a b c d and then this is a b c d
+
+167
+00:06:17,520 --> 00:06:21,919
+if a and b is connected you put a one
+
+168
+00:06:20,639 --> 00:06:25,120
+here right
+
+169
+00:06:21,919 --> 00:06:27,039
+if a and b is not connected uh look c
+
+170
+00:06:25,120 --> 00:06:29,520
+and a is not connected equal to zero
+
+171
+00:06:27,039 --> 00:06:32,319
+right so you basically look it up
+
+172
+00:06:29,520 --> 00:06:34,560
+right so if there are n vertex here so
+
+173
+00:06:32,319 --> 00:06:35,360
+these space complexities oh n square
+
+174
+00:06:34,560 --> 00:06:37,039
+right
+
+175
+00:06:35,360 --> 00:06:39,120
+yeah look you just look it up for
+
+176
+00:06:37,039 --> 00:06:41,600
+example d to
+
+177
+00:06:39,120 --> 00:06:44,240
+d to speed c is one okay can you explain
+
+178
+00:06:41,600 --> 00:06:46,479
+to me why this this diagonal is one
+
+179
+00:06:44,240 --> 00:06:48,720
+it's always one
+
+180
+00:06:46,479 --> 00:06:49,759
+because um there's
+
+181
+00:06:48,720 --> 00:06:51,759
+this
+
+182
+00:06:49,759 --> 00:06:55,759
+there's a um
+
+183
+00:06:51,759 --> 00:06:57,520
+diagonal it's like a a like bb yes
+
+184
+00:06:55,759 --> 00:06:58,960
+so it's excel right it doesn't matter
+
+185
+00:06:57,520 --> 00:07:00,880
+actually you can put zero it doesn't
+
+186
+00:06:58,960 --> 00:07:03,440
+matter because it just means that the
+
+187
+00:07:00,880 --> 00:07:05,759
+note is is you know it's a node itself
+
+188
+00:07:03,440 --> 00:07:08,639
+it does not it does not represent
+
+189
+00:07:05,759 --> 00:07:10,720
+a edge between two vertex right it's a
+
+190
+00:07:08,639 --> 00:07:13,440
+it's basically a vertex
+
+191
+00:07:10,720 --> 00:07:16,960
+b to d right you look it up b to b so
+
+192
+00:07:13,440 --> 00:07:21,360
+look if this metric is mirroring by the
+
+193
+00:07:16,960 --> 00:07:21,360
+time what does it mean if it's mirroring
+
+194
+00:07:21,599 --> 00:07:26,000
+the mirroring you know mirroring what if
+
+195
+00:07:24,160 --> 00:07:28,400
+it's mirror if this is zero and then
+
+196
+00:07:26,000 --> 00:07:30,400
+diagonal here it's all this is also zero
+
+197
+00:07:28,400 --> 00:07:32,720
+if this is one this is also one what
+
+198
+00:07:30,400 --> 00:07:33,840
+does it mean
+
+199
+00:07:32,720 --> 00:07:38,639
+think about it what does it mean
+
+200
+00:07:33,840 --> 00:07:40,800
+[Music]
+
+201
+00:07:38,639 --> 00:07:42,960
+yeah it's undirected right if it's
+
+202
+00:07:40,800 --> 00:07:45,120
+directed if you look a to c but c
+
+203
+00:07:42,960 --> 00:07:49,039
+there's no point to a so a to c could be
+
+204
+00:07:45,120 --> 00:07:51,199
+a to c here is one c to a here
+
+205
+00:07:49,039 --> 00:07:53,599
+and zero right okay we're done no that's
+
+206
+00:07:51,199 --> 00:07:54,560
+a good job let's adjacent match adjacent
+
+207
+00:07:53,599 --> 00:07:57,759
+list
+
+208
+00:07:54,560 --> 00:07:59,840
+okay so so okay so now we want to visit
+
+209
+00:07:57,759 --> 00:07:59,840
+the
+
+210
+00:08:00,000 --> 00:08:05,039
+the preference search okay professor
+
+211
+00:08:02,400 --> 00:08:06,319
+define whether search
+
+212
+00:08:05,039 --> 00:08:07,759
+source
+
+213
+00:08:06,319 --> 00:08:11,599
+which is q
+
+214
+00:08:07,759 --> 00:08:14,319
+q equals dq here remember we use the dq
+
+215
+00:08:11,599 --> 00:08:16,960
+pull the source in and then we have uh
+
+216
+00:08:14,319 --> 00:08:21,440
+scene equals set by the way what's the
+
+217
+00:08:16,960 --> 00:08:22,400
+advantage of using dq instead of list
+
+218
+00:08:21,440 --> 00:08:23,599
+because
+
+219
+00:08:22,400 --> 00:08:26,960
+because
+
+220
+00:08:23,599 --> 00:08:28,639
+if you're gonna look up in the list
+
+221
+00:08:26,960 --> 00:08:31,759
+and
+
+222
+00:08:28,639 --> 00:08:32,479
+in the list it takes a long time to look
+
+223
+00:08:31,759 --> 00:08:34,719
+up
+
+224
+00:08:32,479 --> 00:08:38,959
+and but for this cue we don't need to
+
+225
+00:08:34,719 --> 00:08:38,959
+look it up we need to do what um
+
+226
+00:08:39,120 --> 00:08:46,240
+a pen it's a one pop pop from the left
+
+227
+00:08:42,880 --> 00:08:48,720
+is o n right but for the dq is always
+
+228
+00:08:46,240 --> 00:08:50,959
+201 in both direction
+
+229
+00:08:48,720 --> 00:08:54,480
+so y and q
+
+230
+00:08:50,959 --> 00:08:57,360
+and then we can say say current equals q
+
+231
+00:08:54,480 --> 00:09:01,040
+dot pop left
+
+232
+00:08:57,360 --> 00:09:02,800
+and then we can just say for now in g
+
+233
+00:09:01,040 --> 00:09:06,839
+current
+
+234
+00:09:02,800 --> 00:09:11,440
+is not if n not
+
+235
+00:09:06,839 --> 00:09:14,240
+in and then we just queue the append
+
+236
+00:09:11,440 --> 00:09:17,040
+q dot append and right yeah
+
+237
+00:09:14,240 --> 00:09:20,399
+and then obviously we need to put it yes
+
+238
+00:09:17,040 --> 00:09:23,680
+n right this is the
+
+239
+00:09:20,399 --> 00:09:25,920
+this is the breakfast search right
+
+240
+00:09:23,680 --> 00:09:25,920
+there
+
+241
+00:09:26,880 --> 00:09:30,800
+q dq
+
+242
+00:09:28,320 --> 00:09:32,880
+sim y t or y cube and we'll put the
+
+243
+00:09:30,800 --> 00:09:35,600
+source in the queue we take
+
+244
+00:09:32,880 --> 00:09:38,160
+take the q we pop it from the left as
+
+245
+00:09:35,600 --> 00:09:40,720
+long as the queue is not empty and we
+
+246
+00:09:38,160 --> 00:09:42,720
+track we push this kit
+
+247
+00:09:40,720 --> 00:09:45,680
+if it's not being seen to the queue
+
+248
+00:09:42,720 --> 00:09:48,640
+right yeah look how simple is that right
+
+249
+00:09:45,680 --> 00:09:48,640
+okay so one question
+
+250
+00:09:48,959 --> 00:09:54,240
+if i change this queue to stack
+
+251
+00:09:51,920 --> 00:09:54,240
+step
+
+252
+00:09:58,560 --> 00:10:02,880
+good question that's a very good point
+
+253
+00:10:00,720 --> 00:10:05,920
+but i changed this to pop just pop
+
+254
+00:10:02,880 --> 00:10:10,320
+another stick first in that right yeah
+
+255
+00:10:05,920 --> 00:10:10,320
+so what will happen does it become a dfs
+
+256
+00:10:10,480 --> 00:10:13,760
+not really
+
+257
+00:10:11,680 --> 00:10:15,519
+no really okay yeah your answer is right
+
+258
+00:10:13,760 --> 00:10:16,959
+but let's let's look it so the default
+
+259
+00:10:15,519 --> 00:10:20,959
+search is one
+
+260
+00:10:16,959 --> 00:10:25,200
+a b e okay the difference search is
+
+261
+00:10:20,959 --> 00:10:27,279
+a b e d c right right yeah
+
+262
+00:10:25,200 --> 00:10:29,760
+but if we pop it if we're using the
+
+263
+00:10:27,279 --> 00:10:30,560
+stack so if i push it to the right so
+
+264
+00:10:29,760 --> 00:10:33,360
+let's
+
+265
+00:10:30,560 --> 00:10:34,480
+the ladies is the step yeah i put it a i
+
+266
+00:10:33,360 --> 00:10:37,680
+take it out
+
+267
+00:10:34,480 --> 00:10:39,839
+a and i put a b c b here d
+
+268
+00:10:37,680 --> 00:10:42,079
+c b right
+
+269
+00:10:39,839 --> 00:10:44,160
+the sequence is a okay i'm going to take
+
+270
+00:10:42,079 --> 00:10:45,519
+a br right
+
+271
+00:10:44,160 --> 00:10:48,320
+yeah
+
+272
+00:10:45,519 --> 00:10:50,800
+and then i need to put it what
+
+273
+00:10:48,320 --> 00:10:53,440
+put the e at e
+
+274
+00:10:50,800 --> 00:10:55,920
+i take the e
+
+275
+00:10:53,440 --> 00:10:56,880
+take an e you're just putting it and
+
+276
+00:10:55,920 --> 00:10:59,279
+then
+
+277
+00:10:56,880 --> 00:11:01,200
+getting it back
+
+278
+00:10:59,279 --> 00:11:03,839
+yeah yeah yeah look because i already
+
+279
+00:11:01,200 --> 00:11:06,160
+visited it's not be seen right this
+
+280
+00:11:03,839 --> 00:11:08,640
+scene equals a
+
+281
+00:11:06,160 --> 00:11:10,480
+i take it i i already visited it
+
+282
+00:11:08,640 --> 00:11:12,240
+equals a right
+
+283
+00:11:10,480 --> 00:11:14,800
+and
+
+284
+00:11:12,240 --> 00:11:17,200
+i pushed the kids bcd and bcp let's put
+
+285
+00:11:14,800 --> 00:11:18,720
+it in the reverse order i take it back
+
+286
+00:11:17,200 --> 00:11:20,160
+take it out
+
+287
+00:11:18,720 --> 00:11:22,880
+i take it off
+
+288
+00:11:20,160 --> 00:11:25,040
+i'm gonna push it to kit which is e
+
+289
+00:11:22,880 --> 00:11:28,079
+a already visited so i don't push it
+
+290
+00:11:25,040 --> 00:11:30,480
+okay i take an er
+
+291
+00:11:28,079 --> 00:11:33,120
+yeah and i push the kids which is d
+
+292
+00:11:30,480 --> 00:11:35,120
+already push it so
+
+293
+00:11:33,120 --> 00:11:37,440
+i already push it i don't take it right
+
+294
+00:11:35,120 --> 00:11:39,760
+so now i take a what's next
+
+295
+00:11:37,440 --> 00:11:41,519
+c right yeah
+
+296
+00:11:39,760 --> 00:11:42,480
+so c
+
+297
+00:11:41,519 --> 00:11:43,680
+uh
+
+298
+00:11:42,480 --> 00:11:46,959
+ap
+
+299
+00:11:43,680 --> 00:11:49,200
+okay so a p e c d
+
+300
+00:11:46,959 --> 00:11:50,240
+e c t block e c t
+
+301
+00:11:49,200 --> 00:11:52,480
+which is
+
+302
+00:11:50,240 --> 00:11:54,800
+which is different than a b e d c you
+
+303
+00:11:52,480 --> 00:11:58,639
+see the difference the temperature is a
+
+304
+00:11:54,800 --> 00:12:00,000
+b e d c but for if i change this b q
+
+305
+00:11:58,639 --> 00:12:02,959
+to a stack
+
+306
+00:12:00,000 --> 00:12:04,880
+yeah i emulate this for you the sequence
+
+307
+00:12:02,959 --> 00:12:07,279
+is a b e
+
+308
+00:12:04,880 --> 00:12:08,160
+c d it's different right it's not
+
+309
+00:12:07,279 --> 00:12:10,639
+so
+
+310
+00:12:08,160 --> 00:12:13,760
+so preference so first let's search if
+
+311
+00:12:10,639 --> 00:12:17,120
+we change the queue to step it's not
+
+312
+00:12:13,760 --> 00:12:18,079
+actually the same as definition
+
+313
+00:12:17,120 --> 00:12:20,480
+yeah
+
+314
+00:12:18,079 --> 00:12:22,560
+okay okay so this is just a sign note
+
+315
+00:12:20,480 --> 00:12:26,079
+okay um
+
+316
+00:12:22,560 --> 00:12:30,480
+one question the the depth of search
+
+317
+00:12:26,079 --> 00:12:32,800
+is guaranteed uh shortest path
+
+318
+00:12:30,480 --> 00:12:36,079
+you know the shortest if i want to visit
+
+319
+00:12:32,800 --> 00:12:36,959
+the shortest path between a
+
+320
+00:12:36,079 --> 00:12:39,200
+c
+
+321
+00:12:36,959 --> 00:12:40,639
+b this is the triangle i want to visit
+
+322
+00:12:39,200 --> 00:12:43,360
+the shortest path but i want to
+
+323
+00:12:40,639 --> 00:12:45,600
+calculate the shortest path from a to c
+
+324
+00:12:43,360 --> 00:12:47,519
+what's the shortest path and directly
+
+325
+00:12:45,600 --> 00:12:49,200
+okay let's talk about
+
+326
+00:12:47,519 --> 00:12:51,120
+what's the shortest path
+
+327
+00:12:49,200 --> 00:12:53,120
+atc yeah
+
+328
+00:12:51,120 --> 00:12:56,160
+yeah okay but for the tesla search it
+
+329
+00:12:53,120 --> 00:12:59,519
+might come this first a b c right once
+
+330
+00:12:56,160 --> 00:13:01,519
+you found the note it's not guaranteed
+
+331
+00:12:59,519 --> 00:13:03,680
+the optimum right
+
+332
+00:13:01,519 --> 00:13:05,279
+yeah it's not guaranteed it's like a
+
+333
+00:13:03,680 --> 00:13:06,720
+tree
+
+334
+00:13:05,279 --> 00:13:06,890
+a
+
+335
+00:13:06,720 --> 00:13:08,320
+b
+
+336
+00:13:06,890 --> 00:13:09,760
+[Music]
+
+337
+00:13:08,320 --> 00:13:11,120
+c
+
+338
+00:13:09,760 --> 00:13:13,760
+d
+
+339
+00:13:11,120 --> 00:13:15,600
+uh it's not optimal okay so
+
+340
+00:13:13,760 --> 00:13:18,839
+if i
+
+341
+00:13:15,600 --> 00:13:21,040
+i can do this e
+
+342
+00:13:18,839 --> 00:13:22,880
+f okay
+
+343
+00:13:21,040 --> 00:13:24,560
+g
+
+344
+00:13:22,880 --> 00:13:28,320
+okay and then i have at least another
+
+345
+00:13:24,560 --> 00:13:30,399
+edge okay l by i have another g
+
+346
+00:13:28,320 --> 00:13:32,800
+analogy here okay
+
+347
+00:13:30,399 --> 00:13:35,200
+so look if you do the test search
+
+348
+00:13:32,800 --> 00:13:37,120
+define the g i want to find the shutter
+
+349
+00:13:35,200 --> 00:13:39,040
+speed which is the entity you do the
+
+350
+00:13:37,120 --> 00:13:40,959
+definition you quickly find this but
+
+351
+00:13:39,040 --> 00:13:42,000
+it's not a shortage it's not a guarantee
+
+352
+00:13:40,959 --> 00:13:42,880
+right
+
+353
+00:13:42,000 --> 00:13:44,399
+okay
+
+354
+00:13:42,880 --> 00:13:45,839
+because there's a path here which is
+
+355
+00:13:44,399 --> 00:13:47,199
+shorter
+
+356
+00:13:45,839 --> 00:13:49,279
+make sense
+
+357
+00:13:47,199 --> 00:13:51,760
+so the test search does not guarantee
+
+358
+00:13:49,279 --> 00:13:54,480
+the shutter speed unless
+
+359
+00:13:51,760 --> 00:13:57,680
+unless you will visit all the paths from
+
+360
+00:13:54,480 --> 00:14:00,240
+a to every element yeah
+
+361
+00:13:57,680 --> 00:14:02,639
+blue forces because look if i exhorted
+
+362
+00:14:00,240 --> 00:14:04,800
+all the search to all other
+
+363
+00:14:02,639 --> 00:14:06,959
+nodes and i can come back get a minimum
+
+364
+00:14:04,800 --> 00:14:09,279
+right make sense but for the preference
+
+365
+00:14:06,959 --> 00:14:10,959
+search it's always guaranteed
+
+366
+00:14:09,279 --> 00:14:14,399
+again i'm talking about under rescue
+
+367
+00:14:10,959 --> 00:14:18,560
+graph okay the shortest path look a b e
+
+368
+00:14:14,399 --> 00:14:21,120
+c d f a h g okay i found it this t here
+
+369
+00:14:18,560 --> 00:14:22,880
+not here right makes sense
+
+370
+00:14:21,120 --> 00:14:24,560
+but there is a way
+
+371
+00:14:22,880 --> 00:14:26,639
+to change
+
+372
+00:14:24,560 --> 00:14:29,199
+okay this is the part of today there's a
+
+373
+00:14:26,639 --> 00:14:30,959
+way to change these
+
+374
+00:14:29,199 --> 00:14:32,800
+dfs to
+
+375
+00:14:30,959 --> 00:14:35,600
+breakfast search to to guarantee a
+
+376
+00:14:32,800 --> 00:14:38,480
+shortest path that's away
+
+377
+00:14:35,600 --> 00:14:40,480
+we are adding a
+
+378
+00:14:38,480 --> 00:14:43,920
+maximum depth
+
+379
+00:14:40,480 --> 00:14:45,519
+mass depth depth yeah limit oh we call
+
+380
+00:14:43,920 --> 00:14:47,040
+it that's named
+
+381
+00:14:45,519 --> 00:14:49,360
+that's name
+
+382
+00:14:47,040 --> 00:14:51,199
+what what does it mean look
+
+383
+00:14:49,360 --> 00:14:52,959
+okay let's travel with the maximum
+
+384
+00:14:51,199 --> 00:14:54,880
+distance one
+
+385
+00:14:52,959 --> 00:14:56,959
+the short the different search so what
+
+386
+00:14:54,880 --> 00:14:58,480
+does it give us
+
+387
+00:14:56,959 --> 00:15:01,040
+a a
+
+388
+00:14:58,480 --> 00:15:03,360
+okay this is like what's and okay let's
+
+389
+00:15:01,040 --> 00:15:04,480
+increase the deep depth to two what does
+
+390
+00:15:03,360 --> 00:15:06,160
+it give us
+
+391
+00:15:04,480 --> 00:15:08,160
+b and
+
+392
+00:15:06,160 --> 00:15:10,240
+e okay
+
+393
+00:15:08,160 --> 00:15:12,480
+okay we still haven't found the target
+
+394
+00:15:10,240 --> 00:15:14,160
+let's increase one more time the target
+
+395
+00:15:12,480 --> 00:15:15,040
+to three
+
+396
+00:15:14,160 --> 00:15:19,519
+yeah
+
+397
+00:15:15,040 --> 00:15:21,600
+yeah yes kind of like breakfast search
+
+398
+00:15:19,519 --> 00:15:23,440
+not really breakfast thirty is like
+
+399
+00:15:21,600 --> 00:15:25,040
+traveled knows by notes but now i'm
+
+400
+00:15:23,440 --> 00:15:26,959
+saying that i want to do the different
+
+401
+00:15:25,040 --> 00:15:29,759
+search with the maximum
+
+402
+00:15:26,959 --> 00:15:30,800
+distance up to three so i can do this a
+
+403
+00:15:29,759 --> 00:15:33,600
+b c
+
+404
+00:15:30,800 --> 00:15:37,759
+d e f it doesn't go any further once we
+
+405
+00:15:33,600 --> 00:15:40,399
+hit the next the distance we stop right
+
+406
+00:15:37,759 --> 00:15:43,199
+and then we can increase to that small
+
+407
+00:15:40,399 --> 00:15:45,440
+right that's right okay so in this way
+
+408
+00:15:43,199 --> 00:15:47,839
+we can find i find it is it faster or
+
+409
+00:15:45,440 --> 00:15:47,839
+slow
+
+410
+00:15:48,399 --> 00:15:54,079
+it's like the same as breakfast
+
+411
+00:15:51,440 --> 00:15:56,399
+not really we okay that's the difference
+
+412
+00:15:54,079 --> 00:15:57,680
+perfect search for each node here b is
+
+413
+00:15:56,399 --> 00:15:58,720
+visited once
+
+414
+00:15:57,680 --> 00:16:00,639
+but look
+
+415
+00:15:58,720 --> 00:16:03,360
+if i increase the test for differences
+
+416
+00:16:00,639 --> 00:16:06,000
+look one is the distance two i visit the
+
+417
+00:16:03,360 --> 00:16:09,120
+b when is instance three i visit the b
+
+418
+00:16:06,000 --> 00:16:12,800
+again a b c when i increase one more
+
+419
+00:16:09,120 --> 00:16:14,720
+test abcd you see i repeatedly go over
+
+420
+00:16:12,800 --> 00:16:16,240
+the test search again and again okay
+
+421
+00:16:14,720 --> 00:16:17,440
+make sense
+
+422
+00:16:16,240 --> 00:16:18,320
+so look at
+
+423
+00:16:17,440 --> 00:16:21,040
+so
+
+424
+00:16:18,320 --> 00:16:24,320
+the only difference we added for the
+
+425
+00:16:21,040 --> 00:16:28,639
+test search is to what def test
+
+426
+00:16:24,320 --> 00:16:30,639
+with no current but we have a maximum p
+
+427
+00:16:28,639 --> 00:16:33,199
+we added this so
+
+428
+00:16:30,639 --> 00:16:34,240
+so what is it what so what first of all
+
+429
+00:16:33,199 --> 00:16:36,560
+if
+
+430
+00:16:34,240 --> 00:16:39,120
+c u r in sin we still return yeah we
+
+431
+00:16:36,560 --> 00:16:43,600
+have visited it nobody can
+
+432
+00:16:39,120 --> 00:16:43,600
+and then we visited g uh sin
+
+433
+00:16:43,680 --> 00:16:48,959
+carbon uh cinder a current in the air
+
+434
+00:16:46,560 --> 00:16:48,959
+carbon
+
+435
+00:16:49,040 --> 00:16:52,000
+okay and then now i added this is one
+
+436
+00:16:50,880 --> 00:16:53,839
+more okay
+
+437
+00:16:52,000 --> 00:16:57,360
+if d
+
+438
+00:16:53,839 --> 00:17:00,160
+uh okay so this d is the maximum uh
+
+439
+00:16:57,360 --> 00:17:02,000
+maximum d and we also need the current
+
+440
+00:17:00,160 --> 00:17:03,440
+the current d
+
+441
+00:17:02,000 --> 00:17:04,640
+currently
+
+442
+00:17:03,440 --> 00:17:06,480
+this d
+
+443
+00:17:04,640 --> 00:17:08,160
+is the maximum you can go this is the
+
+444
+00:17:06,480 --> 00:17:09,760
+current depth so look
+
+445
+00:17:08,160 --> 00:17:10,720
+if
+
+446
+00:17:09,760 --> 00:17:13,120
+d
+
+447
+00:17:10,720 --> 00:17:16,000
+bigger than d
+
+448
+00:17:13,120 --> 00:17:18,640
+that would be 10 yeah we can just return
+
+449
+00:17:16,000 --> 00:17:21,199
+because we have a current we are
+
+450
+00:17:18,640 --> 00:17:22,959
+limiting our search distance to maximum
+
+451
+00:17:21,199 --> 00:17:25,600
+three steps but now we are traveling too
+
+452
+00:17:22,959 --> 00:17:28,160
+fast so we stop and then this is the
+
+453
+00:17:25,600 --> 00:17:29,360
+other thing is the same for n in
+
+454
+00:17:28,160 --> 00:17:30,960
+g
+
+455
+00:17:29,360 --> 00:17:32,880
+c u r
+
+456
+00:17:30,960 --> 00:17:34,799
+right i know what should we do now we
+
+457
+00:17:32,880 --> 00:17:35,760
+travel t f s
+
+458
+00:17:34,799 --> 00:17:38,160
+and
+
+459
+00:17:35,760 --> 00:17:39,840
+this is t never change and i look at t
+
+460
+00:17:38,160 --> 00:17:41,919
+i need to do what
+
+461
+00:17:39,840 --> 00:17:43,600
+what what should i do with d
+
+462
+00:17:41,919 --> 00:17:45,360
+what should i do with the d like that if
+
+463
+00:17:43,600 --> 00:17:47,760
+i visit one more number what should i do
+
+464
+00:17:45,360 --> 00:17:50,480
+plus one plus one like that yeah first
+
+465
+00:17:47,760 --> 00:17:51,760
+one look this is only different
+
+466
+00:17:50,480 --> 00:17:53,039
+this is the only difference with the
+
+467
+00:17:51,760 --> 00:17:55,600
+normal theme
+
+468
+00:17:53,039 --> 00:17:57,360
+and then for the
+
+469
+00:17:55,600 --> 00:17:58,400
+follower
+
+470
+00:17:57,360 --> 00:18:01,360
+for the one
+
+471
+00:17:58,400 --> 00:18:03,840
+then we can say wire not found yeah
+
+472
+00:18:01,360 --> 00:18:06,720
+not file
+
+473
+00:18:03,840 --> 00:18:09,360
+the file at the beginning equals number
+
+474
+00:18:06,720 --> 00:18:11,760
+not file yeah now we can say look
+
+475
+00:18:09,360 --> 00:18:13,440
+definite search found include default
+
+476
+00:18:11,760 --> 00:18:14,720
+search
+
+477
+00:18:13,440 --> 00:18:15,440
+this t
+
+478
+00:18:14,720 --> 00:18:18,799
+uh
+
+479
+00:18:15,440 --> 00:18:20,480
+we can start with the source the d
+
+480
+00:18:18,799 --> 00:18:22,480
+d and then at the beginning is zero
+
+481
+00:18:20,480 --> 00:18:23,360
+right or one it doesn't matter and then
+
+482
+00:18:22,480 --> 00:18:25,760
+look
+
+483
+00:18:23,360 --> 00:18:28,240
+and what should we do we increment the d
+
+484
+00:18:25,760 --> 00:18:30,000
+plus equals one right
+
+485
+00:18:28,240 --> 00:18:32,720
+this is to increase
+
+486
+00:18:30,000 --> 00:18:34,480
+our deepening we call it in iterative
+
+487
+00:18:32,720 --> 00:18:36,640
+deepening
+
+488
+00:18:34,480 --> 00:18:40,160
+iterative
+
+489
+00:18:36,640 --> 00:18:40,160
+iterative deepening
+
+490
+00:18:40,640 --> 00:18:44,559
+differently means that
+
+491
+00:18:42,480 --> 00:18:46,960
+we perform the data search with the
+
+492
+00:18:44,559 --> 00:18:51,520
+depth depth d
+
+493
+00:18:46,960 --> 00:18:53,360
+and if we found it we we allowed it to
+
+494
+00:18:51,520 --> 00:18:55,360
+have one more
+
+495
+00:18:53,360 --> 00:18:56,720
+maximum distance right so we increase
+
+496
+00:18:55,360 --> 00:19:00,720
+the maximum d
+
+497
+00:18:56,720 --> 00:19:03,600
+one more right until we found it
+
+498
+00:19:00,720 --> 00:19:06,880
+so look as as we said the nodes
+
+499
+00:19:03,600 --> 00:19:09,760
+okay so the nodes with the depth a
+
+500
+00:19:06,880 --> 00:19:14,799
+and then the certain distance if it's d
+
+501
+00:19:09,760 --> 00:19:16,160
+it needs to be visited uh how many times
+
+502
+00:19:14,799 --> 00:19:20,320
+look
+
+503
+00:19:16,160 --> 00:19:21,760
+this is a okay this is b this is c this
+
+504
+00:19:20,320 --> 00:19:24,960
+is d
+
+505
+00:19:21,760 --> 00:19:27,840
+okay now if i want to travel from a to b
+
+506
+00:19:24,960 --> 00:19:30,000
+a to b is the shortest distance right so
+
+507
+00:19:27,840 --> 00:19:32,480
+this b how many times it needs to be
+
+508
+00:19:30,000 --> 00:19:34,720
+traveled how how many summit needs to
+
+509
+00:19:32,480 --> 00:19:37,280
+visit okay
+
+510
+00:19:34,720 --> 00:19:38,400
+a not visiting it b
+
+511
+00:19:37,280 --> 00:19:39,840
+a b
+
+512
+00:19:38,400 --> 00:19:43,280
+visited one time
+
+513
+00:19:39,840 --> 00:19:46,000
+a b c which is another times a b c d
+
+514
+00:19:43,280 --> 00:19:47,919
+music and another so look the the notes
+
+515
+00:19:46,000 --> 00:19:50,000
+needs to be visited some notes will be
+
+516
+00:19:47,919 --> 00:19:53,120
+visited one more time right so look at
+
+517
+00:19:50,000 --> 00:19:56,160
+this distance is one two three right
+
+518
+00:19:53,120 --> 00:19:57,600
+right and then this distance is
+
+519
+00:19:56,160 --> 00:20:00,640
+one so
+
+520
+00:19:57,600 --> 00:20:02,880
+so the the notes needs to be visited
+
+521
+00:20:00,640 --> 00:20:04,320
+three minus one plus one okay so look
+
+522
+00:20:02,880 --> 00:20:07,520
+this is d
+
+523
+00:20:04,320 --> 00:20:09,039
+this is a if this the distance is a and
+
+524
+00:20:07,520 --> 00:20:12,799
+uh how many times it needs to be
+
+525
+00:20:09,039 --> 00:20:15,360
+meditative is d minus a plus one okay
+
+526
+00:20:12,799 --> 00:20:17,520
+make sense yeah
+
+527
+00:20:15,360 --> 00:20:17,520
+so
+
+528
+00:20:17,679 --> 00:20:22,000
+it looks like okay we
+
+529
+00:20:19,600 --> 00:20:26,080
+we have repeatedly
+
+530
+00:20:22,000 --> 00:20:28,960
+visited no it might be slower right yeah
+
+531
+00:20:26,080 --> 00:20:30,880
+all right it might work but but there's
+
+532
+00:20:28,960 --> 00:20:33,600
+advantage of using this
+
+533
+00:20:30,880 --> 00:20:37,600
+uh iterated differently
+
+534
+00:20:33,600 --> 00:20:39,360
+look if a tree remember this binary tree
+
+535
+00:20:37,600 --> 00:20:42,000
+if it's a perfect
+
+536
+00:20:39,360 --> 00:20:44,640
+either yeah it's the perfect binary or
+
+537
+00:20:42,000 --> 00:20:47,440
+not perfect we call it what full binary
+
+538
+00:20:44,640 --> 00:20:47,440
+for banana tree
+
+539
+00:20:47,679 --> 00:20:54,960
+four by the tree every note every layer
+
+540
+00:20:51,280 --> 00:20:58,480
+every every note except the this note
+
+541
+00:20:54,960 --> 00:21:00,960
+this is the leaf number which all have
+
+542
+00:20:58,480 --> 00:21:02,720
+two notes two children right
+
+543
+00:21:00,960 --> 00:21:04,080
+yeah
+
+544
+00:21:02,720 --> 00:21:06,000
+look
+
+545
+00:21:04,080 --> 00:21:09,840
+if this d equals
+
+546
+00:21:06,000 --> 00:21:11,840
+the depth equals one two three
+
+547
+00:21:09,840 --> 00:21:13,520
+what's how many in these notes are there
+
+548
+00:21:11,840 --> 00:21:16,080
+how many how many
+
+549
+00:21:13,520 --> 00:21:18,720
+how many notes in depth equals three one
+
+550
+00:21:16,080 --> 00:21:19,919
+two three four five one two three four
+
+551
+00:21:18,720 --> 00:21:21,919
+yeah hey
+
+552
+00:21:19,919 --> 00:21:24,400
+so it's eight actually two to the power
+
+553
+00:21:21,919 --> 00:21:27,360
+of n right yeah
+
+554
+00:21:24,400 --> 00:21:28,559
+okay so for the transfer search
+
+555
+00:21:27,360 --> 00:21:30,559
+we need to
+
+556
+00:21:28,559 --> 00:21:32,640
+the space complexity look we're talking
+
+557
+00:21:30,559 --> 00:21:34,320
+about space mode basically needs to
+
+558
+00:21:32,640 --> 00:21:35,200
+store all these
+
+559
+00:21:34,320 --> 00:21:36,720
+right
+
+560
+00:21:35,200 --> 00:21:38,960
+yeah
+
+561
+00:21:36,720 --> 00:21:41,440
+all right so the space complexity is
+
+562
+00:21:38,960 --> 00:21:44,799
+exponential for preferences because we
+
+563
+00:21:41,440 --> 00:21:47,039
+are expanding all the nodes
+
+564
+00:21:44,799 --> 00:21:49,200
+all the notes right could be exponential
+
+565
+00:21:47,039 --> 00:21:51,440
+i'm talking about the four binary
+
+566
+00:21:49,200 --> 00:21:53,200
+yeah follow deepening
+
+567
+00:21:51,440 --> 00:21:54,559
+for the deepening it's already different
+
+568
+00:21:53,200 --> 00:21:56,960
+i don't need to store all these notes
+
+569
+00:21:54,559 --> 00:21:58,400
+right i just need to store the depth
+
+570
+00:21:56,960 --> 00:22:00,000
+yeah yeah
+
+571
+00:21:58,400 --> 00:22:01,200
+so let's say
+
+572
+00:22:00,000 --> 00:22:03,600
+so
+
+573
+00:22:01,200 --> 00:22:04,480
+it's the space complexity is less than
+
+574
+00:22:03,600 --> 00:22:06,640
+this
+
+575
+00:22:04,480 --> 00:22:08,720
+like look i just spread i just need to
+
+576
+00:22:06,640 --> 00:22:11,600
+use the stack to store
+
+577
+00:22:08,720 --> 00:22:13,440
+once the path right yeah i don't need to
+
+578
+00:22:11,600 --> 00:22:14,720
+store any other thing right
+
+579
+00:22:13,440 --> 00:22:16,559
+yeah
+
+580
+00:22:14,720 --> 00:22:20,080
+makes sense
+
+581
+00:22:16,559 --> 00:22:20,080
+yeah any questions so far
+
+582
+00:22:20,400 --> 00:22:22,240
+really
+
+583
+00:22:21,200 --> 00:22:24,080
+okay so
+
+584
+00:22:22,240 --> 00:22:27,120
+okay answer me what's the advantage of
+
+585
+00:22:24,080 --> 00:22:30,320
+iterating differently and breakfast such
+
+586
+00:22:27,120 --> 00:22:31,360
+which one but because for the breakfast
+
+587
+00:22:30,320 --> 00:22:32,159
+search
+
+588
+00:22:31,360 --> 00:22:33,919
+um
+
+589
+00:22:32,159 --> 00:22:38,640
+you can okay
+
+590
+00:22:33,919 --> 00:22:41,640
+so if okay so go like oh yes oh yeah i'm
+
+591
+00:22:38,640 --> 00:22:41,640
+here
+
+592
+00:22:45,440 --> 00:22:49,280
+exponential right yeah
+
+593
+00:22:47,679 --> 00:22:51,799
+okay you'll become bigger bigger bigger
+
+594
+00:22:49,280 --> 00:22:55,799
+always double
+
+595
+00:22:51,799 --> 00:22:55,799
+yeah yeah
+
+596
+00:22:56,720 --> 00:23:01,200
+every time i try one more step okay
+
+597
+00:22:58,480 --> 00:23:02,480
+let's see if i can visit i can find this
+
+598
+00:23:01,200 --> 00:23:05,360
+note with the
+
+599
+00:23:02,480 --> 00:23:07,919
+maximum distance one that's like that i
+
+600
+00:23:05,360 --> 00:23:09,360
+can't then i increase the step too
+
+601
+00:23:07,919 --> 00:23:11,679
+i can't
+
+602
+00:23:09,360 --> 00:23:14,159
+step three so i don't for the test
+
+603
+00:23:11,679 --> 00:23:16,159
+research i don't actually need to store
+
+604
+00:23:14,159 --> 00:23:18,400
+all the nodes for the same level right i
+
+605
+00:23:16,159 --> 00:23:21,280
+don't need to keep a user q
+
+606
+00:23:18,400 --> 00:23:23,120
+the only the space i need to use for the
+
+607
+00:23:21,280 --> 00:23:26,720
+depth search is stack
+
+608
+00:23:23,120 --> 00:23:27,600
+which stores what the path is this piece
+
+609
+00:23:26,720 --> 00:23:29,919
+right
+
+610
+00:23:27,600 --> 00:23:31,679
+yeah oh n right
+
+611
+00:23:29,919 --> 00:23:34,640
+yeah
+
+612
+00:23:31,679 --> 00:23:37,280
+o n this is o n and this is o to n right
+
+613
+00:23:34,640 --> 00:23:39,840
+so the space it's already depending is
+
+614
+00:23:37,280 --> 00:23:42,000
+faster than than
+
+615
+00:23:39,840 --> 00:23:45,039
+normal speed i'm talking about the space
+
+616
+00:23:42,000 --> 00:23:47,360
+space safety a space is used
+
+617
+00:23:45,039 --> 00:23:49,919
+space used by the devil search is less
+
+618
+00:23:47,360 --> 00:23:52,320
+than a professor in terms of you know in
+
+619
+00:23:49,919 --> 00:23:56,159
+some class right and for you you know
+
+620
+00:23:52,320 --> 00:23:58,720
+for some uh complex algorithm like uh
+
+621
+00:23:56,159 --> 00:24:00,720
+uh meme max 3 or you know play chess
+
+622
+00:23:58,720 --> 00:24:03,679
+yeah you know the chess
+
+623
+00:24:00,720 --> 00:24:05,360
+i play one i want to get a chest usually
+
+624
+00:24:03,679 --> 00:24:07,760
+two players
+
+625
+00:24:05,360 --> 00:24:10,640
+yeah you know it's like i i you play a
+
+626
+00:24:07,760 --> 00:24:14,000
+chess i i take one i move one step you
+
+627
+00:24:10,640 --> 00:24:15,919
+move one step so look i want to
+
+628
+00:24:14,000 --> 00:24:17,520
+maximize the score like a hundred and
+
+629
+00:24:15,919 --> 00:24:19,440
+then you want to minimize the score
+
+630
+00:24:17,520 --> 00:24:23,200
+right so that's
+
+631
+00:24:19,440 --> 00:24:24,960
+yeah you take one step and then
+
+632
+00:24:23,200 --> 00:24:26,080
+i i take the mac
+
+633
+00:24:24,960 --> 00:24:27,120
+folders
+
+634
+00:24:26,080 --> 00:24:29,039
+up
+
+635
+00:24:27,120 --> 00:24:31,039
+layer i want to maximize for the even
+
+636
+00:24:29,039 --> 00:24:33,760
+layer you want to minimize
+
+637
+00:24:31,039 --> 00:24:35,200
+huh yeah because each one take a turn
+
+638
+00:24:33,760 --> 00:24:37,120
+right
+
+639
+00:24:35,200 --> 00:24:39,279
+and then for this in this kind of
+
+640
+00:24:37,120 --> 00:24:41,279
+chess playing algorithm usually we use
+
+641
+00:24:39,279 --> 00:24:43,679
+iterated deepening
+
+642
+00:24:41,279 --> 00:24:45,039
+to allow us caching some
+
+643
+00:24:43,679 --> 00:24:46,480
+you know some
+
+644
+00:24:45,039 --> 00:24:48,000
+states
+
+645
+00:24:46,480 --> 00:24:49,440
+so it's actually
+
+646
+00:24:48,000 --> 00:24:51,120
+not
+
+647
+00:24:49,440 --> 00:24:54,960
+it's actually faster than breakfast
+
+648
+00:24:51,120 --> 00:24:54,960
+search okay in some cases okay
+
+649
+00:24:55,440 --> 00:24:59,520
+it might be a bit too complicated but
+
+650
+00:24:57,600 --> 00:25:00,400
+okay what's your most important takeaway
+
+651
+00:24:59,520 --> 00:25:03,039
+today
+
+652
+00:25:00,400 --> 00:25:04,480
+i talked about a few things about
+
+653
+00:25:03,039 --> 00:25:06,720
+the different
+
+654
+00:25:04,480 --> 00:25:08,640
+research and what's the new concept we
+
+655
+00:25:06,720 --> 00:25:11,039
+are talking about
+
+656
+00:25:08,640 --> 00:25:14,039
+what is the d what's this
+
+657
+00:25:11,039 --> 00:25:14,039
+is
+
+658
+00:25:15,679 --> 00:25:19,520
+so okay so what's this bit the last
+
+659
+00:25:17,520 --> 00:25:22,159
+question what should this be
+
+660
+00:25:19,520 --> 00:25:26,480
+if d is b
+
+661
+00:25:22,159 --> 00:25:28,640
+if like like um like if we um okay we
+
+662
+00:25:26,480 --> 00:25:28,640
+are
+
+663
+00:25:38,159 --> 00:25:43,039
+and like this part is saying this and if
+
+664
+00:25:50,000 --> 00:25:53,760
+um
+
+665
+00:25:51,120 --> 00:25:55,760
+if not we visit the next one using the
+
+666
+00:25:53,760 --> 00:25:57,919
+kosher definite search but why why is
+
+667
+00:25:55,760 --> 00:26:00,720
+this the plus one here what's the person
+
+668
+00:25:57,919 --> 00:26:02,559
+d plus one is uh
+
+669
+00:26:00,720 --> 00:26:04,559
+um what's d
+
+670
+00:26:02,559 --> 00:26:06,080
+d is the
+
+671
+00:26:04,559 --> 00:26:09,120
+kind of
+
+672
+00:26:06,080 --> 00:26:10,880
+deepening thing what's the
+
+673
+00:26:09,120 --> 00:26:12,720
+tis
+
+674
+00:26:10,880 --> 00:26:14,559
+turns distance
+
+675
+00:26:12,720 --> 00:26:16,880
+it's a distance i visit one more node
+
+676
+00:26:14,559 --> 00:26:18,640
+the distance will be plus one and then i
+
+677
+00:26:16,880 --> 00:26:21,200
+check if the distance it sees the
+
+678
+00:26:18,640 --> 00:26:23,440
+structure max vector if it sees when i
+
+679
+00:26:21,200 --> 00:26:25,360
+stop don't go further right
+
+680
+00:26:23,440 --> 00:26:27,760
+okay so for this one is it already
+
+681
+00:26:25,360 --> 00:26:29,919
+depending uh let's say
+
+682
+00:26:27,760 --> 00:26:33,039
+i want to visit a to use
+
+683
+00:26:29,919 --> 00:26:35,840
+hey look the different search right abc
+
+684
+00:26:33,039 --> 00:26:40,159
+ac is normal uh optimum but if i say
+
+685
+00:26:35,840 --> 00:26:41,120
+okay let's visit a with the step one
+
+686
+00:26:40,159 --> 00:26:43,919
+a b
+
+687
+00:26:41,120 --> 00:26:46,240
+a c okay i busiest because from here b i
+
+688
+00:26:43,919 --> 00:26:47,679
+don't continue because it sees the
+
+689
+00:26:46,240 --> 00:26:50,159
+sensor right
+
+690
+00:26:47,679 --> 00:26:52,559
+so look the pure devil search does not
+
+691
+00:26:50,159 --> 00:26:54,159
+guarantee a shortest path because ac is
+
+692
+00:26:52,559 --> 00:26:56,960
+the shortest flight if you do the pure
+
+693
+00:26:54,159 --> 00:26:59,600
+depth research you will go from abc
+
+694
+00:26:56,960 --> 00:27:00,720
+this is not the optimum but if i edit
+
+695
+00:26:59,600 --> 00:27:02,159
+the
+
+696
+00:27:00,720 --> 00:27:04,000
+depth
+
+697
+00:27:02,159 --> 00:27:05,200
+and then at the beginning let's start
+
+698
+00:27:04,000 --> 00:27:08,080
+with one note
+
+699
+00:27:05,200 --> 00:27:10,000
+a b ac i found it right because a b i
+
+700
+00:27:08,080 --> 00:27:13,440
+can't continue why is that
+
+701
+00:27:10,000 --> 00:27:15,279
+because it sees one right this is the
+
+702
+00:27:13,440 --> 00:27:16,720
+distant one if i go here that will be
+
+703
+00:27:15,279 --> 00:27:17,679
+distance two
+
+704
+00:27:16,720 --> 00:27:19,520
+right
+
+705
+00:27:17,679 --> 00:27:22,320
+and i will be returned here it doesn't
+
+706
+00:27:19,520 --> 00:27:24,000
+go continue look make sense
+
+707
+00:27:22,320 --> 00:27:25,039
+okay that's it for today good job bye
+
+708
+00:27:24,000 --> 00:27:26,080
+bye
+
+709
+00:27:25,039 --> 00:27:28,960
+bye
+
+710
+00:27:26,080 --> 00:27:28,960
+bye bye
+
