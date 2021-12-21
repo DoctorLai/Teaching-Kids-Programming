@@ -1,0 +1,1872 @@
+1
+00:00:04,400 --> 00:00:07,839
+okay so what happened yesterday what did
+
+2
+00:00:06,319 --> 00:00:10,400
+we talk about yesterday remember
+
+3
+00:00:07,839 --> 00:00:12,880
+multiple conflicts yeah
+
+4
+00:00:10,400 --> 00:00:16,000
+so like we have two coins yeah the first
+
+5
+00:00:12,880 --> 00:00:17,840
+one has 50 percent facing up and then
+
+6
+00:00:16,000 --> 00:00:21,039
+the second
+
+7
+00:00:17,840 --> 00:00:21,760
+second coin has the like 20 facing up
+
+8
+00:00:21,039 --> 00:00:23,840
+so
+
+9
+00:00:21,760 --> 00:00:25,840
+if we want to have two coins facing out
+
+10
+00:00:23,840 --> 00:00:28,640
+what's the probability
+
+11
+00:00:25,840 --> 00:00:31,279
+what's the probability
+
+12
+00:00:28,640 --> 00:00:33,600
+the first one have 50 50
+
+13
+00:00:31,279 --> 00:00:35,920
+you know the second coin has 20 facing
+
+14
+00:00:33,600 --> 00:00:38,399
+up how what's the probability of two
+
+15
+00:00:35,920 --> 00:00:39,760
+coins both facing up
+
+16
+00:00:38,399 --> 00:00:41,050
+um
+
+17
+00:00:39,760 --> 00:00:42,879
+everywhere
+
+18
+00:00:41,050 --> 00:00:44,800
+[Music]
+
+19
+00:00:42,879 --> 00:00:45,920
+the first coin has twenty percent point
+
+20
+00:00:44,800 --> 00:00:47,760
+three
+
+21
+00:00:45,920 --> 00:00:49,200
+the first coin has fifty percent facing
+
+22
+00:00:47,760 --> 00:00:50,320
+out the first second coin is twenty
+
+23
+00:00:49,200 --> 00:00:54,000
+percent
+
+24
+00:00:50,320 --> 00:00:54,960
+ten percent yeah yeah okay
+
+25
+00:00:54,000 --> 00:00:56,559
+okay so
+
+26
+00:00:54,960 --> 00:01:00,000
+we use the dynamic programming look at
+
+27
+00:00:56,559 --> 00:01:02,480
+this is right dfsi k here we can let it
+
+28
+00:01:00,000 --> 00:01:04,080
+represent that we are
+
+29
+00:01:02,480 --> 00:01:06,720
+we are now
+
+30
+00:01:04,080 --> 00:01:09,119
+freaking with ice coin and then we have
+
+31
+00:01:06,720 --> 00:01:11,680
+k coins remaining
+
+32
+00:01:09,119 --> 00:01:12,560
+take heads remaining okay the balance
+
+33
+00:01:11,680 --> 00:01:13,600
+okay
+
+34
+00:01:12,560 --> 00:01:15,280
+all right
+
+35
+00:01:13,600 --> 00:01:17,200
+obviously when i
+
+36
+00:01:15,280 --> 00:01:19,680
+when we're running out of coins we just
+
+37
+00:01:17,200 --> 00:01:21,840
+need to check if the balance is zero if
+
+38
+00:01:19,680 --> 00:01:23,439
+his balance is zero then
+
+39
+00:01:21,840 --> 00:01:25,680
+that's probability one otherwise
+
+40
+00:01:23,439 --> 00:01:28,240
+probability is zero okay
+
+41
+00:01:25,680 --> 00:01:30,720
+but facing up we can let the current
+
+42
+00:01:28,240 --> 00:01:32,400
+coin facing up then we have k minus
+
+43
+00:01:30,720 --> 00:01:33,759
+coins yeah
+
+44
+00:01:32,400 --> 00:01:35,520
+left
+
+45
+00:01:33,759 --> 00:01:38,240
+if we let the
+
+46
+00:01:35,520 --> 00:01:39,920
+common cone facing down we have
+
+47
+00:01:38,240 --> 00:01:42,320
+still got the
+
+48
+00:01:39,920 --> 00:01:44,640
+balance 10 right this hasn't changed
+
+49
+00:01:42,320 --> 00:01:46,000
+but in both cases we have to move to the
+
+50
+00:01:44,640 --> 00:01:47,280
+next card
+
+51
+00:01:46,000 --> 00:01:49,360
+right
+
+52
+00:01:47,280 --> 00:01:52,079
+moving to the
+
+53
+00:01:49,360 --> 00:01:54,880
+moving to the next cone when the coin
+
+54
+00:01:52,079 --> 00:01:57,680
+common coin has their probability facing
+
+55
+00:01:54,880 --> 00:02:01,200
+up is p i right this is given and the
+
+56
+00:01:57,680 --> 00:02:03,680
+probability of it facing down is 1 minus
+
+57
+00:02:01,200 --> 00:02:05,680
+p i right yeah because both events added
+
+58
+00:02:03,680 --> 00:02:09,759
+up to 1.
+
+59
+00:02:05,680 --> 00:02:11,520
+okay so this is dfs we use the
+
+60
+00:02:09,759 --> 00:02:13,200
+top down dynamic programming with the
+
+61
+00:02:11,520 --> 00:02:14,560
+cash with the cash
+
+62
+00:02:13,200 --> 00:02:16,060
+if we don't put the cash what's the time
+
+63
+00:02:14,560 --> 00:02:17,200
+complexity
+
+64
+00:02:16,060 --> 00:02:20,720
+[Music]
+
+65
+00:02:17,200 --> 00:02:23,440
+if we don't put a cash remember
+
+66
+00:02:20,720 --> 00:02:26,560
+sorry
+
+67
+00:02:23,440 --> 00:02:28,720
+if i put a cache is oh i times o n times
+
+68
+00:02:26,560 --> 00:02:31,519
+k now if i don't put the cache what's
+
+69
+00:02:28,720 --> 00:02:32,959
+the time zone velocity
+
+70
+00:02:31,519 --> 00:02:36,480
+what's the time complexity i don't
+
+71
+00:02:32,959 --> 00:02:37,760
+remember the values remember
+
+72
+00:02:36,480 --> 00:02:40,879
+okay
+
+73
+00:02:37,760 --> 00:02:42,800
+oh two and right now what what
+
+74
+00:02:40,879 --> 00:02:44,480
+two to the power one why why is that
+
+75
+00:02:42,800 --> 00:02:46,640
+because for each coin
+
+76
+00:02:44,480 --> 00:02:48,959
+we have two choice yeah each coin we
+
+77
+00:02:46,640 --> 00:02:51,760
+have two choice so it's basically the
+
+78
+00:02:48,959 --> 00:02:53,840
+same as picking the
+
+79
+00:02:51,760 --> 00:02:56,959
+you know finding the subsequence and
+
+80
+00:02:53,840 --> 00:02:57,840
+finding the subsequence of what
+
+81
+00:02:56,959 --> 00:02:58,720
+yeah
+
+82
+00:02:57,840 --> 00:03:00,720
+in
+
+83
+00:02:58,720 --> 00:03:03,959
+the number of subsequent right remember
+
+84
+00:03:00,720 --> 00:03:03,959
+i was subsequent
+
+85
+00:03:04,080 --> 00:03:10,800
+a b c how many subsequents are there
+
+86
+00:03:08,159 --> 00:03:13,040
+a b c okay
+
+87
+00:03:10,800 --> 00:03:14,800
+if empty is also subsequent but how many
+
+88
+00:03:13,040 --> 00:03:17,040
+subsequent for abc
+
+89
+00:03:14,800 --> 00:03:18,879
+seven yeah including the subsequence
+
+90
+00:03:17,040 --> 00:03:20,080
+empty you'll be a so look
+
+91
+00:03:18,879 --> 00:03:23,360
+a b
+
+92
+00:03:20,080 --> 00:03:25,360
+a c right so for this look for this a
+
+93
+00:03:23,360 --> 00:03:27,120
+you have two choice for this b you have
+
+94
+00:03:25,360 --> 00:03:29,920
+two choices for let me see you have two
+
+95
+00:03:27,120 --> 00:03:33,200
+choices two times two times two a okay
+
+96
+00:03:29,920 --> 00:03:34,159
+so each one we have uh two choice so if
+
+97
+00:03:33,200 --> 00:03:36,480
+there are n
+
+98
+00:03:34,159 --> 00:03:37,519
+right if we look if we want to have at
+
+99
+00:03:36,480 --> 00:03:39,440
+least k
+
+100
+00:03:37,519 --> 00:03:40,560
+so it's actually two to the power of k
+
+101
+00:03:39,440 --> 00:03:43,599
+okay because
+
+102
+00:03:40,560 --> 00:03:47,200
+yeah we want to find the subsequent
+
+103
+00:03:43,599 --> 00:03:48,959
+subsequent with k hat facing up right so
+
+104
+00:03:47,200 --> 00:03:51,280
+2 to the power of k but we use the top
+
+105
+00:03:48,959 --> 00:03:54,640
+down diameter with the cash
+
+106
+00:03:51,280 --> 00:03:57,120
+so with the cash i remember the values
+
+107
+00:03:54,640 --> 00:03:58,640
+so i don't call i don't calculate it
+
+108
+00:03:57,120 --> 00:04:00,159
+over and over again right because i
+
+109
+00:03:58,640 --> 00:04:01,760
+remember i asked the computer to
+
+110
+00:04:00,159 --> 00:04:04,480
+remember you use the cash right the
+
+111
+00:04:01,760 --> 00:04:09,280
+computer will will remember once it
+
+112
+00:04:04,480 --> 00:04:11,519
+knows this value d p d f s i k okay make
+
+113
+00:04:09,280 --> 00:04:11,519
+sense
+
+114
+00:04:12,400 --> 00:04:16,959
+the bottom of dynamic programming yeah
+
+115
+00:04:14,319 --> 00:04:18,560
+in other way we we remember the values
+
+116
+00:04:16,959 --> 00:04:20,560
+in in a
+
+117
+00:04:18,560 --> 00:04:23,360
+two-dimensional way right in our way and
+
+118
+00:04:20,560 --> 00:04:25,919
+then we store the values once we have it
+
+119
+00:04:23,360 --> 00:04:27,199
+right and we calculate the base cases
+
+120
+00:04:25,919 --> 00:04:29,120
+from
+
+121
+00:04:27,199 --> 00:04:32,400
+dfs
+
+122
+00:04:29,120 --> 00:04:34,800
+what dfs zero the base cases and then we
+
+123
+00:04:32,400 --> 00:04:38,479
+use the values to
+
+124
+00:04:34,800 --> 00:04:41,199
+calculate the the i and k yeah
+
+125
+00:04:38,479 --> 00:04:43,759
+dfs int with the larger value right make
+
+126
+00:04:41,199 --> 00:04:45,600
+sense it's like fibonacci number yeah
+
+127
+00:04:43,759 --> 00:04:47,280
+fibonacci number n
+
+128
+00:04:45,600 --> 00:04:49,840
+so quarter
+
+129
+00:04:47,280 --> 00:04:54,320
+s0 is 1
+
+130
+00:04:49,840 --> 00:04:56,639
+f1 is 1 f2 ra is what
+
+131
+00:04:54,320 --> 00:05:00,240
+f1 plus f0 yeah
+
+132
+00:04:56,639 --> 00:05:03,759
+f3 is f2 plus f1 so so we store these
+
+133
+00:05:00,240 --> 00:05:06,479
+values in an array right now iteratively
+
+134
+00:05:03,759 --> 00:05:10,800
+right because to calculate fn we need a
+
+135
+00:05:06,479 --> 00:05:13,440
+fn minus 1 plus fn minus 2 right yeah so
+
+136
+00:05:10,800 --> 00:05:14,800
+we store this values in the array
+
+137
+00:05:13,440 --> 00:05:16,320
+and then we use this array to
+
+138
+00:05:14,800 --> 00:05:17,680
+iteratively
+
+139
+00:05:16,320 --> 00:05:18,560
+update
+
+140
+00:05:17,680 --> 00:05:21,280
+yeah
+
+141
+00:05:18,560 --> 00:05:22,960
+so in this case this would be if i to n
+
+142
+00:05:21,280 --> 00:05:24,800
+right
+
+143
+00:05:22,960 --> 00:05:27,039
+how about if we yeah let's just
+
+144
+00:05:24,800 --> 00:05:28,560
+transpose this matrix okay so this is i
+
+145
+00:05:27,039 --> 00:05:31,759
+to n
+
+146
+00:05:28,560 --> 00:05:34,560
+what i this i one to n and this is k
+
+147
+00:05:31,759 --> 00:05:36,560
+right so we calculate the first row yeah
+
+148
+00:05:34,560 --> 00:05:38,880
+we calculate the first row and then we
+
+149
+00:05:36,560 --> 00:05:40,960
+will calculate the second row
+
+150
+00:05:38,880 --> 00:05:43,280
+we use the value for the the previous
+
+151
+00:05:40,960 --> 00:05:44,880
+number when we calculate the third row
+
+152
+00:05:43,280 --> 00:05:46,960
+we use the value from the second row
+
+153
+00:05:44,880 --> 00:05:50,080
+right you see so we remember like
+
+154
+00:05:46,960 --> 00:05:53,120
+variance okay okay so let's uh convert
+
+155
+00:05:50,080 --> 00:05:53,120
+this to the
+
+156
+00:06:02,000 --> 00:06:05,280
+and first of all if they
+
+157
+00:06:05,520 --> 00:06:12,000
+okay so if the look if we have k if we
+
+158
+00:06:08,639 --> 00:06:13,759
+have n coins and if k is bigger than n
+
+159
+00:06:12,000 --> 00:06:15,520
+is it possible
+
+160
+00:06:13,759 --> 00:06:17,440
+now we should return what
+
+161
+00:06:15,520 --> 00:06:20,720
+uh
+
+162
+00:06:17,440 --> 00:06:22,240
+zero the probability is zero okay
+
+163
+00:06:20,720 --> 00:06:24,880
+so the
+
+164
+00:06:22,240 --> 00:06:28,479
+define let's say coins okay
+
+165
+00:06:24,880 --> 00:06:31,600
+and we have this probability p and k
+
+166
+00:06:28,479 --> 00:06:34,639
+right so first of all n equals length p
+
+167
+00:06:31,600 --> 00:06:37,280
+there are number of coins if
+
+168
+00:06:34,639 --> 00:06:39,759
+it's what k is bigger than n
+
+169
+00:06:37,280 --> 00:06:39,759
+we can
+
+170
+00:06:40,319 --> 00:06:42,720
+okay
+
+171
+00:06:43,360 --> 00:06:49,360
+yeah yeah i have two coins i want the
+
+172
+00:06:45,680 --> 00:06:51,280
+three heads no poster right make sense
+
+173
+00:06:49,360 --> 00:06:54,639
+yeah and now i have a tp4 very oh let's
+
+174
+00:06:51,280 --> 00:06:57,199
+call it f okay loosen up previously s
+
+175
+00:06:54,639 --> 00:06:59,599
+s i k right yeah
+
+176
+00:06:57,199 --> 00:07:02,800
+f i k we have k
+
+177
+00:06:59,599 --> 00:07:05,840
+balance right so now let's call it f
+
+178
+00:07:02,800 --> 00:07:08,479
+this is the two dimensional array so
+
+179
+00:07:05,840 --> 00:07:12,160
+let's initialize with zero
+
+180
+00:07:08,479 --> 00:07:14,960
+for underscore in range
+
+181
+00:07:12,160 --> 00:07:16,639
+so the k so that would be the k it'll be
+
+182
+00:07:14,960 --> 00:07:18,000
+k plus 1
+
+183
+00:07:16,639 --> 00:07:19,440
+up to k
+
+184
+00:07:18,000 --> 00:07:22,240
+and then for
+
+185
+00:07:19,440 --> 00:07:24,880
+the look at this table yeah this table
+
+186
+00:07:22,240 --> 00:07:24,880
+this table
+
+187
+00:07:25,840 --> 00:07:31,599
+this is i
+
+188
+00:07:27,520 --> 00:07:34,319
+and the coin i yeah up to end yeah we
+
+189
+00:07:31,599 --> 00:07:36,160
+are we are trying to fill in the table
+
+190
+00:07:34,319 --> 00:07:37,759
+okay flavor here
+
+191
+00:07:36,160 --> 00:07:40,000
+this is
+
+192
+00:07:37,759 --> 00:07:41,039
+paper paper
+
+193
+00:07:40,000 --> 00:07:43,440
+okay
+
+194
+00:07:41,039 --> 00:07:46,479
+and this is the one this is the
+
+195
+00:07:43,440 --> 00:07:47,360
+i and this is the top this is the k k is
+
+196
+00:07:46,479 --> 00:07:49,280
+the
+
+197
+00:07:47,360 --> 00:07:52,160
+from zero yeah the number of coins
+
+198
+00:07:49,280 --> 00:07:52,160
+facing up right
+
+199
+00:07:52,479 --> 00:07:56,879
+up to up to up to k okay
+
+200
+00:07:55,599 --> 00:07:59,120
+right
+
+201
+00:07:56,879 --> 00:08:01,360
+we are trying to fill in the value
+
+202
+00:07:59,120 --> 00:08:02,479
+here and the result will be
+
+203
+00:08:01,360 --> 00:08:03,280
+at
+
+204
+00:08:02,479 --> 00:08:05,599
+f
+
+205
+00:08:03,280 --> 00:08:09,360
+p k
+
+206
+00:08:05,599 --> 00:08:12,479
+uh okay s n k sorry f n minus k right f
+
+207
+00:08:09,360 --> 00:08:14,400
+n minus one so f one minus one
+
+208
+00:08:12,479 --> 00:08:15,360
+okay so the result
+
+209
+00:08:14,400 --> 00:08:17,199
+okay
+
+210
+00:08:15,360 --> 00:08:19,440
+so this is the return value we want to
+
+211
+00:08:17,199 --> 00:08:20,319
+calculate this already here right
+
+212
+00:08:19,440 --> 00:08:22,000
+okay
+
+213
+00:08:20,319 --> 00:08:24,800
+we're trying to fill in the value so
+
+214
+00:08:22,000 --> 00:08:27,840
+here we're going down one we calculate
+
+215
+00:08:24,800 --> 00:08:29,919
+the row one row by row and we have this
+
+216
+00:08:27,840 --> 00:08:31,840
+value this is the result this is the
+
+217
+00:08:29,919 --> 00:08:35,440
+result f
+
+218
+00:08:31,840 --> 00:08:35,440
+f n minus one
+
+219
+00:08:36,399 --> 00:08:41,120
+k okay
+
+220
+00:08:37,839 --> 00:08:42,800
+this is the value what are okay top down
+
+221
+00:08:41,120 --> 00:08:44,720
+remember the cache
+
+222
+00:08:42,800 --> 00:08:48,160
+the cache we asked computer to take this
+
+223
+00:08:44,720 --> 00:08:50,240
+value and that computer okay it needs to
+
+224
+00:08:48,160 --> 00:08:52,240
+find out this value for example yeah
+
+225
+00:08:50,240 --> 00:08:54,240
+okay this value needs to find out this
+
+226
+00:08:52,240 --> 00:08:55,440
+value for example and it's you know this
+
+227
+00:08:54,240 --> 00:08:57,920
+is top down
+
+228
+00:08:55,440 --> 00:09:00,480
+top down right yeah and then now butter
+
+229
+00:08:57,920 --> 00:09:01,920
+up i calculated no by now this is but up
+
+230
+00:09:00,480 --> 00:09:04,240
+makes sense
+
+231
+00:09:01,920 --> 00:09:06,080
+yeah just different ways of doing it
+
+232
+00:09:04,240 --> 00:09:07,680
+right so when the computer work out this
+
+233
+00:09:06,080 --> 00:09:10,320
+value you can't we put the cash it
+
+234
+00:09:07,680 --> 00:09:11,839
+remembers it now we remember here we
+
+235
+00:09:10,320 --> 00:09:14,399
+remember here yeah
+
+236
+00:09:11,839 --> 00:09:15,519
+so for i in
+
+237
+00:09:14,399 --> 00:09:17,839
+range
+
+238
+00:09:15,519 --> 00:09:19,839
+look the first one this is the column
+
+239
+00:09:17,839 --> 00:09:23,120
+this is the row okay this is the row and
+
+240
+00:09:19,839 --> 00:09:24,240
+how many rows are there are there
+
+241
+00:09:23,120 --> 00:09:28,480
+from
+
+242
+00:09:24,240 --> 00:09:32,399
+from zero to minus one minus one
+
+243
+00:09:28,480 --> 00:09:34,240
+and n drops okay and rows okay
+
+244
+00:09:32,399 --> 00:09:36,240
+okay so look f
+
+245
+00:09:34,240 --> 00:09:38,640
+we need to initialize the value yeah so
+
+246
+00:09:36,240 --> 00:09:41,279
+for this one the first coin
+
+247
+00:09:38,640 --> 00:09:43,920
+the first point
+
+248
+00:09:41,279 --> 00:09:45,839
+if it is zero
+
+249
+00:09:43,920 --> 00:09:48,080
+and then these two values what should we
+
+250
+00:09:45,839 --> 00:09:51,600
+initialize it
+
+251
+00:09:48,080 --> 00:09:53,839
+what what should we initial isaac
+
+252
+00:09:51,600 --> 00:09:55,600
+look the first coin
+
+253
+00:09:53,839 --> 00:09:58,640
+of facing down
+
+254
+00:09:55,600 --> 00:10:01,760
+the first coin or facing down is what
+
+255
+00:09:58,640 --> 00:10:04,959
+the first point of facing up is p right
+
+256
+00:10:01,760 --> 00:10:07,200
+p 0 right yeah the first point of facing
+
+257
+00:10:04,959 --> 00:10:09,760
+down is what
+
+258
+00:10:07,200 --> 00:10:12,320
+the p0 is the first point probability
+
+259
+00:10:09,760 --> 00:10:15,920
+the probability of facing up is p0
+
+260
+00:10:12,320 --> 00:10:15,920
+what's the probability of facing down
+
+261
+00:10:16,020 --> 00:10:20,000
+[Music]
+
+262
+00:10:17,519 --> 00:10:21,519
+one minus t zero here
+
+263
+00:10:20,000 --> 00:10:22,959
+yeah okay
+
+264
+00:10:21,519 --> 00:10:24,640
+twenty percent facing out what's the
+
+265
+00:10:22,959 --> 00:10:28,560
+probability you're facing down
+
+266
+00:10:24,640 --> 00:10:28,560
+eighty percent easy that's easy math
+
+267
+00:10:29,360 --> 00:10:34,000
+yeah one number one hundred percent is
+
+268
+00:10:31,360 --> 00:10:36,640
+one okay that's two representation okay
+
+269
+00:10:34,000 --> 00:10:38,320
+and then now we just try to put to four
+
+270
+00:10:36,640 --> 00:10:39,680
+i in
+
+271
+00:10:38,320 --> 00:10:42,240
+range
+
+272
+00:10:39,680 --> 00:10:44,399
+we start from the first row
+
+273
+00:10:42,240 --> 00:10:46,880
+especially we don't need to pick we we
+
+274
+00:10:44,399 --> 00:10:48,720
+don't need to calculate this value yeah
+
+275
+00:10:46,880 --> 00:10:50,720
+why is that
+
+276
+00:10:48,720 --> 00:10:52,399
+because the first point if i'm i'm
+
+277
+00:10:50,720 --> 00:10:53,920
+throwing the first coin
+
+278
+00:10:52,399 --> 00:10:56,079
+the k
+
+279
+00:10:53,920 --> 00:10:57,760
+these are all zero okay these are zero
+
+280
+00:10:56,079 --> 00:10:58,839
+what can you explain to me why this is
+
+281
+00:10:57,760 --> 00:11:01,279
+zero
+
+282
+00:10:58,839 --> 00:11:02,240
+because zero
+
+283
+00:11:01,279 --> 00:11:05,200
+times
+
+284
+00:11:02,240 --> 00:11:08,240
+whatever is no no no no why is this dude
+
+285
+00:11:05,200 --> 00:11:11,040
+i'm throwing the first coin and why i
+
+286
+00:11:08,240 --> 00:11:13,440
+can't get that f zero two f zero three f
+
+287
+00:11:11,040 --> 00:11:15,760
+g of y come on that's easy this is the
+
+288
+00:11:13,440 --> 00:11:17,680
+number this is the coin how many coins i
+
+289
+00:11:15,760 --> 00:11:20,000
+saw
+
+290
+00:11:17,680 --> 00:11:21,760
+you can't get anything for zero you just
+
+291
+00:11:20,000 --> 00:11:23,760
+get nothing
+
+292
+00:11:21,760 --> 00:11:25,519
+quite close zero is the first one i saw
+
+293
+00:11:23,760 --> 00:11:27,519
+the first coin what's the how many
+
+294
+00:11:25,519 --> 00:11:30,000
+outcomes do we
+
+295
+00:11:27,519 --> 00:11:31,360
+we have one how many outcomes
+
+296
+00:11:30,000 --> 00:11:34,959
+yeah
+
+297
+00:11:31,360 --> 00:11:37,040
+i saw the coin zero how many outcomes
+
+298
+00:11:34,959 --> 00:11:40,800
+two what's what are those
+
+299
+00:11:37,040 --> 00:11:43,040
+heads and tails heads here tails here
+
+300
+00:11:40,800 --> 00:11:45,920
+this is too hot i throw the coin that's
+
+301
+00:11:43,040 --> 00:11:48,800
+not impossible for to get two heads only
+
+302
+00:11:45,920 --> 00:11:52,560
+have one hat okay i throw two coins
+
+303
+00:11:48,800 --> 00:11:52,560
+okay so this is i saw two coins
+
+304
+00:11:52,639 --> 00:11:58,560
+zero heads one head two head got it so
+
+305
+00:11:55,600 --> 00:12:00,480
+this is always like that yeah
+
+306
+00:11:58,560 --> 00:12:03,519
+this bit
+
+307
+00:12:00,480 --> 00:12:08,079
+this bit is always zero when
+
+308
+00:12:03,519 --> 00:12:10,639
+i throw the coin and coins and i get k
+
+309
+00:12:08,079 --> 00:12:13,279
+k needs to be smaller than equal than n
+
+310
+00:12:10,639 --> 00:12:15,839
+right yeah if it's bigger than n returns
+
+311
+00:12:13,279 --> 00:12:15,839
+zero here
+
+312
+00:12:16,240 --> 00:12:19,920
+yeah
+
+313
+00:12:17,440 --> 00:12:23,040
+that's what i say here
+
+314
+00:12:19,920 --> 00:12:24,160
+this bit the outer triangle
+
+315
+00:12:23,040 --> 00:12:25,920
+this bit
+
+316
+00:12:24,160 --> 00:12:28,959
+i have a turn point
+
+317
+00:12:25,920 --> 00:12:31,600
+but i want to get a hundred heads
+
+318
+00:12:28,959 --> 00:12:34,160
+what's the probability
+
+319
+00:12:31,600 --> 00:12:36,000
+zero percent yeah three yeah
+
+320
+00:12:34,160 --> 00:12:38,480
+make sense yeah
+
+321
+00:12:36,000 --> 00:12:40,480
+now one end
+
+322
+00:12:38,480 --> 00:12:41,279
+and then i need to do four
+
+323
+00:12:40,480 --> 00:12:42,399
+j
+
+324
+00:12:41,279 --> 00:12:43,440
+in
+
+325
+00:12:42,399 --> 00:12:45,920
+range
+
+326
+00:12:43,440 --> 00:12:48,399
+f friendship i can
+
+327
+00:12:45,920 --> 00:12:50,959
+i can get it to i
+
+328
+00:12:48,399 --> 00:12:53,040
+look icon i can get into i or i can get
+
+329
+00:12:50,959 --> 00:12:55,279
+is i i think i can get it to i
+
+330
+00:12:53,040 --> 00:12:59,120
+i plus one
+
+331
+00:12:55,279 --> 00:13:00,000
+time to i plus one yeah r plus one yeah
+
+332
+00:12:59,120 --> 00:13:01,920
+uh
+
+333
+00:13:00,000 --> 00:13:02,959
+then i can say
+
+334
+00:13:01,920 --> 00:13:05,440
+um
+
+335
+00:13:02,959 --> 00:13:08,240
+if if you wish right because i have sold
+
+336
+00:13:05,440 --> 00:13:10,560
+end coins i have several end coins and
+
+337
+00:13:08,240 --> 00:13:11,680
+then this is the number of targets we
+
+338
+00:13:10,560 --> 00:13:13,279
+want to
+
+339
+00:13:11,680 --> 00:13:15,360
+yeah we
+
+340
+00:13:13,279 --> 00:13:16,959
+we also have a number of cat this is the
+
+341
+00:13:15,360 --> 00:13:21,360
+number of heads
+
+342
+00:13:16,959 --> 00:13:22,959
+half okay and then i can say f i j
+
+343
+00:13:21,360 --> 00:13:25,440
+yeah f i j
+
+344
+00:13:22,959 --> 00:13:27,519
+f i j look there are two possibilities
+
+345
+00:13:25,440 --> 00:13:30,000
+one one is the
+
+346
+00:13:27,519 --> 00:13:32,079
+the previous one is facing up so
+
+347
+00:13:30,000 --> 00:13:33,600
+previous one is p
+
+348
+00:13:32,079 --> 00:13:35,600
+i
+
+349
+00:13:33,600 --> 00:13:36,800
+what p i
+
+350
+00:13:35,600 --> 00:13:37,760
+times
+
+351
+00:13:36,800 --> 00:13:40,079
+f
+
+352
+00:13:37,760 --> 00:13:40,959
+i minus 1
+
+353
+00:13:40,079 --> 00:13:44,480
+times
+
+354
+00:13:40,959 --> 00:13:47,360
+j minus 1 yeah so this we want this coin
+
+355
+00:13:44,480 --> 00:13:48,959
+to face up so we have this probability
+
+356
+00:13:47,360 --> 00:13:50,720
+and then
+
+357
+00:13:48,959 --> 00:13:52,320
+yeah and then the previous one would be
+
+358
+00:13:50,720 --> 00:13:54,320
+j minus one right because we already
+
+359
+00:13:52,320 --> 00:13:57,600
+have one right plus
+
+360
+00:13:54,320 --> 00:14:01,360
+one minus p i this is the carbon cone
+
+361
+00:13:57,600 --> 00:14:04,560
+facing down and then i can say f
+
+362
+00:14:01,360 --> 00:14:06,240
+times f i minus 1
+
+363
+00:14:04,560 --> 00:14:09,440
+j right because the balance hasn't
+
+364
+00:14:06,240 --> 00:14:11,360
+changed right the balance hasn't changed
+
+365
+00:14:09,440 --> 00:14:12,399
+and then look we can look return this
+
+366
+00:14:11,360 --> 00:14:14,639
+here yeah
+
+367
+00:14:12,399 --> 00:14:17,519
+we can hear return
+
+368
+00:14:14,639 --> 00:14:19,360
+within the speed f
+
+369
+00:14:17,519 --> 00:14:20,560
+n minus one
+
+370
+00:14:19,360 --> 00:14:21,920
+okay
+
+371
+00:14:20,560 --> 00:14:24,240
+i
+
+372
+00:14:21,920 --> 00:14:25,040
+f minus one k
+
+373
+00:14:24,240 --> 00:14:28,320
+yeah
+
+374
+00:14:25,040 --> 00:14:32,240
+so look if j is more than i what will
+
+375
+00:14:28,320 --> 00:14:32,240
+happen if j is more than i
+
+376
+00:14:33,440 --> 00:14:37,199
+um
+
+377
+00:14:35,120 --> 00:14:39,279
+if j if j
+
+378
+00:14:37,199 --> 00:14:41,760
+is more than i so it's in the upper
+
+379
+00:14:39,279 --> 00:14:44,800
+corner then will become zero okay
+
+380
+00:14:41,760 --> 00:14:46,959
+and if i set it to target one uh let
+
+381
+00:14:44,800 --> 00:14:49,199
+will be target is k
+
+382
+00:14:46,959 --> 00:14:52,160
+k plus one here
+
+383
+00:14:49,199 --> 00:14:55,519
+does this still work
+
+384
+00:14:52,160 --> 00:14:57,360
+does this still work if j is more than i
+
+385
+00:14:55,519 --> 00:15:00,079
+is
+
+386
+00:14:57,360 --> 00:15:02,320
+j mullen i okay so it still works right
+
+387
+00:15:00,079 --> 00:15:04,399
+let's put it this way maybe more magma
+
+388
+00:15:02,320 --> 00:15:06,399
+clear okay but you have to remember that
+
+389
+00:15:04,399 --> 00:15:08,480
+the first upper corner is still always
+
+390
+00:15:06,399 --> 00:15:12,240
+there because there's no way
+
+391
+00:15:08,480 --> 00:15:14,880
+right if we have thrown the ice corn
+
+392
+00:15:12,240 --> 00:15:17,279
+we have thrown an ice coin
+
+393
+00:15:14,880 --> 00:15:18,639
+and we want to get a j hat yeah this is
+
+394
+00:15:17,279 --> 00:15:22,000
+what i mean
+
+395
+00:15:18,639 --> 00:15:24,959
+if i also i have solar icons and i have
+
+396
+00:15:22,000 --> 00:15:27,199
+concentrated jpegs it's the probability
+
+397
+00:15:24,959 --> 00:15:30,079
+of current i score and facing up this is
+
+398
+00:15:27,199 --> 00:15:32,320
+a probability breaking down probability
+
+399
+00:15:30,079 --> 00:15:34,959
+if i facing out it means i choose this
+
+400
+00:15:32,320 --> 00:15:37,759
+head choose this coin and facing up so i
+
+401
+00:15:34,959 --> 00:15:38,639
+have j minus one heads remaining
+
+402
+00:15:37,759 --> 00:15:39,600
+right
+
+403
+00:15:38,639 --> 00:15:42,079
+yeah
+
+404
+00:15:39,600 --> 00:15:42,880
+look i minus one what's i minus look i'm
+
+405
+00:15:42,079 --> 00:15:44,880
+here
+
+406
+00:15:42,880 --> 00:15:47,360
+i'm here what's it i'm what's i minus
+
+407
+00:15:44,880 --> 00:15:47,360
+one here
+
+408
+00:15:47,840 --> 00:15:52,079
+[Music]
+
+409
+00:15:49,759 --> 00:15:54,639
+i'm calculating this row what's i what's
+
+410
+00:15:52,079 --> 00:15:56,959
+the what's the previous note i minus one
+
+411
+00:15:54,639 --> 00:16:00,160
+note here right yeah
+
+412
+00:15:56,959 --> 00:16:02,480
+i look because you know this value
+
+413
+00:16:00,160 --> 00:16:04,639
+is based on previous row right so i
+
+414
+00:16:02,480 --> 00:16:06,959
+start from the first row and i use look
+
+415
+00:16:04,639 --> 00:16:08,720
+i start from filling the first row and
+
+416
+00:16:06,959 --> 00:16:10,560
+then i use the first row to calculate
+
+417
+00:16:08,720 --> 00:16:13,600
+the second row i use the second row to
+
+418
+00:16:10,560 --> 00:16:16,480
+take it in the third row i kill 0
+
+419
+00:16:13,600 --> 00:16:19,920
+yeah yeah look f i
+
+420
+00:16:16,480 --> 00:16:22,720
+is based on f i minus 1 right
+
+421
+00:16:19,920 --> 00:16:24,959
+right all right the horizontal this is
+
+422
+00:16:22,720 --> 00:16:27,199
+the number what what's k here what k
+
+423
+00:16:24,959 --> 00:16:27,199
+here
+
+424
+00:16:27,400 --> 00:16:30,480
+[Music]
+
+425
+00:16:28,800 --> 00:16:32,000
+okay can you explain to me last question
+
+426
+00:16:30,480 --> 00:16:34,240
+what's f i j
+
+427
+00:16:32,000 --> 00:16:35,680
+f i j is
+
+428
+00:16:34,240 --> 00:16:38,639
+like
+
+429
+00:16:35,680 --> 00:16:41,519
+like this is i
+
+430
+00:16:38,639 --> 00:16:44,639
+what's ij what does it mean here
+
+431
+00:16:41,519 --> 00:16:46,940
+this is i said you got i
+
+432
+00:16:44,639 --> 00:16:50,079
+coined yeah
+
+433
+00:16:46,940 --> 00:16:50,079
+[Music]
+
+434
+00:16:52,880 --> 00:16:56,560
+okay one english question english right
+
+435
+00:16:54,800 --> 00:16:58,480
+there when you say something about
+
+436
+00:16:56,560 --> 00:17:00,720
+what's the difference the number
+
+437
+00:16:58,480 --> 00:17:02,720
+and the amount
+
+438
+00:17:00,720 --> 00:17:05,839
+the number of coins and the amount of
+
+439
+00:17:02,720 --> 00:17:05,839
+coins which one is correct
+
+440
+00:17:06,079 --> 00:17:09,679
+you don't know i saw the number is that
+
+441
+00:17:08,079 --> 00:17:12,559
+you can count but the amount is
+
+442
+00:17:09,679 --> 00:17:14,640
+something you don't count like water you
+
+443
+00:17:12,559 --> 00:17:16,400
+don't count the amount of water the
+
+444
+00:17:14,640 --> 00:17:17,439
+number of coins
+
+445
+00:17:16,400 --> 00:17:19,360
+yeah
+
+446
+00:17:17,439 --> 00:17:20,959
+yeah but we're not talking about water
+
+447
+00:17:19,360 --> 00:17:23,839
+yeah no i'm just saying that you say
+
+448
+00:17:20,959 --> 00:17:26,000
+amount of coins is that the right way of
+
+449
+00:17:23,839 --> 00:17:27,120
+saying it i don't know yeah
+
+450
+00:17:26,000 --> 00:17:28,640
+okay
+
+451
+00:17:27,120 --> 00:17:33,559
+okay what's the time complexity if you
+
+452
+00:17:28,640 --> 00:17:33,559
+look at this question this is easy
+
+453
+00:17:37,200 --> 00:17:42,720
+because look at this n and if this is up
+
+454
+00:17:39,520 --> 00:17:45,600
+to k it is o and k right but if this i
+
+455
+00:17:42,720 --> 00:17:48,480
+change this to k k is smaller than equal
+
+456
+00:17:45,600 --> 00:17:51,520
+than n so it's o n squared
+
+457
+00:17:48,480 --> 00:17:54,320
+the upper bound okay the outer part
+
+458
+00:17:51,520 --> 00:17:56,160
+makes sense if k is bigger than n
+
+459
+00:17:54,320 --> 00:17:59,799
+we return zero here
+
+460
+00:17:56,160 --> 00:17:59,799
+what's the space complexity
+
+461
+00:18:00,000 --> 00:18:03,039
+one
+
+462
+00:18:01,600 --> 00:18:06,160
+why you always say oh one what's the
+
+463
+00:18:03,039 --> 00:18:07,520
+space comedy i'm pointing to these
+
+464
+00:18:06,160 --> 00:18:08,480
+o minus
+
+465
+00:18:07,520 --> 00:18:11,360
+okay
+
+466
+00:18:08,480 --> 00:18:14,360
+o minus k plus one
+
+467
+00:18:11,360 --> 00:18:14,360
+um
+
+468
+00:18:23,840 --> 00:18:27,120
+bye bye
+
