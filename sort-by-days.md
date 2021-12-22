@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 368 (2021-12-22): [Compute Minimum Absolute Difference of Two Numbers in an Array](https://helloacm.com/teaching-kids-programming-compute-minimum-absolute-difference-of-two-numbers-in-an-array/) 数组中两数最小差和最小差的数对 [Youtube](https://youtu.be/DkGjMOe32CY) - [B站](https://www.bilibili.com/video/BV1u44y177Xz/)  - [西瓜](https://www.ixigua.com/7044581917013836325) 
 - Day 367 (2021-12-21): [Day of the Year (Leap Year Algorithm)](https://helloacm.com/teaching-kids-programming-day-of-the-year-leap-year-algorithm/) 一年中的第几天(闰年算法)
  [Youtube](https://youtu.be/owb9IbB4ARo) - [B站](https://www.bilibili.com/video/BV1Qi4y197VL/)  - [西瓜](https://www.ixigua.com/7044201950069391903) 
 - Day 366 (2021-12-20): [Multiple Strange Coin Flips/Toss Bottom Up Dynamic Programming Algorithm (Knapsack Variant)](https://helloacm.com/teaching-kids-programming-multiple-strange-coin-flips-toss-bottom-up-dynamic-programming-algorithm-knapsack-variant/) 背包变种-多个硬币正面概率-由下至上动态规划算法 [Youtube](https://youtu.be/6PxpqjfyOS4) - [B站](https://www.bilibili.com/video/BV12Z4y1Q7Es/)  - [西瓜](https://www.ixigua.com/7043895377208017416) 
