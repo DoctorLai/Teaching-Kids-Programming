@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 369 (2021-12-23): [Minimum Starting Nodes to Visit Graph (Topological Sort, Indegree)](https://helloacm.com/teaching-kids-programming-minimum-starting-nodes-to-visit-graph-topological-sort-indegree/) 访问图的最少起始节点(拓扑排序、入度) [Youtube](https://youtu.be/J7fLSGFFfkM) - [B站](https://www.bilibili.com/video/BV1KM4y1w7iB/)  - [西瓜](https://www.ixigua.com/7044976657282630152) 
 - Day 368 (2021-12-22): [Compute Minimum Absolute Difference of Two Numbers in an Array](https://helloacm.com/teaching-kids-programming-compute-minimum-absolute-difference-of-two-numbers-in-an-array/) 数组中两数最小差和最小差的数对 [Youtube](https://youtu.be/DkGjMOe32CY) - [B站](https://www.bilibili.com/video/BV1u44y177Xz/)  - [西瓜](https://www.ixigua.com/7044581917013836325) 
 - Day 367 (2021-12-21): [Day of the Year (Leap Year Algorithm)](https://helloacm.com/teaching-kids-programming-day-of-the-year-leap-year-algorithm/) 一年中的第几天(闰年算法)
  [Youtube](https://youtu.be/owb9IbB4ARo) - [B站](https://www.bilibili.com/video/BV1Qi4y197VL/)  - [西瓜](https://www.ixigua.com/7044201950069391903) 
