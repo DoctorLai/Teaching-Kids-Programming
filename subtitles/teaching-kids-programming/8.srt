@@ -1,0 +1,1244 @@
+1
+00:00:06,300 --> 00:00:09,120
+[Music]
+
+2
+00:00:08,240 --> 00:00:11,519
+okay so
+
+3
+00:00:09,120 --> 00:00:13,040
+today we're going to talk about
+
+4
+00:00:11,519 --> 00:00:15,759
+different
+
+5
+00:00:13,040 --> 00:00:17,600
+different approach to check if a string
+
+6
+00:00:15,759 --> 00:00:18,960
+is a palindrome do you want to remember
+
+7
+00:00:17,600 --> 00:00:23,039
+this parenchyme
+
+8
+00:00:18,960 --> 00:00:25,840
+yeah right andrew lumen police
+
+9
+00:00:23,039 --> 00:00:30,160
+palindrome yeah paragrams you know
+
+10
+00:00:25,840 --> 00:00:30,160
+string or list or numbers what way is it
+
+11
+00:00:31,650 --> 00:00:36,020
+[Music]
+
+12
+00:00:49,920 --> 00:00:57,120
+okay good job okay
+
+13
+00:00:53,680 --> 00:00:59,199
+ryan to get it yeah what where is they
+
+14
+00:00:57,120 --> 00:01:01,920
+like
+
+15
+00:00:59,199 --> 00:01:02,399
+okay good job good job okay good job
+
+16
+00:01:01,920 --> 00:01:05,600
+yeah
+
+17
+00:01:02,399 --> 00:01:06,159
+yeah okay so here better so how do we
+
+18
+00:01:05,600 --> 00:01:08,320
+check if
+
+19
+00:01:06,159 --> 00:01:09,760
+a given let's say today we want to check
+
+20
+00:01:08,320 --> 00:01:13,200
+define
+
+21
+00:01:09,760 --> 00:01:16,320
+define is palindrome okay
+
+22
+00:01:13,200 --> 00:01:19,119
+per syndrome let's
+
+23
+00:01:16,320 --> 00:01:20,240
+take a string for example string so we
+
+24
+00:01:19,119 --> 00:01:22,320
+need to re
+
+25
+00:01:20,240 --> 00:01:24,799
+we need to check if the different string
+
+26
+00:01:22,320 --> 00:01:26,880
+is the parent so how do you check it
+
+27
+00:01:24,799 --> 00:01:29,360
+how do you check it do you have any any
+
+28
+00:01:26,880 --> 00:01:31,090
+other ideas how do we check if a string
+
+29
+00:01:29,360 --> 00:01:34,169
+is a pending germ
+
+30
+00:01:31,090 --> 00:01:34,169
+[Music]
+
+31
+00:01:35,040 --> 00:01:41,840
+how do you check it wait wait yeah you
+
+32
+00:01:38,079 --> 00:01:41,840
+got some idea
+
+33
+00:01:44,399 --> 00:01:49,759
+so how do we check it approach i mean
+
+34
+00:01:47,439 --> 00:01:51,520
+if given you're given a string like abc
+
+35
+00:01:49,759 --> 00:01:52,960
+how do you know if it's the parent or
+
+36
+00:01:51,520 --> 00:01:56,000
+not
+
+37
+00:01:52,960 --> 00:01:59,200
+cba yes that's a very good
+
+38
+00:01:56,000 --> 00:02:02,479
+uh hint so
+
+39
+00:01:59,200 --> 00:02:05,119
+it doesn't be the same abc
+
+40
+00:02:02,479 --> 00:02:07,360
+well there will be cbi yeah yeah yeah
+
+41
+00:02:05,119 --> 00:02:09,840
+reverse it good point so we reverse it
+
+42
+00:02:07,360 --> 00:02:11,599
+yeah we reverse it to check if it's
+
+43
+00:02:09,840 --> 00:02:13,120
+the same so how do we write it we can do
+
+44
+00:02:11,599 --> 00:02:16,160
+this return
+
+45
+00:02:13,120 --> 00:02:19,440
+return reverse reverse
+
+46
+00:02:16,160 --> 00:02:22,640
+this string if error
+
+47
+00:02:19,440 --> 00:02:25,280
+if it's the same as the input okay
+
+48
+00:02:22,640 --> 00:02:26,400
+that's one line of curve okay yes so how
+
+49
+00:02:25,280 --> 00:02:28,640
+do we check
+
+50
+00:02:26,400 --> 00:02:30,480
+yeah no no no no you need to define this
+
+51
+00:02:28,640 --> 00:02:32,959
+left so what is the graph
+
+52
+00:02:30,480 --> 00:02:34,160
+you can define another function right to
+
+53
+00:02:32,959 --> 00:02:37,840
+reverse it right
+
+54
+00:02:34,160 --> 00:02:37,840
+so how to reverse it
+
+55
+00:02:38,930 --> 00:02:44,000
+[Music]
+
+56
+00:02:41,200 --> 00:02:44,560
+remember the optional approach this easy
+
+57
+00:02:44,000 --> 00:02:47,680
+approach
+
+58
+00:02:44,560 --> 00:02:48,080
+like we can define the answer here first
+
+59
+00:02:47,680 --> 00:02:51,599
+of all
+
+60
+00:02:48,080 --> 00:02:54,720
+equals empty string then for
+
+61
+00:02:51,599 --> 00:02:58,720
+i in s
+
+62
+00:02:54,720 --> 00:03:01,440
+answer equals i plus angle yeah put it
+
+63
+00:02:58,720 --> 00:03:02,720
+put every character before the and
+
+64
+00:03:01,440 --> 00:03:06,159
+before it so it will be
+
+65
+00:03:02,720 --> 00:03:06,159
+reversed yeah return what
+
+66
+00:03:06,560 --> 00:03:12,159
+return reverse
+
+67
+00:03:10,080 --> 00:03:13,440
+return what this is a function return
+
+68
+00:03:12,159 --> 00:03:16,560
+what arms
+
+69
+00:03:13,440 --> 00:03:19,840
+yeah return answer
+
+70
+00:03:16,560 --> 00:03:20,480
+yeah that's easy how we in python we can
+
+71
+00:03:19,840 --> 00:03:23,280
+use a
+
+72
+00:03:20,480 --> 00:03:24,879
+much better quicker way look this
+
+73
+00:03:23,280 --> 00:03:29,120
+housing
+
+74
+00:03:24,879 --> 00:03:32,159
+can be replaced by what return
+
+75
+00:03:29,120 --> 00:03:35,200
+because look look carefully it's a very
+
+76
+00:03:32,159 --> 00:03:36,080
+special keyword s okay then what should
+
+77
+00:03:35,200 --> 00:03:38,560
+we do
+
+78
+00:03:36,080 --> 00:03:38,560
+bracket
+
+79
+00:03:39,280 --> 00:03:44,640
+column column minus one
+
+80
+00:03:42,400 --> 00:03:46,319
+okay it means reverse it okay so this
+
+81
+00:03:44,640 --> 00:03:48,560
+whole thing can be replaced
+
+82
+00:03:46,319 --> 00:03:49,360
+by python this means to reverse it why
+
+83
+00:03:48,560 --> 00:03:53,040
+does two
+
+84
+00:03:49,360 --> 00:03:57,040
+columns begin on a list sorry
+
+85
+00:03:53,040 --> 00:03:59,439
+why are there two columns
+
+86
+00:03:57,040 --> 00:04:00,799
+this is just a keyword any a string then
+
+87
+00:03:59,439 --> 00:04:03,840
+we can do it
+
+88
+00:04:00,799 --> 00:04:07,599
+this way then it means look if s is
+
+89
+00:04:03,840 --> 00:04:11,439
+a b c and these will become c b a
+
+90
+00:04:07,599 --> 00:04:14,959
+okay okay so that's one way of doing it
+
+91
+00:04:11,439 --> 00:04:18,560
+yes so
+
+92
+00:04:14,959 --> 00:04:19,600
+how do we i mean we this is one way of
+
+93
+00:04:18,560 --> 00:04:21,600
+doing that we
+
+94
+00:04:19,600 --> 00:04:23,680
+can also do it this way okay we can
+
+95
+00:04:21,600 --> 00:04:27,040
+check so how do we check
+
+96
+00:04:23,680 --> 00:04:30,240
+we can for example like a
+
+97
+00:04:27,040 --> 00:04:32,880
+b b c
+
+98
+00:04:30,240 --> 00:04:35,199
+b b a okay so we can check this
+
+99
+00:04:32,880 --> 00:04:37,600
+character if it's the same as this
+
+100
+00:04:35,199 --> 00:04:38,240
+if it is the same and i move it to b to
+
+101
+00:04:37,600 --> 00:04:42,000
+b
+
+102
+00:04:38,240 --> 00:04:45,280
+so i have two things one here left
+
+103
+00:04:42,000 --> 00:04:48,160
+one here right
+
+104
+00:04:45,280 --> 00:04:50,400
+got it so if it's the same i move it
+
+105
+00:04:48,160 --> 00:04:53,520
+towards each other the left plus
+
+106
+00:04:50,400 --> 00:04:56,240
+equals one yeah and left
+
+107
+00:04:53,520 --> 00:04:56,880
+right minus equals one until they meet
+
+108
+00:04:56,240 --> 00:05:01,840
+they're gonna
+
+109
+00:04:56,880 --> 00:05:05,199
+understand that then yeah yeah yeah okay
+
+110
+00:05:01,840 --> 00:05:08,840
+okay so how do we write this look look
+
+111
+00:05:05,199 --> 00:05:12,160
+left equals zero
+
+112
+00:05:08,840 --> 00:05:15,039
+right equals length
+
+113
+00:05:12,160 --> 00:05:16,960
+s minus one yeah because it's uh the
+
+114
+00:05:15,039 --> 00:05:17,600
+star always in computer always start
+
+115
+00:05:16,960 --> 00:05:20,240
+with zero
+
+116
+00:05:17,600 --> 00:05:20,880
+still means the first character okay yes
+
+117
+00:05:20,240 --> 00:05:24,080
+so we can
+
+118
+00:05:20,880 --> 00:05:25,919
+check this y left
+
+119
+00:05:24,080 --> 00:05:28,400
+smaller than right yeah when they don't
+
+120
+00:05:25,919 --> 00:05:33,039
+meet each other right
+
+121
+00:05:28,400 --> 00:05:38,400
+i'm right so we can check if
+
+122
+00:05:33,039 --> 00:05:40,880
+s left not equal
+
+123
+00:05:38,400 --> 00:05:40,880
+as y
+
+124
+00:05:42,240 --> 00:05:52,240
+not equal this is not equal equal
+
+125
+00:05:46,000 --> 00:05:53,840
+not equal
+
+126
+00:05:52,240 --> 00:05:55,680
+yeah yeah but how do you put it in
+
+127
+00:05:53,840 --> 00:05:57,600
+computer we use this to
+
+128
+00:05:55,680 --> 00:05:59,280
+to put it in computer not equal don't
+
+129
+00:05:57,600 --> 00:06:01,120
+get it okay because
+
+130
+00:05:59,280 --> 00:06:04,639
+we don't have these in computer keyboard
+
+131
+00:06:01,120 --> 00:06:04,639
+okay so this
+
+132
+00:06:04,800 --> 00:06:08,639
+yeah yeah come here look if if the left
+
+133
+00:06:07,840 --> 00:06:10,560
+try
+
+134
+00:06:08,639 --> 00:06:12,000
+that character is not equal to right
+
+135
+00:06:10,560 --> 00:06:12,960
+character what what should we do it's
+
+136
+00:06:12,000 --> 00:06:16,000
+not apparently
+
+137
+00:06:12,960 --> 00:06:19,039
+right then we turn fast right
+
+138
+00:06:16,000 --> 00:06:22,080
+we can fall no no no
+
+139
+00:06:19,039 --> 00:06:27,840
+no because then we need to move the
+
+140
+00:06:22,080 --> 00:06:27,840
+left to the right and move to the right
+
+141
+00:06:28,240 --> 00:06:32,560
+to the left right and then if they meet
+
+142
+00:06:30,639 --> 00:06:34,639
+in the meter that means that
+
+143
+00:06:32,560 --> 00:06:36,160
+minus equal plus equals the left would
+
+144
+00:06:34,639 --> 00:06:38,240
+be increment by one
+
+145
+00:06:36,160 --> 00:06:39,680
+right would be decrement by one okay
+
+146
+00:06:38,240 --> 00:06:41,280
+then in after this
+
+147
+00:06:39,680 --> 00:06:42,880
+what what should we do if they meet in
+
+148
+00:06:41,280 --> 00:06:44,639
+the middle also we don't
+
+149
+00:06:42,880 --> 00:06:46,319
+return true right because we find we
+
+150
+00:06:44,639 --> 00:06:49,360
+found this
+
+151
+00:06:46,319 --> 00:06:52,479
+i'm right so what yeah so so look
+
+152
+00:06:49,360 --> 00:06:53,039
+this race car can we do it with the race
+
+153
+00:06:52,479 --> 00:06:56,560
+car thing
+
+154
+00:06:53,039 --> 00:07:00,720
+yeah like that race car
+
+155
+00:06:56,560 --> 00:07:00,720
+okay so left left is here
+
+156
+00:07:01,680 --> 00:07:04,560
+right is here
+
+157
+00:07:05,440 --> 00:07:10,319
+why left smaller than right is here
+
+158
+00:07:08,160 --> 00:07:13,360
+we're here yeah right here
+
+159
+00:07:10,319 --> 00:07:16,960
+if x left equals not if i
+
+160
+00:07:13,360 --> 00:07:19,840
+was r yes yeah so left would be
+
+161
+00:07:16,960 --> 00:07:20,560
+a i'll be a and then check if the same
+
+162
+00:07:19,840 --> 00:07:23,440
+yes
+
+163
+00:07:20,560 --> 00:07:24,800
+the same yes okay in the middle they are
+
+164
+00:07:23,440 --> 00:07:25,919
+in the middle so we don't check so
+
+165
+00:07:24,800 --> 00:07:28,880
+return true
+
+166
+00:07:25,919 --> 00:07:30,319
+okay to get it moving moving towards the
+
+167
+00:07:28,880 --> 00:07:33,360
+middle
+
+168
+00:07:30,319 --> 00:07:34,800
+yes okay so this is one way of doing and
+
+169
+00:07:33,360 --> 00:07:37,840
+we can also use the four
+
+170
+00:07:34,800 --> 00:07:39,039
+how do we use the four look we can use
+
+171
+00:07:37,840 --> 00:07:43,280
+the four
+
+172
+00:07:39,039 --> 00:07:47,440
+it's quite similar look for
+
+173
+00:07:43,280 --> 00:07:47,440
+i in range
+
+174
+00:07:47,599 --> 00:07:52,000
+land as rightly this will give the
+
+175
+00:07:51,039 --> 00:07:54,879
+number
+
+176
+00:07:52,000 --> 00:07:55,759
+index actually we don't need to check in
+
+177
+00:07:54,879 --> 00:07:58,080
+the meter right
+
+178
+00:07:55,759 --> 00:07:59,199
+because we only want we don't we don't
+
+179
+00:07:58,080 --> 00:08:01,039
+need to go
+
+180
+00:07:59,199 --> 00:08:04,879
+too late entire we need to go to the
+
+181
+00:08:01,039 --> 00:08:07,599
+meter so range this will be divided by 2
+
+182
+00:08:04,879 --> 00:08:08,400
+in a meter just in the middle so how do
+
+183
+00:08:07,599 --> 00:08:13,039
+we do
+
+184
+00:08:08,400 --> 00:08:16,720
+when we do this if s i
+
+185
+00:08:13,039 --> 00:08:20,400
+what's the corresponding if i is here
+
+186
+00:08:16,720 --> 00:08:24,240
+i is zero then we want to
+
+187
+00:08:20,400 --> 00:08:27,520
+find these corresponding so it will be s
+
+188
+00:08:24,240 --> 00:08:30,639
+lan s minus one minus i
+
+189
+00:08:27,520 --> 00:08:34,159
+right if i is zero then you'll be less s
+
+190
+00:08:30,639 --> 00:08:36,880
+minus one i zero i is one you'll be less
+
+191
+00:08:34,159 --> 00:08:38,240
+s minus one minus one minus two if it's
+
+192
+00:08:36,880 --> 00:08:41,839
+not equal
+
+193
+00:08:38,240 --> 00:08:41,839
+then return first
+
+194
+00:08:42,959 --> 00:08:46,080
+otherwise here return true okay it's the
+
+195
+00:08:45,440 --> 00:08:48,240
+similar
+
+196
+00:08:46,080 --> 00:08:50,480
+thing but we are doing a different
+
+197
+00:08:48,240 --> 00:08:54,240
+implementation so do you understand it
+
+198
+00:08:50,480 --> 00:08:56,000
+sorry we don't need airs because look
+
+199
+00:08:54,240 --> 00:08:57,360
+this is inside the floor right this is
+
+200
+00:08:56,000 --> 00:08:59,519
+in inside the floor
+
+201
+00:08:57,360 --> 00:09:00,480
+if we return then it will return it
+
+202
+00:08:59,519 --> 00:09:02,720
+doesn't go
+
+203
+00:09:00,480 --> 00:09:03,920
+it doesn't continue then at least we and
+
+204
+00:09:02,720 --> 00:09:06,959
+now we'll return to
+
+205
+00:09:03,920 --> 00:09:08,560
+after this for loop to get it we got a
+
+206
+00:09:06,959 --> 00:09:10,800
+space here yeah intent
+
+207
+00:09:08,560 --> 00:09:12,000
+like that that return is belongs to this
+
+208
+00:09:10,800 --> 00:09:14,480
+if
+
+209
+00:09:12,000 --> 00:09:15,360
+okay so this is one way of doing can we
+
+210
+00:09:14,480 --> 00:09:18,399
+do
+
+211
+00:09:15,360 --> 00:09:22,080
+can we use something like stack remember
+
+212
+00:09:18,399 --> 00:09:22,080
+do you remember the stack first thing
+
+213
+00:09:24,880 --> 00:09:28,240
+okay so how do we do it with the stack
+
+214
+00:09:26,800 --> 00:09:31,360
+that's the last approach and then you'll
+
+215
+00:09:28,240 --> 00:09:33,839
+tell me which one is the best okay
+
+216
+00:09:31,360 --> 00:09:35,279
+and today you're going to implement one
+
+217
+00:09:33,839 --> 00:09:37,920
+okay because i have it i've
+
+218
+00:09:35,279 --> 00:09:40,160
+i've told you now three approach right
+
+219
+00:09:37,920 --> 00:09:43,519
+three or four i can't remember you can
+
+220
+00:09:40,160 --> 00:09:45,519
+you can remember yeah now how do we do
+
+221
+00:09:43,519 --> 00:09:49,279
+it with the stack
+
+222
+00:09:45,519 --> 00:09:50,000
+first in our stack so first of all we
+
+223
+00:09:49,279 --> 00:09:55,360
+need to convert
+
+224
+00:09:50,000 --> 00:09:55,360
+this as string in string into a list
+
+225
+00:09:55,519 --> 00:09:59,120
+of finger space now there's no space you
+
+226
+00:09:58,080 --> 00:10:02,079
+you don't have the
+
+227
+00:09:59,120 --> 00:10:03,760
+space look we convert it into a list so
+
+228
+00:10:02,079 --> 00:10:07,279
+we use the list
+
+229
+00:10:03,760 --> 00:10:08,800
+as now it will be this will become a i
+
+230
+00:10:07,279 --> 00:10:12,160
+will become what
+
+231
+00:10:08,800 --> 00:10:16,160
+a b c
+
+232
+00:10:12,160 --> 00:10:19,279
+right okay so now
+
+233
+00:10:16,160 --> 00:10:20,800
+now we got these so what do we do what
+
+234
+00:10:19,279 --> 00:10:23,680
+do we do
+
+235
+00:10:20,800 --> 00:10:23,680
+how do we check
+
+236
+00:10:25,839 --> 00:10:31,519
+so we want to check if it's backwards
+
+237
+00:10:28,399 --> 00:10:34,720
+right it's backwards
+
+238
+00:10:31,519 --> 00:10:35,680
+it's backwards version is the same as
+
+239
+00:10:34,720 --> 00:10:40,079
+this
+
+240
+00:10:35,680 --> 00:10:42,480
+so column so what can we do
+
+241
+00:10:40,079 --> 00:10:43,839
+they are away array already just
+
+242
+00:10:42,480 --> 00:10:46,800
+standard
+
+243
+00:10:43,839 --> 00:10:47,440
+so what can we do with it so we need we
+
+244
+00:10:46,800 --> 00:10:50,959
+have this
+
+245
+00:10:47,440 --> 00:10:54,720
+then we have i we can say um
+
+246
+00:10:50,959 --> 00:10:54,720
+away just wait
+
+247
+00:10:55,200 --> 00:11:02,880
+for wait for i
+
+248
+00:10:59,600 --> 00:11:04,880
+in f so we're iterating from this a b
+
+249
+00:11:02,880 --> 00:11:07,120
+c right and now we need to take the
+
+250
+00:11:04,880 --> 00:11:12,320
+element from the aar
+
+251
+00:11:07,120 --> 00:11:12,320
+a r dot pop wow
+
+252
+00:11:12,839 --> 00:11:19,360
+what yes what do you want
+
+253
+00:11:17,279 --> 00:11:20,880
+i told you don't worry i i'll come back
+
+254
+00:11:19,360 --> 00:11:22,880
+to you later okay
+
+255
+00:11:20,880 --> 00:11:25,040
+remember yeah you'll be good boy on the
+
+256
+00:11:22,880 --> 00:11:27,120
+video okay remember
+
+257
+00:11:25,040 --> 00:11:28,480
+now we take the last element at the end
+
+258
+00:11:27,120 --> 00:11:30,800
+right we take
+
+259
+00:11:28,480 --> 00:11:31,680
+the last element at the end and we need
+
+260
+00:11:30,800 --> 00:11:35,600
+to check if
+
+261
+00:11:31,680 --> 00:11:38,800
+x if we not equals to i
+
+262
+00:11:35,600 --> 00:11:40,720
+then return first i
+
+263
+00:11:38,800 --> 00:11:43,839
+explained to you later okay otherwise
+
+264
+00:11:40,720 --> 00:11:43,839
+here we will return to
+
+265
+00:11:44,720 --> 00:11:48,160
+so to get it look we converted this
+
+266
+00:11:47,120 --> 00:11:50,800
+string into a b
+
+267
+00:11:48,160 --> 00:11:52,000
+c the list and every time we take an
+
+268
+00:11:50,800 --> 00:11:54,240
+element from the end
+
+269
+00:11:52,000 --> 00:11:56,320
+and pop it which is c and we compare to
+
+270
+00:11:54,240 --> 00:11:58,160
+the a if it's
+
+271
+00:11:56,320 --> 00:12:00,160
+if it's not equal then we'll do 10 4
+
+272
+00:11:58,160 --> 00:12:03,440
+immediately and
+
+273
+00:12:00,160 --> 00:12:07,120
+this way look if you race car race car
+
+274
+00:12:03,440 --> 00:12:10,959
+yeah then race car will be become a
+
+275
+00:12:07,120 --> 00:12:14,079
+a list and i take the c first
+
+276
+00:12:10,959 --> 00:12:16,639
+uh let's cut r here right and then
+
+277
+00:12:14,079 --> 00:12:18,079
+it's the same i could continue pop it
+
+278
+00:12:16,639 --> 00:12:19,920
+poppy poppy poppy poppy pop
+
+279
+00:12:18,079 --> 00:12:22,240
+and here if it's n and return so do you
+
+280
+00:12:19,920 --> 00:12:22,240
+get it
+
+281
+00:12:22,880 --> 00:12:28,399
+okay so which way do you like the best
+
+282
+00:12:26,240 --> 00:12:29,600
+but the most easy way would be is
+
+283
+00:12:28,399 --> 00:12:34,000
+pairing drum
+
+284
+00:12:29,600 --> 00:12:37,360
+s remember this
+
+285
+00:12:34,000 --> 00:12:40,720
+is s yeah you just need one
+
+286
+00:12:37,360 --> 00:12:43,760
+return yeah return is
+
+287
+00:12:40,720 --> 00:12:44,959
+we can leave this is the easiest way you
+
+288
+00:12:43,760 --> 00:12:47,120
+just only write that
+
+289
+00:12:44,959 --> 00:12:49,440
+yeah we turn left you find you know yeah
+
+290
+00:12:47,120 --> 00:12:49,440
+yeah
+
+291
+00:12:50,560 --> 00:12:54,399
+that returned that remember previously i
+
+292
+00:12:52,639 --> 00:12:55,600
+told you this is in a separate function
+
+293
+00:12:54,399 --> 00:12:57,040
+with red right
+
+294
+00:12:55,600 --> 00:12:58,959
+but you don't need to define two
+
+295
+00:12:57,040 --> 00:13:01,519
+functions you can just put it
+
+296
+00:12:58,959 --> 00:13:02,639
+there at least it's one way remember we
+
+297
+00:13:01,519 --> 00:13:04,720
+use the four
+
+298
+00:13:02,639 --> 00:13:06,240
+we use the two pointers left and right
+
+299
+00:13:04,720 --> 00:13:09,200
+right left and right and
+
+300
+00:13:06,240 --> 00:13:11,040
+put it in the middle right and we also
+
+301
+00:13:09,200 --> 00:13:12,639
+don't need to check the entire string we
+
+302
+00:13:11,040 --> 00:13:13,680
+just need to check half of the string
+
+303
+00:13:12,639 --> 00:13:16,959
+and calculate
+
+304
+00:13:13,680 --> 00:13:19,120
+the index okay so any questions
+
+305
+00:13:16,959 --> 00:13:21,200
+before you pick up one of your best
+
+306
+00:13:19,120 --> 00:13:23,600
+approach you know you like your favorite
+
+307
+00:13:21,200 --> 00:13:26,079
+approach to implement on your computer
+
+308
+00:13:23,600 --> 00:13:28,160
+and one final last thing say goodbye to
+
+309
+00:13:26,079 --> 00:13:35,600
+the video
+
+310
+00:13:28,160 --> 00:13:38,880
+say bye to the video
+
+311
+00:13:35,600 --> 00:13:38,880
+you know
+
