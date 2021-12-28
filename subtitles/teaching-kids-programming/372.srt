@@ -1,0 +1,1684 @@
+1
+00:00:07,359 --> 00:00:11,759
+let's say we talk about some next
+
+2
+00:00:09,280 --> 00:00:15,040
+problem yeah knapsack knapsack
+
+3
+00:00:11,759 --> 00:00:16,960
+that's actually like a bag okay okay
+
+4
+00:00:15,040 --> 00:00:18,080
+okay a bag
+
+5
+00:00:16,960 --> 00:00:21,359
+so bad
+
+6
+00:00:18,080 --> 00:00:22,400
+so we have a few items yeah items
+
+7
+00:00:21,359 --> 00:00:24,960
+a few
+
+8
+00:00:22,400 --> 00:00:26,800
+items like uh and each one has weight
+
+9
+00:00:24,960 --> 00:00:28,880
+right the weight
+
+10
+00:00:26,800 --> 00:00:31,760
+wait let's say we have three items one
+
+11
+00:00:28,880 --> 00:00:33,600
+kilo two kilo three kilo
+
+12
+00:00:31,760 --> 00:00:35,760
+okay and then for each item we have
+
+13
+00:00:33,600 --> 00:00:37,920
+values right for example the first one
+
+14
+00:00:35,760 --> 00:00:41,520
+has one pound
+
+15
+00:00:37,920 --> 00:00:43,120
+one dollar us dollar okay five us dollar
+
+16
+00:00:41,520 --> 00:00:46,320
+two us dollar
+
+17
+00:00:43,120 --> 00:00:47,920
+and this next set yeah can hold all at
+
+18
+00:00:46,320 --> 00:00:50,480
+most
+
+19
+00:00:47,920 --> 00:00:51,680
+and most what capacity five kilo okay
+
+20
+00:00:50,480 --> 00:00:53,840
+five kilo
+
+21
+00:00:51,680 --> 00:00:57,280
+so for each item obviously we only have
+
+22
+00:00:53,840 --> 00:00:59,199
+one you can pick it or not pick it so
+
+23
+00:00:57,280 --> 00:01:01,440
+what's the total
+
+24
+00:00:59,199 --> 00:01:04,720
+what's the maximum what's the maximum
+
+25
+00:01:01,440 --> 00:01:05,920
+value we can pack these item
+
+26
+00:01:04,720 --> 00:01:09,280
+into
+
+27
+00:01:05,920 --> 00:01:10,159
+the knife set the bag
+
+28
+00:01:09,280 --> 00:01:13,119
+okay
+
+29
+00:01:10,159 --> 00:01:15,040
+right so which which
+
+30
+00:01:13,119 --> 00:01:17,759
+these three items which one you want to
+
+31
+00:01:15,040 --> 00:01:19,119
+pick let's so to maximize the value the
+
+32
+00:01:17,759 --> 00:01:20,720
+value in the back
+
+33
+00:01:19,119 --> 00:01:22,080
+the last one
+
+34
+00:01:20,720 --> 00:01:23,200
+this one
+
+35
+00:01:22,080 --> 00:01:26,159
+and
+
+36
+00:01:23,200 --> 00:01:28,479
+look we have capacity five so we if we
+
+37
+00:01:26,159 --> 00:01:30,640
+pick this we have two more
+
+38
+00:01:28,479 --> 00:01:31,840
+remaining two so which which one we
+
+39
+00:01:30,640 --> 00:01:33,920
+should pick
+
+40
+00:01:31,840 --> 00:01:35,439
+the middle one yeah so look two plus
+
+41
+00:01:33,920 --> 00:01:37,840
+three
+
+42
+00:01:35,439 --> 00:01:39,280
+is smaller or equal five and the value
+
+43
+00:01:37,840 --> 00:01:41,200
+we get is
+
+44
+00:01:39,280 --> 00:01:43,520
+five plus three equals eight so this is
+
+45
+00:01:41,200 --> 00:01:45,840
+the maximum value we can get okay so
+
+46
+00:01:43,520 --> 00:01:47,680
+let's call the zero one next step
+
+47
+00:01:45,840 --> 00:01:49,920
+problem
+
+48
+00:01:47,680 --> 00:01:52,560
+generally so let's formulize these a
+
+49
+00:01:49,920 --> 00:01:54,960
+little bit okay so look
+
+50
+00:01:52,560 --> 00:01:56,960
+each one we can pick or not pick right
+
+51
+00:01:54,960 --> 00:01:58,719
+which one we can pick or nothing let's
+
+52
+00:01:56,960 --> 00:02:00,640
+let's put it as uh
+
+53
+00:01:58,719 --> 00:02:04,399
+pick p okay p
+
+54
+00:02:00,640 --> 00:02:07,119
+equals uh zero value yeah zero zero zero
+
+55
+00:02:04,399 --> 00:02:09,759
+or one value okay so if we pick it we
+
+56
+00:02:07,119 --> 00:02:11,440
+use the one if we don't pick it
+
+57
+00:02:09,759 --> 00:02:14,480
+it's yellow okay
+
+58
+00:02:11,440 --> 00:02:17,360
+all right so so we want to pick the item
+
+59
+00:02:14,480 --> 00:02:18,720
+we want to maximize we want to maximize
+
+60
+00:02:17,360 --> 00:02:21,200
+maximize
+
+61
+00:02:18,720 --> 00:02:22,879
+maximize maximize what
+
+62
+00:02:21,200 --> 00:02:24,239
+p
+
+63
+00:02:22,879 --> 00:02:25,280
+p i
+
+64
+00:02:24,239 --> 00:02:29,440
+times
+
+65
+00:02:25,280 --> 00:02:32,080
+p i i okay i index yeah p i times the v
+
+66
+00:02:29,440 --> 00:02:33,120
+i we want to we want to maximize this
+
+67
+00:02:32,080 --> 00:02:35,920
+yeah so
+
+68
+00:02:33,120 --> 00:02:39,680
+that's the sum of it so maximize this is
+
+69
+00:02:35,920 --> 00:02:43,280
+the sum okay okay when this is sum i
+
+70
+00:02:39,680 --> 00:02:46,400
+from 0 to n minus 1 n is the number of
+
+71
+00:02:43,280 --> 00:02:48,959
+elements in number of items yeah number
+
+72
+00:02:46,400 --> 00:02:49,760
+of items
+
+73
+00:02:48,959 --> 00:02:52,480
+okay
+
+74
+00:02:49,760 --> 00:02:55,440
+sum can you read this sum
+
+75
+00:02:52,480 --> 00:02:56,959
+i from zero to n minus one p i times v i
+
+76
+00:02:55,440 --> 00:02:58,400
+when it's zero
+
+77
+00:02:56,959 --> 00:03:01,200
+what does it mean we don't pick it one
+
+78
+00:02:58,400 --> 00:03:03,599
+is one we pick it right but this is the
+
+79
+00:03:01,200 --> 00:03:06,000
+maximum this is our target we want to
+
+80
+00:03:03,599 --> 00:03:08,560
+maximize this but we want to suggest to
+
+81
+00:03:06,000 --> 00:03:11,440
+what it suggests to what we don't want
+
+82
+00:03:08,560 --> 00:03:13,599
+the total weight to except the capacity
+
+83
+00:03:11,440 --> 00:03:15,599
+right so the total weight is what i
+
+84
+00:03:13,599 --> 00:03:17,120
+equal 0
+
+85
+00:03:15,599 --> 00:03:19,040
+n minus 1
+
+86
+00:03:17,120 --> 00:03:20,959
+wait yeah wait
+
+87
+00:03:19,040 --> 00:03:22,959
+wait it will be wi
+
+88
+00:03:20,959 --> 00:03:26,159
+times pi
+
+89
+00:03:22,959 --> 00:03:27,040
+is less or equal than c okay
+
+90
+00:03:26,159 --> 00:03:29,840
+you see
+
+91
+00:03:27,040 --> 00:03:31,599
+less than equals c w i is the weight
+
+92
+00:03:29,840 --> 00:03:34,480
+times ti look
+
+93
+00:03:31,599 --> 00:03:36,159
+if it's zero it doesn't use up the space
+
+94
+00:03:34,480 --> 00:03:37,440
+if it's one
+
+95
+00:03:36,159 --> 00:03:40,720
+if it's one
+
+96
+00:03:37,440 --> 00:03:44,159
+you use such space right yeah okay so
+
+97
+00:03:40,720 --> 00:03:46,720
+and then also we need to say p i
+
+98
+00:03:44,159 --> 00:03:49,120
+is belongs to
+
+99
+00:03:46,720 --> 00:03:50,000
+the yellow and one okay
+
+100
+00:03:49,120 --> 00:03:52,640
+yeah
+
+101
+00:03:50,000 --> 00:03:54,239
+this this makes it like zero one knocks
+
+102
+00:03:52,640 --> 00:03:57,360
+up okay
+
+103
+00:03:54,239 --> 00:04:00,080
+can we can we choose the most valuable
+
+104
+00:03:57,360 --> 00:04:03,439
+one if we go for this strategy can we
+
+105
+00:04:00,080 --> 00:04:03,439
+choose the most valuable one
+
+106
+00:04:05,519 --> 00:04:09,439
+can we choose look what's your strategy
+
+107
+00:04:07,840 --> 00:04:11,439
+here what
+
+108
+00:04:09,439 --> 00:04:12,799
+you pick the
+
+109
+00:04:11,439 --> 00:04:16,720
+why you pick the last one at the
+
+110
+00:04:12,799 --> 00:04:19,359
+beginning not the middle one
+
+111
+00:04:16,720 --> 00:04:19,359
+it's because
+
+112
+00:04:23,680 --> 00:04:27,360
+because these are three yeah you just
+
+113
+00:04:25,280 --> 00:04:28,720
+run them and pick one right okay so you
+
+114
+00:04:27,360 --> 00:04:30,560
+might know what the right why is that
+
+115
+00:04:28,720 --> 00:04:32,720
+because look if this is the most
+
+116
+00:04:30,560 --> 00:04:33,919
+variable how about it's very very happy
+
+117
+00:04:32,720 --> 00:04:36,080
+heavy yeah
+
+118
+00:04:33,919 --> 00:04:38,320
+you can't pick it you can always
+
+119
+00:04:36,080 --> 00:04:40,240
+you can obviously put this 100 into the
+
+120
+00:04:38,320 --> 00:04:43,199
+c equals five right so this doesn't work
+
+121
+00:04:40,240 --> 00:04:45,199
+that's heavy yeah that's heavy items one
+
+122
+00:04:43,199 --> 00:04:48,160
+how about how about there's another
+
+123
+00:04:45,199 --> 00:04:51,280
+strategy if we consider v divided by w
+
+124
+00:04:48,160 --> 00:04:54,479
+the ratio yeah but you need the the most
+
+125
+00:04:51,280 --> 00:04:56,639
+valuable items in the uni in a single
+
+126
+00:04:54,479 --> 00:04:58,800
+unit weight for example that would be
+
+127
+00:04:56,639 --> 00:05:01,520
+2.5 that would be one that would be one
+
+128
+00:04:58,800 --> 00:05:04,160
+and how about let's put it 1.1 here
+
+129
+00:05:01,520 --> 00:05:06,800
+right so let's please yeah we pick this
+
+130
+00:05:04,160 --> 00:05:08,960
+2.5 but the next one we pick 1.1 which
+
+131
+00:05:06,800 --> 00:05:10,400
+is not clearly not the optimum right
+
+132
+00:05:08,960 --> 00:05:13,199
+yeah because this
+
+133
+00:05:10,400 --> 00:05:14,800
+misleads us to pick these but obviously
+
+134
+00:05:13,199 --> 00:05:15,680
+we need to pick this one
+
+135
+00:05:14,800 --> 00:05:17,199
+right
+
+136
+00:05:15,680 --> 00:05:18,880
+yeah
+
+137
+00:05:17,199 --> 00:05:20,479
+make sense
+
+138
+00:05:18,880 --> 00:05:21,840
+yeah
+
+139
+00:05:20,479 --> 00:05:25,360
+okay so
+
+140
+00:05:21,840 --> 00:05:27,600
+so for each item we can pick or not pick
+
+141
+00:05:25,360 --> 00:05:29,600
+so how many items are an item for each
+
+142
+00:05:27,600 --> 00:05:31,360
+one i can pick or not pick so how many
+
+143
+00:05:29,600 --> 00:05:33,840
+choices do we have
+
+144
+00:05:31,360 --> 00:05:35,840
+the first one we have and two choice the
+
+145
+00:05:33,840 --> 00:05:37,759
+second one we haven't two choice the
+
+146
+00:05:35,840 --> 00:05:39,600
+third one we have one another to try so
+
+147
+00:05:37,759 --> 00:05:41,120
+what's the time complexity if we prove
+
+148
+00:05:39,600 --> 00:05:43,280
+something yes
+
+149
+00:05:41,120 --> 00:05:44,560
+that would be equivalent of finding the
+
+150
+00:05:43,280 --> 00:05:46,320
+subsequence right remember the
+
+151
+00:05:44,560 --> 00:05:48,960
+subsequence
+
+152
+00:05:46,320 --> 00:05:48,960
+that's dependent
+
+153
+00:05:49,280 --> 00:05:53,039
+not continue yeah for each one we can
+
+154
+00:05:50,960 --> 00:05:55,120
+pick or not pick each one the first one
+
+155
+00:05:53,039 --> 00:05:57,759
+has two choice the second one has two
+
+156
+00:05:55,120 --> 00:06:00,160
+choice the third one has two choice the
+
+157
+00:05:57,759 --> 00:06:03,039
+the we have n items so they are in
+
+158
+00:06:00,160 --> 00:06:06,319
+choice right and choice here and choice
+
+159
+00:06:03,039 --> 00:06:07,600
+the tangent next is two to the power of
+
+160
+00:06:06,319 --> 00:06:09,520
+n right
+
+161
+00:06:07,600 --> 00:06:11,680
+this is the equivalent of finding the
+
+162
+00:06:09,520 --> 00:06:13,520
+subsequent the number of subsequent yeah
+
+163
+00:06:11,680 --> 00:06:15,280
+yeah
+
+164
+00:06:13,520 --> 00:06:17,680
+so yeah so the time convention will be
+
+165
+00:06:15,280 --> 00:06:21,039
+this one pick in the number and
+
+166
+00:06:17,680 --> 00:06:22,720
+obviously we need to times n to find out
+
+167
+00:06:21,039 --> 00:06:24,960
+the um
+
+168
+00:06:22,720 --> 00:06:28,000
+to sum up yeah to sum the values up
+
+169
+00:06:24,960 --> 00:06:30,720
+right so this is not very feasible very
+
+170
+00:06:28,000 --> 00:06:32,639
+not not it's practically very slow okay
+
+171
+00:06:30,720 --> 00:06:35,120
+but as we said for each one we can pick
+
+172
+00:06:32,639 --> 00:06:36,960
+or not pick and if we can
+
+173
+00:06:35,120 --> 00:06:38,800
+write it right
+
+174
+00:06:36,960 --> 00:06:41,120
+if we can use the computer to remember
+
+175
+00:06:38,800 --> 00:06:42,960
+it remember yeah if we give it a set
+
+176
+00:06:41,120 --> 00:06:46,180
+okay we ask computers to remember what
+
+177
+00:06:42,960 --> 00:06:48,400
+kind of accurate come to your mind
+
+178
+00:06:46,180 --> 00:06:50,000
+[Music]
+
+179
+00:06:48,400 --> 00:06:52,080
+yeah that'll be programming okay and
+
+180
+00:06:50,000 --> 00:06:54,800
+i'll use the top down today and tomorrow
+
+181
+00:06:52,080 --> 00:06:57,759
+we'll talk about the butter up okay
+
+182
+00:06:54,800 --> 00:07:02,800
+okay so for each one
+
+183
+00:06:57,759 --> 00:07:05,120
+yeah so look define let's define cut
+
+184
+00:07:02,800 --> 00:07:07,759
+defined let's say
+
+185
+00:07:05,120 --> 00:07:09,360
+first search i know for two parameters
+
+186
+00:07:07,759 --> 00:07:11,680
+the first parameter i the second
+
+187
+00:07:09,360 --> 00:07:13,840
+pendulum is c y
+
+188
+00:07:11,680 --> 00:07:15,280
+and c okay good question that's a good
+
+189
+00:07:13,840 --> 00:07:17,599
+question what does it mean it means that
+
+190
+00:07:15,280 --> 00:07:19,440
+we are remember that the numbers we're
+
+191
+00:07:17,599 --> 00:07:21,680
+picking yeah yeah we're picking the
+
+192
+00:07:19,440 --> 00:07:23,120
+numbers remember yeah it's quite similar
+
+193
+00:07:21,680 --> 00:07:26,000
+to that problem
+
+194
+00:07:23,120 --> 00:07:29,280
+we are picking the ice num ice item okay
+
+195
+00:07:26,000 --> 00:07:30,240
+we are picking the ice item okay
+
+196
+00:07:29,280 --> 00:07:33,120
+the
+
+197
+00:07:30,240 --> 00:07:35,599
+the the first item is zero yeah
+
+198
+00:07:33,120 --> 00:07:37,520
+we are kicking with ice item and then we
+
+199
+00:07:35,599 --> 00:07:39,520
+have capacity c
+
+200
+00:07:37,520 --> 00:07:44,479
+in the next
+
+201
+00:07:39,520 --> 00:07:46,960
+okay look if i equal equal length the
+
+202
+00:07:44,479 --> 00:07:48,720
+the weight or i value yeah doesn't
+
+203
+00:07:46,960 --> 00:07:50,240
+matter
+
+204
+00:07:48,720 --> 00:07:53,039
+if we have
+
+205
+00:07:50,240 --> 00:07:56,479
+we are running out of items
+
+206
+00:07:53,039 --> 00:07:59,479
+so we return the value which will be
+
+207
+00:07:56,479 --> 00:07:59,479
+what
+
+208
+00:08:00,830 --> 00:08:03,890
+[Music]
+
+209
+00:08:11,599 --> 00:08:14,879
+yeah it's the same you can put a value
+
+210
+00:08:13,280 --> 00:08:17,360
+yeah it's the same it's the length right
+
+211
+00:08:14,879 --> 00:08:19,440
+the length of the values and uh
+
+212
+00:08:17,360 --> 00:08:21,199
+weights are the same yeah different the
+
+213
+00:08:19,440 --> 00:08:24,400
+same thing yeah
+
+214
+00:08:21,199 --> 00:08:25,360
+represent the number of items right now
+
+215
+00:08:24,400 --> 00:08:27,199
+now for
+
+216
+00:08:25,360 --> 00:08:30,240
+now i i can get the answer at the
+
+217
+00:08:27,199 --> 00:08:33,279
+beginning of this year okay now like if
+
+218
+00:08:30,240 --> 00:08:35,839
+if this capacity we have capacity equal
+
+219
+00:08:33,279 --> 00:08:38,839
+bigger than equal the weight
+
+220
+00:08:35,839 --> 00:08:42,320
+current item is weight high
+
+221
+00:08:38,839 --> 00:08:45,519
+right so look we have capacity c and the
+
+222
+00:08:42,320 --> 00:08:47,120
+current item has weight this weight all
+
+223
+00:08:45,519 --> 00:08:47,920
+right
+
+224
+00:08:47,120 --> 00:08:50,399
+if
+
+225
+00:08:47,920 --> 00:08:51,519
+we have enough capacity to pick this
+
+226
+00:08:50,399 --> 00:08:53,440
+item
+
+227
+00:08:51,519 --> 00:08:54,480
+right so we can pick it we can try to
+
+228
+00:08:53,440 --> 00:08:56,720
+pick it
+
+229
+00:08:54,480 --> 00:08:58,640
+right you can just take it answer equals
+
+230
+00:08:56,720 --> 00:09:00,480
+max answer
+
+231
+00:08:58,640 --> 00:09:03,040
+and if we pick it
+
+232
+00:09:00,480 --> 00:09:04,320
+pick it dfs we need to pick the next
+
+233
+00:09:03,040 --> 00:09:06,399
+item
+
+234
+00:09:04,320 --> 00:09:09,040
+and what happened to the capacity if we
+
+235
+00:09:06,399 --> 00:09:11,360
+pick it what's the capacity left
+
+236
+00:09:09,040 --> 00:09:13,360
+minus weighs i yeah we just need to
+
+237
+00:09:11,360 --> 00:09:16,080
+minus here
+
+238
+00:09:13,360 --> 00:09:18,640
+i yeah this one
+
+239
+00:09:16,080 --> 00:09:22,160
+and then we we have picked this so we
+
+240
+00:09:18,640 --> 00:09:24,720
+have we we gain the value right plus
+
+241
+00:09:22,160 --> 00:09:26,240
+values what i
+
+242
+00:09:24,720 --> 00:09:28,959
+make sense
+
+243
+00:09:26,240 --> 00:09:31,040
+right and obviously we cannot we we can
+
+244
+00:09:28,959 --> 00:09:32,000
+choose not to pick this item right so i
+
+245
+00:09:31,040 --> 00:09:36,080
+can say
+
+246
+00:09:32,000 --> 00:09:39,760
+answer equals max answer
+
+247
+00:09:36,080 --> 00:09:42,320
+we're not picking it dfs but we try to
+
+248
+00:09:39,760 --> 00:09:44,320
+move to the next item yeah and then we
+
+249
+00:09:42,320 --> 00:09:45,519
+still have capacity c if we don't pick
+
+250
+00:09:44,320 --> 00:09:47,040
+it right
+
+251
+00:09:45,519 --> 00:09:51,560
+yeah
+
+252
+00:09:47,040 --> 00:09:51,560
+return answer make sense
+
+253
+00:09:52,160 --> 00:09:55,120
+what's missing here
+
+254
+00:09:59,040 --> 00:10:03,200
+if we're not putting any sketch
+
+255
+00:10:01,600 --> 00:10:05,600
+right
+
+256
+00:10:03,200 --> 00:10:07,839
+exponential it's like i said o two to
+
+257
+00:10:05,600 --> 00:10:09,519
+the power of n right yeah to the power
+
+258
+00:10:07,839 --> 00:10:11,200
+to the power because each one we can
+
+259
+00:10:09,519 --> 00:10:12,240
+pick or not pick each one will pick
+
+260
+00:10:11,200 --> 00:10:15,040
+nothing
+
+261
+00:10:12,240 --> 00:10:17,600
+i and c right so it's actually
+
+262
+00:10:15,040 --> 00:10:19,760
+what i and c so
+
+263
+00:10:17,600 --> 00:10:22,079
+i will be the item okay if we list the
+
+264
+00:10:19,760 --> 00:10:24,079
+values here okay this is i
+
+265
+00:10:22,079 --> 00:10:26,000
+i will be the number of items yeah so
+
+266
+00:10:24,079 --> 00:10:27,040
+you'll be 0 1
+
+267
+00:10:26,000 --> 00:10:28,079
+2
+
+268
+00:10:27,040 --> 00:10:30,560
+here
+
+269
+00:10:28,079 --> 00:10:32,959
+and minus 1 right this is item and then
+
+270
+00:10:30,560 --> 00:10:34,079
+c is the capacity
+
+271
+00:10:32,959 --> 00:10:34,959
+0
+
+272
+00:10:34,079 --> 00:10:37,040
+1
+
+273
+00:10:34,959 --> 00:10:40,160
+2
+
+274
+00:10:37,040 --> 00:10:42,079
+yeah yeah we we saw this
+
+275
+00:10:40,160 --> 00:10:42,959
+table before yeah if we want to pick
+
+276
+00:10:42,079 --> 00:10:46,000
+these
+
+277
+00:10:42,959 --> 00:10:48,320
+and minus one item and then capacity c
+
+278
+00:10:46,000 --> 00:10:50,160
+somehow here yeah c somehow here i want
+
+279
+00:10:48,320 --> 00:10:52,079
+to compute this value
+
+280
+00:10:50,160 --> 00:10:54,480
+but the computer needs to go through
+
+281
+00:10:52,079 --> 00:10:56,959
+these okay then you look for the
+
+282
+00:10:54,480 --> 00:10:59,600
+for what for the values here somewhere
+
+283
+00:10:56,959 --> 00:11:01,279
+and then these would be again we need to
+
+284
+00:10:59,600 --> 00:11:03,680
+calculate in order to calculate this
+
+285
+00:11:01,279 --> 00:11:04,959
+value i need to calculate a few more
+
+286
+00:11:03,680 --> 00:11:06,800
+values right
+
+287
+00:11:04,959 --> 00:11:08,320
+yeah but each time
+
+288
+00:11:06,800 --> 00:11:11,279
+each time
+
+289
+00:11:08,320 --> 00:11:13,600
+i calculate this value i make it i may
+
+290
+00:11:11,279 --> 00:11:16,399
+have to calculate some
+
+291
+00:11:13,600 --> 00:11:18,880
+same pixel same number again and again
+
+292
+00:11:16,399 --> 00:11:21,839
+right yeah but if i put a cache what's
+
+293
+00:11:18,880 --> 00:11:25,360
+the what's the maximum number of values
+
+294
+00:11:21,839 --> 00:11:25,360
+i need to compute in this table
+
+295
+00:11:27,600 --> 00:11:32,399
+and uh times n where down c times n yeah
+
+296
+00:11:30,000 --> 00:11:34,959
+yeah if i'm gonna catch it right because
+
+297
+00:11:32,399 --> 00:11:38,000
+everything i only calculate once if i
+
+298
+00:11:34,959 --> 00:11:40,320
+calculate it and what what what do we do
+
+299
+00:11:38,000 --> 00:11:42,480
+we store the numbers in the cash
+
+300
+00:11:40,320 --> 00:11:45,040
+right so the next time you just look it
+
+301
+00:11:42,480 --> 00:11:47,920
+up the value and you don't need to
+
+302
+00:11:45,040 --> 00:11:50,160
+to do it again and again right okay
+
+303
+00:11:47,920 --> 00:11:51,040
+yeah look look at this one
+
+304
+00:11:50,160 --> 00:11:54,399
+now
+
+305
+00:11:51,040 --> 00:11:56,399
+if if the current capacity is bigger
+
+306
+00:11:54,399 --> 00:11:58,320
+than the weight the weight now we can
+
+307
+00:11:56,399 --> 00:11:59,680
+pick it we can try to pick it when we
+
+308
+00:11:58,320 --> 00:12:02,079
+try to pick it
+
+309
+00:11:59,680 --> 00:12:05,360
+the weight needs to substrate these but
+
+310
+00:12:02,079 --> 00:12:06,880
+the values need to pass it right yeah
+
+311
+00:12:05,360 --> 00:12:07,839
+right
+
+312
+00:12:06,880 --> 00:12:09,600
+and
+
+313
+00:12:07,839 --> 00:12:12,639
+look eyes
+
+314
+00:12:09,600 --> 00:12:15,760
+0 to n and we can obviously we can start
+
+315
+00:12:12,639 --> 00:12:17,519
+from i backwards yeah from n minus 1 to
+
+316
+00:12:15,760 --> 00:12:20,720
+0 this is the same thing
+
+317
+00:12:17,519 --> 00:12:23,360
+this implementation is from 0 to n minus
+
+318
+00:12:20,720 --> 00:12:25,760
+1 because look this is plus 1 right if
+
+319
+00:12:23,360 --> 00:12:27,920
+we start from n minus one to zero this
+
+320
+00:12:25,760 --> 00:12:29,440
+this will be minus one minus one and
+
+321
+00:12:27,920 --> 00:12:32,320
+then these will be
+
+322
+00:12:29,440 --> 00:12:33,200
+smaller than zero right okay
+
+323
+00:12:32,320 --> 00:12:35,040
+yeah
+
+324
+00:12:33,200 --> 00:12:37,519
+yeah smaller than zero okay let's write
+
+325
+00:12:35,040 --> 00:12:40,160
+this book if this is smaller than zero
+
+326
+00:12:37,519 --> 00:12:42,480
+right smaller than zero and this needs
+
+327
+00:12:40,160 --> 00:12:44,560
+to minus one yeah
+
+328
+00:12:42,480 --> 00:12:47,600
+and then we in order to get this value
+
+329
+00:12:44,560 --> 00:12:50,399
+we just return dfs
+
+330
+00:12:47,600 --> 00:12:52,720
+uh n minus one which is length of weight
+
+331
+00:12:50,399 --> 00:12:54,720
+or length of values n minus 1 and at the
+
+332
+00:12:52,720 --> 00:12:55,519
+beginning we have capacity c
+
+333
+00:12:54,720 --> 00:12:58,079
+all right
+
+334
+00:12:55,519 --> 00:13:00,000
+so you'll be start at this value yeah in
+
+335
+00:12:58,079 --> 00:13:01,360
+order to calculate this value what
+
+336
+00:13:00,000 --> 00:13:04,880
+happened
+
+337
+00:13:01,360 --> 00:13:07,440
+we might have to calculate
+
+338
+00:13:04,880 --> 00:13:09,839
+this value uh here if we don't pick
+
+339
+00:13:07,440 --> 00:13:11,839
+anything or if we pick that item could
+
+340
+00:13:09,839 --> 00:13:13,360
+be somewhere here right somewhere here
+
+341
+00:13:11,839 --> 00:13:15,120
+right somewhere here
+
+342
+00:13:13,360 --> 00:13:16,880
+right and again in order to calculate
+
+343
+00:13:15,120 --> 00:13:17,839
+this value we need to take a release
+
+344
+00:13:16,880 --> 00:13:20,480
+value
+
+345
+00:13:17,839 --> 00:13:22,959
+or somewhere here right okay
+
+346
+00:13:20,480 --> 00:13:24,959
+and so these this looking up this is
+
+347
+00:13:22,959 --> 00:13:26,480
+top-down top-down dynamic programming if
+
+348
+00:13:24,959 --> 00:13:28,800
+we put a cache
+
+349
+00:13:26,480 --> 00:13:31,279
+yeah make sense
+
+350
+00:13:28,800 --> 00:13:33,920
+anybody any questions
+
+351
+00:13:31,279 --> 00:13:36,240
+no questions okay are you sure okay can
+
+352
+00:13:33,920 --> 00:13:38,800
+you explain to me what's this
+
+353
+00:13:36,240 --> 00:13:40,959
+what's this
+
+354
+00:13:38,800 --> 00:13:43,920
+what's this this is the most important
+
+355
+00:13:40,959 --> 00:13:45,680
+thing to take away from the cash
+
+356
+00:13:43,920 --> 00:13:48,959
+can can somebody explain to me about
+
+357
+00:13:45,680 --> 00:13:48,959
+this why are we
+
+358
+00:13:50,720 --> 00:13:55,150
+is um greater than the weight which is
+
+359
+00:13:53,279 --> 00:13:56,720
+good because
+
+360
+00:13:55,150 --> 00:13:59,839
+[Music]
+
+361
+00:13:56,720 --> 00:14:02,000
+if this is current remaining capacity of
+
+362
+00:13:59,839 --> 00:14:03,920
+the back right the left side it's bigger
+
+363
+00:14:02,000 --> 00:14:05,920
+than this item well wait we can try to
+
+364
+00:14:03,920 --> 00:14:08,240
+book it yeah yeah you can burn level one
+
+365
+00:14:05,920 --> 00:14:09,440
+you can put it and then once we put it
+
+366
+00:14:08,240 --> 00:14:10,959
+what will happen
+
+367
+00:14:09,440 --> 00:14:14,320
+we need to substrate away from the
+
+368
+00:14:10,959 --> 00:14:16,639
+capacity yeah do the dms but again we
+
+369
+00:14:14,320 --> 00:14:19,120
+get a value right and then you can get
+
+370
+00:14:16,639 --> 00:14:20,240
+another one yeah and for and we can get
+
+371
+00:14:19,120 --> 00:14:22,720
+around
+
+372
+00:14:20,240 --> 00:14:24,639
+this is just two choice yeah this is
+
+373
+00:14:22,720 --> 00:14:27,120
+this choice is that
+
+374
+00:14:24,639 --> 00:14:29,279
+if we can put a put a value
+
+375
+00:14:27,120 --> 00:14:30,480
+and try we try putting it
+
+376
+00:14:29,279 --> 00:14:32,480
+right
+
+377
+00:14:30,480 --> 00:14:34,560
+because in
+
+378
+00:14:32,480 --> 00:14:36,350
+basically for each item we only have two
+
+379
+00:14:34,560 --> 00:14:37,440
+choice we pick it or not pick it right
+
+380
+00:14:36,350 --> 00:14:38,480
+[Music]
+
+381
+00:14:37,440 --> 00:14:39,760
+right
+
+382
+00:14:38,480 --> 00:14:41,519
+we pick it
+
+383
+00:14:39,760 --> 00:14:45,360
+this one is we don't kick it if we don't
+
+384
+00:14:41,519 --> 00:14:48,240
+pick it we try the the next item
+
+385
+00:14:45,360 --> 00:14:51,839
+with why this is c if we don't pick it
+
+386
+00:14:48,240 --> 00:14:53,440
+this is very obvious what does it say
+
+387
+00:14:51,839 --> 00:14:56,639
+because the
+
+388
+00:14:53,440 --> 00:14:58,720
+capacity the capacity capacity why is
+
+389
+00:14:56,639 --> 00:15:01,600
+this see if we don't pick it why is it
+
+390
+00:14:58,720 --> 00:15:02,959
+seriously because because you don't did
+
+391
+00:15:01,600 --> 00:15:04,800
+nothing change
+
+392
+00:15:02,959 --> 00:15:06,800
+where does nothing change yeah if we
+
+393
+00:15:04,800 --> 00:15:09,199
+don't pick it nothing change we try next
+
+394
+00:15:06,800 --> 00:15:11,760
+item right yeah if we pick it we can
+
+395
+00:15:09,199 --> 00:15:13,440
+pick it we try next item but the weight
+
+396
+00:15:11,760 --> 00:15:15,600
+needs to be subtracted and the value
+
+397
+00:15:13,440 --> 00:15:17,279
+needs to be yeah that's the maximum
+
+398
+00:15:15,600 --> 00:15:20,480
+weather i know we get the maximum yeah
+
+399
+00:15:17,279 --> 00:15:21,680
+yeah okay the time can taxi l times c
+
+400
+00:15:20,480 --> 00:15:24,079
+times n yeah
+
+401
+00:15:21,680 --> 00:15:27,120
+as we said right if we put a cash it's
+
+402
+00:15:24,079 --> 00:15:29,120
+all c times n okay
+
+403
+00:15:27,120 --> 00:15:30,399
+and if we don't take it it's o to the
+
+404
+00:15:29,120 --> 00:15:32,639
+power of n
+
+405
+00:15:30,399 --> 00:15:34,639
+you have l to the power of n actually
+
+406
+00:15:32,639 --> 00:15:35,920
+because each one will pick up and times
+
+407
+00:15:34,639 --> 00:15:38,399
+times the
+
+408
+00:15:35,920 --> 00:15:42,000
+n right times n okay
+
+409
+00:15:38,399 --> 00:15:44,240
+the number of items yeah we need to put
+
+410
+00:15:42,000 --> 00:15:46,160
+two the number of items and this one we
+
+411
+00:15:44,240 --> 00:15:48,160
+can pick on the pick so actually this is
+
+412
+00:15:46,160 --> 00:15:50,320
+the same as
+
+413
+00:15:48,160 --> 00:15:53,440
+iterating the
+
+414
+00:15:50,320 --> 00:15:56,079
+array and try each subsequent right for
+
+415
+00:15:53,440 --> 00:15:57,680
+each subsequence we need to
+
+416
+00:15:56,079 --> 00:16:00,320
+compute its
+
+417
+00:15:57,680 --> 00:16:02,480
+its weight right its values right yeah
+
+418
+00:16:00,320 --> 00:16:05,360
+it's where it is
+
+419
+00:16:02,480 --> 00:16:06,800
+yeah okay that's it for today good job
+
+420
+00:16:05,360 --> 00:16:09,800
+bye-bye
+
+421
+00:16:06,800 --> 00:16:09,800
+bye-bye
+
