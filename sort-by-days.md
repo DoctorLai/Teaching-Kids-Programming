@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 373 (2021-12-28): [Using Bottom Up Dynamic Programming Algorithm to Solve 0/1 Knapsack](https://helloacm.com/teaching-kids-programming-0-1-knapsack-problem-via-bottom-up-dynamic-programming-algorithm/) 0/1背包问题(由下而上的动态规划算法) [Youtube](https://youtu.be/K_H1OkjXaFc) - [B站](https://www.bilibili.com/video/BV1KR4y1s769/)  - [西瓜](https://www.ixigua.com/7046806890868638221) 
 - Day 372 (2021-12-27): [0/1 Knapsack Problem via Top Down Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-0-1-knapsack-problem-via-top-down-dynamic-programming-algorithm/) 0/1背包问题(自上而下的动态规划算法)
  [Youtube](https://youtu.be/rdO3NInZ8NA) - [B站](https://www.bilibili.com/video/BV1Bq4y1m72b/)  - [西瓜](https://www.ixigua.com/7046458026055696926) 
 - Day 371 (2021-12-25): [Math Proof of Rule: Integer Divisible By 3](https://helloacm.com/teaching-kids-programming-proof-of-rule-integer-divisible-by-3/) 整数能被3整除公式的数学证明 [Youtube](https://youtu.be/xCsURQEh9kg) - [B站](https://www.bilibili.com/video/BV14m4y197Zw/)  - [西瓜](https://www.ixigua.com/7045733651392233997) 
