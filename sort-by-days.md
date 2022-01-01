@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 375 (2022-01-01): [Split String with Same Distinct Counts (Sliding Window)](https://helloacm.com/teaching-kids-programming-split-string-with-same-distinct-counts-sliding-window/) 拆分具有相同不同计数的字符串(滑动窗口) [Youtube](https://youtu.be/mM09lEdJF3w) - [B站](https://www.bilibili.com/video/BV1f3411v7aS/)  - [西瓜](https://www.ixigua.com/7048349968045703717) 
 - Day 374 (2021-12-30): [0/1 Knapsack Space Optimised Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-0-1-knapsack-space-optimised-dynamic-programming-algorithm/) 0/1背包问题(空间优化的动态规划算法) [Youtube](https://youtu.be/CQE7GOPUEF0) - [B站](https://www.bilibili.com/video/BV1kY411h7R5/)  - [西瓜](https://www.ixigua.com/7047607169578959397) 
 - Day 373 (2021-12-28): [Using Bottom Up Dynamic Programming Algorithm to Solve 0/1 Knapsack](https://helloacm.com/teaching-kids-programming-0-1-knapsack-problem-via-bottom-up-dynamic-programming-algorithm/) 0/1背包问题(由下而上的动态规划算法) [Youtube](https://youtu.be/K_H1OkjXaFc) - [B站](https://www.bilibili.com/video/BV1KR4y1s769/)  - [西瓜](https://www.ixigua.com/7046806890868638221) 
 - Day 372 (2021-12-27): [0/1 Knapsack Problem via Top Down Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-0-1-knapsack-problem-via-top-down-dynamic-programming-algorithm/) 0/1背包问题(自上而下的动态规划算法)
