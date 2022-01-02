@@ -1,0 +1,1640 @@
+1
+00:00:00,740 --> 00:00:04,859
+[Music]
+
+2
+00:00:05,920 --> 00:00:12,240
+so we give it a string like a a b a b
+
+3
+00:00:10,000 --> 00:00:12,240
+okay
+
+4
+00:00:12,960 --> 00:00:19,199
+if we want to split you know split split
+
+5
+00:00:15,679 --> 00:00:21,279
+the string into two non empty parts
+
+6
+00:00:19,199 --> 00:00:25,359
+straight into two a
+
+7
+00:00:21,279 --> 00:00:26,480
+b a non empty how many ways can we do it
+
+8
+00:00:25,359 --> 00:00:30,480
+if we can
+
+9
+00:00:26,480 --> 00:00:33,200
+split the string into two parts but both
+
+10
+00:00:30,480 --> 00:00:34,559
+needs to be non-empty how many ways are
+
+11
+00:00:33,200 --> 00:00:36,480
+there
+
+12
+00:00:34,559 --> 00:00:38,960
+if the string has like these five
+
+13
+00:00:36,480 --> 00:00:41,680
+characters how many ways how many
+
+14
+00:00:38,960 --> 00:00:45,280
+how many ways can we split the string
+
+15
+00:00:41,680 --> 00:00:49,200
+into two non-empty parts two
+
+16
+00:00:45,280 --> 00:00:51,440
+two yeah two three or two two
+
+17
+00:00:49,200 --> 00:00:54,960
+one two
+
+18
+00:00:51,440 --> 00:00:58,559
+okay can you release the the a and abba
+
+19
+00:00:54,960 --> 00:00:58,559
+abba abba uh
+
+20
+00:01:16,400 --> 00:01:21,040
+how many characters one two three four
+
+21
+00:01:18,560 --> 00:01:22,240
+five let's end how many ways can we
+
+22
+00:01:21,040 --> 00:01:24,479
+split it
+
+23
+00:01:22,240 --> 00:01:27,360
+so it's n minus one yeah because we want
+
+24
+00:01:24,479 --> 00:01:31,040
+the long empty antibody okay okay
+
+25
+00:01:27,360 --> 00:01:32,240
+okay so above these four therefore yeah
+
+26
+00:01:31,040 --> 00:01:35,119
+how many
+
+27
+00:01:32,240 --> 00:01:37,680
+which two you know if we split into two
+
+28
+00:01:35,119 --> 00:01:40,720
+and each part has the same number of
+
+29
+00:01:37,680 --> 00:01:42,399
+distinct characters same distinct what
+
+30
+00:01:40,720 --> 00:01:44,479
+does that mean
+
+31
+00:01:42,399 --> 00:01:46,079
+this thing this thing what's this thing
+
+32
+00:01:44,479 --> 00:01:49,520
+unique yeah
+
+33
+00:01:46,079 --> 00:01:49,520
+characters we need
+
+34
+00:01:50,000 --> 00:01:57,200
+so look here we only have a here we have
+
+35
+00:01:53,200 --> 00:01:59,119
+a b right so look here has a this is a b
+
+36
+00:01:57,200 --> 00:02:00,640
+it's not the same
+
+37
+00:01:59,119 --> 00:02:03,759
+here a a
+
+38
+00:02:00,640 --> 00:02:06,799
+here a b here a here a b not the same
+
+39
+00:02:03,759 --> 00:02:10,160
+yeah a b a b look here has two a one b
+
+40
+00:02:06,799 --> 00:02:13,280
+this is one a one b but both have one
+
+41
+00:02:10,160 --> 00:02:15,680
+both have letters a and b so here
+
+42
+00:02:13,280 --> 00:02:16,959
+we count it and here
+
+43
+00:02:15,680 --> 00:02:19,360
+no right
+
+44
+00:02:16,959 --> 00:02:20,560
+yeah this is a and b here is b doesn't
+
+45
+00:02:19,360 --> 00:02:24,319
+have a
+
+46
+00:02:20,560 --> 00:02:27,680
+okay so we we want to check
+
+47
+00:02:24,319 --> 00:02:29,599
+and add is correct okay so look what's
+
+48
+00:02:27,680 --> 00:02:32,000
+what's the purpose here is we want to
+
+49
+00:02:29,599 --> 00:02:36,800
+count how many how many ways we can
+
+50
+00:02:32,000 --> 00:02:36,800
+split into the there's only one into two
+
+51
+00:02:42,000 --> 00:02:46,000
+distinct characters
+
+52
+00:02:43,599 --> 00:02:49,990
+right some distinct characters
+
+53
+00:02:46,000 --> 00:02:53,020
+any idea how we can do it any idea how
+
+54
+00:02:49,990 --> 00:02:53,020
+[Music]
+
+55
+00:02:56,560 --> 00:03:01,200
+how many ways can we can split into look
+
+56
+00:02:58,800 --> 00:03:04,080
+we can we said n minus one well we can
+
+57
+00:03:01,200 --> 00:03:05,360
+proof of it right we can just pull from
+
+58
+00:03:04,080 --> 00:03:06,400
+each
+
+59
+00:03:05,360 --> 00:03:09,440
+and then
+
+60
+00:03:06,400 --> 00:03:12,640
+and then and and then and then um how do
+
+61
+00:03:09,440 --> 00:03:15,360
+we check if both have intersect
+
+62
+00:03:12,640 --> 00:03:17,680
+in a set and what particularly in
+
+63
+00:03:15,360 --> 00:03:18,959
+yeah settle for the idea and another way
+
+64
+00:03:17,680 --> 00:03:21,360
+with
+
+65
+00:03:18,959 --> 00:03:23,599
+what kind of data structure are we using
+
+66
+00:03:21,360 --> 00:03:25,440
+to count
+
+67
+00:03:23,599 --> 00:03:26,720
+counter yeah we can use the counter and
+
+68
+00:03:25,440 --> 00:03:27,519
+we check the keys
+
+69
+00:03:26,720 --> 00:03:29,519
+right
+
+70
+00:03:27,519 --> 00:03:32,080
+we check the length of the keys if it's
+
+71
+00:03:29,519 --> 00:03:34,799
+equal right yeah okay so let's quickly
+
+72
+00:03:32,080 --> 00:03:37,440
+write this okay and then you know what
+
+73
+00:03:34,799 --> 00:03:39,280
+by implementing this we know the problem
+
+74
+00:03:37,440 --> 00:03:41,120
+better okay okay
+
+75
+00:03:39,280 --> 00:03:45,599
+please
+
+76
+00:03:41,120 --> 00:03:45,599
+define okay let's say just uh split
+
+77
+00:03:46,239 --> 00:03:48,159
+uh
+
+78
+00:03:47,040 --> 00:03:50,319
+split
+
+79
+00:03:48,159 --> 00:03:51,920
+into two three two okay
+
+80
+00:03:50,319 --> 00:03:54,239
+uh s
+
+81
+00:03:51,920 --> 00:03:56,239
+so first of all if the string is empty
+
+82
+00:03:54,239 --> 00:03:57,439
+we just return zero yeah because there's
+
+83
+00:03:56,239 --> 00:03:58,959
+no way
+
+84
+00:03:57,439 --> 00:04:02,000
+to
+
+85
+00:03:58,959 --> 00:04:04,720
+spread into two okay now let's let's
+
+86
+00:04:02,000 --> 00:04:08,000
+implement it let's let's do this for i
+
+87
+00:04:04,720 --> 00:04:08,000
+in range
+
+88
+00:04:08,080 --> 00:04:11,040
+length
+
+89
+00:04:09,280 --> 00:04:12,159
+s
+
+90
+00:04:11,040 --> 00:04:15,360
+okay
+
+91
+00:04:12,159 --> 00:04:18,479
+and then i look here s is here now i
+
+92
+00:04:15,360 --> 00:04:20,720
+just need to iterate this is i is zero
+
+93
+00:04:18,479 --> 00:04:24,560
+so i need to counter
+
+94
+00:04:20,720 --> 00:04:27,520
+i need to look here this part is s
+
+95
+00:04:24,560 --> 00:04:30,560
+i plus one okay and then
+
+96
+00:04:27,520 --> 00:04:32,240
+the right most bit the we split into the
+
+97
+00:04:30,560 --> 00:04:36,000
+string into two parts yeah the left
+
+98
+00:04:32,240 --> 00:04:39,919
+fifth is this yeah up to i including i
+
+99
+00:04:36,000 --> 00:04:42,639
+right the right bit is start from i
+
+100
+00:04:39,919 --> 00:04:45,520
+plus one to the end right
+
+101
+00:04:42,639 --> 00:04:47,520
+okay so let's say c1 equals counter yeah
+
+102
+00:04:45,520 --> 00:04:50,800
+we want to count
+
+103
+00:04:47,520 --> 00:04:54,160
+s up to i plus one
+
+104
+00:04:50,800 --> 00:04:55,919
+and c two is we want to call the the the
+
+105
+00:04:54,160 --> 00:04:58,479
+string on the right right so it's
+
+106
+00:04:55,919 --> 00:04:58,479
+counter
+
+107
+00:04:59,199 --> 00:05:04,800
+s i plus 1 to the n right
+
+108
+00:05:02,560 --> 00:05:07,039
+so how do we check if both parts have
+
+109
+00:05:04,800 --> 00:05:08,240
+the same number of characters uh you
+
+110
+00:05:07,039 --> 00:05:09,680
+know
+
+111
+00:05:08,240 --> 00:05:11,039
+distinct characters
+
+112
+00:05:09,680 --> 00:05:13,120
+we check the
+
+113
+00:05:11,039 --> 00:05:14,720
+what what do we check what counter what
+
+114
+00:05:13,120 --> 00:05:15,919
+does the counter have it's the
+
+115
+00:05:14,720 --> 00:05:18,639
+accountant
+
+116
+00:05:15,919 --> 00:05:21,680
+so what's the key of the counter
+
+117
+00:05:18,639 --> 00:05:23,919
+it's like it it's like how many times
+
+118
+00:05:21,680 --> 00:05:26,240
+each one appears let's try it yeah so
+
+119
+00:05:23,919 --> 00:05:28,240
+the keys are the distinct characters the
+
+120
+00:05:26,240 --> 00:05:29,759
+values are the number they appear right
+
+121
+00:05:28,240 --> 00:05:31,919
+so we want to check the keys or the
+
+122
+00:05:29,759 --> 00:05:34,479
+values of the c1 and c2 so how do we
+
+123
+00:05:31,919 --> 00:05:36,800
+compare it with c1 or c2
+
+124
+00:05:34,479 --> 00:05:36,800
+if
+
+125
+00:05:37,120 --> 00:05:37,800
+is what
+
+126
+00:05:38,560 --> 00:05:41,919
+c1 what's this what's how many
+
+127
+00:05:40,160 --> 00:05:44,320
+characters in c1
+
+128
+00:05:41,919 --> 00:05:45,039
+what how do we use it it's the same as
+
+129
+00:05:44,320 --> 00:05:47,280
+the
+
+130
+00:05:45,039 --> 00:05:49,600
+yeah yeah so it's length the key
+
+131
+00:05:47,280 --> 00:05:52,080
+length c1 this is the number of keys
+
+132
+00:05:49,600 --> 00:05:54,400
+which is the number of characters equals
+
+133
+00:05:52,080 --> 00:05:56,479
+the length of c2
+
+134
+00:05:54,400 --> 00:05:58,800
+all right and then we implement answer e
+
+135
+00:05:56,479 --> 00:06:00,720
+plus equal one and we need to initialize
+
+136
+00:05:58,800 --> 00:06:03,840
+the answer equals zero and return
+
+137
+00:06:00,720 --> 00:06:06,319
+another one yeah okay yeah
+
+138
+00:06:03,840 --> 00:06:08,720
+make sense look we go through the eye
+
+139
+00:06:06,319 --> 00:06:11,039
+and then each eye we split into two
+
+140
+00:06:08,720 --> 00:06:14,560
+halves and we use the counter right the
+
+141
+00:06:11,039 --> 00:06:16,080
+counter we do we count the stop the the
+
+142
+00:06:14,560 --> 00:06:17,600
+the string on the left and the string on
+
+143
+00:06:16,080 --> 00:06:18,960
+the right the partition you have to
+
+144
+00:06:17,600 --> 00:06:21,199
+partition
+
+145
+00:06:18,960 --> 00:06:24,160
+and then if the keys this is the key the
+
+146
+00:06:21,199 --> 00:06:25,759
+same number of the distinct characters
+
+147
+00:06:24,160 --> 00:06:27,840
+yeah we don't compare with the values
+
+148
+00:06:25,759 --> 00:06:31,199
+because values could be different right
+
+149
+00:06:27,840 --> 00:06:33,120
+yeah aab and aba
+
+150
+00:06:31,199 --> 00:06:35,600
+yeah that
+
+151
+00:06:33,120 --> 00:06:40,319
+aab which is
+
+152
+00:06:35,600 --> 00:06:43,280
+a2 b1 right and abb which will be
+
+153
+00:06:40,319 --> 00:06:45,759
+a1 b2 right look
+
+154
+00:06:43,280 --> 00:06:48,160
+but then c1 and c2 both
+
+155
+00:06:45,759 --> 00:06:50,000
+return two so these two equal right
+
+156
+00:06:48,160 --> 00:06:51,919
+answer equal one plus equal one right
+
+157
+00:06:50,000 --> 00:06:54,240
+make sense yeah we don't compare with
+
+158
+00:06:51,919 --> 00:06:56,720
+the values we only compare with the key
+
+159
+00:06:54,240 --> 00:06:59,599
+the length c1 and c2
+
+160
+00:06:56,720 --> 00:07:02,720
+so that does that mean you only contain
+
+161
+00:06:59,599 --> 00:07:05,039
+a's and b's
+
+162
+00:07:02,720 --> 00:07:07,120
+because because he said
+
+163
+00:07:05,039 --> 00:07:09,919
+we returned too
+
+164
+00:07:07,120 --> 00:07:12,319
+okay yeah that's very good point okay so
+
+165
+00:07:09,919 --> 00:07:14,400
+let me rephrase this bit a little bit if
+
+166
+00:07:12,319 --> 00:07:16,560
+the string only contains two a and b
+
+167
+00:07:14,400 --> 00:07:18,880
+okay and how about if we don't contain
+
+168
+00:07:16,560 --> 00:07:21,280
+it if not then we have we can change
+
+169
+00:07:18,880 --> 00:07:24,160
+this to one if we want to compare the a
+
+170
+00:07:21,280 --> 00:07:28,880
+and b are also equal right yeah
+
+171
+00:07:24,160 --> 00:07:28,880
+yeah so then we can say what if set
+
+172
+00:07:29,360 --> 00:07:33,919
+c1
+
+173
+00:07:30,880 --> 00:07:37,199
+the keys okay so if c1 the keys yeah c1
+
+174
+00:07:33,919 --> 00:07:37,199
+the keys is the
+
+175
+00:07:38,720 --> 00:07:43,599
+yeah a b right and equal
+
+176
+00:07:41,280 --> 00:07:45,840
+set c two dot b yeah
+
+177
+00:07:43,599 --> 00:07:45,840
+yeah
+
+178
+00:07:45,919 --> 00:07:51,280
+okay and then answer plus one okay make
+
+179
+00:07:48,319 --> 00:07:53,680
+sense yeah yeah okay okay that's a very
+
+180
+00:07:51,280 --> 00:07:56,160
+good point because if we use the length
+
+181
+00:07:53,680 --> 00:07:57,840
+what could happen if a and b at least
+
+182
+00:07:56,160 --> 00:07:59,919
+could be c and d they're different right
+
+183
+00:07:57,840 --> 00:08:01,199
+but then they're also two
+
+184
+00:07:59,919 --> 00:08:03,199
+makes sense
+
+185
+00:08:01,199 --> 00:08:05,940
+okay let's look at a very good one okay
+
+186
+00:08:03,199 --> 00:08:08,319
+what's the time from juxtaposition
+
+187
+00:08:05,940 --> 00:08:11,280
+[Music]
+
+188
+00:08:08,319 --> 00:08:13,199
+this is quite tricky look here and
+
+189
+00:08:11,280 --> 00:08:16,319
+where that one squared because counter
+
+190
+00:08:13,199 --> 00:08:19,199
+we have to do this and there's n here
+
+191
+00:08:16,319 --> 00:08:22,240
+and then let's here and the o n square
+
+192
+00:08:19,199 --> 00:08:22,240
+stays complexity
+
+193
+00:08:22,400 --> 00:08:26,639
+what's the space format
+
+194
+00:08:24,240 --> 00:08:26,639
+oh n
+
+195
+00:08:27,840 --> 00:08:32,159
+we can do it uh we can do it faster yeah
+
+196
+00:08:30,240 --> 00:08:34,880
+we can do it faster why is that look
+
+197
+00:08:32,159 --> 00:08:37,039
+every time by just right
+
+198
+00:08:34,880 --> 00:08:39,360
+with your big brain
+
+199
+00:08:37,039 --> 00:08:42,240
+okay so now look
+
+200
+00:08:39,360 --> 00:08:45,040
+i'm saying look look here this this is
+
+201
+00:08:42,240 --> 00:08:48,160
+c1 and this is c2
+
+202
+00:08:45,040 --> 00:08:50,160
+if i move the partition one character to
+
+203
+00:08:48,160 --> 00:08:52,480
+the right what happened
+
+204
+00:08:50,160 --> 00:08:54,000
+if i move this i position one position
+
+205
+00:08:52,480 --> 00:08:55,839
+to the right what happened if this
+
+206
+00:08:54,000 --> 00:08:59,440
+character is s i
+
+207
+00:08:55,839 --> 00:09:00,240
+do it how do we update c1 and c2
+
+208
+00:08:59,440 --> 00:09:02,240
+yeah
+
+209
+00:09:00,240 --> 00:09:05,279
+currently i'm seeing i hear the left is
+
+210
+00:09:02,240 --> 00:09:07,760
+c1 the right is c2 yeah
+
+211
+00:09:05,279 --> 00:09:10,000
+okay so what happens if i move the i one
+
+212
+00:09:07,760 --> 00:09:12,399
+position one character to the right
+
+213
+00:09:10,000 --> 00:09:13,200
+so what do i need to do with the ci plus
+
+214
+00:09:12,399 --> 00:09:16,000
+one
+
+215
+00:09:13,200 --> 00:09:18,399
+ci needs to include this letter yeah
+
+216
+00:09:16,000 --> 00:09:21,200
+but c2 needs to
+
+217
+00:09:18,399 --> 00:09:23,360
+delete it well done right so in
+
+218
+00:09:21,200 --> 00:09:24,959
+this one is slow why is that
+
+219
+00:09:23,360 --> 00:09:26,640
+because every time i need to count it
+
+220
+00:09:24,959 --> 00:09:29,600
+again again again yeah i need to
+
+221
+00:09:26,640 --> 00:09:32,640
+dynamically counting the two parts this
+
+222
+00:09:29,600 --> 00:09:34,959
+takes a long time but look i know i
+
+223
+00:09:32,640 --> 00:09:38,560
+every time move one character i can
+
+224
+00:09:34,959 --> 00:09:40,720
+update it a one time i can update c2 a
+
+225
+00:09:38,560 --> 00:09:43,120
+one time okay right
+
+226
+00:09:40,720 --> 00:09:44,880
+yeah so that'll be a faster right at
+
+227
+00:09:43,120 --> 00:09:47,200
+least will be fast okay
+
+228
+00:09:44,880 --> 00:09:50,720
+so let's do this
+
+229
+00:09:47,200 --> 00:09:53,120
+you're not gonna write the whole thing
+
+230
+00:09:50,720 --> 00:09:54,000
+just half of it
+
+231
+00:09:53,120 --> 00:09:55,920
+that's
+
+232
+00:09:54,000 --> 00:09:58,880
+about um
+
+233
+00:09:55,920 --> 00:10:02,240
+okay so in now i need to declare the c1
+
+234
+00:09:58,880 --> 00:10:04,800
+and c2 outside c1 is on the left counter
+
+235
+00:10:02,240 --> 00:10:09,440
+so you'll be empty so what happened to
+
+236
+00:10:04,800 --> 00:10:12,640
+the c2 c2 will be counter bar instead of
+
+237
+00:10:09,440 --> 00:10:15,120
+instead of looks at the beginning c1 is
+
+238
+00:10:12,640 --> 00:10:16,800
+nothing here yeah nothing c2 is the
+
+239
+00:10:15,120 --> 00:10:20,640
+whole string so what parameters do i
+
+240
+00:10:16,800 --> 00:10:22,079
+give it to string s s yes s yeah yeah
+
+241
+00:10:20,640 --> 00:10:24,480
+this is c
+
+242
+00:10:22,079 --> 00:10:27,440
+c two here okay and then i just need to
+
+243
+00:10:24,480 --> 00:10:28,800
+go for i in range by the way we no don't
+
+244
+00:10:27,440 --> 00:10:30,480
+need to
+
+245
+00:10:28,800 --> 00:10:32,959
+in the previous one we don't need to go
+
+246
+00:10:30,480 --> 00:10:35,120
+through the end we need to go through
+
+247
+00:10:32,959 --> 00:10:38,399
+tier n minus one right because they are
+
+248
+00:10:35,120 --> 00:10:39,680
+non-empty so in range here
+
+249
+00:10:38,399 --> 00:10:41,680
+length
+
+250
+00:10:39,680 --> 00:10:43,120
+s right we need to we can minus one
+
+251
+00:10:41,680 --> 00:10:45,040
+right because there's no
+
+252
+00:10:43,120 --> 00:10:48,079
+there's no point of checking
+
+253
+00:10:45,040 --> 00:10:51,360
+yeah there's no point of checking
+
+254
+00:10:48,079 --> 00:10:53,360
+here the entire path because if both
+
+255
+00:10:51,360 --> 00:10:55,680
+is non-empty okay so we can minus one
+
+256
+00:10:53,360 --> 00:10:58,320
+here all right yeah
+
+257
+00:10:55,680 --> 00:11:01,920
+now look c1 and c2 okay
+
+258
+00:10:58,320 --> 00:11:03,680
+now c1 needs to include a letter f here
+
+259
+00:11:01,920 --> 00:11:06,079
+so c one
+
+260
+00:11:03,680 --> 00:11:09,200
+s i
+
+261
+00:11:06,079 --> 00:11:12,000
+y and p something okay plus equal one
+
+262
+00:11:09,200 --> 00:11:13,200
+okay now c two needs to be moving yeah
+
+263
+00:11:12,000 --> 00:11:14,560
+yeah
+
+264
+00:11:13,200 --> 00:11:16,560
+c2
+
+265
+00:11:14,560 --> 00:11:19,120
+s i
+
+266
+00:11:16,560 --> 00:11:21,519
+minus equal one okay yeah
+
+267
+00:11:19,120 --> 00:11:23,440
+but when we minus equal one it might it
+
+268
+00:11:21,519 --> 00:11:25,920
+might reduce to zl all right when it
+
+269
+00:11:23,440 --> 00:11:29,200
+reduces zero what we need to get rid of
+
+270
+00:11:25,920 --> 00:11:32,000
+it right look if if even counter is a
+
+271
+00:11:29,200 --> 00:11:34,880
+equals one right if after this if c2 is
+
+272
+00:11:32,000 --> 00:11:37,760
+this one a
+
+273
+00:11:34,880 --> 00:11:39,839
+a c2 a minus one will be equal to zero
+
+274
+00:11:37,760 --> 00:11:42,240
+right yeah
+
+275
+00:11:39,839 --> 00:11:44,160
+so we need to remove this beta again so
+
+276
+00:11:42,240 --> 00:11:45,920
+we just say c2
+
+277
+00:11:44,160 --> 00:11:48,240
+as i
+
+278
+00:11:45,920 --> 00:11:51,680
+equal equal 0 then
+
+279
+00:11:48,240 --> 00:11:54,079
+we did it okay did it fts stand for did
+
+280
+00:11:51,680 --> 00:11:54,839
+it did it c2
+
+281
+00:11:54,079 --> 00:11:57,040
+s
+
+282
+00:11:54,839 --> 00:11:59,600
+i yeah
+
+283
+00:11:57,040 --> 00:12:02,480
+and then we check if c1
+
+284
+00:11:59,600 --> 00:12:05,040
+equal or equal to c2
+
+285
+00:12:02,480 --> 00:12:06,079
+yeah uh actually is we need to compare
+
+286
+00:12:05,040 --> 00:12:07,760
+the
+
+287
+00:12:06,079 --> 00:12:09,360
+the keys
+
+288
+00:12:07,760 --> 00:12:12,560
+this is the same yeah we need to compare
+
+289
+00:12:09,360 --> 00:12:14,399
+the keys only yeah c1 dot keys
+
+290
+00:12:12,560 --> 00:12:17,680
+yeah we won't compare to the keys the
+
+291
+00:12:14,399 --> 00:12:21,040
+value doesn't matter equals
+
+292
+00:12:17,680 --> 00:12:23,600
+i will put it in a set yeah set
+
+293
+00:12:21,040 --> 00:12:28,160
+set doesn't compare with the order if
+
+294
+00:12:23,600 --> 00:12:30,399
+the set c one and equals set c2 keys
+
+295
+00:12:28,160 --> 00:12:34,639
+if it's equal then we do the answer plus
+
+296
+00:12:30,399 --> 00:12:34,639
+equal one right and then we can answer
+
+297
+00:12:35,120 --> 00:12:40,480
+make sense yeah answer equals zero
+
+298
+00:12:38,800 --> 00:12:41,140
+okay
+
+299
+00:12:40,480 --> 00:12:42,800
+yeah
+
+300
+00:12:41,140 --> 00:12:44,320
+[Music]
+
+301
+00:12:42,800 --> 00:12:46,399
+and
+
+302
+00:12:44,320 --> 00:12:49,120
+here look
+
+303
+00:12:46,399 --> 00:12:50,240
+i i is the partition of
+
+304
+00:12:49,120 --> 00:12:52,320
+index
+
+305
+00:12:50,240 --> 00:12:54,800
+and that partition the index moving from
+
+306
+00:12:52,320 --> 00:12:55,760
+left to right and every time i need to
+
+307
+00:12:54,800 --> 00:12:58,720
+include
+
+308
+00:12:55,760 --> 00:13:01,519
+s i character to c1 counter
+
+309
+00:12:58,720 --> 00:13:02,959
+but i have to remove it from c2 right
+
+310
+00:13:01,519 --> 00:13:05,680
+yeah yeah
+
+311
+00:13:02,959 --> 00:13:08,079
+and actually remove the c2 completely
+
+312
+00:13:05,680 --> 00:13:10,079
+look if it is two that's right i remove
+
+313
+00:13:08,079 --> 00:13:11,440
+one but when this reaches zero i need to
+
+314
+00:13:10,079 --> 00:13:13,519
+get rid of this
+
+315
+00:13:11,440 --> 00:13:15,839
+right because if not
+
+316
+00:13:13,519 --> 00:13:18,000
+set c one dot keys a will be still
+
+317
+00:13:15,839 --> 00:13:20,959
+included here right we don't want to
+
+318
+00:13:18,000 --> 00:13:22,800
+include a key with the appearance yellow
+
+319
+00:13:20,959 --> 00:13:24,399
+because when it reaches zero it means
+
+320
+00:13:22,800 --> 00:13:28,399
+that there is no
+
+321
+00:13:24,399 --> 00:13:30,399
+such character in the set uh in a in a
+
+322
+00:13:28,399 --> 00:13:33,200
+in the current window okay so there are
+
+323
+00:13:30,399 --> 00:13:35,920
+two windows left and right c1 c2
+
+324
+00:13:33,200 --> 00:13:37,519
+and if the set if it's equal then we and
+
+325
+00:13:35,920 --> 00:13:42,600
+the plus equal one
+
+326
+00:13:37,519 --> 00:13:42,600
+equals one okay what's the time complex
+
+327
+00:13:48,240 --> 00:13:50,880
+this is n
+
+328
+00:13:52,079 --> 00:13:54,560
+yeah square
+
+329
+00:13:53,440 --> 00:13:56,639
+these
+
+330
+00:13:54,560 --> 00:13:58,880
+these
+
+331
+00:13:56,639 --> 00:14:00,079
+almost yeah because we're converting the
+
+332
+00:13:58,880 --> 00:14:03,360
+set okay
+
+333
+00:14:00,079 --> 00:14:05,279
+converting to a set so this is
+
+334
+00:14:03,360 --> 00:14:07,360
+in the worst case in the worst case c
+
+335
+00:14:05,279 --> 00:14:08,959
+one the keys
+
+336
+00:14:07,360 --> 00:14:10,800
+could be n
+
+337
+00:14:08,959 --> 00:14:13,600
+and converting to the set
+
+338
+00:14:10,800 --> 00:14:16,240
+and then c to the keys okay so maybe we
+
+339
+00:14:13,600 --> 00:14:18,959
+can just ch check the values first we
+
+340
+00:14:16,240 --> 00:14:21,920
+can check if dance you want the keys
+
+341
+00:14:18,959 --> 00:14:23,199
+equals then stop c to the keys
+
+342
+00:14:21,920 --> 00:14:26,000
+right
+
+343
+00:14:23,199 --> 00:14:27,839
+yeah if they're the number
+
+344
+00:14:26,000 --> 00:14:31,040
+if the set if
+
+345
+00:14:27,839 --> 00:14:33,279
+the characters number is not equal then
+
+346
+00:14:31,040 --> 00:14:36,399
+there's no point to check the content of
+
+347
+00:14:33,279 --> 00:14:38,240
+it right yeah okay so this is
+
+348
+00:14:36,399 --> 00:14:39,519
+a lot faster than the previous one right
+
+349
+00:14:38,240 --> 00:14:42,240
+because look
+
+350
+00:14:39,519 --> 00:14:45,199
+these two operations
+
+351
+00:14:42,240 --> 00:14:48,480
+are one right
+
+352
+00:14:45,199 --> 00:14:51,760
+counter is basically like a hash table
+
+353
+00:14:48,480 --> 00:14:54,480
+when we're updating the values yeah and
+
+354
+00:14:51,760 --> 00:14:55,199
+all deleted values from the hash table
+
+355
+00:14:54,480 --> 00:14:57,680
+is
+
+356
+00:14:55,199 --> 00:14:58,399
+one constant it's constant time
+
+357
+00:14:57,680 --> 00:15:00,720
+all right
+
+358
+00:14:58,399 --> 00:15:03,279
+previous one we are we are creating we
+
+359
+00:15:00,720 --> 00:15:05,839
+need to count it right let's take our
+
+360
+00:15:03,279 --> 00:15:06,959
+own time so this is faster here make
+
+361
+00:15:05,839 --> 00:15:09,600
+sense
+
+362
+00:15:06,959 --> 00:15:12,639
+okay any questions so far
+
+363
+00:15:09,600 --> 00:15:14,480
+okay and no questions okay so what have
+
+364
+00:15:12,639 --> 00:15:17,120
+you learned today what's this approach
+
+365
+00:15:14,480 --> 00:15:18,720
+about stream shots uh can you tell me
+
+366
+00:15:17,120 --> 00:15:19,760
+every night what
+
+367
+00:15:18,720 --> 00:15:21,680
+is when
+
+368
+00:15:19,760 --> 00:15:23,440
+like you uh
+
+369
+00:15:21,680 --> 00:15:26,320
+split her
+
+370
+00:15:23,440 --> 00:15:28,480
+so how come how do we i mean what's the
+
+371
+00:15:26,320 --> 00:15:29,680
+approach here what's the approach here
+
+372
+00:15:28,480 --> 00:15:34,360
+today
+
+373
+00:15:29,680 --> 00:15:34,360
+can you explain to people yeah
+
+374
+00:15:38,830 --> 00:15:44,149
+[Music]
+
+375
+00:15:48,639 --> 00:15:52,959
+the number the number of distinct
+
+376
+00:15:50,240 --> 00:15:55,279
+characters in each string is the same
+
+377
+00:15:52,959 --> 00:15:57,440
+okay so it's here it's looking for the
+
+378
+00:15:55,279 --> 00:16:00,399
+number of distinct characters so it
+
+379
+00:15:57,440 --> 00:16:02,880
+doesn't compare the content okay okay so
+
+380
+00:16:00,399 --> 00:16:05,040
+the question okay so here
+
+381
+00:16:02,880 --> 00:16:08,000
+we are now comparing each one has to be
+
+382
+00:16:05,040 --> 00:16:09,920
+appear in the same so we can actually
+
+383
+00:16:08,000 --> 00:16:12,240
+change it to length we just compare with
+
+384
+00:16:09,920 --> 00:16:13,920
+the length okay that will be easier okay
+
+385
+00:16:12,240 --> 00:16:17,279
+okay
+
+386
+00:16:13,920 --> 00:16:19,120
+yeah the number of distinct characters
+
+387
+00:16:17,279 --> 00:16:21,120
+so it could be in each window here would
+
+388
+00:16:19,120 --> 00:16:22,880
+be a b here or b c d it doesn't matter
+
+389
+00:16:21,120 --> 00:16:24,560
+okay yeah
+
+390
+00:16:22,880 --> 00:16:27,279
+i see okay
+
+391
+00:16:24,560 --> 00:16:29,360
+okay so so look at here then if we
+
+392
+00:16:27,279 --> 00:16:31,519
+change here to length then this is
+
+393
+00:16:29,360 --> 00:16:32,959
+obviously o n right because checking the
+
+394
+00:16:31,519 --> 00:16:35,519
+length
+
+395
+00:16:32,959 --> 00:16:38,079
+is constant time okay
+
+396
+00:16:35,519 --> 00:16:39,600
+checking the lengths of constant okay so
+
+397
+00:16:38,079 --> 00:16:41,680
+what have you learned so far what's
+
+398
+00:16:39,600 --> 00:16:45,680
+what's the speed
+
+399
+00:16:41,680 --> 00:16:48,000
+we have to have same amount of number um
+
+400
+00:16:45,680 --> 00:16:51,519
+yeah and how are we doing this how can
+
+401
+00:16:48,000 --> 00:16:53,199
+we how do we use this we just like move
+
+402
+00:16:51,519 --> 00:16:56,959
+we slide in window yeah we move this
+
+403
+00:16:53,199 --> 00:16:56,959
+partition up and up day one
+
+404
+00:16:57,519 --> 00:17:02,720
+update each c1 and c2 okay yeah
+
+405
+00:17:00,800 --> 00:17:04,480
+we move one character to the right and
+
+406
+00:17:02,720 --> 00:17:08,079
+what should we do with the c1 what do we
+
+407
+00:17:04,480 --> 00:17:10,720
+do with the situation uh one increase it
+
+408
+00:17:08,079 --> 00:17:12,559
+gets one thing and one still
+
+409
+00:17:10,720 --> 00:17:15,959
+we're done okay that's it for today good
+
+410
+00:17:12,559 --> 00:17:15,959
+job bye
+
