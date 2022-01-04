@@ -1,0 +1,1172 @@
+1
+00:00:00,080 --> 00:00:03,520
+go hey
+
+2
+00:00:01,439 --> 00:00:04,480
+hello mr you need to line are you right
+
+3
+00:00:03,520 --> 00:00:07,759
+yeah
+
+4
+00:00:04,480 --> 00:00:10,160
+okay that's good loud and clear okay hi
+
+5
+00:00:07,759 --> 00:00:12,880
+keys i'm gonna erase this bitch so let's
+
+6
+00:00:10,160 --> 00:00:15,599
+see we we've given a streak one smiley
+
+7
+00:00:12,880 --> 00:00:18,160
+face we are giving a string with only a
+
+8
+00:00:15,599 --> 00:00:20,080
+and b we can find out if
+
+9
+00:00:18,160 --> 00:00:21,199
+a or a is that before
+
+10
+00:00:20,080 --> 00:00:23,119
+or b
+
+11
+00:00:21,199 --> 00:00:25,119
+or a b for b so okay we are given a
+
+12
+00:00:23,119 --> 00:00:27,760
+string only containing the string at a
+
+13
+00:00:25,119 --> 00:00:29,039
+and b okay let's given a few examples a
+
+14
+00:00:27,760 --> 00:00:32,880
+b b
+
+15
+00:00:29,039 --> 00:00:38,559
+true a b a fourth
+
+16
+00:00:32,880 --> 00:00:39,440
+a b b a first empty string true b b
+
+17
+00:00:38,559 --> 00:00:42,399
+two
+
+18
+00:00:39,440 --> 00:00:43,520
+a a two only containing the a's or b is
+
+19
+00:00:42,399 --> 00:00:46,480
+true okay
+
+20
+00:00:43,520 --> 00:00:51,520
+and then also a
+
+21
+00:00:46,480 --> 00:00:53,280
+b a b b false okay yeah okay
+
+22
+00:00:51,520 --> 00:00:56,840
+yeah
+
+23
+00:00:53,280 --> 00:00:59,520
+so any idea how we're doing this
+
+24
+00:00:56,840 --> 00:01:01,920
+uh have any idea how we're doing this do
+
+25
+00:00:59,520 --> 00:01:02,960
+you understand what's the problem now
+
+26
+00:01:01,920 --> 00:01:04,159
+yeah
+
+27
+00:01:02,960 --> 00:01:06,640
+so let's
+
+28
+00:01:04,159 --> 00:01:06,640
+what's this
+
+29
+00:01:09,280 --> 00:01:14,720
+okay so let's take a look at these three
+
+30
+00:01:11,680 --> 00:01:16,479
+cases the inverted cases okay
+
+31
+00:01:14,720 --> 00:01:19,439
+what's the common thing about those they
+
+32
+00:01:16,479 --> 00:01:21,759
+have b the first ones are gn wow we're
+
+33
+00:01:19,439 --> 00:01:25,200
+done okay pas so we can just check if
+
+34
+00:01:21,759 --> 00:01:26,880
+the string has the pa right yeah and if
+
+35
+00:01:25,200 --> 00:01:29,119
+beer with return sauce otherwise that
+
+36
+00:01:26,880 --> 00:01:30,880
+would be all very cases right
+
+37
+00:01:29,119 --> 00:01:32,320
+okay let's do it come on come on can you
+
+38
+00:01:30,880 --> 00:01:34,320
+go back see please
+
+39
+00:01:32,320 --> 00:01:37,920
+okay that's very good observation okay
+
+40
+00:01:34,320 --> 00:01:37,920
+that's a very good observation
+
+41
+00:01:38,159 --> 00:01:41,159
+observation
+
+42
+00:01:45,119 --> 00:01:49,280
+and what's the if it's not valid then
+
+43
+00:01:47,200 --> 00:01:51,840
+there must be a va right that's very
+
+44
+00:01:49,280 --> 00:01:54,960
+obvious we think reversely yes we think
+
+45
+00:01:51,840 --> 00:01:58,719
+in in the opposite way okay so if if
+
+46
+00:01:54,960 --> 00:01:58,719
+this this function is okay
+
+47
+00:01:59,200 --> 00:02:02,560
+i need to get a new pen
+
+48
+00:02:02,960 --> 00:02:07,410
+where's the new pen
+
+49
+00:02:05,200 --> 00:02:10,550
+can i have this please
+
+50
+00:02:07,410 --> 00:02:10,550
+[Music]
+
+51
+00:02:18,520 --> 00:02:21,779
+[Music]
+
+52
+00:02:27,230 --> 00:02:30,389
+[Music]
+
+53
+00:02:33,730 --> 00:02:38,720
+[Music]
+
+54
+00:02:35,680 --> 00:02:42,480
+in s right okay
+
+55
+00:02:38,720 --> 00:02:45,440
+simple easy what's the time complexity
+
+56
+00:02:42,480 --> 00:02:45,940
+n strings yeah all right yeah yeah
+
+57
+00:02:45,440 --> 00:02:48,080
+um
+
+58
+00:02:45,940 --> 00:02:52,560
+[Music]
+
+59
+00:02:48,080 --> 00:02:54,640
+in this case it's on but but normally um
+
+60
+00:02:52,560 --> 00:02:57,280
+normally there are different ways of
+
+61
+00:02:54,640 --> 00:03:00,080
+implementing checking a substring string
+
+62
+00:02:57,280 --> 00:03:03,200
+content substring look if we are looking
+
+63
+00:03:00,080 --> 00:03:05,040
+for a string with n characters and
+
+64
+00:03:03,200 --> 00:03:07,680
+characters
+
+65
+00:03:05,040 --> 00:03:09,599
+and the pattern pattern yeah the pattern
+
+66
+00:03:07,680 --> 00:03:11,840
+the the string the substring we're going
+
+67
+00:03:09,599 --> 00:03:16,000
+to check is a pattern
+
+68
+00:03:11,840 --> 00:03:17,920
+is n characters yeah the naive way
+
+69
+00:03:16,000 --> 00:03:20,400
+the naive way first way is we're
+
+70
+00:03:17,920 --> 00:03:23,280
+checking each partition right look this
+
+71
+00:03:20,400 --> 00:03:25,120
+is a string like uh hello hello
+
+72
+00:03:23,280 --> 00:03:28,159
+eric okay
+
+73
+00:03:25,120 --> 00:03:30,560
+yeah this is a string right if these
+
+74
+00:03:28,159 --> 00:03:34,000
+this is n characters right
+
+75
+00:03:30,560 --> 00:03:34,000
+and we are looking for eric
+
+76
+00:03:34,239 --> 00:03:37,680
+ryan
+
+77
+00:03:36,159 --> 00:03:39,519
+ryan
+
+78
+00:03:37,680 --> 00:03:41,040
+what did just teddy say come on if
+
+79
+00:03:39,519 --> 00:03:43,360
+you're looking for eric so what would
+
+80
+00:03:41,040 --> 00:03:46,959
+how would you do it if this string s
+
+81
+00:03:43,360 --> 00:03:46,959
+contains eric how would you do it
+
+82
+00:03:50,080 --> 00:03:54,640
+yeah i'm just checking i'm just i'm just
+
+83
+00:03:52,159 --> 00:03:56,080
+thinking yeah if this string is parallel
+
+84
+00:03:54,640 --> 00:03:57,920
+we want to find out if this string
+
+85
+00:03:56,080 --> 00:03:59,920
+contains
+
+86
+00:03:57,920 --> 00:04:02,319
+like oh yeah starting with so we first
+
+87
+00:03:59,920 --> 00:04:04,239
+of all we're checking with hello h is
+
+88
+00:04:02,319 --> 00:04:07,360
+this the same with eric no
+
+89
+00:04:04,239 --> 00:04:09,200
+then let's go from next one yeah then e
+
+90
+00:04:07,360 --> 00:04:12,799
+okay it's the same if
+
+91
+00:04:09,200 --> 00:04:15,519
+k is insensitive and what's next r
+
+92
+00:04:12,799 --> 00:04:17,120
+doesn't match so i do rewind it and then
+
+93
+00:04:15,519 --> 00:04:18,320
+i try next one next one
+
+94
+00:04:17,120 --> 00:04:20,799
+and so okay
+
+95
+00:04:18,320 --> 00:04:22,639
+the same ah the same i the same c that's
+
+96
+00:04:20,799 --> 00:04:25,440
+it okay we match because we found it
+
+97
+00:04:22,639 --> 00:04:27,440
+this is the proof of sway
+
+98
+00:04:25,440 --> 00:04:29,199
+the time context if this n character
+
+99
+00:04:27,440 --> 00:04:30,880
+this is m character the time connection
+
+100
+00:04:29,199 --> 00:04:34,240
+will be o and
+
+101
+00:04:30,880 --> 00:04:36,639
+o n times m right
+
+102
+00:04:34,240 --> 00:04:39,120
+this is very slow or n times seven so in
+
+103
+00:04:36,639 --> 00:04:41,440
+this case if it's going from proof of
+
+104
+00:04:39,120 --> 00:04:44,639
+two because they're two here two
+
+105
+00:04:41,440 --> 00:04:47,199
+character and n string now b o n o times
+
+106
+00:04:44,639 --> 00:04:49,040
+n times two okay we drop a constant
+
+107
+00:04:47,199 --> 00:04:50,560
+there's a better our algorithm called
+
+108
+00:04:49,040 --> 00:04:54,400
+the kmp
+
+109
+00:04:50,560 --> 00:04:57,280
+which bears the table in o and time
+
+110
+00:04:54,400 --> 00:04:59,199
+and then time spent the time spending on
+
+111
+00:04:57,280 --> 00:05:02,160
+searching the
+
+112
+00:04:59,199 --> 00:05:04,400
+substring is om but it takes om time to
+
+113
+00:05:02,160 --> 00:05:07,280
+build the table yeah because every time
+
+114
+00:05:04,400 --> 00:05:08,479
+we look h is not equal to e there is no
+
+115
+00:05:07,280 --> 00:05:09,680
+point
+
+116
+00:05:08,479 --> 00:05:12,240
+when you scan stand there there's no
+
+117
+00:05:09,680 --> 00:05:14,240
+point to go to the e he knows that he
+
+118
+00:05:12,240 --> 00:05:16,400
+knows what he knows because the second
+
+119
+00:05:14,240 --> 00:05:18,479
+parameter the second character e is not
+
+120
+00:05:16,400 --> 00:05:19,360
+equal to r it already knows that you
+
+121
+00:05:18,479 --> 00:05:21,520
+know
+
+122
+00:05:19,360 --> 00:05:25,720
+it's not equal so then we can skip we
+
+123
+00:05:21,520 --> 00:05:25,720
+can advance to the next one
+
+124
+00:05:26,940 --> 00:05:30,080
+[Music]
+
+125
+00:05:28,080 --> 00:05:32,320
+yeah yeah that's a good point and i was
+
+126
+00:05:30,080 --> 00:05:34,880
+just saying that casing okay so if in
+
+127
+00:05:32,320 --> 00:05:38,240
+this case ta okay chicken a string has a
+
+128
+00:05:34,880 --> 00:05:39,759
+substring is all and time we
+
+129
+00:05:38,240 --> 00:05:42,400
+linear time
+
+130
+00:05:39,759 --> 00:05:44,639
+good point good one okay so
+
+131
+00:05:42,400 --> 00:05:46,720
+um
+
+132
+00:05:44,639 --> 00:05:49,120
+so let's go back to that problem with a
+
+133
+00:05:46,720 --> 00:05:51,120
+and b for me okay so if we
+
+134
+00:05:49,120 --> 00:05:54,560
+we can go through another way of
+
+135
+00:05:51,120 --> 00:05:56,560
+checking w which is what look if a b
+
+136
+00:05:54,560 --> 00:05:59,520
+a a b
+
+137
+00:05:56,560 --> 00:06:01,919
+if we group the same letters right so
+
+138
+00:05:59,520 --> 00:06:06,400
+like that a a b b b
+
+139
+00:06:01,919 --> 00:06:09,199
+or b b a a b b a a b b b okay so we
+
+140
+00:06:06,400 --> 00:06:11,680
+group the same letters come on
+
+141
+00:06:09,199 --> 00:06:15,280
+we group the same letters so remember we
+
+142
+00:06:11,680 --> 00:06:18,400
+have a function called ether
+
+143
+00:06:15,280 --> 00:06:20,800
+give to us dot group by
+
+144
+00:06:18,400 --> 00:06:22,319
+if we use this function remember
+
+145
+00:06:20,800 --> 00:06:26,880
+to go back
+
+146
+00:06:22,319 --> 00:06:26,880
+you don't need to stop unless you finish
+
+147
+00:06:27,520 --> 00:06:33,039
+if we use it to a screw ply
+
+148
+00:06:30,240 --> 00:06:35,520
+so that will tell me a
+
+149
+00:06:33,039 --> 00:06:38,400
+uh this general with the keys is the
+
+150
+00:06:35,520 --> 00:06:40,400
+same for each okay so look let's use
+
+151
+00:06:38,400 --> 00:06:43,520
+this group so what does it return it
+
+152
+00:06:40,400 --> 00:06:46,720
+returns a dictionary saying a
+
+153
+00:06:43,520 --> 00:06:48,800
+is to a this is the iterator okay to a a
+
+154
+00:06:46,720 --> 00:06:51,120
+list of iterator a
+
+155
+00:06:48,800 --> 00:06:54,800
+and b to b
+
+156
+00:06:51,120 --> 00:06:57,280
+and a to a a okay so group by and you
+
+157
+00:06:54,800 --> 00:07:00,160
+tell me this and b to
+
+158
+00:06:57,280 --> 00:07:01,680
+b okay and for this one you tell me
+
+159
+00:07:00,160 --> 00:07:05,919
+b to
+
+160
+00:07:01,680 --> 00:07:07,759
+b b b okay three b's group and a two
+
+161
+00:07:05,919 --> 00:07:10,400
+a a a
+
+162
+00:07:07,759 --> 00:07:11,599
+and for this one you tell me
+
+163
+00:07:10,400 --> 00:07:13,599
+a to
+
+164
+00:07:11,599 --> 00:07:17,680
+a a a i
+
+165
+00:07:13,599 --> 00:07:20,240
+and b two b b okay so
+
+166
+00:07:17,680 --> 00:07:22,160
+based on this based on the result a term
+
+167
+00:07:20,240 --> 00:07:23,759
+from two pi how can we check if it's all
+
+168
+00:07:22,160 --> 00:07:26,000
+a's before b
+
+169
+00:07:23,759 --> 00:07:27,120
+um um
+
+170
+00:07:26,000 --> 00:07:28,400
+if
+
+171
+00:07:27,120 --> 00:07:32,639
+you see
+
+172
+00:07:28,400 --> 00:07:33,520
+if a b is at higher up higher than the a
+
+173
+00:07:32,639 --> 00:07:35,840
+then
+
+174
+00:07:33,520 --> 00:07:38,160
+okay and how about the number of groups
+
+175
+00:07:35,840 --> 00:07:39,440
+if there are more than two what should
+
+176
+00:07:38,160 --> 00:07:41,520
+we do
+
+177
+00:07:39,440 --> 00:07:43,039
+if there are two groups uh if there are
+
+178
+00:07:41,520 --> 00:07:44,639
+one group
+
+179
+00:07:43,039 --> 00:07:47,199
+is it valid yeah
+
+180
+00:07:44,639 --> 00:07:49,840
+if it's one group that could be just a
+
+181
+00:07:47,199 --> 00:07:51,360
+or b right if it's two groups how many
+
+182
+00:07:49,840 --> 00:07:54,160
+possibilities
+
+183
+00:07:51,360 --> 00:07:55,440
+it could be a b or b a we're done and if
+
+184
+00:07:54,160 --> 00:07:58,080
+there are three groups do we need to
+
+185
+00:07:55,440 --> 00:08:00,080
+check
+
+186
+00:07:58,080 --> 00:08:02,400
+right because it can't if that's three
+
+187
+00:08:00,080 --> 00:08:04,479
+groups that must be b must be before a
+
+188
+00:08:02,400 --> 00:08:07,840
+right yeah okay that's a very good
+
+189
+00:08:04,479 --> 00:08:07,840
+observation so we can do it
+
+190
+00:08:09,360 --> 00:08:13,280
+that's still too good because in that
+
+191
+00:08:11,919 --> 00:08:15,120
+case that would be
+
+192
+00:08:13,280 --> 00:08:17,120
+a b right
+
+193
+00:08:15,120 --> 00:08:20,400
+it groups the continuum yeah
+
+194
+00:08:17,120 --> 00:08:22,560
+yeah yeah it doesn't make sense now
+
+195
+00:08:20,400 --> 00:08:26,520
+okay so that you tell me okay
+
+196
+00:08:22,560 --> 00:08:26,520
+so we can just do this
+
+197
+00:08:27,360 --> 00:08:32,959
+define check
+
+198
+00:08:29,840 --> 00:08:35,919
+string and then we we can okay if
+
+199
+00:08:32,959 --> 00:08:38,000
+they're empty let's say if it's empty
+
+200
+00:08:35,919 --> 00:08:39,760
+then we just return true right this is
+
+201
+00:08:38,000 --> 00:08:40,880
+the special case
+
+202
+00:08:39,760 --> 00:08:44,159
+and then
+
+203
+00:08:40,880 --> 00:08:45,200
+the group let's say air equals this uh
+
+204
+00:08:44,159 --> 00:08:47,279
+ether
+
+205
+00:08:45,200 --> 00:08:49,279
+ether2 okay let's say
+
+206
+00:08:47,279 --> 00:08:51,519
+we want to
+
+207
+00:08:49,279 --> 00:08:54,240
+we we just want to
+
+208
+00:08:51,519 --> 00:08:56,080
+get the group okay so let's let's do
+
+209
+00:08:54,240 --> 00:08:57,920
+this list
+
+210
+00:08:56,080 --> 00:09:01,040
+i right
+
+211
+00:08:57,920 --> 00:09:02,640
+this i um do it we need to literally
+
+212
+00:09:01,040 --> 00:09:05,519
+decide no no no
+
+213
+00:09:02,640 --> 00:09:06,480
+because we can just do this i for
+
+214
+00:09:05,519 --> 00:09:08,560
+i
+
+215
+00:09:06,480 --> 00:09:12,080
+j in
+
+216
+00:09:08,560 --> 00:09:12,080
+degree by s
+
+217
+00:09:12,560 --> 00:09:15,040
+by s
+
+218
+00:09:16,480 --> 00:09:21,279
+sorry i would be the the key
+
+219
+00:09:19,360 --> 00:09:24,720
+look if then
+
+220
+00:09:21,279 --> 00:09:26,080
+if length air equal equals
+
+221
+00:09:24,720 --> 00:09:28,160
+one
+
+222
+00:09:26,080 --> 00:09:31,600
+okay then we return what
+
+223
+00:09:28,160 --> 00:09:34,240
+if there is only one group we can
+
+224
+00:09:31,600 --> 00:09:36,480
+okay if length two are
+
+225
+00:09:34,240 --> 00:09:38,959
+then the group equal if bigger than
+
+226
+00:09:36,480 --> 00:09:42,399
+three bigger equal and three
+
+227
+00:09:38,959 --> 00:09:44,080
+two bigger than two then return
+
+228
+00:09:42,399 --> 00:09:45,279
+if they have more than two groups what
+
+229
+00:09:44,080 --> 00:09:48,399
+happened
+
+230
+00:09:45,279 --> 00:09:50,880
+then it's a false first yeah we talked
+
+231
+00:09:48,399 --> 00:09:52,560
+about that because it could it could be
+
+232
+00:09:50,880 --> 00:09:53,680
+a b
+
+233
+00:09:52,560 --> 00:09:57,200
+a
+
+234
+00:09:53,680 --> 00:10:00,720
+something like that or b a b yeah
+
+235
+00:09:57,200 --> 00:10:03,040
+in both cases let's be a here right
+
+236
+00:10:00,720 --> 00:10:04,640
+otherwise now we have only two groups so
+
+237
+00:10:03,040 --> 00:10:08,880
+if it is two groups what do we need to
+
+238
+00:10:04,640 --> 00:10:08,880
+check if it's too good we can
+
+239
+00:10:09,120 --> 00:10:14,560
+we need to check what l zero equals one
+
+240
+00:10:12,800 --> 00:10:17,010
+we just need to check lg or equal as
+
+241
+00:10:14,560 --> 00:10:21,100
+well
+
+242
+00:10:17,010 --> 00:10:21,100
+[Music]
+
+243
+00:10:27,519 --> 00:10:32,720
+because we only have two characters a
+
+244
+00:10:29,760 --> 00:10:35,200
+and b so lcr equals a and
+
+245
+00:10:32,720 --> 00:10:36,240
+f a one equals b yeah but we don't need
+
+246
+00:10:35,200 --> 00:10:38,000
+to
+
+247
+00:10:36,240 --> 00:10:38,720
+do that we don't need we just can we
+
+248
+00:10:38,000 --> 00:10:40,560
+just
+
+249
+00:10:38,720 --> 00:10:41,360
+can
+
+250
+00:10:40,560 --> 00:10:42,800
+uh
+
+251
+00:10:41,360 --> 00:10:45,279
+check one condition right because there
+
+252
+00:10:42,800 --> 00:10:46,800
+are only two characters if you check one
+
+253
+00:10:45,279 --> 00:10:47,680
+and the second one will be different
+
+254
+00:10:46,800 --> 00:10:49,200
+right so
+
+255
+00:10:47,680 --> 00:10:51,440
+you would say that's the group okay
+
+256
+00:10:49,200 --> 00:10:53,839
+that's the beauty of group by because it
+
+257
+00:10:51,440 --> 00:10:58,399
+automatically
+
+258
+00:10:53,839 --> 00:11:00,880
+make groups the consecutive consecutive
+
+259
+00:10:58,399 --> 00:11:02,000
+same letters into same one group the sec
+
+260
+00:11:00,880 --> 00:11:04,800
+the keys
+
+261
+00:11:02,000 --> 00:11:07,920
+will be less the the letter the group
+
+262
+00:11:04,800 --> 00:11:09,040
+yeah and then the values will be
+
+263
+00:11:07,920 --> 00:11:10,959
+how many
+
+264
+00:11:09,040 --> 00:11:14,240
+yeah will be the actual
+
+265
+00:11:10,959 --> 00:11:14,240
+group content
+
+266
+00:11:15,760 --> 00:11:19,600
+so what if we use this goodbye what does
+
+267
+00:11:18,160 --> 00:11:23,920
+it return
+
+268
+00:11:19,600 --> 00:11:23,920
+the key will be the group
+
+269
+00:11:25,120 --> 00:11:28,480
+the values will be iterated to
+
+270
+00:11:27,760 --> 00:11:30,959
+a
+
+271
+00:11:28,480 --> 00:11:31,680
+a a
+
+272
+00:11:30,959 --> 00:11:33,360
+b
+
+273
+00:11:31,680 --> 00:11:34,240
+b make sense
+
+274
+00:11:33,360 --> 00:11:35,279
+yeah
+
+275
+00:11:34,240 --> 00:11:36,399
+make sense
+
+276
+00:11:35,279 --> 00:11:38,560
+yeah
+
+277
+00:11:36,399 --> 00:11:40,480
+that's the group i okay
+
+278
+00:11:38,560 --> 00:11:42,399
+yeah and the trunk of this is still on
+
+279
+00:11:40,480 --> 00:11:44,079
+right because we need to go through the
+
+280
+00:11:42,399 --> 00:11:46,640
+eater to us
+
+281
+00:11:44,079 --> 00:11:48,160
+go in the hour and linear time right and
+
+282
+00:11:46,640 --> 00:11:49,600
+we're checking and this is the
+
+283
+00:11:48,160 --> 00:11:51,519
+traditional way
+
+284
+00:11:49,600 --> 00:11:55,240
+what's the quickest way
+
+285
+00:11:51,519 --> 00:11:55,240
+what's the first approach
+
+286
+00:11:59,990 --> 00:12:03,070
+[Music]
+
+287
+00:12:04,160 --> 00:12:09,279
+which one which method you prefer
+
+288
+00:12:07,760 --> 00:12:12,000
+obviously
+
+289
+00:12:09,279 --> 00:12:14,720
+it's faster well maybe not yeah it's
+
+290
+00:12:12,000 --> 00:12:16,560
+shorter okay i'm practically faster okay
+
+291
+00:12:14,720 --> 00:12:18,770
+okay for today
+
+292
+00:12:16,560 --> 00:12:21,200
+yeah that's it bye bye
+
+293
+00:12:18,770 --> 00:12:21,200
+[Music]
+
