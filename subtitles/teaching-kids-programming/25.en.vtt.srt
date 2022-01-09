@@ -1,0 +1,2895 @@
+1
+00:00:02,080 --> 00:00:07,530
+
+[Music]
+
+2
+00:00:07,530 --> 00:00:07,540
+
+ 
+
+3
+00:00:07,540 --> 00:00:11,350
+
+[Music]
+
+4
+00:00:11,350 --> 00:00:11,360
+
+ 
+
+5
+00:00:11,360 --> 00:00:12,230
+
+okay so
+
+6
+00:00:12,230 --> 00:00:12,240
+okay so
+ 
+
+7
+00:00:12,240 --> 00:00:16,070
+okay so
+today we'll continue talking about uh
+
+8
+00:00:16,070 --> 00:00:16,080
+today we'll continue talking about uh
+ 
+
+9
+00:00:16,080 --> 00:00:18,470
+today we'll continue talking about uh
+parentheses called valid parentheses
+
+10
+00:00:18,470 --> 00:00:18,480
+parentheses called valid parentheses
+ 
+
+11
+00:00:18,480 --> 00:00:20,070
+parentheses called valid parentheses
+yeah this will be your last day of
+
+12
+00:00:20,070 --> 00:00:20,080
+yeah this will be your last day of
+ 
+
+13
+00:00:20,080 --> 00:00:21,349
+yeah this will be your last day of
+parentheses yeah
+
+14
+00:00:21,349 --> 00:00:21,359
+parentheses yeah
+ 
+
+15
+00:00:21,359 --> 00:00:25,109
+parentheses yeah
+so remember previously we talked about
+
+16
+00:00:25,109 --> 00:00:25,119
+so remember previously we talked about
+ 
+
+17
+00:00:25,119 --> 00:00:27,429
+so remember previously we talked about
+valid processes only including these
+
+18
+00:00:27,429 --> 00:00:27,439
+valid processes only including these
+ 
+
+19
+00:00:27,439 --> 00:00:28,830
+valid processes only including these
+brackets right
+
+20
+00:00:28,830 --> 00:00:28,840
+brackets right
+ 
+
+21
+00:00:28,840 --> 00:00:33,270
+brackets right
+yeah how about if we also
+
+22
+00:00:33,270 --> 00:00:33,280
+yeah how about if we also
+ 
+
+23
+00:00:33,280 --> 00:00:38,389
+yeah how about if we also
+consider curly brace and square bracket
+
+24
+00:00:38,389 --> 00:00:38,399
+consider curly brace and square bracket
+ 
+
+25
+00:00:38,399 --> 00:00:41,350
+consider curly brace and square bracket
+yeah so if it's a very princesses it
+
+26
+00:00:41,350 --> 00:00:41,360
+yeah so if it's a very princesses it
+ 
+
+27
+00:00:41,360 --> 00:00:43,750
+yeah so if it's a very princesses it
+could be something like that
+
+28
+00:00:43,750 --> 00:00:43,760
+could be something like that
+ 
+
+29
+00:00:43,760 --> 00:00:47,830
+could be something like that
+yeah something like that
+
+30
+00:00:47,830 --> 00:00:47,840
+yeah something like that
+ 
+
+31
+00:00:47,840 --> 00:00:50,549
+yeah something like that
+do you get it yeah this is a valid
+
+32
+00:00:50,549 --> 00:00:50,559
+do you get it yeah this is a valid
+ 
+
+33
+00:00:50,559 --> 00:00:51,110
+do you get it yeah this is a valid
+because
+
+34
+00:00:51,110 --> 00:00:51,120
+because
+ 
+
+35
+00:00:51,120 --> 00:00:53,110
+because
+everything is impaired but this is not
+
+36
+00:00:53,110 --> 00:00:53,120
+everything is impaired but this is not
+ 
+
+37
+00:00:53,120 --> 00:00:54,310
+everything is impaired but this is not
+impaired
+
+38
+00:00:54,310 --> 00:00:54,320
+impaired
+ 
+
+39
+00:00:54,320 --> 00:00:58,630
+impaired
+this is not this is not
+
+40
+00:00:58,630 --> 00:00:58,640
+this is not this is not
+ 
+
+41
+00:00:58,640 --> 00:01:02,389
+this is not this is not
+do you get it yeah
+
+42
+00:01:02,389 --> 00:01:02,399
+
+ 
+
+43
+00:01:02,399 --> 00:01:05,030
+
+this is not right because even it's
+
+44
+00:01:05,030 --> 00:01:05,040
+this is not right because even it's
+ 
+
+45
+00:01:05,040 --> 00:01:06,230
+this is not right because even it's
+opening close but this
+
+46
+00:01:06,230 --> 00:01:06,240
+opening close but this
+ 
+
+47
+00:01:06,240 --> 00:01:09,270
+opening close but this
+does not match right yeah okay so
+
+48
+00:01:09,270 --> 00:01:09,280
+does not match right yeah okay so
+ 
+
+49
+00:01:09,280 --> 00:01:12,550
+does not match right yeah okay so
+our task is to do to design an
+
+50
+00:01:12,550 --> 00:01:12,560
+our task is to do to design an
+ 
+
+51
+00:01:12,560 --> 00:01:15,749
+our task is to do to design an
+algorithm
+
+52
+00:01:15,749 --> 00:01:15,759
+
+ 
+
+53
+00:01:15,759 --> 00:01:18,789
+
+algorithm yeah algorithm to to solve
+
+54
+00:01:18,789 --> 00:01:18,799
+algorithm yeah algorithm to to solve
+ 
+
+55
+00:01:18,799 --> 00:01:20,070
+algorithm yeah algorithm to to solve
+this problem okay
+
+56
+00:01:20,070 --> 00:01:20,080
+this problem okay
+ 
+
+57
+00:01:20,080 --> 00:01:24,830
+this problem okay
+yeah thank you for doing that
+
+58
+00:01:24,830 --> 00:01:24,840
+yeah thank you for doing that
+ 
+
+59
+00:01:24,840 --> 00:01:28,230
+yeah thank you for doing that
+so remember any ideas
+
+60
+00:01:28,230 --> 00:01:28,240
+so remember any ideas
+ 
+
+61
+00:01:28,240 --> 00:01:30,950
+so remember any ideas
+i mean how do we do that i don't
+
+62
+00:01:30,950 --> 00:01:30,960
+i mean how do we do that i don't
+ 
+
+63
+00:01:30,960 --> 00:01:32,550
+i mean how do we do that i don't
+understand what we're doing
+
+64
+00:01:32,550 --> 00:01:32,560
+understand what we're doing
+ 
+
+65
+00:01:32,560 --> 00:01:34,390
+understand what we're doing
+i was just talking about that i mean to
+
+66
+00:01:34,390 --> 00:01:34,400
+i was just talking about that i mean to
+ 
+
+67
+00:01:34,400 --> 00:01:35,910
+i was just talking about that i mean to
+check if it is a string
+
+68
+00:01:35,910 --> 00:01:35,920
+check if it is a string
+ 
+
+69
+00:01:35,920 --> 00:01:38,630
+check if it is a string
+like that is if it's a very this should
+
+70
+00:01:38,630 --> 00:01:38,640
+like that is if it's a very this should
+ 
+
+71
+00:01:38,640 --> 00:01:40,149
+like that is if it's a very this should
+give me force
+
+72
+00:01:40,149 --> 00:01:40,159
+give me force
+ 
+
+73
+00:01:40,159 --> 00:01:43,429
+give me force
+this should give me true yeah
+
+74
+00:01:43,429 --> 00:01:43,439
+this should give me true yeah
+ 
+
+75
+00:01:43,439 --> 00:01:47,350
+this should give me true yeah
+these two these
+
+76
+00:01:47,350 --> 00:01:47,360
+these two these
+ 
+
+77
+00:01:47,360 --> 00:01:51,590
+these two these
+two these
+
+78
+00:01:51,590 --> 00:01:51,600
+two these
+ 
+
+79
+00:01:51,600 --> 00:01:55,590
+two these
+uh this fourth okay
+
+80
+00:01:55,590 --> 00:01:55,600
+uh this fourth okay
+ 
+
+81
+00:01:55,600 --> 00:01:59,109
+uh this fourth okay
+so remember previously we we we
+
+82
+00:01:59,109 --> 00:01:59,119
+so remember previously we we we
+ 
+
+83
+00:01:59,119 --> 00:02:01,429
+so remember previously we we we
+use a balance counter right when we meet
+
+84
+00:02:01,429 --> 00:02:01,439
+use a balance counter right when we meet
+ 
+
+85
+00:02:01,439 --> 00:02:03,830
+use a balance counter right when we meet
+opening with plus one when we mean
+
+86
+00:02:03,830 --> 00:02:03,840
+opening with plus one when we mean
+ 
+
+87
+00:02:03,840 --> 00:02:05,830
+opening with plus one when we mean
+closing with minus one and we check if
+
+88
+00:02:05,830 --> 00:02:05,840
+closing with minus one and we check if
+ 
+
+89
+00:02:05,840 --> 00:02:07,030
+closing with minus one and we check if
+it's yellow right
+
+90
+00:02:07,030 --> 00:02:07,040
+it's yellow right
+ 
+
+91
+00:02:07,040 --> 00:02:09,350
+it's yellow right
+if any time it falls below zero then
+
+92
+00:02:09,350 --> 00:02:09,360
+if any time it falls below zero then
+ 
+
+93
+00:02:09,360 --> 00:02:10,229
+if any time it falls below zero then
+it's invalid
+
+94
+00:02:10,229 --> 00:02:10,239
+it's invalid
+ 
+
+95
+00:02:10,239 --> 00:02:12,949
+it's invalid
+all right because it falls below zero it
+
+96
+00:02:12,949 --> 00:02:12,959
+all right because it falls below zero it
+ 
+
+97
+00:02:12,959 --> 00:02:14,790
+all right because it falls below zero it
+means we don't have enough
+
+98
+00:02:14,790 --> 00:02:14,800
+means we don't have enough
+ 
+
+99
+00:02:14,800 --> 00:02:18,309
+means we don't have enough
+opening brackets
+
+100
+00:02:18,309 --> 00:02:18,319
+
+ 
+
+101
+00:02:18,319 --> 00:02:22,390
+
+like this one
+
+102
+00:02:22,390 --> 00:02:22,400
+like this one
+ 
+
+103
+00:02:22,400 --> 00:02:25,670
+like this one
+zero minus one one is negative one is
+
+104
+00:02:25,670 --> 00:02:25,680
+zero minus one one is negative one is
+ 
+
+105
+00:02:25,680 --> 00:02:27,589
+zero minus one one is negative one is
+below zero it means we don't have enough
+
+106
+00:02:27,589 --> 00:02:27,599
+below zero it means we don't have enough
+ 
+
+107
+00:02:27,599 --> 00:02:29,030
+below zero it means we don't have enough
+opening all right
+
+108
+00:02:29,030 --> 00:02:29,040
+opening all right
+ 
+
+109
+00:02:29,040 --> 00:02:31,350
+opening all right
+so it means we will deal with ten
+
+110
+00:02:31,350 --> 00:02:31,360
+so it means we will deal with ten
+ 
+
+111
+00:02:31,360 --> 00:02:33,670
+so it means we will deal with ten
+fourths immediately
+
+112
+00:02:33,670 --> 00:02:33,680
+fourths immediately
+ 
+
+113
+00:02:33,680 --> 00:02:37,190
+fourths immediately
+if this one is one and this one minus
+
+114
+00:02:37,190 --> 00:02:37,200
+if this one is one and this one minus
+ 
+
+115
+00:02:37,200 --> 00:02:37,670
+if this one is one and this one minus
+one
+
+116
+00:02:37,670 --> 00:02:37,680
+one
+ 
+
+117
+00:02:37,680 --> 00:02:40,710
+one
+and this uh a3 and this quantity
+
+118
+00:02:40,710 --> 00:02:40,720
+and this uh a3 and this quantity
+ 
+
+119
+00:02:40,720 --> 00:02:43,830
+and this uh a3 and this quantity
+and this are three and this one three
+
+120
+00:02:43,830 --> 00:02:43,840
+and this are three and this one three
+ 
+
+121
+00:02:43,840 --> 00:02:47,670
+and this are three and this one three
+no look it could work a little bit but
+
+122
+00:02:47,670 --> 00:02:47,680
+no look it could work a little bit but
+ 
+
+123
+00:02:47,680 --> 00:02:48,070
+no look it could work a little bit but
+no
+
+124
+00:02:48,070 --> 00:02:48,080
+no
+ 
+
+125
+00:02:48,080 --> 00:02:50,550
+no
+look if you add two what happened like
+
+126
+00:02:50,550 --> 00:02:50,560
+look if you add two what happened like
+ 
+
+127
+00:02:50,560 --> 00:02:52,470
+look if you add two what happened like
+if you're saying that uh
+
+128
+00:02:52,470 --> 00:02:52,480
+if you're saying that uh
+ 
+
+129
+00:02:52,480 --> 00:02:55,670
+if you're saying that uh
+uh these at one and these at two right
+
+130
+00:02:55,670 --> 00:02:55,680
+uh these at one and these at two right
+ 
+
+131
+00:02:55,680 --> 00:02:58,790
+uh these at one and these at two right
+and this s3 right yeah oh okay so if
+
+132
+00:02:58,790 --> 00:02:58,800
+and this s3 right yeah oh okay so if
+ 
+
+133
+00:02:58,800 --> 00:03:02,830
+and this s3 right yeah oh okay so if
+this is minus two all right and
+
+134
+00:03:02,830 --> 00:03:02,840
+this is minus two all right and
+ 
+
+135
+00:03:02,840 --> 00:03:03,990
+this is minus two all right and
+hopefully
+
+136
+00:03:03,990 --> 00:03:04,000
+hopefully
+ 
+
+137
+00:03:04,000 --> 00:03:07,190
+hopefully
+one one two one one is yellow this is
+
+138
+00:03:07,190 --> 00:03:07,200
+one one two one one is yellow this is
+ 
+
+139
+00:03:07,200 --> 00:03:08,229
+one one two one one is yellow this is
+apparently not very
+
+140
+00:03:08,229 --> 00:03:08,239
+apparently not very
+ 
+
+141
+00:03:08,239 --> 00:03:11,110
+apparently not very
+valid yeah did you get it so this this
+
+142
+00:03:11,110 --> 00:03:11,120
+valid yeah did you get it so this this
+ 
+
+143
+00:03:11,120 --> 00:03:12,710
+valid yeah did you get it so this this
+of course stuff you know what
+
+144
+00:03:12,710 --> 00:03:12,720
+of course stuff you know what
+ 
+
+145
+00:03:12,720 --> 00:03:16,949
+of course stuff you know what
+got it yeah okay
+
+146
+00:03:16,949 --> 00:03:16,959
+
+ 
+
+147
+00:03:16,959 --> 00:03:19,350
+
+so the the tricky part is that we need
+
+148
+00:03:19,350 --> 00:03:19,360
+so the the tricky part is that we need
+ 
+
+149
+00:03:19,360 --> 00:03:20,149
+so the the tricky part is that we need
+to check
+
+150
+00:03:20,149 --> 00:03:20,159
+to check
+ 
+
+151
+00:03:20,159 --> 00:03:23,430
+to check
+if the opening is the one we want okay
+
+152
+00:03:23,430 --> 00:03:23,440
+if the opening is the one we want okay
+ 
+
+153
+00:03:23,440 --> 00:03:27,190
+if the opening is the one we want okay
+even yeah so remember we talked about a
+
+154
+00:03:27,190 --> 00:03:27,200
+even yeah so remember we talked about a
+ 
+
+155
+00:03:27,200 --> 00:03:29,110
+even yeah so remember we talked about a
+sec before what stack
+
+156
+00:03:29,110 --> 00:03:29,120
+sec before what stack
+ 
+
+157
+00:03:29,120 --> 00:03:34,130
+sec before what stack
+can you remind me
+
+158
+00:03:34,130 --> 00:03:34,140
+
+ 
+
+159
+00:03:34,140 --> 00:03:44,949
+
+[Music]
+
+160
+00:03:44,949 --> 00:03:44,959
+
+ 
+
+161
+00:03:44,959 --> 00:03:46,630
+
+the beginning yeah why you change your
+
+162
+00:03:46,630 --> 00:03:46,640
+the beginning yeah why you change your
+ 
+
+163
+00:03:46,640 --> 00:03:49,910
+the beginning yeah why you change your
+answer to first thing first off
+
+164
+00:03:49,910 --> 00:03:49,920
+answer to first thing first off
+ 
+
+165
+00:03:49,920 --> 00:03:53,110
+answer to first thing first off
+okay so let's take visually okay if you
+
+166
+00:03:53,110 --> 00:03:53,120
+okay so let's take visually okay if you
+ 
+
+167
+00:03:53,120 --> 00:03:54,070
+okay so let's take visually okay if you
+put something in
+
+168
+00:03:54,070 --> 00:03:54,080
+put something in
+ 
+
+169
+00:03:54,080 --> 00:03:57,509
+put something in
+put a if we put eric in
+
+170
+00:03:57,509 --> 00:03:57,519
+put a if we put eric in
+ 
+
+171
+00:03:57,519 --> 00:04:13,110
+put a if we put eric in
+then we put ryan in
+
+172
+00:04:13,110 --> 00:04:13,120
+
+ 
+
+173
+00:04:13,120 --> 00:04:16,469
+
+the stack technical alphas
+
+174
+00:04:16,469 --> 00:04:16,479
+the stack technical alphas
+ 
+
+175
+00:04:16,479 --> 00:04:19,189
+the stack technical alphas
+and then mommy yeah and ryan and eric
+
+176
+00:04:19,189 --> 00:04:19,199
+and then mommy yeah and ryan and eric
+ 
+
+177
+00:04:19,199 --> 00:04:20,069
+and then mommy yeah and ryan and eric
+you see everything goes
+
+178
+00:04:20,069 --> 00:04:20,079
+you see everything goes
+ 
+
+179
+00:04:20,079 --> 00:04:23,189
+you see everything goes
+in first but glass out yeah yeah okay so
+
+180
+00:04:23,189 --> 00:04:23,199
+in first but glass out yeah yeah okay so
+ 
+
+181
+00:04:23,199 --> 00:04:24,310
+in first but glass out yeah yeah okay so
+let's first signal
+
+182
+00:04:24,310 --> 00:04:24,320
+let's first signal
+ 
+
+183
+00:04:24,320 --> 00:04:28,870
+let's first signal
+so how about if we meet these leaves
+
+184
+00:04:28,870 --> 00:04:28,880
+so how about if we meet these leaves
+ 
+
+185
+00:04:28,880 --> 00:04:31,670
+so how about if we meet these leaves
+we will meet one of these yeah yeah we
+
+186
+00:04:31,670 --> 00:04:31,680
+we will meet one of these yeah yeah we
+ 
+
+187
+00:04:31,680 --> 00:04:33,030
+we will meet one of these yeah yeah we
+put it this is the
+
+188
+00:04:33,030 --> 00:04:33,040
+put it this is the
+ 
+
+189
+00:04:33,040 --> 00:04:36,629
+put it this is the
+filler we put it here
+
+190
+00:04:36,629 --> 00:04:36,639
+
+ 
+
+191
+00:04:36,639 --> 00:04:41,110
+
+like this let's examine okay
+
+192
+00:04:41,110 --> 00:04:41,120
+like this let's examine okay
+ 
+
+193
+00:04:41,120 --> 00:04:45,030
+like this let's examine okay
+okay yeah this is so very evil
+
+194
+00:04:45,030 --> 00:04:45,040
+okay yeah this is so very evil
+ 
+
+195
+00:04:45,040 --> 00:04:48,550
+okay yeah this is so very evil
+yeah you need whatever you thought
+
+196
+00:04:48,550 --> 00:04:48,560
+yeah you need whatever you thought
+ 
+
+197
+00:04:48,560 --> 00:04:52,070
+yeah you need whatever you thought
+you have to find me out a little bit
+
+198
+00:04:52,070 --> 00:04:52,080
+you have to find me out a little bit
+ 
+
+199
+00:04:52,080 --> 00:04:55,590
+you have to find me out a little bit
+yeah yeah look look going this way yeah
+
+200
+00:04:55,590 --> 00:04:55,600
+yeah yeah look look going this way yeah
+ 
+
+201
+00:04:55,600 --> 00:04:59,189
+yeah yeah look look going this way yeah
+opening i put it here yeah
+
+202
+00:04:59,189 --> 00:04:59,199
+opening i put it here yeah
+ 
+
+203
+00:04:59,199 --> 00:05:02,790
+opening i put it here yeah
+yeah another opening i put it here
+
+204
+00:05:02,790 --> 00:05:02,800
+yeah another opening i put it here
+ 
+
+205
+00:05:02,800 --> 00:05:06,150
+yeah another opening i put it here
+another opening i put it here okay now
+
+206
+00:05:06,150 --> 00:05:06,160
+another opening i put it here okay now
+ 
+
+207
+00:05:06,160 --> 00:05:07,909
+another opening i put it here okay now
+it's closing yeah
+
+208
+00:05:07,909 --> 00:05:07,919
+it's closing yeah
+ 
+
+209
+00:05:07,919 --> 00:05:10,790
+it's closing yeah
+what is going to mean any of these we
+
+210
+00:05:10,790 --> 00:05:10,800
+what is going to mean any of these we
+ 
+
+211
+00:05:10,800 --> 00:05:11,110
+what is going to mean any of these we
+look
+
+212
+00:05:11,110 --> 00:05:11,120
+look
+ 
+
+213
+00:05:11,120 --> 00:05:13,990
+look
+at the topless deck right okay this
+
+214
+00:05:13,990 --> 00:05:14,000
+at the topless deck right okay this
+ 
+
+215
+00:05:14,000 --> 00:05:15,350
+at the topless deck right okay this
+topper stack is this
+
+216
+00:05:15,350 --> 00:05:15,360
+topper stack is this
+ 
+
+217
+00:05:15,360 --> 00:05:17,670
+topper stack is this
+it doesn't match this one yes then we
+
+218
+00:05:17,670 --> 00:05:17,680
+it doesn't match this one yes then we
+ 
+
+219
+00:05:17,680 --> 00:05:18,390
+it doesn't match this one yes then we
+continue
+
+220
+00:05:18,390 --> 00:05:18,400
+continue
+ 
+
+221
+00:05:18,400 --> 00:05:21,990
+continue
+we take it out we continue does it makes
+
+222
+00:05:21,990 --> 00:05:22,000
+we take it out we continue does it makes
+ 
+
+223
+00:05:22,000 --> 00:05:26,469
+we take it out we continue does it makes
+match this one yes we take it off yeah
+
+224
+00:05:26,469 --> 00:05:26,479
+match this one yes we take it off yeah
+ 
+
+225
+00:05:26,479 --> 00:05:30,150
+match this one yes we take it off yeah
+does it make match this one no yes
+
+226
+00:05:30,150 --> 00:05:30,160
+does it make match this one no yes
+ 
+
+227
+00:05:30,160 --> 00:05:32,230
+does it make match this one no yes
+i'm going to take it off yes yes and
+
+228
+00:05:32,230 --> 00:05:32,240
+i'm going to take it off yes yes and
+ 
+
+229
+00:05:32,240 --> 00:05:34,390
+i'm going to take it off yes yes and
+then look if it doesn't match then for
+
+230
+00:05:34,390 --> 00:05:34,400
+then look if it doesn't match then for
+ 
+
+231
+00:05:34,400 --> 00:05:36,230
+then look if it doesn't match then for
+example if you start to match
+
+232
+00:05:36,230 --> 00:05:36,240
+example if you start to match
+ 
+
+233
+00:05:36,240 --> 00:05:39,830
+example if you start to match
+like that okay yeah doesn't match
+
+234
+00:05:39,830 --> 00:05:39,840
+like that okay yeah doesn't match
+ 
+
+235
+00:05:39,840 --> 00:05:43,189
+like that okay yeah doesn't match
+uh this is the set
+
+236
+00:05:43,189 --> 00:05:43,199
+uh this is the set
+ 
+
+237
+00:05:43,199 --> 00:05:47,189
+uh this is the set
+yeah if it if it is the
+
+238
+00:05:47,189 --> 00:05:47,199
+yeah if it if it is the
+ 
+
+239
+00:05:47,199 --> 00:05:49,430
+yeah if it if it is the
+does not match right then will be turned
+
+240
+00:05:49,430 --> 00:05:49,440
+does not match right then will be turned
+ 
+
+241
+00:05:49,440 --> 00:05:50,790
+does not match right then will be turned
+forth immediately
+
+242
+00:05:50,790 --> 00:05:50,800
+forth immediately
+ 
+
+243
+00:05:50,800 --> 00:05:53,189
+forth immediately
+you see and at the end we need to check
+
+244
+00:05:53,189 --> 00:05:53,199
+you see and at the end we need to check
+ 
+
+245
+00:05:53,199 --> 00:05:54,950
+you see and at the end we need to check
+if this stack is empty
+
+246
+00:05:54,950 --> 00:05:54,960
+if this stack is empty
+ 
+
+247
+00:05:54,960 --> 00:05:56,790
+if this stack is empty
+if it's not empty it means that some
+
+248
+00:05:56,790 --> 00:05:56,800
+if it's not empty it means that some
+ 
+
+249
+00:05:56,800 --> 00:05:58,790
+if it's not empty it means that some
+brackets are now closing right
+
+250
+00:05:58,790 --> 00:05:58,800
+brackets are now closing right
+ 
+
+251
+00:05:58,800 --> 00:06:02,390
+brackets are now closing right
+like this if you look i push two twice
+
+252
+00:06:02,390 --> 00:06:02,400
+like this if you look i push two twice
+ 
+
+253
+00:06:02,400 --> 00:06:05,270
+like this if you look i push two twice
+30 degrees of brackets and then i mean
+
+254
+00:06:05,270 --> 00:06:05,280
+30 degrees of brackets and then i mean
+ 
+
+255
+00:06:05,280 --> 00:06:06,629
+30 degrees of brackets and then i mean
+this one i take this out
+
+256
+00:06:06,629 --> 00:06:06,639
+this one i take this out
+ 
+
+257
+00:06:06,639 --> 00:06:09,350
+this one i take this out
+it match yeah okay and look what
+
+258
+00:06:09,350 --> 00:06:09,360
+it match yeah okay and look what
+ 
+
+259
+00:06:09,360 --> 00:06:09,830
+it match yeah okay and look what
+happened
+
+260
+00:06:09,830 --> 00:06:09,840
+happened
+ 
+
+261
+00:06:09,840 --> 00:06:12,550
+happened
+we have one more needs to be close so
+
+262
+00:06:12,550 --> 00:06:12,560
+we have one more needs to be close so
+ 
+
+263
+00:06:12,560 --> 00:06:13,029
+we have one more needs to be close so
+it's not
+
+264
+00:06:13,029 --> 00:06:13,039
+it's not
+ 
+
+265
+00:06:13,039 --> 00:06:16,629
+it's not
+a valid one does it doesn't make sense
+
+266
+00:06:16,629 --> 00:06:16,639
+a valid one does it doesn't make sense
+ 
+
+267
+00:06:16,639 --> 00:06:18,550
+a valid one does it doesn't make sense
+so this stack is very useful in this
+
+268
+00:06:18,550 --> 00:06:18,560
+so this stack is very useful in this
+ 
+
+269
+00:06:18,560 --> 00:06:20,390
+so this stack is very useful in this
+case yeah okay hop
+
+270
+00:06:20,390 --> 00:06:20,400
+case yeah okay hop
+ 
+
+271
+00:06:20,400 --> 00:06:23,029
+case yeah okay hop
+right let's learn the problem can i have
+
+272
+00:06:23,029 --> 00:06:23,039
+right let's learn the problem can i have
+ 
+
+273
+00:06:23,039 --> 00:06:23,430
+right let's learn the problem can i have
+like
+
+274
+00:06:23,430 --> 00:06:23,440
+like
+ 
+
+275
+00:06:23,440 --> 00:06:26,790
+like
+raise the please razor man
+
+276
+00:06:26,790 --> 00:06:26,800
+raise the please razor man
+ 
+
+277
+00:06:26,800 --> 00:06:39,749
+raise the please razor man
+eraser man
+
+278
+00:06:39,749 --> 00:06:39,759
+
+ 
+
+279
+00:06:39,759 --> 00:06:42,309
+
+of course okay this is running out of
+
+280
+00:06:42,309 --> 00:06:42,319
+of course okay this is running out of
+ 
+
+281
+00:06:42,319 --> 00:06:44,469
+of course okay this is running out of
+pink
+
+282
+00:06:44,469 --> 00:06:44,479
+pink
+ 
+
+283
+00:06:44,479 --> 00:06:48,790
+pink
+defined you choose it valid
+
+284
+00:06:48,790 --> 00:06:48,800
+defined you choose it valid
+ 
+
+285
+00:06:48,800 --> 00:07:05,740
+defined you choose it valid
+princesses yeah then this is
+
+286
+00:07:05,740 --> 00:07:05,750
+
+ 
+
+287
+00:07:05,750 --> 00:07:19,749
+
+[Music]
+
+288
+00:07:19,749 --> 00:07:19,759
+
+ 
+
+289
+00:07:19,759 --> 00:07:21,670
+
+this means the list but we can use it as
+
+290
+00:07:21,670 --> 00:07:21,680
+this means the list but we can use it as
+ 
+
+291
+00:07:21,680 --> 00:07:23,029
+this means the list but we can use it as
+a stack right remember
+
+292
+00:07:23,029 --> 00:07:23,039
+a stack right remember
+ 
+
+293
+00:07:23,039 --> 00:07:26,790
+a stack right remember
+yeah okay so why unite
+
+294
+00:07:26,790 --> 00:07:26,800
+yeah okay so why unite
+ 
+
+295
+00:07:26,800 --> 00:07:29,990
+yeah okay so why unite
+yeah for i is s
+
+296
+00:07:29,990 --> 00:07:30,000
+yeah for i is s
+ 
+
+297
+00:07:30,000 --> 00:07:33,350
+yeah for i is s
+column yeah
+
+298
+00:07:33,350 --> 00:07:33,360
+column yeah
+ 
+
+299
+00:07:33,360 --> 00:07:36,710
+column yeah
+so now we need to find out if i if i
+
+300
+00:07:36,710 --> 00:07:36,720
+so now we need to find out if i if i
+ 
+
+301
+00:07:36,720 --> 00:07:40,309
+so now we need to find out if i if i
+in look we can use in to
+
+302
+00:07:40,309 --> 00:07:40,319
+in look we can use in to
+ 
+
+303
+00:07:40,319 --> 00:07:43,670
+in look we can use in to
+to check if this is enough in
+
+304
+00:07:43,670 --> 00:07:43,680
+to check if this is enough in
+ 
+
+305
+00:07:43,680 --> 00:07:46,710
+to check if this is enough in
+in in this piece right
+
+306
+00:07:46,710 --> 00:07:46,720
+in in this piece right
+ 
+
+307
+00:07:46,720 --> 00:07:50,070
+in in this piece right
+if it's in the open bracket curly brace
+
+308
+00:07:50,070 --> 00:07:50,080
+if it's in the open bracket curly brace
+ 
+
+309
+00:07:50,080 --> 00:07:53,350
+if it's in the open bracket curly brace
+and then square bracket if it's one of
+
+310
+00:07:53,350 --> 00:07:53,360
+and then square bracket if it's one of
+ 
+
+311
+00:07:53,360 --> 00:07:53,830
+and then square bracket if it's one of
+these
+
+312
+00:07:53,830 --> 00:07:53,840
+these
+ 
+
+313
+00:07:53,840 --> 00:07:56,869
+these
+yeah if it's one of these then we push
+
+314
+00:07:56,869 --> 00:07:56,879
+yeah if it's one of these then we push
+ 
+
+315
+00:07:56,879 --> 00:07:59,589
+yeah if it's one of these then we push
+it into the stack stop the append right
+
+316
+00:07:59,589 --> 00:07:59,599
+it into the stack stop the append right
+ 
+
+317
+00:07:59,599 --> 00:08:03,029
+it into the stack stop the append right
+we push it into the stack i
+
+318
+00:08:03,029 --> 00:08:03,039
+we push it into the stack i
+ 
+
+319
+00:08:03,039 --> 00:08:07,510
+we push it into the stack i
+ass right
+
+320
+00:08:07,510 --> 00:08:07,520
+
+ 
+
+321
+00:08:07,520 --> 00:08:10,629
+
+in order closing brackets yeah
+
+322
+00:08:10,629 --> 00:08:10,639
+in order closing brackets yeah
+ 
+
+323
+00:08:10,639 --> 00:08:14,629
+in order closing brackets yeah
+closing bracket wait wait wait wait wait
+
+324
+00:08:14,629 --> 00:08:14,639
+closing bracket wait wait wait wait wait
+ 
+
+325
+00:08:14,639 --> 00:08:15,350
+closing bracket wait wait wait wait wait
+wait
+
+326
+00:08:15,350 --> 00:08:15,360
+wait
+ 
+
+327
+00:08:15,360 --> 00:08:18,390
+wait
+closing bracket then you need to check
+
+328
+00:08:18,390 --> 00:08:18,400
+closing bracket then you need to check
+ 
+
+329
+00:08:18,400 --> 00:08:22,469
+closing bracket then you need to check
+what we mean is we need to check
+
+330
+00:08:22,469 --> 00:08:22,479
+
+ 
+
+331
+00:08:22,479 --> 00:08:24,950
+
+ryan then we need to check if the stack
+
+332
+00:08:24,950 --> 00:08:24,960
+ryan then we need to check if the stack
+ 
+
+333
+00:08:24,960 --> 00:08:26,070
+ryan then we need to check if the stack
+is empty or not right
+
+334
+00:08:26,070 --> 00:08:26,080
+is empty or not right
+ 
+
+335
+00:08:26,080 --> 00:08:28,629
+is empty or not right
+if we already mean this one even at the
+
+336
+00:08:28,629 --> 00:08:28,639
+if we already mean this one even at the
+ 
+
+337
+00:08:28,639 --> 00:08:29,589
+if we already mean this one even at the
+beginning
+
+338
+00:08:29,589 --> 00:08:29,599
+beginning
+ 
+
+339
+00:08:29,599 --> 00:08:31,990
+beginning
+the stack is empty right if we all have
+
+340
+00:08:31,990 --> 00:08:32,000
+the stack is empty right if we all have
+ 
+
+341
+00:08:32,000 --> 00:08:32,870
+the stack is empty right if we all have
+the closing one
+
+342
+00:08:32,870 --> 00:08:32,880
+the closing one
+ 
+
+343
+00:08:32,880 --> 00:08:35,190
+the closing one
+it's invalid we can't pop any element
+
+344
+00:08:35,190 --> 00:08:35,200
+it's invalid we can't pop any element
+ 
+
+345
+00:08:35,200 --> 00:08:37,350
+it's invalid we can't pop any element
+there's nothing in the stack right
+
+346
+00:08:37,350 --> 00:08:37,360
+there's nothing in the stack right
+ 
+
+347
+00:08:37,360 --> 00:08:39,430
+there's nothing in the stack right
+so we need to check in this case if then
+
+348
+00:08:39,430 --> 00:08:39,440
+so we need to check in this case if then
+ 
+
+349
+00:08:39,440 --> 00:08:41,350
+so we need to check in this case if then
+nothing in the stack is invalid
+
+350
+00:08:41,350 --> 00:08:41,360
+nothing in the stack is invalid
+ 
+
+351
+00:08:41,360 --> 00:08:45,030
+nothing in the stack is invalid
+right so we need to check a and
+
+352
+00:08:45,030 --> 00:08:45,040
+right so we need to check a and
+ 
+
+353
+00:08:45,040 --> 00:08:48,310
+right so we need to check a and
+c is zero equals equals right that means
+
+354
+00:08:48,310 --> 00:08:48,320
+c is zero equals equals right that means
+ 
+
+355
+00:08:48,320 --> 00:08:50,310
+c is zero equals equals right that means
+the second
+
+356
+00:08:50,310 --> 00:08:50,320
+the second
+ 
+
+357
+00:08:50,320 --> 00:08:53,590
+the second
+minus one wait wait
+
+358
+00:08:53,590 --> 00:08:53,600
+minus one wait wait
+ 
+
+359
+00:08:53,600 --> 00:08:57,190
+minus one wait wait
+wait wait wait look yes you are right st
+
+360
+00:08:57,190 --> 00:08:57,200
+wait wait wait look yes you are right st
+ 
+
+361
+00:08:57,200 --> 00:09:00,870
+wait wait wait look yes you are right st
+minus one means that the the
+
+362
+00:09:00,870 --> 00:09:00,880
+minus one means that the the
+ 
+
+363
+00:09:00,880 --> 00:09:04,230
+minus one means that the the
+look the top of the stack right
+
+364
+00:09:04,230 --> 00:09:04,240
+look the top of the stack right
+ 
+
+365
+00:09:04,240 --> 00:09:06,150
+look the top of the stack right
+look if you are using a list like even a
+
+366
+00:09:06,150 --> 00:09:06,160
+look if you are using a list like even a
+ 
+
+367
+00:09:06,160 --> 00:09:08,790
+look if you are using a list like even a
+step if the list is one two three
+
+368
+00:09:08,790 --> 00:09:08,800
+step if the list is one two three
+ 
+
+369
+00:09:08,800 --> 00:09:10,710
+step if the list is one two three
+um do you still remember this before
+
+370
+00:09:10,710 --> 00:09:10,720
+um do you still remember this before
+ 
+
+371
+00:09:10,720 --> 00:09:12,070
+um do you still remember this before
+this is one two three
+
+372
+00:09:12,070 --> 00:09:12,080
+this is one two three
+ 
+
+373
+00:09:12,080 --> 00:09:15,829
+this is one two three
+yeah the minus one yes minus one is
+
+374
+00:09:15,829 --> 00:09:15,839
+yeah the minus one yes minus one is
+ 
+
+375
+00:09:15,839 --> 00:09:17,590
+yeah the minus one yes minus one is
+three yeah the last element
+
+376
+00:09:17,590 --> 00:09:17,600
+three yeah the last element
+ 
+
+377
+00:09:17,600 --> 00:09:21,190
+three yeah the last element
+yes zero is the beginning
+
+378
+00:09:21,190 --> 00:09:21,200
+yes zero is the beginning
+ 
+
+379
+00:09:21,200 --> 00:09:24,470
+yes zero is the beginning
+right yeah
+
+380
+00:09:24,470 --> 00:09:24,480
+
+ 
+
+381
+00:09:24,480 --> 00:09:27,190
+
+okay okay okay that's it that's it okay
+
+382
+00:09:27,190 --> 00:09:27,200
+okay okay okay that's it that's it okay
+ 
+
+383
+00:09:27,200 --> 00:09:30,710
+okay okay okay that's it that's it okay
+now
+
+384
+00:09:30,710 --> 00:09:30,720
+
+ 
+
+385
+00:09:30,720 --> 00:09:35,110
+
+if mistake if the the previous the
+
+386
+00:09:35,110 --> 00:09:35,120
+if mistake if the the previous the
+ 
+
+387
+00:09:35,120 --> 00:09:36,949
+if mistake if the the previous the
+top of the step right even the top of
+
+388
+00:09:36,949 --> 00:09:36,959
+top of the step right even the top of
+ 
+
+389
+00:09:36,959 --> 00:09:39,430
+top of the step right even the top of
+stack is this one
+
+390
+00:09:39,430 --> 00:09:39,440
+stack is this one
+ 
+
+391
+00:09:39,440 --> 00:09:43,269
+stack is this one
+is the top topper stack
+
+392
+00:09:43,269 --> 00:09:43,279
+is the top topper stack
+ 
+
+393
+00:09:43,279 --> 00:09:46,470
+is the top topper stack
+plus now current current one is
+
+394
+00:09:46,470 --> 00:09:46,480
+plus now current current one is
+ 
+
+395
+00:09:46,480 --> 00:09:50,070
+plus now current current one is
+also in in what in this this
+
+396
+00:09:50,070 --> 00:09:50,080
+also in in what in this this
+ 
+
+397
+00:09:50,080 --> 00:09:54,150
+also in in what in this this
+is a very pair yeah this is the red pair
+
+398
+00:09:54,150 --> 00:09:54,160
+is a very pair yeah this is the red pair
+ 
+
+399
+00:09:54,160 --> 00:09:57,190
+is a very pair yeah this is the red pair
+this is a very pair right
+
+400
+00:09:57,190 --> 00:09:57,200
+this is a very pair right
+ 
+
+401
+00:09:57,200 --> 00:09:59,430
+this is a very pair right
+if not in this is the red pair but we
+
+402
+00:09:59,430 --> 00:09:59,440
+if not in this is the red pair but we
+ 
+
+403
+00:09:59,440 --> 00:10:00,630
+if not in this is the red pair but we
+are looking for not
+
+404
+00:10:00,630 --> 00:10:00,640
+are looking for not
+ 
+
+405
+00:10:00,640 --> 00:10:04,230
+are looking for not
+so not this one
+
+406
+00:10:04,230 --> 00:10:04,240
+so not this one
+ 
+
+407
+00:10:04,240 --> 00:10:07,590
+so not this one
+column return fourth right
+
+408
+00:10:07,590 --> 00:10:07,600
+column return fourth right
+ 
+
+409
+00:10:07,600 --> 00:10:09,750
+column return fourth right
+yeah and then after that we need to
+
+410
+00:10:09,750 --> 00:10:09,760
+yeah and then after that we need to
+ 
+
+411
+00:10:09,760 --> 00:10:12,069
+yeah and then after that we need to
+publish from the second t
+
+412
+00:10:12,069 --> 00:10:12,079
+publish from the second t
+ 
+
+413
+00:10:12,079 --> 00:10:15,910
+publish from the second t
+dot pop
+
+414
+00:10:15,910 --> 00:10:15,920
+
+ 
+
+415
+00:10:15,920 --> 00:10:17,990
+
+this is popular last element if we want
+
+416
+00:10:17,990 --> 00:10:18,000
+this is popular last element if we want
+ 
+
+417
+00:10:18,000 --> 00:10:25,750
+this is popular last element if we want
+to pop the first element
+
+418
+00:10:25,750 --> 00:10:25,760
+
+ 
+
+419
+00:10:25,760 --> 00:10:28,870
+
+yeah we need to check if it's listed
+
+420
+00:10:28,870 --> 00:10:28,880
+yeah we need to check if it's listed
+ 
+
+421
+00:10:28,880 --> 00:10:31,350
+yeah we need to check if it's listed
+this is empty right let's take it empty
+
+422
+00:10:31,350 --> 00:10:31,360
+this is empty right let's take it empty
+ 
+
+423
+00:10:31,360 --> 00:10:32,470
+this is empty right let's take it empty
+okay so
+
+424
+00:10:32,470 --> 00:10:32,480
+okay so
+ 
+
+425
+00:10:32,480 --> 00:10:34,790
+okay so
+so can you tell me if i want to check
+
+426
+00:10:34,790 --> 00:10:34,800
+so can you tell me if i want to check
+ 
+
+427
+00:10:34,800 --> 00:10:35,910
+so can you tell me if i want to check
+the beginning of
+
+428
+00:10:35,910 --> 00:10:35,920
+the beginning of
+ 
+
+429
+00:10:35,920 --> 00:10:38,230
+the beginning of
+we want to even list this one two three
+
+430
+00:10:38,230 --> 00:10:38,240
+we want to even list this one two three
+ 
+
+431
+00:10:38,240 --> 00:10:39,430
+we want to even list this one two three
+if i want to pop
+
+432
+00:10:39,430 --> 00:10:39,440
+if i want to pop
+ 
+
+433
+00:10:39,440 --> 00:10:42,389
+if i want to pop
+this element out first first thing first
+
+434
+00:10:42,389 --> 00:10:42,399
+this element out first first thing first
+ 
+
+435
+00:10:42,399 --> 00:10:43,750
+this element out first first thing first
+or how do we do this
+
+436
+00:10:43,750 --> 00:10:43,760
+or how do we do this
+ 
+
+437
+00:10:43,760 --> 00:10:47,910
+or how do we do this
+first so he needs to go out so he goes
+
+438
+00:10:47,910 --> 00:10:47,920
+first so he needs to go out so he goes
+ 
+
+439
+00:10:47,920 --> 00:10:48,470
+first so he needs to go out so he goes
+out
+
+440
+00:10:48,470 --> 00:10:48,480
+out
+ 
+
+441
+00:10:48,480 --> 00:10:51,430
+out
+yeah that's st pop right yeah and how
+
+442
+00:10:51,430 --> 00:10:51,440
+yeah that's st pop right yeah and how
+ 
+
+443
+00:10:51,440 --> 00:10:52,870
+yeah that's st pop right yeah and how
+about if i want the popular one
+
+444
+00:10:52,870 --> 00:10:52,880
+about if i want the popular one
+ 
+
+445
+00:10:52,880 --> 00:10:56,389
+about if i want the popular one
+oh what do i do
+
+446
+00:10:56,389 --> 00:10:56,399
+
+ 
+
+447
+00:10:56,399 --> 00:10:59,430
+
+that one no no what i'm saying that
+
+448
+00:10:59,430 --> 00:10:59,440
+that one no no what i'm saying that
+ 
+
+449
+00:10:59,440 --> 00:11:02,069
+that one no no what i'm saying that
+if if we are using this stack this is
+
+450
+00:11:02,069 --> 00:11:02,079
+if if we are using this stack this is
+ 
+
+451
+00:11:02,079 --> 00:11:04,230
+if if we are using this stack this is
+this as a queue we want to pop the first
+
+452
+00:11:04,230 --> 00:11:04,240
+this as a queue we want to pop the first
+ 
+
+453
+00:11:04,240 --> 00:11:04,790
+this as a queue we want to pop the first
+element
+
+454
+00:11:04,790 --> 00:11:04,800
+element
+ 
+
+455
+00:11:04,800 --> 00:11:08,389
+element
+out and we need to pop zero remember
+
+456
+00:11:08,389 --> 00:11:08,399
+out and we need to pop zero remember
+ 
+
+457
+00:11:08,399 --> 00:11:08,710
+out and we need to pop zero remember
+this
+
+458
+00:11:08,710 --> 00:11:08,720
+this
+ 
+
+459
+00:11:08,720 --> 00:11:11,750
+this
+zero means the first one yeah yeah
+
+460
+00:11:11,750 --> 00:11:11,760
+zero means the first one yeah yeah
+ 
+
+461
+00:11:11,760 --> 00:11:15,110
+zero means the first one yeah yeah
+okay okay so this is the basic so
+
+462
+00:11:15,110 --> 00:11:15,120
+okay okay so this is the basic so
+ 
+
+463
+00:11:15,120 --> 00:11:17,350
+okay okay so this is the basic so
+what's the complexity what's the
+
+464
+00:11:17,350 --> 00:11:17,360
+what's the complexity what's the
+ 
+
+465
+00:11:17,360 --> 00:11:18,470
+what's the complexity what's the
+complexity
+
+466
+00:11:18,470 --> 00:11:18,480
+complexity
+ 
+
+467
+00:11:18,480 --> 00:11:22,389
+complexity
+[Music]
+
+468
+00:11:22,389 --> 00:11:22,399
+
+ 
+
+469
+00:11:22,399 --> 00:11:25,030
+
+because yes n is the number of the
+
+470
+00:11:25,030 --> 00:11:25,040
+because yes n is the number of the
+ 
+
+471
+00:11:25,040 --> 00:11:26,550
+because yes n is the number of the
+character in the string
+
+472
+00:11:26,550 --> 00:11:26,560
+character in the string
+ 
+
+473
+00:11:26,560 --> 00:11:29,670
+character in the string
+how about the space complexity
+
+474
+00:11:29,670 --> 00:11:29,680
+how about the space complexity
+ 
+
+475
+00:11:29,680 --> 00:11:32,069
+how about the space complexity
+yeah space complexity do we need to
+
+476
+00:11:32,069 --> 00:11:32,079
+yeah space complexity do we need to
+ 
+
+477
+00:11:32,079 --> 00:11:34,150
+yeah space complexity do we need to
+allocate a space for this problem
+
+478
+00:11:34,150 --> 00:11:34,160
+allocate a space for this problem
+ 
+
+479
+00:11:34,160 --> 00:11:37,230
+allocate a space for this problem
+nine why not we're using a stack why not
+
+480
+00:11:37,230 --> 00:11:37,240
+nine why not we're using a stack why not
+ 
+
+481
+00:11:37,240 --> 00:11:41,750
+nine why not we're using a stack why not
+because it becomes
+
+482
+00:11:41,750 --> 00:11:41,760
+because it becomes
+ 
+
+483
+00:11:41,760 --> 00:11:44,870
+because it becomes
+what's your opinion
+
+484
+00:11:44,870 --> 00:11:44,880
+
+ 
+
+485
+00:11:44,880 --> 00:11:48,230
+
+are they not cleanly sorry
+
+486
+00:11:48,230 --> 00:11:48,240
+are they not cleanly sorry
+ 
+
+487
+00:11:48,240 --> 00:11:50,470
+are they not cleanly sorry
+you say bravely it doesn't matter i
+
+488
+00:11:50,470 --> 00:11:50,480
+you say bravely it doesn't matter i
+ 
+
+489
+00:11:50,480 --> 00:11:51,269
+you say bravely it doesn't matter i
+don't know
+
+490
+00:11:51,269 --> 00:11:51,279
+don't know
+ 
+
+491
+00:11:51,279 --> 00:11:54,550
+don't know
+make a guess it's on that
+
+492
+00:11:54,550 --> 00:11:54,560
+make a guess it's on that
+ 
+
+493
+00:11:54,560 --> 00:11:57,750
+make a guess it's on that
+board what's the space capacity yeah
+
+494
+00:11:57,750 --> 00:11:57,760
+board what's the space capacity yeah
+ 
+
+495
+00:11:57,760 --> 00:11:58,389
+board what's the space capacity yeah
+yeah
+
+496
+00:11:58,389 --> 00:11:58,399
+yeah
+ 
+
+497
+00:11:58,399 --> 00:12:01,190
+yeah
+because we're using a stack yeah yeah
+
+498
+00:12:01,190 --> 00:12:01,200
+because we're using a stack yeah yeah
+ 
+
+499
+00:12:01,200 --> 00:12:03,590
+because we're using a stack yeah yeah
+we're using the stack in the worst case
+
+500
+00:12:03,590 --> 00:12:03,600
+we're using the stack in the worst case
+ 
+
+501
+00:12:03,600 --> 00:12:06,870
+we're using the stack in the worst case
+the stack for example if the string
+
+502
+00:12:06,870 --> 00:12:06,880
+the stack for example if the string
+ 
+
+503
+00:12:06,880 --> 00:12:09,509
+the stack for example if the string
+is always opening yeah it doesn't matter
+
+504
+00:12:09,509 --> 00:12:09,519
+is always opening yeah it doesn't matter
+ 
+
+505
+00:12:09,519 --> 00:12:10,150
+is always opening yeah it doesn't matter
+it's always
+
+506
+00:12:10,150 --> 00:12:10,160
+it's always
+ 
+
+507
+00:12:10,160 --> 00:12:13,190
+it's always
+opening there's no popping right all
+
+508
+00:12:13,190 --> 00:12:13,200
+opening there's no popping right all
+ 
+
+509
+00:12:13,200 --> 00:12:13,910
+opening there's no popping right all
+right
+
+510
+00:12:13,910 --> 00:12:13,920
+right
+ 
+
+511
+00:12:13,920 --> 00:12:16,550
+right
+then the stack will contain these or
+
+512
+00:12:16,550 --> 00:12:16,560
+then the stack will contain these or
+ 
+
+513
+00:12:16,560 --> 00:12:17,910
+then the stack will contain these or
+anime
+
+514
+00:12:17,910 --> 00:12:17,920
+anime
+ 
+
+515
+00:12:17,920 --> 00:12:20,389
+anime
+the opening brackets so it means when
+
+516
+00:12:20,389 --> 00:12:20,399
+the opening brackets so it means when
+ 
+
+517
+00:12:20,399 --> 00:12:21,190
+the opening brackets so it means when
+the end
+
+518
+00:12:21,190 --> 00:12:21,200
+the end
+ 
+
+519
+00:12:21,200 --> 00:12:23,190
+the end
+when there are encounters in a string
+
+520
+00:12:23,190 --> 00:12:23,200
+when there are encounters in a string
+ 
+
+521
+00:12:23,200 --> 00:12:25,430
+when there are encounters in a string
+you need another space
+
+522
+00:12:25,430 --> 00:12:25,440
+you need another space
+ 
+
+523
+00:12:25,440 --> 00:12:28,470
+you need another space
+another space which contains and
+
+524
+00:12:28,470 --> 00:12:28,480
+another space which contains and
+ 
+
+525
+00:12:28,480 --> 00:12:30,949
+another space which contains and
+cut and elements in a stack i'm right
+
+526
+00:12:30,949 --> 00:12:30,959
+cut and elements in a stack i'm right
+ 
+
+527
+00:12:30,959 --> 00:12:31,910
+cut and elements in a stack i'm right
+yeah yeah that's
+
+528
+00:12:31,910 --> 00:12:31,920
+yeah yeah that's
+ 
+
+529
+00:12:31,920 --> 00:12:34,790
+yeah yeah that's
+that's why it's called om complexity of
+
+530
+00:12:34,790 --> 00:12:34,800
+that's why it's called om complexity of
+ 
+
+531
+00:12:34,800 --> 00:12:35,590
+that's why it's called om complexity of
+in both
+
+532
+00:12:35,590 --> 00:12:35,600
+in both
+ 
+
+533
+00:12:35,600 --> 00:12:38,520
+in both
+time and space
+
+534
+00:12:38,520 --> 00:12:38,530
+time and space
+ 
+
+535
+00:12:38,530 --> 00:12:42,389
+time and space
+[Music]
+
+536
+00:12:42,389 --> 00:12:42,399
+[Music]
+ 
+
+537
+00:12:42,399 --> 00:12:45,190
+[Music]
+that's because of time yeah when you
+
+538
+00:12:45,190 --> 00:12:45,200
+that's because of time yeah when you
+ 
+
+539
+00:12:45,200 --> 00:12:47,030
+that's because of time yeah when you
+when when we talk about time we talk
+
+540
+00:12:47,030 --> 00:12:47,040
+when when we talk about time we talk
+ 
+
+541
+00:12:47,040 --> 00:12:48,389
+when when we talk about time we talk
+about how many times
+
+542
+00:12:48,389 --> 00:12:48,399
+about how many times
+ 
+
+543
+00:12:48,399 --> 00:12:51,269
+about how many times
+how many iterations the computer needs
+
+544
+00:12:51,269 --> 00:12:51,279
+how many iterations the computer needs
+ 
+
+545
+00:12:51,279 --> 00:12:52,069
+how many iterations the computer needs
+to process
+
+546
+00:12:52,069 --> 00:12:52,079
+to process
+ 
+
+547
+00:12:52,079 --> 00:12:54,470
+to process
+right but this stack is if we are using
+
+548
+00:12:54,470 --> 00:12:54,480
+right but this stack is if we are using
+ 
+
+549
+00:12:54,480 --> 00:12:56,310
+right but this stack is if we are using
+an additional
+
+550
+00:12:56,310 --> 00:12:56,320
+an additional
+ 
+
+551
+00:12:56,320 --> 00:12:59,430
+an additional
+storage to keep the elements right and
+
+552
+00:12:59,430 --> 00:12:59,440
+storage to keep the elements right and
+ 
+
+553
+00:12:59,440 --> 00:13:01,110
+storage to keep the elements right and
+in the worst case there is no
+
+554
+00:13:01,110 --> 00:13:01,120
+in the worst case there is no
+ 
+
+555
+00:13:01,120 --> 00:13:04,069
+in the worst case there is no
+popping from the stack in in the worst
+
+556
+00:13:04,069 --> 00:13:04,079
+popping from the stack in in the worst
+ 
+
+557
+00:13:04,079 --> 00:13:04,629
+popping from the stack in in the worst
+case
+
+558
+00:13:04,629 --> 00:13:04,639
+case
+ 
+
+559
+00:13:04,639 --> 00:13:07,269
+case
+the string contains all the push right
+
+560
+00:13:07,269 --> 00:13:07,279
+the string contains all the push right
+ 
+
+561
+00:13:07,279 --> 00:13:08,550
+the string contains all the push right
+all opening and then
+
+562
+00:13:08,550 --> 00:13:08,560
+all opening and then
+ 
+
+563
+00:13:08,560 --> 00:13:10,389
+all opening and then
+this stack needs that for example if you
+
+564
+00:13:10,389 --> 00:13:10,399
+this stack needs that for example if you
+ 
+
+565
+00:13:10,399 --> 00:13:11,750
+this stack needs that for example if you
+lay 100
+
+566
+00:13:11,750 --> 00:13:11,760
+lay 100
+ 
+
+567
+00:13:11,760 --> 00:13:14,470
+lay 100
+a string size is 100 characters and i
+
+568
+00:13:14,470 --> 00:13:14,480
+a string size is 100 characters and i
+ 
+
+569
+00:13:14,480 --> 00:13:15,670
+a string size is 100 characters and i
+need to add stack
+
+570
+00:13:15,670 --> 00:13:15,680
+need to add stack
+ 
+
+571
+00:13:15,680 --> 00:13:18,790
+need to add stack
+which can hold at least
+
+572
+00:13:18,790 --> 00:13:18,800
+which can hold at least
+ 
+
+573
+00:13:18,800 --> 00:13:21,350
+which can hold at least
+100 characters do you get it yeah this
+
+574
+00:13:21,350 --> 00:13:21,360
+100 characters do you get it yeah this
+ 
+
+575
+00:13:21,360 --> 00:13:22,710
+100 characters do you get it yeah this
+is what it means first of all
+
+576
+00:13:22,710 --> 00:13:22,720
+is what it means first of all
+ 
+
+577
+00:13:22,720 --> 00:13:26,230
+is what it means first of all
+okay good job today the last thing
+
+578
+00:13:26,230 --> 00:13:26,240
+okay good job today the last thing
+ 
+
+579
+00:13:26,240 --> 00:13:34,240
+okay good job today the last thing
+say goodbye
+

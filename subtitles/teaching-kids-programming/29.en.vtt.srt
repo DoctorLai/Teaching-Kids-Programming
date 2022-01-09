@@ -1,0 +1,2995 @@
+1
+00:00:00,560 --> 00:00:03,110
+
+hello
+
+2
+00:00:03,110 --> 00:00:03,120
+
+ 
+
+3
+00:00:03,120 --> 00:00:05,910
+
+hello we just played the game on your
+
+4
+00:00:05,910 --> 00:00:05,920
+hello we just played the game on your
+ 
+
+5
+00:00:05,920 --> 00:00:06,309
+hello we just played the game on your
+chest
+
+6
+00:00:06,309 --> 00:00:06,319
+chest
+ 
+
+7
+00:00:06,319 --> 00:00:08,310
+chest
+and we just knew what okay we're
+
+8
+00:00:08,310 --> 00:00:08,320
+and we just knew what okay we're
+ 
+
+9
+00:00:08,320 --> 00:00:10,150
+and we just knew what okay we're
+learning about okay
+
+10
+00:00:10,150 --> 00:00:10,160
+learning about okay
+ 
+
+11
+00:00:10,160 --> 00:00:14,470
+learning about okay
+okay okay
+
+12
+00:00:14,470 --> 00:00:14,480
+okay okay
+ 
+
+13
+00:00:14,480 --> 00:00:20,700
+okay okay
+sit down
+
+14
+00:00:20,700 --> 00:00:20,710
+
+ 
+
+15
+00:00:20,710 --> 00:00:23,029
+
+[Music]
+
+16
+00:00:23,029 --> 00:00:23,039
+[Music]
+ 
+
+17
+00:00:23,039 --> 00:00:25,830
+[Music]
+good job okay so today we're going to
+
+18
+00:00:25,830 --> 00:00:25,840
+good job okay so today we're going to
+ 
+
+19
+00:00:25,840 --> 00:00:27,109
+good job okay so today we're going to
+talk about
+
+20
+00:00:27,109 --> 00:00:27,119
+talk about
+ 
+
+21
+00:00:27,119 --> 00:00:30,950
+talk about
+binary tree traversal binary tree
+
+22
+00:00:30,950 --> 00:00:30,960
+binary tree traversal binary tree
+ 
+
+23
+00:00:30,960 --> 00:00:35,510
+binary tree traversal binary tree
+so what's binary two binary three
+
+24
+00:00:35,510 --> 00:00:35,520
+so what's binary two binary three
+ 
+
+25
+00:00:35,520 --> 00:00:38,869
+so what's binary two binary three
+two three traversal traversal means the
+
+26
+00:00:38,869 --> 00:00:38,879
+two three traversal traversal means the
+ 
+
+27
+00:00:38,879 --> 00:00:39,510
+two three traversal traversal means the
+the way
+
+28
+00:00:39,510 --> 00:00:39,520
+the way
+ 
+
+29
+00:00:39,520 --> 00:00:43,030
+the way
+we we travel the tree with
+
+30
+00:00:43,030 --> 00:00:43,040
+we we travel the tree with
+ 
+
+31
+00:00:43,040 --> 00:00:46,069
+we we travel the tree with
+the nose in a particular sequence right
+
+32
+00:00:46,069 --> 00:00:46,079
+the nose in a particular sequence right
+ 
+
+33
+00:00:46,079 --> 00:00:50,709
+the nose in a particular sequence right
+yeah so how many kind of finer tree
+
+34
+00:00:50,709 --> 00:00:50,719
+yeah so how many kind of finer tree
+ 
+
+35
+00:00:50,719 --> 00:00:55,110
+yeah so how many kind of finer tree
+do you know for example any examples
+
+36
+00:00:55,110 --> 00:00:55,120
+do you know for example any examples
+ 
+
+37
+00:00:55,120 --> 00:00:59,590
+do you know for example any examples
+what kind of binary tree do you need
+
+38
+00:00:59,590 --> 00:00:59,600
+what kind of binary tree do you need
+ 
+
+39
+00:00:59,600 --> 00:01:01,750
+what kind of binary tree do you need
+yeah the left loads are always smaller
+
+40
+00:01:01,750 --> 00:01:01,760
+yeah the left loads are always smaller
+ 
+
+41
+00:01:01,760 --> 00:01:03,830
+yeah the left loads are always smaller
+than the root the right notes are always
+
+42
+00:01:03,830 --> 00:01:03,840
+than the root the right notes are always
+ 
+
+43
+00:01:03,840 --> 00:01:05,509
+than the root the right notes are always
+bigger than the root okay
+
+44
+00:01:05,509 --> 00:01:05,519
+bigger than the root okay
+ 
+
+45
+00:01:05,519 --> 00:01:07,590
+bigger than the root okay
+so let's find a research tree and buy
+
+46
+00:01:07,590 --> 00:01:07,600
+so let's find a research tree and buy
+ 
+
+47
+00:01:07,600 --> 00:01:09,590
+so let's find a research tree and buy
+another one
+
+48
+00:01:09,590 --> 00:01:09,600
+another one
+ 
+
+49
+00:01:09,600 --> 00:01:13,990
+another one
+number two number it doesn't have to be
+
+50
+00:01:13,990 --> 00:01:14,000
+number two number it doesn't have to be
+ 
+
+51
+00:01:14,000 --> 00:01:15,590
+number two number it doesn't have to be
+number one is the loot okay but we'll
+
+52
+00:01:15,590 --> 00:01:15,600
+number one is the loot okay but we'll
+ 
+
+53
+00:01:15,600 --> 00:01:17,350
+number one is the loot okay but we'll
+talk about that later okay now
+
+54
+00:01:17,350 --> 00:01:17,360
+talk about that later okay now
+ 
+
+55
+00:01:17,360 --> 00:01:20,149
+talk about that later okay now
+we call we talk about the traversal like
+
+56
+00:01:20,149 --> 00:01:20,159
+we call we talk about the traversal like
+ 
+
+57
+00:01:20,159 --> 00:01:21,190
+we call we talk about the traversal like
+we have a route
+
+58
+00:01:21,190 --> 00:01:21,200
+we have a route
+ 
+
+59
+00:01:21,200 --> 00:01:25,429
+we have a route
+one and then let's loot two here
+
+60
+00:01:25,429 --> 00:01:25,439
+one and then let's loot two here
+ 
+
+61
+00:01:25,439 --> 00:01:28,469
+one and then let's loot two here
+the leaf number three and then here
+
+62
+00:01:28,469 --> 00:01:28,479
+the leaf number three and then here
+ 
+
+63
+00:01:28,479 --> 00:01:31,270
+the leaf number three and then here
+let's call let's let's design a tree
+
+64
+00:01:31,270 --> 00:01:31,280
+let's call let's let's design a tree
+ 
+
+65
+00:01:31,280 --> 00:01:32,550
+let's call let's let's design a tree
+like that okay
+
+66
+00:01:32,550 --> 00:01:32,560
+like that okay
+ 
+
+67
+00:01:32,560 --> 00:01:36,789
+like that okay
+one two three four five got it
+
+68
+00:01:36,789 --> 00:01:36,799
+one two three four five got it
+ 
+
+69
+00:01:36,799 --> 00:01:40,469
+one two three four five got it
+uh so we we have uh
+
+70
+00:01:40,469 --> 00:01:40,479
+uh so we we have uh
+ 
+
+71
+00:01:40,479 --> 00:01:43,350
+uh so we we have uh
+we we call it this node and we call it
+
+72
+00:01:43,350 --> 00:01:43,360
+we we call it this node and we call it
+ 
+
+73
+00:01:43,360 --> 00:01:43,910
+we we call it this node and we call it
+left
+
+74
+00:01:43,910 --> 00:01:43,920
+left
+ 
+
+75
+00:01:43,920 --> 00:01:47,190
+left
+left triad left three we call it l and
+
+76
+00:01:47,190 --> 00:01:47,200
+left triad left three we call it l and
+ 
+
+77
+00:01:47,200 --> 00:01:50,389
+left triad left three we call it l and
+color right tree right if i i give a
+
+78
+00:01:50,389 --> 00:01:50,399
+color right tree right if i i give a
+ 
+
+79
+00:01:50,399 --> 00:01:54,630
+color right tree right if i i give a
+sequence like uh note
+
+80
+00:01:54,630 --> 00:01:54,640
+sequence like uh note
+ 
+
+81
+00:01:54,640 --> 00:01:57,670
+sequence like uh note
+air left right yeah this is the
+
+82
+00:01:57,670 --> 00:01:57,680
+air left right yeah this is the
+ 
+
+83
+00:01:57,680 --> 00:02:00,709
+air left right yeah this is the
+secret one four two five then
+
+84
+00:02:00,709 --> 00:02:00,719
+secret one four two five then
+ 
+
+85
+00:02:00,719 --> 00:02:03,990
+secret one four two five then
+three exactly wow we're done it means
+
+86
+00:02:03,990 --> 00:02:04,000
+three exactly wow we're done it means
+ 
+
+87
+00:02:04,000 --> 00:02:06,069
+three exactly wow we're done it means
+the pre-order so we reach it
+
+88
+00:02:06,069 --> 00:02:06,079
+the pre-order so we reach it
+ 
+
+89
+00:02:06,079 --> 00:02:08,949
+the pre-order so we reach it
+for a tree we reach the node first and
+
+90
+00:02:08,949 --> 00:02:08,959
+for a tree we reach the node first and
+ 
+
+91
+00:02:08,959 --> 00:02:12,150
+for a tree we reach the node first and
+then we recursively visit the left tree
+
+92
+00:02:12,150 --> 00:02:12,160
+then we recursively visit the left tree
+ 
+
+93
+00:02:12,160 --> 00:02:14,150
+then we recursively visit the left tree
+and then visit the right tree so here
+
+94
+00:02:14,150 --> 00:02:14,160
+and then visit the right tree so here
+ 
+
+95
+00:02:14,160 --> 00:02:16,070
+and then visit the right tree so here
+note is one i know which is the left
+
+96
+00:02:16,070 --> 00:02:16,080
+note is one i know which is the left
+ 
+
+97
+00:02:16,080 --> 00:02:16,790
+note is one i know which is the left
+tree
+
+98
+00:02:16,790 --> 00:02:16,800
+tree
+ 
+
+99
+00:02:16,800 --> 00:02:19,350
+tree
+which is two four five but for the two
+
+100
+00:02:19,350 --> 00:02:19,360
+which is two four five but for the two
+ 
+
+101
+00:02:19,360 --> 00:02:21,190
+which is two four five but for the two
+four five three we again apply this
+
+102
+00:02:21,190 --> 00:02:21,200
+four five three we again apply this
+ 
+
+103
+00:02:21,200 --> 00:02:22,550
+four five three we again apply this
+principle note
+
+104
+00:02:22,550 --> 00:02:22,560
+principle note
+ 
+
+105
+00:02:22,560 --> 00:02:24,869
+principle note
+left and right which is two four five
+
+106
+00:02:24,869 --> 00:02:24,879
+left and right which is two four five
+ 
+
+107
+00:02:24,879 --> 00:02:26,790
+left and right which is two four five
+when we finish the left three then we go
+
+108
+00:02:26,790 --> 00:02:26,800
+when we finish the left three then we go
+ 
+
+109
+00:02:26,800 --> 00:02:27,430
+when we finish the left three then we go
+to the
+
+110
+00:02:27,430 --> 00:02:27,440
+to the
+ 
+
+111
+00:02:27,440 --> 00:02:29,670
+to the
+right tree which is three okay so let's
+
+112
+00:02:29,670 --> 00:02:29,680
+right tree which is three okay so let's
+ 
+
+113
+00:02:29,680 --> 00:02:30,470
+right tree which is three okay so let's
+call it
+
+114
+00:02:30,470 --> 00:02:30,480
+call it
+ 
+
+115
+00:02:30,480 --> 00:02:34,229
+call it
+pre-order yeah pre-order so this three
+
+116
+00:02:34,229 --> 00:02:34,239
+pre-order yeah pre-order so this three
+ 
+
+117
+00:02:34,239 --> 00:02:36,869
+pre-order yeah pre-order so this three
+means the note here is squeeze beginning
+
+118
+00:02:36,869 --> 00:02:36,879
+means the note here is squeeze beginning
+ 
+
+119
+00:02:36,879 --> 00:02:40,229
+means the note here is squeeze beginning
+then if i move the end to the middle
+
+120
+00:02:40,229 --> 00:02:40,239
+then if i move the end to the middle
+ 
+
+121
+00:02:40,239 --> 00:02:43,430
+then if i move the end to the middle
+and r we call it in order because this
+
+122
+00:02:43,430 --> 00:02:43,440
+and r we call it in order because this
+ 
+
+123
+00:02:43,440 --> 00:02:45,270
+and r we call it in order because this
+end is in the middle in order so what
+
+124
+00:02:45,270 --> 00:02:45,280
+end is in the middle in order so what
+ 
+
+125
+00:02:45,280 --> 00:02:46,949
+end is in the middle in order so what
+does it mean we visit the left tree
+
+126
+00:02:46,949 --> 00:02:46,959
+does it mean we visit the left tree
+ 
+
+127
+00:02:46,959 --> 00:02:47,670
+does it mean we visit the left tree
+first
+
+128
+00:02:47,670 --> 00:02:47,680
+first
+ 
+
+129
+00:02:47,680 --> 00:02:49,350
+first
+and then we reach the note and i'll
+
+130
+00:02:49,350 --> 00:02:49,360
+and then we reach the note and i'll
+ 
+
+131
+00:02:49,360 --> 00:02:51,030
+and then we reach the note and i'll
+visit the right okay
+
+132
+00:02:51,030 --> 00:02:51,040
+visit the right okay
+ 
+
+133
+00:02:51,040 --> 00:02:55,190
+visit the right okay
+so that would be 45 1 3
+
+134
+00:02:55,190 --> 00:02:55,200
+so that would be 45 1 3
+ 
+
+135
+00:02:55,200 --> 00:02:59,750
+so that would be 45 1 3
+no no no no people find one three
+
+136
+00:02:59,750 --> 00:02:59,760
+no no no no people find one three
+ 
+
+137
+00:02:59,760 --> 00:03:04,229
+no no no no people find one three
+no no no left to first
+
+138
+00:03:04,229 --> 00:03:04,239
+no no no left to first
+ 
+
+139
+00:03:04,239 --> 00:03:07,509
+no no no left to first
+for this this one left us is what four
+
+140
+00:03:07,509 --> 00:03:07,519
+for this this one left us is what four
+ 
+
+141
+00:03:07,519 --> 00:03:10,710
+for this this one left us is what four
+three four two five
+
+142
+00:03:10,710 --> 00:03:10,720
+three four two five
+ 
+
+143
+00:03:10,720 --> 00:03:13,990
+three four two five
+one three three what did you say
+
+144
+00:03:13,990 --> 00:03:14,000
+one three three what did you say
+ 
+
+145
+00:03:14,000 --> 00:03:15,990
+one three three what did you say
+i said that okay okay sorry how did you
+
+146
+00:03:15,990 --> 00:03:16,000
+i said that okay okay sorry how did you
+ 
+
+147
+00:03:16,000 --> 00:03:17,750
+i said that okay okay sorry how did you
+get here okay so let's let's
+
+148
+00:03:17,750 --> 00:03:17,760
+get here okay so let's let's
+ 
+
+149
+00:03:17,760 --> 00:03:19,509
+get here okay so let's let's
+look at this one first and then one
+
+150
+00:03:19,509 --> 00:03:19,519
+look at this one first and then one
+ 
+
+151
+00:03:19,519 --> 00:03:21,110
+look at this one first and then one
+three but for this one we have to
+
+152
+00:03:21,110 --> 00:03:21,120
+three but for this one we have to
+ 
+
+153
+00:03:21,120 --> 00:03:22,630
+three but for this one we have to
+recursively do it right
+
+154
+00:03:22,630 --> 00:03:22,640
+recursively do it right
+ 
+
+155
+00:03:22,640 --> 00:03:26,229
+recursively do it right
+yeah so it will be uh so remind me it
+
+156
+00:03:26,229 --> 00:03:26,239
+yeah so it will be uh so remind me it
+ 
+
+157
+00:03:26,239 --> 00:03:26,869
+yeah so it will be uh so remind me it
+will be
+
+158
+00:03:26,869 --> 00:03:26,879
+will be
+ 
+
+159
+00:03:26,879 --> 00:03:29,990
+will be
+four two five one three okay so let's
+
+160
+00:03:29,990 --> 00:03:30,000
+four two five one three okay so let's
+ 
+
+161
+00:03:30,000 --> 00:03:31,670
+four two five one three okay so let's
+call it in order right
+
+162
+00:03:31,670 --> 00:03:31,680
+call it in order right
+ 
+
+163
+00:03:31,680 --> 00:03:35,110
+call it in order right
+in order and how about if i move this to
+
+164
+00:03:35,110 --> 00:03:35,120
+in order and how about if i move this to
+ 
+
+165
+00:03:35,120 --> 00:03:35,430
+in order and how about if i move this to
+the
+
+166
+00:03:35,430 --> 00:03:35,440
+the
+ 
+
+167
+00:03:35,440 --> 00:03:38,869
+the
+to the end let's air ah
+
+168
+00:03:38,869 --> 00:03:38,879
+to the end let's air ah
+ 
+
+169
+00:03:38,879 --> 00:03:41,350
+to the end let's air ah
+and we call it post order right so can
+
+170
+00:03:41,350 --> 00:03:41,360
+and we call it post order right so can
+ 
+
+171
+00:03:41,360 --> 00:03:42,309
+and we call it post order right so can
+you tell me what
+
+172
+00:03:42,309 --> 00:03:42,319
+you tell me what
+ 
+
+173
+00:03:42,319 --> 00:03:46,630
+you tell me what
+uh what's this
+
+174
+00:03:46,630 --> 00:03:46,640
+uh what's this
+ 
+
+175
+00:03:46,640 --> 00:03:51,350
+uh what's this
+lionel anyone post order
+
+176
+00:03:51,350 --> 00:03:51,360
+
+ 
+
+177
+00:03:51,360 --> 00:03:54,550
+
+air left right and note
+
+178
+00:03:54,550 --> 00:03:54,560
+air left right and note
+ 
+
+179
+00:03:54,560 --> 00:03:59,350
+air left right and note
+uh four two by three one
+
+180
+00:03:59,350 --> 00:03:59,360
+
+ 
+
+181
+00:03:59,360 --> 00:04:02,869
+
+left right so left four
+
+182
+00:04:02,869 --> 00:04:02,879
+left right so left four
+ 
+
+183
+00:04:02,879 --> 00:04:06,470
+left right so left four
+five two three one exactly okay
+
+184
+00:04:06,470 --> 00:04:06,480
+five two three one exactly okay
+ 
+
+185
+00:04:06,480 --> 00:04:09,509
+five two three one exactly okay
+so this is the basic three and we also
+
+186
+00:04:09,509 --> 00:04:09,519
+so this is the basic three and we also
+ 
+
+187
+00:04:09,519 --> 00:04:10,550
+so this is the basic three and we also
+have
+
+188
+00:04:10,550 --> 00:04:10,560
+have
+ 
+
+189
+00:04:10,560 --> 00:04:14,149
+have
+we also have what uh reversed
+
+190
+00:04:14,149 --> 00:04:14,159
+we also have what uh reversed
+ 
+
+191
+00:04:14,159 --> 00:04:17,030
+we also have what uh reversed
+uh reverse in order so this is another
+
+192
+00:04:17,030 --> 00:04:17,040
+uh reverse in order so this is another
+ 
+
+193
+00:04:17,040 --> 00:04:18,870
+uh reverse in order so this is another
+yeah we also have a reverse in order
+
+194
+00:04:18,870 --> 00:04:18,880
+yeah we also have a reverse in order
+ 
+
+195
+00:04:18,880 --> 00:04:19,349
+yeah we also have a reverse in order
+which is
+
+196
+00:04:19,349 --> 00:04:19,359
+which is
+ 
+
+197
+00:04:19,359 --> 00:04:24,070
+which is
+ah and air yeah this operative yeah
+
+198
+00:04:24,070 --> 00:04:24,080
+ah and air yeah this operative yeah
+ 
+
+199
+00:04:24,080 --> 00:04:27,749
+ah and air yeah this operative yeah
+okay so that will be and we also have
+
+200
+00:04:27,749 --> 00:04:27,759
+okay so that will be and we also have
+ 
+
+201
+00:04:27,759 --> 00:04:29,749
+okay so that will be and we also have
+remember a couple days ago we talked
+
+202
+00:04:29,749 --> 00:04:29,759
+remember a couple days ago we talked
+ 
+
+203
+00:04:29,759 --> 00:04:31,749
+remember a couple days ago we talked
+about breakfast search
+
+204
+00:04:31,749 --> 00:04:31,759
+about breakfast search
+ 
+
+205
+00:04:31,759 --> 00:04:34,469
+about breakfast search
+preference search breath first search so
+
+206
+00:04:34,469 --> 00:04:34,479
+preference search breath first search so
+ 
+
+207
+00:04:34,479 --> 00:04:38,950
+preference search breath first search so
+what's the preference search order
+
+208
+00:04:38,950 --> 00:04:38,960
+
+ 
+
+209
+00:04:38,960 --> 00:04:42,230
+
+one two three four five
+
+210
+00:04:42,230 --> 00:04:42,240
+one two three four five
+ 
+
+211
+00:04:42,240 --> 00:04:44,469
+one two three four five
+level by level yeah breakfast search
+
+212
+00:04:44,469 --> 00:04:44,479
+level by level yeah breakfast search
+ 
+
+213
+00:04:44,479 --> 00:04:46,390
+level by level yeah breakfast search
+means that every level i finished one
+
+214
+00:04:46,390 --> 00:04:46,400
+means that every level i finished one
+ 
+
+215
+00:04:46,400 --> 00:04:47,830
+means that every level i finished one
+level finish another
+
+216
+00:04:47,830 --> 00:04:47,840
+level finish another
+ 
+
+217
+00:04:47,840 --> 00:04:50,469
+level finish another
+finishing level don't get it this is
+
+218
+00:04:50,469 --> 00:04:50,479
+finishing level don't get it this is
+ 
+
+219
+00:04:50,479 --> 00:04:51,189
+finishing level don't get it this is
+another
+
+220
+00:04:51,189 --> 00:04:51,199
+another
+ 
+
+221
+00:04:51,199 --> 00:04:54,070
+another
+another special sorry left to right yeah
+
+222
+00:04:54,070 --> 00:04:54,080
+another special sorry left to right yeah
+ 
+
+223
+00:04:54,080 --> 00:04:55,270
+another special sorry left to right yeah
+left to right
+
+224
+00:04:55,270 --> 00:04:55,280
+left to right
+ 
+
+225
+00:04:55,280 --> 00:04:58,710
+left to right
+every time finish look one you pick the
+
+226
+00:04:58,710 --> 00:04:58,720
+every time finish look one you pick the
+ 
+
+227
+00:04:58,720 --> 00:05:01,029
+every time finish look one you pick the
+no current load and i pick its children
+
+228
+00:05:01,029 --> 00:05:01,039
+no current load and i pick its children
+ 
+
+229
+00:05:01,039 --> 00:05:03,350
+no current load and i pick its children
+i push into the kill which is two three
+
+230
+00:05:03,350 --> 00:05:03,360
+i push into the kill which is two three
+ 
+
+231
+00:05:03,360 --> 00:05:06,390
+i push into the kill which is two three
+yeah i take the the first keep
+
+232
+00:05:06,390 --> 00:05:06,400
+yeah i take the the first keep
+ 
+
+233
+00:05:06,400 --> 00:05:09,430
+yeah i take the the first keep
+which is two i push the kids for four
+
+234
+00:05:09,430 --> 00:05:09,440
+which is two i push the kids for four
+ 
+
+235
+00:05:09,440 --> 00:05:10,710
+which is two i push the kids for four
+and five to the kill right
+
+236
+00:05:10,710 --> 00:05:10,720
+and five to the kill right
+ 
+
+237
+00:05:10,720 --> 00:05:12,310
+and five to the kill right
+and then the next tournament is three
+
+238
+00:05:12,310 --> 00:05:12,320
+and then the next tournament is three
+ 
+
+239
+00:05:12,320 --> 00:05:14,629
+and then the next tournament is three
+you know you see this is level by level
+
+240
+00:05:14,629 --> 00:05:14,639
+you know you see this is level by level
+ 
+
+241
+00:05:14,639 --> 00:05:17,350
+you know you see this is level by level
+okay we talked about that before now we
+
+242
+00:05:17,350 --> 00:05:17,360
+okay we talked about that before now we
+ 
+
+243
+00:05:17,360 --> 00:05:18,629
+okay we talked about that before now we
+let's let's do this
+
+244
+00:05:18,629 --> 00:05:18,639
+let's let's do this
+ 
+
+245
+00:05:18,639 --> 00:05:21,909
+let's let's do this
+this should be very easy
+
+246
+00:05:21,909 --> 00:05:21,919
+this should be very easy
+ 
+
+247
+00:05:21,919 --> 00:05:24,469
+this should be very easy
+yeah let's remember we have a three yeah
+
+248
+00:05:24,469 --> 00:05:24,479
+yeah let's remember we have a three yeah
+ 
+
+249
+00:05:24,479 --> 00:05:25,270
+yeah let's remember we have a three yeah
+class three
+
+250
+00:05:25,270 --> 00:05:25,280
+class three
+ 
+
+251
+00:05:25,280 --> 00:05:27,909
+class three
+class three yeah do you still remember
+
+252
+00:05:27,909 --> 00:05:27,919
+class three yeah do you still remember
+ 
+
+253
+00:05:27,919 --> 00:05:29,189
+class three yeah do you still remember
+class
+
+254
+00:05:29,189 --> 00:05:29,199
+class
+ 
+
+255
+00:05:29,199 --> 00:05:33,590
+class
+and then define in
+
+256
+00:05:33,590 --> 00:05:33,600
+
+ 
+
+257
+00:05:33,600 --> 00:05:36,070
+
+right the loot and then left and right
+
+258
+00:05:36,070 --> 00:05:36,080
+right the loot and then left and right
+ 
+
+259
+00:05:36,080 --> 00:05:36,710
+right the loot and then left and right
+right
+
+260
+00:05:36,710 --> 00:05:36,720
+right
+ 
+
+261
+00:05:36,720 --> 00:05:40,070
+right
+yeah left and right yeah self dot dot
+
+262
+00:05:40,070 --> 00:05:40,080
+yeah left and right yeah self dot dot
+ 
+
+263
+00:05:40,080 --> 00:05:41,350
+yeah left and right yeah self dot dot
+equals no self dot
+
+264
+00:05:41,350 --> 00:05:41,360
+equals no self dot
+ 
+
+265
+00:05:41,360 --> 00:05:43,590
+equals no self dot
+left equals left f double y equals right
+
+266
+00:05:43,590 --> 00:05:43,600
+left equals left f double y equals right
+ 
+
+267
+00:05:43,600 --> 00:05:45,029
+left equals left f double y equals right
+okay now
+
+268
+00:05:45,029 --> 00:05:45,039
+okay now
+ 
+
+269
+00:05:45,039 --> 00:05:49,350
+okay now
+we we do this look define
+
+270
+00:05:49,350 --> 00:05:49,360
+
+ 
+
+271
+00:05:49,360 --> 00:05:51,670
+
+in order let's take an example in order
+
+272
+00:05:51,670 --> 00:05:51,680
+in order let's take an example in order
+ 
+
+273
+00:05:51,680 --> 00:05:52,950
+in order let's take an example in order
+okay
+
+274
+00:05:52,950 --> 00:05:52,960
+okay
+ 
+
+275
+00:05:52,960 --> 00:05:58,950
+okay
+in order loot
+
+276
+00:05:58,950 --> 00:05:58,960
+
+ 
+
+277
+00:05:58,960 --> 00:06:03,110
+
+coma okay for the inorder so it's not
+
+278
+00:06:03,110 --> 00:06:03,120
+coma okay for the inorder so it's not
+ 
+
+279
+00:06:03,120 --> 00:06:06,790
+coma okay for the inorder so it's not
+left note right right so we need to
+
+280
+00:06:06,790 --> 00:06:06,800
+left note right right so we need to
+ 
+
+281
+00:06:06,800 --> 00:06:10,230
+left note right right so we need to
+we need to
+
+282
+00:06:10,230 --> 00:06:10,240
+
+ 
+
+283
+00:06:10,240 --> 00:06:12,710
+
+so we first of all we need to do it if
+
+284
+00:06:12,710 --> 00:06:12,720
+so we first of all we need to do it if
+ 
+
+285
+00:06:12,720 --> 00:06:13,510
+so we first of all we need to do it if
+the loser is
+
+286
+00:06:13,510 --> 00:06:13,520
+the loser is
+ 
+
+287
+00:06:13,520 --> 00:06:15,830
+the loser is
+numb right if we lose it's numb then we
+
+288
+00:06:15,830 --> 00:06:15,840
+numb right if we lose it's numb then we
+ 
+
+289
+00:06:15,840 --> 00:06:17,110
+numb right if we lose it's numb then we
+just return yeah
+
+290
+00:06:17,110 --> 00:06:17,120
+just return yeah
+ 
+
+291
+00:06:17,120 --> 00:06:21,110
+just return yeah
+okay right and then we need to
+
+292
+00:06:21,110 --> 00:06:21,120
+okay right and then we need to
+ 
+
+293
+00:06:21,120 --> 00:06:24,230
+okay right and then we need to
+reach it the left was that dog no it's
+
+294
+00:06:24,230 --> 00:06:24,240
+reach it the left was that dog no it's
+ 
+
+295
+00:06:24,240 --> 00:06:24,710
+reach it the left was that dog no it's
+not
+
+296
+00:06:24,710 --> 00:06:24,720
+not
+ 
+
+297
+00:06:24,720 --> 00:06:28,070
+not
+let's not we need to recursively visit
+
+298
+00:06:28,070 --> 00:06:28,080
+let's not we need to recursively visit
+ 
+
+299
+00:06:28,080 --> 00:06:31,189
+let's not we need to recursively visit
+the left tree right right the left half
+
+300
+00:06:31,189 --> 00:06:31,199
+the left tree right right the left half
+ 
+
+301
+00:06:31,199 --> 00:06:32,150
+the left tree right right the left half
+look here
+
+302
+00:06:32,150 --> 00:06:32,160
+look here
+ 
+
+303
+00:06:32,160 --> 00:06:36,790
+look here
+so how do we do that in order
+
+304
+00:06:36,790 --> 00:06:36,800
+so how do we do that in order
+ 
+
+305
+00:06:36,800 --> 00:06:40,950
+so how do we do that in order
+look top left okay so we look closely
+
+306
+00:06:40,950 --> 00:06:40,960
+look top left okay so we look closely
+ 
+
+307
+00:06:40,960 --> 00:06:42,230
+look top left okay so we look closely
+recording the left
+
+308
+00:06:42,230 --> 00:06:42,240
+recording the left
+ 
+
+309
+00:06:42,240 --> 00:06:45,590
+recording the left
+right and now we're visiting the loot
+
+310
+00:06:45,590 --> 00:06:45,600
+right and now we're visiting the loot
+ 
+
+311
+00:06:45,600 --> 00:06:47,510
+right and now we're visiting the loot
+what we want to do is the loop we print
+
+312
+00:06:47,510 --> 00:06:47,520
+what we want to do is the loop we print
+ 
+
+313
+00:06:47,520 --> 00:06:53,189
+what we want to do is the loop we print
+it okay let's print it
+
+314
+00:06:53,189 --> 00:06:53,199
+
+ 
+
+315
+00:06:53,199 --> 00:06:55,430
+
+okay now we are here right so can you
+
+316
+00:06:55,430 --> 00:06:55,440
+okay now we are here right so can you
+ 
+
+317
+00:06:55,440 --> 00:06:57,670
+okay now we are here right so can you
+tell me what's next
+
+318
+00:06:57,670 --> 00:06:57,680
+tell me what's next
+ 
+
+319
+00:06:57,680 --> 00:07:15,350
+tell me what's next
+just wait and tell me what's that
+
+320
+00:07:15,350 --> 00:07:15,360
+
+ 
+
+321
+00:07:15,360 --> 00:07:19,670
+
+yeah okay so if i want to make this
+
+322
+00:07:19,670 --> 00:07:19,680
+yeah okay so if i want to make this
+ 
+
+323
+00:07:19,680 --> 00:07:22,550
+yeah okay so if i want to make this
+pre-order how do you only have to change
+
+324
+00:07:22,550 --> 00:07:22,560
+pre-order how do you only have to change
+ 
+
+325
+00:07:22,560 --> 00:07:22,870
+pre-order how do you only have to change
+one
+
+326
+00:07:22,870 --> 00:07:22,880
+one
+ 
+
+327
+00:07:22,880 --> 00:07:25,990
+one
+one thing what about print
+
+328
+00:07:25,990 --> 00:07:26,000
+one thing what about print
+ 
+
+329
+00:07:26,000 --> 00:07:28,230
+one thing what about print
+value yeah it's print the value so you
+
+330
+00:07:28,230 --> 00:07:28,240
+value yeah it's print the value so you
+ 
+
+331
+00:07:28,240 --> 00:07:29,670
+value yeah it's print the value so you
+print it
+
+332
+00:07:29,670 --> 00:07:29,680
+print it
+ 
+
+333
+00:07:29,680 --> 00:07:33,749
+print it
+that's order right here
+
+334
+00:07:33,749 --> 00:07:33,759
+that's order right here
+ 
+
+335
+00:07:33,759 --> 00:07:37,670
+that's order right here
+we will call yourself itself to because
+
+336
+00:07:37,670 --> 00:07:37,680
+we will call yourself itself to because
+ 
+
+337
+00:07:37,680 --> 00:07:39,430
+we will call yourself itself to because
+that's that's okay with because if you
+
+338
+00:07:39,430 --> 00:07:39,440
+that's that's okay with because if you
+ 
+
+339
+00:07:39,440 --> 00:07:41,270
+that's that's okay with because if you
+call it the right then when you finish
+
+340
+00:07:41,270 --> 00:07:41,280
+call it the right then when you finish
+ 
+
+341
+00:07:41,280 --> 00:07:41,749
+call it the right then when you finish
+then
+
+342
+00:07:41,749 --> 00:07:41,759
+then
+ 
+
+343
+00:07:41,759 --> 00:07:44,150
+then
+you call this right yeah that's the
+
+344
+00:07:44,150 --> 00:07:44,160
+you call this right yeah that's the
+ 
+
+345
+00:07:44,160 --> 00:07:45,990
+you call this right yeah that's the
+because recursion yeah you don't need to
+
+346
+00:07:45,990 --> 00:07:46,000
+because recursion yeah you don't need to
+ 
+
+347
+00:07:46,000 --> 00:07:47,589
+because recursion yeah you don't need to
+worry about the details you will just
+
+348
+00:07:47,589 --> 00:07:47,599
+worry about the details you will just
+ 
+
+349
+00:07:47,599 --> 00:07:49,110
+worry about the details you will just
+solving that
+
+350
+00:07:49,110 --> 00:07:49,120
+solving that
+ 
+
+351
+00:07:49,120 --> 00:07:51,589
+solving that
+calling the in order with the right tree
+
+352
+00:07:51,589 --> 00:07:51,599
+calling the in order with the right tree
+ 
+
+353
+00:07:51,599 --> 00:07:52,230
+calling the in order with the right tree
+right
+
+354
+00:07:52,230 --> 00:07:52,240
+right
+ 
+
+355
+00:07:52,240 --> 00:07:55,749
+right
+to get it yeah okay so now
+
+356
+00:07:55,749 --> 00:07:55,759
+to get it yeah okay so now
+ 
+
+357
+00:07:55,759 --> 00:07:57,830
+to get it yeah okay so now
+if i want to change this to pre-order
+
+358
+00:07:57,830 --> 00:07:57,840
+if i want to change this to pre-order
+ 
+
+359
+00:07:57,840 --> 00:07:59,990
+if i want to change this to pre-order
+how do you do it
+
+360
+00:07:59,990 --> 00:08:00,000
+how do you do it
+ 
+
+361
+00:08:00,000 --> 00:08:08,469
+how do you do it
+remember pre-order
+
+362
+00:08:08,469 --> 00:08:08,479
+
+ 
+
+363
+00:08:08,479 --> 00:08:11,189
+
+you just need to change one thing ryan
+
+364
+00:08:11,189 --> 00:08:11,199
+you just need to change one thing ryan
+ 
+
+365
+00:08:11,199 --> 00:08:16,629
+you just need to change one thing ryan
+do you know
+
+366
+00:08:16,629 --> 00:08:16,639
+
+ 
+
+367
+00:08:16,639 --> 00:08:19,430
+
+yeah move the printing here yeah and how
+
+368
+00:08:19,430 --> 00:08:19,440
+yeah move the printing here yeah and how
+ 
+
+369
+00:08:19,440 --> 00:08:21,189
+yeah move the printing here yeah and how
+about if i want to change this to
+
+370
+00:08:21,189 --> 00:08:21,199
+about if i want to change this to
+ 
+
+371
+00:08:21,199 --> 00:08:25,029
+about if i want to change this to
+close order
+
+372
+00:08:25,029 --> 00:08:25,039
+
+ 
+
+373
+00:08:25,039 --> 00:08:28,070
+
+do the first order again change
+
+374
+00:08:28,070 --> 00:08:28,080
+do the first order again change
+ 
+
+375
+00:08:28,080 --> 00:08:33,190
+do the first order again change
+one thing
+
+376
+00:08:33,190 --> 00:08:33,200
+
+ 
+
+377
+00:08:33,200 --> 00:08:36,230
+
+uh
+
+378
+00:08:36,230 --> 00:08:36,240
+
+ 
+
+379
+00:08:36,240 --> 00:08:40,310
+
+put the print thingy at the bottom
+
+380
+00:08:40,310 --> 00:08:40,320
+put the print thingy at the bottom
+ 
+
+381
+00:08:40,320 --> 00:08:42,230
+put the print thingy at the bottom
+yeah well done good job yeah that's
+
+382
+00:08:42,230 --> 00:08:42,240
+yeah well done good job yeah that's
+ 
+
+383
+00:08:42,240 --> 00:08:43,750
+yeah well done good job yeah that's
+exactly do you see it
+
+384
+00:08:43,750 --> 00:08:43,760
+exactly do you see it
+ 
+
+385
+00:08:43,760 --> 00:08:47,190
+exactly do you see it
+yeah so this is very clear right so
+
+386
+00:08:47,190 --> 00:08:47,200
+yeah so this is very clear right so
+ 
+
+387
+00:08:47,200 --> 00:08:51,030
+yeah so this is very clear right so
+look again let's do this example one
+
+388
+00:08:51,030 --> 00:08:51,040
+look again let's do this example one
+ 
+
+389
+00:08:51,040 --> 00:08:54,870
+look again let's do this example one
+two three four
+
+390
+00:08:54,870 --> 00:08:54,880
+two three four
+ 
+
+391
+00:08:54,880 --> 00:08:57,190
+two three four
+five okay let's do like this in order
+
+392
+00:08:57,190 --> 00:08:57,200
+five okay let's do like this in order
+ 
+
+393
+00:08:57,200 --> 00:08:58,710
+five okay let's do like this in order
+first okay in order so
+
+394
+00:08:58,710 --> 00:08:58,720
+first okay in order so
+ 
+
+395
+00:08:58,720 --> 00:09:02,230
+first okay in order so
+in order if root is none it's not long
+
+396
+00:09:02,230 --> 00:09:02,240
+in order if root is none it's not long
+ 
+
+397
+00:09:02,240 --> 00:09:05,350
+in order if root is none it's not long
+in order left yeah in order is left
+
+398
+00:09:05,350 --> 00:09:05,360
+in order left yeah in order is left
+ 
+
+399
+00:09:05,360 --> 00:09:07,590
+in order left yeah in order is left
+okay when it's in order to finish then
+
+400
+00:09:07,590 --> 00:09:07,600
+okay when it's in order to finish then
+ 
+
+401
+00:09:07,600 --> 00:09:08,550
+okay when it's in order to finish then
+put in the loot
+
+402
+00:09:08,550 --> 00:09:08,560
+put in the loot
+ 
+
+403
+00:09:08,560 --> 00:09:11,350
+put in the loot
+which is one okay so that one is here
+
+404
+00:09:11,350 --> 00:09:11,360
+which is one okay so that one is here
+ 
+
+405
+00:09:11,360 --> 00:09:12,150
+which is one okay so that one is here
+but in order
+
+406
+00:09:12,150 --> 00:09:12,160
+but in order
+ 
+
+407
+00:09:12,160 --> 00:09:15,269
+but in order
+these will be we're printing one
+
+408
+00:09:15,269 --> 00:09:15,279
+these will be we're printing one
+ 
+
+409
+00:09:15,279 --> 00:09:19,110
+these will be we're printing one
+we're printing yeah
+
+410
+00:09:19,110 --> 00:09:19,120
+we're printing yeah
+ 
+
+411
+00:09:19,120 --> 00:09:21,269
+we're printing yeah
+left first yeah putting the left first
+
+412
+00:09:21,269 --> 00:09:21,279
+left first yeah putting the left first
+ 
+
+413
+00:09:21,279 --> 00:09:23,269
+left first yeah putting the left first
+right so bringing four
+
+414
+00:09:23,269 --> 00:09:23,279
+right so bringing four
+ 
+
+415
+00:09:23,279 --> 00:09:26,150
+right so bringing four
+to five right and then go back to the
+
+416
+00:09:26,150 --> 00:09:26,160
+to five right and then go back to the
+ 
+
+417
+00:09:26,160 --> 00:09:26,470
+to five right and then go back to the
+one
+
+418
+00:09:26,470 --> 00:09:26,480
+one
+ 
+
+419
+00:09:26,480 --> 00:09:28,389
+one
+and then you know the right that would
+
+420
+00:09:28,389 --> 00:09:28,399
+and then you know the right that would
+ 
+
+421
+00:09:28,399 --> 00:09:31,750
+and then you know the right that would
+be three right
+
+422
+00:09:31,750 --> 00:09:31,760
+
+ 
+
+423
+00:09:31,760 --> 00:09:35,190
+
+three yes yeah got it so
+
+424
+00:09:35,190 --> 00:09:35,200
+three yes yeah got it so
+ 
+
+425
+00:09:35,200 --> 00:09:37,590
+three yes yeah got it so
+this is in order and how about if we do
+
+426
+00:09:37,590 --> 00:09:37,600
+this is in order and how about if we do
+ 
+
+427
+00:09:37,600 --> 00:09:38,630
+this is in order and how about if we do
+like in order of
+
+428
+00:09:38,630 --> 00:09:38,640
+like in order of
+ 
+
+429
+00:09:38,640 --> 00:09:40,949
+like in order of
+binary search tree that's the that's
+
+430
+00:09:40,949 --> 00:09:40,959
+binary search tree that's the that's
+ 
+
+431
+00:09:40,959 --> 00:09:42,630
+binary search tree that's the that's
+very interesting like
+
+432
+00:09:42,630 --> 00:09:42,640
+very interesting like
+ 
+
+433
+00:09:42,640 --> 00:09:46,150
+very interesting like
+this is two this is one
+
+434
+00:09:46,150 --> 00:09:46,160
+this is two this is one
+ 
+
+435
+00:09:46,160 --> 00:09:50,310
+this is two this is one
+this is three this is
+
+436
+00:09:50,310 --> 00:09:50,320
+this is three this is
+ 
+
+437
+00:09:50,320 --> 00:09:55,350
+this is three this is
+this is four here and this is
+
+438
+00:09:55,350 --> 00:09:55,360
+this is four here and this is
+ 
+
+439
+00:09:55,360 --> 00:09:58,870
+this is four here and this is
+zero okay so this is the binary circuit
+
+440
+00:09:58,870 --> 00:09:58,880
+zero okay so this is the binary circuit
+ 
+
+441
+00:09:58,880 --> 00:09:59,590
+zero okay so this is the binary circuit
+yeah
+
+442
+00:09:59,590 --> 00:09:59,600
+yeah
+ 
+
+443
+00:09:59,600 --> 00:10:01,509
+yeah
+the left nodes are always smaller than
+
+444
+00:10:01,509 --> 00:10:01,519
+the left nodes are always smaller than
+ 
+
+445
+00:10:01,519 --> 00:10:03,190
+the left nodes are always smaller than
+the root the right notes are always
+
+446
+00:10:03,190 --> 00:10:03,200
+the root the right notes are always
+ 
+
+447
+00:10:03,200 --> 00:10:04,310
+the root the right notes are always
+bigger maybe i put
+
+448
+00:10:04,310 --> 00:10:04,320
+bigger maybe i put
+ 
+
+449
+00:10:04,320 --> 00:10:07,269
+bigger maybe i put
+one more here that's 1.5 and that's
+
+450
+00:10:07,269 --> 00:10:07,279
+one more here that's 1.5 and that's
+ 
+
+451
+00:10:07,279 --> 00:10:07,750
+one more here that's 1.5 and that's
+that's
+
+452
+00:10:07,750 --> 00:10:07,760
+that's
+ 
+
+453
+00:10:07,760 --> 00:10:11,030
+that's
+2.5 so what
+
+454
+00:10:11,030 --> 00:10:11,040
+2.5 so what
+ 
+
+455
+00:10:11,040 --> 00:10:14,470
+2.5 so what
+what if we do a binary in order of the
+
+456
+00:10:14,470 --> 00:10:14,480
+what if we do a binary in order of the
+ 
+
+457
+00:10:14,480 --> 00:10:15,990
+what if we do a binary in order of the
+binary search tree
+
+458
+00:10:15,990 --> 00:10:16,000
+binary search tree
+ 
+
+459
+00:10:16,000 --> 00:10:17,910
+binary search tree
+remember this is the left and now we
+
+460
+00:10:17,910 --> 00:10:17,920
+remember this is the left and now we
+ 
+
+461
+00:10:17,920 --> 00:10:19,990
+remember this is the left and now we
+visit the loot and we visit the right so
+
+462
+00:10:19,990 --> 00:10:20,000
+visit the loot and we visit the right so
+ 
+
+463
+00:10:20,000 --> 00:10:24,150
+visit the loot and we visit the right so
+what do you think what we can get
+
+464
+00:10:24,150 --> 00:10:24,160
+
+ 
+
+465
+00:10:24,160 --> 00:10:27,350
+
+what do you think we can get so can you
+
+466
+00:10:27,350 --> 00:10:27,360
+what do you think we can get so can you
+ 
+
+467
+00:10:27,360 --> 00:10:29,269
+what do you think we can get so can you
+do that in order of this financial
+
+468
+00:10:29,269 --> 00:10:29,279
+do that in order of this financial
+ 
+
+469
+00:10:29,279 --> 00:10:30,230
+do that in order of this financial
+street
+
+470
+00:10:30,230 --> 00:10:30,240
+street
+ 
+
+471
+00:10:30,240 --> 00:10:33,509
+street
+you want them righty it this one
+
+472
+00:10:33,509 --> 00:10:33,519
+you want them righty it this one
+ 
+
+473
+00:10:33,519 --> 00:10:35,750
+you want them righty it this one
+by in order final research street in
+
+474
+00:10:35,750 --> 00:10:35,760
+by in order final research street in
+ 
+
+475
+00:10:35,760 --> 00:10:37,190
+by in order final research street in
+order
+
+476
+00:10:37,190 --> 00:10:37,200
+order
+ 
+
+477
+00:10:37,200 --> 00:10:40,470
+order
+l and r oh yeah it will be
+
+478
+00:10:40,470 --> 00:10:40,480
+l and r oh yeah it will be
+ 
+
+479
+00:10:40,480 --> 00:10:44,150
+l and r oh yeah it will be
+l and ah yes
+
+480
+00:10:44,150 --> 00:10:44,160
+l and ah yes
+ 
+
+481
+00:10:44,160 --> 00:10:47,350
+l and ah yes
+okay yeah you're ten
+
+482
+00:10:47,350 --> 00:10:47,360
+okay yeah you're ten
+ 
+
+483
+00:10:47,360 --> 00:10:49,750
+okay yeah you're ten
+okay so this is the final search
+
+484
+00:10:49,750 --> 00:10:49,760
+okay so this is the final search
+ 
+
+485
+00:10:49,760 --> 00:10:51,350
+okay so this is the final search
+remember
+
+486
+00:10:51,350 --> 00:10:51,360
+remember
+ 
+
+487
+00:10:51,360 --> 00:10:55,590
+remember
+zero yes we're done and then
+
+488
+00:10:55,590 --> 00:10:55,600
+zero yes we're done and then
+ 
+
+489
+00:10:55,600 --> 00:10:58,949
+zero yes we're done and then
+one one point one
+
+490
+00:10:58,949 --> 00:10:58,959
+one one point one
+ 
+
+491
+00:10:58,959 --> 00:11:02,389
+one one point one
+point five yes okay you finish
+
+492
+00:11:02,389 --> 00:11:02,399
+point five yes okay you finish
+ 
+
+493
+00:11:02,399 --> 00:11:05,430
+point five yes okay you finish
+this the left and the note is two
+
+494
+00:11:05,430 --> 00:11:05,440
+this the left and the note is two
+ 
+
+495
+00:11:05,440 --> 00:11:09,110
+this the left and the note is two
+wow okay and then two point five
+
+496
+00:11:09,110 --> 00:11:09,120
+wow okay and then two point five
+ 
+
+497
+00:11:09,120 --> 00:11:13,030
+wow okay and then two point five
+yes and three four wow well done so what
+
+498
+00:11:13,030 --> 00:11:13,040
+yes and three four wow well done so what
+ 
+
+499
+00:11:13,040 --> 00:11:13,990
+yes and three four wow well done so what
+what do you think
+
+500
+00:11:13,990 --> 00:11:14,000
+what do you think
+ 
+
+501
+00:11:14,000 --> 00:11:16,949
+what do you think
+that that is what do you think what do
+
+502
+00:11:16,949 --> 00:11:16,959
+that that is what do you think what do
+ 
+
+503
+00:11:16,959 --> 00:11:17,430
+that that is what do you think what do
+you think
+
+504
+00:11:17,430 --> 00:11:17,440
+you think
+ 
+
+505
+00:11:17,440 --> 00:11:21,190
+you think
+what do you think this is uh
+
+506
+00:11:21,190 --> 00:11:21,200
+what do you think this is uh
+ 
+
+507
+00:11:21,200 --> 00:11:23,910
+what do you think this is uh
+yeah this is in order yeah oh look the
+
+508
+00:11:23,910 --> 00:11:23,920
+yeah this is in order yeah oh look the
+ 
+
+509
+00:11:23,920 --> 00:11:25,509
+yeah this is in order yeah oh look the
+name is in order but the
+
+510
+00:11:25,509 --> 00:11:25,519
+name is in order but the
+ 
+
+511
+00:11:25,519 --> 00:11:28,310
+name is in order but the
+the result of performing and in order
+
+512
+00:11:28,310 --> 00:11:28,320
+the result of performing and in order
+ 
+
+513
+00:11:28,320 --> 00:11:29,269
+the result of performing and in order
+traversal
+
+514
+00:11:29,269 --> 00:11:29,279
+traversal
+ 
+
+515
+00:11:29,279 --> 00:11:31,910
+traversal
+on a binary search tree is that we get
+
+516
+00:11:31,910 --> 00:11:31,920
+on a binary search tree is that we get
+ 
+
+517
+00:11:31,920 --> 00:11:33,509
+on a binary search tree is that we get
+the in order
+
+518
+00:11:33,509 --> 00:11:33,519
+the in order
+ 
+
+519
+00:11:33,519 --> 00:11:36,230
+the in order
+element list right yeah from the
+
+520
+00:11:36,230 --> 00:11:36,240
+element list right yeah from the
+ 
+
+521
+00:11:36,240 --> 00:11:37,829
+element list right yeah from the
+smallest to the largest
+
+522
+00:11:37,829 --> 00:11:37,839
+smallest to the largest
+ 
+
+523
+00:11:37,839 --> 00:11:40,949
+smallest to the largest
+and how about if i want to
+
+524
+00:11:40,949 --> 00:11:40,959
+and how about if i want to
+ 
+
+525
+00:11:40,959 --> 00:11:43,430
+and how about if i want to
+get from largest to the smallest what
+
+526
+00:11:43,430 --> 00:11:43,440
+get from largest to the smallest what
+ 
+
+527
+00:11:43,440 --> 00:11:44,389
+get from largest to the smallest what
+should we do
+
+528
+00:11:44,389 --> 00:11:44,399
+should we do
+ 
+
+529
+00:11:44,399 --> 00:11:46,710
+should we do
+remember we talked about reverse in
+
+530
+00:11:46,710 --> 00:11:46,720
+remember we talked about reverse in
+ 
+
+531
+00:11:46,720 --> 00:11:48,069
+remember we talked about reverse in
+order right
+
+532
+00:11:48,069 --> 00:11:48,079
+order right
+ 
+
+533
+00:11:48,079 --> 00:11:51,430
+order right
+so that would be r
+
+534
+00:11:51,430 --> 00:11:51,440
+so that would be r
+ 
+
+535
+00:11:51,440 --> 00:11:54,389
+so that would be r
+and air right so then if we performing
+
+536
+00:11:54,389 --> 00:11:54,399
+and air right so then if we performing
+ 
+
+537
+00:11:54,399 --> 00:11:56,230
+and air right so then if we performing
+the r in there reverse in order that we
+
+538
+00:11:56,230 --> 00:11:56,240
+the r in there reverse in order that we
+ 
+
+539
+00:11:56,240 --> 00:11:57,350
+the r in there reverse in order that we
+have a four
+
+540
+00:11:57,350 --> 00:11:57,360
+have a four
+ 
+
+541
+00:11:57,360 --> 00:12:00,470
+have a four
+three two point five two one point five
+
+542
+00:12:00,470 --> 00:12:00,480
+three two point five two one point five
+ 
+
+543
+00:12:00,480 --> 00:12:04,550
+three two point five two one point five
+one zero okay yeah two point one
+
+544
+00:12:04,550 --> 00:12:04,560
+one zero okay yeah two point one
+ 
+
+545
+00:12:04,560 --> 00:12:07,750
+one zero okay yeah two point one
+two two yeah two one one okay so
+
+546
+00:12:07,750 --> 00:12:07,760
+two two yeah two one one okay so
+ 
+
+547
+00:12:07,760 --> 00:12:09,829
+two two yeah two one one okay so
+for these all these trevor sir what's
+
+548
+00:12:09,829 --> 00:12:09,839
+for these all these trevor sir what's
+ 
+
+549
+00:12:09,839 --> 00:12:11,509
+for these all these trevor sir what's
+the complexity
+
+550
+00:12:11,509 --> 00:12:11,519
+the complexity
+ 
+
+551
+00:12:11,519 --> 00:12:16,550
+the complexity
+what's the time complexity of
+
+552
+00:12:16,550 --> 00:12:16,560
+
+ 
+
+553
+00:12:16,560 --> 00:12:20,069
+
+the what the end yeah
+
+554
+00:12:20,069 --> 00:12:20,079
+the what the end yeah
+ 
+
+555
+00:12:20,079 --> 00:12:26,320
+the what the end yeah
+yes oh oh yeah yeah why is
+
+556
+00:12:26,320 --> 00:12:26,330
+
+ 
+
+557
+00:12:26,330 --> 00:12:28,230
+
+[Music]
+
+558
+00:12:28,230 --> 00:12:28,240
+[Music]
+ 
+
+559
+00:12:28,240 --> 00:12:30,949
+[Music]
+we have to visit every node in a tree
+
+560
+00:12:30,949 --> 00:12:30,959
+we have to visit every node in a tree
+ 
+
+561
+00:12:30,959 --> 00:12:31,590
+we have to visit every node in a tree
+that's why
+
+562
+00:12:31,590 --> 00:12:31,600
+that's why
+ 
+
+563
+00:12:31,600 --> 00:12:34,069
+that's why
+the travelers are different servers they
+
+564
+00:12:34,069 --> 00:12:34,079
+the travelers are different servers they
+ 
+
+565
+00:12:34,079 --> 00:12:34,629
+the travelers are different servers they
+are all
+
+566
+00:12:34,629 --> 00:12:34,639
+are all
+ 
+
+567
+00:12:34,639 --> 00:12:37,430
+are all
+open right they are all already okay the
+
+568
+00:12:37,430 --> 00:12:37,440
+open right they are all already okay the
+ 
+
+569
+00:12:37,440 --> 00:12:39,110
+open right they are all already okay the
+time complexity okay
+
+570
+00:12:39,110 --> 00:12:39,120
+time complexity okay
+ 
+
+571
+00:12:39,120 --> 00:12:41,750
+time complexity okay
+for the space complexity is also om
+
+572
+00:12:41,750 --> 00:12:41,760
+for the space complexity is also om
+ 
+
+573
+00:12:41,760 --> 00:12:43,190
+for the space complexity is also om
+because we are using this
+
+574
+00:12:43,190 --> 00:12:43,200
+because we are using this
+ 
+
+575
+00:12:43,200 --> 00:12:46,069
+because we are using this
+we we don't have uh we don't allocate
+
+576
+00:12:46,069 --> 00:12:46,079
+we we don't have uh we don't allocate
+ 
+
+577
+00:12:46,079 --> 00:12:46,629
+we we don't have uh we don't allocate
+the space
+
+578
+00:12:46,629 --> 00:12:46,639
+the space
+ 
+
+579
+00:12:46,639 --> 00:12:48,150
+the space
+particularly but we are using the
+
+580
+00:12:48,150 --> 00:12:48,160
+particularly but we are using the
+ 
+
+581
+00:12:48,160 --> 00:12:49,990
+particularly but we are using the
+recursion recursion
+
+582
+00:12:49,990 --> 00:12:50,000
+recursion recursion
+ 
+
+583
+00:12:50,000 --> 00:12:52,710
+recursion recursion
+cost of n right there's a calling stack
+
+584
+00:12:52,710 --> 00:12:52,720
+cost of n right there's a calling stack
+ 
+
+585
+00:12:52,720 --> 00:12:55,110
+cost of n right there's a calling stack
+okay you don't have to remember
+
+586
+00:12:55,110 --> 00:12:55,120
+okay you don't have to remember
+ 
+
+587
+00:12:55,120 --> 00:12:57,030
+okay you don't have to remember
+understand now but it's good to know
+
+588
+00:12:57,030 --> 00:12:57,040
+understand now but it's good to know
+ 
+
+589
+00:12:57,040 --> 00:12:58,710
+understand now but it's good to know
+that the space complexity
+
+590
+00:12:58,710 --> 00:12:58,720
+that the space complexity
+ 
+
+591
+00:12:58,720 --> 00:13:03,750
+that the space complexity
+for the recursion usually is o n okay
+
+592
+00:13:03,750 --> 00:13:03,760
+
+ 
+
+593
+00:13:03,760 --> 00:13:05,829
+
+okay thank you that's that's it today
+
+594
+00:13:05,829 --> 00:13:05,839
+okay thank you that's that's it today
+ 
+
+595
+00:13:05,839 --> 00:13:07,829
+okay thank you that's that's it today
+good job
+
+596
+00:13:07,829 --> 00:13:07,839
+good job
+ 
+
+597
+00:13:07,839 --> 00:13:11,350
+good job
+oh yeah oh yeah
+
+598
+00:13:11,350 --> 00:13:11,360
+oh yeah oh yeah
+ 
+
+599
+00:13:11,360 --> 00:13:13,600
+oh yeah oh yeah
+oh
+
