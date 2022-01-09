@@ -1,0 +1,3175 @@
+1
+00:00:00,160 --> 00:00:03,189
+
+hello hello every hello ryan
+
+2
+00:00:03,189 --> 00:00:03,199
+hello hello every hello ryan
+ 
+
+3
+00:00:03,199 --> 00:00:05,510
+hello hello every hello ryan
+happy new year okay so what we have
+
+4
+00:00:05,510 --> 00:00:05,520
+happy new year okay so what we have
+ 
+
+5
+00:00:05,520 --> 00:00:12,230
+happy new year okay so what we have
+learned yesterday
+
+6
+00:00:12,230 --> 00:00:12,240
+
+ 
+
+7
+00:00:12,240 --> 00:00:14,910
+
+okay if i'm priority kill what's
+
+8
+00:00:14,910 --> 00:00:14,920
+okay if i'm priority kill what's
+ 
+
+9
+00:00:14,920 --> 00:00:17,910
+okay if i'm priority kill what's
+priority
+
+10
+00:00:17,910 --> 00:00:17,920
+priority
+ 
+
+11
+00:00:17,920 --> 00:00:20,390
+priority
+smallest number first in priority out
+
+12
+00:00:20,390 --> 00:00:20,400
+smallest number first in priority out
+ 
+
+13
+00:00:20,400 --> 00:00:21,109
+smallest number first in priority out
+yes
+
+14
+00:00:21,109 --> 00:00:21,119
+yes
+ 
+
+15
+00:00:21,119 --> 00:00:24,310
+yes
+yeah okay so today what's about priority
+
+16
+00:00:24,310 --> 00:00:24,320
+yeah okay so today what's about priority
+ 
+
+17
+00:00:24,320 --> 00:00:26,630
+yeah okay so today what's about priority
+queue yeah priority queue so uh so
+
+18
+00:00:26,630 --> 00:00:26,640
+queue yeah priority queue so uh so
+ 
+
+19
+00:00:26,640 --> 00:00:29,109
+queue yeah priority queue so uh so
+you're given each
+
+20
+00:00:29,109 --> 00:00:29,119
+you're given each
+ 
+
+21
+00:00:29,119 --> 00:00:32,069
+you're given each
+each number each each element in the
+
+22
+00:00:32,069 --> 00:00:32,079
+each number each each element in the
+ 
+
+23
+00:00:32,079 --> 00:00:33,910
+each number each each element in the
+queue has been given a priority
+
+24
+00:00:33,910 --> 00:00:33,920
+queue has been given a priority
+ 
+
+25
+00:00:33,920 --> 00:00:36,630
+queue has been given a priority
+and then when we kill we call it the q
+
+26
+00:00:36,630 --> 00:00:36,640
+and then when we kill we call it the q
+ 
+
+27
+00:00:36,640 --> 00:00:37,190
+and then when we kill we call it the q
+the q
+
+28
+00:00:37,190 --> 00:00:37,200
+the q
+ 
+
+29
+00:00:37,200 --> 00:00:41,110
+the q
+respectively the q is to get the
+
+30
+00:00:41,110 --> 00:00:41,120
+respectively the q is to get the
+ 
+
+31
+00:00:41,120 --> 00:00:43,590
+respectively the q is to get the
+proper element from the q right so it
+
+32
+00:00:43,590 --> 00:00:43,600
+proper element from the q right so it
+ 
+
+33
+00:00:43,600 --> 00:00:44,150
+proper element from the q right so it
+would take
+
+34
+00:00:44,150 --> 00:00:44,160
+would take
+ 
+
+35
+00:00:44,160 --> 00:00:48,869
+would take
+the highest priority right okay so now
+
+36
+00:00:48,869 --> 00:00:48,879
+the highest priority right okay so now
+ 
+
+37
+00:00:48,879 --> 00:00:51,990
+the highest priority right okay so now
+this is very useful for example that
+
+38
+00:00:51,990 --> 00:00:52,000
+this is very useful for example that
+ 
+
+39
+00:00:52,000 --> 00:00:55,029
+this is very useful for example that
+we if we have a if we if we
+
+40
+00:00:55,029 --> 00:00:55,039
+we if we have a if we if we
+ 
+
+41
+00:00:55,039 --> 00:00:56,950
+we if we have a if we if we
+have a problem like this if we have a
+
+42
+00:00:56,950 --> 00:00:56,960
+have a problem like this if we have a
+ 
+
+43
+00:00:56,960 --> 00:00:58,470
+have a problem like this if we have a
+few sticks yeah
+
+44
+00:00:58,470 --> 00:00:58,480
+few sticks yeah
+ 
+
+45
+00:00:58,480 --> 00:01:01,910
+few sticks yeah
+with different lens two four
+
+46
+00:01:01,910 --> 00:01:01,920
+with different lens two four
+ 
+
+47
+00:01:01,920 --> 00:01:05,429
+with different lens two four
+three and then each time i ask you to
+
+48
+00:01:05,429 --> 00:01:05,439
+three and then each time i ask you to
+ 
+
+49
+00:01:05,439 --> 00:01:05,990
+three and then each time i ask you to
+merge
+
+50
+00:01:05,990 --> 00:01:06,000
+merge
+ 
+
+51
+00:01:06,000 --> 00:01:09,190
+merge
+two of them for example much to put it
+
+52
+00:01:09,190 --> 00:01:09,200
+two of them for example much to put it
+ 
+
+53
+00:01:09,200 --> 00:01:09,990
+two of them for example much to put it
+together for
+
+54
+00:01:09,990 --> 00:01:10,000
+together for
+ 
+
+55
+00:01:10,000 --> 00:01:11,750
+together for
+to connect for example if i take a three
+
+56
+00:01:11,750 --> 00:01:11,760
+to connect for example if i take a three
+ 
+
+57
+00:01:11,760 --> 00:01:13,350
+to connect for example if i take a three
+and four i
+
+58
+00:01:13,350 --> 00:01:13,360
+and four i
+ 
+
+59
+00:01:13,360 --> 00:01:15,590
+and four i
+three and four yeah you become seven
+
+60
+00:01:15,590 --> 00:01:15,600
+three and four yeah you become seven
+ 
+
+61
+00:01:15,600 --> 00:01:16,630
+three and four yeah you become seven
+yeah
+
+62
+00:01:16,630 --> 00:01:16,640
+yeah
+ 
+
+63
+00:01:16,640 --> 00:01:19,270
+yeah
+so now the the stick will be seven and
+
+64
+00:01:19,270 --> 00:01:19,280
+so now the the stick will be seven and
+ 
+
+65
+00:01:19,280 --> 00:01:19,910
+so now the the stick will be seven and
+two
+
+66
+00:01:19,910 --> 00:01:19,920
+two
+ 
+
+67
+00:01:19,920 --> 00:01:24,390
+two
+but the cost let the cost to the two lab
+
+68
+00:01:24,390 --> 00:01:24,400
+but the cost let the cost to the two lab
+ 
+
+69
+00:01:24,400 --> 00:01:28,070
+but the cost let the cost to the two lab
+is seven okay yeah
+
+70
+00:01:28,070 --> 00:01:28,080
+is seven okay yeah
+ 
+
+71
+00:01:28,080 --> 00:01:31,190
+is seven okay yeah
+and then now i have a two and seven and
+
+72
+00:01:31,190 --> 00:01:31,200
+and then now i have a two and seven and
+ 
+
+73
+00:01:31,200 --> 00:01:32,789
+and then now i have a two and seven and
+i connected it will be nine right
+
+74
+00:01:32,789 --> 00:01:32,799
+i connected it will be nine right
+ 
+
+75
+00:01:32,799 --> 00:01:35,990
+i connected it will be nine right
+the cost will be nine right so
+
+76
+00:01:35,990 --> 00:01:36,000
+the cost will be nine right so
+ 
+
+77
+00:01:36,000 --> 00:01:37,990
+the cost will be nine right so
+when there's only one we end the game
+
+78
+00:01:37,990 --> 00:01:38,000
+when there's only one we end the game
+ 
+
+79
+00:01:38,000 --> 00:01:40,069
+when there's only one we end the game
+and the cost will be nine plus 7 which
+
+80
+00:01:40,069 --> 00:01:40,079
+and the cost will be nine plus 7 which
+ 
+
+81
+00:01:40,079 --> 00:01:40,950
+and the cost will be nine plus 7 which
+is
+
+82
+00:01:40,950 --> 00:01:40,960
+is
+ 
+
+83
+00:01:40,960 --> 00:01:44,630
+is
+16 yeah all right so can you think of a
+
+84
+00:01:44,630 --> 00:01:44,640
+16 yeah all right so can you think of a
+ 
+
+85
+00:01:44,640 --> 00:01:45,109
+16 yeah all right so can you think of a
+way
+
+86
+00:01:45,109 --> 00:01:45,119
+way
+ 
+
+87
+00:01:45,119 --> 00:01:48,710
+way
+to do this with the minimum cost
+
+88
+00:01:48,710 --> 00:01:48,720
+to do this with the minimum cost
+ 
+
+89
+00:01:48,720 --> 00:01:51,749
+to do this with the minimum cost
+do you get it for example if this you
+
+90
+00:01:51,749 --> 00:01:51,759
+do you get it for example if this you
+ 
+
+91
+00:01:51,759 --> 00:01:53,109
+do you get it for example if this you
+move
+
+92
+00:01:53,109 --> 00:01:53,119
+move
+ 
+
+93
+00:01:53,119 --> 00:01:56,469
+move
+you add the put the add and
+
+94
+00:01:56,469 --> 00:01:56,479
+you add the put the add and
+ 
+
+95
+00:01:56,479 --> 00:01:57,830
+you add the put the add and
+three and four together that would be
+
+96
+00:01:57,830 --> 00:01:57,840
+three and four together that would be
+ 
+
+97
+00:01:57,840 --> 00:02:00,870
+three and four together that would be
+seven yeah the cost would be seven yeah
+
+98
+00:02:00,870 --> 00:02:00,880
+seven yeah the cost would be seven yeah
+ 
+
+99
+00:02:00,880 --> 00:02:03,590
+seven yeah the cost would be seven yeah
+and then seven plus two equals nine the
+
+100
+00:02:03,590 --> 00:02:03,600
+and then seven plus two equals nine the
+ 
+
+101
+00:02:03,600 --> 00:02:04,870
+and then seven plus two equals nine the
+cost will be nine so
+
+102
+00:02:04,870 --> 00:02:04,880
+cost will be nine so
+ 
+
+103
+00:02:04,880 --> 00:02:07,429
+cost will be nine so
+all together cost will be 16. okay and
+
+104
+00:02:07,429 --> 00:02:07,439
+all together cost will be 16. okay and
+ 
+
+105
+00:02:07,439 --> 00:02:09,350
+all together cost will be 16. okay and
+another way of doing it if i do these
+
+106
+00:02:09,350 --> 00:02:09,360
+another way of doing it if i do these
+ 
+
+107
+00:02:09,360 --> 00:02:10,550
+another way of doing it if i do these
+two and three together
+
+108
+00:02:10,550 --> 00:02:10,560
+two and three together
+ 
+
+109
+00:02:10,560 --> 00:02:13,750
+two and three together
+two plus three will become five right
+
+110
+00:02:13,750 --> 00:02:13,760
+two plus three will become five right
+ 
+
+111
+00:02:13,760 --> 00:02:17,110
+two plus three will become five right
+first would be five yeah sorry and then
+
+112
+00:02:17,110 --> 00:02:17,120
+first would be five yeah sorry and then
+ 
+
+113
+00:02:17,120 --> 00:02:17,430
+first would be five yeah sorry and then
+four
+
+114
+00:02:17,430 --> 00:02:17,440
+four
+ 
+
+115
+00:02:17,440 --> 00:02:20,949
+four
+plus four f five plus four equals nine
+
+116
+00:02:20,949 --> 00:02:20,959
+plus four f five plus four equals nine
+ 
+
+117
+00:02:20,959 --> 00:02:23,589
+plus four f five plus four equals nine
+and the cost will be 9 so the cost is
+
+118
+00:02:23,589 --> 00:02:23,599
+and the cost will be 9 so the cost is
+ 
+
+119
+00:02:23,599 --> 00:02:25,750
+and the cost will be 9 so the cost is
+14.
+
+120
+00:02:25,750 --> 00:02:25,760
+14.
+ 
+
+121
+00:02:25,760 --> 00:02:27,910
+14.
+get it so this is better than this do
+
+122
+00:02:27,910 --> 00:02:27,920
+get it so this is better than this do
+ 
+
+123
+00:02:27,920 --> 00:02:29,589
+get it so this is better than this do
+you get it
+
+124
+00:02:29,589 --> 00:02:29,599
+you get it
+ 
+
+125
+00:02:29,599 --> 00:02:33,430
+you get it
+yeah so every time we pick 2
+
+126
+00:02:33,430 --> 00:02:33,440
+yeah so every time we pick 2
+ 
+
+127
+00:02:33,440 --> 00:02:36,470
+yeah so every time we pick 2
+we merge it connected to each other and
+
+128
+00:02:36,470 --> 00:02:36,480
+we merge it connected to each other and
+ 
+
+129
+00:02:36,480 --> 00:02:38,309
+we merge it connected to each other and
+the cost will be the total length of
+
+130
+00:02:38,309 --> 00:02:38,319
+the cost will be the total length of
+ 
+
+131
+00:02:38,319 --> 00:02:39,509
+the cost will be the total length of
+this
+
+132
+00:02:39,509 --> 00:02:39,519
+this
+ 
+
+133
+00:02:39,519 --> 00:02:43,589
+this
+the new new stick after merge
+
+134
+00:02:43,589 --> 00:02:43,599
+the new new stick after merge
+ 
+
+135
+00:02:43,599 --> 00:02:47,030
+the new new stick after merge
+and when there's only one when there's
+
+136
+00:02:47,030 --> 00:02:47,040
+and when there's only one when there's
+ 
+
+137
+00:02:47,040 --> 00:02:49,509
+and when there's only one when there's
+only one when every
+
+138
+00:02:49,509 --> 00:02:49,519
+only one when every
+ 
+
+139
+00:02:49,519 --> 00:02:51,990
+only one when every
+stakes are merged into one and then we
+
+140
+00:02:51,990 --> 00:02:52,000
+stakes are merged into one and then we
+ 
+
+141
+00:02:52,000 --> 00:02:53,750
+stakes are merged into one and then we
+end the game and the cost will be the
+
+142
+00:02:53,750 --> 00:02:53,760
+end the game and the cost will be the
+ 
+
+143
+00:02:53,760 --> 00:02:54,470
+end the game and the cost will be the
+total
+
+144
+00:02:54,470 --> 00:02:54,480
+total
+ 
+
+145
+00:02:54,480 --> 00:02:57,750
+total
+the tokens caught after uh at each match
+
+146
+00:02:57,750 --> 00:02:57,760
+the tokens caught after uh at each match
+ 
+
+147
+00:02:57,760 --> 00:03:00,070
+the tokens caught after uh at each match
+do you understand this problem yeah yeah
+
+148
+00:03:00,070 --> 00:03:00,080
+do you understand this problem yeah yeah
+ 
+
+149
+00:03:00,080 --> 00:03:00,869
+do you understand this problem yeah yeah
+i mean
+
+150
+00:03:00,869 --> 00:03:00,879
+i mean
+ 
+
+151
+00:03:00,879 --> 00:03:05,750
+i mean
+so any idea any idea how can we do it
+
+152
+00:03:05,750 --> 00:03:05,760
+so any idea any idea how can we do it
+ 
+
+153
+00:03:05,760 --> 00:03:07,990
+so any idea any idea how can we do it
+do we have a strategy how can we do it
+
+154
+00:03:07,990 --> 00:03:08,000
+do we have a strategy how can we do it
+ 
+
+155
+00:03:08,000 --> 00:03:09,190
+do we have a strategy how can we do it
+with the minimum cost
+
+156
+00:03:09,190 --> 00:03:09,200
+with the minimum cost
+ 
+
+157
+00:03:09,200 --> 00:03:12,550
+with the minimum cost
+so obviously this is 16 this is 14.
+
+158
+00:03:12,550 --> 00:03:12,560
+so obviously this is 16 this is 14.
+ 
+
+159
+00:03:12,560 --> 00:03:15,990
+so obviously this is 16 this is 14.
+i think you just add the two smallest
+
+160
+00:03:15,990 --> 00:03:16,000
+i think you just add the two smallest
+ 
+
+161
+00:03:16,000 --> 00:03:18,790
+i think you just add the two smallest
+whoa where's that why yeah it's true
+
+162
+00:03:18,790 --> 00:03:18,800
+whoa where's that why yeah it's true
+ 
+
+163
+00:03:18,800 --> 00:03:20,550
+whoa where's that why yeah it's true
+you've always picked the smallest
+
+164
+00:03:20,550 --> 00:03:20,560
+you've always picked the smallest
+ 
+
+165
+00:03:20,560 --> 00:03:24,869
+you've always picked the smallest
+yeah yeah i can show i can
+
+166
+00:03:24,869 --> 00:03:24,879
+yeah yeah i can show i can
+ 
+
+167
+00:03:24,879 --> 00:03:27,190
+yeah yeah i can show i can
+i can tell you why this is a good
+
+168
+00:03:27,190 --> 00:03:27,200
+i can tell you why this is a good
+ 
+
+169
+00:03:27,200 --> 00:03:28,630
+i can tell you why this is a good
+strategy greedy
+
+170
+00:03:28,630 --> 00:03:28,640
+strategy greedy
+ 
+
+171
+00:03:28,640 --> 00:03:30,869
+strategy greedy
+greedy yeah greedy how cool makes me
+
+172
+00:03:30,869 --> 00:03:30,879
+greedy yeah greedy how cool makes me
+ 
+
+173
+00:03:30,879 --> 00:03:33,830
+greedy yeah greedy how cool makes me
+hungry yeah greedy so pick the smoke
+
+174
+00:03:33,830 --> 00:03:33,840
+hungry yeah greedy so pick the smoke
+ 
+
+175
+00:03:33,840 --> 00:03:36,949
+hungry yeah greedy so pick the smoke
+two smallest two smallest every time
+
+176
+00:03:36,949 --> 00:03:36,959
+two smallest two smallest every time
+ 
+
+177
+00:03:36,959 --> 00:03:40,229
+two smallest two smallest every time
+two smallest yeah two smallest okay so
+
+178
+00:03:40,229 --> 00:03:40,239
+two smallest yeah two smallest okay so
+ 
+
+179
+00:03:40,239 --> 00:03:41,910
+two smallest yeah two smallest okay so
+for example if we have a four
+
+180
+00:03:41,910 --> 00:03:41,920
+for example if we have a four
+ 
+
+181
+00:03:41,920 --> 00:03:45,190
+for example if we have a four
+four for example four a one let's call
+
+182
+00:03:45,190 --> 00:03:45,200
+four for example four a one let's call
+ 
+
+183
+00:03:45,200 --> 00:03:46,309
+four for example four a one let's call
+it a b c d
+
+184
+00:03:46,309 --> 00:03:46,319
+it a b c d
+ 
+
+185
+00:03:46,319 --> 00:03:49,670
+it a b c d
+okay just two lengths left if there are
+
+186
+00:03:49,670 --> 00:03:49,680
+okay just two lengths left if there are
+ 
+
+187
+00:03:49,680 --> 00:03:50,229
+okay just two lengths left if there are
+two
+
+188
+00:03:50,229 --> 00:03:50,239
+two
+ 
+
+189
+00:03:50,239 --> 00:03:51,990
+two
+there are four lengths and let's merge
+
+190
+00:03:51,990 --> 00:03:52,000
+there are four lengths and let's merge
+ 
+
+191
+00:03:52,000 --> 00:03:53,750
+there are four lengths and let's merge
+it from the left to the right
+
+192
+00:03:53,750 --> 00:03:53,760
+it from the left to the right
+ 
+
+193
+00:03:53,760 --> 00:03:55,750
+it from the left to the right
+let's budget from the left to right so
+
+194
+00:03:55,750 --> 00:03:55,760
+let's budget from the left to right so
+ 
+
+195
+00:03:55,760 --> 00:03:56,869
+let's budget from the left to right so
+first of all
+
+196
+00:03:56,869 --> 00:03:56,879
+first of all
+ 
+
+197
+00:03:56,879 --> 00:03:59,990
+first of all
+a plus b yeah the cost is a plus
+
+198
+00:03:59,990 --> 00:04:00,000
+a plus b yeah the cost is a plus
+ 
+
+199
+00:04:00,000 --> 00:04:02,789
+a plus b yeah the cost is a plus
+b right this is the cost we want to add
+
+200
+00:04:02,789 --> 00:04:02,799
+b right this is the cost we want to add
+ 
+
+201
+00:04:02,799 --> 00:04:03,509
+b right this is the cost we want to add
+and then
+
+202
+00:04:03,509 --> 00:04:03,519
+and then
+ 
+
+203
+00:04:03,519 --> 00:04:07,750
+and then
+now yeah it's just symbol
+
+204
+00:04:07,750 --> 00:04:07,760
+now yeah it's just symbol
+ 
+
+205
+00:04:07,760 --> 00:04:10,229
+now yeah it's just symbol
+we don't know the value but it's a plus
+
+206
+00:04:10,229 --> 00:04:10,239
+we don't know the value but it's a plus
+ 
+
+207
+00:04:10,239 --> 00:04:11,509
+we don't know the value but it's a plus
+and then a plus b
+
+208
+00:04:11,509 --> 00:04:11,519
+and then a plus b
+ 
+
+209
+00:04:11,519 --> 00:04:14,949
+and then a plus b
+plus c the cost will be a plus b
+
+210
+00:04:14,949 --> 00:04:14,959
+plus c the cost will be a plus b
+ 
+
+211
+00:04:14,959 --> 00:04:19,349
+plus c the cost will be a plus b
+plus c right yeah and then another match
+
+212
+00:04:19,349 --> 00:04:19,359
+plus c right yeah and then another match
+ 
+
+213
+00:04:19,359 --> 00:04:22,790
+plus c right yeah and then another match
+another magic a plus b plus c plus b
+
+214
+00:04:22,790 --> 00:04:22,800
+another magic a plus b plus c plus b
+ 
+
+215
+00:04:22,800 --> 00:04:26,310
+another magic a plus b plus c plus b
+the cost will be a plus b plus c plus b
+
+216
+00:04:26,310 --> 00:04:26,320
+the cost will be a plus b plus c plus b
+ 
+
+217
+00:04:26,320 --> 00:04:29,030
+the cost will be a plus b plus c plus b
+so how many a how many b how many c's
+
+218
+00:04:29,030 --> 00:04:29,040
+so how many a how many b how many c's
+ 
+
+219
+00:04:29,040 --> 00:04:29,590
+so how many a how many b how many c's
+there are
+
+220
+00:04:29,590 --> 00:04:29,600
+there are
+ 
+
+221
+00:04:29,600 --> 00:04:31,710
+there are
+three a three
+
+222
+00:04:31,710 --> 00:04:31,720
+three a three
+ 
+
+223
+00:04:31,720 --> 00:04:32,950
+three a three
+[Music]
+
+224
+00:04:32,950 --> 00:04:32,960
+[Music]
+ 
+
+225
+00:04:32,960 --> 00:04:36,950
+[Music]
+two one okay so these are four numbers
+
+226
+00:04:36,950 --> 00:04:36,960
+two one okay so these are four numbers
+ 
+
+227
+00:04:36,960 --> 00:04:39,030
+two one okay so these are four numbers
+and these a and b needs two times three
+
+228
+00:04:39,030 --> 00:04:39,040
+and these a and b needs two times three
+ 
+
+229
+00:04:39,040 --> 00:04:40,390
+and these a and b needs two times three
+times and this c is
+
+230
+00:04:40,390 --> 00:04:40,400
+times and this c is
+ 
+
+231
+00:04:40,400 --> 00:04:43,670
+times and this c is
+times two times and d times one time so
+
+232
+00:04:43,670 --> 00:04:43,680
+times two times and d times one time so
+ 
+
+233
+00:04:43,680 --> 00:04:45,830
+times two times and d times one time so
+if these are the smallest the chords
+
+234
+00:04:45,830 --> 00:04:45,840
+if these are the smallest the chords
+ 
+
+235
+00:04:45,840 --> 00:04:47,270
+if these are the smallest the chords
+will be smaller is that
+
+236
+00:04:47,270 --> 00:04:47,280
+will be smaller is that
+ 
+
+237
+00:04:47,280 --> 00:04:49,590
+will be smaller is that
+if the is the biggest if a and b are the
+
+238
+00:04:49,590 --> 00:04:49,600
+if the is the biggest if a and b are the
+ 
+
+239
+00:04:49,600 --> 00:04:51,590
+if the is the biggest if a and b are the
+biggest the chords will be biggest yeah
+
+240
+00:04:51,590 --> 00:04:51,600
+biggest the chords will be biggest yeah
+ 
+
+241
+00:04:51,600 --> 00:04:53,909
+biggest the chords will be biggest yeah
+so the a and b must be the smallest all
+
+242
+00:04:53,909 --> 00:04:53,919
+so the a and b must be the smallest all
+ 
+
+243
+00:04:53,919 --> 00:04:54,790
+so the a and b must be the smallest all
+right
+
+244
+00:04:54,790 --> 00:04:54,800
+right
+ 
+
+245
+00:04:54,800 --> 00:04:57,990
+right
+yes do you get it if look look
+
+246
+00:04:57,990 --> 00:04:58,000
+yes do you get it if look look
+ 
+
+247
+00:04:58,000 --> 00:05:01,749
+yes do you get it if look look
+if if we even really put it one
+
+248
+00:05:01,749 --> 00:05:01,759
+if if we even really put it one
+ 
+
+249
+00:05:01,759 --> 00:05:05,029
+if if we even really put it one
+two three four so this a will be
+
+250
+00:05:05,029 --> 00:05:05,039
+two three four so this a will be
+ 
+
+251
+00:05:05,039 --> 00:05:08,629
+two three four so this a will be
+one three no no no a
+
+252
+00:05:08,629 --> 00:05:08,639
+one three no no no a
+ 
+
+253
+00:05:08,639 --> 00:05:11,029
+one three no no no a
+a would be i'll be choosing one right
+
+254
+00:05:11,029 --> 00:05:11,039
+a would be i'll be choosing one right
+ 
+
+255
+00:05:11,039 --> 00:05:12,870
+a would be i'll be choosing one right
+because if i choose two
+
+256
+00:05:12,870 --> 00:05:12,880
+because if i choose two
+ 
+
+257
+00:05:12,880 --> 00:05:15,430
+because if i choose two
+or just a and b will be one and two if i
+
+258
+00:05:15,430 --> 00:05:15,440
+or just a and b will be one and two if i
+ 
+
+259
+00:05:15,440 --> 00:05:16,629
+or just a and b will be one and two if i
+choose four
+
+260
+00:05:16,629 --> 00:05:16,639
+choose four
+ 
+
+261
+00:05:16,639 --> 00:05:19,350
+choose four
+the cost will be maximized right because
+
+262
+00:05:19,350 --> 00:05:19,360
+the cost will be maximized right because
+ 
+
+263
+00:05:19,360 --> 00:05:20,469
+the cost will be maximized right because
+it comes three times
+
+264
+00:05:20,469 --> 00:05:20,479
+it comes three times
+ 
+
+265
+00:05:20,479 --> 00:05:23,189
+it comes three times
+right three times a times plus three
+
+266
+00:05:23,189 --> 00:05:23,199
+right three times a times plus three
+ 
+
+267
+00:05:23,199 --> 00:05:25,830
+right three times a times plus three
+times b so a and b must be one or two
+
+268
+00:05:25,830 --> 00:05:25,840
+times b so a and b must be one or two
+ 
+
+269
+00:05:25,840 --> 00:05:28,469
+times b so a and b must be one or two
+and then two two c will be two look if
+
+270
+00:05:28,469 --> 00:05:28,479
+and then two two c will be two look if
+ 
+
+271
+00:05:28,479 --> 00:05:29,749
+and then two two c will be two look if
+two times three
+
+272
+00:05:29,749 --> 00:05:29,759
+two times three
+ 
+
+273
+00:05:29,759 --> 00:05:32,150
+two times three
+plus four and then two times four plus
+
+274
+00:05:32,150 --> 00:05:32,160
+plus four and then two times four plus
+ 
+
+275
+00:05:32,160 --> 00:05:36,469
+plus four and then two times four plus
+three which one is bigger
+
+276
+00:05:36,469 --> 00:05:36,479
+
+ 
+
+277
+00:05:36,479 --> 00:05:38,790
+
+this is 10 this is 11. of course i need
+
+278
+00:05:38,790 --> 00:05:38,800
+this is 10 this is 11. of course i need
+ 
+
+279
+00:05:38,800 --> 00:05:39,749
+this is 10 this is 11. of course i need
+to because this
+
+280
+00:05:39,749 --> 00:05:39,759
+to because this
+ 
+
+281
+00:05:39,759 --> 00:05:42,710
+to because this
+times 2 so c is to be smaller right got
+
+282
+00:05:42,710 --> 00:05:42,720
+times 2 so c is to be smaller right got
+ 
+
+283
+00:05:42,720 --> 00:05:43,029
+times 2 so c is to be smaller right got
+it
+
+284
+00:05:43,029 --> 00:05:43,039
+it
+ 
+
+285
+00:05:43,039 --> 00:05:46,469
+it
+because 2 times c plus d
+
+286
+00:05:46,469 --> 00:05:46,479
+because 2 times c plus d
+ 
+
+287
+00:05:46,479 --> 00:05:49,909
+because 2 times c plus d
+if c is 3 and d is 4. i obviously i want
+
+288
+00:05:49,909 --> 00:05:49,919
+if c is 3 and d is 4. i obviously i want
+ 
+
+289
+00:05:49,919 --> 00:05:50,710
+if c is 3 and d is 4. i obviously i want
+to see
+
+290
+00:05:50,710 --> 00:05:50,720
+to see
+ 
+
+291
+00:05:50,720 --> 00:05:52,950
+to see
+smallest because it's times two right if
+
+292
+00:05:52,950 --> 00:05:52,960
+smallest because it's times two right if
+ 
+
+293
+00:05:52,960 --> 00:05:54,790
+smallest because it's times two right if
+you pick the four that would be two
+
+294
+00:05:54,790 --> 00:05:54,800
+you pick the four that would be two
+ 
+
+295
+00:05:54,800 --> 00:05:56,070
+you pick the four that would be two
+times four
+
+296
+00:05:56,070 --> 00:05:56,080
+times four
+ 
+
+297
+00:05:56,080 --> 00:05:59,510
+times four
+bigger than three am i right yeah
+
+298
+00:05:59,510 --> 00:05:59,520
+bigger than three am i right yeah
+ 
+
+299
+00:05:59,520 --> 00:06:01,110
+bigger than three am i right yeah
+bigger than that i'm picking the three
+
+300
+00:06:01,110 --> 00:06:01,120
+bigger than that i'm picking the three
+ 
+
+301
+00:06:01,120 --> 00:06:02,629
+bigger than that i'm picking the three
+together yes
+
+302
+00:06:02,629 --> 00:06:02,639
+together yes
+ 
+
+303
+00:06:02,639 --> 00:06:05,029
+together yes
+so the strategy i just proved like it's
+
+304
+00:06:05,029 --> 00:06:05,039
+so the strategy i just proved like it's
+ 
+
+305
+00:06:05,039 --> 00:06:05,830
+so the strategy i just proved like it's
+always
+
+306
+00:06:05,830 --> 00:06:05,840
+always
+ 
+
+307
+00:06:05,840 --> 00:06:08,629
+always
+optimum to pick the two smallest in the
+
+308
+00:06:08,629 --> 00:06:08,639
+optimum to pick the two smallest in the
+ 
+
+309
+00:06:08,639 --> 00:06:09,350
+optimum to pick the two smallest in the
+selection
+
+310
+00:06:09,350 --> 00:06:09,360
+selection
+ 
+
+311
+00:06:09,360 --> 00:06:12,469
+selection
+in the extraction first okay so how can
+
+312
+00:06:12,469 --> 00:06:12,479
+in the extraction first okay so how can
+ 
+
+313
+00:06:12,479 --> 00:06:13,270
+in the extraction first okay so how can
+we do this
+
+314
+00:06:13,270 --> 00:06:13,280
+we do this
+ 
+
+315
+00:06:13,280 --> 00:06:15,350
+we do this
+how can we do this how can we implement
+
+316
+00:06:15,350 --> 00:06:15,360
+how can we do this how can we implement
+ 
+
+317
+00:06:15,360 --> 00:06:17,270
+how can we do this how can we implement
+this
+
+318
+00:06:17,270 --> 00:06:17,280
+this
+ 
+
+319
+00:06:17,280 --> 00:06:20,469
+this
+using a heap yes
+
+320
+00:06:20,469 --> 00:06:20,479
+using a heap yes
+ 
+
+321
+00:06:20,479 --> 00:06:23,909
+using a heap yes
+using the heap how do we do this define
+
+322
+00:06:23,909 --> 00:06:23,919
+using the heap how do we do this define
+ 
+
+323
+00:06:23,919 --> 00:06:28,629
+using the heap how do we do this define
+define let's call it cost okay mean cost
+
+324
+00:06:28,629 --> 00:06:28,639
+define let's call it cost okay mean cost
+ 
+
+325
+00:06:28,639 --> 00:06:31,909
+define let's call it cost okay mean cost
+green cost let's call it sticks okay
+
+326
+00:06:31,909 --> 00:06:31,919
+green cost let's call it sticks okay
+ 
+
+327
+00:06:31,919 --> 00:06:33,510
+green cost let's call it sticks okay
+sticks let's just call it s
+
+328
+00:06:33,510 --> 00:06:33,520
+sticks let's just call it s
+ 
+
+329
+00:06:33,520 --> 00:06:37,029
+sticks let's just call it s
+okay right
+
+330
+00:06:37,029 --> 00:06:37,039
+
+ 
+
+331
+00:06:37,039 --> 00:06:39,749
+
+so this is an array how about we make it
+
+332
+00:06:39,749 --> 00:06:39,759
+so this is an array how about we make it
+ 
+
+333
+00:06:39,759 --> 00:06:40,629
+so this is an array how about we make it
+a hip
+
+334
+00:06:40,629 --> 00:06:40,639
+a hip
+ 
+
+335
+00:06:40,639 --> 00:06:42,870
+a hip
+and every priority kill every time i
+
+336
+00:06:42,870 --> 00:06:42,880
+and every priority kill every time i
+ 
+
+337
+00:06:42,880 --> 00:06:45,350
+and every priority kill every time i
+pick a two and you'll be always smallest
+
+338
+00:06:45,350 --> 00:06:45,360
+pick a two and you'll be always smallest
+ 
+
+339
+00:06:45,360 --> 00:06:48,230
+pick a two and you'll be always smallest
+am right and then i add it i merge it
+
+340
+00:06:48,230 --> 00:06:48,240
+am right and then i add it i merge it
+ 
+
+341
+00:06:48,240 --> 00:06:49,830
+am right and then i add it i merge it
+and i put it back to the stick am i
+
+342
+00:06:49,830 --> 00:06:49,840
+and i put it back to the stick am i
+ 
+
+343
+00:06:49,840 --> 00:06:50,629
+and i put it back to the stick am i
+right
+
+344
+00:06:50,629 --> 00:06:50,639
+right
+ 
+
+345
+00:06:50,639 --> 00:06:54,070
+right
+hold on how can we do this remember hip
+
+346
+00:06:54,070 --> 00:06:54,080
+hold on how can we do this remember hip
+ 
+
+347
+00:06:54,080 --> 00:06:57,189
+hold on how can we do this remember hip
+hip five right ep five hq
+
+348
+00:06:57,189 --> 00:06:57,199
+hip five right ep five hq
+ 
+
+349
+00:06:57,199 --> 00:07:00,950
+hip five right ep five hq
+doggie pie import remember every import
+
+350
+00:07:00,950 --> 00:07:00,960
+doggie pie import remember every import
+ 
+
+351
+00:07:00,960 --> 00:07:04,230
+doggie pie import remember every import
+hit hit q as
+
+352
+00:07:04,230 --> 00:07:04,240
+hit hit q as
+ 
+
+353
+00:07:04,240 --> 00:07:06,950
+hit hit q as
+hq okay why are you doing line three
+
+354
+00:07:06,950 --> 00:07:06,960
+hq okay why are you doing line three
+ 
+
+355
+00:07:06,960 --> 00:07:08,309
+hq okay why are you doing line three
+then line three then
+
+356
+00:07:08,309 --> 00:07:08,319
+then line three then
+ 
+
+357
+00:07:08,319 --> 00:07:11,749
+then line three then
+line one uh yeah just like yeah hit p5
+
+358
+00:07:11,749 --> 00:07:11,759
+line one uh yeah just like yeah hit p5
+ 
+
+359
+00:07:11,759 --> 00:07:15,110
+line one uh yeah just like yeah hit p5
+and then s then s will become a hit
+
+360
+00:07:15,110 --> 00:07:15,120
+and then s then s will become a hit
+ 
+
+361
+00:07:15,120 --> 00:07:20,150
+and then s then s will become a hit
+and why why we still have more than one
+
+362
+00:07:20,150 --> 00:07:20,160
+and why why we still have more than one
+ 
+
+363
+00:07:20,160 --> 00:07:23,909
+and why why we still have more than one
+sticks yes yes more than one stick yes
+
+364
+00:07:23,909 --> 00:07:23,919
+sticks yes yes more than one stick yes
+ 
+
+365
+00:07:23,919 --> 00:07:26,469
+sticks yes yes more than one stick yes
+then we need to get two from the we need
+
+366
+00:07:26,469 --> 00:07:26,479
+then we need to get two from the we need
+ 
+
+367
+00:07:26,479 --> 00:07:26,950
+then we need to get two from the we need
+to get
+
+368
+00:07:26,950 --> 00:07:26,960
+to get
+ 
+
+369
+00:07:26,960 --> 00:07:29,990
+to get
+two from the first first
+
+370
+00:07:29,990 --> 00:07:30,000
+two from the first first
+ 
+
+371
+00:07:30,000 --> 00:07:33,270
+two from the first first
+look so from a stick look a
+
+372
+00:07:33,270 --> 00:07:33,280
+look so from a stick look a
+ 
+
+373
+00:07:33,280 --> 00:07:36,390
+look so from a stick look a
+b equals
+
+374
+00:07:36,390 --> 00:07:36,400
+b equals
+ 
+
+375
+00:07:36,400 --> 00:07:39,430
+b equals
+hq top hip hip
+
+376
+00:07:39,430 --> 00:07:39,440
+hq top hip hip
+ 
+
+377
+00:07:39,440 --> 00:07:42,870
+hq top hip hip
+what hit forward
+
+378
+00:07:42,870 --> 00:07:42,880
+what hit forward
+ 
+
+379
+00:07:42,880 --> 00:07:46,469
+what hit forward
+we're you do pay attention to the class
+
+380
+00:07:46,469 --> 00:07:46,479
+we're you do pay attention to the class
+ 
+
+381
+00:07:46,479 --> 00:07:46,790
+we're you do pay attention to the class
+right
+
+382
+00:07:46,790 --> 00:07:46,800
+right
+ 
+
+383
+00:07:46,800 --> 00:07:50,230
+right
+did you hit pop
+
+384
+00:07:50,230 --> 00:07:50,240
+did you hit pop
+ 
+
+385
+00:07:50,240 --> 00:07:53,350
+did you hit pop
+hip-hop s right
+
+386
+00:07:53,350 --> 00:07:53,360
+hip-hop s right
+ 
+
+387
+00:07:53,360 --> 00:07:56,390
+hip-hop s right
+and then another one hq this is the same
+
+388
+00:07:56,390 --> 00:07:56,400
+and then another one hq this is the same
+ 
+
+389
+00:07:56,400 --> 00:07:57,110
+and then another one hq this is the same
+right just
+
+390
+00:07:57,110 --> 00:07:57,120
+right just
+ 
+
+391
+00:07:57,120 --> 00:07:59,909
+right just
+one this is the same as this so he
+
+392
+00:07:59,909 --> 00:07:59,919
+one this is the same as this so he
+ 
+
+393
+00:07:59,919 --> 00:08:00,629
+one this is the same as this so he
+popped
+
+394
+00:08:00,629 --> 00:08:00,639
+popped
+ 
+
+395
+00:08:00,639 --> 00:08:03,029
+popped
+likely twice so i have two numbers from
+
+396
+00:08:03,029 --> 00:08:03,039
+likely twice so i have two numbers from
+ 
+
+397
+00:08:03,039 --> 00:08:05,670
+likely twice so i have two numbers from
+the two smallies from the sticks
+
+398
+00:08:05,670 --> 00:08:05,680
+the two smallies from the sticks
+ 
+
+399
+00:08:05,680 --> 00:08:09,589
+the two smallies from the sticks
+and the cost look at the cost that is
+
+400
+00:08:09,589 --> 00:08:09,599
+and the cost look at the cost that is
+ 
+
+401
+00:08:09,599 --> 00:08:11,830
+and the cost look at the cost that is
+here right cos equals yeah and then cos
+
+402
+00:08:11,830 --> 00:08:11,840
+here right cos equals yeah and then cos
+ 
+
+403
+00:08:11,840 --> 00:08:12,550
+here right cos equals yeah and then cos
+it will be
+
+404
+00:08:12,550 --> 00:08:12,560
+it will be
+ 
+
+405
+00:08:12,560 --> 00:08:16,469
+it will be
+equal as what cos will be equal
+
+406
+00:08:16,469 --> 00:08:16,479
+equal as what cos will be equal
+ 
+
+407
+00:08:16,479 --> 00:08:20,070
+equal as what cos will be equal
+cos plus equals a e plus
+
+408
+00:08:20,070 --> 00:08:20,080
+cos plus equals a e plus
+ 
+
+409
+00:08:20,080 --> 00:08:23,029
+cos plus equals a e plus
+b b okay then now i need to add the a
+
+410
+00:08:23,029 --> 00:08:23,039
+b b okay then now i need to add the a
+ 
+
+411
+00:08:23,039 --> 00:08:24,629
+b b okay then now i need to add the a
+plus b this is the new
+
+412
+00:08:24,629 --> 00:08:24,639
+plus b this is the new
+ 
+
+413
+00:08:24,639 --> 00:08:27,189
+plus b this is the new
+stick i need to put it back to the
+
+414
+00:08:27,189 --> 00:08:27,199
+stick i need to put it back to the
+ 
+
+415
+00:08:27,199 --> 00:08:28,230
+stick i need to put it back to the
+keeper right
+
+416
+00:08:28,230 --> 00:08:28,240
+keeper right
+ 
+
+417
+00:08:28,240 --> 00:08:30,070
+keeper right
+yeah because it becomes a new stick so
+
+418
+00:08:30,070 --> 00:08:30,080
+yeah because it becomes a new stick so
+ 
+
+419
+00:08:30,080 --> 00:08:33,269
+yeah because it becomes a new stick so
+now what hq
+
+420
+00:08:33,269 --> 00:08:33,279
+
+ 
+
+421
+00:08:33,279 --> 00:08:37,029
+
+hit what push
+
+422
+00:08:37,029 --> 00:08:37,039
+hit what push
+ 
+
+423
+00:08:37,039 --> 00:08:48,240
+hit what push
+push push release s
+
+424
+00:08:48,240 --> 00:08:48,250
+
+ 
+
+425
+00:08:48,250 --> 00:08:52,949
+
+[Music]
+
+426
+00:08:52,949 --> 00:08:52,959
+
+ 
+
+427
+00:08:52,959 --> 00:08:59,910
+
+return cost when we are in calculation
+
+428
+00:08:59,910 --> 00:08:59,920
+
+ 
+
+429
+00:08:59,920 --> 00:09:03,110
+
+or cost cost
+
+430
+00:09:03,110 --> 00:09:03,120
+or cost cost
+ 
+
+431
+00:09:03,120 --> 00:09:06,310
+or cost cost
+okay so
+
+432
+00:09:06,310 --> 00:09:06,320
+
+ 
+
+433
+00:09:06,320 --> 00:09:10,470
+
+so what's the complexity i went no
+
+434
+00:09:10,470 --> 00:09:10,480
+so what's the complexity i went no
+ 
+
+435
+00:09:10,480 --> 00:09:13,750
+so what's the complexity i went no
+no are you logan now you're just
+
+436
+00:09:13,750 --> 00:09:13,760
+no are you logan now you're just
+ 
+
+437
+00:09:13,760 --> 00:09:14,470
+no are you logan now you're just
+guessing
+
+438
+00:09:14,470 --> 00:09:14,480
+guessing
+ 
+
+439
+00:09:14,480 --> 00:09:16,949
+guessing
+look there are an element in a stick
+
+440
+00:09:16,949 --> 00:09:16,959
+look there are an element in a stick
+ 
+
+441
+00:09:16,959 --> 00:09:17,670
+look there are an element in a stick
+yeah yeah
+
+442
+00:09:17,670 --> 00:09:17,680
+yeah yeah
+ 
+
+443
+00:09:17,680 --> 00:09:20,389
+yeah yeah
+so it's in this end but every time we
+
+444
+00:09:20,389 --> 00:09:20,399
+so it's in this end but every time we
+ 
+
+445
+00:09:20,399 --> 00:09:21,430
+so it's in this end but every time we
+are push
+
+446
+00:09:21,430 --> 00:09:21,440
+are push
+ 
+
+447
+00:09:21,440 --> 00:09:23,990
+are push
+popping and push it takes log n remember
+
+448
+00:09:23,990 --> 00:09:24,000
+popping and push it takes log n remember
+ 
+
+449
+00:09:24,000 --> 00:09:24,710
+popping and push it takes log n remember
+so this is
+
+450
+00:09:24,710 --> 00:09:24,720
+so this is
+ 
+
+451
+00:09:24,720 --> 00:09:28,070
+so this is
+m this is log n so all together and log
+
+452
+00:09:28,070 --> 00:09:28,080
+m this is log n so all together and log
+ 
+
+453
+00:09:28,080 --> 00:09:28,470
+m this is log n so all together and log
+n
+
+454
+00:09:28,470 --> 00:09:28,480
+n
+ 
+
+455
+00:09:28,480 --> 00:09:32,070
+n
+yeah and log n got it it takes remember
+
+456
+00:09:32,070 --> 00:09:32,080
+yeah and log n got it it takes remember
+ 
+
+457
+00:09:32,080 --> 00:09:33,190
+yeah and log n got it it takes remember
+we talked about yesterday
+
+458
+00:09:33,190 --> 00:09:33,200
+we talked about yesterday
+ 
+
+459
+00:09:33,200 --> 00:09:36,630
+we talked about yesterday
+it takes unlocking to fear to push and
+
+460
+00:09:36,630 --> 00:09:36,640
+it takes unlocking to fear to push and
+ 
+
+461
+00:09:36,640 --> 00:09:37,190
+it takes unlocking to fear to push and
+pop
+
+462
+00:09:37,190 --> 00:09:37,200
+pop
+ 
+
+463
+00:09:37,200 --> 00:09:39,750
+pop
+because it takes time to unlock in time
+
+464
+00:09:39,750 --> 00:09:39,760
+because it takes time to unlock in time
+ 
+
+465
+00:09:39,760 --> 00:09:40,310
+because it takes time to unlock in time
+to
+
+466
+00:09:40,310 --> 00:09:40,320
+to
+ 
+
+467
+00:09:40,320 --> 00:09:43,430
+to
+reveal the hip right yeah reveal the
+
+468
+00:09:43,430 --> 00:09:43,440
+reveal the hip right yeah reveal the
+ 
+
+469
+00:09:43,440 --> 00:09:45,030
+reveal the hip right yeah reveal the
+heat the final hit remember
+
+470
+00:09:45,030 --> 00:09:45,040
+heat the final hit remember
+ 
+
+471
+00:09:45,040 --> 00:09:48,150
+heat the final hit remember
+if you did it if you did it this note
+
+472
+00:09:48,150 --> 00:09:48,160
+if you did it if you did it this note
+ 
+
+473
+00:09:48,160 --> 00:09:50,790
+if you did it if you did it this note
+yeah it takes lock and time to pop up to
+
+474
+00:09:50,790 --> 00:09:50,800
+yeah it takes lock and time to pop up to
+ 
+
+475
+00:09:50,800 --> 00:09:52,949
+yeah it takes lock and time to pop up to
+repeal this the tree right
+
+476
+00:09:52,949 --> 00:09:52,959
+repeal this the tree right
+ 
+
+477
+00:09:52,959 --> 00:09:55,990
+repeal this the tree right
+yeah the heat the root of the heat is
+
+478
+00:09:55,990 --> 00:09:56,000
+yeah the heat the root of the heat is
+ 
+
+479
+00:09:56,000 --> 00:09:58,310
+yeah the heat the root of the heat is
+minimal the smallest let's call the mean
+
+480
+00:09:58,310 --> 00:09:58,320
+minimal the smallest let's call the mean
+ 
+
+481
+00:09:58,320 --> 00:09:59,430
+minimal the smallest let's call the mean
+hip now if
+
+482
+00:09:59,430 --> 00:09:59,440
+hip now if
+ 
+
+483
+00:09:59,440 --> 00:10:02,389
+hip now if
+the root of the spinal heat is the
+
+484
+00:10:02,389 --> 00:10:02,399
+the root of the spinal heat is the
+ 
+
+485
+00:10:02,399 --> 00:10:03,350
+the root of the spinal heat is the
+maximum
+
+486
+00:10:03,350 --> 00:10:03,360
+maximum
+ 
+
+487
+00:10:03,360 --> 00:10:06,389
+maximum
+it's called what max head
+
+488
+00:10:06,389 --> 00:10:06,399
+it's called what max head
+ 
+
+489
+00:10:06,399 --> 00:10:17,430
+it's called what max head
+got it okay let's do the coding
+
+490
+00:10:17,430 --> 00:10:17,440
+
+ 
+
+491
+00:10:17,440 --> 00:10:18,220
+
+keep time
+
+492
+00:10:18,220 --> 00:10:18,230
+keep time
+ 
+
+493
+00:10:18,230 --> 00:10:22,069
+keep time
+[Music]
+
+494
+00:10:22,069 --> 00:10:22,079
+
+ 
+
+495
+00:10:22,079 --> 00:10:25,930
+
+okay wait wait wait wait
+
+496
+00:10:25,930 --> 00:10:25,940
+
+ 
+
+497
+00:10:25,940 --> 00:10:30,829
+
+[Music]
+
+498
+00:10:30,829 --> 00:10:30,839
+[Music]
+ 
+
+499
+00:10:30,839 --> 00:10:35,760
+[Music]
+okay
+
+500
+00:10:35,760 --> 00:10:35,770
+
+ 
+
+501
+00:10:35,770 --> 00:10:40,050
+
+[Applause]
+
+502
+00:10:40,050 --> 00:10:40,060
+
+ 
+
+503
+00:10:40,060 --> 00:10:41,590
+
+[Music]
+
+504
+00:10:41,590 --> 00:10:41,600
+[Music]
+ 
+
+505
+00:10:41,600 --> 00:10:46,150
+[Music]
+okay so this is my channel
+
+506
+00:10:46,150 --> 00:10:46,160
+okay so this is my channel
+ 
+
+507
+00:10:46,160 --> 00:10:49,030
+okay so this is my channel
+okay so good did you do it can you not
+
+508
+00:10:49,030 --> 00:10:49,040
+okay so good did you do it can you not
+ 
+
+509
+00:10:49,040 --> 00:10:50,230
+okay so good did you do it can you not
+stay there because it's
+
+510
+00:10:50,230 --> 00:10:50,240
+stay there because it's
+ 
+
+511
+00:10:50,240 --> 00:10:52,310
+stay there because it's
+uh you're broking the views okay so
+
+512
+00:10:52,310 --> 00:10:52,320
+uh you're broking the views okay so
+ 
+
+513
+00:10:52,320 --> 00:10:53,269
+uh you're broking the views okay so
+let's let's
+
+514
+00:10:53,269 --> 00:10:53,279
+let's let's
+ 
+
+515
+00:10:53,279 --> 00:10:55,590
+let's let's
+let's do this quickly so we i am let's
+
+516
+00:10:55,590 --> 00:10:55,600
+let's do this quickly so we i am let's
+ 
+
+517
+00:10:55,600 --> 00:10:58,790
+let's do this quickly so we i am let's
+create a caller sticks for pi right
+
+518
+00:10:58,790 --> 00:10:58,800
+create a caller sticks for pi right
+ 
+
+519
+00:10:58,800 --> 00:11:01,430
+create a caller sticks for pi right
+okay so now we have a stick two two four
+
+520
+00:11:01,430 --> 00:11:01,440
+okay so now we have a stick two two four
+ 
+
+521
+00:11:01,440 --> 00:11:03,110
+okay so now we have a stick two two four
+three remember
+
+522
+00:11:03,110 --> 00:11:03,120
+three remember
+ 
+
+523
+00:11:03,120 --> 00:11:06,310
+three remember
+two four three yeah so the answer will
+
+524
+00:11:06,310 --> 00:11:06,320
+two four three yeah so the answer will
+ 
+
+525
+00:11:06,320 --> 00:11:06,949
+two four three yeah so the answer will
+be
+
+526
+00:11:06,949 --> 00:11:06,959
+be
+ 
+
+527
+00:11:06,959 --> 00:11:09,110
+be
+fourteen remember we just show you is
+
+528
+00:11:09,110 --> 00:11:09,120
+fourteen remember we just show you is
+ 
+
+529
+00:11:09,120 --> 00:11:10,310
+fourteen remember we just show you is
+fourteen right
+
+530
+00:11:10,310 --> 00:11:10,320
+fourteen right
+ 
+
+531
+00:11:10,320 --> 00:11:14,470
+fourteen right
+yes okay so
+
+532
+00:11:14,470 --> 00:11:14,480
+
+ 
+
+533
+00:11:14,480 --> 00:11:17,990
+
+9th of january is it korea it is
+
+534
+00:11:17,990 --> 00:11:18,000
+9th of january is it korea it is
+ 
+
+535
+00:11:18,000 --> 00:11:21,030
+9th of january is it korea it is
+clear yeah it's korea let me see
+
+536
+00:11:21,030 --> 00:11:21,040
+clear yeah it's korea let me see
+ 
+
+537
+00:11:21,040 --> 00:11:23,590
+clear yeah it's korea let me see
+it's clear yeah it's clear let me see
+
+538
+00:11:23,590 --> 00:11:23,600
+it's clear yeah it's clear let me see
+ 
+
+539
+00:11:23,600 --> 00:11:24,550
+it's clear yeah it's clear let me see
+okay so now
+
+540
+00:11:24,550 --> 00:11:24,560
+okay so now
+ 
+
+541
+00:11:24,560 --> 00:11:29,110
+okay so now
+defined yeah in part let's import
+
+542
+00:11:29,110 --> 00:11:29,120
+defined yeah in part let's import
+ 
+
+543
+00:11:29,120 --> 00:11:33,030
+defined yeah in part let's import
+hip hip q as hq
+
+544
+00:11:33,030 --> 00:11:33,040
+hip hip q as hq
+ 
+
+545
+00:11:33,040 --> 00:11:37,590
+hip hip q as hq
+define mean cost mean cost as
+
+546
+00:11:37,590 --> 00:11:37,600
+define mean cost mean cost as
+ 
+
+547
+00:11:37,600 --> 00:11:40,550
+define mean cost mean cost as
+and we cross equal zero right like we
+
+548
+00:11:40,550 --> 00:11:40,560
+and we cross equal zero right like we
+ 
+
+549
+00:11:40,560 --> 00:11:42,230
+and we cross equal zero right like we
+need to hippie file the
+
+550
+00:11:42,230 --> 00:11:42,240
+need to hippie file the
+ 
+
+551
+00:11:42,240 --> 00:11:46,870
+need to hippie file the
+hq dot 55 make it of uh uh
+
+552
+00:11:46,870 --> 00:11:46,880
+
+ 
+
+553
+00:11:46,880 --> 00:11:49,990
+
+and then when the less more than
+
+554
+00:11:49,990 --> 00:11:50,000
+and then when the less more than
+ 
+
+555
+00:11:50,000 --> 00:11:53,269
+and then when the less more than
+one one hit right one stake
+
+556
+00:11:53,269 --> 00:11:53,279
+one one hit right one stake
+ 
+
+557
+00:11:53,279 --> 00:11:57,509
+one one hit right one stake
+what do we do a b we pop it hq though
+
+558
+00:11:57,509 --> 00:11:57,519
+what do we do a b we pop it hq though
+ 
+
+559
+00:11:57,519 --> 00:12:00,790
+what do we do a b we pop it hq though
+execute the hip one
+
+560
+00:12:00,790 --> 00:12:00,800
+execute the hip one
+ 
+
+561
+00:12:00,800 --> 00:12:03,910
+execute the hip one
+pop right and another one right
+
+562
+00:12:03,910 --> 00:12:03,920
+pop right and another one right
+ 
+
+563
+00:12:03,920 --> 00:12:08,150
+pop right and another one right
+hq the hip pop and then cross the one
+
+564
+00:12:08,150 --> 00:12:08,160
+hq the hip pop and then cross the one
+ 
+
+565
+00:12:08,160 --> 00:12:16,230
+hq the hip pop and then cross the one
+cost one
+
+566
+00:12:16,230 --> 00:12:16,240
+
+ 
+
+567
+00:12:16,240 --> 00:12:20,150
+
+and then we need to put h q dot hit push
+
+568
+00:12:20,150 --> 00:12:20,160
+and then we need to put h q dot hit push
+ 
+
+569
+00:12:20,160 --> 00:12:23,509
+and then we need to put h q dot hit push
+as what x
+
+570
+00:12:23,509 --> 00:12:23,519
+as what x
+ 
+
+571
+00:12:23,519 --> 00:12:26,710
+as what x
+comma a and b okay and then
+
+572
+00:12:26,710 --> 00:12:26,720
+comma a and b okay and then
+ 
+
+573
+00:12:26,720 --> 00:12:30,389
+comma a and b okay and then
+return ghost okay let's let's do this
+
+574
+00:12:30,389 --> 00:12:30,399
+return ghost okay let's let's do this
+ 
+
+575
+00:12:30,399 --> 00:12:31,590
+return ghost okay let's let's do this
+print
+
+576
+00:12:31,590 --> 00:12:31,600
+print
+ 
+
+577
+00:12:31,600 --> 00:12:52,150
+print
+queen main cost as
+
+578
+00:12:52,150 --> 00:12:52,160
+
+ 
+
+579
+00:12:52,160 --> 00:12:54,150
+
+to display the file content okay so if
+
+580
+00:12:54,150 --> 00:12:54,160
+to display the file content okay so if
+ 
+
+581
+00:12:54,160 --> 00:12:55,750
+to display the file content okay so if
+you look this
+
+582
+00:12:55,750 --> 00:12:55,760
+you look this
+ 
+
+583
+00:12:55,760 --> 00:12:59,030
+you look this
+thing vian is to edit it so this is the
+
+584
+00:12:59,030 --> 00:12:59,040
+thing vian is to edit it so this is the
+ 
+
+585
+00:12:59,040 --> 00:13:14,069
+thing vian is to edit it so this is the
+program about today the complexities
+
+586
+00:13:14,069 --> 00:13:14,079
+
+ 
+
+587
+00:13:14,079 --> 00:13:16,310
+
+yeah n is the number of the stick in the
+
+588
+00:13:16,310 --> 00:13:16,320
+yeah n is the number of the stick in the
+ 
+
+589
+00:13:16,320 --> 00:13:17,509
+yeah n is the number of the stick in the
+original way
+
+590
+00:13:17,509 --> 00:13:17,519
+original way
+ 
+
+591
+00:13:17,519 --> 00:13:21,269
+original way
+right so how about you let's try this
+
+592
+00:13:21,269 --> 00:13:21,279
+right so how about you let's try this
+ 
+
+593
+00:13:21,279 --> 00:13:27,990
+right so how about you let's try this
+let's try maybe just put some numbers
+
+594
+00:13:27,990 --> 00:13:28,000
+
+ 
+
+595
+00:13:28,000 --> 00:13:31,110
+
+i don't know but this is yeah yeah
+
+596
+00:13:31,110 --> 00:13:31,120
+i don't know but this is yeah yeah
+ 
+
+597
+00:13:31,120 --> 00:13:34,870
+i don't know but this is yeah yeah
+because it's take a look
+
+598
+00:13:34,870 --> 00:13:34,880
+because it's take a look
+ 
+
+599
+00:13:34,880 --> 00:13:36,790
+because it's take a look
+basically put it pick the two and three
+
+600
+00:13:36,790 --> 00:13:36,800
+basically put it pick the two and three
+ 
+
+601
+00:13:36,800 --> 00:13:39,110
+basically put it pick the two and three
+first but let's do a one more small one
+
+602
+00:13:39,110 --> 00:13:39,120
+first but let's do a one more small one
+ 
+
+603
+00:13:39,120 --> 00:13:42,790
+first but let's do a one more small one
+let's like uh uh one two
+
+604
+00:13:42,790 --> 00:13:42,800
+let's like uh uh one two
+ 
+
+605
+00:13:42,800 --> 00:13:46,550
+let's like uh uh one two
+three four okay yes so what's the answer
+
+606
+00:13:46,550 --> 00:13:46,560
+three four okay yes so what's the answer
+ 
+
+607
+00:13:46,560 --> 00:13:48,949
+three four okay yes so what's the answer
+it's 19. why is that
+
+608
+00:13:48,949 --> 00:13:48,959
+it's 19. why is that
+ 
+
+609
+00:13:48,959 --> 00:13:51,590
+it's 19. why is that
+one and two that will be three because
+
+610
+00:13:51,590 --> 00:13:51,600
+one and two that will be three because
+ 
+
+611
+00:13:51,600 --> 00:13:52,949
+one and two that will be three because
+will be three
+
+612
+00:13:52,949 --> 00:13:52,959
+will be three
+ 
+
+613
+00:13:52,959 --> 00:13:56,150
+will be three
+three and three cost will be
+
+614
+00:13:56,150 --> 00:13:56,160
+three and three cost will be
+ 
+
+615
+00:13:56,160 --> 00:14:00,389
+three and three cost will be
+six yeah six plus three yeah and then
+
+616
+00:14:00,389 --> 00:14:00,399
+six yeah six plus three yeah and then
+ 
+
+617
+00:14:00,399 --> 00:14:02,870
+six yeah six plus three yeah and then
+six plus four will be ten we're not
+
+618
+00:14:02,870 --> 00:14:02,880
+six plus four will be ten we're not
+ 
+
+619
+00:14:02,880 --> 00:14:03,430
+six plus four will be ten we're not
+gonna be
+
+620
+00:14:03,430 --> 00:14:03,440
+gonna be
+ 
+
+621
+00:14:03,440 --> 00:14:05,829
+gonna be
+ten plus nine will be nineteen we're
+
+622
+00:14:05,829 --> 00:14:05,839
+ten plus nine will be nineteen we're
+ 
+
+623
+00:14:05,839 --> 00:14:06,710
+ten plus nine will be nineteen we're
+done okay
+
+624
+00:14:06,710 --> 00:14:06,720
+done okay
+ 
+
+625
+00:14:06,720 --> 00:14:09,910
+done okay
+good job today good job today good job
+
+626
+00:14:09,910 --> 00:14:09,920
+good job today good job today good job
+ 
+
+627
+00:14:09,920 --> 00:14:11,269
+good job today good job today good job
+today
+
+628
+00:14:11,269 --> 00:14:11,279
+today
+ 
+
+629
+00:14:11,279 --> 00:14:14,949
+today
+bye
+
+630
+00:14:14,949 --> 00:14:14,959
+
+ 
+
+631
+00:14:14,959 --> 00:14:17,350
+
+say if you bye you shake i can't see it
+
+632
+00:14:17,350 --> 00:14:17,360
+say if you bye you shake i can't see it
+ 
+
+633
+00:14:17,360 --> 00:14:19,350
+say if you bye you shake i can't see it
+okay
+
+634
+00:14:19,350 --> 00:14:19,360
+okay
+ 
+
+635
+00:14:19,360 --> 00:14:26,240
+okay
+okay say bye
+
