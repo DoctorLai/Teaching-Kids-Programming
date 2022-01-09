@@ -1,0 +1,2205 @@
+1
+00:00:17,039 --> 00:00:18,950
+
+so today we will talk about how to count
+
+2
+00:00:18,950 --> 00:00:18,960
+so today we will talk about how to count
+ 
+
+3
+00:00:18,960 --> 00:00:21,910
+so today we will talk about how to count
+the number of nodes in a binary stream
+
+4
+00:00:21,910 --> 00:00:21,920
+the number of nodes in a binary stream
+ 
+
+5
+00:00:21,920 --> 00:00:26,150
+the number of nodes in a binary stream
+remember what's the binary tree
+
+6
+00:00:26,150 --> 00:00:26,160
+
+ 
+
+7
+00:00:26,160 --> 00:00:30,390
+
+is a tree basically the left one
+
+8
+00:00:30,390 --> 00:00:30,400
+is a tree basically the left one
+ 
+
+9
+00:00:30,400 --> 00:00:33,430
+is a tree basically the left one
+should be bigger than two no that one is
+
+10
+00:00:33,430 --> 00:00:33,440
+should be bigger than two no that one is
+ 
+
+11
+00:00:33,440 --> 00:00:36,470
+should be bigger than two no that one is
+should be smaller than the white one
+
+12
+00:00:36,470 --> 00:00:36,480
+should be smaller than the white one
+ 
+
+13
+00:00:36,480 --> 00:00:38,389
+should be smaller than the white one
+now let's finally search what i'm
+
+14
+00:00:38,389 --> 00:00:38,399
+now let's finally search what i'm
+ 
+
+15
+00:00:38,399 --> 00:00:40,069
+now let's finally search what i'm
+talking about is talking about is the
+
+16
+00:00:40,069 --> 00:00:40,079
+talking about is talking about is the
+ 
+
+17
+00:00:40,079 --> 00:00:41,670
+talking about is talking about is the
+binary tree
+
+18
+00:00:41,670 --> 00:00:41,680
+binary tree
+ 
+
+19
+00:00:41,680 --> 00:00:43,590
+binary tree
+okay so just just anybody on the street
+
+20
+00:00:43,590 --> 00:00:43,600
+okay so just just anybody on the street
+ 
+
+21
+00:00:43,600 --> 00:00:44,709
+okay so just just anybody on the street
+okay so
+
+22
+00:00:44,709 --> 00:00:44,719
+okay so
+ 
+
+23
+00:00:44,719 --> 00:00:48,389
+okay so
+how many notes are there five five yeah
+
+24
+00:00:48,389 --> 00:00:48,399
+how many notes are there five five yeah
+ 
+
+25
+00:00:48,399 --> 00:00:51,350
+how many notes are there five five yeah
+yeah so you as human we can see there
+
+26
+00:00:51,350 --> 00:00:51,360
+yeah so you as human we can see there
+ 
+
+27
+00:00:51,360 --> 00:00:53,029
+yeah so you as human we can see there
+are five yeah yeah but
+
+28
+00:00:53,029 --> 00:00:53,039
+are five yeah yeah but
+ 
+
+29
+00:00:53,039 --> 00:00:55,110
+are five yeah yeah but
+how about a lot and then it's not easy
+
+30
+00:00:55,110 --> 00:00:55,120
+how about a lot and then it's not easy
+ 
+
+31
+00:00:55,120 --> 00:00:56,150
+how about a lot and then it's not easy
+to count
+
+32
+00:00:56,150 --> 00:00:56,160
+to count
+ 
+
+33
+00:00:56,160 --> 00:00:57,990
+to count
+at the beginning and we want to let the
+
+34
+00:00:57,990 --> 00:00:58,000
+at the beginning and we want to let the
+ 
+
+35
+00:00:58,000 --> 00:00:59,590
+at the beginning and we want to let the
+computer to count okay
+
+36
+00:00:59,590 --> 00:00:59,600
+computer to count okay
+ 
+
+37
+00:00:59,600 --> 00:01:03,830
+computer to count okay
+so today we're going to solve this okay
+
+38
+00:01:03,830 --> 00:01:03,840
+
+ 
+
+39
+00:01:03,840 --> 00:01:09,270
+
+okay so let's do this right right
+
+40
+00:01:09,270 --> 00:01:09,280
+
+ 
+
+41
+00:01:09,280 --> 00:01:12,469
+
+so we have the winner so let's look at
+
+42
+00:01:12,469 --> 00:01:12,479
+so we have the winner so let's look at
+ 
+
+43
+00:01:12,479 --> 00:01:15,270
+so we have the winner so let's look at
+this note here so let's say if i have
+
+44
+00:01:15,270 --> 00:01:15,280
+this note here so let's say if i have
+ 
+
+45
+00:01:15,280 --> 00:01:16,550
+this note here so let's say if i have
+many many
+
+46
+00:01:16,550 --> 00:01:16,560
+many many
+ 
+
+47
+00:01:16,560 --> 00:01:20,950
+many many
+notes okay it's too hard to count okay
+
+48
+00:01:20,950 --> 00:01:20,960
+notes okay it's too hard to count okay
+ 
+
+49
+00:01:20,960 --> 00:01:24,469
+notes okay it's too hard to count okay
+like that okay so let's explain
+
+50
+00:01:24,469 --> 00:01:24,479
+like that okay so let's explain
+ 
+
+51
+00:01:24,479 --> 00:01:26,230
+like that okay so let's explain
+i know i know you're not counting okay
+
+52
+00:01:26,230 --> 00:01:26,240
+i know i know you're not counting okay
+ 
+
+53
+00:01:26,240 --> 00:01:29,350
+i know i know you're not counting okay
+so how much how do we count it
+
+54
+00:01:29,350 --> 00:01:29,360
+so how much how do we count it
+ 
+
+55
+00:01:29,360 --> 00:01:32,950
+so how much how do we count it
+how do you count ten how do you count it
+
+56
+00:01:32,950 --> 00:01:32,960
+how do you count ten how do you count it
+ 
+
+57
+00:01:32,960 --> 00:01:36,230
+how do you count ten how do you count it
+three three four you become
+
+58
+00:01:36,230 --> 00:01:36,240
+three three four you become
+ 
+
+59
+00:01:36,240 --> 00:01:38,230
+three three four you become
+three three four okay and how do you
+
+60
+00:01:38,230 --> 00:01:38,240
+three three four okay and how do you
+ 
+
+61
+00:01:38,240 --> 00:01:41,910
+three three four okay and how do you
+count it orion
+
+62
+00:01:41,910 --> 00:01:41,920
+
+ 
+
+63
+00:01:41,920 --> 00:01:46,069
+
+three three four how do i
+
+64
+00:01:46,069 --> 00:01:46,079
+three three four how do i
+ 
+
+65
+00:01:46,079 --> 00:01:49,190
+three three four how do i
+know that is three dollars one
+
+66
+00:01:49,190 --> 00:01:49,200
+know that is three dollars one
+ 
+
+67
+00:01:49,200 --> 00:01:51,830
+know that is three dollars one
+two three so there are two ways of
+
+68
+00:01:51,830 --> 00:01:51,840
+two three so there are two ways of
+ 
+
+69
+00:01:51,840 --> 00:01:58,789
+two three so there are two ways of
+cutting yes seven eight
+
+70
+00:01:58,789 --> 00:01:58,799
+
+ 
+
+71
+00:01:58,799 --> 00:02:01,990
+
+so you can cut it this way okay so you
+
+72
+00:02:01,990 --> 00:02:02,000
+so you can cut it this way okay so you
+ 
+
+73
+00:02:02,000 --> 00:02:04,389
+so you can cut it this way okay so you
+first of all you can count
+
+74
+00:02:04,389 --> 00:02:04,399
+first of all you can count
+ 
+
+75
+00:02:04,399 --> 00:02:08,229
+first of all you can count
+you can i'm the ruler here yeah okay
+
+76
+00:02:08,229 --> 00:02:08,239
+you can i'm the ruler here yeah okay
+ 
+
+77
+00:02:08,239 --> 00:02:10,469
+you can i'm the ruler here yeah okay
+so first of all i know there's one one
+
+78
+00:02:10,469 --> 00:02:10,479
+so first of all i know there's one one
+ 
+
+79
+00:02:10,479 --> 00:02:11,350
+so first of all i know there's one one
+note yeah
+
+80
+00:02:11,350 --> 00:02:11,360
+note yeah
+ 
+
+81
+00:02:11,360 --> 00:02:14,949
+note yeah
+so it is root one plus the left three
+
+82
+00:02:14,949 --> 00:02:14,959
+so it is root one plus the left three
+ 
+
+83
+00:02:14,959 --> 00:02:17,990
+so it is root one plus the left three
+okay the note of the left tree
+
+84
+00:02:17,990 --> 00:02:18,000
+okay the note of the left tree
+ 
+
+85
+00:02:18,000 --> 00:02:20,229
+okay the note of the left tree
+yeah and plus the note of the right tree
+
+86
+00:02:20,229 --> 00:02:20,239
+yeah and plus the note of the right tree
+ 
+
+87
+00:02:20,239 --> 00:02:22,869
+yeah and plus the note of the right tree
+okay five yeah
+
+88
+00:02:22,869 --> 00:02:22,879
+okay five yeah
+ 
+
+89
+00:02:22,879 --> 00:02:26,309
+okay five yeah
+all right so in this case the left tree
+
+90
+00:02:26,309 --> 00:02:26,319
+all right so in this case the left tree
+ 
+
+91
+00:02:26,319 --> 00:02:28,790
+all right so in this case the left tree
+and again it's in one note plus the left
+
+92
+00:02:28,790 --> 00:02:28,800
+and again it's in one note plus the left
+ 
+
+93
+00:02:28,800 --> 00:02:31,110
+and again it's in one note plus the left
+and the right don't get it
+
+94
+00:02:31,110 --> 00:02:31,120
+and the right don't get it
+ 
+
+95
+00:02:31,120 --> 00:02:34,150
+and the right don't get it
+yeah it's gonna take away no but the
+
+96
+00:02:34,150 --> 00:02:34,160
+yeah it's gonna take away no but the
+ 
+
+97
+00:02:34,160 --> 00:02:36,390
+yeah it's gonna take away no but the
+computer is very fast
+
+98
+00:02:36,390 --> 00:02:36,400
+computer is very fast
+ 
+
+99
+00:02:36,400 --> 00:02:39,010
+computer is very fast
+computer is very fast yeah the other way
+
+100
+00:02:39,010 --> 00:02:39,020
+computer is very fast yeah the other way
+ 
+
+101
+00:02:39,020 --> 00:02:41,110
+computer is very fast yeah the other way
+[Music]
+
+102
+00:02:41,110 --> 00:02:41,120
+[Music]
+ 
+
+103
+00:02:41,120 --> 00:02:43,030
+[Music]
+so this is called the default search
+
+104
+00:02:43,030 --> 00:02:43,040
+so this is called the default search
+ 
+
+105
+00:02:43,040 --> 00:02:44,949
+so this is called the default search
+yeah that first you remember we talked
+
+106
+00:02:44,949 --> 00:02:44,959
+yeah that first you remember we talked
+ 
+
+107
+00:02:44,959 --> 00:02:46,309
+yeah that first you remember we talked
+about this both uh
+
+108
+00:02:46,309 --> 00:02:46,319
+about this both uh
+ 
+
+109
+00:02:46,319 --> 00:02:49,509
+about this both uh
+the different traversal agreement we
+
+110
+00:02:49,509 --> 00:02:49,519
+the different traversal agreement we
+ 
+
+111
+00:02:49,519 --> 00:02:51,750
+the different traversal agreement we
+remember preorder post order immediate
+
+112
+00:02:51,750 --> 00:02:51,760
+remember preorder post order immediate
+ 
+
+113
+00:02:51,760 --> 00:02:52,869
+remember preorder post order immediate
+in order yeah
+
+114
+00:02:52,869 --> 00:02:52,879
+in order yeah
+ 
+
+115
+00:02:52,879 --> 00:02:54,869
+in order yeah
+yeah the difference search so so it
+
+116
+00:02:54,869 --> 00:02:54,879
+yeah the difference search so so it
+ 
+
+117
+00:02:54,879 --> 00:02:57,110
+yeah the difference search so so it
+means that when you cut it because
+
+118
+00:02:57,110 --> 00:02:57,120
+means that when you cut it because
+ 
+
+119
+00:02:57,120 --> 00:03:00,309
+means that when you cut it because
+yeah we could call the left turn the
+
+120
+00:03:00,309 --> 00:03:00,319
+yeah we could call the left turn the
+ 
+
+121
+00:03:00,319 --> 00:03:01,350
+yeah we could call the left turn the
+right and then we
+
+122
+00:03:01,350 --> 00:03:01,360
+right and then we
+ 
+
+123
+00:03:01,360 --> 00:03:03,509
+right and then we
+we add one meter okay yeah and then
+
+124
+00:03:03,509 --> 00:03:03,519
+we add one meter okay yeah and then
+ 
+
+125
+00:03:03,519 --> 00:03:05,030
+we add one meter okay yeah and then
+press for 30 as you said but first
+
+126
+00:03:05,030 --> 00:03:05,040
+press for 30 as you said but first
+ 
+
+127
+00:03:05,040 --> 00:03:06,869
+press for 30 as you said but first
+search is level by level okay so
+
+128
+00:03:06,869 --> 00:03:06,879
+search is level by level okay so
+ 
+
+129
+00:03:06,879 --> 00:03:09,430
+search is level by level okay so
+how many notes it means number one yeah
+
+130
+00:03:09,430 --> 00:03:09,440
+how many notes it means number one yeah
+ 
+
+131
+00:03:09,440 --> 00:03:10,710
+how many notes it means number one yeah
+and then there are two
+
+132
+00:03:10,710 --> 00:03:10,720
+and then there are two
+ 
+
+133
+00:03:10,720 --> 00:03:13,910
+and then there are two
+and then two and then three one
+
+134
+00:03:13,910 --> 00:03:13,920
+and then two and then three one
+ 
+
+135
+00:03:13,920 --> 00:03:15,589
+and then two and then three one
+one okay so that's another way of
+
+136
+00:03:15,589 --> 00:03:15,599
+one okay so that's another way of
+ 
+
+137
+00:03:15,599 --> 00:03:21,020
+one okay so that's another way of
+counting it okay so let's do this first
+
+138
+00:03:21,020 --> 00:03:21,030
+
+ 
+
+139
+00:03:21,030 --> 00:03:22,550
+
+[Music]
+
+140
+00:03:22,550 --> 00:03:22,560
+[Music]
+ 
+
+141
+00:03:22,560 --> 00:03:26,229
+[Music]
+thing okay
+
+142
+00:03:26,229 --> 00:03:26,239
+thing okay
+ 
+
+143
+00:03:26,239 --> 00:03:30,830
+thing okay
+define count let's do it
+
+144
+00:03:30,830 --> 00:03:30,840
+define count let's do it
+ 
+
+145
+00:03:30,840 --> 00:03:37,300
+define count let's do it
+okay
+
+146
+00:03:37,300 --> 00:03:37,310
+
+ 
+
+147
+00:03:37,310 --> 00:03:44,630
+
+[Music]
+
+148
+00:03:44,630 --> 00:03:44,640
+
+ 
+
+149
+00:03:44,640 --> 00:03:46,280
+
+then what do we return
+
+150
+00:03:46,280 --> 00:03:46,290
+then what do we return
+ 
+
+151
+00:03:46,290 --> 00:03:51,990
+then what do we return
+[Music]
+
+152
+00:03:51,990 --> 00:03:52,000
+
+ 
+
+153
+00:03:52,000 --> 00:03:54,869
+
+yellow yes square down yes okay so if
+
+154
+00:03:54,869 --> 00:03:54,879
+yellow yes square down yes okay so if
+ 
+
+155
+00:03:54,879 --> 00:03:55,509
+yellow yes square down yes okay so if
+it's nothing
+
+156
+00:03:55,509 --> 00:03:55,519
+it's nothing
+ 
+
+157
+00:03:55,519 --> 00:03:57,670
+it's nothing
+if nothing obviously if it's nothing
+
+158
+00:03:57,670 --> 00:03:57,680
+if nothing obviously if it's nothing
+ 
+
+159
+00:03:57,680 --> 00:04:07,990
+if nothing obviously if it's nothing
+then yeah
+
+160
+00:04:07,990 --> 00:04:08,000
+
+ 
+
+161
+00:04:08,000 --> 00:04:10,229
+
+we have one note yeah yeah i know what
+
+162
+00:04:10,229 --> 00:04:10,239
+we have one note yeah yeah i know what
+ 
+
+163
+00:04:10,239 --> 00:04:11,030
+we have one note yeah yeah i know what
+we do
+
+164
+00:04:11,030 --> 00:04:11,040
+we do
+ 
+
+165
+00:04:11,040 --> 00:04:16,350
+we do
+count
+
+166
+00:04:16,350 --> 00:04:16,360
+
+ 
+
+167
+00:04:16,360 --> 00:04:26,230
+
+[Music]
+
+168
+00:04:26,230 --> 00:04:26,240
+
+ 
+
+169
+00:04:26,240 --> 00:04:33,909
+
+what we don't write yes
+
+170
+00:04:33,909 --> 00:04:33,919
+
+ 
+
+171
+00:04:33,919 --> 00:04:36,230
+
+enough yeah let's call that first
+
+172
+00:04:36,230 --> 00:04:36,240
+enough yeah let's call that first
+ 
+
+173
+00:04:36,240 --> 00:04:37,590
+enough yeah let's call that first
+recursion therefore
+
+174
+00:04:37,590 --> 00:04:37,600
+recursion therefore
+ 
+
+175
+00:04:37,600 --> 00:04:40,629
+recursion therefore
+look if we are wait for me
+
+176
+00:04:40,629 --> 00:04:40,639
+look if we are wait for me
+ 
+
+177
+00:04:40,639 --> 00:04:43,189
+look if we are wait for me
+if the load is numb then we return zero
+
+178
+00:04:43,189 --> 00:04:43,199
+if the load is numb then we return zero
+ 
+
+179
+00:04:43,199 --> 00:04:44,070
+if the load is numb then we return zero
+otherwise
+
+180
+00:04:44,070 --> 00:04:44,080
+otherwise
+ 
+
+181
+00:04:44,080 --> 00:04:45,670
+otherwise
+there's one node of current and then we
+
+182
+00:04:45,670 --> 00:04:45,680
+there's one node of current and then we
+ 
+
+183
+00:04:45,680 --> 00:04:47,510
+there's one node of current and then we
+don't know how many nodes in the left
+
+184
+00:04:47,510 --> 00:04:47,520
+don't know how many nodes in the left
+ 
+
+185
+00:04:47,520 --> 00:04:48,230
+don't know how many nodes in the left
+right
+
+186
+00:04:48,230 --> 00:04:48,240
+right
+ 
+
+187
+00:04:48,240 --> 00:04:50,230
+right
+let's call it recursively so let's call
+
+188
+00:04:50,230 --> 00:04:50,240
+let's call it recursively so let's call
+ 
+
+189
+00:04:50,240 --> 00:04:51,670
+let's call it recursively so let's call
+this function
+
+190
+00:04:51,670 --> 00:04:51,680
+this function
+ 
+
+191
+00:04:51,680 --> 00:04:54,870
+this function
+to call it again then this will solve
+
+192
+00:04:54,870 --> 00:04:54,880
+to call it again then this will solve
+ 
+
+193
+00:04:54,880 --> 00:04:56,710
+to call it again then this will solve
+the smaller problem the left three
+
+194
+00:04:56,710 --> 00:04:56,720
+the smaller problem the left three
+ 
+
+195
+00:04:56,720 --> 00:04:58,950
+the smaller problem the left three
+and then like that right three and then
+
+196
+00:04:58,950 --> 00:04:58,960
+and then like that right three and then
+ 
+
+197
+00:04:58,960 --> 00:05:00,230
+and then like that right three and then
+yeah if last three
+
+198
+00:05:00,230 --> 00:05:00,240
+yeah if last three
+ 
+
+199
+00:05:00,240 --> 00:05:02,710
+yeah if last three
+three left uh the three notes in the
+
+200
+00:05:02,710 --> 00:05:02,720
+three left uh the three notes in the
+ 
+
+201
+00:05:02,720 --> 00:05:04,230
+three left uh the three notes in the
+left three and four notes in the right
+
+202
+00:05:04,230 --> 00:05:04,240
+left three and four notes in the right
+ 
+
+203
+00:05:04,240 --> 00:05:06,230
+left three and four notes in the right
+tree and then total would be eight
+
+204
+00:05:06,230 --> 00:05:06,240
+tree and then total would be eight
+ 
+
+205
+00:05:06,240 --> 00:05:07,749
+tree and then total would be eight
+because there's one more yeah
+
+206
+00:05:07,749 --> 00:05:07,759
+because there's one more yeah
+ 
+
+207
+00:05:07,759 --> 00:05:09,670
+because there's one more yeah
+three four and one yeah you see this is
+
+208
+00:05:09,670 --> 00:05:09,680
+three four and one yeah you see this is
+ 
+
+209
+00:05:09,680 --> 00:05:11,350
+three four and one yeah you see this is
+very clear yeah
+
+210
+00:05:11,350 --> 00:05:11,360
+very clear yeah
+ 
+
+211
+00:05:11,360 --> 00:05:14,629
+very clear yeah
+okay yeah
+
+212
+00:05:14,629 --> 00:05:14,639
+okay yeah
+ 
+
+213
+00:05:14,639 --> 00:05:18,150
+okay yeah
+okay now let's move to the uh second one
+
+214
+00:05:18,150 --> 00:05:18,160
+okay now let's move to the uh second one
+ 
+
+215
+00:05:18,160 --> 00:05:19,909
+okay now let's move to the uh second one
+which is called the breakfast search
+
+216
+00:05:19,909 --> 00:05:19,919
+which is called the breakfast search
+ 
+
+217
+00:05:19,919 --> 00:05:34,629
+which is called the breakfast search
+break first okay okay you're
+
+218
+00:05:34,629 --> 00:05:34,639
+
+ 
+
+219
+00:05:34,639 --> 00:05:36,629
+
+okay so first of all we also need this
+
+220
+00:05:36,629 --> 00:05:36,639
+okay so first of all we also need this
+ 
+
+221
+00:05:36,639 --> 00:05:37,830
+okay so first of all we also need this
+yeah we also need these
+
+222
+00:05:37,830 --> 00:05:37,840
+yeah we also need these
+ 
+
+223
+00:05:37,840 --> 00:05:39,909
+yeah we also need these
+yeah if it's nothing okay i'm not going
+
+224
+00:05:39,909 --> 00:05:39,919
+yeah if it's nothing okay i'm not going
+ 
+
+225
+00:05:39,919 --> 00:05:41,830
+yeah if it's nothing okay i'm not going
+to copy it okay if you lose it's nothing
+
+226
+00:05:41,830 --> 00:05:41,840
+to copy it okay if you lose it's nothing
+ 
+
+227
+00:05:41,840 --> 00:05:42,629
+to copy it okay if you lose it's nothing
+that will be 10
+
+228
+00:05:42,629 --> 00:05:42,639
+that will be 10
+ 
+
+229
+00:05:42,639 --> 00:05:45,990
+that will be 10
+00 okay yes yes okay then now
+
+230
+00:05:45,990 --> 00:05:46,000
+00 okay yes yes okay then now
+ 
+
+231
+00:05:46,000 --> 00:05:47,670
+00 okay yes yes okay then now
+remember the preferences will use the
+
+232
+00:05:47,670 --> 00:05:47,680
+remember the preferences will use the
+ 
+
+233
+00:05:47,680 --> 00:05:49,590
+remember the preferences will use the
+cube i'm just
+
+234
+00:05:49,590 --> 00:05:49,600
+cube i'm just
+ 
+
+235
+00:05:49,600 --> 00:05:52,870
+cube i'm just
+writing this oh again yeah no no
+
+236
+00:05:52,870 --> 00:05:52,880
+writing this oh again yeah no no
+ 
+
+237
+00:05:52,880 --> 00:05:55,350
+writing this oh again yeah no no
+no no look this is simple and you tell
+
+238
+00:05:55,350 --> 00:05:55,360
+no no look this is simple and you tell
+ 
+
+239
+00:05:55,360 --> 00:05:57,590
+no no look this is simple and you tell
+me you tell me which one is easy which
+
+240
+00:05:57,590 --> 00:05:57,600
+me you tell me which one is easy which
+ 
+
+241
+00:05:57,600 --> 00:05:58,390
+me you tell me which one is easy which
+ones
+
+242
+00:05:58,390 --> 00:05:58,400
+ones
+ 
+
+243
+00:05:58,400 --> 00:06:00,710
+ones
+which one is better okay what's the
+
+244
+00:06:00,710 --> 00:06:00,720
+which one is better okay what's the
+ 
+
+245
+00:06:00,720 --> 00:06:04,950
+which one is better okay what's the
+complexity of this one
+
+246
+00:06:04,950 --> 00:06:04,960
+
+ 
+
+247
+00:06:04,960 --> 00:06:08,070
+
+there are a number of notes in and and
+
+248
+00:06:08,070 --> 00:06:08,080
+there are a number of notes in and and
+ 
+
+249
+00:06:08,080 --> 00:06:08,710
+there are a number of notes in and and
+no
+
+250
+00:06:08,710 --> 00:06:08,720
+no
+ 
+
+251
+00:06:08,720 --> 00:06:11,430
+no
+yes why why is the one because you have
+
+252
+00:06:11,430 --> 00:06:11,440
+yes why why is the one because you have
+ 
+
+253
+00:06:11,440 --> 00:06:12,150
+yes why why is the one because you have
+to check
+
+254
+00:06:12,150 --> 00:06:12,160
+to check
+ 
+
+255
+00:06:12,160 --> 00:06:14,469
+to check
+every note yeah yeah because we have to
+
+256
+00:06:14,469 --> 00:06:14,479
+every note yeah yeah because we have to
+ 
+
+257
+00:06:14,479 --> 00:06:16,230
+every note yeah yeah because we have to
+visit every note to count it yeah
+
+258
+00:06:16,230 --> 00:06:16,240
+visit every note to count it yeah
+ 
+
+259
+00:06:16,240 --> 00:06:19,830
+visit every note to count it yeah
+yeah we cut one yeah very good so look
+
+260
+00:06:19,830 --> 00:06:19,840
+yeah we cut one yeah very good so look
+ 
+
+261
+00:06:19,840 --> 00:06:21,590
+yeah we cut one yeah very good so look
+up account another load
+
+262
+00:06:21,590 --> 00:06:21,600
+up account another load
+ 
+
+263
+00:06:21,600 --> 00:06:25,189
+up account another load
+then we use a queue yeah q first row has
+
+264
+00:06:25,189 --> 00:06:25,199
+then we use a queue yeah q first row has
+ 
+
+265
+00:06:25,199 --> 00:06:25,830
+then we use a queue yeah q first row has
+a load
+
+266
+00:06:25,830 --> 00:06:25,840
+a load
+ 
+
+267
+00:06:25,840 --> 00:06:30,309
+a load
+in the list okay this is our uh
+
+268
+00:06:30,309 --> 00:06:30,319
+in the list okay this is our uh
+ 
+
+269
+00:06:30,319 --> 00:06:35,029
+in the list okay this is our uh
+yeah so now why the length of the q
+
+270
+00:06:35,029 --> 00:06:35,039
+yeah so now why the length of the q
+ 
+
+271
+00:06:35,039 --> 00:06:37,110
+yeah so now why the length of the q
+is bigger than zero when there's some
+
+272
+00:06:37,110 --> 00:06:37,120
+is bigger than zero when there's some
+ 
+
+273
+00:06:37,120 --> 00:06:38,070
+is bigger than zero when there's some
+element in the q
+
+274
+00:06:38,070 --> 00:06:38,080
+element in the q
+ 
+
+275
+00:06:38,080 --> 00:06:41,189
+element in the q
+then i also have a answer answer equals
+
+276
+00:06:41,189 --> 00:06:41,199
+then i also have a answer answer equals
+ 
+
+277
+00:06:41,199 --> 00:06:42,629
+then i also have a answer answer equals
+zero we called it okay
+
+278
+00:06:42,629 --> 00:06:42,639
+zero we called it okay
+ 
+
+279
+00:06:42,639 --> 00:06:45,749
+zero we called it okay
+so now look uh we
+
+280
+00:06:45,749 --> 00:06:45,759
+so now look uh we
+ 
+
+281
+00:06:45,759 --> 00:06:50,150
+so now look uh we
+we need to pop it so p equals
+
+282
+00:06:50,150 --> 00:06:50,160
+we need to pop it so p equals
+ 
+
+283
+00:06:50,160 --> 00:06:54,070
+we need to pop it so p equals
+q dot pot zlo remember this is to remove
+
+284
+00:06:54,070 --> 00:06:54,080
+q dot pot zlo remember this is to remove
+ 
+
+285
+00:06:54,080 --> 00:06:57,350
+q dot pot zlo remember this is to remove
+the element from here yeah yes
+
+286
+00:06:57,350 --> 00:06:57,360
+the element from here yeah yes
+ 
+
+287
+00:06:57,360 --> 00:07:00,710
+the element from here yeah yes
+and then we have remove one now so we
+
+288
+00:07:00,710 --> 00:07:00,720
+and then we have remove one now so we
+ 
+
+289
+00:07:00,720 --> 00:07:02,230
+and then we have remove one now so we
+have to count it
+
+290
+00:07:02,230 --> 00:07:02,240
+have to count it
+ 
+
+291
+00:07:02,240 --> 00:07:05,189
+have to count it
+yeah increment counters of another one
+
+292
+00:07:05,189 --> 00:07:05,199
+yeah increment counters of another one
+ 
+
+293
+00:07:05,199 --> 00:07:07,029
+yeah increment counters of another one
+answer
+
+294
+00:07:07,029 --> 00:07:07,039
+answer
+ 
+
+295
+00:07:07,039 --> 00:07:10,150
+answer
+plus equal
+
+296
+00:07:10,150 --> 00:07:10,160
+plus equal
+ 
+
+297
+00:07:10,160 --> 00:07:13,110
+plus equal
+equals one we have removed one number so
+
+298
+00:07:13,110 --> 00:07:13,120
+equals one we have removed one number so
+ 
+
+299
+00:07:13,120 --> 00:07:19,189
+equals one we have removed one number so
+what is
+
+300
+00:07:19,189 --> 00:07:19,199
+
+ 
+
+301
+00:07:19,199 --> 00:07:21,589
+
+we have removed the node from the queue
+
+302
+00:07:21,589 --> 00:07:21,599
+we have removed the node from the queue
+ 
+
+303
+00:07:21,599 --> 00:07:22,390
+we have removed the node from the queue
+then
+
+304
+00:07:22,390 --> 00:07:22,400
+then
+ 
+
+305
+00:07:22,400 --> 00:07:25,350
+then
+we know one more note yeah yeah so what
+
+306
+00:07:25,350 --> 00:07:25,360
+we know one more note yeah yeah so what
+ 
+
+307
+00:07:25,360 --> 00:07:28,830
+we know one more note yeah yeah so what
+should we do
+
+308
+00:07:28,830 --> 00:07:28,840
+
+ 
+
+309
+00:07:28,840 --> 00:07:31,170
+
+okay
+
+310
+00:07:31,170 --> 00:07:31,180
+okay
+ 
+
+311
+00:07:31,180 --> 00:07:38,280
+okay
+[Music]
+
+312
+00:07:38,280 --> 00:07:38,290
+
+ 
+
+313
+00:07:38,290 --> 00:07:43,270
+
+[Music]
+
+314
+00:07:43,270 --> 00:07:43,280
+
+ 
+
+315
+00:07:43,280 --> 00:07:46,550
+
+left yeah if p dot left is not num
+
+316
+00:07:46,550 --> 00:07:46,560
+left yeah if p dot left is not num
+ 
+
+317
+00:07:46,560 --> 00:07:49,909
+left yeah if p dot left is not num
+right then we do this q dot
+
+318
+00:07:49,909 --> 00:07:49,919
+right then we do this q dot
+ 
+
+319
+00:07:49,919 --> 00:07:53,830
+right then we do this q dot
+append append
+
+320
+00:07:53,830 --> 00:07:53,840
+append append
+ 
+
+321
+00:07:53,840 --> 00:07:57,430
+append append
+p dot left okay and then similarly if p
+
+322
+00:07:57,430 --> 00:07:57,440
+p dot left okay and then similarly if p
+ 
+
+323
+00:07:57,440 --> 00:08:00,629
+p dot left okay and then similarly if p
+dot right if if the key
+
+324
+00:08:00,629 --> 00:08:00,639
+dot right if if the key
+ 
+
+325
+00:08:00,639 --> 00:08:02,550
+dot right if if the key
+if the note has the left right that
+
+326
+00:08:02,550 --> 00:08:02,560
+if the note has the left right that
+ 
+
+327
+00:08:02,560 --> 00:08:04,309
+if the note has the left right that
+would push it to the q if it has one
+
+328
+00:08:04,309 --> 00:08:04,319
+would push it to the q if it has one
+ 
+
+329
+00:08:04,319 --> 00:08:04,869
+would push it to the q if it has one
+right
+
+330
+00:08:04,869 --> 00:08:04,879
+right
+ 
+
+331
+00:08:04,879 --> 00:08:07,189
+right
+right side will push it to the to the q
+
+332
+00:08:07,189 --> 00:08:07,199
+right side will push it to the to the q
+ 
+
+333
+00:08:07,199 --> 00:08:08,790
+right side will push it to the to the q
+okay
+
+334
+00:08:08,790 --> 00:08:08,800
+okay
+ 
+
+335
+00:08:08,800 --> 00:08:12,070
+okay
+kill the append
+
+336
+00:08:12,070 --> 00:08:12,080
+kill the append
+ 
+
+337
+00:08:12,080 --> 00:08:15,909
+kill the append
+he's alright is there anything missing
+
+338
+00:08:15,909 --> 00:08:15,919
+he's alright is there anything missing
+ 
+
+339
+00:08:15,919 --> 00:08:17,270
+he's alright is there anything missing
+here return
+
+340
+00:08:17,270 --> 00:08:17,280
+here return
+ 
+
+341
+00:08:17,280 --> 00:08:24,309
+here return
+return
+
+342
+00:08:24,309 --> 00:08:24,319
+
+ 
+
+343
+00:08:24,319 --> 00:08:33,829
+
+because
+
+344
+00:08:33,829 --> 00:08:33,839
+
+ 
+
+345
+00:08:33,839 --> 00:08:36,149
+
+we check if the current node has if it
+
+346
+00:08:36,149 --> 00:08:36,159
+we check if the current node has if it
+ 
+
+347
+00:08:36,159 --> 00:08:37,430
+we check if the current node has if it
+has the left triad
+
+348
+00:08:37,430 --> 00:08:37,440
+has the left triad
+ 
+
+349
+00:08:37,440 --> 00:08:39,269
+has the left triad
+then we'll push it to the kill i never
+
+350
+00:08:39,269 --> 00:08:39,279
+then we'll push it to the kill i never
+ 
+
+351
+00:08:39,279 --> 00:08:40,790
+then we'll push it to the kill i never
+push the right half to a kill
+
+352
+00:08:40,790 --> 00:08:40,800
+push the right half to a kill
+ 
+
+353
+00:08:40,800 --> 00:08:43,670
+push the right half to a kill
+right so in this case this equilibrium
+
+354
+00:08:43,670 --> 00:08:43,680
+right so in this case this equilibrium
+ 
+
+355
+00:08:43,680 --> 00:08:44,949
+right so in this case this equilibrium
+will visit the node
+
+356
+00:08:44,949 --> 00:08:44,959
+will visit the node
+ 
+
+357
+00:08:44,959 --> 00:08:47,430
+will visit the node
+like this is one two three four the
+
+358
+00:08:47,430 --> 00:08:47,440
+like this is one two three four the
+ 
+
+359
+00:08:47,440 --> 00:08:48,070
+like this is one two three four the
+sequence
+
+360
+00:08:48,070 --> 00:08:48,080
+sequence
+ 
+
+361
+00:08:48,080 --> 00:08:50,310
+sequence
+of the node visiting removing will be
+
+362
+00:08:50,310 --> 00:08:50,320
+of the node visiting removing will be
+ 
+
+363
+00:08:50,320 --> 00:08:51,990
+of the node visiting removing will be
+one
+
+364
+00:08:51,990 --> 00:08:52,000
+one
+ 
+
+365
+00:08:52,000 --> 00:08:56,230
+one
+two and what's next
+
+366
+00:08:56,230 --> 00:08:56,240
+
+ 
+
+367
+00:08:56,240 --> 00:08:59,509
+
+three three four five yes three four
+
+368
+00:08:59,509 --> 00:08:59,519
+three three four five yes three four
+ 
+
+369
+00:08:59,519 --> 00:09:01,590
+three three four five yes three four
+five level by level remember never buy
+
+370
+00:09:01,590 --> 00:09:01,600
+five level by level remember never buy
+ 
+
+371
+00:09:01,600 --> 00:09:02,870
+five level by level remember never buy
+levels
+
+372
+00:09:02,870 --> 00:09:02,880
+levels
+ 
+
+373
+00:09:02,880 --> 00:09:04,710
+levels
+yeah what's the time complexity of this
+
+374
+00:09:04,710 --> 00:09:04,720
+yeah what's the time complexity of this
+ 
+
+375
+00:09:04,720 --> 00:09:06,150
+yeah what's the time complexity of this
+one
+
+376
+00:09:06,150 --> 00:09:06,160
+one
+ 
+
+377
+00:09:06,160 --> 00:09:09,110
+one
+what's the term complexity the red one
+
+378
+00:09:09,110 --> 00:09:09,120
+what's the term complexity the red one
+ 
+
+379
+00:09:09,120 --> 00:09:12,720
+what's the term complexity the red one
+yeah
+
+380
+00:09:12,720 --> 00:09:12,730
+
+ 
+
+381
+00:09:12,730 --> 00:09:16,070
+
+[Music]
+
+382
+00:09:16,070 --> 00:09:16,080
+[Music]
+ 
+
+383
+00:09:16,080 --> 00:09:18,870
+[Music]
+is it the same do we have the visit on
+
+384
+00:09:18,870 --> 00:09:18,880
+is it the same do we have the visit on
+ 
+
+385
+00:09:18,880 --> 00:09:22,550
+is it the same do we have the visit on
+each node
+
+386
+00:09:22,550 --> 00:09:22,560
+each node
+ 
+
+387
+00:09:22,560 --> 00:09:25,430
+each node
+yes oh yeah yes we have to visit each
+
+388
+00:09:25,430 --> 00:09:25,440
+yes oh yeah yes we have to visit each
+ 
+
+389
+00:09:25,440 --> 00:09:25,829
+yes oh yeah yes we have to visit each
+now
+
+390
+00:09:25,829 --> 00:09:25,839
+now
+ 
+
+391
+00:09:25,839 --> 00:09:27,670
+now
+right no matter which way you pick it's
+
+392
+00:09:27,670 --> 00:09:27,680
+right no matter which way you pick it's
+ 
+
+393
+00:09:27,680 --> 00:09:29,110
+right no matter which way you pick it's
+the same yeah
+
+394
+00:09:29,110 --> 00:09:29,120
+the same yeah
+ 
+
+395
+00:09:29,120 --> 00:09:31,350
+the same yeah
+it's just different for this one you
+
+396
+00:09:31,350 --> 00:09:31,360
+it's just different for this one you
+ 
+
+397
+00:09:31,360 --> 00:09:33,430
+it's just different for this one you
+meet the sequences
+
+398
+00:09:33,430 --> 00:09:33,440
+meet the sequences
+ 
+
+399
+00:09:33,440 --> 00:09:36,870
+meet the sequences
+one two
+
+400
+00:09:36,870 --> 00:09:36,880
+one two
+ 
+
+401
+00:09:36,880 --> 00:09:40,070
+one two
+four five three but for this is one two
+
+402
+00:09:40,070 --> 00:09:40,080
+four five three but for this is one two
+ 
+
+403
+00:09:40,080 --> 00:09:40,630
+four five three but for this is one two
+three four
+
+404
+00:09:40,630 --> 00:09:40,640
+three four
+ 
+
+405
+00:09:40,640 --> 00:09:43,110
+three four
+five you see even they are different but
+
+406
+00:09:43,110 --> 00:09:43,120
+five you see even they are different but
+ 
+
+407
+00:09:43,120 --> 00:09:44,790
+five you see even they are different but
+they are the counter is all they
+
+408
+00:09:44,790 --> 00:09:44,800
+they are the counter is all they
+ 
+
+409
+00:09:44,800 --> 00:09:47,990
+they are the counter is all they
+all get we all get five notes using both
+
+410
+00:09:47,990 --> 00:09:48,000
+all get we all get five notes using both
+ 
+
+411
+00:09:48,000 --> 00:09:51,509
+all get we all get five notes using both
+okay using each of them okay do get it
+
+412
+00:09:51,509 --> 00:09:51,519
+okay using each of them okay do get it
+ 
+
+413
+00:09:51,519 --> 00:09:54,070
+okay using each of them okay do get it
+okay so this is called the default
+
+414
+00:09:54,070 --> 00:09:54,080
+okay so this is called the default
+ 
+
+415
+00:09:54,080 --> 00:09:55,829
+okay so this is called the default
+search recursion within people using
+
+416
+00:09:55,829 --> 00:09:55,839
+search recursion within people using
+ 
+
+417
+00:09:55,839 --> 00:09:56,150
+search recursion within people using
+because
+
+418
+00:09:56,150 --> 00:09:56,160
+because
+ 
+
+419
+00:09:56,160 --> 00:09:59,269
+because
+so which one do you like whatever it is
+
+420
+00:09:59,269 --> 00:09:59,279
+so which one do you like whatever it is
+ 
+
+421
+00:09:59,279 --> 00:10:02,470
+so which one do you like whatever it is
+which one do you think is easier quicker
+
+422
+00:10:02,470 --> 00:10:02,480
+which one do you think is easier quicker
+ 
+
+423
+00:10:02,480 --> 00:10:05,990
+which one do you think is easier quicker
+that's what
+
+424
+00:10:05,990 --> 00:10:06,000
+
+ 
+
+425
+00:10:06,000 --> 00:10:07,750
+
+so that's the breakfast search okay
+
+426
+00:10:07,750 --> 00:10:07,760
+so that's the breakfast search okay
+ 
+
+427
+00:10:07,760 --> 00:10:09,190
+so that's the breakfast search okay
+let's look at the first one but did he
+
+428
+00:10:09,190 --> 00:10:09,200
+let's look at the first one but did he
+ 
+
+429
+00:10:09,200 --> 00:10:09,670
+let's look at the first one but did he
+say
+
+430
+00:10:09,670 --> 00:10:09,680
+say
+ 
+
+431
+00:10:09,680 --> 00:10:11,269
+say
+it he likes this one because it's
+
+432
+00:10:11,269 --> 00:10:11,279
+it he likes this one because it's
+ 
+
+433
+00:10:11,279 --> 00:10:13,910
+it he likes this one because it's
+shorter right shorter to to implement
+
+434
+00:10:13,910 --> 00:10:13,920
+shorter right shorter to to implement
+ 
+
+435
+00:10:13,920 --> 00:10:14,710
+shorter right shorter to to implement
+okay
+
+436
+00:10:14,710 --> 00:10:14,720
+okay
+ 
+
+437
+00:10:14,720 --> 00:10:17,030
+okay
+okay thank you very much okay say bye
+
+438
+00:10:17,030 --> 00:10:17,040
+okay thank you very much okay say bye
+ 
+
+439
+00:10:17,040 --> 00:10:19,110
+okay thank you very much okay say bye
+bye
+
+440
+00:10:19,110 --> 00:10:19,120
+bye
+ 
+
+441
+00:10:19,120 --> 00:10:24,880
+bye
+oh yeah bye oh yeah oh yeah
+

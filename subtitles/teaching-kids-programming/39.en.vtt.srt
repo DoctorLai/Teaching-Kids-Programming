@@ -1,0 +1,3045 @@
+1
+00:00:00,080 --> 00:00:03,189
+
+hello and today we're gonna talk about
+
+2
+00:00:03,189 --> 00:00:03,199
+hello and today we're gonna talk about
+ 
+
+3
+00:00:03,199 --> 00:00:06,950
+hello and today we're gonna talk about
+nerds not exactly okay
+
+4
+00:00:06,950 --> 00:00:06,960
+nerds not exactly okay
+ 
+
+5
+00:00:06,960 --> 00:00:10,470
+nerds not exactly okay
+hello mr eric hello mr ryan
+
+6
+00:00:10,470 --> 00:00:10,480
+hello mr eric hello mr ryan
+ 
+
+7
+00:00:10,480 --> 00:00:14,470
+hello mr eric hello mr ryan
+hello mr teacher say hello
+
+8
+00:00:14,470 --> 00:00:14,480
+hello mr teacher say hello
+ 
+
+9
+00:00:14,480 --> 00:00:18,070
+hello mr teacher say hello
+oh okay okay okay so so today we're
+
+10
+00:00:18,070 --> 00:00:18,080
+oh okay okay okay so so today we're
+ 
+
+11
+00:00:18,080 --> 00:00:19,670
+oh okay okay okay so so today we're
+talking about the
+
+12
+00:00:19,670 --> 00:00:19,680
+talking about the
+ 
+
+13
+00:00:19,680 --> 00:00:22,710
+talking about the
+linked list linked list
+
+14
+00:00:22,710 --> 00:00:22,720
+linked list linked list
+ 
+
+15
+00:00:22,720 --> 00:00:27,990
+linked list linked list
+link link link list
+
+16
+00:00:27,990 --> 00:00:28,000
+
+ 
+
+17
+00:00:28,000 --> 00:00:30,550
+
+link list so can you tell me what do you
+
+18
+00:00:30,550 --> 00:00:30,560
+link list so can you tell me what do you
+ 
+
+19
+00:00:30,560 --> 00:00:32,870
+link list so can you tell me what do you
+think a link list will be
+
+20
+00:00:32,870 --> 00:00:32,880
+think a link list will be
+ 
+
+21
+00:00:32,880 --> 00:00:37,190
+think a link list will be
+a list that's linked
+
+22
+00:00:37,190 --> 00:00:37,200
+
+ 
+
+23
+00:00:37,200 --> 00:00:40,549
+
+it's another data structure so so
+
+24
+00:00:40,549 --> 00:00:40,559
+it's another data structure so so
+ 
+
+25
+00:00:40,559 --> 00:00:44,150
+it's another data structure so so
+the link list consists of note
+
+26
+00:00:44,150 --> 00:00:44,160
+the link list consists of note
+ 
+
+27
+00:00:44,160 --> 00:00:47,910
+the link list consists of note
+a linked note so each note
+
+28
+00:00:47,910 --> 00:00:47,920
+a linked note so each note
+ 
+
+29
+00:00:47,920 --> 00:00:50,790
+a linked note so each note
+you can have a value yeah any type of
+
+30
+00:00:50,790 --> 00:00:50,800
+you can have a value yeah any type of
+ 
+
+31
+00:00:50,800 --> 00:00:51,910
+you can have a value yeah any type of
+value
+
+32
+00:00:51,910 --> 00:00:51,920
+value
+ 
+
+33
+00:00:51,920 --> 00:00:55,270
+value
+a value and then you also have a next
+
+34
+00:00:55,270 --> 00:00:55,280
+a value and then you also have a next
+ 
+
+35
+00:00:55,280 --> 00:00:58,229
+a value and then you also have a next
+next pointer yeah pointing to another
+
+36
+00:00:58,229 --> 00:00:58,239
+next pointer yeah pointing to another
+ 
+
+37
+00:00:58,239 --> 00:00:59,670
+next pointer yeah pointing to another
+one
+
+38
+00:00:59,670 --> 00:00:59,680
+one
+ 
+
+39
+00:00:59,680 --> 00:01:03,590
+one
+yeah next
+
+40
+00:01:03,590 --> 00:01:03,600
+yeah next
+ 
+
+41
+00:01:03,600 --> 00:01:07,830
+yeah next
+okay so you see this is going
+
+42
+00:01:07,830 --> 00:01:07,840
+okay so you see this is going
+ 
+
+43
+00:01:07,840 --> 00:01:10,550
+okay so you see this is going
+so we can create a new note and then we
+
+44
+00:01:10,550 --> 00:01:10,560
+so we can create a new note and then we
+ 
+
+45
+00:01:10,560 --> 00:01:11,990
+so we can create a new note and then we
+can put it into the chain
+
+46
+00:01:11,990 --> 00:01:12,000
+can put it into the chain
+ 
+
+47
+00:01:12,000 --> 00:01:15,190
+can put it into the chain
+yeah so it's like uh
+
+48
+00:01:15,190 --> 00:01:15,200
+yeah so it's like uh
+ 
+
+49
+00:01:15,200 --> 00:01:18,550
+yeah so it's like uh
+you know so it's like
+
+50
+00:01:18,550 --> 00:01:18,560
+you know so it's like
+ 
+
+51
+00:01:18,560 --> 00:01:21,749
+you know so it's like
+you have a chain and then a note can be
+
+52
+00:01:21,749 --> 00:01:21,759
+you have a chain and then a note can be
+ 
+
+53
+00:01:21,759 --> 00:01:23,190
+you have a chain and then a note can be
+linked to another note
+
+54
+00:01:23,190 --> 00:01:23,200
+linked to another note
+ 
+
+55
+00:01:23,200 --> 00:01:38,069
+linked to another note
+and another note to another
+
+56
+00:01:38,069 --> 00:01:38,079
+
+ 
+
+57
+00:01:38,079 --> 00:01:41,590
+
+so these these are the note
+
+58
+00:01:41,590 --> 00:01:41,600
+so these these are the note
+ 
+
+59
+00:01:41,600 --> 00:01:44,389
+so these these are the note
+yeah and the connection is one way or
+
+60
+00:01:44,389 --> 00:01:44,399
+yeah and the connection is one way or
+ 
+
+61
+00:01:44,399 --> 00:01:44,710
+yeah and the connection is one way or
+you
+
+62
+00:01:44,710 --> 00:01:44,720
+you
+ 
+
+63
+00:01:44,720 --> 00:01:47,510
+you
+it can be that it can be this is called
+
+64
+00:01:47,510 --> 00:01:47,520
+it can be that it can be this is called
+ 
+
+65
+00:01:47,520 --> 00:01:48,149
+it can be that it can be this is called
+a
+
+66
+00:01:48,149 --> 00:01:48,159
+a
+ 
+
+67
+00:01:48,159 --> 00:01:51,350
+a
+singly singlet linked list because it's
+
+68
+00:01:51,350 --> 00:01:51,360
+singly singlet linked list because it's
+ 
+
+69
+00:01:51,360 --> 00:01:52,069
+singly singlet linked list because it's
+pointing to
+
+70
+00:01:52,069 --> 00:01:52,079
+pointing to
+ 
+
+71
+00:01:52,079 --> 00:01:54,870
+pointing to
+one location uh two to one direction
+
+72
+00:01:54,870 --> 00:01:54,880
+one location uh two to one direction
+ 
+
+73
+00:01:54,880 --> 00:01:55,350
+one location uh two to one direction
+only
+
+74
+00:01:55,350 --> 00:01:55,360
+only
+ 
+
+75
+00:01:55,360 --> 00:01:58,630
+only
+but if we add another one backwards yeah
+
+76
+00:01:58,630 --> 00:01:58,640
+but if we add another one backwards yeah
+ 
+
+77
+00:01:58,640 --> 00:02:01,109
+but if we add another one backwards yeah
+we can also add another direction to
+
+78
+00:02:01,109 --> 00:02:01,119
+we can also add another direction to
+ 
+
+79
+00:02:01,119 --> 00:02:02,950
+we can also add another direction to
+link it backwards like that yeah
+
+80
+00:02:02,950 --> 00:02:02,960
+link it backwards like that yeah
+ 
+
+81
+00:02:02,960 --> 00:02:06,149
+link it backwards like that yeah
+yeah like that then that will be
+
+82
+00:02:06,149 --> 00:02:06,159
+yeah like that then that will be
+ 
+
+83
+00:02:06,159 --> 00:02:09,270
+yeah like that then that will be
+double link double direction link
+
+84
+00:02:09,270 --> 00:02:09,280
+double link double direction link
+ 
+
+85
+00:02:09,280 --> 00:02:12,470
+double link double direction link
+w double double link
+
+86
+00:02:12,470 --> 00:02:12,480
+w double double link
+ 
+
+87
+00:02:12,480 --> 00:02:15,750
+w double double link
+list double double okay double the link
+
+88
+00:02:15,750 --> 00:02:15,760
+list double double okay double the link
+ 
+
+89
+00:02:15,760 --> 00:02:17,190
+list double double okay double the link
+list okay
+
+90
+00:02:17,190 --> 00:02:17,200
+list okay
+ 
+
+91
+00:02:17,200 --> 00:02:21,190
+list okay
+so so it's quite similar to
+
+92
+00:02:21,190 --> 00:02:21,200
+so so it's quite similar to
+ 
+
+93
+00:02:21,200 --> 00:02:23,430
+so so it's quite similar to
+the list in python remember we use the
+
+94
+00:02:23,430 --> 00:02:23,440
+the list in python remember we use the
+ 
+
+95
+00:02:23,440 --> 00:02:24,710
+the list in python remember we use the
+python here like
+
+96
+00:02:24,710 --> 00:02:24,720
+python here like
+ 
+
+97
+00:02:24,720 --> 00:02:27,510
+python here like
+a numbers yeah we always use numbers and
+
+98
+00:02:27,510 --> 00:02:27,520
+a numbers yeah we always use numbers and
+ 
+
+99
+00:02:27,520 --> 00:02:28,390
+a numbers yeah we always use numbers and
+we can put this
+
+100
+00:02:28,390 --> 00:02:28,400
+we can put this
+ 
+
+101
+00:02:28,400 --> 00:02:31,990
+we can put this
+one two three right four yes
+
+102
+00:02:31,990 --> 00:02:32,000
+one two three right four yes
+ 
+
+103
+00:02:32,000 --> 00:02:34,830
+one two three right four yes
+so this is the number this is called a
+
+104
+00:02:34,830 --> 00:02:34,840
+so this is the number this is called a
+ 
+
+105
+00:02:34,840 --> 00:02:36,949
+so this is the number this is called a
+list
+
+106
+00:02:36,949 --> 00:02:36,959
+list
+ 
+
+107
+00:02:36,959 --> 00:02:39,190
+list
+the thing is that in in python if you're
+
+108
+00:02:39,190 --> 00:02:39,200
+the thing is that in in python if you're
+ 
+
+109
+00:02:39,200 --> 00:02:40,390
+the thing is that in in python if you're
+doing this in
+
+110
+00:02:40,390 --> 00:02:40,400
+doing this in
+ 
+
+111
+00:02:40,400 --> 00:02:42,229
+doing this in
+and these numbers are stored in the
+
+112
+00:02:42,229 --> 00:02:42,239
+and these numbers are stored in the
+ 
+
+113
+00:02:42,239 --> 00:02:43,750
+and these numbers are stored in the
+computer memory you know
+
+114
+00:02:43,750 --> 00:02:43,760
+computer memory you know
+ 
+
+115
+00:02:43,760 --> 00:02:45,509
+computer memory you know
+computer memory yeah memory like a
+
+116
+00:02:45,509 --> 00:02:45,519
+computer memory yeah memory like a
+ 
+
+117
+00:02:45,519 --> 00:02:47,910
+computer memory yeah memory like a
+memory continuously so you will be
+
+118
+00:02:47,910 --> 00:02:47,920
+memory continuously so you will be
+ 
+
+119
+00:02:47,920 --> 00:02:51,110
+memory continuously so you will be
+so now this address will be
+
+120
+00:02:51,110 --> 00:02:51,120
+so now this address will be
+ 
+
+121
+00:02:51,120 --> 00:02:54,710
+so now this address will be
+right there yeah yeah okay so now if you
+
+122
+00:02:54,710 --> 00:02:54,720
+right there yeah yeah okay so now if you
+ 
+
+123
+00:02:54,720 --> 00:02:56,550
+right there yeah yeah okay so now if you
+put another number on it and then it
+
+124
+00:02:56,550 --> 00:02:56,560
+put another number on it and then it
+ 
+
+125
+00:02:56,560 --> 00:02:58,070
+put another number on it and then it
+will be append at the end
+
+126
+00:02:58,070 --> 00:02:58,080
+will be append at the end
+ 
+
+127
+00:02:58,080 --> 00:03:01,110
+will be append at the end
+right yeah okay so this is called a list
+
+128
+00:03:01,110 --> 00:03:01,120
+right yeah okay so this is called a list
+ 
+
+129
+00:03:01,120 --> 00:03:03,030
+right yeah okay so this is called a list
+but we are using the single is the
+
+130
+00:03:03,030 --> 00:03:03,040
+but we are using the single is the
+ 
+
+131
+00:03:03,040 --> 00:03:05,990
+but we are using the single is the
+link here and then this this notes in
+
+132
+00:03:05,990 --> 00:03:06,000
+link here and then this this notes in
+ 
+
+133
+00:03:06,000 --> 00:03:06,869
+link here and then this this notes in
+memory could be
+
+134
+00:03:06,869 --> 00:03:06,879
+memory could be
+ 
+
+135
+00:03:06,879 --> 00:03:09,509
+memory could be
+in different places so this this value
+
+136
+00:03:09,509 --> 00:03:09,519
+in different places so this this value
+ 
+
+137
+00:03:09,519 --> 00:03:09,990
+in different places so this this value
+will be
+
+138
+00:03:09,990 --> 00:03:10,000
+will be
+ 
+
+139
+00:03:10,000 --> 00:03:12,710
+will be
+some somewhere here and then link to
+
+140
+00:03:12,710 --> 00:03:12,720
+some somewhere here and then link to
+ 
+
+141
+00:03:12,720 --> 00:03:14,390
+some somewhere here and then link to
+another place in memory
+
+142
+00:03:14,390 --> 00:03:14,400
+another place in memory
+ 
+
+143
+00:03:14,400 --> 00:03:16,390
+another place in memory
+and a link to another place in memory
+
+144
+00:03:16,390 --> 00:03:16,400
+and a link to another place in memory
+ 
+
+145
+00:03:16,400 --> 00:03:17,589
+and a link to another place in memory
+yeah so this
+
+146
+00:03:17,589 --> 00:03:17,599
+yeah so this
+ 
+
+147
+00:03:17,599 --> 00:03:21,830
+yeah so this
+next is pointing to the next note okay
+
+148
+00:03:21,830 --> 00:03:21,840
+next is pointing to the next note okay
+ 
+
+149
+00:03:21,840 --> 00:03:24,550
+next is pointing to the next note okay
+so why why what's the advantage of using
+
+150
+00:03:24,550 --> 00:03:24,560
+so why why what's the advantage of using
+ 
+
+151
+00:03:24,560 --> 00:03:27,030
+so why why what's the advantage of using
+that
+
+152
+00:03:27,030 --> 00:03:27,040
+
+ 
+
+153
+00:03:27,040 --> 00:03:28,710
+
+can you think of any advantage if
+
+154
+00:03:28,710 --> 00:03:28,720
+can you think of any advantage if
+ 
+
+155
+00:03:28,720 --> 00:03:33,110
+can you think of any advantage if
+compared to this
+
+156
+00:03:33,110 --> 00:03:33,120
+compared to this
+ 
+
+157
+00:03:33,120 --> 00:03:34,630
+compared to this
+you probably don't know because because
+
+158
+00:03:34,630 --> 00:03:34,640
+you probably don't know because because
+ 
+
+159
+00:03:34,640 --> 00:03:37,110
+you probably don't know because because
+in lamps in in this list
+
+160
+00:03:37,110 --> 00:03:37,120
+in lamps in in this list
+ 
+
+161
+00:03:37,120 --> 00:03:40,070
+in lamps in in this list
+computer allocate pre-allocate a space
+
+162
+00:03:40,070 --> 00:03:40,080
+computer allocate pre-allocate a space
+ 
+
+163
+00:03:40,080 --> 00:03:41,830
+computer allocate pre-allocate a space
+continuous space like
+
+164
+00:03:41,830 --> 00:03:41,840
+continuous space like
+ 
+
+165
+00:03:41,840 --> 00:03:45,110
+continuous space like
+10 elements to store these numbers yeah
+
+166
+00:03:45,110 --> 00:03:45,120
+10 elements to store these numbers yeah
+ 
+
+167
+00:03:45,120 --> 00:03:47,509
+10 elements to store these numbers yeah
+if we if there's more than 10 elements
+
+168
+00:03:47,509 --> 00:03:47,519
+if we if there's more than 10 elements
+ 
+
+169
+00:03:47,519 --> 00:03:48,470
+if we if there's more than 10 elements
+and if you want to
+
+170
+00:03:48,470 --> 00:03:48,480
+and if you want to
+ 
+
+171
+00:03:48,480 --> 00:03:51,270
+and if you want to
+add another one so computer doesn't have
+
+172
+00:03:51,270 --> 00:03:51,280
+add another one so computer doesn't have
+ 
+
+173
+00:03:51,280 --> 00:03:53,830
+add another one so computer doesn't have
+enough memory to hold these 10
+
+174
+00:03:53,830 --> 00:03:53,840
+enough memory to hold these 10
+ 
+
+175
+00:03:53,840 --> 00:03:57,750
+enough memory to hold these 10
+numbers so what it does is you will find
+
+176
+00:03:57,750 --> 00:03:57,760
+numbers so what it does is you will find
+ 
+
+177
+00:03:57,760 --> 00:04:01,509
+numbers so what it does is you will find
+another space which is more can hold
+
+178
+00:04:01,509 --> 00:04:01,519
+another space which is more can hold
+ 
+
+179
+00:04:01,519 --> 00:04:03,429
+another space which is more can hold
+more than 10 elements and then you'll
+
+180
+00:04:03,429 --> 00:04:03,439
+more than 10 elements and then you'll
+ 
+
+181
+00:04:03,439 --> 00:04:05,030
+more than 10 elements and then you'll
+copy all these numbers
+
+182
+00:04:05,030 --> 00:04:05,040
+copy all these numbers
+ 
+
+183
+00:04:05,040 --> 00:04:07,509
+copy all these numbers
+to the new place just move it suppose
+
+184
+00:04:07,509 --> 00:04:07,519
+to the new place just move it suppose
+ 
+
+185
+00:04:07,519 --> 00:04:08,470
+to the new place just move it suppose
+you have a table
+
+186
+00:04:08,470 --> 00:04:08,480
+you have a table
+ 
+
+187
+00:04:08,480 --> 00:04:10,949
+you have a table
+but it's very small you put the five
+
+188
+00:04:10,949 --> 00:04:10,959
+but it's very small you put the five
+ 
+
+189
+00:04:10,959 --> 00:04:11,910
+but it's very small you put the five
+toys on it
+
+190
+00:04:11,910 --> 00:04:11,920
+toys on it
+ 
+
+191
+00:04:11,920 --> 00:04:14,309
+toys on it
+and then i give you another one toy i
+
+192
+00:04:14,309 --> 00:04:14,319
+and then i give you another one toy i
+ 
+
+193
+00:04:14,319 --> 00:04:15,830
+and then i give you another one toy i
+want you to put it on the table right
+
+194
+00:04:15,830 --> 00:04:15,840
+want you to put it on the table right
+ 
+
+195
+00:04:15,840 --> 00:04:18,229
+want you to put it on the table right
+you're running out of space on the table
+
+196
+00:04:18,229 --> 00:04:18,239
+you're running out of space on the table
+ 
+
+197
+00:04:18,239 --> 00:04:19,349
+you're running out of space on the table
+so what do we do
+
+198
+00:04:19,349 --> 00:04:19,359
+so what do we do
+ 
+
+199
+00:04:19,359 --> 00:04:21,670
+so what do we do
+so we find another big table and then
+
+200
+00:04:21,670 --> 00:04:21,680
+so we find another big table and then
+ 
+
+201
+00:04:21,680 --> 00:04:22,550
+so we find another big table and then
+move these
+
+202
+00:04:22,550 --> 00:04:22,560
+move these
+ 
+
+203
+00:04:22,560 --> 00:04:25,909
+move these
+five toys you know with that six toys
+
+204
+00:04:25,909 --> 00:04:25,919
+five toys you know with that six toys
+ 
+
+205
+00:04:25,919 --> 00:04:27,670
+five toys you know with that six toys
+yeah yeah i have to get to the new new
+
+206
+00:04:27,670 --> 00:04:27,680
+yeah yeah i have to get to the new new
+ 
+
+207
+00:04:27,680 --> 00:04:27,990
+yeah yeah i have to get to the new new
+table
+
+208
+00:04:27,990 --> 00:04:28,000
+table
+ 
+
+209
+00:04:28,000 --> 00:04:30,870
+table
+so it takes time right it's sometimes so
+
+210
+00:04:30,870 --> 00:04:30,880
+so it takes time right it's sometimes so
+ 
+
+211
+00:04:30,880 --> 00:04:32,310
+so it takes time right it's sometimes so
+sometimes this
+
+212
+00:04:32,310 --> 00:04:32,320
+sometimes this
+ 
+
+213
+00:04:32,320 --> 00:04:35,110
+sometimes this
+uh if you append it in the worst case
+
+214
+00:04:35,110 --> 00:04:35,120
+uh if you append it in the worst case
+ 
+
+215
+00:04:35,120 --> 00:04:35,430
+uh if you append it in the worst case
+the
+
+216
+00:04:35,430 --> 00:04:35,440
+the
+ 
+
+217
+00:04:35,440 --> 00:04:37,749
+the
+time complexities oh and if running out
+
+218
+00:04:37,749 --> 00:04:37,759
+time complexities oh and if running out
+ 
+
+219
+00:04:37,759 --> 00:04:38,950
+time complexities oh and if running out
+of space right
+
+220
+00:04:38,950 --> 00:04:38,960
+of space right
+ 
+
+221
+00:04:38,960 --> 00:04:42,310
+of space right
+but these things there the the advantage
+
+222
+00:04:42,310 --> 00:04:42,320
+but these things there the the advantage
+ 
+
+223
+00:04:42,320 --> 00:04:42,950
+but these things there the the advantage
+is that
+
+224
+00:04:42,950 --> 00:04:42,960
+is that
+ 
+
+225
+00:04:42,960 --> 00:04:45,110
+is that
+no matter you can find a space
+
+226
+00:04:45,110 --> 00:04:45,120
+no matter you can find a space
+ 
+
+227
+00:04:45,120 --> 00:04:45,990
+no matter you can find a space
+everywhere so
+
+228
+00:04:45,990 --> 00:04:46,000
+everywhere so
+ 
+
+229
+00:04:46,000 --> 00:04:48,790
+everywhere so
+when you the term complexity to add a
+
+230
+00:04:48,790 --> 00:04:48,800
+when you the term complexity to add a
+ 
+
+231
+00:04:48,800 --> 00:04:49,749
+when you the term complexity to add a
+new
+
+232
+00:04:49,749 --> 00:04:49,759
+new
+ 
+
+233
+00:04:49,759 --> 00:04:52,710
+new
+add a new node to the end is a one yeah
+
+234
+00:04:52,710 --> 00:04:52,720
+add a new node to the end is a one yeah
+ 
+
+235
+00:04:52,720 --> 00:04:53,189
+add a new node to the end is a one yeah
+we just
+
+236
+00:04:53,189 --> 00:04:53,199
+we just
+ 
+
+237
+00:04:53,199 --> 00:04:55,909
+we just
+have to because the link never changed
+
+238
+00:04:55,909 --> 00:04:55,919
+have to because the link never changed
+ 
+
+239
+00:04:55,919 --> 00:04:58,070
+have to because the link never changed
+we just have to allocate one and put it
+
+240
+00:04:58,070 --> 00:04:58,080
+we just have to allocate one and put it
+ 
+
+241
+00:04:58,080 --> 00:05:01,110
+we just have to allocate one and put it
+to to obtain attach it to the end right
+
+242
+00:05:01,110 --> 00:05:01,120
+to to obtain attach it to the end right
+ 
+
+243
+00:05:01,120 --> 00:05:04,870
+to to obtain attach it to the end right
+yes and then we but
+
+244
+00:05:04,870 --> 00:05:04,880
+yes and then we but
+ 
+
+245
+00:05:04,880 --> 00:05:07,670
+yes and then we but
+so if you are given this head head of
+
+246
+00:05:07,670 --> 00:05:07,680
+so if you are given this head head of
+ 
+
+247
+00:05:07,680 --> 00:05:08,230
+so if you are given this head head of
+the link
+
+248
+00:05:08,230 --> 00:05:08,240
+the link
+ 
+
+249
+00:05:08,240 --> 00:05:11,350
+the link
+yeah it takes on time to travel
+
+250
+00:05:11,350 --> 00:05:11,360
+yeah it takes on time to travel
+ 
+
+251
+00:05:11,360 --> 00:05:14,150
+yeah it takes on time to travel
+to travel in a linked list right yeah
+
+252
+00:05:14,150 --> 00:05:14,160
+to travel in a linked list right yeah
+ 
+
+253
+00:05:14,160 --> 00:05:15,270
+to travel in a linked list right yeah
+because you have to start from the
+
+254
+00:05:15,270 --> 00:05:15,280
+because you have to start from the
+ 
+
+255
+00:05:15,280 --> 00:05:16,710
+because you have to start from the
+beginning and then you follow one step
+
+256
+00:05:16,710 --> 00:05:16,720
+beginning and then you follow one step
+ 
+
+257
+00:05:16,720 --> 00:05:17,909
+beginning and then you follow one step
+every time to find
+
+258
+00:05:17,909 --> 00:05:17,919
+every time to find
+ 
+
+259
+00:05:17,919 --> 00:05:21,110
+every time to find
+the end okay
+
+260
+00:05:21,110 --> 00:05:21,120
+the end okay
+ 
+
+261
+00:05:21,120 --> 00:05:23,590
+the end okay
+yeah okay so now let's let's try this
+
+262
+00:05:23,590 --> 00:05:23,600
+yeah okay so now let's let's try this
+ 
+
+263
+00:05:23,600 --> 00:05:24,310
+yeah okay so now let's let's try this
+class
+
+264
+00:05:24,310 --> 00:05:24,320
+class
+ 
+
+265
+00:05:24,320 --> 00:05:28,310
+class
+so so look link list
+
+266
+00:05:28,310 --> 00:05:28,320
+so so look link list
+ 
+
+267
+00:05:28,320 --> 00:05:30,310
+so so look link list
+so link list we we have note yeah we
+
+268
+00:05:30,310 --> 00:05:30,320
+so link list we we have note yeah we
+ 
+
+269
+00:05:30,320 --> 00:05:31,590
+so link list we we have note yeah we
+define a note yeah
+
+270
+00:05:31,590 --> 00:05:31,600
+define a note yeah
+ 
+
+271
+00:05:31,600 --> 00:05:35,350
+define a note yeah
+so class why is class object templates
+
+272
+00:05:35,350 --> 00:05:35,360
+so class why is class object templates
+ 
+
+273
+00:05:35,360 --> 00:05:38,550
+so class why is class object templates
+so it defines how we create new objects
+
+274
+00:05:38,550 --> 00:05:38,560
+so it defines how we create new objects
+ 
+
+275
+00:05:38,560 --> 00:05:42,150
+so it defines how we create new objects
+class note see what's what's really
+
+276
+00:05:42,150 --> 00:05:42,160
+class note see what's what's really
+ 
+
+277
+00:05:42,160 --> 00:05:45,270
+class note see what's what's really
+supposed to be missing yes and i will
+
+278
+00:05:45,270 --> 00:05:45,280
+supposed to be missing yes and i will
+ 
+
+279
+00:05:45,280 --> 00:05:54,070
+supposed to be missing yes and i will
+define the constructor
+
+280
+00:05:54,070 --> 00:05:54,080
+
+ 
+
+281
+00:05:54,080 --> 00:05:55,990
+
+of the class the first parameter is
+
+282
+00:05:55,990 --> 00:05:56,000
+of the class the first parameter is
+ 
+
+283
+00:05:56,000 --> 00:05:57,510
+of the class the first parameter is
+usually safe
+
+284
+00:05:57,510 --> 00:05:57,520
+usually safe
+ 
+
+285
+00:05:57,520 --> 00:05:59,430
+usually safe
+okay so it means that this this message
+
+286
+00:05:59,430 --> 00:05:59,440
+okay so it means that this this message
+ 
+
+287
+00:05:59,440 --> 00:06:01,670
+okay so it means that this this message
+belongs to the class and i know that
+
+288
+00:06:01,670 --> 00:06:01,680
+belongs to the class and i know that
+ 
+
+289
+00:06:01,680 --> 00:06:03,590
+belongs to the class and i know that
+the value means that we can hold any
+
+290
+00:06:03,590 --> 00:06:03,600
+the value means that we can hold any
+ 
+
+291
+00:06:03,600 --> 00:06:06,629
+the value means that we can hold any
+type of value and then we can point
+
+292
+00:06:06,629 --> 00:06:06,639
+type of value and then we can point
+ 
+
+293
+00:06:06,639 --> 00:06:09,749
+type of value and then we can point
+next no or just next yeah next and then
+
+294
+00:06:09,749 --> 00:06:09,759
+next no or just next yeah next and then
+ 
+
+295
+00:06:09,759 --> 00:06:13,189
+next no or just next yeah next and then
+default by default if we not specify
+
+296
+00:06:13,189 --> 00:06:13,199
+default by default if we not specify
+ 
+
+297
+00:06:13,199 --> 00:06:15,670
+default by default if we not specify
+anything we just specify it as a noun
+
+298
+00:06:15,670 --> 00:06:15,680
+anything we just specify it as a noun
+ 
+
+299
+00:06:15,680 --> 00:06:17,270
+anything we just specify it as a noun
+default value because it's pointing to
+
+300
+00:06:17,270 --> 00:06:17,280
+default value because it's pointing to
+ 
+
+301
+00:06:17,280 --> 00:06:18,469
+default value because it's pointing to
+nothing at the beginning
+
+302
+00:06:18,469 --> 00:06:18,479
+nothing at the beginning
+ 
+
+303
+00:06:18,479 --> 00:06:21,270
+nothing at the beginning
+unless we specified what a note and then
+
+304
+00:06:21,270 --> 00:06:21,280
+unless we specified what a note and then
+ 
+
+305
+00:06:21,280 --> 00:06:22,309
+unless we specified what a note and then
+we can say
+
+306
+00:06:22,309 --> 00:06:22,319
+we can say
+ 
+
+307
+00:06:22,319 --> 00:06:25,590
+we can say
+we can add a self dot yeah we're using
+
+308
+00:06:25,590 --> 00:06:25,600
+we can add a self dot yeah we're using
+ 
+
+309
+00:06:25,600 --> 00:06:27,430
+we can add a self dot yeah we're using
+this set selector value we
+
+310
+00:06:27,430 --> 00:06:27,440
+this set selector value we
+ 
+
+311
+00:06:27,440 --> 00:06:31,189
+this set selector value we
+given a new attribute to value and then
+
+312
+00:06:31,189 --> 00:06:31,199
+given a new attribute to value and then
+ 
+
+313
+00:06:31,199 --> 00:06:34,790
+given a new attribute to value and then
+save next
+
+314
+00:06:34,790 --> 00:06:34,800
+save next
+ 
+
+315
+00:06:34,800 --> 00:06:37,909
+save next
+equals next okay
+
+316
+00:06:37,909 --> 00:06:37,919
+equals next okay
+ 
+
+317
+00:06:37,919 --> 00:06:40,629
+equals next okay
+so let's see let's see defining the
+
+318
+00:06:40,629 --> 00:06:40,639
+so let's see let's see defining the
+ 
+
+319
+00:06:40,639 --> 00:06:42,710
+so let's see let's see defining the
+class in python is very similar yeah you
+
+320
+00:06:42,710 --> 00:06:42,720
+class in python is very similar yeah you
+ 
+
+321
+00:06:42,720 --> 00:06:43,189
+class in python is very similar yeah you
+just have
+
+322
+00:06:43,189 --> 00:06:43,199
+just have
+ 
+
+323
+00:06:43,199 --> 00:06:46,150
+just have
+this class and this is constructed in
+
+324
+00:06:46,150 --> 00:06:46,160
+this class and this is constructed in
+ 
+
+325
+00:06:46,160 --> 00:06:48,230
+this class and this is constructed in
+double uh underscore underscore in
+
+326
+00:06:48,230 --> 00:06:48,240
+double uh underscore underscore in
+ 
+
+327
+00:06:48,240 --> 00:06:50,710
+double uh underscore underscore in
+initialization yeah initialization means
+
+328
+00:06:50,710 --> 00:06:50,720
+initialization yeah initialization means
+ 
+
+329
+00:06:50,720 --> 00:06:51,990
+initialization yeah initialization means
+that when the
+
+330
+00:06:51,990 --> 00:06:52,000
+that when the
+ 
+
+331
+00:06:52,000 --> 00:06:55,110
+that when the
+class is initialized is created
+
+332
+00:06:55,110 --> 00:06:55,120
+class is initialized is created
+ 
+
+333
+00:06:55,120 --> 00:06:57,430
+class is initialized is created
+okay now we do this we allocate we
+
+334
+00:06:57,430 --> 00:06:57,440
+okay now we do this we allocate we
+ 
+
+335
+00:06:57,440 --> 00:06:58,870
+okay now we do this we allocate we
+allocate two attributes
+
+336
+00:06:58,870 --> 00:06:58,880
+allocate two attributes
+ 
+
+337
+00:06:58,880 --> 00:07:01,749
+allocate two attributes
+by given a parameter so so now we can
+
+338
+00:07:01,749 --> 00:07:01,759
+by given a parameter so so now we can
+ 
+
+339
+00:07:01,759 --> 00:07:02,469
+by given a parameter so so now we can
+just do this
+
+340
+00:07:02,469 --> 00:07:02,479
+just do this
+ 
+
+341
+00:07:02,479 --> 00:07:04,710
+just do this
+we can just know we can just like uh the
+
+342
+00:07:04,710 --> 00:07:04,720
+we can just know we can just like uh the
+ 
+
+343
+00:07:04,720 --> 00:07:06,230
+we can just know we can just like uh the
+first node head
+
+344
+00:07:06,230 --> 00:07:06,240
+first node head
+ 
+
+345
+00:07:06,240 --> 00:07:08,950
+first node head
+and we can say node we can just use it
+
+346
+00:07:08,950 --> 00:07:08,960
+and we can say node we can just use it
+ 
+
+347
+00:07:08,960 --> 00:07:10,710
+and we can say node we can just use it
+node minus one okay
+
+348
+00:07:10,710 --> 00:07:10,720
+node minus one okay
+ 
+
+349
+00:07:10,720 --> 00:07:12,950
+node minus one okay
+so it means that we create after this
+
+350
+00:07:12,950 --> 00:07:12,960
+so it means that we create after this
+ 
+
+351
+00:07:12,960 --> 00:07:14,390
+so it means that we create after this
+we're creating a node
+
+352
+00:07:14,390 --> 00:07:14,400
+we're creating a node
+ 
+
+353
+00:07:14,400 --> 00:07:17,510
+we're creating a node
+with the value minus one but the next
+
+354
+00:07:17,510 --> 00:07:17,520
+with the value minus one but the next
+ 
+
+355
+00:07:17,520 --> 00:07:19,430
+with the value minus one but the next
+next pointer is none right because if
+
+356
+00:07:19,430 --> 00:07:19,440
+next pointer is none right because if
+ 
+
+357
+00:07:19,440 --> 00:07:20,629
+next pointer is none right because if
+you yeah
+
+358
+00:07:20,629 --> 00:07:20,639
+you yeah
+ 
+
+359
+00:07:20,639 --> 00:07:22,950
+you yeah
+because we we are not given anything the
+
+360
+00:07:22,950 --> 00:07:22,960
+because we we are not given anything the
+ 
+
+361
+00:07:22,960 --> 00:07:24,870
+because we we are not given anything the
+second parameter and then d4 by before
+
+362
+00:07:24,870 --> 00:07:24,880
+second parameter and then d4 by before
+ 
+
+363
+00:07:24,880 --> 00:07:25,510
+second parameter and then d4 by before
+is nine
+
+364
+00:07:25,510 --> 00:07:25,520
+is nine
+ 
+
+365
+00:07:25,520 --> 00:07:28,790
+is nine
+p equals yeah
+
+366
+00:07:28,790 --> 00:07:28,800
+p equals yeah
+ 
+
+367
+00:07:28,800 --> 00:07:31,589
+p equals yeah
+yeah so now we can define another one
+
+368
+00:07:31,589 --> 00:07:31,599
+yeah so now we can define another one
+ 
+
+369
+00:07:31,599 --> 00:07:32,790
+yeah so now we can define another one
+called defined
+
+370
+00:07:32,790 --> 00:07:32,800
+called defined
+ 
+
+371
+00:07:32,800 --> 00:07:36,550
+called defined
+at next x and and a node
+
+372
+00:07:36,550 --> 00:07:36,560
+at next x and and a node
+ 
+
+373
+00:07:36,560 --> 00:07:40,550
+at next x and and a node
+and a node okay net self value
+
+374
+00:07:40,550 --> 00:07:40,560
+and a node okay net self value
+ 
+
+375
+00:07:40,560 --> 00:07:44,309
+and a node okay net self value
+okay then we can say we if we enter node
+
+376
+00:07:44,309 --> 00:07:44,319
+okay then we can say we if we enter node
+ 
+
+377
+00:07:44,319 --> 00:07:47,749
+okay then we can say we if we enter node
+so now what can we what what does it
+
+378
+00:07:47,749 --> 00:07:47,759
+so now what can we what what does it
+ 
+
+379
+00:07:47,759 --> 00:07:48,070
+so now what can we what what does it
+mean
+
+380
+00:07:48,070 --> 00:07:48,080
+mean
+ 
+
+381
+00:07:48,080 --> 00:07:50,390
+mean
+it means that we add a method and then
+
+382
+00:07:50,390 --> 00:07:50,400
+it means that we add a method and then
+ 
+
+383
+00:07:50,400 --> 00:07:52,869
+it means that we add a method and then
+we allocate a create a new node and put
+
+384
+00:07:52,869 --> 00:07:52,879
+we allocate a create a new node and put
+ 
+
+385
+00:07:52,879 --> 00:07:53,510
+we allocate a create a new node and put
+it to the
+
+386
+00:07:53,510 --> 00:07:53,520
+it to the
+ 
+
+387
+00:07:53,520 --> 00:07:58,710
+it to the
+current node yeah know yeah we are we're
+
+388
+00:07:58,710 --> 00:07:58,720
+current node yeah know yeah we are we're
+ 
+
+389
+00:07:58,720 --> 00:07:59,830
+current node yeah know yeah we are we're
+creating one right
+
+390
+00:07:59,830 --> 00:07:59,840
+creating one right
+ 
+
+391
+00:07:59,840 --> 00:08:03,350
+creating one right
+now very oh yeah
+
+392
+00:08:03,350 --> 00:08:03,360
+now very oh yeah
+ 
+
+393
+00:08:03,360 --> 00:08:07,270
+now very oh yeah
+and then self dot next
+
+394
+00:08:07,270 --> 00:08:07,280
+and then self dot next
+ 
+
+395
+00:08:07,280 --> 00:08:09,270
+and then self dot next
+equals new node yeah we're appending
+
+396
+00:08:09,270 --> 00:08:09,280
+equals new node yeah we're appending
+ 
+
+397
+00:08:09,280 --> 00:08:13,880
+equals new node yeah we're appending
+today
+
+398
+00:08:13,880 --> 00:08:13,890
+
+ 
+
+399
+00:08:13,890 --> 00:08:19,749
+
+[Music]
+
+400
+00:08:19,749 --> 00:08:19,759
+
+ 
+
+401
+00:08:19,759 --> 00:08:22,710
+
+so now if this it means that if we have
+
+402
+00:08:22,710 --> 00:08:22,720
+so now if this it means that if we have
+ 
+
+403
+00:08:22,720 --> 00:08:23,589
+so now if this it means that if we have
+a node there
+
+404
+00:08:23,589 --> 00:08:23,599
+a node there
+ 
+
+405
+00:08:23,599 --> 00:08:25,990
+a node there
+i have a node head and then we add a new
+
+406
+00:08:25,990 --> 00:08:26,000
+i have a node head and then we add a new
+ 
+
+407
+00:08:26,000 --> 00:08:26,629
+i have a node head and then we add a new
+node
+
+408
+00:08:26,629 --> 00:08:26,639
+node
+ 
+
+409
+00:08:26,639 --> 00:08:29,830
+node
+and what you create it will be i create
+
+410
+00:08:29,830 --> 00:08:29,840
+and what you create it will be i create
+ 
+
+411
+00:08:29,840 --> 00:08:31,029
+and what you create it will be i create
+a millionaire one
+
+412
+00:08:31,029 --> 00:08:31,039
+a millionaire one
+ 
+
+413
+00:08:31,039 --> 00:08:34,389
+a millionaire one
+for example and then i add it link to it
+
+414
+00:08:34,389 --> 00:08:34,399
+for example and then i add it link to it
+ 
+
+415
+00:08:34,399 --> 00:08:39,039
+for example and then i add it link to it
+uh yeah i i i didn't link to it
+
+416
+00:08:39,039 --> 00:08:39,049
+uh yeah i i i didn't link to it
+ 
+
+417
+00:08:39,049 --> 00:08:45,030
+uh yeah i i i didn't link to it
+[Music]
+
+418
+00:08:45,030 --> 00:08:45,040
+
+ 
+
+419
+00:08:45,040 --> 00:08:47,670
+
+okay now if i write a problem and you
+
+420
+00:08:47,670 --> 00:08:47,680
+okay now if i write a problem and you
+ 
+
+421
+00:08:47,680 --> 00:08:50,630
+okay now if i write a problem and you
+tell me what will be the output
+
+422
+00:08:50,630 --> 00:08:50,640
+tell me what will be the output
+ 
+
+423
+00:08:50,640 --> 00:08:54,070
+tell me what will be the output
+okay so now if i have this head
+
+424
+00:08:54,070 --> 00:08:54,080
+okay so now if i have this head
+ 
+
+425
+00:08:54,080 --> 00:08:57,269
+okay so now if i have this head
+head headphone head no
+
+426
+00:08:57,269 --> 00:08:57,279
+head headphone head no
+ 
+
+427
+00:08:57,279 --> 00:09:00,310
+head headphone head no
+head node minus one okay equals
+
+428
+00:09:00,310 --> 00:09:00,320
+head node minus one okay equals
+ 
+
+429
+00:09:00,320 --> 00:09:04,070
+head node minus one okay equals
+head node and then i have inches
+
+430
+00:09:04,070 --> 00:09:04,080
+head node and then i have inches
+ 
+
+431
+00:09:04,080 --> 00:09:07,190
+head node and then i have inches
+if i have a four i
+
+432
+00:09:07,190 --> 00:09:07,200
+if i have a four i
+ 
+
+433
+00:09:07,200 --> 00:09:10,470
+if i have a four i
+in range like 10
+
+434
+00:09:10,470 --> 00:09:10,480
+in range like 10
+ 
+
+435
+00:09:10,480 --> 00:09:13,150
+in range like 10
+for example
+
+436
+00:09:13,150 --> 00:09:13,160
+
+ 
+
+437
+00:09:13,160 --> 00:09:15,430
+
+[Music]
+
+438
+00:09:15,430 --> 00:09:15,440
+[Music]
+ 
+
+439
+00:09:15,440 --> 00:09:17,590
+[Music]
+no i i i would write the program and
+
+440
+00:09:17,590 --> 00:09:17,600
+no i i i would write the program and
+ 
+
+441
+00:09:17,600 --> 00:09:18,870
+no i i i would write the program and
+then you tell me what
+
+442
+00:09:18,870 --> 00:09:18,880
+then you tell me what
+ 
+
+443
+00:09:18,880 --> 00:09:21,430
+then you tell me what
+what's the answer okay and then i can
+
+444
+00:09:21,430 --> 00:09:21,440
+what's the answer okay and then i can
+ 
+
+445
+00:09:21,440 --> 00:09:22,230
+what's the answer okay and then i can
+say
+
+446
+00:09:22,230 --> 00:09:22,240
+say
+ 
+
+447
+00:09:22,240 --> 00:09:26,389
+say
+if i have this uh uh p equals head
+
+448
+00:09:26,389 --> 00:09:26,399
+if i have this uh uh p equals head
+ 
+
+449
+00:09:26,399 --> 00:09:30,310
+if i have this uh uh p equals head
+okay and then i can say p
+
+450
+00:09:30,310 --> 00:09:30,320
+okay and then i can say p
+ 
+
+451
+00:09:30,320 --> 00:09:35,030
+okay and then i can say p
+e dot at the noun remember and now
+
+452
+00:09:35,030 --> 00:09:35,040
+e dot at the noun remember and now
+ 
+
+453
+00:09:35,040 --> 00:09:38,550
+e dot at the noun remember and now
+i okay
+
+454
+00:09:38,550 --> 00:09:38,560
+i okay
+ 
+
+455
+00:09:38,560 --> 00:09:40,389
+i okay
+and then this will return the next note
+
+456
+00:09:40,389 --> 00:09:40,399
+and then this will return the next note
+ 
+
+457
+00:09:40,399 --> 00:09:41,990
+and then this will return the next note
+yeah and if i have say p
+
+458
+00:09:41,990 --> 00:09:42,000
+yeah and if i have say p
+ 
+
+459
+00:09:42,000 --> 00:09:45,190
+yeah and if i have say p
+equals p at the next
+
+460
+00:09:45,190 --> 00:09:45,200
+equals p at the next
+ 
+
+461
+00:09:45,200 --> 00:09:48,949
+equals p at the next
+note okay now after this then i can say
+
+462
+00:09:48,949 --> 00:09:48,959
+note okay now after this then i can say
+ 
+
+463
+00:09:48,959 --> 00:09:52,870
+note okay now after this then i can say
+i can no no no let me say i say
+
+464
+00:09:52,870 --> 00:09:52,880
+i can no no no let me say i say
+ 
+
+465
+00:09:52,880 --> 00:09:56,389
+i can no no no let me say i say
+p equals hat
+
+466
+00:09:56,389 --> 00:09:56,399
+p equals hat
+ 
+
+467
+00:09:56,399 --> 00:10:00,710
+p equals hat
+okay why p is not long
+
+468
+00:10:00,710 --> 00:10:00,720
+okay why p is not long
+ 
+
+469
+00:10:00,720 --> 00:10:07,620
+okay why p is not long
+print p
+
+470
+00:10:07,620 --> 00:10:07,630
+
+ 
+
+471
+00:10:07,630 --> 00:10:11,350
+
+[Music]
+
+472
+00:10:11,350 --> 00:10:11,360
+
+ 
+
+473
+00:10:11,360 --> 00:10:13,910
+
+so do you think what do you what's the
+
+474
+00:10:13,910 --> 00:10:13,920
+so do you think what do you what's the
+ 
+
+475
+00:10:13,920 --> 00:10:15,509
+so do you think what do you what's the
+output of this problem
+
+476
+00:10:15,509 --> 00:10:15,519
+output of this problem
+ 
+
+477
+00:10:15,519 --> 00:10:19,990
+output of this problem
+that's it minus
+
+478
+00:10:19,990 --> 00:10:20,000
+
+ 
+
+479
+00:10:20,000 --> 00:10:22,790
+
+wow how do you know how do you know can
+
+480
+00:10:22,790 --> 00:10:22,800
+wow how do you know how do you know can
+ 
+
+481
+00:10:22,800 --> 00:10:23,590
+wow how do you know how do you know can
+you tell me why
+
+482
+00:10:23,590 --> 00:10:23,600
+you tell me why
+ 
+
+483
+00:10:23,600 --> 00:10:26,350
+you tell me why
+yes exactly that's the opponent well i
+
+484
+00:10:26,350 --> 00:10:26,360
+yes exactly that's the opponent well i
+ 
+
+485
+00:10:26,360 --> 00:10:29,110
+yes exactly that's the opponent well i
+am after 10 but he doesn't do
+
+486
+00:10:29,110 --> 00:10:29,120
+am after 10 but he doesn't do
+ 
+
+487
+00:10:29,120 --> 00:10:33,750
+am after 10 but he doesn't do
+10. yes obviously i
+
+488
+00:10:33,750 --> 00:10:33,760
+10. yes obviously i
+ 
+
+489
+00:10:33,760 --> 00:10:35,990
+10. yes obviously i
+yeah exactly so first of all we have a
+
+490
+00:10:35,990 --> 00:10:36,000
+yeah exactly so first of all we have a
+ 
+
+491
+00:10:36,000 --> 00:10:37,110
+yeah exactly so first of all we have a
+look at what it does is
+
+492
+00:10:37,110 --> 00:10:37,120
+look at what it does is
+ 
+
+493
+00:10:37,120 --> 00:10:39,030
+look at what it does is
+first of all we create a node we have
+
+494
+00:10:39,030 --> 00:10:39,040
+first of all we create a node we have
+ 
+
+495
+00:10:39,040 --> 00:10:41,110
+first of all we create a node we have
+created now which is minus one yeah
+
+496
+00:10:41,110 --> 00:10:41,120
+created now which is minus one yeah
+ 
+
+497
+00:10:41,120 --> 00:10:43,750
+created now which is minus one yeah
+yeah minus one but we point into nothing
+
+498
+00:10:43,750 --> 00:10:43,760
+yeah minus one but we point into nothing
+ 
+
+499
+00:10:43,760 --> 00:10:44,150
+yeah minus one but we point into nothing
+yet
+
+500
+00:10:44,150 --> 00:10:44,160
+yet
+ 
+
+501
+00:10:44,160 --> 00:10:47,269
+yet
+and now we we save this p here right
+
+502
+00:10:47,269 --> 00:10:47,279
+and now we we save this p here right
+ 
+
+503
+00:10:47,279 --> 00:10:50,470
+and now we we save this p here right
+p is pointing to at least and then p
+
+504
+00:10:50,470 --> 00:10:50,480
+p is pointing to at least and then p
+ 
+
+505
+00:10:50,480 --> 00:10:53,670
+p is pointing to at least and then p
+at node i this will be 0 to
+
+506
+00:10:53,670 --> 00:10:53,680
+at node i this will be 0 to
+ 
+
+507
+00:10:53,680 --> 00:10:57,030
+at node i this will be 0 to
+1 2 3 to 9 right yeah
+
+508
+00:10:57,030 --> 00:10:57,040
+1 2 3 to 9 right yeah
+ 
+
+509
+00:10:57,040 --> 00:11:00,150
+1 2 3 to 9 right yeah
+what it does is every time i create a
+
+510
+00:11:00,150 --> 00:11:00,160
+what it does is every time i create a
+ 
+
+511
+00:11:00,160 --> 00:11:01,030
+what it does is every time i create a
+note with this
+
+512
+00:11:01,030 --> 00:11:01,040
+note with this
+ 
+
+513
+00:11:01,040 --> 00:11:03,829
+note with this
+value zero one two three yeah and i put
+
+514
+00:11:03,829 --> 00:11:03,839
+value zero one two three yeah and i put
+ 
+
+515
+00:11:03,839 --> 00:11:04,710
+value zero one two three yeah and i put
+i put it here
+
+516
+00:11:04,710 --> 00:11:04,720
+i put it here
+ 
+
+517
+00:11:04,720 --> 00:11:07,269
+i put it here
+this is now i i'm zero yeah and then
+
+518
+00:11:07,269 --> 00:11:07,279
+this is now i i'm zero yeah and then
+ 
+
+519
+00:11:07,279 --> 00:11:07,910
+this is now i i'm zero yeah and then
+this p
+
+520
+00:11:07,910 --> 00:11:07,920
+this p
+ 
+
+521
+00:11:07,920 --> 00:11:11,430
+this p
+at link to it and then p now moves to
+
+522
+00:11:11,430 --> 00:11:11,440
+at link to it and then p now moves to
+ 
+
+523
+00:11:11,440 --> 00:11:12,230
+at link to it and then p now moves to
+here and then
+
+524
+00:11:12,230 --> 00:11:12,240
+here and then
+ 
+
+525
+00:11:12,240 --> 00:11:15,590
+here and then
+one i create a node one and i link to it
+
+526
+00:11:15,590 --> 00:11:15,600
+one i create a node one and i link to it
+ 
+
+527
+00:11:15,600 --> 00:11:17,990
+one i create a node one and i link to it
+and now p moves to here yeah so
+
+528
+00:11:17,990 --> 00:11:18,000
+and now p moves to here yeah so
+ 
+
+529
+00:11:18,000 --> 00:11:19,509
+and now p moves to here yeah so
+eventually there will be a link
+
+530
+00:11:19,509 --> 00:11:19,519
+eventually there will be a link
+ 
+
+531
+00:11:19,519 --> 00:11:22,710
+eventually there will be a link
+minus one zero one two three four
+
+532
+00:11:22,710 --> 00:11:22,720
+minus one zero one two three four
+ 
+
+533
+00:11:22,720 --> 00:11:26,389
+minus one zero one two three four
+five yeah to nine okay and now
+
+534
+00:11:26,389 --> 00:11:26,399
+five yeah to nine okay and now
+ 
+
+535
+00:11:26,399 --> 00:11:29,590
+five yeah to nine okay and now
+p equals hat head is here yeah p head is
+
+536
+00:11:29,590 --> 00:11:29,600
+p equals hat head is here yeah p head is
+ 
+
+537
+00:11:29,600 --> 00:11:30,710
+p equals hat head is here yeah p head is
+here
+
+538
+00:11:30,710 --> 00:11:30,720
+here
+ 
+
+539
+00:11:30,720 --> 00:11:33,670
+here
+p equals hat so p pointing to here and
+
+540
+00:11:33,670 --> 00:11:33,680
+p equals hat so p pointing to here and
+ 
+
+541
+00:11:33,680 --> 00:11:34,550
+p equals hat so p pointing to here and
+now y p
+
+542
+00:11:34,550 --> 00:11:34,560
+now y p
+ 
+
+543
+00:11:34,560 --> 00:11:37,110
+now y p
+is not reaching the end we put the p the
+
+544
+00:11:37,110 --> 00:11:37,120
+is not reaching the end we put the p the
+ 
+
+545
+00:11:37,120 --> 00:11:38,870
+is not reaching the end we put the p the
+value so which is minus one
+
+546
+00:11:38,870 --> 00:11:38,880
+value so which is minus one
+ 
+
+547
+00:11:38,880 --> 00:11:41,670
+value so which is minus one
+p equals p dot x and then move the p to
+
+548
+00:11:41,670 --> 00:11:41,680
+p equals p dot x and then move the p to
+ 
+
+549
+00:11:41,680 --> 00:11:43,509
+p equals p dot x and then move the p to
+the next yeah
+
+550
+00:11:43,509 --> 00:11:43,519
+the next yeah
+ 
+
+551
+00:11:43,519 --> 00:11:45,990
+the next yeah
+and then move it to the left window so
+
+552
+00:11:45,990 --> 00:11:46,000
+and then move it to the left window so
+ 
+
+553
+00:11:46,000 --> 00:11:47,750
+and then move it to the left window so
+it just follows the linked list
+
+554
+00:11:47,750 --> 00:11:47,760
+it just follows the linked list
+ 
+
+555
+00:11:47,760 --> 00:11:50,230
+it just follows the linked list
+follows the note in the linked list yeah
+
+556
+00:11:50,230 --> 00:11:50,240
+follows the note in the linked list yeah
+ 
+
+557
+00:11:50,240 --> 00:11:51,430
+follows the note in the linked list yeah
+correct
+
+558
+00:11:51,430 --> 00:11:51,440
+correct
+ 
+
+559
+00:11:51,440 --> 00:11:54,629
+correct
+what's the time complexity
+
+560
+00:11:54,629 --> 00:11:54,639
+what's the time complexity
+ 
+
+561
+00:11:54,639 --> 00:11:57,110
+what's the time complexity
+yeah if this is n then that's our n
+
+562
+00:11:57,110 --> 00:11:57,120
+yeah if this is n then that's our n
+ 
+
+563
+00:11:57,120 --> 00:11:58,550
+yeah if this is n then that's our n
+right okay because
+
+564
+00:11:58,550 --> 00:11:58,560
+right okay because
+ 
+
+565
+00:11:58,560 --> 00:12:00,629
+right okay because
+we are following we are creating the sp
+
+566
+00:12:00,629 --> 00:12:00,639
+we are following we are creating the sp
+ 
+
+567
+00:12:00,639 --> 00:12:04,069
+we are following we are creating the sp
+what's the space complexity
+
+568
+00:12:04,069 --> 00:12:04,079
+what's the space complexity
+ 
+
+569
+00:12:04,079 --> 00:12:06,870
+what's the space complexity
+how much space do we need if that's n
+
+570
+00:12:06,870 --> 00:12:06,880
+how much space do we need if that's n
+ 
+
+571
+00:12:06,880 --> 00:12:07,990
+how much space do we need if that's n
+then we'll be
+
+572
+00:12:07,990 --> 00:12:08,000
+then we'll be
+ 
+
+573
+00:12:08,000 --> 00:12:11,030
+then we'll be
+on one and
+
+574
+00:12:11,030 --> 00:12:11,040
+on one and
+ 
+
+575
+00:12:11,040 --> 00:12:12,949
+on one and
+and because we are we are obviously
+
+576
+00:12:12,949 --> 00:12:12,959
+and because we are we are obviously
+ 
+
+577
+00:12:12,959 --> 00:12:14,629
+and because we are we are obviously
+allocating the space for each now so
+
+578
+00:12:14,629 --> 00:12:14,639
+allocating the space for each now so
+ 
+
+579
+00:12:14,639 --> 00:12:15,430
+allocating the space for each now so
+let's all n
+
+580
+00:12:15,430 --> 00:12:15,440
+let's all n
+ 
+
+581
+00:12:15,440 --> 00:12:17,110
+let's all n
+right yeah so let's take some
+
+582
+00:12:17,110 --> 00:12:17,120
+right yeah so let's take some
+ 
+
+583
+00:12:17,120 --> 00:12:19,110
+right yeah so let's take some
+connectivity and uh time complexity is
+
+584
+00:12:19,110 --> 00:12:19,120
+connectivity and uh time complexity is
+ 
+
+585
+00:12:19,120 --> 00:12:20,230
+connectivity and uh time complexity is
+also om
+
+586
+00:12:20,230 --> 00:12:20,240
+also om
+ 
+
+587
+00:12:20,240 --> 00:12:23,910
+also om
+it always works yes so this is quite
+
+588
+00:12:23,910 --> 00:12:23,920
+it always works yes so this is quite
+ 
+
+589
+00:12:23,920 --> 00:12:25,829
+it always works yes so this is quite
+interesting yeah you see this is another
+
+590
+00:12:25,829 --> 00:12:25,839
+interesting yeah you see this is another
+ 
+
+591
+00:12:25,839 --> 00:12:27,829
+interesting yeah you see this is another
+data structure i created
+
+592
+00:12:27,829 --> 00:12:27,839
+data structure i created
+ 
+
+593
+00:12:27,839 --> 00:12:30,790
+data structure i created
+a note a chain you can imagine that's a
+
+594
+00:12:30,790 --> 00:12:30,800
+a note a chain you can imagine that's a
+ 
+
+595
+00:12:30,800 --> 00:12:31,829
+a note a chain you can imagine that's a
+chain yeah
+
+596
+00:12:31,829 --> 00:12:31,839
+chain yeah
+ 
+
+597
+00:12:31,839 --> 00:12:35,110
+chain yeah
+and i link it together okay yeah link it
+
+598
+00:12:35,110 --> 00:12:35,120
+and i link it together okay yeah link it
+ 
+
+599
+00:12:35,120 --> 00:12:39,420
+and i link it together okay yeah link it
+together
+
+600
+00:12:39,420 --> 00:12:39,430
+
+ 
+
+601
+00:12:39,430 --> 00:12:44,629
+
+[Music]
+
+602
+00:12:44,629 --> 00:12:44,639
+[Music]
+ 
+
+603
+00:12:44,639 --> 00:12:48,629
+[Music]
+okay okay okay so any questions so far
+
+604
+00:12:48,629 --> 00:12:48,639
+okay okay okay so any questions so far
+ 
+
+605
+00:12:48,639 --> 00:12:58,400
+okay okay okay so any questions so far
+no say bye bye bye
+
+606
+00:12:58,400 --> 00:12:58,410
+
+ 
+
+607
+00:12:58,410 --> 00:13:02,269
+
+[Music]
+
+608
+00:13:02,269 --> 00:13:02,279
+
+ 
+
+609
+00:13:02,279 --> 00:13:05,279
+
+bye
+

@@ -1,0 +1,5465 @@
+1
+00:00:02,080 --> 00:00:03,429
+
+and now today
+
+2
+00:00:03,429 --> 00:00:03,439
+and now today
+ 
+
+3
+00:00:03,439 --> 00:00:06,230
+and now today
+we're going to talk about chess hello
+
+4
+00:00:06,230 --> 00:00:06,240
+we're going to talk about chess hello
+ 
+
+5
+00:00:06,240 --> 00:00:06,789
+we're going to talk about chess hello
+eric
+
+6
+00:00:06,789 --> 00:00:06,799
+eric
+ 
+
+7
+00:00:06,799 --> 00:00:09,830
+eric
+hello ryan you should say what
+
+8
+00:00:09,830 --> 00:00:09,840
+hello ryan you should say what
+ 
+
+9
+00:00:09,840 --> 00:00:12,709
+hello ryan you should say what
+hello teacher hello teacher okay so
+
+10
+00:00:12,709 --> 00:00:12,719
+hello teacher hello teacher okay so
+ 
+
+11
+00:00:12,719 --> 00:00:14,549
+hello teacher hello teacher okay so
+today we're going to talk about an
+
+12
+00:00:14,549 --> 00:00:14,559
+today we're going to talk about an
+ 
+
+13
+00:00:14,559 --> 00:00:16,790
+today we're going to talk about an
+interesting problem chess problem and
+
+14
+00:00:16,790 --> 00:00:16,800
+interesting problem chess problem and
+ 
+
+15
+00:00:16,800 --> 00:00:17,670
+interesting problem chess problem and
+we're going to use
+
+16
+00:00:17,670 --> 00:00:17,680
+we're going to use
+ 
+
+17
+00:00:17,680 --> 00:00:19,910
+we're going to use
+challenge your brain yeah yeah yeah and
+
+18
+00:00:19,910 --> 00:00:19,920
+challenge your brain yeah yeah yeah and
+ 
+
+19
+00:00:19,920 --> 00:00:20,710
+challenge your brain yeah yeah yeah and
+we're going to
+
+20
+00:00:20,710 --> 00:00:20,720
+we're going to
+ 
+
+21
+00:00:20,720 --> 00:00:23,990
+we're going to
+use um dfs search remember we
+
+22
+00:00:23,990 --> 00:00:24,000
+use um dfs search remember we
+ 
+
+23
+00:00:24,000 --> 00:00:26,550
+use um dfs search remember we
+we talked about deaf research before to
+
+24
+00:00:26,550 --> 00:00:26,560
+we talked about deaf research before to
+ 
+
+25
+00:00:26,560 --> 00:00:27,830
+we talked about deaf research before to
+solve
+
+26
+00:00:27,830 --> 00:00:27,840
+solve
+ 
+
+27
+00:00:27,840 --> 00:00:30,710
+solve
+to solve this problem oh it's just there
+
+28
+00:00:30,710 --> 00:00:30,720
+to solve this problem oh it's just there
+ 
+
+29
+00:00:30,720 --> 00:00:31,109
+to solve this problem oh it's just there
+yeah
+
+30
+00:00:31,109 --> 00:00:31,119
+yeah
+ 
+
+31
+00:00:31,119 --> 00:00:34,229
+yeah
+yeah i know come on dfs
+
+32
+00:00:34,229 --> 00:00:34,239
+yeah i know come on dfs
+ 
+
+33
+00:00:34,239 --> 00:00:37,750
+yeah i know come on dfs
+it stands for what death
+
+34
+00:00:37,750 --> 00:00:37,760
+it stands for what death
+ 
+
+35
+00:00:37,760 --> 00:00:41,590
+it stands for what death
+first search yeah
+
+36
+00:00:41,590 --> 00:00:41,600
+
+ 
+
+37
+00:00:41,600 --> 00:00:44,950
+
+death but that first you
+
+38
+00:00:44,950 --> 00:00:44,960
+death but that first you
+ 
+
+39
+00:00:44,960 --> 00:00:47,670
+death but that first you
+and we're going to apply some uh
+
+40
+00:00:47,670 --> 00:00:47,680
+and we're going to apply some uh
+ 
+
+41
+00:00:47,680 --> 00:00:49,910
+and we're going to apply some uh
+interesting techniques to speed up the
+
+42
+00:00:49,910 --> 00:00:49,920
+interesting techniques to speed up the
+ 
+
+43
+00:00:49,920 --> 00:00:50,630
+interesting techniques to speed up the
+searches
+
+44
+00:00:50,630 --> 00:00:50,640
+searches
+ 
+
+45
+00:00:50,640 --> 00:00:54,229
+searches
+and then if we we combine with the
+
+46
+00:00:54,229 --> 00:00:54,239
+and then if we we combine with the
+ 
+
+47
+00:00:54,239 --> 00:00:57,189
+and then if we we combine with the
+branches to speed up yeah speed up
+
+48
+00:00:57,189 --> 00:00:57,199
+branches to speed up yeah speed up
+ 
+
+49
+00:00:57,199 --> 00:00:58,069
+branches to speed up yeah speed up
+branches
+
+50
+00:00:58,069 --> 00:00:58,079
+branches
+ 
+
+51
+00:00:58,079 --> 00:01:01,189
+branches
+uh branches cut off
+
+52
+00:01:01,189 --> 00:01:01,199
+uh branches cut off
+ 
+
+53
+00:01:01,199 --> 00:01:04,310
+uh branches cut off
+and then you become a backtracking
+
+54
+00:01:04,310 --> 00:01:04,320
+and then you become a backtracking
+ 
+
+55
+00:01:04,320 --> 00:01:06,310
+and then you become a backtracking
+aggregator so basically this is
+
+56
+00:01:06,310 --> 00:01:06,320
+aggregator so basically this is
+ 
+
+57
+00:01:06,320 --> 00:01:07,830
+aggregator so basically this is
+backtracking
+
+58
+00:01:07,830 --> 00:01:07,840
+backtracking
+ 
+
+59
+00:01:07,840 --> 00:01:11,030
+backtracking
+backtracking yeah yes okay so now okay
+
+60
+00:01:11,030 --> 00:01:11,040
+backtracking yeah yes okay so now okay
+ 
+
+61
+00:01:11,040 --> 00:01:12,789
+backtracking yeah yes okay so now okay
+this is concept okay so this is
+
+62
+00:01:12,789 --> 00:01:12,799
+this is concept okay so this is
+ 
+
+63
+00:01:12,799 --> 00:01:14,789
+this is concept okay so this is
+the problem is very simple so you you
+
+64
+00:01:14,789 --> 00:01:14,799
+the problem is very simple so you you
+ 
+
+65
+00:01:14,799 --> 00:01:16,630
+the problem is very simple so you you
+know you know the chest yeah
+
+66
+00:01:16,630 --> 00:01:16,640
+know you know the chest yeah
+ 
+
+67
+00:01:16,640 --> 00:01:19,270
+know you know the chest yeah
+yeah chest the size is eight times a
+
+68
+00:01:19,270 --> 00:01:19,280
+yeah chest the size is eight times a
+ 
+
+69
+00:01:19,280 --> 00:01:21,270
+yeah chest the size is eight times a
+yeah eight times a square so you have
+
+70
+00:01:21,270 --> 00:01:21,280
+yeah eight times a square so you have
+ 
+
+71
+00:01:21,280 --> 00:01:24,550
+yeah eight times a square so you have
+64 places to place right
+
+72
+00:01:24,550 --> 00:01:24,560
+64 places to place right
+ 
+
+73
+00:01:24,560 --> 00:01:27,749
+64 places to place right
+um so a squares okay
+
+74
+00:01:27,749 --> 00:01:27,759
+um so a squares okay
+ 
+
+75
+00:01:27,759 --> 00:01:31,429
+um so a squares okay
+i'm drawing the squares just roughly
+
+76
+00:01:31,429 --> 00:01:31,439
+i'm drawing the squares just roughly
+ 
+
+77
+00:01:31,439 --> 00:01:33,350
+i'm drawing the squares just roughly
+okay
+
+78
+00:01:33,350 --> 00:01:33,360
+okay
+ 
+
+79
+00:01:33,360 --> 00:01:37,190
+okay
+roughly how many squares are there
+
+80
+00:01:37,190 --> 00:01:37,200
+roughly how many squares are there
+ 
+
+81
+00:01:37,200 --> 00:01:40,390
+roughly how many squares are there
+two four six or more two
+
+82
+00:01:40,390 --> 00:01:40,400
+two four six or more two
+ 
+
+83
+00:01:40,400 --> 00:01:44,469
+two four six or more two
+four six this is your square
+
+84
+00:01:44,469 --> 00:01:44,479
+four six this is your square
+ 
+
+85
+00:01:44,479 --> 00:01:46,069
+four six this is your square
+okay are they lovely okay it doesn't
+
+86
+00:01:46,069 --> 00:01:46,079
+okay are they lovely okay it doesn't
+ 
+
+87
+00:01:46,079 --> 00:01:48,069
+okay are they lovely okay it doesn't
+have to be necessary let's go but
+
+88
+00:01:48,069 --> 00:01:48,079
+have to be necessary let's go but
+ 
+
+89
+00:01:48,079 --> 00:01:50,630
+have to be necessary let's go but
+i'm saying now it's eight times a yeah
+
+90
+00:01:50,630 --> 00:01:50,640
+i'm saying now it's eight times a yeah
+ 
+
+91
+00:01:50,640 --> 00:01:53,109
+i'm saying now it's eight times a yeah
+so if i place the queen
+
+92
+00:01:53,109 --> 00:01:53,119
+so if i place the queen
+ 
+
+93
+00:01:53,119 --> 00:01:56,310
+so if i place the queen
+you know queen queen q or that queen
+
+94
+00:01:56,310 --> 00:01:56,320
+you know queen queen q or that queen
+ 
+
+95
+00:01:56,320 --> 00:01:59,670
+you know queen queen q or that queen
+i i i want you to place eight
+
+96
+00:01:59,670 --> 00:01:59,680
+i i i want you to place eight
+ 
+
+97
+00:01:59,680 --> 00:02:03,270
+i i i want you to place eight
+queens eight queens
+
+98
+00:02:03,270 --> 00:02:03,280
+queens eight queens
+ 
+
+99
+00:02:03,280 --> 00:02:06,630
+queens eight queens
+on this ball so let no
+
+100
+00:02:06,630 --> 00:02:06,640
+on this ball so let no
+ 
+
+101
+00:02:06,640 --> 00:02:09,430
+on this ball so let no
+queens no any two queens are attacking
+
+102
+00:02:09,430 --> 00:02:09,440
+queens no any two queens are attacking
+ 
+
+103
+00:02:09,440 --> 00:02:11,110
+queens no any two queens are attacking
+each other so what what i mean by
+
+104
+00:02:11,110 --> 00:02:11,120
+each other so what what i mean by
+ 
+
+105
+00:02:11,120 --> 00:02:13,030
+each other so what what i mean by
+attacking is that
+
+106
+00:02:13,030 --> 00:02:13,040
+attacking is that
+ 
+
+107
+00:02:13,040 --> 00:02:16,309
+attacking is that
+it can't be on the same row same column
+
+108
+00:02:16,309 --> 00:02:16,319
+it can't be on the same row same column
+ 
+
+109
+00:02:16,319 --> 00:02:19,430
+it can't be on the same row same column
+and same type diagonals yeah
+
+110
+00:02:19,430 --> 00:02:19,440
+and same type diagonals yeah
+ 
+
+111
+00:02:19,440 --> 00:02:22,150
+and same type diagonals yeah
+yeah so these as well okay so when i
+
+112
+00:02:22,150 --> 00:02:22,160
+yeah so these as well okay so when i
+ 
+
+113
+00:02:22,160 --> 00:02:24,070
+yeah so these as well okay so when i
+place the queen here
+
+114
+00:02:24,070 --> 00:02:24,080
+place the queen here
+ 
+
+115
+00:02:24,080 --> 00:02:27,190
+place the queen here
+i can't place i can place
+
+116
+00:02:27,190 --> 00:02:27,200
+i can't place i can place
+ 
+
+117
+00:02:27,200 --> 00:02:29,270
+i can't place i can place
+okay i probably need to use the red line
+
+118
+00:02:29,270 --> 00:02:29,280
+okay i probably need to use the red line
+ 
+
+119
+00:02:29,280 --> 00:02:30,229
+okay i probably need to use the red line
+okay then
+
+120
+00:02:30,229 --> 00:02:30,239
+okay then
+ 
+
+121
+00:02:30,239 --> 00:02:32,710
+okay then
+you can put it here or here yeah look at
+
+122
+00:02:32,710 --> 00:02:32,720
+you can put it here or here yeah look at
+ 
+
+123
+00:02:32,720 --> 00:02:34,550
+you can put it here or here yeah look at
+this this line you can't place you can
+
+124
+00:02:34,550 --> 00:02:34,560
+this this line you can't place you can
+ 
+
+125
+00:02:34,560 --> 00:02:35,750
+this this line you can't place you can
+place
+
+126
+00:02:35,750 --> 00:02:35,760
+place
+ 
+
+127
+00:02:35,760 --> 00:02:38,390
+place
+you can place here you can place your
+
+128
+00:02:38,390 --> 00:02:38,400
+you can place here you can place your
+ 
+
+129
+00:02:38,400 --> 00:02:40,229
+you can place here you can place your
+tangles okay
+
+130
+00:02:40,229 --> 00:02:40,239
+tangles okay
+ 
+
+131
+00:02:40,239 --> 00:02:43,270
+tangles okay
+yeah you can play yeah yeah and i want
+
+132
+00:02:43,270 --> 00:02:43,280
+yeah you can play yeah yeah and i want
+ 
+
+133
+00:02:43,280 --> 00:02:44,710
+yeah you can play yeah yeah and i want
+you to play
+
+134
+00:02:44,710 --> 00:02:44,720
+you to play
+ 
+
+135
+00:02:44,720 --> 00:02:47,509
+you to play
+once i put it here then you can play
+
+136
+00:02:47,509 --> 00:02:47,519
+once i put it here then you can play
+ 
+
+137
+00:02:47,519 --> 00:02:48,470
+once i put it here then you can play
+here
+
+138
+00:02:48,470 --> 00:02:48,480
+here
+ 
+
+139
+00:02:48,480 --> 00:02:52,150
+here
+here you see you see what i mean yeah
+
+140
+00:02:52,150 --> 00:02:52,160
+here you see you see what i mean yeah
+ 
+
+141
+00:02:52,160 --> 00:02:54,150
+here you see you see what i mean yeah
+okay so let's think about this problem
+
+142
+00:02:54,150 --> 00:02:54,160
+okay so let's think about this problem
+ 
+
+143
+00:02:54,160 --> 00:02:55,750
+okay so let's think about this problem
+first okay it's eight queens we are
+
+144
+00:02:55,750 --> 00:02:55,760
+first okay it's eight queens we are
+ 
+
+145
+00:02:55,760 --> 00:02:57,110
+first okay it's eight queens we are
+playing planes in equine
+
+146
+00:02:57,110 --> 00:02:57,120
+playing planes in equine
+ 
+
+147
+00:02:57,120 --> 00:02:58,710
+playing planes in equine
+and think how many solutions we can
+
+148
+00:02:58,710 --> 00:02:58,720
+and think how many solutions we can
+ 
+
+149
+00:02:58,720 --> 00:03:00,869
+and think how many solutions we can
+place on the queens on the top
+
+150
+00:03:00,869 --> 00:03:00,879
+place on the queens on the top
+ 
+
+151
+00:03:00,879 --> 00:03:03,030
+place on the queens on the top
+and how about if i make it a little bit
+
+152
+00:03:03,030 --> 00:03:03,040
+and how about if i make it a little bit
+ 
+
+153
+00:03:03,040 --> 00:03:04,149
+and how about if i make it a little bit
+simpler so
+
+154
+00:03:04,149 --> 00:03:04,159
+simpler so
+ 
+
+155
+00:03:04,159 --> 00:03:06,390
+simpler so
+let's say you you can play on the
+
+156
+00:03:06,390 --> 00:03:06,400
+let's say you you can play on the
+ 
+
+157
+00:03:06,400 --> 00:03:08,229
+let's say you you can play on the
+diagonals but not the
+
+158
+00:03:08,229 --> 00:03:08,239
+diagonals but not the
+ 
+
+159
+00:03:08,239 --> 00:03:11,270
+diagonals but not the
+same columns some rows same columns and
+
+160
+00:03:11,270 --> 00:03:11,280
+same columns some rows same columns and
+ 
+
+161
+00:03:11,280 --> 00:03:12,229
+same columns some rows same columns and
+some nodes
+
+162
+00:03:12,229 --> 00:03:12,239
+some nodes
+ 
+
+163
+00:03:12,239 --> 00:03:15,430
+some nodes
+so how many solutions
+
+164
+00:03:15,430 --> 00:03:15,440
+
+ 
+
+165
+00:03:15,440 --> 00:03:20,869
+
+okay maybe yeah maybe try this uh
+
+166
+00:03:20,869 --> 00:03:20,879
+
+ 
+
+167
+00:03:20,879 --> 00:03:24,949
+
+uh four by four three by three
+
+168
+00:03:24,949 --> 00:03:24,959
+uh four by four three by three
+ 
+
+169
+00:03:24,959 --> 00:03:27,509
+uh four by four three by three
+okay three by three okay so three by
+
+170
+00:03:27,509 --> 00:03:27,519
+okay three by three okay so three by
+ 
+
+171
+00:03:27,519 --> 00:03:29,110
+okay three by three okay so three by
+three queens three queens i want to
+
+172
+00:03:29,110 --> 00:03:29,120
+three queens three queens i want to
+ 
+
+173
+00:03:29,120 --> 00:03:30,949
+three queens three queens i want to
+place three kings there
+
+174
+00:03:30,949 --> 00:03:30,959
+place three kings there
+ 
+
+175
+00:03:30,959 --> 00:03:33,190
+place three kings there
+so that the loose is simpler that's even
+
+176
+00:03:33,190 --> 00:03:33,200
+so that the loose is simpler that's even
+ 
+
+177
+00:03:33,200 --> 00:03:34,630
+so that the loose is simpler that's even
+harder yeah
+
+178
+00:03:34,630 --> 00:03:34,640
+harder yeah
+ 
+
+179
+00:03:34,640 --> 00:03:36,869
+harder yeah
+sorry that's even harder no no no
+
+180
+00:03:36,869 --> 00:03:36,879
+sorry that's even harder no no no
+ 
+
+181
+00:03:36,879 --> 00:03:38,390
+sorry that's even harder no no no
+frequency is easier
+
+182
+00:03:38,390 --> 00:03:38,400
+frequency is easier
+ 
+
+183
+00:03:38,400 --> 00:03:41,589
+frequency is easier
+so because if you put it in the middle
+
+184
+00:03:41,589 --> 00:03:41,599
+so because if you put it in the middle
+ 
+
+185
+00:03:41,599 --> 00:03:44,470
+so because if you put it in the middle
+you can't fit anywhere else no no no no
+
+186
+00:03:44,470 --> 00:03:44,480
+you can't fit anywhere else no no no no
+ 
+
+187
+00:03:44,480 --> 00:03:46,630
+you can't fit anywhere else no no no no
+no what i mean is now we only can
+
+188
+00:03:46,630 --> 00:03:46,640
+no what i mean is now we only can
+ 
+
+189
+00:03:46,640 --> 00:03:49,589
+no what i mean is now we only can
+considering the rule number one is you
+
+190
+00:03:49,589 --> 00:03:49,599
+considering the rule number one is you
+ 
+
+191
+00:03:49,599 --> 00:03:50,710
+considering the rule number one is you
+can't place the
+
+192
+00:03:50,710 --> 00:03:50,720
+can't place the
+ 
+
+193
+00:03:50,720 --> 00:03:53,830
+can't place the
+queen on the same line horizontal line
+
+194
+00:03:53,830 --> 00:03:53,840
+queen on the same line horizontal line
+ 
+
+195
+00:03:53,840 --> 00:03:55,670
+queen on the same line horizontal line
+or vertical line it's okay to play on
+
+196
+00:03:55,670 --> 00:03:55,680
+or vertical line it's okay to play on
+ 
+
+197
+00:03:55,680 --> 00:03:56,949
+or vertical line it's okay to play on
+the diagonals
+
+198
+00:03:56,949 --> 00:03:56,959
+the diagonals
+ 
+
+199
+00:03:56,959 --> 00:03:59,350
+the diagonals
+so i want to play three queens there
+
+200
+00:03:59,350 --> 00:03:59,360
+so i want to play three queens there
+ 
+
+201
+00:03:59,360 --> 00:04:00,550
+so i want to play three queens there
+easy
+
+202
+00:04:00,550 --> 00:04:00,560
+easy
+ 
+
+203
+00:04:00,560 --> 00:04:03,820
+easy
+this one this one this one okay
+
+204
+00:04:03,820 --> 00:04:03,830
+this one this one this one okay
+ 
+
+205
+00:04:03,830 --> 00:04:08,630
+this one this one this one okay
+[Music]
+
+206
+00:04:08,630 --> 00:04:08,640
+[Music]
+ 
+
+207
+00:04:08,640 --> 00:04:12,869
+[Music]
+so how many solutions are there
+
+208
+00:04:12,869 --> 00:04:12,879
+
+ 
+
+209
+00:04:12,879 --> 00:04:16,229
+
+how many four
+
+210
+00:04:16,229 --> 00:04:16,239
+how many four
+ 
+
+211
+00:04:16,239 --> 00:04:18,870
+how many four
+no no not correct ryan what's your
+
+212
+00:04:18,870 --> 00:04:18,880
+no no not correct ryan what's your
+ 
+
+213
+00:04:18,880 --> 00:04:19,909
+no no not correct ryan what's your
+answer
+
+214
+00:04:19,909 --> 00:04:19,919
+answer
+ 
+
+215
+00:04:19,919 --> 00:04:22,550
+answer
+how many i only play three queens there
+
+216
+00:04:22,550 --> 00:04:22,560
+how many i only play three queens there
+ 
+
+217
+00:04:22,560 --> 00:04:23,909
+how many i only play three queens there
+and i can play on
+
+218
+00:04:23,909 --> 00:04:23,919
+and i can play on
+ 
+
+219
+00:04:23,919 --> 00:04:26,790
+and i can play on
+i can't play on the uh on the same line
+
+220
+00:04:26,790 --> 00:04:26,800
+i can't play on the uh on the same line
+ 
+
+221
+00:04:26,800 --> 00:04:27,430
+i can't play on the uh on the same line
+or some
+
+222
+00:04:27,430 --> 00:04:27,440
+or some
+ 
+
+223
+00:04:27,440 --> 00:04:29,590
+or some
+vertical line but i can play on the same
+
+224
+00:04:29,590 --> 00:04:29,600
+vertical line but i can play on the same
+ 
+
+225
+00:04:29,600 --> 00:04:30,870
+vertical line but i can play on the same
+diagonals
+
+226
+00:04:30,870 --> 00:04:30,880
+diagonals
+ 
+
+227
+00:04:30,880 --> 00:04:34,550
+diagonals
+diagonally how to pronounce this
+
+228
+00:04:34,550 --> 00:04:34,560
+
+ 
+
+229
+00:04:34,560 --> 00:04:37,909
+
+three diagonal three three no
+
+230
+00:04:37,909 --> 00:04:37,919
+three diagonal three three no
+ 
+
+231
+00:04:37,919 --> 00:04:41,110
+three diagonal three three no
+no look
+
+232
+00:04:41,110 --> 00:04:41,120
+no look
+ 
+
+233
+00:04:41,120 --> 00:04:44,790
+no look
+no no no no one no of course not
+
+234
+00:04:44,790 --> 00:04:44,800
+no no no no one no of course not
+ 
+
+235
+00:04:44,800 --> 00:04:46,950
+no no no no one no of course not
+more than one okay look i put it here
+
+236
+00:04:46,950 --> 00:04:46,960
+more than one okay look i put it here
+ 
+
+237
+00:04:46,960 --> 00:04:47,990
+more than one okay look i put it here
+yeah yeah
+
+238
+00:04:47,990 --> 00:04:48,000
+yeah yeah
+ 
+
+239
+00:04:48,000 --> 00:04:51,030
+yeah yeah
+then i can play these here and here yeah
+
+240
+00:04:51,030 --> 00:04:51,040
+then i can play these here and here yeah
+ 
+
+241
+00:04:51,040 --> 00:04:52,390
+then i can play these here and here yeah
+that's one solution yeah
+
+242
+00:04:52,390 --> 00:04:52,400
+that's one solution yeah
+ 
+
+243
+00:04:52,400 --> 00:04:55,670
+that's one solution yeah
+am right yeah okay how about i play
+
+244
+00:04:55,670 --> 00:04:55,680
+am right yeah okay how about i play
+ 
+
+245
+00:04:55,680 --> 00:04:59,030
+am right yeah okay how about i play
+here and then i play five
+
+246
+00:04:59,030 --> 00:04:59,040
+here and then i play five
+ 
+
+247
+00:04:59,040 --> 00:05:01,590
+here and then i play five
+no no no no i play here and then i play
+
+248
+00:05:01,590 --> 00:05:01,600
+no no no no i play here and then i play
+ 
+
+249
+00:05:01,600 --> 00:05:02,550
+no no no no i play here and then i play
+here and then
+
+250
+00:05:02,550 --> 00:05:02,560
+here and then
+ 
+
+251
+00:05:02,560 --> 00:05:05,590
+here and then
+i place here yeah that's two right
+
+252
+00:05:05,590 --> 00:05:05,600
+i place here yeah that's two right
+ 
+
+253
+00:05:05,600 --> 00:05:22,469
+i place here yeah that's two right
+oh yeah okay and how about seven
+
+254
+00:05:22,469 --> 00:05:22,479
+
+ 
+
+255
+00:05:22,479 --> 00:05:24,469
+
+oh they're all over all six do you know
+
+256
+00:05:24,469 --> 00:05:24,479
+oh they're all over all six do you know
+ 
+
+257
+00:05:24,479 --> 00:05:26,870
+oh they're all over all six do you know
+how it's very easy to
+
+258
+00:05:26,870 --> 00:05:26,880
+how it's very easy to
+ 
+
+259
+00:05:26,880 --> 00:05:29,990
+how it's very easy to
+to think about it so we want to we want
+
+260
+00:05:29,990 --> 00:05:30,000
+to think about it so we want to we want
+ 
+
+261
+00:05:30,000 --> 00:05:30,710
+to think about it so we want to we want
+to
+
+262
+00:05:30,710 --> 00:05:30,720
+to
+ 
+
+263
+00:05:30,720 --> 00:05:33,830
+to
+we want to play play three queens three
+
+264
+00:05:33,830 --> 00:05:33,840
+we want to play play three queens three
+ 
+
+265
+00:05:33,840 --> 00:05:36,790
+we want to play play three queens three
+queens yeah now how many columns can we
+
+266
+00:05:36,790 --> 00:05:36,800
+queens yeah now how many columns can we
+ 
+
+267
+00:05:36,800 --> 00:05:37,510
+queens yeah now how many columns can we
+place
+
+268
+00:05:37,510 --> 00:05:37,520
+place
+ 
+
+269
+00:05:37,520 --> 00:05:40,390
+place
+three yeah yeah so if i place the the
+
+270
+00:05:40,390 --> 00:05:40,400
+three yeah yeah so if i place the the
+ 
+
+271
+00:05:40,400 --> 00:05:41,510
+three yeah yeah so if i place the the
+first queen here
+
+272
+00:05:41,510 --> 00:05:41,520
+first queen here
+ 
+
+273
+00:05:41,520 --> 00:05:43,270
+first queen here
+the second queen here the third queen
+
+274
+00:05:43,270 --> 00:05:43,280
+the second queen here the third queen
+ 
+
+275
+00:05:43,280 --> 00:05:44,790
+the second queen here the third queen
+here will be simpler right
+
+276
+00:05:44,790 --> 00:05:44,800
+here will be simpler right
+ 
+
+277
+00:05:44,800 --> 00:05:47,189
+here will be simpler right
+yeah so how many if i place the in the
+
+278
+00:05:47,189 --> 00:05:47,199
+yeah so how many if i place the in the
+ 
+
+279
+00:05:47,199 --> 00:05:47,909
+yeah so how many if i place the in the
+first row
+
+280
+00:05:47,909 --> 00:05:47,919
+first row
+ 
+
+281
+00:05:47,919 --> 00:05:51,029
+first row
+if i make a decision here how many
+
+282
+00:05:51,029 --> 00:05:51,039
+if i make a decision here how many
+ 
+
+283
+00:05:51,039 --> 00:05:54,230
+if i make a decision here how many
+how many when i place the second coin
+
+284
+00:05:54,230 --> 00:05:54,240
+how many when i place the second coin
+ 
+
+285
+00:05:54,240 --> 00:05:54,870
+how many when i place the second coin
+how many
+
+286
+00:05:54,870 --> 00:05:54,880
+how many
+ 
+
+287
+00:05:54,880 --> 00:05:57,749
+how many
+four no when how many solutions i can
+
+288
+00:05:57,749 --> 00:05:57,759
+four no when how many solutions i can
+ 
+
+289
+00:05:57,759 --> 00:05:58,790
+four no when how many solutions i can
+play for the
+
+290
+00:05:58,790 --> 00:05:58,800
+play for the
+ 
+
+291
+00:05:58,800 --> 00:06:01,990
+play for the
+followers how many places can i place
+
+292
+00:06:01,990 --> 00:06:02,000
+followers how many places can i place
+ 
+
+293
+00:06:02,000 --> 00:06:07,110
+followers how many places can i place
+if i place the first queen
+
+294
+00:06:07,110 --> 00:06:07,120
+if i place the first queen
+ 
+
+295
+00:06:07,120 --> 00:06:10,230
+if i place the first queen
+two yes two look i pick one position
+
+296
+00:06:10,230 --> 00:06:10,240
+two yes two look i pick one position
+ 
+
+297
+00:06:10,240 --> 00:06:11,830
+two yes two look i pick one position
+here then i have little two more
+
+298
+00:06:11,830 --> 00:06:11,840
+here then i have little two more
+ 
+
+299
+00:06:11,840 --> 00:06:14,309
+here then i have little two more
+yeah so i pick one and then what's the
+
+300
+00:06:14,309 --> 00:06:14,319
+yeah so i pick one and then what's the
+ 
+
+301
+00:06:14,319 --> 00:06:16,550
+yeah so i pick one and then what's the
+next the only one solution there yeah
+
+302
+00:06:16,550 --> 00:06:16,560
+next the only one solution there yeah
+ 
+
+303
+00:06:16,560 --> 00:06:18,870
+next the only one solution there yeah
+so that the answer is three times two
+
+304
+00:06:18,870 --> 00:06:18,880
+so that the answer is three times two
+ 
+
+305
+00:06:18,880 --> 00:06:20,550
+so that the answer is three times two
+right three
+
+306
+00:06:20,550 --> 00:06:20,560
+right three
+ 
+
+307
+00:06:20,560 --> 00:06:23,110
+right three
+two one okay so same for this eight
+
+308
+00:06:23,110 --> 00:06:23,120
+two one okay so same for this eight
+ 
+
+309
+00:06:23,120 --> 00:06:24,070
+two one okay so same for this eight
+queens it will be
+
+310
+00:06:24,070 --> 00:06:24,080
+queens it will be
+ 
+
+311
+00:06:24,080 --> 00:06:27,189
+queens it will be
+a times the first first column i have
+
+312
+00:06:27,189 --> 00:06:27,199
+a times the first first column i have
+ 
+
+313
+00:06:27,199 --> 00:06:29,830
+a times the first first column i have
+a personal position and after i pick the
+
+314
+00:06:29,830 --> 00:06:29,840
+a personal position and after i pick the
+ 
+
+315
+00:06:29,840 --> 00:06:32,230
+a personal position and after i pick the
+first one what's the next
+
+316
+00:06:32,230 --> 00:06:32,240
+first one what's the next
+ 
+
+317
+00:06:32,240 --> 00:06:35,670
+first one what's the next
+the second yeah and what's the third one
+
+318
+00:06:35,670 --> 00:06:35,680
+the second yeah and what's the third one
+ 
+
+319
+00:06:35,680 --> 00:06:38,870
+the second yeah and what's the third one
+uh six and what's the fourth one five
+
+320
+00:06:38,870 --> 00:06:38,880
+uh six and what's the fourth one five
+ 
+
+321
+00:06:38,880 --> 00:06:41,270
+uh six and what's the fourth one five
+four three two one so what's this what's
+
+322
+00:06:41,270 --> 00:06:41,280
+four three two one so what's this what's
+ 
+
+323
+00:06:41,280 --> 00:06:43,350
+four three two one so what's this what's
+this number
+
+324
+00:06:43,350 --> 00:06:43,360
+this number
+ 
+
+325
+00:06:43,360 --> 00:06:47,670
+this number
+a factor right yeah let's only apply
+
+326
+00:06:47,670 --> 00:06:47,680
+a factor right yeah let's only apply
+ 
+
+327
+00:06:47,680 --> 00:06:49,909
+a factor right yeah let's only apply
+this not the horizontal and not the
+
+328
+00:06:49,909 --> 00:06:49,919
+this not the horizontal and not the
+ 
+
+329
+00:06:49,919 --> 00:06:51,189
+this not the horizontal and not the
+vertical right
+
+330
+00:06:51,189 --> 00:06:51,199
+vertical right
+ 
+
+331
+00:06:51,199 --> 00:06:53,430
+vertical right
+so you can have a factorial and if i
+
+332
+00:06:53,430 --> 00:06:53,440
+so you can have a factorial and if i
+ 
+
+333
+00:06:53,440 --> 00:06:55,589
+so you can have a factorial and if i
+want to place the end queens on
+
+334
+00:06:55,589 --> 00:06:55,599
+want to place the end queens on
+ 
+
+335
+00:06:55,599 --> 00:06:58,629
+want to place the end queens on
+on the n times and bar
+
+336
+00:06:58,629 --> 00:06:58,639
+on the n times and bar
+ 
+
+337
+00:06:58,639 --> 00:07:04,790
+on the n times and bar
+how many solutions uh
+
+338
+00:07:04,790 --> 00:07:04,800
+
+ 
+
+339
+00:07:04,800 --> 00:07:06,950
+
+but you can still place on the diagonal
+
+340
+00:07:06,950 --> 00:07:06,960
+but you can still place on the diagonal
+ 
+
+341
+00:07:06,960 --> 00:07:08,870
+but you can still place on the diagonal
+yeah okay
+
+342
+00:07:08,870 --> 00:07:08,880
+yeah okay
+ 
+
+343
+00:07:08,880 --> 00:07:10,710
+yeah okay
+but if we want to consider the entire
+
+344
+00:07:10,710 --> 00:07:10,720
+but if we want to consider the entire
+ 
+
+345
+00:07:10,720 --> 00:07:11,909
+but if we want to consider the entire
+note then
+
+346
+00:07:11,909 --> 00:07:11,919
+note then
+ 
+
+347
+00:07:11,919 --> 00:07:14,309
+note then
+we can use the mathematics solutions to
+
+348
+00:07:14,309 --> 00:07:14,319
+we can use the mathematics solutions to
+ 
+
+349
+00:07:14,319 --> 00:07:15,110
+we can use the mathematics solutions to
+to calculate
+
+350
+00:07:15,110 --> 00:07:15,120
+to calculate
+ 
+
+351
+00:07:15,120 --> 00:07:17,110
+to calculate
+so how can we do this this is this is
+
+352
+00:07:17,110 --> 00:07:17,120
+so how can we do this this is this is
+ 
+
+353
+00:07:17,120 --> 00:07:19,029
+so how can we do this this is this is
+more interesting yeah do you get it
+
+354
+00:07:19,029 --> 00:07:19,039
+more interesting yeah do you get it
+ 
+
+355
+00:07:19,039 --> 00:07:20,469
+more interesting yeah do you get it
+do you get it now because i mean it's
+
+356
+00:07:20,469 --> 00:07:20,479
+do you get it now because i mean it's
+ 
+
+357
+00:07:20,479 --> 00:07:22,390
+do you get it now because i mean it's
+great they are then
+
+358
+00:07:22,390 --> 00:07:22,400
+great they are then
+ 
+
+359
+00:07:22,400 --> 00:07:26,790
+great they are then
+a square rooted than a factorial
+
+360
+00:07:26,790 --> 00:07:26,800
+a square rooted than a factorial
+ 
+
+361
+00:07:26,800 --> 00:07:30,550
+a square rooted than a factorial
+um no okay oh
+
+362
+00:07:30,550 --> 00:07:30,560
+um no okay oh
+ 
+
+363
+00:07:30,560 --> 00:07:34,150
+um no okay oh
+that was a perfect idea yeah it's a good
+
+364
+00:07:34,150 --> 00:07:34,160
+that was a perfect idea yeah it's a good
+ 
+
+365
+00:07:34,160 --> 00:07:35,830
+that was a perfect idea yeah it's a good
+idea
+
+366
+00:07:35,830 --> 00:07:35,840
+idea
+ 
+
+367
+00:07:35,840 --> 00:07:37,830
+idea
+it's a good idea but it's not perfect
+
+368
+00:07:37,830 --> 00:07:37,840
+it's a good idea but it's not perfect
+ 
+
+369
+00:07:37,840 --> 00:07:39,510
+it's a good idea but it's not perfect
+enough oh okay
+
+370
+00:07:39,510 --> 00:07:39,520
+enough oh okay
+ 
+
+371
+00:07:39,520 --> 00:07:42,230
+enough oh okay
+and then i need any sauce any sauce
+
+372
+00:07:42,230 --> 00:07:42,240
+and then i need any sauce any sauce
+ 
+
+373
+00:07:42,240 --> 00:07:44,230
+and then i need any sauce any sauce
+count how many are they right
+
+374
+00:07:44,230 --> 00:07:44,240
+count how many are they right
+ 
+
+375
+00:07:44,240 --> 00:07:47,190
+count how many are they right
+then factor it no no no no
+
+376
+00:07:47,190 --> 00:07:47,200
+then factor it no no no no
+ 
+
+377
+00:07:47,200 --> 00:07:48,309
+then factor it no no no no
+[Music]
+
+378
+00:07:48,309 --> 00:07:48,319
+[Music]
+ 
+
+379
+00:07:48,319 --> 00:07:51,589
+[Music]
+why this is it's not very time it
+
+380
+00:07:51,589 --> 00:07:51,599
+why this is it's not very time it
+ 
+
+381
+00:07:51,599 --> 00:07:54,790
+why this is it's not very time it
+up all up to
+
+382
+00:07:54,790 --> 00:07:54,800
+up all up to
+ 
+
+383
+00:07:54,800 --> 00:08:00,230
+up all up to
+its number this is
+
+384
+00:08:00,230 --> 00:08:00,240
+
+ 
+
+385
+00:08:00,240 --> 00:08:02,869
+
+okay so now yeah very interesting idea
+
+386
+00:08:02,869 --> 00:08:02,879
+okay so now yeah very interesting idea
+ 
+
+387
+00:08:02,879 --> 00:08:03,589
+okay so now yeah very interesting idea
+okay so
+
+388
+00:08:03,589 --> 00:08:03,599
+okay so
+ 
+
+389
+00:08:03,599 --> 00:08:06,469
+okay so
+actually we asked computer how to try
+
+390
+00:08:06,469 --> 00:08:06,479
+actually we asked computer how to try
+ 
+
+391
+00:08:06,479 --> 00:08:08,070
+actually we asked computer how to try
+how do we try it
+
+392
+00:08:08,070 --> 00:08:08,080
+how do we try it
+ 
+
+393
+00:08:08,080 --> 00:08:12,150
+how do we try it
+so how do you try if the same look how
+
+394
+00:08:12,150 --> 00:08:12,160
+so how do you try if the same look how
+ 
+
+395
+00:08:12,160 --> 00:08:12,710
+so how do you try if the same look how
+about we
+
+396
+00:08:12,710 --> 00:08:12,720
+about we
+ 
+
+397
+00:08:12,720 --> 00:08:15,110
+about we
+first of all we we make sure that and
+
+398
+00:08:15,110 --> 00:08:15,120
+first of all we we make sure that and
+ 
+
+399
+00:08:15,120 --> 00:08:16,629
+first of all we we make sure that and
+each queen eight queens
+
+400
+00:08:16,629 --> 00:08:16,639
+each queen eight queens
+ 
+
+401
+00:08:16,639 --> 00:08:19,029
+each queen eight queens
+okay the first queen only stays here the
+
+402
+00:08:19,029 --> 00:08:19,039
+okay the first queen only stays here the
+ 
+
+403
+00:08:19,039 --> 00:08:20,230
+okay the first queen only stays here the
+first column
+
+404
+00:08:20,230 --> 00:08:20,240
+first column
+ 
+
+405
+00:08:20,240 --> 00:08:22,469
+first column
+the second queen second column third
+
+406
+00:08:22,469 --> 00:08:22,479
+the second queen second column third
+ 
+
+407
+00:08:22,479 --> 00:08:23,830
+the second queen second column third
+queen third column
+
+408
+00:08:23,830 --> 00:08:23,840
+queen third column
+ 
+
+409
+00:08:23,840 --> 00:08:25,670
+queen third column
+so in this case these eight queens
+
+410
+00:08:25,670 --> 00:08:25,680
+so in this case these eight queens
+ 
+
+411
+00:08:25,680 --> 00:08:27,990
+so in this case these eight queens
+cannot be the same column right
+
+412
+00:08:27,990 --> 00:08:28,000
+cannot be the same column right
+ 
+
+413
+00:08:28,000 --> 00:08:30,070
+cannot be the same column right
+yeah okay so how about if i place the
+
+414
+00:08:30,070 --> 00:08:30,080
+yeah okay so how about if i place the
+ 
+
+415
+00:08:30,080 --> 00:08:32,149
+yeah okay so how about if i place the
+one queen first queen here
+
+416
+00:08:32,149 --> 00:08:32,159
+one queen first queen here
+ 
+
+417
+00:08:32,159 --> 00:08:34,790
+one queen first queen here
+yeah then i want to place the second
+
+418
+00:08:34,790 --> 00:08:34,800
+yeah then i want to place the second
+ 
+
+419
+00:08:34,800 --> 00:08:35,509
+yeah then i want to place the second
+queen yeah
+
+420
+00:08:35,509 --> 00:08:35,519
+queen yeah
+ 
+
+421
+00:08:35,519 --> 00:08:37,909
+queen yeah
+yeah so the second queen here yeah can i
+
+422
+00:08:37,909 --> 00:08:37,919
+yeah so the second queen here yeah can i
+ 
+
+423
+00:08:37,919 --> 00:08:39,589
+yeah so the second queen here yeah can i
+play it here
+
+424
+00:08:39,589 --> 00:08:39,599
+play it here
+ 
+
+425
+00:08:39,599 --> 00:08:41,509
+play it here
+now right because it's uh i checked
+
+426
+00:08:41,509 --> 00:08:41,519
+now right because it's uh i checked
+ 
+
+427
+00:08:41,519 --> 00:08:42,790
+now right because it's uh i checked
+previous one the first one
+
+428
+00:08:42,790 --> 00:08:42,800
+previous one the first one
+ 
+
+429
+00:08:42,800 --> 00:08:45,750
+previous one the first one
+is on the attack right can i place here
+
+430
+00:08:45,750 --> 00:08:45,760
+is on the attack right can i place here
+ 
+
+431
+00:08:45,760 --> 00:08:46,310
+is on the attack right can i place here
+yes
+
+432
+00:08:46,310 --> 00:08:46,320
+yes
+ 
+
+433
+00:08:46,320 --> 00:08:49,829
+yes
+no no no yeah oh then
+
+434
+00:08:49,829 --> 00:08:49,839
+no no no yeah oh then
+ 
+
+435
+00:08:49,839 --> 00:08:52,230
+no no no yeah oh then
+then can i place it here yes okay okay
+
+436
+00:08:52,230 --> 00:08:52,240
+then can i place it here yes okay okay
+ 
+
+437
+00:08:52,240 --> 00:08:53,990
+then can i place it here yes okay okay
+then i try the third queen yeah because
+
+438
+00:08:53,990 --> 00:08:54,000
+then i try the third queen yeah because
+ 
+
+439
+00:08:54,000 --> 00:08:56,230
+then i try the third queen yeah because
+i can play place then i play plays on
+
+440
+00:08:56,230 --> 00:08:56,240
+i can play place then i play plays on
+ 
+
+441
+00:08:56,240 --> 00:09:02,230
+i can play place then i play plays on
+the second one
+
+442
+00:09:02,230 --> 00:09:02,240
+
+ 
+
+443
+00:09:02,240 --> 00:09:04,630
+
+look now the third queen uh this is the
+
+444
+00:09:04,630 --> 00:09:04,640
+look now the third queen uh this is the
+ 
+
+445
+00:09:04,640 --> 00:09:06,470
+look now the third queen uh this is the
+second way now i want to try the third
+
+446
+00:09:06,470 --> 00:09:06,480
+second way now i want to try the third
+ 
+
+447
+00:09:06,480 --> 00:09:06,949
+second way now i want to try the third
+queen
+
+448
+00:09:06,949 --> 00:09:06,959
+queen
+ 
+
+449
+00:09:06,959 --> 00:09:09,430
+queen
+can i place here no because of attack
+
+450
+00:09:09,430 --> 00:09:09,440
+can i place here no because of attack
+ 
+
+451
+00:09:09,440 --> 00:09:10,630
+can i place here no because of attack
+can i place here
+
+452
+00:09:10,630 --> 00:09:10,640
+can i place here
+ 
+
+453
+00:09:10,640 --> 00:09:14,310
+can i place here
+no can i place here no can i place here
+
+454
+00:09:14,310 --> 00:09:14,320
+no can i place here no can i place here
+ 
+
+455
+00:09:14,320 --> 00:09:17,509
+no can i place here no can i place here
+can i play here yes yes okay then i
+
+456
+00:09:17,509 --> 00:09:17,519
+can i play here yes yes okay then i
+ 
+
+457
+00:09:17,519 --> 00:09:19,430
+can i play here yes yes okay then i
+what's what happened i want to try the
+
+458
+00:09:19,430 --> 00:09:19,440
+what's what happened i want to try the
+ 
+
+459
+00:09:19,440 --> 00:09:23,950
+what's what happened i want to try the
+fourth king yeah
+
+460
+00:09:23,950 --> 00:09:23,960
+
+ 
+
+461
+00:09:23,960 --> 00:09:26,389
+
+[Music]
+
+462
+00:09:26,389 --> 00:09:26,399
+[Music]
+ 
+
+463
+00:09:26,399 --> 00:09:29,509
+[Music]
+yes yes okay and then the fake skin do
+
+464
+00:09:29,509 --> 00:09:29,519
+yes yes okay and then the fake skin do
+ 
+
+465
+00:09:29,519 --> 00:09:30,550
+yes yes okay and then the fake skin do
+you see it
+
+466
+00:09:30,550 --> 00:09:30,560
+you see it
+ 
+
+467
+00:09:30,560 --> 00:09:34,550
+you see it
+yeah okay so now when we reach the end
+
+468
+00:09:34,550 --> 00:09:34,560
+yeah okay so now when we reach the end
+ 
+
+469
+00:09:34,560 --> 00:09:37,750
+yeah okay so now when we reach the end
+then we know that's the solution yeah
+
+470
+00:09:37,750 --> 00:09:37,760
+then we know that's the solution yeah
+ 
+
+471
+00:09:37,760 --> 00:09:40,070
+then we know that's the solution yeah
+yeah and then now you will go back go
+
+472
+00:09:40,070 --> 00:09:40,080
+yeah and then now you will go back go
+ 
+
+473
+00:09:40,080 --> 00:09:40,949
+yeah and then now you will go back go
+back and you would
+
+474
+00:09:40,949 --> 00:09:40,959
+back and you would
+ 
+
+475
+00:09:40,959 --> 00:09:43,750
+back and you would
+because look when one placing the second
+
+476
+00:09:43,750 --> 00:09:43,760
+because look when one placing the second
+ 
+
+477
+00:09:43,760 --> 00:09:44,949
+because look when one placing the second
+queen
+
+478
+00:09:44,949 --> 00:09:44,959
+queen
+ 
+
+479
+00:09:44,959 --> 00:09:46,790
+queen
+this is the first of second grade and i
+
+480
+00:09:46,790 --> 00:09:46,800
+this is the first of second grade and i
+ 
+
+481
+00:09:46,800 --> 00:09:48,470
+this is the first of second grade and i
+can play second queen here yeah
+
+482
+00:09:48,470 --> 00:09:48,480
+can play second queen here yeah
+ 
+
+483
+00:09:48,480 --> 00:09:51,190
+can play second queen here yeah
+and then try solution again don't get it
+
+484
+00:09:51,190 --> 00:09:51,200
+and then try solution again don't get it
+ 
+
+485
+00:09:51,200 --> 00:09:53,190
+and then try solution again don't get it
+do you have this rough idea
+
+486
+00:09:53,190 --> 00:09:53,200
+do you have this rough idea
+ 
+
+487
+00:09:53,200 --> 00:09:56,550
+do you have this rough idea
+i i place one queen and then
+
+488
+00:09:56,550 --> 00:09:56,560
+i i place one queen and then
+ 
+
+489
+00:09:56,560 --> 00:09:59,590
+i i place one queen and then
+can i need to check is it valid if i
+
+490
+00:09:59,590 --> 00:09:59,600
+can i need to check is it valid if i
+ 
+
+491
+00:09:59,600 --> 00:10:01,590
+can i need to check is it valid if i
+read it i place here then i try next
+
+492
+00:10:01,590 --> 00:10:01,600
+read it i place here then i try next
+ 
+
+493
+00:10:01,600 --> 00:10:02,389
+read it i place here then i try next
+screen
+
+494
+00:10:02,389 --> 00:10:02,399
+screen
+ 
+
+495
+00:10:02,399 --> 00:10:04,630
+screen
+right if it's not ready i move to the
+
+496
+00:10:04,630 --> 00:10:04,640
+right if it's not ready i move to the
+ 
+
+497
+00:10:04,640 --> 00:10:06,870
+right if it's not ready i move to the
+next position which is the next yeah
+
+498
+00:10:06,870 --> 00:10:06,880
+next position which is the next yeah
+ 
+
+499
+00:10:06,880 --> 00:10:09,030
+next position which is the next yeah
+yeah okay so now we do the coating it
+
+500
+00:10:09,030 --> 00:10:09,040
+yeah okay so now we do the coating it
+ 
+
+501
+00:10:09,040 --> 00:10:11,350
+yeah okay so now we do the coating it
+should be easy
+
+502
+00:10:11,350 --> 00:10:11,360
+should be easy
+ 
+
+503
+00:10:11,360 --> 00:10:14,949
+should be easy
+why not do it yeah you take it off sorry
+
+504
+00:10:14,949 --> 00:10:14,959
+why not do it yeah you take it off sorry
+ 
+
+505
+00:10:14,959 --> 00:10:17,750
+why not do it yeah you take it off sorry
+we need to take it off what i need to
+
+506
+00:10:17,750 --> 00:10:17,760
+we need to take it off what i need to
+ 
+
+507
+00:10:17,760 --> 00:10:19,990
+we need to take it off what i need to
+take it oh
+
+508
+00:10:19,990 --> 00:10:20,000
+take it oh
+ 
+
+509
+00:10:20,000 --> 00:10:23,110
+take it oh
+click it
+
+510
+00:10:23,110 --> 00:10:23,120
+
+ 
+
+511
+00:10:23,120 --> 00:10:27,509
+
+what ticket pick it up take it all
+
+512
+00:10:27,509 --> 00:10:27,519
+what ticket pick it up take it all
+ 
+
+513
+00:10:27,519 --> 00:10:30,150
+what ticket pick it up take it all
+what do you mean ticket over left oh
+
+514
+00:10:30,150 --> 00:10:30,160
+what do you mean ticket over left oh
+ 
+
+515
+00:10:30,160 --> 00:10:31,030
+what do you mean ticket over left oh
+take it
+
+516
+00:10:31,030 --> 00:10:31,040
+take it
+ 
+
+517
+00:10:31,040 --> 00:10:34,230
+take it
+okay look look look
+
+518
+00:10:34,230 --> 00:10:34,240
+okay look look look
+ 
+
+519
+00:10:34,240 --> 00:10:38,069
+okay look look look
+look come on
+
+520
+00:10:38,069 --> 00:10:38,079
+
+ 
+
+521
+00:10:38,079 --> 00:10:41,670
+
+look listen defy
+
+522
+00:10:41,670 --> 00:10:41,680
+look listen defy
+ 
+
+523
+00:10:41,680 --> 00:10:46,870
+look listen defy
+let's defy a queen decline a queen
+
+524
+00:10:46,870 --> 00:10:46,880
+let's defy a queen decline a queen
+ 
+
+525
+00:10:46,880 --> 00:10:49,430
+let's defy a queen decline a queen
+and then we take it uh n parameter which
+
+526
+00:10:49,430 --> 00:10:49,440
+and then we take it uh n parameter which
+ 
+
+527
+00:10:49,440 --> 00:10:51,430
+and then we take it uh n parameter which
+is like
+
+528
+00:10:51,430 --> 00:10:51,440
+is like
+ 
+
+529
+00:10:51,440 --> 00:10:54,389
+is like
+n times n solution and we want to place
+
+530
+00:10:54,389 --> 00:10:54,399
+n times n solution and we want to place
+ 
+
+531
+00:10:54,399 --> 00:10:55,990
+n times n solution and we want to place
+n queens how many solutions are there
+
+532
+00:10:55,990 --> 00:10:56,000
+n queens how many solutions are there
+ 
+
+533
+00:10:56,000 --> 00:10:56,630
+n queens how many solutions are there
+right
+
+534
+00:10:56,630 --> 00:10:56,640
+right
+ 
+
+535
+00:10:56,640 --> 00:10:59,350
+right
+two so then now this is we need to have
+
+536
+00:10:59,350 --> 00:10:59,360
+two so then now this is we need to have
+ 
+
+537
+00:10:59,360 --> 00:11:01,190
+two so then now this is we need to have
+a return this return
+
+538
+00:11:01,190 --> 00:11:01,200
+a return this return
+ 
+
+539
+00:11:01,200 --> 00:11:04,710
+a return this return
+it turns out now we want to search it
+
+540
+00:11:04,710 --> 00:11:04,720
+it turns out now we want to search it
+ 
+
+541
+00:11:04,720 --> 00:11:08,230
+it turns out now we want to search it
+dfs and we take the current solution
+
+542
+00:11:08,230 --> 00:11:08,240
+dfs and we take the current solution
+ 
+
+543
+00:11:08,240 --> 00:11:10,550
+dfs and we take the current solution
+current solution and we have take an end
+
+544
+00:11:10,550 --> 00:11:10,560
+current solution and we have take an end
+ 
+
+545
+00:11:10,560 --> 00:11:11,269
+current solution and we have take an end
+queen okay
+
+546
+00:11:11,269 --> 00:11:11,279
+queen okay
+ 
+
+547
+00:11:11,279 --> 00:11:14,389
+queen okay
+now we need to define this define this
+
+548
+00:11:14,389 --> 00:11:14,399
+now we need to define this define this
+ 
+
+549
+00:11:14,399 --> 00:11:15,110
+now we need to define this define this
+uh
+
+550
+00:11:15,110 --> 00:11:15,120
+uh
+ 
+
+551
+00:11:15,120 --> 00:11:17,590
+uh
+define this c you are see you are
+
+552
+00:11:17,590 --> 00:11:17,600
+define this c you are see you are
+ 
+
+553
+00:11:17,600 --> 00:11:19,509
+define this c you are see you are
+current current solution or maybe
+
+554
+00:11:19,509 --> 00:11:19,519
+current current solution or maybe
+ 
+
+555
+00:11:19,519 --> 00:11:23,750
+current current solution or maybe
+uh let's say uh in the current solution
+
+556
+00:11:23,750 --> 00:11:23,760
+uh let's say uh in the current solution
+ 
+
+557
+00:11:23,760 --> 00:11:26,230
+uh let's say uh in the current solution
+now we need to define this the df as
+
+558
+00:11:26,230 --> 00:11:26,240
+now we need to define this the df as
+ 
+
+559
+00:11:26,240 --> 00:11:26,790
+now we need to define this the df as
+this
+
+560
+00:11:26,790 --> 00:11:26,800
+this
+ 
+
+561
+00:11:26,800 --> 00:11:28,870
+this
+most important search now this is
+
+562
+00:11:28,870 --> 00:11:28,880
+most important search now this is
+ 
+
+563
+00:11:28,880 --> 00:11:30,150
+most important search now this is
+current solution
+
+564
+00:11:30,150 --> 00:11:30,160
+current solution
+ 
+
+565
+00:11:30,160 --> 00:11:32,470
+current solution
+and we want to place the aqueous end
+
+566
+00:11:32,470 --> 00:11:32,480
+and we want to place the aqueous end
+ 
+
+567
+00:11:32,480 --> 00:11:33,670
+and we want to place the aqueous end
+queens yeah
+
+568
+00:11:33,670 --> 00:11:33,680
+queens yeah
+ 
+
+569
+00:11:33,680 --> 00:11:36,790
+queens yeah
+right yes now current solution is the
+
+570
+00:11:36,790 --> 00:11:36,800
+right yes now current solution is the
+ 
+
+571
+00:11:36,800 --> 00:11:38,470
+right yes now current solution is the
+number of rows so if
+
+572
+00:11:38,470 --> 00:11:38,480
+number of rows so if
+ 
+
+573
+00:11:38,480 --> 00:11:41,030
+number of rows so if
+for example if it's empty it means that
+
+574
+00:11:41,030 --> 00:11:41,040
+for example if it's empty it means that
+ 
+
+575
+00:11:41,040 --> 00:11:42,630
+for example if it's empty it means that
+we haven't placed any
+
+576
+00:11:42,630 --> 00:11:42,640
+we haven't placed any
+ 
+
+577
+00:11:42,640 --> 00:11:45,750
+we haven't placed any
+queens yet and if it's like zero it
+
+578
+00:11:45,750 --> 00:11:45,760
+queens yet and if it's like zero it
+ 
+
+579
+00:11:45,760 --> 00:11:47,430
+queens yet and if it's like zero it
+means i want to place the
+
+580
+00:11:47,430 --> 00:11:47,440
+means i want to place the
+ 
+
+581
+00:11:47,440 --> 00:11:50,629
+means i want to place the
+only i only place one queen so far yeah
+
+582
+00:11:50,629 --> 00:11:50,639
+only i only place one queen so far yeah
+ 
+
+583
+00:11:50,639 --> 00:11:53,670
+only i only place one queen so far yeah
+which is on the first first zero yeah
+
+584
+00:11:53,670 --> 00:11:53,680
+which is on the first first zero yeah
+ 
+
+585
+00:11:53,680 --> 00:11:56,310
+which is on the first first zero yeah
+this is zero this is one okay so i'm
+
+586
+00:11:56,310 --> 00:11:56,320
+this is zero this is one okay so i'm
+ 
+
+587
+00:11:56,320 --> 00:11:58,790
+this is zero this is one okay so i'm
+going to check this
+
+588
+00:11:58,790 --> 00:11:58,800
+going to check this
+ 
+
+589
+00:11:58,800 --> 00:12:02,550
+going to check this
+yeah it's okay okay no
+
+590
+00:12:02,550 --> 00:12:02,560
+yeah it's okay okay no
+ 
+
+591
+00:12:02,560 --> 00:12:05,590
+yeah it's okay okay no
+no so look
+
+592
+00:12:05,590 --> 00:12:05,600
+no so look
+ 
+
+593
+00:12:05,600 --> 00:12:08,710
+no so look
+uh wow so look look listen
+
+594
+00:12:08,710 --> 00:12:08,720
+uh wow so look look listen
+ 
+
+595
+00:12:08,720 --> 00:12:11,829
+uh wow so look look listen
+so now if i have this zero
+
+596
+00:12:11,829 --> 00:12:11,839
+so now if i have this zero
+ 
+
+597
+00:12:11,839 --> 00:12:15,030
+so now if i have this zero
+zero zero and maybe this two
+
+598
+00:12:15,030 --> 00:12:15,040
+zero zero and maybe this two
+ 
+
+599
+00:12:15,040 --> 00:12:17,990
+zero zero and maybe this two
+okay so what does it mean zero two it
+
+600
+00:12:17,990 --> 00:12:18,000
+okay so what does it mean zero two it
+ 
+
+601
+00:12:18,000 --> 00:12:19,110
+okay so what does it mean zero two it
+means that uh
+
+602
+00:12:19,110 --> 00:12:19,120
+means that uh
+ 
+
+603
+00:12:19,120 --> 00:12:21,750
+means that uh
+i have placed two queens the first one
+
+604
+00:12:21,750 --> 00:12:21,760
+i have placed two queens the first one
+ 
+
+605
+00:12:21,760 --> 00:12:22,829
+i have placed two queens the first one
+in the one
+
+606
+00:12:22,829 --> 00:12:22,839
+in the one
+ 
+
+607
+00:12:22,839 --> 00:12:26,230
+in the one
+um what does it mean
+
+608
+00:12:26,230 --> 00:12:26,240
+um what does it mean
+ 
+
+609
+00:12:26,240 --> 00:12:28,870
+um what does it mean
+this is the first queen yeah yeah this
+
+610
+00:12:28,870 --> 00:12:28,880
+this is the first queen yeah yeah this
+ 
+
+611
+00:12:28,880 --> 00:12:29,910
+this is the first queen yeah yeah this
+is the second queen
+
+612
+00:12:29,910 --> 00:12:29,920
+is the second queen
+ 
+
+613
+00:12:29,920 --> 00:12:32,550
+is the second queen
+the first queen is from zero so this is
+
+614
+00:12:32,550 --> 00:12:32,560
+the first queen is from zero so this is
+ 
+
+615
+00:12:32,560 --> 00:12:33,190
+the first queen is from zero so this is
+yellow
+
+616
+00:12:33,190 --> 00:12:33,200
+yellow
+ 
+
+617
+00:12:33,200 --> 00:12:36,470
+yellow
+this is one zero okay two
+
+618
+00:12:36,470 --> 00:12:36,480
+this is one zero okay two
+ 
+
+619
+00:12:36,480 --> 00:12:38,870
+this is one zero okay two
+is what this is yellow one two two is
+
+620
+00:12:38,870 --> 00:12:38,880
+is what this is yellow one two two is
+ 
+
+621
+00:12:38,880 --> 00:12:39,829
+is what this is yellow one two two is
+here do we get it
+
+622
+00:12:39,829 --> 00:12:39,839
+here do we get it
+ 
+
+623
+00:12:39,839 --> 00:12:43,030
+here do we get it
+where's one i can't place on the one
+
+624
+00:12:43,030 --> 00:12:43,040
+where's one i can't place on the one
+ 
+
+625
+00:12:43,040 --> 00:12:46,470
+where's one i can't place on the one
+because one and zero will be diagonal
+
+626
+00:12:46,470 --> 00:12:46,480
+because one and zero will be diagonal
+ 
+
+627
+00:12:46,480 --> 00:12:49,110
+because one and zero will be diagonal
+attack yeah okay so that's what it means
+
+628
+00:12:49,110 --> 00:12:49,120
+attack yeah okay so that's what it means
+ 
+
+629
+00:12:49,120 --> 00:12:49,670
+attack yeah okay so that's what it means
+okay now
+
+630
+00:12:49,670 --> 00:12:49,680
+okay now
+ 
+
+631
+00:12:49,680 --> 00:12:52,710
+okay now
+we have a current now we have current
+
+632
+00:12:52,710 --> 00:12:52,720
+we have a current now we have current
+ 
+
+633
+00:12:52,720 --> 00:12:53,269
+we have a current now we have current
+right
+
+634
+00:12:53,269 --> 00:12:53,279
+right
+ 
+
+635
+00:12:53,279 --> 00:12:56,710
+right
+so we have to check if right right look
+
+636
+00:12:56,710 --> 00:12:56,720
+so we have to check if right right look
+ 
+
+637
+00:12:56,720 --> 00:13:00,389
+so we have to check if right right look
+if car if the length of the current
+
+638
+00:13:00,389 --> 00:13:00,399
+if car if the length of the current
+ 
+
+639
+00:13:00,399 --> 00:13:03,269
+if car if the length of the current
+we need to be just is n what does it
+
+640
+00:13:03,269 --> 00:13:03,279
+we need to be just is n what does it
+ 
+
+641
+00:13:03,279 --> 00:13:03,829
+we need to be just is n what does it
+mean
+
+642
+00:13:03,829 --> 00:13:03,839
+mean
+ 
+
+643
+00:13:03,839 --> 00:13:06,310
+mean
+if we we already placed n queens what do
+
+644
+00:13:06,310 --> 00:13:06,320
+if we we already placed n queens what do
+ 
+
+645
+00:13:06,320 --> 00:13:08,470
+if we we already placed n queens what do
+you mean we found a solution right yes
+
+646
+00:13:08,470 --> 00:13:08,480
+you mean we found a solution right yes
+ 
+
+647
+00:13:08,480 --> 00:13:10,790
+you mean we found a solution right yes
+then we need to return one yeah return
+
+648
+00:13:10,790 --> 00:13:10,800
+then we need to return one yeah return
+ 
+
+649
+00:13:10,800 --> 00:13:11,750
+then we need to return one yeah return
+this now
+
+650
+00:13:11,750 --> 00:13:11,760
+this now
+ 
+
+651
+00:13:11,760 --> 00:13:14,629
+this now
+the answer is one yeah okay yeah because
+
+652
+00:13:14,629 --> 00:13:14,639
+the answer is one yeah okay yeah because
+ 
+
+653
+00:13:14,639 --> 00:13:15,829
+the answer is one yeah okay yeah because
+we already placed that
+
+654
+00:13:15,829 --> 00:13:15,839
+we already placed that
+ 
+
+655
+00:13:15,839 --> 00:13:20,310
+we already placed that
+yeah now now we need to check what
+
+656
+00:13:20,310 --> 00:13:20,320
+yeah now now we need to check what
+ 
+
+657
+00:13:20,320 --> 00:13:23,670
+yeah now now we need to check what
+four we have this answer yeah answer
+
+658
+00:13:23,670 --> 00:13:23,680
+four we have this answer yeah answer
+ 
+
+659
+00:13:23,680 --> 00:13:24,550
+four we have this answer yeah answer
+equals zero it's
+
+660
+00:13:24,550 --> 00:13:24,560
+equals zero it's
+ 
+
+661
+00:13:24,560 --> 00:13:27,030
+equals zero it's
+gonna take forever no no no come on
+
+662
+00:13:27,030 --> 00:13:27,040
+gonna take forever no no no come on
+ 
+
+663
+00:13:27,040 --> 00:13:28,790
+gonna take forever no no no come on
+listen it's very interesting now
+
+664
+00:13:28,790 --> 00:13:28,800
+listen it's very interesting now
+ 
+
+665
+00:13:28,800 --> 00:13:32,150
+listen it's very interesting now
+look for for now i want to place the row
+
+666
+00:13:32,150 --> 00:13:32,160
+look for for now i want to place the row
+ 
+
+667
+00:13:32,160 --> 00:13:33,430
+look for for now i want to place the row
+row
+
+668
+00:13:33,430 --> 00:13:33,440
+row
+ 
+
+669
+00:13:33,440 --> 00:13:36,870
+row
+in in range and yeah range n
+
+670
+00:13:36,870 --> 00:13:36,880
+in in range and yeah range n
+ 
+
+671
+00:13:36,880 --> 00:13:39,590
+in in range and yeah range n
+i can have n so n places for the row
+
+672
+00:13:39,590 --> 00:13:39,600
+i can have n so n places for the row
+ 
+
+673
+00:13:39,600 --> 00:13:41,829
+i can have n so n places for the row
+yeah from from zero one to n plus i
+
+674
+00:13:41,829 --> 00:13:41,839
+yeah from from zero one to n plus i
+ 
+
+675
+00:13:41,839 --> 00:13:43,110
+yeah from from zero one to n plus i
+minus one right
+
+676
+00:13:43,110 --> 00:13:43,120
+minus one right
+ 
+
+677
+00:13:43,120 --> 00:13:46,230
+minus one right
+yes i know i need to check
+
+678
+00:13:46,230 --> 00:13:46,240
+yes i know i need to check
+ 
+
+679
+00:13:46,240 --> 00:13:49,350
+yes i know i need to check
+if i can place it if i can place you can
+
+680
+00:13:49,350 --> 00:13:49,360
+if i can place it if i can place you can
+ 
+
+681
+00:13:49,360 --> 00:13:50,870
+if i can place it if i can place you can
+place
+
+682
+00:13:50,870 --> 00:13:50,880
+place
+ 
+
+683
+00:13:50,880 --> 00:13:53,670
+place
+if i can place the cup with the current
+
+684
+00:13:53,670 --> 00:13:53,680
+if i can place the cup with the current
+ 
+
+685
+00:13:53,680 --> 00:13:54,310
+if i can place the cup with the current
+solution
+
+686
+00:13:54,310 --> 00:13:54,320
+solution
+ 
+
+687
+00:13:54,320 --> 00:13:57,829
+solution
+and then then row answer plus
+
+688
+00:13:57,829 --> 00:13:57,839
+and then then row answer plus
+ 
+
+689
+00:13:57,839 --> 00:14:00,870
+and then then row answer plus
+equals no no no look if can
+
+690
+00:14:00,870 --> 00:14:00,880
+equals no no no look if can
+ 
+
+691
+00:14:00,880 --> 00:14:05,030
+equals no no no look if can
+i place i can place the next queen as a
+
+692
+00:14:05,030 --> 00:14:05,040
+i place i can place the next queen as a
+ 
+
+693
+00:14:05,040 --> 00:14:05,829
+i place i can place the next queen as a
+row
+
+694
+00:14:05,829 --> 00:14:05,839
+row
+ 
+
+695
+00:14:05,839 --> 00:14:08,790
+row
+yes with the current solution then i can
+
+696
+00:14:08,790 --> 00:14:08,800
+yes with the current solution then i can
+ 
+
+697
+00:14:08,800 --> 00:14:09,990
+yes with the current solution then i can
+need to
+
+698
+00:14:09,990 --> 00:14:10,000
+need to
+ 
+
+699
+00:14:10,000 --> 00:14:13,110
+need to
+edit x plus equals dfs
+
+700
+00:14:13,110 --> 00:14:13,120
+edit x plus equals dfs
+ 
+
+701
+00:14:13,120 --> 00:14:16,150
+edit x plus equals dfs
+right t f s current
+
+702
+00:14:16,150 --> 00:14:16,160
+right t f s current
+ 
+
+703
+00:14:16,160 --> 00:14:19,269
+right t f s current
+one current plus the row
+
+704
+00:14:19,269 --> 00:14:19,279
+one current plus the row
+ 
+
+705
+00:14:19,279 --> 00:14:23,030
+one current plus the row
+right and with the n
+
+706
+00:14:23,030 --> 00:14:23,040
+right and with the n
+ 
+
+707
+00:14:23,040 --> 00:14:25,509
+right and with the n
+right and then i just need to return
+
+708
+00:14:25,509 --> 00:14:25,519
+right and then i just need to return
+ 
+
+709
+00:14:25,519 --> 00:14:27,110
+right and then i just need to return
+answer
+
+710
+00:14:27,110 --> 00:14:27,120
+answer
+ 
+
+711
+00:14:27,120 --> 00:14:29,509
+answer
+the time queen do you get it this is
+
+712
+00:14:29,509 --> 00:14:29,519
+the time queen do you get it this is
+ 
+
+713
+00:14:29,519 --> 00:14:31,670
+the time queen do you get it this is
+definite recursion that first search
+
+714
+00:14:31,670 --> 00:14:31,680
+definite recursion that first search
+ 
+
+715
+00:14:31,680 --> 00:14:34,949
+definite recursion that first search
+yeah because look i can place look look
+
+716
+00:14:34,949 --> 00:14:34,959
+yeah because look i can place look look
+ 
+
+717
+00:14:34,959 --> 00:14:37,110
+yeah because look i can place look look
+with current solution i can i want to
+
+718
+00:14:37,110 --> 00:14:37,120
+with current solution i can i want to
+ 
+
+719
+00:14:37,120 --> 00:14:38,389
+with current solution i can i want to
+place the next queen
+
+720
+00:14:38,389 --> 00:14:38,399
+place the next queen
+ 
+
+721
+00:14:38,399 --> 00:14:40,550
+place the next queen
+in a row yeah row is wrong i can how
+
+722
+00:14:40,550 --> 00:14:40,560
+in a row yeah row is wrong i can how
+ 
+
+723
+00:14:40,560 --> 00:14:42,550
+in a row yeah row is wrong i can how
+many possible solutions i can have from
+
+724
+00:14:42,550 --> 00:14:42,560
+many possible solutions i can have from
+ 
+
+725
+00:14:42,560 --> 00:14:43,509
+many possible solutions i can have from
+0 to n
+
+726
+00:14:43,509 --> 00:14:43,519
+0 to n
+ 
+
+727
+00:14:43,519 --> 00:14:46,310
+0 to n
+but i need to check if i can place place
+
+728
+00:14:46,310 --> 00:14:46,320
+but i need to check if i can place place
+ 
+
+729
+00:14:46,320 --> 00:14:47,910
+but i need to check if i can place place
+on this location if it then
+
+730
+00:14:47,910 --> 00:14:47,920
+on this location if it then
+ 
+
+731
+00:14:47,920 --> 00:14:50,790
+on this location if it then
+place then i can place on the next slope
+
+732
+00:14:50,790 --> 00:14:50,800
+place then i can place on the next slope
+ 
+
+733
+00:14:50,800 --> 00:14:52,550
+place then i can place on the next slope
+and next screen yeah
+
+734
+00:14:52,550 --> 00:14:52,560
+and next screen yeah
+ 
+
+735
+00:14:52,560 --> 00:14:54,710
+and next screen yeah
+when i place here then i can place next
+
+736
+00:14:54,710 --> 00:14:54,720
+when i place here then i can place next
+ 
+
+737
+00:14:54,720 --> 00:14:55,829
+when i place here then i can place next
+one okay
+
+738
+00:14:55,829 --> 00:14:55,839
+one okay
+ 
+
+739
+00:14:55,839 --> 00:14:59,030
+one okay
+do you get it yes okay now
+
+740
+00:14:59,030 --> 00:14:59,040
+do you get it yes okay now
+ 
+
+741
+00:14:59,040 --> 00:15:02,230
+do you get it yes okay now
+what's missing here what's missing here
+
+742
+00:15:02,230 --> 00:15:02,240
+what's missing here what's missing here
+ 
+
+743
+00:15:02,240 --> 00:15:04,150
+what's missing here what's missing here
+this is complex we haven't implemented
+
+744
+00:15:04,150 --> 00:15:04,160
+this is complex we haven't implemented
+ 
+
+745
+00:15:04,160 --> 00:15:04,550
+this is complex we haven't implemented
+yet
+
+746
+00:15:04,550 --> 00:15:04,560
+yet
+ 
+
+747
+00:15:04,560 --> 00:15:06,790
+yet
+yeah yeah so now we just need to
+
+748
+00:15:06,790 --> 00:15:06,800
+yeah yeah so now we just need to
+ 
+
+749
+00:15:06,800 --> 00:15:08,389
+yeah yeah so now we just need to
+implement the complaints
+
+750
+00:15:08,389 --> 00:15:08,399
+implement the complaints
+ 
+
+751
+00:15:08,399 --> 00:15:16,310
+implement the complaints
+okay you need a print but that's
+
+752
+00:15:16,310 --> 00:15:16,320
+
+ 
+
+753
+00:15:16,320 --> 00:15:20,069
+
+x current is the current solution and
+
+754
+00:15:20,069 --> 00:15:20,079
+x current is the current solution and
+ 
+
+755
+00:15:20,079 --> 00:15:25,189
+x current is the current solution and
+x is the new new position
+
+756
+00:15:25,189 --> 00:15:25,199
+
+ 
+
+757
+00:15:25,199 --> 00:15:29,269
+
+in yeah look at my nose okay
+
+758
+00:15:29,269 --> 00:15:29,279
+
+ 
+
+759
+00:15:29,279 --> 00:15:32,949
+
+so look uh for i
+
+760
+00:15:32,949 --> 00:15:32,959
+so look uh for i
+ 
+
+761
+00:15:32,959 --> 00:15:36,069
+so look uh for i
+y in
+
+762
+00:15:36,069 --> 00:15:36,079
+
+ 
+
+763
+00:15:36,079 --> 00:15:38,470
+
+right denominator okay what's this what
+
+764
+00:15:38,470 --> 00:15:38,480
+right denominator okay what's this what
+ 
+
+765
+00:15:38,480 --> 00:15:41,269
+right denominator okay what's this what
+enumerate i will talk about it
+
+766
+00:15:41,269 --> 00:15:41,279
+enumerate i will talk about it
+ 
+
+767
+00:15:41,279 --> 00:15:46,470
+enumerate i will talk about it
+okay
+
+768
+00:15:46,470 --> 00:15:46,480
+
+ 
+
+769
+00:15:46,480 --> 00:15:49,910
+
+if y equals equals x yeah because
+
+770
+00:15:49,910 --> 00:15:49,920
+if y equals equals x yeah because
+ 
+
+771
+00:15:49,920 --> 00:16:04,690
+if y equals equals x yeah because
+what does it mean it means
+
+772
+00:16:04,690 --> 00:16:04,700
+
+ 
+
+773
+00:16:04,700 --> 00:16:07,430
+
+[Music]
+
+774
+00:16:07,430 --> 00:16:07,440
+[Music]
+ 
+
+775
+00:16:07,440 --> 00:16:11,590
+[Music]
+current minus i equals
+
+776
+00:16:11,590 --> 00:16:11,600
+current minus i equals
+ 
+
+777
+00:16:11,600 --> 00:16:15,430
+current minus i equals
+abs abs x g of plus y
+
+778
+00:16:15,430 --> 00:16:15,440
+abs abs x g of plus y
+ 
+
+779
+00:16:15,440 --> 00:16:17,670
+abs abs x g of plus y
+and minus one and then we do ten fourths
+
+780
+00:16:17,670 --> 00:16:17,680
+and minus one and then we do ten fourths
+ 
+
+781
+00:16:17,680 --> 00:16:18,710
+and minus one and then we do ten fourths
+abs
+
+782
+00:16:18,710 --> 00:16:18,720
+abs
+ 
+
+783
+00:16:18,720 --> 00:16:29,030
+abs
+right then as
+
+784
+00:16:29,030 --> 00:16:29,040
+
+ 
+
+785
+00:16:29,040 --> 00:16:32,230
+
+okay so abs absolute value
+
+786
+00:16:32,230 --> 00:16:32,240
+okay so abs absolute value
+ 
+
+787
+00:16:32,240 --> 00:16:34,949
+okay so abs absolute value
+so let's see what's the abs that abs
+
+788
+00:16:34,949 --> 00:16:34,959
+so let's see what's the abs that abs
+ 
+
+789
+00:16:34,959 --> 00:16:35,509
+so let's see what's the abs that abs
+from here
+
+790
+00:16:35,509 --> 00:16:35,519
+from here
+ 
+
+791
+00:16:35,519 --> 00:16:38,790
+from here
+okay abs three
+
+792
+00:16:38,790 --> 00:16:38,800
+okay abs three
+ 
+
+793
+00:16:38,800 --> 00:16:41,990
+okay abs three
+equals three abs minus three
+
+794
+00:16:41,990 --> 00:16:42,000
+equals three abs minus three
+ 
+
+795
+00:16:42,000 --> 00:16:48,230
+equals three abs minus three
+equals three can you get the meaning
+
+796
+00:16:48,230 --> 00:16:48,240
+
+ 
+
+797
+00:16:48,240 --> 00:16:51,269
+
+what does abs mean so abs is absolute
+
+798
+00:16:51,269 --> 00:16:51,279
+what does abs mean so abs is absolute
+ 
+
+799
+00:16:51,279 --> 00:16:52,069
+what does abs mean so abs is absolute
+value so
+
+800
+00:16:52,069 --> 00:16:52,079
+value so
+ 
+
+801
+00:16:52,079 --> 00:16:54,230
+value so
+meaning that look this is the number
+
+802
+00:16:54,230 --> 00:16:54,240
+meaning that look this is the number
+ 
+
+803
+00:16:54,240 --> 00:16:57,350
+meaning that look this is the number
+yeah this is zero here right
+
+804
+00:16:57,350 --> 00:16:57,360
+yeah this is zero here right
+ 
+
+805
+00:16:57,360 --> 00:17:00,540
+yeah this is zero here right
+one two three four five times
+
+806
+00:17:00,540 --> 00:17:00,550
+one two three four five times
+ 
+
+807
+00:17:00,550 --> 00:17:02,310
+one two three four five times
+[Music]
+
+808
+00:17:02,310 --> 00:17:02,320
+[Music]
+ 
+
+809
+00:17:02,320 --> 00:17:06,630
+[Music]
+so this number abx x is the distance
+
+810
+00:17:06,630 --> 00:17:06,640
+so this number abx x is the distance
+ 
+
+811
+00:17:06,640 --> 00:17:09,669
+so this number abx x is the distance
+between x and zero okay
+
+812
+00:17:09,669 --> 00:17:09,679
+between x and zero okay
+ 
+
+813
+00:17:09,679 --> 00:17:13,909
+between x and zero okay
+so what does it mean is the distance
+
+814
+00:17:13,909 --> 00:17:13,919
+so what does it mean is the distance
+ 
+
+815
+00:17:13,919 --> 00:17:17,510
+so what does it mean is the distance
+so if it's the positive number abx
+
+816
+00:17:17,510 --> 00:17:17,520
+so if it's the positive number abx
+ 
+
+817
+00:17:17,520 --> 00:17:21,270
+so if it's the positive number abx
+x equals x if x equals bigger than zero
+
+818
+00:17:21,270 --> 00:17:21,280
+x equals x if x equals bigger than zero
+ 
+
+819
+00:17:21,280 --> 00:17:22,150
+x equals x if x equals bigger than zero
+right
+
+820
+00:17:22,150 --> 00:17:22,160
+right
+ 
+
+821
+00:17:22,160 --> 00:17:24,630
+right
+yeah if it's smaller than zero what does
+
+822
+00:17:24,630 --> 00:17:24,640
+yeah if it's smaller than zero what does
+ 
+
+823
+00:17:24,640 --> 00:17:26,150
+yeah if it's smaller than zero what does
+it mean abs
+
+824
+00:17:26,150 --> 00:17:26,160
+it mean abs
+ 
+
+825
+00:17:26,160 --> 00:17:29,270
+it mean abs
+x equals minus x right look
+
+826
+00:17:29,270 --> 00:17:29,280
+x equals minus x right look
+ 
+
+827
+00:17:29,280 --> 00:17:31,750
+x equals minus x right look
+minus three how many units distance
+
+828
+00:17:31,750 --> 00:17:31,760
+minus three how many units distance
+ 
+
+829
+00:17:31,760 --> 00:17:32,310
+minus three how many units distance
+three
+
+830
+00:17:32,310 --> 00:17:32,320
+three
+ 
+
+831
+00:17:32,320 --> 00:17:35,430
+three
+three okay so abs is like that abs
+
+832
+00:17:35,430 --> 00:17:35,440
+three okay so abs is like that abs
+ 
+
+833
+00:17:35,440 --> 00:17:38,310
+three okay so abs is like that abs
+minus two thousand equals one two
+
+834
+00:17:38,310 --> 00:17:38,320
+minus two thousand equals one two
+ 
+
+835
+00:17:38,320 --> 00:17:39,029
+minus two thousand equals one two
+thousand
+
+836
+00:17:39,029 --> 00:17:39,039
+thousand
+ 
+
+837
+00:17:39,039 --> 00:17:42,630
+thousand
+abs um one million one million
+
+838
+00:17:42,630 --> 00:17:42,640
+abs um one million one million
+ 
+
+839
+00:17:42,640 --> 00:17:46,150
+abs um one million one million
+abs minus ten trillion
+
+840
+00:17:46,150 --> 00:17:46,160
+abs minus ten trillion
+ 
+
+841
+00:17:46,160 --> 00:17:49,830
+abs minus ten trillion
+yeah you got it yeah okay okay so now
+
+842
+00:17:49,830 --> 00:17:49,840
+yeah you got it yeah okay okay so now
+ 
+
+843
+00:17:49,840 --> 00:17:53,430
+yeah you got it yeah okay okay so now
+look this is these we know right
+
+844
+00:17:53,430 --> 00:17:53,440
+look this is these we know right
+ 
+
+845
+00:17:53,440 --> 00:17:56,870
+look this is these we know right
+we this is to check we can't place the
+
+846
+00:17:56,870 --> 00:17:56,880
+we this is to check we can't place the
+ 
+
+847
+00:17:56,880 --> 00:18:00,150
+we this is to check we can't place the
+the queen on the previous row right yeah
+
+848
+00:18:00,150 --> 00:18:00,160
+the queen on the previous row right yeah
+ 
+
+849
+00:18:00,160 --> 00:18:00,630
+the queen on the previous row right yeah
+if i
+
+850
+00:18:00,630 --> 00:18:00,640
+if i
+ 
+
+851
+00:18:00,640 --> 00:18:03,190
+if i
+if i place the first queen on the two i
+
+852
+00:18:03,190 --> 00:18:03,200
+if i place the first queen on the two i
+ 
+
+853
+00:18:03,200 --> 00:18:05,190
+if i place the first queen on the two i
+can't place the current king in the two
+
+854
+00:18:05,190 --> 00:18:05,200
+can't place the current king in the two
+ 
+
+855
+00:18:05,200 --> 00:18:09,430
+can't place the current king in the two
+right and this is to check the diagonals
+
+856
+00:18:09,430 --> 00:18:09,440
+right and this is to check the diagonals
+ 
+
+857
+00:18:09,440 --> 00:18:13,350
+right and this is to check the diagonals
+so look what how do you calculate that
+
+858
+00:18:13,350 --> 00:18:13,360
+so look what how do you calculate that
+ 
+
+859
+00:18:13,360 --> 00:18:16,470
+so look what how do you calculate that
+look like if the first one is two
+
+860
+00:18:16,470 --> 00:18:16,480
+look like if the first one is two
+ 
+
+861
+00:18:16,480 --> 00:18:18,950
+look like if the first one is two
+the second one the first one is two
+
+862
+00:18:18,950 --> 00:18:18,960
+the second one the first one is two
+ 
+
+863
+00:18:18,960 --> 00:18:19,669
+the second one the first one is two
+second one
+
+864
+00:18:19,669 --> 00:18:19,679
+second one
+ 
+
+865
+00:18:19,679 --> 00:18:22,789
+second one
+is three it comes right because the tip
+
+866
+00:18:22,789 --> 00:18:22,799
+is three it comes right because the tip
+ 
+
+867
+00:18:22,799 --> 00:18:26,310
+is three it comes right because the tip
+the horizontal difference is is what
+
+868
+00:18:26,310 --> 00:18:26,320
+the horizontal difference is is what
+ 
+
+869
+00:18:26,320 --> 00:18:29,510
+the horizontal difference is is what
+is length current minus
+
+870
+00:18:29,510 --> 00:18:29,520
+is length current minus
+ 
+
+871
+00:18:29,520 --> 00:18:31,750
+is length current minus
+i i i will talk about it later it's from
+
+872
+00:18:31,750 --> 00:18:31,760
+i i i will talk about it later it's from
+ 
+
+873
+00:18:31,760 --> 00:18:33,830
+i i i will talk about it later it's from
+zero to one two three four to
+
+874
+00:18:33,830 --> 00:18:33,840
+zero to one two three four to
+ 
+
+875
+00:18:33,840 --> 00:18:37,990
+zero to one two three four to
+n and then what did i talk about
+
+876
+00:18:37,990 --> 00:18:38,000
+n and then what did i talk about
+ 
+
+877
+00:18:38,000 --> 00:18:40,230
+n and then what did i talk about
+the behavior on the lessons would be
+
+878
+00:18:40,230 --> 00:18:40,240
+the behavior on the lessons would be
+ 
+
+879
+00:18:40,240 --> 00:18:41,270
+the behavior on the lessons would be
+good okay
+
+880
+00:18:41,270 --> 00:18:41,280
+good okay
+ 
+
+881
+00:18:41,280 --> 00:18:43,909
+good okay
+and then this abs x minus one is just
+
+882
+00:18:43,909 --> 00:18:43,919
+and then this abs x minus one is just
+ 
+
+883
+00:18:43,919 --> 00:18:44,470
+and then this abs x minus one is just
+the value
+
+884
+00:18:44,470 --> 00:18:44,480
+the value
+ 
+
+885
+00:18:44,480 --> 00:18:47,029
+the value
+yeah if you if you place three minus two
+
+886
+00:18:47,029 --> 00:18:47,039
+yeah if you if you place three minus two
+ 
+
+887
+00:18:47,039 --> 00:18:48,230
+yeah if you if you place three minus two
+values
+
+888
+00:18:48,230 --> 00:18:48,240
+values
+ 
+
+889
+00:18:48,240 --> 00:18:51,909
+values
+it's the value uh this is a bit
+
+890
+00:18:51,909 --> 00:18:51,919
+it's the value uh this is a bit
+ 
+
+891
+00:18:51,919 --> 00:18:55,029
+it's the value uh this is a bit
+tricky okay look i'm gonna write it
+
+892
+00:18:55,029 --> 00:18:55,039
+tricky okay look i'm gonna write it
+ 
+
+893
+00:18:55,039 --> 00:18:56,070
+tricky okay look i'm gonna write it
+again
+
+894
+00:18:56,070 --> 00:18:56,080
+again
+ 
+
+895
+00:18:56,080 --> 00:18:59,190
+again
+wow
+
+896
+00:18:59,190 --> 00:18:59,200
+
+ 
+
+897
+00:18:59,200 --> 00:19:04,230
+
+again and again
+
+898
+00:19:04,230 --> 00:19:04,240
+
+ 
+
+899
+00:19:04,240 --> 00:19:07,590
+
+look current okay u
+
+900
+00:19:07,590 --> 00:19:07,600
+look current okay u
+ 
+
+901
+00:19:07,600 --> 00:19:10,789
+look current okay u
+equals the 1 three five
+
+902
+00:19:10,789 --> 00:19:10,799
+equals the 1 three five
+ 
+
+903
+00:19:10,799 --> 00:19:14,150
+equals the 1 three five
+seven nine four okay okay if this is
+
+904
+00:19:14,150 --> 00:19:14,160
+seven nine four okay okay if this is
+ 
+
+905
+00:19:14,160 --> 00:19:15,190
+seven nine four okay okay if this is
+current yeah
+
+906
+00:19:15,190 --> 00:19:15,200
+current yeah
+ 
+
+907
+00:19:15,200 --> 00:19:19,750
+current yeah
+so what does it mean by if i do this for
+
+908
+00:19:19,750 --> 00:19:19,760
+so what does it mean by if i do this for
+ 
+
+909
+00:19:19,760 --> 00:19:34,310
+so what does it mean by if i do this for
+i y in
+
+910
+00:19:34,310 --> 00:19:34,320
+
+ 
+
+911
+00:19:34,320 --> 00:19:36,830
+
+current so what does it do when if i
+
+912
+00:19:36,830 --> 00:19:36,840
+current so what does it do when if i
+ 
+
+913
+00:19:36,840 --> 00:19:37,990
+current so what does it do when if i
+point
+
+914
+00:19:37,990 --> 00:19:38,000
+point
+ 
+
+915
+00:19:38,000 --> 00:19:41,669
+point
+if i print i and y what what can we get
+
+916
+00:19:41,669 --> 00:19:41,679
+if i print i and y what what can we get
+ 
+
+917
+00:19:41,679 --> 00:19:44,710
+if i print i and y what what can we get
+look at this one three
+
+918
+00:19:44,710 --> 00:19:44,720
+look at this one three
+ 
+
+919
+00:19:44,720 --> 00:19:48,630
+look at this one three
+five two four and then here this is the
+
+920
+00:19:48,630 --> 00:19:48,640
+five two four and then here this is the
+ 
+
+921
+00:19:48,640 --> 00:19:51,190
+five two four and then here this is the
+y value y value will be one three five
+
+922
+00:19:51,190 --> 00:19:51,200
+y value y value will be one three five
+ 
+
+923
+00:19:51,200 --> 00:19:52,870
+y value y value will be one three five
+two four yeah one three five two four
+
+924
+00:19:52,870 --> 00:19:52,880
+two four yeah one three five two four
+ 
+
+925
+00:19:52,880 --> 00:19:54,310
+two four yeah one three five two four
+this is the y value yeah
+
+926
+00:19:54,310 --> 00:19:54,320
+this is the y value yeah
+ 
+
+927
+00:19:54,320 --> 00:19:57,669
+this is the y value yeah
+yeah i value will be what i value will
+
+928
+00:19:57,669 --> 00:19:57,679
+yeah i value will be what i value will
+ 
+
+929
+00:19:57,679 --> 00:19:58,070
+yeah i value will be what i value will
+be
+
+930
+00:19:58,070 --> 00:19:58,080
+be
+ 
+
+931
+00:19:58,080 --> 00:20:01,190
+be
+zero one two three four easy it just
+
+932
+00:20:01,190 --> 00:20:01,200
+zero one two three four easy it just
+ 
+
+933
+00:20:01,200 --> 00:20:02,870
+zero one two three four easy it just
+give a number from zero
+
+934
+00:20:02,870 --> 00:20:02,880
+give a number from zero
+ 
+
+935
+00:20:02,880 --> 00:20:06,149
+give a number from zero
+right why we don't need to do that i
+
+936
+00:20:06,149 --> 00:20:06,159
+right why we don't need to do that i
+ 
+
+937
+00:20:06,159 --> 00:20:08,630
+right why we don't need to do that i
+now we need to we can know which column
+
+938
+00:20:08,630 --> 00:20:08,640
+now we need to we can know which column
+ 
+
+939
+00:20:08,640 --> 00:20:09,590
+now we need to we can know which column
+is it
+
+940
+00:20:09,590 --> 00:20:09,600
+is it
+ 
+
+941
+00:20:09,600 --> 00:20:12,630
+is it
+right yes this will be column i i
+
+942
+00:20:12,630 --> 00:20:12,640
+right yes this will be column i i
+ 
+
+943
+00:20:12,640 --> 00:20:16,470
+right yes this will be column i i
+if i can rename it as column column y
+
+944
+00:20:16,470 --> 00:20:16,480
+if i can rename it as column column y
+ 
+
+945
+00:20:16,480 --> 00:20:21,029
+if i can rename it as column column y
+column okay so now we just need to check
+
+946
+00:20:21,029 --> 00:20:21,039
+column okay so now we just need to check
+ 
+
+947
+00:20:21,039 --> 00:20:24,789
+column okay so now we just need to check
+so now look look one three five two four
+
+948
+00:20:24,789 --> 00:20:24,799
+so now look look one three five two four
+ 
+
+949
+00:20:24,799 --> 00:20:27,350
+so now look look one three five two four
+okay let's see
+
+950
+00:20:27,350 --> 00:20:27,360
+okay let's see
+ 
+
+951
+00:20:27,360 --> 00:20:30,630
+okay let's see
+why five sorry five by five
+
+952
+00:20:30,630 --> 00:20:30,640
+why five sorry five by five
+ 
+
+953
+00:20:30,640 --> 00:20:32,789
+why five sorry five by five
+that's okay how about you for just one
+
+954
+00:20:32,789 --> 00:20:32,799
+that's okay how about you for just one
+ 
+
+955
+00:20:32,799 --> 00:20:34,310
+that's okay how about you for just one
+three one three here
+
+956
+00:20:34,310 --> 00:20:34,320
+three one three here
+ 
+
+957
+00:20:34,320 --> 00:20:37,350
+three one three here
+one two three yeah now
+
+958
+00:20:37,350 --> 00:20:37,360
+one two three yeah now
+ 
+
+959
+00:20:37,360 --> 00:20:39,830
+one two three yeah now
+i want to check if the diagonal right if
+
+960
+00:20:39,830 --> 00:20:39,840
+i want to check if the diagonal right if
+ 
+
+961
+00:20:39,840 --> 00:20:41,750
+i want to check if the diagonal right if
+i place here
+
+962
+00:20:41,750 --> 00:20:41,760
+i place here
+ 
+
+963
+00:20:41,760 --> 00:20:44,950
+i place here
+i place here this is zero right that's
+
+964
+00:20:44,950 --> 00:20:44,960
+i place here this is zero right that's
+ 
+
+965
+00:20:44,960 --> 00:20:45,510
+i place here this is zero right that's
+fine
+
+966
+00:20:45,510 --> 00:20:45,520
+fine
+ 
+
+967
+00:20:45,520 --> 00:20:47,750
+fine
+that's fine look what is right i need to
+
+968
+00:20:47,750 --> 00:20:47,760
+that's fine look what is right i need to
+ 
+
+969
+00:20:47,760 --> 00:20:48,870
+that's fine look what is right i need to
+check now it will be
+
+970
+00:20:48,870 --> 00:20:48,880
+check now it will be
+ 
+
+971
+00:20:48,880 --> 00:20:52,310
+check now it will be
+0 1 and 1 3 yeah 1 3 and then i need to
+
+972
+00:20:52,310 --> 00:20:52,320
+0 1 and 1 3 yeah 1 3 and then i need to
+ 
+
+973
+00:20:52,320 --> 00:20:55,029
+0 1 and 1 3 yeah 1 3 and then i need to
+check if
+
+974
+00:20:55,029 --> 00:20:55,039
+
+ 
+
+975
+00:20:55,039 --> 00:21:00,230
+
+0 plus 0 minus 1 abs
+
+976
+00:21:00,230 --> 00:21:00,240
+0 plus 0 minus 1 abs
+ 
+
+977
+00:21:00,240 --> 00:21:06,630
+0 plus 0 minus 1 abs
+is it equals to is equals to what
+
+978
+00:21:06,630 --> 00:21:06,640
+
+ 
+
+979
+00:21:06,640 --> 00:21:10,630
+
+is it equals to zero and what is equals
+
+980
+00:21:10,630 --> 00:21:10,640
+is it equals to zero and what is equals
+ 
+
+981
+00:21:10,640 --> 00:21:10,950
+is it equals to zero and what is equals
+to
+
+982
+00:21:10,950 --> 00:21:10,960
+to
+ 
+
+983
+00:21:10,960 --> 00:21:14,630
+to
+this is second this is zero so this
+
+984
+00:21:14,630 --> 00:21:14,640
+this is second this is zero so this
+ 
+
+985
+00:21:14,640 --> 00:21:17,990
+this is second this is zero so this
+two minus zero it's not equal right
+
+986
+00:21:17,990 --> 00:21:18,000
+two minus zero it's not equal right
+ 
+
+987
+00:21:18,000 --> 00:21:20,630
+two minus zero it's not equal right
+right it's not equal if it's equal what
+
+988
+00:21:20,630 --> 00:21:20,640
+right it's not equal if it's equal what
+ 
+
+989
+00:21:20,640 --> 00:21:21,430
+right it's not equal if it's equal what
+does it mean
+
+990
+00:21:21,430 --> 00:21:21,440
+does it mean
+ 
+
+991
+00:21:21,440 --> 00:21:24,549
+does it mean
+if it's equal if i put it here zero one
+
+992
+00:21:24,549 --> 00:21:24,559
+if it's equal if i put it here zero one
+ 
+
+993
+00:21:24,559 --> 00:21:28,710
+if it's equal if i put it here zero one
+two three yeah yeah
+
+994
+00:21:28,710 --> 00:21:28,720
+
+ 
+
+995
+00:21:28,720 --> 00:21:30,789
+
+it because the first one and the third
+
+996
+00:21:30,789 --> 00:21:30,799
+it because the first one and the third
+ 
+
+997
+00:21:30,799 --> 00:21:32,149
+it because the first one and the third
+one
+
+998
+00:21:32,149 --> 00:21:32,159
+one
+ 
+
+999
+00:21:32,159 --> 00:21:33,990
+one
+is on the diagonal so what can we get
+
+1000
+00:21:33,990 --> 00:21:34,000
+is on the diagonal so what can we get
+ 
+
+1001
+00:21:34,000 --> 00:21:35,350
+is on the diagonal so what can we get
+three minus one
+
+1002
+00:21:35,350 --> 00:21:35,360
+three minus one
+ 
+
+1003
+00:21:35,360 --> 00:21:39,270
+three minus one
+the value minus it yeah the value
+
+1004
+00:21:39,270 --> 00:21:39,280
+the value minus it yeah the value
+ 
+
+1005
+00:21:39,280 --> 00:21:42,870
+the value minus it yeah the value
+yeah is two but now
+
+1006
+00:21:42,870 --> 00:21:42,880
+yeah is two but now
+ 
+
+1007
+00:21:42,880 --> 00:21:44,870
+yeah is two but now
+this is the second column this is the
+
+1008
+00:21:44,870 --> 00:21:44,880
+this is the second column this is the
+ 
+
+1009
+00:21:44,880 --> 00:21:46,549
+this is the second column this is the
+yellow column
+
+1010
+00:21:46,549 --> 00:21:46,559
+yellow column
+ 
+
+1011
+00:21:46,559 --> 00:21:50,149
+yellow column
+two minus zero equals two y so so look
+
+1012
+00:21:50,149 --> 00:21:50,159
+two minus zero equals two y so so look
+ 
+
+1013
+00:21:50,159 --> 00:21:52,870
+two minus zero equals two y so so look
+yeah it's equal it means that we cannot
+
+1014
+00:21:52,870 --> 00:21:52,880
+yeah it's equal it means that we cannot
+ 
+
+1015
+00:21:52,880 --> 00:21:53,510
+yeah it's equal it means that we cannot
+place
+
+1016
+00:21:53,510 --> 00:21:53,520
+place
+ 
+
+1017
+00:21:53,520 --> 00:21:56,789
+place
+do you get it yeah this is basically how
+
+1018
+00:21:56,789 --> 00:21:56,799
+do you get it yeah this is basically how
+ 
+
+1019
+00:21:56,799 --> 00:21:59,990
+do you get it yeah this is basically how
+we check these basically we check
+
+1020
+00:21:59,990 --> 00:22:00,000
+we check these basically we check
+ 
+
+1021
+00:22:00,000 --> 00:22:03,350
+we check these basically we check
+these distance this distance
+
+1022
+00:22:03,350 --> 00:22:03,360
+these distance this distance
+ 
+
+1023
+00:22:03,360 --> 00:22:06,470
+these distance this distance
+and the least distance yeah
+
+1024
+00:22:06,470 --> 00:22:06,480
+and the least distance yeah
+ 
+
+1025
+00:22:06,480 --> 00:22:09,190
+and the least distance yeah
+if this distance equals this descent
+
+1026
+00:22:09,190 --> 00:22:09,200
+if this distance equals this descent
+ 
+
+1027
+00:22:09,200 --> 00:22:11,270
+if this distance equals this descent
+what does it mean
+
+1028
+00:22:11,270 --> 00:22:11,280
+what does it mean
+ 
+
+1029
+00:22:11,280 --> 00:22:15,270
+what does it mean
+if it's if it is if this is the square
+
+1030
+00:22:15,270 --> 00:22:15,280
+if it's if it is if this is the square
+ 
+
+1031
+00:22:15,280 --> 00:22:17,350
+if it's if it is if this is the square
+if this is a square it means it's on the
+
+1032
+00:22:17,350 --> 00:22:17,360
+if this is a square it means it's on the
+ 
+
+1033
+00:22:17,360 --> 00:22:18,789
+if this is a square it means it's on the
+diagonal right
+
+1034
+00:22:18,789 --> 00:22:18,799
+diagonal right
+ 
+
+1035
+00:22:18,799 --> 00:22:21,110
+diagonal right
+yeah basically we're just checking that
+
+1036
+00:22:21,110 --> 00:22:21,120
+yeah basically we're just checking that
+ 
+
+1037
+00:22:21,120 --> 00:22:23,590
+yeah basically we're just checking that
+okay so if you run this solution
+
+1038
+00:22:23,590 --> 00:22:23,600
+okay so if you run this solution
+ 
+
+1039
+00:22:23,600 --> 00:22:26,310
+okay so if you run this solution
+you can find out the total number of
+
+1040
+00:22:26,310 --> 00:22:26,320
+you can find out the total number of
+ 
+
+1041
+00:22:26,320 --> 00:22:27,669
+you can find out the total number of
+solutions to place
+
+1042
+00:22:27,669 --> 00:22:27,679
+solutions to place
+ 
+
+1043
+00:22:27,679 --> 00:22:30,710
+solutions to place
+on the a times a
+
+1044
+00:22:30,710 --> 00:22:30,720
+on the a times a
+ 
+
+1045
+00:22:30,720 --> 00:22:33,350
+on the a times a
+queen with a queens yeah eight times a
+
+1046
+00:22:33,350 --> 00:22:33,360
+queen with a queens yeah eight times a
+ 
+
+1047
+00:22:33,360 --> 00:22:33,750
+queen with a queens yeah eight times a
+ball
+
+1048
+00:22:33,750 --> 00:22:33,760
+ball
+ 
+
+1049
+00:22:33,760 --> 00:22:37,029
+ball
+chess ball with the a queen is 92.
+
+1050
+00:22:37,029 --> 00:22:37,039
+chess ball with the a queen is 92.
+ 
+
+1051
+00:22:37,039 --> 00:22:40,070
+chess ball with the a queen is 92.
+got it okay do you get it
+
+1052
+00:22:40,070 --> 00:22:40,080
+got it okay do you get it
+ 
+
+1053
+00:22:40,080 --> 00:22:42,390
+got it okay do you get it
+so let the answer the the process how do
+
+1054
+00:22:42,390 --> 00:22:42,400
+so let the answer the the process how do
+ 
+
+1055
+00:22:42,400 --> 00:22:44,310
+so let the answer the the process how do
+we do it so place the first screen
+
+1056
+00:22:44,310 --> 00:22:44,320
+we do it so place the first screen
+ 
+
+1057
+00:22:44,320 --> 00:22:46,070
+we do it so place the first screen
+we if we can place on the first screen
+
+1058
+00:22:46,070 --> 00:22:46,080
+we if we can place on the first screen
+ 
+
+1059
+00:22:46,080 --> 00:22:47,990
+we if we can place on the first screen
+we try the next screen
+
+1060
+00:22:47,990 --> 00:22:48,000
+we try the next screen
+ 
+
+1061
+00:22:48,000 --> 00:22:49,990
+we try the next screen
+yeah if we can try next screen we try
+
+1062
+00:22:49,990 --> 00:22:50,000
+yeah if we can try next screen we try
+ 
+
+1063
+00:22:50,000 --> 00:22:51,190
+yeah if we can try next screen we try
+next swing again
+
+1064
+00:22:51,190 --> 00:22:51,200
+next swing again
+ 
+
+1065
+00:22:51,200 --> 00:22:54,070
+next swing again
+and until we get we place the whole end
+
+1066
+00:22:54,070 --> 00:22:54,080
+and until we get we place the whole end
+ 
+
+1067
+00:22:54,080 --> 00:22:54,950
+and until we get we place the whole end
+queens
+
+1068
+00:22:54,950 --> 00:22:54,960
+queens
+ 
+
+1069
+00:22:54,960 --> 00:22:58,390
+queens
+and after that after that we added
+
+1070
+00:22:58,390 --> 00:22:58,400
+and after that after that we added
+ 
+
+1071
+00:22:58,400 --> 00:23:00,789
+and after that after that we added
+the answer we found the solution right
+
+1072
+00:23:00,789 --> 00:23:00,799
+the answer we found the solution right
+ 
+
+1073
+00:23:00,799 --> 00:23:02,549
+the answer we found the solution right
+because this is recursion yeah because
+
+1074
+00:23:02,549 --> 00:23:02,559
+because this is recursion yeah because
+ 
+
+1075
+00:23:02,559 --> 00:23:03,430
+because this is recursion yeah because
+you so you
+
+1076
+00:23:03,430 --> 00:23:03,440
+you so you
+ 
+
+1077
+00:23:03,440 --> 00:23:05,750
+you so you
+keep trying the the first screen i put
+
+1078
+00:23:05,750 --> 00:23:05,760
+keep trying the the first screen i put
+ 
+
+1079
+00:23:05,760 --> 00:23:07,830
+keep trying the the first screen i put
+the first one second one third one until
+
+1080
+00:23:07,830 --> 00:23:07,840
+the first one second one third one until
+ 
+
+1081
+00:23:07,840 --> 00:23:08,789
+the first one second one third one until
+eighth one
+
+1082
+00:23:08,789 --> 00:23:08,799
+eighth one
+ 
+
+1083
+00:23:08,799 --> 00:23:12,149
+eighth one
+and when i search all of these solutions
+
+1084
+00:23:12,149 --> 00:23:12,159
+and when i search all of these solutions
+ 
+
+1085
+00:23:12,159 --> 00:23:13,909
+and when i search all of these solutions
+then i don't have any other
+
+1086
+00:23:13,909 --> 00:23:13,919
+then i don't have any other
+ 
+
+1087
+00:23:13,919 --> 00:23:16,070
+then i don't have any other
+more places to uh to pull the queens
+
+1088
+00:23:16,070 --> 00:23:16,080
+more places to uh to pull the queens
+ 
+
+1089
+00:23:16,080 --> 00:23:17,909
+more places to uh to pull the queens
+right okay so
+
+1090
+00:23:17,909 --> 00:23:17,919
+right okay so
+ 
+
+1091
+00:23:17,919 --> 00:23:22,710
+right okay so
+good job today say bye bye ryan
+
+1092
+00:23:22,710 --> 00:23:22,720
+good job today say bye bye ryan
+ 
+
+1093
+00:23:22,720 --> 00:23:31,520
+good job today say bye bye ryan
+bye ryan you want to say bye
+
