@@ -1,0 +1,816 @@
+1
+00:00:00,080 --> 00:00:07,200
+hello okay hello eric and brian
+
+2
+00:00:04,080 --> 00:00:10,000
+okay hello okay please
+
+3
+00:00:07,200 --> 00:00:11,840
+today i'm going to talk about the data
+
+4
+00:00:10,000 --> 00:00:14,719
+structure called stack
+
+5
+00:00:11,840 --> 00:00:14,719
+do you know stack
+
+6
+00:00:15,360 --> 00:00:21,760
+can anyone describe what is the stack
+
+7
+00:00:19,199 --> 00:00:23,039
+it's a tower it's a towel can you draw
+
+8
+00:00:21,760 --> 00:00:26,400
+it somewhere
+
+9
+00:00:23,039 --> 00:00:26,400
+color okay
+
+10
+00:00:27,439 --> 00:00:33,280
+eric you want to draw
+
+11
+00:00:31,279 --> 00:00:35,040
+tower okay and lots of things yeah
+
+12
+00:00:33,280 --> 00:00:39,040
+yesterday
+
+13
+00:00:35,040 --> 00:00:39,040
+um loads of houses windows
+
+14
+00:00:39,360 --> 00:00:44,399
+okay yeah yeah yeah okay
+
+15
+00:00:42,480 --> 00:00:45,760
+okay let's that's why it was mean by
+
+16
+00:00:44,399 --> 00:00:49,680
+state yeah
+
+17
+00:00:45,760 --> 00:00:52,160
+okay similar similar so a stack is uh
+
+18
+00:00:49,680 --> 00:00:54,000
+it's uh it's probably simply a stack is
+
+19
+00:00:52,160 --> 00:00:54,719
+the data structure we call it data
+
+20
+00:00:54,000 --> 00:00:59,359
+structure
+
+21
+00:00:54,719 --> 00:01:02,320
+data structure so data structure is
+
+22
+00:00:59,359 --> 00:01:03,600
+is a kind of structure to hold data yeah
+
+23
+00:01:02,320 --> 00:01:06,799
+to hold data
+
+24
+00:01:03,600 --> 00:01:08,640
+so this stack is actually it's it's
+
+25
+00:01:06,799 --> 00:01:12,000
+quite similar to what you have
+
+26
+00:01:08,640 --> 00:01:16,560
+put here but it's like it's an
+
+27
+00:01:12,000 --> 00:01:16,560
+a list it's a it's uh
+
+28
+00:01:16,799 --> 00:01:20,000
+so so for example like if you put a
+
+29
+00:01:19,520 --> 00:01:24,080
+plate
+
+30
+00:01:20,000 --> 00:01:27,840
+yeah you can put a bigger plate yeah
+
+31
+00:01:24,080 --> 00:01:27,840
+put a big plate
+
+32
+00:01:31,380 --> 00:01:34,430
+[Music]
+
+33
+00:01:38,320 --> 00:01:45,520
+okay okay you do a better job okay
+
+34
+00:01:41,759 --> 00:01:49,759
+coward okay okay come
+
+35
+00:01:45,520 --> 00:01:53,119
+yes yes okay so the point here is
+
+36
+00:01:49,759 --> 00:01:54,720
+i put a plate on top of each other but i
+
+37
+00:01:53,119 --> 00:01:56,159
+every time i want to take a play which
+
+38
+00:01:54,720 --> 00:01:59,360
+played i take the first
+
+39
+00:01:56,159 --> 00:01:59,920
+the top one right yes i cannot take
+
+40
+00:01:59,360 --> 00:02:02,719
+these
+
+41
+00:01:59,920 --> 00:02:03,520
+right without taking these and that yeah
+
+42
+00:02:02,719 --> 00:02:07,600
+yeah
+
+43
+00:02:03,520 --> 00:02:11,760
+okay so so so this is one property of uh
+
+44
+00:02:07,600 --> 00:02:12,959
+one important one important thing about
+
+45
+00:02:11,760 --> 00:02:16,080
+a step is
+
+46
+00:02:12,959 --> 00:02:21,280
+is what first thing
+
+47
+00:02:16,080 --> 00:02:24,319
+first in last out
+
+48
+00:02:21,280 --> 00:02:27,599
+okay we call it
+
+49
+00:02:24,319 --> 00:02:29,599
+first thing you have now the plate look
+
+50
+00:02:27,599 --> 00:02:31,440
+you put the plate you put this plate
+
+51
+00:02:29,599 --> 00:02:32,959
+first you put the second plate you put
+
+52
+00:02:31,440 --> 00:02:34,480
+the third plate when you take it out you
+
+53
+00:02:32,959 --> 00:02:36,879
+take the three first
+
+54
+00:02:34,480 --> 00:02:37,760
+and then you take the second you take it
+
+55
+00:02:36,879 --> 00:02:40,640
+the second
+
+56
+00:02:37,760 --> 00:02:41,840
+and then the last take you take the one
+
+57
+00:02:40,640 --> 00:02:44,239
+out okay
+
+58
+00:02:41,840 --> 00:02:45,440
+okay so the first thing lasts off so in
+
+59
+00:02:44,239 --> 00:02:49,280
+person
+
+60
+00:02:45,440 --> 00:02:52,800
+in person we can do this we can do this
+
+61
+00:02:49,280 --> 00:02:55,760
+like let's let's let's call it
+
+62
+00:02:52,800 --> 00:02:56,560
+let's call it what plate okay let's call
+
+63
+00:02:55,760 --> 00:03:00,640
+it plate
+
+64
+00:02:56,560 --> 00:03:03,840
+plate when we define what we can do
+
+65
+00:03:00,640 --> 00:03:07,040
+equals what a bracket yeah
+
+66
+00:03:03,840 --> 00:03:09,680
+empty so first of all it's empty okay
+
+67
+00:03:07,040 --> 00:03:11,519
+so now what i want to do is i want to
+
+68
+00:03:09,680 --> 00:03:15,360
+put one plate first
+
+69
+00:03:11,519 --> 00:03:18,720
+so plate stop
+
+70
+00:03:15,360 --> 00:03:22,879
+append yeah
+
+71
+00:03:18,720 --> 00:03:25,920
+what's the meaning of a pen describe
+
+72
+00:03:22,879 --> 00:03:27,840
+append describe a pen
+
+73
+00:03:25,920 --> 00:03:30,239
+no yes it's quite open what's it what
+
+74
+00:03:27,840 --> 00:03:30,239
+does it mean
+
+75
+00:03:30,959 --> 00:03:35,280
+to put something yeah put something at
+
+76
+00:03:34,560 --> 00:03:37,440
+the end
+
+77
+00:03:35,280 --> 00:03:38,879
+okay so what does it what does it mean
+
+78
+00:03:37,440 --> 00:03:42,239
+here so one is
+
+79
+00:03:38,879 --> 00:03:45,599
+one is when a statement gets executed
+
+80
+00:03:42,239 --> 00:03:49,040
+ryan ryan listen eric
+
+81
+00:03:45,599 --> 00:03:53,840
+these plates will contain one
+
+82
+00:03:49,040 --> 00:03:56,720
+okay okay and then after this place
+
+83
+00:03:53,840 --> 00:03:56,720
+dot a pen
+
+84
+00:03:57,040 --> 00:04:00,560
+two now what will it happen it will put
+
+85
+00:04:00,159 --> 00:04:03,360
+this
+
+86
+00:04:00,560 --> 00:04:04,959
+two at the end of the this data
+
+87
+00:04:03,360 --> 00:04:08,400
+structure yeah
+
+88
+00:04:04,959 --> 00:04:09,760
+two okay and then again i can put this
+
+89
+00:04:08,400 --> 00:04:12,080
+three
+
+90
+00:04:09,760 --> 00:04:12,879
+and then what happened it will become a
+
+91
+00:04:12,080 --> 00:04:15,040
+three
+
+92
+00:04:12,879 --> 00:04:17,440
+okay now this is interesting part how
+
+93
+00:04:15,040 --> 00:04:20,639
+about i do this
+
+94
+00:04:17,440 --> 00:04:23,600
+play stop pop
+
+95
+00:04:20,639 --> 00:04:24,160
+so what do you think pop and then i get
+
+96
+00:04:23,600 --> 00:04:26,639
+the x
+
+97
+00:04:24,160 --> 00:04:28,160
+i assign it to x so what do you think
+
+98
+00:04:26,639 --> 00:04:31,520
+what happened
+
+99
+00:04:28,160 --> 00:04:34,400
+what do you think what happened here pop
+
+100
+00:04:31,520 --> 00:04:36,080
+a pen pop pop is like to take it out so
+
+101
+00:04:34,400 --> 00:04:39,120
+what happens they
+
+102
+00:04:36,080 --> 00:04:42,080
+will damage you take
+
+103
+00:04:39,120 --> 00:04:42,960
+the biggest number out no no first thing
+
+104
+00:04:42,080 --> 00:04:46,080
+that's all
+
+105
+00:04:42,960 --> 00:04:47,280
+first thing that's off so i i put it
+
+106
+00:04:46,080 --> 00:04:50,800
+first one
+
+107
+00:04:47,280 --> 00:04:52,960
+two three so this one is the first thing
+
+108
+00:04:50,800 --> 00:04:54,639
+in right yeah so it should be the last
+
+109
+00:04:52,960 --> 00:04:57,520
+style so what should be coming
+
+110
+00:04:54,639 --> 00:04:59,360
+in first sit down otherwise three three
+
+111
+00:04:57,520 --> 00:05:03,120
+yes good job so x
+
+112
+00:04:59,360 --> 00:05:06,160
+will become three left one
+
+113
+00:05:03,120 --> 00:05:08,000
+and look look like eric i
+
+114
+00:05:06,160 --> 00:05:10,240
+think it's pop what is the meaning of
+
+115
+00:05:08,000 --> 00:05:14,720
+pop
+
+116
+00:05:10,240 --> 00:05:18,080
+take out okay so this will be gone
+
+117
+00:05:14,720 --> 00:05:21,770
+okay and x will be three okay
+
+118
+00:05:18,080 --> 00:05:23,360
+yeah so then let's try again place
+
+119
+00:05:21,770 --> 00:05:26,960
+[Music]
+
+120
+00:05:23,360 --> 00:05:31,600
+the append four
+
+121
+00:05:26,960 --> 00:05:34,240
+what happened what happened
+
+122
+00:05:31,600 --> 00:05:34,880
+you put the four leg yeah you put four
+
+123
+00:05:34,240 --> 00:05:38,560
+here
+
+124
+00:05:34,880 --> 00:05:41,440
+okay all right
+
+125
+00:05:38,560 --> 00:05:43,520
+and then again i thought this y equals
+
+126
+00:05:41,440 --> 00:05:46,080
+place
+
+127
+00:05:43,520 --> 00:05:46,080
+the pop
+
+128
+00:05:47,120 --> 00:05:53,680
+after this okay why because playing
+
+129
+00:05:49,360 --> 00:05:56,160
+support what happened
+
+130
+00:05:53,680 --> 00:05:57,840
+y equals place the pop so what happened
+
+131
+00:05:56,160 --> 00:06:00,880
+now
+
+132
+00:05:57,840 --> 00:06:03,440
+the y is four y
+
+133
+00:06:00,880 --> 00:06:05,039
+is four yeah we're done and this will be
+
+134
+00:06:03,440 --> 00:06:08,720
+erased from the
+
+135
+00:06:05,039 --> 00:06:11,039
+stack right from the plate got it
+
+136
+00:06:08,720 --> 00:06:12,960
+yeah so if you keep doing that then the
+
+137
+00:06:11,039 --> 00:06:16,319
+next element to take out is two
+
+138
+00:06:12,960 --> 00:06:19,520
+yeah and the next element to get cut out
+
+139
+00:06:16,319 --> 00:06:22,400
+is one so next functions to c
+
+140
+00:06:19,520 --> 00:06:23,120
+to to check how many elements are in the
+
+141
+00:06:22,400 --> 00:06:25,280
+plate
+
+142
+00:06:23,120 --> 00:06:27,600
+in the stack do you know what it is why
+
+143
+00:06:25,280 --> 00:06:29,680
+do you have lens number four
+
+144
+00:06:27,600 --> 00:06:32,080
+length yeah we call it lens stands from
+
+145
+00:06:29,680 --> 00:06:35,360
+lens yeah you know the word lens
+
+146
+00:06:32,080 --> 00:06:36,720
+yes length is the size okay so length of
+
+147
+00:06:35,360 --> 00:06:40,560
+this plate
+
+148
+00:06:36,720 --> 00:06:44,319
+now it will become two right
+
+149
+00:06:40,560 --> 00:06:48,000
+yes okay okay so do you know
+
+150
+00:06:44,319 --> 00:06:51,360
+how about if you want to reverse a
+
+151
+00:06:48,000 --> 00:06:55,360
+list how do we do it reverse it
+
+152
+00:06:51,360 --> 00:06:55,360
+we can use this first in lassa okay
+
+153
+00:06:56,479 --> 00:07:04,639
+yeah look let's let's call this
+
+154
+00:07:00,840 --> 00:07:08,250
+define reverse okay
+
+155
+00:07:04,639 --> 00:07:09,759
+yeah say properly please reverse
+
+156
+00:07:08,250 --> 00:07:13,120
+[Music]
+
+157
+00:07:09,759 --> 00:07:16,800
+reverse let's let's for example numbers
+
+158
+00:07:13,120 --> 00:07:20,720
+at least the numbers okay the llamas
+
+159
+00:07:16,800 --> 00:07:22,960
+okay yeah so how do we do it
+
+160
+00:07:20,720 --> 00:07:25,759
+how do we do it it's numbers already i
+
+161
+00:07:22,960 --> 00:07:29,120
+know we want to reverse it
+
+162
+00:07:25,759 --> 00:07:29,440
+okay then we can do this let's call it
+
+163
+00:07:29,120 --> 00:07:32,080
+the
+
+164
+00:07:29,440 --> 00:07:33,360
+reverse is in the answer okay answer is
+
+165
+00:07:32,080 --> 00:07:37,759
+a list
+
+166
+00:07:33,360 --> 00:07:42,800
+okay so now what we can do
+
+167
+00:07:37,759 --> 00:07:42,800
+y length
+
+168
+00:07:42,840 --> 00:07:47,039
+numbers
+
+169
+00:07:44,960 --> 00:07:48,319
+is bigger than zero yeah even less
+
+170
+00:07:47,039 --> 00:07:52,800
+element in the list
+
+171
+00:07:48,319 --> 00:07:56,000
+what do we do we we
+
+172
+00:07:52,800 --> 00:07:57,919
+we take a value from the end from from
+
+173
+00:07:56,000 --> 00:08:02,400
+the end yeah from the
+
+174
+00:07:57,919 --> 00:08:04,800
+end which is lambs the pop am right
+
+175
+00:08:02,400 --> 00:08:07,280
+look now we take this for example the
+
+176
+00:08:04,800 --> 00:08:10,560
+numbers is one two three okay
+
+177
+00:08:07,280 --> 00:08:12,800
+now length lumps is three right
+
+178
+00:08:10,560 --> 00:08:14,240
+three is bigger than zero we pop it so
+
+179
+00:08:12,800 --> 00:08:17,680
+we take these three
+
+180
+00:08:14,240 --> 00:08:20,639
+make it one two and x is three right
+
+181
+00:08:17,680 --> 00:08:22,319
+then we do this answer dot append we
+
+182
+00:08:20,639 --> 00:08:26,080
+append it to this right
+
+183
+00:08:22,319 --> 00:08:28,160
+okay x and then it goes
+
+184
+00:08:26,080 --> 00:08:30,160
+long and the next one is two and then
+
+185
+00:08:28,160 --> 00:08:31,199
+the next answer will be three two and
+
+186
+00:08:30,160 --> 00:08:35,440
+the next one is one
+
+187
+00:08:31,199 --> 00:08:38,839
+three two one and then return what
+
+188
+00:08:35,440 --> 00:08:42,880
+written one we want to write down
+
+189
+00:08:38,839 --> 00:08:45,600
+x return x no no no
+
+190
+00:08:42,880 --> 00:08:46,480
+what we have to written answer we're
+
+191
+00:08:45,600 --> 00:08:49,600
+done okay
+
+192
+00:08:46,480 --> 00:08:52,640
+so do you get it does it make sense
+
+193
+00:08:49,600 --> 00:08:55,760
+yes so today's you need to remember
+
+194
+00:08:52,640 --> 00:08:59,200
+the step is first thing now
+
+195
+00:08:55,760 --> 00:09:02,480
+or we refer it as f i l
+
+196
+00:08:59,200 --> 00:09:04,880
+o what do you have to do and look
+
+197
+00:09:02,480 --> 00:09:07,519
+we are creating a list and then we pop
+
+198
+00:09:04,880 --> 00:09:10,160
+it we check these numbers we pop it
+
+199
+00:09:07,519 --> 00:09:12,000
+when it's not empty we pop it we take
+
+200
+00:09:10,160 --> 00:09:13,920
+one animal from the end and then we
+
+201
+00:09:12,000 --> 00:09:16,080
+append it to the other list
+
+202
+00:09:13,920 --> 00:09:17,839
+and we return this okay and do we want
+
+203
+00:09:16,080 --> 00:09:22,720
+to put it in the computer
+
+204
+00:09:17,839 --> 00:09:22,720
+okay good job today
+
