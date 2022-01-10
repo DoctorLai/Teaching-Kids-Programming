@@ -1,0 +1,3445 @@
+1
+00:00:04,290 --> 00:00:11,350
+
+[Music]
+
+2
+00:00:11,350 --> 00:00:11,360
+
+ 
+
+3
+00:00:11,360 --> 00:00:13,509
+
+so today we will talk about how to add a
+
+4
+00:00:13,509 --> 00:00:13,519
+so today we will talk about how to add a
+ 
+
+5
+00:00:13,519 --> 00:00:14,870
+so today we will talk about how to add a
+two-linked list
+
+6
+00:00:14,870 --> 00:00:14,880
+two-linked list
+ 
+
+7
+00:00:14,880 --> 00:00:18,310
+two-linked list
+so for example like you mean exchange
+
+8
+00:00:18,310 --> 00:00:18,320
+so for example like you mean exchange
+ 
+
+9
+00:00:18,320 --> 00:00:22,070
+so for example like you mean exchange
+no edit for example that sounds a bit
+
+10
+00:00:22,070 --> 00:00:22,080
+no edit for example that sounds a bit
+ 
+
+11
+00:00:22,080 --> 00:00:25,870
+no edit for example that sounds a bit
+easy okay so tell me 46 plus
+
+12
+00:00:25,870 --> 00:00:25,880
+easy okay so tell me 46 plus
+ 
+
+13
+00:00:25,880 --> 00:00:28,870
+easy okay so tell me 46 plus
+74 equals
+
+14
+00:00:28,870 --> 00:00:28,880
+74 equals
+ 
+
+15
+00:00:28,880 --> 00:00:37,590
+74 equals
+120.
+
+16
+00:00:37,590 --> 00:00:37,600
+
+ 
+
+17
+00:00:37,600 --> 00:00:43,190
+
+[Music]
+
+18
+00:00:43,190 --> 00:00:43,200
+
+ 
+
+19
+00:00:43,200 --> 00:00:45,670
+
+okay so one way of doing one way of
+
+20
+00:00:45,670 --> 00:00:45,680
+okay so one way of doing one way of
+ 
+
+21
+00:00:45,680 --> 00:00:46,549
+okay so one way of doing one way of
+doing this is
+
+22
+00:00:46,549 --> 00:00:46,559
+doing this is
+ 
+
+23
+00:00:46,559 --> 00:00:49,670
+doing this is
+start from the least least significant
+
+24
+00:00:49,670 --> 00:00:49,680
+start from the least least significant
+ 
+
+25
+00:00:49,680 --> 00:00:52,389
+start from the least least significant
+digit yeah so so it's the right most you
+
+26
+00:00:52,389 --> 00:00:52,399
+digit yeah so so it's the right most you
+ 
+
+27
+00:00:52,399 --> 00:00:53,029
+digit yeah so so it's the right most you
+start with
+
+28
+00:00:53,029 --> 00:00:53,039
+start with
+ 
+
+29
+00:00:53,039 --> 00:00:55,750
+start with
+six plus four is ten right you carry
+
+30
+00:00:55,750 --> 00:00:55,760
+six plus four is ten right you carry
+ 
+
+31
+00:00:55,760 --> 00:00:57,270
+six plus four is ten right you carry
+over one here yeah
+
+32
+00:00:57,270 --> 00:00:57,280
+over one here yeah
+ 
+
+33
+00:00:57,280 --> 00:01:00,950
+over one here yeah
+so 1 plus 4 plus 7 equals 12
+
+34
+00:01:00,950 --> 00:01:00,960
+so 1 plus 4 plus 7 equals 12
+ 
+
+35
+00:01:00,960 --> 00:01:04,070
+so 1 plus 4 plus 7 equals 12
+you put a 2 here carry over one so 1. do
+
+36
+00:01:04,070 --> 00:01:04,080
+you put a 2 here carry over one so 1. do
+ 
+
+37
+00:01:04,080 --> 00:01:04,869
+you put a 2 here carry over one so 1. do
+you get it
+
+38
+00:01:04,869 --> 00:01:04,879
+you get it
+ 
+
+39
+00:01:04,879 --> 00:01:08,310
+you get it
+yeah okay so now
+
+40
+00:01:08,310 --> 00:01:08,320
+yeah okay so now
+ 
+
+41
+00:01:08,320 --> 00:01:09,990
+yeah okay so now
+this is easy to understand how it works
+
+42
+00:01:09,990 --> 00:01:10,000
+this is easy to understand how it works
+ 
+
+43
+00:01:10,000 --> 00:01:12,070
+this is easy to understand how it works
+okay so how about i tell you that
+
+44
+00:01:12,070 --> 00:01:12,080
+okay so how about i tell you that
+ 
+
+45
+00:01:12,080 --> 00:01:15,270
+okay so how about i tell you that
+this number 46 is a linked list
+
+46
+00:01:15,270 --> 00:01:15,280
+this number 46 is a linked list
+ 
+
+47
+00:01:15,280 --> 00:01:19,190
+this number 46 is a linked list
+represented by this six link to four
+
+48
+00:01:19,190 --> 00:01:19,200
+represented by this six link to four
+ 
+
+49
+00:01:19,200 --> 00:01:22,230
+represented by this six link to four
+and then 74 in reverse okay so the least
+
+50
+00:01:22,230 --> 00:01:22,240
+and then 74 in reverse okay so the least
+ 
+
+51
+00:01:22,240 --> 00:01:23,749
+and then 74 in reverse okay so the least
+significant bit
+
+52
+00:01:23,749 --> 00:01:23,759
+significant bit
+ 
+
+53
+00:01:23,759 --> 00:01:27,429
+significant bit
+digit is confirmed yeah this is the most
+
+54
+00:01:27,429 --> 00:01:27,439
+digit is confirmed yeah this is the most
+ 
+
+55
+00:01:27,439 --> 00:01:28,310
+digit is confirmed yeah this is the most
+significant
+
+56
+00:01:28,310 --> 00:01:28,320
+significant
+ 
+
+57
+00:01:28,320 --> 00:01:30,230
+significant
+uh digit this is the least significant
+
+58
+00:01:30,230 --> 00:01:30,240
+uh digit this is the least significant
+ 
+
+59
+00:01:30,240 --> 00:01:31,429
+uh digit this is the least significant
+pieces the left most
+
+60
+00:01:31,429 --> 00:01:31,439
+pieces the left most
+ 
+
+61
+00:01:31,439 --> 00:01:33,910
+pieces the left most
+are the most significant the right modes
+
+62
+00:01:33,910 --> 00:01:33,920
+are the most significant the right modes
+ 
+
+63
+00:01:33,920 --> 00:01:36,230
+are the most significant the right modes
+are least significant right because the
+
+64
+00:01:36,230 --> 00:01:36,240
+are least significant right because the
+ 
+
+65
+00:01:36,240 --> 00:01:39,190
+are least significant right because the
+left mouse are bigger carry more weight
+
+66
+00:01:39,190 --> 00:01:39,200
+left mouse are bigger carry more weight
+ 
+
+67
+00:01:39,200 --> 00:01:39,590
+left mouse are bigger carry more weight
+right
+
+68
+00:01:39,590 --> 00:01:39,600
+right
+ 
+
+69
+00:01:39,600 --> 00:01:44,469
+right
+70 70 7 is 17 four means just four right
+
+70
+00:01:44,469 --> 00:01:44,479
+70 70 7 is 17 four means just four right
+ 
+
+71
+00:01:44,479 --> 00:01:46,310
+70 70 7 is 17 four means just four right
+okay so these you're given two head
+
+72
+00:01:46,310 --> 00:01:46,320
+okay so these you're given two head
+ 
+
+73
+00:01:46,320 --> 00:01:47,749
+okay so these you're given two head
+linked please this is
+
+74
+00:01:47,749 --> 00:01:47,759
+linked please this is
+ 
+
+75
+00:01:47,759 --> 00:01:50,870
+linked please this is
+equal forty seven yeah a and b and what
+
+76
+00:01:50,870 --> 00:01:50,880
+equal forty seven yeah a and b and what
+ 
+
+77
+00:01:50,880 --> 00:01:51,830
+equal forty seven yeah a and b and what
+i want you to do
+
+78
+00:01:51,830 --> 00:01:51,840
+i want you to do
+ 
+
+79
+00:01:51,840 --> 00:01:54,870
+i want you to do
+is to to edit and then
+
+80
+00:01:54,870 --> 00:01:54,880
+is to to edit and then
+ 
+
+81
+00:01:54,880 --> 00:01:58,230
+is to to edit and then
+and then put a link list like 0
+
+82
+00:01:58,230 --> 00:01:58,240
+and then put a link list like 0
+ 
+
+83
+00:01:58,240 --> 00:02:01,910
+and then put a link list like 0
+2 1 any sauce
+
+84
+00:02:01,910 --> 00:02:01,920
+2 1 any sauce
+ 
+
+85
+00:02:01,920 --> 00:02:06,149
+2 1 any sauce
+y 0 to 1 120
+
+86
+00:02:06,149 --> 00:02:06,159
+y 0 to 1 120
+ 
+
+87
+00:02:06,159 --> 00:02:11,910
+y 0 to 1 120
+is it
+
+88
+00:02:11,910 --> 00:02:11,920
+
+ 
+
+89
+00:02:11,920 --> 00:02:14,390
+
+you have any sauce any sauce just just
+
+90
+00:02:14,390 --> 00:02:14,400
+you have any sauce any sauce just just
+ 
+
+91
+00:02:14,400 --> 00:02:15,190
+you have any sauce any sauce just just
+some random
+
+92
+00:02:15,190 --> 00:02:15,200
+some random
+ 
+
+93
+00:02:15,200 --> 00:02:17,190
+some random
+uh brainstorming how are you dealing
+
+94
+00:02:17,190 --> 00:02:17,200
+uh brainstorming how are you dealing
+ 
+
+95
+00:02:17,200 --> 00:02:19,350
+uh brainstorming how are you dealing
+with it
+
+96
+00:02:19,350 --> 00:02:19,360
+with it
+ 
+
+97
+00:02:19,360 --> 00:02:20,949
+with it
+you don't want me to worry about coding
+
+98
+00:02:20,949 --> 00:02:20,959
+you don't want me to worry about coding
+ 
+
+99
+00:02:20,959 --> 00:02:22,390
+you don't want me to worry about coding
+just tell me what's your source of
+
+100
+00:02:22,390 --> 00:02:22,400
+just tell me what's your source of
+ 
+
+101
+00:02:22,400 --> 00:02:24,550
+just tell me what's your source of
+solving this problem
+
+102
+00:02:24,550 --> 00:02:24,560
+solving this problem
+ 
+
+103
+00:02:24,560 --> 00:02:27,990
+solving this problem
+yeah ryan any thoughts
+
+104
+00:02:27,990 --> 00:02:28,000
+yeah ryan any thoughts
+ 
+
+105
+00:02:28,000 --> 00:02:30,630
+yeah ryan any thoughts
+no wait wait wait wait all you need to
+
+106
+00:02:30,630 --> 00:02:30,640
+no wait wait wait wait all you need to
+ 
+
+107
+00:02:30,640 --> 00:02:34,830
+no wait wait wait wait all you need to
+do
+
+108
+00:02:34,830 --> 00:02:34,840
+
+ 
+
+109
+00:02:34,840 --> 00:02:36,390
+
+is the
+
+110
+00:02:36,390 --> 00:02:36,400
+is the
+ 
+
+111
+00:02:36,400 --> 00:02:40,229
+is the
+answer then write it backwards
+
+112
+00:02:40,229 --> 00:02:40,239
+answer then write it backwards
+ 
+
+113
+00:02:40,239 --> 00:02:41,509
+answer then write it backwards
+find the answer and write it backwards
+
+114
+00:02:41,509 --> 00:02:41,519
+find the answer and write it backwards
+ 
+
+115
+00:02:41,519 --> 00:02:43,670
+find the answer and write it backwards
+okay that's one one solution
+
+116
+00:02:43,670 --> 00:02:43,680
+okay that's one one solution
+ 
+
+117
+00:02:43,680 --> 00:02:46,710
+okay that's one one solution
+so one solution is that we
+
+118
+00:02:46,710 --> 00:02:46,720
+so one solution is that we
+ 
+
+119
+00:02:46,720 --> 00:02:48,550
+so one solution is that we
+we come up with the method to convert
+
+120
+00:02:48,550 --> 00:02:48,560
+we come up with the method to convert
+ 
+
+121
+00:02:48,560 --> 00:02:49,990
+we come up with the method to convert
+these liquids
+
+122
+00:02:49,990 --> 00:02:50,000
+these liquids
+ 
+
+123
+00:02:50,000 --> 00:02:53,190
+these liquids
+into a number right so we convert this
+
+124
+00:02:53,190 --> 00:02:53,200
+into a number right so we convert this
+ 
+
+125
+00:02:53,200 --> 00:02:55,509
+into a number right so we convert this
+into 46 and we convert this into
+
+126
+00:02:55,509 --> 00:02:55,519
+into 46 and we convert this into
+ 
+
+127
+00:02:55,519 --> 00:02:58,710
+into 46 and we convert this into
+74 and then we know in python we just
+
+128
+00:02:58,710 --> 00:02:58,720
+74 and then we know in python we just
+ 
+
+129
+00:02:58,720 --> 00:02:59,990
+74 and then we know in python we just
+add it together and then it will be all
+
+130
+00:02:59,990 --> 00:03:00,000
+add it together and then it will be all
+ 
+
+131
+00:03:00,000 --> 00:03:00,869
+add it together and then it will be all
+120.
+
+132
+00:03:00,869 --> 00:03:00,879
+120.
+ 
+
+133
+00:03:00,879 --> 00:03:02,949
+120.
+then we find another message to convert
+
+134
+00:03:02,949 --> 00:03:02,959
+then we find another message to convert
+ 
+
+135
+00:03:02,959 --> 00:03:05,030
+then we find another message to convert
+120 back to this right
+
+136
+00:03:05,030 --> 00:03:05,040
+120 back to this right
+ 
+
+137
+00:03:05,040 --> 00:03:08,550
+120 back to this right
+to link this yeah yeah all right yeah
+
+138
+00:03:08,550 --> 00:03:08,560
+to link this yeah yeah all right yeah
+ 
+
+139
+00:03:08,560 --> 00:03:12,550
+to link this yeah yeah all right yeah
+that will work i mean
+
+140
+00:03:12,550 --> 00:03:12,560
+that will work i mean
+ 
+
+141
+00:03:12,560 --> 00:03:15,190
+that will work i mean
+it has some overheads of converting it
+
+142
+00:03:15,190 --> 00:03:15,200
+it has some overheads of converting it
+ 
+
+143
+00:03:15,200 --> 00:03:17,030
+it has some overheads of converting it
+converting from linked list to the
+
+144
+00:03:17,030 --> 00:03:17,040
+converting from linked list to the
+ 
+
+145
+00:03:17,040 --> 00:03:19,270
+converting from linked list to the
+number and backwards converting the
+
+146
+00:03:19,270 --> 00:03:19,280
+number and backwards converting the
+ 
+
+147
+00:03:19,280 --> 00:03:21,750
+number and backwards converting the
+numbers back to the english level what
+
+148
+00:03:21,750 --> 00:03:21,760
+numbers back to the english level what
+ 
+
+149
+00:03:21,760 --> 00:03:23,589
+numbers back to the english level what
+random network
+
+150
+00:03:23,589 --> 00:03:23,599
+random network
+ 
+
+151
+00:03:23,599 --> 00:03:27,030
+random network
+so look when we deal with the
+
+152
+00:03:27,030 --> 00:03:27,040
+so look when we deal with the
+ 
+
+153
+00:03:27,040 --> 00:03:29,509
+so look when we deal with the
+addition we added these numbers one by
+
+154
+00:03:29,509 --> 00:03:29,519
+addition we added these numbers one by
+ 
+
+155
+00:03:29,519 --> 00:03:31,509
+addition we added these numbers one by
+one right the from the right to the left
+
+156
+00:03:31,509 --> 00:03:31,519
+one right the from the right to the left
+ 
+
+157
+00:03:31,519 --> 00:03:32,390
+one right the from the right to the left
+right
+
+158
+00:03:32,390 --> 00:03:32,400
+right
+ 
+
+159
+00:03:32,400 --> 00:03:35,430
+right
+then we how about we are now at least
+
+160
+00:03:35,430 --> 00:03:35,440
+then we how about we are now at least
+ 
+
+161
+00:03:35,440 --> 00:03:38,309
+then we how about we are now at least
+at the beginning of the two linked list
+
+162
+00:03:38,309 --> 00:03:38,319
+at the beginning of the two linked list
+ 
+
+163
+00:03:38,319 --> 00:03:41,110
+at the beginning of the two linked list
+why don't we just add them together
+
+164
+00:03:41,110 --> 00:03:41,120
+why don't we just add them together
+ 
+
+165
+00:03:41,120 --> 00:03:45,270
+why don't we just add them together
+now we know it's 10 we carry over one
+
+166
+00:03:45,270 --> 00:03:45,280
+now we know it's 10 we carry over one
+ 
+
+167
+00:03:45,280 --> 00:03:47,750
+now we know it's 10 we carry over one
+yeah it's like you're adding numbers
+
+168
+00:03:47,750 --> 00:03:47,760
+yeah it's like you're adding numbers
+ 
+
+169
+00:03:47,760 --> 00:03:48,949
+yeah it's like you're adding numbers
+from left to right but
+
+170
+00:03:48,949 --> 00:03:48,959
+from left to right but
+ 
+
+171
+00:03:48,959 --> 00:03:51,270
+from left to right but
+from right to left now i'm from the
+
+172
+00:03:51,270 --> 00:03:51,280
+from right to left now i'm from the
+ 
+
+173
+00:03:51,280 --> 00:03:52,149
+from right to left now i'm from the
+right to the
+
+174
+00:03:52,149 --> 00:03:52,159
+right to the
+ 
+
+175
+00:03:52,159 --> 00:03:55,350
+right to the
+to left right yeah yeah six
+
+176
+00:03:55,350 --> 00:03:55,360
+to left right yeah yeah six
+ 
+
+177
+00:03:55,360 --> 00:03:59,270
+to left right yeah yeah six
+plus four ten i put that here
+
+178
+00:03:59,270 --> 00:03:59,280
+plus four ten i put that here
+ 
+
+179
+00:03:59,280 --> 00:04:01,270
+plus four ten i put that here
+and then i carry over one yeah you put
+
+180
+00:04:01,270 --> 00:04:01,280
+and then i carry over one yeah you put
+ 
+
+181
+00:04:01,280 --> 00:04:02,710
+and then i carry over one yeah you put
+it here i
+
+182
+00:04:02,710 --> 00:04:02,720
+it here i
+ 
+
+183
+00:04:02,720 --> 00:04:05,750
+it here i
+carry over one okay so one plus four
+
+184
+00:04:05,750 --> 00:04:05,760
+carry over one okay so one plus four
+ 
+
+185
+00:04:05,760 --> 00:04:07,030
+carry over one okay so one plus four
+plus seven
+
+186
+00:04:07,030 --> 00:04:07,040
+plus seven
+ 
+
+187
+00:04:07,040 --> 00:04:09,509
+plus seven
+two twelve i put a two here i carry over
+
+188
+00:04:09,509 --> 00:04:09,519
+two twelve i put a two here i carry over
+ 
+
+189
+00:04:09,519 --> 00:04:10,309
+two twelve i put a two here i carry over
+one right
+
+190
+00:04:10,309 --> 00:04:10,319
+one right
+ 
+
+191
+00:04:10,319 --> 00:04:13,509
+one right
+yeah and then one yeah so it's it's
+
+192
+00:04:13,509 --> 00:04:13,519
+yeah and then one yeah so it's it's
+ 
+
+193
+00:04:13,519 --> 00:04:15,750
+yeah and then one yeah so it's it's
+exactly like this but in in different
+
+194
+00:04:15,750 --> 00:04:15,760
+exactly like this but in in different
+ 
+
+195
+00:04:15,760 --> 00:04:17,270
+exactly like this but in in different
+direction right because this
+
+196
+00:04:17,270 --> 00:04:17,280
+direction right because this
+ 
+
+197
+00:04:17,280 --> 00:04:19,990
+direction right because this
+is good because we we are now dealing
+
+198
+00:04:19,990 --> 00:04:20,000
+is good because we we are now dealing
+ 
+
+199
+00:04:20,000 --> 00:04:21,270
+is good because we we are now dealing
+with these numbers
+
+200
+00:04:21,270 --> 00:04:21,280
+with these numbers
+ 
+
+201
+00:04:21,280 --> 00:04:23,830
+with these numbers
+from the right to the left from right to
+
+202
+00:04:23,830 --> 00:04:23,840
+from the right to the left from right to
+ 
+
+203
+00:04:23,840 --> 00:04:24,390
+from the right to the left from right to
+left and
+
+204
+00:04:24,390 --> 00:04:24,400
+left and
+ 
+
+205
+00:04:24,400 --> 00:04:26,390
+left and
+now it's good we are here right we're
+
+206
+00:04:26,390 --> 00:04:26,400
+now it's good we are here right we're
+ 
+
+207
+00:04:26,400 --> 00:04:28,629
+now it's good we are here right we're
+here at the point into the
+
+208
+00:04:28,629 --> 00:04:28,639
+here at the point into the
+ 
+
+209
+00:04:28,639 --> 00:04:30,469
+here at the point into the
+least significant digit do you get it
+
+210
+00:04:30,469 --> 00:04:30,479
+least significant digit do you get it
+ 
+
+211
+00:04:30,479 --> 00:04:32,469
+least significant digit do you get it
+yeah yeah okay so can we
+
+212
+00:04:32,469 --> 00:04:32,479
+yeah yeah okay so can we
+ 
+
+213
+00:04:32,479 --> 00:04:34,629
+yeah yeah okay so can we
+uh how we i write it and then you tell
+
+214
+00:04:34,629 --> 00:04:34,639
+uh how we i write it and then you tell
+ 
+
+215
+00:04:34,639 --> 00:04:36,230
+uh how we i write it and then you tell
+me what to write okay
+
+216
+00:04:36,230 --> 00:04:36,240
+me what to write okay
+ 
+
+217
+00:04:36,240 --> 00:04:40,310
+me what to write okay
+define add
+
+218
+00:04:40,310 --> 00:04:40,320
+define add
+ 
+
+219
+00:04:40,320 --> 00:04:44,710
+define add
+let's call it as yellow and l1 okay
+
+220
+00:04:44,710 --> 00:04:44,720
+let's call it as yellow and l1 okay
+ 
+
+221
+00:04:44,720 --> 00:04:47,990
+let's call it as yellow and l1 okay
+link list yeah yeah yeah
+
+222
+00:04:47,990 --> 00:04:48,000
+link list yeah yeah yeah
+ 
+
+223
+00:04:48,000 --> 00:04:51,590
+link list yeah yeah yeah
+yeah yeah yeah okay so
+
+224
+00:04:51,590 --> 00:04:51,600
+yeah yeah yeah okay so
+ 
+
+225
+00:04:51,600 --> 00:04:55,030
+yeah yeah yeah okay so
+yeah we're done so uh
+
+226
+00:04:55,030 --> 00:04:55,040
+yeah we're done so uh
+ 
+
+227
+00:04:55,040 --> 00:04:57,350
+yeah we're done so uh
+that's diff let's create a link link a
+
+228
+00:04:57,350 --> 00:04:57,360
+that's diff let's create a link link a
+ 
+
+229
+00:04:57,360 --> 00:04:58,870
+that's diff let's create a link link a
+thumbnail head yeah this is
+
+230
+00:04:58,870 --> 00:04:58,880
+thumbnail head yeah this is
+ 
+
+231
+00:04:58,880 --> 00:05:01,270
+thumbnail head yeah this is
+yeah dummy means that uh we are not
+
+232
+00:05:01,270 --> 00:05:01,280
+yeah dummy means that uh we are not
+ 
+
+233
+00:05:01,280 --> 00:05:03,110
+yeah dummy means that uh we are not
+actually using this dummy head to
+
+234
+00:05:03,110 --> 00:05:03,120
+actually using this dummy head to
+ 
+
+235
+00:05:03,120 --> 00:05:05,189
+actually using this dummy head to
+represent any value we're just using it
+
+236
+00:05:05,189 --> 00:05:05,199
+represent any value we're just using it
+ 
+
+237
+00:05:05,199 --> 00:05:05,670
+represent any value we're just using it
+as a
+
+238
+00:05:05,670 --> 00:05:05,680
+as a
+ 
+
+239
+00:05:05,680 --> 00:05:09,029
+as a
+placeholder it's next value will be the
+
+240
+00:05:09,029 --> 00:05:09,039
+placeholder it's next value will be the
+ 
+
+241
+00:05:09,039 --> 00:05:13,990
+placeholder it's next value will be the
+bigger result okay so like dummy
+
+242
+00:05:13,990 --> 00:05:14,000
+bigger result okay so like dummy
+ 
+
+243
+00:05:14,000 --> 00:05:17,749
+bigger result okay so like dummy
+equals this node
+
+244
+00:05:17,749 --> 00:05:17,759
+equals this node
+ 
+
+245
+00:05:17,759 --> 00:05:21,749
+equals this node
+uh node minus one that's just two minus
+
+246
+00:05:21,749 --> 00:05:21,759
+uh node minus one that's just two minus
+ 
+
+247
+00:05:21,759 --> 00:05:25,510
+uh node minus one that's just two minus
+and then head equals dummy also
+
+248
+00:05:25,510 --> 00:05:25,520
+and then head equals dummy also
+ 
+
+249
+00:05:25,520 --> 00:05:27,189
+and then head equals dummy also
+i'll show you why we need this dummy
+
+250
+00:05:27,189 --> 00:05:27,199
+i'll show you why we need this dummy
+ 
+
+251
+00:05:27,199 --> 00:05:28,710
+i'll show you why we need this dummy
+here okay and carry let's
+
+252
+00:05:28,710 --> 00:05:28,720
+here okay and carry let's
+ 
+
+253
+00:05:28,720 --> 00:05:32,070
+here okay and carry let's
+do a carry carry is carry over will be
+
+254
+00:05:32,070 --> 00:05:32,080
+do a carry carry is carry over will be
+ 
+
+255
+00:05:32,080 --> 00:05:35,510
+do a carry carry is carry over will be
+equals to what carry equal to
+
+256
+00:05:35,510 --> 00:05:35,520
+equals to what carry equal to
+ 
+
+257
+00:05:35,520 --> 00:05:39,110
+equals to what carry equal to
+one at the beginning carry is zero right
+
+258
+00:05:39,110 --> 00:05:39,120
+one at the beginning carry is zero right
+ 
+
+259
+00:05:39,120 --> 00:05:40,870
+one at the beginning carry is zero right
+no no no zero because you don't have
+
+260
+00:05:40,870 --> 00:05:40,880
+no no no zero because you don't have
+ 
+
+261
+00:05:40,880 --> 00:05:42,390
+no no no zero because you don't have
+carry at the moment okay
+
+262
+00:05:42,390 --> 00:05:42,400
+carry at the moment okay
+ 
+
+263
+00:05:42,400 --> 00:05:46,469
+carry at the moment okay
+so now this is interesting b y
+
+264
+00:05:46,469 --> 00:05:46,479
+so now this is interesting b y
+ 
+
+265
+00:05:46,479 --> 00:05:50,310
+so now this is interesting b y
+l zero while we still have the s yellow
+
+266
+00:05:50,310 --> 00:05:50,320
+l zero while we still have the s yellow
+ 
+
+267
+00:05:50,320 --> 00:05:54,390
+l zero while we still have the s yellow
+o l l1 oh carry right
+
+268
+00:05:54,390 --> 00:05:54,400
+o l l1 oh carry right
+ 
+
+269
+00:05:54,400 --> 00:05:57,350
+o l l1 oh carry right
+yeah any of these remember only oh
+
+270
+00:05:57,350 --> 00:05:57,360
+yeah any of these remember only oh
+ 
+
+271
+00:05:57,360 --> 00:05:58,629
+yeah any of these remember only oh
+what's all
+
+272
+00:05:58,629 --> 00:05:58,639
+what's all
+ 
+
+273
+00:05:58,639 --> 00:06:01,430
+what's all
+oh if any of this condition is true then
+
+274
+00:06:01,430 --> 00:06:01,440
+oh if any of this condition is true then
+ 
+
+275
+00:06:01,440 --> 00:06:01,749
+oh if any of this condition is true then
+it's
+
+276
+00:06:01,749 --> 00:06:01,759
+it's
+ 
+
+277
+00:06:01,759 --> 00:06:07,350
+it's
+it's okay yeah so what am i missing here
+
+278
+00:06:07,350 --> 00:06:07,360
+it's okay yeah so what am i missing here
+ 
+
+279
+00:06:07,360 --> 00:06:09,830
+it's okay yeah so what am i missing here
+okay so now current sum okay current
+
+280
+00:06:09,830 --> 00:06:09,840
+okay so now current sum okay current
+ 
+
+281
+00:06:09,840 --> 00:06:11,749
+okay so now current sum okay current
+digit let's do it digit
+
+282
+00:06:11,749 --> 00:06:11,759
+digit let's do it digit
+ 
+
+283
+00:06:11,759 --> 00:06:14,870
+digit let's do it digit
+current digit okay uh maybe current
+
+284
+00:06:14,870 --> 00:06:14,880
+current digit okay uh maybe current
+ 
+
+285
+00:06:14,880 --> 00:06:22,390
+current digit okay uh maybe current
+current digit current digit
+
+286
+00:06:22,390 --> 00:06:22,400
+
+ 
+
+287
+00:06:22,400 --> 00:06:25,430
+
+carry first okay carry okay
+
+288
+00:06:25,430 --> 00:06:25,440
+carry first okay carry okay
+ 
+
+289
+00:06:25,440 --> 00:06:27,909
+carry first okay carry okay
+now we need to add a carry right yeah
+
+290
+00:06:27,909 --> 00:06:27,919
+now we need to add a carry right yeah
+ 
+
+291
+00:06:27,919 --> 00:06:29,189
+now we need to add a carry right yeah
+okay then
+
+292
+00:06:29,189 --> 00:06:29,199
+okay then
+ 
+
+293
+00:06:29,199 --> 00:06:34,070
+okay then
+is this l0 next one is
+
+294
+00:06:34,070 --> 00:06:34,080
+is this l0 next one is
+ 
+
+295
+00:06:34,080 --> 00:06:37,909
+is this l0 next one is
+curry current digit
+
+296
+00:06:37,909 --> 00:06:37,919
+curry current digit
+ 
+
+297
+00:06:37,919 --> 00:06:40,950
+curry current digit
+a equals a z out of value right
+
+298
+00:06:40,950 --> 00:06:40,960
+a equals a z out of value right
+ 
+
+299
+00:06:40,960 --> 00:06:43,990
+a equals a z out of value right
+okay you tell me what to do if x what
+
+300
+00:06:43,990 --> 00:06:44,000
+okay you tell me what to do if x what
+ 
+
+301
+00:06:44,000 --> 00:06:50,150
+okay you tell me what to do if x what
+if l1 what should i die here
+
+302
+00:06:50,150 --> 00:06:50,160
+
+ 
+
+303
+00:06:50,160 --> 00:06:53,430
+
+if anyone even as yellow like if n0 we
+
+304
+00:06:53,430 --> 00:06:53,440
+if anyone even as yellow like if n0 we
+ 
+
+305
+00:06:53,440 --> 00:06:53,990
+if anyone even as yellow like if n0 we
+still have
+
+306
+00:06:53,990 --> 00:06:54,000
+still have
+ 
+
+307
+00:06:54,000 --> 00:06:59,510
+still have
+lcl value equals current digit
+
+308
+00:06:59,510 --> 00:06:59,520
+
+ 
+
+309
+00:06:59,520 --> 00:07:05,749
+
+plus equal
+
+310
+00:07:05,749 --> 00:07:05,759
+
+ 
+
+311
+00:07:05,759 --> 00:07:08,790
+
+yeah yeah okay now the current digit is
+
+312
+00:07:08,790 --> 00:07:08,800
+yeah yeah okay now the current digit is
+ 
+
+313
+00:07:08,800 --> 00:07:10,790
+yeah yeah okay now the current digit is
+the sum of this current and then i need
+
+314
+00:07:10,790 --> 00:07:10,800
+the sum of this current and then i need
+ 
+
+315
+00:07:10,800 --> 00:07:11,430
+the sum of this current and then i need
+to do
+
+316
+00:07:11,430 --> 00:07:11,440
+to do
+ 
+
+317
+00:07:11,440 --> 00:07:14,870
+to do
+what head dot next
+
+318
+00:07:14,870 --> 00:07:14,880
+what head dot next
+ 
+
+319
+00:07:14,880 --> 00:07:18,070
+what head dot next
+right look i'm adding a new note
+
+320
+00:07:18,070 --> 00:07:18,080
+right look i'm adding a new note
+ 
+
+321
+00:07:18,080 --> 00:07:21,909
+right look i'm adding a new note
+equals this note
+
+322
+00:07:21,909 --> 00:07:21,919
+
+ 
+
+323
+00:07:21,919 --> 00:07:23,430
+
+so what should i do with the current
+
+324
+00:07:23,430 --> 00:07:23,440
+so what should i do with the current
+ 
+
+325
+00:07:23,440 --> 00:07:26,870
+so what should i do with the current
+digit at the current digit
+
+326
+00:07:26,870 --> 00:07:26,880
+digit at the current digit
+ 
+
+327
+00:07:26,880 --> 00:07:28,870
+digit at the current digit
+current digit is 12 i need to add a two
+
+328
+00:07:28,870 --> 00:07:28,880
+current digit is 12 i need to add a two
+ 
+
+329
+00:07:28,880 --> 00:07:30,469
+current digit is 12 i need to add a two
+right currently this is
+
+330
+00:07:30,469 --> 00:07:30,479
+right currently this is
+ 
+
+331
+00:07:30,479 --> 00:07:31,990
+right currently this is
+three i need to add three currently it
+
+332
+00:07:31,990 --> 00:07:32,000
+three i need to add three currently it
+ 
+
+333
+00:07:32,000 --> 00:07:35,670
+three i need to add three currently it
+is is 23 i need to add the three so
+
+334
+00:07:35,670 --> 00:07:35,680
+is is 23 i need to add the three so
+ 
+
+335
+00:07:35,680 --> 00:07:38,710
+is is 23 i need to add the three so
+currently so we need to add ten no no
+
+336
+00:07:38,710 --> 00:07:38,720
+currently so we need to add ten no no
+ 
+
+337
+00:07:38,720 --> 00:07:41,510
+currently so we need to add ten no no
+no we're adding this number we only add
+
+338
+00:07:41,510 --> 00:07:41,520
+no we're adding this number we only add
+ 
+
+339
+00:07:41,520 --> 00:07:43,510
+no we're adding this number we only add
+one digit by digit but we
+
+340
+00:07:43,510 --> 00:07:43,520
+one digit by digit but we
+ 
+
+341
+00:07:43,520 --> 00:07:45,270
+one digit by digit but we
+adding the three but we need to carry
+
+342
+00:07:45,270 --> 00:07:45,280
+adding the three but we need to carry
+ 
+
+343
+00:07:45,280 --> 00:07:47,110
+adding the three but we need to carry
+over one right for 13
+
+344
+00:07:47,110 --> 00:07:47,120
+over one right for 13
+ 
+
+345
+00:07:47,120 --> 00:07:50,469
+over one right for 13
+all right look look
+
+346
+00:07:50,469 --> 00:07:50,479
+all right look look
+ 
+
+347
+00:07:50,479 --> 00:07:54,469
+all right look look
+47 plus 64. seven plus four one
+
+348
+00:07:54,469 --> 00:07:54,479
+47 plus 64. seven plus four one
+ 
+
+349
+00:07:54,479 --> 00:07:57,510
+47 plus 64. seven plus four one
+eleven yeah yeah i i put the eleven one
+
+350
+00:07:57,510 --> 00:07:57,520
+eleven yeah yeah i i put the eleven one
+ 
+
+351
+00:07:57,520 --> 00:07:58,070
+eleven yeah yeah i i put the eleven one
+here
+
+352
+00:07:58,070 --> 00:07:58,080
+here
+ 
+
+353
+00:07:58,080 --> 00:08:00,710
+here
+but i need to carry over one okay this
+
+354
+00:08:00,710 --> 00:08:00,720
+but i need to carry over one okay this
+ 
+
+355
+00:08:00,720 --> 00:08:02,869
+but i need to carry over one okay this
+carry over is this carry
+
+356
+00:08:02,869 --> 00:08:02,879
+carry over is this carry
+ 
+
+357
+00:08:02,879 --> 00:08:05,990
+carry over is this carry
+over ten
+
+358
+00:08:05,990 --> 00:08:06,000
+over ten
+ 
+
+359
+00:08:06,000 --> 00:08:09,110
+over ten
+yeah i know tens but what when here
+
+360
+00:08:09,110 --> 00:08:09,120
+yeah i know tens but what when here
+ 
+
+361
+00:08:09,120 --> 00:08:11,110
+yeah i know tens but what when here
+i'm not adding ten plus four plus six
+
+362
+00:08:11,110 --> 00:08:11,120
+i'm not adding ten plus four plus six
+ 
+
+363
+00:08:11,120 --> 00:08:13,430
+i'm not adding ten plus four plus six
+yeah i'm adding one plus four plus six
+
+364
+00:08:13,430 --> 00:08:13,440
+yeah i'm adding one plus four plus six
+ 
+
+365
+00:08:13,440 --> 00:08:16,469
+yeah i'm adding one plus four plus six
+right yeah but that one represents ten
+
+366
+00:08:16,469 --> 00:08:16,479
+right yeah but that one represents ten
+ 
+
+367
+00:08:16,479 --> 00:08:16,869
+right yeah but that one represents ten
+ten
+
+368
+00:08:16,869 --> 00:08:16,879
+ten
+ 
+
+369
+00:08:16,879 --> 00:08:20,150
+ten
+i know yeah i know so i'm telling you
+
+370
+00:08:20,150 --> 00:08:20,160
+i know yeah i know so i'm telling you
+ 
+
+371
+00:08:20,160 --> 00:08:22,230
+i know yeah i know so i'm telling you
+like
+
+372
+00:08:22,230 --> 00:08:22,240
+like
+ 
+
+373
+00:08:22,240 --> 00:08:25,110
+like
+what should i put here seven plus four
+
+374
+00:08:25,110 --> 00:08:25,120
+what should i put here seven plus four
+ 
+
+375
+00:08:25,120 --> 00:08:26,710
+what should i put here seven plus four
+eleven i just needed the left
+
+376
+00:08:26,710 --> 00:08:26,720
+eleven i just needed the left
+ 
+
+377
+00:08:26,720 --> 00:08:29,990
+eleven i just needed the left
+right most digit right yeah so how do we
+
+378
+00:08:29,990 --> 00:08:30,000
+right most digit right yeah so how do we
+ 
+
+379
+00:08:30,000 --> 00:08:31,749
+right most digit right yeah so how do we
+get it let's know the current current
+
+380
+00:08:31,749 --> 00:08:31,759
+get it let's know the current current
+ 
+
+381
+00:08:31,759 --> 00:08:33,990
+get it let's know the current current
+digit right
+
+382
+00:08:33,990 --> 00:08:34,000
+digit right
+ 
+
+383
+00:08:34,000 --> 00:08:37,509
+digit right
+current digit what
+
+384
+00:08:37,509 --> 00:08:37,519
+current digit what
+ 
+
+385
+00:08:37,519 --> 00:08:40,149
+current digit what
+remember the modulus divided by 10
+
+386
+00:08:40,149 --> 00:08:40,159
+remember the modulus divided by 10
+ 
+
+387
+00:08:40,159 --> 00:08:41,269
+remember the modulus divided by 10
+remains
+
+388
+00:08:41,269 --> 00:08:41,279
+remains
+ 
+
+389
+00:08:41,279 --> 00:08:45,269
+remains
+remain yeah all right
+
+390
+00:08:45,269 --> 00:08:45,279
+remain yeah all right
+ 
+
+391
+00:08:45,279 --> 00:08:49,350
+remain yeah all right
+remain what we mean
+
+392
+00:08:49,350 --> 00:08:49,360
+remain what we mean
+ 
+
+393
+00:08:49,360 --> 00:08:52,389
+remain what we mean
+one remain 10 do more than
+
+394
+00:08:52,389 --> 00:08:52,399
+one remain 10 do more than
+ 
+
+395
+00:08:52,399 --> 00:08:55,990
+one remain 10 do more than
+10 okay okay now we're linking this list
+
+396
+00:08:55,990 --> 00:08:56,000
+10 okay okay now we're linking this list
+ 
+
+397
+00:08:56,000 --> 00:09:00,150
+10 okay okay now we're linking this list
+we're linking this value and then
+
+398
+00:09:00,150 --> 00:09:00,160
+
+ 
+
+399
+00:09:00,160 --> 00:09:04,150
+
+what head equals head
+
+400
+00:09:04,150 --> 00:09:04,160
+what head equals head
+ 
+
+401
+00:09:04,160 --> 00:09:06,790
+what head equals head
+dot next right moving this to the next
+
+402
+00:09:06,790 --> 00:09:06,800
+dot next right moving this to the next
+ 
+
+403
+00:09:06,800 --> 00:09:07,350
+dot next right moving this to the next
+one
+
+404
+00:09:07,350 --> 00:09:07,360
+one
+ 
+
+405
+00:09:07,360 --> 00:09:10,870
+one
+look if we a1 if l0 if
+
+406
+00:09:10,870 --> 00:09:10,880
+look if we a1 if l0 if
+ 
+
+407
+00:09:10,880 --> 00:09:13,990
+look if we a1 if l0 if
+if this value this link list okay like 3
+
+408
+00:09:13,990 --> 00:09:14,000
+if this value this link list okay like 3
+ 
+
+409
+00:09:14,000 --> 00:09:17,990
+if this value this link list okay like 3
+4 43 okay if if we still have this value
+
+410
+00:09:17,990 --> 00:09:18,000
+4 43 okay if if we still have this value
+ 
+
+411
+00:09:18,000 --> 00:09:20,070
+4 43 okay if if we still have this value
+we need to add this value and move it to
+
+412
+00:09:20,070 --> 00:09:20,080
+we need to add this value and move it to
+ 
+
+413
+00:09:20,080 --> 00:09:21,030
+we need to add this value and move it to
+the next so here
+
+414
+00:09:21,030 --> 00:09:21,040
+the next so here
+ 
+
+415
+00:09:21,040 --> 00:09:24,389
+the next so here
+missing l what is zero equals s zero
+
+416
+00:09:24,389 --> 00:09:24,399
+missing l what is zero equals s zero
+ 
+
+417
+00:09:24,399 --> 00:09:27,829
+missing l what is zero equals s zero
+next right and here again a one equals
+
+418
+00:09:27,829 --> 00:09:27,839
+next right and here again a one equals
+ 
+
+419
+00:09:27,839 --> 00:09:31,030
+next right and here again a one equals
+a one dot next right yeah and then when
+
+420
+00:09:31,030 --> 00:09:31,040
+a one dot next right yeah and then when
+ 
+
+421
+00:09:31,040 --> 00:09:32,150
+a one dot next right yeah and then when
+this is
+
+422
+00:09:32,150 --> 00:09:32,160
+this is
+ 
+
+423
+00:09:32,160 --> 00:09:34,790
+this is
+again when there's a carry over then you
+
+424
+00:09:34,790 --> 00:09:34,800
+again when there's a carry over then you
+ 
+
+425
+00:09:34,800 --> 00:09:36,389
+again when there's a carry over then you
+keep doing until and then
+
+426
+00:09:36,389 --> 00:09:36,399
+keep doing until and then
+ 
+
+427
+00:09:36,399 --> 00:09:38,710
+keep doing until and then
+this current did carry over carry over
+
+428
+00:09:38,710 --> 00:09:38,720
+this current did carry over carry over
+ 
+
+429
+00:09:38,720 --> 00:09:41,829
+this current did carry over carry over
+equals one
+
+430
+00:09:41,829 --> 00:09:41,839
+
+ 
+
+431
+00:09:41,839 --> 00:09:45,269
+
+look 11 is current digit
+
+432
+00:09:45,269 --> 00:09:45,279
+look 11 is current digit
+ 
+
+433
+00:09:45,279 --> 00:09:48,550
+look 11 is current digit
+and i'm adding one here to here
+
+434
+00:09:48,550 --> 00:09:48,560
+and i'm adding one here to here
+ 
+
+435
+00:09:48,560 --> 00:09:52,070
+and i'm adding one here to here
+and then i need to add this one
+
+436
+00:09:52,070 --> 00:09:52,080
+and then i need to add this one
+ 
+
+437
+00:09:52,080 --> 00:09:55,190
+and then i need to add this one
+to the make this one as a carry over so
+
+438
+00:09:55,190 --> 00:09:55,200
+to the make this one as a carry over so
+ 
+
+439
+00:09:55,200 --> 00:10:00,230
+to the make this one as a carry over so
+carry over equals current digit
+
+440
+00:10:00,230 --> 00:10:00,240
+
+ 
+
+441
+00:10:00,240 --> 00:10:04,310
+
+divided by 10 right yes all right
+
+442
+00:10:04,310 --> 00:10:04,320
+divided by 10 right yes all right
+ 
+
+443
+00:10:04,320 --> 00:10:07,110
+divided by 10 right yes all right
+yes and then at the end of return return
+
+444
+00:10:07,110 --> 00:10:07,120
+yes and then at the end of return return
+ 
+
+445
+00:10:07,120 --> 00:10:08,389
+yes and then at the end of return return
+what
+
+446
+00:10:08,389 --> 00:10:08,399
+what
+ 
+
+447
+00:10:08,399 --> 00:10:13,269
+what
+we say guess can we call it no no no no
+
+448
+00:10:13,269 --> 00:10:13,279
+we say guess can we call it no no no no
+ 
+
+449
+00:10:13,279 --> 00:10:16,550
+we say guess can we call it no no no no
+no a header will be equal remember
+
+450
+00:10:16,550 --> 00:10:16,560
+no a header will be equal remember
+ 
+
+451
+00:10:16,560 --> 00:10:21,269
+no a header will be equal remember
+no head yeah dummy
+
+452
+00:10:21,269 --> 00:10:21,279
+no head yeah dummy
+ 
+
+453
+00:10:21,279 --> 00:10:22,630
+no head yeah dummy
+but remember we're talking about the
+
+454
+00:10:22,630 --> 00:10:22,640
+but remember we're talking about the
+ 
+
+455
+00:10:22,640 --> 00:10:27,990
+but remember we're talking about the
+tummy tuck yes
+
+456
+00:10:27,990 --> 00:10:28,000
+
+ 
+
+457
+00:10:28,000 --> 00:10:31,269
+
+next we're done yeah yeah
+
+458
+00:10:31,269 --> 00:10:31,279
+next we're done yeah yeah
+ 
+
+459
+00:10:31,279 --> 00:10:33,590
+next we're done yeah yeah
+you're listening yeah tell me done next
+
+460
+00:10:33,590 --> 00:10:33,600
+you're listening yeah tell me done next
+ 
+
+461
+00:10:33,600 --> 00:10:34,790
+you're listening yeah tell me done next
+look tell me
+
+462
+00:10:34,790 --> 00:10:34,800
+look tell me
+ 
+
+463
+00:10:34,800 --> 00:10:36,389
+look tell me
+now you see why we're using the dummy
+
+464
+00:10:36,389 --> 00:10:36,399
+now you see why we're using the dummy
+ 
+
+465
+00:10:36,399 --> 00:10:38,389
+now you see why we're using the dummy
+right yeah dummy is the
+
+466
+00:10:38,389 --> 00:10:38,399
+right yeah dummy is the
+ 
+
+467
+00:10:38,399 --> 00:10:40,710
+right yeah dummy is the
+placeholder it doesn't hold the value
+
+468
+00:10:40,710 --> 00:10:40,720
+placeholder it doesn't hold the value
+ 
+
+469
+00:10:40,720 --> 00:10:41,910
+placeholder it doesn't hold the value
+but it's next
+
+470
+00:10:41,910 --> 00:10:41,920
+but it's next
+ 
+
+471
+00:10:41,920 --> 00:10:45,190
+but it's next
+pointer it's pointing net pointing to
+
+472
+00:10:45,190 --> 00:10:45,200
+pointer it's pointing net pointing to
+ 
+
+473
+00:10:45,200 --> 00:10:46,470
+pointer it's pointing net pointing to
+the answer
+
+474
+00:10:46,470 --> 00:10:46,480
+the answer
+ 
+
+475
+00:10:46,480 --> 00:10:48,949
+the answer
+that's why we tell me you can put any
+
+476
+00:10:48,949 --> 00:10:48,959
+that's why we tell me you can put any
+ 
+
+477
+00:10:48,959 --> 00:10:49,990
+that's why we tell me you can put any
+value here yeah
+
+478
+00:10:49,990 --> 00:10:50,000
+value here yeah
+ 
+
+479
+00:10:50,000 --> 00:10:52,790
+value here yeah
+any value any value i don't care because
+
+480
+00:10:52,790 --> 00:10:52,800
+any value any value i don't care because
+ 
+
+481
+00:10:52,800 --> 00:10:54,710
+any value any value i don't care because
+i'm written in term in the next
+
+482
+00:10:54,710 --> 00:10:54,720
+i'm written in term in the next
+ 
+
+483
+00:10:54,720 --> 00:10:56,949
+i'm written in term in the next
+and then i had equal stomach why is that
+
+484
+00:10:56,949 --> 00:10:56,959
+and then i had equal stomach why is that
+ 
+
+485
+00:10:56,959 --> 00:10:59,030
+and then i had equal stomach why is that
+because every time i create a new note
+
+486
+00:10:59,030 --> 00:10:59,040
+because every time i create a new note
+ 
+
+487
+00:10:59,040 --> 00:11:01,190
+because every time i create a new note
+look dummy i i created you know what i
+
+488
+00:11:01,190 --> 00:11:01,200
+look dummy i i created you know what i
+ 
+
+489
+00:11:01,200 --> 00:11:03,350
+look dummy i i created you know what i
+do i create a new note and put a
+
+490
+00:11:03,350 --> 00:11:03,360
+do i create a new note and put a
+ 
+
+491
+00:11:03,360 --> 00:11:05,030
+do i create a new note and put a
+head would be dummy i had the next
+
+492
+00:11:05,030 --> 00:11:05,040
+head would be dummy i had the next
+ 
+
+493
+00:11:05,040 --> 00:11:07,030
+head would be dummy i had the next
+equals this create a new now
+
+494
+00:11:07,030 --> 00:11:07,040
+equals this create a new now
+ 
+
+495
+00:11:07,040 --> 00:11:09,190
+equals this create a new now
+and header equals head next then i move
+
+496
+00:11:09,190 --> 00:11:09,200
+and header equals head next then i move
+ 
+
+497
+00:11:09,200 --> 00:11:11,350
+and header equals head next then i move
+to here every time i create a new note i
+
+498
+00:11:11,350 --> 00:11:11,360
+to here every time i create a new note i
+ 
+
+499
+00:11:11,360 --> 00:11:11,829
+to here every time i create a new note i
+put it
+
+500
+00:11:11,829 --> 00:11:11,839
+put it
+ 
+
+501
+00:11:11,839 --> 00:11:15,430
+put it
+link it linking okay
+
+502
+00:11:15,430 --> 00:11:15,440
+link it linking okay
+ 
+
+503
+00:11:15,440 --> 00:11:19,430
+link it linking okay
+what's the term complexity
+
+504
+00:11:19,430 --> 00:11:19,440
+what's the term complexity
+ 
+
+505
+00:11:19,440 --> 00:11:21,990
+what's the term complexity
+what's n what's n what's n you need to
+
+506
+00:11:21,990 --> 00:11:22,000
+what's n what's n what's n you need to
+ 
+
+507
+00:11:22,000 --> 00:11:22,630
+what's n what's n what's n you need to
+tell me what's
+
+508
+00:11:22,630 --> 00:11:22,640
+tell me what's
+ 
+
+509
+00:11:22,640 --> 00:11:26,230
+tell me what's
+n the number nine where down
+
+510
+00:11:26,230 --> 00:11:26,240
+n the number nine where down
+ 
+
+511
+00:11:26,240 --> 00:11:29,110
+n the number nine where down
+the number of notes impose linked list
+
+512
+00:11:29,110 --> 00:11:29,120
+the number of notes impose linked list
+ 
+
+513
+00:11:29,120 --> 00:11:30,150
+the number of notes impose linked list
+okay or you can say
+
+514
+00:11:30,150 --> 00:11:30,160
+okay or you can say
+ 
+
+515
+00:11:30,160 --> 00:11:33,509
+okay or you can say
+o n plus n where n is the linked list
+
+516
+00:11:33,509 --> 00:11:33,519
+o n plus n where n is the linked list
+ 
+
+517
+00:11:33,519 --> 00:11:33,829
+o n plus n where n is the linked list
+for
+
+518
+00:11:33,829 --> 00:11:33,839
+for
+ 
+
+519
+00:11:33,839 --> 00:11:37,430
+for
+number of notes the n is the number of
+
+520
+00:11:37,430 --> 00:11:37,440
+number of notes the n is the number of
+ 
+
+521
+00:11:37,440 --> 00:11:39,509
+number of notes the n is the number of
+notes in one english m is the number of
+
+522
+00:11:39,509 --> 00:11:39,519
+notes in one english m is the number of
+ 
+
+523
+00:11:39,519 --> 00:11:41,190
+notes in one english m is the number of
+notes in another english
+
+524
+00:11:41,190 --> 00:11:41,200
+notes in another english
+ 
+
+525
+00:11:41,200 --> 00:11:45,560
+notes in another english
+okay what's the space complexity
+
+526
+00:11:45,560 --> 00:11:45,570
+okay what's the space complexity
+ 
+
+527
+00:11:45,570 --> 00:11:47,430
+okay what's the space complexity
+[Music]
+
+528
+00:11:47,430 --> 00:11:47,440
+[Music]
+ 
+
+529
+00:11:47,440 --> 00:11:49,350
+[Music]
+something it's the same yeah because you
+
+530
+00:11:49,350 --> 00:11:49,360
+something it's the same yeah because you
+ 
+
+531
+00:11:49,360 --> 00:11:51,910
+something it's the same yeah because you
+need to create a space for that right
+
+532
+00:11:51,910 --> 00:11:51,920
+need to create a space for that right
+ 
+
+533
+00:11:51,920 --> 00:11:56,150
+need to create a space for that right
+a type it'll be o o
+
+534
+00:11:56,150 --> 00:11:56,160
+a type it'll be o o
+ 
+
+535
+00:11:56,160 --> 00:11:59,030
+a type it'll be o o
+yeah it's just o n you know i went yeah
+
+536
+00:11:59,030 --> 00:11:59,040
+yeah it's just o n you know i went yeah
+ 
+
+537
+00:11:59,040 --> 00:12:00,150
+yeah it's just o n you know i went yeah
+for no reason
+
+538
+00:12:00,150 --> 00:12:00,160
+for no reason
+ 
+
+539
+00:12:00,160 --> 00:12:02,949
+for no reason
+yeah because look you add in two numbers
+
+540
+00:12:02,949 --> 00:12:02,959
+yeah because look you add in two numbers
+ 
+
+541
+00:12:02,959 --> 00:12:04,949
+yeah because look you add in two numbers
+and then
+
+542
+00:12:04,949 --> 00:12:04,959
+and then
+ 
+
+543
+00:12:04,959 --> 00:12:07,829
+and then
+normally you will be you you'll be
+
+544
+00:12:07,829 --> 00:12:07,839
+normally you will be you you'll be
+ 
+
+545
+00:12:07,839 --> 00:12:08,949
+normally you will be you you'll be
+actually o
+
+546
+00:12:08,949 --> 00:12:08,959
+actually o
+ 
+
+547
+00:12:08,959 --> 00:12:12,389
+actually o
+max and m right
+
+548
+00:12:12,389 --> 00:12:12,399
+max and m right
+ 
+
+549
+00:12:12,399 --> 00:12:13,910
+max and m right
+you get it because you're adding two
+
+550
+00:12:13,910 --> 00:12:13,920
+you get it because you're adding two
+ 
+
+551
+00:12:13,920 --> 00:12:17,590
+you get it because you're adding two
+numbers and the length will be
+
+552
+00:12:17,590 --> 00:12:17,600
+numbers and the length will be
+ 
+
+553
+00:12:17,600 --> 00:12:21,990
+numbers and the length will be
+maximum of the the maximum of those
+
+554
+00:12:21,990 --> 00:12:22,000
+maximum of the the maximum of those
+ 
+
+555
+00:12:22,000 --> 00:12:25,550
+maximum of the the maximum of those
+two right yeah i'm right
+
+556
+00:12:25,550 --> 00:12:25,560
+two right yeah i'm right
+ 
+
+557
+00:12:25,560 --> 00:12:29,910
+two right yeah i'm right
+9099 999 plus one
+
+558
+00:12:29,910 --> 00:12:29,920
+9099 999 plus one
+ 
+
+559
+00:12:29,920 --> 00:12:32,150
+9099 999 plus one
+there'll be a ten thousand thousand yeah
+
+560
+00:12:32,150 --> 00:12:32,160
+there'll be a ten thousand thousand yeah
+ 
+
+561
+00:12:32,160 --> 00:12:32,949
+there'll be a ten thousand thousand yeah
+look
+
+562
+00:12:32,949 --> 00:12:32,959
+look
+ 
+
+563
+00:12:32,959 --> 00:12:34,870
+look
+nine nine nine nine four digit and then
+
+564
+00:12:34,870 --> 00:12:34,880
+nine nine nine nine four digit and then
+ 
+
+565
+00:12:34,880 --> 00:12:38,150
+nine nine nine nine four digit and then
+you one digit and the result will be
+
+566
+00:12:38,150 --> 00:12:38,160
+you one digit and the result will be
+ 
+
+567
+00:12:38,160 --> 00:12:40,710
+you one digit and the result will be
+four plus one digit yeah yeah the longer
+
+568
+00:12:40,710 --> 00:12:40,720
+four plus one digit yeah yeah the longer
+ 
+
+569
+00:12:40,720 --> 00:12:42,389
+four plus one digit yeah yeah the longer
+one yeah so that's what it comes from
+
+570
+00:12:42,389 --> 00:12:42,399
+one yeah so that's what it comes from
+ 
+
+571
+00:12:42,399 --> 00:12:43,829
+one yeah so that's what it comes from
+okay
+
+572
+00:12:43,829 --> 00:12:43,839
+okay
+ 
+
+573
+00:12:43,839 --> 00:12:46,230
+okay
+eric any questions for so far for this i
+
+574
+00:12:46,230 --> 00:12:46,240
+eric any questions for so far for this i
+ 
+
+575
+00:12:46,240 --> 00:12:48,790
+eric any questions for so far for this i
+i assume this is a bit complicated am i
+
+576
+00:12:48,790 --> 00:12:48,800
+i assume this is a bit complicated am i
+ 
+
+577
+00:12:48,800 --> 00:12:49,509
+i assume this is a bit complicated am i
+am right
+
+578
+00:12:49,509 --> 00:12:49,519
+am right
+ 
+
+579
+00:12:49,519 --> 00:12:52,710
+am right
+do you understand
+
+580
+00:12:52,710 --> 00:12:52,720
+do you understand
+ 
+
+581
+00:12:52,720 --> 00:12:54,230
+do you understand
+which part you don't particularly
+
+582
+00:12:54,230 --> 00:12:54,240
+which part you don't particularly
+ 
+
+583
+00:12:54,240 --> 00:12:56,230
+which part you don't particularly
+understand i can teach you i can
+
+584
+00:12:56,230 --> 00:12:56,240
+understand i can teach you i can
+ 
+
+585
+00:12:56,240 --> 00:12:59,430
+understand i can teach you i can
+explain a little bit more uh
+
+586
+00:12:59,430 --> 00:12:59,440
+explain a little bit more uh
+ 
+
+587
+00:12:59,440 --> 00:13:02,310
+explain a little bit more uh
+i'm fine you know fine okay so how about
+
+588
+00:13:02,310 --> 00:13:02,320
+i'm fine you know fine okay so how about
+ 
+
+589
+00:13:02,320 --> 00:13:03,269
+i'm fine you know fine okay so how about
+i
+
+590
+00:13:03,269 --> 00:13:03,279
+i
+ 
+
+591
+00:13:03,279 --> 00:13:05,829
+i
+so what why is this why is this why do
+
+592
+00:13:05,829 --> 00:13:05,839
+so what why is this why is this why do
+ 
+
+593
+00:13:05,839 --> 00:13:07,030
+so what why is this why is this why do
+we need a carry here
+
+594
+00:13:07,030 --> 00:13:07,040
+we need a carry here
+ 
+
+595
+00:13:07,040 --> 00:13:09,269
+we need a carry here
+why or carry can you tell we need to
+
+596
+00:13:09,269 --> 00:13:09,279
+why or carry can you tell we need to
+ 
+
+597
+00:13:09,279 --> 00:13:10,389
+why or carry can you tell we need to
+carry this yeah
+
+598
+00:13:10,389 --> 00:13:10,399
+carry this yeah
+ 
+
+599
+00:13:10,399 --> 00:13:13,509
+carry this yeah
+yeah if you have like 794 is over
+
+600
+00:13:13,509 --> 00:13:13,519
+yeah if you have like 794 is over
+ 
+
+601
+00:13:13,519 --> 00:13:17,350
+yeah if you have like 794 is over
+10 yeah sometimes when you finish
+
+602
+00:13:17,350 --> 00:13:17,360
+10 yeah sometimes when you finish
+ 
+
+603
+00:13:17,360 --> 00:13:19,110
+10 yeah sometimes when you finish
+adding the numbers and you still have
+
+604
+00:13:19,110 --> 00:13:19,120
+adding the numbers and you still have
+ 
+
+605
+00:13:19,120 --> 00:13:20,389
+adding the numbers and you still have
+one carry like
+
+606
+00:13:20,389 --> 00:13:20,399
+one carry like
+ 
+
+607
+00:13:20,399 --> 00:13:23,430
+one carry like
+99 plus one yeah you add in the numbers
+
+608
+00:13:23,430 --> 00:13:23,440
+99 plus one yeah you add in the numbers
+ 
+
+609
+00:13:23,440 --> 00:13:25,590
+99 plus one yeah you add in the numbers
+yeah but you still when you add it
+
+610
+00:13:25,590 --> 00:13:25,600
+yeah but you still when you add it
+ 
+
+611
+00:13:25,600 --> 00:13:27,030
+yeah but you still when you add it
+that's zero zero right
+
+612
+00:13:27,030 --> 00:13:27,040
+that's zero zero right
+ 
+
+613
+00:13:27,040 --> 00:13:28,870
+that's zero zero right
+you still have one carry if you don't
+
+614
+00:13:28,870 --> 00:13:28,880
+you still have one carry if you don't
+ 
+
+615
+00:13:28,880 --> 00:13:30,710
+you still have one carry if you don't
+add this carry the answer would be zero
+
+616
+00:13:30,710 --> 00:13:30,720
+add this carry the answer would be zero
+ 
+
+617
+00:13:30,720 --> 00:13:32,629
+add this carry the answer would be zero
+zero which is not right right
+
+618
+00:13:32,629 --> 00:13:32,639
+zero which is not right right
+ 
+
+619
+00:13:32,639 --> 00:13:34,550
+zero which is not right right
+do you get it so that's why you need to
+
+620
+00:13:34,550 --> 00:13:34,560
+do you get it so that's why you need to
+ 
+
+621
+00:13:34,560 --> 00:13:35,750
+do you get it so that's why you need to
+have this carry
+
+622
+00:13:35,750 --> 00:13:35,760
+have this carry
+ 
+
+623
+00:13:35,760 --> 00:13:37,269
+have this carry
+and then you need to finish when this
+
+624
+00:13:37,269 --> 00:13:37,279
+and then you need to finish when this
+ 
+
+625
+00:13:37,279 --> 00:13:39,110
+and then you need to finish when this
+carry is zero as well so you put one
+
+626
+00:13:39,110 --> 00:13:39,120
+carry is zero as well so you put one
+ 
+
+627
+00:13:39,120 --> 00:13:39,750
+carry is zero as well so you put one
+here
+
+628
+00:13:39,750 --> 00:13:39,760
+here
+ 
+
+629
+00:13:39,760 --> 00:13:42,150
+here
+got it that's what it means and then if
+
+630
+00:13:42,150 --> 00:13:42,160
+got it that's what it means and then if
+ 
+
+631
+00:13:42,160 --> 00:13:44,230
+got it that's what it means and then if
+if our error zero if
+
+632
+00:13:44,230 --> 00:13:44,240
+if our error zero if
+ 
+
+633
+00:13:44,240 --> 00:13:46,550
+if our error zero if
+it means that we we are adding the
+
+634
+00:13:46,550 --> 00:13:46,560
+it means that we we are adding the
+ 
+
+635
+00:13:46,560 --> 00:13:47,990
+it means that we we are adding the
+values of the notes if
+
+636
+00:13:47,990 --> 00:13:48,000
+values of the notes if
+ 
+
+637
+00:13:48,000 --> 00:13:50,629
+values of the notes if
+that we still can have this linked list
+
+638
+00:13:50,629 --> 00:13:50,639
+that we still can have this linked list
+ 
+
+639
+00:13:50,639 --> 00:13:51,110
+that we still can have this linked list
+note
+
+640
+00:13:51,110 --> 00:13:51,120
+note
+ 
+
+641
+00:13:51,120 --> 00:13:53,509
+note
+right and move it to the next move it to
+
+642
+00:13:53,509 --> 00:13:53,519
+right and move it to the next move it to
+ 
+
+643
+00:13:53,519 --> 00:13:54,949
+right and move it to the next move it to
+the next
+
+644
+00:13:54,949 --> 00:13:54,959
+the next
+ 
+
+645
+00:13:54,959 --> 00:13:58,870
+the next
+okay this means divided by 10
+
+646
+00:13:58,870 --> 00:13:58,880
+okay this means divided by 10
+ 
+
+647
+00:13:58,880 --> 00:14:02,150
+okay this means divided by 10
+like 123 divided by 10 is
+
+648
+00:14:02,150 --> 00:14:02,160
+like 123 divided by 10 is
+ 
+
+649
+00:14:02,160 --> 00:14:05,350
+like 123 divided by 10 is
+12 right yeah
+
+650
+00:14:05,350 --> 00:14:05,360
+12 right yeah
+ 
+
+651
+00:14:05,360 --> 00:14:08,790
+12 right yeah
+this means that okay so 17 19 17
+
+652
+00:14:08,790 --> 00:14:08,800
+this means that okay so 17 19 17
+ 
+
+653
+00:14:08,800 --> 00:14:12,310
+this means that okay so 17 19 17
+a divided by 10 equals one uh
+
+654
+00:14:12,310 --> 00:14:12,320
+a divided by 10 equals one uh
+ 
+
+655
+00:14:12,320 --> 00:14:15,590
+a divided by 10 equals one uh
+seven point eight no this two means
+
+656
+00:14:15,590 --> 00:14:15,600
+seven point eight no this two means
+ 
+
+657
+00:14:15,600 --> 00:14:18,710
+seven point eight no this two means
+just integer power is seven okay yeah
+
+658
+00:14:18,710 --> 00:14:18,720
+just integer power is seven okay yeah
+ 
+
+659
+00:14:18,720 --> 00:14:21,509
+just integer power is seven okay yeah
+just seven that's what it means and then
+
+660
+00:14:21,509 --> 00:14:21,519
+just seven that's what it means and then
+ 
+
+661
+00:14:21,519 --> 00:14:23,189
+just seven that's what it means and then
+seventy eight
+
+662
+00:14:23,189 --> 00:14:23,199
+seventy eight
+ 
+
+663
+00:14:23,199 --> 00:14:28,389
+seventy eight
+modulus ten equals one
+
+664
+00:14:28,389 --> 00:14:28,399
+
+ 
+
+665
+00:14:28,399 --> 00:14:33,030
+
+seven eight divided by ten
+
+666
+00:14:33,030 --> 00:14:33,040
+seven eight divided by ten
+ 
+
+667
+00:14:33,040 --> 00:14:34,949
+seven eight divided by ten
+is seventeen seventy eight is minus
+
+668
+00:14:34,949 --> 00:14:34,959
+is seventeen seventy eight is minus
+ 
+
+669
+00:14:34,959 --> 00:14:36,310
+is seventeen seventy eight is minus
+seventy is eight right
+
+670
+00:14:36,310 --> 00:14:36,320
+seventy is eight right
+ 
+
+671
+00:14:36,320 --> 00:14:38,550
+seventy is eight right
+so basically these modular ten is the
+
+672
+00:14:38,550 --> 00:14:38,560
+so basically these modular ten is the
+ 
+
+673
+00:14:38,560 --> 00:14:39,750
+so basically these modular ten is the
+these eight them
+
+674
+00:14:39,750 --> 00:14:39,760
+these eight them
+ 
+
+675
+00:14:39,760 --> 00:14:42,949
+these eight them
+the the right digit the lemons digit why
+
+676
+00:14:42,949 --> 00:14:42,959
+the the right digit the lemons digit why
+ 
+
+677
+00:14:42,959 --> 00:14:45,269
+the the right digit the lemons digit why
+eight i wanted eight and then i multiply
+
+678
+00:14:45,269 --> 00:14:45,279
+eight i wanted eight and then i multiply
+ 
+
+679
+00:14:45,279 --> 00:14:47,670
+eight i wanted eight and then i multiply
+ten if i only seven i divided by ten
+
+680
+00:14:47,670 --> 00:14:47,680
+ten if i only seven i divided by ten
+ 
+
+681
+00:14:47,680 --> 00:14:50,389
+ten if i only seven i divided by ten
+you see how we get the numbers yeah yeah
+
+682
+00:14:50,389 --> 00:14:50,399
+you see how we get the numbers yeah yeah
+ 
+
+683
+00:14:50,399 --> 00:14:52,710
+you see how we get the numbers yeah yeah
+this is how we get the numbers okay
+
+684
+00:14:52,710 --> 00:14:52,720
+this is how we get the numbers okay
+ 
+
+685
+00:14:52,720 --> 00:15:03,750
+this is how we get the numbers okay
+okay any questions
+
+686
+00:15:03,750 --> 00:15:03,760
+
+ 
+
+687
+00:15:03,760 --> 00:15:05,990
+
+okay i'm gonna see you tomorrow okay bye
+
+688
+00:15:05,990 --> 00:15:06,000
+okay i'm gonna see you tomorrow okay bye
+ 
+
+689
+00:15:06,000 --> 00:15:08,560
+okay i'm gonna see you tomorrow okay bye
+bye
+

@@ -1,0 +1,2605 @@
+1
+00:00:00,160 --> 00:00:02,770
+
+hello hello hello hello
+
+2
+00:00:02,770 --> 00:00:02,780
+hello hello hello hello
+ 
+
+3
+00:00:02,780 --> 00:00:04,950
+hello hello hello hello
+[Music]
+
+4
+00:00:04,950 --> 00:00:04,960
+[Music]
+ 
+
+5
+00:00:04,960 --> 00:00:07,510
+[Music]
+today we're going to talk about uh
+
+6
+00:00:07,510 --> 00:00:07,520
+today we're going to talk about uh
+ 
+
+7
+00:00:07,520 --> 00:00:09,589
+today we're going to talk about uh
+converting a sorted list to find a
+
+8
+00:00:09,589 --> 00:00:09,599
+converting a sorted list to find a
+ 
+
+9
+00:00:09,599 --> 00:00:12,070
+converting a sorted list to find a
+research tree so can you remind me what
+
+10
+00:00:12,070 --> 00:00:12,080
+research tree so can you remind me what
+ 
+
+11
+00:00:12,080 --> 00:00:14,070
+research tree so can you remind me what
+is finally search tree
+
+12
+00:00:14,070 --> 00:00:14,080
+is finally search tree
+ 
+
+13
+00:00:14,080 --> 00:00:17,349
+is finally search tree
+bsd is a tree yeah it's the final it's a
+
+14
+00:00:17,349 --> 00:00:17,359
+bsd is a tree yeah it's the final it's a
+ 
+
+15
+00:00:17,359 --> 00:00:20,790
+bsd is a tree yeah it's the final it's a
+tree it's a binary tree
+
+16
+00:00:20,790 --> 00:00:20,800
+
+ 
+
+17
+00:00:20,800 --> 00:00:23,990
+
+uh it has numbers yeah it has
+
+18
+00:00:23,990 --> 00:00:24,000
+uh it has numbers yeah it has
+ 
+
+19
+00:00:24,000 --> 00:00:27,029
+uh it has numbers yeah it has
+numbers they're in circles
+
+20
+00:00:27,029 --> 00:00:27,039
+numbers they're in circles
+ 
+
+21
+00:00:27,039 --> 00:00:30,550
+numbers they're in circles
+so what if this is four this is
+
+22
+00:00:30,550 --> 00:00:30,560
+so what if this is four this is
+ 
+
+23
+00:00:30,560 --> 00:00:33,350
+so what if this is four this is
+three and this is five and then this is
+
+24
+00:00:33,350 --> 00:00:33,360
+three and this is five and then this is
+ 
+
+25
+00:00:33,360 --> 00:00:34,470
+three and this is five and then this is
+two
+
+26
+00:00:34,470 --> 00:00:34,480
+two
+ 
+
+27
+00:00:34,480 --> 00:00:37,110
+two
+and then this is four point five maybe
+
+28
+00:00:37,110 --> 00:00:37,120
+and then this is four point five maybe
+ 
+
+29
+00:00:37,120 --> 00:00:38,310
+and then this is four point five maybe
+this is seven
+
+30
+00:00:38,310 --> 00:00:38,320
+this is seven
+ 
+
+31
+00:00:38,320 --> 00:00:41,590
+this is seven
+so do you get this do you get it the
+
+32
+00:00:41,590 --> 00:00:41,600
+so do you get this do you get it the
+ 
+
+33
+00:00:41,600 --> 00:00:43,190
+so do you get this do you get it the
+final research tree
+
+34
+00:00:43,190 --> 00:00:43,200
+final research tree
+ 
+
+35
+00:00:43,200 --> 00:00:45,830
+final research tree
+first of all it's the final tree yeah
+
+36
+00:00:45,830 --> 00:00:45,840
+first of all it's the final tree yeah
+ 
+
+37
+00:00:45,840 --> 00:00:47,910
+first of all it's the final tree yeah
+and the other left nodes are smaller
+
+38
+00:00:47,910 --> 00:00:47,920
+and the other left nodes are smaller
+ 
+
+39
+00:00:47,920 --> 00:00:49,110
+and the other left nodes are smaller
+than the root
+
+40
+00:00:49,110 --> 00:00:49,120
+than the root
+ 
+
+41
+00:00:49,120 --> 00:00:51,910
+than the root
+all the right nodes are bigger than the
+
+42
+00:00:51,910 --> 00:00:51,920
+all the right nodes are bigger than the
+ 
+
+43
+00:00:51,920 --> 00:00:53,670
+all the right nodes are bigger than the
+loose so you can search it
+
+44
+00:00:53,670 --> 00:00:53,680
+loose so you can search it
+ 
+
+45
+00:00:53,680 --> 00:00:56,389
+loose so you can search it
+yeah like if i want to search two i can
+
+46
+00:00:56,389 --> 00:00:56,399
+yeah like if i want to search two i can
+ 
+
+47
+00:00:56,399 --> 00:00:58,069
+yeah like if i want to search two i can
+go to the left side because it's smaller
+
+48
+00:00:58,069 --> 00:00:58,079
+go to the left side because it's smaller
+ 
+
+49
+00:00:58,079 --> 00:00:59,430
+go to the left side because it's smaller
+than four right
+
+50
+00:00:59,430 --> 00:00:59,440
+than four right
+ 
+
+51
+00:00:59,440 --> 00:01:00,869
+than four right
+and it's all getting smaller than three
+
+52
+00:01:00,869 --> 00:01:00,879
+and it's all getting smaller than three
+ 
+
+53
+00:01:00,879 --> 00:01:02,630
+and it's all getting smaller than three
+and then i go through this side yes
+
+54
+00:01:02,630 --> 00:01:02,640
+and then i go through this side yes
+ 
+
+55
+00:01:02,640 --> 00:01:05,189
+and then i go through this side yes
+so if you do perform and in order
+
+56
+00:01:05,189 --> 00:01:05,199
+so if you do perform and in order
+ 
+
+57
+00:01:05,199 --> 00:01:07,030
+so if you do perform and in order
+remember what's in order so
+
+58
+00:01:07,030 --> 00:01:07,040
+remember what's in order so
+ 
+
+59
+00:01:07,040 --> 00:01:10,230
+remember what's in order so
+in order to traverse up
+
+60
+00:01:10,230 --> 00:01:10,240
+in order to traverse up
+ 
+
+61
+00:01:10,240 --> 00:01:13,429
+in order to traverse up
+in order if i if i visit
+
+62
+00:01:13,429 --> 00:01:13,439
+in order if i if i visit
+ 
+
+63
+00:01:13,439 --> 00:01:16,070
+in order if i if i visit
+the left note first and then i reach the
+
+64
+00:01:16,070 --> 00:01:16,080
+the left note first and then i reach the
+ 
+
+65
+00:01:16,080 --> 00:01:17,109
+the left note first and then i reach the
+root note and then
+
+66
+00:01:17,109 --> 00:01:17,119
+root note and then
+ 
+
+67
+00:01:17,119 --> 00:01:19,510
+root note and then
+visit right now so what you will give
+
+68
+00:01:19,510 --> 00:01:19,520
+visit right now so what you will give
+ 
+
+69
+00:01:19,520 --> 00:01:20,149
+visit right now so what you will give
+give us
+
+70
+00:01:20,149 --> 00:01:20,159
+give us
+ 
+
+71
+00:01:20,159 --> 00:01:23,190
+give us
+is a sorted list am right yeah because i
+
+72
+00:01:23,190 --> 00:01:23,200
+is a sorted list am right yeah because i
+ 
+
+73
+00:01:23,200 --> 00:01:25,350
+is a sorted list am right yeah because i
+always visit the smaller nodes
+
+74
+00:01:25,350 --> 00:01:25,360
+always visit the smaller nodes
+ 
+
+75
+00:01:25,360 --> 00:01:27,830
+always visit the smaller nodes
+and the current nose and the bigger nose
+
+76
+00:01:27,830 --> 00:01:27,840
+and the current nose and the bigger nose
+ 
+
+77
+00:01:27,840 --> 00:01:30,390
+and the current nose and the bigger nose
+so this is an assaulted
+
+78
+00:01:30,390 --> 00:01:30,400
+so this is an assaulted
+ 
+
+79
+00:01:30,400 --> 00:01:33,990
+so this is an assaulted
+order right yes do you get it
+
+80
+00:01:33,990 --> 00:01:34,000
+order right yes do you get it
+ 
+
+81
+00:01:34,000 --> 00:01:37,510
+order right yes do you get it
+yeah okay so now today yes
+
+82
+00:01:37,510 --> 00:01:37,520
+yeah okay so now today yes
+ 
+
+83
+00:01:37,520 --> 00:01:40,550
+yeah okay so now today yes
+do you get it
+
+84
+00:01:40,550 --> 00:01:40,560
+do you get it
+ 
+
+85
+00:01:40,560 --> 00:01:42,469
+do you get it
+today we talked about assaulting this
+
+86
+00:01:42,469 --> 00:01:42,479
+today we talked about assaulting this
+ 
+
+87
+00:01:42,479 --> 00:01:44,069
+today we talked about assaulting this
+remember something this like
+
+88
+00:01:44,069 --> 00:01:44,079
+remember something this like
+ 
+
+89
+00:01:44,079 --> 00:01:47,190
+remember something this like
+one two three four
+
+90
+00:01:47,190 --> 00:01:47,200
+one two three four
+ 
+
+91
+00:01:47,200 --> 00:01:50,710
+one two three four
+five six six seven eight so if i
+
+92
+00:01:50,710 --> 00:01:50,720
+five six six seven eight so if i
+ 
+
+93
+00:01:50,720 --> 00:01:53,350
+five six six seven eight so if i
+want you to convert it to a binary
+
+94
+00:01:53,350 --> 00:01:53,360
+want you to convert it to a binary
+ 
+
+95
+00:01:53,360 --> 00:01:54,069
+want you to convert it to a binary
+surgery
+
+96
+00:01:54,069 --> 00:01:54,079
+surgery
+ 
+
+97
+00:01:54,079 --> 00:01:56,469
+surgery
+obviously you can convert it using many
+
+98
+00:01:56,469 --> 00:01:56,479
+obviously you can convert it using many
+ 
+
+99
+00:01:56,479 --> 00:01:58,310
+obviously you can convert it using many
+uh there are many ways right
+
+100
+00:01:58,310 --> 00:01:58,320
+uh there are many ways right
+ 
+
+101
+00:01:58,320 --> 00:02:00,069
+uh there are many ways right
+so how about if i tell you that i want
+
+102
+00:02:00,069 --> 00:02:00,079
+so how about if i tell you that i want
+ 
+
+103
+00:02:00,079 --> 00:02:01,910
+so how about if i tell you that i want
+to you convert it with
+
+104
+00:02:01,910 --> 00:02:01,920
+to you convert it with
+ 
+
+105
+00:02:01,920 --> 00:02:04,870
+to you convert it with
+to a balanced final surgery or minimum
+
+106
+00:02:04,870 --> 00:02:04,880
+to a balanced final surgery or minimum
+ 
+
+107
+00:02:04,880 --> 00:02:13,780
+to a balanced final surgery or minimum
+height you know balance such
+
+108
+00:02:13,780 --> 00:02:13,790
+
+ 
+
+109
+00:02:13,790 --> 00:02:20,790
+
+[Music]
+
+110
+00:02:20,790 --> 00:02:20,800
+
+ 
+
+111
+00:02:20,800 --> 00:02:25,030
+
+binary means that uh at any note
+
+112
+00:02:25,030 --> 00:02:25,040
+binary means that uh at any note
+ 
+
+113
+00:02:25,040 --> 00:02:27,750
+binary means that uh at any note
+that the difference between the depths
+
+114
+00:02:27,750 --> 00:02:27,760
+that the difference between the depths
+ 
+
+115
+00:02:27,760 --> 00:02:28,070
+that the difference between the depths
+of
+
+116
+00:02:28,070 --> 00:02:28,080
+of
+ 
+
+117
+00:02:28,080 --> 00:02:30,949
+of
+two subtrees are always smaller or equal
+
+118
+00:02:30,949 --> 00:02:30,959
+two subtrees are always smaller or equal
+ 
+
+119
+00:02:30,959 --> 00:02:31,990
+two subtrees are always smaller or equal
+than one so it's
+
+120
+00:02:31,990 --> 00:02:32,000
+than one so it's
+ 
+
+121
+00:02:32,000 --> 00:02:34,070
+than one so it's
+balanced this is not balanced look this
+
+122
+00:02:34,070 --> 00:02:34,080
+balanced this is not balanced look this
+ 
+
+123
+00:02:34,080 --> 00:02:35,110
+balanced this is not balanced look this
+is not balanced
+
+124
+00:02:35,110 --> 00:02:35,120
+is not balanced
+ 
+
+125
+00:02:35,120 --> 00:02:38,070
+is not balanced
+right you can obviously you can please
+
+126
+00:02:38,070 --> 00:02:38,080
+right you can obviously you can please
+ 
+
+127
+00:02:38,080 --> 00:02:38,869
+right you can obviously you can please
+and
+
+128
+00:02:38,869 --> 00:02:38,879
+and
+ 
+
+129
+00:02:38,879 --> 00:02:42,710
+and
+one two three four five like a link list
+
+130
+00:02:42,710 --> 00:02:42,720
+one two three four five like a link list
+ 
+
+131
+00:02:42,720 --> 00:02:43,030
+one two three four five like a link list
+yeah
+
+132
+00:02:43,030 --> 00:02:43,040
+yeah
+ 
+
+133
+00:02:43,040 --> 00:02:45,430
+yeah
+look this is the final three final
+
+134
+00:02:45,430 --> 00:02:45,440
+look this is the final three final
+ 
+
+135
+00:02:45,440 --> 00:02:46,470
+look this is the final three final
+research three
+
+136
+00:02:46,470 --> 00:02:46,480
+research three
+ 
+
+137
+00:02:46,480 --> 00:02:49,190
+research three
+it is also a linked list yeah but it's
+
+138
+00:02:49,190 --> 00:02:49,200
+it is also a linked list yeah but it's
+ 
+
+139
+00:02:49,200 --> 00:02:50,070
+it is also a linked list yeah but it's
+not parents
+
+140
+00:02:50,070 --> 00:02:50,080
+not parents
+ 
+
+141
+00:02:50,080 --> 00:02:51,670
+not parents
+right it's not parents yeah it's
+
+142
+00:02:51,670 --> 00:02:51,680
+right it's not parents yeah it's
+ 
+
+143
+00:02:51,680 --> 00:02:53,430
+right it's not parents yeah it's
+territory yeah do you get it
+
+144
+00:02:53,430 --> 00:02:53,440
+territory yeah do you get it
+ 
+
+145
+00:02:53,440 --> 00:02:58,229
+territory yeah do you get it
+so the the complexity of searching
+
+146
+00:02:58,229 --> 00:02:58,239
+so the the complexity of searching
+ 
+
+147
+00:02:58,239 --> 00:03:00,710
+so the the complexity of searching
+in in a balance in the binary search
+
+148
+00:03:00,710 --> 00:03:00,720
+in in a balance in the binary search
+ 
+
+149
+00:03:00,720 --> 00:03:02,390
+in in a balance in the binary search
+tree in the worst case is o
+
+150
+00:03:02,390 --> 00:03:02,400
+tree in the worst case is o
+ 
+
+151
+00:03:02,400 --> 00:03:04,949
+tree in the worst case is o
+n right because you you're not making
+
+152
+00:03:04,949 --> 00:03:04,959
+n right because you you're not making
+ 
+
+153
+00:03:04,959 --> 00:03:06,550
+n right because you you're not making
+use of the fact that uh
+
+154
+00:03:06,550 --> 00:03:06,560
+use of the fact that uh
+ 
+
+155
+00:03:06,560 --> 00:03:08,470
+use of the fact that uh
+you're making the balance if it's
+
+156
+00:03:08,470 --> 00:03:08,480
+you're making the balance if it's
+ 
+
+157
+00:03:08,480 --> 00:03:09,750
+you're making the balance if it's
+balanced then you can say
+
+158
+00:03:09,750 --> 00:03:09,760
+balanced then you can say
+ 
+
+159
+00:03:09,760 --> 00:03:13,190
+balanced then you can say
+it's o what one o log n
+
+160
+00:03:13,190 --> 00:03:13,200
+it's o what one o log n
+ 
+
+161
+00:03:13,200 --> 00:03:16,229
+it's o what one o log n
+yeah yeah if if it's not balanced in the
+
+162
+00:03:16,229 --> 00:03:16,239
+yeah yeah if if it's not balanced in the
+ 
+
+163
+00:03:16,239 --> 00:03:19,670
+yeah yeah if if it's not balanced in the
+worst case if it leads then it's over
+
+164
+00:03:19,670 --> 00:03:19,680
+worst case if it leads then it's over
+ 
+
+165
+00:03:19,680 --> 00:03:22,309
+worst case if it leads then it's over
+yeah we're done okay so now given this
+
+166
+00:03:22,309 --> 00:03:22,319
+yeah we're done okay so now given this
+ 
+
+167
+00:03:22,319 --> 00:03:23,190
+yeah we're done okay so now given this
+sorted
+
+168
+00:03:23,190 --> 00:03:23,200
+sorted
+ 
+
+169
+00:03:23,200 --> 00:03:25,670
+sorted
+sorted list how can we convert it to a
+
+170
+00:03:25,670 --> 00:03:25,680
+sorted list how can we convert it to a
+ 
+
+171
+00:03:25,680 --> 00:03:26,390
+sorted list how can we convert it to a
+binary
+
+172
+00:03:26,390 --> 00:03:26,400
+binary
+ 
+
+173
+00:03:26,400 --> 00:03:30,149
+binary
+balance binary search tree
+
+174
+00:03:30,149 --> 00:03:30,159
+
+ 
+
+175
+00:03:30,159 --> 00:03:34,470
+
+i think how about if we take the current
+
+176
+00:03:34,470 --> 00:03:34,480
+i think how about if we take the current
+ 
+
+177
+00:03:34,480 --> 00:03:37,830
+i think how about if we take the current
+which no i if i take it as a route
+
+178
+00:03:37,830 --> 00:03:37,840
+which no i if i take it as a route
+ 
+
+179
+00:03:37,840 --> 00:03:43,270
+which no i if i take it as a route
+the one in the middle
+
+180
+00:03:43,270 --> 00:03:43,280
+
+ 
+
+181
+00:03:43,280 --> 00:03:45,110
+
+okay so look at three or four it doesn't
+
+182
+00:03:45,110 --> 00:03:45,120
+okay so look at three or four it doesn't
+ 
+
+183
+00:03:45,120 --> 00:03:46,630
+okay so look at three or four it doesn't
+matter yet because they're too long
+
+184
+00:03:46,630 --> 00:03:46,640
+matter yet because they're too long
+ 
+
+185
+00:03:46,640 --> 00:03:50,309
+matter yet because they're too long
+three okay i pick three so now
+
+186
+00:03:50,309 --> 00:03:50,319
+three okay i pick three so now
+ 
+
+187
+00:03:50,319 --> 00:03:53,429
+three okay i pick three so now
+all the notes before it are smaller than
+
+188
+00:03:53,429 --> 00:03:53,439
+all the notes before it are smaller than
+ 
+
+189
+00:03:53,439 --> 00:03:56,229
+all the notes before it are smaller than
+three right so it goes on the left three
+
+190
+00:03:56,229 --> 00:03:56,239
+three right so it goes on the left three
+ 
+
+191
+00:03:56,239 --> 00:03:56,550
+three right so it goes on the left three
+yeah
+
+192
+00:03:56,550 --> 00:03:56,560
+yeah
+ 
+
+193
+00:03:56,560 --> 00:03:59,270
+yeah
+it goes these two goes here right i've
+
+194
+00:03:59,270 --> 00:03:59,280
+it goes these two goes here right i've
+ 
+
+195
+00:03:59,280 --> 00:04:00,550
+it goes these two goes here right i've
+got a big
+
+196
+00:04:00,550 --> 00:04:00,560
+got a big
+ 
+
+197
+00:04:00,560 --> 00:04:02,710
+got a big
+thing yeah yeah i know look and every
+
+198
+00:04:02,710 --> 00:04:02,720
+thing yeah yeah i know look and every
+ 
+
+199
+00:04:02,720 --> 00:04:04,390
+thing yeah yeah i know look and every
+nose after three
+
+200
+00:04:04,390 --> 00:04:04,400
+nose after three
+ 
+
+201
+00:04:04,400 --> 00:04:07,429
+nose after three
+goes well
+
+202
+00:04:07,429 --> 00:04:07,439
+
+ 
+
+203
+00:04:07,439 --> 00:04:09,350
+
+right on the right yeah we're done look
+
+204
+00:04:09,350 --> 00:04:09,360
+right on the right yeah we're done look
+ 
+
+205
+00:04:09,360 --> 00:04:10,470
+right on the right yeah we're done look
+it's on the right
+
+206
+00:04:10,470 --> 00:04:10,480
+it's on the right
+ 
+
+207
+00:04:10,480 --> 00:04:13,429
+it's on the right
+so again it's on the right look again we
+
+208
+00:04:13,429 --> 00:04:13,439
+so again it's on the right look again we
+ 
+
+209
+00:04:13,439 --> 00:04:14,149
+so again it's on the right look again we
+are dividing
+
+210
+00:04:14,149 --> 00:04:14,159
+are dividing
+ 
+
+211
+00:04:14,159 --> 00:04:17,030
+are dividing
+this into two sub problems right for
+
+212
+00:04:17,030 --> 00:04:17,040
+this into two sub problems right for
+ 
+
+213
+00:04:17,040 --> 00:04:17,830
+this into two sub problems right for
+these two and
+
+214
+00:04:17,830 --> 00:04:17,840
+these two and
+ 
+
+215
+00:04:17,840 --> 00:04:20,710
+these two and
+one and two right we again can pick one
+
+216
+00:04:20,710 --> 00:04:20,720
+one and two right we again can pick one
+ 
+
+217
+00:04:20,720 --> 00:04:21,909
+one and two right we again can pick one
+in the middle and then do this
+
+218
+00:04:21,909 --> 00:04:21,919
+in the middle and then do this
+ 
+
+219
+00:04:21,919 --> 00:04:23,510
+in the middle and then do this
+recursively and for this
+
+220
+00:04:23,510 --> 00:04:23,520
+recursively and for this
+ 
+
+221
+00:04:23,520 --> 00:04:25,510
+recursively and for this
+four five six for example pick one in
+
+222
+00:04:25,510 --> 00:04:25,520
+four five six for example pick one in
+ 
+
+223
+00:04:25,520 --> 00:04:26,550
+four five six for example pick one in
+the middle which is
+
+224
+00:04:26,550 --> 00:04:26,560
+the middle which is
+ 
+
+225
+00:04:26,560 --> 00:04:29,030
+the middle which is
+five five okay then i put a five here
+
+226
+00:04:29,030 --> 00:04:29,040
+five five okay then i put a five here
+ 
+
+227
+00:04:29,040 --> 00:04:30,230
+five five okay then i put a five here
+and then
+
+228
+00:04:30,230 --> 00:04:30,240
+and then
+ 
+
+229
+00:04:30,240 --> 00:04:32,150
+and then
+put a five okay so now we are dealing
+
+230
+00:04:32,150 --> 00:04:32,160
+put a five okay so now we are dealing
+ 
+
+231
+00:04:32,160 --> 00:04:33,670
+put a five okay so now we are dealing
+with five five
+
+232
+00:04:33,670 --> 00:04:33,680
+with five five
+ 
+
+233
+00:04:33,680 --> 00:04:36,230
+with five five
+four goes on the left hand side of the
+
+234
+00:04:36,230 --> 00:04:36,240
+four goes on the left hand side of the
+ 
+
+235
+00:04:36,240 --> 00:04:36,870
+four goes on the left hand side of the
+five right
+
+236
+00:04:36,870 --> 00:04:36,880
+five right
+ 
+
+237
+00:04:36,880 --> 00:04:39,749
+five right
+and six yeah right yeah you see so we're
+
+238
+00:04:39,749 --> 00:04:39,759
+and six yeah right yeah you see so we're
+ 
+
+239
+00:04:39,759 --> 00:04:40,710
+and six yeah right yeah you see so we're
+building it
+
+240
+00:04:40,710 --> 00:04:40,720
+building it
+ 
+
+241
+00:04:40,720 --> 00:04:45,030
+building it
+look yeah yeah so what's the complexity
+
+242
+00:04:45,030 --> 00:04:45,040
+look yeah yeah so what's the complexity
+ 
+
+243
+00:04:45,040 --> 00:04:45,510
+look yeah yeah so what's the complexity
+if you do
+
+244
+00:04:45,510 --> 00:04:45,520
+if you do
+ 
+
+245
+00:04:45,520 --> 00:04:49,909
+if you do
+if i w1
+
+246
+00:04:49,909 --> 00:04:49,919
+
+ 
+
+247
+00:04:49,919 --> 00:04:52,230
+
+in what cases you need to tell me it's a
+
+248
+00:04:52,230 --> 00:04:52,240
+in what cases you need to tell me it's a
+ 
+
+249
+00:04:52,240 --> 00:04:55,350
+in what cases you need to tell me it's a
+what one constant is like
+
+250
+00:04:55,350 --> 00:04:55,360
+what one constant is like
+ 
+
+251
+00:04:55,360 --> 00:04:57,670
+what one constant is like
+compared to the sum of the first n
+
+252
+00:04:57,670 --> 00:04:57,680
+compared to the sum of the first n
+ 
+
+253
+00:04:57,680 --> 00:04:58,390
+compared to the sum of the first n
+numbers you
+
+254
+00:04:58,390 --> 00:04:58,400
+numbers you
+ 
+
+255
+00:04:58,400 --> 00:05:00,870
+numbers you
+you have equation right yeah and you
+
+256
+00:05:00,870 --> 00:05:00,880
+you have equation right yeah and you
+ 
+
+257
+00:05:00,880 --> 00:05:02,150
+you have equation right yeah and you
+don't need to iterate
+
+258
+00:05:02,150 --> 00:05:02,160
+don't need to iterate
+ 
+
+259
+00:05:02,160 --> 00:05:05,909
+don't need to iterate
+over the numbers you can just do do a
+
+260
+00:05:05,909 --> 00:05:05,919
+over the numbers you can just do do a
+ 
+
+261
+00:05:05,919 --> 00:05:07,990
+over the numbers you can just do do a
+mathematics equation that's all one okay
+
+262
+00:05:07,990 --> 00:05:08,000
+mathematics equation that's all one okay
+ 
+
+263
+00:05:08,000 --> 00:05:09,189
+mathematics equation that's all one okay
+that's the only time
+
+264
+00:05:09,189 --> 00:05:09,199
+that's the only time
+ 
+
+265
+00:05:09,199 --> 00:05:10,710
+that's the only time
+you need to tell me is the one for this
+
+266
+00:05:10,710 --> 00:05:10,720
+you need to tell me is the one for this
+ 
+
+267
+00:05:10,720 --> 00:05:12,629
+you need to tell me is the one for this
+one is o and why because we need to
+
+268
+00:05:12,629 --> 00:05:12,639
+one is o and why because we need to
+ 
+
+269
+00:05:12,639 --> 00:05:13,270
+one is o and why because we need to
+visit
+
+270
+00:05:13,270 --> 00:05:13,280
+visit
+ 
+
+271
+00:05:13,280 --> 00:05:16,310
+visit
+we need to use n numbers in the sorted
+
+272
+00:05:16,310 --> 00:05:16,320
+we need to use n numbers in the sorted
+ 
+
+273
+00:05:16,320 --> 00:05:17,029
+we need to use n numbers in the sorted
+array
+
+274
+00:05:17,029 --> 00:05:17,039
+array
+ 
+
+275
+00:05:17,039 --> 00:05:19,670
+array
+to make a list okay to make a tree so
+
+276
+00:05:19,670 --> 00:05:19,680
+to make a list okay to make a tree so
+ 
+
+277
+00:05:19,680 --> 00:05:21,350
+to make a list okay to make a tree so
+now
+
+278
+00:05:21,350 --> 00:05:21,360
+now
+ 
+
+279
+00:05:21,360 --> 00:05:24,710
+now
+so now let's do this defy
+
+280
+00:05:24,710 --> 00:05:24,720
+so now let's do this defy
+ 
+
+281
+00:05:24,720 --> 00:05:29,830
+so now let's do this defy
+okay let's just call it uh fear
+
+282
+00:05:29,830 --> 00:05:29,840
+okay let's just call it uh fear
+ 
+
+283
+00:05:29,840 --> 00:05:32,950
+okay let's just call it uh fear
+bst what's bst
+
+284
+00:05:32,950 --> 00:05:32,960
+bst what's bst
+ 
+
+285
+00:05:32,960 --> 00:05:35,830
+bst what's bst
+uh binary such tree okay and then let's
+
+286
+00:05:35,830 --> 00:05:35,840
+uh binary such tree okay and then let's
+ 
+
+287
+00:05:35,840 --> 00:05:36,870
+uh binary such tree okay and then let's
+go in numbers
+
+288
+00:05:36,870 --> 00:05:36,880
+go in numbers
+ 
+
+289
+00:05:36,880 --> 00:05:38,550
+go in numbers
+we are sorting this is thought number
+
+290
+00:05:38,550 --> 00:05:38,560
+we are sorting this is thought number
+ 
+
+291
+00:05:38,560 --> 00:05:41,749
+we are sorting this is thought number
+and what's missing there
+
+292
+00:05:41,749 --> 00:05:41,759
+
+ 
+
+293
+00:05:41,759 --> 00:05:45,670
+
+yes okay that is if the length of the
+
+294
+00:05:45,670 --> 00:05:45,680
+yes okay that is if the length of the
+ 
+
+295
+00:05:45,680 --> 00:05:47,189
+yes okay that is if the length of the
+number
+
+296
+00:05:47,189 --> 00:05:47,199
+number
+ 
+
+297
+00:05:47,199 --> 00:05:50,550
+number
+is zero then we need to return one
+
+298
+00:05:50,550 --> 00:05:50,560
+is zero then we need to return one
+ 
+
+299
+00:05:50,560 --> 00:05:54,550
+is zero then we need to return one
+return now
+
+300
+00:05:54,550 --> 00:05:54,560
+
+ 
+
+301
+00:05:54,560 --> 00:05:57,270
+
+okay we need to find the meter in the
+
+302
+00:05:57,270 --> 00:05:57,280
+okay we need to find the meter in the
+ 
+
+303
+00:05:57,280 --> 00:05:58,309
+okay we need to find the meter in the
+middle okay so what's
+
+304
+00:05:58,309 --> 00:05:58,319
+middle okay so what's
+ 
+
+305
+00:05:58,319 --> 00:06:01,189
+middle okay so what's
+what's the one in the index is mid
+
+306
+00:06:01,189 --> 00:06:01,199
+what's the one in the index is mid
+ 
+
+307
+00:06:01,199 --> 00:06:01,670
+what's the one in the index is mid
+equals
+
+308
+00:06:01,670 --> 00:06:01,680
+equals
+ 
+
+309
+00:06:01,680 --> 00:06:04,950
+equals
+length dams divided by 10
+
+310
+00:06:04,950 --> 00:06:04,960
+length dams divided by 10
+ 
+
+311
+00:06:04,960 --> 00:06:07,590
+length dams divided by 10
+yeah divided by two let's see roughly in
+
+312
+00:06:07,590 --> 00:06:07,600
+yeah divided by two let's see roughly in
+ 
+
+313
+00:06:07,600 --> 00:06:08,309
+yeah divided by two let's see roughly in
+the middle yeah
+
+314
+00:06:08,309 --> 00:06:08,319
+the middle yeah
+ 
+
+315
+00:06:08,319 --> 00:06:10,629
+the middle yeah
+not exactly in the middle sometimes if
+
+316
+00:06:10,629 --> 00:06:10,639
+not exactly in the middle sometimes if
+ 
+
+317
+00:06:10,639 --> 00:06:11,909
+not exactly in the middle sometimes if
+you have four numbers what's in the
+
+318
+00:06:11,909 --> 00:06:11,919
+you have four numbers what's in the
+ 
+
+319
+00:06:11,919 --> 00:06:13,510
+you have four numbers what's in the
+middle you can pick the
+
+320
+00:06:13,510 --> 00:06:13,520
+middle you can pick the
+ 
+
+321
+00:06:13,520 --> 00:06:16,790
+middle you can pick the
+second one or the third one yeah yeah
+
+322
+00:06:16,790 --> 00:06:16,800
+second one or the third one yeah yeah
+ 
+
+323
+00:06:16,800 --> 00:06:19,830
+second one or the third one yeah yeah
+roughly as long as roughly in the middle
+
+324
+00:06:19,830 --> 00:06:19,840
+roughly as long as roughly in the middle
+ 
+
+325
+00:06:19,840 --> 00:06:20,790
+roughly as long as roughly in the middle
+okay so now
+
+326
+00:06:20,790 --> 00:06:20,800
+okay so now
+ 
+
+327
+00:06:20,800 --> 00:06:23,990
+okay so now
+roughly now we we pick here the root
+
+328
+00:06:23,990 --> 00:06:24,000
+roughly now we we pick here the root
+ 
+
+329
+00:06:24,000 --> 00:06:26,550
+roughly now we we pick here the root
+which is three three now again we put
+
+330
+00:06:26,550 --> 00:06:26,560
+which is three three now again we put
+ 
+
+331
+00:06:26,560 --> 00:06:27,590
+which is three three now again we put
+the tree now
+
+332
+00:06:27,590 --> 00:06:27,600
+the tree now
+ 
+
+333
+00:06:27,600 --> 00:06:29,749
+the tree now
+which is the the one in the middle so
+
+334
+00:06:29,749 --> 00:06:29,759
+which is the the one in the middle so
+ 
+
+335
+00:06:29,759 --> 00:06:32,390
+which is the the one in the middle so
+which one is put in the middle
+
+336
+00:06:32,390 --> 00:06:32,400
+which one is put in the middle
+ 
+
+337
+00:06:32,400 --> 00:06:35,510
+which one is put in the middle
+lambs meat right yeah yeah
+
+338
+00:06:35,510 --> 00:06:35,520
+lambs meat right yeah yeah
+ 
+
+339
+00:06:35,520 --> 00:06:37,990
+lambs meat right yeah yeah
+because any number is in the middle so
+
+340
+00:06:37,990 --> 00:06:38,000
+because any number is in the middle so
+ 
+
+341
+00:06:38,000 --> 00:06:40,070
+because any number is in the middle so
+now we have the loot of this value right
+
+342
+00:06:40,070 --> 00:06:40,080
+now we have the loot of this value right
+ 
+
+343
+00:06:40,080 --> 00:06:42,550
+now we have the loot of this value right
+now we need to recursively construct the
+
+344
+00:06:42,550 --> 00:06:42,560
+now we need to recursively construct the
+ 
+
+345
+00:06:42,560 --> 00:06:43,189
+now we need to recursively construct the
+speed
+
+346
+00:06:43,189 --> 00:06:43,199
+speed
+ 
+
+347
+00:06:43,199 --> 00:06:46,309
+speed
+and then we spin okay so the
+
+348
+00:06:46,309 --> 00:06:46,319
+and then we spin okay so the
+ 
+
+349
+00:06:46,319 --> 00:06:48,629
+and then we spin okay so the
+the peak on the left so we can say loot
+
+350
+00:06:48,629 --> 00:06:48,639
+the peak on the left so we can say loot
+ 
+
+351
+00:06:48,639 --> 00:06:49,830
+the peak on the left so we can say loot
+dot left
+
+352
+00:06:49,830 --> 00:06:49,840
+dot left
+ 
+
+353
+00:06:49,840 --> 00:06:53,110
+dot left
+equals beard pst f we because we
+
+354
+00:06:53,110 --> 00:06:53,120
+equals beard pst f we because we
+ 
+
+355
+00:06:53,120 --> 00:06:57,029
+equals beard pst f we because we
+call it yeah yeah i am looking
+
+356
+00:06:57,029 --> 00:06:57,039
+call it yeah yeah i am looking
+ 
+
+357
+00:06:57,039 --> 00:07:00,070
+call it yeah yeah i am looking
+okay the numbers now we need to take the
+
+358
+00:07:00,070 --> 00:07:00,080
+okay the numbers now we need to take the
+ 
+
+359
+00:07:00,080 --> 00:07:01,990
+okay the numbers now we need to take the
+numbers between look one two three
+
+360
+00:07:01,990 --> 00:07:02,000
+numbers between look one two three
+ 
+
+361
+00:07:02,000 --> 00:07:04,710
+numbers between look one two three
+four five now the meter is three yeah we
+
+362
+00:07:04,710 --> 00:07:04,720
+four five now the meter is three yeah we
+ 
+
+363
+00:07:04,720 --> 00:07:06,790
+four five now the meter is three yeah we
+need to take the numbers before three so
+
+364
+00:07:06,790 --> 00:07:06,800
+need to take the numbers before three so
+ 
+
+365
+00:07:06,800 --> 00:07:07,830
+need to take the numbers before three so
+we can use
+
+366
+00:07:07,830 --> 00:07:07,840
+we can use
+ 
+
+367
+00:07:07,840 --> 00:07:11,670
+we can use
+lamps look look this one bracket
+
+368
+00:07:11,670 --> 00:07:11,680
+lamps look look this one bracket
+ 
+
+369
+00:07:11,680 --> 00:07:15,589
+lamps look look this one bracket
+and column anything up to
+
+370
+00:07:15,589 --> 00:07:15,599
+and column anything up to
+ 
+
+371
+00:07:15,599 --> 00:07:18,790
+and column anything up to
+meat yeah the meat is the index yeah
+
+372
+00:07:18,790 --> 00:07:18,800
+meat yeah the meat is the index yeah
+ 
+
+373
+00:07:18,800 --> 00:07:22,550
+meat yeah the meat is the index yeah
+so look there must need
+
+374
+00:07:22,550 --> 00:07:22,560
+so look there must need
+ 
+
+375
+00:07:22,560 --> 00:07:25,909
+so look there must need
+and then lose the right again
+
+376
+00:07:25,909 --> 00:07:25,919
+and then lose the right again
+ 
+
+377
+00:07:25,919 --> 00:07:30,230
+and then lose the right again
+we can build it yeah because we build it
+
+378
+00:07:30,230 --> 00:07:30,240
+we can build it yeah because we build it
+ 
+
+379
+00:07:30,240 --> 00:07:32,070
+we can build it yeah because we build it
+so how do we take the numbers after
+
+380
+00:07:32,070 --> 00:07:32,080
+so how do we take the numbers after
+ 
+
+381
+00:07:32,080 --> 00:07:34,070
+so how do we take the numbers after
+three look you can do these
+
+382
+00:07:34,070 --> 00:07:34,080
+three look you can do these
+ 
+
+383
+00:07:34,080 --> 00:07:38,070
+three look you can do these
+lumps one thing meat plus one okay
+
+384
+00:07:38,070 --> 00:07:38,080
+lumps one thing meat plus one okay
+ 
+
+385
+00:07:38,080 --> 00:07:40,309
+lumps one thing meat plus one okay
+meat plus one so start from meat plus
+
+386
+00:07:40,309 --> 00:07:40,319
+meat plus one so start from meat plus
+ 
+
+387
+00:07:40,319 --> 00:07:41,430
+meat plus one so start from meat plus
+one
+
+388
+00:07:41,430 --> 00:07:41,440
+one
+ 
+
+389
+00:07:41,440 --> 00:07:43,430
+one
+column that's it you don't need to
+
+390
+00:07:43,430 --> 00:07:43,440
+column that's it you don't need to
+ 
+
+391
+00:07:43,440 --> 00:07:44,550
+column that's it you don't need to
+specify the grains
+
+392
+00:07:44,550 --> 00:07:44,560
+specify the grains
+ 
+
+393
+00:07:44,560 --> 00:07:48,390
+specify the grains
+actually look you numbs from
+
+394
+00:07:48,390 --> 00:07:48,400
+actually look you numbs from
+ 
+
+395
+00:07:48,400 --> 00:07:52,070
+actually look you numbs from
+column 2 so this 2 is not
+
+396
+00:07:52,070 --> 00:07:52,080
+column 2 so this 2 is not
+ 
+
+397
+00:07:52,080 --> 00:07:55,670
+column 2 so this 2 is not
+is it's not equal right for example 1 to
+
+398
+00:07:55,670 --> 00:07:55,680
+is it's not equal right for example 1 to
+ 
+
+399
+00:07:55,680 --> 00:07:59,510
+is it's not equal right for example 1 to
+3 it will be one two not including three
+
+400
+00:07:59,510 --> 00:07:59,520
+3 it will be one two not including three
+ 
+
+401
+00:07:59,520 --> 00:07:59,909
+3 it will be one two not including three
+okay
+
+402
+00:07:59,909 --> 00:07:59,919
+okay
+ 
+
+403
+00:07:59,919 --> 00:08:03,189
+okay
+up to three not including yeah so from
+
+404
+00:08:03,189 --> 00:08:03,199
+up to three not including yeah so from
+ 
+
+405
+00:08:03,199 --> 00:08:06,550
+up to three not including yeah so from
+from anything up to mid not included
+
+406
+00:08:06,550 --> 00:08:06,560
+from anything up to mid not included
+ 
+
+407
+00:08:06,560 --> 00:08:07,029
+from anything up to mid not included
+mean
+
+408
+00:08:07,029 --> 00:08:07,039
+mean
+ 
+
+409
+00:08:07,039 --> 00:08:09,270
+mean
+from mid plus one up to the end not
+
+410
+00:08:09,270 --> 00:08:09,280
+from mid plus one up to the end not
+ 
+
+411
+00:08:09,280 --> 00:08:10,070
+from mid plus one up to the end not
+including n
+
+412
+00:08:10,070 --> 00:08:10,080
+including n
+ 
+
+413
+00:08:10,080 --> 00:08:13,350
+including n
+yeah that's okay so then this is
+
+414
+00:08:13,350 --> 00:08:13,360
+yeah that's okay so then this is
+ 
+
+415
+00:08:13,360 --> 00:08:16,790
+yeah that's okay so then this is
+nums need plus one yeah
+
+416
+00:08:16,790 --> 00:08:16,800
+nums need plus one yeah
+ 
+
+417
+00:08:16,800 --> 00:08:20,070
+nums need plus one yeah
+and then we turn what we answer
+
+418
+00:08:20,070 --> 00:08:20,080
+and then we turn what we answer
+ 
+
+419
+00:08:20,080 --> 00:08:22,390
+and then we turn what we answer
+wait yeah we are building this little
+
+420
+00:08:22,390 --> 00:08:22,400
+wait yeah we are building this little
+ 
+
+421
+00:08:22,400 --> 00:08:24,230
+wait yeah we are building this little
+note
+
+422
+00:08:24,230 --> 00:08:24,240
+note
+ 
+
+423
+00:08:24,240 --> 00:08:27,350
+note
+okay so that's it let's see uh how we
+
+424
+00:08:27,350 --> 00:08:27,360
+okay so that's it let's see uh how we
+ 
+
+425
+00:08:27,360 --> 00:08:28,710
+okay so that's it let's see uh how we
+building this tea
+
+426
+00:08:28,710 --> 00:08:28,720
+building this tea
+ 
+
+427
+00:08:28,720 --> 00:08:32,709
+building this tea
+and can you tell me how many recursions
+
+428
+00:08:32,709 --> 00:08:32,719
+and can you tell me how many recursions
+ 
+
+429
+00:08:32,719 --> 00:08:34,389
+and can you tell me how many recursions
+are there
+
+430
+00:08:34,389 --> 00:08:34,399
+are there
+ 
+
+431
+00:08:34,399 --> 00:08:36,790
+are there
+again i asking i'm asking this question
+
+432
+00:08:36,790 --> 00:08:36,800
+again i asking i'm asking this question
+ 
+
+433
+00:08:36,800 --> 00:08:37,990
+again i asking i'm asking this question
+again three
+
+434
+00:08:37,990 --> 00:08:38,000
+again three
+ 
+
+435
+00:08:38,000 --> 00:08:41,110
+again three
+weighs three where's three why do we two
+
+436
+00:08:41,110 --> 00:08:41,120
+weighs three where's three why do we two
+ 
+
+437
+00:08:41,120 --> 00:08:43,509
+weighs three where's three why do we two
+yes building the left tree and building
+
+438
+00:08:43,509 --> 00:08:43,519
+yes building the left tree and building
+ 
+
+439
+00:08:43,519 --> 00:08:45,110
+yes building the left tree and building
+the right tree look we divide this
+
+440
+00:08:45,110 --> 00:08:45,120
+the right tree look we divide this
+ 
+
+441
+00:08:45,120 --> 00:08:47,269
+the right tree look we divide this
+problem into two small sub problems
+
+442
+00:08:47,269 --> 00:08:47,279
+problem into two small sub problems
+ 
+
+443
+00:08:47,279 --> 00:08:50,310
+problem into two small sub problems
+which again we can recursively build it
+
+444
+00:08:50,310 --> 00:08:50,320
+which again we can recursively build it
+ 
+
+445
+00:08:50,320 --> 00:08:52,470
+which again we can recursively build it
+right this is building and for a
+
+446
+00:08:52,470 --> 00:08:52,480
+right this is building and for a
+ 
+
+447
+00:08:52,480 --> 00:08:54,949
+right this is building and for a
+recursion to work we need to specify the
+
+448
+00:08:54,949 --> 00:08:54,959
+recursion to work we need to specify the
+ 
+
+449
+00:08:54,959 --> 00:08:56,790
+recursion to work we need to specify the
+terminal condition which is
+
+450
+00:08:56,790 --> 00:08:56,800
+terminal condition which is
+ 
+
+451
+00:08:56,800 --> 00:08:58,470
+terminal condition which is
+if we don't specify this what will
+
+452
+00:08:58,470 --> 00:08:58,480
+if we don't specify this what will
+ 
+
+453
+00:08:58,480 --> 00:09:00,150
+if we don't specify this what will
+happen you are
+
+454
+00:09:00,150 --> 00:09:00,160
+happen you are
+ 
+
+455
+00:09:00,160 --> 00:09:03,269
+happen you are
+in in differently calling itself itself
+
+456
+00:09:03,269 --> 00:09:03,279
+in in differently calling itself itself
+ 
+
+457
+00:09:03,279 --> 00:09:04,070
+in in differently calling itself itself
+is there and
+
+458
+00:09:04,070 --> 00:09:04,080
+is there and
+ 
+
+459
+00:09:04,080 --> 00:09:07,110
+is there and
+but it doesn't know how to stop right
+
+460
+00:09:07,110 --> 00:09:07,120
+but it doesn't know how to stop right
+ 
+
+461
+00:09:07,120 --> 00:09:09,750
+but it doesn't know how to stop right
+am right if you don't specify this then
+
+462
+00:09:09,750 --> 00:09:09,760
+am right if you don't specify this then
+ 
+
+463
+00:09:09,760 --> 00:09:11,910
+am right if you don't specify this then
+you call yourself again itself you say
+
+464
+00:09:11,910 --> 00:09:11,920
+you call yourself again itself you say
+ 
+
+465
+00:09:11,920 --> 00:09:15,670
+you call yourself again itself you say
+itself until computer dies do you get it
+
+466
+00:09:15,670 --> 00:09:15,680
+itself until computer dies do you get it
+ 
+
+467
+00:09:15,680 --> 00:09:17,670
+itself until computer dies do you get it
+yeah so we need to tell you if the
+
+468
+00:09:17,670 --> 00:09:17,680
+yeah so we need to tell you if the
+ 
+
+469
+00:09:17,680 --> 00:09:19,190
+yeah so we need to tell you if the
+number is empty then
+
+470
+00:09:19,190 --> 00:09:19,200
+number is empty then
+ 
+
+471
+00:09:19,200 --> 00:09:22,470
+number is empty then
+you just give me a noun right
+
+472
+00:09:22,470 --> 00:09:22,480
+you just give me a noun right
+ 
+
+473
+00:09:22,480 --> 00:09:24,070
+you just give me a noun right
+then you will stop that and it will come
+
+474
+00:09:24,070 --> 00:09:24,080
+then you will stop that and it will come
+ 
+
+475
+00:09:24,080 --> 00:09:25,829
+then you will stop that and it will come
+back you will build it build
+
+476
+00:09:25,829 --> 00:09:25,839
+back you will build it build
+ 
+
+477
+00:09:25,839 --> 00:09:28,949
+back you will build it build
+this building step by step you get it
+
+478
+00:09:28,949 --> 00:09:28,959
+this building step by step you get it
+ 
+
+479
+00:09:28,959 --> 00:09:32,230
+this building step by step you get it
+yeah this is top bottom top button from
+
+480
+00:09:32,230 --> 00:09:32,240
+yeah this is top bottom top button from
+ 
+
+481
+00:09:32,240 --> 00:09:34,150
+yeah this is top bottom top button from
+the top bottom recursion yeah
+
+482
+00:09:34,150 --> 00:09:34,160
+the top bottom recursion yeah
+ 
+
+483
+00:09:34,160 --> 00:09:36,470
+the top bottom recursion yeah
+look we pick we pick the one in the
+
+484
+00:09:36,470 --> 00:09:36,480
+look we pick we pick the one in the
+ 
+
+485
+00:09:36,480 --> 00:09:37,269
+look we pick we pick the one in the
+middle
+
+486
+00:09:37,269 --> 00:09:37,279
+middle
+ 
+
+487
+00:09:37,279 --> 00:09:40,230
+middle
+right yeah we pick the one in the middle
+
+488
+00:09:40,230 --> 00:09:40,240
+right yeah we pick the one in the middle
+ 
+
+489
+00:09:40,240 --> 00:09:40,710
+right yeah we pick the one in the middle
+then
+
+490
+00:09:40,710 --> 00:09:40,720
+then
+ 
+
+491
+00:09:40,720 --> 00:09:43,190
+then
+we know because we salted this we know
+
+492
+00:09:43,190 --> 00:09:43,200
+we know because we salted this we know
+ 
+
+493
+00:09:43,200 --> 00:09:44,389
+we know because we salted this we know
+the left three
+
+494
+00:09:44,389 --> 00:09:44,399
+the left three
+ 
+
+495
+00:09:44,399 --> 00:09:47,350
+the left three
+the nose are before this meter now right
+
+496
+00:09:47,350 --> 00:09:47,360
+the nose are before this meter now right
+ 
+
+497
+00:09:47,360 --> 00:09:49,430
+the nose are before this meter now right
+and the right trees
+
+498
+00:09:49,430 --> 00:09:49,440
+and the right trees
+ 
+
+499
+00:09:49,440 --> 00:09:52,870
+and the right trees
+are after the middle right yeah and then
+
+500
+00:09:52,870 --> 00:09:52,880
+are after the middle right yeah and then
+ 
+
+501
+00:09:52,880 --> 00:09:53,750
+are after the middle right yeah and then
+we know this
+
+502
+00:09:53,750 --> 00:09:53,760
+we know this
+ 
+
+503
+00:09:53,760 --> 00:09:56,150
+we know this
+left tree left three again it's a tree
+
+504
+00:09:56,150 --> 00:09:56,160
+left tree left three again it's a tree
+ 
+
+505
+00:09:56,160 --> 00:09:57,990
+left tree left three again it's a tree
+right and we can we can pick the middle
+
+506
+00:09:57,990 --> 00:09:58,000
+right and we can we can pick the middle
+ 
+
+507
+00:09:58,000 --> 00:10:00,230
+right and we can we can pick the middle
+note in the left tree
+
+508
+00:10:00,230 --> 00:10:00,240
+note in the left tree
+ 
+
+509
+00:10:00,240 --> 00:10:02,310
+note in the left tree
+in the middle yeah we can always pick
+
+510
+00:10:02,310 --> 00:10:02,320
+in the middle yeah we can always pick
+ 
+
+511
+00:10:02,320 --> 00:10:03,350
+in the middle yeah we can always pick
+the middle and then
+
+512
+00:10:03,350 --> 00:10:03,360
+the middle and then
+ 
+
+513
+00:10:03,360 --> 00:10:07,509
+the middle and then
+separate it into left and right okay
+
+514
+00:10:07,509 --> 00:10:07,519
+separate it into left and right okay
+ 
+
+515
+00:10:07,519 --> 00:10:11,110
+separate it into left and right okay
+do you get it do you see it
+
+516
+00:10:11,110 --> 00:10:11,120
+do you get it do you see it
+ 
+
+517
+00:10:11,120 --> 00:10:14,710
+do you get it do you see it
+yeah yes i see it
+
+518
+00:10:14,710 --> 00:10:14,720
+yeah yes i see it
+ 
+
+519
+00:10:14,720 --> 00:10:28,190
+yeah yes i see it
+okay okay that's it for today
+
+520
+00:10:28,190 --> 00:10:28,200
+
+ 
+
+521
+00:10:28,200 --> 00:10:31,200
+
+okay
+
