@@ -1,0 +1,2825 @@
+1
+00:00:01,710 --> 00:00:07,909
+
+[Music]
+
+2
+00:00:07,909 --> 00:00:07,919
+
+ 
+
+3
+00:00:07,919 --> 00:00:09,509
+
+okay
+
+4
+00:00:09,509 --> 00:00:09,519
+okay
+ 
+
+5
+00:00:09,519 --> 00:00:12,629
+okay
+so today um we talk about
+
+6
+00:00:12,629 --> 00:00:12,639
+so today um we talk about
+ 
+
+7
+00:00:12,639 --> 00:00:15,910
+so today um we talk about
+something fundamental in python
+
+8
+00:00:15,910 --> 00:00:15,920
+something fundamental in python
+ 
+
+9
+00:00:15,920 --> 00:00:19,269
+something fundamental in python
+we introduced two functions
+
+10
+00:00:19,269 --> 00:00:19,279
+we introduced two functions
+ 
+
+11
+00:00:19,279 --> 00:00:22,710
+we introduced two functions
+one is called zip yeah
+
+12
+00:00:22,710 --> 00:00:22,720
+one is called zip yeah
+ 
+
+13
+00:00:22,720 --> 00:00:25,750
+one is called zip yeah
+is it what's chip i like
+
+14
+00:00:25,750 --> 00:00:25,760
+is it what's chip i like
+ 
+
+15
+00:00:25,760 --> 00:00:27,750
+is it what's chip i like
+what you have on your code yeah your
+
+16
+00:00:27,750 --> 00:00:27,760
+what you have on your code yeah your
+ 
+
+17
+00:00:27,760 --> 00:00:29,349
+what you have on your code yeah your
+encoder you zip
+
+18
+00:00:29,349 --> 00:00:29,359
+encoder you zip
+ 
+
+19
+00:00:29,359 --> 00:00:33,510
+encoder you zip
+yeah and also a similar
+
+20
+00:00:33,510 --> 00:00:33,520
+yeah and also a similar
+ 
+
+21
+00:00:33,520 --> 00:00:37,270
+yeah and also a similar
+cheap long list okay
+
+22
+00:00:37,270 --> 00:00:37,280
+cheap long list okay
+ 
+
+23
+00:00:37,280 --> 00:00:40,310
+cheap long list okay
+so this is deep for short shortest and
+
+24
+00:00:40,310 --> 00:00:40,320
+so this is deep for short shortest and
+ 
+
+25
+00:00:40,320 --> 00:00:41,110
+so this is deep for short shortest and
+then we have
+
+26
+00:00:41,110 --> 00:00:41,120
+then we have
+ 
+
+27
+00:00:41,120 --> 00:00:43,990
+then we have
+two longest longest so what's tip uh
+
+28
+00:00:43,990 --> 00:00:44,000
+two longest longest so what's tip uh
+ 
+
+29
+00:00:44,000 --> 00:00:44,790
+two longest longest so what's tip uh
+let's see this
+
+30
+00:00:44,790 --> 00:00:44,800
+let's see this
+ 
+
+31
+00:00:44,800 --> 00:00:48,229
+let's see this
+a is one two
+
+32
+00:00:48,229 --> 00:00:48,239
+a is one two
+ 
+
+33
+00:00:48,239 --> 00:00:51,670
+a is one two
+three four a list okay
+
+34
+00:00:51,670 --> 00:00:51,680
+three four a list okay
+ 
+
+35
+00:00:51,680 --> 00:00:55,750
+three four a list okay
+oh and then b equals
+
+36
+00:00:55,750 --> 00:00:55,760
+oh and then b equals
+ 
+
+37
+00:00:55,760 --> 00:00:58,790
+oh and then b equals
+five six seven
+
+38
+00:00:58,790 --> 00:00:58,800
+five six seven
+ 
+
+39
+00:00:58,800 --> 00:01:02,470
+five six seven
+eight nine okay let's add one more
+
+40
+00:01:02,470 --> 00:01:02,480
+eight nine okay let's add one more
+ 
+
+41
+00:01:02,480 --> 00:01:03,430
+eight nine okay let's add one more
+element
+
+42
+00:01:03,430 --> 00:01:03,440
+element
+ 
+
+43
+00:01:03,440 --> 00:01:07,830
+element
+so we have zip
+
+44
+00:01:07,830 --> 00:01:07,840
+
+ 
+
+45
+00:01:07,840 --> 00:01:11,030
+
+a b what does it return can you make a
+
+46
+00:01:11,030 --> 00:01:11,040
+a b what does it return can you make a
+ 
+
+47
+00:01:11,040 --> 00:01:13,350
+a b what does it return can you make a
+guess
+
+48
+00:01:13,350 --> 00:01:13,360
+guess
+ 
+
+49
+00:01:13,360 --> 00:01:18,870
+guess
+yeah what does it mean
+
+50
+00:01:18,870 --> 00:01:18,880
+
+ 
+
+51
+00:01:18,880 --> 00:01:22,149
+
+no so what does zip do
+
+52
+00:01:22,149 --> 00:01:22,159
+no so what does zip do
+ 
+
+53
+00:01:22,159 --> 00:01:25,350
+no so what does zip do
+can you make a guess close it can you
+
+54
+00:01:25,350 --> 00:01:25,360
+can you make a guess close it can you
+ 
+
+55
+00:01:25,360 --> 00:01:26,149
+can you make a guess close it can you
+make a guess what
+
+56
+00:01:26,149 --> 00:01:26,159
+make a guess what
+ 
+
+57
+00:01:26,159 --> 00:01:29,910
+make a guess what
+zip them two sides meet each other yeah
+
+58
+00:01:29,910 --> 00:01:29,920
+zip them two sides meet each other yeah
+ 
+
+59
+00:01:29,920 --> 00:01:34,789
+zip them two sides meet each other yeah
+yeah yeah so zip your return
+
+60
+00:01:34,789 --> 00:01:34,799
+yeah yeah so zip your return
+ 
+
+61
+00:01:34,799 --> 00:01:36,789
+yeah yeah so zip your return
+it's a generator which i've mentioned
+
+62
+00:01:36,789 --> 00:01:36,799
+it's a generator which i've mentioned
+ 
+
+63
+00:01:36,799 --> 00:01:39,109
+it's a generator which i've mentioned
+later but it eventually will become like
+
+64
+00:01:39,109 --> 00:01:39,119
+later but it eventually will become like
+ 
+
+65
+00:01:39,119 --> 00:01:39,510
+later but it eventually will become like
+that
+
+66
+00:01:39,510 --> 00:01:39,520
+that
+ 
+
+67
+00:01:39,520 --> 00:01:42,230
+that
+one comma five this is a two player it's
+
+68
+00:01:42,230 --> 00:01:42,240
+one comma five this is a two player it's
+ 
+
+69
+00:01:42,240 --> 00:01:43,030
+one comma five this is a two player it's
+like a list
+
+70
+00:01:43,030 --> 00:01:43,040
+like a list
+ 
+
+71
+00:01:43,040 --> 00:01:47,190
+like a list
+but it's immutable you're not immutable
+
+72
+00:01:47,190 --> 00:01:47,200
+but it's immutable you're not immutable
+ 
+
+73
+00:01:47,200 --> 00:01:50,469
+but it's immutable you're not immutable
+you know what's this mean no
+
+74
+00:01:50,469 --> 00:01:50,479
+you know what's this mean no
+ 
+
+75
+00:01:50,479 --> 00:01:53,510
+you know what's this mean no
+mutable what does it mean
+
+76
+00:01:53,510 --> 00:01:53,520
+mutable what does it mean
+ 
+
+77
+00:01:53,520 --> 00:01:55,830
+mutable what does it mean
+mutable means the change you can change
+
+78
+00:01:55,830 --> 00:01:55,840
+mutable means the change you can change
+ 
+
+79
+00:01:55,840 --> 00:01:58,709
+mutable means the change you can change
+it immutable means you can't change it
+
+80
+00:01:58,709 --> 00:01:58,719
+it immutable means you can't change it
+ 
+
+81
+00:01:58,719 --> 00:02:02,149
+it immutable means you can't change it
+yeah one five it's like a list you can
+
+82
+00:02:02,149 --> 00:02:02,159
+yeah one five it's like a list you can
+ 
+
+83
+00:02:02,159 --> 00:02:04,950
+yeah one five it's like a list you can
+if this is you can change it you can say
+
+84
+00:02:04,950 --> 00:02:04,960
+if this is you can change it you can say
+ 
+
+85
+00:02:04,960 --> 00:02:06,149
+if this is you can change it you can say
+if this is
+
+86
+00:02:06,149 --> 00:02:06,159
+if this is
+ 
+
+87
+00:02:06,159 --> 00:02:09,589
+if this is
+a0 equals 2 then you can change it you
+
+88
+00:02:09,589 --> 00:02:09,599
+a0 equals 2 then you can change it you
+ 
+
+89
+00:02:09,599 --> 00:02:12,869
+a0 equals 2 then you can change it you
+what does this happen when a 0 equals 2
+
+90
+00:02:12,869 --> 00:02:12,879
+what does this happen when a 0 equals 2
+ 
+
+91
+00:02:12,879 --> 00:02:14,630
+what does this happen when a 0 equals 2
+then you can change it yeah
+
+92
+00:02:14,630 --> 00:02:14,640
+then you can change it yeah
+ 
+
+93
+00:02:14,640 --> 00:02:16,630
+then you can change it yeah
+yeah but at least you can't change it
+
+94
+00:02:16,630 --> 00:02:16,640
+yeah but at least you can't change it
+ 
+
+95
+00:02:16,640 --> 00:02:17,910
+yeah but at least you can't change it
+one is a 1
+
+96
+00:02:17,910 --> 00:02:17,920
+one is a 1
+ 
+
+97
+00:02:17,920 --> 00:02:20,150
+one is a 1
+5 you can't do this because it's
+
+98
+00:02:20,150 --> 00:02:20,160
+5 you can't do this because it's
+ 
+
+99
+00:02:20,160 --> 00:02:21,589
+5 you can't do this because it's
+immutable okay
+
+100
+00:02:21,589 --> 00:02:21,599
+immutable okay
+ 
+
+101
+00:02:21,599 --> 00:02:24,470
+immutable okay
+so why it's just the symbol this is
+
+102
+00:02:24,470 --> 00:02:24,480
+so why it's just the symbol this is
+ 
+
+103
+00:02:24,480 --> 00:02:25,990
+so why it's just the symbol this is
+called tupa
+
+104
+00:02:25,990 --> 00:02:26,000
+called tupa
+ 
+
+105
+00:02:26,000 --> 00:02:29,030
+called tupa
+t-u-p-l means
+
+106
+00:02:29,030 --> 00:02:29,040
+t-u-p-l means
+ 
+
+107
+00:02:29,040 --> 00:02:32,070
+t-u-p-l means
+okay so one five comma
+
+108
+00:02:32,070 --> 00:02:32,080
+okay so one five comma
+ 
+
+109
+00:02:32,080 --> 00:02:35,280
+okay so one five comma
+two six comma one what's
+
+110
+00:02:35,280 --> 00:02:35,290
+two six comma one what's
+ 
+
+111
+00:02:35,290 --> 00:02:44,949
+two six comma one what's
+[Music]
+
+112
+00:02:44,949 --> 00:02:44,959
+
+ 
+
+113
+00:02:44,959 --> 00:02:48,630
+
+so this is zip to get it so you take one
+
+114
+00:02:48,630 --> 00:02:48,640
+so this is zip to get it so you take one
+ 
+
+115
+00:02:48,640 --> 00:02:50,550
+so this is zip to get it so you take one
+animal from each
+
+116
+00:02:50,550 --> 00:02:50,560
+animal from each
+ 
+
+117
+00:02:50,560 --> 00:02:52,229
+animal from each
+and then you put it as a two part a
+
+118
+00:02:52,229 --> 00:02:52,239
+and then you put it as a two part a
+ 
+
+119
+00:02:52,239 --> 00:02:54,630
+and then you put it as a two part a
+group and then
+
+120
+00:02:54,630 --> 00:02:54,640
+group and then
+ 
+
+121
+00:02:54,640 --> 00:02:56,470
+group and then
+chip longest can you make a guess what's
+
+122
+00:02:56,470 --> 00:02:56,480
+chip longest can you make a guess what's
+ 
+
+123
+00:02:56,480 --> 00:03:00,149
+chip longest can you make a guess what's
+the difference between cheap longest
+
+124
+00:03:00,149 --> 00:03:00,159
+
+ 
+
+125
+00:03:00,159 --> 00:03:08,390
+
+and a b what does everything
+
+126
+00:03:08,390 --> 00:03:08,400
+
+ 
+
+127
+00:03:08,400 --> 00:03:10,949
+
+no four a we got a four a here but zip
+
+128
+00:03:10,949 --> 00:03:10,959
+no four a we got a four a here but zip
+ 
+
+129
+00:03:10,959 --> 00:03:11,589
+no four a we got a four a here but zip
+longest
+
+130
+00:03:11,589 --> 00:03:11,599
+longest
+ 
+
+131
+00:03:11,599 --> 00:03:14,070
+longest
+you were according to the next longest
+
+132
+00:03:14,070 --> 00:03:14,080
+you were according to the next longest
+ 
+
+133
+00:03:14,080 --> 00:03:15,750
+you were according to the next longest
+which is four nine
+
+134
+00:03:15,750 --> 00:03:15,760
+which is four nine
+ 
+
+135
+00:03:15,760 --> 00:03:18,309
+which is four nine
+no no no you're quite close so you
+
+136
+00:03:18,309 --> 00:03:18,319
+no no no you're quite close so you
+ 
+
+137
+00:03:18,319 --> 00:03:20,070
+no no no you're quite close so you
+eventually will become a lung here
+
+138
+00:03:20,070 --> 00:03:20,080
+eventually will become a lung here
+ 
+
+139
+00:03:20,080 --> 00:03:22,070
+eventually will become a lung here
+because there's no element here yeah
+
+140
+00:03:22,070 --> 00:03:22,080
+because there's no element here yeah
+ 
+
+141
+00:03:22,080 --> 00:03:25,430
+because there's no element here yeah
+then you'll become a nung knight
+
+142
+00:03:25,430 --> 00:03:25,440
+then you'll become a nung knight
+ 
+
+143
+00:03:25,440 --> 00:03:28,550
+then you'll become a nung knight
+okay yeah it doesn't make sense yes
+
+144
+00:03:28,550 --> 00:03:28,560
+okay yeah it doesn't make sense yes
+ 
+
+145
+00:03:28,560 --> 00:03:31,589
+okay yeah it doesn't make sense yes
+longest add one more animal okay okay so
+
+146
+00:03:31,589 --> 00:03:31,599
+longest add one more animal okay okay so
+ 
+
+147
+00:03:31,599 --> 00:03:31,990
+longest add one more animal okay okay so
+let's
+
+148
+00:03:31,990 --> 00:03:32,000
+let's
+ 
+
+149
+00:03:32,000 --> 00:03:33,830
+let's
+implement these two functions okay you
+
+150
+00:03:33,830 --> 00:03:33,840
+implement these two functions okay you
+ 
+
+151
+00:03:33,840 --> 00:03:36,070
+implement these two functions okay you
+can do no none
+
+152
+00:03:36,070 --> 00:03:36,080
+can do no none
+ 
+
+153
+00:03:36,080 --> 00:03:38,630
+can do no none
+yeah and then it's opposite ba if it's
+
+154
+00:03:38,630 --> 00:03:38,640
+yeah and then it's opposite ba if it's
+ 
+
+155
+00:03:38,640 --> 00:03:40,630
+yeah and then it's opposite ba if it's
+zip longest ba
+
+156
+00:03:40,630 --> 00:03:40,640
+zip longest ba
+ 
+
+157
+00:03:40,640 --> 00:03:44,390
+zip longest ba
+yeah so like defined let's do a zip
+
+158
+00:03:44,390 --> 00:03:44,400
+yeah so like defined let's do a zip
+ 
+
+159
+00:03:44,400 --> 00:03:48,550
+yeah so like defined let's do a zip
+function a b so first of all we want to
+
+160
+00:03:48,550 --> 00:03:48,560
+function a b so first of all we want to
+ 
+
+161
+00:03:48,560 --> 00:03:51,670
+function a b so first of all we want to
+blend the length yeah
+
+162
+00:03:51,670 --> 00:03:51,680
+blend the length yeah
+ 
+
+163
+00:03:51,680 --> 00:03:55,030
+blend the length yeah
+the length length will become
+
+164
+00:03:55,030 --> 00:03:55,040
+the length length will become
+ 
+
+165
+00:03:55,040 --> 00:03:58,070
+the length length will become
+mean of these two right
+
+166
+00:03:58,070 --> 00:03:58,080
+mean of these two right
+ 
+
+167
+00:03:58,080 --> 00:04:01,910
+mean of these two right
+lens a and comma lens b so now
+
+168
+00:04:01,910 --> 00:04:01,920
+lens a and comma lens b so now
+ 
+
+169
+00:04:01,920 --> 00:04:05,270
+lens a and comma lens b so now
+i will have this small list yeah
+
+170
+00:04:05,270 --> 00:04:05,280
+i will have this small list yeah
+ 
+
+171
+00:04:05,280 --> 00:04:07,990
+i will have this small list yeah
+and i can have this the answer if i
+
+172
+00:04:07,990 --> 00:04:08,000
+and i can have this the answer if i
+ 
+
+173
+00:04:08,000 --> 00:04:09,190
+and i can have this the answer if i
+convert it to a list
+
+174
+00:04:09,190 --> 00:04:09,200
+convert it to a list
+ 
+
+175
+00:04:09,200 --> 00:04:12,830
+convert it to a list
+yeah for i in
+
+176
+00:04:12,830 --> 00:04:12,840
+yeah for i in
+ 
+
+177
+00:04:12,840 --> 00:04:16,629
+yeah for i in
+range aira right
+
+178
+00:04:16,629 --> 00:04:16,639
+range aira right
+ 
+
+179
+00:04:16,639 --> 00:04:20,150
+range aira right
+yes because the mod is the answer
+
+180
+00:04:20,150 --> 00:04:20,160
+yes because the mod is the answer
+ 
+
+181
+00:04:20,160 --> 00:04:23,830
+yes because the mod is the answer
+drop a pen open what
+
+182
+00:04:23,830 --> 00:04:23,840
+drop a pen open what
+ 
+
+183
+00:04:23,840 --> 00:04:26,150
+drop a pen open what
+a tuper yeah you can another bracket and
+
+184
+00:04:26,150 --> 00:04:26,160
+a tuper yeah you can another bracket and
+ 
+
+185
+00:04:26,160 --> 00:04:34,120
+a tuper yeah you can another bracket and
+wow
+
+186
+00:04:34,120 --> 00:04:34,130
+
+ 
+
+187
+00:04:34,130 --> 00:04:38,150
+
+[Music]
+
+188
+00:04:38,150 --> 00:04:38,160
+
+ 
+
+189
+00:04:38,160 --> 00:04:42,070
+
+and then
+
+190
+00:04:42,070 --> 00:04:42,080
+and then
+ 
+
+191
+00:04:42,080 --> 00:04:45,510
+and then
+return answer yeah this is returning at
+
+192
+00:04:45,510 --> 00:04:45,520
+return answer yeah this is returning at
+ 
+
+193
+00:04:45,520 --> 00:04:46,870
+return answer yeah this is returning at
+least but in the
+
+194
+00:04:46,870 --> 00:04:46,880
+least but in the
+ 
+
+195
+00:04:46,880 --> 00:04:49,510
+least but in the
+in python it's not retaining a piece in
+
+196
+00:04:49,510 --> 00:04:49,520
+in python it's not retaining a piece in
+ 
+
+197
+00:04:49,520 --> 00:04:51,670
+in python it's not retaining a piece in
+person you if you do it this way
+
+198
+00:04:51,670 --> 00:04:51,680
+person you if you do it this way
+ 
+
+199
+00:04:51,680 --> 00:04:53,830
+person you if you do it this way
+it's not a list you have to convert it
+
+200
+00:04:53,830 --> 00:04:53,840
+it's not a list you have to convert it
+ 
+
+201
+00:04:53,840 --> 00:04:55,990
+it's not a list you have to convert it
+because this is called the generator
+
+202
+00:04:55,990 --> 00:04:56,000
+because this is called the generator
+ 
+
+203
+00:04:56,000 --> 00:04:58,390
+because this is called the generator
+so basically we are not returning here
+
+204
+00:04:58,390 --> 00:04:58,400
+so basically we are not returning here
+ 
+
+205
+00:04:58,400 --> 00:04:59,749
+so basically we are not returning here
+because we know returning we are
+
+206
+00:04:59,749 --> 00:04:59,759
+because we know returning we are
+ 
+
+207
+00:04:59,759 --> 00:05:01,350
+because we know returning we are
+returning the entire list
+
+208
+00:05:01,350 --> 00:05:01,360
+returning the entire list
+ 
+
+209
+00:05:01,360 --> 00:05:03,430
+returning the entire list
+this this thing will return one at a
+
+210
+00:05:03,430 --> 00:05:03,440
+this this thing will return one at a
+ 
+
+211
+00:05:03,440 --> 00:05:05,029
+this this thing will return one at a
+time so we remove these
+
+212
+00:05:05,029 --> 00:05:05,039
+time so we remove these
+ 
+
+213
+00:05:05,039 --> 00:05:07,350
+time so we remove these
+and we don't need this and then we don't
+
+214
+00:05:07,350 --> 00:05:07,360
+and we don't need this and then we don't
+ 
+
+215
+00:05:07,360 --> 00:05:09,189
+and we don't need this and then we don't
+need it but we we are retaining that so
+
+216
+00:05:09,189 --> 00:05:09,199
+need it but we we are retaining that so
+ 
+
+217
+00:05:09,199 --> 00:05:11,670
+need it but we we are retaining that so
+we call it another keyword called yet
+
+218
+00:05:11,670 --> 00:05:11,680
+we call it another keyword called yet
+ 
+
+219
+00:05:11,680 --> 00:05:12,070
+we call it another keyword called yet
+what's
+
+220
+00:05:12,070 --> 00:05:12,080
+what's
+ 
+
+221
+00:05:12,080 --> 00:05:15,590
+what's
+yet why yeah yeah so every time
+
+222
+00:05:15,590 --> 00:05:15,600
+yet why yeah yeah so every time
+ 
+
+223
+00:05:15,600 --> 00:05:17,670
+yet why yeah yeah so every time
+i give it yeah yeah i give you one
+
+224
+00:05:17,670 --> 00:05:17,680
+i give it yeah yeah i give you one
+ 
+
+225
+00:05:17,680 --> 00:05:20,150
+i give it yeah yeah i give you one
+element and then you can use it as
+
+226
+00:05:20,150 --> 00:05:20,160
+element and then you can use it as
+ 
+
+227
+00:05:20,160 --> 00:05:24,629
+element and then you can use it as
+you know you can use this for i
+
+228
+00:05:24,629 --> 00:05:24,639
+
+ 
+
+229
+00:05:24,639 --> 00:05:26,469
+
+and then every time you give me a
+
+230
+00:05:26,469 --> 00:05:26,479
+and then every time you give me a
+ 
+
+231
+00:05:26,479 --> 00:05:27,909
+and then every time you give me a
+element okay
+
+232
+00:05:27,909 --> 00:05:27,919
+element okay
+ 
+
+233
+00:05:27,919 --> 00:05:31,350
+element okay
+the longest okay now the longest one
+
+234
+00:05:31,350 --> 00:05:31,360
+the longest okay now the longest one
+ 
+
+235
+00:05:31,360 --> 00:05:34,230
+the longest okay now the longest one
+so i changed this to longest yeah what's
+
+236
+00:05:34,230 --> 00:05:34,240
+so i changed this to longest yeah what's
+ 
+
+237
+00:05:34,240 --> 00:05:41,270
+so i changed this to longest yeah what's
+your turn here
+
+238
+00:05:41,270 --> 00:05:41,280
+
+ 
+
+239
+00:05:41,280 --> 00:05:44,390
+
+but now
+
+240
+00:05:44,390 --> 00:05:44,400
+
+ 
+
+241
+00:05:44,400 --> 00:05:46,790
+
+now we need to do this let's store it a
+
+242
+00:05:46,790 --> 00:05:46,800
+now we need to do this let's store it a
+ 
+
+243
+00:05:46,800 --> 00:05:49,590
+now we need to do this let's store it a
+a equals
+
+244
+00:05:49,590 --> 00:05:49,600
+a equals
+ 
+
+245
+00:05:49,600 --> 00:05:53,350
+a equals
+in that a equals a i
+
+246
+00:05:53,350 --> 00:05:53,360
+in that a equals a i
+ 
+
+247
+00:05:53,360 --> 00:05:56,790
+in that a equals a i
+if i smaller than
+
+248
+00:05:56,790 --> 00:05:56,800
+if i smaller than
+ 
+
+249
+00:05:56,800 --> 00:05:59,830
+if i smaller than
+length a as
+
+250
+00:05:59,830 --> 00:05:59,840
+length a as
+ 
+
+251
+00:05:59,840 --> 00:06:03,110
+length a as
+noun right yeah because
+
+252
+00:06:03,110 --> 00:06:03,120
+noun right yeah because
+ 
+
+253
+00:06:03,120 --> 00:06:05,990
+noun right yeah because
+this i may be bigger than the length
+
+254
+00:06:05,990 --> 00:06:06,000
+this i may be bigger than the length
+ 
+
+255
+00:06:06,000 --> 00:06:07,110
+this i may be bigger than the length
+then we have to
+
+256
+00:06:07,110 --> 00:06:07,120
+then we have to
+ 
+
+257
+00:06:07,120 --> 00:06:10,870
+then we have to
+put it as noun and bb equals
+
+258
+00:06:10,870 --> 00:06:10,880
+put it as noun and bb equals
+ 
+
+259
+00:06:10,880 --> 00:06:14,150
+put it as noun and bb equals
+b i is i
+
+260
+00:06:14,150 --> 00:06:14,160
+b i is i
+ 
+
+261
+00:06:14,160 --> 00:06:19,660
+b i is i
+smaller than length b as what
+
+262
+00:06:19,660 --> 00:06:19,670
+
+ 
+
+263
+00:06:19,670 --> 00:06:33,270
+
+[Music]
+
+264
+00:06:33,270 --> 00:06:33,280
+
+ 
+
+265
+00:06:33,280 --> 00:06:36,710
+
+zip longest you see yeah let's do the
+
+266
+00:06:36,710 --> 00:06:36,720
+zip longest you see yeah let's do the
+ 
+
+267
+00:06:36,720 --> 00:06:37,370
+zip longest you see yeah let's do the
+coding
+
+268
+00:06:37,370 --> 00:06:37,380
+coding
+ 
+
+269
+00:06:37,380 --> 00:06:42,710
+coding
+[Music]
+
+270
+00:06:42,710 --> 00:06:42,720
+
+ 
+
+271
+00:06:42,720 --> 00:06:45,350
+
+maybe do the coding you'll be more clear
+
+272
+00:06:45,350 --> 00:06:45,360
+maybe do the coding you'll be more clear
+ 
+
+273
+00:06:45,360 --> 00:06:46,950
+maybe do the coding you'll be more clear
+yeah
+
+274
+00:06:46,950 --> 00:06:46,960
+yeah
+ 
+
+275
+00:06:46,960 --> 00:06:48,790
+yeah
+can you sit down please can you see that
+
+276
+00:06:48,790 --> 00:06:48,800
+can you sit down please can you see that
+ 
+
+277
+00:06:48,800 --> 00:06:54,950
+can you sit down please can you see that
+please
+
+278
+00:06:54,950 --> 00:06:54,960
+
+ 
+
+279
+00:06:54,960 --> 00:06:58,390
+
+oh no connection here no it's a little
+
+280
+00:06:58,390 --> 00:06:58,400
+oh no connection here no it's a little
+ 
+
+281
+00:06:58,400 --> 00:06:59,589
+oh no connection here no it's a little
+bit
+
+282
+00:06:59,589 --> 00:06:59,599
+bit
+ 
+
+283
+00:06:59,599 --> 00:07:03,589
+bit
+yeah that's very strange
+
+284
+00:07:03,589 --> 00:07:03,599
+yeah that's very strange
+ 
+
+285
+00:07:03,599 --> 00:07:06,629
+yeah that's very strange
+so is it is it okay no no
+
+286
+00:07:06,629 --> 00:07:06,639
+so is it is it okay no no
+ 
+
+287
+00:07:06,639 --> 00:07:11,430
+so is it is it okay no no
+no let me let me move this here
+
+288
+00:07:11,430 --> 00:07:11,440
+
+ 
+
+289
+00:07:11,440 --> 00:07:23,830
+
+okay take some more time
+
+290
+00:07:23,830 --> 00:07:23,840
+
+ 
+
+291
+00:07:23,840 --> 00:07:27,909
+
+a little bit early bloody
+
+292
+00:07:27,909 --> 00:07:27,919
+
+ 
+
+293
+00:07:27,919 --> 00:07:30,550
+
+oh yeah let's korea let's verify it now
+
+294
+00:07:30,550 --> 00:07:30,560
+oh yeah let's korea let's verify it now
+ 
+
+295
+00:07:30,560 --> 00:07:31,430
+oh yeah let's korea let's verify it now
+yeah
+
+296
+00:07:31,430 --> 00:07:31,440
+yeah
+ 
+
+297
+00:07:31,440 --> 00:07:34,710
+yeah
+it's very clear now yeah yeah okay let's
+
+298
+00:07:34,710 --> 00:07:34,720
+it's very clear now yeah yeah okay let's
+ 
+
+299
+00:07:34,720 --> 00:07:35,189
+it's very clear now yeah yeah okay let's
+do it
+
+300
+00:07:35,189 --> 00:07:35,199
+do it
+ 
+
+301
+00:07:35,199 --> 00:07:39,510
+do it
+no i need a couple cup of coffee
+
+302
+00:07:39,510 --> 00:07:39,520
+no i need a couple cup of coffee
+ 
+
+303
+00:07:39,520 --> 00:07:42,070
+no i need a couple cup of coffee
+yeah look at look uh let's do this chip
+
+304
+00:07:42,070 --> 00:07:42,080
+yeah look at look uh let's do this chip
+ 
+
+305
+00:07:42,080 --> 00:07:44,230
+yeah look at look uh let's do this chip
+function first okay look uh
+
+306
+00:07:44,230 --> 00:07:44,240
+function first okay look uh
+ 
+
+307
+00:07:44,240 --> 00:07:46,950
+function first okay look uh
+zip let's get a equals one two three
+
+308
+00:07:46,950 --> 00:07:46,960
+zip let's get a equals one two three
+ 
+
+309
+00:07:46,960 --> 00:07:47,270
+zip let's get a equals one two three
+four
+
+310
+00:07:47,270 --> 00:07:47,280
+four
+ 
+
+311
+00:07:47,280 --> 00:07:50,309
+four
+five okay and b equals
+
+312
+00:07:50,309 --> 00:07:50,319
+five okay and b equals
+ 
+
+313
+00:07:50,319 --> 00:07:53,350
+five okay and b equals
+uh like uh six seven nine
+
+314
+00:07:53,350 --> 00:07:53,360
+uh like uh six seven nine
+ 
+
+315
+00:07:53,360 --> 00:07:55,189
+uh like uh six seven nine
+a okay let's just do this and then you
+
+316
+00:07:55,189 --> 00:07:55,199
+a okay let's just do this and then you
+ 
+
+317
+00:07:55,199 --> 00:07:57,589
+a okay let's just do this and then you
+tell me what's what's the
+
+318
+00:07:57,589 --> 00:07:57,599
+tell me what's what's the
+ 
+
+319
+00:07:57,599 --> 00:08:00,550
+tell me what's what's the
+that i can convert it to list okay let's
+
+320
+00:08:00,550 --> 00:08:00,560
+that i can convert it to list okay let's
+ 
+
+321
+00:08:00,560 --> 00:08:01,350
+that i can convert it to list okay let's
+dip
+
+322
+00:08:01,350 --> 00:08:01,360
+dip
+ 
+
+323
+00:08:01,360 --> 00:08:06,790
+dip
+a b what does it return
+
+324
+00:08:06,790 --> 00:08:06,800
+
+ 
+
+325
+00:08:06,800 --> 00:08:10,150
+
+1 6 1 6 2 7 3 8.
+
+326
+00:08:10,150 --> 00:08:10,160
+1 6 1 6 2 7 3 8.
+ 
+
+327
+00:08:10,160 --> 00:08:13,189
+1 6 1 6 2 7 3 8.
+look you see look yeah yeah
+
+328
+00:08:13,189 --> 00:08:13,199
+look you see look yeah yeah
+ 
+
+329
+00:08:13,199 --> 00:08:16,230
+look you see look yeah yeah
+but because the smallest lens is b yeah
+
+330
+00:08:16,230 --> 00:08:16,240
+but because the smallest lens is b yeah
+ 
+
+331
+00:08:16,240 --> 00:08:19,830
+but because the smallest lens is b yeah
+then i can i need to follow it away to
+
+332
+00:08:19,830 --> 00:08:19,840
+then i can i need to follow it away to
+ 
+
+333
+00:08:19,840 --> 00:08:20,230
+then i can i need to follow it away to
+us
+
+334
+00:08:20,230 --> 00:08:20,240
+us
+ 
+
+335
+00:08:20,240 --> 00:08:22,230
+us
+import because this function is in this
+
+336
+00:08:22,230 --> 00:08:22,240
+import because this function is in this
+ 
+
+337
+00:08:22,240 --> 00:08:24,390
+import because this function is in this
+library long list
+
+338
+00:08:24,390 --> 00:08:24,400
+library long list
+ 
+
+339
+00:08:24,400 --> 00:08:27,510
+library long list
+okay now if i do this it's
+
+340
+00:08:27,510 --> 00:08:27,520
+okay now if i do this it's
+ 
+
+341
+00:08:27,520 --> 00:08:30,869
+okay now if i do this it's
+longest what what's you
+
+342
+00:08:30,869 --> 00:08:30,879
+longest what what's you
+ 
+
+343
+00:08:30,879 --> 00:08:32,790
+longest what what's you
+what what's your line later what's your
+
+344
+00:08:32,790 --> 00:08:32,800
+what what's your line later what's your
+ 
+
+345
+00:08:32,800 --> 00:08:34,709
+what what's your line later what's your
+in return
+
+346
+00:08:34,709 --> 00:08:34,719
+in return
+ 
+
+347
+00:08:34,719 --> 00:08:35,620
+in return
+what would your return
+
+348
+00:08:35,620 --> 00:08:35,630
+what would your return
+ 
+
+349
+00:08:35,630 --> 00:08:37,909
+what would your return
+[Music]
+
+350
+00:08:37,909 --> 00:08:37,919
+[Music]
+ 
+
+351
+00:08:37,919 --> 00:08:43,269
+[Music]
+wait it's still not very clear
+
+352
+00:08:43,269 --> 00:08:43,279
+
+ 
+
+353
+00:08:43,279 --> 00:08:49,350
+
+wait wait wait
+
+354
+00:08:49,350 --> 00:08:49,360
+
+ 
+
+355
+00:08:49,360 --> 00:08:53,030
+
+better better okay
+
+356
+00:08:53,030 --> 00:08:53,040
+better better okay
+ 
+
+357
+00:08:53,040 --> 00:08:56,710
+better better okay
+let's make a guess okay you see
+
+358
+00:08:56,710 --> 00:08:56,720
+let's make a guess okay you see
+ 
+
+359
+00:08:56,720 --> 00:08:59,190
+let's make a guess okay you see
+it adds one two more elements four now
+
+360
+00:08:59,190 --> 00:08:59,200
+it adds one two more elements four now
+ 
+
+361
+00:08:59,200 --> 00:09:00,070
+it adds one two more elements four now
+five now
+
+362
+00:09:00,070 --> 00:09:00,080
+five now
+ 
+
+363
+00:09:00,080 --> 00:09:03,110
+five now
+right you use now to fill the space
+
+364
+00:09:03,110 --> 00:09:03,120
+right you use now to fill the space
+ 
+
+365
+00:09:03,120 --> 00:09:07,110
+right you use now to fill the space
+yeah correct okay
+
+366
+00:09:07,110 --> 00:09:07,120
+yeah correct okay
+ 
+
+367
+00:09:07,120 --> 00:09:10,710
+yeah correct okay
+uh okay let's do this
+
+368
+00:09:10,710 --> 00:09:10,720
+uh okay let's do this
+ 
+
+369
+00:09:10,720 --> 00:09:14,949
+uh okay let's do this
+zip zip the dot py okay let's implement
+
+370
+00:09:14,949 --> 00:09:14,959
+zip zip the dot py okay let's implement
+ 
+
+371
+00:09:14,959 --> 00:09:15,750
+zip zip the dot py okay let's implement
+this
+
+372
+00:09:15,750 --> 00:09:15,760
+this
+ 
+
+373
+00:09:15,760 --> 00:09:18,870
+this
+a equals one two three four five p
+
+374
+00:09:18,870 --> 00:09:18,880
+a equals one two three four five p
+ 
+
+375
+00:09:18,880 --> 00:09:22,150
+a equals one two three four five p
+equals six seven
+
+376
+00:09:22,150 --> 00:09:22,160
+equals six seven
+ 
+
+377
+00:09:22,160 --> 00:09:25,750
+equals six seven
+eight okay oh why is this still
+
+378
+00:09:25,750 --> 00:09:25,760
+eight okay oh why is this still
+ 
+
+379
+00:09:25,760 --> 00:09:28,470
+eight okay oh why is this still
+okay okay it's blurry it's not it's okay
+
+380
+00:09:28,470 --> 00:09:28,480
+okay okay it's blurry it's not it's okay
+ 
+
+381
+00:09:28,480 --> 00:09:29,350
+okay okay it's blurry it's not it's okay
+okay let's
+
+382
+00:09:29,350 --> 00:09:29,360
+okay let's
+ 
+
+383
+00:09:29,360 --> 00:09:32,870
+okay let's
+let's do this define my jeep let's call
+
+384
+00:09:32,870 --> 00:09:32,880
+let's do this define my jeep let's call
+ 
+
+385
+00:09:32,880 --> 00:09:34,710
+let's do this define my jeep let's call
+it my zip okay
+
+386
+00:09:34,710 --> 00:09:34,720
+it my zip okay
+ 
+
+387
+00:09:34,720 --> 00:09:38,389
+it my zip okay
+just to avoid the same name okay
+
+388
+00:09:38,389 --> 00:09:38,399
+just to avoid the same name okay
+ 
+
+389
+00:09:38,399 --> 00:09:41,670
+just to avoid the same name okay
+look let's do this uh then lens
+
+390
+00:09:41,670 --> 00:09:41,680
+look let's do this uh then lens
+ 
+
+391
+00:09:41,680 --> 00:09:45,030
+look let's do this uh then lens
+equals mean length
+
+392
+00:09:45,030 --> 00:09:45,040
+equals mean length
+ 
+
+393
+00:09:45,040 --> 00:09:48,310
+equals mean length
+a lens b okay we got the smallest then
+
+394
+00:09:48,310 --> 00:09:48,320
+a lens b okay we got the smallest then
+ 
+
+395
+00:09:48,320 --> 00:09:51,590
+a lens b okay we got the smallest then
+four i in range l a right
+
+396
+00:09:51,590 --> 00:09:51,600
+four i in range l a right
+ 
+
+397
+00:09:51,600 --> 00:09:54,949
+four i in range l a right
+what y e y e i l b
+
+398
+00:09:54,949 --> 00:09:54,959
+what y e y e i l b
+ 
+
+399
+00:09:54,959 --> 00:09:59,990
+what y e y e i l b
+and then a i what
+
+400
+00:09:59,990 --> 00:10:00,000
+and then a i what
+ 
+
+401
+00:10:00,000 --> 00:10:04,630
+and then a i what
+b i okay let's do this let's see
+
+402
+00:10:04,630 --> 00:10:04,640
+b i okay let's do this let's see
+ 
+
+403
+00:10:04,640 --> 00:10:08,389
+b i okay let's do this let's see
+okay so let's let's print my zip
+
+404
+00:10:08,389 --> 00:10:08,399
+okay so let's let's print my zip
+ 
+
+405
+00:10:08,399 --> 00:10:12,150
+okay so let's let's print my zip
+uh list my zip
+
+406
+00:10:12,150 --> 00:10:12,160
+uh list my zip
+ 
+
+407
+00:10:12,160 --> 00:10:15,910
+uh list my zip
+a b okay and now we can print
+
+408
+00:10:15,910 --> 00:10:15,920
+a b okay and now we can print
+ 
+
+409
+00:10:15,920 --> 00:10:19,110
+a b okay and now we can print
+the same as the the other side okay at
+
+410
+00:10:19,110 --> 00:10:19,120
+the same as the the other side okay at
+ 
+
+411
+00:10:19,120 --> 00:10:19,910
+the same as the the other side okay at
+least
+
+412
+00:10:19,910 --> 00:10:19,920
+least
+ 
+
+413
+00:10:19,920 --> 00:10:26,949
+least
+my zip ba okay yes
+
+414
+00:10:26,949 --> 00:10:26,959
+
+ 
+
+415
+00:10:26,959 --> 00:10:30,069
+
+yes does it make sense yes yes
+
+416
+00:10:30,069 --> 00:10:30,079
+yes does it make sense yes yes
+ 
+
+417
+00:10:30,079 --> 00:10:33,110
+yes does it make sense yes yes
+okay now let's second function
+
+418
+00:10:33,110 --> 00:10:33,120
+okay now let's second function
+ 
+
+419
+00:10:33,120 --> 00:10:36,230
+okay now let's second function
+which is my zip longest okay so you tell
+
+420
+00:10:36,230 --> 00:10:36,240
+which is my zip longest okay so you tell
+ 
+
+421
+00:10:36,240 --> 00:10:38,870
+which is my zip longest okay so you tell
+me what to do okay
+
+422
+00:10:38,870 --> 00:10:38,880
+me what to do okay
+ 
+
+423
+00:10:38,880 --> 00:10:41,990
+me what to do okay
+define my zip longest
+
+424
+00:10:41,990 --> 00:10:42,000
+define my zip longest
+ 
+
+425
+00:10:42,000 --> 00:10:45,269
+define my zip longest
+a b okay so what what's that a equals
+
+426
+00:10:45,269 --> 00:10:45,279
+a b okay so what what's that a equals
+ 
+
+427
+00:10:45,279 --> 00:10:52,470
+a b okay so what what's that a equals
+what
+
+428
+00:10:52,470 --> 00:10:52,480
+
+ 
+
+429
+00:10:52,480 --> 00:10:55,110
+
+instead of minimal yeah max and i'm
+
+430
+00:10:55,110 --> 00:10:55,120
+instead of minimal yeah max and i'm
+ 
+
+431
+00:10:55,120 --> 00:10:56,790
+instead of minimal yeah max and i'm
+getting the length of the
+
+432
+00:10:56,790 --> 00:10:56,800
+getting the length of the
+ 
+
+433
+00:10:56,800 --> 00:11:01,350
+getting the length of the
+a lens
+
+434
+00:11:01,350 --> 00:11:01,360
+
+ 
+
+435
+00:11:01,360 --> 00:11:04,710
+
+[Music]
+
+436
+00:11:04,710 --> 00:11:04,720
+
+ 
+
+437
+00:11:04,720 --> 00:11:09,829
+
+now we got a a equals if it's smaller ai
+
+438
+00:11:09,829 --> 00:11:09,839
+now we got a a equals if it's smaller ai
+ 
+
+439
+00:11:09,839 --> 00:11:26,389
+now we got a a equals if it's smaller ai
+if i smaller than length
+
+440
+00:11:26,389 --> 00:11:26,399
+
+ 
+
+441
+00:11:26,399 --> 00:11:30,440
+
+a that's it
+
+442
+00:11:30,440 --> 00:11:30,450
+a that's it
+ 
+
+443
+00:11:30,450 --> 00:11:31,910
+a that's it
+[Music]
+
+444
+00:11:31,910 --> 00:11:31,920
+[Music]
+ 
+
+445
+00:11:31,920 --> 00:11:48,230
+[Music]
+let's do this longest
+
+446
+00:11:48,230 --> 00:11:48,240
+
+ 
+
+447
+00:11:48,240 --> 00:11:50,470
+
+what's the problem can you make a guess
+
+448
+00:11:50,470 --> 00:11:50,480
+what's the problem can you make a guess
+ 
+
+449
+00:11:50,480 --> 00:11:51,350
+what's the problem can you make a guess
+9 20
+
+450
+00:11:51,350 --> 00:11:51,360
+9 20
+ 
+
+451
+00:11:51,360 --> 00:12:04,470
+9 20
+15 20 and
+
+452
+00:12:04,470 --> 00:12:04,480
+
+ 
+
+453
+00:12:04,480 --> 00:12:08,389
+
+what
+
+454
+00:12:08,389 --> 00:12:08,399
+
+ 
+
+455
+00:12:08,399 --> 00:12:12,710
+
+ah the lens another b okay not lens
+
+456
+00:12:12,710 --> 00:12:12,720
+ah the lens another b okay not lens
+ 
+
+457
+00:12:12,720 --> 00:12:15,670
+ah the lens another b okay not lens
+there's no aoe there okay okay that's a
+
+458
+00:12:15,670 --> 00:12:15,680
+there's no aoe there okay okay that's a
+ 
+
+459
+00:12:15,680 --> 00:12:19,910
+there's no aoe there okay okay that's a
+mistake yeah
+
+460
+00:12:19,910 --> 00:12:19,920
+
+ 
+
+461
+00:12:19,920 --> 00:12:23,829
+
+yeah you see doesn't make
+
+462
+00:12:23,829 --> 00:12:23,839
+yeah you see doesn't make
+ 
+
+463
+00:12:23,839 --> 00:12:25,430
+yeah you see doesn't make
+what's the difference between cheap and
+
+464
+00:12:25,430 --> 00:12:25,440
+what's the difference between cheap and
+ 
+
+465
+00:12:25,440 --> 00:12:27,430
+what's the difference between cheap and
+deep longest
+
+466
+00:12:27,430 --> 00:12:27,440
+deep longest
+ 
+
+467
+00:12:27,440 --> 00:12:31,190
+deep longest
+the longest uses none
+
+468
+00:12:31,190 --> 00:12:31,200
+the longest uses none
+ 
+
+469
+00:12:31,200 --> 00:12:34,389
+the longest uses none
+yeah to feel the space yeah empty space
+
+470
+00:12:34,389 --> 00:12:34,399
+yeah to feel the space yeah empty space
+ 
+
+471
+00:12:34,399 --> 00:12:37,590
+yeah to feel the space yeah empty space
+and zip you just have the smallest
+
+472
+00:12:37,590 --> 00:12:37,600
+and zip you just have the smallest
+ 
+
+473
+00:12:37,600 --> 00:12:40,389
+and zip you just have the smallest
+yeah smallest length okay so this is the
+
+474
+00:12:40,389 --> 00:12:40,399
+yeah smallest length okay so this is the
+ 
+
+475
+00:12:40,399 --> 00:12:41,190
+yeah smallest length okay so this is the
+function we
+
+476
+00:12:41,190 --> 00:12:41,200
+function we
+ 
+
+477
+00:12:41,200 --> 00:12:43,829
+function we
+this is very important useful function
+
+478
+00:12:43,829 --> 00:12:43,839
+this is very important useful function
+ 
+
+479
+00:12:43,839 --> 00:12:44,790
+this is very important useful function
+uh
+
+480
+00:12:44,790 --> 00:12:44,800
+uh
+ 
+
+481
+00:12:44,800 --> 00:12:48,230
+uh
+so i i'll let you see one more time okay
+
+482
+00:12:48,230 --> 00:12:48,240
+so i i'll let you see one more time okay
+ 
+
+483
+00:12:48,240 --> 00:12:50,470
+so i i'll let you see one more time okay
+okay yeah what's the complexity term
+
+484
+00:12:50,470 --> 00:12:50,480
+okay yeah what's the complexity term
+ 
+
+485
+00:12:50,480 --> 00:12:51,590
+okay yeah what's the complexity term
+complexity
+
+486
+00:12:51,590 --> 00:12:51,600
+complexity
+ 
+
+487
+00:12:51,600 --> 00:12:54,790
+complexity
+if we convert it to i mean
+
+488
+00:12:54,790 --> 00:12:54,800
+if we convert it to i mean
+ 
+
+489
+00:12:54,800 --> 00:12:57,509
+if we convert it to i mean
+we can convert it to give me longest
+
+490
+00:12:57,509 --> 00:12:57,519
+we can convert it to give me longest
+ 
+
+491
+00:12:57,519 --> 00:12:58,550
+we can convert it to give me longest
+yeah
+
+492
+00:12:58,550 --> 00:12:58,560
+yeah
+ 
+
+493
+00:12:58,560 --> 00:13:01,590
+yeah
+uh n yeah oh
+
+494
+00:13:01,590 --> 00:13:01,600
+uh n yeah oh
+ 
+
+495
+00:13:01,600 --> 00:13:04,230
+uh n yeah oh
+and n is the length of the maximum of
+
+496
+00:13:04,230 --> 00:13:04,240
+and n is the length of the maximum of
+ 
+
+497
+00:13:04,240 --> 00:13:06,710
+and n is the length of the maximum of
+yeah
+
+498
+00:13:06,710 --> 00:13:06,720
+yeah
+ 
+
+499
+00:13:06,720 --> 00:13:10,150
+yeah
+if there are n uh elements
+
+500
+00:13:10,150 --> 00:13:10,160
+if there are n uh elements
+ 
+
+501
+00:13:10,160 --> 00:13:13,829
+if there are n uh elements
+in the longer list yeah which whichever
+
+502
+00:13:13,829 --> 00:13:13,839
+in the longer list yeah which whichever
+ 
+
+503
+00:13:13,839 --> 00:13:14,150
+in the longer list yeah which whichever
+is
+
+504
+00:13:14,150 --> 00:13:14,160
+is
+ 
+
+505
+00:13:14,160 --> 00:13:16,550
+is
+longer which is uh could be a could be b
+
+506
+00:13:16,550 --> 00:13:16,560
+longer which is uh could be a could be b
+ 
+
+507
+00:13:16,560 --> 00:13:23,030
+longer which is uh could be a could be b
+yeah it's always the longest
+
+508
+00:13:23,030 --> 00:13:23,040
+
+ 
+
+509
+00:13:23,040 --> 00:13:24,230
+
+do you understand this you have to
+
+510
+00:13:24,230 --> 00:13:24,240
+do you understand this you have to
+ 
+
+511
+00:13:24,240 --> 00:13:26,069
+do you understand this you have to
+keyword if
+
+512
+00:13:26,069 --> 00:13:26,079
+keyword if
+ 
+
+513
+00:13:26,079 --> 00:13:29,350
+keyword if
+it's not your keyboard if if okay let us
+
+514
+00:13:29,350 --> 00:13:29,360
+it's not your keyboard if if okay let us
+ 
+
+515
+00:13:29,360 --> 00:13:30,389
+it's not your keyboard if if okay let us
+do this okay
+
+516
+00:13:30,389 --> 00:13:30,399
+do this okay
+ 
+
+517
+00:13:30,399 --> 00:13:33,430
+do this okay
+look if if this
+
+518
+00:13:33,430 --> 00:13:33,440
+look if if this
+ 
+
+519
+00:13:33,440 --> 00:13:36,629
+look if if this
+is not one two three okay if b equals
+
+520
+00:13:36,629 --> 00:13:36,639
+is not one two three okay if b equals
+ 
+
+521
+00:13:36,639 --> 00:13:37,430
+is not one two three okay if b equals
+one
+
+522
+00:13:37,430 --> 00:13:37,440
+one
+ 
+
+523
+00:13:37,440 --> 00:13:40,629
+one
+and then if you do this a and b you you
+
+524
+00:13:40,629 --> 00:13:40,639
+and then if you do this a and b you you
+ 
+
+525
+00:13:40,639 --> 00:13:42,550
+and then if you do this a and b you you
+will have an object iterator because
+
+526
+00:13:42,550 --> 00:13:42,560
+will have an object iterator because
+ 
+
+527
+00:13:42,560 --> 00:13:44,389
+will have an object iterator because
+it's not a list and then you have to
+
+528
+00:13:44,389 --> 00:13:44,399
+it's not a list and then you have to
+ 
+
+529
+00:13:44,399 --> 00:13:46,389
+it's not a list and then you have to
+tell it for example you you have to tell
+
+530
+00:13:46,389 --> 00:13:46,399
+tell it for example you you have to tell
+ 
+
+531
+00:13:46,399 --> 00:13:48,470
+tell it for example you you have to tell
+it like uh
+
+532
+00:13:48,470 --> 00:13:48,480
+it like uh
+ 
+
+533
+00:13:48,480 --> 00:13:51,189
+it like uh
+for you can convert it to list or you
+
+534
+00:13:51,189 --> 00:13:51,199
+for you can convert it to list or you
+ 
+
+535
+00:13:51,199 --> 00:13:51,829
+for you can convert it to list or you
+can do this
+
+536
+00:13:51,829 --> 00:13:51,839
+can do this
+ 
+
+537
+00:13:51,839 --> 00:13:55,350
+can do this
+for i in zip a b
+
+538
+00:13:55,350 --> 00:13:55,360
+for i in zip a b
+ 
+
+539
+00:13:55,360 --> 00:13:58,790
+for i in zip a b
+and then you can print i uh do you need
+
+540
+00:13:58,790 --> 00:13:58,800
+and then you can print i uh do you need
+ 
+
+541
+00:13:58,800 --> 00:13:59,350
+and then you can print i uh do you need
+to
+
+542
+00:13:59,350 --> 00:13:59,360
+to
+ 
+
+543
+00:13:59,360 --> 00:14:03,509
+to
+print the i yes does it make sense
+
+544
+00:14:03,509 --> 00:14:03,519
+print the i yes does it make sense
+ 
+
+545
+00:14:03,519 --> 00:14:07,430
+print the i yes does it make sense
+yes yeah when you're using a
+
+546
+00:14:07,430 --> 00:14:07,440
+yes yeah when you're using a
+ 
+
+547
+00:14:07,440 --> 00:14:09,590
+yes yeah when you're using a
+generator you can put it in the for loop
+
+548
+00:14:09,590 --> 00:14:09,600
+generator you can put it in the for loop
+ 
+
+549
+00:14:09,600 --> 00:14:11,590
+generator you can put it in the for loop
+okay otherwise if you want to
+
+550
+00:14:11,590 --> 00:14:11,600
+okay otherwise if you want to
+ 
+
+551
+00:14:11,600 --> 00:14:13,590
+okay otherwise if you want to
+convert it to a list you can do this c
+
+552
+00:14:13,590 --> 00:14:13,600
+convert it to a list you can do this c
+ 
+
+553
+00:14:13,600 --> 00:14:15,509
+convert it to a list you can do this c
+equals list
+
+554
+00:14:15,509 --> 00:14:15,519
+equals list
+ 
+
+555
+00:14:15,519 --> 00:14:18,870
+equals list
+zip a b and then c is the list
+
+556
+00:14:18,870 --> 00:14:18,880
+zip a b and then c is the list
+ 
+
+557
+00:14:18,880 --> 00:14:22,870
+zip a b and then c is the list
+yeah got it yes yes okay
+
+558
+00:14:22,870 --> 00:14:22,880
+yeah got it yes yes okay
+ 
+
+559
+00:14:22,880 --> 00:14:26,230
+yeah got it yes yes okay
+okay okay
+
+560
+00:14:26,230 --> 00:14:26,240
+
+ 
+
+561
+00:14:26,240 --> 00:14:28,150
+
+okay good job today good job today turn
+
+562
+00:14:28,150 --> 00:14:28,160
+okay good job today good job today turn
+ 
+
+563
+00:14:28,160 --> 00:14:38,949
+okay good job today good job today turn
+on the lights and you
+
+564
+00:14:38,949 --> 00:14:38,959
+
+ 
+
+565
+00:14:38,959 --> 00:14:41,360
+
+i can't see
+

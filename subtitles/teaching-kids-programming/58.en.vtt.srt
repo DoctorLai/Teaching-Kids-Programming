@@ -1,0 +1,3665 @@
+1
+00:00:00,000 --> 00:00:04,630
+
+hi hello eric hello ryan hello mr eric
+
+2
+00:00:04,630 --> 00:00:04,640
+hi hello eric hello ryan hello mr eric
+ 
+
+3
+00:00:04,640 --> 00:00:05,990
+hi hello eric hello ryan hello mr eric
+hello mr ryan
+
+4
+00:00:05,990 --> 00:00:06,000
+hello mr ryan
+ 
+
+5
+00:00:06,000 --> 00:00:08,790
+hello mr ryan
+we're not a teacher okay yeah can you
+
+6
+00:00:08,790 --> 00:00:08,800
+we're not a teacher okay yeah can you
+ 
+
+7
+00:00:08,800 --> 00:00:10,230
+we're not a teacher okay yeah can you
+say mister
+
+8
+00:00:10,230 --> 00:00:10,240
+say mister
+ 
+
+9
+00:00:10,240 --> 00:00:14,709
+say mister
+okay so today we talk about
+
+10
+00:00:14,709 --> 00:00:14,719
+okay so today we talk about
+ 
+
+11
+00:00:14,719 --> 00:00:16,710
+okay so today we talk about
+using a binary search remember we are
+
+12
+00:00:16,710 --> 00:00:16,720
+using a binary search remember we are
+ 
+
+13
+00:00:16,720 --> 00:00:17,990
+using a binary search remember we are
+very interesting in
+
+14
+00:00:17,990 --> 00:00:18,000
+very interesting in
+ 
+
+15
+00:00:18,000 --> 00:00:20,950
+very interesting in
+interest in this binary search to find
+
+16
+00:00:20,950 --> 00:00:20,960
+interest in this binary search to find
+ 
+
+17
+00:00:20,960 --> 00:00:21,590
+interest in this binary search to find
+out
+
+18
+00:00:21,590 --> 00:00:21,600
+out
+ 
+
+19
+00:00:21,600 --> 00:00:24,710
+out
+the case largest number
+
+20
+00:00:24,710 --> 00:00:24,720
+the case largest number
+ 
+
+21
+00:00:24,720 --> 00:00:27,429
+the case largest number
+in yellow okay so for example like if
+
+22
+00:00:27,429 --> 00:00:27,439
+in yellow okay so for example like if
+ 
+
+23
+00:00:27,439 --> 00:00:27,750
+in yellow okay so for example like if
+this
+
+24
+00:00:27,750 --> 00:00:27,760
+this
+ 
+
+25
+00:00:27,760 --> 00:00:31,269
+this
+is the three four two
+
+26
+00:00:31,269 --> 00:00:31,279
+is the three four two
+ 
+
+27
+00:00:31,279 --> 00:00:34,870
+is the three four two
+one six nine what's the
+
+28
+00:00:34,870 --> 00:00:34,880
+one six nine what's the
+ 
+
+29
+00:00:34,880 --> 00:00:38,310
+one six nine what's the
+third largest number
+
+30
+00:00:38,310 --> 00:00:38,320
+third largest number
+ 
+
+31
+00:00:38,320 --> 00:00:42,389
+third largest number
+four two four third
+
+32
+00:00:42,389 --> 00:00:42,399
+four two four third
+ 
+
+33
+00:00:42,399 --> 00:00:45,590
+four two four third
+largest three four four is before
+
+34
+00:00:45,590 --> 00:00:45,600
+largest three four four is before
+ 
+
+35
+00:00:45,600 --> 00:00:49,350
+largest three four four is before
+nine four yeah okay so one way of doing
+
+36
+00:00:49,350 --> 00:00:49,360
+nine four yeah okay so one way of doing
+ 
+
+37
+00:00:49,360 --> 00:00:51,189
+nine four yeah okay so one way of doing
+it at any size how do we do it
+
+38
+00:00:51,189 --> 00:00:51,199
+it at any size how do we do it
+ 
+
+39
+00:00:51,199 --> 00:00:55,189
+it at any size how do we do it
+uh we can
+
+40
+00:00:55,189 --> 00:00:55,199
+uh we can
+ 
+
+41
+00:00:55,199 --> 00:01:01,870
+uh we can
+we may find the largest
+
+42
+00:01:01,870 --> 00:01:01,880
+
+ 
+
+43
+00:01:01,880 --> 00:01:10,230
+
+[Music]
+
+44
+00:01:10,230 --> 00:01:10,240
+
+ 
+
+45
+00:01:10,240 --> 00:01:12,310
+
+we can make this already for example if
+
+46
+00:01:12,310 --> 00:01:12,320
+we can make this already for example if
+ 
+
+47
+00:01:12,320 --> 00:01:13,910
+we can make this already for example if
+this is nums yeah
+
+48
+00:01:13,910 --> 00:01:13,920
+this is nums yeah
+ 
+
+49
+00:01:13,920 --> 00:01:17,030
+this is nums yeah
+we can do this define okay let's say
+
+50
+00:01:17,030 --> 00:01:17,040
+we can do this define okay let's say
+ 
+
+51
+00:01:17,040 --> 00:01:21,350
+we can do this define okay let's say
+k largest yeah k is largest okay
+
+52
+00:01:21,350 --> 00:01:21,360
+k largest yeah k is largest okay
+ 
+
+53
+00:01:21,360 --> 00:01:24,469
+k largest yeah k is largest okay
+and this is numbers yeah and then that's
+
+54
+00:01:24,469 --> 00:01:24,479
+and this is numbers yeah and then that's
+ 
+
+55
+00:01:24,479 --> 00:01:26,230
+and this is numbers yeah and then that's
+okay okay so we can do this
+
+56
+00:01:26,230 --> 00:01:26,240
+okay okay so we can do this
+ 
+
+57
+00:01:26,240 --> 00:01:29,429
+okay okay so we can do this
+lam dot sword yeah
+
+58
+00:01:29,429 --> 00:01:29,439
+lam dot sword yeah
+ 
+
+59
+00:01:29,439 --> 00:01:31,830
+lam dot sword yeah
+so we make it in order so that will be
+
+60
+00:01:31,830 --> 00:01:31,840
+so we make it in order so that will be
+ 
+
+61
+00:01:31,840 --> 00:01:33,109
+so we make it in order so that will be
+that will become
+
+62
+00:01:33,109 --> 00:01:33,119
+that will become
+ 
+
+63
+00:01:33,119 --> 00:01:36,469
+that will become
+nine six four three two
+
+64
+00:01:36,469 --> 00:01:36,479
+nine six four three two
+ 
+
+65
+00:01:36,479 --> 00:01:38,950
+nine six four three two
+one yeah when you're doing this the
+
+66
+00:01:38,950 --> 00:01:38,960
+one yeah when you're doing this the
+ 
+
+67
+00:01:38,960 --> 00:01:40,069
+one yeah when you're doing this the
+numbers will become
+
+68
+00:01:40,069 --> 00:01:40,079
+numbers will become
+ 
+
+69
+00:01:40,079 --> 00:01:42,950
+numbers will become
+slick yeah and then you just need to
+
+70
+00:01:42,950 --> 00:01:42,960
+slick yeah and then you just need to
+ 
+
+71
+00:01:42,960 --> 00:01:45,270
+slick yeah and then you just need to
+return
+
+72
+00:01:45,270 --> 00:01:45,280
+return
+ 
+
+73
+00:01:45,280 --> 00:01:48,550
+return
+lumps what no
+
+74
+00:01:48,550 --> 00:01:48,560
+lumps what no
+ 
+
+75
+00:01:48,560 --> 00:01:50,389
+lumps what no
+actually it would be reverse it would be
+
+76
+00:01:50,389 --> 00:01:50,399
+actually it would be reverse it would be
+ 
+
+77
+00:01:50,399 --> 00:01:52,069
+actually it would be reverse it would be
+because dumb soft sword
+
+78
+00:01:52,069 --> 00:01:52,079
+because dumb soft sword
+ 
+
+79
+00:01:52,079 --> 00:01:55,510
+because dumb soft sword
+it will be this will be one two three
+
+80
+00:01:55,510 --> 00:01:55,520
+it will be this will be one two three
+ 
+
+81
+00:01:55,520 --> 00:01:56,069
+it will be this will be one two three
+you'll be
+
+82
+00:01:56,069 --> 00:01:56,079
+you'll be
+ 
+
+83
+00:01:56,079 --> 00:01:58,310
+you'll be
+increasing order if you want to make it
+
+84
+00:01:58,310 --> 00:01:58,320
+increasing order if you want to make it
+ 
+
+85
+00:01:58,320 --> 00:01:59,109
+increasing order if you want to make it
+in the
+
+86
+00:01:59,109 --> 00:01:59,119
+in the
+ 
+
+87
+00:01:59,119 --> 00:02:01,350
+in the
+descending order you have to put it put
+
+88
+00:02:01,350 --> 00:02:01,360
+descending order you have to put it put
+ 
+
+89
+00:02:01,360 --> 00:02:02,389
+descending order you have to put it put
+a key
+
+90
+00:02:02,389 --> 00:02:02,399
+a key
+ 
+
+91
+00:02:02,399 --> 00:02:05,590
+a key
+reverse equals two okay
+
+92
+00:02:05,590 --> 00:02:05,600
+reverse equals two okay
+ 
+
+93
+00:02:05,600 --> 00:02:07,270
+reverse equals two okay
+so after this it will become this and
+
+94
+00:02:07,270 --> 00:02:07,280
+so after this it will become this and
+ 
+
+95
+00:02:07,280 --> 00:02:09,830
+so after this it will become this and
+then what we return is returns one
+
+96
+00:02:09,830 --> 00:02:09,840
+then what we return is returns one
+ 
+
+97
+00:02:09,840 --> 00:02:13,190
+then what we return is returns one
+the third largest number so that would
+
+98
+00:02:13,190 --> 00:02:13,200
+the third largest number so that would
+ 
+
+99
+00:02:13,200 --> 00:02:15,110
+the third largest number so that would
+be k minus one right because it starts
+
+100
+00:02:15,110 --> 00:02:15,120
+be k minus one right because it starts
+ 
+
+101
+00:02:15,120 --> 00:02:15,670
+be k minus one right because it starts
+with the
+
+102
+00:02:15,670 --> 00:02:15,680
+with the
+ 
+
+103
+00:02:15,680 --> 00:02:18,309
+with the
+zero third number will be zero one two
+
+104
+00:02:18,309 --> 00:02:18,319
+zero third number will be zero one two
+ 
+
+105
+00:02:18,319 --> 00:02:19,110
+zero third number will be zero one two
+which is one
+
+106
+00:02:19,110 --> 00:02:19,120
+which is one
+ 
+
+107
+00:02:19,120 --> 00:02:22,710
+which is one
+right right or or if you want
+
+108
+00:02:22,710 --> 00:02:22,720
+right right or or if you want
+ 
+
+109
+00:02:22,720 --> 00:02:24,630
+right right or or if you want
+if you don't want to do this then you'll
+
+110
+00:02:24,630 --> 00:02:24,640
+if you don't want to do this then you'll
+ 
+
+111
+00:02:24,640 --> 00:02:27,110
+if you don't want to do this then you'll
+become these numbers will become one two
+
+112
+00:02:27,110 --> 00:02:27,120
+become these numbers will become one two
+ 
+
+113
+00:02:27,120 --> 00:02:27,589
+become these numbers will become one two
+three
+
+114
+00:02:27,589 --> 00:02:27,599
+three
+ 
+
+115
+00:02:27,599 --> 00:02:31,030
+three
+four nine six and then
+
+116
+00:02:31,030 --> 00:02:31,040
+four nine six and then
+ 
+
+117
+00:02:31,040 --> 00:02:34,150
+four nine six and then
+instead of lumps k minus one is
+
+118
+00:02:34,150 --> 00:02:34,160
+instead of lumps k minus one is
+ 
+
+119
+00:02:34,160 --> 00:02:37,750
+instead of lumps k minus one is
+numbs minus k you see using the negative
+
+120
+00:02:37,750 --> 00:02:37,760
+numbs minus k you see using the negative
+ 
+
+121
+00:02:37,760 --> 00:02:41,110
+numbs minus k you see using the negative
+index so it means i want to use the
+
+122
+00:02:41,110 --> 00:02:41,120
+index so it means i want to use the
+ 
+
+123
+00:02:41,120 --> 00:02:43,589
+index so it means i want to use the
+k numbers from the other side so the
+
+124
+00:02:43,589 --> 00:02:43,599
+k numbers from the other side so the
+ 
+
+125
+00:02:43,599 --> 00:02:46,070
+k numbers from the other side so the
+third number to the end which is four
+
+126
+00:02:46,070 --> 00:02:46,080
+third number to the end which is four
+ 
+
+127
+00:02:46,080 --> 00:02:48,790
+third number to the end which is four
+okay so this is two lines of code you
+
+128
+00:02:48,790 --> 00:02:48,800
+okay so this is two lines of code you
+ 
+
+129
+00:02:48,800 --> 00:02:51,030
+okay so this is two lines of code you
+can do this so get the
+
+130
+00:02:51,030 --> 00:02:51,040
+can do this so get the
+ 
+
+131
+00:02:51,040 --> 00:02:53,750
+can do this so get the
+largest number in an array but today
+
+132
+00:02:53,750 --> 00:02:53,760
+largest number in an array but today
+ 
+
+133
+00:02:53,760 --> 00:02:57,190
+largest number in an array but today
+we're going to use the final research
+
+134
+00:02:57,190 --> 00:02:57,200
+we're going to use the final research
+ 
+
+135
+00:02:57,200 --> 00:02:59,670
+we're going to use the final research
+so what's the complexity of that sorting
+
+136
+00:02:59,670 --> 00:02:59,680
+so what's the complexity of that sorting
+ 
+
+137
+00:02:59,680 --> 00:03:02,100
+so what's the complexity of that sorting
+remember
+
+138
+00:03:02,100 --> 00:03:02,110
+remember
+ 
+
+139
+00:03:02,110 --> 00:03:03,350
+remember
+[Music]
+
+140
+00:03:03,350 --> 00:03:03,360
+[Music]
+ 
+
+141
+00:03:03,360 --> 00:03:07,830
+[Music]
+n log n yes what do we talk about
+
+142
+00:03:07,830 --> 00:03:07,840
+n log n yes what do we talk about
+ 
+
+143
+00:03:07,840 --> 00:03:09,990
+n log n yes what do we talk about
+when we talk about sorting is log and
+
+144
+00:03:09,990 --> 00:03:10,000
+when we talk about sorting is log and
+ 
+
+145
+00:03:10,000 --> 00:03:10,949
+when we talk about sorting is log and
+log o
+
+146
+00:03:10,949 --> 00:03:10,959
+log o
+ 
+
+147
+00:03:10,959 --> 00:03:13,990
+log o
+and log n because it uses quick thought
+
+148
+00:03:13,990 --> 00:03:14,000
+and log n because it uses quick thought
+ 
+
+149
+00:03:14,000 --> 00:03:17,110
+and log n because it uses quick thought
+yeah sometimes quicker sort combined
+
+150
+00:03:17,110 --> 00:03:17,120
+yeah sometimes quicker sort combined
+ 
+
+151
+00:03:17,120 --> 00:03:18,710
+yeah sometimes quicker sort combined
+with some other simple soft or
+
+152
+00:03:18,710 --> 00:03:18,720
+with some other simple soft or
+ 
+
+153
+00:03:18,720 --> 00:03:21,270
+with some other simple soft or
+multi-slot yeah
+
+154
+00:03:21,270 --> 00:03:21,280
+multi-slot yeah
+ 
+
+155
+00:03:21,280 --> 00:03:23,430
+multi-slot yeah
+usually when we talk about assaulting is
+
+156
+00:03:23,430 --> 00:03:23,440
+usually when we talk about assaulting is
+ 
+
+157
+00:03:23,440 --> 00:03:24,550
+usually when we talk about assaulting is
+overlooked n log
+
+158
+00:03:24,550 --> 00:03:24,560
+overlooked n log
+ 
+
+159
+00:03:24,560 --> 00:03:27,190
+overlooked n log
+and n is the number of elements in the
+
+160
+00:03:27,190 --> 00:03:27,200
+and n is the number of elements in the
+ 
+
+161
+00:03:27,200 --> 00:03:27,830
+and n is the number of elements in the
+array
+
+162
+00:03:27,830 --> 00:03:27,840
+array
+ 
+
+163
+00:03:27,840 --> 00:03:32,149
+array
+okay yes okay so now
+
+164
+00:03:32,149 --> 00:03:32,159
+okay yes okay so now
+ 
+
+165
+00:03:32,159 --> 00:03:35,430
+okay yes okay so now
+if we want to do uh do this test using
+
+166
+00:03:35,430 --> 00:03:35,440
+if we want to do uh do this test using
+ 
+
+167
+00:03:35,440 --> 00:03:37,430
+if we want to do uh do this test using
+the binary search we can do it like
+
+168
+00:03:37,430 --> 00:03:37,440
+the binary search we can do it like
+ 
+
+169
+00:03:37,440 --> 00:03:41,509
+the binary search we can do it like
+if i have given a function like count
+
+170
+00:03:41,509 --> 00:03:41,519
+
+ 
+
+171
+00:03:41,519 --> 00:03:46,949
+
+count how many
+
+172
+00:03:46,949 --> 00:03:46,959
+count how many
+ 
+
+173
+00:03:46,959 --> 00:03:51,190
+count how many
+equal or bigger than
+
+174
+00:03:51,190 --> 00:03:51,200
+equal or bigger than
+ 
+
+175
+00:03:51,200 --> 00:03:55,030
+equal or bigger than
+length like x number okay so
+
+176
+00:03:55,030 --> 00:03:55,040
+length like x number okay so
+ 
+
+177
+00:03:55,040 --> 00:03:57,990
+length like x number okay so
+so we can this function we can just do
+
+178
+00:03:57,990 --> 00:03:58,000
+so we can this function we can just do
+ 
+
+179
+00:03:58,000 --> 00:03:58,309
+so we can this function we can just do
+this
+
+180
+00:03:58,309 --> 00:03:58,319
+this
+ 
+
+181
+00:03:58,319 --> 00:04:00,550
+this
+and you tell me what it does okay can
+
+182
+00:04:00,550 --> 00:04:00,560
+and you tell me what it does okay can
+ 
+
+183
+00:04:00,560 --> 00:04:02,869
+and you tell me what it does okay can
+you tell me what it does
+
+184
+00:04:02,869 --> 00:04:02,879
+you tell me what it does
+ 
+
+185
+00:04:02,879 --> 00:04:09,030
+you tell me what it does
+i like i have a numbers here numbs
+
+186
+00:04:09,030 --> 00:04:09,040
+
+ 
+
+187
+00:04:09,040 --> 00:04:13,589
+
+if i bigger or equal than
+
+188
+00:04:13,589 --> 00:04:13,599
+if i bigger or equal than
+ 
+
+189
+00:04:13,599 --> 00:04:17,749
+if i bigger or equal than
+x answer plus equals 1
+
+190
+00:04:17,749 --> 00:04:17,759
+x answer plus equals 1
+ 
+
+191
+00:04:17,759 --> 00:04:20,229
+x answer plus equals 1
+return answer can you tell me what what
+
+192
+00:04:20,229 --> 00:04:20,239
+return answer can you tell me what what
+ 
+
+193
+00:04:20,239 --> 00:04:21,189
+return answer can you tell me what what
+does it mean
+
+194
+00:04:21,189 --> 00:04:21,199
+does it mean
+ 
+
+195
+00:04:21,199 --> 00:04:24,150
+does it mean
+what does this function try to do this
+
+196
+00:04:24,150 --> 00:04:24,160
+what does this function try to do this
+ 
+
+197
+00:04:24,160 --> 00:04:24,870
+what does this function try to do this
+number this
+
+198
+00:04:24,870 --> 00:04:24,880
+number this
+ 
+
+199
+00:04:24,880 --> 00:04:28,070
+number this
+is the number we just talked about 3 4 2
+
+200
+00:04:28,070 --> 00:04:28,080
+is the number we just talked about 3 4 2
+ 
+
+201
+00:04:28,080 --> 00:04:32,310
+is the number we just talked about 3 4 2
+1 9 6 and actually let's say
+
+202
+00:04:32,310 --> 00:04:32,320
+1 9 6 and actually let's say
+ 
+
+203
+00:04:32,320 --> 00:04:36,150
+1 9 6 and actually let's say
+x is 2 so what does it mean
+
+204
+00:04:36,150 --> 00:04:36,160
+x is 2 so what does it mean
+ 
+
+205
+00:04:36,160 --> 00:04:40,150
+x is 2 so what does it mean
+answer equals 0 for i in numbers
+
+206
+00:04:40,150 --> 00:04:40,160
+answer equals 0 for i in numbers
+ 
+
+207
+00:04:40,160 --> 00:04:43,749
+answer equals 0 for i in numbers
+if i is bigger than x2 then answer plus
+
+208
+00:04:43,749 --> 00:04:43,759
+if i is bigger than x2 then answer plus
+ 
+
+209
+00:04:43,759 --> 00:04:44,469
+if i is bigger than x2 then answer plus
+one
+
+210
+00:04:44,469 --> 00:04:44,479
+one
+ 
+
+211
+00:04:44,479 --> 00:04:48,310
+one
+they can answer what does it mean
+
+212
+00:04:48,310 --> 00:04:48,320
+
+ 
+
+213
+00:04:48,320 --> 00:04:51,510
+
+what does this function mean ryan any
+
+214
+00:04:51,510 --> 00:04:51,520
+what does this function mean ryan any
+ 
+
+215
+00:04:51,520 --> 00:04:52,469
+what does this function mean ryan any
+thoughts
+
+216
+00:04:52,469 --> 00:04:52,479
+thoughts
+ 
+
+217
+00:04:52,479 --> 00:04:54,469
+thoughts
+any things what's this mean what's this
+
+218
+00:04:54,469 --> 00:04:54,479
+any things what's this mean what's this
+ 
+
+219
+00:04:54,479 --> 00:05:06,230
+any things what's this mean what's this
+once you mean
+
+220
+00:05:06,230 --> 00:05:06,240
+
+ 
+
+221
+00:05:06,240 --> 00:05:08,950
+
+and then i look into i iterate all the
+
+222
+00:05:08,950 --> 00:05:08,960
+and then i look into i iterate all the
+ 
+
+223
+00:05:08,960 --> 00:05:10,070
+and then i look into i iterate all the
+numbers and i check
+
+224
+00:05:10,070 --> 00:05:10,080
+numbers and i check
+ 
+
+225
+00:05:10,080 --> 00:05:13,270
+numbers and i check
+if the number is bigger than uh 2x oh
+
+226
+00:05:13,270 --> 00:05:13,280
+if the number is bigger than uh 2x oh
+ 
+
+227
+00:05:13,280 --> 00:05:14,870
+if the number is bigger than uh 2x oh
+those are the numbers
+
+228
+00:05:14,870 --> 00:05:14,880
+those are the numbers
+ 
+
+229
+00:05:14,880 --> 00:05:17,590
+those are the numbers
+no another i can't what's this what is
+
+230
+00:05:17,590 --> 00:05:17,600
+no another i can't what's this what is
+ 
+
+231
+00:05:17,600 --> 00:05:19,350
+no another i can't what's this what is
+this
+
+232
+00:05:19,350 --> 00:05:19,360
+this
+ 
+
+233
+00:05:19,360 --> 00:05:22,230
+this
+count how many equals okay so what does
+
+234
+00:05:22,230 --> 00:05:22,240
+count how many equals okay so what does
+ 
+
+235
+00:05:22,240 --> 00:05:23,590
+count how many equals okay so what does
+this function do
+
+236
+00:05:23,590 --> 00:05:23,600
+this function do
+ 
+
+237
+00:05:23,600 --> 00:05:26,710
+this function do
+count how many people
+
+238
+00:05:26,710 --> 00:05:26,720
+count how many people
+ 
+
+239
+00:05:26,720 --> 00:05:29,270
+count how many people
+than that number so it's easier i need
+
+240
+00:05:29,270 --> 00:05:29,280
+than that number so it's easier i need
+ 
+
+241
+00:05:29,280 --> 00:05:30,629
+than that number so it's easier i need
+to release numbers
+
+242
+00:05:30,629 --> 00:05:30,639
+to release numbers
+ 
+
+243
+00:05:30,639 --> 00:05:32,870
+to release numbers
+and then i check if it's bigger than x
+
+244
+00:05:32,870 --> 00:05:32,880
+and then i check if it's bigger than x
+ 
+
+245
+00:05:32,880 --> 00:05:34,870
+and then i check if it's bigger than x
+then i count it right
+
+246
+00:05:34,870 --> 00:05:34,880
+then i count it right
+ 
+
+247
+00:05:34,880 --> 00:05:36,790
+then i count it right
+does it make sense i mean this is the
+
+248
+00:05:36,790 --> 00:05:36,800
+does it make sense i mean this is the
+ 
+
+249
+00:05:36,800 --> 00:05:37,909
+does it make sense i mean this is the
+very simplest
+
+250
+00:05:37,909 --> 00:05:37,919
+very simplest
+ 
+
+251
+00:05:37,919 --> 00:05:40,070
+very simplest
+function yeah i easily i go through
+
+252
+00:05:40,070 --> 00:05:40,080
+function yeah i easily i go through
+ 
+
+253
+00:05:40,080 --> 00:05:41,189
+function yeah i easily i go through
+these numbers
+
+254
+00:05:41,189 --> 00:05:41,199
+these numbers
+ 
+
+255
+00:05:41,199 --> 00:05:44,950
+these numbers
+i check if the number i is bigger than
+
+256
+00:05:44,950 --> 00:05:44,960
+i check if the number i is bigger than
+ 
+
+257
+00:05:44,960 --> 00:05:48,390
+i check if the number i is bigger than
+x then if it is i can't increment the
+
+258
+00:05:48,390 --> 00:05:48,400
+x then if it is i can't increment the
+ 
+
+259
+00:05:48,400 --> 00:05:51,029
+x then if it is i can't increment the
+answers and i return this answer yes
+
+260
+00:05:51,029 --> 00:05:51,039
+answers and i return this answer yes
+ 
+
+261
+00:05:51,039 --> 00:05:54,390
+answers and i return this answer yes
+yes the counter what's the complexity i
+
+262
+00:05:54,390 --> 00:05:54,400
+yes the counter what's the complexity i
+ 
+
+263
+00:05:54,400 --> 00:05:59,670
+yes the counter what's the complexity i
+and i log in i end again
+
+264
+00:05:59,670 --> 00:05:59,680
+
+ 
+
+265
+00:05:59,680 --> 00:06:01,590
+
+yeah because i iterate these numbers
+
+266
+00:06:01,590 --> 00:06:01,600
+yeah because i iterate these numbers
+ 
+
+267
+00:06:01,600 --> 00:06:03,029
+yeah because i iterate these numbers
+only once right
+
+268
+00:06:03,029 --> 00:06:03,039
+only once right
+ 
+
+269
+00:06:03,039 --> 00:06:05,350
+only once right
+yes yeah that's very easy okay very
+
+270
+00:06:05,350 --> 00:06:05,360
+yes yeah that's very easy okay very
+ 
+
+271
+00:06:05,360 --> 00:06:06,230
+yes yeah that's very easy okay very
+simple
+
+272
+00:06:06,230 --> 00:06:06,240
+simple
+ 
+
+273
+00:06:06,240 --> 00:06:10,950
+simple
+okay so now with this function so now
+
+274
+00:06:10,950 --> 00:06:10,960
+okay so now with this function so now
+ 
+
+275
+00:06:10,960 --> 00:06:13,670
+okay so now with this function so now
+now what how can i do this the binaries
+
+276
+00:06:13,670 --> 00:06:13,680
+now what how can i do this the binaries
+ 
+
+277
+00:06:13,680 --> 00:06:15,110
+now what how can i do this the binaries
+i mean final research
+
+278
+00:06:15,110 --> 00:06:15,120
+i mean final research
+ 
+
+279
+00:06:15,120 --> 00:06:17,590
+i mean final research
+i can do this mean uh if these are
+
+280
+00:06:17,590 --> 00:06:17,600
+i can do this mean uh if these are
+ 
+
+281
+00:06:17,600 --> 00:06:18,550
+i can do this mean uh if these are
+numbers yeah
+
+282
+00:06:18,550 --> 00:06:18,560
+numbers yeah
+ 
+
+283
+00:06:18,560 --> 00:06:21,670
+numbers yeah
+these are numbers three two one
+
+284
+00:06:21,670 --> 00:06:21,680
+these are numbers three two one
+ 
+
+285
+00:06:21,680 --> 00:06:24,790
+these are numbers three two one
+nine six seven
+
+286
+00:06:24,790 --> 00:06:24,800
+nine six seven
+ 
+
+287
+00:06:24,800 --> 00:06:27,830
+nine six seven
+so now what's the minimum number of
+
+288
+00:06:27,830 --> 00:06:27,840
+so now what's the minimum number of
+ 
+
+289
+00:06:27,840 --> 00:06:30,390
+so now what's the minimum number of
+leads on all these
+
+290
+00:06:30,390 --> 00:06:30,400
+leads on all these
+ 
+
+291
+00:06:30,400 --> 00:06:33,510
+leads on all these
+one yeah so i have a left bound
+
+292
+00:06:33,510 --> 00:06:33,520
+one yeah so i have a left bound
+ 
+
+293
+00:06:33,520 --> 00:06:37,430
+one yeah so i have a left bound
+equals mean mean numb
+
+294
+00:06:37,430 --> 00:06:37,440
+equals mean mean numb
+ 
+
+295
+00:06:37,440 --> 00:06:39,909
+equals mean mean numb
+which will become one right and right
+
+296
+00:06:39,909 --> 00:06:39,919
+which will become one right and right
+ 
+
+297
+00:06:39,919 --> 00:06:40,469
+which will become one right and right
+bound
+
+298
+00:06:40,469 --> 00:06:40,479
+bound
+ 
+
+299
+00:06:40,479 --> 00:06:44,230
+bound
+can you guess what should i write max
+
+300
+00:06:44,230 --> 00:06:44,240
+can you guess what should i write max
+ 
+
+301
+00:06:44,240 --> 00:06:47,749
+can you guess what should i write max
+we're done numbs which will be
+
+302
+00:06:47,749 --> 00:06:47,759
+we're done numbs which will be
+ 
+
+303
+00:06:47,759 --> 00:06:50,309
+we're done numbs which will be
+nine nine okay so now let's bounce right
+
+304
+00:06:50,309 --> 00:06:50,319
+nine nine okay so now let's bounce right
+ 
+
+305
+00:06:50,319 --> 00:06:52,870
+nine nine okay so now let's bounce right
+down and i if i do this meter
+
+306
+00:06:52,870 --> 00:06:52,880
+down and i if i do this meter
+ 
+
+307
+00:06:52,880 --> 00:06:55,510
+down and i if i do this meter
+i do this middle and then i can use the
+
+308
+00:06:55,510 --> 00:06:55,520
+i do this middle and then i can use the
+ 
+
+309
+00:06:55,520 --> 00:06:57,430
+i do this middle and then i can use the
+function i just created count how many
+
+310
+00:06:57,430 --> 00:06:57,440
+function i just created count how many
+ 
+
+311
+00:06:57,440 --> 00:06:59,990
+function i just created count how many
+numbers are bigger than all equal meter
+
+312
+00:06:59,990 --> 00:07:00,000
+numbers are bigger than all equal meter
+ 
+
+313
+00:07:00,000 --> 00:07:03,029
+numbers are bigger than all equal meter
+right yes then
+
+314
+00:07:03,029 --> 00:07:03,039
+right yes then
+ 
+
+315
+00:07:03,039 --> 00:07:06,550
+right yes then
+look now i can say x equals count
+
+316
+00:07:06,550 --> 00:07:06,560
+look now i can say x equals count
+ 
+
+317
+00:07:06,560 --> 00:07:09,589
+look now i can say x equals count
+how many then that is
+
+318
+00:07:09,589 --> 00:07:09,599
+how many then that is
+ 
+
+319
+00:07:09,599 --> 00:07:12,629
+how many then that is
+x then here it will be finally yeah y
+
+320
+00:07:12,629 --> 00:07:12,639
+x then here it will be finally yeah y
+ 
+
+321
+00:07:12,639 --> 00:07:16,230
+x then here it will be finally yeah y
+left smaller equals right right
+
+322
+00:07:16,230 --> 00:07:16,240
+left smaller equals right right
+ 
+
+323
+00:07:16,240 --> 00:07:18,870
+left smaller equals right right
+and then meet the equals i get the
+
+324
+00:07:18,870 --> 00:07:18,880
+and then meet the equals i get the
+ 
+
+325
+00:07:18,880 --> 00:07:21,189
+and then meet the equals i get the
+middle yeah left plus right
+
+326
+00:07:21,189 --> 00:07:21,199
+middle yeah left plus right
+ 
+
+327
+00:07:21,199 --> 00:07:25,670
+middle yeah left plus right
+divided by two okay yeah middle if x
+
+328
+00:07:25,670 --> 00:07:25,680
+divided by two okay yeah middle if x
+ 
+
+329
+00:07:25,680 --> 00:07:28,790
+divided by two okay yeah middle if x
+if x if there are more than k numbers
+
+330
+00:07:28,790 --> 00:07:28,800
+if x if there are more than k numbers
+ 
+
+331
+00:07:28,800 --> 00:07:32,070
+if x if there are more than k numbers
+more than k numbers
+
+332
+00:07:32,070 --> 00:07:32,080
+more than k numbers
+ 
+
+333
+00:07:32,080 --> 00:07:34,150
+more than k numbers
+so what does it mean if there are more
+
+334
+00:07:34,150 --> 00:07:34,160
+so what does it mean if there are more
+ 
+
+335
+00:07:34,160 --> 00:07:35,589
+so what does it mean if there are more
+than k numbers
+
+336
+00:07:35,589 --> 00:07:35,599
+than k numbers
+ 
+
+337
+00:07:35,599 --> 00:07:39,749
+than k numbers
+that bigger than the current mid number
+
+338
+00:07:39,749 --> 00:07:39,759
+that bigger than the current mid number
+ 
+
+339
+00:07:39,759 --> 00:07:44,150
+that bigger than the current mid number
+so what does it mean we need to reduce
+
+340
+00:07:44,150 --> 00:07:44,160
+so what does it mean we need to reduce
+ 
+
+341
+00:07:44,160 --> 00:07:47,670
+so what does it mean we need to reduce
+the if we have more than 10 for example
+
+342
+00:07:47,670 --> 00:07:47,680
+the if we have more than 10 for example
+ 
+
+343
+00:07:47,680 --> 00:07:48,629
+the if we have more than 10 for example
+if k is 3
+
+344
+00:07:48,629 --> 00:07:48,639
+if k is 3
+ 
+
+345
+00:07:48,639 --> 00:07:52,150
+if k is 3
+and if there are four numbers bigger
+
+346
+00:07:52,150 --> 00:07:52,160
+and if there are four numbers bigger
+ 
+
+347
+00:07:52,160 --> 00:07:53,990
+and if there are four numbers bigger
+for this column meter number if there
+
+348
+00:07:53,990 --> 00:07:54,000
+for this column meter number if there
+ 
+
+349
+00:07:54,000 --> 00:07:55,670
+for this column meter number if there
+are four numbers bigger than it so i
+
+350
+00:07:55,670 --> 00:07:55,680
+are four numbers bigger than it so i
+ 
+
+351
+00:07:55,680 --> 00:07:56,950
+are four numbers bigger than it so i
+need to reduce the
+
+352
+00:07:56,950 --> 00:07:56,960
+need to reduce the
+ 
+
+353
+00:07:56,960 --> 00:07:59,510
+need to reduce the
+meat right so i i need to increase the
+
+354
+00:07:59,510 --> 00:07:59,520
+meat right so i i need to increase the
+ 
+
+355
+00:07:59,520 --> 00:08:00,230
+meat right so i i need to increase the
+meat right
+
+356
+00:08:00,230 --> 00:08:00,240
+meat right
+ 
+
+357
+00:08:00,240 --> 00:08:02,390
+meat right
+i'm right yeah because if i reduce the
+
+358
+00:08:02,390 --> 00:08:02,400
+i'm right yeah because if i reduce the
+ 
+
+359
+00:08:02,400 --> 00:08:03,830
+i'm right yeah because if i reduce the
+meat then
+
+360
+00:08:03,830 --> 00:08:03,840
+meat then
+ 
+
+361
+00:08:03,840 --> 00:08:06,070
+meat then
+then the x will become bigger which is
+
+362
+00:08:06,070 --> 00:08:06,080
+then the x will become bigger which is
+ 
+
+363
+00:08:06,080 --> 00:08:07,189
+then the x will become bigger which is
+not what we want
+
+364
+00:08:07,189 --> 00:08:07,199
+not what we want
+ 
+
+365
+00:08:07,199 --> 00:08:10,790
+not what we want
+so left becomes meter plus one right
+
+366
+00:08:10,790 --> 00:08:10,800
+so left becomes meter plus one right
+ 
+
+367
+00:08:10,800 --> 00:08:13,830
+so left becomes meter plus one right
+and as can you guess what's this
+
+368
+00:08:13,830 --> 00:08:13,840
+and as can you guess what's this
+ 
+
+369
+00:08:13,840 --> 00:08:17,670
+and as can you guess what's this
+left right right equals one
+
+370
+00:08:17,670 --> 00:08:17,680
+left right right equals one
+ 
+
+371
+00:08:17,680 --> 00:08:20,869
+left right right equals one
+max minus one
+
+372
+00:08:20,869 --> 00:08:20,879
+max minus one
+ 
+
+373
+00:08:20,879 --> 00:08:23,990
+max minus one
+yeah all right yes yes
+
+374
+00:08:23,990 --> 00:08:24,000
+yeah all right yes yes
+ 
+
+375
+00:08:24,000 --> 00:08:27,270
+yeah all right yes yes
+oh okay one right we're done
+
+376
+00:08:27,270 --> 00:08:27,280
+oh okay one right we're done
+ 
+
+377
+00:08:27,280 --> 00:08:32,310
+oh okay one right we're done
+this is a special case because right
+
+378
+00:08:32,310 --> 00:08:32,320
+
+ 
+
+379
+00:08:32,320 --> 00:08:34,310
+
+sometimes it's written left but in this
+
+380
+00:08:34,310 --> 00:08:34,320
+sometimes it's written left but in this
+ 
+
+381
+00:08:34,320 --> 00:08:35,350
+sometimes it's written left but in this
+case we are returning
+
+382
+00:08:35,350 --> 00:08:35,360
+case we are returning
+ 
+
+383
+00:08:35,360 --> 00:08:37,110
+case we are returning
+right which is because we need to minus
+
+384
+00:08:37,110 --> 00:08:37,120
+right which is because we need to minus
+ 
+
+385
+00:08:37,120 --> 00:08:38,949
+right which is because we need to minus
+one to get this boundary right
+
+386
+00:08:38,949 --> 00:08:38,959
+one to get this boundary right
+ 
+
+387
+00:08:38,959 --> 00:08:42,949
+one to get this boundary right
+okay yes so what's the complexity of all
+
+388
+00:08:42,949 --> 00:08:42,959
+okay yes so what's the complexity of all
+ 
+
+389
+00:08:42,959 --> 00:08:46,949
+okay yes so what's the complexity of all
+together
+
+390
+00:08:46,949 --> 00:08:46,959
+
+ 
+
+391
+00:08:46,959 --> 00:08:50,070
+
+this is o logan
+
+392
+00:08:50,070 --> 00:08:50,080
+this is o logan
+ 
+
+393
+00:08:50,080 --> 00:08:53,190
+this is o logan
+i went again what am i trying to say
+
+394
+00:08:53,190 --> 00:08:53,200
+i went again what am i trying to say
+ 
+
+395
+00:08:53,200 --> 00:08:57,030
+i went again what am i trying to say
+this is o n right and the final research
+
+396
+00:08:57,030 --> 00:08:57,040
+this is o n right and the final research
+ 
+
+397
+00:08:57,040 --> 00:08:57,829
+this is o n right and the final research
+is o
+
+398
+00:08:57,829 --> 00:08:57,839
+is o
+ 
+
+399
+00:08:57,839 --> 00:09:01,190
+is o
+log n so all together o and again
+
+400
+00:09:01,190 --> 00:09:01,200
+log n so all together o and again
+ 
+
+401
+00:09:01,200 --> 00:09:03,430
+log n so all together o and again
+all right okay good job okay let's do
+
+402
+00:09:03,430 --> 00:09:03,440
+all right okay good job okay let's do
+ 
+
+403
+00:09:03,440 --> 00:09:10,820
+all right okay good job okay let's do
+the coding turn on the light please
+
+404
+00:09:10,820 --> 00:09:10,830
+
+ 
+
+405
+00:09:10,830 --> 00:09:19,269
+
+[Music]
+
+406
+00:09:19,269 --> 00:09:19,279
+
+ 
+
+407
+00:09:19,279 --> 00:09:24,850
+
+sorry you need to connect
+
+408
+00:09:24,850 --> 00:09:24,860
+
+ 
+
+409
+00:09:24,860 --> 00:09:35,190
+
+[Music]
+
+410
+00:09:35,190 --> 00:09:35,200
+
+ 
+
+411
+00:09:35,200 --> 00:09:38,150
+
+it's okay is it cane is there is it is
+
+412
+00:09:38,150 --> 00:09:38,160
+it's okay is it cane is there is it is
+ 
+
+413
+00:09:38,160 --> 00:09:38,630
+it's okay is it cane is there is it is
+it
+
+414
+00:09:38,630 --> 00:09:38,640
+it
+ 
+
+415
+00:09:38,640 --> 00:09:51,030
+it
+clear all right
+
+416
+00:09:51,030 --> 00:09:51,040
+clear all right
+ 
+
+417
+00:09:51,040 --> 00:09:54,150
+clear all right
+okay let's find i think that's fine i
+
+418
+00:09:54,150 --> 00:09:54,160
+okay let's find i think that's fine i
+ 
+
+419
+00:09:54,160 --> 00:09:54,470
+okay let's find i think that's fine i
+don't
+
+420
+00:09:54,470 --> 00:09:54,480
+don't
+ 
+
+421
+00:09:54,480 --> 00:09:57,750
+don't
+need to turn this off it's very
+
+422
+00:09:57,750 --> 00:09:57,760
+need to turn this off it's very
+ 
+
+423
+00:09:57,760 --> 00:10:00,230
+need to turn this off it's very
+very clear okay sit down please no
+
+424
+00:10:00,230 --> 00:10:00,240
+very clear okay sit down please no
+ 
+
+425
+00:10:00,240 --> 00:10:01,190
+very clear okay sit down please no
+touching
+
+426
+00:10:01,190 --> 00:10:01,200
+touching
+ 
+
+427
+00:10:01,200 --> 00:10:04,389
+touching
+okay i'm going to can you can you please
+
+428
+00:10:04,389 --> 00:10:04,399
+okay i'm going to can you can you please
+ 
+
+429
+00:10:04,399 --> 00:10:06,230
+okay i'm going to can you can you please
+good boy okay sit down okay look at the
+
+430
+00:10:06,230 --> 00:10:06,240
+good boy okay sit down okay look at the
+ 
+
+431
+00:10:06,240 --> 00:10:08,949
+good boy okay sit down okay look at the
+screen okay
+
+432
+00:10:08,949 --> 00:10:08,959
+
+ 
+
+433
+00:10:08,959 --> 00:10:12,870
+
+let's do this uh case case last case
+
+434
+00:10:12,870 --> 00:10:12,880
+let's do this uh case case last case
+ 
+
+435
+00:10:12,880 --> 00:10:15,269
+let's do this uh case case last case
+okay case largest
+
+436
+00:10:15,269 --> 00:10:15,279
+okay case largest
+ 
+
+437
+00:10:15,279 --> 00:10:19,030
+okay case largest
+case largest
+
+438
+00:10:19,030 --> 00:10:19,040
+case largest
+ 
+
+439
+00:10:19,040 --> 00:10:21,269
+case largest
+now let's do this let's let's do these
+
+440
+00:10:21,269 --> 00:10:21,279
+now let's do this let's let's do these
+ 
+
+441
+00:10:21,279 --> 00:10:24,389
+now let's do this let's let's do these
+numbers which is
+
+442
+00:10:24,389 --> 00:10:24,399
+numbers which is
+ 
+
+443
+00:10:24,399 --> 00:10:26,550
+numbers which is
+just given some numbers okay and then
+
+444
+00:10:26,550 --> 00:10:26,560
+just given some numbers okay and then
+ 
+
+445
+00:10:26,560 --> 00:10:28,949
+just given some numbers okay and then
+you tell me what's the answer okay
+
+446
+00:10:28,949 --> 00:10:28,959
+you tell me what's the answer okay
+ 
+
+447
+00:10:28,959 --> 00:10:32,069
+you tell me what's the answer okay
+uh i'll duplicate no okay
+
+448
+00:10:32,069 --> 00:10:32,079
+uh i'll duplicate no okay
+ 
+
+449
+00:10:32,079 --> 00:10:35,590
+uh i'll duplicate no okay
+define three k is largest
+
+450
+00:10:35,590 --> 00:10:35,600
+define three k is largest
+ 
+
+451
+00:10:35,600 --> 00:10:38,949
+define three k is largest
+case slices two threes okay
+
+452
+00:10:38,949 --> 00:10:38,959
+case slices two threes okay
+ 
+
+453
+00:10:38,959 --> 00:10:41,509
+case slices two threes okay
+let me make it one one three thirteen
+
+454
+00:10:41,509 --> 00:10:41,519
+let me make it one one three thirteen
+ 
+
+455
+00:10:41,519 --> 00:10:42,790
+let me make it one one three thirteen
+okay so numbs
+
+456
+00:10:42,790 --> 00:10:42,800
+okay so numbs
+ 
+
+457
+00:10:42,800 --> 00:10:45,670
+okay so numbs
+okay remember we we talked about they
+
+458
+00:10:45,670 --> 00:10:45,680
+okay remember we we talked about they
+ 
+
+459
+00:10:45,680 --> 00:10:46,710
+okay remember we we talked about they
+saw team yeah
+
+460
+00:10:46,710 --> 00:10:46,720
+saw team yeah
+ 
+
+461
+00:10:46,720 --> 00:10:51,110
+saw team yeah
+yeah yeah and now we can return
+
+462
+00:10:51,110 --> 00:10:51,120
+yeah yeah and now we can return
+ 
+
+463
+00:10:51,120 --> 00:10:54,310
+yeah yeah and now we can return
+numbs minus k let's just try to see if
+
+464
+00:10:54,310 --> 00:10:54,320
+numbs minus k let's just try to see if
+ 
+
+465
+00:10:54,320 --> 00:10:55,509
+numbs minus k let's just try to see if
+it's all right yeah
+
+466
+00:10:55,509 --> 00:10:55,519
+it's all right yeah
+ 
+
+467
+00:10:55,519 --> 00:10:59,030
+it's all right yeah
+k is largest nums
+
+468
+00:10:59,030 --> 00:10:59,040
+k is largest nums
+ 
+
+469
+00:10:59,040 --> 00:11:01,350
+k is largest nums
+let's say three okay the third largest
+
+470
+00:11:01,350 --> 00:11:01,360
+let's say three okay the third largest
+ 
+
+471
+00:11:01,360 --> 00:11:03,670
+let's say three okay the third largest
+number is which is
+
+472
+00:11:03,670 --> 00:11:03,680
+number is which is
+ 
+
+473
+00:11:03,680 --> 00:11:10,150
+number is which is
+seven seven yes all right
+
+474
+00:11:10,150 --> 00:11:10,160
+
+ 
+
+475
+00:11:10,160 --> 00:11:13,430
+
+uh uh oh i think i have a spelling error
+
+476
+00:11:13,430 --> 00:11:13,440
+uh uh oh i think i have a spelling error
+ 
+
+477
+00:11:13,440 --> 00:11:16,550
+uh uh oh i think i have a spelling error
+so case largest okay
+
+478
+00:11:16,550 --> 00:11:16,560
+so case largest okay
+ 
+
+479
+00:11:16,560 --> 00:11:19,269
+so case largest okay
+key slices okay so that's not what we i
+
+480
+00:11:19,269 --> 00:11:19,279
+key slices okay so that's not what we i
+ 
+
+481
+00:11:19,279 --> 00:11:25,110
+key slices okay so that's not what we i
+want
+
+482
+00:11:25,110 --> 00:11:25,120
+
+ 
+
+483
+00:11:25,120 --> 00:11:28,630
+
+seven all right yes and you can do this
+
+484
+00:11:28,630 --> 00:11:28,640
+seven all right yes and you can do this
+ 
+
+485
+00:11:28,640 --> 00:11:29,350
+seven all right yes and you can do this
+the
+
+486
+00:11:29,350 --> 00:11:29,360
+the
+ 
+
+487
+00:11:29,360 --> 00:11:32,310
+the
+uh using salt the other way which is and
+
+488
+00:11:32,310 --> 00:11:32,320
+uh using salt the other way which is and
+ 
+
+489
+00:11:32,320 --> 00:11:33,110
+uh using salt the other way which is and
+then you tell me
+
+490
+00:11:33,110 --> 00:11:33,120
+then you tell me
+ 
+
+491
+00:11:33,120 --> 00:11:36,230
+then you tell me
+what's right and reverse
+
+492
+00:11:36,230 --> 00:11:36,240
+what's right and reverse
+ 
+
+493
+00:11:36,240 --> 00:11:38,710
+what's right and reverse
+when i say reverse equals two is sorting
+
+494
+00:11:38,710 --> 00:11:38,720
+when i say reverse equals two is sorting
+ 
+
+495
+00:11:38,720 --> 00:11:39,990
+when i say reverse equals two is sorting
+from the biggest to the
+
+496
+00:11:39,990 --> 00:11:40,000
+from the biggest to the
+ 
+
+497
+00:11:40,000 --> 00:11:43,509
+from the biggest to the
+smallest so what should i put here
+
+498
+00:11:43,509 --> 00:11:43,519
+smallest so what should i put here
+ 
+
+499
+00:11:43,519 --> 00:11:46,389
+smallest so what should i put here
+what should i put here okay yes we'll
+
+500
+00:11:46,389 --> 00:11:46,399
+what should i put here okay yes we'll
+ 
+
+501
+00:11:46,399 --> 00:11:46,949
+what should i put here okay yes we'll
+add on k
+
+502
+00:11:46,949 --> 00:11:46,959
+add on k
+ 
+
+503
+00:11:46,959 --> 00:11:48,710
+add on k
+minus one because they start with a zero
+
+504
+00:11:48,710 --> 00:11:48,720
+minus one because they start with a zero
+ 
+
+505
+00:11:48,720 --> 00:11:50,389
+minus one because they start with a zero
+okay am i
+
+506
+00:11:50,389 --> 00:11:50,399
+okay am i
+ 
+
+507
+00:11:50,399 --> 00:11:54,790
+okay am i
+yeah let's try if it's still 0.27
+
+508
+00:11:54,790 --> 00:11:54,800
+
+ 
+
+509
+00:11:54,800 --> 00:11:59,110
+
+i have a duplicate uh
+
+510
+00:11:59,110 --> 00:11:59,120
+i have a duplicate uh
+ 
+
+511
+00:11:59,120 --> 00:12:02,949
+i have a duplicate uh
+duplicate unnecessary bracket
+
+512
+00:12:02,949 --> 00:12:02,959
+duplicate unnecessary bracket
+ 
+
+513
+00:12:02,959 --> 00:12:05,910
+duplicate unnecessary bracket
+closing bracket too many closing bracket
+
+514
+00:12:05,910 --> 00:12:05,920
+closing bracket too many closing bracket
+ 
+
+515
+00:12:05,920 --> 00:12:07,030
+closing bracket too many closing bracket
+yeah seven yeah
+
+516
+00:12:07,030 --> 00:12:07,040
+yeah seven yeah
+ 
+
+517
+00:12:07,040 --> 00:12:10,230
+yeah seven yeah
+okay now let's try uh try the binary
+
+518
+00:12:10,230 --> 00:12:10,240
+okay now let's try uh try the binary
+ 
+
+519
+00:12:10,240 --> 00:12:12,949
+okay now let's try uh try the binary
+search okay so let's delete this
+
+520
+00:12:12,949 --> 00:12:12,959
+search okay so let's delete this
+ 
+
+521
+00:12:12,959 --> 00:12:15,190
+search okay so let's delete this
+remember we talked about we need to
+
+522
+00:12:15,190 --> 00:12:15,200
+remember we talked about we need to
+ 
+
+523
+00:12:15,200 --> 00:12:16,550
+remember we talked about we need to
+define a function
+
+524
+00:12:16,550 --> 00:12:16,560
+define a function
+ 
+
+525
+00:12:16,560 --> 00:12:19,590
+define a function
+we find count let's just do a count okay
+
+526
+00:12:19,590 --> 00:12:19,600
+we find count let's just do a count okay
+ 
+
+527
+00:12:19,600 --> 00:12:22,870
+we find count let's just do a count okay
+nums k comes
+
+528
+00:12:22,870 --> 00:12:22,880
+nums k comes
+ 
+
+529
+00:12:22,880 --> 00:12:26,230
+nums k comes
+x then you tell me answer equals yellow
+
+530
+00:12:26,230 --> 00:12:26,240
+x then you tell me answer equals yellow
+ 
+
+531
+00:12:26,240 --> 00:12:29,269
+x then you tell me answer equals yellow
+for i in nums if
+
+532
+00:12:29,269 --> 00:12:29,279
+for i in nums if
+ 
+
+533
+00:12:29,279 --> 00:12:33,910
+for i in nums if
+if i bigger or equal i uh x
+
+534
+00:12:33,910 --> 00:12:33,920
+if i bigger or equal i uh x
+ 
+
+535
+00:12:33,920 --> 00:12:36,790
+if i bigger or equal i uh x
+what what should we do here answer plus
+
+536
+00:12:36,790 --> 00:12:36,800
+what what should we do here answer plus
+ 
+
+537
+00:12:36,800 --> 00:12:38,069
+what what should we do here answer plus
+equals one right
+
+538
+00:12:38,069 --> 00:12:38,079
+equals one right
+ 
+
+539
+00:12:38,079 --> 00:12:41,509
+equals one right
+and then return what return what answer
+
+540
+00:12:41,509 --> 00:12:41,519
+and then return what return what answer
+ 
+
+541
+00:12:41,519 --> 00:12:43,110
+and then return what return what answer
+well done and then now let's do this
+
+542
+00:12:43,110 --> 00:12:43,120
+well done and then now let's do this
+ 
+
+543
+00:12:43,120 --> 00:12:47,350
+well done and then now let's do this
+finalists final research k is largest
+
+544
+00:12:47,350 --> 00:12:47,360
+finalists final research k is largest
+ 
+
+545
+00:12:47,360 --> 00:12:51,509
+finalists final research k is largest
+lumps uh conditional please numbs k
+
+546
+00:12:51,509 --> 00:12:51,519
+lumps uh conditional please numbs k
+ 
+
+547
+00:12:51,519 --> 00:12:54,790
+lumps uh conditional please numbs k
+right then left
+
+548
+00:12:54,790 --> 00:12:54,800
+right then left
+ 
+
+549
+00:12:54,800 --> 00:12:57,990
+right then left
+equals mean nums getting the
+
+550
+00:12:57,990 --> 00:12:58,000
+equals mean nums getting the
+ 
+
+551
+00:12:58,000 --> 00:13:00,150
+equals mean nums getting the
+smallest of this number which is one
+
+552
+00:13:00,150 --> 00:13:00,160
+smallest of this number which is one
+ 
+
+553
+00:13:00,160 --> 00:13:01,110
+smallest of this number which is one
+right
+
+554
+00:13:01,110 --> 00:13:01,120
+right
+ 
+
+555
+00:13:01,120 --> 00:13:04,230
+right
+right equals max nums which will be
+
+556
+00:13:04,230 --> 00:13:04,240
+right equals max nums which will be
+ 
+
+557
+00:13:04,240 --> 00:13:07,990
+right equals max nums which will be
+13 right yes white left is smaller than
+
+558
+00:13:07,990 --> 00:13:08,000
+13 right yes white left is smaller than
+ 
+
+559
+00:13:08,000 --> 00:13:08,389
+13 right yes white left is smaller than
+right
+
+560
+00:13:08,389 --> 00:13:08,399
+right
+ 
+
+561
+00:13:08,399 --> 00:13:11,190
+right
+one boundary not matting each other and
+
+562
+00:13:11,190 --> 00:13:11,200
+one boundary not matting each other and
+ 
+
+563
+00:13:11,200 --> 00:13:11,590
+one boundary not matting each other and
+meet
+
+564
+00:13:11,590 --> 00:13:11,600
+meet
+ 
+
+565
+00:13:11,600 --> 00:13:20,710
+meet
+me equals one right
+
+566
+00:13:20,710 --> 00:13:20,720
+me equals one right
+ 
+
+567
+00:13:20,720 --> 00:13:23,269
+me equals one right
+and then divided by yeah divided by two
+
+568
+00:13:23,269 --> 00:13:23,279
+and then divided by yeah divided by two
+ 
+
+569
+00:13:23,279 --> 00:13:23,829
+and then divided by yeah divided by two
+okay
+
+570
+00:13:23,829 --> 00:13:23,839
+okay
+ 
+
+571
+00:13:23,839 --> 00:13:25,990
+okay
+using double divide means that we're
+
+572
+00:13:25,990 --> 00:13:26,000
+using double divide means that we're
+ 
+
+573
+00:13:26,000 --> 00:13:28,310
+using double divide means that we're
+only interested in an integer okay
+
+574
+00:13:28,310 --> 00:13:28,320
+only interested in an integer okay
+ 
+
+575
+00:13:28,320 --> 00:13:31,430
+only interested in an integer okay
+then x equals count
+
+576
+00:13:31,430 --> 00:13:31,440
+then x equals count
+ 
+
+577
+00:13:31,440 --> 00:13:35,509
+then x equals count
+nums mint okay then you tell me if
+
+578
+00:13:35,509 --> 00:13:35,519
+nums mint okay then you tell me if
+ 
+
+579
+00:13:35,519 --> 00:13:39,670
+nums mint okay then you tell me if
+if x is bigger or equals than k
+
+580
+00:13:39,670 --> 00:13:39,680
+if x is bigger or equals than k
+ 
+
+581
+00:13:39,680 --> 00:13:43,430
+if x is bigger or equals than k
+then we need to increase the meat
+
+582
+00:13:43,430 --> 00:13:43,440
+then we need to increase the meat
+ 
+
+583
+00:13:43,440 --> 00:13:46,870
+then we need to increase the meat
+right yes yes then
+
+584
+00:13:46,870 --> 00:13:46,880
+right yes yes then
+ 
+
+585
+00:13:46,880 --> 00:13:51,910
+right yes yes then
+what left equals
+
+586
+00:13:51,910 --> 00:13:51,920
+
+ 
+
+587
+00:13:51,920 --> 00:13:55,509
+
+one yeah and s
+
+588
+00:13:55,509 --> 00:13:55,519
+
+ 
+
+589
+00:13:55,519 --> 00:13:59,350
+
+equals one okay and return
+
+590
+00:13:59,350 --> 00:13:59,360
+equals one okay and return
+ 
+
+591
+00:13:59,360 --> 00:14:01,910
+equals one okay and return
+right in this case okay let's see if it
+
+592
+00:14:01,910 --> 00:14:01,920
+right in this case okay let's see if it
+ 
+
+593
+00:14:01,920 --> 00:14:04,790
+right in this case okay let's see if it
+also 27 okay
+
+594
+00:14:04,790 --> 00:14:04,800
+also 27 okay
+ 
+
+595
+00:14:04,800 --> 00:14:07,509
+also 27 okay
+yes we're done you see so it's the same
+
+596
+00:14:07,509 --> 00:14:07,519
+yes we're done you see so it's the same
+ 
+
+597
+00:14:07,519 --> 00:14:07,910
+yes we're done you see so it's the same
+yeah
+
+598
+00:14:07,910 --> 00:14:07,920
+yeah
+ 
+
+599
+00:14:07,920 --> 00:14:11,189
+yeah
+it's the same let's get it is it
+
+600
+00:14:11,189 --> 00:14:11,199
+it's the same let's get it is it
+ 
+
+601
+00:14:11,199 --> 00:14:15,430
+it's the same let's get it is it
+any question so far are you sure
+
+602
+00:14:15,430 --> 00:14:15,440
+any question so far are you sure
+ 
+
+603
+00:14:15,440 --> 00:14:17,430
+any question so far are you sure
+what's the complexity of the card
+
+604
+00:14:17,430 --> 00:14:17,440
+what's the complexity of the card
+ 
+
+605
+00:14:17,440 --> 00:14:22,550
+what's the complexity of the card
+function
+
+606
+00:14:22,550 --> 00:14:22,560
+
+ 
+
+607
+00:14:22,560 --> 00:14:25,590
+
+what's the complexity of case largest oh
+
+608
+00:14:25,590 --> 00:14:25,600
+what's the complexity of case largest oh
+ 
+
+609
+00:14:25,600 --> 00:14:28,949
+what's the complexity of case largest oh
+log f no oh and log n because they use
+
+610
+00:14:28,949 --> 00:14:28,959
+log f no oh and log n because they use
+ 
+
+611
+00:14:28,959 --> 00:14:30,870
+log f no oh and log n because they use
+the code from here look the call
+
+612
+00:14:30,870 --> 00:14:30,880
+the code from here look the call
+ 
+
+613
+00:14:30,880 --> 00:14:32,550
+the code from here look the call
+function is o n
+
+614
+00:14:32,550 --> 00:14:32,560
+function is o n
+ 
+
+615
+00:14:32,560 --> 00:14:35,269
+function is o n
+and this binary search is usually o log
+
+616
+00:14:35,269 --> 00:14:35,279
+and this binary search is usually o log
+ 
+
+617
+00:14:35,279 --> 00:14:35,590
+and this binary search is usually o log
+n
+
+618
+00:14:35,590 --> 00:14:35,600
+n
+ 
+
+619
+00:14:35,600 --> 00:14:37,350
+n
+so when it times it together you see
+
+620
+00:14:37,350 --> 00:14:37,360
+so when it times it together you see
+ 
+
+621
+00:14:37,360 --> 00:14:38,790
+so when it times it together you see
+together it's o and log n
+
+622
+00:14:38,790 --> 00:14:38,800
+together it's o and log n
+ 
+
+623
+00:14:38,800 --> 00:14:41,990
+together it's o and log n
+all right yes so what can you
+
+624
+00:14:41,990 --> 00:14:42,000
+all right yes so what can you
+ 
+
+625
+00:14:42,000 --> 00:14:45,509
+all right yes so what can you
+tell me why when why they are more than
+
+626
+00:14:45,509 --> 00:14:45,519
+tell me why when why they are more than
+ 
+
+627
+00:14:45,519 --> 00:14:45,829
+tell me why when why they are more than
+k
+
+628
+00:14:45,829 --> 00:14:45,839
+k
+ 
+
+629
+00:14:45,839 --> 00:14:48,870
+k
+numbers larger than
+
+630
+00:14:48,870 --> 00:14:48,880
+numbers larger than
+ 
+
+631
+00:14:48,880 --> 00:14:51,430
+numbers larger than
+the meat we need to increase the meat
+
+632
+00:14:51,430 --> 00:14:51,440
+the meat we need to increase the meat
+ 
+
+633
+00:14:51,440 --> 00:14:52,389
+the meat we need to increase the meat
+because for example
+
+634
+00:14:52,389 --> 00:14:52,399
+because for example
+ 
+
+635
+00:14:52,399 --> 00:14:54,150
+because for example
+we want we are interested in the third
+
+636
+00:14:54,150 --> 00:14:54,160
+we want we are interested in the third
+ 
+
+637
+00:14:54,160 --> 00:14:56,389
+we want we are interested in the third
+largest number and then we found out for
+
+638
+00:14:56,389 --> 00:14:56,399
+largest number and then we found out for
+ 
+
+639
+00:14:56,399 --> 00:14:59,590
+largest number and then we found out for
+this current meat there are five there
+
+640
+00:14:59,590 --> 00:14:59,600
+this current meat there are five there
+ 
+
+641
+00:14:59,600 --> 00:15:02,389
+this current meat there are five there
+are five numbers bigger than the meat
+
+642
+00:15:02,389 --> 00:15:02,399
+are five numbers bigger than the meat
+ 
+
+643
+00:15:02,399 --> 00:15:04,069
+are five numbers bigger than the meat
+so we are interested in the third
+
+644
+00:15:04,069 --> 00:15:04,079
+so we are interested in the third
+ 
+
+645
+00:15:04,079 --> 00:15:05,509
+so we are interested in the third
+largest number and there are five
+
+646
+00:15:05,509 --> 00:15:05,519
+largest number and there are five
+ 
+
+647
+00:15:05,519 --> 00:15:07,110
+largest number and there are five
+numbers bigger than the meat it means
+
+648
+00:15:07,110 --> 00:15:07,120
+numbers bigger than the meat it means
+ 
+
+649
+00:15:07,120 --> 00:15:09,110
+numbers bigger than the meat it means
+that we need to increase the meat
+
+650
+00:15:09,110 --> 00:15:09,120
+that we need to increase the meat
+ 
+
+651
+00:15:09,120 --> 00:15:12,310
+that we need to increase the meat
+so this x will be reduced right
+
+652
+00:15:12,310 --> 00:15:12,320
+so this x will be reduced right
+ 
+
+653
+00:15:12,320 --> 00:15:14,069
+so this x will be reduced right
+when we increase the meat what should we
+
+654
+00:15:14,069 --> 00:15:14,079
+when we increase the meat what should we
+ 
+
+655
+00:15:14,079 --> 00:15:16,069
+when we increase the meat what should we
+do we should search for the upper half
+
+656
+00:15:16,069 --> 00:15:16,079
+do we should search for the upper half
+ 
+
+657
+00:15:16,079 --> 00:15:16,870
+do we should search for the upper half
+so that's why
+
+658
+00:15:16,870 --> 00:15:16,880
+so that's why
+ 
+
+659
+00:15:16,880 --> 00:15:19,189
+so that's why
+we set the left boundary into the mid
+
+660
+00:15:19,189 --> 00:15:19,199
+we set the left boundary into the mid
+ 
+
+661
+00:15:19,199 --> 00:15:19,990
+we set the left boundary into the mid
+plus one
+
+662
+00:15:19,990 --> 00:15:20,000
+plus one
+ 
+
+663
+00:15:20,000 --> 00:15:21,670
+plus one
+then it was this meter will be
+
+664
+00:15:21,670 --> 00:15:21,680
+then it was this meter will be
+ 
+
+665
+00:15:21,680 --> 00:15:23,110
+then it was this meter will be
+increasing
+
+666
+00:15:23,110 --> 00:15:23,120
+increasing
+ 
+
+667
+00:15:23,120 --> 00:15:25,269
+increasing
+similarly if they are smaller if we are
+
+668
+00:15:25,269 --> 00:15:25,279
+similarly if they are smaller if we are
+ 
+
+669
+00:15:25,279 --> 00:15:27,110
+similarly if they are smaller if we are
+looking for the third largest number but
+
+670
+00:15:27,110 --> 00:15:27,120
+looking for the third largest number but
+ 
+
+671
+00:15:27,120 --> 00:15:27,990
+looking for the third largest number but
+there are only
+
+672
+00:15:27,990 --> 00:15:28,000
+there are only
+ 
+
+673
+00:15:28,000 --> 00:15:31,110
+there are only
+two largest number in ugly meat then we
+
+674
+00:15:31,110 --> 00:15:31,120
+two largest number in ugly meat then we
+ 
+
+675
+00:15:31,120 --> 00:15:31,910
+two largest number in ugly meat then we
+need to
+
+676
+00:15:31,910 --> 00:15:31,920
+need to
+ 
+
+677
+00:15:31,920 --> 00:15:36,150
+need to
+reduce the meat now we set the
+
+678
+00:15:36,150 --> 00:15:36,160
+reduce the meat now we set the
+ 
+
+679
+00:15:36,160 --> 00:15:39,189
+reduce the meat now we set the
+right hand right boundary meat minus one
+
+680
+00:15:39,189 --> 00:15:39,199
+right hand right boundary meat minus one
+ 
+
+681
+00:15:39,199 --> 00:15:42,069
+right hand right boundary meat minus one
+so you keep the middle will be
+
+682
+00:15:42,069 --> 00:15:42,079
+so you keep the middle will be
+ 
+
+683
+00:15:42,079 --> 00:15:44,949
+so you keep the middle will be
+meter will be in the lower half am right
+
+684
+00:15:44,949 --> 00:15:44,959
+meter will be in the lower half am right
+ 
+
+685
+00:15:44,959 --> 00:15:45,829
+meter will be in the lower half am right
+yes
+
+686
+00:15:45,829 --> 00:15:45,839
+yes
+ 
+
+687
+00:15:45,839 --> 00:15:48,550
+yes
+do you get it yes it's like a searching
+
+688
+00:15:48,550 --> 00:15:48,560
+do you get it yes it's like a searching
+ 
+
+689
+00:15:48,560 --> 00:15:49,110
+do you get it yes it's like a searching
+it's like
+
+690
+00:15:49,110 --> 00:15:49,120
+it's like
+ 
+
+691
+00:15:49,120 --> 00:15:51,670
+it's like
+you make a guess from zero to a hundred
+
+692
+00:15:51,670 --> 00:15:51,680
+you make a guess from zero to a hundred
+ 
+
+693
+00:15:51,680 --> 00:15:54,310
+you make a guess from zero to a hundred
+and then if i say fifty
+
+694
+00:15:54,310 --> 00:15:54,320
+and then if i say fifty
+ 
+
+695
+00:15:54,320 --> 00:15:57,430
+and then if i say fifty
+if you get some number uh 50
+
+696
+00:15:57,430 --> 00:15:57,440
+if you get some number uh 50
+ 
+
+697
+00:15:57,440 --> 00:15:59,749
+if you get some number uh 50
+like i said if it's a smaller than what
+
+698
+00:15:59,749 --> 00:15:59,759
+like i said if it's a smaller than what
+ 
+
+699
+00:15:59,759 --> 00:16:01,829
+like i said if it's a smaller than what
+i i thought you need to
+
+700
+00:16:01,829 --> 00:16:01,839
+i i thought you need to
+ 
+
+701
+00:16:01,839 --> 00:16:04,790
+i i thought you need to
+consider searching between 50 to 100 i'm
+
+702
+00:16:04,790 --> 00:16:04,800
+consider searching between 50 to 100 i'm
+ 
+
+703
+00:16:04,800 --> 00:16:05,189
+consider searching between 50 to 100 i'm
+right
+
+704
+00:16:05,189 --> 00:16:05,199
+right
+ 
+
+705
+00:16:05,199 --> 00:16:07,110
+right
+yes and if i say it's bigger then you
+
+706
+00:16:07,110 --> 00:16:07,120
+yes and if i say it's bigger then you
+ 
+
+707
+00:16:07,120 --> 00:16:09,430
+yes and if i say it's bigger then you
+need to search if between 0 to 50. i'm
+
+708
+00:16:09,430 --> 00:16:09,440
+need to search if between 0 to 50. i'm
+ 
+
+709
+00:16:09,440 --> 00:16:10,230
+need to search if between 0 to 50. i'm
+right
+
+710
+00:16:10,230 --> 00:16:10,240
+right
+ 
+
+711
+00:16:10,240 --> 00:16:13,590
+right
+yeah not 50 exactly 50 minus one and
+
+712
+00:16:13,590 --> 00:16:13,600
+yeah not 50 exactly 50 minus one and
+ 
+
+713
+00:16:13,600 --> 00:16:16,790
+yeah not 50 exactly 50 minus one and
+in other cases it's 50 plus one do we
+
+714
+00:16:16,790 --> 00:16:16,800
+in other cases it's 50 plus one do we
+ 
+
+715
+00:16:16,800 --> 00:16:17,590
+in other cases it's 50 plus one do we
+get it
+
+716
+00:16:17,590 --> 00:16:17,600
+get it
+ 
+
+717
+00:16:17,600 --> 00:16:19,910
+get it
+yeah this experiment is very very
+
+718
+00:16:19,910 --> 00:16:19,920
+yeah this experiment is very very
+ 
+
+719
+00:16:19,920 --> 00:16:21,430
+yeah this experiment is very very
+important okay
+
+720
+00:16:21,430 --> 00:16:21,440
+important okay
+ 
+
+721
+00:16:21,440 --> 00:16:25,189
+important okay
+okay good job good job let's let's do
+
+722
+00:16:25,189 --> 00:16:25,199
+okay good job good job let's let's do
+ 
+
+723
+00:16:25,199 --> 00:16:25,700
+okay good job good job let's let's do
+um
+
+724
+00:16:25,700 --> 00:16:25,710
+um
+ 
+
+725
+00:16:25,710 --> 00:16:28,710
+um
+[Music]
+
+726
+00:16:28,710 --> 00:16:28,720
+[Music]
+ 
+
+727
+00:16:28,720 --> 00:16:30,949
+[Music]
+okay so now you can turn on the lights
+
+728
+00:16:30,949 --> 00:16:30,959
+okay so now you can turn on the lights
+ 
+
+729
+00:16:30,959 --> 00:16:32,230
+okay so now you can turn on the lights
+and do some
+
+730
+00:16:32,230 --> 00:16:32,240
+and do some
+ 
+
+731
+00:16:32,240 --> 00:16:34,829
+and do some
+dang things to other people in the world
+
+732
+00:16:34,829 --> 00:16:34,839
+dang things to other people in the world
+ 
+
+733
+00:16:34,839 --> 00:16:37,839
+dang things to other people in the world
+okay
+
