@@ -1,0 +1,2520 @@
+1
+00:00:00,080 --> 00:00:02,240
+go
+
+2
+00:00:01,120 --> 00:00:05,200
+hello
+
+3
+00:00:02,240 --> 00:00:07,919
+hello michelle mr rhino all right
+
+4
+00:00:05,200 --> 00:00:09,920
+so today we're given a square metric
+
+5
+00:00:07,919 --> 00:00:11,679
+square metric yeah you know the square
+
+6
+00:00:09,920 --> 00:00:13,040
+metric
+
+7
+00:00:11,679 --> 00:00:14,480
+and
+
+8
+00:00:13,040 --> 00:00:16,320
+square matrix
+
+9
+00:00:14,480 --> 00:00:17,680
+for example this is the square matrix
+
+10
+00:00:16,320 --> 00:00:21,039
+three times three
+
+11
+00:00:17,680 --> 00:00:25,600
+and we want to find out if each row each
+
+12
+00:00:21,039 --> 00:00:25,600
+column contains all the numbers from one
+
+13
+00:00:27,359 --> 00:00:32,239
+not quite quite similar yes you do but
+
+14
+00:00:29,439 --> 00:00:35,040
+but no no no 1 to n for example this 3
+
+15
+00:00:32,239 --> 00:00:36,239
+this is n equals 3 3 times 3 so this 1 2
+
+16
+00:00:35,040 --> 00:00:37,120
+3
+
+17
+00:00:36,239 --> 00:00:38,719
+3
+
+18
+00:00:37,120 --> 00:00:41,920
+1 2
+
+19
+00:00:38,719 --> 00:00:44,640
+2 3 1 then that's okay why is that
+
+20
+00:00:41,920 --> 00:00:46,640
+because there's one degree there's three
+
+21
+00:00:44,640 --> 00:00:49,200
+one two there's two three one there's
+
+22
+00:00:46,640 --> 00:00:51,440
+one pretty the t won't create yeah
+
+23
+00:00:49,200 --> 00:00:53,920
+exactly so each row contains all the
+
+24
+00:00:51,440 --> 00:00:55,840
+numbers from one to and one to three
+
+25
+00:00:53,920 --> 00:00:58,239
+each columns contains all the numbers
+
+26
+00:00:55,840 --> 00:01:01,840
+from one to six okay this is one however
+
+27
+00:00:58,239 --> 00:01:01,840
+if i give another example
+
+28
+00:01:01,920 --> 00:01:06,240
+one two three
+
+29
+00:01:03,760 --> 00:01:10,159
+one three two two
+
+30
+00:01:06,240 --> 00:01:12,400
+two one one is it nine because
+
+31
+00:01:10,159 --> 00:01:13,520
+the first one yeah this one yeah and
+
+32
+00:01:12,400 --> 00:01:14,320
+then this one
+
+33
+00:01:13,520 --> 00:01:18,159
+okay
+
+34
+00:01:14,320 --> 00:01:21,200
+yeah easy yesterday's task easy
+
+35
+00:01:18,159 --> 00:01:23,600
+what's what's the idea um
+
+36
+00:01:21,200 --> 00:01:24,479
+you have to find
+
+37
+00:01:23,600 --> 00:01:25,200
+one
+
+38
+00:01:24,479 --> 00:01:27,520
+like
+
+39
+00:01:25,200 --> 00:01:29,680
+no no no no not necessarily the dire
+
+40
+00:01:27,520 --> 00:01:31,600
+ones just the rows and columns
+
+41
+00:01:29,680 --> 00:01:33,200
+but that's a very good point yeah rows
+
+42
+00:01:31,600 --> 00:01:35,280
+and columns
+
+43
+00:01:33,200 --> 00:01:36,560
+rows columns
+
+44
+00:01:35,280 --> 00:01:38,880
+content
+
+45
+00:01:36,560 --> 00:01:40,450
+content one to n
+
+46
+00:01:38,880 --> 00:01:41,759
+okay
+
+47
+00:01:40,450 --> 00:01:42,560
+[Music]
+
+48
+00:01:41,759 --> 00:01:46,640
+so
+
+49
+00:01:42,560 --> 00:01:49,040
+any idea we should solve this quick
+
+50
+00:01:46,640 --> 00:01:50,720
+so i mean this this problem is easy we
+
+51
+00:01:49,040 --> 00:01:52,320
+just go through each row
+
+52
+00:01:50,720 --> 00:01:55,119
+to check
+
+53
+00:01:52,320 --> 00:01:58,719
+if each row contains all the numbers one
+
+54
+00:01:55,119 --> 00:02:02,000
+to n we go through each columns to check
+
+55
+00:01:58,719 --> 00:02:04,000
+if each column contains one to n right
+
+56
+00:02:02,000 --> 00:02:05,119
+yeah
+
+57
+00:02:04,000 --> 00:02:06,159
+so
+
+58
+00:02:05,119 --> 00:02:08,720
+look
+
+59
+00:02:06,159 --> 00:02:10,479
+we are checking the numbers so we we are
+
+60
+00:02:08,720 --> 00:02:12,560
+not checking the sequence right we're
+
+61
+00:02:10,479 --> 00:02:14,879
+not checking the order sequence doesn't
+
+62
+00:02:12,560 --> 00:02:16,959
+matter but what matter is what the
+
+63
+00:02:14,879 --> 00:02:19,040
+numbers so
+
+64
+00:02:16,959 --> 00:02:22,000
+if we want to compare two
+
+65
+00:02:19,040 --> 00:02:23,680
+two i mean two lists have a sum
+
+66
+00:02:22,000 --> 00:02:25,599
+like one three two
+
+67
+00:02:23,680 --> 00:02:27,920
+or one two three
+
+68
+00:02:25,599 --> 00:02:30,560
+yeah these are the variants of the
+
+69
+00:02:27,920 --> 00:02:33,120
+permutation yeah but they are using the
+
+70
+00:02:30,560 --> 00:02:35,599
+same numbers so what kind of data
+
+71
+00:02:33,120 --> 00:02:36,560
+structure can you use
+
+72
+00:02:35,599 --> 00:02:37,840
+you know
+
+73
+00:02:36,560 --> 00:02:40,000
+to compare
+
+74
+00:02:37,840 --> 00:02:42,000
+these are all equal because what because
+
+75
+00:02:40,000 --> 00:02:44,800
+they only they all contain the same
+
+76
+00:02:42,000 --> 00:02:46,640
+numbers from one to three right yeah so
+
+77
+00:02:44,800 --> 00:02:48,959
+what kind of data structure can we use
+
+78
+00:02:46,640 --> 00:02:52,160
+to compare
+
+79
+00:02:48,959 --> 00:02:54,239
+if we turning into d3
+
+80
+00:02:52,160 --> 00:02:57,680
+into something
+
+81
+00:02:54,239 --> 00:02:59,040
+you know something that that is false
+
+82
+00:02:57,680 --> 00:02:59,760
+it's first
+
+83
+00:02:59,040 --> 00:03:02,840
+yeah
+
+84
+00:02:59,760 --> 00:03:06,319
+i'm saying this a is a list b
+
+85
+00:03:02,840 --> 00:03:07,120
+is this i want to find out if all those
+
+86
+00:03:06,319 --> 00:03:10,400
+three
+
+87
+00:03:07,120 --> 00:03:11,840
+this contains the same number of i items
+
+88
+00:03:10,400 --> 00:03:14,000
+same numbers
+
+89
+00:03:11,840 --> 00:03:15,840
+right so they they should be equal
+
+90
+00:03:14,000 --> 00:03:18,000
+because they all contain one two three
+
+91
+00:03:15,840 --> 00:03:20,400
+but different order so we want to
+
+92
+00:03:18,000 --> 00:03:22,640
+convert it how do we check this
+
+93
+00:03:20,400 --> 00:03:25,040
+we want to we can convert it to some
+
+94
+00:03:22,640 --> 00:03:27,280
+kind of you know three letters here
+
+95
+00:03:25,040 --> 00:03:28,319
+and then we can compare if these is the
+
+96
+00:03:27,280 --> 00:03:29,519
+same
+
+97
+00:03:28,319 --> 00:03:33,040
+any idea
+
+98
+00:03:29,519 --> 00:03:33,040
+what kind of data social have you
+
+99
+00:03:35,440 --> 00:03:39,599
+no no what kind of
+
+100
+00:03:36,879 --> 00:03:41,280
+data structure i mean the first one is s
+
+101
+00:03:39,599 --> 00:03:43,040
+the second letter
+
+102
+00:03:41,280 --> 00:03:44,640
+exclusive
+
+103
+00:03:43,040 --> 00:03:47,680
+so s what
+
+104
+00:03:44,640 --> 00:03:50,319
+set yeah set i just did that yeah so
+
+105
+00:03:47,680 --> 00:03:51,200
+we're converting these to set
+
+106
+00:03:50,319 --> 00:03:54,560
+yeah
+
+107
+00:03:51,200 --> 00:03:56,560
+then we can compare if the numbers are
+
+108
+00:03:54,560 --> 00:03:57,760
+equal right yeah the set is a very
+
+109
+00:03:56,560 --> 00:04:01,840
+useful
+
+110
+00:03:57,760 --> 00:04:04,080
+data structure the set contains unique
+
+111
+00:04:01,840 --> 00:04:06,720
+unique okay because we know these are
+
+112
+00:04:04,080 --> 00:04:08,239
+one to end only right so they they
+
+113
+00:04:06,720 --> 00:04:10,239
+contain the unique
+
+114
+00:04:08,239 --> 00:04:12,840
+numbers then we can compare if they
+
+115
+00:04:10,239 --> 00:04:15,519
+contain the unique numbers
+
+116
+00:04:12,840 --> 00:04:18,160
+right yeah okay so the the other thing i
+
+117
+00:04:15,519 --> 00:04:20,959
+want to look it's easy to go through the
+
+118
+00:04:18,160 --> 00:04:22,560
+nose right we just say for r in magic
+
+119
+00:04:20,959 --> 00:04:26,880
+and then you give us
+
+120
+00:04:22,560 --> 00:04:28,800
+if this is m okay then we say for row
+
+121
+00:04:26,880 --> 00:04:31,360
+in m
+
+122
+00:04:28,800 --> 00:04:32,720
+so this row will contain one two three
+
+123
+00:04:31,360 --> 00:04:34,400
+three one two
+
+124
+00:04:32,720 --> 00:04:37,280
+two three one yeah that's easy to
+
+125
+00:04:34,400 --> 00:04:39,680
+compare the row how about the columns
+
+126
+00:04:37,280 --> 00:04:42,479
+columns is not easy right
+
+127
+00:04:39,680 --> 00:04:44,880
+but in python we have this
+
+128
+00:04:42,479 --> 00:04:46,639
+we can use this chip
+
+129
+00:04:44,880 --> 00:04:48,960
+what's chip remember
+
+130
+00:04:46,639 --> 00:04:51,199
+what's chip
+
+131
+00:04:48,960 --> 00:04:53,759
+tip what's tip is
+
+132
+00:04:51,199 --> 00:04:57,360
+a zip yeah you put two things together
+
+133
+00:04:53,759 --> 00:05:02,000
+remember look this is one two three
+
+134
+00:04:57,360 --> 00:05:04,400
+a equals that b equals one four five six
+
+135
+00:05:02,000 --> 00:05:06,400
+and what's chip a b
+
+136
+00:05:04,400 --> 00:05:08,479
+one three four five six
+
+137
+00:05:06,400 --> 00:05:11,280
+what's the ib come on one two three four
+
+138
+00:05:08,479 --> 00:05:12,000
+five six
+
+139
+00:05:11,280 --> 00:05:14,960
+look
+
+140
+00:05:12,000 --> 00:05:16,720
+this is a this is b one two three four
+
+141
+00:05:14,960 --> 00:05:18,960
+five six
+
+142
+00:05:16,720 --> 00:05:21,840
+look at this look this is
+
+143
+00:05:18,960 --> 00:05:24,240
+one four two five six yeah yeah yeah but
+
+144
+00:05:21,840 --> 00:05:26,560
+so look this is the shipping yeah you
+
+145
+00:05:24,240 --> 00:05:29,360
+just imagine there's a
+
+146
+00:05:26,560 --> 00:05:31,199
+that's your clothes chipping so one vote
+
+147
+00:05:29,360 --> 00:05:33,520
+so you want we have you will have a
+
+148
+00:05:31,199 --> 00:05:35,280
+couple one four
+
+149
+00:05:33,520 --> 00:05:38,160
+two five
+
+150
+00:05:35,280 --> 00:05:39,759
+three six yeah okay yeah we take one
+
+151
+00:05:38,160 --> 00:05:42,639
+element from each
+
+152
+00:05:39,759 --> 00:05:44,080
+yeah we check it yeah look dip it tip it
+
+153
+00:05:42,639 --> 00:05:44,960
+tip it
+
+154
+00:05:44,080 --> 00:05:48,240
+okay
+
+155
+00:05:44,960 --> 00:05:50,560
+okay so now this is another way
+
+156
+00:05:48,240 --> 00:05:53,759
+of doing that is that we can use the zip
+
+157
+00:05:50,560 --> 00:05:56,240
+function but a little bit special here
+
+158
+00:05:53,759 --> 00:05:58,000
+so instead of chip we put a star here
+
+159
+00:05:56,240 --> 00:06:00,080
+chip m
+
+160
+00:05:58,000 --> 00:06:01,039
+okay here
+
+161
+00:06:00,080 --> 00:06:02,240
+so
+
+162
+00:06:01,039 --> 00:06:03,680
+so look
+
+163
+00:06:02,240 --> 00:06:06,880
+here
+
+164
+00:06:03,680 --> 00:06:08,960
+1 2 3 3 5 one two two three four so when
+
+165
+00:06:06,880 --> 00:06:10,800
+i check please
+
+166
+00:06:08,960 --> 00:06:13,440
+and i convert it to a list because this
+
+167
+00:06:10,800 --> 00:06:15,199
+thing returns an iterator if i
+
+168
+00:06:13,440 --> 00:06:16,160
+convert it to a list then it will give
+
+169
+00:06:15,199 --> 00:06:18,080
+me what
+
+170
+00:06:16,160 --> 00:06:20,000
+it will give me and then you can tell me
+
+171
+00:06:18,080 --> 00:06:23,280
+what what it is okay you'll tell me what
+
+172
+00:06:20,000 --> 00:06:25,039
+it is you'll tell me is one
+
+173
+00:06:23,280 --> 00:06:26,479
+three two
+
+174
+00:06:25,039 --> 00:06:27,919
+three
+
+175
+00:06:26,479 --> 00:06:29,759
+uh
+
+176
+00:06:27,919 --> 00:06:31,919
+two one three
+
+177
+00:06:29,759 --> 00:06:32,960
+three two one
+
+178
+00:06:31,919 --> 00:06:35,840
+okay
+
+179
+00:06:32,960 --> 00:06:35,840
+yeah
+
+180
+00:06:36,720 --> 00:06:40,720
+so what what it is what it is
+
+181
+00:06:41,280 --> 00:06:44,800
+from here to here water
+
+182
+00:06:43,840 --> 00:06:48,560
+come on
+
+183
+00:06:44,800 --> 00:06:51,280
+this is magic and if we can start list
+
+184
+00:06:48,560 --> 00:06:53,680
+what do we get here
+
+185
+00:06:51,280 --> 00:06:56,160
+we have learned this before right look
+
+186
+00:06:53,680 --> 00:06:59,680
+one two three what happened from what
+
+187
+00:06:56,160 --> 00:07:02,720
+happened from this m to the transition
+
+188
+00:06:59,680 --> 00:07:06,000
+to this it's just
+
+189
+00:07:02,720 --> 00:07:08,080
+yeah i was like single we call it
+
+190
+00:07:06,000 --> 00:07:11,039
+we have done this before remember we
+
+191
+00:07:08,080 --> 00:07:11,039
+call it trend
+
+192
+00:07:11,120 --> 00:07:15,440
+expansion transpose and we don't need
+
+193
+00:07:13,840 --> 00:07:17,360
+transfers
+
+194
+00:07:15,440 --> 00:07:19,520
+this one transpose metric
+
+195
+00:07:17,360 --> 00:07:21,120
+okay so
+
+196
+00:07:19,520 --> 00:07:24,560
+so it's like so
+
+197
+00:07:21,120 --> 00:07:27,199
+to be more precisely what why why needs
+
+198
+00:07:24,560 --> 00:07:31,199
+to give the transfer so for example is a
+
+199
+00:07:27,199 --> 00:07:32,319
+equals like that okay so that's one two
+
+200
+00:07:31,199 --> 00:07:34,800
+okay
+
+201
+00:07:32,319 --> 00:07:37,520
+three four
+
+202
+00:07:34,800 --> 00:07:39,840
+and then five six
+
+203
+00:07:37,520 --> 00:07:40,800
+okay so let's let what was this what's
+
+204
+00:07:39,840 --> 00:07:44,639
+the
+
+205
+00:07:40,800 --> 00:07:47,120
+so it's a metric of one two three four
+
+206
+00:07:44,639 --> 00:07:47,919
+five six okay so this is the three times
+
+207
+00:07:47,120 --> 00:07:49,440
+two
+
+208
+00:07:47,919 --> 00:07:51,680
+matrix
+
+209
+00:07:49,440 --> 00:07:54,319
+so if we transpose it
+
+210
+00:07:51,680 --> 00:07:55,440
+if we do this this
+
+211
+00:07:54,319 --> 00:07:56,840
+tip
+
+212
+00:07:55,440 --> 00:08:00,400
+star
+
+213
+00:07:56,840 --> 00:08:02,560
+a so what is it what do we have
+
+214
+00:08:00,400 --> 00:08:05,039
+so you will have what it will take one
+
+215
+00:08:02,560 --> 00:08:08,000
+from each one one three five
+
+216
+00:08:05,039 --> 00:08:10,560
+so you'll be one three five
+
+217
+00:08:08,000 --> 00:08:12,479
+and then two four six okay
+
+218
+00:08:10,560 --> 00:08:14,960
+two four six
+
+219
+00:08:12,479 --> 00:08:16,879
+so look these these elements each
+
+220
+00:08:14,960 --> 00:08:19,039
+element is a tupper but it's an array of
+
+221
+00:08:16,879 --> 00:08:20,639
+tupper so basically this is kind of like
+
+222
+00:08:19,039 --> 00:08:23,360
+one three five
+
+223
+00:08:20,639 --> 00:08:26,080
+two four six
+
+224
+00:08:23,360 --> 00:08:28,879
+okay so look one two three four five six
+
+225
+00:08:26,080 --> 00:08:30,639
+if we transpose this look one two three
+
+226
+00:08:28,879 --> 00:08:32,719
+four five six is transpose this will
+
+227
+00:08:30,639 --> 00:08:34,959
+become one three five two four six how
+
+228
+00:08:32,719 --> 00:08:36,560
+do we get it look one two three four
+
+229
+00:08:34,959 --> 00:08:39,519
+five six we take
+
+230
+00:08:36,560 --> 00:08:41,279
+one element from each okay so look one i
+
+231
+00:08:39,519 --> 00:08:42,320
+take one for the first one
+
+232
+00:08:41,279 --> 00:08:44,720
+yeah
+
+233
+00:08:42,320 --> 00:08:47,440
+three for the second one five from the
+
+234
+00:08:44,720 --> 00:08:51,279
+third one so it's one three five yeah
+
+235
+00:08:47,440 --> 00:08:52,320
+second two four six okay let's call it
+
+236
+00:08:51,279 --> 00:08:54,480
+transfer
+
+237
+00:08:52,320 --> 00:08:56,560
+so if we do this what happened now we
+
+238
+00:08:54,480 --> 00:08:59,120
+can transport it and then look if we go
+
+239
+00:08:56,560 --> 00:09:01,600
+through the rows again and these will be
+
+240
+00:08:59,120 --> 00:09:03,680
+the columns of the original
+
+241
+00:09:01,600 --> 00:09:05,920
+metric right so we can check if this is
+
+242
+00:09:03,680 --> 00:09:07,200
+that one to end all right
+
+243
+00:09:05,920 --> 00:09:08,800
+yeah
+
+244
+00:09:07,200 --> 00:09:12,399
+makes sense
+
+245
+00:09:08,800 --> 00:09:12,399
+okay so then we can do this look
+
+246
+00:09:14,000 --> 00:09:19,440
+okay let's let's write it okay okay
+
+247
+00:09:17,740 --> 00:09:21,680
+[Music]
+
+248
+00:09:19,440 --> 00:09:24,240
+define let's say check
+
+249
+00:09:21,680 --> 00:09:25,839
+and i for this is a metric and first of
+
+250
+00:09:24,240 --> 00:09:27,360
+all i want to get the length the number
+
+251
+00:09:25,839 --> 00:09:30,000
+of rows
+
+252
+00:09:27,360 --> 00:09:33,600
+and i can say and then i can i i need to
+
+253
+00:09:30,000 --> 00:09:35,040
+construct a set of one to end okay so
+
+254
+00:09:33,600 --> 00:09:37,519
+let's let's
+
+255
+00:09:35,040 --> 00:09:39,279
+two and let's say v equals i want to
+
+256
+00:09:37,519 --> 00:09:42,000
+convert it to a set
+
+257
+00:09:39,279 --> 00:09:42,880
+and then i will have a range start from
+
+258
+00:09:42,000 --> 00:09:45,279
+one
+
+259
+00:09:42,880 --> 00:09:47,200
+to n right
+
+260
+00:09:45,279 --> 00:09:49,839
+okay so this is the
+
+261
+00:09:47,200 --> 00:09:53,519
+set set of the one two three right and
+
+262
+00:09:49,839 --> 00:09:54,800
+then i just need to compare four r in
+
+263
+00:09:53,519 --> 00:09:59,120
+m
+
+264
+00:09:54,800 --> 00:10:01,600
+if okay if r not equal
+
+265
+00:09:59,120 --> 00:10:02,880
+okay so look i is a release i need to
+
+266
+00:10:01,600 --> 00:10:04,560
+convert it to
+
+267
+00:10:02,880 --> 00:10:07,200
+a set ah
+
+268
+00:10:04,560 --> 00:10:09,519
+not equal v then we determine false
+
+269
+00:10:07,200 --> 00:10:10,959
+alright we are checking the rows right
+
+270
+00:10:09,519 --> 00:10:14,399
+we can
+
+271
+00:10:10,959 --> 00:10:16,000
+and then i need to do this for r in
+
+272
+00:10:14,399 --> 00:10:19,120
+chip
+
+273
+00:10:16,000 --> 00:10:21,360
+chip star and transpose it when you
+
+274
+00:10:19,120 --> 00:10:23,360
+transpose it the rows will become these
+
+275
+00:10:21,360 --> 00:10:25,120
+rows will become original
+
+276
+00:10:23,360 --> 00:10:27,519
+will be the original
+
+277
+00:10:25,120 --> 00:10:29,120
+the columns right so and i can say if
+
+278
+00:10:27,519 --> 00:10:31,440
+set
+
+279
+00:10:29,120 --> 00:10:33,040
+r not equal b
+
+280
+00:10:31,440 --> 00:10:35,200
+return
+
+281
+00:10:33,040 --> 00:10:36,320
+4 right
+
+282
+00:10:35,200 --> 00:10:37,839
+yeah
+
+283
+00:10:36,320 --> 00:10:39,600
+this is checking the rows this is
+
+284
+00:10:37,839 --> 00:10:41,839
+checking the columns
+
+285
+00:10:39,600 --> 00:10:45,200
+and if we all finish the check if at
+
+286
+00:10:41,839 --> 00:10:45,200
+this point will return what
+
+287
+00:10:52,000 --> 00:10:58,760
+what's the time complexity
+
+288
+00:10:55,040 --> 00:10:58,760
+what's the sample recipe
+
+289
+00:11:00,720 --> 00:11:04,160
+this is
+
+290
+00:11:02,079 --> 00:11:05,839
+there are n squared numbers here we need
+
+291
+00:11:04,160 --> 00:11:09,200
+to compare
+
+292
+00:11:05,839 --> 00:11:09,200
+yeah so what's that
+
+293
+00:11:09,519 --> 00:11:15,279
+let's say comparing the set oh n squared
+
+294
+00:11:12,240 --> 00:11:18,000
+yeah let's say we're comparing the set
+
+295
+00:11:15,279 --> 00:11:20,240
+is is constant time okay
+
+296
+00:11:18,000 --> 00:11:22,240
+is it constant time yeah uh
+
+297
+00:11:20,240 --> 00:11:25,440
+no it's not constant time but it's all n
+
+298
+00:11:22,240 --> 00:11:27,519
+time look this is n this is n
+
+299
+00:11:25,440 --> 00:11:30,640
+yeah and this is and this is n so okay
+
+300
+00:11:27,519 --> 00:11:33,360
+so transpose it we do it one time
+
+301
+00:11:30,640 --> 00:11:36,079
+three one times thing so it's actually
+
+302
+00:11:33,360 --> 00:11:38,320
+o n square right transpose will be
+
+303
+00:11:36,079 --> 00:11:41,360
+another one squared plus n squared so
+
+304
+00:11:38,320 --> 00:11:43,360
+it's it's out n square times two
+
+305
+00:11:41,360 --> 00:11:45,519
+is always squared okay
+
+306
+00:11:43,360 --> 00:11:48,160
+okay so this is one way of doing another
+
+307
+00:11:45,519 --> 00:11:50,160
+way okay which you might
+
+308
+00:11:48,160 --> 00:11:53,839
+might not um
+
+309
+00:11:50,160 --> 00:11:55,839
+find it simple to implement but uh let
+
+310
+00:11:53,839 --> 00:11:58,079
+me just
+
+311
+00:11:55,839 --> 00:12:00,480
+just say explain what um
+
+312
+00:11:58,079 --> 00:12:02,560
+what kind of
+
+313
+00:12:00,480 --> 00:12:05,040
+aggregate can we use to
+
+314
+00:12:02,560 --> 00:12:07,279
+to compare the equality right
+
+315
+00:12:05,040 --> 00:12:07,279
+so
+
+316
+00:12:07,760 --> 00:12:13,120
+what's this x and y remember
+
+317
+00:12:09,920 --> 00:12:14,079
+still remember exclusive or
+
+318
+00:12:13,120 --> 00:12:18,000
+yeah
+
+319
+00:12:14,079 --> 00:12:21,120
+n or exclusive or remember
+
+320
+00:12:18,000 --> 00:12:21,120
+remember the tables
+
+321
+00:12:22,839 --> 00:12:29,839
+n uh let
+
+322
+00:12:25,760 --> 00:12:29,839
+let's uh write this table okay
+
+323
+00:12:30,639 --> 00:12:35,279
+one zero one zero
+
+324
+00:12:32,880 --> 00:12:36,959
+if this is all
+
+325
+00:12:35,279 --> 00:12:40,399
+one on one
+
+326
+00:12:36,959 --> 00:12:42,720
+is one one or zero is one zero or one is
+
+327
+00:12:40,399 --> 00:12:44,320
+one zero zero is zero yeah one of them
+
+328
+00:12:42,720 --> 00:12:47,200
+is two is true
+
+329
+00:12:44,320 --> 00:12:48,079
+if this is n
+
+330
+00:12:47,200 --> 00:12:50,240
+two
+
+331
+00:12:48,079 --> 00:12:51,600
+one and one is two all others are false
+
+332
+00:12:50,240 --> 00:12:54,000
+right
+
+333
+00:12:51,600 --> 00:12:56,079
+yeah so this will become
+
+334
+00:12:54,000 --> 00:12:58,639
+yeah all right
+
+335
+00:12:56,079 --> 00:13:01,440
+eric and ryan
+
+336
+00:12:58,639 --> 00:13:05,120
+needs to do work
+
+337
+00:13:01,440 --> 00:13:08,000
+so that's two things one one error to it
+
+338
+00:13:05,120 --> 00:13:10,079
+ryan didn't do it then that's false okay
+
+339
+00:13:08,000 --> 00:13:13,600
+yeah and now if how about you say eric
+
+340
+00:13:10,079 --> 00:13:16,560
+to eric all right so one of them
+
+341
+00:13:13,600 --> 00:13:19,040
+is true that is true right how about
+
+342
+00:13:16,560 --> 00:13:21,519
+exclusive or remember
+
+343
+00:13:19,040 --> 00:13:25,519
+one one is zero
+
+344
+00:13:21,519 --> 00:13:27,600
+zero zero is zero one zero is one zero
+
+345
+00:13:25,519 --> 00:13:29,040
+one is one okay so can you tell me what
+
+346
+00:13:27,600 --> 00:13:32,240
+what's exclusive
+
+347
+00:13:29,040 --> 00:13:35,760
+um if this is if they're both they both
+
+348
+00:13:32,240 --> 00:13:37,839
+are the same and then it's false and if
+
+349
+00:13:35,760 --> 00:13:40,320
+otherwise it's true yeah okay let's see
+
+350
+00:13:37,839 --> 00:13:42,320
+exclusive oh yeah exactly so it has to
+
+351
+00:13:40,320 --> 00:13:45,120
+be both has to be different to be the
+
+352
+00:13:42,320 --> 00:13:46,880
+same attribute to be one okay
+
+353
+00:13:45,120 --> 00:13:48,720
+okay so look
+
+354
+00:13:46,880 --> 00:13:49,839
+we we are checking we need we want to
+
+355
+00:13:48,720 --> 00:13:51,920
+check if
+
+356
+00:13:49,839 --> 00:13:53,199
+each row is one contains the number one
+
+357
+00:13:51,920 --> 00:13:55,120
+to n right
+
+358
+00:13:53,199 --> 00:13:57,839
+and how about if i i know you know
+
+359
+00:13:55,120 --> 00:14:00,399
+because one to n i can exclusive one
+
+360
+00:13:57,839 --> 00:14:03,920
+exclusive two exclusive three here
+
+361
+00:14:00,399 --> 00:14:05,199
+exclusive n right yeah if i say this is
+
+362
+00:14:03,920 --> 00:14:06,079
+x
+
+363
+00:14:05,199 --> 00:14:08,320
+right
+
+364
+00:14:06,079 --> 00:14:10,639
+and then if i exclusive all the numbers
+
+365
+00:14:08,320 --> 00:14:12,800
+again if i miss x
+
+366
+00:14:10,639 --> 00:14:16,480
+okay so can you tell me if i use this x
+
+367
+00:14:12,800 --> 00:14:19,600
+to exclusive one two three what happened
+
+368
+00:14:16,480 --> 00:14:21,040
+if i look i is s exclusive 1 exclusive 2
+
+369
+00:14:19,600 --> 00:14:24,720
+exclusive 3.
+
+370
+00:14:21,040 --> 00:14:26,560
+it chooses here n so what's this value
+
+371
+00:14:24,720 --> 00:14:30,320
+what's this value
+
+372
+00:14:26,560 --> 00:14:32,959
+come on x is one exclusive or exclusive
+
+373
+00:14:30,320 --> 00:14:35,040
+three exclusive to n and then i used to
+
+374
+00:14:32,959 --> 00:14:36,000
+add these x values to exclusive one
+
+375
+00:14:35,040 --> 00:14:38,399
+again
+
+376
+00:14:36,000 --> 00:14:40,720
+exclusive two exclusive three exclusive
+
+377
+00:14:38,399 --> 00:14:44,360
+four until exclusive n
+
+378
+00:14:40,720 --> 00:14:44,360
+so what's this value
+
+379
+00:14:47,760 --> 00:14:52,320
+what's the value from
+
+380
+00:14:49,519 --> 00:14:55,519
+so what does it mean x equals this then
+
+381
+00:14:52,320 --> 00:14:58,639
+it means that x1 exclusive one two and
+
+382
+00:14:55,519 --> 00:14:59,920
+then exclusive one again
+
+383
+00:14:58,639 --> 00:15:03,839
+yeah
+
+384
+00:14:59,920 --> 00:15:03,839
+so one exclusive one equals one
+
+385
+00:15:08,240 --> 00:15:12,560
+one
+
+386
+00:15:10,399 --> 00:15:14,800
+two exclusive two
+
+387
+00:15:12,560 --> 00:15:16,720
+if the same what
+
+388
+00:15:14,800 --> 00:15:20,800
+excuse me three
+
+389
+00:15:16,720 --> 00:15:24,480
+okay so x exclusive this whole thing
+
+390
+00:15:20,800 --> 00:15:27,680
+what's the value right zero yeah you see
+
+391
+00:15:24,480 --> 00:15:30,079
+because x is one exclusive or two to n
+
+392
+00:15:27,680 --> 00:15:33,120
+and then i exclusive one again to two to
+
+393
+00:15:30,079 --> 00:15:35,920
+n again so basically i exclusive the
+
+394
+00:15:33,120 --> 00:15:38,160
+same number twice right so that's the
+
+395
+00:15:35,920 --> 00:15:40,240
+important property if a number is
+
+396
+00:15:38,160 --> 00:15:42,480
+exclusive excel
+
+397
+00:15:40,240 --> 00:15:45,040
+it will be zero it's like an eraser yeah
+
+398
+00:15:42,480 --> 00:15:48,639
+eraser the same number
+
+399
+00:15:45,040 --> 00:15:51,600
+it chooses e7 and it makes it gone okay
+
+400
+00:15:48,639 --> 00:15:54,480
+yeah so i can calculate this value x
+
+401
+00:15:51,600 --> 00:15:58,320
+obviously and then i use this value
+
+402
+00:15:54,480 --> 00:15:58,320
+to do what to exclusive
+
+403
+00:15:58,639 --> 00:16:03,920
+yeah exclusive all the numbers in a row
+
+404
+00:16:01,600 --> 00:16:06,240
+and line must be 0 and i need to
+
+405
+00:16:03,920 --> 00:16:08,880
+exclusive all the numbers in the columns
+
+406
+00:16:06,240 --> 00:16:11,040
+and that must be zero right
+
+407
+00:16:08,880 --> 00:16:12,959
+yeah
+
+408
+00:16:11,040 --> 00:16:15,839
+any questions so far
+
+409
+00:16:12,959 --> 00:16:18,560
+i mean do you understand this approach
+
+410
+00:16:15,839 --> 00:16:18,560
+every friend
+
+411
+00:16:19,440 --> 00:16:23,839
+so what why this will work
+
+412
+00:16:26,480 --> 00:16:28,720
+right
+
+413
+00:16:27,360 --> 00:16:31,279
+look
+
+414
+00:16:28,720 --> 00:16:33,600
+one is good x exclusive one exclusive
+
+415
+00:16:31,279 --> 00:16:35,920
+two x goes to three
+
+416
+00:16:33,600 --> 00:16:38,240
+that should be zero exactly if we if
+
+417
+00:16:35,920 --> 00:16:40,560
+this is not zero it does not this row
+
+418
+00:16:38,240 --> 00:16:41,600
+does not contain the numbers from one to
+
+419
+00:16:40,560 --> 00:16:42,399
+three okay
+
+420
+00:16:41,600 --> 00:16:44,480
+yeah
+
+421
+00:16:42,399 --> 00:16:46,880
+okay so let me write it okay it could be
+
+422
+00:16:44,480 --> 00:16:46,880
+quicker
+
+423
+00:16:48,480 --> 00:16:54,480
+okay let's say define check
+
+424
+00:16:52,240 --> 00:16:57,040
+metric
+
+425
+00:16:54,480 --> 00:16:58,639
+and then i can say x equals zero and i
+
+426
+00:16:57,040 --> 00:16:59,440
+can say for
+
+427
+00:16:58,639 --> 00:17:01,120
+i
+
+428
+00:16:59,440 --> 00:17:03,440
+in range
+
+429
+00:17:01,120 --> 00:17:06,079
+i start from one to
+
+430
+00:17:03,440 --> 00:17:07,199
+uh okay so let's say
+
+431
+00:17:06,079 --> 00:17:10,400
+here will be
+
+432
+00:17:07,199 --> 00:17:12,720
+n equals length and okay
+
+433
+00:17:10,400 --> 00:17:16,880
+m plus one
+
+434
+00:17:12,720 --> 00:17:18,480
+x exclusive okay so this this uh this
+
+435
+00:17:16,880 --> 00:17:20,240
+symbol yeah you see
+
+436
+00:17:18,480 --> 00:17:22,640
+uh up error
+
+437
+00:17:20,240 --> 00:17:24,000
+it's on the number six okay number six
+
+438
+00:17:22,640 --> 00:17:26,480
+key
+
+439
+00:17:24,000 --> 00:17:28,799
+okay you press the shift six it'll give
+
+440
+00:17:26,480 --> 00:17:31,600
+you a list that's exclusive
+
+441
+00:17:28,799 --> 00:17:35,039
+equals i okay now we have x
+
+442
+00:17:31,600 --> 00:17:37,600
+and then i i just need to do what for r
+
+443
+00:17:35,039 --> 00:17:38,960
+in range
+
+444
+00:17:37,600 --> 00:17:39,840
+range
+
+445
+00:17:38,960 --> 00:17:41,919
+n
+
+446
+00:17:39,840 --> 00:17:44,840
+this is the row index
+
+447
+00:17:41,919 --> 00:17:48,799
+for c in
+
+448
+00:17:44,840 --> 00:17:51,520
+range and this is the column index right
+
+449
+00:17:48,799 --> 00:17:54,480
+uh but for each one i have to do this uh
+
+450
+00:17:51,520 --> 00:17:57,200
+let's say r equals x
+
+451
+00:17:54,480 --> 00:18:00,240
+cc equals x and then i just need to
+
+452
+00:17:57,200 --> 00:18:02,960
+exclusive these okay so then i are
+
+453
+00:18:00,240 --> 00:18:04,240
+exclusive equals
+
+454
+00:18:02,960 --> 00:18:06,080
+metric
+
+455
+00:18:04,240 --> 00:18:10,400
+ah c
+
+456
+00:18:06,080 --> 00:18:12,480
+and then cc exclusive metric cr okay
+
+457
+00:18:10,400 --> 00:18:16,320
+this is the
+
+458
+00:18:12,480 --> 00:18:19,280
+okay so look i inclusive metric rc and
+
+459
+00:18:16,320 --> 00:18:20,880
+then metric ci is this one right it's
+
+460
+00:18:19,280 --> 00:18:23,679
+the it's
+
+461
+00:18:20,880 --> 00:18:27,840
+it's mapped it's a map around the
+
+462
+00:18:23,679 --> 00:18:30,080
+diagonal okay here this is metric rc
+
+463
+00:18:27,840 --> 00:18:33,120
+this one matrix er
+
+464
+00:18:30,080 --> 00:18:35,039
+this is metric okay so let's look
+
+465
+00:18:33,120 --> 00:18:36,400
+how can we access this number three
+
+466
+00:18:35,039 --> 00:18:38,880
+metric
+
+467
+00:18:36,400 --> 00:18:40,000
+zero two and what's this
+
+468
+00:18:38,880 --> 00:18:43,640
+what's this
+
+469
+00:18:40,000 --> 00:18:43,640
+where's this place
+
+470
+00:18:44,720 --> 00:18:48,960
+no no no this is zero too and what's
+
+471
+00:18:47,120 --> 00:18:51,039
+this
+
+472
+00:18:48,960 --> 00:18:53,760
+come on
+
+473
+00:18:51,039 --> 00:18:55,039
+why is this three two two here so look
+
+474
+00:18:53,760 --> 00:18:57,039
+rc
+
+475
+00:18:55,039 --> 00:18:58,160
+if this is magic rc
+
+476
+00:18:57,039 --> 00:18:59,600
+right
+
+477
+00:18:58,160 --> 00:19:01,440
+come on come on
+
+478
+00:18:59,600 --> 00:19:04,960
+listen to me
+
+479
+00:19:01,440 --> 00:19:07,280
+let's say rc is here if it's map or this
+
+480
+00:19:04,960 --> 00:19:09,360
+is diagonal and this this place is
+
+481
+00:19:07,280 --> 00:19:12,559
+metric cr okay
+
+482
+00:19:09,360 --> 00:19:13,679
+that's rc i know i know it makes sense
+
+483
+00:19:12,559 --> 00:19:15,600
+because look
+
+484
+00:19:13,679 --> 00:19:19,120
+where's these two locations
+
+485
+00:19:15,600 --> 00:19:19,120
+mrcm mcr
+
+486
+00:19:22,960 --> 00:19:28,000
+yeah symmetry along the time okay that's
+
+487
+00:19:25,039 --> 00:19:29,919
+what i'm saying yeah ah
+
+488
+00:19:28,000 --> 00:19:32,400
+i want to exclusive all the numbers in
+
+489
+00:19:29,919 --> 00:19:34,480
+the rows by rc i want to exclusive all
+
+490
+00:19:32,400 --> 00:19:37,200
+the numbers in the column by cr
+
+491
+00:19:34,480 --> 00:19:40,080
+okay and then here i i say if
+
+492
+00:19:37,200 --> 00:19:42,160
+ah r or c c
+
+493
+00:19:40,080 --> 00:19:46,559
+if one column is
+
+494
+00:19:42,160 --> 00:19:46,559
+not zero then we return fourth right
+
+495
+00:19:47,120 --> 00:19:50,720
+and then otherwise he'll return true
+
+496
+00:19:51,760 --> 00:19:58,480
+r or c c means that r bigger than one or
+
+497
+00:19:55,679 --> 00:19:59,919
+c bigger than one oh we can do this
+
+498
+00:19:58,480 --> 00:20:02,640
+max
+
+499
+00:19:59,919 --> 00:20:05,840
+r c c
+
+500
+00:20:02,640 --> 00:20:07,919
+if the maximum of these two numbers is
+
+501
+00:20:05,840 --> 00:20:09,520
+bigger than zero what does it mean it
+
+502
+00:20:07,919 --> 00:20:12,080
+means the one on them is bigger than
+
+503
+00:20:09,520 --> 00:20:15,760
+zero right if one of them is bigger than
+
+504
+00:20:12,080 --> 00:20:16,880
+zero it means what it means that either
+
+505
+00:20:15,760 --> 00:20:19,039
+row
+
+506
+00:20:16,880 --> 00:20:20,480
+one row does not contain all the numbers
+
+507
+00:20:19,039 --> 00:20:22,799
+from one to n
+
+508
+00:20:20,480 --> 00:20:24,880
+or the column does not contain all the
+
+509
+00:20:22,799 --> 00:20:26,960
+numbers from one right yeah if it
+
+510
+00:20:24,880 --> 00:20:28,159
+contains from all the numbers from one
+
+511
+00:20:26,960 --> 00:20:30,880
+to one
+
+512
+00:20:28,159 --> 00:20:32,159
+the the exclusive result if it should be
+
+513
+00:20:30,880 --> 00:20:35,520
+zero why is that because we are
+
+514
+00:20:32,159 --> 00:20:36,799
+exclusive the same number twice
+
+515
+00:20:35,520 --> 00:20:38,400
+right
+
+516
+00:20:36,799 --> 00:20:41,039
+okay i'm going to give another
+
+517
+00:20:38,400 --> 00:20:44,320
+mathematic question okay 2 exclusive 3
+
+518
+00:20:41,039 --> 00:20:47,360
+equals 4 exclusive 3 exclusive 2
+
+519
+00:20:44,320 --> 00:20:49,840
+exclusive 4. what's the answer
+
+520
+00:20:47,360 --> 00:20:52,320
+yeah because look two twice four twice
+
+521
+00:20:49,840 --> 00:20:54,559
+three twice yeah if you're exclusive
+
+522
+00:20:52,320 --> 00:20:55,760
+something twice
+
+523
+00:20:54,559 --> 00:20:59,039
+yellow
+
+524
+00:20:55,760 --> 00:21:00,159
+like razor yeah three i'm this eraser is
+
+525
+00:20:59,039 --> 00:21:02,880
+three
+
+526
+00:21:00,159 --> 00:21:04,480
+i'm exclusive this place
+
+527
+00:21:02,880 --> 00:21:05,919
+come
+
+528
+00:21:04,480 --> 00:21:08,720
+yeah
+
+529
+00:21:05,919 --> 00:21:10,480
+okay make sense here is eric everybody
+
+530
+00:21:08,720 --> 00:21:11,840
+is here
+
+531
+00:21:10,480 --> 00:21:14,799
+eric
+
+532
+00:21:11,840 --> 00:21:14,799
+excuse me eric
+
+533
+00:21:15,360 --> 00:21:20,799
+okay what's the time to investigate here
+
+534
+00:21:18,960 --> 00:21:24,320
+what's the time recipe come on look at
+
+535
+00:21:20,799 --> 00:21:25,520
+this we are going to the metric
+
+536
+00:21:24,320 --> 00:21:28,720
+yeah
+
+537
+00:21:25,520 --> 00:21:28,720
+so what's the time from let's say
+
+538
+00:21:28,840 --> 00:21:34,960
+sorry
+
+539
+00:21:30,480 --> 00:21:34,960
+and it's here so what's the time rustic
+
+540
+00:21:35,039 --> 00:21:38,080
+why is cubic where is the cubicle
+
+541
+00:21:36,799 --> 00:21:41,120
+because you
+
+542
+00:21:38,080 --> 00:21:43,360
+put it away three times
+
+543
+00:21:41,120 --> 00:21:45,520
+no only two squares i went square look
+
+544
+00:21:43,360 --> 00:21:46,400
+why is that one cubic look this is this
+
+545
+00:21:45,520 --> 00:21:50,080
+is
+
+546
+00:21:46,400 --> 00:21:51,200
+n right obviously r n yeah
+
+547
+00:21:50,080 --> 00:21:53,360
+o n
+
+548
+00:21:51,200 --> 00:21:55,760
+o n and that's it
+
+549
+00:21:53,360 --> 00:22:00,960
+so that's o n square o n squared plus o
+
+550
+00:21:55,760 --> 00:22:00,960
+n what's the outcome which one is bigger
+
+551
+00:22:02,480 --> 00:22:08,000
+one square plus or n we drop the smaller
+
+552
+00:22:05,600 --> 00:22:10,159
+path so we keep the
+
+553
+00:22:08,000 --> 00:22:11,600
+most time-consuming part okay oh it's
+
+554
+00:22:10,159 --> 00:22:13,919
+great it's the same thing as here just
+
+555
+00:22:11,600 --> 00:22:15,280
+different approach okay so tell me to
+
+556
+00:22:13,919 --> 00:22:18,240
+sum up what have you learned so far
+
+557
+00:22:15,280 --> 00:22:19,760
+today about the matrix yeah what are we
+
+558
+00:22:18,240 --> 00:22:23,600
+doing with the magic
+
+559
+00:22:19,760 --> 00:22:26,000
+we are doing the sudoku thingy
+
+560
+00:22:23,600 --> 00:22:27,280
+trying to see if they have the numbers
+
+561
+00:22:26,000 --> 00:22:29,280
+in
+
+562
+00:22:27,280 --> 00:22:32,080
+from or each row and each column you
+
+563
+00:22:29,280 --> 00:22:34,400
+have all the numbers from one to n right
+
+564
+00:22:32,080 --> 00:22:37,039
+okay so how how can we do this what have
+
+565
+00:22:34,400 --> 00:22:38,559
+you learned today every line
+
+566
+00:22:37,039 --> 00:22:40,799
+how can we do it
+
+567
+00:22:38,559 --> 00:22:43,440
+which approach you think is better you
+
+568
+00:22:40,799 --> 00:22:43,440
+can remember
+
+569
+00:22:44,559 --> 00:22:49,360
+i can't remember any of them sorry
+
+570
+00:22:46,720 --> 00:22:50,400
+they're all very very very long i can't
+
+571
+00:22:49,360 --> 00:22:52,960
+remember
+
+572
+00:22:50,400 --> 00:22:56,880
+that's fine but do you know
+
+573
+00:22:52,960 --> 00:22:59,200
+the principle i mean i mean so
+
+574
+00:22:56,880 --> 00:23:01,440
+for this approach we are completing 22
+
+575
+00:22:59,200 --> 00:23:03,200
+minutes yeah yeah we are comparing that
+
+576
+00:23:01,440 --> 00:23:04,799
+we're comparing the
+
+577
+00:23:03,200 --> 00:23:05,760
+set yeah
+
+578
+00:23:04,799 --> 00:23:08,320
+all right
+
+579
+00:23:05,760 --> 00:23:10,559
+at least one we're exclusively
+
+580
+00:23:08,320 --> 00:23:13,120
+because we already know that
+
+581
+00:23:10,559 --> 00:23:17,280
+each one one this can be
+
+582
+00:23:13,120 --> 00:23:18,960
+computed from exclusive one to to n
+
+583
+00:23:17,280 --> 00:23:20,720
+and then
+
+584
+00:23:18,960 --> 00:23:23,919
+yeah we have a
+
+585
+00:23:20,720 --> 00:23:26,080
+we have an eraser containing the result
+
+586
+00:23:23,919 --> 00:23:28,559
+of one exclusive two exclusive three
+
+587
+00:23:26,080 --> 00:23:29,919
+exclusive tier m and then i use this
+
+588
+00:23:28,559 --> 00:23:31,919
+eraser
+
+589
+00:23:29,919 --> 00:23:34,080
+to rub it
+
+590
+00:23:31,919 --> 00:23:34,960
+yeah that's how i know what yeah and
+
+591
+00:23:34,080 --> 00:23:37,760
+then
+
+592
+00:23:34,960 --> 00:23:40,320
+if nothing left
+
+593
+00:23:37,760 --> 00:23:43,760
+is yellow right let me say
+
+594
+00:23:40,320 --> 00:23:45,600
+it's the one to end right yeah
+
+595
+00:23:43,760 --> 00:23:49,200
+makes sense
+
+596
+00:23:45,600 --> 00:23:51,520
+eric right come on anybody
+
+597
+00:23:49,200 --> 00:23:53,279
+yeah
+
+598
+00:23:51,520 --> 00:23:58,320
+okay so what have i what what have you
+
+599
+00:23:53,279 --> 00:23:59,520
+learned today so matrix yeah what magic
+
+600
+00:23:58,320 --> 00:24:04,880
+transformed
+
+601
+00:23:59,520 --> 00:24:04,880
+with only one two and yeah one two and
+
+602
+00:24:17,440 --> 00:24:21,360
+yeah
+
+603
+00:24:18,400 --> 00:24:23,600
+chip star m to
+
+604
+00:24:21,360 --> 00:24:26,640
+turn it 90 degrees
+
+605
+00:24:23,600 --> 00:24:29,279
+okay transpose is it 90 degree
+
+606
+00:24:26,640 --> 00:24:30,400
+look at this one
+
+607
+00:24:29,279 --> 00:24:32,080
+it will be
+
+608
+00:24:30,400 --> 00:24:33,919
+when i transpose this it will become
+
+609
+00:24:32,080 --> 00:24:36,640
+what one three five
+
+610
+00:24:33,919 --> 00:24:38,880
+one three five two four six
+
+611
+00:24:36,640 --> 00:24:41,440
+is it turns is it turning
+
+612
+00:24:38,880 --> 00:24:43,440
+clockwise 90 degree
+
+613
+00:24:41,440 --> 00:24:45,600
+no no not really because if you turn it
+
+614
+00:24:43,440 --> 00:24:48,960
+not clockwise it will be five three one
+
+615
+00:24:45,600 --> 00:24:51,919
+so it's not quite a 90 degree so how do
+
+616
+00:24:48,960 --> 00:24:52,640
+you turn this to here
+
+617
+00:24:51,919 --> 00:24:56,720
+you
+
+618
+00:24:52,640 --> 00:24:58,400
+mirror it you yeah mirror it and turn it
+
+619
+00:24:56,720 --> 00:25:00,559
+degrees
+
+620
+00:24:58,400 --> 00:25:00,559
+yeah
+
+621
+00:25:00,640 --> 00:25:05,039
+will be two one four three six five and
+
+622
+00:25:03,200 --> 00:25:06,960
+then turning 90 degrees
+
+623
+00:25:05,039 --> 00:25:08,640
+that way
+
+624
+00:25:06,960 --> 00:25:10,640
+anticlockwise
+
+625
+00:25:08,640 --> 00:25:12,799
+yeah okay
+
+626
+00:25:10,640 --> 00:25:15,279
+next of all transfer so basically it's
+
+627
+00:25:12,799 --> 00:25:17,120
+easy you just take one element from each
+
+628
+00:25:15,279 --> 00:25:20,080
+one three five and then take second
+
+629
+00:25:17,120 --> 00:25:24,279
+element two four six yeah
+
+630
+00:25:20,080 --> 00:25:24,279
+okay i'll be today bye
+
