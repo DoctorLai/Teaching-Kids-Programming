@@ -1,0 +1,2305 @@
+1
+00:00:00,240 --> 00:00:03,189
+
+hello hello hello mr
+
+2
+00:00:03,189 --> 00:00:03,199
+hello hello hello mr
+ 
+
+3
+00:00:03,199 --> 00:00:06,470
+hello hello hello mr
+mr ryan how are you today good remember
+
+4
+00:00:06,470 --> 00:00:06,480
+mr ryan how are you today good remember
+ 
+
+5
+00:00:06,480 --> 00:00:06,789
+mr ryan how are you today good remember
+this
+
+6
+00:00:06,789 --> 00:00:06,799
+this
+ 
+
+7
+00:00:06,799 --> 00:00:09,910
+this
+this is the recursive implementation of
+
+8
+00:00:09,910 --> 00:00:09,920
+this is the recursive implementation of
+ 
+
+9
+00:00:09,920 --> 00:00:11,509
+this is the recursive implementation of
+how we getting these the
+
+10
+00:00:11,509 --> 00:00:11,519
+how we getting these the
+ 
+
+11
+00:00:11,519 --> 00:00:15,270
+how we getting these the
+computer math depth of a binary tree
+
+12
+00:00:15,270 --> 00:00:15,280
+computer math depth of a binary tree
+ 
+
+13
+00:00:15,280 --> 00:00:17,830
+computer math depth of a binary tree
+which is the distance between the root
+
+14
+00:00:17,830 --> 00:00:17,840
+which is the distance between the root
+ 
+
+15
+00:00:17,840 --> 00:00:18,950
+which is the distance between the root
+and uh
+
+16
+00:00:18,950 --> 00:00:18,960
+and uh
+ 
+
+17
+00:00:18,960 --> 00:00:20,790
+and uh
+and the leaf yeah so today we are going
+
+18
+00:00:20,790 --> 00:00:20,800
+and the leaf yeah so today we are going
+ 
+
+19
+00:00:20,800 --> 00:00:22,790
+and the leaf yeah so today we are going
+to use another algorithm
+
+20
+00:00:22,790 --> 00:00:22,800
+to use another algorithm
+ 
+
+21
+00:00:22,800 --> 00:00:25,349
+to use another algorithm
+breakfast search but for ourselves tell
+
+22
+00:00:25,349 --> 00:00:25,359
+breakfast search but for ourselves tell
+ 
+
+23
+00:00:25,359 --> 00:00:26,710
+breakfast search but for ourselves tell
+me what's happening
+
+24
+00:00:26,710 --> 00:00:26,720
+me what's happening
+ 
+
+25
+00:00:26,720 --> 00:00:43,350
+me what's happening
+yeah let me let's breakfast
+
+26
+00:00:43,350 --> 00:00:43,360
+
+ 
+
+27
+00:00:43,360 --> 00:00:46,549
+
+means horizontal yeah
+
+28
+00:00:46,549 --> 00:00:46,559
+means horizontal yeah
+ 
+
+29
+00:00:46,559 --> 00:00:50,869
+means horizontal yeah
+dfs yeah we talk about this
+
+30
+00:00:50,869 --> 00:00:50,879
+
+ 
+
+31
+00:00:50,879 --> 00:00:54,069
+
+death okay compared to this depth
+
+32
+00:00:54,069 --> 00:00:54,079
+death okay compared to this depth
+ 
+
+33
+00:00:54,079 --> 00:00:56,950
+death okay compared to this depth
+so one is horizontal the other one is
+
+34
+00:00:56,950 --> 00:00:56,960
+so one is horizontal the other one is
+ 
+
+35
+00:00:56,960 --> 00:00:58,630
+so one is horizontal the other one is
+that vertical
+
+36
+00:00:58,630 --> 00:00:58,640
+that vertical
+ 
+
+37
+00:00:58,640 --> 00:01:01,270
+that vertical
+deep okay yeah deep yeah basically
+
+38
+00:01:01,270 --> 00:01:01,280
+deep okay yeah deep yeah basically
+ 
+
+39
+00:01:01,280 --> 00:01:02,950
+deep okay yeah deep yeah basically
+deeper is the
+
+40
+00:01:02,950 --> 00:01:02,960
+deeper is the
+ 
+
+41
+00:01:02,960 --> 00:01:06,310
+deeper is the
+adjective and this is the norm yeah
+
+42
+00:01:06,310 --> 00:01:06,320
+adjective and this is the norm yeah
+ 
+
+43
+00:01:06,320 --> 00:01:09,350
+adjective and this is the norm yeah
+yeah this is a dj yeah
+
+44
+00:01:09,350 --> 00:01:09,360
+yeah this is a dj yeah
+ 
+
+45
+00:01:09,360 --> 00:01:13,350
+yeah this is a dj yeah
+yeah big bad
+
+46
+00:01:13,350 --> 00:01:13,360
+
+ 
+
+47
+00:01:13,360 --> 00:01:16,390
+
+um okay so basically
+
+48
+00:01:16,390 --> 00:01:16,400
+um okay so basically
+ 
+
+49
+00:01:16,400 --> 00:01:20,070
+um okay so basically
+we we visit we visit the notes
+
+50
+00:01:20,070 --> 00:01:20,080
+we we visit we visit the notes
+ 
+
+51
+00:01:20,080 --> 00:01:23,030
+we we visit we visit the notes
+in the horizontal order so look can you
+
+52
+00:01:23,030 --> 00:01:23,040
+in the horizontal order so look can you
+ 
+
+53
+00:01:23,040 --> 00:01:23,510
+in the horizontal order so look can you
+tell me
+
+54
+00:01:23,510 --> 00:01:23,520
+tell me
+ 
+
+55
+00:01:23,520 --> 00:01:26,390
+tell me
+what this is how we pushing this to the
+
+56
+00:01:26,390 --> 00:01:26,400
+what this is how we pushing this to the
+ 
+
+57
+00:01:26,400 --> 00:01:27,190
+what this is how we pushing this to the
+tree
+
+58
+00:01:27,190 --> 00:01:27,200
+tree
+ 
+
+59
+00:01:27,200 --> 00:01:30,630
+tree
+uh how we visit it
+
+60
+00:01:30,630 --> 00:01:30,640
+
+ 
+
+61
+00:01:30,640 --> 00:01:33,910
+
+okay can you tell me
+
+62
+00:01:33,910 --> 00:01:33,920
+okay can you tell me
+ 
+
+63
+00:01:33,920 --> 00:01:37,030
+okay can you tell me
+how we how we how we use the preference
+
+64
+00:01:37,030 --> 00:01:37,040
+how we how we how we use the preference
+ 
+
+65
+00:01:37,040 --> 00:01:38,149
+how we how we how we use the preference
+search to visit
+
+66
+00:01:38,149 --> 00:01:38,159
+search to visit
+ 
+
+67
+00:01:38,159 --> 00:01:41,270
+search to visit
+the order of the notes yeah
+
+68
+00:01:41,270 --> 00:01:41,280
+the order of the notes yeah
+ 
+
+69
+00:01:41,280 --> 00:01:44,389
+the order of the notes yeah
+one two three four five exactly and then
+
+70
+00:01:44,389 --> 00:01:44,399
+one two three four five exactly and then
+ 
+
+71
+00:01:44,399 --> 00:01:49,350
+one two three four five exactly and then
+how about that first search
+
+72
+00:01:49,350 --> 00:01:49,360
+
+ 
+
+73
+00:01:49,360 --> 00:01:53,190
+
+thief deep versus the one oh yeah
+
+74
+00:01:53,190 --> 00:01:53,200
+thief deep versus the one oh yeah
+ 
+
+75
+00:01:53,200 --> 00:01:56,789
+thief deep versus the one oh yeah
+two three three four five
+
+76
+00:01:56,789 --> 00:01:56,799
+two three three four five
+ 
+
+77
+00:01:56,799 --> 00:01:58,230
+two three three four five
+it's the same yeah yeah it's about
+
+78
+00:01:58,230 --> 00:01:58,240
+it's the same yeah yeah it's about
+ 
+
+79
+00:01:58,240 --> 00:02:00,310
+it's the same yeah yeah it's about
+different yeah but yeah different kind
+
+80
+00:02:00,310 --> 00:02:00,320
+different yeah but yeah different kind
+ 
+
+81
+00:02:00,320 --> 00:02:01,670
+different yeah but yeah different kind
+of logics yeah
+
+82
+00:02:01,670 --> 00:02:01,680
+of logics yeah
+ 
+
+83
+00:02:01,680 --> 00:02:04,709
+of logics yeah
+it just happens to be the same if i put
+
+84
+00:02:04,709 --> 00:02:04,719
+it just happens to be the same if i put
+ 
+
+85
+00:02:04,719 --> 00:02:05,510
+it just happens to be the same if i put
+it
+
+86
+00:02:05,510 --> 00:02:05,520
+it
+ 
+
+87
+00:02:05,520 --> 00:02:08,150
+it
+if i police i put another six here the
+
+88
+00:02:08,150 --> 00:02:08,160
+if i police i put another six here the
+ 
+
+89
+00:02:08,160 --> 00:02:08,710
+if i police i put another six here the
+breakfast
+
+90
+00:02:08,710 --> 00:02:08,720
+breakfast
+ 
+
+91
+00:02:08,720 --> 00:02:11,350
+breakfast
+simply one two three six four five yeah
+
+92
+00:02:11,350 --> 00:02:11,360
+simply one two three six four five yeah
+ 
+
+93
+00:02:11,360 --> 00:02:12,869
+simply one two three six four five yeah
+level by little but that's one third it
+
+94
+00:02:12,869 --> 00:02:12,879
+level by little but that's one third it
+ 
+
+95
+00:02:12,879 --> 00:02:13,830
+level by little but that's one third it
+will be one
+
+96
+00:02:13,830 --> 00:02:13,840
+will be one
+ 
+
+97
+00:02:13,840 --> 00:02:17,030
+will be one
+two six three four five
+
+98
+00:02:17,030 --> 00:02:17,040
+two six three four five
+ 
+
+99
+00:02:17,040 --> 00:02:21,270
+two six three four five
+got it yeah okay so in order to do this
+
+100
+00:02:21,270 --> 00:02:21,280
+got it yeah okay so in order to do this
+ 
+
+101
+00:02:21,280 --> 00:02:23,030
+got it yeah okay so in order to do this
+uh what kind of data structure are we
+
+102
+00:02:23,030 --> 00:02:23,040
+uh what kind of data structure are we
+ 
+
+103
+00:02:23,040 --> 00:02:24,390
+uh what kind of data structure are we
+using
+
+104
+00:02:24,390 --> 00:02:24,400
+using
+ 
+
+105
+00:02:24,400 --> 00:02:27,589
+using
+are we using eric we talk about data
+
+106
+00:02:27,589 --> 00:02:27,599
+are we using eric we talk about data
+ 
+
+107
+00:02:27,599 --> 00:02:29,510
+are we using eric we talk about data
+structure when we talk about a breakfast
+
+108
+00:02:29,510 --> 00:02:29,520
+structure when we talk about a breakfast
+ 
+
+109
+00:02:29,520 --> 00:02:30,150
+structure when we talk about a breakfast
+search
+
+110
+00:02:30,150 --> 00:02:30,160
+search
+ 
+
+111
+00:02:30,160 --> 00:02:32,869
+search
+we usually use the data structure which
+
+112
+00:02:32,869 --> 00:02:32,879
+we usually use the data structure which
+ 
+
+113
+00:02:32,879 --> 00:02:34,070
+we usually use the data structure which
+is
+
+114
+00:02:34,070 --> 00:02:34,080
+is
+ 
+
+115
+00:02:34,080 --> 00:02:37,350
+is
+yes and why is that a kill yeah well
+
+116
+00:02:37,350 --> 00:02:37,360
+yes and why is that a kill yeah well
+ 
+
+117
+00:02:37,360 --> 00:02:39,350
+yes and why is that a kill yeah well
+done first thing first out okay
+
+118
+00:02:39,350 --> 00:02:39,360
+done first thing first out okay
+ 
+
+119
+00:02:39,360 --> 00:02:42,470
+done first thing first out okay
+oh my god what happened to this first
+
+120
+00:02:42,470 --> 00:02:42,480
+oh my god what happened to this first
+ 
+
+121
+00:02:42,480 --> 00:02:44,630
+oh my god what happened to this first
+thing first out
+
+122
+00:02:44,630 --> 00:02:44,640
+thing first out
+ 
+
+123
+00:02:44,640 --> 00:02:47,190
+thing first out
+first thing first up okay and first
+
+124
+00:02:47,190 --> 00:02:47,200
+first thing first up okay and first
+ 
+
+125
+00:02:47,200 --> 00:02:48,070
+first thing first up okay and first
+thing
+
+126
+00:02:48,070 --> 00:02:48,080
+thing
+ 
+
+127
+00:02:48,080 --> 00:02:59,110
+thing
+what is that
+
+128
+00:02:59,110 --> 00:02:59,120
+
+ 
+
+129
+00:02:59,120 --> 00:03:03,430
+
+okay so so look we have a basic
+
+130
+00:03:03,430 --> 00:03:03,440
+okay so so look we have a basic
+ 
+
+131
+00:03:03,440 --> 00:03:05,670
+okay so so look we have a basic
+framework to do a preference search can
+
+132
+00:03:05,670 --> 00:03:05,680
+framework to do a preference search can
+ 
+
+133
+00:03:05,680 --> 00:03:09,589
+framework to do a preference search can
+you can come out please
+
+134
+00:03:09,589 --> 00:03:09,599
+
+ 
+
+135
+00:03:09,599 --> 00:03:13,830
+
+define max
+
+136
+00:03:13,830 --> 00:03:13,840
+define max
+ 
+
+137
+00:03:13,840 --> 00:03:31,030
+define max
+that's that i don't call it
+
+138
+00:03:31,030 --> 00:03:31,040
+
+ 
+
+139
+00:03:31,040 --> 00:03:36,229
+
+because it's not nothing nothing is zero
+
+140
+00:03:36,229 --> 00:03:36,239
+
+ 
+
+141
+00:03:36,239 --> 00:03:39,670
+
+zero zero depth okay now we we create a
+
+142
+00:03:39,670 --> 00:03:39,680
+zero zero depth okay now we we create a
+ 
+
+143
+00:03:39,680 --> 00:03:42,710
+zero zero depth okay now we we create a
+q in python we can use the double ndq
+
+144
+00:03:42,710 --> 00:03:42,720
+q in python we can use the double ndq
+ 
+
+145
+00:03:42,720 --> 00:03:44,550
+q in python we can use the double ndq
+okay so look
+
+146
+00:03:44,550 --> 00:03:44,560
+okay so look
+ 
+
+147
+00:03:44,560 --> 00:03:49,430
+okay so look
+q
+
+148
+00:03:49,430 --> 00:03:49,440
+
+ 
+
+149
+00:03:49,440 --> 00:03:50,949
+
+and then bracket and then we need to
+
+150
+00:03:50,949 --> 00:03:50,959
+and then bracket and then we need to
+ 
+
+151
+00:03:50,959 --> 00:03:53,830
+and then bracket and then we need to
+push the first first note which is what
+
+152
+00:03:53,830 --> 00:03:53,840
+push the first first note which is what
+ 
+
+153
+00:03:53,840 --> 00:03:55,589
+push the first first note which is what
+we need to push the first note which is
+
+154
+00:03:55,589 --> 00:03:55,599
+we need to push the first note which is
+ 
+
+155
+00:03:55,599 --> 00:03:57,990
+we need to push the first note which is
+right look but we also need to push
+
+156
+00:03:57,990 --> 00:03:58,000
+right look but we also need to push
+ 
+
+157
+00:03:58,000 --> 00:04:00,949
+right look but we also need to push
+these steps so we put this bracket yeah
+
+158
+00:04:00,949 --> 00:04:00,959
+these steps so we put this bracket yeah
+ 
+
+159
+00:04:00,959 --> 00:04:03,110
+these steps so we put this bracket yeah
+at least yeah and then we do this two
+
+160
+00:04:03,110 --> 00:04:03,120
+at least yeah and then we do this two
+ 
+
+161
+00:04:03,120 --> 00:04:04,149
+at least yeah and then we do this two
+parts yeah super
+
+162
+00:04:04,149 --> 00:04:04,159
+parts yeah super
+ 
+
+163
+00:04:04,159 --> 00:04:07,990
+parts yeah super
+loot and then one okay because the loot
+
+164
+00:04:07,990 --> 00:04:08,000
+loot and then one okay because the loot
+ 
+
+165
+00:04:08,000 --> 00:04:09,589
+loot and then one okay because the loot
+has the number one right
+
+166
+00:04:09,589 --> 00:04:09,599
+has the number one right
+ 
+
+167
+00:04:09,599 --> 00:04:13,429
+has the number one right
+cute yeah like that
+
+168
+00:04:13,429 --> 00:04:13,439
+cute yeah like that
+ 
+
+169
+00:04:13,439 --> 00:04:15,429
+cute yeah like that
+okay then we also need to store the
+
+170
+00:04:15,429 --> 00:04:15,439
+okay then we also need to store the
+ 
+
+171
+00:04:15,439 --> 00:04:16,629
+okay then we also need to store the
+maximum
+
+172
+00:04:16,629 --> 00:04:16,639
+maximum
+ 
+
+173
+00:04:16,639 --> 00:04:20,629
+maximum
+uh depth in in in
+
+174
+00:04:20,629 --> 00:04:20,639
+uh depth in in in
+ 
+
+175
+00:04:20,639 --> 00:04:22,629
+uh depth in in in
+in a variable we call it answer right
+
+176
+00:04:22,629 --> 00:04:22,639
+in a variable we call it answer right
+ 
+
+177
+00:04:22,639 --> 00:04:24,070
+in a variable we call it answer right
+answer equals zero
+
+178
+00:04:24,070 --> 00:04:24,080
+answer equals zero
+ 
+
+179
+00:04:24,080 --> 00:04:27,350
+answer equals zero
+yeah so while the q is not empty
+
+180
+00:04:27,350 --> 00:04:27,360
+yeah so while the q is not empty
+ 
+
+181
+00:04:27,360 --> 00:04:29,990
+yeah so while the q is not empty
+yeah while the queue is not empty why
+
+182
+00:04:29,990 --> 00:04:30,000
+yeah while the queue is not empty why
+ 
+
+183
+00:04:30,000 --> 00:04:31,909
+yeah while the queue is not empty why
+huh
+
+184
+00:04:31,909 --> 00:04:31,919
+huh
+ 
+
+185
+00:04:31,919 --> 00:04:35,749
+huh
+wire not empty queue how do we check the
+
+186
+00:04:35,749 --> 00:04:35,759
+wire not empty queue how do we check the
+ 
+
+187
+00:04:35,759 --> 00:04:37,110
+wire not empty queue how do we check the
+queue if it's not empty
+
+188
+00:04:37,110 --> 00:04:37,120
+queue if it's not empty
+ 
+
+189
+00:04:37,120 --> 00:04:41,110
+queue if it's not empty
+away file length lens yeah because lens
+
+190
+00:04:41,110 --> 00:04:41,120
+away file length lens yeah because lens
+ 
+
+191
+00:04:41,120 --> 00:04:43,990
+away file length lens yeah because lens
+q we can use the length length q if it's
+
+192
+00:04:43,990 --> 00:04:44,000
+q we can use the length length q if it's
+ 
+
+193
+00:04:44,000 --> 00:04:45,189
+q we can use the length length q if it's
+not empty which is
+
+194
+00:04:45,189 --> 00:04:45,199
+not empty which is
+ 
+
+195
+00:04:45,199 --> 00:04:49,990
+not empty which is
+what that's in the wrong place
+
+196
+00:04:49,990 --> 00:04:50,000
+what that's in the wrong place
+ 
+
+197
+00:04:50,000 --> 00:04:52,070
+what that's in the wrong place
+what bigger than zero yeah that's in the
+
+198
+00:04:52,070 --> 00:04:52,080
+what bigger than zero yeah that's in the
+ 
+
+199
+00:04:52,080 --> 00:04:53,350
+what bigger than zero yeah that's in the
+wrong place to be here
+
+200
+00:04:53,350 --> 00:04:53,360
+wrong place to be here
+ 
+
+201
+00:04:53,360 --> 00:04:54,950
+wrong place to be here
+that's okay that's always the same yeah
+
+202
+00:04:54,950 --> 00:04:54,960
+that's okay that's always the same yeah
+ 
+
+203
+00:04:54,960 --> 00:05:00,469
+that's okay that's always the same yeah
+that's okay sit down sit down please
+
+204
+00:05:00,469 --> 00:05:00,479
+
+ 
+
+205
+00:05:00,479 --> 00:05:02,550
+
+and then how we can pop it we can we
+
+206
+00:05:02,550 --> 00:05:02,560
+and then how we can pop it we can we
+ 
+
+207
+00:05:02,560 --> 00:05:04,310
+and then how we can pop it we can we
+need to remove it from the head of the
+
+208
+00:05:04,310 --> 00:05:04,320
+need to remove it from the head of the
+ 
+
+209
+00:05:04,320 --> 00:05:06,390
+need to remove it from the head of the
+queue which you will use the best called
+
+210
+00:05:06,390 --> 00:05:06,400
+queue which you will use the best called
+ 
+
+211
+00:05:06,400 --> 00:05:10,150
+queue which you will use the best called
+pop work pop which side we
+
+212
+00:05:10,150 --> 00:05:10,160
+pop work pop which side we
+ 
+
+213
+00:05:10,160 --> 00:05:12,150
+pop work pop which side we
+it's a q we push it and we're going to
+
+214
+00:05:12,150 --> 00:05:12,160
+it's a q we push it and we're going to
+ 
+
+215
+00:05:12,160 --> 00:05:13,749
+it's a q we push it and we're going to
+put pull it from
+
+216
+00:05:13,749 --> 00:05:13,759
+put pull it from
+ 
+
+217
+00:05:13,759 --> 00:05:16,390
+put pull it from
+left yeah so so carbon we can assign it
+
+218
+00:05:16,390 --> 00:05:16,400
+left yeah so so carbon we can assign it
+ 
+
+219
+00:05:16,400 --> 00:05:17,990
+left yeah so so carbon we can assign it
+to a common node and then the
+
+220
+00:05:17,990 --> 00:05:18,000
+to a common node and then the
+ 
+
+221
+00:05:18,000 --> 00:05:20,629
+to a common node and then the
+second node is f yeah because it's two
+
+222
+00:05:20,629 --> 00:05:20,639
+second node is f yeah because it's two
+ 
+
+223
+00:05:20,639 --> 00:05:22,830
+second node is f yeah because it's two
+parts right
+
+224
+00:05:22,830 --> 00:05:22,840
+parts right
+ 
+
+225
+00:05:22,840 --> 00:05:32,240
+parts right
+current
+
+226
+00:05:32,240 --> 00:05:32,250
+
+ 
+
+227
+00:05:32,250 --> 00:05:33,430
+
+[Music]
+
+228
+00:05:33,430 --> 00:05:33,440
+[Music]
+ 
+
+229
+00:05:33,440 --> 00:05:37,350
+[Music]
+top left okay now we have the test
+
+230
+00:05:37,350 --> 00:05:37,360
+top left okay now we have the test
+ 
+
+231
+00:05:37,360 --> 00:05:39,350
+top left okay now we have the test
+we know we are visiting the node then we
+
+232
+00:05:39,350 --> 00:05:39,360
+we know we are visiting the node then we
+ 
+
+233
+00:05:39,360 --> 00:05:40,550
+we know we are visiting the node then we
+need to update the
+
+234
+00:05:40,550 --> 00:05:40,560
+need to update the
+ 
+
+235
+00:05:40,560 --> 00:05:43,749
+need to update the
+uh uh answer so answer
+
+236
+00:05:43,749 --> 00:05:43,759
+uh uh answer so answer
+ 
+
+237
+00:05:43,759 --> 00:05:47,510
+uh uh answer so answer
+will be max value of answer
+
+238
+00:05:47,510 --> 00:05:47,520
+will be max value of answer
+ 
+
+239
+00:05:47,520 --> 00:05:50,629
+will be max value of answer
+and and what that what variable is you
+
+240
+00:05:50,629 --> 00:05:50,639
+and and what that what variable is you
+ 
+
+241
+00:05:50,639 --> 00:05:51,510
+and and what that what variable is you
+put here
+
+242
+00:05:51,510 --> 00:05:51,520
+put here
+ 
+
+243
+00:05:51,520 --> 00:05:56,390
+put here
+what variable is put here
+
+244
+00:05:56,390 --> 00:05:56,400
+
+ 
+
+245
+00:05:56,400 --> 00:05:58,870
+
+depth because we are getting these steps
+
+246
+00:05:58,870 --> 00:05:58,880
+depth because we are getting these steps
+ 
+
+247
+00:05:58,880 --> 00:05:59,990
+depth because we are getting these steps
+value okay
+
+248
+00:05:59,990 --> 00:06:00,000
+value okay
+ 
+
+249
+00:06:00,000 --> 00:06:02,629
+value okay
+yes so this is the same thing answer
+
+250
+00:06:02,629 --> 00:06:02,639
+yes so this is the same thing answer
+ 
+
+251
+00:06:02,639 --> 00:06:03,029
+yes so this is the same thing answer
+this
+
+252
+00:06:03,029 --> 00:06:03,039
+this
+ 
+
+253
+00:06:03,039 --> 00:06:06,629
+this
+this is the same thing as if answer
+
+254
+00:06:06,629 --> 00:06:06,639
+this is the same thing as if answer
+ 
+
+255
+00:06:06,639 --> 00:06:09,670
+this is the same thing as if answer
+if death if death is bigger than
+
+256
+00:06:09,670 --> 00:06:09,680
+if death if death is bigger than
+ 
+
+257
+00:06:09,680 --> 00:06:12,629
+if death if death is bigger than
+answer then answer equal steps right all
+
+258
+00:06:12,629 --> 00:06:12,639
+answer then answer equal steps right all
+ 
+
+259
+00:06:12,639 --> 00:06:13,430
+answer then answer equal steps right all
+right
+
+260
+00:06:13,430 --> 00:06:13,440
+right
+ 
+
+261
+00:06:13,440 --> 00:06:16,469
+right
+yeah erin pay attention please yeah
+
+262
+00:06:16,469 --> 00:06:16,479
+yeah erin pay attention please yeah
+ 
+
+263
+00:06:16,479 --> 00:06:19,590
+yeah erin pay attention please yeah
+ryan i'm going to test you later okay if
+
+264
+00:06:19,590 --> 00:06:19,600
+ryan i'm going to test you later okay if
+ 
+
+265
+00:06:19,600 --> 00:06:21,430
+ryan i'm going to test you later okay if
+you're not listening okay
+
+266
+00:06:21,430 --> 00:06:21,440
+you're not listening okay
+ 
+
+267
+00:06:21,440 --> 00:06:24,950
+you're not listening okay
+yeah now we got a current note
+
+268
+00:06:24,950 --> 00:06:24,960
+yeah now we got a current note
+ 
+
+269
+00:06:24,960 --> 00:06:27,510
+yeah now we got a current note
+we need to push it that kid or right kid
+
+270
+00:06:27,510 --> 00:06:27,520
+we need to push it that kid or right kid
+ 
+
+271
+00:06:27,520 --> 00:06:28,950
+we need to push it that kid or right kid
+into the queue right
+
+272
+00:06:28,950 --> 00:06:28,960
+into the queue right
+ 
+
+273
+00:06:28,960 --> 00:06:31,990
+into the queue right
+yes only if it's not empty right if it's
+
+274
+00:06:31,990 --> 00:06:32,000
+yes only if it's not empty right if it's
+ 
+
+275
+00:06:32,000 --> 00:06:33,189
+yes only if it's not empty right if it's
+empty we just skip
+
+276
+00:06:33,189 --> 00:06:33,199
+empty we just skip
+ 
+
+277
+00:06:33,199 --> 00:06:36,950
+empty we just skip
+okay so how can we do this
+
+278
+00:06:36,950 --> 00:06:36,960
+okay so how can we do this
+ 
+
+279
+00:06:36,960 --> 00:06:40,629
+okay so how can we do this
+how can we push it how can we push it
+
+280
+00:06:40,629 --> 00:06:40,639
+how can we push it how can we push it
+ 
+
+281
+00:06:40,639 --> 00:06:42,870
+how can we push it how can we push it
+remember the breakfast search usually we
+
+282
+00:06:42,870 --> 00:06:42,880
+remember the breakfast search usually we
+ 
+
+283
+00:06:42,880 --> 00:06:44,309
+remember the breakfast search usually we
+take a taylor
+
+284
+00:06:44,309 --> 00:06:44,319
+take a taylor
+ 
+
+285
+00:06:44,319 --> 00:06:46,870
+take a taylor
+note from the queue and then we push
+
+286
+00:06:46,870 --> 00:06:46,880
+note from the queue and then we push
+ 
+
+287
+00:06:46,880 --> 00:06:48,550
+note from the queue and then we push
+push its kids okay so
+
+288
+00:06:48,550 --> 00:06:48,560
+push its kids okay so
+ 
+
+289
+00:06:48,560 --> 00:06:51,909
+push its kids okay so
+i buy one okay if current got
+
+290
+00:06:51,909 --> 00:06:51,919
+i buy one okay if current got
+ 
+
+291
+00:06:51,919 --> 00:06:56,469
+i buy one okay if current got
+left yeah you cut on the left then
+
+292
+00:06:56,469 --> 00:06:56,479
+left yeah you cut on the left then
+ 
+
+293
+00:06:56,479 --> 00:07:00,230
+left yeah you cut on the left then
+q dot append yeah open to the right yeah
+
+294
+00:07:00,230 --> 00:07:00,240
+q dot append yeah open to the right yeah
+ 
+
+295
+00:07:00,240 --> 00:07:11,990
+q dot append yeah open to the right yeah
+open what
+
+296
+00:07:11,990 --> 00:07:12,000
+
+ 
+
+297
+00:07:12,000 --> 00:07:15,589
+
+so in order to do that we need to push
+
+298
+00:07:15,589 --> 00:07:15,599
+so in order to do that we need to push
+ 
+
+299
+00:07:15,599 --> 00:07:18,870
+so in order to do that we need to push
+current dot left and comma what
+
+300
+00:07:18,870 --> 00:07:18,880
+current dot left and comma what
+ 
+
+301
+00:07:18,880 --> 00:07:22,150
+current dot left and comma what
+what's the depth of the new node current
+
+302
+00:07:22,150 --> 00:07:22,160
+what's the depth of the new node current
+ 
+
+303
+00:07:22,160 --> 00:07:23,749
+what's the depth of the new node current
+current on the left and now what's the
+
+304
+00:07:23,749 --> 00:07:23,759
+current on the left and now what's the
+ 
+
+305
+00:07:23,759 --> 00:07:25,670
+current on the left and now what's the
+depth what's the depth
+
+306
+00:07:25,670 --> 00:07:25,680
+depth what's the depth
+ 
+
+307
+00:07:25,680 --> 00:07:27,909
+depth what's the depth
+of the new node we push to the one level
+
+308
+00:07:27,909 --> 00:07:27,919
+of the new node we push to the one level
+ 
+
+309
+00:07:27,919 --> 00:07:28,710
+of the new node we push to the one level
+now so which
+
+310
+00:07:28,710 --> 00:07:28,720
+now so which
+ 
+
+311
+00:07:28,720 --> 00:07:32,550
+now so which
+what it means what it means
+
+312
+00:07:32,550 --> 00:07:32,560
+what it means what it means
+ 
+
+313
+00:07:32,560 --> 00:07:36,390
+what it means what it means
+that that's i know what
+
+314
+00:07:36,390 --> 00:07:36,400
+
+ 
+
+315
+00:07:36,400 --> 00:07:38,950
+
+current depth current node has this one
+
+316
+00:07:38,950 --> 00:07:38,960
+current depth current node has this one
+ 
+
+317
+00:07:38,960 --> 00:07:39,830
+current depth current node has this one
+and what's the
+
+318
+00:07:39,830 --> 00:07:39,840
+and what's the
+ 
+
+319
+00:07:39,840 --> 00:07:41,870
+and what's the
+next level
+
+320
+00:07:41,870 --> 00:07:41,880
+next level
+ 
+
+321
+00:07:41,880 --> 00:07:43,110
+next level
+[Music]
+
+322
+00:07:43,110 --> 00:07:43,120
+[Music]
+ 
+
+323
+00:07:43,120 --> 00:07:46,550
+[Music]
+what's the next come on this is the note
+
+324
+00:07:46,550 --> 00:07:46,560
+what's the next come on this is the note
+ 
+
+325
+00:07:46,560 --> 00:07:47,110
+what's the next come on this is the note
+i'm
+
+326
+00:07:47,110 --> 00:07:47,120
+i'm
+ 
+
+327
+00:07:47,120 --> 00:07:48,629
+i'm
+this is the loop one and then i'm
+
+328
+00:07:48,629 --> 00:07:48,639
+this is the loop one and then i'm
+ 
+
+329
+00:07:48,639 --> 00:07:51,510
+this is the loop one and then i'm
+pushing this so what's the depth of this
+
+330
+00:07:51,510 --> 00:07:51,520
+pushing this so what's the depth of this
+ 
+
+331
+00:07:51,520 --> 00:07:54,710
+pushing this so what's the depth of this
+what what's the depth depth
+
+332
+00:07:54,710 --> 00:07:54,720
+what what's the depth depth
+ 
+
+333
+00:07:54,720 --> 00:07:58,710
+what what's the depth depth
+level level and then that's what
+
+334
+00:07:58,710 --> 00:07:58,720
+level level and then that's what
+ 
+
+335
+00:07:58,720 --> 00:08:01,830
+level level and then that's what
+three two yeah this steps is one and
+
+336
+00:08:01,830 --> 00:08:01,840
+three two yeah this steps is one and
+ 
+
+337
+00:08:01,840 --> 00:08:02,390
+three two yeah this steps is one and
+then
+
+338
+00:08:02,390 --> 00:08:02,400
+then
+ 
+
+339
+00:08:02,400 --> 00:08:06,469
+then
+what's next that's what
+
+340
+00:08:06,469 --> 00:08:06,479
+what's next that's what
+ 
+
+341
+00:08:06,479 --> 00:08:19,749
+what's next that's what
+ryan that's what
+
+342
+00:08:19,749 --> 00:08:19,759
+
+ 
+
+343
+00:08:19,759 --> 00:08:21,830
+
+right and we do the same thing and kill
+
+344
+00:08:21,830 --> 00:08:21,840
+right and we do the same thing and kill
+ 
+
+345
+00:08:21,840 --> 00:08:23,189
+right and we do the same thing and kill
+the opponent
+
+346
+00:08:23,189 --> 00:08:23,199
+the opponent
+ 
+
+347
+00:08:23,199 --> 00:08:42,669
+the opponent
+a pain current
+
+348
+00:08:42,669 --> 00:08:42,679
+
+ 
+
+349
+00:08:42,679 --> 00:08:47,269
+
+[Music]
+
+350
+00:08:47,269 --> 00:08:47,279
+
+ 
+
+351
+00:08:47,279 --> 00:08:50,230
+
+can somebody feel it what's the time
+
+352
+00:08:50,230 --> 00:08:50,240
+can somebody feel it what's the time
+ 
+
+353
+00:08:50,240 --> 00:09:03,870
+can somebody feel it what's the time
+complexity answer oh
+
+354
+00:09:03,870 --> 00:09:03,880
+
+ 
+
+355
+00:09:03,880 --> 00:09:07,269
+
+[Music]
+
+356
+00:09:07,269 --> 00:09:07,279
+[Music]
+ 
+
+357
+00:09:07,279 --> 00:09:10,389
+[Music]
+right yeah yeah and we
+
+358
+00:09:10,389 --> 00:09:10,399
+right yeah yeah and we
+ 
+
+359
+00:09:10,399 --> 00:09:11,990
+right yeah yeah and we
+because we are using the queue right
+
+360
+00:09:11,990 --> 00:09:12,000
+because we are using the queue right
+ 
+
+361
+00:09:12,000 --> 00:09:13,910
+because we are using the queue right
+yeah
+
+362
+00:09:13,910 --> 00:09:13,920
+yeah
+ 
+
+363
+00:09:13,920 --> 00:09:17,110
+yeah
+we're done okay so now clean
+
+364
+00:09:17,110 --> 00:09:17,120
+we're done okay so now clean
+ 
+
+365
+00:09:17,120 --> 00:09:25,370
+we're done okay so now clean
+uh yes please chris yeah
+
+366
+00:09:25,370 --> 00:09:25,380
+
+ 
+
+367
+00:09:25,380 --> 00:09:29,750
+
+[Music]
+
+368
+00:09:29,750 --> 00:09:29,760
+
+ 
+
+369
+00:09:29,760 --> 00:09:32,550
+
+can you close your eyes please no please
+
+370
+00:09:32,550 --> 00:09:32,560
+can you close your eyes please no please
+ 
+
+371
+00:09:32,560 --> 00:09:33,110
+can you close your eyes please no please
+otherwise
+
+372
+00:09:33,110 --> 00:09:33,120
+otherwise
+ 
+
+373
+00:09:33,120 --> 00:09:42,090
+otherwise
+it's not fair turn around
+
+374
+00:09:42,090 --> 00:09:42,100
+
+ 
+
+375
+00:09:42,100 --> 00:09:55,040
+
+[Music]
+
+376
+00:09:55,040 --> 00:09:55,050
+
+ 
+
+377
+00:09:55,050 --> 00:10:02,829
+
+[Music]
+
+378
+00:10:02,829 --> 00:10:02,839
+[Music]
+ 
+
+379
+00:10:02,839 --> 00:10:09,040
+[Music]
+mean
+
+380
+00:10:09,040 --> 00:10:09,050
+
+ 
+
+381
+00:10:09,050 --> 00:10:15,670
+
+[Music]
+
+382
+00:10:15,670 --> 00:10:15,680
+[Music]
+ 
+
+383
+00:10:15,680 --> 00:10:17,190
+[Music]
+we talked about this before yeah you
+
+384
+00:10:17,190 --> 00:10:17,200
+we talked about this before yeah you
+ 
+
+385
+00:10:17,200 --> 00:10:18,710
+we talked about this before yeah you
+forgot yeah it's
+
+386
+00:10:18,710 --> 00:10:18,720
+forgot yeah it's
+ 
+
+387
+00:10:18,720 --> 00:10:25,829
+forgot yeah it's
+kind of cute but it's d dapper
+
+388
+00:10:25,829 --> 00:10:25,839
+
+ 
+
+389
+00:10:25,839 --> 00:10:29,030
+
+so which means that i can push i can
+
+390
+00:10:29,030 --> 00:10:29,040
+so which means that i can push i can
+ 
+
+391
+00:10:29,040 --> 00:10:32,630
+so which means that i can push i can
+up top left and i can pop and i can
+
+392
+00:10:32,630 --> 00:10:32,640
+up top left and i can pop and i can
+ 
+
+393
+00:10:32,640 --> 00:10:33,509
+up top left and i can pop and i can
+append
+
+394
+00:10:33,509 --> 00:10:33,519
+append
+ 
+
+395
+00:10:33,519 --> 00:10:36,150
+append
+left and i also can prepare so basically
+
+396
+00:10:36,150 --> 00:10:36,160
+left and i also can prepare so basically
+ 
+
+397
+00:10:36,160 --> 00:10:37,910
+left and i also can prepare so basically
+it's a cue like you can do this
+
+398
+00:10:37,910 --> 00:10:37,920
+it's a cue like you can do this
+ 
+
+399
+00:10:37,920 --> 00:10:38,870
+it's a cue like you can do this
+operation
+
+400
+00:10:38,870 --> 00:10:38,880
+operation
+ 
+
+401
+00:10:38,880 --> 00:10:42,310
+operation
+push a pen and pop from both sides yeah
+
+402
+00:10:42,310 --> 00:10:42,320
+push a pen and pop from both sides yeah
+ 
+
+403
+00:10:42,320 --> 00:10:44,310
+push a pen and pop from both sides yeah
+so it's called double
+
+404
+00:10:44,310 --> 00:10:44,320
+so it's called double
+ 
+
+405
+00:10:44,320 --> 00:10:47,590
+so it's called double
+yeah so it's it's efficient the pop
+
+406
+00:10:47,590 --> 00:10:47,600
+yeah so it's it's efficient the pop
+ 
+
+407
+00:10:47,600 --> 00:10:50,949
+yeah so it's it's efficient the pop
+a pen and a pop takes oak on constant
+
+408
+00:10:50,949 --> 00:10:50,959
+a pen and a pop takes oak on constant
+ 
+
+409
+00:10:50,959 --> 00:10:51,509
+a pen and a pop takes oak on constant
+time yeah
+
+410
+00:10:51,509 --> 00:10:51,519
+time yeah
+ 
+
+411
+00:10:51,519 --> 00:10:55,269
+time yeah
+compared to a normal list almond list if
+
+412
+00:10:55,269 --> 00:10:55,279
+compared to a normal list almond list if
+ 
+
+413
+00:10:55,279 --> 00:10:58,949
+compared to a normal list almond list if
+if it's a normal list do this pop zero
+
+414
+00:10:58,949 --> 00:10:58,959
+if it's a normal list do this pop zero
+ 
+
+415
+00:10:58,959 --> 00:11:01,509
+if it's a normal list do this pop zero
+to remove it from the beginning which
+
+416
+00:11:01,509 --> 00:11:01,519
+to remove it from the beginning which
+ 
+
+417
+00:11:01,519 --> 00:11:02,150
+to remove it from the beginning which
+could take
+
+418
+00:11:02,150 --> 00:11:02,160
+could take
+ 
+
+419
+00:11:02,160 --> 00:11:05,110
+could take
+o n right so that's why we use the dq
+
+420
+00:11:05,110 --> 00:11:05,120
+o n right so that's why we use the dq
+ 
+
+421
+00:11:05,120 --> 00:11:05,430
+o n right so that's why we use the dq
+which
+
+422
+00:11:05,430 --> 00:11:05,440
+which
+ 
+
+423
+00:11:05,440 --> 00:11:08,949
+which
+has higher higher performance of the
+
+424
+00:11:08,949 --> 00:11:08,959
+has higher higher performance of the
+ 
+
+425
+00:11:08,959 --> 00:11:12,389
+has higher higher performance of the
+push and append and pop operation which
+
+426
+00:11:12,389 --> 00:11:12,399
+push and append and pop operation which
+ 
+
+427
+00:11:12,399 --> 00:11:12,630
+push and append and pop operation which
+is
+
+428
+00:11:12,630 --> 00:11:12,640
+is
+ 
+
+429
+00:11:12,640 --> 00:11:15,750
+is
+one constant right or one constant one
+
+430
+00:11:15,750 --> 00:11:15,760
+one constant right or one constant one
+ 
+
+431
+00:11:15,760 --> 00:11:18,230
+one constant right or one constant one
+constant means that uh
+
+432
+00:11:18,230 --> 00:11:18,240
+constant means that uh
+ 
+
+433
+00:11:18,240 --> 00:11:20,389
+constant means that uh
+it doesn't it doesn't matter how many
+
+434
+00:11:20,389 --> 00:11:20,399
+it doesn't it doesn't matter how many
+ 
+
+435
+00:11:20,399 --> 00:11:21,670
+it doesn't it doesn't matter how many
+elements are in the
+
+436
+00:11:21,670 --> 00:11:21,680
+elements are in the
+ 
+
+437
+00:11:21,680 --> 00:11:23,750
+elements are in the
+queue in the data structure it's always
+
+438
+00:11:23,750 --> 00:11:23,760
+queue in the data structure it's always
+ 
+
+439
+00:11:23,760 --> 00:11:25,590
+queue in the data structure it's always
+very instant faster right
+
+440
+00:11:25,590 --> 00:11:25,600
+very instant faster right
+ 
+
+441
+00:11:25,600 --> 00:11:29,350
+very instant faster right
+yeah yes got it if it's o-n
+
+442
+00:11:29,350 --> 00:11:29,360
+yeah yes got it if it's o-n
+ 
+
+443
+00:11:29,360 --> 00:11:31,350
+yeah yes got it if it's o-n
+it means that if there are minion items
+
+444
+00:11:31,350 --> 00:11:31,360
+it means that if there are minion items
+ 
+
+445
+00:11:31,360 --> 00:11:33,269
+it means that if there are minion items
+in the element
+
+446
+00:11:33,269 --> 00:11:33,279
+in the element
+ 
+
+447
+00:11:33,279 --> 00:11:35,590
+in the element
+and then if you if it's o-n and
+
+448
+00:11:35,590 --> 00:11:35,600
+and then if you if it's o-n and
+ 
+
+449
+00:11:35,600 --> 00:11:37,110
+and then if you if it's o-n and
+invention it will take
+
+450
+00:11:37,110 --> 00:11:37,120
+invention it will take
+ 
+
+451
+00:11:37,120 --> 00:11:39,670
+invention it will take
+long long time to do this right which is
+
+452
+00:11:39,670 --> 00:11:39,680
+long long time to do this right which is
+ 
+
+453
+00:11:39,680 --> 00:11:41,269
+long long time to do this right which is
+what we don't want to
+
+454
+00:11:41,269 --> 00:11:41,279
+what we don't want to
+ 
+
+455
+00:11:41,279 --> 00:11:44,710
+what we don't want to
+okay so goodbye bye
+
+456
+00:11:44,710 --> 00:11:44,720
+okay so goodbye bye
+ 
+
+457
+00:11:44,720 --> 00:11:48,550
+okay so goodbye bye
+so which one um
+
+458
+00:11:48,550 --> 00:11:48,560
+
+ 
+
+459
+00:11:48,560 --> 00:11:55,990
+
+yes i think that's pretty much it um
+
+460
+00:11:55,990 --> 00:11:56,000
+yes i think that's pretty much it um
+ 
+
+461
+00:11:56,000 --> 00:12:00,720
+yes i think that's pretty much it um
+see you tomorrow
+

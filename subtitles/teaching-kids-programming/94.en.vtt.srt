@@ -1,0 +1,1605 @@
+1
+00:00:00,240 --> 00:00:04,390
+
+hello hello hello mr eric mr ryan how
+
+2
+00:00:04,390 --> 00:00:04,400
+hello hello hello mr eric mr ryan how
+ 
+
+3
+00:00:04,400 --> 00:00:05,670
+hello hello hello mr eric mr ryan how
+are you today good
+
+4
+00:00:05,670 --> 00:00:05,680
+are you today good
+ 
+
+5
+00:00:05,680 --> 00:00:08,870
+are you today good
+good okay so today we'll talk about
+
+6
+00:00:08,870 --> 00:00:08,880
+good okay so today we'll talk about
+ 
+
+7
+00:00:08,880 --> 00:00:11,190
+good okay so today we'll talk about
+finding the max product so what's
+
+8
+00:00:11,190 --> 00:00:11,200
+finding the max product so what's
+ 
+
+9
+00:00:11,200 --> 00:00:11,990
+finding the max product so what's
+product
+
+10
+00:00:11,990 --> 00:00:12,000
+product
+ 
+
+11
+00:00:12,000 --> 00:00:14,549
+product
+of three numbers in an array so product
+
+12
+00:00:14,549 --> 00:00:14,559
+of three numbers in an array so product
+ 
+
+13
+00:00:14,559 --> 00:00:16,710
+of three numbers in an array so product
+is times together multiply
+
+14
+00:00:16,710 --> 00:00:16,720
+is times together multiply
+ 
+
+15
+00:00:16,720 --> 00:00:21,670
+is times together multiply
+so next product
+
+16
+00:00:21,670 --> 00:00:21,680
+so next product
+ 
+
+17
+00:00:21,680 --> 00:00:24,870
+so next product
+of three numbers
+
+18
+00:00:24,870 --> 00:00:24,880
+of three numbers
+ 
+
+19
+00:00:24,880 --> 00:00:29,669
+of three numbers
+in array okay so for example like
+
+20
+00:00:29,669 --> 00:00:29,679
+in array okay so for example like
+ 
+
+21
+00:00:29,679 --> 00:00:31,910
+in array okay so for example like
+and the numbers could be negative for
+
+22
+00:00:31,910 --> 00:00:31,920
+and the numbers could be negative for
+ 
+
+23
+00:00:31,920 --> 00:00:34,150
+and the numbers could be negative for
+example like minus one
+
+24
+00:00:34,150 --> 00:00:34,160
+example like minus one
+ 
+
+25
+00:00:34,160 --> 00:00:38,229
+example like minus one
+two three five so
+
+26
+00:00:38,229 --> 00:00:38,239
+two three five so
+ 
+
+27
+00:00:38,239 --> 00:00:41,030
+two three five so
+the next three numbers will be four
+
+28
+00:00:41,030 --> 00:00:41,040
+the next three numbers will be four
+ 
+
+29
+00:00:41,040 --> 00:00:41,590
+the next three numbers will be four
+numbers
+
+30
+00:00:41,590 --> 00:00:41,600
+numbers
+ 
+
+31
+00:00:41,600 --> 00:00:44,069
+numbers
+yeah i know but you choose three numbers
+
+32
+00:00:44,069 --> 00:00:44,079
+yeah i know but you choose three numbers
+ 
+
+33
+00:00:44,079 --> 00:00:46,150
+yeah i know but you choose three numbers
+and then times it together
+
+34
+00:00:46,150 --> 00:00:46,160
+and then times it together
+ 
+
+35
+00:00:46,160 --> 00:00:49,190
+and then times it together
+i want you to compute the max product
+
+36
+00:00:49,190 --> 00:00:49,200
+i want you to compute the max product
+ 
+
+37
+00:00:49,200 --> 00:00:53,110
+i want you to compute the max product
+it is 30. yeah we're done 2.35 yes
+
+38
+00:00:53,110 --> 00:00:53,120
+it is 30. yeah we're done 2.35 yes
+ 
+
+39
+00:00:53,120 --> 00:00:56,229
+it is 30. yeah we're done 2.35 yes
+okay so and remember it could be
+
+40
+00:00:56,229 --> 00:00:56,239
+okay so and remember it could be
+ 
+
+41
+00:00:56,239 --> 00:00:59,110
+okay so and remember it could be
+negative so for example it will be
+
+42
+00:00:59,110 --> 00:00:59,120
+negative so for example it will be
+ 
+
+43
+00:00:59,120 --> 00:01:02,229
+negative so for example it will be
+minus 200 minus
+
+44
+00:01:02,229 --> 00:01:02,239
+minus 200 minus
+ 
+
+45
+00:01:02,239 --> 00:01:07,270
+minus 200 minus
+a hundred so what's the arizona
+
+46
+00:01:07,270 --> 00:01:07,280
+a hundred so what's the arizona
+ 
+
+47
+00:01:07,280 --> 00:01:11,510
+a hundred so what's the arizona
+so you pick minus 200 minus 100
+
+48
+00:01:11,510 --> 00:01:11,520
+so you pick minus 200 minus 100
+ 
+
+49
+00:01:11,520 --> 00:01:14,149
+so you pick minus 200 minus 100
+double negative makes positive so 200
+
+50
+00:01:14,149 --> 00:01:14,159
+double negative makes positive so 200
+ 
+
+51
+00:01:14,159 --> 00:01:16,789
+double negative makes positive so 200
+times 100 times 5 that's the max product
+
+52
+00:01:16,789 --> 00:01:16,799
+times 100 times 5 that's the max product
+ 
+
+53
+00:01:16,799 --> 00:01:23,990
+times 100 times 5 that's the max product
+got it yes any questions
+
+54
+00:01:23,990 --> 00:01:24,000
+
+ 
+
+55
+00:01:24,000 --> 00:01:26,789
+
+what can you use the same number twice
+
+56
+00:01:26,789 --> 00:01:26,799
+what can you use the same number twice
+ 
+
+57
+00:01:26,799 --> 00:01:27,990
+what can you use the same number twice
+that's a good question no
+
+58
+00:01:27,990 --> 00:01:28,000
+that's a good question no
+ 
+
+59
+00:01:28,000 --> 00:01:32,230
+that's a good question no
+we can't we you only pick one numbers
+
+60
+00:01:32,230 --> 00:01:32,240
+we can't we you only pick one numbers
+ 
+
+61
+00:01:32,240 --> 00:01:34,710
+we can't we you only pick one numbers
+once okay so any thoughts and this
+
+62
+00:01:34,710 --> 00:01:34,720
+once okay so any thoughts and this
+ 
+
+63
+00:01:34,720 --> 00:01:36,789
+once okay so any thoughts and this
+number these arrays
+
+64
+00:01:36,789 --> 00:01:36,799
+number these arrays
+ 
+
+65
+00:01:36,799 --> 00:01:39,990
+number these arrays
+are not necessarily sorted you know
+
+66
+00:01:39,990 --> 00:01:40,000
+are not necessarily sorted you know
+ 
+
+67
+00:01:40,000 --> 00:01:42,789
+are not necessarily sorted you know
+for now i just give it from from the
+
+68
+00:01:42,789 --> 00:01:42,799
+for now i just give it from from the
+ 
+
+69
+00:01:42,799 --> 00:01:43,830
+for now i just give it from from the
+smallest to the
+
+70
+00:01:43,830 --> 00:01:43,840
+smallest to the
+ 
+
+71
+00:01:43,840 --> 00:01:47,030
+smallest to the
+largest yeah so it's it's not necessary
+
+72
+00:01:47,030 --> 00:01:47,040
+largest yeah so it's it's not necessary
+ 
+
+73
+00:01:47,040 --> 00:01:48,310
+largest yeah so it's it's not necessary
+sorry i will give you an
+
+74
+00:01:48,310 --> 00:01:48,320
+sorry i will give you an
+ 
+
+75
+00:01:48,320 --> 00:01:51,429
+sorry i will give you an
+assorted list for example like 2
+
+76
+00:01:51,429 --> 00:01:51,439
+assorted list for example like 2
+ 
+
+77
+00:01:51,439 --> 00:01:55,350
+assorted list for example like 2
+1 minus ten
+
+78
+00:01:55,350 --> 00:01:55,360
+1 minus ten
+ 
+
+79
+00:01:55,360 --> 00:01:58,550
+1 minus ten
+three ten so what's the
+
+80
+00:01:58,550 --> 00:01:58,560
+three ten so what's the
+ 
+
+81
+00:01:58,560 --> 00:02:02,389
+three ten so what's the
+next product
+
+82
+00:02:02,389 --> 00:02:02,399
+
+ 
+
+83
+00:02:02,399 --> 00:02:02,730
+
+uh
+
+84
+00:02:02,730 --> 00:02:02,740
+uh
+ 
+
+85
+00:02:02,740 --> 00:02:07,109
+uh
+[Music]
+
+86
+00:02:07,109 --> 00:02:07,119
+
+ 
+
+87
+00:02:07,119 --> 00:02:10,070
+
+fifty fifty how do you come up with
+
+88
+00:02:10,070 --> 00:02:10,080
+fifty fifty how do you come up with
+ 
+
+89
+00:02:10,080 --> 00:02:11,029
+fifty fifty how do you come up with
+fifty
+
+90
+00:02:11,029 --> 00:02:11,039
+fifty
+ 
+
+91
+00:02:11,039 --> 00:02:14,070
+fifty
+ten times three times two then that's
+
+92
+00:02:14,070 --> 00:02:14,080
+ten times three times two then that's
+ 
+
+93
+00:02:14,080 --> 00:02:17,270
+ten times three times two then that's
+fifty that's sixty isn't it
+
+94
+00:02:17,270 --> 00:02:17,280
+fifty that's sixty isn't it
+ 
+
+95
+00:02:17,280 --> 00:02:20,550
+fifty that's sixty isn't it
+oh yeah yeah
+
+96
+00:02:20,550 --> 00:02:20,560
+oh yeah yeah
+ 
+
+97
+00:02:20,560 --> 00:02:23,030
+oh yeah yeah
+okay okay so any idea how we start
+
+98
+00:02:23,030 --> 00:02:23,040
+okay okay so any idea how we start
+ 
+
+99
+00:02:23,040 --> 00:02:24,630
+okay okay so any idea how we start
+solving this problem
+
+100
+00:02:24,630 --> 00:02:24,640
+solving this problem
+ 
+
+101
+00:02:24,640 --> 00:02:27,910
+solving this problem
+ryan any sauce so let's sort them out
+
+102
+00:02:27,910 --> 00:02:27,920
+ryan any sauce so let's sort them out
+ 
+
+103
+00:02:27,920 --> 00:02:30,309
+ryan any sauce so let's sort them out
+we're done so first of all we saw this
+
+104
+00:02:30,309 --> 00:02:30,319
+we're done so first of all we saw this
+ 
+
+105
+00:02:30,319 --> 00:02:31,670
+we're done so first of all we saw this
+array okay
+
+106
+00:02:31,670 --> 00:02:31,680
+array okay
+ 
+
+107
+00:02:31,680 --> 00:02:33,190
+array okay
+we saw for example this is salted
+
+108
+00:02:33,190 --> 00:02:33,200
+we saw for example this is salted
+ 
+
+109
+00:02:33,200 --> 00:02:34,869
+we saw for example this is salted
+alright so first of all
+
+110
+00:02:34,869 --> 00:02:34,879
+alright so first of all
+ 
+
+111
+00:02:34,879 --> 00:02:38,710
+alright so first of all
+okay so that look define max
+
+112
+00:02:38,710 --> 00:02:38,720
+okay so that look define max
+ 
+
+113
+00:02:38,720 --> 00:02:44,550
+okay so that look define max
+product okay
+
+114
+00:02:44,550 --> 00:02:44,560
+
+ 
+
+115
+00:02:44,560 --> 00:02:46,470
+
+okay so first of all we saw this number
+
+116
+00:02:46,470 --> 00:02:46,480
+okay so first of all we saw this number
+ 
+
+117
+00:02:46,480 --> 00:02:51,950
+okay so first of all we saw this number
+so how do we solve it
+
+118
+00:02:51,950 --> 00:02:51,960
+
+ 
+
+119
+00:02:51,960 --> 00:02:55,589
+
+[Music]
+
+120
+00:02:55,589 --> 00:02:55,599
+
+ 
+
+121
+00:02:55,599 --> 00:02:58,790
+
+okay so when you do this it's sorting
+
+122
+00:02:58,790 --> 00:02:58,800
+okay so when you do this it's sorting
+ 
+
+123
+00:02:58,800 --> 00:03:00,470
+okay so when you do this it's sorting
+from the smallest to the
+
+124
+00:03:00,470 --> 00:03:00,480
+from the smallest to the
+ 
+
+125
+00:03:00,480 --> 00:03:04,229
+from the smallest to the
+largest is ascending order okay so
+
+126
+00:03:04,229 --> 00:03:04,239
+largest is ascending order okay so
+ 
+
+127
+00:03:04,239 --> 00:03:06,470
+largest is ascending order okay so
+if you want to sort it in the reverse
+
+128
+00:03:06,470 --> 00:03:06,480
+if you want to sort it in the reverse
+ 
+
+129
+00:03:06,480 --> 00:03:07,910
+if you want to sort it in the reverse
+order for example it would be
+
+130
+00:03:07,910 --> 00:03:07,920
+order for example it would be
+ 
+
+131
+00:03:07,920 --> 00:03:10,630
+order for example it would be
+five three two minus one minus and minus
+
+132
+00:03:10,630 --> 00:03:10,640
+five three two minus one minus and minus
+ 
+
+133
+00:03:10,640 --> 00:03:11,910
+five three two minus one minus and minus
+two hundred you have to
+
+134
+00:03:11,910 --> 00:03:11,920
+two hundred you have to
+ 
+
+135
+00:03:11,920 --> 00:03:15,190
+two hundred you have to
+put a thing here called reverse
+
+136
+00:03:15,190 --> 00:03:15,200
+put a thing here called reverse
+ 
+
+137
+00:03:15,200 --> 00:03:18,790
+put a thing here called reverse
+reverse yeah us equals true
+
+138
+00:03:18,790 --> 00:03:18,800
+reverse yeah us equals true
+ 
+
+139
+00:03:18,800 --> 00:03:20,869
+reverse yeah us equals true
+so if you put that thing in here then
+
+140
+00:03:20,869 --> 00:03:20,879
+so if you put that thing in here then
+ 
+
+141
+00:03:20,879 --> 00:03:22,390
+so if you put that thing in here then
+you start it from the largest to the
+
+142
+00:03:22,390 --> 00:03:22,400
+you start it from the largest to the
+ 
+
+143
+00:03:22,400 --> 00:03:23,350
+you start it from the largest to the
+smallest okay
+
+144
+00:03:23,350 --> 00:03:23,360
+smallest okay
+ 
+
+145
+00:03:23,360 --> 00:03:25,589
+smallest okay
+so after salting in another salting we
+
+146
+00:03:25,589 --> 00:03:25,599
+so after salting in another salting we
+ 
+
+147
+00:03:25,599 --> 00:03:27,430
+so after salting in another salting we
+talked about a quick saw the merch saw
+
+148
+00:03:27,430 --> 00:03:27,440
+talked about a quick saw the merch saw
+ 
+
+149
+00:03:27,440 --> 00:03:27,910
+talked about a quick saw the merch saw
+yeah
+
+150
+00:03:27,910 --> 00:03:27,920
+yeah
+ 
+
+151
+00:03:27,920 --> 00:03:30,070
+yeah
+you still remember yeah quick so almost
+
+152
+00:03:30,070 --> 00:03:30,080
+you still remember yeah quick so almost
+ 
+
+153
+00:03:30,080 --> 00:03:31,670
+you still remember yeah quick so almost
+so yeah
+
+154
+00:03:31,670 --> 00:03:31,680
+so yeah
+ 
+
+155
+00:03:31,680 --> 00:03:33,509
+so yeah
+what's the time complexity of this
+
+156
+00:03:33,509 --> 00:03:33,519
+what's the time complexity of this
+ 
+
+157
+00:03:33,519 --> 00:03:38,789
+what's the time complexity of this
+sorting
+
+158
+00:03:38,789 --> 00:03:38,799
+
+ 
+
+159
+00:03:38,799 --> 00:03:42,869
+
+okay yeah we're done
+
+160
+00:03:42,869 --> 00:03:42,879
+
+ 
+
+161
+00:03:42,879 --> 00:03:44,949
+
+okay so once we sorted how do we find
+
+162
+00:03:44,949 --> 00:03:44,959
+okay so once we sorted how do we find
+ 
+
+163
+00:03:44,959 --> 00:03:47,110
+okay so once we sorted how do we find
+out the next three products
+
+164
+00:03:47,110 --> 00:03:47,120
+out the next three products
+ 
+
+165
+00:03:47,120 --> 00:03:51,670
+out the next three products
+we go from the last
+
+166
+00:03:51,670 --> 00:03:51,680
+
+ 
+
+167
+00:03:51,680 --> 00:03:54,789
+
+and then then go
+
+168
+00:03:54,789 --> 00:03:54,799
+and then then go
+ 
+
+169
+00:03:54,799 --> 00:03:57,990
+and then then go
+back yeah twice okay so
+
+170
+00:03:57,990 --> 00:03:58,000
+back yeah twice okay so
+ 
+
+171
+00:03:58,000 --> 00:03:59,589
+back yeah twice okay so
+you first of all you check these three
+
+172
+00:03:59,589 --> 00:03:59,599
+you first of all you check these three
+ 
+
+173
+00:03:59,599 --> 00:04:01,670
+you first of all you check these three
+yeah yeah again
+
+174
+00:04:01,670 --> 00:04:01,680
+yeah yeah again
+ 
+
+175
+00:04:01,680 --> 00:04:05,110
+yeah yeah again
+that's it how about you for this
+
+176
+00:04:05,110 --> 00:04:05,120
+that's it how about you for this
+ 
+
+177
+00:04:05,120 --> 00:04:07,030
+that's it how about you for this
+negative look because it could be
+
+178
+00:04:07,030 --> 00:04:07,040
+negative look because it could be
+ 
+
+179
+00:04:07,040 --> 00:04:09,030
+negative look because it could be
+negative yeah if they're too
+
+180
+00:04:09,030 --> 00:04:09,040
+negative yeah if they're too
+ 
+
+181
+00:04:09,040 --> 00:04:12,070
+negative yeah if they're too
+negative yeah so basically you check
+
+182
+00:04:12,070 --> 00:04:12,080
+negative yeah so basically you check
+ 
+
+183
+00:04:12,080 --> 00:04:14,789
+negative yeah so basically you check
+two yeah and you you check these two
+
+184
+00:04:14,789 --> 00:04:14,799
+two yeah and you you check these two
+ 
+
+185
+00:04:14,799 --> 00:04:15,270
+two yeah and you you check these two
+plus
+
+186
+00:04:15,270 --> 00:04:15,280
+plus
+ 
+
+187
+00:04:15,280 --> 00:04:17,830
+plus
+times this all right yeah so there are
+
+188
+00:04:17,830 --> 00:04:17,840
+times this all right yeah so there are
+ 
+
+189
+00:04:17,840 --> 00:04:19,670
+times this all right yeah so there are
+only two possibilities yeah
+
+190
+00:04:19,670 --> 00:04:19,680
+only two possibilities yeah
+ 
+
+191
+00:04:19,680 --> 00:04:21,670
+only two possibilities yeah
+could could it be choosing three numbers
+
+192
+00:04:21,670 --> 00:04:21,680
+could could it be choosing three numbers
+ 
+
+193
+00:04:21,680 --> 00:04:23,270
+could could it be choosing three numbers
+here no
+
+194
+00:04:23,270 --> 00:04:23,280
+here no
+ 
+
+195
+00:04:23,280 --> 00:04:25,350
+here no
+right because if you if you choose two
+
+196
+00:04:25,350 --> 00:04:25,360
+right because if you if you choose two
+ 
+
+197
+00:04:25,360 --> 00:04:26,390
+right because if you if you choose two
+from the list
+
+198
+00:04:26,390 --> 00:04:26,400
+from the list
+ 
+
+199
+00:04:26,400 --> 00:04:28,870
+from the list
+yeah the best case is these two are
+
+200
+00:04:28,870 --> 00:04:28,880
+yeah the best case is these two are
+ 
+
+201
+00:04:28,880 --> 00:04:29,510
+yeah the best case is these two are
+negative
+
+202
+00:04:29,510 --> 00:04:29,520
+negative
+ 
+
+203
+00:04:29,520 --> 00:04:32,150
+negative
+and then this is positive right but if
+
+204
+00:04:32,150 --> 00:04:32,160
+and then this is positive right but if
+ 
+
+205
+00:04:32,160 --> 00:04:33,990
+and then this is positive right but if
+you could choose a positive why not
+
+206
+00:04:33,990 --> 00:04:34,000
+you could choose a positive why not
+ 
+
+207
+00:04:34,000 --> 00:04:34,390
+you could choose a positive why not
+choose
+
+208
+00:04:34,390 --> 00:04:34,400
+choose
+ 
+
+209
+00:04:34,400 --> 00:04:37,430
+choose
+these big largest positive
+
+210
+00:04:37,430 --> 00:04:37,440
+these big largest positive
+ 
+
+211
+00:04:37,440 --> 00:04:41,270
+these big largest positive
+do you see the problem yes only so these
+
+212
+00:04:41,270 --> 00:04:41,280
+do you see the problem yes only so these
+ 
+
+213
+00:04:41,280 --> 00:04:44,390
+do you see the problem yes only so these
+the maximum of these three numbers and
+
+214
+00:04:44,390 --> 00:04:44,400
+the maximum of these three numbers and
+ 
+
+215
+00:04:44,400 --> 00:04:46,950
+the maximum of these three numbers and
+these two numbers and these is the
+
+216
+00:04:46,950 --> 00:04:46,960
+these two numbers and these is the
+ 
+
+217
+00:04:46,960 --> 00:04:47,670
+these two numbers and these is the
+answer
+
+218
+00:04:47,670 --> 00:04:47,680
+answer
+ 
+
+219
+00:04:47,680 --> 00:04:50,310
+answer
+yeah you could choose how about if i
+
+220
+00:04:50,310 --> 00:04:50,320
+yeah you could choose how about if i
+ 
+
+221
+00:04:50,320 --> 00:04:51,030
+yeah you could choose how about if i
+choose one
+
+222
+00:04:51,030 --> 00:04:51,040
+choose one
+ 
+
+223
+00:04:51,040 --> 00:04:53,270
+choose one
+what numbers here if i choose one number
+
+224
+00:04:53,270 --> 00:04:53,280
+what numbers here if i choose one number
+ 
+
+225
+00:04:53,280 --> 00:04:55,110
+what numbers here if i choose one number
+this could be negative right
+
+226
+00:04:55,110 --> 00:04:55,120
+this could be negative right
+ 
+
+227
+00:04:55,120 --> 00:04:57,670
+this could be negative right
+yes if it's negative then the result is
+
+228
+00:04:57,670 --> 00:04:57,680
+yes if it's negative then the result is
+ 
+
+229
+00:04:57,680 --> 00:04:58,230
+yes if it's negative then the result is
+negative
+
+230
+00:04:58,230 --> 00:04:58,240
+negative
+ 
+
+231
+00:04:58,240 --> 00:05:01,189
+negative
+obviously that's not not let's not do it
+
+232
+00:05:01,189 --> 00:05:01,199
+obviously that's not not let's not do it
+ 
+
+233
+00:05:01,199 --> 00:05:02,550
+obviously that's not not let's not do it
+by a minute
+
+234
+00:05:02,550 --> 00:05:02,560
+by a minute
+ 
+
+235
+00:05:02,560 --> 00:05:05,990
+by a minute
+okay okay okay so now let's find um
+
+236
+00:05:05,990 --> 00:05:06,000
+okay okay okay so now let's find um
+ 
+
+237
+00:05:06,000 --> 00:05:09,430
+okay okay okay so now let's find um
+so how do we do this look let's
+
+238
+00:05:09,430 --> 00:05:09,440
+so how do we do this look let's
+ 
+
+239
+00:05:09,440 --> 00:05:13,510
+so how do we do this look let's
+return yeah you just tell me return max
+
+240
+00:05:13,510 --> 00:05:13,520
+return yeah you just tell me return max
+ 
+
+241
+00:05:13,520 --> 00:05:18,230
+return yeah you just tell me return max
+max what numbs
+
+242
+00:05:18,230 --> 00:05:18,240
+max what numbs
+ 
+
+243
+00:05:18,240 --> 00:05:21,430
+max what numbs
+what's this minus one yeah yeah tons
+
+244
+00:05:21,430 --> 00:05:21,440
+what's this minus one yeah yeah tons
+ 
+
+245
+00:05:21,440 --> 00:05:27,850
+what's this minus one yeah yeah tons
+what's this
+
+246
+00:05:27,850 --> 00:05:27,860
+
+ 
+
+247
+00:05:27,860 --> 00:05:37,029
+
+[Music]
+
+248
+00:05:37,029 --> 00:05:37,039
+
+ 
+
+249
+00:05:37,039 --> 00:05:39,510
+
+what was this i'm going to compare with
+
+250
+00:05:39,510 --> 00:05:39,520
+what was this i'm going to compare with
+ 
+
+251
+00:05:39,520 --> 00:05:43,570
+what was this i'm going to compare with
+space so
+
+252
+00:05:43,570 --> 00:05:43,580
+
+ 
+
+253
+00:05:43,580 --> 00:05:44,790
+
+[Music]
+
+254
+00:05:44,790 --> 00:05:44,800
+[Music]
+ 
+
+255
+00:05:44,800 --> 00:05:49,110
+[Music]
+yellow yeah times what's this
+
+256
+00:05:49,110 --> 00:05:49,120
+yellow yeah times what's this
+ 
+
+257
+00:05:49,120 --> 00:06:04,710
+yellow yeah times what's this
+noun is what
+
+258
+00:06:04,710 --> 00:06:04,720
+
+ 
+
+259
+00:06:04,720 --> 00:06:07,830
+
+minus one okay so so look
+
+260
+00:06:07,830 --> 00:06:07,840
+minus one okay so so look
+ 
+
+261
+00:06:07,840 --> 00:06:13,189
+minus one okay so so look
+do you understand what's the complexity
+
+262
+00:06:13,189 --> 00:06:13,199
+
+ 
+
+263
+00:06:13,199 --> 00:06:15,270
+
+yeah we're done because this is constant
+
+264
+00:06:15,270 --> 00:06:15,280
+yeah we're done because this is constant
+ 
+
+265
+00:06:15,280 --> 00:06:16,629
+yeah we're done because this is constant
+yeah this is constant and
+
+266
+00:06:16,629 --> 00:06:16,639
+yeah this is constant and
+ 
+
+267
+00:06:16,639 --> 00:06:18,710
+yeah this is constant and
+it's this whole thing is dominated by
+
+268
+00:06:18,710 --> 00:06:18,720
+it's this whole thing is dominated by
+ 
+
+269
+00:06:18,720 --> 00:06:20,150
+it's this whole thing is dominated by
+this uh
+
+270
+00:06:20,150 --> 00:06:20,160
+this uh
+ 
+
+271
+00:06:20,160 --> 00:06:22,710
+this uh
+sorting aggregate so one more time okay
+
+272
+00:06:22,710 --> 00:06:22,720
+sorting aggregate so one more time okay
+ 
+
+273
+00:06:22,720 --> 00:06:24,790
+sorting aggregate so one more time okay
+so the maximum three products could be
+
+274
+00:06:24,790 --> 00:06:24,800
+so the maximum three products could be
+ 
+
+275
+00:06:24,800 --> 00:06:25,749
+so the maximum three products could be
+only
+
+276
+00:06:25,749 --> 00:06:25,759
+only
+ 
+
+277
+00:06:25,759 --> 00:06:27,670
+only
+if it is negative because we're sorting
+
+278
+00:06:27,670 --> 00:06:27,680
+if it is negative because we're sorting
+ 
+
+279
+00:06:27,680 --> 00:06:28,870
+if it is negative because we're sorting
+the array
+
+280
+00:06:28,870 --> 00:06:28,880
+the array
+ 
+
+281
+00:06:28,880 --> 00:06:31,029
+the array
+then that you'll be from the negative
+
+282
+00:06:31,029 --> 00:06:31,039
+then that you'll be from the negative
+ 
+
+283
+00:06:31,039 --> 00:06:33,029
+then that you'll be from the negative
+possibly to the largest after the
+
+284
+00:06:33,029 --> 00:06:33,039
+possibly to the largest after the
+ 
+
+285
+00:06:33,039 --> 00:06:34,550
+possibly to the largest after the
+positive so the
+
+286
+00:06:34,550 --> 00:06:34,560
+positive so the
+ 
+
+287
+00:06:34,560 --> 00:06:37,670
+positive so the
+the next three product could be the
+
+288
+00:06:37,670 --> 00:06:37,680
+the next three product could be the
+ 
+
+289
+00:06:37,680 --> 00:06:40,550
+the next three product could be the
+biggest three numbers yeah or the
+
+290
+00:06:40,550 --> 00:06:40,560
+biggest three numbers yeah or the
+ 
+
+291
+00:06:40,560 --> 00:06:42,309
+biggest three numbers yeah or the
+smallest two numbers because
+
+292
+00:06:42,309 --> 00:06:42,319
+smallest two numbers because
+ 
+
+293
+00:06:42,319 --> 00:06:44,309
+smallest two numbers because
+they may carry the negative sign and
+
+294
+00:06:44,309 --> 00:06:44,319
+they may carry the negative sign and
+ 
+
+295
+00:06:44,319 --> 00:06:46,469
+they may carry the negative sign and
+when it comes together the negative
+
+296
+00:06:46,469 --> 00:06:46,479
+when it comes together the negative
+ 
+
+297
+00:06:46,479 --> 00:06:49,510
+when it comes together the negative
+will become positive yeah but uh because
+
+298
+00:06:49,510 --> 00:06:49,520
+will become positive yeah but uh because
+ 
+
+299
+00:06:49,520 --> 00:06:51,110
+will become positive yeah but uh because
+there's three numbers so we need one
+
+300
+00:06:51,110 --> 00:06:51,120
+there's three numbers so we need one
+ 
+
+301
+00:06:51,120 --> 00:06:52,550
+there's three numbers so we need one
+more number so what
+
+302
+00:06:52,550 --> 00:06:52,560
+more number so what
+ 
+
+303
+00:06:52,560 --> 00:06:55,270
+more number so what
+if these two numbers make positive and i
+
+304
+00:06:55,270 --> 00:06:55,280
+if these two numbers make positive and i
+ 
+
+305
+00:06:55,280 --> 00:06:56,790
+if these two numbers make positive and i
+need one more number i
+
+306
+00:06:56,790 --> 00:06:56,800
+need one more number i
+ 
+
+307
+00:06:56,800 --> 00:06:58,710
+need one more number i
+i could better choose the largest one
+
+308
+00:06:58,710 --> 00:06:58,720
+i could better choose the largest one
+ 
+
+309
+00:06:58,720 --> 00:07:00,150
+i could better choose the largest one
+yeah which is this side
+
+310
+00:07:00,150 --> 00:07:00,160
+yeah which is this side
+ 
+
+311
+00:07:00,160 --> 00:07:02,390
+yeah which is this side
+all right yeah because i choose this
+
+312
+00:07:02,390 --> 00:07:02,400
+all right yeah because i choose this
+ 
+
+313
+00:07:02,400 --> 00:07:04,309
+all right yeah because i choose this
+list obviously not optimal i can choose
+
+314
+00:07:04,309 --> 00:07:04,319
+list obviously not optimal i can choose
+ 
+
+315
+00:07:04,319 --> 00:07:04,629
+list obviously not optimal i can choose
+this
+
+316
+00:07:04,629 --> 00:07:04,639
+this
+ 
+
+317
+00:07:04,639 --> 00:07:08,150
+this
+yes got it okay so that's it bye
+
+318
+00:07:08,150 --> 00:07:08,160
+yes got it okay so that's it bye
+ 
+
+319
+00:07:08,160 --> 00:07:11,790
+yes got it okay so that's it bye
+bye bye bye
+
+320
+00:07:11,790 --> 00:07:11,800
+bye bye bye
+ 
+
+321
+00:07:11,800 --> 00:07:14,800
+bye bye bye
+bye
+

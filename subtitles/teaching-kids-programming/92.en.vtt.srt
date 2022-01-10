@@ -1,0 +1,3145 @@
+1
+00:00:00,320 --> 00:00:03,750
+
+go hello hello hello mr
+
+2
+00:00:03,750 --> 00:00:03,760
+go hello hello hello mr
+ 
+
+3
+00:00:03,760 --> 00:00:07,430
+go hello hello hello mr
+mr ryan how are you today good good
+
+4
+00:00:07,430 --> 00:00:07,440
+mr ryan how are you today good good
+ 
+
+5
+00:00:07,440 --> 00:00:10,709
+mr ryan how are you today good good
+okay so today we uh talk about
+
+6
+00:00:10,709 --> 00:00:10,719
+okay so today we uh talk about
+ 
+
+7
+00:00:10,719 --> 00:00:13,430
+okay so today we uh talk about
+the breakfast search yes remember the
+
+8
+00:00:13,430 --> 00:00:13,440
+the breakfast search yes remember the
+ 
+
+9
+00:00:13,440 --> 00:00:14,629
+the breakfast search yes remember the
+breakfast
+
+10
+00:00:14,629 --> 00:00:14,639
+breakfast
+ 
+
+11
+00:00:14,639 --> 00:00:16,630
+breakfast
+yeah you said you feel hungry by hearing
+
+12
+00:00:16,630 --> 00:00:16,640
+yeah you said you feel hungry by hearing
+ 
+
+13
+00:00:16,640 --> 00:00:19,109
+yeah you said you feel hungry by hearing
+his name breakfast such breads with
+
+14
+00:00:19,109 --> 00:00:19,119
+his name breakfast such breads with
+ 
+
+15
+00:00:19,119 --> 00:00:22,630
+his name breakfast such breads with
+bfs okay
+
+16
+00:00:22,630 --> 00:00:22,640
+bfs okay
+ 
+
+17
+00:00:22,640 --> 00:00:24,390
+bfs okay
+breath versus so we're going to use the
+
+18
+00:00:24,390 --> 00:00:24,400
+breath versus so we're going to use the
+ 
+
+19
+00:00:24,400 --> 00:00:26,870
+breath versus so we're going to use the
+breakfast search to
+
+20
+00:00:26,870 --> 00:00:26,880
+breakfast search to
+ 
+
+21
+00:00:26,880 --> 00:00:29,509
+breakfast search to
+compute the left side of a binary tree
+
+22
+00:00:29,509 --> 00:00:29,519
+compute the left side of a binary tree
+ 
+
+23
+00:00:29,519 --> 00:00:30,470
+compute the left side of a binary tree
+okay
+
+24
+00:00:30,470 --> 00:00:30,480
+okay
+ 
+
+25
+00:00:30,480 --> 00:00:34,389
+okay
+left side so for example one two
+
+26
+00:00:34,389 --> 00:00:34,399
+left side so for example one two
+ 
+
+27
+00:00:34,399 --> 00:00:37,830
+left side so for example one two
+three four five
+
+28
+00:00:37,830 --> 00:00:37,840
+three four five
+ 
+
+29
+00:00:37,840 --> 00:00:40,790
+three four five
+on the left side so you're standing like
+
+30
+00:00:40,790 --> 00:00:40,800
+on the left side so you're standing like
+ 
+
+31
+00:00:40,800 --> 00:00:41,110
+on the left side so you're standing like
+like
+
+32
+00:00:41,110 --> 00:00:41,120
+like
+ 
+
+33
+00:00:41,120 --> 00:00:43,750
+like
+that's you okay that's you that's me
+
+34
+00:00:43,750 --> 00:00:43,760
+that's you okay that's you that's me
+ 
+
+35
+00:00:43,760 --> 00:00:44,150
+that's you okay that's you that's me
+that's
+
+36
+00:00:44,150 --> 00:00:44,160
+that's
+ 
+
+37
+00:00:44,160 --> 00:00:47,430
+that's
+that's you yes okay
+
+38
+00:00:47,430 --> 00:00:47,440
+that's you yes okay
+ 
+
+39
+00:00:47,440 --> 00:00:51,029
+that's you yes okay
+what's your thing inside that okay
+
+40
+00:00:51,029 --> 00:00:51,039
+what's your thing inside that okay
+ 
+
+41
+00:00:51,039 --> 00:00:54,069
+what's your thing inside that okay
+let's see looking from the left to the
+
+42
+00:00:54,069 --> 00:00:54,079
+let's see looking from the left to the
+ 
+
+43
+00:00:54,079 --> 00:00:55,910
+let's see looking from the left to the
+right and then what you see is that
+
+44
+00:00:55,910 --> 00:00:55,920
+right and then what you see is that
+ 
+
+45
+00:00:55,920 --> 00:00:56,869
+right and then what you see is that
+three hair
+
+46
+00:00:56,869 --> 00:00:56,879
+three hair
+ 
+
+47
+00:00:56,879 --> 00:00:59,830
+three hair
+yeah that is one two and four yeah you
+
+48
+00:00:59,830 --> 00:00:59,840
+yeah that is one two and four yeah you
+ 
+
+49
+00:00:59,840 --> 00:01:00,229
+yeah that is one two and four yeah you
+can't see
+
+50
+00:01:00,229 --> 00:01:00,239
+can't see
+ 
+
+51
+00:01:00,239 --> 00:01:01,990
+can't see
+three and five yeah because that's
+
+52
+00:01:01,990 --> 00:01:02,000
+three and five yeah because that's
+ 
+
+53
+00:01:02,000 --> 00:01:03,830
+three and five yeah because that's
+blocked okay so base
+
+54
+00:01:03,830 --> 00:01:03,840
+blocked okay so base
+ 
+
+55
+00:01:03,840 --> 00:01:06,550
+blocked okay so base
+we can use the brush massager oh of
+
+56
+00:01:06,550 --> 00:01:06,560
+we can use the brush massager oh of
+ 
+
+57
+00:01:06,560 --> 00:01:08,230
+we can use the brush massager oh of
+course we can also use the def
+
+58
+00:01:08,230 --> 00:01:08,240
+course we can also use the def
+ 
+
+59
+00:01:08,240 --> 00:01:11,910
+course we can also use the def
+search dfs we which we will talk about
+
+60
+00:01:11,910 --> 00:01:11,920
+search dfs we which we will talk about
+ 
+
+61
+00:01:11,920 --> 00:01:13,109
+search dfs we which we will talk about
+tomorrow okay
+
+62
+00:01:13,109 --> 00:01:13,119
+tomorrow okay
+ 
+
+63
+00:01:13,119 --> 00:01:14,950
+tomorrow okay
+so you're standing on the left and
+
+64
+00:01:14,950 --> 00:01:14,960
+so you're standing on the left and
+ 
+
+65
+00:01:14,960 --> 00:01:16,390
+so you're standing on the left and
+you're looking into
+
+66
+00:01:16,390 --> 00:01:16,400
+you're looking into
+ 
+
+67
+00:01:16,400 --> 00:01:20,630
+you're looking into
+the right yeah then this is the
+
+68
+00:01:20,630 --> 00:01:20,640
+the right yeah then this is the
+ 
+
+69
+00:01:20,640 --> 00:01:22,469
+the right yeah then this is the
+the first note you're going to see so
+
+70
+00:01:22,469 --> 00:01:22,479
+the first note you're going to see so
+ 
+
+71
+00:01:22,479 --> 00:01:24,310
+the first note you're going to see so
+you we're going to use the preference
+
+72
+00:01:24,310 --> 00:01:24,320
+you we're going to use the preference
+ 
+
+73
+00:01:24,320 --> 00:01:25,429
+you we're going to use the preference
+search okay
+
+74
+00:01:25,429 --> 00:01:25,439
+search okay
+ 
+
+75
+00:01:25,439 --> 00:01:27,190
+search okay
+so how do we use the breakfast search
+
+76
+00:01:27,190 --> 00:01:27,200
+so how do we use the breakfast search
+ 
+
+77
+00:01:27,200 --> 00:01:29,910
+so how do we use the breakfast search
+any idea
+
+78
+00:01:29,910 --> 00:01:29,920
+any idea
+ 
+
+79
+00:01:29,920 --> 00:01:32,230
+any idea
+any idea so every time we expand the
+
+80
+00:01:32,230 --> 00:01:32,240
+any idea so every time we expand the
+ 
+
+81
+00:01:32,240 --> 00:01:33,429
+any idea so every time we expand the
+notes in
+
+82
+00:01:33,429 --> 00:01:33,439
+notes in
+ 
+
+83
+00:01:33,439 --> 00:01:36,710
+notes in
+the queue yeah yeah we use the queue to
+
+84
+00:01:36,710 --> 00:01:36,720
+the queue yeah yeah we use the queue to
+ 
+
+85
+00:01:36,720 --> 00:01:37,910
+the queue yeah yeah we use the queue to
+store the nodes
+
+86
+00:01:37,910 --> 00:01:37,920
+store the nodes
+ 
+
+87
+00:01:37,920 --> 00:01:41,270
+store the nodes
+in stolen notes
+
+88
+00:01:41,270 --> 00:01:41,280
+in stolen notes
+ 
+
+89
+00:01:41,280 --> 00:01:45,109
+in stolen notes
+in in what in the final three yeah yeah
+
+90
+00:01:45,109 --> 00:01:45,119
+in in what in the final three yeah yeah
+ 
+
+91
+00:01:45,119 --> 00:01:49,190
+in in what in the final three yeah yeah
+okay so remember look this is one
+
+92
+00:01:49,190 --> 00:01:49,200
+okay so remember look this is one
+ 
+
+93
+00:01:49,200 --> 00:01:52,789
+okay so remember look this is one
+two how we do this okay
+
+94
+00:01:52,789 --> 00:01:52,799
+
+ 
+
+95
+00:01:52,799 --> 00:01:56,389
+
+okay so look i have a q yeah i have a q
+
+96
+00:01:56,389 --> 00:01:56,399
+okay so look i have a q yeah i have a q
+ 
+
+97
+00:01:56,399 --> 00:01:59,910
+okay so look i have a q yeah i have a q
+here first of all i put the one in yeah
+
+98
+00:01:59,910 --> 00:01:59,920
+here first of all i put the one in yeah
+ 
+
+99
+00:01:59,920 --> 00:02:00,389
+here first of all i put the one in yeah
+yeah
+
+100
+00:02:00,389 --> 00:02:00,399
+yeah
+ 
+
+101
+00:02:00,399 --> 00:02:03,990
+yeah
+okay okay let's see and then i i have
+
+102
+00:02:03,990 --> 00:02:04,000
+okay okay let's see and then i i have
+ 
+
+103
+00:02:04,000 --> 00:02:07,350
+okay okay let's see and then i i have
+i have a i want to you know the dq
+
+104
+00:02:07,350 --> 00:02:07,360
+i have a i want to you know the dq
+ 
+
+105
+00:02:07,360 --> 00:02:11,510
+i have a i want to you know the dq
+yeah dq the kill means
+
+106
+00:02:11,510 --> 00:02:11,520
+yeah dq the kill means
+ 
+
+107
+00:02:11,520 --> 00:02:14,710
+yeah dq the kill means
+to take one element from the head of the
+
+108
+00:02:14,710 --> 00:02:14,720
+to take one element from the head of the
+ 
+
+109
+00:02:14,720 --> 00:02:16,309
+to take one element from the head of the
+kill yeah
+
+110
+00:02:16,309 --> 00:02:16,319
+kill yeah
+ 
+
+111
+00:02:16,319 --> 00:02:19,110
+kill yeah
+to take the element from the queue so
+
+112
+00:02:19,110 --> 00:02:19,120
+to take the element from the queue so
+ 
+
+113
+00:02:19,120 --> 00:02:20,470
+to take the element from the queue so
+which is the head yeah
+
+114
+00:02:20,470 --> 00:02:20,480
+which is the head yeah
+ 
+
+115
+00:02:20,480 --> 00:02:22,869
+which is the head yeah
+and the other the other operation is
+
+116
+00:02:22,869 --> 00:02:22,879
+and the other the other operation is
+ 
+
+117
+00:02:22,879 --> 00:02:24,550
+and the other the other operation is
+called enqueue
+
+118
+00:02:24,550 --> 00:02:24,560
+called enqueue
+ 
+
+119
+00:02:24,560 --> 00:02:26,949
+called enqueue
+which is the opposite so put push an
+
+120
+00:02:26,949 --> 00:02:26,959
+which is the opposite so put push an
+ 
+
+121
+00:02:26,959 --> 00:02:29,110
+which is the opposite so put push an
+element to the
+
+122
+00:02:29,110 --> 00:02:29,120
+element to the
+ 
+
+123
+00:02:29,120 --> 00:02:31,830
+element to the
+back of the queue yeah whether dq and
+
+124
+00:02:31,830 --> 00:02:31,840
+back of the queue yeah whether dq and
+ 
+
+125
+00:02:31,840 --> 00:02:32,470
+back of the queue yeah whether dq and
+enqueue
+
+126
+00:02:32,470 --> 00:02:32,480
+enqueue
+ 
+
+127
+00:02:32,480 --> 00:02:35,430
+enqueue
+so first of all we incur root and then
+
+128
+00:02:35,430 --> 00:02:35,440
+so first of all we incur root and then
+ 
+
+129
+00:02:35,440 --> 00:02:36,150
+so first of all we incur root and then
+now
+
+130
+00:02:36,150 --> 00:02:36,160
+now
+ 
+
+131
+00:02:36,160 --> 00:02:38,309
+now
+okay then let's go while loop why do i
+
+132
+00:02:38,309 --> 00:02:38,319
+okay then let's go while loop why do i
+ 
+
+133
+00:02:38,319 --> 00:02:39,509
+okay then let's go while loop why do i
+yeah why the q
+
+134
+00:02:39,509 --> 00:02:39,519
+yeah why the q
+ 
+
+135
+00:02:39,519 --> 00:02:42,470
+yeah why the q
+is not empty yeah y q is not empty this
+
+136
+00:02:42,470 --> 00:02:42,480
+is not empty yeah y q is not empty this
+ 
+
+137
+00:02:42,480 --> 00:02:42,949
+is not empty yeah y q is not empty this
+is the
+
+138
+00:02:42,949 --> 00:02:42,959
+is the
+ 
+
+139
+00:02:42,959 --> 00:02:46,470
+is the
+basic it's not empty
+
+140
+00:02:46,470 --> 00:02:46,480
+
+ 
+
+141
+00:02:46,480 --> 00:02:49,190
+
+so what do we do we take we we dq we
+
+142
+00:02:49,190 --> 00:02:49,200
+so what do we do we take we we dq we
+ 
+
+143
+00:02:49,200 --> 00:02:51,350
+so what do we do we take we we dq we
+take this one out yeah
+
+144
+00:02:51,350 --> 00:02:51,360
+take this one out yeah
+ 
+
+145
+00:02:51,360 --> 00:02:55,750
+take this one out yeah
+yes we take this one now and
+
+146
+00:02:55,750 --> 00:02:55,760
+yes we take this one now and
+ 
+
+147
+00:02:55,760 --> 00:02:59,430
+yes we take this one now and
+and we push its kids all all the kids
+
+148
+00:02:59,430 --> 00:02:59,440
+and we push its kids all all the kids
+ 
+
+149
+00:02:59,440 --> 00:03:02,630
+and we push its kids all all the kids
+of it so which is
+
+150
+00:03:02,630 --> 00:03:02,640
+of it so which is
+ 
+
+151
+00:03:02,640 --> 00:03:05,670
+of it so which is
+two and three okay yeah so
+
+152
+00:03:05,670 --> 00:03:05,680
+two and three okay yeah so
+ 
+
+153
+00:03:05,680 --> 00:03:08,869
+two and three okay yeah so
+because we push uh we take a for one
+
+154
+00:03:08,869 --> 00:03:08,879
+because we push uh we take a for one
+ 
+
+155
+00:03:08,879 --> 00:03:11,990
+because we push uh we take a for one
+hour and then we visit
+
+156
+00:03:11,990 --> 00:03:12,000
+hour and then we visit
+ 
+
+157
+00:03:12,000 --> 00:03:14,869
+hour and then we visit
+now yeah when we visit the no we need to
+
+158
+00:03:14,869 --> 00:03:14,879
+now yeah when we visit the no we need to
+ 
+
+159
+00:03:14,879 --> 00:03:15,350
+now yeah when we visit the no we need to
+check
+
+160
+00:03:15,350 --> 00:03:15,360
+check
+ 
+
+161
+00:03:15,360 --> 00:03:18,550
+check
+if if it's the first time of this level
+
+162
+00:03:18,550 --> 00:03:18,560
+if if it's the first time of this level
+ 
+
+163
+00:03:18,560 --> 00:03:19,430
+if if it's the first time of this level
+so when we
+
+164
+00:03:19,430 --> 00:03:19,440
+so when we
+ 
+
+165
+00:03:19,440 --> 00:03:23,190
+so when we
+eq it when we decrease we take basically
+
+166
+00:03:23,190 --> 00:03:23,200
+eq it when we decrease we take basically
+ 
+
+167
+00:03:23,200 --> 00:03:25,190
+eq it when we decrease we take basically
+take all elements of the queue
+
+168
+00:03:25,190 --> 00:03:25,200
+take all elements of the queue
+ 
+
+169
+00:03:25,200 --> 00:03:26,869
+take all elements of the queue
+because they belong to the same level
+
+170
+00:03:26,869 --> 00:03:26,879
+because they belong to the same level
+ 
+
+171
+00:03:26,879 --> 00:03:28,789
+because they belong to the same level
+which is level one okay and then i push
+
+172
+00:03:28,789 --> 00:03:28,799
+which is level one okay and then i push
+ 
+
+173
+00:03:28,799 --> 00:03:29,670
+which is level one okay and then i push
+two and three
+
+174
+00:03:29,670 --> 00:03:29,680
+two and three
+ 
+
+175
+00:03:29,680 --> 00:03:32,229
+two and three
+and now next time how many elements are
+
+176
+00:03:32,229 --> 00:03:32,239
+and now next time how many elements are
+ 
+
+177
+00:03:32,239 --> 00:03:32,789
+and now next time how many elements are
+in the queue
+
+178
+00:03:32,789 --> 00:03:32,799
+in the queue
+ 
+
+179
+00:03:32,799 --> 00:03:36,309
+in the queue
+two right yeah yeah no
+
+180
+00:03:36,309 --> 00:03:36,319
+two right yeah yeah no
+ 
+
+181
+00:03:36,319 --> 00:03:39,270
+two right yeah yeah no
+two so these two elements belongs to the
+
+182
+00:03:39,270 --> 00:03:39,280
+two so these two elements belongs to the
+ 
+
+183
+00:03:39,280 --> 00:03:40,789
+two so these two elements belongs to the
+same level yeah
+
+184
+00:03:40,789 --> 00:03:40,799
+same level yeah
+ 
+
+185
+00:03:40,799 --> 00:03:44,550
+same level yeah
+i'm right yes so i take a two
+
+186
+00:03:44,550 --> 00:03:44,560
+i'm right yes so i take a two
+ 
+
+187
+00:03:44,560 --> 00:03:46,630
+i'm right yes so i take a two
+i take the two and i put put a result
+
+188
+00:03:46,630 --> 00:03:46,640
+i take the two and i put put a result
+ 
+
+189
+00:03:46,640 --> 00:03:48,309
+i take the two and i put put a result
+okay let's without one and
+
+190
+00:03:48,309 --> 00:03:48,319
+okay let's without one and
+ 
+
+191
+00:03:48,319 --> 00:03:51,750
+okay let's without one and
+these are two okay but and i push like
+
+192
+00:03:51,750 --> 00:03:51,760
+these are two okay but and i push like
+ 
+
+193
+00:03:51,760 --> 00:03:54,789
+these are two okay but and i push like
+in kill of its kids nothing right it
+
+194
+00:03:54,789 --> 00:03:54,799
+in kill of its kids nothing right it
+ 
+
+195
+00:03:54,799 --> 00:03:56,789
+in kill of its kids nothing right it
+doesn't have any kids okay
+
+196
+00:03:56,789 --> 00:03:56,799
+doesn't have any kids okay
+ 
+
+197
+00:03:56,799 --> 00:04:00,149
+doesn't have any kids okay
+yes yeah and i take the three
+
+198
+00:04:00,149 --> 00:04:00,159
+yes yeah and i take the three
+ 
+
+199
+00:04:00,159 --> 00:04:03,670
+yes yeah and i take the three
+what's which
+
+200
+00:04:03,670 --> 00:04:03,680
+what's which
+ 
+
+201
+00:04:03,680 --> 00:04:07,030
+what's which
+uh what kids does it have four and five
+
+202
+00:04:07,030 --> 00:04:07,040
+uh what kids does it have four and five
+ 
+
+203
+00:04:07,040 --> 00:04:08,229
+uh what kids does it have four and five
+so i take it out
+
+204
+00:04:08,229 --> 00:04:08,239
+so i take it out
+ 
+
+205
+00:04:08,239 --> 00:04:12,869
+so i take it out
+and push four inside there okay okay
+
+206
+00:04:12,869 --> 00:04:12,879
+and push four inside there okay okay
+ 
+
+207
+00:04:12,879 --> 00:04:16,390
+and push four inside there okay okay
+okay then again now we look at this four
+
+208
+00:04:16,390 --> 00:04:16,400
+okay then again now we look at this four
+ 
+
+209
+00:04:16,400 --> 00:04:17,270
+okay then again now we look at this four
+and five
+
+210
+00:04:17,270 --> 00:04:17,280
+and five
+ 
+
+211
+00:04:17,280 --> 00:04:20,550
+and five
+belongs to some level you see yeah and i
+
+212
+00:04:20,550 --> 00:04:20,560
+belongs to some level you see yeah and i
+ 
+
+213
+00:04:20,560 --> 00:04:24,469
+belongs to some level you see yeah and i
+i need to in this loop i need to
+
+214
+00:04:24,469 --> 00:04:24,479
+i need to in this loop i need to
+ 
+
+215
+00:04:24,479 --> 00:04:26,230
+i need to in this loop i need to
+expand these two kids but it doesn't
+
+216
+00:04:26,230 --> 00:04:26,240
+expand these two kids but it doesn't
+ 
+
+217
+00:04:26,240 --> 00:04:28,310
+expand these two kids but it doesn't
+have any look by the fall
+
+218
+00:04:28,310 --> 00:04:28,320
+have any look by the fall
+ 
+
+219
+00:04:28,320 --> 00:04:31,430
+have any look by the fall
+the first time so i put it put it in the
+
+220
+00:04:31,430 --> 00:04:31,440
+the first time so i put it put it in the
+ 
+
+221
+00:04:31,440 --> 00:04:31,830
+the first time so i put it put it in the
+ball
+
+222
+00:04:31,830 --> 00:04:31,840
+ball
+ 
+
+223
+00:04:31,840 --> 00:04:33,990
+ball
+okay and that's it and take it for four
+
+224
+00:04:33,990 --> 00:04:34,000
+okay and that's it and take it for four
+ 
+
+225
+00:04:34,000 --> 00:04:35,350
+okay and that's it and take it for four
+i'll take the fire out let's see
+
+226
+00:04:35,350 --> 00:04:35,360
+i'll take the fire out let's see
+ 
+
+227
+00:04:35,360 --> 00:04:43,110
+i'll take the fire out let's see
+so there's one four one two four okay
+
+228
+00:04:43,110 --> 00:04:43,120
+so there's one four one two four okay
+ 
+
+229
+00:04:43,120 --> 00:04:49,510
+so there's one four one two four okay
+what's the time complexity
+
+230
+00:04:49,510 --> 00:04:49,520
+
+ 
+
+231
+00:04:49,520 --> 00:04:52,469
+
+leaflet and elements in the financing
+
+232
+00:04:52,469 --> 00:04:52,479
+leaflet and elements in the financing
+ 
+
+233
+00:04:52,479 --> 00:05:09,350
+leaflet and elements in the financing
+what's the space complexity
+
+234
+00:05:09,350 --> 00:05:09,360
+
+ 
+
+235
+00:05:09,360 --> 00:05:14,629
+
+uh we call it left left left view
+
+236
+00:05:14,629 --> 00:05:14,639
+uh we call it left left left view
+ 
+
+237
+00:05:14,639 --> 00:05:18,150
+uh we call it left left left view
+and then loop and what's missing here
+
+238
+00:05:18,150 --> 00:05:18,160
+and then loop and what's missing here
+ 
+
+239
+00:05:18,160 --> 00:05:20,390
+and then loop and what's missing here
+okay so look if first of all we need to
+
+240
+00:05:20,390 --> 00:05:20,400
+okay so look if first of all we need to
+ 
+
+241
+00:05:20,400 --> 00:05:22,790
+okay so look if first of all we need to
+check if the root is empty or all right
+
+242
+00:05:22,790 --> 00:05:22,800
+check if the root is empty or all right
+ 
+
+243
+00:05:22,800 --> 00:05:28,150
+check if the root is empty or all right
+if loot is numb we can walk
+
+244
+00:05:28,150 --> 00:05:28,160
+if loot is numb we can walk
+ 
+
+245
+00:05:28,160 --> 00:05:31,909
+if loot is numb we can walk
+we can what if loot is now
+
+246
+00:05:31,909 --> 00:05:31,919
+we can what if loot is now
+ 
+
+247
+00:05:31,919 --> 00:05:35,110
+we can what if loot is now
+what we're going to return return
+
+248
+00:05:35,110 --> 00:05:35,120
+what we're going to return return
+ 
+
+249
+00:05:35,120 --> 00:05:37,670
+what we're going to return return
+a list of empty things yeah at least
+
+250
+00:05:37,670 --> 00:05:37,680
+a list of empty things yeah at least
+ 
+
+251
+00:05:37,680 --> 00:05:39,749
+a list of empty things yeah at least
+empty this it means that a list
+
+252
+00:05:39,749 --> 00:05:39,759
+empty this it means that a list
+ 
+
+253
+00:05:39,759 --> 00:05:42,790
+empty this it means that a list
+but has no elements in it okay
+
+254
+00:05:42,790 --> 00:05:42,800
+but has no elements in it okay
+ 
+
+255
+00:05:42,800 --> 00:05:46,150
+but has no elements in it okay
+now remember we talked about
+
+256
+00:05:46,150 --> 00:05:46,160
+now remember we talked about
+ 
+
+257
+00:05:46,160 --> 00:05:50,390
+now remember we talked about
+dq d-e-q-u-e what was that
+
+258
+00:05:50,390 --> 00:05:50,400
+dq d-e-q-u-e what was that
+ 
+
+259
+00:05:50,400 --> 00:05:57,029
+dq d-e-q-u-e what was that
+q equals t e q u e what's this
+
+260
+00:05:57,029 --> 00:05:57,039
+
+ 
+
+261
+00:05:57,039 --> 00:06:00,469
+
+p e q u e what's that
+
+262
+00:06:00,469 --> 00:06:00,479
+p e q u e what's that
+ 
+
+263
+00:06:00,479 --> 00:06:04,309
+p e q u e what's that
+uh double k double ndq yeah
+
+264
+00:06:04,309 --> 00:06:04,319
+uh double k double ndq yeah
+ 
+
+265
+00:06:04,319 --> 00:06:07,189
+uh double k double ndq yeah
+we can push and pop from the both sides
+
+266
+00:06:07,189 --> 00:06:07,199
+we can push and pop from the both sides
+ 
+
+267
+00:06:07,199 --> 00:06:09,270
+we can push and pop from the both sides
+and now we need to push
+
+268
+00:06:09,270 --> 00:06:09,280
+and now we need to push
+ 
+
+269
+00:06:09,280 --> 00:06:11,110
+and now we need to push
+we need to first of all initialize the
+
+270
+00:06:11,110 --> 00:06:11,120
+we need to first of all initialize the
+ 
+
+271
+00:06:11,120 --> 00:06:13,270
+we need to first of all initialize the
+double ndq with only one anime in it
+
+272
+00:06:13,270 --> 00:06:13,280
+double ndq with only one anime in it
+ 
+
+273
+00:06:13,280 --> 00:06:15,590
+double ndq with only one anime in it
+which is what
+
+274
+00:06:15,590 --> 00:06:15,600
+which is what
+ 
+
+275
+00:06:15,600 --> 00:06:18,150
+which is what
+the first boot okay so but it takes the
+
+276
+00:06:18,150 --> 00:06:18,160
+the first boot okay so but it takes the
+ 
+
+277
+00:06:18,160 --> 00:06:19,909
+the first boot okay so but it takes the
+parameter of this so put up
+
+278
+00:06:19,909 --> 00:06:19,919
+parameter of this so put up
+ 
+
+279
+00:06:19,919 --> 00:06:23,110
+parameter of this so put up
+put a load in the list yeah basically
+
+280
+00:06:23,110 --> 00:06:23,120
+put a load in the list yeah basically
+ 
+
+281
+00:06:23,120 --> 00:06:24,629
+put a load in the list yeah basically
+this parameter means that
+
+282
+00:06:24,629 --> 00:06:24,639
+this parameter means that
+ 
+
+283
+00:06:24,639 --> 00:06:27,749
+this parameter means that
+this could should be enumerated
+
+284
+00:06:27,749 --> 00:06:27,759
+this could should be enumerated
+ 
+
+285
+00:06:27,759 --> 00:06:30,790
+this could should be enumerated
+to be iterable so the loop is the should
+
+286
+00:06:30,790 --> 00:06:30,800
+to be iterable so the loop is the should
+ 
+
+287
+00:06:30,800 --> 00:06:31,270
+to be iterable so the loop is the should
+be put
+
+288
+00:06:31,270 --> 00:06:31,280
+be put
+ 
+
+289
+00:06:31,280 --> 00:06:34,950
+be put
+inside a list now how do we check if the
+
+290
+00:06:34,950 --> 00:06:34,960
+inside a list now how do we check if the
+ 
+
+291
+00:06:34,960 --> 00:06:35,350
+inside a list now how do we check if the
+queue
+
+292
+00:06:35,350 --> 00:06:35,360
+queue
+ 
+
+293
+00:06:35,360 --> 00:06:39,029
+queue
+has no has uh has any one at least one
+
+294
+00:06:39,029 --> 00:06:39,039
+has no has uh has any one at least one
+ 
+
+295
+00:06:39,039 --> 00:06:41,430
+has no has uh has any one at least one
+element in it
+
+296
+00:06:41,430 --> 00:06:41,440
+element in it
+ 
+
+297
+00:06:41,440 --> 00:06:44,790
+element in it
+wire why what
+
+298
+00:06:44,790 --> 00:06:44,800
+wire why what
+ 
+
+299
+00:06:44,800 --> 00:06:47,990
+wire why what
+the lens how do we check the lens
+
+300
+00:06:47,990 --> 00:06:48,000
+the lens how do we check the lens
+ 
+
+301
+00:06:48,000 --> 00:06:50,550
+the lens how do we check the lens
+lens yeah this is basically the same
+
+302
+00:06:50,550 --> 00:06:50,560
+lens yeah this is basically the same
+ 
+
+303
+00:06:50,560 --> 00:06:51,510
+lens yeah this is basically the same
+segment
+
+304
+00:06:51,510 --> 00:06:51,520
+segment
+ 
+
+305
+00:06:51,520 --> 00:06:54,870
+segment
+bigger than what
+
+306
+00:06:54,870 --> 00:06:54,880
+bigger than what
+ 
+
+307
+00:06:54,880 --> 00:06:57,909
+bigger than what
+zero yeah okay
+
+308
+00:06:57,909 --> 00:06:57,919
+zero yeah okay
+ 
+
+309
+00:06:57,919 --> 00:07:00,629
+zero yeah okay
+so now uh okay i forgot this i need to
+
+310
+00:07:00,629 --> 00:07:00,639
+so now uh okay i forgot this i need to
+ 
+
+311
+00:07:00,639 --> 00:07:02,629
+so now uh okay i forgot this i need to
+put this answer here in the list
+
+312
+00:07:02,629 --> 00:07:02,639
+put this answer here in the list
+ 
+
+313
+00:07:02,639 --> 00:07:05,270
+put this answer here in the list
+yeah and this is a list there okay so
+
+314
+00:07:05,270 --> 00:07:05,280
+yeah and this is a list there okay so
+ 
+
+315
+00:07:05,280 --> 00:07:07,430
+yeah and this is a list there okay so
+now
+
+316
+00:07:07,430 --> 00:07:07,440
+now
+ 
+
+317
+00:07:07,440 --> 00:07:10,629
+now
+now what now what i i say this
+
+318
+00:07:10,629 --> 00:07:10,639
+now what now what i i say this
+ 
+
+319
+00:07:10,639 --> 00:07:12,629
+now what now what i i say this
+size yeah current element now the
+
+320
+00:07:12,629 --> 00:07:12,639
+size yeah current element now the
+ 
+
+321
+00:07:12,639 --> 00:07:13,749
+size yeah current element now the
+current elements
+
+322
+00:07:13,749 --> 00:07:13,759
+current elements
+ 
+
+323
+00:07:13,759 --> 00:07:16,870
+current elements
+s z equals length key here so this
+
+324
+00:07:16,870 --> 00:07:16,880
+s z equals length key here so this
+ 
+
+325
+00:07:16,880 --> 00:07:18,469
+s z equals length key here so this
+basically this is the lens
+
+326
+00:07:18,469 --> 00:07:18,479
+basically this is the lens
+ 
+
+327
+00:07:18,479 --> 00:07:21,749
+basically this is the lens
+so it means that they are s z
+
+328
+00:07:21,749 --> 00:07:21,759
+so it means that they are s z
+ 
+
+329
+00:07:21,759 --> 00:07:24,629
+so it means that they are s z
+notes in the q right and they belong to
+
+330
+00:07:24,629 --> 00:07:24,639
+notes in the q right and they belong to
+ 
+
+331
+00:07:24,639 --> 00:07:26,309
+notes in the q right and they belong to
+the same level do you get it
+
+332
+00:07:26,309 --> 00:07:26,319
+the same level do you get it
+ 
+
+333
+00:07:26,319 --> 00:07:29,830
+the same level do you get it
+yeah so now i want to push the first one
+
+334
+00:07:29,830 --> 00:07:29,840
+yeah so now i want to push the first one
+ 
+
+335
+00:07:29,840 --> 00:07:30,629
+yeah so now i want to push the first one
+in the in the
+
+336
+00:07:30,629 --> 00:07:30,639
+in the in the
+ 
+
+337
+00:07:30,639 --> 00:07:33,830
+in the in the
+result so answer dot append
+
+338
+00:07:33,830 --> 00:07:33,840
+result so answer dot append
+ 
+
+339
+00:07:33,840 --> 00:07:37,270
+result so answer dot append
+yeah open one
+
+340
+00:07:37,270 --> 00:07:37,280
+yeah open one
+ 
+
+341
+00:07:37,280 --> 00:07:40,950
+yeah open one
+open one the first element wait
+
+342
+00:07:40,950 --> 00:07:40,960
+open one the first element wait
+ 
+
+343
+00:07:40,960 --> 00:07:43,270
+open one the first element wait
+no no no the first first element in the
+
+344
+00:07:43,270 --> 00:07:43,280
+no no no the first first element in the
+ 
+
+345
+00:07:43,280 --> 00:07:44,790
+no no no the first first element in the
+queue
+
+346
+00:07:44,790 --> 00:07:44,800
+queue
+ 
+
+347
+00:07:44,800 --> 00:07:48,070
+queue
+which is q dot
+
+348
+00:07:48,070 --> 00:07:48,080
+which is q dot
+ 
+
+349
+00:07:48,080 --> 00:07:50,390
+which is q dot
+q zero only bracket zero okay you can
+
+350
+00:07:50,390 --> 00:07:50,400
+q zero only bracket zero okay you can
+ 
+
+351
+00:07:50,400 --> 00:07:52,710
+q zero only bracket zero okay you can
+use this index yeah so means the first
+
+352
+00:07:52,710 --> 00:07:52,720
+use this index yeah so means the first
+ 
+
+353
+00:07:52,720 --> 00:07:54,790
+use this index yeah so means the first
+element okay so which is the left side
+
+354
+00:07:54,790 --> 00:07:54,800
+element okay so which is the left side
+ 
+
+355
+00:07:54,800 --> 00:07:55,270
+element okay so which is the left side
+yeah
+
+356
+00:07:55,270 --> 00:07:55,280
+yeah
+ 
+
+357
+00:07:55,280 --> 00:07:57,830
+yeah
+no less more note all right let me know
+
+358
+00:07:57,830 --> 00:07:57,840
+no less more note all right let me know
+ 
+
+359
+00:07:57,840 --> 00:07:59,749
+no less more note all right let me know
+look i can do this one
+
+360
+00:07:59,749 --> 00:07:59,759
+look i can do this one
+ 
+
+361
+00:07:59,759 --> 00:08:03,029
+look i can do this one
+two three okay okay four five
+
+362
+00:08:03,029 --> 00:08:03,039
+two three okay okay four five
+ 
+
+363
+00:08:03,039 --> 00:08:05,830
+two three okay okay four five
+so look length skill now is one right
+
+364
+00:08:05,830 --> 00:08:05,840
+so look length skill now is one right
+ 
+
+365
+00:08:05,840 --> 00:08:06,390
+so look length skill now is one right
+look
+
+366
+00:08:06,390 --> 00:08:06,400
+look
+ 
+
+367
+00:08:06,400 --> 00:08:09,749
+look
+yeah and sz is one right
+
+368
+00:08:09,749 --> 00:08:09,759
+yeah and sz is one right
+ 
+
+369
+00:08:09,759 --> 00:08:13,510
+yeah and sz is one right
+all right and answer put q0 which is one
+
+370
+00:08:13,510 --> 00:08:13,520
+all right and answer put q0 which is one
+ 
+
+371
+00:08:13,520 --> 00:08:17,510
+all right and answer put q0 which is one
+right yes now i need to go through
+
+372
+00:08:17,510 --> 00:08:17,520
+right yes now i need to go through
+ 
+
+373
+00:08:17,520 --> 00:08:20,550
+right yes now i need to go through
+this for i in
+
+374
+00:08:20,550 --> 00:08:20,560
+this for i in
+ 
+
+375
+00:08:20,560 --> 00:08:23,990
+this for i in
+range actually
+
+376
+00:08:23,990 --> 00:08:24,000
+range actually
+ 
+
+377
+00:08:24,000 --> 00:08:25,430
+range actually
+because we're not using the io we can
+
+378
+00:08:25,430 --> 00:08:25,440
+because we're not using the io we can
+ 
+
+379
+00:08:25,440 --> 00:08:28,070
+because we're not using the io we can
+use underscore means that we don't care
+
+380
+00:08:28,070 --> 00:08:28,080
+use underscore means that we don't care
+ 
+
+381
+00:08:28,080 --> 00:08:31,990
+use underscore means that we don't care
+yeah for we just want to iterate
+
+382
+00:08:31,990 --> 00:08:32,000
+yeah for we just want to iterate
+ 
+
+383
+00:08:32,000 --> 00:08:35,110
+yeah for we just want to iterate
+as z times because they are s z
+
+384
+00:08:35,110 --> 00:08:35,120
+as z times because they are s z
+ 
+
+385
+00:08:35,120 --> 00:08:38,230
+as z times because they are s z
+s z number of elements
+
+386
+00:08:38,230 --> 00:08:38,240
+s z number of elements
+ 
+
+387
+00:08:38,240 --> 00:08:41,589
+s z number of elements
+in the in the queue and then we need to
+
+388
+00:08:41,589 --> 00:08:41,599
+in the in the queue and then we need to
+ 
+
+389
+00:08:41,599 --> 00:08:45,509
+in the in the queue and then we need to
+pop it right pop it so look current
+
+390
+00:08:45,509 --> 00:08:45,519
+pop it right pop it so look current
+ 
+
+391
+00:08:45,519 --> 00:08:48,550
+pop it right pop it so look current
+equals q
+
+392
+00:08:48,550 --> 00:08:48,560
+equals q
+ 
+
+393
+00:08:48,560 --> 00:08:51,750
+equals q
+dot pop pop
+
+394
+00:08:51,750 --> 00:08:51,760
+dot pop pop
+ 
+
+395
+00:08:51,760 --> 00:08:55,190
+dot pop pop
+left right pop left
+
+396
+00:08:55,190 --> 00:08:55,200
+left right pop left
+ 
+
+397
+00:08:55,200 --> 00:08:58,630
+left right pop left
+and then we need to push it on top
+
+398
+00:08:58,630 --> 00:08:58,640
+and then we need to push it on top
+ 
+
+399
+00:08:58,640 --> 00:09:04,389
+and then we need to push it on top
+easier if current got left
+
+400
+00:09:04,389 --> 00:09:04,399
+
+ 
+
+401
+00:09:04,399 --> 00:09:11,509
+
+we push it to the qx a pen
+
+402
+00:09:11,509 --> 00:09:11,519
+
+ 
+
+403
+00:09:11,519 --> 00:09:14,550
+
+and can you write the next one
+
+404
+00:09:14,550 --> 00:09:14,560
+and can you write the next one
+ 
+
+405
+00:09:14,560 --> 00:09:17,750
+and can you write the next one
+what's next one b
+
+406
+00:09:17,750 --> 00:09:17,760
+what's next one b
+ 
+
+407
+00:09:17,760 --> 00:09:23,690
+what's next one b
+yeah if this one
+
+408
+00:09:23,690 --> 00:09:23,700
+
+ 
+
+409
+00:09:23,700 --> 00:09:30,949
+
+[Music]
+
+410
+00:09:30,949 --> 00:09:30,959
+
+ 
+
+411
+00:09:30,959 --> 00:09:33,110
+
+what's missing here we need to return
+
+412
+00:09:33,110 --> 00:09:33,120
+what's missing here we need to return
+ 
+
+413
+00:09:33,120 --> 00:09:36,230
+what's missing here we need to return
+what what's missing here
+
+414
+00:09:36,230 --> 00:09:36,240
+what what's missing here
+ 
+
+415
+00:09:36,240 --> 00:09:38,870
+what what's missing here
+we're done wow yes we're done this is
+
+416
+00:09:38,870 --> 00:09:38,880
+we're done wow yes we're done this is
+ 
+
+417
+00:09:38,880 --> 00:09:41,190
+we're done wow yes we're done this is
+the only thing
+
+418
+00:09:41,190 --> 00:09:41,200
+the only thing
+ 
+
+419
+00:09:41,200 --> 00:09:44,070
+the only thing
+yeah so good a little bit wobbly yeah
+
+420
+00:09:44,070 --> 00:09:44,080
+yeah so good a little bit wobbly yeah
+ 
+
+421
+00:09:44,080 --> 00:09:44,470
+yeah so good a little bit wobbly yeah
+because
+
+422
+00:09:44,470 --> 00:09:44,480
+because
+ 
+
+423
+00:09:44,480 --> 00:09:46,230
+because
+you don't you know yeah it's just to
+
+424
+00:09:46,230 --> 00:09:46,240
+you don't you know yeah it's just to
+ 
+
+425
+00:09:46,240 --> 00:09:49,590
+you don't you know yeah it's just to
+save time so this is the basic
+
+426
+00:09:49,590 --> 00:09:49,600
+save time so this is the basic
+ 
+
+427
+00:09:49,600 --> 00:09:53,670
+save time so this is the basic
+structure of breakfast surgery
+
+428
+00:09:53,670 --> 00:09:53,680
+
+ 
+
+429
+00:09:53,680 --> 00:09:57,110
+
+one step first step create a cure
+
+430
+00:09:57,110 --> 00:09:57,120
+one step first step create a cure
+ 
+
+431
+00:09:57,120 --> 00:10:00,389
+one step first step create a cure
+with the root the first element and then
+
+432
+00:10:00,389 --> 00:10:00,399
+with the root the first element and then
+ 
+
+433
+00:10:00,399 --> 00:10:02,470
+with the root the first element and then
+wire loop yeah you've seen this a lot of
+
+434
+00:10:02,470 --> 00:10:02,480
+wire loop yeah you've seen this a lot of
+ 
+
+435
+00:10:02,480 --> 00:10:03,990
+wire loop yeah you've seen this a lot of
+times when we talk about breakfast
+
+436
+00:10:03,990 --> 00:10:04,000
+times when we talk about breakfast
+ 
+
+437
+00:10:04,000 --> 00:10:04,790
+times when we talk about breakfast
+search
+
+438
+00:10:04,790 --> 00:10:04,800
+search
+ 
+
+439
+00:10:04,800 --> 00:10:08,389
+search
+why why we check if there are elements
+
+440
+00:10:08,389 --> 00:10:08,399
+why why we check if there are elements
+ 
+
+441
+00:10:08,399 --> 00:10:09,670
+why why we check if there are elements
+in the queue
+
+442
+00:10:09,670 --> 00:10:09,680
+in the queue
+ 
+
+443
+00:10:09,680 --> 00:10:12,630
+in the queue
+yeah and then we can take this is the
+
+444
+00:10:12,630 --> 00:10:12,640
+yeah and then we can take this is the
+ 
+
+445
+00:10:12,640 --> 00:10:13,350
+yeah and then we can take this is the
+number of
+
+446
+00:10:13,350 --> 00:10:13,360
+number of
+ 
+
+447
+00:10:13,360 --> 00:10:15,430
+number of
+elements in the current queue right and
+
+448
+00:10:15,430 --> 00:10:15,440
+elements in the current queue right and
+ 
+
+449
+00:10:15,440 --> 00:10:17,269
+elements in the current queue right and
+we visit we dequeue it
+
+450
+00:10:17,269 --> 00:10:17,279
+we visit we dequeue it
+ 
+
+451
+00:10:17,279 --> 00:10:20,790
+we visit we dequeue it
+we will kill it which one is 2dq
+
+452
+00:10:20,790 --> 00:10:20,800
+we will kill it which one is 2dq
+ 
+
+453
+00:10:20,800 --> 00:10:22,790
+we will kill it which one is 2dq
+to take element out of the queue which
+
+454
+00:10:22,790 --> 00:10:22,800
+to take element out of the queue which
+ 
+
+455
+00:10:22,800 --> 00:10:24,630
+to take element out of the queue which
+one which which statement says that i
+
+456
+00:10:24,630 --> 00:10:24,640
+one which which statement says that i
+ 
+
+457
+00:10:24,640 --> 00:10:26,470
+one which which statement says that i
+want to take our other one anime out of
+
+458
+00:10:26,470 --> 00:10:26,480
+want to take our other one anime out of
+ 
+
+459
+00:10:26,480 --> 00:10:28,170
+want to take our other one anime out of
+the game
+
+460
+00:10:28,170 --> 00:10:28,180
+the game
+ 
+
+461
+00:10:28,180 --> 00:10:30,710
+the game
+[Music]
+
+462
+00:10:30,710 --> 00:10:30,720
+[Music]
+ 
+
+463
+00:10:30,720 --> 00:10:32,870
+[Music]
+which one this one this one this one
+
+464
+00:10:32,870 --> 00:10:32,880
+which one this one this one this one
+ 
+
+465
+00:10:32,880 --> 00:10:34,630
+which one this one this one this one
+which one
+
+466
+00:10:34,630 --> 00:10:34,640
+which one
+ 
+
+467
+00:10:34,640 --> 00:10:37,030
+which one
+take it take it out what is it what is
+
+468
+00:10:37,030 --> 00:10:37,040
+take it take it out what is it what is
+ 
+
+469
+00:10:37,040 --> 00:10:42,069
+take it take it out what is it what is
+what is the operation of take it off
+
+470
+00:10:42,069 --> 00:10:42,079
+
+ 
+
+471
+00:10:42,079 --> 00:10:45,190
+
+which one which one is to push into it
+
+472
+00:10:45,190 --> 00:10:45,200
+which one which one is to push into it
+ 
+
+473
+00:10:45,200 --> 00:10:51,110
+which one which one is to push into it
+which operation here
+
+474
+00:10:51,110 --> 00:10:51,120
+
+ 
+
+475
+00:10:51,120 --> 00:10:53,590
+
+pop left yes pop left look pop left i
+
+476
+00:10:53,590 --> 00:10:53,600
+pop left yes pop left look pop left i
+ 
+
+477
+00:10:53,600 --> 00:10:54,710
+pop left yes pop left look pop left i
+want to take a q
+
+478
+00:10:54,710 --> 00:10:54,720
+want to take a q
+ 
+
+479
+00:10:54,720 --> 00:10:56,710
+want to take a q
+take an element out of q and then which
+
+480
+00:10:56,710 --> 00:10:56,720
+take an element out of q and then which
+ 
+
+481
+00:10:56,720 --> 00:11:00,310
+take an element out of q and then which
+one is to push it into the end
+
+482
+00:11:00,310 --> 00:11:00,320
+one is to push it into the end
+ 
+
+483
+00:11:00,320 --> 00:11:02,389
+one is to push it into the end
+second and the third yeah because you
+
+484
+00:11:02,389 --> 00:11:02,399
+second and the third yeah because you
+ 
+
+485
+00:11:02,399 --> 00:11:04,230
+second and the third yeah because you
+need to push you need to push the two
+
+486
+00:11:04,230 --> 00:11:04,240
+need to push you need to push the two
+ 
+
+487
+00:11:04,240 --> 00:11:05,670
+need to push you need to push the two
+and three the left try and
+
+488
+00:11:05,670 --> 00:11:05,680
+and three the left try and
+ 
+
+489
+00:11:05,680 --> 00:11:08,470
+and three the left try and
+right right any end of the key yeah so
+
+490
+00:11:08,470 --> 00:11:08,480
+right right any end of the key yeah so
+ 
+
+491
+00:11:08,480 --> 00:11:09,269
+right right any end of the key yeah so
+when you push
+
+492
+00:11:09,269 --> 00:11:09,279
+when you push
+ 
+
+493
+00:11:09,279 --> 00:11:12,069
+when you push
+the element you push in out at the end
+
+494
+00:11:12,069 --> 00:11:12,079
+the element you push in out at the end
+ 
+
+495
+00:11:12,079 --> 00:11:12,949
+the element you push in out at the end
+of q when you take
+
+496
+00:11:12,949 --> 00:11:12,959
+of q when you take
+ 
+
+497
+00:11:12,959 --> 00:11:14,870
+of q when you take
+element from the key you take it from
+
+498
+00:11:14,870 --> 00:11:14,880
+element from the key you take it from
+ 
+
+499
+00:11:14,880 --> 00:11:15,990
+element from the key you take it from
+the beginning of the game
+
+500
+00:11:15,990 --> 00:11:16,000
+the beginning of the game
+ 
+
+501
+00:11:16,000 --> 00:11:19,350
+the beginning of the game
+first thing what
+
+502
+00:11:19,350 --> 00:11:19,360
+first thing what
+ 
+
+503
+00:11:19,360 --> 00:11:22,310
+first thing what
+first out yeah first thing like a queue
+
+504
+00:11:22,310 --> 00:11:22,320
+first out yeah first thing like a queue
+ 
+
+505
+00:11:22,320 --> 00:11:22,630
+first out yeah first thing like a queue
+yeah
+
+506
+00:11:22,630 --> 00:11:22,640
+yeah
+ 
+
+507
+00:11:22,640 --> 00:11:25,990
+yeah
+like like you right like you you are
+
+508
+00:11:25,990 --> 00:11:26,000
+like like you right like you you are
+ 
+
+509
+00:11:26,000 --> 00:11:26,710
+like like you right like you you are
+look
+
+510
+00:11:26,710 --> 00:11:26,720
+look
+ 
+
+511
+00:11:26,720 --> 00:11:30,310
+look
+this is uh this is the shop okay
+
+512
+00:11:30,310 --> 00:11:30,320
+this is uh this is the shop okay
+ 
+
+513
+00:11:30,320 --> 00:11:33,590
+this is uh this is the shop okay
+this is a shop okay and then when the
+
+514
+00:11:33,590 --> 00:11:33,600
+this is a shop okay and then when the
+ 
+
+515
+00:11:33,600 --> 00:11:34,389
+this is a shop okay and then when the
+people come
+
+516
+00:11:34,389 --> 00:11:34,399
+people come
+ 
+
+517
+00:11:34,399 --> 00:11:37,030
+people come
+they join at the end of the queue yeah
+
+518
+00:11:37,030 --> 00:11:37,040
+they join at the end of the queue yeah
+ 
+
+519
+00:11:37,040 --> 00:11:39,670
+they join at the end of the queue yeah
+but when these people get served
+
+520
+00:11:39,670 --> 00:11:39,680
+but when these people get served
+ 
+
+521
+00:11:39,680 --> 00:11:41,509
+but when these people get served
+it serves from the beginning of q that
+
+522
+00:11:41,509 --> 00:11:41,519
+it serves from the beginning of q that
+ 
+
+523
+00:11:41,519 --> 00:11:43,030
+it serves from the beginning of q that
+doesn't make sense yes
+
+524
+00:11:43,030 --> 00:11:43,040
+doesn't make sense yes
+ 
+
+525
+00:11:43,040 --> 00:11:45,350
+doesn't make sense yes
+so first thing first off okay so this is
+
+526
+00:11:45,350 --> 00:11:45,360
+so first thing first off okay so this is
+ 
+
+527
+00:11:45,360 --> 00:11:47,509
+so first thing first off okay so this is
+basically the data structure of that
+
+528
+00:11:47,509 --> 00:11:47,519
+basically the data structure of that
+ 
+
+529
+00:11:47,519 --> 00:11:50,949
+basically the data structure of that
+so if i want to
+
+530
+00:11:50,949 --> 00:11:50,959
+so if i want to
+ 
+
+531
+00:11:50,959 --> 00:11:54,069
+so if i want to
+to change it to right y view
+
+532
+00:11:54,069 --> 00:11:54,079
+to change it to right y view
+ 
+
+533
+00:11:54,079 --> 00:11:57,670
+to change it to right y view
+so what should we do there's only one
+
+534
+00:11:57,670 --> 00:11:57,680
+so what should we do there's only one
+ 
+
+535
+00:11:57,680 --> 00:11:58,949
+so what should we do there's only one
+thing you need to change look
+
+536
+00:11:58,949 --> 00:11:58,959
+thing you need to change look
+ 
+
+537
+00:11:58,959 --> 00:12:01,829
+thing you need to change look
+if i want to change this agreement to
+
+538
+00:12:01,829 --> 00:12:01,839
+if i want to change this agreement to
+ 
+
+539
+00:12:01,839 --> 00:12:03,750
+if i want to change this agreement to
+standing from the right hand side
+
+540
+00:12:03,750 --> 00:12:03,760
+standing from the right hand side
+ 
+
+541
+00:12:03,760 --> 00:12:06,470
+standing from the right hand side
+and looking this way so you return 1 2 5
+
+542
+00:12:06,470 --> 00:12:06,480
+and looking this way so you return 1 2 5
+ 
+
+543
+00:12:06,480 --> 00:12:08,150
+and looking this way so you return 1 2 5
+instead of 1 2 4.
+
+544
+00:12:08,150 --> 00:12:08,160
+instead of 1 2 4.
+ 
+
+545
+00:12:08,160 --> 00:12:12,230
+instead of 1 2 4.
+so which one which one
+
+546
+00:12:12,230 --> 00:12:12,240
+so which one which one
+ 
+
+547
+00:12:12,240 --> 00:12:17,910
+so which one which one
+you need to change make a guess
+
+548
+00:12:17,910 --> 00:12:17,920
+
+ 
+
+549
+00:12:17,920 --> 00:12:19,590
+
+so how do you deal with this problem now
+
+550
+00:12:19,590 --> 00:12:19,600
+so how do you deal with this problem now
+ 
+
+551
+00:12:19,600 --> 00:12:23,030
+so how do you deal with this problem now
+this this code this bit of code
+
+552
+00:12:23,030 --> 00:12:23,040
+this this code this bit of code
+ 
+
+553
+00:12:23,040 --> 00:12:25,990
+this this code this bit of code
+a calculator of the left side area one
+
+554
+00:12:25,990 --> 00:12:26,000
+a calculator of the left side area one
+ 
+
+555
+00:12:26,000 --> 00:12:27,190
+a calculator of the left side area one
+three one two four
+
+556
+00:12:27,190 --> 00:12:27,200
+three one two four
+ 
+
+557
+00:12:27,200 --> 00:12:30,389
+three one two four
+now with a little bit change then
+
+558
+00:12:30,389 --> 00:12:30,399
+now with a little bit change then
+ 
+
+559
+00:12:30,399 --> 00:12:33,509
+now with a little bit change then
+i will return right right view so
+
+560
+00:12:33,509 --> 00:12:33,519
+i will return right right view so
+ 
+
+561
+00:12:33,519 --> 00:12:35,350
+i will return right right view so
+from the right hand side so looking this
+
+562
+00:12:35,350 --> 00:12:35,360
+from the right hand side so looking this
+ 
+
+563
+00:12:35,360 --> 00:12:37,430
+from the right hand side so looking this
+way will be one three four
+
+564
+00:12:37,430 --> 00:12:37,440
+way will be one three four
+ 
+
+565
+00:12:37,440 --> 00:12:40,389
+way will be one three four
+okay so which one which one deal with
+
+566
+00:12:40,389 --> 00:12:40,399
+okay so which one which one deal with
+ 
+
+567
+00:12:40,399 --> 00:12:44,470
+okay so which one which one deal with
+appending the result into the answer
+
+568
+00:12:44,470 --> 00:12:44,480
+
+ 
+
+569
+00:12:44,480 --> 00:12:48,710
+
+and instead of so any idea how to
+
+570
+00:12:48,710 --> 00:12:48,720
+and instead of so any idea how to
+ 
+
+571
+00:12:48,720 --> 00:12:56,870
+and instead of so any idea how to
+yeah yeah well
+
+572
+00:12:56,870 --> 00:12:56,880
+
+ 
+
+573
+00:12:56,880 --> 00:12:59,829
+
+which one deal with the answers so
+
+574
+00:12:59,829 --> 00:12:59,839
+which one deal with the answers so
+ 
+
+575
+00:12:59,839 --> 00:13:01,590
+which one deal with the answers so
+instead of pushing two i want to push
+
+576
+00:13:01,590 --> 00:13:01,600
+instead of pushing two i want to push
+ 
+
+577
+00:13:01,600 --> 00:13:03,190
+instead of pushing two i want to push
+three instead of pushing four i want to
+
+578
+00:13:03,190 --> 00:13:03,200
+three instead of pushing four i want to
+ 
+
+579
+00:13:03,200 --> 00:13:04,790
+three instead of pushing four i want to
+push
+
+580
+00:13:04,790 --> 00:13:04,800
+push
+ 
+
+581
+00:13:04,800 --> 00:13:07,750
+push
+where where is ansa come on where's
+
+582
+00:13:07,750 --> 00:13:07,760
+where where is ansa come on where's
+ 
+
+583
+00:13:07,760 --> 00:13:10,629
+where where is ansa come on where's
+answer the answer is looking at you
+
+584
+00:13:10,629 --> 00:13:10,639
+answer the answer is looking at you
+ 
+
+585
+00:13:10,639 --> 00:13:14,230
+answer the answer is looking at you
+wait we can answer which bit is dealing
+
+586
+00:13:14,230 --> 00:13:14,240
+wait we can answer which bit is dealing
+ 
+
+587
+00:13:14,240 --> 00:13:14,550
+wait we can answer which bit is dealing
+with
+
+588
+00:13:14,550 --> 00:13:14,560
+with
+ 
+
+589
+00:13:14,560 --> 00:13:17,990
+with
+appending the element into the answer
+
+590
+00:13:17,990 --> 00:13:18,000
+appending the element into the answer
+ 
+
+591
+00:13:18,000 --> 00:13:20,470
+appending the element into the answer
+yes what are we looking for so instead
+
+592
+00:13:20,470 --> 00:13:20,480
+yes what are we looking for so instead
+ 
+
+593
+00:13:20,480 --> 00:13:22,150
+yes what are we looking for so instead
+of pushing the first element i want to
+
+594
+00:13:22,150 --> 00:13:22,160
+of pushing the first element i want to
+ 
+
+595
+00:13:22,160 --> 00:13:23,350
+of pushing the first element i want to
+push what
+
+596
+00:13:23,350 --> 00:13:23,360
+push what
+ 
+
+597
+00:13:23,360 --> 00:13:26,310
+push what
+the second no no no no the last number
+
+598
+00:13:26,310 --> 00:13:26,320
+the second no no no no the last number
+ 
+
+599
+00:13:26,320 --> 00:13:27,750
+the second no no no no the last number
+yeah because if there are
+
+600
+00:13:27,750 --> 00:13:27,760
+yeah because if there are
+ 
+
+601
+00:13:27,760 --> 00:13:29,590
+yeah because if there are
+more elements there i want to push it a
+
+602
+00:13:29,590 --> 00:13:29,600
+more elements there i want to push it a
+ 
+
+603
+00:13:29,600 --> 00:13:30,949
+more elements there i want to push it a
+lot yes yeah so
+
+604
+00:13:30,949 --> 00:13:30,959
+lot yes yeah so
+ 
+
+605
+00:13:30,959 --> 00:13:34,310
+lot yes yeah so
+which q 0 is the first one and q what is
+
+606
+00:13:34,310 --> 00:13:34,320
+which q 0 is the first one and q what is
+ 
+
+607
+00:13:34,320 --> 00:13:36,710
+which q 0 is the first one and q what is
+the last one
+
+608
+00:13:36,710 --> 00:13:36,720
+the last one
+ 
+
+609
+00:13:36,720 --> 00:13:40,470
+the last one
+q q 1 minus what
+
+610
+00:13:40,470 --> 00:13:40,480
+q q 1 minus what
+ 
+
+611
+00:13:40,480 --> 00:13:42,710
+q q 1 minus what
+one we're done yeah that's that's the
+
+612
+00:13:42,710 --> 00:13:42,720
+one we're done yeah that's that's the
+ 
+
+613
+00:13:42,720 --> 00:13:44,870
+one we're done yeah that's that's the
+thing so you if you change this to minus
+
+614
+00:13:44,870 --> 00:13:44,880
+thing so you if you change this to minus
+ 
+
+615
+00:13:44,880 --> 00:13:46,470
+thing so you if you change this to minus
+1 then you'll be right have
+
+616
+00:13:46,470 --> 00:13:46,480
+1 then you'll be right have
+ 
+
+617
+00:13:46,480 --> 00:13:48,629
+1 then you'll be right have
+you yeah does it make sense yeah it
+
+618
+00:13:48,629 --> 00:13:48,639
+you yeah does it make sense yeah it
+ 
+
+619
+00:13:48,639 --> 00:13:49,670
+you yeah does it make sense yeah it
+makes sense yes
+
+620
+00:13:49,670 --> 00:13:49,680
+makes sense yes
+ 
+
+621
+00:13:49,680 --> 00:13:52,389
+makes sense yes
+we're done with them bye wait wait wait
+
+622
+00:13:52,389 --> 00:13:52,399
+we're done with them bye wait wait wait
+ 
+
+623
+00:13:52,399 --> 00:13:52,710
+we're done with them bye wait wait wait
+no
+
+624
+00:13:52,710 --> 00:13:52,720
+no
+ 
+
+625
+00:13:52,720 --> 00:13:55,269
+no
+no you need to say thank you and see you
+
+626
+00:13:55,269 --> 00:13:55,279
+no you need to say thank you and see you
+ 
+
+627
+00:13:55,279 --> 00:13:57,189
+no you need to say thank you and see you
+tomorrow every time okay
+
+628
+00:13:57,189 --> 00:13:57,199
+tomorrow every time okay
+ 
+
+629
+00:13:57,199 --> 00:14:02,000
+tomorrow every time okay
+thank you
+
