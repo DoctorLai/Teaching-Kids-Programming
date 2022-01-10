@@ -1,0 +1,3665 @@
+1
+00:00:11,120 --> 00:00:14,870
+
+so today we talk we want to talk about
+
+2
+00:00:14,870 --> 00:00:14,880
+so today we talk we want to talk about
+ 
+
+3
+00:00:14,880 --> 00:00:18,150
+so today we talk we want to talk about
+something uh interesting problem is that
+
+4
+00:00:18,150 --> 00:00:18,160
+something uh interesting problem is that
+ 
+
+5
+00:00:18,160 --> 00:00:20,630
+something uh interesting problem is that
+to check if the leaves you know the
+
+6
+00:00:20,630 --> 00:00:20,640
+to check if the leaves you know the
+ 
+
+7
+00:00:20,640 --> 00:00:22,230
+to check if the leaves you know the
+leaves in the binary tree
+
+8
+00:00:22,230 --> 00:00:22,240
+leaves in the binary tree
+ 
+
+9
+00:00:22,240 --> 00:00:25,109
+leaves in the binary tree
+yeah they're all on the if they're on
+
+10
+00:00:25,109 --> 00:00:25,119
+yeah they're all on the if they're on
+ 
+
+11
+00:00:25,119 --> 00:00:26,310
+yeah they're all on the if they're on
+the same level so
+
+12
+00:00:26,310 --> 00:00:26,320
+the same level so
+ 
+
+13
+00:00:26,320 --> 00:00:31,349
+the same level so
+look at this one okay
+
+14
+00:00:31,349 --> 00:00:31,359
+look at this one okay
+ 
+
+15
+00:00:31,359 --> 00:00:35,110
+look at this one okay
+yeah yeah this is the the the levels
+
+16
+00:00:35,110 --> 00:00:35,120
+yeah yeah this is the the the levels
+ 
+
+17
+00:00:35,120 --> 00:00:38,790
+yeah yeah this is the the the levels
+look this is yellow
+
+18
+00:00:38,790 --> 00:00:38,800
+look this is yellow
+ 
+
+19
+00:00:38,800 --> 00:00:42,069
+look this is yellow
+this is one so look where are the leaves
+
+20
+00:00:42,069 --> 00:00:42,079
+this is one so look where are the leaves
+ 
+
+21
+00:00:42,079 --> 00:00:45,670
+this is one so look where are the leaves
+the leaves leaves
+
+22
+00:00:45,670 --> 00:00:45,680
+the leaves leaves
+ 
+
+23
+00:00:45,680 --> 00:00:49,350
+the leaves leaves
+leaves leaves this is improved
+
+24
+00:00:49,350 --> 00:00:49,360
+leaves leaves this is improved
+ 
+
+25
+00:00:49,360 --> 00:00:52,389
+leaves leaves this is improved
+this is the finger yeah yes
+
+26
+00:00:52,389 --> 00:00:52,399
+this is the finger yeah yes
+ 
+
+27
+00:00:52,399 --> 00:00:55,029
+this is the finger yeah yes
+so the leaves are level one so you need
+
+28
+00:00:55,029 --> 00:00:55,039
+so the leaves are level one so you need
+ 
+
+29
+00:00:55,039 --> 00:00:57,350
+so the leaves are level one so you need
+to return to and how about this
+
+30
+00:00:57,350 --> 00:00:57,360
+to return to and how about this
+ 
+
+31
+00:00:57,360 --> 00:01:00,549
+to return to and how about this
+listen up yeah what are the leaves
+
+32
+00:01:00,549 --> 00:01:00,559
+listen up yeah what are the leaves
+ 
+
+33
+00:01:00,559 --> 00:01:03,990
+listen up yeah what are the leaves
+where on the list no this is not that
+
+34
+00:01:03,990 --> 00:01:04,000
+where on the list no this is not that
+ 
+
+35
+00:01:04,000 --> 00:01:04,549
+where on the list no this is not that
+deep
+
+36
+00:01:04,549 --> 00:01:04,559
+deep
+ 
+
+37
+00:01:04,559 --> 00:01:07,720
+deep
+so what's this remind me what's leaf
+
+38
+00:01:07,720 --> 00:01:07,730
+so what's this remind me what's leaf
+ 
+
+39
+00:01:07,730 --> 00:01:09,870
+so what's this remind me what's leaf
+[Music]
+
+40
+00:01:09,870 --> 00:01:09,880
+[Music]
+ 
+
+41
+00:01:09,880 --> 00:01:16,070
+[Music]
+is
+
+42
+00:01:16,070 --> 00:01:16,080
+
+ 
+
+43
+00:01:16,080 --> 00:01:18,630
+
+does not have any triad yes exactly so
+
+44
+00:01:18,630 --> 00:01:18,640
+does not have any triad yes exactly so
+ 
+
+45
+00:01:18,640 --> 00:01:20,550
+does not have any triad yes exactly so
+it does not have any child okay
+
+46
+00:01:20,550 --> 00:01:20,560
+it does not have any child okay
+ 
+
+47
+00:01:20,560 --> 00:01:23,670
+it does not have any child okay
+so now we're done so given the final
+
+48
+00:01:23,670 --> 00:01:23,680
+so now we're done so given the final
+ 
+
+49
+00:01:23,680 --> 00:01:24,070
+so now we're done so given the final
+tree
+
+50
+00:01:24,070 --> 00:01:24,080
+tree
+ 
+
+51
+00:01:24,080 --> 00:01:27,109
+tree
+so how can we make
+
+52
+00:01:27,109 --> 00:01:27,119
+so how can we make
+ 
+
+53
+00:01:27,119 --> 00:01:29,030
+so how can we make
+coffee and check if our leaves are on
+
+54
+00:01:29,030 --> 00:01:29,040
+coffee and check if our leaves are on
+ 
+
+55
+00:01:29,040 --> 00:01:33,670
+coffee and check if our leaves are on
+the same level
+
+56
+00:01:33,670 --> 00:01:33,680
+
+ 
+
+57
+00:01:33,680 --> 00:01:35,830
+
+uh just give me any thoughts how do we
+
+58
+00:01:35,830 --> 00:01:35,840
+uh just give me any thoughts how do we
+ 
+
+59
+00:01:35,840 --> 00:01:36,870
+uh just give me any thoughts how do we
+check any
+
+60
+00:01:36,870 --> 00:01:36,880
+check any
+ 
+
+61
+00:01:36,880 --> 00:01:39,590
+check any
+if there are only seven and remember how
+
+62
+00:01:39,590 --> 00:01:39,600
+if there are only seven and remember how
+ 
+
+63
+00:01:39,600 --> 00:01:42,230
+if there are only seven and remember how
+many ways we can
+
+64
+00:01:42,230 --> 00:01:42,240
+many ways we can
+ 
+
+65
+00:01:42,240 --> 00:01:44,630
+many ways we can
+it can travel all the notes in the
+
+66
+00:01:44,630 --> 00:01:44,640
+it can travel all the notes in the
+ 
+
+67
+00:01:44,640 --> 00:01:45,990
+it can travel all the notes in the
+binary tree
+
+68
+00:01:45,990 --> 00:01:46,000
+binary tree
+ 
+
+69
+00:01:46,000 --> 00:01:49,590
+binary tree
+how many ways
+
+70
+00:01:49,590 --> 00:01:49,600
+
+ 
+
+71
+00:01:49,600 --> 00:01:52,870
+
+yeah do you still remember this
+
+72
+00:01:52,870 --> 00:01:52,880
+yeah do you still remember this
+ 
+
+73
+00:01:52,880 --> 00:01:56,600
+yeah do you still remember this
+d
+
+74
+00:01:56,600 --> 00:01:56,610
+
+ 
+
+75
+00:01:56,610 --> 00:01:59,590
+
+[Music]
+
+76
+00:01:59,590 --> 00:01:59,600
+[Music]
+ 
+
+77
+00:01:59,600 --> 00:02:01,590
+[Music]
+okay today we talked about that versus
+
+78
+00:02:01,590 --> 00:02:01,600
+okay today we talked about that versus
+ 
+
+79
+00:02:01,600 --> 00:02:03,109
+okay today we talked about that versus
+to solve this problem yeah we talked
+
+80
+00:02:03,109 --> 00:02:03,119
+to solve this problem yeah we talked
+ 
+
+81
+00:02:03,119 --> 00:02:04,550
+to solve this problem yeah we talked
+about that before and
+
+82
+00:02:04,550 --> 00:02:04,560
+about that before and
+ 
+
+83
+00:02:04,560 --> 00:02:06,550
+about that before and
+tomorrow we talk about breakfast search
+
+84
+00:02:06,550 --> 00:02:06,560
+tomorrow we talk about breakfast search
+ 
+
+85
+00:02:06,560 --> 00:02:08,550
+tomorrow we talk about breakfast search
+okay breakfast that makes me
+
+86
+00:02:08,550 --> 00:02:08,560
+okay breakfast that makes me
+ 
+
+87
+00:02:08,560 --> 00:02:14,949
+okay breakfast that makes me
+hungry yeah that's research so what's d
+
+88
+00:02:14,949 --> 00:02:14,959
+
+ 
+
+89
+00:02:14,959 --> 00:02:18,309
+
+d e b e
+
+90
+00:02:18,309 --> 00:02:18,319
+d e b e
+ 
+
+91
+00:02:18,319 --> 00:02:30,430
+d e b e
+p t h
+
+92
+00:02:30,430 --> 00:02:30,440
+
+ 
+
+93
+00:02:30,440 --> 00:02:48,229
+
+[Music]
+
+94
+00:02:48,229 --> 00:02:48,239
+
+ 
+
+95
+00:02:48,239 --> 00:02:51,509
+
+so look one
+
+96
+00:02:51,509 --> 00:02:51,519
+so look one
+ 
+
+97
+00:02:51,519 --> 00:02:56,470
+so look one
+two three so remember
+
+98
+00:02:56,470 --> 00:02:56,480
+two three so remember
+ 
+
+99
+00:02:56,480 --> 00:02:59,830
+two three so remember
+so it's like a different searches
+
+100
+00:02:59,830 --> 00:02:59,840
+so it's like a different searches
+ 
+
+101
+00:02:59,840 --> 00:03:14,470
+so it's like a different searches
+is pre-order right
+
+102
+00:03:14,470 --> 00:03:14,480
+
+ 
+
+103
+00:03:14,480 --> 00:03:17,430
+
+okay and how about this if i have a five
+
+104
+00:03:17,430 --> 00:03:17,440
+okay and how about this if i have a five
+ 
+
+105
+00:03:17,440 --> 00:03:19,990
+okay and how about this if i have a five
+here so what's the sequence
+
+106
+00:03:19,990 --> 00:03:20,000
+here so what's the sequence
+ 
+
+107
+00:03:20,000 --> 00:03:23,190
+here so what's the sequence
+there's six what's the sequence
+
+108
+00:03:23,190 --> 00:03:23,200
+there's six what's the sequence
+ 
+
+109
+00:03:23,200 --> 00:03:26,789
+there's six what's the sequence
+one two three
+
+110
+00:03:26,789 --> 00:03:26,799
+one two three
+ 
+
+111
+00:03:26,799 --> 00:03:30,470
+one two three
+five four six seven so
+
+112
+00:03:30,470 --> 00:03:30,480
+five four six seven so
+ 
+
+113
+00:03:30,480 --> 00:03:34,390
+five four six seven so
+basically we visit there then
+
+114
+00:03:34,390 --> 00:03:34,400
+basically we visit there then
+ 
+
+115
+00:03:34,400 --> 00:03:37,830
+basically we visit there then
+we so basically we can go down as
+
+116
+00:03:37,830 --> 00:03:37,840
+we so basically we can go down as
+ 
+
+117
+00:03:37,840 --> 00:03:40,869
+we so basically we can go down as
+deep as we can right yeah and if we know
+
+118
+00:03:40,869 --> 00:03:40,879
+deep as we can right yeah and if we know
+ 
+
+119
+00:03:40,879 --> 00:03:42,630
+deep as we can right yeah and if we know
+we cannot go deep
+
+120
+00:03:42,630 --> 00:03:42,640
+we cannot go deep
+ 
+
+121
+00:03:42,640 --> 00:03:45,990
+we cannot go deep
+then we go how do we go left sorry why
+
+122
+00:03:45,990 --> 00:03:46,000
+then we go how do we go left sorry why
+ 
+
+123
+00:03:46,000 --> 00:03:46,789
+then we go how do we go left sorry why
+do we go there
+
+124
+00:03:46,789 --> 00:03:46,799
+do we go there
+ 
+
+125
+00:03:46,799 --> 00:03:50,149
+do we go there
+yes go left first of all let's go left
+
+126
+00:03:50,149 --> 00:03:50,159
+yes go left first of all let's go left
+ 
+
+127
+00:03:50,159 --> 00:03:53,190
+yes go left first of all let's go left
+as deep as we want as we can and not
+
+128
+00:03:53,190 --> 00:03:53,200
+as deep as we want as we can and not
+ 
+
+129
+00:03:53,200 --> 00:03:55,270
+as deep as we want as we can and not
+even we cannot go deep so we are now at
+
+130
+00:03:55,270 --> 00:03:55,280
+even we cannot go deep so we are now at
+ 
+
+131
+00:03:55,280 --> 00:03:57,350
+even we cannot go deep so we are now at
+three we cannot thirty we go back
+
+132
+00:03:57,350 --> 00:03:57,360
+three we cannot thirty we go back
+ 
+
+133
+00:03:57,360 --> 00:04:01,190
+three we cannot thirty we go back
+and then we go right so basically
+
+134
+00:04:01,190 --> 00:04:01,200
+and then we go right so basically
+ 
+
+135
+00:04:01,200 --> 00:04:04,390
+and then we go right so basically
+is the loot so it's
+
+136
+00:04:04,390 --> 00:04:04,400
+is the loot so it's
+ 
+
+137
+00:04:04,400 --> 00:04:09,830
+is the loot so it's
+what loot
+
+138
+00:04:09,830 --> 00:04:09,840
+
+ 
+
+139
+00:04:09,840 --> 00:04:13,270
+
+left right actually that's the value so
+
+140
+00:04:13,270 --> 00:04:13,280
+left right actually that's the value so
+ 
+
+141
+00:04:13,280 --> 00:04:15,750
+left right actually that's the value so
+let's and that's the
+
+142
+00:04:15,750 --> 00:04:15,760
+let's and that's the
+ 
+
+143
+00:04:15,760 --> 00:04:19,189
+let's and that's the
+value current value
+
+144
+00:04:19,189 --> 00:04:19,199
+value current value
+ 
+
+145
+00:04:19,199 --> 00:04:21,030
+value current value
+so what's this what's this this is
+
+146
+00:04:21,030 --> 00:04:21,040
+so what's this what's this this is
+ 
+
+147
+00:04:21,040 --> 00:04:22,390
+so what's this what's this this is
+pre-order right this is kind of
+
+148
+00:04:22,390 --> 00:04:22,400
+pre-order right this is kind of
+ 
+
+149
+00:04:22,400 --> 00:04:23,510
+pre-order right this is kind of
+pre-order
+
+150
+00:04:23,510 --> 00:04:23,520
+pre-order
+ 
+
+151
+00:04:23,520 --> 00:04:25,909
+pre-order
+do you still remember that in order in
+
+152
+00:04:25,909 --> 00:04:25,919
+do you still remember that in order in
+ 
+
+153
+00:04:25,919 --> 00:04:28,550
+do you still remember that in order in
+order is what
+
+154
+00:04:28,550 --> 00:04:28,560
+order is what
+ 
+
+155
+00:04:28,560 --> 00:04:33,590
+order is what
+l v r yeah first order is what
+
+156
+00:04:33,590 --> 00:04:33,600
+l v r yeah first order is what
+ 
+
+157
+00:04:33,600 --> 00:04:37,830
+l v r yeah first order is what
+post order is
+
+158
+00:04:37,830 --> 00:04:37,840
+post order is
+ 
+
+159
+00:04:37,840 --> 00:04:39,909
+post order is
+so when we talk about the sequences we
+
+160
+00:04:39,909 --> 00:04:39,919
+so when we talk about the sequences we
+ 
+
+161
+00:04:39,919 --> 00:04:41,510
+so when we talk about the sequences we
+talk about why is the v
+
+162
+00:04:41,510 --> 00:04:41,520
+talk about why is the v
+ 
+
+163
+00:04:41,520 --> 00:04:45,590
+talk about why is the v
+naught p v is the value current value
+
+164
+00:04:45,590 --> 00:04:45,600
+naught p v is the value current value
+ 
+
+165
+00:04:45,600 --> 00:04:47,909
+naught p v is the value current value
+or maybe how do you represent this note
+
+166
+00:04:47,909 --> 00:04:47,919
+or maybe how do you represent this note
+ 
+
+167
+00:04:47,919 --> 00:04:49,909
+or maybe how do you represent this note
+so basically look this is post order
+
+168
+00:04:49,909 --> 00:04:49,919
+so basically look this is post order
+ 
+
+169
+00:04:49,919 --> 00:04:51,350
+so basically look this is post order
+first order is
+
+170
+00:04:51,350 --> 00:04:51,360
+first order is
+ 
+
+171
+00:04:51,360 --> 00:04:54,390
+first order is
+the left left tree left notes
+
+172
+00:04:54,390 --> 00:04:54,400
+the left left tree left notes
+ 
+
+173
+00:04:54,400 --> 00:04:58,150
+the left left tree left notes
+right now the current note okay yeah
+
+174
+00:04:58,150 --> 00:04:58,160
+right now the current note okay yeah
+ 
+
+175
+00:04:58,160 --> 00:05:00,469
+right now the current note okay yeah
+yeah so remind me if it's a binary
+
+176
+00:05:00,469 --> 00:05:00,479
+yeah so remind me if it's a binary
+ 
+
+177
+00:05:00,479 --> 00:05:01,590
+yeah so remind me if it's a binary
+search tree
+
+178
+00:05:01,590 --> 00:05:01,600
+search tree
+ 
+
+179
+00:05:01,600 --> 00:05:04,469
+search tree
+and which order gives a sorted list if
+
+180
+00:05:04,469 --> 00:05:04,479
+and which order gives a sorted list if
+ 
+
+181
+00:05:04,479 --> 00:05:05,990
+and which order gives a sorted list if
+it's final research tree
+
+182
+00:05:05,990 --> 00:05:06,000
+it's final research tree
+ 
+
+183
+00:05:06,000 --> 00:05:16,710
+it's final research tree
+which order makes it a sorted list
+
+184
+00:05:16,710 --> 00:05:16,720
+
+ 
+
+185
+00:05:16,720 --> 00:05:20,230
+
+for binary search tree there is no oh
+
+186
+00:05:20,230 --> 00:05:20,240
+for binary search tree there is no oh
+ 
+
+187
+00:05:20,240 --> 00:05:24,310
+for binary search tree there is no oh
+there's another one the uh yeah
+
+188
+00:05:24,310 --> 00:05:24,320
+there's another one the uh yeah
+ 
+
+189
+00:05:24,320 --> 00:05:27,350
+there's another one the uh yeah
+it's actually this one in order yeah
+
+190
+00:05:27,350 --> 00:05:27,360
+it's actually this one in order yeah
+ 
+
+191
+00:05:27,360 --> 00:05:30,790
+it's actually this one in order yeah
+all right look one
+
+192
+00:05:30,790 --> 00:05:30,800
+all right look one
+ 
+
+193
+00:05:30,800 --> 00:05:34,629
+all right look one
+zero minus one
+
+194
+00:05:34,629 --> 00:05:34,639
+zero minus one
+ 
+
+195
+00:05:34,639 --> 00:05:38,550
+zero minus one
+zero point five two
+
+196
+00:05:38,550 --> 00:05:38,560
+zero point five two
+ 
+
+197
+00:05:38,560 --> 00:05:40,170
+zero point five two
+three so this in order will be
+
+198
+00:05:40,170 --> 00:05:40,180
+three so this in order will be
+ 
+
+199
+00:05:40,180 --> 00:05:41,749
+three so this in order will be
+[Music]
+
+200
+00:05:41,749 --> 00:05:41,759
+[Music]
+ 
+
+201
+00:05:41,759 --> 00:05:45,990
+[Music]
+minus one zero zero point five
+
+202
+00:05:45,990 --> 00:05:46,000
+minus one zero zero point five
+ 
+
+203
+00:05:46,000 --> 00:05:50,390
+minus one zero zero point five
+one two three okay yeah
+
+204
+00:05:50,390 --> 00:05:50,400
+one two three okay yeah
+ 
+
+205
+00:05:50,400 --> 00:05:52,230
+one two three okay yeah
+okay so that's in order yeah because
+
+206
+00:05:52,230 --> 00:05:52,240
+okay so that's in order yeah because
+ 
+
+207
+00:05:52,240 --> 00:05:54,469
+okay so that's in order yeah because
+this is you know so in order of a binary
+
+208
+00:05:54,469 --> 00:05:54,479
+this is you know so in order of a binary
+ 
+
+209
+00:05:54,479 --> 00:05:55,590
+this is you know so in order of a binary
+search tree
+
+210
+00:05:55,590 --> 00:05:55,600
+search tree
+ 
+
+211
+00:05:55,600 --> 00:05:59,189
+search tree
+is a sorted list right yeah
+
+212
+00:05:59,189 --> 00:05:59,199
+is a sorted list right yeah
+ 
+
+213
+00:05:59,199 --> 00:06:01,350
+is a sorted list right yeah
+there's another one called reverse in
+
+214
+00:06:01,350 --> 00:06:01,360
+there's another one called reverse in
+ 
+
+215
+00:06:01,360 --> 00:06:03,270
+there's another one called reverse in
+order so what's reversing order
+
+216
+00:06:03,270 --> 00:06:03,280
+order so what's reversing order
+ 
+
+217
+00:06:03,280 --> 00:06:08,900
+order so what's reversing order
+yeah we
+
+218
+00:06:08,900 --> 00:06:08,910
+
+ 
+
+219
+00:06:08,910 --> 00:06:11,749
+
+[Music]
+
+220
+00:06:11,749 --> 00:06:11,759
+[Music]
+ 
+
+221
+00:06:11,759 --> 00:06:13,590
+[Music]
+descending order yeah it's from the
+
+222
+00:06:13,590 --> 00:06:13,600
+descending order yeah it's from the
+ 
+
+223
+00:06:13,600 --> 00:06:15,670
+descending order yeah it's from the
+largest to the smallest right yeah
+
+224
+00:06:15,670 --> 00:06:15,680
+largest to the smallest right yeah
+ 
+
+225
+00:06:15,680 --> 00:06:18,629
+largest to the smallest right yeah
+okay yeah don't talk too much about this
+
+226
+00:06:18,629 --> 00:06:18,639
+okay yeah don't talk too much about this
+ 
+
+227
+00:06:18,639 --> 00:06:19,909
+okay yeah don't talk too much about this
+let's talk about it yeah
+
+228
+00:06:19,909 --> 00:06:19,919
+let's talk about it yeah
+ 
+
+229
+00:06:19,919 --> 00:06:23,430
+let's talk about it yeah
+yeah so it's been so
+
+230
+00:06:23,430 --> 00:06:23,440
+yeah so it's been so
+ 
+
+231
+00:06:23,440 --> 00:06:26,710
+yeah so it's been so
+six minutes and a half so let's the
+
+232
+00:06:26,710 --> 00:06:26,720
+six minutes and a half so let's the
+ 
+
+233
+00:06:26,720 --> 00:06:28,710
+six minutes and a half so let's the
+how can we solve this problem one
+
+234
+00:06:28,710 --> 00:06:28,720
+how can we solve this problem one
+ 
+
+235
+00:06:28,720 --> 00:06:30,870
+how can we solve this problem one
+solution is that we visit the notes
+
+236
+00:06:30,870 --> 00:06:30,880
+solution is that we visit the notes
+ 
+
+237
+00:06:30,880 --> 00:06:33,110
+solution is that we visit the notes
+with the tree yeah using the different
+
+238
+00:06:33,110 --> 00:06:33,120
+with the tree yeah using the different
+ 
+
+239
+00:06:33,120 --> 00:06:34,390
+with the tree yeah using the different
+search okay
+
+240
+00:06:34,390 --> 00:06:34,400
+search okay
+ 
+
+241
+00:06:34,400 --> 00:06:37,590
+search okay
+and if we meet the loot uh
+
+242
+00:06:37,590 --> 00:06:37,600
+and if we meet the loot uh
+ 
+
+243
+00:06:37,600 --> 00:06:40,710
+and if we meet the loot uh
+the leaf which has no children we
+
+244
+00:06:40,710 --> 00:06:40,720
+the leaf which has no children we
+ 
+
+245
+00:06:40,720 --> 00:06:43,350
+the leaf which has no children we
+put the depth we put its current depth
+
+246
+00:06:43,350 --> 00:06:43,360
+put the depth we put its current depth
+ 
+
+247
+00:06:43,360 --> 00:06:43,990
+put the depth we put its current depth
+into
+
+248
+00:06:43,990 --> 00:06:44,000
+into
+ 
+
+249
+00:06:44,000 --> 00:06:47,350
+into
+d on it yeah on a set another set yeah
+
+250
+00:06:47,350 --> 00:06:47,360
+d on it yeah on a set another set yeah
+ 
+
+251
+00:06:47,360 --> 00:06:50,390
+d on it yeah on a set another set yeah
+and then if all the leaves on the
+
+252
+00:06:50,390 --> 00:06:50,400
+and then if all the leaves on the
+ 
+
+253
+00:06:50,400 --> 00:06:53,270
+and then if all the leaves on the
+of the panel 3 is the same level what
+
+254
+00:06:53,270 --> 00:06:53,280
+of the panel 3 is the same level what
+ 
+
+255
+00:06:53,280 --> 00:06:54,710
+of the panel 3 is the same level what
+does it mean
+
+256
+00:06:54,710 --> 00:06:54,720
+does it mean
+ 
+
+257
+00:06:54,720 --> 00:06:57,270
+does it mean
+it means that how many elements are in a
+
+258
+00:06:57,270 --> 00:06:57,280
+it means that how many elements are in a
+ 
+
+259
+00:06:57,280 --> 00:06:58,150
+it means that how many elements are in a
+set
+
+260
+00:06:58,150 --> 00:06:58,160
+set
+ 
+
+261
+00:06:58,160 --> 00:06:59,909
+set
+if they are all in the same level so how
+
+262
+00:06:59,909 --> 00:06:59,919
+if they are all in the same level so how
+ 
+
+263
+00:06:59,919 --> 00:07:03,430
+if they are all in the same level so how
+many how many numbers in a set
+
+264
+00:07:03,430 --> 00:07:03,440
+many how many numbers in a set
+ 
+
+265
+00:07:03,440 --> 00:07:07,270
+many how many numbers in a set
+if it's all the same level the leaves
+
+266
+00:07:07,270 --> 00:07:07,280
+if it's all the same level the leaves
+ 
+
+267
+00:07:07,280 --> 00:07:10,309
+if it's all the same level the leaves
+i put it so look
+
+268
+00:07:10,309 --> 00:07:10,319
+i put it so look
+ 
+
+269
+00:07:10,319 --> 00:07:12,309
+i put it so look
+how many levels how many kind of levels
+
+270
+00:07:12,309 --> 00:07:12,319
+how many levels how many kind of levels
+ 
+
+271
+00:07:12,319 --> 00:07:14,550
+how many levels how many kind of levels
+do we have less and less
+
+272
+00:07:14,550 --> 00:07:14,560
+do we have less and less
+ 
+
+273
+00:07:14,560 --> 00:07:17,350
+do we have less and less
+two for the leaves from the leaves oh
+
+274
+00:07:17,350 --> 00:07:17,360
+two for the leaves from the leaves oh
+ 
+
+275
+00:07:17,360 --> 00:07:17,749
+two for the leaves from the leaves oh
+one
+
+276
+00:07:17,749 --> 00:07:17,759
+one
+ 
+
+277
+00:07:17,759 --> 00:07:20,790
+one
+yeah so how about this one
+
+278
+00:07:20,790 --> 00:07:20,800
+yeah so how about this one
+ 
+
+279
+00:07:20,800 --> 00:07:24,870
+yeah so how about this one
+how many they are on the center how many
+
+280
+00:07:24,870 --> 00:07:24,880
+how many they are on the center how many
+ 
+
+281
+00:07:24,880 --> 00:07:27,749
+how many they are on the center how many
+leaves how many depths of the leaves
+
+282
+00:07:27,749 --> 00:07:27,759
+leaves how many depths of the leaves
+ 
+
+283
+00:07:27,759 --> 00:07:29,270
+leaves how many depths of the leaves
+have
+
+284
+00:07:29,270 --> 00:07:29,280
+have
+ 
+
+285
+00:07:29,280 --> 00:07:31,909
+have
+there are four leaves yeah and they are
+
+286
+00:07:31,909 --> 00:07:31,919
+there are four leaves yeah and they are
+ 
+
+287
+00:07:31,919 --> 00:07:33,029
+there are four leaves yeah and they are
+all
+
+288
+00:07:33,029 --> 00:07:33,039
+all
+ 
+
+289
+00:07:33,039 --> 00:07:36,070
+all
+one whatever okay so we should check how
+
+290
+00:07:36,070 --> 00:07:36,080
+one whatever okay so we should check how
+ 
+
+291
+00:07:36,080 --> 00:07:37,029
+one whatever okay so we should check how
+many
+
+292
+00:07:37,029 --> 00:07:37,039
+many
+ 
+
+293
+00:07:37,039 --> 00:07:40,230
+many
+check the size of the depth equals to
+
+294
+00:07:40,230 --> 00:07:40,240
+check the size of the depth equals to
+ 
+
+295
+00:07:40,240 --> 00:07:43,909
+check the size of the depth equals to
+what it's a set so i put a set
+
+296
+00:07:43,909 --> 00:07:43,919
+what it's a set so i put a set
+ 
+
+297
+00:07:43,919 --> 00:07:47,589
+what it's a set so i put a set
+i put a i put a leaves levels in the set
+
+298
+00:07:47,589 --> 00:07:47,599
+i put a i put a leaves levels in the set
+ 
+
+299
+00:07:47,599 --> 00:07:50,869
+i put a i put a leaves levels in the set
+so how many elements in a set
+
+300
+00:07:50,869 --> 00:07:50,879
+so how many elements in a set
+ 
+
+301
+00:07:50,879 --> 00:07:57,589
+so how many elements in a set
+if it's all in the one level
+
+302
+00:07:57,589 --> 00:07:57,599
+
+ 
+
+303
+00:07:57,599 --> 00:08:00,950
+
+what yeah you just tell me
+
+304
+00:08:00,950 --> 00:08:00,960
+what yeah you just tell me
+ 
+
+305
+00:08:00,960 --> 00:08:04,150
+what yeah you just tell me
+how many how many different values of
+
+306
+00:08:04,150 --> 00:08:04,160
+how many how many different values of
+ 
+
+307
+00:08:04,160 --> 00:08:06,020
+how many how many different values of
+the death
+
+308
+00:08:06,020 --> 00:08:06,030
+the death
+ 
+
+309
+00:08:06,030 --> 00:08:11,670
+the death
+[Music]
+
+310
+00:08:11,670 --> 00:08:11,680
+
+ 
+
+311
+00:08:11,680 --> 00:08:15,029
+
+this is one one uh
+
+312
+00:08:15,029 --> 00:08:15,039
+this is one one uh
+ 
+
+313
+00:08:15,039 --> 00:08:17,670
+this is one one uh
+one two three three or maybe zero one
+
+314
+00:08:17,670 --> 00:08:17,680
+one two three three or maybe zero one
+ 
+
+315
+00:08:17,680 --> 00:08:19,110
+one two three three or maybe zero one
+two okay two
+
+316
+00:08:19,110 --> 00:08:19,120
+two okay two
+ 
+
+317
+00:08:19,120 --> 00:08:23,270
+two okay two
+and this is six
+
+318
+00:08:23,270 --> 00:08:23,280
+and this is six
+ 
+
+319
+00:08:23,280 --> 00:08:27,589
+and this is six
+two two two so how many numbers
+
+320
+00:08:27,589 --> 00:08:27,599
+two two two so how many numbers
+ 
+
+321
+00:08:27,599 --> 00:08:30,550
+two two two so how many numbers
+oh some how many different kinds of
+
+322
+00:08:30,550 --> 00:08:30,560
+oh some how many different kinds of
+ 
+
+323
+00:08:30,560 --> 00:08:32,070
+oh some how many different kinds of
+numbers
+
+324
+00:08:32,070 --> 00:08:32,080
+numbers
+ 
+
+325
+00:08:32,080 --> 00:08:34,550
+numbers
+three why is this three it's one come on
+
+326
+00:08:34,550 --> 00:08:34,560
+three why is this three it's one come on
+ 
+
+327
+00:08:34,560 --> 00:08:35,990
+three why is this three it's one come on
+there are two
+
+328
+00:08:35,990 --> 00:08:36,000
+there are two
+ 
+
+329
+00:08:36,000 --> 00:08:39,110
+there are two
+oh and what do you mean all of this okay
+
+330
+00:08:39,110 --> 00:08:39,120
+oh and what do you mean all of this okay
+ 
+
+331
+00:08:39,120 --> 00:08:40,070
+oh and what do you mean all of this okay
+i mean the leaves
+
+332
+00:08:40,070 --> 00:08:40,080
+i mean the leaves
+ 
+
+333
+00:08:40,080 --> 00:08:42,630
+i mean the leaves
+i'm what i'm talking about is that look
+
+334
+00:08:42,630 --> 00:08:42,640
+i'm what i'm talking about is that look
+ 
+
+335
+00:08:42,640 --> 00:08:43,990
+i'm what i'm talking about is that look
+the algorithm is like
+
+336
+00:08:43,990 --> 00:08:44,000
+the algorithm is like
+ 
+
+337
+00:08:44,000 --> 00:08:47,590
+the algorithm is like
+if we i travel a tree and if this is a
+
+338
+00:08:47,590 --> 00:08:47,600
+if we i travel a tree and if this is a
+ 
+
+339
+00:08:47,600 --> 00:08:51,269
+if we i travel a tree and if this is a
+leaf node yeah i put its depth which is
+
+340
+00:08:51,269 --> 00:08:51,279
+leaf node yeah i put its depth which is
+ 
+
+341
+00:08:51,279 --> 00:08:52,550
+leaf node yeah i put its depth which is
+two here
+
+342
+00:08:52,550 --> 00:08:52,560
+two here
+ 
+
+343
+00:08:52,560 --> 00:08:55,670
+two here
+a set yeah and then i go to here
+
+344
+00:08:55,670 --> 00:08:55,680
+a set yeah and then i go to here
+ 
+
+345
+00:08:55,680 --> 00:08:58,230
+a set yeah and then i go to here
+and it will be the same i put a two here
+
+346
+00:08:58,230 --> 00:08:58,240
+and it will be the same i put a two here
+ 
+
+347
+00:08:58,240 --> 00:08:59,990
+and it will be the same i put a two here
+yeah my set doesn't
+
+348
+00:08:59,990 --> 00:09:00,000
+yeah my set doesn't
+ 
+
+349
+00:09:00,000 --> 00:09:03,430
+yeah my set doesn't
+accept me a set does not store
+
+350
+00:09:03,430 --> 00:09:03,440
+accept me a set does not store
+ 
+
+351
+00:09:03,440 --> 00:09:06,550
+accept me a set does not store
+duplicate an event do you get it
+
+352
+00:09:06,550 --> 00:09:06,560
+duplicate an event do you get it
+ 
+
+353
+00:09:06,560 --> 00:09:09,750
+duplicate an event do you get it
+yeah so if i said look if this d equals
+
+354
+00:09:09,750 --> 00:09:09,760
+yeah so if i said look if this d equals
+ 
+
+355
+00:09:09,760 --> 00:09:11,030
+yeah so if i said look if this d equals
+z alright
+
+356
+00:09:11,030 --> 00:09:11,040
+z alright
+ 
+
+357
+00:09:11,040 --> 00:09:14,070
+z alright
+and then look d dot at
+
+358
+00:09:14,070 --> 00:09:14,080
+and then look d dot at
+ 
+
+359
+00:09:14,080 --> 00:09:17,030
+and then look d dot at
+two and then d will be here right look
+
+360
+00:09:17,030 --> 00:09:17,040
+two and then d will be here right look
+ 
+
+361
+00:09:17,040 --> 00:09:18,389
+two and then d will be here right look
+if i add one more time
+
+362
+00:09:18,389 --> 00:09:18,399
+if i add one more time
+ 
+
+363
+00:09:18,399 --> 00:09:21,829
+if i add one more time
+d dot a two what do you think will
+
+364
+00:09:21,829 --> 00:09:21,839
+d dot a two what do you think will
+ 
+
+365
+00:09:21,839 --> 00:09:26,630
+d dot a two what do you think will
+happen
+
+366
+00:09:26,630 --> 00:09:26,640
+
+ 
+
+367
+00:09:26,640 --> 00:09:28,630
+
+a set what do what do you think will
+
+368
+00:09:28,630 --> 00:09:28,640
+a set what do what do you think will
+ 
+
+369
+00:09:28,640 --> 00:09:29,670
+a set what do what do you think will
+happen d dot
+
+370
+00:09:29,670 --> 00:09:29,680
+happen d dot
+ 
+
+371
+00:09:29,680 --> 00:09:32,870
+happen d dot
+set is theta set is this one at two i
+
+372
+00:09:32,870 --> 00:09:32,880
+set is theta set is this one at two i
+ 
+
+373
+00:09:32,880 --> 00:09:35,030
+set is theta set is this one at two i
+put a two and add another two what will
+
+374
+00:09:35,030 --> 00:09:35,040
+put a two and add another two what will
+ 
+
+375
+00:09:35,040 --> 00:09:37,509
+put a two and add another two what will
+happen if you said what did i just say i
+
+376
+00:09:37,509 --> 00:09:37,519
+happen if you said what did i just say i
+ 
+
+377
+00:09:37,519 --> 00:09:38,790
+happen if you said what did i just say i
+said a set does not
+
+378
+00:09:38,790 --> 00:09:38,800
+said a set does not
+ 
+
+379
+00:09:38,800 --> 00:09:42,310
+said a set does not
+store duplicate elements so what
+
+380
+00:09:42,310 --> 00:09:42,320
+store duplicate elements so what
+ 
+
+381
+00:09:42,320 --> 00:09:45,350
+store duplicate elements so what
+will happen uh
+
+382
+00:09:45,350 --> 00:09:45,360
+will happen uh
+ 
+
+383
+00:09:45,360 --> 00:09:47,190
+will happen uh
+nothing will happen right because we
+
+384
+00:09:47,190 --> 00:09:47,200
+nothing will happen right because we
+ 
+
+385
+00:09:47,200 --> 00:09:49,269
+nothing will happen right because we
+already have two yeah that's what i mean
+
+386
+00:09:49,269 --> 00:09:49,279
+already have two yeah that's what i mean
+ 
+
+387
+00:09:49,279 --> 00:09:51,350
+already have two yeah that's what i mean
+so you put another you need another leaf
+
+388
+00:09:51,350 --> 00:09:51,360
+so you put another you need another leaf
+ 
+
+389
+00:09:51,360 --> 00:09:52,470
+so you put another you need another leaf
+note i put a
+
+390
+00:09:52,470 --> 00:09:52,480
+note i put a
+ 
+
+391
+00:09:52,480 --> 00:09:54,790
+note i put a
+step which is two and another note which
+
+392
+00:09:54,790 --> 00:09:54,800
+step which is two and another note which
+ 
+
+393
+00:09:54,800 --> 00:09:55,509
+step which is two and another note which
+is two
+
+394
+00:09:55,509 --> 00:09:55,519
+is two
+ 
+
+395
+00:09:55,519 --> 00:09:58,710
+is two
+so if all the leaves knows are on the
+
+396
+00:09:58,710 --> 00:09:58,720
+so if all the leaves knows are on the
+ 
+
+397
+00:09:58,720 --> 00:09:59,430
+so if all the leaves knows are on the
+same level
+
+398
+00:09:59,430 --> 00:09:59,440
+same level
+ 
+
+399
+00:09:59,440 --> 00:10:01,590
+same level
+so how many elements should this set
+
+400
+00:10:01,590 --> 00:10:01,600
+so how many elements should this set
+ 
+
+401
+00:10:01,600 --> 00:10:03,350
+so how many elements should this set
+have
+
+402
+00:10:03,350 --> 00:10:03,360
+have
+ 
+
+403
+00:10:03,360 --> 00:10:05,670
+have
+one yeah that's it i was looking for
+
+404
+00:10:05,670 --> 00:10:05,680
+one yeah that's it i was looking for
+ 
+
+405
+00:10:05,680 --> 00:10:07,190
+one yeah that's it i was looking for
+this answer for a long time we're gonna
+
+406
+00:10:07,190 --> 00:10:07,200
+this answer for a long time we're gonna
+ 
+
+407
+00:10:07,200 --> 00:10:07,670
+this answer for a long time we're gonna
+just say
+
+408
+00:10:07,670 --> 00:10:07,680
+just say
+ 
+
+409
+00:10:07,680 --> 00:10:10,310
+just say
+one did you get it now yeah yeah did you
+
+410
+00:10:10,310 --> 00:10:10,320
+one did you get it now yeah yeah did you
+ 
+
+411
+00:10:10,320 --> 00:10:10,949
+one did you get it now yeah yeah did you
+get it
+
+412
+00:10:10,949 --> 00:10:10,959
+get it
+ 
+
+413
+00:10:10,959 --> 00:10:14,870
+get it
+okay boom
+
+414
+00:10:14,870 --> 00:10:14,880
+okay boom
+ 
+
+415
+00:10:14,880 --> 00:10:29,350
+okay boom
+okay now we do the fifth step search
+
+416
+00:10:29,350 --> 00:10:29,360
+
+ 
+
+417
+00:10:29,360 --> 00:10:32,230
+
+and then they call them yeah dude is the
+
+418
+00:10:32,230 --> 00:10:32,240
+and then they call them yeah dude is the
+ 
+
+419
+00:10:32,240 --> 00:10:33,190
+and then they call them yeah dude is the
+loot okay
+
+420
+00:10:33,190 --> 00:10:33,200
+loot okay
+ 
+
+421
+00:10:33,200 --> 00:10:36,790
+loot okay
+and look we can we can have
+
+422
+00:10:36,790 --> 00:10:36,800
+and look we can we can have
+ 
+
+423
+00:10:36,800 --> 00:10:39,110
+and look we can we can have
+another death inside of that yeah this
+
+424
+00:10:39,110 --> 00:10:39,120
+another death inside of that yeah this
+ 
+
+425
+00:10:39,120 --> 00:10:40,150
+another death inside of that yeah this
+is new right
+
+426
+00:10:40,150 --> 00:10:40,160
+is new right
+ 
+
+427
+00:10:40,160 --> 00:10:43,910
+is new right
+yes yeah so look i can have this
+
+428
+00:10:43,910 --> 00:10:43,920
+yes yeah so look i can have this
+ 
+
+429
+00:10:43,920 --> 00:10:47,990
+yes yeah so look i can have this
+death here this is a local function
+
+430
+00:10:47,990 --> 00:10:48,000
+death here this is a local function
+ 
+
+431
+00:10:48,000 --> 00:10:51,670
+death here this is a local function
+yeah local function so i use it dfs
+
+432
+00:10:51,670 --> 00:10:51,680
+yeah local function so i use it dfs
+ 
+
+433
+00:10:51,680 --> 00:10:54,949
+yeah local function so i use it dfs
+right dfs
+
+434
+00:10:54,949 --> 00:10:54,959
+right dfs
+ 
+
+435
+00:10:54,959 --> 00:10:58,389
+right dfs
+okay and then here i load
+
+436
+00:10:58,389 --> 00:10:58,399
+okay and then here i load
+ 
+
+437
+00:10:58,399 --> 00:11:00,790
+okay and then here i load
+and then i need to pass current steps
+
+438
+00:11:00,790 --> 00:11:00,800
+and then i need to pass current steps
+ 
+
+439
+00:11:00,800 --> 00:11:02,550
+and then i need to pass current steps
+yes current depth i put a current
+
+440
+00:11:02,550 --> 00:11:02,560
+yes current depth i put a current
+ 
+
+441
+00:11:02,560 --> 00:11:03,829
+yes current depth i put a current
+current this okay
+
+442
+00:11:03,829 --> 00:11:03,839
+current this okay
+ 
+
+443
+00:11:03,839 --> 00:11:07,829
+current this okay
+what's what's missing here okay
+
+444
+00:11:07,829 --> 00:11:07,839
+what's what's missing here okay
+ 
+
+445
+00:11:07,839 --> 00:11:11,350
+what's what's missing here okay
+if loot is num
+
+446
+00:11:11,350 --> 00:11:11,360
+if loot is num
+ 
+
+447
+00:11:11,360 --> 00:11:14,069
+if loot is num
+okay then we return nothing right return
+
+448
+00:11:14,069 --> 00:11:14,079
+okay then we return nothing right return
+ 
+
+449
+00:11:14,079 --> 00:11:15,910
+okay then we return nothing right return
+just return
+
+450
+00:11:15,910 --> 00:11:15,920
+just return
+ 
+
+451
+00:11:15,920 --> 00:11:19,750
+just return
+how do you check if it's a leaf node
+
+452
+00:11:19,750 --> 00:11:19,760
+
+ 
+
+453
+00:11:19,760 --> 00:11:22,470
+
+how do you check if it's if not if it
+
+454
+00:11:22,470 --> 00:11:22,480
+how do you check if it's if not if it
+ 
+
+455
+00:11:22,480 --> 00:11:23,190
+how do you check if it's if not if it
+doesn't have
+
+456
+00:11:23,190 --> 00:11:23,200
+doesn't have
+ 
+
+457
+00:11:23,200 --> 00:11:25,350
+doesn't have
+any child okay so how to invert it if
+
+458
+00:11:25,350 --> 00:11:25,360
+any child okay so how to invert it if
+ 
+
+459
+00:11:25,360 --> 00:11:41,030
+any child okay so how to invert it if
+loot left
+
+460
+00:11:41,030 --> 00:11:41,040
+
+ 
+
+461
+00:11:41,040 --> 00:11:44,150
+
+are you okay
+
+462
+00:11:44,150 --> 00:11:44,160
+
+ 
+
+463
+00:11:44,160 --> 00:11:46,550
+
+i know look we have a we put a depth
+
+464
+00:11:46,550 --> 00:11:46,560
+i know look we have a we put a depth
+ 
+
+465
+00:11:46,560 --> 00:11:48,069
+i know look we have a we put a depth
+here okay remember this d
+
+466
+00:11:48,069 --> 00:11:48,079
+here okay remember this d
+ 
+
+467
+00:11:48,079 --> 00:11:50,460
+here okay remember this d
+equals set yeah this is set okay
+
+468
+00:11:50,460 --> 00:11:50,470
+equals set yeah this is set okay
+ 
+
+469
+00:11:50,470 --> 00:11:51,590
+equals set yeah this is set okay
+[Music]
+
+470
+00:11:51,590 --> 00:11:51,600
+[Music]
+ 
+
+471
+00:11:51,600 --> 00:12:09,110
+[Music]
+and then if it's if it's a leaf node
+
+472
+00:12:09,110 --> 00:12:09,120
+
+ 
+
+473
+00:12:09,120 --> 00:12:11,190
+
+because if no i don't i don't need to
+
+474
+00:12:11,190 --> 00:12:11,200
+because if no i don't i don't need to
+ 
+
+475
+00:12:11,200 --> 00:12:12,790
+because if no i don't i don't need to
+travel there are no more children i can
+
+476
+00:12:12,790 --> 00:12:12,800
+travel there are no more children i can
+ 
+
+477
+00:12:12,800 --> 00:12:14,150
+travel there are no more children i can
+just return yeah
+
+478
+00:12:14,150 --> 00:12:14,160
+just return yeah
+ 
+
+479
+00:12:14,160 --> 00:12:17,509
+just return yeah
+right now look if we loot it's not
+
+480
+00:12:17,509 --> 00:12:17,519
+right now look if we loot it's not
+ 
+
+481
+00:12:17,519 --> 00:12:21,190
+right now look if we loot it's not
+not leave no then dfs
+
+482
+00:12:21,190 --> 00:12:21,200
+not leave no then dfs
+ 
+
+483
+00:12:21,200 --> 00:12:24,230
+not leave no then dfs
+blue dot left yeah
+
+484
+00:12:24,230 --> 00:12:24,240
+blue dot left yeah
+ 
+
+485
+00:12:24,240 --> 00:12:27,350
+blue dot left yeah
+trevor is left left what should i put
+
+486
+00:12:27,350 --> 00:12:27,360
+trevor is left left what should i put
+ 
+
+487
+00:12:27,360 --> 00:12:28,470
+trevor is left left what should i put
+here
+
+488
+00:12:28,470 --> 00:12:28,480
+here
+ 
+
+489
+00:12:28,480 --> 00:12:31,430
+here
+current add one wow how do you know yeah
+
+490
+00:12:31,430 --> 00:12:31,440
+current add one wow how do you know yeah
+ 
+
+491
+00:12:31,440 --> 00:12:31,990
+current add one wow how do you know yeah
+because
+
+492
+00:12:31,990 --> 00:12:32,000
+because
+ 
+
+493
+00:12:32,000 --> 00:12:35,590
+because
+yes no this is not current yeah and then
+
+494
+00:12:35,590 --> 00:12:35,600
+yes no this is not current yeah and then
+ 
+
+495
+00:12:35,600 --> 00:12:36,069
+yes no this is not current yeah and then
+it's the
+
+496
+00:12:36,069 --> 00:12:36,079
+it's the
+ 
+
+497
+00:12:36,079 --> 00:12:38,389
+it's the
+next note will be current plus one yeah
+
+498
+00:12:38,389 --> 00:12:38,399
+next note will be current plus one yeah
+ 
+
+499
+00:12:38,399 --> 00:12:39,269
+next note will be current plus one yeah
+why yeah
+
+500
+00:12:39,269 --> 00:12:39,279
+why yeah
+ 
+
+501
+00:12:39,279 --> 00:12:41,269
+why yeah
+you get it okay and what will happen
+
+502
+00:12:41,269 --> 00:12:41,279
+you get it okay and what will happen
+ 
+
+503
+00:12:41,279 --> 00:12:42,949
+you get it okay and what will happen
+here we need to travel the right
+
+504
+00:12:42,949 --> 00:12:42,959
+here we need to travel the right
+ 
+
+505
+00:12:42,959 --> 00:12:47,110
+here we need to travel the right
+right tree right yeah dfs read the right
+
+506
+00:12:47,110 --> 00:12:47,120
+right tree right yeah dfs read the right
+ 
+
+507
+00:12:47,120 --> 00:13:02,150
+right tree right yeah dfs read the right
+current minus one minus one
+
+508
+00:13:02,150 --> 00:13:02,160
+
+ 
+
+509
+00:13:02,160 --> 00:13:03,590
+
+and what should i put at the beginning
+
+510
+00:13:03,590 --> 00:13:03,600
+and what should i put at the beginning
+ 
+
+511
+00:13:03,600 --> 00:13:19,269
+and what should i put at the beginning
+here
+
+512
+00:13:19,269 --> 00:13:19,279
+
+ 
+
+513
+00:13:19,279 --> 00:13:22,310
+
+yes yeah okay so what after this
+
+514
+00:13:22,310 --> 00:13:22,320
+yes yeah okay so what after this
+ 
+
+515
+00:13:22,320 --> 00:13:25,030
+yes yeah okay so what after this
+the d should contain all the numbers of
+
+516
+00:13:25,030 --> 00:13:25,040
+the d should contain all the numbers of
+ 
+
+517
+00:13:25,040 --> 00:13:25,829
+the d should contain all the numbers of
+the depths
+
+518
+00:13:25,829 --> 00:13:25,839
+the depths
+ 
+
+519
+00:13:25,839 --> 00:13:32,230
+the depths
+of the leaf notes
+
+520
+00:13:32,230 --> 00:13:32,240
+
+ 
+
+521
+00:13:32,240 --> 00:13:35,030
+
+we need to check the room now what what
+
+522
+00:13:35,030 --> 00:13:35,040
+we need to check the room now what what
+ 
+
+523
+00:13:35,040 --> 00:13:36,310
+we need to check the room now what what
+what do we need to check
+
+524
+00:13:36,310 --> 00:13:36,320
+what do we need to check
+ 
+
+525
+00:13:36,320 --> 00:13:39,829
+what do we need to check
+i was teaching a cup return
+
+526
+00:13:39,829 --> 00:13:39,839
+i was teaching a cup return
+ 
+
+527
+00:13:39,839 --> 00:13:43,670
+i was teaching a cup return
+how many numbers are in the d three
+
+528
+00:13:43,670 --> 00:13:43,680
+how many numbers are in the d three
+ 
+
+529
+00:13:43,680 --> 00:13:45,509
+how many numbers are in the d three
+how many numbers remember i was talking
+
+530
+00:13:45,509 --> 00:13:45,519
+how many numbers remember i was talking
+ 
+
+531
+00:13:45,519 --> 00:13:46,790
+how many numbers remember i was talking
+about the
+
+532
+00:13:46,790 --> 00:13:46,800
+about the
+ 
+
+533
+00:13:46,800 --> 00:13:49,990
+about the
+thing how many different numbers of the
+
+534
+00:13:49,990 --> 00:13:50,000
+thing how many different numbers of the
+ 
+
+535
+00:13:50,000 --> 00:13:53,110
+thing how many different numbers of the
+yes or how do we do it return what
+
+536
+00:13:53,110 --> 00:13:53,120
+yes or how do we do it return what
+ 
+
+537
+00:13:53,120 --> 00:13:56,710
+yes or how do we do it return what
+reason one come on then
+
+538
+00:13:56,710 --> 00:13:56,720
+reason one come on then
+ 
+
+539
+00:13:56,720 --> 00:14:00,829
+reason one come on then
+plants yeah plants was b and
+
+540
+00:14:00,829 --> 00:14:00,839
+plants yeah plants was b and
+ 
+
+541
+00:14:00,839 --> 00:14:04,069
+plants yeah plants was b and
+what we want to check the lens if it's
+
+542
+00:14:04,069 --> 00:14:04,079
+what we want to check the lens if it's
+ 
+
+543
+00:14:04,079 --> 00:14:04,949
+what we want to check the lens if it's
+equal to one
+
+544
+00:14:04,949 --> 00:14:04,959
+equal to one
+ 
+
+545
+00:14:04,959 --> 00:14:07,470
+equal to one
+so how do we write it
+
+546
+00:14:07,470 --> 00:14:07,480
+so how do we write it
+ 
+
+547
+00:14:07,480 --> 00:14:11,509
+so how do we write it
+[Music]
+
+548
+00:14:11,509 --> 00:14:11,519
+[Music]
+ 
+
+549
+00:14:11,519 --> 00:14:14,949
+[Music]
+equal equal one come on why
+
+550
+00:14:14,949 --> 00:14:14,959
+equal equal one come on why
+ 
+
+551
+00:14:14,959 --> 00:14:18,870
+equal equal one come on why
+oh yeah is that is that enough yeah
+
+552
+00:14:18,870 --> 00:14:18,880
+oh yeah is that is that enough yeah
+ 
+
+553
+00:14:18,880 --> 00:14:21,990
+oh yeah is that is that enough yeah
+yeah yeah okay so
+
+554
+00:14:21,990 --> 00:14:22,000
+yeah yeah okay so
+ 
+
+555
+00:14:22,000 --> 00:14:26,150
+yeah yeah okay so
+term complexity out time complexity
+
+556
+00:14:26,150 --> 00:14:26,160
+term complexity out time complexity
+ 
+
+557
+00:14:26,160 --> 00:14:34,710
+term complexity out time complexity
+oh i i i i i
+
+558
+00:14:34,710 --> 00:14:34,720
+
+ 
+
+559
+00:14:34,720 --> 00:14:38,949
+
+what's the space complexity
+
+560
+00:14:38,949 --> 00:14:38,959
+
+ 
+
+561
+00:14:38,959 --> 00:14:41,110
+
+are there any additional space we need
+
+562
+00:14:41,110 --> 00:14:41,120
+are there any additional space we need
+ 
+
+563
+00:14:41,120 --> 00:14:43,670
+are there any additional space we need
+to use
+
+564
+00:14:43,670 --> 00:14:43,680
+
+ 
+
+565
+00:14:43,680 --> 00:14:47,030
+
+what's this is this a space set yeah
+
+566
+00:14:47,030 --> 00:14:47,040
+what's this is this a space set yeah
+ 
+
+567
+00:14:47,040 --> 00:14:49,990
+what's this is this a space set yeah
+yeah so what's the complexity one no no
+
+568
+00:14:49,990 --> 00:14:50,000
+yeah so what's the complexity one no no
+ 
+
+569
+00:14:50,000 --> 00:14:50,710
+yeah so what's the complexity one no no
+no no no
+
+570
+00:14:50,710 --> 00:14:50,720
+no no no
+ 
+
+571
+00:14:50,720 --> 00:14:56,870
+no no no
+no no no no we are using what it says
+
+572
+00:14:56,870 --> 00:14:56,880
+
+ 
+
+573
+00:14:56,880 --> 00:15:03,430
+
+no
+
+574
+00:15:03,430 --> 00:15:03,440
+
+ 
+
+575
+00:15:03,440 --> 00:15:06,230
+
+this way look yeah it contains all the
+
+576
+00:15:06,230 --> 00:15:06,240
+this way look yeah it contains all the
+ 
+
+577
+00:15:06,240 --> 00:15:09,910
+this way look yeah it contains all the
+notes different levels
+
+578
+00:15:09,910 --> 00:15:09,920
+
+ 
+
+579
+00:15:09,920 --> 00:15:13,110
+
+actually is it a one could be a one or
+
+580
+00:15:13,110 --> 00:15:13,120
+actually is it a one could be a one or
+ 
+
+581
+00:15:13,120 --> 00:15:14,310
+actually is it a one could be a one or
+no maybe maybe look
+
+582
+00:15:14,310 --> 00:15:14,320
+no maybe maybe look
+ 
+
+583
+00:15:14,320 --> 00:15:17,910
+no maybe maybe look
+yeah look now look this kind of tree
+
+584
+00:15:17,910 --> 00:15:17,920
+yeah look now look this kind of tree
+ 
+
+585
+00:15:17,920 --> 00:15:18,870
+yeah look now look this kind of tree
+look
+
+586
+00:15:18,870 --> 00:15:18,880
+look
+ 
+
+587
+00:15:18,880 --> 00:15:22,310
+look
+yeah so these notes
+
+588
+00:15:22,310 --> 00:15:22,320
+yeah so these notes
+ 
+
+589
+00:15:22,320 --> 00:15:26,230
+yeah so these notes
+can be on different levels yeah
+
+590
+00:15:26,230 --> 00:15:26,240
+can be on different levels yeah
+ 
+
+591
+00:15:26,240 --> 00:15:28,710
+can be on different levels yeah
+yeah this kind of tree so if there are
+
+592
+00:15:28,710 --> 00:15:28,720
+yeah this kind of tree so if there are
+ 
+
+593
+00:15:28,720 --> 00:15:29,910
+yeah this kind of tree so if there are
+ends and nose
+
+594
+00:15:29,910 --> 00:15:29,920
+ends and nose
+ 
+
+595
+00:15:29,920 --> 00:15:32,629
+ends and nose
+and properly some lines stretching out
+
+596
+00:15:32,629 --> 00:15:32,639
+and properly some lines stretching out
+ 
+
+597
+00:15:32,639 --> 00:15:34,870
+and properly some lines stretching out
+yeah yeah i'm just talking about that uh
+
+598
+00:15:34,870 --> 00:15:34,880
+yeah yeah i'm just talking about that uh
+ 
+
+599
+00:15:34,880 --> 00:15:38,629
+yeah yeah i'm just talking about that uh
+look if there are enough of the
+
+600
+00:15:38,629 --> 00:15:38,639
+look if there are enough of the
+ 
+
+601
+00:15:38,639 --> 00:15:41,350
+look if there are enough of the
+look how many how many notes are there
+
+602
+00:15:41,350 --> 00:15:41,360
+look how many how many notes are there
+ 
+
+603
+00:15:41,360 --> 00:15:43,590
+look how many how many notes are there
+one two three four five six seven eight
+
+604
+00:15:43,590 --> 00:15:43,600
+one two three four five six seven eight
+ 
+
+605
+00:15:43,600 --> 00:15:44,470
+one two three four five six seven eight
+nine
+
+606
+00:15:44,470 --> 00:15:44,480
+nine
+ 
+
+607
+00:15:44,480 --> 00:15:47,110
+nine
+nine notes and there are four one two
+
+608
+00:15:47,110 --> 00:15:47,120
+nine notes and there are four one two
+ 
+
+609
+00:15:47,120 --> 00:15:48,710
+nine notes and there are four one two
+three four five
+
+610
+00:15:48,710 --> 00:15:48,720
+three four five
+ 
+
+611
+00:15:48,720 --> 00:15:51,269
+three four five
+five different levels of these notes so
+
+612
+00:15:51,269 --> 00:15:51,279
+five different levels of these notes so
+ 
+
+613
+00:15:51,279 --> 00:15:51,749
+five different levels of these notes so
+if we
+
+614
+00:15:51,749 --> 00:15:51,759
+if we
+ 
+
+615
+00:15:51,759 --> 00:15:57,430
+if we
+n minus divided by two plus one
+
+616
+00:15:57,430 --> 00:15:57,440
+n minus divided by two plus one
+ 
+
+617
+00:15:57,440 --> 00:16:01,590
+n minus divided by two plus one
+yeah so it's o n right do you get it
+
+618
+00:16:01,590 --> 00:16:01,600
+yeah so it's o n right do you get it
+ 
+
+619
+00:16:01,600 --> 00:16:05,030
+yeah so it's o n right do you get it
+oh n because in the worst case
+
+620
+00:16:05,030 --> 00:16:05,040
+oh n because in the worst case
+ 
+
+621
+00:16:05,040 --> 00:16:08,069
+oh n because in the worst case
+this kind of tree yeah you need
+
+622
+00:16:08,069 --> 00:16:08,079
+this kind of tree yeah you need
+ 
+
+623
+00:16:08,079 --> 00:16:11,670
+this kind of tree yeah you need
+at least on space to
+
+624
+00:16:11,670 --> 00:16:11,680
+at least on space to
+ 
+
+625
+00:16:11,680 --> 00:16:15,189
+at least on space to
+to keep the different numbers of
+
+626
+00:16:15,189 --> 00:16:15,199
+to keep the different numbers of
+ 
+
+627
+00:16:15,199 --> 00:16:18,629
+to keep the different numbers of
+representing the level of the leaf nodes
+
+628
+00:16:18,629 --> 00:16:18,639
+representing the level of the leaf nodes
+ 
+
+629
+00:16:18,639 --> 00:16:21,990
+representing the level of the leaf nodes
+right yeah okay okay so
+
+630
+00:16:21,990 --> 00:16:22,000
+right yeah okay okay so
+ 
+
+631
+00:16:22,000 --> 00:16:24,389
+right yeah okay okay so
+everyone do you want to do the quiz i
+
+632
+00:16:24,389 --> 00:16:24,399
+everyone do you want to do the quiz i
+ 
+
+633
+00:16:24,399 --> 00:16:25,430
+everyone do you want to do the quiz i
+erase some of it
+
+634
+00:16:25,430 --> 00:16:25,440
+erase some of it
+ 
+
+635
+00:16:25,440 --> 00:16:28,790
+erase some of it
+and then yeah you two as a team okay
+
+636
+00:16:28,790 --> 00:16:28,800
+and then yeah you two as a team okay
+ 
+
+637
+00:16:28,800 --> 00:16:31,749
+and then yeah you two as a team okay
+yeah you want to take a look yeah okay
+
+638
+00:16:31,749 --> 00:16:31,759
+yeah you want to take a look yeah okay
+ 
+
+639
+00:16:31,759 --> 00:16:32,310
+yeah you want to take a look yeah okay
+who don't
+
+640
+00:16:32,310 --> 00:16:32,320
+who don't
+ 
+
+641
+00:16:32,320 --> 00:16:38,230
+who don't
+do it first i thought
+
+642
+00:16:38,230 --> 00:16:38,240
+
+ 
+
+643
+00:16:38,240 --> 00:16:41,749
+
+okay close your eyes now close your eyes
+
+644
+00:16:41,749 --> 00:16:41,759
+okay close your eyes now close your eyes
+ 
+
+645
+00:16:41,759 --> 00:16:46,870
+okay close your eyes now close your eyes
+okay
+
+646
+00:16:46,870 --> 00:16:46,880
+
+ 
+
+647
+00:16:46,880 --> 00:16:59,509
+
+close your eyes
+
+648
+00:16:59,509 --> 00:16:59,519
+
+ 
+
+649
+00:16:59,519 --> 00:17:04,069
+
+okay there are two places
+
+650
+00:17:04,069 --> 00:17:04,079
+okay there are two places
+ 
+
+651
+00:17:04,079 --> 00:17:10,710
+okay there are two places
+[Laughter]
+
+652
+00:17:10,710 --> 00:17:10,720
+
+ 
+
+653
+00:17:10,720 --> 00:17:14,549
+
+[Music]
+
+654
+00:17:14,549 --> 00:17:14,559
+
+ 
+
+655
+00:17:14,559 --> 00:17:27,410
+
+left not right
+
+656
+00:17:27,410 --> 00:17:27,420
+
+ 
+
+657
+00:17:27,420 --> 00:17:45,430
+
+[Music]
+
+658
+00:17:45,430 --> 00:17:45,440
+
+ 
+
+659
+00:17:45,440 --> 00:17:48,549
+
+hey
+
+660
+00:17:48,549 --> 00:17:48,559
+
+ 
+
+661
+00:17:48,559 --> 00:17:50,310
+
+okay eric can you tell me what happened
+
+662
+00:17:50,310 --> 00:17:50,320
+okay eric can you tell me what happened
+ 
+
+663
+00:17:50,320 --> 00:17:51,909
+okay eric can you tell me what happened
+why why you put
+
+664
+00:17:51,909 --> 00:17:51,919
+why why you put
+ 
+
+665
+00:17:51,919 --> 00:17:55,270
+why why you put
+that fs little right thousand plus one
+
+666
+00:17:55,270 --> 00:17:55,280
+that fs little right thousand plus one
+ 
+
+667
+00:17:55,280 --> 00:18:03,029
+that fs little right thousand plus one
+what does it mean
+
+668
+00:18:03,029 --> 00:18:03,039
+
+ 
+
+669
+00:18:03,039 --> 00:18:04,710
+
+i know it's current plus one what does
+
+670
+00:18:04,710 --> 00:18:04,720
+i know it's current plus one what does
+ 
+
+671
+00:18:04,720 --> 00:18:06,950
+i know it's current plus one what does
+it mean
+
+672
+00:18:06,950 --> 00:18:06,960
+it mean
+ 
+
+673
+00:18:06,960 --> 00:18:08,549
+it mean
+because you go down and then what
+
+674
+00:18:08,549 --> 00:18:08,559
+because you go down and then what
+ 
+
+675
+00:18:08,559 --> 00:18:11,190
+because you go down and then what
+happens
+
+676
+00:18:11,190 --> 00:18:11,200
+
+ 
+
+677
+00:18:11,200 --> 00:18:13,430
+
+you go down level what happened to that
+
+678
+00:18:13,430 --> 00:18:13,440
+you go down level what happened to that
+ 
+
+679
+00:18:13,440 --> 00:18:15,830
+you go down level what happened to that
+current column will be
+
+680
+00:18:15,830 --> 00:18:15,840
+current column will be
+ 
+
+681
+00:18:15,840 --> 00:18:18,310
+current column will be
+add one yeah because it's calculated and
+
+682
+00:18:18,310 --> 00:18:18,320
+add one yeah because it's calculated and
+ 
+
+683
+00:18:18,320 --> 00:18:18,870
+add one yeah because it's calculated and
+what's the
+
+684
+00:18:18,870 --> 00:18:18,880
+what's the
+ 
+
+685
+00:18:18,880 --> 00:18:21,190
+what's the
+the last one return lengthy equals one
+
+686
+00:18:21,190 --> 00:18:21,200
+the last one return lengthy equals one
+ 
+
+687
+00:18:21,200 --> 00:18:23,550
+the last one return lengthy equals one
+what happened
+
+688
+00:18:23,550 --> 00:18:23,560
+what happened
+ 
+
+689
+00:18:23,560 --> 00:18:26,870
+what happened
+[Music]
+
+690
+00:18:26,870 --> 00:18:26,880
+
+ 
+
+691
+00:18:26,880 --> 00:18:30,150
+
+yeah equals equals one yeah what does it
+
+692
+00:18:30,150 --> 00:18:30,160
+yeah equals equals one yeah what does it
+ 
+
+693
+00:18:30,160 --> 00:18:31,830
+yeah equals equals one yeah what does it
+mean
+
+694
+00:18:31,830 --> 00:18:31,840
+mean
+ 
+
+695
+00:18:31,840 --> 00:18:35,270
+mean
+d what's t
+
+696
+00:18:35,270 --> 00:18:35,280
+
+ 
+
+697
+00:18:35,280 --> 00:18:38,549
+
+t what's the on the first line what's d
+
+698
+00:18:38,549 --> 00:18:38,559
+t what's the on the first line what's d
+ 
+
+699
+00:18:38,559 --> 00:18:41,990
+t what's the on the first line what's d
+the d the first line there's no d
+
+700
+00:18:41,990 --> 00:18:42,000
+the d the first line there's no d
+ 
+
+701
+00:18:42,000 --> 00:18:45,669
+the d the first line there's no d
+on what's t
+
+702
+00:18:45,669 --> 00:18:45,679
+
+ 
+
+703
+00:18:45,679 --> 00:18:48,950
+
+is x it's a set so lens t what does it
+
+704
+00:18:48,950 --> 00:18:48,960
+is x it's a set so lens t what does it
+ 
+
+705
+00:18:48,960 --> 00:18:49,430
+is x it's a set so lens t what does it
+mean
+
+706
+00:18:49,430 --> 00:18:49,440
+mean
+ 
+
+707
+00:18:49,440 --> 00:18:52,870
+mean
+we want to count harmony okay okay
+
+708
+00:18:52,870 --> 00:18:52,880
+we want to count harmony okay okay
+ 
+
+709
+00:18:52,880 --> 00:18:55,110
+we want to count harmony okay okay
+what's then t length what's the length
+
+710
+00:18:55,110 --> 00:18:55,120
+what's then t length what's the length
+ 
+
+711
+00:18:55,120 --> 00:18:56,310
+what's then t length what's the length
+function
+
+712
+00:18:56,310 --> 00:18:56,320
+function
+ 
+
+713
+00:18:56,320 --> 00:19:00,070
+function
+the length is the length
+
+714
+00:19:00,070 --> 00:19:00,080
+the length is the length
+ 
+
+715
+00:19:00,080 --> 00:19:01,830
+the length is the length
+to count how many numbers in the lens
+
+716
+00:19:01,830 --> 00:19:01,840
+to count how many numbers in the lens
+ 
+
+717
+00:19:01,840 --> 00:19:03,830
+to count how many numbers in the lens
+yeah i know if it's equals one that
+
+718
+00:19:03,830 --> 00:19:03,840
+yeah i know if it's equals one that
+ 
+
+719
+00:19:03,840 --> 00:19:04,310
+yeah i know if it's equals one that
+means
+
+720
+00:19:04,310 --> 00:19:04,320
+means
+ 
+
+721
+00:19:04,320 --> 00:19:06,150
+means
+there's only one element in the teeth
+
+722
+00:19:06,150 --> 00:19:06,160
+there's only one element in the teeth
+ 
+
+723
+00:19:06,160 --> 00:19:07,510
+there's only one element in the teeth
+right yeah
+
+724
+00:19:07,510 --> 00:19:07,520
+right yeah
+ 
+
+725
+00:19:07,520 --> 00:19:09,350
+right yeah
+what does it mean it means that all the
+
+726
+00:19:09,350 --> 00:19:09,360
+what does it mean it means that all the
+ 
+
+727
+00:19:09,360 --> 00:19:12,150
+what does it mean it means that all the
+lymph nodes are on the same level yeah
+
+728
+00:19:12,150 --> 00:19:12,160
+lymph nodes are on the same level yeah
+ 
+
+729
+00:19:12,160 --> 00:19:16,870
+lymph nodes are on the same level yeah
+yeah got it yeah okay
+
+730
+00:19:16,870 --> 00:19:16,880
+
+ 
+
+731
+00:19:16,880 --> 00:19:20,630
+
+okay that's it for today good job bye
+
+732
+00:19:20,630 --> 00:19:20,640
+okay that's it for today good job bye
+ 
+
+733
+00:19:20,640 --> 00:19:25,840
+okay that's it for today good job bye
+bye bye
+
