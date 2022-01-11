@@ -1,0 +1,3485 @@
+1
+00:00:00,000 --> 00:00:03,350
+
+hey hello hello hi
+
+2
+00:00:03,350 --> 00:00:03,360
+hey hello hello hi
+ 
+
+3
+00:00:03,360 --> 00:00:06,150
+hey hello hello hi
+mr and mr ryan how are you today cute
+
+4
+00:00:06,150 --> 00:00:06,160
+mr and mr ryan how are you today cute
+ 
+
+5
+00:00:06,160 --> 00:00:07,990
+mr and mr ryan how are you today cute
+okay so today another interesting
+
+6
+00:00:07,990 --> 00:00:08,000
+okay so today another interesting
+ 
+
+7
+00:00:08,000 --> 00:00:09,350
+okay so today another interesting
+problem which is called
+
+8
+00:00:09,350 --> 00:00:09,360
+problem which is called
+ 
+
+9
+00:00:09,360 --> 00:00:12,789
+problem which is called
+removing the duplicate letters character
+
+10
+00:00:12,789 --> 00:00:12,799
+removing the duplicate letters character
+ 
+
+11
+00:00:12,799 --> 00:00:15,030
+removing the duplicate letters character
+from a string for example
+
+12
+00:00:15,030 --> 00:00:15,040
+from a string for example
+ 
+
+13
+00:00:15,040 --> 00:00:20,550
+from a string for example
+b b a b c
+
+14
+00:00:20,550 --> 00:00:20,560
+
+ 
+
+15
+00:00:20,560 --> 00:00:23,189
+
+a okay so if you keep removing look
+
+16
+00:00:23,189 --> 00:00:23,199
+a okay so if you keep removing look
+ 
+
+17
+00:00:23,199 --> 00:00:25,509
+a okay so if you keep removing look
+there are duplicates
+
+18
+00:00:25,509 --> 00:00:25,519
+there are duplicates
+ 
+
+19
+00:00:25,519 --> 00:00:29,029
+there are duplicates
+look you're fine okay too deep okay
+
+20
+00:00:29,029 --> 00:00:29,039
+look you're fine okay too deep okay
+ 
+
+21
+00:00:29,039 --> 00:00:32,310
+look you're fine okay too deep okay
+so you know it will become a a b c
+
+22
+00:00:32,310 --> 00:00:32,320
+so you know it will become a a b c
+ 
+
+23
+00:00:32,320 --> 00:00:35,270
+so you know it will become a a b c
+and then look hey remove it so you
+
+24
+00:00:35,270 --> 00:00:35,280
+and then look hey remove it so you
+ 
+
+25
+00:00:35,280 --> 00:00:36,229
+and then look hey remove it so you
+become bc
+
+26
+00:00:36,229 --> 00:00:36,239
+become bc
+ 
+
+27
+00:00:36,239 --> 00:00:37,910
+become bc
+okay so i give you at least you need to
+
+28
+00:00:37,910 --> 00:00:37,920
+okay so i give you at least you need to
+ 
+
+29
+00:00:37,920 --> 00:00:39,670
+okay so i give you at least you need to
+tell me this
+
+30
+00:00:39,670 --> 00:00:39,680
+tell me this
+ 
+
+31
+00:00:39,680 --> 00:00:43,430
+tell me this
+okay just use a notebook not exactly but
+
+32
+00:00:43,430 --> 00:00:43,440
+okay just use a notebook not exactly but
+ 
+
+33
+00:00:43,440 --> 00:00:43,750
+okay just use a notebook not exactly but
+look
+
+34
+00:00:43,750 --> 00:00:43,760
+look
+ 
+
+35
+00:00:43,760 --> 00:00:46,229
+look
+if it's a pairing drum what will happen
+
+36
+00:00:46,229 --> 00:00:46,239
+if it's a pairing drum what will happen
+ 
+
+37
+00:00:46,239 --> 00:00:48,310
+if it's a pairing drum what will happen
+a a
+
+38
+00:00:48,310 --> 00:00:48,320
+a a
+ 
+
+39
+00:00:48,320 --> 00:00:51,430
+a a
+or maybe a b c c
+
+40
+00:00:51,430 --> 00:00:51,440
+or maybe a b c c
+ 
+
+41
+00:00:51,440 --> 00:00:54,470
+or maybe a b c c
+b a okay so what c c
+
+42
+00:00:54,470 --> 00:00:54,480
+b a okay so what c c
+ 
+
+43
+00:00:54,480 --> 00:00:57,670
+b a okay so what c c
+if it's definitely a b b a now look
+
+44
+00:00:57,670 --> 00:00:57,680
+if it's definitely a b b a now look
+ 
+
+45
+00:00:57,680 --> 00:00:59,670
+if it's definitely a b b a now look
+when you do this there will be abba and
+
+46
+00:00:59,670 --> 00:00:59,680
+when you do this there will be abba and
+ 
+
+47
+00:00:59,680 --> 00:01:01,830
+when you do this there will be abba and
+you can continue removing
+
+48
+00:01:01,830 --> 00:01:01,840
+you can continue removing
+ 
+
+49
+00:01:01,840 --> 00:01:05,109
+you can continue removing
+a b c d a yeah a b
+
+50
+00:01:05,109 --> 00:01:05,119
+a b c d a yeah a b
+ 
+
+51
+00:01:05,119 --> 00:01:08,550
+a b c d a yeah a b
+c b a then it will not be
+
+52
+00:01:08,550 --> 00:01:08,560
+c b a then it will not be
+ 
+
+53
+00:01:08,560 --> 00:01:10,550
+c b a then it will not be
+any anything because you can't remove
+
+54
+00:01:10,550 --> 00:01:10,560
+any anything because you can't remove
+ 
+
+55
+00:01:10,560 --> 00:01:12,230
+any anything because you can't remove
+any duplicator it's not duplicate
+
+56
+00:01:12,230 --> 00:01:12,240
+any duplicator it's not duplicate
+ 
+
+57
+00:01:12,240 --> 00:01:15,670
+any duplicator it's not duplicate
+only if it's a range penetrant and
+
+58
+00:01:15,670 --> 00:01:15,680
+only if it's a range penetrant and
+ 
+
+59
+00:01:15,680 --> 00:01:18,390
+only if it's a range penetrant and
+it's a even number and then you like
+
+60
+00:01:18,390 --> 00:01:18,400
+it's a even number and then you like
+ 
+
+61
+00:01:18,400 --> 00:01:20,469
+it's a even number and then you like
+this even number of pending drum
+
+62
+00:01:20,469 --> 00:01:20,479
+this even number of pending drum
+ 
+
+63
+00:01:20,479 --> 00:01:23,270
+this even number of pending drum
+and you can keep removing keep removing
+
+64
+00:01:23,270 --> 00:01:23,280
+and you can keep removing keep removing
+ 
+
+65
+00:01:23,280 --> 00:01:24,710
+and you can keep removing keep removing
+until it's empty okay
+
+66
+00:01:24,710 --> 00:01:24,720
+until it's empty okay
+ 
+
+67
+00:01:24,720 --> 00:01:27,510
+until it's empty okay
+so basically you're giving a string keep
+
+68
+00:01:27,510 --> 00:01:27,520
+so basically you're giving a string keep
+ 
+
+69
+00:01:27,520 --> 00:01:30,069
+so basically you're giving a string keep
+removing the duplicate
+
+70
+00:01:30,069 --> 00:01:30,079
+removing the duplicate
+ 
+
+71
+00:01:30,079 --> 00:01:33,910
+removing the duplicate
+two letters neighboring yeah sensitive
+
+72
+00:01:33,910 --> 00:01:33,920
+two letters neighboring yeah sensitive
+ 
+
+73
+00:01:33,920 --> 00:01:37,190
+two letters neighboring yeah sensitive
+letters and here you can't do it anymore
+
+74
+00:01:37,190 --> 00:01:37,200
+letters and here you can't do it anymore
+ 
+
+75
+00:01:37,200 --> 00:01:41,429
+letters and here you can't do it anymore
+correct so how can we do it any idea
+
+76
+00:01:41,429 --> 00:01:41,439
+correct so how can we do it any idea
+ 
+
+77
+00:01:41,439 --> 00:01:45,190
+correct so how can we do it any idea
+no why do i want to use a notebook cash
+
+78
+00:01:45,190 --> 00:01:45,200
+no why do i want to use a notebook cash
+ 
+
+79
+00:01:45,200 --> 00:01:48,469
+no why do i want to use a notebook cash
+how how would you do it no how would you
+
+80
+00:01:48,469 --> 00:01:48,479
+how how would you do it no how would you
+ 
+
+81
+00:01:48,479 --> 00:01:49,510
+how how would you do it no how would you
+do it i'm not
+
+82
+00:01:49,510 --> 00:01:49,520
+do it i'm not
+ 
+
+83
+00:01:49,520 --> 00:01:53,109
+do it i'm not
+asking how many moves i'm asking the
+
+84
+00:01:53,109 --> 00:01:53,119
+asking how many moves i'm asking the
+ 
+
+85
+00:01:53,119 --> 00:01:56,469
+asking how many moves i'm asking the
+final string so you actually need to
+
+86
+00:01:56,469 --> 00:01:56,479
+final string so you actually need to
+ 
+
+87
+00:01:56,479 --> 00:01:58,310
+final string so you actually need to
+search for the duplicate
+
+88
+00:01:58,310 --> 00:01:58,320
+search for the duplicate
+ 
+
+89
+00:01:58,320 --> 00:02:03,109
+search for the duplicate
+letters right yeah how to do it
+
+90
+00:02:03,109 --> 00:02:03,119
+letters right yeah how to do it
+ 
+
+91
+00:02:03,119 --> 00:02:06,230
+letters right yeah how to do it
+how to do it normally you know just
+
+92
+00:02:06,230 --> 00:02:06,240
+how to do it normally you know just
+ 
+
+93
+00:02:06,240 --> 00:02:08,389
+how to do it normally you know just
+intuitively the straightforward you
+
+94
+00:02:08,389 --> 00:02:08,399
+intuitively the straightforward you
+ 
+
+95
+00:02:08,399 --> 00:02:10,309
+intuitively the straightforward you
+don't have the first one
+
+96
+00:02:10,309 --> 00:02:10,319
+don't have the first one
+ 
+
+97
+00:02:10,319 --> 00:02:13,190
+don't have the first one
+you check the others if they're the same
+
+98
+00:02:13,190 --> 00:02:13,200
+you check the others if they're the same
+ 
+
+99
+00:02:13,200 --> 00:02:14,710
+you check the others if they're the same
+so basically you can do this
+
+100
+00:02:14,710 --> 00:02:14,720
+so basically you can do this
+ 
+
+101
+00:02:14,720 --> 00:02:17,670
+so basically you can do this
+checking in the same no you're the same
+
+102
+00:02:17,670 --> 00:02:17,680
+checking in the same no you're the same
+ 
+
+103
+00:02:17,680 --> 00:02:19,589
+checking in the same no you're the same
+then remove it yeah
+
+104
+00:02:19,589 --> 00:02:19,599
+then remove it yeah
+ 
+
+105
+00:02:19,599 --> 00:02:25,190
+then remove it yeah
+and then how about this a a
+
+106
+00:02:25,190 --> 00:02:25,200
+
+ 
+
+107
+00:02:25,200 --> 00:02:34,830
+
+can you go like that then no but this is
+
+108
+00:02:34,830 --> 00:02:34,840
+
+ 
+
+109
+00:02:34,840 --> 00:02:37,270
+
+removed
+
+110
+00:02:37,270 --> 00:02:37,280
+removed
+ 
+
+111
+00:02:37,280 --> 00:02:39,670
+removed
+the thing is when you get rid of this
+
+112
+00:02:39,670 --> 00:02:39,680
+the thing is when you get rid of this
+ 
+
+113
+00:02:39,680 --> 00:02:41,110
+the thing is when you get rid of this
+and then
+
+114
+00:02:41,110 --> 00:02:41,120
+and then
+ 
+
+115
+00:02:41,120 --> 00:02:42,869
+and then
+you need to remove this how would you
+
+116
+00:02:42,869 --> 00:02:42,879
+you need to remove this how would you
+ 
+
+117
+00:02:42,879 --> 00:02:44,630
+you need to remove this how would you
+able to remove this
+
+118
+00:02:44,630 --> 00:02:44,640
+able to remove this
+ 
+
+119
+00:02:44,640 --> 00:02:47,670
+able to remove this
+you just started again good point so
+
+120
+00:02:47,670 --> 00:02:47,680
+you just started again good point so
+ 
+
+121
+00:02:47,680 --> 00:02:49,430
+you just started again good point so
+basically you find any two
+
+122
+00:02:49,430 --> 00:02:49,440
+basically you find any two
+ 
+
+123
+00:02:49,440 --> 00:02:52,070
+basically you find any two
+you remove it and then the problem
+
+124
+00:02:52,070 --> 00:02:52,080
+you remove it and then the problem
+ 
+
+125
+00:02:52,080 --> 00:02:53,589
+you remove it and then the problem
+becomes smaller right
+
+126
+00:02:53,589 --> 00:02:53,599
+becomes smaller right
+ 
+
+127
+00:02:53,599 --> 00:02:55,910
+becomes smaller right
+yeah because you remove it it becomes
+
+128
+00:02:55,910 --> 00:02:55,920
+yeah because you remove it it becomes
+ 
+
+129
+00:02:55,920 --> 00:02:56,949
+yeah because you remove it it becomes
+aabc
+
+130
+00:02:56,949 --> 00:02:56,959
+aabc
+ 
+
+131
+00:02:56,959 --> 00:02:59,589
+aabc
+and how about we apply this algorithm to
+
+132
+00:02:59,589 --> 00:02:59,599
+and how about we apply this algorithm to
+ 
+
+133
+00:02:59,599 --> 00:03:01,190
+and how about we apply this algorithm to
+this new string again
+
+134
+00:03:01,190 --> 00:03:01,200
+this new string again
+ 
+
+135
+00:03:01,200 --> 00:03:04,070
+this new string again
+and here we can delete it so this looks
+
+136
+00:03:04,070 --> 00:03:04,080
+and here we can delete it so this looks
+ 
+
+137
+00:03:04,080 --> 00:03:06,309
+and here we can delete it so this looks
+okay you find two letters
+
+138
+00:03:06,309 --> 00:03:06,319
+okay you find two letters
+ 
+
+139
+00:03:06,319 --> 00:03:08,470
+okay you find two letters
+and then bc okay and then you can't
+
+140
+00:03:08,470 --> 00:03:08,480
+and then bc okay and then you can't
+ 
+
+141
+00:03:08,480 --> 00:03:10,390
+and then bc okay and then you can't
+remove it and we determine pc
+
+142
+00:03:10,390 --> 00:03:10,400
+remove it and we determine pc
+ 
+
+143
+00:03:10,400 --> 00:03:13,430
+remove it and we determine pc
+all right okay so let's try this
+
+144
+00:03:13,430 --> 00:03:13,440
+all right okay so let's try this
+ 
+
+145
+00:03:13,440 --> 00:03:16,630
+all right okay so let's try this
+problem define
+
+146
+00:03:16,630 --> 00:03:16,640
+problem define
+ 
+
+147
+00:03:16,640 --> 00:03:19,830
+problem define
+let's do it f okay f s
+
+148
+00:03:19,830 --> 00:03:19,840
+let's do it f okay f s
+ 
+
+149
+00:03:19,840 --> 00:03:23,270
+let's do it f okay f s
+what's missing
+
+150
+00:03:23,270 --> 00:03:23,280
+
+ 
+
+151
+00:03:23,280 --> 00:03:28,470
+
+try to be more upbeat okay so look
+
+152
+00:03:28,470 --> 00:03:28,480
+
+ 
+
+153
+00:03:28,480 --> 00:03:35,270
+
+it might not work and equals
+
+154
+00:03:35,270 --> 00:03:35,280
+
+ 
+
+155
+00:03:35,280 --> 00:03:38,710
+
+yeah okay then let's start from
+
+156
+00:03:38,710 --> 00:03:38,720
+yeah okay then let's start from
+ 
+
+157
+00:03:38,720 --> 00:03:44,229
+yeah okay then let's start from
+i in range it might not work
+
+158
+00:03:44,229 --> 00:03:44,239
+
+ 
+
+159
+00:03:44,239 --> 00:03:47,470
+
+look why it might not work because
+
+160
+00:03:47,470 --> 00:03:47,480
+look why it might not work because
+ 
+
+161
+00:03:47,480 --> 00:03:49,550
+look why it might not work because
+b-a-c-a
+
+162
+00:03:49,550 --> 00:03:49,560
+b-a-c-a
+ 
+
+163
+00:03:49,560 --> 00:03:52,550
+b-a-c-a
+b-a-c-a what then you'll return just
+
+164
+00:03:52,550 --> 00:03:52,560
+b-a-c-a what then you'll return just
+ 
+
+165
+00:03:52,560 --> 00:03:54,550
+b-a-c-a what then you'll return just
+lieutenant original because look you
+
+166
+00:03:54,550 --> 00:03:54,560
+lieutenant original because look you
+ 
+
+167
+00:03:54,560 --> 00:03:56,550
+lieutenant original because look you
+can't find any two duplicates
+
+168
+00:03:56,550 --> 00:03:56,560
+can't find any two duplicates
+ 
+
+169
+00:03:56,560 --> 00:04:04,149
+can't find any two duplicates
+yeah and you can say
+
+170
+00:04:04,149 --> 00:04:04,159
+
+ 
+
+171
+00:04:04,159 --> 00:04:07,910
+
+they have to be next to each other
+
+172
+00:04:07,910 --> 00:04:07,920
+they have to be next to each other
+ 
+
+173
+00:04:07,920 --> 00:04:11,110
+they have to be next to each other
+oh yeah okay okay so look i need that
+
+174
+00:04:11,110 --> 00:04:11,120
+oh yeah okay okay so look i need that
+ 
+
+175
+00:04:11,120 --> 00:04:14,070
+oh yeah okay okay so look i need that
+one so we start from the first integer
+
+176
+00:04:14,070 --> 00:04:14,080
+one so we start from the first integer
+ 
+
+177
+00:04:14,080 --> 00:04:15,190
+one so we start from the first integer
+first one we forgot
+
+178
+00:04:15,190 --> 00:04:15,200
+first one we forgot
+ 
+
+179
+00:04:15,200 --> 00:04:18,550
+first one we forgot
+column yeah yeah look everything so a a
+
+180
+00:04:18,550 --> 00:04:18,560
+column yeah yeah look everything so a a
+ 
+
+181
+00:04:18,560 --> 00:04:21,830
+column yeah yeah look everything so a a
+b c a okay so we start from one so
+
+182
+00:04:21,830 --> 00:04:21,840
+b c a okay so we start from one so
+ 
+
+183
+00:04:21,840 --> 00:04:24,629
+b c a okay so we start from one so
+we start i from one one yeah but we
+
+184
+00:04:24,629 --> 00:04:24,639
+we start i from one one yeah but we
+ 
+
+185
+00:04:24,639 --> 00:04:25,110
+we start i from one one yeah but we
+checked
+
+186
+00:04:25,110 --> 00:04:25,120
+checked
+ 
+
+187
+00:04:25,120 --> 00:04:28,710
+checked
+its previous one yeah right yeah
+
+188
+00:04:28,710 --> 00:04:28,720
+its previous one yeah right yeah
+ 
+
+189
+00:04:28,720 --> 00:04:31,749
+its previous one yeah right yeah
+so if s i equals
+
+190
+00:04:31,749 --> 00:04:31,759
+so if s i equals
+ 
+
+191
+00:04:31,759 --> 00:04:35,590
+so if s i equals
+s i minus one column yeah look
+
+192
+00:04:35,590 --> 00:04:35,600
+s i minus one column yeah look
+ 
+
+193
+00:04:35,600 --> 00:04:39,189
+s i minus one column yeah look
+if this character is is the same as its
+
+194
+00:04:39,189 --> 00:04:39,199
+if this character is is the same as its
+ 
+
+195
+00:04:39,199 --> 00:04:41,749
+if this character is is the same as its
+previous one which is i minus one yeah
+
+196
+00:04:41,749 --> 00:04:41,759
+previous one which is i minus one yeah
+ 
+
+197
+00:04:41,759 --> 00:04:45,030
+previous one which is i minus one yeah
+that was what happened we can call this
+
+198
+00:04:45,030 --> 00:04:45,040
+that was what happened we can call this
+ 
+
+199
+00:04:45,040 --> 00:04:46,950
+that was what happened we can call this
+cell 7 we can
+
+200
+00:04:46,950 --> 00:04:46,960
+cell 7 we can
+ 
+
+201
+00:04:46,960 --> 00:04:50,070
+cell 7 we can
+why isn't the first one look look
+
+202
+00:04:50,070 --> 00:04:50,080
+why isn't the first one look look
+ 
+
+203
+00:04:50,080 --> 00:04:53,270
+why isn't the first one look look
+sorry y i is a first one i
+
+204
+00:04:53,270 --> 00:04:53,280
+sorry y i is a first one i
+ 
+
+205
+00:04:53,280 --> 00:04:55,830
+sorry y i is a first one i
+this is one this is yellow one we start
+
+206
+00:04:55,830 --> 00:04:55,840
+this is one this is yellow one we start
+ 
+
+207
+00:04:55,840 --> 00:04:56,469
+this is one this is yellow one we start
+from i
+
+208
+00:04:56,469 --> 00:04:56,479
+from i
+ 
+
+209
+00:04:56,479 --> 00:04:58,950
+from i
+you know because we want to check next
+
+210
+00:04:58,950 --> 00:04:58,960
+you know because we want to check next
+ 
+
+211
+00:04:58,960 --> 00:05:00,390
+you know because we want to check next
+previous one right
+
+212
+00:05:00,390 --> 00:05:00,400
+previous one right
+ 
+
+213
+00:05:00,400 --> 00:05:04,550
+previous one right
+look this is the same look if i
+
+214
+00:05:04,550 --> 00:05:04,560
+look this is the same look if i
+ 
+
+215
+00:05:04,560 --> 00:05:07,830
+look this is the same look if i
+is smaller than i minus one okay so what
+
+216
+00:05:07,830 --> 00:05:07,840
+is smaller than i minus one okay so what
+ 
+
+217
+00:05:07,840 --> 00:05:08,870
+is smaller than i minus one okay so what
+happens
+
+218
+00:05:08,870 --> 00:05:08,880
+happens
+ 
+
+219
+00:05:08,880 --> 00:05:10,550
+happens
+so for example there are another
+
+220
+00:05:10,550 --> 00:05:10,560
+so for example there are another
+ 
+
+221
+00:05:10,560 --> 00:05:11,909
+so for example there are another
+character here okay so
+
+222
+00:05:11,909 --> 00:05:11,919
+character here okay so
+ 
+
+223
+00:05:11,919 --> 00:05:14,790
+character here okay so
+we want to skip these two right yeah we
+
+224
+00:05:14,790 --> 00:05:14,800
+we want to skip these two right yeah we
+ 
+
+225
+00:05:14,800 --> 00:05:16,150
+we want to skip these two right yeah we
+want to peel the string c
+
+226
+00:05:16,150 --> 00:05:16,160
+want to peel the string c
+ 
+
+227
+00:05:16,160 --> 00:05:19,350
+want to peel the string c
+b c a right on opca which is nothing
+
+228
+00:05:19,350 --> 00:05:19,360
+b c a right on opca which is nothing
+ 
+
+229
+00:05:19,360 --> 00:05:23,189
+b c a right on opca which is nothing
+so return what f this look we're calling
+
+230
+00:05:23,189 --> 00:05:23,199
+so return what f this look we're calling
+ 
+
+231
+00:05:23,199 --> 00:05:23,990
+so return what f this look we're calling
+itself to solve
+
+232
+00:05:23,990 --> 00:05:24,000
+itself to solve
+ 
+
+233
+00:05:24,000 --> 00:05:25,749
+itself to solve
+a smaller problem we allow these two
+
+234
+00:05:25,749 --> 00:05:25,759
+a smaller problem we allow these two
+ 
+
+235
+00:05:25,759 --> 00:05:27,510
+a smaller problem we allow these two
+characters all right
+
+236
+00:05:27,510 --> 00:05:27,520
+characters all right
+ 
+
+237
+00:05:27,520 --> 00:05:31,029
+characters all right
+yeah so that would be s
+
+238
+00:05:31,029 --> 00:05:31,039
+yeah so that would be s
+ 
+
+239
+00:05:31,039 --> 00:05:34,150
+yeah so that would be s
+column column yeah i minus one
+
+240
+00:05:34,150 --> 00:05:34,160
+column column yeah i minus one
+ 
+
+241
+00:05:34,160 --> 00:05:36,550
+column column yeah i minus one
+so that's the previous part i minus one
+
+242
+00:05:36,550 --> 00:05:36,560
+so that's the previous part i minus one
+ 
+
+243
+00:05:36,560 --> 00:05:37,590
+so that's the previous part i minus one
+plus
+
+244
+00:05:37,590 --> 00:05:37,600
+plus
+ 
+
+245
+00:05:37,600 --> 00:05:42,710
+plus
+s this is i yeah i plus one yeah
+
+246
+00:05:42,710 --> 00:05:42,720
+s this is i yeah i plus one yeah
+ 
+
+247
+00:05:42,720 --> 00:05:44,629
+s this is i yeah i plus one yeah
+column yeah it means to start from i
+
+248
+00:05:44,629 --> 00:05:44,639
+column yeah it means to start from i
+ 
+
+249
+00:05:44,639 --> 00:05:45,990
+column yeah it means to start from i
+plus one to the n
+
+250
+00:05:45,990 --> 00:05:46,000
+plus one to the n
+ 
+
+251
+00:05:46,000 --> 00:05:48,150
+plus one to the n
+this is mean from beginning to i minus
+
+252
+00:05:48,150 --> 00:05:48,160
+this is mean from beginning to i minus
+ 
+
+253
+00:05:48,160 --> 00:05:49,350
+this is mean from beginning to i minus
+one yeah
+
+254
+00:05:49,350 --> 00:05:49,360
+one yeah
+ 
+
+255
+00:05:49,360 --> 00:05:51,670
+one yeah
+all right so calling itself to solve a
+
+256
+00:05:51,670 --> 00:05:51,680
+all right so calling itself to solve a
+ 
+
+257
+00:05:51,680 --> 00:05:53,749
+all right so calling itself to solve a
+smaller problem yeah
+
+258
+00:05:53,749 --> 00:05:53,759
+smaller problem yeah
+ 
+
+259
+00:05:53,759 --> 00:05:55,749
+smaller problem yeah
+and then if if you reach this end what
+
+260
+00:05:55,749 --> 00:05:55,759
+and then if if you reach this end what
+ 
+
+261
+00:05:55,759 --> 00:05:56,870
+and then if if you reach this end what
+should we return
+
+262
+00:05:56,870 --> 00:05:56,880
+should we return
+ 
+
+263
+00:05:56,880 --> 00:05:58,390
+should we return
+can you tell me what should we return
+
+264
+00:05:58,390 --> 00:05:58,400
+can you tell me what should we return
+ 
+
+265
+00:05:58,400 --> 00:06:01,189
+can you tell me what should we return
+here guess well i am way
+
+266
+00:06:01,189 --> 00:06:01,199
+here guess well i am way
+ 
+
+267
+00:06:01,199 --> 00:06:09,920
+here guess well i am way
+so no look and return
+
+268
+00:06:09,920 --> 00:06:09,930
+
+ 
+
+269
+00:06:09,930 --> 00:06:13,990
+
+[Music]
+
+270
+00:06:13,990 --> 00:06:14,000
+
+ 
+
+271
+00:06:14,000 --> 00:06:16,390
+
+look if you find if you can't find any
+
+272
+00:06:16,390 --> 00:06:16,400
+look if you find if you can't find any
+ 
+
+273
+00:06:16,400 --> 00:06:18,230
+look if you find if you can't find any
+any two characters yeah
+
+274
+00:06:18,230 --> 00:06:18,240
+any two characters yeah
+ 
+
+275
+00:06:18,240 --> 00:06:20,469
+any two characters yeah
+and this will not get into the this
+
+276
+00:06:20,469 --> 00:06:20,479
+and this will not get into the this
+ 
+
+277
+00:06:20,479 --> 00:06:21,749
+and this will not get into the this
+eighth chair yeah
+
+278
+00:06:21,749 --> 00:06:21,759
+eighth chair yeah
+ 
+
+279
+00:06:21,759 --> 00:06:24,230
+eighth chair yeah
+yes yeah and that will happen we can as
+
+280
+00:06:24,230 --> 00:06:24,240
+yes yeah and that will happen we can as
+ 
+
+281
+00:06:24,240 --> 00:06:25,510
+yes yeah and that will happen we can as
+just written simply as
+
+282
+00:06:25,510 --> 00:06:25,520
+just written simply as
+ 
+
+283
+00:06:25,520 --> 00:06:29,830
+just written simply as
+a copy of s yes what's the capacity
+
+284
+00:06:29,830 --> 00:06:29,840
+a copy of s yes what's the capacity
+ 
+
+285
+00:06:29,840 --> 00:06:33,270
+a copy of s yes what's the capacity
+sorry o n no
+
+286
+00:06:33,270 --> 00:06:33,280
+sorry o n no
+ 
+
+287
+00:06:33,280 --> 00:06:36,070
+sorry o n no
+this this is a single loop but how about
+
+288
+00:06:36,070 --> 00:06:36,080
+this this is a single loop but how about
+ 
+
+289
+00:06:36,080 --> 00:06:36,309
+this this is a single loop but how about
+it
+
+290
+00:06:36,309 --> 00:06:36,319
+it
+ 
+
+291
+00:06:36,319 --> 00:06:39,590
+it
+look look okay oh and square where's
+
+292
+00:06:39,590 --> 00:06:39,600
+look look okay oh and square where's
+ 
+
+293
+00:06:39,600 --> 00:06:40,150
+look look okay oh and square where's
+that
+
+294
+00:06:40,150 --> 00:06:40,160
+that
+ 
+
+295
+00:06:40,160 --> 00:06:45,029
+that
+one look at
+
+296
+00:06:45,029 --> 00:06:45,039
+one look at
+ 
+
+297
+00:06:45,039 --> 00:06:48,150
+one look at
+abc cbi look i tell you why it's a n
+
+298
+00:06:48,150 --> 00:06:48,160
+abc cbi look i tell you why it's a n
+ 
+
+299
+00:06:48,160 --> 00:06:51,110
+abc cbi look i tell you why it's a n
+square look quadratic look yeah look
+
+300
+00:06:51,110 --> 00:06:51,120
+square look quadratic look yeah look
+ 
+
+301
+00:06:51,120 --> 00:06:53,029
+square look quadratic look yeah look
+it's a square
+
+302
+00:06:53,029 --> 00:06:53,039
+it's a square
+ 
+
+303
+00:06:53,039 --> 00:06:56,070
+it's a square
+n look yeah this is calling itself and
+
+304
+00:06:56,070 --> 00:06:56,080
+n look yeah this is calling itself and
+ 
+
+305
+00:06:56,080 --> 00:06:56,790
+n look yeah this is calling itself and
+look look
+
+306
+00:06:56,790 --> 00:06:56,800
+look look
+ 
+
+307
+00:06:56,800 --> 00:06:59,589
+look look
+a b c okay i find a duplicate yeah yeah
+
+308
+00:06:59,589 --> 00:06:59,599
+a b c okay i find a duplicate yeah yeah
+ 
+
+309
+00:06:59,599 --> 00:07:03,909
+a b c okay i find a duplicate yeah yeah
+i find that duplicated
+
+310
+00:07:03,909 --> 00:07:03,919
+
+ 
+
+311
+00:07:03,919 --> 00:07:05,430
+
+but i need to go start from the
+
+312
+00:07:05,430 --> 00:07:05,440
+but i need to go start from the
+ 
+
+313
+00:07:05,440 --> 00:07:07,110
+but i need to go start from the
+beginning to check these again
+
+314
+00:07:07,110 --> 00:07:07,120
+beginning to check these again
+ 
+
+315
+00:07:07,120 --> 00:07:09,990
+beginning to check these again
+right yeah every time you need to go n
+
+316
+00:07:09,990 --> 00:07:10,000
+right yeah every time you need to go n
+ 
+
+317
+00:07:10,000 --> 00:07:11,110
+right yeah every time you need to go n
+to go and go and
+
+318
+00:07:11,110 --> 00:07:11,120
+to go and go and
+ 
+
+319
+00:07:11,120 --> 00:07:13,589
+to go and go and
+then let n times then there will be n
+
+320
+00:07:13,589 --> 00:07:13,599
+then let n times then there will be n
+ 
+
+321
+00:07:13,599 --> 00:07:15,990
+then let n times then there will be n
+squared in a scale n square okay
+
+322
+00:07:15,990 --> 00:07:16,000
+squared in a scale n square okay
+ 
+
+323
+00:07:16,000 --> 00:07:19,830
+squared in a scale n square okay
+can we do better can we do better
+
+324
+00:07:19,830 --> 00:07:19,840
+can we do better can we do better
+ 
+
+325
+00:07:19,840 --> 00:07:21,749
+can we do better can we do better
+do we need to actually we want it
+
+326
+00:07:21,749 --> 00:07:21,759
+do we need to actually we want it
+ 
+
+327
+00:07:21,759 --> 00:07:23,670
+do we need to actually we want it
+because the problem is that when you
+
+328
+00:07:23,670 --> 00:07:23,680
+because the problem is that when you
+ 
+
+329
+00:07:23,680 --> 00:07:27,189
+because the problem is that when you
+do this a b c b c b a
+
+330
+00:07:27,189 --> 00:07:27,199
+do this a b c b c b a
+ 
+
+331
+00:07:27,199 --> 00:07:30,309
+do this a b c b c b a
+when you find this duplicate right you
+
+332
+00:07:30,309 --> 00:07:30,319
+when you find this duplicate right you
+ 
+
+333
+00:07:30,319 --> 00:07:32,710
+when you find this duplicate right you
+are rewinding to from the beginning yeah
+
+334
+00:07:32,710 --> 00:07:32,720
+are rewinding to from the beginning yeah
+ 
+
+335
+00:07:32,720 --> 00:07:33,749
+are rewinding to from the beginning yeah
+if there are any
+
+336
+00:07:33,749 --> 00:07:33,759
+if there are any
+ 
+
+337
+00:07:33,759 --> 00:07:35,909
+if there are any
+characters there you need to go back and
+
+338
+00:07:35,909 --> 00:07:35,919
+characters there you need to go back and
+ 
+
+339
+00:07:35,919 --> 00:07:37,189
+characters there you need to go back and
+then do it again
+
+340
+00:07:37,189 --> 00:07:37,199
+then do it again
+ 
+
+341
+00:07:37,199 --> 00:07:40,070
+then do it again
+but actually we don't need to right yes
+
+342
+00:07:40,070 --> 00:07:40,080
+but actually we don't need to right yes
+ 
+
+343
+00:07:40,080 --> 00:07:42,469
+but actually we don't need to right yes
+we just need to go back to once yeah
+
+344
+00:07:42,469 --> 00:07:42,479
+we just need to go back to once yeah
+ 
+
+345
+00:07:42,479 --> 00:07:44,469
+we just need to go back to once yeah
+because look this is delete and we just
+
+346
+00:07:44,469 --> 00:07:44,479
+because look this is delete and we just
+ 
+
+347
+00:07:44,479 --> 00:07:46,390
+because look this is delete and we just
+need to find out the previous one if his
+
+348
+00:07:46,390 --> 00:07:46,400
+need to find out the previous one if his
+ 
+
+349
+00:07:46,400 --> 00:07:47,350
+need to find out the previous one if his
+next one
+
+350
+00:07:47,350 --> 00:07:47,360
+next one
+ 
+
+351
+00:07:47,360 --> 00:07:49,350
+next one
+if it's then we remove it and keep
+
+352
+00:07:49,350 --> 00:07:49,360
+if it's then we remove it and keep
+ 
+
+353
+00:07:49,360 --> 00:07:50,550
+if it's then we remove it and keep
+removing yeah
+
+354
+00:07:50,550 --> 00:07:50,560
+removing yeah
+ 
+
+355
+00:07:50,560 --> 00:07:52,070
+removing yeah
+do you get it if there are lots of
+
+356
+00:07:52,070 --> 00:07:52,080
+do you get it if there are lots of
+ 
+
+357
+00:07:52,080 --> 00:07:53,909
+do you get it if there are lots of
+characters here and then you have
+
+358
+00:07:53,909 --> 00:07:53,919
+characters here and then you have
+ 
+
+359
+00:07:53,919 --> 00:07:56,869
+characters here and then you have
+bb here right these are not they are not
+
+360
+00:07:56,869 --> 00:07:56,879
+bb here right these are not they are not
+ 
+
+361
+00:07:56,879 --> 00:07:59,029
+bb here right these are not they are not
+duplicate numbers here
+
+362
+00:07:59,029 --> 00:07:59,039
+duplicate numbers here
+ 
+
+363
+00:07:59,039 --> 00:08:02,869
+duplicate numbers here
+yeah if you find these two the same
+
+364
+00:08:02,869 --> 00:08:02,879
+yeah if you find these two the same
+ 
+
+365
+00:08:02,879 --> 00:08:03,990
+yeah if you find these two the same
+you don't need to go back to the
+
+366
+00:08:03,990 --> 00:08:04,000
+you don't need to go back to the
+ 
+
+367
+00:08:04,000 --> 00:08:05,589
+you don't need to go back to the
+beginning to check please because you
+
+368
+00:08:05,589 --> 00:08:05,599
+beginning to check please because you
+ 
+
+369
+00:08:05,599 --> 00:08:07,270
+beginning to check please because you
+already know
+
+370
+00:08:07,270 --> 00:08:07,280
+already know
+ 
+
+371
+00:08:07,280 --> 00:08:09,350
+already know
+if there's no duplicate all right yeah
+
+372
+00:08:09,350 --> 00:08:09,360
+if there's no duplicate all right yeah
+ 
+
+373
+00:08:09,360 --> 00:08:11,270
+if there's no duplicate all right yeah
+the only difference is this one previous
+
+374
+00:08:11,270 --> 00:08:11,280
+the only difference is this one previous
+ 
+
+375
+00:08:11,280 --> 00:08:14,629
+the only difference is this one previous
+one could be the same as the next one
+
+376
+00:08:14,629 --> 00:08:14,639
+one could be the same as the next one
+ 
+
+377
+00:08:14,639 --> 00:08:16,790
+one could be the same as the next one
+does it make sense yeah does it make
+
+378
+00:08:16,790 --> 00:08:16,800
+does it make sense yeah does it make
+ 
+
+379
+00:08:16,800 --> 00:08:18,390
+does it make sense yeah does it make
+sense yeah
+
+380
+00:08:18,390 --> 00:08:18,400
+sense yeah
+ 
+
+381
+00:08:18,400 --> 00:08:21,749
+sense yeah
+so we can use the data structure called
+
+382
+00:08:21,749 --> 00:08:21,759
+so we can use the data structure called
+ 
+
+383
+00:08:21,759 --> 00:08:25,029
+so we can use the data structure called
+call stack look what's that
+
+384
+00:08:25,029 --> 00:08:25,039
+call stack look what's that
+ 
+
+385
+00:08:25,039 --> 00:08:26,309
+call stack look what's that
+can you can you remind me what's
+
+386
+00:08:26,309 --> 00:08:26,319
+can you can you remind me what's
+ 
+
+387
+00:08:26,319 --> 00:08:30,070
+can you can you remind me what's
+happening
+
+388
+00:08:30,070 --> 00:08:30,080
+
+ 
+
+389
+00:08:30,080 --> 00:08:31,990
+
+first thing that's stopped okay so look
+
+390
+00:08:31,990 --> 00:08:32,000
+first thing that's stopped okay so look
+ 
+
+391
+00:08:32,000 --> 00:08:33,670
+first thing that's stopped okay so look
+i have a stack
+
+392
+00:08:33,670 --> 00:08:33,680
+i have a stack
+ 
+
+393
+00:08:33,680 --> 00:08:37,190
+i have a stack
+yeah look look a b
+
+394
+00:08:37,190 --> 00:08:37,200
+yeah look look a b
+ 
+
+395
+00:08:37,200 --> 00:08:40,870
+yeah look look a b
+c uh cba okay
+
+396
+00:08:40,870 --> 00:08:40,880
+c uh cba okay
+ 
+
+397
+00:08:40,880 --> 00:08:43,589
+c uh cba okay
+yeah look at this this string okay i
+
+398
+00:08:43,589 --> 00:08:43,599
+yeah look at this this string okay i
+ 
+
+399
+00:08:43,599 --> 00:08:44,389
+yeah look at this this string okay i
+have a stack
+
+400
+00:08:44,389 --> 00:08:44,399
+have a stack
+ 
+
+401
+00:08:44,399 --> 00:08:47,990
+have a stack
+okay i have a stack
+
+402
+00:08:47,990 --> 00:08:48,000
+okay i have a stack
+ 
+
+403
+00:08:48,000 --> 00:08:51,430
+okay i have a stack
+okay hey hey look everything
+
+404
+00:08:51,430 --> 00:08:51,440
+okay hey hey look everything
+ 
+
+405
+00:08:51,440 --> 00:08:55,430
+okay hey hey look everything
+yeah i look at the string i here s i
+
+406
+00:08:55,430 --> 00:08:55,440
+yeah i look at the string i here s i
+ 
+
+407
+00:08:55,440 --> 00:08:58,790
+yeah i look at the string i here s i
+a is it the same as as the previous
+
+408
+00:08:58,790 --> 00:08:58,800
+a is it the same as as the previous
+ 
+
+409
+00:08:58,800 --> 00:09:00,870
+a is it the same as as the previous
+as the top of the stack the stack is
+
+410
+00:09:00,870 --> 00:09:00,880
+as the top of the stack the stack is
+ 
+
+411
+00:09:00,880 --> 00:09:02,150
+as the top of the stack the stack is
+empty now right
+
+412
+00:09:02,150 --> 00:09:02,160
+empty now right
+ 
+
+413
+00:09:02,160 --> 00:09:05,269
+empty now right
+so it's not the same i push it here
+
+414
+00:09:05,269 --> 00:09:05,279
+so it's not the same i push it here
+ 
+
+415
+00:09:05,279 --> 00:09:07,990
+so it's not the same i push it here
+yeah put a stack here look look at this
+
+416
+00:09:07,990 --> 00:09:08,000
+yeah put a stack here look look at this
+ 
+
+417
+00:09:08,000 --> 00:09:09,030
+yeah put a stack here look look at this
+step yeah
+
+418
+00:09:09,030 --> 00:09:09,040
+step yeah
+ 
+
+419
+00:09:09,040 --> 00:09:12,710
+step yeah
+and i move it to here is b
+
+420
+00:09:12,710 --> 00:09:12,720
+and i move it to here is b
+ 
+
+421
+00:09:12,720 --> 00:09:16,070
+and i move it to here is b
+the same as a no no i put it push
+
+422
+00:09:16,070 --> 00:09:16,080
+the same as a no no i put it push
+ 
+
+423
+00:09:16,080 --> 00:09:19,190
+the same as a no no i put it push
+in b yeah look then c c
+
+424
+00:09:19,190 --> 00:09:19,200
+in b yeah look then c c
+ 
+
+425
+00:09:19,200 --> 00:09:22,230
+in b yeah look then c c
+is is it the same as the top of step
+
+426
+00:09:22,230 --> 00:09:22,240
+is is it the same as the top of step
+ 
+
+427
+00:09:22,240 --> 00:09:26,310
+is is it the same as the top of step
+no i push it in c okay and then look
+
+428
+00:09:26,310 --> 00:09:26,320
+no i push it in c okay and then look
+ 
+
+429
+00:09:26,320 --> 00:09:29,190
+no i push it in c okay and then look
+you see top look the same as the top of
+
+430
+00:09:29,190 --> 00:09:29,200
+you see top look the same as the top of
+ 
+
+431
+00:09:29,200 --> 00:09:30,710
+you see top look the same as the top of
+the stack
+
+432
+00:09:30,710 --> 00:09:30,720
+the stack
+ 
+
+433
+00:09:30,720 --> 00:09:34,310
+the stack
+yes then what do we do we take out
+
+434
+00:09:34,310 --> 00:09:34,320
+yes then what do we do we take out
+ 
+
+435
+00:09:34,320 --> 00:09:36,790
+yes then what do we do we take out
+love it out yeah we eat it we eat it and
+
+436
+00:09:36,790 --> 00:09:36,800
+love it out yeah we eat it we eat it and
+ 
+
+437
+00:09:36,800 --> 00:09:38,070
+love it out yeah we eat it we eat it and
+then we keep going
+
+438
+00:09:38,070 --> 00:09:38,080
+then we keep going
+ 
+
+439
+00:09:38,080 --> 00:09:41,190
+then we keep going
+look the top of that then i'm b we are b
+
+440
+00:09:41,190 --> 00:09:41,200
+look the top of that then i'm b we are b
+ 
+
+441
+00:09:41,200 --> 00:09:45,110
+look the top of that then i'm b we are b
+now it's b the tuple of step yeah
+
+442
+00:09:45,110 --> 00:09:45,120
+now it's b the tuple of step yeah
+ 
+
+443
+00:09:45,120 --> 00:09:49,030
+now it's b the tuple of step yeah
+i eat it and i move it to a it's a
+
+444
+00:09:49,030 --> 00:09:49,040
+i eat it and i move it to a it's a
+ 
+
+445
+00:09:49,040 --> 00:09:53,430
+i eat it and i move it to a it's a
+topless deck yeah okay so let's
+
+446
+00:09:53,430 --> 00:09:53,440
+topless deck yeah okay so let's
+ 
+
+447
+00:09:53,440 --> 00:09:55,110
+topless deck yeah okay so let's
+put nothing look look if there are
+
+448
+00:09:55,110 --> 00:09:55,120
+put nothing look look if there are
+ 
+
+449
+00:09:55,120 --> 00:09:56,470
+put nothing look look if there are
+anything there like d
+
+450
+00:09:56,470 --> 00:09:56,480
+anything there like d
+ 
+
+451
+00:09:56,480 --> 00:09:59,190
+anything there like d
+here and then go here it's b component
+
+452
+00:09:59,190 --> 00:09:59,200
+here and then go here it's b component
+ 
+
+453
+00:09:59,200 --> 00:10:00,470
+here and then go here it's b component
+the simulator is that
+
+454
+00:10:00,470 --> 00:10:00,480
+the simulator is that
+ 
+
+455
+00:10:00,480 --> 00:10:03,590
+the simulator is that
+no i push it in d okay
+
+456
+00:10:03,590 --> 00:10:03,600
+no i push it in d okay
+ 
+
+457
+00:10:03,600 --> 00:10:08,710
+no i push it in d okay
+so the answer would be in a step
+
+458
+00:10:08,710 --> 00:10:08,720
+so the answer would be in a step
+ 
+
+459
+00:10:08,720 --> 00:10:11,750
+so the answer would be in a step
+bad yeah okay so
+
+460
+00:10:11,750 --> 00:10:11,760
+bad yeah okay so
+ 
+
+461
+00:10:11,760 --> 00:10:14,310
+bad yeah okay so
+look let's let's do this another e here
+
+462
+00:10:14,310 --> 00:10:14,320
+look let's let's do this another e here
+ 
+
+463
+00:10:14,320 --> 00:10:15,350
+look let's let's do this another e here
+so you'll be
+
+464
+00:10:15,350 --> 00:10:15,360
+so you'll be
+ 
+
+465
+00:10:15,360 --> 00:10:23,750
+so you'll be
+you'll be look e
+
+466
+00:10:23,750 --> 00:10:23,760
+
+ 
+
+467
+00:10:23,760 --> 00:10:26,790
+
+yeah b i eat it a i eat it
+
+468
+00:10:26,790 --> 00:10:26,800
+yeah b i eat it a i eat it
+ 
+
+469
+00:10:26,800 --> 00:10:30,790
+yeah b i eat it a i eat it
+b i push it in so the answer will be e b
+
+470
+00:10:30,790 --> 00:10:30,800
+b i push it in so the answer will be e b
+ 
+
+471
+00:10:30,800 --> 00:10:33,350
+b i push it in so the answer will be e b
+when you when you pop out let's reverse
+
+472
+00:10:33,350 --> 00:10:33,360
+when you when you pop out let's reverse
+ 
+
+473
+00:10:33,360 --> 00:10:35,990
+when you when you pop out let's reverse
+all the time
+
+474
+00:10:35,990 --> 00:10:36,000
+
+ 
+
+475
+00:10:36,000 --> 00:10:39,190
+
+in okay so
+
+476
+00:10:39,190 --> 00:10:39,200
+in okay so
+ 
+
+477
+00:10:39,200 --> 00:10:41,350
+in okay so
+look we can do this yeah we can do a
+
+478
+00:10:41,350 --> 00:10:41,360
+look we can do this yeah we can do a
+ 
+
+479
+00:10:41,360 --> 00:10:42,389
+look we can do this yeah we can do a
+list
+
+480
+00:10:42,389 --> 00:10:42,399
+list
+ 
+
+481
+00:10:42,399 --> 00:10:45,829
+list
+and then in each in python we can use
+
+482
+00:10:45,829 --> 00:10:45,839
+and then in each in python we can use
+ 
+
+483
+00:10:45,839 --> 00:10:47,509
+and then in each in python we can use
+the list to
+
+484
+00:10:47,509 --> 00:10:47,519
+the list to
+ 
+
+485
+00:10:47,519 --> 00:10:51,030
+the list to
+at least at least to to simulate the
+
+486
+00:10:51,030 --> 00:10:51,040
+at least at least to to simulate the
+ 
+
+487
+00:10:51,040 --> 00:10:54,870
+at least at least to to simulate the
+stack yeah okay all right
+
+488
+00:10:54,870 --> 00:10:54,880
+stack yeah okay all right
+ 
+
+489
+00:10:54,880 --> 00:10:58,829
+stack yeah okay all right
+invite this a little bit look
+
+490
+00:10:58,829 --> 00:10:58,839
+
+ 
+
+491
+00:10:58,839 --> 00:11:02,150
+
+step step equals look
+
+492
+00:11:02,150 --> 00:11:02,160
+step step equals look
+ 
+
+493
+00:11:02,160 --> 00:11:04,790
+step step equals look
+yeah this is empty stack yeah at least
+
+494
+00:11:04,790 --> 00:11:04,800
+yeah this is empty stack yeah at least
+ 
+
+495
+00:11:04,800 --> 00:11:06,230
+yeah this is empty stack yeah at least
+empty stack
+
+496
+00:11:06,230 --> 00:11:06,240
+empty stack
+ 
+
+497
+00:11:06,240 --> 00:11:09,590
+empty stack
+four
+
+498
+00:11:09,590 --> 00:11:09,600
+
+ 
+
+499
+00:11:09,600 --> 00:11:13,350
+
+x what's called what's missing here okay
+
+500
+00:11:13,350 --> 00:11:13,360
+x what's called what's missing here okay
+ 
+
+501
+00:11:13,360 --> 00:11:16,389
+x what's called what's missing here okay
+look if we said we need to get ahead of
+
+502
+00:11:16,389 --> 00:11:16,399
+look if we said we need to get ahead of
+ 
+
+503
+00:11:16,399 --> 00:11:16,790
+look if we said we need to get ahead of
+that
+
+504
+00:11:16,790 --> 00:11:16,800
+that
+ 
+
+505
+00:11:16,800 --> 00:11:19,910
+that
+step but if if the stack is empty we
+
+506
+00:11:19,910 --> 00:11:19,920
+step but if if the stack is empty we
+ 
+
+507
+00:11:19,920 --> 00:11:21,670
+step but if if the stack is empty we
+we don't want to get it yeah because if
+
+508
+00:11:21,670 --> 00:11:21,680
+we don't want to get it yeah because if
+ 
+
+509
+00:11:21,680 --> 00:11:23,590
+we don't want to get it yeah because if
+the stack is empty there's no way to get
+
+510
+00:11:23,590 --> 00:11:23,600
+the stack is empty there's no way to get
+ 
+
+511
+00:11:23,600 --> 00:11:24,470
+the stack is empty there's no way to get
+the top of step
+
+512
+00:11:24,470 --> 00:11:24,480
+the top of step
+ 
+
+513
+00:11:24,480 --> 00:11:37,350
+the top of step
+right so we need to say if then
+
+514
+00:11:37,350 --> 00:11:37,360
+
+ 
+
+515
+00:11:37,360 --> 00:11:40,470
+
+i is not equal
+
+516
+00:11:40,470 --> 00:11:40,480
+i is not equal
+ 
+
+517
+00:11:40,480 --> 00:11:43,269
+i is not equal
+to to the top of the stack what's the
+
+518
+00:11:43,269 --> 00:11:43,279
+to to the top of the stack what's the
+ 
+
+519
+00:11:43,279 --> 00:11:44,470
+to to the top of the stack what's the
+top of the stack
+
+520
+00:11:44,470 --> 00:11:44,480
+top of the stack
+ 
+
+521
+00:11:44,480 --> 00:11:47,190
+top of the stack
+so it's look thing look look at i minus
+
+522
+00:11:47,190 --> 00:11:47,200
+so it's look thing look look at i minus
+ 
+
+523
+00:11:47,200 --> 00:11:47,829
+so it's look thing look look at i minus
+i
+
+524
+00:11:47,829 --> 00:11:47,839
+i
+ 
+
+525
+00:11:47,839 --> 00:11:50,710
+i
+b c you push it to abc what's the top of
+
+526
+00:11:50,710 --> 00:11:50,720
+b c you push it to abc what's the top of
+ 
+
+527
+00:11:50,720 --> 00:11:51,590
+b c you push it to abc what's the top of
+the stack
+
+528
+00:11:51,590 --> 00:11:51,600
+the stack
+ 
+
+529
+00:11:51,600 --> 00:11:54,790
+the stack
+c or a c yeah you just looking this way
+
+530
+00:11:54,790 --> 00:11:54,800
+c or a c yeah you just looking this way
+ 
+
+531
+00:11:54,800 --> 00:11:57,590
+c or a c yeah you just looking this way
+you push d let d will be the top step
+
+532
+00:11:57,590 --> 00:11:57,600
+you push d let d will be the top step
+ 
+
+533
+00:11:57,600 --> 00:11:58,150
+you push d let d will be the top step
+yeah
+
+534
+00:11:58,150 --> 00:11:58,160
+yeah
+ 
+
+535
+00:11:58,160 --> 00:12:01,190
+yeah
+rotating 90 degree yeah okay if i
+
+536
+00:12:01,190 --> 00:12:01,200
+rotating 90 degree yeah okay if i
+ 
+
+537
+00:12:01,200 --> 00:12:05,750
+rotating 90 degree yeah okay if i
+know not equal to st minus one yeah
+
+538
+00:12:05,750 --> 00:12:05,760
+know not equal to st minus one yeah
+ 
+
+539
+00:12:05,760 --> 00:12:08,949
+know not equal to st minus one yeah
+if the step is empty or the top is not
+
+540
+00:12:08,949 --> 00:12:08,959
+if the step is empty or the top is not
+ 
+
+541
+00:12:08,959 --> 00:12:11,670
+if the step is empty or the top is not
+equal to the new element we push it in
+
+542
+00:12:11,670 --> 00:12:11,680
+equal to the new element we push it in
+ 
+
+543
+00:12:11,680 --> 00:12:12,310
+equal to the new element we push it in
+right so
+
+544
+00:12:12,310 --> 00:12:12,320
+right so
+ 
+
+545
+00:12:12,320 --> 00:12:15,430
+right so
+st dot append all right
+
+546
+00:12:15,430 --> 00:12:15,440
+st dot append all right
+ 
+
+547
+00:12:15,440 --> 00:12:19,110
+st dot append all right
+okay what open what depend
+
+548
+00:12:19,110 --> 00:12:19,120
+okay what open what depend
+ 
+
+549
+00:12:19,120 --> 00:12:28,000
+okay what open what depend
+what i i we're done yes
+
+550
+00:12:28,000 --> 00:12:28,010
+
+ 
+
+551
+00:12:28,010 --> 00:12:37,110
+
+[Music]
+
+552
+00:12:37,110 --> 00:12:37,120
+
+ 
+
+553
+00:12:37,120 --> 00:12:41,590
+
+is not empty yeah it's not empty
+
+554
+00:12:41,590 --> 00:12:41,600
+is not empty yeah it's not empty
+ 
+
+555
+00:12:41,600 --> 00:12:44,710
+is not empty yeah it's not empty
+and and i
+
+556
+00:12:44,710 --> 00:12:44,720
+and and i
+ 
+
+557
+00:12:44,720 --> 00:12:46,870
+and and i
+equals to the top of the stack reversely
+
+558
+00:12:46,870 --> 00:12:46,880
+equals to the top of the stack reversely
+ 
+
+559
+00:12:46,880 --> 00:12:47,829
+equals to the top of the stack reversely
+object yeah
+
+560
+00:12:47,829 --> 00:12:47,839
+object yeah
+ 
+
+561
+00:12:47,839 --> 00:12:51,910
+object yeah
+then we need to pop it yeah pop it pop
+
+562
+00:12:51,910 --> 00:12:51,920
+then we need to pop it yeah pop it pop
+ 
+
+563
+00:12:51,920 --> 00:12:52,790
+then we need to pop it yeah pop it pop
+so probably
+
+564
+00:12:52,790 --> 00:12:52,800
+so probably
+ 
+
+565
+00:12:52,800 --> 00:12:56,310
+so probably
+look at a b c look at now
+
+566
+00:12:56,310 --> 00:12:56,320
+look at a b c look at now
+ 
+
+567
+00:12:56,320 --> 00:12:59,590
+look at a b c look at now
+now the next thing you see yeah c
+
+568
+00:12:59,590 --> 00:12:59,600
+now the next thing you see yeah c
+ 
+
+569
+00:12:59,600 --> 00:13:03,350
+now the next thing you see yeah c
+is the same as the top of the stack
+
+570
+00:13:03,350 --> 00:13:03,360
+is the same as the top of the stack
+ 
+
+571
+00:13:03,360 --> 00:13:06,069
+is the same as the top of the stack
+we don't need to pop i because pop is
+
+572
+00:13:06,069 --> 00:13:06,079
+we don't need to pop i because pop is
+ 
+
+573
+00:13:06,079 --> 00:13:06,790
+we don't need to pop i because pop is
+just
+
+574
+00:13:06,790 --> 00:13:06,800
+just
+ 
+
+575
+00:13:06,800 --> 00:13:08,710
+just
+by default just getting rid of the last
+
+576
+00:13:08,710 --> 00:13:08,720
+by default just getting rid of the last
+ 
+
+577
+00:13:08,720 --> 00:13:10,470
+by default just getting rid of the last
+element of this
+
+578
+00:13:10,470 --> 00:13:10,480
+element of this
+ 
+
+579
+00:13:10,480 --> 00:13:12,710
+element of this
+array which means the top of the step
+
+580
+00:13:12,710 --> 00:13:12,720
+array which means the top of the step
+ 
+
+581
+00:13:12,720 --> 00:13:13,750
+array which means the top of the step
+hey else column
+
+582
+00:13:13,750 --> 00:13:13,760
+hey else column
+ 
+
+583
+00:13:13,760 --> 00:13:17,750
+hey else column
+yeah st dot one we need to now
+
+584
+00:13:17,750 --> 00:13:17,760
+yeah st dot one we need to now
+ 
+
+585
+00:13:17,760 --> 00:13:20,470
+yeah st dot one we need to now
+if this is d we need to push it in so
+
+586
+00:13:20,470 --> 00:13:20,480
+if this is d we need to push it in so
+ 
+
+587
+00:13:20,480 --> 00:13:23,269
+if this is d we need to push it in so
+apparent open what
+
+588
+00:13:23,269 --> 00:13:23,279
+apparent open what
+ 
+
+589
+00:13:23,279 --> 00:13:26,710
+apparent open what
+open what okay what's s
+
+590
+00:13:26,710 --> 00:13:26,720
+open what okay what's s
+ 
+
+591
+00:13:26,720 --> 00:13:30,150
+open what okay what's s
+i open i okay now
+
+592
+00:13:30,150 --> 00:13:30,160
+i open i okay now
+ 
+
+593
+00:13:30,160 --> 00:13:34,230
+i open i okay now
+for example the last one is abc yeah
+
+594
+00:13:34,230 --> 00:13:34,240
+for example the last one is abc yeah
+ 
+
+595
+00:13:34,240 --> 00:13:37,350
+for example the last one is abc yeah
+abc we want to look yeah
+
+596
+00:13:37,350 --> 00:13:37,360
+abc we want to look yeah
+ 
+
+597
+00:13:37,360 --> 00:13:40,629
+abc we want to look yeah
+okay look look
+
+598
+00:13:40,629 --> 00:13:40,639
+okay look look
+ 
+
+599
+00:13:40,639 --> 00:13:43,750
+okay look look
+look now suppose the final stack
+
+600
+00:13:43,750 --> 00:13:43,760
+look now suppose the final stack
+ 
+
+601
+00:13:43,760 --> 00:13:47,030
+look now suppose the final stack
+is a b c let's stay so what's the final
+
+602
+00:13:47,030 --> 00:13:47,040
+is a b c let's stay so what's the final
+ 
+
+603
+00:13:47,040 --> 00:13:49,350
+is a b c let's stay so what's the final
+string is it cba or abc
+
+604
+00:13:49,350 --> 00:13:49,360
+string is it cba or abc
+ 
+
+605
+00:13:49,360 --> 00:13:52,790
+string is it cba or abc
+abc abc yeah so now this is an array we
+
+606
+00:13:52,790 --> 00:13:52,800
+abc abc yeah so now this is an array we
+ 
+
+607
+00:13:52,800 --> 00:13:53,350
+abc abc yeah so now this is an array we
+want to
+
+608
+00:13:53,350 --> 00:13:53,360
+want to
+ 
+
+609
+00:13:53,360 --> 00:13:56,389
+want to
+make abc into a string abc remember we
+
+610
+00:13:56,389 --> 00:13:56,399
+make abc into a string abc remember we
+ 
+
+611
+00:13:56,399 --> 00:14:02,310
+make abc into a string abc remember we
+talked about a method called join
+
+612
+00:14:02,310 --> 00:14:02,320
+
+ 
+
+613
+00:14:02,320 --> 00:14:06,470
+
+yeah return we wanted to join by empty
+
+614
+00:14:06,470 --> 00:14:06,480
+yeah return we wanted to join by empty
+ 
+
+615
+00:14:06,480 --> 00:14:06,870
+yeah return we wanted to join by empty
+string
+
+616
+00:14:06,870 --> 00:14:06,880
+string
+ 
+
+617
+00:14:06,880 --> 00:14:10,069
+string
+dot join look join what
+
+618
+00:14:10,069 --> 00:14:10,079
+dot join look join what
+ 
+
+619
+00:14:10,079 --> 00:14:12,870
+dot join look join what
+join us there okay so rainbow look every
+
+620
+00:14:12,870 --> 00:14:12,880
+join us there okay so rainbow look every
+ 
+
+621
+00:14:12,880 --> 00:14:13,509
+join us there okay so rainbow look every
+look
+
+622
+00:14:13,509 --> 00:14:13,519
+look
+ 
+
+623
+00:14:13,519 --> 00:14:17,509
+look
+all right so look
+
+624
+00:14:17,509 --> 00:14:17,519
+all right so look
+ 
+
+625
+00:14:17,519 --> 00:14:21,430
+all right so look
+a b c this is a list if i
+
+626
+00:14:21,430 --> 00:14:21,440
+a b c this is a list if i
+ 
+
+627
+00:14:21,440 --> 00:14:23,910
+a b c this is a list if i
+if i got space don't join then i'll
+
+628
+00:14:23,910 --> 00:14:23,920
+if i got space don't join then i'll
+ 
+
+629
+00:14:23,920 --> 00:14:24,870
+if i got space don't join then i'll
+become a b c
+
+630
+00:14:24,870 --> 00:14:24,880
+become a b c
+ 
+
+631
+00:14:24,880 --> 00:14:29,189
+become a b c
+yeah e okay
+
+632
+00:14:29,189 --> 00:14:29,199
+
+ 
+
+633
+00:14:29,199 --> 00:14:35,690
+
+what's the time complexity
+
+634
+00:14:35,690 --> 00:14:35,700
+
+ 
+
+635
+00:14:35,700 --> 00:14:37,910
+
+[Music]
+
+636
+00:14:37,910 --> 00:14:37,920
+[Music]
+ 
+
+637
+00:14:37,920 --> 00:14:40,389
+[Music]
+we are using a data structure but we go
+
+638
+00:14:40,389 --> 00:14:40,399
+we are using a data structure but we go
+ 
+
+639
+00:14:40,399 --> 00:14:41,910
+we are using a data structure but we go
+going through the string
+
+640
+00:14:41,910 --> 00:14:41,920
+going through the string
+ 
+
+641
+00:14:41,920 --> 00:14:45,030
+going through the string
+once or twice or ten times
+
+642
+00:14:45,030 --> 00:14:45,040
+once or twice or ten times
+ 
+
+643
+00:14:45,040 --> 00:14:48,790
+once or twice or ten times
+o n square o n times n
+
+644
+00:14:48,790 --> 00:14:48,800
+o n square o n times n
+ 
+
+645
+00:14:48,800 --> 00:14:51,030
+o n square o n times n
+we are going through this a b c only
+
+646
+00:14:51,030 --> 00:14:51,040
+we are going through this a b c only
+ 
+
+647
+00:14:51,040 --> 00:14:52,710
+we are going through this a b c only
+once so what's the
+
+648
+00:14:52,710 --> 00:14:52,720
+once so what's the
+ 
+
+649
+00:14:52,720 --> 00:14:55,030
+once so what's the
+o m right because we don't need to go
+
+650
+00:14:55,030 --> 00:14:55,040
+o m right because we don't need to go
+ 
+
+651
+00:14:55,040 --> 00:14:55,829
+o m right because we don't need to go
+back right
+
+652
+00:14:55,829 --> 00:14:55,839
+back right
+ 
+
+653
+00:14:55,839 --> 00:14:59,509
+back right
+look h yeah look previously
+
+654
+00:14:59,509 --> 00:14:59,519
+look h yeah look previously
+ 
+
+655
+00:14:59,519 --> 00:15:02,310
+look h yeah look previously
+previously eric previously when we
+
+656
+00:15:02,310 --> 00:15:02,320
+previously eric previously when we
+ 
+
+657
+00:15:02,320 --> 00:15:03,030
+previously eric previously when we
+raised the
+
+658
+00:15:03,030 --> 00:15:03,040
+raised the
+ 
+
+659
+00:15:03,040 --> 00:15:05,110
+raised the
+character we need to go back again right
+
+660
+00:15:05,110 --> 00:15:05,120
+character we need to go back again right
+ 
+
+661
+00:15:05,120 --> 00:15:07,110
+character we need to go back again right
+when are we finished
+
+662
+00:15:07,110 --> 00:15:07,120
+when are we finished
+ 
+
+663
+00:15:07,120 --> 00:15:09,590
+when are we finished
+soon okay but now we don't need to we
+
+664
+00:15:09,590 --> 00:15:09,600
+soon okay but now we don't need to we
+ 
+
+665
+00:15:09,600 --> 00:15:11,430
+soon okay but now we don't need to we
+don't need to
+
+666
+00:15:11,430 --> 00:15:11,440
+don't need to
+ 
+
+667
+00:15:11,440 --> 00:15:13,910
+don't need to
+go back all right yeah yeah for all the
+
+668
+00:15:13,910 --> 00:15:13,920
+go back all right yeah yeah for all the
+ 
+
+669
+00:15:13,920 --> 00:15:17,350
+go back all right yeah yeah for all the
+only time what's the space complexity
+
+670
+00:15:17,350 --> 00:15:17,360
+only time what's the space complexity
+ 
+
+671
+00:15:17,360 --> 00:15:20,389
+only time what's the space complexity
+why is someone eating
+
+672
+00:15:20,389 --> 00:15:20,399
+why is someone eating
+ 
+
+673
+00:15:20,399 --> 00:15:22,389
+why is someone eating
+using one yeah we're done because we're
+
+674
+00:15:22,389 --> 00:15:22,399
+using one yeah we're done because we're
+ 
+
+675
+00:15:22,399 --> 00:15:24,230
+using one yeah we're done because we're
+using stack in the worst case
+
+676
+00:15:24,230 --> 00:15:24,240
+using stack in the worst case
+ 
+
+677
+00:15:24,240 --> 00:15:26,230
+using stack in the worst case
+the stack will contain all the n
+
+678
+00:15:26,230 --> 00:15:26,240
+the stack will contain all the n
+ 
+
+679
+00:15:26,240 --> 00:15:27,670
+the stack will contain all the n
+characters in the string
+
+680
+00:15:27,670 --> 00:15:27,680
+characters in the string
+ 
+
+681
+00:15:27,680 --> 00:15:30,790
+characters in the string
+if they are non characters to be
+
+682
+00:15:30,790 --> 00:15:30,800
+if they are non characters to be
+ 
+
+683
+00:15:30,800 --> 00:15:33,430
+if they are non characters to be
+uh next to each other the same right all
+
+684
+00:15:33,430 --> 00:15:33,440
+uh next to each other the same right all
+ 
+
+685
+00:15:33,440 --> 00:15:33,829
+uh next to each other the same right all
+right
+
+686
+00:15:33,829 --> 00:15:33,839
+right
+ 
+
+687
+00:15:33,839 --> 00:15:37,030
+right
+so that's the worst cases uh
+
+688
+00:15:37,030 --> 00:15:37,040
+so that's the worst cases uh
+ 
+
+689
+00:15:37,040 --> 00:15:39,749
+so that's the worst cases uh
+yeah that's it that's it for today [ __ ]
+
+690
+00:15:39,749 --> 00:15:39,759
+yeah that's it that's it for today [ __ ]
+ 
+
+691
+00:15:39,759 --> 00:15:41,350
+yeah that's it that's it for today [ __ ]
+[ __ ]
+
+692
+00:15:41,350 --> 00:15:41,360
+[ __ ]
+ 
+
+693
+00:15:41,360 --> 00:15:43,910
+[ __ ]
+no no no no no no night time no no no
+
+694
+00:15:43,910 --> 00:15:43,920
+no no no no no no night time no no no
+ 
+
+695
+00:15:43,920 --> 00:15:45,870
+no no no no no no night time no no no
+that's it
+
+696
+00:15:45,870 --> 00:15:45,880
+that's it
+ 
+
+697
+00:15:45,880 --> 00:15:48,880
+that's it
+bye-bye
+

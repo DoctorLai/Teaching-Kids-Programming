@@ -1,0 +1,7655 @@
+1
+00:00:00,240 --> 00:00:03,830
+
+go hello hello hello
+
+2
+00:00:03,830 --> 00:00:03,840
+go hello hello hello
+ 
+
+3
+00:00:03,840 --> 00:00:06,230
+go hello hello hello
+mr ryan hello how are you today it's
+
+4
+00:00:06,230 --> 00:00:06,240
+mr ryan hello how are you today it's
+ 
+
+5
+00:00:06,240 --> 00:00:07,110
+mr ryan hello how are you today it's
+good
+
+6
+00:00:07,110 --> 00:00:07,120
+good
+ 
+
+7
+00:00:07,120 --> 00:00:09,270
+good
+okay so remember yesterday we talked
+
+8
+00:00:09,270 --> 00:00:09,280
+okay so remember yesterday we talked
+ 
+
+9
+00:00:09,280 --> 00:00:11,030
+okay so remember yesterday we talked
+about dynamic programming yeah we have
+
+10
+00:00:11,030 --> 00:00:11,040
+about dynamic programming yeah we have
+ 
+
+11
+00:00:11,040 --> 00:00:12,709
+about dynamic programming yeah we have
+been talking about dynamic programming
+
+12
+00:00:12,709 --> 00:00:12,719
+been talking about dynamic programming
+ 
+
+13
+00:00:12,719 --> 00:00:14,310
+been talking about dynamic programming
+for a few days
+
+14
+00:00:14,310 --> 00:00:14,320
+for a few days
+ 
+
+15
+00:00:14,320 --> 00:00:15,990
+for a few days
+and yesterday we talked about using
+
+16
+00:00:15,990 --> 00:00:16,000
+and yesterday we talked about using
+ 
+
+17
+00:00:16,000 --> 00:00:17,990
+and yesterday we talked about using
+dynamic programming to climb the stairs
+
+18
+00:00:17,990 --> 00:00:18,000
+dynamic programming to climb the stairs
+ 
+
+19
+00:00:18,000 --> 00:00:21,109
+dynamic programming to climb the stairs
+all right okay so now today another
+
+20
+00:00:21,109 --> 00:00:21,119
+all right okay so now today another
+ 
+
+21
+00:00:21,119 --> 00:00:22,470
+all right okay so now today another
+interesting problem
+
+22
+00:00:22,470 --> 00:00:22,480
+interesting problem
+ 
+
+23
+00:00:22,480 --> 00:00:24,790
+interesting problem
+okay so suppose there's a street yeah a
+
+24
+00:00:24,790 --> 00:00:24,800
+okay so suppose there's a street yeah a
+ 
+
+25
+00:00:24,800 --> 00:00:25,670
+okay so suppose there's a street yeah a
+street
+
+26
+00:00:25,670 --> 00:00:25,680
+street
+ 
+
+27
+00:00:25,680 --> 00:00:28,830
+street
+a street i'm in a car no and there's a
+
+28
+00:00:28,830 --> 00:00:28,840
+a street i'm in a car no and there's a
+ 
+
+29
+00:00:28,840 --> 00:00:30,150
+a street i'm in a car no and there's a
+house
+
+30
+00:00:30,150 --> 00:00:30,160
+house
+ 
+
+31
+00:00:30,160 --> 00:00:33,910
+house
+one house two hours smooth
+
+32
+00:00:33,910 --> 00:00:33,920
+one house two hours smooth
+ 
+
+33
+00:00:33,920 --> 00:00:35,750
+one house two hours smooth
+how house it could be on the street the
+
+34
+00:00:35,750 --> 00:00:35,760
+how house it could be on the street the
+ 
+
+35
+00:00:35,760 --> 00:00:43,110
+how house it could be on the street the
+cars would just smash into it
+
+36
+00:00:43,110 --> 00:00:43,120
+
+ 
+
+37
+00:00:43,120 --> 00:00:45,590
+
+they have to have yeah okay that's
+
+38
+00:00:45,590 --> 00:00:45,600
+they have to have yeah okay that's
+ 
+
+39
+00:00:45,600 --> 00:00:47,270
+they have to have yeah okay that's
+that's fine that's fine
+
+40
+00:00:47,270 --> 00:00:47,280
+that's fine that's fine
+ 
+
+41
+00:00:47,280 --> 00:00:51,590
+that's fine that's fine
+so suppose
+
+42
+00:00:51,590 --> 00:00:51,600
+
+ 
+
+43
+00:00:51,600 --> 00:00:54,709
+
+suppose there are six houses and
+
+44
+00:00:54,709 --> 00:00:54,719
+suppose there are six houses and
+ 
+
+45
+00:00:54,719 --> 00:00:57,830
+suppose there are six houses and
+for each house there are some money in
+
+46
+00:00:57,830 --> 00:00:57,840
+for each house there are some money in
+ 
+
+47
+00:00:57,840 --> 00:00:58,150
+for each house there are some money in
+there
+
+48
+00:00:58,150 --> 00:00:58,160
+there
+ 
+
+49
+00:00:58,160 --> 00:01:00,709
+there
+okay you know some goods yeah and we use
+
+50
+00:01:00,709 --> 00:01:00,719
+okay you know some goods yeah and we use
+ 
+
+51
+00:01:00,719 --> 00:01:02,069
+okay you know some goods yeah and we use
+the number integer
+
+52
+00:01:02,069 --> 00:01:02,079
+the number integer
+ 
+
+53
+00:01:02,079 --> 00:01:05,109
+the number integer
+for example to to represent how
+
+54
+00:01:05,109 --> 00:01:05,119
+for example to to represent how
+ 
+
+55
+00:01:05,119 --> 00:01:08,070
+for example to to represent how
+uh how much money he has yeah for
+
+56
+00:01:08,070 --> 00:01:08,080
+uh how much money he has yeah for
+ 
+
+57
+00:01:08,080 --> 00:01:08,469
+uh how much money he has yeah for
+example
+
+58
+00:01:08,469 --> 00:01:08,479
+example
+ 
+
+59
+00:01:08,479 --> 00:01:13,830
+example
+five three two one ten
+
+60
+00:01:13,830 --> 00:01:13,840
+five three two one ten
+ 
+
+61
+00:01:13,840 --> 00:01:17,109
+five three two one ten
+six okay
+
+62
+00:01:17,109 --> 00:01:17,119
+
+ 
+
+63
+00:01:17,119 --> 00:01:20,469
+
+yeah yes and suppose
+
+64
+00:01:20,469 --> 00:01:20,479
+yeah yes and suppose
+ 
+
+65
+00:01:20,479 --> 00:01:22,789
+yeah yes and suppose
+suppose a rock a rock rubber you know
+
+66
+00:01:22,789 --> 00:01:22,799
+suppose a rock a rock rubber you know
+ 
+
+67
+00:01:22,799 --> 00:01:23,510
+suppose a rock a rock rubber you know
+the rubber
+
+68
+00:01:23,510 --> 00:01:23,520
+the rubber
+ 
+
+69
+00:01:23,520 --> 00:01:26,149
+the rubber
+yeah rubber which is a bad guy yeah
+
+70
+00:01:26,149 --> 00:01:26,159
+yeah rubber which is a bad guy yeah
+ 
+
+71
+00:01:26,159 --> 00:01:26,870
+yeah rubber which is a bad guy yeah
+robert
+
+72
+00:01:26,870 --> 00:01:26,880
+robert
+ 
+
+73
+00:01:26,880 --> 00:01:30,230
+robert
+yeah and one one night very quiet
+
+74
+00:01:30,230 --> 00:01:30,240
+yeah and one one night very quiet
+ 
+
+75
+00:01:30,240 --> 00:01:32,469
+yeah and one one night very quiet
+tonight he decides he or she
+
+76
+00:01:32,469 --> 00:01:32,479
+tonight he decides he or she
+ 
+
+77
+00:01:32,479 --> 00:01:35,749
+tonight he decides he or she
+decides to uh drop
+
+78
+00:01:35,749 --> 00:01:35,759
+decides to uh drop
+ 
+
+79
+00:01:35,759 --> 00:01:39,910
+decides to uh drop
+those values the goods in this street
+
+80
+00:01:39,910 --> 00:01:39,920
+those values the goods in this street
+ 
+
+81
+00:01:39,920 --> 00:01:42,950
+those values the goods in this street
+in the house on this street yeah but the
+
+82
+00:01:42,950 --> 00:01:42,960
+in the house on this street yeah but the
+ 
+
+83
+00:01:42,960 --> 00:01:44,230
+in the house on this street yeah but the
+thing is that if
+
+84
+00:01:44,230 --> 00:01:44,240
+thing is that if
+ 
+
+85
+00:01:44,240 --> 00:01:47,590
+thing is that if
+he robbed this house he take this money
+
+86
+00:01:47,590 --> 00:01:47,600
+he robbed this house he take this money
+ 
+
+87
+00:01:47,600 --> 00:01:51,670
+he robbed this house he take this money
+yeah and if he or she take this money
+
+88
+00:01:51,670 --> 00:01:51,680
+yeah and if he or she take this money
+ 
+
+89
+00:01:51,680 --> 00:01:53,670
+yeah and if he or she take this money
+then the police will be notified because
+
+90
+00:01:53,670 --> 00:01:53,680
+then the police will be notified because
+ 
+
+91
+00:01:53,680 --> 00:01:55,749
+then the police will be notified because
+then if there are two
+
+92
+00:01:55,749 --> 00:01:55,759
+then if there are two
+ 
+
+93
+00:01:55,759 --> 00:01:58,950
+then if there are two
+to neighbor neighboring house yeah
+
+94
+00:01:58,950 --> 00:01:58,960
+to neighbor neighboring house yeah
+ 
+
+95
+00:01:58,960 --> 00:02:01,109
+to neighbor neighboring house yeah
+if you took the if you if you take the
+
+96
+00:02:01,109 --> 00:02:01,119
+if you took the if you if you take the
+ 
+
+97
+00:02:01,119 --> 00:02:03,350
+if you took the if you if you take the
+goods from two neighboring house
+
+98
+00:02:03,350 --> 00:02:03,360
+goods from two neighboring house
+ 
+
+99
+00:02:03,360 --> 00:02:06,789
+goods from two neighboring house
+the alarm will be will fire off yeah
+
+100
+00:02:06,789 --> 00:02:06,799
+the alarm will be will fire off yeah
+ 
+
+101
+00:02:06,799 --> 00:02:07,510
+the alarm will be will fire off yeah
+we'll be off
+
+102
+00:02:07,510 --> 00:02:07,520
+we'll be off
+ 
+
+103
+00:02:07,520 --> 00:02:11,190
+we'll be off
+yeah yeah and then a police will come so
+
+104
+00:02:11,190 --> 00:02:11,200
+yeah yeah and then a police will come so
+ 
+
+105
+00:02:11,200 --> 00:02:13,910
+yeah yeah and then a police will come so
+so you shouldn't take the goods from the
+
+106
+00:02:13,910 --> 00:02:13,920
+so you shouldn't take the goods from the
+ 
+
+107
+00:02:13,920 --> 00:02:15,670
+so you shouldn't take the goods from the
+into neighborings
+
+108
+00:02:15,670 --> 00:02:15,680
+into neighborings
+ 
+
+109
+00:02:15,680 --> 00:02:17,190
+into neighborings
+okay but you can't i could have done
+
+110
+00:02:17,190 --> 00:02:17,200
+okay but you can't i could have done
+ 
+
+111
+00:02:17,200 --> 00:02:19,030
+okay but you can't i could have done
+that because i didn't have the key
+
+112
+00:02:19,030 --> 00:02:19,040
+that because i didn't have the key
+ 
+
+113
+00:02:19,040 --> 00:02:21,350
+that because i didn't have the key
+yeah that's okay that's why the robot
+
+114
+00:02:21,350 --> 00:02:21,360
+yeah that's okay that's why the robot
+ 
+
+115
+00:02:21,360 --> 00:02:22,630
+yeah that's okay that's why the robot
+broke into the houses
+
+116
+00:02:22,630 --> 00:02:22,640
+broke into the houses
+ 
+
+117
+00:02:22,640 --> 00:02:25,510
+broke into the houses
+okay so the thing is that the robot
+
+118
+00:02:25,510 --> 00:02:25,520
+okay so the thing is that the robot
+ 
+
+119
+00:02:25,520 --> 00:02:27,030
+okay so the thing is that the robot
+could to take at least five
+
+120
+00:02:27,030 --> 00:02:27,040
+could to take at least five
+ 
+
+121
+00:02:27,040 --> 00:02:30,470
+could to take at least five
+but look you could take five yeah
+
+122
+00:02:30,470 --> 00:02:30,480
+but look you could take five yeah
+ 
+
+123
+00:02:30,480 --> 00:02:33,350
+but look you could take five yeah
+and then two yeah and then ten so hold
+
+124
+00:02:33,350 --> 00:02:33,360
+and then two yeah and then ten so hold
+ 
+
+125
+00:02:33,360 --> 00:02:36,150
+and then two yeah and then ten so hold
+together how much to get
+
+126
+00:02:36,150 --> 00:02:36,160
+together how much to get
+ 
+
+127
+00:02:36,160 --> 00:02:39,030
+together how much to get
+so let's so basically you are you want
+
+128
+00:02:39,030 --> 00:02:39,040
+so let's so basically you are you want
+ 
+
+129
+00:02:39,040 --> 00:02:39,750
+so let's so basically you are you want
+to pick
+
+130
+00:02:39,750 --> 00:02:39,760
+to pick
+ 
+
+131
+00:02:39,760 --> 00:02:43,190
+to pick
+the the values the numbers yeah
+
+132
+00:02:43,190 --> 00:02:43,200
+the the values the numbers yeah
+ 
+
+133
+00:02:43,200 --> 00:02:46,790
+the the values the numbers yeah
+the numbers but not picking the
+
+134
+00:02:46,790 --> 00:02:46,800
+the numbers but not picking the
+ 
+
+135
+00:02:46,800 --> 00:02:48,390
+the numbers but not picking the
+neighboring so if you pick five you
+
+136
+00:02:48,390 --> 00:02:48,400
+neighboring so if you pick five you
+ 
+
+137
+00:02:48,400 --> 00:02:50,070
+neighboring so if you pick five you
+shouldn't pick seven but if you pick
+
+138
+00:02:50,070 --> 00:02:50,080
+shouldn't pick seven but if you pick
+ 
+
+139
+00:02:50,080 --> 00:02:51,589
+shouldn't pick seven but if you pick
+five you can pick
+
+140
+00:02:51,589 --> 00:02:51,599
+five you can pick
+ 
+
+141
+00:02:51,599 --> 00:02:54,470
+five you can pick
+two or not pick two pick one yeah so
+
+142
+00:02:54,470 --> 00:02:54,480
+two or not pick two pick one yeah so
+ 
+
+143
+00:02:54,480 --> 00:02:55,750
+two or not pick two pick one yeah so
+this is
+
+144
+00:02:55,750 --> 00:02:55,760
+this is
+ 
+
+145
+00:02:55,760 --> 00:03:00,550
+this is
+17. can we have a better one
+
+146
+00:03:00,550 --> 00:03:00,560
+17. can we have a better one
+ 
+
+147
+00:03:00,560 --> 00:03:04,710
+17. can we have a better one
+look we can pick seven yeah you can pick
+
+148
+00:03:04,710 --> 00:03:04,720
+look we can pick seven yeah you can pick
+ 
+
+149
+00:03:04,720 --> 00:03:08,949
+look we can pick seven yeah you can pick
+six seven and one and six
+
+150
+00:03:08,949 --> 00:03:08,959
+six seven and one and six
+ 
+
+151
+00:03:08,959 --> 00:03:12,949
+six seven and one and six
+seven plus ten plus six which is
+
+152
+00:03:12,949 --> 00:03:12,959
+seven plus ten plus six which is
+ 
+
+153
+00:03:12,959 --> 00:03:16,550
+seven plus ten plus six which is
+what oh wait uh 33 yeah so this
+
+154
+00:03:16,550 --> 00:03:16,560
+what oh wait uh 33 yeah so this
+ 
+
+155
+00:03:16,560 --> 00:03:20,070
+what oh wait uh 33 yeah so this
+is obviously better oh no no no
+
+156
+00:03:20,070 --> 00:03:20,080
+is obviously better oh no no no
+ 
+
+157
+00:03:20,080 --> 00:03:23,350
+is obviously better oh no no no
+seven plus one plus six plus one plus
+
+158
+00:03:23,350 --> 00:03:23,360
+seven plus one plus six plus one plus
+ 
+
+159
+00:03:23,360 --> 00:03:25,430
+seven plus one plus six plus one plus
+six
+
+160
+00:03:25,430 --> 00:03:25,440
+six
+ 
+
+161
+00:03:25,440 --> 00:03:28,470
+six
+so that's how many 14. okay fourteen so
+
+162
+00:03:28,470 --> 00:03:28,480
+so that's how many 14. okay fourteen so
+ 
+
+163
+00:03:28,480 --> 00:03:29,750
+so that's how many 14. okay fourteen so
+it's not better okay
+
+164
+00:03:29,750 --> 00:03:29,760
+it's not better okay
+ 
+
+165
+00:03:29,760 --> 00:03:31,910
+it's not better okay
+yeah yeah okay my mistake okay and how
+
+166
+00:03:31,910 --> 00:03:31,920
+yeah yeah okay my mistake okay and how
+ 
+
+167
+00:03:31,920 --> 00:03:34,390
+yeah yeah okay my mistake okay and how
+about
+
+168
+00:03:34,390 --> 00:03:34,400
+
+ 
+
+169
+00:03:34,400 --> 00:03:39,350
+
+are there any better ones
+
+170
+00:03:39,350 --> 00:03:39,360
+
+ 
+
+171
+00:03:39,360 --> 00:03:42,390
+
+wait no i think this is the
+
+172
+00:03:42,390 --> 00:03:42,400
+wait no i think this is the
+ 
+
+173
+00:03:42,400 --> 00:03:45,990
+wait no i think this is the
+optimal one this is the optima yeah
+
+174
+00:03:45,990 --> 00:03:46,000
+optimal one this is the optima yeah
+ 
+
+175
+00:03:46,000 --> 00:03:50,789
+optimal one this is the optima yeah
+okay how about seven and ten
+
+176
+00:03:50,789 --> 00:03:50,799
+okay how about seven and ten
+ 
+
+177
+00:03:50,799 --> 00:03:53,670
+okay how about seven and ten
+seven and ten but again the another
+
+178
+00:03:53,670 --> 00:03:53,680
+seven and ten but again the another
+ 
+
+179
+00:03:53,680 --> 00:03:55,750
+seven and ten but again the another
+solution will be seven and ten
+
+180
+00:03:55,750 --> 00:03:55,760
+solution will be seven and ten
+ 
+
+181
+00:03:55,760 --> 00:03:58,550
+solution will be seven and ten
+which is seven but that's okay you can
+
+182
+00:03:58,550 --> 00:03:58,560
+which is seven but that's okay you can
+ 
+
+183
+00:03:58,560 --> 00:04:00,550
+which is seven but that's okay you can
+skip two
+
+184
+00:04:00,550 --> 00:04:00,560
+skip two
+ 
+
+185
+00:04:00,560 --> 00:04:05,990
+skip two
+okay so any ideas how are we doing this
+
+186
+00:04:05,990 --> 00:04:06,000
+okay so any ideas how are we doing this
+ 
+
+187
+00:04:06,000 --> 00:04:09,990
+okay so any ideas how are we doing this
+any ideas any thoughts
+
+188
+00:04:09,990 --> 00:04:10,000
+any ideas any thoughts
+ 
+
+189
+00:04:10,000 --> 00:04:11,750
+any ideas any thoughts
+using the dynamic programming since we
+
+190
+00:04:11,750 --> 00:04:11,760
+using the dynamic programming since we
+ 
+
+191
+00:04:11,760 --> 00:04:14,710
+using the dynamic programming since we
+are on this subject use the biggest one
+
+192
+00:04:14,710 --> 00:04:14,720
+are on this subject use the biggest one
+ 
+
+193
+00:04:14,720 --> 00:04:17,990
+are on this subject use the biggest one
+biggest one the biggest one
+
+194
+00:04:17,990 --> 00:04:18,000
+biggest one the biggest one
+ 
+
+195
+00:04:18,000 --> 00:04:20,310
+biggest one the biggest one
+or the biggest one ten you pick you'll
+
+196
+00:04:20,310 --> 00:04:20,320
+or the biggest one ten you pick you'll
+ 
+
+197
+00:04:20,320 --> 00:04:22,230
+or the biggest one ten you pick you'll
+pick the biggest one and then
+
+198
+00:04:22,230 --> 00:04:22,240
+pick the biggest one and then
+ 
+
+199
+00:04:22,240 --> 00:04:25,990
+pick the biggest one and then
+uh the second biggest if it's
+
+200
+00:04:25,990 --> 00:04:26,000
+uh the second biggest if it's
+ 
+
+201
+00:04:26,000 --> 00:04:28,790
+uh the second biggest if it's
+the biggest neighbor yeah then you do
+
+202
+00:04:28,790 --> 00:04:28,800
+the biggest neighbor yeah then you do
+ 
+
+203
+00:04:28,800 --> 00:04:30,310
+the biggest neighbor yeah then you do
+this
+
+204
+00:04:30,310 --> 00:04:30,320
+this
+ 
+
+205
+00:04:30,320 --> 00:04:33,670
+this
+so first third biggest third biggest
+
+206
+00:04:33,670 --> 00:04:33,680
+so first third biggest third biggest
+ 
+
+207
+00:04:33,680 --> 00:04:37,270
+so first third biggest third biggest
+and then so your strategy is
+
+208
+00:04:37,270 --> 00:04:37,280
+and then so your strategy is
+ 
+
+209
+00:04:37,280 --> 00:04:44,870
+and then so your strategy is
+how do you pick them so for this one
+
+210
+00:04:44,870 --> 00:04:44,880
+
+ 
+
+211
+00:04:44,880 --> 00:04:49,830
+
+yeah how do you pick it up yeah
+
+212
+00:04:49,830 --> 00:04:49,840
+yeah how do you pick it up yeah
+ 
+
+213
+00:04:49,840 --> 00:04:51,990
+yeah how do you pick it up yeah
+what's your strategy what's your status
+
+214
+00:04:51,990 --> 00:04:52,000
+what's your strategy what's your status
+ 
+
+215
+00:04:52,000 --> 00:04:53,189
+what's your strategy what's your status
+is to kick it
+
+216
+00:04:53,189 --> 00:04:53,199
+is to kick it
+ 
+
+217
+00:04:53,199 --> 00:04:55,749
+is to kick it
+you pick the largest one yeah and then
+
+218
+00:04:55,749 --> 00:04:55,759
+you pick the largest one yeah and then
+ 
+
+219
+00:04:55,759 --> 00:04:58,629
+you pick the largest one yeah and then
+you start from the largest one and then
+
+220
+00:04:58,629 --> 00:04:58,639
+you start from the largest one and then
+ 
+
+221
+00:04:58,639 --> 00:05:02,629
+you start from the largest one and then
+to pick to jump at
+
+222
+00:05:02,629 --> 00:05:02,639
+to pick to jump at
+ 
+
+223
+00:05:02,639 --> 00:05:05,749
+to pick to jump at
+you you only pick these two or not
+
+224
+00:05:05,749 --> 00:05:05,759
+you you only pick these two or not
+ 
+
+225
+00:05:05,759 --> 00:05:07,909
+you you only pick these two or not
+or you're gonna pick five yeah what are
+
+226
+00:05:07,909 --> 00:05:07,919
+or you're gonna pick five yeah what are
+ 
+
+227
+00:05:07,919 --> 00:05:09,990
+or you're gonna pick five yeah what are
+you gonna pick
+
+228
+00:05:09,990 --> 00:05:10,000
+you gonna pick
+ 
+
+229
+00:05:10,000 --> 00:05:14,230
+you gonna pick
+suppose look if if
+
+230
+00:05:14,230 --> 00:05:14,240
+suppose look if if
+ 
+
+231
+00:05:14,240 --> 00:05:17,830
+suppose look if if
+if this is a all right leave it this is
+
+232
+00:05:17,830 --> 00:05:17,840
+if this is a all right leave it this is
+ 
+
+233
+00:05:17,840 --> 00:05:19,350
+if this is a all right leave it this is
+right so you turn
+
+234
+00:05:19,350 --> 00:05:19,360
+right so you turn
+ 
+
+235
+00:05:19,360 --> 00:05:21,909
+right so you turn
+and then put the second lattice which is
+
+236
+00:05:21,909 --> 00:05:21,919
+and then put the second lattice which is
+ 
+
+237
+00:05:21,919 --> 00:05:22,950
+and then put the second lattice which is
+18 yeah
+
+238
+00:05:22,950 --> 00:05:22,960
+18 yeah
+ 
+
+239
+00:05:22,960 --> 00:05:25,909
+18 yeah
+yeah and how about if i have at least
+
+240
+00:05:25,909 --> 00:05:25,919
+yeah and how about if i have at least
+ 
+
+241
+00:05:25,919 --> 00:05:31,510
+yeah and how about if i have at least
+another 10 here
+
+242
+00:05:31,510 --> 00:05:31,520
+
+ 
+
+243
+00:05:31,520 --> 00:05:35,189
+
+maybe no maybe i put this 15 here
+
+244
+00:05:35,189 --> 00:05:35,199
+maybe no maybe i put this 15 here
+ 
+
+245
+00:05:35,199 --> 00:05:39,510
+maybe no maybe i put this 15 here
+then 15. 10
+
+246
+00:05:39,510 --> 00:05:39,520
+then 15. 10
+ 
+
+247
+00:05:39,520 --> 00:05:41,590
+then 15. 10
+so you always pick the second second
+
+248
+00:05:41,590 --> 00:05:41,600
+so you always pick the second second
+ 
+
+249
+00:05:41,600 --> 00:05:44,870
+so you always pick the second second
+largest i know if this is 19 here
+
+250
+00:05:44,870 --> 00:05:44,880
+largest i know if this is 19 here
+ 
+
+251
+00:05:44,880 --> 00:05:48,629
+largest i know if this is 19 here
+i'll pick 19 15 then i'll pick
+
+252
+00:05:48,629 --> 00:05:48,639
+i'll pick 19 15 then i'll pick
+ 
+
+253
+00:05:48,639 --> 00:05:53,590
+i'll pick 19 15 then i'll pick
+six 1956
+
+254
+00:05:53,590 --> 00:05:53,600
+six 1956
+ 
+
+255
+00:05:53,600 --> 00:05:56,390
+six 1956
+okay so your strategy might work but
+
+256
+00:05:56,390 --> 00:05:56,400
+okay so your strategy might work but
+ 
+
+257
+00:05:56,400 --> 00:05:58,150
+okay so your strategy might work but
+there are some cases it might not work
+
+258
+00:05:58,150 --> 00:05:58,160
+there are some cases it might not work
+ 
+
+259
+00:05:58,160 --> 00:05:59,990
+there are some cases it might not work
+okay and i need to come up with some
+
+260
+00:05:59,990 --> 00:06:00,000
+okay and i need to come up with some
+ 
+
+261
+00:06:00,000 --> 00:06:02,390
+okay and i need to come up with some
+some uh so you pick always pick the
+
+262
+00:06:02,390 --> 00:06:02,400
+some uh so you pick always pick the
+ 
+
+263
+00:06:02,400 --> 00:06:04,150
+some uh so you pick always pick the
+largest one yeah
+
+264
+00:06:04,150 --> 00:06:04,160
+largest one yeah
+ 
+
+265
+00:06:04,160 --> 00:06:06,710
+largest one yeah
+you always pick the largest one so let's
+
+266
+00:06:06,710 --> 00:06:06,720
+you always pick the largest one so let's
+ 
+
+267
+00:06:06,720 --> 00:06:07,909
+you always pick the largest one so let's
+say 18 here
+
+268
+00:06:07,909 --> 00:06:07,919
+say 18 here
+ 
+
+269
+00:06:07,919 --> 00:06:11,029
+say 18 here
+glasses one and then you pick uh
+
+270
+00:06:11,029 --> 00:06:11,039
+glasses one and then you pick uh
+ 
+
+271
+00:06:11,039 --> 00:06:15,110
+glasses one and then you pick uh
+uh and then i put uh
+
+272
+00:06:15,110 --> 00:06:15,120
+
+ 
+
+273
+00:06:15,120 --> 00:06:18,390
+
+what you get
+
+274
+00:06:18,390 --> 00:06:18,400
+
+ 
+
+275
+00:06:18,400 --> 00:06:22,070
+
+you pick you'll pick at 19 yeah yeah
+
+276
+00:06:22,070 --> 00:06:22,080
+you pick you'll pick at 19 yeah yeah
+ 
+
+277
+00:06:22,080 --> 00:06:25,590
+you pick you'll pick at 19 yeah yeah
+and then 19. what what's that
+
+278
+00:06:25,590 --> 00:06:25,600
+and then 19. what what's that
+ 
+
+279
+00:06:25,600 --> 00:06:29,749
+and then 19. what what's that
+sorry no i'm i'm thinking of yeah i'm 20
+
+280
+00:06:29,749 --> 00:06:29,759
+sorry no i'm i'm thinking of yeah i'm 20
+ 
+
+281
+00:06:29,759 --> 00:06:33,110
+sorry no i'm i'm thinking of yeah i'm 20
+okay maybe 20 here so you pick 20
+
+282
+00:06:33,110 --> 00:06:33,120
+okay maybe 20 here so you pick 20
+ 
+
+283
+00:06:33,120 --> 00:06:36,469
+okay maybe 20 here so you pick 20
+and 19 yes then six
+
+284
+00:06:36,469 --> 00:06:36,479
+and 19 yes then six
+ 
+
+285
+00:06:36,479 --> 00:06:39,830
+and 19 yes then six
+and six it might work yeah
+
+286
+00:06:39,830 --> 00:06:39,840
+and six it might work yeah
+ 
+
+287
+00:06:39,840 --> 00:06:43,430
+and six it might work yeah
+it might work 20
+
+288
+00:06:43,430 --> 00:06:43,440
+it might work 20
+ 
+
+289
+00:06:43,440 --> 00:06:47,510
+it might work 20
+you pick 20
+
+290
+00:06:47,510 --> 00:06:47,520
+
+ 
+
+291
+00:06:47,520 --> 00:06:51,830
+
+oh well it's 19 years well
+
+292
+00:06:51,830 --> 00:06:51,840
+
+ 
+
+293
+00:06:51,840 --> 00:06:55,110
+
+okay and then you pick 19.
+
+294
+00:06:55,110 --> 00:06:55,120
+okay and then you pick 19.
+ 
+
+295
+00:06:55,120 --> 00:06:58,469
+okay and then you pick 19.
+you pick 18 as well no you if once you
+
+296
+00:06:58,469 --> 00:06:58,479
+you pick 18 as well no you if once you
+ 
+
+297
+00:06:58,479 --> 00:07:00,830
+you pick 18 as well no you if once you
+pick 19 you complete 18 because they are
+
+298
+00:07:00,830 --> 00:07:00,840
+pick 19 you complete 18 because they are
+ 
+
+299
+00:07:00,840 --> 00:07:03,270
+pick 19 you complete 18 because they are
+neighbors well how about if you pick
+
+300
+00:07:03,270 --> 00:07:03,280
+neighbors well how about if you pick
+ 
+
+301
+00:07:03,280 --> 00:07:07,029
+neighbors well how about if you pick
+uh oh yeah no yeah yeah
+
+302
+00:07:07,029 --> 00:07:07,039
+uh oh yeah no yeah yeah
+ 
+
+303
+00:07:07,039 --> 00:07:08,629
+uh oh yeah no yeah yeah
+so it doesn't mean that you could pick
+
+304
+00:07:08,629 --> 00:07:08,639
+so it doesn't mean that you could pick
+ 
+
+305
+00:07:08,639 --> 00:07:10,710
+so it doesn't mean that you could pick
+19 and six
+
+306
+00:07:10,710 --> 00:07:10,720
+19 and six
+ 
+
+307
+00:07:10,720 --> 00:07:13,909
+19 and six
+you can pick 19 and six yeah
+
+308
+00:07:13,909 --> 00:07:13,919
+you can pick 19 and six yeah
+ 
+
+309
+00:07:13,919 --> 00:07:15,990
+you can pick 19 and six yeah
+okay so i'm trying to think about the
+
+310
+00:07:15,990 --> 00:07:16,000
+okay so i'm trying to think about the
+ 
+
+311
+00:07:16,000 --> 00:07:18,870
+okay so i'm trying to think about the
+negative examples
+
+312
+00:07:18,870 --> 00:07:18,880
+negative examples
+ 
+
+313
+00:07:18,880 --> 00:07:21,990
+negative examples
+yes what's negative i mean the one that
+
+314
+00:07:21,990 --> 00:07:22,000
+yes what's negative i mean the one that
+ 
+
+315
+00:07:22,000 --> 00:07:22,790
+yes what's negative i mean the one that
+your strategy
+
+316
+00:07:22,790 --> 00:07:22,800
+your strategy
+ 
+
+317
+00:07:22,800 --> 00:07:26,150
+your strategy
+doesn't work so look
+
+318
+00:07:26,150 --> 00:07:26,160
+doesn't work so look
+ 
+
+319
+00:07:26,160 --> 00:07:27,990
+doesn't work so look
+so i'm thinking of you always pick a
+
+320
+00:07:27,990 --> 00:07:28,000
+so i'm thinking of you always pick a
+ 
+
+321
+00:07:28,000 --> 00:07:30,469
+so i'm thinking of you always pick a
+knight the biggest one
+
+322
+00:07:30,469 --> 00:07:30,479
+knight the biggest one
+ 
+
+323
+00:07:30,479 --> 00:07:33,510
+knight the biggest one
+yeah a biggest one and how about if they
+
+324
+00:07:33,510 --> 00:07:33,520
+yeah a biggest one and how about if they
+ 
+
+325
+00:07:33,520 --> 00:07:35,110
+yeah a biggest one and how about if they
+have duplicate numbers
+
+326
+00:07:35,110 --> 00:07:35,120
+have duplicate numbers
+ 
+
+327
+00:07:35,120 --> 00:07:39,589
+have duplicate numbers
+so which one you pick yeah
+
+328
+00:07:39,589 --> 00:07:39,599
+so which one you pick yeah
+ 
+
+329
+00:07:39,599 --> 00:07:42,230
+so which one you pick yeah
+so you need three of them yeah i know so
+
+330
+00:07:42,230 --> 00:07:42,240
+so you need three of them yeah i know so
+ 
+
+331
+00:07:42,240 --> 00:07:43,189
+so you need three of them yeah i know so
+which which one
+
+332
+00:07:43,189 --> 00:07:43,199
+which which one
+ 
+
+333
+00:07:43,199 --> 00:07:48,070
+which which one
+are the largest there's no largest wall
+
+334
+00:07:48,070 --> 00:07:48,080
+are the largest there's no largest wall
+ 
+
+335
+00:07:48,080 --> 00:07:51,270
+are the largest there's no largest wall
+there's 20 okay maybe that looks
+
+336
+00:07:51,270 --> 00:07:51,280
+there's 20 okay maybe that looks
+ 
+
+337
+00:07:51,280 --> 00:07:56,150
+there's 20 okay maybe that looks
+19 here so what what do you pick
+
+338
+00:07:56,150 --> 00:07:56,160
+19 here so what what do you pick
+ 
+
+339
+00:07:56,160 --> 00:07:59,510
+19 here so what what do you pick
+i'll pick definitely one of the nine
+
+340
+00:07:59,510 --> 00:07:59,520
+i'll pick definitely one of the nine
+ 
+
+341
+00:07:59,520 --> 00:08:00,390
+i'll pick definitely one of the nine
+teams
+
+342
+00:08:00,390 --> 00:08:00,400
+teams
+ 
+
+343
+00:08:00,400 --> 00:08:02,550
+teams
+yeah but now you might need to pull the
+
+344
+00:08:02,550 --> 00:08:02,560
+yeah but now you might need to pull the
+ 
+
+345
+00:08:02,560 --> 00:08:07,430
+yeah but now you might need to pull the
+proof of search right
+
+346
+00:08:07,430 --> 00:08:07,440
+
+ 
+
+347
+00:08:07,440 --> 00:08:17,350
+
+for example or 19 so what happened
+
+348
+00:08:17,350 --> 00:08:17,360
+
+ 
+
+349
+00:08:17,360 --> 00:08:20,070
+
+can you pick four yeah you can only pick
+
+350
+00:08:20,070 --> 00:08:20,080
+can you pick four yeah you can only pick
+ 
+
+351
+00:08:20,080 --> 00:08:20,629
+can you pick four yeah you can only pick
+three
+
+352
+00:08:20,629 --> 00:08:20,639
+three
+ 
+
+353
+00:08:20,639 --> 00:08:23,670
+three
+so that's how many number two three yeah
+
+354
+00:08:23,670 --> 00:08:23,680
+so that's how many number two three yeah
+ 
+
+355
+00:08:23,680 --> 00:08:25,270
+so that's how many number two three yeah
+because every other one yeah
+
+356
+00:08:25,270 --> 00:08:25,280
+because every other one yeah
+ 
+
+357
+00:08:25,280 --> 00:08:28,469
+because every other one yeah
+yeah so every other one
+
+358
+00:08:28,469 --> 00:08:28,479
+yeah so every other one
+ 
+
+359
+00:08:28,479 --> 00:08:31,830
+yeah so every other one
+okay so so it seems that
+
+360
+00:08:31,830 --> 00:08:31,840
+okay so so it seems that
+ 
+
+361
+00:08:31,840 --> 00:08:34,949
+okay so so it seems that
+if it in this case you you just pick
+
+362
+00:08:34,949 --> 00:08:34,959
+if it in this case you you just pick
+ 
+
+363
+00:08:34,959 --> 00:08:36,709
+if it in this case you you just pick
+every other one so do you have a do you
+
+364
+00:08:36,709 --> 00:08:36,719
+every other one so do you have a do you
+ 
+
+365
+00:08:36,719 --> 00:08:38,310
+every other one so do you have a do you
+come up with some
+
+366
+00:08:38,310 --> 00:08:38,320
+come up with some
+ 
+
+367
+00:08:38,320 --> 00:08:41,589
+come up with some
+genetic uh i mean general approach to
+
+368
+00:08:41,589 --> 00:08:41,599
+genetic uh i mean general approach to
+ 
+
+369
+00:08:41,599 --> 00:08:44,790
+genetic uh i mean general approach to
+approach that
+
+370
+00:08:44,790 --> 00:08:44,800
+
+ 
+
+371
+00:08:44,800 --> 00:08:47,990
+
+uh yeah you can
+
+372
+00:08:47,990 --> 00:08:48,000
+uh yeah you can
+ 
+
+373
+00:08:48,000 --> 00:08:50,310
+uh yeah you can
+also search from here you can search
+
+374
+00:08:50,310 --> 00:08:50,320
+also search from here you can search
+ 
+
+375
+00:08:50,320 --> 00:08:51,990
+also search from here you can search
+from this side you pick this one or not
+
+376
+00:08:51,990 --> 00:08:52,000
+from this side you pick this one or not
+ 
+
+377
+00:08:52,000 --> 00:08:52,310
+from this side you pick this one or not
+pick
+
+378
+00:08:52,310 --> 00:08:52,320
+pick
+ 
+
+379
+00:08:52,320 --> 00:08:54,550
+pick
+this one yeah once you pick this one
+
+380
+00:08:54,550 --> 00:08:54,560
+this one yeah once you pick this one
+ 
+
+381
+00:08:54,560 --> 00:08:56,150
+this one yeah once you pick this one
+you're not picking this one and you go
+
+382
+00:08:56,150 --> 00:08:56,160
+you're not picking this one and you go
+ 
+
+383
+00:08:56,160 --> 00:08:56,790
+you're not picking this one and you go
+to the next
+
+384
+00:08:56,790 --> 00:08:56,800
+to the next
+ 
+
+385
+00:08:56,800 --> 00:08:59,829
+to the next
+yeah yeah so you you
+
+386
+00:08:59,829 --> 00:08:59,839
+yeah yeah so you you
+ 
+
+387
+00:08:59,839 --> 00:09:01,990
+yeah yeah so you you
+start from the search definite search we
+
+388
+00:09:01,990 --> 00:09:02,000
+start from the search definite search we
+ 
+
+389
+00:09:02,000 --> 00:09:04,389
+start from the search definite search we
+can do a deathless search right
+
+390
+00:09:04,389 --> 00:09:04,399
+can do a deathless search right
+ 
+
+391
+00:09:04,399 --> 00:09:07,829
+can do a deathless search right
+yeah all right do you remember that
+
+392
+00:09:07,829 --> 00:09:07,839
+yeah all right do you remember that
+ 
+
+393
+00:09:07,839 --> 00:09:11,190
+yeah all right do you remember that
+bfs or bfs also work as well so
+
+394
+00:09:11,190 --> 00:09:11,200
+bfs or bfs also work as well so
+ 
+
+395
+00:09:11,200 --> 00:09:12,949
+bfs or bfs also work as well so
+basically the tree i start from the
+
+396
+00:09:12,949 --> 00:09:12,959
+basically the tree i start from the
+ 
+
+397
+00:09:12,959 --> 00:09:14,230
+basically the tree i start from the
+first house
+
+398
+00:09:14,230 --> 00:09:14,240
+first house
+ 
+
+399
+00:09:14,240 --> 00:09:18,150
+first house
+first half right i pick
+
+400
+00:09:18,150 --> 00:09:18,160
+first half right i pick
+ 
+
+401
+00:09:18,160 --> 00:09:22,070
+first half right i pick
+this one is pick yeah and the next one
+
+402
+00:09:22,070 --> 00:09:22,080
+this one is pick yeah and the next one
+ 
+
+403
+00:09:22,080 --> 00:09:25,110
+this one is pick yeah and the next one
+is not pink
+
+404
+00:09:25,110 --> 00:09:25,120
+
+ 
+
+405
+00:09:25,120 --> 00:09:28,310
+
+i i'm constructing a tree so but you can
+
+406
+00:09:28,310 --> 00:09:28,320
+i i'm constructing a tree so but you can
+ 
+
+407
+00:09:28,320 --> 00:09:30,070
+i i'm constructing a tree so but you can
+search it with different search or
+
+408
+00:09:30,070 --> 00:09:30,080
+search it with different search or
+ 
+
+409
+00:09:30,080 --> 00:09:31,350
+search it with different search or
+preferences right
+
+410
+00:09:31,350 --> 00:09:31,360
+preferences right
+ 
+
+411
+00:09:31,360 --> 00:09:34,389
+preferences right
+it doesn't matter when i pick
+
+412
+00:09:34,389 --> 00:09:34,399
+it doesn't matter when i pick
+ 
+
+413
+00:09:34,399 --> 00:09:37,430
+it doesn't matter when i pick
+the one and the next one i will pick
+
+414
+00:09:37,430 --> 00:09:37,440
+the one and the next one i will pick
+ 
+
+415
+00:09:37,440 --> 00:09:40,470
+the one and the next one i will pick
+pick number three but i cannot pick
+
+416
+00:09:40,470 --> 00:09:40,480
+pick number three but i cannot pick
+ 
+
+417
+00:09:40,480 --> 00:09:42,230
+pick number three but i cannot pick
+number two right i pick a number three
+
+418
+00:09:42,230 --> 00:09:42,240
+number two right i pick a number three
+ 
+
+419
+00:09:42,240 --> 00:09:44,230
+number two right i pick a number three
+yeah yes
+
+420
+00:09:44,230 --> 00:09:44,240
+yeah yes
+ 
+
+421
+00:09:44,240 --> 00:09:47,750
+yeah yes
+pick one pick three
+
+422
+00:09:47,750 --> 00:09:47,760
+pick one pick three
+ 
+
+423
+00:09:47,760 --> 00:09:50,790
+pick one pick three
+pick sweet yeah
+
+424
+00:09:50,790 --> 00:09:50,800
+pick sweet yeah
+ 
+
+425
+00:09:50,800 --> 00:09:54,310
+pick sweet yeah
+pick one not pick one not pick one
+
+426
+00:09:54,310 --> 00:09:54,320
+pick one not pick one not pick one
+ 
+
+427
+00:09:54,320 --> 00:09:56,389
+pick one not pick one not pick one
+and then i i what should i do with the
+
+428
+00:09:56,389 --> 00:09:56,399
+and then i i what should i do with the
+ 
+
+429
+00:09:56,399 --> 00:09:58,150
+and then i i what should i do with the
+not pick one
+
+430
+00:09:58,150 --> 00:09:58,160
+not pick one
+ 
+
+431
+00:09:58,160 --> 00:10:07,350
+not pick one
+not pick don't pick two
+
+432
+00:10:07,350 --> 00:10:07,360
+
+ 
+
+433
+00:10:07,360 --> 00:10:10,630
+
+yes but so maybe we can refine this tree
+
+434
+00:10:10,630 --> 00:10:10,640
+yes but so maybe we can refine this tree
+ 
+
+435
+00:10:10,640 --> 00:10:13,590
+yes but so maybe we can refine this tree
+to to not to just like if i only have
+
+436
+00:10:13,590 --> 00:10:13,600
+to to not to just like if i only have
+ 
+
+437
+00:10:13,600 --> 00:10:14,069
+to to not to just like if i only have
+one and
+
+438
+00:10:14,069 --> 00:10:14,079
+one and
+ 
+
+439
+00:10:14,079 --> 00:10:16,310
+one and
+pick one okay pick one so the next one
+
+440
+00:10:16,310 --> 00:10:16,320
+pick one okay pick one so the next one
+ 
+
+441
+00:10:16,320 --> 00:10:18,069
+pick one okay pick one so the next one
+will be three yeah yeah
+
+442
+00:10:18,069 --> 00:10:18,079
+will be three yeah yeah
+ 
+
+443
+00:10:18,079 --> 00:10:21,750
+will be three yeah yeah
+oh oh
+
+444
+00:10:21,750 --> 00:10:21,760
+oh oh
+ 
+
+445
+00:10:21,760 --> 00:10:27,430
+oh oh
+you can do five oh
+
+446
+00:10:27,430 --> 00:10:27,440
+
+ 
+
+447
+00:10:27,440 --> 00:10:29,430
+
+yeah yeah as long as it so so as you can
+
+448
+00:10:29,430 --> 00:10:29,440
+yeah yeah as long as it so so as you can
+ 
+
+449
+00:10:29,440 --> 00:10:31,430
+yeah yeah as long as it so so as you can
+see when i pick one
+
+450
+00:10:31,430 --> 00:10:31,440
+see when i pick one
+ 
+
+451
+00:10:31,440 --> 00:10:35,030
+see when i pick one
+when i pick one i can travel
+
+452
+00:10:35,030 --> 00:10:35,040
+when i pick one i can travel
+ 
+
+453
+00:10:35,040 --> 00:10:39,269
+when i pick one i can travel
+to when i pick one i can travel to
+
+454
+00:10:39,269 --> 00:10:39,279
+to when i pick one i can travel to
+ 
+
+455
+00:10:39,279 --> 00:10:42,230
+to when i pick one i can travel to
+three yeah pick one to three and when i
+
+456
+00:10:42,230 --> 00:10:42,240
+three yeah pick one to three and when i
+ 
+
+457
+00:10:42,240 --> 00:10:43,590
+three yeah pick one to three and when i
+start from three
+
+458
+00:10:43,590 --> 00:10:43,600
+start from three
+ 
+
+459
+00:10:43,600 --> 00:10:46,870
+start from three
+i can start from five okay all right
+
+460
+00:10:46,870 --> 00:10:46,880
+i can start from five okay all right
+ 
+
+461
+00:10:46,880 --> 00:10:49,269
+i can start from five okay all right
+so but for this one so look because it
+
+462
+00:10:49,269 --> 00:10:49,279
+so but for this one so look because it
+ 
+
+463
+00:10:49,279 --> 00:10:50,310
+so but for this one so look because it
+has a lot of
+
+464
+00:10:50,310 --> 00:10:50,320
+has a lot of
+ 
+
+465
+00:10:50,320 --> 00:10:53,670
+has a lot of
+possibilities pick one and then i can
+
+466
+00:10:53,670 --> 00:10:53,680
+possibilities pick one and then i can
+ 
+
+467
+00:10:53,680 --> 00:10:55,509
+possibilities pick one and then i can
+pick three i can also pick four here
+
+468
+00:10:55,509 --> 00:10:55,519
+pick three i can also pick four here
+ 
+
+469
+00:10:55,519 --> 00:10:56,230
+pick three i can also pick four here
+right
+
+470
+00:10:56,230 --> 00:10:56,240
+right
+ 
+
+471
+00:10:56,240 --> 00:10:59,430
+right
+yeah yeah and i also can pick five pick
+
+472
+00:10:59,430 --> 00:10:59,440
+yeah yeah and i also can pick five pick
+ 
+
+473
+00:10:59,440 --> 00:11:02,710
+yeah yeah and i also can pick five pick
+six p you see this is very complex
+
+474
+00:11:02,710 --> 00:11:02,720
+six p you see this is very complex
+ 
+
+475
+00:11:02,720 --> 00:11:05,670
+six p you see this is very complex
+all right there's no seven i know i know
+
+476
+00:11:05,670 --> 00:11:05,680
+all right there's no seven i know i know
+ 
+
+477
+00:11:05,680 --> 00:11:07,670
+all right there's no seven i know i know
+i'm just giving an example so do you get
+
+478
+00:11:07,670 --> 00:11:07,680
+i'm just giving an example so do you get
+ 
+
+479
+00:11:07,680 --> 00:11:08,630
+i'm just giving an example so do you get
+it
+
+480
+00:11:08,630 --> 00:11:08,640
+it
+ 
+
+481
+00:11:08,640 --> 00:11:11,190
+it
+so look this is very time consuming
+
+482
+00:11:11,190 --> 00:11:11,200
+so look this is very time consuming
+ 
+
+483
+00:11:11,200 --> 00:11:14,069
+so look this is very time consuming
+because for each node
+
+484
+00:11:14,069 --> 00:11:14,079
+because for each node
+ 
+
+485
+00:11:14,079 --> 00:11:17,110
+because for each node
+you could you could the next note you
+
+486
+00:11:17,110 --> 00:11:17,120
+you could you could the next note you
+ 
+
+487
+00:11:17,120 --> 00:11:17,670
+you could you could the next note you
+could be
+
+488
+00:11:17,670 --> 00:11:17,680
+could be
+ 
+
+489
+00:11:17,680 --> 00:11:21,430
+could be
+any from uh if you pick the no i
+
+490
+00:11:21,430 --> 00:11:21,440
+any from uh if you pick the no i
+ 
+
+491
+00:11:21,440 --> 00:11:24,550
+any from uh if you pick the no i
+so the next note when you are i know
+
+492
+00:11:24,550 --> 00:11:24,560
+so the next note when you are i know
+ 
+
+493
+00:11:24,560 --> 00:11:27,670
+so the next note when you are i know
+yeah so that next note could be from i
+
+494
+00:11:27,670 --> 00:11:27,680
+yeah so that next note could be from i
+ 
+
+495
+00:11:27,680 --> 00:11:29,829
+yeah so that next note could be from i
+plus 2
+
+496
+00:11:29,829 --> 00:11:29,839
+plus 2
+ 
+
+497
+00:11:29,839 --> 00:11:33,990
+plus 2
+to n right yeah all right
+
+498
+00:11:33,990 --> 00:11:34,000
+to n right yeah all right
+ 
+
+499
+00:11:34,000 --> 00:11:36,670
+to n right yeah all right
+so what's the complexity of this one
+
+500
+00:11:36,670 --> 00:11:36,680
+so what's the complexity of this one
+ 
+
+501
+00:11:36,680 --> 00:11:40,790
+so what's the complexity of this one
+[Music]
+
+502
+00:11:40,790 --> 00:11:40,800
+[Music]
+ 
+
+503
+00:11:40,800 --> 00:11:43,430
+[Music]
+so there are duplication here oh it's
+
+504
+00:11:43,430 --> 00:11:43,440
+so there are duplication here oh it's
+ 
+
+505
+00:11:43,440 --> 00:11:44,150
+so there are duplication here oh it's
+it's very
+
+506
+00:11:44,150 --> 00:11:44,160
+it's very
+ 
+
+507
+00:11:44,160 --> 00:11:47,269
+it's very
+exponential you know it's exponential a
+
+508
+00:11:47,269 --> 00:11:47,279
+exponential you know it's exponential a
+ 
+
+509
+00:11:47,279 --> 00:11:51,750
+exponential you know it's exponential a
+and something
+
+510
+00:11:51,750 --> 00:11:51,760
+and something
+ 
+
+511
+00:11:51,760 --> 00:11:54,310
+and something
+how many nodes are there the n and and
+
+512
+00:11:54,310 --> 00:11:54,320
+how many nodes are there the n and and
+ 
+
+513
+00:11:54,320 --> 00:11:56,470
+how many nodes are there the n and and
+unknowns yeah normally
+
+514
+00:11:56,470 --> 00:11:56,480
+unknowns yeah normally
+ 
+
+515
+00:11:56,480 --> 00:11:59,750
+unknowns yeah normally
+into that to the power of n yeah
+
+516
+00:11:59,750 --> 00:11:59,760
+into that to the power of n yeah
+ 
+
+517
+00:11:59,760 --> 00:12:03,030
+into that to the power of n yeah
+yeah so look actually this is a bit
+
+518
+00:12:03,030 --> 00:12:03,040
+yeah so look actually this is a bit
+ 
+
+519
+00:12:03,040 --> 00:12:03,590
+yeah so look actually this is a bit
+complex
+
+520
+00:12:03,590 --> 00:12:03,600
+complex
+ 
+
+521
+00:12:03,600 --> 00:12:07,350
+complex
+look if you pick this yeah you can pick
+
+522
+00:12:07,350 --> 00:12:07,360
+look if you pick this yeah you can pick
+ 
+
+523
+00:12:07,360 --> 00:12:08,829
+look if you pick this yeah you can pick
+this
+
+524
+00:12:08,829 --> 00:12:08,839
+this
+ 
+
+525
+00:12:08,839 --> 00:12:11,430
+this
+yeah i'll pick this yeah
+
+526
+00:12:11,430 --> 00:12:11,440
+yeah i'll pick this yeah
+ 
+
+527
+00:12:11,440 --> 00:12:14,629
+yeah i'll pick this yeah
+if you pick this look if i pick one pick
+
+528
+00:12:14,629 --> 00:12:14,639
+if you pick this look if i pick one pick
+ 
+
+529
+00:12:14,639 --> 00:12:17,910
+if you pick this look if i pick one pick
+this one and pick this one only
+
+530
+00:12:17,910 --> 00:12:17,920
+this one and pick this one only
+ 
+
+531
+00:12:17,920 --> 00:12:20,949
+this one and pick this one only
+this is not optimum yeah because i can
+
+532
+00:12:20,949 --> 00:12:20,959
+this is not optimum yeah because i can
+ 
+
+533
+00:12:20,959 --> 00:12:23,269
+this is not optimum yeah because i can
+i can also pick this one why not pick it
+
+534
+00:12:23,269 --> 00:12:23,279
+i can also pick this one why not pick it
+ 
+
+535
+00:12:23,279 --> 00:12:24,310
+i can also pick this one why not pick it
+all right yeah
+
+536
+00:12:24,310 --> 00:12:24,320
+all right yeah
+ 
+
+537
+00:12:24,320 --> 00:12:26,949
+all right yeah
+so look at the tree has duplication so
+
+538
+00:12:26,949 --> 00:12:26,959
+so look at the tree has duplication so
+ 
+
+539
+00:12:26,959 --> 00:12:28,550
+so look at the tree has duplication so
+somehow
+
+540
+00:12:28,550 --> 00:12:28,560
+somehow
+ 
+
+541
+00:12:28,560 --> 00:12:30,710
+somehow
+we are searching some branch which is
+
+542
+00:12:30,710 --> 00:12:30,720
+we are searching some branch which is
+ 
+
+543
+00:12:30,720 --> 00:12:32,790
+we are searching some branch which is
+not optimal we know
+
+544
+00:12:32,790 --> 00:12:32,800
+not optimal we know
+ 
+
+545
+00:12:32,800 --> 00:12:36,069
+not optimal we know
+right because look if i pick this one
+
+546
+00:12:36,069 --> 00:12:36,079
+right because look if i pick this one
+ 
+
+547
+00:12:36,079 --> 00:12:38,069
+right because look if i pick this one
+and the next one i skip three and i pick
+
+548
+00:12:38,069 --> 00:12:38,079
+and the next one i skip three and i pick
+ 
+
+549
+00:12:38,079 --> 00:12:40,150
+and the next one i skip three and i pick
+this one this is not optimum because i
+
+550
+00:12:40,150 --> 00:12:40,160
+this one this is not optimum because i
+ 
+
+551
+00:12:40,160 --> 00:12:42,069
+this one this is not optimum because i
+can i know i can always pick
+
+552
+00:12:42,069 --> 00:12:42,079
+can i know i can always pick
+ 
+
+553
+00:12:42,079 --> 00:12:45,509
+can i know i can always pick
+this middle one which is more value
+
+554
+00:12:45,509 --> 00:12:45,519
+this middle one which is more value
+ 
+
+555
+00:12:45,519 --> 00:12:47,430
+this middle one which is more value
+am right if these values are all
+
+556
+00:12:47,430 --> 00:12:47,440
+am right if these values are all
+ 
+
+557
+00:12:47,440 --> 00:12:49,590
+am right if these values are all
+positive do you get it
+
+558
+00:12:49,590 --> 00:12:49,600
+positive do you get it
+ 
+
+559
+00:12:49,600 --> 00:12:52,790
+positive do you get it
+okay so this is not optimum so the
+
+560
+00:12:52,790 --> 00:12:52,800
+okay so this is not optimum so the
+ 
+
+561
+00:12:52,800 --> 00:12:55,750
+okay so this is not optimum so the
+tfs or bfs may work if they are the
+
+562
+00:12:55,750 --> 00:12:55,760
+tfs or bfs may work if they are the
+ 
+
+563
+00:12:55,760 --> 00:12:56,710
+tfs or bfs may work if they are the
+number of the
+
+564
+00:12:56,710 --> 00:12:56,720
+number of the
+ 
+
+565
+00:12:56,720 --> 00:12:59,190
+number of the
+houses are small maybe like five five
+
+566
+00:12:59,190 --> 00:12:59,200
+houses are small maybe like five five
+ 
+
+567
+00:12:59,200 --> 00:12:59,990
+houses are small maybe like five five
+houses
+
+568
+00:12:59,990 --> 00:13:00,000
+houses
+ 
+
+569
+00:13:00,000 --> 00:13:02,870
+houses
+ten houses the computer is fast yeah if
+
+570
+00:13:02,870 --> 00:13:02,880
+ten houses the computer is fast yeah if
+ 
+
+571
+00:13:02,880 --> 00:13:05,110
+ten houses the computer is fast yeah if
+five houses five to the power five
+
+572
+00:13:05,110 --> 00:13:05,120
+five houses five to the power five
+ 
+
+573
+00:13:05,120 --> 00:13:07,509
+five houses five to the power five
+it's very small number yeah look but if
+
+574
+00:13:07,509 --> 00:13:07,519
+it's very small number yeah look but if
+ 
+
+575
+00:13:07,519 --> 00:13:09,910
+it's very small number yeah look but if
+it's 100 to the power of 100
+
+576
+00:13:09,910 --> 00:13:09,920
+it's 100 to the power of 100
+ 
+
+577
+00:13:09,920 --> 00:13:13,030
+it's 100 to the power of 100
+this is a huge number yeah yeah i'm
+
+578
+00:13:13,030 --> 00:13:13,040
+this is a huge number yeah yeah i'm
+ 
+
+579
+00:13:13,040 --> 00:13:14,949
+this is a huge number yeah yeah i'm
+right a hundred that would be a hundred
+
+580
+00:13:14,949 --> 00:13:14,959
+right a hundred that would be a hundred
+ 
+
+581
+00:13:14,959 --> 00:13:18,150
+right a hundred that would be a hundred
+zero after after a hundred yeah maybe
+
+582
+00:13:18,150 --> 00:13:18,160
+zero after after a hundred yeah maybe
+ 
+
+583
+00:13:18,160 --> 00:13:21,430
+zero after after a hundred yeah maybe
+maybe how many zeros i don't know
+
+584
+00:13:21,430 --> 00:13:21,440
+maybe how many zeros i don't know
+ 
+
+585
+00:13:21,440 --> 00:13:24,550
+maybe how many zeros i don't know
+twenty four hundred zeros yeah yeah okay
+
+586
+00:13:24,550 --> 00:13:24,560
+twenty four hundred zeros yeah yeah okay
+ 
+
+587
+00:13:24,560 --> 00:13:26,949
+twenty four hundred zeros yeah yeah okay
+so that's all that's a huge number the
+
+588
+00:13:26,949 --> 00:13:26,959
+so that's all that's a huge number the
+ 
+
+589
+00:13:26,959 --> 00:13:28,790
+so that's all that's a huge number the
+computer wouldn't
+
+590
+00:13:28,790 --> 00:13:28,800
+computer wouldn't
+ 
+
+591
+00:13:28,800 --> 00:13:31,990
+computer wouldn't
+be able to compute it you know
+
+592
+00:13:31,990 --> 00:13:32,000
+be able to compute it you know
+ 
+
+593
+00:13:32,000 --> 00:13:35,590
+be able to compute it you know
+for for in the short time amount of time
+
+594
+00:13:35,590 --> 00:13:35,600
+for for in the short time amount of time
+ 
+
+595
+00:13:35,600 --> 00:13:38,710
+for for in the short time amount of time
+okay so this search blue for search
+
+596
+00:13:38,710 --> 00:13:38,720
+okay so this search blue for search
+ 
+
+597
+00:13:38,720 --> 00:13:41,110
+okay so this search blue for search
+we call it brief research does not is no
+
+598
+00:13:41,110 --> 00:13:41,120
+we call it brief research does not is no
+ 
+
+599
+00:13:41,120 --> 00:13:41,990
+we call it brief research does not is no
+idea
+
+600
+00:13:41,990 --> 00:13:42,000
+idea
+ 
+
+601
+00:13:42,000 --> 00:13:43,670
+idea
+so i give you a hint that dynamic
+
+602
+00:13:43,670 --> 00:13:43,680
+so i give you a hint that dynamic
+ 
+
+603
+00:13:43,680 --> 00:13:45,269
+so i give you a hint that dynamic
+programming so
+
+604
+00:13:45,269 --> 00:13:45,279
+programming so
+ 
+
+605
+00:13:45,279 --> 00:13:48,550
+programming so
+suppose i'm here at the last house
+
+606
+00:13:48,550 --> 00:13:48,560
+suppose i'm here at the last house
+ 
+
+607
+00:13:48,560 --> 00:13:53,030
+suppose i'm here at the last house
+yeah yeah so
+
+608
+00:13:53,030 --> 00:13:53,040
+
+ 
+
+609
+00:13:53,040 --> 00:13:56,230
+
+so does it uh
+
+610
+00:13:56,230 --> 00:13:56,240
+so does it uh
+ 
+
+611
+00:13:56,240 --> 00:13:59,110
+so does it uh
+if i'm at this last house and then i can
+
+612
+00:13:59,110 --> 00:13:59,120
+if i'm at this last house and then i can
+ 
+
+613
+00:13:59,120 --> 00:13:59,910
+if i'm at this last house and then i can
+collect it
+
+614
+00:13:59,910 --> 00:13:59,920
+collect it
+ 
+
+615
+00:13:59,920 --> 00:14:03,829
+collect it
+yeah if i collect it
+
+616
+00:14:03,829 --> 00:14:03,839
+yeah if i collect it
+ 
+
+617
+00:14:03,839 --> 00:14:05,910
+yeah if i collect it
+i can't collect this one yeah i can pick
+
+618
+00:14:05,910 --> 00:14:05,920
+i can't collect this one yeah i can pick
+ 
+
+619
+00:14:05,920 --> 00:14:07,269
+i can't collect this one yeah i can pick
+this one
+
+620
+00:14:07,269 --> 00:14:07,279
+this one
+ 
+
+621
+00:14:07,279 --> 00:14:10,310
+this one
+so so i i will compare to
+
+622
+00:14:10,310 --> 00:14:10,320
+so so i i will compare to
+ 
+
+623
+00:14:10,320 --> 00:14:12,710
+so so i i will compare to
+if i pick this one if i pick this house
+
+624
+00:14:12,710 --> 00:14:12,720
+if i pick this one if i pick this house
+ 
+
+625
+00:14:12,720 --> 00:14:13,590
+if i pick this one if i pick this house
+i will pick
+
+626
+00:14:13,590 --> 00:14:13,600
+i will pick
+ 
+
+627
+00:14:13,600 --> 00:14:16,629
+i will pick
+pick i will pick
+
+628
+00:14:16,629 --> 00:14:16,639
+pick i will pick
+ 
+
+629
+00:14:16,639 --> 00:14:18,949
+pick i will pick
+the previous location would be this one
+
+630
+00:14:18,949 --> 00:14:18,959
+the previous location would be this one
+ 
+
+631
+00:14:18,959 --> 00:14:19,910
+the previous location would be this one
+right
+
+632
+00:14:19,910 --> 00:14:19,920
+right
+ 
+
+633
+00:14:19,920 --> 00:14:23,829
+right
+yeah or i don't pick this one
+
+634
+00:14:23,829 --> 00:14:23,839
+yeah or i don't pick this one
+ 
+
+635
+00:14:23,839 --> 00:14:25,509
+yeah or i don't pick this one
+i don't pick this one and the previous
+
+636
+00:14:25,509 --> 00:14:25,519
+i don't pick this one and the previous
+ 
+
+637
+00:14:25,519 --> 00:14:27,030
+i don't pick this one and the previous
+location could be this one
+
+638
+00:14:27,030 --> 00:14:27,040
+location could be this one
+ 
+
+639
+00:14:27,040 --> 00:14:30,230
+location could be this one
+do you see it yes
+
+640
+00:14:30,230 --> 00:14:30,240
+do you see it yes
+ 
+
+641
+00:14:30,240 --> 00:14:33,509
+do you see it yes
+so look if i use fn to
+
+642
+00:14:33,509 --> 00:14:33,519
+so look if i use fn to
+ 
+
+643
+00:14:33,519 --> 00:14:36,550
+so look if i use fn to
+to represent the number of the number of
+
+644
+00:14:36,550 --> 00:14:36,560
+to represent the number of the number of
+ 
+
+645
+00:14:36,560 --> 00:14:38,310
+to represent the number of the number of
+values i can collect
+
+646
+00:14:38,310 --> 00:14:38,320
+values i can collect
+ 
+
+647
+00:14:38,320 --> 00:14:41,509
+values i can collect
+the numbers i can collect at house n
+
+648
+00:14:41,509 --> 00:14:41,519
+the numbers i can collect at house n
+ 
+
+649
+00:14:41,519 --> 00:14:44,550
+the numbers i can collect at house n
+yeah am i mm-hmm
+
+650
+00:14:44,550 --> 00:14:44,560
+yeah am i mm-hmm
+ 
+
+651
+00:14:44,560 --> 00:14:48,550
+yeah am i mm-hmm
+so let's see f1 equals one
+
+652
+00:14:48,550 --> 00:14:48,560
+
+ 
+
+653
+00:14:48,560 --> 00:14:51,590
+
+if i'm at if i i walk from the left to
+
+654
+00:14:51,590 --> 00:14:51,600
+if i'm at if i i walk from the left to
+ 
+
+655
+00:14:51,600 --> 00:14:52,310
+if i'm at if i i walk from the left to
+the right
+
+656
+00:14:52,310 --> 00:14:52,320
+the right
+ 
+
+657
+00:14:52,320 --> 00:14:56,629
+the right
+okay so f1 is representing the number of
+
+658
+00:14:56,629 --> 00:14:56,639
+okay so f1 is representing the number of
+ 
+
+659
+00:14:56,639 --> 00:14:59,269
+okay so f1 is representing the number of
+values that i can collect from house one
+
+660
+00:14:59,269 --> 00:14:59,279
+values that i can collect from house one
+ 
+
+661
+00:14:59,279 --> 00:15:00,389
+values that i can collect from house one
+to house n
+
+662
+00:15:00,389 --> 00:15:00,399
+to house n
+ 
+
+663
+00:15:00,399 --> 00:15:03,750
+to house n
+you know between this range f1 equals
+
+664
+00:15:03,750 --> 00:15:03,760
+you know between this range f1 equals
+ 
+
+665
+00:15:03,760 --> 00:15:05,350
+you know between this range f1 equals
+one
+
+666
+00:15:05,350 --> 00:15:05,360
+one
+ 
+
+667
+00:15:05,360 --> 00:15:08,470
+one
+f1 equals
+
+668
+00:15:08,470 --> 00:15:08,480
+f1 equals
+ 
+
+669
+00:15:08,480 --> 00:15:10,550
+f1 equals
+the house one yeah yeah because they
+
+670
+00:15:10,550 --> 00:15:10,560
+the house one yeah yeah because they
+ 
+
+671
+00:15:10,560 --> 00:15:12,389
+the house one yeah yeah because they
+look if there's only half one house and
+
+672
+00:15:12,389 --> 00:15:12,399
+look if there's only half one house and
+ 
+
+673
+00:15:12,399 --> 00:15:14,710
+look if there's only half one house and
+then i can pick it i either pick it yeah
+
+674
+00:15:14,710 --> 00:15:14,720
+then i can pick it i either pick it yeah
+ 
+
+675
+00:15:14,720 --> 00:15:16,230
+then i can pick it i either pick it yeah
+yeah because if i don't pick it i go
+
+676
+00:15:16,230 --> 00:15:16,240
+yeah because if i don't pick it i go
+ 
+
+677
+00:15:16,240 --> 00:15:18,150
+yeah because if i don't pick it i go
+nothing i pick it
+
+678
+00:15:18,150 --> 00:15:18,160
+nothing i pick it
+ 
+
+679
+00:15:18,160 --> 00:15:22,069
+nothing i pick it
+yeah also will be house one okay
+
+680
+00:15:22,069 --> 00:15:22,079
+yeah also will be house one okay
+ 
+
+681
+00:15:22,079 --> 00:15:25,350
+yeah also will be house one okay
+okay f2 equals one
+
+682
+00:15:25,350 --> 00:15:25,360
+okay f2 equals one
+ 
+
+683
+00:15:25,360 --> 00:15:28,389
+okay f2 equals one
+so there are two houses so
+
+684
+00:15:28,389 --> 00:15:28,399
+so there are two houses so
+ 
+
+685
+00:15:28,399 --> 00:15:31,590
+so there are two houses so
+which way the biggest yes we'll begin so
+
+686
+00:15:31,590 --> 00:15:31,600
+which way the biggest yes we'll begin so
+ 
+
+687
+00:15:31,600 --> 00:15:32,550
+which way the biggest yes we'll begin so
+there will be max
+
+688
+00:15:32,550 --> 00:15:32,560
+there will be max
+ 
+
+689
+00:15:32,560 --> 00:15:36,790
+there will be max
+of house one and house two right
+
+690
+00:15:36,790 --> 00:15:36,800
+of house one and house two right
+ 
+
+691
+00:15:36,800 --> 00:15:38,870
+of house one and house two right
+yeah yeah because there are two houses i
+
+692
+00:15:38,870 --> 00:15:38,880
+yeah yeah because there are two houses i
+ 
+
+693
+00:15:38,880 --> 00:15:40,629
+yeah yeah because there are two houses i
+can pick pick one or two it doesn't
+
+694
+00:15:40,629 --> 00:15:40,639
+can pick pick one or two it doesn't
+ 
+
+695
+00:15:40,639 --> 00:15:41,430
+can pick pick one or two it doesn't
+matter
+
+696
+00:15:41,430 --> 00:15:41,440
+matter
+ 
+
+697
+00:15:41,440 --> 00:15:44,790
+matter
+so look if fn houses so how horse you
+
+698
+00:15:44,790 --> 00:15:44,800
+so look if fn houses so how horse you
+ 
+
+699
+00:15:44,800 --> 00:15:48,470
+so look if fn houses so how horse you
+will write it
+
+700
+00:15:48,470 --> 00:15:48,480
+
+ 
+
+701
+00:15:48,480 --> 00:15:52,829
+
+okay i i look up
+
+702
+00:15:52,829 --> 00:15:52,839
+
+ 
+
+703
+00:15:52,839 --> 00:15:55,509
+
+fn so if i pick it what's
+
+704
+00:15:55,509 --> 00:15:55,519
+fn so if i pick it what's
+ 
+
+705
+00:15:55,519 --> 00:15:58,790
+fn so if i pick it what's
+what's the value if i pick it
+
+706
+00:15:58,790 --> 00:15:58,800
+what's the value if i pick it
+ 
+
+707
+00:15:58,800 --> 00:16:01,430
+what's the value if i pick it
+and then house n so if i pick it what's
+
+708
+00:16:01,430 --> 00:16:01,440
+and then house n so if i pick it what's
+ 
+
+709
+00:16:01,440 --> 00:16:03,670
+and then house n so if i pick it what's
+the value
+
+710
+00:16:03,670 --> 00:16:03,680
+the value
+ 
+
+711
+00:16:03,680 --> 00:16:08,470
+the value
+f pick it that will be house n right
+
+712
+00:16:08,470 --> 00:16:08,480
+f pick it that will be house n right
+ 
+
+713
+00:16:08,480 --> 00:16:11,749
+f pick it that will be house n right
+house n yeah i pick it yeah
+
+714
+00:16:11,749 --> 00:16:11,759
+house n yeah i pick it yeah
+ 
+
+715
+00:16:11,759 --> 00:16:15,350
+house n yeah i pick it yeah
+yeah and plus
+
+716
+00:16:15,350 --> 00:16:15,360
+yeah and plus
+ 
+
+717
+00:16:15,360 --> 00:16:22,230
+yeah and plus
+which value plus we usually
+
+718
+00:16:22,230 --> 00:16:22,240
+which value plus we usually
+ 
+
+719
+00:16:22,240 --> 00:16:25,590
+which value plus we usually
+this bit what's this bit
+
+720
+00:16:25,590 --> 00:16:25,600
+this bit what's this bit
+ 
+
+721
+00:16:25,600 --> 00:16:30,550
+this bit what's this bit
+uh so i picked the house end
+
+722
+00:16:30,550 --> 00:16:30,560
+uh so i picked the house end
+ 
+
+723
+00:16:30,560 --> 00:16:32,790
+uh so i picked the house end
+and i i can't take this house n minus
+
+724
+00:16:32,790 --> 00:16:32,800
+and i i can't take this house n minus
+ 
+
+725
+00:16:32,800 --> 00:16:34,230
+and i i can't take this house n minus
+one but i can
+
+726
+00:16:34,230 --> 00:16:34,240
+one but i can
+ 
+
+727
+00:16:34,240 --> 00:16:36,710
+one but i can
+i can pick i can i can check those
+
+728
+00:16:36,710 --> 00:16:36,720
+i can pick i can i can check those
+ 
+
+729
+00:16:36,720 --> 00:16:37,829
+i can pick i can i can check those
+values so which
+
+730
+00:16:37,829 --> 00:16:37,839
+values so which
+ 
+
+731
+00:16:37,839 --> 00:16:41,110
+values so which
+this is the sub problem of which what
+
+732
+00:16:41,110 --> 00:16:41,120
+this is the sub problem of which what
+ 
+
+733
+00:16:41,120 --> 00:16:46,069
+this is the sub problem of which what
+f as what look fn
+
+734
+00:16:46,069 --> 00:16:46,079
+f as what look fn
+ 
+
+735
+00:16:46,079 --> 00:16:48,230
+f as what look fn
+i pick this one i can't pick this one so
+
+736
+00:16:48,230 --> 00:16:48,240
+i pick this one i can't pick this one so
+ 
+
+737
+00:16:48,240 --> 00:16:49,430
+i pick this one i can't pick this one so
+what's this this bit
+
+738
+00:16:49,430 --> 00:16:49,440
+what's this this bit
+ 
+
+739
+00:16:49,440 --> 00:16:54,389
+what's this this bit
+this problem f and and y and minus
+
+740
+00:16:54,389 --> 00:16:54,399
+this problem f and and y and minus
+ 
+
+741
+00:16:54,399 --> 00:16:57,110
+this problem f and and y and minus
+two yeah we're gonna be confident look
+
+742
+00:16:57,110 --> 00:16:57,120
+two yeah we're gonna be confident look
+ 
+
+743
+00:16:57,120 --> 00:16:58,069
+two yeah we're gonna be confident look
+yes okay
+
+744
+00:16:58,069 --> 00:16:58,079
+yes okay
+ 
+
+745
+00:16:58,079 --> 00:17:00,629
+yes okay
+so i i pick this half and i can pick
+
+746
+00:17:00,629 --> 00:17:00,639
+so i i pick this half and i can pick
+ 
+
+747
+00:17:00,639 --> 00:17:02,069
+so i i pick this half and i can pick
+this n minus one
+
+748
+00:17:02,069 --> 00:17:02,079
+this n minus one
+ 
+
+749
+00:17:02,079 --> 00:17:05,110
+this n minus one
+but i can pick this bit yeah which which
+
+750
+00:17:05,110 --> 00:17:05,120
+but i can pick this bit yeah which which
+ 
+
+751
+00:17:05,120 --> 00:17:05,990
+but i can pick this bit yeah which which
+is the problem
+
+752
+00:17:05,990 --> 00:17:06,000
+is the problem
+ 
+
+753
+00:17:06,000 --> 00:17:10,470
+is the problem
+f minus two yeah and
+
+754
+00:17:10,470 --> 00:17:10,480
+f minus two yeah and
+ 
+
+755
+00:17:10,480 --> 00:17:13,669
+f minus two yeah and
+maximum of least if i don't
+
+756
+00:17:13,669 --> 00:17:13,679
+maximum of least if i don't
+ 
+
+757
+00:17:13,679 --> 00:17:16,390
+maximum of least if i don't
+if i don't pick this one so what should
+
+758
+00:17:16,390 --> 00:17:16,400
+if i don't pick this one so what should
+ 
+
+759
+00:17:16,400 --> 00:17:16,949
+if i don't pick this one so what should
+i
+
+760
+00:17:16,949 --> 00:17:16,959
+i
+ 
+
+761
+00:17:16,959 --> 00:17:19,029
+i
+what's the value if i'm not picking this
+
+762
+00:17:19,029 --> 00:17:19,039
+what's the value if i'm not picking this
+ 
+
+763
+00:17:19,039 --> 00:17:20,470
+what's the value if i'm not picking this
+one
+
+764
+00:17:20,470 --> 00:17:20,480
+one
+ 
+
+765
+00:17:20,480 --> 00:17:24,390
+one
+and what's this bit
+
+766
+00:17:24,390 --> 00:17:24,400
+and what's this bit
+ 
+
+767
+00:17:24,400 --> 00:17:26,470
+and what's this bit
+if i don't pick this one then i i could
+
+768
+00:17:26,470 --> 00:17:26,480
+if i don't pick this one then i i could
+ 
+
+769
+00:17:26,480 --> 00:17:28,309
+if i don't pick this one then i i could
+possibly pick this one and what's this
+
+770
+00:17:28,309 --> 00:17:28,319
+possibly pick this one and what's this
+ 
+
+771
+00:17:28,319 --> 00:17:30,950
+possibly pick this one and what's this
+problem
+
+772
+00:17:30,950 --> 00:17:30,960
+
+ 
+
+773
+00:17:30,960 --> 00:17:40,230
+
+what's the biggest problem
+
+774
+00:17:40,230 --> 00:17:40,240
+
+ 
+
+775
+00:17:40,240 --> 00:17:42,789
+
+fn the house end there's two choice i
+
+776
+00:17:42,789 --> 00:17:42,799
+fn the house end there's two choice i
+ 
+
+777
+00:17:42,799 --> 00:17:43,830
+fn the house end there's two choice i
+pick it
+
+778
+00:17:43,830 --> 00:17:43,840
+pick it
+ 
+
+779
+00:17:43,840 --> 00:17:45,990
+pick it
+i pick it then the problem will be the
+
+780
+00:17:45,990 --> 00:17:46,000
+i pick it then the problem will be the
+ 
+
+781
+00:17:46,000 --> 00:17:47,190
+i pick it then the problem will be the
+house n plus
+
+782
+00:17:47,190 --> 00:17:47,200
+house n plus
+ 
+
+783
+00:17:47,200 --> 00:17:49,029
+house n plus
+f minus two yeah i don't know what
+
+784
+00:17:49,029 --> 00:17:49,039
+f minus two yeah i don't know what
+ 
+
+785
+00:17:49,039 --> 00:17:51,350
+f minus two yeah i don't know what
+happened here but i saw i know this is
+
+786
+00:17:51,350 --> 00:17:51,360
+happened here but i saw i know this is
+ 
+
+787
+00:17:51,360 --> 00:17:52,230
+happened here but i saw i know this is
+the problem like
+
+788
+00:17:52,230 --> 00:17:52,240
+the problem like
+ 
+
+789
+00:17:52,240 --> 00:17:55,590
+the problem like
+the answer for n minus two yeah or if i
+
+790
+00:17:55,590 --> 00:17:55,600
+the answer for n minus two yeah or if i
+ 
+
+791
+00:17:55,600 --> 00:17:56,710
+the answer for n minus two yeah or if i
+don't pick it
+
+792
+00:17:56,710 --> 00:17:56,720
+don't pick it
+ 
+
+793
+00:17:56,720 --> 00:17:58,710
+don't pick it
+if i don't pick it then the problem is f
+
+794
+00:17:58,710 --> 00:17:58,720
+if i don't pick it then the problem is f
+ 
+
+795
+00:17:58,720 --> 00:18:00,390
+if i don't pick it then the problem is f
+and minus one yeah because
+
+796
+00:18:00,390 --> 00:18:00,400
+and minus one yeah because
+ 
+
+797
+00:18:00,400 --> 00:18:03,350
+and minus one yeah because
+i don't care what happened here but if i
+
+798
+00:18:03,350 --> 00:18:03,360
+i don't care what happened here but if i
+ 
+
+799
+00:18:03,360 --> 00:18:04,630
+i don't care what happened here but if i
+don't pick this one
+
+800
+00:18:04,630 --> 00:18:04,640
+don't pick this one
+ 
+
+801
+00:18:04,640 --> 00:18:07,430
+don't pick this one
+then the the maximum value i can get is
+
+802
+00:18:07,430 --> 00:18:07,440
+then the the maximum value i can get is
+ 
+
+803
+00:18:07,440 --> 00:18:07,909
+then the the maximum value i can get is
+from this
+
+804
+00:18:07,909 --> 00:18:07,919
+from this
+ 
+
+805
+00:18:07,919 --> 00:18:11,270
+from this
+this bit yeah what's this
+
+806
+00:18:11,270 --> 00:18:11,280
+this bit yeah what's this
+ 
+
+807
+00:18:11,280 --> 00:18:13,110
+this bit yeah what's this
+dynamic programming equation so we can
+
+808
+00:18:13,110 --> 00:18:13,120
+dynamic programming equation so we can
+ 
+
+809
+00:18:13,120 --> 00:18:15,270
+dynamic programming equation so we can
+just solve it we think this look this is
+
+810
+00:18:15,270 --> 00:18:15,280
+just solve it we think this look this is
+ 
+
+811
+00:18:15,280 --> 00:18:17,669
+just solve it we think this look this is
+the terminal condition f1 f2
+
+812
+00:18:17,669 --> 00:18:17,679
+the terminal condition f1 f2
+ 
+
+813
+00:18:17,679 --> 00:18:21,430
+the terminal condition f1 f2
+you know you know how to solve the base
+
+814
+00:18:21,430 --> 00:18:21,440
+you know you know how to solve the base
+ 
+
+815
+00:18:21,440 --> 00:18:24,230
+you know you know how to solve the base
+condition small the smallest problem f1
+
+816
+00:18:24,230 --> 00:18:24,240
+condition small the smallest problem f1
+ 
+
+817
+00:18:24,240 --> 00:18:26,150
+condition small the smallest problem f1
+f2 right
+
+818
+00:18:26,150 --> 00:18:26,160
+f2 right
+ 
+
+819
+00:18:26,160 --> 00:18:29,350
+f2 right
+and then now we have n and the f
+
+820
+00:18:29,350 --> 00:18:29,360
+and then now we have n and the f
+ 
+
+821
+00:18:29,360 --> 00:18:32,630
+and then now we have n and the f
+n can be divided into a smaller problem
+
+822
+00:18:32,630 --> 00:18:32,640
+n can be divided into a smaller problem
+ 
+
+823
+00:18:32,640 --> 00:18:34,630
+n can be divided into a smaller problem
+yeah you see look in order to calculate
+
+824
+00:18:34,630 --> 00:18:34,640
+yeah you see look in order to calculate
+ 
+
+825
+00:18:34,640 --> 00:18:36,470
+yeah you see look in order to calculate
+f n
+
+826
+00:18:36,470 --> 00:18:36,480
+f n
+ 
+
+827
+00:18:36,480 --> 00:18:39,190
+f n
+we we we want to calculate f minus to an
+
+828
+00:18:39,190 --> 00:18:39,200
+we we we want to calculate f minus to an
+ 
+
+829
+00:18:39,200 --> 00:18:39,590
+we we we want to calculate f minus to an
+s
+
+830
+00:18:39,590 --> 00:18:39,600
+s
+ 
+
+831
+00:18:39,600 --> 00:18:42,789
+s
+n minus one so this seems uh
+
+832
+00:18:42,789 --> 00:18:42,799
+n minus one so this seems uh
+ 
+
+833
+00:18:42,799 --> 00:18:45,430
+n minus one so this seems uh
+looks similar to a fibonacci number yeah
+
+834
+00:18:45,430 --> 00:18:45,440
+looks similar to a fibonacci number yeah
+ 
+
+835
+00:18:45,440 --> 00:18:46,870
+looks similar to a fibonacci number yeah
+instead of this slightly different we
+
+836
+00:18:46,870 --> 00:18:46,880
+instead of this slightly different we
+ 
+
+837
+00:18:46,880 --> 00:18:48,470
+instead of this slightly different we
+need to add the value the value the
+
+838
+00:18:48,470 --> 00:18:48,480
+need to add the value the value the
+ 
+
+839
+00:18:48,480 --> 00:18:51,190
+need to add the value the value the
+value of the house are known
+
+840
+00:18:51,190 --> 00:18:51,200
+value of the house are known
+ 
+
+841
+00:18:51,200 --> 00:18:54,870
+value of the house are known
+yeah okay does it make sense
+
+842
+00:18:54,870 --> 00:18:54,880
+yeah okay does it make sense
+ 
+
+843
+00:18:54,880 --> 00:18:58,870
+yeah okay does it make sense
+what's the complexity if we're using the
+
+844
+00:18:58,870 --> 00:18:58,880
+what's the complexity if we're using the
+ 
+
+845
+00:18:58,880 --> 00:19:01,990
+what's the complexity if we're using the
+notebook thing yeah do you get it we are
+
+846
+00:19:01,990 --> 00:19:02,000
+notebook thing yeah do you get it we are
+ 
+
+847
+00:19:02,000 --> 00:19:03,190
+notebook thing yeah do you get it we are
+talking about the mooc
+
+848
+00:19:03,190 --> 00:19:03,200
+talking about the mooc
+ 
+
+849
+00:19:03,200 --> 00:19:06,230
+talking about the mooc
+minimization what's the complexity
+
+850
+00:19:06,230 --> 00:19:06,240
+minimization what's the complexity
+ 
+
+851
+00:19:06,240 --> 00:19:09,270
+minimization what's the complexity
+oh yeah when because they are
+
+852
+00:19:09,270 --> 00:19:09,280
+oh yeah when because they are
+ 
+
+853
+00:19:09,280 --> 00:19:12,470
+oh yeah when because they are
+why is online
+
+854
+00:19:12,470 --> 00:19:12,480
+
+ 
+
+855
+00:19:12,480 --> 00:19:15,029
+
+and then each for each house fn is only
+
+856
+00:19:15,029 --> 00:19:15,039
+and then each for each house fn is only
+ 
+
+857
+00:19:15,039 --> 00:19:16,870
+and then each for each house fn is only
+calculated
+
+858
+00:19:16,870 --> 00:19:16,880
+calculated
+ 
+
+859
+00:19:16,880 --> 00:19:20,150
+calculated
+how many times
+
+860
+00:19:20,150 --> 00:19:20,160
+
+ 
+
+861
+00:19:20,160 --> 00:19:26,230
+
+uh how many times
+
+862
+00:19:26,230 --> 00:19:26,240
+
+ 
+
+863
+00:19:26,240 --> 00:19:27,750
+
+we're using the notebook why are we
+
+864
+00:19:27,750 --> 00:19:27,760
+we're using the notebook why are we
+ 
+
+865
+00:19:27,760 --> 00:19:29,510
+we're using the notebook why are we
+using the notebook
+
+866
+00:19:29,510 --> 00:19:29,520
+using the notebook
+ 
+
+867
+00:19:29,520 --> 00:19:31,830
+using the notebook
+we are going to remember it yeah yeah so
+
+868
+00:19:31,830 --> 00:19:31,840
+we are going to remember it yeah yeah so
+ 
+
+869
+00:19:31,840 --> 00:19:33,029
+we are going to remember it yeah yeah so
+for each house
+
+870
+00:19:33,029 --> 00:19:33,039
+for each house
+ 
+
+871
+00:19:33,039 --> 00:19:37,110
+for each house
+this only calculate how many times
+
+872
+00:19:37,110 --> 00:19:37,120
+
+ 
+
+873
+00:19:37,120 --> 00:19:39,750
+
+what yes yes that's why we use a number
+
+874
+00:19:39,750 --> 00:19:39,760
+what yes yes that's why we use a number
+ 
+
+875
+00:19:39,760 --> 00:19:41,350
+what yes yes that's why we use a number
+okay let's try this
+
+876
+00:19:41,350 --> 00:19:41,360
+okay let's try this
+ 
+
+877
+00:19:41,360 --> 00:19:47,510
+okay let's try this
+so it's simple okay
+
+878
+00:19:47,510 --> 00:19:47,520
+
+ 
+
+879
+00:19:47,520 --> 00:19:50,070
+
+okay i'm going to write it okay look
+
+880
+00:19:50,070 --> 00:19:50,080
+okay i'm going to write it okay look
+ 
+
+881
+00:19:50,080 --> 00:19:51,350
+okay i'm going to write it okay look
+define
+
+882
+00:19:51,350 --> 00:19:51,360
+define
+ 
+
+883
+00:19:51,360 --> 00:19:54,150
+define
+let's say f4 function and then we have
+
+884
+00:19:54,150 --> 00:19:54,160
+let's say f4 function and then we have
+ 
+
+885
+00:19:54,160 --> 00:19:55,190
+let's say f4 function and then we have
+the
+
+886
+00:19:55,190 --> 00:19:55,200
+the
+ 
+
+887
+00:19:55,200 --> 00:19:58,470
+the
+house value okay house value yeah
+
+888
+00:19:58,470 --> 00:19:58,480
+house value okay house value yeah
+ 
+
+889
+00:19:58,480 --> 00:20:03,750
+house value okay house value yeah
+house value and then
+
+890
+00:20:03,750 --> 00:20:03,760
+
+ 
+
+891
+00:20:03,760 --> 00:20:06,789
+
+okay let's maybe just do the uh
+
+892
+00:20:06,789 --> 00:20:06,799
+okay let's maybe just do the uh
+ 
+
+893
+00:20:06,799 --> 00:20:10,310
+okay let's maybe just do the uh
+value okay valuable right value
+
+894
+00:20:10,310 --> 00:20:10,320
+value okay valuable right value
+ 
+
+895
+00:20:10,320 --> 00:20:13,669
+value okay valuable right value
+comma okay so the length n will be lens
+
+896
+00:20:13,669 --> 00:20:13,679
+comma okay so the length n will be lens
+ 
+
+897
+00:20:13,679 --> 00:20:17,029
+comma okay so the length n will be lens
+all right yeah
+
+898
+00:20:17,029 --> 00:20:17,039
+all right yeah
+ 
+
+899
+00:20:17,039 --> 00:20:20,070
+all right yeah
+yeah the lens how many houses okay
+
+900
+00:20:20,070 --> 00:20:20,080
+yeah the lens how many houses okay
+ 
+
+901
+00:20:20,080 --> 00:20:22,230
+yeah the lens how many houses okay
+this is a list of numbers yeah v will be
+
+902
+00:20:22,230 --> 00:20:22,240
+this is a list of numbers yeah v will be
+ 
+
+903
+00:20:22,240 --> 00:20:23,750
+this is a list of numbers yeah v will be
+like one two three
+
+904
+00:20:23,750 --> 00:20:23,760
+like one two three
+ 
+
+905
+00:20:23,760 --> 00:20:27,110
+like one two three
+zero five seven yeah you'll be like that
+
+906
+00:20:27,110 --> 00:20:27,120
+zero five seven yeah you'll be like that
+ 
+
+907
+00:20:27,120 --> 00:20:27,590
+zero five seven yeah you'll be like that
+yeah
+
+908
+00:20:27,590 --> 00:20:27,600
+yeah
+ 
+
+909
+00:20:27,600 --> 00:20:30,470
+yeah
+okay and then n dance n will be one two
+
+910
+00:20:30,470 --> 00:20:30,480
+okay and then n dance n will be one two
+ 
+
+911
+00:20:30,480 --> 00:20:32,230
+okay and then n dance n will be one two
+three four five so what's n here
+
+912
+00:20:32,230 --> 00:20:32,240
+three four five so what's n here
+ 
+
+913
+00:20:32,240 --> 00:20:36,070
+three four five so what's n here
+what's the value and
+
+914
+00:20:36,070 --> 00:20:36,080
+
+ 
+
+915
+00:20:36,080 --> 00:20:37,990
+
+what's the value of n equals length v
+
+916
+00:20:37,990 --> 00:20:38,000
+what's the value of n equals length v
+ 
+
+917
+00:20:38,000 --> 00:20:40,950
+what's the value of n equals length v
+what's the value i went
+
+918
+00:20:40,950 --> 00:20:40,960
+what's the value i went
+ 
+
+919
+00:20:40,960 --> 00:20:44,470
+what's the value i went
+blank how many elements left five
+
+920
+00:20:44,470 --> 00:20:44,480
+blank how many elements left five
+ 
+
+921
+00:20:44,480 --> 00:20:48,390
+blank how many elements left five
+so lowest n five yeah it's easy okay now
+
+922
+00:20:48,390 --> 00:20:48,400
+so lowest n five yeah it's easy okay now
+ 
+
+923
+00:20:48,400 --> 00:20:52,149
+so lowest n five yeah it's easy okay now
+we need to create a array okay let's say
+
+924
+00:20:52,149 --> 00:20:52,159
+we need to create a array okay let's say
+ 
+
+925
+00:20:52,159 --> 00:20:55,190
+we need to create a array okay let's say
+uh dynamic programming array okay
+
+926
+00:20:55,190 --> 00:20:55,200
+uh dynamic programming array okay
+ 
+
+927
+00:20:55,200 --> 00:20:56,230
+uh dynamic programming array okay
+dynamic problem
+
+928
+00:20:56,230 --> 00:20:56,240
+dynamic problem
+ 
+
+929
+00:20:56,240 --> 00:20:59,110
+dynamic problem
+already equals zero initially for each
+
+930
+00:20:59,110 --> 00:20:59,120
+already equals zero initially for each
+ 
+
+931
+00:20:59,120 --> 00:21:01,110
+already equals zero initially for each
+value is zero locally syntax
+
+932
+00:21:01,110 --> 00:21:01,120
+value is zero locally syntax
+ 
+
+933
+00:21:01,120 --> 00:21:04,549
+value is zero locally syntax
+bracket zero but times we use that star
+
+934
+00:21:04,549 --> 00:21:04,559
+bracket zero but times we use that star
+ 
+
+935
+00:21:04,559 --> 00:21:07,430
+bracket zero but times we use that star
+times n so what it means is that n is
+
+936
+00:21:07,430 --> 00:21:07,440
+times n so what it means is that n is
+ 
+
+937
+00:21:07,440 --> 00:21:09,110
+times n so what it means is that n is
+five and after this
+
+938
+00:21:09,110 --> 00:21:09,120
+five and after this
+ 
+
+939
+00:21:09,120 --> 00:21:11,270
+five and after this
+we're creating an array of five so we
+
+940
+00:21:11,270 --> 00:21:11,280
+we're creating an array of five so we
+ 
+
+941
+00:21:11,280 --> 00:21:12,710
+we're creating an array of five so we
+which will be zero
+
+942
+00:21:12,710 --> 00:21:12,720
+which will be zero
+ 
+
+943
+00:21:12,720 --> 00:21:16,310
+which will be zero
+zero zero zero zero got it
+
+944
+00:21:16,310 --> 00:21:16,320
+zero zero zero zero got it
+ 
+
+945
+00:21:16,320 --> 00:21:20,310
+zero zero zero zero got it
+yeah so after this dp is this yeah yeah
+
+946
+00:21:20,310 --> 00:21:20,320
+yeah so after this dp is this yeah yeah
+ 
+
+947
+00:21:20,320 --> 00:21:24,230
+yeah so after this dp is this yeah yeah
+is it simple yeah times n yeah
+
+948
+00:21:24,230 --> 00:21:24,240
+is it simple yeah times n yeah
+ 
+
+949
+00:21:24,240 --> 00:21:26,630
+is it simple yeah times n yeah
+a bracket a bucket with number zero
+
+950
+00:21:26,630 --> 00:21:26,640
+a bracket a bucket with number zero
+ 
+
+951
+00:21:26,640 --> 00:21:28,630
+a bracket a bucket with number zero
+times five equals this
+
+952
+00:21:28,630 --> 00:21:28,640
+times five equals this
+ 
+
+953
+00:21:28,640 --> 00:21:33,669
+times five equals this
+okay yeah okay okay now
+
+954
+00:21:33,669 --> 00:21:33,679
+
+ 
+
+955
+00:21:33,679 --> 00:21:36,870
+
+let's look
+
+956
+00:21:36,870 --> 00:21:36,880
+let's look
+ 
+
+957
+00:21:36,880 --> 00:21:40,470
+let's look
+if n equals zero
+
+958
+00:21:40,470 --> 00:21:40,480
+if n equals zero
+ 
+
+959
+00:21:40,480 --> 00:21:42,789
+if n equals zero
+okay we return zero okay if there's no
+
+960
+00:21:42,789 --> 00:21:42,799
+okay we return zero okay if there's no
+ 
+
+961
+00:21:42,799 --> 00:21:44,149
+okay we return zero okay if there's no
+houses we return zero
+
+962
+00:21:44,149 --> 00:21:44,159
+houses we return zero
+ 
+
+963
+00:21:44,159 --> 00:21:47,430
+houses we return zero
+okay yes
+
+964
+00:21:47,430 --> 00:21:47,440
+okay yes
+ 
+
+965
+00:21:47,440 --> 00:21:49,990
+okay yes
+actually this should go here okay it
+
+966
+00:21:49,990 --> 00:21:50,000
+actually this should go here okay it
+ 
+
+967
+00:21:50,000 --> 00:21:50,789
+actually this should go here okay it
+doesn't matter
+
+968
+00:21:50,789 --> 00:21:50,799
+doesn't matter
+ 
+
+969
+00:21:50,799 --> 00:21:54,630
+doesn't matter
+if n equals one what should we return
+
+970
+00:21:54,630 --> 00:21:54,640
+if n equals one what should we return
+ 
+
+971
+00:21:54,640 --> 00:21:56,230
+if n equals one what should we return
+if there is only one house it's once we
+
+972
+00:21:56,230 --> 00:21:56,240
+if there is only one house it's once we
+ 
+
+973
+00:21:56,240 --> 00:21:59,510
+if there is only one house it's once we
+return
+
+974
+00:21:59,510 --> 00:21:59,520
+
+ 
+
+975
+00:21:59,520 --> 00:22:02,630
+
+so which is v 0 yeah
+
+976
+00:22:02,630 --> 00:22:02,640
+so which is v 0 yeah
+ 
+
+977
+00:22:02,640 --> 00:22:05,830
+so which is v 0 yeah
+v 0 is the first house if n
+
+978
+00:22:05,830 --> 00:22:05,840
+v 0 is the first house if n
+ 
+
+979
+00:22:05,840 --> 00:22:09,510
+v 0 is the first house if n
+equals 2 return
+
+980
+00:22:09,510 --> 00:22:09,520
+equals 2 return
+ 
+
+981
+00:22:09,520 --> 00:22:12,789
+equals 2 return
+so how do we write it return next
+
+982
+00:22:12,789 --> 00:22:12,799
+so how do we write it return next
+ 
+
+983
+00:22:12,799 --> 00:22:16,310
+so how do we write it return next
+v0 and v1
+
+984
+00:22:16,310 --> 00:22:16,320
+v0 and v1
+ 
+
+985
+00:22:16,320 --> 00:22:19,350
+v0 and v1
+one one okay now at least
+
+986
+00:22:19,350 --> 00:22:19,360
+one one okay now at least
+ 
+
+987
+00:22:19,360 --> 00:22:22,710
+one one okay now at least
+this is okay and then what return
+
+988
+00:22:22,710 --> 00:22:22,720
+this is okay and then what return
+ 
+
+989
+00:22:22,720 --> 00:22:25,510
+this is okay and then what return
+yeah the thing i want to pick the
+
+990
+00:22:25,510 --> 00:22:25,520
+yeah the thing i want to pick the
+ 
+
+991
+00:22:25,520 --> 00:22:26,149
+yeah the thing i want to pick the
+maximum
+
+992
+00:22:26,149 --> 00:22:26,159
+maximum
+ 
+
+993
+00:22:26,159 --> 00:22:35,110
+maximum
+of one of these two if i pick that
+
+994
+00:22:35,110 --> 00:22:35,120
+
+ 
+
+995
+00:22:35,120 --> 00:22:38,830
+
+actually we are missing the parameter
+
+996
+00:22:38,830 --> 00:22:38,840
+actually we are missing the parameter
+ 
+
+997
+00:22:38,840 --> 00:22:40,710
+actually we are missing the parameter
+here
+
+998
+00:22:40,710 --> 00:22:40,720
+here
+ 
+
+999
+00:22:40,720 --> 00:22:42,870
+here
+we are missing a parameter uh actually i
+
+1000
+00:22:42,870 --> 00:22:42,880
+we are missing a parameter uh actually i
+ 
+
+1001
+00:22:42,880 --> 00:22:44,230
+we are missing a parameter uh actually i
+only pick
+
+1002
+00:22:44,230 --> 00:22:44,240
+only pick
+ 
+
+1003
+00:22:44,240 --> 00:22:47,510
+only pick
+pic k okay now it's k
+
+1004
+00:22:47,510 --> 00:22:47,520
+pic k okay now it's k
+ 
+
+1005
+00:22:47,520 --> 00:22:51,270
+pic k okay now it's k
+so look this will be uh
+
+1006
+00:22:51,270 --> 00:22:51,280
+so look this will be uh
+ 
+
+1007
+00:22:51,280 --> 00:23:00,310
+so look this will be uh
+because because it's not n so n is
+
+1008
+00:23:00,310 --> 00:23:00,320
+
+ 
+
+1009
+00:23:00,320 --> 00:23:08,310
+
+how can we write this better
+
+1010
+00:23:08,310 --> 00:23:08,320
+how can we write this better
+ 
+
+1011
+00:23:08,320 --> 00:23:10,820
+how can we write this better
+so look uh if n equals uh
+
+1012
+00:23:10,820 --> 00:23:10,830
+so look uh if n equals uh
+ 
+
+1013
+00:23:10,830 --> 00:23:13,430
+so look uh if n equals uh
+[Music]
+
+1014
+00:23:13,430 --> 00:23:13,440
+[Music]
+ 
+
+1015
+00:23:13,440 --> 00:23:16,230
+[Music]
+so actually this value should be put
+
+1016
+00:23:16,230 --> 00:23:16,240
+so actually this value should be put
+ 
+
+1017
+00:23:16,240 --> 00:23:18,470
+so actually this value should be put
+outside
+
+1018
+00:23:18,470 --> 00:23:18,480
+outside
+ 
+
+1019
+00:23:18,480 --> 00:23:22,149
+outside
+okay so so look if n
+
+1020
+00:23:22,149 --> 00:23:22,159
+okay so so look if n
+ 
+
+1021
+00:23:22,159 --> 00:23:22,440
+okay so so look if n
+uh
+
+1022
+00:23:22,440 --> 00:23:22,450
+uh
+ 
+
+1023
+00:23:22,450 --> 00:23:25,510
+uh
+[Music]
+
+1024
+00:23:25,510 --> 00:23:25,520
+
+ 
+
+1025
+00:23:25,520 --> 00:23:28,630
+
+if k equals zero
+
+1026
+00:23:28,630 --> 00:23:28,640
+if k equals zero
+ 
+
+1027
+00:23:28,640 --> 00:23:31,590
+if k equals zero
+uh k equals zero returns zero if k
+
+1028
+00:23:31,590 --> 00:23:31,600
+uh k equals zero returns zero if k
+ 
+
+1029
+00:23:31,600 --> 00:23:33,110
+uh k equals zero returns zero if k
+equals one return
+
+1030
+00:23:33,110 --> 00:23:33,120
+equals one return
+ 
+
+1031
+00:23:33,120 --> 00:23:36,789
+equals one return
+v one if k equals two return v to
+
+1032
+00:23:36,789 --> 00:23:36,799
+v one if k equals two return v to
+ 
+
+1033
+00:23:36,799 --> 00:23:38,950
+v one if k equals two return v to
+return okay i'll fix the data again
+
+1034
+00:23:38,950 --> 00:23:38,960
+return okay i'll fix the data again
+ 
+
+1035
+00:23:38,960 --> 00:23:41,510
+return okay i'll fix the data again
+return maxima if i want to pick k
+
+1036
+00:23:41,510 --> 00:23:41,520
+return maxima if i want to pick k
+ 
+
+1037
+00:23:41,520 --> 00:23:43,909
+return maxima if i want to pick k
+i'm currently okay so the house value
+
+1038
+00:23:43,909 --> 00:23:43,919
+i'm currently okay so the house value
+ 
+
+1039
+00:23:43,919 --> 00:23:45,909
+i'm currently okay so the house value
+will be vk
+
+1040
+00:23:45,909 --> 00:23:45,919
+will be vk
+ 
+
+1041
+00:23:45,919 --> 00:23:49,510
+will be vk
+plus f v
+
+1042
+00:23:49,510 --> 00:23:49,520
+plus f v
+ 
+
+1043
+00:23:49,520 --> 00:23:53,669
+plus f v
+k minus 2 right or if i don't pick it
+
+1044
+00:23:53,669 --> 00:23:53,679
+k minus 2 right or if i don't pick it
+ 
+
+1045
+00:23:53,679 --> 00:23:57,110
+k minus 2 right or if i don't pick it
+so it will be f v k minus 1
+
+1046
+00:23:57,110 --> 00:23:57,120
+so it will be f v k minus 1
+ 
+
+1047
+00:23:57,120 --> 00:24:00,549
+so it will be f v k minus 1
+right yeah yes
+
+1048
+00:24:00,549 --> 00:24:00,559
+right yeah yes
+ 
+
+1049
+00:24:00,559 --> 00:24:03,990
+right yeah yes
+come on come on yeah okay so now
+
+1050
+00:24:03,990 --> 00:24:04,000
+come on come on yeah okay so now
+ 
+
+1051
+00:24:04,000 --> 00:24:07,350
+come on come on yeah okay so now
+so we can call this is fv
+
+1052
+00:24:07,350 --> 00:24:07,360
+so we can call this is fv
+ 
+
+1053
+00:24:07,360 --> 00:24:11,909
+so we can call this is fv
+then length v minus one because we are
+
+1054
+00:24:11,909 --> 00:24:11,919
+then length v minus one because we are
+ 
+
+1055
+00:24:11,919 --> 00:24:13,669
+then length v minus one because we are
+getting that so we don't need that dp
+
+1056
+00:24:13,669 --> 00:24:13,679
+getting that so we don't need that dp
+ 
+
+1057
+00:24:13,679 --> 00:24:15,269
+getting that so we don't need that dp
+value yeah because look it will
+
+1058
+00:24:15,269 --> 00:24:15,279
+value yeah because look it will
+ 
+
+1059
+00:24:15,279 --> 00:24:18,390
+value yeah because look it will
+be going it will be the space condition
+
+1060
+00:24:18,390 --> 00:24:18,400
+be going it will be the space condition
+ 
+
+1061
+00:24:18,400 --> 00:24:19,269
+be going it will be the space condition
+here yeah
+
+1062
+00:24:19,269 --> 00:24:19,279
+here yeah
+ 
+
+1063
+00:24:19,279 --> 00:24:22,230
+here yeah
+so what's missing here if i implement
+
+1064
+00:24:22,230 --> 00:24:22,240
+so what's missing here if i implement
+ 
+
+1065
+00:24:22,240 --> 00:24:24,710
+so what's missing here if i implement
+this what's the complexity
+
+1066
+00:24:24,710 --> 00:24:24,720
+this what's the complexity
+ 
+
+1067
+00:24:24,720 --> 00:24:31,110
+this what's the complexity
+what's the complexity
+
+1068
+00:24:31,110 --> 00:24:31,120
+
+ 
+
+1069
+00:24:31,120 --> 00:24:33,190
+
+because this is recursion we don't need
+
+1070
+00:24:33,190 --> 00:24:33,200
+because this is recursion we don't need
+ 
+
+1071
+00:24:33,200 --> 00:24:35,510
+because this is recursion we don't need
+to let dp array but i can show you later
+
+1072
+00:24:35,510 --> 00:24:35,520
+to let dp array but i can show you later
+ 
+
+1073
+00:24:35,520 --> 00:24:36,149
+to let dp array but i can show you later
+why we
+
+1074
+00:24:36,149 --> 00:24:36,159
+why we
+ 
+
+1075
+00:24:36,159 --> 00:24:39,909
+why we
+we need it in the top bottom of dynamic
+
+1076
+00:24:39,909 --> 00:24:39,919
+we need it in the top bottom of dynamic
+ 
+
+1077
+00:24:39,919 --> 00:24:42,390
+we need it in the top bottom of dynamic
+programming this is top down remember
+
+1078
+00:24:42,390 --> 00:24:42,400
+programming this is top down remember
+ 
+
+1079
+00:24:42,400 --> 00:24:45,269
+programming this is top down remember
+top down because in order to calculate f
+
+1080
+00:24:45,269 --> 00:24:45,279
+top down because in order to calculate f
+ 
+
+1081
+00:24:45,279 --> 00:24:46,390
+top down because in order to calculate f
+n we need to calculate
+
+1082
+00:24:46,390 --> 00:24:46,400
+n we need to calculate
+ 
+
+1083
+00:24:46,400 --> 00:24:49,110
+n we need to calculate
+f n minus 1 and f y minus 2 yeah and
+
+1084
+00:24:49,110 --> 00:24:49,120
+f n minus 1 and f y minus 2 yeah and
+ 
+
+1085
+00:24:49,120 --> 00:24:51,029
+f n minus 1 and f y minus 2 yeah and
+this is the equation yeah
+
+1086
+00:24:51,029 --> 00:24:51,039
+this is the equation yeah
+ 
+
+1087
+00:24:51,039 --> 00:24:54,230
+this is the equation yeah
+okay what's missing what's missing here
+
+1088
+00:24:54,230 --> 00:24:54,240
+okay what's missing what's missing here
+ 
+
+1089
+00:24:54,240 --> 00:24:58,390
+okay what's missing what's missing here
+we need to catch it easily
+
+1090
+00:24:58,390 --> 00:24:58,400
+
+ 
+
+1091
+00:24:58,400 --> 00:25:00,520
+
+cache yeah
+
+1092
+00:25:00,520 --> 00:25:00,530
+cache yeah
+ 
+
+1093
+00:25:00,530 --> 00:25:03,669
+cache yeah
+[Music]
+
+1094
+00:25:03,669 --> 00:25:03,679
+[Music]
+ 
+
+1095
+00:25:03,679 --> 00:25:06,549
+[Music]
+actually you can just do cash yeah this
+
+1096
+00:25:06,549 --> 00:25:06,559
+actually you can just do cash yeah this
+ 
+
+1097
+00:25:06,559 --> 00:25:08,390
+actually you can just do cash yeah this
+cash string is equals to
+
+1098
+00:25:08,390 --> 00:25:08,400
+cash string is equals to
+ 
+
+1099
+00:25:08,400 --> 00:25:11,750
+cash string is equals to
+f a i u cash
+
+1100
+00:25:11,750 --> 00:25:11,760
+f a i u cash
+ 
+
+1101
+00:25:11,760 --> 00:25:14,070
+f a i u cash
+now okay this is the same thing needs to
+
+1102
+00:25:14,070 --> 00:25:14,080
+now okay this is the same thing needs to
+ 
+
+1103
+00:25:14,080 --> 00:25:14,870
+now okay this is the same thing needs to
+this is your
+
+1104
+00:25:14,870 --> 00:25:14,880
+this is your
+ 
+
+1105
+00:25:14,880 --> 00:25:17,750
+this is your
+cache oh we can we can do this using the
+
+1106
+00:25:17,750 --> 00:25:17,760
+cache oh we can we can do this using the
+ 
+
+1107
+00:25:17,760 --> 00:25:19,430
+cache oh we can we can do this using the
+notebook yeah remember
+
+1108
+00:25:19,430 --> 00:25:19,440
+notebook yeah remember
+ 
+
+1109
+00:25:19,440 --> 00:25:22,789
+notebook yeah remember
+yeah yeah no book
+
+1110
+00:25:22,789 --> 00:25:22,799
+yeah yeah no book
+ 
+
+1111
+00:25:22,799 --> 00:25:27,269
+yeah yeah no book
+yes no book and if
+
+1112
+00:25:27,269 --> 00:25:27,279
+yes no book and if
+ 
+
+1113
+00:25:27,279 --> 00:25:30,789
+yes no book and if
+notebook equal uh if okay actually
+
+1114
+00:25:30,789 --> 00:25:30,799
+notebook equal uh if okay actually
+ 
+
+1115
+00:25:30,799 --> 00:25:33,590
+notebook equal uh if okay actually
+if we move this v outside we don't need
+
+1116
+00:25:33,590 --> 00:25:33,600
+if we move this v outside we don't need
+ 
+
+1117
+00:25:33,600 --> 00:25:34,149
+if we move this v outside we don't need
+to pass
+
+1118
+00:25:34,149 --> 00:25:34,159
+to pass
+ 
+
+1119
+00:25:34,159 --> 00:25:36,149
+to pass
+v it's not changing this no one right
+
+1120
+00:25:36,149 --> 00:25:36,159
+v it's not changing this no one right
+ 
+
+1121
+00:25:36,159 --> 00:25:37,590
+v it's not changing this no one right
+away the house
+
+1122
+00:25:37,590 --> 00:25:37,600
+away the house
+ 
+
+1123
+00:25:37,600 --> 00:25:40,630
+away the house
+value is known so we k
+
+1124
+00:25:40,630 --> 00:25:40,640
+value is known so we k
+ 
+
+1125
+00:25:40,640 --> 00:25:47,110
+value is known so we k
+this is just fk yeah got it
+
+1126
+00:25:47,110 --> 00:25:47,120
+
+ 
+
+1127
+00:25:47,120 --> 00:25:50,230
+
+so if this value is is outside if you
+
+1128
+00:25:50,230 --> 00:25:50,240
+so if this value is is outside if you
+ 
+
+1129
+00:25:50,240 --> 00:25:51,510
+so if this value is is outside if you
+want to reference it
+
+1130
+00:25:51,510 --> 00:25:51,520
+want to reference it
+ 
+
+1131
+00:25:51,520 --> 00:25:56,710
+want to reference it
+we need to use the global keyword global
+
+1132
+00:25:56,710 --> 00:25:56,720
+we need to use the global keyword global
+ 
+
+1133
+00:25:56,720 --> 00:25:59,590
+we need to use the global keyword global
+v okay so look using the notebook then
+
+1134
+00:25:59,590 --> 00:25:59,600
+v okay so look using the notebook then
+ 
+
+1135
+00:25:59,600 --> 00:26:01,750
+v okay so look using the notebook then
+we can we can do this if k in notebook
+
+1136
+00:26:01,750 --> 00:26:01,760
+we can we can do this if k in notebook
+ 
+
+1137
+00:26:01,760 --> 00:26:03,590
+we can we can do this if k in notebook
+we do turn notebook k
+
+1138
+00:26:03,590 --> 00:26:03,600
+we do turn notebook k
+ 
+
+1139
+00:26:03,600 --> 00:26:05,350
+we do turn notebook k
+and then before returning the value we
+
+1140
+00:26:05,350 --> 00:26:05,360
+and then before returning the value we
+ 
+
+1141
+00:26:05,360 --> 00:26:07,029
+and then before returning the value we
+save this into a value
+
+1142
+00:26:07,029 --> 00:26:07,039
+save this into a value
+ 
+
+1143
+00:26:07,039 --> 00:26:10,549
+save this into a value
+and then notebook k equals value return
+
+1144
+00:26:10,549 --> 00:26:10,559
+and then notebook k equals value return
+ 
+
+1145
+00:26:10,559 --> 00:26:12,390
+and then notebook k equals value return
+value all right i'm going to write it
+
+1146
+00:26:12,390 --> 00:26:12,400
+value all right i'm going to write it
+ 
+
+1147
+00:26:12,400 --> 00:26:13,669
+value all right i'm going to write it
+it's quite similar
+
+1148
+00:26:13,669 --> 00:26:13,679
+it's quite similar
+ 
+
+1149
+00:26:13,679 --> 00:26:16,149
+it's quite similar
+than yesterday okay so i'm talking about
+
+1150
+00:26:16,149 --> 00:26:16,159
+than yesterday okay so i'm talking about
+ 
+
+1151
+00:26:16,159 --> 00:26:17,909
+than yesterday okay so i'm talking about
+uh
+
+1152
+00:26:17,909 --> 00:26:17,919
+uh
+ 
+
+1153
+00:26:17,919 --> 00:26:21,190
+uh
+the okay um look i talked a little bit
+
+1154
+00:26:21,190 --> 00:26:21,200
+the okay um look i talked a little bit
+ 
+
+1155
+00:26:21,200 --> 00:26:24,310
+the okay um look i talked a little bit
+about the python here look eric
+
+1156
+00:26:24,310 --> 00:26:24,320
+about the python here look eric
+ 
+
+1157
+00:26:24,320 --> 00:26:27,590
+about the python here look eric
+define this is a function f yeah with
+
+1158
+00:26:27,590 --> 00:26:27,600
+define this is a function f yeah with
+ 
+
+1159
+00:26:27,600 --> 00:26:28,470
+define this is a function f yeah with
+nothing
+
+1160
+00:26:28,470 --> 00:26:28,480
+nothing
+ 
+
+1161
+00:26:28,480 --> 00:26:32,149
+nothing
+and if i want to print
+
+1162
+00:26:32,149 --> 00:26:32,159
+
+ 
+
+1163
+00:26:32,159 --> 00:26:35,590
+
+uh array here yeah i don't care
+
+1164
+00:26:35,590 --> 00:26:35,600
+uh array here yeah i don't care
+ 
+
+1165
+00:26:35,600 --> 00:26:38,390
+uh array here yeah i don't care
+m is defined outside this function area
+
+1166
+00:26:38,390 --> 00:26:38,400
+m is defined outside this function area
+ 
+
+1167
+00:26:38,400 --> 00:26:39,909
+m is defined outside this function area
+equals
+
+1168
+00:26:39,909 --> 00:26:39,919
+equals
+ 
+
+1169
+00:26:39,919 --> 00:26:44,230
+equals
+eight okay yeah yeah
+
+1170
+00:26:44,230 --> 00:26:44,240
+eight okay yeah yeah
+ 
+
+1171
+00:26:44,240 --> 00:26:47,590
+eight okay yeah yeah
+and this confusing number look
+
+1172
+00:26:47,590 --> 00:26:47,600
+and this confusing number look
+ 
+
+1173
+00:26:47,600 --> 00:26:50,230
+and this confusing number look
+yeah okay look this is not going to work
+
+1174
+00:26:50,230 --> 00:26:50,240
+yeah okay look this is not going to work
+ 
+
+1175
+00:26:50,240 --> 00:26:51,190
+yeah okay look this is not going to work
+why is that
+
+1176
+00:26:51,190 --> 00:26:51,200
+why is that
+ 
+
+1177
+00:26:51,200 --> 00:26:54,870
+why is that
+because this function is in the scope
+
+1178
+00:26:54,870 --> 00:26:54,880
+because this function is in the scope
+ 
+
+1179
+00:26:54,880 --> 00:26:58,789
+because this function is in the scope
+in the stone different than this
+
+1180
+00:26:58,789 --> 00:26:58,799
+in the stone different than this
+ 
+
+1181
+00:26:58,799 --> 00:27:01,750
+in the stone different than this
+but in order to use eric here i need to
+
+1182
+00:27:01,750 --> 00:27:01,760
+but in order to use eric here i need to
+ 
+
+1183
+00:27:01,760 --> 00:27:05,190
+but in order to use eric here i need to
+i need to add a keyword global
+
+1184
+00:27:05,190 --> 00:27:05,200
+i need to add a keyword global
+ 
+
+1185
+00:27:05,200 --> 00:27:08,789
+i need to add a keyword global
+globa eric that means i
+
+1186
+00:27:08,789 --> 00:27:08,799
+globa eric that means i
+ 
+
+1187
+00:27:08,799 --> 00:27:11,029
+globa eric that means i
+i want to use eric and then print area
+
+1188
+00:27:11,029 --> 00:27:11,039
+i want to use eric and then print area
+ 
+
+1189
+00:27:11,039 --> 00:27:11,990
+i want to use eric and then print area
+will be eight
+
+1190
+00:27:11,990 --> 00:27:12,000
+will be eight
+ 
+
+1191
+00:27:12,000 --> 00:27:14,549
+will be eight
+if i don't at least how does if i don't
+
+1192
+00:27:14,549 --> 00:27:14,559
+if i don't at least how does if i don't
+ 
+
+1193
+00:27:14,559 --> 00:27:15,190
+if i don't at least how does if i don't
+at least
+
+1194
+00:27:15,190 --> 00:27:15,200
+at least
+ 
+
+1195
+00:27:15,200 --> 00:27:19,430
+at least
+this will print these will be
+
+1196
+00:27:19,430 --> 00:27:19,440
+this will print these will be
+ 
+
+1197
+00:27:19,440 --> 00:27:22,310
+this will print these will be
+a reference it will be none okay you you
+
+1198
+00:27:22,310 --> 00:27:22,320
+a reference it will be none okay you you
+ 
+
+1199
+00:27:22,320 --> 00:27:23,029
+a reference it will be none okay you you
+because if
+
+1200
+00:27:23,029 --> 00:27:23,039
+because if
+ 
+
+1201
+00:27:23,039 --> 00:27:26,230
+because if
+this area only lives here yeah
+
+1202
+00:27:26,230 --> 00:27:26,240
+this area only lives here yeah
+ 
+
+1203
+00:27:26,240 --> 00:27:29,590
+this area only lives here yeah
+it doesn't mean outside and then then if
+
+1204
+00:27:29,590 --> 00:27:29,600
+it doesn't mean outside and then then if
+ 
+
+1205
+00:27:29,600 --> 00:27:31,110
+it doesn't mean outside and then then if
+you want to use outside you have to tell
+
+1206
+00:27:31,110 --> 00:27:31,120
+you want to use outside you have to tell
+ 
+
+1207
+00:27:31,120 --> 00:27:32,870
+you want to use outside you have to tell
+computer okay i want to use the area
+
+1208
+00:27:32,870 --> 00:27:32,880
+computer okay i want to use the area
+ 
+
+1209
+00:27:32,880 --> 00:27:34,310
+computer okay i want to use the area
+from outside which is i need to add a
+
+1210
+00:27:34,310 --> 00:27:34,320
+from outside which is i need to add a
+ 
+
+1211
+00:27:34,320 --> 00:27:34,789
+from outside which is i need to add a
+globe
+
+1212
+00:27:34,789 --> 00:27:34,799
+globe
+ 
+
+1213
+00:27:34,799 --> 00:27:38,310
+globe
+it's in a global scope okay yeah
+
+1214
+00:27:38,310 --> 00:27:38,320
+it's in a global scope okay yeah
+ 
+
+1215
+00:27:38,320 --> 00:27:41,350
+it's in a global scope okay yeah
+okay this is one thing
+
+1216
+00:27:41,350 --> 00:27:41,360
+okay this is one thing
+ 
+
+1217
+00:27:41,360 --> 00:27:45,269
+okay this is one thing
+on eight because you're assigning here
+
+1218
+00:27:45,269 --> 00:27:45,279
+on eight because you're assigning here
+ 
+
+1219
+00:27:45,279 --> 00:27:45,909
+on eight because you're assigning here
+arabic
+
+1220
+00:27:45,909 --> 00:27:45,919
+arabic
+ 
+
+1221
+00:27:45,919 --> 00:27:49,110
+arabic
+equals hey i mean you can also do this
+
+1222
+00:27:49,110 --> 00:27:49,120
+equals hey i mean you can also do this
+ 
+
+1223
+00:27:49,120 --> 00:27:50,630
+equals hey i mean you can also do this
+look define
+
+1224
+00:27:50,630 --> 00:27:50,640
+look define
+ 
+
+1225
+00:27:50,640 --> 00:27:53,830
+look define
+f you can put a value here n yeah look
+
+1226
+00:27:53,830 --> 00:27:53,840
+f you can put a value here n yeah look
+ 
+
+1227
+00:27:53,840 --> 00:27:58,710
+f you can put a value here n yeah look
+come on and then you can print all right
+
+1228
+00:27:58,710 --> 00:27:58,720
+
+ 
+
+1229
+00:27:58,720 --> 00:28:02,310
+
+okay if i do this look yeah
+
+1230
+00:28:02,310 --> 00:28:02,320
+okay if i do this look yeah
+ 
+
+1231
+00:28:02,320 --> 00:28:05,990
+okay if i do this look yeah
+yeah now that's okay because this area
+
+1232
+00:28:05,990 --> 00:28:06,000
+yeah now that's okay because this area
+ 
+
+1233
+00:28:06,000 --> 00:28:08,470
+yeah now that's okay because this area
+is this area and then in order to call
+
+1234
+00:28:08,470 --> 00:28:08,480
+is this area and then in order to call
+ 
+
+1235
+00:28:08,480 --> 00:28:09,590
+is this area and then in order to call
+this you have to call this
+
+1236
+00:28:09,590 --> 00:28:09,600
+this you have to call this
+ 
+
+1237
+00:28:09,600 --> 00:28:13,029
+this you have to call this
+f eric yeah right and then you will take
+
+1238
+00:28:13,029 --> 00:28:13,039
+f eric yeah right and then you will take
+ 
+
+1239
+00:28:13,039 --> 00:28:13,750
+f eric yeah right and then you will take
+this arrow
+
+1240
+00:28:13,750 --> 00:28:13,760
+this arrow
+ 
+
+1241
+00:28:13,760 --> 00:28:16,950
+this arrow
+value pass it into the function
+
+1242
+00:28:16,950 --> 00:28:16,960
+value pass it into the function
+ 
+
+1243
+00:28:16,960 --> 00:28:19,510
+value pass it into the function
+then you put the array which is a do you
+
+1244
+00:28:19,510 --> 00:28:19,520
+then you put the array which is a do you
+ 
+
+1245
+00:28:19,520 --> 00:28:20,549
+then you put the array which is a do you
+get it
+
+1246
+00:28:20,549 --> 00:28:20,559
+get it
+ 
+
+1247
+00:28:20,559 --> 00:28:22,950
+get it
+yeah okay this is passing these
+
+1248
+00:28:22,950 --> 00:28:22,960
+yeah okay this is passing these
+ 
+
+1249
+00:28:22,960 --> 00:28:24,630
+yeah okay this is passing these
+parameters
+
+1250
+00:28:24,630 --> 00:28:24,640
+parameters
+ 
+
+1251
+00:28:24,640 --> 00:28:27,350
+parameters
+okay so previously this is that was top
+
+1252
+00:28:27,350 --> 00:28:27,360
+okay so previously this is that was top
+ 
+
+1253
+00:28:27,360 --> 00:28:28,230
+okay so previously this is that was top
+down
+
+1254
+00:28:28,230 --> 00:28:28,240
+down
+ 
+
+1255
+00:28:28,240 --> 00:28:30,950
+down
+top down yeah top down the left corner
+
+1256
+00:28:30,950 --> 00:28:30,960
+top down yeah top down the left corner
+ 
+
+1257
+00:28:30,960 --> 00:28:32,950
+top down yeah top down the left corner
+if we want to calculate fn we calculate
+
+1258
+00:28:32,950 --> 00:28:32,960
+if we want to calculate fn we calculate
+ 
+
+1259
+00:28:32,960 --> 00:28:34,710
+if we want to calculate fn we calculate
+f1 minus one and five minus
+
+1260
+00:28:34,710 --> 00:28:34,720
+f1 minus one and five minus
+ 
+
+1261
+00:28:34,720 --> 00:28:36,310
+f1 minus one and five minus
+and the the other the other way of
+
+1262
+00:28:36,310 --> 00:28:36,320
+and the the other the other way of
+ 
+
+1263
+00:28:36,320 --> 00:28:39,669
+and the the other the other way of
+calculating it which is called
+
+1264
+00:28:39,669 --> 00:28:39,679
+calculating it which is called
+ 
+
+1265
+00:28:39,679 --> 00:28:42,630
+calculating it which is called
+the other direction of dynamic power
+
+1266
+00:28:42,630 --> 00:28:42,640
+the other direction of dynamic power
+ 
+
+1267
+00:28:42,640 --> 00:28:43,350
+the other direction of dynamic power
+button
+
+1268
+00:28:43,350 --> 00:28:43,360
+button
+ 
+
+1269
+00:28:43,360 --> 00:28:46,789
+button
+yeah so in in order to
+
+1270
+00:28:46,789 --> 00:28:46,799
+yeah so in in order to
+ 
+
+1271
+00:28:46,799 --> 00:28:50,870
+yeah so in in order to
+do it the house is here i can just
+
+1272
+00:28:50,870 --> 00:28:50,880
+do it the house is here i can just
+ 
+
+1273
+00:28:50,880 --> 00:28:52,470
+do it the house is here i can just
+start here start here and then i can
+
+1274
+00:28:52,470 --> 00:28:52,480
+start here start here and then i can
+ 
+
+1275
+00:28:52,480 --> 00:28:54,149
+start here start here and then i can
+calculate from the left to the right
+
+1276
+00:28:54,149 --> 00:28:54,159
+calculate from the left to the right
+ 
+
+1277
+00:28:54,159 --> 00:28:58,310
+calculate from the left to the right
+from the f1 f2 to fn right
+
+1278
+00:28:58,310 --> 00:28:58,320
+from the f1 f2 to fn right
+ 
+
+1279
+00:28:58,320 --> 00:29:01,909
+from the f1 f2 to fn right
+yes yeah okay so
+
+1280
+00:29:01,909 --> 00:29:01,919
+yes yeah okay so
+ 
+
+1281
+00:29:01,919 --> 00:29:04,149
+yes yeah okay so
+that one will be we love the recursion
+
+1282
+00:29:04,149 --> 00:29:04,159
+that one will be we love the recursion
+ 
+
+1283
+00:29:04,159 --> 00:29:07,110
+that one will be we love the recursion
+yeah okay so let's do this define
+
+1284
+00:29:07,110 --> 00:29:07,120
+yeah okay so let's do this define
+ 
+
+1285
+00:29:07,120 --> 00:29:10,630
+yeah okay so let's do this define
+i have and we have the houses and we
+
+1286
+00:29:10,630 --> 00:29:10,640
+i have and we have the houses and we
+ 
+
+1287
+00:29:10,640 --> 00:29:14,310
+i have and we have the houses and we
+have houses okay so now again
+
+1288
+00:29:14,310 --> 00:29:14,320
+have houses okay so now again
+ 
+
+1289
+00:29:14,320 --> 00:29:17,590
+have houses okay so now again
+we now we need to do this length equal v
+
+1290
+00:29:17,590 --> 00:29:17,600
+we now we need to do this length equal v
+ 
+
+1291
+00:29:17,600 --> 00:29:21,110
+we now we need to do this length equal v
+yeah okay and then now dp this is the
+
+1292
+00:29:21,110 --> 00:29:21,120
+yeah okay and then now dp this is the
+ 
+
+1293
+00:29:21,120 --> 00:29:23,750
+yeah okay and then now dp this is the
+value of dp db equals zero
+
+1294
+00:29:23,750 --> 00:29:23,760
+value of dp db equals zero
+ 
+
+1295
+00:29:23,760 --> 00:29:25,990
+value of dp db equals zero
+times n so we have an array a way to
+
+1296
+00:29:25,990 --> 00:29:26,000
+times n so we have an array a way to
+ 
+
+1297
+00:29:26,000 --> 00:29:27,190
+times n so we have an array a way to
+keep those values
+
+1298
+00:29:27,190 --> 00:29:27,200
+keep those values
+ 
+
+1299
+00:29:27,200 --> 00:29:29,669
+keep those values
+all right yeah to keep a reverse value
+
+1300
+00:29:29,669 --> 00:29:29,679
+all right yeah to keep a reverse value
+ 
+
+1301
+00:29:29,679 --> 00:29:32,230
+all right yeah to keep a reverse value
+and then
+
+1302
+00:29:32,230 --> 00:29:32,240
+
+ 
+
+1303
+00:29:32,240 --> 00:29:35,110
+
+and again i'm not going to write it if n
+
+1304
+00:29:35,110 --> 00:29:35,120
+and again i'm not going to write it if n
+ 
+
+1305
+00:29:35,120 --> 00:29:35,750
+and again i'm not going to write it if n
+equal
+
+1306
+00:29:35,750 --> 00:29:35,760
+equal
+ 
+
+1307
+00:29:35,760 --> 00:29:38,630
+equal
+if n equals one okay okay let's write if
+
+1308
+00:29:38,630 --> 00:29:38,640
+if n equals one okay okay let's write if
+ 
+
+1309
+00:29:38,640 --> 00:29:39,990
+if n equals one okay okay let's write if
+n equals
+
+1310
+00:29:39,990 --> 00:29:40,000
+n equals
+ 
+
+1311
+00:29:40,000 --> 00:29:44,070
+n equals
+one return at return what
+
+1312
+00:29:44,070 --> 00:29:44,080
+one return at return what
+ 
+
+1313
+00:29:44,080 --> 00:29:48,630
+one return at return what
+v zero yeah yeah
+
+1314
+00:29:48,630 --> 00:29:48,640
+v zero yeah yeah
+ 
+
+1315
+00:29:48,640 --> 00:29:51,990
+v zero yeah yeah
+this should be put in the power
+
+1316
+00:29:51,990 --> 00:29:52,000
+this should be put in the power
+ 
+
+1317
+00:29:52,000 --> 00:29:54,870
+this should be put in the power
+uh before that if n equals zero what's
+
+1318
+00:29:54,870 --> 00:29:54,880
+uh before that if n equals zero what's
+ 
+
+1319
+00:29:54,880 --> 00:29:57,350
+uh before that if n equals zero what's
+your return
+
+1320
+00:29:57,350 --> 00:29:57,360
+your return
+ 
+
+1321
+00:29:57,360 --> 00:30:01,510
+your return
+return here if n
+
+1322
+00:30:01,510 --> 00:30:01,520
+return here if n
+ 
+
+1323
+00:30:01,520 --> 00:30:04,950
+return here if n
+equals two return
+
+1324
+00:30:04,950 --> 00:30:04,960
+
+ 
+
+1325
+00:30:04,960 --> 00:30:12,470
+
+return max
+
+1326
+00:30:12,470 --> 00:30:12,480
+
+ 
+
+1327
+00:30:12,480 --> 00:30:15,990
+
+yeah okay now this is interesting
+
+1328
+00:30:15,990 --> 00:30:16,000
+yeah okay now this is interesting
+ 
+
+1329
+00:30:16,000 --> 00:30:19,350
+yeah okay now this is interesting
+and then we can loop it yeah for
+
+1330
+00:30:19,350 --> 00:30:19,360
+and then we can loop it yeah for
+ 
+
+1331
+00:30:19,360 --> 00:30:22,710
+and then we can loop it yeah for
+i in range
+
+1332
+00:30:22,710 --> 00:30:22,720
+i in range
+ 
+
+1333
+00:30:22,720 --> 00:30:26,630
+i in range
+start from one start from one
+
+1334
+00:30:26,630 --> 00:30:26,640
+start from one start from one
+ 
+
+1335
+00:30:26,640 --> 00:30:32,310
+start from one start from one
+b zero starts from number two we
+
+1336
+00:30:32,310 --> 00:30:32,320
+
+ 
+
+1337
+00:30:32,320 --> 00:30:36,950
+
+start from
+
+1338
+00:30:36,950 --> 00:30:36,960
+start from
+ 
+
+1339
+00:30:36,960 --> 00:30:41,350
+start from
+uh start from two yeah two and then end
+
+1340
+00:30:41,350 --> 00:30:41,360
+uh start from two yeah two and then end
+ 
+
+1341
+00:30:41,360 --> 00:30:46,470
+uh start from two yeah two and then end
+look we just return it yeah but actually
+
+1342
+00:30:46,470 --> 00:30:46,480
+
+ 
+
+1343
+00:30:46,480 --> 00:30:48,870
+
+actually we also need to do this if n
+
+1344
+00:30:48,870 --> 00:30:48,880
+actually we also need to do this if n
+ 
+
+1345
+00:30:48,880 --> 00:30:50,549
+actually we also need to do this if n
+and and here
+
+1346
+00:30:50,549 --> 00:30:50,559
+and and here
+ 
+
+1347
+00:30:50,559 --> 00:30:53,909
+and and here
+here i need to do this d p zero
+
+1348
+00:30:53,909 --> 00:30:53,919
+here i need to do this d p zero
+ 
+
+1349
+00:30:53,919 --> 00:30:57,669
+here i need to do this d p zero
+equals d p zero equals v zero
+
+1350
+00:30:57,669 --> 00:30:57,679
+equals d p zero equals v zero
+ 
+
+1351
+00:30:57,679 --> 00:31:02,070
+equals d p zero equals v zero
+and d p one equals max
+
+1352
+00:31:02,070 --> 00:31:02,080
+and d p one equals max
+ 
+
+1353
+00:31:02,080 --> 00:31:05,909
+and d p one equals max
+v zero v1 right
+
+1354
+00:31:05,909 --> 00:31:05,919
+v zero v1 right
+ 
+
+1355
+00:31:05,919 --> 00:31:10,070
+v zero v1 right
+yeah so that array that array
+
+1356
+00:31:10,070 --> 00:31:10,080
+yeah so that array that array
+ 
+
+1357
+00:31:10,080 --> 00:31:12,549
+yeah so that array that array
+remember this tp array yeah beginning
+
+1358
+00:31:12,549 --> 00:31:12,559
+remember this tp array yeah beginning
+ 
+
+1359
+00:31:12,559 --> 00:31:13,990
+remember this tp array yeah beginning
+with the values i need to
+
+1360
+00:31:13,990 --> 00:31:14,000
+with the values i need to
+ 
+
+1361
+00:31:14,000 --> 00:31:16,389
+with the values i need to
+update the first two values yeah this
+
+1362
+00:31:16,389 --> 00:31:16,399
+update the first two values yeah this
+ 
+
+1363
+00:31:16,399 --> 00:31:17,430
+update the first two values yeah this
+first this
+
+1364
+00:31:17,430 --> 00:31:17,440
+first this
+ 
+
+1365
+00:31:17,440 --> 00:31:19,430
+first this
+first value would be v 0 yeah because
+
+1366
+00:31:19,430 --> 00:31:19,440
+first value would be v 0 yeah because
+ 
+
+1367
+00:31:19,440 --> 00:31:20,630
+first value would be v 0 yeah because
+the
+
+1368
+00:31:20,630 --> 00:31:20,640
+the
+ 
+
+1369
+00:31:20,640 --> 00:31:23,590
+the
+if i pick the the first house i can only
+
+1370
+00:31:23,590 --> 00:31:23,600
+if i pick the the first house i can only
+ 
+
+1371
+00:31:23,600 --> 00:31:24,630
+if i pick the the first house i can only
+pick one right
+
+1372
+00:31:24,630 --> 00:31:24,640
+pick one right
+ 
+
+1373
+00:31:24,640 --> 00:31:26,870
+pick one right
+the second house that's the same value
+
+1374
+00:31:26,870 --> 00:31:26,880
+the second house that's the same value
+ 
+
+1375
+00:31:26,880 --> 00:31:28,470
+the second house that's the same value
+would be max
+
+1376
+00:31:28,470 --> 00:31:28,480
+would be max
+ 
+
+1377
+00:31:28,480 --> 00:31:31,750
+would be max
+of v0 and v1 right yeah
+
+1378
+00:31:31,750 --> 00:31:31,760
+of v0 and v1 right yeah
+ 
+
+1379
+00:31:31,760 --> 00:31:35,830
+of v0 and v1 right yeah
+and then start from two start from two
+
+1380
+00:31:35,830 --> 00:31:35,840
+and then start from two start from two
+ 
+
+1381
+00:31:35,840 --> 00:31:39,029
+and then start from two start from two
+start from two look this is the magic
+
+1382
+00:31:39,029 --> 00:31:39,039
+start from two look this is the magic
+ 
+
+1383
+00:31:39,039 --> 00:31:43,750
+start from two look this is the magic
+dp i dpi
+
+1384
+00:31:43,750 --> 00:31:43,760
+dp i dpi
+ 
+
+1385
+00:31:43,760 --> 00:31:47,909
+dp i dpi
+equals max can you can you say
+
+1386
+00:31:47,909 --> 00:31:47,919
+equals max can you can you say
+ 
+
+1387
+00:31:47,919 --> 00:31:50,950
+equals max can you can you say
+it's almost finished dpi equals max 1
+
+1388
+00:31:50,950 --> 00:31:50,960
+it's almost finished dpi equals max 1
+ 
+
+1389
+00:31:50,960 --> 00:31:54,310
+it's almost finished dpi equals max 1
+3 v i
+
+1390
+00:31:54,310 --> 00:31:54,320
+3 v i
+ 
+
+1391
+00:31:54,320 --> 00:31:58,789
+3 v i
+plus 1 v sorry
+
+1392
+00:31:58,789 --> 00:31:58,799
+plus 1 v sorry
+ 
+
+1393
+00:31:58,799 --> 00:32:01,830
+plus 1 v sorry
+i pick this house and what's the value i
+
+1394
+00:32:01,830 --> 00:32:01,840
+i pick this house and what's the value i
+ 
+
+1395
+00:32:01,840 --> 00:32:02,950
+i pick this house and what's the value i
+need to
+
+1396
+00:32:02,950 --> 00:32:02,960
+need to
+ 
+
+1397
+00:32:02,960 --> 00:32:06,070
+need to
+get i v
+
+1398
+00:32:06,070 --> 00:32:06,080
+get i v
+ 
+
+1399
+00:32:06,080 --> 00:32:09,110
+get i v
+i plus dp1
+
+1400
+00:32:09,110 --> 00:32:09,120
+i plus dp1
+ 
+
+1401
+00:32:09,120 --> 00:32:11,990
+i plus dp1
+i pick the half and then dp what's the
+
+1402
+00:32:11,990 --> 00:32:12,000
+i pick the half and then dp what's the
+ 
+
+1403
+00:32:12,000 --> 00:32:14,630
+i pick the half and then dp what's the
+smaller problem i need to add
+
+1404
+00:32:14,630 --> 00:32:14,640
+smaller problem i need to add
+ 
+
+1405
+00:32:14,640 --> 00:32:17,110
+smaller problem i need to add
+even better i pick this house and then i
+
+1406
+00:32:17,110 --> 00:32:17,120
+even better i pick this house and then i
+ 
+
+1407
+00:32:17,120 --> 00:32:18,149
+even better i pick this house and then i
+need to
+
+1408
+00:32:18,149 --> 00:32:18,159
+need to
+ 
+
+1409
+00:32:18,159 --> 00:32:20,230
+need to
+it's the the total value i can have up
+
+1410
+00:32:20,230 --> 00:32:20,240
+it's the the total value i can have up
+ 
+
+1411
+00:32:20,240 --> 00:32:21,430
+it's the the total value i can have up
+to this point is
+
+1412
+00:32:21,430 --> 00:32:21,440
+to this point is
+ 
+
+1413
+00:32:21,440 --> 00:32:23,269
+to this point is
+this house picking this part and the
+
+1414
+00:32:23,269 --> 00:32:23,279
+this house picking this part and the
+ 
+
+1415
+00:32:23,279 --> 00:32:26,090
+this house picking this part and the
+preview is what
+
+1416
+00:32:26,090 --> 00:32:26,100
+preview is what
+ 
+
+1417
+00:32:26,100 --> 00:32:41,190
+preview is what
+[Music]
+
+1418
+00:32:41,190 --> 00:32:41,200
+
+ 
+
+1419
+00:32:41,200 --> 00:32:44,870
+
+yes and then or i pick i don't pick this
+
+1420
+00:32:44,870 --> 00:32:44,880
+yes and then or i pick i don't pick this
+ 
+
+1421
+00:32:44,880 --> 00:32:45,590
+yes and then or i pick i don't pick this
+house and
+
+1422
+00:32:45,590 --> 00:32:45,600
+house and
+ 
+
+1423
+00:32:45,600 --> 00:32:50,470
+house and
+which is dp1 and then i can dpi
+
+1424
+00:32:50,470 --> 00:32:50,480
+which is dp1 and then i can dpi
+ 
+
+1425
+00:32:50,480 --> 00:32:53,750
+which is dp1 and then i can dpi
+one yeah okay so let now return
+
+1426
+00:32:53,750 --> 00:32:53,760
+one yeah okay so let now return
+ 
+
+1427
+00:32:53,760 --> 00:32:56,870
+one yeah okay so let now return
+determine which value return this this
+
+1428
+00:32:56,870 --> 00:32:56,880
+determine which value return this this
+ 
+
+1429
+00:32:56,880 --> 00:32:59,509
+determine which value return this this
+is the dp array i i calculated
+
+1430
+00:32:59,509 --> 00:32:59,519
+is the dp array i i calculated
+ 
+
+1431
+00:32:59,519 --> 00:33:02,549
+is the dp array i i calculated
+along the way which value is in return
+
+1432
+00:33:02,549 --> 00:33:02,559
+along the way which value is in return
+ 
+
+1433
+00:33:02,559 --> 00:33:05,750
+along the way which value is in return
+dp1 the last value yeah
+
+1434
+00:33:05,750 --> 00:33:05,760
+dp1 the last value yeah
+ 
+
+1435
+00:33:05,760 --> 00:33:08,070
+dp1 the last value yeah
+because i the in-house i want the last
+
+1436
+00:33:08,070 --> 00:33:08,080
+because i the in-house i want the last
+ 
+
+1437
+00:33:08,080 --> 00:33:09,590
+because i the in-house i want the last
+value will be the
+
+1438
+00:33:09,590 --> 00:33:09,600
+value will be the
+ 
+
+1439
+00:33:09,600 --> 00:33:11,669
+value will be the
+maximum value i can get for this end
+
+1440
+00:33:11,669 --> 00:33:11,679
+maximum value i can get for this end
+ 
+
+1441
+00:33:11,679 --> 00:33:13,110
+maximum value i can get for this end
+house so dp
+
+1442
+00:33:13,110 --> 00:33:13,120
+house so dp
+ 
+
+1443
+00:33:13,120 --> 00:33:15,990
+house so dp
+db1 the last value what should i put
+
+1444
+00:33:15,990 --> 00:33:16,000
+db1 the last value what should i put
+ 
+
+1445
+00:33:16,000 --> 00:33:17,509
+db1 the last value what should i put
+here
+
+1446
+00:33:17,509 --> 00:33:17,519
+here
+ 
+
+1447
+00:33:17,519 --> 00:33:19,110
+here
+what that was the last value the first
+
+1448
+00:33:19,110 --> 00:33:19,120
+what that was the last value the first
+ 
+
+1449
+00:33:19,120 --> 00:33:20,549
+what that was the last value the first
+one is minus one
+
+1450
+00:33:20,549 --> 00:33:20,559
+one is minus one
+ 
+
+1451
+00:33:20,559 --> 00:33:24,230
+one is minus one
+we're done yes good job yes
+
+1452
+00:33:24,230 --> 00:33:24,240
+we're done yes good job yes
+ 
+
+1453
+00:33:24,240 --> 00:33:27,350
+we're done yes good job yes
+so look this is bottom up
+
+1454
+00:33:27,350 --> 00:33:27,360
+so look this is bottom up
+ 
+
+1455
+00:33:27,360 --> 00:33:29,509
+so look this is bottom up
+both of our dynamic programming we buy
+
+1456
+00:33:29,509 --> 00:33:29,519
+both of our dynamic programming we buy
+ 
+
+1457
+00:33:29,519 --> 00:33:31,269
+both of our dynamic programming we buy
+we feel english already remember the
+
+1458
+00:33:31,269 --> 00:33:31,279
+we feel english already remember the
+ 
+
+1459
+00:33:31,279 --> 00:33:32,710
+we feel english already remember the
+fibonacci number yeah
+
+1460
+00:33:32,710 --> 00:33:32,720
+fibonacci number yeah
+ 
+
+1461
+00:33:32,720 --> 00:33:34,950
+fibonacci number yeah
+zero one two and we feel we start from
+
+1462
+00:33:34,950 --> 00:33:34,960
+zero one two and we feel we start from
+ 
+
+1463
+00:33:34,960 --> 00:33:36,149
+zero one two and we feel we start from
+zero feeling that way
+
+1464
+00:33:36,149 --> 00:33:36,159
+zero feeling that way
+ 
+
+1465
+00:33:36,159 --> 00:33:38,389
+zero feeling that way
+the previous recursion which the
+
+1466
+00:33:38,389 --> 00:33:38,399
+the previous recursion which the
+ 
+
+1467
+00:33:38,399 --> 00:33:40,230
+the previous recursion which the
+notebook thing is the top down
+
+1468
+00:33:40,230 --> 00:33:40,240
+notebook thing is the top down
+ 
+
+1469
+00:33:40,240 --> 00:33:42,870
+notebook thing is the top down
+starting from the the last one and going
+
+1470
+00:33:42,870 --> 00:33:42,880
+starting from the the last one and going
+ 
+
+1471
+00:33:42,880 --> 00:33:43,990
+starting from the the last one and going
+backward this is going
+
+1472
+00:33:43,990 --> 00:33:44,000
+backward this is going
+ 
+
+1473
+00:33:44,000 --> 00:33:45,269
+backward this is going
+starting from the beginning going
+
+1474
+00:33:45,269 --> 00:33:45,279
+starting from the beginning going
+ 
+
+1475
+00:33:45,279 --> 00:33:47,269
+starting from the beginning going
+forward and then we use the gonna write
+
+1476
+00:33:47,269 --> 00:33:47,279
+forward and then we use the gonna write
+ 
+
+1477
+00:33:47,279 --> 00:33:48,710
+forward and then we use the gonna write
+dp equals zero times
+
+1478
+00:33:48,710 --> 00:33:48,720
+dp equals zero times
+ 
+
+1479
+00:33:48,720 --> 00:33:51,269
+dp equals zero times
+n yeah this is this checking and we feel
+
+1480
+00:33:51,269 --> 00:33:51,279
+n yeah this is this checking and we feel
+ 
+
+1481
+00:33:51,279 --> 00:33:53,110
+n yeah this is this checking and we feel
+these the first two values dbz
+
+1482
+00:33:53,110 --> 00:33:53,120
+these the first two values dbz
+ 
+
+1483
+00:33:53,120 --> 00:33:55,509
+these the first two values dbz
+was the first house yes because we can
+
+1484
+00:33:55,509 --> 00:33:55,519
+was the first house yes because we can
+ 
+
+1485
+00:33:55,519 --> 00:33:56,310
+was the first house yes because we can
+pick it
+
+1486
+00:33:56,310 --> 00:33:56,320
+pick it
+ 
+
+1487
+00:33:56,320 --> 00:33:57,750
+pick it
+yeah it's better we pick it if we don't
+
+1488
+00:33:57,750 --> 00:33:57,760
+yeah it's better we pick it if we don't
+ 
+
+1489
+00:33:57,760 --> 00:34:00,870
+yeah it's better we pick it if we don't
+pick it we get nothing the first one
+
+1490
+00:34:00,870 --> 00:34:00,880
+pick it we get nothing the first one
+ 
+
+1491
+00:34:00,880 --> 00:34:03,750
+pick it we get nothing the first one
+the tp1 for the first two houses we just
+
+1492
+00:34:03,750 --> 00:34:03,760
+the tp1 for the first two houses we just
+ 
+
+1493
+00:34:03,760 --> 00:34:04,870
+the tp1 for the first two houses we just
+pick the maximum
+
+1494
+00:34:04,870 --> 00:34:04,880
+pick the maximum
+ 
+
+1495
+00:34:04,880 --> 00:34:07,750
+pick the maximum
+yeah and and then going through the
+
+1496
+00:34:07,750 --> 00:34:07,760
+yeah and and then going through the
+ 
+
+1497
+00:34:07,760 --> 00:34:08,950
+yeah and and then going through the
+third house
+
+1498
+00:34:08,950 --> 00:34:08,960
+third house
+ 
+
+1499
+00:34:08,960 --> 00:34:12,149
+third house
+two third house yeah because in computer
+
+1500
+00:34:12,149 --> 00:34:12,159
+two third house yeah because in computer
+ 
+
+1501
+00:34:12,159 --> 00:34:13,190
+two third house yeah because in computer
+it's not from zero
+
+1502
+00:34:13,190 --> 00:34:13,200
+it's not from zero
+ 
+
+1503
+00:34:13,200 --> 00:34:16,310
+it's not from zero
+two is the third house and dpi equals if
+
+1504
+00:34:16,310 --> 00:34:16,320
+two is the third house and dpi equals if
+ 
+
+1505
+00:34:16,320 --> 00:34:17,909
+two is the third house and dpi equals if
+i pick this house
+
+1506
+00:34:17,909 --> 00:34:17,919
+i pick this house
+ 
+
+1507
+00:34:17,919 --> 00:34:20,470
+i pick this house
+then i can also collect the maximum
+
+1508
+00:34:20,470 --> 00:34:20,480
+then i can also collect the maximum
+ 
+
+1509
+00:34:20,480 --> 00:34:22,389
+then i can also collect the maximum
+previous i minus two halves this is a
+
+1510
+00:34:22,389 --> 00:34:22,399
+previous i minus two halves this is a
+ 
+
+1511
+00:34:22,399 --> 00:34:23,349
+previous i minus two halves this is a
+sub problem
+
+1512
+00:34:23,349 --> 00:34:23,359
+sub problem
+ 
+
+1513
+00:34:23,359 --> 00:34:25,430
+sub problem
+or if i don't pick this house i can pick
+
+1514
+00:34:25,430 --> 00:34:25,440
+or if i don't pick this house i can pick
+ 
+
+1515
+00:34:25,440 --> 00:34:28,069
+or if i don't pick this house i can pick
+the sub uh previous i minus one houses
+
+1516
+00:34:28,069 --> 00:34:28,079
+the sub uh previous i minus one houses
+ 
+
+1517
+00:34:28,079 --> 00:34:29,030
+the sub uh previous i minus one houses
+right
+
+1518
+00:34:29,030 --> 00:34:29,040
+right
+ 
+
+1519
+00:34:29,040 --> 00:34:31,990
+right
+yeah and then i return the last value
+
+1520
+00:34:31,990 --> 00:34:32,000
+yeah and then i return the last value
+ 
+
+1521
+00:34:32,000 --> 00:34:32,869
+yeah and then i return the last value
+which is the
+
+1522
+00:34:32,869 --> 00:34:32,879
+which is the
+ 
+
+1523
+00:34:32,879 --> 00:34:34,950
+which is the
+maximum value i can collect from the
+
+1524
+00:34:34,950 --> 00:34:34,960
+maximum value i can collect from the
+ 
+
+1525
+00:34:34,960 --> 00:34:37,030
+maximum value i can collect from the
+visiting and houses
+
+1526
+00:34:37,030 --> 00:34:37,040
+visiting and houses
+ 
+
+1527
+00:34:37,040 --> 00:34:41,349
+visiting and houses
+okay so any questions
+
+1528
+00:34:41,349 --> 00:34:41,359
+okay so any questions
+ 
+
+1529
+00:34:41,359 --> 00:34:44,710
+okay so any questions
+any questions so far no okay
+
+1530
+00:34:44,710 --> 00:34:44,720
+any questions so far no okay
+ 
+
+1531
+00:34:44,720 --> 00:34:49,839
+any questions so far no okay
+see you tomorrow no see you tomorrow bye
+

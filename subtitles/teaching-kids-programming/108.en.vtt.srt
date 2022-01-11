@@ -1,0 +1,6685 @@
+1
+00:00:00,240 --> 00:00:03,909
+
+hello hello hello mr eric mr ryan how
+
+2
+00:00:03,909 --> 00:00:03,919
+hello hello hello mr eric mr ryan how
+ 
+
+3
+00:00:03,919 --> 00:00:05,510
+hello hello hello mr eric mr ryan how
+are you today
+
+4
+00:00:05,510 --> 00:00:05,520
+are you today
+ 
+
+5
+00:00:05,520 --> 00:00:08,070
+are you today
+okay so today we're going to talk about
+
+6
+00:00:08,070 --> 00:00:08,080
+okay so today we're going to talk about
+ 
+
+7
+00:00:08,080 --> 00:00:10,150
+okay so today we're going to talk about
+an interesting subject which is called
+
+8
+00:00:10,150 --> 00:00:10,160
+an interesting subject which is called
+ 
+
+9
+00:00:10,160 --> 00:00:11,749
+an interesting subject which is called
+longest
+
+10
+00:00:11,749 --> 00:00:11,759
+longest
+ 
+
+11
+00:00:11,759 --> 00:00:15,270
+longest
+increasing
+
+12
+00:00:15,270 --> 00:00:15,280
+
+ 
+
+13
+00:00:15,280 --> 00:00:17,189
+
+how do subsequence know subsequently
+
+14
+00:00:17,189 --> 00:00:17,199
+how do subsequence know subsequently
+ 
+
+15
+00:00:17,199 --> 00:00:19,109
+how do subsequence know subsequently
+we've watched this video
+
+16
+00:00:19,109 --> 00:00:19,119
+we've watched this video
+ 
+
+17
+00:00:19,119 --> 00:00:22,710
+we've watched this video
+before yeah okay so let's let's
+
+18
+00:00:22,710 --> 00:00:22,720
+before yeah okay so let's let's
+ 
+
+19
+00:00:22,720 --> 00:00:25,269
+before yeah okay so let's let's
+do an example uh do you understand
+
+20
+00:00:25,269 --> 00:00:25,279
+do an example uh do you understand
+ 
+
+21
+00:00:25,279 --> 00:00:27,429
+do an example uh do you understand
+what's the subsequence
+
+22
+00:00:27,429 --> 00:00:27,439
+what's the subsequence
+ 
+
+23
+00:00:27,439 --> 00:00:30,470
+what's the subsequence
+uh you take none or more
+
+24
+00:00:30,470 --> 00:00:30,480
+uh you take none or more
+ 
+
+25
+00:00:30,480 --> 00:00:33,030
+uh you take none or more
+okay so for example eric e-r-i-c what's
+
+26
+00:00:33,030 --> 00:00:33,040
+okay so for example eric e-r-i-c what's
+ 
+
+27
+00:00:33,040 --> 00:00:34,229
+okay so for example eric e-r-i-c what's
+the subsequence can you
+
+28
+00:00:34,229 --> 00:00:34,239
+the subsequence can you
+ 
+
+29
+00:00:34,239 --> 00:00:37,190
+the subsequence can you
+this is a few subsequences of the eric
+
+30
+00:00:37,190 --> 00:00:37,200
+this is a few subsequences of the eric
+ 
+
+31
+00:00:37,200 --> 00:00:39,030
+this is a few subsequences of the eric
+rick
+
+32
+00:00:39,030 --> 00:00:39,040
+rick
+ 
+
+33
+00:00:39,040 --> 00:00:47,990
+rick
+sorry rick rick yeah
+
+34
+00:00:47,990 --> 00:00:48,000
+
+ 
+
+35
+00:00:48,000 --> 00:00:50,229
+
+even eric is the subsequence of eric
+
+36
+00:00:50,229 --> 00:00:50,239
+even eric is the subsequence of eric
+ 
+
+37
+00:00:50,239 --> 00:00:51,270
+even eric is the subsequence of eric
+yeah because you're
+
+38
+00:00:51,270 --> 00:00:51,280
+yeah because you're
+ 
+
+39
+00:00:51,280 --> 00:00:53,830
+yeah because you're
+not allowed to take nothing yeah and
+
+40
+00:00:53,830 --> 00:00:53,840
+not allowed to take nothing yeah and
+ 
+
+41
+00:00:53,840 --> 00:00:54,790
+not allowed to take nothing yeah and
+ryan
+
+42
+00:00:54,790 --> 00:00:54,800
+ryan
+ 
+
+43
+00:00:54,800 --> 00:01:06,789
+ryan
+what's the subsequent yeah
+
+44
+00:01:06,789 --> 00:01:06,799
+
+ 
+
+45
+00:01:06,799 --> 00:01:10,789
+
+basically you are allowed to erase
+
+46
+00:01:10,789 --> 00:01:10,799
+basically you are allowed to erase
+ 
+
+47
+00:01:10,799 --> 00:01:13,910
+basically you are allowed to erase
+nothing or erase
+
+48
+00:01:13,910 --> 00:01:13,920
+nothing or erase
+ 
+
+49
+00:01:13,920 --> 00:01:17,670
+nothing or erase
+anything or you can erase uh o
+
+50
+00:01:17,670 --> 00:01:17,680
+anything or you can erase uh o
+ 
+
+51
+00:01:17,680 --> 00:01:20,950
+anything or you can erase uh o
+so empty string is a subsequence of ryan
+
+52
+00:01:20,950 --> 00:01:20,960
+so empty string is a subsequence of ryan
+ 
+
+53
+00:01:20,960 --> 00:01:24,830
+so empty string is a subsequence of ryan
+okay in technically okay yeah yeah
+
+54
+00:01:24,830 --> 00:01:24,840
+okay in technically okay yeah yeah
+ 
+
+55
+00:01:24,840 --> 00:01:27,270
+okay in technically okay yeah yeah
+okay given an array
+
+56
+00:01:27,270 --> 00:01:27,280
+okay given an array
+ 
+
+57
+00:01:27,280 --> 00:01:31,830
+okay given an array
+with numbers integers yes let's say 0
+
+58
+00:01:31,830 --> 00:01:31,840
+with numbers integers yes let's say 0
+ 
+
+59
+00:01:31,840 --> 00:01:35,030
+with numbers integers yes let's say 0
+9 8 10
+
+60
+00:01:35,030 --> 00:01:35,040
+9 8 10
+ 
+
+61
+00:01:35,040 --> 00:01:38,870
+9 8 10
+2 4 5
+
+62
+00:01:38,870 --> 00:01:38,880
+2 4 5
+ 
+
+63
+00:01:38,880 --> 00:01:43,429
+2 4 5
+what's the longest subsequence
+
+64
+00:01:43,429 --> 00:01:43,439
+
+ 
+
+65
+00:01:43,439 --> 00:01:49,990
+
+um zero eight ten yeah
+
+66
+00:01:49,990 --> 00:01:50,000
+
+ 
+
+67
+00:01:50,000 --> 00:01:55,020
+
+sorry zero three four five one two four
+
+68
+00:01:55,020 --> 00:01:55,030
+sorry zero three four five one two four
+ 
+
+69
+00:01:55,030 --> 00:02:06,709
+sorry zero three four five one two four
+[Music]
+
+70
+00:02:06,709 --> 00:02:06,719
+
+ 
+
+71
+00:02:06,719 --> 00:02:08,630
+
+no because when you pick nine you can't
+
+72
+00:02:08,630 --> 00:02:08,640
+no because when you pick nine you can't
+ 
+
+73
+00:02:08,640 --> 00:02:10,309
+no because when you pick nine you can't
+pick a because this is not increasing
+
+74
+00:02:10,309 --> 00:02:10,319
+pick a because this is not increasing
+ 
+
+75
+00:02:10,319 --> 00:02:11,430
+pick a because this is not increasing
+this is decreasing
+
+76
+00:02:11,430 --> 00:02:11,440
+this is decreasing
+ 
+
+77
+00:02:11,440 --> 00:02:13,589
+this is decreasing
+yeah got it so it's always increasing
+
+78
+00:02:13,589 --> 00:02:13,599
+yeah got it so it's always increasing
+ 
+
+79
+00:02:13,599 --> 00:02:14,470
+yeah got it so it's always increasing
+zero two four
+
+80
+00:02:14,470 --> 00:02:14,480
+zero two four
+ 
+
+81
+00:02:14,480 --> 00:02:17,589
+zero two four
+five right so therefore so our task
+
+82
+00:02:17,589 --> 00:02:17,599
+five right so therefore so our task
+ 
+
+83
+00:02:17,599 --> 00:02:20,150
+five right so therefore so our task
+is to find the longest to count the
+
+84
+00:02:20,150 --> 00:02:20,160
+is to find the longest to count the
+ 
+
+85
+00:02:20,160 --> 00:02:23,190
+is to find the longest to count the
+number of longest
+
+86
+00:02:23,190 --> 00:02:23,200
+number of longest
+ 
+
+87
+00:02:23,200 --> 00:02:25,350
+number of longest
+longest increasing subsequence so that
+
+88
+00:02:25,350 --> 00:02:25,360
+longest increasing subsequence so that
+ 
+
+89
+00:02:25,360 --> 00:02:26,630
+longest increasing subsequence so that
+will be the four numbers
+
+90
+00:02:26,630 --> 00:02:26,640
+will be the four numbers
+ 
+
+91
+00:02:26,640 --> 00:02:30,309
+will be the four numbers
+one thing yeah right one
+
+92
+00:02:30,309 --> 00:02:30,319
+one thing yeah right one
+ 
+
+93
+00:02:30,319 --> 00:02:32,630
+one thing yeah right one
+yeah look at it so the longest
+
+94
+00:02:32,630 --> 00:02:32,640
+yeah look at it so the longest
+ 
+
+95
+00:02:32,640 --> 00:02:33,670
+yeah look at it so the longest
+subsequent will be four
+
+96
+00:02:33,670 --> 00:02:33,680
+subsequent will be four
+ 
+
+97
+00:02:33,680 --> 00:02:36,630
+subsequent will be four
+four elements okay yeah so had any idea
+
+98
+00:02:36,630 --> 00:02:36,640
+four elements okay yeah so had any idea
+ 
+
+99
+00:02:36,640 --> 00:02:38,229
+four elements okay yeah so had any idea
+how are we solving this problem just
+
+100
+00:02:38,229 --> 00:02:38,239
+how are we solving this problem just
+ 
+
+101
+00:02:38,239 --> 00:02:39,110
+how are we solving this problem just
+mine
+
+102
+00:02:39,110 --> 00:02:39,120
+mine
+ 
+
+103
+00:02:39,120 --> 00:02:42,790
+mine
+the longest subsequent so yes how how
+
+104
+00:02:42,790 --> 00:02:42,800
+the longest subsequent so yes how how
+ 
+
+105
+00:02:42,800 --> 00:02:43,750
+the longest subsequent so yes how how
+are we doing this
+
+106
+00:02:43,750 --> 00:02:43,760
+are we doing this
+ 
+
+107
+00:02:43,760 --> 00:02:46,470
+are we doing this
+any ideas just think about it how are we
+
+108
+00:02:46,470 --> 00:02:46,480
+any ideas just think about it how are we
+ 
+
+109
+00:02:46,480 --> 00:02:48,830
+any ideas just think about it how are we
+doing
+
+110
+00:02:48,830 --> 00:02:48,840
+
+ 
+
+111
+00:02:48,840 --> 00:02:52,710
+
+sorry nothing
+
+112
+00:02:52,710 --> 00:02:52,720
+sorry nothing
+ 
+
+113
+00:02:52,720 --> 00:02:55,750
+sorry nothing
+any idea how we're so good wait moving
+
+114
+00:02:55,750 --> 00:02:55,760
+any idea how we're so good wait moving
+ 
+
+115
+00:02:55,760 --> 00:02:57,509
+any idea how we're so good wait moving
+brute forcing yeah that's a good source
+
+116
+00:02:57,509 --> 00:02:57,519
+brute forcing yeah that's a good source
+ 
+
+117
+00:02:57,519 --> 00:02:59,509
+brute forcing yeah that's a good source
+how how are we going to prove our sins
+
+118
+00:02:59,509 --> 00:02:59,519
+how how are we going to prove our sins
+ 
+
+119
+00:02:59,519 --> 00:03:02,710
+how how are we going to prove our sins
+so we find out every possibility of the
+
+120
+00:03:02,710 --> 00:03:02,720
+so we find out every possibility of the
+ 
+
+121
+00:03:02,720 --> 00:03:03,509
+so we find out every possibility of the
+subsequence
+
+122
+00:03:03,509 --> 00:03:03,519
+subsequence
+ 
+
+123
+00:03:03,519 --> 00:03:06,949
+subsequence
+right and then phi is is increasing
+
+124
+00:03:06,949 --> 00:03:06,959
+right and then phi is is increasing
+ 
+
+125
+00:03:06,959 --> 00:03:07,750
+right and then phi is is increasing
+right
+
+126
+00:03:07,750 --> 00:03:07,760
+right
+ 
+
+127
+00:03:07,760 --> 00:03:11,670
+right
+yes yes so remember the subsequence the
+
+128
+00:03:11,670 --> 00:03:11,680
+yes yes so remember the subsequence the
+ 
+
+129
+00:03:11,680 --> 00:03:15,270
+yes yes so remember the subsequence the
+time complexity of choosing that
+
+130
+00:03:15,270 --> 00:03:15,280
+time complexity of choosing that
+ 
+
+131
+00:03:15,280 --> 00:03:18,710
+time complexity of choosing that
+that subsequent is
+
+132
+00:03:18,710 --> 00:03:18,720
+that subsequent is
+ 
+
+133
+00:03:18,720 --> 00:03:22,229
+that subsequent is
+for example like let's say a b how many
+
+134
+00:03:22,229 --> 00:03:22,239
+for example like let's say a b how many
+ 
+
+135
+00:03:22,239 --> 00:03:23,430
+for example like let's say a b how many
+subsequent
+
+136
+00:03:23,430 --> 00:03:23,440
+subsequent
+ 
+
+137
+00:03:23,440 --> 00:03:27,190
+subsequent
+you can pick from two numbers to
+
+138
+00:03:27,190 --> 00:03:27,200
+you can pick from two numbers to
+ 
+
+139
+00:03:27,200 --> 00:03:30,390
+you can pick from two numbers to
+two characters four four yeah
+
+140
+00:03:30,390 --> 00:03:30,400
+two characters four four yeah
+ 
+
+141
+00:03:30,400 --> 00:03:35,110
+two characters four four yeah
+how about abc
+
+142
+00:03:35,110 --> 00:03:35,120
+
+ 
+
+143
+00:03:35,120 --> 00:03:39,110
+
+how many how many possible subsequence
+
+144
+00:03:39,110 --> 00:03:39,120
+how many how many possible subsequence
+ 
+
+145
+00:03:39,120 --> 00:03:42,229
+how many how many possible subsequence
+of abc three three letters
+
+146
+00:03:42,229 --> 00:03:42,239
+of abc three three letters
+ 
+
+147
+00:03:42,239 --> 00:03:46,630
+of abc three three letters
+two is four yes that's right two is four
+
+148
+00:03:46,630 --> 00:03:46,640
+two is four yes that's right two is four
+ 
+
+149
+00:03:46,640 --> 00:03:50,149
+two is four yes that's right two is four
+one is one two right
+
+150
+00:03:50,149 --> 00:03:50,159
+one is one two right
+ 
+
+151
+00:03:50,159 --> 00:03:52,550
+one is one two right
+because you can pick or not pick right
+
+152
+00:03:52,550 --> 00:03:52,560
+because you can pick or not pick right
+ 
+
+153
+00:03:52,560 --> 00:03:53,509
+because you can pick or not pick right
+two is four
+
+154
+00:03:53,509 --> 00:03:53,519
+two is four
+ 
+
+155
+00:03:53,519 --> 00:03:56,789
+two is four
+yeah and three is one six
+
+156
+00:03:56,789 --> 00:03:56,799
+yeah and three is one six
+ 
+
+157
+00:03:56,799 --> 00:04:00,229
+yeah and three is one six
+how is that six
+
+158
+00:04:00,229 --> 00:04:00,239
+how is that six
+ 
+
+159
+00:04:00,239 --> 00:04:03,429
+how is that six
+abc a b c a
+
+160
+00:04:03,429 --> 00:04:03,439
+abc a b c a
+ 
+
+161
+00:04:03,439 --> 00:04:06,550
+abc a b c a
+b a c b c
+
+162
+00:04:06,550 --> 00:04:06,560
+b a c b c
+ 
+
+163
+00:04:06,560 --> 00:04:09,830
+b a c b c
+and what a b c so it's more than six
+
+164
+00:04:09,830 --> 00:04:09,840
+and what a b c so it's more than six
+ 
+
+165
+00:04:09,840 --> 00:04:10,789
+and what a b c so it's more than six
+right
+
+166
+00:04:10,789 --> 00:04:10,799
+right
+ 
+
+167
+00:04:10,799 --> 00:04:12,949
+right
+it's already seven yeah and then you can
+
+168
+00:04:12,949 --> 00:04:12,959
+it's already seven yeah and then you can
+ 
+
+169
+00:04:12,959 --> 00:04:14,869
+it's already seven yeah and then you can
+pick nothing
+
+170
+00:04:14,869 --> 00:04:14,879
+pick nothing
+ 
+
+171
+00:04:14,879 --> 00:04:17,909
+pick nothing
+yeah eight eight yeah so then you get it
+
+172
+00:04:17,909 --> 00:04:17,919
+yeah eight eight yeah so then you get it
+ 
+
+173
+00:04:17,919 --> 00:04:18,870
+yeah eight eight yeah so then you get it
+and four
+
+174
+00:04:18,870 --> 00:04:18,880
+and four
+ 
+
+175
+00:04:18,880 --> 00:04:22,310
+and four
+do you want me to tell you
+
+176
+00:04:22,310 --> 00:04:22,320
+
+ 
+
+177
+00:04:22,320 --> 00:04:25,590
+
+wait come on two four eight
+
+178
+00:04:25,590 --> 00:04:25,600
+wait come on two four eight
+ 
+
+179
+00:04:25,600 --> 00:04:33,350
+wait come on two four eight
+what's next
+
+180
+00:04:33,350 --> 00:04:33,360
+
+ 
+
+181
+00:04:33,360 --> 00:04:35,189
+
+why this is the total number of the
+
+182
+00:04:35,189 --> 00:04:35,199
+why this is the total number of the
+ 
+
+183
+00:04:35,199 --> 00:04:36,790
+why this is the total number of the
+subsequence
+
+184
+00:04:36,790 --> 00:04:36,800
+subsequence
+ 
+
+185
+00:04:36,800 --> 00:04:40,870
+subsequence
+and elements because for each one
+
+186
+00:04:40,870 --> 00:04:40,880
+and elements because for each one
+ 
+
+187
+00:04:40,880 --> 00:04:43,990
+and elements because for each one
+you can choose to pick or don't pick
+
+188
+00:04:43,990 --> 00:04:44,000
+you can choose to pick or don't pick
+ 
+
+189
+00:04:44,000 --> 00:04:46,310
+you can choose to pick or don't pick
+in the subsequence right yeah so for
+
+190
+00:04:46,310 --> 00:04:46,320
+in the subsequence right yeah so for
+ 
+
+191
+00:04:46,320 --> 00:04:47,350
+in the subsequence right yeah so for
+each letter
+
+192
+00:04:47,350 --> 00:04:47,360
+each letter
+ 
+
+193
+00:04:47,360 --> 00:04:50,550
+each letter
+how many possibilities how many
+
+194
+00:04:50,550 --> 00:04:50,560
+how many possibilities how many
+ 
+
+195
+00:04:50,560 --> 00:04:51,430
+how many possibilities how many
+possibilities
+
+196
+00:04:51,430 --> 00:04:51,440
+possibilities
+ 
+
+197
+00:04:51,440 --> 00:04:54,070
+possibilities
+for each one so you pick or not pick how
+
+198
+00:04:54,070 --> 00:04:54,080
+for each one so you pick or not pick how
+ 
+
+199
+00:04:54,080 --> 00:04:58,950
+for each one so you pick or not pick how
+many possibilities eric
+
+200
+00:04:58,950 --> 00:04:58,960
+
+ 
+
+201
+00:04:58,960 --> 00:05:01,990
+
+how many possibilities for a i want to
+
+202
+00:05:01,990 --> 00:05:02,000
+how many possibilities for a i want to
+ 
+
+203
+00:05:02,000 --> 00:05:07,029
+how many possibilities for a i want to
+pick up nothing how many possibilities
+
+204
+00:05:07,029 --> 00:05:07,039
+
+ 
+
+205
+00:05:07,039 --> 00:05:10,550
+
+two i want to take on p how many two
+
+206
+00:05:10,550 --> 00:05:10,560
+two i want to take on p how many two
+ 
+
+207
+00:05:10,560 --> 00:05:12,870
+two i want to take on p how many two
+so it's two times two times two how many
+
+208
+00:05:12,870 --> 00:05:12,880
+so it's two times two times two how many
+ 
+
+209
+00:05:12,880 --> 00:05:13,830
+so it's two times two times two how many
+how many n
+
+210
+00:05:13,830 --> 00:05:13,840
+how many n
+ 
+
+211
+00:05:13,840 --> 00:05:17,029
+how many n
+times so two to the power of n right
+
+212
+00:05:17,029 --> 00:05:17,039
+times so two to the power of n right
+ 
+
+213
+00:05:17,039 --> 00:05:19,029
+times so two to the power of n right
+yeah so that's the total number of
+
+214
+00:05:19,029 --> 00:05:19,039
+yeah so that's the total number of
+ 
+
+215
+00:05:19,039 --> 00:05:20,150
+yeah so that's the total number of
+subsequence yeah
+
+216
+00:05:20,150 --> 00:05:20,160
+subsequence yeah
+ 
+
+217
+00:05:20,160 --> 00:05:24,230
+subsequence yeah
+yeah in other way in other ways because
+
+218
+00:05:24,230 --> 00:05:24,240
+yeah in other way in other ways because
+ 
+
+219
+00:05:24,240 --> 00:05:26,790
+yeah in other way in other ways because
+because n numbers yeah so the
+
+220
+00:05:26,790 --> 00:05:26,800
+because n numbers yeah so the
+ 
+
+221
+00:05:26,800 --> 00:05:28,390
+because n numbers yeah so the
+subsequence could be
+
+222
+00:05:28,390 --> 00:05:28,400
+subsequence could be
+ 
+
+223
+00:05:28,400 --> 00:05:30,469
+subsequence could be
+length yellow could be length one could
+
+224
+00:05:30,469 --> 00:05:30,479
+length yellow could be length one could
+ 
+
+225
+00:05:30,479 --> 00:05:32,550
+length yellow could be length one could
+be length two to be length three right
+
+226
+00:05:32,550 --> 00:05:32,560
+be length two to be length three right
+ 
+
+227
+00:05:32,560 --> 00:05:34,550
+be length two to be length three right
+yeah and then do you still remember the
+
+228
+00:05:34,550 --> 00:05:34,560
+yeah and then do you still remember the
+ 
+
+229
+00:05:34,560 --> 00:05:36,150
+yeah and then do you still remember the
+combination yeah if c
+
+230
+00:05:36,150 --> 00:05:36,160
+combination yeah if c
+ 
+
+231
+00:05:36,160 --> 00:05:39,749
+combination yeah if c
+and zero mean takes nothing
+
+232
+00:05:39,749 --> 00:05:39,759
+and zero mean takes nothing
+ 
+
+233
+00:05:39,759 --> 00:05:43,270
+and zero mean takes nothing
+out of n items and then picks one thing
+
+234
+00:05:43,270 --> 00:05:43,280
+out of n items and then picks one thing
+ 
+
+235
+00:05:43,280 --> 00:05:46,310
+out of n items and then picks one thing
+out of entire items picks two things out
+
+236
+00:05:46,310 --> 00:05:46,320
+out of entire items picks two things out
+ 
+
+237
+00:05:46,320 --> 00:05:48,230
+out of entire items picks two things out
+of anti-items and
+
+238
+00:05:48,230 --> 00:05:48,240
+of anti-items and
+ 
+
+239
+00:05:48,240 --> 00:05:50,390
+of anti-items and
+picks anything out of an item yeah
+
+240
+00:05:50,390 --> 00:05:50,400
+picks anything out of an item yeah
+ 
+
+241
+00:05:50,400 --> 00:05:51,990
+picks anything out of an item yeah
+because that's only one possibility
+
+242
+00:05:51,990 --> 00:05:52,000
+because that's only one possibility
+ 
+
+243
+00:05:52,000 --> 00:05:53,909
+because that's only one possibility
+this is only one percentage if you add
+
+244
+00:05:53,909 --> 00:05:53,919
+this is only one percentage if you add
+ 
+
+245
+00:05:53,919 --> 00:05:55,909
+this is only one percentage if you add
+it add all these what's the total number
+
+246
+00:05:55,909 --> 00:05:55,919
+it add all these what's the total number
+ 
+
+247
+00:05:55,919 --> 00:05:56,629
+it add all these what's the total number
+of
+
+248
+00:05:56,629 --> 00:05:56,639
+of
+ 
+
+249
+00:05:56,639 --> 00:05:59,749
+of
+subsequence if you i always
+
+250
+00:05:59,749 --> 00:05:59,759
+subsequence if you i always
+ 
+
+251
+00:05:59,759 --> 00:06:07,189
+subsequence if you i always
+i just told you what's this subsequent
+
+252
+00:06:07,189 --> 00:06:07,199
+i just told you what's this subsequent
+ 
+
+253
+00:06:07,199 --> 00:06:10,070
+i just told you what's this subsequent
+yeah i would just i was just checking if
+
+254
+00:06:10,070 --> 00:06:10,080
+yeah i would just i was just checking if
+ 
+
+255
+00:06:10,080 --> 00:06:11,749
+yeah i would just i was just checking if
+you're listening oh no okay you're
+
+256
+00:06:11,749 --> 00:06:11,759
+you're listening oh no okay you're
+ 
+
+257
+00:06:11,759 --> 00:06:12,870
+you're listening oh no okay you're
+paying attention
+
+258
+00:06:12,870 --> 00:06:12,880
+paying attention
+ 
+
+259
+00:06:12,880 --> 00:06:16,629
+paying attention
+okay i am yeah okay that's good okay so
+
+260
+00:06:16,629 --> 00:06:16,639
+okay i am yeah okay that's good okay so
+ 
+
+261
+00:06:16,639 --> 00:06:19,670
+okay i am yeah okay that's good okay so
+the blue thing yeah you come here the
+
+262
+00:06:19,670 --> 00:06:19,680
+the blue thing yeah you come here the
+ 
+
+263
+00:06:19,680 --> 00:06:20,790
+the blue thing yeah you come here the
+proof of thing
+
+264
+00:06:20,790 --> 00:06:20,800
+proof of thing
+ 
+
+265
+00:06:20,800 --> 00:06:24,309
+proof of thing
+looks away reversing
+
+266
+00:06:24,309 --> 00:06:24,319
+looks away reversing
+ 
+
+267
+00:06:24,319 --> 00:06:27,430
+looks away reversing
+complexity o two to the power n and
+
+268
+00:06:27,430 --> 00:06:27,440
+complexity o two to the power n and
+ 
+
+269
+00:06:27,440 --> 00:06:29,590
+complexity o two to the power n and
+how uh what's the complexity if we are
+
+270
+00:06:29,590 --> 00:06:29,600
+how uh what's the complexity if we are
+ 
+
+271
+00:06:29,600 --> 00:06:31,430
+how uh what's the complexity if we are
+given a subsequent we want to check if
+
+272
+00:06:31,430 --> 00:06:31,440
+given a subsequent we want to check if
+ 
+
+273
+00:06:31,440 --> 00:06:32,950
+given a subsequent we want to check if
+it's strictly
+
+274
+00:06:32,950 --> 00:06:32,960
+it's strictly
+ 
+
+275
+00:06:32,960 --> 00:06:36,150
+it's strictly
+increasing what's the term complexity of
+
+276
+00:06:36,150 --> 00:06:36,160
+increasing what's the term complexity of
+ 
+
+277
+00:06:36,160 --> 00:06:38,469
+increasing what's the term complexity of
+of given a subsequent like one two three
+
+278
+00:06:38,469 --> 00:06:38,479
+of given a subsequent like one two three
+ 
+
+279
+00:06:38,479 --> 00:06:40,070
+of given a subsequent like one two three
+if you want to check one two three is
+
+280
+00:06:40,070 --> 00:06:40,080
+if you want to check one two three is
+ 
+
+281
+00:06:40,080 --> 00:06:41,430
+if you want to check one two three is
+strictly
+
+282
+00:06:41,430 --> 00:06:41,440
+strictly
+ 
+
+283
+00:06:41,440 --> 00:06:45,590
+strictly
+increasing what's the term complexity
+
+284
+00:06:45,590 --> 00:06:45,600
+increasing what's the term complexity
+ 
+
+285
+00:06:45,600 --> 00:06:47,830
+increasing what's the term complexity
+if there are n and n letters in the
+
+286
+00:06:47,830 --> 00:06:47,840
+if there are n and n letters in the
+ 
+
+287
+00:06:47,840 --> 00:06:49,189
+if there are n and n letters in the
+subsequence
+
+288
+00:06:49,189 --> 00:06:49,199
+subsequence
+ 
+
+289
+00:06:49,199 --> 00:06:51,670
+subsequence
+yeah we're done so so the overall time
+
+290
+00:06:51,670 --> 00:06:51,680
+yeah we're done so so the overall time
+ 
+
+291
+00:06:51,680 --> 00:06:52,629
+yeah we're done so so the overall time
+complexity is
+
+292
+00:06:52,629 --> 00:06:52,639
+complexity is
+ 
+
+293
+00:06:52,639 --> 00:06:55,830
+complexity is
+o to n times n yeah
+
+294
+00:06:55,830 --> 00:06:55,840
+o to n times n yeah
+ 
+
+295
+00:06:55,840 --> 00:06:58,950
+o to n times n yeah
+this is very huge this is highly complex
+
+296
+00:06:58,950 --> 00:06:58,960
+this is very huge this is highly complex
+ 
+
+297
+00:06:58,960 --> 00:07:00,790
+this is very huge this is highly complex
+so it's not feasible to solve using the
+
+298
+00:07:00,790 --> 00:07:00,800
+so it's not feasible to solve using the
+ 
+
+299
+00:07:00,800 --> 00:07:02,230
+so it's not feasible to solve using the
+computers okay
+
+300
+00:07:02,230 --> 00:07:02,240
+computers okay
+ 
+
+301
+00:07:02,240 --> 00:07:06,950
+computers okay
+yeah if n is 100 2 to the power 100 is
+
+302
+00:07:06,950 --> 00:07:06,960
+yeah if n is 100 2 to the power 100 is
+ 
+
+303
+00:07:06,960 --> 00:07:10,150
+yeah if n is 100 2 to the power 100 is
+is huge you know
+
+304
+00:07:10,150 --> 00:07:10,160
+is huge you know
+ 
+
+305
+00:07:10,160 --> 00:07:14,150
+is huge you know
+okay so uh sure we need to find
+
+306
+00:07:14,150 --> 00:07:14,160
+okay so uh sure we need to find
+ 
+
+307
+00:07:14,160 --> 00:07:17,270
+okay so uh sure we need to find
+a better agreement so so how about i
+
+308
+00:07:17,270 --> 00:07:17,280
+a better agreement so so how about i
+ 
+
+309
+00:07:17,280 --> 00:07:19,029
+a better agreement so so how about i
+tell you that this problem we can solve
+
+310
+00:07:19,029 --> 00:07:19,039
+tell you that this problem we can solve
+ 
+
+311
+00:07:19,039 --> 00:07:20,790
+tell you that this problem we can solve
+it using dynamic programming so what's
+
+312
+00:07:20,790 --> 00:07:20,800
+it using dynamic programming so what's
+ 
+
+313
+00:07:20,800 --> 00:07:22,070
+it using dynamic programming so what's
+dynamic programming can you tell me
+
+314
+00:07:22,070 --> 00:07:22,080
+dynamic programming can you tell me
+ 
+
+315
+00:07:22,080 --> 00:07:23,670
+dynamic programming can you tell me
+remember
+
+316
+00:07:23,670 --> 00:07:23,680
+remember
+ 
+
+317
+00:07:23,680 --> 00:07:25,749
+remember
+yeah the key thing is remembering one
+
+318
+00:07:25,749 --> 00:07:25,759
+yeah the key thing is remembering one
+ 
+
+319
+00:07:25,759 --> 00:07:27,670
+yeah the key thing is remembering one
+other thing remember
+
+320
+00:07:27,670 --> 00:07:27,680
+other thing remember
+ 
+
+321
+00:07:27,680 --> 00:07:30,230
+other thing remember
+yeah that's even better remembering is
+
+322
+00:07:30,230 --> 00:07:30,240
+yeah that's even better remembering is
+ 
+
+323
+00:07:30,240 --> 00:07:30,950
+yeah that's even better remembering is
+is the
+
+324
+00:07:30,950 --> 00:07:30,960
+is the
+ 
+
+325
+00:07:30,960 --> 00:07:33,270
+is the
+common word but the minimization is the
+
+326
+00:07:33,270 --> 00:07:33,280
+common word but the minimization is the
+ 
+
+327
+00:07:33,280 --> 00:07:34,950
+common word but the minimization is the
+technical word okay
+
+328
+00:07:34,950 --> 00:07:34,960
+technical word okay
+ 
+
+329
+00:07:34,960 --> 00:07:38,150
+technical word okay
+mean minimization it sounds quite
+
+330
+00:07:38,150 --> 00:07:38,160
+mean minimization it sounds quite
+ 
+
+331
+00:07:38,160 --> 00:07:41,430
+mean minimization it sounds quite
+funny yeah it's very similar to
+
+332
+00:07:41,430 --> 00:07:41,440
+funny yeah it's very similar to
+ 
+
+333
+00:07:41,440 --> 00:07:43,589
+funny yeah it's very similar to
+memorized but it's mean mobilization
+
+334
+00:07:43,589 --> 00:07:43,599
+memorized but it's mean mobilization
+ 
+
+335
+00:07:43,599 --> 00:07:45,749
+memorized but it's mean mobilization
+mimo what's mimo
+
+336
+00:07:45,749 --> 00:07:45,759
+mimo what's mimo
+ 
+
+337
+00:07:45,759 --> 00:07:49,110
+mimo what's mimo
+mimei it's mimo mimo
+
+338
+00:07:49,110 --> 00:07:49,120
+mimei it's mimo mimo
+ 
+
+339
+00:07:49,120 --> 00:07:51,589
+mimei it's mimo mimo
+it's like a notebook you put the notes
+
+340
+00:07:51,589 --> 00:07:51,599
+it's like a notebook you put the notes
+ 
+
+341
+00:07:51,599 --> 00:07:53,110
+it's like a notebook you put the notes
+in there it's like you're
+
+342
+00:07:53,110 --> 00:07:53,120
+in there it's like you're
+ 
+
+343
+00:07:53,120 --> 00:07:56,830
+in there it's like you're
+fish name no okay
+
+344
+00:07:56,830 --> 00:07:56,840
+fish name no okay
+ 
+
+345
+00:07:56,840 --> 00:08:00,070
+fish name no okay
+so
+
+346
+00:08:00,070 --> 00:08:00,080
+
+ 
+
+347
+00:08:00,080 --> 00:08:02,070
+
+so dynamic programming we are
+
+348
+00:08:02,070 --> 00:08:02,080
+so dynamic programming we are
+ 
+
+349
+00:08:02,080 --> 00:08:04,150
+so dynamic programming we are
+remembering how about if i tell you that
+
+350
+00:08:04,150 --> 00:08:04,160
+remembering how about if i tell you that
+ 
+
+351
+00:08:04,160 --> 00:08:07,189
+remembering how about if i tell you that
+f n okay f
+
+352
+00:08:07,189 --> 00:08:07,199
+f n okay f
+ 
+
+353
+00:08:07,199 --> 00:08:10,230
+f n okay f
+n is the we story f n
+
+354
+00:08:10,230 --> 00:08:10,240
+n is the we story f n
+ 
+
+355
+00:08:10,240 --> 00:08:13,909
+n is the we story f n
+is the longest subsequence the ends and
+
+356
+00:08:13,909 --> 00:08:13,919
+is the longest subsequence the ends and
+ 
+
+357
+00:08:13,919 --> 00:08:17,909
+is the longest subsequence the ends and
+ends ends number so f
+
+358
+00:08:17,909 --> 00:08:17,919
+ends ends number so f
+ 
+
+359
+00:08:17,919 --> 00:08:21,589
+ends ends number so f
+two what does f2 mean
+
+360
+00:08:21,589 --> 00:08:21,599
+two what does f2 mean
+ 
+
+361
+00:08:21,599 --> 00:08:24,869
+two what does f2 mean
+zero one two so it means that f2 means
+
+362
+00:08:24,869 --> 00:08:24,879
+zero one two so it means that f2 means
+ 
+
+363
+00:08:24,879 --> 00:08:25,990
+zero one two so it means that f2 means
+the longest
+
+364
+00:08:25,990 --> 00:08:26,000
+the longest
+ 
+
+365
+00:08:26,000 --> 00:08:28,629
+the longest
+number of subsequence increasing
+
+366
+00:08:28,629 --> 00:08:28,639
+number of subsequence increasing
+ 
+
+367
+00:08:28,639 --> 00:08:29,350
+number of subsequence increasing
+subsequence
+
+368
+00:08:29,350 --> 00:08:29,360
+subsequence
+ 
+
+369
+00:08:29,360 --> 00:08:33,750
+subsequence
+that the last number is eight yeah okay
+
+370
+00:08:33,750 --> 00:08:33,760
+that the last number is eight yeah okay
+ 
+
+371
+00:08:33,760 --> 00:08:37,110
+that the last number is eight yeah okay
+okay so now if i know f2 is f2
+
+372
+00:08:37,110 --> 00:08:37,120
+okay so now if i know f2 is f2
+ 
+
+373
+00:08:37,120 --> 00:08:40,550
+okay so now if i know f2 is f2
+i i don't f2 okay and then
+
+374
+00:08:40,550 --> 00:08:40,560
+i i don't f2 okay and then
+ 
+
+375
+00:08:40,560 --> 00:08:43,350
+i i don't f2 okay and then
+here look because a is smaller than 10
+
+376
+00:08:43,350 --> 00:08:43,360
+here look because a is smaller than 10
+ 
+
+377
+00:08:43,360 --> 00:08:44,149
+here look because a is smaller than 10
+so what does
+
+378
+00:08:44,149 --> 00:08:44,159
+so what does
+ 
+
+379
+00:08:44,159 --> 00:08:48,550
+so what does
+f3 equal what does s3 equal
+
+380
+00:08:48,550 --> 00:08:48,560
+f3 equal what does s3 equal
+ 
+
+381
+00:08:48,560 --> 00:08:51,910
+f3 equal what does s3 equal
+f2 i give you we currently don't care
+
+382
+00:08:51,910 --> 00:08:51,920
+f2 i give you we currently don't care
+ 
+
+383
+00:08:51,920 --> 00:08:53,670
+f2 i give you we currently don't care
+about its value but i know
+
+384
+00:08:53,670 --> 00:08:53,680
+about its value but i know
+ 
+
+385
+00:08:53,680 --> 00:08:58,710
+about its value but i know
+a is smaller than 10 yeah and then
+
+386
+00:08:58,710 --> 00:08:58,720
+a is smaller than 10 yeah and then
+ 
+
+387
+00:08:58,720 --> 00:09:03,269
+a is smaller than 10 yeah and then
+f3 is f2 what
+
+388
+00:09:03,269 --> 00:09:03,279
+f3 is f2 what
+ 
+
+389
+00:09:03,279 --> 00:09:06,310
+f3 is f2 what
+you see this is the f2 is nothing
+
+390
+00:09:06,310 --> 00:09:06,320
+you see this is the f2 is nothing
+ 
+
+391
+00:09:06,320 --> 00:09:08,870
+you see this is the f2 is nothing
+there may be a minion items before a
+
+392
+00:09:08,870 --> 00:09:08,880
+there may be a minion items before a
+ 
+
+393
+00:09:08,880 --> 00:09:09,509
+there may be a minion items before a
+yeah
+
+394
+00:09:09,509 --> 00:09:09,519
+yeah
+ 
+
+395
+00:09:09,519 --> 00:09:12,230
+yeah
+but i tell you the number of longest
+
+396
+00:09:12,230 --> 00:09:12,240
+but i tell you the number of longest
+ 
+
+397
+00:09:12,240 --> 00:09:13,990
+but i tell you the number of longest
+increasing subsequence that the last
+
+398
+00:09:13,990 --> 00:09:14,000
+increasing subsequence that the last
+ 
+
+399
+00:09:14,000 --> 00:09:14,550
+increasing subsequence that the last
+number is
+
+400
+00:09:14,550 --> 00:09:14,560
+number is
+ 
+
+401
+00:09:14,560 --> 00:09:18,070
+number is
+a is f2 and then now you know
+
+402
+00:09:18,070 --> 00:09:18,080
+a is f2 and then now you know
+ 
+
+403
+00:09:18,080 --> 00:09:20,790
+a is f2 and then now you know
+a is more than 10 so what does it mean
+
+404
+00:09:20,790 --> 00:09:20,800
+a is more than 10 so what does it mean
+ 
+
+405
+00:09:20,800 --> 00:09:22,790
+a is more than 10 so what does it mean
+for f3
+
+406
+00:09:22,790 --> 00:09:22,800
+for f3
+ 
+
+407
+00:09:22,800 --> 00:09:26,310
+for f3
+10 sorry now s3 is the number of the
+
+408
+00:09:26,310 --> 00:09:26,320
+10 sorry now s3 is the number of the
+ 
+
+409
+00:09:26,320 --> 00:09:26,949
+10 sorry now s3 is the number of the
+longest
+
+410
+00:09:26,949 --> 00:09:26,959
+longest
+ 
+
+411
+00:09:26,959 --> 00:09:30,150
+longest
+increasing subsequence that ends and 10
+
+412
+00:09:30,150 --> 00:09:30,160
+increasing subsequence that ends and 10
+ 
+
+413
+00:09:30,160 --> 00:09:33,269
+increasing subsequence that ends and 10
+yeah and then now i tell you f2 is
+
+414
+00:09:33,269 --> 00:09:33,279
+yeah and then now i tell you f2 is
+ 
+
+415
+00:09:33,279 --> 00:09:35,670
+yeah and then now i tell you f2 is
+after the value is calculated we already
+
+416
+00:09:35,670 --> 00:09:35,680
+after the value is calculated we already
+ 
+
+417
+00:09:35,680 --> 00:09:37,430
+after the value is calculated we already
+know we're already memorizing
+
+418
+00:09:37,430 --> 00:09:37,440
+know we're already memorizing
+ 
+
+419
+00:09:37,440 --> 00:09:39,110
+know we're already memorizing
+using the dynamic programming
+
+420
+00:09:39,110 --> 00:09:39,120
+using the dynamic programming
+ 
+
+421
+00:09:39,120 --> 00:09:40,630
+using the dynamic programming
+minimization
+
+422
+00:09:40,630 --> 00:09:40,640
+minimization
+ 
+
+423
+00:09:40,640 --> 00:09:42,870
+minimization
+and then i tell you a is smaller than
+
+424
+00:09:42,870 --> 00:09:42,880
+and then i tell you a is smaller than
+ 
+
+425
+00:09:42,880 --> 00:09:43,910
+and then i tell you a is smaller than
+10.
+
+426
+00:09:43,910 --> 00:09:43,920
+10.
+ 
+
+427
+00:09:43,920 --> 00:09:47,430
+10.
+so what happens if we i add a 10 in the
+
+428
+00:09:47,430 --> 00:09:47,440
+so what happens if we i add a 10 in the
+ 
+
+429
+00:09:47,440 --> 00:09:51,269
+so what happens if we i add a 10 in the
+longest subsequence does this feel valid
+
+430
+00:09:51,269 --> 00:09:51,279
+longest subsequence does this feel valid
+ 
+
+431
+00:09:51,279 --> 00:09:53,430
+longest subsequence does this feel valid
+yeah because look at the last number
+
+432
+00:09:53,430 --> 00:09:53,440
+yeah because look at the last number
+ 
+
+433
+00:09:53,440 --> 00:09:55,190
+yeah because look at the last number
+ending in a
+
+434
+00:09:55,190 --> 00:09:55,200
+ending in a
+ 
+
+435
+00:09:55,200 --> 00:09:58,230
+ending in a
+yeah it could be 1 3 4 a
+
+436
+00:09:58,230 --> 00:09:58,240
+yeah it could be 1 3 4 a
+ 
+
+437
+00:09:58,240 --> 00:10:00,630
+yeah it could be 1 3 4 a
+this is a subsequence previously yeah
+
+438
+00:10:00,630 --> 00:10:00,640
+this is a subsequence previously yeah
+ 
+
+439
+00:10:00,640 --> 00:10:01,350
+this is a subsequence previously yeah
+you don't care
+
+440
+00:10:01,350 --> 00:10:01,360
+you don't care
+ 
+
+441
+00:10:01,360 --> 00:10:03,670
+you don't care
+and now you know a is smaller than 10.
+
+442
+00:10:03,670 --> 00:10:03,680
+and now you know a is smaller than 10.
+ 
+
+443
+00:10:03,680 --> 00:10:06,470
+and now you know a is smaller than 10.
+what happens if i put a 10 here
+
+444
+00:10:06,470 --> 00:10:06,480
+what happens if i put a 10 here
+ 
+
+445
+00:10:06,480 --> 00:10:08,389
+what happens if i put a 10 here
+what happens if i put a 10 here does it
+
+446
+00:10:08,389 --> 00:10:08,399
+what happens if i put a 10 here does it
+ 
+
+447
+00:10:08,399 --> 00:10:11,750
+what happens if i put a 10 here does it
+still make a longer one
+
+448
+00:10:11,750 --> 00:10:11,760
+still make a longer one
+ 
+
+449
+00:10:11,760 --> 00:10:16,630
+still make a longer one
+does it make sense do you get it
+
+450
+00:10:16,630 --> 00:10:16,640
+does it make sense do you get it
+ 
+
+451
+00:10:16,640 --> 00:10:19,750
+does it make sense do you get it
+so f2 equals f2
+
+452
+00:10:19,750 --> 00:10:19,760
+so f2 equals f2
+ 
+
+453
+00:10:19,760 --> 00:10:26,150
+so f2 equals f2
+f3 equals 1 f2
+
+454
+00:10:26,150 --> 00:10:26,160
+
+ 
+
+455
+00:10:26,160 --> 00:10:28,550
+
+i put the 10 in the end it's the longest
+
+456
+00:10:28,550 --> 00:10:28,560
+i put the 10 in the end it's the longest
+ 
+
+457
+00:10:28,560 --> 00:10:30,310
+i put the 10 in the end it's the longest
+subsequent it's still
+
+458
+00:10:30,310 --> 00:10:30,320
+subsequent it's still
+ 
+
+459
+00:10:30,320 --> 00:10:32,550
+subsequent it's still
+increasing something yes i won that's
+
+460
+00:10:32,550 --> 00:10:32,560
+increasing something yes i won that's
+ 
+
+461
+00:10:32,560 --> 00:10:34,630
+increasing something yes i won that's
+that's what i meant okay
+
+462
+00:10:34,630 --> 00:10:34,640
+that's what i meant okay
+ 
+
+463
+00:10:34,640 --> 00:10:38,230
+that's what i meant okay
+you get it that's one ad yeah and one
+
+464
+00:10:38,230 --> 00:10:38,240
+you get it that's one ad yeah and one
+ 
+
+465
+00:10:38,240 --> 00:10:40,470
+you get it that's one ad yeah and one
+you have one edit do you understand yeah
+
+466
+00:10:40,470 --> 00:10:40,480
+you have one edit do you understand yeah
+ 
+
+467
+00:10:40,480 --> 00:10:41,509
+you have one edit do you understand yeah
+yeah
+
+468
+00:10:41,509 --> 00:10:41,519
+yeah
+ 
+
+469
+00:10:41,519 --> 00:10:44,550
+yeah
+and do you see because we we
+
+470
+00:10:44,550 --> 00:10:44,560
+and do you see because we we
+ 
+
+471
+00:10:44,560 --> 00:10:47,190
+and do you see because we we
+already know this bit and we can reuse
+
+472
+00:10:47,190 --> 00:10:47,200
+already know this bit and we can reuse
+ 
+
+473
+00:10:47,200 --> 00:10:48,150
+already know this bit and we can reuse
+it
+
+474
+00:10:48,150 --> 00:10:48,160
+it
+ 
+
+475
+00:10:48,160 --> 00:10:51,190
+it
+yeah why can't we reuse it because a
+
+476
+00:10:51,190 --> 00:10:51,200
+yeah why can't we reuse it because a
+ 
+
+477
+00:10:51,200 --> 00:10:54,710
+yeah why can't we reuse it because a
+is smaller than 10 yeah and b speed
+
+478
+00:10:54,710 --> 00:10:54,720
+is smaller than 10 yeah and b speed
+ 
+
+479
+00:10:54,720 --> 00:10:58,069
+is smaller than 10 yeah and b speed
+for example a minion if f f2
+
+480
+00:10:58,069 --> 00:10:58,079
+for example a minion if f f2
+ 
+
+481
+00:10:58,079 --> 00:11:01,350
+for example a minion if f f2
+is a minion and then i know f3
+
+482
+00:11:01,350 --> 00:11:01,360
+is a minion and then i know f3
+ 
+
+483
+00:11:01,360 --> 00:11:03,350
+is a minion and then i know f3
+is a medium plus one because i can
+
+484
+00:11:03,350 --> 00:11:03,360
+is a medium plus one because i can
+ 
+
+485
+00:11:03,360 --> 00:11:04,949
+is a medium plus one because i can
+always
+
+486
+00:11:04,949 --> 00:11:04,959
+always
+ 
+
+487
+00:11:04,959 --> 00:11:07,829
+always
+put a 10 at the end of previous longing
+
+488
+00:11:07,829 --> 00:11:07,839
+put a 10 at the end of previous longing
+ 
+
+489
+00:11:07,839 --> 00:11:08,790
+put a 10 at the end of previous longing
+subsequence
+
+490
+00:11:08,790 --> 00:11:08,800
+subsequence
+ 
+
+491
+00:11:08,800 --> 00:11:10,949
+subsequence
+and you will increment the longest
+
+492
+00:11:10,949 --> 00:11:10,959
+and you will increment the longest
+ 
+
+493
+00:11:10,959 --> 00:11:11,910
+and you will increment the longest
+subsequence
+
+494
+00:11:11,910 --> 00:11:11,920
+subsequence
+ 
+
+495
+00:11:11,920 --> 00:11:17,190
+subsequence
+by one
+
+496
+00:11:17,190 --> 00:11:17,200
+
+ 
+
+497
+00:11:17,200 --> 00:11:20,069
+
+so if i want to check this f3 so i need
+
+498
+00:11:20,069 --> 00:11:20,079
+so if i want to check this f3 so i need
+ 
+
+499
+00:11:20,079 --> 00:11:20,630
+so if i want to check this f3 so i need
+to check
+
+500
+00:11:20,630 --> 00:11:20,640
+to check
+ 
+
+501
+00:11:20,640 --> 00:11:23,670
+to check
+every number between 0 to 3.
+
+502
+00:11:23,670 --> 00:11:23,680
+every number between 0 to 3.
+ 
+
+503
+00:11:23,680 --> 00:11:25,670
+every number between 0 to 3.
+look i want to check every number
+
+504
+00:11:25,670 --> 00:11:25,680
+look i want to check every number
+ 
+
+505
+00:11:25,680 --> 00:11:27,030
+look i want to check every number
+between these
+
+506
+00:11:27,030 --> 00:11:27,040
+between these
+ 
+
+507
+00:11:27,040 --> 00:11:29,190
+between these
+and i check if 0 is more than 10 if it's
+
+508
+00:11:29,190 --> 00:11:29,200
+and i check if 0 is more than 10 if it's
+ 
+
+509
+00:11:29,200 --> 00:11:31,829
+and i check if 0 is more than 10 if it's
+smaller than 10 then f3 equals
+
+510
+00:11:31,829 --> 00:11:31,839
+smaller than 10 then f3 equals
+ 
+
+511
+00:11:31,839 --> 00:11:35,110
+smaller than 10 then f3 equals
+1 plus f0 but i want to get a maximum
+
+512
+00:11:35,110 --> 00:11:35,120
+1 plus f0 but i want to get a maximum
+ 
+
+513
+00:11:35,120 --> 00:11:38,630
+1 plus f0 but i want to get a maximum
+of these okay and then 9 is smaller than
+
+514
+00:11:38,630 --> 00:11:38,640
+of these okay and then 9 is smaller than
+ 
+
+515
+00:11:38,640 --> 00:11:39,030
+of these okay and then 9 is smaller than
+10
+
+516
+00:11:39,030 --> 00:11:39,040
+10
+ 
+
+517
+00:11:39,040 --> 00:11:42,550
+10
+yes then 1 plus one a is smaller than
+
+518
+00:11:42,550 --> 00:11:42,560
+yes then 1 plus one a is smaller than
+ 
+
+519
+00:11:42,560 --> 00:11:43,030
+yes then 1 plus one a is smaller than
+ten
+
+520
+00:11:43,030 --> 00:11:43,040
+ten
+ 
+
+521
+00:11:43,040 --> 00:11:47,430
+ten
+yeah a f two plus and plus one actually
+
+522
+00:11:47,430 --> 00:11:47,440
+yeah a f two plus and plus one actually
+ 
+
+523
+00:11:47,440 --> 00:11:50,550
+yeah a f two plus and plus one actually
+okay do you understand yes
+
+524
+00:11:50,550 --> 00:11:50,560
+okay do you understand yes
+ 
+
+525
+00:11:50,560 --> 00:11:53,509
+okay do you understand yes
+yeah kind of maybe it's better if i
+
+526
+00:11:53,509 --> 00:11:53,519
+yeah kind of maybe it's better if i
+ 
+
+527
+00:11:53,519 --> 00:11:56,310
+yeah kind of maybe it's better if i
+write a code than you will see
+
+528
+00:11:56,310 --> 00:11:56,320
+write a code than you will see
+ 
+
+529
+00:11:56,320 --> 00:11:59,269
+write a code than you will see
+you'll see how it works okay let's say
+
+530
+00:11:59,269 --> 00:11:59,279
+you'll see how it works okay let's say
+ 
+
+531
+00:11:59,279 --> 00:12:00,710
+you'll see how it works okay let's say
+define
+
+532
+00:12:00,710 --> 00:12:00,720
+define
+ 
+
+533
+00:12:00,720 --> 00:12:03,829
+define
+remember the top down and primary
+
+534
+00:12:03,829 --> 00:12:03,839
+remember the top down and primary
+ 
+
+535
+00:12:03,839 --> 00:12:05,750
+remember the top down and primary
+programming yeah that's two approaches
+
+536
+00:12:05,750 --> 00:12:05,760
+programming yeah that's two approaches
+ 
+
+537
+00:12:05,760 --> 00:12:08,230
+programming yeah that's two approaches
+what's top-down dynamic programming
+
+538
+00:12:08,230 --> 00:12:08,240
+what's top-down dynamic programming
+ 
+
+539
+00:12:08,240 --> 00:12:09,590
+what's top-down dynamic programming
+usually implemented
+
+540
+00:12:09,590 --> 00:12:09,600
+usually implemented
+ 
+
+541
+00:12:09,600 --> 00:12:13,670
+usually implemented
+in what top down if i want to calculate
+
+542
+00:12:13,670 --> 00:12:13,680
+in what top down if i want to calculate
+ 
+
+543
+00:12:13,680 --> 00:12:15,430
+in what top down if i want to calculate
+fibonacci number every time i like talk
+
+544
+00:12:15,430 --> 00:12:15,440
+fibonacci number every time i like talk
+ 
+
+545
+00:12:15,440 --> 00:12:16,790
+fibonacci number every time i like talk
+about people naturally if i want to
+
+546
+00:12:16,790 --> 00:12:16,800
+about people naturally if i want to
+ 
+
+547
+00:12:16,800 --> 00:12:17,590
+about people naturally if i want to
+calculate
+
+548
+00:12:17,590 --> 00:12:17,600
+calculate
+ 
+
+549
+00:12:17,600 --> 00:12:20,470
+calculate
+the f 100 fibonacci number what do you
+
+550
+00:12:20,470 --> 00:12:20,480
+the f 100 fibonacci number what do you
+ 
+
+551
+00:12:20,480 --> 00:12:21,110
+the f 100 fibonacci number what do you
+need to know
+
+552
+00:12:21,110 --> 00:12:21,120
+need to know
+ 
+
+553
+00:12:21,120 --> 00:12:24,870
+need to know
+to calculate f 100 you need to know f
+
+554
+00:12:24,870 --> 00:12:24,880
+to calculate f 100 you need to know f
+ 
+
+555
+00:12:24,880 --> 00:12:28,069
+to calculate f 100 you need to know f
+99 and f
+
+556
+00:12:28,069 --> 00:12:28,079
+99 and f
+ 
+
+557
+00:12:28,079 --> 00:12:30,069
+99 and f
+98 because it's the sum of previous two
+
+558
+00:12:30,069 --> 00:12:30,079
+98 because it's the sum of previous two
+ 
+
+559
+00:12:30,079 --> 00:12:32,389
+98 because it's the sum of previous two
+right yeah
+
+560
+00:12:32,389 --> 00:12:32,399
+right yeah
+ 
+
+561
+00:12:32,399 --> 00:12:35,509
+right yeah
+okay so the fibonacci number f99 and f8
+
+562
+00:12:35,509 --> 00:12:35,519
+okay so the fibonacci number f99 and f8
+ 
+
+563
+00:12:35,519 --> 00:12:39,030
+okay so the fibonacci number f99 and f8
+98 so so this is top down because i want
+
+564
+00:12:39,030 --> 00:12:39,040
+98 so so this is top down because i want
+ 
+
+565
+00:12:39,040 --> 00:12:40,790
+98 so so this is top down because i want
+to calculate f100
+
+566
+00:12:40,790 --> 00:12:40,800
+to calculate f100
+ 
+
+567
+00:12:40,800 --> 00:12:43,990
+to calculate f100
+i i need to recursively call it
+
+568
+00:12:43,990 --> 00:12:44,000
+i i need to recursively call it
+ 
+
+569
+00:12:44,000 --> 00:12:45,910
+i i need to recursively call it
+yeah yeah i i need to because the
+
+570
+00:12:45,910 --> 00:12:45,920
+yeah yeah i i need to because the
+ 
+
+571
+00:12:45,920 --> 00:12:47,670
+yeah yeah i i need to because the
+recording f9
+
+572
+00:12:47,670 --> 00:12:47,680
+recording f9
+ 
+
+573
+00:12:47,680 --> 00:12:50,389
+recording f9
+and f98 am right and the bottom of
+
+574
+00:12:50,389 --> 00:12:50,399
+and f98 am right and the bottom of
+ 
+
+575
+00:12:50,399 --> 00:12:52,069
+and f98 am right and the bottom of
+dynamic performance what's that if i
+
+576
+00:12:52,069 --> 00:12:52,079
+dynamic performance what's that if i
+ 
+
+577
+00:12:52,079 --> 00:12:54,069
+dynamic performance what's that if i
+want to calculate every 100
+
+578
+00:12:54,069 --> 00:12:54,079
+want to calculate every 100
+ 
+
+579
+00:12:54,079 --> 00:12:56,550
+want to calculate every 100
+where do i need to calculate first the
+
+580
+00:12:56,550 --> 00:12:56,560
+where do i need to calculate first the
+ 
+
+581
+00:12:56,560 --> 00:12:58,949
+where do i need to calculate first the
+butter up
+
+582
+00:12:58,949 --> 00:12:58,959
+butter up
+ 
+
+583
+00:12:58,959 --> 00:13:02,389
+butter up
+you need to calculate from
+
+584
+00:13:02,389 --> 00:13:02,399
+you need to calculate from
+ 
+
+585
+00:13:02,399 --> 00:13:06,949
+you need to calculate from
+the other direction what's the already
+
+586
+00:13:06,949 --> 00:13:06,959
+
+ 
+
+587
+00:13:06,959 --> 00:13:08,230
+
+where is the first value i need to
+
+588
+00:13:08,230 --> 00:13:08,240
+where is the first value i need to
+ 
+
+589
+00:13:08,240 --> 00:13:14,470
+where is the first value i need to
+calculate
+
+590
+00:13:14,470 --> 00:13:14,480
+
+ 
+
+591
+00:13:14,480 --> 00:13:18,470
+
+where's the first value e
+
+592
+00:13:18,470 --> 00:13:18,480
+where's the first value e
+ 
+
+593
+00:13:18,480 --> 00:13:22,790
+where's the first value e
+for what i mean
+
+594
+00:13:22,790 --> 00:13:22,800
+for what i mean
+ 
+
+595
+00:13:22,800 --> 00:13:26,389
+for what i mean
+no i want to test f n if top top down
+
+596
+00:13:26,389 --> 00:13:26,399
+no i want to test f n if top top down
+ 
+
+597
+00:13:26,399 --> 00:13:29,829
+no i want to test f n if top top down
+is i f n minus one
+
+598
+00:13:29,829 --> 00:13:29,839
+is i f n minus one
+ 
+
+599
+00:13:29,839 --> 00:13:31,990
+is i f n minus one
+plus f n minus two okay this is called
+
+600
+00:13:31,990 --> 00:13:32,000
+plus f n minus two okay this is called
+ 
+
+601
+00:13:32,000 --> 00:13:33,750
+plus f n minus two okay this is called
+top down because i start with
+
+602
+00:13:33,750 --> 00:13:33,760
+top down because i start with
+ 
+
+603
+00:13:33,760 --> 00:13:36,949
+top down because i start with
+n and going down and if i want to
+
+604
+00:13:36,949 --> 00:13:36,959
+n and going down and if i want to
+ 
+
+605
+00:13:36,959 --> 00:13:40,550
+n and going down and if i want to
+do it butter up i need to study what
+
+606
+00:13:40,550 --> 00:13:40,560
+do it butter up i need to study what
+ 
+
+607
+00:13:40,560 --> 00:13:46,389
+do it butter up i need to study what
+study this direction
+
+608
+00:13:46,389 --> 00:13:46,399
+
+ 
+
+609
+00:13:46,399 --> 00:13:49,030
+
+come on end up end to zero and what's
+
+610
+00:13:49,030 --> 00:13:49,040
+come on end up end to zero and what's
+ 
+
+611
+00:13:49,040 --> 00:13:51,269
+come on end up end to zero and what's
+this
+
+612
+00:13:51,269 --> 00:13:51,279
+this
+ 
+
+613
+00:13:51,279 --> 00:13:53,910
+this
+and and i want to start calculating yeah
+
+614
+00:13:53,910 --> 00:13:53,920
+and and i want to start calculating yeah
+ 
+
+615
+00:13:53,920 --> 00:13:56,230
+and and i want to start calculating yeah
+so i need to calculate f0 f1
+
+616
+00:13:56,230 --> 00:13:56,240
+so i need to calculate f0 f1
+ 
+
+617
+00:13:56,240 --> 00:13:59,110
+so i need to calculate f0 f1
+and using these two values with f2 right
+
+618
+00:13:59,110 --> 00:13:59,120
+and using these two values with f2 right
+ 
+
+619
+00:13:59,120 --> 00:14:00,069
+and using these two values with f2 right
+this is called
+
+620
+00:14:00,069 --> 00:14:00,079
+this is called
+ 
+
+621
+00:14:00,079 --> 00:14:01,670
+this is called
+do you understand different direction
+
+622
+00:14:01,670 --> 00:14:01,680
+do you understand different direction
+ 
+
+623
+00:14:01,680 --> 00:14:05,269
+do you understand different direction
+yeah basically it's the same thing yeah
+
+624
+00:14:05,269 --> 00:14:05,279
+yeah basically it's the same thing yeah
+ 
+
+625
+00:14:05,279 --> 00:14:09,509
+yeah basically it's the same thing yeah
+okay so look define f and
+
+626
+00:14:09,509 --> 00:14:09,519
+okay so look define f and
+ 
+
+627
+00:14:09,519 --> 00:14:12,949
+okay so look define f and
+f n okay so look fn is the longest
+
+628
+00:14:12,949 --> 00:14:12,959
+f n okay so look fn is the longest
+ 
+
+629
+00:14:12,959 --> 00:14:16,310
+f n okay so look fn is the longest
+number longest increasing subsequence
+
+630
+00:14:16,310 --> 00:14:16,320
+number longest increasing subsequence
+ 
+
+631
+00:14:16,320 --> 00:14:20,629
+number longest increasing subsequence
+of the uh of the nth number okay
+
+632
+00:14:20,629 --> 00:14:20,639
+of the uh of the nth number okay
+ 
+
+633
+00:14:20,639 --> 00:14:24,470
+of the uh of the nth number okay
+yeah okay okay so yeah
+
+634
+00:14:24,470 --> 00:14:24,480
+yeah okay okay so yeah
+ 
+
+635
+00:14:24,480 --> 00:14:28,949
+yeah okay okay so yeah
+must equal something yeah yeah
+
+636
+00:14:28,949 --> 00:14:28,959
+must equal something yeah yeah
+ 
+
+637
+00:14:28,959 --> 00:14:32,230
+must equal something yeah yeah
+so look the longest subsequence the
+
+638
+00:14:32,230 --> 00:14:32,240
+so look the longest subsequence the
+ 
+
+639
+00:14:32,240 --> 00:14:33,750
+so look the longest subsequence the
+minimum value is what
+
+640
+00:14:33,750 --> 00:14:33,760
+minimum value is what
+ 
+
+641
+00:14:33,760 --> 00:14:37,110
+minimum value is what
+is is if i have only one value what's
+
+642
+00:14:37,110 --> 00:14:37,120
+is is if i have only one value what's
+ 
+
+643
+00:14:37,120 --> 00:14:37,430
+is is if i have only one value what's
+the
+
+644
+00:14:37,430 --> 00:14:37,440
+the
+ 
+
+645
+00:14:37,440 --> 00:14:40,790
+the
+longest increasing subsequence one for
+
+646
+00:14:40,790 --> 00:14:40,800
+longest increasing subsequence one for
+ 
+
+647
+00:14:40,800 --> 00:14:41,910
+longest increasing subsequence one for
+example if i one
+
+648
+00:14:41,910 --> 00:14:41,920
+example if i one
+ 
+
+649
+00:14:41,920 --> 00:14:43,750
+example if i one
+yeah because it's one value it's
+
+650
+00:14:43,750 --> 00:14:43,760
+yeah because it's one value it's
+ 
+
+651
+00:14:43,760 --> 00:14:45,110
+yeah because it's one value it's
+increasing yeah
+
+652
+00:14:45,110 --> 00:14:45,120
+increasing yeah
+ 
+
+653
+00:14:45,120 --> 00:14:49,030
+increasing yeah
+okay so if look then for
+
+654
+00:14:49,030 --> 00:14:49,040
+okay so if look then for
+ 
+
+655
+00:14:49,040 --> 00:14:52,470
+okay so if look then for
+i in range i i need to
+
+656
+00:14:52,470 --> 00:14:52,480
+i in range i i need to
+ 
+
+657
+00:14:52,480 --> 00:14:55,509
+i in range i i need to
+check the values up to n nth right so
+
+658
+00:14:55,509 --> 00:14:55,519
+check the values up to n nth right so
+ 
+
+659
+00:14:55,519 --> 00:14:56,150
+check the values up to n nth right so
+let's put
+
+660
+00:14:56,150 --> 00:14:56,160
+let's put
+ 
+
+661
+00:14:56,160 --> 00:15:00,150
+let's put
+n here look if everything look
+
+662
+00:15:00,150 --> 00:15:00,160
+n here look if everything look
+ 
+
+663
+00:15:00,160 --> 00:15:02,949
+n here look if everything look
+numbers if numbers okay so suppose we
+
+664
+00:15:02,949 --> 00:15:02,959
+numbers if numbers okay so suppose we
+ 
+
+665
+00:15:02,959 --> 00:15:04,310
+numbers if numbers okay so suppose we
+have numbers here okay
+
+666
+00:15:04,310 --> 00:15:04,320
+have numbers here okay
+ 
+
+667
+00:15:04,320 --> 00:15:08,150
+have numbers here okay
+numbers i is smaller than number
+
+668
+00:15:08,150 --> 00:15:08,160
+numbers i is smaller than number
+ 
+
+669
+00:15:08,160 --> 00:15:12,230
+numbers i is smaller than number
+that needs to be a profit j g
+
+670
+00:15:12,230 --> 00:15:12,240
+that needs to be a profit j g
+ 
+
+671
+00:15:12,240 --> 00:15:16,150
+that needs to be a profit j g
+if i number smaller than
+
+672
+00:15:16,150 --> 00:15:16,160
+if i number smaller than
+ 
+
+673
+00:15:16,160 --> 00:15:22,470
+if i number smaller than
+look answer equals max answer okay
+
+674
+00:15:22,470 --> 00:15:22,480
+
+ 
+
+675
+00:15:22,480 --> 00:15:26,150
+
+answer and what should i put here
+
+676
+00:15:26,150 --> 00:15:26,160
+answer and what should i put here
+ 
+
+677
+00:15:26,160 --> 00:15:29,189
+answer and what should i put here
+no no no not yet f1
+
+678
+00:15:29,189 --> 00:15:29,199
+no no no not yet f1
+ 
+
+679
+00:15:29,199 --> 00:15:32,710
+no no no not yet f1
+all right j j
+
+680
+00:15:32,710 --> 00:15:32,720
+all right j j
+ 
+
+681
+00:15:32,720 --> 00:15:35,910
+all right j j
+there's no j i hear i invent
+
+682
+00:15:35,910 --> 00:15:35,920
+there's no j i hear i invent
+ 
+
+683
+00:15:35,920 --> 00:15:40,550
+there's no j i hear i invent
+n if i look look at this remember
+
+684
+00:15:40,550 --> 00:15:40,560
+n if i look look at this remember
+ 
+
+685
+00:15:40,560 --> 00:15:43,829
+n if i look look at this remember
+remember this is i this is i this is n
+
+686
+00:15:43,829 --> 00:15:43,839
+remember this is i this is i this is n
+ 
+
+687
+00:15:43,839 --> 00:15:45,670
+remember this is i this is i this is n
+if this number is smaller than this
+
+688
+00:15:45,670 --> 00:15:45,680
+if this number is smaller than this
+ 
+
+689
+00:15:45,680 --> 00:15:46,870
+if this number is smaller than this
+number
+
+690
+00:15:46,870 --> 00:15:46,880
+number
+ 
+
+691
+00:15:46,880 --> 00:15:49,670
+number
+yeah and then what should we do answer
+
+692
+00:15:49,670 --> 00:15:49,680
+yeah and then what should we do answer
+ 
+
+693
+00:15:49,680 --> 00:15:52,150
+yeah and then what should we do answer
+would be the maximum of
+
+694
+00:15:52,150 --> 00:15:52,160
+would be the maximum of
+ 
+
+695
+00:15:52,160 --> 00:15:55,350
+would be the maximum of
+our f1 f1 we calling itself
+
+696
+00:15:55,350 --> 00:15:55,360
+our f1 f1 we calling itself
+ 
+
+697
+00:15:55,360 --> 00:15:59,509
+our f1 f1 we calling itself
+f i yeah yeah and one
+
+698
+00:15:59,509 --> 00:15:59,519
+f i yeah yeah and one
+ 
+
+699
+00:15:59,519 --> 00:16:02,870
+f i yeah yeah and one
+and one one and one and return one
+
+700
+00:16:02,870 --> 00:16:02,880
+and one one and one and return one
+ 
+
+701
+00:16:02,880 --> 00:16:08,470
+and one one and one and return one
+answer yeah okay what's missing
+
+702
+00:16:08,470 --> 00:16:08,480
+answer yeah okay what's missing
+ 
+
+703
+00:16:08,480 --> 00:16:09,990
+answer yeah okay what's missing
+yeah because if we're not using the
+
+704
+00:16:09,990 --> 00:16:10,000
+yeah because if we're not using the
+ 
+
+705
+00:16:10,000 --> 00:16:13,110
+yeah because if we're not using the
+cache these will be exponential yeah
+
+706
+00:16:13,110 --> 00:16:13,120
+cache these will be exponential yeah
+ 
+
+707
+00:16:13,120 --> 00:16:16,230
+cache these will be exponential yeah
+we need to for each fn we only calculate
+
+708
+00:16:16,230 --> 00:16:16,240
+we need to for each fn we only calculate
+ 
+
+709
+00:16:16,240 --> 00:16:16,870
+we need to for each fn we only calculate
+it once
+
+710
+00:16:16,870 --> 00:16:16,880
+it once
+ 
+
+711
+00:16:16,880 --> 00:16:19,509
+it once
+right yeah because next time we don't
+
+712
+00:16:19,509 --> 00:16:19,519
+right yeah because next time we don't
+ 
+
+713
+00:16:19,519 --> 00:16:21,670
+right yeah because next time we don't
+need to calculate it
+
+714
+00:16:21,670 --> 00:16:21,680
+need to calculate it
+ 
+
+715
+00:16:21,680 --> 00:16:25,110
+need to calculate it
+this is called what what dynamic
+
+716
+00:16:25,110 --> 00:16:25,120
+this is called what what dynamic
+ 
+
+717
+00:16:25,120 --> 00:16:26,230
+this is called what what dynamic
+programming
+
+718
+00:16:26,230 --> 00:16:26,240
+programming
+ 
+
+719
+00:16:26,240 --> 00:16:29,430
+programming
+top down or bottom up uh
+
+720
+00:16:29,430 --> 00:16:29,440
+top down or bottom up uh
+ 
+
+721
+00:16:29,440 --> 00:16:31,829
+top down or bottom up uh
+top down top down okay yeah because we
+
+722
+00:16:31,829 --> 00:16:31,839
+top down top down okay yeah because we
+ 
+
+723
+00:16:31,839 --> 00:16:33,189
+top down top down okay yeah because we
+take away fn and we
+
+724
+00:16:33,189 --> 00:16:33,199
+take away fn and we
+ 
+
+725
+00:16:33,199 --> 00:16:36,790
+take away fn and we
+going with three
+
+726
+00:16:36,790 --> 00:16:36,800
+going with three
+ 
+
+727
+00:16:36,800 --> 00:16:39,990
+going with three
+yeah we're calculating from i from f 0
+
+728
+00:16:39,990 --> 00:16:40,000
+yeah we're calculating from i from f 0
+ 
+
+729
+00:16:40,000 --> 00:16:41,670
+yeah we're calculating from i from f 0
+to x 1. okay
+
+730
+00:16:41,670 --> 00:16:41,680
+to x 1. okay
+ 
+
+731
+00:16:41,680 --> 00:16:46,150
+to x 1. okay
+yeah okay so now another one
+
+732
+00:16:46,150 --> 00:16:46,160
+yeah okay so now another one
+ 
+
+733
+00:16:46,160 --> 00:16:49,110
+yeah okay so now another one
+another one and remember we can use that
+
+734
+00:16:49,110 --> 00:16:49,120
+another one and remember we can use that
+ 
+
+735
+00:16:49,120 --> 00:16:49,829
+another one and remember we can use that
+we can
+
+736
+00:16:49,829 --> 00:16:49,839
+we can
+ 
+
+737
+00:16:49,839 --> 00:16:51,509
+we can
+declare a notebook yeah without the
+
+738
+00:16:51,509 --> 00:16:51,519
+declare a notebook yeah without the
+ 
+
+739
+00:16:51,519 --> 00:16:53,670
+declare a notebook yeah without the
+cache we can use this one
+
+740
+00:16:53,670 --> 00:16:53,680
+cache we can use this one
+ 
+
+741
+00:16:53,680 --> 00:16:55,189
+cache we can use this one
+we can use a notebook passing as a
+
+742
+00:16:55,189 --> 00:16:55,199
+we can use a notebook passing as a
+ 
+
+743
+00:16:55,199 --> 00:16:56,710
+we can use a notebook passing as a
+parameter if
+
+744
+00:16:56,710 --> 00:16:56,720
+parameter if
+ 
+
+745
+00:16:56,720 --> 00:17:00,069
+parameter if
+if n in notebook return notebook n right
+
+746
+00:17:00,069 --> 00:17:00,079
+if n in notebook return notebook n right
+ 
+
+747
+00:17:00,079 --> 00:17:02,069
+if n in notebook return notebook n right
+and before we return it we can store the
+
+748
+00:17:02,069 --> 00:17:02,079
+and before we return it we can store the
+ 
+
+749
+00:17:02,079 --> 00:17:03,670
+and before we return it we can store the
+values in the
+
+750
+00:17:03,670 --> 00:17:03,680
+values in the
+ 
+
+751
+00:17:03,680 --> 00:17:06,630
+values in the
+notebook okay something like notebook
+
+752
+00:17:06,630 --> 00:17:06,640
+notebook okay something like notebook
+ 
+
+753
+00:17:06,640 --> 00:17:09,429
+notebook okay something like notebook
+and equals value
+
+754
+00:17:09,429 --> 00:17:09,439
+and equals value
+ 
+
+755
+00:17:09,439 --> 00:17:11,990
+and equals value
+and return value yeah remember return
+
+756
+00:17:11,990 --> 00:17:12,000
+and return value yeah remember return
+ 
+
+757
+00:17:12,000 --> 00:17:12,870
+and return value yeah remember return
+value yeah
+
+758
+00:17:12,870 --> 00:17:12,880
+value yeah
+ 
+
+759
+00:17:12,880 --> 00:17:16,069
+value yeah
+define remember define food and notebook
+
+760
+00:17:16,069 --> 00:17:16,079
+define remember define food and notebook
+ 
+
+761
+00:17:16,079 --> 00:17:16,870
+define remember define food and notebook
+and you can
+
+762
+00:17:16,870 --> 00:17:16,880
+and you can
+ 
+
+763
+00:17:16,880 --> 00:17:19,669
+and you can
+using what using a set yeah yeah not
+
+764
+00:17:19,669 --> 00:17:19,679
+using what using a set yeah yeah not
+ 
+
+765
+00:17:19,679 --> 00:17:21,429
+using what using a set yeah yeah not
+understand not the same
+
+766
+00:17:21,429 --> 00:17:21,439
+understand not the same
+ 
+
+767
+00:17:21,439 --> 00:17:24,470
+understand not the same
+book dictionary i know if
+
+768
+00:17:24,470 --> 00:17:24,480
+book dictionary i know if
+ 
+
+769
+00:17:24,480 --> 00:17:28,710
+book dictionary i know if
+and in notebook pretend
+
+770
+00:17:28,710 --> 00:17:28,720
+and in notebook pretend
+ 
+
+771
+00:17:28,720 --> 00:17:31,669
+and in notebook pretend
+no book end right because look it you
+
+772
+00:17:31,669 --> 00:17:31,679
+no book end right because look it you
+ 
+
+773
+00:17:31,679 --> 00:17:32,710
+no book end right because look it you
+need to write this
+
+774
+00:17:32,710 --> 00:17:32,720
+need to write this
+ 
+
+775
+00:17:32,720 --> 00:17:34,710
+need to write this
+like this and it's better we just get
+
+776
+00:17:34,710 --> 00:17:34,720
+like this and it's better we just get
+ 
+
+777
+00:17:34,720 --> 00:17:35,830
+like this and it's better we just get
+rid of everything
+
+778
+00:17:35,830 --> 00:17:35,840
+rid of everything
+ 
+
+779
+00:17:35,840 --> 00:17:39,350
+rid of everything
+and do this magically well it is
+
+780
+00:17:39,350 --> 00:17:39,360
+and do this magically well it is
+ 
+
+781
+00:17:39,360 --> 00:17:44,830
+and do this magically well it is
+cash cash cash okay cash
+
+782
+00:17:44,830 --> 00:17:44,840
+
+ 
+
+783
+00:17:44,840 --> 00:17:52,350
+
+money
+
+784
+00:17:52,350 --> 00:17:52,360
+
+ 
+
+785
+00:17:52,360 --> 00:17:59,270
+
+[Music]
+
+786
+00:17:59,270 --> 00:17:59,280
+
+ 
+
+787
+00:17:59,280 --> 00:18:02,630
+
+numbers yeah numbers and then n equals
+
+788
+00:18:02,630 --> 00:18:02,640
+numbers yeah numbers and then n equals
+ 
+
+789
+00:18:02,640 --> 00:18:04,390
+numbers yeah numbers and then n equals
+length we need to find out the numbers
+
+790
+00:18:04,390 --> 00:18:04,400
+length we need to find out the numbers
+ 
+
+791
+00:18:04,400 --> 00:18:06,390
+length we need to find out the numbers
+first length first
+
+792
+00:18:06,390 --> 00:18:06,400
+first length first
+ 
+
+793
+00:18:06,400 --> 00:18:10,070
+first length first
+if n is if n is zero
+
+794
+00:18:10,070 --> 00:18:10,080
+if n is if n is zero
+ 
+
+795
+00:18:10,080 --> 00:18:13,270
+if n is if n is zero
+return zero yeah because and if
+
+796
+00:18:13,270 --> 00:18:13,280
+return zero yeah because and if
+ 
+
+797
+00:18:13,280 --> 00:18:16,950
+return zero yeah because and if
+n is one written one if there's only one
+
+798
+00:18:16,950 --> 00:18:16,960
+n is one written one if there's only one
+ 
+
+799
+00:18:16,960 --> 00:18:18,630
+n is one written one if there's only one
+animal in in the array
+
+800
+00:18:18,630 --> 00:18:18,640
+animal in in the array
+ 
+
+801
+00:18:18,640 --> 00:18:21,750
+animal in in the array
+what's wrong with that no if no there's
+
+802
+00:18:21,750 --> 00:18:21,760
+what's wrong with that no if no there's
+ 
+
+803
+00:18:21,760 --> 00:18:23,350
+what's wrong with that no if no there's
+only one element in array what's the
+
+804
+00:18:23,350 --> 00:18:23,360
+only one element in array what's the
+ 
+
+805
+00:18:23,360 --> 00:18:25,029
+only one element in array what's the
+longest subsequence
+
+806
+00:18:25,029 --> 00:18:25,039
+longest subsequence
+ 
+
+807
+00:18:25,039 --> 00:18:27,590
+longest subsequence
+longer is increasing subsequent even
+
+808
+00:18:27,590 --> 00:18:27,600
+longer is increasing subsequent even
+ 
+
+809
+00:18:27,600 --> 00:18:28,789
+longer is increasing subsequent even
+there's only number one
+
+810
+00:18:28,789 --> 00:18:28,799
+there's only number one
+ 
+
+811
+00:18:28,799 --> 00:18:32,549
+there's only number one
+one one yeah one okay now we need to
+
+812
+00:18:32,549 --> 00:18:32,559
+one one yeah one okay now we need to
+ 
+
+813
+00:18:32,559 --> 00:18:33,830
+one one yeah one okay now we need to
+store this
+
+814
+00:18:33,830 --> 00:18:33,840
+store this
+ 
+
+815
+00:18:33,840 --> 00:18:37,669
+store this
+arrays in the dp values in an array
+
+816
+00:18:37,669 --> 00:18:37,679
+arrays in the dp values in an array
+ 
+
+817
+00:18:37,679 --> 00:18:40,230
+arrays in the dp values in an array
+let's say dp equals beginning would be
+
+818
+00:18:40,230 --> 00:18:40,240
+let's say dp equals beginning would be
+ 
+
+819
+00:18:40,240 --> 00:18:41,190
+let's say dp equals beginning would be
+one right
+
+820
+00:18:41,190 --> 00:18:41,200
+one right
+ 
+
+821
+00:18:41,200 --> 00:18:44,310
+one right
+yeah because each value will be each
+
+822
+00:18:44,310 --> 00:18:44,320
+yeah because each value will be each
+ 
+
+823
+00:18:44,320 --> 00:18:47,110
+yeah because each value will be each
+the longest increasing subsequence that
+
+824
+00:18:47,110 --> 00:18:47,120
+the longest increasing subsequence that
+ 
+
+825
+00:18:47,120 --> 00:18:47,590
+the longest increasing subsequence that
+ends
+
+826
+00:18:47,590 --> 00:18:47,600
+ends
+ 
+
+827
+00:18:47,600 --> 00:18:50,310
+ends
+at each number is at least one right
+
+828
+00:18:50,310 --> 00:18:50,320
+at each number is at least one right
+ 
+
+829
+00:18:50,320 --> 00:18:51,270
+at each number is at least one right
+yeah
+
+830
+00:18:51,270 --> 00:18:51,280
+yeah
+ 
+
+831
+00:18:51,280 --> 00:18:54,870
+yeah
+and right times n plus one okay
+
+832
+00:18:54,870 --> 00:18:54,880
+and right times n plus one okay
+ 
+
+833
+00:18:54,880 --> 00:18:58,950
+and right times n plus one okay
+times n plus one okay then four
+
+834
+00:18:58,950 --> 00:18:58,960
+times n plus one okay then four
+ 
+
+835
+00:18:58,960 --> 00:19:03,669
+times n plus one okay then four
+i in range
+
+836
+00:19:03,669 --> 00:19:03,679
+
+ 
+
+837
+00:19:03,679 --> 00:19:08,150
+
+n right then we do another loop for
+
+838
+00:19:08,150 --> 00:19:08,160
+n right then we do another loop for
+ 
+
+839
+00:19:08,160 --> 00:19:11,590
+n right then we do another loop for
+j in range
+
+840
+00:19:11,590 --> 00:19:11,600
+j in range
+ 
+
+841
+00:19:11,600 --> 00:19:14,789
+j in range
+i okay so basically look this
+
+842
+00:19:14,789 --> 00:19:14,799
+i okay so basically look this
+ 
+
+843
+00:19:14,799 --> 00:19:17,909
+i okay so basically look this
+number okay this is the number
+
+844
+00:19:17,909 --> 00:19:17,919
+number okay this is the number
+ 
+
+845
+00:19:17,919 --> 00:19:21,510
+number okay this is the number
+uh one zero two n okay two n plus one
+
+846
+00:19:21,510 --> 00:19:21,520
+uh one zero two n okay two n plus one
+ 
+
+847
+00:19:21,520 --> 00:19:23,110
+uh one zero two n okay two n plus one
+okay
+
+848
+00:19:23,110 --> 00:19:23,120
+okay
+ 
+
+849
+00:19:23,120 --> 00:19:26,390
+okay
+and then i will be here when we
+
+850
+00:19:26,390 --> 00:19:26,400
+and then i will be here when we
+ 
+
+851
+00:19:26,400 --> 00:19:29,029
+and then i will be here when we
+when we know i this is value we start
+
+852
+00:19:29,029 --> 00:19:29,039
+when we know i this is value we start
+ 
+
+853
+00:19:29,039 --> 00:19:29,750
+when we know i this is value we start
+from j
+
+854
+00:19:29,750 --> 00:19:29,760
+from j
+ 
+
+855
+00:19:29,760 --> 00:19:33,110
+from j
+j will be this point yeah
+
+856
+00:19:33,110 --> 00:19:33,120
+j will be this point yeah
+ 
+
+857
+00:19:33,120 --> 00:19:36,150
+j will be this point yeah
+to get it so look when i is five
+
+858
+00:19:36,150 --> 00:19:36,160
+to get it so look when i is five
+ 
+
+859
+00:19:36,160 --> 00:19:39,350
+to get it so look when i is five
+when i is five all right look
+
+860
+00:19:39,350 --> 00:19:39,360
+when i is five all right look
+ 
+
+861
+00:19:39,360 --> 00:19:42,470
+when i is five all right look
+when i is five z will be zero to
+
+862
+00:19:42,470 --> 00:19:42,480
+when i is five z will be zero to
+ 
+
+863
+00:19:42,480 --> 00:19:46,710
+when i is five z will be zero to
+four when i is ten zero and j will be
+
+864
+00:19:46,710 --> 00:19:46,720
+four when i is ten zero and j will be
+ 
+
+865
+00:19:46,720 --> 00:19:48,310
+four when i is ten zero and j will be
+one
+
+866
+00:19:48,310 --> 00:19:48,320
+one
+ 
+
+867
+00:19:48,320 --> 00:19:51,590
+one
+two will be the range of
+
+868
+00:19:51,590 --> 00:19:51,600
+two will be the range of
+ 
+
+869
+00:19:51,600 --> 00:19:55,350
+two will be the range of
+will one 089 we're done okay so
+
+870
+00:19:55,350 --> 00:19:55,360
+will one 089 we're done okay so
+ 
+
+871
+00:19:55,360 --> 00:19:57,909
+will one 089 we're done okay so
+this is basically give the complexity of
+
+872
+00:19:57,909 --> 00:19:57,919
+this is basically give the complexity of
+ 
+
+873
+00:19:57,919 --> 00:19:59,590
+this is basically give the complexity of
+our
+
+874
+00:19:59,590 --> 00:19:59,600
+our
+ 
+
+875
+00:19:59,600 --> 00:20:03,750
+our
+n there's four there's four over
+
+876
+00:20:03,750 --> 00:20:03,760
+n there's four there's four over
+ 
+
+877
+00:20:03,760 --> 00:20:19,110
+n there's four there's four over
+n n square
+
+878
+00:20:19,110 --> 00:20:19,120
+
+ 
+
+879
+00:20:19,120 --> 00:20:22,390
+
+smaller than lambs i what do i write
+
+880
+00:20:22,390 --> 00:20:22,400
+smaller than lambs i what do i write
+ 
+
+881
+00:20:22,400 --> 00:20:24,549
+smaller than lambs i what do i write
+here can you write this bit
+
+882
+00:20:24,549 --> 00:20:24,559
+here can you write this bit
+ 
+
+883
+00:20:24,559 --> 00:20:28,390
+here can you write this bit
+if this number is look like 10
+
+884
+00:20:28,390 --> 00:20:28,400
+if this number is look like 10
+ 
+
+885
+00:20:28,400 --> 00:20:32,630
+if this number is look like 10
+return if a is smaller than 10
+
+886
+00:20:32,630 --> 00:20:32,640
+return if a is smaller than 10
+ 
+
+887
+00:20:32,640 --> 00:20:34,630
+return if a is smaller than 10
+so what should we do we should update
+
+888
+00:20:34,630 --> 00:20:34,640
+so what should we do we should update
+ 
+
+889
+00:20:34,640 --> 00:20:36,789
+so what should we do we should update
+return no yeah we need to
+
+890
+00:20:36,789 --> 00:20:36,799
+return no yeah we need to
+ 
+
+891
+00:20:36,799 --> 00:20:40,070
+return no yeah we need to
+feel the value of tp1 look
+
+892
+00:20:40,070 --> 00:20:40,080
+feel the value of tp1 look
+ 
+
+893
+00:20:40,080 --> 00:20:42,870
+feel the value of tp1 look
+if a is smaller than j this this is this
+
+894
+00:20:42,870 --> 00:20:42,880
+if a is smaller than j this this is this
+ 
+
+895
+00:20:42,880 --> 00:20:43,430
+if a is smaller than j this this is this
+is d
+
+896
+00:20:43,430 --> 00:20:43,440
+is d
+ 
+
+897
+00:20:43,440 --> 00:20:46,950
+is d
+this is z this is i if numbers j
+
+898
+00:20:46,950 --> 00:20:46,960
+this is z this is i if numbers j
+ 
+
+899
+00:20:46,960 --> 00:20:50,149
+this is z this is i if numbers j
+smaller than numbers i then we need to
+
+900
+00:20:50,149 --> 00:20:50,159
+smaller than numbers i then we need to
+ 
+
+901
+00:20:50,159 --> 00:20:53,270
+smaller than numbers i then we need to
+update dp i equal
+
+902
+00:20:53,270 --> 00:20:53,280
+update dp i equal
+ 
+
+903
+00:20:53,280 --> 00:20:55,510
+update dp i equal
+equals maxima you need to do this
+
+904
+00:20:55,510 --> 00:20:55,520
+equals maxima you need to do this
+ 
+
+905
+00:20:55,520 --> 00:20:57,430
+equals maxima you need to do this
+maximum dpi
+
+906
+00:20:57,430 --> 00:20:57,440
+maximum dpi
+ 
+
+907
+00:20:57,440 --> 00:21:00,630
+maximum dpi
+is the same thing and dpy
+
+908
+00:21:00,630 --> 00:21:00,640
+is the same thing and dpy
+ 
+
+909
+00:21:00,640 --> 00:21:12,789
+is the same thing and dpy
+dpi
+
+910
+00:21:12,789 --> 00:21:12,799
+
+ 
+
+911
+00:21:12,799 --> 00:21:28,950
+
+with our
+
+912
+00:21:28,950 --> 00:21:28,960
+
+ 
+
+913
+00:21:28,960 --> 00:21:30,710
+
+the longest subsequence that ends the
+
+914
+00:21:30,710 --> 00:21:30,720
+the longest subsequence that ends the
+ 
+
+915
+00:21:30,720 --> 00:21:32,549
+the longest subsequence that ends the
+number i right number one right
+
+916
+00:21:32,549 --> 00:21:32,559
+number i right number one right
+ 
+
+917
+00:21:32,559 --> 00:21:34,630
+number i right number one right
+so we need to find the maximum value of
+
+918
+00:21:34,630 --> 00:21:34,640
+so we need to find the maximum value of
+ 
+
+919
+00:21:34,640 --> 00:21:36,230
+so we need to find the maximum value of
+the otp value
+
+920
+00:21:36,230 --> 00:21:36,240
+the otp value
+ 
+
+921
+00:21:36,240 --> 00:21:40,789
+the otp value
+right tp0 dp1 db2 dv3 yeah i'm right
+
+922
+00:21:40,789 --> 00:21:40,799
+right tp0 dp1 db2 dv3 yeah i'm right
+ 
+
+923
+00:21:40,799 --> 00:21:44,310
+right tp0 dp1 db2 dv3 yeah i'm right
+got it so it's not the last element okay
+
+924
+00:21:44,310 --> 00:21:44,320
+got it so it's not the last element okay
+ 
+
+925
+00:21:44,320 --> 00:21:47,669
+got it so it's not the last element okay
+so you should we should return return
+
+926
+00:21:47,669 --> 00:21:47,679
+so you should we should return return
+ 
+
+927
+00:21:47,679 --> 00:21:52,230
+so you should we should return return
+return max dp
+
+928
+00:21:52,230 --> 00:21:52,240
+return max dp
+ 
+
+929
+00:21:52,240 --> 00:21:55,110
+return max dp
+max dp so it's all the values the
+
+930
+00:21:55,110 --> 00:21:55,120
+max dp so it's all the values the
+ 
+
+931
+00:21:55,120 --> 00:21:57,190
+max dp so it's all the values the
+maximum value in the dp array do you get
+
+932
+00:21:57,190 --> 00:21:57,200
+maximum value in the dp array do you get
+ 
+
+933
+00:21:57,200 --> 00:21:58,149
+maximum value in the dp array do you get
+it
+
+934
+00:21:58,149 --> 00:21:58,159
+it
+ 
+
+935
+00:21:58,159 --> 00:22:00,630
+it
+the previously that one was a those kind
+
+936
+00:22:00,630 --> 00:22:00,640
+the previously that one was a those kind
+ 
+
+937
+00:22:00,640 --> 00:22:02,870
+the previously that one was a those kind
+of mistake okay let's write it again
+
+938
+00:22:02,870 --> 00:22:02,880
+of mistake okay let's write it again
+ 
+
+939
+00:22:02,880 --> 00:22:04,950
+of mistake okay let's write it again
+let's write it again so just to give you
+
+940
+00:22:04,950 --> 00:22:04,960
+let's write it again so just to give you
+ 
+
+941
+00:22:04,960 --> 00:22:06,149
+let's write it again so just to give you
+a
+
+942
+00:22:06,149 --> 00:22:06,159
+a
+ 
+
+943
+00:22:06,159 --> 00:22:09,909
+a
+define f n right and then cache yeah
+
+944
+00:22:09,909 --> 00:22:09,919
+define f n right and then cache yeah
+ 
+
+945
+00:22:09,919 --> 00:22:12,470
+define f n right and then cache yeah
+catch suppose we we know the numbers
+
+946
+00:22:12,470 --> 00:22:12,480
+catch suppose we we know the numbers
+ 
+
+947
+00:22:12,480 --> 00:22:13,190
+catch suppose we we know the numbers
+here okay
+
+948
+00:22:13,190 --> 00:22:13,200
+here okay
+ 
+
+949
+00:22:13,200 --> 00:22:17,029
+here okay
+that if n equals
+
+950
+00:22:17,029 --> 00:22:17,039
+that if n equals
+ 
+
+951
+00:22:17,039 --> 00:22:21,110
+that if n equals
+if a equals one return
+
+952
+00:22:21,110 --> 00:22:21,120
+if a equals one return
+ 
+
+953
+00:22:21,120 --> 00:22:24,149
+if a equals one return
+return one right if
+
+954
+00:22:24,149 --> 00:22:24,159
+return one right if
+ 
+
+955
+00:22:24,159 --> 00:22:28,710
+return one right if
+now we do this answer equal
+
+956
+00:22:28,710 --> 00:22:28,720
+now we do this answer equal
+ 
+
+957
+00:22:28,720 --> 00:22:32,630
+now we do this answer equal
+one for i in
+
+958
+00:22:32,630 --> 00:22:32,640
+one for i in
+ 
+
+959
+00:22:32,640 --> 00:22:36,470
+one for i in
+range and yeah
+
+960
+00:22:36,470 --> 00:22:36,480
+range and yeah
+ 
+
+961
+00:22:36,480 --> 00:22:40,560
+range and yeah
+answer equals what
+
+962
+00:22:40,560 --> 00:22:40,570
+answer equals what
+ 
+
+963
+00:22:40,570 --> 00:22:46,390
+answer equals what
+[Music]
+
+964
+00:22:46,390 --> 00:22:46,400
+
+ 
+
+965
+00:22:46,400 --> 00:22:50,950
+
+we need to check if num
+
+966
+00:22:50,950 --> 00:22:50,960
+we need to check if num
+ 
+
+967
+00:22:50,960 --> 00:22:55,190
+we need to check if num
+i smaller number
+
+968
+00:22:55,190 --> 00:22:55,200
+i smaller number
+ 
+
+969
+00:22:55,200 --> 00:22:58,390
+i smaller number
+n right if it's smaller than we can say
+
+970
+00:22:58,390 --> 00:22:58,400
+n right if it's smaller than we can say
+ 
+
+971
+00:22:58,400 --> 00:23:01,430
+n right if it's smaller than we can say
+answer equals max every
+
+972
+00:23:01,430 --> 00:23:01,440
+answer equals max every
+ 
+
+973
+00:23:01,440 --> 00:23:05,110
+answer equals max every
+answer and that will be f
+
+974
+00:23:05,110 --> 00:23:05,120
+answer and that will be f
+ 
+
+975
+00:23:05,120 --> 00:23:11,270
+answer and that will be f
+i what fy1
+
+976
+00:23:11,270 --> 00:23:11,280
+
+ 
+
+977
+00:23:11,280 --> 00:23:14,149
+
+if this i is smaller than n so these
+
+978
+00:23:14,149 --> 00:23:14,159
+if this i is smaller than n so these
+ 
+
+979
+00:23:14,159 --> 00:23:17,510
+if this i is smaller than n so these
+ants economy will be uh
+
+980
+00:23:17,510 --> 00:23:17,520
+ants economy will be uh
+ 
+
+981
+00:23:17,520 --> 00:23:32,470
+ants economy will be uh
+if you are okay
+
+982
+00:23:32,470 --> 00:23:32,480
+
+ 
+
+983
+00:23:32,480 --> 00:23:34,310
+
+don't look at my nose it's slightly
+
+984
+00:23:34,310 --> 00:23:34,320
+don't look at my nose it's slightly
+ 
+
+985
+00:23:34,320 --> 00:23:35,990
+don't look at my nose it's slightly
+different okay you need to understand
+
+986
+00:23:35,990 --> 00:23:36,000
+different okay you need to understand
+ 
+
+987
+00:23:36,000 --> 00:23:37,909
+different okay you need to understand
+okay you need to understand before you
+
+988
+00:23:37,909 --> 00:23:37,919
+okay you need to understand before you
+ 
+
+989
+00:23:37,919 --> 00:23:39,350
+okay you need to understand before you
+know the answer okay
+
+990
+00:23:39,350 --> 00:23:39,360
+know the answer okay
+ 
+
+991
+00:23:39,360 --> 00:23:43,190
+know the answer okay
+just guess before yeah look this is the
+
+992
+00:23:43,190 --> 00:23:43,200
+just guess before yeah look this is the
+ 
+
+993
+00:23:43,200 --> 00:23:45,590
+just guess before yeah look this is the
+procedure fn and when we calling it we
+
+994
+00:23:45,590 --> 00:23:45,600
+procedure fn and when we calling it we
+ 
+
+995
+00:23:45,600 --> 00:23:47,350
+procedure fn and when we calling it we
+need to return
+
+996
+00:23:47,350 --> 00:23:47,360
+need to return
+ 
+
+997
+00:23:47,360 --> 00:23:50,710
+need to return
+return what maximum of
+
+998
+00:23:50,710 --> 00:23:50,720
+return what maximum of
+ 
+
+999
+00:23:50,720 --> 00:23:54,549
+return what maximum of
+f f i for
+
+1000
+00:23:54,549 --> 00:23:54,559
+f f i for
+ 
+
+1001
+00:23:54,559 --> 00:23:57,830
+f f i for
+i in range
+
+1002
+00:23:57,830 --> 00:23:57,840
+i in range
+ 
+
+1003
+00:23:57,840 --> 00:24:01,029
+i in range
+n right because because
+
+1004
+00:24:01,029 --> 00:24:01,039
+n right because because
+ 
+
+1005
+00:24:01,039 --> 00:24:05,110
+n right because because
+f n look because this f n is the longest
+
+1006
+00:24:05,110 --> 00:24:05,120
+f n look because this f n is the longest
+ 
+
+1007
+00:24:05,120 --> 00:24:07,909
+f n look because this f n is the longest
+increasing subsequence that ends the nth
+
+1008
+00:24:07,909 --> 00:24:07,919
+increasing subsequence that ends the nth
+ 
+
+1009
+00:24:07,919 --> 00:24:08,470
+increasing subsequence that ends the nth
+number
+
+1010
+00:24:08,470 --> 00:24:08,480
+number
+ 
+
+1011
+00:24:08,480 --> 00:24:12,549
+number
+right right so it's not an answer
+
+1012
+00:24:12,549 --> 00:24:12,559
+right right so it's not an answer
+ 
+
+1013
+00:24:12,559 --> 00:24:15,430
+right right so it's not an answer
+the last element is not the the longest
+
+1014
+00:24:15,430 --> 00:24:15,440
+the last element is not the the longest
+ 
+
+1015
+00:24:15,440 --> 00:24:16,870
+the last element is not the the longest
+increasing subsequence four
+
+1016
+00:24:16,870 --> 00:24:16,880
+increasing subsequence four
+ 
+
+1017
+00:24:16,880 --> 00:24:19,510
+increasing subsequence four
+minutes the longest stop increasing
+
+1018
+00:24:19,510 --> 00:24:19,520
+minutes the longest stop increasing
+ 
+
+1019
+00:24:19,520 --> 00:24:20,230
+minutes the longest stop increasing
+subsequent
+
+1020
+00:24:20,230 --> 00:24:20,240
+subsequent
+ 
+
+1021
+00:24:20,240 --> 00:24:23,990
+subsequent
+is not uh needed to be
+
+1022
+00:24:23,990 --> 00:24:24,000
+is not uh needed to be
+ 
+
+1023
+00:24:24,000 --> 00:24:26,149
+is not uh needed to be
+including the last animal am i right
+
+1024
+00:24:26,149 --> 00:24:26,159
+including the last animal am i right
+ 
+
+1025
+00:24:26,159 --> 00:24:27,590
+including the last animal am i right
+yeah
+
+1026
+00:24:27,590 --> 00:24:27,600
+yeah
+ 
+
+1027
+00:24:27,600 --> 00:24:30,950
+yeah
+do you understand so so so you'll be
+
+1028
+00:24:30,950 --> 00:24:30,960
+do you understand so so so you'll be
+ 
+
+1029
+00:24:30,960 --> 00:24:34,630
+do you understand so so so you'll be
+the maximum of f i
+
+1030
+00:24:34,630 --> 00:24:34,640
+the maximum of f i
+ 
+
+1031
+00:24:34,640 --> 00:24:37,990
+the maximum of f i
+where i is from from one
+
+1032
+00:24:37,990 --> 00:24:38,000
+where i is from from one
+ 
+
+1033
+00:24:38,000 --> 00:24:41,430
+where i is from from one
+from zero to n
+
+1034
+00:24:41,430 --> 00:24:41,440
+from zero to n
+ 
+
+1035
+00:24:41,440 --> 00:24:44,470
+from zero to n
+right all right look two three
+
+1036
+00:24:44,470 --> 00:24:44,480
+right all right look two three
+ 
+
+1037
+00:24:44,480 --> 00:24:48,549
+right all right look two three
+four five and then uh
+
+1038
+00:24:48,549 --> 00:24:48,559
+four five and then uh
+ 
+
+1039
+00:24:48,559 --> 00:24:52,950
+four five and then uh
+let's say ten uh
+
+1040
+00:24:52,950 --> 00:24:52,960
+let's say ten uh
+ 
+
+1041
+00:24:52,960 --> 00:24:58,230
+let's say ten uh
+how can we do this the last element five
+
+1042
+00:24:58,230 --> 00:24:58,240
+
+ 
+
+1043
+00:24:58,240 --> 00:25:01,830
+
+nine ten eleven two okay what's the
+
+1044
+00:25:01,830 --> 00:25:01,840
+nine ten eleven two okay what's the
+ 
+
+1045
+00:25:01,840 --> 00:25:03,430
+nine ten eleven two okay what's the
+longest subsequence
+
+1046
+00:25:03,430 --> 00:25:03,440
+longest subsequence
+ 
+
+1047
+00:25:03,440 --> 00:25:07,430
+longest subsequence
+all right what's the longest subsequence
+
+1048
+00:25:07,430 --> 00:25:07,440
+all right what's the longest subsequence
+ 
+
+1049
+00:25:07,440 --> 00:25:10,630
+all right what's the longest subsequence
+you can think of yeah three yeah okay so
+
+1050
+00:25:10,630 --> 00:25:10,640
+you can think of yeah three yeah okay so
+ 
+
+1051
+00:25:10,640 --> 00:25:11,029
+you can think of yeah three yeah okay so
+look
+
+1052
+00:25:11,029 --> 00:25:11,039
+look
+ 
+
+1053
+00:25:11,039 --> 00:25:15,510
+look
+this f f zero is what f zero is one
+
+1054
+00:25:15,510 --> 00:25:15,520
+this f f zero is what f zero is one
+ 
+
+1055
+00:25:15,520 --> 00:25:18,549
+this f f zero is what f zero is one
+zero the longest number
+
+1056
+00:25:18,549 --> 00:25:18,559
+zero the longest number
+ 
+
+1057
+00:25:18,559 --> 00:25:22,070
+zero the longest number
+not five this is num num is already
+
+1058
+00:25:22,070 --> 00:25:22,080
+not five this is num num is already
+ 
+
+1059
+00:25:22,080 --> 00:25:26,230
+not five this is num num is already
+zero is five but f zero is one
+
+1060
+00:25:26,230 --> 00:25:26,240
+
+ 
+
+1061
+00:25:26,240 --> 00:25:28,470
+
+the longest increasing subsequent that
+
+1062
+00:25:28,470 --> 00:25:28,480
+the longest increasing subsequent that
+ 
+
+1063
+00:25:28,480 --> 00:25:30,870
+the longest increasing subsequent that
+ends with number five how many
+
+1064
+00:25:30,870 --> 00:25:30,880
+ends with number five how many
+ 
+
+1065
+00:25:30,880 --> 00:25:34,230
+ends with number five how many
+one to five no one to four
+
+1066
+00:25:34,230 --> 00:25:34,240
+one to five no one to four
+ 
+
+1067
+00:25:34,240 --> 00:25:36,230
+one to five no one to four
+do you guess what's the longest what's
+
+1068
+00:25:36,230 --> 00:25:36,240
+do you guess what's the longest what's
+ 
+
+1069
+00:25:36,240 --> 00:25:38,149
+do you guess what's the longest what's
+the number of longest subsequence that
+
+1070
+00:25:38,149 --> 00:25:38,159
+the number of longest subsequence that
+ 
+
+1071
+00:25:38,159 --> 00:25:40,070
+the number of longest subsequence that
+ends in number five in this array what's
+
+1072
+00:25:40,070 --> 00:25:40,080
+ends in number five in this array what's
+ 
+
+1073
+00:25:40,080 --> 00:25:43,190
+ends in number five in this array what's
+that what's it and
+
+1074
+00:25:43,190 --> 00:25:43,200
+that what's it and
+ 
+
+1075
+00:25:43,200 --> 00:25:46,630
+that what's it and
+the end ends in number five
+
+1076
+00:25:46,630 --> 00:25:46,640
+the end ends in number five
+ 
+
+1077
+00:25:46,640 --> 00:25:48,950
+the end ends in number five
+how many what's the longest increasing
+
+1078
+00:25:48,950 --> 00:25:48,960
+how many what's the longest increasing
+ 
+
+1079
+00:25:48,960 --> 00:25:51,909
+how many what's the longest increasing
+subsequence that ends in number five
+
+1080
+00:25:51,909 --> 00:25:51,919
+subsequence that ends in number five
+ 
+
+1081
+00:25:51,919 --> 00:25:55,269
+subsequence that ends in number five
+why is two why is it two starting from
+
+1082
+00:25:55,269 --> 00:25:55,279
+why is two why is it two starting from
+ 
+
+1083
+00:25:55,279 --> 00:25:56,230
+why is two why is it two starting from
+left
+
+1084
+00:25:56,230 --> 00:25:56,240
+left
+ 
+
+1085
+00:25:56,240 --> 00:26:01,750
+left
+why is it two what's the answer
+
+1086
+00:26:01,750 --> 00:26:01,760
+
+ 
+
+1087
+00:26:01,760 --> 00:26:05,350
+
+ends in number five can you find any
+
+1088
+00:26:05,350 --> 00:26:05,360
+ends in number five can you find any
+ 
+
+1089
+00:26:05,360 --> 00:26:09,029
+ends in number five can you find any
+subsequent that ends in number five
+
+1090
+00:26:09,029 --> 00:26:09,039
+
+ 
+
+1091
+00:26:09,039 --> 00:26:15,029
+
+ryan what's the longest one sorry
+
+1092
+00:26:15,029 --> 00:26:15,039
+
+ 
+
+1093
+00:26:15,039 --> 00:26:17,430
+
+no i mean something something fine not
+
+1094
+00:26:17,430 --> 00:26:17,440
+no i mean something something fine not
+ 
+
+1095
+00:26:17,440 --> 00:26:18,149
+no i mean something something fine not
+starting with
+
+1096
+00:26:18,149 --> 00:26:18,159
+starting with
+ 
+
+1097
+00:26:18,159 --> 00:26:22,149
+starting with
+five ends with number five t5
+
+1098
+00:26:22,149 --> 00:26:22,159
+five ends with number five t5
+ 
+
+1099
+00:26:22,159 --> 00:26:26,549
+five ends with number five t5
+sorry why
+
+1100
+00:26:26,549 --> 00:26:26,559
+
+ 
+
+1101
+00:26:26,559 --> 00:26:28,630
+
+you don't care about the rest i mean say
+
+1102
+00:26:28,630 --> 00:26:28,640
+you don't care about the rest i mean say
+ 
+
+1103
+00:26:28,640 --> 00:26:30,630
+you don't care about the rest i mean say
+any number that long is subsequent
+
+1104
+00:26:30,630 --> 00:26:30,640
+any number that long is subsequent
+ 
+
+1105
+00:26:30,640 --> 00:26:34,789
+any number that long is subsequent
+ends number five how many
+
+1106
+00:26:34,789 --> 00:26:34,799
+
+ 
+
+1107
+00:26:34,799 --> 00:26:36,870
+
+why is it four come on you still don't
+
+1108
+00:26:36,870 --> 00:26:36,880
+why is it four come on you still don't
+ 
+
+1109
+00:26:36,880 --> 00:26:38,630
+why is it four come on you still don't
+understand what's the donkey subsequent
+
+1110
+00:26:38,630 --> 00:26:38,640
+understand what's the donkey subsequent
+ 
+
+1111
+00:26:38,640 --> 00:26:40,710
+understand what's the donkey subsequent
+the answer in number five
+
+1112
+00:26:40,710 --> 00:26:40,720
+the answer in number five
+ 
+
+1113
+00:26:40,720 --> 00:26:43,830
+the answer in number five
+one what what are you thinking what ends
+
+1114
+00:26:43,830 --> 00:26:43,840
+one what what are you thinking what ends
+ 
+
+1115
+00:26:43,840 --> 00:26:45,909
+one what what are you thinking what ends
+in number five what's the number
+
+1116
+00:26:45,909 --> 00:26:45,919
+in number five what's the number
+ 
+
+1117
+00:26:45,919 --> 00:26:47,430
+in number five what's the number
+what's the longest subsequence in the
+
+1118
+00:26:47,430 --> 00:26:47,440
+what's the longest subsequence in the
+ 
+
+1119
+00:26:47,440 --> 00:26:50,950
+what's the longest subsequence in the
+end number ten
+
+1120
+00:26:50,950 --> 00:26:50,960
+
+ 
+
+1121
+00:26:50,960 --> 00:26:54,549
+
+one what is one no
+
+1122
+00:26:54,549 --> 00:26:54,559
+one what is one no
+ 
+
+1123
+00:26:54,559 --> 00:26:59,350
+one what is one no
+two five and ten you got it
+
+1124
+00:26:59,350 --> 00:26:59,360
+
+ 
+
+1125
+00:26:59,360 --> 00:27:01,510
+
+okay what's the number it's coming in
+
+1126
+00:27:01,510 --> 00:27:01,520
+okay what's the number it's coming in
+ 
+
+1127
+00:27:01,520 --> 00:27:03,350
+okay what's the number it's coming in
+number eleven three
+
+1128
+00:27:03,350 --> 00:27:03,360
+number eleven three
+ 
+
+1129
+00:27:03,360 --> 00:27:06,630
+number eleven three
+yeah what's the number common sorry
+
+1130
+00:27:06,630 --> 00:27:06,640
+yeah what's the number common sorry
+ 
+
+1131
+00:27:06,640 --> 00:27:08,870
+yeah what's the number common sorry
+why is it four can you find the four you
+
+1132
+00:27:08,870 --> 00:27:08,880
+why is it four can you find the four you
+ 
+
+1133
+00:27:08,880 --> 00:27:10,470
+why is it four can you find the four you
+know just say one two three four what's
+
+1134
+00:27:10,470 --> 00:27:10,480
+know just say one two three four what's
+ 
+
+1135
+00:27:10,480 --> 00:27:11,669
+know just say one two three four what's
+this what's the longest
+
+1136
+00:27:11,669 --> 00:27:11,679
+this what's the longest
+ 
+
+1137
+00:27:11,679 --> 00:27:15,590
+this what's the longest
+subsequent that ends in number two
+
+1138
+00:27:15,590 --> 00:27:15,600
+
+ 
+
+1139
+00:27:15,600 --> 00:27:17,909
+
+one one yes because you cannot find
+
+1140
+00:27:17,909 --> 00:27:17,919
+one one yes because you cannot find
+ 
+
+1141
+00:27:17,919 --> 00:27:19,190
+one one yes because you cannot find
+anything do you understand there's
+
+1142
+00:27:19,190 --> 00:27:19,200
+anything do you understand there's
+ 
+
+1143
+00:27:19,200 --> 00:27:22,549
+anything do you understand there's
+gonna be one thing yeah yeah okay so
+
+1144
+00:27:22,549 --> 00:27:22,559
+gonna be one thing yeah yeah okay so
+ 
+
+1145
+00:27:22,559 --> 00:27:24,149
+gonna be one thing yeah yeah okay so
+what's the longest subsequent in this
+
+1146
+00:27:24,149 --> 00:27:24,159
+what's the longest subsequent in this
+ 
+
+1147
+00:27:24,159 --> 00:27:26,230
+what's the longest subsequent in this
+array
+
+1148
+00:27:26,230 --> 00:27:26,240
+array
+ 
+
+1149
+00:27:26,240 --> 00:27:28,710
+array
+is it one it's not one right that's why
+
+1150
+00:27:28,710 --> 00:27:28,720
+is it one it's not one right that's why
+ 
+
+1151
+00:27:28,720 --> 00:27:30,549
+is it one it's not one right that's why
+we're not picking the last value right
+
+1152
+00:27:30,549 --> 00:27:30,559
+we're not picking the last value right
+ 
+
+1153
+00:27:30,559 --> 00:27:33,269
+we're not picking the last value right
+we pick all the best value highest value
+
+1154
+00:27:33,269 --> 00:27:33,279
+we pick all the best value highest value
+ 
+
+1155
+00:27:33,279 --> 00:27:34,310
+we pick all the best value highest value
+in this array
+
+1156
+00:27:34,310 --> 00:27:34,320
+in this array
+ 
+
+1157
+00:27:34,320 --> 00:27:37,350
+in this array
+correct do you understand now
+
+1158
+00:27:37,350 --> 00:27:37,360
+correct do you understand now
+ 
+
+1159
+00:27:37,360 --> 00:27:40,470
+correct do you understand now
+do you understand yeah just to give you
+
+1160
+00:27:40,470 --> 00:27:40,480
+do you understand yeah just to give you
+ 
+
+1161
+00:27:40,480 --> 00:27:42,470
+do you understand yeah just to give you
+that's why look we check we check all
+
+1162
+00:27:42,470 --> 00:27:42,480
+that's why look we check we check all
+ 
+
+1163
+00:27:42,480 --> 00:27:44,230
+that's why look we check we check all
+the value if lambda's i smaller than
+
+1164
+00:27:44,230 --> 00:27:44,240
+the value if lambda's i smaller than
+ 
+
+1165
+00:27:44,240 --> 00:27:45,990
+the value if lambda's i smaller than
+most way then we update it this is
+
+1166
+00:27:45,990 --> 00:27:46,000
+most way then we update it this is
+ 
+
+1167
+00:27:46,000 --> 00:27:47,350
+most way then we update it this is
+dynamic programming
+
+1168
+00:27:47,350 --> 00:27:47,360
+dynamic programming
+ 
+
+1169
+00:27:47,360 --> 00:27:51,029
+dynamic programming
+the spirits of dynamic programming okay
+
+1170
+00:27:51,029 --> 00:27:51,039
+the spirits of dynamic programming okay
+ 
+
+1171
+00:27:51,039 --> 00:27:54,630
+the spirits of dynamic programming okay
+yeah so look i'm writing another
+
+1172
+00:27:54,630 --> 00:27:54,640
+yeah so look i'm writing another
+ 
+
+1173
+00:27:54,640 --> 00:27:56,389
+yeah so look i'm writing another
+sequence okay three
+
+1174
+00:27:56,389 --> 00:27:56,399
+sequence okay three
+ 
+
+1175
+00:27:56,399 --> 00:27:59,430
+sequence okay three
+five seven maybe
+
+1176
+00:27:59,430 --> 00:27:59,440
+five seven maybe
+ 
+
+1177
+00:27:59,440 --> 00:28:04,149
+five seven maybe
+three five one
+
+1178
+00:28:04,149 --> 00:28:04,159
+
+ 
+
+1179
+00:28:04,159 --> 00:28:07,350
+
+zero okay can you write
+
+1180
+00:28:07,350 --> 00:28:07,360
+zero okay can you write
+ 
+
+1181
+00:28:07,360 --> 00:28:10,870
+zero okay can you write
+the f value f f zero
+
+1182
+00:28:10,870 --> 00:28:10,880
+the f value f f zero
+ 
+
+1183
+00:28:10,880 --> 00:28:15,990
+the f value f f zero
+okay f1 that's a teamwork u2 okay f3
+
+1184
+00:28:15,990 --> 00:28:16,000
+okay f1 that's a teamwork u2 okay f3
+ 
+
+1185
+00:28:16,000 --> 00:28:19,269
+okay f1 that's a teamwork u2 okay f3
+f4 and f5 f5
+
+1186
+00:28:19,269 --> 00:28:19,279
+f4 and f5 f5
+ 
+
+1187
+00:28:19,279 --> 00:28:22,789
+f4 and f5 f5
+and then and then
+
+1188
+00:28:22,789 --> 00:28:22,799
+and then and then
+ 
+
+1189
+00:28:22,799 --> 00:28:24,149
+and then and then
+and tell me what's the longest
+
+1190
+00:28:24,149 --> 00:28:24,159
+and tell me what's the longest
+ 
+
+1191
+00:28:24,159 --> 00:28:25,830
+and tell me what's the longest
+subsequent longest increasing
+
+1192
+00:28:25,830 --> 00:28:25,840
+subsequent longest increasing
+ 
+
+1193
+00:28:25,840 --> 00:28:27,590
+subsequent longest increasing
+subsequence of this question and then we
+
+1194
+00:28:27,590 --> 00:28:27,600
+subsequence of this question and then we
+ 
+
+1195
+00:28:27,600 --> 00:28:29,510
+subsequence of this question and then we
+can end this class can you do it please
+
+1196
+00:28:29,510 --> 00:28:29,520
+can end this class can you do it please
+ 
+
+1197
+00:28:29,520 --> 00:28:30,870
+can end this class can you do it please
+f3
+
+1198
+00:28:30,870 --> 00:28:30,880
+f3
+ 
+
+1199
+00:28:30,880 --> 00:28:32,950
+f3
+oh f3 yes thank you for reminding me
+
+1200
+00:28:32,950 --> 00:28:32,960
+oh f3 yes thank you for reminding me
+ 
+
+1201
+00:28:32,960 --> 00:28:35,029
+oh f3 yes thank you for reminding me
+okay i have three here
+
+1202
+00:28:35,029 --> 00:28:35,039
+okay i have three here
+ 
+
+1203
+00:28:35,039 --> 00:28:39,750
+okay i have three here
+okay can you load it please
+
+1204
+00:28:39,750 --> 00:28:39,760
+
+ 
+
+1205
+00:28:39,760 --> 00:28:42,149
+
+that's definitely one there's six of
+
+1206
+00:28:42,149 --> 00:28:42,159
+that's definitely one there's six of
+ 
+
+1207
+00:28:42,159 --> 00:28:42,870
+that's definitely one there's six of
+them
+
+1208
+00:28:42,870 --> 00:28:42,880
+them
+ 
+
+1209
+00:28:42,880 --> 00:28:45,909
+them
+and there's only five numbers oh
+
+1210
+00:28:45,909 --> 00:28:45,919
+and there's only five numbers oh
+ 
+
+1211
+00:28:45,919 --> 00:28:49,110
+and there's only five numbers oh
+okay okay so sorry
+
+1212
+00:28:49,110 --> 00:28:49,120
+okay okay so sorry
+ 
+
+1213
+00:28:49,120 --> 00:28:53,190
+okay okay so sorry
+okay okay so f zero f1 f2
+
+1214
+00:28:53,190 --> 00:28:53,200
+okay okay so f zero f1 f2
+ 
+
+1215
+00:28:53,200 --> 00:28:56,230
+okay okay so f zero f1 f2
+f3
+
+1216
+00:28:56,230 --> 00:28:56,240
+
+ 
+
+1217
+00:28:56,240 --> 00:29:10,070
+
+and f4
+
+1218
+00:29:10,070 --> 00:29:10,080
+
+ 
+
+1219
+00:29:10,080 --> 00:29:14,549
+
+come on
+
+1220
+00:29:14,549 --> 00:29:14,559
+
+ 
+
+1221
+00:29:14,559 --> 00:29:17,190
+
+subsequently it ends with this number
+
+1222
+00:29:17,190 --> 00:29:17,200
+subsequently it ends with this number
+ 
+
+1223
+00:29:17,200 --> 00:29:19,029
+subsequently it ends with this number
+this number is numberless number in this
+
+1224
+00:29:19,029 --> 00:29:19,039
+this number is numberless number in this
+ 
+
+1225
+00:29:19,039 --> 00:29:20,549
+this number is numberless number in this
+number okay the first one is definitely
+
+1226
+00:29:20,549 --> 00:29:20,559
+number okay the first one is definitely
+ 
+
+1227
+00:29:20,559 --> 00:29:21,110
+number okay the first one is definitely
+one
+
+1228
+00:29:21,110 --> 00:29:21,120
+one
+ 
+
+1229
+00:29:21,120 --> 00:29:24,230
+one
+this one okay
+
+1230
+00:29:24,230 --> 00:29:24,240
+this one okay
+ 
+
+1231
+00:29:24,240 --> 00:29:27,990
+this one okay
+okay that's correct
+
+1232
+00:29:27,990 --> 00:29:28,000
+
+ 
+
+1233
+00:29:28,000 --> 00:29:31,350
+
+yeah yeah this is correct okay
+
+1234
+00:29:31,350 --> 00:29:31,360
+yeah yeah this is correct okay
+ 
+
+1235
+00:29:31,360 --> 00:29:33,029
+yeah yeah this is correct okay
+and what's this come on feel it come on
+
+1236
+00:29:33,029 --> 00:29:33,039
+and what's this come on feel it come on
+ 
+
+1237
+00:29:33,039 --> 00:29:35,590
+and what's this come on feel it come on
+either way
+
+1238
+00:29:35,590 --> 00:29:35,600
+
+ 
+
+1239
+00:29:35,600 --> 00:29:52,830
+
+yeah okay so you got one score okay one
+
+1240
+00:29:52,830 --> 00:29:52,840
+
+ 
+
+1241
+00:29:52,840 --> 00:29:55,130
+
+0
+
+1242
+00:29:55,130 --> 00:29:55,140
+0
+ 
+
+1243
+00:29:55,140 --> 00:29:57,750
+0
+[Music]
+
+1244
+00:29:57,750 --> 00:29:57,760
+[Music]
+ 
+
+1245
+00:29:57,760 --> 00:29:59,350
+[Music]
+yeah yeah the one before i have a
+
+1246
+00:29:59,350 --> 00:29:59,360
+yeah yeah the one before i have a
+ 
+
+1247
+00:29:59,360 --> 00:30:01,350
+yeah yeah the one before i have a
+smaller the longest you can find the
+
+1248
+00:30:01,350 --> 00:30:01,360
+smaller the longest you can find the
+ 
+
+1249
+00:30:01,360 --> 00:30:03,190
+smaller the longest you can find the
+longest subsequence
+
+1250
+00:30:03,190 --> 00:30:03,200
+longest subsequence
+ 
+
+1251
+00:30:03,200 --> 00:30:06,389
+longest subsequence
+on zero now this one doing well
+
+1252
+00:30:06,389 --> 00:30:06,399
+on zero now this one doing well
+ 
+
+1253
+00:30:06,399 --> 00:30:08,470
+on zero now this one doing well
+there's no zero the minimum is one come
+
+1254
+00:30:08,470 --> 00:30:08,480
+there's no zero the minimum is one come
+ 
+
+1255
+00:30:08,480 --> 00:30:10,789
+there's no zero the minimum is one come
+on you can start with the number yeah
+
+1256
+00:30:10,789 --> 00:30:10,799
+on you can start with the number yeah
+ 
+
+1257
+00:30:10,799 --> 00:30:15,269
+on you can start with the number yeah
+so what's number one the writing
+
+1258
+00:30:15,269 --> 00:30:15,279
+so what's number one the writing
+ 
+
+1259
+00:30:15,279 --> 00:30:19,269
+so what's number one the writing
+okay correct f2 f1
+
+1260
+00:30:19,269 --> 00:30:19,279
+okay correct f2 f1
+ 
+
+1261
+00:30:19,279 --> 00:30:23,350
+okay correct f2 f1
+okay write it
+
+1262
+00:30:23,350 --> 00:30:23,360
+okay write it
+ 
+
+1263
+00:30:23,360 --> 00:30:26,070
+okay write it
+y is two can you give me a because what
+
+1264
+00:30:26,070 --> 00:30:26,080
+y is two can you give me a because what
+ 
+
+1265
+00:30:26,080 --> 00:30:26,950
+y is two can you give me a because what
+three five okay
+
+1266
+00:30:26,950 --> 00:30:26,960
+three five okay
+ 
+
+1267
+00:30:26,960 --> 00:30:29,990
+three five okay
+and this one one
+
+1268
+00:30:29,990 --> 00:30:30,000
+and this one one
+ 
+
+1269
+00:30:30,000 --> 00:30:32,470
+and this one one
+yeah like that why is one because they
+
+1270
+00:30:32,470 --> 00:30:32,480
+yeah like that why is one because they
+ 
+
+1271
+00:30:32,480 --> 00:30:34,230
+yeah like that why is one because they
+won that's why you can't find anything
+
+1272
+00:30:34,230 --> 00:30:34,240
+won that's why you can't find anything
+ 
+
+1273
+00:30:34,240 --> 00:30:35,990
+won that's why you can't find anything
+that connects with and deal with number
+
+1274
+00:30:35,990 --> 00:30:36,000
+that connects with and deal with number
+ 
+
+1275
+00:30:36,000 --> 00:30:41,190
+that connects with and deal with number
+one okay
+
+1276
+00:30:41,190 --> 00:30:41,200
+
+ 
+
+1277
+00:30:41,200 --> 00:30:43,430
+
+i think it's true wait wait wait wait
+
+1278
+00:30:43,430 --> 00:30:43,440
+i think it's true wait wait wait wait
+ 
+
+1279
+00:30:43,440 --> 00:30:44,549
+i think it's true wait wait wait wait
+wait wait
+
+1280
+00:30:44,549 --> 00:30:44,559
+wait wait
+ 
+
+1281
+00:30:44,559 --> 00:30:47,350
+wait wait
+number one three no no no you can't go
+
+1282
+00:30:47,350 --> 00:30:47,360
+number one three no no no you can't go
+ 
+
+1283
+00:30:47,360 --> 00:30:48,870
+number one three no no no you can't go
+backwards come on what's this
+
+1284
+00:30:48,870 --> 00:30:48,880
+backwards come on what's this
+ 
+
+1285
+00:30:48,880 --> 00:30:50,789
+backwards come on what's this
+yeah i think it's two two yeah be
+
+1286
+00:30:50,789 --> 00:30:50,799
+yeah i think it's two two yeah be
+ 
+
+1287
+00:30:50,799 --> 00:30:53,669
+yeah i think it's two two yeah be
+confident come on write two
+
+1288
+00:30:53,669 --> 00:30:53,679
+confident come on write two
+ 
+
+1289
+00:30:53,679 --> 00:30:55,590
+confident come on write two
+okay so what's the longest subsequence
+
+1290
+00:30:55,590 --> 00:30:55,600
+okay so what's the longest subsequence
+ 
+
+1291
+00:30:55,600 --> 00:30:57,110
+okay so what's the longest subsequence
+here
+
+1292
+00:30:57,110 --> 00:30:57,120
+here
+ 
+
+1293
+00:30:57,120 --> 00:30:59,750
+here
+uh two two because you find the maximum
+
+1294
+00:30:59,750 --> 00:30:59,760
+uh two two because you find the maximum
+ 
+
+1295
+00:30:59,760 --> 00:31:01,110
+uh two two because you find the maximum
+value of this yeah
+
+1296
+00:31:01,110 --> 00:31:01,120
+value of this yeah
+ 
+
+1297
+00:31:01,120 --> 00:31:02,870
+value of this yeah
+yeah do you understand how this problem
+
+1298
+00:31:02,870 --> 00:31:02,880
+yeah do you understand how this problem
+ 
+
+1299
+00:31:02,880 --> 00:31:04,950
+yeah do you understand how this problem
+is yeah
+
+1300
+00:31:04,950 --> 00:31:04,960
+is yeah
+ 
+
+1301
+00:31:04,960 --> 00:31:07,909
+is yeah
+wait wait wait look the being more than
+
+1302
+00:31:07,909 --> 00:31:07,919
+wait wait wait look the being more than
+ 
+
+1303
+00:31:07,919 --> 00:31:08,310
+wait wait wait look the being more than
+half
+
+1304
+00:31:08,310 --> 00:31:08,320
+half
+ 
+
+1305
+00:31:08,320 --> 00:31:10,950
+half
+that's okay that's okay look one is
+
+1306
+00:31:10,950 --> 00:31:10,960
+that's okay that's okay look one is
+ 
+
+1307
+00:31:10,960 --> 00:31:12,310
+that's okay that's okay look one is
+smaller than four
+
+1308
+00:31:12,310 --> 00:31:12,320
+smaller than four
+ 
+
+1309
+00:31:12,320 --> 00:31:16,230
+smaller than four
+so we know that we know f3
+
+1310
+00:31:16,230 --> 00:31:16,240
+so we know that we know f3
+ 
+
+1311
+00:31:16,240 --> 00:31:19,750
+so we know that we know f3
+is f3 is f2 plus one all right
+
+1312
+00:31:19,750 --> 00:31:19,760
+is f3 is f2 plus one all right
+ 
+
+1313
+00:31:19,760 --> 00:31:22,789
+is f3 is f2 plus one all right
+yeah let's get it yeah
+
+1314
+00:31:22,789 --> 00:31:22,799
+yeah let's get it yeah
+ 
+
+1315
+00:31:22,799 --> 00:31:25,110
+yeah let's get it yeah
+all right suppose we want the calculator
+
+1316
+00:31:25,110 --> 00:31:25,120
+all right suppose we want the calculator
+ 
+
+1317
+00:31:25,120 --> 00:31:26,630
+all right suppose we want the calculator
+f3 right
+
+1318
+00:31:26,630 --> 00:31:26,640
+f3 right
+ 
+
+1319
+00:31:26,640 --> 00:31:28,950
+f3 right
+right yeah because one is smaller than
+
+1320
+00:31:28,950 --> 00:31:28,960
+right yeah because one is smaller than
+ 
+
+1321
+00:31:28,960 --> 00:31:31,269
+right yeah because one is smaller than
+four so we know
+
+1322
+00:31:31,269 --> 00:31:31,279
+four so we know
+ 
+
+1323
+00:31:31,279 --> 00:31:34,549
+four so we know
+is f2 plus one at least it's f2 plus one
+
+1324
+00:31:34,549 --> 00:31:34,559
+is f2 plus one at least it's f2 plus one
+ 
+
+1325
+00:31:34,559 --> 00:31:35,110
+is f2 plus one at least it's f2 plus one
+right because
+
+1326
+00:31:35,110 --> 00:31:35,120
+right because
+ 
+
+1327
+00:31:35,120 --> 00:31:40,310
+right because
+f2 we know it already wow okay okay
+
+1328
+00:31:40,310 --> 00:31:40,320
+
+ 
+
+1329
+00:31:40,320 --> 00:31:42,870
+
+yeah okay so okay that's it say bye bye
+
+1330
+00:31:42,870 --> 00:31:42,880
+yeah okay so okay that's it say bye bye
+ 
+
+1331
+00:31:42,880 --> 00:31:44,149
+yeah okay so okay that's it say bye bye
+to people
+
+1332
+00:31:44,149 --> 00:31:44,159
+to people
+ 
+
+1333
+00:31:44,159 --> 00:31:49,909
+to people
+say bye
+
+1334
+00:31:49,909 --> 00:31:49,919
+
+ 
+
+1335
+00:31:49,919 --> 00:31:51,750
+
+thank you and see you tomorrow thank you
+
+1336
+00:31:51,750 --> 00:31:51,760
+thank you and see you tomorrow thank you
+ 
+
+1337
+00:31:51,760 --> 00:32:01,840
+thank you and see you tomorrow thank you
+thank you
+
