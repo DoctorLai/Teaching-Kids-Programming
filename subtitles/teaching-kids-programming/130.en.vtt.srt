@@ -1,0 +1,3115 @@
+1
+00:00:00,399 --> 00:00:04,630
+
+hey hello mr mr ryan are you all right
+
+2
+00:00:04,630 --> 00:00:04,640
+hey hello mr mr ryan are you all right
+ 
+
+3
+00:00:04,640 --> 00:00:07,349
+hey hello mr mr ryan are you all right
+yeah yeah okay so remember what we
+
+4
+00:00:07,349 --> 00:00:07,359
+yeah yeah okay so remember what we
+ 
+
+5
+00:00:07,359 --> 00:00:09,190
+yeah yeah okay so remember what we
+talked about yesterday
+
+6
+00:00:09,190 --> 00:00:09,200
+talked about yesterday
+ 
+
+7
+00:00:09,200 --> 00:00:12,950
+talked about yesterday
+the only child can you only try using
+
+8
+00:00:12,950 --> 00:00:12,960
+the only child can you only try using
+ 
+
+9
+00:00:12,960 --> 00:00:19,750
+the only child can you only try using
+which agreement
+
+10
+00:00:19,750 --> 00:00:19,760
+
+ 
+
+11
+00:00:19,760 --> 00:00:22,310
+
+we are counting this uh only trial using
+
+12
+00:00:22,310 --> 00:00:22,320
+we are counting this uh only trial using
+ 
+
+13
+00:00:22,320 --> 00:00:23,990
+we are counting this uh only trial using
+the preferred search okay
+
+14
+00:00:23,990 --> 00:00:24,000
+the preferred search okay
+ 
+
+15
+00:00:24,000 --> 00:00:26,470
+the preferred search okay
+so how are we implementing this
+
+16
+00:00:26,470 --> 00:00:26,480
+so how are we implementing this
+ 
+
+17
+00:00:26,480 --> 00:00:28,830
+so how are we implementing this
+professor
+
+18
+00:00:28,830 --> 00:00:28,840
+professor
+ 
+
+19
+00:00:28,840 --> 00:00:31,589
+professor
+um level by level and what kind of data
+
+20
+00:00:31,589 --> 00:00:31,599
+um level by level and what kind of data
+ 
+
+21
+00:00:31,599 --> 00:00:33,430
+um level by level and what kind of data
+structure are we using to implement
+
+22
+00:00:33,430 --> 00:00:33,440
+structure are we using to implement
+ 
+
+23
+00:00:33,440 --> 00:00:35,110
+structure are we using to implement
+research
+
+24
+00:00:35,110 --> 00:00:35,120
+research
+ 
+
+25
+00:00:35,120 --> 00:00:38,549
+research
+uh key yeah and the queue is first thing
+
+26
+00:00:38,549 --> 00:00:38,559
+uh key yeah and the queue is first thing
+ 
+
+27
+00:00:38,559 --> 00:00:41,190
+uh key yeah and the queue is first thing
+out and in python what can or what
+
+28
+00:00:41,190 --> 00:00:41,200
+out and in python what can or what
+ 
+
+29
+00:00:41,200 --> 00:00:41,750
+out and in python what can or what
+function
+
+30
+00:00:41,750 --> 00:00:41,760
+function
+ 
+
+31
+00:00:41,760 --> 00:00:44,790
+function
+class name is the used to implement a
+
+32
+00:00:44,790 --> 00:00:44,800
+class name is the used to implement a
+ 
+
+33
+00:00:44,800 --> 00:00:48,389
+class name is the used to implement a
+queue what does dee stand for
+
+34
+00:00:48,389 --> 00:00:48,399
+queue what does dee stand for
+ 
+
+35
+00:00:48,399 --> 00:00:50,790
+queue what does dee stand for
+double ended what does it mean by double
+
+36
+00:00:50,790 --> 00:00:50,800
+double ended what does it mean by double
+ 
+
+37
+00:00:50,800 --> 00:00:53,510
+double ended what does it mean by double
+ended
+
+38
+00:00:53,510 --> 00:00:53,520
+
+ 
+
+39
+00:00:53,520 --> 00:00:55,670
+
+you take it out and you put it on the
+
+40
+00:00:55,670 --> 00:00:55,680
+you take it out and you put it on the
+ 
+
+41
+00:00:55,680 --> 00:00:56,630
+you take it out and you put it on the
+end
+
+42
+00:00:56,630 --> 00:00:56,640
+end
+ 
+
+43
+00:00:56,640 --> 00:00:58,790
+end
+okay so basically double ended so it
+
+44
+00:00:58,790 --> 00:00:58,800
+okay so basically double ended so it
+ 
+
+45
+00:00:58,800 --> 00:01:00,790
+okay so basically double ended so it
+means that i can
+
+46
+00:01:00,790 --> 00:01:00,800
+means that i can
+ 
+
+47
+00:01:00,800 --> 00:01:02,950
+means that i can
+two sides yeah well done so i can append
+
+48
+00:01:02,950 --> 00:01:02,960
+two sides yeah well done so i can append
+ 
+
+49
+00:01:02,960 --> 00:01:05,109
+two sides yeah well done so i can append
+and pop from both sides okay and then
+
+50
+00:01:05,109 --> 00:01:05,119
+and pop from both sides okay and then
+ 
+
+51
+00:01:05,119 --> 00:01:08,070
+and pop from both sides okay and then
+the complexity to push and pull from
+
+52
+00:01:08,070 --> 00:01:08,080
+the complexity to push and pull from
+ 
+
+53
+00:01:08,080 --> 00:01:09,030
+the complexity to push and pull from
+both sides is
+
+54
+00:01:09,030 --> 00:01:09,040
+both sides is
+ 
+
+55
+00:01:09,040 --> 00:01:14,469
+both sides is
+over what's the term complexity
+
+56
+00:01:14,469 --> 00:01:14,479
+
+ 
+
+57
+00:01:14,479 --> 00:01:16,550
+
+constant time right yeah constant time
+
+58
+00:01:16,550 --> 00:01:16,560
+constant time right yeah constant time
+ 
+
+59
+00:01:16,560 --> 00:01:17,990
+constant time right yeah constant time
+so it means that it's very quick
+
+60
+00:01:17,990 --> 00:01:18,000
+so it means that it's very quick
+ 
+
+61
+00:01:18,000 --> 00:01:20,870
+so it means that it's very quick
+okay if you are if you are popping one
+
+62
+00:01:20,870 --> 00:01:20,880
+okay if you are if you are popping one
+ 
+
+63
+00:01:20,880 --> 00:01:23,350
+okay if you are if you are popping one
+element from the beginning of the list
+
+64
+00:01:23,350 --> 00:01:23,360
+element from the beginning of the list
+ 
+
+65
+00:01:23,360 --> 00:01:25,749
+element from the beginning of the list
+you know list remember in python we're
+
+66
+00:01:25,749 --> 00:01:25,759
+you know list remember in python we're
+ 
+
+67
+00:01:25,759 --> 00:01:26,870
+you know list remember in python we're
+using this
+
+68
+00:01:26,870 --> 00:01:26,880
+using this
+ 
+
+69
+00:01:26,880 --> 00:01:29,749
+using this
+to represent the list if we if we pop
+
+70
+00:01:29,749 --> 00:01:29,759
+to represent the list if we if we pop
+ 
+
+71
+00:01:29,759 --> 00:01:30,950
+to represent the list if we if we pop
+the
+
+72
+00:01:30,950 --> 00:01:30,960
+the
+ 
+
+73
+00:01:30,960 --> 00:01:34,069
+the
+beginning of the list is pop zero yeah
+
+74
+00:01:34,069 --> 00:01:34,079
+beginning of the list is pop zero yeah
+ 
+
+75
+00:01:34,079 --> 00:01:37,670
+beginning of the list is pop zero yeah
+from zero it takes linear time right
+
+76
+00:01:37,670 --> 00:01:37,680
+from zero it takes linear time right
+ 
+
+77
+00:01:37,680 --> 00:01:41,910
+from zero it takes linear time right
+but in dq you can use top top left
+
+78
+00:01:41,910 --> 00:01:41,920
+but in dq you can use top top left
+ 
+
+79
+00:01:41,920 --> 00:01:44,310
+but in dq you can use top top left
+which is a one constant so this is
+
+80
+00:01:44,310 --> 00:01:44,320
+which is a one constant so this is
+ 
+
+81
+00:01:44,320 --> 00:01:46,069
+which is a one constant so this is
+better so that's why we're using dq
+
+82
+00:01:46,069 --> 00:01:46,079
+better so that's why we're using dq
+ 
+
+83
+00:01:46,079 --> 00:01:47,270
+better so that's why we're using dq
+instead of list
+
+84
+00:01:47,270 --> 00:01:47,280
+instead of list
+ 
+
+85
+00:01:47,280 --> 00:01:50,310
+instead of list
+to achieve this the q thing okay
+
+86
+00:01:50,310 --> 00:01:50,320
+to achieve this the q thing okay
+ 
+
+87
+00:01:50,320 --> 00:01:52,630
+to achieve this the q thing okay
+so the counting only chart using the
+
+88
+00:01:52,630 --> 00:01:52,640
+so the counting only chart using the
+ 
+
+89
+00:01:52,640 --> 00:01:53,990
+so the counting only chart using the
+perfect search
+
+90
+00:01:53,990 --> 00:01:54,000
+perfect search
+ 
+
+91
+00:01:54,000 --> 00:01:57,190
+perfect search
+yeah we put it in the kill everything is
+
+92
+00:01:57,190 --> 00:01:57,200
+yeah we put it in the kill everything is
+ 
+
+93
+00:01:57,200 --> 00:01:57,429
+yeah we put it in the kill everything is
+i
+
+94
+00:01:57,429 --> 00:01:57,439
+i
+ 
+
+95
+00:01:57,439 --> 00:01:59,990
+i
+went yeah when i n is what is this the
+
+96
+00:01:59,990 --> 00:02:00,000
+went yeah when i n is what is this the
+ 
+
+97
+00:02:00,000 --> 00:02:00,630
+went yeah when i n is what is this the
+number of
+
+98
+00:02:00,630 --> 00:02:00,640
+number of
+ 
+
+99
+00:02:00,640 --> 00:02:02,389
+number of
+notes in the premium space yes yes this
+
+100
+00:02:02,389 --> 00:02:02,399
+notes in the premium space yes yes this
+ 
+
+101
+00:02:02,399 --> 00:02:04,469
+notes in the premium space yes yes this
+kind of what that was
+
+102
+00:02:04,469 --> 00:02:04,479
+kind of what that was
+ 
+
+103
+00:02:04,479 --> 00:02:07,830
+kind of what that was
+it's the same so look the key
+
+104
+00:02:07,830 --> 00:02:07,840
+it's the same so look the key
+ 
+
+105
+00:02:07,840 --> 00:02:10,150
+it's the same so look the key
+important things to take away here is
+
+106
+00:02:10,150 --> 00:02:10,160
+important things to take away here is
+ 
+
+107
+00:02:10,160 --> 00:02:10,869
+important things to take away here is
+that uh
+
+108
+00:02:10,869 --> 00:02:10,879
+that uh
+ 
+
+109
+00:02:10,879 --> 00:02:13,990
+that uh
+we are pushing the note together with
+
+110
+00:02:13,990 --> 00:02:14,000
+we are pushing the note together with
+ 
+
+111
+00:02:14,000 --> 00:02:15,190
+we are pushing the note together with
+the number of
+
+112
+00:02:15,190 --> 00:02:15,200
+the number of
+ 
+
+113
+00:02:15,200 --> 00:02:17,670
+the number of
+the number of children for the first
+
+114
+00:02:17,670 --> 00:02:17,680
+the number of children for the first
+ 
+
+115
+00:02:17,680 --> 00:02:18,229
+the number of children for the first
+parent
+
+116
+00:02:18,229 --> 00:02:18,239
+parent
+ 
+
+117
+00:02:18,239 --> 00:02:21,110
+parent
+right so then one way expand the note in
+
+118
+00:02:21,110 --> 00:02:21,120
+right so then one way expand the note in
+ 
+
+119
+00:02:21,120 --> 00:02:22,229
+right so then one way expand the note in
+the next level
+
+120
+00:02:22,229 --> 00:02:22,239
+the next level
+ 
+
+121
+00:02:22,239 --> 00:02:25,430
+the next level
+we can accumulate or we can we know
+
+122
+00:02:25,430 --> 00:02:25,440
+we can accumulate or we can we know
+ 
+
+123
+00:02:25,440 --> 00:02:27,350
+we can accumulate or we can we know
+which are the only child by checking
+
+124
+00:02:27,350 --> 00:02:27,360
+which are the only child by checking
+ 
+
+125
+00:02:27,360 --> 00:02:29,110
+which are the only child by checking
+this total if it's one
+
+126
+00:02:29,110 --> 00:02:29,120
+this total if it's one
+ 
+
+127
+00:02:29,120 --> 00:02:31,430
+this total if it's one
+then it means that its parent has only
+
+128
+00:02:31,430 --> 00:02:31,440
+then it means that its parent has only
+ 
+
+129
+00:02:31,440 --> 00:02:33,350
+then it means that its parent has only
+one child which is itself right
+
+130
+00:02:33,350 --> 00:02:33,360
+one child which is itself right
+ 
+
+131
+00:02:33,360 --> 00:02:36,229
+one child which is itself right
+yeah okay can you put it yeah we can put
+
+132
+00:02:36,229 --> 00:02:36,239
+yeah okay can you put it yeah we can put
+ 
+
+133
+00:02:36,239 --> 00:02:37,430
+yeah okay can you put it yeah we can put
+it in the answer
+
+134
+00:02:37,430 --> 00:02:37,440
+it in the answer
+ 
+
+135
+00:02:37,440 --> 00:02:40,470
+it in the answer
+or yeah answer if it's a
+
+136
+00:02:40,470 --> 00:02:40,480
+or yeah answer if it's a
+ 
+
+137
+00:02:40,480 --> 00:02:44,070
+or yeah answer if it's a
+integer to count how many only try we
+
+138
+00:02:44,070 --> 00:02:44,080
+integer to count how many only try we
+ 
+
+139
+00:02:44,080 --> 00:02:44,790
+integer to count how many only try we
+can just
+
+140
+00:02:44,790 --> 00:02:44,800
+can just
+ 
+
+141
+00:02:44,800 --> 00:02:47,509
+can just
+increment one or if you want to get the
+
+142
+00:02:47,509 --> 00:02:47,519
+increment one or if you want to get the
+ 
+
+143
+00:02:47,519 --> 00:02:48,550
+increment one or if you want to get the
+list of the
+
+144
+00:02:48,550 --> 00:02:48,560
+list of the
+ 
+
+145
+00:02:48,560 --> 00:02:50,390
+list of the
+if you want to get a list of only try
+
+146
+00:02:50,390 --> 00:02:50,400
+if you want to get a list of only try
+ 
+
+147
+00:02:50,400 --> 00:02:51,990
+if you want to get a list of only try
+you can put it in the
+
+148
+00:02:51,990 --> 00:02:52,000
+you can put it in the
+ 
+
+149
+00:02:52,000 --> 00:02:53,910
+you can put it in the
+list right and then you can count it
+
+150
+00:02:53,910 --> 00:02:53,920
+list right and then you can count it
+ 
+
+151
+00:02:53,920 --> 00:02:55,670
+list right and then you can count it
+using the lens from here okay
+
+152
+00:02:55,670 --> 00:02:55,680
+using the lens from here okay
+ 
+
+153
+00:02:55,680 --> 00:02:57,990
+using the lens from here okay
+basically that's what it is so we can
+
+154
+00:02:57,990 --> 00:02:58,000
+basically that's what it is so we can
+ 
+
+155
+00:02:58,000 --> 00:03:00,149
+basically that's what it is so we can
+also solve this problem using the
+
+156
+00:03:00,149 --> 00:03:00,159
+also solve this problem using the
+ 
+
+157
+00:03:00,159 --> 00:03:02,229
+also solve this problem using the
+device search yeah so can you tell me
+
+158
+00:03:02,229 --> 00:03:02,239
+device search yeah so can you tell me
+ 
+
+159
+00:03:02,239 --> 00:03:06,149
+device search yeah so can you tell me
+what steph says
+
+160
+00:03:06,149 --> 00:03:06,159
+
+ 
+
+161
+00:03:06,159 --> 00:03:09,270
+
+you can't okay i'm gonna do one example
+
+162
+00:03:09,270 --> 00:03:09,280
+you can't okay i'm gonna do one example
+ 
+
+163
+00:03:09,280 --> 00:03:10,630
+you can't okay i'm gonna do one example
+okay so you tell me what
+
+164
+00:03:10,630 --> 00:03:10,640
+okay so you tell me what
+ 
+
+165
+00:03:10,640 --> 00:03:18,710
+okay so you tell me what
+what are the different search
+
+166
+00:03:18,710 --> 00:03:18,720
+what are the different search
+ 
+
+167
+00:03:18,720 --> 00:03:21,670
+what are the different search
+what okay so what's the difference
+
+168
+00:03:21,670 --> 00:03:21,680
+what okay so what's the difference
+ 
+
+169
+00:03:21,680 --> 00:03:23,190
+what okay so what's the difference
+search of this
+
+170
+00:03:23,190 --> 00:03:23,200
+search of this
+ 
+
+171
+00:03:23,200 --> 00:03:25,350
+search of this
+of these if i want to perform the
+
+172
+00:03:25,350 --> 00:03:25,360
+of these if i want to perform the
+ 
+
+173
+00:03:25,360 --> 00:03:26,869
+of these if i want to perform the
+difference one three
+
+174
+00:03:26,869 --> 00:03:26,879
+difference one three
+ 
+
+175
+00:03:26,879 --> 00:03:37,030
+difference one three
+eight nine seven five twelve
+
+176
+00:03:37,030 --> 00:03:37,040
+
+ 
+
+177
+00:03:37,040 --> 00:03:40,390
+
+yeah okay so you go you can go
+
+178
+00:03:40,390 --> 00:03:40,400
+yeah okay so you go you can go
+ 
+
+179
+00:03:40,400 --> 00:03:43,509
+yeah okay so you go you can go
+the definition is go left as much as you
+
+180
+00:03:43,509 --> 00:03:43,519
+the definition is go left as much as you
+ 
+
+181
+00:03:43,519 --> 00:03:43,830
+the definition is go left as much as you
+can
+
+182
+00:03:43,830 --> 00:03:43,840
+can
+ 
+
+183
+00:03:43,840 --> 00:03:46,070
+can
+if not you retreat to the cheat and you
+
+184
+00:03:46,070 --> 00:03:46,080
+if not you retreat to the cheat and you
+ 
+
+185
+00:03:46,080 --> 00:03:47,509
+if not you retreat to the cheat and you
+go to the right
+
+186
+00:03:47,509 --> 00:03:47,519
+go to the right
+ 
+
+187
+00:03:47,519 --> 00:03:49,509
+go to the right
+and then finish it you go retrieve you
+
+188
+00:03:49,509 --> 00:03:49,519
+and then finish it you go retrieve you
+ 
+
+189
+00:03:49,519 --> 00:03:50,869
+and then finish it you go retrieve you
+go to the right
+
+190
+00:03:50,869 --> 00:03:50,879
+go to the right
+ 
+
+191
+00:03:50,879 --> 00:03:54,070
+go to the right
+go to the left yeah okay
+
+192
+00:03:54,070 --> 00:03:54,080
+go to the left yeah okay
+ 
+
+193
+00:03:54,080 --> 00:03:57,350
+go to the left yeah okay
+so using the desktop yeah yeah yeah
+
+194
+00:03:57,350 --> 00:03:57,360
+so using the desktop yeah yeah yeah
+ 
+
+195
+00:03:57,360 --> 00:04:00,390
+so using the desktop yeah yeah yeah
+uh using the deficit
+
+196
+00:04:00,390 --> 00:04:00,400
+uh using the deficit
+ 
+
+197
+00:04:00,400 --> 00:04:04,229
+uh using the deficit
+deficit we need to remember
+
+198
+00:04:04,229 --> 00:04:04,239
+deficit we need to remember
+ 
+
+199
+00:04:04,239 --> 00:04:07,429
+deficit we need to remember
+passing down the the number of the
+
+200
+00:04:07,429 --> 00:04:07,439
+passing down the the number of the
+ 
+
+201
+00:04:07,439 --> 00:04:10,229
+passing down the the number of the
+triad of the current node right so in
+
+202
+00:04:10,229 --> 00:04:10,239
+triad of the current node right so in
+ 
+
+203
+00:04:10,239 --> 00:04:12,470
+triad of the current node right so in
+the next level we can check this counter
+
+204
+00:04:12,470 --> 00:04:12,480
+the next level we can check this counter
+ 
+
+205
+00:04:12,480 --> 00:04:12,949
+the next level we can check this counter
+if it's
+
+206
+00:04:12,949 --> 00:04:12,959
+if it's
+ 
+
+207
+00:04:12,959 --> 00:04:16,069
+if it's
+one then we accumulate it right
+
+208
+00:04:16,069 --> 00:04:16,079
+one then we accumulate it right
+ 
+
+209
+00:04:16,079 --> 00:04:19,110
+one then we accumulate it right
+all right yeah okay so
+
+210
+00:04:19,110 --> 00:04:19,120
+all right yeah okay so
+ 
+
+211
+00:04:19,120 --> 00:04:21,749
+all right yeah okay so
+you tell me okay i tell you therefore
+
+212
+00:04:21,749 --> 00:04:21,759
+you tell me okay i tell you therefore
+ 
+
+213
+00:04:21,759 --> 00:04:22,310
+you tell me okay i tell you therefore
+search
+
+214
+00:04:22,310 --> 00:04:22,320
+search
+ 
+
+215
+00:04:22,320 --> 00:04:25,350
+search
+let's say define define
+
+216
+00:04:25,350 --> 00:04:25,360
+let's say define define
+ 
+
+217
+00:04:25,360 --> 00:04:28,310
+let's say define define
+different search and then we also need a
+
+218
+00:04:28,310 --> 00:04:28,320
+different search and then we also need a
+ 
+
+219
+00:04:28,320 --> 00:04:29,590
+different search and then we also need a
+counter right
+
+220
+00:04:29,590 --> 00:04:29,600
+counter right
+ 
+
+221
+00:04:29,600 --> 00:04:31,590
+counter right
+what does this counter mean can you tell
+
+222
+00:04:31,590 --> 00:04:31,600
+what does this counter mean can you tell
+ 
+
+223
+00:04:31,600 --> 00:04:34,390
+what does this counter mean can you tell
+me what's missing
+
+224
+00:04:34,390 --> 00:04:34,400
+me what's missing
+ 
+
+225
+00:04:34,400 --> 00:04:38,150
+me what's missing
+okay so yeah so look if loot
+
+226
+00:04:38,150 --> 00:04:38,160
+okay so yeah so look if loot
+ 
+
+227
+00:04:38,160 --> 00:04:41,110
+okay so yeah so look if loot
+okay i asked you about counter things so
+
+228
+00:04:41,110 --> 00:04:41,120
+okay i asked you about counter things so
+ 
+
+229
+00:04:41,120 --> 00:04:42,230
+okay i asked you about counter things so
+what's what does they mean
+
+230
+00:04:42,230 --> 00:04:42,240
+what's what does they mean
+ 
+
+231
+00:04:42,240 --> 00:04:44,790
+what's what does they mean
+counter that sound was funny what does
+
+232
+00:04:44,790 --> 00:04:44,800
+counter that sound was funny what does
+ 
+
+233
+00:04:44,800 --> 00:04:47,749
+counter that sound was funny what does
+the counter thing mean
+
+234
+00:04:47,749 --> 00:04:47,759
+
+ 
+
+235
+00:04:47,759 --> 00:04:51,909
+
+that counts via constant it means that
+
+236
+00:04:51,909 --> 00:04:51,919
+that counts via constant it means that
+ 
+
+237
+00:04:51,919 --> 00:04:53,030
+that counts via constant it means that
+the number of
+
+238
+00:04:53,030 --> 00:04:53,040
+the number of
+ 
+
+239
+00:04:53,040 --> 00:04:56,629
+the number of
+look the counter means what it means the
+
+240
+00:04:56,629 --> 00:04:56,639
+look the counter means what it means the
+ 
+
+241
+00:04:56,639 --> 00:05:00,390
+look the counter means what it means the
+the parent of the dude yeah
+
+242
+00:05:00,390 --> 00:05:00,400
+the parent of the dude yeah
+ 
+
+243
+00:05:00,400 --> 00:05:03,110
+the parent of the dude yeah
+all right the parent of a root has how
+
+244
+00:05:03,110 --> 00:05:03,120
+all right the parent of a root has how
+ 
+
+245
+00:05:03,120 --> 00:05:03,749
+all right the parent of a root has how
+many
+
+246
+00:05:03,749 --> 00:05:03,759
+many
+ 
+
+247
+00:05:03,759 --> 00:05:06,710
+many
+children that's for the count of me does
+
+248
+00:05:06,710 --> 00:05:06,720
+children that's for the count of me does
+ 
+
+249
+00:05:06,720 --> 00:05:07,749
+children that's for the count of me does
+it make sense
+
+250
+00:05:07,749 --> 00:05:07,759
+it make sense
+ 
+
+251
+00:05:07,759 --> 00:05:10,550
+it make sense
+yeah okay so if lu is numb what's your
+
+252
+00:05:10,550 --> 00:05:10,560
+yeah okay so if lu is numb what's your
+ 
+
+253
+00:05:10,560 --> 00:05:13,110
+yeah okay so if lu is numb what's your
+return
+
+254
+00:05:13,110 --> 00:05:13,120
+
+ 
+
+255
+00:05:13,120 --> 00:05:16,230
+
+zero yeah yeah it means that nothing
+
+256
+00:05:16,230 --> 00:05:16,240
+zero yeah yeah it means that nothing
+ 
+
+257
+00:05:16,240 --> 00:05:16,629
+zero yeah yeah it means that nothing
+yeah
+
+258
+00:05:16,629 --> 00:05:16,639
+yeah
+ 
+
+259
+00:05:16,639 --> 00:05:19,430
+yeah
+it doesn't have any homies like this
+
+260
+00:05:19,430 --> 00:05:19,440
+it doesn't have any homies like this
+ 
+
+261
+00:05:19,440 --> 00:05:19,990
+it doesn't have any homies like this
+okay
+
+262
+00:05:19,990 --> 00:05:20,000
+okay
+ 
+
+263
+00:05:20,000 --> 00:05:22,550
+okay
+so look if we have a counter here yeah
+
+264
+00:05:22,550 --> 00:05:22,560
+so look if we have a counter here yeah
+ 
+
+265
+00:05:22,560 --> 00:05:23,189
+so look if we have a counter here yeah
+so look
+
+266
+00:05:23,189 --> 00:05:23,199
+so look
+ 
+
+267
+00:05:23,199 --> 00:05:25,510
+so look
+answer let's say answer equals yellow
+
+268
+00:05:25,510 --> 00:05:25,520
+answer let's say answer equals yellow
+ 
+
+269
+00:05:25,520 --> 00:05:26,469
+answer let's say answer equals yellow
+first right
+
+270
+00:05:26,469 --> 00:05:26,479
+first right
+ 
+
+271
+00:05:26,479 --> 00:05:30,550
+first right
+and then look if counter equals one
+
+272
+00:05:30,550 --> 00:05:30,560
+and then look if counter equals one
+ 
+
+273
+00:05:30,560 --> 00:05:35,510
+and then look if counter equals one
+right if it's parent if its parent
+
+274
+00:05:35,510 --> 00:05:35,520
+right if it's parent if its parent
+ 
+
+275
+00:05:35,520 --> 00:05:38,790
+right if it's parent if its parent
+has only one kid then we increment the
+
+276
+00:05:38,790 --> 00:05:38,800
+has only one kid then we increment the
+ 
+
+277
+00:05:38,800 --> 00:05:39,590
+has only one kid then we increment the
+answer here
+
+278
+00:05:39,590 --> 00:05:39,600
+answer here
+ 
+
+279
+00:05:39,600 --> 00:05:42,790
+answer here
+answer plus equals 1 right yes
+
+280
+00:05:42,790 --> 00:05:42,800
+answer plus equals 1 right yes
+ 
+
+281
+00:05:42,800 --> 00:05:46,469
+answer plus equals 1 right yes
+does it make sense okay then what should
+
+282
+00:05:46,469 --> 00:05:46,479
+does it make sense okay then what should
+ 
+
+283
+00:05:46,479 --> 00:05:48,070
+does it make sense okay then what should
+we do we should
+
+284
+00:05:48,070 --> 00:05:48,080
+we do we should
+ 
+
+285
+00:05:48,080 --> 00:05:50,550
+we do we should
+this function will return the number of
+
+286
+00:05:50,550 --> 00:05:50,560
+this function will return the number of
+ 
+
+287
+00:05:50,560 --> 00:05:51,510
+this function will return the number of
+the
+
+288
+00:05:51,510 --> 00:05:51,520
+the
+ 
+
+289
+00:05:51,520 --> 00:05:54,790
+the
+one only triad in this root
+
+290
+00:05:54,790 --> 00:05:54,800
+one only triad in this root
+ 
+
+291
+00:05:54,800 --> 00:05:57,670
+one only triad in this root
+tree in this sub tree so we also need to
+
+292
+00:05:57,670 --> 00:05:57,680
+tree in this sub tree so we also need to
+ 
+
+293
+00:05:57,680 --> 00:05:58,550
+tree in this sub tree so we also need to
+add
+
+294
+00:05:58,550 --> 00:05:58,560
+add
+ 
+
+295
+00:05:58,560 --> 00:06:01,830
+add
+answer equal plus equal one all right
+
+296
+00:06:01,830 --> 00:06:01,840
+answer equal plus equal one all right
+ 
+
+297
+00:06:01,840 --> 00:06:03,510
+answer equal plus equal one all right
+can you write it here
+
+298
+00:06:03,510 --> 00:06:03,520
+can you write it here
+ 
+
+299
+00:06:03,520 --> 00:06:07,189
+can you write it here
+this is do the left loo the left and
+
+300
+00:06:07,189 --> 00:06:07,199
+this is do the left loo the left and
+ 
+
+301
+00:06:07,199 --> 00:06:09,670
+this is do the left loo the left and
+then what i think
+
+302
+00:06:09,670 --> 00:06:09,680
+then what i think
+ 
+
+303
+00:06:09,680 --> 00:06:11,749
+then what i think
+okay we are missing something here okay
+
+304
+00:06:11,749 --> 00:06:11,759
+okay we are missing something here okay
+ 
+
+305
+00:06:11,759 --> 00:06:13,510
+okay we are missing something here okay
+count to something
+
+306
+00:06:13,510 --> 00:06:13,520
+count to something
+ 
+
+307
+00:06:13,520 --> 00:06:16,790
+count to something
+so first of all let's say
+
+308
+00:06:16,790 --> 00:06:16,800
+so first of all let's say
+ 
+
+309
+00:06:16,800 --> 00:06:18,870
+so first of all let's say
+we we are now reaching the root now
+
+310
+00:06:18,870 --> 00:06:18,880
+we we are now reaching the root now
+ 
+
+311
+00:06:18,880 --> 00:06:20,150
+we we are now reaching the root now
+right but now
+
+312
+00:06:20,150 --> 00:06:20,160
+right but now
+ 
+
+313
+00:06:20,160 --> 00:06:22,710
+right but now
+we want to know how many kids current
+
+314
+00:06:22,710 --> 00:06:22,720
+we want to know how many kids current
+ 
+
+315
+00:06:22,720 --> 00:06:23,430
+we want to know how many kids current
+node has
+
+316
+00:06:23,430 --> 00:06:23,440
+node has
+ 
+
+317
+00:06:23,440 --> 00:06:26,870
+node has
+right let's call it x okay x equals zero
+
+318
+00:06:26,870 --> 00:06:26,880
+right let's call it x okay x equals zero
+ 
+
+319
+00:06:26,880 --> 00:06:31,830
+right let's call it x okay x equals zero
+then if roon turn left
+
+320
+00:06:31,830 --> 00:06:31,840
+then if roon turn left
+ 
+
+321
+00:06:31,840 --> 00:06:34,550
+then if roon turn left
+okay so common node has the left child
+
+322
+00:06:34,550 --> 00:06:34,560
+okay so common node has the left child
+ 
+
+323
+00:06:34,560 --> 00:06:35,430
+okay so common node has the left child
+right
+
+324
+00:06:35,430 --> 00:06:35,440
+right
+ 
+
+325
+00:06:35,440 --> 00:06:38,390
+right
+so x plus equals one right yeah yeah and
+
+326
+00:06:38,390 --> 00:06:38,400
+so x plus equals one right yeah yeah and
+ 
+
+327
+00:06:38,400 --> 00:06:38,790
+so x plus equals one right yeah yeah and
+then
+
+328
+00:06:38,790 --> 00:06:38,800
+then
+ 
+
+329
+00:06:38,800 --> 00:06:41,830
+then
+what's happening what what's next one
+
+330
+00:06:41,830 --> 00:06:41,840
+what's happening what what's next one
+ 
+
+331
+00:06:41,840 --> 00:06:44,230
+what's happening what what's next one
+plus one equal to
+
+332
+00:06:44,230 --> 00:06:44,240
+plus one equal to
+ 
+
+333
+00:06:44,240 --> 00:06:45,830
+plus one equal to
+i check on the left and i also need to
+
+334
+00:06:45,830 --> 00:06:45,840
+i check on the left and i also need to
+ 
+
+335
+00:06:45,840 --> 00:06:48,880
+i check on the left and i also need to
+check a lot right
+
+336
+00:06:48,880 --> 00:06:48,890
+
+ 
+
+337
+00:06:48,890 --> 00:06:54,070
+
+[Music]
+
+338
+00:06:54,070 --> 00:06:54,080
+[Music]
+ 
+
+339
+00:06:54,080 --> 00:06:56,469
+[Music]
+so what does this x mean what does this
+
+340
+00:06:56,469 --> 00:06:56,479
+so what does this x mean what does this
+ 
+
+341
+00:06:56,479 --> 00:06:57,670
+so what does this x mean what does this
+mean can you tell me what does
+
+342
+00:06:57,670 --> 00:06:57,680
+mean can you tell me what does
+ 
+
+343
+00:06:57,680 --> 00:07:00,790
+mean can you tell me what does
+this mean i think x
+
+344
+00:07:00,790 --> 00:07:00,800
+this mean i think x
+ 
+
+345
+00:07:00,800 --> 00:07:02,950
+this mean i think x
+x what does x equal what what does x
+
+346
+00:07:02,950 --> 00:07:02,960
+x what does x equal what what does x
+ 
+
+347
+00:07:02,960 --> 00:07:04,629
+x what does x equal what what does x
+mean
+
+348
+00:07:04,629 --> 00:07:04,639
+mean
+ 
+
+349
+00:07:04,639 --> 00:07:07,110
+mean
+what's x mean why are we calculating x
+
+350
+00:07:07,110 --> 00:07:07,120
+what's x mean why are we calculating x
+ 
+
+351
+00:07:07,120 --> 00:07:10,230
+what's x mean why are we calculating x
+what's x mean
+
+352
+00:07:10,230 --> 00:07:10,240
+
+ 
+
+353
+00:07:10,240 --> 00:07:23,189
+
+uh x means like
+
+354
+00:07:23,189 --> 00:07:23,199
+
+ 
+
+355
+00:07:23,199 --> 00:07:26,550
+
+what look if x equals if root is left
+
+356
+00:07:26,550 --> 00:07:26,560
+what look if x equals if root is left
+ 
+
+357
+00:07:26,560 --> 00:07:26,870
+what look if x equals if root is left
+then
+
+358
+00:07:26,870 --> 00:07:26,880
+then
+ 
+
+359
+00:07:26,880 --> 00:07:29,510
+then
+x will be one if load right and x will
+
+360
+00:07:29,510 --> 00:07:29,520
+x will be one if load right and x will
+ 
+
+361
+00:07:29,520 --> 00:07:30,150
+x will be one if load right and x will
+be
+
+362
+00:07:30,150 --> 00:07:30,160
+be
+ 
+
+363
+00:07:30,160 --> 00:07:33,990
+be
+plus one right so it means x is what
+
+364
+00:07:33,990 --> 00:07:34,000
+plus one right so it means x is what
+ 
+
+365
+00:07:34,000 --> 00:07:37,749
+plus one right so it means x is what
+the number of what the number of nights
+
+366
+00:07:37,749 --> 00:07:37,759
+the number of what the number of nights
+ 
+
+367
+00:07:37,759 --> 00:07:41,670
+the number of what the number of nights
+or the number of nights that breed
+
+368
+00:07:41,670 --> 00:07:41,680
+or the number of nights that breed
+ 
+
+369
+00:07:41,680 --> 00:07:43,909
+or the number of nights that breed
+has yeah the children knows yes okay so
+
+370
+00:07:43,909 --> 00:07:43,919
+has yeah the children knows yes okay so
+ 
+
+371
+00:07:43,919 --> 00:07:45,830
+has yeah the children knows yes okay so
+look yeah and then now
+
+372
+00:07:45,830 --> 00:07:45,840
+look yeah and then now
+ 
+
+373
+00:07:45,840 --> 00:07:48,070
+look yeah and then now
+i know this x yeah then i need to plug
+
+374
+00:07:48,070 --> 00:07:48,080
+i know this x yeah then i need to plug
+ 
+
+375
+00:07:48,080 --> 00:07:49,270
+i know this x yeah then i need to plug
+answer plus
+
+376
+00:07:49,270 --> 00:07:49,280
+answer plus
+ 
+
+377
+00:07:49,280 --> 00:07:51,189
+answer plus
+equal definite thirty now we are
+
+378
+00:07:51,189 --> 00:07:51,199
+equal definite thirty now we are
+ 
+
+379
+00:07:51,199 --> 00:07:53,909
+equal definite thirty now we are
+counting with recursively counting
+
+380
+00:07:53,909 --> 00:07:53,919
+counting with recursively counting
+ 
+
+381
+00:07:53,919 --> 00:07:56,950
+counting with recursively counting
+what left three yeah blue dot left and
+
+382
+00:07:56,950 --> 00:07:56,960
+what left three yeah blue dot left and
+ 
+
+383
+00:07:56,960 --> 00:07:58,869
+what left three yeah blue dot left and
+what's your way past this count
+
+384
+00:07:58,869 --> 00:07:58,879
+what's your way past this count
+ 
+
+385
+00:07:58,879 --> 00:08:01,510
+what's your way past this count
+here what's your right passing lead
+
+386
+00:08:01,510 --> 00:08:01,520
+here what's your right passing lead
+ 
+
+387
+00:08:01,520 --> 00:08:01,990
+here what's your right passing lead
+what's your
+
+388
+00:08:01,990 --> 00:08:02,000
+what's your
+ 
+
+389
+00:08:02,000 --> 00:08:05,830
+what's your
+pass here we are counting the left tree
+
+390
+00:08:05,830 --> 00:08:05,840
+pass here we are counting the left tree
+ 
+
+391
+00:08:05,840 --> 00:08:08,790
+pass here we are counting the left tree
+it's left tree we remember this cnt what
+
+392
+00:08:08,790 --> 00:08:08,800
+it's left tree we remember this cnt what
+ 
+
+393
+00:08:08,800 --> 00:08:10,830
+it's left tree we remember this cnt what
+does it mean
+
+394
+00:08:10,830 --> 00:08:10,840
+does it mean
+ 
+
+395
+00:08:10,840 --> 00:08:13,189
+does it mean
+counter what's the c
+
+396
+00:08:13,189 --> 00:08:13,199
+counter what's the c
+ 
+
+397
+00:08:13,199 --> 00:08:17,029
+counter what's the c
+what's what's the cnt mean do the left
+
+398
+00:08:17,029 --> 00:08:17,039
+what's what's the cnt mean do the left
+ 
+
+399
+00:08:17,039 --> 00:08:19,589
+what's what's the cnt mean do the left
+what's the parent uh what's the parent
+
+400
+00:08:19,589 --> 00:08:19,599
+what's the parent uh what's the parent
+ 
+
+401
+00:08:19,599 --> 00:08:21,510
+what's the parent uh what's the parent
+of blue dot left
+
+402
+00:08:21,510 --> 00:08:21,520
+of blue dot left
+ 
+
+403
+00:08:21,520 --> 00:08:23,990
+of blue dot left
+what's the parent of luther left come on
+
+404
+00:08:23,990 --> 00:08:24,000
+what's the parent of luther left come on
+ 
+
+405
+00:08:24,000 --> 00:08:24,869
+what's the parent of luther left come on
+wait dude
+
+406
+00:08:24,869 --> 00:08:24,879
+wait dude
+ 
+
+407
+00:08:24,879 --> 00:08:28,230
+wait dude
+okay and then the and the number of the
+
+408
+00:08:28,230 --> 00:08:28,240
+okay and then the and the number of the
+ 
+
+409
+00:08:28,240 --> 00:08:28,869
+okay and then the and the number of the
+children
+
+410
+00:08:28,869 --> 00:08:28,879
+children
+ 
+
+411
+00:08:28,879 --> 00:08:33,269
+children
+of the root is what what are what oh one
+
+412
+00:08:33,269 --> 00:08:33,279
+of the root is what what are what oh one
+ 
+
+413
+00:08:33,279 --> 00:08:35,350
+of the root is what what are what oh one
+so yeah well we are calculating before
+
+414
+00:08:35,350 --> 00:08:35,360
+so yeah well we are calculating before
+ 
+
+415
+00:08:35,360 --> 00:08:36,630
+so yeah well we are calculating before
+so what what should i
+
+416
+00:08:36,630 --> 00:08:36,640
+so what what should i
+ 
+
+417
+00:08:36,640 --> 00:08:40,709
+so what what should i
+pass this value come on one what is one
+
+418
+00:08:40,709 --> 00:08:40,719
+pass this value come on one what is one
+ 
+
+419
+00:08:40,719 --> 00:08:44,389
+pass this value come on one what is one
+well answer plus equal
+
+420
+00:08:44,389 --> 00:08:44,399
+well answer plus equal
+ 
+
+421
+00:08:44,399 --> 00:08:48,470
+well answer plus equal
+to search and then now below downward
+
+422
+00:08:48,470 --> 00:08:48,480
+to search and then now below downward
+ 
+
+423
+00:08:48,480 --> 00:08:52,630
+to search and then now below downward
+lower right right and then again
+
+424
+00:08:52,630 --> 00:08:52,640
+lower right right and then again
+ 
+
+425
+00:08:52,640 --> 00:08:54,630
+lower right right and then again
+what what do i pass here the second
+
+426
+00:08:54,630 --> 00:08:54,640
+what what do i pass here the second
+ 
+
+427
+00:08:54,640 --> 00:08:56,230
+what what do i pass here the second
+parameter
+
+428
+00:08:56,230 --> 00:08:56,240
+parameter
+ 
+
+429
+00:08:56,240 --> 00:08:59,509
+parameter
+come on the cnt i just said is the
+
+430
+00:08:59,509 --> 00:08:59,519
+come on the cnt i just said is the
+ 
+
+431
+00:08:59,519 --> 00:09:01,910
+come on the cnt i just said is the
+number of levels
+
+432
+00:09:01,910 --> 00:09:01,920
+number of levels
+ 
+
+433
+00:09:01,920 --> 00:09:05,110
+number of levels
+for the lord's parents parents
+
+434
+00:09:05,110 --> 00:09:05,120
+for the lord's parents parents
+ 
+
+435
+00:09:05,120 --> 00:09:07,910
+for the lord's parents parents
+the number of rules of left the parent
+
+436
+00:09:07,910 --> 00:09:07,920
+the number of rules of left the parent
+ 
+
+437
+00:09:07,920 --> 00:09:10,230
+the number of rules of left the parent
+is of loser that all the parents do the
+
+438
+00:09:10,230 --> 00:09:10,240
+is of loser that all the parents do the
+ 
+
+439
+00:09:10,240 --> 00:09:12,230
+is of loser that all the parents do the
+right suit yeah yeah
+
+440
+00:09:12,230 --> 00:09:12,240
+right suit yeah yeah
+ 
+
+441
+00:09:12,240 --> 00:09:14,070
+right suit yeah yeah
+and the number of the kids from the
+
+442
+00:09:14,070 --> 00:09:14,080
+and the number of the kids from the
+ 
+
+443
+00:09:14,080 --> 00:09:16,470
+and the number of the kids from the
+blood is what
+
+444
+00:09:16,470 --> 00:09:16,480
+blood is what
+ 
+
+445
+00:09:16,480 --> 00:09:20,470
+blood is what
+come on it's there remember the kids for
+
+446
+00:09:20,470 --> 00:09:20,480
+come on it's there remember the kids for
+ 
+
+447
+00:09:20,480 --> 00:09:22,230
+come on it's there remember the kids for
+the route yeah the number of kids on
+
+448
+00:09:22,230 --> 00:09:22,240
+the route yeah the number of kids on
+ 
+
+449
+00:09:22,240 --> 00:09:24,310
+the route yeah the number of kids on
+blue is my name
+
+450
+00:09:24,310 --> 00:09:24,320
+blue is my name
+ 
+
+451
+00:09:24,320 --> 00:09:27,750
+blue is my name
+it's come on how how would that be right
+
+452
+00:09:27,750 --> 00:09:27,760
+it's come on how how would that be right
+ 
+
+453
+00:09:27,760 --> 00:09:36,620
+it's come on how how would that be right
+i was missing here the last lesson
+
+454
+00:09:36,620 --> 00:09:36,630
+
+ 
+
+455
+00:09:36,630 --> 00:09:39,910
+
+[Music]
+
+456
+00:09:39,910 --> 00:09:39,920
+
+ 
+
+457
+00:09:39,920 --> 00:09:42,870
+
+people will watch you all over the world
+
+458
+00:09:42,870 --> 00:09:42,880
+people will watch you all over the world
+ 
+
+459
+00:09:42,880 --> 00:09:44,560
+people will watch you all over the world
+okay they don't want to see your feet
+
+460
+00:09:44,560 --> 00:09:44,570
+okay they don't want to see your feet
+ 
+
+461
+00:09:44,570 --> 00:09:47,110
+okay they don't want to see your feet
+[Laughter]
+
+462
+00:09:47,110 --> 00:09:47,120
+[Laughter]
+ 
+
+463
+00:09:47,120 --> 00:09:49,269
+[Laughter]
+so when we are calculating the loader so
+
+464
+00:09:49,269 --> 00:09:49,279
+so when we are calculating the loader so
+ 
+
+465
+00:09:49,279 --> 00:09:50,230
+so when we are calculating the loader so
+the first
+
+466
+00:09:50,230 --> 00:09:50,240
+the first
+ 
+
+467
+00:09:50,240 --> 00:09:52,710
+the first
+first cnt we can pass any number like
+
+468
+00:09:52,710 --> 00:09:52,720
+first cnt we can pass any number like
+ 
+
+469
+00:09:52,720 --> 00:09:53,910
+first cnt we can pass any number like
+zero
+
+470
+00:09:53,910 --> 00:09:53,920
+zero
+ 
+
+471
+00:09:53,920 --> 00:09:57,430
+zero
+minus one as long as you long past the
+
+472
+00:09:57,430 --> 00:09:57,440
+minus one as long as you long past the
+ 
+
+473
+00:09:57,440 --> 00:10:00,470
+minus one as long as you long past the
+one right yeah because the number of
+
+474
+00:10:00,470 --> 00:10:00,480
+one right yeah because the number of
+ 
+
+475
+00:10:00,480 --> 00:10:03,990
+one right yeah because the number of
+the number of the dude's parents kid
+
+476
+00:10:03,990 --> 00:10:04,000
+the number of the dude's parents kid
+ 
+
+477
+00:10:04,000 --> 00:10:07,030
+the number of the dude's parents kid
+is is yellow right yeah
+
+478
+00:10:07,030 --> 00:10:07,040
+is is yellow right yeah
+ 
+
+479
+00:10:07,040 --> 00:10:08,949
+is is yellow right yeah
+there's no parent of a root right louis
+
+480
+00:10:08,949 --> 00:10:08,959
+there's no parent of a root right louis
+ 
+
+481
+00:10:08,959 --> 00:10:10,470
+there's no parent of a root right louis
+is the only
+
+482
+00:10:10,470 --> 00:10:10,480
+is the only
+ 
+
+483
+00:10:10,480 --> 00:10:13,110
+is the only
+only kid only note in the binary tree
+
+484
+00:10:13,110 --> 00:10:13,120
+only kid only note in the binary tree
+ 
+
+485
+00:10:13,120 --> 00:10:14,630
+only kid only note in the binary tree
+which does not
+
+486
+00:10:14,630 --> 00:10:14,640
+which does not
+ 
+
+487
+00:10:14,640 --> 00:10:18,710
+which does not
+have one we do not have
+
+488
+00:10:18,710 --> 00:10:18,720
+have one we do not have
+ 
+
+489
+00:10:18,720 --> 00:10:20,230
+have one we do not have
+i have one i'm just testing you if
+
+490
+00:10:20,230 --> 00:10:20,240
+i have one i'm just testing you if
+ 
+
+491
+00:10:20,240 --> 00:10:21,910
+i have one i'm just testing you if
+you're listening it
+
+492
+00:10:21,910 --> 00:10:21,920
+you're listening it
+ 
+
+493
+00:10:21,920 --> 00:10:23,850
+you're listening it
+it does not have
+
+494
+00:10:23,850 --> 00:10:23,860
+it does not have
+ 
+
+495
+00:10:23,860 --> 00:10:25,750
+it does not have
+[Music]
+
+496
+00:10:25,750 --> 00:10:25,760
+[Music]
+ 
+
+497
+00:10:25,760 --> 00:10:29,269
+[Music]
+right no no no is the only
+
+498
+00:10:29,269 --> 00:10:29,279
+right no no no is the only
+ 
+
+499
+00:10:29,279 --> 00:10:32,790
+right no no no is the only
+note in binary it does not have a parent
+
+500
+00:10:32,790 --> 00:10:32,800
+note in binary it does not have a parent
+ 
+
+501
+00:10:32,800 --> 00:10:36,710
+note in binary it does not have a parent
+that's why yeah and
+
+502
+00:10:36,710 --> 00:10:36,720
+that's why yeah and
+ 
+
+503
+00:10:36,720 --> 00:10:39,750
+that's why yeah and
+the leaves the leaf notes are the notes
+
+504
+00:10:39,750 --> 00:10:39,760
+the leaves the leaf notes are the notes
+ 
+
+505
+00:10:39,760 --> 00:10:43,990
+the leaves the leaf notes are the notes
+in binary tree which does not have what
+
+506
+00:10:43,990 --> 00:10:44,000
+in binary tree which does not have what
+ 
+
+507
+00:10:44,000 --> 00:10:47,430
+in binary tree which does not have what
+we do not have children we are done okay
+
+508
+00:10:47,430 --> 00:10:47,440
+we do not have children we are done okay
+ 
+
+509
+00:10:47,440 --> 00:10:49,110
+we do not have children we are done okay
+well let's try okay what's the term
+
+510
+00:10:49,110 --> 00:10:49,120
+well let's try okay what's the term
+ 
+
+511
+00:10:49,120 --> 00:10:51,910
+well let's try okay what's the term
+complexity
+
+512
+00:10:51,910 --> 00:10:51,920
+
+ 
+
+513
+00:10:51,920 --> 00:10:56,630
+
+what's n the numbers in the binary tree
+
+514
+00:10:56,630 --> 00:10:56,640
+what's n the numbers in the binary tree
+ 
+
+515
+00:10:56,640 --> 00:10:58,069
+what's n the numbers in the binary tree
+so which one is better you think the
+
+516
+00:10:58,069 --> 00:10:58,079
+so which one is better you think the
+ 
+
+517
+00:10:58,079 --> 00:11:00,630
+so which one is better you think the
+difference search preferable search
+
+518
+00:11:00,630 --> 00:11:00,640
+difference search preferable search
+ 
+
+519
+00:11:00,640 --> 00:11:03,829
+difference search preferable search
+the very same complexity yeah and which
+
+520
+00:11:03,829 --> 00:11:03,839
+the very same complexity yeah and which
+ 
+
+521
+00:11:03,839 --> 00:11:05,110
+the very same complexity yeah and which
+one you think is more
+
+522
+00:11:05,110 --> 00:11:05,120
+one you think is more
+ 
+
+523
+00:11:05,120 --> 00:11:06,949
+one you think is more
+easy to implement it's easier to
+
+524
+00:11:06,949 --> 00:11:06,959
+easy to implement it's easier to
+ 
+
+525
+00:11:06,959 --> 00:11:09,030
+easy to implement it's easier to
+implement
+
+526
+00:11:09,030 --> 00:11:09,040
+implement
+ 
+
+527
+00:11:09,040 --> 00:11:11,030
+implement
+but first search you in breakfast search
+
+528
+00:11:11,030 --> 00:11:11,040
+but first search you in breakfast search
+ 
+
+529
+00:11:11,040 --> 00:11:12,069
+but first search you in breakfast search
+you need to
+
+530
+00:11:12,069 --> 00:11:12,079
+you need to
+ 
+
+531
+00:11:12,079 --> 00:11:14,790
+you need to
+you need to implement the preferences
+
+532
+00:11:14,790 --> 00:11:14,800
+you need to implement the preferences
+ 
+
+533
+00:11:14,800 --> 00:11:15,829
+you need to implement the preferences
+using the queue
+
+534
+00:11:15,829 --> 00:11:15,839
+using the queue
+ 
+
+535
+00:11:15,839 --> 00:11:18,630
+using the queue
+right but here we don't use the queue we
+
+536
+00:11:18,630 --> 00:11:18,640
+right but here we don't use the queue we
+ 
+
+537
+00:11:18,640 --> 00:11:20,630
+right but here we don't use the queue we
+use the stack but there is no stack here
+
+538
+00:11:20,630 --> 00:11:20,640
+use the stack but there is no stack here
+ 
+
+539
+00:11:20,640 --> 00:11:21,190
+use the stack but there is no stack here
+so how
+
+540
+00:11:21,190 --> 00:11:21,200
+so how
+ 
+
+541
+00:11:21,200 --> 00:11:24,310
+so how
+are we going to you where are the stack
+
+542
+00:11:24,310 --> 00:11:24,320
+are we going to you where are the stack
+ 
+
+543
+00:11:24,320 --> 00:11:25,190
+are we going to you where are the stack
+here
+
+544
+00:11:25,190 --> 00:11:25,200
+here
+ 
+
+545
+00:11:25,200 --> 00:11:27,350
+here
+nice there's no steps but there's
+
+546
+00:11:27,350 --> 00:11:27,360
+nice there's no steps but there's
+ 
+
+547
+00:11:27,360 --> 00:11:29,910
+nice there's no steps but there's
+recursion when we talk about recursion
+
+548
+00:11:29,910 --> 00:11:29,920
+recursion when we talk about recursion
+ 
+
+549
+00:11:29,920 --> 00:11:32,790
+recursion when we talk about recursion
+the computer maintains a stack for you
+
+550
+00:11:32,790 --> 00:11:32,800
+the computer maintains a stack for you
+ 
+
+551
+00:11:32,800 --> 00:11:34,470
+the computer maintains a stack for you
+doesn't make sense
+
+552
+00:11:34,470 --> 00:11:34,480
+doesn't make sense
+ 
+
+553
+00:11:34,480 --> 00:11:37,110
+doesn't make sense
+okay so you can implement this different
+
+554
+00:11:37,110 --> 00:11:37,120
+okay so you can implement this different
+ 
+
+555
+00:11:37,120 --> 00:11:39,670
+okay so you can implement this different
+search we allow the recursion but
+
+556
+00:11:39,670 --> 00:11:39,680
+search we allow the recursion but
+ 
+
+557
+00:11:39,680 --> 00:11:42,230
+search we allow the recursion but
+in that case you need to do as a stack
+
+558
+00:11:42,230 --> 00:11:42,240
+in that case you need to do as a stack
+ 
+
+559
+00:11:42,240 --> 00:11:43,030
+in that case you need to do as a stack
+and then you
+
+560
+00:11:43,030 --> 00:11:43,040
+and then you
+ 
+
+561
+00:11:43,040 --> 00:11:45,269
+and then you
+you'll be more complex that's why we
+
+562
+00:11:45,269 --> 00:11:45,279
+you'll be more complex that's why we
+ 
+
+563
+00:11:45,279 --> 00:11:47,269
+you'll be more complex that's why we
+prefer using the recursion
+
+564
+00:11:47,269 --> 00:11:47,279
+prefer using the recursion
+ 
+
+565
+00:11:47,279 --> 00:11:49,590
+prefer using the recursion
+the computer with maintenance stack for
+
+566
+00:11:49,590 --> 00:11:49,600
+the computer with maintenance stack for
+ 
+
+567
+00:11:49,600 --> 00:11:50,790
+the computer with maintenance stack for
+you okay
+
+568
+00:11:50,790 --> 00:11:50,800
+you okay
+ 
+
+569
+00:11:50,800 --> 00:11:52,470
+you okay
+so what what does it mean if there's a
+
+570
+00:11:52,470 --> 00:11:52,480
+so what what does it mean if there's a
+ 
+
+571
+00:11:52,480 --> 00:12:07,910
+so what what does it mean if there's a
+step what's the space complexity
+
+572
+00:12:07,910 --> 00:12:07,920
+
+ 
+
+573
+00:12:07,920 --> 00:12:11,590
+
+okay that's it what's here
+
+574
+00:12:11,590 --> 00:12:11,600
+okay that's it what's here
+ 
+
+575
+00:12:11,600 --> 00:12:15,829
+okay that's it what's here
+what's here let's see what's here hmm
+
+576
+00:12:15,829 --> 00:12:15,839
+what's here let's see what's here hmm
+ 
+
+577
+00:12:15,839 --> 00:12:18,629
+what's here let's see what's here hmm
+let me check so and answer you guys
+
+578
+00:12:18,629 --> 00:12:18,639
+let me check so and answer you guys
+ 
+
+579
+00:12:18,639 --> 00:12:19,350
+let me check so and answer you guys
+yellow so
+
+580
+00:12:19,350 --> 00:12:19,360
+yellow so
+ 
+
+581
+00:12:19,360 --> 00:12:29,660
+yellow so
+what happened when answer is
+
+582
+00:12:29,660 --> 00:12:29,670
+
+ 
+
+583
+00:12:29,670 --> 00:12:37,030
+
+[Music]
+
+584
+00:12:37,030 --> 00:12:37,040
+
+ 
+
+585
+00:12:37,040 --> 00:12:42,370
+
+happened
+
+586
+00:12:42,370 --> 00:12:42,380
+
+ 
+
+587
+00:12:42,380 --> 00:12:46,230
+
+[Music]
+
+588
+00:12:46,230 --> 00:12:46,240
+[Music]
+ 
+
+589
+00:12:46,240 --> 00:12:48,710
+[Music]
+what does it mean what does it mean eric
+
+590
+00:12:48,710 --> 00:12:48,720
+what does it mean what does it mean eric
+ 
+
+591
+00:12:48,720 --> 00:12:49,910
+what does it mean what does it mean eric
+it means
+
+592
+00:12:49,910 --> 00:12:49,920
+it means
+ 
+
+593
+00:12:49,920 --> 00:12:52,069
+it means
+dad what does it mean why why are we
+
+594
+00:12:52,069 --> 00:12:52,079
+dad what does it mean why why are we
+ 
+
+595
+00:12:52,079 --> 00:12:53,509
+dad what does it mean why why are we
+doing this
+
+596
+00:12:53,509 --> 00:12:53,519
+doing this
+ 
+
+597
+00:12:53,519 --> 00:12:58,310
+doing this
+what's this bit what's the speed
+
+598
+00:12:58,310 --> 00:12:58,320
+
+ 
+
+599
+00:12:58,320 --> 00:13:02,230
+
+right yes counter if card is one then we
+
+600
+00:13:02,230 --> 00:13:02,240
+right yes counter if card is one then we
+ 
+
+601
+00:13:02,240 --> 00:13:02,870
+right yes counter if card is one then we
+found
+
+602
+00:13:02,870 --> 00:13:02,880
+found
+ 
+
+603
+00:13:02,880 --> 00:13:05,350
+found
+yeah then we found it from the current
+
+604
+00:13:05,350 --> 00:13:05,360
+yeah then we found it from the current
+ 
+
+605
+00:13:05,360 --> 00:13:06,150
+yeah then we found it from the current
+note is the
+
+606
+00:13:06,150 --> 00:13:06,160
+note is the
+ 
+
+607
+00:13:06,160 --> 00:13:09,350
+note is the
+only track when we add it because we're
+
+608
+00:13:09,350 --> 00:13:09,360
+only track when we add it because we're
+ 
+
+609
+00:13:09,360 --> 00:13:10,790
+only track when we add it because we're
+retaining answer here and then
+
+610
+00:13:10,790 --> 00:13:10,800
+retaining answer here and then
+ 
+
+611
+00:13:10,800 --> 00:13:13,269
+retaining answer here and then
+answers the variable we are accumulating
+
+612
+00:13:13,269 --> 00:13:13,279
+answers the variable we are accumulating
+ 
+
+613
+00:13:13,279 --> 00:13:13,910
+answers the variable we are accumulating
+the
+
+614
+00:13:13,910 --> 00:13:13,920
+the
+ 
+
+615
+00:13:13,920 --> 00:13:16,949
+the
+we are we keep counting we only try
+
+616
+00:13:16,949 --> 00:13:16,959
+we are we keep counting we only try
+ 
+
+617
+00:13:16,959 --> 00:13:18,790
+we are we keep counting we only try
+in its left sub tree and the right
+
+618
+00:13:18,790 --> 00:13:18,800
+in its left sub tree and the right
+ 
+
+619
+00:13:18,800 --> 00:13:20,629
+in its left sub tree and the right
+subtree using recursion right
+
+620
+00:13:20,629 --> 00:13:20,639
+subtree using recursion right
+ 
+
+621
+00:13:20,639 --> 00:13:24,550
+subtree using recursion right
+yeah okay that's it for today
+
+622
+00:13:24,550 --> 00:13:24,560
+
+ 
+
+623
+00:13:24,560 --> 00:13:31,200
+
+bye bye bye
+
