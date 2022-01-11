@@ -1,0 +1,6855 @@
+1
+00:00:00,080 --> 00:00:04,470
+
+hello hello hello mr mr ryan how are you
+
+2
+00:00:04,470 --> 00:00:04,480
+hello hello hello mr mr ryan how are you
+ 
+
+3
+00:00:04,480 --> 00:00:05,749
+hello hello hello mr mr ryan how are you
+today
+
+4
+00:00:05,749 --> 00:00:05,759
+today
+ 
+
+5
+00:00:05,759 --> 00:00:08,230
+today
+okay look this here is a triangle number
+
+6
+00:00:08,230 --> 00:00:08,240
+okay look this here is a triangle number
+ 
+
+7
+00:00:08,240 --> 00:00:09,750
+okay look this here is a triangle number
+triangle okay so today
+
+8
+00:00:09,750 --> 00:00:09,760
+triangle okay so today
+ 
+
+9
+00:00:09,760 --> 00:00:12,390
+triangle okay so today
+our job is to come up with an approach
+
+10
+00:00:12,390 --> 00:00:12,400
+our job is to come up with an approach
+ 
+
+11
+00:00:12,400 --> 00:00:13,589
+our job is to come up with an approach
+to find the
+
+12
+00:00:13,589 --> 00:00:13,599
+to find the
+ 
+
+13
+00:00:13,599 --> 00:00:17,670
+to find the
+minimum path from the top to the bottom
+
+14
+00:00:17,670 --> 00:00:17,680
+minimum path from the top to the bottom
+ 
+
+15
+00:00:17,680 --> 00:00:19,670
+minimum path from the top to the bottom
+so can you find every time you can go to
+
+16
+00:00:19,670 --> 00:00:19,680
+so can you find every time you can go to
+ 
+
+17
+00:00:19,680 --> 00:00:21,429
+so can you find every time you can go to
+the left or right yeah
+
+18
+00:00:21,429 --> 00:00:21,439
+the left or right yeah
+ 
+
+19
+00:00:21,439 --> 00:00:24,630
+the left or right yeah
+and then the number of score is the
+
+20
+00:00:24,630 --> 00:00:24,640
+and then the number of score is the
+ 
+
+21
+00:00:24,640 --> 00:00:25,670
+and then the number of score is the
+number of lump
+
+22
+00:00:25,670 --> 00:00:25,680
+number of lump
+ 
+
+23
+00:00:25,680 --> 00:00:28,790
+number of lump
+uh is the numbers you pick right for
+
+24
+00:00:28,790 --> 00:00:28,800
+uh is the numbers you pick right for
+ 
+
+25
+00:00:28,800 --> 00:00:30,230
+uh is the numbers you pick right for
+example you can take this two
+
+26
+00:00:30,230 --> 00:00:30,240
+example you can take this two
+ 
+
+27
+00:00:30,240 --> 00:00:34,069
+example you can take this two
+three six one so your score will be
+
+28
+00:00:34,069 --> 00:00:34,079
+three six one so your score will be
+ 
+
+29
+00:00:34,079 --> 00:00:37,350
+three six one so your score will be
+five plus six twelve okay twelve
+
+30
+00:00:37,350 --> 00:00:37,360
+five plus six twelve okay twelve
+ 
+
+31
+00:00:37,360 --> 00:00:38,950
+five plus six twelve okay twelve
+can you find another class with the
+
+32
+00:00:38,950 --> 00:00:38,960
+can you find another class with the
+ 
+
+33
+00:00:38,960 --> 00:00:40,549
+can you find another class with the
+minimum no no wait
+
+34
+00:00:40,549 --> 00:00:40,559
+minimum no no wait
+ 
+
+35
+00:00:40,559 --> 00:00:43,350
+minimum no no wait
+what with minimum yeah minimum i wanted
+
+36
+00:00:43,350 --> 00:00:43,360
+what with minimum yeah minimum i wanted
+ 
+
+37
+00:00:43,360 --> 00:00:44,069
+what with minimum yeah minimum i wanted
+a minimum
+
+38
+00:00:44,069 --> 00:00:44,079
+a minimum
+ 
+
+39
+00:00:44,079 --> 00:00:47,990
+a minimum
+minimum plus some pass some
+
+40
+00:00:47,990 --> 00:00:48,000
+minimum plus some pass some
+ 
+
+41
+00:00:48,000 --> 00:00:51,029
+minimum plus some pass some
+person so you can go to the left three
+
+42
+00:00:51,029 --> 00:00:51,039
+person so you can go to the left three
+ 
+
+43
+00:00:51,039 --> 00:00:57,189
+person so you can go to the left three
+five two three five one so what's this
+
+44
+00:00:57,189 --> 00:00:57,199
+
+ 
+
+45
+00:00:57,199 --> 00:00:59,590
+
+i think eleven yeah yeah that's the
+
+46
+00:00:59,590 --> 00:00:59,600
+i think eleven yeah yeah that's the
+ 
+
+47
+00:00:59,600 --> 00:01:01,349
+i think eleven yeah yeah that's the
+minimum yeah you cannot find any
+
+48
+00:01:01,349 --> 00:01:01,359
+minimum yeah you cannot find any
+ 
+
+49
+00:01:01,359 --> 00:01:04,310
+minimum yeah you cannot find any
+any other parts which is smaller than
+
+50
+00:01:04,310 --> 00:01:04,320
+any other parts which is smaller than
+ 
+
+51
+00:01:04,320 --> 00:01:05,429
+any other parts which is smaller than
+this one right
+
+52
+00:01:05,429 --> 00:01:05,439
+this one right
+ 
+
+53
+00:01:05,439 --> 00:01:08,630
+this one right
+yeah so look two four five three and two
+
+54
+00:01:08,630 --> 00:01:08,640
+yeah so look two four five three and two
+ 
+
+55
+00:01:08,640 --> 00:01:10,550
+yeah so look two four five three and two
+four seven eight is more than the
+
+56
+00:01:10,550 --> 00:01:10,560
+four seven eight is more than the
+ 
+
+57
+00:01:10,560 --> 00:01:12,390
+four seven eight is more than the
+eleventh so that one is the optimal
+
+58
+00:01:12,390 --> 00:01:12,400
+eleventh so that one is the optimal
+ 
+
+59
+00:01:12,400 --> 00:01:13,910
+eleventh so that one is the optimal
+answer we're looking for
+
+60
+00:01:13,910 --> 00:01:13,920
+answer we're looking for
+ 
+
+61
+00:01:13,920 --> 00:01:16,469
+answer we're looking for
+so any idea how we're solving that i
+
+62
+00:01:16,469 --> 00:01:16,479
+so any idea how we're solving that i
+ 
+
+63
+00:01:16,479 --> 00:01:17,109
+so any idea how we're solving that i
+mean this is
+
+64
+00:01:17,109 --> 00:01:17,119
+mean this is
+ 
+
+65
+00:01:17,119 --> 00:01:20,950
+mean this is
+uh oh oh you just add all the smallest
+
+66
+00:01:20,950 --> 00:01:20,960
+uh oh oh you just add all the smallest
+ 
+
+67
+00:01:20,960 --> 00:01:23,109
+uh oh oh you just add all the smallest
+numbers in there yeah
+
+68
+00:01:23,109 --> 00:01:23,119
+numbers in there yeah
+ 
+
+69
+00:01:23,119 --> 00:01:27,270
+numbers in there yeah
+and then each line in good choice
+
+70
+00:01:27,270 --> 00:01:27,280
+and then each line in good choice
+ 
+
+71
+00:01:27,280 --> 00:01:30,550
+and then each line in good choice
+smaller but but it may not be
+
+72
+00:01:30,550 --> 00:01:30,560
+smaller but but it may not be
+ 
+
+73
+00:01:30,560 --> 00:01:33,910
+smaller but but it may not be
+look um you
+
+74
+00:01:33,910 --> 00:01:33,920
+look um you
+ 
+
+75
+00:01:33,920 --> 00:01:36,789
+look um you
+you saying you pick the smallest yeah
+
+76
+00:01:36,789 --> 00:01:36,799
+you saying you pick the smallest yeah
+ 
+
+77
+00:01:36,799 --> 00:01:38,870
+you saying you pick the smallest yeah
+yeah that may work but in some cases
+
+78
+00:01:38,870 --> 00:01:38,880
+yeah that may work but in some cases
+ 
+
+79
+00:01:38,880 --> 00:01:41,190
+yeah that may work but in some cases
+you may not you may know what i need
+
+80
+00:01:41,190 --> 00:01:41,200
+you may not you may know what i need
+ 
+
+81
+00:01:41,200 --> 00:01:41,990
+you may not you may know what i need
+okay
+
+82
+00:01:41,990 --> 00:01:42,000
+okay
+ 
+
+83
+00:01:42,000 --> 00:01:43,510
+okay
+okay good question i need to come up
+
+84
+00:01:43,510 --> 00:01:43,520
+okay good question i need to come up
+ 
+
+85
+00:01:43,520 --> 00:01:45,590
+okay good question i need to come up
+with a case that picking the minimum is
+
+86
+00:01:45,590 --> 00:01:45,600
+with a case that picking the minimum is
+ 
+
+87
+00:01:45,600 --> 00:01:46,550
+with a case that picking the minimum is
+not
+
+88
+00:01:46,550 --> 00:01:46,560
+not
+ 
+
+89
+00:01:46,560 --> 00:01:49,670
+not
+uh it's not it's not for example like
+
+90
+00:01:49,670 --> 00:01:49,680
+uh it's not it's not for example like
+ 
+
+91
+00:01:49,680 --> 00:01:52,789
+uh it's not it's not for example like
+uh if i put a if i swap
+
+92
+00:01:52,789 --> 00:01:52,799
+uh if i put a if i swap
+ 
+
+93
+00:01:52,799 --> 00:01:55,830
+uh if i put a if i swap
+with i put a
+
+94
+00:01:55,830 --> 00:01:55,840
+with i put a
+ 
+
+95
+00:01:55,840 --> 00:01:58,950
+with i put a
+two here right yes yeah
+
+96
+00:01:58,950 --> 00:01:58,960
+two here right yes yeah
+ 
+
+97
+00:01:58,960 --> 00:02:02,230
+two here right yes yeah
+two here right yes and then i
+
+98
+00:02:02,230 --> 00:02:02,240
+two here right yes and then i
+ 
+
+99
+00:02:02,240 --> 00:02:06,149
+two here right yes and then i
+put uh a minus ten here
+
+100
+00:02:06,149 --> 00:02:06,159
+put uh a minus ten here
+ 
+
+101
+00:02:06,159 --> 00:02:08,710
+put uh a minus ten here
+yeah okay you can contain the minus look
+
+102
+00:02:08,710 --> 00:02:08,720
+yeah okay you can contain the minus look
+ 
+
+103
+00:02:08,720 --> 00:02:09,190
+yeah okay you can contain the minus look
+you pick
+
+104
+00:02:09,190 --> 00:02:09,200
+you pick
+ 
+
+105
+00:02:09,200 --> 00:02:12,550
+you pick
+the num the smallest two three
+
+106
+00:02:12,550 --> 00:02:12,560
+the num the smallest two three
+ 
+
+107
+00:02:12,560 --> 00:02:15,270
+the num the smallest two three
+five but five cannot go to here right
+
+108
+00:02:15,270 --> 00:02:15,280
+five but five cannot go to here right
+ 
+
+109
+00:02:15,280 --> 00:02:16,390
+five but five cannot go to here right
+you cannot
+
+110
+00:02:16,390 --> 00:02:16,400
+you cannot
+ 
+
+111
+00:02:16,400 --> 00:02:18,790
+you cannot
+pick minus ten all right yeah because
+
+112
+00:02:18,790 --> 00:02:18,800
+pick minus ten all right yeah because
+ 
+
+113
+00:02:18,800 --> 00:02:22,410
+pick minus ten all right yeah because
+it's not on the left
+
+114
+00:02:22,410 --> 00:02:22,420
+it's not on the left
+ 
+
+115
+00:02:22,420 --> 00:02:35,430
+it's not on the left
+[Music]
+
+116
+00:02:35,430 --> 00:02:35,440
+
+ 
+
+117
+00:02:35,440 --> 00:02:37,830
+
+whatever ryan said i'm not gonna repeat
+
+118
+00:02:37,830 --> 00:02:37,840
+whatever ryan said i'm not gonna repeat
+ 
+
+119
+00:02:37,840 --> 00:02:38,630
+whatever ryan said i'm not gonna repeat
+that again
+
+120
+00:02:38,630 --> 00:02:38,640
+that again
+ 
+
+121
+00:02:38,640 --> 00:02:41,910
+that again
+so you know first where is the minus
+
+122
+00:02:41,910 --> 00:02:41,920
+so you know first where is the minus
+ 
+
+123
+00:02:41,920 --> 00:02:42,630
+so you know first where is the minus
+number
+
+124
+00:02:42,630 --> 00:02:42,640
+number
+ 
+
+125
+00:02:42,640 --> 00:02:46,550
+number
+okay so then uh you try to make ten
+
+126
+00:02:46,550 --> 00:02:46,560
+okay so then uh you try to make ten
+ 
+
+127
+00:02:46,560 --> 00:02:48,790
+okay so then uh you try to make ten
+try to make two the thing is that you
+
+128
+00:02:48,790 --> 00:02:48,800
+try to make two the thing is that you
+ 
+
+129
+00:02:48,800 --> 00:02:50,470
+try to make two the thing is that you
+cannot pick the smallest
+
+130
+00:02:50,470 --> 00:02:50,480
+cannot pick the smallest
+ 
+
+131
+00:02:50,480 --> 00:02:52,869
+cannot pick the smallest
+in the fourth row right because when you
+
+132
+00:02:52,869 --> 00:02:52,879
+in the fourth row right because when you
+ 
+
+133
+00:02:52,879 --> 00:02:54,070
+in the fourth row right because when you
+pick one
+
+134
+00:02:54,070 --> 00:02:54,080
+pick one
+ 
+
+135
+00:02:54,080 --> 00:02:56,630
+pick one
+smallest like two three five two three
+
+136
+00:02:56,630 --> 00:02:56,640
+smallest like two three five two three
+ 
+
+137
+00:02:56,640 --> 00:02:58,470
+smallest like two three five two three
+five but five cannot go to
+
+138
+00:02:58,470 --> 00:02:58,480
+five but five cannot go to
+ 
+
+139
+00:02:58,480 --> 00:03:00,390
+five but five cannot go to
+minus ten because you can only go to the
+
+140
+00:03:00,390 --> 00:03:00,400
+minus ten because you can only go to the
+ 
+
+141
+00:03:00,400 --> 00:03:01,830
+minus ten because you can only go to the
+left and right do you get it
+
+142
+00:03:01,830 --> 00:03:01,840
+left and right do you get it
+ 
+
+143
+00:03:01,840 --> 00:03:03,830
+left and right do you get it
+oh yeah yeah so you'll approach may not
+
+144
+00:03:03,830 --> 00:03:03,840
+oh yeah yeah so you'll approach may not
+ 
+
+145
+00:03:03,840 --> 00:03:05,190
+oh yeah yeah so you'll approach may not
+work okay so wait
+
+146
+00:03:05,190 --> 00:03:05,200
+work okay so wait
+ 
+
+147
+00:03:05,200 --> 00:03:08,309
+work okay so wait
+wait okay okay last thing uh
+
+148
+00:03:08,309 --> 00:03:08,319
+wait okay okay last thing uh
+ 
+
+149
+00:03:08,319 --> 00:03:10,630
+wait okay okay last thing uh
+if you can't find a solution what what
+
+150
+00:03:10,630 --> 00:03:10,640
+if you can't find a solution what what
+ 
+
+151
+00:03:10,640 --> 00:03:12,550
+if you can't find a solution what what
+kind of acronym are you trying to
+
+152
+00:03:12,550 --> 00:03:12,560
+kind of acronym are you trying to
+ 
+
+153
+00:03:12,560 --> 00:03:24,420
+kind of acronym are you trying to
+solve okay yeah
+
+154
+00:03:24,420 --> 00:03:24,430
+
+ 
+
+155
+00:03:24,430 --> 00:03:29,110
+
+[Music]
+
+156
+00:03:29,110 --> 00:03:29,120
+
+ 
+
+157
+00:03:29,120 --> 00:03:32,550
+
+yeah okay so this is yeah
+
+158
+00:03:32,550 --> 00:03:32,560
+yeah okay so this is yeah
+ 
+
+159
+00:03:32,560 --> 00:03:34,470
+yeah okay so this is yeah
+wait no yeah so blue forcing how can we
+
+160
+00:03:34,470 --> 00:03:34,480
+wait no yeah so blue forcing how can we
+ 
+
+161
+00:03:34,480 --> 00:03:36,309
+wait no yeah so blue forcing how can we
+prove first we have proof of all
+
+162
+00:03:36,309 --> 00:03:36,319
+prove first we have proof of all
+ 
+
+163
+00:03:36,319 --> 00:03:38,149
+prove first we have proof of all
+possibilities yeah
+
+164
+00:03:38,149 --> 00:03:38,159
+possibilities yeah
+ 
+
+165
+00:03:38,159 --> 00:03:41,589
+possibilities yeah
+yeah and we find out uh we
+
+166
+00:03:41,589 --> 00:03:41,599
+yeah and we find out uh we
+ 
+
+167
+00:03:41,599 --> 00:03:44,949
+yeah and we find out uh we
+we find out uh the minimum right
+
+168
+00:03:44,949 --> 00:03:44,959
+we find out uh the minimum right
+ 
+
+169
+00:03:44,959 --> 00:03:48,070
+we find out uh the minimum right
+so how many paths all together look for
+
+170
+00:03:48,070 --> 00:03:48,080
+so how many paths all together look for
+ 
+
+171
+00:03:48,080 --> 00:03:49,990
+so how many paths all together look for
+each one you have two possibilities
+
+172
+00:03:49,990 --> 00:03:50,000
+each one you have two possibilities
+ 
+
+173
+00:03:50,000 --> 00:03:53,190
+each one you have two possibilities
+yeah if there are n rows and type of
+
+174
+00:03:53,190 --> 00:03:53,200
+yeah if there are n rows and type of
+ 
+
+175
+00:03:53,200 --> 00:03:53,990
+yeah if there are n rows and type of
+rows
+
+176
+00:03:53,990 --> 00:03:54,000
+rows
+ 
+
+177
+00:03:54,000 --> 00:03:55,910
+rows
+and each one you have two possibilities
+
+178
+00:03:55,910 --> 00:03:55,920
+and each one you have two possibilities
+ 
+
+179
+00:03:55,920 --> 00:03:58,149
+and each one you have two possibilities
+how many
+
+180
+00:03:58,149 --> 00:03:58,159
+how many
+ 
+
+181
+00:03:58,159 --> 00:04:00,630
+how many
+how many possibilities how many how many
+
+182
+00:04:00,630 --> 00:04:00,640
+how many possibilities how many how many
+ 
+
+183
+00:04:00,640 --> 00:04:02,470
+how many possibilities how many how many
+ways can you pick
+
+184
+00:04:02,470 --> 00:04:02,480
+ways can you pick
+ 
+
+185
+00:04:02,480 --> 00:04:05,750
+ways can you pick
+how many ways here
+
+186
+00:04:05,750 --> 00:04:05,760
+
+ 
+
+187
+00:04:05,760 --> 00:04:09,030
+
+why is it two two no what i mean
+
+188
+00:04:09,030 --> 00:04:09,040
+why is it two two no what i mean
+ 
+
+189
+00:04:09,040 --> 00:04:11,030
+why is it two two no what i mean
+is from top to the bottom how many how
+
+190
+00:04:11,030 --> 00:04:11,040
+is from top to the bottom how many how
+ 
+
+191
+00:04:11,040 --> 00:04:12,630
+is from top to the bottom how many how
+many possibilities
+
+192
+00:04:12,630 --> 00:04:12,640
+many possibilities
+ 
+
+193
+00:04:12,640 --> 00:04:23,830
+many possibilities
+no four
+
+194
+00:04:23,830 --> 00:04:23,840
+
+ 
+
+195
+00:04:23,840 --> 00:04:25,670
+
+i have two possibilities here and then
+
+196
+00:04:25,670 --> 00:04:25,680
+i have two possibilities here and then
+ 
+
+197
+00:04:25,680 --> 00:04:27,430
+i have two possibilities here and then
+here i have two possibilities i have two
+
+198
+00:04:27,430 --> 00:04:27,440
+here i have two possibilities i have two
+ 
+
+199
+00:04:27,440 --> 00:04:28,629
+here i have two possibilities i have two
+possibilities six
+
+200
+00:04:28,629 --> 00:04:28,639
+possibilities six
+ 
+
+201
+00:04:28,639 --> 00:04:35,350
+possibilities six
+i have two points
+
+202
+00:04:35,350 --> 00:04:35,360
+
+ 
+
+203
+00:04:35,360 --> 00:04:39,030
+
+sixteen come on how high
+
+204
+00:04:39,030 --> 00:04:39,040
+sixteen come on how high
+ 
+
+205
+00:04:39,040 --> 00:04:41,830
+sixteen come on how high
+will it be each one i just say each one
+
+206
+00:04:41,830 --> 00:04:41,840
+will it be each one i just say each one
+ 
+
+207
+00:04:41,840 --> 00:04:42,390
+will it be each one i just say each one
+has two
+
+208
+00:04:42,390 --> 00:04:42,400
+has two
+ 
+
+209
+00:04:42,400 --> 00:04:46,629
+has two
+and then you have n rows so how how long
+
+210
+00:04:46,629 --> 00:04:46,639
+and then you have n rows so how how long
+ 
+
+211
+00:04:46,639 --> 00:04:49,830
+and then you have n rows so how how long
+one square maybe what what
+
+212
+00:04:49,830 --> 00:04:49,840
+one square maybe what what
+ 
+
+213
+00:04:49,840 --> 00:04:53,270
+one square maybe what what
+it was a jesus one look look
+
+214
+00:04:53,270 --> 00:04:53,280
+it was a jesus one look look
+ 
+
+215
+00:04:53,280 --> 00:04:57,110
+it was a jesus one look look
+one i love cheese
+
+216
+00:04:57,110 --> 00:04:57,120
+
+ 
+
+217
+00:04:57,120 --> 00:05:00,469
+
+right three four
+
+218
+00:05:00,469 --> 00:05:00,479
+right three four
+ 
+
+219
+00:05:00,479 --> 00:05:04,550
+right three four
+five six six
+
+220
+00:05:04,550 --> 00:05:04,560
+five six six
+ 
+
+221
+00:05:04,560 --> 00:05:06,790
+five six six
+seven actually seven sorry you are right
+
+222
+00:05:06,790 --> 00:05:06,800
+seven actually seven sorry you are right
+ 
+
+223
+00:05:06,800 --> 00:05:08,070
+seven actually seven sorry you are right
+because two to the one
+
+224
+00:05:08,070 --> 00:05:08,080
+because two to the one
+ 
+
+225
+00:05:08,080 --> 00:05:10,870
+because two to the one
+one look two to lower power of one two
+
+226
+00:05:10,870 --> 00:05:10,880
+one look two to lower power of one two
+ 
+
+227
+00:05:10,880 --> 00:05:11,990
+one look two to lower power of one two
+to the power two
+
+228
+00:05:11,990 --> 00:05:12,000
+to the power two
+ 
+
+229
+00:05:12,000 --> 00:05:13,590
+to the power two
+two to the power of three so two to the
+
+230
+00:05:13,590 --> 00:05:13,600
+two to the power of three so two to the
+ 
+
+231
+00:05:13,600 --> 00:05:15,029
+two to the power of three so two to the
+power three okay
+
+232
+00:05:15,029 --> 00:05:15,039
+power three okay
+ 
+
+233
+00:05:15,039 --> 00:05:18,150
+power three okay
+yeah right yeah it does okay
+
+234
+00:05:18,150 --> 00:05:18,160
+yeah right yeah it does okay
+ 
+
+235
+00:05:18,160 --> 00:05:21,029
+yeah right yeah it does okay
+so imagine if like a hundred this
+
+236
+00:05:21,029 --> 00:05:21,039
+so imagine if like a hundred this
+ 
+
+237
+00:05:21,039 --> 00:05:22,070
+so imagine if like a hundred this
+approach would
+
+238
+00:05:22,070 --> 00:05:22,080
+approach would
+ 
+
+239
+00:05:22,080 --> 00:05:24,390
+approach would
+two to the power of n right yeah oh
+
+240
+00:05:24,390 --> 00:05:24,400
+two to the power of n right yeah oh
+ 
+
+241
+00:05:24,400 --> 00:05:26,469
+two to the power of n right yeah oh
+right and for each one you need to find
+
+242
+00:05:26,469 --> 00:05:26,479
+right and for each one you need to find
+ 
+
+243
+00:05:26,479 --> 00:05:27,189
+right and for each one you need to find
+the minimum
+
+244
+00:05:27,189 --> 00:05:27,199
+the minimum
+ 
+
+245
+00:05:27,199 --> 00:05:29,590
+the minimum
+right so that's the time complexity for
+
+246
+00:05:29,590 --> 00:05:29,600
+right so that's the time complexity for
+ 
+
+247
+00:05:29,600 --> 00:05:30,710
+right so that's the time complexity for
+the proof of
+
+248
+00:05:30,710 --> 00:05:30,720
+the proof of
+ 
+
+249
+00:05:30,720 --> 00:05:34,629
+the proof of
+yeah so we can use the dynamic
+
+250
+00:05:34,629 --> 00:05:34,639
+yeah so we can use the dynamic
+ 
+
+251
+00:05:34,639 --> 00:05:49,830
+yeah so we can use the dynamic
+programming how how can we do it look
+
+252
+00:05:49,830 --> 00:05:49,840
+
+ 
+
+253
+00:05:49,840 --> 00:05:52,790
+
+so for example if we are here yeah if we
+
+254
+00:05:52,790 --> 00:05:52,800
+so for example if we are here yeah if we
+ 
+
+255
+00:05:52,800 --> 00:05:53,590
+so for example if we are here yeah if we
+are here
+
+256
+00:05:53,590 --> 00:05:53,600
+are here
+ 
+
+257
+00:05:53,600 --> 00:05:55,270
+are here
+then you can choose two or three you can
+
+258
+00:05:55,270 --> 00:05:55,280
+then you can choose two or three you can
+ 
+
+259
+00:05:55,280 --> 00:05:57,189
+then you can choose two or three you can
+only come from these two sides yeah
+
+260
+00:05:57,189 --> 00:05:57,199
+only come from these two sides yeah
+ 
+
+261
+00:05:57,199 --> 00:05:59,350
+only come from these two sides yeah
+yeah so we pick the minimum right
+
+262
+00:05:59,350 --> 00:05:59,360
+yeah so we pick the minimum right
+ 
+
+263
+00:05:59,360 --> 00:06:01,189
+yeah so we pick the minimum right
+because look
+
+264
+00:06:01,189 --> 00:06:01,199
+because look
+ 
+
+265
+00:06:01,199 --> 00:06:05,110
+because look
+look we can turn this
+
+266
+00:06:05,110 --> 00:06:05,120
+look we can turn this
+ 
+
+267
+00:06:05,120 --> 00:06:07,110
+look we can turn this
+let's turn this triangle a little bit
+
+268
+00:06:07,110 --> 00:06:07,120
+let's turn this triangle a little bit
+ 
+
+269
+00:06:07,120 --> 00:06:09,510
+let's turn this triangle a little bit
+tweeted okay tilt it so that will be
+
+270
+00:06:09,510 --> 00:06:09,520
+tweeted okay tilt it so that will be
+ 
+
+271
+00:06:09,520 --> 00:06:13,270
+tweeted okay tilt it so that will be
+two three four so you become a list of
+
+272
+00:06:13,270 --> 00:06:13,280
+two three four so you become a list of
+ 
+
+273
+00:06:13,280 --> 00:06:13,749
+two three four so you become a list of
+at least
+
+274
+00:06:13,749 --> 00:06:13,759
+at least
+ 
+
+275
+00:06:13,759 --> 00:06:17,110
+at least
+yeah two three four six five
+
+276
+00:06:17,110 --> 00:06:17,120
+yeah two three four six five
+ 
+
+277
+00:06:17,120 --> 00:06:19,350
+yeah two three four six five
+seven it looks like triangle pascal
+
+278
+00:06:19,350 --> 00:06:19,360
+seven it looks like triangle pascal
+ 
+
+279
+00:06:19,360 --> 00:06:20,790
+seven it looks like triangle pascal
+triangle yeah but
+
+280
+00:06:20,790 --> 00:06:20,800
+triangle yeah but
+ 
+
+281
+00:06:20,800 --> 00:06:26,070
+triangle yeah but
+not exactly okay so look so if we
+
+282
+00:06:26,070 --> 00:06:26,080
+not exactly okay so look so if we
+ 
+
+283
+00:06:26,080 --> 00:06:28,950
+not exactly okay so look so if we
+if we you we uh we want to go through
+
+284
+00:06:28,950 --> 00:06:28,960
+if we you we uh we want to go through
+ 
+
+285
+00:06:28,960 --> 00:06:29,909
+if we you we uh we want to go through
+this yeah
+
+286
+00:06:29,909 --> 00:06:29,919
+this yeah
+ 
+
+287
+00:06:29,919 --> 00:06:31,990
+this yeah
+let's release this position and then you
+
+288
+00:06:31,990 --> 00:06:32,000
+let's release this position and then you
+ 
+
+289
+00:06:32,000 --> 00:06:33,510
+let's release this position and then you
+can come from here
+
+290
+00:06:33,510 --> 00:06:33,520
+can come from here
+ 
+
+291
+00:06:33,520 --> 00:06:37,430
+can come from here
+or here right right am right yeah
+
+292
+00:06:37,430 --> 00:06:37,440
+or here right right am right yeah
+ 
+
+293
+00:06:37,440 --> 00:06:41,430
+or here right right am right yeah
+so if i'm i want to come here
+
+294
+00:06:41,430 --> 00:06:41,440
+so if i'm i want to come here
+ 
+
+295
+00:06:41,440 --> 00:06:42,950
+so if i'm i want to come here
+and then i have two choices you could
+
+296
+00:06:42,950 --> 00:06:42,960
+and then i have two choices you could
+ 
+
+297
+00:06:42,960 --> 00:06:46,830
+and then i have two choices you could
+come here and then here right
+
+298
+00:06:46,830 --> 00:06:46,840
+
+ 
+
+299
+00:06:46,840 --> 00:06:48,230
+
+alright
+
+300
+00:06:48,230 --> 00:06:48,240
+alright
+ 
+
+301
+00:06:48,240 --> 00:06:50,950
+alright
+it's mine uh okay let's just matter it
+
+302
+00:06:50,950 --> 00:06:50,960
+it's mine uh okay let's just matter it
+ 
+
+303
+00:06:50,960 --> 00:06:52,150
+it's mine uh okay let's just matter it
+doesn't matter okay so
+
+304
+00:06:52,150 --> 00:06:52,160
+doesn't matter okay so
+ 
+
+305
+00:06:52,160 --> 00:06:55,110
+doesn't matter okay so
+look i can come from two positions on
+
+306
+00:06:55,110 --> 00:06:55,120
+look i can come from two positions on
+ 
+
+307
+00:06:55,120 --> 00:06:56,790
+look i can come from two positions on
+the left next row right
+
+308
+00:06:56,790 --> 00:06:56,800
+the left next row right
+ 
+
+309
+00:06:56,800 --> 00:06:59,749
+the left next row right
+all right yes so i always pick the
+
+310
+00:06:59,749 --> 00:06:59,759
+all right yes so i always pick the
+ 
+
+311
+00:06:59,759 --> 00:07:00,390
+all right yes so i always pick the
+minimum
+
+312
+00:07:00,390 --> 00:07:00,400
+minimum
+ 
+
+313
+00:07:00,400 --> 00:07:02,550
+minimum
+so for this one i always pick a minimum
+
+314
+00:07:02,550 --> 00:07:02,560
+so for this one i always pick a minimum
+ 
+
+315
+00:07:02,560 --> 00:07:03,589
+so for this one i always pick a minimum
+of these two
+
+316
+00:07:03,589 --> 00:07:03,599
+of these two
+ 
+
+317
+00:07:03,599 --> 00:07:06,629
+of these two
+and a plus itself right so does it make
+
+318
+00:07:06,629 --> 00:07:06,639
+and a plus itself right so does it make
+ 
+
+319
+00:07:06,639 --> 00:07:08,150
+and a plus itself right so does it make
+sense
+
+320
+00:07:08,150 --> 00:07:08,160
+sense
+ 
+
+321
+00:07:08,160 --> 00:07:11,510
+sense
+so so look
+
+322
+00:07:11,510 --> 00:07:11,520
+so so look
+ 
+
+323
+00:07:11,520 --> 00:07:15,350
+so so look
+if if a
+
+324
+00:07:15,350 --> 00:07:15,360
+if if a
+ 
+
+325
+00:07:15,360 --> 00:07:18,390
+if if a
+to b right
+
+326
+00:07:18,390 --> 00:07:18,400
+to b right
+ 
+
+327
+00:07:18,400 --> 00:07:21,830
+to b right
+if a to b is
+
+328
+00:07:21,830 --> 00:07:21,840
+if a to b is
+ 
+
+329
+00:07:21,840 --> 00:07:26,390
+if a to b is
+10 right right and then you will a to c
+
+330
+00:07:26,390 --> 00:07:26,400
+10 right right and then you will a to c
+ 
+
+331
+00:07:26,400 --> 00:07:31,029
+10 right right and then you will a to c
+and to b this is 2 this is 3
+
+332
+00:07:31,029 --> 00:07:31,039
+and to b this is 2 this is 3
+ 
+
+333
+00:07:31,039 --> 00:07:34,150
+and to b this is 2 this is 3
+all right yes so look
+
+334
+00:07:34,150 --> 00:07:34,160
+all right yes so look
+ 
+
+335
+00:07:34,160 --> 00:07:37,350
+all right yes so look
+and another if the path can consist this
+
+336
+00:07:37,350 --> 00:07:37,360
+and another if the path can consist this
+ 
+
+337
+00:07:37,360 --> 00:07:38,629
+and another if the path can consist this
+bit
+
+338
+00:07:38,629 --> 00:07:38,639
+bit
+ 
+
+339
+00:07:38,639 --> 00:07:41,350
+bit
+and then i want to go to here so the
+
+340
+00:07:41,350 --> 00:07:41,360
+and then i want to go to here so the
+ 
+
+341
+00:07:41,360 --> 00:07:44,469
+and then i want to go to here so the
+shortest path can always be replaced by
+
+342
+00:07:44,469 --> 00:07:44,479
+shortest path can always be replaced by
+ 
+
+343
+00:07:44,479 --> 00:07:47,270
+shortest path can always be replaced by
+a c b right because a c b is shorter
+
+344
+00:07:47,270 --> 00:07:47,280
+a c b right because a c b is shorter
+ 
+
+345
+00:07:47,280 --> 00:07:48,070
+a c b right because a c b is shorter
+than a b
+
+346
+00:07:48,070 --> 00:07:48,080
+than a b
+ 
+
+347
+00:07:48,080 --> 00:07:50,550
+than a b
+right all right so does that make sense
+
+348
+00:07:50,550 --> 00:07:50,560
+right all right so does that make sense
+ 
+
+349
+00:07:50,560 --> 00:07:54,309
+right all right so does that make sense
+look if a shot is passed come from
+
+350
+00:07:54,309 --> 00:07:54,319
+look if a shot is passed come from
+ 
+
+351
+00:07:54,319 --> 00:07:59,029
+look if a shot is passed come from
+come from what i come from five right
+
+352
+00:07:59,029 --> 00:07:59,039
+come from what i come from five right
+ 
+
+353
+00:07:59,039 --> 00:08:02,629
+come from what i come from five right
+come from five here the shortest path
+
+354
+00:08:02,629 --> 00:08:02,639
+come from five here the shortest path
+ 
+
+355
+00:08:02,639 --> 00:08:04,309
+come from five here the shortest path
+comes from five
+
+356
+00:08:04,309 --> 00:08:04,319
+comes from five
+ 
+
+357
+00:08:04,319 --> 00:08:07,110
+comes from five
+then i can always pick the smallest from
+
+358
+00:08:07,110 --> 00:08:07,120
+then i can always pick the smallest from
+ 
+
+359
+00:08:07,120 --> 00:08:07,990
+then i can always pick the smallest from
+from these two
+
+360
+00:08:07,990 --> 00:08:08,000
+from these two
+ 
+
+361
+00:08:08,000 --> 00:08:11,189
+from these two
+right which is two all right yeah
+
+362
+00:08:11,189 --> 00:08:11,199
+right which is two all right yeah
+ 
+
+363
+00:08:11,199 --> 00:08:13,589
+right which is two all right yeah
+yeah does this doesn't make sense so so
+
+364
+00:08:13,589 --> 00:08:13,599
+yeah does this doesn't make sense so so
+ 
+
+365
+00:08:13,599 --> 00:08:15,350
+yeah does this doesn't make sense so so
+it means the one i determine
+
+366
+00:08:15,350 --> 00:08:15,360
+it means the one i determine
+ 
+
+367
+00:08:15,360 --> 00:08:17,589
+it means the one i determine
+when i determine let's say let's have a
+
+368
+00:08:17,589 --> 00:08:17,599
+when i determine let's say let's have a
+ 
+
+369
+00:08:17,599 --> 00:08:19,430
+when i determine let's say let's have a
+function okay a function
+
+370
+00:08:19,430 --> 00:08:19,440
+function okay a function
+ 
+
+371
+00:08:19,440 --> 00:08:22,790
+function okay a function
+row and column right if
+
+372
+00:08:22,790 --> 00:08:22,800
+row and column right if
+ 
+
+373
+00:08:22,800 --> 00:08:26,790
+row and column right if
+i calculate f column r and c
+
+374
+00:08:26,790 --> 00:08:26,800
+i calculate f column r and c
+ 
+
+375
+00:08:26,800 --> 00:08:30,150
+i calculate f column r and c
+it does not affect this value will not
+
+376
+00:08:30,150 --> 00:08:30,160
+it does not affect this value will not
+ 
+
+377
+00:08:30,160 --> 00:08:31,350
+it does not affect this value will not
+be changed right
+
+378
+00:08:31,350 --> 00:08:31,360
+be changed right
+ 
+
+379
+00:08:31,360 --> 00:08:33,509
+be changed right
+alright look because i already
+
+380
+00:08:33,509 --> 00:08:33,519
+alright look because i already
+ 
+
+381
+00:08:33,519 --> 00:08:36,469
+alright look because i already
+calculated it's only based on fr plus 1
+
+382
+00:08:36,469 --> 00:08:36,479
+calculated it's only based on fr plus 1
+ 
+
+383
+00:08:36,479 --> 00:08:39,430
+calculated it's only based on fr plus 1
+which is here and fr plus 1 c plus one
+
+384
+00:08:39,430 --> 00:08:39,440
+which is here and fr plus 1 c plus one
+ 
+
+385
+00:08:39,440 --> 00:08:40,630
+which is here and fr plus 1 c plus one
+which is
+
+386
+00:08:40,630 --> 00:08:40,640
+which is
+ 
+
+387
+00:08:40,640 --> 00:08:42,790
+which is
+the three and i oh i picked the minimum
+
+388
+00:08:42,790 --> 00:08:42,800
+the three and i oh i picked the minimum
+ 
+
+389
+00:08:42,800 --> 00:08:43,670
+the three and i oh i picked the minimum
+right
+
+390
+00:08:43,670 --> 00:08:43,680
+right
+ 
+
+391
+00:08:43,680 --> 00:08:46,870
+right
+all right so f
+
+392
+00:08:46,870 --> 00:08:46,880
+all right so f
+ 
+
+393
+00:08:46,880 --> 00:08:49,350
+all right so f
+let's define a dynamic programming
+
+394
+00:08:49,350 --> 00:08:49,360
+let's define a dynamic programming
+ 
+
+395
+00:08:49,360 --> 00:08:49,910
+let's define a dynamic programming
+function
+
+396
+00:08:49,910 --> 00:08:49,920
+function
+ 
+
+397
+00:08:49,920 --> 00:08:53,030
+function
+which is frc so meaning that
+
+398
+00:08:53,030 --> 00:08:53,040
+which is frc so meaning that
+ 
+
+399
+00:08:53,040 --> 00:08:57,670
+which is frc so meaning that
+from the minimum pass sum
+
+400
+00:08:57,670 --> 00:08:57,680
+
+ 
+
+401
+00:08:57,680 --> 00:09:00,550
+
+from the from the last row yes from the
+
+402
+00:09:00,550 --> 00:09:00,560
+from the from the last row yes from the
+ 
+
+403
+00:09:00,560 --> 00:09:02,070
+from the from the last row yes from the
+last row
+
+404
+00:09:02,070 --> 00:09:02,080
+last row
+ 
+
+405
+00:09:02,080 --> 00:09:05,590
+last row
+okay last row to here to this point to
+
+406
+00:09:05,590 --> 00:09:05,600
+okay last row to here to this point to
+ 
+
+407
+00:09:05,600 --> 00:09:06,389
+okay last row to here to this point to
+this position
+
+408
+00:09:06,389 --> 00:09:06,399
+this position
+ 
+
+409
+00:09:06,399 --> 00:09:09,990
+this position
+it doesn't make sense right
+
+410
+00:09:09,990 --> 00:09:10,000
+it doesn't make sense right
+ 
+
+411
+00:09:10,000 --> 00:09:13,990
+it doesn't make sense right
+does it make sense so it will be what
+
+412
+00:09:13,990 --> 00:09:14,000
+does it make sense so it will be what
+ 
+
+413
+00:09:14,000 --> 00:09:17,190
+does it make sense so it will be what
+f r c equals
+
+414
+00:09:17,190 --> 00:09:17,200
+f r c equals
+ 
+
+415
+00:09:17,200 --> 00:09:20,389
+f r c equals
+minimum of what
+
+416
+00:09:20,389 --> 00:09:20,399
+minimum of what
+ 
+
+417
+00:09:20,399 --> 00:09:23,190
+minimum of what
+of what plus what can you can you guess
+
+418
+00:09:23,190 --> 00:09:23,200
+of what plus what can you can you guess
+ 
+
+419
+00:09:23,200 --> 00:09:23,590
+of what plus what can you can you guess
+look
+
+420
+00:09:23,590 --> 00:09:23,600
+look
+ 
+
+421
+00:09:23,600 --> 00:09:26,710
+look
+frc is that frc
+
+422
+00:09:26,710 --> 00:09:26,720
+frc is that frc
+ 
+
+423
+00:09:26,720 --> 00:09:30,070
+frc is that frc
+is here right uh uh rc remind me of
+
+424
+00:09:30,070 --> 00:09:30,080
+is here right uh uh rc remind me of
+ 
+
+425
+00:09:30,080 --> 00:09:30,949
+is here right uh uh rc remind me of
+cheese
+
+426
+00:09:30,949 --> 00:09:30,959
+cheese
+ 
+
+427
+00:09:30,959 --> 00:09:34,230
+cheese
+look it's coming from what
+
+428
+00:09:34,230 --> 00:09:34,240
+look it's coming from what
+ 
+
+429
+00:09:34,240 --> 00:09:35,910
+look it's coming from what
+can it come from what connect two
+
+430
+00:09:35,910 --> 00:09:35,920
+can it come from what connect two
+ 
+
+431
+00:09:35,920 --> 00:09:37,990
+can it come from what connect two
+possibilities
+
+432
+00:09:37,990 --> 00:09:38,000
+possibilities
+ 
+
+433
+00:09:38,000 --> 00:09:41,350
+possibilities
+two angles no i mean um and r
+
+434
+00:09:41,350 --> 00:09:41,360
+two angles no i mean um and r
+ 
+
+435
+00:09:41,360 --> 00:09:44,470
+two angles no i mean um and r
+c and what is next is r plus one
+
+436
+00:09:44,470 --> 00:09:44,480
+c and what is next is r plus one
+ 
+
+437
+00:09:44,480 --> 00:09:47,509
+c and what is next is r plus one
+c and also is next r plus one c plus one
+
+438
+00:09:47,509 --> 00:09:47,519
+c and also is next r plus one c plus one
+ 
+
+439
+00:09:47,519 --> 00:09:48,230
+c and also is next r plus one c plus one
+right
+
+440
+00:09:48,230 --> 00:09:48,240
+right
+ 
+
+441
+00:09:48,240 --> 00:09:50,389
+right
+right because it can only come from this
+
+442
+00:09:50,389 --> 00:09:50,399
+right because it can only come from this
+ 
+
+443
+00:09:50,399 --> 00:09:52,470
+right because it can only come from this
+position if i want to
+
+444
+00:09:52,470 --> 00:09:52,480
+position if i want to
+ 
+
+445
+00:09:52,480 --> 00:09:55,430
+position if i want to
+the starting point is look the starting
+
+446
+00:09:55,430 --> 00:09:55,440
+the starting point is look the starting
+ 
+
+447
+00:09:55,440 --> 00:09:56,949
+the starting point is look the starting
+point is at the last row
+
+448
+00:09:56,949 --> 00:09:56,959
+point is at the last row
+ 
+
+449
+00:09:56,959 --> 00:09:58,630
+point is at the last row
+and it's like climbing right you can
+
+450
+00:09:58,630 --> 00:09:58,640
+and it's like climbing right you can
+ 
+
+451
+00:09:58,640 --> 00:10:01,590
+and it's like climbing right you can
+climb you can climb in
+
+452
+00:10:01,590 --> 00:10:01,600
+climb you can climb in
+ 
+
+453
+00:10:01,600 --> 00:10:05,030
+climb you can climb in
+climb up right or you can climb
+
+454
+00:10:05,030 --> 00:10:05,040
+climb up right or you can climb
+ 
+
+455
+00:10:05,040 --> 00:10:07,190
+climb up right or you can climb
+kind of this way right so you can climb
+
+456
+00:10:07,190 --> 00:10:07,200
+kind of this way right so you can climb
+ 
+
+457
+00:10:07,200 --> 00:10:08,470
+kind of this way right so you can climb
+from the bottom to the
+
+458
+00:10:08,470 --> 00:10:08,480
+from the bottom to the
+ 
+
+459
+00:10:08,480 --> 00:10:11,430
+from the bottom to the
+upwards you can have two positions right
+
+460
+00:10:11,430 --> 00:10:11,440
+upwards you can have two positions right
+ 
+
+461
+00:10:11,440 --> 00:10:12,790
+upwards you can have two positions right
+so minimum
+
+462
+00:10:12,790 --> 00:10:12,800
+so minimum
+ 
+
+463
+00:10:12,800 --> 00:10:14,870
+so minimum
+at this point rc could come from two
+
+464
+00:10:14,870 --> 00:10:14,880
+at this point rc could come from two
+ 
+
+465
+00:10:14,880 --> 00:10:16,389
+at this point rc could come from two
+position which f
+
+466
+00:10:16,389 --> 00:10:16,399
+position which f
+ 
+
+467
+00:10:16,399 --> 00:10:20,150
+position which f
+r plus one c and one and can you tell me
+
+468
+00:10:20,150 --> 00:10:20,160
+r plus one c and one and can you tell me
+ 
+
+469
+00:10:20,160 --> 00:10:21,750
+r plus one c and one and can you tell me
+what's here
+
+470
+00:10:21,750 --> 00:10:21,760
+what's here
+ 
+
+471
+00:10:21,760 --> 00:10:24,790
+what's here
+i was just saying ah rc
+
+472
+00:10:24,790 --> 00:10:24,800
+i was just saying ah rc
+ 
+
+473
+00:10:24,800 --> 00:10:28,389
+i was just saying ah rc
+this position is rc and it comes from
+
+474
+00:10:28,389 --> 00:10:28,399
+this position is rc and it comes from
+ 
+
+475
+00:10:28,399 --> 00:10:29,750
+this position is rc and it comes from
+what
+
+476
+00:10:29,750 --> 00:10:29,760
+what
+ 
+
+477
+00:10:29,760 --> 00:10:33,590
+what
+r plus one c and what's this position
+
+478
+00:10:33,590 --> 00:10:33,600
+r plus one c and what's this position
+ 
+
+479
+00:10:33,600 --> 00:10:38,870
+r plus one c and what's this position
+what's this partition
+
+480
+00:10:38,870 --> 00:10:38,880
+
+ 
+
+481
+00:10:38,880 --> 00:10:41,910
+
+r plus one c plus one where down
+
+482
+00:10:41,910 --> 00:10:41,920
+r plus one c plus one where down
+ 
+
+483
+00:10:41,920 --> 00:10:45,030
+r plus one c plus one where down
+look so f r plus one c plus one
+
+484
+00:10:45,030 --> 00:10:45,040
+look so f r plus one c plus one
+ 
+
+485
+00:10:45,040 --> 00:10:47,030
+look so f r plus one c plus one
+but look it coming from this this is the
+
+486
+00:10:47,030 --> 00:10:47,040
+but look it coming from this this is the
+ 
+
+487
+00:10:47,040 --> 00:10:48,389
+but look it coming from this this is the
+past sum yeah but
+
+488
+00:10:48,389 --> 00:10:48,399
+past sum yeah but
+ 
+
+489
+00:10:48,399 --> 00:10:50,150
+past sum yeah but
+when i reach here i need to end the
+
+490
+00:10:50,150 --> 00:10:50,160
+when i reach here i need to end the
+ 
+
+491
+00:10:50,160 --> 00:10:52,230
+when i reach here i need to end the
+number of current point right
+
+492
+00:10:52,230 --> 00:10:52,240
+number of current point right
+ 
+
+493
+00:10:52,240 --> 00:10:56,550
+number of current point right
+yeah so let's define it as t rc right
+
+494
+00:10:56,550 --> 00:10:56,560
+yeah so let's define it as t rc right
+ 
+
+495
+00:10:56,560 --> 00:11:01,350
+yeah so let's define it as t rc right
+yeah okay so the final value is what
+
+496
+00:11:01,350 --> 00:11:01,360
+yeah okay so the final value is what
+ 
+
+497
+00:11:01,360 --> 00:11:04,630
+yeah okay so the final value is what
+the minimum plus sum with which is what
+
+498
+00:11:04,630 --> 00:11:04,640
+the minimum plus sum with which is what
+ 
+
+499
+00:11:04,640 --> 00:11:06,870
+the minimum plus sum with which is what
+which is the value we want to find is f
+
+500
+00:11:06,870 --> 00:11:06,880
+which is the value we want to find is f
+ 
+
+501
+00:11:06,880 --> 00:11:08,389
+which is the value we want to find is f
+or what
+
+502
+00:11:08,389 --> 00:11:08,399
+or what
+ 
+
+503
+00:11:08,399 --> 00:11:11,750
+or what
+the top value zero what
+
+504
+00:11:11,750 --> 00:11:11,760
+the top value zero what
+ 
+
+505
+00:11:11,760 --> 00:11:15,190
+the top value zero what
+because the top row yeah zero one
+
+506
+00:11:15,190 --> 00:11:15,200
+because the top row yeah zero one
+ 
+
+507
+00:11:15,200 --> 00:11:17,030
+because the top row yeah zero one
+zero yeah this is the value we're
+
+508
+00:11:17,030 --> 00:11:17,040
+zero yeah this is the value we're
+ 
+
+509
+00:11:17,040 --> 00:11:18,949
+zero yeah this is the value we're
+looking for when we calculate this yeah
+
+510
+00:11:18,949 --> 00:11:18,959
+looking for when we calculate this yeah
+ 
+
+511
+00:11:18,959 --> 00:11:22,150
+looking for when we calculate this yeah
+each value is the minimum of its next
+
+512
+00:11:22,150 --> 00:11:22,160
+each value is the minimum of its next
+ 
+
+513
+00:11:22,160 --> 00:11:23,430
+each value is the minimum of its next
+row two values
+
+514
+00:11:23,430 --> 00:11:23,440
+row two values
+ 
+
+515
+00:11:23,440 --> 00:11:26,310
+row two values
+right plus its value of itself am i
+
+516
+00:11:26,310 --> 00:11:26,320
+right plus its value of itself am i
+ 
+
+517
+00:11:26,320 --> 00:11:27,190
+right plus its value of itself am i
+right
+
+518
+00:11:27,190 --> 00:11:27,200
+right
+ 
+
+519
+00:11:27,200 --> 00:11:30,310
+right
+it's like picking picking
+
+520
+00:11:30,310 --> 00:11:30,320
+it's like picking picking
+ 
+
+521
+00:11:30,320 --> 00:11:33,190
+it's like picking picking
+uh score picking numbers on when you
+
+522
+00:11:33,190 --> 00:11:33,200
+uh score picking numbers on when you
+ 
+
+523
+00:11:33,200 --> 00:11:33,990
+uh score picking numbers on when you
+climb up
+
+524
+00:11:33,990 --> 00:11:34,000
+climb up
+ 
+
+525
+00:11:34,000 --> 00:11:37,430
+climb up
+right yeah can they get it because
+
+526
+00:11:37,430 --> 00:11:37,440
+right yeah can they get it because
+ 
+
+527
+00:11:37,440 --> 00:11:40,470
+right yeah can they get it because
+how many how many numbers the past sum
+
+528
+00:11:40,470 --> 00:11:40,480
+how many how many numbers the past sum
+ 
+
+529
+00:11:40,480 --> 00:11:41,350
+how many how many numbers the past sum
+have you picked
+
+530
+00:11:41,350 --> 00:11:41,360
+have you picked
+ 
+
+531
+00:11:41,360 --> 00:11:44,389
+have you picked
+previously with these two right and what
+
+532
+00:11:44,389 --> 00:11:44,399
+previously with these two right and what
+ 
+
+533
+00:11:44,399 --> 00:11:46,310
+previously with these two right and what
+can you pick from the current position
+
+534
+00:11:46,310 --> 00:11:46,320
+can you pick from the current position
+ 
+
+535
+00:11:46,320 --> 00:11:47,350
+can you pick from the current position
+is these two
+
+536
+00:11:47,350 --> 00:11:47,360
+is these two
+ 
+
+537
+00:11:47,360 --> 00:11:49,990
+is these two
+am right so what's the minimum strategy
+
+538
+00:11:49,990 --> 00:11:50,000
+am right so what's the minimum strategy
+ 
+
+539
+00:11:50,000 --> 00:11:50,550
+am right so what's the minimum strategy
+i want to
+
+540
+00:11:50,550 --> 00:11:50,560
+i want to
+ 
+
+541
+00:11:50,560 --> 00:11:52,870
+i want to
+at this point i always pick the smallest
+
+542
+00:11:52,870 --> 00:11:52,880
+at this point i always pick the smallest
+ 
+
+543
+00:11:52,880 --> 00:11:54,790
+at this point i always pick the smallest
+right
+
+544
+00:11:54,790 --> 00:11:54,800
+right
+ 
+
+545
+00:11:54,800 --> 00:11:56,710
+right
+because i pick a small list that comes
+
+546
+00:11:56,710 --> 00:11:56,720
+because i pick a small list that comes
+ 
+
+547
+00:11:56,720 --> 00:11:58,230
+because i pick a small list that comes
+that's a small that's the
+
+548
+00:11:58,230 --> 00:11:58,240
+that's a small that's the
+ 
+
+549
+00:11:58,240 --> 00:12:00,870
+that's a small that's the
+ultimate strategy and i attempt it i'm
+
+550
+00:12:00,870 --> 00:12:00,880
+ultimate strategy and i attempt it i'm
+ 
+
+551
+00:12:00,880 --> 00:12:01,670
+ultimate strategy and i attempt it i'm
+going to add it
+
+552
+00:12:01,670 --> 00:12:01,680
+going to add it
+ 
+
+553
+00:12:01,680 --> 00:12:04,150
+going to add it
+with current numbers right does it make
+
+554
+00:12:04,150 --> 00:12:04,160
+with current numbers right does it make
+ 
+
+555
+00:12:04,160 --> 00:12:04,949
+with current numbers right does it make
+sense eric
+
+556
+00:12:04,949 --> 00:12:04,959
+sense eric
+ 
+
+557
+00:12:04,959 --> 00:12:08,870
+sense eric
+yeah can you explain again
+
+558
+00:12:08,870 --> 00:12:08,880
+
+ 
+
+559
+00:12:08,880 --> 00:12:12,629
+
+so uh you wanna find
+
+560
+00:12:12,629 --> 00:12:12,639
+so uh you wanna find
+ 
+
+561
+00:12:12,639 --> 00:12:16,790
+so uh you wanna find
+the you wanna see
+
+562
+00:12:16,790 --> 00:12:16,800
+the you wanna see
+ 
+
+563
+00:12:16,800 --> 00:12:22,949
+the you wanna see
+okay okay so
+
+564
+00:12:22,949 --> 00:12:22,959
+
+ 
+
+565
+00:12:22,959 --> 00:12:25,750
+
+can um this is a
+
+566
+00:12:25,750 --> 00:12:25,760
+can um this is a
+ 
+
+567
+00:12:25,760 --> 00:12:27,430
+can um this is a
+[Music]
+
+568
+00:12:27,430 --> 00:12:27,440
+[Music]
+ 
+
+569
+00:12:27,440 --> 00:12:31,590
+[Music]
+r plus one c and this is our first one
+
+570
+00:12:31,590 --> 00:12:31,600
+r plus one c and this is our first one
+ 
+
+571
+00:12:31,600 --> 00:12:35,030
+r plus one c and this is our first one
+c uh
+
+572
+00:12:35,030 --> 00:12:35,040
+c uh
+ 
+
+573
+00:12:35,040 --> 00:12:41,750
+c uh
+you pick them
+
+574
+00:12:41,750 --> 00:12:41,760
+
+ 
+
+575
+00:12:41,760 --> 00:12:45,750
+
+is this one one yeah so basically look
+
+576
+00:12:45,750 --> 00:12:45,760
+is this one one yeah so basically look
+ 
+
+577
+00:12:45,760 --> 00:12:48,310
+is this one one yeah so basically look
+you want to find a minimum per sum yeah
+
+578
+00:12:48,310 --> 00:12:48,320
+you want to find a minimum per sum yeah
+ 
+
+579
+00:12:48,320 --> 00:12:49,110
+you want to find a minimum per sum yeah
+yeah
+
+580
+00:12:49,110 --> 00:12:49,120
+yeah
+ 
+
+581
+00:12:49,120 --> 00:12:51,190
+yeah
+person from the top to the bottom yeah
+
+582
+00:12:51,190 --> 00:12:51,200
+person from the top to the bottom yeah
+ 
+
+583
+00:12:51,200 --> 00:12:53,430
+person from the top to the bottom yeah
+yeah you see the same as from the bottom
+
+584
+00:12:53,430 --> 00:12:53,440
+yeah you see the same as from the bottom
+ 
+
+585
+00:12:53,440 --> 00:12:55,350
+yeah you see the same as from the bottom
+to the top
+
+586
+00:12:55,350 --> 00:12:55,360
+to the top
+ 
+
+587
+00:12:55,360 --> 00:12:58,150
+to the top
+right it's the same yeah you want to add
+
+588
+00:12:58,150 --> 00:12:58,160
+right it's the same yeah you want to add
+ 
+
+589
+00:12:58,160 --> 00:12:59,990
+right it's the same yeah you want to add
+a number find the minimum pass
+
+590
+00:12:59,990 --> 00:13:00,000
+a number find the minimum pass
+ 
+
+591
+00:13:00,000 --> 00:13:03,190
+a number find the minimum pass
+picking sign the medium plus sum from
+
+592
+00:13:03,190 --> 00:13:03,200
+picking sign the medium plus sum from
+ 
+
+593
+00:13:03,200 --> 00:13:05,110
+picking sign the medium plus sum from
+top to the bottom is the same as from
+
+594
+00:13:05,110 --> 00:13:05,120
+top to the bottom is the same as from
+ 
+
+595
+00:13:05,120 --> 00:13:08,230
+top to the bottom is the same as from
+water to the pub yeah it's like eric is
+
+596
+00:13:08,230 --> 00:13:08,240
+water to the pub yeah it's like eric is
+ 
+
+597
+00:13:08,240 --> 00:13:08,710
+water to the pub yeah it's like eric is
+here
+
+598
+00:13:08,710 --> 00:13:08,720
+here
+ 
+
+599
+00:13:08,720 --> 00:13:10,790
+here
+ryan can pick here or here you can start
+
+600
+00:13:10,790 --> 00:13:10,800
+ryan can pick here or here you can start
+ 
+
+601
+00:13:10,800 --> 00:13:12,870
+ryan can pick here or here you can start
+with any position at the last row yeah
+
+602
+00:13:12,870 --> 00:13:12,880
+with any position at the last row yeah
+ 
+
+603
+00:13:12,880 --> 00:13:15,670
+with any position at the last row yeah
+and you can climb it up yeah look you
+
+604
+00:13:15,670 --> 00:13:15,680
+and you can climb it up yeah look you
+ 
+
+605
+00:13:15,680 --> 00:13:16,470
+and you can climb it up yeah look you
+are here
+
+606
+00:13:16,470 --> 00:13:16,480
+are here
+ 
+
+607
+00:13:16,480 --> 00:13:18,790
+are here
+you can come here and then you can climb
+
+608
+00:13:18,790 --> 00:13:18,800
+you can come here and then you can climb
+ 
+
+609
+00:13:18,800 --> 00:13:20,870
+you can come here and then you can climb
+here when you climb here you you have
+
+610
+00:13:20,870 --> 00:13:20,880
+here when you climb here you you have
+ 
+
+611
+00:13:20,880 --> 00:13:22,629
+here when you climb here you you have
+four plus two which is six
+
+612
+00:13:22,629 --> 00:13:22,639
+four plus two which is six
+ 
+
+613
+00:13:22,639 --> 00:13:24,230
+four plus two which is six
+when you come here you have four plus
+
+614
+00:13:24,230 --> 00:13:24,240
+when you come here you have four plus
+ 
+
+615
+00:13:24,240 --> 00:13:26,069
+when you come here you have four plus
+five is it's nine
+
+616
+00:13:26,069 --> 00:13:26,079
+five is it's nine
+ 
+
+617
+00:13:26,079 --> 00:13:28,710
+five is it's nine
+right yeah so here when at this point
+
+618
+00:13:28,710 --> 00:13:28,720
+right yeah so here when at this point
+ 
+
+619
+00:13:28,720 --> 00:13:29,670
+right yeah so here when at this point
+you will be nine
+
+620
+00:13:29,670 --> 00:13:29,680
+you will be nine
+ 
+
+621
+00:13:29,680 --> 00:13:31,430
+you will be nine
+here and then you'll be six here and
+
+622
+00:13:31,430 --> 00:13:31,440
+here and then you'll be six here and
+ 
+
+623
+00:13:31,440 --> 00:13:34,550
+here and then you'll be six here and
+then here you can say
+
+624
+00:13:34,550 --> 00:13:34,560
+then here you can say
+ 
+
+625
+00:13:34,560 --> 00:13:36,629
+then here you can say
+but but look six this is six but here
+
+626
+00:13:36,629 --> 00:13:36,639
+but but look six this is six but here
+ 
+
+627
+00:13:36,639 --> 00:13:37,590
+but but look six this is six but here
+look three plus
+
+628
+00:13:37,590 --> 00:13:37,600
+look three plus
+ 
+
+629
+00:13:37,600 --> 00:13:40,069
+look three plus
+two is five it's well if you want to
+
+630
+00:13:40,069 --> 00:13:40,079
+two is five it's well if you want to
+ 
+
+631
+00:13:40,079 --> 00:13:41,110
+two is five it's well if you want to
+reach this point
+
+632
+00:13:41,110 --> 00:13:41,120
+reach this point
+ 
+
+633
+00:13:41,120 --> 00:13:42,550
+reach this point
+it's better you pick this one because
+
+634
+00:13:42,550 --> 00:13:42,560
+it's better you pick this one because
+ 
+
+635
+00:13:42,560 --> 00:13:44,629
+it's better you pick this one because
+this is five right yeah
+
+636
+00:13:44,629 --> 00:13:44,639
+this is five right yeah
+ 
+
+637
+00:13:44,639 --> 00:13:46,790
+this is five right yeah
+two plus this is smaller so you put five
+
+638
+00:13:46,790 --> 00:13:46,800
+two plus this is smaller so you put five
+ 
+
+639
+00:13:46,800 --> 00:13:49,110
+two plus this is smaller so you put five
+right here so find a knife
+
+640
+00:13:49,110 --> 00:13:49,120
+right here so find a knife
+ 
+
+641
+00:13:49,120 --> 00:13:50,550
+right here so find a knife
+you want to climb to the top you pick
+
+642
+00:13:50,550 --> 00:13:50,560
+you want to climb to the top you pick
+ 
+
+643
+00:13:50,560 --> 00:13:52,550
+you want to climb to the top you pick
+which which way
+
+644
+00:13:52,550 --> 00:13:52,560
+which which way
+ 
+
+645
+00:13:52,560 --> 00:13:56,470
+which which way
+you pick which way when we were
+
+646
+00:13:56,470 --> 00:13:56,480
+you pick which way when we were
+ 
+
+647
+00:13:56,480 --> 00:13:58,470
+you pick which way when we were
+yeah this is fine this is nice you want
+
+648
+00:13:58,470 --> 00:13:58,480
+yeah this is fine this is nice you want
+ 
+
+649
+00:13:58,480 --> 00:13:59,590
+yeah this is fine this is nice you want
+to come up to the top
+
+650
+00:13:59,590 --> 00:13:59,600
+to come up to the top
+ 
+
+651
+00:13:59,600 --> 00:14:02,310
+to come up to the top
+which way you want to five five because
+
+652
+00:14:02,310 --> 00:14:02,320
+which way you want to five five because
+ 
+
+653
+00:14:02,320 --> 00:14:03,110
+which way you want to five five because
+yes overall
+
+654
+00:14:03,110 --> 00:14:03,120
+yes overall
+ 
+
+655
+00:14:03,120 --> 00:14:05,189
+yes overall
+five plus one is six and nine plus one
+
+656
+00:14:05,189 --> 00:14:05,199
+five plus one is six and nine plus one
+ 
+
+657
+00:14:05,199 --> 00:14:06,710
+five plus one is six and nine plus one
+is ten so you predict
+
+658
+00:14:06,710 --> 00:14:06,720
+is ten so you predict
+ 
+
+659
+00:14:06,720 --> 00:14:09,590
+is ten so you predict
+the optimum is one plus two plus three
+
+660
+00:14:09,590 --> 00:14:09,600
+the optimum is one plus two plus three
+ 
+
+661
+00:14:09,600 --> 00:14:11,509
+the optimum is one plus two plus three
+got it doesn't make sense
+
+662
+00:14:11,509 --> 00:14:11,519
+got it doesn't make sense
+ 
+
+663
+00:14:11,519 --> 00:14:13,030
+got it doesn't make sense
+why can't we do it because when you
+
+664
+00:14:13,030 --> 00:14:13,040
+why can't we do it because when you
+ 
+
+665
+00:14:13,040 --> 00:14:15,910
+why can't we do it because when you
+reach this point i don't care how many
+
+666
+00:14:15,910 --> 00:14:15,920
+reach this point i don't care how many
+ 
+
+667
+00:14:15,920 --> 00:14:17,990
+reach this point i don't care how many
+how many parts you reach this point i
+
+668
+00:14:17,990 --> 00:14:18,000
+how many parts you reach this point i
+ 
+
+669
+00:14:18,000 --> 00:14:19,670
+how many parts you reach this point i
+always pick the smallest
+
+670
+00:14:19,670 --> 00:14:19,680
+always pick the smallest
+ 
+
+671
+00:14:19,680 --> 00:14:22,629
+always pick the smallest
+so for the following any step for the
+
+672
+00:14:22,629 --> 00:14:22,639
+so for the following any step for the
+ 
+
+673
+00:14:22,639 --> 00:14:23,110
+so for the following any step for the
+one
+
+674
+00:14:23,110 --> 00:14:23,120
+one
+ 
+
+675
+00:14:23,120 --> 00:14:26,470
+one
+right it doesn't care how many ways you
+
+676
+00:14:26,470 --> 00:14:26,480
+right it doesn't care how many ways you
+ 
+
+677
+00:14:26,480 --> 00:14:26,870
+right it doesn't care how many ways you
+can
+
+678
+00:14:26,870 --> 00:14:26,880
+can
+ 
+
+679
+00:14:26,880 --> 00:14:29,750
+can
+you calculate before two you always the
+
+680
+00:14:29,750 --> 00:14:29,760
+you calculate before two you always the
+ 
+
+681
+00:14:29,760 --> 00:14:31,030
+you calculate before two you always the
+smallest which is
+
+682
+00:14:31,030 --> 00:14:31,040
+smallest which is
+ 
+
+683
+00:14:31,040 --> 00:14:34,150
+smallest which is
+which is five two plus three yeah got it
+
+684
+00:14:34,150 --> 00:14:34,160
+which is five two plus three yeah got it
+ 
+
+685
+00:14:34,160 --> 00:14:36,790
+which is five two plus three yeah got it
+doesn't make sense yeah okay so look
+
+686
+00:14:36,790 --> 00:14:36,800
+doesn't make sense yeah okay so look
+ 
+
+687
+00:14:36,800 --> 00:14:38,470
+doesn't make sense yeah okay so look
+this is the minimum function okay this
+
+688
+00:14:38,470 --> 00:14:38,480
+this is the minimum function okay this
+ 
+
+689
+00:14:38,480 --> 00:14:38,870
+this is the minimum function okay this
+is the
+
+690
+00:14:38,870 --> 00:14:38,880
+is the
+ 
+
+691
+00:14:38,880 --> 00:14:42,829
+is the
+dynamic transition function right got it
+
+692
+00:14:42,829 --> 00:14:42,839
+dynamic transition function right got it
+ 
+
+693
+00:14:42,839 --> 00:14:45,590
+dynamic transition function right got it
+okay
+
+694
+00:14:45,590 --> 00:14:45,600
+okay
+ 
+
+695
+00:14:45,600 --> 00:14:47,670
+okay
+let's do this away do this one more time
+
+696
+00:14:47,670 --> 00:14:47,680
+let's do this away do this one more time
+ 
+
+697
+00:14:47,680 --> 00:14:48,949
+let's do this away do this one more time
+so
+
+698
+00:14:48,949 --> 00:14:48,959
+so
+ 
+
+699
+00:14:48,959 --> 00:14:51,750
+so
+you know how we're doing it let me do
+
+700
+00:14:51,750 --> 00:14:51,760
+you know how we're doing it let me do
+ 
+
+701
+00:14:51,760 --> 00:14:52,150
+you know how we're doing it let me do
+one
+
+702
+00:14:52,150 --> 00:14:52,160
+one
+ 
+
+703
+00:14:52,160 --> 00:14:55,189
+one
+okay look all right look
+
+704
+00:14:55,189 --> 00:14:55,199
+okay look all right look
+ 
+
+705
+00:14:55,199 --> 00:14:57,350
+okay look all right look
+let's see let's go in from these the
+
+706
+00:14:57,350 --> 00:14:57,360
+let's see let's go in from these the
+ 
+
+707
+00:14:57,360 --> 00:14:59,590
+let's see let's go in from these the
+last row to the top row okay and we want
+
+708
+00:14:59,590 --> 00:14:59,600
+last row to the top row okay and we want
+ 
+
+709
+00:14:59,600 --> 00:15:00,550
+last row to the top row okay and we want
+to calculate
+
+710
+00:15:00,550 --> 00:15:00,560
+to calculate
+ 
+
+711
+00:15:00,560 --> 00:15:02,550
+to calculate
+the minimum what's the minimum what was
+
+712
+00:15:02,550 --> 00:15:02,560
+the minimum what's the minimum what was
+ 
+
+713
+00:15:02,560 --> 00:15:03,910
+the minimum what's the minimum what was
+number three which is
+
+714
+00:15:03,910 --> 00:15:03,920
+number three which is
+ 
+
+715
+00:15:03,920 --> 00:15:05,590
+number three which is
+nine yeah yeah you remember this and
+
+716
+00:15:05,590 --> 00:15:05,600
+nine yeah yeah you remember this and
+ 
+
+717
+00:15:05,600 --> 00:15:08,310
+nine yeah yeah you remember this and
+that's how we get it okay
+
+718
+00:15:08,310 --> 00:15:08,320
+that's how we get it okay
+ 
+
+719
+00:15:08,320 --> 00:15:11,990
+that's how we get it okay
+four look here he's four yeah
+
+720
+00:15:11,990 --> 00:15:12,000
+four look here he's four yeah
+ 
+
+721
+00:15:12,000 --> 00:15:15,590
+four look here he's four yeah
+three and eight eleven which is smaller
+
+722
+00:15:15,590 --> 00:15:15,600
+three and eight eleven which is smaller
+ 
+
+723
+00:15:15,600 --> 00:15:18,710
+three and eight eleven which is smaller
+three three three plus four
+
+724
+00:15:18,710 --> 00:15:18,720
+three three three plus four
+ 
+
+725
+00:15:18,720 --> 00:15:22,069
+three three three plus four
+equals seven right seven
+
+726
+00:15:22,069 --> 00:15:22,079
+equals seven right seven
+ 
+
+727
+00:15:22,079 --> 00:15:25,110
+equals seven right seven
+here five and eight and ten which is
+
+728
+00:15:25,110 --> 00:15:25,120
+here five and eight and ten which is
+ 
+
+729
+00:15:25,120 --> 00:15:26,389
+here five and eight and ten which is
+smaller
+
+730
+00:15:26,389 --> 00:15:26,399
+smaller
+ 
+
+731
+00:15:26,399 --> 00:15:29,749
+smaller
+eight a plus five thirteen
+
+732
+00:15:29,749 --> 00:15:29,759
+eight a plus five thirteen
+ 
+
+733
+00:15:29,759 --> 00:15:33,749
+eight a plus five thirteen
+thirteen okay and here
+
+734
+00:15:33,749 --> 00:15:33,759
+
+ 
+
+735
+00:15:33,759 --> 00:15:35,990
+
+seven and thirteen which is smaller
+
+736
+00:15:35,990 --> 00:15:36,000
+seven and thirteen which is smaller
+ 
+
+737
+00:15:36,000 --> 00:15:36,790
+seven and thirteen which is smaller
+seven
+
+738
+00:15:36,790 --> 00:15:36,800
+seven
+ 
+
+739
+00:15:36,800 --> 00:15:39,990
+seven
+seven plus two nice so this is
+
+740
+00:15:39,990 --> 00:15:40,000
+seven plus two nice so this is
+ 
+
+741
+00:15:40,000 --> 00:15:42,710
+seven plus two nice so this is
+the optimum got it does it make sense
+
+742
+00:15:42,710 --> 00:15:42,720
+the optimum got it does it make sense
+ 
+
+743
+00:15:42,720 --> 00:15:43,030
+the optimum got it does it make sense
+yeah
+
+744
+00:15:43,030 --> 00:15:43,040
+yeah
+ 
+
+745
+00:15:43,040 --> 00:15:46,069
+yeah
+so for any large triangle i don't care i
+
+746
+00:15:46,069 --> 00:15:46,079
+so for any large triangle i don't care i
+ 
+
+747
+00:15:46,079 --> 00:15:47,030
+so for any large triangle i don't care i
+just do this
+
+748
+00:15:47,030 --> 00:15:47,040
+just do this
+ 
+
+749
+00:15:47,040 --> 00:15:49,509
+just do this
+from top to the top right because this
+
+750
+00:15:49,509 --> 00:15:49,519
+from top to the top right because this
+ 
+
+751
+00:15:49,519 --> 00:15:50,790
+from top to the top right because this
+is always
+
+752
+00:15:50,790 --> 00:15:50,800
+is always
+ 
+
+753
+00:15:50,800 --> 00:15:53,189
+is always
+satisfied this is always the dynamic
+
+754
+00:15:53,189 --> 00:15:53,199
+satisfied this is always the dynamic
+ 
+
+755
+00:15:53,199 --> 00:15:55,670
+satisfied this is always the dynamic
+programming translation function
+
+756
+00:15:55,670 --> 00:15:55,680
+programming translation function
+ 
+
+757
+00:15:55,680 --> 00:15:57,189
+programming translation function
+what's the advantage compared to the
+
+758
+00:15:57,189 --> 00:15:57,199
+what's the advantage compared to the
+ 
+
+759
+00:15:57,199 --> 00:16:00,389
+what's the advantage compared to the
+profiles look previously
+
+760
+00:16:00,389 --> 00:16:00,399
+profiles look previously
+ 
+
+761
+00:16:00,399 --> 00:16:03,590
+profiles look previously
+they might be a lot of paths coming
+
+762
+00:16:03,590 --> 00:16:03,600
+they might be a lot of paths coming
+ 
+
+763
+00:16:03,600 --> 00:16:04,550
+they might be a lot of paths coming
+through right
+
+764
+00:16:04,550 --> 00:16:04,560
+through right
+ 
+
+765
+00:16:04,560 --> 00:16:07,189
+through right
+duplicate path am right look look
+
+766
+00:16:07,189 --> 00:16:07,199
+duplicate path am right look look
+ 
+
+767
+00:16:07,199 --> 00:16:09,110
+duplicate path am right look look
+previously if you don't remember eric
+
+768
+00:16:09,110 --> 00:16:09,120
+previously if you don't remember eric
+ 
+
+769
+00:16:09,120 --> 00:16:09,509
+previously if you don't remember eric
+look
+
+770
+00:16:09,509 --> 00:16:09,519
+look
+ 
+
+771
+00:16:09,519 --> 00:16:12,150
+look
+if you if you don't remember the uh
+
+772
+00:16:12,150 --> 00:16:12,160
+if you if you don't remember the uh
+ 
+
+773
+00:16:12,160 --> 00:16:13,110
+if you if you don't remember the uh
+don't memorize
+
+774
+00:16:13,110 --> 00:16:13,120
+don't memorize
+ 
+
+775
+00:16:13,120 --> 00:16:15,910
+don't memorize
+the the past sum till this point and you
+
+776
+00:16:15,910 --> 00:16:15,920
+the the past sum till this point and you
+ 
+
+777
+00:16:15,920 --> 00:16:17,590
+the the past sum till this point and you
+may calculate
+
+778
+00:16:17,590 --> 00:16:17,600
+may calculate
+ 
+
+779
+00:16:17,600 --> 00:16:19,509
+may calculate
+again and again for example look you
+
+780
+00:16:19,509 --> 00:16:19,519
+again and again for example look you
+ 
+
+781
+00:16:19,519 --> 00:16:20,949
+again and again for example look you
+calculate here
+
+782
+00:16:20,949 --> 00:16:20,959
+calculate here
+ 
+
+783
+00:16:20,959 --> 00:16:23,670
+calculate here
+for example here is 10 right and then
+
+784
+00:16:23,670 --> 00:16:23,680
+for example here is 10 right and then
+ 
+
+785
+00:16:23,680 --> 00:16:25,189
+for example here is 10 right and then
+you want to calculate here you get the
+
+786
+00:16:25,189 --> 00:16:25,199
+you want to calculate here you get the
+ 
+
+787
+00:16:25,199 --> 00:16:26,629
+you want to calculate here you get the
+one and the two and the three and the
+
+788
+00:16:26,629 --> 00:16:26,639
+one and the two and the three and the
+ 
+
+789
+00:16:26,639 --> 00:16:27,269
+one and the two and the three and the
+four
+
+790
+00:16:27,269 --> 00:16:27,279
+four
+ 
+
+791
+00:16:27,279 --> 00:16:29,110
+four
+but again for each person you need to
+
+792
+00:16:29,110 --> 00:16:29,120
+but again for each person you need to
+ 
+
+793
+00:16:29,120 --> 00:16:31,030
+but again for each person you need to
+calculate this over and over and over
+
+794
+00:16:31,030 --> 00:16:31,040
+calculate this over and over and over
+ 
+
+795
+00:16:31,040 --> 00:16:31,509
+calculate this over and over and over
+again
+
+796
+00:16:31,509 --> 00:16:31,519
+again
+ 
+
+797
+00:16:31,519 --> 00:16:33,430
+again
+but for now i don't calculate over and
+
+798
+00:16:33,430 --> 00:16:33,440
+but for now i don't calculate over and
+ 
+
+799
+00:16:33,440 --> 00:16:35,110
+but for now i don't calculate over and
+over again i just save it in
+
+800
+00:16:35,110 --> 00:16:35,120
+over again i just save it in
+ 
+
+801
+00:16:35,120 --> 00:16:38,470
+over again i just save it in
+frc and i can just use pick the minimum
+
+802
+00:16:38,470 --> 00:16:38,480
+frc and i can just use pick the minimum
+ 
+
+803
+00:16:38,480 --> 00:16:41,670
+frc and i can just use pick the minimum
+right so it will be a lot faster right
+
+804
+00:16:41,670 --> 00:16:41,680
+right so it will be a lot faster right
+ 
+
+805
+00:16:41,680 --> 00:16:44,629
+right so it will be a lot faster right
+does it make sense because this part is
+
+806
+00:16:44,629 --> 00:16:44,639
+does it make sense because this part is
+ 
+
+807
+00:16:44,639 --> 00:16:45,509
+does it make sense because this part is
+fixed
+
+808
+00:16:45,509 --> 00:16:45,519
+fixed
+ 
+
+809
+00:16:45,519 --> 00:16:47,509
+fixed
+yeah once i kick your id i don't need to
+
+810
+00:16:47,509 --> 00:16:47,519
+yeah once i kick your id i don't need to
+ 
+
+811
+00:16:47,519 --> 00:16:48,829
+yeah once i kick your id i don't need to
+calculate again
+
+812
+00:16:48,829 --> 00:16:48,839
+calculate again
+ 
+
+813
+00:16:48,839 --> 00:16:51,590
+calculate again
+okay let me do one
+
+814
+00:16:51,590 --> 00:16:51,600
+okay let me do one
+ 
+
+815
+00:16:51,600 --> 00:16:55,080
+okay let me do one
+okay seven
+
+816
+00:16:55,080 --> 00:16:55,090
+okay seven
+ 
+
+817
+00:16:55,090 --> 00:16:57,749
+okay seven
+[Music]
+
+818
+00:16:57,749 --> 00:16:57,759
+[Music]
+ 
+
+819
+00:16:57,759 --> 00:17:01,670
+[Music]
+then you can ask ryan
+
+820
+00:17:01,670 --> 00:17:01,680
+
+ 
+
+821
+00:17:01,680 --> 00:17:06,950
+
+seven eight three okay
+
+822
+00:17:06,950 --> 00:17:06,960
+
+ 
+
+823
+00:17:06,960 --> 00:17:12,710
+
+[Music]
+
+824
+00:17:12,710 --> 00:17:12,720
+
+ 
+
+825
+00:17:12,720 --> 00:17:15,909
+
+one yeah
+
+826
+00:17:15,909 --> 00:17:15,919
+one yeah
+ 
+
+827
+00:17:15,919 --> 00:17:19,510
+one yeah
+okay um
+
+828
+00:17:19,510 --> 00:17:19,520
+okay um
+ 
+
+829
+00:17:19,520 --> 00:17:22,789
+okay um
+three six okay so look
+
+830
+00:17:22,789 --> 00:17:22,799
+three six okay so look
+ 
+
+831
+00:17:22,799 --> 00:17:26,309
+three six okay so look
+look look this one yeah
+
+832
+00:17:26,309 --> 00:17:26,319
+look look this one yeah
+ 
+
+833
+00:17:26,319 --> 00:17:29,990
+look look this one yeah
+one and three pick the smallest one yeah
+
+834
+00:17:29,990 --> 00:17:30,000
+one and three pick the smallest one yeah
+ 
+
+835
+00:17:30,000 --> 00:17:34,230
+one and three pick the smallest one yeah
+one plus eight nine i put a nine here
+
+836
+00:17:34,230 --> 00:17:34,240
+one plus eight nine i put a nine here
+ 
+
+837
+00:17:34,240 --> 00:17:35,909
+one plus eight nine i put a nine here
+three and six pick the smallest one
+
+838
+00:17:35,909 --> 00:17:35,919
+three and six pick the smallest one
+ 
+
+839
+00:17:35,919 --> 00:17:38,390
+three and six pick the smallest one
+three three minus three
+
+840
+00:17:38,390 --> 00:17:38,400
+three three minus three
+ 
+
+841
+00:17:38,400 --> 00:17:41,110
+three three minus three
+zero yeah zero and nine pick the
+
+842
+00:17:41,110 --> 00:17:41,120
+zero yeah zero and nine pick the
+ 
+
+843
+00:17:41,120 --> 00:17:41,830
+zero yeah zero and nine pick the
+smallest
+
+844
+00:17:41,830 --> 00:17:41,840
+smallest
+ 
+
+845
+00:17:41,840 --> 00:17:44,310
+smallest
+zero zero plus seven seven so if the
+
+846
+00:17:44,310 --> 00:17:44,320
+zero zero plus seven seven so if the
+ 
+
+847
+00:17:44,320 --> 00:17:45,590
+zero zero plus seven seven so if the
+number is fair
+
+848
+00:17:45,590 --> 00:17:45,600
+number is fair
+ 
+
+849
+00:17:45,600 --> 00:17:48,230
+number is fair
+yeah got it does it make sense yeah yeah
+
+850
+00:17:48,230 --> 00:17:48,240
+yeah got it does it make sense yeah yeah
+ 
+
+851
+00:17:48,240 --> 00:17:49,190
+yeah got it does it make sense yeah yeah
+okay so
+
+852
+00:17:49,190 --> 00:17:49,200
+okay so
+ 
+
+853
+00:17:49,200 --> 00:17:51,750
+okay so
+this is smaller maybe you can just try
+
+854
+00:17:51,750 --> 00:17:51,760
+this is smaller maybe you can just try
+ 
+
+855
+00:17:51,760 --> 00:17:53,830
+this is smaller maybe you can just try
+every positive part but if a
+
+856
+00:17:53,830 --> 00:17:53,840
+every positive part but if a
+ 
+
+857
+00:17:53,840 --> 00:17:56,230
+every positive part but if a
+triangle it has a half a thousand a
+
+858
+00:17:56,230 --> 00:17:56,240
+triangle it has a half a thousand a
+ 
+
+859
+00:17:56,240 --> 00:17:57,909
+triangle it has a half a thousand a
+million lines
+
+860
+00:17:57,909 --> 00:17:57,919
+million lines
+ 
+
+861
+00:17:57,919 --> 00:17:59,990
+million lines
+then it's not feasible right yeah you
+
+862
+00:17:59,990 --> 00:18:00,000
+then it's not feasible right yeah you
+ 
+
+863
+00:18:00,000 --> 00:18:01,590
+then it's not feasible right yeah you
+don't know which one but you can always
+
+864
+00:18:01,590 --> 00:18:01,600
+don't know which one but you can always
+ 
+
+865
+00:18:01,600 --> 00:18:02,789
+don't know which one but you can always
+try this strategy
+
+866
+00:18:02,789 --> 00:18:02,799
+try this strategy
+ 
+
+867
+00:18:02,799 --> 00:18:05,270
+try this strategy
+from the bottom line right and build
+
+868
+00:18:05,270 --> 00:18:05,280
+from the bottom line right and build
+ 
+
+869
+00:18:05,280 --> 00:18:06,070
+from the bottom line right and build
+this
+
+870
+00:18:06,070 --> 00:18:06,080
+this
+ 
+
+871
+00:18:06,080 --> 00:18:08,789
+this
+dynamic programming metric along to the
+
+872
+00:18:08,789 --> 00:18:08,799
+dynamic programming metric along to the
+ 
+
+873
+00:18:08,799 --> 00:18:09,110
+dynamic programming metric along to the
+top
+
+874
+00:18:09,110 --> 00:18:09,120
+top
+ 
+
+875
+00:18:09,120 --> 00:18:12,230
+top
+right correct yeah okay look this one
+
+876
+00:18:12,230 --> 00:18:12,240
+right correct yeah okay look this one
+ 
+
+877
+00:18:12,240 --> 00:18:13,669
+right correct yeah okay look this one
+how many dynamic programming are we
+
+878
+00:18:13,669 --> 00:18:13,679
+how many dynamic programming are we
+ 
+
+879
+00:18:13,679 --> 00:18:16,789
+how many dynamic programming are we
+talking about
+
+880
+00:18:16,789 --> 00:18:16,799
+
+ 
+
+881
+00:18:16,799 --> 00:18:19,270
+
+i asked this question though uh
+
+882
+00:18:19,270 --> 00:18:19,280
+i asked this question though uh
+ 
+
+883
+00:18:19,280 --> 00:18:19,909
+i asked this question though uh
+countdown
+
+884
+00:18:19,909 --> 00:18:19,919
+countdown
+ 
+
+885
+00:18:19,919 --> 00:18:23,510
+countdown
+wasn't enough yeah okay define let's try
+
+886
+00:18:23,510 --> 00:18:23,520
+wasn't enough yeah okay define let's try
+ 
+
+887
+00:18:23,520 --> 00:18:23,830
+wasn't enough yeah okay define let's try
+this
+
+888
+00:18:23,830 --> 00:18:23,840
+this
+ 
+
+889
+00:18:23,840 --> 00:18:29,830
+this
+f r c okay
+
+890
+00:18:29,830 --> 00:18:29,840
+f r c okay
+ 
+
+891
+00:18:29,840 --> 00:18:34,390
+f r c okay
+if okay let's say let's say
+
+892
+00:18:34,390 --> 00:18:34,400
+
+ 
+
+893
+00:18:34,400 --> 00:18:38,070
+
+if ah equal let's define a number
+
+894
+00:18:38,070 --> 00:18:38,080
+if ah equal let's define a number
+ 
+
+895
+00:18:38,080 --> 00:18:41,430
+if ah equal let's define a number
+define the mean mean cost
+
+896
+00:18:41,430 --> 00:18:41,440
+define the mean mean cost
+ 
+
+897
+00:18:41,440 --> 00:18:43,830
+define the mean mean cost
+okay mean cost mean per sum and mean
+
+898
+00:18:43,830 --> 00:18:43,840
+okay mean cost mean per sum and mean
+ 
+
+899
+00:18:43,840 --> 00:18:47,029
+okay mean cost mean per sum and mean
+plus sum
+
+900
+00:18:47,029 --> 00:18:47,039
+
+ 
+
+901
+00:18:47,039 --> 00:18:49,029
+
+and then we we are given a metric we
+
+902
+00:18:49,029 --> 00:18:49,039
+and then we we are given a metric we
+ 
+
+903
+00:18:49,039 --> 00:18:50,310
+and then we we are given a metric we
+which we have uh
+
+904
+00:18:50,310 --> 00:18:50,320
+which we have uh
+ 
+
+905
+00:18:50,320 --> 00:18:52,310
+which we have uh
+we will call it t okay triangle okay
+
+906
+00:18:52,310 --> 00:18:52,320
+we will call it t okay triangle okay
+ 
+
+907
+00:18:52,320 --> 00:18:53,590
+we will call it t okay triangle okay
+column all right
+
+908
+00:18:53,590 --> 00:18:53,600
+column all right
+ 
+
+909
+00:18:53,600 --> 00:18:57,029
+column all right
+if r equals the last length yeah the
+
+910
+00:18:57,029 --> 00:18:57,039
+if r equals the last length yeah the
+ 
+
+911
+00:18:57,039 --> 00:18:59,909
+if r equals the last length yeah the
+the last row which is length t right
+
+912
+00:18:59,909 --> 00:18:59,919
+the last row which is length t right
+ 
+
+913
+00:18:59,919 --> 00:19:01,590
+the last row which is length t right
+minus one yeah because it starts from
+
+914
+00:19:01,590 --> 00:19:01,600
+minus one yeah because it starts from
+ 
+
+915
+00:19:01,600 --> 00:19:02,870
+minus one yeah because it starts from
+zero okay
+
+916
+00:19:02,870 --> 00:19:02,880
+zero okay
+ 
+
+917
+00:19:02,880 --> 00:19:04,950
+zero okay
+yeah if it's the last row then what we
+
+918
+00:19:04,950 --> 00:19:04,960
+yeah if it's the last row then what we
+ 
+
+919
+00:19:04,960 --> 00:19:06,150
+yeah if it's the last row then what we
+took would it have
+
+920
+00:19:06,150 --> 00:19:06,160
+took would it have
+ 
+
+921
+00:19:06,160 --> 00:19:09,430
+took would it have
+if you only last longer will return if
+
+922
+00:19:09,430 --> 00:19:09,440
+if you only last longer will return if
+ 
+
+923
+00:19:09,440 --> 00:19:11,029
+if you only last longer will return if
+you are adding this triangle and the
+
+924
+00:19:11,029 --> 00:19:11,039
+you are adding this triangle and the
+ 
+
+925
+00:19:11,039 --> 00:19:13,350
+you are adding this triangle and the
+last row what should we return
+
+926
+00:19:13,350 --> 00:19:13,360
+last row what should we return
+ 
+
+927
+00:19:13,360 --> 00:19:17,110
+last row what should we return
+return r the value as
+
+928
+00:19:17,110 --> 00:19:17,120
+return r the value as
+ 
+
+929
+00:19:17,120 --> 00:19:20,390
+return r the value as
+here right yeah so it's t r
+
+930
+00:19:20,390 --> 00:19:20,400
+here right yeah so it's t r
+ 
+
+931
+00:19:20,400 --> 00:19:24,549
+here right yeah so it's t r
+c right yeah all right yeah otherwise
+
+932
+00:19:24,549 --> 00:19:24,559
+c right yeah all right yeah otherwise
+ 
+
+933
+00:19:24,559 --> 00:19:26,470
+c right yeah all right yeah otherwise
+i'll return one if it's not in the last
+
+934
+00:19:26,470 --> 00:19:26,480
+i'll return one if it's not in the last
+ 
+
+935
+00:19:26,480 --> 00:19:27,110
+i'll return one if it's not in the last
+row then
+
+936
+00:19:27,110 --> 00:19:27,120
+row then
+ 
+
+937
+00:19:27,120 --> 00:19:31,350
+row then
+we return what minimum of
+
+938
+00:19:31,350 --> 00:19:31,360
+we return what minimum of
+ 
+
+939
+00:19:31,360 --> 00:19:34,710
+we return what minimum of
+f f1 alright i just told you
+
+940
+00:19:34,710 --> 00:19:34,720
+f f1 alright i just told you
+ 
+
+941
+00:19:34,720 --> 00:19:40,840
+f f1 alright i just told you
+oh uh uh oh wait let
+
+942
+00:19:40,840 --> 00:19:40,850
+
+ 
+
+943
+00:19:40,850 --> 00:19:50,310
+
+[Music]
+
+944
+00:19:50,310 --> 00:19:50,320
+
+ 
+
+945
+00:19:50,320 --> 00:19:52,710
+
+in here you need to pick up value which
+
+946
+00:19:52,710 --> 00:19:52,720
+in here you need to pick up value which
+ 
+
+947
+00:19:52,720 --> 00:19:53,669
+in here you need to pick up value which
+is
+
+948
+00:19:53,669 --> 00:19:53,679
+is
+ 
+
+949
+00:19:53,679 --> 00:19:57,669
+is
+our trc yeah this is the value yeah
+
+950
+00:19:57,669 --> 00:19:57,679
+our trc yeah this is the value yeah
+ 
+
+951
+00:19:57,679 --> 00:20:00,870
+our trc yeah this is the value yeah
+all right yeah i'm okay what's missing
+
+952
+00:20:00,870 --> 00:20:00,880
+all right yeah i'm okay what's missing
+ 
+
+953
+00:20:00,880 --> 00:20:01,909
+all right yeah i'm okay what's missing
+here
+
+954
+00:20:01,909 --> 00:20:01,919
+here
+ 
+
+955
+00:20:01,919 --> 00:20:04,390
+here
+cash cash because if you're not doing
+
+956
+00:20:04,390 --> 00:20:04,400
+cash cash because if you're not doing
+ 
+
+957
+00:20:04,400 --> 00:20:05,350
+cash cash because if you're not doing
+the cash
+
+958
+00:20:05,350 --> 00:20:05,360
+the cash
+ 
+
+959
+00:20:05,360 --> 00:20:07,190
+the cash
+what happened if you're not putting this
+
+960
+00:20:07,190 --> 00:20:07,200
+what happened if you're not putting this
+ 
+
+961
+00:20:07,200 --> 00:20:08,870
+what happened if you're not putting this
+what happened we'll take
+
+962
+00:20:08,870 --> 00:20:08,880
+what happened we'll take
+ 
+
+963
+00:20:08,880 --> 00:20:10,470
+what happened we'll take
+that will be the blue force we just
+
+964
+00:20:10,470 --> 00:20:10,480
+that will be the blue force we just
+ 
+
+965
+00:20:10,480 --> 00:20:13,270
+that will be the blue force we just
+talked about right yeah that would be
+
+966
+00:20:13,270 --> 00:20:13,280
+talked about right yeah that would be
+ 
+
+967
+00:20:13,280 --> 00:20:15,350
+talked about right yeah that would be
+that for example now if you calculate
+
+968
+00:20:15,350 --> 00:20:15,360
+that for example now if you calculate
+ 
+
+969
+00:20:15,360 --> 00:20:17,270
+that for example now if you calculate
+something in
+
+970
+00:20:17,270 --> 00:20:17,280
+something in
+ 
+
+971
+00:20:17,280 --> 00:20:19,590
+something in
+r divided by 2c divided by two that will
+
+972
+00:20:19,590 --> 00:20:19,600
+r divided by 2c divided by two that will
+ 
+
+973
+00:20:19,600 --> 00:20:20,549
+r divided by 2c divided by two that will
+be
+
+974
+00:20:20,549 --> 00:20:20,559
+be
+ 
+
+975
+00:20:20,559 --> 00:20:23,430
+be
+maybe many many many times you want to
+
+976
+00:20:23,430 --> 00:20:23,440
+maybe many many many times you want to
+ 
+
+977
+00:20:23,440 --> 00:20:25,190
+maybe many many many times you want to
+calculate this function again and again
+
+978
+00:20:25,190 --> 00:20:25,200
+calculate this function again and again
+ 
+
+979
+00:20:25,200 --> 00:20:26,870
+calculate this function again and again
+again and again so now what's the time
+
+980
+00:20:26,870 --> 00:20:26,880
+again and again so now what's the time
+ 
+
+981
+00:20:26,880 --> 00:20:28,630
+again and again so now what's the time
+complexity if you
+
+982
+00:20:28,630 --> 00:20:28,640
+complexity if you
+ 
+
+983
+00:20:28,640 --> 00:20:30,710
+complexity if you
+if you add this cache what's the time
+
+984
+00:20:30,710 --> 00:20:30,720
+if you add this cache what's the time
+ 
+
+985
+00:20:30,720 --> 00:20:32,830
+if you add this cache what's the time
+complexity
+
+986
+00:20:32,830 --> 00:20:32,840
+complexity
+ 
+
+987
+00:20:32,840 --> 00:20:35,590
+complexity
+i quite fast
+
+988
+00:20:35,590 --> 00:20:35,600
+i quite fast
+ 
+
+989
+00:20:35,600 --> 00:20:38,470
+i quite fast
+oh what how many how many values are we
+
+990
+00:20:38,470 --> 00:20:38,480
+oh what how many how many values are we
+ 
+
+991
+00:20:38,480 --> 00:20:38,789
+oh what how many how many values are we
+need
+
+992
+00:20:38,789 --> 00:20:38,799
+need
+ 
+
+993
+00:20:38,799 --> 00:20:41,750
+need
+uh do we need to calculate the r and c
+
+994
+00:20:41,750 --> 00:20:41,760
+uh do we need to calculate the r and c
+ 
+
+995
+00:20:41,760 --> 00:20:42,149
+uh do we need to calculate the r and c
+ah
+
+996
+00:20:42,149 --> 00:20:42,159
+ah
+ 
+
+997
+00:20:42,159 --> 00:20:45,590
+ah
+time c or ltc i think probably
+
+998
+00:20:45,590 --> 00:20:45,600
+time c or ltc i think probably
+ 
+
+999
+00:20:45,600 --> 00:20:48,710
+time c or ltc i think probably
+not probably come on there are
+
+1000
+00:20:48,710 --> 00:20:48,720
+not probably come on there are
+ 
+
+1001
+00:20:48,720 --> 00:20:51,270
+not probably come on there are
+let's see how many what's that what's
+
+1002
+00:20:51,270 --> 00:20:51,280
+let's see how many what's that what's
+ 
+
+1003
+00:20:51,280 --> 00:20:53,750
+let's see how many what's that what's
+the area of this triangle if this is r
+
+1004
+00:20:53,750 --> 00:20:53,760
+the area of this triangle if this is r
+ 
+
+1005
+00:20:53,760 --> 00:20:54,710
+the area of this triangle if this is r
+this is c
+
+1006
+00:20:54,710 --> 00:20:54,720
+this is c
+ 
+
+1007
+00:20:54,720 --> 00:20:57,669
+this is c
+times no probability is times okay
+
+1008
+00:20:57,669 --> 00:20:57,679
+times no probability is times okay
+ 
+
+1009
+00:20:57,679 --> 00:20:58,710
+times no probability is times okay
+remember
+
+1010
+00:20:58,710 --> 00:20:58,720
+remember
+ 
+
+1011
+00:20:58,720 --> 00:21:01,590
+remember
+come on this is a this is a square r and
+
+1012
+00:21:01,590 --> 00:21:01,600
+come on this is a this is a square r and
+ 
+
+1013
+00:21:01,600 --> 00:21:03,909
+come on this is a this is a square r and
+c what's the area what's the area
+
+1014
+00:21:03,909 --> 00:21:03,919
+c what's the area what's the area
+ 
+
+1015
+00:21:03,919 --> 00:21:06,230
+c what's the area what's the area
+of the area yeah area what's right there
+
+1016
+00:21:06,230 --> 00:21:06,240
+of the area yeah area what's right there
+ 
+
+1017
+00:21:06,240 --> 00:21:08,470
+of the area yeah area what's right there
+area is the inside
+
+1018
+00:21:08,470 --> 00:21:08,480
+area is the inside
+ 
+
+1019
+00:21:08,480 --> 00:21:11,669
+area is the inside
+yeah how how many r times yeah
+
+1020
+00:21:11,669 --> 00:21:11,679
+yeah how how many r times yeah
+ 
+
+1021
+00:21:11,679 --> 00:21:15,350
+yeah how how many r times yeah
+yeah what's the triangle i can see
+
+1022
+00:21:15,350 --> 00:21:15,360
+yeah what's the triangle i can see
+ 
+
+1023
+00:21:15,360 --> 00:21:18,470
+yeah what's the triangle i can see
+divided by two right yeah because it's
+
+1024
+00:21:18,470 --> 00:21:18,480
+divided by two right yeah because it's
+ 
+
+1025
+00:21:18,480 --> 00:21:19,669
+divided by two right yeah because it's
+half of it right
+
+1026
+00:21:19,669 --> 00:21:19,679
+half of it right
+ 
+
+1027
+00:21:19,679 --> 00:21:21,270
+half of it right
+r times c and this is hard times two
+
+1028
+00:21:21,270 --> 00:21:21,280
+r times c and this is hard times two
+ 
+
+1029
+00:21:21,280 --> 00:21:23,190
+r times c and this is hard times two
+right about we drop a constant so it's r
+
+1030
+00:21:23,190 --> 00:21:23,200
+right about we drop a constant so it's r
+ 
+
+1031
+00:21:23,200 --> 00:21:24,230
+right about we drop a constant so it's r
+times c
+
+1032
+00:21:24,230 --> 00:21:24,240
+times c
+ 
+
+1033
+00:21:24,240 --> 00:21:25,990
+times c
+if we're not adding the cache what's the
+
+1034
+00:21:25,990 --> 00:21:26,000
+if we're not adding the cache what's the
+ 
+
+1035
+00:21:26,000 --> 00:21:32,870
+if we're not adding the cache what's the
+time complexity
+
+1036
+00:21:32,870 --> 00:21:32,880
+
+ 
+
+1037
+00:21:32,880 --> 00:21:35,270
+
+right yeah because each each row you
+
+1038
+00:21:35,270 --> 00:21:35,280
+right yeah because each each row you
+ 
+
+1039
+00:21:35,280 --> 00:21:35,990
+right yeah because each each row you
+have a
+
+1040
+00:21:35,990 --> 00:21:36,000
+have a
+ 
+
+1041
+00:21:36,000 --> 00:21:40,390
+have a
+waffle here yeah exponential am right if
+
+1042
+00:21:40,390 --> 00:21:40,400
+waffle here yeah exponential am right if
+ 
+
+1043
+00:21:40,400 --> 00:21:44,070
+waffle here yeah exponential am right if
+if i and c equal if i equals c right
+
+1044
+00:21:44,070 --> 00:21:44,080
+if i and c equal if i equals c right
+ 
+
+1045
+00:21:44,080 --> 00:21:48,710
+if i and c equal if i equals c right
+what i think you could see yeah okay
+
+1046
+00:21:48,710 --> 00:21:48,720
+what i think you could see yeah okay
+ 
+
+1047
+00:21:48,720 --> 00:21:52,870
+what i think you could see yeah okay
+so now what's the another
+
+1048
+00:21:52,870 --> 00:21:52,880
+so now what's the another
+ 
+
+1049
+00:21:52,880 --> 00:21:56,390
+so now what's the another
+approach we're talking about
+
+1050
+00:21:56,390 --> 00:21:56,400
+
+ 
+
+1051
+00:21:56,400 --> 00:22:02,230
+
+yeah so
+
+1052
+00:22:02,230 --> 00:22:02,240
+
+ 
+
+1053
+00:22:02,240 --> 00:22:04,549
+
+so i think the top down is easier to
+
+1054
+00:22:04,549 --> 00:22:04,559
+so i think the top down is easier to
+ 
+
+1055
+00:22:04,559 --> 00:22:06,149
+so i think the top down is easier to
+implement i'm right
+
+1056
+00:22:06,149 --> 00:22:06,159
+implement i'm right
+ 
+
+1057
+00:22:06,159 --> 00:22:08,549
+implement i'm right
+am right yeah because top down we can
+
+1058
+00:22:08,549 --> 00:22:08,559
+am right yeah because top down we can
+ 
+
+1059
+00:22:08,559 --> 00:22:11,029
+am right yeah because top down we can
+usually implement it using recursion
+
+1060
+00:22:11,029 --> 00:22:11,039
+usually implement it using recursion
+ 
+
+1061
+00:22:11,039 --> 00:22:14,310
+usually implement it using recursion
+recursion with what top down
+
+1062
+00:22:14,310 --> 00:22:14,320
+recursion with what top down
+ 
+
+1063
+00:22:14,320 --> 00:22:16,470
+recursion with what top down
+minimization minimization with the
+
+1064
+00:22:16,470 --> 00:22:16,480
+minimization minimization with the
+ 
+
+1065
+00:22:16,480 --> 00:22:19,750
+minimization minimization with the
+notebook to remember it right
+
+1066
+00:22:19,750 --> 00:22:19,760
+notebook to remember it right
+ 
+
+1067
+00:22:19,760 --> 00:22:22,950
+notebook to remember it right
+define uh let's just say mean no no no
+
+1068
+00:22:22,950 --> 00:22:22,960
+define uh let's just say mean no no no
+ 
+
+1069
+00:22:22,960 --> 00:22:30,190
+define uh let's just say mean no no no
+mean past some
+
+1070
+00:22:30,190 --> 00:22:30,200
+
+ 
+
+1071
+00:22:30,200 --> 00:22:38,310
+
+[Music]
+
+1072
+00:22:38,310 --> 00:22:38,320
+
+ 
+
+1073
+00:22:38,320 --> 00:22:41,830
+
+right okay so look let's let's
+
+1074
+00:22:41,830 --> 00:22:41,840
+right okay so look let's let's
+ 
+
+1075
+00:22:41,840 --> 00:22:45,350
+right okay so look let's let's
+define uh we can we can we can
+
+1076
+00:22:45,350 --> 00:22:45,360
+define uh we can we can we can
+ 
+
+1077
+00:22:45,360 --> 00:22:47,350
+define uh we can we can we can
+put a value updated value in a triangle
+
+1078
+00:22:47,350 --> 00:22:47,360
+put a value updated value in a triangle
+ 
+
+1079
+00:22:47,360 --> 00:22:49,190
+put a value updated value in a triangle
+so let's do for
+
+1080
+00:22:49,190 --> 00:22:49,200
+so let's do for
+ 
+
+1081
+00:22:49,200 --> 00:22:53,590
+so let's do for
+row in range we want to start with the
+
+1082
+00:22:53,590 --> 00:22:53,600
+row in range we want to start with the
+ 
+
+1083
+00:22:53,600 --> 00:22:56,149
+row in range we want to start with the
+second to last row right all right all
+
+1084
+00:22:56,149 --> 00:22:56,159
+second to last row right all right all
+ 
+
+1085
+00:22:56,159 --> 00:22:56,710
+second to last row right all right all
+right
+
+1086
+00:22:56,710 --> 00:22:56,720
+right
+ 
+
+1087
+00:22:56,720 --> 00:22:59,350
+right
+so it's rows the second row is the last
+
+1088
+00:22:59,350 --> 00:22:59,360
+so it's rows the second row is the last
+ 
+
+1089
+00:22:59,360 --> 00:23:01,669
+so it's rows the second row is the last
+row is rows minus one right
+
+1090
+00:23:01,669 --> 00:23:01,679
+row is rows minus one right
+ 
+
+1091
+00:23:01,679 --> 00:23:06,430
+row is rows minus one right
+the second to the last row is rows one
+
+1092
+00:23:06,430 --> 00:23:06,440
+
+ 
+
+1093
+00:23:06,440 --> 00:23:09,430
+
+second is raised at
+
+1094
+00:23:09,430 --> 00:23:09,440
+second is raised at
+ 
+
+1095
+00:23:09,440 --> 00:23:13,190
+second is raised at
+nine minus what
+
+1096
+00:23:13,190 --> 00:23:13,200
+nine minus what
+ 
+
+1097
+00:23:13,200 --> 00:23:16,549
+nine minus what
+-1 is the second last row minus what is
+
+1098
+00:23:16,549 --> 00:23:16,559
+-1 is the second last row minus what is
+ 
+
+1099
+00:23:16,559 --> 00:23:17,190
+-1 is the second last row minus what is
+the second
+
+1100
+00:23:17,190 --> 00:23:17,200
+the second
+ 
+
+1101
+00:23:17,200 --> 00:23:20,950
+the second
+last row minus
+
+1102
+00:23:20,950 --> 00:23:20,960
+last row minus
+ 
+
+1103
+00:23:20,960 --> 00:23:23,990
+last row minus
+come on this is rose minus one so what's
+
+1104
+00:23:23,990 --> 00:23:24,000
+come on this is rose minus one so what's
+ 
+
+1105
+00:23:24,000 --> 00:23:24,870
+come on this is rose minus one so what's
+this
+
+1106
+00:23:24,870 --> 00:23:24,880
+this
+ 
+
+1107
+00:23:24,880 --> 00:23:28,149
+this
+rose one minus two yes come on
+
+1108
+00:23:28,149 --> 00:23:28,159
+rose one minus two yes come on
+ 
+
+1109
+00:23:28,159 --> 00:23:30,630
+rose one minus two yes come on
+what's what's the and what's the top one
+
+1110
+00:23:30,630 --> 00:23:30,640
+what's what's the and what's the top one
+ 
+
+1111
+00:23:30,640 --> 00:23:31,830
+what's what's the and what's the top one
+is yellow right
+
+1112
+00:23:31,830 --> 00:23:31,840
+is yellow right
+ 
+
+1113
+00:23:31,840 --> 00:23:33,990
+is yellow right
+so about we have to fit it is minus one
+
+1114
+00:23:33,990 --> 00:23:34,000
+so about we have to fit it is minus one
+ 
+
+1115
+00:23:34,000 --> 00:23:34,950
+so about we have to fit it is minus one
+because it's the
+
+1116
+00:23:34,950 --> 00:23:34,960
+because it's the
+ 
+
+1117
+00:23:34,960 --> 00:23:36,789
+because it's the
+up two right remember this range
+
+1118
+00:23:36,789 --> 00:23:36,799
+up two right remember this range
+ 
+
+1119
+00:23:36,799 --> 00:23:39,669
+up two right remember this range
+function yeah when you pull the range
+
+1120
+00:23:39,669 --> 00:23:39,679
+function yeah when you pull the range
+ 
+
+1121
+00:23:39,679 --> 00:23:41,750
+function yeah when you pull the range
+range three five what happened all right
+
+1122
+00:23:41,750 --> 00:23:41,760
+range three five what happened all right
+ 
+
+1123
+00:23:41,760 --> 00:23:43,590
+range three five what happened all right
+range three five how many numbers are in
+
+1124
+00:23:43,590 --> 00:23:43,600
+range three five how many numbers are in
+ 
+
+1125
+00:23:43,600 --> 00:23:45,190
+range three five how many numbers are in
+there
+
+1126
+00:23:45,190 --> 00:23:45,200
+there
+ 
+
+1127
+00:23:45,200 --> 00:23:53,830
+there
+oh fifteen no no no stop
+
+1128
+00:23:53,830 --> 00:23:53,840
+
+ 
+
+1129
+00:23:53,840 --> 00:23:56,070
+
+yeah so it's three and four but not not
+
+1130
+00:23:56,070 --> 00:23:56,080
+yeah so it's three and four but not not
+ 
+
+1131
+00:23:56,080 --> 00:23:57,110
+yeah so it's three and four but not not
+including five right
+
+1132
+00:23:57,110 --> 00:23:57,120
+including five right
+ 
+
+1133
+00:23:57,120 --> 00:23:59,830
+including five right
+yeah but you can do this negative so
+
+1134
+00:23:59,830 --> 00:23:59,840
+yeah but you can do this negative so
+ 
+
+1135
+00:23:59,840 --> 00:24:01,110
+yeah but you can do this negative so
+it's three
+
+1136
+00:24:01,110 --> 00:24:01,120
+it's three
+ 
+
+1137
+00:24:01,120 --> 00:24:04,390
+it's three
+minus one minus one
+
+1138
+00:24:04,390 --> 00:24:04,400
+minus one minus one
+ 
+
+1139
+00:24:04,400 --> 00:24:08,070
+minus one minus one
+range this is step so
+
+1140
+00:24:08,070 --> 00:24:08,080
+range this is step so
+ 
+
+1141
+00:24:08,080 --> 00:24:11,430
+range this is step so
+so what's this range
+
+1142
+00:24:11,430 --> 00:24:11,440
+so what's this range
+ 
+
+1143
+00:24:11,440 --> 00:24:14,549
+so what's this range
+so what what's the value range what we
+
+1144
+00:24:14,549 --> 00:24:14,559
+so what what's the value range what we
+ 
+
+1145
+00:24:14,559 --> 00:24:19,029
+so what what's the value range what we
+get three and then what's next
+
+1146
+00:24:19,029 --> 00:24:19,039
+get three and then what's next
+ 
+
+1147
+00:24:19,039 --> 00:24:22,250
+get three and then what's next
+sorry
+
+1148
+00:24:22,250 --> 00:24:22,260
+
+ 
+
+1149
+00:24:22,260 --> 00:24:23,669
+
+[Music]
+
+1150
+00:24:23,669 --> 00:24:23,679
+[Music]
+ 
+
+1151
+00:24:23,679 --> 00:24:27,750
+[Music]
+minus minus one three minus one is one
+
+1152
+00:24:27,750 --> 00:24:27,760
+minus minus one three minus one is one
+ 
+
+1153
+00:24:27,760 --> 00:24:30,830
+minus minus one three minus one is one
+two and then what's next one and what's
+
+1154
+00:24:30,830 --> 00:24:30,840
+two and then what's next one and what's
+ 
+
+1155
+00:24:30,840 --> 00:24:32,789
+two and then what's next one and what's
+next
+
+1156
+00:24:32,789 --> 00:24:32,799
+next
+ 
+
+1157
+00:24:32,799 --> 00:24:36,470
+next
+0 and what's next minus 1
+
+1158
+00:24:36,470 --> 00:24:36,480
+0 and what's next minus 1
+ 
+
+1159
+00:24:36,480 --> 00:24:38,390
+0 and what's next minus 1
+but not including minus 1 right this is
+
+1160
+00:24:38,390 --> 00:24:38,400
+but not including minus 1 right this is
+ 
+
+1161
+00:24:38,400 --> 00:24:39,830
+but not including minus 1 right this is
+always the value
+
+1162
+00:24:39,830 --> 00:24:39,840
+always the value
+ 
+
+1163
+00:24:39,840 --> 00:24:43,350
+always the value
+before this right so 3 minus 1 minus 1
+
+1164
+00:24:43,350 --> 00:24:43,360
+before this right so 3 minus 1 minus 1
+ 
+
+1165
+00:24:43,360 --> 00:24:45,110
+before this right so 3 minus 1 minus 1
+is actually 4 values 3 2
+
+1166
+00:24:45,110 --> 00:24:45,120
+is actually 4 values 3 2
+ 
+
+1167
+00:24:45,120 --> 00:24:48,230
+is actually 4 values 3 2
+zero doesn't make sense five
+
+1168
+00:24:48,230 --> 00:24:48,240
+zero doesn't make sense five
+ 
+
+1169
+00:24:48,240 --> 00:24:51,510
+zero doesn't make sense five
+eight what's the value five
+
+1170
+00:24:51,510 --> 00:24:51,520
+eight what's the value five
+ 
+
+1171
+00:24:51,520 --> 00:24:53,510
+eight what's the value five
+six seven yeah we're done okay another
+
+1172
+00:24:53,510 --> 00:24:53,520
+six seven yeah we're done okay another
+ 
+
+1173
+00:24:53,520 --> 00:24:55,669
+six seven yeah we're done okay another
+one five eight
+
+1174
+00:24:55,669 --> 00:24:55,679
+one five eight
+ 
+
+1175
+00:24:55,679 --> 00:24:59,430
+one five eight
+five minus one what's the value
+
+1176
+00:24:59,430 --> 00:24:59,440
+five minus one what's the value
+ 
+
+1177
+00:24:59,440 --> 00:25:02,789
+five minus one what's the value
+is minus one step yeah yeah yes ten so
+
+1178
+00:25:02,789 --> 00:25:02,799
+is minus one step yeah yeah yes ten so
+ 
+
+1179
+00:25:02,799 --> 00:25:04,950
+is minus one step yeah yeah yes ten so
+what's the value
+
+1180
+00:25:04,950 --> 00:25:04,960
+what's the value
+ 
+
+1181
+00:25:04,960 --> 00:25:09,029
+what's the value
+eight seven six yeah not five yeah well
+
+1182
+00:25:09,029 --> 00:25:09,039
+eight seven six yeah not five yeah well
+ 
+
+1183
+00:25:09,039 --> 00:25:10,070
+eight seven six yeah not five yeah well
+done good job
+
+1184
+00:25:10,070 --> 00:25:10,080
+done good job
+ 
+
+1185
+00:25:10,080 --> 00:25:13,590
+done good job
+so look so next rows minus two minus one
+
+1186
+00:25:13,590 --> 00:25:13,600
+so look so next rows minus two minus one
+ 
+
+1187
+00:25:13,600 --> 00:25:15,110
+so look so next rows minus two minus one
+you will do it the last value will be
+
+1188
+00:25:15,110 --> 00:25:15,120
+you will do it the last value will be
+ 
+
+1189
+00:25:15,120 --> 00:25:16,549
+you will do it the last value will be
+one
+
+1190
+00:25:16,549 --> 00:25:16,559
+one
+ 
+
+1191
+00:25:16,559 --> 00:25:19,590
+one
+minus one the last value will be one
+
+1192
+00:25:19,590 --> 00:25:19,600
+minus one the last value will be one
+ 
+
+1193
+00:25:19,600 --> 00:25:23,190
+minus one the last value will be one
+minus t no no no minus zero minus zero
+
+1194
+00:25:23,190 --> 00:25:23,200
+minus t no no no minus zero minus zero
+ 
+
+1195
+00:25:23,200 --> 00:25:23,990
+minus t no no no minus zero minus zero
+is one
+
+1196
+00:25:23,990 --> 00:25:24,000
+is one
+ 
+
+1197
+00:25:24,000 --> 00:25:27,909
+is one
+zero yeah zero okay and for i in that
+
+1198
+00:25:27,909 --> 00:25:27,919
+zero yeah zero okay and for i in that
+ 
+
+1199
+00:25:27,919 --> 00:25:29,990
+zero yeah zero okay and for i in that
+and for
+
+1200
+00:25:29,990 --> 00:25:30,000
+and for
+ 
+
+1201
+00:25:30,000 --> 00:25:33,510
+and for
+c in range look
+
+1202
+00:25:33,510 --> 00:25:33,520
+c in range look
+ 
+
+1203
+00:25:33,520 --> 00:25:37,029
+c in range look
+the line will be length
+
+1204
+00:25:37,029 --> 00:25:37,039
+the line will be length
+ 
+
+1205
+00:25:37,039 --> 00:25:41,510
+the line will be length
+then uh t t r right because t
+
+1206
+00:25:41,510 --> 00:25:41,520
+then uh t t r right because t
+ 
+
+1207
+00:25:41,520 --> 00:25:46,070
+then uh t t r right because t
+this row right okay look
+
+1208
+00:25:46,070 --> 00:25:46,080
+
+ 
+
+1209
+00:25:46,080 --> 00:25:49,350
+
+t ah c
+
+1210
+00:25:49,350 --> 00:25:49,360
+t ah c
+ 
+
+1211
+00:25:49,360 --> 00:25:52,070
+t ah c
+equals what all right plc equals one
+
+1212
+00:25:52,070 --> 00:25:52,080
+equals what all right plc equals one
+ 
+
+1213
+00:25:52,080 --> 00:25:52,789
+equals what all right plc equals one
+mean one
+
+1214
+00:25:52,789 --> 00:25:52,799
+mean one
+ 
+
+1215
+00:25:52,799 --> 00:26:06,710
+mean one
+meanwhile right oh all right
+
+1216
+00:26:06,710 --> 00:26:06,720
+
+ 
+
+1217
+00:26:06,720 --> 00:26:17,490
+
+another one is t1 tr
+
+1218
+00:26:17,490 --> 00:26:17,500
+
+ 
+
+1219
+00:26:17,500 --> 00:26:19,110
+
+[Music]
+
+1220
+00:26:19,110 --> 00:26:19,120
+[Music]
+ 
+
+1221
+00:26:19,120 --> 00:26:21,590
+[Music]
+yeah so actually trc you can just add
+
+1222
+00:26:21,590 --> 00:26:21,600
+yeah so actually trc you can just add
+ 
+
+1223
+00:26:21,600 --> 00:26:23,029
+yeah so actually trc you can just add
+add equal right
+
+1224
+00:26:23,029 --> 00:26:23,039
+add equal right
+ 
+
+1225
+00:26:23,039 --> 00:26:26,789
+add equal right
+and add equal and equals please value
+
+1226
+00:26:26,789 --> 00:26:26,799
+and add equal and equals please value
+ 
+
+1227
+00:26:26,799 --> 00:26:27,590
+and add equal and equals please value
+right
+
+1228
+00:26:27,590 --> 00:26:27,600
+right
+ 
+
+1229
+00:26:27,600 --> 00:26:29,909
+right
+and then return which one written what
+
+1230
+00:26:29,909 --> 00:26:29,919
+and then return which one written what
+ 
+
+1231
+00:26:29,919 --> 00:26:31,510
+and then return which one written what
+value our we are looking for
+
+1232
+00:26:31,510 --> 00:26:31,520
+value our we are looking for
+ 
+
+1233
+00:26:31,520 --> 00:26:35,269
+value our we are looking for
+we can work with a minimum
+
+1234
+00:26:35,269 --> 00:26:35,279
+we can work with a minimum
+ 
+
+1235
+00:26:35,279 --> 00:26:42,310
+we can work with a minimum
+return which value is the minimum person
+
+1236
+00:26:42,310 --> 00:26:42,320
+
+ 
+
+1237
+00:26:42,320 --> 00:26:45,269
+
+we are calculating from here to here so
+
+1238
+00:26:45,269 --> 00:26:45,279
+we are calculating from here to here so
+ 
+
+1239
+00:26:45,279 --> 00:26:45,830
+we are calculating from here to here so
+what's the
+
+1240
+00:26:45,830 --> 00:26:45,840
+what's the
+ 
+
+1241
+00:26:45,840 --> 00:26:54,230
+what's the
+last value
+
+1242
+00:26:54,230 --> 00:26:54,240
+
+ 
+
+1243
+00:26:54,240 --> 00:26:58,789
+
+come on i just told you come on remember
+
+1244
+00:26:58,789 --> 00:26:58,799
+
+ 
+
+1245
+00:26:58,799 --> 00:27:02,549
+
+t 0 0 yeah yeah previously like
+
+1246
+00:27:02,549 --> 00:27:02,559
+t 0 0 yeah yeah previously like
+ 
+
+1247
+00:27:02,559 --> 00:27:05,430
+t 0 0 yeah yeah previously like
+remember the f function rc right so
+
+1248
+00:27:05,430 --> 00:27:05,440
+remember the f function rc right so
+ 
+
+1249
+00:27:05,440 --> 00:27:06,549
+remember the f function rc right so
+what's the value
+
+1250
+00:27:06,549 --> 00:27:06,559
+what's the value
+ 
+
+1251
+00:27:06,559 --> 00:27:10,310
+what's the value
+is you need to return return f zero zero
+
+1252
+00:27:10,310 --> 00:27:10,320
+is you need to return return f zero zero
+ 
+
+1253
+00:27:10,320 --> 00:27:12,390
+is you need to return return f zero zero
+right
+
+1254
+00:27:12,390 --> 00:27:12,400
+right
+ 
+
+1255
+00:27:12,400 --> 00:27:15,590
+right
+when the top down the top down dynamic
+
+1256
+00:27:15,590 --> 00:27:15,600
+when the top down the top down dynamic
+ 
+
+1257
+00:27:15,600 --> 00:27:16,390
+when the top down the top down dynamic
+programming you
+
+1258
+00:27:16,390 --> 00:27:16,400
+programming you
+ 
+
+1259
+00:27:16,400 --> 00:27:18,789
+programming you
+you return f zero zero right but this
+
+1260
+00:27:18,789 --> 00:27:18,799
+you return f zero zero right but this
+ 
+
+1261
+00:27:18,799 --> 00:27:20,630
+you return f zero zero right but this
+one top out
+
+1262
+00:27:20,630 --> 00:27:20,640
+one top out
+ 
+
+1263
+00:27:20,640 --> 00:27:23,430
+one top out
+the final value is on the top come on
+
+1264
+00:27:23,430 --> 00:27:23,440
+the final value is on the top come on
+ 
+
+1265
+00:27:23,440 --> 00:27:24,389
+the final value is on the top come on
+does it make sense
+
+1266
+00:27:24,389 --> 00:27:24,399
+does it make sense
+ 
+
+1267
+00:27:24,399 --> 00:27:29,269
+does it make sense
+yeah okay now i'm going to
+
+1268
+00:27:29,269 --> 00:27:29,279
+yeah okay now i'm going to
+ 
+
+1269
+00:27:29,279 --> 00:27:33,110
+yeah okay now i'm going to
+erase it okay remember okay
+
+1270
+00:27:33,110 --> 00:27:33,120
+erase it okay remember okay
+ 
+
+1271
+00:27:33,120 --> 00:27:35,669
+erase it okay remember okay
+i'm going to erase all of it be here
+
+1272
+00:27:35,669 --> 00:27:35,679
+i'm going to erase all of it be here
+ 
+
+1273
+00:27:35,679 --> 00:27:37,269
+i'm going to erase all of it be here
+come on
+
+1274
+00:27:37,269 --> 00:27:37,279
+come on
+ 
+
+1275
+00:27:37,279 --> 00:27:40,070
+come on
+return t i i write this for you okay t
+
+1276
+00:27:40,070 --> 00:27:40,080
+return t i i write this for you okay t
+ 
+
+1277
+00:27:40,080 --> 00:27:40,470
+return t i i write this for you okay t
+zero
+
+1278
+00:27:40,470 --> 00:27:40,480
+zero
+ 
+
+1279
+00:27:40,480 --> 00:27:43,110
+zero
+zero i i didn't know the beginning what
+
+1280
+00:27:43,110 --> 00:27:43,120
+zero i i didn't know the beginning what
+ 
+
+1281
+00:27:43,120 --> 00:27:43,990
+zero i i didn't know the beginning what
+do you know
+
+1282
+00:27:43,990 --> 00:27:44,000
+do you know
+ 
+
+1283
+00:27:44,000 --> 00:27:55,190
+do you know
+p t r c okay okay
+
+1284
+00:27:55,190 --> 00:27:55,200
+
+ 
+
+1285
+00:27:55,200 --> 00:27:58,470
+
+trc we want to update the value in trc
+
+1286
+00:27:58,470 --> 00:27:58,480
+trc we want to update the value in trc
+ 
+
+1287
+00:27:58,480 --> 00:28:00,630
+trc we want to update the value in trc
+yeah so what does it equal you need to
+
+1288
+00:28:00,630 --> 00:28:00,640
+yeah so what does it equal you need to
+ 
+
+1289
+00:28:00,640 --> 00:28:01,830
+yeah so what does it equal you need to
+pick the value from the
+
+1290
+00:28:01,830 --> 00:28:01,840
+pick the value from the
+ 
+
+1291
+00:28:01,840 --> 00:28:05,430
+pick the value from the
+next row or equal to
+
+1292
+00:28:05,430 --> 00:28:05,440
+next row or equal to
+ 
+
+1293
+00:28:05,440 --> 00:28:08,549
+next row or equal to
+eight okay three yeah
+
+1294
+00:28:08,549 --> 00:28:08,559
+eight okay three yeah
+ 
+
+1295
+00:28:08,559 --> 00:28:13,110
+eight okay three yeah
+okay
+
+1296
+00:28:13,110 --> 00:28:13,120
+
+ 
+
+1297
+00:28:13,120 --> 00:28:17,669
+
+yeah keep going rc
+
+1298
+00:28:17,669 --> 00:28:17,679
+yeah keep going rc
+ 
+
+1299
+00:28:17,679 --> 00:28:19,590
+yeah keep going rc
+you want to pick the minimum right oh
+
+1300
+00:28:19,590 --> 00:28:19,600
+you want to pick the minimum right oh
+ 
+
+1301
+00:28:19,600 --> 00:28:21,350
+you want to pick the minimum right oh
+yeah i forgot min
+
+1302
+00:28:21,350 --> 00:28:21,360
+yeah i forgot min
+ 
+
+1303
+00:28:21,360 --> 00:28:24,950
+yeah i forgot min
+i forgot your l equal here
+
+1304
+00:28:24,950 --> 00:28:24,960
+i forgot your l equal here
+ 
+
+1305
+00:28:24,960 --> 00:28:26,389
+i forgot your l equal here
+because you want to pick the current
+
+1306
+00:28:26,389 --> 00:28:26,399
+because you want to pick the current
+ 
+
+1307
+00:28:26,399 --> 00:28:28,789
+because you want to pick the current
+value but also the minimum in the next
+
+1308
+00:28:28,789 --> 00:28:28,799
+value but also the minimum in the next
+ 
+
+1309
+00:28:28,799 --> 00:28:30,470
+value but also the minimum in the next
+row right
+
+1310
+00:28:30,470 --> 00:28:30,480
+row right
+ 
+
+1311
+00:28:30,480 --> 00:28:34,710
+row right
+mean in the bracket yes
+
+1312
+00:28:34,710 --> 00:28:34,720
+mean in the bracket yes
+ 
+
+1313
+00:28:34,720 --> 00:28:37,750
+mean in the bracket yes
+or no in the bracket mean you write it
+
+1314
+00:28:37,750 --> 00:28:37,760
+or no in the bracket mean you write it
+ 
+
+1315
+00:28:37,760 --> 00:28:42,149
+or no in the bracket mean you write it
+okay yeah
+
+1316
+00:28:42,149 --> 00:28:42,159
+
+ 
+
+1317
+00:28:42,159 --> 00:28:45,830
+
+okay bracket yeah now that bracket
+
+1318
+00:28:45,830 --> 00:28:45,840
+okay bracket yeah now that bracket
+ 
+
+1319
+00:28:45,840 --> 00:28:49,750
+okay bracket yeah now that bracket
+uh bracket parentheses
+
+1320
+00:28:49,750 --> 00:28:49,760
+uh bracket parentheses
+ 
+
+1321
+00:28:49,760 --> 00:28:53,190
+uh bracket parentheses
+yeah okay next value and the next
+
+1322
+00:28:53,190 --> 00:28:53,200
+yeah okay next value and the next
+ 
+
+1323
+00:28:53,200 --> 00:28:57,830
+yeah okay next value and the next
+next menu next value i guess it's key
+
+1324
+00:28:57,830 --> 00:28:57,840
+next menu next value i guess it's key
+ 
+
+1325
+00:28:57,840 --> 00:28:59,909
+next menu next value i guess it's key
+yeah
+
+1326
+00:28:59,909 --> 00:28:59,919
+yeah
+ 
+
+1327
+00:28:59,919 --> 00:29:04,549
+yeah
+t yeah keep going
+
+1328
+00:29:04,549 --> 00:29:04,559
+
+ 
+
+1329
+00:29:04,559 --> 00:29:07,350
+
+next row next is always use crack it
+
+1330
+00:29:07,350 --> 00:29:07,360
+next row next is always use crack it
+ 
+
+1331
+00:29:07,360 --> 00:29:08,149
+next row next is always use crack it
+bracket yeah
+
+1332
+00:29:08,149 --> 00:29:08,159
+bracket yeah
+ 
+
+1333
+00:29:08,159 --> 00:29:34,880
+bracket yeah
+back back yeah come on he is away
+
+1334
+00:29:34,880 --> 00:29:34,890
+
+ 
+
+1335
+00:29:34,890 --> 00:29:38,630
+
+[Music]
+
+1336
+00:29:38,630 --> 00:29:38,640
+
+ 
+
+1337
+00:29:38,640 --> 00:29:45,190
+
+you can write it here if you want
+
+1338
+00:29:45,190 --> 00:29:45,200
+
+ 
+
+1339
+00:29:45,200 --> 00:29:56,230
+
+no finish yet almost
+
+1340
+00:29:56,230 --> 00:29:56,240
+
+ 
+
+1341
+00:29:56,240 --> 00:29:58,950
+
+and then there's a bracket here okay you
+
+1342
+00:29:58,950 --> 00:29:58,960
+and then there's a bracket here okay you
+ 
+
+1343
+00:29:58,960 --> 00:29:59,510
+and then there's a bracket here okay you
+need to
+
+1344
+00:29:59,510 --> 00:29:59,520
+need to
+ 
+
+1345
+00:29:59,520 --> 00:30:01,750
+need to
+do it like that do it like that yeah
+
+1346
+00:30:01,750 --> 00:30:01,760
+do it like that do it like that yeah
+ 
+
+1347
+00:30:01,760 --> 00:30:02,870
+do it like that do it like that yeah
+yeah okay
+
+1348
+00:30:02,870 --> 00:30:02,880
+yeah okay
+ 
+
+1349
+00:30:02,880 --> 00:30:08,389
+yeah okay
+okay add as if you want to add trc yeah
+
+1350
+00:30:08,389 --> 00:30:08,399
+okay add as if you want to add trc yeah
+ 
+
+1351
+00:30:08,399 --> 00:30:12,389
+okay add as if you want to add trc yeah
+okay because trc you want to pick
+
+1352
+00:30:12,389 --> 00:30:12,399
+okay because trc you want to pick
+ 
+
+1353
+00:30:12,399 --> 00:30:13,669
+okay because trc you want to pick
+pick the value you want to keep the
+
+1354
+00:30:13,669 --> 00:30:13,679
+pick the value you want to keep the
+ 
+
+1355
+00:30:13,679 --> 00:30:16,149
+pick the value you want to keep the
+current value with the and then pick the
+
+1356
+00:30:16,149 --> 00:30:16,159
+current value with the and then pick the
+ 
+
+1357
+00:30:16,159 --> 00:30:18,710
+current value with the and then pick the
+minimum in the next two options right
+
+1358
+00:30:18,710 --> 00:30:18,720
+minimum in the next two options right
+ 
+
+1359
+00:30:18,720 --> 00:30:20,549
+minimum in the next two options right
+got it that doesn't make sense
+
+1360
+00:30:20,549 --> 00:30:20,559
+got it that doesn't make sense
+ 
+
+1361
+00:30:20,559 --> 00:30:23,669
+got it that doesn't make sense
+yeah okay good that's it okay say bye
+
+1362
+00:30:23,669 --> 00:30:23,679
+yeah okay good that's it okay say bye
+ 
+
+1363
+00:30:23,679 --> 00:30:25,590
+yeah okay good that's it okay say bye
+bye to people and see you tomorrow
+
+1364
+00:30:25,590 --> 00:30:25,600
+bye to people and see you tomorrow
+ 
+
+1365
+00:30:25,600 --> 00:30:28,950
+bye to people and see you tomorrow
+bye bye
+
+1366
+00:30:28,950 --> 00:30:28,960
+bye bye
+ 
+
+1367
+00:30:28,960 --> 00:30:33,269
+bye bye
+mr banana ball okay
+
+1368
+00:30:33,269 --> 00:30:33,279
+mr banana ball okay
+ 
+
+1369
+00:30:33,279 --> 00:30:36,160
+mr banana ball okay
+okay that's it see you bye
+
+1370
+00:30:36,160 --> 00:30:36,170
+okay that's it see you bye
+ 
+
+1371
+00:30:36,170 --> 00:30:38,869
+okay that's it see you bye
+[Music]
+

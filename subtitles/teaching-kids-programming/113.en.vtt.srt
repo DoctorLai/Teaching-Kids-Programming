@@ -1,0 +1,6675 @@
+1
+00:00:00,160 --> 00:00:03,990
+
+hey hello mr mr ryan how are you today
+
+2
+00:00:03,990 --> 00:00:04,000
+hey hello mr mr ryan how are you today
+ 
+
+3
+00:00:04,000 --> 00:00:07,670
+hey hello mr mr ryan how are you today
+good good uh it's friday okay
+
+4
+00:00:07,670 --> 00:00:07,680
+good good uh it's friday okay
+ 
+
+5
+00:00:07,680 --> 00:00:10,950
+good good uh it's friday okay
+okay let's do it so
+
+6
+00:00:10,950 --> 00:00:10,960
+okay let's do it so
+ 
+
+7
+00:00:10,960 --> 00:00:13,749
+okay let's do it so
+today we're going to count the numbers
+
+8
+00:00:13,749 --> 00:00:13,759
+today we're going to count the numbers
+ 
+
+9
+00:00:13,759 --> 00:00:16,870
+today we're going to count the numbers
+with unique digits so what are the
+
+10
+00:00:16,870 --> 00:00:16,880
+with unique digits so what are the
+ 
+
+11
+00:00:16,880 --> 00:00:17,830
+with unique digits so what are the
+numbers we
+
+12
+00:00:17,830 --> 00:00:17,840
+numbers we
+ 
+
+13
+00:00:17,840 --> 00:00:21,189
+numbers we
+unique digits like one two three this is
+
+14
+00:00:21,189 --> 00:00:21,199
+unique digits like one two three this is
+ 
+
+15
+00:00:21,199 --> 00:00:22,390
+unique digits like one two three this is
+unique difference
+
+16
+00:00:22,390 --> 00:00:22,400
+unique difference
+ 
+
+17
+00:00:22,400 --> 00:00:24,790
+unique difference
+but one two two this is not unity
+
+18
+00:00:24,790 --> 00:00:24,800
+but one two two this is not unity
+ 
+
+19
+00:00:24,800 --> 00:00:25,830
+but one two two this is not unity
+because two
+
+20
+00:00:25,830 --> 00:00:25,840
+because two
+ 
+
+21
+00:00:25,840 --> 00:00:28,870
+because two
+appears twice twice how about appear
+
+22
+00:00:28,870 --> 00:00:28,880
+appears twice twice how about appear
+ 
+
+23
+00:00:28,880 --> 00:00:30,470
+appears twice twice how about appear
+three times it's
+
+24
+00:00:30,470 --> 00:00:30,480
+three times it's
+ 
+
+25
+00:00:30,480 --> 00:00:32,950
+three times it's
+any any if it appears more than one
+
+26
+00:00:32,950 --> 00:00:32,960
+any any if it appears more than one
+ 
+
+27
+00:00:32,960 --> 00:00:33,510
+any any if it appears more than one
+times
+
+28
+00:00:33,510 --> 00:00:33,520
+times
+ 
+
+29
+00:00:33,520 --> 00:00:37,350
+times
+it's not unit digit okay so given a
+
+30
+00:00:37,350 --> 00:00:37,360
+it's not unit digit okay so given a
+ 
+
+31
+00:00:37,360 --> 00:00:38,310
+it's not unit digit okay so given a
+number
+
+32
+00:00:38,310 --> 00:00:38,320
+number
+ 
+
+33
+00:00:38,320 --> 00:00:42,549
+number
+and we want to count how many
+
+34
+00:00:42,549 --> 00:00:42,559
+and we want to count how many
+ 
+
+35
+00:00:42,559 --> 00:00:45,190
+and we want to count how many
+numbers with unique digit between the
+
+36
+00:00:45,190 --> 00:00:45,200
+numbers with unique digit between the
+ 
+
+37
+00:00:45,200 --> 00:00:46,790
+numbers with unique digit between the
+range
+
+38
+00:00:46,790 --> 00:00:46,800
+range
+ 
+
+39
+00:00:46,800 --> 00:00:49,670
+range
+okay suppose this is x between the range
+
+40
+00:00:49,670 --> 00:00:49,680
+okay suppose this is x between the range
+ 
+
+41
+00:00:49,680 --> 00:00:51,029
+okay suppose this is x between the range
+bigger than zero
+
+42
+00:00:51,029 --> 00:00:51,039
+bigger than zero
+ 
+
+43
+00:00:51,039 --> 00:00:54,229
+bigger than zero
+smaller than 10 to the power n
+
+44
+00:00:54,229 --> 00:00:54,239
+smaller than 10 to the power n
+ 
+
+45
+00:00:54,239 --> 00:00:56,869
+smaller than 10 to the power n
+i'll get 10 to the power n 10 to the
+
+46
+00:00:56,869 --> 00:00:56,879
+i'll get 10 to the power n 10 to the
+ 
+
+47
+00:00:56,879 --> 00:01:02,550
+i'll get 10 to the power n 10 to the
+power
+
+48
+00:01:02,550 --> 00:01:02,560
+
+ 
+
+49
+00:01:02,560 --> 00:01:11,350
+
+[Music]
+
+50
+00:01:11,350 --> 00:01:11,360
+
+ 
+
+51
+00:01:11,360 --> 00:01:17,990
+
+100 yeah 2 to the power 0
+
+52
+00:01:17,990 --> 00:01:18,000
+
+ 
+
+53
+00:01:18,000 --> 00:01:21,749
+
+1 yes so any number except 0 to the
+
+54
+00:01:21,749 --> 00:01:21,759
+1 yes so any number except 0 to the
+ 
+
+55
+00:01:21,759 --> 00:01:24,950
+1 yes so any number except 0 to the
+power of
+
+56
+00:01:24,950 --> 00:01:24,960
+
+ 
+
+57
+00:01:24,960 --> 00:01:29,270
+
+uh 0. question ideally it's one but
+
+58
+00:01:29,270 --> 00:01:29,280
+uh 0. question ideally it's one but
+ 
+
+59
+00:01:29,280 --> 00:01:31,590
+uh 0. question ideally it's one but
+maybe mathematically it's not defined so
+
+60
+00:01:31,590 --> 00:01:31,600
+maybe mathematically it's not defined so
+ 
+
+61
+00:01:31,600 --> 00:01:34,390
+maybe mathematically it's not defined so
+any number except zero to the power of
+
+62
+00:01:34,390 --> 00:01:34,400
+any number except zero to the power of
+ 
+
+63
+00:01:34,400 --> 00:01:36,710
+any number except zero to the power of
+zero is one okay
+
+64
+00:01:36,710 --> 00:01:36,720
+zero is one okay
+ 
+
+65
+00:01:36,720 --> 00:01:39,830
+zero is one okay
+okay so to use the remember the binary
+
+66
+00:01:39,830 --> 00:01:39,840
+okay so to use the remember the binary
+ 
+
+67
+00:01:39,840 --> 00:01:40,870
+okay so to use the remember the binary
+yeah finally
+
+68
+00:01:40,870 --> 00:01:40,880
+yeah finally
+ 
+
+69
+00:01:40,880 --> 00:01:44,950
+yeah finally
+why is that look so finally one zero one
+
+70
+00:01:44,950 --> 00:01:44,960
+why is that look so finally one zero one
+ 
+
+71
+00:01:44,960 --> 00:01:47,109
+why is that look so finally one zero one
+zero okay so this means one right
+
+72
+00:01:47,109 --> 00:01:47,119
+zero okay so this means one right
+ 
+
+73
+00:01:47,119 --> 00:01:49,749
+zero okay so this means one right
+yeah yeah yeah it's two to the power of
+
+74
+00:01:49,749 --> 00:01:49,759
+yeah yeah yeah it's two to the power of
+ 
+
+75
+00:01:49,759 --> 00:01:50,389
+yeah yeah yeah it's two to the power of
+zero
+
+76
+00:01:50,389 --> 00:01:50,399
+zero
+ 
+
+77
+00:01:50,399 --> 00:01:54,389
+zero
+like 123 twenty-three
+
+78
+00:01:54,389 --> 00:01:54,399
+like 123 twenty-three
+ 
+
+79
+00:01:54,399 --> 00:01:57,109
+like 123 twenty-three
+this is one what ones we call it once
+
+80
+00:01:57,109 --> 00:01:57,119
+this is one what ones we call it once
+ 
+
+81
+00:01:57,119 --> 00:01:57,749
+this is one what ones we call it once
+yeah
+
+82
+00:01:57,749 --> 00:01:57,759
+yeah
+ 
+
+83
+00:01:57,759 --> 00:02:01,670
+yeah
+this is tens right this is a hundreds
+
+84
+00:02:01,670 --> 00:02:01,680
+this is tens right this is a hundreds
+ 
+
+85
+00:02:01,680 --> 00:02:05,109
+this is tens right this is a hundreds
+all right yes right so that's
+
+86
+00:02:05,109 --> 00:02:05,119
+all right yes right so that's
+ 
+
+87
+00:02:05,119 --> 00:02:08,309
+all right yes right so that's
+a hundred plus twenty plus three
+
+88
+00:02:08,309 --> 00:02:08,319
+a hundred plus twenty plus three
+ 
+
+89
+00:02:08,319 --> 00:02:11,350
+a hundred plus twenty plus three
+correct so that that's why
+
+90
+00:02:11,350 --> 00:02:11,360
+correct so that that's why
+ 
+
+91
+00:02:11,360 --> 00:02:14,869
+correct so that that's why
+10 to the power of 0 is 1
+
+92
+00:02:14,869 --> 00:02:14,879
+10 to the power of 0 is 1
+ 
+
+93
+00:02:14,879 --> 00:02:18,309
+10 to the power of 0 is 1
+10 to the power of 0 yeah got it
+
+94
+00:02:18,309 --> 00:02:18,319
+10 to the power of 0 yeah got it
+ 
+
+95
+00:02:18,319 --> 00:02:21,350
+10 to the power of 0 yeah got it
+so look so we're given this
+
+96
+00:02:21,350 --> 00:02:21,360
+so look so we're given this
+ 
+
+97
+00:02:21,360 --> 00:02:23,750
+so look so we're given this
+and we want to count how many how many
+
+98
+00:02:23,750 --> 00:02:23,760
+and we want to count how many how many
+ 
+
+99
+00:02:23,760 --> 00:02:24,630
+and we want to count how many how many
+numbers
+
+100
+00:02:24,630 --> 00:02:24,640
+numbers
+ 
+
+101
+00:02:24,640 --> 00:02:27,910
+numbers
+are unique with unique digits it doesn't
+
+102
+00:02:27,910 --> 00:02:27,920
+are unique with unique digits it doesn't
+ 
+
+103
+00:02:27,920 --> 00:02:29,910
+are unique with unique digits it doesn't
+have any duplicate digit between this
+
+104
+00:02:29,910 --> 00:02:29,920
+have any duplicate digit between this
+ 
+
+105
+00:02:29,920 --> 00:02:30,790
+have any duplicate digit between this
+range
+
+106
+00:02:30,790 --> 00:02:30,800
+range
+ 
+
+107
+00:02:30,800 --> 00:02:34,070
+range
+for example when n is zero how many
+
+108
+00:02:34,070 --> 00:02:34,080
+for example when n is zero how many
+ 
+
+109
+00:02:34,080 --> 00:02:38,790
+for example when n is zero how many
+when n is zero so
+
+110
+00:02:38,790 --> 00:02:38,800
+when n is zero so
+ 
+
+111
+00:02:38,800 --> 00:02:42,070
+when n is zero so
+smaller smaller than one so how many
+
+112
+00:02:42,070 --> 00:02:42,080
+smaller smaller than one so how many
+ 
+
+113
+00:02:42,080 --> 00:02:45,030
+smaller smaller than one so how many
+how many numbers within this range is
+
+114
+00:02:45,030 --> 00:02:45,040
+how many numbers within this range is
+ 
+
+115
+00:02:45,040 --> 00:02:47,750
+how many numbers within this range is
+unique
+
+116
+00:02:47,750 --> 00:02:47,760
+
+ 
+
+117
+00:02:47,760 --> 00:02:54,630
+
+isn't it
+
+118
+00:02:54,630 --> 00:02:54,640
+
+ 
+
+119
+00:02:54,640 --> 00:02:56,869
+
+yeah it doesn't have duplicate numbers
+
+120
+00:02:56,869 --> 00:02:56,879
+yeah it doesn't have duplicate numbers
+ 
+
+121
+00:02:56,879 --> 00:02:58,949
+yeah it doesn't have duplicate numbers
+so how many numbers
+
+122
+00:02:58,949 --> 00:02:58,959
+so how many numbers
+ 
+
+123
+00:02:58,959 --> 00:03:02,149
+so how many numbers
+how many numbers would this range look
+
+124
+00:03:02,149 --> 00:03:02,159
+how many numbers would this range look
+ 
+
+125
+00:03:02,159 --> 00:03:04,309
+how many numbers would this range look
+but no smaller than one bigger or equal
+
+126
+00:03:04,309 --> 00:03:04,319
+but no smaller than one bigger or equal
+ 
+
+127
+00:03:04,319 --> 00:03:06,229
+but no smaller than one bigger or equal
+than zero so it must be
+
+128
+00:03:06,229 --> 00:03:06,239
+than zero so it must be
+ 
+
+129
+00:03:06,239 --> 00:03:09,990
+than zero so it must be
+the only possibility is zero right yeah
+
+130
+00:03:09,990 --> 00:03:10,000
+the only possibility is zero right yeah
+ 
+
+131
+00:03:10,000 --> 00:03:11,589
+the only possibility is zero right yeah
+so it's one the answer is one because
+
+132
+00:03:11,589 --> 00:03:11,599
+so it's one the answer is one because
+ 
+
+133
+00:03:11,599 --> 00:03:13,830
+so it's one the answer is one because
+there's only one number which is unique
+
+134
+00:03:13,830 --> 00:03:13,840
+there's only one number which is unique
+ 
+
+135
+00:03:13,840 --> 00:03:16,070
+there's only one number which is unique
+zero it doesn't have any difficult
+
+136
+00:03:16,070 --> 00:03:16,080
+zero it doesn't have any difficult
+ 
+
+137
+00:03:16,080 --> 00:03:18,070
+zero it doesn't have any difficult
+numbers right one one
+
+138
+00:03:18,070 --> 00:03:18,080
+numbers right one one
+ 
+
+139
+00:03:18,080 --> 00:03:20,630
+numbers right one one
+is less than one no one is not less than
+
+140
+00:03:20,630 --> 00:03:20,640
+is less than one no one is not less than
+ 
+
+141
+00:03:20,640 --> 00:03:21,589
+is less than one no one is not less than
+one yeah
+
+142
+00:03:21,589 --> 00:03:21,599
+one yeah
+ 
+
+143
+00:03:21,599 --> 00:03:25,830
+one yeah
+okay how about n is one so that would be
+
+144
+00:03:25,830 --> 00:03:25,840
+okay how about n is one so that would be
+ 
+
+145
+00:03:25,840 --> 00:03:30,869
+okay how about n is one so that would be
+what x bigger than zero smaller than
+
+146
+00:03:30,869 --> 00:03:30,879
+what x bigger than zero smaller than
+ 
+
+147
+00:03:30,879 --> 00:03:33,350
+what x bigger than zero smaller than
+ten so how many numbers which this range
+
+148
+00:03:33,350 --> 00:03:33,360
+ten so how many numbers which this range
+ 
+
+149
+00:03:33,360 --> 00:03:34,949
+ten so how many numbers which this range
+has unique
+
+150
+00:03:34,949 --> 00:03:34,959
+has unique
+ 
+
+151
+00:03:34,959 --> 00:03:38,309
+has unique
+10 yes yeah this is 0 to 9
+
+152
+00:03:38,309 --> 00:03:38,319
+10 yes yeah this is 0 to 9
+ 
+
+153
+00:03:38,319 --> 00:03:41,190
+10 yes yeah this is 0 to 9
+right that's 10 numbers yeah okay so we
+
+154
+00:03:41,190 --> 00:03:41,200
+right that's 10 numbers yeah okay so we
+ 
+
+155
+00:03:41,200 --> 00:03:41,990
+right that's 10 numbers yeah okay so we
+got it yeah
+
+156
+00:03:41,990 --> 00:03:42,000
+got it yeah
+ 
+
+157
+00:03:42,000 --> 00:03:45,750
+got it yeah
+and then how about two we want to count
+
+158
+00:03:45,750 --> 00:03:45,760
+and then how about two we want to count
+ 
+
+159
+00:03:45,760 --> 00:03:49,430
+and then how about two we want to count
+bigger than zero x smaller than 100.
+
+160
+00:03:49,430 --> 00:03:49,440
+bigger than zero x smaller than 100.
+ 
+
+161
+00:03:49,440 --> 00:03:52,550
+bigger than zero x smaller than 100.
+so any idea how we're counting this if
+
+162
+00:03:52,550 --> 00:03:52,560
+so any idea how we're counting this if
+ 
+
+163
+00:03:52,560 --> 00:03:54,390
+so any idea how we're counting this if
+you're not sure we can always
+
+164
+00:03:54,390 --> 00:03:54,400
+you're not sure we can always
+ 
+
+165
+00:03:54,400 --> 00:03:57,750
+you're not sure we can always
+11 22. no no no no
+
+166
+00:03:57,750 --> 00:03:57,760
+11 22. no no no no
+ 
+
+167
+00:03:57,760 --> 00:04:00,869
+11 22. no no no no
+any numbers how many numbers listening 0
+
+168
+00:04:00,869 --> 00:04:00,879
+any numbers how many numbers listening 0
+ 
+
+169
+00:04:00,879 --> 00:04:04,949
+any numbers how many numbers listening 0
+to 99 how many numbers 9
+
+170
+00:04:04,949 --> 00:04:04,959
+to 99 how many numbers 9
+ 
+
+171
+00:04:04,959 --> 00:04:09,750
+to 99 how many numbers 9
+0 99 how many numbers
+
+172
+00:04:09,750 --> 00:04:09,760
+
+ 
+
+173
+00:04:09,760 --> 00:04:14,149
+
+90 00 99 how many numbers come on
+
+174
+00:04:14,149 --> 00:04:14,159
+90 00 99 how many numbers come on
+ 
+
+175
+00:04:14,159 --> 00:04:17,189
+90 00 99 how many numbers come on
+there are 100 numbers 100 numbers yes
+
+176
+00:04:17,189 --> 00:04:17,199
+there are 100 numbers 100 numbers yes
+ 
+
+177
+00:04:17,199 --> 00:04:18,789
+there are 100 numbers 100 numbers yes
+100 numbers
+
+178
+00:04:18,789 --> 00:04:18,799
+100 numbers
+ 
+
+179
+00:04:18,799 --> 00:04:20,710
+100 numbers
+but we are excluding we need to
+
+180
+00:04:20,710 --> 00:04:20,720
+but we are excluding we need to
+ 
+
+181
+00:04:20,720 --> 00:04:22,150
+but we are excluding we need to
+excluding one one
+
+182
+00:04:22,150 --> 00:04:22,160
+excluding one one
+ 
+
+183
+00:04:22,160 --> 00:04:25,270
+excluding one one
+two two three three four four how many
+
+184
+00:04:25,270 --> 00:04:25,280
+two two three three four four how many
+ 
+
+185
+00:04:25,280 --> 00:04:26,230
+two two three three four four how many
+of them
+
+186
+00:04:26,230 --> 00:04:26,240
+of them
+ 
+
+187
+00:04:26,240 --> 00:04:29,510
+of them
+nine okay so 100 minus 9
+
+188
+00:04:29,510 --> 00:04:29,520
+nine okay so 100 minus 9
+ 
+
+189
+00:04:29,520 --> 00:04:32,710
+nine okay so 100 minus 9
+91 yes okay so if n
+
+190
+00:04:32,710 --> 00:04:32,720
+91 yes okay so if n
+ 
+
+191
+00:04:32,720 --> 00:04:37,030
+91 yes okay so if n
+is two we need to return 91 okay yes
+
+192
+00:04:37,030 --> 00:04:37,040
+is two we need to return 91 okay yes
+ 
+
+193
+00:04:37,040 --> 00:04:40,070
+is two we need to return 91 okay yes
+so how if there are n numbers if any
+
+194
+00:04:40,070 --> 00:04:40,080
+so how if there are n numbers if any
+ 
+
+195
+00:04:40,080 --> 00:04:42,070
+so how if there are n numbers if any
+speaker length
+
+196
+00:04:42,070 --> 00:04:42,080
+speaker length
+ 
+
+197
+00:04:42,080 --> 00:04:47,510
+speaker length
+10 for example what's the answer
+
+198
+00:04:47,510 --> 00:04:47,520
+
+ 
+
+199
+00:04:47,520 --> 00:04:50,629
+
+of course if n is bigger than 10
+
+200
+00:04:50,629 --> 00:04:50,639
+of course if n is bigger than 10
+ 
+
+201
+00:04:50,639 --> 00:04:53,350
+of course if n is bigger than 10
+so the answer will be f10 right because
+
+202
+00:04:53,350 --> 00:04:53,360
+so the answer will be f10 right because
+ 
+
+203
+00:04:53,360 --> 00:04:54,790
+so the answer will be f10 right because
+look
+
+204
+00:04:54,790 --> 00:04:54,800
+look
+ 
+
+205
+00:04:54,800 --> 00:04:58,390
+look
+because if it's the
+
+206
+00:04:58,390 --> 00:04:58,400
+because if it's the
+ 
+
+207
+00:04:58,400 --> 00:05:02,390
+because if it's the
+uh if it's if you can't find
+
+208
+00:05:02,390 --> 00:05:02,400
+uh if it's if you can't find
+ 
+
+209
+00:05:02,400 --> 00:05:05,590
+uh if it's if you can't find
+any n digit
+
+210
+00:05:05,590 --> 00:05:05,600
+any n digit
+ 
+
+211
+00:05:05,600 --> 00:05:08,870
+any n digit
+number with unique digits when n
+
+212
+00:05:08,870 --> 00:05:08,880
+number with unique digits when n
+ 
+
+213
+00:05:08,880 --> 00:05:11,510
+number with unique digits when n
+is bigger than 10 right why is that
+
+214
+00:05:11,510 --> 00:05:11,520
+is bigger than 10 right why is that
+ 
+
+215
+00:05:11,520 --> 00:05:11,909
+is bigger than 10 right why is that
+because
+
+216
+00:05:11,909 --> 00:05:11,919
+because
+ 
+
+217
+00:05:11,919 --> 00:05:15,189
+because
+look if n is 11 you can't find any 11
+
+218
+00:05:15,189 --> 00:05:15,199
+look if n is 11 you can't find any 11
+ 
+
+219
+00:05:15,199 --> 00:05:18,550
+look if n is 11 you can't find any 11
+digits with unique with unique
+
+220
+00:05:18,550 --> 00:05:18,560
+digits with unique with unique
+ 
+
+221
+00:05:18,560 --> 00:05:20,550
+digits with unique with unique
+digits i'm right yeah because you only
+
+222
+00:05:20,550 --> 00:05:20,560
+digits i'm right yeah because you only
+ 
+
+223
+00:05:20,560 --> 00:05:23,189
+digits i'm right yeah because you only
+how many digits have you got
+
+224
+00:05:23,189 --> 00:05:23,199
+how many digits have you got
+ 
+
+225
+00:05:23,199 --> 00:05:26,390
+how many digits have you got
+oh no how many all together did you
+
+226
+00:05:26,390 --> 00:05:26,400
+oh no how many all together did you
+ 
+
+227
+00:05:26,400 --> 00:05:32,310
+oh no how many all together did you
+you have you got zero to nine how many
+
+228
+00:05:32,310 --> 00:05:32,320
+
+ 
+
+229
+00:05:32,320 --> 00:05:34,150
+
+how many digits you know tonight do you
+
+230
+00:05:34,150 --> 00:05:34,160
+how many digits you know tonight do you
+ 
+
+231
+00:05:34,160 --> 00:05:35,430
+how many digits you know tonight do you
+want to see how many
+
+232
+00:05:35,430 --> 00:05:35,440
+want to see how many
+ 
+
+233
+00:05:35,440 --> 00:05:37,749
+want to see how many
+ten ten digits because we are in decimal
+
+234
+00:05:37,749 --> 00:05:37,759
+ten ten digits because we are in decimal
+ 
+
+235
+00:05:37,759 --> 00:05:38,710
+ten ten digits because we are in decimal
+okay so
+
+236
+00:05:38,710 --> 00:05:38,720
+okay so
+ 
+
+237
+00:05:38,720 --> 00:05:41,029
+okay so
+we are we have ten digits and we want to
+
+238
+00:05:41,029 --> 00:05:41,039
+we are we have ten digits and we want to
+ 
+
+239
+00:05:41,039 --> 00:05:42,150
+we are we have ten digits and we want to
+put it in the
+
+240
+00:05:42,150 --> 00:05:42,160
+put it in the
+ 
+
+241
+00:05:42,160 --> 00:05:45,590
+put it in the
+eleventh box we count
+
+242
+00:05:45,590 --> 00:05:45,600
+eleventh box we count
+ 
+
+243
+00:05:45,600 --> 00:05:49,590
+eleventh box we count
+right do you get it all right yeah
+
+244
+00:05:49,590 --> 00:05:49,600
+right do you get it all right yeah
+ 
+
+245
+00:05:49,600 --> 00:05:51,990
+right do you get it all right yeah
+because look there if 11 we call it
+
+246
+00:05:51,990 --> 00:05:52,000
+because look there if 11 we call it
+ 
+
+247
+00:05:52,000 --> 00:05:53,830
+because look there if 11 we call it
+pigeons pigeon hole yeah
+
+248
+00:05:53,830 --> 00:05:53,840
+pigeons pigeon hole yeah
+ 
+
+249
+00:05:53,840 --> 00:05:57,830
+pigeons pigeon hole yeah
+we have 11 we have 10 pigeons
+
+250
+00:05:57,830 --> 00:05:57,840
+we have 11 we have 10 pigeons
+ 
+
+251
+00:05:57,840 --> 00:06:00,150
+we have 11 we have 10 pigeons
+pigeon you know pigeon animal yeah we
+
+252
+00:06:00,150 --> 00:06:00,160
+pigeon you know pigeon animal yeah we
+ 
+
+253
+00:06:00,160 --> 00:06:01,749
+pigeon you know pigeon animal yeah we
+have 10 pigeon birds
+
+254
+00:06:01,749 --> 00:06:01,759
+have 10 pigeon birds
+ 
+
+255
+00:06:01,759 --> 00:06:05,990
+have 10 pigeon birds
+and we want to put it in uh in the 11th
+
+256
+00:06:05,990 --> 00:06:06,000
+and we want to put it in uh in the 11th
+ 
+
+257
+00:06:06,000 --> 00:06:09,590
+and we want to put it in uh in the 11th
+pigeons yeah but there's only 10
+
+258
+00:06:09,590 --> 00:06:09,600
+pigeons yeah but there's only 10
+ 
+
+259
+00:06:09,600 --> 00:06:10,950
+pigeons yeah but there's only 10
+there's only 10. so what what could
+
+260
+00:06:10,950 --> 00:06:10,960
+there's only 10. so what what could
+ 
+
+261
+00:06:10,960 --> 00:06:13,620
+there's only 10. so what what could
+happen so
+
+262
+00:06:13,620 --> 00:06:13,630
+happen so
+ 
+
+263
+00:06:13,630 --> 00:06:14,870
+happen so
+[Music]
+
+264
+00:06:14,870 --> 00:06:14,880
+[Music]
+ 
+
+265
+00:06:14,880 --> 00:06:17,510
+[Music]
+so at least at least one of the pigeon
+
+266
+00:06:17,510 --> 00:06:17,520
+so at least at least one of the pigeon
+ 
+
+267
+00:06:17,520 --> 00:06:17,990
+so at least at least one of the pigeon
+hole
+
+268
+00:06:17,990 --> 00:06:18,000
+hole
+ 
+
+269
+00:06:18,000 --> 00:06:21,590
+hole
+is empty right all right at least one
+
+270
+00:06:21,590 --> 00:06:21,600
+is empty right all right at least one
+ 
+
+271
+00:06:21,600 --> 00:06:24,390
+is empty right all right at least one
+can we get that yeah at least one of the
+
+272
+00:06:24,390 --> 00:06:24,400
+can we get that yeah at least one of the
+ 
+
+273
+00:06:24,400 --> 00:06:27,350
+can we get that yeah at least one of the
+pigeon hole is empty
+
+274
+00:06:27,350 --> 00:06:27,360
+pigeon hole is empty
+ 
+
+275
+00:06:27,360 --> 00:06:30,870
+pigeon hole is empty
+all right does it make sense
+
+276
+00:06:30,870 --> 00:06:30,880
+all right does it make sense
+ 
+
+277
+00:06:30,880 --> 00:06:34,390
+all right does it make sense
+what's the picking home the
+
+278
+00:06:34,390 --> 00:06:34,400
+what's the picking home the
+ 
+
+279
+00:06:34,400 --> 00:06:38,870
+what's the picking home the
+cage to put the birds in okay
+
+280
+00:06:38,870 --> 00:06:38,880
+cage to put the birds in okay
+ 
+
+281
+00:06:38,880 --> 00:06:41,909
+cage to put the birds in okay
+okay oh for example like you have you
+
+282
+00:06:41,909 --> 00:06:41,919
+okay oh for example like you have you
+ 
+
+283
+00:06:41,919 --> 00:06:43,350
+okay oh for example like you have you
+have 10 balls
+
+284
+00:06:43,350 --> 00:06:43,360
+have 10 balls
+ 
+
+285
+00:06:43,360 --> 00:06:47,510
+have 10 balls
+balls both and you have 11 box
+
+286
+00:06:47,510 --> 00:06:47,520
+balls both and you have 11 box
+ 
+
+287
+00:06:47,520 --> 00:06:50,629
+balls both and you have 11 box
+okay and you want to you want to put the
+
+288
+00:06:50,629 --> 00:06:50,639
+okay and you want to you want to put the
+ 
+
+289
+00:06:50,639 --> 00:06:54,070
+okay and you want to you want to put the
+put the 10 balls into the 11 box
+
+290
+00:06:54,070 --> 00:06:54,080
+put the 10 balls into the 11 box
+ 
+
+291
+00:06:54,080 --> 00:06:57,430
+put the 10 balls into the 11 box
+and we can get and at least at least
+
+292
+00:06:57,430 --> 00:06:57,440
+and we can get and at least at least
+ 
+
+293
+00:06:57,440 --> 00:07:00,469
+and we can get and at least at least
+okay we're talking about at least
+
+294
+00:07:00,469 --> 00:07:00,479
+okay we're talking about at least
+ 
+
+295
+00:07:00,479 --> 00:07:04,309
+okay we're talking about at least
+at least one box is empty can i get that
+
+296
+00:07:04,309 --> 00:07:04,319
+at least one box is empty can i get that
+ 
+
+297
+00:07:04,319 --> 00:07:06,629
+at least one box is empty can i get that
+yeah yeah yeah that's obvious yeah
+
+298
+00:07:06,629 --> 00:07:06,639
+yeah yeah yeah that's obvious yeah
+ 
+
+299
+00:07:06,639 --> 00:07:08,230
+yeah yeah yeah that's obvious yeah
+because you only have 10 balls and
+
+300
+00:07:08,230 --> 00:07:08,240
+because you only have 10 balls and
+ 
+
+301
+00:07:08,240 --> 00:07:12,150
+because you only have 10 balls and
+how can you put it in 11 20
+
+302
+00:07:12,150 --> 00:07:12,160
+how can you put it in 11 20
+ 
+
+303
+00:07:12,160 --> 00:07:15,909
+how can you put it in 11 20
+11 boxes right you can put all of them
+
+304
+00:07:15,909 --> 00:07:15,919
+11 boxes right you can put all of them
+ 
+
+305
+00:07:15,919 --> 00:07:16,710
+11 boxes right you can put all of them
+into one but
+
+306
+00:07:16,710 --> 00:07:16,720
+into one but
+ 
+
+307
+00:07:16,720 --> 00:07:20,469
+into one but
+or you can the best you can do is put 10
+
+308
+00:07:20,469 --> 00:07:20,479
+or you can the best you can do is put 10
+ 
+
+309
+00:07:20,479 --> 00:07:23,189
+or you can the best you can do is put 10
+10 balls in 10 boxes and then now you
+
+310
+00:07:23,189 --> 00:07:23,199
+10 balls in 10 boxes and then now you
+ 
+
+311
+00:07:23,199 --> 00:07:25,909
+10 balls in 10 boxes and then now you
+have one more box one box which is empty
+
+312
+00:07:25,909 --> 00:07:25,919
+have one more box one box which is empty
+ 
+
+313
+00:07:25,919 --> 00:07:29,110
+have one more box one box which is empty
+am right all right so that coming back
+
+314
+00:07:29,110 --> 00:07:29,120
+am right all right so that coming back
+ 
+
+315
+00:07:29,120 --> 00:07:30,550
+am right all right so that coming back
+to this question
+
+316
+00:07:30,550 --> 00:07:30,560
+to this question
+ 
+
+317
+00:07:30,560 --> 00:07:32,550
+to this question
+if you have a 10 digit and you want to
+
+318
+00:07:32,550 --> 00:07:32,560
+if you have a 10 digit and you want to
+ 
+
+319
+00:07:32,560 --> 00:07:34,710
+if you have a 10 digit and you want to
+put it in the 11
+
+320
+00:07:34,710 --> 00:07:34,720
+put it in the 11
+ 
+
+321
+00:07:34,720 --> 00:07:37,430
+put it in the 11
+digits you can't find this without
+
+322
+00:07:37,430 --> 00:07:37,440
+digits you can't find this without
+ 
+
+323
+00:07:37,440 --> 00:07:38,870
+digits you can't find this without
+duplicate right
+
+324
+00:07:38,870 --> 00:07:38,880
+duplicate right
+ 
+
+325
+00:07:38,880 --> 00:07:43,350
+duplicate right
+i'm right if you put you have 11 digits
+
+326
+00:07:43,350 --> 00:07:43,360
+i'm right if you put you have 11 digits
+ 
+
+327
+00:07:43,360 --> 00:07:47,270
+i'm right if you put you have 11 digits
+it must be non-unique am right
+
+328
+00:07:47,270 --> 00:07:47,280
+it must be non-unique am right
+ 
+
+329
+00:07:47,280 --> 00:07:49,670
+it must be non-unique am right
+am i right yeah does it make sense yes
+
+330
+00:07:49,670 --> 00:07:49,680
+am i right yeah does it make sense yes
+ 
+
+331
+00:07:49,680 --> 00:07:51,350
+am i right yeah does it make sense yes
+okay
+
+332
+00:07:51,350 --> 00:07:51,360
+okay
+ 
+
+333
+00:07:51,360 --> 00:07:53,110
+okay
+okay so now coming back to this question
+
+334
+00:07:53,110 --> 00:07:53,120
+okay so now coming back to this question
+ 
+
+335
+00:07:53,120 --> 00:07:54,710
+okay so now coming back to this question
+okay
+
+336
+00:07:54,710 --> 00:07:54,720
+okay
+ 
+
+337
+00:07:54,720 --> 00:07:57,430
+okay
+look if there are three digits if that's
+
+338
+00:07:57,430 --> 00:07:57,440
+look if there are three digits if that's
+ 
+
+339
+00:07:57,440 --> 00:07:58,950
+look if there are three digits if that's
+related
+
+340
+00:07:58,950 --> 00:07:58,960
+related
+ 
+
+341
+00:07:58,960 --> 00:08:01,909
+related
+okay let's define look if last three
+
+342
+00:08:01,909 --> 00:08:01,919
+okay let's define look if last three
+ 
+
+343
+00:08:01,919 --> 00:08:03,029
+okay let's define look if last three
+digit
+
+344
+00:08:03,029 --> 00:08:03,039
+digit
+ 
+
+345
+00:08:03,039 --> 00:08:04,950
+digit
+how many possibilities i can put for the
+
+346
+00:08:04,950 --> 00:08:04,960
+how many possibilities i can put for the
+ 
+
+347
+00:08:04,960 --> 00:08:06,230
+how many possibilities i can put for the
+first digit if
+
+348
+00:08:06,230 --> 00:08:06,240
+first digit if
+ 
+
+349
+00:08:06,240 --> 00:08:08,629
+first digit if
+that's three digits three digit number
+
+350
+00:08:08,629 --> 00:08:08,639
+that's three digits three digit number
+ 
+
+351
+00:08:08,639 --> 00:08:10,790
+that's three digits three digit number
+sweep each number okay
+
+352
+00:08:10,790 --> 00:08:10,800
+sweep each number okay
+ 
+
+353
+00:08:10,800 --> 00:08:12,790
+sweep each number okay
+three digit number how many
+
+354
+00:08:12,790 --> 00:08:12,800
+three digit number how many
+ 
+
+355
+00:08:12,800 --> 00:08:14,469
+three digit number how many
+possibilities i can put for the first
+
+356
+00:08:14,469 --> 00:08:14,479
+possibilities i can put for the first
+ 
+
+357
+00:08:14,479 --> 00:08:15,270
+possibilities i can put for the first
+digit
+
+358
+00:08:15,270 --> 00:08:15,280
+digit
+ 
+
+359
+00:08:15,280 --> 00:08:19,430
+digit
+three nine nine nine what is nine
+
+360
+00:08:19,430 --> 00:08:19,440
+three nine nine nine what is nine
+ 
+
+361
+00:08:19,440 --> 00:08:22,950
+three nine nine nine what is nine
+zero one zero five six seven eight nine
+
+362
+00:08:22,950 --> 00:08:22,960
+zero one zero five six seven eight nine
+ 
+
+363
+00:08:22,960 --> 00:08:26,309
+zero one zero five six seven eight nine
+that's ten ten no wait
+
+364
+00:08:26,309 --> 00:08:26,319
+that's ten ten no wait
+ 
+
+365
+00:08:26,319 --> 00:08:28,629
+that's ten ten no wait
+not there right not yellow so nine yeah
+
+366
+00:08:28,629 --> 00:08:28,639
+not there right not yellow so nine yeah
+ 
+
+367
+00:08:28,639 --> 00:08:29,430
+not there right not yellow so nine yeah
+yeah
+
+368
+00:08:29,430 --> 00:08:29,440
+yeah
+ 
+
+369
+00:08:29,440 --> 00:08:31,189
+yeah
+good question because the first thing
+
+370
+00:08:31,189 --> 00:08:31,199
+good question because the first thing
+ 
+
+371
+00:08:31,199 --> 00:08:32,790
+good question because the first thing
+you can't have zero
+
+372
+00:08:32,790 --> 00:08:32,800
+you can't have zero
+ 
+
+373
+00:08:32,800 --> 00:08:35,350
+you can't have zero
+you can only put one to nine right yeah
+
+374
+00:08:35,350 --> 00:08:35,360
+you can only put one to nine right yeah
+ 
+
+375
+00:08:35,360 --> 00:08:38,070
+you can only put one to nine right yeah
+the second number how many possibilities
+
+376
+00:08:38,070 --> 00:08:38,080
+the second number how many possibilities
+ 
+
+377
+00:08:38,080 --> 00:08:41,509
+the second number how many possibilities
+one two nine one to nine nine
+
+378
+00:08:41,509 --> 00:08:41,519
+one two nine one to nine nine
+ 
+
+379
+00:08:41,519 --> 00:08:44,949
+one two nine one to nine nine
+yeah yeah no ten
+
+380
+00:08:44,949 --> 00:08:44,959
+yeah yeah no ten
+ 
+
+381
+00:08:44,959 --> 00:08:48,310
+yeah yeah no ten
+four thousand one more quest uh
+
+382
+00:08:48,310 --> 00:08:48,320
+four thousand one more quest uh
+ 
+
+383
+00:08:48,320 --> 00:08:51,990
+four thousand one more quest uh
+yes is it ten or nine
+
+384
+00:08:51,990 --> 00:08:52,000
+yes is it ten or nine
+ 
+
+385
+00:08:52,000 --> 00:08:55,030
+yes is it ten or nine
+that's one second digit because we have
+
+386
+00:08:55,030 --> 00:08:55,040
+that's one second digit because we have
+ 
+
+387
+00:08:55,040 --> 00:08:56,470
+that's one second digit because we have
+already used one digit
+
+388
+00:08:56,470 --> 00:08:56,480
+already used one digit
+ 
+
+389
+00:08:56,480 --> 00:08:59,430
+already used one digit
+yeah for the first case but we have one
+
+390
+00:08:59,430 --> 00:08:59,440
+yeah for the first case but we have one
+ 
+
+391
+00:08:59,440 --> 00:09:00,949
+yeah for the first case but we have one
+more
+
+392
+00:09:00,949 --> 00:09:00,959
+more
+ 
+
+393
+00:09:00,959 --> 00:09:03,590
+more
+nine yeah nine why is mine can you tell
+
+394
+00:09:03,590 --> 00:09:03,600
+nine yeah nine why is mine can you tell
+ 
+
+395
+00:09:03,600 --> 00:09:04,630
+nine yeah nine why is mine can you tell
+me because
+
+396
+00:09:04,630 --> 00:09:04,640
+me because
+ 
+
+397
+00:09:04,640 --> 00:09:07,350
+me because
+you actually can do ten but you already
+
+398
+00:09:07,350 --> 00:09:07,360
+you actually can do ten but you already
+ 
+
+399
+00:09:07,360 --> 00:09:08,230
+you actually can do ten but you already
+use one
+
+400
+00:09:08,230 --> 00:09:08,240
+use one
+ 
+
+401
+00:09:08,240 --> 00:09:11,670
+use one
+for the first one so you subtract one so
+
+402
+00:09:11,670 --> 00:09:11,680
+for the first one so you subtract one so
+ 
+
+403
+00:09:11,680 --> 00:09:12,310
+for the first one so you subtract one so
+that's nine
+
+404
+00:09:12,310 --> 00:09:12,320
+that's nine
+ 
+
+405
+00:09:12,320 --> 00:09:14,470
+that's nine
+yes yes because because for the second
+
+406
+00:09:14,470 --> 00:09:14,480
+yes yes because because for the second
+ 
+
+407
+00:09:14,480 --> 00:09:15,509
+yes yes because because for the second
+number i can use
+
+408
+00:09:15,509 --> 00:09:15,519
+number i can use
+ 
+
+409
+00:09:15,519 --> 00:09:18,630
+number i can use
+zero right i can use zero
+
+410
+00:09:18,630 --> 00:09:18,640
+zero right i can use zero
+ 
+
+411
+00:09:18,640 --> 00:09:20,949
+zero right i can use zero
+and then i use one at the beginning and
+
+412
+00:09:20,949 --> 00:09:20,959
+and then i use one at the beginning and
+ 
+
+413
+00:09:20,959 --> 00:09:23,430
+and then i use one at the beginning and
+i plus more plus zero so that's zero and
+
+414
+00:09:23,430 --> 00:09:23,440
+i plus more plus zero so that's zero and
+ 
+
+415
+00:09:23,440 --> 00:09:25,430
+i plus more plus zero so that's zero and
+that's nine and that's my possibility
+
+416
+00:09:25,430 --> 00:09:25,440
+that's nine and that's my possibility
+ 
+
+417
+00:09:25,440 --> 00:09:26,710
+that's nine and that's my possibility
+including zero
+
+418
+00:09:26,710 --> 00:09:26,720
+including zero
+ 
+
+419
+00:09:26,720 --> 00:09:30,150
+including zero
+okay so first for third one
+
+420
+00:09:30,150 --> 00:09:30,160
+okay so first for third one
+ 
+
+421
+00:09:30,160 --> 00:09:33,430
+okay so first for third one
+how many possibilities eight
+
+422
+00:09:33,430 --> 00:09:33,440
+how many possibilities eight
+ 
+
+423
+00:09:33,440 --> 00:09:35,990
+how many possibilities eight
+yes because we use two and now we have a
+
+424
+00:09:35,990 --> 00:09:36,000
+yes because we use two and now we have a
+ 
+
+425
+00:09:36,000 --> 00:09:36,949
+yes because we use two and now we have a
+yeah
+
+426
+00:09:36,949 --> 00:09:36,959
+yeah
+ 
+
+427
+00:09:36,959 --> 00:09:38,949
+yeah
+eight so how many possibilities if i add
+
+428
+00:09:38,949 --> 00:09:38,959
+eight so how many possibilities if i add
+ 
+
+429
+00:09:38,959 --> 00:09:42,230
+eight so how many possibilities if i add
+one more zero here
+
+430
+00:09:42,230 --> 00:09:42,240
+
+ 
+
+431
+00:09:42,240 --> 00:09:45,509
+
+seven we are done okay so you get if we
+
+432
+00:09:45,509 --> 00:09:45,519
+seven we are done okay so you get if we
+ 
+
+433
+00:09:45,519 --> 00:09:46,389
+seven we are done okay so you get if we
+have a function
+
+434
+00:09:46,389 --> 00:09:46,399
+have a function
+ 
+
+435
+00:09:46,399 --> 00:09:49,590
+have a function
+f f n f k
+
+436
+00:09:49,590 --> 00:09:49,600
+f f n f k
+ 
+
+437
+00:09:49,600 --> 00:09:53,750
+f f n f k
+meaning k digit number with unique
+
+438
+00:09:53,750 --> 00:09:53,760
+meaning k digit number with unique
+ 
+
+439
+00:09:53,760 --> 00:09:56,470
+meaning k digit number with unique
+num unit digits yes then we can
+
+440
+00:09:56,470 --> 00:09:56,480
+num unit digits yes then we can
+ 
+
+441
+00:09:56,480 --> 00:09:58,470
+num unit digits yes then we can
+calculate this way right
+
+442
+00:09:58,470 --> 00:09:58,480
+calculate this way right
+ 
+
+443
+00:09:58,480 --> 00:10:01,750
+calculate this way right
+okay so let's do it
+
+444
+00:10:01,750 --> 00:10:01,760
+
+ 
+
+445
+00:10:01,760 --> 00:10:04,790
+
+let's do it define count okay called n
+
+446
+00:10:04,790 --> 00:10:04,800
+let's do it define count okay called n
+ 
+
+447
+00:10:04,800 --> 00:10:06,949
+let's do it define count okay called n
+remember count and what's missing here
+
+448
+00:10:06,949 --> 00:10:06,959
+remember count and what's missing here
+ 
+
+449
+00:10:06,959 --> 00:10:10,230
+remember count and what's missing here
+column if n equals
+
+450
+00:10:10,230 --> 00:10:10,240
+column if n equals
+ 
+
+451
+00:10:10,240 --> 00:10:13,350
+column if n equals
+zero return what
+
+452
+00:10:13,350 --> 00:10:13,360
+zero return what
+ 
+
+453
+00:10:13,360 --> 00:10:19,300
+zero return what
+do you tell me how many remember this is
+
+454
+00:10:19,300 --> 00:10:19,310
+do you tell me how many remember this is
+ 
+
+455
+00:10:19,310 --> 00:10:21,430
+do you tell me how many remember this is
+[Music]
+
+456
+00:10:21,430 --> 00:10:21,440
+[Music]
+ 
+
+457
+00:10:21,440 --> 00:10:24,630
+[Music]
+remember okay so now we define
+
+458
+00:10:24,630 --> 00:10:24,640
+remember okay so now we define
+ 
+
+459
+00:10:24,640 --> 00:10:28,710
+remember okay so now we define
+f f remember is the n size f k
+
+460
+00:10:28,710 --> 00:10:28,720
+f f remember is the n size f k
+ 
+
+461
+00:10:28,720 --> 00:10:30,150
+f f remember is the n size f k
+we can define another function here
+
+462
+00:10:30,150 --> 00:10:30,160
+we can define another function here
+ 
+
+463
+00:10:30,160 --> 00:10:32,069
+we can define another function here
+what's missing column
+
+464
+00:10:32,069 --> 00:10:32,079
+what's missing column
+ 
+
+465
+00:10:32,079 --> 00:10:35,829
+what's missing column
+okay is the is the k digit
+
+466
+00:10:35,829 --> 00:10:35,839
+okay is the is the k digit
+ 
+
+467
+00:10:35,839 --> 00:10:39,590
+okay is the is the k digit
+k k digit
+
+468
+00:10:39,590 --> 00:10:39,600
+k k digit
+ 
+
+469
+00:10:39,600 --> 00:10:42,389
+k k digit
+number which has which is unique which
+
+470
+00:10:42,389 --> 00:10:42,399
+number which has which is unique which
+ 
+
+471
+00:10:42,399 --> 00:10:44,870
+number which has which is unique which
+only has unique digits right
+
+472
+00:10:44,870 --> 00:10:44,880
+only has unique digits right
+ 
+
+473
+00:10:44,880 --> 00:10:56,710
+only has unique digits right
+okay
+
+474
+00:10:56,710 --> 00:10:56,720
+
+ 
+
+475
+00:10:56,720 --> 00:11:01,030
+
+only one digit how many can we get
+
+476
+00:11:01,030 --> 00:11:01,040
+only one digit how many can we get
+ 
+
+477
+00:11:01,040 --> 00:11:04,470
+only one digit how many can we get
+how many digits for one
+
+478
+00:11:04,470 --> 00:11:04,480
+
+ 
+
+479
+00:11:04,480 --> 00:11:07,990
+
+one digit i mean one digit
+
+480
+00:11:07,990 --> 00:11:08,000
+
+ 
+
+481
+00:11:08,000 --> 00:11:11,430
+
+how many one digit should we return 10
+
+482
+00:11:11,430 --> 00:11:11,440
+how many one digit should we return 10
+ 
+
+483
+00:11:11,440 --> 00:11:15,030
+how many one digit should we return 10
+instead zero to nine right ten
+
+484
+00:11:15,030 --> 00:11:15,040
+instead zero to nine right ten
+ 
+
+485
+00:11:15,040 --> 00:11:18,470
+instead zero to nine right ten
+okay on then we look then we can do this
+
+486
+00:11:18,470 --> 00:11:18,480
+okay on then we look then we can do this
+ 
+
+487
+00:11:18,480 --> 00:11:18,949
+okay on then we look then we can do this
+answer
+
+488
+00:11:18,949 --> 00:11:18,959
+answer
+ 
+
+489
+00:11:18,959 --> 00:11:21,990
+answer
+equals one right then four
+
+490
+00:11:21,990 --> 00:11:22,000
+equals one right then four
+ 
+
+491
+00:11:22,000 --> 00:11:26,630
+equals one right then four
+i in range
+
+492
+00:11:26,630 --> 00:11:26,640
+i in range
+ 
+
+493
+00:11:26,640 --> 00:11:30,310
+i in range
+wrench one okay something
+
+494
+00:11:30,310 --> 00:11:30,320
+wrench one okay something
+ 
+
+495
+00:11:30,320 --> 00:11:33,750
+wrench one okay something
+okay um
+
+496
+00:11:33,750 --> 00:11:33,760
+
+ 
+
+497
+00:11:33,760 --> 00:11:36,710
+
+look look at is what nine times nine we
+
+498
+00:11:36,710 --> 00:11:36,720
+look look at is what nine times nine we
+ 
+
+499
+00:11:36,720 --> 00:11:38,389
+look look at is what nine times nine we
+want to calculate this nine times nine
+
+500
+00:11:38,389 --> 00:11:38,399
+want to calculate this nine times nine
+ 
+
+501
+00:11:38,399 --> 00:11:38,790
+want to calculate this nine times nine
+times
+
+502
+00:11:38,790 --> 00:11:38,800
+times
+ 
+
+503
+00:11:38,800 --> 00:11:41,550
+times
+eight times seven right and times here
+
+504
+00:11:41,550 --> 00:11:41,560
+eight times seven right and times here
+ 
+
+505
+00:11:41,560 --> 00:11:43,350
+eight times seven right and times here
+648.
+
+506
+00:11:43,350 --> 00:11:43,360
+648.
+ 
+
+507
+00:11:43,360 --> 00:11:45,750
+648.
+no look okay maybe k plus one i'll come
+
+508
+00:11:45,750 --> 00:11:45,760
+no look okay maybe k plus one i'll come
+ 
+
+509
+00:11:45,760 --> 00:11:48,790
+no look okay maybe k plus one i'll come
+back to that okay so answer
+
+510
+00:11:48,790 --> 00:11:48,800
+back to that okay so answer
+ 
+
+511
+00:11:48,800 --> 00:11:53,030
+back to that okay so answer
+equal answer equals answer times
+
+512
+00:11:53,030 --> 00:11:53,040
+equal answer equals answer times
+ 
+
+513
+00:11:53,040 --> 00:11:56,550
+equal answer equals answer times
+look at the ten uh
+
+514
+00:11:56,550 --> 00:11:56,560
+look at the ten uh
+ 
+
+515
+00:11:56,560 --> 00:11:59,990
+look at the ten uh
+the should be 10
+
+516
+00:11:59,990 --> 00:12:00,000
+the should be 10
+ 
+
+517
+00:12:00,000 --> 00:12:03,829
+the should be 10
+minus i right let's do i should be 1
+
+518
+00:12:03,829 --> 00:12:03,839
+minus i right let's do i should be 1
+ 
+
+519
+00:12:03,839 --> 00:12:07,430
+minus i right let's do i should be 1
+uh 1 k
+
+520
+00:12:07,430 --> 00:12:07,440
+uh 1 k
+ 
+
+521
+00:12:07,440 --> 00:12:11,430
+uh 1 k
+when i when i
+
+522
+00:12:11,430 --> 00:12:11,440
+when i when i
+ 
+
+523
+00:12:11,440 --> 00:12:14,550
+when i when i
+uh when i
+
+524
+00:12:14,550 --> 00:12:14,560
+uh when i
+ 
+
+525
+00:12:14,560 --> 00:12:17,990
+uh when i
+is 1 then you times 9 when i is 2
+
+526
+00:12:17,990 --> 00:12:18,000
+is 1 then you times 9 when i is 2
+ 
+
+527
+00:12:18,000 --> 00:12:20,870
+is 1 then you times 9 when i is 2
+actually let's put it 9 here so because
+
+528
+00:12:20,870 --> 00:12:20,880
+actually let's put it 9 here so because
+ 
+
+529
+00:12:20,880 --> 00:12:22,550
+actually let's put it 9 here so because
+the first number we want the time is cap
+
+530
+00:12:22,550 --> 00:12:22,560
+the first number we want the time is cap
+ 
+
+531
+00:12:22,560 --> 00:12:23,590
+the first number we want the time is cap
+9
+
+532
+00:12:23,590 --> 00:12:23,600
+9
+ 
+
+533
+00:12:23,600 --> 00:12:26,949
+9
+and then when k is 2
+
+534
+00:12:26,949 --> 00:12:26,959
+and then when k is 2
+ 
+
+535
+00:12:26,959 --> 00:12:30,550
+and then when k is 2
+we want to times times the times
+
+536
+00:12:30,550 --> 00:12:30,560
+we want to times times the times
+ 
+
+537
+00:12:30,560 --> 00:12:36,150
+we want to times times the times
+i right and then return answer
+
+538
+00:12:36,150 --> 00:12:36,160
+
+ 
+
+539
+00:12:36,160 --> 00:12:37,910
+
+okay does it make sense does it make
+
+540
+00:12:37,910 --> 00:12:37,920
+okay does it make sense does it make
+ 
+
+541
+00:12:37,920 --> 00:12:39,190
+okay does it make sense does it make
+sense uh
+
+542
+00:12:39,190 --> 00:12:39,200
+sense uh
+ 
+
+543
+00:12:39,200 --> 00:12:40,550
+sense uh
+can you get it because we want to
+
+544
+00:12:40,550 --> 00:12:40,560
+can you get it because we want to
+ 
+
+545
+00:12:40,560 --> 00:12:43,750
+can you get it because we want to
+calculate uh we want to calculate
+
+546
+00:12:43,750 --> 00:12:43,760
+calculate uh we want to calculate
+ 
+
+547
+00:12:43,760 --> 00:12:47,670
+calculate uh we want to calculate
+um we want to calculate
+
+548
+00:12:47,670 --> 00:12:47,680
+um we want to calculate
+ 
+
+549
+00:12:47,680 --> 00:12:50,829
+um we want to calculate
+the f is the number of digits uh number
+
+550
+00:12:50,829 --> 00:12:50,839
+the f is the number of digits uh number
+ 
+
+551
+00:12:50,839 --> 00:12:53,750
+the f is the number of digits uh number
+uh fk is the number of
+
+552
+00:12:53,750 --> 00:12:53,760
+uh fk is the number of
+ 
+
+553
+00:12:53,760 --> 00:12:57,269
+uh fk is the number of
+k digit numbers with unique digits
+
+554
+00:12:57,269 --> 00:12:57,279
+k digit numbers with unique digits
+ 
+
+555
+00:12:57,279 --> 00:13:00,710
+k digit numbers with unique digits
+okay with unique digits so
+
+556
+00:13:00,710 --> 00:13:00,720
+okay with unique digits so
+ 
+
+557
+00:13:00,720 --> 00:13:04,230
+okay with unique digits so
+this function will return the number of
+
+558
+00:13:04,230 --> 00:13:04,240
+this function will return the number of
+ 
+
+559
+00:13:04,240 --> 00:13:06,870
+this function will return the number of
+number of num numbers with unique digits
+
+560
+00:13:06,870 --> 00:13:06,880
+number of num numbers with unique digits
+ 
+
+561
+00:13:06,880 --> 00:13:08,550
+number of num numbers with unique digits
+for k digit
+
+562
+00:13:08,550 --> 00:13:08,560
+for k digit
+ 
+
+563
+00:13:08,560 --> 00:13:11,430
+for k digit
+numbers okay it's a bit tricky yeah
+
+564
+00:13:11,430 --> 00:13:11,440
+numbers okay it's a bit tricky yeah
+ 
+
+565
+00:13:11,440 --> 00:13:12,790
+numbers okay it's a bit tricky yeah
+really
+
+566
+00:13:12,790 --> 00:13:12,800
+really
+ 
+
+567
+00:13:12,800 --> 00:13:16,230
+really
+uh
+
+568
+00:13:16,230 --> 00:13:16,240
+
+ 
+
+569
+00:13:16,240 --> 00:13:19,990
+
+yes i think that i i think
+
+570
+00:13:19,990 --> 00:13:20,000
+yes i think that i i think
+ 
+
+571
+00:13:20,000 --> 00:13:22,629
+yes i think that i i think
+i think we probably don't need don't uh
+
+572
+00:13:22,629 --> 00:13:22,639
+i think we probably don't need don't uh
+ 
+
+573
+00:13:22,639 --> 00:13:23,750
+i think we probably don't need don't uh
+don't mean this
+
+574
+00:13:23,750 --> 00:13:23,760
+don't mean this
+ 
+
+575
+00:13:23,760 --> 00:13:27,430
+don't mean this
+because k equals one k equals one is to
+
+576
+00:13:27,430 --> 00:13:27,440
+because k equals one k equals one is to
+ 
+
+577
+00:13:27,440 --> 00:13:28,150
+because k equals one k equals one is to
+return
+
+578
+00:13:28,150 --> 00:13:28,160
+return
+ 
+
+579
+00:13:28,160 --> 00:13:31,910
+return
+nine because only uh this may not work
+
+580
+00:13:31,910 --> 00:13:31,920
+nine because only uh this may not work
+ 
+
+581
+00:13:31,920 --> 00:13:32,949
+nine because only uh this may not work
+so we don't
+
+582
+00:13:32,949 --> 00:13:32,959
+so we don't
+ 
+
+583
+00:13:32,959 --> 00:13:35,910
+so we don't
+do this okay and now we need to sum this
+
+584
+00:13:35,910 --> 00:13:35,920
+do this okay and now we need to sum this
+ 
+
+585
+00:13:35,920 --> 00:13:36,230
+do this okay and now we need to sum this
+up
+
+586
+00:13:36,230 --> 00:13:36,240
+up
+ 
+
+587
+00:13:36,240 --> 00:13:39,829
+up
+look some return
+
+588
+00:13:39,829 --> 00:13:39,839
+look some return
+ 
+
+589
+00:13:39,839 --> 00:13:42,949
+look some return
+sum f
+
+590
+00:13:42,949 --> 00:13:42,959
+sum f
+ 
+
+591
+00:13:42,959 --> 00:13:46,829
+sum f
+k for k in
+
+592
+00:13:46,829 --> 00:13:46,839
+k for k in
+ 
+
+593
+00:13:46,839 --> 00:13:52,949
+k for k in
+range
+
+594
+00:13:52,949 --> 00:13:52,959
+
+ 
+
+595
+00:13:52,959 --> 00:13:57,030
+
+and plus one right
+
+596
+00:13:57,030 --> 00:13:57,040
+and plus one right
+ 
+
+597
+00:13:57,040 --> 00:14:01,430
+and plus one right
+can you say that the answer is what
+
+598
+00:14:01,430 --> 00:14:01,440
+can you say that the answer is what
+ 
+
+599
+00:14:01,440 --> 00:14:09,189
+can you say that the answer is what
+the answer is what
+
+600
+00:14:09,189 --> 00:14:09,199
+
+ 
+
+601
+00:14:09,199 --> 00:14:11,990
+
+so look we can do this answer equals
+
+602
+00:14:11,990 --> 00:14:12,000
+so look we can do this answer equals
+ 
+
+603
+00:14:12,000 --> 00:14:12,550
+so look we can do this answer equals
+zero
+
+604
+00:14:12,550 --> 00:14:12,560
+zero
+ 
+
+605
+00:14:12,560 --> 00:14:15,670
+zero
+and then for i in
+
+606
+00:14:15,670 --> 00:14:15,680
+and then for i in
+ 
+
+607
+00:14:15,680 --> 00:14:19,910
+and then for i in
+range 2 n plus 1
+
+608
+00:14:19,910 --> 00:14:19,920
+range 2 n plus 1
+ 
+
+609
+00:14:19,920 --> 00:14:24,389
+range 2 n plus 1
+answer plus equals fk
+
+610
+00:14:24,389 --> 00:14:24,399
+answer plus equals fk
+ 
+
+611
+00:14:24,399 --> 00:14:29,990
+answer plus equals fk
+and we can we can work within what
+
+612
+00:14:29,990 --> 00:14:30,000
+and we can we can work within what
+ 
+
+613
+00:14:30,000 --> 00:14:32,470
+and we can we can work within what
+answer another answer yeah because here
+
+614
+00:14:32,470 --> 00:14:32,480
+answer another answer yeah because here
+ 
+
+615
+00:14:32,480 --> 00:14:34,550
+answer another answer yeah because here
+we there's a special case is when
+
+616
+00:14:34,550 --> 00:14:34,560
+we there's a special case is when
+ 
+
+617
+00:14:34,560 --> 00:14:37,829
+we there's a special case is when
+n is one and is zero return one when n
+
+618
+00:14:37,829 --> 00:14:37,839
+n is one and is zero return one when n
+ 
+
+619
+00:14:37,839 --> 00:14:40,949
+n is one and is zero return one when n
+is one you should return ten ten
+
+620
+00:14:40,949 --> 00:14:40,959
+is one you should return ten ten
+ 
+
+621
+00:14:40,959 --> 00:14:43,189
+is one you should return ten ten
+right because when n is one it should
+
+622
+00:14:43,189 --> 00:14:43,199
+right because when n is one it should
+ 
+
+623
+00:14:43,199 --> 00:14:44,310
+right because when n is one it should
+return 10 and when
+
+624
+00:14:44,310 --> 00:14:44,320
+return 10 and when
+ 
+
+625
+00:14:44,320 --> 00:14:48,310
+return 10 and when
+n is 2 look away when n is 2
+
+626
+00:14:48,310 --> 00:14:48,320
+n is 2 look away when n is 2
+ 
+
+627
+00:14:48,320 --> 00:14:52,230
+n is 2 look away when n is 2
+return will be 10 plus fk
+
+628
+00:14:52,230 --> 00:14:52,240
+return will be 10 plus fk
+ 
+
+629
+00:14:52,240 --> 00:14:56,389
+return will be 10 plus fk
+which is f 2 right f2 which is what
+
+630
+00:14:56,389 --> 00:14:56,399
+which is f 2 right f2 which is what
+ 
+
+631
+00:14:56,399 --> 00:14:59,990
+which is f 2 right f2 which is what
+f2 according to this f2 is
+
+632
+00:14:59,990 --> 00:15:00,000
+f2 according to this f2 is
+ 
+
+633
+00:15:00,000 --> 00:15:04,150
+f2 according to this f2 is
+uh f2 is what at
+
+634
+00:15:04,150 --> 00:15:04,160
+uh f2 is what at
+ 
+
+635
+00:15:04,160 --> 00:15:07,509
+uh f2 is what at
+80 81 right
+
+636
+00:15:07,509 --> 00:15:07,519
+80 81 right
+ 
+
+637
+00:15:07,519 --> 00:15:12,150
+80 81 right
+look this function already this function
+
+638
+00:15:12,150 --> 00:15:12,160
+look this function already this function
+ 
+
+639
+00:15:12,160 --> 00:15:16,150
+look this function already this function
+f1 equal equals 1 uh equals 9.
+
+640
+00:15:16,150 --> 00:15:16,160
+f1 equal equals 1 uh equals 9.
+ 
+
+641
+00:15:16,160 --> 00:15:18,470
+f1 equal equals 1 uh equals 9.
+yeah look eric we're not confusing
+
+642
+00:15:18,470 --> 00:15:18,480
+yeah look eric we're not confusing
+ 
+
+643
+00:15:18,480 --> 00:15:19,910
+yeah look eric we're not confusing
+everything look in this play isn't it we
+
+644
+00:15:19,910 --> 00:15:19,920
+everything look in this play isn't it we
+ 
+
+645
+00:15:19,920 --> 00:15:21,110
+everything look in this play isn't it we
+are not confusing with f
+
+646
+00:15:21,110 --> 00:15:21,120
+are not confusing with f
+ 
+
+647
+00:15:21,120 --> 00:15:23,350
+are not confusing with f
+and count yeah i was a bit confusing
+
+648
+00:15:23,350 --> 00:15:23,360
+and count yeah i was a bit confusing
+ 
+
+649
+00:15:23,360 --> 00:15:24,629
+and count yeah i was a bit confusing
+before fk
+
+650
+00:15:24,629 --> 00:15:24,639
+before fk
+ 
+
+651
+00:15:24,639 --> 00:15:27,670
+before fk
+only calculate f1 equals 9 f2
+
+652
+00:15:27,670 --> 00:15:27,680
+only calculate f1 equals 9 f2
+ 
+
+653
+00:15:27,680 --> 00:15:31,110
+only calculate f1 equals 9 f2
+equals 1 81 right
+
+654
+00:15:31,110 --> 00:15:31,120
+equals 1 81 right
+ 
+
+655
+00:15:31,120 --> 00:15:34,790
+equals 1 81 right
+eight times nine times f3 is times a so
+
+656
+00:15:34,790 --> 00:15:34,800
+eight times nine times f3 is times a so
+ 
+
+657
+00:15:34,800 --> 00:15:35,189
+eight times nine times f3 is times a so
+this
+
+658
+00:15:35,189 --> 00:15:35,199
+this
+ 
+
+659
+00:15:35,199 --> 00:15:37,590
+this
+this function nine times nine times
+
+660
+00:15:37,590 --> 00:15:37,600
+this function nine times nine times
+ 
+
+661
+00:15:37,600 --> 00:15:38,629
+this function nine times nine times
+eight yeah this
+
+662
+00:15:38,629 --> 00:15:38,639
+eight yeah this
+ 
+
+663
+00:15:38,639 --> 00:15:41,910
+eight yeah this
+these fk is this function okay and then
+
+664
+00:15:41,910 --> 00:15:41,920
+these fk is this function okay and then
+ 
+
+665
+00:15:41,920 --> 00:15:44,069
+these fk is this function okay and then
+now we need to count how many of them so
+
+666
+00:15:44,069 --> 00:15:44,079
+now we need to count how many of them so
+ 
+
+667
+00:15:44,079 --> 00:15:44,710
+now we need to count how many of them so
+it's 10
+
+668
+00:15:44,710 --> 00:15:44,720
+it's 10
+ 
+
+669
+00:15:44,720 --> 00:15:49,269
+it's 10
+plus plus f2 plus f3 plus s4 okay so
+
+670
+00:15:49,269 --> 00:15:49,279
+plus plus f2 plus f3 plus s4 okay so
+ 
+
+671
+00:15:49,279 --> 00:15:52,470
+plus plus f2 plus f3 plus s4 okay so
+that's the total number of uh numbers
+
+672
+00:15:52,470 --> 00:15:52,480
+that's the total number of uh numbers
+ 
+
+673
+00:15:52,480 --> 00:15:55,350
+that's the total number of uh numbers
+with unique digits okay
+
+674
+00:15:55,350 --> 00:15:55,360
+with unique digits okay
+ 
+
+675
+00:15:55,360 --> 00:15:57,990
+with unique digits okay
+yeah this is mathematics to calculate it
+
+676
+00:15:57,990 --> 00:15:58,000
+yeah this is mathematics to calculate it
+ 
+
+677
+00:15:58,000 --> 00:15:58,949
+yeah this is mathematics to calculate it
+right
+
+678
+00:15:58,949 --> 00:15:58,959
+right
+ 
+
+679
+00:15:58,959 --> 00:16:01,910
+right
+all right yeah so how we counting we
+
+680
+00:16:01,910 --> 00:16:01,920
+all right yeah so how we counting we
+ 
+
+681
+00:16:01,920 --> 00:16:02,710
+all right yeah so how we counting we
+count
+
+682
+00:16:02,710 --> 00:16:02,720
+count
+ 
+
+683
+00:16:02,720 --> 00:16:06,230
+count
+the one digit and we added
+
+684
+00:16:06,230 --> 00:16:06,240
+the one digit and we added
+ 
+
+685
+00:16:06,240 --> 00:16:08,870
+the one digit and we added
+two digits and we added three digits
+
+686
+00:16:08,870 --> 00:16:08,880
+two digits and we added three digits
+ 
+
+687
+00:16:08,880 --> 00:16:10,069
+two digits and we added three digits
+three
+
+688
+00:16:10,069 --> 00:16:10,079
+three
+ 
+
+689
+00:16:10,079 --> 00:16:13,670
+three
+so the overall discount is what f
+
+690
+00:16:13,670 --> 00:16:13,680
+so the overall discount is what f
+ 
+
+691
+00:16:13,680 --> 00:16:16,790
+so the overall discount is what f
+f1 f0 plus f1
+
+692
+00:16:16,790 --> 00:16:16,800
+f1 f0 plus f1
+ 
+
+693
+00:16:16,800 --> 00:16:20,150
+f1 f0 plus f1
+plus f2 plus plus fn
+
+694
+00:16:20,150 --> 00:16:20,160
+plus f2 plus plus fn
+ 
+
+695
+00:16:20,160 --> 00:16:26,389
+plus f2 plus plus fn
+okay
+
+696
+00:16:26,389 --> 00:16:26,399
+
+ 
+
+697
+00:16:26,399 --> 00:16:30,069
+
+okay so this is what 81 plus 10
+
+698
+00:16:30,069 --> 00:16:30,079
+okay so this is what 81 plus 10
+ 
+
+699
+00:16:30,079 --> 00:16:33,110
+okay so this is what 81 plus 10
+is 91 yeah it's the same as we a hundred
+
+700
+00:16:33,110 --> 00:16:33,120
+is 91 yeah it's the same as we a hundred
+ 
+
+701
+00:16:33,120 --> 00:16:37,030
+is 91 yeah it's the same as we a hundred
+substrate nine right it's the same
+
+702
+00:16:37,030 --> 00:16:37,040
+substrate nine right it's the same
+ 
+
+703
+00:16:37,040 --> 00:16:40,629
+substrate nine right it's the same
+okay so now we can do this look at this
+
+704
+00:16:40,629 --> 00:16:40,639
+okay so now we can do this look at this
+ 
+
+705
+00:16:40,639 --> 00:16:40,870
+okay so now we can do this look at this
+f
+
+706
+00:16:40,870 --> 00:16:40,880
+f
+ 
+
+707
+00:16:40,880 --> 00:16:42,629
+f
+function we can do it using the dynamic
+
+708
+00:16:42,629 --> 00:16:42,639
+function we can do it using the dynamic
+ 
+
+709
+00:16:42,639 --> 00:16:45,030
+function we can do it using the dynamic
+programming okay
+
+710
+00:16:45,030 --> 00:16:45,040
+programming okay
+ 
+
+711
+00:16:45,040 --> 00:16:47,189
+programming okay
+yeah a dynamic programming so look how
+
+712
+00:16:47,189 --> 00:16:47,199
+yeah a dynamic programming so look how
+ 
+
+713
+00:16:47,199 --> 00:16:57,829
+yeah a dynamic programming so look how
+many dynamic programming do we have
+
+714
+00:16:57,829 --> 00:16:57,839
+
+ 
+
+715
+00:16:57,839 --> 00:17:01,269
+
+yeah okay so look this ff
+
+716
+00:17:01,269 --> 00:17:01,279
+yeah okay so look this ff
+ 
+
+717
+00:17:01,279 --> 00:17:04,870
+yeah okay so look this ff
+function is a function so look can we
+
+718
+00:17:04,870 --> 00:17:04,880
+function is a function so look can we
+ 
+
+719
+00:17:04,880 --> 00:17:05,429
+function is a function so look can we
+write this
+
+720
+00:17:05,429 --> 00:17:05,439
+write this
+ 
+
+721
+00:17:05,439 --> 00:17:08,549
+write this
+f k equals
+
+722
+00:17:08,549 --> 00:17:08,559
+f k equals
+ 
+
+723
+00:17:08,559 --> 00:17:13,350
+f k equals
+f k minus 1 times times y
+
+724
+00:17:13,350 --> 00:17:13,360
+f k minus 1 times times y
+ 
+
+725
+00:17:13,360 --> 00:17:15,510
+f k minus 1 times times y
+so look we don't know times one okay
+
+726
+00:17:15,510 --> 00:17:15,520
+so look we don't know times one okay
+ 
+
+727
+00:17:15,520 --> 00:17:16,829
+so look we don't know times one okay
+look
+
+728
+00:17:16,829 --> 00:17:16,839
+look
+ 
+
+729
+00:17:16,839 --> 00:17:19,990
+look
+f3 equals f2
+
+730
+00:17:19,990 --> 00:17:20,000
+f3 equals f2
+ 
+
+731
+00:17:20,000 --> 00:17:23,829
+f3 equals f2
+times
+
+732
+00:17:23,829 --> 00:17:23,839
+
+ 
+
+733
+00:17:23,839 --> 00:17:26,710
+
+eight right all right yeah because look
+
+734
+00:17:26,710 --> 00:17:26,720
+eight right all right yeah because look
+ 
+
+735
+00:17:26,720 --> 00:17:28,309
+eight right all right yeah because look
+9 times 9 times 8
+
+736
+00:17:28,309 --> 00:17:28,319
+9 times 9 times 8
+ 
+
+737
+00:17:28,319 --> 00:17:31,750
+9 times 9 times 8
+yeah this is f2 yeah look
+
+738
+00:17:31,750 --> 00:17:31,760
+yeah this is f2 yeah look
+ 
+
+739
+00:17:31,760 --> 00:17:35,750
+yeah this is f2 yeah look
+f2 equals f1
+
+740
+00:17:35,750 --> 00:17:35,760
+f2 equals f1
+ 
+
+741
+00:17:35,760 --> 00:17:39,830
+f2 equals f1
+times nine right all right
+
+742
+00:17:39,830 --> 00:17:39,840
+times nine right all right
+ 
+
+743
+00:17:39,840 --> 00:17:43,430
+times nine right all right
+f4 equals f3 times one
+
+744
+00:17:43,430 --> 00:17:43,440
+f4 equals f3 times one
+ 
+
+745
+00:17:43,440 --> 00:17:46,630
+f4 equals f3 times one
+f4 equals f three
+
+746
+00:17:46,630 --> 00:17:46,640
+f4 equals f three
+ 
+
+747
+00:17:46,640 --> 00:17:49,750
+f4 equals f three
+times f2 no no this is f
+
+748
+00:17:49,750 --> 00:17:49,760
+times f2 no no this is f
+ 
+
+749
+00:17:49,760 --> 00:17:53,909
+times f2 no no this is f
+f3 yeah this is f4 f4 equals f3 times
+
+750
+00:17:53,909 --> 00:17:53,919
+f3 yeah this is f4 f4 equals f3 times
+ 
+
+751
+00:17:53,919 --> 00:17:55,270
+f3 yeah this is f4 f4 equals f3 times
+one
+
+752
+00:17:55,270 --> 00:17:55,280
+one
+ 
+
+753
+00:17:55,280 --> 00:17:57,590
+one
+times the last one yeah what was the
+
+754
+00:17:57,590 --> 00:17:57,600
+times the last one yeah what was the
+ 
+
+755
+00:17:57,600 --> 00:18:02,470
+times the last one yeah what was the
+last one
+
+756
+00:18:02,470 --> 00:18:02,480
+
+ 
+
+757
+00:18:02,480 --> 00:18:05,909
+
+sorry look f3 equals f2 times
+
+758
+00:18:05,909 --> 00:18:05,919
+sorry look f3 equals f2 times
+ 
+
+759
+00:18:05,919 --> 00:18:10,390
+sorry look f3 equals f2 times
+a f3 equals f2 times a
+
+760
+00:18:10,390 --> 00:18:10,400
+a f3 equals f2 times a
+ 
+
+761
+00:18:10,400 --> 00:18:13,430
+a f3 equals f2 times a
+yeah f4 equals f4
+
+762
+00:18:13,430 --> 00:18:13,440
+yeah f4 equals f4
+ 
+
+763
+00:18:13,440 --> 00:18:16,710
+yeah f4 equals f4
+equals f3 times one can you can you
+
+764
+00:18:16,710 --> 00:18:16,720
+equals f3 times one can you can you
+ 
+
+765
+00:18:16,720 --> 00:18:18,310
+equals f3 times one can you can you
+release
+
+766
+00:18:18,310 --> 00:18:18,320
+release
+ 
+
+767
+00:18:18,320 --> 00:18:21,909
+release
+f4 equals
+
+768
+00:18:21,909 --> 00:18:21,919
+f4 equals
+ 
+
+769
+00:18:21,919 --> 00:18:25,990
+f4 equals
+f3 f
+
+770
+00:18:25,990 --> 00:18:26,000
+
+ 
+
+771
+00:18:26,000 --> 00:18:29,590
+
+comma is here why what you're looking 7
+
+772
+00:18:29,590 --> 00:18:29,600
+comma is here why what you're looking 7
+ 
+
+773
+00:18:29,600 --> 00:18:32,310
+comma is here why what you're looking 7
+7 okay and then i'm going to do it f5
+
+774
+00:18:32,310 --> 00:18:32,320
+7 okay and then i'm going to do it f5
+ 
+
+775
+00:18:32,320 --> 00:18:35,350
+7 okay and then i'm going to do it f5
+equals four times one
+
+776
+00:18:35,350 --> 00:18:35,360
+equals four times one
+ 
+
+777
+00:18:35,360 --> 00:18:38,870
+equals four times one
+f4 times six
+
+778
+00:18:38,870 --> 00:18:38,880
+f4 times six
+ 
+
+779
+00:18:38,880 --> 00:18:41,270
+f4 times six
+okay got it yeah eight seven six so we
+
+780
+00:18:41,270 --> 00:18:41,280
+okay got it yeah eight seven six so we
+ 
+
+781
+00:18:41,280 --> 00:18:42,310
+okay got it yeah eight seven six so we
+can do this
+
+782
+00:18:42,310 --> 00:18:42,320
+can do this
+ 
+
+783
+00:18:42,320 --> 00:18:45,990
+can do this
+f k equals f one k minus one times one
+
+784
+00:18:45,990 --> 00:18:46,000
+f k equals f one k minus one times one
+ 
+
+785
+00:18:46,000 --> 00:18:49,350
+f k equals f one k minus one times one
+times one can you write this one three
+
+786
+00:18:49,350 --> 00:18:49,360
+times one can you write this one three
+ 
+
+787
+00:18:49,360 --> 00:18:52,630
+times one can you write this one three
+okay look three plus eight
+
+788
+00:18:52,630 --> 00:18:52,640
+okay look three plus eight
+ 
+
+789
+00:18:52,640 --> 00:18:56,150
+okay look three plus eight
+three plus eight eleven four five seven
+
+790
+00:18:56,150 --> 00:18:56,160
+three plus eight eleven four five seven
+ 
+
+791
+00:18:56,160 --> 00:18:58,950
+three plus eight eleven four five seven
+eleven five plus six eleven so that's
+
+792
+00:18:58,950 --> 00:18:58,960
+eleven five plus six eleven so that's
+ 
+
+793
+00:18:58,960 --> 00:18:59,270
+eleven five plus six eleven so that's
+what
+
+794
+00:18:59,270 --> 00:18:59,280
+what
+ 
+
+795
+00:18:59,280 --> 00:19:04,230
+what
+eleven minus one
+
+796
+00:19:04,230 --> 00:19:04,240
+
+ 
+
+797
+00:19:04,240 --> 00:19:07,590
+
+three okay
+
+798
+00:19:07,590 --> 00:19:07,600
+three okay
+ 
+
+799
+00:19:07,600 --> 00:19:10,870
+three okay
+fk equals fk minus 1 times what
+
+800
+00:19:10,870 --> 00:19:10,880
+fk equals fk minus 1 times what
+ 
+
+801
+00:19:10,880 --> 00:19:15,110
+fk equals fk minus 1 times what
+these two minus 11
+
+802
+00:19:15,110 --> 00:19:15,120
+these two minus 11
+ 
+
+803
+00:19:15,120 --> 00:19:18,390
+these two minus 11
+these two parts one sorry
+
+804
+00:19:18,390 --> 00:19:18,400
+these two parts one sorry
+ 
+
+805
+00:19:18,400 --> 00:19:21,590
+these two parts one sorry
+these two this is k and what's this
+
+806
+00:19:21,590 --> 00:19:21,600
+these two this is k and what's this
+ 
+
+807
+00:19:21,600 --> 00:19:24,310
+these two this is k and what's this
+these two plus equals 11 and this is k
+
+808
+00:19:24,310 --> 00:19:24,320
+these two plus equals 11 and this is k
+ 
+
+809
+00:19:24,320 --> 00:19:28,549
+these two plus equals 11 and this is k
+what's this
+
+810
+00:19:28,549 --> 00:19:28,559
+
+ 
+
+811
+00:19:28,559 --> 00:19:31,270
+
+two numbers added to 11 one is one is k
+
+812
+00:19:31,270 --> 00:19:31,280
+two numbers added to 11 one is one is k
+ 
+
+813
+00:19:31,280 --> 00:19:34,390
+two numbers added to 11 one is one is k
+the other one is what
+
+814
+00:19:34,390 --> 00:19:34,400
+
+ 
+
+815
+00:19:34,400 --> 00:19:37,990
+
+one is k and the other one is
+
+816
+00:19:37,990 --> 00:19:38,000
+one is k and the other one is
+ 
+
+817
+00:19:38,000 --> 00:19:41,590
+one is k and the other one is
+is what
+
+818
+00:19:41,590 --> 00:19:41,600
+
+ 
+
+819
+00:19:41,600 --> 00:19:44,310
+
+two numbers added to eleven one is k the
+
+820
+00:19:44,310 --> 00:19:44,320
+two numbers added to eleven one is k the
+ 
+
+821
+00:19:44,320 --> 00:19:46,310
+two numbers added to eleven one is k the
+other one is what
+
+822
+00:19:46,310 --> 00:19:46,320
+other one is what
+ 
+
+823
+00:19:46,320 --> 00:19:49,590
+other one is what
+f eleven minus k yes
+
+824
+00:19:49,590 --> 00:19:49,600
+f eleven minus k yes
+ 
+
+825
+00:19:49,600 --> 00:19:51,990
+f eleven minus k yes
+eleven minus k come on why what take you
+
+826
+00:19:51,990 --> 00:19:52,000
+eleven minus k come on why what take you
+ 
+
+827
+00:19:52,000 --> 00:19:52,710
+eleven minus k come on why what take you
+so long
+
+828
+00:19:52,710 --> 00:19:52,720
+so long
+ 
+
+829
+00:19:52,720 --> 00:19:56,470
+so long
+huh huh okay
+
+830
+00:19:56,470 --> 00:19:56,480
+huh huh okay
+ 
+
+831
+00:19:56,480 --> 00:19:59,510
+huh huh okay
+okay so look this is this is the dynamic
+
+832
+00:19:59,510 --> 00:19:59,520
+okay so look this is this is the dynamic
+ 
+
+833
+00:19:59,520 --> 00:20:00,950
+okay so look this is this is the dynamic
+programming
+
+834
+00:20:00,950 --> 00:20:00,960
+programming
+ 
+
+835
+00:20:00,960 --> 00:20:03,990
+programming
+transition function right yeah
+
+836
+00:20:03,990 --> 00:20:04,000
+transition function right yeah
+ 
+
+837
+00:20:04,000 --> 00:20:06,470
+transition function right yeah
+all right so we can implement it using
+
+838
+00:20:06,470 --> 00:20:06,480
+all right so we can implement it using
+ 
+
+839
+00:20:06,480 --> 00:20:07,909
+all right so we can implement it using
+top down or bottom up
+
+840
+00:20:07,909 --> 00:20:07,919
+top down or bottom up
+ 
+
+841
+00:20:07,919 --> 00:20:11,270
+top down or bottom up
+right okay you tell me okay
+
+842
+00:20:11,270 --> 00:20:11,280
+right okay you tell me okay
+ 
+
+843
+00:20:11,280 --> 00:20:14,950
+right okay you tell me okay
+define f k
+
+844
+00:20:14,950 --> 00:20:14,960
+define f k
+ 
+
+845
+00:20:14,960 --> 00:20:18,230
+define f k
+if k equal zero return one
+
+846
+00:20:18,230 --> 00:20:18,240
+if k equal zero return one
+ 
+
+847
+00:20:18,240 --> 00:20:21,270
+if k equal zero return one
+if k equals zero return
+
+848
+00:20:21,270 --> 00:20:21,280
+if k equals zero return
+ 
+
+849
+00:20:21,280 --> 00:20:26,230
+if k equals zero return
+one if k equals one return one
+
+850
+00:20:26,230 --> 00:20:26,240
+one if k equals one return one
+ 
+
+851
+00:20:26,240 --> 00:20:29,990
+one if k equals one return one
+return one then
+
+852
+00:20:29,990 --> 00:20:30,000
+return one then
+ 
+
+853
+00:20:30,000 --> 00:20:33,350
+return one then
+nine we're done then return the
+
+854
+00:20:33,350 --> 00:20:33,360
+nine we're done then return the
+ 
+
+855
+00:20:33,360 --> 00:20:36,630
+nine we're done then return the
+complexity between fk
+
+856
+00:20:36,630 --> 00:20:36,640
+complexity between fk
+ 
+
+857
+00:20:36,640 --> 00:20:40,149
+complexity between fk
+minus one times one times one
+
+858
+00:20:40,149 --> 00:20:40,159
+minus one times one times one
+ 
+
+859
+00:20:40,159 --> 00:20:46,070
+minus one times one times one
+fk minus one times one
+
+860
+00:20:46,070 --> 00:20:46,080
+
+ 
+
+861
+00:20:46,080 --> 00:20:49,190
+
+fk minus one times one the one i seo two
+
+862
+00:20:49,190 --> 00:20:49,200
+fk minus one times one the one i seo two
+ 
+
+863
+00:20:49,200 --> 00:20:49,669
+fk minus one times one the one i seo two
+numbers
+
+864
+00:20:49,669 --> 00:20:49,679
+numbers
+ 
+
+865
+00:20:49,679 --> 00:20:54,870
+numbers
+seven minus k what's the meaning here
+
+866
+00:20:54,870 --> 00:20:54,880
+
+ 
+
+867
+00:20:54,880 --> 00:20:57,350
+
+cash okay no column my only thing is
+
+868
+00:20:57,350 --> 00:20:57,360
+cash okay no column my only thing is
+ 
+
+869
+00:20:57,360 --> 00:20:59,270
+cash okay no column my only thing is
+cash
+
+870
+00:20:59,270 --> 00:20:59,280
+cash
+ 
+
+871
+00:20:59,280 --> 00:21:03,270
+cash
+okay to to save the values yeah
+
+872
+00:21:03,270 --> 00:21:03,280
+okay to to save the values yeah
+ 
+
+873
+00:21:03,280 --> 00:21:05,190
+okay to to save the values yeah
+to memorize the value okay what you
+
+874
+00:21:05,190 --> 00:21:05,200
+to memorize the value okay what you
+ 
+
+875
+00:21:05,200 --> 00:21:07,510
+to memorize the value okay what you
+doing
+
+876
+00:21:07,510 --> 00:21:07,520
+doing
+ 
+
+877
+00:21:07,520 --> 00:21:12,149
+doing
+okay can we do this photo app
+
+878
+00:21:12,149 --> 00:21:12,159
+okay can we do this photo app
+ 
+
+879
+00:21:12,159 --> 00:21:15,190
+okay can we do this photo app
+can we do this for that yeah right the
+
+880
+00:21:15,190 --> 00:21:15,200
+can we do this for that yeah right the
+ 
+
+881
+00:21:15,200 --> 00:21:16,470
+can we do this for that yeah right the
+time complex
+
+882
+00:21:16,470 --> 00:21:16,480
+time complex
+ 
+
+883
+00:21:16,480 --> 00:21:19,990
+time complex
+day is one why is r1
+
+884
+00:21:19,990 --> 00:21:20,000
+day is one why is r1
+ 
+
+885
+00:21:20,000 --> 00:21:24,470
+day is one why is r1
+because it's a one why is a one
+
+886
+00:21:24,470 --> 00:21:24,480
+because it's a one why is a one
+ 
+
+887
+00:21:24,480 --> 00:21:28,630
+because it's a one why is a one
+no it's not a one oh okay okay
+
+888
+00:21:28,630 --> 00:21:28,640
+no it's not a one oh okay okay
+ 
+
+889
+00:21:28,640 --> 00:21:31,830
+no it's not a one oh okay okay
+if
+
+890
+00:21:31,830 --> 00:21:31,840
+
+ 
+
+891
+00:21:31,840 --> 00:21:35,750
+
+okay okay okay but you can make it a one
+
+892
+00:21:35,750 --> 00:21:35,760
+okay okay okay but you can make it a one
+ 
+
+893
+00:21:35,760 --> 00:21:36,870
+okay okay okay but you can make it a one
+how
+
+894
+00:21:36,870 --> 00:21:36,880
+how
+ 
+
+895
+00:21:36,880 --> 00:21:39,990
+how
+because what did i just tell you eric
+
+896
+00:21:39,990 --> 00:21:40,000
+because what did i just tell you eric
+ 
+
+897
+00:21:40,000 --> 00:21:43,590
+because what did i just tell you eric
+listen you're not playing with ryan
+
+898
+00:21:43,590 --> 00:21:43,600
+listen you're not playing with ryan
+ 
+
+899
+00:21:43,600 --> 00:21:46,630
+listen you're not playing with ryan
+ryan said is a one
+
+900
+00:21:46,630 --> 00:21:46,640
+ryan said is a one
+ 
+
+901
+00:21:46,640 --> 00:21:49,909
+ryan said is a one
+a one but i'm saying it's okay
+
+902
+00:21:49,909 --> 00:21:49,919
+a one but i'm saying it's okay
+ 
+
+903
+00:21:49,919 --> 00:21:53,510
+a one but i'm saying it's okay
+but you can make it a one why is that
+
+904
+00:21:53,510 --> 00:21:53,520
+but you can make it a one why is that
+ 
+
+905
+00:21:53,520 --> 00:21:57,270
+but you can make it a one why is that
+because remember the eleven eleven balls
+
+906
+00:21:57,270 --> 00:21:57,280
+because remember the eleven eleven balls
+ 
+
+907
+00:21:57,280 --> 00:22:00,870
+because remember the eleven eleven balls
+cutting into eleven boxes by adding
+
+908
+00:22:00,870 --> 00:22:00,880
+cutting into eleven boxes by adding
+ 
+
+909
+00:22:00,880 --> 00:22:03,350
+cutting into eleven boxes by adding
+two together something so i can check
+
+910
+00:22:03,350 --> 00:22:03,360
+two together something so i can check
+ 
+
+911
+00:22:03,360 --> 00:22:04,390
+two together something so i can check
+look if
+
+912
+00:22:04,390 --> 00:22:04,400
+look if
+ 
+
+913
+00:22:04,400 --> 00:22:08,630
+look if
+k bigger than ten okay
+
+914
+00:22:08,630 --> 00:22:08,640
+k bigger than ten okay
+ 
+
+915
+00:22:08,640 --> 00:22:12,470
+k bigger than ten okay
+what should we return what we turn
+
+916
+00:22:12,470 --> 00:22:12,480
+what should we return what we turn
+ 
+
+917
+00:22:12,480 --> 00:22:15,830
+what should we return what we turn
+k if k bigger than 10 return how many
+
+918
+00:22:15,830 --> 00:22:15,840
+k if k bigger than 10 return how many
+ 
+
+919
+00:22:15,840 --> 00:22:17,669
+k if k bigger than 10 return how many
+solutions how many
+
+920
+00:22:17,669 --> 00:22:17,679
+solutions how many
+ 
+
+921
+00:22:17,679 --> 00:22:24,830
+solutions how many
+we turn
+
+922
+00:22:24,830 --> 00:22:24,840
+
+ 
+
+923
+00:22:24,840 --> 00:22:25,990
+
+um
+
+924
+00:22:25,990 --> 00:22:26,000
+um
+ 
+
+925
+00:22:26,000 --> 00:22:30,390
+um
+okay
+
+926
+00:22:30,390 --> 00:22:30,400
+
+ 
+
+927
+00:22:30,400 --> 00:22:32,390
+
+remember the beginning i said 10 balls
+
+928
+00:22:32,390 --> 00:22:32,400
+remember the beginning i said 10 balls
+ 
+
+929
+00:22:32,400 --> 00:22:33,909
+remember the beginning i said 10 balls
+put it into the 11
+
+930
+00:22:33,909 --> 00:22:33,919
+put it into the 11
+ 
+
+931
+00:22:33,919 --> 00:22:36,149
+put it into the 11
+boxes how many solutions can you find
+
+932
+00:22:36,149 --> 00:22:36,159
+boxes how many solutions can you find
+ 
+
+933
+00:22:36,159 --> 00:22:37,669
+boxes how many solutions can you find
+with the unique
+
+934
+00:22:37,669 --> 00:22:37,679
+with the unique
+ 
+
+935
+00:22:37,679 --> 00:22:41,430
+with the unique
+numbers every digit can you find any
+
+936
+00:22:41,430 --> 00:22:41,440
+numbers every digit can you find any
+ 
+
+937
+00:22:41,440 --> 00:22:44,789
+numbers every digit can you find any
+no no what's that yes
+
+938
+00:22:44,789 --> 00:22:44,799
+no no what's that yes
+ 
+
+939
+00:22:44,799 --> 00:22:48,470
+no no what's that yes
+zero yes so do you understand why we can
+
+940
+00:22:48,470 --> 00:22:48,480
+zero yes so do you understand why we can
+ 
+
+941
+00:22:48,480 --> 00:22:49,669
+zero yes so do you understand why we can
+make it a one
+
+942
+00:22:49,669 --> 00:22:49,679
+make it a one
+ 
+
+943
+00:22:49,679 --> 00:22:52,470
+make it a one
+do you get it if we're not putting this
+
+944
+00:22:52,470 --> 00:22:52,480
+do you get it if we're not putting this
+ 
+
+945
+00:22:52,480 --> 00:22:54,310
+do you get it if we're not putting this
+it's okay right
+
+946
+00:22:54,310 --> 00:22:54,320
+it's okay right
+ 
+
+947
+00:22:54,320 --> 00:22:57,430
+it's okay right
+it's okay but if we put in these
+
+948
+00:22:57,430 --> 00:22:57,440
+it's okay but if we put in these
+ 
+
+949
+00:22:57,440 --> 00:22:59,830
+it's okay but if we put in these
+any numbers greater than 10 we are
+
+950
+00:22:59,830 --> 00:22:59,840
+any numbers greater than 10 we are
+ 
+
+951
+00:22:59,840 --> 00:23:01,430
+any numbers greater than 10 we are
+returning directly
+
+952
+00:23:01,430 --> 00:23:01,440
+returning directly
+ 
+
+953
+00:23:01,440 --> 00:23:03,110
+returning directly
+because we know we can't find any
+
+954
+00:23:03,110 --> 00:23:03,120
+because we know we can't find any
+ 
+
+955
+00:23:03,120 --> 00:23:05,669
+because we know we can't find any
+solutions eric you need to pay attention
+
+956
+00:23:05,669 --> 00:23:05,679
+solutions eric you need to pay attention
+ 
+
+957
+00:23:05,679 --> 00:23:09,510
+solutions eric you need to pay attention
+you get it yeah
+
+958
+00:23:09,510 --> 00:23:09,520
+you get it yeah
+ 
+
+959
+00:23:09,520 --> 00:23:11,669
+you get it yeah
+at the beginning and you know none of
+
+960
+00:23:11,669 --> 00:23:11,679
+at the beginning and you know none of
+ 
+
+961
+00:23:11,679 --> 00:23:13,190
+at the beginning and you know none of
+you pay attention
+
+962
+00:23:13,190 --> 00:23:13,200
+you pay attention
+ 
+
+963
+00:23:13,200 --> 00:23:15,990
+you pay attention
+can't remember i can't remember need to
+
+964
+00:23:15,990 --> 00:23:16,000
+can't remember i can't remember need to
+ 
+
+965
+00:23:16,000 --> 00:23:16,870
+can't remember i can't remember need to
+understand
+
+966
+00:23:16,870 --> 00:23:16,880
+understand
+ 
+
+967
+00:23:16,880 --> 00:23:20,070
+understand
+not remember got it right
+
+968
+00:23:20,070 --> 00:23:20,080
+not remember got it right
+ 
+
+969
+00:23:20,080 --> 00:23:23,110
+not remember got it right
+more important okay and look
+
+970
+00:23:23,110 --> 00:23:23,120
+more important okay and look
+ 
+
+971
+00:23:23,120 --> 00:23:26,070
+more important okay and look
+eric what sit down don't play okay sit
+
+972
+00:23:26,070 --> 00:23:26,080
+eric what sit down don't play okay sit
+ 
+
+973
+00:23:26,080 --> 00:23:27,270
+eric what sit down don't play okay sit
+down
+
+974
+00:23:27,270 --> 00:23:27,280
+down
+ 
+
+975
+00:23:27,280 --> 00:23:30,950
+down
+look look dp let's do it dp away okay dp
+
+976
+00:23:30,950 --> 00:23:30,960
+look look dp let's do it dp away okay dp
+ 
+
+977
+00:23:30,960 --> 00:23:32,310
+look look dp let's do it dp away okay dp
+alright let's see
+
+978
+00:23:32,310 --> 00:23:32,320
+alright let's see
+ 
+
+979
+00:23:32,320 --> 00:23:36,230
+alright let's see
+10 times 11 okay because atmos 11 okay
+
+980
+00:23:36,230 --> 00:23:36,240
+10 times 11 okay because atmos 11 okay
+ 
+
+981
+00:23:36,240 --> 00:23:41,269
+10 times 11 okay because atmos 11 okay
+yes and then now i can do this
+
+982
+00:23:41,269 --> 00:23:41,279
+
+ 
+
+983
+00:23:41,279 --> 00:23:44,390
+
+d p zero equals what p b
+
+984
+00:23:44,390 --> 00:23:44,400
+d p zero equals what p b
+ 
+
+985
+00:23:44,400 --> 00:23:47,430
+d p zero equals what p b
+zero equals one d p zero equals d
+
+986
+00:23:47,430 --> 00:23:47,440
+zero equals one d p zero equals d
+ 
+
+987
+00:23:47,440 --> 00:23:51,669
+zero equals one d p zero equals d
+p d v z along the beginning is what
+
+988
+00:23:51,669 --> 00:23:51,679
+p d v z along the beginning is what
+ 
+
+989
+00:23:51,679 --> 00:23:55,110
+p d v z along the beginning is what
+is nine zero
+
+990
+00:23:55,110 --> 00:23:55,120
+is nine zero
+ 
+
+991
+00:23:55,120 --> 00:23:58,390
+is nine zero
+one is nine tv zero is what
+
+992
+00:23:58,390 --> 00:23:58,400
+one is nine tv zero is what
+ 
+
+993
+00:23:58,400 --> 00:24:02,870
+one is nine tv zero is what
+one is nine tv zero come on
+
+994
+00:24:02,870 --> 00:24:02,880
+one is nine tv zero come on
+ 
+
+995
+00:24:02,880 --> 00:24:06,470
+one is nine tv zero come on
+how many within this range one
+
+996
+00:24:06,470 --> 00:24:06,480
+how many within this range one
+ 
+
+997
+00:24:06,480 --> 00:24:10,549
+how many within this range one
+one okay then i can do this for i
+
+998
+00:24:10,549 --> 00:24:10,559
+one okay then i can do this for i
+ 
+
+999
+00:24:10,559 --> 00:24:15,430
+one okay then i can do this for i
+in french ten
+
+1000
+00:24:15,430 --> 00:24:15,440
+in french ten
+ 
+
+1001
+00:24:15,440 --> 00:24:19,430
+in french ten
+range range let's do it k plus one okay
+
+1002
+00:24:19,430 --> 00:24:19,440
+range range let's do it k plus one okay
+ 
+
+1003
+00:24:19,440 --> 00:24:22,789
+range range let's do it k plus one okay
+so look if if k bigger than 10 will
+
+1004
+00:24:22,789 --> 00:24:22,799
+so look if if k bigger than 10 will
+ 
+
+1005
+00:24:22,799 --> 00:24:23,590
+so look if if k bigger than 10 will
+return
+
+1006
+00:24:23,590 --> 00:24:23,600
+return
+ 
+
+1007
+00:24:23,600 --> 00:24:26,549
+return
+we return one return zero okay just make
+
+1008
+00:24:26,549 --> 00:24:26,559
+we return one return zero okay just make
+ 
+
+1009
+00:24:26,559 --> 00:24:27,350
+we return one return zero okay just make
+sure
+
+1010
+00:24:27,350 --> 00:24:27,360
+sure
+ 
+
+1011
+00:24:27,360 --> 00:24:29,269
+sure
+and then now we can do this one is
+
+1012
+00:24:29,269 --> 00:24:29,279
+and then now we can do this one is
+ 
+
+1013
+00:24:29,279 --> 00:24:30,710
+and then now we can do this one is
+smaller than plus one
+
+1014
+00:24:30,710 --> 00:24:30,720
+smaller than plus one
+ 
+
+1015
+00:24:30,720 --> 00:24:32,710
+smaller than plus one
+uh actually here you need to start with
+
+1016
+00:24:32,710 --> 00:24:32,720
+uh actually here you need to start with
+ 
+
+1017
+00:24:32,720 --> 00:24:34,390
+uh actually here you need to start with
+two okay because ftp
+
+1018
+00:24:34,390 --> 00:24:34,400
+two okay because ftp
+ 
+
+1019
+00:24:34,400 --> 00:24:36,470
+two okay because ftp
+0 and dp1 will already calculated we
+
+1020
+00:24:36,470 --> 00:24:36,480
+0 and dp1 will already calculated we
+ 
+
+1021
+00:24:36,480 --> 00:24:39,190
+0 and dp1 will already calculated we
+start with two tlk
+
+1022
+00:24:39,190 --> 00:24:39,200
+start with two tlk
+ 
+
+1023
+00:24:39,200 --> 00:24:43,830
+start with two tlk
+dp okay you tell me dbk dpi
+
+1024
+00:24:43,830 --> 00:24:43,840
+dp okay you tell me dbk dpi
+ 
+
+1025
+00:24:43,840 --> 00:24:48,230
+dp okay you tell me dbk dpi
+equals what and return
+
+1026
+00:24:48,230 --> 00:24:48,240
+equals what and return
+ 
+
+1027
+00:24:48,240 --> 00:24:52,470
+equals what and return
+b p what
+
+1028
+00:24:52,470 --> 00:24:52,480
+b p what
+ 
+
+1029
+00:24:52,480 --> 00:24:56,230
+b p what
+can you guess d t i
+
+1030
+00:24:56,230 --> 00:24:56,240
+can you guess d t i
+ 
+
+1031
+00:24:56,240 --> 00:25:04,630
+can you guess d t i
+equals okay
+
+1032
+00:25:04,630 --> 00:25:04,640
+
+ 
+
+1033
+00:25:04,640 --> 00:25:06,230
+
+remember this dynamic programming
+
+1034
+00:25:06,230 --> 00:25:06,240
+remember this dynamic programming
+ 
+
+1035
+00:25:06,240 --> 00:25:08,789
+remember this dynamic programming
+transaction function
+
+1036
+00:25:08,789 --> 00:25:08,799
+transaction function
+ 
+
+1037
+00:25:08,799 --> 00:25:12,630
+transaction function
+f n equals f n minus 1 times
+
+1038
+00:25:12,630 --> 00:25:12,640
+f n equals f n minus 1 times
+ 
+
+1039
+00:25:12,640 --> 00:25:15,909
+f n equals f n minus 1 times
+11 times minus k remember remember minus
+
+1040
+00:25:15,909 --> 00:25:15,919
+11 times minus k remember remember minus
+ 
+
+1041
+00:25:15,919 --> 00:25:16,710
+11 times minus k remember remember minus
+n
+
+1042
+00:25:16,710 --> 00:25:16,720
+n
+ 
+
+1043
+00:25:16,720 --> 00:25:22,310
+n
+yeah okay so dpi equals what
+
+1044
+00:25:22,310 --> 00:25:22,320
+
+ 
+
+1045
+00:25:22,320 --> 00:25:25,669
+
+i minus 1
+
+1046
+00:25:25,669 --> 00:25:25,679
+i minus 1
+ 
+
+1047
+00:25:25,679 --> 00:25:45,590
+i minus 1
+times 11
+
+1048
+00:25:45,590 --> 00:25:45,600
+
+ 
+
+1049
+00:25:45,600 --> 00:25:53,430
+
+[Applause]
+
+1050
+00:25:53,430 --> 00:25:53,440
+
+ 
+
+1051
+00:25:53,440 --> 00:25:56,549
+
+dp1 and we starting to calculate dp2 dbt
+
+1052
+00:25:56,549 --> 00:25:56,559
+dp1 and we starting to calculate dp2 dbt
+ 
+
+1053
+00:25:56,559 --> 00:25:57,669
+dp1 and we starting to calculate dp2 dbt
+db4
+
+1054
+00:25:57,669 --> 00:25:57,679
+db4
+ 
+
+1055
+00:25:57,679 --> 00:26:00,870
+db4
+and here dbk right remember the previous
+
+1056
+00:26:00,870 --> 00:26:00,880
+and here dbk right remember the previous
+ 
+
+1057
+00:26:00,880 --> 00:26:02,870
+and here dbk right remember the previous
+one top down
+
+1058
+00:26:02,870 --> 00:26:02,880
+one top down
+ 
+
+1059
+00:26:02,880 --> 00:26:05,510
+one top down
+if k equals zero returns zero if k
+
+1060
+00:26:05,510 --> 00:26:05,520
+if k equals zero returns zero if k
+ 
+
+1061
+00:26:05,520 --> 00:26:07,029
+if k equals zero returns zero if k
+equals one return knife
+
+1062
+00:26:07,029 --> 00:26:07,039
+equals one return knife
+ 
+
+1063
+00:26:07,039 --> 00:26:11,029
+equals one return knife
+otherwise return what f k minus 1
+
+1064
+00:26:11,029 --> 00:26:11,039
+otherwise return what f k minus 1
+ 
+
+1065
+00:26:11,039 --> 00:26:14,870
+otherwise return what f k minus 1
+times 11 minus k right so you are
+
+1066
+00:26:14,870 --> 00:26:14,880
+times 11 minus k right so you are
+ 
+
+1067
+00:26:14,880 --> 00:26:17,190
+times 11 minus k right so you are
+calculating from the top to the bottom
+
+1068
+00:26:17,190 --> 00:26:17,200
+calculating from the top to the bottom
+ 
+
+1069
+00:26:17,200 --> 00:26:18,950
+calculating from the top to the bottom
+this one is calculating from bottom to
+
+1070
+00:26:18,950 --> 00:26:18,960
+this one is calculating from bottom to
+ 
+
+1071
+00:26:18,960 --> 00:26:19,750
+this one is calculating from bottom to
+the top
+
+1072
+00:26:19,750 --> 00:26:19,760
+the top
+ 
+
+1073
+00:26:19,760 --> 00:26:22,230
+the top
+right this one doesn't have a recursion
+
+1074
+00:26:22,230 --> 00:26:22,240
+right this one doesn't have a recursion
+ 
+
+1075
+00:26:22,240 --> 00:26:23,190
+right this one doesn't have a recursion
+right
+
+1076
+00:26:23,190 --> 00:26:23,200
+right
+ 
+
+1077
+00:26:23,200 --> 00:26:24,390
+right
+it doesn't have a request but the
+
+1078
+00:26:24,390 --> 00:26:24,400
+it doesn't have a request but the
+ 
+
+1079
+00:26:24,400 --> 00:26:26,710
+it doesn't have a request but the
+previous one is recursion
+
+1080
+00:26:26,710 --> 00:26:26,720
+previous one is recursion
+ 
+
+1081
+00:26:26,720 --> 00:26:29,029
+previous one is recursion
+in order to make a discussion a dynamic
+
+1082
+00:26:29,029 --> 00:26:29,039
+in order to make a discussion a dynamic
+ 
+
+1083
+00:26:29,039 --> 00:26:30,310
+in order to make a discussion a dynamic
+programming we need to add
+
+1084
+00:26:30,310 --> 00:26:30,320
+programming we need to add
+ 
+
+1085
+00:26:30,320 --> 00:26:33,350
+programming we need to add
+what cache
+
+1086
+00:26:33,350 --> 00:26:33,360
+what cache
+ 
+
+1087
+00:26:33,360 --> 00:26:35,909
+what cache
+we're done the notebook memorization
+
+1088
+00:26:35,909 --> 00:26:35,919
+we're done the notebook memorization
+ 
+
+1089
+00:26:35,919 --> 00:26:36,630
+we're done the notebook memorization
+okay
+
+1090
+00:26:36,630 --> 00:26:36,640
+okay
+ 
+
+1091
+00:26:36,640 --> 00:26:39,750
+okay
+so means f k then we can do this we can
+
+1092
+00:26:39,750 --> 00:26:39,760
+so means f k then we can do this we can
+ 
+
+1093
+00:26:39,760 --> 00:26:40,230
+so means f k then we can do this we can
+just
+
+1094
+00:26:40,230 --> 00:26:40,240
+just
+ 
+
+1095
+00:26:40,240 --> 00:26:43,350
+just
+do this sum return
+
+1096
+00:26:43,350 --> 00:26:43,360
+do this sum return
+ 
+
+1097
+00:26:43,360 --> 00:26:47,269
+do this sum return
+return one sum f n
+
+1098
+00:26:47,269 --> 00:26:47,279
+return one sum f n
+ 
+
+1099
+00:26:47,279 --> 00:26:50,789
+return one sum f n
+f k for k
+
+1100
+00:26:50,789 --> 00:26:50,799
+f k for k
+ 
+
+1101
+00:26:50,799 --> 00:26:54,390
+f k for k
+in range
+
+1102
+00:26:54,390 --> 00:26:54,400
+
+ 
+
+1103
+00:26:54,400 --> 00:26:57,590
+
+range n plus one okay that's it
+
+1104
+00:26:57,590 --> 00:26:57,600
+range n plus one okay that's it
+ 
+
+1105
+00:26:57,600 --> 00:27:00,630
+range n plus one okay that's it
+because we the final number is the
+
+1106
+00:27:00,630 --> 00:27:00,640
+because we the final number is the
+ 
+
+1107
+00:27:00,640 --> 00:27:02,470
+because we the final number is the
+number of the
+
+1108
+00:27:02,470 --> 00:27:02,480
+number of the
+ 
+
+1109
+00:27:02,480 --> 00:27:05,669
+number of the
+if the number of one digit the number of
+
+1110
+00:27:05,669 --> 00:27:05,679
+if the number of one digit the number of
+ 
+
+1111
+00:27:05,679 --> 00:27:07,590
+if the number of one digit the number of
+any number of two digits the three
+
+1112
+00:27:07,590 --> 00:27:07,600
+any number of two digits the three
+ 
+
+1113
+00:27:07,600 --> 00:27:09,350
+any number of two digits the three
+digits four digits until k digits
+
+1114
+00:27:09,350 --> 00:27:09,360
+digits four digits until k digits
+ 
+
+1115
+00:27:09,360 --> 00:27:11,909
+digits four digits until k digits
+right you add all these numbers together
+
+1116
+00:27:11,909 --> 00:27:11,919
+right you add all these numbers together
+ 
+
+1117
+00:27:11,919 --> 00:27:13,669
+right you add all these numbers together
+right yeah
+
+1118
+00:27:13,669 --> 00:27:13,679
+right yeah
+ 
+
+1119
+00:27:13,679 --> 00:27:15,590
+right yeah
+then you that's your final solution the
+
+1120
+00:27:15,590 --> 00:27:15,600
+then you that's your final solution the
+ 
+
+1121
+00:27:15,600 --> 00:27:17,430
+then you that's your final solution the
+number of terms okay
+
+1122
+00:27:17,430 --> 00:27:17,440
+number of terms okay
+ 
+
+1123
+00:27:17,440 --> 00:27:20,389
+number of terms okay
+uh so what's the so what do you learn
+
+1124
+00:27:20,389 --> 00:27:20,399
+uh so what's the so what do you learn
+ 
+
+1125
+00:27:20,399 --> 00:27:20,950
+uh so what's the so what do you learn
+today
+
+1126
+00:27:20,950 --> 00:27:20,960
+today
+ 
+
+1127
+00:27:20,960 --> 00:27:23,350
+today
+just think tell me what have you learned
+
+1128
+00:27:23,350 --> 00:27:23,360
+just think tell me what have you learned
+ 
+
+1129
+00:27:23,360 --> 00:27:24,470
+just think tell me what have you learned
+today
+
+1130
+00:27:24,470 --> 00:27:24,480
+today
+ 
+
+1131
+00:27:24,480 --> 00:27:28,549
+today
+so we learned
+
+1132
+00:27:28,549 --> 00:27:28,559
+
+ 
+
+1133
+00:27:28,559 --> 00:27:32,830
+
+we learned and you need no wait unique
+
+1134
+00:27:32,830 --> 00:27:32,840
+we learned and you need no wait unique
+ 
+
+1135
+00:27:32,840 --> 00:27:34,549
+we learned and you need no wait unique
+number so tell me
+
+1136
+00:27:34,549 --> 00:27:34,559
+number so tell me
+ 
+
+1137
+00:27:34,559 --> 00:27:36,070
+number so tell me
+in one sentence what have you learned
+
+1138
+00:27:36,070 --> 00:27:36,080
+in one sentence what have you learned
+ 
+
+1139
+00:27:36,080 --> 00:27:38,310
+in one sentence what have you learned
+today what's the problem
+
+1140
+00:27:38,310 --> 00:27:38,320
+today what's the problem
+ 
+
+1141
+00:27:38,320 --> 00:27:42,070
+today what's the problem
+how do we approach to solving so we just
+
+1142
+00:27:42,070 --> 00:27:42,080
+how do we approach to solving so we just
+ 
+
+1143
+00:27:42,080 --> 00:27:45,430
+how do we approach to solving so we just
+use for example if the
+
+1144
+00:27:45,430 --> 00:27:45,440
+use for example if the
+ 
+
+1145
+00:27:45,440 --> 00:27:55,090
+use for example if the
+11 booth
+
+1146
+00:27:55,090 --> 00:27:55,100
+
+ 
+
+1147
+00:27:55,100 --> 00:27:57,350
+
+[Music]
+
+1148
+00:27:57,350 --> 00:27:57,360
+[Music]
+ 
+
+1149
+00:27:57,360 --> 00:27:59,510
+[Music]
+okay so that's that's one kind of pigeon
+
+1150
+00:27:59,510 --> 00:27:59,520
+okay so that's that's one kind of pigeon
+ 
+
+1151
+00:27:59,520 --> 00:28:01,350
+okay so that's that's one kind of pigeon
+hole okay so for example the other one
+
+1152
+00:28:01,350 --> 00:28:01,360
+hole okay so for example the other one
+ 
+
+1153
+00:28:01,360 --> 00:28:01,990
+hole okay so for example the other one
+okay
+
+1154
+00:28:01,990 --> 00:28:02,000
+okay
+ 
+
+1155
+00:28:02,000 --> 00:28:04,710
+okay
+you have three balls three bars and you
+
+1156
+00:28:04,710 --> 00:28:04,720
+you have three balls three bars and you
+ 
+
+1157
+00:28:04,720 --> 00:28:07,590
+you have three balls three bars and you
+have only two boxes
+
+1158
+00:28:07,590 --> 00:28:07,600
+have only two boxes
+ 
+
+1159
+00:28:07,600 --> 00:28:11,990
+have only two boxes
+yeah so i can say at least
+
+1160
+00:28:11,990 --> 00:28:12,000
+yeah so i can say at least
+ 
+
+1161
+00:28:12,000 --> 00:28:15,190
+yeah so i can say at least
+one one at least one of the box
+
+1162
+00:28:15,190 --> 00:28:15,200
+one one at least one of the box
+ 
+
+1163
+00:28:15,200 --> 00:28:18,310
+one one at least one of the box
+contains more than one balls
+
+1164
+00:28:18,310 --> 00:28:18,320
+contains more than one balls
+ 
+
+1165
+00:28:18,320 --> 00:28:22,149
+contains more than one balls
+does it make sense you have three balls
+
+1166
+00:28:22,149 --> 00:28:22,159
+does it make sense you have three balls
+ 
+
+1167
+00:28:22,159 --> 00:28:25,269
+does it make sense you have three balls
+and you want to put it in two boxes
+
+1168
+00:28:25,269 --> 00:28:25,279
+and you want to put it in two boxes
+ 
+
+1169
+00:28:25,279 --> 00:28:28,470
+and you want to put it in two boxes
+so what happened so at least
+
+1170
+00:28:28,470 --> 00:28:28,480
+so what happened so at least
+ 
+
+1171
+00:28:28,480 --> 00:28:32,230
+so what happened so at least
+one of the box contains more than one
+
+1172
+00:28:32,230 --> 00:28:32,240
+one of the box contains more than one
+ 
+
+1173
+00:28:32,240 --> 00:28:35,350
+one of the box contains more than one
+boss got it yeah and
+
+1174
+00:28:35,350 --> 00:28:35,360
+boss got it yeah and
+ 
+
+1175
+00:28:35,360 --> 00:28:38,630
+boss got it yeah and
+the previous one is you have
+
+1176
+00:28:38,630 --> 00:28:38,640
+the previous one is you have
+ 
+
+1177
+00:28:38,640 --> 00:28:41,190
+the previous one is you have
+you have two balls all right you have
+
+1178
+00:28:41,190 --> 00:28:41,200
+you have two balls all right you have
+ 
+
+1179
+00:28:41,200 --> 00:28:43,269
+you have two balls all right you have
+two balls you want to put it into
+
+1180
+00:28:43,269 --> 00:28:43,279
+two balls you want to put it into
+ 
+
+1181
+00:28:43,279 --> 00:28:46,950
+two balls you want to put it into
+three boxes then you can say what
+
+1182
+00:28:46,950 --> 00:28:46,960
+three boxes then you can say what
+ 
+
+1183
+00:28:46,960 --> 00:28:51,190
+three boxes then you can say what
+at least one box is
+
+1184
+00:28:51,190 --> 00:28:51,200
+at least one box is
+ 
+
+1185
+00:28:51,200 --> 00:28:54,310
+at least one box is
+empty yeah so okay do you get it
+
+1186
+00:28:54,310 --> 00:28:54,320
+empty yeah so okay do you get it
+ 
+
+1187
+00:28:54,320 --> 00:28:58,149
+empty yeah so okay do you get it
+yeah so why this is useful because look
+
+1188
+00:28:58,149 --> 00:28:58,159
+yeah so why this is useful because look
+ 
+
+1189
+00:28:58,159 --> 00:29:01,669
+yeah so why this is useful because look
+okay unique look
+
+1190
+00:29:01,669 --> 00:29:01,679
+
+ 
+
+1191
+00:29:01,679 --> 00:29:05,029
+
+unique how many digits
+
+1192
+00:29:05,029 --> 00:29:05,039
+unique how many digits
+ 
+
+1193
+00:29:05,039 --> 00:29:08,310
+unique how many digits
+in decimal i got long hair how many
+
+1194
+00:29:08,310 --> 00:29:08,320
+in decimal i got long hair how many
+ 
+
+1195
+00:29:08,320 --> 00:29:10,310
+in decimal i got long hair how many
+digits in maximum
+
+1196
+00:29:10,310 --> 00:29:10,320
+digits in maximum
+ 
+
+1197
+00:29:10,320 --> 00:29:13,909
+digits in maximum
+10 10 contingents
+
+1198
+00:29:13,909 --> 00:29:13,919
+10 10 contingents
+ 
+
+1199
+00:29:13,919 --> 00:29:17,190
+10 10 contingents
+how many if if there are eleven digit
+
+1200
+00:29:17,190 --> 00:29:17,200
+how many if if there are eleven digit
+ 
+
+1201
+00:29:17,200 --> 00:29:18,470
+how many if if there are eleven digit
+size
+
+1202
+00:29:18,470 --> 00:29:18,480
+size
+ 
+
+1203
+00:29:18,480 --> 00:29:22,389
+size
+if a number is eleven digits
+
+1204
+00:29:22,389 --> 00:29:22,399
+if a number is eleven digits
+ 
+
+1205
+00:29:22,399 --> 00:29:25,830
+if a number is eleven digits
+does it have a duplicate numbers
+
+1206
+00:29:25,830 --> 00:29:25,840
+does it have a duplicate numbers
+ 
+
+1207
+00:29:25,840 --> 00:29:28,149
+does it have a duplicate numbers
+is it like unique not easy the numbers
+
+1208
+00:29:28,149 --> 00:29:28,159
+is it like unique not easy the numbers
+ 
+
+1209
+00:29:28,159 --> 00:29:35,909
+is it like unique not easy the numbers
+that contains only unique digits
+
+1210
+00:29:35,909 --> 00:29:35,919
+
+ 
+
+1211
+00:29:35,919 --> 00:29:39,110
+
+it's not unique right because the the
+
+1212
+00:29:39,110 --> 00:29:39,120
+it's not unique right because the the
+ 
+
+1213
+00:29:39,120 --> 00:29:40,950
+it's not unique right because the the
+best case is you can do this
+
+1214
+00:29:40,950 --> 00:29:40,960
+best case is you can do this
+ 
+
+1215
+00:29:40,960 --> 00:29:43,990
+best case is you can do this
+nine eight seven six five
+
+1216
+00:29:43,990 --> 00:29:44,000
+nine eight seven six five
+ 
+
+1217
+00:29:44,000 --> 00:29:46,310
+nine eight seven six five
+four three two one zero how many how
+
+1218
+00:29:46,310 --> 00:29:46,320
+four three two one zero how many how
+ 
+
+1219
+00:29:46,320 --> 00:29:48,310
+four three two one zero how many how
+many this is the number yeah
+
+1220
+00:29:48,310 --> 00:29:48,320
+many this is the number yeah
+ 
+
+1221
+00:29:48,320 --> 00:29:51,510
+many this is the number yeah
+yes that's ten digits yeah
+
+1222
+00:29:51,510 --> 00:29:51,520
+yes that's ten digits yeah
+ 
+
+1223
+00:29:51,520 --> 00:29:53,350
+yes that's ten digits yeah
+so if you want one more digit what
+
+1224
+00:29:53,350 --> 00:29:53,360
+so if you want one more digit what
+ 
+
+1225
+00:29:53,360 --> 00:29:55,350
+so if you want one more digit what
+happened you're running out of digits
+
+1226
+00:29:55,350 --> 00:29:55,360
+happened you're running out of digits
+ 
+
+1227
+00:29:55,360 --> 00:29:56,389
+happened you're running out of digits
+right
+
+1228
+00:29:56,389 --> 00:29:56,399
+right
+ 
+
+1229
+00:29:56,399 --> 00:30:00,549
+right
+you put any digi that makes these
+
+1230
+00:30:00,549 --> 00:30:00,559
+you put any digi that makes these
+ 
+
+1231
+00:30:00,559 --> 00:30:03,269
+you put any digi that makes these
+not unique right i'm right that's what i
+
+1232
+00:30:03,269 --> 00:30:03,279
+not unique right i'm right that's what i
+ 
+
+1233
+00:30:03,279 --> 00:30:05,110
+not unique right i'm right that's what i
+mean
+
+1234
+00:30:05,110 --> 00:30:05,120
+mean
+ 
+
+1235
+00:30:05,120 --> 00:30:07,430
+mean
+do you understand do you understand that
+
+1236
+00:30:07,430 --> 00:30:07,440
+do you understand do you understand that
+ 
+
+1237
+00:30:07,440 --> 00:30:09,909
+do you understand do you understand that
+ryan do you understand
+
+1238
+00:30:09,909 --> 00:30:09,919
+ryan do you understand
+ 
+
+1239
+00:30:09,919 --> 00:30:12,870
+ryan do you understand
+10 digits this is the best case you need
+
+1240
+00:30:12,870 --> 00:30:12,880
+10 digits this is the best case you need
+ 
+
+1241
+00:30:12,880 --> 00:30:15,029
+10 digits this is the best case you need
+right
+
+1242
+00:30:15,029 --> 00:30:15,039
+right
+ 
+
+1243
+00:30:15,039 --> 00:30:17,110
+right
+how many how many how many in these ten
+
+1244
+00:30:17,110 --> 00:30:17,120
+how many how many how many in these ten
+ 
+
+1245
+00:30:17,120 --> 00:30:18,549
+how many how many how many in these ten
+digits remember remember
+
+1246
+00:30:18,549 --> 00:30:18,559
+digits remember remember
+ 
+
+1247
+00:30:18,559 --> 00:30:21,029
+digits remember remember
+nine times nine times eight times seven
+
+1248
+00:30:21,029 --> 00:30:21,039
+nine times nine times eight times seven
+ 
+
+1249
+00:30:21,039 --> 00:30:21,669
+nine times nine times eight times seven
+yeah
+
+1250
+00:30:21,669 --> 00:30:21,679
+yeah
+ 
+
+1251
+00:30:21,679 --> 00:30:25,430
+yeah
+times times six times one right right
+
+1252
+00:30:25,430 --> 00:30:25,440
+times times six times one right right
+ 
+
+1253
+00:30:25,440 --> 00:30:27,590
+times times six times one right right
+and what's next what's next a few times
+
+1254
+00:30:27,590 --> 00:30:27,600
+and what's next what's next a few times
+ 
+
+1255
+00:30:27,600 --> 00:30:29,110
+and what's next what's next a few times
+another one times zero
+
+1256
+00:30:29,110 --> 00:30:29,120
+another one times zero
+ 
+
+1257
+00:30:29,120 --> 00:30:32,789
+another one times zero
+it just zero it makes this yellow got it
+
+1258
+00:30:32,789 --> 00:30:32,799
+it just zero it makes this yellow got it
+ 
+
+1259
+00:30:32,799 --> 00:30:35,830
+it just zero it makes this yellow got it
+zero yeah for eleven or
+
+1260
+00:30:35,830 --> 00:30:35,840
+zero yeah for eleven or
+ 
+
+1261
+00:30:35,840 --> 00:30:39,029
+zero yeah for eleven or
+or 13 14 even the digit if a number
+
+1262
+00:30:39,029 --> 00:30:39,039
+or 13 14 even the digit if a number
+ 
+
+1263
+00:30:39,039 --> 00:30:42,230
+or 13 14 even the digit if a number
+has more than 10 digit
+
+1264
+00:30:42,230 --> 00:30:42,240
+has more than 10 digit
+ 
+
+1265
+00:30:42,240 --> 00:30:44,870
+has more than 10 digit
+you can't find any number with more than
+
+1266
+00:30:44,870 --> 00:30:44,880
+you can't find any number with more than
+ 
+
+1267
+00:30:44,880 --> 00:30:45,830
+you can't find any number with more than
+10 digit
+
+1268
+00:30:45,830 --> 00:30:45,840
+10 digit
+ 
+
+1269
+00:30:45,840 --> 00:30:49,269
+10 digit
+that is unique right
+
+1270
+00:30:49,269 --> 00:30:49,279
+that is unique right
+ 
+
+1271
+00:30:49,279 --> 00:30:51,190
+that is unique right
+that contains unique digits because it
+
+1272
+00:30:51,190 --> 00:30:51,200
+that contains unique digits because it
+ 
+
+1273
+00:30:51,200 --> 00:30:52,470
+that contains unique digits because it
+doesn't you just
+
+1274
+00:30:52,470 --> 00:30:52,480
+doesn't you just
+ 
+
+1275
+00:30:52,480 --> 00:30:55,510
+doesn't you just
+can't have more than 10
+
+1276
+00:30:55,510 --> 00:30:55,520
+can't have more than 10
+ 
+
+1277
+00:30:55,520 --> 00:30:58,870
+can't have more than 10
+unique digits in uh 11
+
+1278
+00:30:58,870 --> 00:30:58,880
+unique digits in uh 11
+ 
+
+1279
+00:30:58,880 --> 00:31:02,070
+unique digits in uh 11
+digit number okay this is one
+
+1280
+00:31:02,070 --> 00:31:02,080
+digit number okay this is one
+ 
+
+1281
+00:31:02,080 --> 00:31:06,070
+digit number okay this is one
+one application of the of the picture
+
+1282
+00:31:06,070 --> 00:31:06,080
+one application of the of the picture
+ 
+
+1283
+00:31:06,080 --> 00:31:09,830
+one application of the of the picture
+uh uh pitching principle and we
+
+1284
+00:31:09,830 --> 00:31:09,840
+uh uh pitching principle and we
+ 
+
+1285
+00:31:09,840 --> 00:31:12,310
+uh uh pitching principle and we
+you this one is we are counting this
+
+1286
+00:31:12,310 --> 00:31:12,320
+you this one is we are counting this
+ 
+
+1287
+00:31:12,320 --> 00:31:13,830
+you this one is we are counting this
+using mathematics
+
+1288
+00:31:13,830 --> 00:31:13,840
+using mathematics
+ 
+
+1289
+00:31:13,840 --> 00:31:17,190
+using mathematics
+we also use the top down of bottom up to
+
+1290
+00:31:17,190 --> 00:31:17,200
+we also use the top down of bottom up to
+ 
+
+1291
+00:31:17,200 --> 00:31:20,710
+we also use the top down of bottom up to
+compute the dynamic progression
+
+1292
+00:31:20,710 --> 00:31:20,720
+compute the dynamic progression
+ 
+
+1293
+00:31:20,720 --> 00:31:22,870
+compute the dynamic progression
+for programming what's what's this
+
+1294
+00:31:22,870 --> 00:31:22,880
+for programming what's what's this
+ 
+
+1295
+00:31:22,880 --> 00:31:23,990
+for programming what's what's this
+programming equation
+
+1296
+00:31:23,990 --> 00:31:24,000
+programming equation
+ 
+
+1297
+00:31:24,000 --> 00:31:26,950
+programming equation
+mean what's this called dynamic
+
+1298
+00:31:26,950 --> 00:31:26,960
+mean what's this called dynamic
+ 
+
+1299
+00:31:26,960 --> 00:31:27,750
+mean what's this called dynamic
+programming
+
+1300
+00:31:27,750 --> 00:31:27,760
+programming
+ 
+
+1301
+00:31:27,760 --> 00:31:30,630
+programming
+transition function because look in
+
+1302
+00:31:30,630 --> 00:31:30,640
+transition function because look in
+ 
+
+1303
+00:31:30,640 --> 00:31:32,950
+transition function because look in
+order to calculate dpi
+
+1304
+00:31:32,950 --> 00:31:32,960
+order to calculate dpi
+ 
+
+1305
+00:31:32,960 --> 00:31:36,630
+order to calculate dpi
+i need to calculate dpi minus 1
+
+1306
+00:31:36,630 --> 00:31:36,640
+i need to calculate dpi minus 1
+ 
+
+1307
+00:31:36,640 --> 00:31:39,909
+i need to calculate dpi minus 1
+and this is the relation between dpi
+
+1308
+00:31:39,909 --> 00:31:39,919
+and this is the relation between dpi
+ 
+
+1309
+00:31:39,919 --> 00:31:42,549
+and this is the relation between dpi
+and dpi minus 1. so you can calculate
+
+1310
+00:31:42,549 --> 00:31:42,559
+and dpi minus 1. so you can calculate
+ 
+
+1311
+00:31:42,559 --> 00:31:43,430
+and dpi minus 1. so you can calculate
+dpi
+
+1312
+00:31:43,430 --> 00:31:43,440
+dpi
+ 
+
+1313
+00:31:43,440 --> 00:31:47,190
+dpi
+based on its previous i uh previous num
+
+1314
+00:31:47,190 --> 00:31:47,200
+based on its previous i uh previous num
+ 
+
+1315
+00:31:47,200 --> 00:31:49,350
+based on its previous i uh previous num
+sequence yeah previous item a smaller
+
+1316
+00:31:49,350 --> 00:31:49,360
+sequence yeah previous item a smaller
+ 
+
+1317
+00:31:49,360 --> 00:31:50,230
+sequence yeah previous item a smaller
+problem
+
+1318
+00:31:50,230 --> 00:31:50,240
+problem
+ 
+
+1319
+00:31:50,240 --> 00:31:52,789
+problem
+right with this 11 minus i equation
+
+1320
+00:31:52,789 --> 00:31:52,799
+right with this 11 minus i equation
+ 
+
+1321
+00:31:52,799 --> 00:31:55,190
+right with this 11 minus i equation
+right how do you get the 11 remember
+
+1322
+00:31:55,190 --> 00:31:55,200
+right how do you get the 11 remember
+ 
+
+1323
+00:31:55,200 --> 00:31:58,710
+right how do you get the 11 remember
+f3 equals f2 times
+
+1324
+00:31:58,710 --> 00:31:58,720
+f3 equals f2 times
+ 
+
+1325
+00:31:58,720 --> 00:32:02,149
+f3 equals f2 times
+8 s o equals f three times
+
+1326
+00:32:02,149 --> 00:32:02,159
+8 s o equals f three times
+ 
+
+1327
+00:32:02,159 --> 00:32:07,830
+8 s o equals f three times
+seven f nine equals f a times one
+
+1328
+00:32:07,830 --> 00:32:07,840
+
+ 
+
+1329
+00:32:07,840 --> 00:32:11,590
+
+f eight f nine equals f to a
+
+1330
+00:32:11,590 --> 00:32:11,600
+f eight f nine equals f to a
+ 
+
+1331
+00:32:11,600 --> 00:32:16,470
+f eight f nine equals f to a
+times what times eleven minus
+
+1332
+00:32:16,470 --> 00:32:16,480
+times what times eleven minus
+ 
+
+1333
+00:32:16,480 --> 00:32:19,590
+times what times eleven minus
+one equals two yeah okay
+
+1334
+00:32:19,590 --> 00:32:19,600
+one equals two yeah okay
+ 
+
+1335
+00:32:19,600 --> 00:32:24,880
+one equals two yeah okay
+good times have a good weekend okay
+
