@@ -117,6 +117,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Data Structures 数据结构 
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Search Engine Algorithm (Word Matching) using Trie (Prefix Tree) and Depth First Search | 搜索引擎匹配单词算法+前缀树/字典树(Trie)+深度优先算法(DFS) | [Youtube](https://youtu.be/YFBekbhXBFU) - [B站](https://www.bilibili.com/video/BV1xq4y1A7X1/) - [西瓜](https://www.ixigua.com/7053206707605864967) | [Search Engine Algorithm (Word Matching) using Trie (Prefix Tree) and Depth First Search](https://helloacm.com/teaching-kids-programming-search-engine-algorithm-using-trie-prefix-tree-and-depth-first-search-algorithm/) | 2022-01-14 |
 | Single-Row Keyboard via Hash Table | 用哈希表来估计在单行键盘手指移动总时间 | [Youtube](https://youtu.be/HyQnIhwzqxo) - [B站](https://www.bilibili.com/video/BV1PL41137Ab/) - [西瓜](https://www.ixigua.com/7026459790029095455) | [Single-Row Keyboard via Hash Table](https://helloacm.com/teaching-kids-programming-single-row-keyboard-via-hash-table/) | 2021-11-03 |
 | Design a Hash Table | 设计一个哈希表 | [Youtube](https://youtu.be/hpY7lHvICpI) - [B站](https://www.bilibili.com/video/BV1r34y1U7dE/) | [Design a Hash Table](https://helloacm.com/teaching-kids-programming-design-a-hash-table/) | 2021-10-04 |
 | How to Verify a Max Heap? | 验证最大堆算法 | [Youtube](https://youtu.be/xMii377Fzdw) - [B站](https://www.bilibili.com/video/BV19q4y1Q75Z/) | [How to Verify a Max Heap?](https://helloacm.com/teaching-kids-programming-how-to-verify-a-max-heap/) | 2021-08-13 |
