@@ -7,6 +7,8 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 385 (2022-01-16): [Number of Steps to Reduce a Number to Zero (Math, Simulation Algorithm, Binary)](https://helloacm.com/teaching-kids-programming-min-number-of-steps-to-reduce-a-number-to-zero/) 将数字减少为零的最小步骤数 (数学, 仿真, 二进制)
+ [Youtube](https://youtu.be/Y3STTlgCyE0) - [B站](https://www.bilibili.com/video/BV1U34y1B7Rz/)  - [西瓜](https://www.ixigua.com/7053875797987164686) 
 - Day 384 (2022-01-14): [Search Engine Algorithm (Word Matching) using Trie (Prefix Tree) and Depth First Search](https://helloacm.com/teaching-kids-programming-search-engine-algorithm-using-trie-prefix-tree-and-depth-first-search-algorithm/) 搜索引擎匹配单词算法+前缀树/字典树(Trie)+深度优先算法(DFS) [Youtube](https://youtu.be/YFBekbhXBFU) - [B站](https://www.bilibili.com/video/BV1xq4y1A7X1/)  - [西瓜](https://www.ixigua.com/7053206707605864967) 
 - Day 383 (2022-01-13): [Two Pointer Algorithm to Capitalize the Title String](https://helloacm.com/teaching-kids-programming-two-pointer-algorithm-to-capitalize-the-title-string/) 标题字符串大写的双指针算法 [Youtube](https://youtu.be/QspRPCvb61k) - [B站](https://www.bilibili.com/video/BV1zu41127ej/)  - [西瓜](https://www.ixigua.com/7052804942356021773) 
 - Day 382 (2022-01-11): [Increasing Triplet Subsequence Algorithm](https://helloacm.com/teaching-kids-programming-increasing-triplet-subsequence-algorithm/) 递增的三元子序列 [Youtube](https://youtu.be/EQGy2nqyI5Q) - [B站](https://www.bilibili.com/video/BV1kY41187JW/)  - [西瓜](https://www.ixigua.com/7052060612716659207) 
