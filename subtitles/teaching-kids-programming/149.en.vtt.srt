@@ -1,0 +1,2955 @@
+1
+00:00:00,240 --> 00:00:03,750
+
+hello hello eric hi
+
+2
+00:00:03,750 --> 00:00:03,760
+hello hello eric hi
+ 
+
+3
+00:00:03,760 --> 00:00:05,990
+hello hello eric hi
+how are you today good okay so today we
+
+4
+00:00:05,990 --> 00:00:06,000
+how are you today good okay so today we
+ 
+
+5
+00:00:06,000 --> 00:00:07,349
+how are you today good okay so today we
+talk about the sum
+
+6
+00:00:07,349 --> 00:00:07,359
+talk about the sum
+ 
+
+7
+00:00:07,359 --> 00:00:10,549
+talk about the sum
+the maximum sum maximum sum
+
+8
+00:00:10,549 --> 00:00:10,559
+the maximum sum maximum sum
+ 
+
+9
+00:00:10,559 --> 00:00:14,390
+the maximum sum maximum sum
+of a binary tree finally maximum sum of
+
+10
+00:00:14,390 --> 00:00:14,400
+of a binary tree finally maximum sum of
+ 
+
+11
+00:00:14,400 --> 00:00:16,550
+of a binary tree finally maximum sum of
+binary subtree okay
+
+12
+00:00:16,550 --> 00:00:16,560
+binary subtree okay
+ 
+
+13
+00:00:16,560 --> 00:00:19,109
+binary subtree okay
+sub three max subtree sum okay so
+
+14
+00:00:19,109 --> 00:00:19,119
+sub three max subtree sum okay so
+ 
+
+15
+00:00:19,119 --> 00:00:20,230
+sub three max subtree sum okay so
+actually it's okay
+
+16
+00:00:20,230 --> 00:00:20,240
+actually it's okay
+ 
+
+17
+00:00:20,240 --> 00:00:23,830
+actually it's okay
+okay uh a bit special is that
+
+18
+00:00:23,830 --> 00:00:23,840
+okay uh a bit special is that
+ 
+
+19
+00:00:23,840 --> 00:00:27,429
+okay uh a bit special is that
+you're given the binary tree one two
+
+20
+00:00:27,429 --> 00:00:27,439
+you're given the binary tree one two
+ 
+
+21
+00:00:27,439 --> 00:00:29,429
+you're given the binary tree one two
+three and then let's say that it can
+
+22
+00:00:29,429 --> 00:00:29,439
+three and then let's say that it can
+ 
+
+23
+00:00:29,439 --> 00:00:31,750
+three and then let's say that it can
+contain negative number
+
+24
+00:00:31,750 --> 00:00:31,760
+contain negative number
+ 
+
+25
+00:00:31,760 --> 00:00:34,630
+contain negative number
+so let's see what's the how many
+
+26
+00:00:34,630 --> 00:00:34,640
+so let's see what's the how many
+ 
+
+27
+00:00:34,640 --> 00:00:35,430
+so let's see what's the how many
+subtrees
+
+28
+00:00:35,430 --> 00:00:35,440
+subtrees
+ 
+
+29
+00:00:35,440 --> 00:00:41,430
+subtrees
+are there you know the substring
+
+30
+00:00:41,430 --> 00:00:41,440
+
+ 
+
+31
+00:00:41,440 --> 00:00:43,830
+
+subtree so you can pick any rule and
+
+32
+00:00:43,830 --> 00:00:43,840
+subtree so you can pick any rule and
+ 
+
+33
+00:00:43,840 --> 00:00:45,510
+subtree so you can pick any rule and
+including all its descendants
+
+34
+00:00:45,510 --> 00:00:45,520
+including all its descendants
+ 
+
+35
+00:00:45,520 --> 00:00:48,630
+including all its descendants
+right look how many routes are in the
+
+36
+00:00:48,630 --> 00:00:48,640
+right look how many routes are in the
+ 
+
+37
+00:00:48,640 --> 00:00:52,069
+right look how many routes are in the
+balance sheet
+
+38
+00:00:52,069 --> 00:00:52,079
+
+ 
+
+39
+00:00:52,079 --> 00:00:53,670
+
+one which is here doesn't have any
+
+40
+00:00:53,670 --> 00:00:53,680
+one which is here doesn't have any
+ 
+
+41
+00:00:53,680 --> 00:00:56,790
+one which is here doesn't have any
+parents right and how many leaves here
+
+42
+00:00:56,790 --> 00:00:56,800
+parents right and how many leaves here
+ 
+
+43
+00:00:56,800 --> 00:00:59,910
+parents right and how many leaves here
+two two doesn't have any kids yeah
+
+44
+00:00:59,910 --> 00:00:59,920
+two two doesn't have any kids yeah
+ 
+
+45
+00:00:59,920 --> 00:01:01,990
+two two doesn't have any kids yeah
+all right so how many subtrees are there
+
+46
+00:01:01,990 --> 00:01:02,000
+all right so how many subtrees are there
+ 
+
+47
+00:01:02,000 --> 00:01:07,510
+all right so how many subtrees are there
+unique substrate
+
+48
+00:01:07,510 --> 00:01:07,520
+
+ 
+
+49
+00:01:07,520 --> 00:01:09,429
+
+come on sub trees pick how many nodes
+
+50
+00:01:09,429 --> 00:01:09,439
+come on sub trees pick how many nodes
+ 
+
+51
+00:01:09,439 --> 00:01:11,270
+come on sub trees pick how many nodes
+you can
+
+52
+00:01:11,270 --> 00:01:11,280
+you can
+ 
+
+53
+00:01:11,280 --> 00:01:14,469
+you can
+yeah pick can pick based off
+
+54
+00:01:14,469 --> 00:01:14,479
+yeah pick can pick based off
+ 
+
+55
+00:01:14,479 --> 00:01:17,590
+yeah pick can pick based off
+no no no therefore four notes yeah
+
+56
+00:01:17,590 --> 00:01:17,600
+no no no therefore four notes yeah
+ 
+
+57
+00:01:17,600 --> 00:01:19,910
+no no no therefore four notes yeah
+when you pick a note it's a subtree all
+
+58
+00:01:19,910 --> 00:01:19,920
+when you pick a note it's a subtree all
+ 
+
+59
+00:01:19,920 --> 00:01:21,109
+when you pick a note it's a subtree all
+right you pick
+
+60
+00:01:21,109 --> 00:01:21,119
+right you pick
+ 
+
+61
+00:01:21,119 --> 00:01:23,910
+right you pick
+ten minus ten it's a subtree three it's
+
+62
+00:01:23,910 --> 00:01:23,920
+ten minus ten it's a subtree three it's
+ 
+
+63
+00:01:23,920 --> 00:01:25,270
+ten minus ten it's a subtree three it's
+a sub tree three and ten
+
+64
+00:01:25,270 --> 00:01:25,280
+a sub tree three and ten
+ 
+
+65
+00:01:25,280 --> 00:01:28,630
+a sub tree three and ten
+minus 10 1 sub 3. d4
+
+66
+00:01:28,630 --> 00:01:28,640
+minus 10 1 sub 3. d4
+ 
+
+67
+00:01:28,640 --> 00:01:30,710
+minus 10 1 sub 3. d4
+2 is the subject so four i just said
+
+68
+00:01:30,710 --> 00:01:30,720
+2 is the subject so four i just said
+ 
+
+69
+00:01:30,720 --> 00:01:32,950
+2 is the subject so four i just said
+four how many kinds of subtrees
+
+70
+00:01:32,950 --> 00:01:32,960
+four how many kinds of subtrees
+ 
+
+71
+00:01:32,960 --> 00:01:35,030
+four how many kinds of subtrees
+how many different four because you pick
+
+72
+00:01:35,030 --> 00:01:35,040
+how many different four because you pick
+ 
+
+73
+00:01:35,040 --> 00:01:36,630
+how many different four because you pick
+each note
+
+74
+00:01:36,630 --> 00:01:36,640
+each note
+ 
+
+75
+00:01:36,640 --> 00:01:38,789
+each note
+you pick each note as a root then it
+
+76
+00:01:38,789 --> 00:01:38,799
+you pick each note as a root then it
+ 
+
+77
+00:01:38,799 --> 00:01:40,630
+you pick each note as a root then it
+becomes a unique subtree right does it
+
+78
+00:01:40,630 --> 00:01:40,640
+becomes a unique subtree right does it
+ 
+
+79
+00:01:40,640 --> 00:01:41,749
+becomes a unique subtree right does it
+make sense
+
+80
+00:01:41,749 --> 00:01:41,759
+make sense
+ 
+
+81
+00:01:41,759 --> 00:01:44,069
+make sense
+yeah okay so that subtree of minus 10 is
+
+82
+00:01:44,069 --> 00:01:44,079
+yeah okay so that subtree of minus 10 is
+ 
+
+83
+00:01:44,079 --> 00:01:45,910
+yeah okay so that subtree of minus 10 is
+minus 10 right right
+
+84
+00:01:45,910 --> 00:01:45,920
+minus 10 right right
+ 
+
+85
+00:01:45,920 --> 00:01:48,950
+minus 10 right right
+the subtree of 3 is what
+
+86
+00:01:48,950 --> 00:01:48,960
+the subtree of 3 is what
+ 
+
+87
+00:01:48,960 --> 00:01:51,670
+the subtree of 3 is what
+look at here sub 3 of 3 the sum of the
+
+88
+00:01:51,670 --> 00:01:51,680
+look at here sub 3 of 3 the sum of the
+ 
+
+89
+00:01:51,680 --> 00:01:52,149
+look at here sub 3 of 3 the sum of the
+sub 3
+
+90
+00:01:52,149 --> 00:01:52,159
+sub 3
+ 
+
+91
+00:01:52,159 --> 00:01:56,069
+sub 3
+3. set minus seven the sub three
+
+92
+00:01:56,069 --> 00:01:56,079
+3. set minus seven the sub three
+ 
+
+93
+00:01:56,079 --> 00:01:58,870
+3. set minus seven the sub three
+the sum of sub three two two the sub
+
+94
+00:01:58,870 --> 00:01:58,880
+the sum of sub three two two the sub
+ 
+
+95
+00:01:58,880 --> 00:01:59,510
+the sum of sub three two two the sub
+three
+
+96
+00:01:59,510 --> 00:01:59,520
+three
+ 
+
+97
+00:01:59,520 --> 00:02:02,709
+three
+sum of sub three one minus four
+
+98
+00:02:02,709 --> 00:02:02,719
+sum of sub three one minus four
+ 
+
+99
+00:02:02,719 --> 00:02:05,670
+sum of sub three one minus four
+well you click yeah minus four yes and
+
+100
+00:02:05,670 --> 00:02:05,680
+well you click yeah minus four yes and
+ 
+
+101
+00:02:05,680 --> 00:02:06,630
+well you click yeah minus four yes and
+the subtree of
+
+102
+00:02:06,630 --> 00:02:06,640
+the subtree of
+ 
+
+103
+00:02:06,640 --> 00:02:11,029
+the subtree of
+empty thing right zero okay so now
+
+104
+00:02:11,029 --> 00:02:11,039
+empty thing right zero okay so now
+ 
+
+105
+00:02:11,039 --> 00:02:14,309
+empty thing right zero okay so now
+we want to find out the maximum sum
+
+106
+00:02:14,309 --> 00:02:14,319
+we want to find out the maximum sum
+ 
+
+107
+00:02:14,319 --> 00:02:16,869
+we want to find out the maximum sum
+of the sub tree in the binary string
+
+108
+00:02:16,869 --> 00:02:16,879
+of the sub tree in the binary string
+ 
+
+109
+00:02:16,879 --> 00:02:18,150
+of the sub tree in the binary string
+okay so let's work it
+
+110
+00:02:18,150 --> 00:02:18,160
+okay so let's work it
+ 
+
+111
+00:02:18,160 --> 00:02:21,510
+okay so let's work it
+yeah so how many ways uh can we
+
+112
+00:02:21,510 --> 00:02:21,520
+yeah so how many ways uh can we
+ 
+
+113
+00:02:21,520 --> 00:02:24,070
+yeah so how many ways uh can we
+traversing the tree final tree or three
+
+114
+00:02:24,070 --> 00:02:24,080
+traversing the tree final tree or three
+ 
+
+115
+00:02:24,080 --> 00:02:25,350
+traversing the tree final tree or three
+two what are those
+
+116
+00:02:25,350 --> 00:02:25,360
+two what are those
+ 
+
+117
+00:02:25,360 --> 00:02:28,390
+two what are those
+professors deficient processes
+
+118
+00:02:28,390 --> 00:02:28,400
+professors deficient processes
+ 
+
+119
+00:02:28,400 --> 00:02:31,190
+professors deficient processes
+normally but definitely actually you can
+
+120
+00:02:31,190 --> 00:02:31,200
+normally but definitely actually you can
+ 
+
+121
+00:02:31,200 --> 00:02:32,470
+normally but definitely actually you can
+have the preorder
+
+122
+00:02:32,470 --> 00:02:32,480
+have the preorder
+ 
+
+123
+00:02:32,480 --> 00:02:35,670
+have the preorder
+in order post order you know rivers
+
+124
+00:02:35,670 --> 00:02:35,680
+in order post order you know rivers
+ 
+
+125
+00:02:35,680 --> 00:02:39,030
+in order post order you know rivers
+in reverse the order yeah reverse in
+
+126
+00:02:39,030 --> 00:02:39,040
+in reverse the order yeah reverse in
+ 
+
+127
+00:02:39,040 --> 00:02:40,710
+in reverse the order yeah reverse in
+order yeah something like that right
+
+128
+00:02:40,710 --> 00:02:40,720
+order yeah something like that right
+ 
+
+129
+00:02:40,720 --> 00:02:41,990
+order yeah something like that right
+okay we'll talk about the different
+
+130
+00:02:41,990 --> 00:02:42,000
+okay we'll talk about the different
+ 
+
+131
+00:02:42,000 --> 00:02:46,150
+okay we'll talk about the different
+search so what's different search
+
+132
+00:02:46,150 --> 00:02:46,160
+
+ 
+
+133
+00:02:46,160 --> 00:02:47,990
+
+go indeed actually you can right go into
+
+134
+00:02:47,990 --> 00:02:48,000
+go indeed actually you can right go into
+ 
+
+135
+00:02:48,000 --> 00:02:49,190
+go indeed actually you can right go into
+this okay
+
+136
+00:02:49,190 --> 00:02:49,200
+this okay
+ 
+
+137
+00:02:49,200 --> 00:02:52,710
+this okay
+okay so now recursively with the sum
+
+138
+00:02:52,710 --> 00:02:52,720
+okay so now recursively with the sum
+ 
+
+139
+00:02:52,720 --> 00:02:55,830
+okay so now recursively with the sum
+the sum of any sub tree is
+
+140
+00:02:55,830 --> 00:02:55,840
+the sum of any sub tree is
+ 
+
+141
+00:02:55,840 --> 00:02:58,790
+the sum of any sub tree is
+equal to the sum of the current node
+
+142
+00:02:58,790 --> 00:02:58,800
+equal to the sum of the current node
+ 
+
+143
+00:02:58,800 --> 00:02:59,430
+equal to the sum of the current node
+plus
+
+144
+00:02:59,430 --> 00:02:59,440
+plus
+ 
+
+145
+00:02:59,440 --> 00:03:02,790
+plus
+the sum of this left tree and the sum of
+
+146
+00:03:02,790 --> 00:03:02,800
+the sum of this left tree and the sum of
+ 
+
+147
+00:03:02,800 --> 00:03:03,589
+the sum of this left tree and the sum of
+its right chain
+
+148
+00:03:03,589 --> 00:03:03,599
+its right chain
+ 
+
+149
+00:03:03,599 --> 00:03:06,790
+its right chain
+all right yeah this is recursively pro
+
+150
+00:03:06,790 --> 00:03:06,800
+all right yeah this is recursively pro
+ 
+
+151
+00:03:06,800 --> 00:03:09,030
+all right yeah this is recursively pro
+that definition you know the binary is
+
+152
+00:03:09,030 --> 00:03:09,040
+that definition you know the binary is
+ 
+
+153
+00:03:09,040 --> 00:03:09,830
+that definition you know the binary is
+because of it
+
+154
+00:03:09,830 --> 00:03:09,840
+because of it
+ 
+
+155
+00:03:09,840 --> 00:03:12,390
+because of it
+definition it's equals to there's a root
+
+156
+00:03:12,390 --> 00:03:12,400
+definition it's equals to there's a root
+ 
+
+157
+00:03:12,400 --> 00:03:13,430
+definition it's equals to there's a root
+note and it's
+
+158
+00:03:13,430 --> 00:03:13,440
+note and it's
+ 
+
+159
+00:03:13,440 --> 00:03:16,149
+note and it's
+left three and the right three and we
+
+160
+00:03:16,149 --> 00:03:16,159
+left three and the right three and we
+ 
+
+161
+00:03:16,159 --> 00:03:16,550
+left three and the right three and we
+know
+
+162
+00:03:16,550 --> 00:03:16,560
+know
+ 
+
+163
+00:03:16,560 --> 00:03:19,350
+know
+that the sum of the sub 3 of the list
+
+164
+00:03:19,350 --> 00:03:19,360
+that the sum of the sub 3 of the list
+ 
+
+165
+00:03:19,360 --> 00:03:20,470
+that the sum of the sub 3 of the list
+this one right
+
+166
+00:03:20,470 --> 00:03:20,480
+this one right
+ 
+
+167
+00:03:20,480 --> 00:03:23,990
+this one right
+look the sum of sub 3 this one is equals
+
+168
+00:03:23,990 --> 00:03:24,000
+look the sum of sub 3 this one is equals
+ 
+
+169
+00:03:24,000 --> 00:03:25,430
+look the sum of sub 3 this one is equals
+to 1
+
+170
+00:03:25,430 --> 00:03:25,440
+to 1
+ 
+
+171
+00:03:25,440 --> 00:03:28,390
+to 1
+plus the subtree of this it's left 3 and
+
+172
+00:03:28,390 --> 00:03:28,400
+plus the subtree of this it's left 3 and
+ 
+
+173
+00:03:28,400 --> 00:03:31,110
+plus the subtree of this it's left 3 and
+the plus 3 of its right three right
+
+174
+00:03:31,110 --> 00:03:31,120
+the plus 3 of its right three right
+ 
+
+175
+00:03:31,120 --> 00:03:33,350
+the plus 3 of its right three right
+i'm right so in this case we are
+
+176
+00:03:33,350 --> 00:03:33,360
+i'm right so in this case we are
+ 
+
+177
+00:03:33,360 --> 00:03:35,430
+i'm right so in this case we are
+recursively dividing the problem into a
+
+178
+00:03:35,430 --> 00:03:35,440
+recursively dividing the problem into a
+ 
+
+179
+00:03:35,440 --> 00:03:36,630
+recursively dividing the problem into a
+smaller problem right because we're
+
+180
+00:03:36,630 --> 00:03:36,640
+smaller problem right because we're
+ 
+
+181
+00:03:36,640 --> 00:03:37,990
+smaller problem right because we're
+going to calculate the substrate of this
+
+182
+00:03:37,990 --> 00:03:38,000
+going to calculate the substrate of this
+ 
+
+183
+00:03:38,000 --> 00:03:39,030
+going to calculate the substrate of this
+entire tree
+
+184
+00:03:39,030 --> 00:03:39,040
+entire tree
+ 
+
+185
+00:03:39,040 --> 00:03:42,789
+entire tree
+but we know this one the answer is one
+
+186
+00:03:42,789 --> 00:03:42,799
+but we know this one the answer is one
+ 
+
+187
+00:03:42,799 --> 00:03:43,270
+but we know this one the answer is one
+plus
+
+188
+00:03:43,270 --> 00:03:43,280
+plus
+ 
+
+189
+00:03:43,280 --> 00:03:45,670
+plus
+the left bit and the right bit at least
+
+190
+00:03:45,670 --> 00:03:45,680
+the left bit and the right bit at least
+ 
+
+191
+00:03:45,680 --> 00:03:46,789
+the left bit and the right bit at least
+it's a recursion right
+
+192
+00:03:46,789 --> 00:03:46,799
+it's a recursion right
+ 
+
+193
+00:03:46,799 --> 00:03:50,070
+it's a recursion right
+all right because that now we only kept
+
+194
+00:03:50,070 --> 00:03:50,080
+all right because that now we only kept
+ 
+
+195
+00:03:50,080 --> 00:03:53,110
+all right because that now we only kept
+interested in two parts two and then
+
+196
+00:03:53,110 --> 00:03:53,120
+interested in two parts two and then
+ 
+
+197
+00:03:53,120 --> 00:03:55,910
+interested in two parts two and then
+for example the right three is three
+
+198
+00:03:55,910 --> 00:03:55,920
+for example the right three is three
+ 
+
+199
+00:03:55,920 --> 00:03:56,390
+for example the right three is three
+plus
+
+200
+00:03:56,390 --> 00:03:56,400
+plus
+ 
+
+201
+00:03:56,400 --> 00:03:59,030
+plus
+minus ten recursively okay so when we're
+
+202
+00:03:59,030 --> 00:03:59,040
+minus ten recursively okay so when we're
+ 
+
+203
+00:03:59,040 --> 00:04:00,149
+minus ten recursively okay so when we're
+doing release
+
+204
+00:04:00,149 --> 00:04:00,159
+doing release
+ 
+
+205
+00:04:00,159 --> 00:04:03,429
+doing release
+we know we can keep the maximum of any
+
+206
+00:04:03,429 --> 00:04:03,439
+we know we can keep the maximum of any
+ 
+
+207
+00:04:03,439 --> 00:04:04,470
+we know we can keep the maximum of any
+subtree right
+
+208
+00:04:04,470 --> 00:04:04,480
+subtree right
+ 
+
+209
+00:04:04,480 --> 00:04:06,229
+subtree right
+the sum of the unknown substrate when we
+
+210
+00:04:06,229 --> 00:04:06,239
+the sum of the unknown substrate when we
+ 
+
+211
+00:04:06,239 --> 00:04:08,550
+the sum of the unknown substrate when we
+do english d recursion
+
+212
+00:04:08,550 --> 00:04:08,560
+do english d recursion
+ 
+
+213
+00:04:08,560 --> 00:04:13,990
+do english d recursion
+doesn't make sense yeah um
+
+214
+00:04:13,990 --> 00:04:14,000
+doesn't make sense yeah um
+ 
+
+215
+00:04:14,000 --> 00:04:17,590
+doesn't make sense yeah um
+define let's do this called the max
+
+216
+00:04:17,590 --> 00:04:17,600
+define let's do this called the max
+ 
+
+217
+00:04:17,600 --> 00:04:21,030
+define let's do this called the max
+sum okay and then we go root
+
+218
+00:04:21,030 --> 00:04:21,040
+sum okay and then we go root
+ 
+
+219
+00:04:21,040 --> 00:04:24,390
+sum okay and then we go root
+good oh yeah and then we need to have a
+
+220
+00:04:24,390 --> 00:04:24,400
+good oh yeah and then we need to have a
+ 
+
+221
+00:04:24,400 --> 00:04:26,870
+good oh yeah and then we need to have a
+answer here okay at the beginning we set
+
+222
+00:04:26,870 --> 00:04:26,880
+answer here okay at the beginning we set
+ 
+
+223
+00:04:26,880 --> 00:04:27,670
+answer here okay at the beginning we set
+it to the
+
+224
+00:04:27,670 --> 00:04:27,680
+it to the
+ 
+
+225
+00:04:27,680 --> 00:04:30,790
+it to the
+negative infinity which is minus what do
+
+226
+00:04:30,790 --> 00:04:30,800
+negative infinity which is minus what do
+ 
+
+227
+00:04:30,800 --> 00:04:31,909
+negative infinity which is minus what do
+you still remember
+
+228
+00:04:31,909 --> 00:04:31,919
+you still remember
+ 
+
+229
+00:04:31,919 --> 00:04:36,230
+you still remember
+how to call it yeah max master what
+
+230
+00:04:36,230 --> 00:04:36,240
+how to call it yeah max master what
+ 
+
+231
+00:04:36,240 --> 00:04:39,270
+how to call it yeah max master what
+infinity mess.inf
+
+232
+00:04:39,270 --> 00:04:39,280
+infinity mess.inf
+ 
+
+233
+00:04:39,280 --> 00:04:43,189
+infinity mess.inf
+yeah okay now look define we define a
+
+234
+00:04:43,189 --> 00:04:43,199
+yeah okay now look define we define a
+ 
+
+235
+00:04:43,199 --> 00:04:44,950
+yeah okay now look define we define a
+different search function inside this
+
+236
+00:04:44,950 --> 00:04:44,960
+different search function inside this
+ 
+
+237
+00:04:44,960 --> 00:04:45,670
+different search function inside this
+function
+
+238
+00:04:45,670 --> 00:04:45,680
+function
+ 
+
+239
+00:04:45,680 --> 00:04:49,830
+function
+root and when
+
+240
+00:04:49,830 --> 00:04:49,840
+root and when
+ 
+
+241
+00:04:49,840 --> 00:04:52,070
+root and when
+if not root when the root is empty we
+
+242
+00:04:52,070 --> 00:04:52,080
+if not root when the root is empty we
+ 
+
+243
+00:04:52,080 --> 00:04:53,990
+if not root when the root is empty we
+return zero right
+
+244
+00:04:53,990 --> 00:04:54,000
+return zero right
+ 
+
+245
+00:04:54,000 --> 00:04:56,310
+return zero right
+yeah am i right doesn't make sense
+
+246
+00:04:56,310 --> 00:04:56,320
+yeah am i right doesn't make sense
+ 
+
+247
+00:04:56,320 --> 00:04:58,710
+yeah am i right doesn't make sense
+because the empty note is zero right
+
+248
+00:04:58,710 --> 00:04:58,720
+because the empty note is zero right
+ 
+
+249
+00:04:58,720 --> 00:05:02,310
+because the empty note is zero right
+it's a zero okay now because look inside
+
+250
+00:05:02,310 --> 00:05:02,320
+it's a zero okay now because look inside
+ 
+
+251
+00:05:02,320 --> 00:05:03,990
+it's a zero okay now because look inside
+this function we want to
+
+252
+00:05:03,990 --> 00:05:04,000
+this function we want to
+ 
+
+253
+00:05:04,000 --> 00:05:05,990
+this function we want to
+reference we want to update this answer
+
+254
+00:05:05,990 --> 00:05:06,000
+reference we want to update this answer
+ 
+
+255
+00:05:06,000 --> 00:05:07,189
+reference we want to update this answer
+right very good
+
+256
+00:05:07,189 --> 00:05:07,199
+right very good
+ 
+
+257
+00:05:07,199 --> 00:05:08,870
+right very good
+we want to empty these answers so we
+
+258
+00:05:08,870 --> 00:05:08,880
+we want to empty these answers so we
+ 
+
+259
+00:05:08,880 --> 00:05:11,670
+we want to empty these answers so we
+which keyword are we using
+
+260
+00:05:11,670 --> 00:05:11,680
+which keyword are we using
+ 
+
+261
+00:05:11,680 --> 00:05:14,629
+which keyword are we using
+which key are we using answer what do we
+
+262
+00:05:14,629 --> 00:05:14,639
+which key are we using answer what do we
+ 
+
+263
+00:05:14,639 --> 00:05:16,790
+which key are we using answer what do we
+need to put in front of it
+
+264
+00:05:16,790 --> 00:05:16,800
+need to put in front of it
+ 
+
+265
+00:05:16,800 --> 00:05:18,790
+need to put in front of it
+which keyword in order to reference this
+
+266
+00:05:18,790 --> 00:05:18,800
+which keyword in order to reference this
+ 
+
+267
+00:05:18,800 --> 00:05:19,990
+which keyword in order to reference this
+even your
+
+268
+00:05:19,990 --> 00:05:20,000
+even your
+ 
+
+269
+00:05:20,000 --> 00:05:22,230
+even your
+if you're not putting this keyword then
+
+270
+00:05:22,230 --> 00:05:22,240
+if you're not putting this keyword then
+ 
+
+271
+00:05:22,240 --> 00:05:23,749
+if you're not putting this keyword then
+you if you say answer
+
+272
+00:05:23,749 --> 00:05:23,759
+you if you say answer
+ 
+
+273
+00:05:23,759 --> 00:05:26,310
+you if you say answer
+and the compiled computer will say okay
+
+274
+00:05:26,310 --> 00:05:26,320
+and the compiled computer will say okay
+ 
+
+275
+00:05:26,320 --> 00:05:27,909
+and the compiled computer will say okay
+this answer is here
+
+276
+00:05:27,909 --> 00:05:27,919
+this answer is here
+ 
+
+277
+00:05:27,919 --> 00:05:32,200
+this answer is here
+what's kiwa which cure remember
+
+278
+00:05:32,200 --> 00:05:32,210
+what's kiwa which cure remember
+ 
+
+279
+00:05:32,210 --> 00:05:40,950
+what's kiwa which cure remember
+[Music]
+
+280
+00:05:40,950 --> 00:05:40,960
+
+ 
+
+281
+00:05:40,960 --> 00:05:43,830
+
+okay now we got the value x equal this
+
+282
+00:05:43,830 --> 00:05:43,840
+okay now we got the value x equal this
+ 
+
+283
+00:05:43,840 --> 00:05:44,390
+okay now we got the value x equal this
+is the sum
+
+284
+00:05:44,390 --> 00:05:44,400
+is the sum
+ 
+
+285
+00:05:44,400 --> 00:05:46,629
+is the sum
+of the current sub tree equals to root
+
+286
+00:05:46,629 --> 00:05:46,639
+of the current sub tree equals to root
+ 
+
+287
+00:05:46,639 --> 00:05:47,670
+of the current sub tree equals to root
+of value right
+
+288
+00:05:47,670 --> 00:05:47,680
+of value right
+ 
+
+289
+00:05:47,680 --> 00:05:55,909
+of value right
+plus one i just told you plus one
+
+290
+00:05:55,909 --> 00:05:55,919
+
+ 
+
+291
+00:05:55,919 --> 00:05:58,150
+
+this is the integer value plus one we're
+
+292
+00:05:58,150 --> 00:05:58,160
+this is the integer value plus one we're
+ 
+
+293
+00:05:58,160 --> 00:05:59,670
+this is the integer value plus one we're
+going to recursively call what what's
+
+294
+00:05:59,670 --> 00:05:59,680
+going to recursively call what what's
+ 
+
+295
+00:05:59,680 --> 00:06:01,990
+going to recursively call what what's
+your input
+
+296
+00:06:01,990 --> 00:06:02,000
+your input
+ 
+
+297
+00:06:02,000 --> 00:06:02,950
+your input
+what's your approval what's the
+
+298
+00:06:02,950 --> 00:06:02,960
+what's your approval what's the
+ 
+
+299
+00:06:02,960 --> 00:06:04,550
+what's your approval what's the
+retention function load of value and
+
+300
+00:06:04,550 --> 00:06:04,560
+retention function load of value and
+ 
+
+301
+00:06:04,560 --> 00:06:06,309
+retention function load of value and
+then the left pin and the right bit yeah
+
+302
+00:06:06,309 --> 00:06:06,319
+then the left pin and the right bit yeah
+ 
+
+303
+00:06:06,319 --> 00:06:07,110
+then the left pin and the right bit yeah
+and
+
+304
+00:06:07,110 --> 00:06:07,120
+and
+ 
+
+305
+00:06:07,120 --> 00:06:11,510
+and
+what's left what do i do
+
+306
+00:06:11,510 --> 00:06:11,520
+
+ 
+
+307
+00:06:11,520 --> 00:06:15,110
+
+here is through the left and here is to
+
+308
+00:06:15,110 --> 00:06:15,120
+here is through the left and here is to
+ 
+
+309
+00:06:15,120 --> 00:06:20,230
+here is through the left and here is to
+the right so what was the upper left
+
+310
+00:06:20,230 --> 00:06:20,240
+the right so what was the upper left
+ 
+
+311
+00:06:20,240 --> 00:06:23,510
+the right so what was the upper left
+the sum of the current subtree is equal
+
+312
+00:06:23,510 --> 00:06:23,520
+the sum of the current subtree is equal
+ 
+
+313
+00:06:23,520 --> 00:06:24,469
+the sum of the current subtree is equal
+to its value
+
+314
+00:06:24,469 --> 00:06:24,479
+to its value
+ 
+
+315
+00:06:24,479 --> 00:06:26,870
+to its value
+plus what the left bit and plus the
+
+316
+00:06:26,870 --> 00:06:26,880
+plus what the left bit and plus the
+ 
+
+317
+00:06:26,880 --> 00:06:31,749
+plus what the left bit and plus the
+right so what do i put here come on
+
+318
+00:06:31,749 --> 00:06:31,759
+
+ 
+
+319
+00:06:31,759 --> 00:06:37,990
+
+come on understand it come on which one
+
+320
+00:06:37,990 --> 00:06:38,000
+
+ 
+
+321
+00:06:38,000 --> 00:06:41,909
+
+come on which function calling
+
+322
+00:06:41,909 --> 00:06:41,919
+come on which function calling
+ 
+
+323
+00:06:41,919 --> 00:06:46,830
+come on which function calling
+wait root sorry
+
+324
+00:06:46,830 --> 00:06:46,840
+
+ 
+
+325
+00:06:46,840 --> 00:06:57,189
+
+what
+
+326
+00:06:57,189 --> 00:06:57,199
+
+ 
+
+327
+00:06:57,199 --> 00:06:58,870
+
+the sum of that tree the sum of right
+
+328
+00:06:58,870 --> 00:06:58,880
+the sum of that tree the sum of right
+ 
+
+329
+00:06:58,880 --> 00:07:00,790
+the sum of that tree the sum of right
+three plus itself is the sum of the
+
+330
+00:07:00,790 --> 00:07:00,800
+three plus itself is the sum of the
+ 
+
+331
+00:07:00,800 --> 00:07:02,309
+three plus itself is the sum of the
+current 1.3 right
+
+332
+00:07:02,309 --> 00:07:02,319
+current 1.3 right
+ 
+
+333
+00:07:02,319 --> 00:07:04,390
+current 1.3 right
+but now i got this and then i need to
+
+334
+00:07:04,390 --> 00:07:04,400
+but now i got this and then i need to
+ 
+
+335
+00:07:04,400 --> 00:07:06,390
+but now i got this and then i need to
+update it so answer
+
+336
+00:07:06,390 --> 00:07:06,400
+update it so answer
+ 
+
+337
+00:07:06,400 --> 00:07:09,189
+update it so answer
+equals max max what all right can you
+
+338
+00:07:09,189 --> 00:07:09,199
+equals max max what all right can you
+ 
+
+339
+00:07:09,199 --> 00:07:09,909
+equals max max what all right can you
+tell me
+
+340
+00:07:09,909 --> 00:07:09,919
+tell me
+ 
+
+341
+00:07:09,919 --> 00:07:14,070
+tell me
+maxwell answering was metro left right
+
+342
+00:07:14,070 --> 00:07:14,080
+maxwell answering was metro left right
+ 
+
+343
+00:07:14,080 --> 00:07:16,710
+maxwell answering was metro left right
+left come on answer equals one we're
+
+344
+00:07:16,710 --> 00:07:16,720
+left come on answer equals one we're
+ 
+
+345
+00:07:16,720 --> 00:07:18,230
+left come on answer equals one we're
+going to keep the maximum
+
+346
+00:07:18,230 --> 00:07:18,240
+going to keep the maximum
+ 
+
+347
+00:07:18,240 --> 00:07:25,350
+going to keep the maximum
+on the sum what what are we doing here
+
+348
+00:07:25,350 --> 00:07:25,360
+
+ 
+
+349
+00:07:25,360 --> 00:07:30,629
+
+and so i know which value
+
+350
+00:07:30,629 --> 00:07:30,639
+and so i know which value
+ 
+
+351
+00:07:30,639 --> 00:07:33,670
+and so i know which value
+loot is not a value root is the node so
+
+352
+00:07:33,670 --> 00:07:33,680
+loot is not a value root is the node so
+ 
+
+353
+00:07:33,680 --> 00:07:35,830
+loot is not a value root is the node so
+what
+
+354
+00:07:35,830 --> 00:07:35,840
+what
+ 
+
+355
+00:07:35,840 --> 00:07:38,790
+what
+what values yes x is the sum okay and
+
+356
+00:07:38,790 --> 00:07:38,800
+what values yes x is the sum okay and
+ 
+
+357
+00:07:38,800 --> 00:07:40,950
+what values yes x is the sum okay and
+then we turn what
+
+358
+00:07:40,950 --> 00:07:40,960
+then we turn what
+ 
+
+359
+00:07:40,960 --> 00:07:53,220
+then we turn what
+we know what answer
+
+360
+00:07:53,220 --> 00:07:53,230
+
+ 
+
+361
+00:07:53,230 --> 00:07:54,790
+
+[Music]
+
+362
+00:07:54,790 --> 00:07:54,800
+[Music]
+ 
+
+363
+00:07:54,800 --> 00:07:56,790
+[Music]
+the biggest one is here okay the biggest
+
+364
+00:07:56,790 --> 00:07:56,800
+the biggest one is here okay the biggest
+ 
+
+365
+00:07:56,800 --> 00:07:58,309
+the biggest one is here okay the biggest
+one is here we just
+
+366
+00:07:58,309 --> 00:07:58,319
+one is here we just
+ 
+
+367
+00:07:58,319 --> 00:08:00,309
+one is here we just
+i'm operating but we are not returning
+
+368
+00:08:00,309 --> 00:08:00,319
+i'm operating but we are not returning
+ 
+
+369
+00:08:00,319 --> 00:08:02,469
+i'm operating but we are not returning
+this one we're returning what
+
+370
+00:08:02,469 --> 00:08:02,479
+this one we're returning what
+ 
+
+371
+00:08:02,479 --> 00:08:07,270
+this one we're returning what
+the max this function returns the sum
+
+372
+00:08:07,270 --> 00:08:07,280
+the max this function returns the sum
+ 
+
+373
+00:08:07,280 --> 00:08:10,070
+the max this function returns the sum
+of the current subtree and which one is
+
+374
+00:08:10,070 --> 00:08:10,080
+of the current subtree and which one is
+ 
+
+375
+00:08:10,080 --> 00:08:12,309
+of the current subtree and which one is
+the sum of the current structure
+
+376
+00:08:12,309 --> 00:08:12,319
+the sum of the current structure
+ 
+
+377
+00:08:12,319 --> 00:08:15,430
+the sum of the current structure
+which one is the sum yeah return x yeah
+
+378
+00:08:15,430 --> 00:08:15,440
+which one is the sum yeah return x yeah
+ 
+
+379
+00:08:15,440 --> 00:08:16,230
+which one is the sum yeah return x yeah
+we are choosing
+
+380
+00:08:16,230 --> 00:08:16,240
+we are choosing
+ 
+
+381
+00:08:16,240 --> 00:08:19,670
+we are choosing
+just using x to obtain a maximum subtree
+
+382
+00:08:19,670 --> 00:08:19,680
+just using x to obtain a maximum subtree
+ 
+
+383
+00:08:19,680 --> 00:08:21,670
+just using x to obtain a maximum subtree
+maximum sum of subtree okay and then we
+
+384
+00:08:21,670 --> 00:08:21,680
+maximum sum of subtree okay and then we
+ 
+
+385
+00:08:21,680 --> 00:08:23,749
+maximum sum of subtree okay and then we
+can call this dfs
+
+386
+00:08:23,749 --> 00:08:23,759
+can call this dfs
+ 
+
+387
+00:08:23,759 --> 00:08:33,750
+can call this dfs
+load yeah and then
+
+388
+00:08:33,750 --> 00:08:33,760
+
+ 
+
+389
+00:08:33,760 --> 00:08:36,469
+
+does it make sense now what's the time
+
+390
+00:08:36,469 --> 00:08:36,479
+does it make sense now what's the time
+ 
+
+391
+00:08:36,479 --> 00:08:39,350
+does it make sense now what's the time
+complexity
+
+392
+00:08:39,350 --> 00:08:39,360
+
+ 
+
+393
+00:08:39,360 --> 00:08:44,870
+
+our first time capacity
+
+394
+00:08:44,870 --> 00:08:44,880
+
+ 
+
+395
+00:08:44,880 --> 00:08:47,030
+
+that n is the number of nodes in the
+
+396
+00:08:47,030 --> 00:08:47,040
+that n is the number of nodes in the
+ 
+
+397
+00:08:47,040 --> 00:08:51,509
+that n is the number of nodes in the
+financial what's the time capacity
+
+398
+00:08:51,509 --> 00:08:51,519
+
+ 
+
+399
+00:08:51,519 --> 00:08:54,710
+
+okay specs complexity is also when all
+
+400
+00:08:54,710 --> 00:08:54,720
+okay specs complexity is also when all
+ 
+
+401
+00:08:54,720 --> 00:08:55,829
+okay specs complexity is also when all
+right
+
+402
+00:08:55,829 --> 00:08:55,839
+right
+ 
+
+403
+00:08:55,839 --> 00:08:59,509
+right
+why is it going because we say
+
+404
+00:08:59,509 --> 00:08:59,519
+why is it going because we say
+ 
+
+405
+00:08:59,519 --> 00:09:02,870
+why is it going because we say
+no actually it's all h right oh h h is
+
+406
+00:09:02,870 --> 00:09:02,880
+no actually it's all h right oh h h is
+ 
+
+407
+00:09:02,880 --> 00:09:03,990
+no actually it's all h right oh h h is
+the height of the
+
+408
+00:09:03,990 --> 00:09:04,000
+the height of the
+ 
+
+409
+00:09:04,000 --> 00:09:06,790
+the height of the
+no no no no it's not always it's one yes
+
+410
+00:09:06,790 --> 00:09:06,800
+no no no no it's not always it's one yes
+ 
+
+411
+00:09:06,800 --> 00:09:07,670
+no no no no it's not always it's one yes
+it's
+
+412
+00:09:07,670 --> 00:09:07,680
+it's
+ 
+
+413
+00:09:07,680 --> 00:09:09,750
+it's
+because we need to visit every node in
+
+414
+00:09:09,750 --> 00:09:09,760
+because we need to visit every node in
+ 
+
+415
+00:09:09,760 --> 00:09:11,670
+because we need to visit every node in
+the in a parallel tree right
+
+416
+00:09:11,670 --> 00:09:11,680
+the in a parallel tree right
+ 
+
+417
+00:09:11,680 --> 00:09:13,910
+the in a parallel tree right
+we need to reach any node every node in
+
+418
+00:09:13,910 --> 00:09:13,920
+we need to reach any node every node in
+ 
+
+419
+00:09:13,920 --> 00:09:14,949
+we need to reach any node every node in
+the priority
+
+420
+00:09:14,949 --> 00:09:14,959
+the priority
+ 
+
+421
+00:09:14,959 --> 00:09:18,070
+the priority
+so it doesn't matter if it's you know
+
+422
+00:09:18,070 --> 00:09:18,080
+so it doesn't matter if it's you know
+ 
+
+423
+00:09:18,080 --> 00:09:20,230
+so it doesn't matter if it's you know
+the tree is highly balanced or not right
+
+424
+00:09:20,230 --> 00:09:20,240
+the tree is highly balanced or not right
+ 
+
+425
+00:09:20,240 --> 00:09:22,230
+the tree is highly balanced or not right
+does it make sense
+
+426
+00:09:22,230 --> 00:09:22,240
+does it make sense
+ 
+
+427
+00:09:22,240 --> 00:09:23,030
+does it make sense
+okay
+
+428
+00:09:23,030 --> 00:09:23,040
+okay
+ 
+
+429
+00:09:23,040 --> 00:09:26,389
+okay
+[Music]
+
+430
+00:09:26,389 --> 00:09:26,399
+[Music]
+ 
+
+431
+00:09:26,399 --> 00:09:30,150
+
+answer it come on come on
+
+432
+00:09:30,150 --> 00:09:30,160
+answer it come on come on
+ 
+
+433
+00:09:30,160 --> 00:09:35,350
+answer it come on come on
+write it understand it not remembering
+
+434
+00:09:35,350 --> 00:09:35,360
+
+ 
+
+435
+00:09:35,360 --> 00:09:37,829
+
+well and you need to tell me what why
+
+436
+00:09:37,829 --> 00:09:37,839
+well and you need to tell me what why
+ 
+
+437
+00:09:37,839 --> 00:09:38,389
+well and you need to tell me what why
+you put
+
+438
+00:09:38,389 --> 00:09:38,399
+you put
+ 
+
+439
+00:09:38,399 --> 00:09:43,670
+you put
+that thing there right what
+
+440
+00:09:43,670 --> 00:09:43,680
+
+ 
+
+441
+00:09:43,680 --> 00:09:46,949
+
+x equals one right well then
+
+442
+00:09:46,949 --> 00:09:46,959
+x equals one right well then
+ 
+
+443
+00:09:46,959 --> 00:09:49,990
+x equals one right well then
+loose yeah you don't need to write it so
+
+444
+00:09:49,990 --> 00:09:50,000
+loose yeah you don't need to write it so
+ 
+
+445
+00:09:50,000 --> 00:09:51,829
+loose yeah you don't need to write it so
+hard just quickly
+
+446
+00:09:51,829 --> 00:09:51,839
+hard just quickly
+ 
+
+447
+00:09:51,839 --> 00:10:00,949
+hard just quickly
+faster faster
+
+448
+00:10:00,949 --> 00:10:00,959
+
+ 
+
+449
+00:10:00,959 --> 00:10:04,389
+
+yeah v
+
+450
+00:10:04,389 --> 00:10:04,399
+yeah v
+ 
+
+451
+00:10:04,399 --> 00:10:07,750
+yeah v
+value value it's value plus so can you
+
+452
+00:10:07,750 --> 00:10:07,760
+value value it's value plus so can you
+ 
+
+453
+00:10:07,760 --> 00:10:09,670
+value value it's value plus so can you
+explain to me
+
+454
+00:10:09,670 --> 00:10:09,680
+explain to me
+ 
+
+455
+00:10:09,680 --> 00:10:12,150
+explain to me
+what's learned x equals what what does
+
+456
+00:10:12,150 --> 00:10:12,160
+what's learned x equals what what does
+ 
+
+457
+00:10:12,160 --> 00:10:12,870
+what's learned x equals what what does
+it mean x
+
+458
+00:10:12,870 --> 00:10:12,880
+it mean x
+ 
+
+459
+00:10:12,880 --> 00:10:17,190
+it mean x
+equals hmm all right
+
+460
+00:10:17,190 --> 00:10:17,200
+equals hmm all right
+ 
+
+461
+00:10:17,200 --> 00:10:20,710
+equals hmm all right
+okay can you explain to everybody
+
+462
+00:10:20,710 --> 00:10:20,720
+okay can you explain to everybody
+ 
+
+463
+00:10:20,720 --> 00:10:23,750
+okay can you explain to everybody
+so what's x the x is
+
+464
+00:10:23,750 --> 00:10:23,760
+so what's x the x is
+ 
+
+465
+00:10:23,760 --> 00:10:26,949
+so what's x the x is
+equals to read the value
+
+466
+00:10:26,949 --> 00:10:26,959
+equals to read the value
+ 
+
+467
+00:10:26,959 --> 00:10:31,030
+equals to read the value
+and the dfs of root.right and root
+
+468
+00:10:31,030 --> 00:10:31,040
+and the dfs of root.right and root
+ 
+
+469
+00:10:31,040 --> 00:10:34,550
+and the dfs of root.right and root
+and the left and right so what's x
+
+470
+00:10:34,550 --> 00:10:34,560
+and the left and right so what's x
+ 
+
+471
+00:10:34,560 --> 00:10:38,069
+and the left and right so what's x
+what's x in this function the sum of the
+
+472
+00:10:38,069 --> 00:10:38,079
+what's x in this function the sum of the
+ 
+
+473
+00:10:38,079 --> 00:10:40,550
+what's x in this function the sum of the
+current subtree right and then we need
+
+474
+00:10:40,550 --> 00:10:40,560
+current subtree right and then we need
+ 
+
+475
+00:10:40,560 --> 00:10:41,190
+current subtree right and then we need
+to keep
+
+476
+00:10:41,190 --> 00:10:41,200
+to keep
+ 
+
+477
+00:10:41,200 --> 00:10:45,670
+to keep
+updating the maximum maximum sum of
+
+478
+00:10:45,670 --> 00:10:45,680
+updating the maximum maximum sum of
+ 
+
+479
+00:10:45,680 --> 00:10:48,790
+updating the maximum maximum sum of
+the x right yeah does it make sense yes
+
+480
+00:10:48,790 --> 00:10:48,800
+the x right yeah does it make sense yes
+ 
+
+481
+00:10:48,800 --> 00:10:52,710
+the x right yeah does it make sense yes
+yeah okay
+
+482
+00:10:52,710 --> 00:10:52,720
+
+ 
+
+483
+00:10:52,720 --> 00:10:55,829
+
+any questions
+
+484
+00:10:55,829 --> 00:10:55,839
+any questions
+ 
+
+485
+00:10:55,839 --> 00:10:58,949
+any questions
+any questions
+
+486
+00:10:58,949 --> 00:10:58,959
+
+ 
+
+487
+00:10:58,959 --> 00:11:01,590
+
+right why why this is working because
+
+488
+00:11:01,590 --> 00:11:01,600
+right why why this is working because
+ 
+
+489
+00:11:01,600 --> 00:11:02,550
+right why why this is working because
+look every time
+
+490
+00:11:02,550 --> 00:11:02,560
+look every time
+ 
+
+491
+00:11:02,560 --> 00:11:04,550
+look every time
+the loot when you're calling according
+
+492
+00:11:04,550 --> 00:11:04,560
+the loot when you're calling according
+ 
+
+493
+00:11:04,560 --> 00:11:06,150
+the loot when you're calling according
+and you when you're reaching the
+
+494
+00:11:06,150 --> 00:11:06,160
+and you when you're reaching the
+ 
+
+495
+00:11:06,160 --> 00:11:09,030
+and you when you're reaching the
+loot when it reaches the leaf it will
+
+496
+00:11:09,030 --> 00:11:09,040
+loot when it reaches the leaf it will
+ 
+
+497
+00:11:09,040 --> 00:11:09,670
+loot when it reaches the leaf it will
+return
+
+498
+00:11:09,670 --> 00:11:09,680
+return
+ 
+
+499
+00:11:09,680 --> 00:11:13,670
+return
+zero right within this yellow
+
+500
+00:11:13,670 --> 00:11:13,680
+zero right within this yellow
+ 
+
+501
+00:11:13,680 --> 00:11:16,310
+zero right within this yellow
+and then according back according back
+
+502
+00:11:16,310 --> 00:11:16,320
+and then according back according back
+ 
+
+503
+00:11:16,320 --> 00:11:17,030
+and then according back according back
+then it will be
+
+504
+00:11:17,030 --> 00:11:17,040
+then it will be
+ 
+
+505
+00:11:17,040 --> 00:11:19,110
+then it will be
+the sub tree the root of very easy so
+
+506
+00:11:19,110 --> 00:11:19,120
+the sub tree the root of very easy so
+ 
+
+507
+00:11:19,120 --> 00:11:21,030
+the sub tree the root of very easy so
+that's gonna repent
+
+508
+00:11:21,030 --> 00:11:21,040
+that's gonna repent
+ 
+
+509
+00:11:21,040 --> 00:11:23,269
+that's gonna repent
+okay so actually because i just said the
+
+510
+00:11:23,269 --> 00:11:23,279
+okay so actually because i just said the
+ 
+
+511
+00:11:23,279 --> 00:11:24,550
+okay so actually because i just said the
+empty subtree
+
+512
+00:11:24,550 --> 00:11:24,560
+empty subtree
+ 
+
+513
+00:11:24,560 --> 00:11:27,990
+empty subtree
+has some zero so actually you need to uh
+
+514
+00:11:27,990 --> 00:11:28,000
+has some zero so actually you need to uh
+ 
+
+515
+00:11:28,000 --> 00:11:29,990
+has some zero so actually you need to uh
+if if answer is smaller than zero it
+
+516
+00:11:29,990 --> 00:11:30,000
+if if answer is smaller than zero it
+ 
+
+517
+00:11:30,000 --> 00:11:31,750
+if if answer is smaller than zero it
+needs to return zero so you'll be
+
+518
+00:11:31,750 --> 00:11:31,760
+needs to return zero so you'll be
+ 
+
+519
+00:11:31,760 --> 00:11:34,870
+needs to return zero so you'll be
+actually it's max yeah that's why i said
+
+520
+00:11:34,870 --> 00:11:34,880
+actually it's max yeah that's why i said
+ 
+
+521
+00:11:34,880 --> 00:11:36,470
+actually it's max yeah that's why i said
+answer zero okay so that's a small
+
+522
+00:11:36,470 --> 00:11:36,480
+answer zero okay so that's a small
+ 
+
+523
+00:11:36,480 --> 00:11:38,230
+answer zero okay so that's a small
+mistake okay but then
+
+524
+00:11:38,230 --> 00:11:38,240
+mistake okay but then
+ 
+
+525
+00:11:38,240 --> 00:11:42,069
+mistake okay but then
+the whole thing eric look one
+
+526
+00:11:42,069 --> 00:11:42,079
+the whole thing eric look one
+ 
+
+527
+00:11:42,079 --> 00:11:45,269
+the whole thing eric look one
+two three okay let's let's see this okay
+
+528
+00:11:45,269 --> 00:11:45,279
+two three okay let's let's see this okay
+ 
+
+529
+00:11:45,279 --> 00:11:47,430
+two three okay let's let's see this okay
+just this easy all right look you're
+
+530
+00:11:47,430 --> 00:11:47,440
+just this easy all right look you're
+ 
+
+531
+00:11:47,440 --> 00:11:49,350
+just this easy all right look you're
+passing the rule right
+
+532
+00:11:49,350 --> 00:11:49,360
+passing the rule right
+ 
+
+533
+00:11:49,360 --> 00:11:50,949
+passing the rule right
+and then you're going down because it's
+
+534
+00:11:50,949 --> 00:11:50,959
+and then you're going down because it's
+ 
+
+535
+00:11:50,959 --> 00:11:56,310
+and then you're going down because it's
+calling you say it's calling that yeah
+
+536
+00:11:56,310 --> 00:11:56,320
+calling you say it's calling that yeah
+ 
+
+537
+00:11:56,320 --> 00:11:59,110
+calling you say it's calling that yeah
+yeah look look look loo the left right
+
+538
+00:11:59,110 --> 00:11:59,120
+yeah look look look loo the left right
+ 
+
+539
+00:11:59,120 --> 00:11:59,910
+yeah look look look loo the left right
+so
+
+540
+00:11:59,910 --> 00:11:59,920
+so
+ 
+
+541
+00:11:59,920 --> 00:12:03,430
+so
+when x x would be equal to three
+
+542
+00:12:03,430 --> 00:12:03,440
+when x x would be equal to three
+ 
+
+543
+00:12:03,440 --> 00:12:06,790
+when x x would be equal to three
+equals to four and equals to
+
+544
+00:12:06,790 --> 00:12:06,800
+equals to four and equals to
+ 
+
+545
+00:12:06,800 --> 00:12:09,030
+equals to four and equals to
+two plus three plus four equals two so
+
+546
+00:12:09,030 --> 00:12:09,040
+two plus three plus four equals two so
+ 
+
+547
+00:12:09,040 --> 00:12:10,790
+two plus three plus four equals two so
+so when you're calling this recursion
+
+548
+00:12:10,790 --> 00:12:10,800
+so when you're calling this recursion
+ 
+
+549
+00:12:10,800 --> 00:12:12,949
+so when you're calling this recursion
+you're calling this way right all right
+
+550
+00:12:12,949 --> 00:12:12,959
+you're calling this way right all right
+ 
+
+551
+00:12:12,959 --> 00:12:15,269
+you're calling this way right all right
+but when you're reaching the leaf you
+
+552
+00:12:15,269 --> 00:12:15,279
+but when you're reaching the leaf you
+ 
+
+553
+00:12:15,279 --> 00:12:16,069
+but when you're reaching the leaf you
+are
+
+554
+00:12:16,069 --> 00:12:16,079
+are
+ 
+
+555
+00:12:16,079 --> 00:12:18,790
+are
+caught you are returning the result in
+
+556
+00:12:18,790 --> 00:12:18,800
+caught you are returning the result in
+ 
+
+557
+00:12:18,800 --> 00:12:19,910
+caught you are returning the result in
+the reverse order
+
+558
+00:12:19,910 --> 00:12:19,920
+the reverse order
+ 
+
+559
+00:12:19,920 --> 00:12:22,710
+the reverse order
+that's why this works right because your
+
+560
+00:12:22,710 --> 00:12:22,720
+that's why this works right because your
+ 
+
+561
+00:12:22,720 --> 00:12:23,670
+that's why this works right because your
+technique is
+
+562
+00:12:23,670 --> 00:12:23,680
+technique is
+ 
+
+563
+00:12:23,680 --> 00:12:26,710
+technique is
+x in in the reverse order due to
+
+564
+00:12:26,710 --> 00:12:26,720
+x in in the reverse order due to
+ 
+
+565
+00:12:26,720 --> 00:12:27,750
+x in in the reverse order due to
+recursion right
+
+566
+00:12:27,750 --> 00:12:27,760
+recursion right
+ 
+
+567
+00:12:27,760 --> 00:12:30,629
+recursion right
+the stack yeah the stack yeah first in
+
+568
+00:12:30,629 --> 00:12:30,639
+the stack yeah the stack yeah first in
+ 
+
+569
+00:12:30,639 --> 00:12:31,430
+the stack yeah the stack yeah first in
+nasa
+
+570
+00:12:31,430 --> 00:12:31,440
+nasa
+ 
+
+571
+00:12:31,440 --> 00:12:33,110
+nasa
+you're calling look when you're calling
+
+572
+00:12:33,110 --> 00:12:33,120
+you're calling look when you're calling
+ 
+
+573
+00:12:33,120 --> 00:12:35,269
+you're calling look when you're calling
+the root and you're going deep
+
+574
+00:12:35,269 --> 00:12:35,279
+the root and you're going deep
+ 
+
+575
+00:12:35,279 --> 00:12:37,910
+the root and you're going deep
+deep and here you go into the leaf and
+
+576
+00:12:37,910 --> 00:12:37,920
+deep and here you go into the leaf and
+ 
+
+577
+00:12:37,920 --> 00:12:39,430
+deep and here you go into the leaf and
+when you go into the leaves you return
+
+578
+00:12:39,430 --> 00:12:39,440
+when you go into the leaves you return
+ 
+
+579
+00:12:39,440 --> 00:12:40,230
+when you go into the leaves you return
+zero and you
+
+580
+00:12:40,230 --> 00:12:40,240
+zero and you
+ 
+
+581
+00:12:40,240 --> 00:12:43,190
+zero and you
+roll it back back up so you'll be three
+
+582
+00:12:43,190 --> 00:12:43,200
+roll it back back up so you'll be three
+ 
+
+583
+00:12:43,200 --> 00:12:43,670
+roll it back back up so you'll be three
+four
+
+584
+00:12:43,670 --> 00:12:43,680
+four
+ 
+
+585
+00:12:43,680 --> 00:12:47,269
+four
+and then you'll be nine and then you go
+
+586
+00:12:47,269 --> 00:12:47,279
+and then you'll be nine and then you go
+ 
+
+587
+00:12:47,279 --> 00:12:48,150
+and then you'll be nine and then you go
+back to
+
+588
+00:12:48,150 --> 00:12:48,160
+back to
+ 
+
+589
+00:12:48,160 --> 00:12:51,269
+back to
+ten right doesn't make sense okay
+
+590
+00:12:51,269 --> 00:12:51,279
+ten right doesn't make sense okay
+ 
+
+591
+00:12:51,279 --> 00:12:56,959
+ten right doesn't make sense okay
+okay that's it for today
+

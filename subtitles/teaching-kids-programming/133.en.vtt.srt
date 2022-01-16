@@ -1,0 +1,2785 @@
+1
+00:00:00,240 --> 00:00:04,870
+
+go hi hello hello mr mr ryan how are you
+
+2
+00:00:04,870 --> 00:00:04,880
+go hi hello hello mr mr ryan how are you
+ 
+
+3
+00:00:04,880 --> 00:00:05,990
+go hi hello hello mr mr ryan how are you
+today
+
+4
+00:00:05,990 --> 00:00:06,000
+today
+ 
+
+5
+00:00:06,000 --> 00:00:07,749
+today
+good okay so today we'll talk about an
+
+6
+00:00:07,749 --> 00:00:07,759
+good okay so today we'll talk about an
+ 
+
+7
+00:00:07,759 --> 00:00:10,070
+good okay so today we'll talk about an
+interesting problem which is called
+
+8
+00:00:10,070 --> 00:00:10,080
+interesting problem which is called
+ 
+
+9
+00:00:10,080 --> 00:00:13,509
+interesting problem which is called
+zero zero
+
+10
+00:00:13,509 --> 00:00:13,519
+zero zero
+ 
+
+11
+00:00:13,519 --> 00:00:16,390
+zero zero
+so given a positive positive number
+
+12
+00:00:16,390 --> 00:00:16,400
+so given a positive positive number
+ 
+
+13
+00:00:16,400 --> 00:00:18,230
+so given a positive positive number
+integer n
+
+14
+00:00:18,230 --> 00:00:18,240
+integer n
+ 
+
+15
+00:00:18,240 --> 00:00:21,510
+integer n
+find a way find a ask to return an array
+
+16
+00:00:21,510 --> 00:00:21,520
+find a way find a ask to return an array
+ 
+
+17
+00:00:21,520 --> 00:00:22,470
+find a way find a ask to return an array
+which contains
+
+18
+00:00:22,470 --> 00:00:22,480
+which contains
+ 
+
+19
+00:00:22,480 --> 00:00:25,269
+which contains
+integer let's sum up to zero but this
+
+20
+00:00:25,269 --> 00:00:25,279
+integer let's sum up to zero but this
+ 
+
+21
+00:00:25,279 --> 00:00:27,509
+integer let's sum up to zero but this
+integer has to be different unique
+
+22
+00:00:27,509 --> 00:00:27,519
+integer has to be different unique
+ 
+
+23
+00:00:27,519 --> 00:00:29,029
+integer has to be different unique
+so basically two requirements
+
+24
+00:00:29,029 --> 00:00:29,039
+so basically two requirements
+ 
+
+25
+00:00:29,039 --> 00:00:30,790
+so basically two requirements
+requirement why is
+
+26
+00:00:30,790 --> 00:00:30,800
+requirement why is
+ 
+
+27
+00:00:30,800 --> 00:00:34,950
+requirement why is
+all integers unique
+
+28
+00:00:34,950 --> 00:00:34,960
+all integers unique
+ 
+
+29
+00:00:34,960 --> 00:00:39,030
+all integers unique
+okay you can only use one integer once
+
+30
+00:00:39,030 --> 00:00:39,040
+okay you can only use one integer once
+ 
+
+31
+00:00:39,040 --> 00:00:41,830
+okay you can only use one integer once
+and all integers second requirements sum
+
+32
+00:00:41,830 --> 00:00:41,840
+and all integers second requirements sum
+ 
+
+33
+00:00:41,840 --> 00:00:44,069
+and all integers second requirements sum
+to zero
+
+34
+00:00:44,069 --> 00:00:44,079
+to zero
+ 
+
+35
+00:00:44,079 --> 00:00:46,549
+to zero
+okay okay another certain equipment use
+
+36
+00:00:46,549 --> 00:00:46,559
+okay okay another certain equipment use
+ 
+
+37
+00:00:46,559 --> 00:00:50,150
+okay okay another certain equipment use
+an integer okay
+
+38
+00:00:50,150 --> 00:00:50,160
+
+ 
+
+39
+00:00:50,160 --> 00:00:53,350
+
+so if n equals one can you find a way
+
+40
+00:00:53,350 --> 00:00:53,360
+so if n equals one can you find a way
+ 
+
+41
+00:00:53,360 --> 00:00:55,029
+so if n equals one can you find a way
+which
+
+42
+00:00:55,029 --> 00:00:55,039
+which
+ 
+
+43
+00:00:55,039 --> 00:00:58,150
+which
+uh satisfy these three requirements
+
+44
+00:00:58,150 --> 00:00:58,160
+uh satisfy these three requirements
+ 
+
+45
+00:00:58,160 --> 00:01:00,869
+uh satisfy these three requirements
+actually there's only one array zero
+
+46
+00:01:00,869 --> 00:01:00,879
+actually there's only one array zero
+ 
+
+47
+00:01:00,879 --> 00:01:01,189
+actually there's only one array zero
+yeah
+
+48
+00:01:01,189 --> 00:01:01,199
+yeah
+ 
+
+49
+00:01:01,199 --> 00:01:04,789
+yeah
+yeah okay when n equals two
+
+50
+00:01:04,789 --> 00:01:04,799
+yeah okay when n equals two
+ 
+
+51
+00:01:04,799 --> 00:01:10,830
+yeah okay when n equals two
+can you find an array um
+
+52
+00:01:10,830 --> 00:01:10,840
+
+ 
+
+53
+00:01:10,840 --> 00:01:12,870
+
+one
+
+54
+00:01:12,870 --> 00:01:12,880
+one
+ 
+
+55
+00:01:12,880 --> 00:01:15,990
+one
+once you make sure is one and one minus
+
+56
+00:01:15,990 --> 00:01:16,000
+once you make sure is one and one minus
+ 
+
+57
+00:01:16,000 --> 00:01:16,390
+once you make sure is one and one minus
+one
+
+58
+00:01:16,390 --> 00:01:16,400
+one
+ 
+
+59
+00:01:16,400 --> 00:01:18,630
+one
+yes so how many how many kind of
+
+60
+00:01:18,630 --> 00:01:18,640
+yes so how many how many kind of
+ 
+
+61
+00:01:18,640 --> 00:01:20,950
+yes so how many how many kind of
+possibilities
+
+62
+00:01:20,950 --> 00:01:20,960
+possibilities
+ 
+
+63
+00:01:20,960 --> 00:01:24,310
+possibilities
+for this answer uh
+
+64
+00:01:24,310 --> 00:01:24,320
+for this answer uh
+ 
+
+65
+00:01:24,320 --> 00:01:27,590
+for this answer uh
+is it unique you can you hop there one
+
+66
+00:01:27,590 --> 00:01:27,600
+is it unique you can you hop there one
+ 
+
+67
+00:01:27,600 --> 00:01:30,230
+is it unique you can you hop there one
+if n is one only one possibility and
+
+68
+00:01:30,230 --> 00:01:30,240
+if n is one only one possibility and
+ 
+
+69
+00:01:30,240 --> 00:01:30,789
+if n is one only one possibility and
+when n
+
+70
+00:01:30,789 --> 00:01:30,799
+when n
+ 
+
+71
+00:01:30,799 --> 00:01:33,429
+when n
+is two or any what was it how many
+
+72
+00:01:33,429 --> 00:01:33,439
+is two or any what was it how many
+ 
+
+73
+00:01:33,439 --> 00:01:37,270
+is two or any what was it how many
+possibilities
+
+74
+00:01:37,270 --> 00:01:37,280
+
+ 
+
+75
+00:01:37,280 --> 00:01:39,749
+
+how many can you find any other man
+
+76
+00:01:39,749 --> 00:01:39,759
+how many can you find any other man
+ 
+
+77
+00:01:39,759 --> 00:01:41,590
+how many can you find any other man
+these two
+
+78
+00:01:41,590 --> 00:01:41,600
+these two
+ 
+
+79
+00:01:41,600 --> 00:01:44,789
+these two
+can you find this
+
+80
+00:01:44,789 --> 00:01:44,799
+
+ 
+
+81
+00:01:44,799 --> 00:01:47,990
+
+one come see two
+
+82
+00:01:47,990 --> 00:01:48,000
+one come see two
+ 
+
+83
+00:01:48,000 --> 00:01:49,990
+one come see two
+minus three yeah so you can find i
+
+84
+00:01:49,990 --> 00:01:50,000
+minus three yeah so you can find i
+ 
+
+85
+00:01:50,000 --> 00:01:51,670
+minus three yeah so you can find i
+limited one right
+
+86
+00:01:51,670 --> 00:01:51,680
+limited one right
+ 
+
+87
+00:01:51,680 --> 00:01:54,870
+limited one right
+okay what does that mean
+
+88
+00:01:54,870 --> 00:01:54,880
+okay what does that mean
+ 
+
+89
+00:01:54,880 --> 00:01:57,830
+okay what does that mean
+minus one one minus one so you find two
+
+90
+00:01:57,830 --> 00:01:57,840
+minus one one minus one so you find two
+ 
+
+91
+00:01:57,840 --> 00:01:59,830
+minus one one minus one so you find two
+numbers added to zero
+
+92
+00:01:59,830 --> 00:01:59,840
+numbers added to zero
+ 
+
+93
+00:01:59,840 --> 00:02:01,670
+numbers added to zero
+right and all these two numbers needs to
+
+94
+00:02:01,670 --> 00:02:01,680
+right and all these two numbers needs to
+ 
+
+95
+00:02:01,680 --> 00:02:04,230
+right and all these two numbers needs to
+be different yeah it's easier one
+
+96
+00:02:04,230 --> 00:02:04,240
+be different yeah it's easier one
+ 
+
+97
+00:02:04,240 --> 00:02:07,190
+be different yeah it's easier one
+minus one yeah it will be zero two minus
+
+98
+00:02:07,190 --> 00:02:07,200
+minus one yeah it will be zero two minus
+ 
+
+99
+00:02:07,200 --> 00:02:07,749
+minus one yeah it will be zero two minus
+two
+
+100
+00:02:07,749 --> 00:02:07,759
+two
+ 
+
+101
+00:02:07,759 --> 00:02:10,869
+two
+you can say three minus two yeah yeah
+
+102
+00:02:10,869 --> 00:02:10,879
+you can say three minus two yeah yeah
+ 
+
+103
+00:02:10,879 --> 00:02:13,910
+you can say three minus two yeah yeah
+okay how about n equals three
+
+104
+00:02:13,910 --> 00:02:13,920
+okay how about n equals three
+ 
+
+105
+00:02:13,920 --> 00:02:18,070
+okay how about n equals three
+uh three zero zero
+
+106
+00:02:18,070 --> 00:02:18,080
+uh three zero zero
+ 
+
+107
+00:02:18,080 --> 00:02:22,550
+uh three zero zero
+one minus one yeah you see so when n
+
+108
+00:02:22,550 --> 00:02:22,560
+one minus one yeah you see so when n
+ 
+
+109
+00:02:22,560 --> 00:02:25,750
+one minus one yeah you see so when n
+is in odd number see if you first put a
+
+110
+00:02:25,750 --> 00:02:25,760
+is in odd number see if you first put a
+ 
+
+111
+00:02:25,760 --> 00:02:27,030
+is in odd number see if you first put a
+zero right
+
+112
+00:02:27,030 --> 00:02:27,040
+zero right
+ 
+
+113
+00:02:27,040 --> 00:02:29,670
+zero right
+yeah and then you'll be reduced to n
+
+114
+00:02:29,670 --> 00:02:29,680
+yeah and then you'll be reduced to n
+ 
+
+115
+00:02:29,680 --> 00:02:31,030
+yeah and then you'll be reduced to n
+equals two right
+
+116
+00:02:31,030 --> 00:02:31,040
+equals two right
+ 
+
+117
+00:02:31,040 --> 00:02:34,070
+equals two right
+all right okay so this is
+
+118
+00:02:34,070 --> 00:02:34,080
+all right okay so this is
+ 
+
+119
+00:02:34,080 --> 00:02:37,430
+all right okay so this is
+one kind of strategy yeah so what how
+
+120
+00:02:37,430 --> 00:02:37,440
+one kind of strategy yeah so what how
+ 
+
+121
+00:02:37,440 --> 00:02:40,790
+one kind of strategy yeah so what how
+can you think of alex strategies
+
+122
+00:02:40,790 --> 00:02:40,800
+can you think of alex strategies
+ 
+
+123
+00:02:40,800 --> 00:02:43,190
+can you think of alex strategies
+like if n equals a hundred so what do
+
+124
+00:02:43,190 --> 00:02:43,200
+like if n equals a hundred so what do
+ 
+
+125
+00:02:43,200 --> 00:02:45,670
+like if n equals a hundred so what do
+you put that will take for ages to write
+
+126
+00:02:45,670 --> 00:02:45,680
+you put that will take for ages to write
+ 
+
+127
+00:02:45,680 --> 00:02:48,790
+you put that will take for ages to write
+yeah but you can always write it
+
+128
+00:02:48,790 --> 00:02:48,800
+yeah but you can always write it
+ 
+
+129
+00:02:48,800 --> 00:02:51,270
+yeah but you can always write it
+generally it's a hundred numbers i give
+
+130
+00:02:51,270 --> 00:02:51,280
+generally it's a hundred numbers i give
+ 
+
+131
+00:02:51,280 --> 00:02:53,670
+generally it's a hundred numbers i give
+you 100 minus one
+
+132
+00:02:53,670 --> 00:02:53,680
+you 100 minus one
+ 
+
+133
+00:02:53,680 --> 00:02:58,229
+you 100 minus one
+minus t minus three minus four
+
+134
+00:02:58,229 --> 00:02:58,239
+
+ 
+
+135
+00:02:58,239 --> 00:03:00,790
+
+and then how do you put it minus minus
+
+136
+00:03:00,790 --> 00:03:00,800
+and then how do you put it minus minus
+ 
+
+137
+00:03:00,800 --> 00:03:01,270
+and then how do you put it minus minus
+nine
+
+138
+00:03:01,270 --> 00:03:01,280
+nine
+ 
+
+139
+00:03:01,280 --> 00:03:05,110
+nine
+minus ten okay
+
+140
+00:03:05,110 --> 00:03:05,120
+
+ 
+
+141
+00:03:05,120 --> 00:03:07,509
+
+so n equals a hundred i give you a hint
+
+142
+00:03:07,509 --> 00:03:07,519
+so n equals a hundred i give you a hint
+ 
+
+143
+00:03:07,519 --> 00:03:09,670
+so n equals a hundred i give you a hint
+how about that's generally the first 99
+
+144
+00:03:09,670 --> 00:03:09,680
+how about that's generally the first 99
+ 
+
+145
+00:03:09,680 --> 00:03:11,509
+how about that's generally the first 99
+number in the sequence and then we can
+
+146
+00:03:11,509 --> 00:03:11,519
+number in the sequence and then we can
+ 
+
+147
+00:03:11,519 --> 00:03:13,350
+number in the sequence and then we can
+calculate the last number
+
+148
+00:03:13,350 --> 00:03:13,360
+calculate the last number
+ 
+
+149
+00:03:13,360 --> 00:03:18,390
+calculate the last number
+so can you find a sequence
+
+150
+00:03:18,390 --> 00:03:18,400
+so can you find a sequence
+ 
+
+151
+00:03:18,400 --> 00:03:20,949
+so can you find a sequence
+any pattern yeah yeah any pattern how do
+
+152
+00:03:20,949 --> 00:03:20,959
+any pattern yeah yeah any pattern how do
+ 
+
+153
+00:03:20,959 --> 00:03:23,270
+any pattern yeah yeah any pattern how do
+you generate the first
+
+154
+00:03:23,270 --> 00:03:23,280
+you generate the first
+ 
+
+155
+00:03:23,280 --> 00:03:25,990
+you generate the first
+one yeah you can start from zero as well
+
+156
+00:03:25,990 --> 00:03:26,000
+one yeah you can start from zero as well
+ 
+
+157
+00:03:26,000 --> 00:03:27,509
+one yeah you can start from zero as well
+yellow
+
+158
+00:03:27,509 --> 00:03:27,519
+yellow
+ 
+
+159
+00:03:27,519 --> 00:03:31,750
+yellow
+one nine one keep doing two is it
+
+160
+00:03:31,750 --> 00:03:31,760
+one nine one keep doing two is it
+ 
+
+161
+00:03:31,760 --> 00:03:32,949
+one nine one keep doing two is it
+different right
+
+162
+00:03:32,949 --> 00:03:32,959
+different right
+ 
+
+163
+00:03:32,959 --> 00:03:35,750
+different right
+and you get 98 and then after this you
+
+164
+00:03:35,750 --> 00:03:35,760
+and you get 98 and then after this you
+ 
+
+165
+00:03:35,760 --> 00:03:36,070
+and you get 98 and then after this you
+know
+
+166
+00:03:36,070 --> 00:03:36,080
+know
+ 
+
+167
+00:03:36,080 --> 00:03:39,190
+know
+the sum of the first 99 numbers right
+
+168
+00:03:39,190 --> 00:03:39,200
+the sum of the first 99 numbers right
+ 
+
+169
+00:03:39,200 --> 00:03:41,830
+the sum of the first 99 numbers right
+and then you put it you put the negative
+
+170
+00:03:41,830 --> 00:03:41,840
+and then you put it you put the negative
+ 
+
+171
+00:03:41,840 --> 00:03:42,390
+and then you put it you put the negative
+to that
+
+172
+00:03:42,390 --> 00:03:42,400
+to that
+ 
+
+173
+00:03:42,400 --> 00:03:44,789
+to that
+right and all you can guarantee all
+
+174
+00:03:44,789 --> 00:03:44,799
+right and all you can guarantee all
+ 
+
+175
+00:03:44,799 --> 00:03:46,229
+right and all you can guarantee all
+these numbers are different
+
+176
+00:03:46,229 --> 00:03:46,239
+these numbers are different
+ 
+
+177
+00:03:46,239 --> 00:03:48,550
+these numbers are different
+and they sum up to zero right does it
+
+178
+00:03:48,550 --> 00:03:48,560
+and they sum up to zero right does it
+ 
+
+179
+00:03:48,560 --> 00:03:49,430
+and they sum up to zero right does it
+make sense
+
+180
+00:03:49,430 --> 00:03:49,440
+make sense
+ 
+
+181
+00:03:49,440 --> 00:03:51,750
+make sense
+okay so let's try the first solution
+
+182
+00:03:51,750 --> 00:03:51,760
+okay so let's try the first solution
+ 
+
+183
+00:03:51,760 --> 00:03:53,110
+okay so let's try the first solution
+okay should be
+
+184
+00:03:53,110 --> 00:03:53,120
+okay should be
+ 
+
+185
+00:03:53,120 --> 00:03:56,470
+okay should be
+easy uh where's my eraser the end of the
+
+186
+00:03:56,470 --> 00:03:56,480
+easy uh where's my eraser the end of the
+ 
+
+187
+00:03:56,480 --> 00:03:58,070
+easy uh where's my eraser the end of the
+first line
+
+188
+00:03:58,070 --> 00:03:58,080
+first line
+ 
+
+189
+00:03:58,080 --> 00:04:01,350
+first line
+when we started yeah but we can write to
+
+190
+00:04:01,350 --> 00:04:01,360
+when we started yeah but we can write to
+ 
+
+191
+00:04:01,360 --> 00:04:03,110
+when we started yeah but we can write to
+number two if you want okay
+
+192
+00:04:03,110 --> 00:04:03,120
+number two if you want okay
+ 
+
+193
+00:04:03,120 --> 00:04:05,670
+number two if you want okay
+so this is just the way to generate this
+
+194
+00:04:05,670 --> 00:04:05,680
+so this is just the way to generate this
+ 
+
+195
+00:04:05,680 --> 00:04:06,390
+so this is just the way to generate this
+and
+
+196
+00:04:06,390 --> 00:04:06,400
+and
+ 
+
+197
+00:04:06,400 --> 00:04:08,869
+and
+array of any integer unique integer
+
+198
+00:04:08,869 --> 00:04:08,879
+array of any integer unique integer
+ 
+
+199
+00:04:08,879 --> 00:04:12,830
+array of any integer unique integer
+let's sum up to zero okay so let's say
+
+200
+00:04:12,830 --> 00:04:12,840
+
+ 
+
+201
+00:04:12,840 --> 00:04:19,270
+
+defined
+
+202
+00:04:19,270 --> 00:04:19,280
+
+ 
+
+203
+00:04:19,280 --> 00:04:21,590
+
+so let's say this number starts from the
+
+204
+00:04:21,590 --> 00:04:21,600
+so let's say this number starts from the
+ 
+
+205
+00:04:21,600 --> 00:04:22,790
+so let's say this number starts from the
+first one right
+
+206
+00:04:22,790 --> 00:04:22,800
+first one right
+ 
+
+207
+00:04:22,800 --> 00:04:25,030
+first one right
+yeah and then we put this answer put the
+
+208
+00:04:25,030 --> 00:04:25,040
+yeah and then we put this answer put the
+ 
+
+209
+00:04:25,040 --> 00:04:27,270
+yeah and then we put this answer put the
+number in the answer right
+
+210
+00:04:27,270 --> 00:04:27,280
+number in the answer right
+ 
+
+211
+00:04:27,280 --> 00:04:29,030
+number in the answer right
+at the beginning is empty empty this
+
+212
+00:04:29,030 --> 00:04:29,040
+at the beginning is empty empty this
+ 
+
+213
+00:04:29,040 --> 00:04:31,030
+at the beginning is empty empty this
+yeah
+
+214
+00:04:31,030 --> 00:04:31,040
+yeah
+ 
+
+215
+00:04:31,040 --> 00:04:35,270
+yeah
+so wire while
+
+216
+00:04:35,270 --> 00:04:35,280
+so wire while
+ 
+
+217
+00:04:35,280 --> 00:04:37,830
+so wire while
+i want to put one minus one two minus
+
+218
+00:04:37,830 --> 00:04:37,840
+i want to put one minus one two minus
+ 
+
+219
+00:04:37,840 --> 00:04:38,870
+i want to put one minus one two minus
+two so if
+
+220
+00:04:38,870 --> 00:04:38,880
+two so if
+ 
+
+221
+00:04:38,880 --> 00:04:41,030
+two so if
+x naught is bigger than two right be
+
+222
+00:04:41,030 --> 00:04:41,040
+x naught is bigger than two right be
+ 
+
+223
+00:04:41,040 --> 00:04:42,550
+x naught is bigger than two right be
+gone the thingy
+
+224
+00:04:42,550 --> 00:04:42,560
+gone the thingy
+ 
+
+225
+00:04:42,560 --> 00:04:45,189
+gone the thingy
+and then minus the thingy right look so
+
+226
+00:04:45,189 --> 00:04:45,199
+and then minus the thingy right look so
+ 
+
+227
+00:04:45,199 --> 00:04:46,390
+and then minus the thingy right look so
+what should i put here
+
+228
+00:04:46,390 --> 00:04:46,400
+what should i put here
+ 
+
+229
+00:04:46,400 --> 00:04:49,510
+what should i put here
+when n when they are more than t
+
+230
+00:04:49,510 --> 00:04:49,520
+when n when they are more than t
+ 
+
+231
+00:04:49,520 --> 00:04:51,990
+when n when they are more than t
+two or at least two then what should we
+
+232
+00:04:51,990 --> 00:04:52,000
+two or at least two then what should we
+ 
+
+233
+00:04:52,000 --> 00:04:53,749
+two or at least two then what should we
+put to the answer
+
+234
+00:04:53,749 --> 00:04:53,759
+put to the answer
+ 
+
+235
+00:04:53,759 --> 00:05:09,029
+put to the answer
+a penguin
+
+236
+00:05:09,029 --> 00:05:09,039
+
+ 
+
+237
+00:05:09,039 --> 00:05:11,749
+
+and then when i use the i i need to do
+
+238
+00:05:11,749 --> 00:05:11,759
+and then when i use the i i need to do
+ 
+
+239
+00:05:11,759 --> 00:05:13,350
+and then when i use the i i need to do
+one
+
+240
+00:05:13,350 --> 00:05:13,360
+one
+ 
+
+241
+00:05:13,360 --> 00:05:17,350
+one
+i one i is one the next one is one
+
+242
+00:05:17,350 --> 00:05:17,360
+i one i is one the next one is one
+ 
+
+243
+00:05:17,360 --> 00:05:20,710
+i one i is one the next one is one
+uh well now i
+
+244
+00:05:20,710 --> 00:05:20,720
+uh well now i
+ 
+
+245
+00:05:20,720 --> 00:05:23,430
+uh well now i
+is one and i want to in the next turn i
+
+246
+00:05:23,430 --> 00:05:23,440
+is one and i want to in the next turn i
+ 
+
+247
+00:05:23,440 --> 00:05:24,950
+is one and i want to in the next turn i
+will be
+
+248
+00:05:24,950 --> 00:05:24,960
+will be
+ 
+
+249
+00:05:24,960 --> 00:05:27,990
+will be
+2 2 so what i what
+
+250
+00:05:27,990 --> 00:05:28,000
+2 2 so what i what
+ 
+
+251
+00:05:28,000 --> 00:05:31,189
+2 2 so what i what
+add at equals 1 right
+
+252
+00:05:31,189 --> 00:05:31,199
+add at equals 1 right
+ 
+
+253
+00:05:31,199 --> 00:05:33,510
+add at equals 1 right
+now i i use two numbers so what happened
+
+254
+00:05:33,510 --> 00:05:33,520
+now i i use two numbers so what happened
+ 
+
+255
+00:05:33,520 --> 00:05:35,110
+now i i use two numbers so what happened
+to n
+
+256
+00:05:35,110 --> 00:05:35,120
+to n
+ 
+
+257
+00:05:35,120 --> 00:05:37,350
+to n
+i have put two numbers so what what's
+
+258
+00:05:37,350 --> 00:05:37,360
+i have put two numbers so what what's
+ 
+
+259
+00:05:37,360 --> 00:05:41,110
+i have put two numbers so what what's
+the what should i do to the n
+
+260
+00:05:41,110 --> 00:05:41,120
+the what should i do to the n
+ 
+
+261
+00:05:41,120 --> 00:05:43,670
+the what should i do to the n
+n is the number of integers we need to
+
+262
+00:05:43,670 --> 00:05:43,680
+n is the number of integers we need to
+ 
+
+263
+00:05:43,680 --> 00:05:45,270
+n is the number of integers we need to
+put in the array
+
+264
+00:05:45,270 --> 00:05:45,280
+put in the array
+ 
+
+265
+00:05:45,280 --> 00:05:47,670
+put in the array
+and then i put one one number i put two
+
+266
+00:05:47,670 --> 00:05:47,680
+and then i put one one number i put two
+ 
+
+267
+00:05:47,680 --> 00:05:49,510
+and then i put one one number i put two
+numbers so what should i do with the n
+
+268
+00:05:49,510 --> 00:05:49,520
+numbers so what should i do with the n
+ 
+
+269
+00:05:49,520 --> 00:05:52,629
+numbers so what should i do with the n
+two what two and
+
+270
+00:05:52,629 --> 00:05:52,639
+two what two and
+ 
+
+271
+00:05:52,639 --> 00:05:55,029
+two what two and
+minus three minus equals two okay and
+
+272
+00:05:55,029 --> 00:05:55,039
+minus three minus equals two okay and
+ 
+
+273
+00:05:55,039 --> 00:05:56,070
+minus three minus equals two okay and
+then
+
+274
+00:05:56,070 --> 00:05:56,080
+then
+ 
+
+275
+00:05:56,080 --> 00:05:58,629
+then
+after this loop okay when n is bigger
+
+276
+00:05:58,629 --> 00:05:58,639
+after this loop okay when n is bigger
+ 
+
+277
+00:05:58,639 --> 00:05:59,430
+after this loop okay when n is bigger
+than two
+
+278
+00:05:59,430 --> 00:05:59,440
+than two
+ 
+
+279
+00:05:59,440 --> 00:06:02,150
+than two
+so after this loop what happened to n n
+
+280
+00:06:02,150 --> 00:06:02,160
+so after this loop what happened to n n
+ 
+
+281
+00:06:02,160 --> 00:06:03,189
+so after this loop what happened to n n
+will be
+
+282
+00:06:03,189 --> 00:06:03,199
+will be
+ 
+
+283
+00:06:03,199 --> 00:06:06,390
+will be
+smaller than two right yeah so what kind
+
+284
+00:06:06,390 --> 00:06:06,400
+smaller than two right yeah so what kind
+ 
+
+285
+00:06:06,400 --> 00:06:07,270
+smaller than two right yeah so what kind
+of value
+
+286
+00:06:07,270 --> 00:06:07,280
+of value
+ 
+
+287
+00:06:07,280 --> 00:06:11,120
+of value
+possible value for the n
+
+288
+00:06:11,120 --> 00:06:11,130
+
+ 
+
+289
+00:06:11,130 --> 00:06:12,309
+
+[Music]
+
+290
+00:06:12,309 --> 00:06:12,319
+[Music]
+ 
+
+291
+00:06:12,319 --> 00:06:16,950
+[Music]
+possible value yeah
+
+292
+00:06:16,950 --> 00:06:16,960
+
+ 
+
+293
+00:06:16,960 --> 00:06:19,990
+
+zero and one
+
+294
+00:06:19,990 --> 00:06:20,000
+zero and one
+ 
+
+295
+00:06:20,000 --> 00:06:21,990
+zero and one
+yeah zero and one so one is one what
+
+296
+00:06:21,990 --> 00:06:22,000
+yeah zero and one so one is one what
+ 
+
+297
+00:06:22,000 --> 00:06:23,270
+yeah zero and one so one is one what
+does it mean if n
+
+298
+00:06:23,270 --> 00:06:23,280
+does it mean if n
+ 
+
+299
+00:06:23,280 --> 00:06:27,110
+does it mean if n
+equals one it definitely gets zero
+
+300
+00:06:27,110 --> 00:06:27,120
+equals one it definitely gets zero
+ 
+
+301
+00:06:27,120 --> 00:06:29,670
+equals one it definitely gets zero
+sorry if n is one what what's what does
+
+302
+00:06:29,670 --> 00:06:29,680
+sorry if n is one what what's what does
+ 
+
+303
+00:06:29,680 --> 00:06:31,590
+sorry if n is one what what's what does
+it mean it's original is odd or human
+
+304
+00:06:31,590 --> 00:06:31,600
+it mean it's original is odd or human
+ 
+
+305
+00:06:31,600 --> 00:06:32,790
+it mean it's original is odd or human
+number
+
+306
+00:06:32,790 --> 00:06:32,800
+number
+ 
+
+307
+00:06:32,800 --> 00:06:35,909
+number
+odd odd yeah because it always changes
+
+308
+00:06:35,909 --> 00:06:35,919
+odd odd yeah because it always changes
+ 
+
+309
+00:06:35,919 --> 00:06:36,870
+odd odd yeah because it always changes
+by two
+
+310
+00:06:36,870 --> 00:06:36,880
+by two
+ 
+
+311
+00:06:36,880 --> 00:06:40,230
+by two
+it's all it doesn't change it's uh
+
+312
+00:06:40,230 --> 00:06:40,240
+it's all it doesn't change it's uh
+ 
+
+313
+00:06:40,240 --> 00:06:42,230
+it's all it doesn't change it's uh
+the fact that it's even or all right
+
+314
+00:06:42,230 --> 00:06:42,240
+the fact that it's even or all right
+ 
+
+315
+00:06:42,240 --> 00:06:43,510
+the fact that it's even or all right
+because three is
+
+316
+00:06:43,510 --> 00:06:43,520
+because three is
+ 
+
+317
+00:06:43,520 --> 00:06:46,790
+because three is
+odd and in minus two is one still odd
+
+318
+00:06:46,790 --> 00:06:46,800
+odd and in minus two is one still odd
+ 
+
+319
+00:06:46,800 --> 00:06:49,029
+odd and in minus two is one still odd
+four is even your minus two is two is
+
+320
+00:06:49,029 --> 00:06:49,039
+four is even your minus two is two is
+ 
+
+321
+00:06:49,039 --> 00:06:50,390
+four is even your minus two is two is
+still even right
+
+322
+00:06:50,390 --> 00:06:50,400
+still even right
+ 
+
+323
+00:06:50,400 --> 00:06:52,230
+still even right
+doesn't make sense so when a is one it
+
+324
+00:06:52,230 --> 00:06:52,240
+doesn't make sense so when a is one it
+ 
+
+325
+00:06:52,240 --> 00:06:53,510
+doesn't make sense so when a is one it
+means original number
+
+326
+00:06:53,510 --> 00:06:53,520
+means original number
+ 
+
+327
+00:06:53,520 --> 00:06:57,270
+means original number
+is odd number so in this case
+
+328
+00:06:57,270 --> 00:06:57,280
+is odd number so in this case
+ 
+
+329
+00:06:57,280 --> 00:06:59,350
+is odd number so in this case
+what should we do with that we are
+
+330
+00:06:59,350 --> 00:06:59,360
+what should we do with that we are
+ 
+
+331
+00:06:59,360 --> 00:07:07,830
+what should we do with that we are
+missing one
+
+332
+00:07:07,830 --> 00:07:07,840
+
+ 
+
+333
+00:07:07,840 --> 00:07:11,370
+
+and then there's one thing missing
+
+334
+00:07:11,370 --> 00:07:11,380
+and then there's one thing missing
+ 
+
+335
+00:07:11,380 --> 00:07:14,830
+and then there's one thing missing
+[Music]
+
+336
+00:07:14,830 --> 00:07:14,840
+
+ 
+
+337
+00:07:14,840 --> 00:07:16,950
+
+returned
+
+338
+00:07:16,950 --> 00:07:16,960
+returned
+ 
+
+339
+00:07:16,960 --> 00:07:18,629
+returned
+okay so we're implementing the second
+
+340
+00:07:18,629 --> 00:07:18,639
+okay so we're implementing the second
+ 
+
+341
+00:07:18,639 --> 00:07:20,230
+okay so we're implementing the second
+approach
+
+342
+00:07:20,230 --> 00:07:20,240
+approach
+ 
+
+343
+00:07:20,240 --> 00:07:22,710
+approach
+okay so does it make sense yeah yeah
+
+344
+00:07:22,710 --> 00:07:22,720
+okay so does it make sense yeah yeah
+ 
+
+345
+00:07:22,720 --> 00:07:23,909
+okay so does it make sense yeah yeah
+okay now
+
+346
+00:07:23,909 --> 00:07:23,919
+okay now
+ 
+
+347
+00:07:23,919 --> 00:07:26,790
+okay now
+using the triangle thingy what triangle
+
+348
+00:07:26,790 --> 00:07:26,800
+using the triangle thingy what triangle
+ 
+
+349
+00:07:26,800 --> 00:07:27,350
+using the triangle thingy what triangle
+thing
+
+350
+00:07:27,350 --> 00:07:27,360
+thing
+ 
+
+351
+00:07:27,360 --> 00:07:30,230
+thing
+nothing okay so i will be start from
+
+352
+00:07:30,230 --> 00:07:30,240
+nothing okay so i will be start from
+ 
+
+353
+00:07:30,240 --> 00:07:32,390
+nothing okay so i will be start from
+zero okay so now
+
+354
+00:07:32,390 --> 00:07:32,400
+zero okay so now
+ 
+
+355
+00:07:32,400 --> 00:07:36,390
+zero okay so now
+answer will be start from
+
+356
+00:07:36,390 --> 00:07:36,400
+answer will be start from
+ 
+
+357
+00:07:36,400 --> 00:07:38,469
+answer will be start from
+at the beginning and then we have a sum
+
+358
+00:07:38,469 --> 00:07:38,479
+at the beginning and then we have a sum
+ 
+
+359
+00:07:38,479 --> 00:07:39,749
+at the beginning and then we have a sum
+equals zero okay
+
+360
+00:07:39,749 --> 00:07:39,759
+equals zero okay
+ 
+
+361
+00:07:39,759 --> 00:07:43,510
+equals zero okay
+i add one until n minus two so look look
+
+362
+00:07:43,510 --> 00:07:43,520
+i add one until n minus two so look look
+ 
+
+363
+00:07:43,520 --> 00:07:47,189
+i add one until n minus two so look look
+wire and bigger lens
+
+364
+00:07:47,189 --> 00:07:47,199
+wire and bigger lens
+ 
+
+365
+00:07:47,199 --> 00:07:49,029
+wire and bigger lens
+yellow are bigger than one okay because
+
+366
+00:07:49,029 --> 00:07:49,039
+yellow are bigger than one okay because
+ 
+
+367
+00:07:49,039 --> 00:07:51,670
+yellow are bigger than one okay because
+we we need to save the last value right
+
+368
+00:07:51,670 --> 00:07:51,680
+we we need to save the last value right
+ 
+
+369
+00:07:51,680 --> 00:07:54,830
+we we need to save the last value right
+the last value yeah yeah so look our
+
+370
+00:07:54,830 --> 00:07:54,840
+the last value yeah yeah so look our
+ 
+
+371
+00:07:54,840 --> 00:08:06,470
+the last value yeah yeah so look our
+answer columns
+
+372
+00:08:06,470 --> 00:08:06,480
+
+ 
+
+373
+00:08:06,480 --> 00:08:11,029
+
+[Music]
+
+374
+00:08:11,029 --> 00:08:11,039
+
+ 
+
+375
+00:08:11,039 --> 00:08:14,869
+
+column okay okay one okay i plus equals
+
+376
+00:08:14,869 --> 00:08:14,879
+column okay okay one okay i plus equals
+ 
+
+377
+00:08:14,879 --> 00:08:17,270
+column okay okay one okay i plus equals
+one so i will become zero to one right
+
+378
+00:08:17,270 --> 00:08:17,280
+one so i will become zero to one right
+ 
+
+379
+00:08:17,280 --> 00:08:20,150
+one so i will become zero to one right
+yes and then sum i need to add the sum
+
+380
+00:08:20,150 --> 00:08:20,160
+yes and then sum i need to add the sum
+ 
+
+381
+00:08:20,160 --> 00:08:21,270
+yes and then sum i need to add the sum
+to
+
+382
+00:08:21,270 --> 00:08:21,280
+to
+ 
+
+383
+00:08:21,280 --> 00:08:25,189
+to
+n sum equals and actually i need to put
+
+384
+00:08:25,189 --> 00:08:25,199
+n sum equals and actually i need to put
+ 
+
+385
+00:08:25,199 --> 00:08:26,230
+n sum equals and actually i need to put
+it here
+
+386
+00:08:26,230 --> 00:08:26,240
+it here
+ 
+
+387
+00:08:26,240 --> 00:08:29,110
+it here
+apparently i so the current sum is what
+
+388
+00:08:29,110 --> 00:08:29,120
+apparently i so the current sum is what
+ 
+
+389
+00:08:29,120 --> 00:08:30,390
+apparently i so the current sum is what
+and i right
+
+390
+00:08:30,390 --> 00:08:30,400
+and i right
+ 
+
+391
+00:08:30,400 --> 00:08:33,110
+and i right
+yeah and then i plus equals one right
+
+392
+00:08:33,110 --> 00:08:33,120
+yeah and then i plus equals one right
+ 
+
+393
+00:08:33,120 --> 00:08:34,149
+yeah and then i plus equals one right
+and then
+
+394
+00:08:34,149 --> 00:08:34,159
+and then
+ 
+
+395
+00:08:34,159 --> 00:08:37,190
+and then
+and what i i put one number so what
+
+396
+00:08:37,190 --> 00:08:37,200
+and what i i put one number so what
+ 
+
+397
+00:08:37,200 --> 00:08:51,269
+and what i i put one number so what
+should i do with it
+
+398
+00:08:51,269 --> 00:08:51,279
+
+ 
+
+399
+00:08:51,279 --> 00:08:54,710
+
+so now n will become
+
+400
+00:08:54,710 --> 00:08:54,720
+so now n will become
+ 
+
+401
+00:08:54,720 --> 00:08:57,110
+so now n will become
+zero right yeah becomes zero because
+
+402
+00:08:57,110 --> 00:08:57,120
+zero right yeah becomes zero because
+ 
+
+403
+00:08:57,120 --> 00:08:58,470
+zero right yeah becomes zero because
+it's smaller
+
+404
+00:08:58,470 --> 00:08:58,480
+it's smaller
+ 
+
+405
+00:08:58,480 --> 00:09:00,310
+it's smaller
+even it will become one because n is
+
+406
+00:09:00,310 --> 00:09:00,320
+even it will become one because n is
+ 
+
+407
+00:09:00,320 --> 00:09:01,670
+even it will become one because n is
+bigger than one into this and
+
+408
+00:09:01,670 --> 00:09:01,680
+bigger than one into this and
+ 
+
+409
+00:09:01,680 --> 00:09:04,470
+bigger than one into this and
+now n will be one right okay so there's
+
+410
+00:09:04,470 --> 00:09:04,480
+now n will be one right okay so there's
+ 
+
+411
+00:09:04,480 --> 00:09:05,350
+now n will be one right okay so there's
+a special case
+
+412
+00:09:05,350 --> 00:09:05,360
+a special case
+ 
+
+413
+00:09:05,360 --> 00:09:10,790
+a special case
+if n is zero
+
+414
+00:09:10,790 --> 00:09:10,800
+
+ 
+
+415
+00:09:10,800 --> 00:09:15,590
+
+no i can do this answer to a pen
+
+416
+00:09:15,590 --> 00:09:15,600
+
+ 
+
+417
+00:09:15,600 --> 00:09:19,430
+
+open what minus what
+
+418
+00:09:19,430 --> 00:09:19,440
+open what minus what
+ 
+
+419
+00:09:19,440 --> 00:09:22,710
+open what minus what
+right when n is 0 s is zero minus
+
+420
+00:09:22,710 --> 00:09:22,720
+right when n is 0 s is zero minus
+ 
+
+421
+00:09:22,720 --> 00:09:28,389
+right when n is 0 s is zero minus
+s is zero that's fine when that is one
+
+422
+00:09:28,389 --> 00:09:28,399
+
+ 
+
+423
+00:09:28,399 --> 00:09:31,269
+
+no n is one because n cannot be zero n
+
+424
+00:09:31,269 --> 00:09:31,279
+no n is one because n cannot be zero n
+ 
+
+425
+00:09:31,279 --> 00:09:32,230
+no n is one because n cannot be zero n
+is one
+
+426
+00:09:32,230 --> 00:09:32,240
+is one
+ 
+
+427
+00:09:32,240 --> 00:09:35,509
+is one
+it does not go inside and a minus zero
+
+428
+00:09:35,509 --> 00:09:35,519
+it does not go inside and a minus zero
+ 
+
+429
+00:09:35,519 --> 00:09:35,990
+it does not go inside and a minus zero
+like this
+
+430
+00:09:35,990 --> 00:09:36,000
+like this
+ 
+
+431
+00:09:36,000 --> 00:09:40,389
+like this
+one is n is two i add a uh
+
+432
+00:09:40,389 --> 00:09:40,399
+one is n is two i add a uh
+ 
+
+433
+00:09:40,399 --> 00:09:43,910
+one is n is two i add a uh
+when n is to look when n is two
+
+434
+00:09:43,910 --> 00:09:43,920
+when n is to look when n is two
+ 
+
+435
+00:09:43,920 --> 00:09:48,470
+when n is to look when n is two
+i add a zero
+
+436
+00:09:48,470 --> 00:09:48,480
+
+ 
+
+437
+00:09:48,480 --> 00:09:51,030
+
+okay so i think i think this should be
+
+438
+00:09:51,030 --> 00:09:51,040
+okay so i think i think this should be
+ 
+
+439
+00:09:51,040 --> 00:09:52,790
+okay so i think i think this should be
+one stop number one okay i
+
+440
+00:09:52,790 --> 00:09:52,800
+one stop number one okay i
+ 
+
+441
+00:09:52,800 --> 00:09:57,110
+one stop number one okay i
+when i put a one and then
+
+442
+00:09:57,110 --> 00:09:57,120
+when i put a one and then
+ 
+
+443
+00:09:57,120 --> 00:10:00,470
+when i put a one and then
+i i just put up s right
+
+444
+00:10:00,470 --> 00:10:00,480
+i i just put up s right
+ 
+
+445
+00:10:00,480 --> 00:10:03,509
+i i just put up s right
+put minus s yes all right oh yeah
+
+446
+00:10:03,509 --> 00:10:03,519
+put minus s yes all right oh yeah
+ 
+
+447
+00:10:03,519 --> 00:10:06,310
+put minus s yes all right oh yeah
+does it make sense look this s is this s
+
+448
+00:10:06,310 --> 00:10:06,320
+does it make sense look this s is this s
+ 
+
+449
+00:10:06,320 --> 00:10:06,870
+does it make sense look this s is this s
+thingy
+
+450
+00:10:06,870 --> 00:10:06,880
+thingy
+ 
+
+451
+00:10:06,880 --> 00:10:10,949
+thingy
+is the first n minus one numbers the sum
+
+452
+00:10:10,949 --> 00:10:10,959
+is the first n minus one numbers the sum
+ 
+
+453
+00:10:10,959 --> 00:10:11,670
+is the first n minus one numbers the sum
+of the first
+
+454
+00:10:11,670 --> 00:10:11,680
+of the first
+ 
+
+455
+00:10:11,680 --> 00:10:14,790
+of the first
+and minus numbers yeah all right and the
+
+456
+00:10:14,790 --> 00:10:14,800
+and minus numbers yeah all right and the
+ 
+
+457
+00:10:14,800 --> 00:10:15,269
+and minus numbers yeah all right and the
+minus
+
+458
+00:10:15,269 --> 00:10:15,279
+minus
+ 
+
+459
+00:10:15,279 --> 00:10:17,509
+minus
+n is the last number because i want to
+
+460
+00:10:17,509 --> 00:10:17,519
+n is the last number because i want to
+ 
+
+461
+00:10:17,519 --> 00:10:19,350
+n is the last number because i want to
+negate the
+
+462
+00:10:19,350 --> 00:10:19,360
+negate the
+ 
+
+463
+00:10:19,360 --> 00:10:23,190
+negate the
+the the sum right yes so let's let's
+
+464
+00:10:23,190 --> 00:10:23,200
+the the sum right yes so let's let's
+ 
+
+465
+00:10:23,200 --> 00:10:25,990
+the the sum right yes so let's let's
+write that one let's let's do this one n
+
+466
+00:10:25,990 --> 00:10:26,000
+write that one let's let's do this one n
+ 
+
+467
+00:10:26,000 --> 00:10:26,710
+write that one let's let's do this one n
+equals
+
+468
+00:10:26,710 --> 00:10:26,720
+equals
+ 
+
+469
+00:10:26,720 --> 00:10:29,750
+equals
+two n equals two right
+
+470
+00:10:29,750 --> 00:10:29,760
+two n equals two right
+ 
+
+471
+00:10:29,760 --> 00:10:36,069
+two n equals two right
+append one
+
+472
+00:10:36,069 --> 00:10:36,079
+
+ 
+
+473
+00:10:36,079 --> 00:10:38,630
+
+and n will reduce by one level which is
+
+474
+00:10:38,630 --> 00:10:38,640
+and n will reduce by one level which is
+ 
+
+475
+00:10:38,640 --> 00:10:39,910
+and n will reduce by one level which is
+one and go outside
+
+476
+00:10:39,910 --> 00:10:39,920
+one and go outside
+ 
+
+477
+00:10:39,920 --> 00:10:42,389
+one and go outside
+s will be one minus one you'll be one
+
+478
+00:10:42,389 --> 00:10:42,399
+s will be one minus one you'll be one
+ 
+
+479
+00:10:42,399 --> 00:10:43,590
+s will be one minus one you'll be one
+minus one that will work
+
+480
+00:10:43,590 --> 00:10:43,600
+minus one that will work
+ 
+
+481
+00:10:43,600 --> 00:10:47,030
+minus one that will work
+right when n is three
+
+482
+00:10:47,030 --> 00:10:47,040
+right when n is three
+ 
+
+483
+00:10:47,040 --> 00:10:50,069
+right when n is three
+music when only so you print
+
+484
+00:10:50,069 --> 00:10:50,079
+music when only so you print
+ 
+
+485
+00:10:50,079 --> 00:10:52,389
+music when only so you print
+one two right the sum will be three and
+
+486
+00:10:52,389 --> 00:10:52,399
+one two right the sum will be three and
+ 
+
+487
+00:10:52,399 --> 00:10:53,910
+one two right the sum will be three and
+the last one will be put
+
+488
+00:10:53,910 --> 00:10:53,920
+the last one will be put
+ 
+
+489
+00:10:53,920 --> 00:10:56,790
+the last one will be put
+one two minus three right it's still one
+
+490
+00:10:56,790 --> 00:10:56,800
+one two minus three right it's still one
+ 
+
+491
+00:10:56,800 --> 00:10:57,110
+one two minus three right it's still one
+when
+
+492
+00:10:57,110 --> 00:10:57,120
+when
+ 
+
+493
+00:10:57,120 --> 00:11:00,630
+when
+n is one it doesn't go inside look
+
+494
+00:11:00,630 --> 00:11:00,640
+n is one it doesn't go inside look
+ 
+
+495
+00:11:00,640 --> 00:11:03,350
+n is one it doesn't go inside look
+it doesn't go inside right well n is one
+
+496
+00:11:03,350 --> 00:11:03,360
+it doesn't go inside right well n is one
+ 
+
+497
+00:11:03,360 --> 00:11:03,750
+it doesn't go inside right well n is one
+because
+
+498
+00:11:03,750 --> 00:11:03,760
+because
+ 
+
+499
+00:11:03,760 --> 00:11:06,790
+because
+and th this loop you only go into this
+
+500
+00:11:06,790 --> 00:11:06,800
+and th this loop you only go into this
+ 
+
+501
+00:11:06,800 --> 00:11:07,350
+and th this loop you only go into this
+loop when
+
+502
+00:11:07,350 --> 00:11:07,360
+loop when
+ 
+
+503
+00:11:07,360 --> 00:11:09,190
+loop when
+n is bigger than one switch bit bigger
+
+504
+00:11:09,190 --> 00:11:09,200
+n is bigger than one switch bit bigger
+ 
+
+505
+00:11:09,200 --> 00:11:10,389
+n is bigger than one switch bit bigger
+than one right
+
+506
+00:11:10,389 --> 00:11:10,399
+than one right
+ 
+
+507
+00:11:10,399 --> 00:11:13,110
+than one right
+now it's is what happens if it's the
+
+508
+00:11:13,110 --> 00:11:13,120
+now it's is what happens if it's the
+ 
+
+509
+00:11:13,120 --> 00:11:14,470
+now it's is what happens if it's the
+same as one
+
+510
+00:11:14,470 --> 00:11:14,480
+same as one
+ 
+
+511
+00:11:14,480 --> 00:11:16,710
+same as one
+yeah yeah n is one it doesn't go inside
+
+512
+00:11:16,710 --> 00:11:16,720
+yeah yeah n is one it doesn't go inside
+ 
+
+513
+00:11:16,720 --> 00:11:18,389
+yeah yeah n is one it doesn't go inside
+so append minus
+
+514
+00:11:18,389 --> 00:11:18,399
+so append minus
+ 
+
+515
+00:11:18,399 --> 00:11:22,310
+so append minus
+s will be minus zero will be zero so
+
+516
+00:11:22,310 --> 00:11:22,320
+s will be minus zero will be zero so
+ 
+
+517
+00:11:22,320 --> 00:11:23,670
+s will be minus zero will be zero so
+it's still up okay
+
+518
+00:11:23,670 --> 00:11:23,680
+it's still up okay
+ 
+
+519
+00:11:23,680 --> 00:11:27,509
+it's still up okay
+does it make sense when n is four
+
+520
+00:11:27,509 --> 00:11:27,519
+does it make sense when n is four
+ 
+
+521
+00:11:27,519 --> 00:11:31,430
+does it make sense when n is four
+so look for i one two three
+
+522
+00:11:31,430 --> 00:11:31,440
+so look for i one two three
+ 
+
+523
+00:11:31,440 --> 00:11:34,790
+so look for i one two three
+one two three yeah one two three six
+
+524
+00:11:34,790 --> 00:11:34,800
+one two three yeah one two three six
+ 
+
+525
+00:11:34,800 --> 00:11:37,430
+one two three yeah one two three six
+yeah because the sum will be be six and
+
+526
+00:11:37,430 --> 00:11:37,440
+yeah because the sum will be be six and
+ 
+
+527
+00:11:37,440 --> 00:11:38,470
+yeah because the sum will be be six and
+then minus s
+
+528
+00:11:38,470 --> 00:11:38,480
+then minus s
+ 
+
+529
+00:11:38,480 --> 00:11:40,230
+then minus s
+will be minus six right does it make
+
+530
+00:11:40,230 --> 00:11:40,240
+will be minus six right does it make
+ 
+
+531
+00:11:40,240 --> 00:11:41,990
+will be minus six right does it make
+sense okay
+
+532
+00:11:41,990 --> 00:11:42,000
+sense okay
+ 
+
+533
+00:11:42,000 --> 00:11:45,430
+sense okay
+what's the time complexity a
+
+534
+00:11:45,430 --> 00:11:45,440
+what's the time complexity a
+ 
+
+535
+00:11:45,440 --> 00:11:48,949
+what's the time complexity a
+and what n yeah and because
+
+536
+00:11:48,949 --> 00:11:48,959
+and what n yeah and because
+ 
+
+537
+00:11:48,959 --> 00:11:51,590
+and what n yeah and because
+we are generating numbers yeah yeah
+
+538
+00:11:51,590 --> 00:11:51,600
+we are generating numbers yeah yeah
+ 
+
+539
+00:11:51,600 --> 00:11:53,269
+we are generating numbers yeah yeah
+what's the space complexity
+
+540
+00:11:53,269 --> 00:11:53,279
+what's the space complexity
+ 
+
+541
+00:11:53,279 --> 00:11:55,990
+what's the space complexity
+i win yeah well done wow that's very
+
+542
+00:11:55,990 --> 00:11:56,000
+i win yeah well done wow that's very
+ 
+
+543
+00:11:56,000 --> 00:11:57,190
+i win yeah well done wow that's very
+quick we're done because
+
+544
+00:11:57,190 --> 00:11:57,200
+quick we're done because
+ 
+
+545
+00:11:57,200 --> 00:12:01,030
+quick we're done because
+we are using uh what
+
+546
+00:12:01,030 --> 00:12:01,040
+we are using uh what
+ 
+
+547
+00:12:01,040 --> 00:12:04,790
+we are using uh what
+thumb no why are you using a list
+
+548
+00:12:04,790 --> 00:12:04,800
+thumb no why are you using a list
+ 
+
+549
+00:12:04,800 --> 00:12:08,069
+thumb no why are you using a list
+at least yeah quickly yeah that's good
+
+550
+00:12:08,069 --> 00:12:08,079
+at least yeah quickly yeah that's good
+ 
+
+551
+00:12:08,079 --> 00:12:09,590
+at least yeah quickly yeah that's good
+that's good boy okay
+
+552
+00:12:09,590 --> 00:12:09,600
+that's good boy okay
+ 
+
+553
+00:12:09,600 --> 00:12:12,790
+that's good boy okay
+so the last thing to say to the people
+
+554
+00:12:12,790 --> 00:12:12,800
+so the last thing to say to the people
+ 
+
+555
+00:12:12,800 --> 00:12:16,949
+so the last thing to say to the people
+and then
+
+556
+00:12:16,949 --> 00:12:16,959
+
+ 
+
+557
+00:12:16,959 --> 00:12:20,240
+
+bye-bye see you tomorrow
+
