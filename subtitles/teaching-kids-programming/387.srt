@@ -1,0 +1,1584 @@
+1
+00:00:00,080 --> 00:00:03,199
+oh
+
+2
+00:00:01,040 --> 00:00:04,880
+hello miss area all right
+
+3
+00:00:03,199 --> 00:00:07,200
+okay so we're given this graph right
+
+4
+00:00:04,880 --> 00:00:10,000
+this is the weighted graph right way to
+
+5
+00:00:07,200 --> 00:00:11,840
+graph graph is the collection of vertex
+
+6
+00:00:10,000 --> 00:00:12,639
+and edges right
+
+7
+00:00:11,840 --> 00:00:15,120
+yeah
+
+8
+00:00:12,639 --> 00:00:17,039
+a tree is also a graph right
+
+9
+00:00:15,120 --> 00:00:18,080
+tree is a graph it's directly a cyclic
+
+10
+00:00:17,039 --> 00:00:20,400
+graph right
+
+11
+00:00:18,080 --> 00:00:22,080
+directly you know from the parents the
+
+12
+00:00:20,400 --> 00:00:23,359
+kids exactly means it doesn't have
+
+13
+00:00:22,080 --> 00:00:26,080
+cycles but
+
+14
+00:00:23,359 --> 00:00:28,160
+this is a graph weighted graph okay
+
+15
+00:00:26,080 --> 00:00:30,880
+we can have a weighted graph with
+
+16
+00:00:28,160 --> 00:00:32,160
+direction okay so look we can have this
+
+17
+00:00:30,880 --> 00:00:33,680
+diagonal
+
+18
+00:00:32,160 --> 00:00:36,320
+yeah
+
+19
+00:00:33,680 --> 00:00:38,640
+oh we don't right it doesn't matter so
+
+20
+00:00:36,320 --> 00:00:38,640
+here
+
+21
+00:00:38,719 --> 00:00:45,200
+here if we if we if this is the weighted
+
+22
+00:00:41,760 --> 00:00:47,039
+directive graph right weighted
+
+23
+00:00:45,200 --> 00:00:49,760
+and we want to find the shortest path
+
+24
+00:00:47,039 --> 00:00:51,760
+from the s to e right the cumulative
+
+25
+00:00:49,760 --> 00:00:54,079
+cost right so which which one is the
+
+26
+00:00:51,760 --> 00:00:56,000
+shortest one can you can you see very
+
+27
+00:00:54,079 --> 00:00:58,640
+clear uh
+
+28
+00:00:56,000 --> 00:00:58,640
+s a
+
+29
+00:00:58,920 --> 00:01:03,120
+[Music]
+
+30
+00:01:00,960 --> 00:01:05,280
+look here one don't be don't fall for
+
+31
+00:01:03,120 --> 00:01:07,680
+that because this is a trip to the truck
+
+32
+00:01:05,280 --> 00:01:09,360
+right before it asks you to go lease but
+
+33
+00:01:07,680 --> 00:01:10,479
+look there's a hundred much bigger
+
+34
+00:01:09,360 --> 00:01:12,799
+weight here
+
+35
+00:01:10,479 --> 00:01:14,799
+but all humans are quite clever right we
+
+36
+00:01:12,799 --> 00:01:15,840
+can see this like you know instinct
+
+37
+00:01:14,799 --> 00:01:19,280
+reflect
+
+38
+00:01:15,840 --> 00:01:20,880
+reflect and okay so this is the normal
+
+39
+00:01:19,280 --> 00:01:22,479
+ideal way
+
+40
+00:01:20,880 --> 00:01:25,680
+so
+
+41
+00:01:22,479 --> 00:01:27,920
+with the different search okay
+
+42
+00:01:25,680 --> 00:01:29,759
+that's okay with the death massage it
+
+43
+00:01:27,920 --> 00:01:32,560
+doesn't work quite well in this case
+
+44
+00:01:29,759 --> 00:01:34,320
+because the deficit doesn't handle the
+
+45
+00:01:32,560 --> 00:01:37,280
+cases when the
+
+46
+00:01:34,320 --> 00:01:39,439
+edges have caused right yeah
+
+47
+00:01:37,280 --> 00:01:42,159
+and breakfast search
+
+48
+00:01:39,439 --> 00:01:45,119
+either right the breakfast search isn't
+
+49
+00:01:42,159 --> 00:01:46,960
+working quite well as well right so now
+
+50
+00:01:45,119 --> 00:01:49,439
+today we're going to talk about another
+
+51
+00:01:46,960 --> 00:01:52,079
+search which is called uniform construct
+
+52
+00:01:49,439 --> 00:01:54,799
+this is very good to handle the
+
+53
+00:01:52,079 --> 00:01:56,079
+the shortest path from the front to
+
+54
+00:01:54,799 --> 00:01:59,360
+vertex
+
+55
+00:01:56,079 --> 00:02:02,079
+we we have actually talked about another
+
+56
+00:01:59,360 --> 00:02:02,880
+aggregate from the fly you probably
+
+57
+00:02:02,079 --> 00:02:07,360
+can't
+
+58
+00:02:02,880 --> 00:02:07,360
+remember right it's a on cubic
+
+59
+00:02:09,440 --> 00:02:13,599
+yeah yeah look why is that look it's
+
+60
+00:02:11,520 --> 00:02:15,360
+actually it's actually based on the
+
+61
+00:02:13,599 --> 00:02:18,080
+dynamic programming look it's like that
+
+62
+00:02:15,360 --> 00:02:19,200
+okay the shortest distance between
+
+63
+00:02:18,080 --> 00:02:20,319
+i
+
+64
+00:02:19,200 --> 00:02:22,879
+to j
+
+65
+00:02:20,319 --> 00:02:25,760
+is equals to the mean
+
+66
+00:02:22,879 --> 00:02:28,319
+mean of what mean of shortest distance d
+
+67
+00:02:25,760 --> 00:02:32,319
+i j
+
+68
+00:02:28,319 --> 00:02:32,319
+and then d i k
+
+69
+00:02:32,800 --> 00:02:35,519
+and answer d
+
+70
+00:02:34,239 --> 00:02:38,239
+plus t
+
+71
+00:02:35,519 --> 00:02:40,000
+k j okay what does it mean actually it's
+
+72
+00:02:38,239 --> 00:02:41,040
+very easy look
+
+73
+00:02:40,000 --> 00:02:42,879
+here
+
+74
+00:02:41,040 --> 00:02:45,840
+i want to calculate a certain distance
+
+75
+00:02:42,879 --> 00:02:47,680
+between i to j right yeah
+
+76
+00:02:45,840 --> 00:02:50,080
+then i can do please i put it in the
+
+77
+00:02:47,680 --> 00:02:52,959
+loop oh and free times and now what
+
+78
+00:02:50,080 --> 00:02:55,360
+happened so if i find a path
+
+79
+00:02:52,959 --> 00:02:56,720
+look if i find the part somewhere this
+
+80
+00:02:55,360 --> 00:02:57,840
+is k
+
+81
+00:02:56,720 --> 00:02:59,440
+all right
+
+82
+00:02:57,840 --> 00:03:01,200
+if i find the path
+
+83
+00:02:59,440 --> 00:03:04,319
+i want to calculate the circuit system
+
+84
+00:03:01,200 --> 00:03:08,000
+between i to j but now i found a better
+
+85
+00:03:04,319 --> 00:03:10,480
+shorter path which is i k plus ikj
+
+86
+00:03:08,000 --> 00:03:12,879
+then i can replace i j with this pattern
+
+87
+00:03:10,480 --> 00:03:15,200
+right yeah well done this now this is
+
+88
+00:03:12,879 --> 00:03:16,000
+100 and this is one this is two
+
+89
+00:03:15,200 --> 00:03:20,159
+so
+
+90
+00:03:16,000 --> 00:03:22,000
+d i j is 100 now but i found d i k is on
+
+91
+00:03:20,159 --> 00:03:24,640
+dk j is 2
+
+92
+00:03:22,000 --> 00:03:26,720
+so i can replace the i k with 1 plus 2
+
+93
+00:03:24,640 --> 00:03:29,599
+equals 3. yeah let's let's that's about
+
+94
+00:03:26,720 --> 00:03:30,840
+it so we just search we just do this for
+
+95
+00:03:29,599 --> 00:03:32,400
+k in
+
+96
+00:03:30,840 --> 00:03:33,360
+range
+
+97
+00:03:32,400 --> 00:03:35,760
+and
+
+98
+00:03:33,360 --> 00:03:39,120
+for i in range
+
+99
+00:03:35,760 --> 00:03:41,599
+and for j in range n and then to this d
+
+100
+00:03:39,120 --> 00:03:44,720
+i j equals mean d i j
+
+101
+00:03:41,599 --> 00:03:46,400
+comma d i k plus p k j let's say oh this
+
+102
+00:03:44,720 --> 00:03:48,799
+is the simple
+
+103
+00:03:46,400 --> 00:03:51,360
+shortest path between any two points any
+
+104
+00:03:48,799 --> 00:03:53,439
+two vertex right but it takes time
+
+105
+00:03:51,360 --> 00:03:55,120
+it takes one cubit let's slow that's why
+
+106
+00:03:53,439 --> 00:03:57,599
+we're not talking about that today we're
+
+107
+00:03:55,120 --> 00:03:59,360
+talking about uniform close search so
+
+108
+00:03:57,599 --> 00:04:01,439
+the way to understand uniform cross
+
+109
+00:03:59,360 --> 00:04:03,040
+search is actually very simple you know
+
+110
+00:04:01,439 --> 00:04:05,200
+for the preferences to use the kill
+
+111
+00:04:03,040 --> 00:04:07,439
+right first thing first out right but
+
+112
+00:04:05,200 --> 00:04:10,239
+for the cost uniform cost search we
+
+113
+00:04:07,439 --> 00:04:12,080
+replace the q is the priority queue
+
+114
+00:04:10,239 --> 00:04:13,599
+okay that's the first thing priority
+
+115
+00:04:12,080 --> 00:04:16,479
+first thing
+
+116
+00:04:13,599 --> 00:04:18,799
+priority up right yeah so you have the
+
+117
+00:04:16,479 --> 00:04:20,959
+people you're waiting in the so priority
+
+118
+00:04:18,799 --> 00:04:22,400
+queue is like right okay so you you you
+
+119
+00:04:20,959 --> 00:04:23,840
+know first things first our first in
+
+120
+00:04:22,400 --> 00:04:26,880
+first off now
+
+121
+00:04:23,840 --> 00:04:28,720
+it it's not like that so you have a
+
+122
+00:04:26,880 --> 00:04:31,680
+let's say who is taller
+
+123
+00:04:28,720 --> 00:04:33,040
+first okay so i have a people here yeah
+
+124
+00:04:31,680 --> 00:04:36,000
+this is the people
+
+125
+00:04:33,040 --> 00:04:38,960
+play in the queue and then here
+
+126
+00:04:36,000 --> 00:04:40,160
+john a taller and then another another
+
+127
+00:04:38,960 --> 00:04:41,440
+guy john
+
+128
+00:04:40,160 --> 00:04:43,680
+much taller
+
+129
+00:04:41,440 --> 00:04:45,360
+okay so now the scale
+
+130
+00:04:43,680 --> 00:04:48,240
+yeah
+
+131
+00:04:45,360 --> 00:04:50,880
+if the higher priority is the taller the
+
+132
+00:04:48,240 --> 00:04:54,400
+taller the higher priority length when
+
+133
+00:04:50,880 --> 00:04:56,639
+we dq then this guy gets gets in front
+
+134
+00:04:54,400 --> 00:04:58,560
+of the q and this serve okay this is top
+
+135
+00:04:56,639 --> 00:05:00,960
+priority right
+
+136
+00:04:58,560 --> 00:05:02,320
+yeah okay so now um
+
+137
+00:05:00,960 --> 00:05:07,039
+so first of all
+
+138
+00:05:02,320 --> 00:05:09,039
+if if the if the course is one or one
+
+139
+00:05:07,039 --> 00:05:10,639
+can you imagine what happened
+
+140
+00:05:09,039 --> 00:05:11,600
+course it's all become all one will
+
+141
+00:05:10,639 --> 00:05:12,639
+happen
+
+142
+00:05:11,600 --> 00:05:16,400
+you'll be
+
+143
+00:05:12,639 --> 00:05:18,639
+like you'll be like what
+
+144
+00:05:16,400 --> 00:05:20,960
+what what did i just say we are trying
+
+145
+00:05:18,639 --> 00:05:22,479
+to replace the preferences
+
+146
+00:05:20,960 --> 00:05:24,000
+yeah exactly we're replacing the
+
+147
+00:05:22,479 --> 00:05:26,400
+preference search with the priority
+
+148
+00:05:24,000 --> 00:05:27,840
+queue right but if the course is all one
+
+149
+00:05:26,400 --> 00:05:30,880
+all the same
+
+150
+00:05:27,840 --> 00:05:33,440
+all the same or one okay then then it
+
+151
+00:05:30,880 --> 00:05:36,160
+actually becomes a perfect search right
+
+152
+00:05:33,440 --> 00:05:37,280
+so so how can we do this look if at the
+
+153
+00:05:36,160 --> 00:05:40,240
+beginning we
+
+154
+00:05:37,280 --> 00:05:44,000
+uh we put a
+
+155
+00:05:40,240 --> 00:05:46,400
+s in it so s in it okay so s the cost
+
+156
+00:05:44,000 --> 00:05:48,800
+from s to s is zero
+
+157
+00:05:46,400 --> 00:05:50,720
+now we take the priority of the high
+
+158
+00:05:48,800 --> 00:05:51,759
+priority which is the lower cost from
+
+159
+00:05:50,720 --> 00:05:54,720
+the kill
+
+160
+00:05:51,759 --> 00:05:55,840
+i put it i remove it i put it in s
+
+161
+00:05:54,720 --> 00:05:59,120
+okay
+
+162
+00:05:55,840 --> 00:06:02,240
+when we then when the removed vertex is
+
+163
+00:05:59,120 --> 00:06:04,000
+the destination that we we quit we stop
+
+164
+00:06:02,240 --> 00:06:06,880
+the algorithm because we already found
+
+165
+00:06:04,000 --> 00:06:09,280
+it okay now s is not e so we continue
+
+166
+00:06:06,880 --> 00:06:12,560
+so s zero so
+
+167
+00:06:09,280 --> 00:06:14,080
+s can go to a right with the cos2 this
+
+168
+00:06:12,560 --> 00:06:16,960
+is the only way you can go through so i
+
+169
+00:06:14,080 --> 00:06:19,120
+put a which is two right
+
+170
+00:06:16,960 --> 00:06:21,120
+okay so now the next one i want to take
+
+171
+00:06:19,120 --> 00:06:24,479
+it out is only one element so i take it
+
+172
+00:06:21,120 --> 00:06:28,240
+out a is two i put a in the visit set
+
+173
+00:06:24,479 --> 00:06:30,880
+from a i can go to b c b then i can
+
+174
+00:06:28,240 --> 00:06:31,520
+enqueue all the children so okay so a to
+
+175
+00:06:30,880 --> 00:06:34,000
+d
+
+176
+00:06:31,520 --> 00:06:37,360
+will be two plus four accumulate what
+
+177
+00:06:34,000 --> 00:06:40,080
+cause yeah so it will be six and s a b
+
+178
+00:06:37,360 --> 00:06:41,039
+it will be two plus three is is what is
+
+179
+00:06:40,080 --> 00:06:43,039
+five
+
+180
+00:06:41,039 --> 00:06:45,120
+and then e c will be
+
+181
+00:06:43,039 --> 00:06:46,400
+two plus seven will be
+
+182
+00:06:45,120 --> 00:06:49,360
+nine okay
+
+183
+00:06:46,400 --> 00:06:50,960
+yeah
+
+184
+00:06:49,360 --> 00:06:53,599
+okay and now
+
+185
+00:06:50,960 --> 00:06:57,919
+i continue because uh i haven't found a
+
+186
+00:06:53,599 --> 00:07:00,160
+destination yet so now d is six six b is
+
+187
+00:06:57,919 --> 00:07:02,240
+five i take the fire because y is the
+
+188
+00:07:00,160 --> 00:07:03,520
+lowest cost which is the higher priority
+
+189
+00:07:02,240 --> 00:07:06,319
+i take it out
+
+190
+00:07:03,520 --> 00:07:07,199
+it's not e i continue i put b here b is
+
+191
+00:07:06,319 --> 00:07:10,560
+five
+
+192
+00:07:07,199 --> 00:07:12,800
+from b i can go nowhere so i stop i i i
+
+193
+00:07:10,560 --> 00:07:13,840
+just don't append and hit and now next
+
+194
+00:07:12,800 --> 00:07:16,400
+one
+
+195
+00:07:13,840 --> 00:07:19,680
+b and c which i should take b
+
+196
+00:07:16,400 --> 00:07:22,240
+because because c i take a d six
+
+197
+00:07:19,680 --> 00:07:25,039
+d i put it here six
+
+198
+00:07:22,240 --> 00:07:26,479
+six plus two is a
+
+199
+00:07:25,039 --> 00:07:27,599
+yes
+
+200
+00:07:26,479 --> 00:07:29,520
+d
+
+201
+00:07:27,599 --> 00:07:31,680
+if there's a two direction right we're
+
+202
+00:07:29,520 --> 00:07:33,520
+still not going back to a because a is
+
+203
+00:07:31,680 --> 00:07:36,319
+already in visited so we don't go back
+
+204
+00:07:33,520 --> 00:07:38,720
+yeah okay so c is a
+
+205
+00:07:36,319 --> 00:07:40,800
+and and then we for for the next round
+
+206
+00:07:38,720 --> 00:07:43,759
+we take c equals a i
+
+207
+00:07:40,800 --> 00:07:46,240
+yeah put it here c equals a
+
+208
+00:07:43,759 --> 00:07:48,080
+uh and go to f and g
+
+209
+00:07:46,240 --> 00:07:50,160
+a plus a
+
+210
+00:07:48,080 --> 00:07:50,879
+f is 16 right
+
+211
+00:07:50,160 --> 00:07:51,599
+c
+
+212
+00:07:50,879 --> 00:07:54,400
+uh
+
+213
+00:07:51,599 --> 00:07:56,720
+g will be a plus one would be nine right
+
+214
+00:07:54,400 --> 00:08:00,080
+g okay nine
+
+215
+00:07:56,720 --> 00:08:01,120
+yeah so for the next one i don't think i
+
+216
+00:08:00,080 --> 00:08:03,360
+take a c
+
+217
+00:08:01,120 --> 00:08:06,000
+but it's in already in the visited so i
+
+218
+00:08:03,360 --> 00:08:07,039
+continue i skip it yeah look yeah
+
+219
+00:08:06,000 --> 00:08:09,680
+yeah
+
+220
+00:08:07,039 --> 00:08:10,840
+so i take this i skip it and now
+
+221
+00:08:09,680 --> 00:08:13,680
+f and
+
+222
+00:08:10,840 --> 00:08:14,560
+g which i take a g right
+
+223
+00:08:13,680 --> 00:08:17,360
+yeah
+
+224
+00:08:14,560 --> 00:08:21,280
+i take a g i put it in here
+
+225
+00:08:17,360 --> 00:08:25,170
+t will go to e will be 100 e will be 100
+
+226
+00:08:21,280 --> 00:08:28,660
+right okay now f 16 e 100
+
+227
+00:08:25,170 --> 00:08:28,660
+[Music]
+
+228
+00:08:30,639 --> 00:08:35,519
+actually the cost is not 100 see is it
+
+229
+00:08:32,959 --> 00:08:39,159
+100 no
+
+230
+00:08:35,519 --> 00:08:39,159
+it's ssa2421
+
+231
+00:08:39,839 --> 00:08:46,560
+four two one is nine 109 okay sorry
+
+232
+00:08:43,039 --> 00:08:48,240
+i f i take x right f16
+
+233
+00:08:46,560 --> 00:08:51,839
+i put it here
+
+234
+00:08:48,240 --> 00:08:54,560
+so 16 plus two will be 18 so e will be
+
+235
+00:08:51,839 --> 00:08:55,839
+18. right look so
+
+236
+00:08:54,560 --> 00:08:58,240
+18
+
+237
+00:08:55,839 --> 00:09:00,800
+now the next thing look i take e which
+
+238
+00:08:58,240 --> 00:09:03,760
+is 18 right
+
+239
+00:09:00,800 --> 00:09:05,680
+okay now because i do the removed
+
+240
+00:09:03,760 --> 00:09:07,600
+remove the vertex is e is the
+
+241
+00:09:05,680 --> 00:09:10,480
+destination and i stop the action which
+
+242
+00:09:07,600 --> 00:09:11,279
+is 18 is 18 2
+
+243
+00:09:10,480 --> 00:09:13,680
+4
+
+244
+00:09:11,279 --> 00:09:16,640
+2 that's 8
+
+245
+00:09:13,680 --> 00:09:19,200
+16 18. yeah let's survive okay
+
+246
+00:09:16,640 --> 00:09:21,360
+yeah that's the uniform cost search
+
+247
+00:09:19,200 --> 00:09:22,880
+it's actually quite easy to understand
+
+248
+00:09:21,360 --> 00:09:24,640
+if you
+
+249
+00:09:22,880 --> 00:09:26,320
+if you think about references the only
+
+250
+00:09:24,640 --> 00:09:28,640
+difference is that we are using the
+
+251
+00:09:26,320 --> 00:09:29,360
+priority queue right now
+
+252
+00:09:28,640 --> 00:09:31,360
+the
+
+253
+00:09:29,360 --> 00:09:34,080
+unicorn uniform
+
+254
+00:09:31,360 --> 00:09:36,240
+cost search does not
+
+255
+00:09:34,080 --> 00:09:37,920
+i mean does not care how how many paths
+
+256
+00:09:36,240 --> 00:09:39,760
+right it only cares it's about
+
+257
+00:09:37,920 --> 00:09:41,600
+accumulate past cost right you always
+
+258
+00:09:39,760 --> 00:09:43,600
+pick pick the smallest the highest
+
+259
+00:09:41,600 --> 00:09:45,120
+priority okay so that that's right
+
+260
+00:09:43,600 --> 00:09:48,279
+quickly right the pseudoscope right a
+
+261
+00:09:45,120 --> 00:09:48,279
+little bit
+
+262
+00:09:52,480 --> 00:09:56,560
+okay
+
+263
+00:09:54,000 --> 00:09:59,279
+define
+
+264
+00:09:56,560 --> 00:10:00,880
+let's say let's say we have a
+
+265
+00:09:59,279 --> 00:10:03,519
+shortest path
+
+266
+00:10:00,880 --> 00:10:05,839
+on a certain path of a graph in a graph
+
+267
+00:10:03,519 --> 00:10:08,160
+let's define it as uh
+
+268
+00:10:05,839 --> 00:10:11,440
+uh you know there's a few ways to define
+
+269
+00:10:08,160 --> 00:10:13,519
+the graph which you can give in edges as
+
+270
+00:10:11,440 --> 00:10:16,959
+a list of edges okay so let's given the
+
+271
+00:10:13,519 --> 00:10:20,720
+edges and then we have a star edges
+
+272
+00:10:16,959 --> 00:10:22,079
+that is star and n right
+
+273
+00:10:20,720 --> 00:10:24,959
+so now g
+
+274
+00:10:22,079 --> 00:10:27,920
+the graph will be default dictionary
+
+275
+00:10:24,959 --> 00:10:30,320
+before dictionary is uh we're using the
+
+276
+00:10:27,920 --> 00:10:31,360
+adjacent list to install a graph
+
+277
+00:10:30,320 --> 00:10:33,040
+list
+
+278
+00:10:31,360 --> 00:10:34,320
+and then for
+
+279
+00:10:33,040 --> 00:10:36,800
+uh
+
+280
+00:10:34,320 --> 00:10:40,240
+for each edges it will be given as front
+
+281
+00:10:36,800 --> 00:10:44,480
+two and weight okay so for a to b we
+
+282
+00:10:40,240 --> 00:10:48,240
+have a cost in edges
+
+283
+00:10:44,480 --> 00:10:48,240
+now we can do this g a
+
+284
+00:10:48,800 --> 00:10:55,920
+okay plus equal let's pass as a b
+
+285
+00:10:53,040 --> 00:10:57,600
+the the other the the other vertex of
+
+286
+00:10:55,920 --> 00:11:00,160
+edge and the cost
+
+287
+00:10:57,600 --> 00:11:02,160
+okay now we have stored a graph we have
+
+288
+00:11:00,160 --> 00:11:05,519
+processed the edges and put it in a
+
+289
+00:11:02,160 --> 00:11:07,279
+graph okay now at the beginning q is a
+
+290
+00:11:05,519 --> 00:11:09,120
+priority queue right so at the beginning
+
+291
+00:11:07,279 --> 00:11:10,720
+it only
+
+292
+00:11:09,120 --> 00:11:12,560
+only contains the
+
+293
+00:11:10,720 --> 00:11:14,720
+from the star which is the
+
+294
+00:11:12,560 --> 00:11:17,279
+one which is let's say cos zero and
+
+295
+00:11:14,720 --> 00:11:20,720
+start with s like cos zero
+
+296
+00:11:17,279 --> 00:11:22,880
+yeah we put s in the q and the cost
+
+297
+00:11:20,720 --> 00:11:23,920
+from s to s is zero
+
+298
+00:11:22,880 --> 00:11:26,480
+yeah
+
+299
+00:11:23,920 --> 00:11:28,720
+okay and then y y and q look this is
+
+300
+00:11:26,480 --> 00:11:31,040
+quite similar to ppfs and now what will
+
+301
+00:11:28,720 --> 00:11:31,680
+happen we have we also have we also need
+
+302
+00:11:31,040 --> 00:11:34,560
+to
+
+303
+00:11:31,680 --> 00:11:35,519
+store a scene yeah a half set to
+
+304
+00:11:34,560 --> 00:11:37,920
+to
+
+305
+00:11:35,519 --> 00:11:40,800
+remember the set we have remember the
+
+306
+00:11:37,920 --> 00:11:41,600
+vertex we have we have visited okay
+
+307
+00:11:40,800 --> 00:11:44,000
+now
+
+308
+00:11:41,600 --> 00:11:46,240
+wire q
+
+309
+00:11:44,000 --> 00:11:47,200
+and then we have a current
+
+310
+00:11:46,240 --> 00:11:48,560
+uh
+
+311
+00:11:47,200 --> 00:11:50,160
+the current
+
+312
+00:11:48,560 --> 00:11:52,720
+um
+
+313
+00:11:50,160 --> 00:11:55,920
+we have a current cost the current cost
+
+314
+00:11:52,720 --> 00:11:59,200
+and the current will be equal as the
+
+315
+00:11:55,920 --> 00:12:01,440
+it's not q top pop left right
+
+316
+00:11:59,200 --> 00:12:04,079
+for the for the priority queue we use
+
+317
+00:12:01,440 --> 00:12:05,200
+the hip-hop remember
+
+318
+00:12:04,079 --> 00:12:06,880
+he pop
+
+319
+00:12:05,200 --> 00:12:09,760
+he pop q
+
+320
+00:12:06,880 --> 00:12:11,839
+right and then now look if the current
+
+321
+00:12:09,760 --> 00:12:13,839
+equals the distance
+
+322
+00:12:11,839 --> 00:12:15,839
+uh equals the
+
+323
+00:12:13,839 --> 00:12:18,320
+destination and we return the distance
+
+324
+00:12:15,839 --> 00:12:19,360
+between the cost right yeah
+
+325
+00:12:18,320 --> 00:12:21,680
+now we
+
+326
+00:12:19,360 --> 00:12:24,399
+the next thing is to do what if then we
+
+327
+00:12:21,680 --> 00:12:26,480
+need to check if the current is already
+
+328
+00:12:24,399 --> 00:12:28,720
+being visited soon now we'll just
+
+329
+00:12:26,480 --> 00:12:30,480
+continue here i'll just skip this one
+
+330
+00:12:28,720 --> 00:12:31,519
+and then now the next thing is go
+
+331
+00:12:30,480 --> 00:12:34,399
+through the
+
+332
+00:12:31,519 --> 00:12:36,160
+other the the neighbors of the
+
+333
+00:12:34,399 --> 00:12:37,600
+uh
+
+334
+00:12:36,160 --> 00:12:39,120
+of the current
+
+335
+00:12:37,600 --> 00:12:40,800
+so for
+
+336
+00:12:39,120 --> 00:12:42,399
+and in
+
+337
+00:12:40,800 --> 00:12:43,519
+in g
+
+338
+00:12:42,399 --> 00:12:45,760
+uh
+
+339
+00:12:43,519 --> 00:12:48,160
+g current okay
+
+340
+00:12:45,760 --> 00:12:50,079
+g current is actually you know the
+
+341
+00:12:48,160 --> 00:12:52,000
+containing a toughest array of taps
+
+342
+00:12:50,079 --> 00:12:54,560
+which is the vertex and the cost so we
+
+343
+00:12:52,000 --> 00:12:56,240
+have uh we need to do this as n is the
+
+344
+00:12:54,560 --> 00:12:58,480
+vertex c is the
+
+345
+00:12:56,240 --> 00:13:01,040
+uh is the cost from the cut from the
+
+346
+00:12:58,480 --> 00:13:03,440
+current to the end so now we just need
+
+347
+00:13:01,040 --> 00:13:06,720
+to keep uh to push this into the
+
+348
+00:13:03,440 --> 00:13:08,160
+priority queue hit pau push
+
+349
+00:13:06,720 --> 00:13:11,360
+q
+
+350
+00:13:08,160 --> 00:13:13,279
+and then d plus c d plus c okay d
+
+351
+00:13:11,360 --> 00:13:16,399
+because current cost is c and the new
+
+352
+00:13:13,279 --> 00:13:19,519
+cost is c so that the new update
+
+353
+00:13:16,399 --> 00:13:22,320
+accumulate cost is p plus c and then
+
+354
+00:13:19,519 --> 00:13:23,360
+vertex says n right and then if we can't
+
+355
+00:13:22,320 --> 00:13:26,160
+visit it
+
+356
+00:13:23,360 --> 00:13:28,320
+if we configure everything uh the
+
+357
+00:13:26,160 --> 00:13:30,480
+destination here we just will return
+
+358
+00:13:28,320 --> 00:13:32,839
+anything we can run or return minus one
+
+359
+00:13:30,480 --> 00:13:36,240
+it doesn't matter
+
+360
+00:13:32,839 --> 00:13:38,079
+okay look we look look at this template
+
+361
+00:13:36,240 --> 00:13:40,000
+can you see the difference between these
+
+362
+00:13:38,079 --> 00:13:42,320
+and the breakfast search can you point
+
+363
+00:13:40,000 --> 00:13:42,320
+it out
+
+364
+00:13:45,440 --> 00:13:50,480
+hip-hop yeah
+
+365
+00:13:47,519 --> 00:13:52,560
+with the preferred search we use what
+
+366
+00:13:50,480 --> 00:13:54,880
+q dot
+
+367
+00:13:52,560 --> 00:13:56,720
+top left exactly and then i know another
+
+368
+00:13:54,880 --> 00:13:58,480
+difference
+
+369
+00:13:56,720 --> 00:14:02,800
+another difference with the hippo what's
+
+370
+00:13:58,480 --> 00:14:05,199
+the arrow to push it
+
+371
+00:14:02,800 --> 00:14:08,079
+so here here is different right so in
+
+372
+00:14:05,199 --> 00:14:08,959
+the preferences you'll be killed a pen
+
+373
+00:14:08,079 --> 00:14:11,199
+right
+
+374
+00:14:08,959 --> 00:14:13,279
+so this one is picking the
+
+375
+00:14:11,199 --> 00:14:15,680
+the lowest and then the highest priority
+
+376
+00:14:13,279 --> 00:14:18,240
+which is the lowest cost right and here
+
+377
+00:14:15,680 --> 00:14:20,959
+is to pushing the kids of the
+
+378
+00:14:18,240 --> 00:14:22,720
+vertex into it and all other things are
+
+379
+00:14:20,959 --> 00:14:24,560
+quite similar okay so this is the
+
+380
+00:14:22,720 --> 00:14:26,720
+uniform cost search
+
+381
+00:14:24,560 --> 00:14:29,120
+okay so it's quite useful to find the
+
+382
+00:14:26,720 --> 00:14:31,519
+shortest path between uh in a graph with
+
+383
+00:14:29,120 --> 00:14:34,800
+the weighted you know with weighted it
+
+384
+00:14:31,519 --> 00:14:37,360
+could be directed or under
+
+385
+00:14:34,800 --> 00:14:39,839
+directed graph or undirected graph okay
+
+386
+00:14:37,360 --> 00:14:44,160
+it doesn't matter as long as the wages
+
+387
+00:14:39,839 --> 00:14:46,800
+has the weight okay if that if the wait
+
+388
+00:14:44,160 --> 00:14:50,079
+the c is all one and then this angular
+
+389
+00:14:46,800 --> 00:14:51,120
+will be exact exactly like the breakfast
+
+390
+00:14:50,079 --> 00:14:52,160
+okay
+
+391
+00:14:51,120 --> 00:14:53,040
+yeah
+
+392
+00:14:52,160 --> 00:14:54,720
+yeah
+
+393
+00:14:53,040 --> 00:14:56,880
+okay make sense
+
+394
+00:14:54,720 --> 00:14:58,560
+okay we'll talk about that uh in the
+
+395
+00:14:56,880 --> 00:15:03,360
+next few days okay
+
+396
+00:14:58,560 --> 00:15:03,360
+that's it for today bye bye
+
