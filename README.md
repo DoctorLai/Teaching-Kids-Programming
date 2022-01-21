@@ -205,6 +205,11 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Binary Search Algorithm to Compute the Square Root | 二分搜索算法求根号的值 | [Youtube](https://youtu.be/_-bDvuBDxis) - [B站](https://www.bilibili.com/video/BV1dv411x7U7/) | [Binary Search Algorithm to Compute the Square Root](https://helloacm.com/teaching-kids-programming-binary-search-algorithm-to-compute-the-square-root/) | 2021-01-07 |
 | From Linear Search to Binary Search Algorithm | 线性搜索到二分查找 | [Youtube](https://www.youtube.com/watch?v=nGzWpefKYAo) - [B站](https://www.bilibili.com/video/BV1Pi4y157vf/) | [From Linear Search to Binary Search Algorithm](https://helloacm.com/teaching-kids-programming-from-linear-search-to-binary-search-algorithm/) | 2020-11-23 |
 
+## Game Theory 博弈游戏论
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Introduction to Two Players Zero-Sum Game (Number Halving) | 博弈简介: 两个玩家零和游戏(数字减半) | [Youtube](https://youtu.be/h0dR71o24sY) - [B站](https://www.bilibili.com/video/BV1qP4y1778k/) - [西瓜](https://www.ixigua.com/7055420380801925662) | [Introduction to Two Players Zero-Sum Game (Number Halving)](https://helloacm.com/teaching-kids-programming-introduction-to-two-players-zero-sum-game-number-halving/) | 2022-01-20 |
+
 ## Random 随机算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
