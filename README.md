@@ -208,6 +208,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Game Theory 博弈游戏论
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Define Tic Tac Toe using Game Theory Terminologies | 博弈游戏论: 定义井字格游戏 Tic Tac Toe | [Youtube](https://youtu.be/egDQ2TO65Dg) - [B站](https://www.bilibili.com/video/BV1Cm4y1U7Ga/) - [西瓜](https://www.ixigua.com/7056081996518261256) | [Define Tic Tac Toe using Game Theory Terminologies](https://helloacm.com/teaching-kids-programming-define-tic-tac-toe-using-game-theory-terminologies/) | 2022-01-22 |
 | Introduction to Two Players Zero-Sum Game (Number Halving) | 博弈简介: 两个玩家零和游戏(数字减半) | [Youtube](https://youtu.be/h0dR71o24sY) - [B站](https://www.bilibili.com/video/BV1qP4y1778k/) - [西瓜](https://www.ixigua.com/7055420380801925662) | [Introduction to Two Players Zero-Sum Game (Number Halving)](https://helloacm.com/teaching-kids-programming-introduction-to-two-players-zero-sum-game-number-halving/) | 2022-01-20 |
 
 ## Random 随机算法
