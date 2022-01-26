@@ -7,6 +7,8 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 393 (2022-01-25): [NegaMax Algorithm (Game Theory)](https://helloacm.com/teaching-kids-programming-negamax-algorithm-game-theory/) 博弈游戏论: NegaMax 负最大搜索算法
+ [Youtube](https://youtu.be/xPGuZreeXmM) - [B站](https://www.bilibili.com/video/BV1QY411b7vM/)  - [西瓜](https://www.ixigua.com/7057271653100683789) 
 - Day 392 (2022-01-24): [Alpha-Beta Pruning Algorithm (Game Theory)](https://helloacm.com/teaching-kids-programming-alpha-beta-pruning-algorithm-game-theory/) 博弈游戏论: Alpha Beta 剪枝搜索算法 [Youtube](https://youtu.be/Ua74yhwAHSQ) - [B站](https://www.bilibili.com/video/BV1534y1q7DE/)  - [西瓜](https://www.ixigua.com/7056906743263166990) 
 - Day 391 (2022-01-23): [MinMax Algorithm in Game Tree (Game Theory, Tic Tac Toe)](https://helloacm.com/teaching-kids-programming-minmax-algorithm-in-game-tree-game-theory-tic-tac-toe/) 博弈游戏论: Minmax 搜索算法 (井字格游戏 Tic Tac Toe) [Youtube](https://youtu.be/snkmss0BKA8) - [B站](https://www.bilibili.com/video/BV1Rm4y1Z7tj/)  - [西瓜](https://www.ixigua.com/7056463982806172196) 
 - Day 390 (2022-01-22): [Define Tic Tac Toe using Game Theory Terminologies](https://helloacm.com/teaching-kids-programming-define-tic-tac-toe-using-game-theory-terminologies/) 博弈游戏论: 定义井字格游戏 Tic Tac Toe [Youtube](https://youtu.be/egDQ2TO65Dg) - [B站](https://www.bilibili.com/video/BV1Cm4y1U7Ga/)  - [西瓜](https://www.ixigua.com/7056081996518261256) 
