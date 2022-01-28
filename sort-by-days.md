@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 394 (2022-01-27): [Alpha Beta Pruning Algorithm on NegaMax (Game Theory)](https://helloacm.com/teaching-kids-programming-alpha-beta-pruning-algorithm-on-negamax-game-theory/) 博弈游戏论: 基于NegaMax负最大搜索的Alpha Beta剪枝算法 [Youtube](https://youtu.be/sE2UwPRQSvI) - [B站](https://www.bilibili.com/video/BV1er4y1a7FE/)  - [西瓜](https://www.ixigua.com/i7058035403219010061) 
 - Day 393 (2022-01-25): [NegaMax Algorithm (Game Theory)](https://helloacm.com/teaching-kids-programming-negamax-algorithm-game-theory/) 博弈游戏论: NegaMax 负最大搜索算法
  [Youtube](https://youtu.be/xPGuZreeXmM) - [B站](https://www.bilibili.com/video/BV1QY411b7vM/)  - [西瓜](https://www.ixigua.com/7057271653100683789) 
 - Day 392 (2022-01-24): [Alpha-Beta Pruning Algorithm (Game Theory)](https://helloacm.com/teaching-kids-programming-alpha-beta-pruning-algorithm-game-theory/) 博弈游戏论: Alpha Beta 剪枝搜索算法 [Youtube](https://youtu.be/Ua74yhwAHSQ) - [B站](https://www.bilibili.com/video/BV1534y1q7DE/)  - [西瓜](https://www.ixigua.com/7056906743263166990) 
