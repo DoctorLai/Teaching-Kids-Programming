@@ -1,0 +1,2040 @@
+1
+00:00:00,080 --> 00:00:03,120
+go
+
+2
+00:00:00,960 --> 00:00:05,040
+hello mr harry are you right
+
+3
+00:00:03,120 --> 00:00:06,399
+yeah we have talked about the games in
+
+4
+00:00:05,040 --> 00:00:08,160
+these few days we talked about a
+
+5
+00:00:06,399 --> 00:00:09,280
+two-player zero sum game we have two
+
+6
+00:00:08,160 --> 00:00:12,639
+player
+
+7
+00:00:09,280 --> 00:00:15,120
+to play a zero sum one takes i play i
+
+8
+00:00:12,639 --> 00:00:17,119
+make a move you make a move yeah i know
+
+9
+00:00:15,120 --> 00:00:19,279
+exactly what happened on
+
+10
+00:00:17,119 --> 00:00:21,119
+on the game and you know the same
+
+11
+00:00:19,279 --> 00:00:22,640
+exactly let's call two players zero some
+
+12
+00:00:21,119 --> 00:00:26,080
+game
+
+13
+00:00:22,640 --> 00:00:28,560
+i play to win yeah i win you lose yeah i
+
+14
+00:00:26,080 --> 00:00:29,599
+lose you win yeah let's do that
+
+15
+00:00:28,560 --> 00:00:32,480
+okay
+
+16
+00:00:29,599 --> 00:00:33,680
+is the pokemon car uh zero some game two
+
+17
+00:00:32,480 --> 00:00:35,200
+player
+
+18
+00:00:33,680 --> 00:00:37,040
+pokemon
+
+19
+00:00:35,200 --> 00:00:39,120
+that's poke
+
+20
+00:00:37,040 --> 00:00:40,640
+like that pokemon do you know
+
+21
+00:00:39,120 --> 00:00:43,680
+play poker cars
+
+22
+00:00:40,640 --> 00:00:45,840
+is there a two player zero sum game
+
+23
+00:00:43,680 --> 00:00:45,840
+is
+
+24
+00:00:46,800 --> 00:00:52,239
+you're not sure
+
+25
+00:00:48,160 --> 00:00:54,320
+i mean for the pokemon cards
+
+26
+00:00:52,239 --> 00:00:55,360
+to is it a two player
+
+27
+00:00:54,320 --> 00:00:57,199
+no
+
+28
+00:00:55,360 --> 00:00:58,559
+it could be many player multiplayer but
+
+29
+00:00:57,199 --> 00:01:01,039
+the thing is that
+
+30
+00:00:58,559 --> 00:01:04,879
+the player does not know i'm not playing
+
+31
+00:01:01,039 --> 00:01:06,720
+not really yeah so i play the podcast i
+
+32
+00:01:04,879 --> 00:01:07,680
+don't know what happened on your hand
+
+33
+00:01:06,720 --> 00:01:09,600
+yeah
+
+34
+00:01:07,680 --> 00:01:10,880
+so this is not a two-player zero-sum
+
+35
+00:01:09,600 --> 00:01:14,000
+game because
+
+36
+00:01:10,880 --> 00:01:16,000
+the play each player is
+
+37
+00:01:14,000 --> 00:01:18,960
+all the players do not share the same
+
+38
+00:01:16,000 --> 00:01:20,960
+kind of information right yeah
+
+39
+00:01:18,960 --> 00:01:23,360
+you don't know what's in my hand right
+
+40
+00:01:20,960 --> 00:01:26,159
+that's not to play zero something
+
+41
+00:01:23,360 --> 00:01:27,680
+we talk about the mean math
+
+42
+00:01:26,159 --> 00:01:30,320
+max
+
+43
+00:01:27,680 --> 00:01:32,640
+index is a kind of search agreement for
+
+44
+00:01:30,320 --> 00:01:33,759
+the in the game tree right so we have a
+
+45
+00:01:32,640 --> 00:01:36,560
+max
+
+46
+00:01:33,759 --> 00:01:38,720
+we have a tree yeah we have a three
+
+47
+00:01:36,560 --> 00:01:40,880
+again uh the note that would be each
+
+48
+00:01:38,720 --> 00:01:42,320
+note will be the state of the game in
+
+49
+00:01:40,880 --> 00:01:45,040
+each state
+
+50
+00:01:42,320 --> 00:01:47,200
+so one player is trying to maximizing it
+
+51
+00:01:45,040 --> 00:01:48,960
+the other one is trying to minimizing it
+
+52
+00:01:47,200 --> 00:01:50,000
+okay so it takes time right it takes
+
+53
+00:01:48,960 --> 00:01:51,600
+time
+
+54
+00:01:50,000 --> 00:01:53,840
+so for example this one is trying to
+
+55
+00:01:51,600 --> 00:01:56,799
+maximize this one try to minimize and
+
+56
+00:01:53,840 --> 00:01:59,119
+it's going to max mine minimizing
+
+57
+00:01:56,799 --> 00:02:02,479
+okay so main max
+
+58
+00:01:59,119 --> 00:02:04,880
+yeah i will also talk about the
+
+59
+00:02:02,479 --> 00:02:06,840
+the simplified implementation of mini
+
+60
+00:02:04,880 --> 00:02:09,440
+max which is called nega max yeah
+
+61
+00:02:06,840 --> 00:02:11,680
+megamax the problem of the min max is
+
+62
+00:02:09,440 --> 00:02:14,080
+what is that
+
+63
+00:02:11,680 --> 00:02:16,400
+in its implementation we have to
+
+64
+00:02:14,080 --> 00:02:18,480
+write the same bit of code twice right
+
+65
+00:02:16,400 --> 00:02:20,319
+so if maximizing we are trying to find
+
+66
+00:02:18,480 --> 00:02:22,640
+the max value
+
+67
+00:02:20,319 --> 00:02:25,120
+among each kid
+
+68
+00:02:22,640 --> 00:02:26,080
+and if it's minimizing you know we're
+
+69
+00:02:25,120 --> 00:02:28,640
+trying to
+
+70
+00:02:26,080 --> 00:02:31,440
+find the minimum value of the kit
+
+71
+00:02:28,640 --> 00:02:32,959
+and these two bits of codes are similar
+
+72
+00:02:31,440 --> 00:02:35,280
+it's just different
+
+73
+00:02:32,959 --> 00:02:37,920
+directions right so with the negative
+
+74
+00:02:35,280 --> 00:02:40,000
+max we're simplifying both scenarios
+
+75
+00:02:37,920 --> 00:02:41,360
+combining both scenarios in one function
+
+76
+00:02:40,000 --> 00:02:42,640
+without the
+
+77
+00:02:41,360 --> 00:02:46,720
+um
+
+78
+00:02:42,640 --> 00:02:46,720
+if statement if checked so the
+
+79
+00:02:46,800 --> 00:02:53,920
+so you just both cases will be trying to
+
+80
+00:02:50,800 --> 00:02:55,840
+maximize the value how how does it work
+
+81
+00:02:53,920 --> 00:02:57,360
+why is that because look if we want to
+
+82
+00:02:55,840 --> 00:02:59,920
+get the maximum
+
+83
+00:02:57,360 --> 00:03:02,319
+of a and b what does it equal
+
+84
+00:02:59,920 --> 00:03:04,720
+if we put a sign
+
+85
+00:03:02,319 --> 00:03:06,480
+minus a minus b
+
+86
+00:03:04,720 --> 00:03:08,959
+if we get the mean
+
+87
+00:03:06,480 --> 00:03:11,519
+and then b equal to the mean we put a
+
+88
+00:03:08,959 --> 00:03:13,040
+sign negative sign out
+
+89
+00:03:11,519 --> 00:03:15,519
+yeah
+
+90
+00:03:13,040 --> 00:03:15,519
+all right
+
+91
+00:03:16,959 --> 00:03:19,920
+is it all right let's say
+
+92
+00:03:19,040 --> 00:03:21,280
+10
+
+93
+00:03:19,920 --> 00:03:24,080
+20
+
+94
+00:03:21,280 --> 00:03:26,560
+so let's put the sign over minus 10
+
+95
+00:03:24,080 --> 00:03:29,040
+minus 20. so what's the minimum what is
+
+96
+00:03:26,560 --> 00:03:31,840
+20 minus
+
+97
+00:03:29,040 --> 00:03:34,319
+minus 20 is the minimum so minus 20 for
+
+98
+00:03:31,840 --> 00:03:36,879
+the two sign turns out that'll be 20
+
+99
+00:03:34,319 --> 00:03:39,040
+that's the thing we're looking for right
+
+100
+00:03:36,879 --> 00:03:41,440
+yeah this equation how does that how do
+
+101
+00:03:39,040 --> 00:03:43,440
+we prove that if we saying a is bigger
+
+102
+00:03:41,440 --> 00:03:44,640
+than equal to b right
+
+103
+00:03:43,440 --> 00:03:47,280
+max
+
+104
+00:03:44,640 --> 00:03:49,840
+max a b will be
+
+105
+00:03:47,280 --> 00:03:52,480
+a right yeah if we say a is bigger than
+
+106
+00:03:49,840 --> 00:03:54,560
+equal than b no max a b
+
+107
+00:03:52,480 --> 00:03:57,439
+and b is the same it's the same it's
+
+108
+00:03:54,560 --> 00:04:00,560
+still it still stands here
+
+109
+00:03:57,439 --> 00:04:02,640
+it's this thing right okay so if a
+
+110
+00:04:00,560 --> 00:04:05,760
+a is bigger or equal than b if i put a
+
+111
+00:04:02,640 --> 00:04:09,120
+negative put a sign look if i negate the
+
+112
+00:04:05,760 --> 00:04:10,000
+sign so minus a is smaller than minus b
+
+113
+00:04:09,120 --> 00:04:11,599
+okay
+
+114
+00:04:10,000 --> 00:04:14,560
+yeah because we change the sum we have
+
+115
+00:04:11,599 --> 00:04:17,600
+to change the sign changing the you know
+
+116
+00:04:14,560 --> 00:04:19,519
+change from bigger equal to less equal
+
+117
+00:04:17,600 --> 00:04:21,680
+right i know which
+
+118
+00:04:19,519 --> 00:04:23,919
+uh which one is smaller
+
+119
+00:04:21,680 --> 00:04:24,800
+this one obviously yeah
+
+120
+00:04:23,919 --> 00:04:27,520
+and then
+
+121
+00:04:24,800 --> 00:04:28,639
+if we put the negative sign in front of
+
+122
+00:04:27,520 --> 00:04:29,520
+b
+
+123
+00:04:28,639 --> 00:04:31,120
+a
+
+124
+00:04:29,520 --> 00:04:33,360
+yeah which is
+
+125
+00:04:31,120 --> 00:04:36,960
+exactly the same here
+
+126
+00:04:33,360 --> 00:04:39,040
+yeah okay we just move it
+
+127
+00:04:36,960 --> 00:04:41,360
+so relax max
+
+128
+00:04:39,040 --> 00:04:43,520
+simplify it so let's quickly write the
+
+129
+00:04:41,360 --> 00:04:45,199
+megamax and then we come coming back to
+
+130
+00:04:43,520 --> 00:04:47,120
+this other better premium because we
+
+131
+00:04:45,199 --> 00:04:48,080
+talked about alpha beta pruning but it's
+
+132
+00:04:47,120 --> 00:04:50,720
+still
+
+133
+00:04:48,080 --> 00:04:54,400
+we have to use the big if statement to
+
+134
+00:04:50,720 --> 00:04:56,160
+distinguish between two scenarios
+
+135
+00:04:54,400 --> 00:04:57,919
+okay i'm going to write the mean max
+
+136
+00:04:56,160 --> 00:05:00,639
+first mega man
+
+137
+00:04:57,919 --> 00:05:02,880
+connect max
+
+138
+00:05:00,639 --> 00:05:04,479
+we have a state
+
+139
+00:05:02,880 --> 00:05:05,759
+we have a tabs
+
+140
+00:05:04,479 --> 00:05:07,840
+we have
+
+141
+00:05:05,759 --> 00:05:10,240
+what
+
+142
+00:05:07,840 --> 00:05:10,240
+player
+
+143
+00:05:15,120 --> 00:05:19,360
+maximizing minimizing player agent
+
+144
+00:05:17,680 --> 00:05:23,520
+opponent
+
+145
+00:05:19,360 --> 00:05:26,000
+if d is zero if we reach
+
+146
+00:05:23,520 --> 00:05:27,120
+the depth yeah
+
+147
+00:05:26,000 --> 00:05:29,680
+or
+
+148
+00:05:27,120 --> 00:05:32,080
+the state is the end state it's end it's
+
+149
+00:05:29,680 --> 00:05:33,520
+the end state it's the leaf node
+
+150
+00:05:32,080 --> 00:05:35,600
+of the gantry
+
+151
+00:05:33,520 --> 00:05:37,520
+what's n state
+
+152
+00:05:35,600 --> 00:05:38,720
+and say what does this mean what's
+
+153
+00:05:37,520 --> 00:05:39,840
+insane
+
+154
+00:05:38,720 --> 00:05:41,759
+and
+
+155
+00:05:39,840 --> 00:05:43,919
+yeah and and what kind of scenario for
+
+156
+00:05:41,759 --> 00:05:45,440
+the tic-tac-toe game what's the answer
+
+157
+00:05:43,919 --> 00:05:47,680
+in the room or
+
+158
+00:05:45,440 --> 00:05:47,680
+um
+
+159
+00:05:48,240 --> 00:05:54,000
+so someone has wing someone has one or
+
+160
+00:05:52,080 --> 00:05:57,280
+is a draw so that is three kinds of
+
+161
+00:05:54,000 --> 00:05:59,280
+scenario yeah agent win we give a
+
+162
+00:05:57,280 --> 00:06:01,919
+positive infinity
+
+163
+00:05:59,280 --> 00:06:04,319
+opponent we give a negative infinity or
+
+164
+00:06:01,919 --> 00:06:06,800
+nobody wins we give a zero
+
+165
+00:06:04,319 --> 00:06:08,720
+yeah so we return
+
+166
+00:06:06,800 --> 00:06:11,600
+in this case we return a
+
+167
+00:06:08,720 --> 00:06:14,160
+score evaluation of heuristic score of
+
+168
+00:06:11,600 --> 00:06:16,000
+the state so let's say score
+
+169
+00:06:14,160 --> 00:06:18,240
+state
+
+170
+00:06:16,000 --> 00:06:20,240
+now we're trying to
+
+171
+00:06:18,240 --> 00:06:23,520
+because this is negan x so we can
+
+172
+00:06:20,240 --> 00:06:25,759
+combine both scenario into one we we set
+
+173
+00:06:23,520 --> 00:06:28,800
+the initial score to negative infinity
+
+174
+00:06:25,759 --> 00:06:29,600
+and i'm trying to maximize in both cases
+
+175
+00:06:28,800 --> 00:06:30,960
+for
+
+176
+00:06:29,600 --> 00:06:32,080
+action
+
+177
+00:06:30,960 --> 00:06:34,240
+in
+
+178
+00:06:32,080 --> 00:06:36,880
+action okay so for kids in the state
+
+179
+00:06:34,240 --> 00:06:38,560
+okay so this is the action would be
+
+180
+00:06:36,880 --> 00:06:41,039
+the actions
+
+181
+00:06:38,560 --> 00:06:43,600
+of the state yeah what's the next move
+
+182
+00:06:41,039 --> 00:06:45,360
+prosper and then the new state
+
+183
+00:06:43,600 --> 00:06:48,000
+news day would be
+
+184
+00:06:45,360 --> 00:06:49,520
+the successor success of the current
+
+185
+00:06:48,000 --> 00:06:51,680
+state this is
+
+186
+00:06:49,520 --> 00:06:53,440
+return a new state with the current
+
+187
+00:06:51,680 --> 00:06:54,639
+action
+
+188
+00:06:53,440 --> 00:06:56,160
+and then
+
+189
+00:06:54,639 --> 00:06:59,280
+score
+
+190
+00:06:56,160 --> 00:07:00,960
+equals maximum of score okay so this is
+
+191
+00:06:59,280 --> 00:07:03,199
+the magic and we talked about let's go
+
+192
+00:07:00,960 --> 00:07:05,919
+equals mathematician and we are trying
+
+193
+00:07:03,199 --> 00:07:08,240
+to go to go to the next round so which i
+
+194
+00:07:05,919 --> 00:07:10,720
+need to put the negative sign yeah
+
+195
+00:07:08,240 --> 00:07:13,120
+knacker max this is where the net net
+
+196
+00:07:10,720 --> 00:07:14,880
+max what's negative x
+
+197
+00:07:13,120 --> 00:07:17,680
+what's the negative yeah put a negative
+
+198
+00:07:14,880 --> 00:07:19,199
+sign and a new state and we pass in the
+
+199
+00:07:17,680 --> 00:07:21,840
+new state
+
+200
+00:07:19,199 --> 00:07:24,319
+and the test will be minus one yeah we
+
+201
+00:07:21,840 --> 00:07:25,120
+if we initially give a
+
+202
+00:07:24,319 --> 00:07:27,680
+d
+
+203
+00:07:25,120 --> 00:07:30,160
+depth the maximum test we can search the
+
+204
+00:07:27,680 --> 00:07:32,240
+tree we set the hard limit okay so this
+
+205
+00:07:30,160 --> 00:07:35,039
+is the game tree yeah this is the
+
+206
+00:07:32,240 --> 00:07:37,039
+country if we're saying okay okay we i'm
+
+207
+00:07:35,039 --> 00:07:40,000
+setting the hard limit
+
+208
+00:07:37,039 --> 00:07:41,520
+to step three so everything after
+
+209
+00:07:40,000 --> 00:07:44,080
+we just don't care for the moment
+
+210
+00:07:41,520 --> 00:07:47,840
+because of the limited resources well
+
+211
+00:07:44,080 --> 00:07:49,440
+once i got on the computer to play con
+
+212
+00:07:47,840 --> 00:07:53,520
+connect for
+
+213
+00:07:49,440 --> 00:07:55,680
+peter and then when i was like uh
+
+214
+00:07:53,520 --> 00:07:59,120
+just about yes
+
+215
+00:07:55,680 --> 00:08:01,120
+nearly like to plan to win and then and
+
+216
+00:07:59,120 --> 00:08:03,840
+then the competitive like
+
+217
+00:08:01,120 --> 00:08:05,280
+computers like kick me out the game why
+
+218
+00:08:03,840 --> 00:08:08,000
+is there they can put the kick kill out
+
+219
+00:08:05,280 --> 00:08:10,840
+again and then yes and then i guess
+
+220
+00:08:08,000 --> 00:08:14,319
+what's connect4 um is like
+
+221
+00:08:10,840 --> 00:08:16,479
+um this square and then drop um
+
+222
+00:08:14,319 --> 00:08:19,120
+control i i don't know what you talk
+
+223
+00:08:16,479 --> 00:08:19,120
+about um
+
+224
+00:08:22,960 --> 00:08:26,720
+well i'm not sure if you use different
+
+225
+00:08:24,960 --> 00:08:28,560
+color if you want them
+
+226
+00:08:26,720 --> 00:08:31,360
+okay so these are
+
+227
+00:08:28,560 --> 00:08:32,640
+slots here yeah well it's not exactly oh
+
+228
+00:08:31,360 --> 00:08:35,200
+yeah
+
+229
+00:08:32,640 --> 00:08:37,440
+well you dropped you drop these counters
+
+230
+00:08:35,200 --> 00:08:40,080
+in and it drops to the bottom
+
+231
+00:08:37,440 --> 00:08:42,240
+and then and then and then and then you
+
+232
+00:08:40,080 --> 00:08:43,360
+have and then and then you can put some
+
+233
+00:08:42,240 --> 00:08:45,680
+on top
+
+234
+00:08:43,360 --> 00:08:47,440
+and then you have to make four in a row
+
+235
+00:08:45,680 --> 00:08:49,519
+so is it the two player game you're
+
+236
+00:08:47,440 --> 00:08:52,160
+playing against the computer so you make
+
+237
+00:08:49,519 --> 00:08:54,320
+one move the computer make one move yeah
+
+238
+00:08:52,160 --> 00:08:56,480
+okay interesting maybe i can this is
+
+239
+00:08:54,320 --> 00:08:58,640
+like
+
+240
+00:08:56,480 --> 00:09:00,640
+i see okay
+
+241
+00:08:58,640 --> 00:09:03,440
+okay so the computer kick you out again
+
+242
+00:09:00,640 --> 00:09:04,959
+why is that i don't know i just
+
+243
+00:09:03,440 --> 00:09:06,240
+okay but i guess that's a different
+
+244
+00:09:04,959 --> 00:09:07,519
+reason okay
+
+245
+00:09:06,240 --> 00:09:10,560
+anyway
+
+246
+00:09:07,519 --> 00:09:12,880
+okay very interesting and i look it up
+
+247
+00:09:10,560 --> 00:09:15,760
+d minus one and then player player we
+
+248
+00:09:12,880 --> 00:09:18,240
+need to neglect as a player as well okay
+
+249
+00:09:15,760 --> 00:09:19,600
+okay so this is the net max so how about
+
+250
+00:09:18,240 --> 00:09:23,040
+if we what
+
+251
+00:09:19,600 --> 00:09:24,800
+how about we introduce the the alphabet
+
+252
+00:09:23,040 --> 00:09:26,959
+accordingly let's let's review a little
+
+253
+00:09:24,800 --> 00:09:30,399
+bit of beta okay
+
+254
+00:09:26,959 --> 00:09:33,120
+i say this is three this is five
+
+255
+00:09:30,399 --> 00:09:36,080
+and then if i have this six here if
+
+256
+00:09:33,120 --> 00:09:38,399
+we're trying to maximize here
+
+257
+00:09:36,080 --> 00:09:39,680
+yeah and then here's some something i
+
+258
+00:09:38,399 --> 00:09:41,440
+don't care
+
+259
+00:09:39,680 --> 00:09:45,920
+something i don't care if something i
+
+260
+00:09:41,440 --> 00:09:45,920
+don't care yeah okay i don't care here
+
+261
+00:09:46,560 --> 00:09:51,440
+so this is three five so i have five
+
+262
+00:09:48,959 --> 00:09:52,800
+here so we are minimizing here
+
+263
+00:09:51,440 --> 00:09:56,080
+minimizing it
+
+264
+00:09:52,800 --> 00:09:56,080
+okay so what's the value here
+
+265
+00:09:56,160 --> 00:09:58,800
+um
+
+266
+00:09:57,920 --> 00:10:01,440
+five
+
+267
+00:09:58,800 --> 00:10:03,519
+sorry why is that because this x is what
+
+268
+00:10:01,440 --> 00:10:05,680
+we are getting the maximum so x we find
+
+269
+00:10:03,519 --> 00:10:07,600
+the first kid is six so what does it
+
+270
+00:10:05,680 --> 00:10:11,120
+mean this note is
+
+271
+00:10:07,600 --> 00:10:13,519
+x is what people are equal and six right
+
+272
+00:10:11,120 --> 00:10:15,040
+yeah if x is bigger than equal to six
+
+273
+00:10:13,519 --> 00:10:17,839
+and we are getting the minimum in the
+
+274
+00:10:15,040 --> 00:10:20,320
+inspiration what does it mean here look
+
+275
+00:10:17,839 --> 00:10:22,480
+so this is bigger than six this is five
+
+276
+00:10:20,320 --> 00:10:23,279
+so what five is the winner
+
+277
+00:10:22,480 --> 00:10:25,360
+right
+
+278
+00:10:23,279 --> 00:10:26,160
+even we haven't explored this
+
+279
+00:10:25,360 --> 00:10:27,920
+yeah
+
+280
+00:10:26,160 --> 00:10:30,720
+we never explore that we don't care this
+
+281
+00:10:27,920 --> 00:10:32,959
+is uninteresting and interesting to us
+
+282
+00:10:30,720 --> 00:10:35,760
+right because it doesn't change the fact
+
+283
+00:10:32,959 --> 00:10:37,600
+that x is bigger or equal than six
+
+284
+00:10:35,760 --> 00:10:39,600
+look yeah so
+
+285
+00:10:37,600 --> 00:10:41,440
+so this is very useful you just
+
+286
+00:10:39,600 --> 00:10:43,600
+print it print it
+
+287
+00:10:41,440 --> 00:10:46,959
+so in order to prune this as much as
+
+288
+00:10:43,600 --> 00:10:49,920
+possible we need to okay so this is the
+
+289
+00:10:46,959 --> 00:10:51,920
+thinking right a question in order to
+
+290
+00:10:49,920 --> 00:10:53,200
+have this kind of thing we prefer to cut
+
+291
+00:10:51,920 --> 00:10:57,120
+up this
+
+292
+00:10:53,200 --> 00:10:59,600
+as much as we can so in order to do that
+
+293
+00:10:57,120 --> 00:11:02,640
+we need to
+
+294
+00:10:59,600 --> 00:11:05,200
+we need to search if we can order if we
+
+295
+00:11:02,640 --> 00:11:08,399
+can sort the these these the kids on the
+
+296
+00:11:05,200 --> 00:11:09,200
+same error so do we need to solve the
+
+297
+00:11:08,399 --> 00:11:11,680
+best
+
+298
+00:11:09,200 --> 00:11:15,000
+uh explore the best moves or the worst
+
+299
+00:11:11,680 --> 00:11:15,000
+moves first
+
+300
+00:11:17,279 --> 00:11:22,640
+yeah i know so in order to have this as
+
+301
+00:11:20,800 --> 00:11:24,320
+cut-off as not
+
+302
+00:11:22,640 --> 00:11:25,920
+as possible
+
+303
+00:11:24,320 --> 00:11:29,920
+it's better we
+
+304
+00:11:25,920 --> 00:11:30,959
+search we explore the trees with the
+
+305
+00:11:29,920 --> 00:11:32,079
+moves
+
+306
+00:11:30,959 --> 00:11:34,480
+that
+
+307
+00:11:32,079 --> 00:11:36,480
+is the best move first right
+
+308
+00:11:34,480 --> 00:11:39,040
+yeah am i right does it make sense yeah
+
+309
+00:11:36,480 --> 00:11:40,079
+yeah because look if i search this first
+
+310
+00:11:39,040 --> 00:11:42,399
+what happened
+
+311
+00:11:40,079 --> 00:11:43,839
+there is no cut off right it matters the
+
+312
+00:11:42,399 --> 00:11:46,079
+order of the
+
+313
+00:11:43,839 --> 00:11:48,720
+the order of the kids look i can i can i
+
+314
+00:11:46,079 --> 00:11:51,040
+can search these three this note first
+
+315
+00:11:48,720 --> 00:11:53,279
+or i can search this no first
+
+316
+00:11:51,040 --> 00:11:56,399
+right but if i search this no first
+
+317
+00:11:53,279 --> 00:11:58,480
+there will not be cut off you you can't
+
+318
+00:11:56,399 --> 00:11:59,680
+you can't promote right because you
+
+319
+00:11:58,480 --> 00:12:02,240
+don't know right
+
+320
+00:11:59,680 --> 00:12:04,320
+you don't know there's a five
+
+321
+00:12:02,240 --> 00:12:06,720
+that doesn't make sense
+
+322
+00:12:04,320 --> 00:12:08,079
+five comparing to this note
+
+323
+00:12:06,720 --> 00:12:10,399
+this is better
+
+324
+00:12:08,079 --> 00:12:11,760
+so i have to arrange the notes of the
+
+325
+00:12:10,399 --> 00:12:12,959
+same level
+
+326
+00:12:11,760 --> 00:12:14,560
+such that
+
+327
+00:12:12,959 --> 00:12:16,800
+the best moves
+
+328
+00:12:14,560 --> 00:12:18,240
+are export first
+
+329
+00:12:16,800 --> 00:12:20,720
+make sense
+
+330
+00:12:18,240 --> 00:12:22,800
+yeah why is that because if i install
+
+331
+00:12:20,720 --> 00:12:25,200
+the best move this is kind of best
+
+332
+00:12:22,800 --> 00:12:26,160
+better yeah good good move
+
+333
+00:12:25,200 --> 00:12:28,320
+yeah
+
+334
+00:12:26,160 --> 00:12:30,720
+yeah if i explore this first
+
+335
+00:12:28,320 --> 00:12:32,800
+like then i have more chance
+
+336
+00:12:30,720 --> 00:12:36,399
+to
+
+337
+00:12:32,800 --> 00:12:39,040
+to decide to cut it right we want that
+
+338
+00:12:36,399 --> 00:12:40,480
+because the higher chance to cut it
+
+339
+00:12:39,040 --> 00:12:42,639
+means that
+
+340
+00:12:40,480 --> 00:12:45,440
+you can be lazy yeah yeah yeah it could
+
+341
+00:12:42,639 --> 00:12:47,680
+be a bit quicker yeah exactly okay okay
+
+342
+00:12:45,440 --> 00:12:48,880
+so with this this is the other that
+
+343
+00:12:47,680 --> 00:12:51,360
+happened
+
+344
+00:12:48,880 --> 00:12:53,440
+so remember we we talked about alpha
+
+345
+00:12:51,360 --> 00:12:55,760
+beta pruning and we can implement it
+
+346
+00:12:53,440 --> 00:12:58,079
+using the min max yeah but the problem
+
+347
+00:12:55,760 --> 00:13:01,279
+is that you have to say if player is
+
+348
+00:12:58,079 --> 00:13:04,480
+maximizing then we do this bit of code
+
+349
+00:13:01,279 --> 00:13:06,480
+which is similar to minimizing it the
+
+350
+00:13:04,480 --> 00:13:08,560
+pro look
+
+351
+00:13:06,480 --> 00:13:11,120
+this is megamax
+
+352
+00:13:08,560 --> 00:13:14,399
+how is it compared to minimax come on
+
+353
+00:13:11,120 --> 00:13:18,480
+which one is better me max or megamax
+
+354
+00:13:14,399 --> 00:13:18,480
+why is that it's because you can
+
+355
+00:13:19,279 --> 00:13:24,959
+because what compared to if this is the
+
+356
+00:13:22,079 --> 00:13:27,120
+same as min max but it's the simple
+
+357
+00:13:24,959 --> 00:13:29,839
+the implementation is a lot simpler yeah
+
+358
+00:13:27,120 --> 00:13:32,399
+i don't have to check if
+
+359
+00:13:29,839 --> 00:13:34,320
+and you don't have to write a lot
+
+360
+00:13:32,399 --> 00:13:36,160
+wait
+
+361
+00:13:34,320 --> 00:13:37,360
+so first of all i need to
+
+362
+00:13:36,160 --> 00:13:39,360
+put uh to
+
+363
+00:13:37,360 --> 00:13:42,240
+to introduce alphabet opening i have
+
+364
+00:13:39,360 --> 00:13:45,120
+this other and better yeah
+
+365
+00:13:42,240 --> 00:13:46,480
+yeah alpha better other is basically the
+
+366
+00:13:45,120 --> 00:13:48,480
+left boundary
+
+367
+00:13:46,480 --> 00:13:49,360
+better is the right boundary
+
+368
+00:13:48,480 --> 00:13:51,360
+yeah
+
+369
+00:13:49,360 --> 00:13:55,120
+yeah everything out
+
+370
+00:13:51,360 --> 00:13:58,000
+will be trimmed you know the trim
+
+371
+00:13:55,120 --> 00:14:01,040
+yeah similar the meaning of the pruning
+
+372
+00:13:58,000 --> 00:14:04,160
+if it falls there it's like a fence
+
+373
+00:14:01,040 --> 00:14:06,160
+yeah yeah if it falls out of the left
+
+374
+00:14:04,160 --> 00:14:08,079
+window we cut it further the right
+
+375
+00:14:06,160 --> 00:14:11,279
+window we cut it yeah
+
+376
+00:14:08,079 --> 00:14:12,800
+okay so alpha beta so this is the same
+
+377
+00:14:11,279 --> 00:14:17,600
+yeah so we have to
+
+378
+00:14:12,800 --> 00:14:18,399
+to put uh to give two parameters of that
+
+379
+00:14:17,600 --> 00:14:20,880
+yeah
+
+380
+00:14:18,399 --> 00:14:23,920
+so first of all i have to
+
+381
+00:14:20,880 --> 00:14:26,320
+do this alpha will be equals max
+
+382
+00:14:23,920 --> 00:14:28,480
+alpha score okay we keep updating that
+
+383
+00:14:26,320 --> 00:14:30,560
+we keep pushing the up left boundary
+
+384
+00:14:28,480 --> 00:14:33,360
+okay look keep pushing the left boundary
+
+385
+00:14:30,560 --> 00:14:34,639
+at least and then if other is bigger
+
+386
+00:14:33,360 --> 00:14:36,639
+than beta
+
+387
+00:14:34,639 --> 00:14:38,959
+then we just cut up right we just
+
+388
+00:14:36,639 --> 00:14:41,199
+terminate the roof
+
+389
+00:14:38,959 --> 00:14:43,760
+okay so now look this is the same but in
+
+390
+00:14:41,199 --> 00:14:46,079
+order to to go to the next one we call
+
+391
+00:14:43,760 --> 00:14:48,240
+it alpha beta here
+
+392
+00:14:46,079 --> 00:14:50,480
+we have to update the alpha beta
+
+393
+00:14:48,240 --> 00:14:53,440
+boundary so what what values do i need
+
+394
+00:14:50,480 --> 00:14:55,199
+to give to the next one the new alpha
+
+395
+00:14:53,440 --> 00:14:58,519
+data value
+
+396
+00:14:55,199 --> 00:14:58,519
+can you guess
+
+397
+00:14:59,920 --> 00:15:05,360
+okay so alpha beta
+
+398
+00:15:02,720 --> 00:15:07,199
+the next round will be what
+
+399
+00:15:05,360 --> 00:15:10,880
+look i put this negative sign here so i
+
+400
+00:15:07,199 --> 00:15:13,279
+put everything negative
+
+401
+00:15:10,880 --> 00:15:13,279
+negative
+
+402
+00:15:22,320 --> 00:15:27,040
+it's a good letter
+
+403
+00:15:24,639 --> 00:15:27,040
+greek
+
+404
+00:15:42,079 --> 00:15:47,120
+looks quite similar to a but it's
+
+405
+00:15:44,240 --> 00:15:48,720
+actually not it's a greek letter quick
+
+406
+00:15:47,120 --> 00:15:51,720
+you know quick
+
+407
+00:15:48,720 --> 00:15:51,720
+quick
+
+408
+00:15:52,410 --> 00:15:55,590
+[Music]
+
+409
+00:15:59,200 --> 00:16:02,379
+[Music]
+
+410
+00:16:07,360 --> 00:16:11,920
+and then put r
+
+411
+00:16:08,720 --> 00:16:14,560
+look alpha beta and then we'll pass the
+
+412
+00:16:11,920 --> 00:16:17,279
+the minus beta will be the new alpha
+
+413
+00:16:14,560 --> 00:16:18,880
+minus alpha will be new beta okay yeah
+
+414
+00:16:17,279 --> 00:16:20,480
+exactly yeah because look if you put a
+
+415
+00:16:18,880 --> 00:16:22,399
+sign
+
+416
+00:16:20,480 --> 00:16:25,519
+if we put a sign alpha is smaller than
+
+417
+00:16:22,399 --> 00:16:27,759
+even better if we put this line whatever
+
+418
+00:16:25,519 --> 00:16:30,000
+plus and then
+
+419
+00:16:27,759 --> 00:16:32,399
+minus alpha is bigger or equal to minus
+
+420
+00:16:30,000 --> 00:16:33,600
+beta right so this is the lower boundary
+
+421
+00:16:32,399 --> 00:16:35,040
+make sense
+
+422
+00:16:33,600 --> 00:16:38,079
+this becomes the
+
+423
+00:16:35,040 --> 00:16:40,480
+upper boundary yeah
+
+424
+00:16:38,079 --> 00:16:42,720
+did you get it look
+
+425
+00:16:40,480 --> 00:16:43,920
+one is smaller than 100
+
+426
+00:16:42,720 --> 00:16:45,440
+yeah
+
+427
+00:16:43,920 --> 00:16:47,519
+so minus 1
+
+428
+00:16:45,440 --> 00:16:49,279
+is bigger or equal than minus 100. you
+
+429
+00:16:47,519 --> 00:16:50,639
+see when you put a negative sign we have
+
+430
+00:16:49,279 --> 00:16:52,079
+to change this
+
+431
+00:16:50,639 --> 00:16:53,440
+yeah
+
+432
+00:16:52,079 --> 00:16:56,399
+make sense
+
+433
+00:16:53,440 --> 00:16:58,160
+okay so today we're learning uh so today
+
+434
+00:16:56,399 --> 00:17:02,079
+we learned what
+
+435
+00:16:58,160 --> 00:17:05,919
+um we just learned how to implement
+
+436
+00:17:02,079 --> 00:17:07,839
+the alpha beta in the next max right so
+
+437
+00:17:05,919 --> 00:17:10,480
+in the negative and we also talk about
+
+438
+00:17:07,839 --> 00:17:13,039
+the ordering of the moves the action
+
+439
+00:17:10,480 --> 00:17:16,959
+so in here action action so we have to
+
+440
+00:17:13,039 --> 00:17:19,120
+we can to introduce we can put a sorted
+
+441
+00:17:16,959 --> 00:17:20,720
+salty yeah
+
+442
+00:17:19,120 --> 00:17:23,120
+we can salted this
+
+443
+00:17:20,720 --> 00:17:25,600
+why is that
+
+444
+00:17:23,120 --> 00:17:28,400
+we can put the salty that moves
+
+445
+00:17:25,600 --> 00:17:30,880
+from the bed from the good moods to the
+
+446
+00:17:28,400 --> 00:17:34,640
+worst moons i mentioned it just five
+
+447
+00:17:30,880 --> 00:17:34,640
+minutes ago do you still remember
+
+448
+00:17:35,039 --> 00:17:39,200
+for the actions yeah remember the trees
+
+449
+00:17:37,280 --> 00:17:40,000
+i want to explore the trees with the
+
+450
+00:17:39,200 --> 00:17:43,200
+moon
+
+451
+00:17:40,000 --> 00:17:45,280
+back a good moon first
+
+452
+00:17:43,200 --> 00:17:48,160
+so why is that it's because you can
+
+453
+00:17:45,280 --> 00:17:50,160
+discard it later on yeah if i this is a
+
+454
+00:17:48,160 --> 00:17:52,720
+very good move right
+
+455
+00:17:50,160 --> 00:17:54,400
+if this is a very good move then there's
+
+456
+00:17:52,720 --> 00:17:55,760
+a higher chance that i don't need to
+
+457
+00:17:54,400 --> 00:17:57,840
+explore this
+
+458
+00:17:55,760 --> 00:17:58,960
+yeah but if this is
+
+459
+00:17:57,840 --> 00:18:01,360
+worse move
+
+460
+00:17:58,960 --> 00:18:02,480
+then i can't if i still need to explore
+
+461
+00:18:01,360 --> 00:18:04,880
+it right
+
+462
+00:18:02,480 --> 00:18:06,080
+make sense yeah so the ordering of the
+
+463
+00:18:04,880 --> 00:18:08,720
+moves uh
+
+464
+00:18:06,080 --> 00:18:11,360
+help a lot in the alpha beta tuning okay
+
+465
+00:18:08,720 --> 00:18:12,880
+so we mentioned this okay so today we so
+
+466
+00:18:11,360 --> 00:18:15,840
+okay so last question what have you
+
+467
+00:18:12,880 --> 00:18:15,840
+learned today
+
+468
+00:18:18,720 --> 00:18:23,200
+alpha beta this is the look this is the
+
+469
+00:18:21,840 --> 00:18:24,960
+alphabet
+
+470
+00:18:23,200 --> 00:18:27,280
+on the megamax right
+
+471
+00:18:24,960 --> 00:18:29,840
+yeah we talked about alphabet a few days
+
+472
+00:18:27,280 --> 00:18:30,960
+ago but we we have to
+
+473
+00:18:29,840 --> 00:18:32,960
+to
+
+474
+00:18:30,960 --> 00:18:35,840
+this theorem what i mean
+
+475
+00:18:32,960 --> 00:18:38,000
+implementation if player is maximizing
+
+476
+00:18:35,840 --> 00:18:39,919
+to this bit yeah
+
+477
+00:18:38,000 --> 00:18:42,240
+as do another bit
+
+478
+00:18:39,919 --> 00:18:44,640
+similar to yeah
+
+479
+00:18:42,240 --> 00:18:46,559
+it's pretty long yeah the trick is what
+
+480
+00:18:44,640 --> 00:18:48,720
+we put the negative sign here
+
+481
+00:18:46,559 --> 00:18:50,400
+everything is trying to maximize look
+
+482
+00:18:48,720 --> 00:18:52,799
+the score is always
+
+483
+00:18:50,400 --> 00:18:54,559
+negative infinity which is the smallest
+
+484
+00:18:52,799 --> 00:18:56,720
+number we can think of
+
+485
+00:18:54,559 --> 00:18:59,600
+and then because
+
+486
+00:18:56,720 --> 00:19:01,360
+when we change a player
+
+487
+00:18:59,600 --> 00:19:03,520
+yeah we change the player the score
+
+488
+00:19:01,360 --> 00:19:05,760
+needs to be negated right
+
+489
+00:19:03,520 --> 00:19:08,320
+a hundred score is good for me it's bad
+
+490
+00:19:05,760 --> 00:19:10,640
+for you right so when i pass the 100
+
+491
+00:19:08,320 --> 00:19:13,280
+score to the next one
+
+492
+00:19:10,640 --> 00:19:17,520
+in the perspective of you
+
+493
+00:19:13,280 --> 00:19:19,440
+it's like up minus 100. am i right
+
+494
+00:19:17,520 --> 00:19:22,320
+do you do get this point opposite
+
+495
+00:19:19,440 --> 00:19:23,120
+opposite yeah because 100 is good for me
+
+496
+00:19:22,320 --> 00:19:25,679
+right
+
+497
+00:19:23,120 --> 00:19:28,240
+so when i pass the score to you it's not
+
+498
+00:19:25,679 --> 00:19:30,320
+100 to you it's minus 100 because it's
+
+499
+00:19:28,240 --> 00:19:32,720
+good yeah yeah yeah
+
+500
+00:19:30,320 --> 00:19:35,280
+yeah yeah so this is where the negative
+
+501
+00:19:32,720 --> 00:19:38,480
+comes from and then we just keep
+
+502
+00:19:35,280 --> 00:19:40,720
+passing the alpha beta boundary and then
+
+503
+00:19:38,480 --> 00:19:43,520
+in each round we keep updating the left
+
+504
+00:19:40,720 --> 00:19:44,960
+boundary until it hits the right
+
+505
+00:19:43,520 --> 00:19:46,480
+boundary then
+
+506
+00:19:44,960 --> 00:19:49,200
+we break okay
+
+507
+00:19:46,480 --> 00:19:51,360
+okay nobody today
+
+508
+00:19:49,200 --> 00:19:52,799
+say bye to people bye
+
+509
+00:19:51,360 --> 00:19:55,280
+bye bye
+
+510
+00:19:52,799 --> 00:19:55,280
+bye
+
