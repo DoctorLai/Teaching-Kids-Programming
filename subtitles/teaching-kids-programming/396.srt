@@ -1,0 +1,2460 @@
+1
+00:00:00,880 --> 00:00:04,480
+hello
+
+2
+00:00:02,080 --> 00:00:07,359
+hello mr missouri are you all right okay
+
+3
+00:00:04,480 --> 00:00:09,200
+so we have this array real numbers
+
+4
+00:00:07,359 --> 00:00:11,440
+can you find the
+
+5
+00:00:09,200 --> 00:00:13,599
+index uh the numbers that's the left
+
+6
+00:00:11,440 --> 00:00:15,440
+side the sum of the left side equals the
+
+7
+00:00:13,599 --> 00:00:17,920
+sum of the right side
+
+8
+00:00:15,440 --> 00:00:19,680
+the earliest the smallest index
+
+9
+00:00:17,920 --> 00:00:21,199
+so let's say if i
+
+10
+00:00:19,680 --> 00:00:23,840
+zero
+
+11
+00:00:21,199 --> 00:00:26,560
+two and zero so what do you mean
+
+12
+00:00:23,840 --> 00:00:28,560
+so if i pick this number yeah
+
+13
+00:00:26,560 --> 00:00:31,679
+the sum of the
+
+14
+00:00:28,560 --> 00:00:32,559
+the numbers before these four is five
+
+15
+00:00:31,679 --> 00:00:35,520
+right
+
+16
+00:00:32,559 --> 00:00:36,880
+yeah the sum after on the right hand
+
+17
+00:00:35,520 --> 00:00:38,960
+side is
+
+18
+00:00:36,880 --> 00:00:41,040
+nine okay so this is not the index we're
+
+19
+00:00:38,960 --> 00:00:43,920
+looking for so any index that
+
+20
+00:00:41,040 --> 00:00:46,320
+the the sum of the that numbers on the
+
+21
+00:00:43,920 --> 00:00:48,239
+left equals the sum of the numbers on
+
+22
+00:00:46,320 --> 00:00:51,120
+the right so which is the index the
+
+23
+00:00:48,239 --> 00:00:51,120
+smallest index
+
+24
+00:00:51,680 --> 00:00:56,879
+yeah so what's the what's the sum on the
+
+25
+00:00:53,840 --> 00:00:59,199
+left nine what's the on the right
+
+26
+00:00:56,879 --> 00:01:01,680
+nine yeah so we're looking for zero one
+
+27
+00:00:59,199 --> 00:01:03,520
+two three so you need to tell me three
+
+28
+00:01:01,680 --> 00:01:04,720
+easy
+
+29
+00:01:03,520 --> 00:01:06,720
+get it
+
+30
+00:01:04,720 --> 00:01:09,760
+so this is the equivalent way we need to
+
+31
+00:01:06,720 --> 00:01:13,280
+find the smallest index the the earliest
+
+32
+00:01:09,760 --> 00:01:14,080
+index that the numbers on the left
+
+33
+00:01:13,280 --> 00:01:16,880
+sum
+
+34
+00:01:14,080 --> 00:01:19,040
+would be equals to the sum on on the for
+
+35
+00:01:16,880 --> 00:01:21,439
+the numbers on the right okay so look
+
+36
+00:01:19,040 --> 00:01:24,080
+there's one thing to notice here this
+
+37
+00:01:21,439 --> 00:01:26,080
+number excluding the sum yeah so if you
+
+38
+00:01:24,080 --> 00:01:27,680
+if you the index here we are not summing
+
+39
+00:01:26,080 --> 00:01:29,759
+we are not adding this we're excluding
+
+40
+00:01:27,680 --> 00:01:31,680
+this number on the left and normal right
+
+41
+00:01:29,759 --> 00:01:32,640
+it doesn't count this number right
+
+42
+00:01:31,680 --> 00:01:35,280
+okay
+
+43
+00:01:32,640 --> 00:01:36,720
+okay so this this approach what's the
+
+44
+00:01:35,280 --> 00:01:38,640
+what's uh
+
+45
+00:01:36,720 --> 00:01:40,720
+what's the what's the approach you think
+
+46
+00:01:38,640 --> 00:01:42,880
+in your first thing in your mind what's
+
+47
+00:01:40,720 --> 00:01:44,560
+the approach
+
+48
+00:01:42,880 --> 00:01:46,399
+you don't know what's the approach how
+
+49
+00:01:44,560 --> 00:01:48,079
+many possibilities do we have why do you
+
+50
+00:01:46,399 --> 00:01:50,079
+say hello
+
+51
+00:01:48,079 --> 00:01:54,479
+come on we are looking for the index so
+
+52
+00:01:50,079 --> 00:01:54,479
+how how many indexes are there poster
+
+53
+00:01:54,640 --> 00:01:58,159
+so that could be a approach two force
+
+54
+00:01:57,360 --> 00:02:00,960
+right
+
+55
+00:01:58,159 --> 00:02:02,560
+yeah so we can try each possible
+
+56
+00:02:00,960 --> 00:02:04,399
+number right
+
+57
+00:02:02,560 --> 00:02:06,399
+yeah we can try each possible number
+
+58
+00:02:04,399 --> 00:02:08,800
+okay let's do this
+
+59
+00:02:06,399 --> 00:02:11,120
+and then you need to think in mind
+
+60
+00:02:08,800 --> 00:02:14,239
+what's the term context okay
+
+61
+00:02:11,120 --> 00:02:16,879
+define like say index find
+
+62
+00:02:14,239 --> 00:02:16,879
+find index
+
+63
+00:02:17,040 --> 00:02:24,160
+numbers
+
+64
+00:02:19,440 --> 00:02:25,840
+okay then n equals lens numbers
+
+65
+00:02:24,160 --> 00:02:27,120
+okay then
+
+66
+00:02:25,840 --> 00:02:27,920
+for
+
+67
+00:02:27,120 --> 00:02:28,879
+i
+
+68
+00:02:27,920 --> 00:02:30,879
+in
+
+69
+00:02:28,879 --> 00:02:32,080
+range
+
+70
+00:02:30,879 --> 00:02:34,560
+and right
+
+71
+00:02:32,080 --> 00:02:36,080
+so what's the left what's the sum look
+
+72
+00:02:34,560 --> 00:02:37,040
+this is the number yeah this is the
+
+73
+00:02:36,080 --> 00:02:40,720
+number
+
+74
+00:02:37,040 --> 00:02:43,599
+uh two five zeros uh what's the number
+
+75
+00:02:40,720 --> 00:02:44,879
+okay two seven zero two five five
+
+76
+00:02:43,599 --> 00:02:48,160
+something like that so we're going
+
+77
+00:02:44,879 --> 00:02:50,560
+through the index for each one and if i
+
+78
+00:02:48,160 --> 00:02:51,360
+say this is the index i here
+
+79
+00:02:50,560 --> 00:02:53,680
+yeah
+
+80
+00:02:51,360 --> 00:02:56,239
+so what's the sum of that bit
+
+81
+00:02:53,680 --> 00:02:57,680
+this bit
+
+82
+00:02:56,239 --> 00:03:02,319
+sum
+
+83
+00:02:57,680 --> 00:03:03,840
+if this is l minus one numbers so up to
+
+84
+00:03:02,319 --> 00:03:06,640
+i minus 1
+
+85
+00:03:03,840 --> 00:03:09,040
+up yeah but we're up to i right yeah i
+
+86
+00:03:06,640 --> 00:03:10,640
+not including it right and what's this
+
+87
+00:03:09,040 --> 00:03:12,400
+bit
+
+88
+00:03:10,640 --> 00:03:18,400
+what's this bit sum
+
+89
+00:03:12,400 --> 00:03:20,720
+i plus 1 yeah i plus 1 i plus 1.
+
+90
+00:03:18,400 --> 00:03:22,319
+okay so we can just say if
+
+91
+00:03:20,720 --> 00:03:24,159
+some
+
+92
+00:03:22,319 --> 00:03:26,080
+number
+
+93
+00:03:24,159 --> 00:03:27,440
+up to i
+
+94
+00:03:26,080 --> 00:03:29,200
+equal equal
+
+95
+00:03:27,440 --> 00:03:31,040
+sum
+
+96
+00:03:29,200 --> 00:03:34,000
+numbers
+
+97
+00:03:31,040 --> 00:03:36,879
+i plus one
+
+98
+00:03:34,000 --> 00:03:38,799
+then we return i right yeah because
+
+99
+00:03:36,879 --> 00:03:42,319
+we're going from left to right so the
+
+100
+00:03:38,799 --> 00:03:43,840
+earliest we find is the smallest index
+
+101
+00:03:42,319 --> 00:03:45,599
+otherwise we'll determine minus one if
+
+102
+00:03:43,840 --> 00:03:47,840
+we can't find any right what's the time
+
+103
+00:03:45,599 --> 00:03:49,040
+complexity
+
+104
+00:03:47,840 --> 00:03:50,400
+[Music]
+
+105
+00:03:49,040 --> 00:03:52,560
+you sure one
+
+106
+00:03:50,400 --> 00:03:56,120
+square oh it's good why is that can you
+
+107
+00:03:52,560 --> 00:03:56,120
+tell me why he's always
+
+108
+00:03:56,860 --> 00:04:03,439
+[Music]
+
+109
+00:04:01,280 --> 00:04:05,920
+when you submit you need to go through
+
+110
+00:04:03,439 --> 00:04:07,599
+this yeah so look i try this index i
+
+111
+00:04:05,920 --> 00:04:09,599
+then i need to go through to some of the
+
+112
+00:04:07,599 --> 00:04:12,560
+numbers and then to something okay so
+
+113
+00:04:09,599 --> 00:04:12,560
+this is all n squared
+
+114
+00:04:12,840 --> 00:04:17,680
+so can we do better can we do better
+
+115
+00:04:15,920 --> 00:04:19,919
+obviously yeah otherwise there's no
+
+116
+00:04:17,680 --> 00:04:22,240
+point
+
+117
+00:04:19,919 --> 00:04:23,600
+yeah this is the proof of thing
+
+118
+00:04:22,240 --> 00:04:27,120
+everybody can
+
+119
+00:04:23,600 --> 00:04:29,680
+come up with it right yeah
+
+120
+00:04:27,120 --> 00:04:31,919
+so do you still remember this keyword
+
+121
+00:04:29,680 --> 00:04:34,800
+accumulate
+
+122
+00:04:31,919 --> 00:04:36,320
+accumulate let's say
+
+123
+00:04:34,800 --> 00:04:38,080
+okay let's say
+
+124
+00:04:36,320 --> 00:04:42,560
+2 5
+
+125
+00:04:38,080 --> 00:04:44,880
+0 5 2 2 or maybe 2 one
+
+126
+00:04:42,560 --> 00:04:47,199
+accumulate what's accumulate
+
+127
+00:04:44,880 --> 00:04:48,560
+accumulate we talk about this accumulate
+
+128
+00:04:47,199 --> 00:04:49,520
+is they look look
+
+129
+00:04:48,560 --> 00:04:51,600
+2
+
+130
+00:04:49,520 --> 00:04:54,479
+2 plus 2 4
+
+131
+00:04:51,600 --> 00:04:59,759
+2 plus 2 plus 1
+
+132
+00:04:54,479 --> 00:05:02,160
+is five yeah so it means that the sum
+
+133
+00:04:59,759 --> 00:05:03,440
+of the first i numbers so what's this
+
+134
+00:05:02,160 --> 00:05:06,639
+what's next
+
+135
+00:05:03,440 --> 00:05:07,840
+um five and then 10
+
+136
+00:05:06,639 --> 00:05:09,759
+12
+
+137
+00:05:07,840 --> 00:05:11,919
+14.
+
+138
+00:05:09,759 --> 00:05:13,600
+okay so now we have these so if let's
+
+139
+00:05:11,919 --> 00:05:15,840
+say
+
+140
+00:05:13,600 --> 00:05:17,120
+what's the sum of the all the numbers
+
+141
+00:05:15,840 --> 00:05:19,120
+here
+
+142
+00:05:17,120 --> 00:05:21,440
+oh what's the sum of all the numbers in
+
+143
+00:05:19,120 --> 00:05:23,440
+in in our way
+
+144
+00:05:21,440 --> 00:05:27,120
+uh it
+
+145
+00:05:23,440 --> 00:05:27,120
+uh what's all the numbers
+
+146
+00:05:27,199 --> 00:05:33,120
+come on we just have to look at the 14
+
+147
+00:05:29,840 --> 00:05:34,639
+yeah this is the number of the
+
+148
+00:05:33,120 --> 00:05:36,880
+of everything here
+
+149
+00:05:34,639 --> 00:05:40,080
+or we can just say sum sum all the
+
+150
+00:05:36,880 --> 00:05:41,199
+numbers this is total yeah
+
+151
+00:05:40,080 --> 00:05:44,160
+so
+
+152
+00:05:41,199 --> 00:05:47,600
+and these equals what this equals to
+
+153
+00:05:44,160 --> 00:05:49,039
+this accumulate this accumulate
+
+154
+00:05:47,600 --> 00:05:50,720
+numbers
+
+155
+00:05:49,039 --> 00:05:52,720
+and then
+
+156
+00:05:50,720 --> 00:05:54,560
+minus one right the last number is the
+
+157
+00:05:52,720 --> 00:05:56,560
+sum of everything right
+
+158
+00:05:54,560 --> 00:05:59,520
+okay so if we have these we can go
+
+159
+00:05:56,560 --> 00:06:01,600
+through this in one time right so what
+
+160
+00:05:59,520 --> 00:06:04,840
+why this is useful this is the core
+
+161
+00:06:01,600 --> 00:06:08,639
+prefix sum accumulate prefix sum yeah
+
+162
+00:06:04,840 --> 00:06:11,440
+prefix yeah so look if we are going from
+
+163
+00:06:08,639 --> 00:06:13,120
+here right we know it's 5 up to this
+
+164
+00:06:11,440 --> 00:06:16,639
+point is 5.
+
+165
+00:06:13,120 --> 00:06:18,319
+so we know this total is 14 right
+
+166
+00:06:16,639 --> 00:06:22,240
+so so look
+
+167
+00:06:18,319 --> 00:06:26,720
+yeah i know the total number is 14 and i
+
+168
+00:06:22,240 --> 00:06:28,000
+know the sum of the first three numbers
+
+169
+00:06:26,720 --> 00:06:30,479
+is
+
+170
+00:06:28,000 --> 00:06:30,479
+is what
+
+171
+00:06:30,960 --> 00:06:38,479
+is is 5. so what's the sum of the
+
+172
+00:06:36,160 --> 00:06:40,240
+the numbers up to the end what's this
+
+173
+00:06:38,479 --> 00:06:42,080
+bit
+
+174
+00:06:40,240 --> 00:06:44,000
+this is five what's the what what's the
+
+175
+00:06:42,080 --> 00:06:46,080
+sum of this bit
+
+176
+00:06:44,000 --> 00:06:48,720
+what's the sum of this bit
+
+177
+00:06:46,080 --> 00:06:50,639
+everything here is 14. here it's five
+
+178
+00:06:48,720 --> 00:06:52,319
+what's this bit what's the sum of this
+
+179
+00:06:50,639 --> 00:06:53,440
+speed this is one
+
+180
+00:06:52,319 --> 00:06:54,800
+sorry
+
+181
+00:06:53,440 --> 00:06:55,680
+41
+
+182
+00:06:54,800 --> 00:06:58,800
+right
+
+183
+00:06:55,680 --> 00:07:01,360
+nine nine yes fourteen minus five is
+
+184
+00:06:58,800 --> 00:07:03,440
+nine yeah okay so this is nine
+
+185
+00:07:01,360 --> 00:07:04,639
+so it means that this number here is
+
+186
+00:07:03,440 --> 00:07:06,960
+nine
+
+187
+00:07:04,639 --> 00:07:06,960
+right
+
+188
+00:07:08,000 --> 00:07:13,520
+plus ten plus twelve yeah
+
+189
+00:07:10,160 --> 00:07:15,919
+not this one i'm i'm saying okay okay
+
+190
+00:07:13,520 --> 00:07:18,479
+okay so now look if we have this number
+
+191
+00:07:15,919 --> 00:07:19,919
+we can so basically we have total this
+
+192
+00:07:18,479 --> 00:07:23,759
+is this we have
+
+193
+00:07:19,919 --> 00:07:25,919
+calculated total minus the prefix sum
+
+194
+00:07:23,759 --> 00:07:27,039
+is the on the right and this is the
+
+195
+00:07:25,919 --> 00:07:29,199
+right bit
+
+196
+00:07:27,039 --> 00:07:32,639
+but we have to get rid of this thing
+
+197
+00:07:29,199 --> 00:07:35,440
+first so so the prefix sum minus
+
+198
+00:07:32,639 --> 00:07:38,639
+minus this number if it's equals to
+
+199
+00:07:35,440 --> 00:07:41,039
+least sum then we tried it all right so
+
+200
+00:07:38,639 --> 00:07:43,280
+so look so put it this way put it this
+
+201
+00:07:41,039 --> 00:07:43,280
+way
+
+202
+00:07:43,599 --> 00:07:47,360
+so here we are here
+
+203
+00:07:45,280 --> 00:07:49,280
+uh so we are here we are here we are
+
+204
+00:07:47,360 --> 00:07:52,240
+here
+
+205
+00:07:49,280 --> 00:07:53,840
+the left fit is five right these the
+
+206
+00:07:52,240 --> 00:07:56,879
+first four numbers the sum of the first
+
+207
+00:07:53,840 --> 00:07:56,879
+four number is five
+
+208
+00:07:57,360 --> 00:08:03,680
+minus this the the the fourth number is
+
+209
+00:08:00,560 --> 00:08:07,599
+zero so the first three number is
+
+210
+00:08:03,680 --> 00:08:07,599
+five minus zero right
+
+211
+00:08:07,759 --> 00:08:13,840
+the the sum of the numbers next to the
+
+212
+00:08:10,960 --> 00:08:18,240
+on the right hand side of 0 is what
+
+213
+00:08:13,840 --> 00:08:19,759
+is 14 this is total number minus
+
+214
+00:08:18,240 --> 00:08:21,039
+minus 5
+
+215
+00:08:19,759 --> 00:08:23,199
+right
+
+216
+00:08:21,039 --> 00:08:25,039
+is it minus 5
+
+217
+00:08:23,199 --> 00:08:26,319
+14 minus
+
+218
+00:08:25,039 --> 00:08:28,560
+five
+
+219
+00:08:26,319 --> 00:08:30,879
+okay so this is nine okay so that's not
+
+220
+00:08:28,560 --> 00:08:32,880
+equal that's not equal so uh
+
+221
+00:08:30,879 --> 00:08:35,360
+let's know so
+
+222
+00:08:32,880 --> 00:08:37,839
+this is not the first example i give in
+
+223
+00:08:35,360 --> 00:08:39,599
+at the beginning right yeah you didn't i
+
+224
+00:08:37,839 --> 00:08:42,399
+think that's the problem okay let me
+
+225
+00:08:39,599 --> 00:08:42,399
+rewrite the example
+
+226
+00:08:44,159 --> 00:08:49,279
+two three two two two three four two
+
+227
+00:08:46,800 --> 00:08:51,440
+three four okay okay okay so yeah that's
+
+228
+00:08:49,279 --> 00:08:53,440
+not the same okay but but the principle
+
+229
+00:08:51,440 --> 00:08:55,360
+is the same okay two three four zero
+
+230
+00:08:53,440 --> 00:08:57,839
+five two two okay let's say let's just
+
+231
+00:08:55,360 --> 00:08:59,680
+do it okay
+
+232
+00:08:57,839 --> 00:09:02,560
+two three four
+
+233
+00:08:59,680 --> 00:09:04,480
+zero five two two okay and the
+
+234
+00:09:02,560 --> 00:09:05,279
+accumulation will be
+
+235
+00:09:04,480 --> 00:09:06,160
+two
+
+236
+00:09:05,279 --> 00:09:09,279
+five
+
+237
+00:09:06,160 --> 00:09:11,440
+nine nine fourteen
+
+238
+00:09:09,279 --> 00:09:14,480
+sixteen eighteen right this is
+
+239
+00:09:11,440 --> 00:09:17,600
+accumulated i came up to this one now we
+
+240
+00:09:14,480 --> 00:09:20,000
+are at these which we tried each poster
+
+241
+00:09:17,600 --> 00:09:21,519
+index and if we say we are here
+
+242
+00:09:20,000 --> 00:09:22,560
+right right here
+
+243
+00:09:21,519 --> 00:09:25,279
+so
+
+244
+00:09:22,560 --> 00:09:28,080
+this the prefix sum of the first the sum
+
+245
+00:09:25,279 --> 00:09:29,200
+of the first four number is nine yeah
+
+246
+00:09:28,080 --> 00:09:32,000
+yeah
+
+247
+00:09:29,200 --> 00:09:33,279
+and nine minus this number zero so that
+
+248
+00:09:32,000 --> 00:09:36,560
+would be the sum of the first three
+
+249
+00:09:33,279 --> 00:09:38,720
+number which is nine minus zero which is
+
+250
+00:09:36,560 --> 00:09:40,320
+nine this is the sum of the first three
+
+251
+00:09:38,720 --> 00:09:41,360
+numbers yeah
+
+252
+00:09:40,320 --> 00:09:42,800
+okay
+
+253
+00:09:41,360 --> 00:09:45,440
+the sum
+
+254
+00:09:42,800 --> 00:09:45,440
+of the
+
+255
+00:09:45,760 --> 00:09:51,519
+the sum of what the the sum of the these
+
+256
+00:09:49,040 --> 00:09:53,839
+these numbers
+
+257
+00:09:51,519 --> 00:09:56,480
+this number these are the the numbers on
+
+258
+00:09:53,839 --> 00:09:59,839
+the right yeah which is
+
+259
+00:09:56,480 --> 00:10:02,399
+18 right 18 minus 9 right
+
+260
+00:09:59,839 --> 00:10:04,720
+another it's it's 18
+
+261
+00:10:02,399 --> 00:10:07,680
+so this is the sum of the the numbers on
+
+262
+00:10:04,720 --> 00:10:09,600
+the right is 80 minus nine right yeah so
+
+263
+00:10:07,680 --> 00:10:11,839
+which is nine
+
+264
+00:10:09,600 --> 00:10:14,560
+right so look we have a match nine
+
+265
+00:10:11,839 --> 00:10:15,680
+equals nine so let's say this is three
+
+266
+00:10:14,560 --> 00:10:16,839
+make sense
+
+267
+00:10:15,680 --> 00:10:20,320
+yeah
+
+268
+00:10:16,839 --> 00:10:22,480
+yeah so look we just look it up so so
+
+269
+00:10:20,320 --> 00:10:24,320
+the previous example why is this slow
+
+270
+00:10:22,480 --> 00:10:25,279
+one squared because we have to calculate
+
+271
+00:10:24,320 --> 00:10:26,399
+the sum
+
+272
+00:10:25,279 --> 00:10:28,800
+yeah yeah
+
+273
+00:10:26,399 --> 00:10:32,480
+yeah but now we don't calculate
+
+274
+00:10:28,800 --> 00:10:35,040
+instead what what do we do
+
+275
+00:10:32,480 --> 00:10:36,959
+this one we just look it up right but
+
+276
+00:10:35,040 --> 00:10:39,360
+the the number on the right is just the
+
+277
+00:10:36,959 --> 00:10:43,120
+math subtraction i know the total
+
+278
+00:10:39,360 --> 00:10:43,120
+numbers the sum of the total numbers
+
+279
+00:10:43,440 --> 00:10:49,360
+i know this bit when i write i need to
+
+280
+00:10:46,640 --> 00:10:51,600
+speed so the the subtraction would be
+
+281
+00:10:49,360 --> 00:10:54,800
+the sum only right right
+
+282
+00:10:51,600 --> 00:10:54,800
+okay so let's do this
+
+283
+00:10:58,640 --> 00:11:03,600
+okay so let's say
+
+284
+00:11:01,200 --> 00:11:06,399
+okay so accumulate okay so let's say uh
+
+285
+00:11:03,600 --> 00:11:09,519
+total we can say total t
+
+286
+00:11:06,399 --> 00:11:13,120
+t equals sum of all the numbers yeah
+
+287
+00:11:09,519 --> 00:11:13,120
+first of all we get a number yeah
+
+288
+00:11:13,440 --> 00:11:17,680
+right and then the prefix okay let's say
+
+289
+00:11:16,240 --> 00:11:19,360
+p equals
+
+290
+00:11:17,680 --> 00:11:22,720
+okay let's put a zero at the beginning
+
+291
+00:11:19,360 --> 00:11:24,720
+and i'll tell you why okay zero plus
+
+292
+00:11:22,720 --> 00:11:26,640
+i put a zero at the beginning and at
+
+293
+00:11:24,720 --> 00:11:30,399
+least
+
+294
+00:11:26,640 --> 00:11:30,399
+accumulate accumulate
+
+295
+00:11:30,480 --> 00:11:32,959
+numbers
+
+296
+00:11:33,519 --> 00:11:36,480
+okay
+
+297
+00:11:34,320 --> 00:11:39,040
+numbers
+
+298
+00:11:36,480 --> 00:11:41,680
+so p we put the zero so
+
+299
+00:11:39,040 --> 00:11:43,600
+okay so what's the last value of this p
+
+300
+00:11:41,680 --> 00:11:45,620
+what's the last value of this p remember
+
+301
+00:11:43,600 --> 00:11:47,040
+accumulate what's the last value of that
+
+302
+00:11:45,620 --> 00:11:48,800
+[Music]
+
+303
+00:11:47,040 --> 00:11:50,560
+yeah so instead of looking we're going
+
+304
+00:11:48,800 --> 00:11:52,800
+through these ones we're going through
+
+305
+00:11:50,560 --> 00:11:56,560
+this twice so instead of that we can
+
+306
+00:11:52,800 --> 00:11:58,320
+just do it once then we can say t equals
+
+307
+00:11:56,560 --> 00:12:00,320
+p
+
+308
+00:11:58,320 --> 00:12:02,320
+minus one okay
+
+309
+00:12:00,320 --> 00:12:04,079
+that's our one improvement so instead of
+
+310
+00:12:02,320 --> 00:12:06,720
+going iterating the array twice we're
+
+311
+00:12:04,079 --> 00:12:08,079
+iterating once yeah because when we do
+
+312
+00:12:06,720 --> 00:12:10,240
+this accumulate
+
+313
+00:12:08,079 --> 00:12:12,160
+the last value is the sum and we get the
+
+314
+00:12:10,240 --> 00:12:13,600
+sum for free right we don't need to go
+
+315
+00:12:12,160 --> 00:12:16,000
+through again right
+
+316
+00:12:13,600 --> 00:12:19,120
+now then i can go through this uh index
+
+317
+00:12:16,000 --> 00:12:21,839
+for i in range
+
+318
+00:12:19,120 --> 00:12:23,760
+range length number
+
+319
+00:12:21,839 --> 00:12:26,160
+yeah because that we're going through
+
+320
+00:12:23,760 --> 00:12:29,360
+the numbers and then we just have to do
+
+321
+00:12:26,160 --> 00:12:31,920
+what we just have to do
+
+322
+00:12:29,360 --> 00:12:33,760
+we just have to do if if the
+
+323
+00:12:31,920 --> 00:12:34,560
+p
+
+324
+00:12:33,760 --> 00:12:38,320
+i
+
+325
+00:12:34,560 --> 00:12:39,200
+equal equal the total minus p i plus one
+
+326
+00:12:38,320 --> 00:12:42,399
+okay
+
+327
+00:12:39,200 --> 00:12:44,399
+what does it mean along with the 10 i
+
+328
+00:12:42,399 --> 00:12:46,000
+we can actually otherwise leave a minus
+
+329
+00:12:44,399 --> 00:12:49,200
+one okay
+
+330
+00:12:46,000 --> 00:12:51,200
+so what does it mean let's say
+
+331
+00:12:49,200 --> 00:12:53,440
+two three four
+
+332
+00:12:51,200 --> 00:12:55,519
+zero five two two again this example
+
+333
+00:12:53,440 --> 00:12:56,639
+yeah so the accumulated function would
+
+334
+00:12:55,519 --> 00:12:57,680
+be
+
+335
+00:12:56,639 --> 00:13:00,720
+two
+
+336
+00:12:57,680 --> 00:13:03,920
+five nine nine
+
+337
+00:13:00,720 --> 00:13:06,079
+fifteen sixteen eighteen okay look i put
+
+338
+00:13:03,920 --> 00:13:08,000
+the zero at the beginning i put a 0 at
+
+339
+00:13:06,079 --> 00:13:10,800
+the beginning from p
+
+340
+00:13:08,000 --> 00:13:12,079
+and i go through these i go through this
+
+341
+00:13:10,800 --> 00:13:16,079
+i over here
+
+342
+00:13:12,079 --> 00:13:18,880
+if p i equals t minus p i plus 1 right
+
+343
+00:13:16,079 --> 00:13:21,200
+okay so now i'm at here
+
+344
+00:13:18,880 --> 00:13:23,519
+t i t i minus one
+
+345
+00:13:21,200 --> 00:13:24,480
+it's not equal and i move to the next t
+
+346
+00:13:23,519 --> 00:13:27,120
+i
+
+347
+00:13:24,480 --> 00:13:29,920
+if p i which is two
+
+348
+00:13:27,120 --> 00:13:32,320
+p is what it's 18 yeah t is 18 which is
+
+349
+00:13:29,920 --> 00:13:34,399
+80 this is 18.
+
+350
+00:13:32,320 --> 00:13:38,240
+okay so
+
+351
+00:13:34,399 --> 00:13:39,839
+so look if i is at this point
+
+352
+00:13:38,240 --> 00:13:42,959
+yeah
+
+353
+00:13:39,839 --> 00:13:46,000
+zero one two three and i plus one is
+
+354
+00:13:42,959 --> 00:13:48,639
+also nine because eighteen minus
+
+355
+00:13:46,000 --> 00:13:52,399
+eighteen minus
+
+356
+00:13:48,639 --> 00:13:53,199
+minus nine equals nine right look p i is
+
+357
+00:13:52,399 --> 00:13:55,920
+nine
+
+358
+00:13:53,199 --> 00:13:57,680
+p i plus one is nine also nine t is
+
+359
+00:13:55,920 --> 00:13:59,920
+eighteen so look
+
+360
+00:13:57,680 --> 00:14:01,680
+then we found the match yeah now we're
+
+361
+00:13:59,920 --> 00:14:03,199
+doing ten i okay
+
+362
+00:14:01,680 --> 00:14:04,480
+the the
+
+363
+00:14:03,199 --> 00:14:07,519
+the reason we
+
+364
+00:14:04,480 --> 00:14:08,639
+we added zl at the beginning is that uh
+
+365
+00:14:07,519 --> 00:14:11,360
+why is that
+
+366
+00:14:08,639 --> 00:14:12,800
+because that it could be possible that
+
+367
+00:14:11,360 --> 00:14:13,600
+that's the
+
+368
+00:14:12,800 --> 00:14:16,000
+the
+
+369
+00:14:13,600 --> 00:14:18,480
+if it could be possible that if we start
+
+370
+00:14:16,000 --> 00:14:19,839
+from the first number and the numbers
+
+371
+00:14:18,480 --> 00:14:21,920
+the sum
+
+372
+00:14:19,839 --> 00:14:23,440
+before the first number is 0 because
+
+373
+00:14:21,920 --> 00:14:25,760
+there's no number before the first
+
+374
+00:14:23,440 --> 00:14:26,639
+number right
+
+375
+00:14:25,760 --> 00:14:27,440
+there
+
+376
+00:14:26,639 --> 00:14:30,160
+so
+
+377
+00:14:27,440 --> 00:14:32,720
+because the index when i is the first
+
+378
+00:14:30,160 --> 00:14:35,120
+zero it means the first number yeah the
+
+379
+00:14:32,720 --> 00:14:37,040
+first number so if it's the first number
+
+380
+00:14:35,120 --> 00:14:39,040
+then the numbers there's no numbers
+
+381
+00:14:37,040 --> 00:14:42,320
+before the first number so the sum is
+
+382
+00:14:39,040 --> 00:14:43,760
+zero so we have to capture these right
+
+383
+00:14:42,320 --> 00:14:45,600
+okay so what's the time complexity in
+
+384
+00:14:43,760 --> 00:14:47,199
+this case look
+
+385
+00:14:45,600 --> 00:14:49,199
+oh and
+
+386
+00:14:47,199 --> 00:14:50,560
+oh and why is there no one
+
+387
+00:14:49,199 --> 00:14:51,279
+why is it different than the previous
+
+388
+00:14:50,560 --> 00:14:53,600
+one
+
+389
+00:14:51,279 --> 00:14:55,920
+it's cause that you
+
+390
+00:14:53,600 --> 00:14:57,680
+um
+
+391
+00:14:55,920 --> 00:14:59,920
+so
+
+392
+00:14:57,680 --> 00:15:02,000
+this is our n now we put it up in a p
+
+393
+00:14:59,920 --> 00:15:03,760
+this is array and then look
+
+394
+00:15:02,000 --> 00:15:05,120
+p i
+
+395
+00:15:03,760 --> 00:15:06,959
+prefix sum
+
+396
+00:15:05,120 --> 00:15:10,720
+instead of calculating the sum we just
+
+397
+00:15:06,959 --> 00:15:12,399
+look it up that's a one constant right
+
+398
+00:15:10,720 --> 00:15:14,560
+do you see the difference
+
+399
+00:15:12,399 --> 00:15:16,480
+the previously previously what's the
+
+400
+00:15:14,560 --> 00:15:17,680
+previous one this one is what previous
+
+401
+00:15:16,480 --> 00:15:18,959
+one is what
+
+402
+00:15:17,680 --> 00:15:20,639
+sum
+
+403
+00:15:18,959 --> 00:15:22,320
+the numbers
+
+404
+00:15:20,639 --> 00:15:24,480
+up to i
+
+405
+00:15:22,320 --> 00:15:24,480
+i
+
+406
+00:15:25,600 --> 00:15:30,720
+this is one right
+
+407
+00:15:28,000 --> 00:15:32,079
+but instead i put it here i i do this
+
+408
+00:15:30,720 --> 00:15:34,240
+accumulating
+
+409
+00:15:32,079 --> 00:15:36,399
+so i only need to do this once and do i
+
+410
+00:15:34,240 --> 00:15:38,839
+need to change it i know no right i just
+
+411
+00:15:36,399 --> 00:15:43,040
+have to look it look it up right
+
+412
+00:15:38,839 --> 00:15:44,959
+okay this is one way okay another way
+
+413
+00:15:43,040 --> 00:15:48,560
+quite simple
+
+414
+00:15:44,959 --> 00:15:48,560
+is it quite simple i i i think
+
+415
+00:15:48,720 --> 00:15:53,680
+you'll be very very simple yeah quite
+
+416
+00:15:51,120 --> 00:15:56,000
+similar idea but instead of doing this
+
+417
+00:15:53,680 --> 00:15:58,959
+lookup we can just do this
+
+418
+00:15:56,000 --> 00:15:58,959
+we can just do this
+
+419
+00:15:59,040 --> 00:16:02,959
+it's quite similar here okay let's say
+
+420
+00:16:01,199 --> 00:16:06,399
+two three four
+
+421
+00:16:02,959 --> 00:16:08,959
+zero five two what's the total sum
+
+422
+00:16:06,399 --> 00:16:13,680
+what's the total
+
+423
+00:16:08,959 --> 00:16:15,519
+so the sum is 18 yes some numbers
+
+424
+00:16:13,680 --> 00:16:17,519
+when we do this sometimes what's the
+
+425
+00:16:15,519 --> 00:16:20,320
+time complexity we're going to it's
+
+426
+00:16:17,519 --> 00:16:22,720
+calculating all the the number the sum
+
+427
+00:16:20,320 --> 00:16:25,600
+of all numbers what's that oh oh and
+
+428
+00:16:22,720 --> 00:16:28,160
+yeah we're done because
+
+429
+00:16:25,600 --> 00:16:30,399
+you have to iterate over all the numbers
+
+430
+00:16:28,160 --> 00:16:32,480
+in order to find the sum yeah yeah
+
+431
+00:16:30,399 --> 00:16:34,399
+that's obviously if you don't visit the
+
+432
+00:16:32,480 --> 00:16:36,480
+number you don't know the sum right yeah
+
+433
+00:16:34,399 --> 00:16:38,480
+that's always okay so let's total number
+
+434
+00:16:36,480 --> 00:16:41,839
+is 18. okay
+
+435
+00:16:38,480 --> 00:16:44,160
+okay so that i have not left it
+
+436
+00:16:41,839 --> 00:16:45,839
+i have a writing
+
+437
+00:16:44,160 --> 00:16:48,720
+yeah right that is
+
+438
+00:16:45,839 --> 00:16:51,120
+is the t equals t equals 18.
+
+439
+00:16:48,720 --> 00:16:53,120
+okay so what's the first number
+
+440
+00:16:51,120 --> 00:16:55,920
+what's the first number no no okay
+
+441
+00:16:53,120 --> 00:16:57,279
+what's the first number
+
+442
+00:16:55,920 --> 00:16:58,480
+two okay
+
+443
+00:16:57,279 --> 00:17:02,079
+so two
+
+444
+00:16:58,480 --> 00:17:02,959
+so left left plus equals two okay plus
+
+445
+00:17:02,079 --> 00:17:06,160
+two
+
+446
+00:17:02,959 --> 00:17:06,160
+so what happened to the right
+
+447
+00:17:08,400 --> 00:17:13,360
+subshot two yeah yeah subtract two so
+
+448
+00:17:10,720 --> 00:17:15,520
+it's eight sixteen
+
+449
+00:17:13,360 --> 00:17:18,240
+okay i put a three
+
+450
+00:17:15,520 --> 00:17:20,720
+on the left
+
+451
+00:17:18,240 --> 00:17:22,480
+plus three equals five so i have i need
+
+452
+00:17:20,720 --> 00:17:24,959
+to remove three from the right so
+
+453
+00:17:22,480 --> 00:17:26,480
+basically you can think of these as the
+
+454
+00:17:24,959 --> 00:17:29,440
+left and right
+
+455
+00:17:26,480 --> 00:17:31,039
+left and right you move it move it so
+
+456
+00:17:29,440 --> 00:17:33,280
+what you increase the you put this
+
+457
+00:17:31,039 --> 00:17:35,840
+number you increase one number on the
+
+458
+00:17:33,280 --> 00:17:37,600
+left side so that needs to be taken out
+
+459
+00:17:35,840 --> 00:17:39,600
+from the right hand side
+
+460
+00:17:37,600 --> 00:17:40,799
+can you imagine
+
+461
+00:17:39,600 --> 00:17:42,640
+yeah
+
+462
+00:17:40,799 --> 00:17:44,160
+make sense
+
+463
+00:17:42,640 --> 00:17:47,360
+so look
+
+464
+00:17:44,160 --> 00:17:49,039
+plus 3 plus four plus and then plus four
+
+465
+00:17:47,360 --> 00:17:50,400
+which is what
+
+466
+00:17:49,039 --> 00:17:52,160
+nine yeah
+
+467
+00:17:50,400 --> 00:17:55,360
+and i need to get uh
+
+468
+00:17:52,160 --> 00:17:56,880
+that one subtract nine
+
+469
+00:17:55,360 --> 00:17:59,280
+uh
+
+470
+00:17:56,880 --> 00:18:00,480
+thirteen and now thirteen and now i need
+
+471
+00:17:59,280 --> 00:18:02,480
+to minus four
+
+472
+00:18:00,480 --> 00:18:05,120
+which is nine okay then i found the
+
+473
+00:18:02,480 --> 00:18:07,120
+match one left equals right i found it
+
+474
+00:18:05,120 --> 00:18:09,039
+makes sense
+
+475
+00:18:07,120 --> 00:18:10,480
+okay can you explain this method to me
+
+476
+00:18:09,039 --> 00:18:14,840
+again
+
+477
+00:18:10,480 --> 00:18:14,840
+can you explain this message to me
+
+478
+00:18:27,360 --> 00:18:31,520
+exactly perfect that's the perfect
+
+479
+00:18:29,200 --> 00:18:33,280
+explanation the right gives the number
+
+480
+00:18:31,520 --> 00:18:35,600
+to the left so the right the number
+
+481
+00:18:33,280 --> 00:18:38,880
+needs to be deducted from the sum of the
+
+482
+00:18:35,600 --> 00:18:39,919
+right it needs to be active to the left
+
+483
+00:18:38,880 --> 00:18:41,200
+right
+
+484
+00:18:39,919 --> 00:18:43,760
+so so
+
+485
+00:18:41,200 --> 00:18:44,880
+when i when i have a match
+
+486
+00:18:43,760 --> 00:18:47,919
+let's see
+
+487
+00:18:44,880 --> 00:18:50,480
+okay so so this is quite similar quite
+
+488
+00:18:47,919 --> 00:18:52,960
+similar to the second approach okay
+
+489
+00:18:50,480 --> 00:18:55,919
+okay so look
+
+490
+00:18:52,960 --> 00:18:58,160
+uh so right let's say right at the
+
+491
+00:18:55,919 --> 00:19:01,120
+beginning is the sum of all the numbers
+
+492
+00:18:58,160 --> 00:19:03,520
+yeah this is 010 right and then left
+
+493
+00:19:01,120 --> 00:19:04,400
+equals zero and the beginning is zero
+
+494
+00:19:03,520 --> 00:19:06,240
+right
+
+495
+00:19:04,400 --> 00:19:07,440
+let's equal zero okay
+
+496
+00:19:06,240 --> 00:19:11,760
+so now
+
+497
+00:19:07,440 --> 00:19:13,760
+for the index and the number yeah for i
+
+498
+00:19:11,760 --> 00:19:15,520
+see in numerator what's in numerator
+
+499
+00:19:13,760 --> 00:19:18,400
+come on
+
+500
+00:19:15,520 --> 00:19:20,559
+it is index and the value yeah we're
+
+501
+00:19:18,400 --> 00:19:21,760
+done index and the value
+
+502
+00:19:20,559 --> 00:19:23,360
+okay now
+
+503
+00:19:21,760 --> 00:19:25,280
+the right
+
+504
+00:19:23,360 --> 00:19:28,240
+needs to
+
+505
+00:19:25,280 --> 00:19:30,400
+minus equal c right we take a c out of
+
+506
+00:19:28,240 --> 00:19:35,200
+the sum of the right right
+
+507
+00:19:30,400 --> 00:19:35,200
+right and then if left equals right
+
+508
+00:19:36,400 --> 00:19:42,080
+that will turn i yeah this is the index
+
+509
+00:19:39,760 --> 00:19:44,400
+then otherwise left
+
+510
+00:19:42,080 --> 00:19:46,320
+plus equal see right
+
+511
+00:19:44,400 --> 00:19:50,559
+makes sense
+
+512
+00:19:46,320 --> 00:19:50,559
+yeah and then return minus one there
+
+513
+00:19:50,720 --> 00:19:55,200
+yeah you got it right look first of all
+
+514
+00:19:53,360 --> 00:19:58,559
+i take the c
+
+515
+00:19:55,200 --> 00:20:00,880
+the number from the right hand side
+
+516
+00:19:58,559 --> 00:20:03,600
+and then look there's a t-4 here so we
+
+517
+00:20:00,880 --> 00:20:05,440
+need to check before we add it so
+
+518
+00:20:03,600 --> 00:20:07,840
+why is that why we need to check it
+
+519
+00:20:05,440 --> 00:20:07,840
+before
+
+520
+00:20:10,320 --> 00:20:15,440
+okay two
+
+521
+00:20:12,799 --> 00:20:17,120
+why why is that because because one
+
+522
+00:20:15,440 --> 00:20:18,799
+because there's even a single number
+
+523
+00:20:17,120 --> 00:20:21,200
+like two
+
+524
+00:20:18,799 --> 00:20:23,760
+a single number if this is only single
+
+525
+00:20:21,200 --> 00:20:25,120
+number what's the sum sum is 2
+
+526
+00:20:23,760 --> 00:20:28,720
+right
+
+527
+00:20:25,120 --> 00:20:32,320
+right minus the first number is yellow
+
+528
+00:20:28,720 --> 00:20:34,640
+right and left is yellow so if look if
+
+529
+00:20:32,320 --> 00:20:37,039
+it's a single number the earliest index
+
+530
+00:20:34,640 --> 00:20:39,679
+is zero right
+
+531
+00:20:37,039 --> 00:20:42,080
+right any single number will happen
+
+532
+00:20:39,679 --> 00:20:44,080
+you have to do that
+
+533
+00:20:42,080 --> 00:20:46,400
+look any single number look
+
+534
+00:20:44,080 --> 00:20:50,159
+this is i the sum before the first
+
+535
+00:20:46,400 --> 00:20:53,120
+number is zero here this is zero on the
+
+536
+00:20:50,159 --> 00:20:55,919
+right is zero so any single number the
+
+537
+00:20:53,120 --> 00:20:58,640
+earliest index is zero so right look
+
+538
+00:20:55,919 --> 00:21:01,679
+so right minus equal the first number is
+
+539
+00:20:58,640 --> 00:21:03,679
+zero left equals zero if you if you do
+
+540
+00:21:01,679 --> 00:21:06,320
+this first what happened left plus
+
+541
+00:21:03,679 --> 00:21:08,960
+equals c then left will never be the
+
+542
+00:21:06,320 --> 00:21:11,200
+same as right make sense
+
+543
+00:21:08,960 --> 00:21:12,720
+yeah do you know if there's one single
+
+544
+00:21:11,200 --> 00:21:15,679
+number what happened if you write minus
+
+545
+00:21:12,720 --> 00:21:17,120
+equals c right is zero and then you give
+
+546
+00:21:15,679 --> 00:21:18,799
+it to the left
+
+547
+00:21:17,120 --> 00:21:20,400
+left is not yellow
+
+548
+00:21:18,799 --> 00:21:23,679
+left is two
+
+549
+00:21:20,400 --> 00:21:25,280
+so left is not equal to right
+
+550
+00:21:23,679 --> 00:21:27,679
+yeah you see the problem so that's why i
+
+551
+00:21:25,280 --> 00:21:29,039
+need to make sure left equals right you
+
+552
+00:21:27,679 --> 00:21:31,039
+get it
+
+553
+00:21:29,039 --> 00:21:33,840
+yeah look
+
+554
+00:21:31,039 --> 00:21:35,760
+only one single number the sum is two
+
+555
+00:21:33,840 --> 00:21:38,000
+right minus c
+
+556
+00:21:35,760 --> 00:21:40,159
+what what's the value on the right
+
+557
+00:21:38,000 --> 00:21:42,840
+right is nothing yellow
+
+558
+00:21:40,159 --> 00:21:46,080
+yeah what's the value of left at this
+
+559
+00:21:42,840 --> 00:21:48,960
+point no no i haven't got here
+
+560
+00:21:46,080 --> 00:21:48,960
+what's the value of that
+
+561
+00:21:49,520 --> 00:21:53,520
+nothing okay so we should return right
+
+562
+00:21:51,360 --> 00:21:55,919
+because look if the i is the index the
+
+563
+00:21:53,520 --> 00:21:57,679
+sum before the first number is yellow
+
+564
+00:21:55,919 --> 00:21:58,640
+the sum after the first number is there
+
+565
+00:21:57,679 --> 00:22:02,080
+okay
+
+566
+00:21:58,640 --> 00:22:03,840
+yeah if we add it to c then c
+
+567
+00:22:02,080 --> 00:22:06,159
+the left is two
+
+568
+00:22:03,840 --> 00:22:09,120
+right so you they will never meet then
+
+569
+00:22:06,159 --> 00:22:13,480
+we return minus one you get it
+
+570
+00:22:09,120 --> 00:22:13,480
+yeah what the time can brexit
+
+571
+00:22:14,000 --> 00:22:17,520
+come on what what what's the time to
+
+572
+00:22:15,600 --> 00:22:19,440
+next thing
+
+573
+00:22:17,520 --> 00:22:22,000
+right this is our one
+
+574
+00:22:19,440 --> 00:22:24,799
+this is our and we're going to inc i
+
+575
+00:22:22,000 --> 00:22:27,360
+saying that c is there okay
+
+576
+00:22:24,799 --> 00:22:31,200
+right we take this value
+
+577
+00:22:27,360 --> 00:22:33,360
+out of the right we check with the left
+
+578
+00:22:31,200 --> 00:22:35,200
+if can if it's the same
+
+579
+00:22:33,360 --> 00:22:36,799
+then we find it
+
+580
+00:22:35,200 --> 00:22:37,600
+right
+
+581
+00:22:36,799 --> 00:22:40,720
+yeah
+
+582
+00:22:37,600 --> 00:22:43,360
+why this is okay because we are not
+
+583
+00:22:40,720 --> 00:22:47,039
+we are not counting this number the
+
+584
+00:22:43,360 --> 00:22:48,799
+index the value at the index i
+
+585
+00:22:47,039 --> 00:22:49,840
+make sense
+
+586
+00:22:48,799 --> 00:22:52,320
+so
+
+587
+00:22:49,840 --> 00:22:54,000
+yeah and if this is not the case we will
+
+588
+00:22:52,320 --> 00:22:57,280
+move it to the right when we move it to
+
+589
+00:22:54,000 --> 00:23:01,039
+the right look we move it to the right i
+
+590
+00:22:57,280 --> 00:23:03,520
+i plus 1 i plus 2 when this is not the
+
+591
+00:23:01,039 --> 00:23:05,520
+case this is i minus 1 we move it to the
+
+592
+00:23:03,520 --> 00:23:07,280
+right and we need to add this number we
+
+593
+00:23:05,520 --> 00:23:09,679
+need to add this number
+
+594
+00:23:07,280 --> 00:23:12,320
+yeah we need to include it in the left
+
+595
+00:23:09,679 --> 00:23:14,880
+and then let's still on the right
+
+596
+00:23:12,320 --> 00:23:17,520
+yeah so we want to move it
+
+597
+00:23:14,880 --> 00:23:20,320
+when we move it we need to
+
+598
+00:23:17,520 --> 00:23:22,960
+first of all we need to erase this
+
+599
+00:23:20,320 --> 00:23:25,039
+from the right yeah but now we need to
+
+600
+00:23:22,960 --> 00:23:26,880
+check the left and right bits
+
+601
+00:23:25,039 --> 00:23:28,880
+right look we are not counting this
+
+602
+00:23:26,880 --> 00:23:31,039
+number we need to take it out we may not
+
+603
+00:23:28,880 --> 00:23:33,280
+and then we need to check the sum of
+
+604
+00:23:31,039 --> 00:23:36,480
+left and right if it's equal or not if
+
+605
+00:23:33,280 --> 00:23:39,440
+it's equal great we return otherwise
+
+606
+00:23:36,480 --> 00:23:42,240
+otherwise i need to include this number
+
+607
+00:23:39,440 --> 00:23:44,720
+to the left right
+
+608
+00:23:42,240 --> 00:23:46,320
+all right correct all right
+
+609
+00:23:44,720 --> 00:23:48,480
+yeah
+
+610
+00:23:46,320 --> 00:23:50,880
+that's it for today bye bye
+
+611
+00:23:48,480 --> 00:23:52,480
+bye bye come on
+
+612
+00:23:50,880 --> 00:23:53,250
+do sometimes and please
+
+613
+00:23:52,480 --> 00:23:56,159
+do sometimes
+
+614
+00:23:53,250 --> 00:23:59,320
+[Music]
+
+615
+00:23:56,159 --> 00:23:59,320
+bye bye
+
