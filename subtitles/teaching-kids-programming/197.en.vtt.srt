@@ -1,0 +1,1695 @@
+1
+00:00:00,000 --> 00:00:03,189
+
+hello hello yeah that's my eric hello
+
+2
+00:00:03,189 --> 00:00:03,199
+hello hello yeah that's my eric hello
+ 
+
+3
+00:00:03,199 --> 00:00:04,870
+hello hello yeah that's my eric hello
+eric mister everybody
+
+4
+00:00:04,870 --> 00:00:04,880
+eric mister everybody
+ 
+
+5
+00:00:04,880 --> 00:00:07,829
+eric mister everybody
+how are you today good yeah okay so
+
+6
+00:00:07,829 --> 00:00:07,839
+how are you today good yeah okay so
+ 
+
+7
+00:00:07,839 --> 00:00:09,190
+how are you today good yeah okay so
+today we'll talk about the binary tree
+
+8
+00:00:09,190 --> 00:00:09,200
+today we'll talk about the binary tree
+ 
+
+9
+00:00:09,200 --> 00:00:10,950
+today we'll talk about the binary tree
+again okay by the tree
+
+10
+00:00:10,950 --> 00:00:10,960
+again okay by the tree
+ 
+
+11
+00:00:10,960 --> 00:00:13,430
+again okay by the tree
+the numbers nose all right so finally
+
+12
+00:00:13,430 --> 00:00:13,440
+the numbers nose all right so finally
+ 
+
+13
+00:00:13,440 --> 00:00:15,430
+the numbers nose all right so finally
+what's fine we mean
+
+14
+00:00:15,430 --> 00:00:15,440
+what's fine we mean
+ 
+
+15
+00:00:15,440 --> 00:00:18,710
+what's fine we mean
+two okay so if i have these notes
+
+16
+00:00:18,710 --> 00:00:18,720
+two okay so if i have these notes
+ 
+
+17
+00:00:18,720 --> 00:00:22,310
+two okay so if i have these notes
+a loot doesn't have any parents
+
+18
+00:00:22,310 --> 00:00:22,320
+a loot doesn't have any parents
+ 
+
+19
+00:00:22,320 --> 00:00:25,589
+a loot doesn't have any parents
+and any notes it can have left or right
+
+20
+00:00:25,589 --> 00:00:25,599
+and any notes it can have left or right
+ 
+
+21
+00:00:25,599 --> 00:00:29,189
+and any notes it can have left or right
+you have maximum two kids right
+
+22
+00:00:29,189 --> 00:00:29,199
+you have maximum two kids right
+ 
+
+23
+00:00:29,199 --> 00:00:32,310
+you have maximum two kids right
+and then the leaf doesn't have any kids
+
+24
+00:00:32,310 --> 00:00:32,320
+and then the leaf doesn't have any kids
+ 
+
+25
+00:00:32,320 --> 00:00:35,510
+and then the leaf doesn't have any kids
+so if
+
+26
+00:00:35,510 --> 00:00:35,520
+so if
+ 
+
+27
+00:00:35,520 --> 00:00:38,630
+so if
+if the if we say that the left triad
+
+28
+00:00:38,630 --> 00:00:38,640
+if the if we say that the left triad
+ 
+
+29
+00:00:38,640 --> 00:00:41,590
+if the if we say that the left triad
+is angular 45 degree and the right tries
+
+30
+00:00:41,590 --> 00:00:41,600
+is angular 45 degree and the right tries
+ 
+
+31
+00:00:41,600 --> 00:00:41,910
+is angular 45 degree and the right tries
+and
+
+32
+00:00:41,910 --> 00:00:41,920
+and
+ 
+
+33
+00:00:41,920 --> 00:00:44,869
+and
+45 degree to the right so we want to
+
+34
+00:00:44,869 --> 00:00:44,879
+45 degree to the right so we want to
+ 
+
+35
+00:00:44,879 --> 00:00:47,670
+45 degree to the right so we want to
+find out how many lines vertical lines
+
+36
+00:00:47,670 --> 00:00:47,680
+find out how many lines vertical lines
+ 
+
+37
+00:00:47,680 --> 00:00:51,189
+find out how many lines vertical lines
+are these you know the minimum number of
+
+38
+00:00:51,189 --> 00:00:51,199
+are these you know the minimum number of
+ 
+
+39
+00:00:51,199 --> 00:00:53,189
+are these you know the minimum number of
+vertical lines that
+
+40
+00:00:53,189 --> 00:00:53,199
+vertical lines that
+ 
+
+41
+00:00:53,199 --> 00:00:54,950
+vertical lines that
+cross all those notes for example this
+
+42
+00:00:54,950 --> 00:00:54,960
+cross all those notes for example this
+ 
+
+43
+00:00:54,960 --> 00:00:57,029
+cross all those notes for example this
+one it will cross 1
+
+44
+00:00:57,029 --> 00:00:57,039
+one it will cross 1
+ 
+
+45
+00:00:57,039 --> 00:01:00,150
+one it will cross 1
+two three four okay
+
+46
+00:01:00,150 --> 00:01:00,160
+two three four okay
+ 
+
+47
+00:01:00,160 --> 00:01:03,349
+two three four okay
+so look these these and
+
+48
+00:01:03,349 --> 00:01:03,359
+so look these these and
+ 
+
+49
+00:01:03,359 --> 00:01:06,630
+so look these these and
+the loot and is the same line on the
+
+50
+00:01:06,630 --> 00:01:06,640
+the loot and is the same line on the
+ 
+
+51
+00:01:06,640 --> 00:01:08,789
+the loot and is the same line on the
+slice on the center of the root of right
+
+52
+00:01:08,789 --> 00:01:08,799
+slice on the center of the root of right
+ 
+
+53
+00:01:08,799 --> 00:01:11,109
+slice on the center of the root of right
+or left okay and also root on left or
+
+54
+00:01:11,109 --> 00:01:11,119
+or left okay and also root on left or
+ 
+
+55
+00:01:11,119 --> 00:01:11,750
+or left okay and also root on left or
+right
+
+56
+00:01:11,750 --> 00:01:11,760
+right
+ 
+
+57
+00:01:11,760 --> 00:01:15,270
+right
+if i have another note here like five
+
+58
+00:01:15,270 --> 00:01:15,280
+if i have another note here like five
+ 
+
+59
+00:01:15,280 --> 00:01:18,789
+if i have another note here like five
+okay okay so we want to know that
+
+60
+00:01:18,789 --> 00:01:18,799
+okay okay so we want to know that
+ 
+
+61
+00:01:18,799 --> 00:01:19,670
+okay okay so we want to know that
+complete
+
+62
+00:01:19,670 --> 00:01:19,680
+complete
+ 
+
+63
+00:01:19,680 --> 00:01:22,070
+complete
+vertical line in this case is one two
+
+64
+00:01:22,070 --> 00:01:22,080
+vertical line in this case is one two
+ 
+
+65
+00:01:22,080 --> 00:01:23,670
+vertical line in this case is one two
+three four
+
+66
+00:01:23,670 --> 00:01:23,680
+three four
+ 
+
+67
+00:01:23,680 --> 00:01:27,590
+three four
+got it is clear
+
+68
+00:01:27,590 --> 00:01:27,600
+got it is clear
+ 
+
+69
+00:01:27,600 --> 00:01:29,350
+got it is clear
+how can we do this well first of all how
+
+70
+00:01:29,350 --> 00:01:29,360
+how can we do this well first of all how
+ 
+
+71
+00:01:29,360 --> 00:01:30,630
+how can we do this well first of all how
+many ways we travel
+
+72
+00:01:30,630 --> 00:01:30,640
+many ways we travel
+ 
+
+73
+00:01:30,640 --> 00:01:35,350
+many ways we travel
+the binary tree how many
+
+74
+00:01:35,350 --> 00:01:35,360
+the binary tree how many
+ 
+
+75
+00:01:35,360 --> 00:01:37,030
+the binary tree how many
+breakfast such differences what
+
+76
+00:01:37,030 --> 00:01:37,040
+breakfast such differences what
+ 
+
+77
+00:01:37,040 --> 00:01:40,789
+breakfast such differences what
+preferences what does this stand for
+
+78
+00:01:40,789 --> 00:01:40,799
+preferences what does this stand for
+ 
+
+79
+00:01:40,799 --> 00:01:43,670
+preferences what does this stand for
+level yeah breath first search okay and
+
+80
+00:01:43,670 --> 00:01:43,680
+level yeah breath first search okay and
+ 
+
+81
+00:01:43,680 --> 00:01:45,510
+level yeah breath first search okay and
+the different search is
+
+82
+00:01:45,510 --> 00:01:45,520
+the different search is
+ 
+
+83
+00:01:45,520 --> 00:01:48,230
+the different search is
+dfs therefore search so for the
+
+84
+00:01:48,230 --> 00:01:48,240
+dfs therefore search so for the
+ 
+
+85
+00:01:48,240 --> 00:01:49,350
+dfs therefore search so for the
+breakfast search is
+
+86
+00:01:49,350 --> 00:01:49,360
+breakfast search is
+ 
+
+87
+00:01:49,360 --> 00:01:57,260
+breakfast search is
+one one two three
+
+88
+00:01:57,260 --> 00:01:57,270
+
+ 
+
+89
+00:01:57,270 --> 00:02:05,109
+
+[Music]
+
+90
+00:02:05,109 --> 00:02:05,119
+
+ 
+
+91
+00:02:05,119 --> 00:02:08,550
+
+left no right okay in order
+
+92
+00:02:08,550 --> 00:02:08,560
+left no right okay in order
+ 
+
+93
+00:02:08,560 --> 00:02:12,070
+left no right okay in order
+no resume so what what's that one two by
+
+94
+00:02:12,070 --> 00:02:12,080
+no resume so what what's that one two by
+ 
+
+95
+00:02:12,080 --> 00:02:15,670
+no resume so what what's that one two by
+three one two five
+
+96
+00:02:15,670 --> 00:02:15,680
+three one two five
+ 
+
+97
+00:02:15,680 --> 00:02:19,430
+three one two five
+three two four okay yeah one two five
+
+98
+00:02:19,430 --> 00:02:19,440
+three two four okay yeah one two five
+ 
+
+99
+00:02:19,440 --> 00:02:35,509
+three two four okay yeah one two five
+three two four yeah
+
+100
+00:02:35,509 --> 00:02:35,519
+
+ 
+
+101
+00:02:35,519 --> 00:02:38,710
+
+three five one two five one
+
+102
+00:02:38,710 --> 00:02:38,720
+three five one two five one
+ 
+
+103
+00:02:38,720 --> 00:02:42,229
+three five one two five one
+two or another two three four yeah okay
+
+104
+00:02:42,229 --> 00:02:42,239
+two or another two three four yeah okay
+ 
+
+105
+00:02:42,239 --> 00:02:43,750
+two or another two three four yeah okay
+yeah because now this is in the middle
+
+106
+00:02:43,750 --> 00:02:43,760
+yeah because now this is in the middle
+ 
+
+107
+00:02:43,760 --> 00:02:45,589
+yeah because now this is in the middle
+okay so
+
+108
+00:02:45,589 --> 00:02:45,599
+okay so
+ 
+
+109
+00:02:45,599 --> 00:02:48,150
+okay so
+in this case if we go today we're going
+
+110
+00:02:48,150 --> 00:02:48,160
+in this case if we go today we're going
+ 
+
+111
+00:02:48,160 --> 00:02:49,910
+in this case if we go today we're going
+to use this preference to solve this
+
+112
+00:02:49,910 --> 00:02:49,920
+to use this preference to solve this
+ 
+
+113
+00:02:49,920 --> 00:02:51,570
+to use this preference to solve this
+problem
+
+114
+00:02:51,570 --> 00:02:51,580
+problem
+ 
+
+115
+00:02:51,580 --> 00:02:53,110
+problem
+[Music]
+
+116
+00:02:53,110 --> 00:02:53,120
+[Music]
+ 
+
+117
+00:02:53,120 --> 00:02:55,270
+[Music]
+and how we solving this just do
+
+118
+00:02:55,270 --> 00:02:55,280
+and how we solving this just do
+ 
+
+119
+00:02:55,280 --> 00:02:56,350
+and how we solving this just do
+breakfast
+
+120
+00:02:56,350 --> 00:02:56,360
+breakfast
+ 
+
+121
+00:02:56,360 --> 00:02:59,750
+breakfast
+sideways breakfast sideways so what do
+
+122
+00:02:59,750 --> 00:02:59,760
+sideways breakfast sideways so what do
+ 
+
+123
+00:02:59,760 --> 00:03:03,430
+sideways breakfast sideways so what do
+you mean sideways
+
+124
+00:03:03,430 --> 00:03:03,440
+
+ 
+
+125
+00:03:03,440 --> 00:03:06,949
+
+turn it around turn it around
+
+126
+00:03:06,949 --> 00:03:06,959
+turn it around turn it around
+ 
+
+127
+00:03:06,959 --> 00:03:12,470
+turn it around turn it around
+how so
+
+128
+00:03:12,470 --> 00:03:12,480
+
+ 
+
+129
+00:03:12,480 --> 00:03:16,070
+
+what determines the number of the lines
+
+130
+00:03:16,070 --> 00:03:16,080
+what determines the number of the lines
+ 
+
+131
+00:03:16,080 --> 00:03:19,110
+what determines the number of the lines
+they're all 45 degrees yeah if we i if
+
+132
+00:03:19,110 --> 00:03:19,120
+they're all 45 degrees yeah if we i if
+ 
+
+133
+00:03:19,120 --> 00:03:21,350
+they're all 45 degrees yeah if we i if
+i said this if the loot is and the
+
+134
+00:03:21,350 --> 00:03:21,360
+i said this if the loot is and the
+ 
+
+135
+00:03:21,360 --> 00:03:22,390
+i said this if the loot is and the
+horizontal
+
+136
+00:03:22,390 --> 00:03:22,400
+horizontal
+ 
+
+137
+00:03:22,400 --> 00:03:25,750
+horizontal
+zero can i delete the offset
+
+138
+00:03:25,750 --> 00:03:25,760
+zero can i delete the offset
+ 
+
+139
+00:03:25,760 --> 00:03:28,550
+zero can i delete the offset
+and if i go to the left what happens
+
+140
+00:03:28,550 --> 00:03:28,560
+and if i go to the left what happens
+ 
+
+141
+00:03:28,560 --> 00:03:29,670
+and if i go to the left what happens
+minus
+
+142
+00:03:29,670 --> 00:03:29,680
+minus
+ 
+
+143
+00:03:29,680 --> 00:03:32,949
+minus
+minus one if i go to the right one
+
+144
+00:03:32,949 --> 00:03:32,959
+minus one if i go to the right one
+ 
+
+145
+00:03:32,959 --> 00:03:35,750
+minus one if i go to the right one
+yeah yeah you see three total ones yeah
+
+146
+00:03:35,750 --> 00:03:35,760
+yeah yeah you see three total ones yeah
+ 
+
+147
+00:03:35,760 --> 00:03:38,309
+yeah yeah you see three total ones yeah
+i go another one that would be mine
+
+148
+00:03:38,309 --> 00:03:38,319
+i go another one that would be mine
+ 
+
+149
+00:03:38,319 --> 00:03:43,270
+i go another one that would be mine
+right there yeah two yeah or two okay
+
+150
+00:03:43,270 --> 00:03:43,280
+right there yeah two yeah or two okay
+ 
+
+151
+00:03:43,280 --> 00:03:47,350
+right there yeah two yeah or two okay
+so when we go to the left we
+
+152
+00:03:47,350 --> 00:03:47,360
+so when we go to the left we
+ 
+
+153
+00:03:47,360 --> 00:03:50,789
+so when we go to the left we
+push the kids and the
+
+154
+00:03:50,789 --> 00:03:50,799
+push the kids and the
+ 
+
+155
+00:03:50,799 --> 00:03:54,309
+push the kids and the
+the horizontal offset right minus one
+
+156
+00:03:54,309 --> 00:03:54,319
+the horizontal offset right minus one
+ 
+
+157
+00:03:54,319 --> 00:03:56,229
+the horizontal offset right minus one
+and i'll go to the right we push the kit
+
+158
+00:03:56,229 --> 00:03:56,239
+and i'll go to the right we push the kit
+ 
+
+159
+00:03:56,239 --> 00:03:59,190
+and i'll go to the right we push the kit
+and then increment the horizontal offset
+
+160
+00:03:59,190 --> 00:03:59,200
+and then increment the horizontal offset
+ 
+
+161
+00:03:59,200 --> 00:04:02,550
+and then increment the horizontal offset
+and in order to keep to count how many
+
+162
+00:04:02,550 --> 00:04:02,560
+and in order to keep to count how many
+ 
+
+163
+00:04:02,560 --> 00:04:05,910
+and in order to keep to count how many
+how many offsets in the unique
+
+164
+00:04:05,910 --> 00:04:05,920
+how many offsets in the unique
+ 
+
+165
+00:04:05,920 --> 00:04:09,110
+how many offsets in the unique
+i mean how many unique offsets uh
+
+166
+00:04:09,110 --> 00:04:09,120
+i mean how many unique offsets uh
+ 
+
+167
+00:04:09,120 --> 00:04:11,110
+i mean how many unique offsets uh
+where should we what kind of data
+
+168
+00:04:11,110 --> 00:04:11,120
+where should we what kind of data
+ 
+
+169
+00:04:11,120 --> 00:04:12,470
+where should we what kind of data
+structure are we using
+
+170
+00:04:12,470 --> 00:04:12,480
+structure are we using
+ 
+
+171
+00:04:12,480 --> 00:04:15,830
+structure are we using
+to store the unique elements
+
+172
+00:04:15,830 --> 00:04:15,840
+to store the unique elements
+ 
+
+173
+00:04:15,840 --> 00:04:19,590
+to store the unique elements
+set set has said yeah notebook set
+
+174
+00:04:19,590 --> 00:04:19,600
+set set has said yeah notebook set
+ 
+
+175
+00:04:19,600 --> 00:04:22,870
+set set has said yeah notebook set
+okay so then we know how to do this okay
+
+176
+00:04:22,870 --> 00:04:22,880
+okay so then we know how to do this okay
+ 
+
+177
+00:04:22,880 --> 00:04:27,510
+okay so then we know how to do this okay
+that's why the code right in the cup
+
+178
+00:04:27,510 --> 00:04:27,520
+that's why the code right in the cup
+ 
+
+179
+00:04:27,520 --> 00:04:31,430
+that's why the code right in the cup
+we know we find let's say number of
+
+180
+00:04:31,430 --> 00:04:31,440
+we know we find let's say number of
+ 
+
+181
+00:04:31,440 --> 00:04:34,550
+we know we find let's say number of
+number of vertical lines okay what's
+
+182
+00:04:34,550 --> 00:04:34,560
+number of vertical lines okay what's
+ 
+
+183
+00:04:34,560 --> 00:04:36,230
+number of vertical lines okay what's
+your lens
+
+184
+00:04:36,230 --> 00:04:36,240
+your lens
+ 
+
+185
+00:04:36,240 --> 00:04:39,510
+your lens
+root or we're given a root column
+
+186
+00:04:39,510 --> 00:04:39,520
+root or we're given a root column
+ 
+
+187
+00:04:39,520 --> 00:04:42,790
+root or we're given a root column
+column if the root is empty if not load
+
+188
+00:04:42,790 --> 00:04:42,800
+column if the root is empty if not load
+ 
+
+189
+00:04:42,800 --> 00:04:43,510
+column if the root is empty if not load
+what happens
+
+190
+00:04:43,510 --> 00:04:43,520
+what happens
+ 
+
+191
+00:04:43,520 --> 00:04:46,629
+what happens
+what should we return 0 because there's
+
+192
+00:04:46,629 --> 00:04:46,639
+what should we return 0 because there's
+ 
+
+193
+00:04:46,639 --> 00:04:47,110
+what should we return 0 because there's
+no
+
+194
+00:04:47,110 --> 00:04:47,120
+no
+ 
+
+195
+00:04:47,120 --> 00:04:49,830
+no
+lines right and in order to implement a
+
+196
+00:04:49,830 --> 00:04:49,840
+lines right and in order to implement a
+ 
+
+197
+00:04:49,840 --> 00:04:50,790
+lines right and in order to implement a
+preferred search
+
+198
+00:04:50,790 --> 00:04:50,800
+preferred search
+ 
+
+199
+00:04:50,800 --> 00:04:52,469
+preferred search
+what kind of data structure we need to
+
+200
+00:04:52,469 --> 00:04:52,479
+what kind of data structure we need to
+ 
+
+201
+00:04:52,479 --> 00:04:54,310
+what kind of data structure we need to
+use
+
+202
+00:04:54,310 --> 00:04:54,320
+use
+ 
+
+203
+00:04:54,320 --> 00:04:59,270
+use
+q q and in python
+
+204
+00:04:59,270 --> 00:04:59,280
+
+ 
+
+205
+00:04:59,280 --> 00:05:02,790
+
+dk what's pq mean where the
+
+206
+00:05:02,790 --> 00:05:02,800
+dk what's pq mean where the
+ 
+
+207
+00:05:02,800 --> 00:05:08,830
+dk what's pq mean where the
+q equals dq dqe
+
+208
+00:05:08,830 --> 00:05:08,840
+
+ 
+
+209
+00:05:08,840 --> 00:05:10,629
+
+and
+
+210
+00:05:10,629 --> 00:05:10,639
+and
+ 
+
+211
+00:05:10,639 --> 00:05:13,110
+and
+okay so we need to push the load and at
+
+212
+00:05:13,110 --> 00:05:13,120
+okay so we need to push the load and at
+ 
+
+213
+00:05:13,120 --> 00:05:14,469
+okay so we need to push the load and at
+the beginning the offset
+
+214
+00:05:14,469 --> 00:05:14,479
+the beginning the offset
+ 
+
+215
+00:05:14,479 --> 00:05:17,749
+the beginning the offset
+is one zero okay
+
+216
+00:05:17,749 --> 00:05:17,759
+is one zero okay
+ 
+
+217
+00:05:17,759 --> 00:05:20,469
+is one zero okay
+wireless element in the queue while
+
+218
+00:05:20,469 --> 00:05:20,479
+wireless element in the queue while
+ 
+
+219
+00:05:20,479 --> 00:05:20,950
+wireless element in the queue while
+there's an
+
+220
+00:05:20,950 --> 00:05:20,960
+there's an
+ 
+
+221
+00:05:20,960 --> 00:05:24,629
+there's an
+element in the queue we pop it current
+
+222
+00:05:24,629 --> 00:05:24,639
+element in the queue we pop it current
+ 
+
+223
+00:05:24,639 --> 00:05:27,940
+element in the queue we pop it current
+and offset offset
+
+224
+00:05:27,940 --> 00:05:27,950
+and offset offset
+ 
+
+225
+00:05:27,950 --> 00:05:29,110
+and offset offset
+[Music]
+
+226
+00:05:29,110 --> 00:05:29,120
+[Music]
+ 
+
+227
+00:05:29,120 --> 00:05:32,790
+[Music]
+equals q dot one pop it
+
+228
+00:05:32,790 --> 00:05:32,800
+equals q dot one pop it
+ 
+
+229
+00:05:32,800 --> 00:05:35,909
+equals q dot one pop it
+pop forward left yeah because
+
+230
+00:05:35,909 --> 00:05:35,919
+pop forward left yeah because
+ 
+
+231
+00:05:35,919 --> 00:05:37,590
+pop forward left yeah because
+at the beginning we're going to talk
+
+232
+00:05:37,590 --> 00:05:37,600
+at the beginning we're going to talk
+ 
+
+233
+00:05:37,600 --> 00:05:39,590
+at the beginning we're going to talk
+this is the cube we push
+
+234
+00:05:39,590 --> 00:05:39,600
+this is the cube we push
+ 
+
+235
+00:05:39,600 --> 00:05:42,390
+this is the cube we push
+at the rear we take the things out yeah
+
+236
+00:05:42,390 --> 00:05:42,400
+at the rear we take the things out yeah
+ 
+
+237
+00:05:42,400 --> 00:05:44,150
+at the rear we take the things out yeah
+we take thing out from the left
+
+238
+00:05:44,150 --> 00:05:44,160
+we take thing out from the left
+ 
+
+239
+00:05:44,160 --> 00:05:46,950
+we take thing out from the left
+from the beginning we append to the
+
+240
+00:05:46,950 --> 00:05:46,960
+from the beginning we append to the
+ 
+
+241
+00:05:46,960 --> 00:05:47,510
+from the beginning we append to the
+right
+
+242
+00:05:47,510 --> 00:05:47,520
+right
+ 
+
+243
+00:05:47,520 --> 00:06:02,390
+right
+okay that's the cube first thing
+
+244
+00:06:02,390 --> 00:06:02,400
+
+ 
+
+245
+00:06:02,400 --> 00:06:07,350
+
+this is q we have q fine
+
+246
+00:06:07,350 --> 00:06:07,360
+
+ 
+
+247
+00:06:07,360 --> 00:06:10,790
+
+okay okay so we
+
+248
+00:06:10,790 --> 00:06:10,800
+okay okay so we
+ 
+
+249
+00:06:10,800 --> 00:06:13,350
+okay okay so we
+okay so in order we we also need to keep
+
+250
+00:06:13,350 --> 00:06:13,360
+okay so in order we we also need to keep
+ 
+
+251
+00:06:13,360 --> 00:06:14,230
+okay so in order we we also need to keep
+a
+
+252
+00:06:14,230 --> 00:06:14,240
+a
+ 
+
+253
+00:06:14,240 --> 00:06:16,390
+a
+headshot okay let's say data let's call
+
+254
+00:06:16,390 --> 00:06:16,400
+headshot okay let's say data let's call
+ 
+
+255
+00:06:16,400 --> 00:06:17,590
+headshot okay let's say data let's call
+it data equal
+
+256
+00:06:17,590 --> 00:06:17,600
+it data equal
+ 
+
+257
+00:06:17,600 --> 00:06:20,950
+it data equal
+set okay this is the headset now i got
+
+258
+00:06:20,950 --> 00:06:20,960
+set okay this is the headset now i got
+ 
+
+259
+00:06:20,960 --> 00:06:21,670
+set okay this is the headset now i got
+the offset
+
+260
+00:06:21,670 --> 00:06:21,680
+the offset
+ 
+
+261
+00:06:21,680 --> 00:06:25,670
+the offset
+i can push it data dot
+
+262
+00:06:25,670 --> 00:06:25,680
+i can push it data dot
+ 
+
+263
+00:06:25,680 --> 00:06:28,150
+i can push it data dot
+offset right yeah i know this offset i
+
+264
+00:06:28,150 --> 00:06:28,160
+offset right yeah i know this offset i
+ 
+
+265
+00:06:28,160 --> 00:06:28,870
+offset right yeah i know this offset i
+put it here
+
+266
+00:06:28,870 --> 00:06:28,880
+put it here
+ 
+
+267
+00:06:28,880 --> 00:06:31,510
+put it here
+the unique it will only keep the unique
+
+268
+00:06:31,510 --> 00:06:31,520
+the unique it will only keep the unique
+ 
+
+269
+00:06:31,520 --> 00:06:32,790
+the unique it will only keep the unique
+offset
+
+270
+00:06:32,790 --> 00:06:32,800
+offset
+ 
+
+271
+00:06:32,800 --> 00:06:35,990
+offset
+and look if karen
+
+272
+00:06:35,990 --> 00:06:36,000
+and look if karen
+ 
+
+273
+00:06:36,000 --> 00:06:39,270
+and look if karen
+if the left is not empty
+
+274
+00:06:39,270 --> 00:06:39,280
+if the left is not empty
+ 
+
+275
+00:06:39,280 --> 00:06:43,029
+if the left is not empty
+queue dot append open one
+
+276
+00:06:43,029 --> 00:06:43,039
+queue dot append open one
+ 
+
+277
+00:06:43,039 --> 00:06:46,309
+queue dot append open one
+open what are we
+
+278
+00:06:46,309 --> 00:06:46,319
+open what are we
+ 
+
+279
+00:06:46,319 --> 00:06:50,390
+open what are we
+right anything current or left
+
+280
+00:06:50,390 --> 00:06:50,400
+right anything current or left
+ 
+
+281
+00:06:50,400 --> 00:06:53,110
+right anything current or left
+this is the tuber yeah turn the left and
+
+282
+00:06:53,110 --> 00:06:53,120
+this is the tuber yeah turn the left and
+ 
+
+283
+00:06:53,120 --> 00:06:54,870
+this is the tuber yeah turn the left and
+the offset what happens on the offset
+
+284
+00:06:54,870 --> 00:06:54,880
+the offset what happens on the offset
+ 
+
+285
+00:06:54,880 --> 00:06:57,909
+the offset what happens on the offset
+what's that offset one
+
+286
+00:06:57,909 --> 00:06:57,919
+what's that offset one
+ 
+
+287
+00:06:57,919 --> 00:06:59,350
+what's that offset one
+go to the left what happened to the
+
+288
+00:06:59,350 --> 00:06:59,360
+go to the left what happened to the
+ 
+
+289
+00:06:59,360 --> 00:07:17,189
+go to the left what happened to the
+offset minus
+
+290
+00:07:17,189 --> 00:07:17,199
+
+ 
+
+291
+00:07:17,199 --> 00:07:20,550
+
+we go to the right we plus one and
+
+292
+00:07:20,550 --> 00:07:20,560
+we go to the right we plus one and
+ 
+
+293
+00:07:20,560 --> 00:07:23,830
+we go to the right we plus one and
+return what we return return the number
+
+294
+00:07:23,830 --> 00:07:23,840
+return what we return return the number
+ 
+
+295
+00:07:23,840 --> 00:07:25,510
+return what we return return the number
+of the elements in the set so what
+
+296
+00:07:25,510 --> 00:07:25,520
+of the elements in the set so what
+ 
+
+297
+00:07:25,520 --> 00:07:26,070
+of the elements in the set so what
+should i do
+
+298
+00:07:26,070 --> 00:07:26,080
+should i do
+ 
+
+299
+00:07:26,080 --> 00:07:27,800
+should i do
+here
+
+300
+00:07:27,800 --> 00:07:27,810
+here
+ 
+
+301
+00:07:27,810 --> 00:07:29,350
+here
+[Music]
+
+302
+00:07:29,350 --> 00:07:29,360
+[Music]
+ 
+
+303
+00:07:29,360 --> 00:07:32,309
+[Music]
+data this data is the same we want to
+
+304
+00:07:32,309 --> 00:07:32,319
+data this data is the same we want to
+ 
+
+305
+00:07:32,319 --> 00:07:34,550
+data this data is the same we want to
+count how many numbers in that so what
+
+306
+00:07:34,550 --> 00:07:34,560
+count how many numbers in that so what
+ 
+
+307
+00:07:34,560 --> 00:07:38,309
+count how many numbers in that so what
+what's the function to call length
+
+308
+00:07:38,309 --> 00:07:38,319
+what's the function to call length
+ 
+
+309
+00:07:38,319 --> 00:07:42,070
+what's the function to call length
+data data
+
+310
+00:07:42,070 --> 00:07:42,080
+data data
+ 
+
+311
+00:07:42,080 --> 00:07:44,469
+data data
+you see that's it so if current the left
+
+312
+00:07:44,469 --> 00:07:44,479
+you see that's it so if current the left
+ 
+
+313
+00:07:44,479 --> 00:07:45,749
+you see that's it so if current the left
+we push it to the left
+
+314
+00:07:45,749 --> 00:07:45,759
+we push it to the left
+ 
+
+315
+00:07:45,759 --> 00:07:54,070
+we push it to the left
+we uh minus one bye-bye
+
+316
+00:07:54,070 --> 00:07:54,080
+
+ 
+
+317
+00:07:54,080 --> 00:07:59,110
+
+okay okay
+
+318
+00:07:59,110 --> 00:07:59,120
+okay okay
+ 
+
+319
+00:07:59,120 --> 00:08:00,950
+okay okay
+okay so what should we do how do we pop
+
+320
+00:08:00,950 --> 00:08:00,960
+okay so what should we do how do we pop
+ 
+
+321
+00:08:00,960 --> 00:08:03,990
+okay so what should we do how do we pop
+it pop it from the left
+
+322
+00:08:03,990 --> 00:08:04,000
+it pop it from the left
+ 
+
+323
+00:08:04,000 --> 00:08:07,510
+it pop it from the left
+how do you write it pop two things
+
+324
+00:08:07,510 --> 00:08:07,520
+how do you write it pop two things
+ 
+
+325
+00:08:07,520 --> 00:08:10,550
+how do you write it pop two things
+two things yeah current yeah cactus just
+
+326
+00:08:10,550 --> 00:08:10,560
+two things yeah current yeah cactus just
+ 
+
+327
+00:08:10,560 --> 00:08:11,270
+two things yeah current yeah cactus just
+one line
+
+328
+00:08:11,270 --> 00:08:11,280
+one line
+ 
+
+329
+00:08:11,280 --> 00:08:14,309
+one line
+yeah current yeah current comma
+
+330
+00:08:14,309 --> 00:08:14,319
+yeah current yeah current comma
+ 
+
+331
+00:08:14,319 --> 00:08:20,309
+yeah current yeah current comma
+comma is a tuber that offset yeah
+
+332
+00:08:20,309 --> 00:08:20,319
+
+ 
+
+333
+00:08:20,319 --> 00:08:24,390
+
+equals q equal oh that's a nice writing
+
+334
+00:08:24,390 --> 00:08:24,400
+equals q equal oh that's a nice writing
+ 
+
+335
+00:08:24,400 --> 00:08:38,469
+equals q equal oh that's a nice writing
+equal
+
+336
+00:08:38,469 --> 00:08:38,479
+
+ 
+
+337
+00:08:38,479 --> 00:08:40,949
+
+yeah that's it well done today good job
+
+338
+00:08:40,949 --> 00:08:40,959
+yeah that's it well done today good job
+ 
+
+339
+00:08:40,959 --> 00:08:47,440
+yeah that's it well done today good job
+good job very well done today okay
+

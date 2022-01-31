@@ -1,0 +1,1845 @@
+1
+00:00:01,420 --> 00:00:09,030
+
+[Applause]
+
+2
+00:00:09,030 --> 00:00:09,040
+
+ 
+
+3
+00:00:09,040 --> 00:00:10,870
+
+okay so today we talk about
+
+4
+00:00:10,870 --> 00:00:10,880
+okay so today we talk about
+ 
+
+5
+00:00:10,880 --> 00:00:14,070
+okay so today we talk about
+the numbers again so we we're given a
+
+6
+00:00:14,070 --> 00:00:14,080
+the numbers again so we we're given a
+ 
+
+7
+00:00:14,080 --> 00:00:16,950
+the numbers again so we we're given a
+list of numbers about target yeah we're
+
+8
+00:00:16,950 --> 00:00:16,960
+list of numbers about target yeah we're
+ 
+
+9
+00:00:16,960 --> 00:00:19,109
+list of numbers about target yeah we're
+given a list of numbers we want to find
+
+10
+00:00:19,109 --> 00:00:19,119
+given a list of numbers we want to find
+ 
+
+11
+00:00:19,119 --> 00:00:19,830
+given a list of numbers we want to find
+out the
+
+12
+00:00:19,830 --> 00:00:19,840
+out the
+ 
+
+13
+00:00:19,840 --> 00:00:23,750
+out the
+sum of any two numbers that
+
+14
+00:00:23,750 --> 00:00:23,760
+sum of any two numbers that
+ 
+
+15
+00:00:23,760 --> 00:00:26,070
+sum of any two numbers that
+that is bigger than the target but it's
+
+16
+00:00:26,070 --> 00:00:26,080
+that is bigger than the target but it's
+ 
+
+17
+00:00:26,080 --> 00:00:27,109
+that is bigger than the target but it's
+the lowest
+
+18
+00:00:27,109 --> 00:00:27,119
+the lowest
+ 
+
+19
+00:00:27,119 --> 00:00:30,150
+the lowest
+but has the lowest one like this one i
+
+20
+00:00:30,150 --> 00:00:30,160
+but has the lowest one like this one i
+ 
+
+21
+00:00:30,160 --> 00:00:30,550
+but has the lowest one like this one i
+think
+
+22
+00:00:30,550 --> 00:00:30,560
+think
+ 
+
+23
+00:00:30,560 --> 00:00:34,069
+think
+three three five seven
+
+24
+00:00:34,069 --> 00:00:34,079
+three three five seven
+ 
+
+25
+00:00:34,079 --> 00:00:37,510
+three three five seven
+nine seven nine ten
+
+26
+00:00:37,510 --> 00:00:37,520
+nine seven nine ten
+ 
+
+27
+00:00:37,520 --> 00:00:39,670
+nine seven nine ten
+no no no no no okay that's it once
+
+28
+00:00:39,670 --> 00:00:39,680
+no no no no no okay that's it once
+ 
+
+29
+00:00:39,680 --> 00:00:41,510
+no no no no no okay that's it once
+you're eleven
+
+30
+00:00:41,510 --> 00:00:41,520
+you're eleven
+ 
+
+31
+00:00:41,520 --> 00:00:44,950
+you're eleven
+okay i need eleven and the target is
+
+32
+00:00:44,950 --> 00:00:44,960
+okay i need eleven and the target is
+ 
+
+33
+00:00:44,960 --> 00:00:47,590
+okay i need eleven and the target is
+let's say the top is eight so can you
+
+34
+00:00:47,590 --> 00:00:47,600
+let's say the top is eight so can you
+ 
+
+35
+00:00:47,600 --> 00:00:48,549
+let's say the top is eight so can you
+find two numbers
+
+36
+00:00:48,549 --> 00:00:48,559
+find two numbers
+ 
+
+37
+00:00:48,559 --> 00:00:51,750
+find two numbers
+that the sum of these are
+
+38
+00:00:51,750 --> 00:00:51,760
+that the sum of these are
+ 
+
+39
+00:00:51,760 --> 00:00:53,750
+that the sum of these are
+bigger than eight but it's the smallest
+
+40
+00:00:53,750 --> 00:00:53,760
+bigger than eight but it's the smallest
+ 
+
+41
+00:00:53,760 --> 00:00:55,430
+bigger than eight but it's the smallest
+remember we we we have a
+
+42
+00:00:55,430 --> 00:00:55,440
+remember we we we have a
+ 
+
+43
+00:00:55,440 --> 00:00:58,630
+remember we we we have a
+three five sorry three and five
+
+44
+00:00:58,630 --> 00:00:58,640
+three five sorry three and five
+ 
+
+45
+00:00:58,640 --> 00:01:01,189
+three five sorry three and five
+they're strictly bigger than that how
+
+46
+00:01:01,189 --> 00:01:01,199
+they're strictly bigger than that how
+ 
+
+47
+00:01:01,199 --> 00:01:02,709
+they're strictly bigger than that how
+many numbers can we use
+
+48
+00:01:02,709 --> 00:01:02,719
+many numbers can we use
+ 
+
+49
+00:01:02,719 --> 00:01:04,710
+many numbers can we use
+two numbers remember previously we have
+
+50
+00:01:04,710 --> 00:01:04,720
+two numbers remember previously we have
+ 
+
+51
+00:01:04,720 --> 00:01:06,149
+two numbers remember previously we have
+these kind of similar questions
+
+52
+00:01:06,149 --> 00:01:06,159
+these kind of similar questions
+ 
+
+53
+00:01:06,159 --> 00:01:08,469
+these kind of similar questions
+finding two numbers let's some less than
+
+54
+00:01:08,469 --> 00:01:08,479
+finding two numbers let's some less than
+ 
+
+55
+00:01:08,479 --> 00:01:12,230
+finding two numbers let's some less than
+the target but the largest
+
+56
+00:01:12,230 --> 00:01:12,240
+the target but the largest
+ 
+
+57
+00:01:12,240 --> 00:01:14,630
+the target but the largest
+three and seven three and seven are one
+
+58
+00:01:14,630 --> 00:01:14,640
+three and seven three and seven are one
+ 
+
+59
+00:01:14,640 --> 00:01:15,510
+three and seven three and seven are one
+and nine
+
+60
+00:01:15,510 --> 00:01:15,520
+and nine
+ 
+
+61
+00:01:15,520 --> 00:01:17,510
+and nine
+yeah three and seven or one and nine
+
+62
+00:01:17,510 --> 00:01:17,520
+yeah three and seven or one and nine
+ 
+
+63
+00:01:17,520 --> 00:01:18,630
+yeah three and seven or one and nine
+yeah we're done
+
+64
+00:01:18,630 --> 00:01:18,640
+yeah we're done
+ 
+
+65
+00:01:18,640 --> 00:01:22,710
+yeah we're done
+because one plus one plus nine is ten
+
+66
+00:01:22,710 --> 00:01:22,720
+because one plus one plus nine is ten
+ 
+
+67
+00:01:22,720 --> 00:01:24,950
+because one plus one plus nine is ten
+three plus seven is ten it's bigger than
+
+68
+00:01:24,950 --> 00:01:24,960
+three plus seven is ten it's bigger than
+ 
+
+69
+00:01:24,960 --> 00:01:26,710
+three plus seven is ten it's bigger than
+a but it's the smallest yeah you can't
+
+70
+00:01:26,710 --> 00:01:26,720
+a but it's the smallest yeah you can't
+ 
+
+71
+00:01:26,720 --> 00:01:27,429
+a but it's the smallest yeah you can't
+find
+
+72
+00:01:27,429 --> 00:01:27,439
+find
+ 
+
+73
+00:01:27,439 --> 00:01:30,230
+find
+any numbers two numbers the sum are
+
+74
+00:01:30,230 --> 00:01:30,240
+any numbers two numbers the sum are
+ 
+
+75
+00:01:30,240 --> 00:01:31,030
+any numbers two numbers the sum are
+bigger than a
+
+76
+00:01:31,030 --> 00:01:31,040
+bigger than a
+ 
+
+77
+00:01:31,040 --> 00:01:33,030
+bigger than a
+but it's the smallest right smallest
+
+78
+00:01:33,030 --> 00:01:33,040
+but it's the smallest right smallest
+ 
+
+79
+00:01:33,040 --> 00:01:34,870
+but it's the smallest right smallest
+than 10 am right
+
+80
+00:01:34,870 --> 00:01:34,880
+than 10 am right
+ 
+
+81
+00:01:34,880 --> 00:01:37,270
+than 10 am right
+how can we do it remember similarly
+
+82
+00:01:37,270 --> 00:01:37,280
+how can we do it remember similarly
+ 
+
+83
+00:01:37,280 --> 00:01:38,630
+how can we do it remember similarly
+previously we talked about
+
+84
+00:01:38,630 --> 00:01:38,640
+previously we talked about
+ 
+
+85
+00:01:38,640 --> 00:01:42,469
+previously we talked about
+sum of any two numbers that is smaller
+
+86
+00:01:42,469 --> 00:01:42,479
+sum of any two numbers that is smaller
+ 
+
+87
+00:01:42,479 --> 00:01:44,950
+sum of any two numbers that is smaller
+that is smaller than the target and we
+
+88
+00:01:44,950 --> 00:01:44,960
+that is smaller than the target and we
+ 
+
+89
+00:01:44,960 --> 00:01:45,990
+that is smaller than the target and we
+want to find the
+
+90
+00:01:45,990 --> 00:01:46,000
+want to find the
+ 
+
+91
+00:01:46,000 --> 00:01:48,149
+want to find the
+largest now this is opposite we want to
+
+92
+00:01:48,149 --> 00:01:48,159
+largest now this is opposite we want to
+ 
+
+93
+00:01:48,159 --> 00:01:50,389
+largest now this is opposite we want to
+find the lowest sum which is bigger than
+
+94
+00:01:50,389 --> 00:01:50,399
+find the lowest sum which is bigger than
+ 
+
+95
+00:01:50,399 --> 00:01:52,069
+find the lowest sum which is bigger than
+the target previously we want to find
+
+96
+00:01:52,069 --> 00:01:52,079
+the target previously we want to find
+ 
+
+97
+00:01:52,079 --> 00:01:52,710
+the target previously we want to find
+the
+
+98
+00:01:52,710 --> 00:01:52,720
+the
+ 
+
+99
+00:01:52,720 --> 00:01:55,830
+the
+largest sum which is small
+
+100
+00:01:55,830 --> 00:01:55,840
+largest sum which is small
+ 
+
+101
+00:01:55,840 --> 00:01:58,310
+largest sum which is small
+yeah okay so it's the same so can you
+
+102
+00:01:58,310 --> 00:01:58,320
+yeah okay so it's the same so can you
+ 
+
+103
+00:01:58,320 --> 00:02:01,590
+yeah okay so it's the same so can you
+remind me how we're doing this
+
+104
+00:02:01,590 --> 00:02:01,600
+remind me how we're doing this
+ 
+
+105
+00:02:01,600 --> 00:02:04,069
+remind me how we're doing this
+if you're not sure we can always pay for
+
+106
+00:02:04,069 --> 00:02:04,079
+if you're not sure we can always pay for
+ 
+
+107
+00:02:04,079 --> 00:02:04,709
+if you're not sure we can always pay for
+us
+
+108
+00:02:04,709 --> 00:02:04,719
+us
+ 
+
+109
+00:02:04,719 --> 00:02:07,510
+us
+okay so what kind of how can we put a
+
+110
+00:02:07,510 --> 00:02:07,520
+okay so what kind of how can we put a
+ 
+
+111
+00:02:07,520 --> 00:02:08,949
+okay so what kind of how can we put a
+force
+
+112
+00:02:08,949 --> 00:02:08,959
+force
+ 
+
+113
+00:02:08,959 --> 00:02:11,430
+force
+for us any pairs and if there are n
+
+114
+00:02:11,430 --> 00:02:11,440
+for us any pairs and if there are n
+ 
+
+115
+00:02:11,440 --> 00:02:13,510
+for us any pairs and if there are n
+numbers what's the term complexity to
+
+116
+00:02:13,510 --> 00:02:13,520
+numbers what's the term complexity to
+ 
+
+117
+00:02:13,520 --> 00:02:16,309
+numbers what's the term complexity to
+prove first thing the the pairs of two
+
+118
+00:02:16,309 --> 00:02:16,319
+prove first thing the the pairs of two
+ 
+
+119
+00:02:16,319 --> 00:02:16,949
+prove first thing the the pairs of two
+uh
+
+120
+00:02:16,949 --> 00:02:16,959
+uh
+ 
+
+121
+00:02:16,959 --> 00:02:20,390
+uh
+l square oh n square okay so we can find
+
+122
+00:02:20,390 --> 00:02:20,400
+l square oh n square okay so we can find
+ 
+
+123
+00:02:20,400 --> 00:02:22,550
+l square oh n square okay so we can find
+any two number we sum up and if it's
+
+124
+00:02:22,550 --> 00:02:22,560
+any two number we sum up and if it's
+ 
+
+125
+00:02:22,560 --> 00:02:22,949
+any two number we sum up and if it's
+that
+
+126
+00:02:22,949 --> 00:02:22,959
+that
+ 
+
+127
+00:02:22,959 --> 00:02:24,550
+that
+if it's bigger than target we'll find a
+
+128
+00:02:24,550 --> 00:02:24,560
+if it's bigger than target we'll find a
+ 
+
+129
+00:02:24,560 --> 00:02:26,710
+if it's bigger than target we'll find a
+minimum of it right
+
+130
+00:02:26,710 --> 00:02:26,720
+minimum of it right
+ 
+
+131
+00:02:26,720 --> 00:02:29,750
+minimum of it right
+what okay let's do this
+
+132
+00:02:29,750 --> 00:02:29,760
+what okay let's do this
+ 
+
+133
+00:02:29,760 --> 00:02:33,270
+what okay let's do this
+proof of thing okay
+
+134
+00:02:33,270 --> 00:02:33,280
+
+ 
+
+135
+00:02:33,280 --> 00:02:36,390
+
+defy okay just f
+
+136
+00:02:36,390 --> 00:02:36,400
+defy okay just f
+ 
+
+137
+00:02:36,400 --> 00:02:41,509
+defy okay just f
+nums target
+
+138
+00:02:41,509 --> 00:02:41,519
+
+ 
+
+139
+00:02:41,519 --> 00:02:44,790
+
+okay and equals length
+
+140
+00:02:44,790 --> 00:02:44,800
+okay and equals length
+ 
+
+141
+00:02:44,800 --> 00:02:47,670
+okay and equals length
+nums and now first of all the answer
+
+142
+00:02:47,670 --> 00:02:47,680
+nums and now first of all the answer
+ 
+
+143
+00:02:47,680 --> 00:02:49,990
+nums and now first of all the answer
+will be equals to what a very big number
+
+144
+00:02:49,990 --> 00:02:50,000
+will be equals to what a very big number
+ 
+
+145
+00:02:50,000 --> 00:02:54,309
+will be equals to what a very big number
+right we only french polish
+
+146
+00:02:54,309 --> 00:02:54,319
+
+ 
+
+147
+00:02:54,319 --> 00:02:58,390
+
+infinity inf okay then
+
+148
+00:02:58,390 --> 00:02:58,400
+infinity inf okay then
+ 
+
+149
+00:02:58,400 --> 00:03:15,030
+infinity inf okay then
+i in range redwater
+
+150
+00:03:15,030 --> 00:03:15,040
+
+ 
+
+151
+00:03:15,040 --> 00:03:19,910
+
+the second number the index french
+
+152
+00:03:19,910 --> 00:03:19,920
+
+ 
+
+153
+00:03:19,920 --> 00:03:24,390
+
+rejuva up to after i yes
+
+154
+00:03:24,390 --> 00:03:24,400
+rejuva up to after i yes
+ 
+
+155
+00:03:24,400 --> 00:03:28,070
+rejuva up to after i yes
+then if this current equals
+
+156
+00:03:28,070 --> 00:03:28,080
+then if this current equals
+ 
+
+157
+00:03:28,080 --> 00:03:31,270
+then if this current equals
+nums nums what the two numbers
+
+158
+00:03:31,270 --> 00:03:31,280
+nums nums what the two numbers
+ 
+
+159
+00:03:31,280 --> 00:03:37,589
+nums nums what the two numbers
+how to place it together number
+
+160
+00:03:37,589 --> 00:03:37,599
+
+ 
+
+161
+00:03:37,599 --> 00:03:41,270
+
+one column the index the first number
+
+162
+00:03:41,270 --> 00:03:41,280
+one column the index the first number
+ 
+
+163
+00:03:41,280 --> 00:03:44,390
+one column the index the first number
+is i the second number index j so left
+
+164
+00:03:44,390 --> 00:03:44,400
+is i the second number index j so left
+ 
+
+165
+00:03:44,400 --> 00:03:53,480
+is i the second number index j so left
+plus num's
+
+166
+00:03:53,480 --> 00:03:53,490
+
+ 
+
+167
+00:03:53,490 --> 00:03:58,789
+
+[Music]
+
+168
+00:03:58,789 --> 00:03:58,799
+
+ 
+
+169
+00:03:58,799 --> 00:04:02,580
+
+bigger
+
+170
+00:04:02,580 --> 00:04:02,590
+
+ 
+
+171
+00:04:02,590 --> 00:04:12,869
+
+[Music]
+
+172
+00:04:12,869 --> 00:04:12,879
+
+ 
+
+173
+00:04:12,879 --> 00:04:19,030
+
+come on feel the blanks
+
+174
+00:04:19,030 --> 00:04:19,040
+
+ 
+
+175
+00:04:19,040 --> 00:04:21,590
+
+i'll do this one of course that's easy
+
+176
+00:04:21,590 --> 00:04:21,600
+i'll do this one of course that's easy
+ 
+
+177
+00:04:21,600 --> 00:04:22,469
+i'll do this one of course that's easy
+and then how about you
+
+178
+00:04:22,469 --> 00:04:22,479
+and then how about you
+ 
+
+179
+00:04:22,479 --> 00:04:30,230
+and then how about you
+do that once no no police
+
+180
+00:04:30,230 --> 00:04:30,240
+
+ 
+
+181
+00:04:30,240 --> 00:04:32,390
+
+if this sum is bigger than the target
+
+182
+00:04:32,390 --> 00:04:32,400
+if this sum is bigger than the target
+ 
+
+183
+00:04:32,400 --> 00:04:34,310
+if this sum is bigger than the target
+and then we want to find the minimum
+
+184
+00:04:34,310 --> 00:04:34,320
+and then we want to find the minimum
+ 
+
+185
+00:04:34,320 --> 00:04:37,350
+and then we want to find the minimum
+yeah max also
+
+186
+00:04:37,350 --> 00:04:37,360
+yeah max also
+ 
+
+187
+00:04:37,360 --> 00:04:56,390
+yeah max also
+equals max minimum no max
+
+188
+00:04:56,390 --> 00:04:56,400
+
+ 
+
+189
+00:04:56,400 --> 00:04:58,790
+
+yeah yeah be confident okay you can do
+
+190
+00:04:58,790 --> 00:04:58,800
+yeah yeah be confident okay you can do
+ 
+
+191
+00:04:58,800 --> 00:05:01,350
+yeah yeah be confident okay you can do
+it you see
+
+192
+00:05:01,350 --> 00:05:01,360
+it you see
+ 
+
+193
+00:05:01,360 --> 00:05:04,310
+it you see
+what's going on now all right all right
+
+194
+00:05:04,310 --> 00:05:04,320
+what's going on now all right all right
+ 
+
+195
+00:05:04,320 --> 00:05:04,950
+what's going on now all right all right
+come on
+
+196
+00:05:04,950 --> 00:05:04,960
+come on
+ 
+
+197
+00:05:04,960 --> 00:05:08,390
+come on
+come on please no
+
+198
+00:05:08,390 --> 00:05:08,400
+
+ 
+
+199
+00:05:08,400 --> 00:05:13,070
+
+no i know
+
+200
+00:05:13,070 --> 00:05:13,080
+
+ 
+
+201
+00:05:13,080 --> 00:05:23,189
+
+[Music]
+
+202
+00:05:23,189 --> 00:05:23,199
+
+ 
+
+203
+00:05:23,199 --> 00:05:26,950
+
+zero to n minus one the index j
+
+204
+00:05:26,950 --> 00:05:26,960
+zero to n minus one the index j
+ 
+
+205
+00:05:26,960 --> 00:05:29,270
+zero to n minus one the index j
+it starts from zero to i minus one okay
+
+206
+00:05:29,270 --> 00:05:29,280
+it starts from zero to i minus one okay
+ 
+
+207
+00:05:29,280 --> 00:05:33,270
+it starts from zero to i minus one okay
+got it
+
+208
+00:05:33,270 --> 00:05:33,280
+
+ 
+
+209
+00:05:33,280 --> 00:05:37,029
+
+yes that's mine can we do better
+
+210
+00:05:37,029 --> 00:05:37,039
+yes that's mine can we do better
+ 
+
+211
+00:05:37,039 --> 00:05:41,189
+yes that's mine can we do better
+maybe we can
+
+212
+00:05:41,189 --> 00:05:41,199
+
+ 
+
+213
+00:05:41,199 --> 00:05:43,670
+
+previously how can we solve this problem
+
+214
+00:05:43,670 --> 00:05:43,680
+previously how can we solve this problem
+ 
+
+215
+00:05:43,680 --> 00:05:46,870
+previously how can we solve this problem
+how can we solve this problem
+
+216
+00:05:46,870 --> 00:05:46,880
+how can we solve this problem
+ 
+
+217
+00:05:46,880 --> 00:05:50,230
+how can we solve this problem
+okay look at 1 3 5 7
+
+218
+00:05:50,230 --> 00:05:50,240
+okay look at 1 3 5 7
+ 
+
+219
+00:05:50,240 --> 00:05:53,350
+okay look at 1 3 5 7
+9 10 eleven we want to find a cup of tea
+
+220
+00:05:53,350 --> 00:05:53,360
+9 10 eleven we want to find a cup of tea
+ 
+
+221
+00:05:53,360 --> 00:05:57,270
+9 10 eleven we want to find a cup of tea
+okay okay so if this number is not salty
+
+222
+00:05:57,270 --> 00:05:57,280
+okay okay so if this number is not salty
+ 
+
+223
+00:05:57,280 --> 00:06:00,710
+okay okay so if this number is not salty
+we sort it so and then we can use one
+
+224
+00:06:00,710 --> 00:06:00,720
+we sort it so and then we can use one
+ 
+
+225
+00:06:00,720 --> 00:06:03,749
+we sort it so and then we can use one
+we can use one what's the t point there
+
+226
+00:06:03,749 --> 00:06:03,759
+we can use one what's the t point there
+ 
+
+227
+00:06:03,759 --> 00:06:05,749
+we can use one what's the t point there
+yeah and how can we apply the two points
+
+228
+00:06:05,749 --> 00:06:05,759
+yeah and how can we apply the two points
+ 
+
+229
+00:06:05,759 --> 00:06:07,510
+yeah and how can we apply the two points
+okay if this left this is
+
+230
+00:06:07,510 --> 00:06:07,520
+okay if this left this is
+ 
+
+231
+00:06:07,520 --> 00:06:09,350
+okay if this left this is
+right we need to sort it first yeah
+
+232
+00:06:09,350 --> 00:06:09,360
+right we need to sort it first yeah
+ 
+
+233
+00:06:09,360 --> 00:06:11,110
+right we need to sort it first yeah
+salty first okay what's the some
+
+234
+00:06:11,110 --> 00:06:11,120
+salty first okay what's the some
+ 
+
+235
+00:06:11,120 --> 00:06:12,550
+salty first okay what's the some
+complexity to solve
+
+236
+00:06:12,550 --> 00:06:12,560
+complexity to solve
+ 
+
+237
+00:06:12,560 --> 00:06:14,950
+complexity to solve
+again okay so left and right what's the
+
+238
+00:06:14,950 --> 00:06:14,960
+again okay so left and right what's the
+ 
+
+239
+00:06:14,960 --> 00:06:16,309
+again okay so left and right what's the
+sum of numbers
+
+240
+00:06:16,309 --> 00:06:16,319
+sum of numbers
+ 
+
+241
+00:06:16,319 --> 00:06:20,629
+sum of numbers
+and it's 12 and so 12.
+
+242
+00:06:20,629 --> 00:06:20,639
+and it's 12 and so 12.
+ 
+
+243
+00:06:20,639 --> 00:06:23,270
+and it's 12 and so 12.
+okay that's good and then so we try to
+
+244
+00:06:23,270 --> 00:06:23,280
+okay that's good and then so we try to
+ 
+
+245
+00:06:23,280 --> 00:06:24,710
+okay that's good and then so we try to
+make it smaller
+
+246
+00:06:24,710 --> 00:06:24,720
+make it smaller
+ 
+
+247
+00:06:24,720 --> 00:06:27,110
+make it smaller
+to see if we can improve our score they
+
+248
+00:06:27,110 --> 00:06:27,120
+to see if we can improve our score they
+ 
+
+249
+00:06:27,120 --> 00:06:28,309
+to see if we can improve our score they
+move it right
+
+250
+00:06:28,309 --> 00:06:28,319
+move it right
+ 
+
+251
+00:06:28,319 --> 00:06:31,430
+move it right
+we're done what's your space what was
+
+252
+00:06:31,430 --> 00:06:31,440
+we're done what's your space what was
+ 
+
+253
+00:06:31,440 --> 00:06:34,150
+we're done what's your space what was
+the sum 11 i know we improve and
+
+254
+00:06:34,150 --> 00:06:34,160
+the sum 11 i know we improve and
+ 
+
+255
+00:06:34,160 --> 00:06:36,309
+the sum 11 i know we improve and
+we move we have to keep moving that's
+
+256
+00:06:36,309 --> 00:06:36,319
+we move we have to keep moving that's
+ 
+
+257
+00:06:36,319 --> 00:06:38,550
+we move we have to keep moving that's
+ten
+
+258
+00:06:38,550 --> 00:06:38,560
+
+ 
+
+259
+00:06:38,560 --> 00:06:42,070
+
+yeah yeah hey okay i know what happened
+
+260
+00:06:42,070 --> 00:06:42,080
+yeah yeah hey okay i know what happened
+ 
+
+261
+00:06:42,080 --> 00:06:44,710
+yeah yeah hey okay i know what happened
+no it can't right now and then we have
+
+262
+00:06:44,710 --> 00:06:44,720
+no it can't right now and then we have
+ 
+
+263
+00:06:44,720 --> 00:06:45,830
+no it can't right now and then we have
+to move the leg
+
+264
+00:06:45,830 --> 00:06:45,840
+to move the leg
+ 
+
+265
+00:06:45,840 --> 00:06:48,390
+to move the leg
+well down wow are getting there and
+
+266
+00:06:48,390 --> 00:06:48,400
+well down wow are getting there and
+ 
+
+267
+00:06:48,400 --> 00:06:49,270
+well down wow are getting there and
+seven seven
+
+268
+00:06:49,270 --> 00:06:49,280
+seven seven
+ 
+
+269
+00:06:49,280 --> 00:06:52,790
+seven seven
+is ten and we can improve
+
+270
+00:06:52,790 --> 00:06:52,800
+is ten and we can improve
+ 
+
+271
+00:06:52,800 --> 00:06:55,909
+is ten and we can improve
+then we move the left or right uh
+
+272
+00:06:55,909 --> 00:06:55,919
+then we move the left or right uh
+ 
+
+273
+00:06:55,919 --> 00:06:59,430
+then we move the left or right uh
+left right right yeah okay that's it
+
+274
+00:06:59,430 --> 00:06:59,440
+left right right yeah okay that's it
+ 
+
+275
+00:06:59,440 --> 00:07:02,950
+left right right yeah okay that's it
+what do i need okay good
+
+276
+00:07:02,950 --> 00:07:02,960
+what do i need okay good
+ 
+
+277
+00:07:02,960 --> 00:07:05,110
+what do i need okay good
+two-pointer it's the same thing as the
+
+278
+00:07:05,110 --> 00:07:05,120
+two-pointer it's the same thing as the
+ 
+
+279
+00:07:05,120 --> 00:07:06,790
+two-pointer it's the same thing as the
+finding the largest that
+
+280
+00:07:06,790 --> 00:07:06,800
+finding the largest that
+ 
+
+281
+00:07:06,800 --> 00:07:08,550
+finding the largest that
+are smaller than the target right this
+
+282
+00:07:08,550 --> 00:07:08,560
+are smaller than the target right this
+ 
+
+283
+00:07:08,560 --> 00:07:10,309
+are smaller than the target right this
+is basically opposite right
+
+284
+00:07:10,309 --> 00:07:10,319
+is basically opposite right
+ 
+
+285
+00:07:10,319 --> 00:07:14,309
+is basically opposite right
+yeah this is a very good review okay
+
+286
+00:07:14,309 --> 00:07:14,319
+yeah this is a very good review okay
+ 
+
+287
+00:07:14,319 --> 00:07:16,710
+yeah this is a very good review okay
+uh so first of all how can we solve
+
+288
+00:07:16,710 --> 00:07:16,720
+uh so first of all how can we solve
+ 
+
+289
+00:07:16,720 --> 00:07:23,510
+uh so first of all how can we solve
+these numbers
+
+290
+00:07:23,510 --> 00:07:23,520
+
+ 
+
+291
+00:07:23,520 --> 00:07:26,550
+
+break it okay and
+
+292
+00:07:26,550 --> 00:07:26,560
+break it okay and
+ 
+
+293
+00:07:26,560 --> 00:07:36,230
+break it okay and
+left right left right equals
+
+294
+00:07:36,230 --> 00:07:36,240
+
+ 
+
+295
+00:07:36,240 --> 00:07:40,230
+
+minus one okay
+
+296
+00:07:40,230 --> 00:07:40,240
+
+ 
+
+297
+00:07:40,240 --> 00:07:43,670
+
+why the left and right no meat right
+
+298
+00:07:43,670 --> 00:07:43,680
+why the left and right no meat right
+ 
+
+299
+00:07:43,680 --> 00:07:46,869
+why the left and right no meat right
+yeah all right and caroline
+
+300
+00:07:46,869 --> 00:07:46,879
+yeah all right and caroline
+ 
+
+301
+00:07:46,879 --> 00:07:50,469
+yeah all right and caroline
+equals what
+
+302
+00:07:50,469 --> 00:07:50,479
+
+ 
+
+303
+00:07:50,479 --> 00:07:54,629
+
+numbs left plus one that's right
+
+304
+00:07:54,629 --> 00:07:54,639
+numbs left plus one that's right
+ 
+
+305
+00:07:54,639 --> 00:07:57,990
+numbs left plus one that's right
+yeah okay if
+
+306
+00:07:57,990 --> 00:07:58,000
+yeah okay if
+ 
+
+307
+00:07:58,000 --> 00:08:01,029
+yeah okay if
+current bigger than target i have an
+
+308
+00:08:01,029 --> 00:08:01,039
+current bigger than target i have an
+ 
+
+309
+00:08:01,039 --> 00:08:01,510
+current bigger than target i have an
+answer
+
+310
+00:08:01,510 --> 00:08:01,520
+answer
+ 
+
+311
+00:08:01,520 --> 00:08:04,629
+answer
+on the equal minion answer this year we
+
+312
+00:08:04,629 --> 00:08:04,639
+on the equal minion answer this year we
+ 
+
+313
+00:08:04,639 --> 00:08:10,830
+on the equal minion answer this year we
+forgot yeah i'm current what answer
+
+314
+00:08:10,830 --> 00:08:10,840
+
+ 
+
+315
+00:08:10,840 --> 00:08:12,230
+
+is
+
+316
+00:08:12,230 --> 00:08:12,240
+is
+ 
+
+317
+00:08:12,240 --> 00:08:15,430
+is
+we want to find the minimum yeah and now
+
+318
+00:08:15,430 --> 00:08:15,440
+we want to find the minimum yeah and now
+ 
+
+319
+00:08:15,440 --> 00:08:17,110
+we want to find the minimum yeah and now
+and then here what should we do and
+
+320
+00:08:17,110 --> 00:08:17,120
+and then here what should we do and
+ 
+
+321
+00:08:17,120 --> 00:08:18,869
+and then here what should we do and
+write minus one
+
+322
+00:08:18,869 --> 00:08:18,879
+write minus one
+ 
+
+323
+00:08:18,879 --> 00:08:21,990
+write minus one
+and i have minus equal one else left
+
+324
+00:08:21,990 --> 00:08:22,000
+and i have minus equal one else left
+ 
+
+325
+00:08:22,000 --> 00:08:23,589
+and i have minus equal one else left
+equals
+
+326
+00:08:23,589 --> 00:08:23,599
+equals
+ 
+
+327
+00:08:23,599 --> 00:08:28,469
+equals
+one that's equal one return answer
+
+328
+00:08:28,469 --> 00:08:28,479
+
+ 
+
+329
+00:08:28,479 --> 00:08:32,630
+
+answer what's the time complexity
+
+330
+00:08:32,630 --> 00:08:32,640
+
+ 
+
+331
+00:08:32,640 --> 00:08:35,110
+
+what's the time complexity this is one
+
+332
+00:08:35,110 --> 00:08:35,120
+what's the time complexity this is one
+ 
+
+333
+00:08:35,120 --> 00:08:38,949
+what's the time complexity this is one
+this is what this
+
+334
+00:08:38,949 --> 00:08:38,959
+
+ 
+
+335
+00:08:38,959 --> 00:08:42,469
+
+i want to sound is on this one yeah and
+
+336
+00:08:42,469 --> 00:08:42,479
+i want to sound is on this one yeah and
+ 
+
+337
+00:08:42,479 --> 00:08:44,149
+i want to sound is on this one yeah and
+oh and so which one is bigger what's the
+
+338
+00:08:44,149 --> 00:08:44,159
+oh and so which one is bigger what's the
+ 
+
+339
+00:08:44,159 --> 00:08:45,750
+oh and so which one is bigger what's the
+thumbnail again
+
+340
+00:08:45,750 --> 00:08:45,760
+thumbnail again
+ 
+
+341
+00:08:45,760 --> 00:08:48,949
+thumbnail again
+why is that no no no
+
+342
+00:08:48,949 --> 00:08:48,959
+why is that no no no
+ 
+
+343
+00:08:48,959 --> 00:08:50,870
+why is that no no no
+because they're bigger this one is
+
+344
+00:08:50,870 --> 00:08:50,880
+because they're bigger this one is
+ 
+
+345
+00:08:50,880 --> 00:08:52,790
+because they're bigger this one is
+bigger
+
+346
+00:08:52,790 --> 00:08:52,800
+bigger
+ 
+
+347
+00:08:52,800 --> 00:08:56,949
+bigger
+okay
+
+348
+00:08:56,949 --> 00:08:56,959
+
+ 
+
+349
+00:08:56,959 --> 00:09:03,030
+
+right minus equals one
+
+350
+00:09:03,030 --> 00:09:03,040
+
+ 
+
+351
+00:09:03,040 --> 00:09:05,430
+
+okay and then what else you're missing
+
+352
+00:09:05,430 --> 00:09:05,440
+okay and then what else you're missing
+ 
+
+353
+00:09:05,440 --> 00:09:06,550
+okay and then what else you're missing
+one
+
+354
+00:09:06,550 --> 00:09:06,560
+one
+ 
+
+355
+00:09:06,560 --> 00:09:13,130
+one
+come on
+
+356
+00:09:13,130 --> 00:09:13,140
+
+ 
+
+357
+00:09:13,140 --> 00:09:20,829
+
+[Music]
+
+358
+00:09:20,829 --> 00:09:20,839
+
+ 
+
+359
+00:09:20,839 --> 00:09:24,470
+
+me of the current
+
+360
+00:09:24,470 --> 00:09:24,480
+me of the current
+ 
+
+361
+00:09:24,480 --> 00:09:28,630
+me of the current
+answer the current okay
+
+362
+00:09:28,630 --> 00:09:28,640
+answer the current okay
+ 
+
+363
+00:09:28,640 --> 00:09:31,110
+answer the current okay
+okay that's it that's it for today good
+
+364
+00:09:31,110 --> 00:09:31,120
+okay that's it that's it for today good
+ 
+
+365
+00:09:31,120 --> 00:09:32,070
+okay that's it that's it for today good
+job
+
+366
+00:09:32,070 --> 00:09:32,080
+job
+ 
+
+367
+00:09:32,080 --> 00:09:38,389
+job
+bye bye bye
+
+368
+00:09:38,389 --> 00:09:38,399
+
+ 
+
+369
+00:09:38,399 --> 00:09:43,440
+
+hello and today we're gonna have a break
+
