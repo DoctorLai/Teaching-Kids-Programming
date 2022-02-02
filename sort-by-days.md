@@ -7,6 +7,8 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 397 (2022-02-01): [Top Down and Bottom Up Recursive Algorithms to Determine a Balanced Binary Tree](https://helloacm.com/teaching-kids-programming-top-down-and-bottom-up-recursive-algorithms-to-determine-a-balanced-binary-tree/) 平衡二叉树的二种递归算法: 自上而下和自下而上
+ [Youtube](https://youtu.be/sNR7phz7ku4) - [B站](https://www.bilibili.com/video/BV1AR4y1M7et/)  - [西瓜](https://www.ixigua.com/7059876415855919630) 
 - Day 396 (2022-01-30): [Index with Equal Left and Right Sums (Prefix and Suffix Sum Algorithm)](https://helloacm.com/teaching-kids-programming-index-with-equal-left-and-right-sums-prefix-and-suffix-sum-algorithm/) 左右和相等的索引(前缀和后缀和算法)
  [Youtube](https://youtu.be/Mv8eKaenb4E) - [B站](https://www.bilibili.com/video/BV1PR4y1M7j1/)  - [西瓜](https://www.ixigua.com/7059114808783667742) 
 - Day 395 (2022-01-29): [Rearrange Array Elements by Sign (Two Pointer Algorithm)](https://helloacm.com/teaching-kids-programming-rearrange-array-elements-by-sign-two-pointer-algorithm/) 按符号重新排列数组元素(双指针算法) [Youtube](https://youtu.be/IQ-uHZTsqF4) - [B站](https://www.bilibili.com/video/BV1Lr4y1Y7hu/)  - [西瓜](https://www.ixigua.com/7058748077410091550) 
