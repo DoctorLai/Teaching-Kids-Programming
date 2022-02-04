@@ -1,0 +1,2016 @@
+1
+00:00:00,080 --> 00:00:03,840
+hello hello hello sir miss lauren all
+
+2
+00:00:02,960 --> 00:00:06,399
+right
+
+3
+00:00:03,840 --> 00:00:09,599
+okay so what's graph
+
+4
+00:00:06,399 --> 00:00:12,320
+it's a graph okay graph is a collection
+
+5
+00:00:09,599 --> 00:00:13,759
+of the vertex and edges right
+
+6
+00:00:12,320 --> 00:00:15,679
+g
+
+7
+00:00:13,759 --> 00:00:16,960
+vertex and edges
+
+8
+00:00:15,679 --> 00:00:20,000
+so
+
+9
+00:00:16,960 --> 00:00:21,199
+can you guess what is a connected graph
+
+10
+00:00:20,000 --> 00:00:23,600
+what if
+
+11
+00:00:21,199 --> 00:00:24,800
+i say a graph is connected what does it
+
+12
+00:00:23,600 --> 00:00:26,640
+mean
+
+13
+00:00:24,800 --> 00:00:28,840
+anybody
+
+14
+00:00:26,640 --> 00:00:32,399
+the vertex yeah this is the
+
+15
+00:00:28,840 --> 00:00:35,760
+vertex anyway any idea
+
+16
+00:00:32,399 --> 00:00:38,879
+is this a connected graph
+
+17
+00:00:35,760 --> 00:00:40,559
+why is that because
+
+18
+00:00:38,879 --> 00:00:43,360
+yeah it's not connected yeah and how
+
+19
+00:00:40,559 --> 00:00:44,640
+about this one is it connected
+
+20
+00:00:43,360 --> 00:00:45,600
+yeah
+
+21
+00:00:44,640 --> 00:00:47,360
+yeah
+
+22
+00:00:45,600 --> 00:00:49,280
+this is a connected ground yeah and it
+
+23
+00:00:47,360 --> 00:00:50,719
+doesn't have cycle yeah so we can call
+
+24
+00:00:49,280 --> 00:00:53,360
+it a tree right
+
+25
+00:00:50,719 --> 00:00:55,120
+yeah directly a cyclic graph okay
+
+26
+00:00:53,360 --> 00:00:57,199
+it's not
+
+27
+00:00:55,120 --> 00:01:00,079
+it's it's not directed okay it's
+
+28
+00:00:57,199 --> 00:01:03,199
+undirected actually okay
+
+29
+00:01:00,079 --> 00:01:05,439
+okay so today given a graph which is
+
+30
+00:01:03,199 --> 00:01:07,200
+connected okay make sure we understand
+
+31
+00:01:05,439 --> 00:01:08,000
+this connected
+
+32
+00:01:07,200 --> 00:01:11,040
+and
+
+33
+00:01:08,000 --> 00:01:13,840
+and directional graph
+
+34
+00:01:11,040 --> 00:01:17,920
+and direct idyllic graph okay so this is
+
+35
+00:01:13,840 --> 00:01:18,880
+kinetic and directed graph uh connected
+
+36
+00:01:17,920 --> 00:01:21,759
+you know
+
+37
+00:01:18,880 --> 00:01:24,640
+i can do by has cycle somehow yeah you
+
+38
+00:01:21,759 --> 00:01:26,720
+can have a cycle
+
+39
+00:01:24,640 --> 00:01:28,479
+given this given uh
+
+40
+00:01:26,720 --> 00:01:30,799
+a graph how so how do we represent the
+
+41
+00:01:28,479 --> 00:01:33,200
+graph remember we have two ways of
+
+42
+00:01:30,799 --> 00:01:36,400
+representing which which one is the
+
+43
+00:01:33,200 --> 00:01:38,560
+adjacentness yeah
+
+44
+00:01:36,400 --> 00:01:41,119
+ryan are you all right yeah
+
+45
+00:01:38,560 --> 00:01:42,320
+adjacent this another one is adjacent
+
+46
+00:01:41,119 --> 00:01:44,799
+magic
+
+47
+00:01:42,320 --> 00:01:47,280
+these are the two ways to represent the
+
+48
+00:01:44,799 --> 00:01:49,119
+graph data structure using the computer
+
+49
+00:01:47,280 --> 00:01:51,200
+right adjacent is
+
+50
+00:01:49,119 --> 00:01:52,000
+so look at what adjacent is so we can
+
+51
+00:01:51,200 --> 00:01:53,840
+say
+
+52
+00:01:52,000 --> 00:01:56,240
+node one
+
+53
+00:01:53,840 --> 00:01:59,040
+links two two three four right so it
+
+54
+00:01:56,240 --> 00:02:00,399
+links two two three four no
+
+55
+00:01:59,040 --> 00:02:04,079
+no two
+
+56
+00:02:00,399 --> 00:02:05,520
+links to one six yeah so this key
+
+57
+00:02:04,079 --> 00:02:06,479
+yeah all right
+
+58
+00:02:05,520 --> 00:02:09,200
+key
+
+59
+00:02:06,479 --> 00:02:12,080
+keys are the note the values and the
+
+60
+00:02:09,200 --> 00:02:13,360
+list of vertex it connects to right
+
+61
+00:02:12,080 --> 00:02:14,640
+yep
+
+62
+00:02:13,360 --> 00:02:16,720
+yeah
+
+63
+00:02:14,640 --> 00:02:18,879
+okay so three
+
+64
+00:02:16,720 --> 00:02:22,840
+what should i put here
+
+65
+00:02:18,879 --> 00:02:22,840
+what you have here three
+
+66
+00:02:25,300 --> 00:02:32,110
+[Music]
+
+67
+00:02:34,480 --> 00:02:41,440
+and then six would be
+
+68
+00:02:38,000 --> 00:02:45,040
+two okay so this is called adjacent this
+
+69
+00:02:41,440 --> 00:02:47,760
+key how come who doesn't have three
+
+70
+00:02:45,040 --> 00:02:50,879
+we're done where wow that's a very good
+
+71
+00:02:47,760 --> 00:02:53,440
+spot yeah yeah you're right good job
+
+72
+00:02:50,879 --> 00:02:55,360
+adjacent is the keys are the vertex the
+
+73
+00:02:53,440 --> 00:02:57,120
+values are the list of the vertex it
+
+74
+00:02:55,360 --> 00:02:58,400
+connects to okay
+
+75
+00:02:57,120 --> 00:03:01,040
+yeah
+
+76
+00:02:58,400 --> 00:03:02,879
+the adjacent metric adjacent metric if
+
+77
+00:03:01,040 --> 00:03:03,680
+it's one two three four five then you'll
+
+78
+00:03:02,879 --> 00:03:06,959
+be
+
+79
+00:03:03,680 --> 00:03:10,480
+like that okay so if this you'll be
+
+80
+00:03:06,959 --> 00:03:13,120
+you'll be a magic yeah you'll be magic
+
+81
+00:03:10,480 --> 00:03:14,879
+so adjacent magic so let's say
+
+82
+00:03:13,120 --> 00:03:16,800
+one
+
+83
+00:03:14,879 --> 00:03:20,239
+one to two so
+
+84
+00:03:16,800 --> 00:03:21,360
+okay so if this is one one to two so
+
+85
+00:03:20,239 --> 00:03:23,920
+this
+
+86
+00:03:21,360 --> 00:03:24,959
+connects to two one two three one two
+
+87
+00:03:23,920 --> 00:03:27,120
+three
+
+88
+00:03:24,959 --> 00:03:30,239
+okay one two four here
+
+89
+00:03:27,120 --> 00:03:33,519
+two two one two two one
+
+90
+00:03:30,239 --> 00:03:37,280
+two six two six okay you got it so so
+
+91
+00:03:33,519 --> 00:03:40,480
+look if this is magic m i j
+
+92
+00:03:37,280 --> 00:03:42,879
+means manager means if the vertex i is
+
+93
+00:03:40,480 --> 00:03:44,640
+connected to vertical string okay so if
+
+94
+00:03:42,879 --> 00:03:47,840
+it's undirected
+
+95
+00:03:44,640 --> 00:03:50,799
+if undirected so which means that m i j
+
+96
+00:03:47,840 --> 00:03:53,120
+equals mji okay in a
+
+97
+00:03:50,799 --> 00:03:55,280
+you know adjacent metric
+
+98
+00:03:53,120 --> 00:03:58,480
+so
+
+99
+00:03:55,280 --> 00:04:00,640
+what happens if mij equals mji in in
+
+100
+00:03:58,480 --> 00:04:05,439
+this metric what happened
+
+101
+00:04:00,640 --> 00:04:05,439
+if mij equals mji so what does it mean
+
+102
+00:04:06,879 --> 00:04:11,519
+it's going to be one
+
+103
+00:04:09,280 --> 00:04:12,400
+it's going to be met with the diagonal
+
+104
+00:04:11,519 --> 00:04:14,799
+right
+
+105
+00:04:12,400 --> 00:04:16,720
+mij and ji so it means that it's
+
+106
+00:04:14,799 --> 00:04:19,680
+undirected block okay
+
+107
+00:04:16,720 --> 00:04:22,560
+because if the vertex one goes to three
+
+108
+00:04:19,680 --> 00:04:25,040
+also there's a way to go from vertex
+
+109
+00:04:22,560 --> 00:04:26,639
+three to vertex one okay
+
+110
+00:04:25,040 --> 00:04:29,040
+yeah
+
+111
+00:04:26,639 --> 00:04:31,199
+so today easy given a connected
+
+112
+00:04:29,040 --> 00:04:33,199
+undirected graph yeah we're using the
+
+113
+00:04:31,199 --> 00:04:34,960
+adjacent list for example
+
+114
+00:04:33,199 --> 00:04:36,320
+and then we're given this any node for
+
+115
+00:04:34,960 --> 00:04:38,000
+example
+
+116
+00:04:36,320 --> 00:04:40,639
+we want to clone
+
+117
+00:04:38,000 --> 00:04:44,160
+we know what's come on
+
+118
+00:04:40,639 --> 00:04:45,840
+clone what's going on what's this one
+
+119
+00:04:44,160 --> 00:04:46,960
+what does it mean chrome
+
+120
+00:04:45,840 --> 00:04:48,880
+copy
+
+121
+00:04:46,960 --> 00:04:51,360
+copy
+
+122
+00:04:48,880 --> 00:04:54,400
+okay so when we talk about copy we have
+
+123
+00:04:51,360 --> 00:04:56,639
+two kinds of copy deep copy
+
+124
+00:04:54,400 --> 00:04:58,320
+or shallow copy yeah
+
+125
+00:04:56,639 --> 00:04:59,840
+deep copy
+
+126
+00:04:58,320 --> 00:05:01,680
+and shallow copy
+
+127
+00:04:59,840 --> 00:05:04,080
+we mentioned this before yeah what's big
+
+128
+00:05:01,680 --> 00:05:06,440
+copy what's yellow copy
+
+129
+00:05:04,080 --> 00:05:08,840
+what's the copy what's yellow
+
+130
+00:05:06,440 --> 00:05:13,440
+copy
+
+131
+00:05:08,840 --> 00:05:15,199
+is so what's deep and shallow d is d
+
+132
+00:05:13,440 --> 00:05:16,960
+angelic deep
+
+133
+00:05:15,199 --> 00:05:19,840
+shallow
+
+134
+00:05:16,960 --> 00:05:21,039
+so usually shallow copy is like you just
+
+135
+00:05:19,840 --> 00:05:25,120
+copy
+
+136
+00:05:21,039 --> 00:05:27,600
+the aliens aliens yeah alias
+
+137
+00:05:25,120 --> 00:05:30,080
+it just it doesn't actually copy
+
+138
+00:05:27,600 --> 00:05:31,840
+everything shallow copy uh deep copy
+
+139
+00:05:30,080 --> 00:05:34,639
+copies everything
+
+140
+00:05:31,840 --> 00:05:36,479
+yeah so it makes exactly the same
+
+141
+00:05:34,639 --> 00:05:38,479
+but a separate
+
+142
+00:05:36,479 --> 00:05:41,039
+but shallow copy
+
+143
+00:05:38,479 --> 00:05:43,120
+may not yeah sometimes it just
+
+144
+00:05:41,039 --> 00:05:44,639
+copies the alias and then if you
+
+145
+00:05:43,120 --> 00:05:47,840
+multiply
+
+146
+00:05:44,639 --> 00:05:49,280
+okay so let's say at least a equals
+
+147
+00:05:47,840 --> 00:05:51,520
+one two three
+
+148
+00:05:49,280 --> 00:05:54,160
+if b equals a
+
+149
+00:05:51,520 --> 00:05:55,680
+this is the shallow copy why is that so
+
+150
+00:05:54,160 --> 00:05:59,360
+it means that
+
+151
+00:05:55,680 --> 00:06:01,680
+okay one two three a points to here
+
+152
+00:05:59,360 --> 00:06:03,199
+and then b equals a b also points to
+
+153
+00:06:01,680 --> 00:06:04,880
+here okay
+
+154
+00:06:03,199 --> 00:06:08,960
+so if i say
+
+155
+00:06:04,880 --> 00:06:11,520
+a a0 changes to yellow
+
+156
+00:06:08,960 --> 00:06:14,080
+then b0 also changes to 0 because they
+
+157
+00:06:11,520 --> 00:06:17,280
+all points to the same copy right
+
+158
+00:06:14,080 --> 00:06:20,080
+but if i say the d copy then i can say b
+
+159
+00:06:17,280 --> 00:06:22,720
+equals a remember we talk about the list
+
+160
+00:06:20,080 --> 00:06:24,880
+comprehension we put a single column
+
+161
+00:06:22,720 --> 00:06:27,440
+or we can use the copy
+
+162
+00:06:24,880 --> 00:06:30,080
+library dot d copy
+
+163
+00:06:27,440 --> 00:06:31,280
+and that's the separate copy that in
+
+164
+00:06:30,080 --> 00:06:34,960
+that case
+
+165
+00:06:31,280 --> 00:06:38,080
+a will points to a one two three
+
+166
+00:06:34,960 --> 00:06:41,280
+b will also copy another one two three
+
+167
+00:06:38,080 --> 00:06:43,600
+so if you change a zero to zero
+
+168
+00:06:41,280 --> 00:06:45,120
+it doesn't affect the value of b right
+
+169
+00:06:43,600 --> 00:06:46,560
+because they are separate they are
+
+170
+00:06:45,120 --> 00:06:49,840
+different
+
+171
+00:06:46,560 --> 00:06:52,319
+right i'm right yes
+
+172
+00:06:49,840 --> 00:06:54,240
+got it so if i say okay eric i make a
+
+173
+00:06:52,319 --> 00:06:56,800
+copy of you
+
+174
+00:06:54,240 --> 00:06:59,360
+okay suppose brian you are like
+
+175
+00:06:56,800 --> 00:07:01,599
+exactly the same copy of
+
+176
+00:06:59,360 --> 00:07:03,039
+eric okay you are two indeed independent
+
+177
+00:07:01,599 --> 00:07:03,919
+copies
+
+178
+00:07:03,039 --> 00:07:04,960
+yeah
+
+179
+00:07:03,919 --> 00:07:06,160
+okay
+
+180
+00:07:04,960 --> 00:07:07,039
+you got it
+
+181
+00:07:06,160 --> 00:07:09,360
+yeah
+
+182
+00:07:07,039 --> 00:07:12,479
+yeah so so
+
+183
+00:07:09,360 --> 00:07:14,000
+you understand yeah you understand
+
+184
+00:07:12,479 --> 00:07:16,400
+what's the okay can you give me an
+
+185
+00:07:14,000 --> 00:07:18,560
+example of the shadow copy
+
+186
+00:07:16,400 --> 00:07:20,960
+for example you're standing in front of
+
+187
+00:07:18,560 --> 00:07:22,639
+a mirror instead you're standing in
+
+188
+00:07:20,960 --> 00:07:25,120
+front of the mirror
+
+189
+00:07:22,639 --> 00:07:27,919
+the copy in the mirror
+
+190
+00:07:25,120 --> 00:07:29,120
+is a shallow copy right
+
+191
+00:07:27,919 --> 00:07:33,120
+am i right
+
+192
+00:07:29,120 --> 00:07:34,639
+yeah yeah because if i touch you here
+
+193
+00:07:33,120 --> 00:07:37,440
+in the mirror
+
+194
+00:07:34,639 --> 00:07:39,199
+i also touch the one in the mirror yeah
+
+195
+00:07:37,440 --> 00:07:41,599
+cut it
+
+196
+00:07:39,199 --> 00:07:42,720
+yeah make sense but look if i touch it
+
+197
+00:07:41,599 --> 00:07:44,400
+ryan
+
+198
+00:07:42,720 --> 00:07:45,440
+i didn't touch you right
+
+199
+00:07:44,400 --> 00:07:47,680
+you are
+
+200
+00:07:45,440 --> 00:07:50,160
+independent individual you are deep copy
+
+201
+00:07:47,680 --> 00:07:50,160
+of each other
+
+202
+00:07:50,800 --> 00:07:55,680
+okay so today we're going to keep
+
+203
+00:07:52,560 --> 00:07:57,199
+copying a clone clone usually we mean is
+
+204
+00:07:55,680 --> 00:07:59,280
+a big copy all right we're going to
+
+205
+00:07:57,199 --> 00:08:03,280
+clone a graph
+
+206
+00:07:59,280 --> 00:08:05,599
+okay so remind me what how many ways of
+
+207
+00:08:03,280 --> 00:08:06,960
+we can traverse a graph
+
+208
+00:08:05,599 --> 00:08:09,280
+usually you know
+
+209
+00:08:06,960 --> 00:08:10,400
+or three remember we talked about this
+
+210
+00:08:09,280 --> 00:08:11,840
+again
+
+211
+00:08:10,400 --> 00:08:14,720
+two
+
+212
+00:08:11,840 --> 00:08:16,240
+from like 99 times
+
+213
+00:08:14,720 --> 00:08:17,840
+maybe more than that
+
+214
+00:08:16,240 --> 00:08:20,960
+what kind of
+
+215
+00:08:17,840 --> 00:08:22,479
+traversal what kind of
+
+216
+00:08:20,960 --> 00:08:24,560
+we're done question search transfer
+
+217
+00:08:22,479 --> 00:08:25,919
+search yeah we're going to do this okay
+
+218
+00:08:24,560 --> 00:08:28,000
+so today we're going to focus on
+
+219
+00:08:25,919 --> 00:08:31,680
+different search okay i know tomorrow
+
+220
+00:08:28,000 --> 00:08:31,680
+we're going to do this research okay
+
+221
+00:08:32,000 --> 00:08:36,000
+so look if we need to go out we want to
+
+222
+00:08:34,399 --> 00:08:38,839
+copy this
+
+223
+00:08:36,000 --> 00:08:41,680
+using different search okay now one i'm
+
+224
+00:08:38,839 --> 00:08:42,719
+here for that one here this is i copy
+
+225
+00:08:41,680 --> 00:08:45,920
+one
+
+226
+00:08:42,719 --> 00:08:49,120
+okay then he has he has a a list of
+
+227
+00:08:45,920 --> 00:08:51,120
+vertex connects two so i i will
+
+228
+00:08:49,120 --> 00:08:51,839
+i will clone
+
+229
+00:08:51,120 --> 00:08:54,399
+the
+
+230
+00:08:51,839 --> 00:08:55,360
+each node okay
+
+231
+00:08:54,399 --> 00:08:58,160
+yeah
+
+232
+00:08:55,360 --> 00:09:01,040
+i will close each note but using the
+
+233
+00:08:58,160 --> 00:09:03,519
+definition then i will connor
+
+234
+00:09:01,040 --> 00:09:04,720
+maybe i would go for two first and then
+
+235
+00:09:03,519 --> 00:09:07,120
+six first
+
+236
+00:09:04,720 --> 00:09:08,720
+yeah and then go back and go to three
+
+237
+00:09:07,120 --> 00:09:10,080
+and then go to four
+
+238
+00:09:08,720 --> 00:09:12,800
+go to five
+
+239
+00:09:10,080 --> 00:09:14,080
+okay but since this is undirected if you
+
+240
+00:09:12,800 --> 00:09:15,760
+all have three
+
+241
+00:09:14,080 --> 00:09:18,160
+you don't want to go back to one right
+
+242
+00:09:15,760 --> 00:09:20,160
+so in in that case how do we solve this
+
+243
+00:09:18,160 --> 00:09:24,080
+problem we don't want to revisit it
+
+244
+00:09:20,160 --> 00:09:26,720
+no book we're done using a
+
+245
+00:09:24,080 --> 00:09:27,760
+headset okay let's say we visited so
+
+246
+00:09:26,720 --> 00:09:29,680
+that's the
+
+247
+00:09:27,760 --> 00:09:32,320
+one important thing to
+
+248
+00:09:29,680 --> 00:09:34,000
+to when we do this definition perfect
+
+249
+00:09:32,320 --> 00:09:36,800
+search in the graph usually we need the
+
+250
+00:09:34,000 --> 00:09:38,959
+notebook yeah the hashtag to remember
+
+251
+00:09:36,800 --> 00:09:41,839
+the vertex we have visited on the right
+
+252
+00:09:38,959 --> 00:09:43,920
+otherwise we were coming going back yeah
+
+253
+00:09:41,839 --> 00:09:46,000
+we're going back in cycles yeah and then
+
+254
+00:09:43,920 --> 00:09:48,080
+it will never end all right
+
+255
+00:09:46,000 --> 00:09:51,240
+okay so let's quickly write this in a
+
+256
+00:09:48,080 --> 00:09:51,240
+little bit
+
+257
+00:09:56,000 --> 00:09:59,839
+so how do we define the notebook in
+
+258
+00:09:58,480 --> 00:10:02,640
+person
+
+259
+00:09:59,839 --> 00:10:05,680
+there are a few ways okay
+
+260
+00:10:02,640 --> 00:10:08,320
+define okay let's say clone
+
+261
+00:10:05,680 --> 00:10:11,279
+chrome graph
+
+262
+00:10:08,320 --> 00:10:12,160
+let's say we have a graph
+
+263
+00:10:11,279 --> 00:10:14,800
+uh
+
+264
+00:10:12,160 --> 00:10:16,160
+maybe we just say a vertex a node okay a
+
+265
+00:10:14,800 --> 00:10:19,360
+node
+
+266
+00:10:16,160 --> 00:10:19,360
+a node a note
+
+267
+00:10:21,040 --> 00:10:25,279
+so let's say we want to define
+
+268
+00:10:23,600 --> 00:10:27,279
+a clone here
+
+269
+00:10:25,279 --> 00:10:28,399
+we're given a note
+
+270
+00:10:27,279 --> 00:10:29,680
+so
+
+271
+00:10:28,399 --> 00:10:31,600
+we want to
+
+272
+00:10:29,680 --> 00:10:34,160
+this is the note we currently want to
+
+273
+00:10:31,600 --> 00:10:36,959
+know we only copy and we also need to
+
+274
+00:10:34,160 --> 00:10:39,680
+provide a parameter which is the hash
+
+275
+00:10:36,959 --> 00:10:41,839
+notebook right so the notes we we can
+
+276
+00:10:39,680 --> 00:10:44,240
+reference once we copy it
+
+277
+00:10:41,839 --> 00:10:46,959
+right so let's say we have a
+
+278
+00:10:44,240 --> 00:10:49,519
+memo okay remember at the beginning it's
+
+279
+00:10:46,959 --> 00:10:51,680
+a dictionary empty dictionary okay we
+
+280
+00:10:49,519 --> 00:10:53,600
+can move this memo here
+
+281
+00:10:51,680 --> 00:10:56,640
+we can move this mammal here it doesn't
+
+282
+00:10:53,600 --> 00:10:58,959
+it has no problem we can move it this
+
+283
+00:10:56,640 --> 00:11:03,200
+inside the scope of the local function
+
+284
+00:10:58,959 --> 00:11:06,160
+that's fine so if not note yeah if let's
+
+285
+00:11:03,200 --> 00:11:07,680
+not notice empty will just return
+
+286
+00:11:06,160 --> 00:11:09,440
+return
+
+287
+00:11:07,680 --> 00:11:12,959
+now okay
+
+288
+00:11:09,440 --> 00:11:16,000
+and then if the node has been visited
+
+289
+00:11:12,959 --> 00:11:18,640
+in memo
+
+290
+00:11:16,000 --> 00:11:20,800
+then we return
+
+291
+00:11:18,640 --> 00:11:22,720
+memo
+
+292
+00:11:20,800 --> 00:11:24,640
+node okay
+
+293
+00:11:22,720 --> 00:11:26,880
+yeah look
+
+294
+00:11:24,640 --> 00:11:29,200
+if this note we have been
+
+295
+00:11:26,880 --> 00:11:31,360
+visited in the memo we return it all
+
+296
+00:11:29,200 --> 00:11:34,560
+right we create a copy here we have this
+
+297
+00:11:31,360 --> 00:11:37,120
+cloned copy let's say we just say
+
+298
+00:11:34,560 --> 00:11:38,959
+copy okay this is a copy
+
+299
+00:11:37,120 --> 00:11:40,800
+which is node
+
+300
+00:11:38,959 --> 00:11:43,680
+and then we are currently copying this
+
+301
+00:11:40,800 --> 00:11:45,040
+node so now the value
+
+302
+00:11:43,680 --> 00:11:48,320
+okay
+
+303
+00:11:45,040 --> 00:11:50,320
+and then the second parameter is the
+
+304
+00:11:48,320 --> 00:11:52,079
+the neighbors the list of the vertex it
+
+305
+00:11:50,320 --> 00:11:54,560
+connects to adjacent lists yeah so at
+
+306
+00:11:52,079 --> 00:11:57,440
+the beginning is empty here
+
+307
+00:11:54,560 --> 00:12:00,000
+now this is the key part here once we
+
+308
+00:11:57,440 --> 00:12:01,680
+have this copy we need to
+
+309
+00:12:00,000 --> 00:12:03,519
+put it in a
+
+310
+00:12:01,680 --> 00:12:04,720
+visited step we need to remember it
+
+311
+00:12:03,519 --> 00:12:06,880
+right
+
+312
+00:12:04,720 --> 00:12:08,560
+yeah otherwise you come come up we need
+
+313
+00:12:06,880 --> 00:12:11,360
+to come back again and then we don't
+
+314
+00:12:08,560 --> 00:12:13,920
+want that right so let's say we need to
+
+315
+00:12:11,360 --> 00:12:15,600
+put it in uh
+
+316
+00:12:13,920 --> 00:12:17,920
+put it in a
+
+317
+00:12:15,600 --> 00:12:21,120
+notebook
+
+318
+00:12:17,920 --> 00:12:22,720
+note equals copy okay we remember it
+
+319
+00:12:21,120 --> 00:12:24,480
+and then we just we
+
+320
+00:12:22,720 --> 00:12:27,360
+look
+
+321
+00:12:24,480 --> 00:12:30,399
+here we are in this node here
+
+322
+00:12:27,360 --> 00:12:33,040
+and then we have a list of nodes
+
+323
+00:12:30,399 --> 00:12:35,360
+we copy these nodes so now we we want to
+
+324
+00:12:33,040 --> 00:12:37,600
+copy which nodes
+
+325
+00:12:35,360 --> 00:12:39,600
+all the other nodes connected to it yeah
+
+326
+00:12:37,600 --> 00:12:41,279
+all the vertices connects to it so then
+
+327
+00:12:39,600 --> 00:12:44,880
+we can say copy
+
+328
+00:12:41,279 --> 00:12:47,680
+stop let's say neighbors yeah neighbors
+
+329
+00:12:44,880 --> 00:12:50,320
+how do you spell neighbors
+
+330
+00:12:47,680 --> 00:12:51,360
+n e i g
+
+331
+00:12:50,320 --> 00:12:52,519
+h b
+
+332
+00:12:51,360 --> 00:12:55,360
+r
+
+333
+00:12:52,519 --> 00:12:56,890
+b-o-r-o-b-o-u-f i think one is american
+
+334
+00:12:55,360 --> 00:12:59,279
+okay
+
+335
+00:12:56,890 --> 00:13:01,279
+[Music]
+
+336
+00:12:59,279 --> 00:13:02,959
+english british english poi is the
+
+337
+00:13:01,279 --> 00:13:05,360
+american issue okay
+
+338
+00:13:02,959 --> 00:13:07,760
+neighbors equals then we don't
+
+339
+00:13:05,360 --> 00:13:08,880
+copy all the neighbors then we can say
+
+340
+00:13:07,760 --> 00:13:10,480
+clone
+
+341
+00:13:08,880 --> 00:13:12,480
+calling this function clone yeah
+
+342
+00:13:10,480 --> 00:13:13,839
+recursion clone
+
+343
+00:13:12,480 --> 00:13:16,480
+x
+
+344
+00:13:13,839 --> 00:13:20,680
+for x in
+
+345
+00:13:16,480 --> 00:13:20,680
+in know the neighbors yeah
+
+346
+00:13:20,800 --> 00:13:26,639
+okay this is the trick here
+
+347
+00:13:22,959 --> 00:13:29,360
+a line return copy return copy
+
+348
+00:13:26,639 --> 00:13:31,440
+and now we can just return
+
+349
+00:13:29,360 --> 00:13:33,200
+clone
+
+350
+00:13:31,440 --> 00:13:35,839
+note
+
+351
+00:13:33,200 --> 00:13:35,839
+okay
+
+352
+00:13:36,480 --> 00:13:40,240
+yeah look
+
+353
+00:13:38,160 --> 00:13:41,360
+can we use the cache function remember
+
+354
+00:13:40,240 --> 00:13:43,680
+we we
+
+355
+00:13:41,360 --> 00:13:47,279
+when we do this dynamic programming we
+
+356
+00:13:43,680 --> 00:13:49,760
+usually put a cache here right yeah
+
+357
+00:13:47,279 --> 00:13:51,519
+if we put a cache here what does it mean
+
+358
+00:13:49,760 --> 00:13:52,880
+it actually means that before this
+
+359
+00:13:51,519 --> 00:13:56,079
+function
+
+360
+00:13:52,880 --> 00:13:57,920
+is returning the value
+
+361
+00:13:56,079 --> 00:14:01,279
+we need to put it in the memory so
+
+362
+00:13:57,920 --> 00:14:03,839
+basically you'll be putting here right
+
+363
+00:14:01,279 --> 00:14:06,079
+yeah there's a difference look if we put
+
+364
+00:14:03,839 --> 00:14:08,320
+a cache here it actually means the
+
+365
+00:14:06,079 --> 00:14:09,760
+moving this line to here before before
+
+366
+00:14:08,320 --> 00:14:11,120
+returning
+
+367
+00:14:09,760 --> 00:14:12,560
+right
+
+368
+00:14:11,120 --> 00:14:15,040
+all right
+
+369
+00:14:12,560 --> 00:14:16,720
+then that's a problem why is that
+
+370
+00:14:15,040 --> 00:14:18,800
+okay look there's a problem so this
+
+371
+00:14:16,720 --> 00:14:20,880
+doesn't work why is that it doesn't work
+
+372
+00:14:18,800 --> 00:14:22,480
+okay this doesn't work
+
+373
+00:14:20,880 --> 00:14:24,079
+so
+
+374
+00:14:22,480 --> 00:14:25,600
+why we need to
+
+375
+00:14:24,079 --> 00:14:28,800
+save it
+
+376
+00:14:25,600 --> 00:14:30,399
+right after we create a node we love
+
+377
+00:14:28,800 --> 00:14:32,079
+copying the neighbors
+
+378
+00:14:30,399 --> 00:14:34,320
+right so look
+
+379
+00:14:32,079 --> 00:14:36,160
+we are here means that we have just
+
+380
+00:14:34,320 --> 00:14:37,199
+copied these without copying the
+
+381
+00:14:36,160 --> 00:14:39,360
+neighbors
+
+382
+00:14:37,199 --> 00:14:41,279
+now we put it in the visited set or
+
+383
+00:14:39,360 --> 00:14:43,199
+immediately before we copy in the
+
+384
+00:14:41,279 --> 00:14:46,880
+neighbors yeah
+
+385
+00:14:43,199 --> 00:14:48,320
+if if i move it after then there'll be a
+
+386
+00:14:46,880 --> 00:14:50,000
+problem
+
+387
+00:14:48,320 --> 00:14:51,040
+there will be problem look if i move
+
+388
+00:14:50,000 --> 00:14:53,279
+this
+
+389
+00:14:51,040 --> 00:14:54,320
+after the copying
+
+390
+00:14:53,279 --> 00:14:56,160
+after
+
+391
+00:14:54,320 --> 00:14:58,320
+the neighbors are copied
+
+392
+00:14:56,160 --> 00:14:59,920
+there will be a problem
+
+393
+00:14:58,320 --> 00:15:01,600
+can you tell me why
+
+394
+00:14:59,920 --> 00:15:03,040
+if i move this
+
+395
+00:15:01,600 --> 00:15:04,959
+move like copy
+
+396
+00:15:03,040 --> 00:15:06,240
+move the segment in
+
+397
+00:15:04,959 --> 00:15:08,160
+yeah
+
+398
+00:15:06,240 --> 00:15:10,480
+move it move these
+
+399
+00:15:08,160 --> 00:15:11,920
+right after the neighbors called
+
+400
+00:15:10,480 --> 00:15:14,800
+neighbors are copies there will not be a
+
+401
+00:15:11,920 --> 00:15:14,800
+problem why is that look
+
+402
+00:15:16,000 --> 00:15:20,000
+okay let's say
+
+403
+00:15:17,600 --> 00:15:21,279
+here yeah that's one two
+
+404
+00:15:20,000 --> 00:15:24,639
+three
+
+405
+00:15:21,279 --> 00:15:28,399
+yeah look i copy one
+
+406
+00:15:24,639 --> 00:15:28,399
+yeah the neighbors are two and three
+
+407
+00:15:28,560 --> 00:15:33,920
+now if i haven't saved it i if i wait
+
+408
+00:15:32,000 --> 00:15:35,199
+for two and three
+
+409
+00:15:33,920 --> 00:15:36,240
+to be
+
+410
+00:15:35,199 --> 00:15:37,440
+copied
+
+411
+00:15:36,240 --> 00:15:39,120
+clone
+
+412
+00:15:37,440 --> 00:15:41,120
+and then i put it in a
+
+413
+00:15:39,120 --> 00:15:42,079
+visited in the memo
+
+414
+00:15:41,120 --> 00:15:44,320
+then
+
+415
+00:15:42,079 --> 00:15:46,399
+there will be cycle why is that look
+
+416
+00:15:44,320 --> 00:15:48,079
+because two
+
+417
+00:15:46,399 --> 00:15:51,759
+if you want to copy two you need to copy
+
+418
+00:15:48,079 --> 00:15:53,440
+one and three but look one relies on two
+
+419
+00:15:51,759 --> 00:15:54,880
+two lies on one
+
+420
+00:15:53,440 --> 00:15:57,040
+so that would be your problem why is
+
+421
+00:15:54,880 --> 00:15:59,759
+that i wait for you to finish and then
+
+422
+00:15:57,040 --> 00:16:02,480
+you again wait for me to finish
+
+423
+00:15:59,759 --> 00:16:05,199
+so there will be never ending
+
+424
+00:16:02,480 --> 00:16:07,440
+there will be never ending do you get it
+
+425
+00:16:05,199 --> 00:16:09,519
+because one said one
+
+426
+00:16:07,440 --> 00:16:12,160
+the vertex one says okay
+
+427
+00:16:09,519 --> 00:16:15,519
+let's copy two and three and after two
+
+428
+00:16:12,160 --> 00:16:17,040
+and three copy i'll copy acron and i am
+
+429
+00:16:15,519 --> 00:16:19,360
+mark as
+
+430
+00:16:17,040 --> 00:16:22,720
+i can mark one
+
+431
+00:16:19,360 --> 00:16:25,040
+has been seen i've been visited
+
+432
+00:16:22,720 --> 00:16:27,199
+but when he when he needs to copy two
+
+433
+00:16:25,040 --> 00:16:29,759
+then two will say okay i want to copy
+
+434
+00:16:27,199 --> 00:16:31,839
+two now let's let's wait until one and
+
+435
+00:16:29,759 --> 00:16:33,680
+three are finished
+
+436
+00:16:31,839 --> 00:16:35,680
+but the thing is the one needs to wait
+
+437
+00:16:33,680 --> 00:16:36,959
+for two and two says okay i need to wait
+
+438
+00:16:35,680 --> 00:16:38,880
+for one
+
+439
+00:16:36,959 --> 00:16:40,639
+what does that mean
+
+440
+00:16:38,880 --> 00:16:44,399
+they're just waiting for nothing yeah
+
+441
+00:16:40,639 --> 00:16:46,079
+everything you say okay wait and ryan i
+
+442
+00:16:44,399 --> 00:16:47,040
+wait until you
+
+443
+00:16:46,079 --> 00:16:48,160
+finish
+
+444
+00:16:47,040 --> 00:16:50,639
+the play
+
+445
+00:16:48,160 --> 00:16:52,079
+playing uh yeah playing games
+
+446
+00:16:50,639 --> 00:16:52,959
+and ryan you say
+
+447
+00:16:52,079 --> 00:16:56,160
+okay
+
+448
+00:16:52,959 --> 00:16:57,279
+eric i wait until you finish homework
+
+449
+00:16:56,160 --> 00:17:00,240
+right
+
+450
+00:16:57,279 --> 00:17:04,079
+yeah and then you you say aaron you said
+
+451
+00:17:00,240 --> 00:17:06,079
+okay i i i start homework before uh uh
+
+452
+00:17:04,079 --> 00:17:08,160
+after you i played again so there will
+
+453
+00:17:06,079 --> 00:17:09,679
+be cycle that will be your cycle right
+
+454
+00:17:08,160 --> 00:17:10,880
+and the recycle
+
+455
+00:17:09,679 --> 00:17:14,640
+yeah
+
+456
+00:17:10,880 --> 00:17:16,480
+okay so now to how to break this cycle
+
+457
+00:17:14,640 --> 00:17:18,079
+then i can say okay i start with copy
+
+458
+00:17:16,480 --> 00:17:19,919
+one right
+
+459
+00:17:18,079 --> 00:17:22,240
+okay i'm not waiting for two and three
+
+460
+00:17:19,919 --> 00:17:24,240
+and i say okay one is visited
+
+461
+00:17:22,240 --> 00:17:26,480
+it's visited even i haven't copied
+
+462
+00:17:24,240 --> 00:17:27,280
+actually copy the content of two and
+
+463
+00:17:26,480 --> 00:17:29,600
+three
+
+464
+00:17:27,280 --> 00:17:32,880
+right so when two
+
+465
+00:17:29,600 --> 00:17:35,840
+is visited yeah two is visited and then
+
+466
+00:17:32,880 --> 00:17:38,799
+you'll check okay one
+
+467
+00:17:35,840 --> 00:17:40,000
+i always i check one i need one to be
+
+468
+00:17:38,799 --> 00:17:43,360
+cloned
+
+469
+00:17:40,000 --> 00:17:45,440
+but one already been marked as
+
+470
+00:17:43,360 --> 00:17:46,400
+visited so that's okay he doesn't go
+
+471
+00:17:45,440 --> 00:17:48,559
+back again
+
+472
+00:17:46,400 --> 00:17:51,039
+so there's no cycle right
+
+473
+00:17:48,559 --> 00:17:53,280
+so here we don't use the cash because
+
+474
+00:17:51,039 --> 00:17:55,120
+using the cash it will be eventually the
+
+475
+00:17:53,280 --> 00:17:57,440
+same as moving this
+
+476
+00:17:55,120 --> 00:18:00,320
+before right before
+
+477
+00:17:57,440 --> 00:18:02,960
+the content the the right value is
+
+478
+00:18:00,320 --> 00:18:04,400
+recurrence this variable okay
+
+479
+00:18:02,960 --> 00:18:06,640
+yeah
+
+480
+00:18:04,400 --> 00:18:08,799
+hold on look look at this
+
+481
+00:18:06,640 --> 00:18:11,360
+what's this copy the neighbors equals
+
+482
+00:18:08,799 --> 00:18:12,559
+clone which part is the recursion can
+
+483
+00:18:11,360 --> 00:18:15,360
+you point it out
+
+484
+00:18:12,559 --> 00:18:18,559
+which part is the question that
+
+485
+00:18:15,360 --> 00:18:22,000
+yeah yeah calling itself come on
+
+486
+00:18:18,559 --> 00:18:23,760
+yeah clone x what's x x is in the note
+
+487
+00:18:22,000 --> 00:18:25,200
+neighbor so i want to clone the
+
+488
+00:18:23,760 --> 00:18:26,799
+neighbors
+
+489
+00:18:25,200 --> 00:18:30,000
+i want to clone everything in the
+
+490
+00:18:26,799 --> 00:18:30,799
+neighbors okay yeah yeah
+
+491
+00:18:30,000 --> 00:18:34,559
+this
+
+492
+00:18:30,799 --> 00:18:36,080
+what's this definitely your preferences
+
+493
+00:18:34,559 --> 00:18:37,840
+yeah using the publication yeah
+
+494
+00:18:36,080 --> 00:18:40,240
+therefore search okay the time
+
+495
+00:18:37,840 --> 00:18:43,200
+complexity is one
+
+496
+00:18:40,240 --> 00:18:45,200
+if the n vertex and m edges the clone
+
+497
+00:18:43,200 --> 00:18:46,559
+can make this element
+
+498
+00:18:45,200 --> 00:18:49,360
+no no no
+
+499
+00:18:46,559 --> 00:18:50,559
+yeah and all present and vertex and
+
+500
+00:18:49,360 --> 00:18:51,919
+logic
+
+501
+00:18:50,559 --> 00:18:55,640
+and vertex
+
+502
+00:18:51,919 --> 00:18:55,640
+m edges okay
+
+503
+00:18:56,880 --> 00:19:01,200
+okay yeah that's it do some endings
+
+504
+00:19:03,440 --> 00:19:07,480
+okay that's it for today bye
+
