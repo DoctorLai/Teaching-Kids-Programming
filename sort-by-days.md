@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 399 (2022-02-03): [Clone (Deep Copy) a Undirected Connected Graph using Recursive Depth First Search Algorithm](https://helloacm.com/teaching-kids-programming-clone-deep-copy-a-undirected-connected-graph-using-recursive-depth-first-search-algorithm/) 递归深度优先搜索算法克隆(深度拷贝)无向联结图 [Youtube](https://youtu.be/5H5VNOu7seQ) - [B站](https://www.bilibili.com/video/BV1CP4y1A7U3/)  - [西瓜](https://www.ixigua.com/7060624247026090527) 
 - Day 398 (2022-02-02): [Estimate the Math Continued Fraction Value in Python (Recursion and Iterative Algorithm)](https://helloacm.com/teaching-kids-programming-estimate-the-continued-fraction-value-in-python-recursion-and-iterative-algorithm/) 数学连分数的求值算法(递归和迭代) [Youtube](https://youtu.be/--IwdQuxMxQ) - [B站](https://www.bilibili.com/video/BV1KU4y1F7wL/)  - [西瓜](https://www.ixigua.com/7060238081521254925) 
 - Day 397 (2022-02-01): [Top Down and Bottom Up Recursive Algorithms to Determine a Balanced Binary Tree](https://helloacm.com/teaching-kids-programming-top-down-and-bottom-up-recursive-algorithms-to-determine-a-balanced-binary-tree/) 平衡二叉树的二种递归算法: 自上而下和自下而上
  [Youtube](https://youtu.be/sNR7phz7ku4) - [B站](https://www.bilibili.com/video/BV1AR4y1M7et/)  - [西瓜](https://www.ixigua.com/7059876415855919630) 
