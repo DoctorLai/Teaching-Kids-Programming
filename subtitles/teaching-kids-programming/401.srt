@@ -1,0 +1,1740 @@
+1
+00:00:00,000 --> 00:00:04,400
+hello mr and mr wright are you right
+
+2
+00:00:01,839 --> 00:00:07,839
+yeah okay baby
+
+3
+00:00:04,400 --> 00:00:10,000
+okay so we're given an array of numbers
+
+4
+00:00:07,839 --> 00:00:11,599
+like 2 4 3
+
+5
+00:00:10,000 --> 00:00:12,400
+1 2
+
+6
+00:00:11,599 --> 00:00:15,679
+okay
+
+7
+00:00:12,400 --> 00:00:17,199
+and we're going to solve these numbers
+
+8
+00:00:15,679 --> 00:00:19,279
+using two
+
+9
+00:00:17,199 --> 00:00:22,640
+approach so we're going to solve the
+
+10
+00:00:19,279 --> 00:00:24,480
+numbers that start at the even index so
+
+11
+00:00:22,640 --> 00:00:26,480
+in even indexing
+
+12
+00:00:24,480 --> 00:00:29,760
+so let's certain these number we're
+
+13
+00:00:26,480 --> 00:00:31,760
+going to sort every two numbers starting
+
+14
+00:00:29,760 --> 00:00:32,880
+from first one
+
+15
+00:00:31,760 --> 00:00:35,520
+increasing
+
+16
+00:00:32,880 --> 00:00:39,120
+so a little bit one four and
+
+17
+00:00:35,520 --> 00:00:41,200
+the numbers start at the odd index okay
+
+18
+00:00:39,120 --> 00:00:45,520
+so the second number is actually the
+
+19
+00:00:41,200 --> 00:00:47,680
+index one so this is all indexes one two
+
+20
+00:00:45,520 --> 00:00:49,039
+three okay so that's zero one two three
+
+21
+00:00:47,680 --> 00:00:50,879
+okay
+
+22
+00:00:49,039 --> 00:00:53,120
+so
+
+23
+00:00:50,879 --> 00:00:55,280
+we're going to sort the numbers let's
+
+24
+00:00:53,120 --> 00:00:57,840
+start at the
+
+25
+00:00:55,280 --> 00:01:00,480
+even index
+
+26
+00:00:57,840 --> 00:01:03,520
+increasing and the odd index decreasing
+
+27
+00:01:00,480 --> 00:01:05,439
+so eventually the arrays will become
+
+28
+00:01:03,520 --> 00:01:06,400
+four
+
+29
+00:01:05,439 --> 00:01:07,200
+two
+
+30
+00:01:06,400 --> 00:01:09,920
+one
+
+31
+00:01:07,200 --> 00:01:09,920
+three okay
+
+32
+00:01:10,560 --> 00:01:14,799
+doesn't make sense yeah
+
+33
+00:01:13,040 --> 00:01:16,560
+okay i'm going to give another example
+
+34
+00:01:14,799 --> 00:01:20,720
+okay so you need to tell me what's the
+
+35
+00:01:16,560 --> 00:01:20,720
+array going to be like after sorting
+
+36
+00:01:21,840 --> 00:01:24,479
+all right
+
+37
+00:01:22,640 --> 00:01:27,439
+one
+
+38
+00:01:24,479 --> 00:01:29,600
+two
+
+39
+00:01:27,439 --> 00:01:31,920
+zero
+
+40
+00:01:29,600 --> 00:01:36,119
+five okay this is just this one so
+
+41
+00:01:31,920 --> 00:01:36,119
+what's this going to be like
+
+42
+00:01:37,120 --> 00:01:43,209
+[Music]
+
+43
+00:01:45,840 --> 00:01:51,119
+okay so we're down look these these two
+
+44
+00:01:48,320 --> 00:01:52,960
+numbers increasing so zero one these two
+
+45
+00:01:51,119 --> 00:01:54,560
+numbers decreasing
+
+46
+00:01:52,960 --> 00:01:56,719
+five too okay
+
+47
+00:01:54,560 --> 00:01:59,360
+so
+
+48
+00:01:56,719 --> 00:02:02,079
+yeah make sense yeah yeah so ho ho we're
+
+49
+00:01:59,360 --> 00:02:02,079
+going to do this
+
+50
+00:02:02,799 --> 00:02:08,720
+yeah anyway what's the only way you like
+
+51
+00:02:06,399 --> 00:02:09,759
+anyway well the first thing to do is to
+
+52
+00:02:08,720 --> 00:02:11,440
+do
+
+53
+00:02:09,759 --> 00:02:12,959
+it to play games
+
+54
+00:02:11,440 --> 00:02:13,920
+is to uh
+
+55
+00:02:12,959 --> 00:02:16,160
+um
+
+56
+00:02:13,920 --> 00:02:18,959
+check the
+
+57
+00:02:16,160 --> 00:02:20,640
+index check index
+
+58
+00:02:18,959 --> 00:02:22,400
+okay that could be one way how can we
+
+59
+00:02:20,640 --> 00:02:24,080
+check the index but we're going to
+
+60
+00:02:22,400 --> 00:02:26,400
+eventually we're going to
+
+61
+00:02:24,080 --> 00:02:27,680
+we yeah so the first thing to do is to
+
+62
+00:02:26,400 --> 00:02:30,800
+find the
+
+63
+00:02:27,680 --> 00:02:33,760
+just to split the array into twos right
+
+64
+00:02:30,800 --> 00:02:35,599
+once containing the numbers starting the
+
+65
+00:02:33,760 --> 00:02:37,200
+inver index the other one starting from
+
+66
+00:02:35,599 --> 00:02:39,840
+the odd index right
+
+67
+00:02:37,200 --> 00:02:42,160
+yeah and now we can sort those
+
+68
+00:02:39,840 --> 00:02:43,920
+arrays two arrays separately and then we
+
+69
+00:02:42,160 --> 00:02:46,000
+can merge them right that's the one
+
+70
+00:02:43,920 --> 00:02:49,879
+approach all right
+
+71
+00:02:46,000 --> 00:02:49,879
+okay now let's do this
+
+72
+00:02:58,560 --> 00:03:01,560
+okay
+
+73
+00:03:04,239 --> 00:03:09,200
+okay so let let's say if the if these
+
+74
+00:03:06,720 --> 00:03:11,840
+numbers is empty okay if this if the
+
+75
+00:03:09,200 --> 00:03:11,840
+numbers is
+
+76
+00:03:12,159 --> 00:03:16,200
+and we just return okay
+
+77
+00:03:18,480 --> 00:03:23,280
+now the odd index
+
+78
+00:03:21,040 --> 00:03:26,159
+or index equals how can we pick the
+
+79
+00:03:23,280 --> 00:03:28,480
+numbers only for the odd index do you
+
+80
+00:03:26,159 --> 00:03:32,560
+still remember how do we pick the
+
+81
+00:03:28,480 --> 00:03:32,560
+numbers let's start with the even index
+
+82
+00:03:32,640 --> 00:03:36,400
+plus
+
+83
+00:03:34,239 --> 00:03:39,040
+yeah you remember two yeah every two
+
+84
+00:03:36,400 --> 00:03:41,200
+means every other element okay so the
+
+85
+00:03:39,040 --> 00:03:45,200
+number remember this thing
+
+86
+00:03:41,200 --> 00:03:49,040
+remember listing a column b currency
+
+87
+00:03:45,200 --> 00:03:50,799
+start at a index a and the index b
+
+88
+00:03:49,040 --> 00:03:52,080
+but not including it
+
+89
+00:03:50,799 --> 00:03:53,840
+every
+
+90
+00:03:52,080 --> 00:03:56,879
+c step okay
+
+91
+00:03:53,840 --> 00:03:59,200
+so all index we start our index star
+
+92
+00:03:56,879 --> 00:04:00,640
+with the second one right so one until
+
+93
+00:03:59,200 --> 00:04:03,840
+the end
+
+94
+00:04:00,640 --> 00:04:06,799
+and every other element right even index
+
+95
+00:04:03,840 --> 00:04:06,799
+start with zero
+
+96
+00:04:06,959 --> 00:04:11,280
+ah they still remember start with zero
+
+97
+00:04:09,439 --> 00:04:12,239
+and the end every and
+
+98
+00:04:11,280 --> 00:04:14,159
+every
+
+99
+00:04:12,239 --> 00:04:16,000
+other element that's why we'll put a
+
+100
+00:04:14,159 --> 00:04:18,239
+step to here
+
+101
+00:04:16,000 --> 00:04:18,239
+right
+
+102
+00:04:18,720 --> 00:04:22,800
+do we note if they have the same number
+
+103
+00:04:21,040 --> 00:04:24,080
+of elements
+
+104
+00:04:22,800 --> 00:04:26,800
+um
+
+105
+00:04:24,080 --> 00:04:29,440
+no no yeah that's that's uh that's for
+
+106
+00:04:26,800 --> 00:04:31,919
+sure because the number could contain
+
+107
+00:04:29,440 --> 00:04:34,880
+odd numbers or all numbers and numbers
+
+108
+00:04:31,919 --> 00:04:35,680
+or even numbers of numbers right yeah
+
+109
+00:04:34,880 --> 00:04:36,880
+yeah
+
+110
+00:04:35,680 --> 00:04:38,800
+so
+
+111
+00:04:36,880 --> 00:04:39,840
+so okay so look
+
+112
+00:04:38,800 --> 00:04:42,720
+let's say
+
+113
+00:04:39,840 --> 00:04:45,199
+one two three four okay
+
+114
+00:04:42,720 --> 00:04:47,360
+so after this the odd
+
+115
+00:04:45,199 --> 00:04:49,440
+will contain
+
+116
+00:04:47,360 --> 00:04:52,479
+okay maybe we i put another five here
+
+117
+00:04:49,440 --> 00:04:53,360
+okay odd number will contain
+
+118
+00:04:52,479 --> 00:04:54,400
+two
+
+119
+00:04:53,360 --> 00:04:57,040
+four
+
+120
+00:04:54,400 --> 00:04:58,320
+right the even number
+
+121
+00:04:57,040 --> 00:05:01,120
+will contain
+
+122
+00:04:58,320 --> 00:05:03,840
+one three five okay
+
+123
+00:05:01,120 --> 00:05:06,080
+yeah let me start we start with the even
+
+124
+00:05:03,840 --> 00:05:08,320
+number right so yeah so what what do we
+
+125
+00:05:06,080 --> 00:05:11,310
+do now so we have even numbers and all
+
+126
+00:05:08,320 --> 00:05:12,720
+numbers so what do we do now we know
+
+127
+00:05:11,310 --> 00:05:14,400
+[Music]
+
+128
+00:05:12,720 --> 00:05:16,800
+them yeah we saw that we need to solve
+
+129
+00:05:14,400 --> 00:05:18,960
+these numbers increasing so first we
+
+130
+00:05:16,800 --> 00:05:20,960
+need to solve this number increasing so
+
+131
+00:05:18,960 --> 00:05:22,800
+the numbers
+
+132
+00:05:20,960 --> 00:05:25,280
+so so let's say we want to solve the
+
+133
+00:05:22,800 --> 00:05:27,120
+even numbers increasing and then the odd
+
+134
+00:05:25,280 --> 00:05:29,199
+number decreasing yeah so let's say we
+
+135
+00:05:27,120 --> 00:05:30,320
+put a sort here
+
+136
+00:05:29,199 --> 00:05:31,680
+sorted
+
+137
+00:05:30,320 --> 00:05:34,560
+yeah
+
+138
+00:05:31,680 --> 00:05:36,720
+even number increasing the odd number
+
+139
+00:05:34,560 --> 00:05:39,840
+decreasing started
+
+140
+00:05:36,720 --> 00:05:40,880
+we give a key we say reverse equals true
+
+141
+00:05:39,840 --> 00:05:43,360
+right
+
+142
+00:05:40,880 --> 00:05:45,360
+which means that we want to sort it in
+
+143
+00:05:43,360 --> 00:05:46,720
+reverse order which is from the largest
+
+144
+00:05:45,360 --> 00:05:48,720
+to the smallest
+
+145
+00:05:46,720 --> 00:05:50,800
+right alternatively we can solve this
+
+146
+00:05:48,720 --> 00:05:54,639
+number and we can reverse it do we still
+
+147
+00:05:50,800 --> 00:05:56,960
+remember how we reverse and a list
+
+148
+00:05:54,639 --> 00:05:59,199
+minus one yeah or whether i or if we can
+
+149
+00:05:56,960 --> 00:06:00,560
+do it is that two pointer thing
+
+150
+00:05:59,199 --> 00:06:02,960
+yeah
+
+151
+00:06:00,560 --> 00:06:06,479
+you know two points i think one two
+
+152
+00:06:02,960 --> 00:06:06,479
+three four five
+
+153
+00:06:17,220 --> 00:06:20,479
+[Music]
+
+154
+00:06:28,400 --> 00:06:32,800
+so we have that
+
+155
+00:06:30,400 --> 00:06:32,800
+now we
+
+156
+00:06:33,759 --> 00:06:38,400
+okay so we have left we have learned
+
+157
+00:06:36,160 --> 00:06:40,639
+numbers ready now the next step is to
+
+158
+00:06:38,400 --> 00:06:43,680
+merge them yeah so how do we imagine we
+
+159
+00:06:40,639 --> 00:06:45,520
+pick one number from each yeah
+
+160
+00:06:43,680 --> 00:06:46,800
+do you still remember how we merged two
+
+161
+00:06:45,520 --> 00:06:47,520
+saltines
+
+162
+00:06:46,800 --> 00:06:51,199
+i
+
+163
+00:06:47,520 --> 00:06:52,800
+bridge how do we merge two certainties
+
+164
+00:06:51,199 --> 00:06:54,800
+how do we measure two points i think
+
+165
+00:06:52,800 --> 00:06:56,720
+pick one from each other and then move
+
+166
+00:06:54,800 --> 00:06:59,039
+yeah yeah
+
+167
+00:06:56,720 --> 00:07:01,120
+so we can do this answer
+
+168
+00:06:59,039 --> 00:07:03,120
+because i'll empty this
+
+169
+00:07:01,120 --> 00:07:07,520
+and then let's say
+
+170
+00:07:03,120 --> 00:07:09,280
+i equals j equals you know y
+
+171
+00:07:07,520 --> 00:07:11,520
+i smaller than
+
+172
+00:07:09,280 --> 00:07:13,680
+we start from the even number length
+
+173
+00:07:11,520 --> 00:07:14,960
+even
+
+174
+00:07:13,680 --> 00:07:19,039
+and
+
+175
+00:07:14,960 --> 00:07:20,960
+j smaller than lens odd
+
+176
+00:07:19,039 --> 00:07:23,520
+and then we pick one from the event we
+
+177
+00:07:20,960 --> 00:07:26,240
+pick one from the other answer
+
+178
+00:07:23,520 --> 00:07:26,240
+dot append
+
+179
+00:07:26,639 --> 00:07:32,720
+even
+
+180
+00:07:28,840 --> 00:07:34,479
+i answer the append yeah we pick
+
+181
+00:07:32,720 --> 00:07:36,400
+we pick in turn
+
+182
+00:07:34,479 --> 00:07:38,639
+one we pick one even number and then we
+
+183
+00:07:36,400 --> 00:07:40,639
+pick one other number okay
+
+184
+00:07:38,639 --> 00:07:43,120
+yeah
+
+185
+00:07:40,639 --> 00:07:46,720
+and then we move the pointer i plus
+
+186
+00:07:43,120 --> 00:07:49,840
+equals 1 j plus equals 1
+
+187
+00:07:46,720 --> 00:07:51,360
+okay so now come on yeah as you can see
+
+188
+00:07:49,840 --> 00:07:55,199
+you can see that
+
+189
+00:07:51,360 --> 00:07:57,120
+possibly okay possibly the even number
+
+190
+00:07:55,199 --> 00:07:58,879
+could have one more
+
+191
+00:07:57,120 --> 00:08:01,520
+yeah could have one more
+
+192
+00:07:58,879 --> 00:08:03,919
+element than the odd number right
+
+193
+00:08:01,520 --> 00:08:03,919
+all right
+
+194
+00:08:04,240 --> 00:08:08,000
+so look at then we can we need to say if
+
+195
+00:08:07,039 --> 00:08:12,000
+i
+
+196
+00:08:08,000 --> 00:08:14,160
+is smaller than lens even number
+
+197
+00:08:12,000 --> 00:08:16,000
+okay then we append
+
+198
+00:08:14,160 --> 00:08:18,800
+the the remaining
+
+199
+00:08:16,000 --> 00:08:21,520
+even number okay so which is answer
+
+200
+00:08:18,800 --> 00:08:21,520
+dot append
+
+201
+00:08:21,680 --> 00:08:26,800
+even
+
+202
+00:08:24,080 --> 00:08:28,560
+what even i okay
+
+203
+00:08:26,800 --> 00:08:29,840
+or even minus one because it's always
+
+204
+00:08:28,560 --> 00:08:32,080
+the last one
+
+205
+00:08:29,840 --> 00:08:36,320
+is is it possible that the odd has more
+
+206
+00:08:32,080 --> 00:08:38,080
+than more element than even number
+
+207
+00:08:36,320 --> 00:08:40,800
+okay one two
+
+208
+00:08:38,080 --> 00:08:40,800
+three four
+
+209
+00:08:46,240 --> 00:08:50,720
+it means that the numbers start even
+
+210
+00:08:48,399 --> 00:08:52,240
+index so this yellow one two three it's
+
+211
+00:08:50,720 --> 00:08:55,519
+no means let's
+
+212
+00:08:52,240 --> 00:08:55,519
+okay but that's a good question
+
+213
+00:08:55,760 --> 00:08:59,760
+like okay
+
+214
+00:08:57,519 --> 00:09:02,880
+yeah so what the one question is a
+
+215
+00:08:59,760 --> 00:09:04,399
+little bit come on one question is that
+
+216
+00:09:02,880 --> 00:09:07,120
+if reason
+
+217
+00:09:04,399 --> 00:09:08,480
+come on if the array has five numbers so
+
+218
+00:09:07,120 --> 00:09:10,480
+we have three
+
+219
+00:09:08,480 --> 00:09:12,480
+numbers let's start with the even index
+
+220
+00:09:10,480 --> 00:09:14,880
+and two start with the
+
+221
+00:09:12,480 --> 00:09:16,160
+odds right is it possible the odd has
+
+222
+00:09:14,880 --> 00:09:19,040
+more
+
+223
+00:09:16,160 --> 00:09:20,080
+elements than the even yeah
+
+224
+00:09:19,040 --> 00:09:23,279
+no
+
+225
+00:09:20,080 --> 00:09:25,519
+okay let's say six numbers and if there
+
+226
+00:09:23,279 --> 00:09:28,080
+if that the original array has the even
+
+227
+00:09:25,519 --> 00:09:30,320
+number of numbers then both array will
+
+228
+00:09:28,080 --> 00:09:33,120
+contain the same element right if i have
+
+229
+00:09:30,320 --> 00:09:35,200
+one more element
+
+230
+00:09:33,120 --> 00:09:37,440
+if i have one more element do they have
+
+231
+00:09:35,200 --> 00:09:40,080
+a does they have to do
+
+232
+00:09:37,440 --> 00:09:42,959
+i mean does it have to be even
+
+233
+00:09:40,080 --> 00:09:42,959
+that's what i'm asking
+
+234
+00:09:43,040 --> 00:09:48,959
+you know yeah
+
+235
+00:09:44,720 --> 00:09:50,560
+one two three four five six
+
+236
+00:09:48,959 --> 00:09:51,600
+so that
+
+237
+00:09:50,560 --> 00:09:53,279
+yeah
+
+238
+00:09:51,600 --> 00:09:55,120
+so that that's the
+
+239
+00:09:53,279 --> 00:09:57,440
+even index
+
+240
+00:09:55,120 --> 00:09:59,920
+if i add one more
+
+241
+00:09:57,440 --> 00:10:03,600
+let's see
+
+242
+00:09:59,920 --> 00:10:08,320
+so look now even has four other has has
+
+243
+00:10:03,600 --> 00:10:08,320
+three hey you are you're saying that um
+
+244
+00:10:09,839 --> 00:10:12,480
+yeah yeah yeah okay if i put another
+
+245
+00:10:11,600 --> 00:10:15,920
+more
+
+246
+00:10:12,480 --> 00:10:18,079
+so look one three five seven and two
+
+247
+00:10:15,920 --> 00:10:19,519
+four six eight the same i know if i put
+
+248
+00:10:18,079 --> 00:10:22,399
+one more
+
+249
+00:10:19,519 --> 00:10:24,320
+one three five seven nine
+
+250
+00:10:22,399 --> 00:10:28,720
+okay so the even
+
+251
+00:10:24,320 --> 00:10:32,160
+the even array is off is always
+
+252
+00:10:28,720 --> 00:10:33,920
+more than the odd number
+
+253
+00:10:32,160 --> 00:10:34,800
+all the same yeah why is that why is
+
+254
+00:10:33,920 --> 00:10:36,560
+that
+
+255
+00:10:34,800 --> 00:10:38,959
+because the even in that start with the
+
+256
+00:10:36,560 --> 00:10:41,200
+first one right because the first index
+
+257
+00:10:38,959 --> 00:10:44,720
+is always even right so the event gets
+
+258
+00:10:41,200 --> 00:10:47,120
+to pick first that's why we only
+
+259
+00:10:44,720 --> 00:10:49,680
+we we can only uh
+
+260
+00:10:47,120 --> 00:10:51,920
+we can only have more even numbers you
+
+261
+00:10:49,680 --> 00:10:53,360
+know or equal even numbers than all
+
+262
+00:10:51,920 --> 00:10:54,720
+numbers okay
+
+263
+00:10:53,360 --> 00:10:57,200
+yeah
+
+264
+00:10:54,720 --> 00:10:57,200
+make sense
+
+265
+00:10:57,680 --> 00:11:03,120
+the other way of doing this okay this is
+
+266
+00:11:00,000 --> 00:11:05,440
+a bit lensing another implementation so
+
+267
+00:11:03,120 --> 00:11:09,519
+we can chip it
+
+268
+00:11:05,440 --> 00:11:09,519
+look what's different what's different
+
+269
+00:11:09,839 --> 00:11:15,839
+what's a dip
+
+270
+00:11:12,320 --> 00:11:15,839
+like what i'm wearing
+
+271
+00:11:16,000 --> 00:11:21,040
+so if we dip it right
+
+272
+00:11:18,399 --> 00:11:25,680
+yeah we can tip it okay so hope we can
+
+273
+00:11:21,040 --> 00:11:27,040
+tip it so we can rewrite this this bit
+
+274
+00:11:25,680 --> 00:11:29,360
+so we can say
+
+275
+00:11:27,040 --> 00:11:31,440
+four x y
+
+276
+00:11:29,360 --> 00:11:33,519
+in chip
+
+277
+00:11:31,440 --> 00:11:35,920
+okay
+
+278
+00:11:33,519 --> 00:11:37,680
+start with the even number yeah
+
+279
+00:11:35,920 --> 00:11:39,680
+chip longest okay
+
+280
+00:11:37,680 --> 00:11:41,680
+why is that because the
+
+281
+00:11:39,680 --> 00:11:44,160
+the even and the odd may not have the
+
+282
+00:11:41,680 --> 00:11:45,760
+same length okay so cheap long is
+
+283
+00:11:44,160 --> 00:11:46,959
+even
+
+284
+00:11:45,760 --> 00:11:49,040
+odd
+
+285
+00:11:46,959 --> 00:11:51,600
+and i can say answer
+
+286
+00:11:49,040 --> 00:11:51,600
+not a pen
+
+287
+00:11:51,760 --> 00:11:56,399
+x okay so i have to check if x answer
+
+288
+00:11:54,399 --> 00:11:59,760
+doesn't appear x if y
+
+289
+00:11:56,399 --> 00:11:59,760
+answer don't attend y okay
+
+290
+00:12:01,040 --> 00:12:05,120
+i know b return return answer right
+
+291
+00:12:08,839 --> 00:12:13,360
+baby
+
+292
+00:12:10,399 --> 00:12:15,360
+we have to check if the x is that it is
+
+293
+00:12:13,360 --> 00:12:18,079
+not long right because the chipmunk is
+
+294
+00:12:15,360 --> 00:12:20,800
+may produce the lung
+
+295
+00:12:18,079 --> 00:12:23,600
+okay so look here
+
+296
+00:12:20,800 --> 00:12:25,120
+a equals 1 2
+
+297
+00:12:23,600 --> 00:12:26,720
+b equals
+
+298
+00:12:25,120 --> 00:12:29,440
+three four
+
+299
+00:12:26,720 --> 00:12:31,839
+five so the deep longest
+
+300
+00:12:29,440 --> 00:12:34,480
+deep longest will produce
+
+301
+00:12:31,839 --> 00:12:35,279
+an array of one tree
+
+302
+00:12:34,480 --> 00:12:37,279
+right
+
+303
+00:12:35,279 --> 00:12:38,800
+look that's how it did
+
+304
+00:12:37,279 --> 00:12:40,720
+look
+
+305
+00:12:38,800 --> 00:12:42,880
+you're looking cheap
+
+306
+00:12:40,720 --> 00:12:45,040
+one three two four
+
+307
+00:12:42,880 --> 00:12:47,200
+but look there's no element here but how
+
+308
+00:12:45,040 --> 00:12:49,680
+to chip with five
+
+309
+00:12:47,200 --> 00:12:51,040
+so you have a lump
+
+310
+00:12:49,680 --> 00:12:54,160
+five okay
+
+311
+00:12:51,040 --> 00:12:54,160
+that's the cheap longest
+
+312
+00:12:54,720 --> 00:12:58,639
+if we don't have enough element at the
+
+313
+00:12:57,120 --> 00:13:01,200
+corresponding
+
+314
+00:12:58,639 --> 00:13:02,240
+five right so we use the nine so but the
+
+315
+00:13:01,200 --> 00:13:03,279
+chip
+
+316
+00:13:02,240 --> 00:13:04,880
+chip
+
+317
+00:13:03,279 --> 00:13:06,959
+if it's a chip function it will just
+
+318
+00:13:04,880 --> 00:13:09,360
+return one three two four right but if
+
+319
+00:13:06,959 --> 00:13:10,720
+it's the cheap longest yeah
+
+320
+00:13:09,360 --> 00:13:13,440
+your pet
+
+321
+00:13:10,720 --> 00:13:14,320
+will pack the actual element with the
+
+322
+00:13:13,440 --> 00:13:17,120
+number
+
+323
+00:13:14,320 --> 00:13:20,800
+okay let's eat that
+
+324
+00:13:17,120 --> 00:13:23,279
+okay actually the most uh quicker way to
+
+325
+00:13:20,800 --> 00:13:25,600
+implement this is this look because we
+
+326
+00:13:23,279 --> 00:13:28,880
+already have the other even here so we
+
+327
+00:13:25,600 --> 00:13:30,639
+can substitute right we can do this
+
+328
+00:13:28,880 --> 00:13:33,040
+we can just do this
+
+329
+00:13:30,639 --> 00:13:33,040
+nums
+
+330
+00:13:39,920 --> 00:13:46,000
+the second one every other element equal
+
+331
+00:13:43,279 --> 00:13:48,240
+okay so this is the tuple assignment
+
+332
+00:13:46,000 --> 00:13:50,160
+okay i want to replace
+
+333
+00:13:48,240 --> 00:13:52,240
+i want to replace the elements in the
+
+334
+00:13:50,160 --> 00:13:55,040
+numbers array start from the first one
+
+335
+00:13:52,240 --> 00:13:58,320
+every other element come on look at me
+
+336
+00:13:55,040 --> 00:14:00,720
+and i want to replace the elements
+
+337
+00:13:58,320 --> 00:14:02,880
+start with the second element every
+
+338
+00:14:00,720 --> 00:14:05,040
+other element skip one
+
+339
+00:14:02,880 --> 00:14:07,120
+equals what equals this this is the
+
+340
+00:14:05,040 --> 00:14:07,920
+topic right so we just have to
+
+341
+00:14:07,120 --> 00:14:09,760
+to
+
+342
+00:14:07,920 --> 00:14:12,240
+do this okay
+
+343
+00:14:09,760 --> 00:14:15,240
+yeah you see
+
+344
+00:14:12,240 --> 00:14:15,240
+okay
+
+345
+00:14:16,000 --> 00:14:19,760
+which one you think is the better
+
+346
+00:14:18,000 --> 00:14:21,519
+we choose this one the shortest one
+
+347
+00:14:19,760 --> 00:14:22,880
+which one is the shortest one
+
+348
+00:14:21,519 --> 00:14:25,920
+um
+
+349
+00:14:22,880 --> 00:14:27,440
+numbers what did i just say here
+
+350
+00:14:25,920 --> 00:14:30,079
+and we talked about this the other day
+
+351
+00:14:27,440 --> 00:14:30,079
+right remember
+
+352
+00:14:30,230 --> 00:14:33,279
+[Music]
+
+353
+00:14:31,600 --> 00:14:35,199
+yeah
+
+354
+00:14:33,279 --> 00:14:36,880
+do you get this one
+
+355
+00:14:35,199 --> 00:14:38,720
+okay so can you tell me how can we solve
+
+356
+00:14:36,880 --> 00:14:41,720
+this problem
+
+357
+00:14:38,720 --> 00:14:41,720
+bye
+
+358
+00:15:04,240 --> 00:15:08,800
+n is the number of elements in the ray
+
+359
+00:15:06,079 --> 00:15:11,279
+okay so actually we sort it twice also
+
+360
+00:15:08,800 --> 00:15:13,440
+on divided by two log
+
+361
+00:15:11,279 --> 00:15:15,440
+log n divided by 2 yeah
+
+362
+00:15:13,440 --> 00:15:17,760
+plus this yeah
+
+363
+00:15:15,440 --> 00:15:17,760
+plus
+
+364
+00:15:18,079 --> 00:15:24,079
+but we we're going to simplify this
+
+365
+00:15:20,000 --> 00:15:26,399
+right look y side of n divided by 2
+
+366
+00:15:24,079 --> 00:15:27,519
+this is constant yeah
+
+367
+00:15:26,399 --> 00:15:31,759
+log
+
+368
+00:15:27,519 --> 00:15:33,279
+look log a times b equals one
+
+369
+00:15:31,759 --> 00:15:35,199
+equals one
+
+370
+00:15:33,279 --> 00:15:37,120
+equals log a
+
+371
+00:15:35,199 --> 00:15:38,560
+plus log b
+
+372
+00:15:37,120 --> 00:15:41,600
+so log
+
+373
+00:15:38,560 --> 00:15:43,519
+a divided by b equals log a
+
+374
+00:15:41,600 --> 00:15:45,360
+minus log b okay
+
+375
+00:15:43,519 --> 00:15:48,560
+yeah
+
+376
+00:15:45,360 --> 00:15:52,079
+oh yeah look so this this one
+
+377
+00:15:48,560 --> 00:15:53,839
+log n divided by 2 equals log n
+
+378
+00:15:52,079 --> 00:15:56,320
+minus log
+
+379
+00:15:53,839 --> 00:15:58,480
+so this is a constant we drop it
+
+380
+00:15:56,320 --> 00:16:00,399
+yes so you can actually log in
+
+381
+00:15:58,480 --> 00:16:02,720
+so login
+
+382
+00:16:00,399 --> 00:16:03,920
+login plus login
+
+383
+00:16:02,720 --> 00:16:07,199
+half
+
+384
+00:16:03,920 --> 00:16:09,040
+so half is actually o and login okay so
+
+385
+00:16:07,199 --> 00:16:11,279
+still nothing
+
+386
+00:16:09,040 --> 00:16:11,279
+okay
+
+387
+00:16:15,120 --> 00:16:18,880
+so one more thing one more thing come on
+
+388
+00:16:16,560 --> 00:16:18,880
+come on
+
+389
+00:16:19,360 --> 00:16:22,720
+what's this
+
+390
+00:16:20,880 --> 00:16:25,680
+what's this
+
+391
+00:16:22,720 --> 00:16:25,680
+what's this what's this
+
+392
+00:16:25,839 --> 00:16:31,360
+okay so this one so okay so okay the
+
+393
+00:16:28,560 --> 00:16:32,800
+number is this one yes zero one two
+
+394
+00:16:31,360 --> 00:16:35,120
+three
+
+395
+00:16:32,800 --> 00:16:37,759
+four okay so can you tell me
+
+396
+00:16:35,120 --> 00:16:39,279
+numbs column common two is which tune
+
+397
+00:16:37,759 --> 00:16:41,839
+which numbers
+
+398
+00:16:39,279 --> 00:16:43,040
+which number means this one
+
+399
+00:16:41,839 --> 00:16:44,320
+um
+
+400
+00:16:43,040 --> 00:16:47,519
+zero to
+
+401
+00:16:44,320 --> 00:16:50,240
+four okay and num one column column two
+
+402
+00:16:47,519 --> 00:16:53,120
+yeah exactly so that means that means
+
+403
+00:16:50,240 --> 00:16:54,160
+that this one i want to replace
+
+404
+00:16:53,120 --> 00:16:56,480
+yeah
+
+405
+00:16:54,160 --> 00:16:59,440
+replace these three numbers
+
+406
+00:16:56,480 --> 00:17:02,079
+with the salted one with the
+
+407
+00:16:59,440 --> 00:17:04,400
+oyster even which is salty and this i
+
+408
+00:17:02,079 --> 00:17:06,720
+want to remove i replace this number
+
+409
+00:17:04,400 --> 00:17:08,720
+this number with the sorted reverse
+
+410
+00:17:06,720 --> 00:17:12,000
+reverse equal to okay
+
+411
+00:17:08,720 --> 00:17:15,039
+easy yeah impression that's easy okay
+
+412
+00:17:12,000 --> 00:17:16,160
+let's using the python syntax
+
+413
+00:17:15,039 --> 00:17:18,480
+this
+
+414
+00:17:16,160 --> 00:17:20,720
+this this comprehension
+
+415
+00:17:18,480 --> 00:17:22,640
+yeah but we know that the general idea
+
+416
+00:17:20,720 --> 00:17:24,959
+is what is to
+
+417
+00:17:22,640 --> 00:17:26,959
+separate the array into half right
+
+418
+00:17:24,959 --> 00:17:29,840
+separate into half and then
+
+419
+00:17:26,959 --> 00:17:31,520
+sort it both and then
+
+420
+00:17:29,840 --> 00:17:33,840
+merge it
+
+421
+00:17:31,520 --> 00:17:36,960
+okay when we talk about how to merge to
+
+422
+00:17:33,840 --> 00:17:38,799
+saute this yeah how do we look if this
+
+423
+00:17:36,960 --> 00:17:41,520
+is too salty this look
+
+424
+00:17:38,799 --> 00:17:44,480
+one three five seven
+
+425
+00:17:41,520 --> 00:17:46,960
+at least i thought it is two four
+
+426
+00:17:44,480 --> 00:17:50,960
+six eight okay we have two salty bees
+
+427
+00:17:46,960 --> 00:17:54,320
+and another ten okay look okay ryan
+
+428
+00:17:50,960 --> 00:17:57,919
+this is a this is b come on how can i
+
+429
+00:17:54,320 --> 00:18:00,880
+sort it these two arrays uh smudge to
+
+430
+00:17:57,919 --> 00:18:00,880
+sort it away
+
+431
+00:18:09,039 --> 00:18:15,589
+you take the smallest one okay i move it
+
+432
+00:18:12,550 --> 00:18:15,589
+[Music]
+
+433
+00:18:23,360 --> 00:18:27,600
+always take the smallest one okay that's
+
+434
+00:18:25,520 --> 00:18:30,600
+it for today
+
+435
+00:18:27,600 --> 00:18:30,600
+bye
+
