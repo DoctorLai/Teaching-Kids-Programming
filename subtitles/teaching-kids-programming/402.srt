@@ -1,0 +1,3032 @@
+1
+00:00:00,320 --> 00:00:03,439
+hello
+
+2
+00:00:01,439 --> 00:00:05,839
+hello mr miss
+
+3
+00:00:03,439 --> 00:00:10,000
+okay so we give it an array of numbers
+
+4
+00:00:05,839 --> 00:00:12,639
+like one five two three okay listen
+
+5
+00:00:10,000 --> 00:00:14,960
+so we want to find out if at most by
+
+6
+00:00:12,639 --> 00:00:17,520
+removing at most one element can we have
+
+7
+00:00:14,960 --> 00:00:20,400
+the remaining numbers strictly
+
+8
+00:00:17,520 --> 00:00:23,039
+increasing so you can remove atmos yeah
+
+9
+00:00:20,400 --> 00:00:25,199
+you can remove at most one element
+
+10
+00:00:23,039 --> 00:00:27,199
+and then remaining
+
+11
+00:00:25,199 --> 00:00:28,840
+remaining needs to be strictly
+
+12
+00:00:27,199 --> 00:00:30,400
+increasing
+
+13
+00:00:28,840 --> 00:00:31,599
+yeah
+
+14
+00:00:30,400 --> 00:00:34,640
+what
+
+15
+00:00:31,599 --> 00:00:37,600
+what what if it's already increasing
+
+16
+00:00:34,640 --> 00:00:38,719
+that's a very good question yes if it's
+
+17
+00:00:37,600 --> 00:00:40,399
+already
+
+18
+00:00:38,719 --> 00:00:42,719
+increasing then we retention because
+
+19
+00:00:40,399 --> 00:00:44,559
+look amount what's a month means that
+
+20
+00:00:42,719 --> 00:00:47,120
+you don't need to remove it you can
+
+21
+00:00:44,559 --> 00:00:47,920
+remove zero
+
+22
+00:00:47,120 --> 00:00:50,160
+so
+
+23
+00:00:47,920 --> 00:00:52,480
+do i return yes or no
+
+24
+00:00:50,160 --> 00:00:54,320
+yes yes why is that because you didn't
+
+25
+00:00:52,480 --> 00:00:55,520
+really move yeah i can remove it and
+
+26
+00:00:54,320 --> 00:00:57,520
+then it will be
+
+27
+00:00:55,520 --> 00:01:00,079
+one two three strictly increasing okay
+
+28
+00:00:57,520 --> 00:01:01,440
+what's strictly increasing if look one
+
+29
+00:01:00,079 --> 00:01:04,159
+two two
+
+30
+00:01:01,440 --> 00:01:05,600
+is this strictly increasing none
+
+31
+00:01:04,159 --> 00:01:08,320
+two and two this is not strictly
+
+32
+00:01:05,600 --> 00:01:09,600
+increasing whether okay how about this
+
+33
+00:01:08,320 --> 00:01:11,439
+one
+
+34
+00:01:09,600 --> 00:01:13,200
+let's say one five
+
+35
+00:01:11,439 --> 00:01:15,200
+two three
+
+36
+00:01:13,200 --> 00:01:17,360
+one okay
+
+37
+00:01:15,200 --> 00:01:17,360
+so
+
+38
+00:01:17,439 --> 00:01:21,119
+can we have the strictly increasing
+
+39
+00:01:19,840 --> 00:01:24,479
+array
+
+40
+00:01:21,119 --> 00:01:26,720
+by removing at most one element no
+
+41
+00:01:24,479 --> 00:01:28,640
+yeah there's no chance yeah because look
+
+42
+00:01:26,720 --> 00:01:30,320
+if you're gonna do five one two three
+
+43
+00:01:28,640 --> 00:01:32,240
+one it's not stricken
+
+44
+00:01:30,320 --> 00:01:34,079
+if you know one one five three three
+
+45
+00:01:32,240 --> 00:01:38,079
+it's much cheaper increasing okay so
+
+46
+00:01:34,079 --> 00:01:42,159
+what's your approach to do this
+
+47
+00:01:38,079 --> 00:01:45,040
+what's up y'all purge yeah
+
+48
+00:01:42,159 --> 00:01:46,720
+any idea um well
+
+49
+00:01:45,040 --> 00:01:47,759
+great
+
+50
+00:01:46,720 --> 00:01:48,960
+great
+
+51
+00:01:47,759 --> 00:01:50,880
+uh
+
+52
+00:01:48,960 --> 00:01:52,799
+fulfilling yeah so what's proof of thing
+
+53
+00:01:50,880 --> 00:01:54,640
+we can
+
+54
+00:01:52,799 --> 00:01:56,399
+i mean we we can just try
+
+55
+00:01:54,640 --> 00:01:58,240
+they are n numbers we can how many
+
+56
+00:01:56,399 --> 00:02:00,240
+choices can we try
+
+57
+00:01:58,240 --> 00:02:02,159
+how many choices
+
+58
+00:02:00,240 --> 00:02:03,759
+and obviously yeah with another number
+
+59
+00:02:02,159 --> 00:02:04,640
+so we can try and
+
+60
+00:02:03,759 --> 00:02:05,920
+and
+
+61
+00:02:04,640 --> 00:02:09,520
+we can try
+
+62
+00:02:05,920 --> 00:02:12,000
+and removing the number right so we can
+
+63
+00:02:09,520 --> 00:02:14,160
+have n choices to remove each number to
+
+64
+00:02:12,000 --> 00:02:16,319
+see we remove that number and now we try
+
+65
+00:02:14,160 --> 00:02:18,879
+to see if the remaining is strictly
+
+66
+00:02:16,319 --> 00:02:20,400
+increasing yeah yeah right
+
+67
+00:02:18,879 --> 00:02:22,400
+okay so
+
+68
+00:02:20,400 --> 00:02:24,800
+first of all how do we check if this is
+
+69
+00:02:22,400 --> 00:02:27,120
+a way how do we check this is strictly
+
+70
+00:02:24,800 --> 00:02:30,000
+increasing
+
+71
+00:02:27,120 --> 00:02:31,599
+defined let's say it's salty yeah it's
+
+72
+00:02:30,000 --> 00:02:34,319
+increasing
+
+73
+00:02:31,599 --> 00:02:36,720
+it's increasing okay it's increasing
+
+74
+00:02:34,319 --> 00:02:38,640
+it's increasing okay
+
+75
+00:02:36,720 --> 00:02:41,200
+so how can we check these the numbers
+
+76
+00:02:38,640 --> 00:02:43,440
+are in strictly increasing all right are
+
+77
+00:02:41,200 --> 00:02:45,599
+we given an array here
+
+78
+00:02:43,440 --> 00:02:48,000
+how do we check if this is strictly
+
+79
+00:02:45,599 --> 00:02:48,000
+increasing
+
+80
+00:02:49,040 --> 00:02:54,480
+how do we check if we want to know a
+
+81
+00:02:51,040 --> 00:02:54,480
+number is strictly increasing
+
+82
+00:02:54,640 --> 00:02:59,519
+one by one and then we compare one
+
+83
+00:02:57,120 --> 00:02:59,519
+compel
+
+84
+00:03:02,239 --> 00:03:05,120
+and then
+
+85
+00:03:03,200 --> 00:03:06,879
+yeah yeah so we just come back look one
+
+86
+00:03:05,120 --> 00:03:09,519
+is more than two yes two smaller than
+
+87
+00:03:06,879 --> 00:03:12,319
+four yes first more than five yeah five
+
+88
+00:03:09,519 --> 00:03:13,840
+smaller than three no return four easy
+
+89
+00:03:12,319 --> 00:03:14,640
+okay
+
+90
+00:03:13,840 --> 00:03:16,959
+yeah
+
+91
+00:03:14,640 --> 00:03:19,840
+so look
+
+92
+00:03:16,959 --> 00:03:20,959
+and equals the length array
+
+93
+00:03:19,840 --> 00:03:24,400
+and then
+
+94
+00:03:20,959 --> 00:03:25,280
+we want to return what uh we turn
+
+95
+00:03:24,400 --> 00:03:27,200
+uh
+
+96
+00:03:25,280 --> 00:03:28,000
+we just do this effect for
+
+97
+00:03:27,200 --> 00:03:30,799
+i
+
+98
+00:03:28,000 --> 00:03:33,519
+in range
+
+99
+00:03:30,799 --> 00:03:36,480
+and minus one why is the menthol because
+
+100
+00:03:33,519 --> 00:03:40,159
+i need to i need to check the number and
+
+101
+00:03:36,480 --> 00:03:42,400
+the number next to it so so look if
+
+102
+00:03:40,159 --> 00:03:46,720
+a r i
+
+103
+00:03:42,400 --> 00:03:49,360
+is bigger or equal than a r i plus one
+
+104
+00:03:46,720 --> 00:03:51,760
+right if this number is bigger or equal
+
+105
+00:03:49,360 --> 00:03:52,560
+to the next one and we return fourth
+
+106
+00:03:51,760 --> 00:03:54,640
+right
+
+107
+00:03:52,560 --> 00:03:58,080
+yeah
+
+108
+00:03:54,640 --> 00:03:58,080
+otherwise return true right
+
+109
+00:03:58,400 --> 00:04:03,280
+look here look
+
+110
+00:04:00,560 --> 00:04:05,519
+yeah make sense so we're traveling from
+
+111
+00:04:03,280 --> 00:04:08,239
+the beginning the index and then if we
+
+112
+00:04:05,519 --> 00:04:10,239
+find out this number is bigger or equal
+
+113
+00:04:08,239 --> 00:04:11,680
+than the next number it means that we
+
+114
+00:04:10,239 --> 00:04:14,879
+have a
+
+115
+00:04:11,680 --> 00:04:17,519
+we have what we have a reverse we have a
+
+116
+00:04:14,879 --> 00:04:19,359
+noun increasing we have a non-increasing
+
+117
+00:04:17,519 --> 00:04:21,040
+order so what do we have
+
+118
+00:04:19,359 --> 00:04:23,440
+if there are n numbers what's the time
+
+119
+00:04:21,040 --> 00:04:25,280
+complexity
+
+120
+00:04:23,440 --> 00:04:28,280
+what's the temperature
+
+121
+00:04:25,280 --> 00:04:28,280
+um
+
+122
+00:04:29,199 --> 00:04:33,840
+very obvious okay okay so we can
+
+123
+00:04:31,360 --> 00:04:36,800
+simplify this yeah this is okay this is
+
+124
+00:04:33,840 --> 00:04:39,280
+very traditional very class classic you
+
+125
+00:04:36,800 --> 00:04:43,280
+know textbook but in python you can do
+
+126
+00:04:39,280 --> 00:04:47,199
+it simple you can say we can
+
+127
+00:04:43,280 --> 00:04:48,400
+i want all okay oh this is the keyword o
+
+128
+00:04:47,199 --> 00:04:50,479
+means
+
+129
+00:04:48,400 --> 00:04:52,600
+means everything inside needs to be
+
+130
+00:04:50,479 --> 00:04:57,440
+satisfied so our
+
+131
+00:04:52,600 --> 00:04:59,040
+o-a-r-r i need to be smaller than a r i
+
+132
+00:04:57,440 --> 00:05:00,080
+plus one
+
+133
+00:04:59,040 --> 00:05:01,199
+yeah
+
+134
+00:05:00,080 --> 00:05:01,919
+four
+
+135
+00:05:01,199 --> 00:05:04,639
+i
+
+136
+00:05:01,919 --> 00:05:06,320
+in range
+
+137
+00:05:04,639 --> 00:05:07,600
+and minus one okay so this is the
+
+138
+00:05:06,320 --> 00:05:08,880
+opposite uh
+
+139
+00:05:07,600 --> 00:05:10,400
+so look
+
+140
+00:05:08,880 --> 00:05:11,360
+which one you think is easier to
+
+141
+00:05:10,400 --> 00:05:13,360
+understand
+
+142
+00:05:11,360 --> 00:05:14,720
+the forms the same thing look
+
+143
+00:05:13,360 --> 00:05:17,520
+the right one
+
+144
+00:05:14,720 --> 00:05:19,759
+right one okay
+
+145
+00:05:17,520 --> 00:05:21,280
+this is yeah this is the
+
+146
+00:05:19,759 --> 00:05:24,000
+chicken so
+
+147
+00:05:21,280 --> 00:05:26,800
+we are checking the violation here right
+
+148
+00:05:24,000 --> 00:05:28,560
+yeah if we find something that violates
+
+149
+00:05:26,800 --> 00:05:30,560
+the increasing then we return false
+
+150
+00:05:28,560 --> 00:05:32,720
+otherwise if all checkpoints will return
+
+151
+00:05:30,560 --> 00:05:34,800
+true but here it's more like human
+
+152
+00:05:32,720 --> 00:05:36,800
+language return all
+
+153
+00:05:34,800 --> 00:05:39,440
+all means everything in there needs to
+
+154
+00:05:36,800 --> 00:05:41,840
+be true right or
+
+155
+00:05:39,440 --> 00:05:43,919
+so array i is smaller than array i plus
+
+156
+00:05:41,840 --> 00:05:46,000
+one for i in range right so everything
+
+157
+00:05:43,919 --> 00:05:47,440
+this condition is true okay so similarly
+
+158
+00:05:46,000 --> 00:05:50,320
+we have another
+
+159
+00:05:47,440 --> 00:05:53,440
+uh similar keyword called any so if we
+
+160
+00:05:50,320 --> 00:05:54,960
+say return any it means that if
+
+161
+00:05:53,440 --> 00:05:56,400
+one of them
+
+162
+00:05:54,960 --> 00:05:58,479
+at least one
+
+163
+00:05:56,400 --> 00:05:59,440
+occurs to then return true okay make
+
+164
+00:05:58,479 --> 00:06:02,240
+sense
+
+165
+00:05:59,440 --> 00:06:03,360
+o means everything needs to be true and
+
+166
+00:06:02,240 --> 00:06:05,199
+means
+
+167
+00:06:03,360 --> 00:06:08,000
+you know if we find
+
+168
+00:06:05,199 --> 00:06:11,440
+one that's okay we return to okay
+
+169
+00:06:08,000 --> 00:06:13,680
+yeah okay so now look we have this o-n
+
+170
+00:06:11,440 --> 00:06:17,280
+and we go through this array
+
+171
+00:06:13,680 --> 00:06:19,360
+to remove it so we can say four i in
+
+172
+00:06:17,280 --> 00:06:21,120
+range
+
+173
+00:06:19,360 --> 00:06:25,440
+and now
+
+174
+00:06:21,120 --> 00:06:28,479
+look this this one yeah the array is one
+
+175
+00:06:25,440 --> 00:06:31,600
+one two three four and the index is here
+
+176
+00:06:28,479 --> 00:06:33,759
+index index so how can we remove this
+
+177
+00:06:31,600 --> 00:06:35,360
+number if we don't know the index i
+
+178
+00:06:33,759 --> 00:06:38,319
+what's the remaining
+
+179
+00:06:35,360 --> 00:06:39,840
+if i remain if i okay then i put a 0 at
+
+180
+00:06:38,319 --> 00:06:42,880
+the beginning if i want to remove this
+
+181
+00:06:39,840 --> 00:06:45,039
+one okay this is ar
+
+182
+00:06:42,880 --> 00:06:47,039
+and i index is 1
+
+183
+00:06:45,039 --> 00:06:50,240
+i index 1
+
+184
+00:06:47,039 --> 00:06:52,160
+one okay so what's what's the array
+
+185
+00:06:50,240 --> 00:06:53,759
+after removing one
+
+186
+00:06:52,160 --> 00:06:56,000
+you'll be what
+
+187
+00:06:53,759 --> 00:06:58,400
+it remove you'll be what you'll be
+
+188
+00:06:56,000 --> 00:06:59,759
+current array will be
+
+189
+00:06:58,400 --> 00:07:00,960
+array
+
+190
+00:06:59,759 --> 00:07:04,000
+up to
+
+191
+00:07:00,960 --> 00:07:06,080
+i up to i not including this one right
+
+192
+00:07:04,000 --> 00:07:07,280
+after i this one
+
+193
+00:07:06,080 --> 00:07:08,560
+is here
+
+194
+00:07:07,280 --> 00:07:11,440
+before right
+
+195
+00:07:08,560 --> 00:07:14,800
+and then i want to
+
+196
+00:07:11,440 --> 00:07:17,120
+concatenate the numbers right after i so
+
+197
+00:07:14,800 --> 00:07:17,120
+plus
+
+198
+00:07:19,840 --> 00:07:25,599
+this is i this is i plus one right i
+
+199
+00:07:22,880 --> 00:07:28,319
+plug two i plug three i plus one okay so
+
+200
+00:07:25,599 --> 00:07:28,319
+look all right
+
+201
+00:07:28,639 --> 00:07:33,440
+look we have n choice yeah
+
+202
+00:07:30,800 --> 00:07:36,639
+so if i want to if we want to remove the
+
+203
+00:07:33,440 --> 00:07:37,840
+index number at index i right so the
+
+204
+00:07:36,639 --> 00:07:40,560
+remaining
+
+205
+00:07:37,840 --> 00:07:41,759
+the remaining numbers is current which
+
+206
+00:07:40,560 --> 00:07:46,160
+is
+
+207
+00:07:41,759 --> 00:07:48,000
+a r up to i plus a i plus one okay so
+
+208
+00:07:46,160 --> 00:07:50,479
+what's this
+
+209
+00:07:48,000 --> 00:07:50,479
+what's this
+
+210
+00:07:50,960 --> 00:07:53,440
+what what does this cr
+
+211
+00:07:52,720 --> 00:07:56,160
+mean
+
+212
+00:07:53,440 --> 00:07:58,960
+current yeah what way it is
+
+213
+00:07:56,160 --> 00:08:00,000
+what's this
+
+214
+00:07:58,960 --> 00:08:02,400
+so
+
+215
+00:08:00,000 --> 00:08:04,319
+do you understand this being i for i in
+
+216
+00:08:02,400 --> 00:08:06,960
+range n
+
+217
+00:08:04,319 --> 00:08:09,680
+a r up to i means this b
+
+218
+00:08:06,960 --> 00:08:12,720
+a i i plus one means this b so if i put
+
+219
+00:08:09,680 --> 00:08:14,319
+these two together what does it become
+
+220
+00:08:12,720 --> 00:08:16,560
+what do we have
+
+221
+00:08:14,319 --> 00:08:16,560
+um
+
+222
+00:08:17,520 --> 00:08:22,080
+no no no no can we increase
+
+223
+00:08:19,759 --> 00:08:24,960
+so we want to check we want to prove us
+
+224
+00:08:22,080 --> 00:08:27,120
+as you said yeah we want to prove us so
+
+225
+00:08:24,960 --> 00:08:30,319
+by proof of thing it means that we can
+
+226
+00:08:27,120 --> 00:08:31,680
+try removing the
+
+227
+00:08:30,319 --> 00:08:34,240
+element
+
+228
+00:08:31,680 --> 00:08:36,800
+and element yeah we can try removing the
+
+229
+00:08:34,240 --> 00:08:38,880
+first element to see the remaining is
+
+230
+00:08:36,800 --> 00:08:40,959
+sorted we can remove the second one
+
+231
+00:08:38,880 --> 00:08:43,440
+remove certain one so we remove the
+
+232
+00:08:40,959 --> 00:08:44,240
+element index i so what's the c of r
+
+233
+00:08:43,440 --> 00:08:46,399
+means
+
+234
+00:08:44,240 --> 00:08:49,279
+c y was a
+
+235
+00:08:46,399 --> 00:08:51,680
+i want to remove this index element
+
+236
+00:08:49,279 --> 00:08:54,320
+index i and then this is a r up to i
+
+237
+00:08:51,680 --> 00:08:56,080
+this is a i plus one so what's if i put
+
+238
+00:08:54,320 --> 00:08:59,040
+these two together what what does it
+
+239
+00:08:56,080 --> 00:09:01,360
+become what's this cr mean
+
+240
+00:08:59,040 --> 00:09:03,680
+uh it's the
+
+241
+00:09:01,360 --> 00:09:05,440
+array
+
+242
+00:09:03,680 --> 00:09:09,040
+i plus one yeah so
+
+243
+00:09:05,440 --> 00:09:12,320
+it's the same thing as removing
+
+244
+00:09:09,040 --> 00:09:13,200
+removing array removing array i yeah
+
+245
+00:09:12,320 --> 00:09:15,760
+yeah
+
+246
+00:09:13,200 --> 00:09:17,600
+and then and then we just check if
+
+247
+00:09:15,760 --> 00:09:20,080
+increasing is increasing right
+
+248
+00:09:17,600 --> 00:09:24,320
+increasing we have defined this function
+
+249
+00:09:20,080 --> 00:09:27,360
+corr then we return true right
+
+250
+00:09:24,320 --> 00:09:30,560
+okay otherwise return first
+
+251
+00:09:27,360 --> 00:09:32,560
+what's the time complexity come on
+
+252
+00:09:30,560 --> 00:09:33,839
+we're done look this is the one we have
+
+253
+00:09:32,560 --> 00:09:36,480
+one choice
+
+254
+00:09:33,839 --> 00:09:39,200
+but for each one we need to call this
+
+255
+00:09:36,480 --> 00:09:40,959
+this takes another one time n times n
+
+256
+00:09:39,200 --> 00:09:43,680
+over n squared
+
+257
+00:09:40,959 --> 00:09:44,640
+easy easy peasy okay that'll be it for
+
+258
+00:09:43,680 --> 00:09:47,200
+today
+
+259
+00:09:44,640 --> 00:09:48,959
+no no no we have a faster approach for
+
+260
+00:09:47,200 --> 00:09:52,320
+that
+
+261
+00:09:48,959 --> 00:09:54,240
+one five two three okay let's go back to
+
+262
+00:09:52,320 --> 00:09:56,640
+this example
+
+263
+00:09:54,240 --> 00:09:58,240
+yeah yeah yeah
+
+264
+00:09:56,640 --> 00:10:00,080
+what's the longest
+
+265
+00:09:58,240 --> 00:10:02,160
+increasing subsequence remember we
+
+266
+00:10:00,080 --> 00:10:06,399
+talked about this
+
+267
+00:10:02,160 --> 00:10:08,640
+longest longest increasing subsequence
+
+268
+00:10:06,399 --> 00:10:11,200
+longest one one two three okay so what's
+
+269
+00:10:08,640 --> 00:10:13,440
+the length of the longest thing
+
+270
+00:10:11,200 --> 00:10:15,200
+three okay
+
+271
+00:10:13,440 --> 00:10:16,000
+and how many numbers are there four
+
+272
+00:10:15,200 --> 00:10:18,000
+right
+
+273
+00:10:16,000 --> 00:10:19,360
+i remember this okay okay i'm going to
+
+274
+00:10:18,000 --> 00:10:20,720
+give you another one
+
+275
+00:10:19,360 --> 00:10:22,560
+two
+
+276
+00:10:20,720 --> 00:10:24,399
+ten
+
+277
+00:10:22,560 --> 00:10:26,720
+three four
+
+278
+00:10:24,399 --> 00:10:29,279
+six what's the longest subsequence two
+
+279
+00:10:26,720 --> 00:10:31,279
+three four six six
+
+280
+00:10:29,279 --> 00:10:34,000
+what's the length
+
+281
+00:10:31,279 --> 00:10:36,160
+for what's the total length
+
+282
+00:10:34,000 --> 00:10:38,000
+okay so what so what's the pro what's
+
+283
+00:10:36,160 --> 00:10:41,600
+the what's it what's that do what you
+
+284
+00:10:38,000 --> 00:10:43,680
+just did and then check if uh just one
+
+285
+00:10:41,600 --> 00:10:45,680
+yeah
+
+286
+00:10:43,680 --> 00:10:48,160
+so that's a quicker way of doing it is
+
+287
+00:10:45,680 --> 00:10:49,519
+that okay so ideally look removing one
+
+288
+00:10:48,160 --> 00:10:51,279
+we want to check the remembering is
+
+289
+00:10:49,519 --> 00:10:53,519
+strictly increasing so it's the same
+
+290
+00:10:51,279 --> 00:10:55,680
+thing as i let's find out the longest
+
+291
+00:10:53,519 --> 00:10:57,120
+increasing subsequence of these
+
+292
+00:10:55,680 --> 00:10:59,360
+if the length
+
+293
+00:10:57,120 --> 00:11:00,720
+of the longest increasing subsequent is
+
+294
+00:10:59,360 --> 00:11:04,079
+n minus one
+
+295
+00:11:00,720 --> 00:11:04,079
+or more right yeah
+
+296
+00:11:04,160 --> 00:11:08,720
+it's essentially the same as removing
+
+297
+00:11:06,800 --> 00:11:10,959
+one right is the same thing then this
+
+298
+00:11:08,720 --> 00:11:13,680
+two problem is the equivalent right
+
+299
+00:11:10,959 --> 00:11:15,040
+right am right yeah all right does it
+
+300
+00:11:13,680 --> 00:11:16,800
+make sense yeah
+
+301
+00:11:15,040 --> 00:11:18,480
+okay so do you still remember this
+
+302
+00:11:16,800 --> 00:11:22,560
+longest increasing subsequence yeah we
+
+303
+00:11:18,480 --> 00:11:24,320
+talked about that like uh 100 days ago
+
+304
+00:11:22,560 --> 00:11:26,000
+yeah
+
+305
+00:11:24,320 --> 00:11:28,720
+you probably don't remember yeah that's
+
+306
+00:11:26,000 --> 00:11:31,120
+fine i'll remind you okay hey my shoe is
+
+307
+00:11:28,720 --> 00:11:31,120
+broken
+
+308
+00:11:33,839 --> 00:11:37,519
+so for the longest increasing
+
+309
+00:11:35,279 --> 00:11:38,880
+subsequence we have two approach one is
+
+310
+00:11:37,519 --> 00:11:42,720
+one square
+
+311
+00:11:38,880 --> 00:11:45,120
+yeah one is one log n okay so let's go
+
+312
+00:11:42,720 --> 00:11:47,200
+over uh go to the longest increasing
+
+313
+00:11:45,120 --> 00:11:49,440
+subsequent with the
+
+314
+00:11:47,200 --> 00:11:50,959
+os square approach which is dynamic
+
+315
+00:11:49,440 --> 00:11:54,150
+programming okay so please still
+
+316
+00:11:50,959 --> 00:11:57,289
+remember what's dynamic yeah
+
+317
+00:11:54,150 --> 00:11:57,289
+[Music]
+
+318
+00:12:05,760 --> 00:12:12,560
+okay so let's say if we have f function
+
+319
+00:12:10,000 --> 00:12:15,360
+f i
+
+320
+00:12:12,560 --> 00:12:19,760
+f i means the longest increasing
+
+321
+00:12:15,360 --> 00:12:22,560
+subsequence that ends up index i okay so
+
+322
+00:12:19,760 --> 00:12:23,519
+e equals what maximum
+
+323
+00:12:22,560 --> 00:12:26,720
+of
+
+324
+00:12:23,519 --> 00:12:29,440
+maximum of what f j
+
+325
+00:12:26,720 --> 00:12:30,560
+f j plus one
+
+326
+00:12:29,440 --> 00:12:34,560
+is
+
+327
+00:12:30,560 --> 00:12:36,800
+is the number a r j is strictly smaller
+
+328
+00:12:34,560 --> 00:12:37,760
+than a r r
+
+329
+00:12:36,800 --> 00:12:39,519
+i
+
+330
+00:12:37,760 --> 00:12:42,399
+and also
+
+331
+00:12:39,519 --> 00:12:45,040
+the index j is smaller than i okay
+
+332
+00:12:42,399 --> 00:12:45,040
+for for
+
+333
+00:12:45,360 --> 00:12:51,120
+you know for j
+
+334
+00:12:46,720 --> 00:12:53,360
+is is belong from the zero to i
+
+335
+00:12:51,120 --> 00:12:55,920
+okay so that's the dynamic equation so
+
+336
+00:12:53,360 --> 00:12:58,000
+what does it mean fi means
+
+337
+00:12:55,920 --> 00:13:02,800
+s9 means the longest increasing
+
+338
+00:12:58,000 --> 00:13:04,639
+subsequence that ends the index i okay
+
+339
+00:13:02,800 --> 00:13:06,880
+look f0
+
+340
+00:13:04,639 --> 00:13:09,920
+f1 is here so the longest increasing
+
+341
+00:13:06,880 --> 00:13:12,720
+subsequent ends that that second number
+
+342
+00:13:09,920 --> 00:13:15,839
+so if we can find if we can iterate the
+
+343
+00:13:12,720 --> 00:13:18,639
+numbers up to array i yeah
+
+344
+00:13:15,839 --> 00:13:20,399
+if array is up to array i and then if we
+
+345
+00:13:18,639 --> 00:13:24,079
+found an array j
+
+346
+00:13:20,399 --> 00:13:26,160
+j j the index is up to i index and and
+
+347
+00:13:24,079 --> 00:13:28,399
+right actually these two are the same
+
+348
+00:13:26,160 --> 00:13:31,120
+yeah so we we don't need to
+
+349
+00:13:28,399 --> 00:13:33,760
+write it twice so j 0 to i
+
+350
+00:13:31,120 --> 00:13:35,360
+if array j if i found out if we found a
+
+351
+00:13:33,760 --> 00:13:36,880
+number
+
+352
+00:13:35,360 --> 00:13:38,880
+which is smaller
+
+353
+00:13:36,880 --> 00:13:41,199
+if we now find a number which is smaller
+
+354
+00:13:38,880 --> 00:13:43,600
+look 5 is smaller than 5 1 is smaller
+
+355
+00:13:41,199 --> 00:13:45,839
+than 5. okay so the longest increasing
+
+356
+00:13:43,600 --> 00:13:48,320
+subsequence that ends 5
+
+357
+00:13:45,839 --> 00:13:50,480
+is the long is equals the longest
+
+358
+00:13:48,320 --> 00:13:52,560
+increasing subsequence of
+
+359
+00:13:50,480 --> 00:13:55,600
+ending at one plus one right
+
+360
+00:13:52,560 --> 00:13:58,720
+yeah because look i found this is f i
+
+361
+00:13:55,600 --> 00:14:01,600
+right this is f right and here and then
+
+362
+00:13:58,720 --> 00:14:04,000
+if i find another one
+
+363
+00:14:01,600 --> 00:14:07,440
+you know j which is smaller than i so it
+
+364
+00:14:04,000 --> 00:14:10,240
+means that i can use the previously
+
+365
+00:14:07,440 --> 00:14:12,160
+i can use the fj previously
+
+366
+00:14:10,240 --> 00:14:14,800
+longest increasing subsequence the
+
+367
+00:14:12,160 --> 00:14:17,279
+engine and j and plus one number because
+
+368
+00:14:14,800 --> 00:14:19,360
+array j is more than an array right make
+
+369
+00:14:17,279 --> 00:14:20,160
+sense yeah
+
+370
+00:14:19,360 --> 00:14:23,040
+oh
+
+371
+00:14:20,160 --> 00:14:27,600
+well that means belongs to
+
+372
+00:14:23,040 --> 00:14:32,240
+in you see okay let's say x belongs to
+
+373
+00:14:27,600 --> 00:14:33,760
+0 to 10 okay then x the integer right
+
+374
+00:14:32,240 --> 00:14:36,240
+would be zero one two three four five
+
+375
+00:14:33,760 --> 00:14:38,240
+ten okay
+
+376
+00:14:36,240 --> 00:14:40,800
+yeah
+
+377
+00:14:38,240 --> 00:14:42,399
+okay or you can say in let's in
+
+378
+00:14:40,800 --> 00:14:43,680
+in actually in
+
+379
+00:14:42,399 --> 00:14:45,839
+in okay
+
+380
+00:14:43,680 --> 00:14:45,839
+in
+
+381
+00:14:45,920 --> 00:14:49,680
+so if we implement these
+
+382
+00:14:48,079 --> 00:14:51,680
+that would be one square okay let's
+
+383
+00:14:49,680 --> 00:14:54,480
+quickly implement this do you get this
+
+384
+00:14:51,680 --> 00:14:56,079
+idea everywhere do you get it yeah
+
+385
+00:14:54,480 --> 00:14:57,360
+you don't do do you want me to repeat
+
+386
+00:14:56,079 --> 00:15:01,120
+again
+
+387
+00:14:57,360 --> 00:15:02,079
+do you understand yeah okay okay sure
+
+388
+00:15:01,120 --> 00:15:03,199
+okay
+
+389
+00:15:02,079 --> 00:15:04,079
+so
+
+390
+00:15:03,199 --> 00:15:06,480
+so
+
+391
+00:15:04,079 --> 00:15:08,399
+dynamic programming okay the simplest
+
+392
+00:15:06,480 --> 00:15:10,399
+idea is that okay
+
+393
+00:15:08,399 --> 00:15:12,320
+okay
+
+394
+00:15:10,399 --> 00:15:14,320
+how many how many pens are there how
+
+395
+00:15:12,320 --> 00:15:15,760
+many pens are there right how many pens
+
+396
+00:15:14,320 --> 00:15:17,920
+are there
+
+397
+00:15:15,760 --> 00:15:21,680
+okay and if i put one more how many
+
+398
+00:15:17,920 --> 00:15:24,160
+times three that's dynamic okay so f and
+
+399
+00:15:21,680 --> 00:15:27,040
+look look fi
+
+400
+00:15:24,160 --> 00:15:29,680
+okay so fj right m j is two and then i
+
+401
+00:15:27,040 --> 00:15:33,279
+have another one f i coming i put it
+
+402
+00:15:29,680 --> 00:15:36,000
+together so f j f i equals f j plus one
+
+403
+00:15:33,279 --> 00:15:37,920
+because we don't need to calculate
+
+404
+00:15:36,000 --> 00:15:39,600
+this portion again f i again right
+
+405
+00:15:37,920 --> 00:15:40,800
+because we save it
+
+406
+00:15:39,600 --> 00:15:43,600
+let's let
+
+407
+00:15:40,800 --> 00:15:47,040
+spirits of dynamite programming me mo my
+
+408
+00:15:43,600 --> 00:15:47,040
+jason i want to be mobilization
+
+409
+00:15:47,519 --> 00:15:52,240
+what does it mean in english
+
+410
+00:15:49,440 --> 00:15:54,480
+be my mother shouldn't be my name
+
+411
+00:15:52,240 --> 00:15:57,680
+memory stuff here memory memo we have
+
+412
+00:15:54,480 --> 00:16:01,040
+memo remember remember
+
+413
+00:15:57,680 --> 00:16:04,000
+my mom okay that's it
+
+414
+00:16:01,040 --> 00:16:04,000
+okay let's try this
+
+415
+00:16:05,120 --> 00:16:09,720
+can you not touch my keyboard please
+
+416
+00:16:10,560 --> 00:16:15,759
+define okay let's say uh
+
+417
+00:16:13,120 --> 00:16:17,279
+i don't know what's what's the
+
+418
+00:16:15,759 --> 00:16:19,279
+uh
+
+419
+00:16:17,279 --> 00:16:20,079
+name of the function let's just call it
+
+420
+00:16:19,279 --> 00:16:23,279
+uh
+
+421
+00:16:20,079 --> 00:16:24,880
+i don't know 402 okay
+
+422
+00:16:23,279 --> 00:16:28,000
+array right
+
+423
+00:16:24,880 --> 00:16:31,759
+and then n equals the length array
+
+424
+00:16:28,000 --> 00:16:34,160
+and then we have our f function f equals
+
+425
+00:16:31,759 --> 00:16:36,880
+at the beginning one times n okay so
+
+426
+00:16:34,160 --> 00:16:39,600
+what any any idea why we need to put a
+
+427
+00:16:36,880 --> 00:16:42,160
+one initially f f the value would be one
+
+428
+00:16:39,600 --> 00:16:44,639
+the longest increasing subsequence at in
+
+429
+00:16:42,160 --> 00:16:46,720
+each index is one
+
+430
+00:16:44,639 --> 00:16:48,160
+and the beginning is one right yeah each
+
+431
+00:16:46,720 --> 00:16:50,639
+number is a
+
+432
+00:16:48,160 --> 00:16:52,639
+longest increasing substance right
+
+433
+00:16:50,639 --> 00:16:53,519
+and now we can say for
+
+434
+00:16:52,639 --> 00:16:54,399
+i
+
+435
+00:16:53,519 --> 00:16:56,079
+in
+
+436
+00:16:54,399 --> 00:16:58,079
+range
+
+437
+00:16:56,079 --> 00:16:58,800
+n right and then for
+
+438
+00:16:58,079 --> 00:16:59,600
+j
+
+439
+00:16:58,800 --> 00:17:01,440
+in
+
+440
+00:16:59,600 --> 00:17:03,440
+range
+
+441
+00:17:01,440 --> 00:17:04,880
+i right
+
+442
+00:17:03,440 --> 00:17:06,319
+if
+
+443
+00:17:04,880 --> 00:17:09,760
+array
+
+444
+00:17:06,319 --> 00:17:10,720
+j is smaller than array i
+
+445
+00:17:09,760 --> 00:17:12,079
+right
+
+446
+00:17:10,720 --> 00:17:14,640
+then we can say
+
+447
+00:17:12,079 --> 00:17:20,880
+f function f
+
+448
+00:17:14,640 --> 00:17:20,880
+i equals maximum of f i
+
+449
+00:17:21,280 --> 00:17:26,400
+f j plus one okay
+
+450
+00:17:25,120 --> 00:17:28,160
+now look
+
+451
+00:17:26,400 --> 00:17:29,280
+the longest increasing subsequent the
+
+452
+00:17:28,160 --> 00:17:30,720
+length
+
+453
+00:17:29,280 --> 00:17:32,080
+return
+
+454
+00:17:30,720 --> 00:17:34,000
+will b
+
+455
+00:17:32,080 --> 00:17:37,200
+will be what come on
+
+456
+00:17:34,000 --> 00:17:39,760
+will be the maximum of fj flf function
+
+457
+00:17:37,200 --> 00:17:42,480
+right what is that and can you tell me
+
+458
+00:17:39,760 --> 00:17:45,440
+if lease plus one is bigger or equal
+
+459
+00:17:42,480 --> 00:17:48,320
+than n then we we can remove one number
+
+460
+00:17:45,440 --> 00:17:49,360
+and get this okay
+
+461
+00:17:48,320 --> 00:17:52,000
+okay
+
+462
+00:17:49,360 --> 00:17:55,440
+can you explain to this bit and then if
+
+463
+00:17:52,000 --> 00:18:00,520
+you can i give you two pokemon cards
+
+464
+00:17:55,440 --> 00:18:00,520
+okay uh you have to um
+
+465
+00:18:05,600 --> 00:18:08,700
+[Music]
+
+466
+00:18:12,080 --> 00:18:17,280
+what's the problem what's the original
+
+467
+00:18:13,520 --> 00:18:19,280
+problem the original problem is uh
+
+468
+00:18:17,280 --> 00:18:22,080
+do you find a strictly
+
+469
+00:18:19,280 --> 00:18:23,440
+increasing subsequence so you uh figure
+
+470
+00:18:22,080 --> 00:18:25,600
+out if you
+
+471
+00:18:23,440 --> 00:18:26,880
+um almost
+
+472
+00:18:25,600 --> 00:18:29,840
+won
+
+473
+00:18:26,880 --> 00:18:29,840
+um
+
+474
+00:18:34,080 --> 00:18:38,320
+and then it will be strictly increasing
+
+475
+00:18:37,200 --> 00:18:40,640
+yeah so
+
+476
+00:18:38,320 --> 00:18:42,880
+so at most one yeah this is what it does
+
+477
+00:18:40,640 --> 00:18:45,440
+why this is max f is the longest
+
+478
+00:18:42,880 --> 00:18:46,720
+increasing subsequent it's because it's
+
+479
+00:18:45,440 --> 00:18:49,679
+maximum
+
+480
+00:18:46,720 --> 00:18:52,000
+why why what's f
+
+481
+00:18:49,679 --> 00:18:52,000
+is
+
+482
+00:18:52,799 --> 00:18:56,160
+what did i say long is increasing
+
+483
+00:18:54,400 --> 00:18:57,650
+subsequence
+
+484
+00:18:56,160 --> 00:19:00,320
+of what
+
+485
+00:18:57,650 --> 00:19:02,720
+[Music]
+
+486
+00:19:00,320 --> 00:19:05,760
+one one look one
+
+487
+00:19:02,720 --> 00:19:08,400
+two three okay so what's the f value for
+
+488
+00:19:05,760 --> 00:19:11,280
+the this is the original value
+
+489
+00:19:08,400 --> 00:19:14,559
+what's the f value
+
+490
+00:19:11,280 --> 00:19:16,640
+one two three okay
+
+491
+00:19:14,559 --> 00:19:18,640
+okay wait wait wait wait how about one
+
+492
+00:19:16,640 --> 00:19:20,960
+five three what's the longest increasing
+
+493
+00:19:18,640 --> 00:19:22,320
+subsequence oh one
+
+494
+00:19:20,960 --> 00:19:25,840
+no no no
+
+495
+00:19:22,320 --> 00:19:25,840
+what's the f value
+
+496
+00:19:28,160 --> 00:19:30,960
+what should i put here
+
+497
+00:19:31,039 --> 00:19:36,480
+no it's not three what's the f value
+
+498
+00:19:34,559 --> 00:19:38,720
+the longest increasing subsequent that
+
+499
+00:19:36,480 --> 00:19:39,760
+ends at current index
+
+500
+00:19:38,720 --> 00:19:41,919
+one
+
+501
+00:19:39,760 --> 00:19:44,400
+two what's there
+
+502
+00:19:41,919 --> 00:19:46,080
+what should i put here
+
+503
+00:19:44,400 --> 00:19:49,360
+what's the longest increasing subsequent
+
+504
+00:19:46,080 --> 00:19:49,360
+that ends at index three
+
+505
+00:19:49,440 --> 00:19:54,640
+three
+
+506
+00:19:50,880 --> 00:19:58,799
+long the lens the long two why is two
+
+507
+00:19:54,640 --> 00:20:02,159
+because because you count uh
+
+508
+00:19:58,799 --> 00:20:06,480
+one and three yeah okay so okay so you
+
+509
+00:20:02,159 --> 00:20:08,480
+understand what the f so what's max f
+
+510
+00:20:06,480 --> 00:20:09,919
+f is
+
+511
+00:20:08,480 --> 00:20:11,919
+maximum
+
+512
+00:20:09,919 --> 00:20:14,799
+yeah i know what's the longest
+
+513
+00:20:11,919 --> 00:20:17,120
+increasing subsequence if i look because
+
+514
+00:20:14,799 --> 00:20:19,039
+f value is only gives me the longest
+
+515
+00:20:17,120 --> 00:20:21,120
+increasing subsequent that ends at each
+
+516
+00:20:19,039 --> 00:20:23,600
+index right and i want to find out the
+
+517
+00:20:21,120 --> 00:20:26,159
+longest increasing subsequence the end
+
+518
+00:20:23,600 --> 00:20:28,880
+for the full array so it can it can end
+
+519
+00:20:26,159 --> 00:20:30,000
+at any index that's why i put that max f
+
+520
+00:20:28,880 --> 00:20:32,080
+to get the
+
+521
+00:20:30,000 --> 00:20:34,960
+longest increasing subsequence of the
+
+522
+00:20:32,080 --> 00:20:38,240
+whole array first one right
+
+523
+00:20:34,960 --> 00:20:40,320
+because that's what we said we need to
+
+524
+00:20:38,240 --> 00:20:42,480
+find out if we can
+
+525
+00:20:40,320 --> 00:20:44,640
+find you could if we can have a
+
+526
+00:20:42,480 --> 00:20:46,960
+increasing subsequence or increasing
+
+527
+00:20:44,640 --> 00:20:48,640
+array by removing one so that's one way
+
+528
+00:20:46,960 --> 00:20:50,880
+they come from right we have an array
+
+529
+00:20:48,640 --> 00:20:53,200
+okay what's the time number
+
+530
+00:20:50,880 --> 00:20:53,200
+um
+
+531
+00:20:53,679 --> 00:20:57,919
+oh n square yeah
+
+532
+00:20:55,280 --> 00:21:00,480
+you see yeah it's not better right it's
+
+533
+00:20:57,919 --> 00:21:02,480
+not better but this is another idea okay
+
+534
+00:21:00,480 --> 00:21:05,200
+but we we talked about the longest
+
+535
+00:21:02,480 --> 00:21:07,760
+increasing substance by greedy using the
+
+536
+00:21:05,200 --> 00:21:10,159
+bicep left bicep right do you still
+
+537
+00:21:07,760 --> 00:21:11,120
+remember binary set left final reset
+
+538
+00:21:10,159 --> 00:21:13,600
+right
+
+539
+00:21:11,120 --> 00:21:14,880
+it's a it's a what is a two functions to
+
+540
+00:21:13,600 --> 00:21:17,679
+find the
+
+541
+00:21:14,880 --> 00:21:19,039
+final index to insert the element okay
+
+542
+00:21:17,679 --> 00:21:21,919
+look
+
+543
+00:21:19,039 --> 00:21:27,120
+array this is array one two
+
+544
+00:21:21,919 --> 00:21:29,440
+two three three three four okay so
+
+545
+00:21:27,120 --> 00:21:31,200
+bisect left
+
+546
+00:21:29,440 --> 00:21:34,400
+by the left
+
+547
+00:21:31,200 --> 00:21:35,360
+a if i want to put that number three
+
+548
+00:21:34,400 --> 00:21:38,400
+if i
+
+549
+00:21:35,360 --> 00:21:41,600
+everybody look this is a sorted array
+
+550
+00:21:38,400 --> 00:21:43,440
+and bisect left yeah i want to put i
+
+551
+00:21:41,600 --> 00:21:46,400
+want to find out which index i can put
+
+552
+00:21:43,440 --> 00:21:46,400
+the number three in
+
+553
+00:21:46,799 --> 00:21:50,320
+so by saying left you will tell me it's
+
+554
+00:21:49,120 --> 00:21:52,400
+here right
+
+555
+00:21:50,320 --> 00:21:54,240
+you'll return zero one two three so if i
+
+556
+00:21:52,400 --> 00:21:55,919
+insert that displays
+
+557
+00:21:54,240 --> 00:21:59,120
+right
+
+558
+00:21:55,919 --> 00:22:02,400
+all the elements before it's smaller
+
+559
+00:21:59,120 --> 00:22:04,640
+than me right smaller than three yeah
+
+560
+00:22:02,400 --> 00:22:06,559
+that's what i said left and how about
+
+561
+00:22:04,640 --> 00:22:09,440
+biceps right
+
+562
+00:22:06,559 --> 00:22:10,480
+you know if it's a if it has a
+
+563
+00:22:09,440 --> 00:22:12,320
+equal
+
+564
+00:22:10,480 --> 00:22:14,960
+number you will be the first one right
+
+565
+00:22:12,320 --> 00:22:16,960
+by the right you'll be here
+
+566
+00:22:14,960 --> 00:22:19,120
+okay slightly different look please
+
+567
+00:22:16,960 --> 00:22:22,000
+because if i put the number three and
+
+568
+00:22:19,120 --> 00:22:22,960
+here yeah a3
+
+569
+00:22:22,000 --> 00:22:24,080
+here
+
+570
+00:22:22,960 --> 00:22:26,880
+that
+
+571
+00:22:24,080 --> 00:22:29,440
+let that position i want to put another
+
+572
+00:22:26,880 --> 00:22:31,840
+three here right so that would be on the
+
+573
+00:22:29,440 --> 00:22:33,360
+right of the
+
+574
+00:22:31,840 --> 00:22:35,440
+block of three because it's the same
+
+575
+00:22:33,360 --> 00:22:37,039
+yeah if i only pull the three
+
+576
+00:22:35,440 --> 00:22:39,360
+using bison left
+
+577
+00:22:37,039 --> 00:22:42,080
+it'll be on the left it'll be bisect
+
+578
+00:22:39,360 --> 00:22:43,679
+right yeah do you get it yeah
+
+579
+00:22:42,080 --> 00:22:47,679
+why are we using bases
+
+580
+00:22:43,679 --> 00:22:49,200
+right because we we have all log n
+
+581
+00:22:47,679 --> 00:22:53,760
+complexity four
+
+582
+00:22:49,200 --> 00:22:54,480
+for both two yeah first operation okay
+
+583
+00:22:53,760 --> 00:22:56,640
+so
+
+584
+00:22:54,480 --> 00:22:59,840
+we are using these and then we can do
+
+585
+00:22:56,640 --> 00:23:02,240
+this we can keep keep tracking of the uh
+
+586
+00:22:59,840 --> 00:23:04,960
+longest increasing subsequence okay so
+
+587
+00:23:02,240 --> 00:23:06,559
+let's say let's go to this one five two
+
+588
+00:23:04,960 --> 00:23:08,960
+three again okay
+
+589
+00:23:06,559 --> 00:23:10,799
+okay so look all right
+
+590
+00:23:08,960 --> 00:23:12,799
+longest increasing subsequent at the
+
+591
+00:23:10,799 --> 00:23:15,120
+beginning is empty
+
+592
+00:23:12,799 --> 00:23:17,760
+okay one
+
+593
+00:23:15,120 --> 00:23:19,039
+where do i put a one in the
+
+594
+00:23:17,760 --> 00:23:20,880
+here
+
+595
+00:23:19,039 --> 00:23:22,960
+it'll be there right
+
+596
+00:23:20,880 --> 00:23:23,840
+so i put it one here
+
+597
+00:23:22,960 --> 00:23:25,760
+five
+
+598
+00:23:23,840 --> 00:23:27,440
+where where is the where is the fight
+
+599
+00:23:25,760 --> 00:23:30,240
+going to fit here on the right of the
+
+600
+00:23:27,440 --> 00:23:32,320
+one right yeah so if it's more than that
+
+601
+00:23:30,240 --> 00:23:34,400
+i'm pretty two where is it where's the
+
+602
+00:23:32,320 --> 00:23:35,760
+two going to be in the
+
+603
+00:23:34,400 --> 00:23:37,280
+in here
+
+604
+00:23:35,760 --> 00:23:39,280
+between right
+
+605
+00:23:37,280 --> 00:23:40,559
+so it's here right
+
+606
+00:23:39,280 --> 00:23:42,000
+so i will
+
+607
+00:23:40,559 --> 00:23:44,880
+remove it
+
+608
+00:23:42,000 --> 00:23:46,799
+and put it as fine why can't we do it
+
+609
+00:23:44,880 --> 00:23:48,400
+look because we keep tracking of numbers
+
+610
+00:23:46,799 --> 00:23:49,760
+increasing subsequent and we find a
+
+611
+00:23:48,400 --> 00:23:52,159
+smaller number
+
+612
+00:23:49,760 --> 00:23:53,440
+it's less than five right i can replace
+
+613
+00:23:52,159 --> 00:23:56,159
+it
+
+614
+00:23:53,440 --> 00:23:57,840
+do you get it look it i i don't care
+
+615
+00:23:56,159 --> 00:24:00,400
+what happened the longest increasing
+
+616
+00:23:57,840 --> 00:24:01,440
+subsequence in the future but i know i
+
+617
+00:24:00,400 --> 00:24:02,960
+know
+
+618
+00:24:01,440 --> 00:24:05,520
+is that i
+
+619
+00:24:02,960 --> 00:24:08,080
+the result will not get worse if i
+
+620
+00:24:05,520 --> 00:24:10,000
+replace five is two i'm right
+
+621
+00:24:08,080 --> 00:24:12,159
+yeah because two is smaller than five
+
+622
+00:24:10,000 --> 00:24:15,360
+yeah if you have a longest increasing
+
+623
+00:24:12,159 --> 00:24:18,240
+subsequent you know something like that
+
+624
+00:24:15,360 --> 00:24:19,600
+i can replace it with a smaller number
+
+625
+00:24:18,240 --> 00:24:22,159
+too it's still
+
+626
+00:24:19,600 --> 00:24:23,840
+stand right all right
+
+627
+00:24:22,159 --> 00:24:26,320
+makes sense
+
+628
+00:24:23,840 --> 00:24:28,080
+so let's let me okay i'll just replace
+
+629
+00:24:26,320 --> 00:24:28,960
+it okay i know three where it's going to
+
+630
+00:24:28,080 --> 00:24:32,279
+put
+
+631
+00:24:28,960 --> 00:24:32,279
+on the right
+
+632
+00:24:33,039 --> 00:24:37,039
+so we have the longest increasing
+
+633
+00:24:34,400 --> 00:24:38,960
+subsequent which is then three okay
+
+634
+00:24:37,039 --> 00:24:41,679
+and it's
+
+635
+00:24:38,960 --> 00:24:46,159
+bigger or equal than n minus one so
+
+636
+00:24:41,679 --> 00:24:48,559
+yeah we can remove it okay let's do this
+
+637
+00:24:46,159 --> 00:24:53,080
+do you get it
+
+638
+00:24:48,559 --> 00:24:55,120
+yeah ryan look at it okay let's do this
+
+639
+00:24:53,080 --> 00:24:56,000
+d502 okay
+
+640
+00:24:55,120 --> 00:24:57,039
+uh
+
+641
+00:24:56,000 --> 00:24:58,480
+all right
+
+642
+00:24:57,039 --> 00:25:00,080
+and then you need to tell me what's the
+
+643
+00:24:58,480 --> 00:25:01,360
+time complexity for the last question
+
+644
+00:25:00,080 --> 00:25:03,520
+okay
+
+645
+00:25:01,360 --> 00:25:06,159
+wrong is increasing subsequent because
+
+646
+00:25:03,520 --> 00:25:07,200
+at the beginning empty okay
+
+647
+00:25:06,159 --> 00:25:08,080
+for
+
+648
+00:25:07,200 --> 00:25:09,039
+i
+
+649
+00:25:08,080 --> 00:25:10,400
+in
+
+650
+00:25:09,039 --> 00:25:12,240
+array
+
+651
+00:25:10,400 --> 00:25:15,039
+and the index is what
+
+652
+00:25:12,240 --> 00:25:18,080
+index let's say x
+
+653
+00:25:15,039 --> 00:25:19,360
+equals bisect
+
+654
+00:25:18,080 --> 00:25:21,279
+left
+
+655
+00:25:19,360 --> 00:25:22,640
+bicep left five cent right are from
+
+656
+00:25:21,279 --> 00:25:25,679
+bicep
+
+657
+00:25:22,640 --> 00:25:26,960
+uh package bicep it means binary you
+
+658
+00:25:25,679 --> 00:25:28,960
+know
+
+659
+00:25:26,960 --> 00:25:31,039
+binary actually i don't i don't know
+
+660
+00:25:28,960 --> 00:25:32,159
+what spices stands for okay buy is for
+
+661
+00:25:31,039 --> 00:25:33,600
+binary
+
+662
+00:25:32,159 --> 00:25:37,520
+set probably
+
+663
+00:25:33,600 --> 00:25:38,480
+i have no idea okay by the left
+
+664
+00:25:37,520 --> 00:25:42,080
+list
+
+665
+00:25:38,480 --> 00:25:44,400
+and i okay look then if this index is
+
+666
+00:25:42,080 --> 00:25:46,000
+equal to the length but if this
+
+667
+00:25:44,400 --> 00:25:48,080
+insertion point
+
+668
+00:25:46,000 --> 00:25:50,240
+is at the end of the partition at the
+
+669
+00:25:48,080 --> 00:25:52,720
+end on the right you know at the end
+
+670
+00:25:50,240 --> 00:25:54,559
+right at the end of this
+
+671
+00:25:52,720 --> 00:25:55,360
+then we can just do what we can just
+
+672
+00:25:54,559 --> 00:25:58,080
+list
+
+673
+00:25:55,360 --> 00:25:59,520
+the append
+
+674
+00:25:58,080 --> 00:26:01,279
+x y
+
+675
+00:25:59,520 --> 00:26:02,640
+as
+
+676
+00:26:01,279 --> 00:26:04,640
+this
+
+677
+00:26:02,640 --> 00:26:05,919
+x equals i
+
+678
+00:26:04,640 --> 00:26:09,039
+yeah
+
+679
+00:26:05,919 --> 00:26:11,919
+and then return
+
+680
+00:26:09,039 --> 00:26:15,039
+length of list
+
+681
+00:26:11,919 --> 00:26:16,000
+is bigger plus one is bigger or equal
+
+682
+00:26:15,039 --> 00:26:18,559
+than
+
+683
+00:26:16,000 --> 00:26:19,760
+lens ar right
+
+684
+00:26:18,559 --> 00:26:22,320
+yeah
+
+685
+00:26:19,760 --> 00:26:22,320
+okay
+
+686
+00:26:22,559 --> 00:26:26,080
+um
+
+687
+00:26:24,960 --> 00:26:27,440
+okay so
+
+688
+00:26:26,080 --> 00:26:29,679
+the same thing what's the times on black
+
+689
+00:26:27,440 --> 00:26:31,120
+state what's the time that i see
+
+690
+00:26:29,679 --> 00:26:32,799
+come on
+
+691
+00:26:31,120 --> 00:26:35,200
+what's the time of messy
+
+692
+00:26:32,799 --> 00:26:36,840
+the time complexity
+
+693
+00:26:35,200 --> 00:26:38,960
+[Music]
+
+694
+00:26:36,840 --> 00:26:40,159
+is this
+
+695
+00:26:38,960 --> 00:26:43,760
+this one
+
+696
+00:26:40,159 --> 00:26:43,760
+oh i love your weather oh and okay
+
+697
+00:26:43,919 --> 00:26:48,159
+okay
+
+698
+00:26:45,039 --> 00:26:50,720
+yeah we're considering these as as a one
+
+699
+00:26:48,159 --> 00:26:53,600
+okay often it's a one okay
+
+700
+00:26:50,720 --> 00:26:55,679
+and then changing the value at index x
+
+701
+00:26:53,600 --> 00:26:57,679
+is all one so a constant and can you
+
+702
+00:26:55,679 --> 00:26:59,600
+tell me what what's this speed
+
+703
+00:26:57,679 --> 00:27:01,200
+this should be similar to the last one
+
+704
+00:26:59,600 --> 00:27:03,360
+right all right
+
+705
+00:27:01,200 --> 00:27:07,000
+what's this bit length this plus one
+
+706
+00:27:03,360 --> 00:27:07,000
+equals dense ir
+
+707
+00:27:09,039 --> 00:27:13,919
+you just answered that five minutes ago
+
+708
+00:27:10,640 --> 00:27:13,919
+what's what what's wasted
+
+709
+00:27:17,279 --> 00:27:20,559
+yeah this what's this last one what's
+
+710
+00:27:19,760 --> 00:27:21,600
+this
+
+711
+00:27:20,559 --> 00:27:24,159
+the list
+
+712
+00:27:21,600 --> 00:27:25,039
+what's what's it it's my list what's
+
+713
+00:27:24,159 --> 00:27:27,039
+this
+
+714
+00:27:25,039 --> 00:27:29,279
+it's a list
+
+715
+00:27:27,039 --> 00:27:32,360
+what does it mean
+
+716
+00:27:29,279 --> 00:27:32,360
+it means
+
+717
+00:27:40,399 --> 00:27:43,919
+increasing subsequence and then i wanted
+
+718
+00:27:42,559 --> 00:27:45,840
+the lens of longest increasing
+
+719
+00:27:43,919 --> 00:27:47,760
+subsequent plus one bigger than that can
+
+720
+00:27:45,840 --> 00:27:49,590
+you extend this to me
+
+721
+00:27:47,760 --> 00:27:52,609
+this is the idea of using it
+
+722
+00:27:49,590 --> 00:27:52,609
+[Music]
+
+723
+00:27:54,799 --> 00:27:56,960
+yeah
+
+724
+00:27:57,279 --> 00:28:00,720
+if it's bigger than a lymph
+
+725
+00:28:00,840 --> 00:28:04,799
+yeah why
+
+726
+00:28:03,039 --> 00:28:07,600
+why this works
+
+727
+00:28:04,799 --> 00:28:08,799
+you haven't explained that well to me
+
+728
+00:28:07,600 --> 00:28:10,399
+i mean what
+
+729
+00:28:08,799 --> 00:28:14,240
+what's the problem what's the original
+
+730
+00:28:10,399 --> 00:28:16,960
+problem the real problem is uh
+
+731
+00:28:14,240 --> 00:28:16,960
+you have a
+
+732
+00:28:19,150 --> 00:28:22,209
+[Music]
+
+733
+00:28:28,640 --> 00:28:34,559
+it should relationship be personally
+
+734
+00:28:31,679 --> 00:28:36,880
+strictly increasing yeah okay so that's
+
+735
+00:28:34,559 --> 00:28:38,960
+the same as finding the
+
+736
+00:28:36,880 --> 00:28:40,240
+longest increasing subsequence of the
+
+737
+00:28:38,960 --> 00:28:42,000
+array
+
+738
+00:28:40,240 --> 00:28:44,720
+the length okay so the longest
+
+739
+00:28:42,000 --> 00:28:45,840
+increasing substituent of array which is
+
+740
+00:28:44,720 --> 00:28:48,240
+so look
+
+741
+00:28:45,840 --> 00:28:50,720
+here the list will be one
+
+742
+00:28:48,240 --> 00:28:52,720
+can you tell me what that is here
+
+743
+00:28:50,720 --> 00:28:54,240
+one
+
+744
+00:28:52,720 --> 00:28:57,679
+two
+
+745
+00:28:54,240 --> 00:28:58,640
+three okay and the lens is what
+
+746
+00:28:57,679 --> 00:29:01,039
+three
+
+747
+00:28:58,640 --> 00:29:02,559
+okay three and then i need to plus one
+
+748
+00:29:01,039 --> 00:29:03,360
+that will become
+
+749
+00:29:02,559 --> 00:29:05,200
+four
+
+750
+00:29:03,360 --> 00:29:07,039
+and the four is bigger or equal than the
+
+751
+00:29:05,200 --> 00:29:08,960
+length of the old thing that means that
+
+752
+00:29:07,039 --> 00:29:13,200
+if i remove one element and i can get
+
+753
+00:29:08,960 --> 00:29:15,520
+the rest remain remaining uh numbers
+
+754
+00:29:13,200 --> 00:29:16,960
+strictly increasing okay yeah
+
+755
+00:29:15,520 --> 00:29:19,679
+at least it's the most efficient
+
+756
+00:29:16,960 --> 00:29:23,880
+overnight yeah okay that's it for today
+
+757
+00:29:19,679 --> 00:29:23,880
+bye-bye bye-bye bye-bye
+
+758
+00:29:27,080 --> 00:29:31,320
+bye bye
+
