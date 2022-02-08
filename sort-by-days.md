@@ -7,6 +7,8 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 402 (2022-02-07): [Remove One Element to Make the Array Strictly Increasing (LIS Algorithms)](https://helloacm.com/teaching-kids-programming-remove-one-element-to-make-the-array-strictly-increasing-lis-algorithms/) 删除一个元素使数组严格递增(最长严格递增子序列算法)
+ [Youtube](https://youtu.be/dRtU8gi2xNc) - [B站](https://www.bilibili.com/video/BV1tq4y1b74Z/)  - [西瓜](https://www.ixigua.com/7062104796743860743) 
 - Day 401 (2022-02-06): [Sort Even and Odd Indices Independently (Merge and Sort Algorithm)](https://helloacm.com/teaching-kids-programming-sort-even-and-odd-indices-independently-merge-and-sort-algorithm/) 对偶数和奇数索引进行独立排序(合并和排序算法)
  [Youtube](https://youtu.be/POM41bQj3HA) - [B站](https://www.bilibili.com/video/BV1Mm4y1Z7HA/)  - [西瓜](https://www.ixigua.com/7061721085250634270) 
 - Day 400 (2022-02-05): [Clone (Deep Copy) a Undirected Connected Graph using Breadth First Search Algorithm](https://helloacm.com/teaching-kids-programming-clone-deep-copy-a-undirected-connected-graph-using-breadth-first-search-algorithm/) 广度优先搜索算法(BFS)克隆(深度拷贝)无向联结图 [Youtube](https://youtu.be/MZGFLMxOsiQ) - [B站](https://www.bilibili.com/video/BV1R3411E7R1/)  - [西瓜](https://www.ixigua.com/7061334663981171230) 
