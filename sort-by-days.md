@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 404 (2022-02-10): [Math Proof of Logarithm Rules: log(ab)=log(a)+log(b) and log(a/b)=log(a)-log(b)](https://helloacm.com/teaching-kids-programming-proof-of-logarithm-rules-logablogalogb-and-loga-bloga-logb/) 数学对数公式证明: log(ab)=log(a)+log(b) 和 log(a/b)=log(a)-log(b) [Youtube](https://youtu.be/SehGoyCAc34) - [B站](https://www.bilibili.com/video/BV11S4y1G7V6/)  - [西瓜](https://www.ixigua.com/7063199534435795464) 
 - Day 403 (2022-02-09): [Math Simplified Fractions where Denominator is Less-than-or-equal-to N](https://helloacm.com/teaching-kids-programming-math-simplified-fractions-where-denominator-is-less-than-or-equal-to-n/) 数学简化的分数 [Youtube](https://youtu.be/T2GxlLOWA2Y) - [B站](https://www.bilibili.com/video/BV13u411976x/)  - [西瓜](https://www.ixigua.com/7062837694820254238) 
 - Day 402 (2022-02-07): [Remove One Element to Make the Array Strictly Increasing (LIS Algorithms)](https://helloacm.com/teaching-kids-programming-remove-one-element-to-make-the-array-strictly-increasing-lis-algorithms/) 删除一个元素使数组严格递增(最长严格递增子序列算法)
  [Youtube](https://youtu.be/dRtU8gi2xNc) - [B站](https://www.bilibili.com/video/BV1tq4y1b74Z/)  - [西瓜](https://www.ixigua.com/7062104796743860743) 
