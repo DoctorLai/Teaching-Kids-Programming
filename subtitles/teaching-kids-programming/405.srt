@@ -1,0 +1,1464 @@
+1
+00:00:02,879 --> 00:00:07,120
+so let's let's say we have an integer we
+
+2
+00:00:05,120 --> 00:00:09,200
+have number like one
+
+3
+00:00:07,120 --> 00:00:14,160
+three zero
+
+4
+00:00:09,200 --> 00:00:17,119
+it could be negative like uh minus 305
+
+5
+00:00:14,160 --> 00:00:19,600
+and we can rearrange the num digit to
+
+6
+00:00:17,119 --> 00:00:22,000
+make it as small as we can get okay so
+
+7
+00:00:19,600 --> 00:00:24,320
+what's if we arrange
+
+8
+00:00:22,000 --> 00:00:26,960
+but we can't have this leading zero okay
+
+9
+00:00:24,320 --> 00:00:28,960
+so we can't have like 0 1 3 okay so
+
+10
+00:00:26,960 --> 00:00:32,559
+what's the smallest number by
+
+11
+00:00:28,960 --> 00:00:35,840
+we can get three sorry 103.
+
+12
+00:00:32,559 --> 00:00:35,840
+103. okay
+
+13
+00:00:36,700 --> 00:00:39,920
+[Music]
+
+14
+00:00:38,960 --> 00:00:42,320
+wow
+
+15
+00:00:39,920 --> 00:00:44,160
+okay so that was correct that was that
+
+16
+00:00:42,320 --> 00:00:45,600
+was all right so let's say we have
+
+17
+00:00:44,160 --> 00:00:49,000
+another example
+
+18
+00:00:45,600 --> 00:00:49,000
+uh 102
+
+19
+00:00:49,440 --> 00:00:54,320
+okay so uh
+
+20
+00:00:51,680 --> 00:00:55,199
+like that okay what's the smallest
+
+21
+00:00:54,320 --> 00:00:59,680
+one
+
+22
+00:00:55,199 --> 00:01:03,600
+uh one zero one two three four five six
+
+23
+00:00:59,680 --> 00:01:03,600
+okay okay that was correct and how about
+
+24
+00:01:07,200 --> 00:01:10,479
+okay what's this
+
+25
+00:01:09,040 --> 00:01:12,960
+nine eight
+
+26
+00:01:10,479 --> 00:01:12,960
+minus
+
+27
+00:01:14,880 --> 00:01:18,479
+okay so
+
+28
+00:01:16,720 --> 00:01:21,040
+okay so that was correct that was quick
+
+29
+00:01:18,479 --> 00:01:24,640
+so how how would you do it i mean what's
+
+30
+00:01:21,040 --> 00:01:26,479
+your thoughts about doing this
+
+31
+00:01:24,640 --> 00:01:29,520
+okay for the negative it could be easier
+
+32
+00:01:26,479 --> 00:01:29,520
+so what's the negative what's this
+
+33
+00:01:30,079 --> 00:01:34,320
+decreasing order
+
+34
+00:01:31,840 --> 00:01:36,240
+yeah but for the positive we can't have
+
+35
+00:01:34,320 --> 00:01:38,320
+the zero in the beginning so what do we
+
+36
+00:01:36,240 --> 00:01:41,520
+do so we take this
+
+37
+00:01:38,320 --> 00:01:43,600
+say we like skip the zero and then and
+
+38
+00:01:41,520 --> 00:01:46,079
+give it up for the second number and
+
+39
+00:01:43,600 --> 00:01:47,119
+then i and then put the
+
+40
+00:01:46,079 --> 00:01:49,360
+plus
+
+41
+00:01:47,119 --> 00:01:51,920
+yeah okay so for example this one we saw
+
+42
+00:01:49,360 --> 00:01:54,960
+the digit that would be zero one
+
+43
+00:01:51,920 --> 00:01:57,759
+one two three four all right
+
+44
+00:01:54,960 --> 00:01:59,520
+and so first the num zero is one so we
+
+45
+00:01:57,759 --> 00:02:02,880
+put a one and then we put a zero and
+
+46
+00:01:59,520 --> 00:02:07,119
+then we put the rest yeah yeah wow
+
+47
+00:02:02,880 --> 00:02:09,679
+that was quick okay okay quick
+
+48
+00:02:07,119 --> 00:02:11,680
+yeah so let's implement this easier it's
+
+49
+00:02:09,679 --> 00:02:14,400
+very easy
+
+50
+00:02:11,680 --> 00:02:17,120
+define let's say find
+
+51
+00:02:14,400 --> 00:02:17,120
+smallest
+
+52
+00:02:17,760 --> 00:02:21,879
+let's say n uh
+
+53
+00:02:22,239 --> 00:02:27,920
+okay so if n equal let's special case if
+
+54
+00:02:25,200 --> 00:02:29,120
+it's zero let me just do this yeah
+
+55
+00:02:27,920 --> 00:02:31,680
+okay
+
+56
+00:02:29,120 --> 00:02:33,680
+then if let's say if n is smaller than
+
+57
+00:02:31,680 --> 00:02:36,480
+zero right
+
+58
+00:02:33,680 --> 00:02:38,640
+smaller than zero so we just said we
+
+59
+00:02:36,480 --> 00:02:40,080
+just saw the digits in decreasing
+
+60
+00:02:38,640 --> 00:02:41,680
+numbers right
+
+61
+00:02:40,080 --> 00:02:43,599
+all right right
+
+62
+00:02:41,680 --> 00:02:46,000
+right
+
+63
+00:02:43,599 --> 00:02:47,680
+so first of all we take the
+
+64
+00:02:46,000 --> 00:02:49,200
+we
+
+65
+00:02:47,680 --> 00:02:51,599
+we take
+
+66
+00:02:49,200 --> 00:02:53,360
+we take the number we converted a string
+
+67
+00:02:51,599 --> 00:02:55,120
+and we break down
+
+68
+00:02:53,360 --> 00:02:57,360
+into a
+
+69
+00:02:55,120 --> 00:02:59,680
+array of digits so what does this mean
+
+70
+00:02:57,360 --> 00:03:02,159
+we actually look if n is one two three
+
+71
+00:02:59,680 --> 00:03:03,120
+so str n is
+
+72
+00:03:02,159 --> 00:03:05,200
+a
+
+73
+00:03:03,120 --> 00:03:07,680
+string type of one two three and then
+
+74
+00:03:05,200 --> 00:03:09,040
+putting the list you become
+
+75
+00:03:07,680 --> 00:03:10,319
+one
+
+76
+00:03:09,040 --> 00:03:12,239
+two
+
+77
+00:03:10,319 --> 00:03:14,080
+three okay
+
+78
+00:03:12,239 --> 00:03:16,400
+why do we need to do this because in a
+
+79
+00:03:14,080 --> 00:03:18,959
+string we can sort the string directly
+
+80
+00:03:16,400 --> 00:03:20,959
+strings are immutable what's immutable
+
+81
+00:03:18,959 --> 00:03:22,480
+remember what's immutable you can't
+
+82
+00:03:20,959 --> 00:03:25,680
+change it you can't change it so that's
+
+83
+00:03:22,480 --> 00:03:28,000
+why we need to convert it to an array of
+
+84
+00:03:25,680 --> 00:03:30,799
+of digits so we can solve this yeah then
+
+85
+00:03:28,000 --> 00:03:32,480
+we can sort it yeah we can sort these so
+
+86
+00:03:30,799 --> 00:03:34,319
+now we just return
+
+87
+00:03:32,480 --> 00:03:36,560
+uh first of all if it is smaller than
+
+88
+00:03:34,319 --> 00:03:37,360
+zero we need to put a negative sign
+
+89
+00:03:36,560 --> 00:03:39,599
+right
+
+90
+00:03:37,360 --> 00:03:42,400
+now all we put it will use the abs which
+
+91
+00:03:39,599 --> 00:03:44,159
+is essentially as negative n
+
+92
+00:03:42,400 --> 00:03:47,040
+then we just return
+
+93
+00:03:44,159 --> 00:03:49,040
+we give a minus sign yeah
+
+94
+00:03:47,040 --> 00:03:50,959
+minus sign plus
+
+95
+00:03:49,040 --> 00:03:52,480
+sorted
+
+96
+00:03:50,959 --> 00:03:55,200
+okay so
+
+97
+00:03:52,480 --> 00:03:58,879
+first of all if we give this sorted
+
+98
+00:03:55,200 --> 00:04:01,040
+sorted b c s and then reverse reverse
+
+99
+00:03:58,879 --> 00:04:04,239
+equals true right reverse equals true
+
+100
+00:04:01,040 --> 00:04:06,879
+then you'll be reversing and how do we
+
+101
+00:04:04,239 --> 00:04:08,200
+convert an array of string into a string
+
+102
+00:04:06,879 --> 00:04:12,640
+how to can we
+
+103
+00:04:08,200 --> 00:04:12,640
+concatenate it into one two three
+
+104
+00:04:12,840 --> 00:04:16,799
+sorry how do we do it look from here to
+
+105
+00:04:15,920 --> 00:04:19,359
+here
+
+106
+00:04:16,799 --> 00:04:21,280
+remember
+
+107
+00:04:19,359 --> 00:04:22,320
+what's what the function do we need to
+
+108
+00:04:21,280 --> 00:04:25,600
+use
+
+109
+00:04:22,320 --> 00:04:25,600
+we need to use
+
+110
+00:04:25,759 --> 00:04:30,080
+john yeah so we join
+
+111
+00:04:28,560 --> 00:04:33,759
+join
+
+112
+00:04:30,080 --> 00:04:35,250
+journey state salty yeah join this bit
+
+113
+00:04:33,759 --> 00:04:36,800
+uh john here
+
+114
+00:04:35,250 --> 00:04:39,840
+[Music]
+
+115
+00:04:36,800 --> 00:04:42,240
+yeah and then that will be yeah
+
+116
+00:04:39,840 --> 00:04:45,360
+that's for uh let's for the negative
+
+117
+00:04:42,240 --> 00:04:47,520
+cases so look if we don't put a reverse
+
+118
+00:04:45,360 --> 00:04:49,600
+equals true we can sort it and then we
+
+119
+00:04:47,520 --> 00:04:51,520
+can how do we reverse it if this is s
+
+120
+00:04:49,600 --> 00:04:53,840
+how do we reverse it
+
+121
+00:04:51,520 --> 00:04:56,840
+reverse it
+
+122
+00:04:53,840 --> 00:04:56,840
+um
+
+123
+00:05:04,639 --> 00:05:11,520
+now okay so now
+
+124
+00:05:06,400 --> 00:05:15,120
+we do these airs okay as positive
+
+125
+00:05:11,520 --> 00:05:16,560
+so the same s equals least
+
+126
+00:05:15,120 --> 00:05:18,400
+str
+
+127
+00:05:16,560 --> 00:05:20,400
+n right because it's positive we just do
+
+128
+00:05:18,400 --> 00:05:23,039
+the positive and i know we need to sort
+
+129
+00:05:20,400 --> 00:05:25,199
+it yet we need to sort it first
+
+130
+00:05:23,039 --> 00:05:27,039
+yeah
+
+131
+00:05:25,199 --> 00:05:29,280
+look we can sort it look this function
+
+132
+00:05:27,039 --> 00:05:31,120
+dot thought written nothing okay return
+
+133
+00:05:29,280 --> 00:05:33,199
+nothing if we want to directly use the
+
+134
+00:05:31,120 --> 00:05:34,880
+soft thought value we need to use this
+
+135
+00:05:33,199 --> 00:05:37,280
+iterator sorted
+
+136
+00:05:34,880 --> 00:05:39,039
+s okay you can put the parameters
+
+137
+00:05:37,280 --> 00:05:40,880
+reverse equals true or you use the
+
+138
+00:05:39,039 --> 00:05:43,199
+column kind of minus one when when we
+
+139
+00:05:40,880 --> 00:05:45,600
+get it and we reverse it once okay and
+
+140
+00:05:43,199 --> 00:05:48,720
+then we do it sort it now we just need
+
+141
+00:05:45,600 --> 00:05:49,600
+to go find the xy uh the value here for
+
+142
+00:05:48,720 --> 00:05:52,720
+i
+
+143
+00:05:49,600 --> 00:05:52,720
+in immune rate
+
+144
+00:05:59,370 --> 00:06:02,420
+[Music]
+
+145
+00:06:04,319 --> 00:06:08,800
+first non-zero that would be 10
+
+146
+00:06:07,280 --> 00:06:09,840
+return
+
+147
+00:06:08,800 --> 00:06:12,160
+uh
+
+148
+00:06:09,840 --> 00:06:16,560
+s up to i
+
+149
+00:06:12,160 --> 00:06:19,600
+plus c plus s i plus 1
+
+150
+00:06:16,560 --> 00:06:22,479
+to the n okay and then obviously this is
+
+151
+00:06:19,600 --> 00:06:22,479
+the uh
+
+152
+00:06:22,639 --> 00:06:28,560
+i mean the this is this is an array so
+
+153
+00:06:25,039 --> 00:06:31,680
+we have to join yeah we have to join it
+
+154
+00:06:28,560 --> 00:06:33,280
+um so look this one is from a string
+
+155
+00:06:31,680 --> 00:06:34,960
+return a string time and if we want to
+
+156
+00:06:33,280 --> 00:06:37,440
+return the integer type we put that we
+
+157
+00:06:34,960 --> 00:06:39,600
+just convert it to an integer right so
+
+158
+00:06:37,440 --> 00:06:40,639
+if c not equals
+
+159
+00:06:39,600 --> 00:06:41,600
+0
+
+160
+00:06:40,639 --> 00:06:42,960
+then
+
+161
+00:06:41,600 --> 00:06:45,360
+we can
+
+162
+00:06:42,960 --> 00:06:48,080
+we can do this s up to i this is the
+
+163
+00:06:45,360 --> 00:06:51,599
+index up to i right this is uh
+
+164
+00:06:48,080 --> 00:06:54,240
+up to i uh possibly we need to join it
+
+165
+00:06:51,599 --> 00:06:54,600
+and plus the
+
+166
+00:06:54,240 --> 00:06:57,039
+uh
+
+167
+00:06:54,600 --> 00:06:59,120
+[Music]
+
+168
+00:06:57,039 --> 00:07:00,080
+okay so s is
+
+169
+00:06:59,120 --> 00:07:00,800
+yeah
+
+170
+00:07:00,080 --> 00:07:01,680
+so
+
+171
+00:07:00,800 --> 00:07:05,360
+so
+
+172
+00:07:01,680 --> 00:07:07,599
+s up to i this is the array up to uh
+
+173
+00:07:05,360 --> 00:07:08,319
+so let's say we have uh
+
+174
+00:07:07,599 --> 00:07:11,440
+um
+
+175
+00:07:08,319 --> 00:07:14,080
+that example yeah one zero
+
+176
+00:07:11,440 --> 00:07:17,599
+one two three minus and then
+
+177
+00:07:14,080 --> 00:07:19,919
+we have one we have minus zero so look
+
+178
+00:07:17,599 --> 00:07:22,800
+we could have multiple zero at this time
+
+179
+00:07:19,919 --> 00:07:25,919
+so that's why we have we can we need to
+
+180
+00:07:22,800 --> 00:07:26,960
+concatenate anything up to the
+
+181
+00:07:25,919 --> 00:07:29,680
+up to
+
+182
+00:07:26,960 --> 00:07:32,639
+index line where index i is the first
+
+183
+00:07:29,680 --> 00:07:35,440
+non-zero which is c right so concatenate
+
+184
+00:07:32,639 --> 00:07:36,560
+so when we sort it will be minus
+
+185
+00:07:35,440 --> 00:07:38,800
+zero
+
+186
+00:07:36,560 --> 00:07:43,039
+one one two three okay so first of all
+
+187
+00:07:38,800 --> 00:07:46,080
+we wanna find this i which is non
+
+188
+00:07:43,039 --> 00:07:48,000
+yellow right and we put we get all the
+
+189
+00:07:46,080 --> 00:07:50,800
+yellows before that and then we put
+
+190
+00:07:48,000 --> 00:07:54,160
+these character and then we put all the
+
+191
+00:07:50,800 --> 00:07:55,440
+characters after index right so here
+
+192
+00:07:54,160 --> 00:07:57,360
+and then we
+
+193
+00:07:55,440 --> 00:07:59,440
+obviously we need to join yeah we need
+
+194
+00:07:57,360 --> 00:08:02,080
+to join
+
+195
+00:07:59,440 --> 00:08:04,080
+we need to draw and return
+
+196
+00:08:02,080 --> 00:08:05,919
+and then we we can convert it to the
+
+197
+00:08:04,080 --> 00:08:09,840
+string yeah right
+
+198
+00:08:05,919 --> 00:08:11,759
+yeah so look this is okay and we can use
+
+199
+00:08:09,840 --> 00:08:15,120
+the but it looks like we haven't
+
+200
+00:08:11,759 --> 00:08:15,120
+returned anything here it could be
+
+201
+00:08:15,840 --> 00:08:20,479
+i mean
+
+202
+00:08:17,840 --> 00:08:21,360
+but the thing is that we
+
+203
+00:08:20,479 --> 00:08:24,000
+do
+
+204
+00:08:21,360 --> 00:08:26,080
+do we expect the return here i mean
+
+205
+00:08:24,000 --> 00:08:28,560
+so does it return does he ever come to
+
+206
+00:08:26,080 --> 00:08:28,560
+this point
+
+207
+00:08:28,720 --> 00:08:32,080
+does it ever come to this point because
+
+208
+00:08:30,240 --> 00:08:35,279
+look i only i'm only we're only
+
+209
+00:08:32,080 --> 00:08:37,440
+returning these in this if statement and
+
+210
+00:08:35,279 --> 00:08:39,279
+there's a chance that is there a chance
+
+211
+00:08:37,440 --> 00:08:41,039
+that the if statement
+
+212
+00:08:39,279 --> 00:08:42,479
+is not being
+
+213
+00:08:41,039 --> 00:08:43,440
+executed
+
+214
+00:08:42,479 --> 00:08:45,760
+so
+
+215
+00:08:43,440 --> 00:08:48,080
+does it ever come here the thing is that
+
+216
+00:08:45,760 --> 00:08:50,640
+no why is that because if any zero it
+
+217
+00:08:48,080 --> 00:08:52,800
+just written here right so this case
+
+218
+00:08:50,640 --> 00:08:55,279
+would be the positive number
+
+219
+00:08:52,800 --> 00:08:56,959
+right would be positive so here that
+
+220
+00:08:55,279 --> 00:08:58,720
+would be positive b here would be
+
+221
+00:08:56,959 --> 00:09:00,880
+positive let's say
+
+222
+00:08:58,720 --> 00:09:02,320
+if it's positive then you will come here
+
+223
+00:09:00,880 --> 00:09:05,200
+for sure right
+
+224
+00:09:02,320 --> 00:09:06,959
+all right doesn't make sense
+
+225
+00:09:05,200 --> 00:09:10,240
+yeah because look this is looking for
+
+226
+00:09:06,959 --> 00:09:11,279
+the first non-zero characters long zero
+
+227
+00:09:10,240 --> 00:09:12,800
+digits
+
+228
+00:09:11,279 --> 00:09:15,279
+but
+
+229
+00:09:12,800 --> 00:09:17,040
+but if if we are assuming that the first
+
+230
+00:09:15,279 --> 00:09:19,040
+non-zero
+
+231
+00:09:17,040 --> 00:09:20,399
+digit never exists
+
+232
+00:09:19,040 --> 00:09:24,480
+then what does it mean
+
+233
+00:09:20,399 --> 00:09:26,399
+if you come and find any first non-zero
+
+234
+00:09:24,480 --> 00:09:28,160
+digit now what does it mean it's a
+
+235
+00:09:26,399 --> 00:09:31,200
+yellow right
+
+236
+00:09:28,160 --> 00:09:33,920
+yeah i think with zero it's here
+
+237
+00:09:31,200 --> 00:09:34,640
+yeah so we have really solid so
+
+238
+00:09:33,920 --> 00:09:36,399
+so
+
+239
+00:09:34,640 --> 00:09:37,760
+he would never come here you'll never
+
+240
+00:09:36,399 --> 00:09:39,440
+come here okay
+
+241
+00:09:37,760 --> 00:09:41,120
+but we can use that look at this this
+
+242
+00:09:39,440 --> 00:09:43,680
+function we are we are actually looking
+
+243
+00:09:41,120 --> 00:09:45,839
+for the first nine digit uh characters
+
+244
+00:09:43,680 --> 00:09:47,839
+uh digits so we can use the next
+
+245
+00:09:45,839 --> 00:09:49,839
+function next we'll be doing this
+
+246
+00:09:47,839 --> 00:09:52,640
+exactly the same so we can turn this
+
+247
+00:09:49,839 --> 00:09:53,920
+into i this is the index
+
+248
+00:09:52,640 --> 00:09:55,120
+next
+
+249
+00:09:53,920 --> 00:09:56,320
+next one
+
+250
+00:09:55,120 --> 00:09:59,040
+next
+
+251
+00:09:56,320 --> 00:10:00,880
+next let's say x c
+
+252
+00:09:59,040 --> 00:10:03,200
+for
+
+253
+00:10:00,880 --> 00:10:06,640
+x okay for x t
+
+254
+00:10:03,200 --> 00:10:08,160
+in enumerate
+
+255
+00:10:06,640 --> 00:10:09,040
+s y
+
+256
+00:10:08,160 --> 00:10:10,800
+if
+
+257
+00:10:09,040 --> 00:10:11,920
+c not equal
+
+258
+00:10:10,800 --> 00:10:14,079
+0
+
+259
+00:10:11,920 --> 00:10:16,480
+right so this function will give me the
+
+260
+00:10:14,079 --> 00:10:19,040
+index first index that is num that
+
+261
+00:10:16,480 --> 00:10:21,600
+contains the non-zero
+
+262
+00:10:19,040 --> 00:10:25,200
+digit right so then we can do this we
+
+263
+00:10:21,600 --> 00:10:27,760
+can do this here we can
+
+264
+00:10:25,200 --> 00:10:27,760
+integer
+
+265
+00:10:28,720 --> 00:10:32,640
+uh this is positive case okay then dot
+
+266
+00:10:30,959 --> 00:10:34,240
+join
+
+267
+00:10:32,640 --> 00:10:36,800
+the join
+
+268
+00:10:34,240 --> 00:10:38,720
+s up to i
+
+269
+00:10:36,800 --> 00:10:40,800
+plus
+
+270
+00:10:38,720 --> 00:10:42,800
+plus one
+
+271
+00:10:40,800 --> 00:10:45,040
+s up to i
+
+272
+00:10:42,800 --> 00:10:47,279
+plus s i plus one right
+
+273
+00:10:45,040 --> 00:10:49,040
+as
+
+274
+00:10:47,279 --> 00:10:51,120
+uh s
+
+275
+00:10:49,040 --> 00:10:53,760
+actually here it will be
+
+276
+00:10:51,120 --> 00:10:55,839
+uh because we add so we we need to put
+
+277
+00:10:53,760 --> 00:10:58,000
+the s i first yeah s i
+
+278
+00:10:55,839 --> 00:11:01,200
+plus
+
+279
+00:10:58,000 --> 00:11:03,839
+john s up to i and plus s i plus one to
+
+280
+00:11:01,200 --> 00:11:03,839
+the end okay
+
+281
+00:11:05,600 --> 00:11:09,120
+uh okay so there's a mistake here okay
+
+282
+00:11:07,519 --> 00:11:11,600
+so because look
+
+283
+00:11:09,120 --> 00:11:14,240
+we find the index of uh we find the
+
+284
+00:11:11,600 --> 00:11:16,240
+index of the first nine digit
+
+285
+00:11:14,240 --> 00:11:18,079
+long yellow digits so then we have to
+
+286
+00:11:16,240 --> 00:11:21,279
+put it in the beginning right
+
+287
+00:11:18,079 --> 00:11:23,519
+yeah we have to the beginning so this is
+
+288
+00:11:21,279 --> 00:11:27,680
+uh pretty beginning so it should be
+
+289
+00:11:23,519 --> 00:11:27,680
+put in beginning yeah okay
+
+290
+00:11:30,079 --> 00:11:33,120
+does it make sense eric
+
+291
+00:11:33,200 --> 00:11:35,519
+okay
+
+292
+00:11:36,320 --> 00:11:39,519
+uh
+
+293
+00:11:37,360 --> 00:11:41,680
+okay so
+
+294
+00:11:39,519 --> 00:11:44,800
+what's the time complexity if there are
+
+295
+00:11:41,680 --> 00:11:48,320
+n digits in the end
+
+296
+00:11:44,800 --> 00:11:51,360
+if this this number has n digit okay
+
+297
+00:11:48,320 --> 00:11:53,839
+what's the what's the
+
+298
+00:11:51,360 --> 00:11:58,160
+what's the if there are n digits
+
+299
+00:11:53,839 --> 00:11:58,160
+what's the time conducted to solve the
+
+300
+00:12:00,720 --> 00:12:04,720
+okay
+
+301
+00:12:02,720 --> 00:12:06,959
+okay so here okay i'm going to write it
+
+302
+00:12:04,720 --> 00:12:10,000
+a little bit messy here right if c not
+
+303
+00:12:06,959 --> 00:12:12,160
+equal zero that would be ten
+
+304
+00:12:10,000 --> 00:12:15,200
+first of all we want to convert the
+
+305
+00:12:12,160 --> 00:12:16,959
+integer we put a c at the beginning
+
+306
+00:12:15,200 --> 00:12:18,079
+plus
+
+307
+00:12:16,959 --> 00:12:20,560
+plus
+
+308
+00:12:18,079 --> 00:12:21,760
+dot join
+
+309
+00:12:20,560 --> 00:12:23,040
+s
+
+310
+00:12:21,760 --> 00:12:24,959
+up to i
+
+311
+00:12:23,040 --> 00:12:28,880
+plus s i
+
+312
+00:12:24,959 --> 00:12:30,480
+plus one to the n okay all right come on
+
+313
+00:12:28,880 --> 00:12:31,760
+okay i'm going to explain it one more
+
+314
+00:12:30,480 --> 00:12:35,040
+time okay
+
+315
+00:12:31,760 --> 00:12:37,680
+i see enumerate is index is the content
+
+316
+00:12:35,040 --> 00:12:38,480
+when c is not zero so we find the first
+
+317
+00:12:37,680 --> 00:12:39,440
+number
+
+318
+00:12:38,480 --> 00:12:41,360
+you know
+
+319
+00:12:39,440 --> 00:12:43,519
+because we already started yeah so we
+
+320
+00:12:41,360 --> 00:12:46,880
+put this num digit at the beginning
+
+321
+00:12:43,519 --> 00:12:48,480
+right all right yeah and then we put
+
+322
+00:12:46,880 --> 00:12:50,560
+put the
+
+323
+00:12:48,480 --> 00:12:53,120
+put the thing up to it at the beginning
+
+324
+00:12:50,560 --> 00:12:54,240
+uh at the end the next and then we'll
+
+325
+00:12:53,120 --> 00:12:57,040
+put them
+
+326
+00:12:54,240 --> 00:12:58,560
+put a remaining at the end okay so let's
+
+327
+00:12:57,040 --> 00:13:01,360
+say
+
+328
+00:12:58,560 --> 00:13:04,079
+let's say we're given another example
+
+329
+00:13:01,360 --> 00:13:07,920
+minus this is positive case yes okay
+
+330
+00:13:04,079 --> 00:13:10,800
+positive case two zero zero
+
+331
+00:13:07,920 --> 00:13:12,959
+two zero zero one three four okay so
+
+332
+00:13:10,800 --> 00:13:13,839
+what's the smallest number you can get
+
+333
+00:13:12,959 --> 00:13:17,360
+by
+
+334
+00:13:13,839 --> 00:13:20,720
+by using the digits here one zero zero
+
+335
+00:13:17,360 --> 00:13:21,839
+wait one zero
+
+336
+00:13:20,720 --> 00:13:24,560
+zero
+
+337
+00:13:21,839 --> 00:13:26,560
+two three four okay well yeah that's
+
+338
+00:13:24,560 --> 00:13:28,800
+correct why is that look we have we
+
+339
+00:13:26,560 --> 00:13:31,040
+first of all we saw this digit by
+
+340
+00:13:28,800 --> 00:13:31,839
+you become zero zero one two three four
+
+341
+00:13:31,040 --> 00:13:32,880
+right
+
+342
+00:13:31,839 --> 00:13:33,680
+right
+
+343
+00:13:32,880 --> 00:13:36,720
+we
+
+344
+00:13:33,680 --> 00:13:39,680
+we have this family's first none yellow
+
+345
+00:13:36,720 --> 00:13:41,839
+digit we put it at the beginning one
+
+346
+00:13:39,680 --> 00:13:44,240
+and i will put this
+
+347
+00:13:41,839 --> 00:13:47,440
+this is i right so s i
+
+348
+00:13:44,240 --> 00:13:51,040
+plus s i up to i which is which is 1
+
+349
+00:13:47,440 --> 00:13:54,959
+which is 0 0 right and plus s
+
+350
+00:13:51,040 --> 00:13:56,959
+i plus 1 to the n which is this bit
+
+351
+00:13:54,959 --> 00:13:58,079
+yeah
+
+352
+00:13:56,959 --> 00:14:00,000
+ok
+
+353
+00:13:58,079 --> 00:14:02,079
+make sense
+
+354
+00:14:00,000 --> 00:14:03,760
+yeah look this is i so we have to what
+
+355
+00:14:02,079 --> 00:14:04,959
+are we doing here is we find this i
+
+356
+00:14:03,760 --> 00:14:07,600
+index
+
+357
+00:14:04,959 --> 00:14:10,720
+all right s up to i
+
+358
+00:14:07,600 --> 00:14:13,120
+is the zero the zero could be many zero
+
+359
+00:14:10,720 --> 00:14:14,320
+it could be one zero or could be
+
+360
+00:14:13,120 --> 00:14:16,880
+not
+
+361
+00:14:14,320 --> 00:14:18,320
+none uh could be nothing okay
+
+362
+00:14:16,880 --> 00:14:21,839
+up to here here
+
+363
+00:14:18,320 --> 00:14:23,040
+and s-i plus one here to the end right
+
+364
+00:14:21,839 --> 00:14:25,040
+do you get it
+
+365
+00:14:23,040 --> 00:14:28,040
+yeah okay that's it for today good job
+
+366
+00:14:25,040 --> 00:14:28,040
+bye
+
