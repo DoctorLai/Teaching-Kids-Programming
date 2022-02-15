@@ -1,0 +1,1580 @@
+1
+00:00:00,560 --> 00:00:04,400
+hello
+
+2
+00:00:01,599 --> 00:00:07,279
+hello hello hello guys okay so today
+
+3
+00:00:04,400 --> 00:00:10,240
+we're going to talk about this um
+
+4
+00:00:07,279 --> 00:00:12,080
+this this bash bash bash
+
+5
+00:00:10,240 --> 00:00:14,000
+patch script okay
+
+6
+00:00:12,080 --> 00:00:16,240
+so look this is the window yeah this is
+
+7
+00:00:14,000 --> 00:00:18,320
+a window usually this is windows windows
+
+8
+00:00:16,240 --> 00:00:20,720
+operating system yeah it's a huge
+
+9
+00:00:18,320 --> 00:00:22,960
+graphic user interface that allow us to
+
+10
+00:00:20,720 --> 00:00:25,599
+interact with the computer look this is
+
+11
+00:00:22,960 --> 00:00:28,160
+the photo and then i can create a new
+
+12
+00:00:25,599 --> 00:00:30,640
+photo right let's say eric and i click i
+
+13
+00:00:28,160 --> 00:00:30,840
+can create another photo called ryan
+
+14
+00:00:30,640 --> 00:00:33,680
+right
+
+15
+00:00:30,840 --> 00:00:35,760
+[Music]
+
+16
+00:00:33,680 --> 00:00:38,640
+yeah and i also can create some text
+
+17
+00:00:35,760 --> 00:00:40,719
+text wise say hello all right yeah and
+
+18
+00:00:38,640 --> 00:00:42,840
+then if i click on that and i put
+
+19
+00:00:40,719 --> 00:00:45,120
+something in okay probably
+
+20
+00:00:42,840 --> 00:00:47,520
+chinese that's okay hello let's say i
+
+21
+00:00:45,120 --> 00:00:50,079
+put the hello in okay you can't see here
+
+22
+00:00:47,520 --> 00:00:52,399
+okay so this is the way that uh
+
+23
+00:00:50,079 --> 00:00:54,399
+we interact with the computer using the
+
+24
+00:00:52,399 --> 00:00:56,879
+graphic user interface yeah windows yeah
+
+25
+00:00:54,399 --> 00:00:59,120
+you can use the mouse control it okay so
+
+26
+00:00:56,879 --> 00:01:01,039
+today we're going to talk about some uh
+
+27
+00:00:59,120 --> 00:01:04,080
+commands that we can use we can do the
+
+28
+00:01:01,039 --> 00:01:05,760
+similar tasks using these uh scripting
+
+29
+00:01:04,080 --> 00:01:08,080
+like the command line you know the
+
+30
+00:01:05,760 --> 00:01:10,479
+command line look this is a command line
+
+31
+00:01:08,080 --> 00:01:12,799
+so it gives us a prompt
+
+32
+00:01:10,479 --> 00:01:16,720
+right eric are you okay yeah look this
+
+33
+00:01:12,799 --> 00:01:18,000
+is justine is the username yeah oh yeah
+
+34
+00:01:16,720 --> 00:01:19,360
+this is
+
+35
+00:01:18,000 --> 00:01:21,600
+desktop
+
+36
+00:01:19,360 --> 00:01:22,640
+come on desktop this is the
+
+37
+00:01:21,600 --> 00:01:25,040
+this is
+
+38
+00:01:22,640 --> 00:01:27,119
+where it is so it means that now i'm
+
+39
+00:01:25,040 --> 00:01:29,119
+operating on this desktop
+
+40
+00:01:27,119 --> 00:01:31,600
+and then there's a column and that's the
+
+41
+00:01:29,119 --> 00:01:35,600
+path that's the photo path okay so look
+
+42
+00:01:31,600 --> 00:01:38,159
+if i if i do this list a s means list
+
+43
+00:01:35,600 --> 00:01:39,840
+yeah so if i do this look it has eric
+
+44
+00:01:38,159 --> 00:01:42,000
+folder right and photo and hello yeah
+
+45
+00:01:39,840 --> 00:01:45,040
+which you just created and we if we want
+
+46
+00:01:42,000 --> 00:01:46,159
+to see the content of hello then we can
+
+47
+00:01:45,040 --> 00:01:48,240
+see cat
+
+48
+00:01:46,159 --> 00:01:51,200
+yeah this is command cat
+
+49
+00:01:48,240 --> 00:01:52,079
+cat is is cat yeah cat hello
+
+50
+00:01:51,200 --> 00:01:53,840
+yeah
+
+51
+00:01:52,079 --> 00:01:56,159
+and then you show hello right because
+
+52
+00:01:53,840 --> 00:01:58,159
+this is our created look you know you
+
+53
+00:01:56,159 --> 00:02:00,880
+probably noticed that i didn't actually
+
+54
+00:01:58,159 --> 00:02:03,439
+type in the hello.txt what what i did is
+
+55
+00:02:00,880 --> 00:02:04,399
+autocomplete look i press h and press
+
+56
+00:02:03,439 --> 00:02:06,560
+the tap
+
+57
+00:02:04,399 --> 00:02:08,959
+tap key and then it will auto complete
+
+58
+00:02:06,560 --> 00:02:11,680
+the rest for us right so it's a quick
+
+59
+00:02:08,959 --> 00:02:13,599
+way to complete this completed uh the
+
+60
+00:02:11,680 --> 00:02:15,040
+command okay so let's say you look at
+
+61
+00:02:13,599 --> 00:02:18,080
+this is the card the account is the
+
+62
+00:02:15,040 --> 00:02:20,840
+command to to display yeah look i want
+
+63
+00:02:18,080 --> 00:02:22,800
+to make another photo which is called
+
+64
+00:02:20,840 --> 00:02:25,840
+mkdir yeah
+
+65
+00:02:22,800 --> 00:02:28,239
+let's say mkdr test
+
+66
+00:02:25,840 --> 00:02:30,400
+okay so you see look we have got a new
+
+67
+00:02:28,239 --> 00:02:32,160
+new photo test here right
+
+68
+00:02:30,400 --> 00:02:35,200
+look we want to remove the test photo
+
+69
+00:02:32,160 --> 00:02:38,560
+then we can do this rmdir
+
+70
+00:02:35,200 --> 00:02:40,560
+test okay now we remove it you see it's
+
+71
+00:02:38,560 --> 00:02:41,440
+gone yeah
+
+72
+00:02:40,560 --> 00:02:44,319
+yeah
+
+73
+00:02:41,440 --> 00:02:47,280
+yeah okay so now look we can copy the
+
+74
+00:02:44,319 --> 00:02:48,840
+file hello.txt let's say we can do cp
+
+75
+00:02:47,280 --> 00:02:52,319
+for copy
+
+76
+00:02:48,840 --> 00:02:54,000
+hello.txt let's say i want to copy it to
+
+77
+00:02:52,319 --> 00:02:55,120
+a.txt
+
+78
+00:02:54,000 --> 00:02:57,599
+and let's say
+
+79
+00:02:55,120 --> 00:02:58,640
+let's say we have got the a dot txt and
+
+80
+00:02:57,599 --> 00:03:01,200
+then if we
+
+81
+00:02:58,640 --> 00:03:02,800
+cut the content a dot dxt
+
+82
+00:03:01,200 --> 00:03:06,159
+it will be the same okay then we can use
+
+83
+00:03:02,800 --> 00:03:07,120
+the vin it's a text editor to edit the
+
+84
+00:03:06,159 --> 00:03:10,000
+file
+
+85
+00:03:07,120 --> 00:03:11,040
+yeah look this is a file yeah then if we
+
+86
+00:03:10,000 --> 00:03:13,440
+can do this
+
+87
+00:03:11,040 --> 00:03:14,879
+anything with this is that and when we
+
+88
+00:03:13,440 --> 00:03:16,959
+want to save it
+
+89
+00:03:14,879 --> 00:03:19,280
+we want to save it we just press press
+
+90
+00:03:16,959 --> 00:03:21,760
+one oh no no we press the
+
+91
+00:03:19,280 --> 00:03:23,680
+we want to save it oh yeah okay that's
+
+92
+00:03:21,760 --> 00:03:26,400
+it
+
+93
+00:03:23,680 --> 00:03:29,760
+let's see we will just press the
+
+94
+00:03:26,400 --> 00:03:32,080
+esc and then we press the wq wq in
+
+95
+00:03:29,760 --> 00:03:34,959
+command okay to save exit all right then
+
+96
+00:03:32,080 --> 00:03:37,360
+let's see the content a.txt look this is
+
+97
+00:03:34,959 --> 00:03:39,120
+the content you see you see
+
+98
+00:03:37,360 --> 00:03:42,480
+it's updated yeah
+
+99
+00:03:39,120 --> 00:03:46,159
+yeah okay let's remove this file rm
+
+100
+00:03:42,480 --> 00:03:48,480
+a dot txt so look rm is a very powerful
+
+101
+00:03:46,159 --> 00:03:50,959
+command it can allow us to remove a
+
+102
+00:03:48,480 --> 00:03:53,840
+photo and also a file if we want to
+
+103
+00:03:50,959 --> 00:03:54,720
+remove everything we can do this remote
+
+104
+00:03:53,840 --> 00:03:57,120
+dash
+
+105
+00:03:54,720 --> 00:04:00,879
+r means recursively everything including
+
+106
+00:03:57,120 --> 00:04:03,280
+the subfolder files false means false
+
+107
+00:04:00,879 --> 00:04:05,120
+you know just don't remove without
+
+108
+00:04:03,280 --> 00:04:08,319
+asking even asking i want to remove
+
+109
+00:04:05,120 --> 00:04:09,760
+everything in every photo right
+
+110
+00:04:08,319 --> 00:04:13,439
+then we'll be gone look everything's
+
+111
+00:04:09,760 --> 00:04:13,439
+gone right okay let's make it back
+
+112
+00:04:15,840 --> 00:04:19,120
+yeah
+
+113
+00:04:16,720 --> 00:04:21,120
+yeah let's make it back okay so look
+
+114
+00:04:19,120 --> 00:04:22,479
+this is uh what have we learned so far
+
+115
+00:04:21,120 --> 00:04:25,440
+so we have uh
+
+116
+00:04:22,479 --> 00:04:27,440
+then the ais yeah yes look we can add
+
+117
+00:04:25,440 --> 00:04:30,560
+stash air means to
+
+118
+00:04:27,440 --> 00:04:32,080
+list one item per plan yeah you see so
+
+119
+00:04:30,560 --> 00:04:34,720
+you give us the
+
+120
+00:04:32,080 --> 00:04:38,320
+give us every look oh yeah yeah yeah
+
+121
+00:04:34,720 --> 00:04:38,320
+oh yeah okay listen listen
+
+122
+00:04:38,639 --> 00:04:42,960
+okay so what have we learned this
+
+123
+00:04:41,680 --> 00:04:44,880
+file
+
+124
+00:04:42,960 --> 00:04:46,240
+what's the command of cat
+
+125
+00:04:44,880 --> 00:04:49,919
+um
+
+126
+00:04:46,240 --> 00:04:49,919
+cat display the content
+
+127
+00:04:50,479 --> 00:04:54,960
+remove the photo and the files remove
+
+128
+00:04:53,360 --> 00:04:57,199
+dir
+
+129
+00:04:54,960 --> 00:04:58,639
+means that only remove the directory if
+
+130
+00:04:57,199 --> 00:05:00,800
+it's empty if it's not empty what
+
+131
+00:04:58,639 --> 00:05:04,160
+happened look let's move let's copy a
+
+132
+00:05:00,800 --> 00:05:05,680
+file color and then let's copy under to
+
+133
+00:05:04,160 --> 00:05:08,720
+let's the second parameter is the
+
+134
+00:05:05,680 --> 00:05:11,919
+designation under the average yeah okay
+
+135
+00:05:08,720 --> 00:05:14,400
+so now if we go into the eric so we will
+
+136
+00:05:11,919 --> 00:05:17,680
+see a hello yeah we just copy yeah right
+
+137
+00:05:14,400 --> 00:05:20,240
+now if we say here we want to remove the
+
+138
+00:05:17,680 --> 00:05:22,080
+directory of eric it won't allow us to
+
+139
+00:05:20,240 --> 00:05:24,479
+do it because it says direction not
+
+140
+00:05:22,080 --> 00:05:26,720
+empty right we have to remove we have to
+
+141
+00:05:24,479 --> 00:05:29,199
+this i'm glad
+
+142
+00:05:26,720 --> 00:05:31,600
+okay i'm not removing okay okay another
+
+143
+00:05:29,199 --> 00:05:34,240
+command is cd if we want to go into the
+
+144
+00:05:31,600 --> 00:05:36,080
+eric photo like like right here yeah so
+
+145
+00:05:34,240 --> 00:05:38,880
+we use the c
+
+146
+00:05:36,080 --> 00:05:40,960
+cd means the change directory eric okay
+
+147
+00:05:38,880 --> 00:05:42,320
+then we are here yeah look you see this
+
+148
+00:05:40,960 --> 00:05:44,560
+path
+
+149
+00:05:42,320 --> 00:05:46,400
+is passed is updated and we if we want
+
+150
+00:05:44,560 --> 00:05:50,080
+to go go up
+
+151
+00:05:46,400 --> 00:05:52,400
+go up one directory we use the cd
+
+152
+00:05:50,080 --> 00:05:54,160
+yeah cd dot dot means go up one
+
+153
+00:05:52,400 --> 00:05:56,720
+direction and then now look we're going
+
+154
+00:05:54,160 --> 00:05:58,479
+back to the teaching directory yeah okay
+
+155
+00:05:56,720 --> 00:06:00,160
+like if we want to clear this screen we
+
+156
+00:05:58,479 --> 00:06:02,319
+use that's clear
+
+157
+00:06:00,160 --> 00:06:03,680
+and then everything is gone yeah
+
+158
+00:06:02,319 --> 00:06:05,440
+okay okay
+
+159
+00:06:03,680 --> 00:06:07,199
+so we have learned what have we learned
+
+160
+00:06:05,440 --> 00:06:09,039
+come on come on we have what have we
+
+161
+00:06:07,199 --> 00:06:12,160
+learned a ls
+
+162
+00:06:09,039 --> 00:06:16,560
+cat no no please don't don't air s cat
+
+163
+00:06:12,160 --> 00:06:17,600
+cd i am i am dir cat and cat what what
+
+164
+00:06:16,560 --> 00:06:20,400
+else
+
+165
+00:06:17,600 --> 00:06:23,199
+m k d i make a diot yeah
+
+166
+00:06:20,400 --> 00:06:26,240
+and the i am this is text editor okay
+
+167
+00:06:23,199 --> 00:06:27,919
+and okay so now let's
+
+168
+00:06:26,240 --> 00:06:29,520
+another command which is usually to
+
+169
+00:06:27,919 --> 00:06:31,759
+display the command to the console which
+
+170
+00:06:29,520 --> 00:06:35,199
+is called echo what's echo mean a
+
+171
+00:06:31,759 --> 00:06:36,479
+command copy no no no echo what's echo
+
+172
+00:06:35,199 --> 00:06:39,919
+copy
+
+173
+00:06:36,479 --> 00:06:43,039
+to display copy let's say this hello
+
+174
+00:06:39,919 --> 00:06:44,639
+eric and ryan okay look you see hey
+
+175
+00:06:43,039 --> 00:06:46,160
+that's copying
+
+176
+00:06:44,639 --> 00:06:48,800
+okay okay
+
+177
+00:06:46,160 --> 00:06:53,039
+point point to the screen that's exactly
+
+178
+00:06:48,800 --> 00:06:54,160
+the same thing okay yeah come on
+
+179
+00:06:53,039 --> 00:06:56,720
+okay look
+
+180
+00:06:54,160 --> 00:06:58,319
+look this is echo yeah right we can do
+
+181
+00:06:56,720 --> 00:07:00,880
+this look
+
+182
+00:06:58,319 --> 00:07:03,280
+let's say we can say name we can set we
+
+183
+00:07:00,880 --> 00:07:07,120
+can say the variable like name
+
+184
+00:07:03,280 --> 00:07:09,840
+name equals eric okay then we can say
+
+185
+00:07:07,120 --> 00:07:12,800
+what hello echo hello
+
+186
+00:07:09,840 --> 00:07:14,400
+name okay look i use the dollar sign i
+
+187
+00:07:12,800 --> 00:07:15,199
+use the dollar sign
+
+188
+00:07:14,400 --> 00:07:17,919
+to
+
+189
+00:07:15,199 --> 00:07:18,880
+to to say i want to display the content
+
+190
+00:07:17,919 --> 00:07:21,840
+of the
+
+191
+00:07:18,880 --> 00:07:24,080
+name which is it will give me like hello
+
+192
+00:07:21,840 --> 00:07:25,199
+because i already said name equals array
+
+193
+00:07:24,080 --> 00:07:27,120
+got it
+
+194
+00:07:25,199 --> 00:07:31,639
+yeah the dollar sign means that this is
+
+195
+00:07:27,120 --> 00:07:31,639
+the variable okay what did you say
+
+196
+00:07:34,400 --> 00:07:39,680
+now another command is that look if i
+
+197
+00:07:36,479 --> 00:07:41,360
+want to input this look i can use the
+
+198
+00:07:39,680 --> 00:07:42,400
+arrow key up
+
+199
+00:07:41,360 --> 00:07:45,039
+to
+
+200
+00:07:42,400 --> 00:07:47,919
+to to to show the last command yeah
+
+201
+00:07:45,039 --> 00:07:48,720
+alternatively i can control r which is
+
+202
+00:07:47,919 --> 00:07:51,599
+as
+
+203
+00:07:48,720 --> 00:07:53,680
+uh you you allow us to type in a few
+
+204
+00:07:51,599 --> 00:07:56,720
+keys to search let's say i want to say
+
+205
+00:07:53,680 --> 00:07:59,199
+ar and look c u i c
+
+206
+00:07:56,720 --> 00:08:01,599
+yeah you will have a a few commands for
+
+207
+00:07:59,199 --> 00:08:02,960
+us to choose okay
+
+208
+00:08:01,599 --> 00:08:05,520
+hello
+
+209
+00:08:02,960 --> 00:08:07,840
+okay it doesn't search pretty well right
+
+210
+00:08:05,520 --> 00:08:11,360
+it doesn't search word pretty well
+
+211
+00:08:07,840 --> 00:08:14,879
+hello okay this is command that allow us
+
+212
+00:08:11,360 --> 00:08:17,840
+to search but anyway so let's say echo
+
+213
+00:08:14,879 --> 00:08:20,479
+hello uh let's say we want to put these
+
+214
+00:08:17,840 --> 00:08:23,199
+hello arrogant writer into a file
+
+215
+00:08:20,479 --> 00:08:24,960
+so we use the list greater means
+
+216
+00:08:23,199 --> 00:08:27,840
+redirection we want to redirect it to
+
+217
+00:08:24,960 --> 00:08:28,879
+the file which is called what a.txt
+
+218
+00:08:27,840 --> 00:08:30,479
+right
+
+219
+00:08:28,879 --> 00:08:32,719
+okay then
+
+220
+00:08:30,479 --> 00:08:35,120
+a dot txt will be created with the
+
+221
+00:08:32,719 --> 00:08:37,680
+content hello everything right
+
+222
+00:08:35,120 --> 00:08:40,560
+there look press it and then look we've
+
+223
+00:08:37,680 --> 00:08:44,080
+got a.txt right yeah yeah okay
+
+224
+00:08:40,560 --> 00:08:46,959
+a dot txt oh yeah look look cat cat a
+
+225
+00:08:44,080 --> 00:08:51,120
+dot txt what will happen
+
+226
+00:08:46,959 --> 00:08:54,480
+a dot txt will happen uh a dot txt will
+
+227
+00:08:51,120 --> 00:08:55,839
+yeah what's the content of a.txt
+
+228
+00:08:54,480 --> 00:08:57,680
+that
+
+229
+00:08:55,839 --> 00:08:59,440
+what did what is the previous command
+
+230
+00:08:57,680 --> 00:09:02,320
+hello eric all right and i want to put
+
+231
+00:08:59,440 --> 00:09:05,279
+it in a.txt cad is displayed the content
+
+232
+00:09:02,320 --> 00:09:08,959
+of ada yes so we put so we like uh get
+
+233
+00:09:05,279 --> 00:09:08,959
+out yes you see
+
+234
+00:09:23,680 --> 00:09:32,000
+eric okay so look i want to copy a file
+
+235
+00:09:27,519 --> 00:09:32,880
+cp hello to another file a.txt so yeah
+
+236
+00:09:32,000 --> 00:09:35,040
+yeah
+
+237
+00:09:32,880 --> 00:09:37,680
+then okay you'll be there right another
+
+238
+00:09:35,040 --> 00:09:39,760
+command which is called date
+
+239
+00:09:37,680 --> 00:09:42,560
+date what's day
+
+240
+00:09:39,760 --> 00:09:44,480
+what's the meaning of date uh the day
+
+241
+00:09:42,560 --> 00:09:46,800
+or a day yeah look it gives you the
+
+242
+00:09:44,480 --> 00:09:49,519
+house it gives us the date yeah and the
+
+243
+00:09:46,800 --> 00:09:50,399
+time the time day yeah it's
+
+244
+00:09:49,519 --> 00:09:52,000
+so
+
+245
+00:09:50,399 --> 00:09:54,399
+so what's the difference between this
+
+246
+00:09:52,000 --> 00:09:57,120
+way of controlling the
+
+247
+00:09:54,399 --> 00:09:59,839
+computer or and this way
+
+248
+00:09:57,120 --> 00:10:01,120
+you're using a mouse to click
+
+249
+00:09:59,839 --> 00:10:05,200
+which one do you think it's more
+
+250
+00:10:01,120 --> 00:10:07,120
+powerful which one is more user friendly
+
+251
+00:10:05,200 --> 00:10:08,880
+this one is more powerful right
+
+252
+00:10:07,120 --> 00:10:11,440
+this one is more user-friendly right
+
+253
+00:10:08,880 --> 00:10:14,240
+yeah yeah yeah yeah because graph user
+
+254
+00:10:11,440 --> 00:10:16,720
+interface is for like non-programmers
+
+255
+00:10:14,240 --> 00:10:20,160
+like mommy yeah mommy just like to use
+
+256
+00:10:16,720 --> 00:10:23,600
+the mouse to to click yeah to do the
+
+257
+00:10:20,160 --> 00:10:25,760
+daily work but this is for computers for
+
+258
+00:10:23,600 --> 00:10:28,320
+us engineering yeah because we can use
+
+259
+00:10:25,760 --> 00:10:30,959
+the powerful commands to
+
+260
+00:10:28,320 --> 00:10:33,360
+you know to do more complex
+
+261
+00:10:30,959 --> 00:10:35,200
+task which cannot be done in graph user
+
+262
+00:10:33,360 --> 00:10:36,240
+interface doesn't make sense
+
+263
+00:10:35,200 --> 00:10:37,600
+okay
+
+264
+00:10:36,240 --> 00:10:40,959
+yeah make sense
+
+265
+00:10:37,600 --> 00:10:43,920
+yeah for example i want to display look
+
+266
+00:10:40,959 --> 00:10:46,399
+look i want to display like uh hello
+
+267
+00:10:43,920 --> 00:10:48,959
+hello ten times how can i do it
+
+268
+00:10:46,399 --> 00:10:51,600
+we do it like 10 times okay so we can
+
+269
+00:10:48,959 --> 00:10:54,240
+use the four here here we have four okay
+
+270
+00:10:51,600 --> 00:10:55,760
+so okay so what's the syntax for i
+
+271
+00:10:54,240 --> 00:10:57,839
+i i i i
+
+272
+00:10:55,760 --> 00:11:00,079
+tend to sequence
+
+273
+00:10:57,839 --> 00:11:00,079
+10.
+
+274
+00:11:02,160 --> 00:11:05,440
+uh
+
+275
+00:11:03,040 --> 00:11:06,800
+okay so this is this command is not
+
+276
+00:11:05,440 --> 00:11:09,839
+quite
+
+277
+00:11:06,800 --> 00:11:11,120
+uh i forgot the syntax actually it's
+
+278
+00:11:09,839 --> 00:11:14,640
+that command
+
+279
+00:11:11,120 --> 00:11:16,480
+oh okay okay it's 4i in
+
+280
+00:11:14,640 --> 00:11:17,519
+sequence one ten
+
+281
+00:11:16,480 --> 00:11:18,640
+one
+
+282
+00:11:17,519 --> 00:11:20,420
+two
+
+283
+00:11:18,640 --> 00:11:23,040
+okay echo hollow
+
+284
+00:11:20,420 --> 00:11:26,200
+[Music]
+
+285
+00:11:23,040 --> 00:11:30,800
+uh okay so it does okay maybe i think i
+
+286
+00:11:26,200 --> 00:11:32,720
+think a bit you your brain went a bit
+
+287
+00:11:30,800 --> 00:11:35,120
+okay
+
+288
+00:11:32,720 --> 00:11:36,959
+what's that one i think one
+
+289
+00:11:35,120 --> 00:11:40,240
+one
+
+290
+00:11:36,959 --> 00:11:41,600
+ten one okay one two one okay
+
+291
+00:11:40,240 --> 00:11:44,399
+uh
+
+292
+00:11:41,600 --> 00:11:45,519
+okay so i forgot let's let's say see the
+
+293
+00:11:44,399 --> 00:11:47,360
+command of
+
+294
+00:11:45,519 --> 00:11:49,440
+seq what does this say
+
+295
+00:11:47,360 --> 00:11:51,680
+uh first increment last okay so the
+
+296
+00:11:49,440 --> 00:11:53,120
+parameter sequence is not right okay for
+
+297
+00:11:51,680 --> 00:11:54,839
+i in
+
+298
+00:11:53,120 --> 00:11:58,560
+in
+
+299
+00:11:54,839 --> 00:12:01,120
+sequence first increment last right boom
+
+300
+00:11:58,560 --> 00:12:03,440
+echo hello
+
+301
+00:12:01,120 --> 00:12:05,839
+you give me ten times yeah you see yeah
+
+302
+00:12:03,440 --> 00:12:06,880
+but you go wrong last time yeah i know
+
+303
+00:12:05,839 --> 00:12:09,760
+but look
+
+304
+00:12:06,880 --> 00:12:12,639
+the command i show is mine is to show
+
+305
+00:12:09,760 --> 00:12:15,519
+the manual of a command let's say man of
+
+306
+00:12:12,639 --> 00:12:17,240
+cd change directory uh it doesn't have a
+
+307
+00:12:15,519 --> 00:12:19,680
+man
+
+308
+00:12:17,240 --> 00:12:22,160
+[Music]
+
+309
+00:12:19,680 --> 00:12:24,000
+cd right no no because these commands so
+
+310
+00:12:22,160 --> 00:12:26,399
+simple that they they don't there there
+
+311
+00:12:24,000 --> 00:12:28,320
+was even there wasn't even a menu for it
+
+312
+00:12:26,399 --> 00:12:30,079
+that man removed let's see if they don't
+
+313
+00:12:28,320 --> 00:12:31,920
+remove okay okay look remove the fire
+
+314
+00:12:30,079 --> 00:12:35,360
+supply directly you see
+
+315
+00:12:31,920 --> 00:12:37,279
+yeah it gives us the the manual the hep
+
+316
+00:12:35,360 --> 00:12:39,600
+yeah it gives us what's this command
+
+317
+00:12:37,279 --> 00:12:42,079
+used for and then the options like look
+
+318
+00:12:39,600 --> 00:12:44,000
+with dash f means first yeah and then we
+
+319
+00:12:42,079 --> 00:12:46,079
+show a dash r because it removes
+
+320
+00:12:44,000 --> 00:12:46,959
+directory in the contents because yeah
+
+321
+00:12:46,079 --> 00:12:48,079
+got it
+
+322
+00:12:46,959 --> 00:12:50,480
+yeah
+
+323
+00:12:48,079 --> 00:12:53,120
+okay so so
+
+324
+00:12:50,480 --> 00:12:55,440
+so clear means everything yeah
+
+325
+00:12:53,120 --> 00:12:56,800
+uh so okay so to sum up what have we
+
+326
+00:12:55,440 --> 00:12:59,760
+learned today
+
+327
+00:12:56,800 --> 00:13:01,360
+so that's a summary
+
+328
+00:12:59,760 --> 00:13:03,040
+summary
+
+329
+00:13:01,360 --> 00:13:05,360
+let's say cat
+
+330
+00:13:03,040 --> 00:13:07,680
+which is still the command of the file
+
+331
+00:13:05,360 --> 00:13:09,920
+cd changes directory cd dot means
+
+332
+00:13:07,680 --> 00:13:13,200
+changing the up one directory up
+
+333
+00:13:09,920 --> 00:13:14,480
+and echo echo a line which we can echo a
+
+334
+00:13:13,200 --> 00:13:17,440
+variable right
+
+335
+00:13:14,480 --> 00:13:21,200
+yeah and what else remove remove a file
+
+336
+00:13:17,440 --> 00:13:21,200
+imdi remove a directory
+
+337
+00:13:27,440 --> 00:13:29,680
+and what else
+
+338
+00:13:28,800 --> 00:13:32,399
+uh
+
+339
+00:13:29,680 --> 00:13:34,880
+mkdir make dial tree yeah
+
+340
+00:13:32,399 --> 00:13:37,120
+okay and then what else
+
+341
+00:13:34,880 --> 00:13:39,360
+we have a s this is the content of the
+
+342
+00:13:37,120 --> 00:13:40,639
+file of the photo yeah
+
+343
+00:13:39,360 --> 00:13:42,480
+what else
+
+344
+00:13:40,639 --> 00:13:44,720
+uh
+
+345
+00:13:42,480 --> 00:13:46,320
+okay echo yeah we have
+
+346
+00:13:44,720 --> 00:13:48,160
+shown echo
+
+347
+00:13:46,320 --> 00:13:50,079
+sequence oh yeah that's a good good way
+
+348
+00:13:48,160 --> 00:13:51,519
+sequence generator sequence now first
+
+349
+00:13:50,079 --> 00:13:54,720
+the increment
+
+350
+00:13:51,519 --> 00:13:56,720
+and then and and we also show uh
+
+351
+00:13:54,720 --> 00:13:59,760
+a for loop right
+
+352
+00:13:56,720 --> 00:14:01,600
+yeah and what else
+
+353
+00:13:59,760 --> 00:14:03,440
+what commands do we
+
+354
+00:14:01,600 --> 00:14:05,120
+oh yeah yeah good idea clear clear
+
+355
+00:14:03,440 --> 00:14:06,880
+screen yeah let's see oh yeah i'm so
+
+356
+00:14:05,120 --> 00:14:09,760
+smart
+
+357
+00:14:06,880 --> 00:14:11,279
+okay okay okay what else
+
+358
+00:14:09,760 --> 00:14:14,240
+what else
+
+359
+00:14:11,279 --> 00:14:16,480
+uh noida okay let's save it okay look
+
+360
+00:14:14,240 --> 00:14:21,600
+this is we have uh
+
+361
+00:14:16,480 --> 00:14:22,959
+let's see i'm kettle name clear here cp
+
+362
+00:14:21,600 --> 00:14:24,560
+yeah i think that'll be yeah that will
+
+363
+00:14:22,959 --> 00:14:26,880
+be that will be i think okay a little
+
+364
+00:14:24,560 --> 00:14:29,600
+bit let's cut a summary yeah look at the
+
+365
+00:14:26,880 --> 00:14:32,320
+summary look yeah you see catastrophe oh
+
+366
+00:14:29,600 --> 00:14:34,800
+yeah we also show the the direction yeah
+
+367
+00:14:32,320 --> 00:14:38,480
+look the last bit is that look we can we
+
+368
+00:14:34,800 --> 00:14:41,199
+can echo aaa to a dot txt
+
+369
+00:14:38,480 --> 00:14:42,880
+and then we display the content of a.txt
+
+370
+00:14:41,199 --> 00:14:46,480
+which is a
+
+371
+00:14:42,880 --> 00:14:49,839
+yeah look if i do another one alright if
+
+372
+00:14:46,480 --> 00:14:52,720
+i do another one echo bbb
+
+373
+00:14:49,839 --> 00:14:55,040
+redirect to a txt and then a dot txt
+
+374
+00:14:52,720 --> 00:14:58,000
+with we only contain the latest one
+
+375
+00:14:55,040 --> 00:14:59,760
+which is b tdt but if i want to append
+
+376
+00:14:58,000 --> 00:15:01,680
+it i can use two
+
+377
+00:14:59,760 --> 00:15:02,480
+greater so look look look
+
+378
+00:15:01,680 --> 00:15:07,120
+b
+
+379
+00:15:02,480 --> 00:15:09,839
+a dot txt contains bbb yeah if i say cc
+
+380
+00:15:07,120 --> 00:15:12,800
+yeah there are two greater than yeah
+
+381
+00:15:09,839 --> 00:15:16,480
+to a dot txt and what's the content of
+
+382
+00:15:12,800 --> 00:15:17,760
+a.txt bbbcc okay let's do another one
+
+383
+00:15:16,480 --> 00:15:19,920
+echo ddb
+
+384
+00:15:17,760 --> 00:15:22,399
+bigger bigger a dot txt that means i
+
+385
+00:15:19,920 --> 00:15:25,360
+want to append ddd to the content of
+
+386
+00:15:22,399 --> 00:15:27,040
+a.txt and let's show the content a dot
+
+387
+00:15:25,360 --> 00:15:30,240
+txt look yeah
+
+388
+00:15:27,040 --> 00:15:31,920
+yeah look single one is to replace
+
+389
+00:15:30,240 --> 00:15:35,120
+yeah single
+
+390
+00:15:31,920 --> 00:15:36,639
+greater sign is to replay double greater
+
+391
+00:15:35,120 --> 00:15:40,399
+sound is to
+
+392
+00:15:36,639 --> 00:15:41,839
+append to at add yeah this is one
+
+393
+00:15:40,399 --> 00:15:45,440
+one good difference
+
+394
+00:15:41,839 --> 00:15:45,440
+okay that will be it for today
+
+395
+00:15:47,279 --> 00:15:50,759
+okay bye bye
+
