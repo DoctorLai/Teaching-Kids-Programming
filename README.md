@@ -33,9 +33,6 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| Introduction to Microbit Programming in Python | Microbit 编程入门简介(Python) | [Youtube](https://youtu.be/MbpJT7c_AwM) - [B站](https://www.bilibili.com/video/BV1mi4y1f7hh/) - [西瓜](https://www.ixigua.com/7065054670393180686) | [Introduction to Microbit Programming in Python](https://helloacm.com/teaching-kids-programming-introduction-to-microbit-programming-in-python/) | 2022-02-15 |
-| Introduction to BASH shell/commands | BASH命令简介 | [Youtube](https://youtu.be/0JJCRJxWQ8Q) - [B站](https://www.bilibili.com/video/BV1QS4y1G7z2/) - [西瓜](https://www.ixigua.com/7064677146798588424) | [Introduction to BASH shell/commands](https://helloacm.com/teaching-kids-programming-introduction-to-bash-commands/) | 2022-02-14 |
-| Turtle Graphics/Canvas Programming in Python | 海龟作图 Turtle in Python | [Youtube](https://youtu.be/hYmz8HYEkxo) - [B站](https://www.bilibili.com/video/BV1V34y1C7Ag/) - [西瓜](https://www.ixigua.com/7064295205012242957) | [Turtle Graphics/Canvas Programming in Python](https://helloacm.com/teaching-kids-programming-turtle-graphics-canvas-programming-in-python/) | 2022-02-13 |
 | Kadane's Algorithm to Compute Maximum Subarray Sum (Math) | Kadane 算法计算最大子数组之和 | [Youtube](https://www.youtube.com/watch?v=_uw5OQ22wP0) - [B站](https://www.bilibili.com/video/BV1Zf4y1u7Sv/) - [西瓜](https://www.ixigua.com/7019043922731074084) | [Kadane's Algorithm to Compute Maximum Subarray Sum (Math)](https://helloacm.com/teaching-kids-programming-max-subarray-sum-by-kadanes-algorithm/) | 2021-10-14 |
 | First Number Equal or Larger Than Target using Next Function | 用next方法找出数组中大于等于目标的第一个数(Python 入门) | [Youtube](https://youtu.be/CwUz9y6VLaY) - [B站](https://www.bilibili.com/video/BV1b34y1U7u6/) - [西瓜](https://www.ixigua.com/7016813978093519367) | [First Number Equal or Larger Than Target using Next Function](https://helloacm.com/teaching-kids-programming-first-number-equal-or-larger-than-target-using-next-function/) | 2021-10-08 |
 | Introduction to Hashing Function | 哈希函数简介 | [Youtube](https://youtu.be/m6q7Ig8U4Hg) - [B站](https://www.bilibili.com/video/BV1fq4y1o7aP/) | [Introduction to Hashing Function](https://helloacm.com/teaching-kids-programming-introduction-to-hashing-function/) | 2021-10-03 |
@@ -537,6 +534,22 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Sum of First N Even Numbers (with Mathematic Induction) | 求前N个偶数之和（数学归纳法） | [Youtube](https://www.youtube.com/watch?v=p72HI0HGW80) - [B站](https://www.bilibili.com/video/BV1RK411u7j6/) | [Sum of First N Even Numbers (with Mathematic Induction)](https://helloacm.com/teaching-kids-programming-sum-of-first-n-even-numbers-with-mathematic-induction/) | 2020-12-22 |
 | Sum of First N Odd Numbers (with Math Induction) | 前N个奇数之和（数学归纳法） | [Youtube](https://www.youtube.com/watch?v=qIn_Uig9FbI) - [B站](https://www.bilibili.com/video/BV1Ri4y157qT/) | [Sum of First N Odd Numbers (with Math Induction)](https://helloacm.com/teaching-kids-programming-sum-of-first-n-odd-numbers-with-math-induction/) | 2020-12-21 |
 | Backtracking Algorithm to Solve N-queen Problem | N皇后回溯算法求解 | [Youtube](https://www.youtube.com/watch?v=aFi-B8grleA) - [B站](https://www.bilibili.com/video/BV13f4y1e7RW/) | [Backtracking Algorithm to Solve N-queen Problem](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-solve-n-queen-problem/) | 2020-12-20 |
+
+## BASH 编程
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Introduction to BASH shell/commands | BASH命令简介 | [Youtube](https://youtu.be/0JJCRJxWQ8Q) - [B站](https://www.bilibili.com/video/BV1QS4y1G7z2/) - [西瓜](https://www.ixigua.com/7064677146798588424) | [Introduction to BASH shell/commands](https://helloacm.com/teaching-kids-programming-introduction-to-bash-commands/) | 2022-02-14 |
+
+## LOGO (Turtle Graphics) 海龟作图
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Turtle Graphics/Canvas Programming in Python | 海龟作图 Turtle in Python | [Youtube](https://youtu.be/hYmz8HYEkxo) - [B站](https://www.bilibili.com/video/BV1V34y1C7Ag/) - [西瓜](https://www.ixigua.com/7064295205012242957) | [Turtle Graphics/Canvas Programming in Python](https://helloacm.com/teaching-kids-programming-turtle-graphics-canvas-programming-in-python/) | 2022-02-13 |
+
+## Microbit Game Programming 游戏编程
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Design and Develop an Apple Catching Game on Microbit using Python | Microbit 游戏编程之吃苹果 (Python) | [Youtube](https://youtu.be/WySLvLMEoZ0) - [B站](https://www.bilibili.com/video/BV15u411X7Xw/) - [西瓜](https://www.ixigua.com/7065824507780399623) | [Design and Develop an Apple Catching Game on Microbit using Python](https://helloacm.com/teaching-kids-programming-design-and-develop-an-apple-catching-game-on-microbit-using-python/) | 2022-02-17 |
+| Introduction to Microbit Programming in Python | Microbit 编程入门简介(Python) | [Youtube](https://youtu.be/MbpJT7c_AwM) - [B站](https://www.bilibili.com/video/BV1mi4y1f7hh/) - [西瓜](https://www.ixigua.com/7065054670393180686) | [Introduction to Microbit Programming in Python](https://helloacm.com/teaching-kids-programming-introduction-to-microbit-programming-in-python/) | 2022-02-15 |
 
 ## Tags
 #algorithms #algorithm #math #python #pythonprogramming #programming #coding #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #learning #tutorial #computing #coding
