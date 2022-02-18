@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 409 (2022-02-17): [Design and Develop an Apple Catching Game on Microbit using Python](https://helloacm.com/teaching-kids-programming-design-and-develop-an-apple-catching-game-on-microbit-using-python/) Microbit 游戏编程之吃苹果 (Python) [Youtube](https://youtu.be/WySLvLMEoZ0) - [B站](https://www.bilibili.com/video/BV15u411X7Xw/)  - [西瓜](https://www.ixigua.com/7065824507780399623) 
 - Day 408 (2022-02-15): [Introduction to Microbit Programming in Python](https://helloacm.com/teaching-kids-programming-introduction-to-microbit-programming-in-python/) Microbit 编程入门简介(Python) [Youtube](https://youtu.be/MbpJT7c_AwM) - [B站](https://www.bilibili.com/video/BV1mi4y1f7hh/)  - [西瓜](https://www.ixigua.com/7065054670393180686) 
 - Day 407 (2022-02-14): [Introduction to BASH shell/commands](https://helloacm.com/teaching-kids-programming-introduction-to-bash-commands/) BASH命令简介 [Youtube](https://youtu.be/0JJCRJxWQ8Q) - [B站](https://www.bilibili.com/video/BV1QS4y1G7z2/)  - [西瓜](https://www.ixigua.com/7064677146798588424) 
 - Day 406 (2022-02-13): [Turtle Graphics/Canvas Programming in Python](https://helloacm.com/teaching-kids-programming-turtle-graphics-canvas-programming-in-python/) 海龟作图 Turtle in Python [Youtube](https://youtu.be/hYmz8HYEkxo) - [B站](https://www.bilibili.com/video/BV1V34y1C7Ag/)  - [西瓜](https://www.ixigua.com/7064295205012242957) 
