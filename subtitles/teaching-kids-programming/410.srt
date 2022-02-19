@@ -1,0 +1,1716 @@
+1
+00:00:00,080 --> 00:00:05,279
+go hello
+
+2
+00:00:02,480 --> 00:00:07,759
+hello mr mr right now right yeah
+
+3
+00:00:05,279 --> 00:00:09,440
+okay so what did you learn yesterday if
+
+4
+00:00:07,759 --> 00:00:11,679
+we learned about apple captain gaming
+
+5
+00:00:09,440 --> 00:00:14,000
+yeah yeah yeah okay so now and look this
+
+6
+00:00:11,679 --> 00:00:16,800
+is the source code yeah let's go uh
+
+7
+00:00:14,000 --> 00:00:18,560
+reveal this on it yeah we can press
+
+8
+00:00:16,800 --> 00:00:20,960
+yeah yeah yeah yeah you see we can press
+
+9
+00:00:18,560 --> 00:00:22,800
+left and right yeah so this is move left
+
+10
+00:00:20,960 --> 00:00:23,600
+and then we set the button a to move
+
+11
+00:00:22,800 --> 00:00:25,359
+left
+
+12
+00:00:23,600 --> 00:00:27,279
+this is the game over yeah i changed a
+
+13
+00:00:25,359 --> 00:00:29,840
+little bit look i call this if not game
+
+14
+00:00:27,279 --> 00:00:32,239
+is running we just return yeah okay if
+
+15
+00:00:29,840 --> 00:00:34,559
+not game is running then we just don't
+
+16
+00:00:32,239 --> 00:00:37,360
+do anything with the control
+
+17
+00:00:34,559 --> 00:00:39,920
+uh reset the game yeah we said the game
+
+18
+00:00:37,360 --> 00:00:42,079
+we saw the game so when we press the a
+
+19
+00:00:39,920 --> 00:00:44,000
+and b together if the apple has not
+
+20
+00:00:42,079 --> 00:00:46,719
+fallen on the ground we just ignore it
+
+21
+00:00:44,000 --> 00:00:50,000
+yeah just to avoid people making me stay
+
+22
+00:00:46,719 --> 00:00:52,480
+by pressing the this a and b together
+
+23
+00:00:50,000 --> 00:00:54,239
+when the apple is still falling right
+
+24
+00:00:52,480 --> 00:00:57,199
+yeah that's what it means and when we
+
+25
+00:00:54,239 --> 00:00:58,879
+reset the game it sets the score to zero
+
+26
+00:00:57,199 --> 00:01:00,960
+sex the apple
+
+27
+00:00:58,879 --> 00:01:04,000
+to a random position
+
+28
+00:01:00,960 --> 00:01:06,960
+yeah in the top row and resume again and
+
+29
+00:01:04,000 --> 00:01:08,799
+then ap this is the step move right okay
+
+30
+00:01:06,960 --> 00:01:09,520
+with a bit more right
+
+31
+00:01:08,799 --> 00:01:12,400
+get
+
+32
+00:01:09,520 --> 00:01:14,479
+current delay you know the faster higher
+
+33
+00:01:12,400 --> 00:01:16,400
+score less delay faster apple falling
+
+34
+00:01:14,479 --> 00:01:18,479
+speed yeah got it
+
+35
+00:01:16,400 --> 00:01:20,400
+okay so this is the main logic so now
+
+36
+00:01:18,479 --> 00:01:21,280
+today we're going to let the computer
+
+37
+00:01:20,400 --> 00:01:22,720
+play
+
+38
+00:01:21,280 --> 00:01:24,680
+right so we don't want to play yeah
+
+39
+00:01:22,720 --> 00:01:26,720
+we're not working with the player
+
+40
+00:01:24,680 --> 00:01:28,799
+[Music]
+
+41
+00:01:26,720 --> 00:01:30,560
+yeah so how do we make the computer play
+
+42
+00:01:28,799 --> 00:01:33,200
+what's your strategy if you're a
+
+43
+00:01:30,560 --> 00:01:34,640
+computer what do you how do you play um
+
+44
+00:01:33,200 --> 00:01:37,920
+like
+
+45
+00:01:34,640 --> 00:01:38,840
+so first of all we just
+
+46
+00:01:37,920 --> 00:01:41,600
+like
+
+47
+00:01:38,840 --> 00:01:42,799
+if like um
+
+48
+00:01:41,600 --> 00:01:45,680
+you just
+
+49
+00:01:42,799 --> 00:01:48,360
+go for like the
+
+50
+00:01:45,680 --> 00:01:51,759
+quick quick quickest the shortest path
+
+51
+00:01:48,360 --> 00:01:55,119
+yeah like if you're there and then
+
+52
+00:01:51,759 --> 00:01:55,119
+if you're here i never i was
+
+53
+00:01:55,520 --> 00:02:00,799
+so basically yeah the emperor is here
+
+54
+00:01:58,159 --> 00:02:02,560
+the airport here and this is your bow
+
+55
+00:02:00,799 --> 00:02:05,439
+yeah this is about so if it's on the
+
+56
+00:02:02,560 --> 00:02:08,560
+left you just go left yeah all right and
+
+57
+00:02:05,439 --> 00:02:09,599
+if the upper is here and then the bow is
+
+58
+00:02:08,560 --> 00:02:11,360
+there
+
+59
+00:02:09,599 --> 00:02:13,520
+if the upper is on the right just go
+
+60
+00:02:11,360 --> 00:02:16,480
+right yeah this is one strategy the most
+
+61
+00:02:13,520 --> 00:02:19,520
+simplest one is just towards it and just
+
+62
+00:02:16,480 --> 00:02:21,200
+remember that we can wrap the
+
+63
+00:02:19,520 --> 00:02:24,080
+the bow right so what does it mean it
+
+64
+00:02:21,200 --> 00:02:26,160
+means that look if we uh let's place a b
+
+65
+00:02:24,080 --> 00:02:28,319
+if we go left and you'll go from the
+
+66
+00:02:26,160 --> 00:02:30,640
+right if you go right from to the most
+
+67
+00:02:28,319 --> 00:02:32,879
+the rightmost place you
+
+68
+00:02:30,640 --> 00:02:35,280
+turn your left up to the left yeah so so
+
+69
+00:02:32,879 --> 00:02:37,760
+we can we can actually add these
+
+70
+00:02:35,280 --> 00:02:39,360
+to the check so first of all let's say
+
+71
+00:02:37,760 --> 00:02:40,640
+define
+
+72
+00:02:39,360 --> 00:02:43,120
+a
+
+73
+00:02:40,640 --> 00:02:46,000
+computer okay computer play
+
+74
+00:02:43,120 --> 00:02:47,920
+okay this is the function
+
+75
+00:02:46,000 --> 00:02:49,599
+we want to call and then we just put it
+
+76
+00:02:47,920 --> 00:02:51,840
+here
+
+77
+00:02:49,599 --> 00:02:54,160
+yeah okay
+
+78
+00:02:51,840 --> 00:02:56,080
+black computer place okay so it
+
+79
+00:02:54,160 --> 00:02:57,040
+now it does nothing but we can do this
+
+80
+00:02:56,080 --> 00:02:59,120
+yeah
+
+81
+00:02:57,040 --> 00:03:02,000
+so this is actually kind of the most the
+
+82
+00:02:59,120 --> 00:03:04,400
+simplest artificial intelligence yeah
+
+83
+00:03:02,000 --> 00:03:06,640
+artificial intelligence it's called
+
+84
+00:03:04,400 --> 00:03:08,959
+decision rules if
+
+85
+00:03:06,640 --> 00:03:11,360
+left is shorter we go from to the left
+
+86
+00:03:08,959 --> 00:03:12,159
+if right is your good right
+
+87
+00:03:11,360 --> 00:03:13,680
+right
+
+88
+00:03:12,159 --> 00:03:15,599
+yeah so if
+
+89
+00:03:13,680 --> 00:03:17,599
+decision rules decision tree is
+
+90
+00:03:15,599 --> 00:03:19,760
+basically something like okay
+
+91
+00:03:17,599 --> 00:03:21,920
+if something then do something a
+
+92
+00:03:19,760 --> 00:03:24,319
+prediction if something condition and do
+
+93
+00:03:21,920 --> 00:03:25,599
+something for example like if
+
+94
+00:03:24,319 --> 00:03:27,760
+today
+
+95
+00:03:25,599 --> 00:03:30,840
+is april
+
+96
+00:03:27,760 --> 00:03:33,200
+someday in april right
+
+97
+00:03:30,840 --> 00:03:34,879
+then tomorrow
+
+98
+00:03:33,200 --> 00:03:36,400
+before barbecue
+
+99
+00:03:34,879 --> 00:03:37,519
+that's right or something like that yeah
+
+100
+00:03:36,400 --> 00:03:39,360
+this is if
+
+101
+00:03:37,519 --> 00:03:40,640
+we have the barbecue yeah yeah we can do
+
+102
+00:03:39,360 --> 00:03:42,879
+it
+
+103
+00:03:40,640 --> 00:03:47,239
+this year as well so barbecue so learn
+
+104
+00:03:42,879 --> 00:03:47,239
+prediction yeah we're going to do that
+
+105
+00:03:47,599 --> 00:03:51,440
+okay so now look
+
+106
+00:03:49,440 --> 00:03:53,760
+look here okay but first of all if it's
+
+107
+00:03:51,440 --> 00:03:57,280
+the same look at the the position like
+
+108
+00:03:53,760 --> 00:04:00,239
+this x apple right f of x
+
+109
+00:03:57,280 --> 00:04:01,280
+f of x yeah the horizon position equals
+
+110
+00:04:00,239 --> 00:04:02,239
+the
+
+111
+00:04:01,280 --> 00:04:03,840
+f of
+
+112
+00:04:02,239 --> 00:04:06,640
+x yeah
+
+113
+00:04:03,840 --> 00:04:07,439
+uh x okay and then
+
+114
+00:04:06,640 --> 00:04:09,920
+if
+
+115
+00:04:07,439 --> 00:04:11,840
+first of all we have to check look if
+
+116
+00:04:09,920 --> 00:04:13,280
+if the vowel
+
+117
+00:04:11,840 --> 00:04:15,040
+dot x
+
+118
+00:04:13,280 --> 00:04:17,199
+equals f of x
+
+119
+00:04:15,040 --> 00:04:19,359
+right so if we are right
+
+120
+00:04:17,199 --> 00:04:20,320
+if we have the bao is right after the
+
+121
+00:04:19,359 --> 00:04:23,360
+apple
+
+122
+00:04:20,320 --> 00:04:26,400
+below the apple so what should we do
+
+123
+00:04:23,360 --> 00:04:28,639
+what should we do in this case
+
+124
+00:04:26,400 --> 00:04:30,240
+look if apple are here
+
+125
+00:04:28,639 --> 00:04:32,880
+and then you are just right below it
+
+126
+00:04:30,240 --> 00:04:32,880
+what should we do
+
+127
+00:04:34,320 --> 00:04:37,759
+nothing yeah just do nothing so we just
+
+128
+00:04:36,320 --> 00:04:39,600
+do nothing
+
+129
+00:04:37,759 --> 00:04:43,280
+and then return yeah because
+
+130
+00:04:39,600 --> 00:04:45,199
+do nothing it doesn't need to to
+
+131
+00:04:43,280 --> 00:04:48,000
+uh to do anything right
+
+132
+00:04:45,199 --> 00:04:53,360
+so another way is that if power
+
+133
+00:04:48,000 --> 00:04:53,360
+dot x is smaller than f of the x air x
+
+134
+00:04:54,960 --> 00:04:57,840
+right so the upper is on the right hand
+
+135
+00:04:56,960 --> 00:04:59,840
+side
+
+136
+00:04:57,840 --> 00:05:01,520
+right so we can just move right right
+
+137
+00:04:59,840 --> 00:05:02,880
+simple as that
+
+138
+00:05:01,520 --> 00:05:04,639
+yeah
+
+139
+00:05:02,880 --> 00:05:07,039
+let's move left there that's the simple
+
+140
+00:05:04,639 --> 00:05:07,919
+logic without taking without considering
+
+141
+00:05:07,039 --> 00:05:10,720
+if
+
+142
+00:05:07,919 --> 00:05:12,800
+we can con we can actually grab our bow
+
+143
+00:05:10,720 --> 00:05:14,240
+from the other
+
+144
+00:05:12,800 --> 00:05:17,360
+the other side right
+
+145
+00:05:14,240 --> 00:05:19,680
+okay so so can we try left look
+
+146
+00:05:17,360 --> 00:05:21,440
+does it work okay now
+
+147
+00:05:19,680 --> 00:05:22,800
+yeah you see
+
+148
+00:05:21,440 --> 00:05:24,479
+okay
+
+149
+00:05:22,800 --> 00:05:28,639
+make sense
+
+150
+00:05:24,479 --> 00:05:31,360
+yeah it's actually doing that right yeah
+
+151
+00:05:28,639 --> 00:05:32,800
+yeah look but you will go for the look
+
+152
+00:05:31,360 --> 00:05:35,039
+the apple is the
+
+153
+00:05:32,800 --> 00:05:36,800
+ball is here the airport is here
+
+154
+00:05:35,039 --> 00:05:38,639
+it will actually move right instead of
+
+155
+00:05:36,800 --> 00:05:40,960
+move level because move left is the
+
+156
+00:05:38,639 --> 00:05:43,120
+faster right but it says okay because
+
+157
+00:05:40,960 --> 00:05:45,120
+it's on the right 11.
+
+158
+00:05:43,120 --> 00:05:47,600
+okay okay because it's too far yeah yeah
+
+159
+00:05:45,120 --> 00:05:50,720
+it's too far to get it right this is the
+
+160
+00:05:47,600 --> 00:05:53,360
+this is the thing right because if
+
+161
+00:05:50,720 --> 00:05:56,240
+if the apple is uh here okay so let's
+
+162
+00:05:53,360 --> 00:05:58,720
+say if apple is at least four two right
+
+163
+00:05:56,240 --> 00:06:00,160
+and then we are on the left
+
+164
+00:05:58,720 --> 00:06:02,960
+so what will happen
+
+165
+00:06:00,160 --> 00:06:05,280
+it takes one two three four to go to the
+
+166
+00:06:02,960 --> 00:06:06,800
+right but at that time the apple has
+
+167
+00:06:05,280 --> 00:06:09,600
+fallen on the ground
+
+168
+00:06:06,800 --> 00:06:11,600
+it doesn't catch it in time right
+
+169
+00:06:09,600 --> 00:06:13,280
+so that's why at least accurate or
+
+170
+00:06:11,600 --> 00:06:14,240
+sometimes but
+
+171
+00:06:13,280 --> 00:06:16,560
+it's not
+
+172
+00:06:14,240 --> 00:06:18,080
+super smart right yeah it's not smart so
+
+173
+00:06:16,560 --> 00:06:20,240
+we can fly
+
+174
+00:06:18,080 --> 00:06:22,000
+that's why i lose but so let's but
+
+175
+00:06:20,240 --> 00:06:23,759
+that's the basic version right that's
+
+176
+00:06:22,000 --> 00:06:25,600
+the basic version so first of all we
+
+177
+00:06:23,759 --> 00:06:27,600
+need to define the cost of moving that
+
+178
+00:06:25,600 --> 00:06:29,039
+and cost the moving line right
+
+179
+00:06:27,600 --> 00:06:30,880
+right so how do we
+
+180
+00:06:29,039 --> 00:06:34,400
+check if the costs are moving left and
+
+181
+00:06:30,880 --> 00:06:37,280
+close to moving right
+
+182
+00:06:34,400 --> 00:06:39,759
+so first of all we say close
+
+183
+00:06:37,280 --> 00:06:41,520
+so let's look if about
+
+184
+00:06:39,759 --> 00:06:43,919
+so let's say instead of
+
+185
+00:06:41,520 --> 00:06:46,160
+let's just do this okay custom moving
+
+186
+00:06:43,919 --> 00:06:48,400
+that moving right cost
+
+187
+00:06:46,160 --> 00:06:49,759
+of moving right
+
+188
+00:06:48,400 --> 00:06:52,400
+is
+
+189
+00:06:49,759 --> 00:06:54,240
+is upper
+
+190
+00:06:52,400 --> 00:06:55,599
+x minus about
+
+191
+00:06:54,240 --> 00:06:57,919
+x all right
+
+192
+00:06:55,599 --> 00:06:59,840
+yeah it's on the right hand side but but
+
+193
+00:06:57,919 --> 00:07:00,960
+again we have one more choice of moving
+
+194
+00:06:59,840 --> 00:07:02,400
+left so
+
+195
+00:07:00,960 --> 00:07:03,680
+cost of
+
+196
+00:07:02,400 --> 00:07:05,919
+moving
+
+197
+00:07:03,680 --> 00:07:08,160
+right okay okay uh left
+
+198
+00:07:05,919 --> 00:07:08,160
+left
+
+199
+00:07:10,160 --> 00:07:14,080
+cost of moving that you can still move
+
+200
+00:07:11,840 --> 00:07:17,840
+left equals
+
+201
+00:07:14,080 --> 00:07:17,840
+equals what it was what
+
+202
+00:07:18,639 --> 00:07:25,039
+so so let's see this this let's do this
+
+203
+00:07:22,080 --> 00:07:27,360
+a little bit here so um apple is here
+
+204
+00:07:25,039 --> 00:07:28,720
+right apple is here and i'm here the bar
+
+205
+00:07:27,360 --> 00:07:31,599
+is here
+
+206
+00:07:28,720 --> 00:07:33,680
+so you can move left move right the cost
+
+207
+00:07:31,599 --> 00:07:36,479
+will be the distance will be least minus
+
+208
+00:07:33,680 --> 00:07:38,080
+this right but you can also move to the
+
+209
+00:07:36,479 --> 00:07:39,840
+other hand side right
+
+210
+00:07:38,080 --> 00:07:43,800
+yeah and what's the cost
+
+211
+00:07:39,840 --> 00:07:43,800
+it's 5 plus
+
+212
+00:07:44,560 --> 00:07:50,080
+it's phi plus 1 plus the
+
+213
+00:07:47,919 --> 00:07:52,319
+these
+
+214
+00:07:50,080 --> 00:07:53,520
+so how do we get this
+
+215
+00:07:52,319 --> 00:07:55,680
+so what's the
+
+216
+00:07:53,520 --> 00:07:56,879
+mathematics look how do we calculate the
+
+217
+00:07:55,680 --> 00:08:00,000
+mathematics
+
+218
+00:07:56,879 --> 00:08:02,639
+so the distance is it equals this
+
+219
+00:08:00,000 --> 00:08:05,840
+distance right equals distance
+
+220
+00:08:02,639 --> 00:08:08,639
+plus this distance yeah all right yeah
+
+221
+00:08:05,840 --> 00:08:10,000
+so what is the equal the overall this is
+
+222
+00:08:08,639 --> 00:08:13,599
+five
+
+223
+00:08:10,000 --> 00:08:16,160
+this is five right five pixels
+
+224
+00:08:13,599 --> 00:08:19,520
+is it five pixels
+
+225
+00:08:16,160 --> 00:08:20,400
+five pixels so overall five pixel
+
+226
+00:08:19,520 --> 00:08:22,000
+and
+
+227
+00:08:20,400 --> 00:08:24,560
+we want to calculate the distance
+
+228
+00:08:22,000 --> 00:08:28,240
+between these and this
+
+229
+00:08:24,560 --> 00:08:30,720
+right so it's actually 5 minus this bit
+
+230
+00:08:28,240 --> 00:08:34,560
+this bit is 5 minus this
+
+231
+00:08:30,720 --> 00:08:36,640
+this bit is these right so it's 5
+
+232
+00:08:34,560 --> 00:08:38,880
+minus f of
+
+233
+00:08:36,640 --> 00:08:40,880
+f minus apple
+
+234
+00:08:38,880 --> 00:08:43,120
+upper
+
+235
+00:08:40,880 --> 00:08:44,560
+pi minus alpha is this actually this bit
+
+236
+00:08:43,120 --> 00:08:46,880
+yeah yeah
+
+237
+00:08:44,560 --> 00:08:48,240
+because look this is five
+
+238
+00:08:46,880 --> 00:08:50,399
+minus apple
+
+239
+00:08:48,240 --> 00:08:52,880
+is this bit plus
+
+240
+00:08:50,399 --> 00:08:56,000
+plus this yeah so plus
+
+241
+00:08:52,880 --> 00:08:58,240
+plus the power right the position yeah
+
+242
+00:08:56,000 --> 00:09:00,080
+so that that's the simple mess yeah
+
+243
+00:08:58,240 --> 00:09:02,959
+so it's five uh
+
+244
+00:09:00,080 --> 00:09:05,760
+yeah five minus f plus plus okay
+
+245
+00:09:02,959 --> 00:09:06,839
+so it's five
+
+246
+00:09:05,760 --> 00:09:08,480
+minus
+
+247
+00:09:06,839 --> 00:09:09,839
+up
+
+248
+00:09:08,480 --> 00:09:12,080
+plus
+
+249
+00:09:09,839 --> 00:09:12,080
+wow
+
+250
+00:09:15,440 --> 00:09:21,880
+i could possibly do this as a second uh
+
+251
+00:09:18,880 --> 00:09:21,880
+x
+
+252
+00:09:23,360 --> 00:09:26,480
+just to save the variable so we can just
+
+253
+00:09:25,440 --> 00:09:28,560
+use this
+
+254
+00:09:26,480 --> 00:09:30,000
+instead of calling this method to save
+
+255
+00:09:28,560 --> 00:09:32,640
+us
+
+256
+00:09:30,000 --> 00:09:34,640
+time okay
+
+257
+00:09:32,640 --> 00:09:36,800
+okay
+
+258
+00:09:34,640 --> 00:09:39,760
+this is the cost of moving
+
+259
+00:09:36,800 --> 00:09:42,399
+uh left and close moving right
+
+260
+00:09:39,760 --> 00:09:44,320
+yeah yeah exactly okay so now look this
+
+261
+00:09:42,399 --> 00:09:45,680
+is closer moving left custom moving
+
+262
+00:09:44,320 --> 00:09:46,480
+right but
+
+263
+00:09:45,680 --> 00:09:48,720
+uh
+
+264
+00:09:46,480 --> 00:09:52,160
+okay so that actually look because this
+
+265
+00:09:48,720 --> 00:09:54,399
+is position we have to put it here right
+
+266
+00:09:52,160 --> 00:09:56,720
+yeah because this is the position of the
+
+267
+00:09:54,399 --> 00:09:59,120
+lunar but on the other hand only on the
+
+268
+00:09:56,720 --> 00:10:00,320
+other hand side when the apple is
+
+269
+00:09:59,120 --> 00:10:03,360
+smaller than
+
+270
+00:10:00,320 --> 00:10:05,279
+bar x so it's the opposite so
+
+271
+00:10:03,360 --> 00:10:07,519
+it
+
+272
+00:10:05,279 --> 00:10:09,360
+so if apple is here
+
+273
+00:10:07,519 --> 00:10:12,320
+i know your control is here
+
+274
+00:10:09,360 --> 00:10:14,480
+the cost of moving left is
+
+275
+00:10:12,320 --> 00:10:16,079
+this is simple yeah you just calculate
+
+276
+00:10:14,480 --> 00:10:17,440
+the difference there
+
+277
+00:10:16,079 --> 00:10:18,240
+okay so
+
+278
+00:10:17,440 --> 00:10:20,959
+the
+
+279
+00:10:18,240 --> 00:10:25,600
+cost of moving that
+
+280
+00:10:20,959 --> 00:10:28,160
+equals equals one equals the power x
+
+281
+00:10:25,600 --> 00:10:30,880
+bar x minus f of x right
+
+282
+00:10:28,160 --> 00:10:33,040
+look this is now about about here here
+
+283
+00:10:30,880 --> 00:10:33,040
+is
+
+284
+00:10:44,839 --> 00:10:48,399
+is than f of x
+
+285
+00:10:46,640 --> 00:10:49,600
+right on the right hand side and then
+
+286
+00:10:48,399 --> 00:10:50,640
+now cos
+
+287
+00:10:49,600 --> 00:10:53,760
+of
+
+288
+00:10:50,640 --> 00:10:56,079
+moving right equals one
+
+289
+00:10:53,760 --> 00:10:56,800
+so it's the same it's actually the same
+
+290
+00:10:56,079 --> 00:10:59,839
+so
+
+291
+00:10:56,800 --> 00:11:04,160
+so look if if cursor moving right is
+
+292
+00:10:59,839 --> 00:11:06,959
+this big plus this big okay
+
+293
+00:11:04,160 --> 00:11:09,040
+this is the whole pixel yeah so it's 5
+
+294
+00:11:06,959 --> 00:11:11,760
+minus these
+
+295
+00:11:09,040 --> 00:11:15,440
+plus this 5 minus power
+
+296
+00:11:11,760 --> 00:11:17,040
+so 5 minus five
+
+297
+00:11:15,440 --> 00:11:18,880
+plus pepper
+
+298
+00:11:17,040 --> 00:11:20,720
+okay so let's do this
+
+299
+00:11:18,880 --> 00:11:23,680
+okay now what should we do
+
+300
+00:11:20,720 --> 00:11:25,839
+i have we have calculated two uh
+
+301
+00:11:23,680 --> 00:11:27,519
+two variables moving the glucose from
+
+302
+00:11:25,839 --> 00:11:31,040
+moving right and the costs are moving
+
+303
+00:11:27,519 --> 00:11:34,079
+left and what we prefer which way
+
+304
+00:11:31,040 --> 00:11:34,079
+which way we prefer
+
+305
+00:11:35,200 --> 00:11:39,839
+look there are two situations basically
+
+306
+00:11:37,120 --> 00:11:42,240
+this is just to check which
+
+307
+00:11:39,839 --> 00:11:43,920
+the position the position if if the
+
+308
+00:11:42,240 --> 00:11:46,560
+apple is on the right hand side or on
+
+309
+00:11:43,920 --> 00:11:48,880
+the left hand side of that bar right
+
+310
+00:11:46,560 --> 00:11:51,040
+and now based on this i have two
+
+311
+00:11:48,880 --> 00:11:53,600
+i've computed two
+
+312
+00:11:51,040 --> 00:11:55,440
+uh cost one the cost of moving that and
+
+313
+00:11:53,600 --> 00:11:57,600
+the cursor moving right so which one we
+
+314
+00:11:55,440 --> 00:11:59,120
+should choose
+
+315
+00:11:57,600 --> 00:12:00,160
+choose which one the bigger one or
+
+316
+00:11:59,120 --> 00:12:01,519
+smaller one
+
+317
+00:12:00,160 --> 00:12:04,240
+yeah of course the smaller one the
+
+318
+00:12:01,519 --> 00:12:05,440
+bigger the better again so if cost of
+
+319
+00:12:04,240 --> 00:12:08,639
+moving left
+
+320
+00:12:05,440 --> 00:12:11,279
+is smaller and closer moving right
+
+321
+00:12:08,639 --> 00:12:12,880
+then we move left all right
+
+322
+00:12:11,279 --> 00:12:15,200
+all right
+
+323
+00:12:12,880 --> 00:12:17,519
+all right all right so we can just move
+
+324
+00:12:15,200 --> 00:12:19,120
+right right
+
+325
+00:12:17,519 --> 00:12:21,519
+okay that might be a situation the
+
+326
+00:12:19,120 --> 00:12:24,639
+moving level equals to moving right now
+
+327
+00:12:21,519 --> 00:12:27,279
+we don't care right yeah okay let's try
+
+328
+00:12:24,639 --> 00:12:28,800
+this to see if it works okay
+
+329
+00:12:27,279 --> 00:12:30,399
+so you you'll be
+
+330
+00:12:28,800 --> 00:12:32,320
+you'll be super clever look look it
+
+331
+00:12:30,399 --> 00:12:34,800
+turns on the other side right you see
+
+332
+00:12:32,320 --> 00:12:36,160
+yeah okay very slow
+
+333
+00:12:34,800 --> 00:12:38,560
+don't worry
+
+334
+00:12:36,160 --> 00:12:40,639
+you will be moving the apple will be
+
+335
+00:12:38,560 --> 00:12:42,240
+moving faster and faster
+
+336
+00:12:40,639 --> 00:12:43,200
+right
+
+337
+00:12:42,240 --> 00:12:44,880
+faster
+
+338
+00:12:43,200 --> 00:12:47,600
+okay so let's wait a little bit look
+
+339
+00:12:44,880 --> 00:12:49,519
+look now it takes this shorter cut yeah
+
+340
+00:12:47,600 --> 00:12:50,639
+yeah instead of going
+
+341
+00:12:49,519 --> 00:12:52,560
+all the way
+
+342
+00:12:50,639 --> 00:12:54,560
+so you would never die so this this
+
+343
+00:12:52,560 --> 00:12:57,279
+version will never die
+
+344
+00:12:54,560 --> 00:12:58,560
+it will never get more over right
+
+345
+00:12:57,279 --> 00:13:02,320
+okay look
+
+346
+00:12:58,560 --> 00:13:03,680
+because it's always picking the
+
+347
+00:13:02,320 --> 00:13:06,639
+shortest
+
+348
+00:13:03,680 --> 00:13:08,560
+yeah 30s right
+
+349
+00:13:06,639 --> 00:13:13,440
+wow
+
+350
+00:13:08,560 --> 00:13:13,440
+so i i ideally eventually will be like
+
+351
+00:13:14,240 --> 00:13:17,279
+yeah
+
+352
+00:13:15,200 --> 00:13:18,480
+so look look it's getting faster and
+
+353
+00:13:17,279 --> 00:13:21,600
+faster
+
+354
+00:13:18,480 --> 00:13:23,360
+wow the human being cannot make such a
+
+355
+00:13:21,600 --> 00:13:25,920
+uh
+
+356
+00:13:23,360 --> 00:13:27,440
+cannot react so fast yeah look look how
+
+357
+00:13:25,920 --> 00:13:29,760
+can you play like that
+
+358
+00:13:27,440 --> 00:13:31,279
+the computer will never never
+
+359
+00:13:29,760 --> 00:13:33,600
+never uh
+
+360
+00:13:31,279 --> 00:13:36,480
+yeah yeah the computer will never make
+
+361
+00:13:33,600 --> 00:13:38,399
+the mistake right yeah yeah you see so
+
+362
+00:13:36,480 --> 00:13:40,079
+do you get it look this is the computer
+
+363
+00:13:38,399 --> 00:13:41,120
+play the artificial intelligence the
+
+364
+00:13:40,079 --> 00:13:43,839
+basic
+
+365
+00:13:41,120 --> 00:13:45,680
+is called decision rules yeah decision
+
+366
+00:13:43,839 --> 00:13:47,760
+rules so basically it's based on
+
+367
+00:13:45,680 --> 00:13:50,399
+checking the field condition and pick
+
+368
+00:13:47,760 --> 00:13:51,839
+the best right so so what's the cost of
+
+369
+00:13:50,399 --> 00:13:55,120
+moving that what's the cost of moving
+
+370
+00:13:51,839 --> 00:13:56,240
+right okay now okay moving that is
+
+371
+00:13:55,120 --> 00:13:58,320
+is
+
+372
+00:13:56,240 --> 00:14:00,639
+the cost is smaller the distance smaller
+
+373
+00:13:58,320 --> 00:14:03,800
+quicker now we keep preferred moving
+
+374
+00:14:00,639 --> 00:14:03,800
+back otherwise
+
+375
+00:14:05,279 --> 00:14:10,399
+at the beginning we we implement a very
+
+376
+00:14:07,680 --> 00:14:12,240
+basic one which is just that just check
+
+377
+00:14:10,399 --> 00:14:14,320
+okay if apple is on the right-hand side
+
+378
+00:14:12,240 --> 00:14:16,320
+we move to the right if apple is on the
+
+379
+00:14:14,320 --> 00:14:17,760
+left-hand side we move to the left if
+
+380
+00:14:16,320 --> 00:14:19,279
+apple is
+
+381
+00:14:17,760 --> 00:14:20,800
+right above us
+
+382
+00:14:19,279 --> 00:14:23,360
+we do nothing
+
+383
+00:14:20,800 --> 00:14:25,600
+this is decision
+
+384
+00:14:23,360 --> 00:14:27,120
+tree decision doing so
+
+385
+00:14:25,600 --> 00:14:29,279
+artificial intelligence you know what
+
+386
+00:14:27,120 --> 00:14:31,600
+artificial intelligence
+
+387
+00:14:29,279 --> 00:14:33,519
+the intelligence of computer
+
+388
+00:14:31,600 --> 00:14:34,800
+yeah how the computer thinks okay look
+
+389
+00:14:33,519 --> 00:14:36,079
+easy
+
+390
+00:14:34,800 --> 00:14:37,040
+yeah
+
+391
+00:14:36,079 --> 00:14:39,920
+okay
+
+392
+00:14:37,040 --> 00:14:41,360
+make sense okay the last step is we just
+
+393
+00:14:39,920 --> 00:14:42,560
+put this
+
+394
+00:14:41,360 --> 00:14:46,480
+yeah we'll just
+
+395
+00:14:42,560 --> 00:14:48,720
+just download it and then let's see if
+
+396
+00:14:46,480 --> 00:14:51,279
+we download it here
+
+397
+00:14:48,720 --> 00:14:51,279
+download
+
+398
+00:14:52,000 --> 00:14:56,680
+okay download and then
+
+399
+00:14:58,320 --> 00:15:04,320
+it
+
+400
+00:15:00,160 --> 00:15:04,320
+okay and then let's copy it to micro bit
+
+401
+00:15:06,959 --> 00:15:13,560
+16
+
+402
+00:15:09,199 --> 00:15:13,560
+complete 20 43
+
+403
+00:15:19,920 --> 00:15:22,920
+is
+
+404
+00:15:26,399 --> 00:15:30,639
+and that you downloaded the wrong one
+
+405
+00:15:28,880 --> 00:15:32,320
+okay
+
+406
+00:15:30,639 --> 00:15:34,240
+yeah okay so
+
+407
+00:15:32,320 --> 00:15:35,600
+that that's the basic that's the it for
+
+408
+00:15:34,240 --> 00:15:37,680
+today okay so
+
+409
+00:15:35,600 --> 00:15:40,320
+what have you learned today about how to
+
+410
+00:15:37,680 --> 00:15:41,839
+make computer play yeah artificial
+
+411
+00:15:40,320 --> 00:15:44,639
+intelligence yeah artificial
+
+412
+00:15:41,839 --> 00:15:45,519
+intelligence ai yeah decision rules this
+
+413
+00:15:44,639 --> 00:15:46,639
+is the
+
+414
+00:15:45,519 --> 00:15:49,199
+basic
+
+415
+00:15:46,639 --> 00:15:50,320
+one the most simplest hey the computers
+
+416
+00:15:49,199 --> 00:15:54,399
+are lost
+
+417
+00:15:50,320 --> 00:15:54,399
+how how did you do that you never
+
+418
+00:15:59,519 --> 00:16:05,600
+oh yeah yeah i know i know because i why
+
+419
+00:16:02,320 --> 00:16:08,800
+because i haven't turned off the control
+
+420
+00:16:05,600 --> 00:16:10,639
+so look i you can still press
+
+421
+00:16:08,800 --> 00:16:13,759
+the control right
+
+422
+00:16:10,639 --> 00:16:15,519
+when the computer play so you you you
+
+423
+00:16:13,759 --> 00:16:18,079
+just intentionally make the computer
+
+424
+00:16:15,519 --> 00:16:19,360
+loose right yeah then computer will lose
+
+425
+00:16:18,079 --> 00:16:21,120
+it okay
+
+426
+00:16:19,360 --> 00:16:23,030
+okay that's it for today say bye to
+
+427
+00:16:21,120 --> 00:16:26,000
+people bye-bye
+
+428
+00:16:23,030 --> 00:16:30,440
+[Music]
+
+429
+00:16:26,000 --> 00:16:30,440
+okay okay bye-bye
+

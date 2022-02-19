@@ -1,0 +1,676 @@
+1
+00:00:00,240 --> 00:00:02,000
+hello
+
+2
+00:00:01,199 --> 00:00:03,760
+hello
+
+3
+00:00:02,000 --> 00:00:05,279
+okay so today
+
+4
+00:00:03,760 --> 00:00:08,679
+today we're going to talk about this
+
+5
+00:00:05,279 --> 00:00:11,440
+problem okay the eco 2175
+
+6
+00:00:08,679 --> 00:00:13,519
+767 okay five three consecutive what's
+
+7
+00:00:11,440 --> 00:00:14,480
+consecutive numbers
+
+8
+00:00:13,519 --> 00:00:16,720
+it means
+
+9
+00:00:14,480 --> 00:00:18,960
+can you give me uh three examples of
+
+10
+00:00:16,720 --> 00:00:21,119
+three consecutive integers integer you
+
+11
+00:00:18,960 --> 00:00:21,119
+know
+
+12
+00:00:24,000 --> 00:00:28,000
+one two yeah one two three okay so it
+
+13
+00:00:25,920 --> 00:00:30,560
+adds up to six okay so we are finding we
+
+14
+00:00:28,000 --> 00:00:32,000
+given the number 33 then we want to find
+
+15
+00:00:30,560 --> 00:00:34,719
+out if there are three numbers that
+
+16
+00:00:32,000 --> 00:00:36,480
+added up to these 33 and these three
+
+17
+00:00:34,719 --> 00:00:38,480
+numbers needs to be consecutive so
+
+18
+00:00:36,480 --> 00:00:39,280
+they're next to each other right so you
+
+19
+00:00:38,480 --> 00:00:40,640
+see
+
+20
+00:00:39,280 --> 00:00:43,840
+three things
+
+21
+00:00:40,640 --> 00:00:46,000
+and if it can't be made such way so then
+
+22
+00:00:43,840 --> 00:00:48,879
+we return this empty array okay and then
+
+23
+00:00:46,000 --> 00:00:50,559
+the input is a very huge number
+
+24
+00:00:48,879 --> 00:00:54,239
+okay so
+
+25
+00:00:50,559 --> 00:00:55,840
+okay so what's your thoughts i mean so
+
+26
+00:00:54,239 --> 00:00:56,840
+okay so let's see
+
+27
+00:00:55,840 --> 00:00:59,600
+i
+
+28
+00:00:56,840 --> 00:01:01,920
+mean um
+
+29
+00:00:59,600 --> 00:01:04,080
+so yeah so we have a number three
+
+30
+00:01:01,920 --> 00:01:05,920
+numbers yes so let's say a okay so
+
+31
+00:01:04,080 --> 00:01:07,520
+what's this previous number let's say
+
+32
+00:01:05,920 --> 00:01:10,240
+let's assume the middle number is a
+
+33
+00:01:07,520 --> 00:01:13,119
+what's its previous number a minus one
+
+34
+00:01:10,240 --> 00:01:15,280
+yeah and a plus one okay so if you added
+
+35
+00:01:13,119 --> 00:01:16,720
+all these together what happened
+
+36
+00:01:15,280 --> 00:01:19,520
+how many is
+
+37
+00:01:16,720 --> 00:01:22,240
+three yeah because minus one and plus
+
+38
+00:01:19,520 --> 00:01:24,159
+one comes out so that's three eighths
+
+39
+00:01:22,240 --> 00:01:26,320
+okay so that's three a is equals this
+
+40
+00:01:24,159 --> 00:01:28,159
+time let's say we have a tablet so what
+
+41
+00:01:26,320 --> 00:01:31,520
+does it mean here
+
+42
+00:01:28,159 --> 00:01:33,439
+if these t can be what so what's your
+
+43
+00:01:31,520 --> 00:01:35,520
+approach okay
+
+44
+00:01:33,439 --> 00:01:36,400
+any idea how do we do it how do we solve
+
+45
+00:01:35,520 --> 00:01:38,560
+it
+
+46
+00:01:36,400 --> 00:01:40,240
+so let's say okay it's 27 can you find
+
+47
+00:01:38,560 --> 00:01:41,520
+the three numbers added up to 27
+
+48
+00:01:40,240 --> 00:01:43,840
+consecutive
+
+49
+00:01:41,520 --> 00:01:43,840
+um
+
+50
+00:01:44,000 --> 00:01:47,759
+come on like nine ten
+
+51
+00:01:46,799 --> 00:01:50,880
+okay
+
+52
+00:01:47,759 --> 00:01:53,040
+okay okay and then how about
+
+53
+00:01:50,880 --> 00:01:58,560
+45
+
+54
+00:01:53,040 --> 00:02:02,240
+empty probably well not really 45 14 15
+
+55
+00:01:58,560 --> 00:02:03,520
+16 yeah 40 50 60.
+
+56
+00:02:02,240 --> 00:02:07,040
+okay so what
+
+57
+00:02:03,520 --> 00:02:07,040
+what can you get from these two
+
+58
+00:02:07,600 --> 00:02:11,360
+did examples divide it by three yeah but
+
+59
+00:02:09,679 --> 00:02:12,800
+if it can be divided by three then
+
+60
+00:02:11,360 --> 00:02:15,360
+that's the middle number if you can't be
+
+61
+00:02:12,800 --> 00:02:17,840
+divided by three like 16 so can we find
+
+62
+00:02:15,360 --> 00:02:20,000
+any three numbers yes
+
+63
+00:02:17,840 --> 00:02:20,840
+yeah okay so we can just do yeah so
+
+64
+00:02:20,000 --> 00:02:24,959
+first of
+
+65
+00:02:20,840 --> 00:02:26,959
+all each number can be divided by three
+
+66
+00:02:24,959 --> 00:02:29,440
+divided by three then
+
+67
+00:02:26,959 --> 00:02:31,680
+it can't be divided by three okay then
+
+68
+00:02:29,440 --> 00:02:33,200
+when we just return empty
+
+69
+00:02:31,680 --> 00:02:34,879
+yeah and then let's say the middle
+
+70
+00:02:33,200 --> 00:02:37,519
+number is
+
+71
+00:02:34,879 --> 00:02:39,200
+number divided by three okay so i'm
+
+72
+00:02:37,519 --> 00:02:43,360
+gonna do ten
+
+73
+00:02:39,200 --> 00:02:44,879
+meet minus one mid and what's next
+
+74
+00:02:43,360 --> 00:02:47,200
+minus two
+
+75
+00:02:44,879 --> 00:02:50,879
+numbers last one
+
+76
+00:02:47,200 --> 00:02:53,599
+i know that's it yeah got it yeah submit
+
+77
+00:02:50,879 --> 00:02:55,200
+you see accept it when we passed
+
+78
+00:02:53,599 --> 00:02:56,800
+yeah what's the time complexity if you
+
+79
+00:02:55,200 --> 00:02:58,480
+look at this do we have any dude what's
+
+80
+00:02:56,800 --> 00:03:00,000
+the term complexity so what's the time
+
+81
+00:02:58,480 --> 00:03:02,840
+complexity
+
+82
+00:03:00,000 --> 00:03:05,599
+a one constant where that one
+
+83
+00:03:02,840 --> 00:03:08,159
+yeah because it's we just do the
+
+84
+00:03:05,599 --> 00:03:09,920
+mathematical calculation we can actually
+
+85
+00:03:08,159 --> 00:03:11,599
+prove us but it's take taking a lot of
+
+86
+00:03:09,920 --> 00:03:13,519
+time so let's just comment it out a
+
+87
+00:03:11,599 --> 00:03:15,760
+little bit so look at this three cheaper
+
+88
+00:03:13,519 --> 00:03:17,920
+quote means the comment uh
+
+89
+00:03:15,760 --> 00:03:20,720
+multiple lines of code is common okay so
+
+90
+00:03:17,920 --> 00:03:22,239
+we can just try for from the first we
+
+91
+00:03:20,720 --> 00:03:24,319
+improve what's the first number and then
+
+92
+00:03:22,239 --> 00:03:26,239
+we'll try from one so let's say from
+
+93
+00:03:24,319 --> 00:03:28,720
+first in red
+
+94
+00:03:26,239 --> 00:03:30,159
+so start from one and up to let's say up
+
+95
+00:03:28,720 --> 00:03:31,840
+to
+
+96
+00:03:30,159 --> 00:03:35,519
+meter yeah because they can't go beyond
+
+97
+00:03:31,840 --> 00:03:35,519
+me though that's not sure yeah
+
+98
+00:03:35,599 --> 00:03:40,400
+then if first class first plus one
+
+99
+00:03:38,400 --> 00:03:43,120
+that's the middle number plus first plus
+
+100
+00:03:40,400 --> 00:03:45,360
+two that's the third number equal equal
+
+101
+00:03:43,120 --> 00:03:48,159
+number then we do ten
+
+102
+00:03:45,360 --> 00:03:50,560
+first number first plus one first plus
+
+103
+00:03:48,159 --> 00:03:53,200
+two right yeah otherwise we can
+
+104
+00:03:50,560 --> 00:03:55,439
+empty yeah yeah this is blue force yeah
+
+105
+00:03:53,200 --> 00:03:57,599
+okay if we click on that look
+
+106
+00:03:55,439 --> 00:03:59,439
+what happened you take too much time to
+
+107
+00:03:57,599 --> 00:04:02,080
+run right because it's too slow because
+
+108
+00:03:59,439 --> 00:04:03,760
+we have to try
+
+109
+00:04:02,080 --> 00:04:05,840
+you know a lot of
+
+110
+00:04:03,760 --> 00:04:07,680
+different options
+
+111
+00:04:05,840 --> 00:04:09,519
+so i think it's taking time look time
+
+112
+00:04:07,680 --> 00:04:11,519
+limit excited
+
+113
+00:04:09,519 --> 00:04:12,840
+yeah because look when the input number
+
+114
+00:04:11,519 --> 00:04:17,359
+is
+
+115
+00:04:12,840 --> 00:04:19,440
+73 i don't know what's new 376.
+
+116
+00:04:17,359 --> 00:04:21,040
+okay what how how big is it seven
+
+117
+00:04:19,440 --> 00:04:24,240
+million
+
+118
+00:04:21,040 --> 00:04:26,479
+yeah seven minutes 369 000 if this is
+
+119
+00:04:24,240 --> 00:04:27,440
+the input then it takes
+
+120
+00:04:26,479 --> 00:04:31,120
+you know
+
+121
+00:04:27,440 --> 00:04:33,120
+about half half of it to dry yeah
+
+122
+00:04:31,120 --> 00:04:36,560
+for the computers just to iterate what's
+
+123
+00:04:33,120 --> 00:04:36,560
+the time complexity if you look at this
+
+124
+00:04:38,880 --> 00:04:44,560
+oh and yes because we just iterating
+
+125
+00:04:41,440 --> 00:04:45,360
+which is faster look you go wrong
+
+126
+00:04:44,560 --> 00:04:46,800
+yeah
+
+127
+00:04:45,360 --> 00:04:48,880
+okay that's the previous one yeah yeah
+
+128
+00:04:46,800 --> 00:04:50,400
+yeah that's the previous year okay so
+
+129
+00:04:48,880 --> 00:04:51,919
+did you get it what have you learned so
+
+130
+00:04:50,400 --> 00:04:57,199
+far today
+
+131
+00:04:51,919 --> 00:04:57,199
+about how did they go to record youtube
+
+132
+00:05:07,440 --> 00:05:12,000
+i think i think the input range look it
+
+133
+00:05:09,680 --> 00:05:14,560
+says input oh it's zero so it's a same
+
+134
+00:05:12,000 --> 00:05:16,479
+yeah so it'll be
+
+135
+00:05:14,560 --> 00:05:18,080
+okay minus one okay so it's the same
+
+136
+00:05:16,479 --> 00:05:20,720
+yeah because zero divided by three is
+
+137
+00:05:18,080 --> 00:05:21,520
+zero the previous one is negative one
+
+138
+00:05:20,720 --> 00:05:22,720
+yeah
+
+139
+00:05:21,520 --> 00:05:23,680
+got it
+
+140
+00:05:22,720 --> 00:05:25,840
+oh
+
+141
+00:05:23,680 --> 00:05:27,280
+this is not right okay so this this this
+
+142
+00:05:25,840 --> 00:05:29,120
+is not right right
+
+143
+00:05:27,280 --> 00:05:31,280
+because look we try from the first
+
+144
+00:05:29,120 --> 00:05:32,720
+number so let's say minus one plus zero
+
+145
+00:05:31,280 --> 00:05:34,960
+plus one
+
+146
+00:05:32,720 --> 00:05:37,360
+uh okay so this blue force is not right
+
+147
+00:05:34,960 --> 00:05:39,440
+okay because okay good point that's a
+
+148
+00:05:37,360 --> 00:05:41,360
+that's a very good test cases because
+
+149
+00:05:39,440 --> 00:05:43,440
+this this algorithm is not quite right
+
+150
+00:05:41,360 --> 00:05:46,240
+why is that because the input is you
+
+151
+00:05:43,440 --> 00:05:48,160
+know it will return empty but
+
+152
+00:05:46,240 --> 00:05:50,560
+so why is it because we try the first
+
+153
+00:05:48,160 --> 00:05:52,639
+number right so we try the first number
+
+154
+00:05:50,560 --> 00:05:54,479
+from zero but
+
+155
+00:05:52,639 --> 00:05:56,960
+but the first number is negative one
+
+156
+00:05:54,479 --> 00:05:59,680
+right got it yeah
+
+157
+00:05:56,960 --> 00:06:01,759
+so we can we need to try try let's say
+
+158
+00:05:59,680 --> 00:06:04,319
+we need to try
+
+159
+00:06:01,759 --> 00:06:06,720
+i don't know if because we need to try
+
+160
+00:06:04,319 --> 00:06:07,759
+from
+
+161
+00:06:06,720 --> 00:06:10,800
+minus one
+
+162
+00:06:07,759 --> 00:06:12,400
+the first quick fix is to do this try
+
+163
+00:06:10,800 --> 00:06:14,080
+the first one and they will be okay
+
+164
+00:06:12,400 --> 00:06:16,400
+right yeah because the first number
+
+165
+00:06:14,080 --> 00:06:20,280
+could be minus one right yeah
+
+166
+00:06:16,400 --> 00:06:20,280
+accents okay
+
+167
+00:06:20,400 --> 00:06:25,039
+okay that's it for today
+
+168
+00:06:22,639 --> 00:06:28,240
+bye bye
+
+169
+00:06:25,039 --> 00:06:28,240
+bye bye
+
