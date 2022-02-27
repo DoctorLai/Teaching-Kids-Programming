@@ -546,6 +546,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## LOGO (Turtle Graphics) 海龟作图
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| How to Draw a Star using Turtle Graphics? (Math, Shapes, Geometry) | 用LOGO语言画五角星(数学几何, 海龟作图) | [Youtube](https://youtu.be/tBr2l2e4_Pc) - [B站](https://www.bilibili.com/video/BV1wm4y1R7zg/) - [西瓜](https://www.ixigua.com/7069143301185602085) | [How to Draw a Star using Turtle Graphics? (Math, Shapes, Geometry)](https://helloacm.com/teaching-kids-programming-how-to-draw-a-star-using-turtle-graphics-math-shapes-geometry/) | 2022-02-26 |
 | Turtle Graphics/Canvas Programming in Python | 海龟作图 Turtle in Python | [Youtube](https://youtu.be/hYmz8HYEkxo) - [B站](https://www.bilibili.com/video/BV1V34y1C7Ag/) - [西瓜](https://www.ixigua.com/7064295205012242957) | [Turtle Graphics/Canvas Programming in Python](https://helloacm.com/teaching-kids-programming-turtle-graphics-canvas-programming-in-python/) | 2022-02-13 |
 
 ## Microbit Game Programming 游戏编程
