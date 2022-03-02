@@ -1,0 +1,992 @@
+1
+00:00:00,960 --> 00:00:05,600
+hello guys hello hello hello
+
+2
+00:00:04,080 --> 00:00:06,720
+okay so today we're going to talk about
+
+3
+00:00:05,600 --> 00:00:08,880
+prefixes
+
+4
+00:00:06,720 --> 00:00:11,440
+suffix yes prefix
+
+5
+00:00:08,880 --> 00:00:11,440
+suffix
+
+6
+00:00:12,400 --> 00:00:17,080
+and suffix so in impressive
+
+7
+00:00:20,560 --> 00:00:24,800
+and we have another one ends with
+
+8
+00:00:23,119 --> 00:00:25,599
+ends with
+
+9
+00:00:24,800 --> 00:00:27,760
+yeah
+
+10
+00:00:25,599 --> 00:00:30,880
+so for example
+
+11
+00:00:27,760 --> 00:00:30,880
+a b c d
+
+12
+00:00:34,000 --> 00:00:39,120
+abc that will return true right yeah
+
+13
+00:00:37,280 --> 00:00:42,239
+and this
+
+14
+00:00:39,120 --> 00:00:45,680
+these two functions are both case
+
+15
+00:00:42,239 --> 00:00:48,239
+sensitive means that if you change a to
+
+16
+00:00:45,680 --> 00:00:49,120
+capital a then you return four yeah end
+
+17
+00:00:48,239 --> 00:00:51,840
+with
+
+18
+00:00:49,120 --> 00:00:54,320
+android is the same as a b c d dot end
+
+19
+00:00:51,840 --> 00:00:55,120
+with c d e learning tell me it's true
+
+20
+00:00:54,320 --> 00:00:56,160
+right
+
+21
+00:00:55,120 --> 00:00:57,440
+okay
+
+22
+00:00:56,160 --> 00:01:00,719
+so
+
+23
+00:00:57,440 --> 00:01:03,280
+so um these stars we said end with how
+
+24
+00:01:00,719 --> 00:01:06,080
+are we implementing it for example how
+
+25
+00:01:03,280 --> 00:01:08,080
+are we implementing it
+
+26
+00:01:06,080 --> 00:01:11,360
+how do we compare the two strings with
+
+27
+00:01:08,080 --> 00:01:13,439
+the star uh the star was function like a
+
+28
+00:01:11,360 --> 00:01:17,360
+b c d e f
+
+29
+00:01:13,439 --> 00:01:20,479
+and how about a b c d e f g
+
+30
+00:01:17,360 --> 00:01:22,960
+h okay so this function this string
+
+31
+00:01:20,479 --> 00:01:24,320
+let's say this is the prefix string
+
+32
+00:01:22,960 --> 00:01:27,360
+which is s
+
+33
+00:01:24,320 --> 00:01:31,280
+b equals that s equals that so how do we
+
+34
+00:01:27,360 --> 00:01:32,720
+check if p is a prefix of s
+
+35
+00:01:31,280 --> 00:01:35,720
+how do we check
+
+36
+00:01:32,720 --> 00:01:35,720
+uh
+
+37
+00:01:47,759 --> 00:01:52,079
+until we reach the prefix the end of
+
+38
+00:01:49,920 --> 00:01:54,880
+prefix then in return true right if we
+
+39
+00:01:52,079 --> 00:01:58,320
+have a mismatch let's say if a b x here
+
+40
+00:01:54,880 --> 00:01:59,520
+so what happened here a b a a match bb
+
+41
+00:01:58,320 --> 00:02:01,920
+match
+
+42
+00:01:59,520 --> 00:02:03,680
+x x in no match
+
+43
+00:02:01,920 --> 00:02:06,000
+that will return false right
+
+44
+00:02:03,680 --> 00:02:08,000
+and how about look this letter p if p
+
+45
+00:02:06,000 --> 00:02:11,520
+the length is bigger than s what
+
+46
+00:02:08,000 --> 00:02:11,520
+happened do we need to compare
+
+47
+00:02:12,879 --> 00:02:17,680
+no because it's
+
+48
+00:02:14,319 --> 00:02:20,160
+it's impossible for a prefix to be
+
+49
+00:02:17,680 --> 00:02:22,319
+for p to be a prefix of s if p the
+
+50
+00:02:20,160 --> 00:02:24,160
+length of p is bigger than s m right
+
+51
+00:02:22,319 --> 00:02:26,239
+right makes sense
+
+52
+00:02:24,160 --> 00:02:28,879
+yeah that's very obvious yeah because
+
+53
+00:02:26,239 --> 00:02:29,760
+look if i say
+
+54
+00:02:28,879 --> 00:02:32,879
+okay
+
+55
+00:02:29,760 --> 00:02:35,120
+if i say p is this s is this is p of
+
+56
+00:02:32,879 --> 00:02:37,440
+previous of s
+
+57
+00:02:35,120 --> 00:02:38,239
+um
+
+58
+00:02:37,440 --> 00:02:39,360
+no
+
+59
+00:02:38,239 --> 00:02:41,360
+why is that
+
+60
+00:02:39,360 --> 00:02:42,720
+because it's bigger it's bigger yeah
+
+61
+00:02:41,360 --> 00:02:45,120
+obviously yeah so we don't need to
+
+62
+00:02:42,720 --> 00:02:47,599
+continue to compare right so for the
+
+63
+00:02:45,120 --> 00:02:49,599
+surface it's the same yeah so for the
+
+64
+00:02:47,599 --> 00:02:54,160
+suffix is the same let's say
+
+65
+00:02:49,599 --> 00:02:55,680
+i wanna switch p was p uh abc and
+
+66
+00:02:54,160 --> 00:02:58,879
+this is
+
+67
+00:02:55,680 --> 00:03:01,440
+abc okay so let's look s is this
+
+68
+00:02:58,879 --> 00:03:03,280
+suffix so what happens i start from the
+
+69
+00:03:01,440 --> 00:03:05,040
+end right
+
+70
+00:03:03,280 --> 00:03:06,319
+it's the same
+
+71
+00:03:05,040 --> 00:03:08,640
+it's the same
+
+72
+00:03:06,319 --> 00:03:11,680
+it's the same okay and i reached the
+
+73
+00:03:08,640 --> 00:03:14,560
+beginning of the p so then it's a suffix
+
+74
+00:03:11,680 --> 00:03:17,519
+right if in a meter something is not
+
+75
+00:03:14,560 --> 00:03:18,879
+matching then i can say it's not a
+
+76
+00:03:17,519 --> 00:03:19,920
+suffix right
+
+77
+00:03:18,879 --> 00:03:22,239
+yeah
+
+78
+00:03:19,920 --> 00:03:24,239
+yeah this is kind of using the two
+
+79
+00:03:22,239 --> 00:03:25,360
+pointer thing two pointers to compare
+
+80
+00:03:24,239 --> 00:03:26,239
+right
+
+81
+00:03:25,360 --> 00:03:29,599
+but
+
+82
+00:03:26,239 --> 00:03:31,440
+the time complexity is of n
+
+83
+00:03:29,599 --> 00:03:35,120
+is the number of that characters in p
+
+84
+00:03:31,440 --> 00:03:36,879
+okay we just do this daddy oh daddy yeah
+
+85
+00:03:35,120 --> 00:03:37,920
+oh daddy okay
+
+86
+00:03:36,879 --> 00:03:40,400
+uh
+
+87
+00:03:37,920 --> 00:03:42,319
+okay so that's one thing let's implement
+
+88
+00:03:40,400 --> 00:03:45,879
+this
+
+89
+00:03:42,319 --> 00:03:45,879
+i log in
+
+90
+00:03:46,480 --> 00:03:51,360
+okay so look this one
+
+91
+00:03:48,799 --> 00:03:53,599
+in person we also have this we also have
+
+92
+00:03:51,360 --> 00:03:55,840
+this fine to find okay
+
+93
+00:03:53,599 --> 00:03:59,840
+which is called ryan is the best guy in
+
+94
+00:03:55,840 --> 00:04:01,840
+the world abc top five
+
+95
+00:03:59,840 --> 00:04:03,519
+abc to find b
+
+96
+00:04:01,840 --> 00:04:06,000
+that would give me
+
+97
+00:04:03,519 --> 00:04:09,840
+give me the index the first occurrence
+
+98
+00:04:06,000 --> 00:04:12,640
+of the of the substring okay so
+
+99
+00:04:09,840 --> 00:04:15,519
+how does this help in finding the if
+
+100
+00:04:12,640 --> 00:04:18,959
+with the prefix if it's a prefix so we
+
+101
+00:04:15,519 --> 00:04:21,680
+are finding look string.5
+
+102
+00:04:18,959 --> 00:04:23,520
+string define the substring okay first
+
+103
+00:04:21,680 --> 00:04:24,320
+substring p
+
+104
+00:04:23,520 --> 00:04:25,840
+yeah
+
+105
+00:04:24,320 --> 00:04:29,440
+what does this do
+
+106
+00:04:25,840 --> 00:04:30,960
+we are trying to find the first
+
+107
+00:04:29,440 --> 00:04:34,240
+occurrence
+
+108
+00:04:30,960 --> 00:04:36,639
+of the p substring in the f so if this
+
+109
+00:04:34,240 --> 00:04:39,280
+function returns zero it means that the
+
+110
+00:04:36,639 --> 00:04:40,880
+p is the principle right because we
+
+111
+00:04:39,280 --> 00:04:42,479
+already found we already currently at
+
+112
+00:04:40,880 --> 00:04:44,320
+the beginning of the
+
+113
+00:04:42,479 --> 00:04:47,360
+s string yeah
+
+114
+00:04:44,320 --> 00:04:49,680
+but if this function if this p returns
+
+115
+00:04:47,360 --> 00:04:50,960
+other value like -1 it means the p is
+
+116
+00:04:49,680 --> 00:04:52,560
+not in
+
+117
+00:04:50,960 --> 00:04:54,320
+the s
+
+118
+00:04:52,560 --> 00:04:59,919
+right
+
+119
+00:04:54,320 --> 00:05:01,199
+or look a b c dot 5
+
+120
+00:04:59,919 --> 00:05:03,280
+5 a
+
+121
+00:05:01,199 --> 00:05:05,120
+you tell me it's yellow
+
+122
+00:05:03,280 --> 00:05:09,360
+abc the 5
+
+123
+00:05:05,120 --> 00:05:12,479
+b you will tell me is 1 abc 05
+
+124
+00:05:09,360 --> 00:05:15,520
+x you tell me is minus 1 because x is
+
+125
+00:05:12,479 --> 00:05:18,400
+not in a abc all right so we we can use
+
+126
+00:05:15,520 --> 00:05:20,720
+this function s dot prime t if e column
+
+127
+00:05:18,400 --> 00:05:21,759
+z alone then it's a prefix
+
+128
+00:05:20,720 --> 00:05:22,560
+easy
+
+129
+00:05:21,759 --> 00:05:25,199
+yeah
+
+130
+00:05:22,560 --> 00:05:27,440
+that's one way okay uh
+
+131
+00:05:25,199 --> 00:05:29,440
+so let's quickly implement that thing
+
+132
+00:05:27,440 --> 00:05:31,600
+the thing is define
+
+133
+00:05:29,440 --> 00:05:33,440
+[Music]
+
+134
+00:05:31,600 --> 00:05:35,039
+is prefix p
+
+135
+00:05:33,440 --> 00:05:37,840
+s okay
+
+136
+00:05:35,039 --> 00:05:40,800
+we just use the previous thing
+
+137
+00:05:37,840 --> 00:05:44,000
+if the length of prefix is bigger than
+
+138
+00:05:40,800 --> 00:05:46,639
+length of s we obviously become
+
+139
+00:05:44,000 --> 00:05:49,600
+obvious p is not a prefix of s so we
+
+140
+00:05:46,639 --> 00:05:49,600
+return force right
+
+141
+00:05:50,160 --> 00:05:56,560
+and then we can i equal zero y
+
+142
+00:05:53,759 --> 00:05:58,240
+i smaller than length p
+
+143
+00:05:56,560 --> 00:05:59,520
+right if
+
+144
+00:05:58,240 --> 00:06:01,039
+p i
+
+145
+00:05:59,520 --> 00:06:02,800
+not equal
+
+146
+00:06:01,039 --> 00:06:06,199
+s i what happened
+
+147
+00:06:02,800 --> 00:06:06,199
+return y
+
+148
+00:06:06,319 --> 00:06:11,520
+if we if we move him
+
+149
+00:06:08,160 --> 00:06:13,199
+if we find the mismatch we return
+
+150
+00:06:11,520 --> 00:06:15,120
+and then we need to move to the next
+
+151
+00:06:13,199 --> 00:06:16,080
+character which is i plus equals one
+
+152
+00:06:15,120 --> 00:06:18,880
+okay
+
+153
+00:06:16,080 --> 00:06:21,919
+i passed one right
+
+154
+00:06:18,880 --> 00:06:23,280
+otherwise if i reaches the end what
+
+155
+00:06:21,919 --> 00:06:24,560
+should i do here
+
+156
+00:06:23,280 --> 00:06:27,680
+um
+
+157
+00:06:24,560 --> 00:06:29,199
+return what we can try return to yeah
+
+158
+00:06:27,680 --> 00:06:31,600
+we'll finish it yeah
+
+159
+00:06:29,199 --> 00:06:35,800
+this is perfect for the service
+
+160
+00:06:31,600 --> 00:06:35,800
+preferred service is easier
+
+161
+00:06:47,120 --> 00:06:53,120
+if service we can just do this if he
+
+162
+00:06:50,479 --> 00:06:56,319
+is fixed yeah perfect
+
+163
+00:06:53,120 --> 00:06:59,520
+ps if we still have the original prefix
+
+164
+00:06:56,319 --> 00:07:02,720
+thing so we can say return
+
+165
+00:06:59,520 --> 00:07:07,360
+return if prefix
+
+166
+00:07:02,720 --> 00:07:09,280
+is previously within less pns yeah p
+
+167
+00:07:07,360 --> 00:07:11,120
+column column minus one
+
+168
+00:07:09,280 --> 00:07:13,680
+s
+
+169
+00:07:11,120 --> 00:07:15,599
+yeah we reverse first p yeah look why
+
+170
+00:07:13,680 --> 00:07:19,520
+this is working look
+
+171
+00:07:15,599 --> 00:07:19,520
+a b is a a b c
+
+172
+00:07:20,800 --> 00:07:25,120
+so we also find out look at that the
+
+173
+00:07:22,319 --> 00:07:28,080
+suffix yeah let's say original string is
+
+174
+00:07:25,120 --> 00:07:29,360
+a b c d e and then we want to find out
+
+175
+00:07:28,080 --> 00:07:31,759
+if c d
+
+176
+00:07:29,360 --> 00:07:33,680
+the suffix of that right all right we
+
+177
+00:07:31,759 --> 00:07:37,919
+want to find out if this p
+
+178
+00:07:33,680 --> 00:07:39,360
+is cd is a surface of abcd so we reverse
+
+179
+00:07:37,919 --> 00:07:42,319
+both strings
+
+180
+00:07:39,360 --> 00:07:44,479
+so p reverses those string p reverse
+
+181
+00:07:42,319 --> 00:07:45,680
+will be edc right
+
+182
+00:07:44,479 --> 00:07:49,440
+then
+
+183
+00:07:45,680 --> 00:07:50,160
+s reverse it or log b e d c b a right
+
+184
+00:07:49,440 --> 00:07:51,520
+look
+
+185
+00:07:50,160 --> 00:07:54,319
+edc
+
+186
+00:07:51,520 --> 00:07:57,680
+is the previous of edcpa so that means
+
+187
+00:07:54,319 --> 00:07:58,960
+original string cd is the suffix of abcd
+
+188
+00:07:57,680 --> 00:08:01,440
+all right
+
+189
+00:07:58,960 --> 00:08:03,120
+yeah make sense right and let's look at
+
+190
+00:08:01,440 --> 00:08:04,400
+it
+
+191
+00:08:03,120 --> 00:08:06,720
+yeah
+
+192
+00:08:04,400 --> 00:08:09,520
+so it works both ways so
+
+193
+00:08:06,720 --> 00:08:11,039
+let's say we we have the suffix we have
+
+194
+00:08:09,520 --> 00:08:13,440
+a surface function
+
+195
+00:08:11,039 --> 00:08:14,960
+and we want to know the prefix we can
+
+196
+00:08:13,440 --> 00:08:17,680
+reverse first string then call the
+
+197
+00:08:14,960 --> 00:08:18,639
+prefix right it works both way okay make
+
+198
+00:08:17,680 --> 00:08:21,039
+sense
+
+199
+00:08:18,639 --> 00:08:24,319
+it will both ways
+
+200
+00:08:21,039 --> 00:08:27,360
+so uh we are here
+
+201
+00:08:24,319 --> 00:08:30,240
+we are here we are here uh i i will be
+
+202
+00:08:27,360 --> 00:08:31,280
+equal to the length of the
+
+203
+00:08:30,240 --> 00:08:32,959
+uh
+
+204
+00:08:31,280 --> 00:08:35,120
+p minus one
+
+205
+00:08:32,959 --> 00:08:37,279
+and then i i will have another one k
+
+206
+00:08:35,120 --> 00:08:38,560
+equals the length the end of the string
+
+207
+00:08:37,279 --> 00:08:42,080
+minus one
+
+208
+00:08:38,560 --> 00:08:44,959
+and y i is bigger or equal than zero
+
+209
+00:08:42,080 --> 00:08:47,519
+then i can say that and that will be
+
+210
+00:08:44,959 --> 00:08:49,680
+uh if it's uh not matching that will
+
+211
+00:08:47,519 --> 00:08:53,360
+detain false otherwise i'm decrementing
+
+212
+00:08:49,680 --> 00:08:54,800
+it i minus equal one and then k minus
+
+213
+00:08:53,360 --> 00:08:56,480
+equal one okay
+
+214
+00:08:54,800 --> 00:08:58,560
+yeah
+
+215
+00:08:56,480 --> 00:09:00,320
+so this suffix just comparing the
+
+216
+00:08:58,560 --> 00:09:02,080
+letters from the both ends all right and
+
+217
+00:09:00,320 --> 00:09:03,040
+then if that's them the movie movie
+
+218
+00:09:02,080 --> 00:09:05,360
+movie
+
+219
+00:09:03,040 --> 00:09:07,200
+until the end of the suffix
+
+220
+00:09:05,360 --> 00:09:09,440
+make sense
+
+221
+00:09:07,200 --> 00:09:10,720
+and we obviously we need to check if the
+
+222
+00:09:09,440 --> 00:09:12,480
+suffix
+
+223
+00:09:10,720 --> 00:09:13,760
+is bigger than the
+
+224
+00:09:12,480 --> 00:09:16,000
+original string now we don't need to
+
+225
+00:09:13,760 --> 00:09:17,600
+continue right because there's no way
+
+226
+00:09:16,000 --> 00:09:19,600
+for a
+
+227
+00:09:17,600 --> 00:09:22,399
+longer string to be
+
+228
+00:09:19,600 --> 00:09:24,160
+to be suffix or prefix of another string
+
+229
+00:09:22,399 --> 00:09:25,680
+make sense
+
+230
+00:09:24,160 --> 00:09:27,519
+yeah a little bit
+
+231
+00:09:25,680 --> 00:09:29,440
+okay so now
+
+232
+00:09:27,519 --> 00:09:31,680
+this is i know we can
+
+233
+00:09:29,440 --> 00:09:34,160
+uh
+
+234
+00:09:31,680 --> 00:09:36,720
+the time complexity is still the length
+
+235
+00:09:34,160 --> 00:09:40,160
+of the prefix of suffix yeah if it's the
+
+236
+00:09:36,720 --> 00:09:41,040
+entirety that will be o and no voila
+
+237
+00:09:40,160 --> 00:09:43,519
+okay
+
+238
+00:09:41,040 --> 00:09:44,880
+space complexity we're not using using
+
+239
+00:09:43,519 --> 00:09:47,040
+additionally
+
+240
+00:09:44,880 --> 00:09:49,360
+uh linear space so let's space
+
+241
+00:09:47,040 --> 00:09:50,800
+complexity will be a one
+
+242
+00:09:49,360 --> 00:09:53,120
+yeah
+
+243
+00:09:50,800 --> 00:09:53,120
+um
+
+244
+00:09:53,839 --> 00:10:00,080
+that i think that that will be okay any
+
+245
+00:09:56,800 --> 00:10:00,080
+questions so fast for today
+
+246
+00:10:00,640 --> 00:10:05,120
+what have you learned
+
+247
+00:10:01,839 --> 00:10:07,519
+about the prefix and stop it
+
+248
+00:10:05,120 --> 00:10:07,519
+yeah
+

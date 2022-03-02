@@ -1,0 +1,1032 @@
+1
+00:00:05,440 --> 00:00:08,880
+okay okay can you be a little bit
+
+2
+00:00:07,440 --> 00:00:11,679
+quieter please
+
+3
+00:00:08,880 --> 00:00:14,000
+okay so today we're going to show you uh
+
+4
+00:00:11,679 --> 00:00:16,880
+how to draw a chess ball a chessboard is
+
+5
+00:00:14,000 --> 00:00:18,720
+8x8 yeah and then the black squares and
+
+6
+00:00:16,880 --> 00:00:21,039
+then the y squares they are interleaving
+
+7
+00:00:18,720 --> 00:00:24,000
+with each other okay so
+
+8
+00:00:21,039 --> 00:00:26,080
+so how can we draw a square do you still
+
+9
+00:00:24,000 --> 00:00:28,320
+recall how do we draw a square with the
+
+10
+00:00:26,080 --> 00:00:31,840
+size n for example how do we how do we
+
+11
+00:00:28,320 --> 00:00:31,840
+ask the turtle to draw
+
+12
+00:00:32,239 --> 00:00:36,079
+four and then yeah repeat four times
+
+13
+00:00:34,480 --> 00:00:38,719
+every time we go
+
+14
+00:00:36,079 --> 00:00:41,360
+90 degrees
+
+15
+00:00:38,719 --> 00:00:42,800
+okay first of all let's define the
+
+16
+00:00:41,360 --> 00:00:45,039
+define the
+
+17
+00:00:42,800 --> 00:00:47,680
+square function yeah squares with size n
+
+18
+00:00:45,039 --> 00:00:49,200
+so what do we do we repeat four times
+
+19
+00:00:47,680 --> 00:00:52,559
+will be the first time
+
+20
+00:00:49,200 --> 00:00:54,879
+so each time we for what for what is the
+
+21
+00:00:52,559 --> 00:00:56,480
+function from the third package for what
+
+22
+00:00:54,879 --> 00:00:57,760
+size n
+
+23
+00:00:56,480 --> 00:00:59,359
+and then
+
+24
+00:00:57,760 --> 00:01:01,520
+we and
+
+25
+00:00:59,359 --> 00:01:04,400
+right is turn right turn right 90 degree
+
+26
+00:01:01,520 --> 00:01:05,840
+okay so let's see square
+
+27
+00:01:04,400 --> 00:01:08,880
+100
+
+28
+00:01:05,840 --> 00:01:12,799
+yeah easy yeah easy easy funny
+
+29
+00:01:08,880 --> 00:01:16,080
+okay so how do we draw a fierce square
+
+30
+00:01:12,799 --> 00:01:17,759
+end field and begin fear and inferior
+
+31
+00:01:16,080 --> 00:01:19,200
+that's one way okay
+
+32
+00:01:17,759 --> 00:01:22,159
+easier
+
+33
+00:01:19,200 --> 00:01:24,479
+okay so for example i say square
+
+34
+00:01:22,159 --> 00:01:25,360
+sphere yeah square field
+
+35
+00:01:24,479 --> 00:01:28,159
+n
+
+36
+00:01:25,360 --> 00:01:29,840
+so first of all we begin here
+
+37
+00:01:28,159 --> 00:01:31,600
+and then we draw a square we call this
+
+38
+00:01:29,840 --> 00:01:33,439
+function and then we end up here yeah
+
+39
+00:01:31,600 --> 00:01:35,520
+end of here
+
+40
+00:01:33,439 --> 00:01:38,799
+okay first of all let's reset okay and
+
+41
+00:01:35,520 --> 00:01:41,799
+then to draw a square here
+
+42
+00:01:38,799 --> 00:01:41,799
+100
+
+43
+00:01:43,840 --> 00:01:47,680
+first of all you draw a square and then
+
+44
+00:01:45,759 --> 00:01:49,840
+you try it was trying to fill in it yeah
+
+45
+00:01:47,680 --> 00:01:52,320
+that's one way the other way would be to
+
+46
+00:01:49,840 --> 00:01:55,200
+draw to to draw to ask the turtle to
+
+47
+00:01:52,320 --> 00:01:57,759
+draw from size one draw a size one
+
+48
+00:01:55,200 --> 00:01:59,680
+square and then draw a size one size two
+
+49
+00:01:57,759 --> 00:02:01,280
+squares or size three square you'll be
+
+50
+00:01:59,680 --> 00:02:03,119
+much slower okay
+
+51
+00:02:01,280 --> 00:02:04,240
+for example let's let's redefine this
+
+52
+00:02:03,119 --> 00:02:05,600
+function
+
+53
+00:02:04,240 --> 00:02:08,399
+and
+
+54
+00:02:05,600 --> 00:02:11,039
+and then for the size yeah
+
+55
+00:02:08,399 --> 00:02:12,319
+current size i in red start from one up
+
+56
+00:02:11,039 --> 00:02:15,120
+to n right
+
+57
+00:02:12,319 --> 00:02:16,640
+and then each time i draw a square with
+
+58
+00:02:15,120 --> 00:02:20,000
+size i
+
+59
+00:02:16,640 --> 00:02:20,840
+i love it also okay okay let's reset
+
+60
+00:02:20,000 --> 00:02:24,080
+and
+
+61
+00:02:20,840 --> 00:02:27,120
+then square fear
+
+62
+00:02:24,080 --> 00:02:29,920
+let's just draw 15 yeah you see
+
+63
+00:02:27,120 --> 00:02:32,000
+is it you're trying to
+
+64
+00:02:29,920 --> 00:02:35,120
+first of all you create the size
+
+65
+00:02:32,000 --> 00:02:37,440
+yeah it's you try to draw a size
+
+66
+00:02:35,120 --> 00:02:40,480
+one square size two square size three
+
+67
+00:02:37,440 --> 00:02:42,560
+until you see the animation so the the
+
+68
+00:02:40,480 --> 00:02:45,680
+third is actually quite busy so it's
+
+69
+00:02:42,560 --> 00:02:47,200
+kind of slow okay it's kind of fun
+
+70
+00:02:45,680 --> 00:02:48,959
+okay so
+
+71
+00:02:47,200 --> 00:02:50,720
+how do we draw
+
+72
+00:02:48,959 --> 00:02:52,080
+how do we draw a
+
+73
+00:02:50,720 --> 00:02:53,920
+chess ball
+
+74
+00:02:52,080 --> 00:02:55,680
+i mean first of all it's
+
+75
+00:02:53,920 --> 00:02:58,159
+it's white uh
+
+76
+00:02:55,680 --> 00:03:00,239
+okay so it's black square and then
+
+77
+00:02:58,159 --> 00:03:01,680
+white square and then black square and
+
+78
+00:03:00,239 --> 00:03:04,480
+white square
+
+79
+00:03:01,680 --> 00:03:06,159
+black square like we just did and then
+
+80
+00:03:04,480 --> 00:03:07,360
+do a white
+
+81
+00:03:06,159 --> 00:03:09,280
+square
+
+82
+00:03:07,360 --> 00:03:11,440
+actually you don't have to feel it so
+
+83
+00:03:09,280 --> 00:03:13,599
+look the thing is that look here i'm
+
+84
+00:03:11,440 --> 00:03:14,480
+here yeah i draw a black square and i
+
+85
+00:03:13,599 --> 00:03:16,000
+need to
+
+86
+00:03:14,480 --> 00:03:18,560
+go
+
+87
+00:03:16,000 --> 00:03:20,720
+i feel it but now i need to move the
+
+88
+00:03:18,560 --> 00:03:24,239
+turtle
+
+89
+00:03:20,720 --> 00:03:26,319
+yeah so i go an unit and and it says and
+
+90
+00:03:24,239 --> 00:03:28,720
+i draw a white
+
+91
+00:03:26,319 --> 00:03:29,440
+and then i go go for and you don't have
+
+92
+00:03:28,720 --> 00:03:32,480
+to
+
+93
+00:03:29,440 --> 00:03:34,400
+yeah so i actually look this a pair a
+
+94
+00:03:32,480 --> 00:03:36,400
+pair of black and white so i need to
+
+95
+00:03:34,400 --> 00:03:39,200
+repeat these four times right so that
+
+96
+00:03:36,400 --> 00:03:41,519
+will be one side and then
+
+97
+00:03:39,200 --> 00:03:43,440
+when i reach the end i need to turn
+
+98
+00:03:41,519 --> 00:03:45,920
+turn the other side and the turtle needs
+
+99
+00:03:43,440 --> 00:03:48,560
+is now facing right i need to ask it to
+
+100
+00:03:45,920 --> 00:03:50,000
+face right left and then you can start
+
+101
+00:03:48,560 --> 00:03:52,080
+drawing
+
+102
+00:03:50,000 --> 00:03:54,239
+all right you can start drawing another
+
+103
+00:03:52,080 --> 00:03:55,760
+pair of the another four pairs of black
+
+104
+00:03:54,239 --> 00:03:57,439
+and white square
+
+105
+00:03:55,760 --> 00:03:58,799
+am right yeah
+
+106
+00:03:57,439 --> 00:04:01,280
+so look
+
+107
+00:03:58,799 --> 00:04:03,200
+look if i draw the black here white
+
+108
+00:04:01,280 --> 00:04:05,840
+black white black white black white the
+
+109
+00:04:03,200 --> 00:04:08,879
+rhinos the square will be white right
+
+110
+00:04:05,840 --> 00:04:10,480
+and then the other row the next row on
+
+111
+00:04:08,879 --> 00:04:12,720
+the right hand side will be
+
+112
+00:04:10,480 --> 00:04:14,560
+black right yeah because it's
+
+113
+00:04:12,720 --> 00:04:16,320
+interleaving so you don't want to have
+
+114
+00:04:14,560 --> 00:04:18,400
+two continuously
+
+115
+00:04:16,320 --> 00:04:21,280
+consecutive the black squares or y
+
+116
+00:04:18,400 --> 00:04:23,759
+squares right so uh
+
+117
+00:04:21,280 --> 00:04:26,400
+okay so first of all let's just we
+
+118
+00:04:23,759 --> 00:04:28,720
+implement this uh with the
+
+119
+00:04:26,400 --> 00:04:31,440
+uh it doesn't matter okay let's just
+
+120
+00:04:28,720 --> 00:04:33,840
+uh implement this a little bit okay
+
+121
+00:04:31,440 --> 00:04:38,000
+okay so this is the one so let's do this
+
+122
+00:04:33,840 --> 00:04:39,199
+okay so define chest chest and
+
+123
+00:04:38,000 --> 00:04:42,320
+this end
+
+124
+00:04:39,199 --> 00:04:44,560
+and it's the size of the chest yeah well
+
+125
+00:04:42,320 --> 00:04:46,479
+we want to repeat four times yeah
+
+126
+00:04:44,560 --> 00:04:48,639
+because four times two rows four times
+
+127
+00:04:46,479 --> 00:04:52,000
+two equals eight right
+
+128
+00:04:48,639 --> 00:04:54,320
+in range four and then for each each row
+
+129
+00:04:52,000 --> 00:04:56,960
+each row i will have first of all i will
+
+130
+00:04:54,320 --> 00:04:59,840
+repeat four pairs yeah
+
+131
+00:04:56,960 --> 00:05:01,759
+and then first of all i will draw a
+
+132
+00:04:59,840 --> 00:05:03,520
+square which is
+
+133
+00:05:01,759 --> 00:05:06,240
+n
+
+134
+00:05:03,520 --> 00:05:08,639
+and then i will go forward
+
+135
+00:05:06,240 --> 00:05:10,960
+yeah and then i can draw an appear which
+
+136
+00:05:08,639 --> 00:05:12,800
+is square field yeah n
+
+137
+00:05:10,960 --> 00:05:15,199
+yeah and then i need to go and grow
+
+138
+00:05:12,800 --> 00:05:17,280
+another n unit
+
+139
+00:05:15,199 --> 00:05:20,000
+now i'm at the end at the end and i need
+
+140
+00:05:17,280 --> 00:05:22,560
+to turn right turn right yeah
+
+141
+00:05:20,000 --> 00:05:24,720
+turn right and then i need to forward
+
+142
+00:05:22,560 --> 00:05:27,840
+the two two times of n why is that
+
+143
+00:05:24,720 --> 00:05:30,560
+because because it was only here right
+
+144
+00:05:27,840 --> 00:05:31,919
+here and he needs to go here
+
+145
+00:05:30,560 --> 00:05:34,000
+go here
+
+146
+00:05:31,919 --> 00:05:35,600
+and facing left
+
+147
+00:05:34,000 --> 00:05:38,080
+so turn left
+
+148
+00:05:35,600 --> 00:05:41,680
+then i need to turn right
+
+149
+00:05:38,080 --> 00:05:43,600
+turn right of the 90 degree
+
+150
+00:05:41,680 --> 00:05:45,919
+okay and then now i'm starting to
+
+151
+00:05:43,600 --> 00:05:47,680
+drawing from right to left
+
+152
+00:05:45,919 --> 00:05:50,000
+starting to draw from the right left so
+
+153
+00:05:47,680 --> 00:05:50,840
+another four pairs of the black and
+
+154
+00:05:50,000 --> 00:05:52,479
+white
+
+155
+00:05:50,840 --> 00:05:56,479
+okay
+
+156
+00:05:52,479 --> 00:05:59,120
+yeah a square first of all is a square
+
+157
+00:05:56,479 --> 00:06:01,600
+and then go another end
+
+158
+00:05:59,120 --> 00:06:03,919
+jumps to the next position to draw a
+
+159
+00:06:01,600 --> 00:06:06,639
+field square
+
+160
+00:06:03,919 --> 00:06:08,720
+square field
+
+161
+00:06:06,639 --> 00:06:11,600
+and then i go to another
+
+162
+00:06:08,720 --> 00:06:14,160
+end unit and then prepare for
+
+163
+00:06:11,600 --> 00:06:14,880
+at the end i need to
+
+164
+00:06:14,160 --> 00:06:17,120
+turn
+
+165
+00:06:14,880 --> 00:06:19,360
+turn right nine eight uh
+
+166
+00:06:17,120 --> 00:06:22,319
+turn the opposite i tend to the opposite
+
+167
+00:06:19,360 --> 00:06:24,080
+turn right dot 10 left 90 degree okay
+
+168
+00:06:22,319 --> 00:06:27,360
+180 degrees
+
+169
+00:06:24,080 --> 00:06:30,319
+okay let's do this 15.
+
+170
+00:06:27,360 --> 00:06:33,360
+first of all i need to reset it
+
+171
+00:06:30,319 --> 00:06:35,199
+let's make a color blue okay
+
+172
+00:06:33,360 --> 00:06:36,800
+actually it's black yeah oh you already
+
+173
+00:06:35,199 --> 00:06:39,600
+this black we don't need to change the
+
+174
+00:06:36,800 --> 00:06:40,800
+color speed minus one make it a bit
+
+175
+00:06:39,600 --> 00:06:42,319
+faster
+
+176
+00:06:40,800 --> 00:06:44,240
+chest
+
+177
+00:06:42,319 --> 00:06:46,479
+fifteen
+
+178
+00:06:44,240 --> 00:06:49,599
+okay so you see it's actually animating
+
+179
+00:06:46,479 --> 00:06:51,759
+look it it yeah it draws four pairs of
+
+180
+00:06:49,599 --> 00:06:53,360
+black and white squares and it goes to
+
+181
+00:06:51,759 --> 00:06:55,199
+the end and it turns around
+
+182
+00:06:53,360 --> 00:06:57,039
+contouring from the right to the left
+
+183
+00:06:55,199 --> 00:06:58,400
+yeah okay
+
+184
+00:06:57,039 --> 00:06:59,360
+drawing from the right to the left
+
+185
+00:06:58,400 --> 00:07:02,560
+actually
+
+186
+00:06:59,360 --> 00:07:04,560
+is this one square on a white squirrel
+
+187
+00:07:02,560 --> 00:07:07,120
+do you start on the black square uh it
+
+188
+00:07:04,560 --> 00:07:07,120
+doesn't matter
+
+189
+00:07:07,599 --> 00:07:13,840
+ah okay okay yeah yeah it's i i actually
+
+190
+00:07:10,639 --> 00:07:16,000
+don't know but actually we can just swap
+
+191
+00:07:13,840 --> 00:07:17,360
+these two yeah at least we can
+
+192
+00:07:16,000 --> 00:07:20,160
+every time we can
+
+193
+00:07:17,360 --> 00:07:21,759
+uh here we always start with the white
+
+194
+00:07:20,160 --> 00:07:23,840
+square you see
+
+195
+00:07:21,759 --> 00:07:24,960
+yeah so we start with the y square and
+
+196
+00:07:23,840 --> 00:07:27,840
+then here
+
+197
+00:07:24,960 --> 00:07:31,280
+uh this line is actually drawing is here
+
+198
+00:07:27,840 --> 00:07:33,120
+right yeah you see all right so if we
+
+199
+00:07:31,280 --> 00:07:35,120
+swap the square and a square here that
+
+200
+00:07:33,120 --> 00:07:37,520
+you'll be the opposite
+
+201
+00:07:35,120 --> 00:07:39,120
+okay you actually notice that it's quite
+
+202
+00:07:37,520 --> 00:07:41,520
+slow here because it's the feeding
+
+203
+00:07:39,120 --> 00:07:43,360
+procedure is a bit slowly we can we can
+
+204
+00:07:41,520 --> 00:07:47,360
+replace it with the
+
+205
+00:07:43,360 --> 00:07:48,240
+uh after this we can replace it with the
+
+206
+00:07:47,360 --> 00:07:50,560
+let
+
+207
+00:07:48,240 --> 00:07:52,560
+we with the begin field okay now it
+
+208
+00:07:50,560 --> 00:07:55,520
+should be all right reset
+
+209
+00:07:52,560 --> 00:07:56,879
+let's reset it okay speed minus one okay
+
+210
+00:07:55,520 --> 00:07:59,280
+and then let's
+
+211
+00:07:56,879 --> 00:08:01,199
+uh
+
+212
+00:07:59,280 --> 00:08:03,120
+let's revert to the previous version
+
+213
+00:08:01,199 --> 00:08:05,199
+which is this one yeah
+
+214
+00:08:03,120 --> 00:08:07,599
+begin here and then let's do the chest
+
+215
+00:08:05,199 --> 00:08:10,879
+again 15.
+
+216
+00:08:07,599 --> 00:08:13,599
+is it it's much much faster right
+
+217
+00:08:10,879 --> 00:08:16,639
+yeah make sense
+
+218
+00:08:13,599 --> 00:08:18,560
+do even faster no i can't but this is
+
+219
+00:08:16,639 --> 00:08:20,879
+the thing yeah i can
+
+220
+00:08:18,560 --> 00:08:22,240
+i can i can i can do
+
+221
+00:08:20,879 --> 00:08:24,639
+i can
+
+222
+00:08:22,240 --> 00:08:27,599
+make a like uh
+
+223
+00:08:24,639 --> 00:08:28,720
+30 make it twice big
+
+224
+00:08:27,599 --> 00:08:30,960
+but it's
+
+225
+00:08:28,720 --> 00:08:32,560
+but it's actually oh i i didn't change
+
+226
+00:08:30,960 --> 00:08:34,880
+the speed okay i probably should change
+
+227
+00:08:32,560 --> 00:08:36,399
+the speed let's
+
+228
+00:08:34,880 --> 00:08:40,479
+let's reset
+
+229
+00:08:36,399 --> 00:08:43,360
+speed minus one even bigger okay
+
+230
+00:08:40,479 --> 00:08:46,560
+uh 50 maybe you will be going
+
+231
+00:08:43,360 --> 00:08:46,560
+over the boundary
+
+232
+00:08:47,120 --> 00:08:52,040
+oh no okay
+
+233
+00:08:49,040 --> 00:08:52,040
+yeah
+
+234
+00:08:56,720 --> 00:08:58,959
+uh
+
+235
+00:08:59,040 --> 00:09:03,120
+it's open screen it's off the screen
+
+236
+00:09:01,440 --> 00:09:05,040
+which one is off screen yeah yeah yeah
+
+237
+00:09:03,120 --> 00:09:06,880
+but and this command window is also off
+
+238
+00:09:05,040 --> 00:09:10,720
+the screen let's just pull it a little
+
+239
+00:09:06,880 --> 00:09:11,519
+bit so you see the command here okay
+
+240
+00:09:10,720 --> 00:09:15,279
+yeah
+
+241
+00:09:11,519 --> 00:09:17,440
+so okay to sum up how do we draw a list
+
+242
+00:09:15,279 --> 00:09:20,640
+we first start with the y square and
+
+243
+00:09:17,440 --> 00:09:22,560
+then draw four pairs
+
+244
+00:09:20,640 --> 00:09:24,000
+and then we're here we need to turn
+
+245
+00:09:22,560 --> 00:09:26,160
+right turn
+
+246
+00:09:24,000 --> 00:09:29,200
+turn the opposite way and then start to
+
+247
+00:09:26,160 --> 00:09:31,680
+draw the white square black square again
+
+248
+00:09:29,200 --> 00:09:34,240
+here and then when we're here
+
+249
+00:09:31,680 --> 00:09:36,959
+one on the second row
+
+250
+00:09:34,240 --> 00:09:38,800
+then we need to do what we need to
+
+251
+00:09:36,959 --> 00:09:40,959
+turn the opposite yeah so basically
+
+252
+00:09:38,800 --> 00:09:43,600
+basically the the the turtle will be
+
+253
+00:09:40,959 --> 00:09:45,440
+going this way this way here this way
+
+254
+00:09:43,600 --> 00:09:48,480
+yeah you see the circle going that's how
+
+255
+00:09:45,440 --> 00:09:50,480
+it draws okay make sense yeah
+
+256
+00:09:48,480 --> 00:09:53,120
+okay okay that will be it for today bye
+
+257
+00:09:50,480 --> 00:09:55,920
+bye bye bye bye
+
+258
+00:09:53,120 --> 00:09:55,920
+bye
+
