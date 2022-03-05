@@ -1,0 +1,1744 @@
+1
+00:00:00,770 --> 00:00:03,830
+[Music]
+
+2
+00:00:04,160 --> 00:00:09,599
+okay so given two string this is s this
+
+3
+00:00:06,799 --> 00:00:12,639
+is t we want to find out if s is a
+
+4
+00:00:09,599 --> 00:00:14,639
+subsequence of these objects
+
+5
+00:00:12,639 --> 00:00:16,720
+yeah it is true what's subsequent yeah
+
+6
+00:00:14,639 --> 00:00:18,240
+we talk about this all the time
+
+7
+00:00:16,720 --> 00:00:19,920
+yeah
+
+8
+00:00:18,240 --> 00:00:21,680
+e-r-i-c
+
+9
+00:00:19,920 --> 00:00:24,240
+yeah we're done okay so what's the
+
+10
+00:00:21,680 --> 00:00:27,840
+subsequent subsequence is that
+
+11
+00:00:24,240 --> 00:00:30,480
+this is the string and if we move
+
+12
+00:00:27,840 --> 00:00:32,719
+none or more
+
+13
+00:00:30,480 --> 00:00:34,160
+you know we remove some numbers of
+
+14
+00:00:32,719 --> 00:00:36,160
+characters and then you will become
+
+15
+00:00:34,160 --> 00:00:38,160
+these they'll be subsequent yeah not
+
+16
+00:00:36,160 --> 00:00:40,000
+continuous but if it's continuous we
+
+17
+00:00:38,160 --> 00:00:42,320
+call it substring yeah
+
+18
+00:00:40,000 --> 00:00:45,280
+we talk about this yes
+
+19
+00:00:42,320 --> 00:00:46,480
+some string sub array yes sub least
+
+20
+00:00:45,280 --> 00:00:49,120
+substring
+
+21
+00:00:46,480 --> 00:00:51,039
+these are continuous so we have uh if
+
+22
+00:00:49,120 --> 00:00:52,879
+you want to proof of it we can usually
+
+23
+00:00:51,039 --> 00:00:54,960
+do it with our n
+
+24
+00:00:52,879 --> 00:00:59,199
+square right or n square because what
+
+25
+00:00:54,960 --> 00:01:00,239
+all we can do we first of all we can
+
+26
+00:00:59,199 --> 00:01:03,199
+so
+
+27
+00:01:00,239 --> 00:01:05,760
+so how do we get this o n square
+
+28
+00:01:03,199 --> 00:01:08,640
+do you still remember oh it's good we
+
+29
+00:01:05,760 --> 00:01:11,200
+can first of all if a sub inverse sub
+
+30
+00:01:08,640 --> 00:01:12,799
+list substring is one characters if
+
+31
+00:01:11,200 --> 00:01:16,000
+there are n characters in the original
+
+32
+00:01:12,799 --> 00:01:18,479
+string so let's let's speaking one index
+
+33
+00:01:16,000 --> 00:01:20,240
+out of n right okay
+
+34
+00:01:18,479 --> 00:01:22,159
+and how about if there are more than one
+
+35
+00:01:20,240 --> 00:01:24,799
+character that would be
+
+36
+00:01:22,159 --> 00:01:29,439
+what picking two numbers out
+
+37
+00:01:24,799 --> 00:01:31,759
+of side okay so cn1 is n plus cn2 is n
+
+38
+00:01:29,439 --> 00:01:34,960
+times n minus 1
+
+39
+00:01:31,759 --> 00:01:37,280
+divided by 2 right so this is in a scale
+
+40
+00:01:34,960 --> 00:01:40,159
+of o n square right okay
+
+41
+00:01:37,280 --> 00:01:41,920
+okay so substring now we talked about
+
+42
+00:01:40,159 --> 00:01:44,320
+these such things
+
+43
+00:01:41,920 --> 00:01:47,200
+a long time ago we can use the two
+
+44
+00:01:44,320 --> 00:01:49,600
+pointer yes you still remember
+
+45
+00:01:47,200 --> 00:01:51,840
+how do we check it how do we check look
+
+46
+00:01:49,600 --> 00:01:53,119
+how do we check these
+
+47
+00:01:51,840 --> 00:01:55,840
+this is a
+
+48
+00:01:53,119 --> 00:01:57,439
+sub uh subsequence of these look we have
+
+49
+00:01:55,840 --> 00:01:58,240
+two pointers
+
+50
+00:01:57,439 --> 00:01:59,520
+yeah
+
+51
+00:01:58,240 --> 00:02:02,399
+look at me
+
+52
+00:01:59,520 --> 00:02:04,799
+two pointer i and j okay e is not equal
+
+53
+00:02:02,399 --> 00:02:07,040
+to a so we move here okay e is equal to
+
+54
+00:02:04,799 --> 00:02:10,479
+e so we move both
+
+55
+00:02:07,040 --> 00:02:12,720
+okay i see because i is not equal right
+
+56
+00:02:10,479 --> 00:02:14,319
+so i'm i move here
+
+57
+00:02:12,720 --> 00:02:16,640
+move the t
+
+58
+00:02:14,319 --> 00:02:18,560
+yeah and then i is equal to r i move
+
+59
+00:02:16,640 --> 00:02:21,440
+both so
+
+60
+00:02:18,560 --> 00:02:24,720
+to to put it simple if two characters
+
+61
+00:02:21,440 --> 00:02:27,680
+pointing to the same position uh tom put
+
+62
+00:02:24,720 --> 00:02:28,879
+the characters at us at both
+
+63
+00:02:27,680 --> 00:02:31,280
+pointers
+
+64
+00:02:28,879 --> 00:02:33,519
+and both both the string are equal then
+
+65
+00:02:31,280 --> 00:02:36,640
+we move both pointers otherwise we move
+
+66
+00:02:33,519 --> 00:02:38,400
+the t yeah got it
+
+67
+00:02:36,640 --> 00:02:39,280
+why this is working
+
+68
+00:02:38,400 --> 00:02:40,000
+why
+
+69
+00:02:39,280 --> 00:02:42,879
+but
+
+70
+00:02:40,000 --> 00:02:45,680
+and at the end we what if this this
+
+71
+00:02:42,879 --> 00:02:48,879
+pointer position reaches the end and we
+
+72
+00:02:45,680 --> 00:02:50,800
+have a match all right so to sum up we
+
+73
+00:02:48,879 --> 00:02:52,480
+want to move
+
+74
+00:02:50,800 --> 00:02:54,879
+we want to move
+
+75
+00:02:52,480 --> 00:02:58,800
+when we have a match like e
+
+76
+00:02:54,879 --> 00:03:01,760
+if e equals to e okay so here i'm here
+
+77
+00:02:58,800 --> 00:03:03,680
+yeah e is equal to e then i move both
+
+78
+00:03:01,760 --> 00:03:05,040
+right i move both
+
+79
+00:03:03,680 --> 00:03:07,280
+okay
+
+80
+00:03:05,040 --> 00:03:08,400
+but now i is not equal to i so what do i
+
+81
+00:03:07,280 --> 00:03:11,519
+do
+
+82
+00:03:08,400 --> 00:03:13,040
+skip skip which one i alright yeah
+
+83
+00:03:11,519 --> 00:03:15,519
+because i can't skip this one yeah
+
+84
+00:03:13,040 --> 00:03:18,640
+because i need to i need to find a match
+
+85
+00:03:15,519 --> 00:03:20,720
+right so if i find a match if i don't
+
+86
+00:03:18,640 --> 00:03:22,480
+find a match i can't skip right that
+
+87
+00:03:20,720 --> 00:03:25,519
+makes sense yeah
+
+88
+00:03:22,480 --> 00:03:27,440
+but if i find a match i can skip off
+
+89
+00:03:25,519 --> 00:03:29,760
+i can move people right so as long as
+
+90
+00:03:27,440 --> 00:03:30,799
+this reaches then a little bit there
+
+91
+00:03:29,760 --> 00:03:32,239
+yeah
+
+92
+00:03:30,799 --> 00:03:34,239
+that's what we have talked about let's
+
+93
+00:03:32,239 --> 00:03:35,680
+quickly implement this okay so it should
+
+94
+00:03:34,239 --> 00:03:37,120
+be quick
+
+95
+00:03:35,680 --> 00:03:39,040
+define
+
+96
+00:03:37,120 --> 00:03:40,640
+is
+
+97
+00:03:39,040 --> 00:03:43,680
+subsequent
+
+98
+00:03:40,640 --> 00:03:46,720
+s q okay so if the length of s is bigger
+
+99
+00:03:43,680 --> 00:03:47,920
+than q then we return one come on one
+
+100
+00:03:46,720 --> 00:03:49,680
+question
+
+101
+00:03:47,920 --> 00:03:52,159
+first obviously yeah because if the
+
+102
+00:03:49,680 --> 00:03:53,599
+original string s is longer now you
+
+103
+00:03:52,159 --> 00:03:55,760
+can't find a subsequent in the next
+
+104
+00:03:53,599 --> 00:04:00,239
+string right that's very obvious yeah
+
+105
+00:03:55,760 --> 00:04:02,080
+if length s is bigger than length p q uh
+
+106
+00:04:00,239 --> 00:04:04,879
+actually is t
+
+107
+00:04:02,080 --> 00:04:07,120
+t we just return four right
+
+108
+00:04:04,879 --> 00:04:07,120
+okay
+
+109
+00:04:07,439 --> 00:04:11,920
+length y i equals zero j equals zero
+
+110
+00:04:11,040 --> 00:04:12,840
+okay
+
+111
+00:04:11,920 --> 00:04:16,400
+and then
+
+112
+00:04:12,840 --> 00:04:17,840
+y i is smaller than the length s
+
+113
+00:04:16,400 --> 00:04:20,720
+and
+
+114
+00:04:17,840 --> 00:04:21,519
+j is smaller than length t right
+
+115
+00:04:20,720 --> 00:04:23,360
+look
+
+116
+00:04:21,519 --> 00:04:26,639
+if s i
+
+117
+00:04:23,360 --> 00:04:27,440
+equal equal t j then what what do we do
+
+118
+00:04:26,639 --> 00:04:30,639
+look
+
+119
+00:04:27,440 --> 00:04:33,199
+all right this is i this is j
+
+120
+00:04:30,639 --> 00:04:35,280
+so what do we do if we have a match we
+
+121
+00:04:33,199 --> 00:04:38,000
+move both points right
+
+122
+00:04:35,280 --> 00:04:40,560
+so i plus equals 1 and then j plus equal
+
+123
+00:04:38,000 --> 00:04:42,400
+one otherwise what otherwise which point
+
+124
+00:04:40,560 --> 00:04:43,919
+we need to move
+
+125
+00:04:42,400 --> 00:04:45,680
+all right so which one do we need to
+
+126
+00:04:43,919 --> 00:04:48,479
+move come on
+
+127
+00:04:45,680 --> 00:04:51,759
+this is as this is t if we this is the
+
+128
+00:04:48,479 --> 00:04:53,520
+eic this is something else so if we
+
+129
+00:04:51,759 --> 00:04:54,960
+don't have a match which pointer we need
+
+130
+00:04:53,520 --> 00:04:56,400
+to
+
+131
+00:04:54,960 --> 00:04:57,120
+then we move
+
+132
+00:04:56,400 --> 00:04:59,440
+uh
+
+133
+00:04:57,120 --> 00:05:01,840
+j j plus equals one
+
+134
+00:04:59,440 --> 00:05:04,960
+okay and then
+
+135
+00:05:01,840 --> 00:05:06,960
+in what cases we need to return true
+
+136
+00:05:04,960 --> 00:05:08,479
+in what cases we need to return to after
+
+137
+00:05:06,960 --> 00:05:10,720
+this if
+
+138
+00:05:08,479 --> 00:05:10,720
+i
+
+139
+00:05:14,560 --> 00:05:18,800
+obviously yeah so the time complexity is
+
+140
+00:05:17,440 --> 00:05:21,280
+oh
+
+141
+00:05:18,800 --> 00:05:23,520
+the longer one yeah so which is what the
+
+142
+00:05:21,280 --> 00:05:25,840
+longer one no ln
+
+143
+00:05:23,520 --> 00:05:27,199
+n plus n right and it's the number of
+
+144
+00:05:25,840 --> 00:05:29,039
+string in the s
+
+145
+00:05:27,199 --> 00:05:31,600
+the number of characters in the s m is
+
+146
+00:05:29,039 --> 00:05:32,560
+the number of string in the t
+
+147
+00:05:31,600 --> 00:05:34,400
+but
+
+148
+00:05:32,560 --> 00:05:37,600
+but we know
+
+149
+00:05:34,400 --> 00:05:40,560
+we know what x is smaller than t right
+
+150
+00:05:37,600 --> 00:05:41,680
+so we can obviously say it's oven right
+
+151
+00:05:40,560 --> 00:05:42,639
+right
+
+152
+00:05:41,680 --> 00:05:45,600
+yeah
+
+153
+00:05:42,639 --> 00:05:47,680
+the time complexity will be lm okay
+
+154
+00:05:45,600 --> 00:05:50,960
+uh is it no
+
+155
+00:05:47,680 --> 00:05:52,560
+is it om no no no no no
+
+156
+00:05:50,960 --> 00:05:54,639
+the term complexity will be the shorter
+
+157
+00:05:52,560 --> 00:05:56,400
+one which is our our n
+
+158
+00:05:54,639 --> 00:05:58,479
+n is the number of string in the s
+
+159
+00:05:56,400 --> 00:06:00,400
+because look there's no
+
+160
+00:05:58,479 --> 00:06:02,960
+is it no more
+
+161
+00:06:00,400 --> 00:06:04,479
+okay so okay so
+
+162
+00:06:02,960 --> 00:06:06,319
+so let's uh
+
+163
+00:06:04,479 --> 00:06:08,319
+so what's the time complexity what's the
+
+164
+00:06:06,319 --> 00:06:09,840
+tango velocity come on in what cases
+
+165
+00:06:08,319 --> 00:06:12,000
+look if i
+
+166
+00:06:09,840 --> 00:06:13,840
+in both cases j will plus equals one
+
+167
+00:06:12,000 --> 00:06:14,960
+right in the worst case in j would be
+
+168
+00:06:13,840 --> 00:06:16,880
+plus one
+
+169
+00:06:14,960 --> 00:06:19,600
+in both cases so t
+
+170
+00:06:16,880 --> 00:06:21,520
+t is the number of string in uh yeah the
+
+171
+00:06:19,600 --> 00:06:24,000
+longer one yes the longer one yeah
+
+172
+00:06:21,520 --> 00:06:26,400
+because it could be the case is you
+
+173
+00:06:24,000 --> 00:06:28,960
+can't find even a match
+
+174
+00:06:26,400 --> 00:06:31,520
+right you'll be like a and then this
+
+175
+00:06:28,960 --> 00:06:32,319
+this character and the t will be b b b
+
+176
+00:06:31,520 --> 00:06:34,720
+right
+
+177
+00:06:32,319 --> 00:06:36,479
+so what happens in this case so you
+
+178
+00:06:34,720 --> 00:06:37,759
+can't find the match so you always move
+
+179
+00:06:36,479 --> 00:06:38,800
+this right
+
+180
+00:06:37,759 --> 00:06:41,840
+yeah
+
+181
+00:06:38,800 --> 00:06:43,280
+right make sense
+
+182
+00:06:41,840 --> 00:06:44,880
+does it make sense the timeline let's
+
+183
+00:06:43,280 --> 00:06:46,880
+see so the time connection will be the
+
+184
+00:06:44,880 --> 00:06:50,160
+time taken to
+
+185
+00:06:46,880 --> 00:06:52,400
+iterate over all the characters in in
+
+186
+00:06:50,160 --> 00:06:53,199
+in the t right so the time number six
+
+187
+00:06:52,400 --> 00:06:54,479
+okay
+
+188
+00:06:53,199 --> 00:06:56,479
+okay so
+
+189
+00:06:54,479 --> 00:06:59,280
+this is two points i think so how can we
+
+190
+00:06:56,479 --> 00:07:02,639
+do this using this um
+
+191
+00:06:59,280 --> 00:07:04,080
+recursive okay how do we look using this
+
+192
+00:07:02,639 --> 00:07:06,240
+because
+
+193
+00:07:04,080 --> 00:07:09,759
+every right yeah
+
+194
+00:07:06,240 --> 00:07:13,039
+so it's quite similar idea look so look
+
+195
+00:07:09,759 --> 00:07:16,400
+i have a string yeah i have a string
+
+196
+00:07:13,039 --> 00:07:18,000
+i have a string look language is e
+
+197
+00:07:16,400 --> 00:07:20,080
+something something something okay and
+
+198
+00:07:18,000 --> 00:07:21,680
+then i have another
+
+199
+00:07:20,080 --> 00:07:24,720
+this is s yeah
+
+200
+00:07:21,680 --> 00:07:26,319
+t equals what t was what e something
+
+201
+00:07:24,720 --> 00:07:28,240
+something something
+
+202
+00:07:26,319 --> 00:07:29,280
+okay
+
+203
+00:07:28,240 --> 00:07:30,880
+so look
+
+204
+00:07:29,280 --> 00:07:33,599
+look
+
+205
+00:07:30,880 --> 00:07:36,240
+it's as a substring of e
+
+206
+00:07:33,599 --> 00:07:39,520
+if i have a two-pointed point here right
+
+207
+00:07:36,240 --> 00:07:41,440
+yeah so is it the same as
+
+208
+00:07:39,520 --> 00:07:42,240
+as s
+
+209
+00:07:41,440 --> 00:07:44,160
+as
+
+210
+00:07:42,240 --> 00:07:46,960
+uh because the first character is the
+
+211
+00:07:44,160 --> 00:07:48,240
+same right so this question is the same
+
+212
+00:07:46,960 --> 00:07:49,039
+as
+
+213
+00:07:48,240 --> 00:07:51,360
+if
+
+214
+00:07:49,039 --> 00:07:54,720
+if s1 as
+
+215
+00:07:51,360 --> 00:07:57,360
+one to the n is the subsequence of the t
+
+216
+00:07:54,720 --> 00:07:59,120
+to the n one to the n right why
+
+217
+00:07:57,360 --> 00:08:00,720
+why make sense
+
+218
+00:07:59,120 --> 00:08:02,560
+right look the first character is the
+
+219
+00:08:00,720 --> 00:08:03,360
+same both is the same so it's a match
+
+220
+00:08:02,560 --> 00:08:06,240
+right
+
+221
+00:08:03,360 --> 00:08:08,800
+yeah it's a mess so i just move it right
+
+222
+00:08:06,240 --> 00:08:11,039
+how about if it's not the same
+
+223
+00:08:08,800 --> 00:08:13,199
+how about it's not the same
+
+224
+00:08:11,039 --> 00:08:15,599
+if s is like e
+
+225
+00:08:13,199 --> 00:08:17,680
+something something and then t equals f
+
+226
+00:08:15,599 --> 00:08:20,080
+something something so
+
+227
+00:08:17,680 --> 00:08:22,720
+so what's this what's this what's this
+
+228
+00:08:20,080 --> 00:08:24,879
+going to be so look let's take consider
+
+229
+00:08:22,720 --> 00:08:27,199
+the first character it could be only two
+
+230
+00:08:24,879 --> 00:08:29,440
+cases if it's equal or if it's not equal
+
+231
+00:08:27,199 --> 00:08:32,240
+right if it's equal then it'll be like
+
+232
+00:08:29,440 --> 00:08:35,039
+that right so we just have to find out
+
+233
+00:08:32,240 --> 00:08:36,880
+the smaller problem which is from the
+
+234
+00:08:35,039 --> 00:08:39,200
+uh first current and second character
+
+235
+00:08:36,880 --> 00:08:42,159
+and onward right
+
+236
+00:08:39,200 --> 00:08:44,000
+yeah but this one if it's not equal now
+
+237
+00:08:42,159 --> 00:08:45,120
+what happened
+
+238
+00:08:44,000 --> 00:08:46,800
+right
+
+239
+00:08:45,120 --> 00:08:50,560
+then what's the pro what's what's what's
+
+240
+00:08:46,800 --> 00:08:55,640
+the green core what is the equal
+
+241
+00:08:50,560 --> 00:08:55,640
+yes keep well done forgive each one
+
+242
+00:08:59,200 --> 00:09:04,080
+one to the n right yeah
+
+243
+00:09:01,600 --> 00:09:06,959
+all right so that's two cases all right
+
+244
+00:09:04,080 --> 00:09:08,880
+yeah two spaces okay so that's right how
+
+245
+00:09:06,959 --> 00:09:09,680
+we just write it yeah
+
+246
+00:09:08,880 --> 00:09:11,120
+that's two cases
+
+247
+00:09:09,680 --> 00:09:14,480
+[Music]
+
+248
+00:09:11,120 --> 00:09:16,720
+come on ryan what did i just say
+
+249
+00:09:14,480 --> 00:09:19,839
+what two cases
+
+250
+00:09:16,720 --> 00:09:22,560
+one thing come on pay attention okay
+
+251
+00:09:19,839 --> 00:09:23,440
+so let's say define
+
+252
+00:09:22,560 --> 00:09:27,519
+uh
+
+253
+00:09:23,440 --> 00:09:29,680
+is subsequent okay subsequent as t okay
+
+254
+00:09:27,519 --> 00:09:31,839
+but first of all we need to define
+
+255
+00:09:29,680 --> 00:09:35,519
+define uh look at
+
+256
+00:09:31,839 --> 00:09:38,080
+uh we need to do a if length s is bigger
+
+257
+00:09:35,519 --> 00:09:40,720
+than minus t what should we depend
+
+258
+00:09:38,080 --> 00:09:42,000
+if length s is bigger than f then still
+
+259
+00:09:40,720 --> 00:09:43,820
+should we return
+
+260
+00:09:42,000 --> 00:09:45,920
+anybody
+
+261
+00:09:43,820 --> 00:09:48,640
+[Music]
+
+262
+00:09:45,920 --> 00:09:51,600
+false obviously
+
+263
+00:09:48,640 --> 00:09:54,720
+okay now we define a f function
+
+264
+00:09:51,600 --> 00:09:55,680
+i and j where i
+
+265
+00:09:54,720 --> 00:09:57,920
+i
+
+266
+00:09:55,680 --> 00:10:01,920
+where i is the
+
+267
+00:09:57,920 --> 00:10:02,880
+s index yeah t j is the t index okay now
+
+268
+00:10:01,920 --> 00:10:05,920
+look
+
+269
+00:10:02,880 --> 00:10:08,000
+if i goes to the end
+
+270
+00:10:05,920 --> 00:10:10,640
+what should we do if i
+
+271
+00:10:08,000 --> 00:10:12,480
+somehow goes to the end
+
+272
+00:10:10,640 --> 00:10:16,440
+what should we do return true or false
+
+273
+00:10:12,480 --> 00:10:16,440
+if i goes to the end
+
+274
+00:10:18,480 --> 00:10:22,399
+the i is the smaller one like every and
+
+275
+00:10:21,440 --> 00:10:23,200
+then
+
+276
+00:10:22,399 --> 00:10:25,279
+yeah
+
+277
+00:10:23,200 --> 00:10:27,519
+two yeah obviously if i goes here then
+
+278
+00:10:25,279 --> 00:10:31,040
+i'll be
+
+279
+00:10:27,519 --> 00:10:34,800
+that will be true obviously yeah
+
+280
+00:10:31,040 --> 00:10:37,680
+okay then oh if j equals to the end if j
+
+281
+00:10:34,800 --> 00:10:40,560
+points into the end between two of us
+
+282
+00:10:37,680 --> 00:10:43,279
+if j if we are running out of characters
+
+283
+00:10:40,560 --> 00:10:46,720
+if j so
+
+284
+00:10:43,279 --> 00:10:47,600
+okay now two cases do you still remember
+
+285
+00:10:46,720 --> 00:10:49,680
+if
+
+286
+00:10:47,600 --> 00:10:51,519
+s i equal
+
+287
+00:10:49,680 --> 00:10:54,000
+t j
+
+288
+00:10:51,519 --> 00:10:57,040
+return one
+
+289
+00:10:54,000 --> 00:10:57,920
+reason why if s i equals t j
+
+290
+00:10:57,040 --> 00:11:00,480
+but
+
+291
+00:10:57,920 --> 00:11:03,839
+this is s i
+
+292
+00:11:00,480 --> 00:11:06,640
+s i equals t j e r i c and then e
+
+293
+00:11:03,839 --> 00:11:09,279
+something something if s i
+
+294
+00:11:06,640 --> 00:11:10,800
+s i is here yeah t j
+
+295
+00:11:09,279 --> 00:11:12,800
+t j is here
+
+296
+00:11:10,800 --> 00:11:14,959
+so what is z equal
+
+297
+00:11:12,800 --> 00:11:14,959
+come
+
+298
+00:11:24,640 --> 00:11:28,959
+if both characters are equal what do
+
+299
+00:11:40,480 --> 00:11:44,480
+which character we need to skip
+
+300
+00:11:42,480 --> 00:11:46,720
+f1 can you tell me
+
+301
+00:11:44,480 --> 00:11:49,519
+okay
+
+302
+00:11:46,720 --> 00:11:50,560
+so look come on
+
+303
+00:11:49,519 --> 00:11:53,680
+i
+
+304
+00:11:50,560 --> 00:11:55,680
+is the current position of s j is the
+
+305
+00:11:53,680 --> 00:11:57,600
+current position of t
+
+306
+00:11:55,680 --> 00:12:00,639
+if both characters are equal we skip
+
+307
+00:11:57,600 --> 00:12:03,760
+both right i plus one j plus one if the
+
+308
+00:12:00,639 --> 00:12:07,360
+both characters not equal like e r i c
+
+309
+00:12:03,760 --> 00:12:10,480
+and then t t something so these two is
+
+310
+00:12:07,360 --> 00:12:13,760
+not equals which one is skip t
+
+311
+00:12:10,480 --> 00:12:17,360
+skip t t t is j yeah three plus one but
+
+312
+00:12:13,760 --> 00:12:17,360
+how about the first one t
+
+313
+00:12:17,839 --> 00:12:23,040
+okay yes and j is the
+
+314
+00:12:20,880 --> 00:12:26,000
+is the pointer it's position for the t
+
+315
+00:12:23,040 --> 00:12:27,920
+okay so this is i j plus one okay
+
+316
+00:12:26,000 --> 00:12:30,720
+yeah yeah
+
+317
+00:12:27,920 --> 00:12:32,880
+okay so look
+
+318
+00:12:30,720 --> 00:12:35,440
+this is actually the same as two pointer
+
+319
+00:12:32,880 --> 00:12:37,600
+things but written in recursion yeah
+
+320
+00:12:35,440 --> 00:12:38,959
+because including why this is working
+
+321
+00:12:37,600 --> 00:12:41,839
+come on
+
+322
+00:12:38,959 --> 00:12:41,839
+why does this work
+
+323
+00:12:42,800 --> 00:12:50,880
+e r i c okay come on here
+
+324
+00:12:46,480 --> 00:12:52,399
+let look if i have e e
+
+325
+00:12:50,880 --> 00:12:54,720
+ah
+
+326
+00:12:52,399 --> 00:12:56,320
+something okay
+
+327
+00:12:54,720 --> 00:12:57,440
+yeah look
+
+328
+00:12:56,320 --> 00:12:59,600
+here
+
+329
+00:12:57,440 --> 00:13:01,440
+so i have a match here
+
+330
+00:12:59,600 --> 00:13:03,360
+so i can just move right
+
+331
+00:13:01,440 --> 00:13:05,680
+i don't have to wait for the second e to
+
+332
+00:13:03,360 --> 00:13:07,680
+match all right as long as i match first
+
+333
+00:13:05,680 --> 00:13:09,760
+e then i can skip yeah i don't have to
+
+334
+00:13:07,680 --> 00:13:12,160
+match the second also the year right
+
+335
+00:13:09,760 --> 00:13:14,800
+does it make sense that's greedy
+
+336
+00:13:12,160 --> 00:13:17,519
+do i have to wait wait for the next one
+
+337
+00:13:14,800 --> 00:13:19,519
+it doesn't matter really right
+
+338
+00:13:17,519 --> 00:13:22,480
+does it make sense
+
+339
+00:13:19,519 --> 00:13:24,160
+because look as long as the final match
+
+340
+00:13:22,480 --> 00:13:26,560
+like as long as i find the match i can
+
+341
+00:13:24,160 --> 00:13:28,959
+just move move i skip
+
+342
+00:13:26,560 --> 00:13:31,680
+to the next box yeah amongst the pointer
+
+343
+00:13:28,959 --> 00:13:33,440
+to the next okay this is from the left
+
+344
+00:13:31,680 --> 00:13:35,839
+to the right can we do the from the
+
+345
+00:13:33,440 --> 00:13:37,200
+right to the left
+
+346
+00:13:35,839 --> 00:13:38,560
+anybody
+
+347
+00:13:37,200 --> 00:13:40,639
+maybe
+
+348
+00:13:38,560 --> 00:13:43,519
+the answer is yes look
+
+349
+00:13:40,639 --> 00:13:45,199
+how look at this is either and how about
+
+350
+00:13:43,519 --> 00:13:46,560
+let's say e
+
+351
+00:13:45,199 --> 00:13:48,880
+let's say
+
+352
+00:13:46,560 --> 00:13:48,880
+a
+
+353
+00:14:01,000 --> 00:14:04,110
+[Music]
+
+354
+00:14:10,639 --> 00:14:13,360
+so what do we do
+
+355
+00:14:28,720 --> 00:14:31,720
+and
+
+356
+00:14:40,800 --> 00:14:44,480
+instead of checking it and we do it
+
+357
+00:14:42,399 --> 00:14:46,000
+checking the beginning right yeah you
+
+358
+00:14:44,480 --> 00:14:47,440
+got it you got it you know this
+
+359
+00:14:46,000 --> 00:14:51,360
+algorithm right
+
+360
+00:14:47,440 --> 00:14:53,920
+yeah it's the same yeah so so what now
+
+361
+00:14:51,360 --> 00:14:56,720
+this is backwards so we can just do this
+
+362
+00:14:53,920 --> 00:14:58,880
+right if i is smaller than what would we
+
+363
+00:14:56,720 --> 00:14:58,880
+do
+
+364
+00:15:00,300 --> 00:15:03,410
+[Music]
+
+365
+00:15:04,959 --> 00:15:11,440
+we just have to say we uh return
+
+366
+00:15:09,120 --> 00:15:12,240
+f we start from the first one f zero
+
+367
+00:15:11,440 --> 00:15:14,320
+okay
+
+368
+00:15:12,240 --> 00:15:15,600
+and then we can do another one okay two
+
+369
+00:15:14,320 --> 00:15:17,760
+another one i'm going to write it here
+
+370
+00:15:15,600 --> 00:15:21,440
+if i smaller than zero it reaches the
+
+371
+00:15:17,760 --> 00:15:24,880
+beginning return true is the same yeah
+
+372
+00:15:21,440 --> 00:15:27,519
+if j smaller than zero return fourth
+
+373
+00:15:24,880 --> 00:15:31,759
+obviously yeah
+
+374
+00:15:27,519 --> 00:15:33,680
+if s i equal sj come on anybody what
+
+375
+00:15:31,759 --> 00:15:35,279
+should we do if s i equals straight
+
+376
+00:15:33,680 --> 00:15:37,920
+return
+
+377
+00:15:35,279 --> 00:15:40,240
+return one f y
+
+378
+00:15:37,920 --> 00:15:44,160
+come on this is plan on g
+
+379
+00:15:40,240 --> 00:15:46,320
+how about this is moving to the left
+
+380
+00:15:44,160 --> 00:15:49,040
+moving to the left right
+
+381
+00:15:46,320 --> 00:15:51,759
+i minus one j minus one otherwise
+
+382
+00:15:49,040 --> 00:15:54,639
+written what come on here is f i j plus
+
+383
+00:15:51,759 --> 00:15:56,880
+one so what happened here if moving to
+
+384
+00:15:54,639 --> 00:15:58,720
+the right is f i j plus one and moving
+
+385
+00:15:56,880 --> 00:16:02,040
+to the left
+
+386
+00:15:58,720 --> 00:16:02,040
+as what
+
+387
+00:16:06,560 --> 00:16:09,560
+i
+
+388
+00:16:10,880 --> 00:16:15,199
+yeah we're done okay look
+
+389
+00:16:12,959 --> 00:16:16,880
+both way works okay and if we could call
+
+390
+00:16:15,199 --> 00:16:18,800
+it instead of zero zero from the
+
+391
+00:16:16,880 --> 00:16:20,160
+beginning we call it from the end
+
+392
+00:16:18,800 --> 00:16:22,880
+so return
+
+393
+00:16:20,160 --> 00:16:24,160
+f length s minus one
+
+394
+00:16:22,880 --> 00:16:26,240
+and then
+
+395
+00:16:24,160 --> 00:16:27,199
+t minus one okay
+
+396
+00:16:26,240 --> 00:16:28,320
+yeah
+
+397
+00:16:27,199 --> 00:16:30,800
+start from the
+
+398
+00:16:28,320 --> 00:16:33,600
+front uh from the right this is start
+
+399
+00:16:30,800 --> 00:16:34,880
+from the left okay so this is actually
+
+400
+00:16:33,600 --> 00:16:36,560
+quite the same
+
+401
+00:16:34,880 --> 00:16:38,800
+as the the two points i think at the
+
+402
+00:16:36,560 --> 00:16:40,560
+beginning yeah if we have so the core
+
+403
+00:16:38,800 --> 00:16:42,160
+idea is that what
+
+404
+00:16:40,560 --> 00:16:45,279
+if we have a match
+
+405
+00:16:42,160 --> 00:16:48,399
+we move two pointers otherwise we move
+
+406
+00:16:45,279 --> 00:16:50,480
+the one which is longer right
+
+407
+00:16:48,399 --> 00:16:52,560
+we move the pointer for to the string
+
+408
+00:16:50,480 --> 00:16:54,399
+which is longer right because
+
+409
+00:16:52,560 --> 00:16:55,199
+because we can't skip
+
+410
+00:16:54,399 --> 00:16:57,920
+the
+
+411
+00:16:55,199 --> 00:17:00,880
+we can't skip the check of the sub we
+
+412
+00:16:57,920 --> 00:17:02,320
+can't skip the pointer for the first uh
+
+413
+00:17:00,880 --> 00:17:04,559
+for the first string right because we
+
+414
+00:17:02,320 --> 00:17:07,199
+have to match it somehow right
+
+415
+00:17:04,559 --> 00:17:09,520
+yeah and how to how to check if it's uh
+
+416
+00:17:07,199 --> 00:17:11,919
+have a match or no we check if the
+
+417
+00:17:09,520 --> 00:17:14,079
+pointer of the eye which is the shorter
+
+418
+00:17:11,919 --> 00:17:16,079
+one moves to the other end yeah either
+
+419
+00:17:14,079 --> 00:17:17,520
+from left to right move to real or from
+
+420
+00:17:16,079 --> 00:17:20,319
+the right to the left moves to the
+
+421
+00:17:17,520 --> 00:17:23,839
+beginning right the time complexity is o
+
+422
+00:17:20,319 --> 00:17:26,559
+m where m is the length of the longer
+
+423
+00:17:23,839 --> 00:17:28,319
+string right longer string
+
+424
+00:17:26,559 --> 00:17:30,400
+okay so let
+
+425
+00:17:28,319 --> 00:17:31,760
+any question so far any idea any
+
+426
+00:17:30,400 --> 00:17:33,440
+questions
+
+427
+00:17:31,760 --> 00:17:35,440
+any questions
+
+428
+00:17:33,440 --> 00:17:38,080
+um
+
+429
+00:17:35,440 --> 00:17:40,400
+where is this lit
+
+430
+00:17:38,080 --> 00:17:40,400
+okay
+
+431
+00:17:40,799 --> 00:17:43,440
+okay
+
+432
+00:17:42,000 --> 00:17:44,559
+let's see
+
+433
+00:17:43,440 --> 00:17:46,720
+bye bye
+
+434
+00:17:44,559 --> 00:17:48,000
+bye bye
+
+435
+00:17:46,720 --> 00:17:50,480
+ryan bye bye
+
+436
+00:17:48,000 --> 00:17:50,480
+bye
+
