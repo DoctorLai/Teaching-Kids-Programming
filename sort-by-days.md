@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 421 (2022-03-06): [Delete the Middle Node of a Linked List (Fast and Slow Pointer)](https://helloacm.com/teaching-kids-programming-delete-the-middle-node-of-a-linked-list-fast-and-slow-pointer/) 删除链表的中间节点(快指针和慢指针) [Youtube](https://youtu.be/u7nbtepWxGE) - [B站](https://www.bilibili.com/video/BV1oZ4y167he/)  - [西瓜](https://www.ixigua.com/7072099336133280292) 
 - Day 420 (2022-03-05): [Draw a Tree in Python using Turtle Graphics (Recursion)](https://helloacm.com/teaching-kids-programming-draw-a-tree-in-python-using-turtle-graphics-recursion/) 递归画颗树(海龟作图) [Youtube](https://youtu.be/CtfYR1IjS7w) - [B站](https://www.bilibili.com/video/BV1Aq4y1i7XN/)  - [西瓜](https://www.ixigua.com/7071732245328822792) 
 - Day 419 (2022-03-04): [Is Subsequence Algorithm via Recursion (Greedy)](https://helloacm.com/teaching-kids-programming-is-subsequence-algorithm-via-recursion-greedy/) 子序列的递归算法(贪心) [Youtube](https://youtu.be/G17SXnS3zrg) - [B站](https://www.bilibili.com/video/bv1PY411V7P3)  - [西瓜](https://www.ixigua.com/7071376323918168613) 
 - Day 418 (2022-03-03): [How to Make Flashing Lights on Microbit?](https://helloacm.com/teaching-kids-programming-how-to-make-flashing-lights-on-microbit/) Microbit上闪烁的屏幕灯 [Youtube](https://youtu.be/21aItqYNrTA) - [B站](https://www.bilibili.com/video/BV1BR4y157Tq/)  - [西瓜](https://www.ixigua.com/7070989208365564446) 
