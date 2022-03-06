@@ -1,0 +1,684 @@
+1
+00:00:00,000 --> 00:00:05,680
+oh hello hello guys
+
+2
+00:00:02,399 --> 00:00:07,919
+okay so today look we're gonna do a baby
+
+3
+00:00:05,680 --> 00:00:10,160
+tweet okay baby tree look at this it's a
+
+4
+00:00:07,919 --> 00:00:12,400
+tree yeah so how do we draw it i mean
+
+5
+00:00:10,160 --> 00:00:14,559
+any idea i mean look at this tree so we
+
+6
+00:00:12,400 --> 00:00:17,920
+want to draw the tree
+
+7
+00:00:14,559 --> 00:00:20,240
+wait wait wait so okay it's symmetry
+
+8
+00:00:17,920 --> 00:00:21,760
+yeah symmetry yes yes i look
+
+9
+00:00:20,240 --> 00:00:24,000
+i so
+
+10
+00:00:21,760 --> 00:00:25,359
+i can go i can draw these
+
+11
+00:00:24,000 --> 00:00:27,279
+trunk yeah
+
+12
+00:00:25,359 --> 00:00:29,519
+and then i can i need to draw the left
+
+13
+00:00:27,279 --> 00:00:32,000
+tree and the right subtree right and for
+
+14
+00:00:29,519 --> 00:00:33,760
+the left subtree again it's a small tree
+
+15
+00:00:32,000 --> 00:00:37,040
+right so basically you know the tree in
+
+16
+00:00:33,760 --> 00:00:38,640
+binary uh in in data science uh that
+
+17
+00:00:37,040 --> 00:00:41,040
+data structure is the
+
+18
+00:00:38,640 --> 00:00:44,640
+binary is recursive right do you still
+
+19
+00:00:41,040 --> 00:00:47,200
+remember yeah recursive so so we have a
+
+20
+00:00:44,640 --> 00:00:49,120
+so how do we define a tree class three
+
+21
+00:00:47,200 --> 00:00:51,120
+nodes right remember
+
+22
+00:00:49,120 --> 00:00:53,840
+object this is type of object and then
+
+23
+00:00:51,120 --> 00:00:56,320
+first of all we need to define init
+
+24
+00:00:53,840 --> 00:00:59,760
+constructor yeah so we have
+
+25
+00:00:56,320 --> 00:01:01,920
+a left tree yeah left tree
+
+26
+00:00:59,760 --> 00:01:04,960
+and then right here
+
+27
+00:01:01,920 --> 00:01:07,119
+so the left and right are the
+
+28
+00:01:04,960 --> 00:01:12,600
+the type of three notes yeah so
+
+29
+00:01:07,119 --> 00:01:12,600
+we can do it dot left equals left
+
+30
+00:01:14,640 --> 00:01:17,920
+something like that yeah this is the
+
+31
+00:01:15,840 --> 00:01:19,680
+three notes so basically the left trees
+
+32
+00:01:17,920 --> 00:01:22,320
+and the right trees are also type of
+
+33
+00:01:19,680 --> 00:01:24,240
+tree it's recursion defined and
+
+34
+00:01:22,320 --> 00:01:26,240
+and for the tree tree is the data
+
+35
+00:01:24,240 --> 00:01:28,479
+structure meaning that we can hold data
+
+36
+00:01:26,240 --> 00:01:29,759
+metadata in the three nodes right so
+
+37
+00:01:28,479 --> 00:01:31,119
+okay so
+
+38
+00:01:29,759 --> 00:01:32,799
+come back to this
+
+39
+00:01:31,119 --> 00:01:34,960
+we want to draw this tree
+
+40
+00:01:32,799 --> 00:01:37,360
+so first of all we draw the trunk
+
+41
+00:01:34,960 --> 00:01:40,400
+and then we need to turn that like let's
+
+42
+00:01:37,360 --> 00:01:42,880
+say 30 degree to draw the left tree
+
+43
+00:01:40,400 --> 00:01:45,200
+right and then we turn right
+
+44
+00:01:42,880 --> 00:01:48,640
+60 degrees to draw the right tree yeah
+
+45
+00:01:45,200 --> 00:01:50,720
+you need to draw it wise yeah and then
+
+46
+00:01:48,640 --> 00:01:52,560
+that'll be and when the tree size you
+
+47
+00:01:50,720 --> 00:01:54,960
+know one or three sides look this this
+
+48
+00:01:52,560 --> 00:01:57,520
+chunk for example this is this is longer
+
+49
+00:01:54,960 --> 00:02:00,560
+than that than this right so we can
+
+50
+00:01:57,520 --> 00:02:01,759
+decrement it using a uh portion right
+
+51
+00:02:00,560 --> 00:02:04,880
+percentage
+
+52
+00:02:01,759 --> 00:02:06,640
+right so after that when the size is
+
+53
+00:02:04,880 --> 00:02:08,479
+smaller than like for example like
+
+54
+00:02:06,640 --> 00:02:10,000
+smaller than 10 then we return we don't
+
+55
+00:02:08,479 --> 00:02:11,920
+want to keep continuing right because
+
+56
+00:02:10,000 --> 00:02:12,959
+the chunk is so small we don't
+
+57
+00:02:11,920 --> 00:02:15,840
+need to
+
+58
+00:02:12,959 --> 00:02:18,080
+drawing it right yeah so okay so first
+
+59
+00:02:15,840 --> 00:02:19,840
+of all we need to import
+
+60
+00:02:18,080 --> 00:02:21,280
+data import
+
+61
+00:02:19,840 --> 00:02:22,959
+import the
+
+62
+00:02:21,280 --> 00:02:25,120
+a few phones we can import everything or
+
+63
+00:02:22,959 --> 00:02:28,319
+we can you pull forward
+
+64
+00:02:25,120 --> 00:02:29,360
+forward backwards turn left turn right
+
+65
+00:02:28,319 --> 00:02:30,319
+okay
+
+66
+00:02:29,360 --> 00:02:32,640
+yeah
+
+67
+00:02:30,319 --> 00:02:35,599
+and then we also need to uh for example
+
+68
+00:02:32,640 --> 00:02:37,920
+we can reset we can
+
+69
+00:02:35,599 --> 00:02:40,480
+import color yeah color green
+
+70
+00:02:37,920 --> 00:02:43,200
+speed are you all right yeah yeah yeah
+
+71
+00:02:40,480 --> 00:02:45,920
+speed and then okay so h is the angle
+
+72
+00:02:43,200 --> 00:02:48,720
+yeah and angle of the angle of the you
+
+73
+00:02:45,920 --> 00:02:51,040
+know the heading heading so
+
+74
+00:02:48,720 --> 00:02:53,120
+zero means the right
+
+75
+00:02:51,040 --> 00:02:55,760
+horizontal right yeah
+
+76
+00:02:53,120 --> 00:02:58,319
+90 degree means to the north okay
+
+77
+00:02:55,760 --> 00:02:59,680
+okay and then we can define a tree so we
+
+78
+00:02:58,319 --> 00:03:01,840
+want the three or three this is the
+
+79
+00:02:59,680 --> 00:03:03,760
+recursion function or first of all the
+
+80
+00:03:01,840 --> 00:03:05,280
+size of the trunk size of the chunk yeah
+
+81
+00:03:03,760 --> 00:03:07,519
+so size of the
+
+82
+00:03:05,280 --> 00:03:09,120
+size of these size of chunk current size
+
+83
+00:03:07,519 --> 00:03:10,319
+of trunk and then the
+
+84
+00:03:09,120 --> 00:03:12,000
+t would be
+
+85
+00:03:10,319 --> 00:03:14,319
+something a constant
+
+86
+00:03:12,000 --> 00:03:17,200
+maybe we don't need to define the size
+
+87
+00:03:14,319 --> 00:03:19,599
+okay if uh 3 equals
+
+88
+00:03:17,200 --> 00:03:22,319
+three is the size and then
+
+89
+00:03:19,599 --> 00:03:24,400
+look if size is smaller than let's say
+
+90
+00:03:22,319 --> 00:03:26,239
+10 if it's smaller than 10 then we just
+
+91
+00:03:24,400 --> 00:03:28,080
+return we just don't continue yeah
+
+92
+00:03:26,239 --> 00:03:29,760
+because every question we need some
+
+93
+00:03:28,080 --> 00:03:32,879
+point to return
+
+94
+00:03:29,760 --> 00:03:35,280
+yeah then we need to walk forward with
+
+95
+00:03:32,879 --> 00:03:37,920
+the size okay so the ft size is this bit
+
+96
+00:03:35,280 --> 00:03:40,480
+yeah i want to follow this side yeah
+
+97
+00:03:37,920 --> 00:03:43,360
+okay and then
+
+98
+00:03:40,480 --> 00:03:46,879
+and then i need to turn 10 uh turn left
+
+99
+00:03:43,360 --> 00:03:50,000
+1930 degree yeah so i turn turn left 30
+
+100
+00:03:46,879 --> 00:03:52,480
+degree before making that way and then i
+
+101
+00:03:50,000 --> 00:03:55,200
+need to draw the right left sharp tree
+
+102
+00:03:52,480 --> 00:03:58,959
+left side subtree with size equal
+
+103
+00:03:55,200 --> 00:04:02,400
+size smaller let's say 60 okay 60 so
+
+104
+00:03:58,959 --> 00:04:05,120
+this size look every time the size is 60
+
+105
+00:04:02,400 --> 00:04:07,439
+percent of previous one so if this is
+
+106
+00:04:05,120 --> 00:04:08,560
+this if this is 100
+
+107
+00:04:07,439 --> 00:04:11,439
+yeah
+
+108
+00:04:08,560 --> 00:04:14,560
+if this the chunk is 100 this is 60 and
+
+109
+00:04:11,439 --> 00:04:18,720
+if this is 60 these the length of these
+
+110
+00:04:14,560 --> 00:04:21,759
+is 36 correct so every time i i draw a
+
+111
+00:04:18,720 --> 00:04:24,160
+smaller tree with a smaller size yeah
+
+112
+00:04:21,759 --> 00:04:26,160
+okay and then i need to turn 10 wide and
+
+113
+00:04:24,160 --> 00:04:30,720
+60 degrees okay so can you tell me why i
+
+114
+00:04:26,160 --> 00:04:30,720
+need to 10 by 60 degree where are we now
+
+115
+00:04:33,680 --> 00:04:37,919
+so you'll be turn now i'm here now
+
+116
+00:04:36,639 --> 00:04:40,400
+turn right
+
+117
+00:04:37,919 --> 00:04:42,400
+60 degree before facing that way drawing
+
+118
+00:04:40,400 --> 00:04:43,840
+the right tree yeah so again i need to
+
+119
+00:04:42,400 --> 00:04:44,800
+draw the
+
+120
+00:04:43,840 --> 00:04:47,120
+uh
+
+121
+00:04:44,800 --> 00:04:47,919
+right tree yeah right subtree yeah
+
+122
+00:04:47,120 --> 00:04:49,919
+yeah
+
+123
+00:04:47,919 --> 00:04:51,040
+right
+
+124
+00:04:49,919 --> 00:04:52,720
+yeah
+
+125
+00:04:51,040 --> 00:04:53,600
+can you can you look at the spring come
+
+126
+00:04:52,720 --> 00:04:57,280
+on
+
+127
+00:04:53,600 --> 00:05:00,160
+and then i need to turn this come back
+
+128
+00:04:57,280 --> 00:05:02,240
+to the north and then i need to back the
+
+129
+00:05:00,160 --> 00:05:03,600
+size i need to go back to where it
+
+130
+00:05:02,240 --> 00:05:04,400
+belongs right
+
+131
+00:05:03,600 --> 00:05:06,400
+yeah
+
+132
+00:05:04,400 --> 00:05:09,440
+okay then let's try it try to do it
+
+133
+00:05:06,400 --> 00:05:11,120
+reset okay let's reset and then we can
+
+134
+00:05:09,440 --> 00:05:12,800
+10 left 93
+
+135
+00:05:11,120 --> 00:05:15,440
+okay and then you're forcing now no see
+
+136
+00:05:12,800 --> 00:05:16,479
+another three 100
+
+137
+00:05:15,440 --> 00:05:19,199
+see
+
+138
+00:05:16,479 --> 00:05:20,880
+yeah you see it's drawing yeah you see
+
+139
+00:05:19,199 --> 00:05:22,880
+yeah that's how it draw the left tree
+
+140
+00:05:20,880 --> 00:05:25,199
+first and then draw the right tree yeah
+
+141
+00:05:22,880 --> 00:05:27,199
+so for each left tree you draw further
+
+142
+00:05:25,199 --> 00:05:30,240
+the smaller left tree all right we can
+
+143
+00:05:27,199 --> 00:05:32,160
+cut and then change
+
+144
+00:05:30,240 --> 00:05:33,120
+let's make it green and then let's draw
+
+145
+00:05:32,160 --> 00:05:36,479
+again
+
+146
+00:05:33,120 --> 00:05:39,720
+does it override yeah really yeah
+
+147
+00:05:36,479 --> 00:05:39,720
+make sense
+
+148
+00:05:39,919 --> 00:05:45,600
+so this 60 degree we uh
+
+149
+00:05:42,800 --> 00:05:46,960
+0.6 is the percentage of the
+
+150
+00:05:45,600 --> 00:05:48,080
+size so
+
+151
+00:05:46,960 --> 00:05:50,240
+so
+
+152
+00:05:48,080 --> 00:05:52,880
+let me expand again so this size is 100
+
+153
+00:05:50,240 --> 00:05:56,560
+right so this size is 60. these size at
+
+154
+00:05:52,880 --> 00:05:59,039
+least this size 36 and 36 times six 0.6
+
+155
+00:05:56,560 --> 00:06:00,880
+times 0.6 together so each each time
+
+156
+00:05:59,039 --> 00:06:03,039
+it's a smaller one right
+
+157
+00:06:00,880 --> 00:06:07,840
+yeah eric where are you are you right
+
+158
+00:06:03,039 --> 00:06:08,639
+okay i can see you you're there okay uh
+
+159
+00:06:07,840 --> 00:06:11,600
+so
+
+160
+00:06:08,639 --> 00:06:14,160
+okay so look turn that turn left knight
+
+161
+00:06:11,600 --> 00:06:17,600
+30 degree yeah and the draw is smaller
+
+162
+00:06:14,160 --> 00:06:19,440
+size and then turn right 60 degree and i
+
+163
+00:06:17,600 --> 00:06:21,919
+draw the right side and then i need to
+
+164
+00:06:19,440 --> 00:06:24,560
+go back go back to
+
+165
+00:06:21,919 --> 00:06:26,560
+uh go go back to where
+
+166
+00:06:24,560 --> 00:06:29,039
+this point so you'll be turned up to 30
+
+167
+00:06:26,560 --> 00:06:31,039
+degree and then go back yeah so this is
+
+168
+00:06:29,039 --> 00:06:33,440
+where the last two right
+
+169
+00:06:31,039 --> 00:06:36,160
+makes sense
+
+170
+00:06:33,440 --> 00:06:41,000
+yeah is it interesting
+
+171
+00:06:36,160 --> 00:06:41,000
+okay okay that'll be for today bye
+
