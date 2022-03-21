@@ -195,6 +195,11 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Algorithms to Search in a Binary Search Tree | 在二分搜索树里查找算法 | [Youtube](https://www.youtube.com/watch?v=ZyL4iPAza-I) - [B站](https://www.bilibili.com/video/BV1Xa4y1H7Bc/) | [Algorithms to Search in a Binary Search Tree](https://helloacm.com/teaching-kids-programming-algorithms-to-search-in-binary-search-tree/) | 2020-12-16 |
 | Algorithms of Greatest Common Divisor and Least Common Multiples | 求最大公约数和最小公倍数的算法 | [Youtube](https://www.youtube.com/watch?v=mmvdrFYu5X0) - [B站](https://www.bilibili.com/video/BV1XK41137KA/) | [Algorithms of Greatest Common Divisor and Least Common Multiples](https://helloacm.com/teaching-kids-programming-algorithms-of-greatest-common-divisor-and-least-common-multiples/) | 2020-12-03 |
 
+## Bruteforce 暴力穷举
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Counting the Number of Squares and Rectangles of a Rubik Cube | 数N阶魔方正方形和矩形的数量(暴力穷举算法) | [Youtube](https://youtu.be/NvCNiIs9BJ0) - [B站](https://www.bilibili.com/video/BV1d44y1P7VQ/) - [西瓜](https://www.ixigua.com/7077673002250273288) | [Counting the Number of Squares and Rectangles of a Rubik Cube](https://helloacm.com/teaching-kids-programming-counting-the-number-of-squares-and-rectangles-for-a-nxn-rubik-cube/) | 2022-03-21 |
+
 ## Sorting 排序
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
