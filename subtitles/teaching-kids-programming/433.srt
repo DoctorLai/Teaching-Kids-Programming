@@ -1,0 +1,972 @@
+1
+00:00:00,160 --> 00:00:05,279
+let me say mr right now right yeah
+
+2
+00:00:02,960 --> 00:00:08,000
+so let's say we have these
+
+3
+00:00:05,279 --> 00:00:09,120
+numbers of unique integers yeah one two
+
+4
+00:00:08,000 --> 00:00:10,800
+three
+
+5
+00:00:09,120 --> 00:00:13,920
+yeah and we want to find out the subset
+
+6
+00:00:10,800 --> 00:00:15,280
+the subset is a like like this emptiness
+
+7
+00:00:13,920 --> 00:00:16,560
+is a subset
+
+8
+00:00:15,280 --> 00:00:17,840
+one
+
+9
+00:00:16,560 --> 00:00:19,680
+two
+
+10
+00:00:17,840 --> 00:00:22,160
+three
+
+11
+00:00:19,680 --> 00:00:23,519
+one two
+
+12
+00:00:22,160 --> 00:00:25,760
+two three
+
+13
+00:00:23,519 --> 00:00:28,800
+eight one two three
+
+14
+00:00:25,760 --> 00:00:31,039
+eight eight one is missing eight
+
+15
+00:00:28,800 --> 00:00:32,640
+one two three four five six seven one is
+
+16
+00:00:31,039 --> 00:00:35,680
+missing can you find find out what is
+
+17
+00:00:32,640 --> 00:00:37,200
+this one three one three exactly so
+
+18
+00:00:35,680 --> 00:00:39,040
+that's eight yeah
+
+19
+00:00:37,200 --> 00:00:41,520
+there's three numbers so the total
+
+20
+00:00:39,040 --> 00:00:44,480
+number of subset is two to the power of
+
+21
+00:00:41,520 --> 00:00:46,800
+three eight why is it two to the power 3
+
+22
+00:00:44,480 --> 00:00:48,800
+we have n numbers for each number we
+
+23
+00:00:46,800 --> 00:00:51,520
+have two choices yeah
+
+24
+00:00:48,800 --> 00:00:53,039
+we take it or we don't pick it
+
+25
+00:00:51,520 --> 00:00:54,399
+so for the first number we have two
+
+26
+00:00:53,039 --> 00:00:56,160
+choice for the second number we have
+
+27
+00:00:54,399 --> 00:00:58,559
+another two choice third number and
+
+28
+00:00:56,160 --> 00:01:01,120
+another choice so it's two times two
+
+29
+00:00:58,559 --> 00:01:02,000
+times two which is nine
+
+30
+00:01:01,120 --> 00:01:04,640
+yeah
+
+31
+00:01:02,000 --> 00:01:07,280
+two and then end of it yeah and this
+
+32
+00:01:04,640 --> 00:01:10,320
+leads to two to the power of n
+
+33
+00:01:07,280 --> 00:01:13,200
+two to the power of another set of
+
+34
+00:01:10,320 --> 00:01:16,479
+problems which is kind of permutation
+
+35
+00:01:13,200 --> 00:01:17,920
+permutation what is permutation like one
+
+36
+00:01:16,479 --> 00:01:19,439
+two three
+
+37
+00:01:17,920 --> 00:01:20,799
+one three two
+
+38
+00:01:19,439 --> 00:01:23,200
+two one three
+
+39
+00:01:20,799 --> 00:01:24,560
+two three one three one two three two
+
+40
+00:01:23,200 --> 00:01:26,400
+one okay
+
+41
+00:01:24,560 --> 00:01:27,520
+these are full permutations they are n
+
+42
+00:01:26,400 --> 00:01:29,920
+numbers
+
+43
+00:01:27,520 --> 00:01:33,680
+so the total number of permutation is
+
+44
+00:01:29,920 --> 00:01:37,040
+how many can you tell me anybody
+
+45
+00:01:33,680 --> 00:01:39,759
+total number permutation anybody
+
+46
+00:01:37,040 --> 00:01:41,280
+yes six which is if there are n numbers
+
+47
+00:01:39,759 --> 00:01:43,759
+what's the total number
+
+48
+00:01:41,280 --> 00:01:43,759
+18
+
+49
+00:01:45,119 --> 00:01:48,479
+and one
+
+50
+00:01:46,399 --> 00:01:49,680
+and the first number we how many choice
+
+51
+00:01:48,479 --> 00:01:51,280
+we have
+
+52
+00:01:49,680 --> 00:01:53,439
+three
+
+53
+00:01:51,280 --> 00:01:55,040
+three number three choice
+
+54
+00:01:53,439 --> 00:01:56,000
+the second number how many choice we
+
+55
+00:01:55,040 --> 00:01:57,200
+have
+
+56
+00:01:56,000 --> 00:01:59,280
+three
+
+57
+00:01:57,200 --> 00:02:01,280
+no we already use one number so how many
+
+58
+00:01:59,280 --> 00:02:04,640
+numbers we we can pick from
+
+59
+00:02:01,280 --> 00:02:07,520
+two yeah and that's a number one
+
+60
+00:02:04,640 --> 00:02:09,599
+bacteria okay another another set of
+
+61
+00:02:07,520 --> 00:02:12,720
+problem is called computation com
+
+62
+00:02:09,599 --> 00:02:15,599
+combination combination three apples how
+
+63
+00:02:12,720 --> 00:02:17,360
+many ways to pick two apples
+
+64
+00:02:15,599 --> 00:02:18,640
+three helpers how many ways to pick two
+
+65
+00:02:17,360 --> 00:02:20,800
+apples
+
+66
+00:02:18,640 --> 00:02:22,560
+three yeah
+
+67
+00:02:20,800 --> 00:02:24,000
+it's the same as three apples picking
+
+68
+00:02:22,560 --> 00:02:25,680
+one apple right
+
+69
+00:02:24,000 --> 00:02:27,520
+if you look at this way three apples
+
+70
+00:02:25,680 --> 00:02:28,879
+picking one diaper is very easy yeah
+
+71
+00:02:27,520 --> 00:02:30,560
+there's three apples how many ways to
+
+72
+00:02:28,879 --> 00:02:32,480
+pick one at first
+
+73
+00:02:30,560 --> 00:02:34,319
+three yeah every time you pick one up
+
+74
+00:02:32,480 --> 00:02:36,480
+it's the same as you pick two weapons
+
+75
+00:02:34,319 --> 00:02:38,640
+because they are they correspond to each
+
+76
+00:02:36,480 --> 00:02:41,760
+other okay so c
+
+77
+00:02:38,640 --> 00:02:44,400
+and k equals c
+
+78
+00:02:41,760 --> 00:02:46,879
+and n minus k this is the same because
+
+79
+00:02:44,400 --> 00:02:49,360
+every time you pick k numbers
+
+80
+00:02:46,879 --> 00:02:52,560
+out of n is the same as picking n minus
+
+81
+00:02:49,360 --> 00:02:55,360
+k out of n right because look n
+
+82
+00:02:52,560 --> 00:02:58,000
+n minus k plus k equals n this is same
+
+83
+00:02:55,360 --> 00:03:00,319
+okay so this is the formula c nk equals
+
+84
+00:02:58,000 --> 00:03:02,319
+n factorial divided by k factorial
+
+85
+00:03:00,319 --> 00:03:04,400
+divided by n minus k factorial and we
+
+86
+00:03:02,319 --> 00:03:07,840
+talked about this long time ago right
+
+87
+00:03:04,400 --> 00:03:09,840
+permutation is p and k equals
+
+88
+00:03:07,840 --> 00:03:11,680
+equals 1 equals
+
+89
+00:03:09,840 --> 00:03:13,200
+c n k
+
+90
+00:03:11,680 --> 00:03:14,080
+times
+
+91
+00:03:13,200 --> 00:03:14,800
+times
+
+92
+00:03:14,080 --> 00:03:17,200
+k
+
+93
+00:03:14,800 --> 00:03:19,440
+factorial right because
+
+94
+00:03:17,200 --> 00:03:21,519
+when we pick k numbers
+
+95
+00:03:19,440 --> 00:03:24,319
+and then we can do a full commutation on
+
+96
+00:03:21,519 --> 00:03:25,440
+these k numbers okay so these would be
+
+97
+00:03:24,319 --> 00:03:28,159
+one
+
+98
+00:03:25,440 --> 00:03:30,319
+so so these will be c and k is this one
+
+99
+00:03:28,159 --> 00:03:33,519
+so times k factorial will be a and
+
+100
+00:03:30,319 --> 00:03:35,519
+factorial divided by n minus k factorial
+
+101
+00:03:33,519 --> 00:03:37,519
+yeah you can think of this way what's
+
+102
+00:03:35,519 --> 00:03:40,799
+for permutation
+
+103
+00:03:37,519 --> 00:03:43,280
+you pick a k apples out of n epoch and
+
+104
+00:03:40,799 --> 00:03:45,920
+after you get k approach we can do a
+
+105
+00:03:43,280 --> 00:03:48,080
+full permutation of cake apples so that
+
+106
+00:03:45,920 --> 00:03:50,720
+gives dnk okay
+
+107
+00:03:48,080 --> 00:03:51,519
+okay so for going back to this question
+
+108
+00:03:50,720 --> 00:03:53,040
+so
+
+109
+00:03:51,519 --> 00:03:54,959
+going back to this question we can do
+
+110
+00:03:53,040 --> 00:03:56,879
+this step research or
+
+111
+00:03:54,959 --> 00:03:58,159
+actually we call it a backtracking or
+
+112
+00:03:56,879 --> 00:04:00,799
+whatever i mean
+
+113
+00:03:58,159 --> 00:04:03,519
+so we can come up with a
+
+114
+00:04:00,799 --> 00:04:06,640
+recursive uh recursion so for each
+
+115
+00:04:03,519 --> 00:04:10,000
+number let's say
+
+116
+00:04:06,640 --> 00:04:12,480
+we define let's say subset subset and we
+
+117
+00:04:10,000 --> 00:04:14,159
+have this number which is the list of
+
+118
+00:04:12,480 --> 00:04:16,320
+integer
+
+119
+00:04:14,159 --> 00:04:20,160
+and then we want to return
+
+120
+00:04:16,320 --> 00:04:21,359
+a list of this yeah instead of this
+
+121
+00:04:20,160 --> 00:04:22,639
+okay
+
+122
+00:04:21,359 --> 00:04:25,680
+list of this
+
+123
+00:04:22,639 --> 00:04:28,240
+so n equals the length of numbers so
+
+124
+00:04:25,680 --> 00:04:30,320
+this is the numbers of numbers the
+
+125
+00:04:28,240 --> 00:04:32,320
+the numbers of numbers right the numbers
+
+126
+00:04:30,320 --> 00:04:34,320
+are the lengths of the numbers
+
+127
+00:04:32,320 --> 00:04:37,040
+and then we can say answer
+
+128
+00:04:34,320 --> 00:04:39,600
+equals empty list and we have this step
+
+129
+00:04:37,040 --> 00:04:41,120
+first search okay i define it as dfs but
+
+130
+00:04:39,600 --> 00:04:42,800
+nonetheless the way it's called the
+
+131
+00:04:41,120 --> 00:04:44,639
+preferences define
+
+132
+00:04:42,800 --> 00:04:47,440
+efs
+
+133
+00:04:44,639 --> 00:04:49,360
+what current is the length of uh is the
+
+134
+00:04:47,440 --> 00:04:51,759
+current choice from the set of the
+
+135
+00:04:49,360 --> 00:04:52,800
+subset and then we are picking the ice
+
+136
+00:04:51,759 --> 00:04:56,320
+number
+
+137
+00:04:52,800 --> 00:04:58,479
+so when we finish picking the when we
+
+138
+00:04:56,320 --> 00:05:01,440
+reach the last number then we can
+
+139
+00:04:58,479 --> 00:05:03,360
+obviously we can answer the append
+
+140
+00:05:01,440 --> 00:05:05,680
+current right and then we depend because
+
+141
+00:05:03,360 --> 00:05:07,919
+we are running out of numbers
+
+142
+00:05:05,680 --> 00:05:10,160
+and then we can return
+
+143
+00:05:07,919 --> 00:05:12,080
+okay so now for the ice number how many
+
+144
+00:05:10,160 --> 00:05:14,479
+choice do we have
+
+145
+00:05:12,080 --> 00:05:15,840
+you know we are picking this we are now
+
+146
+00:05:14,479 --> 00:05:18,479
+look at this one
+
+147
+00:05:15,840 --> 00:05:20,639
+this is original numbers one two three
+
+148
+00:05:18,479 --> 00:05:23,280
+okay then one i
+
+149
+00:05:20,639 --> 00:05:25,759
+is zero i is yellow here
+
+150
+00:05:23,280 --> 00:05:28,160
+yeah for the first number
+
+151
+00:05:25,759 --> 00:05:30,240
+so how many choice do we have when
+
+152
+00:05:28,160 --> 00:05:33,759
+considering the subset
+
+153
+00:05:30,240 --> 00:05:36,479
+how many we how many choice do we have
+
+154
+00:05:33,759 --> 00:05:39,120
+when put considering the number one in a
+
+155
+00:05:36,479 --> 00:05:40,639
+subset
+
+156
+00:05:39,120 --> 00:05:42,560
+okay
+
+157
+00:05:40,639 --> 00:05:44,320
+am i clear how many choices do we have
+
+158
+00:05:42,560 --> 00:05:45,919
+when conserving the numbers in the
+
+159
+00:05:44,320 --> 00:05:47,840
+subset what number is one we were
+
+160
+00:05:45,919 --> 00:05:50,800
+talking about these numbers only we are
+
+161
+00:05:47,840 --> 00:05:53,919
+now looking at these numbers i
+
+162
+00:05:50,800 --> 00:05:56,479
+numbs at index i okay so
+
+163
+00:05:53,919 --> 00:05:59,199
+now i'm going to do something here
+
+164
+00:05:56,479 --> 00:06:02,000
+i'm going to do something here
+
+165
+00:05:59,199 --> 00:06:04,160
+with list numbers i regarding into the
+
+166
+00:06:02,000 --> 00:06:06,160
+current subset so
+
+167
+00:06:04,160 --> 00:06:08,560
+i want to please number how many choice
+
+168
+00:06:06,160 --> 00:06:10,720
+do we have with this number with the
+
+169
+00:06:08,560 --> 00:06:13,600
+current now with the current set it's
+
+170
+00:06:10,720 --> 00:06:15,280
+one two three and one two three
+
+171
+00:06:13,600 --> 00:06:16,880
+there are eight how do you get the
+
+172
+00:06:15,280 --> 00:06:17,840
+number eight here
+
+173
+00:06:16,880 --> 00:06:20,319
+ryan
+
+174
+00:06:17,840 --> 00:06:23,280
+how do we get the number eight here i
+
+175
+00:06:20,319 --> 00:06:24,479
+mean t times two times two exactly
+
+176
+00:06:23,280 --> 00:06:26,880
+what's two
+
+177
+00:06:24,479 --> 00:06:28,639
+two is how many choices you have okay
+
+178
+00:06:26,880 --> 00:06:30,080
+how many choices do we have for this
+
+179
+00:06:28,639 --> 00:06:32,400
+number
+
+180
+00:06:30,080 --> 00:06:34,639
+we want to put it in how many choices
+
+181
+00:06:32,400 --> 00:06:34,639
+are
+
+182
+00:06:35,840 --> 00:06:39,680
+they are n numbers yeah you are right
+
+183
+00:06:37,759 --> 00:06:41,600
+two to the power and for each number we
+
+184
+00:06:39,680 --> 00:06:43,360
+have two choices here for each number
+
+185
+00:06:41,600 --> 00:06:46,560
+how many choices
+
+186
+00:06:43,360 --> 00:06:46,560
+how many choices do we have
+
+187
+00:06:46,639 --> 00:06:52,000
+yeah exactly two two choice okay two
+
+188
+00:06:49,680 --> 00:06:53,840
+choice to pick it okay so let's talk
+
+189
+00:06:52,000 --> 00:06:55,440
+about not pick it at first
+
+190
+00:06:53,840 --> 00:06:57,440
+we not pick it
+
+191
+00:06:55,440 --> 00:06:59,280
+so if we don't pick it what happened to
+
+192
+00:06:57,440 --> 00:07:00,720
+the current
+
+193
+00:06:59,280 --> 00:07:02,800
+what happened to the color if we don't
+
+194
+00:07:00,720 --> 00:07:04,479
+pick it
+
+195
+00:07:02,800 --> 00:07:05,199
+it's still the same right
+
+196
+00:07:04,479 --> 00:07:06,639
+but
+
+197
+00:07:05,199 --> 00:07:09,280
+the next one we're looking we're going
+
+198
+00:07:06,639 --> 00:07:13,360
+to pick i plus one right yeah
+
+199
+00:07:09,280 --> 00:07:13,360
+okay so if we pick it what happened
+
+200
+00:07:14,000 --> 00:07:17,680
+if we pick it what happened what should
+
+201
+00:07:15,520 --> 00:07:19,599
+i do with the current if i pick it i
+
+202
+00:07:17,680 --> 00:07:21,759
+should add it to the current right so
+
+203
+00:07:19,599 --> 00:07:24,000
+carbon plus
+
+204
+00:07:21,759 --> 00:07:25,440
+num i
+
+205
+00:07:24,000 --> 00:07:26,560
+okay
+
+206
+00:07:25,440 --> 00:07:28,000
+and then
+
+207
+00:07:26,560 --> 00:07:30,319
+we do this step research at the
+
+208
+00:07:28,000 --> 00:07:31,840
+beginning we start with the empty v and
+
+209
+00:07:30,319 --> 00:07:33,840
+i go first number what's the second
+
+210
+00:07:31,840 --> 00:07:36,800
+parameter here
+
+211
+00:07:33,840 --> 00:07:36,800
+the first one which is
+
+212
+00:07:37,360 --> 00:07:43,039
+yeah and now we can just return
+
+213
+00:07:41,120 --> 00:07:44,400
+answer okay
+
+214
+00:07:43,039 --> 00:07:46,479
+yeah
+
+215
+00:07:44,400 --> 00:07:49,680
+okay so this is the
+
+216
+00:07:46,479 --> 00:07:52,879
+core of our learning today so for each
+
+217
+00:07:49,680 --> 00:07:54,479
+number we can pick or we can skip when
+
+218
+00:07:52,879 --> 00:07:56,960
+we pick it we do nothing with the
+
+219
+00:07:54,479 --> 00:07:59,919
+current and we're picking next number i
+
+220
+00:07:56,960 --> 00:08:02,639
+plus one index when we pick it
+
+221
+00:07:59,919 --> 00:08:05,919
+we need to append this current
+
+222
+00:08:02,639 --> 00:08:07,360
+num nums i to the current set and then
+
+223
+00:08:05,919 --> 00:08:08,639
+move to the next
+
+224
+00:08:07,360 --> 00:08:10,319
+number right
+
+225
+00:08:08,639 --> 00:08:12,560
+and when we reach the end this is the
+
+226
+00:08:10,319 --> 00:08:14,879
+termination of the recursion when we
+
+227
+00:08:12,560 --> 00:08:17,599
+reach the end we just put the current
+
+228
+00:08:14,879 --> 00:08:20,479
+into the answer into the answer okay
+
+229
+00:08:17,599 --> 00:08:23,440
+a little bit okay no b yeah the time
+
+230
+00:08:20,479 --> 00:08:25,599
+complexity for this one obviously
+
+231
+00:08:23,440 --> 00:08:27,199
+two to the power and because they have
+
+232
+00:08:25,599 --> 00:08:29,120
+the number of
+
+233
+00:08:27,199 --> 00:08:31,520
+the total number of the
+
+234
+00:08:29,120 --> 00:08:33,599
+subset is 2 to the power okay
+
+235
+00:08:31,520 --> 00:08:36,080
+okay so this is one way of doing it
+
+236
+00:08:33,599 --> 00:08:38,640
+tomorrow we're going to talk about using
+
+237
+00:08:36,080 --> 00:08:40,320
+another one which is called b masking
+
+238
+00:08:38,640 --> 00:08:42,320
+and the day after tomorrow we're going
+
+239
+00:08:40,320 --> 00:08:45,600
+to talk about another agreement to solve
+
+240
+00:08:42,320 --> 00:08:48,880
+this is called cascading okay cascading
+
+241
+00:08:45,600 --> 00:08:51,279
+so lastly and then daddy then that'll be
+
+242
+00:08:48,880 --> 00:08:54,279
+okay that's it for today bye-bye
+
+243
+00:08:51,279 --> 00:08:54,279
+bye-bye
+
