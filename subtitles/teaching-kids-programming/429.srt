@@ -1,0 +1,1048 @@
+1
+00:00:00,000 --> 00:00:05,200
+yo hello mr mr ryan i'm right okay so
+
+2
+00:00:03,600 --> 00:00:07,200
+today we'll talk about something very
+
+3
+00:00:05,200 --> 00:00:09,120
+fundamental very basic
+
+4
+00:00:07,200 --> 00:00:11,200
+path by variance reference or object
+
+5
+00:00:09,120 --> 00:00:14,000
+reference so what does it mean so let's
+
+6
+00:00:11,200 --> 00:00:17,199
+say if i define the function f
+
+7
+00:00:14,000 --> 00:00:20,560
+and i put a value x here right yeah and
+
+8
+00:00:17,199 --> 00:00:22,240
+i want to say x equals one right come on
+
+9
+00:00:20,560 --> 00:00:25,039
+yeah
+
+10
+00:00:22,240 --> 00:00:27,920
+yeah so look at this i have a defined
+
+11
+00:00:25,039 --> 00:00:31,840
+function we take a parameter but inside
+
+12
+00:00:27,920 --> 00:00:34,719
+if i say x equals 1 what happened here
+
+13
+00:00:31,840 --> 00:00:36,960
+everybody look so if i have these x
+
+14
+00:00:34,719 --> 00:00:39,200
+defined outside the scalable function i
+
+15
+00:00:36,960 --> 00:00:42,160
+say x equals 2
+
+16
+00:00:39,200 --> 00:00:44,000
+and then i call this function x x and i
+
+17
+00:00:42,160 --> 00:00:47,200
+put in the x can you tell me what what's
+
+18
+00:00:44,000 --> 00:00:48,160
+the value of x come on look
+
+19
+00:00:47,200 --> 00:00:49,680
+so
+
+20
+00:00:48,160 --> 00:00:51,840
+i define the red
+
+21
+00:00:49,680 --> 00:00:54,160
+variable x equals 2
+
+22
+00:00:51,840 --> 00:00:56,640
+and i call this function
+
+23
+00:00:54,160 --> 00:00:58,399
+which change the value x equals 1 and
+
+24
+00:00:56,640 --> 00:00:59,440
+then i put in the x what's the value
+
+25
+00:00:58,399 --> 00:01:01,440
+what's the
+
+26
+00:00:59,440 --> 00:01:02,480
+what's the result x
+
+27
+00:01:01,440 --> 00:01:05,040
+ryan
+
+28
+00:01:02,480 --> 00:01:06,799
+what's the result right uh what's what's
+
+29
+00:01:05,040 --> 00:01:09,040
+the result guess
+
+30
+00:01:06,799 --> 00:01:09,040
+two
+
+31
+00:01:09,200 --> 00:01:13,200
+your case is two what's your guess look
+
+32
+00:01:11,439 --> 00:01:15,520
+i haven't defined the value
+
+33
+00:01:13,200 --> 00:01:17,680
+but i change i call it f x
+
+34
+00:01:15,520 --> 00:01:20,000
+inside your change x equals one i print
+
+35
+00:01:17,680 --> 00:01:21,680
+x so what happened
+
+36
+00:01:20,000 --> 00:01:22,479
+u two x
+
+37
+00:01:21,680 --> 00:01:24,720
+three
+
+38
+00:01:22,479 --> 00:01:27,840
+the y is the switch x one
+
+39
+00:01:24,720 --> 00:01:27,840
+x equals one
+
+40
+00:01:29,200 --> 00:01:33,360
+one or two yeah i know it's one of two
+
+41
+00:01:31,680 --> 00:01:35,040
+guess
+
+42
+00:01:33,360 --> 00:01:36,880
+or your chain i mean i haven't talked
+
+43
+00:01:35,040 --> 00:01:38,640
+about this before yes don't worry just
+
+44
+00:01:36,880 --> 00:01:41,360
+learn them again
+
+45
+00:01:38,640 --> 00:01:45,200
+it's not one okay two yeah two two is
+
+46
+00:01:41,360 --> 00:01:45,200
+the right one why is that that means
+
+47
+00:01:45,840 --> 00:01:48,799
+let me
+
+48
+00:01:46,720 --> 00:01:51,680
+explain this okay i have two sets of
+
+49
+00:01:48,799 --> 00:01:54,640
+data here so what one is immutable
+
+50
+00:01:51,680 --> 00:01:57,520
+what's immutable
+
+51
+00:01:54,640 --> 00:02:01,040
+immutable multiple and the other one is
+
+52
+00:01:57,520 --> 00:02:03,520
+mutable the uh the data type immediately
+
+53
+00:02:01,040 --> 00:02:07,119
+quiet what is immutable
+
+54
+00:02:03,520 --> 00:02:09,520
+what is it beautiful can't keep quiet
+
+55
+00:02:07,119 --> 00:02:10,399
+no no what's immutable what's new about
+
+56
+00:02:09,520 --> 00:02:12,160
+come on
+
+57
+00:02:10,399 --> 00:02:14,400
+mutable is
+
+58
+00:02:12,160 --> 00:02:17,440
+change mutable is changeable by the way
+
+59
+00:02:14,400 --> 00:02:18,239
+it's changeable yes chen this is change
+
+60
+00:02:17,440 --> 00:02:22,160
+but
+
+61
+00:02:18,239 --> 00:02:25,280
+by this one kang chang right kang
+
+62
+00:02:22,160 --> 00:02:28,239
+so we have immutable like the integer
+
+63
+00:02:25,280 --> 00:02:30,959
+the integer the float
+
+64
+00:02:28,239 --> 00:02:32,800
+okay some sometimes the strings yes
+
+65
+00:02:30,959 --> 00:02:36,319
+strings are immutable
+
+66
+00:02:32,800 --> 00:02:39,599
+the sets uh the the set goes to the
+
+67
+00:02:36,319 --> 00:02:43,680
+multiple yeah and the list here
+
+68
+00:02:39,599 --> 00:02:48,000
+string and what else topper yeah pepper
+
+69
+00:02:43,680 --> 00:02:51,599
+yeah and then dictionary transition
+
+70
+00:02:48,000 --> 00:02:54,160
+these are changeable yeah this year and
+
+71
+00:02:51,599 --> 00:02:56,400
+set the other the other one is frozen
+
+72
+00:02:54,160 --> 00:02:57,120
+set you have frozen set frozen means
+
+73
+00:02:56,400 --> 00:02:59,040
+that
+
+74
+00:02:57,120 --> 00:03:04,800
+this set is
+
+75
+00:02:59,040 --> 00:03:04,800
+is uh spidey array yeah it's unbeatable
+
+76
+00:03:05,599 --> 00:03:08,720
+yeah
+
+77
+00:03:06,400 --> 00:03:10,400
+right and this here will be bites away
+
+78
+00:03:08,720 --> 00:03:14,080
+okay
+
+79
+00:03:10,400 --> 00:03:16,720
+and then i'll be complex here okay
+
+80
+00:03:14,080 --> 00:03:18,239
+okay so if this is
+
+81
+00:03:16,720 --> 00:03:20,400
+immutable
+
+82
+00:03:18,239 --> 00:03:22,239
+so as immutable means you can't change
+
+83
+00:03:20,400 --> 00:03:23,360
+right basically so everything you change
+
+84
+00:03:22,239 --> 00:03:25,760
+here
+
+85
+00:03:23,360 --> 00:03:28,159
+can't affect anything outside so because
+
+86
+00:03:25,760 --> 00:03:31,120
+it's immutable so at least you can think
+
+87
+00:03:28,159 --> 00:03:33,120
+of this x is a individual copy yeah it's
+
+88
+00:03:31,120 --> 00:03:34,879
+not the same copy as this
+
+89
+00:03:33,120 --> 00:03:35,599
+it's not the same x
+
+90
+00:03:34,879 --> 00:03:37,440
+so
+
+91
+00:03:35,599 --> 00:03:40,159
+no matter what you change inside doesn't
+
+92
+00:03:37,440 --> 00:03:43,120
+affect anything else so that's two okay
+
+93
+00:03:40,159 --> 00:03:43,920
+how about if i have this define
+
+94
+00:03:43,120 --> 00:03:46,159
+f
+
+95
+00:03:43,920 --> 00:03:49,200
+let's say i choose something from here
+
+96
+00:03:46,159 --> 00:03:52,159
+which is changeable let's say a list x
+
+97
+00:03:49,200 --> 00:03:54,480
+and then x dot append
+
+98
+00:03:52,159 --> 00:03:56,400
+it's a list i append the
+
+99
+00:03:54,480 --> 00:03:59,120
+number five okay
+
+100
+00:03:56,400 --> 00:04:01,120
+and then at the beginning x equals one
+
+101
+00:03:59,120 --> 00:04:04,000
+two three four
+
+102
+00:04:01,120 --> 00:04:05,599
+and then if we call this f x what i'm
+
+103
+00:04:04,000 --> 00:04:08,319
+doing the x
+
+104
+00:04:05,599 --> 00:04:11,840
+what do you think x will be
+
+105
+00:04:08,319 --> 00:04:14,560
+okay so this is com this x is one three
+
+106
+00:04:11,840 --> 00:04:16,479
+four five exactly yeah because this x
+
+107
+00:04:14,560 --> 00:04:19,280
+list is
+
+108
+00:04:16,479 --> 00:04:21,919
+changeable mutable so i pass the x to
+
+109
+00:04:19,280 --> 00:04:24,639
+this function whatever
+
+110
+00:04:21,919 --> 00:04:28,800
+changes in this x it means the same
+
+111
+00:04:24,639 --> 00:04:31,120
+right x apparently said i mean at 5
+
+112
+00:04:28,800 --> 00:04:32,000
+that's a very good job yeah okay so okay
+
+113
+00:04:31,120 --> 00:04:33,919
+so
+
+114
+00:04:32,000 --> 00:04:36,080
+look if so
+
+115
+00:04:33,919 --> 00:04:38,560
+to sum up the price and use the option
+
+116
+00:04:36,080 --> 00:04:40,960
+reference if it's immutable right you
+
+117
+00:04:38,560 --> 00:04:43,280
+pass a another individual copy if it's a
+
+118
+00:04:40,960 --> 00:04:44,639
+mute button pass the same copy so when
+
+119
+00:04:43,280 --> 00:04:46,960
+you pass the
+
+120
+00:04:44,639 --> 00:04:50,080
+immutable when you pass the separate
+
+121
+00:04:46,960 --> 00:04:53,199
+copy yeah it's actually passed by values
+
+122
+00:04:50,080 --> 00:04:55,520
+values means that a clone a value of it
+
+123
+00:04:53,199 --> 00:04:57,919
+but reference is like
+
+124
+00:04:55,520 --> 00:04:59,680
+the same copy yeah same copy so for
+
+125
+00:04:57,919 --> 00:05:02,320
+example if i call you
+
+126
+00:04:59,680 --> 00:05:05,600
+ryan yeah ryan lie
+
+127
+00:05:02,320 --> 00:05:07,600
+or i call you holzer like
+
+128
+00:05:05,600 --> 00:05:10,400
+means the same people right
+
+129
+00:05:07,600 --> 00:05:11,360
+yeah ryan lie yeah can you go brush your
+
+130
+00:05:10,400 --> 00:05:13,600
+teeth
+
+131
+00:05:11,360 --> 00:05:15,600
+how's it like can you brush your teeth
+
+132
+00:05:13,600 --> 00:05:18,320
+yeah i'm going to buy ryan like a toy
+
+133
+00:05:15,600 --> 00:05:21,039
+today i'm going to buy ryan like a house
+
+134
+00:05:18,320 --> 00:05:23,360
+like a toy today same thing so that's
+
+135
+00:05:21,039 --> 00:05:26,560
+reference right reference look
+
+136
+00:05:23,360 --> 00:05:28,800
+you this is you this is you
+
+137
+00:05:26,560 --> 00:05:30,880
+this is you i can call you by writing
+
+138
+00:05:28,800 --> 00:05:33,759
+why do you have a fat head
+
+139
+00:05:30,880 --> 00:05:36,000
+okay man that's okay that's okay i call
+
+140
+00:05:33,759 --> 00:05:37,039
+you my name
+
+141
+00:05:36,000 --> 00:05:38,479
+ryan
+
+142
+00:05:37,039 --> 00:05:40,479
+means you
+
+143
+00:05:38,479 --> 00:05:42,320
+oh hold up
+
+144
+00:05:40,479 --> 00:05:44,800
+means you okay
+
+145
+00:05:42,320 --> 00:05:47,360
+you got a sword
+
+146
+00:05:44,800 --> 00:05:47,360
+oh sorry
+
+147
+00:05:47,759 --> 00:05:49,680
+okay
+
+148
+00:05:48,639 --> 00:05:50,840
+yeah
+
+149
+00:05:49,680 --> 00:05:54,160
+okay so this
+
+150
+00:05:50,840 --> 00:05:55,199
+is my hair is not that long
+
+151
+00:05:54,160 --> 00:05:57,199
+okay
+
+152
+00:05:55,199 --> 00:05:59,199
+uh another thing another thing another
+
+153
+00:05:57,199 --> 00:06:01,280
+thing i want to talk about is this if i
+
+154
+00:05:59,199 --> 00:06:03,039
+want to change this let's say look i
+
+155
+00:06:01,280 --> 00:06:04,479
+have another thing okay another thing
+
+156
+00:06:03,039 --> 00:06:07,120
+define
+
+157
+00:06:04,479 --> 00:06:09,280
+f without function without anything if i
+
+158
+00:06:07,120 --> 00:06:11,440
+said x equals one
+
+159
+00:06:09,280 --> 00:06:14,000
+i i haven't part i haven't
+
+160
+00:06:11,440 --> 00:06:16,319
+given it a parameter so if i have x
+
+161
+00:06:14,000 --> 00:06:19,199
+equals two here i call this f
+
+162
+00:06:16,319 --> 00:06:21,360
+and point x
+
+163
+00:06:19,199 --> 00:06:23,840
+so what's the result
+
+164
+00:06:21,360 --> 00:06:25,199
+what's the result come on
+
+165
+00:06:23,840 --> 00:06:27,600
+look now
+
+166
+00:06:25,199 --> 00:06:28,560
+this x comes from nowhere
+
+167
+00:06:27,600 --> 00:06:30,560
+okay
+
+168
+00:06:28,560 --> 00:06:33,199
+so i haven't passed this x to it so
+
+169
+00:06:30,560 --> 00:06:36,000
+obviously this x and this x
+
+170
+00:06:33,199 --> 00:06:38,639
+it's not the same thing so you'll be
+
+171
+00:06:36,000 --> 00:06:41,440
+2 right so if i want to say because this
+
+172
+00:06:38,639 --> 00:06:43,759
+x leaves inside the locus goal of the
+
+173
+00:06:41,440 --> 00:06:46,000
+function this x is different than x x if
+
+174
+00:06:43,759 --> 00:06:47,039
+i want to say this x is the same i have
+
+175
+00:06:46,000 --> 00:06:49,360
+to
+
+176
+00:06:47,039 --> 00:06:52,240
+declare say global
+
+177
+00:06:49,360 --> 00:06:53,440
+global x so when i put this global x
+
+178
+00:06:52,240 --> 00:06:55,360
+what does it mean
+
+179
+00:06:53,440 --> 00:06:57,919
+it means this x
+
+180
+00:06:55,360 --> 00:07:00,800
+is the x outside so when i print when i
+
+181
+00:06:57,919 --> 00:07:03,199
+do this x will be equal to one okay
+
+182
+00:07:00,800 --> 00:07:06,319
+yeah okay so we talked about this the
+
+183
+00:07:03,199 --> 00:07:08,000
+frozen set is the the immutable version
+
+184
+00:07:06,319 --> 00:07:10,560
+of a set
+
+185
+00:07:08,000 --> 00:07:12,639
+uh the complex yeah we don't want to
+
+186
+00:07:10,560 --> 00:07:13,680
+talk about these because this mathematic
+
+187
+00:07:12,639 --> 00:07:15,680
+this is
+
+188
+00:07:13,680 --> 00:07:18,960
+a bit complex they're complex numbers
+
+189
+00:07:15,680 --> 00:07:20,880
+when you get older yeah when you let you
+
+190
+00:07:18,960 --> 00:07:22,319
+get you will learn the complex numbers
+
+191
+00:07:20,880 --> 00:07:24,000
+okay so we're not talking about that
+
+192
+00:07:22,319 --> 00:07:26,080
+today the bytes
+
+193
+00:07:24,000 --> 00:07:30,080
+buys and buys away okay buys a buyer
+
+194
+00:07:26,080 --> 00:07:34,319
+basically each byte is 255
+
+195
+00:07:30,080 --> 00:07:36,880
+feet okay a bite is 259 bits so we can
+
+196
+00:07:34,319 --> 00:07:38,240
+declare as bite
+
+197
+00:07:36,880 --> 00:07:40,240
+yeah buys
+
+198
+00:07:38,240 --> 00:07:44,000
+i mean i don't know
+
+199
+00:07:40,240 --> 00:07:47,680
+97 98.99
+
+200
+00:07:44,000 --> 00:07:49,520
+so now this corresponds to a b c okay
+
+201
+00:07:47,680 --> 00:07:51,520
+when you declare spikes it's not
+
+202
+00:07:49,520 --> 00:07:54,720
+changeable you can't say okay this is x
+
+203
+00:07:51,520 --> 00:07:56,160
+equals 5 don't say x 1 equals something
+
+204
+00:07:54,720 --> 00:07:58,400
+it doesn't work
+
+205
+00:07:56,160 --> 00:08:00,160
+but by its array we can declare it by
+
+206
+00:07:58,400 --> 00:08:03,599
+the way so it's it's
+
+207
+00:08:00,160 --> 00:08:05,759
+it's uh it's actually a list yeah this
+
+208
+00:08:03,599 --> 00:08:07,360
+array so we can change it right so this
+
+209
+00:08:05,759 --> 00:08:08,160
+is by the way
+
+210
+00:08:07,360 --> 00:08:09,759
+okay
+
+211
+00:08:08,160 --> 00:08:11,330
+yeah so what have you learned today
+
+212
+00:08:09,759 --> 00:08:15,360
+right about
+
+213
+00:08:11,330 --> 00:08:15,360
+[Music]
+
+214
+00:08:25,440 --> 00:08:27,599
+let's say
+
+215
+00:08:26,720 --> 00:08:28,800
+s
+
+216
+00:08:27,599 --> 00:08:30,319
+is
+
+217
+00:08:28,800 --> 00:08:33,360
+x okay then
+
+218
+00:08:30,319 --> 00:08:34,959
+we have x equals
+
+219
+00:08:33,360 --> 00:08:39,039
+uh
+
+220
+00:08:34,959 --> 00:08:42,719
+5 6 7 and then x equals
+
+221
+00:08:39,039 --> 00:08:45,360
+one two three so print x is it one two
+
+222
+00:08:42,719 --> 00:08:47,920
+three or five two five six seven oh
+
+223
+00:08:45,360 --> 00:08:51,440
+x equals couple one two three and a pass
+
+224
+00:08:47,920 --> 00:08:52,560
+to f uh x equals five six seven so
+
+225
+00:08:51,440 --> 00:08:54,720
+what's x
+
+226
+00:08:52,560 --> 00:08:54,720
+what
+
+227
+00:08:57,440 --> 00:09:02,000
+uh yes why why is that because you can't
+
+228
+00:08:59,839 --> 00:09:05,279
+change because you can't change
+
+229
+00:09:02,000 --> 00:09:08,320
+we can't yeah because this is tupperware
+
+230
+00:09:05,279 --> 00:09:08,320
+how do you pronounce this one
+
+231
+00:09:08,480 --> 00:09:12,160
+is immutable we can't change it when we
+
+232
+00:09:10,640 --> 00:09:14,080
+can't change it
+
+233
+00:09:12,160 --> 00:09:15,600
+everything inside the function is a
+
+234
+00:09:14,080 --> 00:09:18,000
+separate copy because we can't change
+
+235
+00:09:15,600 --> 00:09:20,959
+the thing outside right but if it's a
+
+236
+00:09:18,000 --> 00:09:23,360
+changeable like uh at least
+
+237
+00:09:20,959 --> 00:09:26,080
+look look eric you missed this bit look
+
+238
+00:09:23,360 --> 00:09:29,120
+if it's x the x is the least yeah this
+
+239
+00:09:26,080 --> 00:09:30,720
+is changeable so x dot appends five when
+
+240
+00:09:29,120 --> 00:09:33,120
+we pass one two three four x is
+
+241
+00:09:30,720 --> 00:09:35,519
+changeable it will be zero five got it
+
+242
+00:09:33,120 --> 00:09:38,480
+so it's passed by object reference when
+
+243
+00:09:35,519 --> 00:09:40,720
+it's mutable it will be changed you only
+
+244
+00:09:38,480 --> 00:09:42,800
+do this it will be changeable
+
+245
+00:09:40,720 --> 00:09:45,200
+when it's immutable so everything inside
+
+246
+00:09:42,800 --> 00:09:48,399
+this function is a separate copy right
+
+247
+00:09:45,200 --> 00:09:51,279
+yeah part path by value
+
+248
+00:09:48,399 --> 00:09:54,399
+pass by value is like uh uh
+
+249
+00:09:51,279 --> 00:09:57,279
+the pass by value yeah it's like uh
+
+250
+00:09:54,399 --> 00:09:59,760
+what's this okay so this is uh
+
+251
+00:09:57,279 --> 00:10:01,680
+this is a cube yeah present value it
+
+252
+00:09:59,760 --> 00:10:04,480
+will be separate copy
+
+253
+00:10:01,680 --> 00:10:06,959
+the same separate copy right yeah but
+
+254
+00:10:04,480 --> 00:10:09,279
+pass by reference is not that's what i'm
+
+255
+00:10:06,959 --> 00:10:12,800
+saying ryan this is ryan
+
+256
+00:10:09,279 --> 00:10:12,800
+although houston is ryan
+
+257
+00:10:13,680 --> 00:10:18,800
+i've asked ryan
+
+258
+00:10:15,200 --> 00:10:18,800
+to go to bust his teeth
+
+259
+00:10:24,240 --> 00:10:29,920
+that's not an excuse okay okay so uh
+
+260
+00:10:27,760 --> 00:10:31,200
+that will be for today so yeah that's it
+
+261
+00:10:29,920 --> 00:10:34,200
+bye-bye
+
+262
+00:10:31,200 --> 00:10:34,200
+bye
+

@@ -1,0 +1,1232 @@
+1
+00:00:01,140 --> 00:00:04,330
+[Music]
+
+2
+00:00:10,820 --> 00:00:14,160
+[Music]
+
+3
+00:00:12,400 --> 00:00:14,920
+for each one you can there are only two
+
+4
+00:00:14,160 --> 00:00:17,520
+kinds
+
+5
+00:00:14,920 --> 00:00:20,800
+of either win or you lose
+
+6
+00:00:17,520 --> 00:00:22,800
+right so you either win or lose
+
+7
+00:00:20,800 --> 00:00:25,920
+you win or lose
+
+8
+00:00:22,800 --> 00:00:28,640
+so what how many how many ways that in
+
+9
+00:00:25,920 --> 00:00:31,840
+which that you can have this consecutive
+
+10
+00:00:28,640 --> 00:00:33,920
+k wins or less okay wins
+
+11
+00:00:31,840 --> 00:00:35,920
+or less
+
+12
+00:00:33,920 --> 00:00:38,239
+but it has to be consecutive what's
+
+13
+00:00:35,920 --> 00:00:40,000
+consecutive order
+
+14
+00:00:38,239 --> 00:00:44,200
+okay
+
+15
+00:00:40,000 --> 00:00:44,200
+one two three consecutive
+
+16
+00:00:48,160 --> 00:00:52,719
+uh it continues right so you win like
+
+17
+00:00:50,879 --> 00:00:55,680
+you win the first game second game third
+
+18
+00:00:52,719 --> 00:00:57,920
+game that's consecutive but if you win
+
+19
+00:00:55,680 --> 00:00:59,920
+first game you lose the second game you
+
+20
+00:00:57,920 --> 00:01:01,120
+win the third game this is nothing
+
+21
+00:00:59,920 --> 00:01:03,920
+consecutive
+
+22
+00:01:01,120 --> 00:01:06,560
+so we are looking forward
+
+23
+00:01:03,920 --> 00:01:09,360
+we're looking for a number of ways that
+
+24
+00:01:06,560 --> 00:01:11,439
+you can have you can win k times
+
+25
+00:01:09,360 --> 00:01:14,080
+consecutive or less right so for example
+
+26
+00:01:11,439 --> 00:01:15,840
+last week one can n equal three and then
+
+27
+00:01:14,080 --> 00:01:18,320
+k equals two
+
+28
+00:01:15,840 --> 00:01:22,080
+so we play three games
+
+29
+00:01:18,320 --> 00:01:22,080
+and then look we can win
+
+30
+00:01:22,560 --> 00:01:27,600
+if we have look
+
+31
+00:01:24,400 --> 00:01:30,000
+if we play three games what's how many
+
+32
+00:01:27,600 --> 00:01:31,200
+how many kind of different situation
+
+33
+00:01:30,000 --> 00:01:34,079
+would that be i mean what's the
+
+34
+00:01:31,200 --> 00:01:35,520
+permutation total number of permutation
+
+35
+00:01:34,079 --> 00:01:37,200
+you should be able to answer this
+
+36
+00:01:35,520 --> 00:01:38,960
+question quickly
+
+37
+00:01:37,200 --> 00:01:41,040
+we play three games each one has two
+
+38
+00:01:38,960 --> 00:01:43,360
+possibilities how many possibilities all
+
+39
+00:01:41,040 --> 00:01:45,920
+together
+
+40
+00:01:43,360 --> 00:01:47,200
+the a yeah exactly two to the power of n
+
+41
+00:01:45,920 --> 00:01:49,360
+equals
+
+42
+00:01:47,200 --> 00:01:52,840
+eight okay at this time okay so
+
+43
+00:01:49,360 --> 00:01:55,200
+look if i write this a
+
+44
+00:01:52,840 --> 00:01:58,000
+in so you can you should be able to
+
+45
+00:01:55,200 --> 00:02:00,399
+write lr
+
+46
+00:01:58,000 --> 00:02:02,560
+what's r okay so actually it's win okay
+
+47
+00:02:00,399 --> 00:02:02,560
+win
+
+48
+00:02:02,719 --> 00:02:05,280
+okay and
+
+49
+00:02:07,680 --> 00:02:10,720
+okay so these
+
+50
+00:02:12,319 --> 00:02:18,400
+oh i read the argument why don't
+
+51
+00:02:14,879 --> 00:02:18,400
+keep writing on this r again
+
+52
+00:02:18,480 --> 00:02:22,160
+okay
+
+53
+00:02:20,000 --> 00:02:24,400
+how many how many one two three four
+
+54
+00:02:22,160 --> 00:02:25,760
+five six seven eight okay
+
+55
+00:02:24,400 --> 00:02:27,360
+uh
+
+56
+00:02:25,760 --> 00:02:31,040
+yeah yeah
+
+57
+00:02:27,360 --> 00:02:31,040
+so lose three times in a row
+
+58
+00:02:31,120 --> 00:02:34,160
+k equals two yeah yeah i know so which
+
+59
+00:02:33,200 --> 00:02:36,560
+one which
+
+60
+00:02:34,160 --> 00:02:38,640
+these are all possibilities eight a of
+
+61
+00:02:36,560 --> 00:02:39,840
+possibilities how many of them have
+
+62
+00:02:38,640 --> 00:02:42,640
+these k
+
+63
+00:02:39,840 --> 00:02:45,519
+less than k less than two consecutive
+
+64
+00:02:42,640 --> 00:02:46,800
+that one doesn't this one doesn't this
+
+65
+00:02:45,519 --> 00:02:47,920
+one
+
+66
+00:02:46,800 --> 00:02:49,120
+yes
+
+67
+00:02:47,920 --> 00:02:53,040
+yes
+
+68
+00:02:49,120 --> 00:02:54,000
+yes yes yes yes yes all right
+
+69
+00:02:53,040 --> 00:02:56,000
+yeah
+
+70
+00:02:54,000 --> 00:02:57,760
+so that's seven okay so you just give me
+
+71
+00:02:56,000 --> 00:02:59,599
+the seven right
+
+72
+00:02:57,760 --> 00:03:01,920
+yeah
+
+73
+00:02:59,599 --> 00:03:03,840
+so what's the sauce i mean what are we
+
+74
+00:03:01,920 --> 00:03:06,400
+doing here what are we doing what's this
+
+75
+00:03:03,840 --> 00:03:08,480
+what's this approach if we eat uh
+
+76
+00:03:06,400 --> 00:03:11,840
+internet uh if we
+
+77
+00:03:08,480 --> 00:03:14,640
+list all the possibilities
+
+78
+00:03:11,840 --> 00:03:16,879
+what what what's this method called
+
+79
+00:03:14,640 --> 00:03:16,879
+um
+
+80
+00:03:24,640 --> 00:03:30,560
+yeah yeah yeah and and we have to do
+
+81
+00:03:28,080 --> 00:03:32,879
+this two to the power of n times this is
+
+82
+00:03:30,560 --> 00:03:35,280
+just to iterate to list all the
+
+83
+00:03:32,879 --> 00:03:38,640
+possibilities of all of all the games
+
+84
+00:03:35,280 --> 00:03:41,280
+and we have to find out how many of them
+
+85
+00:03:38,640 --> 00:03:42,080
+are consecutive yeah so this point this
+
+86
+00:03:41,280 --> 00:03:44,319
+is
+
+87
+00:03:42,080 --> 00:03:47,760
+the time complexity if we are given a
+
+88
+00:03:44,319 --> 00:03:50,159
+game outcome and it takes on time to
+
+89
+00:03:47,760 --> 00:03:51,760
+check if they are less than k
+
+90
+00:03:50,159 --> 00:03:54,799
+if it meets the requirements so the time
+
+91
+00:03:51,760 --> 00:03:57,200
+from next to is time complexities o n
+
+92
+00:03:54,799 --> 00:03:59,760
+times two to the power n right this is
+
+93
+00:03:57,200 --> 00:04:00,560
+total total complexity okay do you get
+
+94
+00:03:59,760 --> 00:04:02,560
+it
+
+95
+00:04:00,560 --> 00:04:04,159
+yeah so certainly we don't we don't want
+
+96
+00:04:02,560 --> 00:04:05,920
+this so at least it's too complicated
+
+97
+00:04:04,159 --> 00:04:08,000
+right too complicated
+
+98
+00:04:05,920 --> 00:04:10,080
+yeah okay so how about if we i can tell
+
+99
+00:04:08,000 --> 00:04:13,680
+you like if like let's say we define the
+
+100
+00:04:10,080 --> 00:04:16,000
+function f f i comma j what does it mean
+
+101
+00:04:13,680 --> 00:04:17,759
+okay listen carefully okay it means that
+
+102
+00:04:16,000 --> 00:04:20,400
+we are playing
+
+103
+00:04:17,759 --> 00:04:22,400
+we are playing at ice game
+
+104
+00:04:20,400 --> 00:04:25,520
+and we have now
+
+105
+00:04:22,400 --> 00:04:30,320
+j win consecutive wins
+
+106
+00:04:25,520 --> 00:04:30,320
+consecutive win okay consecutive wind
+
+107
+00:04:31,600 --> 00:04:37,520
+bowling game okay consecutively wins
+
+108
+00:04:33,520 --> 00:04:40,479
+okay so look so let's say look i have uh
+
+109
+00:04:37,520 --> 00:04:43,199
+place the icon okay so i have
+
+110
+00:04:40,479 --> 00:04:43,199
+root loose
+
+111
+00:04:47,120 --> 00:04:52,320
+i know but this is example but as an
+
+112
+00:04:49,759 --> 00:04:54,479
+input okay so let's see look
+
+113
+00:04:52,320 --> 00:04:57,360
+okay so they are i yeah
+
+114
+00:04:54,479 --> 00:05:00,080
+this their eye here so this is i
+
+115
+00:04:57,360 --> 00:05:01,919
+they're eyes okay eyes
+
+116
+00:05:00,080 --> 00:05:05,120
+and then we have
+
+117
+00:05:01,919 --> 00:05:07,440
+j wins very consecutive okay
+
+118
+00:05:05,120 --> 00:05:07,440
+yeah
+
+119
+00:05:07,680 --> 00:05:13,120
+so okay so i'm playing the i plus one
+
+120
+00:05:10,400 --> 00:05:14,479
+game here okay this is i plus one game
+
+121
+00:05:13,120 --> 00:05:17,759
+here
+
+122
+00:05:14,479 --> 00:05:18,880
+how many possibilities for this game
+
+123
+00:05:17,759 --> 00:05:20,639
+times
+
+124
+00:05:18,880 --> 00:05:23,600
+how many possibilities
+
+125
+00:05:20,639 --> 00:05:25,919
+i'm playing i plus one game
+
+126
+00:05:23,600 --> 00:05:27,199
+what's the outcome of this game
+
+127
+00:05:25,919 --> 00:05:29,840
+um
+
+128
+00:05:27,199 --> 00:05:32,400
+how many come on
+
+129
+00:05:29,840 --> 00:05:36,160
+ryan how many what if i'm playing this
+
+130
+00:05:32,400 --> 00:05:36,160
+game i scan how many possibilities
+
+131
+00:05:36,840 --> 00:05:41,440
+um for this game i mean two yeah we know
+
+132
+00:05:40,080 --> 00:05:44,240
+lose exactly
+
+133
+00:05:41,440 --> 00:05:45,039
+yeah we not lose lose or win
+
+134
+00:05:44,240 --> 00:05:48,080
+right
+
+135
+00:05:45,039 --> 00:05:49,759
+so if i lose if i lose
+
+136
+00:05:48,080 --> 00:05:52,240
+if i lose
+
+137
+00:05:49,759 --> 00:05:54,400
+so i'm playing i plus one again but if i
+
+138
+00:05:52,240 --> 00:05:55,919
+lose what happens to this consecutive
+
+139
+00:05:54,400 --> 00:05:59,360
+week
+
+140
+00:05:55,919 --> 00:06:02,800
+okay but if i win j plus one
+
+141
+00:05:59,360 --> 00:06:05,120
+yeah i plus one j plus n exactly yeah
+
+142
+00:06:02,800 --> 00:06:08,800
+that's very good yeah so so the outcome
+
+143
+00:06:05,120 --> 00:06:12,319
+will be so this look f i
+
+144
+00:06:08,800 --> 00:06:16,560
+j will be equal to these two angles here
+
+145
+00:06:12,319 --> 00:06:18,160
+exactly right and one i when will the i
+
+146
+00:06:16,560 --> 00:06:20,560
+play the
+
+147
+00:06:18,160 --> 00:06:22,160
+one way i reach the end means that we
+
+148
+00:06:20,560 --> 00:06:23,199
+have finished all again
+
+149
+00:06:22,160 --> 00:06:24,400
+right
+
+150
+00:06:23,199 --> 00:06:25,199
+yeah
+
+151
+00:06:24,400 --> 00:06:27,680
+then
+
+152
+00:06:25,199 --> 00:06:31,039
+then we should check if j is less than
+
+153
+00:06:27,680 --> 00:06:33,199
+or equal than k right yeah okay
+
+154
+00:06:31,039 --> 00:06:36,319
+okay so about one k
+
+155
+00:06:33,199 --> 00:06:38,080
+the one k when when the j is bigger than
+
+156
+00:06:36,319 --> 00:06:40,960
+k we return
+
+157
+00:06:38,080 --> 00:06:43,600
+zero right because we want the we want
+
+158
+00:06:40,960 --> 00:06:45,600
+we don't want the consecutive wins more
+
+159
+00:06:43,600 --> 00:06:48,000
+than k right this is the requirement
+
+160
+00:06:45,600 --> 00:06:48,720
+right yeah so but we so we with this we
+
+161
+00:06:48,000 --> 00:06:50,160
+can
+
+162
+00:06:48,720 --> 00:06:52,400
+we should be able to implement this
+
+163
+00:06:50,160 --> 00:06:56,080
+using recursion right easy
+
+164
+00:06:52,400 --> 00:06:56,080
+okay let's try this in recursion
+
+165
+00:06:56,880 --> 00:06:59,880
+wow
+
+166
+00:07:03,280 --> 00:07:06,400
+f i
+
+167
+00:07:04,880 --> 00:07:07,759
+j
+
+168
+00:07:06,400 --> 00:07:11,280
+if
+
+169
+00:07:07,759 --> 00:07:12,479
+if j is bigger than k
+
+170
+00:07:11,280 --> 00:07:17,400
+return
+
+171
+00:07:12,479 --> 00:07:17,400
+what within zero one come on
+
+172
+00:07:26,319 --> 00:07:31,740
+is
+
+173
+00:07:28,630 --> 00:07:31,740
+[Music]
+
+174
+00:07:32,319 --> 00:07:38,240
+plus f i plus one j yeah this is the
+
+175
+00:07:35,360 --> 00:07:41,360
+recursive recursion the current formula
+
+176
+00:07:38,240 --> 00:07:44,240
+right the i plus one j plus
+
+177
+00:07:41,360 --> 00:07:47,840
+what's the time complexity for this one
+
+178
+00:07:44,240 --> 00:07:49,599
+um what's the temperature
+
+179
+00:07:47,840 --> 00:07:51,360
+actually what are we doing here what's
+
+180
+00:07:49,599 --> 00:07:53,599
+the thumbs up let's say it's the same as
+
+181
+00:07:51,360 --> 00:07:55,520
+proof of that something like that right
+
+182
+00:07:53,599 --> 00:07:58,000
+because each one each one you have two
+
+183
+00:07:55,520 --> 00:08:00,160
+possibilities each one you have two so
+
+184
+00:07:58,000 --> 00:08:02,479
+two to the power of n right but how do
+
+185
+00:08:00,160 --> 00:08:03,680
+we make it faster what's the missing
+
+186
+00:08:02,479 --> 00:08:06,479
+thing here
+
+187
+00:08:03,680 --> 00:08:08,080
+cash cash yeah so
+
+188
+00:08:06,479 --> 00:08:09,759
+what do you mean what does
+
+189
+00:08:08,080 --> 00:08:11,680
+what happened if we put a cash what
+
+190
+00:08:09,759 --> 00:08:14,240
+happened
+
+191
+00:08:11,680 --> 00:08:16,560
+what happened if we put a test uh with
+
+192
+00:08:14,240 --> 00:08:17,680
+is an explanation
+
+193
+00:08:16,560 --> 00:08:20,720
+yeah why is that because we're
+
+194
+00:08:17,680 --> 00:08:22,240
+remembering we're memorizing it right so
+
+195
+00:08:20,720 --> 00:08:23,120
+so look i
+
+196
+00:08:22,240 --> 00:08:27,039
+i
+
+197
+00:08:23,120 --> 00:08:30,319
+has n right i is from 0 to n and
+
+198
+00:08:27,039 --> 00:08:33,120
+to n minus 1 so there are n states of i
+
+199
+00:08:30,319 --> 00:08:36,640
+and they are k stay for the j
+
+200
+00:08:33,120 --> 00:08:36,640
+so the time complexes o
+
+201
+00:08:37,279 --> 00:08:40,399
+how many states of these
+
+202
+00:08:39,440 --> 00:08:42,399
+um
+
+203
+00:08:40,399 --> 00:08:44,480
+how many states right
+
+204
+00:08:42,399 --> 00:08:46,800
+how many look at that
+
+205
+00:08:44,480 --> 00:08:49,440
+no no how many states there are n n
+
+206
+00:08:46,800 --> 00:08:51,600
+possibilities here and f k possibility
+
+207
+00:08:49,440 --> 00:08:53,519
+how many total states
+
+208
+00:08:51,600 --> 00:08:54,959
+n times k okay
+
+209
+00:08:53,519 --> 00:08:57,680
+and the time conducts the space
+
+210
+00:08:54,959 --> 00:09:00,000
+complexity is also uh and o n times k
+
+211
+00:08:57,680 --> 00:09:03,279
+why is that because they are and most o
+
+212
+00:09:00,000 --> 00:09:06,880
+and uh n times k states we need to
+
+213
+00:09:03,279 --> 00:09:08,320
+memorize minimize yeah minimalism
+
+214
+00:09:06,880 --> 00:09:11,519
+okay so what does this mean look at oh
+
+215
+00:09:08,320 --> 00:09:13,120
+and okay so we can do a tree here we can
+
+216
+00:09:11,519 --> 00:09:16,160
+do a tree
+
+217
+00:09:13,120 --> 00:09:16,160
+we can do a tree okay
+
+218
+00:09:16,240 --> 00:09:21,279
+okay so for example
+
+219
+00:09:18,240 --> 00:09:24,240
+at the beginning we put f00 and then
+
+220
+00:09:21,279 --> 00:09:26,080
+we need to go from f1
+
+221
+00:09:24,240 --> 00:09:29,519
+f1 0
+
+222
+00:09:26,080 --> 00:09:31,120
+and then leads to f1
+
+223
+00:09:29,519 --> 00:09:34,880
+1 right look
+
+224
+00:09:31,120 --> 00:09:39,120
+f1 0 again you go to f2
+
+225
+00:09:34,880 --> 00:09:44,399
+cll and then plus what f2 right you see
+
+226
+00:09:39,120 --> 00:09:47,200
+so f1 will go to f to zlo and
+
+227
+00:09:44,399 --> 00:09:47,200
+f2
+
+228
+00:09:47,600 --> 00:09:54,080
+f22 again right is it two no no f2 one
+
+229
+00:09:50,959 --> 00:09:56,320
+look f2 zero f21 here so what's the
+
+230
+00:09:54,080 --> 00:09:59,440
+problem here if i i'm just iterating at
+
+231
+00:09:56,320 --> 00:10:02,000
+least a few iterations the problem is
+
+232
+00:09:59,440 --> 00:10:03,040
+what look look at here
+
+233
+00:10:02,000 --> 00:10:04,959
+this one
+
+234
+00:10:03,040 --> 00:10:08,000
+two zero
+
+235
+00:10:04,959 --> 00:10:08,959
+and here f two zero as well right
+
+236
+00:10:08,000 --> 00:10:11,200
+so
+
+237
+00:10:08,959 --> 00:10:13,440
+once twice so i the first time i
+
+238
+00:10:11,200 --> 00:10:15,360
+calculate it i i i minimize it i
+
+239
+00:10:13,440 --> 00:10:18,000
+memorize it right so when i calculate
+
+240
+00:10:15,360 --> 00:10:19,519
+this one i don't have to explain the
+
+241
+00:10:18,000 --> 00:10:21,120
+tree here right
+
+242
+00:10:19,519 --> 00:10:23,920
+for example you take one day you spend
+
+243
+00:10:21,120 --> 00:10:27,040
+one day in this tree right you spend one
+
+244
+00:10:23,920 --> 00:10:29,600
+day finding out the f21 value but here
+
+245
+00:10:27,040 --> 00:10:31,680
+you want to calculate f to one
+
+246
+00:10:29,600 --> 00:10:33,519
+f to zero here
+
+247
+00:10:31,680 --> 00:10:37,120
+do you need to spend another one data
+
+248
+00:10:33,519 --> 00:10:39,440
+why is that because i remember this yeah
+
+249
+00:10:37,120 --> 00:10:42,160
+yeah exactly so i put it down i put it
+
+250
+00:10:39,440 --> 00:10:43,920
+down on the notebook hash table
+
+251
+00:10:42,160 --> 00:10:46,640
+right it's the same thing
+
+252
+00:10:43,920 --> 00:10:48,640
+you work out a very complex complicated
+
+253
+00:10:46,640 --> 00:10:49,600
+mathematic problem
+
+254
+00:10:48,640 --> 00:10:51,920
+right
+
+255
+00:10:49,600 --> 00:10:54,000
+you put it down on your notebook
+
+256
+00:10:51,920 --> 00:10:55,920
+the next day you find out okay it's the
+
+257
+00:10:54,000 --> 00:10:58,000
+same question do you still have to go
+
+258
+00:10:55,920 --> 00:11:01,440
+through this right you just look it up
+
+259
+00:10:58,000 --> 00:11:04,000
+right you just tell teddy okay i know it
+
+260
+00:11:01,440 --> 00:11:05,760
+click a one constant right so that's how
+
+261
+00:11:04,000 --> 00:11:07,600
+we speed up
+
+262
+00:11:05,760 --> 00:11:09,519
+using this cache okay this is this is
+
+263
+00:11:07,600 --> 00:11:12,640
+quite similar to fibonacci number
+
+264
+00:11:09,519 --> 00:11:16,000
+remember what's fibonacci number
+
+265
+00:11:12,640 --> 00:11:17,839
+what's fibonacci number one one
+
+266
+00:11:16,000 --> 00:11:18,959
+two what's the next fibonacci number
+
+267
+00:11:17,839 --> 00:11:20,000
+three
+
+268
+00:11:18,959 --> 00:11:21,360
+five
+
+269
+00:11:20,000 --> 00:11:24,240
+eight
+
+270
+00:11:21,360 --> 00:11:26,839
+thirteen etcetera yeah exactly f i
+
+271
+00:11:24,240 --> 00:11:30,560
+equals twenty one
+
+272
+00:11:26,839 --> 00:11:33,200
+yeah plus plus f i plus look so the
+
+273
+00:11:30,560 --> 00:11:34,880
+first two numbers equals the added
+
+274
+00:11:33,200 --> 00:11:36,560
+together will be the next number yeah so
+
+275
+00:11:34,880 --> 00:11:40,640
+this number is
+
+276
+00:11:36,560 --> 00:11:43,200
+f n equals f n minus one plus f n minus
+
+277
+00:11:40,640 --> 00:11:45,680
+two that is quite similar to this yeah
+
+278
+00:11:43,200 --> 00:11:47,760
+so you expand this uh fibonacci you'll
+
+279
+00:11:45,680 --> 00:11:50,560
+find lots of these
+
+280
+00:11:47,760 --> 00:11:52,320
+f values are repeated so we have to
+
+281
+00:11:50,560 --> 00:11:53,440
+cache it right that's the magic of
+
+282
+00:11:52,320 --> 00:11:56,079
+caching
+
+283
+00:11:53,440 --> 00:11:57,600
+here okay so here is the same yeah for
+
+284
+00:11:56,079 --> 00:11:59,760
+each game
+
+285
+00:11:57,600 --> 00:12:01,680
+this is top-down top-down dynamic
+
+286
+00:11:59,760 --> 00:12:04,240
+programming using recursion instead
+
+287
+00:12:01,680 --> 00:12:05,600
+using the keywords minimization so at
+
+288
+00:12:04,240 --> 00:12:08,959
+this game
+
+289
+00:12:05,600 --> 00:12:11,839
+we we know we have already played i game
+
+290
+00:12:08,959 --> 00:12:14,160
+ice game yeah and then we have j
+
+291
+00:12:11,839 --> 00:12:16,639
+consecutive win and so if we play the
+
+292
+00:12:14,160 --> 00:12:17,920
+next game we have two possibilities
+
+293
+00:12:16,639 --> 00:12:19,920
+either win
+
+294
+00:12:17,920 --> 00:12:22,720
+continuous straight yes straight what
+
+295
+00:12:19,920 --> 00:12:22,720
+this means check
+
+296
+00:12:22,800 --> 00:12:27,040
+straight yeah
+
+297
+00:12:24,720 --> 00:12:29,680
+we continue we win we keep the stretch
+
+298
+00:12:27,040 --> 00:12:32,079
+oh we lose we reset it to zero right
+
+299
+00:12:29,680 --> 00:12:35,360
+easy right yeah and then we finish the
+
+300
+00:12:32,079 --> 00:12:38,399
+game uh when i equals n we return one
+
+301
+00:12:35,360 --> 00:12:40,480
+yeah because at this point j why we can
+
+302
+00:12:38,399 --> 00:12:42,720
+return one here because at this point j
+
+303
+00:12:40,480 --> 00:12:45,040
+is smaller or equal k why is that
+
+304
+00:12:42,720 --> 00:12:46,639
+because if j is bigger than k we already
+
+305
+00:12:45,040 --> 00:12:47,839
+be ten zero okay
+
+306
+00:12:46,639 --> 00:12:50,959
+yeah
+
+307
+00:12:47,839 --> 00:12:54,920
+that'll be it for today good job
+
+308
+00:12:50,959 --> 00:12:54,920
+bye bye bye
+
