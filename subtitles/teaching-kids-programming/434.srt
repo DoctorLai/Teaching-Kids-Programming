@@ -1,0 +1,1104 @@
+1
+00:00:05,120 --> 00:00:10,160
+okay so yesterday we talked about the uh
+
+2
+00:00:07,359 --> 00:00:12,719
+the subset one two three and one
+
+3
+00:00:10,160 --> 00:00:15,200
+how many subsets of that
+
+4
+00:00:12,719 --> 00:00:17,359
+eight yeah eight because there are n
+
+5
+00:00:15,200 --> 00:00:18,480
+numbers 10 unique numbers so we have
+
+6
+00:00:17,359 --> 00:00:20,320
+total
+
+7
+00:00:18,480 --> 00:00:23,039
+2 to the power of n
+
+8
+00:00:20,320 --> 00:00:25,119
+for why is that that's very easy to
+
+9
+00:00:23,039 --> 00:00:27,680
+think of here yeah but for each number
+
+10
+00:00:25,119 --> 00:00:30,000
+we have two choice we include we will
+
+11
+00:00:27,680 --> 00:00:32,399
+pick this number in a subset or we don't
+
+12
+00:00:30,000 --> 00:00:34,880
+pick it so now we can choice and then n
+
+13
+00:00:32,399 --> 00:00:37,760
+of it so it's 2 times 2 times 2 here 2
+
+14
+00:00:34,880 --> 00:00:40,160
+to the power 2 times negative 2 that
+
+15
+00:00:37,760 --> 00:00:41,120
+will be n 2 so that's 2 to the power of
+
+16
+00:00:40,160 --> 00:00:44,239
+n ok
+
+17
+00:00:41,120 --> 00:00:45,120
+so we use this backtracking so for each
+
+18
+00:00:44,239 --> 00:00:46,580
+one
+
+19
+00:00:45,120 --> 00:00:47,840
+uh define
+
+20
+00:00:46,580 --> 00:00:50,960
+[Music]
+
+21
+00:00:47,840 --> 00:00:53,280
+the fs we have this current set
+
+22
+00:00:50,960 --> 00:00:57,360
+conversation and then we are looking at
+
+23
+00:00:53,280 --> 00:01:00,160
+ice numbers so if we literally n
+
+24
+00:00:57,360 --> 00:01:03,199
+n is the numbers of the
+
+25
+00:01:00,160 --> 00:01:05,920
+original unique numbers and then we want
+
+26
+00:01:03,199 --> 00:01:08,400
+to put all the subsets into this list
+
+27
+00:01:05,920 --> 00:01:11,760
+and the list and if i equals m we reach
+
+28
+00:01:08,400 --> 00:01:14,000
+the end and we answer the append
+
+29
+00:01:11,760 --> 00:01:15,600
+a pen we append a copy of the current
+
+30
+00:01:14,000 --> 00:01:18,560
+set so
+
+31
+00:01:15,600 --> 00:01:21,119
+yeah these symbol means the copy so we
+
+32
+00:01:18,560 --> 00:01:23,759
+all we can also do this copy copy here
+
+33
+00:01:21,119 --> 00:01:27,200
+right and then we can
+
+34
+00:01:23,759 --> 00:01:29,600
+otherwise we have two choice which is
+
+35
+00:01:27,200 --> 00:01:33,040
+if we don't pick it we move to the next
+
+36
+00:01:29,600 --> 00:01:37,200
+number or if we pick it we include it in
+
+37
+00:01:33,040 --> 00:01:39,520
+the current subset which is nums i yeah
+
+38
+00:01:37,200 --> 00:01:43,040
+and then we move to the next number and
+
+39
+00:01:39,520 --> 00:01:45,119
+then dfs start with entities the first
+
+40
+00:01:43,040 --> 00:01:48,399
+number return
+
+41
+00:01:45,119 --> 00:01:50,320
+answer yeah easy okay
+
+42
+00:01:48,399 --> 00:01:52,320
+okay so today we're going to solve this
+
+43
+00:01:50,320 --> 00:01:54,320
+problem slightly different okay so by
+
+44
+00:01:52,320 --> 00:01:57,040
+looking look this is a very good good
+
+45
+00:01:54,320 --> 00:01:59,439
+thing is that we know the number of uh
+
+46
+00:01:57,040 --> 00:02:01,759
+subset total is 2 to the power of n okay
+
+47
+00:01:59,439 --> 00:02:04,799
+so let's find let's look at this number
+
+48
+00:02:01,759 --> 00:02:06,640
+yeah look zero to the three numbers from
+
+49
+00:02:04,799 --> 00:02:09,679
+zero to seven
+
+50
+00:02:06,640 --> 00:02:11,200
+so zero in binary is let's just look at
+
+51
+00:02:09,679 --> 00:02:13,680
+three digits okay because that's three
+
+52
+00:02:11,200 --> 00:02:16,319
+numbers zero zero zero
+
+53
+00:02:13,680 --> 00:02:20,239
+one is zero zero one
+
+54
+00:02:16,319 --> 00:02:21,360
+two is zero one zero three is zero one
+
+55
+00:02:20,239 --> 00:02:22,959
+one okay can you tell me four what's
+
+56
+00:02:21,360 --> 00:02:26,080
+four
+
+57
+00:02:22,959 --> 00:02:28,480
+five six seven okay so can you tell me
+
+58
+00:02:26,080 --> 00:02:30,720
+the binary for this number four is i
+
+59
+00:02:28,480 --> 00:02:32,640
+give i start first one zero zero okay
+
+60
+00:02:30,720 --> 00:02:34,160
+five
+
+61
+00:02:32,640 --> 00:02:36,400
+what's five
+
+62
+00:02:34,160 --> 00:02:36,400
+uh
+
+63
+00:02:38,700 --> 00:02:41,780
+[Music]
+
+64
+00:02:47,280 --> 00:02:52,959
+yeah you see always it's like uh
+
+65
+00:02:50,080 --> 00:02:54,879
+you know this is the the significant bit
+
+66
+00:02:52,959 --> 00:02:56,640
+at least it's the most significant bit
+
+67
+00:02:54,879 --> 00:02:58,959
+so look from the right hand side we call
+
+68
+00:02:56,640 --> 00:03:00,480
+it asb from the left hand side we call
+
+69
+00:02:58,959 --> 00:03:03,360
+it msb
+
+70
+00:03:00,480 --> 00:03:05,760
+yeah most significant bit okay
+
+71
+00:03:03,360 --> 00:03:07,760
+so each bit this is 2 to the power of 0
+
+72
+00:03:05,760 --> 00:03:09,680
+2 to the power of 1 2 to the power 2.
+
+73
+00:03:07,760 --> 00:03:12,080
+okay so that's the most interesting part
+
+74
+00:03:09,680 --> 00:03:14,319
+here okay if it is 0 0
+
+75
+00:03:12,080 --> 00:03:17,440
+the the subset is
+
+76
+00:03:14,319 --> 00:03:19,120
+empty this if it's 1 1 1 is one two
+
+77
+00:03:17,440 --> 00:03:21,599
+three okay
+
+78
+00:03:19,120 --> 00:03:24,879
+okay and then zero zero one
+
+79
+00:03:21,599 --> 00:03:28,159
+zero zero one let's it's one
+
+80
+00:03:24,879 --> 00:03:28,959
+okay zero one zero is two
+
+81
+00:03:28,159 --> 00:03:31,280
+okay
+
+82
+00:03:28,959 --> 00:03:33,519
+zero one one is one two
+
+83
+00:03:31,280 --> 00:03:36,000
+and then this is three
+
+84
+00:03:33,519 --> 00:03:38,080
+this is one three
+
+85
+00:03:36,000 --> 00:03:40,000
+okay so can you tell me one one zero
+
+86
+00:03:38,080 --> 00:03:42,480
+what's this what does that correspond to
+
+87
+00:03:40,000 --> 00:03:44,560
+i give you the most look
+
+88
+00:03:42,480 --> 00:03:46,560
+one one zero
+
+89
+00:03:44,560 --> 00:03:48,799
+anybody right
+
+90
+00:03:46,560 --> 00:03:51,840
+one one zero what does it give us
+
+91
+00:03:48,799 --> 00:03:54,319
+two three totally wired
+
+92
+00:03:51,840 --> 00:03:55,660
+okay so can you tell me why oh yeah can
+
+93
+00:03:54,319 --> 00:03:57,760
+you tell me
+
+94
+00:03:55,660 --> 00:04:00,959
+[Music]
+
+95
+00:03:57,760 --> 00:04:00,959
+and this is one and
+
+96
+00:04:04,879 --> 00:04:08,720
+there are three digits so that's a good
+
+97
+00:04:06,560 --> 00:04:11,120
+thing three digits in the number three
+
+98
+00:04:08,720 --> 00:04:14,400
+right so if it is yellow we don't pick
+
+99
+00:04:11,120 --> 00:04:16,000
+it if it's one we pick it easy right so
+
+100
+00:04:14,400 --> 00:04:18,160
+look look at this
+
+101
+00:04:16,000 --> 00:04:19,680
+one one zero zero we pick the three we
+
+102
+00:04:18,160 --> 00:04:22,720
+don't pick the seals
+
+103
+00:04:19,680 --> 00:04:23,600
+first uh and one and two so no desire
+
+104
+00:04:22,720 --> 00:04:26,320
+easy
+
+105
+00:04:23,600 --> 00:04:28,320
+so we can just we can just iterate over
+
+106
+00:04:26,320 --> 00:04:29,680
+this number and then by checking each
+
+107
+00:04:28,320 --> 00:04:31,840
+bit
+
+108
+00:04:29,680 --> 00:04:34,240
+okay by checking each people just
+
+109
+00:04:31,840 --> 00:04:36,960
+we just need to check if each bit is set
+
+110
+00:04:34,240 --> 00:04:39,199
+if it's set then we pick it in a subset
+
+111
+00:04:36,960 --> 00:04:40,800
+if not then we skip it okay
+
+112
+00:04:39,199 --> 00:04:42,800
+and that will be
+
+113
+00:04:40,800 --> 00:04:44,639
+okay i'm going to keep this but i'm
+
+114
+00:04:42,800 --> 00:04:47,280
+going to rewrite this bit okay so this
+
+115
+00:04:44,639 --> 00:04:48,720
+is called kind called uh
+
+116
+00:04:47,280 --> 00:04:51,120
+big masking
+
+117
+00:04:48,720 --> 00:04:54,120
+quick masking fit
+
+118
+00:04:51,120 --> 00:04:54,120
+masking
+
+119
+00:04:56,240 --> 00:04:59,840
+each bit zero or one
+
+120
+00:04:58,240 --> 00:05:02,400
+masking what mask
+
+121
+00:04:59,840 --> 00:05:04,800
+you put a mask yeah masking so every
+
+122
+00:05:02,400 --> 00:05:08,080
+time i look at one number and one bit to
+
+123
+00:05:04,800 --> 00:05:09,280
+see if it's zero or one okay so
+
+124
+00:05:08,080 --> 00:05:11,360
+define
+
+125
+00:05:09,280 --> 00:05:13,520
+the subset
+
+126
+00:05:11,360 --> 00:05:17,039
+these numbers i'm going to write it okay
+
+127
+00:05:13,520 --> 00:05:18,400
+it could be shorter right so the answer
+
+128
+00:05:17,039 --> 00:05:22,560
+and this is
+
+129
+00:05:18,400 --> 00:05:25,680
+n equals the length of numbers yeah
+
+130
+00:05:22,560 --> 00:05:27,440
+we assume all the numbers in the subset
+
+131
+00:05:25,680 --> 00:05:28,960
+are unique okay
+
+132
+00:05:27,440 --> 00:05:29,919
+four
+
+133
+00:05:28,960 --> 00:05:33,440
+i
+
+134
+00:05:29,919 --> 00:05:35,919
+in range n right so we're good no not
+
+135
+00:05:33,440 --> 00:05:37,520
+range and range two to the power of n
+
+136
+00:05:35,919 --> 00:05:39,680
+right two to the power and we can say
+
+137
+00:05:37,520 --> 00:05:41,039
+power to n of
+
+138
+00:05:39,680 --> 00:05:44,720
+1
+
+139
+00:05:41,039 --> 00:05:46,080
+60 and position okay so okay so here is
+
+140
+00:05:44,720 --> 00:05:47,360
+the thing
+
+141
+00:05:46,080 --> 00:05:49,680
+power
+
+142
+00:05:47,360 --> 00:05:50,800
+2 to the power of n this is 2 to the
+
+143
+00:05:49,680 --> 00:05:53,199
+power n
+
+144
+00:05:50,800 --> 00:05:54,960
+one shift is shifting n this is the same
+
+145
+00:05:53,199 --> 00:05:56,000
+thing is two to the power and why is
+
+146
+00:05:54,960 --> 00:05:57,520
+that look
+
+147
+00:05:56,000 --> 00:05:58,560
+two to the power of
+
+148
+00:05:57,520 --> 00:06:00,000
+three
+
+149
+00:05:58,560 --> 00:06:01,520
+is eight yeah
+
+150
+00:06:00,000 --> 00:06:03,680
+this is power
+
+151
+00:06:01,520 --> 00:06:05,520
+two to the power three and then one
+
+152
+00:06:03,680 --> 00:06:07,600
+shift is fifty three what does it mean
+
+153
+00:06:05,520 --> 00:06:09,759
+look i have one here
+
+154
+00:06:07,600 --> 00:06:12,479
+i sift in one position to the left i put
+
+155
+00:06:09,759 --> 00:06:14,960
+a zero in binary i shifted another
+
+156
+00:06:12,479 --> 00:06:16,960
+position to the left i put another zero
+
+157
+00:06:14,960 --> 00:06:18,000
+i shifted another one
+
+158
+00:06:16,960 --> 00:06:19,600
+okay
+
+159
+00:06:18,000 --> 00:06:21,840
+three zero and yeah what's this in
+
+160
+00:06:19,600 --> 00:06:21,840
+binary
+
+161
+00:06:22,080 --> 00:06:25,600
+what's this in binary come on
+
+162
+00:06:25,919 --> 00:06:30,400
+yeah it's there okay hey exactly because
+
+163
+00:06:28,880 --> 00:06:31,360
+this is one
+
+164
+00:06:30,400 --> 00:06:33,600
+two
+
+165
+00:06:31,360 --> 00:06:35,600
+four eight okay
+
+166
+00:06:33,600 --> 00:06:37,039
+so this is the same thing okay so this
+
+167
+00:06:35,600 --> 00:06:40,560
+is the same thing as
+
+168
+00:06:37,039 --> 00:06:43,039
+s power two to the power and four
+
+169
+00:06:40,560 --> 00:06:45,280
+power using the mass power two n okay
+
+170
+00:06:43,039 --> 00:06:47,680
+this is the same thing now we go through
+
+171
+00:06:45,280 --> 00:06:50,800
+this i now we need to go through these
+
+172
+00:06:47,680 --> 00:06:51,599
+this numbers yeah so for
+
+173
+00:06:50,800 --> 00:06:54,319
+j
+
+174
+00:06:51,599 --> 00:06:56,800
+in range we want to go through we want
+
+175
+00:06:54,319 --> 00:06:59,039
+to check each element to see if it's one
+
+176
+00:06:56,800 --> 00:07:00,000
+or zero so in range
+
+177
+00:06:59,039 --> 00:07:02,479
+n
+
+178
+00:07:00,000 --> 00:07:04,880
+right so then we need to check if
+
+179
+00:07:02,479 --> 00:07:07,199
+i okay so this is the binary this is the
+
+180
+00:07:04,880 --> 00:07:09,039
+one i want to check check these this
+
+181
+00:07:07,199 --> 00:07:09,919
+number so j
+
+182
+00:07:09,039 --> 00:07:11,759
+and
+
+183
+00:07:09,919 --> 00:07:13,440
+okay this is finally
+
+184
+00:07:11,759 --> 00:07:15,280
+one
+
+185
+00:07:13,440 --> 00:07:18,800
+shifty shifty j
+
+186
+00:07:15,280 --> 00:07:21,599
+then i put this current
+
+187
+00:07:18,800 --> 00:07:21,599
+dot append
+
+188
+00:07:22,240 --> 00:07:26,560
+nums j okay
+
+189
+00:07:24,800 --> 00:07:28,400
+i'm going to tell you why okay these
+
+190
+00:07:26,560 --> 00:07:30,319
+carbons equal
+
+191
+00:07:28,400 --> 00:07:32,960
+each neuron
+
+192
+00:07:30,319 --> 00:07:36,560
+the current current is empty list and if
+
+193
+00:07:32,960 --> 00:07:38,080
+this speed is set we include that
+
+194
+00:07:36,560 --> 00:07:40,160
+that number
+
+195
+00:07:38,080 --> 00:07:42,560
+in the current set and an answer for
+
+196
+00:07:40,160 --> 00:07:44,879
+each one we have a new subset
+
+197
+00:07:42,560 --> 00:07:47,680
+a pen
+
+198
+00:07:44,879 --> 00:07:47,680
+current okay
+
+199
+00:07:48,000 --> 00:07:51,840
+and then we can answer here that will be
+
+200
+00:07:49,680 --> 00:07:52,879
+written answer
+
+201
+00:07:51,840 --> 00:07:54,879
+okay so
+
+202
+00:07:52,879 --> 00:07:58,080
+so this is the most difficult part to
+
+203
+00:07:54,879 --> 00:07:59,199
+understand what's this mean okay this i
+
+204
+00:07:58,080 --> 00:08:00,160
+and
+
+205
+00:07:59,199 --> 00:08:02,639
+i
+
+206
+00:08:00,160 --> 00:08:05,680
+i is this number yeah i
+
+207
+00:08:02,639 --> 00:08:08,240
+i is this number this binary so j for
+
+208
+00:08:05,680 --> 00:08:12,160
+example the second one the second one
+
+209
+00:08:08,240 --> 00:08:13,840
+the bit is represent is one shifty 50
+
+210
+00:08:12,160 --> 00:08:16,160
+one which is
+
+211
+00:08:13,840 --> 00:08:19,039
+which is one zero in binary zero one
+
+212
+00:08:16,160 --> 00:08:21,280
+zero the the third bit
+
+213
+00:08:19,039 --> 00:08:24,319
+third bit is
+
+214
+00:08:21,280 --> 00:08:27,919
+zero one zero zero okay so basically one
+
+215
+00:08:24,319 --> 00:08:32,159
+shift j j is the index so for third for
+
+216
+00:08:27,919 --> 00:08:35,760
+the third number is 1 50
+
+217
+00:08:32,159 --> 00:08:38,640
+j which is two zero one two okay two so
+
+218
+00:08:35,760 --> 00:08:40,399
+this is two to the power of
+
+219
+00:08:38,640 --> 00:08:41,839
+what 2 to the power of
+
+220
+00:08:40,399 --> 00:08:44,240
+2 to the power of
+
+221
+00:08:41,839 --> 00:08:46,160
+how many 2 to the power of 0 2 to the
+
+222
+00:08:44,240 --> 00:08:49,120
+power 1 2 to the power 2
+
+223
+00:08:46,160 --> 00:08:51,920
+2 to the power of 2 equals 4 so the
+
+224
+00:08:49,120 --> 00:08:55,440
+bit the big masking for the third digit
+
+225
+00:08:51,920 --> 00:08:56,800
+is 1 0 0 right so if any of these
+
+226
+00:08:55,440 --> 00:08:59,279
+numbers
+
+227
+00:08:56,800 --> 00:09:02,080
+end to the n operation
+
+228
+00:08:59,279 --> 00:09:04,080
+and operation by this number if we give
+
+229
+00:09:02,080 --> 00:09:05,440
+it smaller than 0 then we need to
+
+230
+00:09:04,080 --> 00:09:06,839
+include this number this is the same
+
+231
+00:09:05,440 --> 00:09:08,720
+thing what's
+
+232
+00:09:06,839 --> 00:09:11,440
+n and
+
+233
+00:09:08,720 --> 00:09:14,160
+and then we talk about this n in in if
+
+234
+00:09:11,440 --> 00:09:15,920
+statement yeah if eric is a good boy and
+
+235
+00:09:14,160 --> 00:09:17,279
+ryan is a good boy
+
+236
+00:09:15,920 --> 00:09:18,959
+i give you
+
+237
+00:09:17,279 --> 00:09:22,880
+both
+
+238
+00:09:18,959 --> 00:09:22,880
+uh ultraviolet pens uh
+
+239
+00:09:24,480 --> 00:09:28,800
+yeah
+
+240
+00:09:25,360 --> 00:09:30,399
+or if eric is a good boy or ryan is a
+
+241
+00:09:28,800 --> 00:09:32,800
+good boy
+
+242
+00:09:30,399 --> 00:09:33,760
+and i will give you
+
+243
+00:09:32,800 --> 00:09:36,959
+both
+
+244
+00:09:33,760 --> 00:09:40,399
+uh a pop right so all is that at least
+
+245
+00:09:36,959 --> 00:09:43,040
+one of it and is that both needs to be
+
+246
+00:09:40,399 --> 00:09:44,320
+true right so in binary it's the same
+
+247
+00:09:43,040 --> 00:09:48,720
+thing one
+
+248
+00:09:44,320 --> 00:09:50,000
+and one is one one and zero is what
+
+249
+00:09:48,720 --> 00:09:52,959
+cl n
+
+250
+00:09:50,000 --> 00:09:54,959
+zero zero and one is zero
+
+251
+00:09:52,959 --> 00:09:57,279
+zero and one is zero one and zero is
+
+252
+00:09:54,959 --> 00:09:59,440
+zero zero and zero
+
+253
+00:09:57,279 --> 00:10:02,480
+is zero okay so this is the same thing
+
+254
+00:09:59,440 --> 00:10:05,760
+as the if right so
+
+255
+00:10:02,480 --> 00:10:08,320
+it will be one only if both sides are
+
+256
+00:10:05,760 --> 00:10:10,240
+one if one of them is one it's not
+
+257
+00:10:08,320 --> 00:10:11,920
+enough okay so this is the same thing
+
+258
+00:10:10,240 --> 00:10:14,480
+okay and and
+
+259
+00:10:11,920 --> 00:10:14,480
+then the n
+
+260
+00:10:14,800 --> 00:10:19,920
+okay so look at this term complexity
+
+261
+00:10:16,800 --> 00:10:21,600
+this is o to 2 to the power of n
+
+262
+00:10:19,920 --> 00:10:24,240
+and for each one we need to iterate
+
+263
+00:10:21,600 --> 00:10:25,519
+anytime so some complexity is
+
+264
+00:10:24,240 --> 00:10:27,519
+o
+
+265
+00:10:25,519 --> 00:10:30,240
+n times
+
+266
+00:10:27,519 --> 00:10:31,040
+2 to the power of n okay right because
+
+267
+00:10:30,240 --> 00:10:33,519
+look
+
+268
+00:10:31,040 --> 00:10:36,720
+this iterate the inner loop literally
+
+269
+00:10:33,519 --> 00:10:38,880
+and time the outer loop it raised
+
+270
+00:10:36,720 --> 00:10:39,680
+two to the n times right
+
+271
+00:10:38,880 --> 00:10:40,480
+antenna
+
+272
+00:10:39,680 --> 00:10:44,640
+and
+
+273
+00:10:40,480 --> 00:10:46,959
+and iterate uh success okay
+
+274
+00:10:44,640 --> 00:10:48,800
+yeah okay that's it for today good job
+
+275
+00:10:46,959 --> 00:10:52,040
+bye bye
+
+276
+00:10:48,800 --> 00:10:52,040
+bye bye
+
