@@ -18,7 +18,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 - B 站: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
 - 西瓜视频: [https://www.ixigua.com/home/1399016302059111](https://www.ixigua.com/home/1399016302059111)
 
-<a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee"></a>
+<a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://user-images.githubusercontent.com/1764434/161362754-c45a85d3-5c80-4e10-b05c-62af49291d0b.png" alt="Buy me a Coffee"/></a>
 
 # Subtitles
 You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-Kids-Programming/tree/main/subtitles)
