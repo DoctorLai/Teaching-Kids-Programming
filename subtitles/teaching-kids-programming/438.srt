@@ -1,0 +1,1176 @@
+1
+00:00:00,000 --> 00:00:05,359
+go hey
+
+2
+00:00:02,240 --> 00:00:06,960
+hello mr harry mr ryan are you all right
+
+3
+00:00:05,359 --> 00:00:09,440
+okay so today let's talk about the
+
+4
+00:00:06,960 --> 00:00:10,559
+binary tree again okay fine number three
+
+5
+00:00:09,440 --> 00:00:11,599
+one
+
+6
+00:00:10,559 --> 00:00:12,799
+two
+
+7
+00:00:11,599 --> 00:00:13,679
+three
+
+8
+00:00:12,799 --> 00:00:17,040
+four
+
+9
+00:00:13,679 --> 00:00:17,040
+five nine binary
+
+10
+00:00:25,840 --> 00:00:31,119
+the leaves do not have any kids right
+
+11
+00:00:28,320 --> 00:00:32,320
+yeah how many how many notes are besides
+
+12
+00:00:31,119 --> 00:00:33,600
+their parents
+
+13
+00:00:32,320 --> 00:00:37,200
+um
+
+14
+00:00:33,600 --> 00:00:39,760
+three and the one we love the parents
+
+15
+00:00:37,200 --> 00:00:41,520
+okay so if we remove the leaves now what
+
+16
+00:00:39,760 --> 00:00:44,079
+what do we get
+
+17
+00:00:41,520 --> 00:00:44,079
+we don't need
+
+18
+00:00:46,640 --> 00:00:50,559
+okay so now how many leaves are there
+
+19
+00:00:49,440 --> 00:00:52,480
+all right
+
+20
+00:00:50,559 --> 00:00:55,039
+how many leaves are there
+
+21
+00:00:52,480 --> 00:00:57,760
+um one
+
+22
+00:00:55,039 --> 00:00:59,920
+which is two right see we keep removing
+
+23
+00:00:57,760 --> 00:01:02,160
+it that would be one okay and then that
+
+24
+00:00:59,920 --> 00:01:04,239
+would be the only note left that would
+
+25
+00:01:02,160 --> 00:01:06,320
+be moving because the single note is
+
+26
+00:01:04,239 --> 00:01:08,320
+also a leaf okay so then we will move it
+
+27
+00:01:06,320 --> 00:01:10,479
+so look the first term
+
+28
+00:01:08,320 --> 00:01:11,439
+the first time we remove which is three
+
+29
+00:01:10,479 --> 00:01:14,080
+four
+
+30
+00:01:11,439 --> 00:01:14,880
+the second time we remove which is the
+
+31
+00:01:14,080 --> 00:01:16,240
+two
+
+32
+00:01:14,880 --> 00:01:17,190
+the third time
+
+33
+00:01:16,240 --> 00:01:18,720
+is one okay
+
+34
+00:01:17,190 --> 00:01:21,920
+[Music]
+
+35
+00:01:18,720 --> 00:01:24,720
+do i make myself clear yeah
+
+36
+00:01:21,920 --> 00:01:28,000
+okay so okay let me repeat it
+
+37
+00:01:24,720 --> 00:01:30,880
+basically we are removing the leaf nose
+
+38
+00:01:28,000 --> 00:01:32,720
+and here we cannot okay so look first
+
+39
+00:01:30,880 --> 00:01:34,079
+time we remove the three four which is
+
+40
+00:01:32,720 --> 00:01:35,840
+under this note
+
+41
+00:01:34,079 --> 00:01:38,079
+and then it become one two and we keep
+
+42
+00:01:35,840 --> 00:01:41,360
+removing the two which is the leaf now
+
+43
+00:01:38,079 --> 00:01:43,840
+and they become one which uh
+
+44
+00:01:41,360 --> 00:01:46,720
+but we remove okay okay
+
+45
+00:01:43,840 --> 00:01:49,360
+okay that's right right okay so
+
+46
+00:01:46,720 --> 00:01:50,799
+how do we do it i mean how do we do it
+
+47
+00:01:49,360 --> 00:01:53,520
+with
+
+48
+00:01:50,799 --> 00:01:56,399
+with this kind of problem yeah remember
+
+49
+00:01:53,520 --> 00:01:57,439
+uh we talked about remove remove the
+
+50
+00:01:56,399 --> 00:01:59,520
+leaves
+
+51
+00:01:57,439 --> 00:02:01,280
+yeah of the final tree yeah remove the
+
+52
+00:01:59,520 --> 00:02:03,119
+even leaves yeah we talked about these
+
+53
+00:02:01,280 --> 00:02:04,719
+before right but now this is the
+
+54
+00:02:03,119 --> 00:02:06,719
+slightly a little bit different right
+
+55
+00:02:04,719 --> 00:02:09,039
+because we need to keep removing the
+
+56
+00:02:06,719 --> 00:02:11,360
+leaves until we cannot right so the best
+
+57
+00:02:09,039 --> 00:02:14,160
+way to do it is to uh
+
+58
+00:02:11,360 --> 00:02:15,120
+definitely search right remember
+
+59
+00:02:14,160 --> 00:02:16,000
+so
+
+60
+00:02:15,120 --> 00:02:17,840
+so
+
+61
+00:02:16,000 --> 00:02:20,879
+look at this how do we apply the
+
+62
+00:02:17,840 --> 00:02:23,360
+different search here the key point here
+
+63
+00:02:20,879 --> 00:02:25,280
+right is that look three and four this
+
+64
+00:02:23,360 --> 00:02:27,599
+is the
+
+65
+00:02:25,280 --> 00:02:30,480
+three and four we need to remove it
+
+66
+00:02:27,599 --> 00:02:32,480
+first and then two and then one
+
+67
+00:02:30,480 --> 00:02:34,000
+so if we can
+
+68
+00:02:32,480 --> 00:02:37,280
+can
+
+69
+00:02:34,000 --> 00:02:38,160
+so if we can remove if we can store the
+
+70
+00:02:37,280 --> 00:02:41,200
+num
+
+71
+00:02:38,160 --> 00:02:43,519
+the leaves yeah by their levels so let's
+
+72
+00:02:41,200 --> 00:02:45,840
+keep a dictionary which is called data
+
+73
+00:02:43,519 --> 00:02:48,720
+which the keys would be the level okay
+
+74
+00:02:45,840 --> 00:02:50,959
+what are the depth okay steps
+
+75
+00:02:48,720 --> 00:02:53,120
+next steps yeah remember the depths and
+
+76
+00:02:50,959 --> 00:02:54,400
+then little points to the lead to the
+
+77
+00:02:53,120 --> 00:02:56,720
+nose okay
+
+78
+00:02:54,400 --> 00:02:59,680
+to the notes
+
+79
+00:02:56,720 --> 00:03:01,680
+so look here one two three so let's
+
+80
+00:02:59,680 --> 00:03:04,239
+let's look at these
+
+81
+00:03:01,680 --> 00:03:06,560
+these four okay these four look if it's
+
+82
+00:03:04,239 --> 00:03:09,120
+an empty note the the number is zero
+
+83
+00:03:06,560 --> 00:03:12,080
+okay so look if we're looking if we do
+
+84
+00:03:09,120 --> 00:03:13,599
+this different search bottom arm yeah
+
+85
+00:03:12,080 --> 00:03:16,640
+so the note
+
+86
+00:03:13,599 --> 00:03:18,720
+the empty note has the depth still
+
+87
+00:03:16,640 --> 00:03:20,720
+the single leaf now has the text one
+
+88
+00:03:18,720 --> 00:03:22,800
+here this is next one right
+
+89
+00:03:20,720 --> 00:03:25,040
+here here is this one
+
+90
+00:03:22,800 --> 00:03:27,280
+why i want to do it
+
+91
+00:03:25,040 --> 00:03:28,799
+yeah that's one
+
+92
+00:03:27,280 --> 00:03:30,640
+yeah this here
+
+93
+00:03:28,799 --> 00:03:32,480
+step two
+
+94
+00:03:30,640 --> 00:03:34,799
+right here
+
+95
+00:03:32,480 --> 00:03:37,280
+definitely
+
+96
+00:03:34,799 --> 00:03:40,959
+why is that look because this each note
+
+97
+00:03:37,280 --> 00:03:43,120
+the depth will be determined by the left
+
+98
+00:03:40,959 --> 00:03:44,400
+the depth of the left tree and the depth
+
+99
+00:03:43,120 --> 00:03:46,879
+of right tree
+
+100
+00:03:44,400 --> 00:03:48,959
+plus one right right
+
+101
+00:03:46,879 --> 00:03:50,720
+yeah so look
+
+102
+00:03:48,959 --> 00:03:52,799
+what what's the no what's the depth on
+
+103
+00:03:50,720 --> 00:03:54,850
+this one
+
+104
+00:03:52,799 --> 00:03:56,720
+what's the depth of this one
+
+105
+00:03:54,850 --> 00:03:59,120
+[Music]
+
+106
+00:03:56,720 --> 00:04:00,879
+what's the terms of this one two why is
+
+107
+00:03:59,120 --> 00:04:02,159
+it 2 no look
+
+108
+00:04:00,879 --> 00:04:04,480
+why is 2
+
+109
+00:04:02,159 --> 00:04:07,280
+that's not never level is 2. i'm saying
+
+110
+00:04:04,480 --> 00:04:09,840
+the test that's what steps that is the
+
+111
+00:04:07,280 --> 00:04:11,680
+maximum of the 8 of the left 3 and the
+
+112
+00:04:09,840 --> 00:04:15,040
+right 3 plus 1
+
+113
+00:04:11,680 --> 00:04:19,359
+right so what i'm saying if the t equals
+
+114
+00:04:15,040 --> 00:04:19,359
+zero if the note is empty
+
+115
+00:04:20,560 --> 00:04:26,479
+all right so these notes are one always
+
+116
+00:04:23,120 --> 00:04:27,440
+one right look so this one is one right
+
+117
+00:04:26,479 --> 00:04:30,960
+yeah
+
+118
+00:04:27,440 --> 00:04:33,600
+this one is one look this is two and one
+
+119
+00:04:30,960 --> 00:04:35,120
+so i'm standing at that note one yeah
+
+120
+00:04:33,600 --> 00:04:37,280
+rooted one right
+
+121
+00:04:35,120 --> 00:04:39,440
+so it's the left tree
+
+122
+00:04:37,280 --> 00:04:41,919
+this has the depth too this has the
+
+123
+00:04:39,440 --> 00:04:43,600
+that's one the maximum will be the two
+
+124
+00:04:41,919 --> 00:04:46,320
+and now we get the maximum plus one that
+
+125
+00:04:43,600 --> 00:04:48,000
+would be a three okay
+
+126
+00:04:46,320 --> 00:04:49,360
+that makes sense yeah
+
+127
+00:04:48,000 --> 00:04:51,759
+okay
+
+128
+00:04:49,360 --> 00:04:53,280
+so let's do this uh let's find this uh
+
+129
+00:04:51,759 --> 00:04:55,199
+test okay so
+
+130
+00:04:53,280 --> 00:04:57,840
+find the test and then we can put it in
+
+131
+00:04:55,199 --> 00:05:00,400
+the dictionary
+
+132
+00:04:57,840 --> 00:05:01,600
+put it in the dictionary okay so let's
+
+133
+00:05:00,400 --> 00:05:03,280
+define
+
+134
+00:05:01,600 --> 00:05:05,120
+that for that
+
+135
+00:05:03,280 --> 00:05:06,639
+no
+
+136
+00:05:05,120 --> 00:05:08,960
+okay so let's define this function
+
+137
+00:05:06,639 --> 00:05:11,520
+return the maximum test come on if not
+
+138
+00:05:08,960 --> 00:05:14,639
+dude what should we return not do if the
+
+139
+00:05:11,520 --> 00:05:16,960
+loser is empty what should we pretend
+
+140
+00:05:14,639 --> 00:05:19,280
+the depth is what if not what should we
+
+141
+00:05:16,960 --> 00:05:19,280
+return
+
+142
+00:05:20,320 --> 00:05:24,880
+zero yeah obviously yeah okay then what
+
+143
+00:05:22,720 --> 00:05:27,199
+let me call the left one we call it the
+
+144
+00:05:24,880 --> 00:05:29,039
+first search recursion yeah blue dot
+
+145
+00:05:27,199 --> 00:05:31,680
+left right
+
+146
+00:05:29,039 --> 00:05:34,080
+and then right can you can you copy can
+
+147
+00:05:31,680 --> 00:05:38,000
+you can you do this y equals what come
+
+148
+00:05:34,080 --> 00:05:39,600
+on left equals definitely y equals one
+
+149
+00:05:38,000 --> 00:05:41,039
+i'm here
+
+150
+00:05:39,600 --> 00:05:44,320
+yeah
+
+151
+00:05:41,039 --> 00:05:44,320
+yeah obviously yeah
+
+152
+00:05:44,639 --> 00:05:49,039
+and then look now the current level
+
+153
+00:05:47,199 --> 00:05:50,479
+current level current depth current
+
+154
+00:05:49,039 --> 00:05:53,440
+depth
+
+155
+00:05:50,479 --> 00:05:54,240
+equals the maximum
+
+156
+00:05:53,440 --> 00:05:57,360
+right
+
+157
+00:05:54,240 --> 00:05:59,280
+maximum what the left
+
+158
+00:05:57,360 --> 00:06:01,919
+and the right
+
+159
+00:05:59,280 --> 00:06:03,840
+uh what should we do plus one here right
+
+160
+00:06:01,919 --> 00:06:07,560
+yeah and then we need to return this
+
+161
+00:06:03,840 --> 00:06:07,560
+steps here return
+
+162
+00:06:07,600 --> 00:06:10,800
+okay so now we need to put we need to
+
+163
+00:06:09,919 --> 00:06:13,840
+store
+
+164
+00:06:10,800 --> 00:06:16,479
+the note this note
+
+165
+00:06:13,840 --> 00:06:18,880
+by the desk this would be a dictionary
+
+166
+00:06:16,479 --> 00:06:21,360
+which is the key will be the level
+
+167
+00:06:18,880 --> 00:06:23,280
+will it will be the depth okay
+
+168
+00:06:21,360 --> 00:06:26,240
+okay confusion death
+
+169
+00:06:23,280 --> 00:06:27,919
+death is not equal to level okay
+
+170
+00:06:26,240 --> 00:06:30,400
+yeah when we talk about level let's
+
+171
+00:06:27,919 --> 00:06:33,039
+level by level pressure search right
+
+172
+00:06:30,400 --> 00:06:35,360
+now the dictionary let's call it data
+
+173
+00:06:33,039 --> 00:06:37,120
+data default dictionary yeah we can do
+
+174
+00:06:35,360 --> 00:06:39,199
+it before dictionary
+
+175
+00:06:37,120 --> 00:06:40,000
+the default dictionary which is the list
+
+176
+00:06:39,199 --> 00:06:43,280
+type
+
+177
+00:06:40,000 --> 00:06:45,039
+yeah and then we can do this data
+
+178
+00:06:43,280 --> 00:06:46,639
+data
+
+179
+00:06:45,039 --> 00:06:48,880
+depth
+
+180
+00:06:46,639 --> 00:06:53,360
+dot apparent
+
+181
+00:06:48,880 --> 00:06:55,120
+apparently the value okay do the value
+
+182
+00:06:53,360 --> 00:06:58,319
+why can we do this
+
+183
+00:06:55,120 --> 00:07:01,039
+because list is deposition or at least
+
+184
+00:06:58,319 --> 00:07:03,280
+right if we don't do this definition if
+
+185
+00:07:01,039 --> 00:07:04,880
+we declare the dictionary like this a
+
+186
+00:07:03,280 --> 00:07:06,080
+simple dictionary yeah this is
+
+187
+00:07:04,880 --> 00:07:07,919
+sympathetic
+
+188
+00:07:06,080 --> 00:07:10,160
+we can't do this because these steps
+
+189
+00:07:07,919 --> 00:07:12,720
+might not be the key may not be existent
+
+190
+00:07:10,160 --> 00:07:15,039
+and we have to do this theta
+
+191
+00:07:12,720 --> 00:07:15,039
+that's
+
+192
+00:07:15,520 --> 00:07:19,520
+equals
+
+193
+00:07:17,039 --> 00:07:20,960
+theta we can use the get function get
+
+194
+00:07:19,520 --> 00:07:23,039
+the level
+
+195
+00:07:20,960 --> 00:07:25,599
+get the depth level
+
+196
+00:07:23,039 --> 00:07:27,120
+and then if this key is not existing we
+
+197
+00:07:25,599 --> 00:07:29,680
+return a simple
+
+198
+00:07:27,120 --> 00:07:31,120
+empty and then plus
+
+199
+00:07:29,680 --> 00:07:34,319
+plus a
+
+200
+00:07:31,120 --> 00:07:36,720
+plus root of value okay this is uh
+
+201
+00:07:34,319 --> 00:07:40,800
+this is this is the way to go if we if
+
+202
+00:07:36,720 --> 00:07:42,960
+we are using the simple dictionary right
+
+203
+00:07:40,800 --> 00:07:44,639
+the same partition right using this way
+
+204
+00:07:42,960 --> 00:07:47,440
+compared to the default dictionary the
+
+205
+00:07:44,639 --> 00:07:49,520
+main the main difference is that look if
+
+206
+00:07:47,440 --> 00:07:52,160
+we declare additionally using this way
+
+207
+00:07:49,520 --> 00:07:54,000
+if a key is not existent
+
+208
+00:07:52,160 --> 00:07:54,960
+the computer will screen
+
+209
+00:07:54,000 --> 00:07:56,960
+okay
+
+210
+00:07:54,960 --> 00:07:58,400
+but for the default decision before
+
+211
+00:07:56,960 --> 00:08:01,039
+before yeah
+
+212
+00:07:58,400 --> 00:08:04,319
+what's default we'll talk about this the
+
+213
+00:08:01,039 --> 00:08:06,319
+you know the preset value if the key is
+
+214
+00:08:04,319 --> 00:08:08,479
+not existing it means that okay if the
+
+215
+00:08:06,319 --> 00:08:11,759
+key is not existing then you will
+
+216
+00:08:08,479 --> 00:08:14,240
+you will give us a default value
+
+217
+00:08:11,759 --> 00:08:16,240
+of the type list which is
+
+218
+00:08:14,240 --> 00:08:17,039
+entities okay right
+
+219
+00:08:16,240 --> 00:08:18,639
+yeah
+
+220
+00:08:17,039 --> 00:08:21,120
+okay so now look
+
+221
+00:08:18,639 --> 00:08:23,120
+now this data depth so the data for
+
+222
+00:08:21,120 --> 00:08:24,400
+points for this one yeah let's write one
+
+223
+00:08:23,120 --> 00:08:27,120
+two
+
+224
+00:08:24,400 --> 00:08:28,560
+three four
+
+225
+00:08:27,120 --> 00:08:30,879
+right come on
+
+226
+00:08:28,560 --> 00:08:32,479
+yeah okay
+
+227
+00:08:30,879 --> 00:08:35,200
+look at this look at this final three
+
+228
+00:08:32,479 --> 00:08:37,519
+again so after this step search what do
+
+229
+00:08:35,200 --> 00:08:39,919
+we have this data
+
+230
+00:08:37,519 --> 00:08:40,959
+data this is additional area okay so
+
+231
+00:08:39,919 --> 00:08:42,880
+never
+
+232
+00:08:40,959 --> 00:08:46,959
+this is level one
+
+233
+00:08:42,880 --> 00:08:50,720
+level one will be three and four okay
+
+234
+00:08:46,959 --> 00:08:53,200
+level two will be only these two right
+
+235
+00:08:50,720 --> 00:08:54,880
+level three will be one okay
+
+236
+00:08:53,200 --> 00:08:57,279
+and then what should we return we want
+
+237
+00:08:54,880 --> 00:09:00,640
+to return these this value which is what
+
+238
+00:08:57,279 --> 00:09:00,640
+we which is what come on
+
+239
+00:09:00,959 --> 00:09:06,480
+this is the keys d what's this
+
+240
+00:09:03,360 --> 00:09:08,480
+the values where done so we written data
+
+241
+00:09:06,480 --> 00:09:09,440
+value just that
+
+242
+00:09:08,480 --> 00:09:11,120
+return
+
+243
+00:09:09,440 --> 00:09:15,120
+first of all we do the step research to
+
+244
+00:09:11,120 --> 00:09:17,680
+do the obviously we call it and return
+
+245
+00:09:15,120 --> 00:09:18,560
+data dot values
+
+246
+00:09:17,680 --> 00:09:20,800
+okay
+
+247
+00:09:18,560 --> 00:09:22,800
+data value will be this one look do you
+
+248
+00:09:20,800 --> 00:09:24,080
+see this one
+
+249
+00:09:22,800 --> 00:09:26,320
+one
+
+250
+00:09:24,080 --> 00:09:28,640
+this is the depth of the nose three
+
+251
+00:09:26,320 --> 00:09:31,680
+three and four this is that one
+
+252
+00:09:28,640 --> 00:09:34,880
+left two number two or that's two
+
+253
+00:09:31,680 --> 00:09:36,480
+two step three one okay why is that look
+
+254
+00:09:34,880 --> 00:09:38,240
+the left and right
+
+255
+00:09:36,480 --> 00:09:41,920
+the depth the current depth is the
+
+256
+00:09:38,240 --> 00:09:43,600
+maximum of left or right platform
+
+257
+00:09:41,920 --> 00:09:47,279
+make sense
+
+258
+00:09:43,600 --> 00:09:47,279
+the time complexity definite search
+
+259
+00:09:47,400 --> 00:09:50,640
+[Music]
+
+260
+00:09:48,800 --> 00:09:52,560
+n it's the number of notes in the binary
+
+261
+00:09:50,640 --> 00:09:54,880
+tree okay because each note gets visited
+
+262
+00:09:52,560 --> 00:09:55,839
+one space complexity is the same again
+
+263
+00:09:54,880 --> 00:09:56,959
+okay
+
+264
+00:09:55,839 --> 00:09:58,959
+yeah
+
+265
+00:09:56,959 --> 00:10:01,600
+okay so what have you learned today the
+
+266
+00:09:58,959 --> 00:10:04,640
+last question about tweet about let's
+
+267
+00:10:01,600 --> 00:10:04,640
+leave what
+
+268
+00:10:05,320 --> 00:10:11,040
+[Music]
+
+269
+00:10:08,320 --> 00:10:13,279
+yeah so okay so okay let me give you a
+
+270
+00:10:11,040 --> 00:10:14,800
+quick question okay
+
+271
+00:10:13,279 --> 00:10:16,000
+five
+
+272
+00:10:14,800 --> 00:10:19,200
+six
+
+273
+00:10:16,000 --> 00:10:20,320
+seven okay so what should we return
+
+274
+00:10:19,200 --> 00:10:22,560
+what's your opinion
+
+275
+00:10:20,320 --> 00:10:24,240
+this one two four three five six seven
+
+276
+00:10:22,560 --> 00:10:26,800
+okay what should we return three five
+
+277
+00:10:24,240 --> 00:10:27,680
+six seven three five six seven okay and
+
+278
+00:10:26,800 --> 00:10:28,720
+then
+
+279
+00:10:27,680 --> 00:10:31,200
+two four
+
+280
+00:10:28,720 --> 00:10:32,880
+two four and then one exactly this is
+
+281
+00:10:31,200 --> 00:10:36,240
+easy how about if i don't have this
+
+282
+00:10:32,880 --> 00:10:39,040
+right three six five three six five
+
+283
+00:10:36,240 --> 00:10:41,839
+yeah three five six i mean uh yeah and
+
+284
+00:10:39,040 --> 00:10:43,760
+then two four and then one okay so this
+
+285
+00:10:41,839 --> 00:10:47,360
+is probably easy okay how about this if
+
+286
+00:10:43,760 --> 00:10:48,240
+i give you another one so seven
+
+287
+00:10:47,360 --> 00:10:51,440
+seven
+
+288
+00:10:48,240 --> 00:10:53,680
+uh-huh and then one three five six
+
+289
+00:10:51,440 --> 00:10:55,760
+three seven six yeah
+
+290
+00:10:53,680 --> 00:10:56,880
+five
+
+291
+00:10:55,760 --> 00:11:00,160
+two
+
+292
+00:10:56,880 --> 00:11:02,079
+five four five four yeah two two yeah
+
+293
+00:11:00,160 --> 00:11:05,800
+exactly okay got it okay that's it for
+
+294
+00:11:02,079 --> 00:11:05,800
+today good job bye
+

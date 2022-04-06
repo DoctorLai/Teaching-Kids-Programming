@@ -1,0 +1,1332 @@
+1
+00:00:00,000 --> 00:00:03,919
+hello miss eric misali all right
+
+2
+00:00:02,320 --> 00:00:06,240
+okay so let's talk about the largest
+
+3
+00:00:03,919 --> 00:00:08,559
+unique number today very easy simple
+
+4
+00:00:06,240 --> 00:00:10,000
+questions last is unique number what's
+
+5
+00:00:08,559 --> 00:00:12,639
+unique
+
+6
+00:00:10,000 --> 00:00:14,719
+uh the different tibialis
+
+7
+00:00:12,639 --> 00:00:17,119
+that's right unique okay
+
+8
+00:00:14,719 --> 00:00:18,000
+okay two two one
+
+9
+00:00:17,119 --> 00:00:20,080
+four
+
+10
+00:00:18,000 --> 00:00:22,080
+minus one what's the largest unique
+
+11
+00:00:20,080 --> 00:00:23,519
+number four okay how about if i put
+
+12
+00:00:22,080 --> 00:00:25,680
+another four here what's the largest
+
+13
+00:00:23,519 --> 00:00:27,279
+unique number one
+
+14
+00:00:25,680 --> 00:00:29,599
+okay
+
+15
+00:00:27,279 --> 00:00:31,519
+one okay if i put another one what's
+
+16
+00:00:29,599 --> 00:00:33,600
+that this is one
+
+17
+00:00:31,519 --> 00:00:35,360
+okay let's change it to minus seven
+
+18
+00:00:33,600 --> 00:00:38,320
+minus seven yeah
+
+19
+00:00:35,360 --> 00:00:40,640
+what if both of them are what if they're
+
+20
+00:00:38,320 --> 00:00:42,960
+like four four four now we don't have
+
+21
+00:00:40,640 --> 00:00:44,640
+unique numbers right two two one one
+
+22
+00:00:42,960 --> 00:00:47,520
+minus seven minus seven four four in
+
+23
+00:00:44,640 --> 00:00:49,039
+this case we return minus one okay
+
+24
+00:00:47,520 --> 00:00:51,280
+easy okay
+
+25
+00:00:49,039 --> 00:00:54,000
+okay
+
+26
+00:00:51,280 --> 00:00:55,680
+any idea are you ryan all you have to do
+
+27
+00:00:54,000 --> 00:00:57,760
+is use counter
+
+28
+00:00:55,680 --> 00:01:00,239
+counter where that exactly counter is
+
+29
+00:00:57,760 --> 00:01:02,320
+basically like a hash table to
+
+30
+00:01:00,239 --> 00:01:05,439
+to store the frequencies for each
+
+31
+00:01:02,320 --> 00:01:08,640
+element so if we do this counter thing
+
+32
+00:01:05,439 --> 00:01:10,880
+define okay so largest unique number l u
+
+33
+00:01:08,640 --> 00:01:14,400
+n okay numbers
+
+34
+00:01:10,880 --> 00:01:16,880
+easy so we just c equals counter
+
+35
+00:01:14,400 --> 00:01:19,439
+so once we do these numbers counters
+
+36
+00:01:16,880 --> 00:01:21,520
+here so what does it give us it give us
+
+37
+00:01:19,439 --> 00:01:23,680
+a key additionally key value so for
+
+38
+00:01:21,520 --> 00:01:27,280
+example 2 2 1 1
+
+39
+00:01:23,680 --> 00:01:28,880
+3 okay if we do if these numbers is here
+
+40
+00:01:27,280 --> 00:01:30,240
+it's this one
+
+41
+00:01:28,880 --> 00:01:33,680
+okay
+
+42
+00:01:30,240 --> 00:01:36,880
+then if we do this counter counter c
+
+43
+00:01:33,680 --> 00:01:39,360
+equals counter numbers
+
+44
+00:01:36,880 --> 00:01:42,960
+what do we have what do we have the c is
+
+45
+00:01:39,360 --> 00:01:45,759
+actually a dictionary so two appears two
+
+46
+00:01:42,960 --> 00:01:47,600
+times one appears two times three appear
+
+47
+00:01:45,759 --> 00:01:50,880
+one time okay yeah
+
+48
+00:01:47,600 --> 00:01:53,680
+so these are the keys
+
+49
+00:01:50,880 --> 00:01:55,200
+these are the values and values are the
+
+50
+00:01:53,680 --> 00:01:56,719
+frequency
+
+51
+00:01:55,200 --> 00:01:58,479
+okay c dot
+
+52
+00:01:56,719 --> 00:02:00,560
+c dot keys
+
+53
+00:01:58,479 --> 00:02:03,600
+which has two one three see the values
+
+54
+00:02:00,560 --> 00:02:06,079
+return two to one see the items between
+
+55
+00:02:03,600 --> 00:02:08,640
+an array of tuples couple of tuples
+
+56
+00:02:06,079 --> 00:02:08,640
+tuple yeah
+
+57
+00:02:13,120 --> 00:02:18,080
+is basically a way of list
+
+58
+00:02:16,080 --> 00:02:20,080
+two two
+
+59
+00:02:18,080 --> 00:02:22,800
+uh one two
+
+60
+00:02:20,080 --> 00:02:25,920
+and three one okay so we call it
+
+61
+00:02:22,800 --> 00:02:28,720
+we use the c dot equal well in this case
+
+62
+00:02:25,920 --> 00:02:30,480
+the c stores the frequency and
+
+63
+00:02:28,720 --> 00:02:32,319
+the frequency for each unique numbers
+
+64
+00:02:30,480 --> 00:02:33,840
+now we have just have to check the if
+
+65
+00:02:32,319 --> 00:02:36,480
+it's unique and then we get a maximum
+
+66
+00:02:33,840 --> 00:02:38,879
+okay let's do this answer
+
+67
+00:02:36,480 --> 00:02:40,879
+answer equals and the beginning with 75
+
+68
+00:02:38,879 --> 00:02:43,360
+minus one if we can find it okay then we
+
+69
+00:02:40,879 --> 00:02:50,080
+go through these keys therefore
+
+70
+00:02:43,360 --> 00:02:51,920
+key right to my key value in c the items
+
+71
+00:02:50,080 --> 00:02:54,400
+yeah we talk about see the item here
+
+72
+00:02:51,920 --> 00:02:56,400
+okay so the key k is the number v is
+
+73
+00:02:54,400 --> 00:02:59,519
+that how many times they appear now we
+
+74
+00:02:56,400 --> 00:03:01,120
+can say if we equal equal one if we
+
+75
+00:02:59,519 --> 00:03:03,120
+equal equal what happened what does it
+
+76
+00:03:01,120 --> 00:03:05,040
+mean if the frequency appear only one
+
+77
+00:03:03,120 --> 00:03:07,920
+time what does it mean
+
+78
+00:03:05,040 --> 00:03:07,920
+what's it what does it mean
+
+79
+00:03:08,319 --> 00:03:12,480
+then it's uh
+
+80
+00:03:10,640 --> 00:03:14,720
+if it appears only one time what
+
+81
+00:03:12,480 --> 00:03:14,720
+happened
+
+82
+00:03:15,440 --> 00:03:20,879
+exactly if it's you if it's uh
+
+83
+00:03:18,400 --> 00:03:24,319
+one because they appear only one times
+
+84
+00:03:20,879 --> 00:03:26,560
+and also the key the this number is
+
+85
+00:03:24,319 --> 00:03:28,319
+bigger than the answer yeah then we can
+
+86
+00:03:26,560 --> 00:03:30,840
+say answer equals
+
+87
+00:03:28,319 --> 00:03:34,239
+t okay and then return answer
+
+88
+00:03:30,840 --> 00:03:36,959
+easy okay yeah so the time to next state
+
+89
+00:03:34,239 --> 00:03:39,599
+hash table or when going through these
+
+90
+00:03:36,959 --> 00:03:41,920
+items away please we can change this
+
+91
+00:03:39,599 --> 00:03:43,200
+four lines one two three four lines into
+
+92
+00:03:41,920 --> 00:03:45,040
+one line okay
+
+93
+00:03:43,200 --> 00:03:46,879
+return
+
+94
+00:03:45,040 --> 00:03:48,720
+maximum
+
+95
+00:03:46,879 --> 00:03:50,720
+maximum was
+
+96
+00:03:48,720 --> 00:03:52,159
+uh maximum
+
+97
+00:03:50,720 --> 00:03:54,640
+okay okay
+
+98
+00:03:52,159 --> 00:03:56,560
+okay we we pretend uh this is list or
+
+99
+00:03:54,640 --> 00:03:58,879
+tuple internet k
+
+100
+00:03:56,560 --> 00:04:00,720
+we want to determine the maximum key
+
+101
+00:03:58,879 --> 00:04:02,000
+for k
+
+102
+00:04:00,720 --> 00:04:03,120
+v
+
+103
+00:04:02,000 --> 00:04:06,159
+in
+
+104
+00:04:03,120 --> 00:04:06,159
+c dot items
+
+105
+00:04:06,400 --> 00:04:11,760
+if v equal equal one okay
+
+106
+00:04:09,360 --> 00:04:13,439
+now we use this or we can use the list
+
+107
+00:04:11,760 --> 00:04:16,720
+alternate doesn't matter know you have
+
+108
+00:04:13,439 --> 00:04:19,440
+to give us d4
+
+109
+00:04:16,720 --> 00:04:21,519
+fine before equals minus one so the
+
+110
+00:04:19,440 --> 00:04:22,880
+second parameter look d4 equals minus
+
+111
+00:04:21,519 --> 00:04:25,600
+one follow up
+
+112
+00:04:22,880 --> 00:04:28,000
+okay that's very funny okay for the
+
+113
+00:04:25,600 --> 00:04:29,759
+maximum
+
+114
+00:04:28,000 --> 00:04:31,680
+maximum function
+
+115
+00:04:29,759 --> 00:04:33,840
+second parameter we can supply of a
+
+116
+00:04:31,680 --> 00:04:36,240
+parameter d4 equals minus one what does
+
+117
+00:04:33,840 --> 00:04:37,600
+mean it means that even this is empty if
+
+118
+00:04:36,240 --> 00:04:39,120
+at least is empty we can't find the
+
+119
+00:04:37,600 --> 00:04:41,040
+maximum and then we should keep the
+
+120
+00:04:39,120 --> 00:04:43,600
+minus one so it's basically this the
+
+121
+00:04:41,040 --> 00:04:46,080
+same as this your answer equals one look
+
+122
+00:04:43,600 --> 00:04:48,320
+if we can't find anything
+
+123
+00:04:46,080 --> 00:04:49,280
+if we can't find anything
+
+124
+00:04:48,320 --> 00:04:51,360
+uh
+
+125
+00:04:49,280 --> 00:04:52,800
+equals one right so that would be ten
+
+126
+00:04:51,360 --> 00:04:54,960
+okay so
+
+127
+00:04:52,800 --> 00:04:57,360
+yeah look if we can't find the unique
+
+128
+00:04:54,960 --> 00:04:59,360
+number these answers will never be
+
+129
+00:04:57,360 --> 00:05:01,120
+updated right so it will return to minus
+
+130
+00:04:59,360 --> 00:05:03,919
+one here okay
+
+131
+00:05:01,120 --> 00:05:06,160
+so that's default default means that if
+
+132
+00:05:03,919 --> 00:05:08,639
+if okay so let's go back to this okay if
+
+133
+00:05:06,160 --> 00:05:12,240
+the list is empty max i want to get the
+
+134
+00:05:08,639 --> 00:05:14,880
+maximum value of this of a number right
+
+135
+00:05:12,240 --> 00:05:17,440
+you can always get the maximum there is
+
+136
+00:05:14,880 --> 00:05:18,320
+always a maximum value for for a list am
+
+137
+00:05:17,440 --> 00:05:21,680
+right
+
+138
+00:05:18,320 --> 00:05:22,960
+unless unless this is empty
+
+139
+00:05:21,680 --> 00:05:24,960
+yeah
+
+140
+00:05:22,960 --> 00:05:26,960
+if you haven't okay so put it this way
+
+141
+00:05:24,960 --> 00:05:29,680
+if i haven't given you
+
+142
+00:05:26,960 --> 00:05:32,320
+numbers what's the maximum value
+
+143
+00:05:29,680 --> 00:05:34,880
+nothing nothing yeah d4
+
+144
+00:05:32,320 --> 00:05:37,280
+before equals minus one is minor that's
+
+145
+00:05:34,880 --> 00:05:39,440
+what it comes from in okay
+
+146
+00:05:37,280 --> 00:05:41,280
+okay uh the second
+
+147
+00:05:39,440 --> 00:05:42,720
+second way is like if how about if we
+
+148
+00:05:41,280 --> 00:05:44,639
+can solve this number
+
+149
+00:05:42,720 --> 00:05:46,560
+if we solve the number what happens look
+
+150
+00:05:44,639 --> 00:05:47,680
+if it is two two one one three if we saw
+
+151
+00:05:46,560 --> 00:05:50,240
+the number
+
+152
+00:05:47,680 --> 00:05:52,720
+what do we have
+
+153
+00:05:50,240 --> 00:05:55,280
+if we saw the number what do we have
+
+154
+00:05:52,720 --> 00:05:56,960
+so we we sort it yeah we can sort it so
+
+155
+00:05:55,280 --> 00:05:58,639
+we can say the numbers
+
+156
+00:05:56,960 --> 00:06:00,479
+stop solved
+
+157
+00:05:58,639 --> 00:06:02,479
+if we sort it that will become the
+
+158
+00:06:00,479 --> 00:06:05,199
+numbers will become one
+
+159
+00:06:02,479 --> 00:06:07,520
+one two two three okay
+
+160
+00:06:05,199 --> 00:06:09,600
+yeah different numbers we if we sort it
+
+161
+00:06:07,520 --> 00:06:11,199
+what's the time complexity if we sort of
+
+162
+00:06:09,600 --> 00:06:14,400
+uh a list
+
+163
+00:06:11,199 --> 00:06:14,400
+what's the time complexity
+
+164
+00:06:14,960 --> 00:06:17,600
+sorry
+
+165
+00:06:16,000 --> 00:06:19,919
+okay
+
+166
+00:06:17,600 --> 00:06:23,280
+what's the time complexity to sort a
+
+167
+00:06:19,919 --> 00:06:23,280
+list of the numbers
+
+168
+00:06:24,080 --> 00:06:27,840
+okay so now if we sort it then we can
+
+169
+00:06:25,840 --> 00:06:30,639
+use the group by okay so if we use the
+
+170
+00:06:27,840 --> 00:06:32,560
+group and then we'll be the adjacent let
+
+171
+00:06:30,639 --> 00:06:34,240
+the similar the same values will be
+
+172
+00:06:32,560 --> 00:06:35,919
+grouped together and then we can check
+
+173
+00:06:34,240 --> 00:06:38,479
+we will introduce ourselves the same
+
+174
+00:06:35,919 --> 00:06:41,680
+okay so number thought okay let's sort
+
+175
+00:06:38,479 --> 00:06:43,520
+and then we can do this return is quite
+
+176
+00:06:41,680 --> 00:06:44,960
+similar max
+
+177
+00:06:43,520 --> 00:06:45,919
+max uh
+
+178
+00:06:44,960 --> 00:06:47,039
+k
+
+179
+00:06:45,919 --> 00:06:49,280
+for
+
+180
+00:06:47,039 --> 00:06:52,000
+k v
+
+181
+00:06:49,280 --> 00:06:55,039
+in grew by
+
+182
+00:06:52,000 --> 00:06:56,479
+goodbye goodbye what do you go by numbs
+
+183
+00:06:55,039 --> 00:06:58,880
+yeah
+
+184
+00:06:56,479 --> 00:07:00,880
+okay we should we can sort it
+
+185
+00:06:58,880 --> 00:07:03,280
+in the balance or we can put if we don't
+
+186
+00:07:00,880 --> 00:07:06,000
+sort it here we can do this sorted nouns
+
+187
+00:07:03,280 --> 00:07:09,280
+here the iterator sorted is the same
+
+188
+00:07:06,000 --> 00:07:09,280
+salty nums okay
+
+189
+00:07:10,479 --> 00:07:14,720
+certain nouns grew by
+
+190
+00:07:13,039 --> 00:07:17,919
+if
+
+191
+00:07:14,720 --> 00:07:21,680
+if length the v this is the iterator to
+
+192
+00:07:17,919 --> 00:07:24,319
+the list then we can length list v
+
+193
+00:07:21,680 --> 00:07:25,360
+equal equal one okay
+
+194
+00:07:24,319 --> 00:07:28,319
+and then
+
+195
+00:07:25,360 --> 00:07:30,000
+p4 equals d4
+
+196
+00:07:28,319 --> 00:07:31,840
+equals minus one okay this is the same
+
+197
+00:07:30,000 --> 00:07:34,240
+thing okay so it's quite similar max i
+
+198
+00:07:31,840 --> 00:07:35,360
+want to get the key key is the numbers
+
+199
+00:07:34,240 --> 00:07:36,160
+and for v
+
+200
+00:07:35,360 --> 00:07:38,160
+uh
+
+201
+00:07:36,160 --> 00:07:40,080
+uh v is the
+
+202
+00:07:38,160 --> 00:07:42,560
+the grooves of this
+
+203
+00:07:40,080 --> 00:07:44,479
+of of the the similar values the same
+
+204
+00:07:42,560 --> 00:07:46,240
+values okay and then you say iterator we
+
+205
+00:07:44,479 --> 00:07:47,840
+have to convert it to the list and we
+
+206
+00:07:46,240 --> 00:07:49,599
+check the last thing with one if it's
+
+207
+00:07:47,840 --> 00:07:51,360
+one it means that it's a unique number
+
+208
+00:07:49,599 --> 00:07:53,199
+right between the one
+
+209
+00:07:51,360 --> 00:07:54,800
+the d4 the same
+
+210
+00:07:53,199 --> 00:07:56,639
+if we don't specify the default and if
+
+211
+00:07:54,800 --> 00:07:58,800
+we can't find what happens if we don't
+
+212
+00:07:56,639 --> 00:08:00,960
+specify the difference is that
+
+213
+00:07:58,800 --> 00:08:02,720
+if they are not unique numbers so this
+
+214
+00:08:00,960 --> 00:08:04,400
+the the first parameter the list will be
+
+215
+00:08:02,720 --> 00:08:06,400
+empty and we're trying to get this
+
+216
+00:08:04,400 --> 00:08:08,879
+maximum value of the empty value whether
+
+217
+00:08:06,400 --> 00:08:10,479
+your the computer will screen
+
+218
+00:08:08,879 --> 00:08:13,360
+because it doesn't know
+
+219
+00:08:10,479 --> 00:08:16,800
+it doesn't find it can't find a maximum
+
+220
+00:08:13,360 --> 00:08:18,400
+value if you don't give it anything
+
+221
+00:08:16,800 --> 00:08:19,599
+right and your screen
+
+222
+00:08:18,400 --> 00:08:21,840
+that's why i would put that before
+
+223
+00:08:19,599 --> 00:08:23,440
+equals manufacturing okay
+
+224
+00:08:21,840 --> 00:08:25,599
+yeah okay
+
+225
+00:08:23,440 --> 00:08:27,599
+okay so the third method the last one
+
+226
+00:08:25,599 --> 00:08:29,520
+okay so if we say in these numbers are
+
+227
+00:08:27,599 --> 00:08:31,599
+between zero to a thousand and one okay
+
+228
+00:08:29,520 --> 00:08:34,399
+so if this value these values are
+
+229
+00:08:31,599 --> 00:08:36,399
+between zero to a thousand what happened
+
+230
+00:08:34,399 --> 00:08:38,240
+what can we do
+
+231
+00:08:36,399 --> 00:08:41,240
+if these values are between zero to a
+
+232
+00:08:38,240 --> 00:08:41,240
+thousand
+
+233
+00:08:52,839 --> 00:08:56,800
+okay by the way when we are where we
+
+234
+00:08:55,120 --> 00:08:59,360
+talk about the second method yeah which
+
+235
+00:08:56,800 --> 00:09:01,839
+is using the group group yeah group we
+
+236
+00:08:59,360 --> 00:09:03,760
+saw the numbers oh and again
+
+237
+00:09:01,839 --> 00:09:05,519
+and then if you like numbers similar
+
+238
+00:09:03,760 --> 00:09:08,800
+values the same values are together we
+
+239
+00:09:05,519 --> 00:09:10,880
+can group them right yeah we can groom
+
+240
+00:09:08,800 --> 00:09:12,640
+them right yeah google man i know we can
+
+241
+00:09:10,880 --> 00:09:15,040
+count it look this is quite the same get
+
+242
+00:09:12,640 --> 00:09:15,040
+started
+
+243
+00:09:16,080 --> 00:09:19,839
+but
+
+244
+00:09:16,880 --> 00:09:21,200
+the third method is if okay let's say if
+
+245
+00:09:19,839 --> 00:09:23,440
+these numbers are between zero to a
+
+246
+00:09:21,200 --> 00:09:25,360
+thousand now we can count in a bucket
+
+247
+00:09:23,440 --> 00:09:26,880
+what does it mean we have a thousand and
+
+248
+00:09:25,360 --> 00:09:29,040
+one bucket
+
+249
+00:09:26,880 --> 00:09:30,720
+and now we can count each bucket
+
+250
+00:09:29,040 --> 00:09:32,640
+right okay so look
+
+251
+00:09:30,720 --> 00:09:34,399
+the river these numbers are between zero
+
+252
+00:09:32,640 --> 00:09:35,279
+to a thousand okay and how do we do it
+
+253
+00:09:34,399 --> 00:09:37,200
+look
+
+254
+00:09:35,279 --> 00:09:39,279
+easy
+
+255
+00:09:37,200 --> 00:09:40,160
+easy if these numbers are between zeros
+
+256
+00:09:39,279 --> 00:09:42,320
+uh
+
+257
+00:09:40,160 --> 00:09:44,080
+uh
+
+258
+00:09:42,320 --> 00:09:45,920
+a thousand the second method using group
+
+259
+00:09:44,080 --> 00:09:48,000
+by the time complexity is always not
+
+260
+00:09:45,920 --> 00:09:50,880
+them because the sorting yes sorting
+
+261
+00:09:48,000 --> 00:09:52,959
+takes place it's valid it's small and
+
+262
+00:09:50,880 --> 00:09:55,040
+it's dominating the aggregate okay so
+
+263
+00:09:52,959 --> 00:09:56,399
+now let's talk about this look we can
+
+264
+00:09:55,040 --> 00:09:58,800
+say this bucket
+
+265
+00:09:56,399 --> 00:10:00,720
+bucket b equals at the beginning is zero
+
+266
+00:09:58,800 --> 00:10:03,680
+times a thousand and one
+
+267
+00:10:00,720 --> 00:10:06,240
+we have a thousand one and one bucket
+
+268
+00:10:03,680 --> 00:10:09,040
+and then we can do this for
+
+269
+00:10:06,240 --> 00:10:11,920
+i in numbers
+
+270
+00:10:09,040 --> 00:10:14,320
+and then we can say b i plus equals one
+
+271
+00:10:11,920 --> 00:10:15,360
+right so we count we update the bucket
+
+272
+00:10:14,320 --> 00:10:17,120
+yeah
+
+273
+00:10:15,360 --> 00:10:20,000
+right right
+
+274
+00:10:17,120 --> 00:10:21,760
+okay now we update the bucket not easy
+
+275
+00:10:20,000 --> 00:10:23,600
+because we only have a thousand and one
+
+276
+00:10:21,760 --> 00:10:24,560
+buckets so we go from
+
+277
+00:10:23,600 --> 00:10:26,640
+for i
+
+278
+00:10:24,560 --> 00:10:29,760
+in range
+
+279
+00:10:26,640 --> 00:10:31,279
+we start from a thousand up to the minus
+
+280
+00:10:29,760 --> 00:10:34,000
+one minus one
+
+281
+00:10:31,279 --> 00:10:37,519
+we start from a thousand we decremented
+
+282
+00:10:34,000 --> 00:10:39,680
+minus one we up to zero okay
+
+283
+00:10:37,519 --> 00:10:43,200
+beyond one
+
+284
+00:10:39,680 --> 00:10:45,839
+minus one is one beyond zero okay so we
+
+285
+00:10:43,200 --> 00:10:47,680
+this is basically the same as i is from
+
+286
+00:10:45,839 --> 00:10:51,120
+decrementing from
+
+287
+00:10:47,680 --> 00:10:53,680
+from one uh is from a thousand
+
+288
+00:10:51,120 --> 00:10:56,800
+decrementing to zero okay now we can say
+
+289
+00:10:53,680 --> 00:10:58,959
+if vi if it is bucket equal equal one
+
+290
+00:10:56,800 --> 00:11:01,760
+that is unique number we can just return
+
+291
+00:10:58,959 --> 00:11:03,200
+i yeah you see and then our eyes return
+
+292
+00:11:01,760 --> 00:11:04,000
+minus one
+
+293
+00:11:03,200 --> 00:11:06,240
+okay
+
+294
+00:11:04,000 --> 00:11:08,240
+look at this
+
+295
+00:11:06,240 --> 00:11:10,480
+what's the time frame let's see
+
+296
+00:11:08,240 --> 00:11:12,720
+oh and we're done these p o n and n
+
+297
+00:11:10,480 --> 00:11:15,200
+numbers yeah but these speed the time
+
+298
+00:11:12,720 --> 00:11:16,560
+domains for this one is a one for this b
+
+299
+00:11:15,200 --> 00:11:20,000
+why is that because
+
+300
+00:11:16,560 --> 00:11:22,560
+this iteration this these four look
+
+301
+00:11:20,000 --> 00:11:25,440
+executed a thousand and one turns at
+
+302
+00:11:22,560 --> 00:11:26,880
+most so it's fixed when it's fixed then
+
+303
+00:11:25,440 --> 00:11:28,560
+it's constant
+
+304
+00:11:26,880 --> 00:11:30,399
+okay that's it
+
+305
+00:11:28,560 --> 00:11:33,760
+that's it for today any questions how
+
+306
+00:11:30,399 --> 00:11:33,760
+many messes we have talked about
+
+307
+00:11:36,399 --> 00:11:41,040
+first one second one
+
+308
+00:11:38,640 --> 00:11:42,640
+i forgot starting yeah salting and grew
+
+309
+00:11:41,040 --> 00:11:46,079
+back second one that's another one
+
+310
+00:11:42,640 --> 00:11:48,640
+bucket we put it in if these numbers are
+
+311
+00:11:46,079 --> 00:11:51,360
+look the third method is not very
+
+312
+00:11:48,640 --> 00:11:52,880
+genetic yeah general yeah generalized
+
+313
+00:11:51,360 --> 00:11:54,880
+it's not general because we have to
+
+314
+00:11:52,880 --> 00:11:56,880
+restrict the numbers to be
+
+315
+00:11:54,880 --> 00:11:59,200
+between a range here to a thousand okay
+
+316
+00:11:56,880 --> 00:12:01,279
+now we count it we have a thousand a
+
+317
+00:11:59,200 --> 00:12:03,680
+thousand and one bucket yeah for each
+
+318
+00:12:01,279 --> 00:12:07,040
+bucket we we count how many how many
+
+319
+00:12:03,680 --> 00:12:09,360
+numbers for our lying
+
+320
+00:12:07,040 --> 00:12:10,639
+are placed under each bucket and then go
+
+321
+00:12:09,360 --> 00:12:12,160
+through
+
+322
+00:12:10,639 --> 00:12:15,279
+because we're looking for the largest so
+
+323
+00:12:12,160 --> 00:12:17,200
+we go we can start from a thousand and a
+
+324
+00:12:15,279 --> 00:12:19,279
+thousand buckets a thousand the last
+
+325
+00:12:17,200 --> 00:12:21,920
+bucket and then counting backwards and
+
+326
+00:12:19,279 --> 00:12:24,800
+we check if that bucket is contains only
+
+327
+00:12:21,920 --> 00:12:26,720
+one number then that means that
+
+328
+00:12:24,800 --> 00:12:28,160
+it's this is the largest unique number
+
+329
+00:12:26,720 --> 00:12:30,000
+that we determine okay the time the
+
+330
+00:12:28,160 --> 00:12:34,180
+message is okay
+
+331
+00:12:30,000 --> 00:12:37,330
+okay that's it for today bye-bye
+
+332
+00:12:34,180 --> 00:12:37,330
+[Music]
+
+333
+00:12:39,040 --> 00:12:41,120
+you
+
