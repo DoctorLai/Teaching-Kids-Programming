@@ -1,0 +1,1176 @@
+1
+00:00:00,080 --> 00:00:05,359
+up hello he's very miserable all right
+
+2
+00:00:02,720 --> 00:00:07,040
+okay so remember we talked about this uh
+
+3
+00:00:05,359 --> 00:00:08,880
+thing yeah
+
+4
+00:00:07,040 --> 00:00:11,440
+so we use the different search the
+
+5
+00:00:08,880 --> 00:00:12,880
+problem was uh what was the problem
+
+6
+00:00:11,440 --> 00:00:14,719
+is that we have a
+
+7
+00:00:12,880 --> 00:00:16,880
+okay so let's review this a little bit
+
+8
+00:00:14,719 --> 00:00:19,600
+we have this kind of map like one two
+
+9
+00:00:16,880 --> 00:00:22,320
+one two three three one one four in one
+
+10
+00:00:19,600 --> 00:00:23,760
+operation we can change any
+
+11
+00:00:22,320 --> 00:00:25,920
+connected
+
+12
+00:00:23,760 --> 00:00:27,519
+piece look this is connected connected
+
+13
+00:00:25,920 --> 00:00:30,080
+connected
+
+14
+00:00:27,519 --> 00:00:32,320
+from one color to another and we want to
+
+15
+00:00:30,080 --> 00:00:34,640
+find out that what's the minimum number
+
+16
+00:00:32,320 --> 00:00:36,480
+operation in order to make all colors
+
+17
+00:00:34,640 --> 00:00:38,800
+into one single chart for example in
+
+18
+00:00:36,480 --> 00:00:40,000
+this case we change 2
+
+19
+00:00:38,800 --> 00:00:42,480
+to 2
+
+20
+00:00:40,000 --> 00:00:43,760
+into 1 so that's going to take 2
+
+21
+00:00:42,480 --> 00:00:44,800
+operations
+
+22
+00:00:43,760 --> 00:00:47,280
+three
+
+23
+00:00:44,800 --> 00:00:48,879
+into one that's going to take uh two
+
+24
+00:00:47,280 --> 00:00:50,960
+operations and one operation because
+
+25
+00:00:48,879 --> 00:00:53,280
+this is connected and four into one that
+
+26
+00:00:50,960 --> 00:00:55,039
+would be another operation so one
+
+27
+00:00:53,280 --> 00:00:56,480
+two
+
+28
+00:00:55,039 --> 00:00:59,680
+uh one
+
+29
+00:00:56,480 --> 00:01:00,640
+one two three four four operations okay
+
+30
+00:00:59,680 --> 00:01:03,199
+so
+
+31
+00:01:00,640 --> 00:01:05,920
+how do we do it we we
+
+32
+00:01:03,199 --> 00:01:07,760
+the excellent would be just to count the
+
+33
+00:01:05,920 --> 00:01:08,720
+number of say
+
+34
+00:01:07,760 --> 00:01:10,479
+uh
+
+35
+00:01:08,720 --> 00:01:12,400
+to count from the number of the islands
+
+36
+00:01:10,479 --> 00:01:14,479
+yeah remember to talk about the iron the
+
+37
+00:01:12,400 --> 00:01:16,479
+connected pieces number of pieces for
+
+38
+00:01:14,479 --> 00:01:19,040
+each color and now we want to keep the
+
+39
+00:01:16,479 --> 00:01:21,040
+the color which has the most pieces
+
+40
+00:01:19,040 --> 00:01:23,439
+right so in because if we have we keep
+
+41
+00:01:21,040 --> 00:01:26,960
+the color with the most pieces then the
+
+42
+00:01:23,439 --> 00:01:26,960
+number operation will be the minimum
+
+43
+00:01:28,000 --> 00:01:32,320
+we change this to one okay
+
+44
+00:01:30,159 --> 00:01:34,560
+we change this to one
+
+45
+00:01:32,320 --> 00:01:36,960
+right or change this to one so this
+
+46
+00:01:34,560 --> 00:01:40,640
+would be another connected pieces right
+
+47
+00:01:36,960 --> 00:01:43,200
+so we just need uh one two three three
+
+48
+00:01:40,640 --> 00:01:45,840
+operations to make everything into uh
+
+49
+00:01:43,200 --> 00:01:48,399
+into color one so to in order to count
+
+50
+00:01:45,840 --> 00:01:52,720
+the number of pieces uh for each color
+
+51
+00:01:48,399 --> 00:01:54,560
+then we have to store it into a data
+
+52
+00:01:52,720 --> 00:01:56,880
+before dictionary well the keys are the
+
+53
+00:01:54,560 --> 00:01:59,200
+colors yeah well the keys are colors and
+
+54
+00:01:56,880 --> 00:02:02,159
+the values will be the number of the the
+
+55
+00:01:59,200 --> 00:02:04,640
+number of the pieces so the key thing
+
+56
+00:02:02,159 --> 00:02:07,119
+here is that we increment this as long
+
+57
+00:02:04,640 --> 00:02:09,360
+as we do the step research we mark the
+
+58
+00:02:07,119 --> 00:02:12,319
+connected pieces into minus one or
+
+59
+00:02:09,360 --> 00:02:14,319
+whatever and then we increment this
+
+60
+00:02:12,319 --> 00:02:16,879
+color kind of with one piece it means
+
+61
+00:02:14,319 --> 00:02:18,720
+that we have found another piece of a
+
+62
+00:02:16,879 --> 00:02:21,120
+connected color
+
+63
+00:02:18,720 --> 00:02:22,800
+x right so we can do this with step
+
+64
+00:02:21,120 --> 00:02:24,800
+research or we can do this with special
+
+65
+00:02:22,800 --> 00:02:27,280
+search so let's do it then with the
+
+66
+00:02:24,800 --> 00:02:28,959
+question what's what how do we usually
+
+67
+00:02:27,280 --> 00:02:32,400
+implement the breakfast search any idea
+
+68
+00:02:28,959 --> 00:02:36,800
+come on anything any different q q
+
+69
+00:02:32,400 --> 00:02:39,120
+q yeah dq yeah exactly so leave so you
+
+70
+00:02:36,800 --> 00:02:40,080
+so we can do this there so let's remove
+
+71
+00:02:39,120 --> 00:02:43,280
+this
+
+72
+00:02:40,080 --> 00:02:44,720
+yeah we can mark it as minus one yeah
+
+73
+00:02:43,280 --> 00:02:47,519
+so
+
+74
+00:02:44,720 --> 00:02:49,599
+so this function means that let's start
+
+75
+00:02:47,519 --> 00:02:51,840
+perform a process
+
+76
+00:02:49,599 --> 00:02:51,840
+rc
+
+77
+00:03:02,959 --> 00:03:06,640
+mean
+
+78
+00:03:04,159 --> 00:03:08,959
+what's the e mean
+
+79
+00:03:06,640 --> 00:03:10,640
+double ndq means the kill can be
+
+80
+00:03:08,959 --> 00:03:12,640
+approached uh we can have these
+
+81
+00:03:10,640 --> 00:03:14,800
+operations in two
+
+82
+00:03:12,640 --> 00:03:15,920
+this is a q double entry we can have at
+
+83
+00:03:14,800 --> 00:03:17,440
+least
+
+84
+00:03:15,920 --> 00:03:19,040
+a pen
+
+85
+00:03:17,440 --> 00:03:21,840
+pop
+
+86
+00:03:19,040 --> 00:03:24,319
+a pen left pop left yeah we can have
+
+87
+00:03:21,840 --> 00:03:27,440
+this push and pop operation on both
+
+88
+00:03:24,319 --> 00:03:28,879
+sides the advantage of using this dq is
+
+89
+00:03:27,440 --> 00:03:30,400
+that we have
+
+90
+00:03:28,879 --> 00:03:33,440
+these four operations will be the
+
+91
+00:03:30,400 --> 00:03:36,640
+constant operation right right
+
+92
+00:03:33,440 --> 00:03:36,640
+will be constant time okay
+
+93
+00:03:37,519 --> 00:03:40,799
+so
+
+94
+00:03:38,560 --> 00:03:43,200
+so if we're using the list yeah if we
+
+95
+00:03:40,799 --> 00:03:45,519
+are using a simple list we this can be
+
+96
+00:03:43,200 --> 00:03:48,640
+used as a queue a simple queue but the
+
+97
+00:03:45,519 --> 00:03:50,799
+operations of doing of using this list
+
+98
+00:03:48,640 --> 00:03:53,680
+on the on the left hand side would be o
+
+99
+00:03:50,799 --> 00:03:55,920
+i'm constant right it's not uh o n not
+
+100
+00:03:53,680 --> 00:03:58,720
+constant okay so that's why we use the
+
+101
+00:03:55,920 --> 00:04:02,720
+we prefer this double ndq
+
+102
+00:03:58,720 --> 00:04:04,000
+so dq let's put the initial one which is
+
+103
+00:04:02,720 --> 00:04:06,239
+rc
+
+104
+00:04:04,000 --> 00:04:08,319
+in the array okay so we're using this
+
+105
+00:04:06,239 --> 00:04:11,200
+okay and then while
+
+106
+00:04:08,319 --> 00:04:13,599
+y q is not empty now we have to
+
+107
+00:04:11,200 --> 00:04:15,920
+get a pixel so
+
+108
+00:04:13,599 --> 00:04:19,440
+carbon uh let's let's let's write the
+
+109
+00:04:15,920 --> 00:04:21,680
+lrcc equals q dot problem
+
+110
+00:04:19,440 --> 00:04:23,680
+okay cube the problem
+
+111
+00:04:21,680 --> 00:04:24,560
+okay can i use this piece
+
+112
+00:04:23,680 --> 00:04:26,960
+okay
+
+113
+00:04:24,560 --> 00:04:30,080
+q the problem okay
+
+114
+00:04:26,960 --> 00:04:32,560
+so now we have the kyoto problem we get
+
+115
+00:04:30,080 --> 00:04:34,800
+it from the queue and then what do we
+
+116
+00:04:32,560 --> 00:04:37,360
+need to do we need to
+
+117
+00:04:34,800 --> 00:04:41,360
+we need to append its neighbors which
+
+118
+00:04:37,360 --> 00:04:45,280
+has four directions for that so for
+
+119
+00:04:41,360 --> 00:04:47,199
+dr dc this is offset in four direction
+
+120
+00:04:45,280 --> 00:04:49,040
+will be one zero
+
+121
+00:04:47,199 --> 00:04:51,199
+zero one
+
+122
+00:04:49,040 --> 00:04:53,040
+minus one zero
+
+123
+00:04:51,199 --> 00:04:54,639
+zero minus one yeah these are the four
+
+124
+00:04:53,040 --> 00:04:57,520
+operations okay
+
+125
+00:04:54,639 --> 00:05:00,720
+uh four directions one zero one zero
+
+126
+00:04:57,520 --> 00:05:03,039
+means the one up uh
+
+127
+00:05:00,720 --> 00:05:05,440
+under it zero one
+
+128
+00:05:03,039 --> 00:05:08,240
+zero what does it mean zero means on the
+
+129
+00:05:05,440 --> 00:05:10,880
+left minus one zero on the left uh this
+
+130
+00:05:08,240 --> 00:05:13,360
+is on the right on the left zero kilo
+
+131
+00:05:10,880 --> 00:05:16,160
+one zero one on the right
+
+132
+00:05:13,360 --> 00:05:17,919
+minus one zero above it zero minus one
+
+133
+00:05:16,160 --> 00:05:18,880
+on the left
+
+134
+00:05:17,919 --> 00:05:20,320
+yeah
+
+135
+00:05:18,880 --> 00:05:23,199
+so now
+
+136
+00:05:20,320 --> 00:05:26,800
+this is the offset so the new r will be
+
+137
+00:05:23,199 --> 00:05:30,479
+the r r plus d r
+
+138
+00:05:26,800 --> 00:05:32,639
+and c new c would be c c plus d c and we
+
+139
+00:05:30,479 --> 00:05:34,160
+have to check this coordinate if it's in
+
+140
+00:05:32,639 --> 00:05:36,560
+range so we have
+
+141
+00:05:34,160 --> 00:05:38,720
+we can just do it if zero smaller than n
+
+142
+00:05:36,560 --> 00:05:41,840
+r
+
+143
+00:05:38,720 --> 00:05:43,039
+smaller than rows
+
+144
+00:05:41,840 --> 00:05:44,400
+and
+
+145
+00:05:43,039 --> 00:05:47,600
+right
+
+146
+00:05:44,400 --> 00:05:50,400
+cl smaller nc smaller than columns so if
+
+147
+00:05:47,600 --> 00:05:51,600
+this is in range also the new pixel is
+
+148
+00:05:50,400 --> 00:05:54,000
+not being
+
+149
+00:05:51,600 --> 00:05:56,960
+it's the color we want so it's the it's
+
+150
+00:05:54,000 --> 00:05:57,919
+a color so metric uh so we can only make
+
+151
+00:05:56,960 --> 00:06:00,400
+map
+
+152
+00:05:57,919 --> 00:06:03,039
+and r
+
+153
+00:06:00,400 --> 00:06:04,479
+and c equals color right if it's equals
+
+154
+00:06:03,039 --> 00:06:08,240
+color then
+
+155
+00:06:04,479 --> 00:06:12,319
+okay so we ryan let me stop doing that
+
+156
+00:06:08,240 --> 00:06:15,600
+so look if we are at rcc this pixel uh
+
+157
+00:06:12,319 --> 00:06:16,800
+rcc pixel and we want to find the four
+
+158
+00:06:15,600 --> 00:06:19,600
+directions
+
+159
+00:06:16,800 --> 00:06:21,919
+so what do in what cases
+
+160
+00:06:19,600 --> 00:06:24,080
+we can
+
+161
+00:06:21,919 --> 00:06:26,000
+append this picture back into the queue
+
+162
+00:06:24,080 --> 00:06:28,479
+okay anybody
+
+163
+00:06:26,000 --> 00:06:28,479
+anybody
+
+164
+00:06:30,080 --> 00:06:34,160
+yeah so
+
+165
+00:06:31,840 --> 00:06:36,400
+so this is the pixel we take it from the
+
+166
+00:06:34,160 --> 00:06:38,560
+queue and then
+
+167
+00:06:36,400 --> 00:06:40,560
+in what conditions we can we need to
+
+168
+00:06:38,560 --> 00:06:44,080
+push this neighbor back into the queue
+
+169
+00:06:40,560 --> 00:06:46,160
+if if what if the
+
+170
+00:06:44,080 --> 00:06:48,160
+color this this picture the color is
+
+171
+00:06:46,160 --> 00:06:50,000
+what we want okay and then we push in
+
+172
+00:06:48,160 --> 00:06:51,599
+the kill then we have to change it to
+
+173
+00:06:50,000 --> 00:06:53,440
+mac
+
+174
+00:06:51,599 --> 00:06:55,680
+rcc
+
+175
+00:06:53,440 --> 00:06:57,840
+equals minus one so we mark it so
+
+176
+00:06:55,680 --> 00:07:00,880
+suppose this is color x and this is also
+
+177
+00:06:57,840 --> 00:07:03,520
+color x right so i just push this into a
+
+178
+00:07:00,880 --> 00:07:06,880
+q and i might make these minus ones just
+
+179
+00:07:03,520 --> 00:07:08,560
+to to avoid these being pushed back to
+
+180
+00:07:06,880 --> 00:07:10,800
+the queue again
+
+181
+00:07:08,560 --> 00:07:12,800
+all right and then
+
+182
+00:07:10,800 --> 00:07:15,840
+q dot append yeah the most important
+
+183
+00:07:12,800 --> 00:07:19,120
+thing kill the append rcc okay uh us uh
+
+184
+00:07:15,840 --> 00:07:21,360
+n r and c and i and c
+
+185
+00:07:19,120 --> 00:07:22,960
+okay and then we can just
+
+186
+00:07:21,360 --> 00:07:24,479
+and that'll be yeah because this
+
+187
+00:07:22,960 --> 00:07:27,120
+function will not
+
+188
+00:07:24,479 --> 00:07:28,400
+we uh we don't need to return anything
+
+189
+00:07:27,120 --> 00:07:30,800
+with the
+
+190
+00:07:28,400 --> 00:07:32,880
+function of the processor function these
+
+191
+00:07:30,800 --> 00:07:35,440
+functions would be just to
+
+192
+00:07:32,880 --> 00:07:38,080
+to say okay we want to
+
+193
+00:07:35,440 --> 00:07:41,440
+mark all the connected pieces to these
+
+194
+00:07:38,080 --> 00:07:43,039
+rc right with the color with color x
+
+195
+00:07:41,440 --> 00:07:44,560
+yeah
+
+196
+00:07:43,039 --> 00:07:45,680
+okay
+
+197
+00:07:44,560 --> 00:07:47,440
+uh
+
+198
+00:07:45,680 --> 00:07:48,960
+so that would be the perfect search
+
+199
+00:07:47,440 --> 00:07:50,879
+right that will be preferred so so we
+
+200
+00:07:48,960 --> 00:07:53,840
+can just plug in replace this with the
+
+201
+00:07:50,879 --> 00:07:54,879
+preferences and on all to continue to
+
+202
+00:07:53,840 --> 00:07:56,639
+work
+
+203
+00:07:54,879 --> 00:07:57,759
+okay
+
+204
+00:07:56,639 --> 00:08:00,720
+okay so
+
+205
+00:07:57,759 --> 00:08:02,319
+so any questions so far i mean
+
+206
+00:08:00,720 --> 00:08:04,400
+guys
+
+207
+00:08:02,319 --> 00:08:06,400
+this is the breakfast search uh the
+
+208
+00:08:04,400 --> 00:08:09,599
+color so let's let's
+
+209
+00:08:06,400 --> 00:08:10,840
+let's give an example okay
+
+210
+00:08:09,599 --> 00:08:12,479
+so just
+
+211
+00:08:10,840 --> 00:08:14,800
+to
+
+212
+00:08:12,479 --> 00:08:16,560
+you a little bit okay 1
+
+213
+00:08:14,800 --> 00:08:17,520
+1 1
+
+214
+00:08:16,560 --> 00:08:18,960
+2
+
+215
+00:08:17,520 --> 00:08:20,080
+2 2
+
+216
+00:08:18,960 --> 00:08:21,039
+2
+
+217
+00:08:20,080 --> 00:08:22,479
+2
+
+218
+00:08:21,039 --> 00:08:24,720
+3
+
+219
+00:08:22,479 --> 00:08:24,720
+3
+
+220
+00:08:25,199 --> 00:08:28,639
+one
+
+221
+00:08:27,280 --> 00:08:30,240
+okay
+
+222
+00:08:28,639 --> 00:08:31,759
+three
+
+223
+00:08:30,240 --> 00:08:33,440
+one two
+
+224
+00:08:31,759 --> 00:08:36,240
+two
+
+225
+00:08:33,440 --> 00:08:37,440
+one okay so which color we want to keep
+
+226
+00:08:36,240 --> 00:08:39,360
+obviously
+
+227
+00:08:37,440 --> 00:08:41,360
+one two now okay
+
+228
+00:08:39,360 --> 00:08:42,399
+let's just just go through the activity
+
+229
+00:08:41,360 --> 00:08:45,440
+to see
+
+230
+00:08:42,399 --> 00:08:45,440
+if which color we want
+
+231
+00:08:46,720 --> 00:08:51,600
+no no no you're not connected as uh
+
+232
+00:08:50,000 --> 00:08:54,000
+okay
+
+233
+00:08:51,600 --> 00:08:55,839
+so this is not connected okay i'm going
+
+234
+00:08:54,000 --> 00:08:57,839
+to
+
+235
+00:08:55,839 --> 00:08:58,560
+i'm going to let let's let's go through
+
+236
+00:08:57,839 --> 00:09:01,680
+the
+
+237
+00:08:58,560 --> 00:09:03,760
+editor okay so we have a dictionary data
+
+238
+00:09:01,680 --> 00:09:08,160
+yeah we have a dictionary data
+
+239
+00:09:03,760 --> 00:09:09,120
+data come on
+
+240
+00:09:08,160 --> 00:09:11,040
+oh
+
+241
+00:09:09,120 --> 00:09:12,640
+okay i'm starting at one okay and then i
+
+242
+00:09:11,040 --> 00:09:14,320
+want to mark all the connected pieces
+
+243
+00:09:12,640 --> 00:09:16,640
+using different social preferences here
+
+244
+00:09:14,320 --> 00:09:18,880
+right so that would be
+
+245
+00:09:16,640 --> 00:09:21,760
+one one one here i will change it to all
+
+246
+00:09:18,880 --> 00:09:23,279
+minus one minus one minus one so now
+
+247
+00:09:21,760 --> 00:09:25,360
+ones have three
+
+248
+00:09:23,279 --> 00:09:27,440
+uh one has one okay
+
+249
+00:09:25,360 --> 00:09:28,720
+one connected and now we skip the minus
+
+250
+00:09:27,440 --> 00:09:30,560
+one
+
+251
+00:09:28,720 --> 00:09:33,680
+two
+
+252
+00:09:30,560 --> 00:09:36,640
+the connected pieces here one
+
+253
+00:09:33,680 --> 00:09:38,240
+two and then one pieces and i i need to
+
+254
+00:09:36,640 --> 00:09:40,080
+meet we need to make it as minus one
+
+255
+00:09:38,240 --> 00:09:42,399
+minus one master just to avoid being
+
+256
+00:09:40,080 --> 00:09:44,160
+physical again three
+
+257
+00:09:42,399 --> 00:09:47,600
+three
+
+258
+00:09:44,160 --> 00:09:49,600
+only one pixel minus one
+
+259
+00:09:47,600 --> 00:09:52,240
+one
+
+260
+00:09:49,600 --> 00:09:55,279
+one here minus one
+
+261
+00:09:52,240 --> 00:09:57,040
+so we increment this one to two right
+
+262
+00:09:55,279 --> 00:09:59,040
+three
+
+263
+00:09:57,040 --> 00:10:01,279
+three minus one minus one
+
+264
+00:09:59,040 --> 00:10:02,320
+that would be an added another one so
+
+265
+00:10:01,279 --> 00:10:05,120
+two
+
+266
+00:10:02,320 --> 00:10:06,720
+right and one
+
+267
+00:10:05,120 --> 00:10:10,399
+make it minus one
+
+268
+00:10:06,720 --> 00:10:12,240
+three two three okay two
+
+269
+00:10:10,399 --> 00:10:13,519
+make it minus one minus one increment
+
+270
+00:10:12,240 --> 00:10:16,320
+one two
+
+271
+00:10:13,519 --> 00:10:20,079
+one make minus one
+
+272
+00:10:16,320 --> 00:10:22,000
+increment one four okay so now eric look
+
+273
+00:10:20,079 --> 00:10:24,000
+color one we have four piece of
+
+274
+00:10:22,000 --> 00:10:26,240
+connected number two we have two
+
+275
+00:10:24,000 --> 00:10:28,000
+connected three number three we have two
+
+276
+00:10:26,240 --> 00:10:30,399
+connected so which which color we should
+
+277
+00:10:28,000 --> 00:10:32,079
+keep which color is the cape from here
+
+278
+00:10:30,399 --> 00:10:35,200
+the keys that kind of the values would
+
+279
+00:10:32,079 --> 00:10:37,040
+be the number of one exactly so we keep
+
+280
+00:10:35,200 --> 00:10:39,040
+this one so the number operation will be
+
+281
+00:10:37,040 --> 00:10:41,200
+two plus two right so actually we sum up
+
+282
+00:10:39,040 --> 00:10:43,839
+the value will be four plus two plus two
+
+283
+00:10:41,200 --> 00:10:46,320
+and we get a maximum four so four plus
+
+284
+00:10:43,839 --> 00:10:47,839
+four four plus two plus two minus four
+
+285
+00:10:46,320 --> 00:10:50,079
+equals one
+
+286
+00:10:47,839 --> 00:10:52,800
+four plus two plus two this is the sum
+
+287
+00:10:50,079 --> 00:10:55,760
+minus the maximum four with this which
+
+288
+00:10:52,800 --> 00:10:57,680
+is the answer so what's the four exactly
+
+289
+00:10:55,760 --> 00:10:59,040
+let's look at the answer okay
+
+290
+00:10:57,680 --> 00:11:01,279
+yeah
+
+291
+00:10:59,040 --> 00:11:03,440
+okay so that will be
+
+292
+00:11:01,279 --> 00:11:04,279
+okay that will be for today yeah thank
+
+293
+00:11:03,440 --> 00:11:08,519
+you
+
+294
+00:11:04,279 --> 00:11:08,519
+bye bye
+
