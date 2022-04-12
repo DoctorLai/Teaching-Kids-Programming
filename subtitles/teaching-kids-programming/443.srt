@@ -1,0 +1,1616 @@
+1
+00:00:00,000 --> 00:00:03,520
+good
+
+2
+00:00:00,880 --> 00:00:05,040
+hello mr mr ryan are you right
+
+3
+00:00:03,520 --> 00:00:07,520
+okay let's talk about very simple
+
+4
+00:00:05,040 --> 00:00:09,760
+problems yeah cupcake frequent elements
+
+5
+00:00:07,520 --> 00:00:11,599
+so we call these numbers one one one two
+
+6
+00:00:09,760 --> 00:00:13,759
+two three so i want you to find out give
+
+7
+00:00:11,599 --> 00:00:15,759
+me an answer like
+
+8
+00:00:13,759 --> 00:00:18,800
+the top two
+
+9
+00:00:15,759 --> 00:00:20,240
+top two frequent elements one two
+
+10
+00:00:18,800 --> 00:00:22,160
+exactly look
+
+11
+00:00:20,240 --> 00:00:23,359
+one appears three times two appears two
+
+12
+00:00:22,160 --> 00:00:24,800
+times right
+
+13
+00:00:23,359 --> 00:00:28,000
+so
+
+14
+00:00:24,800 --> 00:00:29,359
+what data structure is very useful to
+
+15
+00:00:28,000 --> 00:00:31,519
+count how many
+
+16
+00:00:29,359 --> 00:00:32,559
+numbers appear how many how many times
+
+17
+00:00:31,519 --> 00:00:35,760
+we
+
+18
+00:00:32,559 --> 00:00:38,079
+if we want to count the numbers the
+
+19
+00:00:35,760 --> 00:00:40,640
+elements and the frequencies
+
+20
+00:00:38,079 --> 00:00:43,680
+counter counter exactly okay so let's do
+
+21
+00:00:40,640 --> 00:00:44,800
+this okay so if we do this counter
+
+22
+00:00:43,680 --> 00:00:48,000
+c
+
+23
+00:00:44,800 --> 00:00:48,000
+equals counter
+
+24
+00:00:48,320 --> 00:00:52,239
+number
+
+25
+00:00:49,600 --> 00:00:54,719
+okay so what does it give us this should
+
+26
+00:00:52,239 --> 00:00:56,000
+be easier you give us a c is a
+
+27
+00:00:54,719 --> 00:01:00,000
+dictionary
+
+28
+00:00:56,000 --> 00:01:00,800
+with a key one appear three times
+
+29
+00:01:00,000 --> 00:01:02,879
+two
+
+30
+00:01:00,800 --> 00:01:06,000
+appear two times
+
+31
+00:01:02,879 --> 00:01:06,960
+three appear one time right
+
+32
+00:01:06,000 --> 00:01:09,360
+three
+
+33
+00:01:06,960 --> 00:01:11,680
+one two three three two one exactly the
+
+34
+00:01:09,360 --> 00:01:13,680
+keys are the elements
+
+35
+00:01:11,680 --> 00:01:15,680
+the values are the frequency they appear
+
+36
+00:01:13,680 --> 00:01:17,759
+right one appears three times two appear
+
+37
+00:01:15,680 --> 00:01:19,920
+two times three appear one time
+
+38
+00:01:17,759 --> 00:01:21,439
+right so we want the counter equals
+
+39
+00:01:19,920 --> 00:01:24,320
+dictionary
+
+40
+00:01:21,439 --> 00:01:26,240
+yes uh kind of yes counter is like the
+
+41
+00:01:24,320 --> 00:01:28,240
+record for the dictionary so you give us
+
+42
+00:01:26,240 --> 00:01:29,759
+the dictionary which have the keys are
+
+43
+00:01:28,240 --> 00:01:32,000
+the values the
+
+44
+00:01:29,759 --> 00:01:33,920
+values will be the frequency so
+
+45
+00:01:32,000 --> 00:01:36,240
+basically we want to count we want to
+
+46
+00:01:33,920 --> 00:01:37,200
+find we want to sort these items this
+
+47
+00:01:36,240 --> 00:01:39,759
+item
+
+48
+00:01:37,200 --> 00:01:41,280
+by the values three to one right so the
+
+49
+00:01:39,759 --> 00:01:43,119
+top two
+
+50
+00:01:41,280 --> 00:01:44,240
+are three two so we want to return this
+
+51
+00:01:43,119 --> 00:01:46,880
+one and two
+
+52
+00:01:44,240 --> 00:01:48,880
+yeah the order does not matter okay so
+
+53
+00:01:46,880 --> 00:01:51,119
+the counter the very interesting thing
+
+54
+00:01:48,880 --> 00:01:53,759
+about counter is that we it provides the
+
+55
+00:01:51,119 --> 00:01:55,439
+method called most common
+
+56
+00:01:53,759 --> 00:01:57,200
+yeah what does it mean what does the
+
+57
+00:01:55,439 --> 00:02:02,880
+most common mean
+
+58
+00:01:57,200 --> 00:02:02,880
+so let's say look see the most common
+
+59
+00:02:03,759 --> 00:02:08,239
+if we give it a 2
+
+60
+00:02:05,439 --> 00:02:10,080
+then it will give us these
+
+61
+00:02:08,239 --> 00:02:12,160
+right because these are the most common
+
+62
+00:02:10,080 --> 00:02:13,680
+if we don't give you any parameters you
+
+63
+00:02:12,160 --> 00:02:16,720
+will return
+
+64
+00:02:13,680 --> 00:02:18,400
+the orders right so you return these
+
+65
+00:02:16,720 --> 00:02:21,040
+these this
+
+66
+00:02:18,400 --> 00:02:24,160
+right okay so we give the most common
+
+67
+00:02:21,040 --> 00:02:26,480
+two so then you return this then we but
+
+68
+00:02:24,160 --> 00:02:28,239
+we need to return these values yeah
+
+69
+00:02:26,480 --> 00:02:30,480
+usually okay
+
+70
+00:02:28,239 --> 00:02:32,640
+so now
+
+71
+00:02:30,480 --> 00:02:36,120
+that will be very useful okay so then we
+
+72
+00:02:32,640 --> 00:02:36,120
+can just do this
+
+73
+00:02:36,400 --> 00:02:40,720
+okay
+
+74
+00:02:37,519 --> 00:02:40,720
+we can just return
+
+75
+00:02:41,200 --> 00:02:43,760
+within one
+
+76
+00:02:44,959 --> 00:02:49,440
+okay so because we don't return one and
+
+77
+00:02:47,519 --> 00:02:51,200
+two uh at least yeah so we want to
+
+78
+00:02:49,440 --> 00:02:52,319
+return i
+
+79
+00:02:51,200 --> 00:02:53,200
+for
+
+80
+00:02:52,319 --> 00:02:54,239
+i
+
+81
+00:02:53,200 --> 00:02:59,040
+j
+
+82
+00:02:54,239 --> 00:02:59,040
+in c the most common
+
+83
+00:03:00,640 --> 00:03:05,440
+okay
+
+84
+00:03:02,879 --> 00:03:08,319
+okay so see the most common k returns
+
+85
+00:03:05,440 --> 00:03:10,959
+the the item see the items in the order
+
+86
+00:03:08,319 --> 00:03:12,560
+of the values which is the frequency and
+
+87
+00:03:10,959 --> 00:03:15,280
+then i
+
+88
+00:03:12,560 --> 00:03:18,400
+the first i items the i will be the
+
+89
+00:03:15,280 --> 00:03:20,640
+value the number the key right will be
+
+90
+00:03:18,400 --> 00:03:22,239
+these numbers the j will be the
+
+91
+00:03:20,640 --> 00:03:24,480
+frequency class
+
+92
+00:03:22,239 --> 00:03:24,480
+okay
+
+93
+00:03:24,879 --> 00:03:28,400
+yeah make sense yeah if we don't give
+
+94
+00:03:26,640 --> 00:03:30,720
+this value k then it will return
+
+95
+00:03:28,400 --> 00:03:33,920
+everything by the order of the frequency
+
+96
+00:03:30,720 --> 00:03:35,920
+okay okay so funny enough is that this
+
+97
+00:03:33,920 --> 00:03:38,080
+counter does not have provide the least
+
+98
+00:03:35,920 --> 00:03:40,080
+common yeah yeah
+
+99
+00:03:38,080 --> 00:03:42,000
+it does not provide the least common so
+
+100
+00:03:40,080 --> 00:03:44,640
+so look if i uh
+
+101
+00:03:42,000 --> 00:03:47,280
+this number c c will be let's say c will
+
+102
+00:03:44,640 --> 00:03:50,480
+be one three times two appear two times
+
+103
+00:03:47,280 --> 00:03:50,480
+three up here one time okay
+
+104
+00:03:50,640 --> 00:03:56,319
+see the most common yeah most common k
+
+105
+00:03:54,159 --> 00:03:59,680
+will be this if we don't provide this k
+
+106
+00:03:56,319 --> 00:04:02,080
+then we turn the frequency in
+
+107
+00:03:59,680 --> 00:04:04,239
+in all the in the items in order will be
+
+108
+00:04:02,080 --> 00:04:06,560
+one three two two
+
+109
+00:04:04,239 --> 00:04:07,360
+and three one okay
+
+110
+00:04:06,560 --> 00:04:10,159
+so
+
+111
+00:04:07,360 --> 00:04:12,879
+if we want to get the least comment
+
+112
+00:04:10,159 --> 00:04:14,560
+which side okay so look
+
+113
+00:04:12,879 --> 00:04:17,280
+see the most common
+
+114
+00:04:14,560 --> 00:04:19,919
+salted items in order of frequency so
+
+115
+00:04:17,280 --> 00:04:22,000
+which one is the seed or which one is
+
+116
+00:04:19,919 --> 00:04:24,639
+the least common everybody come up which
+
+117
+00:04:22,000 --> 00:04:27,040
+one is the least common
+
+118
+00:04:24,639 --> 00:04:29,360
+one yeah exactly so we sorted right so
+
+119
+00:04:27,040 --> 00:04:32,720
+see the most common it's we can do this
+
+120
+00:04:29,360 --> 00:04:32,720
+c is the mouse command
+
+121
+00:04:34,080 --> 00:04:36,960
+and we don't give it any parameters
+
+122
+00:04:35,600 --> 00:04:38,639
+there remember we don't give that
+
+123
+00:04:36,960 --> 00:04:40,000
+permission we change everything and then
+
+124
+00:04:38,639 --> 00:04:43,040
+minus one
+
+125
+00:04:40,000 --> 00:04:45,840
+yeah that would be let's see uh
+
+126
+00:04:43,040 --> 00:04:45,840
+least comment okay
+
+127
+00:04:46,160 --> 00:04:49,759
+okay
+
+128
+00:04:47,919 --> 00:04:51,919
+this is using the most common if we
+
+129
+00:04:49,759 --> 00:04:54,320
+don't use the most common we can sort it
+
+130
+00:04:51,919 --> 00:04:56,800
+we can sort it the see the items yeah so
+
+131
+00:04:54,320 --> 00:04:58,000
+so we can just saw the seed of items so
+
+132
+00:04:56,800 --> 00:05:02,080
+we can just say
+
+133
+00:04:58,000 --> 00:05:04,960
+let's say a equals sorted
+
+134
+00:05:02,080 --> 00:05:06,639
+see the items
+
+135
+00:05:04,960 --> 00:05:09,360
+right see the ice and we want to sort of
+
+136
+00:05:06,639 --> 00:05:12,639
+see the item see the item is 1 3
+
+137
+00:05:09,360 --> 00:05:15,360
+is an array of items two two
+
+138
+00:05:12,639 --> 00:05:16,240
+three one we only solely see the items
+
+139
+00:05:15,360 --> 00:05:18,880
+but
+
+140
+00:05:16,240 --> 00:05:20,080
+by which key by which number
+
+141
+00:05:18,880 --> 00:05:21,840
+which number
+
+142
+00:05:20,080 --> 00:05:23,280
+we want to solve the c the item by which
+
+143
+00:05:21,840 --> 00:05:24,720
+number this is the number this is the
+
+144
+00:05:23,280 --> 00:05:27,440
+frequency almost we want to solve the
+
+145
+00:05:24,720 --> 00:05:32,160
+items by the frequency right so
+
+146
+00:05:27,440 --> 00:05:32,160
+here we will pass the key equals
+
+147
+00:05:33,840 --> 00:05:37,919
+p1
+
+148
+00:05:35,360 --> 00:05:39,199
+p1 means the second number right yeah p
+
+149
+00:05:37,919 --> 00:05:41,280
+is the item
+
+150
+00:05:39,199 --> 00:05:43,440
+and then obviously we want to sort by
+
+151
+00:05:41,280 --> 00:05:45,680
+default sorted is from the smallest to
+
+152
+00:05:43,440 --> 00:05:48,000
+the biggest but now we want to sort it
+
+153
+00:05:45,680 --> 00:05:49,600
+from the largest smallest so we pass
+
+154
+00:05:48,000 --> 00:05:53,280
+another key called
+
+155
+00:05:49,600 --> 00:05:55,520
+reverse equals two okay and then we can
+
+156
+00:05:53,280 --> 00:05:57,280
+just return
+
+157
+00:05:55,520 --> 00:05:59,440
+return
+
+158
+00:05:57,280 --> 00:06:00,800
+i for
+
+159
+00:05:59,440 --> 00:06:01,680
+i
+
+160
+00:06:00,800 --> 00:06:03,039
+j
+
+161
+00:06:01,680 --> 00:06:05,680
+in
+
+162
+00:06:03,039 --> 00:06:08,000
+a up to k right because it's in reverse
+
+163
+00:06:05,680 --> 00:06:10,160
+order and each one is the item so i want
+
+164
+00:06:08,000 --> 00:06:12,400
+to return this method
+
+165
+00:06:10,160 --> 00:06:14,880
+yeah okay this is this is the second
+
+166
+00:06:12,400 --> 00:06:17,120
+method we started okay by sorting the
+
+167
+00:06:14,880 --> 00:06:20,240
+old logan right obviously the infinite n
+
+168
+00:06:17,120 --> 00:06:22,479
+items right all right here with me fine
+
+169
+00:06:20,240 --> 00:06:24,800
+it was me okay okay so what's he but you
+
+170
+00:06:22,479 --> 00:06:26,160
+mentioned about him what's deep remember
+
+171
+00:06:24,800 --> 00:06:28,319
+what's he
+
+172
+00:06:26,160 --> 00:06:31,759
+fasting priority out
+
+173
+00:06:28,319 --> 00:06:33,520
+uh yes yeah that's one kind of the
+
+174
+00:06:31,759 --> 00:06:34,800
+it's not exactly the same thing yeah but
+
+175
+00:06:33,520 --> 00:06:36,720
+you mentioned a very good point the
+
+176
+00:06:34,800 --> 00:06:38,639
+first thing priority or let's let's call
+
+177
+00:06:36,720 --> 00:06:41,440
+the priority queue okay priority q are
+
+178
+00:06:38,639 --> 00:06:44,000
+based on uh heat by uh you know usually
+
+179
+00:06:41,440 --> 00:06:45,120
+based on binary heat heap is the binary
+
+180
+00:06:44,000 --> 00:06:46,560
+to tree
+
+181
+00:06:45,120 --> 00:06:48,639
+the loot
+
+182
+00:06:46,560 --> 00:06:52,160
+will be the smallest or the biggest
+
+183
+00:06:48,639 --> 00:06:55,919
+right by default the heap in in python
+
+184
+00:06:52,160 --> 00:06:59,039
+he p q heap q is the smallest the root
+
+185
+00:06:55,919 --> 00:07:01,840
+is the smallest so it could be one two
+
+186
+00:06:59,039 --> 00:07:04,720
+three but this loop is smaller than a
+
+187
+00:07:01,840 --> 00:07:06,960
+than a kit two is smaller than five six
+
+188
+00:07:04,720 --> 00:07:08,319
+three smaller than seven eight right
+
+189
+00:07:06,960 --> 00:07:11,039
+something like that and the
+
+190
+00:07:08,319 --> 00:07:12,560
+opportunities would be the max heap okay
+
+191
+00:07:11,039 --> 00:07:14,880
+but the python
+
+192
+00:07:12,560 --> 00:07:16,000
+heat q is the smallest key is meaning
+
+193
+00:07:14,880 --> 00:07:17,280
+that loot
+
+194
+00:07:16,000 --> 00:07:19,599
+is the
+
+195
+00:07:17,280 --> 00:07:21,919
+uh is the is the smallest okay so then
+
+196
+00:07:19,599 --> 00:07:24,319
+we can use the we can push these items
+
+197
+00:07:21,919 --> 00:07:26,720
+into the heap right so we can push the
+
+198
+00:07:24,319 --> 00:07:28,840
+item into the heap
+
+199
+00:07:26,720 --> 00:07:31,919
+uh let's put it in
+
+200
+00:07:28,840 --> 00:07:34,080
+a so we want to push these items into
+
+201
+00:07:31,919 --> 00:07:36,720
+the into the heap
+
+202
+00:07:34,080 --> 00:07:36,720
+so for
+
+203
+00:07:37,680 --> 00:07:39,840
+t v
+
+204
+00:07:39,039 --> 00:07:42,840
+v
+
+205
+00:07:39,840 --> 00:07:46,160
+in c dot
+
+206
+00:07:42,840 --> 00:07:46,160
+items yeah
+
+207
+00:07:46,879 --> 00:07:50,160
+see the item and
+
+208
+00:07:49,120 --> 00:07:53,360
+hit
+
+209
+00:07:50,160 --> 00:07:56,800
+keep q he push
+
+210
+00:07:53,360 --> 00:07:58,879
+he push a i want to push one
+
+211
+00:07:56,800 --> 00:08:00,879
+push the
+
+212
+00:07:58,879 --> 00:08:02,720
+key and value there
+
+213
+00:08:00,879 --> 00:08:04,160
+we can push the key on value now let's
+
+214
+00:08:02,720 --> 00:08:06,319
+push the value because it's the
+
+215
+00:08:04,160 --> 00:08:07,599
+frequency it matters we want to we want
+
+216
+00:08:06,319 --> 00:08:09,840
+the hip to
+
+217
+00:08:07,599 --> 00:08:11,919
+to maintain its order by the order of
+
+218
+00:08:09,840 --> 00:08:14,240
+the frequencies so let's
+
+219
+00:08:11,919 --> 00:08:16,240
+do the v but but the thing is that we
+
+220
+00:08:14,240 --> 00:08:18,879
+wanted to find out the
+
+221
+00:08:16,240 --> 00:08:20,720
+top k frequent uh element right the
+
+222
+00:08:18,879 --> 00:08:23,199
+frequency should be from the largest to
+
+223
+00:08:20,720 --> 00:08:25,039
+smallest but the python the heat q as i
+
+224
+00:08:23,199 --> 00:08:27,599
+said is from the smallest to the biggest
+
+225
+00:08:25,039 --> 00:08:29,599
+can you think about walking around right
+
+226
+00:08:27,599 --> 00:08:30,720
+so can you think of walking around that
+
+227
+00:08:29,599 --> 00:08:31,840
+that could
+
+228
+00:08:30,720 --> 00:08:33,599
+need
+
+229
+00:08:31,840 --> 00:08:36,399
+to work for the hip cube
+
+230
+00:08:33,599 --> 00:08:38,159
+to get it look hip q
+
+231
+00:08:36,399 --> 00:08:40,800
+is from the smallest to the piggies
+
+232
+00:08:38,159 --> 00:08:43,039
+right but i wanted to maintain the order
+
+233
+00:08:40,800 --> 00:08:44,880
+from the largest the smallest one good
+
+234
+00:08:43,039 --> 00:08:47,839
+way would be to
+
+235
+00:08:44,880 --> 00:08:49,839
+to neglect negate the sign okay so let's
+
+236
+00:08:47,839 --> 00:08:52,399
+put minus v
+
+237
+00:08:49,839 --> 00:08:53,360
+and minus vk
+
+238
+00:08:52,399 --> 00:08:55,839
+okay
+
+239
+00:08:53,360 --> 00:08:56,800
+now i have the key key and i want to do
+
+240
+00:08:55,839 --> 00:08:59,519
+it
+
+241
+00:08:56,800 --> 00:09:01,600
+i want to i want to pop k elements out
+
+242
+00:08:59,519 --> 00:09:03,040
+of the heap then that would be the last
+
+243
+00:09:01,600 --> 00:09:06,480
+top largest
+
+244
+00:09:03,040 --> 00:09:08,720
+top k frequent elements right am right
+
+245
+00:09:06,480 --> 00:09:11,680
+okay so now i want to push push it up
+
+246
+00:09:08,720 --> 00:09:14,720
+okay so let's say this answer
+
+247
+00:09:11,680 --> 00:09:16,560
+and i want to do this for underscore in
+
+248
+00:09:14,720 --> 00:09:18,880
+range k
+
+249
+00:09:16,560 --> 00:09:21,120
+yeah range k
+
+250
+00:09:18,880 --> 00:09:22,880
+and i want to push
+
+251
+00:09:21,120 --> 00:09:25,680
+push in the
+
+252
+00:09:22,880 --> 00:09:27,600
+underscore because i don't want to use
+
+253
+00:09:25,680 --> 00:09:28,720
+this value i just want to use the
+
+254
+00:09:27,600 --> 00:09:29,760
+numbers
+
+255
+00:09:28,720 --> 00:09:31,120
+okay
+
+256
+00:09:29,760 --> 00:09:33,760
+in
+
+257
+00:09:31,120 --> 00:09:35,279
+heap pop
+
+258
+00:09:33,760 --> 00:09:39,040
+a right
+
+259
+00:09:35,279 --> 00:09:41,120
+and then answer that append
+
+260
+00:09:39,040 --> 00:09:42,480
+append k
+
+261
+00:09:41,120 --> 00:09:44,800
+return
+
+262
+00:09:42,480 --> 00:09:46,399
+uh actually i don't i don't uh we can't
+
+263
+00:09:44,800 --> 00:09:48,000
+use the k this
+
+264
+00:09:46,399 --> 00:09:50,240
+the case already used that's called
+
+265
+00:09:48,000 --> 00:09:51,760
+value okay
+
+266
+00:09:50,240 --> 00:09:53,600
+and then return
+
+267
+00:09:51,760 --> 00:09:54,640
+answer
+
+268
+00:09:53,600 --> 00:09:56,880
+so look
+
+269
+00:09:54,640 --> 00:10:00,000
+c dot counter yeah and now i go through
+
+270
+00:09:56,880 --> 00:10:01,200
+the items and i push the i push the
+
+271
+00:10:00,000 --> 00:10:04,880
+value
+
+272
+00:10:01,200 --> 00:10:05,839
+a pair a topper a purple jupiter
+
+273
+00:10:04,880 --> 00:10:07,839
+pepper
+
+274
+00:10:05,839 --> 00:10:08,880
+cup of soy
+
+275
+00:10:07,839 --> 00:10:12,320
+pepper
+
+276
+00:10:08,880 --> 00:10:15,360
+the key first element of pepper is the
+
+277
+00:10:12,320 --> 00:10:17,839
+inverse of a frequency the second value
+
+278
+00:10:15,360 --> 00:10:21,200
+is the it's actually value right why we
+
+279
+00:10:17,839 --> 00:10:22,640
+don't why we push the negative v
+
+280
+00:10:21,200 --> 00:10:25,680
+right
+
+281
+00:10:22,640 --> 00:10:27,440
+why is that because the hip q by default
+
+282
+00:10:25,680 --> 00:10:29,760
+is from the smallest to the biggest
+
+283
+00:10:27,440 --> 00:10:31,760
+right it's the small we call it mean hip
+
+284
+00:10:29,760 --> 00:10:33,839
+right mean hip
+
+285
+00:10:31,760 --> 00:10:36,079
+in order to change the mean hip to max
+
+286
+00:10:33,839 --> 00:10:36,079
+heat
+
+287
+00:10:36,560 --> 00:10:40,880
+now we the the best way the quicker way
+
+288
+00:10:39,040 --> 00:10:43,200
+would be just put a negative sound right
+
+289
+00:10:40,880 --> 00:10:46,000
+because look one two three if i put a
+
+290
+00:10:43,200 --> 00:10:49,120
+negative sun to it what will become
+
+291
+00:10:46,000 --> 00:10:52,160
+minus one minus two minus three
+
+292
+00:10:49,120 --> 00:10:55,440
+yeah look one is bigger smaller than two
+
+293
+00:10:52,160 --> 00:10:58,079
+three if i put the minus what happened
+
+294
+00:10:55,440 --> 00:11:00,240
+minus one is the biggest right
+
+295
+00:10:58,079 --> 00:11:01,839
+do you get it
+
+296
+00:11:00,240 --> 00:11:04,240
+i want to check i want to reverse the
+
+297
+00:11:01,839 --> 00:11:06,480
+order the the quickest way to put the
+
+298
+00:11:04,240 --> 00:11:08,959
+negative sign because the frequency is
+
+299
+00:11:06,480 --> 00:11:10,800
+not always a positive number right
+
+300
+00:11:08,959 --> 00:11:13,200
+it's a positive number i put a negative
+
+301
+00:11:10,800 --> 00:11:16,399
+sign and i reverse the order that's what
+
+302
+00:11:13,200 --> 00:11:18,800
+what we do is minus v here
+
+303
+00:11:16,399 --> 00:11:20,000
+and then we just go through 10 times it
+
+304
+00:11:18,800 --> 00:11:21,120
+put
+
+305
+00:11:20,000 --> 00:11:23,519
+top
+
+306
+00:11:21,120 --> 00:11:26,079
+the smallest element from the hip and
+
+307
+00:11:23,519 --> 00:11:29,040
+then push the value yeah push it ready
+
+308
+00:11:26,079 --> 00:11:30,399
+okay so look at this thing leaving can
+
+309
+00:11:29,040 --> 00:11:33,360
+be used
+
+310
+00:11:30,399 --> 00:11:35,200
+can be can be can be replaced by by
+
+311
+00:11:33,360 --> 00:11:36,640
+one of the heat function which is for
+
+312
+00:11:35,200 --> 00:11:39,120
+heat
+
+313
+00:11:36,640 --> 00:11:41,279
+and larges or end small leaks yeah we
+
+314
+00:11:39,120 --> 00:11:44,320
+want to enlarge this
+
+315
+00:11:41,279 --> 00:11:47,360
+yeah so
+
+316
+00:11:44,320 --> 00:11:50,720
+enlarges so we don't need to put a
+
+317
+00:11:47,360 --> 00:11:51,920
+negative v here so we can just return
+
+318
+00:11:50,720 --> 00:11:54,240
+heap
+
+319
+00:11:51,920 --> 00:11:57,440
+keep the n largest
+
+320
+00:11:54,240 --> 00:11:59,279
+the first number is how many you want n
+
+321
+00:11:57,440 --> 00:12:01,360
+okay i want that k
+
+322
+00:11:59,279 --> 00:12:03,680
+all right so which which is the heat the
+
+323
+00:12:01,360 --> 00:12:06,959
+second parameter is the heap which is a
+
+324
+00:12:03,680 --> 00:12:09,200
+the third parameter is i key
+
+325
+00:12:06,959 --> 00:12:09,200
+key
+
+326
+00:12:09,360 --> 00:12:13,600
+equals which key you want the item
+
+327
+00:12:11,839 --> 00:12:15,600
+getter okay
+
+328
+00:12:13,600 --> 00:12:17,120
+this is similar to the sort function
+
+329
+00:12:15,600 --> 00:12:20,320
+item data let's
+
+330
+00:12:17,120 --> 00:12:22,880
+which which one we want to basic uh
+
+331
+00:12:20,320 --> 00:12:25,440
+which which key is in the first one or
+
+332
+00:12:22,880 --> 00:12:27,519
+second one so because we only learned
+
+333
+00:12:25,440 --> 00:12:28,560
+based on the first one so let's put in a
+
+334
+00:12:27,519 --> 00:12:30,720
+zero
+
+335
+00:12:28,560 --> 00:12:34,320
+right so we want to basically this is
+
+336
+00:12:30,720 --> 00:12:36,480
+saying that i want to extract the n
+
+337
+00:12:34,320 --> 00:12:39,600
+k largest
+
+338
+00:12:36,480 --> 00:12:40,639
+from the heap based on the first first
+
+339
+00:12:39,600 --> 00:12:43,279
+item
+
+340
+00:12:40,639 --> 00:12:43,279
+which is the v
+
+341
+00:12:43,360 --> 00:12:48,079
+and it retrieves the item right because
+
+342
+00:12:45,440 --> 00:12:51,360
+in a heap it stores the cover
+
+343
+00:12:48,079 --> 00:12:54,639
+so we just need to return
+
+344
+00:12:51,360 --> 00:12:56,800
+i uh we want to return the
+
+345
+00:12:54,639 --> 00:12:57,680
+the second value here so j
+
+346
+00:12:56,800 --> 00:12:59,920
+for
+
+347
+00:12:57,680 --> 00:13:02,079
+i j in
+
+348
+00:12:59,920 --> 00:13:04,079
+hito enlarges okay
+
+349
+00:13:02,079 --> 00:13:05,839
+keep enlarging
+
+350
+00:13:04,079 --> 00:13:08,639
+is to get
+
+351
+00:13:05,839 --> 00:13:10,880
+n the first parameter is n which we want
+
+352
+00:13:08,639 --> 00:13:12,959
+the cave top uh
+
+353
+00:13:10,880 --> 00:13:15,200
+k largest the second parameter is the
+
+354
+00:13:12,959 --> 00:13:18,079
+heap the third parameter is the key like
+
+355
+00:13:15,200 --> 00:13:21,360
+a sorting function right which we need
+
+356
+00:13:18,079 --> 00:13:23,519
+to provide it as a item getter zero
+
+357
+00:13:21,360 --> 00:13:25,920
+means that the topper we want to the
+
+358
+00:13:23,519 --> 00:13:27,600
+heap based on the first element instead
+
+359
+00:13:25,920 --> 00:13:29,360
+of second element second anime is the
+
+360
+00:13:27,600 --> 00:13:32,079
+number the first element is the
+
+361
+00:13:29,360 --> 00:13:34,959
+frequency right yeah so if we put the
+
+362
+00:13:32,079 --> 00:13:36,800
+minus v here then you will reverse the
+
+363
+00:13:34,959 --> 00:13:40,639
+order then we we can change this to
+
+364
+00:13:36,800 --> 00:13:42,880
+smallest right and smallest right yeah
+
+365
+00:13:40,639 --> 00:13:44,800
+make sense
+
+366
+00:13:42,880 --> 00:13:47,920
+does it make sense everywhere so what
+
+367
+00:13:44,800 --> 00:13:47,920
+have you learned today so far
+
+368
+00:13:49,920 --> 00:13:52,800
+so
+
+369
+00:13:50,720 --> 00:13:54,560
+how many methods are do we talk about
+
+370
+00:13:52,800 --> 00:13:56,560
+which one you think you you can remember
+
+371
+00:13:54,560 --> 00:13:57,920
+or you can understand better which one
+
+372
+00:13:56,560 --> 00:13:59,839
+you think
+
+373
+00:13:57,920 --> 00:14:02,000
+is easier counter
+
+374
+00:13:59,839 --> 00:14:04,480
+counter then we can solve the item the
+
+375
+00:14:02,000 --> 00:14:07,040
+first one is obviously very easy most
+
+376
+00:14:04,480 --> 00:14:10,160
+common right yeah it gives you the most
+
+377
+00:14:07,040 --> 00:14:12,880
+common most common right
+
+378
+00:14:10,160 --> 00:14:13,680
+see the most common is sorting the items
+
+379
+00:14:12,880 --> 00:14:15,760
+by
+
+380
+00:14:13,680 --> 00:14:18,320
+by the frequency by the value
+
+381
+00:14:15,760 --> 00:14:21,519
+the second answer we sorted by ourselves
+
+382
+00:14:18,320 --> 00:14:23,120
+we sorted the c dot items right by the
+
+383
+00:14:21,519 --> 00:14:24,800
+key equals the
+
+384
+00:14:23,120 --> 00:14:27,600
+the
+
+385
+00:14:24,800 --> 00:14:30,320
+p lambda p p
+
+386
+00:14:27,600 --> 00:14:32,959
+p square 1 the first which is the
+
+387
+00:14:30,320 --> 00:14:35,360
+frequency the third method pushing it
+
+388
+00:14:32,959 --> 00:14:37,760
+all to the uh
+
+389
+00:14:35,360 --> 00:14:39,760
+pushing everything to the hip right
+
+390
+00:14:37,760 --> 00:14:40,800
+putting everything to the hip and then
+
+391
+00:14:39,760 --> 00:14:42,240
+we get
+
+392
+00:14:40,800 --> 00:14:44,320
+we get it
+
+393
+00:14:42,240 --> 00:14:47,760
+we extract k times that which will be
+
+394
+00:14:44,320 --> 00:14:50,399
+the top k frequent elements right yeah
+
+395
+00:14:47,760 --> 00:14:53,360
+okay the fourth uh method which is the
+
+396
+00:14:50,399 --> 00:14:56,399
+enlarges or n smallest yeah these are
+
+397
+00:14:53,360 --> 00:14:58,399
+easy to very convenient to use okay but
+
+398
+00:14:56,399 --> 00:15:01,120
+the key thing today is
+
+399
+00:14:58,399 --> 00:15:04,720
+key thing today is that counter
+
+400
+00:15:01,120 --> 00:15:07,199
+yeah counter now we want to solve the
+
+401
+00:15:04,720 --> 00:15:10,800
+item which is key value pair by the
+
+402
+00:15:07,199 --> 00:15:14,530
+value value which is the frequency okay
+
+403
+00:15:10,800 --> 00:15:17,909
+okay that's it for today bye bye bye
+
+404
+00:15:14,530 --> 00:15:17,909
+[Music]
+
