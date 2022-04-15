@@ -1,0 +1,1276 @@
+1
+00:00:00,000 --> 00:00:04,560
+hello mr miss narayan okay so today we
+
+2
+00:00:02,560 --> 00:00:07,440
+want to talk about how to check if a
+
+3
+00:00:04,560 --> 00:00:09,599
+graph this is given uh this kind of data
+
+4
+00:00:07,440 --> 00:00:12,639
+structure to represent the
+
+5
+00:00:09,599 --> 00:00:14,240
+graph likes and we want to find out if
+
+6
+00:00:12,639 --> 00:00:17,680
+this is actually tree detection
+
+7
+00:00:14,240 --> 00:00:18,880
+algorithm okay this index means zero
+
+8
+00:00:17,680 --> 00:00:19,760
+one
+
+9
+00:00:18,880 --> 00:00:21,760
+two
+
+10
+00:00:19,760 --> 00:00:24,480
+three okay so we have
+
+11
+00:00:21,760 --> 00:00:25,680
+we have four notes neighbors zero one
+
+12
+00:00:24,480 --> 00:00:30,240
+two three
+
+13
+00:00:25,680 --> 00:00:31,279
+so look zero the left over zero is one
+
+14
+00:00:30,240 --> 00:00:34,880
+okay
+
+15
+00:00:31,279 --> 00:00:37,920
+one the left the right of zero is two
+
+16
+00:00:34,880 --> 00:00:39,920
+okay the left of one is when is minus
+
+17
+00:00:37,920 --> 00:00:41,920
+one it means that it's
+
+18
+00:00:39,920 --> 00:00:44,399
+it doesn't have a the kid the kid is
+
+19
+00:00:41,920 --> 00:00:46,399
+known okay so we skip
+
+20
+00:00:44,399 --> 00:00:50,719
+one doesn't have the left three
+
+21
+00:00:46,399 --> 00:00:52,640
+right right uh one of the ones right is
+
+22
+00:00:50,719 --> 00:00:53,520
+none right
+
+23
+00:00:52,640 --> 00:00:56,399
+two
+
+24
+00:00:53,520 --> 00:00:59,440
+the left of the two is three
+
+25
+00:00:56,399 --> 00:01:00,480
+the right of the two is nothing okay and
+
+26
+00:00:59,440 --> 00:01:02,879
+then four
+
+27
+00:01:00,480 --> 00:01:04,720
+here the left of three is nothing the
+
+28
+00:01:02,879 --> 00:01:06,560
+right and right of three is nothing so
+
+29
+00:01:04,720 --> 00:01:09,280
+it's at least a tree
+
+30
+00:01:06,560 --> 00:01:10,960
+given this okay
+
+31
+00:01:09,280 --> 00:01:13,840
+yeah
+
+32
+00:01:10,960 --> 00:01:15,040
+yeah look the left of zero
+
+33
+00:01:13,840 --> 00:01:18,320
+is one
+
+34
+00:01:15,040 --> 00:01:20,479
+the right of zero is two the left of one
+
+35
+00:01:18,320 --> 00:01:23,119
+is minus one which means nothing the
+
+36
+00:01:20,479 --> 00:01:24,240
+right or minus one is not minus one is
+
+37
+00:01:23,119 --> 00:01:27,200
+nothing
+
+38
+00:01:24,240 --> 00:01:28,479
+uh the of one okay is not minus one the
+
+39
+00:01:27,200 --> 00:01:30,720
+left of the
+
+40
+00:01:28,479 --> 00:01:32,960
+the left of two
+
+41
+00:01:30,720 --> 00:01:35,360
+is three the right of two is nothing
+
+42
+00:01:32,960 --> 00:01:37,280
+minus one okay and a three the left of
+
+43
+00:01:35,360 --> 00:01:39,119
+three is nothing but right of three is
+
+44
+00:01:37,280 --> 00:01:42,000
+nothing so this is this
+
+45
+00:01:39,119 --> 00:01:44,640
+trick is this a tree
+
+46
+00:01:42,000 --> 00:01:46,159
+very obviously is it
+
+47
+00:01:44,640 --> 00:01:47,680
+this is not a trick question is this
+
+48
+00:01:46,159 --> 00:01:48,799
+about a tree
+
+49
+00:01:47,680 --> 00:01:49,680
+yeah
+
+50
+00:01:48,799 --> 00:01:54,040
+yeah
+
+51
+00:01:49,680 --> 00:01:54,040
+maybe what do you mean maybe
+
+52
+00:01:55,260 --> 00:01:58,379
+[Music]
+
+53
+00:02:07,280 --> 00:02:10,160
+you're quite picky okay so tell about
+
+54
+00:02:08,879 --> 00:02:12,800
+this
+
+55
+00:02:10,160 --> 00:02:15,120
+because one of them looks very circle
+
+56
+00:02:12,800 --> 00:02:16,319
+okay so don't worry about the notation
+
+57
+00:02:15,120 --> 00:02:18,239
+it's just you don't want to there's
+
+58
+00:02:16,319 --> 00:02:20,239
+three four notes connected by this way
+
+59
+00:02:18,239 --> 00:02:22,080
+this is the final trick it's a it's a
+
+60
+00:02:20,239 --> 00:02:23,200
+tree it's a binary look left or right
+
+61
+00:02:22,080 --> 00:02:24,080
+okay
+
+62
+00:02:23,200 --> 00:02:25,760
+so
+
+63
+00:02:24,080 --> 00:02:28,239
+in order to
+
+64
+00:02:25,760 --> 00:02:29,840
+to be a tree what kind of thing we are
+
+65
+00:02:28,239 --> 00:02:34,090
+looking for
+
+66
+00:02:29,840 --> 00:02:39,840
+in order to be a tree everywhere anybody
+
+67
+00:02:34,090 --> 00:02:39,840
+[Music]
+
+68
+00:02:40,400 --> 00:02:44,480
+in one piece yeah you can't have like
+
+69
+00:02:42,160 --> 00:02:46,879
+another one here that's not a tree okay
+
+70
+00:02:44,480 --> 00:02:46,879
+these are
+
+71
+00:02:49,120 --> 00:02:53,680
+cycles foreign down so so we can't have
+
+72
+00:02:51,680 --> 00:02:56,800
+any energy we can't do this right this
+
+73
+00:02:53,680 --> 00:02:58,400
+is not a three this is one okay anything
+
+74
+00:02:56,800 --> 00:02:59,599
+is
+
+75
+00:02:58,400 --> 00:03:02,159
+one root
+
+76
+00:02:59,599 --> 00:03:04,480
+one root okay so it's kind of like if
+
+77
+00:03:02,159 --> 00:03:06,239
+you have two roots it means that
+
+78
+00:03:04,480 --> 00:03:08,480
+and you know
+
+79
+00:03:06,239 --> 00:03:10,800
+if it means not connected so it's kind
+
+80
+00:03:08,480 --> 00:03:14,120
+of here okay if i put it here right it's
+
+81
+00:03:10,800 --> 00:03:15,680
+one thing whether anymore no
+
+82
+00:03:14,120 --> 00:03:18,080
+[Music]
+
+83
+00:03:15,680 --> 00:03:20,640
+i think okay so we're talking about this
+
+84
+00:03:18,080 --> 00:03:21,680
+undirected graph yeah under the ground
+
+85
+00:03:20,640 --> 00:03:23,280
+uh
+
+86
+00:03:21,680 --> 00:03:24,640
+it needs to be
+
+87
+00:03:23,280 --> 00:03:28,159
+clean
+
+88
+00:03:24,640 --> 00:03:31,360
+and actually actually it has directions
+
+89
+00:03:28,159 --> 00:03:31,360
+from parents to the kids
+
+90
+00:03:34,159 --> 00:03:38,480
+so yeah so how do we do this yeah so
+
+91
+00:03:37,200 --> 00:03:40,879
+first of all you mentioned about the
+
+92
+00:03:38,480 --> 00:03:42,879
+root so the idea is that we need to find
+
+93
+00:03:40,879 --> 00:03:44,640
+the rule first right so if we find the
+
+94
+00:03:42,879 --> 00:03:47,440
+root
+
+95
+00:03:44,640 --> 00:03:49,599
+if we find the root then we can do this
+
+96
+00:03:47,440 --> 00:03:51,519
+breakfast starts your diagnosis right
+
+97
+00:03:49,599 --> 00:03:53,439
+what's the perfect search of these these
+
+98
+00:03:51,519 --> 00:03:55,680
+three anyone this is easy question
+
+99
+00:03:53,439 --> 00:03:57,760
+what's the difference zero one two three
+
+100
+00:03:55,680 --> 00:04:00,400
+okay what's the
+
+101
+00:03:57,760 --> 00:04:00,400
+what do i say
+
+102
+00:04:05,439 --> 00:04:08,879
+zero one two three zero one two three
+
+103
+00:04:07,280 --> 00:04:10,480
+okay uh
+
+104
+00:04:08,879 --> 00:04:12,400
+the preference search level by level
+
+105
+00:04:10,480 --> 00:04:14,319
+therefore search you go down
+
+106
+00:04:12,400 --> 00:04:15,599
+as deep as you can and if not no
+
+107
+00:04:14,319 --> 00:04:18,400
+breakfast
+
+108
+00:04:15,599 --> 00:04:20,479
+do you use food okay we are given this
+
+109
+00:04:18,400 --> 00:04:21,600
+formula how do we find the root
+
+110
+00:04:20,479 --> 00:04:23,759
+possibly
+
+111
+00:04:21,600 --> 00:04:25,120
+so we need to count the one one thing
+
+112
+00:04:23,759 --> 00:04:27,440
+what is this
+
+113
+00:04:25,120 --> 00:04:29,520
+the number of what kind of egg is coming
+
+114
+00:04:27,440 --> 00:04:33,120
+what what is it called
+
+115
+00:04:29,520 --> 00:04:35,120
+in degree where down in degree in degree
+
+116
+00:04:33,120 --> 00:04:37,199
+so this is the number of this is the
+
+117
+00:04:35,120 --> 00:04:39,440
+edges that going in so if we go through
+
+118
+00:04:37,199 --> 00:04:42,560
+these then we find that in degree first
+
+119
+00:04:39,440 --> 00:04:44,720
+of all we go final in degree equals one
+
+120
+00:04:42,560 --> 00:04:46,960
+equals zero then that's a number yeah if
+
+121
+00:04:44,720 --> 00:04:49,840
+we find that uh if we find
+
+122
+00:04:46,960 --> 00:04:52,000
+there are two roots or zero roots
+
+123
+00:04:49,840 --> 00:04:54,400
+what does it mean it means that we can
+
+124
+00:04:52,000 --> 00:04:56,800
+just return right because it in order to
+
+125
+00:04:54,400 --> 00:04:58,880
+be a graph to be a tree it needs to be
+
+126
+00:04:56,800 --> 00:05:01,600
+exactly having one one it needs to be
+
+127
+00:04:58,880 --> 00:05:04,000
+exactly one node that doesn't have any
+
+128
+00:05:01,600 --> 00:05:05,600
+in degree uh it doesn't have any uh edge
+
+129
+00:05:04,000 --> 00:05:07,120
+coming in okay and now we can do this
+
+130
+00:05:05,600 --> 00:05:10,240
+break for such stafford search and we
+
+131
+00:05:07,120 --> 00:05:13,120
+can can find out the number of nodes the
+
+132
+00:05:10,240 --> 00:05:14,880
+number of nodes visited is exactly
+
+133
+00:05:13,120 --> 00:05:16,080
+i know okay
+
+134
+00:05:14,880 --> 00:05:18,650
+we find
+
+135
+00:05:16,080 --> 00:05:20,880
+three different detections
+
+136
+00:05:18,650 --> 00:05:24,960
+[Music]
+
+137
+00:05:20,880 --> 00:05:26,479
+we have this left and right okay
+
+138
+00:05:24,960 --> 00:05:28,479
+so we are given this difference right
+
+139
+00:05:26,479 --> 00:05:30,880
+first of all we need to get this n n is
+
+140
+00:05:28,479 --> 00:05:32,639
+the number of nodes right lens left on
+
+141
+00:05:30,880 --> 00:05:34,080
+that right
+
+142
+00:05:32,639 --> 00:05:36,080
+it should be the same yeah the both
+
+143
+00:05:34,080 --> 00:05:37,120
+arrays will have the same size okay and
+
+144
+00:05:36,080 --> 00:05:39,360
+then
+
+145
+00:05:37,120 --> 00:05:42,800
+we have we can count the number of
+
+146
+00:05:39,360 --> 00:05:46,479
+in-degree edges so let's do it in uh
+
+147
+00:05:42,800 --> 00:05:48,880
+in the data okay in the data data
+
+148
+00:05:46,479 --> 00:05:50,240
+before this is the integrator before
+
+149
+00:05:48,880 --> 00:05:53,360
+dictionary
+
+150
+00:05:50,240 --> 00:05:56,000
+default dictionary in
+
+151
+00:05:53,360 --> 00:05:58,319
+okay and then we go through for i
+
+152
+00:05:56,000 --> 00:05:59,680
+in range
+
+153
+00:05:58,319 --> 00:06:01,199
+and right
+
+154
+00:05:59,680 --> 00:06:03,520
+so look if
+
+155
+00:06:01,199 --> 00:06:05,759
+if the left eye
+
+156
+00:06:03,520 --> 00:06:08,319
+not equal minus one right there's no
+
+157
+00:06:05,759 --> 00:06:11,039
+point to count the integral of nothing
+
+158
+00:06:08,319 --> 00:06:14,560
+right if left i not equals one then
+
+159
+00:06:11,039 --> 00:06:15,600
+theta alright right
+
+160
+00:06:14,560 --> 00:06:17,120
+left
+
+161
+00:06:15,600 --> 00:06:19,360
+i
+
+162
+00:06:17,120 --> 00:06:21,840
+plus equal one okay
+
+163
+00:06:19,360 --> 00:06:24,639
+okay third one
+
+164
+00:06:21,840 --> 00:06:27,039
+is right you're man
+
+165
+00:06:24,639 --> 00:06:30,160
+what am i writing here if right i not
+
+166
+00:06:27,039 --> 00:06:31,199
+equals minus one your writing if right
+
+167
+00:06:30,160 --> 00:06:33,280
+eye
+
+168
+00:06:31,199 --> 00:06:35,680
+okay and right
+
+169
+00:06:33,280 --> 00:06:40,080
+i mind eric can you tell me what i'm
+
+170
+00:06:35,680 --> 00:06:42,240
+doing here from this line here to here
+
+171
+00:06:40,080 --> 00:06:43,919
+guess what does it mean plus equal one
+
+172
+00:06:42,240 --> 00:06:46,160
+we are counting what
+
+173
+00:06:43,919 --> 00:06:48,479
+i know theta is addition so we are we
+
+174
+00:06:46,160 --> 00:06:50,560
+are iterating over the
+
+175
+00:06:48,479 --> 00:06:53,599
+nodes and then
+
+176
+00:06:50,560 --> 00:06:56,479
+because left i is the lesson trial of
+
+177
+00:06:53,599 --> 00:07:00,639
+the node i and now we we increment this
+
+178
+00:06:56,479 --> 00:07:02,479
+by one what does it mean the number of
+
+179
+00:07:00,639 --> 00:07:04,479
+in degree yes we are look we are we are
+
+180
+00:07:02,479 --> 00:07:06,960
+updating the in degree weather okay in
+
+181
+00:07:04,479 --> 00:07:08,880
+degree here so now we want to find out
+
+182
+00:07:06,960 --> 00:07:12,080
+the rule there's a root
+
+183
+00:07:08,880 --> 00:07:12,880
+root that would be equal i for
+
+184
+00:07:12,080 --> 00:07:16,479
+i
+
+185
+00:07:12,880 --> 00:07:19,440
+in range and
+
+186
+00:07:16,479 --> 00:07:21,919
+if is what so we are going we we have
+
+187
+00:07:19,440 --> 00:07:23,520
+this note from 0 to n minus 1 but we
+
+188
+00:07:21,919 --> 00:07:26,000
+want to check if
+
+189
+00:07:23,520 --> 00:07:27,280
+if the data
+
+190
+00:07:26,000 --> 00:07:30,000
+data i
+
+191
+00:07:27,280 --> 00:07:32,240
+in degree equals 0 right look here right
+
+192
+00:07:30,000 --> 00:07:33,680
+this is the loop right at least
+
+193
+00:07:32,240 --> 00:07:35,680
+maybe empty
+
+194
+00:07:33,680 --> 00:07:37,599
+or you may have more we may have more
+
+195
+00:07:35,680 --> 00:07:40,880
+than one root right look this is the
+
+196
+00:07:37,599 --> 00:07:44,080
+least yeah for i in range i if theta i
+
+197
+00:07:40,880 --> 00:07:45,840
+theta i is the indegree of i equals zero
+
+198
+00:07:44,080 --> 00:07:48,400
+right
+
+199
+00:07:45,840 --> 00:07:50,080
+right yeah what does this equal zero
+
+200
+00:07:48,400 --> 00:07:53,039
+mean
+
+201
+00:07:50,080 --> 00:07:54,960
+delta i equals zero anybody
+
+202
+00:07:53,039 --> 00:07:57,190
+come on i will just say beta i equals
+
+203
+00:07:54,960 --> 00:08:00,319
+zero
+
+204
+00:07:57,190 --> 00:08:00,319
+[Music]
+
+205
+00:08:03,470 --> 00:08:08,560
+[Music]
+
+206
+00:08:05,440 --> 00:08:10,479
+the in degree is nothing it's nothing so
+
+207
+00:08:08,560 --> 00:08:13,440
+there's no edge going in so that's a
+
+208
+00:08:10,479 --> 00:08:15,199
+loop okay so look if if the length of
+
+209
+00:08:13,440 --> 00:08:17,919
+the root
+
+210
+00:08:15,199 --> 00:08:19,599
+is not equal one then we need to return
+
+211
+00:08:17,919 --> 00:08:22,400
+what
+
+212
+00:08:19,599 --> 00:08:25,199
+if the root if if we find more than one
+
+213
+00:08:22,400 --> 00:08:26,879
+root or if we find no root
+
+214
+00:08:25,199 --> 00:08:29,840
+right if we find no root what does it
+
+215
+00:08:26,879 --> 00:08:31,440
+mean there's a cycle right 0 1 2
+
+216
+00:08:29,840 --> 00:08:33,919
+something like that
+
+217
+00:08:31,440 --> 00:08:37,200
+there's no note each node has
+
+218
+00:08:33,919 --> 00:08:39,039
+has some in degree right yeah so
+
+219
+00:08:37,200 --> 00:08:41,360
+if it's zero it means this kind of
+
+220
+00:08:39,039 --> 00:08:43,919
+situation if it's more than one it means
+
+221
+00:08:41,360 --> 00:08:46,080
+what something like that right
+
+222
+00:08:43,919 --> 00:08:48,399
+right even more than one so
+
+223
+00:08:46,080 --> 00:08:51,040
+so these two are not trees so what
+
+224
+00:08:48,399 --> 00:08:51,040
+should we return
+
+225
+00:08:51,680 --> 00:08:57,200
+nothing false okay
+
+226
+00:08:54,720 --> 00:08:58,240
+okay yeah so now we know to find the
+
+227
+00:08:57,200 --> 00:09:00,399
+rule
+
+228
+00:08:58,240 --> 00:09:02,399
+that zero will be the root yeah then we
+
+229
+00:09:00,399 --> 00:09:04,959
+do this breakfast search here or another
+
+230
+00:09:02,399 --> 00:09:06,950
+way we can do this we can turn this
+
+231
+00:09:04,959 --> 00:09:10,109
+we can turn the root they say this
+
+232
+00:09:06,950 --> 00:09:10,109
+[Music]
+
+233
+00:09:10,320 --> 00:09:15,120
+iterator boot
+
+234
+00:09:12,880 --> 00:09:17,200
+and then we do this next then you give
+
+235
+00:09:15,120 --> 00:09:18,240
+us the loop this is basically the same
+
+236
+00:09:17,200 --> 00:09:20,399
+thing okay
+
+237
+00:09:18,240 --> 00:09:22,480
+we turning this the list into iterator
+
+238
+00:09:20,399 --> 00:09:24,640
+and we put it to the next this is the
+
+239
+00:09:22,480 --> 00:09:26,399
+syntax of
+
+240
+00:09:24,640 --> 00:09:28,800
+you know sensing syntax
+
+241
+00:09:26,399 --> 00:09:30,480
+but as long as we know it's only one
+
+242
+00:09:28,800 --> 00:09:32,240
+element here so then we can do this
+
+243
+00:09:30,480 --> 00:09:34,320
+loser okay then we do this preference
+
+244
+00:09:32,240 --> 00:09:36,160
+search okay question search what kind of
+
+245
+00:09:34,320 --> 00:09:39,120
+data social can we use to implement
+
+246
+00:09:36,160 --> 00:09:40,720
+buffer sensors right
+
+247
+00:09:39,120 --> 00:09:42,720
+i i think you know this question
+
+248
+00:09:40,720 --> 00:09:44,320
+question search
+
+249
+00:09:42,720 --> 00:09:45,120
+what kind of data structure can we use
+
+250
+00:09:44,320 --> 00:09:47,920
+to
+
+251
+00:09:45,120 --> 00:09:52,480
+kill yes and in python
+
+252
+00:09:47,920 --> 00:09:55,360
+wow good job okay q equals d e q u e
+
+253
+00:09:52,480 --> 00:09:58,000
+first of all we put the load in okay the
+
+254
+00:09:55,360 --> 00:09:59,839
+zero okay put a little zero
+
+255
+00:09:58,000 --> 00:10:01,440
+or you can do this again the same thing
+
+256
+00:09:59,839 --> 00:10:03,360
+and then we need to have this thing
+
+257
+00:10:01,440 --> 00:10:04,560
+equal step headshot
+
+258
+00:10:03,360 --> 00:10:07,600
+okay
+
+259
+00:10:04,560 --> 00:10:11,920
+now y q easy
+
+260
+00:10:07,600 --> 00:10:13,190
+current equals q dot problem
+
+261
+00:10:11,920 --> 00:10:14,560
+okay and then
+
+262
+00:10:13,190 --> 00:10:18,959
+[Music]
+
+263
+00:10:14,560 --> 00:10:21,279
+if okay if current in sin right we have
+
+264
+00:10:18,959 --> 00:10:23,839
+seen this before then we need to return
+
+265
+00:10:21,279 --> 00:10:25,839
+first right why is that because look if
+
+266
+00:10:23,839 --> 00:10:28,160
+we've seen we have seen this now before
+
+267
+00:10:25,839 --> 00:10:30,000
+that means lesser cycle and right so
+
+268
+00:10:28,160 --> 00:10:31,839
+that's why we seen it so we didn't talk
+
+269
+00:10:30,000 --> 00:10:33,680
+otherwise we need to put it in the same
+
+270
+00:10:31,839 --> 00:10:35,519
+table let's see in the headset it's a
+
+271
+00:10:33,680 --> 00:10:39,279
+notebook okay
+
+272
+00:10:35,519 --> 00:10:41,600
+a sim dot add carbon
+
+273
+00:10:39,279 --> 00:10:44,480
+okay then if
+
+274
+00:10:41,600 --> 00:10:47,360
+it was if left
+
+275
+00:10:44,480 --> 00:10:49,920
+left current not equals minus one and we
+
+276
+00:10:47,360 --> 00:10:51,040
+push this q dot append
+
+277
+00:10:49,920 --> 00:10:54,959
+up and
+
+278
+00:10:51,040 --> 00:10:57,440
+left parallel right then if right curve
+
+279
+00:10:54,959 --> 00:10:59,360
+and not equals one then q dot apparently
+
+280
+00:10:57,440 --> 00:11:01,519
+i don't have enough space but you know
+
+281
+00:10:59,360 --> 00:11:04,399
+what i'm talking about right
+
+282
+00:11:01,519 --> 00:11:06,800
+i okay that's just the question here
+
+283
+00:11:04,399 --> 00:11:08,240
+here is the breakfast search
+
+284
+00:11:06,800 --> 00:11:10,320
+bfs
+
+285
+00:11:08,240 --> 00:11:12,880
+here this is counting the in degree
+
+286
+00:11:10,320 --> 00:11:14,560
+updating the integration updating the in
+
+287
+00:11:12,880 --> 00:11:17,200
+degree
+
+288
+00:11:14,560 --> 00:11:17,200
+in degree
+
+289
+00:11:17,760 --> 00:11:23,279
+of the notes okay and then after if all
+
+290
+00:11:20,560 --> 00:11:26,000
+all are released then we need to return
+
+291
+00:11:23,279 --> 00:11:29,680
+return length of the scene we want to
+
+292
+00:11:26,000 --> 00:11:33,360
+find out the the note we have visited is
+
+293
+00:11:29,680 --> 00:11:35,920
+equals to the n right this is the
+
+294
+00:11:33,360 --> 00:11:36,720
+number of nodes we've given in the graph
+
+295
+00:11:35,920 --> 00:11:38,800
+right
+
+296
+00:11:36,720 --> 00:11:40,720
+everywhere come on
+
+297
+00:11:38,800 --> 00:11:44,720
+yes
+
+298
+00:11:40,720 --> 00:11:46,320
+any any questions so far any questions
+
+299
+00:11:44,720 --> 00:11:48,640
+no okay
+
+300
+00:11:46,320 --> 00:11:50,959
+okay so uh can you okay one last
+
+301
+00:11:48,640 --> 00:11:53,760
+question can you tell me how do we
+
+302
+00:11:50,959 --> 00:11:56,639
+how do we check uh
+
+303
+00:11:53,760 --> 00:11:59,760
+how do we check that no the node has
+
+304
+00:11:56,639 --> 00:12:02,639
+been visited or not how do we check
+
+305
+00:11:59,760 --> 00:12:03,440
+which line is the data structure we use
+
+306
+00:12:02,639 --> 00:12:05,600
+to
+
+307
+00:12:03,440 --> 00:12:07,279
+to check to put the nodes that we have
+
+308
+00:12:05,600 --> 00:12:09,519
+visited
+
+309
+00:12:07,279 --> 00:12:11,200
+come on it's very obvious here okay let
+
+310
+00:12:09,519 --> 00:12:13,519
+me see
+
+311
+00:12:11,200 --> 00:12:15,519
+and this is the set
+
+312
+00:12:13,519 --> 00:12:20,399
+stop
+
+313
+00:12:15,519 --> 00:12:23,839
+okay here look set set okay set
+
+314
+00:12:20,399 --> 00:12:26,720
+okay if it's exactly now
+
+315
+00:12:23,839 --> 00:12:29,440
+okay and if not we put it in a
+
+316
+00:12:26,720 --> 00:12:29,440
+in a headset
+
+317
+00:12:30,079 --> 00:12:34,160
+okay that's it for today bye bye
+
+318
+00:12:32,320 --> 00:12:37,639
+bye bye
+
+319
+00:12:34,160 --> 00:12:37,639
+okay that's it
+

@@ -1,0 +1,988 @@
+1
+00:00:00,000 --> 00:00:04,240
+go
+
+2
+00:00:01,439 --> 00:00:05,120
+hello mr mr rhino are you right here
+
+3
+00:00:04,240 --> 00:00:06,879
+so
+
+4
+00:00:05,120 --> 00:00:09,200
+yesterday we talked about this tree
+
+5
+00:00:06,879 --> 00:00:12,240
+detection agreement so we are given two
+
+6
+00:00:09,200 --> 00:00:14,400
+arrays left and right and representing
+
+7
+00:00:12,240 --> 00:00:15,759
+the left right and right side of the
+
+8
+00:00:14,400 --> 00:00:17,520
+node
+
+9
+00:00:15,759 --> 00:00:19,680
+from zero to n minus one okay they are
+
+10
+00:00:17,520 --> 00:00:22,720
+given the both arrays
+
+11
+00:00:19,680 --> 00:00:25,439
+have n elements representing the
+
+12
+00:00:22,720 --> 00:00:27,119
+the triad the triad okay the note it
+
+13
+00:00:25,439 --> 00:00:29,199
+connects to
+
+14
+00:00:27,119 --> 00:00:31,519
+if it's from the left direction or right
+
+15
+00:00:29,199 --> 00:00:34,000
+direction okay so we want to find out if
+
+16
+00:00:31,519 --> 00:00:36,079
+this data structure presenting here
+
+17
+00:00:34,000 --> 00:00:37,600
+presented by this kind of
+
+18
+00:00:36,079 --> 00:00:38,879
+lesson right
+
+19
+00:00:37,600 --> 00:00:41,200
+is a
+
+20
+00:00:38,879 --> 00:00:43,440
+tree okay so it's a graph but we want to
+
+21
+00:00:41,200 --> 00:00:46,800
+find out if it's a tree so
+
+22
+00:00:43,440 --> 00:00:48,800
+in order to find out if it's a tree
+
+23
+00:00:46,800 --> 00:00:51,199
+there are a few things we need to check
+
+24
+00:00:48,800 --> 00:00:53,920
+anybody are we right so how do we find
+
+25
+00:00:51,199 --> 00:00:56,399
+out if it's a trick you need to find
+
+26
+00:00:53,920 --> 00:00:58,960
+if it's connected connected we're done
+
+27
+00:00:56,399 --> 00:00:58,960
+okay so if
+
+28
+00:01:07,439 --> 00:01:12,479
+no cycle okay because connecting means
+
+29
+00:01:09,600 --> 00:01:14,159
+one single component so uh and no cycle
+
+30
+00:01:12,479 --> 00:01:16,720
+obviously we don't want to something
+
+31
+00:01:14,159 --> 00:01:18,960
+like this yes and that's all i remember
+
+32
+00:01:16,720 --> 00:01:19,759
+yeah that's pretty good okay so connect
+
+33
+00:01:18,960 --> 00:01:23,360
+it
+
+34
+00:01:19,759 --> 00:01:26,400
+so if it's connected there must be okay
+
+35
+00:01:23,360 --> 00:01:29,040
+one node which has zero
+
+36
+00:01:26,400 --> 00:01:31,360
+in degree okay zero in degree means that
+
+37
+00:01:29,040 --> 00:01:33,040
+there's no edge coming in okay there's
+
+38
+00:01:31,360 --> 00:01:35,680
+no edge coming in then that must be the
+
+39
+00:01:33,040 --> 00:01:38,240
+root so because the tree has the root
+
+40
+00:01:35,680 --> 00:01:39,600
+there three is the dag what's the ag
+
+41
+00:01:38,240 --> 00:01:41,439
+anybody
+
+42
+00:01:39,600 --> 00:01:44,000
+dig
+
+43
+00:01:41,439 --> 00:01:46,399
+directive a cyclic graph okay it means
+
+44
+00:01:44,000 --> 00:01:48,479
+it has direction from parents for kids
+
+45
+00:01:46,399 --> 00:01:49,520
+it doesn't have cycle it's a graph okay
+
+46
+00:01:48,479 --> 00:01:51,520
+it's a graph
+
+47
+00:01:49,520 --> 00:01:53,920
+and
+
+48
+00:01:51,520 --> 00:01:56,640
+to find out to find out is we we need to
+
+49
+00:01:53,920 --> 00:01:59,200
+find out the loot first the root is the
+
+50
+00:01:56,640 --> 00:02:01,600
+one only the only node which does not
+
+51
+00:01:59,200 --> 00:02:05,200
+have any in degree so
+
+52
+00:02:01,600 --> 00:02:07,040
+so we use this data degeneracy to store
+
+53
+00:02:05,200 --> 00:02:09,280
+to store the integrity for each node
+
+54
+00:02:07,040 --> 00:02:11,920
+right so then we updated the indegree
+
+55
+00:02:09,280 --> 00:02:13,920
+here after in degree after integration
+
+56
+00:02:11,920 --> 00:02:17,120
+from the left and right okay if right is
+
+57
+00:02:13,920 --> 00:02:20,000
+not the right the right node or the left
+
+58
+00:02:17,120 --> 00:02:22,480
+node of the node i is not empty it's not
+
+59
+00:02:20,000 --> 00:02:25,120
+empty right so then we update the node
+
+60
+00:02:22,480 --> 00:02:28,160
+this is the so so look this is the node
+
+61
+00:02:25,120 --> 00:02:31,920
+i yeah look i and here that will be the
+
+62
+00:02:28,160 --> 00:02:32,800
+right right eye yeah that will be left
+
+63
+00:02:31,920 --> 00:02:33,760
+eye
+
+64
+00:02:32,800 --> 00:02:36,640
+so
+
+65
+00:02:33,760 --> 00:02:38,879
+left eye has one more in degree from i
+
+66
+00:02:36,640 --> 00:02:39,519
+right right i for x one more individual
+
+67
+00:02:38,879 --> 00:02:41,760
+i
+
+68
+00:02:39,519 --> 00:02:44,560
+okay and then the root
+
+69
+00:02:41,760 --> 00:02:47,200
+this one so we want to find out how many
+
+70
+00:02:44,560 --> 00:02:49,680
+notes have this in degree zero so if
+
+71
+00:02:47,200 --> 00:02:51,840
+it's not equal to one then it must be a
+
+72
+00:02:49,680 --> 00:02:54,640
+tree right because for the tree we can
+
+73
+00:02:51,840 --> 00:02:56,879
+only have one in degree is zero
+
+74
+00:02:54,640 --> 00:03:00,400
+every nodes have in degree more than
+
+75
+00:02:56,879 --> 00:03:01,920
+zero okay this one we have two nodes
+
+76
+00:03:00,400 --> 00:03:03,360
+two nodes
+
+77
+00:03:01,920 --> 00:03:04,400
+in degree
+
+78
+00:03:03,360 --> 00:03:07,200
+zero
+
+79
+00:03:04,400 --> 00:03:08,640
+and we only want to make sure that that
+
+80
+00:03:07,200 --> 00:03:10,800
+there's only one node which has in
+
+81
+00:03:08,640 --> 00:03:13,200
+degrees here okay
+
+82
+00:03:10,800 --> 00:03:14,239
+once we have this root root zero
+
+83
+00:03:13,200 --> 00:03:16,800
+blue zero
+
+84
+00:03:14,239 --> 00:03:18,800
+then we do this uh questions we start
+
+85
+00:03:16,800 --> 00:03:20,720
+with the root right we start with rule
+
+86
+00:03:18,800 --> 00:03:22,959
+and we do this preference search left
+
+87
+00:03:20,720 --> 00:03:25,360
+level by level and we want to find out
+
+88
+00:03:22,959 --> 00:03:27,280
+that all the notes have been should be
+
+89
+00:03:25,360 --> 00:03:29,360
+visited exactly once
+
+90
+00:03:27,280 --> 00:03:30,959
+it has no cycles right because if you
+
+91
+00:03:29,360 --> 00:03:34,080
+have cycles it will be something like
+
+92
+00:03:30,959 --> 00:03:36,480
+this then that would be not uh
+
+93
+00:03:34,080 --> 00:03:38,480
+that would be not a trick right
+
+94
+00:03:36,480 --> 00:03:41,200
+so we use that preference we use the
+
+95
+00:03:38,480 --> 00:03:41,200
+double indications
+
+96
+00:03:42,000 --> 00:03:45,440
+number two they have no numbers okay
+
+97
+00:03:44,400 --> 00:03:47,120
+yeah
+
+98
+00:03:45,440 --> 00:03:49,200
+okay so this is the preferred structure
+
+99
+00:03:47,120 --> 00:03:51,200
+okay so then we're using this uh let's
+
+100
+00:03:49,200 --> 00:03:54,080
+do use the type of search here
+
+101
+00:03:51,200 --> 00:03:54,080
+how do we use your name
+
+102
+00:03:54,239 --> 00:03:57,599
+how do we usually implement that
+
+103
+00:03:57,760 --> 00:04:01,519
+yeah that was yesterday
+
+104
+00:03:59,360 --> 00:04:03,840
+using double nbq removal and the cube
+
+105
+00:04:01,519 --> 00:04:06,480
+processor and then this
+
+106
+00:04:03,840 --> 00:04:09,040
+which part of code here is is
+
+107
+00:04:06,480 --> 00:04:10,959
+to check if you have a cycle here the
+
+108
+00:04:09,040 --> 00:04:12,640
+preferences which part i'm calling it
+
+109
+00:04:10,959 --> 00:04:14,480
+checking the second
+
+110
+00:04:12,640 --> 00:04:15,760
+come on come on
+
+111
+00:04:14,480 --> 00:04:17,840
+you know this
+
+112
+00:04:15,760 --> 00:04:20,079
+with the scene you've seen if the note
+
+113
+00:04:17,840 --> 00:04:22,560
+has been seen it before yeah so it has
+
+114
+00:04:20,079 --> 00:04:24,720
+cycles so this one yeah because if we if
+
+115
+00:04:22,560 --> 00:04:27,120
+we have seen this no before then it must
+
+116
+00:04:24,720 --> 00:04:29,199
+appear before name it means that we have
+
+117
+00:04:27,120 --> 00:04:31,520
+cyprus okay for the test massage you
+
+118
+00:04:29,199 --> 00:04:34,800
+will use the recursion right remember
+
+119
+00:04:31,520 --> 00:04:37,840
+recursion yes so let's do this define
+
+120
+00:04:34,800 --> 00:04:39,759
+preference search with the root here
+
+121
+00:04:37,840 --> 00:04:43,919
+okay so now if
+
+122
+00:04:39,759 --> 00:04:48,240
+we still need a sin okay if the loop
+
+123
+00:04:43,919 --> 00:04:48,240
+in sin that would return force yeah
+
+124
+00:04:49,840 --> 00:04:54,000
+if we've seen this note before yeah so
+
+125
+00:04:52,560 --> 00:04:56,000
+now what do we do
+
+126
+00:04:54,000 --> 00:04:58,560
+now we have to check it a lot less they
+
+127
+00:04:56,000 --> 00:05:01,280
+have left to loose
+
+128
+00:04:58,560 --> 00:05:02,720
+left to root do not equals minus one
+
+129
+00:05:01,280 --> 00:05:04,880
+right
+
+130
+00:05:02,720 --> 00:05:06,560
+if let's not know not equals one and
+
+131
+00:05:04,880 --> 00:05:08,240
+then we need to check if
+
+132
+00:05:06,560 --> 00:05:11,470
+we're calling that itself if not
+
+133
+00:05:08,240 --> 00:05:13,039
+therefore search uh let's
+
+134
+00:05:11,470 --> 00:05:15,280
+[Music]
+
+135
+00:05:13,039 --> 00:05:18,639
+do it
+
+136
+00:05:15,280 --> 00:05:18,639
+now we do ten fours okay
+
+137
+00:05:20,080 --> 00:05:25,840
+okay and then if also we travel
+
+138
+00:05:23,600 --> 00:05:27,600
+right tree yeah right loot if we have
+
+139
+00:05:25,840 --> 00:05:28,560
+the right route
+
+140
+00:05:27,600 --> 00:05:30,320
+and then
+
+141
+00:05:28,560 --> 00:05:33,440
+if we have a right or then we travel in
+
+142
+00:05:30,320 --> 00:05:37,039
+there if not therefore such but if
+
+143
+00:05:33,440 --> 00:05:40,000
+if it has cycles or in the left tree
+
+144
+00:05:37,039 --> 00:05:41,039
+right on the right tree
+
+145
+00:05:40,000 --> 00:05:42,479
+right
+
+146
+00:05:41,039 --> 00:05:43,520
+root
+
+147
+00:05:42,479 --> 00:05:45,280
+ryan
+
+148
+00:05:43,520 --> 00:05:46,160
+and then we return four right then
+
+149
+00:05:45,280 --> 00:05:49,520
+fourth
+
+150
+00:05:46,160 --> 00:05:51,919
+otherwise will return true right
+
+151
+00:05:49,520 --> 00:05:53,360
+okay so then at the end we can call this
+
+152
+00:05:51,919 --> 00:05:55,199
+return
+
+153
+00:05:53,360 --> 00:05:56,560
+this is outside and return that first
+
+154
+00:05:55,199 --> 00:05:59,039
+search
+
+155
+00:05:56,560 --> 00:06:01,840
+lose yellow because we have only one
+
+156
+00:05:59,039 --> 00:06:04,479
+root and we also need to check if all
+
+157
+00:06:01,840 --> 00:06:07,280
+the visited uh all the nodes visited all
+
+158
+00:06:04,479 --> 00:06:09,919
+right so length of the scene
+
+159
+00:06:07,280 --> 00:06:11,199
+is equal or equal and okay that will be
+
+160
+00:06:09,919 --> 00:06:13,680
+the differences
+
+161
+00:06:11,199 --> 00:06:15,919
+what you doing
+
+162
+00:06:13,680 --> 00:06:17,840
+yeah okay let me let me explain this
+
+163
+00:06:15,919 --> 00:06:18,840
+again okay
+
+164
+00:06:17,840 --> 00:06:20,720
+this
+
+165
+00:06:18,840 --> 00:06:23,280
+is
+
+166
+00:06:20,720 --> 00:06:25,840
+taking a parameter which is the root if
+
+167
+00:06:23,280 --> 00:06:28,160
+a loop has been visited it means we have
+
+168
+00:06:25,840 --> 00:06:30,800
+side of return force right yeah
+
+169
+00:06:28,160 --> 00:06:33,039
+okay listen this is the keyboard okay
+
+170
+00:06:30,800 --> 00:06:34,800
+if the left root not equal minus
+
+171
+00:06:33,039 --> 00:06:37,280
+meaning the loot that that we have the
+
+172
+00:06:34,800 --> 00:06:39,600
+left tree right i have that note and
+
+173
+00:06:37,280 --> 00:06:41,440
+then we need to travel therefore search
+
+174
+00:06:39,600 --> 00:06:44,800
+here here because you know we need to
+
+175
+00:06:41,440 --> 00:06:47,680
+travel but if this function return false
+
+176
+00:06:44,800 --> 00:06:49,759
+somehow then it means we have cycles now
+
+177
+00:06:47,680 --> 00:06:50,479
+we determine false and the same trapping
+
+178
+00:06:49,759 --> 00:06:53,280
+the
+
+179
+00:06:50,479 --> 00:06:55,599
+right route return first otherwise if we
+
+180
+00:06:53,280 --> 00:06:57,280
+can travel successfully travel the left
+
+181
+00:06:55,599 --> 00:06:59,199
+tree and right three then we depend too
+
+182
+00:06:57,280 --> 00:07:01,680
+okay and at the end we call it
+
+183
+00:06:59,199 --> 00:07:03,440
+differences blue zero right we of blue
+
+184
+00:07:01,680 --> 00:07:05,440
+zero because new zealand
+
+185
+00:07:03,440 --> 00:07:07,520
+a single single node and we need to
+
+186
+00:07:05,440 --> 00:07:10,160
+check if the length of the scene is the
+
+187
+00:07:07,520 --> 00:07:12,479
+same is same as n because there are n
+
+188
+00:07:10,160 --> 00:07:16,479
+nodes and nodes and we want to find out
+
+189
+00:07:12,479 --> 00:07:18,639
+if we we have seen a node exactly right
+
+190
+00:07:16,479 --> 00:07:21,120
+why is that if we don't see the endnote
+
+191
+00:07:18,639 --> 00:07:21,120
+what happened
+
+192
+00:07:21,280 --> 00:07:24,560
+if we don't see that notes
+
+193
+00:07:29,360 --> 00:07:33,840
+if we if we don't see a nose it could be
+
+194
+00:07:32,000 --> 00:07:36,400
+somewhere uh something like that right
+
+195
+00:07:33,840 --> 00:07:38,800
+so you'll be not dis connected right so
+
+196
+00:07:36,400 --> 00:07:41,440
+from here this is the loop here
+
+197
+00:07:38,800 --> 00:07:43,520
+right i know whichever here
+
+198
+00:07:41,440 --> 00:07:45,520
+yeah okay
+
+199
+00:07:43,520 --> 00:07:47,120
+make sense when it says
+
+200
+00:07:45,520 --> 00:07:50,800
+actually it's not connected it could be
+
+201
+00:07:47,120 --> 00:07:53,039
+something like this one pointing to left
+
+202
+00:07:50,800 --> 00:07:55,919
+right instead of pointing this so
+
+203
+00:07:53,039 --> 00:07:57,680
+because because loot
+
+204
+00:07:55,919 --> 00:07:59,520
+because why why is that because we have
+
+205
+00:07:57,680 --> 00:08:01,680
+already checked if it's disconnected
+
+206
+00:07:59,520 --> 00:08:03,680
+here right so it must be connected it
+
+207
+00:08:01,680 --> 00:08:06,479
+must be connected if it's disconnected
+
+208
+00:08:03,680 --> 00:08:08,879
+it will be returning force here so it
+
+209
+00:08:06,479 --> 00:08:10,879
+could be some graph like this this is
+
+210
+00:08:08,879 --> 00:08:13,520
+not a tree why is that because this is
+
+211
+00:08:10,879 --> 00:08:16,160
+the directive so this node could be
+
+212
+00:08:13,520 --> 00:08:18,000
+pointing to here yeah coming to here so
+
+213
+00:08:16,160 --> 00:08:19,840
+you travel here you travel this is the
+
+214
+00:08:18,000 --> 00:08:22,000
+root you travel here but from here you
+
+215
+00:08:19,840 --> 00:08:24,720
+can do like this the direction is
+
+216
+00:08:22,000 --> 00:08:26,639
+not the same right so it means that it
+
+217
+00:08:24,720 --> 00:08:29,840
+means that this part of note has not
+
+218
+00:08:26,639 --> 00:08:31,360
+been visited so this is uh not a tree
+
+219
+00:08:29,840 --> 00:08:33,039
+that makes sense
+
+220
+00:08:31,360 --> 00:08:34,640
+yeah
+
+221
+00:08:33,039 --> 00:08:37,120
+okay in one sentence what have you
+
+222
+00:08:34,640 --> 00:08:37,120
+learned today
+
+223
+00:08:37,440 --> 00:08:41,440
+yeah what did we do
+
+224
+00:08:38,839 --> 00:08:43,839
+yesterday what's the difference between
+
+225
+00:08:41,440 --> 00:08:46,320
+this search and breakfast search
+
+226
+00:08:43,839 --> 00:08:47,519
+they have different names different yes
+
+227
+00:08:46,320 --> 00:08:49,680
+and what
+
+228
+00:08:47,519 --> 00:08:53,519
+come on if this is the thing
+
+229
+00:08:49,680 --> 00:08:56,880
+chooses one i use cube okay one two
+
+230
+00:08:53,519 --> 00:08:57,760
+three four okay so can you tell me
+
+231
+00:08:56,880 --> 00:09:00,320
+uh
+
+232
+00:08:57,760 --> 00:09:03,040
+one two three four five six seven okay
+
+233
+00:09:00,320 --> 00:09:04,320
+what's the test search order
+
+234
+00:09:03,040 --> 00:09:06,880
+if it's uh
+
+235
+00:09:04,320 --> 00:09:08,800
+if we go to the left first
+
+236
+00:09:06,880 --> 00:09:10,080
+what's the what's the preference search
+
+237
+00:09:08,800 --> 00:09:12,399
+for this one
+
+238
+00:09:10,080 --> 00:09:15,680
+come on anybody
+
+239
+00:09:12,399 --> 00:09:17,519
+one two three four five six seven and
+
+240
+00:09:15,680 --> 00:09:18,959
+what's the tesla search if we go to the
+
+241
+00:09:17,519 --> 00:09:21,959
+left first
+
+242
+00:09:18,959 --> 00:09:21,959
+one
+
+243
+00:09:26,399 --> 00:09:29,839
+six seven okay
+
+244
+00:09:28,080 --> 00:09:31,279
+okay exactly okay that's it for today
+
+245
+00:09:29,839 --> 00:09:34,519
+bye
+
+246
+00:09:31,279 --> 00:09:34,519
+bye bye
+
+247
+00:09:38,080 --> 00:09:40,160
+you
+
