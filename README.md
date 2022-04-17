@@ -148,6 +148,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Disjoint Set 并查集
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Tree Detection Algorithm via Union Find + Disjoint Set (Determine a Binary Tree) | 二叉树检测算法(并查集) | [Youtube](https://youtu.be/EQ8cg1o8Ctk) - [B站](https://www.bilibili.com/video/BV1tA4y1Q7cL/) - [西瓜](https://www.ixigua.com/7087637119144821278) | [Tree Detection Algorithm via Union Find + Disjoint Set (Determine a Binary Tree)](https://helloacm.com/teaching-kids-programming-tree-detection-via-union-find-disjoint-set-determine-a-binary-tree/) | 2022-04-16 |
 | Find Gene Mutation Groups via UnionFind Algorithm Disjoint Set | 找出不同的基因组数(并查集+UnionFind-图论算法) | [Youtube](https://youtu.be/Q5nvmR4LpNI) - [B站](https://www.bilibili.com/video/BV1zS4y1D7iJ/) - [西瓜](https://www.ixigua.com/7039652391683097124) | [Find Gene Mutation Groups via UnionFind Algorithm Disjoint Set](https://helloacm.com/teaching-kids-programming-find-gene-mutation-groups-via-unionfind-algorithm-disjoint-set/) | 2021-12-08 |
 | Disjoint Set: Find if Path Exists in Graph via Union Find Algorithm | 并查集: 图中两个顶点的连通性 | [Youtube](https://youtu.be/58nnnUT0m48) - [B站](https://www.bilibili.com/video/BV13L411b7jC/) | [Disjoint Set: Find if Path Exists in Graph via Union Find Algorithm](https://helloacm.com/teaching-kids-programming-disjoint-set-find-if-path-exists-in-graph-via-union-find-algorithm/) | 2021-08-26 |
 
