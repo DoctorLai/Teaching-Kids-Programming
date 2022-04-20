@@ -1,0 +1,3255 @@
+1
+00:00:00,080 --> 00:00:03,350
+
+go hello hello mr eric
+
+2
+00:00:03,350 --> 00:00:03,360
+go hello hello mr eric
+ 
+
+3
+00:00:03,360 --> 00:00:06,550
+go hello hello mr eric
+are you all right i get it okay so today
+
+4
+00:00:06,550 --> 00:00:06,560
+are you all right i get it okay so today
+ 
+
+5
+00:00:06,560 --> 00:00:07,190
+are you all right i get it okay so today
+we talk about
+
+6
+00:00:07,190 --> 00:00:07,200
+we talk about
+ 
+
+7
+00:00:07,200 --> 00:00:09,430
+we talk about
+a string problem okay given two strings
+
+8
+00:00:09,430 --> 00:00:09,440
+a string problem okay given two strings
+ 
+
+9
+00:00:09,440 --> 00:00:11,110
+a string problem okay given two strings
+okay for for example i have
+
+10
+00:00:11,110 --> 00:00:11,120
+okay for for example i have
+ 
+
+11
+00:00:11,120 --> 00:00:14,150
+okay for for example i have
+a b and then ba
+
+12
+00:00:14,150 --> 00:00:14,160
+a b and then ba
+ 
+
+13
+00:00:14,160 --> 00:00:16,790
+a b and then ba
+and you are allowed to take one
+
+14
+00:00:16,790 --> 00:00:16,800
+and you are allowed to take one
+ 
+
+15
+00:00:16,800 --> 00:00:18,230
+and you are allowed to take one
+character one letter
+
+16
+00:00:18,230 --> 00:00:18,240
+character one letter
+ 
+
+17
+00:00:18,240 --> 00:00:19,750
+character one letter
+in the first string and then swap it
+
+18
+00:00:19,750 --> 00:00:19,760
+in the first string and then swap it
+ 
+
+19
+00:00:19,760 --> 00:00:21,590
+in the first string and then swap it
+with another letter in the second string
+
+20
+00:00:21,590 --> 00:00:21,600
+with another letter in the second string
+ 
+
+21
+00:00:21,600 --> 00:00:22,950
+with another letter in the second string
+and then
+
+22
+00:00:22,950 --> 00:00:22,960
+and then
+ 
+
+23
+00:00:22,960 --> 00:00:25,349
+and then
+the question is that we if we can do
+
+24
+00:00:25,349 --> 00:00:25,359
+the question is that we if we can do
+ 
+
+25
+00:00:25,359 --> 00:00:27,349
+the question is that we if we can do
+this if we can do this unlimited number
+
+26
+00:00:27,349 --> 00:00:27,359
+this if we can do this unlimited number
+ 
+
+27
+00:00:27,359 --> 00:00:28,390
+this if we can do this unlimited number
+of times
+
+28
+00:00:28,390 --> 00:00:28,400
+of times
+ 
+
+29
+00:00:28,400 --> 00:00:30,710
+of times
+limited unlimited yeah as many as you
+
+30
+00:00:30,710 --> 00:00:30,720
+limited unlimited yeah as many as you
+ 
+
+31
+00:00:30,720 --> 00:00:32,790
+limited unlimited yeah as many as you
+want and can we make two strings
+
+32
+00:00:32,790 --> 00:00:32,800
+want and can we make two strings
+ 
+
+33
+00:00:32,800 --> 00:00:35,990
+want and can we make two strings
+do it forever and can we do can we make
+
+34
+00:00:35,990 --> 00:00:36,000
+do it forever and can we do can we make
+ 
+
+35
+00:00:36,000 --> 00:00:38,150
+do it forever and can we do can we make
+two strings equal
+
+36
+00:00:38,150 --> 00:00:38,160
+two strings equal
+ 
+
+37
+00:00:38,160 --> 00:00:41,270
+two strings equal
+right a b to b a a b
+
+38
+00:00:41,270 --> 00:00:41,280
+right a b to b a a b
+ 
+
+39
+00:00:41,280 --> 00:00:43,670
+right a b to b a a b
+and b a uh we want to make it streaming
+
+40
+00:00:43,670 --> 00:00:43,680
+and b a uh we want to make it streaming
+ 
+
+41
+00:00:43,680 --> 00:00:45,510
+and b a uh we want to make it streaming
+please
+
+42
+00:00:45,510 --> 00:00:45,520
+please
+ 
+
+43
+00:00:45,520 --> 00:00:46,910
+please
+okay
+
+44
+00:00:46,910 --> 00:00:46,920
+okay
+ 
+
+45
+00:00:46,920 --> 00:00:51,590
+okay
+[Music]
+
+46
+00:00:51,590 --> 00:00:51,600
+
+ 
+
+47
+00:00:51,600 --> 00:00:55,029
+
+faster you don't need to ride so heavy
+
+48
+00:00:55,029 --> 00:00:55,039
+faster you don't need to ride so heavy
+ 
+
+49
+00:00:55,039 --> 00:01:02,790
+faster you don't need to ride so heavy
+hurry hurry look am i having a heathen
+
+50
+00:01:02,790 --> 00:01:02,800
+
+ 
+
+51
+00:01:02,800 --> 00:01:06,149
+
+say yes no i mean no
+
+52
+00:01:06,149 --> 00:01:06,159
+say yes no i mean no
+ 
+
+53
+00:01:06,159 --> 00:01:09,590
+say yes no i mean no
+no a
+
+54
+00:01:09,590 --> 00:01:09,600
+no a
+ 
+
+55
+00:01:09,600 --> 00:01:16,149
+no a
+and b yeah
+
+56
+00:01:16,149 --> 00:01:16,159
+
+ 
+
+57
+00:01:16,159 --> 00:01:22,230
+
+hurry up and then b
+
+58
+00:01:22,230 --> 00:01:22,240
+
+ 
+
+59
+00:01:22,240 --> 00:01:39,429
+
+yeah and a yeah
+
+60
+00:01:39,429 --> 00:01:39,439
+
+ 
+
+61
+00:01:39,439 --> 00:01:43,190
+
+then it becomes bb and aaa right bibi
+
+62
+00:01:43,190 --> 00:01:43,200
+then it becomes bb and aaa right bibi
+ 
+
+63
+00:01:43,200 --> 00:01:50,149
+then it becomes bb and aaa right bibi
+and a.a island what's going to stop
+
+64
+00:01:50,149 --> 00:01:50,159
+
+ 
+
+65
+00:01:50,159 --> 00:01:53,190
+
+yeah swap tire knock yeah you can slowly
+
+66
+00:01:53,190 --> 00:01:53,200
+yeah swap tire knock yeah you can slowly
+ 
+
+67
+00:01:53,200 --> 00:01:55,429
+yeah swap tire knock yeah you can slowly
+no let's b become b oh you can swap
+
+68
+00:01:55,429 --> 00:01:55,439
+no let's b become b oh you can swap
+ 
+
+69
+00:01:55,439 --> 00:01:56,950
+no let's b become b oh you can swap
+these two and then you'll become a b
+
+70
+00:01:56,950 --> 00:01:56,960
+these two and then you'll become a b
+ 
+
+71
+00:01:56,960 --> 00:01:59,190
+these two and then you'll become a b
+and i like to swap these two okay so you
+
+72
+00:01:59,190 --> 00:01:59,200
+and i like to swap these two okay so you
+ 
+
+73
+00:01:59,200 --> 00:02:00,149
+and i like to swap these two okay so you
+become b a
+
+74
+00:02:00,149 --> 00:02:00,159
+become b a
+ 
+
+75
+00:02:00,159 --> 00:02:03,749
+become b a
+okay got it okay
+
+76
+00:02:03,749 --> 00:02:03,759
+okay got it okay
+ 
+
+77
+00:02:03,759 --> 00:02:06,950
+okay got it okay
+okay so you you nail it okay so how
+
+78
+00:02:06,950 --> 00:02:06,960
+okay so you you nail it okay so how
+ 
+
+79
+00:02:06,960 --> 00:02:08,469
+okay so you you nail it okay so how
+about if i if i
+
+80
+00:02:08,469 --> 00:02:08,479
+about if i if i
+ 
+
+81
+00:02:08,479 --> 00:02:11,510
+about if i if i
+give you a nailed it yeah nailed it
+
+82
+00:02:11,510 --> 00:02:11,520
+give you a nailed it yeah nailed it
+ 
+
+83
+00:02:11,520 --> 00:02:16,070
+give you a nailed it yeah nailed it
+a b c and then
+
+84
+00:02:16,070 --> 00:02:16,080
+
+ 
+
+85
+00:02:16,080 --> 00:02:20,150
+
+okay let's say d e d e f can you do it
+
+86
+00:02:20,150 --> 00:02:20,160
+okay let's say d e d e f can you do it
+ 
+
+87
+00:02:20,160 --> 00:02:40,420
+okay let's say d e d e f can you do it
+or is these two
+
+88
+00:02:40,420 --> 00:02:40,430
+
+ 
+
+89
+00:02:40,430 --> 00:02:48,869
+
+[Music]
+
+90
+00:02:48,869 --> 00:02:48,879
+
+ 
+
+91
+00:02:48,879 --> 00:02:51,110
+
+come on it should be quite easy to check
+
+92
+00:02:51,110 --> 00:02:51,120
+come on it should be quite easy to check
+ 
+
+93
+00:02:51,120 --> 00:02:54,150
+come on it should be quite easy to check
+right
+
+94
+00:02:54,150 --> 00:02:54,160
+
+ 
+
+95
+00:02:54,160 --> 00:02:57,990
+
+wait
+
+96
+00:02:57,990 --> 00:02:58,000
+
+ 
+
+97
+00:02:58,000 --> 00:03:13,030
+
+wait oh come on why is that
+
+98
+00:03:13,030 --> 00:03:13,040
+
+ 
+
+99
+00:03:13,040 --> 00:03:15,350
+
+yeah we can use it in two places yeah
+
+100
+00:03:15,350 --> 00:03:15,360
+yeah we can use it in two places yeah
+ 
+
+101
+00:03:15,360 --> 00:03:17,670
+yeah we can use it in two places yeah
+and we have one f as well okay so how
+
+102
+00:03:17,670 --> 00:03:17,680
+and we have one f as well okay so how
+ 
+
+103
+00:03:17,680 --> 00:03:18,390
+and we have one f as well okay so how
+about
+
+104
+00:03:18,390 --> 00:03:18,400
+about
+ 
+
+105
+00:03:18,400 --> 00:03:21,589
+about
+if i give you more c
+
+106
+00:03:21,589 --> 00:03:21,599
+if i give you more c
+ 
+
+107
+00:03:21,599 --> 00:03:25,509
+if i give you more c
+okay no why is that they told us
+
+108
+00:03:25,509 --> 00:03:25,519
+okay no why is that they told us
+ 
+
+109
+00:03:25,519 --> 00:03:29,670
+okay no why is that they told us
+there's um three and three kind of
+
+110
+00:03:29,670 --> 00:03:29,680
+there's um three and three kind of
+ 
+
+111
+00:03:29,680 --> 00:03:32,949
+there's um three and three kind of
+three and half okay so how can we get
+
+112
+00:03:32,949 --> 00:03:32,959
+three and half okay so how can we get
+ 
+
+113
+00:03:32,959 --> 00:03:35,830
+three and half okay so how can we get
+even number so we can't we need to count
+
+114
+00:03:35,830 --> 00:03:35,840
+even number so we can't we need to count
+ 
+
+115
+00:03:35,840 --> 00:03:37,110
+even number so we can't we need to count
+the number of frequencies
+
+116
+00:03:37,110 --> 00:03:37,120
+the number of frequencies
+ 
+
+117
+00:03:37,120 --> 00:03:39,350
+the number of frequencies
+for these uh the frequency for each
+
+118
+00:03:39,350 --> 00:03:39,360
+for these uh the frequency for each
+ 
+
+119
+00:03:39,360 --> 00:03:40,949
+for these uh the frequency for each
+character and if it's a
+
+120
+00:03:40,949 --> 00:03:40,959
+character and if it's a
+ 
+
+121
+00:03:40,959 --> 00:03:43,589
+character and if it's a
+odd number then certainly we can't right
+
+122
+00:03:43,589 --> 00:03:43,599
+odd number then certainly we can't right
+ 
+
+123
+00:03:43,599 --> 00:03:44,390
+odd number then certainly we can't right
+and if it's an
+
+124
+00:03:44,390 --> 00:03:44,400
+and if it's an
+ 
+
+125
+00:03:44,400 --> 00:03:46,390
+and if it's an
+even number certainly we can with
+
+126
+00:03:46,390 --> 00:03:46,400
+even number certainly we can with
+ 
+
+127
+00:03:46,400 --> 00:03:48,149
+even number certainly we can with
+unlimited number of times stop stopping
+
+128
+00:03:48,149 --> 00:03:48,159
+unlimited number of times stop stopping
+ 
+
+129
+00:03:48,159 --> 00:03:49,030
+unlimited number of times stop stopping
+there
+
+130
+00:03:49,030 --> 00:03:49,040
+there
+ 
+
+131
+00:03:49,040 --> 00:03:51,830
+there
+yeah okay so in order to count the
+
+132
+00:03:51,830 --> 00:03:51,840
+yeah okay so in order to count the
+ 
+
+133
+00:03:51,840 --> 00:03:52,789
+yeah okay so in order to count the
+frequency uh
+
+134
+00:03:52,789 --> 00:03:52,799
+frequency uh
+ 
+
+135
+00:03:52,799 --> 00:03:55,429
+frequency uh
+what kind of how how can we do this what
+
+136
+00:03:55,429 --> 00:03:55,439
+what kind of how how can we do this what
+ 
+
+137
+00:03:55,439 --> 00:03:58,830
+what kind of how how can we do this what
+kind of data structure are we using
+
+138
+00:03:58,830 --> 00:03:58,840
+kind of data structure are we using
+ 
+
+139
+00:03:58,840 --> 00:04:01,509
+kind of data structure are we using
+um notebook notebook or headset or
+
+140
+00:04:01,509 --> 00:04:01,519
+um notebook notebook or headset or
+ 
+
+141
+00:04:01,519 --> 00:04:04,309
+um notebook notebook or headset or
+in in python we use kind of how can we
+
+142
+00:04:04,309 --> 00:04:04,319
+in in python we use kind of how can we
+ 
+
+143
+00:04:04,319 --> 00:04:06,070
+in in python we use kind of how can we
+count a number of the
+
+144
+00:04:06,070 --> 00:04:06,080
+count a number of the
+ 
+
+145
+00:04:06,080 --> 00:04:09,750
+count a number of the
+frequency for for a string or
+
+146
+00:04:09,750 --> 00:04:09,760
+frequency for for a string or
+ 
+
+147
+00:04:09,760 --> 00:04:13,350
+frequency for for a string or
+list do you still remember last thing
+
+148
+00:04:13,350 --> 00:04:13,360
+list do you still remember last thing
+ 
+
+149
+00:04:13,360 --> 00:04:17,270
+list do you still remember last thing
+start with the c
+
+150
+00:04:17,270 --> 00:04:17,280
+
+ 
+
+151
+00:04:17,280 --> 00:04:20,550
+
+yes okay okay so that's kind of look at
+
+152
+00:04:20,550 --> 00:04:20,560
+yes okay okay so that's kind of look at
+ 
+
+153
+00:04:20,560 --> 00:04:21,030
+yes okay okay so that's kind of look at
+this
+
+154
+00:04:21,030 --> 00:04:21,040
+this
+ 
+
+155
+00:04:21,040 --> 00:04:25,110
+this
+animal come on come on okay let's see
+
+156
+00:04:25,110 --> 00:04:25,120
+animal come on come on okay let's see
+ 
+
+157
+00:04:25,120 --> 00:04:41,110
+animal come on come on okay let's see
+okay
+
+158
+00:04:41,110 --> 00:04:41,120
+
+ 
+
+159
+00:04:41,120 --> 00:04:42,870
+
+these these are two these two are the
+
+160
+00:04:42,870 --> 00:04:42,880
+these these are two these two are the
+ 
+
+161
+00:04:42,880 --> 00:04:46,230
+these these are two these two are the
+same size okay answer
+
+162
+00:04:46,230 --> 00:04:46,240
+same size okay answer
+ 
+
+163
+00:04:46,240 --> 00:05:04,350
+same size okay answer
+no so no book yes
+
+164
+00:05:04,350 --> 00:05:04,360
+
+ 
+
+165
+00:05:04,360 --> 00:05:09,189
+
+[Music]
+
+166
+00:05:09,189 --> 00:05:09,199
+
+ 
+
+167
+00:05:09,199 --> 00:05:11,749
+
+i was thinking the binary tree okay no
+
+168
+00:05:11,749 --> 00:05:11,759
+i was thinking the binary tree okay no
+ 
+
+169
+00:05:11,759 --> 00:05:12,310
+i was thinking the binary tree okay no
+okay
+
+170
+00:05:12,310 --> 00:05:12,320
+okay
+ 
+
+171
+00:05:12,320 --> 00:05:15,350
+okay
+what should we buy this for
+
+172
+00:05:15,350 --> 00:05:15,360
+what should we buy this for
+ 
+
+173
+00:05:15,360 --> 00:05:19,749
+what should we buy this for
+i in what range
+
+174
+00:05:19,749 --> 00:05:19,759
+i in what range
+ 
+
+175
+00:05:19,759 --> 00:05:24,870
+i in what range
+in c top value we can do this value
+
+176
+00:05:24,870 --> 00:05:24,880
+
+ 
+
+177
+00:05:24,880 --> 00:05:28,469
+
+and if what how can we write it
+
+178
+00:05:28,469 --> 00:05:28,479
+and if what how can we write it
+ 
+
+179
+00:05:28,479 --> 00:05:31,510
+and if what how can we write it
+can you write it here here what and
+
+180
+00:05:31,510 --> 00:05:31,520
+can you write it here here what and
+ 
+
+181
+00:05:31,520 --> 00:05:35,749
+can you write it here here what and
+here there are three things missing
+
+182
+00:05:35,749 --> 00:05:35,759
+
+ 
+
+183
+00:05:35,759 --> 00:05:38,310
+
+one come on write it so we are either
+
+184
+00:05:38,310 --> 00:05:38,320
+one come on write it so we are either
+ 
+
+185
+00:05:38,320 --> 00:05:38,950
+one come on write it so we are either
+wait it's
+
+186
+00:05:38,950 --> 00:05:38,960
+wait it's
+ 
+
+187
+00:05:38,960 --> 00:05:41,029
+wait it's
+iterating the values which are the
+
+188
+00:05:41,029 --> 00:05:41,039
+iterating the values which are the
+ 
+
+189
+00:05:41,039 --> 00:05:43,430
+iterating the values which are the
+frequency if it's even number
+
+190
+00:05:43,430 --> 00:05:43,440
+frequency if it's even number
+ 
+
+191
+00:05:43,440 --> 00:05:47,189
+frequency if it's even number
+uh if it's uh all number what happened
+
+192
+00:05:47,189 --> 00:05:47,199
+uh if it's uh all number what happened
+ 
+
+193
+00:05:47,199 --> 00:05:49,110
+uh if it's uh all number what happened
+can you not write it so hard okay
+
+194
+00:05:49,110 --> 00:05:49,120
+can you not write it so hard okay
+ 
+
+195
+00:05:49,120 --> 00:05:50,830
+can you not write it so hard okay
+written one
+
+196
+00:05:50,830 --> 00:05:50,840
+written one
+ 
+
+197
+00:05:50,840 --> 00:05:53,360
+written one
+huh
+
+198
+00:05:53,360 --> 00:05:53,370
+huh
+ 
+
+199
+00:05:53,370 --> 00:06:04,230
+huh
+[Music]
+
+200
+00:06:04,230 --> 00:06:04,240
+
+ 
+
+201
+00:06:04,240 --> 00:06:07,909
+
+divided by two i yeah
+
+202
+00:06:07,909 --> 00:06:07,919
+divided by two i yeah
+ 
+
+203
+00:06:07,919 --> 00:06:12,150
+divided by two i yeah
+i if i i okay i divided by two
+
+204
+00:06:12,150 --> 00:06:12,160
+i if i i okay i divided by two
+ 
+
+205
+00:06:12,160 --> 00:06:18,309
+i if i i okay i divided by two
+all modules yeah okay
+
+206
+00:06:18,309 --> 00:06:18,319
+
+ 
+
+207
+00:06:18,319 --> 00:06:19,909
+
+can you write it faster people are
+
+208
+00:06:19,909 --> 00:06:19,919
+can you write it faster people are
+ 
+
+209
+00:06:19,919 --> 00:06:21,909
+can you write it faster people are
+watching you you don't want to be slow
+
+210
+00:06:21,909 --> 00:06:21,919
+watching you you don't want to be slow
+ 
+
+211
+00:06:21,919 --> 00:06:23,430
+watching you you don't want to be slow
+slow
+
+212
+00:06:23,430 --> 00:06:23,440
+slow
+ 
+
+213
+00:06:23,440 --> 00:06:27,749
+slow
+okay come on it's more to us okay
+
+214
+00:06:27,749 --> 00:06:27,759
+okay come on it's more to us okay
+ 
+
+215
+00:06:27,759 --> 00:06:32,070
+okay come on it's more to us okay
+okay okay and then
+
+216
+00:06:32,070 --> 00:06:32,080
+okay okay and then
+ 
+
+217
+00:06:32,080 --> 00:06:33,670
+okay okay and then
+if it's even number or if it's all
+
+218
+00:06:33,670 --> 00:06:33,680
+if it's even number or if it's all
+ 
+
+219
+00:06:33,680 --> 00:06:35,590
+if it's even number or if it's all
+number
+
+220
+00:06:35,590 --> 00:06:35,600
+number
+ 
+
+221
+00:06:35,600 --> 00:06:38,790
+number
+uh even if it's
+
+222
+00:06:38,790 --> 00:06:38,800
+uh even if it's
+ 
+
+223
+00:06:38,800 --> 00:06:41,909
+uh even if it's
+what number you want to do what
+
+224
+00:06:41,909 --> 00:06:41,919
+what number you want to do what
+ 
+
+225
+00:06:41,919 --> 00:06:45,830
+what number you want to do what
+you got equal equal equal equals
+
+226
+00:06:45,830 --> 00:06:45,840
+you got equal equal equal equals
+ 
+
+227
+00:06:45,840 --> 00:06:50,629
+you got equal equal equal equals
+no no no not here modulus 2
+
+228
+00:06:50,629 --> 00:06:50,639
+
+ 
+
+229
+00:06:50,639 --> 00:06:54,390
+
+0 are you sure it's easier equal
+
+230
+00:06:54,390 --> 00:06:54,400
+0 are you sure it's easier equal
+ 
+
+231
+00:06:54,400 --> 00:06:56,550
+0 are you sure it's easier equal
+to become even number and one time if
+
+232
+00:06:56,550 --> 00:06:56,560
+to become even number and one time if
+ 
+
+233
+00:06:56,560 --> 00:06:57,430
+to become even number and one time if
+you want to be
+
+234
+00:06:57,430 --> 00:06:57,440
+you want to be
+ 
+
+235
+00:06:57,440 --> 00:07:00,070
+you want to be
+even not equal okay what happened you
+
+236
+00:07:00,070 --> 00:07:00,080
+even not equal okay what happened you
+ 
+
+237
+00:07:00,080 --> 00:07:00,950
+even not equal okay what happened you
+can imagine
+
+238
+00:07:00,950 --> 00:07:00,960
+can imagine
+ 
+
+239
+00:07:00,960 --> 00:07:04,390
+can imagine
+to what to what
+
+240
+00:07:04,390 --> 00:07:04,400
+to what to what
+ 
+
+241
+00:07:04,400 --> 00:07:07,990
+to what to what
+possible values
+
+242
+00:07:07,990 --> 00:07:08,000
+
+ 
+
+243
+00:07:08,000 --> 00:07:10,710
+
+what does this mean it's an odd number
+
+244
+00:07:10,710 --> 00:07:10,720
+what does this mean it's an odd number
+ 
+
+245
+00:07:10,720 --> 00:07:11,909
+what does this mean it's an odd number
+yeah
+
+246
+00:07:11,909 --> 00:07:11,919
+yeah
+ 
+
+247
+00:07:11,919 --> 00:07:14,550
+yeah
+column and then what if it's all number
+
+248
+00:07:14,550 --> 00:07:14,560
+column and then what if it's all number
+ 
+
+249
+00:07:14,560 --> 00:07:15,589
+column and then what if it's all number
+what happened
+
+250
+00:07:15,589 --> 00:07:15,599
+what happened
+ 
+
+251
+00:07:15,599 --> 00:07:19,189
+what happened
+return false yeah and then we turn true
+
+252
+00:07:19,189 --> 00:07:19,199
+return false yeah and then we turn true
+ 
+
+253
+00:07:19,199 --> 00:07:24,309
+return false yeah and then we turn true
+yeah we got it
+
+254
+00:07:24,309 --> 00:07:24,319
+
+ 
+
+255
+00:07:24,319 --> 00:07:27,029
+
+oh yeah look at me okay okay return
+
+256
+00:07:27,029 --> 00:07:27,039
+oh yeah look at me okay okay return
+ 
+
+257
+00:07:27,039 --> 00:07:32,309
+oh yeah look at me okay okay return
+return two
+
+258
+00:07:32,309 --> 00:07:32,319
+
+ 
+
+259
+00:07:32,319 --> 00:07:39,189
+
+okay okay that's it that's it
+
+260
+00:07:39,189 --> 00:07:39,199
+
+ 
+
+261
+00:07:39,199 --> 00:07:43,589
+
+you can also write it is i and one right
+
+262
+00:07:43,589 --> 00:07:43,599
+you can also write it is i and one right
+ 
+
+263
+00:07:43,599 --> 00:07:47,029
+you can also write it is i and one right
+yeah it's the same yeah okay yeah
+
+264
+00:07:47,029 --> 00:07:47,039
+yeah it's the same yeah okay yeah
+ 
+
+265
+00:07:47,039 --> 00:07:49,510
+yeah it's the same yeah okay yeah
+yeah i and one actually you can just
+
+266
+00:07:49,510 --> 00:07:49,520
+yeah i and one actually you can just
+ 
+
+267
+00:07:49,520 --> 00:07:50,230
+yeah i and one actually you can just
+draw the
+
+268
+00:07:50,230 --> 00:07:50,240
+draw the
+ 
+
+269
+00:07:50,240 --> 00:07:52,309
+draw the
+modulus too if it's equal to one you can
+
+270
+00:07:52,309 --> 00:07:52,319
+modulus too if it's equal to one you can
+ 
+
+271
+00:07:52,319 --> 00:07:53,270
+modulus too if it's equal to one you can
+just do this
+
+272
+00:07:53,270 --> 00:07:53,280
+just do this
+ 
+
+273
+00:07:53,280 --> 00:07:56,309
+just do this
+you can you can omit that module equal
+
+274
+00:07:56,309 --> 00:07:56,319
+you can you can omit that module equal
+ 
+
+275
+00:07:56,319 --> 00:07:57,950
+you can you can omit that module equal
+one okay
+
+276
+00:07:57,950 --> 00:07:57,960
+one okay
+ 
+
+277
+00:07:57,960 --> 00:08:03,740
+one okay
+[Music]
+
+278
+00:08:03,740 --> 00:08:03,750
+
+ 
+
+279
+00:08:03,750 --> 00:08:06,150
+
+[Music]
+
+280
+00:08:06,150 --> 00:08:06,160
+[Music]
+ 
+
+281
+00:08:06,160 --> 00:08:09,270
+[Music]
+if there are s numbers in
+
+282
+00:08:09,270 --> 00:08:09,280
+if there are s numbers in
+ 
+
+283
+00:08:09,280 --> 00:08:13,029
+if there are s numbers in
+the size of s it says the size of t is t
+
+284
+00:08:13,029 --> 00:08:13,039
+the size of s it says the size of t is t
+ 
+
+285
+00:08:13,039 --> 00:08:17,670
+the size of s it says the size of t is t
+what's the total sorry
+
+286
+00:08:17,670 --> 00:08:17,680
+what's the total sorry
+ 
+
+287
+00:08:17,680 --> 00:08:20,760
+what's the total sorry
+sorry
+
+288
+00:08:20,760 --> 00:08:20,770
+
+ 
+
+289
+00:08:20,770 --> 00:08:22,790
+
+[Music]
+
+290
+00:08:22,790 --> 00:08:22,800
+[Music]
+ 
+
+291
+00:08:22,800 --> 00:08:26,230
+[Music]
+t s plus yeah
+
+292
+00:08:26,230 --> 00:08:26,240
+t s plus yeah
+ 
+
+293
+00:08:26,240 --> 00:08:33,750
+t s plus yeah
+what's the space complexity
+
+294
+00:08:33,750 --> 00:08:33,760
+
+ 
+
+295
+00:08:33,760 --> 00:08:35,750
+
+well where are we using the space here
+
+296
+00:08:35,750 --> 00:08:35,760
+well where are we using the space here
+ 
+
+297
+00:08:35,760 --> 00:08:36,790
+well where are we using the space here
+come on yeah
+
+298
+00:08:36,790 --> 00:08:36,800
+come on yeah
+ 
+
+299
+00:08:36,800 --> 00:08:52,949
+come on yeah
+and what's the space what's like the way
+
+300
+00:08:52,949 --> 00:08:52,959
+
+ 
+
+301
+00:08:52,959 --> 00:08:55,110
+
+look we we are adding the string here
+
+302
+00:08:55,110 --> 00:08:55,120
+look we we are adding the string here
+ 
+
+303
+00:08:55,120 --> 00:08:56,470
+look we we are adding the string here
+yeah we can do this look
+
+304
+00:08:56,470 --> 00:08:56,480
+yeah we can do this look
+ 
+
+305
+00:08:56,480 --> 00:08:59,509
+yeah we can do this look
+we can use this we can count it one
+
+306
+00:08:59,509 --> 00:08:59,519
+we can use this we can count it one
+ 
+
+307
+00:08:59,519 --> 00:09:02,630
+we can use this we can count it one
+s right and then we can add one here
+
+308
+00:09:02,630 --> 00:09:02,640
+s right and then we can add one here
+ 
+
+309
+00:09:02,640 --> 00:09:05,910
+s right and then we can add one here
+c dot update yeah
+
+310
+00:09:05,910 --> 00:09:05,920
+c dot update yeah
+ 
+
+311
+00:09:05,920 --> 00:09:09,110
+c dot update yeah
+update t this is the same thing yeah
+
+312
+00:09:09,110 --> 00:09:09,120
+update t this is the same thing yeah
+ 
+
+313
+00:09:09,120 --> 00:09:11,829
+update t this is the same thing yeah
+does it make sense alright so we we use
+
+314
+00:09:11,829 --> 00:09:11,839
+does it make sense alright so we we use
+ 
+
+315
+00:09:11,839 --> 00:09:12,550
+does it make sense alright so we we use
+the s
+
+316
+00:09:12,550 --> 00:09:12,560
+the s
+ 
+
+317
+00:09:12,560 --> 00:09:14,710
+the s
+object to construct the character c and
+
+318
+00:09:14,710 --> 00:09:14,720
+object to construct the character c and
+ 
+
+319
+00:09:14,720 --> 00:09:16,150
+object to construct the character c and
+then we can update t
+
+320
+00:09:16,150 --> 00:09:16,160
+then we can update t
+ 
+
+321
+00:09:16,160 --> 00:09:18,070
+then we can update t
+means that we take another object we
+
+322
+00:09:18,070 --> 00:09:18,080
+means that we take another object we
+ 
+
+323
+00:09:18,080 --> 00:09:19,190
+means that we take another object we
+can't frequency and
+
+324
+00:09:19,190 --> 00:09:19,200
+can't frequency and
+ 
+
+325
+00:09:19,200 --> 00:09:22,310
+can't frequency and
+update c so you can do this it's the
+
+326
+00:09:22,310 --> 00:09:22,320
+update c so you can do this it's the
+ 
+
+327
+00:09:22,320 --> 00:09:22,630
+update c so you can do this it's the
+same
+
+328
+00:09:22,630 --> 00:09:22,640
+same
+ 
+
+329
+00:09:22,640 --> 00:09:26,150
+same
+yeah yeah okay and then look these
+
+330
+00:09:26,150 --> 00:09:26,160
+yeah yeah okay and then look these
+ 
+
+331
+00:09:26,160 --> 00:09:28,790
+yeah yeah okay and then look these
+you can return what these i can write it
+
+332
+00:09:28,790 --> 00:09:28,800
+you can return what these i can write it
+ 
+
+333
+00:09:28,800 --> 00:09:30,790
+you can return what these i can write it
+in one line
+
+334
+00:09:30,790 --> 00:09:30,800
+in one line
+ 
+
+335
+00:09:30,800 --> 00:09:34,389
+in one line
+all right look return
+
+336
+00:09:34,389 --> 00:09:34,399
+all right look return
+ 
+
+337
+00:09:34,399 --> 00:09:38,310
+all right look return
+or look oh oh one
+
+338
+00:09:38,310 --> 00:09:38,320
+or look oh oh one
+ 
+
+339
+00:09:38,320 --> 00:09:41,430
+or look oh oh one
+or what i
+
+340
+00:09:41,430 --> 00:09:41,440
+or what i
+ 
+
+341
+00:09:41,440 --> 00:09:45,750
+or what i
+models to equal equal 0
+
+342
+00:09:45,750 --> 00:09:45,760
+models to equal equal 0
+ 
+
+343
+00:09:45,760 --> 00:09:55,190
+models to equal equal 0
+4 i in what
+
+344
+00:09:55,190 --> 00:09:55,200
+
+ 
+
+345
+00:09:55,200 --> 00:09:58,310
+
+yeah is it clear written all is
+
+346
+00:09:58,310 --> 00:09:58,320
+yeah is it clear written all is
+ 
+
+347
+00:09:58,320 --> 00:10:01,350
+yeah is it clear written all is
+everything in here is everything
+
+348
+00:10:01,350 --> 00:10:01,360
+everything in here is everything
+ 
+
+349
+00:10:01,360 --> 00:10:04,389
+everything in here is everything
+this condition satisfied
+
+350
+00:10:04,389 --> 00:10:04,399
+this condition satisfied
+ 
+
+351
+00:10:04,399 --> 00:10:08,069
+this condition satisfied
+yeah for i in c the values i divided by
+
+352
+00:10:08,069 --> 00:10:08,079
+yeah for i in c the values i divided by
+ 
+
+353
+00:10:08,079 --> 00:10:11,910
+yeah for i in c the values i divided by
+modulus 2 by 0 or anything
+
+354
+00:10:11,910 --> 00:10:11,920
+modulus 2 by 0 or anything
+ 
+
+355
+00:10:11,920 --> 00:10:15,350
+modulus 2 by 0 or anything
+is even number okay okay so another way
+
+356
+00:10:15,350 --> 00:10:15,360
+is even number okay okay so another way
+ 
+
+357
+00:10:15,360 --> 00:10:17,430
+is even number okay okay so another way
+of doing this
+
+358
+00:10:17,430 --> 00:10:17,440
+of doing this
+ 
+
+359
+00:10:17,440 --> 00:10:20,870
+of doing this
+another way of doing this um
+
+360
+00:10:20,870 --> 00:10:20,880
+another way of doing this um
+ 
+
+361
+00:10:20,880 --> 00:10:24,949
+another way of doing this um
+because look because these
+
+362
+00:10:24,949 --> 00:10:24,959
+because look because these
+ 
+
+363
+00:10:24,959 --> 00:10:26,949
+because look because these
+frequents and this character needs to
+
+364
+00:10:26,949 --> 00:10:26,959
+frequents and this character needs to
+ 
+
+365
+00:10:26,959 --> 00:10:28,310
+frequents and this character needs to
+come in pairs right
+
+366
+00:10:28,310 --> 00:10:28,320
+come in pairs right
+ 
+
+367
+00:10:28,320 --> 00:10:30,230
+come in pairs right
+yeah that's the thing we're looking for
+
+368
+00:10:30,230 --> 00:10:30,240
+yeah that's the thing we're looking for
+ 
+
+369
+00:10:30,240 --> 00:10:32,389
+yeah that's the thing we're looking for
+if it comes in pairs
+
+370
+00:10:32,389 --> 00:10:32,399
+if it comes in pairs
+ 
+
+371
+00:10:32,399 --> 00:10:34,150
+if it comes in pairs
+what does it mean if a number comes
+
+372
+00:10:34,150 --> 00:10:34,160
+what does it mean if a number comes
+ 
+
+373
+00:10:34,160 --> 00:10:35,990
+what does it mean if a number comes
+twice what does it mean
+
+374
+00:10:35,990 --> 00:10:36,000
+twice what does it mean
+ 
+
+375
+00:10:36,000 --> 00:10:39,590
+twice what does it mean
+um if it comes twice um
+
+376
+00:10:39,590 --> 00:10:39,600
+um if it comes twice um
+ 
+
+377
+00:10:39,600 --> 00:10:42,790
+um if it comes twice um
+in one one or in one age
+
+378
+00:10:42,790 --> 00:10:42,800
+in one one or in one age
+ 
+
+379
+00:10:42,800 --> 00:10:45,990
+in one one or in one age
+one remember what's exclusive oh
+
+380
+00:10:45,990 --> 00:10:46,000
+one remember what's exclusive oh
+ 
+
+381
+00:10:46,000 --> 00:10:50,630
+one remember what's exclusive oh
+this is exclusive or is like
+
+382
+00:10:50,630 --> 00:10:50,640
+
+ 
+
+383
+00:10:50,640 --> 00:10:54,949
+
+one exclusive or one equals one
+
+384
+00:10:54,949 --> 00:10:54,959
+one exclusive or one equals one
+ 
+
+385
+00:10:54,959 --> 00:10:58,310
+one exclusive or one equals one
+zero exclusive or one equals one
+
+386
+00:10:58,310 --> 00:10:58,320
+zero exclusive or one equals one
+ 
+
+387
+00:10:58,320 --> 00:11:01,750
+zero exclusive or one equals one
+one exclusive here it's the same
+
+388
+00:11:01,750 --> 00:11:01,760
+one exclusive here it's the same
+ 
+
+389
+00:11:01,760 --> 00:11:04,710
+one exclusive here it's the same
+yeah zero exclusive oh zero equals one
+
+390
+00:11:04,710 --> 00:11:04,720
+yeah zero exclusive oh zero equals one
+ 
+
+391
+00:11:04,720 --> 00:11:06,790
+yeah zero exclusive oh zero equals one
+can you feel the value
+
+392
+00:11:06,790 --> 00:11:06,800
+can you feel the value
+ 
+
+393
+00:11:06,800 --> 00:11:11,509
+can you feel the value
+zero yeah one one yes
+
+394
+00:11:11,509 --> 00:11:11,519
+zero yeah one one yes
+ 
+
+395
+00:11:11,519 --> 00:11:14,310
+zero yeah one one yes
+yeah we're done okay okay so what
+
+396
+00:11:14,310 --> 00:11:14,320
+yeah we're done okay okay so what
+ 
+
+397
+00:11:14,320 --> 00:11:15,110
+yeah we're done okay okay so what
+happened look
+
+398
+00:11:15,110 --> 00:11:15,120
+happened look
+ 
+
+399
+00:11:15,120 --> 00:11:18,150
+happened look
+if they're same it's zero
+
+400
+00:11:18,150 --> 00:11:18,160
+if they're same it's zero
+ 
+
+401
+00:11:18,160 --> 00:11:21,430
+if they're same it's zero
+so if the numbers abc and abc
+
+402
+00:11:21,430 --> 00:11:21,440
+so if the numbers abc and abc
+ 
+
+403
+00:11:21,440 --> 00:11:23,990
+so if the numbers abc and abc
+if you if exclusive or all these what
+
+404
+00:11:23,990 --> 00:11:24,000
+if you if exclusive or all these what
+ 
+
+405
+00:11:24,000 --> 00:11:27,269
+if you if exclusive or all these what
+happened to the value
+
+406
+00:11:27,269 --> 00:11:27,279
+
+ 
+
+407
+00:11:27,279 --> 00:11:30,389
+
+what happened to the value it was
+
+408
+00:11:30,389 --> 00:11:30,399
+what happened to the value it was
+ 
+
+409
+00:11:30,399 --> 00:11:32,230
+what happened to the value it was
+zero it would be zero yeah because look
+
+410
+00:11:32,230 --> 00:11:32,240
+zero it would be zero yeah because look
+ 
+
+411
+00:11:32,240 --> 00:11:33,430
+zero it would be zero yeah because look
+it has it comes
+
+412
+00:11:33,430 --> 00:11:33,440
+it has it comes
+ 
+
+413
+00:11:33,440 --> 00:11:35,910
+it has it comes
+in pair yeah so if we exclusive
+
+414
+00:11:35,910 --> 00:11:35,920
+in pair yeah so if we exclusive
+ 
+
+415
+00:11:35,920 --> 00:11:36,470
+in pair yeah so if we exclusive
+everything
+
+416
+00:11:36,470 --> 00:11:36,480
+everything
+ 
+
+417
+00:11:36,480 --> 00:11:38,710
+everything
+will become zero and if it is yellow it
+
+418
+00:11:38,710 --> 00:11:38,720
+will become zero and if it is yellow it
+ 
+
+419
+00:11:38,720 --> 00:11:39,590
+will become zero and if it is yellow it
+means okay
+
+420
+00:11:39,590 --> 00:11:39,600
+means okay
+ 
+
+421
+00:11:39,600 --> 00:11:41,670
+means okay
+if it's not in zero it means not okay
+
+422
+00:11:41,670 --> 00:11:41,680
+if it's not in zero it means not okay
+ 
+
+423
+00:11:41,680 --> 00:11:42,790
+if it's not in zero it means not okay
+right
+
+424
+00:11:42,790 --> 00:11:42,800
+right
+ 
+
+425
+00:11:42,800 --> 00:11:46,389
+right
+yeah yeah okay so we can try this look
+
+426
+00:11:46,389 --> 00:11:46,399
+yeah yeah okay so we can try this look
+ 
+
+427
+00:11:46,399 --> 00:11:49,990
+yeah yeah okay so we can try this look
+define check
+
+428
+00:11:49,990 --> 00:11:50,000
+define check
+ 
+
+429
+00:11:50,000 --> 00:11:54,230
+define check
+s t okay look
+
+430
+00:11:54,230 --> 00:11:54,240
+
+ 
+
+431
+00:11:54,240 --> 00:11:57,750
+
+x equals zero for
+
+432
+00:11:57,750 --> 00:11:57,760
+x equals zero for
+ 
+
+433
+00:11:57,760 --> 00:12:01,269
+x equals zero for
+i in right we take in
+
+434
+00:12:01,269 --> 00:12:01,279
+i in right we take in
+ 
+
+435
+00:12:01,279 --> 00:12:03,350
+i in right we take in
+s plus t yeah or we can do it in two
+
+436
+00:12:03,350 --> 00:12:03,360
+s plus t yeah or we can do it in two
+ 
+
+437
+00:12:03,360 --> 00:12:04,949
+s plus t yeah or we can do it in two
+loops yeah let's do it in one loop
+
+438
+00:12:04,949 --> 00:12:04,959
+loops yeah let's do it in one loop
+ 
+
+439
+00:12:04,959 --> 00:12:08,310
+loops yeah let's do it in one loop
+s plus t x square
+
+440
+00:12:08,310 --> 00:12:08,320
+s plus t x square
+ 
+
+441
+00:12:08,320 --> 00:12:21,670
+s plus t x square
+exclusive
+
+442
+00:12:21,670 --> 00:12:21,680
+
+ 
+
+443
+00:12:21,680 --> 00:12:24,389
+
+you have to press the shift key yeah
+
+444
+00:12:24,389 --> 00:12:24,399
+you have to press the shift key yeah
+ 
+
+445
+00:12:24,399 --> 00:12:24,870
+you have to press the shift key yeah
+press
+
+446
+00:12:24,870 --> 00:12:24,880
+press
+ 
+
+447
+00:12:24,880 --> 00:12:28,150
+press
+shift and six then you give this okay
+
+448
+00:12:28,150 --> 00:12:28,160
+shift and six then you give this okay
+ 
+
+449
+00:12:28,160 --> 00:12:34,230
+shift and six then you give this okay
+okay exclusive or equal you go up
+
+450
+00:12:34,230 --> 00:12:34,240
+okay exclusive or equal you go up
+ 
+
+451
+00:12:34,240 --> 00:12:37,829
+okay exclusive or equal you go up
+exclusive oh what i go through
+
+452
+00:12:37,829 --> 00:12:37,839
+exclusive oh what i go through
+ 
+
+453
+00:12:37,839 --> 00:12:41,590
+exclusive oh what i go through
+all the characters in s plus t
+
+454
+00:12:41,590 --> 00:12:41,600
+all the characters in s plus t
+ 
+
+455
+00:12:41,600 --> 00:12:44,949
+all the characters in s plus t
+and what
+
+456
+00:12:44,949 --> 00:12:44,959
+and what
+ 
+
+457
+00:12:44,959 --> 00:12:47,190
+and what
+x exclusive oh i want to exclusive
+
+458
+00:12:47,190 --> 00:12:47,200
+x exclusive oh i want to exclusive
+ 
+
+459
+00:12:47,200 --> 00:12:49,269
+x exclusive oh i want to exclusive
+everything in the x plus t so what
+
+460
+00:12:49,269 --> 00:12:49,279
+everything in the x plus t so what
+ 
+
+461
+00:12:49,279 --> 00:12:51,750
+everything in the x plus t so what
+should i put here
+
+462
+00:12:51,750 --> 00:12:51,760
+should i put here
+ 
+
+463
+00:12:51,760 --> 00:12:54,629
+should i put here
+should i put here for what in s plastic
+
+464
+00:12:54,629 --> 00:12:54,639
+should i put here for what in s plastic
+ 
+
+465
+00:12:54,639 --> 00:12:57,110
+should i put here for what in s plastic
+come on you can guess
+
+466
+00:12:57,110 --> 00:12:57,120
+come on you can guess
+ 
+
+467
+00:12:57,120 --> 00:13:00,629
+come on you can guess
+for say this bit yeah
+
+468
+00:13:00,629 --> 00:13:00,639
+for say this bit yeah
+ 
+
+469
+00:13:00,639 --> 00:13:04,550
+for say this bit yeah
+come on
+
+470
+00:13:04,550 --> 00:13:04,560
+
+ 
+
+471
+00:13:04,560 --> 00:13:07,910
+
+what's this plastic come on what's
+
+472
+00:13:07,910 --> 00:13:07,920
+what's this plastic come on what's
+ 
+
+473
+00:13:07,920 --> 00:13:09,750
+what's this plastic come on what's
+can you tell me what's follow before
+
+474
+00:13:09,750 --> 00:13:09,760
+can you tell me what's follow before
+ 
+
+475
+00:13:09,760 --> 00:13:10,949
+can you tell me what's follow before
+there is i
+
+476
+00:13:10,949 --> 00:13:10,959
+there is i
+ 
+
+477
+00:13:10,959 --> 00:13:14,310
+there is i
+in f t yeah okay so and i want to do
+
+478
+00:13:14,310 --> 00:13:14,320
+in f t yeah okay so and i want to do
+ 
+
+479
+00:13:14,320 --> 00:13:14,629
+in f t yeah okay so and i want to do
+what
+
+480
+00:13:14,629 --> 00:13:14,639
+what
+ 
+
+481
+00:13:14,639 --> 00:13:18,069
+what
+x i yeah but this i
+
+482
+00:13:18,069 --> 00:13:18,079
+x i yeah but this i
+ 
+
+483
+00:13:18,079 --> 00:13:20,870
+x i yeah but this i
+is a character yeah how do you convert
+
+484
+00:13:20,870 --> 00:13:20,880
+is a character yeah how do you convert
+ 
+
+485
+00:13:20,880 --> 00:13:21,350
+is a character yeah how do you convert
+the eye
+
+486
+00:13:21,350 --> 00:13:21,360
+the eye
+ 
+
+487
+00:13:21,360 --> 00:13:24,230
+the eye
+into the uh ascii remember this ascii
+
+488
+00:13:24,230 --> 00:13:24,240
+into the uh ascii remember this ascii
+ 
+
+489
+00:13:24,240 --> 00:13:26,310
+into the uh ascii remember this ascii
+thing
+
+490
+00:13:26,310 --> 00:13:26,320
+thing
+ 
+
+491
+00:13:26,320 --> 00:13:29,670
+thing
+yeah what's this in ascii
+
+492
+00:13:29,670 --> 00:13:29,680
+yeah what's this in ascii
+ 
+
+493
+00:13:29,680 --> 00:13:44,949
+yeah what's this in ascii
+wait wait what's this huh
+
+494
+00:13:44,949 --> 00:13:44,959
+
+ 
+
+495
+00:13:44,959 --> 00:13:48,389
+
+97 65 48 can you
+
+496
+00:13:48,389 --> 00:13:48,399
+97 65 48 can you
+ 
+
+497
+00:13:48,399 --> 00:13:51,829
+97 65 48 can you
+feel dinner one
+
+498
+00:13:51,829 --> 00:13:51,839
+feel dinner one
+ 
+
+499
+00:13:51,839 --> 00:13:58,790
+feel dinner one
+i know one of these is one of the a's
+
+500
+00:13:58,790 --> 00:13:58,800
+
+ 
+
+501
+00:13:58,800 --> 00:14:02,120
+
+wait i'm guessing
+
+502
+00:14:02,120 --> 00:14:02,130
+wait i'm guessing
+ 
+
+503
+00:14:02,130 --> 00:14:14,949
+wait i'm guessing
+[Music]
+
+504
+00:14:14,949 --> 00:14:14,959
+
+ 
+
+505
+00:14:14,959 --> 00:14:17,910
+
+yeah exactly okay so how do we convert
+
+506
+00:14:17,910 --> 00:14:17,920
+yeah exactly okay so how do we convert
+ 
+
+507
+00:14:17,920 --> 00:14:20,389
+yeah exactly okay so how do we convert
+these to this
+
+508
+00:14:20,389 --> 00:14:20,399
+these to this
+ 
+
+509
+00:14:20,399 --> 00:14:23,829
+these to this
+how how can we release to this are we um
+
+510
+00:14:23,829 --> 00:14:23,839
+how how can we release to this are we um
+ 
+
+511
+00:14:23,839 --> 00:14:26,710
+how how can we release to this are we um
+i have a two choice for you okay c-h-r
+
+512
+00:14:26,710 --> 00:14:26,720
+i have a two choice for you okay c-h-r
+ 
+
+513
+00:14:26,720 --> 00:14:30,870
+i have a two choice for you okay c-h-r
+and o-r-d which way is convert
+
+514
+00:14:30,870 --> 00:14:30,880
+
+ 
+
+515
+00:14:30,880 --> 00:14:34,470
+
+the function i'm telling you
+
+516
+00:14:34,470 --> 00:14:34,480
+the function i'm telling you
+ 
+
+517
+00:14:34,480 --> 00:14:38,150
+the function i'm telling you
+one function is to convert convert these
+
+518
+00:14:38,150 --> 00:14:38,160
+one function is to convert convert these
+ 
+
+519
+00:14:38,160 --> 00:14:39,750
+one function is to convert convert these
+to here and the other one is the
+
+520
+00:14:39,750 --> 00:14:39,760
+to here and the other one is the
+ 
+
+521
+00:14:39,760 --> 00:14:42,389
+to here and the other one is the
+opposite
+
+522
+00:14:42,389 --> 00:14:42,399
+
+ 
+
+523
+00:14:42,399 --> 00:14:44,629
+
+can you guess from the name character
+
+524
+00:14:44,629 --> 00:14:44,639
+can you guess from the name character
+ 
+
+525
+00:14:44,639 --> 00:14:47,189
+can you guess from the name character
+order okay which one is from the
+
+526
+00:14:47,189 --> 00:14:47,199
+order okay which one is from the
+ 
+
+527
+00:14:47,199 --> 00:14:50,310
+order okay which one is from the
+from the character to to the number
+
+528
+00:14:50,310 --> 00:14:50,320
+from the character to to the number
+ 
+
+529
+00:14:50,320 --> 00:14:51,829
+from the character to to the number
+which one is from the
+
+530
+00:14:51,829 --> 00:14:51,839
+which one is from the
+ 
+
+531
+00:14:51,839 --> 00:14:55,350
+which one is from the
+ascii to the character can you guess
+
+532
+00:14:55,350 --> 00:14:55,360
+ascii to the character can you guess
+ 
+
+533
+00:14:55,360 --> 00:15:01,430
+ascii to the character can you guess
+from the name from the function
+
+534
+00:15:01,430 --> 00:15:01,440
+
+ 
+
+535
+00:15:01,440 --> 00:15:04,310
+
+so this direction for the character to
+
+536
+00:15:04,310 --> 00:15:04,320
+so this direction for the character to
+ 
+
+537
+00:15:04,320 --> 00:15:05,509
+so this direction for the character to
+number which one which
+
+538
+00:15:05,509 --> 00:15:05,519
+number which one which
+ 
+
+539
+00:15:05,519 --> 00:15:08,790
+number which one which
+function we will do order yeah because
+
+540
+00:15:08,790 --> 00:15:08,800
+function we will do order yeah because
+ 
+
+541
+00:15:08,800 --> 00:15:10,230
+function we will do order yeah because
+the other one is from the order to the
+
+542
+00:15:10,230 --> 00:15:10,240
+the other one is from the order to the
+ 
+
+543
+00:15:10,240 --> 00:15:12,150
+the other one is from the order to the
+character yeah that's what you mean yeah
+
+544
+00:15:12,150 --> 00:15:12,160
+character yeah that's what you mean yeah
+ 
+
+545
+00:15:12,160 --> 00:15:13,990
+character yeah that's what you mean yeah
+order gives you an order yeah
+
+546
+00:15:13,990 --> 00:15:14,000
+order gives you an order yeah
+ 
+
+547
+00:15:14,000 --> 00:15:15,590
+order gives you an order yeah
+character gives you a character yeah
+
+548
+00:15:15,590 --> 00:15:15,600
+character gives you a character yeah
+ 
+
+549
+00:15:15,600 --> 00:15:18,310
+character gives you a character yeah
+okay so here what should i do with this
+
+550
+00:15:18,310 --> 00:15:18,320
+okay so here what should i do with this
+ 
+
+551
+00:15:18,320 --> 00:15:19,829
+okay so here what should i do with this
+eye
+
+552
+00:15:19,829 --> 00:15:19,839
+eye
+ 
+
+553
+00:15:19,839 --> 00:15:22,949
+eye
+what should i do with this eye
+
+554
+00:15:22,949 --> 00:15:22,959
+what should i do with this eye
+ 
+
+555
+00:15:22,959 --> 00:15:50,320
+what should i do with this eye
+we shall
+
+556
+00:15:50,320 --> 00:15:50,330
+
+ 
+
+557
+00:15:50,330 --> 00:15:52,550
+
+[Music]
+
+558
+00:15:52,550 --> 00:15:52,560
+[Music]
+ 
+
+559
+00:15:52,560 --> 00:15:54,710
+[Music]
+what's the term complexity it's a sum
+
+560
+00:15:54,710 --> 00:15:54,720
+what's the term complexity it's a sum
+ 
+
+561
+00:15:54,720 --> 00:15:58,310
+what's the term complexity it's a sum
+yeah
+
+562
+00:15:58,310 --> 00:15:58,320
+
+ 
+
+563
+00:15:58,320 --> 00:16:02,310
+
+what's a space complexity um
+
+564
+00:16:02,310 --> 00:16:02,320
+what's a space complexity um
+ 
+
+565
+00:16:02,320 --> 00:16:05,910
+what's a space complexity um
+a one a one yeah okay that's a tricky
+
+566
+00:16:05,910 --> 00:16:05,920
+a one a one yeah okay that's a tricky
+ 
+
+567
+00:16:05,920 --> 00:16:08,230
+a one a one yeah okay that's a tricky
+yeah i saw you're gonna say oh it's
+
+568
+00:16:08,230 --> 00:16:08,240
+yeah i saw you're gonna say oh it's
+ 
+
+569
+00:16:08,240 --> 00:16:09,990
+yeah i saw you're gonna say oh it's
+the same it's all one yeah because
+
+570
+00:16:09,990 --> 00:16:10,000
+the same it's all one yeah because
+ 
+
+571
+00:16:10,000 --> 00:16:11,670
+the same it's all one yeah because
+you're not using this place good job
+
+572
+00:16:11,670 --> 00:16:11,680
+you're not using this place good job
+ 
+
+573
+00:16:11,680 --> 00:16:12,470
+you're not using this place good job
+okay
+
+574
+00:16:12,470 --> 00:16:12,480
+okay
+ 
+
+575
+00:16:12,480 --> 00:16:16,470
+okay
+yeah and we we can use the
+
+576
+00:16:16,470 --> 00:16:16,480
+
+ 
+
+577
+00:16:16,480 --> 00:16:19,030
+
+look if we can we can do this we can we
+
+578
+00:16:19,030 --> 00:16:19,040
+look if we can we can do this we can we
+ 
+
+579
+00:16:19,040 --> 00:16:19,509
+look if we can we can do this we can we
+can
+
+580
+00:16:19,509 --> 00:16:19,519
+can
+ 
+
+581
+00:16:19,519 --> 00:16:23,269
+can
+if i if i remove this for i you know
+
+582
+00:16:23,269 --> 00:16:23,279
+if i if i remove this for i you know
+ 
+
+583
+00:16:23,279 --> 00:16:26,069
+if i if i remove this for i you know
+previously is s plus t and if i remove
+
+584
+00:16:26,069 --> 00:16:26,079
+previously is s plus t and if i remove
+ 
+
+585
+00:16:26,079 --> 00:16:27,670
+previously is s plus t and if i remove
+the plus t so what should we
+
+586
+00:16:27,670 --> 00:16:27,680
+the plus t so what should we
+ 
+
+587
+00:16:27,680 --> 00:16:30,230
+the plus t so what should we
+what should we do now we shall we should
+
+588
+00:16:30,230 --> 00:16:30,240
+what should we do now we shall we should
+ 
+
+589
+00:16:30,240 --> 00:16:30,790
+what should we do now we shall we should
+do
+
+590
+00:16:30,790 --> 00:16:30,800
+do
+ 
+
+591
+00:16:30,800 --> 00:16:33,910
+do
+what if we move we're just going to
+
+592
+00:16:33,910 --> 00:16:33,920
+what if we move we're just going to
+ 
+
+593
+00:16:33,920 --> 00:16:38,949
+what if we move we're just going to
+s then what's next
+
+594
+00:16:38,949 --> 00:16:38,959
+
+ 
+
+595
+00:16:38,959 --> 00:16:42,230
+
+yeah okay so can you write it
+
+596
+00:16:42,230 --> 00:16:42,240
+yeah okay so can you write it
+ 
+
+597
+00:16:42,240 --> 00:16:45,189
+yeah okay so can you write it
+for i n t yeah it's just ready you need
+
+598
+00:16:45,189 --> 00:16:45,199
+for i n t yeah it's just ready you need
+ 
+
+599
+00:16:45,199 --> 00:16:46,629
+for i n t yeah it's just ready you need
+to practice
+
+600
+00:16:46,629 --> 00:16:46,639
+to practice
+ 
+
+601
+00:16:46,639 --> 00:16:51,110
+to practice
+yeah come on you shouldn't ask me this
+
+602
+00:16:51,110 --> 00:16:51,120
+yeah come on you shouldn't ask me this
+ 
+
+603
+00:16:51,120 --> 00:16:52,230
+yeah come on you shouldn't ask me this
+question okay for
+
+604
+00:16:52,230 --> 00:16:52,240
+question okay for
+ 
+
+605
+00:16:52,240 --> 00:16:55,910
+question okay for
+why because it's so obvious for i
+
+606
+00:16:55,910 --> 00:16:55,920
+why because it's so obvious for i
+ 
+
+607
+00:16:55,920 --> 00:16:59,670
+why because it's so obvious for i
+yeah okay come on come on all right
+
+608
+00:16:59,670 --> 00:16:59,680
+yeah okay come on come on all right
+ 
+
+609
+00:16:59,680 --> 00:17:08,549
+yeah okay come on come on all right
+yeah can you follow me oh yeah
+
+610
+00:17:08,549 --> 00:17:08,559
+
+ 
+
+611
+00:17:08,559 --> 00:17:13,549
+
+right properly oh yeah come on okay and
+
+612
+00:17:13,549 --> 00:17:13,559
+right properly oh yeah come on okay and
+ 
+
+613
+00:17:13,559 --> 00:17:30,310
+right properly oh yeah come on okay and
+then what then
+
+614
+00:17:30,310 --> 00:17:30,320
+
+ 
+
+615
+00:17:30,320 --> 00:17:34,390
+
+oh yeah on come on right faster come on
+
+616
+00:17:34,390 --> 00:17:34,400
+oh yeah on come on right faster come on
+ 
+
+617
+00:17:34,400 --> 00:17:36,470
+oh yeah on come on right faster come on
+can you write it properly otherwise i'm
+
+618
+00:17:36,470 --> 00:17:36,480
+can you write it properly otherwise i'm
+ 
+
+619
+00:17:36,480 --> 00:17:38,230
+can you write it properly otherwise i'm
+going to erase it and let you write it
+
+620
+00:17:38,230 --> 00:17:38,240
+going to erase it and let you write it
+ 
+
+621
+00:17:38,240 --> 00:17:38,630
+going to erase it and let you write it
+again
+
+622
+00:17:38,630 --> 00:17:38,640
+again
+ 
+
+623
+00:17:38,640 --> 00:17:41,270
+again
+and you'll write it properly okay and
+
+624
+00:17:41,270 --> 00:17:41,280
+and you'll write it properly okay and
+ 
+
+625
+00:17:41,280 --> 00:17:43,029
+and you'll write it properly okay and
+what's next
+
+626
+00:17:43,029 --> 00:17:43,039
+what's next
+ 
+
+627
+00:17:43,039 --> 00:17:45,270
+what's next
+i know what's next what's the last bit
+
+628
+00:17:45,270 --> 00:17:45,280
+i know what's next what's the last bit
+ 
+
+629
+00:17:45,280 --> 00:17:51,190
+i know what's next what's the last bit
+return
+
+630
+00:17:51,190 --> 00:17:51,200
+
+ 
+
+631
+00:17:51,200 --> 00:18:04,600
+
+this is how quick i can do it
+
+632
+00:18:04,600 --> 00:18:04,610
+
+ 
+
+633
+00:18:04,610 --> 00:18:13,510
+
+[Music]
+
+634
+00:18:13,510 --> 00:18:13,520
+
+ 
+
+635
+00:18:13,520 --> 00:18:15,510
+
+you must keep kidding me what's written
+
+636
+00:18:15,510 --> 00:18:15,520
+you must keep kidding me what's written
+ 
+
+637
+00:18:15,520 --> 00:18:17,669
+you must keep kidding me what's written
+for us and written two
+
+638
+00:18:17,669 --> 00:18:17,679
+for us and written two
+ 
+
+639
+00:18:17,679 --> 00:18:19,270
+for us and written two
+what's the previous one why why are you
+
+640
+00:18:19,270 --> 00:18:19,280
+what's the previous one why why are you
+ 
+
+641
+00:18:19,280 --> 00:18:20,870
+what's the previous one why why are you
+saying between two and within first come
+
+642
+00:18:20,870 --> 00:18:20,880
+saying between two and within first come
+ 
+
+643
+00:18:20,880 --> 00:18:23,430
+saying between two and within first come
+on
+
+644
+00:18:23,430 --> 00:18:23,440
+
+ 
+
+645
+00:18:23,440 --> 00:18:26,150
+
+why are you writing this bit why really
+
+646
+00:18:26,150 --> 00:18:26,160
+why are you writing this bit why really
+ 
+
+647
+00:18:26,160 --> 00:18:45,110
+why are you writing this bit why really
+speak why is
+
+648
+00:18:45,110 --> 00:18:45,120
+
+ 
+
+649
+00:18:45,120 --> 00:18:50,430
+
+that should be okay that's it thank you
+
+650
+00:18:50,430 --> 00:18:50,440
+
+ 
+
+651
+00:18:50,440 --> 00:18:53,440
+
+bye-bye
+
