@@ -1,0 +1,1124 @@
+1
+00:00:00,320 --> 00:00:04,880
+hello mr mr ryan all right
+
+2
+00:00:02,800 --> 00:00:07,200
+yeah okay so yesterday we talked about
+
+3
+00:00:04,880 --> 00:00:09,840
+the k smallest binary search tree okay
+
+4
+00:00:07,200 --> 00:00:11,759
+so finally search three the note yeah
+
+5
+00:00:09,840 --> 00:00:13,519
+that is finally tree where the left
+
+6
+00:00:11,759 --> 00:00:15,519
+notes are smaller than the root and the
+
+7
+00:00:13,519 --> 00:00:18,080
+right notes are bigger for example like
+
+8
+00:00:15,519 --> 00:00:20,320
+four five six okay
+
+9
+00:00:18,080 --> 00:00:22,640
+how do we traverse the final research
+
+10
+00:00:20,320 --> 00:00:24,560
+tree in order to get the saltiness eight
+
+11
+00:00:22,640 --> 00:00:25,359
+four five six yeah what what what all
+
+12
+00:00:24,560 --> 00:00:27,119
+that
+
+13
+00:00:25,359 --> 00:00:30,240
+you know that okay so
+
+14
+00:00:27,119 --> 00:00:32,239
+yesterday was small yeah so yesterday we
+
+15
+00:00:30,240 --> 00:00:34,160
+talked about these case models
+
+16
+00:00:32,239 --> 00:00:35,440
+three yeah so we're using this in order
+
+17
+00:00:34,160 --> 00:00:37,680
+of traversal in order to get
+
+18
+00:00:35,440 --> 00:00:39,120
+certificates and then we use we have we
+
+19
+00:00:37,680 --> 00:00:41,120
+talked about uh
+
+20
+00:00:39,120 --> 00:00:42,879
+year yeah we talked about the iterator
+
+21
+00:00:41,120 --> 00:00:45,280
+yeah thing yeah because look
+
+22
+00:00:42,879 --> 00:00:47,440
+the k could be very small the total
+
+23
+00:00:45,280 --> 00:00:50,000
+number could be very big and
+
+24
+00:00:47,440 --> 00:00:51,920
+in order to get the k smallest node we
+
+25
+00:00:50,000 --> 00:00:54,320
+don't need to actually visit all the
+
+26
+00:00:51,920 --> 00:00:56,239
+nodes here if just imagine that t could
+
+27
+00:00:54,320 --> 00:00:58,559
+be a meaning more than a minute it could
+
+28
+00:00:56,239 --> 00:01:00,000
+be very large right so yeah so we talked
+
+29
+00:00:58,559 --> 00:01:02,559
+about as uh
+
+30
+00:01:00,000 --> 00:01:04,080
+recursive in order i think
+
+31
+00:01:02,559 --> 00:01:05,119
+okay so today we're going to solve this
+
+32
+00:01:04,080 --> 00:01:07,119
+problem
+
+33
+00:01:05,119 --> 00:01:09,439
+yeah using another approach using
+
+34
+00:01:07,119 --> 00:01:10,560
+another approach so let's say okay so
+
+35
+00:01:09,439 --> 00:01:12,799
+just just
+
+36
+00:01:10,560 --> 00:01:14,240
+imagine yeah imagine this is a battle
+
+37
+00:01:12,799 --> 00:01:16,400
+research tree
+
+38
+00:01:14,240 --> 00:01:17,920
+yeah i have a note if that's the luther
+
+39
+00:01:16,400 --> 00:01:20,159
+no lord enough
+
+40
+00:01:17,920 --> 00:01:22,479
+and i have a left tree yeah obviously
+
+41
+00:01:20,159 --> 00:01:25,520
+ever left but i don't know what how many
+
+42
+00:01:22,479 --> 00:01:28,000
+are there yeah i don't know how many of
+
+43
+00:01:25,520 --> 00:01:30,720
+like i have the right tree here
+
+44
+00:01:28,000 --> 00:01:31,520
+and again i don't know how many of them
+
+45
+00:01:30,720 --> 00:01:33,040
+okay
+
+46
+00:01:31,520 --> 00:01:35,600
+look listen
+
+47
+00:01:33,040 --> 00:01:37,680
+if i'm telling you that okay if i'm
+
+48
+00:01:35,600 --> 00:01:40,479
+telling you that k
+
+49
+00:01:37,680 --> 00:01:42,720
+k minus one no here
+
+50
+00:01:40,479 --> 00:01:45,360
+so which no is the case one is not come
+
+51
+00:01:42,720 --> 00:01:48,799
+on if that k minus one note on the left
+
+52
+00:01:45,360 --> 00:01:50,960
+top load exactly why why is that because
+
+53
+00:01:48,799 --> 00:01:53,040
+because these the notes on the left
+
+54
+00:01:50,960 --> 00:01:55,840
+three are smaller than the root right
+
+55
+00:01:53,040 --> 00:01:57,920
+yeah so if i'm saying k minus knows on
+
+56
+00:01:55,840 --> 00:02:01,200
+the left tree so it means it makes the
+
+57
+00:01:57,920 --> 00:02:03,520
+loot and a case notice right makes sense
+
+58
+00:02:01,200 --> 00:02:06,719
+okay so now if i'm telling you there are
+
+59
+00:02:03,520 --> 00:02:09,679
+more than k minus one nodes on the left
+
+60
+00:02:06,719 --> 00:02:12,640
+what happened so look this is uh let's
+
+61
+00:02:09,679 --> 00:02:16,000
+say there are n nodes okay if n equal or
+
+62
+00:02:12,640 --> 00:02:17,920
+equal k minus 1 then the root is the
+
+63
+00:02:16,000 --> 00:02:20,640
+case smallest one right
+
+64
+00:02:17,920 --> 00:02:23,920
+look this is the case smallest one all
+
+65
+00:02:20,640 --> 00:02:26,879
+right but if i'm saying that they are
+
+66
+00:02:23,920 --> 00:02:28,879
+bigger or more than k notes what happens
+
+67
+00:02:26,879 --> 00:02:31,599
+if there are many many know more than k
+
+68
+00:02:28,879 --> 00:02:32,879
+notes on the left so where is the case
+
+69
+00:02:31,599 --> 00:02:34,720
+not going to be
+
+70
+00:02:32,879 --> 00:02:37,599
+where is the case not going to be if
+
+71
+00:02:34,720 --> 00:02:39,680
+there are more if n is more than k if
+
+72
+00:02:37,599 --> 00:02:41,360
+there are more than k notes on the left
+
+73
+00:02:39,680 --> 00:02:43,040
+street where is the case not going to be
+
+74
+00:02:41,360 --> 00:02:45,440
+come on
+
+75
+00:02:43,040 --> 00:02:46,720
+exactly you'll be on the loot on length
+
+76
+00:02:45,440 --> 00:02:48,480
+yeah somewhere
+
+77
+00:02:46,720 --> 00:02:51,280
+somewhere on the root of left but we
+
+78
+00:02:48,480 --> 00:02:53,680
+have to we find it out right okay
+
+79
+00:02:51,280 --> 00:02:55,120
+how about n smaller than k this is the
+
+80
+00:02:53,680 --> 00:02:57,280
+tricky part
+
+81
+00:02:55,120 --> 00:02:59,599
+right look this is a tricky part if
+
+82
+00:02:57,280 --> 00:03:02,720
+there are n nodes which if they are less
+
+83
+00:02:59,599 --> 00:03:02,720
+than k notes on the left
+
+84
+00:03:05,440 --> 00:03:08,640
+on the right yeah but
+
+85
+00:03:07,680 --> 00:03:12,319
+we
+
+86
+00:03:08,640 --> 00:03:12,319
+exactly it's on the right but
+
+87
+00:03:12,640 --> 00:03:16,640
+if we keep fighting on the right so
+
+88
+00:03:15,040 --> 00:03:19,200
+look all right
+
+89
+00:03:16,640 --> 00:03:21,840
+look
+
+90
+00:03:19,200 --> 00:03:25,120
+this is the tricky part okay so look
+
+91
+00:03:21,840 --> 00:03:27,840
+loose on right it's not on the right so
+
+92
+00:03:25,120 --> 00:03:31,200
+look at that one note this one note the
+
+93
+00:03:27,840 --> 00:03:34,000
+root n note on the left right so so k
+
+94
+00:03:31,200 --> 00:03:36,159
+minus k is bigger k is bigger than n so
+
+95
+00:03:34,000 --> 00:03:38,000
+k minus 1 minus n there will be a note
+
+96
+00:03:36,159 --> 00:03:38,799
+on the right right so what does it mean
+
+97
+00:03:38,000 --> 00:03:41,440
+look
+
+98
+00:03:38,799 --> 00:03:43,920
+look if k is bigger than n right and we
+
+99
+00:03:41,440 --> 00:03:46,959
+are finding the k smallest no right but
+
+100
+00:03:43,920 --> 00:03:50,000
+it's only on the right tree right yeah
+
+101
+00:03:46,959 --> 00:03:52,239
+am i right on the right tree so look
+
+102
+00:03:50,000 --> 00:03:54,319
+i have to minus one note because i know
+
+103
+00:03:52,239 --> 00:03:56,400
+there's one note smaller than
+
+104
+00:03:54,319 --> 00:03:58,879
+something okay and there are n notes
+
+105
+00:03:56,400 --> 00:04:02,720
+here right there unknowns here so
+
+106
+00:03:58,879 --> 00:04:05,840
+so the note should be k minus one minus
+
+107
+00:04:02,720 --> 00:04:07,519
+n regarding root or right do you make
+
+108
+00:04:05,840 --> 00:04:09,360
+does it make sense all right
+
+109
+00:04:07,519 --> 00:04:10,480
+okay now let me repeat this again okay
+
+110
+00:04:09,360 --> 00:04:12,640
+come on
+
+111
+00:04:10,480 --> 00:04:15,280
+this is interesting
+
+112
+00:04:12,640 --> 00:04:16,560
+i'm get i'm finding n notes i'm going to
+
+113
+00:04:15,280 --> 00:04:19,440
+do the left
+
+114
+00:04:16,560 --> 00:04:20,639
+little left that do the left has a note
+
+115
+00:04:19,440 --> 00:04:21,519
+okay
+
+116
+00:04:20,639 --> 00:04:23,759
+if
+
+117
+00:04:21,519 --> 00:04:25,840
+n equals k minus 1
+
+118
+00:04:23,759 --> 00:04:26,960
+great that makes the rule the case
+
+119
+00:04:25,840 --> 00:04:29,360
+smallest
+
+120
+00:04:26,960 --> 00:04:33,440
+do to understand this part
+
+121
+00:04:29,360 --> 00:04:35,600
+okay if n is more than k or equal to
+
+122
+00:04:33,440 --> 00:04:38,240
+if there are more than k or equal than k
+
+123
+00:04:35,600 --> 00:04:40,240
+notes on the root of that tree
+
+124
+00:04:38,240 --> 00:04:42,320
+so where is it where is the node going
+
+125
+00:04:40,240 --> 00:04:43,280
+to be where is the case knowledge is not
+
+126
+00:04:42,320 --> 00:04:44,800
+going to be
+
+127
+00:04:43,280 --> 00:04:46,880
+yeah it will be somewhere here and then
+
+128
+00:04:44,800 --> 00:04:48,560
+we can because it covers it
+
+129
+00:04:46,880 --> 00:04:50,800
+because
+
+130
+00:04:48,560 --> 00:04:53,040
+yeah but the second parameter is which
+
+131
+00:04:50,800 --> 00:04:54,400
+no you if you will be still on case no
+
+132
+00:04:53,040 --> 00:04:56,720
+yeah the case number will be still on
+
+133
+00:04:54,400 --> 00:04:59,360
+the left right yeah
+
+134
+00:04:56,720 --> 00:05:00,160
+okay now the tricky part is on the right
+
+135
+00:04:59,360 --> 00:05:02,320
+right
+
+136
+00:05:00,160 --> 00:05:06,000
+so if they are
+
+137
+00:05:02,320 --> 00:05:08,080
+if the k no if k is bigger than n if k n
+
+138
+00:05:06,000 --> 00:05:09,759
+is smaller than k k is bigger than n
+
+139
+00:05:08,080 --> 00:05:12,880
+right so
+
+140
+00:05:09,759 --> 00:05:15,520
+obviously it's on the right tree but
+
+141
+00:05:12,880 --> 00:05:17,520
+which no i mean where is what's this
+
+142
+00:05:15,520 --> 00:05:19,840
+case now going to be
+
+143
+00:05:17,520 --> 00:05:22,400
+which no on the right tree we have to
+
+144
+00:05:19,840 --> 00:05:24,560
+substitute a substrate one node here and
+
+145
+00:05:22,400 --> 00:05:27,039
+unknown right make sense
+
+146
+00:05:24,560 --> 00:05:27,840
+it doesn't make sense
+
+147
+00:05:27,039 --> 00:05:30,800
+okay
+
+148
+00:05:27,840 --> 00:05:33,600
+look if if there are five notes here one
+
+149
+00:05:30,800 --> 00:05:37,039
+knows here and then if we want to find a
+
+150
+00:05:33,600 --> 00:05:39,759
+tenth note right if i'm gonna if we are
+
+151
+00:05:37,039 --> 00:05:41,919
+to find the 10 k k was
+
+152
+00:05:39,759 --> 00:05:43,280
+k equals 10 and there are finals here
+
+153
+00:05:41,919 --> 00:05:46,400
+one note here
+
+154
+00:05:43,280 --> 00:05:49,120
+right so that rule the right three
+
+155
+00:05:46,400 --> 00:05:51,840
+the note would be ten minus one minus uh
+
+156
+00:05:49,120 --> 00:05:54,320
+ten minus one minus five right yeah
+
+157
+00:05:51,840 --> 00:05:56,400
+because we already found five plus one
+
+158
+00:05:54,320 --> 00:05:58,880
+nodes which are smaller
+
+159
+00:05:56,400 --> 00:06:01,280
+which which are smaller which is longer
+
+160
+00:05:58,880 --> 00:06:02,240
+which is not the node we are looking for
+
+161
+00:06:01,280 --> 00:06:04,319
+right
+
+162
+00:06:02,240 --> 00:06:06,240
+all right so using this we can just do
+
+163
+00:06:04,319 --> 00:06:07,440
+this recursion we can just do this
+
+164
+00:06:06,240 --> 00:06:09,520
+recursion
+
+165
+00:06:07,440 --> 00:06:11,360
+and then first of all we need to
+
+166
+00:06:09,520 --> 00:06:13,600
+have this code function to count the
+
+167
+00:06:11,360 --> 00:06:15,360
+number of nodes in the subtree so well
+
+168
+00:06:13,600 --> 00:06:17,680
+we can do it many ways can you give me
+
+169
+00:06:15,360 --> 00:06:20,800
+an example how do we how do we find the
+
+170
+00:06:17,680 --> 00:06:23,199
+number of nodes in the given binary
+
+171
+00:06:20,800 --> 00:06:25,759
+we talk about this yeah we can use
+
+172
+00:06:23,199 --> 00:06:27,600
+what kind of search
+
+173
+00:06:25,759 --> 00:06:28,960
+step search preferences exactly okay
+
+174
+00:06:27,600 --> 00:06:31,759
+let's do it each step or something yeah
+
+175
+00:06:28,960 --> 00:06:34,639
+define that search root
+
+176
+00:06:31,759 --> 00:06:34,639
+if not loose
+
+177
+00:06:37,440 --> 00:06:42,639
+otherwise will return the first third
+
+178
+00:06:39,759 --> 00:06:48,000
+root of left
+
+179
+00:06:42,639 --> 00:06:49,919
+plus one plus definitions google wire
+
+180
+00:06:48,000 --> 00:06:54,080
+can even using the lambda function and
+
+181
+00:06:49,919 --> 00:06:55,680
+lambda pfs equals lambda
+
+182
+00:06:54,080 --> 00:06:56,639
+lambda
+
+183
+00:06:55,680 --> 00:06:58,880
+uh
+
+184
+00:06:56,639 --> 00:07:02,639
+root
+
+185
+00:06:58,880 --> 00:07:07,120
+and dfs lu dot left plus df plus one
+
+186
+00:07:02,639 --> 00:07:08,000
+plus dfs root or y if root
+
+187
+00:07:07,120 --> 00:07:11,199
+and
+
+188
+00:07:08,000 --> 00:07:12,960
+air okay this is the differences and how
+
+189
+00:07:11,199 --> 00:07:15,120
+about the question reference search is
+
+190
+00:07:12,960 --> 00:07:16,880
+also very easy to implement we just what
+
+191
+00:07:15,120 --> 00:07:20,000
+kind of data structure we need to use in
+
+192
+00:07:16,880 --> 00:07:20,000
+order to do the processes
+
+193
+00:07:21,120 --> 00:07:26,400
+if not loot
+
+194
+00:07:23,919 --> 00:07:29,840
+returns zero
+
+195
+00:07:26,400 --> 00:07:32,639
+otherwise we have a qdq
+
+196
+00:07:29,840 --> 00:07:32,639
+root of left
+
+197
+00:07:33,039 --> 00:07:36,160
+and then y i q
+
+198
+00:07:36,479 --> 00:07:42,160
+uh i have to put it in n n equals zero n
+
+199
+00:07:39,440 --> 00:07:45,840
+plus one we have one more load yeah a
+
+200
+00:07:42,160 --> 00:07:45,840
+equals q to the power of left
+
+201
+00:07:47,199 --> 00:07:52,319
+if a is the left we push it back to the
+
+202
+00:07:49,759 --> 00:07:54,639
+q q that append
+
+203
+00:07:52,319 --> 00:07:57,599
+q a left
+
+204
+00:07:54,639 --> 00:07:59,599
+if a dot right
+
+205
+00:07:57,599 --> 00:08:01,759
+q dot appearance alright yeah and then
+
+206
+00:07:59,599 --> 00:08:02,560
+we return the i'm right we can and this
+
+207
+00:08:01,759 --> 00:08:04,479
+is the
+
+208
+00:08:02,560 --> 00:08:06,879
+breakfast search okay and then coming
+
+209
+00:08:04,479 --> 00:08:08,879
+back to these coming back to the
+
+210
+00:08:06,879 --> 00:08:09,840
+location function to find the case model
+
+211
+00:08:08,879 --> 00:08:14,879
+okay
+
+212
+00:08:09,840 --> 00:08:14,879
+uh define case okay good
+
+213
+00:08:17,360 --> 00:08:22,720
+n equals let's use the different search
+
+214
+00:08:20,400 --> 00:08:25,120
+rule dotnet we're counting the root left
+
+215
+00:08:22,720 --> 00:08:29,759
+tree okay now look
+
+216
+00:08:25,120 --> 00:08:29,759
+uh here okay the second parameter
+
+217
+00:08:31,599 --> 00:08:38,000
+if n equal equal k minus one we can what
+
+218
+00:08:36,399 --> 00:08:41,519
+in turn one
+
+219
+00:08:38,000 --> 00:08:44,320
+if n equals k minus 1 only someone
+
+220
+00:08:41,519 --> 00:08:44,320
+there's no answer
+
+221
+00:08:45,440 --> 00:08:53,920
+if n equals root yeah
+
+222
+00:08:48,399 --> 00:08:57,440
+okay okay if n is bigger than or equal k
+
+223
+00:08:53,920 --> 00:09:00,240
+return what is only that tree right
+
+224
+00:08:57,440 --> 00:09:03,040
+so k according to the cursing
+
+225
+00:09:00,240 --> 00:09:05,120
+blue dot left
+
+226
+00:09:03,040 --> 00:09:07,519
+and then the second pin was still k okay
+
+227
+00:09:05,120 --> 00:09:11,519
+and otherwise return
+
+228
+00:09:07,519 --> 00:09:14,240
+case what should i do with the list
+
+229
+00:09:11,519 --> 00:09:17,040
+if it's uh nowhere is that where is the
+
+230
+00:09:14,240 --> 00:09:18,720
+case not going to be k is bigger than k
+
+231
+00:09:17,040 --> 00:09:22,399
+you know on the left tree otherwise it's
+
+232
+00:09:18,720 --> 00:09:24,160
+on uh right right all right
+
+233
+00:09:22,399 --> 00:09:27,279
+and which you know is it
+
+234
+00:09:24,160 --> 00:09:29,040
+that value we talked about
+
+235
+00:09:27,279 --> 00:09:31,839
+what you always know is that k minus one
+
+236
+00:09:29,040 --> 00:09:32,720
+minus n right yeah i know the question
+
+237
+00:09:31,839 --> 00:09:34,320
+yeah
+
+238
+00:09:32,720 --> 00:09:37,040
+yeah what have you learned today what's
+
+239
+00:09:34,320 --> 00:09:38,080
+the time complexity for this one
+
+240
+00:09:37,040 --> 00:09:41,279
+the
+
+241
+00:09:38,080 --> 00:09:44,080
+uh the in order that the method time
+
+242
+00:09:41,279 --> 00:09:46,640
+conductor is all n right if you go if
+
+243
+00:09:44,080 --> 00:09:49,440
+we're going to visit all the nodes but
+
+244
+00:09:46,640 --> 00:09:51,519
+if we're using the iterator yeah we stop
+
+245
+00:09:49,440 --> 00:09:53,440
+searching if we stop searching after
+
+246
+00:09:51,519 --> 00:09:55,200
+finding the case now then the time
+
+247
+00:09:53,440 --> 00:09:57,360
+connection is okay
+
+248
+00:09:55,200 --> 00:09:59,760
+sometimes you pass the height edge okay
+
+249
+00:09:57,360 --> 00:10:03,279
+because that that's going to be
+
+250
+00:09:59,760 --> 00:10:06,000
+the height here the height of the tree
+
+251
+00:10:03,279 --> 00:10:08,640
+for this method yeah the the worst case
+
+252
+00:10:06,000 --> 00:10:10,160
+scenario okay if you don't understand if
+
+253
+00:10:08,640 --> 00:10:11,839
+you don't understand the time complexity
+
+254
+00:10:10,160 --> 00:10:14,800
+of this one let's look at these some
+
+255
+00:10:11,839 --> 00:10:17,200
+very extreme cases look one
+
+256
+00:10:14,800 --> 00:10:19,760
+two look at this three
+
+257
+00:10:17,200 --> 00:10:22,000
+four
+
+258
+00:10:19,760 --> 00:10:23,760
+two two here okay okay i'm going to find
+
+259
+00:10:22,000 --> 00:10:25,600
+out the case mode it's not which one now
+
+260
+00:10:23,760 --> 00:10:27,120
+is it which you know is it
+
+261
+00:10:25,600 --> 00:10:28,240
+that's the first one is though which is
+
+262
+00:10:27,120 --> 00:10:30,880
+the k
+
+263
+00:10:28,240 --> 00:10:33,120
+which one is the case smallest yeah so
+
+264
+00:10:30,880 --> 00:10:34,399
+for each one i'm going to call this the
+
+265
+00:10:33,120 --> 00:10:36,560
+question
+
+266
+00:10:34,399 --> 00:10:38,079
+yeah but look at each chord there will
+
+267
+00:10:36,560 --> 00:10:39,839
+be a differences chord so the time
+
+268
+00:10:38,079 --> 00:10:43,440
+convexity will be o
+
+269
+00:10:39,839 --> 00:10:46,399
+n times n this is o n right and then o n
+
+270
+00:10:43,440 --> 00:10:47,360
+times k okay k smallest okay can case
+
+271
+00:10:46,399 --> 00:10:48,959
+noise
+
+272
+00:10:47,360 --> 00:10:51,440
+makes sense
+
+273
+00:10:48,959 --> 00:10:53,839
+yeah so the time number is
+
+274
+00:10:51,440 --> 00:10:56,160
+and in the worst cases right right
+
+275
+00:10:53,839 --> 00:10:58,850
+because k is smaller
+
+276
+00:10:56,160 --> 00:11:01,919
+because k is smaller or equal than n so
+
+277
+00:10:58,850 --> 00:11:01,919
+[Music]
+
+278
+00:11:05,040 --> 00:11:09,279
+okay that's it for today bye bye bye
+
+279
+00:11:08,079 --> 00:11:12,279
+bye bye
+
+280
+00:11:09,279 --> 00:11:12,279
+bye
+
+281
+00:11:14,160 --> 00:11:16,240
+you
+
