@@ -1,0 +1,2575 @@
+1
+00:00:00,320 --> 00:00:04,390
+
+hello hello mr eric are you all right
+
+2
+00:00:04,390 --> 00:00:04,400
+hello hello mr eric are you all right
+ 
+
+3
+00:00:04,400 --> 00:00:07,030
+hello hello mr eric are you all right
+yes okay so today we talked about flip
+
+4
+00:00:07,030 --> 00:00:07,040
+yes okay so today we talked about flip
+ 
+
+5
+00:00:07,040 --> 00:00:07,909
+yes okay so today we talked about flip
+zero
+
+6
+00:00:07,909 --> 00:00:07,919
+zero
+ 
+
+7
+00:00:07,919 --> 00:00:10,709
+zero
+three zeros what does it mean so we're
+
+8
+00:00:10,709 --> 00:00:10,719
+three zeros what does it mean so we're
+ 
+
+9
+00:00:10,719 --> 00:00:12,789
+three zeros what does it mean so we're
+given
+
+10
+00:00:12,789 --> 00:00:12,799
+given
+ 
+
+11
+00:00:12,799 --> 00:00:15,910
+given
+we given a string a list of only zero
+
+12
+00:00:15,910 --> 00:00:15,920
+we given a string a list of only zero
+ 
+
+13
+00:00:15,920 --> 00:00:16,630
+we given a string a list of only zero
+and ones
+
+14
+00:00:16,630 --> 00:00:16,640
+and ones
+ 
+
+15
+00:00:16,640 --> 00:00:19,830
+and ones
+so one zero zero one zero okay
+
+16
+00:00:19,830 --> 00:00:19,840
+so one zero zero one zero okay
+ 
+
+17
+00:00:19,840 --> 00:00:22,630
+so one zero zero one zero okay
+it only contains zeros and ones so every
+
+18
+00:00:22,630 --> 00:00:22,640
+it only contains zeros and ones so every
+ 
+
+19
+00:00:22,640 --> 00:00:24,950
+it only contains zeros and ones so every
+time we can pick a digit
+
+20
+00:00:24,950 --> 00:00:24,960
+time we can pick a digit
+ 
+
+21
+00:00:24,960 --> 00:00:27,029
+time we can pick a digit
+and then we can flip the digit and
+
+22
+00:00:27,029 --> 00:00:27,039
+and then we can flip the digit and
+ 
+
+23
+00:00:27,039 --> 00:00:28,390
+and then we can flip the digit and
+everything
+
+24
+00:00:28,390 --> 00:00:28,400
+everything
+ 
+
+25
+00:00:28,400 --> 00:00:30,550
+everything
+on the left on the right so when i say
+
+26
+00:00:30,550 --> 00:00:30,560
+on the left on the right so when i say
+ 
+
+27
+00:00:30,560 --> 00:00:32,150
+on the left on the right so when i say
+flip what does it mean
+
+28
+00:00:32,150 --> 00:00:32,160
+flip what does it mean
+ 
+
+29
+00:00:32,160 --> 00:00:35,190
+flip what does it mean
+it's like a coin yeah one is facing up
+
+30
+00:00:35,190 --> 00:00:35,200
+it's like a coin yeah one is facing up
+ 
+
+31
+00:00:35,200 --> 00:00:35,510
+it's like a coin yeah one is facing up
+you
+
+32
+00:00:35,510 --> 00:00:35,520
+you
+ 
+
+33
+00:00:35,520 --> 00:00:37,750
+you
+you flip you're facing down when it when
+
+34
+00:00:37,750 --> 00:00:37,760
+you flip you're facing down when it when
+ 
+
+35
+00:00:37,760 --> 00:00:39,030
+you flip you're facing down when it when
+it's facing down you flip
+
+36
+00:00:39,030 --> 00:00:39,040
+it's facing down you flip
+ 
+
+37
+00:00:39,040 --> 00:00:42,069
+it's facing down you flip
+you will be facing up so flip is one
+
+38
+00:00:42,069 --> 00:00:42,079
+you will be facing up so flip is one
+ 
+
+39
+00:00:42,079 --> 00:00:43,190
+you will be facing up so flip is one
+operation
+
+40
+00:00:43,190 --> 00:00:43,200
+operation
+ 
+
+41
+00:00:43,200 --> 00:00:46,549
+operation
+from one to zero and from zero to one
+
+42
+00:00:46,549 --> 00:00:46,559
+from one to zero and from zero to one
+ 
+
+43
+00:00:46,559 --> 00:00:49,590
+from one to zero and from zero to one
+all right all right yeah
+
+44
+00:00:49,590 --> 00:00:49,600
+all right all right yeah
+ 
+
+45
+00:00:49,600 --> 00:00:51,670
+all right all right yeah
+so the value if it's v then it will
+
+46
+00:00:51,670 --> 00:00:51,680
+so the value if it's v then it will
+ 
+
+47
+00:00:51,680 --> 00:00:53,270
+so the value if it's v then it will
+become one minus v
+
+48
+00:00:53,270 --> 00:00:53,280
+become one minus v
+ 
+
+49
+00:00:53,280 --> 00:00:57,270
+become one minus v
+okay okay yeah because if it's zero they
+
+50
+00:00:57,270 --> 00:00:57,280
+okay okay yeah because if it's zero they
+ 
+
+51
+00:00:57,280 --> 00:00:58,869
+okay okay yeah because if it's zero they
+become one if it is one it will become
+
+52
+00:00:58,869 --> 00:00:58,879
+become one if it is one it will become
+ 
+
+53
+00:00:58,879 --> 00:00:59,349
+become one if it is one it will become
+zero
+
+54
+00:00:59,349 --> 00:00:59,359
+zero
+ 
+
+55
+00:00:59,359 --> 00:01:02,869
+zero
+okay that's three so can you tell me how
+
+56
+00:01:02,869 --> 00:01:02,879
+okay that's three so can you tell me how
+ 
+
+57
+00:01:02,879 --> 00:01:05,109
+okay that's three so can you tell me how
+can i flip these to all zeros
+
+58
+00:01:05,109 --> 00:01:05,119
+can i flip these to all zeros
+ 
+
+59
+00:01:05,119 --> 00:01:08,149
+can i flip these to all zeros
+remember if i flip these one
+
+60
+00:01:08,149 --> 00:01:08,159
+remember if i flip these one
+ 
+
+61
+00:01:08,159 --> 00:01:10,630
+remember if i flip these one
+i need to flip everything on on the left
+
+62
+00:01:10,630 --> 00:01:10,640
+i need to flip everything on on the left
+ 
+
+63
+00:01:10,640 --> 00:01:13,990
+i need to flip everything on on the left
+on the right
+
+64
+00:01:13,990 --> 00:01:14,000
+
+ 
+
+65
+00:01:14,000 --> 00:01:16,550
+
+yeah zero and one one zero one yeah
+
+66
+00:01:16,550 --> 00:01:16,560
+yeah zero and one one zero one yeah
+ 
+
+67
+00:01:16,560 --> 00:01:17,429
+yeah zero and one one zero one yeah
+everything on the right
+
+68
+00:01:17,429 --> 00:01:17,439
+everything on the right
+ 
+
+69
+00:01:17,439 --> 00:01:20,710
+everything on the right
+and i flip this one yeah so
+
+70
+00:01:20,710 --> 00:01:20,720
+and i flip this one yeah so
+ 
+
+71
+00:01:20,720 --> 00:01:23,990
+and i flip this one yeah so
+zero zeros and these will be flipped as
+
+72
+00:01:23,990 --> 00:01:24,000
+zero zeros and these will be flipped as
+ 
+
+73
+00:01:24,000 --> 00:01:25,030
+zero zeros and these will be flipped as
+well
+
+74
+00:01:25,030 --> 00:01:25,040
+well
+ 
+
+75
+00:01:25,040 --> 00:01:29,350
+well
+okay and do i need to flip this no
+
+76
+00:01:29,350 --> 00:01:29,360
+okay and do i need to flip this no
+ 
+
+77
+00:01:29,360 --> 00:01:32,630
+okay and do i need to flip this no
+one zero zero zero zero one
+
+78
+00:01:32,630 --> 00:01:32,640
+one zero zero zero zero one
+ 
+
+79
+00:01:32,640 --> 00:01:35,030
+one zero zero zero zero one
+and then zero zero zero zero zero so how
+
+80
+00:01:35,030 --> 00:01:35,040
+and then zero zero zero zero zero so how
+ 
+
+81
+00:01:35,040 --> 00:01:35,670
+and then zero zero zero zero zero so how
+many
+
+82
+00:01:35,670 --> 00:01:35,680
+many
+ 
+
+83
+00:01:35,680 --> 00:01:37,670
+many
+one two three four so you tell me four
+
+84
+00:01:37,670 --> 00:01:37,680
+one two three four so you tell me four
+ 
+
+85
+00:01:37,680 --> 00:01:38,710
+one two three four so you tell me four
+times
+
+86
+00:01:38,710 --> 00:01:38,720
+times
+ 
+
+87
+00:01:38,720 --> 00:01:41,350
+times
+three tell the minimum minimum of course
+
+88
+00:01:41,350 --> 00:01:41,360
+three tell the minimum minimum of course
+ 
+
+89
+00:01:41,360 --> 00:01:42,149
+three tell the minimum minimum of course
+minimum
+
+90
+00:01:42,149 --> 00:01:42,159
+minimum
+ 
+
+91
+00:01:42,159 --> 00:01:45,190
+minimum
+for the maximum you can flip each one a
+
+92
+00:01:45,190 --> 00:01:45,200
+for the maximum you can flip each one a
+ 
+
+93
+00:01:45,200 --> 00:01:46,870
+for the maximum you can flip each one a
+limited number of times
+
+94
+00:01:46,870 --> 00:01:46,880
+limited number of times
+ 
+
+95
+00:01:46,880 --> 00:01:49,749
+limited number of times
+if it's even number of times yeah if you
+
+96
+00:01:49,749 --> 00:01:49,759
+if it's even number of times yeah if you
+ 
+
+97
+00:01:49,759 --> 00:01:50,789
+if it's even number of times yeah if you
+know one if we
+
+98
+00:01:50,789 --> 00:01:50,799
+know one if we
+ 
+
+99
+00:01:50,799 --> 00:01:55,670
+know one if we
+flip 100 times so what happened
+
+100
+00:01:55,670 --> 00:01:55,680
+flip 100 times so what happened
+ 
+
+101
+00:01:55,680 --> 00:02:01,030
+flip 100 times so what happened
+um
+
+102
+00:02:01,030 --> 00:02:01,040
+
+ 
+
+103
+00:02:01,040 --> 00:02:04,709
+
+yeah yeah yeah oh if one flip a hundred
+
+104
+00:02:04,709 --> 00:02:04,719
+yeah yeah yeah oh if one flip a hundred
+ 
+
+105
+00:02:04,719 --> 00:02:06,310
+yeah yeah yeah oh if one flip a hundred
+times you become
+
+106
+00:02:06,310 --> 00:02:06,320
+times you become
+ 
+
+107
+00:02:06,320 --> 00:02:09,669
+times you become
+you become a a coin flip
+
+108
+00:02:09,669 --> 00:02:09,679
+you become a a coin flip
+ 
+
+109
+00:02:09,679 --> 00:02:12,949
+you become a a coin flip
+100 times you know flip one if you flip
+
+110
+00:02:12,949 --> 00:02:12,959
+100 times you know flip one if you flip
+ 
+
+111
+00:02:12,959 --> 00:02:15,990
+100 times you know flip one if you flip
+one hundred times what happened you'll
+
+112
+00:02:15,990 --> 00:02:16,000
+one hundred times what happened you'll
+ 
+
+113
+00:02:16,000 --> 00:02:17,910
+one hundred times what happened you'll
+become one yeah you'll fix the same
+
+114
+00:02:17,910 --> 00:02:17,920
+become one yeah you'll fix the same
+ 
+
+115
+00:02:17,920 --> 00:02:21,030
+become one yeah you'll fix the same
+zero flip a hundred times
+
+116
+00:02:21,030 --> 00:02:21,040
+zero flip a hundred times
+ 
+
+117
+00:02:21,040 --> 00:02:25,430
+zero flip a hundred times
+the same yeah zero zero 99 times
+
+118
+00:02:25,430 --> 00:02:25,440
+the same yeah zero zero 99 times
+ 
+
+119
+00:02:25,440 --> 00:02:31,830
+the same yeah zero zero 99 times
+one one seventy three times
+
+120
+00:02:31,830 --> 00:02:31,840
+
+ 
+
+121
+00:02:31,840 --> 00:02:35,270
+
+one a minion
+
+122
+00:02:35,270 --> 00:02:35,280
+one a minion
+ 
+
+123
+00:02:35,280 --> 00:02:38,869
+one a minion
+and two times um
+
+124
+00:02:38,869 --> 00:02:38,879
+and two times um
+ 
+
+125
+00:02:38,879 --> 00:02:40,949
+and two times um
+one yeah you got it yeah even number of
+
+126
+00:02:40,949 --> 00:02:40,959
+one yeah you got it yeah even number of
+ 
+
+127
+00:02:40,959 --> 00:02:42,710
+one yeah you got it yeah even number of
+times doesn't change yeah
+
+128
+00:02:42,710 --> 00:02:42,720
+times doesn't change yeah
+ 
+
+129
+00:02:42,720 --> 00:02:44,630
+times doesn't change yeah
+zero all number of times it change it
+
+130
+00:02:44,630 --> 00:02:44,640
+zero all number of times it change it
+ 
+
+131
+00:02:44,640 --> 00:02:45,830
+zero all number of times it change it
+flips okay
+
+132
+00:02:45,830 --> 00:02:45,840
+flips okay
+ 
+
+133
+00:02:45,840 --> 00:02:49,430
+flips okay
+so so what's the strategy
+
+134
+00:02:49,430 --> 00:02:49,440
+so so what's the strategy
+ 
+
+135
+00:02:49,440 --> 00:02:51,350
+so so what's the strategy
+what's the strategy how are we going to
+
+136
+00:02:51,350 --> 00:02:51,360
+what's the strategy how are we going to
+ 
+
+137
+00:02:51,360 --> 00:02:52,790
+what's the strategy how are we going to
+flip it from
+
+138
+00:02:52,790 --> 00:02:52,800
+flip it from
+ 
+
+139
+00:02:52,800 --> 00:02:55,830
+flip it from
+which side which is there because
+
+140
+00:02:55,830 --> 00:02:55,840
+which side which is there because
+ 
+
+141
+00:02:55,840 --> 00:02:57,750
+which side which is there because
+because every time we flip one thing you
+
+142
+00:02:57,750 --> 00:02:57,760
+because every time we flip one thing you
+ 
+
+143
+00:02:57,760 --> 00:03:00,229
+because every time we flip one thing you
+will change everything along the right
+
+144
+00:03:00,229 --> 00:03:00,239
+will change everything along the right
+ 
+
+145
+00:03:00,239 --> 00:03:08,229
+will change everything along the right
+are we go to left to right
+
+146
+00:03:08,229 --> 00:03:08,239
+
+ 
+
+147
+00:03:08,239 --> 00:03:10,470
+
+okay so so yes what are we doing from
+
+148
+00:03:10,470 --> 00:03:10,480
+okay so so yes what are we doing from
+ 
+
+149
+00:03:10,480 --> 00:03:12,309
+okay so so yes what are we doing from
+left to right because that
+
+150
+00:03:12,309 --> 00:03:12,319
+left to right because that
+ 
+
+151
+00:03:12,319 --> 00:03:15,350
+left to right because that
+if we flip these it doesn't change
+
+152
+00:03:15,350 --> 00:03:15,360
+if we flip these it doesn't change
+ 
+
+153
+00:03:15,360 --> 00:03:16,869
+if we flip these it doesn't change
+everything on the left but change
+
+154
+00:03:16,869 --> 00:03:16,879
+everything on the left but change
+ 
+
+155
+00:03:16,879 --> 00:03:18,710
+everything on the left but change
+everything on the right right
+
+156
+00:03:18,710 --> 00:03:18,720
+everything on the right right
+ 
+
+157
+00:03:18,720 --> 00:03:21,350
+everything on the right right
+so we go through from left to right but
+
+158
+00:03:21,350 --> 00:03:21,360
+so we go through from left to right but
+ 
+
+159
+00:03:21,360 --> 00:03:21,990
+so we go through from left to right but
+when we
+
+160
+00:03:21,990 --> 00:03:22,000
+when we
+ 
+
+161
+00:03:22,000 --> 00:03:25,030
+when we
+we we check the current digit if we
+
+162
+00:03:25,030 --> 00:03:25,040
+we we check the current digit if we
+ 
+
+163
+00:03:25,040 --> 00:03:28,390
+we we check the current digit if we
+zero if it's zero you know
+
+164
+00:03:28,390 --> 00:03:28,400
+zero if it's zero you know
+ 
+
+165
+00:03:28,400 --> 00:03:31,030
+zero if it's zero you know
+we we don't change if it's one we flip
+
+166
+00:03:31,030 --> 00:03:31,040
+we we don't change if it's one we flip
+ 
+
+167
+00:03:31,040 --> 00:03:32,710
+we we don't change if it's one we flip
+it but we also need to remember the
+
+168
+00:03:32,710 --> 00:03:32,720
+it but we also need to remember the
+ 
+
+169
+00:03:32,720 --> 00:03:33,509
+it but we also need to remember the
+current
+
+170
+00:03:33,509 --> 00:03:33,519
+current
+ 
+
+171
+00:03:33,519 --> 00:03:36,710
+current
+flip okay we need to have a counter
+
+172
+00:03:36,710 --> 00:03:36,720
+flip okay we need to have a counter
+ 
+
+173
+00:03:36,720 --> 00:03:40,229
+flip okay we need to have a counter
+because look because l is zero okay
+
+174
+00:03:40,229 --> 00:03:40,239
+because look because l is zero okay
+ 
+
+175
+00:03:40,239 --> 00:03:43,830
+because look because l is zero okay
+let's look at the second zero if
+
+176
+00:03:43,830 --> 00:03:43,840
+let's look at the second zero if
+ 
+
+177
+00:03:43,840 --> 00:03:46,630
+let's look at the second zero if
+we when we check this zero we already be
+
+178
+00:03:46,630 --> 00:03:46,640
+we when we check this zero we already be
+ 
+
+179
+00:03:46,640 --> 00:03:47,350
+we when we check this zero we already be
+zero
+
+180
+00:03:47,350 --> 00:03:47,360
+zero
+ 
+
+181
+00:03:47,360 --> 00:03:49,509
+zero
+no right because we already flipped one
+
+182
+00:03:49,509 --> 00:03:49,519
+no right because we already flipped one
+ 
+
+183
+00:03:49,519 --> 00:03:50,390
+no right because we already flipped one
+times
+
+184
+00:03:50,390 --> 00:03:50,400
+times
+ 
+
+185
+00:03:50,400 --> 00:03:52,630
+times
+in the first digit so when we visit this
+
+186
+00:03:52,630 --> 00:03:52,640
+in the first digit so when we visit this
+ 
+
+187
+00:03:52,640 --> 00:03:54,229
+in the first digit so when we visit this
+zero it's actually one
+
+188
+00:03:54,229 --> 00:03:54,239
+zero it's actually one
+ 
+
+189
+00:03:54,239 --> 00:03:57,190
+zero it's actually one
+right so we need to flip it again right
+
+190
+00:03:57,190 --> 00:03:57,200
+right so we need to flip it again right
+ 
+
+191
+00:03:57,200 --> 00:03:57,990
+right so we need to flip it again right
+all right
+
+192
+00:03:57,990 --> 00:03:58,000
+all right
+ 
+
+193
+00:03:58,000 --> 00:04:01,350
+all right
+so if we flip this one and for the third
+
+194
+00:04:01,350 --> 00:04:01,360
+so if we flip this one and for the third
+ 
+
+195
+00:04:01,360 --> 00:04:02,550
+so if we flip this one and for the third
+third digit
+
+196
+00:04:02,550 --> 00:04:02,560
+third digit
+ 
+
+197
+00:04:02,560 --> 00:04:05,270
+third digit
+do we do we need to flip it no because
+
+198
+00:04:05,270 --> 00:04:05,280
+do we do we need to flip it no because
+ 
+
+199
+00:04:05,280 --> 00:04:05,670
+do we do we need to flip it no because
+look
+
+200
+00:04:05,670 --> 00:04:05,680
+look
+ 
+
+201
+00:04:05,680 --> 00:04:07,670
+look
+after the third digit we are flipping
+
+202
+00:04:07,670 --> 00:04:07,680
+after the third digit we are flipping
+ 
+
+203
+00:04:07,680 --> 00:04:09,830
+after the third digit we are flipping
+two times zero flip two times
+
+204
+00:04:09,830 --> 00:04:09,840
+two times zero flip two times
+ 
+
+205
+00:04:09,840 --> 00:04:12,869
+two times zero flip two times
+is zero so we can skip that digit so in
+
+206
+00:04:12,869 --> 00:04:12,879
+is zero so we can skip that digit so in
+ 
+
+207
+00:04:12,879 --> 00:04:16,069
+is zero so we can skip that digit so in
+you know to sum up like
+
+208
+00:04:16,069 --> 00:04:16,079
+you know to sum up like
+ 
+
+209
+00:04:16,079 --> 00:04:17,909
+you know to sum up like
+when we visit we need to take
+
+210
+00:04:17,909 --> 00:04:17,919
+when we visit we need to take
+ 
+
+211
+00:04:17,919 --> 00:04:19,430
+when we visit we need to take
+consideration of account
+
+212
+00:04:19,430 --> 00:04:19,440
+consideration of account
+ 
+
+213
+00:04:19,440 --> 00:04:22,950
+consideration of account
+which is the flips we have done so far
+
+214
+00:04:22,950 --> 00:04:22,960
+which is the flips we have done so far
+ 
+
+215
+00:04:22,960 --> 00:04:24,710
+which is the flips we have done so far
+from the left to the right right
+
+216
+00:04:24,710 --> 00:04:24,720
+from the left to the right right
+ 
+
+217
+00:04:24,720 --> 00:04:27,189
+from the left to the right right
+and then going this order we can we can
+
+218
+00:04:27,189 --> 00:04:27,199
+and then going this order we can we can
+ 
+
+219
+00:04:27,199 --> 00:04:29,430
+and then going this order we can we can
+do it let's do it it should be very
+
+220
+00:04:29,430 --> 00:04:29,440
+do it let's do it it should be very
+ 
+
+221
+00:04:29,440 --> 00:04:33,510
+do it let's do it it should be very
+straightforward
+
+222
+00:04:33,510 --> 00:04:33,520
+
+ 
+
+223
+00:04:33,520 --> 00:04:36,550
+
+i'm sleepy you're sleepy yeah because
+
+224
+00:04:36,550 --> 00:04:36,560
+i'm sleepy you're sleepy yeah because
+ 
+
+225
+00:04:36,560 --> 00:04:36,950
+i'm sleepy you're sleepy yeah because
+it's
+
+226
+00:04:36,950 --> 00:04:36,960
+it's
+ 
+
+227
+00:04:36,960 --> 00:04:39,510
+it's
+too hard for you no and you get too
+
+228
+00:04:39,510 --> 00:04:39,520
+too hard for you no and you get too
+ 
+
+229
+00:04:39,520 --> 00:04:40,230
+too hard for you no and you get too
+sleepy
+
+230
+00:04:40,230 --> 00:04:40,240
+sleepy
+ 
+
+231
+00:04:40,240 --> 00:04:55,030
+sleepy
+okay
+
+232
+00:04:55,030 --> 00:04:55,040
+
+ 
+
+233
+00:04:55,040 --> 00:04:59,830
+
+what's the numbers yeah numbers nums
+
+234
+00:04:59,830 --> 00:04:59,840
+what's the numbers yeah numbers nums
+ 
+
+235
+00:04:59,840 --> 00:05:02,870
+what's the numbers yeah numbers nums
+okay so that we have this count
+
+236
+00:05:02,870 --> 00:05:02,880
+okay so that we have this count
+ 
+
+237
+00:05:02,880 --> 00:05:05,590
+okay so that we have this count
+count equals zero okay this is the
+
+238
+00:05:05,590 --> 00:05:05,600
+count equals zero okay this is the
+ 
+
+239
+00:05:05,600 --> 00:05:06,870
+count equals zero okay this is the
+number of the
+
+240
+00:05:06,870 --> 00:05:06,880
+number of the
+ 
+
+241
+00:05:06,880 --> 00:05:09,670
+number of the
+flips we have done so far so now we just
+
+242
+00:05:09,670 --> 00:05:09,680
+flips we have done so far so now we just
+ 
+
+243
+00:05:09,680 --> 00:05:09,990
+flips we have done so far so now we just
+need
+
+244
+00:05:09,990 --> 00:05:10,000
+need
+ 
+
+245
+00:05:10,000 --> 00:05:11,909
+need
+to go through how how can we go through
+
+246
+00:05:11,909 --> 00:05:11,919
+to go through how how can we go through
+ 
+
+247
+00:05:11,919 --> 00:05:13,350
+to go through how how can we go through
+the numbers
+
+248
+00:05:13,350 --> 00:05:13,360
+the numbers
+ 
+
+249
+00:05:13,360 --> 00:05:16,150
+the numbers
+how can we go through the numbers how
+
+250
+00:05:16,150 --> 00:05:16,160
+how can we go through the numbers how
+ 
+
+251
+00:05:16,160 --> 00:05:17,430
+how can we go through the numbers how
+can we go through the number from the
+
+252
+00:05:17,430 --> 00:05:17,440
+can we go through the number from the
+ 
+
+253
+00:05:17,440 --> 00:05:19,110
+can we go through the number from the
+left to the right four
+
+254
+00:05:19,110 --> 00:05:19,120
+left to the right four
+ 
+
+255
+00:05:19,120 --> 00:05:22,150
+left to the right four
+four one something in range for i
+
+256
+00:05:22,150 --> 00:05:22,160
+four one something in range for i
+ 
+
+257
+00:05:22,160 --> 00:05:24,070
+four one something in range for i
+in numbers all right we can do this
+
+258
+00:05:24,070 --> 00:05:24,080
+in numbers all right we can do this
+ 
+
+259
+00:05:24,080 --> 00:05:25,830
+in numbers all right we can do this
+directly here what side
+
+260
+00:05:25,830 --> 00:05:25,840
+directly here what side
+ 
+
+261
+00:05:25,840 --> 00:05:28,070
+directly here what side
+sorry what side what side what do you
+
+262
+00:05:28,070 --> 00:05:28,080
+sorry what side what side what do you
+ 
+
+263
+00:05:28,080 --> 00:05:29,830
+sorry what side what side what do you
+mean what's i
+
+264
+00:05:29,830 --> 00:05:29,840
+mean what's i
+ 
+
+265
+00:05:29,840 --> 00:05:32,390
+mean what's i
+i anything a number an index or can we
+
+266
+00:05:32,390 --> 00:05:32,400
+i anything a number an index or can we
+ 
+
+267
+00:05:32,400 --> 00:05:34,070
+i anything a number an index or can we
+call it whatever we want yeah
+
+268
+00:05:34,070 --> 00:05:34,080
+call it whatever we want yeah
+ 
+
+269
+00:05:34,080 --> 00:05:45,029
+call it whatever we want yeah
+yeah for n let's say for n okay for
+
+270
+00:05:45,029 --> 00:05:45,039
+
+ 
+
+271
+00:05:45,039 --> 00:05:48,150
+
+okay so now if
+
+272
+00:05:48,150 --> 00:05:48,160
+okay so now if
+ 
+
+273
+00:05:48,160 --> 00:05:51,510
+okay so now if
+if n is zero okay
+
+274
+00:05:51,510 --> 00:05:51,520
+if n is zero okay
+ 
+
+275
+00:05:51,520 --> 00:05:55,670
+if n is zero okay
+if n is yellow
+
+276
+00:05:55,670 --> 00:05:55,680
+
+ 
+
+277
+00:05:55,680 --> 00:05:59,189
+
+if n is zero but if the cloud
+
+278
+00:05:59,189 --> 00:05:59,199
+if n is zero but if the cloud
+ 
+
+279
+00:05:59,199 --> 00:06:02,309
+if n is zero but if the cloud
+is odd number right
+
+280
+00:06:02,309 --> 00:06:02,319
+is odd number right
+ 
+
+281
+00:06:02,319 --> 00:06:05,430
+is odd number right
+if cloud is all number and
+
+282
+00:06:05,430 --> 00:06:05,440
+if cloud is all number and
+ 
+
+283
+00:06:05,440 --> 00:06:08,790
+if cloud is all number and
+and count is all number let's say count
+
+284
+00:06:08,790 --> 00:06:08,800
+and count is all number let's say count
+ 
+
+285
+00:06:08,800 --> 00:06:12,390
+and count is all number let's say count
+and one is odd number so what happened
+
+286
+00:06:12,390 --> 00:06:12,400
+and one is odd number so what happened
+ 
+
+287
+00:06:12,400 --> 00:06:15,590
+and one is odd number so what happened
+in this case so if
+
+288
+00:06:15,590 --> 00:06:15,600
+in this case so if
+ 
+
+289
+00:06:15,600 --> 00:06:17,830
+in this case so if
+n is zero current is zero but we have
+
+290
+00:06:17,830 --> 00:06:17,840
+n is zero current is zero but we have
+ 
+
+291
+00:06:17,840 --> 00:06:19,029
+n is zero current is zero but we have
+flipped
+
+292
+00:06:19,029 --> 00:06:19,039
+flipped
+ 
+
+293
+00:06:19,039 --> 00:06:21,430
+flipped
+what number of times so do we need to
+
+294
+00:06:21,430 --> 00:06:21,440
+what number of times so do we need to
+ 
+
+295
+00:06:21,440 --> 00:06:22,070
+what number of times so do we need to
+flip it
+
+296
+00:06:22,070 --> 00:06:22,080
+flip it
+ 
+
+297
+00:06:22,080 --> 00:06:26,230
+flip it
+again an old number yeah
+
+298
+00:06:26,230 --> 00:06:26,240
+again an old number yeah
+ 
+
+299
+00:06:26,240 --> 00:06:29,749
+again an old number yeah
+yeah if n is zero current is zero but we
+
+300
+00:06:29,749 --> 00:06:29,759
+yeah if n is zero current is zero but we
+ 
+
+301
+00:06:29,759 --> 00:06:30,790
+yeah if n is zero current is zero but we
+fit all numbers
+
+302
+00:06:30,790 --> 00:06:30,800
+fit all numbers
+ 
+
+303
+00:06:30,800 --> 00:06:33,430
+fit all numbers
+so you become one one and do we need to
+
+304
+00:06:33,430 --> 00:06:33,440
+so you become one one and do we need to
+ 
+
+305
+00:06:33,440 --> 00:06:34,710
+so you become one one and do we need to
+flip it
+
+306
+00:06:34,710 --> 00:06:34,720
+flip it
+ 
+
+307
+00:06:34,720 --> 00:06:36,629
+flip it
+we're going to flip the zero yeah yeah
+
+308
+00:06:36,629 --> 00:06:36,639
+we're going to flip the zero yeah yeah
+ 
+
+309
+00:06:36,639 --> 00:06:38,469
+we're going to flip the zero yeah yeah
+so we want to flip
+
+310
+00:06:38,469 --> 00:06:38,479
+so we want to flip
+ 
+
+311
+00:06:38,479 --> 00:06:41,510
+so we want to flip
+yesterday oh oh what
+
+312
+00:06:41,510 --> 00:06:41,520
+yesterday oh oh what
+ 
+
+313
+00:06:41,520 --> 00:06:45,110
+yesterday oh oh what
+if a is one and can you tell me what to
+
+314
+00:06:45,110 --> 00:06:45,120
+if a is one and can you tell me what to
+ 
+
+315
+00:06:45,120 --> 00:06:46,790
+if a is one and can you tell me what to
+do here count if it's
+
+316
+00:06:46,790 --> 00:06:46,800
+do here count if it's
+ 
+
+317
+00:06:46,800 --> 00:06:50,469
+do here count if it's
+and if it's n equal or equal one
+
+318
+00:06:50,469 --> 00:06:50,479
+and if it's n equal or equal one
+ 
+
+319
+00:06:50,479 --> 00:06:55,350
+and if it's n equal or equal one
+if it's one but we have flipped
+
+320
+00:06:55,350 --> 00:06:55,360
+
+ 
+
+321
+00:06:55,360 --> 00:06:59,990
+
+odd number or even number um
+
+322
+00:06:59,990 --> 00:07:00,000
+odd number or even number um
+ 
+
+323
+00:07:00,000 --> 00:07:02,150
+odd number or even number um
+if reflect oh it becomes zero so we
+
+324
+00:07:02,150 --> 00:07:02,160
+if reflect oh it becomes zero so we
+ 
+
+325
+00:07:02,160 --> 00:07:03,749
+if reflect oh it becomes zero so we
+don't want to phrase it so if
+
+326
+00:07:03,749 --> 00:07:03,759
+don't want to phrase it so if
+ 
+
+327
+00:07:03,759 --> 00:07:06,870
+don't want to phrase it so if
+it were what
+
+328
+00:07:06,870 --> 00:07:06,880
+it were what
+ 
+
+329
+00:07:06,880 --> 00:07:10,629
+it were what
+um
+
+330
+00:07:10,629 --> 00:07:10,639
+
+ 
+
+331
+00:07:10,639 --> 00:07:12,950
+
+yeah if it's zero it means even number
+
+332
+00:07:12,950 --> 00:07:12,960
+yeah if it's zero it means even number
+ 
+
+333
+00:07:12,960 --> 00:07:15,430
+yeah if it's zero it means even number
+if we count equals if calculated is in
+
+334
+00:07:15,430 --> 00:07:15,440
+if we count equals if calculated is in
+ 
+
+335
+00:07:15,440 --> 00:07:16,150
+if we count equals if calculated is in
+one
+
+336
+00:07:16,150 --> 00:07:16,160
+one
+ 
+
+337
+00:07:16,160 --> 00:07:19,350
+one
+but we flip even number of times so
+
+338
+00:07:19,350 --> 00:07:19,360
+but we flip even number of times so
+ 
+
+339
+00:07:19,360 --> 00:07:23,110
+but we flip even number of times so
+it means still one right i'm right
+
+340
+00:07:23,110 --> 00:07:23,120
+it means still one right i'm right
+ 
+
+341
+00:07:23,120 --> 00:07:26,629
+it means still one right i'm right
+now we want to flip it yeah okay
+
+342
+00:07:26,629 --> 00:07:26,639
+now we want to flip it yeah okay
+ 
+
+343
+00:07:26,639 --> 00:07:34,309
+now we want to flip it yeah okay
+now we do what
+
+344
+00:07:34,309 --> 00:07:34,319
+
+ 
+
+345
+00:07:34,319 --> 00:07:36,230
+
+we want to flip so what happened to the
+
+346
+00:07:36,230 --> 00:07:36,240
+we want to flip so what happened to the
+ 
+
+347
+00:07:36,240 --> 00:07:40,070
+we want to flip so what happened to the
+car
+
+348
+00:07:40,070 --> 00:07:40,080
+
+ 
+
+349
+00:07:40,080 --> 00:07:45,420
+
+yeah and we can
+
+350
+00:07:45,420 --> 00:07:45,430
+yeah and we can
+ 
+
+351
+00:07:45,430 --> 00:07:51,270
+yeah and we can
+[Music]
+
+352
+00:07:51,270 --> 00:07:51,280
+
+ 
+
+353
+00:07:51,280 --> 00:07:52,869
+
+what are we doing here we are counting
+
+354
+00:07:52,869 --> 00:07:52,879
+what are we doing here we are counting
+ 
+
+355
+00:07:52,879 --> 00:07:54,309
+what are we doing here we are counting
+how many what
+
+356
+00:07:54,309 --> 00:07:54,319
+how many what
+ 
+
+357
+00:07:54,319 --> 00:08:11,510
+how many what
+counting return what
+
+358
+00:08:11,510 --> 00:08:11,520
+
+ 
+
+359
+00:08:11,520 --> 00:08:14,390
+
+okay huh that doesn't make sense this is
+
+360
+00:08:14,390 --> 00:08:14,400
+okay huh that doesn't make sense this is
+ 
+
+361
+00:08:14,400 --> 00:08:15,670
+okay huh that doesn't make sense this is
+the number of count we
+
+362
+00:08:15,670 --> 00:08:15,680
+the number of count we
+ 
+
+363
+00:08:15,680 --> 00:08:18,790
+the number of count we
+flip the number of flips so when
+
+364
+00:08:18,790 --> 00:08:18,800
+flip the number of flips so when
+ 
+
+365
+00:08:18,800 --> 00:08:21,670
+flip the number of flips so when
+it's current digit look all right so
+
+366
+00:08:21,670 --> 00:08:21,680
+it's current digit look all right so
+ 
+
+367
+00:08:21,680 --> 00:08:22,869
+it's current digit look all right so
+look at zero
+
+368
+00:08:22,869 --> 00:08:22,879
+look at zero
+ 
+
+369
+00:08:22,879 --> 00:08:25,670
+look at zero
+and we're looking for one and one with 0
+
+370
+00:08:25,670 --> 00:08:25,680
+and we're looking for one and one with 0
+ 
+
+371
+00:08:25,680 --> 00:08:27,110
+and we're looking for one and one with 0
+so what does it mean look
+
+372
+00:08:27,110 --> 00:08:27,120
+so what does it mean look
+ 
+
+373
+00:08:27,120 --> 00:08:32,550
+so what does it mean look
+0 something 1 equals
+
+374
+00:08:32,550 --> 00:08:32,560
+
+ 
+
+375
+00:08:32,560 --> 00:08:36,230
+
+1 equals 1 and 1
+
+376
+00:08:36,230 --> 00:08:36,240
+1 equals 1 and 1
+ 
+
+377
+00:08:36,240 --> 00:08:38,389
+1 equals 1 and 1
+0 we're looking for these two cases 0 1
+
+378
+00:08:38,389 --> 00:08:38,399
+0 we're looking for these two cases 0 1
+ 
+
+379
+00:08:38,399 --> 00:08:40,149
+0 we're looking for these two cases 0 1
+1 0. so can you tell me what kind of
+
+380
+00:08:40,149 --> 00:08:40,159
+1 0. so can you tell me what kind of
+ 
+
+381
+00:08:40,159 --> 00:08:41,430
+1 0. so can you tell me what kind of
+operation the pit
+
+382
+00:08:41,430 --> 00:08:41,440
+operation the pit
+ 
+
+383
+00:08:41,440 --> 00:08:43,990
+operation the pit
+operation are we looking for zero one
+
+384
+00:08:43,990 --> 00:08:44,000
+operation are we looking for zero one
+ 
+
+385
+00:08:44,000 --> 00:08:46,550
+operation are we looking for zero one
+one zero if they are different
+
+386
+00:08:46,550 --> 00:08:46,560
+one zero if they are different
+ 
+
+387
+00:08:46,560 --> 00:08:49,590
+one zero if they are different
+what do we call it yeah
+
+388
+00:08:49,590 --> 00:08:49,600
+what do we call it yeah
+ 
+
+389
+00:08:49,600 --> 00:08:53,670
+what do we call it yeah
+exclusive or or to this yes i got
+
+390
+00:08:53,670 --> 00:08:53,680
+exclusive or or to this yes i got
+ 
+
+391
+00:08:53,680 --> 00:08:56,310
+exclusive or or to this yes i got
+this is symbol of above six so we can
+
+392
+00:08:56,310 --> 00:08:56,320
+this is symbol of above six so we can
+ 
+
+393
+00:08:56,320 --> 00:08:57,670
+this is symbol of above six so we can
+just do this
+
+394
+00:08:57,670 --> 00:08:57,680
+just do this
+ 
+
+395
+00:08:57,680 --> 00:08:59,990
+just do this
+we can just do this this one we can just
+
+396
+00:08:59,990 --> 00:09:00,000
+we can just do this this one we can just
+ 
+
+397
+00:09:00,000 --> 00:09:00,790
+we can just do this this one we can just
+erase it
+
+398
+00:09:00,790 --> 00:09:00,800
+erase it
+ 
+
+399
+00:09:00,800 --> 00:09:04,310
+erase it
+and we can we can change this to
+
+400
+00:09:04,310 --> 00:09:04,320
+and we can we can change this to
+ 
+
+401
+00:09:04,320 --> 00:09:08,870
+and we can we can change this to
+n exclusive cow
+
+402
+00:09:08,870 --> 00:09:08,880
+n exclusive cow
+ 
+
+403
+00:09:08,880 --> 00:09:12,070
+n exclusive cow
+and one right if this
+
+404
+00:09:12,070 --> 00:09:12,080
+and one right if this
+ 
+
+405
+00:09:12,080 --> 00:09:14,630
+and one right if this
+that's it and then count plus equals one
+
+406
+00:09:14,630 --> 00:09:14,640
+that's it and then count plus equals one
+ 
+
+407
+00:09:14,640 --> 00:09:15,350
+that's it and then count plus equals one
+right
+
+408
+00:09:15,350 --> 00:09:15,360
+right
+ 
+
+409
+00:09:15,360 --> 00:09:18,310
+right
+yeah got it yeah equal equal one
+
+410
+00:09:18,310 --> 00:09:18,320
+yeah got it yeah equal equal one
+ 
+
+411
+00:09:18,320 --> 00:09:19,030
+yeah got it yeah equal equal one
+actually
+
+412
+00:09:19,030 --> 00:09:19,040
+actually
+ 
+
+413
+00:09:19,040 --> 00:09:21,750
+actually
+equal equal one but we can we can we can
+
+414
+00:09:21,750 --> 00:09:21,760
+equal equal one but we can we can we can
+ 
+
+415
+00:09:21,760 --> 00:09:23,030
+equal equal one but we can we can we can
+just
+
+416
+00:09:23,030 --> 00:09:23,040
+just
+ 
+
+417
+00:09:23,040 --> 00:09:27,110
+just
+ignore uh just just uh make it simple
+
+418
+00:09:27,110 --> 00:09:27,120
+ignore uh just just uh make it simple
+ 
+
+419
+00:09:27,120 --> 00:09:30,310
+ignore uh just just uh make it simple
+okay all right does it make sense
+
+420
+00:09:30,310 --> 00:09:30,320
+okay all right does it make sense
+ 
+
+421
+00:09:30,320 --> 00:09:33,670
+okay all right does it make sense
+yeah no that's it
+
+422
+00:09:33,670 --> 00:09:33,680
+yeah no that's it
+ 
+
+423
+00:09:33,680 --> 00:09:37,350
+yeah no that's it
+these two can be simplified by this
+
+424
+00:09:37,350 --> 00:09:37,360
+these two can be simplified by this
+ 
+
+425
+00:09:37,360 --> 00:09:39,430
+these two can be simplified by this
+yeah because actually we are looking for
+
+426
+00:09:39,430 --> 00:09:39,440
+yeah because actually we are looking for
+ 
+
+427
+00:09:39,440 --> 00:09:41,269
+yeah because actually we are looking for
+different signs zero and one
+
+428
+00:09:41,269 --> 00:09:41,279
+different signs zero and one
+ 
+
+429
+00:09:41,279 --> 00:09:43,670
+different signs zero and one
+one and zero okay so it's basically the
+
+430
+00:09:43,670 --> 00:09:43,680
+one and zero okay so it's basically the
+ 
+
+431
+00:09:43,680 --> 00:09:44,630
+one and zero okay so it's basically the
+exclusive off
+
+432
+00:09:44,630 --> 00:09:44,640
+exclusive off
+ 
+
+433
+00:09:44,640 --> 00:09:48,829
+exclusive off
+okay what's the time complexity
+
+434
+00:09:48,829 --> 00:09:48,839
+
+ 
+
+435
+00:09:48,839 --> 00:10:09,910
+
+oh
+
+436
+00:10:09,910 --> 00:10:09,920
+
+ 
+
+437
+00:10:09,920 --> 00:10:13,190
+
+because we're not using any uh linear
+
+438
+00:10:13,190 --> 00:10:13,200
+because we're not using any uh linear
+ 
+
+439
+00:10:13,200 --> 00:10:15,350
+because we're not using any uh linear
+addition space yeah we're just using one
+
+440
+00:10:15,350 --> 00:10:15,360
+addition space yeah we're just using one
+ 
+
+441
+00:10:15,360 --> 00:10:16,310
+addition space yeah we're just using one
+variable
+
+442
+00:10:16,310 --> 00:10:16,320
+variable
+ 
+
+443
+00:10:16,320 --> 00:10:18,790
+variable
+yeah got it okay so i'm going to erase
+
+444
+00:10:18,790 --> 00:10:18,800
+yeah got it okay so i'm going to erase
+ 
+
+445
+00:10:18,800 --> 00:10:20,949
+yeah got it okay so i'm going to erase
+this piece okay so can you tell me
+
+446
+00:10:20,949 --> 00:10:20,959
+this piece okay so can you tell me
+ 
+
+447
+00:10:20,959 --> 00:10:23,430
+this piece okay so can you tell me
+okay if n equals if current digit is
+
+448
+00:10:23,430 --> 00:10:23,440
+okay if n equals if current digit is
+ 
+
+449
+00:10:23,440 --> 00:10:24,710
+okay if n equals if current digit is
+zero and what
+
+450
+00:10:24,710 --> 00:10:24,720
+zero and what
+ 
+
+451
+00:10:24,720 --> 00:10:27,350
+zero and what
+i if currently this is one you know what
+
+452
+00:10:27,350 --> 00:10:27,360
+i if currently this is one you know what
+ 
+
+453
+00:10:27,360 --> 00:10:28,389
+i if currently this is one you know what
+and this is all
+
+454
+00:10:28,389 --> 00:10:28,399
+and this is all
+ 
+
+455
+00:10:28,399 --> 00:10:30,550
+and this is all
+okay okay i'll make it simple for you
+
+456
+00:10:30,550 --> 00:10:30,560
+okay okay i'll make it simple for you
+ 
+
+457
+00:10:30,560 --> 00:10:32,230
+okay okay i'll make it simple for you
+come on
+
+458
+00:10:32,230 --> 00:10:32,240
+come on
+ 
+
+459
+00:10:32,240 --> 00:10:33,990
+come on
+okay so you just need to tell me what
+
+460
+00:10:33,990 --> 00:10:34,000
+okay so you just need to tell me what
+ 
+
+461
+00:10:34,000 --> 00:10:35,430
+okay so you just need to tell me what
+they did well these two
+
+462
+00:10:35,430 --> 00:10:35,440
+they did well these two
+ 
+
+463
+00:10:35,440 --> 00:10:39,269
+they did well these two
+if current digit is yellow and what
+
+464
+00:10:39,269 --> 00:10:39,279
+if current digit is yellow and what
+ 
+
+465
+00:10:39,279 --> 00:10:42,389
+if current digit is yellow and what
+what to do with the count okay yeah all
+
+466
+00:10:42,389 --> 00:10:42,399
+what to do with the count okay yeah all
+ 
+
+467
+00:10:42,399 --> 00:10:43,590
+what to do with the count okay yeah all
+right
+
+468
+00:10:43,590 --> 00:10:43,600
+right
+ 
+
+469
+00:10:43,600 --> 00:10:47,910
+right
+okay we do it yeah
+
+470
+00:10:47,910 --> 00:10:47,920
+okay we do it yeah
+ 
+
+471
+00:10:47,920 --> 00:11:25,980
+okay we do it yeah
+okay come on faster
+
+472
+00:11:25,980 --> 00:11:25,990
+
+ 
+
+473
+00:11:25,990 --> 00:11:54,230
+
+[Music]
+
+474
+00:11:54,230 --> 00:11:54,240
+
+ 
+
+475
+00:11:54,240 --> 00:12:08,230
+
+and come on
+
+476
+00:12:08,230 --> 00:12:08,240
+
+ 
+
+477
+00:12:08,240 --> 00:12:22,829
+
+me now
+
+478
+00:12:22,829 --> 00:12:22,839
+
+ 
+
+479
+00:12:22,839 --> 00:12:35,509
+
+sneaky
+
+480
+00:12:35,509 --> 00:12:35,519
+
+ 
+
+481
+00:12:35,519 --> 00:12:38,790
+
+and then what's next
+
+482
+00:12:38,790 --> 00:12:38,800
+and then what's next
+ 
+
+483
+00:12:38,800 --> 00:12:41,829
+and then what's next
+i know what's the next one if we
+
+484
+00:12:41,829 --> 00:12:41,839
+i know what's the next one if we
+ 
+
+485
+00:12:41,839 --> 00:12:43,590
+i know what's the next one if we
+currently there is one and
+
+486
+00:12:43,590 --> 00:12:43,600
+currently there is one and
+ 
+
+487
+00:12:43,600 --> 00:12:47,430
+currently there is one and
+we we flipping we flipping one
+
+488
+00:12:47,430 --> 00:12:47,440
+we we flipping we flipping one
+ 
+
+489
+00:12:47,440 --> 00:12:53,350
+we we flipping we flipping one
+or even number ten right one because
+
+490
+00:12:53,350 --> 00:12:53,360
+or even number ten right one because
+ 
+
+491
+00:12:53,360 --> 00:12:55,670
+or even number ten right one because
+yeah that's it does it make sense can
+
+492
+00:12:55,670 --> 00:12:55,680
+yeah that's it does it make sense can
+ 
+
+493
+00:12:55,680 --> 00:12:57,030
+yeah that's it does it make sense can
+you explain to me one more time what's
+
+494
+00:12:57,030 --> 00:12:57,040
+you explain to me one more time what's
+ 
+
+495
+00:12:57,040 --> 00:12:57,910
+you explain to me one more time what's
+this mean
+
+496
+00:12:57,910 --> 00:12:57,920
+this mean
+ 
+
+497
+00:12:57,920 --> 00:13:01,350
+this mean
+it means if we flip this
+
+498
+00:13:01,350 --> 00:13:01,360
+it means if we flip this
+ 
+
+499
+00:13:01,360 --> 00:13:05,269
+it means if we flip this
+number if this current digit is zero and
+
+500
+00:13:05,269 --> 00:13:05,279
+number if this current digit is zero and
+ 
+
+501
+00:13:05,279 --> 00:13:05,990
+number if this current digit is zero and
+we're flipping
+
+502
+00:13:05,990 --> 00:13:06,000
+we're flipping
+ 
+
+503
+00:13:06,000 --> 00:13:08,310
+we're flipping
+all number of times yeah we need to flip
+
+504
+00:13:08,310 --> 00:13:08,320
+all number of times yeah we need to flip
+ 
+
+505
+00:13:08,320 --> 00:13:10,230
+all number of times yeah we need to flip
+it again
+
+506
+00:13:10,230 --> 00:13:10,240
+it again
+ 
+
+507
+00:13:10,240 --> 00:13:12,629
+it again
+and then we need to flip it back to zero
+
+508
+00:13:12,629 --> 00:13:12,639
+and then we need to flip it back to zero
+ 
+
+509
+00:13:12,639 --> 00:13:14,629
+and then we need to flip it back to zero
+okay
+
+510
+00:13:14,629 --> 00:13:14,639
+okay
+ 
+
+511
+00:13:14,639 --> 00:13:17,670
+okay
+if n equals one and count eight
+
+512
+00:13:17,670 --> 00:13:17,680
+if n equals one and count eight
+ 
+
+513
+00:13:17,680 --> 00:13:29,910
+if n equals one and count eight
+and one equals zero
+
+514
+00:13:29,910 --> 00:13:29,920
+
+ 
+
+515
+00:13:29,920 --> 00:13:33,760
+
+oh yeah oh yeah
+

@@ -1,0 +1,2805 @@
+1
+00:00:00,000 --> 00:00:04,950
+
+hello hello mr mr ryan i go right
+
+2
+00:00:04,950 --> 00:00:04,960
+hello hello mr mr ryan i go right
+ 
+
+3
+00:00:04,960 --> 00:00:06,630
+hello hello mr mr ryan i go right
+so today we talk about removing the
+
+4
+00:00:06,630 --> 00:00:06,640
+so today we talk about removing the
+ 
+
+5
+00:00:06,640 --> 00:00:08,790
+so today we talk about removing the
+elements in the array okay removing the
+
+6
+00:00:08,790 --> 00:00:08,800
+elements in the array okay removing the
+ 
+
+7
+00:00:08,800 --> 00:00:13,669
+elements in the array okay removing the
+elements anyway
+
+8
+00:00:13,669 --> 00:00:13,679
+
+ 
+
+9
+00:00:13,679 --> 00:00:16,470
+
+so given a number a list of numbers one
+
+10
+00:00:16,470 --> 00:00:16,480
+so given a number a list of numbers one
+ 
+
+11
+00:00:16,480 --> 00:00:16,870
+so given a number a list of numbers one
+two
+
+12
+00:00:16,870 --> 00:00:16,880
+two
+ 
+
+13
+00:00:16,880 --> 00:00:20,390
+two
+two two
+
+14
+00:00:20,390 --> 00:00:20,400
+two two
+ 
+
+15
+00:00:20,400 --> 00:00:24,230
+two two
+three four five
+
+16
+00:00:24,230 --> 00:00:24,240
+three four five
+ 
+
+17
+00:00:24,240 --> 00:00:26,630
+three four five
+okay so i given a list of numbers and
+
+18
+00:00:26,630 --> 00:00:26,640
+okay so i given a list of numbers and
+ 
+
+19
+00:00:26,640 --> 00:00:28,390
+okay so i given a list of numbers and
+then i want you to remove
+
+20
+00:00:28,390 --> 00:00:28,400
+then i want you to remove
+ 
+
+21
+00:00:28,400 --> 00:00:30,790
+then i want you to remove
+a target target let's say target equals
+
+22
+00:00:30,790 --> 00:00:30,800
+a target target let's say target equals
+ 
+
+23
+00:00:30,800 --> 00:00:31,589
+a target target let's say target equals
+two
+
+24
+00:00:31,589 --> 00:00:31,599
+two
+ 
+
+25
+00:00:31,599 --> 00:00:34,549
+two
+in place what's in place what does this
+
+26
+00:00:34,549 --> 00:00:34,559
+in place what's in place what does this
+ 
+
+27
+00:00:34,559 --> 00:00:37,030
+in place what's in place what does this
+implies mean
+
+28
+00:00:37,030 --> 00:00:37,040
+implies mean
+ 
+
+29
+00:00:37,040 --> 00:00:39,910
+implies mean
+in place what's impressive it may it
+
+30
+00:00:39,910 --> 00:00:39,920
+in place what's impressive it may it
+ 
+
+31
+00:00:39,920 --> 00:00:40,310
+in place what's impressive it may it
+means
+
+32
+00:00:40,310 --> 00:00:40,320
+means
+ 
+
+33
+00:00:40,320 --> 00:00:43,430
+means
+it's in place what's in place
+
+34
+00:00:43,430 --> 00:00:43,440
+it's in place what's in place
+ 
+
+35
+00:00:43,440 --> 00:00:47,110
+it's in place what's in place
+in place means in place i know but can
+
+36
+00:00:47,110 --> 00:00:47,120
+in place means in place i know but can
+ 
+
+37
+00:00:47,120 --> 00:00:49,910
+in place means in place i know but can
+you describe it using other words
+
+38
+00:00:49,910 --> 00:00:49,920
+you describe it using other words
+ 
+
+39
+00:00:49,920 --> 00:00:53,029
+you describe it using other words
+oh it's in the right place can you
+
+40
+00:00:53,029 --> 00:00:53,039
+oh it's in the right place can you
+ 
+
+41
+00:00:53,039 --> 00:00:55,110
+oh it's in the right place can you
+describe it without using the in
+
+42
+00:00:55,110 --> 00:00:55,120
+describe it without using the in
+ 
+
+43
+00:00:55,120 --> 00:01:04,930
+describe it without using the in
+and place
+
+44
+00:01:04,930 --> 00:01:04,940
+
+ 
+
+45
+00:01:04,940 --> 00:01:11,030
+
+[Music]
+
+46
+00:01:11,030 --> 00:01:11,040
+
+ 
+
+47
+00:01:11,040 --> 00:01:13,750
+
+without creating additional space right
+
+48
+00:01:13,750 --> 00:01:13,760
+without creating additional space right
+ 
+
+49
+00:01:13,760 --> 00:01:15,109
+without creating additional space right
+now okay that's what it means
+
+50
+00:01:15,109 --> 00:01:15,119
+now okay that's what it means
+ 
+
+51
+00:01:15,119 --> 00:01:17,830
+now okay that's what it means
+in place and where it goes so i want to
+
+52
+00:01:17,830 --> 00:01:17,840
+in place and where it goes so i want to
+ 
+
+53
+00:01:17,840 --> 00:01:18,950
+in place and where it goes so i want to
+remove that too
+
+54
+00:01:18,950 --> 00:01:18,960
+remove that too
+ 
+
+55
+00:01:18,960 --> 00:01:22,870
+remove that too
+i want to remove that tool right
+
+56
+00:01:22,870 --> 00:01:22,880
+
+ 
+
+57
+00:01:22,880 --> 00:01:26,070
+
+okay so i want to remove two and now i
+
+58
+00:01:26,070 --> 00:01:26,080
+okay so i want to remove two and now i
+ 
+
+59
+00:01:26,080 --> 00:01:27,030
+okay so i want to remove two and now i
+don't want to create
+
+60
+00:01:27,030 --> 00:01:27,040
+don't want to create
+ 
+
+61
+00:01:27,040 --> 00:01:29,190
+don't want to create
+an additional copy of it all of this
+
+62
+00:01:29,190 --> 00:01:29,200
+an additional copy of it all of this
+ 
+
+63
+00:01:29,200 --> 00:01:31,109
+an additional copy of it all of this
+array okay
+
+64
+00:01:31,109 --> 00:01:31,119
+array okay
+ 
+
+65
+00:01:31,119 --> 00:01:33,109
+array okay
+that gives me an idea just going through
+
+66
+00:01:33,109 --> 00:01:33,119
+that gives me an idea just going through
+ 
+
+67
+00:01:33,119 --> 00:01:34,630
+that gives me an idea just going through
+everything i just crossed
+
+68
+00:01:34,630 --> 00:01:34,640
+everything i just crossed
+ 
+
+69
+00:01:34,640 --> 00:01:37,910
+everything i just crossed
+through the ones with a target yes okay
+
+70
+00:01:37,910 --> 00:01:37,920
+through the ones with a target yes okay
+ 
+
+71
+00:01:37,920 --> 00:01:38,390
+through the ones with a target yes okay
+so now
+
+72
+00:01:38,390 --> 00:01:38,400
+so now
+ 
+
+73
+00:01:38,400 --> 00:01:42,069
+so now
+let's one four three four
+
+74
+00:01:42,069 --> 00:01:42,079
+let's one four three four
+ 
+
+75
+00:01:42,079 --> 00:01:46,069
+let's one four three four
+five six seven eight nine okay
+
+76
+00:01:46,069 --> 00:01:46,079
+five six seven eight nine okay
+ 
+
+77
+00:01:46,079 --> 00:01:48,710
+five six seven eight nine okay
+and then there are three three you can
+
+78
+00:01:48,710 --> 00:01:48,720
+and then there are three three you can
+ 
+
+79
+00:01:48,720 --> 00:01:49,350
+and then there are three three you can
+put the
+
+80
+00:01:49,350 --> 00:01:49,360
+put the
+ 
+
+81
+00:01:49,360 --> 00:01:51,350
+put the
+numbers at the end right or we don't
+
+82
+00:01:51,350 --> 00:01:51,360
+numbers at the end right or we don't
+ 
+
+83
+00:01:51,360 --> 00:01:53,350
+numbers at the end right or we don't
+care about all the numbers at the end of
+
+84
+00:01:53,350 --> 00:01:53,360
+care about all the numbers at the end of
+ 
+
+85
+00:01:53,360 --> 00:01:54,630
+care about all the numbers at the end of
+this point
+
+86
+00:01:54,630 --> 00:01:54,640
+this point
+ 
+
+87
+00:01:54,640 --> 00:01:56,870
+this point
+right yeah so what you need to tell me
+
+88
+00:01:56,870 --> 00:01:56,880
+right yeah so what you need to tell me
+ 
+
+89
+00:01:56,880 --> 00:01:58,469
+right yeah so what you need to tell me
+is one two three four five
+
+90
+00:01:58,469 --> 00:01:58,479
+is one two three four five
+ 
+
+91
+00:01:58,479 --> 00:02:02,230
+is one two three four five
+after five right
+
+92
+00:02:02,230 --> 00:02:02,240
+after five right
+ 
+
+93
+00:02:02,240 --> 00:02:04,630
+after five right
+what what is this function return is you
+
+94
+00:02:04,630 --> 00:02:04,640
+what what is this function return is you
+ 
+
+95
+00:02:04,640 --> 00:02:05,590
+what what is this function return is you
+need to tell me the
+
+96
+00:02:05,590 --> 00:02:05,600
+need to tell me the
+ 
+
+97
+00:02:05,600 --> 00:02:07,590
+need to tell me the
+new lead the length of the new list
+
+98
+00:02:07,590 --> 00:02:07,600
+new lead the length of the new list
+ 
+
+99
+00:02:07,600 --> 00:02:09,510
+new lead the length of the new list
+after removing the target
+
+100
+00:02:09,510 --> 00:02:09,520
+after removing the target
+ 
+
+101
+00:02:09,520 --> 00:02:13,430
+after removing the target
+so there are two four six eight eight
+
+102
+00:02:13,430 --> 00:02:13,440
+so there are two four six eight eight
+ 
+
+103
+00:02:13,440 --> 00:02:15,589
+so there are two four six eight eight
+numbers in the array and then there are
+
+104
+00:02:15,589 --> 00:02:15,599
+numbers in the array and then there are
+ 
+
+105
+00:02:15,599 --> 00:02:17,350
+numbers in the array and then there are
+three targets to remove
+
+106
+00:02:17,350 --> 00:02:17,360
+three targets to remove
+ 
+
+107
+00:02:17,360 --> 00:02:19,910
+three targets to remove
+okay yeah i know what happened after we
+
+108
+00:02:19,910 --> 00:02:19,920
+okay yeah i know what happened after we
+ 
+
+109
+00:02:19,920 --> 00:02:26,630
+okay yeah i know what happened after we
+removed three
+
+110
+00:02:26,630 --> 00:02:26,640
+
+ 
+
+111
+00:02:26,640 --> 00:02:29,589
+
+[Music]
+
+112
+00:02:29,589 --> 00:02:29,599
+[Music]
+ 
+
+113
+00:02:29,599 --> 00:02:33,190
+[Music]
+okay so any idea how to win this oh
+
+114
+00:02:33,190 --> 00:02:33,200
+okay so any idea how to win this oh
+ 
+
+115
+00:02:33,200 --> 00:02:49,110
+okay so any idea how to win this oh
+the one i just told you
+
+116
+00:02:49,110 --> 00:02:49,120
+
+ 
+
+117
+00:02:49,120 --> 00:02:53,670
+
+we we first look through the element and
+
+118
+00:02:53,670 --> 00:02:53,680
+we we first look through the element and
+ 
+
+119
+00:02:53,680 --> 00:02:56,630
+we we first look through the element and
+find the target and then you and then
+
+120
+00:02:56,630 --> 00:02:56,640
+find the target and then you and then
+ 
+
+121
+00:02:56,640 --> 00:02:58,229
+find the target and then you and then
+you use the two and put it
+
+122
+00:02:58,229 --> 00:02:58,239
+you use the two and put it
+ 
+
+123
+00:02:58,239 --> 00:03:01,509
+you use the two and put it
+and you go to the end and swap it where
+
+124
+00:03:01,509 --> 00:03:01,519
+and you go to the end and swap it where
+ 
+
+125
+00:03:01,519 --> 00:03:02,790
+and you go to the end and swap it where
+that okay so look at that
+
+126
+00:03:02,790 --> 00:03:02,800
+that okay so look at that
+ 
+
+127
+00:03:02,800 --> 00:03:05,110
+that okay so look at that
+keep on going keep on going yeah yeah
+
+128
+00:03:05,110 --> 00:03:05,120
+keep on going keep on going yeah yeah
+ 
+
+129
+00:03:05,120 --> 00:03:06,309
+keep on going keep on going yeah yeah
+okay let's do this
+
+130
+00:03:06,309 --> 00:03:06,319
+okay let's do this
+ 
+
+131
+00:03:06,319 --> 00:03:09,509
+okay let's do this
+look let's do this okay uh
+
+132
+00:03:09,509 --> 00:03:09,519
+look let's do this okay uh
+ 
+
+133
+00:03:09,519 --> 00:03:12,630
+look let's do this okay uh
+two two two okay let's say two two
+
+134
+00:03:12,630 --> 00:03:12,640
+two two two okay let's say two two
+ 
+
+135
+00:03:12,640 --> 00:03:15,350
+two two two okay let's say two two
+two okay so i'm pointed at here right
+
+136
+00:03:15,350 --> 00:03:15,360
+two okay so i'm pointed at here right
+ 
+
+137
+00:03:15,360 --> 00:03:16,550
+two okay so i'm pointed at here right
+that's the right pointer
+
+138
+00:03:16,550 --> 00:03:16,560
+that's the right pointer
+ 
+
+139
+00:03:16,560 --> 00:03:18,470
+that's the right pointer
+right hand right hand pointer okay and
+
+140
+00:03:18,470 --> 00:03:18,480
+right hand right hand pointer okay and
+ 
+
+141
+00:03:18,480 --> 00:03:20,790
+right hand right hand pointer okay and
+then i'm left hand pointed yeah
+
+142
+00:03:20,790 --> 00:03:20,800
+then i'm left hand pointed yeah
+ 
+
+143
+00:03:20,800 --> 00:03:23,110
+then i'm left hand pointed yeah
+okay left hand pointer is one it's not
+
+144
+00:03:23,110 --> 00:03:23,120
+okay left hand pointer is one it's not
+ 
+
+145
+00:03:23,120 --> 00:03:25,430
+okay left hand pointer is one it's not
+the target we are looking for let's try
+
+146
+00:03:25,430 --> 00:03:25,440
+the target we are looking for let's try
+ 
+
+147
+00:03:25,440 --> 00:03:28,470
+the target we are looking for let's try
+two okay so what happened in this case
+
+148
+00:03:28,470 --> 00:03:28,480
+two okay so what happened in this case
+ 
+
+149
+00:03:28,480 --> 00:03:33,030
+two okay so what happened in this case
+we scoop it sloping with five
+
+150
+00:03:33,030 --> 00:03:33,040
+we scoop it sloping with five
+ 
+
+151
+00:03:33,040 --> 00:03:35,750
+we scoop it sloping with five
+with r here all right okay so we swap it
+
+152
+00:03:35,750 --> 00:03:35,760
+with r here all right okay so we swap it
+ 
+
+153
+00:03:35,760 --> 00:03:37,830
+with r here all right okay so we swap it
+we swap it what happens so this
+
+154
+00:03:37,830 --> 00:03:37,840
+we swap it what happens so this
+ 
+
+155
+00:03:37,840 --> 00:03:41,589
+we swap it what happens so this
+i swap it so when after i swap it i know
+
+156
+00:03:41,589 --> 00:03:41,599
+i swap it so when after i swap it i know
+ 
+
+157
+00:03:41,599 --> 00:03:44,789
+i swap it so when after i swap it i know
+the value and the pointer right hand is
+
+158
+00:03:44,789 --> 00:03:44,799
+the value and the pointer right hand is
+ 
+
+159
+00:03:44,799 --> 00:03:46,070
+the value and the pointer right hand is
+the one we don't want
+
+160
+00:03:46,070 --> 00:03:46,080
+the one we don't want
+ 
+
+161
+00:03:46,080 --> 00:03:49,430
+the one we don't want
+it right so we can decrement one right
+
+162
+00:03:49,430 --> 00:03:49,440
+it right so we can decrement one right
+ 
+
+163
+00:03:49,440 --> 00:03:51,110
+it right so we can decrement one right
+all right so what what should we do with
+
+164
+00:03:51,110 --> 00:03:51,120
+all right so what what should we do with
+ 
+
+165
+00:03:51,120 --> 00:03:54,229
+all right so what what should we do with
+the uh after we swap it
+
+166
+00:03:54,229 --> 00:03:54,239
+the uh after we swap it
+ 
+
+167
+00:03:54,239 --> 00:03:57,670
+the uh after we swap it
+i just say this yeah okay so look
+
+168
+00:03:57,670 --> 00:03:57,680
+i just say this yeah okay so look
+ 
+
+169
+00:03:57,680 --> 00:04:01,270
+i just say this yeah okay so look
+i swap it here five two
+
+170
+00:04:01,270 --> 00:04:01,280
+i swap it here five two
+ 
+
+171
+00:04:01,280 --> 00:04:04,390
+i swap it here five two
+so this is the number we want to just
+
+172
+00:04:04,390 --> 00:04:04,400
+so this is the number we want to just
+ 
+
+173
+00:04:04,400 --> 00:04:07,429
+so this is the number we want to just
+discard right so we decrement the
+
+174
+00:04:07,429 --> 00:04:07,439
+discard right so we decrement the
+ 
+
+175
+00:04:07,439 --> 00:04:08,789
+discard right so we decrement the
+counter here
+
+176
+00:04:08,789 --> 00:04:08,799
+counter here
+ 
+
+177
+00:04:08,799 --> 00:04:12,470
+counter here
+and then five yeah
+
+178
+00:04:12,470 --> 00:04:12,480
+and then five yeah
+ 
+
+179
+00:04:12,480 --> 00:04:14,869
+and then five yeah
+five okay we're going to keep it aside
+
+180
+00:04:14,869 --> 00:04:14,879
+five okay we're going to keep it aside
+ 
+
+181
+00:04:14,879 --> 00:04:16,469
+five okay we're going to keep it aside
+two what happened can you tell me
+
+182
+00:04:16,469 --> 00:04:16,479
+two what happened can you tell me
+ 
+
+183
+00:04:16,479 --> 00:04:19,630
+two what happened can you tell me
+whatever
+
+184
+00:04:19,630 --> 00:04:19,640
+
+ 
+
+185
+00:04:19,640 --> 00:04:24,150
+
+[Music]
+
+186
+00:04:24,150 --> 00:04:24,160
+
+ 
+
+187
+00:04:24,160 --> 00:04:26,830
+
+here are here right so swap it so right
+
+188
+00:04:26,830 --> 00:04:26,840
+here are here right so swap it so right
+ 
+
+189
+00:04:26,840 --> 00:04:29,590
+here are here right so swap it so right
+here four
+
+190
+00:04:29,590 --> 00:04:29,600
+here four
+ 
+
+191
+00:04:29,600 --> 00:04:33,110
+here four
+two and then x and then i i need to
+
+192
+00:04:33,110 --> 00:04:33,120
+two and then x and then i i need to
+ 
+
+193
+00:04:33,120 --> 00:04:38,390
+two and then x and then i i need to
+decrement here and then four and one
+
+194
+00:04:38,390 --> 00:04:38,400
+decrement here and then four and one
+ 
+
+195
+00:04:38,400 --> 00:04:41,510
+decrement here and then four and one
+target i swapping with this number yeah
+
+196
+00:04:41,510 --> 00:04:41,520
+target i swapping with this number yeah
+ 
+
+197
+00:04:41,520 --> 00:04:42,230
+target i swapping with this number yeah
+the three
+
+198
+00:04:42,230 --> 00:04:42,240
+the three
+ 
+
+199
+00:04:42,240 --> 00:04:45,189
+the three
+and two okay and then now i meet each
+
+200
+00:04:45,189 --> 00:04:45,199
+and two okay and then now i meet each
+ 
+
+201
+00:04:45,199 --> 00:04:45,749
+and two okay and then now i meet each
+other so
+
+202
+00:04:45,749 --> 00:04:45,759
+other so
+ 
+
+203
+00:04:45,759 --> 00:04:49,350
+other so
+so let's return these returnees yeah
+
+204
+00:04:49,350 --> 00:04:49,360
+so let's return these returnees yeah
+ 
+
+205
+00:04:49,360 --> 00:04:52,469
+so let's return these returnees yeah
+l is here okay so what's
+
+206
+00:04:52,469 --> 00:04:52,479
+l is here okay so what's
+ 
+
+207
+00:04:52,479 --> 00:04:54,870
+l is here okay so what's
+do you see one problem with this you
+
+208
+00:04:54,870 --> 00:04:54,880
+do you see one problem with this you
+ 
+
+209
+00:04:54,880 --> 00:04:55,990
+do you see one problem with this you
+know in order
+
+210
+00:04:55,990 --> 00:04:56,000
+know in order
+ 
+
+211
+00:04:56,000 --> 00:04:57,830
+know in order
+whether or not you know all right no no
+
+212
+00:04:57,830 --> 00:04:57,840
+whether or not you know all right no no
+ 
+
+213
+00:04:57,840 --> 00:04:59,510
+whether or not you know all right no no
+because we swap it it will be not in
+
+214
+00:04:59,510 --> 00:04:59,520
+because we swap it it will be not in
+ 
+
+215
+00:04:59,520 --> 00:05:00,070
+because we swap it it will be not in
+order
+
+216
+00:05:00,070 --> 00:05:00,080
+order
+ 
+
+217
+00:05:00,080 --> 00:05:02,710
+order
+and we can also do it in within order so
+
+218
+00:05:02,710 --> 00:05:02,720
+and we can also do it in within order so
+ 
+
+219
+00:05:02,720 --> 00:05:04,390
+and we can also do it in within order so
+how can we do this in order
+
+220
+00:05:04,390 --> 00:05:04,400
+how can we do this in order
+ 
+
+221
+00:05:04,400 --> 00:05:07,510
+how can we do this in order
+we just take away it
+
+222
+00:05:07,510 --> 00:05:07,520
+we just take away it
+ 
+
+223
+00:05:07,520 --> 00:05:11,110
+we just take away it
+one two two three four
+
+224
+00:05:11,110 --> 00:05:11,120
+one two two three four
+ 
+
+225
+00:05:11,120 --> 00:05:15,909
+one two two three four
+two five six okay
+
+226
+00:05:15,909 --> 00:05:15,919
+
+ 
+
+227
+00:05:15,919 --> 00:05:18,230
+
+okay so because we are doing in place
+
+228
+00:05:18,230 --> 00:05:18,240
+okay so because we are doing in place
+ 
+
+229
+00:05:18,240 --> 00:05:20,230
+okay so because we are doing in place
+let's put it in the same place okay so
+
+230
+00:05:20,230 --> 00:05:20,240
+let's put it in the same place okay so
+ 
+
+231
+00:05:20,240 --> 00:05:22,870
+let's put it in the same place okay so
+and
+
+232
+00:05:22,870 --> 00:05:22,880
+
+ 
+
+233
+00:05:22,880 --> 00:05:25,909
+
+so we have a counter to put
+
+234
+00:05:25,909 --> 00:05:25,919
+so we have a counter to put
+ 
+
+235
+00:05:25,919 --> 00:05:28,390
+so we have a counter to put
+we have an index a location let's say we
+
+236
+00:05:28,390 --> 00:05:28,400
+we have an index a location let's say we
+ 
+
+237
+00:05:28,400 --> 00:05:32,390
+we have an index a location let's say we
+have a location j
+
+238
+00:05:32,390 --> 00:05:32,400
+
+ 
+
+239
+00:05:32,400 --> 00:05:36,830
+
+to this this will give us the
+
+240
+00:05:36,830 --> 00:05:36,840
+to this this will give us the
+ 
+
+241
+00:05:36,840 --> 00:05:39,430
+to this this will give us the
+position where we can put the
+
+242
+00:05:39,430 --> 00:05:39,440
+position where we can put the
+ 
+
+243
+00:05:39,440 --> 00:05:41,990
+position where we can put the
+elements yeah we want to keep the
+
+244
+00:05:41,990 --> 00:05:42,000
+elements yeah we want to keep the
+ 
+
+245
+00:05:42,000 --> 00:05:42,950
+elements yeah we want to keep the
+element yeah
+
+246
+00:05:42,950 --> 00:05:42,960
+element yeah
+ 
+
+247
+00:05:42,960 --> 00:05:46,230
+element yeah
+and if it's not look one
+
+248
+00:05:46,230 --> 00:05:46,240
+and if it's not look one
+ 
+
+249
+00:05:46,240 --> 00:05:48,230
+and if it's not look one
+okay one is the value we want to keep so
+
+250
+00:05:48,230 --> 00:05:48,240
+okay one is the value we want to keep so
+ 
+
+251
+00:05:48,240 --> 00:05:50,629
+okay one is the value we want to keep so
+j equals zero
+
+252
+00:05:50,629 --> 00:05:50,639
+j equals zero
+ 
+
+253
+00:05:50,639 --> 00:05:52,950
+j equals zero
+so i put it at here right so i override
+
+254
+00:05:52,950 --> 00:05:52,960
+so i put it at here right so i override
+ 
+
+255
+00:05:52,960 --> 00:05:53,670
+so i put it at here right so i override
+it here so
+
+256
+00:05:53,670 --> 00:05:53,680
+it here so
+ 
+
+257
+00:05:53,680 --> 00:05:58,070
+it here so
+one two we're going to skip these two
+
+258
+00:05:58,070 --> 00:05:58,080
+one two we're going to skip these two
+ 
+
+259
+00:05:58,080 --> 00:06:01,350
+one two we're going to skip these two
+we want to skip these two so we don't
+
+260
+00:06:01,350 --> 00:06:01,360
+we want to skip these two so we don't
+ 
+
+261
+00:06:01,360 --> 00:06:05,189
+we want to skip these two so we don't
+don't increment the j right three
+
+262
+00:06:05,189 --> 00:06:05,199
+don't increment the j right three
+ 
+
+263
+00:06:05,199 --> 00:06:08,390
+don't increment the j right three
+yeah so what's the j j
+
+264
+00:06:08,390 --> 00:06:08,400
+yeah so what's the j j
+ 
+
+265
+00:06:08,400 --> 00:06:12,230
+yeah so what's the j j
+will be one yeah one will be
+
+266
+00:06:12,230 --> 00:06:12,240
+
+ 
+
+267
+00:06:12,240 --> 00:06:14,550
+
+i put it here three and then j will be
+
+268
+00:06:14,550 --> 00:06:14,560
+i put it here three and then j will be
+ 
+
+269
+00:06:14,560 --> 00:06:16,790
+i put it here three and then j will be
+the next one will be two right
+
+270
+00:06:16,790 --> 00:06:16,800
+the next one will be two right
+ 
+
+271
+00:06:16,800 --> 00:06:19,670
+the next one will be two right
+next one will be two so i plus one here
+
+272
+00:06:19,670 --> 00:06:19,680
+next one will be two so i plus one here
+ 
+
+273
+00:06:19,680 --> 00:06:21,110
+next one will be two so i plus one here
+four
+
+274
+00:06:21,110 --> 00:06:21,120
+four
+ 
+
+275
+00:06:21,120 --> 00:06:25,110
+four
+yeah i will put it in here
+
+276
+00:06:25,110 --> 00:06:25,120
+yeah i will put it in here
+ 
+
+277
+00:06:25,120 --> 00:06:28,230
+yeah i will put it in here
+put it in here and plus one two
+
+278
+00:06:28,230 --> 00:06:28,240
+put it in here and plus one two
+ 
+
+279
+00:06:28,240 --> 00:06:31,670
+put it in here and plus one two
+skip five yeah
+
+280
+00:06:31,670 --> 00:06:31,680
+skip five yeah
+ 
+
+281
+00:06:31,680 --> 00:06:35,830
+skip five yeah
+five plus one six plus one yeah
+
+282
+00:06:35,830 --> 00:06:35,840
+five plus one six plus one yeah
+ 
+
+283
+00:06:35,840 --> 00:06:38,710
+five plus one six plus one yeah
+yeah easy yeah so we use one one pointer
+
+284
+00:06:38,710 --> 00:06:38,720
+yeah easy yeah so we use one one pointer
+ 
+
+285
+00:06:38,720 --> 00:06:39,590
+yeah easy yeah so we use one one pointer
+to
+
+286
+00:06:39,590 --> 00:06:39,600
+to
+ 
+
+287
+00:06:39,600 --> 00:06:42,790
+to
+to and then we return this uh j right
+
+288
+00:06:42,790 --> 00:06:42,800
+to and then we return this uh j right
+ 
+
+289
+00:06:42,800 --> 00:06:45,350
+to and then we return this uh j right
+because j is the index that we have j is
+
+290
+00:06:45,350 --> 00:06:45,360
+because j is the index that we have j is
+ 
+
+291
+00:06:45,360 --> 00:06:46,830
+because j is the index that we have j is
+four
+
+292
+00:06:46,830 --> 00:06:46,840
+four
+ 
+
+293
+00:06:46,840 --> 00:06:49,430
+four
+uh-huh yeah because after plus one will
+
+294
+00:06:49,430 --> 00:06:49,440
+uh-huh yeah because after plus one will
+ 
+
+295
+00:06:49,440 --> 00:06:50,629
+uh-huh yeah because after plus one will
+be five okay
+
+296
+00:06:50,629 --> 00:06:50,639
+be five okay
+ 
+
+297
+00:06:50,639 --> 00:06:54,390
+be five okay
+okay let's do this
+
+298
+00:06:54,390 --> 00:06:54,400
+
+ 
+
+299
+00:06:54,400 --> 00:06:58,230
+
+define remove
+
+300
+00:06:58,230 --> 00:06:58,240
+define remove
+ 
+
+301
+00:06:58,240 --> 00:07:01,270
+define remove
+nums target okay
+
+302
+00:07:01,270 --> 00:07:01,280
+nums target okay
+ 
+
+303
+00:07:01,280 --> 00:07:04,390
+nums target okay
+j equals zero four
+
+304
+00:07:04,390 --> 00:07:04,400
+j equals zero four
+ 
+
+305
+00:07:04,400 --> 00:07:08,950
+j equals zero four
+i in numbers
+
+306
+00:07:08,950 --> 00:07:08,960
+i in numbers
+ 
+
+307
+00:07:08,960 --> 00:07:11,670
+i in numbers
+if the numbers are not the target we
+
+308
+00:07:11,670 --> 00:07:11,680
+if the numbers are not the target we
+ 
+
+309
+00:07:11,680 --> 00:07:12,550
+if the numbers are not the target we
+want to remove
+
+310
+00:07:12,550 --> 00:07:12,560
+want to remove
+ 
+
+311
+00:07:12,560 --> 00:07:15,110
+want to remove
+we want to keep it right so now we put
+
+312
+00:07:15,110 --> 00:07:15,120
+we want to keep it right so now we put
+ 
+
+313
+00:07:15,120 --> 00:07:15,990
+we want to keep it right so now we put
+it at j right
+
+314
+00:07:15,990 --> 00:07:16,000
+it at j right
+ 
+
+315
+00:07:16,000 --> 00:07:19,990
+it at j right
+so nums num j
+
+316
+00:07:19,990 --> 00:07:20,000
+so nums num j
+ 
+
+317
+00:07:20,000 --> 00:07:23,990
+so nums num j
+equals y equals
+
+318
+00:07:23,990 --> 00:07:24,000
+equals y equals
+ 
+
+319
+00:07:24,000 --> 00:07:26,410
+equals y equals
+who was what
+
+320
+00:07:26,410 --> 00:07:26,420
+who was what
+ 
+
+321
+00:07:26,420 --> 00:07:28,150
+who was what
+[Music]
+
+322
+00:07:28,150 --> 00:07:28,160
+[Music]
+ 
+
+323
+00:07:28,160 --> 00:07:31,430
+[Music]
+i i because i is not i is no index is
+
+324
+00:07:31,430 --> 00:07:31,440
+i i because i is not i is no index is
+ 
+
+325
+00:07:31,440 --> 00:07:32,790
+i i because i is not i is no index is
+the value okay and then
+
+326
+00:07:32,790 --> 00:07:32,800
+the value okay and then
+ 
+
+327
+00:07:32,800 --> 00:07:36,070
+the value okay and then
+once we put it j y j
+
+328
+00:07:36,070 --> 00:07:36,080
+once we put it j y j
+ 
+
+329
+00:07:36,080 --> 00:07:39,870
+once we put it j y j
+y j y j
+
+330
+00:07:39,870 --> 00:07:39,880
+y j y j
+ 
+
+331
+00:07:39,880 --> 00:07:42,830
+y j y j
+[Music]
+
+332
+00:07:42,830 --> 00:07:42,840
+[Music]
+ 
+
+333
+00:07:42,840 --> 00:07:46,070
+[Music]
+plus equal one remember this is that and
+
+334
+00:07:46,070 --> 00:07:46,080
+plus equal one remember this is that and
+ 
+
+335
+00:07:46,080 --> 00:07:49,510
+plus equal one remember this is that and
+return we can say yeah
+
+336
+00:07:49,510 --> 00:07:49,520
+return we can say yeah
+ 
+
+337
+00:07:49,520 --> 00:07:53,589
+return we can say yeah
+what's the time complexity i won i went
+
+338
+00:07:53,589 --> 00:07:53,599
+what's the time complexity i won i went
+ 
+
+339
+00:07:53,599 --> 00:07:56,790
+what's the time complexity i won i went
+what's this very similarly we are
+
+340
+00:07:56,790 --> 00:07:56,800
+what's this very similarly we are
+ 
+
+341
+00:07:56,800 --> 00:07:57,270
+what's this very similarly we are
+calling
+
+342
+00:07:57,270 --> 00:07:57,280
+calling
+ 
+
+343
+00:07:57,280 --> 00:08:00,950
+calling
+in place yeah in place what i want oh
+
+344
+00:08:00,950 --> 00:08:00,960
+in place yeah in place what i want oh
+ 
+
+345
+00:08:00,960 --> 00:08:01,909
+in place yeah in place what i want oh
+one
+
+346
+00:08:01,909 --> 00:08:01,919
+one
+ 
+
+347
+00:08:01,919 --> 00:08:04,629
+one
+okay so this is there and how about so
+
+348
+00:08:04,629 --> 00:08:04,639
+okay so this is there and how about so
+ 
+
+349
+00:08:04,639 --> 00:08:05,350
+okay so this is there and how about so
+this
+
+350
+00:08:05,350 --> 00:08:05,360
+this
+ 
+
+351
+00:08:05,360 --> 00:08:07,350
+this
+this problem is that uh the least
+
+352
+00:08:07,350 --> 00:08:07,360
+this problem is that uh the least
+ 
+
+353
+00:08:07,360 --> 00:08:09,029
+this problem is that uh the least
+solution is that we keep the
+
+354
+00:08:09,029 --> 00:08:09,039
+solution is that we keep the
+ 
+
+355
+00:08:09,039 --> 00:08:11,029
+solution is that we keep the
+elements in order right we're not
+
+356
+00:08:11,029 --> 00:08:11,039
+elements in order right we're not
+ 
+
+357
+00:08:11,039 --> 00:08:12,469
+elements in order right we're not
+swapping it to the end yeah
+
+358
+00:08:12,469 --> 00:08:12,479
+swapping it to the end yeah
+ 
+
+359
+00:08:12,479 --> 00:08:13,830
+swapping it to the end yeah
+remember the first one we're stopping
+
+360
+00:08:13,830 --> 00:08:13,840
+remember the first one we're stopping
+ 
+
+361
+00:08:13,840 --> 00:08:16,469
+remember the first one we're stopping
+before the end okay so how do we swap it
+
+362
+00:08:16,469 --> 00:08:16,479
+before the end okay so how do we swap it
+ 
+
+363
+00:08:16,479 --> 00:08:20,950
+before the end okay so how do we swap it
+to the end so we have our left pointer
+
+364
+00:08:20,950 --> 00:08:20,960
+to the end so we have our left pointer
+ 
+
+365
+00:08:20,960 --> 00:08:22,629
+to the end so we have our left pointer
+and the right pointer left pointer is
+
+366
+00:08:22,629 --> 00:08:22,639
+and the right pointer left pointer is
+ 
+
+367
+00:08:22,639 --> 00:08:24,869
+and the right pointer left pointer is
+the beginning and zero the right pointer
+
+368
+00:08:24,869 --> 00:08:24,879
+the beginning and zero the right pointer
+ 
+
+369
+00:08:24,879 --> 00:08:26,309
+the beginning and zero the right pointer
+is at the end which is
+
+370
+00:08:26,309 --> 00:08:26,319
+is at the end which is
+ 
+
+371
+00:08:26,319 --> 00:08:30,869
+is at the end which is
+length lines minus one okay
+
+372
+00:08:30,869 --> 00:08:30,879
+length lines minus one okay
+ 
+
+373
+00:08:30,879 --> 00:08:34,230
+length lines minus one okay
+wire left is smaller than equal and
+
+374
+00:08:34,230 --> 00:08:34,240
+wire left is smaller than equal and
+ 
+
+375
+00:08:34,240 --> 00:08:35,589
+wire left is smaller than equal and
+right okay
+
+376
+00:08:35,589 --> 00:08:35,599
+right okay
+ 
+
+377
+00:08:35,599 --> 00:08:40,310
+right okay
+how about that look if norms
+
+378
+00:08:40,310 --> 00:08:40,320
+how about that look if norms
+ 
+
+379
+00:08:40,320 --> 00:08:43,509
+how about that look if norms
+if nouns air equals target this
+
+380
+00:08:43,509 --> 00:08:43,519
+if nouns air equals target this
+ 
+
+381
+00:08:43,519 --> 00:08:45,829
+if nouns air equals target this
+okay now we are moving the we are
+
+382
+00:08:45,829 --> 00:08:45,839
+okay now we are moving the we are
+ 
+
+383
+00:08:45,839 --> 00:08:46,550
+okay now we are moving the we are
+swapping
+
+384
+00:08:46,550 --> 00:08:46,560
+swapping
+ 
+
+385
+00:08:46,560 --> 00:08:51,350
+swapping
+right now
+
+386
+00:08:51,350 --> 00:08:51,360
+
+ 
+
+387
+00:08:51,360 --> 00:08:54,710
+
+numbs are
+
+388
+00:08:54,710 --> 00:08:54,720
+numbs are
+ 
+
+389
+00:08:54,720 --> 00:08:56,710
+numbs are
+equals we want to solve these two yeah
+
+390
+00:08:56,710 --> 00:08:56,720
+equals we want to solve these two yeah
+ 
+
+391
+00:08:56,720 --> 00:08:58,630
+equals we want to solve these two yeah
+how do we swap a and b
+
+392
+00:08:58,630 --> 00:08:58,640
+how do we swap a and b
+ 
+
+393
+00:08:58,640 --> 00:09:01,670
+how do we swap a and b
+how do we solve a and b a b equal as
+
+394
+00:09:01,670 --> 00:09:01,680
+how do we solve a and b a b equal as
+ 
+
+395
+00:09:01,680 --> 00:09:03,990
+how do we solve a and b a b equal as
+well
+
+396
+00:09:03,990 --> 00:09:04,000
+
+ 
+
+397
+00:09:04,000 --> 00:09:14,710
+
+baby all those ones are valid
+
+398
+00:09:14,710 --> 00:09:14,720
+
+ 
+
+399
+00:09:14,720 --> 00:09:16,710
+
+okay so this is the python way to swap
+
+400
+00:09:16,710 --> 00:09:16,720
+okay so this is the python way to swap
+ 
+
+401
+00:09:16,720 --> 00:09:19,670
+okay so this is the python way to swap
+two variables a and b okay if i don't
+
+402
+00:09:19,670 --> 00:09:19,680
+two variables a and b okay if i don't
+ 
+
+403
+00:09:19,680 --> 00:09:21,750
+two variables a and b okay if i don't
+if you want to if you can't write it
+
+404
+00:09:21,750 --> 00:09:21,760
+if you want to if you can't write it
+ 
+
+405
+00:09:21,760 --> 00:09:23,990
+if you want to if you can't write it
+something like that eric
+
+406
+00:09:23,990 --> 00:09:24,000
+something like that eric
+ 
+
+407
+00:09:24,000 --> 00:09:26,230
+something like that eric
+a b equals b a is the same you want the
+
+408
+00:09:26,230 --> 00:09:26,240
+a b equals b a is the same you want the
+ 
+
+409
+00:09:26,240 --> 00:09:27,590
+a b equals b a is the same you want the
+t equals
+
+410
+00:09:27,590 --> 00:09:27,600
+t equals
+ 
+
+411
+00:09:27,600 --> 00:09:31,430
+t equals
+a a equals b and b equals one
+
+412
+00:09:31,430 --> 00:09:31,440
+a a equals b and b equals one
+ 
+
+413
+00:09:31,440 --> 00:09:34,790
+a a equals b and b equals one
+t why why do we need a t here
+
+414
+00:09:34,790 --> 00:09:34,800
+t why why do we need a t here
+ 
+
+415
+00:09:34,800 --> 00:09:37,990
+t why why do we need a t here
+tab out type everything
+
+416
+00:09:37,990 --> 00:09:38,000
+tab out type everything
+ 
+
+417
+00:09:38,000 --> 00:09:40,710
+tab out type everything
+why do we need to save the value of a
+
+418
+00:09:40,710 --> 00:09:40,720
+why do we need to save the value of a
+ 
+
+419
+00:09:40,720 --> 00:09:41,509
+why do we need to save the value of a
+because a
+
+420
+00:09:41,509 --> 00:09:41,519
+because a
+ 
+
+421
+00:09:41,519 --> 00:09:44,070
+because a
+i assign it to b and b needs to assign
+
+422
+00:09:44,070 --> 00:09:44,080
+i assign it to b and b needs to assign
+ 
+
+423
+00:09:44,080 --> 00:09:45,030
+i assign it to b and b needs to assign
+to y
+
+424
+00:09:45,030 --> 00:09:45,040
+to y
+ 
+
+425
+00:09:45,040 --> 00:09:47,110
+to y
+to the original value of a which is
+
+426
+00:09:47,110 --> 00:09:47,120
+to the original value of a which is
+ 
+
+427
+00:09:47,120 --> 00:09:48,310
+to the original value of a which is
+saving in t
+
+428
+00:09:48,310 --> 00:09:48,320
+saving in t
+ 
+
+429
+00:09:48,320 --> 00:09:51,670
+saving in t
+y okay so can you tell me what what
+
+430
+00:09:51,670 --> 00:09:51,680
+y okay so can you tell me what what
+ 
+
+431
+00:09:51,680 --> 00:09:52,870
+y okay so can you tell me what what
+happened what's this b
+
+432
+00:09:52,870 --> 00:09:52,880
+happened what's this b
+ 
+
+433
+00:09:52,880 --> 00:09:55,190
+happened what's this b
+equals what's the problem of this i want
+
+434
+00:09:55,190 --> 00:09:55,200
+equals what's the problem of this i want
+ 
+
+435
+00:09:55,200 --> 00:09:57,430
+equals what's the problem of this i want
+if i want to swap a and b b equals
+
+436
+00:09:57,430 --> 00:09:57,440
+if i want to swap a and b b equals
+ 
+
+437
+00:09:57,440 --> 00:10:00,630
+if i want to swap a and b b equals
+a was b b equals a what happened
+
+438
+00:10:00,630 --> 00:10:00,640
+a was b b equals a what happened
+ 
+
+439
+00:10:00,640 --> 00:10:02,829
+a was b b equals a what happened
+are these going to work is this going to
+
+440
+00:10:02,829 --> 00:10:02,839
+are these going to work is this going to
+ 
+
+441
+00:10:02,839 --> 00:10:04,310
+are these going to work is this going to
+work
+
+442
+00:10:04,310 --> 00:10:04,320
+work
+ 
+
+443
+00:10:04,320 --> 00:10:08,069
+work
+is this going to work yeah no no why why
+
+444
+00:10:08,069 --> 00:10:08,079
+is this going to work yeah no no why why
+ 
+
+445
+00:10:08,079 --> 00:10:08,630
+is this going to work yeah no no why why
+not
+
+446
+00:10:08,630 --> 00:10:08,640
+not
+ 
+
+447
+00:10:08,640 --> 00:10:12,710
+not
+because because um
+
+448
+00:10:12,710 --> 00:10:12,720
+because because um
+ 
+
+449
+00:10:12,720 --> 00:10:15,829
+because because um
+because it will be less than yeah
+
+450
+00:10:15,829 --> 00:10:15,839
+because it will be less than yeah
+ 
+
+451
+00:10:15,839 --> 00:10:17,829
+because it will be less than yeah
+look i can show you look three and five
+
+452
+00:10:17,829 --> 00:10:17,839
+look i can show you look three and five
+ 
+
+453
+00:10:17,839 --> 00:10:21,110
+look i can show you look three and five
+okay a equals three b equals five
+
+454
+00:10:21,110 --> 00:10:21,120
+okay a equals three b equals five
+ 
+
+455
+00:10:21,120 --> 00:10:24,230
+okay a equals three b equals five
+a equals b then one five
+
+456
+00:10:24,230 --> 00:10:24,240
+a equals b then one five
+ 
+
+457
+00:10:24,240 --> 00:10:27,829
+a equals b then one five
+five five and b equals a or five five
+
+458
+00:10:27,829 --> 00:10:27,839
+five five and b equals a or five five
+ 
+
+459
+00:10:27,839 --> 00:10:28,310
+five five and b equals a or five five
+right
+
+460
+00:10:28,310 --> 00:10:28,320
+right
+ 
+
+461
+00:10:28,320 --> 00:10:31,269
+right
+yeah so this is not the same as look if
+
+462
+00:10:31,269 --> 00:10:31,279
+yeah so this is not the same as look if
+ 
+
+463
+00:10:31,279 --> 00:10:31,750
+yeah so this is not the same as look if
+a
+
+464
+00:10:31,750 --> 00:10:31,760
+a
+ 
+
+465
+00:10:31,760 --> 00:10:35,110
+a
+if i do this a is a is three b
+
+466
+00:10:35,110 --> 00:10:35,120
+if i do this a is a is three b
+ 
+
+467
+00:10:35,120 --> 00:10:38,150
+if i do this a is a is three b
+is five and then t equals a
+
+468
+00:10:38,150 --> 00:10:38,160
+is five and then t equals a
+ 
+
+469
+00:10:38,160 --> 00:10:41,030
+is five and then t equals a
+t equals a which is t equals three a
+
+470
+00:10:41,030 --> 00:10:41,040
+t equals a which is t equals three a
+ 
+
+471
+00:10:41,040 --> 00:10:42,230
+t equals a which is t equals three a
+equals b
+
+472
+00:10:42,230 --> 00:10:42,240
+equals b
+ 
+
+473
+00:10:42,240 --> 00:10:47,350
+equals b
+phi a equals b yeah and b equals t
+
+474
+00:10:47,350 --> 00:10:47,360
+phi a equals b yeah and b equals t
+ 
+
+475
+00:10:47,360 --> 00:10:51,269
+phi a equals b yeah and b equals t
+you see 5 3 yeah i use a variable to
+
+476
+00:10:51,269 --> 00:10:51,279
+you see 5 3 yeah i use a variable to
+ 
+
+477
+00:10:51,279 --> 00:10:52,550
+you see 5 3 yeah i use a variable to
+save the original
+
+478
+00:10:52,550 --> 00:10:52,560
+save the original
+ 
+
+479
+00:10:52,560 --> 00:10:55,750
+save the original
+why because this is the p 4 yeah this
+
+480
+00:10:55,750 --> 00:10:55,760
+why because this is the p 4 yeah this
+ 
+
+481
+00:10:55,760 --> 00:10:57,990
+why because this is the p 4 yeah this
+this will not work but in python you can
+
+482
+00:10:57,990 --> 00:10:58,000
+this will not work but in python you can
+ 
+
+483
+00:10:58,000 --> 00:10:58,870
+this will not work but in python you can
+do this
+
+484
+00:10:58,870 --> 00:10:58,880
+do this
+ 
+
+485
+00:10:58,880 --> 00:11:01,990
+do this
+a comma b equals b comma a okay let's
+
+486
+00:11:01,990 --> 00:11:02,000
+a comma b equals b comma a okay let's
+ 
+
+487
+00:11:02,000 --> 00:11:05,430
+a comma b equals b comma a okay let's
+symbol f okay so numbers
+
+488
+00:11:05,430 --> 00:11:05,440
+symbol f okay so numbers
+ 
+
+489
+00:11:05,440 --> 00:11:08,230
+symbol f okay so numbers
+a along with r equals y i want to swap
+
+490
+00:11:08,230 --> 00:11:08,240
+a along with r equals y i want to swap
+ 
+
+491
+00:11:08,240 --> 00:11:08,790
+a along with r equals y i want to swap
+it
+
+492
+00:11:08,790 --> 00:11:08,800
+it
+ 
+
+493
+00:11:08,800 --> 00:11:14,150
+it
+lambs are i norms area
+
+494
+00:11:14,150 --> 00:11:14,160
+lambs are i norms area
+ 
+
+495
+00:11:14,160 --> 00:11:16,150
+lambs are i norms area
+and then once i swap it i need to
+
+496
+00:11:16,150 --> 00:11:16,160
+and then once i swap it i need to
+ 
+
+497
+00:11:16,160 --> 00:11:17,190
+and then once i swap it i need to
+decrement ah
+
+498
+00:11:17,190 --> 00:11:17,200
+decrement ah
+ 
+
+499
+00:11:17,200 --> 00:11:20,230
+decrement ah
+right minus equal one okay and
+
+500
+00:11:20,230 --> 00:11:20,240
+right minus equal one okay and
+ 
+
+501
+00:11:20,240 --> 00:11:23,829
+right minus equal one okay and
+s a has one if alarms
+
+502
+00:11:23,829 --> 00:11:23,839
+s a has one if alarms
+ 
+
+503
+00:11:23,839 --> 00:11:25,750
+s a has one if alarms
+are not equals t then what you will do
+
+504
+00:11:25,750 --> 00:11:25,760
+are not equals t then what you will do
+ 
+
+505
+00:11:25,760 --> 00:11:32,020
+are not equals t then what you will do
+with the left pointer
+
+506
+00:11:32,020 --> 00:11:32,030
+
+ 
+
+507
+00:11:32,030 --> 00:11:40,790
+
+[Music]
+
+508
+00:11:40,790 --> 00:11:40,800
+
+ 
+
+509
+00:11:40,800 --> 00:11:44,150
+
+make sense is it is it does it make
+
+510
+00:11:44,150 --> 00:11:44,160
+make sense is it is it does it make
+ 
+
+511
+00:11:44,160 --> 00:11:45,670
+make sense is it is it does it make
+sense
+
+512
+00:11:45,670 --> 00:11:45,680
+sense
+ 
+
+513
+00:11:45,680 --> 00:11:49,450
+sense
+yeah is it my sizing yeah
+
+514
+00:11:49,450 --> 00:11:49,460
+
+ 
+
+515
+00:11:49,460 --> 00:11:53,190
+
+[Music]
+
+516
+00:11:53,190 --> 00:11:53,200
+
+ 
+
+517
+00:11:53,200 --> 00:11:56,420
+
+okay ah okay let's see i'm going to
+
+518
+00:11:56,420 --> 00:11:56,430
+okay ah okay let's see i'm going to
+ 
+
+519
+00:11:56,430 --> 00:11:59,269
+okay ah okay let's see i'm going to
+[Music]
+
+520
+00:11:59,269 --> 00:11:59,279
+[Music]
+ 
+
+521
+00:11:59,279 --> 00:12:02,710
+[Music]
+which method you think you will remember
+
+522
+00:12:02,710 --> 00:12:02,720
+which method you think you will remember
+ 
+
+523
+00:12:02,720 --> 00:12:05,910
+which method you think you will remember
+this one or the previous one this one
+
+524
+00:12:05,910 --> 00:12:05,920
+this one or the previous one this one
+ 
+
+525
+00:12:05,920 --> 00:12:09,430
+this one or the previous one this one
+this one your choice i'm going to erase
+
+526
+00:12:09,430 --> 00:12:09,440
+this one your choice i'm going to erase
+ 
+
+527
+00:12:09,440 --> 00:12:11,750
+this one your choice i'm going to erase
+this okay anyway
+
+528
+00:12:11,750 --> 00:12:11,760
+this okay anyway
+ 
+
+529
+00:12:11,760 --> 00:12:15,670
+this okay anyway
+okay okay so here possible
+
+530
+00:12:15,670 --> 00:12:15,680
+okay okay so here possible
+ 
+
+531
+00:12:15,680 --> 00:12:17,760
+okay okay so here possible
+come on it's easy
+
+532
+00:12:17,760 --> 00:12:17,770
+come on it's easy
+ 
+
+533
+00:12:17,770 --> 00:12:19,509
+come on it's easy
+[Music]
+
+534
+00:12:19,509 --> 00:12:19,519
+[Music]
+ 
+
+535
+00:12:19,519 --> 00:12:22,790
+[Music]
+remember one okay
+
+536
+00:12:22,790 --> 00:12:22,800
+remember one okay
+ 
+
+537
+00:12:22,800 --> 00:12:24,470
+remember one okay
+you try to remember you know what
+
+538
+00:12:24,470 --> 00:12:24,480
+you try to remember you know what
+ 
+
+539
+00:12:24,480 --> 00:12:27,090
+you try to remember you know what
+happened if we we move
+
+540
+00:12:27,090 --> 00:12:27,100
+happened if we we move
+ 
+
+541
+00:12:27,100 --> 00:12:31,190
+happened if we we move
+[Music]
+
+542
+00:12:31,190 --> 00:12:31,200
+
+ 
+
+543
+00:12:31,200 --> 00:13:16,069
+
+are we going to have titties
+
+544
+00:13:16,069 --> 00:13:16,079
+
+ 
+
+545
+00:13:16,079 --> 00:13:19,910
+
+yeah i never
+
+546
+00:13:19,910 --> 00:13:19,920
+yeah i never
+ 
+
+547
+00:13:19,920 --> 00:13:36,280
+yeah i never
+[Music]
+
+548
+00:13:36,280 --> 00:13:36,290
+
+ 
+
+549
+00:13:36,290 --> 00:13:50,260
+
+[Music]
+
+550
+00:13:50,260 --> 00:13:50,270
+
+ 
+
+551
+00:13:50,270 --> 00:14:00,829
+
+[Music]
+
+552
+00:14:00,829 --> 00:14:00,839
+
+ 
+
+553
+00:14:00,839 --> 00:14:05,230
+
+um
+
+554
+00:14:05,230 --> 00:14:05,240
+
+ 
+
+555
+00:14:05,240 --> 00:14:26,310
+
+[Music]
+
+556
+00:14:26,310 --> 00:14:26,320
+
+ 
+
+557
+00:14:26,320 --> 00:14:29,990
+
+okay good job bye bye
+
+558
+00:14:29,990 --> 00:14:30,000
+okay good job bye bye
+ 
+
+559
+00:14:30,000 --> 00:14:33,030
+okay good job bye bye
+the same complexity yes oh n right
+
+560
+00:14:33,030 --> 00:14:33,040
+the same complexity yes oh n right
+ 
+
+561
+00:14:33,040 --> 00:14:37,040
+the same complexity yes oh n right
+okay a one space
+

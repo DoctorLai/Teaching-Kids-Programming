@@ -1,0 +1,915 @@
+1
+00:00:01,120 --> 00:00:03,669
+
+hello hello
+
+2
+00:00:03,669 --> 00:00:03,679
+hello hello
+ 
+
+3
+00:00:03,679 --> 00:00:05,910
+hello hello
+okay so today we talk about the counter
+
+4
+00:00:05,910 --> 00:00:05,920
+okay so today we talk about the counter
+ 
+
+5
+00:00:05,920 --> 00:00:06,710
+okay so today we talk about the counter
+remember
+
+6
+00:00:06,710 --> 00:00:06,720
+remember
+ 
+
+7
+00:00:06,720 --> 00:00:09,270
+remember
+the counter thing in python you have
+
+8
+00:00:09,270 --> 00:00:09,280
+the counter thing in python you have
+ 
+
+9
+00:00:09,280 --> 00:00:11,589
+the counter thing in python you have
+counter things what's counter
+
+10
+00:00:11,589 --> 00:00:11,599
+counter things what's counter
+ 
+
+11
+00:00:11,599 --> 00:00:15,270
+counter things what's counter
+culture data so this counter data
+
+12
+00:00:15,270 --> 00:00:15,280
+culture data so this counter data
+ 
+
+13
+00:00:15,280 --> 00:00:16,070
+culture data so this counter data
+returns a
+
+14
+00:00:16,070 --> 00:00:16,080
+returns a
+ 
+
+15
+00:00:16,080 --> 00:00:18,950
+returns a
+key value pairs for for the unique items
+
+16
+00:00:18,950 --> 00:00:18,960
+key value pairs for for the unique items
+ 
+
+17
+00:00:18,960 --> 00:00:22,230
+key value pairs for for the unique items
+in data for example like beta if data
+
+18
+00:00:22,230 --> 00:00:22,240
+in data for example like beta if data
+ 
+
+19
+00:00:22,240 --> 00:00:25,509
+in data for example like beta if data
+is a b b
+
+20
+00:00:25,509 --> 00:00:25,519
+is a b b
+ 
+
+21
+00:00:25,519 --> 00:00:28,390
+is a b b
+a c okay so this counter object will
+
+22
+00:00:28,390 --> 00:00:28,400
+a c okay so this counter object will
+ 
+
+23
+00:00:28,400 --> 00:00:30,070
+a c okay so this counter object will
+return the dictionary
+
+24
+00:00:30,070 --> 00:00:30,080
+return the dictionary
+ 
+
+25
+00:00:30,080 --> 00:00:32,709
+return the dictionary
+which is a key value pair so this
+
+26
+00:00:32,709 --> 00:00:32,719
+which is a key value pair so this
+ 
+
+27
+00:00:32,719 --> 00:00:33,510
+which is a key value pair so this
+generally yeah
+
+28
+00:00:33,510 --> 00:00:33,520
+generally yeah
+ 
+
+29
+00:00:33,520 --> 00:00:36,630
+generally yeah
+a curly brace so a
+
+30
+00:00:36,630 --> 00:00:36,640
+a curly brace so a
+ 
+
+31
+00:00:36,640 --> 00:00:38,470
+a curly brace so a
+this is the key which is the unique
+
+32
+00:00:38,470 --> 00:00:38,480
+this is the key which is the unique
+ 
+
+33
+00:00:38,480 --> 00:00:40,310
+this is the key which is the unique
+items and how many times are they appear
+
+34
+00:00:40,310 --> 00:00:40,320
+items and how many times are they appear
+ 
+
+35
+00:00:40,320 --> 00:00:42,150
+items and how many times are they appear
+they appear two times
+
+36
+00:00:42,150 --> 00:00:42,160
+they appear two times
+ 
+
+37
+00:00:42,160 --> 00:00:45,430
+they appear two times
+b appear two
+
+38
+00:00:45,430 --> 00:00:45,440
+b appear two
+ 
+
+39
+00:00:45,440 --> 00:00:48,790
+b appear two
+two times c appear one yeah
+
+40
+00:00:48,790 --> 00:00:48,800
+two times c appear one yeah
+ 
+
+41
+00:00:48,800 --> 00:00:51,750
+two times c appear one yeah
+curly brace okay so now today we if we
+
+42
+00:00:51,750 --> 00:00:51,760
+curly brace okay so now today we if we
+ 
+
+43
+00:00:51,760 --> 00:00:54,790
+curly brace okay so now today we if we
+want to implement this counter object
+
+44
+00:00:54,790 --> 00:00:54,800
+want to implement this counter object
+ 
+
+45
+00:00:54,800 --> 00:00:56,950
+want to implement this counter object
+so let's implement it okay let's say
+
+46
+00:00:56,950 --> 00:00:56,960
+so let's implement it okay let's say
+ 
+
+47
+00:00:56,960 --> 00:00:58,310
+so let's implement it okay let's say
+define
+
+48
+00:00:58,310 --> 00:00:58,320
+define
+ 
+
+49
+00:00:58,320 --> 00:01:03,590
+define
+counter island data
+
+50
+00:01:03,590 --> 00:01:03,600
+counter island data
+ 
+
+51
+00:01:03,600 --> 00:01:06,149
+counter island data
+okay so then this data can be a string
+
+52
+00:01:06,149 --> 00:01:06,159
+okay so then this data can be a string
+ 
+
+53
+00:01:06,159 --> 00:01:06,710
+okay so then this data can be a string
+or
+
+54
+00:01:06,710 --> 00:01:06,720
+or
+ 
+
+55
+00:01:06,720 --> 00:01:09,830
+or
+a list or anything that
+
+56
+00:01:09,830 --> 00:01:09,840
+a list or anything that
+ 
+
+57
+00:01:09,840 --> 00:01:12,789
+a list or anything that
+that's iterable right it's a iterable
+
+58
+00:01:12,789 --> 00:01:12,799
+that's iterable right it's a iterable
+ 
+
+59
+00:01:12,799 --> 00:01:13,350
+that's iterable right it's a iterable
+what's mean
+
+60
+00:01:13,350 --> 00:01:13,360
+what's mean
+ 
+
+61
+00:01:13,360 --> 00:01:15,270
+what's mean
+integral means that you can do this for
+
+62
+00:01:15,270 --> 00:01:15,280
+integral means that you can do this for
+ 
+
+63
+00:01:15,280 --> 00:01:17,109
+integral means that you can do this for
+i in data thing right
+
+64
+00:01:17,109 --> 00:01:17,119
+i in data thing right
+ 
+
+65
+00:01:17,119 --> 00:01:18,950
+i in data thing right
+so by the beginning we need to define
+
+66
+00:01:18,950 --> 00:01:18,960
+so by the beginning we need to define
+ 
+
+67
+00:01:18,960 --> 00:01:20,630
+so by the beginning we need to define
+the return
+
+68
+00:01:20,630 --> 00:01:20,640
+the return
+ 
+
+69
+00:01:20,640 --> 00:01:24,830
+the return
+data which is a dictionary before
+
+70
+00:01:24,830 --> 00:01:24,840
+data which is a dictionary before
+ 
+
+71
+00:01:24,840 --> 00:01:26,230
+data which is a dictionary before
+dictionary
+
+72
+00:01:26,230 --> 00:01:26,240
+dictionary
+ 
+
+73
+00:01:26,240 --> 00:01:29,590
+dictionary
+before dictionary int
+
+74
+00:01:29,590 --> 00:01:29,600
+before dictionary int
+ 
+
+75
+00:01:29,600 --> 00:01:33,109
+before dictionary int
+this in test tells that that the
+
+76
+00:01:33,109 --> 00:01:33,119
+this in test tells that that the
+ 
+
+77
+00:01:33,119 --> 00:01:36,310
+this in test tells that that the
+value the value type is a integer
+
+78
+00:01:36,310 --> 00:01:36,320
+value the value type is a integer
+ 
+
+79
+00:01:36,320 --> 00:01:39,830
+value the value type is a integer
+and by default if the item is the item
+
+80
+00:01:39,830 --> 00:01:39,840
+and by default if the item is the item
+ 
+
+81
+00:01:39,840 --> 00:01:40,469
+and by default if the item is the item
+the key
+
+82
+00:01:40,469 --> 00:01:40,479
+the key
+ 
+
+83
+00:01:40,479 --> 00:01:42,710
+the key
+is not existing in the dictionary the
+
+84
+00:01:42,710 --> 00:01:42,720
+is not existing in the dictionary the
+ 
+
+85
+00:01:42,720 --> 00:01:44,630
+is not existing in the dictionary the
+value will be zero
+
+86
+00:01:44,630 --> 00:01:44,640
+value will be zero
+ 
+
+87
+00:01:44,640 --> 00:01:46,630
+value will be zero
+the value will be zero okay so now we
+
+88
+00:01:46,630 --> 00:01:46,640
+the value will be zero okay so now we
+ 
+
+89
+00:01:46,640 --> 00:01:48,230
+the value will be zero okay so now we
+want to iterate
+
+90
+00:01:48,230 --> 00:01:48,240
+want to iterate
+ 
+
+91
+00:01:48,240 --> 00:01:50,149
+want to iterate
+we want to iterate over the data so we
+
+92
+00:01:50,149 --> 00:01:50,159
+we want to iterate over the data so we
+ 
+
+93
+00:01:50,159 --> 00:01:51,670
+we want to iterate over the data so we
+use the for for
+
+94
+00:01:51,670 --> 00:01:51,680
+use the for for
+ 
+
+95
+00:01:51,680 --> 00:01:54,870
+use the for for
+i in data so that we go through each
+
+96
+00:01:54,870 --> 00:01:54,880
+i in data so that we go through each
+ 
+
+97
+00:01:54,880 --> 00:01:55,510
+i in data so that we go through each
+item
+
+98
+00:01:55,510 --> 00:01:55,520
+item
+ 
+
+99
+00:01:55,520 --> 00:01:57,749
+item
+each item will be character or the list
+
+100
+00:01:57,749 --> 00:01:57,759
+each item will be character or the list
+ 
+
+101
+00:01:57,759 --> 00:01:58,950
+each item will be character or the list
+or the number in the list
+
+102
+00:01:58,950 --> 00:01:58,960
+or the number in the list
+ 
+
+103
+00:01:58,960 --> 00:02:01,109
+or the number in the list
+or anything element in the list and then
+
+104
+00:02:01,109 --> 00:02:01,119
+or anything element in the list and then
+ 
+
+105
+00:02:01,119 --> 00:02:02,950
+or anything element in the list and then
+now we want to reference the
+
+106
+00:02:02,950 --> 00:02:02,960
+now we want to reference the
+ 
+
+107
+00:02:02,960 --> 00:02:06,389
+now we want to reference the
+we want to reference the value right so
+
+108
+00:02:06,389 --> 00:02:06,399
+we want to reference the value right so
+ 
+
+109
+00:02:06,399 --> 00:02:09,990
+we want to reference the value right so
+how do we reference the value answer
+
+110
+00:02:09,990 --> 00:02:10,000
+how do we reference the value answer
+ 
+
+111
+00:02:10,000 --> 00:02:13,190
+how do we reference the value answer
+square bracket i want to put here
+
+112
+00:02:13,190 --> 00:02:13,200
+square bracket i want to put here
+ 
+
+113
+00:02:13,200 --> 00:02:16,390
+square bracket i want to put here
+what to put here what to put here
+
+114
+00:02:16,390 --> 00:02:16,400
+what to put here what to put here
+ 
+
+115
+00:02:16,400 --> 00:02:20,470
+what to put here what to put here
+i right and then if we want to eat
+
+116
+00:02:20,470 --> 00:02:20,480
+i right and then if we want to eat
+ 
+
+117
+00:02:20,480 --> 00:02:23,510
+i right and then if we want to eat
+if we want to increment by one
+
+118
+00:02:23,510 --> 00:02:23,520
+if we want to increment by one
+ 
+
+119
+00:02:23,520 --> 00:02:27,030
+if we want to increment by one
+so how do we produce it plus equal one
+
+120
+00:02:27,030 --> 00:02:27,040
+so how do we produce it plus equal one
+ 
+
+121
+00:02:27,040 --> 00:02:29,990
+so how do we produce it plus equal one
+plus equal one where down and then i
+
+122
+00:02:29,990 --> 00:02:30,000
+plus equal one where down and then i
+ 
+
+123
+00:02:30,000 --> 00:02:31,670
+plus equal one where down and then i
+lost we want to return this
+
+124
+00:02:31,670 --> 00:02:31,680
+lost we want to return this
+ 
+
+125
+00:02:31,680 --> 00:02:35,190
+lost we want to return this
+return
+
+126
+00:02:35,190 --> 00:02:35,200
+
+ 
+
+127
+00:02:35,200 --> 00:02:38,309
+
+what's the thing we're going to return
+
+128
+00:02:38,309 --> 00:02:38,319
+what's the thing we're going to return
+ 
+
+129
+00:02:38,319 --> 00:02:42,710
+what's the thing we're going to return
+we can answer what's the time complexity
+
+130
+00:02:42,710 --> 00:02:42,720
+we can answer what's the time complexity
+ 
+
+131
+00:02:42,720 --> 00:02:45,990
+we can answer what's the time complexity
+what's example ryan i went
+
+132
+00:02:45,990 --> 00:02:46,000
+what's example ryan i went
+ 
+
+133
+00:02:46,000 --> 00:02:47,990
+what's example ryan i went
+we're down wow when what's the space
+
+134
+00:02:47,990 --> 00:02:48,000
+we're down wow when what's the space
+ 
+
+135
+00:02:48,000 --> 00:02:55,350
+we're down wow when what's the space
+from brexit
+
+136
+00:02:55,350 --> 00:02:55,360
+
+ 
+
+137
+00:02:55,360 --> 00:02:58,070
+
+we are using an additional space for
+
+138
+00:02:58,070 --> 00:02:58,080
+we are using an additional space for
+ 
+
+139
+00:02:58,080 --> 00:02:59,830
+we are using an additional space for
+storing a key value pair right in the
+
+140
+00:02:59,830 --> 00:02:59,840
+storing a key value pair right in the
+ 
+
+141
+00:02:59,840 --> 00:03:01,190
+storing a key value pair right in the
+worst case it will be
+
+142
+00:03:01,190 --> 00:03:01,200
+worst case it will be
+ 
+
+143
+00:03:01,200 --> 00:03:04,149
+worst case it will be
+needs and items and items in the data it
+
+144
+00:03:04,149 --> 00:03:04,159
+needs and items and items in the data it
+ 
+
+145
+00:03:04,159 --> 00:03:04,550
+needs and items and items in the data it
+means
+
+146
+00:03:04,550 --> 00:03:04,560
+means
+ 
+
+147
+00:03:04,560 --> 00:03:07,190
+means
+and why it's linear it's proportional to
+
+148
+00:03:07,190 --> 00:03:07,200
+and why it's linear it's proportional to
+ 
+
+149
+00:03:07,200 --> 00:03:08,309
+and why it's linear it's proportional to
+the number of the
+
+150
+00:03:08,309 --> 00:03:08,319
+the number of the
+ 
+
+151
+00:03:08,319 --> 00:03:11,270
+the number of the
+items right space complexity uh
+
+152
+00:03:11,270 --> 00:03:11,280
+items right space complexity uh
+ 
+
+153
+00:03:11,280 --> 00:03:12,149
+items right space complexity uh
+complexes
+
+154
+00:03:12,149 --> 00:03:12,159
+complexes
+ 
+
+155
+00:03:12,159 --> 00:03:15,030
+complexes
+om because we are going to each item in
+
+156
+00:03:15,030 --> 00:03:15,040
+om because we are going to each item in
+ 
+
+157
+00:03:15,040 --> 00:03:15,990
+om because we are going to each item in
+the list
+
+158
+00:03:15,990 --> 00:03:16,000
+the list
+ 
+
+159
+00:03:16,000 --> 00:03:18,470
+the list
+right so in their number there are n
+
+160
+00:03:18,470 --> 00:03:18,480
+right so in their number there are n
+ 
+
+161
+00:03:18,480 --> 00:03:19,270
+right so in their number there are n
+numbers of
+
+162
+00:03:19,270 --> 00:03:19,280
+numbers of
+ 
+
+163
+00:03:19,280 --> 00:03:21,990
+numbers of
+elements in the data right so it needs
+
+164
+00:03:21,990 --> 00:03:22,000
+elements in the data right so it needs
+ 
+
+165
+00:03:22,000 --> 00:03:22,949
+elements in the data right so it needs
+one right
+
+166
+00:03:22,949 --> 00:03:22,959
+one right
+ 
+
+167
+00:03:22,959 --> 00:03:26,630
+one right
+and that's it yeah okay answer i
+
+168
+00:03:26,630 --> 00:03:26,640
+and that's it yeah okay answer i
+ 
+
+169
+00:03:26,640 --> 00:03:30,070
+and that's it yeah okay answer i
+answer answer i plus equal one okay look
+
+170
+00:03:30,070 --> 00:03:30,080
+answer answer i plus equal one okay look
+ 
+
+171
+00:03:30,080 --> 00:03:32,789
+answer answer i plus equal one okay look
+this is the key value ryan do you want
+
+172
+00:03:32,789 --> 00:03:32,799
+this is the key value ryan do you want
+ 
+
+173
+00:03:32,799 --> 00:03:33,190
+this is the key value ryan do you want
+to
+
+174
+00:03:33,190 --> 00:03:33,200
+to
+ 
+
+175
+00:03:33,200 --> 00:03:36,309
+to
+i erase this bit can you can you
+
+176
+00:03:36,309 --> 00:03:36,319
+i erase this bit can you can you
+ 
+
+177
+00:03:36,319 --> 00:03:43,509
+i erase this bit can you can you
+feel it okay
+
+178
+00:03:43,509 --> 00:03:43,519
+
+ 
+
+179
+00:03:43,519 --> 00:03:49,270
+
+answer the answer is the dictionary yeah
+
+180
+00:03:49,270 --> 00:03:49,280
+
+ 
+
+181
+00:03:49,280 --> 00:04:03,670
+
+answer i plus equal one right
+
+182
+00:04:03,670 --> 00:04:03,680
+
+ 
+
+183
+00:04:03,680 --> 00:04:08,239
+
+good job
+
