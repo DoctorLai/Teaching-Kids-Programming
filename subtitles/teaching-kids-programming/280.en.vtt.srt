@@ -1,0 +1,4155 @@
+1
+00:00:00,240 --> 00:00:03,030
+
+hello hello
+
+2
+00:00:03,030 --> 00:00:03,040
+hello hello
+ 
+
+3
+00:00:03,040 --> 00:00:05,430
+hello hello
+hello miss mommy how are you today good
+
+4
+00:00:05,430 --> 00:00:05,440
+hello miss mommy how are you today good
+ 
+
+5
+00:00:05,440 --> 00:00:07,749
+hello miss mommy how are you today good
+okay so we talked about the metric a few
+
+6
+00:00:07,749 --> 00:00:07,759
+okay so we talked about the metric a few
+ 
+
+7
+00:00:07,759 --> 00:00:10,390
+okay so we talked about the metric a few
+days ago today we're going to talk about
+
+8
+00:00:10,390 --> 00:00:10,400
+days ago today we're going to talk about
+ 
+
+9
+00:00:10,400 --> 00:00:13,350
+days ago today we're going to talk about
+implementing the metric multiplication
+
+10
+00:00:13,350 --> 00:00:13,360
+implementing the metric multiplication
+ 
+
+11
+00:00:13,360 --> 00:00:14,390
+implementing the metric multiplication
+of the
+
+12
+00:00:14,390 --> 00:00:14,400
+of the
+ 
+
+13
+00:00:14,400 --> 00:00:17,590
+of the
+power function so a to the power of n is
+
+14
+00:00:17,590 --> 00:00:17,600
+power function so a to the power of n is
+ 
+
+15
+00:00:17,600 --> 00:00:19,830
+power function so a to the power of n is
+a times a times a how many a times
+
+16
+00:00:19,830 --> 00:00:19,840
+a times a times a how many a times
+ 
+
+17
+00:00:19,840 --> 00:00:20,950
+a times a times a how many a times
+together
+
+18
+00:00:20,950 --> 00:00:20,960
+together
+ 
+
+19
+00:00:20,960 --> 00:00:24,870
+together
+um and yes what's the time complexity oh
+
+20
+00:00:24,870 --> 00:00:24,880
+um and yes what's the time complexity oh
+ 
+
+21
+00:00:24,880 --> 00:00:27,349
+um and yes what's the time complexity oh
+because these they are n so o
+
+22
+00:00:27,349 --> 00:00:27,359
+because these they are n so o
+ 
+
+23
+00:00:27,359 --> 00:00:28,470
+because these they are n so o
+we're done
+
+24
+00:00:28,470 --> 00:00:28,480
+we're done
+ 
+
+25
+00:00:28,480 --> 00:00:31,910
+we're done
+okay so um
+
+26
+00:00:31,910 --> 00:00:31,920
+
+ 
+
+27
+00:00:31,920 --> 00:00:34,389
+
+in order for two metrics to multiply
+
+28
+00:00:34,389 --> 00:00:34,399
+in order for two metrics to multiply
+ 
+
+29
+00:00:34,399 --> 00:00:36,310
+in order for two metrics to multiply
+together if they're matching a and b we
+
+30
+00:00:36,310 --> 00:00:36,320
+together if they're matching a and b we
+ 
+
+31
+00:00:36,320 --> 00:00:39,670
+together if they're matching a and b we
+if we want to multiply a to the metric b
+
+32
+00:00:39,670 --> 00:00:39,680
+if we want to multiply a to the metric b
+ 
+
+33
+00:00:39,680 --> 00:00:42,790
+if we want to multiply a to the metric b
+right we want to multiply together so
+
+34
+00:00:42,790 --> 00:00:42,800
+right we want to multiply together so
+ 
+
+35
+00:00:42,800 --> 00:00:45,430
+right we want to multiply together so
+the magic the dimension if this matrix a
+
+36
+00:00:45,430 --> 00:00:45,440
+the magic the dimension if this matrix a
+ 
+
+37
+00:00:45,440 --> 00:00:48,229
+the magic the dimension if this matrix a
+is dimensional a times b you know a rows
+
+38
+00:00:48,229 --> 00:00:48,239
+is dimensional a times b you know a rows
+ 
+
+39
+00:00:48,239 --> 00:00:51,350
+is dimensional a times b you know a rows
+b columns and b metric is c times d
+
+40
+00:00:51,350 --> 00:00:51,360
+b columns and b metric is c times d
+ 
+
+41
+00:00:51,360 --> 00:00:53,430
+b columns and b metric is c times d
+in order for them to be multiplied
+
+42
+00:00:53,430 --> 00:00:53,440
+in order for them to be multiplied
+ 
+
+43
+00:00:53,440 --> 00:00:55,510
+in order for them to be multiplied
+together we need
+
+44
+00:00:55,510 --> 00:00:55,520
+together we need
+ 
+
+45
+00:00:55,520 --> 00:00:56,830
+together we need
+to make
+
+46
+00:00:56,830 --> 00:00:56,840
+to make
+ 
+
+47
+00:00:56,840 --> 00:00:59,590
+to make
+sure b and c should be
+
+48
+00:00:59,590 --> 00:00:59,600
+sure b and c should be
+ 
+
+49
+00:00:59,600 --> 00:01:01,910
+sure b and c should be
+the same should be the same yes so for
+
+50
+00:01:01,910 --> 00:01:01,920
+the same should be the same yes so for
+ 
+
+51
+00:01:01,920 --> 00:01:05,270
+the same should be the same yes so for
+example like if these 1 1 0 0 this is 2
+
+52
+00:01:05,270 --> 00:01:05,280
+example like if these 1 1 0 0 this is 2
+ 
+
+53
+00:01:05,280 --> 00:01:07,990
+example like if these 1 1 0 0 this is 2
+times 2 matching we can times any metric
+
+54
+00:01:07,990 --> 00:01:08,000
+times 2 matching we can times any metric
+ 
+
+55
+00:01:08,000 --> 00:01:10,789
+times 2 matching we can times any metric
+which is two rows and
+
+56
+00:01:10,789 --> 00:01:10,799
+which is two rows and
+ 
+
+57
+00:01:10,799 --> 00:01:12,469
+which is two rows and
+any columns yeah so it could be two
+
+58
+00:01:12,469 --> 00:01:12,479
+any columns yeah so it could be two
+ 
+
+59
+00:01:12,479 --> 00:01:15,030
+any columns yeah so it could be two
+times n columns right so let's say if we
+
+60
+00:01:15,030 --> 00:01:15,040
+times n columns right so let's say if we
+ 
+
+61
+00:01:15,040 --> 00:01:18,630
+times n columns right so let's say if we
+have times two rows and three columns
+
+62
+00:01:18,630 --> 00:01:18,640
+have times two rows and three columns
+ 
+
+63
+00:01:18,640 --> 00:01:20,550
+have times two rows and three columns
+two rows three columns one
+
+64
+00:01:20,550 --> 00:01:20,560
+two rows three columns one
+ 
+
+65
+00:01:20,560 --> 00:01:23,350
+two rows three columns one
+two three four five six we can times it
+
+66
+00:01:23,350 --> 00:01:23,360
+two three four five six we can times it
+ 
+
+67
+00:01:23,360 --> 00:01:26,070
+two three four five six we can times it
+together so how do we do this we we can
+
+68
+00:01:26,070 --> 00:01:26,080
+together so how do we do this we we can
+ 
+
+69
+00:01:26,080 --> 00:01:28,390
+together so how do we do this we we can
+do this um
+
+70
+00:01:28,390 --> 00:01:28,400
+do this um
+ 
+
+71
+00:01:28,400 --> 00:01:32,230
+do this um
+yeah so this row we we multiply
+
+72
+00:01:32,230 --> 00:01:32,240
+yeah so this row we we multiply
+ 
+
+73
+00:01:32,240 --> 00:01:35,030
+yeah so this row we we multiply
+we take the rows of the first metric and
+
+74
+00:01:35,030 --> 00:01:35,040
+we take the rows of the first metric and
+ 
+
+75
+00:01:35,040 --> 00:01:37,749
+we take the rows of the first metric and
+multiply and to the operator of the
+
+76
+00:01:37,749 --> 00:01:37,759
+multiply and to the operator of the
+ 
+
+77
+00:01:37,759 --> 00:01:40,390
+multiply and to the operator of the
+second uh of recurrence of the second
+
+78
+00:01:40,390 --> 00:01:40,400
+second uh of recurrence of the second
+ 
+
+79
+00:01:40,400 --> 00:01:43,030
+second uh of recurrence of the second
+magic so but one zero one four we do the
+
+80
+00:01:43,030 --> 00:01:43,040
+magic so but one zero one four we do the
+ 
+
+81
+00:01:43,040 --> 00:01:45,670
+magic so but one zero one four we do the
+dot product so the dot product let's
+
+82
+00:01:45,670 --> 00:01:45,680
+dot product so the dot product let's
+ 
+
+83
+00:01:45,680 --> 00:01:47,109
+dot product so the dot product let's
+stop that
+
+84
+00:01:47,109 --> 00:01:47,119
+stop that
+ 
+
+85
+00:01:47,119 --> 00:01:49,109
+stop that
+if two two vectors there are two vector
+
+86
+00:01:49,109 --> 00:01:49,119
+if two two vectors there are two vector
+ 
+
+87
+00:01:49,119 --> 00:01:50,870
+if two two vectors there are two vector
+two arrays in
+
+88
+00:01:50,870 --> 00:01:50,880
+two arrays in
+ 
+
+89
+00:01:50,880 --> 00:01:51,910
+two arrays in
+uh
+
+90
+00:01:51,910 --> 00:01:51,920
+uh
+ 
+
+91
+00:01:51,920 --> 00:01:53,590
+uh
+vectors you have two vectors we
+
+92
+00:01:53,590 --> 00:01:53,600
+vectors you have two vectors we
+ 
+
+93
+00:01:53,600 --> 00:01:55,749
+vectors you have two vectors we
+represent using array if there are some
+
+94
+00:01:55,749 --> 00:01:55,759
+represent using array if there are some
+ 
+
+95
+00:01:55,759 --> 00:01:57,830
+represent using array if there are some
+lengths we can multiply together using
+
+96
+00:01:57,830 --> 00:01:57,840
+lengths we can multiply together using
+ 
+
+97
+00:01:57,840 --> 00:02:00,310
+lengths we can multiply together using
+the dot product so for example like a
+
+98
+00:02:00,310 --> 00:02:00,320
+the dot product so for example like a
+ 
+
+99
+00:02:00,320 --> 00:02:01,670
+the dot product so for example like a
+times b
+
+100
+00:02:01,670 --> 00:02:01,680
+times b
+ 
+
+101
+00:02:01,680 --> 00:02:04,389
+times b
+equals the sum yeah this is true matrix
+
+102
+00:02:04,389 --> 00:02:04,399
+equals the sum yeah this is true matrix
+ 
+
+103
+00:02:04,399 --> 00:02:07,350
+equals the sum yeah this is true matrix
+a and b trigonometric the arrays the
+
+104
+00:02:07,350 --> 00:02:07,360
+a and b trigonometric the arrays the
+ 
+
+105
+00:02:07,360 --> 00:02:09,830
+a and b trigonometric the arrays the
+list vectors
+
+106
+00:02:09,830 --> 00:02:09,840
+list vectors
+ 
+
+107
+00:02:09,840 --> 00:02:12,949
+list vectors
+vectors we do the dot product so it's a
+
+108
+00:02:12,949 --> 00:02:12,959
+vectors we do the dot product so it's a
+ 
+
+109
+00:02:12,959 --> 00:02:14,150
+vectors we do the dot product so it's a
+sum of
+
+110
+00:02:14,150 --> 00:02:14,160
+sum of
+ 
+
+111
+00:02:14,160 --> 00:02:16,710
+sum of
+sum of i equals 0 to n minus 1 if there
+
+112
+00:02:16,710 --> 00:02:16,720
+sum of i equals 0 to n minus 1 if there
+ 
+
+113
+00:02:16,720 --> 00:02:18,550
+sum of i equals 0 to n minus 1 if there
+are n elements yeah and then we do this
+
+114
+00:02:18,550 --> 00:02:18,560
+are n elements yeah and then we do this
+ 
+
+115
+00:02:18,560 --> 00:02:19,910
+are n elements yeah and then we do this
+a i
+
+116
+00:02:19,910 --> 00:02:19,920
+a i
+ 
+
+117
+00:02:19,920 --> 00:02:22,949
+a i
+the first the element at index i
+
+118
+00:02:22,949 --> 00:02:22,959
+the first the element at index i
+ 
+
+119
+00:02:22,959 --> 00:02:25,670
+the first the element at index i
+times bi and then we sum it together so
+
+120
+00:02:25,670 --> 00:02:25,680
+times bi and then we sum it together so
+ 
+
+121
+00:02:25,680 --> 00:02:28,150
+times bi and then we sum it together so
+for example if this one zero one four
+
+122
+00:02:28,150 --> 00:02:28,160
+for example if this one zero one four
+ 
+
+123
+00:02:28,160 --> 00:02:29,990
+for example if this one zero one four
+one zero one four
+
+124
+00:02:29,990 --> 00:02:30,000
+one zero one four
+ 
+
+125
+00:02:30,000 --> 00:02:32,630
+one zero one four
+so the double side will be one times one
+
+126
+00:02:32,630 --> 00:02:32,640
+so the double side will be one times one
+ 
+
+127
+00:02:32,640 --> 00:02:35,670
+so the double side will be one times one
+plus zero times four which is
+
+128
+00:02:35,670 --> 00:02:35,680
+plus zero times four which is
+ 
+
+129
+00:02:35,680 --> 00:02:37,910
+plus zero times four which is
+one right so one
+
+130
+00:02:37,910 --> 00:02:37,920
+one right so one
+ 
+
+131
+00:02:37,920 --> 00:02:40,070
+one right so one
+one zero one four and we put it here
+
+132
+00:02:40,070 --> 00:02:40,080
+one zero one four and we put it here
+ 
+
+133
+00:02:40,080 --> 00:02:41,350
+one zero one four and we put it here
+which is
+
+134
+00:02:41,350 --> 00:02:41,360
+which is
+ 
+
+135
+00:02:41,360 --> 00:02:42,309
+which is
+one
+
+136
+00:02:42,309 --> 00:02:42,319
+one
+ 
+
+137
+00:02:42,319 --> 00:02:43,110
+one
+right
+
+138
+00:02:43,110 --> 00:02:43,120
+right
+ 
+
+139
+00:02:43,120 --> 00:02:45,910
+right
+so this this the metric
+
+140
+00:02:45,910 --> 00:02:45,920
+so this this the metric
+ 
+
+141
+00:02:45,920 --> 00:02:49,030
+so this this the metric
+is the metric is a information is the
+
+142
+00:02:49,030 --> 00:02:49,040
+is the metric is a information is the
+ 
+
+143
+00:02:49,040 --> 00:02:51,670
+is the metric is a information is the
+square matrix and with all the elements
+
+144
+00:02:51,670 --> 00:02:51,680
+square matrix and with all the elements
+ 
+
+145
+00:02:51,680 --> 00:02:54,150
+square matrix and with all the elements
+a diagonal diagonal is equal to one and
+
+146
+00:02:54,150 --> 00:02:54,160
+a diagonal diagonal is equal to one and
+ 
+
+147
+00:02:54,160 --> 00:02:55,509
+a diagonal diagonal is equal to one and
+a zero
+
+148
+00:02:55,509 --> 00:02:55,519
+a zero
+ 
+
+149
+00:02:55,519 --> 00:02:57,509
+a zero
+in the rest of place we call it identity
+
+150
+00:02:57,509 --> 00:02:57,519
+in the rest of place we call it identity
+ 
+
+151
+00:02:57,519 --> 00:02:59,670
+in the rest of place we call it identity
+magic we use the i so what's the
+
+152
+00:02:59,670 --> 00:02:59,680
+magic we use the i so what's the
+ 
+
+153
+00:02:59,680 --> 00:03:02,630
+magic we use the i so what's the
+identity it looks you it's quite similar
+
+154
+00:03:02,630 --> 00:03:02,640
+identity it looks you it's quite similar
+ 
+
+155
+00:03:02,640 --> 00:03:05,190
+identity it looks you it's quite similar
+as the number one right so i need any
+
+156
+00:03:05,190 --> 00:03:05,200
+as the number one right so i need any
+ 
+
+157
+00:03:05,200 --> 00:03:07,589
+as the number one right so i need any
+metric times identity matrix
+
+158
+00:03:07,589 --> 00:03:07,599
+metric times identity matrix
+ 
+
+159
+00:03:07,599 --> 00:03:09,589
+metric times identity matrix
+it's the same it won't change right so
+
+160
+00:03:09,589 --> 00:03:09,599
+it's the same it won't change right so
+ 
+
+161
+00:03:09,599 --> 00:03:12,070
+it's the same it won't change right so
+these times that if you do it perform it
+
+162
+00:03:12,070 --> 00:03:12,080
+these times that if you do it perform it
+ 
+
+163
+00:03:12,080 --> 00:03:13,990
+these times that if you do it perform it
+it will be like one two three four five
+
+164
+00:03:13,990 --> 00:03:14,000
+it will be like one two three four five
+ 
+
+165
+00:03:14,000 --> 00:03:14,790
+it will be like one two three four five
+six
+
+166
+00:03:14,790 --> 00:03:14,800
+six
+ 
+
+167
+00:03:14,800 --> 00:03:16,470
+six
+and then you reverse it is still the
+
+168
+00:03:16,470 --> 00:03:16,480
+and then you reverse it is still the
+ 
+
+169
+00:03:16,480 --> 00:03:18,470
+and then you reverse it is still the
+same right if it's
+
+170
+00:03:18,470 --> 00:03:18,480
+same right if it's
+ 
+
+171
+00:03:18,480 --> 00:03:20,149
+same right if it's
+can you reverse it
+
+172
+00:03:20,149 --> 00:03:20,159
+can you reverse it
+ 
+
+173
+00:03:20,159 --> 00:03:23,110
+can you reverse it
+one two three four five six if you times
+
+174
+00:03:23,110 --> 00:03:23,120
+one two three four five six if you times
+ 
+
+175
+00:03:23,120 --> 00:03:26,229
+one two three four five six if you times
+the this is what two times three
+
+176
+00:03:26,229 --> 00:03:26,239
+the this is what two times three
+ 
+
+177
+00:03:26,239 --> 00:03:28,869
+the this is what two times three
+right two times two rows three columns
+
+178
+00:03:28,869 --> 00:03:28,879
+right two times two rows three columns
+ 
+
+179
+00:03:28,879 --> 00:03:31,670
+right two times two rows three columns
+and you can't multiply you can multiply
+
+180
+00:03:31,670 --> 00:03:31,680
+and you can't multiply you can multiply
+ 
+
+181
+00:03:31,680 --> 00:03:34,390
+and you can't multiply you can multiply
+two rows to color right you can't do it
+
+182
+00:03:34,390 --> 00:03:34,400
+two rows to color right you can't do it
+ 
+
+183
+00:03:34,400 --> 00:03:37,270
+two rows to color right you can't do it
+so how do we fix this if it's two rows
+
+184
+00:03:37,270 --> 00:03:37,280
+so how do we fix this if it's two rows
+ 
+
+185
+00:03:37,280 --> 00:03:40,390
+so how do we fix this if it's two rows
+three columns the matrix look this is i
+
+186
+00:03:40,390 --> 00:03:40,400
+three columns the matrix look this is i
+ 
+
+187
+00:03:40,400 --> 00:03:41,750
+three columns the matrix look this is i
+this is a
+
+188
+00:03:41,750 --> 00:03:41,760
+this is a
+ 
+
+189
+00:03:41,760 --> 00:03:44,869
+this is a
+i can say makes sense but a times i we
+
+190
+00:03:44,869 --> 00:03:44,879
+i can say makes sense but a times i we
+ 
+
+191
+00:03:44,879 --> 00:03:46,470
+i can say makes sense but a times i we
+can multiply it
+
+192
+00:03:46,470 --> 00:03:46,480
+can multiply it
+ 
+
+193
+00:03:46,480 --> 00:03:48,390
+can multiply it
+this i needs to be changed because it's
+
+194
+00:03:48,390 --> 00:03:48,400
+this i needs to be changed because it's
+ 
+
+195
+00:03:48,400 --> 00:03:50,470
+this i needs to be changed because it's
+no longer two times two identity matrix
+
+196
+00:03:50,470 --> 00:03:50,480
+no longer two times two identity matrix
+ 
+
+197
+00:03:50,480 --> 00:03:52,949
+no longer two times two identity matrix
+is three times three times magical if we
+
+198
+00:03:52,949 --> 00:03:52,959
+is three times three times magical if we
+ 
+
+199
+00:03:52,959 --> 00:03:55,750
+is three times three times magical if we
+can just change this to three zero three
+
+200
+00:03:55,750 --> 00:03:55,760
+can just change this to three zero three
+ 
+
+201
+00:03:55,760 --> 00:03:58,550
+can just change this to three zero three
+columns so you'll be multiply uh you
+
+202
+00:03:58,550 --> 00:03:58,560
+columns so you'll be multiply uh you
+ 
+
+203
+00:03:58,560 --> 00:04:00,070
+columns so you'll be multiply uh you
+will be much multiplying it will be much
+
+204
+00:04:00,070 --> 00:04:00,080
+will be much multiplying it will be much
+ 
+
+205
+00:04:00,080 --> 00:04:02,229
+will be much multiplying it will be much
+better one one one three times three
+
+206
+00:04:02,229 --> 00:04:02,239
+better one one one three times three
+ 
+
+207
+00:04:02,239 --> 00:04:04,309
+better one one one three times three
+identity metric instead instead of two
+
+208
+00:04:04,309 --> 00:04:04,319
+identity metric instead instead of two
+ 
+
+209
+00:04:04,319 --> 00:04:06,070
+identity metric instead instead of two
+times two okay
+
+210
+00:04:06,070 --> 00:04:06,080
+times two okay
+ 
+
+211
+00:04:06,080 --> 00:04:07,990
+times two okay
+so
+
+212
+00:04:07,990 --> 00:04:08,000
+so
+ 
+
+213
+00:04:08,000 --> 00:04:10,149
+so
+so we talk about how to multiply these n
+
+214
+00:04:10,149 --> 00:04:10,159
+so we talk about how to multiply these n
+ 
+
+215
+00:04:10,159 --> 00:04:13,429
+so we talk about how to multiply these n
+terms but is there a quicker way
+
+216
+00:04:13,429 --> 00:04:13,439
+terms but is there a quicker way
+ 
+
+217
+00:04:13,439 --> 00:04:15,190
+terms but is there a quicker way
+let's talk about the numbers first if we
+
+218
+00:04:15,190 --> 00:04:15,200
+let's talk about the numbers first if we
+ 
+
+219
+00:04:15,200 --> 00:04:17,830
+let's talk about the numbers first if we
+want to calculate 2 to the power of 100
+
+220
+00:04:17,830 --> 00:04:17,840
+want to calculate 2 to the power of 100
+ 
+
+221
+00:04:17,840 --> 00:04:20,469
+want to calculate 2 to the power of 100
+one way is to multiply these two how
+
+222
+00:04:20,469 --> 00:04:20,479
+one way is to multiply these two how
+ 
+
+223
+00:04:20,479 --> 00:04:22,950
+one way is to multiply these two how
+many times
+
+224
+00:04:22,950 --> 00:04:22,960
+many times
+ 
+
+225
+00:04:22,960 --> 00:04:24,550
+many times
+how many times
+
+226
+00:04:24,550 --> 00:04:24,560
+how many times
+ 
+
+227
+00:04:24,560 --> 00:04:27,110
+how many times
+100 times yes we're done 2 times 2 times
+
+228
+00:04:27,110 --> 00:04:27,120
+100 times yes we're done 2 times 2 times
+ 
+
+229
+00:04:27,120 --> 00:04:27,830
+100 times yes we're done 2 times 2 times
+to
+
+230
+00:04:27,830 --> 00:04:27,840
+to
+ 
+
+231
+00:04:27,840 --> 00:04:30,070
+to
+a hundred times yeah but that's going to
+
+232
+00:04:30,070 --> 00:04:30,080
+a hundred times yeah but that's going to
+ 
+
+233
+00:04:30,080 --> 00:04:32,950
+a hundred times yeah but that's going to
+take a linear nino yeah linear
+
+234
+00:04:32,950 --> 00:04:32,960
+take a linear nino yeah linear
+ 
+
+235
+00:04:32,960 --> 00:04:34,870
+take a linear nino yeah linear
+linear complexities because this a
+
+236
+00:04:34,870 --> 00:04:34,880
+linear complexities because this a
+ 
+
+237
+00:04:34,880 --> 00:04:36,230
+linear complexities because this a
+hundred you need to do this a hundred
+
+238
+00:04:36,230 --> 00:04:36,240
+hundred you need to do this a hundred
+ 
+
+239
+00:04:36,240 --> 00:04:38,390
+hundred you need to do this a hundred
+times so a to the power of b
+
+240
+00:04:38,390 --> 00:04:38,400
+times so a to the power of b
+ 
+
+241
+00:04:38,400 --> 00:04:41,030
+times so a to the power of b
+to the power of n if you times the a
+
+242
+00:04:41,030 --> 00:04:41,040
+to the power of n if you times the a
+ 
+
+243
+00:04:41,040 --> 00:04:43,510
+to the power of n if you times the a
+n times that's going to take all n time
+
+244
+00:04:43,510 --> 00:04:43,520
+n times that's going to take all n time
+ 
+
+245
+00:04:43,520 --> 00:04:45,830
+n times that's going to take all n time
+complexity this is linear so what's
+
+246
+00:04:45,830 --> 00:04:45,840
+complexity this is linear so what's
+ 
+
+247
+00:04:45,840 --> 00:04:49,350
+complexity this is linear so what's
+linear so you can draw a graph this is a
+
+248
+00:04:49,350 --> 00:04:49,360
+linear so you can draw a graph this is a
+ 
+
+249
+00:04:49,360 --> 00:04:51,030
+linear so you can draw a graph this is a
+yeah and then
+
+250
+00:04:51,030 --> 00:04:51,040
+yeah and then
+ 
+
+251
+00:04:51,040 --> 00:04:53,270
+yeah and then
+the vertical vertical axis is the time
+
+252
+00:04:53,270 --> 00:04:53,280
+the vertical vertical axis is the time
+ 
+
+253
+00:04:53,280 --> 00:04:54,629
+the vertical vertical axis is the time
+the complexity
+
+254
+00:04:54,629 --> 00:04:54,639
+the complexity
+ 
+
+255
+00:04:54,639 --> 00:04:56,230
+the complexity
+and if you draw the linear you'll be
+
+256
+00:04:56,230 --> 00:04:56,240
+and if you draw the linear you'll be
+ 
+
+257
+00:04:56,240 --> 00:04:58,469
+and if you draw the linear you'll be
+like that
+
+258
+00:04:58,469 --> 00:04:58,479
+like that
+ 
+
+259
+00:04:58,479 --> 00:05:01,270
+like that
+okay
+
+260
+00:05:01,270 --> 00:05:01,280
+
+ 
+
+261
+00:05:01,280 --> 00:05:03,909
+
+okay so now we want to speed this up so
+
+262
+00:05:03,909 --> 00:05:03,919
+okay so now we want to speed this up so
+ 
+
+263
+00:05:03,919 --> 00:05:07,909
+okay so now we want to speed this up so
+2 to the power 100 can we divide it
+
+264
+00:05:07,909 --> 00:05:07,919
+2 to the power 100 can we divide it
+ 
+
+265
+00:05:07,919 --> 00:05:10,550
+2 to the power 100 can we divide it
+can we solve the first question which is
+
+266
+00:05:10,550 --> 00:05:10,560
+can we solve the first question which is
+ 
+
+267
+00:05:10,560 --> 00:05:13,430
+can we solve the first question which is
+can we get computer 2 to the power of 50
+
+268
+00:05:13,430 --> 00:05:13,440
+can we get computer 2 to the power of 50
+ 
+
+269
+00:05:13,440 --> 00:05:14,629
+can we get computer 2 to the power of 50
+first
+
+270
+00:05:14,629 --> 00:05:14,639
+first
+ 
+
+271
+00:05:14,639 --> 00:05:17,510
+first
+yes okay so if we have 2 to the power 50
+
+272
+00:05:17,510 --> 00:05:17,520
+yes okay so if we have 2 to the power 50
+ 
+
+273
+00:05:17,520 --> 00:05:19,189
+yes okay so if we have 2 to the power 50
+what what do we do to get the 2 to the
+
+274
+00:05:19,189 --> 00:05:19,199
+what what do we do to get the 2 to the
+ 
+
+275
+00:05:19,199 --> 00:05:22,710
+what what do we do to get the 2 to the
+power of 100
+
+276
+00:05:22,710 --> 00:05:22,720
+
+ 
+
+277
+00:05:22,720 --> 00:05:25,430
+
+square square yeah we're not so 2 to the
+
+278
+00:05:25,430 --> 00:05:25,440
+square square yeah we're not so 2 to the
+ 
+
+279
+00:05:25,440 --> 00:05:27,510
+square square yeah we're not so 2 to the
+power 50 then we can say 2 to the power
+
+280
+00:05:27,510 --> 00:05:27,520
+power 50 then we can say 2 to the power
+ 
+
+281
+00:05:27,520 --> 00:05:30,550
+power 50 then we can say 2 to the power
+50 times square right so what does it
+
+282
+00:05:30,550 --> 00:05:30,560
+50 times square right so what does it
+ 
+
+283
+00:05:30,560 --> 00:05:31,350
+50 times square right so what does it
+mean
+
+284
+00:05:31,350 --> 00:05:31,360
+mean
+ 
+
+285
+00:05:31,360 --> 00:05:32,550
+mean
+we
+
+286
+00:05:32,550 --> 00:05:32,560
+we
+ 
+
+287
+00:05:32,560 --> 00:05:34,710
+we
+we if we do this proof force you have to
+
+288
+00:05:34,710 --> 00:05:34,720
+we if we do this proof force you have to
+ 
+
+289
+00:05:34,720 --> 00:05:37,189
+we if we do this proof force you have to
+this 100 times now
+
+290
+00:05:37,189 --> 00:05:37,199
+this 100 times now
+ 
+
+291
+00:05:37,199 --> 00:05:40,230
+this 100 times now
+if we do this 50 times 2 to the power 50
+
+292
+00:05:40,230 --> 00:05:40,240
+if we do this 50 times 2 to the power 50
+ 
+
+293
+00:05:40,240 --> 00:05:42,310
+if we do this 50 times 2 to the power 50
+50 times we just need to do it one more
+
+294
+00:05:42,310 --> 00:05:42,320
+50 times we just need to do it one more
+ 
+
+295
+00:05:42,320 --> 00:05:45,110
+50 times we just need to do it one more
+time so 51 so you see we save almost
+
+296
+00:05:45,110 --> 00:05:45,120
+time so 51 so you see we save almost
+ 
+
+297
+00:05:45,120 --> 00:05:47,830
+time so 51 so you see we save almost
+half of it right now look look if we 250
+
+298
+00:05:47,830 --> 00:05:47,840
+half of it right now look look if we 250
+ 
+
+299
+00:05:47,840 --> 00:05:50,950
+half of it right now look look if we 250
+we can keep continue to 250 equals 2 to
+
+300
+00:05:50,950 --> 00:05:50,960
+we can keep continue to 250 equals 2 to
+ 
+
+301
+00:05:50,960 --> 00:05:53,990
+we can keep continue to 250 equals 2 to
+the power of 35 square right and how
+
+302
+00:05:53,990 --> 00:05:54,000
+the power of 35 square right and how
+ 
+
+303
+00:05:54,000 --> 00:05:56,710
+the power of 35 square right and how
+about 225 if we it's not an even number
+
+304
+00:05:56,710 --> 00:05:56,720
+about 225 if we it's not an even number
+ 
+
+305
+00:05:56,720 --> 00:05:58,790
+about 225 if we it's not an even number
+the n is not an even number how do we do
+
+306
+00:05:58,790 --> 00:05:58,800
+the n is not an even number how do we do
+ 
+
+307
+00:05:58,800 --> 00:05:59,749
+the n is not an even number how do we do
+this
+
+308
+00:05:59,749 --> 00:05:59,759
+this
+ 
+
+309
+00:05:59,759 --> 00:06:01,749
+this
+if 2 to the 25
+
+310
+00:06:01,749 --> 00:06:01,759
+if 2 to the 25
+ 
+
+311
+00:06:01,759 --> 00:06:02,950
+if 2 to the 25
+what should we do
+
+312
+00:06:02,950 --> 00:06:02,960
+what should we do
+ 
+
+313
+00:06:02,960 --> 00:06:06,230
+what should we do
+uh 2 to the 24
+
+314
+00:06:06,230 --> 00:06:06,240
+uh 2 to the 24
+ 
+
+315
+00:06:06,240 --> 00:06:09,510
+uh 2 to the 24
+2 to the power of 24 times 2 yes so so
+
+316
+00:06:09,510 --> 00:06:09,520
+2 to the power of 24 times 2 yes so so
+ 
+
+317
+00:06:09,520 --> 00:06:10,950
+2 to the power of 24 times 2 yes so so
+to sum up
+
+318
+00:06:10,950 --> 00:06:10,960
+to sum up
+ 
+
+319
+00:06:10,960 --> 00:06:12,469
+to sum up
+the sum of f
+
+320
+00:06:12,469 --> 00:06:12,479
+the sum of f
+ 
+
+321
+00:06:12,479 --> 00:06:14,230
+the sum of f
+a to the power of n
+
+322
+00:06:14,230 --> 00:06:14,240
+a to the power of n
+ 
+
+323
+00:06:14,240 --> 00:06:16,710
+a to the power of n
+equals we can use the curly uh big curve
+
+324
+00:06:16,710 --> 00:06:16,720
+equals we can use the curly uh big curve
+ 
+
+325
+00:06:16,720 --> 00:06:19,590
+equals we can use the curly uh big curve
+base equals 2 to a to the power of n
+
+326
+00:06:19,590 --> 00:06:19,600
+base equals 2 to a to the power of n
+ 
+
+327
+00:06:19,600 --> 00:06:20,710
+base equals 2 to a to the power of n
+minus
+
+328
+00:06:20,710 --> 00:06:20,720
+minus
+ 
+
+329
+00:06:20,720 --> 00:06:22,309
+minus
+n divided by 2
+
+330
+00:06:22,309 --> 00:06:22,319
+n divided by 2
+ 
+
+331
+00:06:22,319 --> 00:06:25,670
+n divided by 2
+and squared is n is
+
+332
+00:06:25,670 --> 00:06:25,680
+and squared is n is
+ 
+
+333
+00:06:25,680 --> 00:06:29,350
+and squared is n is
+even right even number and or equals a
+
+334
+00:06:29,350 --> 00:06:29,360
+even right even number and or equals a
+ 
+
+335
+00:06:29,360 --> 00:06:33,350
+even right even number and or equals a
+to the power of n minus 1 times a is
+
+336
+00:06:33,350 --> 00:06:33,360
+to the power of n minus 1 times a is
+ 
+
+337
+00:06:33,360 --> 00:06:36,150
+to the power of n minus 1 times a is
+n is hot
+
+338
+00:06:36,150 --> 00:06:36,160
+n is hot
+ 
+
+339
+00:06:36,160 --> 00:06:38,950
+n is hot
+okay
+
+340
+00:06:38,950 --> 00:06:38,960
+
+ 
+
+341
+00:06:38,960 --> 00:06:40,230
+
+uh
+
+342
+00:06:40,230 --> 00:06:40,240
+uh
+ 
+
+343
+00:06:40,240 --> 00:06:42,070
+uh
+so what's the time complexity if you can
+
+344
+00:06:42,070 --> 00:06:42,080
+so what's the time complexity if you can
+ 
+
+345
+00:06:42,080 --> 00:06:44,150
+so what's the time complexity if you can
+remember uh see this well every time we
+
+346
+00:06:44,150 --> 00:06:44,160
+remember uh see this well every time we
+ 
+
+347
+00:06:44,160 --> 00:06:46,550
+remember uh see this well every time we
+we divide this n into half because we we
+
+348
+00:06:46,550 --> 00:06:46,560
+we divide this n into half because we we
+ 
+
+349
+00:06:46,560 --> 00:06:48,950
+we divide this n into half because we we
+understand this right if we want to
+
+350
+00:06:48,950 --> 00:06:48,960
+understand this right if we want to
+ 
+
+351
+00:06:48,960 --> 00:06:50,629
+understand this right if we want to
+solve this big problem we can solve the
+
+352
+00:06:50,629 --> 00:06:50,639
+solve this big problem we can solve the
+ 
+
+353
+00:06:50,639 --> 00:06:52,870
+solve this big problem we can solve the
+half of a problem and on everything we
+
+354
+00:06:52,870 --> 00:06:52,880
+half of a problem and on everything we
+ 
+
+355
+00:06:52,880 --> 00:06:54,950
+half of a problem and on everything we
+can keep solving this half our problem
+
+356
+00:06:54,950 --> 00:06:54,960
+can keep solving this half our problem
+ 
+
+357
+00:06:54,960 --> 00:06:56,150
+can keep solving this half our problem
+half of her
+
+358
+00:06:56,150 --> 00:06:56,160
+half of her
+ 
+
+359
+00:06:56,160 --> 00:06:58,870
+half of her
+we keep dividing into half so in this
+
+360
+00:06:58,870 --> 00:06:58,880
+we keep dividing into half so in this
+ 
+
+361
+00:06:58,880 --> 00:07:01,510
+we keep dividing into half so in this
+case we the time complexity is what we
+
+362
+00:07:01,510 --> 00:07:01,520
+case we the time complexity is what we
+ 
+
+363
+00:07:01,520 --> 00:07:04,309
+case we the time complexity is what we
+keep dividing into half right we keep
+
+364
+00:07:04,309 --> 00:07:04,319
+keep dividing into half right we keep
+ 
+
+365
+00:07:04,319 --> 00:07:06,710
+keep dividing into half right we keep
+dividing into half
+
+366
+00:07:06,710 --> 00:07:06,720
+dividing into half
+ 
+
+367
+00:07:06,720 --> 00:07:08,710
+dividing into half
+n times right
+
+368
+00:07:08,710 --> 00:07:08,720
+n times right
+ 
+
+369
+00:07:08,720 --> 00:07:09,510
+n times right
+so
+
+370
+00:07:09,510 --> 00:07:09,520
+so
+ 
+
+371
+00:07:09,520 --> 00:07:11,430
+so
+what's the time complexity of this one
+
+372
+00:07:11,430 --> 00:07:11,440
+what's the time complexity of this one
+ 
+
+373
+00:07:11,440 --> 00:07:14,309
+what's the time complexity of this one
+so it's all
+
+374
+00:07:14,309 --> 00:07:14,319
+so it's all
+ 
+
+375
+00:07:14,319 --> 00:07:19,270
+so it's all
+log base 2 m right what's log function
+
+376
+00:07:19,270 --> 00:07:19,280
+
+ 
+
+377
+00:07:19,280 --> 00:07:20,550
+
+log
+
+378
+00:07:20,550 --> 00:07:20,560
+log
+ 
+
+379
+00:07:20,560 --> 00:07:22,230
+log
+a to the power b
+
+380
+00:07:22,230 --> 00:07:22,240
+a to the power b
+ 
+
+381
+00:07:22,240 --> 00:07:25,510
+a to the power b
+a b equals n can we write it as
+
+382
+00:07:25,510 --> 00:07:25,520
+a b equals n can we write it as
+ 
+
+383
+00:07:25,520 --> 00:07:28,710
+a b equals n can we write it as
+a to the power n equals b okay
+
+384
+00:07:28,710 --> 00:07:28,720
+a to the power n equals b okay
+ 
+
+385
+00:07:28,720 --> 00:07:31,189
+a to the power n equals b okay
+so if we draw these axes
+
+386
+00:07:31,189 --> 00:07:31,199
+so if we draw these axes
+ 
+
+387
+00:07:31,199 --> 00:07:33,510
+so if we draw these axes
+so previously yeah previously we have
+
+388
+00:07:33,510 --> 00:07:33,520
+so previously yeah previously we have
+ 
+
+389
+00:07:33,520 --> 00:07:35,350
+so previously yeah previously we have
+this oh
+
+390
+00:07:35,350 --> 00:07:35,360
+this oh
+ 
+
+391
+00:07:35,360 --> 00:07:38,230
+this oh
+linear linear is on
+
+392
+00:07:38,230 --> 00:07:38,240
+linear linear is on
+ 
+
+393
+00:07:38,240 --> 00:07:40,390
+linear linear is on
+now log n how can you draw the logan
+
+394
+00:07:40,390 --> 00:07:40,400
+now log n how can you draw the logan
+ 
+
+395
+00:07:40,400 --> 00:07:42,550
+now log n how can you draw the logan
+function it's like that log
+
+396
+00:07:42,550 --> 00:07:42,560
+function it's like that log
+ 
+
+397
+00:07:42,560 --> 00:07:45,830
+function it's like that log
+log 2 to the power of 1 so look 2 to the
+
+398
+00:07:45,830 --> 00:07:45,840
+log 2 to the power of 1 so look 2 to the
+ 
+
+399
+00:07:45,840 --> 00:07:47,029
+log 2 to the power of 1 so look 2 to the
+power of
+
+400
+00:07:47,029 --> 00:07:47,039
+power of
+ 
+
+401
+00:07:47,039 --> 00:07:50,710
+power of
+1 uh 2 to what equals power 1 0 right so
+
+402
+00:07:50,710 --> 00:07:50,720
+1 uh 2 to what equals power 1 0 right so
+ 
+
+403
+00:07:50,720 --> 00:07:53,110
+1 uh 2 to what equals power 1 0 right so
+1 y
+
+404
+00:07:53,110 --> 00:07:53,120
+1 y
+ 
+
+405
+00:07:53,120 --> 00:07:54,629
+1 y
+uh when
+
+406
+00:07:54,629 --> 00:07:54,639
+uh when
+ 
+
+407
+00:07:54,639 --> 00:07:56,550
+uh when
+y this is y right
+
+408
+00:07:56,550 --> 00:07:56,560
+y this is y right
+ 
+
+409
+00:07:56,560 --> 00:08:01,749
+y this is y right
+x so when y is 0 x is what
+
+410
+00:08:01,749 --> 00:08:01,759
+x so when y is 0 x is what
+ 
+
+411
+00:08:01,759 --> 00:08:06,550
+x so when y is 0 x is what
+log y equals y equals log 2 x so when y
+
+412
+00:08:06,550 --> 00:08:06,560
+log y equals y equals log 2 x so when y
+ 
+
+413
+00:08:06,560 --> 00:08:10,150
+log y equals y equals log 2 x so when y
+is 0 what's the value of x
+
+414
+00:08:10,150 --> 00:08:10,160
+is 0 what's the value of x
+ 
+
+415
+00:08:10,160 --> 00:08:13,110
+is 0 what's the value of x
+this is this is why this is a one
+
+416
+00:08:13,110 --> 00:08:13,120
+this is this is why this is a one
+ 
+
+417
+00:08:13,120 --> 00:08:15,830
+this is this is why this is a one
+y is zero what's the value of x
+
+418
+00:08:15,830 --> 00:08:15,840
+y is zero what's the value of x
+ 
+
+419
+00:08:15,840 --> 00:08:19,589
+y is zero what's the value of x
+look look at this look at this okay
+
+420
+00:08:19,589 --> 00:08:19,599
+look look at this look at this okay
+ 
+
+421
+00:08:19,599 --> 00:08:21,510
+look look at this look at this okay
+i know it's a
+
+422
+00:08:21,510 --> 00:08:21,520
+i know it's a
+ 
+
+423
+00:08:21,520 --> 00:08:23,909
+i know it's a
+what's
+
+424
+00:08:23,909 --> 00:08:23,919
+
+ 
+
+425
+00:08:23,919 --> 00:08:26,550
+
+a what's a a is 2
+
+426
+00:08:26,550 --> 00:08:26,560
+a what's a a is 2
+ 
+
+427
+00:08:26,560 --> 00:08:27,830
+a what's a a is 2
+a
+
+428
+00:08:27,830 --> 00:08:27,840
+a
+ 
+
+429
+00:08:27,840 --> 00:08:29,990
+a
+2 to the power of
+
+430
+00:08:29,990 --> 00:08:30,000
+2 to the power of
+ 
+
+431
+00:08:30,000 --> 00:08:33,909
+2 to the power of
+0 equals what's the value of b
+
+432
+00:08:33,909 --> 00:08:33,919
+0 equals what's the value of b
+ 
+
+433
+00:08:33,919 --> 00:08:37,029
+0 equals what's the value of b
+2 to the power of 0 what's this 1 1 okay
+
+434
+00:08:37,029 --> 00:08:37,039
+2 to the power of 0 what's this 1 1 okay
+ 
+
+435
+00:08:37,039 --> 00:08:40,790
+2 to the power of 0 what's this 1 1 okay
+so when x is 1 y is zero so it's here
+
+436
+00:08:40,790 --> 00:08:40,800
+so when x is 1 y is zero so it's here
+ 
+
+437
+00:08:40,800 --> 00:08:42,310
+so when x is 1 y is zero so it's here
+it's going through here right look at
+
+438
+00:08:42,310 --> 00:08:42,320
+it's going through here right look at
+ 
+
+439
+00:08:42,320 --> 00:08:44,630
+it's going through here right look at
+that pay attention
+
+440
+00:08:44,630 --> 00:08:44,640
+that pay attention
+ 
+
+441
+00:08:44,640 --> 00:08:47,590
+that pay attention
+okay yeah and then we if we drawing it
+
+442
+00:08:47,590 --> 00:08:47,600
+okay yeah and then we if we drawing it
+ 
+
+443
+00:08:47,600 --> 00:08:49,590
+okay yeah and then we if we drawing it
+you'll be like there so which one is
+
+444
+00:08:49,590 --> 00:08:49,600
+you'll be like there so which one is
+ 
+
+445
+00:08:49,600 --> 00:08:51,829
+you'll be like there so which one is
+better so two complete two egg run for
+
+446
+00:08:51,829 --> 00:08:51,839
+better so two complete two egg run for
+ 
+
+447
+00:08:51,839 --> 00:08:53,750
+better so two complete two egg run for
+example which one is better second one
+
+448
+00:08:53,750 --> 00:08:53,760
+example which one is better second one
+ 
+
+449
+00:08:53,760 --> 00:08:56,470
+example which one is better second one
+second one why is it better
+
+450
+00:08:56,470 --> 00:08:56,480
+second one why is it better
+ 
+
+451
+00:08:56,480 --> 00:08:59,829
+second one why is it better
+why is better because look if x x is the
+
+452
+00:08:59,829 --> 00:08:59,839
+why is better because look if x x is the
+ 
+
+453
+00:08:59,839 --> 00:09:02,070
+why is better because look if x x is the
+size of the problem right if we keep
+
+454
+00:09:02,070 --> 00:09:02,080
+size of the problem right if we keep
+ 
+
+455
+00:09:02,080 --> 00:09:03,990
+size of the problem right if we keep
+increasing the x it does not the
+
+456
+00:09:03,990 --> 00:09:04,000
+increasing the x it does not the
+ 
+
+457
+00:09:04,000 --> 00:09:06,150
+increasing the x it does not the
+complexity does not grow linear right
+
+458
+00:09:06,150 --> 00:09:06,160
+complexity does not grow linear right
+ 
+
+459
+00:09:06,160 --> 00:09:07,670
+complexity does not grow linear right
+instead it would be
+
+460
+00:09:07,670 --> 00:09:07,680
+instead it would be
+ 
+
+461
+00:09:07,680 --> 00:09:09,430
+instead it would be
+like left right you'd be like that
+
+462
+00:09:09,430 --> 00:09:09,440
+like left right you'd be like that
+ 
+
+463
+00:09:09,440 --> 00:09:12,070
+like left right you'd be like that
+lesson it's reduced right
+
+464
+00:09:12,070 --> 00:09:12,080
+lesson it's reduced right
+ 
+
+465
+00:09:12,080 --> 00:09:15,910
+lesson it's reduced right
+so the same we can do this with the uh
+
+466
+00:09:15,910 --> 00:09:15,920
+so the same we can do this with the uh
+ 
+
+467
+00:09:15,920 --> 00:09:19,829
+so the same we can do this with the uh
+battery multiplication okay so if n
+
+468
+00:09:19,829 --> 00:09:19,839
+battery multiplication okay so if n
+ 
+
+469
+00:09:19,839 --> 00:09:23,509
+battery multiplication okay so if n
+if n is the even number
+
+470
+00:09:23,509 --> 00:09:23,519
+if n is the even number
+ 
+
+471
+00:09:23,519 --> 00:09:24,710
+if n is the even number
+we
+
+472
+00:09:24,710 --> 00:09:24,720
+we
+ 
+
+473
+00:09:24,720 --> 00:09:27,509
+we
+divide it yeah and a square yeah
+
+474
+00:09:27,509 --> 00:09:27,519
+divide it yeah and a square yeah
+ 
+
+475
+00:09:27,519 --> 00:09:31,430
+divide it yeah and a square yeah
+if n is odd number we reduce by one so
+
+476
+00:09:31,430 --> 00:09:31,440
+if n is odd number we reduce by one so
+ 
+
+477
+00:09:31,440 --> 00:09:33,269
+if n is odd number we reduce by one so
+at the beginning what should we give to
+
+478
+00:09:33,269 --> 00:09:33,279
+at the beginning what should we give to
+ 
+
+479
+00:09:33,279 --> 00:09:37,350
+at the beginning what should we give to
+the answer to do it
+
+480
+00:09:37,350 --> 00:09:37,360
+the answer to do it
+ 
+
+481
+00:09:37,360 --> 00:09:39,190
+the answer to do it
+it's identity yeah we give you this
+
+482
+00:09:39,190 --> 00:09:39,200
+it's identity yeah we give you this
+ 
+
+483
+00:09:39,200 --> 00:09:41,030
+it's identity yeah we give you this
+identifier first
+
+484
+00:09:41,030 --> 00:09:41,040
+identifier first
+ 
+
+485
+00:09:41,040 --> 00:09:42,870
+identifier first
+and then we can keep this is the result
+
+486
+00:09:42,870 --> 00:09:42,880
+and then we can keep this is the result
+ 
+
+487
+00:09:42,880 --> 00:09:44,949
+and then we can keep this is the result
+for example and then you know identity
+
+488
+00:09:44,949 --> 00:09:44,959
+for example and then you know identity
+ 
+
+489
+00:09:44,959 --> 00:09:45,750
+for example and then you know identity
+for
+
+490
+00:09:45,750 --> 00:09:45,760
+for
+ 
+
+491
+00:09:45,760 --> 00:09:48,870
+for
+for that energy times the a and times a
+
+492
+00:09:48,870 --> 00:09:48,880
+for that energy times the a and times a
+ 
+
+493
+00:09:48,880 --> 00:09:51,509
+for that energy times the a and times a
+times a you know any you know by
+
+494
+00:09:51,509 --> 00:09:51,519
+times a you know any you know by
+ 
+
+495
+00:09:51,519 --> 00:09:53,590
+times a you know any you know by
+following this pattern we can reduce it
+
+496
+00:09:53,590 --> 00:09:53,600
+following this pattern we can reduce it
+ 
+
+497
+00:09:53,600 --> 00:09:57,670
+following this pattern we can reduce it
+we can calculate the answer if n is the
+
+498
+00:09:57,670 --> 00:09:57,680
+we can calculate the answer if n is the
+ 
+
+499
+00:09:57,680 --> 00:10:01,110
+we can calculate the answer if n is the
+even number yeah we square it
+
+500
+00:10:01,110 --> 00:10:01,120
+even number yeah we square it
+ 
+
+501
+00:10:01,120 --> 00:10:04,389
+even number yeah we square it
+if n is odd number we times it yeah okay
+
+502
+00:10:04,389 --> 00:10:04,399
+if n is odd number we times it yeah okay
+ 
+
+503
+00:10:04,399 --> 00:10:06,870
+if n is odd number we times it yeah okay
+so let's write this okay
+
+504
+00:10:06,870 --> 00:10:06,880
+so let's write this okay
+ 
+
+505
+00:10:06,880 --> 00:10:07,990
+so let's write this okay
+define
+
+506
+00:10:07,990 --> 00:10:08,000
+define
+ 
+
+507
+00:10:08,000 --> 00:10:11,750
+define
+ma uh we say power power function for
+
+508
+00:10:11,750 --> 00:10:11,760
+ma uh we say power power function for
+ 
+
+509
+00:10:11,760 --> 00:10:13,110
+ma uh we say power power function for
+matrix a
+
+510
+00:10:13,110 --> 00:10:13,120
+matrix a
+ 
+
+511
+00:10:13,120 --> 00:10:14,790
+matrix a
+n right
+
+512
+00:10:14,790 --> 00:10:14,800
+n right
+ 
+
+513
+00:10:14,800 --> 00:10:16,870
+n right
+okay so first of all we need to make
+
+514
+00:10:16,870 --> 00:10:16,880
+okay so first of all we need to make
+ 
+
+515
+00:10:16,880 --> 00:10:19,990
+okay so first of all we need to make
+sure make sure the number of rows of a
+
+516
+00:10:19,990 --> 00:10:20,000
+sure make sure the number of rows of a
+ 
+
+517
+00:10:20,000 --> 00:10:22,310
+sure make sure the number of rows of a
+and columns is the same here
+
+518
+00:10:22,310 --> 00:10:22,320
+and columns is the same here
+ 
+
+519
+00:10:22,320 --> 00:10:23,990
+and columns is the same here
+why is that because look if it's a
+
+520
+00:10:23,990 --> 00:10:24,000
+why is that because look if it's a
+ 
+
+521
+00:10:24,000 --> 00:10:26,310
+why is that because look if it's a
+matrix can times itself if a can times
+
+522
+00:10:26,310 --> 00:10:26,320
+matrix can times itself if a can times
+ 
+
+523
+00:10:26,320 --> 00:10:27,350
+matrix can times itself if a can times
+itself
+
+524
+00:10:27,350 --> 00:10:27,360
+itself
+ 
+
+525
+00:10:27,360 --> 00:10:29,509
+itself
+if a is the matrix
+
+526
+00:10:29,509 --> 00:10:29,519
+if a is the matrix
+ 
+
+527
+00:10:29,519 --> 00:10:32,389
+if a is the matrix
+dimension of a rows b columns if you if
+
+528
+00:10:32,389 --> 00:10:32,399
+dimension of a rows b columns if you if
+ 
+
+529
+00:10:32,399 --> 00:10:35,670
+dimension of a rows b columns if you if
+we need to be able to multiply itself
+
+530
+00:10:35,670 --> 00:10:35,680
+we need to be able to multiply itself
+ 
+
+531
+00:10:35,680 --> 00:10:37,750
+we need to be able to multiply itself
+it's a times b what does it mean
+
+532
+00:10:37,750 --> 00:10:37,760
+it's a times b what does it mean
+ 
+
+533
+00:10:37,760 --> 00:10:39,509
+it's a times b what does it mean
+what does mean a
+
+534
+00:10:39,509 --> 00:10:39,519
+what does mean a
+ 
+
+535
+00:10:39,519 --> 00:10:42,550
+what does mean a
+a equals b okay a equals b so a equals b
+
+536
+00:10:42,550 --> 00:10:42,560
+a equals b okay a equals b so a equals b
+ 
+
+537
+00:10:42,560 --> 00:10:44,150
+a equals b okay a equals b so a equals b
+so let's do this
+
+538
+00:10:44,150 --> 00:10:44,160
+so let's do this
+ 
+
+539
+00:10:44,160 --> 00:10:46,870
+so let's do this
+so look the row the number of rows the
+
+540
+00:10:46,870 --> 00:10:46,880
+so look the row the number of rows the
+ 
+
+541
+00:10:46,880 --> 00:10:48,710
+so look the row the number of rows the
+rows
+
+542
+00:10:48,710 --> 00:10:48,720
+rows
+ 
+
+543
+00:10:48,720 --> 00:10:52,069
+rows
+equals length a this is getting uh
+
+544
+00:10:52,069 --> 00:10:52,079
+equals length a this is getting uh
+ 
+
+545
+00:10:52,079 --> 00:10:53,509
+equals length a this is getting uh
+uh
+
+546
+00:10:53,509 --> 00:10:53,519
+uh
+ 
+
+547
+00:10:53,519 --> 00:10:56,470
+uh
+the rows of the magic and then columns
+
+548
+00:10:56,470 --> 00:10:56,480
+the rows of the magic and then columns
+ 
+
+549
+00:10:56,480 --> 00:10:58,069
+the rows of the magic and then columns
+equals length
+
+550
+00:10:58,069 --> 00:10:58,079
+equals length
+ 
+
+551
+00:10:58,079 --> 00:11:00,230
+equals length
+a0 yeah because we're getting the first
+
+552
+00:11:00,230 --> 00:11:00,240
+a0 yeah because we're getting the first
+ 
+
+553
+00:11:00,240 --> 00:11:02,310
+a0 yeah because we're getting the first
+row and then we return the dimension of
+
+554
+00:11:02,310 --> 00:11:02,320
+row and then we return the dimension of
+ 
+
+555
+00:11:02,320 --> 00:11:04,550
+row and then we return the dimension of
+the rows so we need to assert what's
+
+556
+00:11:04,550 --> 00:11:04,560
+the rows so we need to assert what's
+ 
+
+557
+00:11:04,560 --> 00:11:06,710
+the rows so we need to assert what's
+assuming in english
+
+558
+00:11:06,710 --> 00:11:06,720
+assuming in english
+ 
+
+559
+00:11:06,720 --> 00:11:08,630
+assuming in english
+as a rows
+
+560
+00:11:08,630 --> 00:11:08,640
+as a rows
+ 
+
+561
+00:11:08,640 --> 00:11:10,870
+as a rows
+equal current right
+
+562
+00:11:10,870 --> 00:11:10,880
+equal current right
+ 
+
+563
+00:11:10,880 --> 00:11:13,110
+equal current right
+yeah and if we want to make sure we can
+
+564
+00:11:13,110 --> 00:11:13,120
+yeah and if we want to make sure we can
+ 
+
+565
+00:11:13,120 --> 00:11:15,590
+yeah and if we want to make sure we can
+assert these as a
+
+566
+00:11:15,590 --> 00:11:15,600
+assert these as a
+ 
+
+567
+00:11:15,600 --> 00:11:17,750
+assert these as a
+rows bigger than zero so if it's the
+
+568
+00:11:17,750 --> 00:11:17,760
+rows bigger than zero so if it's the
+ 
+
+569
+00:11:17,760 --> 00:11:20,550
+rows bigger than zero so if it's the
+empty matrix we don't continue right
+
+570
+00:11:20,550 --> 00:11:20,560
+empty matrix we don't continue right
+ 
+
+571
+00:11:20,560 --> 00:11:22,949
+empty matrix we don't continue right
+so other means that to make sure to
+
+572
+00:11:22,949 --> 00:11:22,959
+so other means that to make sure to
+ 
+
+573
+00:11:22,959 --> 00:11:25,190
+so other means that to make sure to
+double check if the computer
+
+574
+00:11:25,190 --> 00:11:25,200
+double check if the computer
+ 
+
+575
+00:11:25,200 --> 00:11:29,110
+double check if the computer
+find out the rows and columns it did
+
+576
+00:11:29,110 --> 00:11:29,120
+
+ 
+
+577
+00:11:29,120 --> 00:11:31,190
+
+the computer will saw an error
+
+578
+00:11:31,190 --> 00:11:31,200
+the computer will saw an error
+ 
+
+579
+00:11:31,200 --> 00:11:33,990
+the computer will saw an error
+and refused to continue
+
+580
+00:11:33,990 --> 00:11:34,000
+and refused to continue
+ 
+
+581
+00:11:34,000 --> 00:11:35,829
+and refused to continue
+okay now we need to create what's the
+
+582
+00:11:35,829 --> 00:11:35,839
+okay now we need to create what's the
+ 
+
+583
+00:11:35,839 --> 00:11:38,630
+okay now we need to create what's the
+result that uh if we multiply the
+
+584
+00:11:38,630 --> 00:11:38,640
+result that uh if we multiply the
+ 
+
+585
+00:11:38,640 --> 00:11:41,350
+result that uh if we multiply the
+number of rows and uh the a what's the
+
+586
+00:11:41,350 --> 00:11:41,360
+number of rows and uh the a what's the
+ 
+
+587
+00:11:41,360 --> 00:11:43,670
+number of rows and uh the a what's the
+dimension or final dimension of a
+
+588
+00:11:43,670 --> 00:11:43,680
+dimension or final dimension of a
+ 
+
+589
+00:11:43,680 --> 00:11:44,870
+dimension or final dimension of a
+is it the same
+
+590
+00:11:44,870 --> 00:11:44,880
+is it the same
+ 
+
+591
+00:11:44,880 --> 00:11:46,389
+is it the same
+it's the same yeah because the rows and
+
+592
+00:11:46,389 --> 00:11:46,399
+it's the same yeah because the rows and
+ 
+
+593
+00:11:46,399 --> 00:11:47,829
+it's the same yeah because the rows and
+columns are say if you multiply it to
+
+594
+00:11:47,829 --> 00:11:47,839
+columns are say if you multiply it to
+ 
+
+595
+00:11:47,839 --> 00:11:49,910
+columns are say if you multiply it to
+the same you'll be the same uh you'll be
+
+596
+00:11:49,910 --> 00:11:49,920
+the same you'll be the same uh you'll be
+ 
+
+597
+00:11:49,920 --> 00:11:52,069
+the same you'll be the same uh you'll be
+the same dimension so we create a metric
+
+598
+00:11:52,069 --> 00:11:52,079
+the same dimension so we create a metric
+ 
+
+599
+00:11:52,079 --> 00:11:53,829
+the same dimension so we create a metric
+which is called red
+
+600
+00:11:53,829 --> 00:11:53,839
+which is called red
+ 
+
+601
+00:11:53,839 --> 00:11:56,710
+which is called red
+red equals 0
+
+602
+00:11:56,710 --> 00:11:56,720
+red equals 0
+ 
+
+603
+00:11:56,720 --> 00:11:58,870
+red equals 0
+4
+
+604
+00:11:58,870 --> 00:11:58,880
+4
+ 
+
+605
+00:11:58,880 --> 00:12:00,230
+4
+0 4
+
+606
+00:12:00,230 --> 00:12:00,240
+0 4
+ 
+
+607
+00:12:00,240 --> 00:12:02,949
+0 4
+underscore in range
+
+608
+00:12:02,949 --> 00:12:02,959
+underscore in range
+ 
+
+609
+00:12:02,959 --> 00:12:05,350
+underscore in range
+range column yeah this is the columns
+
+610
+00:12:05,350 --> 00:12:05,360
+range column yeah this is the columns
+ 
+
+611
+00:12:05,360 --> 00:12:07,590
+range column yeah this is the columns
+and then for
+
+612
+00:12:07,590 --> 00:12:07,600
+and then for
+ 
+
+613
+00:12:07,600 --> 00:12:10,710
+and then for
+in range rows
+
+614
+00:12:10,710 --> 00:12:10,720
+in range rows
+ 
+
+615
+00:12:10,720 --> 00:12:12,710
+in range rows
+so at the beginning
+
+616
+00:12:12,710 --> 00:12:12,720
+so at the beginning
+ 
+
+617
+00:12:12,720 --> 00:12:13,990
+so at the beginning
+at the beginning
+
+618
+00:12:13,990 --> 00:12:14,000
+at the beginning
+ 
+
+619
+00:12:14,000 --> 00:12:16,150
+at the beginning
+at the beginning we feel that metric is
+
+620
+00:12:16,150 --> 00:12:16,160
+at the beginning we feel that metric is
+ 
+
+621
+00:12:16,160 --> 00:12:18,230
+at the beginning we feel that metric is
+zero but we we need to
+
+622
+00:12:18,230 --> 00:12:18,240
+zero but we we need to
+ 
+
+623
+00:12:18,240 --> 00:12:20,389
+zero but we we need to
+find out we need to
+
+624
+00:12:20,389 --> 00:12:20,399
+find out we need to
+ 
+
+625
+00:12:20,399 --> 00:12:22,150
+find out we need to
+we we need to actually
+
+626
+00:12:22,150 --> 00:12:22,160
+we we need to actually
+ 
+
+627
+00:12:22,160 --> 00:12:24,790
+we we need to actually
+we need to initialize the return metric
+
+628
+00:12:24,790 --> 00:12:24,800
+we need to initialize the return metric
+ 
+
+629
+00:12:24,800 --> 00:12:26,629
+we need to initialize the return metric
+as the identity matrix so what's
+
+630
+00:12:26,629 --> 00:12:26,639
+as the identity matrix so what's
+ 
+
+631
+00:12:26,639 --> 00:12:28,949
+as the identity matrix so what's
+identical matching if this look this is
+
+632
+00:12:28,949 --> 00:12:28,959
+identical matching if this look this is
+ 
+
+633
+00:12:28,959 --> 00:12:30,790
+identical matching if this look this is
+all zero so what do we need to do to
+
+634
+00:12:30,790 --> 00:12:30,800
+all zero so what do we need to do to
+ 
+
+635
+00:12:30,800 --> 00:12:34,870
+all zero so what do we need to do to
+make it identity matrix
+
+636
+00:12:34,870 --> 00:12:34,880
+
+ 
+
+637
+00:12:34,880 --> 00:12:36,870
+
+what do we need to do to make this
+
+638
+00:12:36,870 --> 00:12:36,880
+what do we need to do to make this
+ 
+
+639
+00:12:36,880 --> 00:12:39,030
+what do we need to do to make this
+natural identity metric at the beginning
+
+640
+00:12:39,030 --> 00:12:39,040
+natural identity metric at the beginning
+ 
+
+641
+00:12:39,040 --> 00:12:41,670
+natural identity metric at the beginning
+it's all zero what's the identity magic
+
+642
+00:12:41,670 --> 00:12:41,680
+it's all zero what's the identity magic
+ 
+
+643
+00:12:41,680 --> 00:12:43,670
+it's all zero what's the identity magic
+i what i didn't remember remember we
+
+644
+00:12:43,670 --> 00:12:43,680
+i what i didn't remember remember we
+ 
+
+645
+00:12:43,680 --> 00:12:45,590
+i what i didn't remember remember we
+talked about this at the beginning five
+
+646
+00:12:45,590 --> 00:12:45,600
+talked about this at the beginning five
+ 
+
+647
+00:12:45,600 --> 00:12:47,269
+talked about this at the beginning five
+minutes ago yeah you should remember
+
+648
+00:12:47,269 --> 00:12:47,279
+minutes ago yeah you should remember
+ 
+
+649
+00:12:47,279 --> 00:12:48,710
+minutes ago yeah you should remember
+that yeah look
+
+650
+00:12:48,710 --> 00:12:48,720
+that yeah look
+ 
+
+651
+00:12:48,720 --> 00:12:51,590
+that yeah look
+all the diagonals is the one all others
+
+652
+00:12:51,590 --> 00:12:51,600
+all the diagonals is the one all others
+ 
+
+653
+00:12:51,600 --> 00:12:53,829
+all the diagonals is the one all others
+is zero so we just need to change this
+
+654
+00:12:53,829 --> 00:12:53,839
+is zero so we just need to change this
+ 
+
+655
+00:12:53,839 --> 00:12:55,590
+is zero so we just need to change this
+value to one right
+
+656
+00:12:55,590 --> 00:12:55,600
+value to one right
+ 
+
+657
+00:12:55,600 --> 00:12:57,430
+value to one right
+we just need to change this value right
+
+658
+00:12:57,430 --> 00:12:57,440
+we just need to change this value right
+ 
+
+659
+00:12:57,440 --> 00:13:01,030
+we just need to change this value right
+so we use a for loop yeah four are in
+
+660
+00:13:01,030 --> 00:13:01,040
+so we use a for loop yeah four are in
+ 
+
+661
+00:13:01,040 --> 00:13:02,470
+so we use a for loop yeah four are in
+rows
+
+662
+00:13:02,470 --> 00:13:02,480
+rows
+ 
+
+663
+00:13:02,480 --> 00:13:04,550
+rows
+in range row there we want to iterate
+
+664
+00:13:04,550 --> 00:13:04,560
+in range row there we want to iterate
+ 
+
+665
+00:13:04,560 --> 00:13:06,870
+in range row there we want to iterate
+from zero to range rows
+
+666
+00:13:06,870 --> 00:13:06,880
+from zero to range rows
+ 
+
+667
+00:13:06,880 --> 00:13:09,350
+from zero to range rows
+and then what should we do red
+
+668
+00:13:09,350 --> 00:13:09,360
+and then what should we do red
+ 
+
+669
+00:13:09,360 --> 00:13:10,470
+and then what should we do red
+red
+
+670
+00:13:10,470 --> 00:13:10,480
+red
+ 
+
+671
+00:13:10,480 --> 00:13:12,310
+red
+r
+
+672
+00:13:12,310 --> 00:13:12,320
+r
+ 
+
+673
+00:13:12,320 --> 00:13:14,310
+r
+r is the rows and which is the columns
+
+674
+00:13:14,310 --> 00:13:14,320
+r is the rows and which is the columns
+ 
+
+675
+00:13:14,320 --> 00:13:17,110
+r is the rows and which is the columns
+what's the columns
+
+676
+00:13:17,110 --> 00:13:17,120
+what's the columns
+ 
+
+677
+00:13:17,120 --> 00:13:18,790
+what's the columns
+what's the columns
+
+678
+00:13:18,790 --> 00:13:18,800
+what's the columns
+ 
+
+679
+00:13:18,800 --> 00:13:20,870
+what's the columns
+ah the same yeah the
+
+680
+00:13:20,870 --> 00:13:20,880
+ah the same yeah the
+ 
+
+681
+00:13:20,880 --> 00:13:22,629
+ah the same yeah the
+the first row first column the second
+
+682
+00:13:22,629 --> 00:13:22,639
+the first row first column the second
+ 
+
+683
+00:13:22,639 --> 00:13:26,069
+the first row first column the second
+second number equals what one one
+
+684
+00:13:26,069 --> 00:13:26,079
+second number equals what one one
+ 
+
+685
+00:13:26,079 --> 00:13:28,550
+second number equals what one one
+be confident yeah you know like that
+
+686
+00:13:28,550 --> 00:13:28,560
+be confident yeah you know like that
+ 
+
+687
+00:13:28,560 --> 00:13:31,190
+be confident yeah you know like that
+okay so now we have this metric and then
+
+688
+00:13:31,190 --> 00:13:31,200
+okay so now we have this metric and then
+ 
+
+689
+00:13:31,200 --> 00:13:33,030
+okay so now we have this metric and then
+what should we do now what should we do
+
+690
+00:13:33,030 --> 00:13:33,040
+what should we do now what should we do
+ 
+
+691
+00:13:33,040 --> 00:13:34,949
+what should we do now what should we do
+now what should we do now so we we need
+
+692
+00:13:34,949 --> 00:13:34,959
+now what should we do now so we we need
+ 
+
+693
+00:13:34,959 --> 00:13:35,990
+now what should we do now so we we need
+to
+
+694
+00:13:35,990 --> 00:13:36,000
+to
+ 
+
+695
+00:13:36,000 --> 00:13:37,190
+to
+we need to
+
+696
+00:13:37,190 --> 00:13:37,200
+we need to
+ 
+
+697
+00:13:37,200 --> 00:13:39,910
+we need to
+do this y we need to check why n is
+
+698
+00:13:39,910 --> 00:13:39,920
+do this y we need to check why n is
+ 
+
+699
+00:13:39,920 --> 00:13:42,150
+do this y we need to check why n is
+bigger than zero right if it's bigger
+
+700
+00:13:42,150 --> 00:13:42,160
+bigger than zero right if it's bigger
+ 
+
+701
+00:13:42,160 --> 00:13:43,990
+bigger than zero right if it's bigger
+than zero what should we do
+
+702
+00:13:43,990 --> 00:13:44,000
+than zero what should we do
+ 
+
+703
+00:13:44,000 --> 00:13:46,230
+than zero what should we do
+if n
+
+704
+00:13:46,230 --> 00:13:46,240
+if n
+ 
+
+705
+00:13:46,240 --> 00:13:47,509
+if n
+and
+
+706
+00:13:47,509 --> 00:13:47,519
+and
+ 
+
+707
+00:13:47,519 --> 00:13:49,670
+and
+one
+
+708
+00:13:49,670 --> 00:13:49,680
+one
+ 
+
+709
+00:13:49,680 --> 00:13:51,829
+one
+bigger than zero right if n and one what
+
+710
+00:13:51,829 --> 00:13:51,839
+bigger than zero right if n and one what
+ 
+
+711
+00:13:51,839 --> 00:13:54,069
+bigger than zero right if n and one what
+does it mean if it's an even if it's if
+
+712
+00:13:54,069 --> 00:13:54,079
+does it mean if it's an even if it's if
+ 
+
+713
+00:13:54,079 --> 00:13:54,949
+does it mean if it's an even if it's if
+it's
+
+714
+00:13:54,949 --> 00:13:54,959
+it's
+ 
+
+715
+00:13:54,959 --> 00:13:57,430
+it's
+if it's odd number right if it's not all
+
+716
+00:13:57,430 --> 00:13:57,440
+if it's odd number right if it's not all
+ 
+
+717
+00:13:57,440 --> 00:13:58,710
+if it's odd number right if it's not all
+number
+
+718
+00:13:58,710 --> 00:13:58,720
+number
+ 
+
+719
+00:13:58,720 --> 00:14:00,470
+number
+so what we do we should we should add
+
+720
+00:14:00,470 --> 00:14:00,480
+so what we do we should we should add
+ 
+
+721
+00:14:00,480 --> 00:14:03,509
+so what we do we should we should add
+red equals multiply yeah we talked about
+
+722
+00:14:03,509 --> 00:14:03,519
+red equals multiply yeah we talked about
+ 
+
+723
+00:14:03,519 --> 00:14:05,430
+red equals multiply yeah we talked about
+multiply yesterday
+
+724
+00:14:05,430 --> 00:14:05,440
+multiply yesterday
+ 
+
+725
+00:14:05,440 --> 00:14:07,750
+multiply yesterday
+red what
+
+726
+00:14:07,750 --> 00:14:07,760
+red what
+ 
+
+727
+00:14:07,760 --> 00:14:10,470
+red what
+a
+
+728
+00:14:10,470 --> 00:14:10,480
+
+ 
+
+729
+00:14:10,480 --> 00:14:13,509
+
+and now we multiply we need to make the
+
+730
+00:14:13,509 --> 00:14:13,519
+and now we multiply we need to make the
+ 
+
+731
+00:14:13,519 --> 00:14:16,870
+and now we multiply we need to make the
+n smaller by half right so how do we do
+
+732
+00:14:16,870 --> 00:14:16,880
+n smaller by half right so how do we do
+ 
+
+733
+00:14:16,880 --> 00:14:20,550
+n smaller by half right so how do we do
+it 55 or and all we can do is a divided
+
+734
+00:14:20,550 --> 00:14:20,560
+it 55 or and all we can do is a divided
+ 
+
+735
+00:14:20,560 --> 00:14:23,509
+it 55 or and all we can do is a divided
+by equals two or we can shift one
+
+736
+00:14:23,509 --> 00:14:23,519
+by equals two or we can shift one
+ 
+
+737
+00:14:23,519 --> 00:14:25,350
+by equals two or we can shift one
+one position to the right yeah
+
+738
+00:14:25,350 --> 00:14:25,360
+one position to the right yeah
+ 
+
+739
+00:14:25,360 --> 00:14:26,870
+one position to the right yeah
+equals one right
+
+740
+00:14:26,870 --> 00:14:26,880
+equals one right
+ 
+
+741
+00:14:26,880 --> 00:14:29,430
+equals one right
+and then now when we safety we need to
+
+742
+00:14:29,430 --> 00:14:29,440
+and then now when we safety we need to
+ 
+
+743
+00:14:29,440 --> 00:14:30,949
+and then now when we safety we need to
+double
+
+744
+00:14:30,949 --> 00:14:30,959
+double
+ 
+
+745
+00:14:30,959 --> 00:14:32,389
+double
+well what do we need we need to square
+
+746
+00:14:32,389 --> 00:14:32,399
+well what do we need we need to square
+ 
+
+747
+00:14:32,399 --> 00:14:36,310
+well what do we need we need to square
+the edges by itself so a equals what
+
+748
+00:14:36,310 --> 00:14:36,320
+the edges by itself so a equals what
+ 
+
+749
+00:14:36,320 --> 00:14:38,389
+the edges by itself so a equals what
+i equals one
+
+750
+00:14:38,389 --> 00:14:38,399
+i equals one
+ 
+
+751
+00:14:38,399 --> 00:14:41,430
+i equals one
+multiply multiply what okay
+
+752
+00:14:41,430 --> 00:14:41,440
+multiply multiply what okay
+ 
+
+753
+00:14:41,440 --> 00:14:52,069
+multiply multiply what okay
+multiply a yeah
+
+754
+00:14:52,069 --> 00:14:52,079
+
+ 
+
+755
+00:14:52,079 --> 00:14:54,949
+
+what's the time complexity
+
+756
+00:14:54,949 --> 00:14:54,959
+what's the time complexity
+ 
+
+757
+00:14:54,959 --> 00:14:59,590
+what's the time complexity
+we talked about this three minutes ago
+
+758
+00:14:59,590 --> 00:14:59,600
+we talked about this three minutes ago
+ 
+
+759
+00:14:59,600 --> 00:15:01,350
+we talked about this three minutes ago
+look
+
+760
+00:15:01,350 --> 00:15:01,360
+look
+ 
+
+761
+00:15:01,360 --> 00:15:04,230
+look
+if we talk about logan and it comes in
+
+762
+00:15:04,230 --> 00:15:04,240
+if we talk about logan and it comes in
+ 
+
+763
+00:15:04,240 --> 00:15:06,870
+if we talk about logan and it comes in
+10 times but we have apparently not time
+
+764
+00:15:06,870 --> 00:15:06,880
+10 times but we have apparently not time
+ 
+
+765
+00:15:06,880 --> 00:15:08,710
+10 times but we have apparently not time
+much praying and have we so let's come
+
+766
+00:15:08,710 --> 00:15:08,720
+much praying and have we so let's come
+ 
+
+767
+00:15:08,720 --> 00:15:12,710
+much praying and have we so let's come
+back to this block area we stop 100 250
+
+768
+00:15:12,710 --> 00:15:12,720
+back to this block area we stop 100 250
+ 
+
+769
+00:15:12,720 --> 00:15:16,310
+back to this block area we stop 100 250
+reduce 25 reduce 24 reduce to 12 and
+
+770
+00:15:16,310 --> 00:15:16,320
+reduce 25 reduce 24 reduce to 12 and
+ 
+
+771
+00:15:16,320 --> 00:15:19,829
+reduce 25 reduce 24 reduce to 12 and
+reduce to 1. what's next
+
+772
+00:15:19,829 --> 00:15:19,839
+
+ 
+
+773
+00:15:19,839 --> 00:15:21,990
+
+so yeah what's next
+
+774
+00:15:21,990 --> 00:15:22,000
+so yeah what's next
+ 
+
+775
+00:15:22,000 --> 00:15:23,990
+so yeah what's next
+see yeah right now okay you're paying
+
+776
+00:15:23,990 --> 00:15:24,000
+see yeah right now okay you're paying
+ 
+
+777
+00:15:24,000 --> 00:15:25,350
+see yeah right now okay you're paying
+attention good
+
+778
+00:15:25,350 --> 00:15:25,360
+attention good
+ 
+
+779
+00:15:25,360 --> 00:15:28,870
+attention good
+okay so let's multiply okay the
+
+780
+00:15:28,870 --> 00:15:28,880
+okay so let's multiply okay the
+ 
+
+781
+00:15:28,880 --> 00:15:31,350
+okay so let's multiply okay the
+any question so far no
+
+782
+00:15:31,350 --> 00:15:31,360
+any question so far no
+ 
+
+783
+00:15:31,360 --> 00:15:32,230
+any question so far no
+okay
+
+784
+00:15:32,230 --> 00:15:32,240
+okay
+ 
+
+785
+00:15:32,240 --> 00:15:34,310
+okay
+okay so can you tell me what's identity
+
+786
+00:15:34,310 --> 00:15:34,320
+okay so can you tell me what's identity
+ 
+
+787
+00:15:34,320 --> 00:15:36,150
+okay so can you tell me what's identity
+magic
+
+788
+00:15:36,150 --> 00:15:36,160
+magic
+ 
+
+789
+00:15:36,160 --> 00:15:38,069
+magic
+what's identity match which part is to
+
+790
+00:15:38,069 --> 00:15:38,079
+what's identity match which part is to
+ 
+
+791
+00:15:38,079 --> 00:15:40,550
+what's identity match which part is to
+setting this identity matrix which part
+
+792
+00:15:40,550 --> 00:15:40,560
+setting this identity matrix which part
+ 
+
+793
+00:15:40,560 --> 00:15:42,389
+setting this identity matrix which part
+this part this part
+
+794
+00:15:42,389 --> 00:15:42,399
+this part this part
+ 
+
+795
+00:15:42,399 --> 00:15:44,790
+this part this part
+this one which bar
+
+796
+00:15:44,790 --> 00:15:44,800
+this one which bar
+ 
+
+797
+00:15:44,800 --> 00:15:47,910
+this one which bar
+this fire yeah yeah okay and what's this
+
+798
+00:15:47,910 --> 00:15:47,920
+this fire yeah yeah okay and what's this
+ 
+
+799
+00:15:47,920 --> 00:15:52,629
+this fire yeah yeah okay and what's this
+battery what if i'm and one
+
+800
+00:15:52,629 --> 00:15:52,639
+
+ 
+
+801
+00:15:52,639 --> 00:15:55,990
+
+it's to checking when n is even or
+
+802
+00:15:55,990 --> 00:15:56,000
+it's to checking when n is even or
+ 
+
+803
+00:15:56,000 --> 00:15:57,430
+it's to checking when n is even or
+number here
+
+804
+00:15:57,430 --> 00:15:57,440
+number here
+ 
+
+805
+00:15:57,440 --> 00:15:58,870
+number here
+yeah
+
+806
+00:15:58,870 --> 00:15:58,880
+yeah
+ 
+
+807
+00:15:58,880 --> 00:16:00,550
+yeah
+that's a question what
+
+808
+00:16:00,550 --> 00:16:00,560
+that's a question what
+ 
+
+809
+00:16:00,560 --> 00:16:03,110
+that's a question what
+n is even or all number
+
+810
+00:16:03,110 --> 00:16:03,120
+n is even or all number
+ 
+
+811
+00:16:03,120 --> 00:16:06,150
+n is even or all number
+n and one
+
+812
+00:16:06,150 --> 00:16:06,160
+
+ 
+
+813
+00:16:06,160 --> 00:16:08,550
+
+if it's an odd number that we times it
+
+814
+00:16:08,550 --> 00:16:08,560
+if it's an odd number that we times it
+ 
+
+815
+00:16:08,560 --> 00:16:11,829
+if it's an odd number that we times it
+one time and we what's this doing
+
+816
+00:16:11,829 --> 00:16:11,839
+one time and we what's this doing
+ 
+
+817
+00:16:11,839 --> 00:16:15,509
+one time and we what's this doing
+divided by two when we reduce a hundred
+
+818
+00:16:15,509 --> 00:16:15,519
+divided by two when we reduce a hundred
+ 
+
+819
+00:16:15,519 --> 00:16:18,949
+divided by two when we reduce a hundred
+to fifty we need to multiply to square
+
+820
+00:16:18,949 --> 00:16:18,959
+to fifty we need to multiply to square
+ 
+
+821
+00:16:18,959 --> 00:16:21,110
+to fifty we need to multiply to square
+square a right okay
+
+822
+00:16:21,110 --> 00:16:21,120
+square a right okay
+ 
+
+823
+00:16:21,120 --> 00:16:23,509
+square a right okay
+okay that's it for today good job
+
+824
+00:16:23,509 --> 00:16:23,519
+okay that's it for today good job
+ 
+
+825
+00:16:23,519 --> 00:16:26,230
+okay that's it for today good job
+miss mommy bye bye
+
+826
+00:16:26,230 --> 00:16:26,240
+miss mommy bye bye
+ 
+
+827
+00:16:26,240 --> 00:16:29,350
+miss mommy bye bye
+bye bye show him bye bye let people see
+
+828
+00:16:29,350 --> 00:16:29,360
+bye bye show him bye bye let people see
+ 
+
+829
+00:16:29,360 --> 00:16:31,189
+bye bye show him bye bye let people see
+your hand
+
+830
+00:16:31,189 --> 00:16:31,199
+your hand
+ 
+
+831
+00:16:31,199 --> 00:16:34,199
+your hand
+bye
+

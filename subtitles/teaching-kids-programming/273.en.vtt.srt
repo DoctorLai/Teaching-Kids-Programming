@@ -1,0 +1,4405 @@
+1
+00:00:00,320 --> 00:00:02,629
+
+hello
+
+2
+00:00:02,629 --> 00:00:02,639
+hello
+ 
+
+3
+00:00:02,639 --> 00:00:05,590
+hello
+hello mr evie someone all right
+
+4
+00:00:05,590 --> 00:00:05,600
+hello mr evie someone all right
+ 
+
+5
+00:00:05,600 --> 00:00:06,630
+hello mr evie someone all right
+yeah
+
+6
+00:00:06,630 --> 00:00:06,640
+yeah
+ 
+
+7
+00:00:06,640 --> 00:00:08,950
+yeah
+okay so we talk about a
+
+8
+00:00:08,950 --> 00:00:08,960
+okay so we talk about a
+ 
+
+9
+00:00:08,960 --> 00:00:12,390
+okay so we talk about a
+graph problem today graph what's graph
+
+10
+00:00:12,390 --> 00:00:12,400
+graph problem today graph what's graph
+ 
+
+11
+00:00:12,400 --> 00:00:14,950
+graph problem today graph what's graph
+g yeah what's going on what does it have
+
+12
+00:00:14,950 --> 00:00:14,960
+g yeah what's going on what does it have
+ 
+
+13
+00:00:14,960 --> 00:00:17,990
+g yeah what's going on what does it have
+how do we represent a graph
+
+14
+00:00:17,990 --> 00:00:18,000
+how do we represent a graph
+ 
+
+15
+00:00:18,000 --> 00:00:20,710
+how do we represent a graph
+what do we have for graph actually
+
+16
+00:00:20,710 --> 00:00:20,720
+what do we have for graph actually
+ 
+
+17
+00:00:20,720 --> 00:00:23,509
+what do we have for graph actually
+no no i'm saying is the graph in text
+
+18
+00:00:23,509 --> 00:00:23,519
+no no i'm saying is the graph in text
+ 
+
+19
+00:00:23,519 --> 00:00:25,269
+no no i'm saying is the graph in text
+and vertex and edges yeah it's a
+
+20
+00:00:25,269 --> 00:00:25,279
+and vertex and edges yeah it's a
+ 
+
+21
+00:00:25,279 --> 00:00:27,509
+and vertex and edges yeah it's a
+collection of vertex and edges
+
+22
+00:00:27,509 --> 00:00:27,519
+collection of vertex and edges
+ 
+
+23
+00:00:27,519 --> 00:00:31,750
+collection of vertex and edges
+so let's use the vertex like look zero
+
+24
+00:00:31,750 --> 00:00:31,760
+so let's use the vertex like look zero
+ 
+
+25
+00:00:31,760 --> 00:00:32,950
+so let's use the vertex like look zero
+one
+
+26
+00:00:32,950 --> 00:00:32,960
+one
+ 
+
+27
+00:00:32,960 --> 00:00:35,030
+one
+and then two here look at this is the
+
+28
+00:00:35,030 --> 00:00:35,040
+and then two here look at this is the
+ 
+
+29
+00:00:35,040 --> 00:00:37,430
+and then two here look at this is the
+graph a tree is also a graph
+
+30
+00:00:37,430 --> 00:00:37,440
+graph a tree is also a graph
+ 
+
+31
+00:00:37,440 --> 00:00:40,150
+graph a tree is also a graph
+so look if the graph doesn't have these
+
+32
+00:00:40,150 --> 00:00:40,160
+so look if the graph doesn't have these
+ 
+
+33
+00:00:40,160 --> 00:00:42,229
+so look if the graph doesn't have these
+errors yeah it doesn't have errors we
+
+34
+00:00:42,229 --> 00:00:42,239
+errors yeah it doesn't have errors we
+ 
+
+35
+00:00:42,239 --> 00:00:43,430
+errors yeah it doesn't have errors we
+call it
+
+36
+00:00:43,430 --> 00:00:43,440
+call it
+ 
+
+37
+00:00:43,440 --> 00:00:44,869
+call it
+what
+
+38
+00:00:44,869 --> 00:00:44,879
+what
+ 
+
+39
+00:00:44,879 --> 00:00:47,029
+what
+we call it what graph if we have errors
+
+40
+00:00:47,029 --> 00:00:47,039
+we call it what graph if we have errors
+ 
+
+41
+00:00:47,039 --> 00:00:48,549
+we call it what graph if we have errors
+we call it directional graph yeah
+
+42
+00:00:48,549 --> 00:00:48,559
+we call it directional graph yeah
+ 
+
+43
+00:00:48,559 --> 00:00:49,750
+we call it directional graph yeah
+remember
+
+44
+00:00:49,750 --> 00:00:49,760
+remember
+ 
+
+45
+00:00:49,760 --> 00:00:51,670
+remember
+direction of god do you still remember
+
+46
+00:00:51,670 --> 00:00:51,680
+direction of god do you still remember
+ 
+
+47
+00:00:51,680 --> 00:00:53,670
+direction of god do you still remember
+d-a-g
+
+48
+00:00:53,670 --> 00:00:53,680
+d-a-g
+ 
+
+49
+00:00:53,680 --> 00:00:57,270
+d-a-g
+yeah what's the
+
+50
+00:00:57,270 --> 00:00:57,280
+
+ 
+
+51
+00:00:57,280 --> 00:00:59,590
+
+girls energy what's a cyclic name it
+
+52
+00:00:59,590 --> 00:00:59,600
+girls energy what's a cyclic name it
+ 
+
+53
+00:00:59,600 --> 00:01:00,790
+girls energy what's a cyclic name it
+doesn't go
+
+54
+00:01:00,790 --> 00:01:00,800
+doesn't go
+ 
+
+55
+00:01:00,800 --> 00:01:03,110
+doesn't go
+like around the world
+
+56
+00:01:03,110 --> 00:01:03,120
+like around the world
+ 
+
+57
+00:01:03,120 --> 00:01:05,189
+like around the world
+it doesn't have it's not like that right
+
+58
+00:01:05,189 --> 00:01:05,199
+it doesn't have it's not like that right
+ 
+
+59
+00:01:05,199 --> 00:01:08,789
+it doesn't have it's not like that right
+if it's a graph is that one zero one two
+
+60
+00:01:08,789 --> 00:01:08,799
+if it's a graph is that one zero one two
+ 
+
+61
+00:01:08,799 --> 00:01:11,750
+if it's a graph is that one zero one two
+zero two one one two two two one and it
+
+62
+00:01:11,750 --> 00:01:11,760
+zero two one one two two two one and it
+ 
+
+63
+00:01:11,760 --> 00:01:13,670
+zero two one one two two two one and it
+forms a cycle that's the side but the
+
+64
+00:01:13,670 --> 00:01:13,680
+forms a cycle that's the side but the
+ 
+
+65
+00:01:13,680 --> 00:01:15,590
+forms a cycle that's the side but the
+cycle is it doesn't have something like
+
+66
+00:01:15,590 --> 00:01:15,600
+cycle is it doesn't have something like
+ 
+
+67
+00:01:15,600 --> 00:01:17,109
+cycle is it doesn't have something like
+that okay
+
+68
+00:01:17,109 --> 00:01:17,119
+that okay
+ 
+
+69
+00:01:17,119 --> 00:01:19,030
+that okay
+so we given today we talk about this
+
+70
+00:01:19,030 --> 00:01:19,040
+so we given today we talk about this
+ 
+
+71
+00:01:19,040 --> 00:01:21,030
+so we given today we talk about this
+graph which is undirectional which means
+
+72
+00:01:21,030 --> 00:01:21,040
+graph which is undirectional which means
+ 
+
+73
+00:01:21,040 --> 00:01:22,550
+graph which is undirectional which means
+that you know it's bi-directional you
+
+74
+00:01:22,550 --> 00:01:22,560
+that you know it's bi-directional you
+ 
+
+75
+00:01:22,560 --> 00:01:25,030
+that you know it's bi-directional you
+can do it as bi-directional
+
+76
+00:01:25,030 --> 00:01:25,040
+can do it as bi-directional
+ 
+
+77
+00:01:25,040 --> 00:01:27,429
+can do it as bi-directional
+know is uh let's say if zero is
+
+78
+00:01:27,429 --> 00:01:27,439
+know is uh let's say if zero is
+ 
+
+79
+00:01:27,439 --> 00:01:29,109
+know is uh let's say if zero is
+connected to one one is also connected
+
+80
+00:01:29,109 --> 00:01:29,119
+connected to one one is also connected
+ 
+
+81
+00:01:29,119 --> 00:01:32,230
+connected to one one is also connected
+to zero so let's save a friend okay
+
+82
+00:01:32,230 --> 00:01:32,240
+to zero so let's save a friend okay
+ 
+
+83
+00:01:32,240 --> 00:01:34,630
+to zero so let's save a friend okay
+friends yellow is
+
+84
+00:01:34,630 --> 00:01:34,640
+friends yellow is
+ 
+
+85
+00:01:34,640 --> 00:01:37,670
+friends yellow is
+friends your friend zero is
+
+86
+00:01:37,670 --> 00:01:37,680
+friends your friend zero is
+ 
+
+87
+00:01:37,680 --> 00:01:40,550
+friends your friend zero is
+is uh has a friend one
+
+88
+00:01:40,550 --> 00:01:40,560
+is uh has a friend one
+ 
+
+89
+00:01:40,560 --> 00:01:42,789
+is uh has a friend one
+yeah the mutual if i'm friend with you
+
+90
+00:01:42,789 --> 00:01:42,799
+yeah the mutual if i'm friend with you
+ 
+
+91
+00:01:42,799 --> 00:01:44,789
+yeah the mutual if i'm friend with you
+you're also my friend right you're my
+
+92
+00:01:44,789 --> 00:01:44,799
+you're also my friend right you're my
+ 
+
+93
+00:01:44,799 --> 00:01:46,950
+you're also my friend right you're my
+friend and i'm your friend right here is
+
+94
+00:01:46,950 --> 00:01:46,960
+friend and i'm your friend right here is
+ 
+
+95
+00:01:46,960 --> 00:01:48,870
+friend and i'm your friend right here is
+friend of one one is also a friend of
+
+96
+00:01:48,870 --> 00:01:48,880
+friend of one one is also a friend of
+ 
+
+97
+00:01:48,880 --> 00:01:49,990
+friend of one one is also a friend of
+jill
+
+98
+00:01:49,990 --> 00:01:50,000
+jill
+ 
+
+99
+00:01:50,000 --> 00:01:51,749
+jill
+one is friend of two two is friend of
+
+100
+00:01:51,749 --> 00:01:51,759
+one is friend of two two is friend of
+ 
+
+101
+00:01:51,759 --> 00:01:54,789
+one is friend of two two is friend of
+one so can you tell me in these uh these
+
+102
+00:01:54,789 --> 00:01:54,799
+one so can you tell me in these uh these
+ 
+
+103
+00:01:54,799 --> 00:01:56,950
+one so can you tell me in these uh these
+three people
+
+104
+00:01:56,950 --> 00:01:56,960
+three people
+ 
+
+105
+00:01:56,960 --> 00:01:59,990
+three people
+at least each for each people
+
+106
+00:01:59,990 --> 00:02:00,000
+at least each for each people
+ 
+
+107
+00:02:00,000 --> 00:02:03,109
+at least each for each people
+and these own at least one friend right
+
+108
+00:02:03,109 --> 00:02:03,119
+and these own at least one friend right
+ 
+
+109
+00:02:03,119 --> 00:02:05,109
+and these own at least one friend right
+yeah you see two of us this statement
+
+110
+00:02:05,109 --> 00:02:05,119
+yeah you see two of us this statement
+ 
+
+111
+00:02:05,119 --> 00:02:06,630
+yeah you see two of us this statement
+everybody has at least one friend in
+
+112
+00:02:06,630 --> 00:02:06,640
+everybody has at least one friend in
+ 
+
+113
+00:02:06,640 --> 00:02:10,229
+everybody has at least one friend in
+this one yeah yeah okay and how about it
+
+114
+00:02:10,229 --> 00:02:10,239
+this one yeah yeah okay and how about it
+ 
+
+115
+00:02:10,239 --> 00:02:12,630
+this one yeah yeah okay and how about it
+zero to one
+
+116
+00:02:12,630 --> 00:02:12,640
+zero to one
+ 
+
+117
+00:02:12,640 --> 00:02:13,589
+zero to one
+uh
+
+118
+00:02:13,589 --> 00:02:13,599
+uh
+ 
+
+119
+00:02:13,599 --> 00:02:14,710
+uh
+and two
+
+120
+00:02:14,710 --> 00:02:14,720
+and two
+ 
+
+121
+00:02:14,720 --> 00:02:17,030
+and two
+everybody is everybody having one at
+
+122
+00:02:17,030 --> 00:02:17,040
+everybody is everybody having one at
+ 
+
+123
+00:02:17,040 --> 00:02:19,190
+everybody is everybody having one at
+least one friend right no which one
+
+124
+00:02:19,190 --> 00:02:19,200
+least one friend right no which one
+ 
+
+125
+00:02:19,200 --> 00:02:20,949
+least one friend right no which one
+doesn't have one edition two yeah
+
+126
+00:02:20,949 --> 00:02:20,959
+doesn't have one edition two yeah
+ 
+
+127
+00:02:20,959 --> 00:02:23,430
+doesn't have one edition two yeah
+obviously okay so
+
+128
+00:02:23,430 --> 00:02:23,440
+obviously okay so
+ 
+
+129
+00:02:23,440 --> 00:02:25,750
+obviously okay so
+what's your thoughts i mean remember a
+
+130
+00:02:25,750 --> 00:02:25,760
+what's your thoughts i mean remember a
+ 
+
+131
+00:02:25,760 --> 00:02:27,270
+what's your thoughts i mean remember a
+few days ago we talked about a data
+
+132
+00:02:27,270 --> 00:02:27,280
+few days ago we talked about a data
+ 
+
+133
+00:02:27,280 --> 00:02:30,630
+few days ago we talked about a data
+structure what what is it called
+
+134
+00:02:30,630 --> 00:02:30,640
+structure what what is it called
+ 
+
+135
+00:02:30,640 --> 00:02:32,869
+structure what what is it called
+set this joint set yeah this joint says
+
+136
+00:02:32,869 --> 00:02:32,879
+set this joint set yeah this joint says
+ 
+
+137
+00:02:32,879 --> 00:02:36,470
+set this joint set yeah this joint says
+so what can we do with the disjoint set
+
+138
+00:02:36,470 --> 00:02:36,480
+so what can we do with the disjoint set
+ 
+
+139
+00:02:36,480 --> 00:02:38,790
+so what can we do with the disjoint set
+we what can we do with patients remember
+
+140
+00:02:38,790 --> 00:02:38,800
+we what can we do with patients remember
+ 
+
+141
+00:02:38,800 --> 00:02:41,270
+we what can we do with patients remember
+we use that digion set to to do what to
+
+142
+00:02:41,270 --> 00:02:41,280
+we use that digion set to to do what to
+ 
+
+143
+00:02:41,280 --> 00:02:43,110
+we use that digion set to to do what to
+solve this problem to finding if there's
+
+144
+00:02:43,110 --> 00:02:43,120
+solve this problem to finding if there's
+ 
+
+145
+00:02:43,120 --> 00:02:45,190
+solve this problem to finding if there's
+a path between a source to the target
+
+146
+00:02:45,190 --> 00:02:45,200
+a path between a source to the target
+ 
+
+147
+00:02:45,200 --> 00:02:46,949
+a path between a source to the target
+right so look
+
+148
+00:02:46,949 --> 00:02:46,959
+right so look
+ 
+
+149
+00:02:46,959 --> 00:02:49,910
+right so look
+one two zero one two and then three four
+
+150
+00:02:49,910 --> 00:02:49,920
+one two zero one two and then three four
+ 
+
+151
+00:02:49,920 --> 00:02:52,470
+one two zero one two and then three four
+we want to find out if there's a path
+
+152
+00:02:52,470 --> 00:02:52,480
+we want to find out if there's a path
+ 
+
+153
+00:02:52,480 --> 00:02:55,270
+we want to find out if there's a path
+remember from zero to four
+
+154
+00:02:55,270 --> 00:02:55,280
+remember from zero to four
+ 
+
+155
+00:02:55,280 --> 00:02:57,750
+remember from zero to four
+right so we create a disjoint set and
+
+156
+00:02:57,750 --> 00:02:57,760
+right so we create a disjoint set and
+ 
+
+157
+00:02:57,760 --> 00:03:00,790
+right so we create a disjoint set and
+every time there's an edge what do we do
+
+158
+00:03:00,790 --> 00:03:00,800
+every time there's an edge what do we do
+ 
+
+159
+00:03:00,800 --> 00:03:02,550
+every time there's an edge what do we do
+we merge the
+
+160
+00:03:02,550 --> 00:03:02,560
+we merge the
+ 
+
+161
+00:03:02,560 --> 00:03:04,470
+we merge the
+we merge zero and one into one group
+
+162
+00:03:04,470 --> 00:03:04,480
+we merge zero and one into one group
+ 
+
+163
+00:03:04,480 --> 00:03:05,910
+we merge zero and one into one group
+right all right
+
+164
+00:03:05,910 --> 00:03:05,920
+right all right
+ 
+
+165
+00:03:05,920 --> 00:03:07,830
+right all right
+and then it's the last edge between one
+
+166
+00:03:07,830 --> 00:03:07,840
+and then it's the last edge between one
+ 
+
+167
+00:03:07,840 --> 00:03:10,550
+and then it's the last edge between one
+to two we merge it yeah and if there's a
+
+168
+00:03:10,550 --> 00:03:10,560
+to two we merge it yeah and if there's a
+ 
+
+169
+00:03:10,560 --> 00:03:13,190
+to two we merge it yeah and if there's a
+path between three to four we merge it
+
+170
+00:03:13,190 --> 00:03:13,200
+path between three to four we merge it
+ 
+
+171
+00:03:13,200 --> 00:03:15,110
+path between three to four we merge it
+right we merge it into one group and at
+
+172
+00:03:15,110 --> 00:03:15,120
+right we merge it into one group and at
+ 
+
+173
+00:03:15,120 --> 00:03:17,509
+right we merge it into one group and at
+least at last we check if the source and
+
+174
+00:03:17,509 --> 00:03:17,519
+least at last we check if the source and
+ 
+
+175
+00:03:17,519 --> 00:03:19,190
+least at last we check if the source and
+the target belongs to the same group
+
+176
+00:03:19,190 --> 00:03:19,200
+the target belongs to the same group
+ 
+
+177
+00:03:19,200 --> 00:03:20,790
+the target belongs to the same group
+right we don't stand saying if it's not
+
+178
+00:03:20,790 --> 00:03:20,800
+right we don't stand saying if it's not
+ 
+
+179
+00:03:20,800 --> 00:03:22,710
+right we don't stand saying if it's not
+belongs to same group what does it mean
+
+180
+00:03:22,710 --> 00:03:22,720
+belongs to same group what does it mean
+ 
+
+181
+00:03:22,720 --> 00:03:24,390
+belongs to same group what does it mean
+it means that there's a path between the
+
+182
+00:03:24,390 --> 00:03:24,400
+it means that there's a path between the
+ 
+
+183
+00:03:24,400 --> 00:03:27,190
+it means that there's a path between the
+source to attack otherwise it's
+
+184
+00:03:27,190 --> 00:03:27,200
+source to attack otherwise it's
+ 
+
+185
+00:03:27,200 --> 00:03:28,390
+source to attack otherwise it's
+it's not possible right because
+
+186
+00:03:28,390 --> 00:03:28,400
+it's not possible right because
+ 
+
+187
+00:03:28,400 --> 00:03:29,990
+it's not possible right because
+disconnected look there's no path
+
+188
+00:03:29,990 --> 00:03:30,000
+disconnected look there's no path
+ 
+
+189
+00:03:30,000 --> 00:03:31,750
+disconnected look there's no path
+between zero to four right because it's
+
+190
+00:03:31,750 --> 00:03:31,760
+between zero to four right because it's
+ 
+
+191
+00:03:31,760 --> 00:03:33,990
+between zero to four right because it's
+connected so can we use this digion set
+
+192
+00:03:33,990 --> 00:03:34,000
+connected so can we use this digion set
+ 
+
+193
+00:03:34,000 --> 00:03:36,149
+connected so can we use this digion set
+to solve this problem
+
+194
+00:03:36,149 --> 00:03:36,159
+to solve this problem
+ 
+
+195
+00:03:36,159 --> 00:03:38,229
+to solve this problem
+it's quite similar but
+
+196
+00:03:38,229 --> 00:03:38,239
+it's quite similar but
+ 
+
+197
+00:03:38,239 --> 00:03:39,110
+it's quite similar but
+very
+
+198
+00:03:39,110 --> 00:03:39,120
+very
+ 
+
+199
+00:03:39,120 --> 00:03:40,149
+very
+i mean
+
+200
+00:03:40,149 --> 00:03:40,159
+i mean
+ 
+
+201
+00:03:40,159 --> 00:03:41,670
+i mean
+there's something very
+
+202
+00:03:41,670 --> 00:03:41,680
+there's something very
+ 
+
+203
+00:03:41,680 --> 00:03:44,390
+there's something very
+uh slightly different
+
+204
+00:03:44,390 --> 00:03:44,400
+uh slightly different
+ 
+
+205
+00:03:44,400 --> 00:03:46,869
+uh slightly different
+so eric look so what's your thought can
+
+206
+00:03:46,869 --> 00:03:46,879
+so eric look so what's your thought can
+ 
+
+207
+00:03:46,879 --> 00:03:48,949
+so eric look so what's your thought can
+we use the distro set
+
+208
+00:03:48,949 --> 00:03:48,959
+we use the distro set
+ 
+
+209
+00:03:48,959 --> 00:03:51,270
+we use the distro set
+so what is john said we can merge we can
+
+210
+00:03:51,270 --> 00:03:51,280
+so what is john said we can merge we can
+ 
+
+211
+00:03:51,280 --> 00:03:52,949
+so what is john said we can merge we can
+merge two vertex
+
+212
+00:03:52,949 --> 00:03:52,959
+merge two vertex
+ 
+
+213
+00:03:52,959 --> 00:03:55,429
+merge two vertex
+most of our we can check if two vertex
+
+214
+00:03:55,429 --> 00:03:55,439
+most of our we can check if two vertex
+ 
+
+215
+00:03:55,439 --> 00:03:58,070
+most of our we can check if two vertex
+belongs to the same group right
+
+216
+00:03:58,070 --> 00:03:58,080
+belongs to the same group right
+ 
+
+217
+00:03:58,080 --> 00:03:58,949
+belongs to the same group right
+yeah
+
+218
+00:03:58,949 --> 00:03:58,959
+yeah
+ 
+
+219
+00:03:58,959 --> 00:04:01,350
+yeah
+and we can find we can check if the the
+
+220
+00:04:01,350 --> 00:04:01,360
+and we can find we can check if the the
+ 
+
+221
+00:04:01,360 --> 00:04:03,110
+and we can find we can check if the the
+connected group the group sound the
+
+222
+00:04:03,110 --> 00:04:03,120
+connected group the group sound the
+ 
+
+223
+00:04:03,120 --> 00:04:04,550
+connected group the group sound the
+number of groups yeah the number of
+
+224
+00:04:04,550 --> 00:04:04,560
+number of groups yeah the number of
+ 
+
+225
+00:04:04,560 --> 00:04:05,589
+number of groups yeah the number of
+groups
+
+226
+00:04:05,589 --> 00:04:05,599
+groups
+ 
+
+227
+00:04:05,599 --> 00:04:08,630
+groups
+we can get this and what else yeah
+
+228
+00:04:08,630 --> 00:04:08,640
+we can get this and what else yeah
+ 
+
+229
+00:04:08,640 --> 00:04:11,030
+we can get this and what else yeah
+yeah we can find a parent
+
+230
+00:04:11,030 --> 00:04:11,040
+yeah we can find a parent
+ 
+
+231
+00:04:11,040 --> 00:04:13,110
+yeah we can find a parent
+find a group number for five kilometer
+
+232
+00:04:13,110 --> 00:04:13,120
+find a group number for five kilometer
+ 
+
+233
+00:04:13,120 --> 00:04:14,949
+find a group number for five kilometer
+five group which group it belongs to all
+
+234
+00:04:14,949 --> 00:04:14,959
+five group which group it belongs to all
+ 
+
+235
+00:04:14,959 --> 00:04:15,670
+five group which group it belongs to all
+right
+
+236
+00:04:15,670 --> 00:04:15,680
+right
+ 
+
+237
+00:04:15,680 --> 00:04:16,710
+right
+so
+
+238
+00:04:16,710 --> 00:04:16,720
+so
+ 
+
+239
+00:04:16,720 --> 00:04:18,629
+so
+can we use this for to solve this
+
+240
+00:04:18,629 --> 00:04:18,639
+can we use this for to solve this
+ 
+
+241
+00:04:18,639 --> 00:04:19,590
+can we use this for to solve this
+problem
+
+242
+00:04:19,590 --> 00:04:19,600
+problem
+ 
+
+243
+00:04:19,600 --> 00:04:22,310
+problem
+any idea what's your thoughts
+
+244
+00:04:22,310 --> 00:04:22,320
+any idea what's your thoughts
+ 
+
+245
+00:04:22,320 --> 00:04:24,629
+any idea what's your thoughts
+what what's your thinking
+
+246
+00:04:24,629 --> 00:04:24,639
+what what's your thinking
+ 
+
+247
+00:04:24,639 --> 00:04:27,189
+what what's your thinking
+how do we find out if only if everybody
+
+248
+00:04:27,189 --> 00:04:27,199
+how do we find out if only if everybody
+ 
+
+249
+00:04:27,199 --> 00:04:29,189
+how do we find out if only if everybody
+has at least one friend
+
+250
+00:04:29,189 --> 00:04:29,199
+has at least one friend
+ 
+
+251
+00:04:29,199 --> 00:04:31,270
+has at least one friend
+at least one friend right
+
+252
+00:04:31,270 --> 00:04:31,280
+at least one friend right
+ 
+
+253
+00:04:31,280 --> 00:04:33,030
+at least one friend right
+so at least one friend we can think
+
+254
+00:04:33,030 --> 00:04:33,040
+so at least one friend we can think
+ 
+
+255
+00:04:33,040 --> 00:04:36,150
+so at least one friend we can think
+about at least one edge yeah
+
+256
+00:04:36,150 --> 00:04:36,160
+about at least one edge yeah
+ 
+
+257
+00:04:36,160 --> 00:04:37,030
+about at least one edge yeah
+okay
+
+258
+00:04:37,030 --> 00:04:37,040
+okay
+ 
+
+259
+00:04:37,040 --> 00:04:37,909
+okay
+so
+
+260
+00:04:37,909 --> 00:04:37,919
+so
+ 
+
+261
+00:04:37,919 --> 00:04:40,070
+so
+what's your song any idea
+
+262
+00:04:40,070 --> 00:04:40,080
+what's your song any idea
+ 
+
+263
+00:04:40,080 --> 00:04:42,629
+what's your song any idea
+i think it's something
+
+264
+00:04:42,629 --> 00:04:42,639
+i think it's something
+ 
+
+265
+00:04:42,639 --> 00:04:45,030
+i think it's something
+don't worry just uh think about uh just
+
+266
+00:04:45,030 --> 00:04:45,040
+don't worry just uh think about uh just
+ 
+
+267
+00:04:45,040 --> 00:04:48,629
+don't worry just uh think about uh just
+talk about what's your sauce any sauce
+
+268
+00:04:48,629 --> 00:04:48,639
+talk about what's your sauce any sauce
+ 
+
+269
+00:04:48,639 --> 00:04:50,629
+talk about what's your sauce any sauce
+how is something
+
+270
+00:04:50,629 --> 00:04:50,639
+how is something
+ 
+
+271
+00:04:50,639 --> 00:04:52,629
+how is something
+you don't have sauce so can we use these
+
+272
+00:04:52,629 --> 00:04:52,639
+you don't have sauce so can we use these
+ 
+
+273
+00:04:52,639 --> 00:04:54,150
+you don't have sauce so can we use these
+dishes
+
+274
+00:04:54,150 --> 00:04:54,160
+dishes
+ 
+
+275
+00:04:54,160 --> 00:04:58,070
+dishes
+yes
+
+276
+00:04:58,070 --> 00:04:58,080
+
+ 
+
+277
+00:04:58,080 --> 00:04:59,830
+
+if you don't have any sauce what's the
+
+278
+00:04:59,830 --> 00:04:59,840
+if you don't have any sauce what's the
+ 
+
+279
+00:04:59,840 --> 00:05:02,469
+if you don't have any sauce what's the
+first thing you need to check
+
+280
+00:05:02,469 --> 00:05:02,479
+first thing you need to check
+ 
+
+281
+00:05:02,479 --> 00:05:05,749
+first thing you need to check
+source b
+
+282
+00:05:05,749 --> 00:05:05,759
+
+ 
+
+283
+00:05:05,759 --> 00:05:12,710
+
+b
+
+284
+00:05:12,710 --> 00:05:12,720
+
+ 
+
+285
+00:05:12,720 --> 00:05:15,990
+
+the question the question is to ask
+
+286
+00:05:15,990 --> 00:05:16,000
+the question the question is to ask
+ 
+
+287
+00:05:16,000 --> 00:05:18,629
+the question the question is to ask
+if everybody has at least one friend so
+
+288
+00:05:18,629 --> 00:05:18,639
+if everybody has at least one friend so
+ 
+
+289
+00:05:18,639 --> 00:05:21,350
+if everybody has at least one friend so
+we just need to go through everybody
+
+290
+00:05:21,350 --> 00:05:21,360
+we just need to go through everybody
+ 
+
+291
+00:05:21,360 --> 00:05:24,150
+we just need to go through everybody
+right oh yeah and then check if it has
+
+292
+00:05:24,150 --> 00:05:24,160
+right oh yeah and then check if it has
+ 
+
+293
+00:05:24,160 --> 00:05:26,150
+right oh yeah and then check if it has
+one friend right
+
+294
+00:05:26,150 --> 00:05:26,160
+one friend right
+ 
+
+295
+00:05:26,160 --> 00:05:28,390
+one friend right
+oh yeah so how do we check if everyone's
+
+296
+00:05:28,390 --> 00:05:28,400
+oh yeah so how do we check if everyone's
+ 
+
+297
+00:05:28,400 --> 00:05:31,350
+oh yeah so how do we check if everyone's
+friends so if we process this graph
+
+298
+00:05:31,350 --> 00:05:31,360
+friends so if we process this graph
+ 
+
+299
+00:05:31,360 --> 00:05:33,270
+friends so if we process this graph
+into a
+
+300
+00:05:33,270 --> 00:05:33,280
+into a
+ 
+
+301
+00:05:33,280 --> 00:05:37,189
+into a
+headset right we can just use a hashtag
+
+302
+00:05:37,189 --> 00:05:37,199
+headset right we can just use a hashtag
+ 
+
+303
+00:05:37,199 --> 00:05:38,710
+headset right we can just use a hashtag
+uh uh
+
+304
+00:05:38,710 --> 00:05:38,720
+uh uh
+ 
+
+305
+00:05:38,720 --> 00:05:41,189
+uh uh
+to store these the what key is that
+
+306
+00:05:41,189 --> 00:05:41,199
+to store these the what key is that
+ 
+
+307
+00:05:41,199 --> 00:05:43,590
+to store these the what key is that
+remember key is the vertex
+
+308
+00:05:43,590 --> 00:05:43,600
+remember key is the vertex
+ 
+
+309
+00:05:43,600 --> 00:05:46,070
+remember key is the vertex
+vertex and the value
+
+310
+00:05:46,070 --> 00:05:46,080
+vertex and the value
+ 
+
+311
+00:05:46,080 --> 00:05:47,830
+vertex and the value
+is a list
+
+312
+00:05:47,830 --> 00:05:47,840
+is a list
+ 
+
+313
+00:05:47,840 --> 00:05:50,230
+is a list
+of edges it points to right
+
+314
+00:05:50,230 --> 00:05:50,240
+of edges it points to right
+ 
+
+315
+00:05:50,240 --> 00:05:53,670
+of edges it points to right
+x is equal to list of vertex okay vertex
+
+316
+00:05:53,670 --> 00:05:53,680
+x is equal to list of vertex okay vertex
+ 
+
+317
+00:05:53,680 --> 00:05:55,029
+x is equal to list of vertex okay vertex
+is connected to
+
+318
+00:05:55,029 --> 00:05:55,039
+is connected to
+ 
+
+319
+00:05:55,039 --> 00:05:57,189
+is connected to
+so if we pre-process these edges into
+
+320
+00:05:57,189 --> 00:05:57,199
+so if we pre-process these edges into
+ 
+
+321
+00:05:57,199 --> 00:05:59,110
+so if we pre-process these edges into
+this adjacent linked list we call
+
+322
+00:05:59,110 --> 00:05:59,120
+this adjacent linked list we call
+ 
+
+323
+00:05:59,120 --> 00:06:01,430
+this adjacent linked list we call
+adjacent inputs then we check we go
+
+324
+00:06:01,430 --> 00:06:01,440
+adjacent inputs then we check we go
+ 
+
+325
+00:06:01,440 --> 00:06:03,909
+adjacent inputs then we check we go
+through each we go through each vertex
+
+326
+00:06:03,909 --> 00:06:03,919
+through each we go through each vertex
+ 
+
+327
+00:06:03,919 --> 00:06:04,950
+through each we go through each vertex
+right
+
+328
+00:06:04,950 --> 00:06:04,960
+right
+ 
+
+329
+00:06:04,960 --> 00:06:06,790
+right
+and then check
+
+330
+00:06:06,790 --> 00:06:06,800
+and then check
+ 
+
+331
+00:06:06,800 --> 00:06:11,909
+and then check
+and then check what and i check if it's
+
+332
+00:06:11,909 --> 00:06:11,919
+
+ 
+
+333
+00:06:11,919 --> 00:06:14,390
+
+if the list the size is more than one
+
+334
+00:06:14,390 --> 00:06:14,400
+if the list the size is more than one
+ 
+
+335
+00:06:14,400 --> 00:06:16,150
+if the list the size is more than one
+right if it's no more than one if it's
+
+336
+00:06:16,150 --> 00:06:16,160
+right if it's no more than one if it's
+ 
+
+337
+00:06:16,160 --> 00:06:17,430
+right if it's no more than one if it's
+yellow what does it mean it doesn't have
+
+338
+00:06:17,430 --> 00:06:17,440
+yellow what does it mean it doesn't have
+ 
+
+339
+00:06:17,440 --> 00:06:19,510
+yellow what does it mean it doesn't have
+any connection to other people right
+
+340
+00:06:19,510 --> 00:06:19,520
+any connection to other people right
+ 
+
+341
+00:06:19,520 --> 00:06:22,070
+any connection to other people right
+right yeah so remember if we give you
+
+342
+00:06:22,070 --> 00:06:22,080
+right yeah so remember if we give you
+ 
+
+343
+00:06:22,080 --> 00:06:24,230
+right yeah so remember if we give you
+this zero to one you need to also
+
+344
+00:06:24,230 --> 00:06:24,240
+this zero to one you need to also
+ 
+
+345
+00:06:24,240 --> 00:06:26,629
+this zero to one you need to also
+pre-process this one to zero okay and
+
+346
+00:06:26,629 --> 00:06:26,639
+pre-process this one to zero okay and
+ 
+
+347
+00:06:26,639 --> 00:06:28,790
+pre-process this one to zero okay and
+then you go through the each one and
+
+348
+00:06:28,790 --> 00:06:28,800
+then you go through the each one and
+ 
+
+349
+00:06:28,800 --> 00:06:30,710
+then you go through the each one and
+then let's say the time conduct stays
+
+350
+00:06:30,710 --> 00:06:30,720
+then let's say the time conduct stays
+ 
+
+351
+00:06:30,720 --> 00:06:33,350
+then let's say the time conduct stays
+over if the end vertex what's the term
+
+352
+00:06:33,350 --> 00:06:33,360
+over if the end vertex what's the term
+ 
+
+353
+00:06:33,360 --> 00:06:35,670
+over if the end vertex what's the term
+complexity
+
+354
+00:06:35,670 --> 00:06:35,680
+complexity
+ 
+
+355
+00:06:35,680 --> 00:06:38,390
+complexity
+what's the time complexity
+
+356
+00:06:38,390 --> 00:06:38,400
+what's the time complexity
+ 
+
+357
+00:06:38,400 --> 00:06:41,110
+what's the time complexity
+of our m square
+
+358
+00:06:41,110 --> 00:06:41,120
+of our m square
+ 
+
+359
+00:06:41,120 --> 00:06:43,189
+of our m square
+oh well it's going through each vertex
+
+360
+00:06:43,189 --> 00:06:43,199
+oh well it's going through each vertex
+ 
+
+361
+00:06:43,199 --> 00:06:45,110
+oh well it's going through each vertex
+but how do we check if there's a
+
+362
+00:06:45,110 --> 00:06:45,120
+but how do we check if there's a
+ 
+
+363
+00:06:45,120 --> 00:06:46,629
+but how do we check if there's a
+connection or no we just check need to
+
+364
+00:06:46,629 --> 00:06:46,639
+connection or no we just check need to
+ 
+
+365
+00:06:46,639 --> 00:06:48,390
+connection or no we just check need to
+check the length of
+
+366
+00:06:48,390 --> 00:06:48,400
+check the length of
+ 
+
+367
+00:06:48,400 --> 00:06:50,950
+check the length of
+yeah this is a one so all n times a one
+
+368
+00:06:50,950 --> 00:06:50,960
+yeah this is a one so all n times a one
+ 
+
+369
+00:06:50,960 --> 00:06:52,230
+yeah this is a one so all n times a one
+equals one
+
+370
+00:06:52,230 --> 00:06:52,240
+equals one
+ 
+
+371
+00:06:52,240 --> 00:06:54,150
+equals one
+yeah okay that's one solution that's
+
+372
+00:06:54,150 --> 00:06:54,160
+yeah okay that's one solution that's
+ 
+
+373
+00:06:54,160 --> 00:06:55,749
+yeah okay that's one solution that's
+root four thing it's good enough yeah
+
+374
+00:06:55,749 --> 00:06:55,759
+root four thing it's good enough yeah
+ 
+
+375
+00:06:55,759 --> 00:06:57,510
+root four thing it's good enough yeah
+but we'll talk about using this this
+
+376
+00:06:57,510 --> 00:06:57,520
+but we'll talk about using this this
+ 
+
+377
+00:06:57,520 --> 00:06:59,350
+but we'll talk about using this this
+joint set how do we pitch again
+
+378
+00:06:59,350 --> 00:06:59,360
+joint set how do we pitch again
+ 
+
+379
+00:06:59,360 --> 00:07:02,309
+joint set how do we pitch again
+if we
+
+380
+00:07:02,309 --> 00:07:02,319
+if we
+ 
+
+381
+00:07:02,319 --> 00:07:03,189
+if we
+it
+
+382
+00:07:03,189 --> 00:07:03,199
+it
+ 
+
+383
+00:07:03,199 --> 00:07:04,710
+it
+it's fine
+
+384
+00:07:04,710 --> 00:07:04,720
+it's fine
+ 
+
+385
+00:07:04,720 --> 00:07:05,909
+it's fine
+yeah it's fine
+
+386
+00:07:05,909 --> 00:07:05,919
+yeah it's fine
+ 
+
+387
+00:07:05,919 --> 00:07:07,909
+yeah it's fine
+yeah here is more solutions there so
+
+388
+00:07:07,909 --> 00:07:07,919
+yeah here is more solutions there so
+ 
+
+389
+00:07:07,919 --> 00:07:09,589
+yeah here is more solutions there so
+this shows that we create the distance
+
+390
+00:07:09,589 --> 00:07:09,599
+this shows that we create the distance
+ 
+
+391
+00:07:09,599 --> 00:07:11,350
+this shows that we create the distance
+that we merge it yeah we merge it like
+
+392
+00:07:11,350 --> 00:07:11,360
+that we merge it yeah we merge it like
+ 
+
+393
+00:07:11,360 --> 00:07:14,070
+that we merge it yeah we merge it like
+that right but look we're not checking
+
+394
+00:07:14,070 --> 00:07:14,080
+that right but look we're not checking
+ 
+
+395
+00:07:14,080 --> 00:07:16,629
+that right but look we're not checking
+this group right we are not checking the
+
+396
+00:07:16,629 --> 00:07:16,639
+this group right we are not checking the
+ 
+
+397
+00:07:16,639 --> 00:07:17,990
+this group right we are not checking the
+same group right
+
+398
+00:07:17,990 --> 00:07:18,000
+same group right
+ 
+
+399
+00:07:18,000 --> 00:07:20,070
+same group right
+we are not checking the look this is two
+
+400
+00:07:20,070 --> 00:07:20,080
+we are not checking the look this is two
+ 
+
+401
+00:07:20,080 --> 00:07:21,670
+we are not checking the look this is two
+group right
+
+402
+00:07:21,670 --> 00:07:21,680
+group right
+ 
+
+403
+00:07:21,680 --> 00:07:22,469
+group right
+yeah
+
+404
+00:07:22,469 --> 00:07:22,479
+yeah
+ 
+
+405
+00:07:22,479 --> 00:07:24,950
+yeah
+but how about this this two group you
+
+406
+00:07:24,950 --> 00:07:24,960
+but how about this this two group you
+ 
+
+407
+00:07:24,960 --> 00:07:27,029
+but how about this this two group you
+need to tell me is true is false because
+
+408
+00:07:27,029 --> 00:07:27,039
+need to tell me is true is false because
+ 
+
+409
+00:07:27,039 --> 00:07:29,189
+need to tell me is true is false because
+two doesn't have any friend how about is
+
+410
+00:07:29,189 --> 00:07:29,199
+two doesn't have any friend how about is
+ 
+
+411
+00:07:29,199 --> 00:07:31,189
+two doesn't have any friend how about is
+zero to one
+
+412
+00:07:31,189 --> 00:07:31,199
+zero to one
+ 
+
+413
+00:07:31,199 --> 00:07:34,390
+zero to one
+and then one to two uh two to three
+
+414
+00:07:34,390 --> 00:07:34,400
+and then one to two uh two to three
+ 
+
+415
+00:07:34,400 --> 00:07:35,430
+and then one to two uh two to three
+you see
+
+416
+00:07:35,430 --> 00:07:35,440
+you see
+ 
+
+417
+00:07:35,440 --> 00:07:38,550
+you see
+still two groups but at least everybody
+
+418
+00:07:38,550 --> 00:07:38,560
+still two groups but at least everybody
+ 
+
+419
+00:07:38,560 --> 00:07:40,469
+still two groups but at least everybody
+has at least one friend you see
+
+420
+00:07:40,469 --> 00:07:40,479
+has at least one friend you see
+ 
+
+421
+00:07:40,479 --> 00:07:41,589
+has at least one friend you see
+right
+
+422
+00:07:41,589 --> 00:07:41,599
+right
+ 
+
+423
+00:07:41,599 --> 00:07:44,550
+right
+okay so so this is the
+
+424
+00:07:44,550 --> 00:07:44,560
+okay so so this is the
+ 
+
+425
+00:07:44,560 --> 00:07:46,550
+okay so so this is the
+this is irrelevant to the group right
+
+426
+00:07:46,550 --> 00:07:46,560
+this is irrelevant to the group right
+ 
+
+427
+00:07:46,560 --> 00:07:51,350
+this is irrelevant to the group right
+number of groups so how can we do this
+
+428
+00:07:51,350 --> 00:07:51,360
+
+ 
+
+429
+00:07:51,360 --> 00:07:53,670
+
+no no no we need to find out the parent
+
+430
+00:07:53,670 --> 00:07:53,680
+no no no we need to find out the parent
+ 
+
+431
+00:07:53,680 --> 00:07:55,189
+no no no we need to find out the parent
+the group
+
+432
+00:07:55,189 --> 00:07:55,199
+the group
+ 
+
+433
+00:07:55,199 --> 00:07:58,150
+the group
+so if we find all the group the groups
+
+434
+00:07:58,150 --> 00:07:58,160
+so if we find all the group the groups
+ 
+
+435
+00:07:58,160 --> 00:08:00,309
+so if we find all the group the groups
+for each vertex and then
+
+436
+00:08:00,309 --> 00:08:00,319
+for each vertex and then
+ 
+
+437
+00:08:00,319 --> 00:08:01,189
+for each vertex and then
+look
+
+438
+00:08:01,189 --> 00:08:01,199
+look
+ 
+
+439
+00:08:01,199 --> 00:08:03,110
+look
+how many groups how many groups does it
+
+440
+00:08:03,110 --> 00:08:03,120
+how many groups how many groups does it
+ 
+
+441
+00:08:03,120 --> 00:08:04,640
+how many groups how many groups does it
+belongs to
+
+442
+00:08:04,640 --> 00:08:04,650
+belongs to
+ 
+
+443
+00:08:04,650 --> 00:08:05,830
+belongs to
+[Music]
+
+444
+00:08:05,830 --> 00:08:05,840
+[Music]
+ 
+
+445
+00:08:05,840 --> 00:08:08,710
+[Music]
+two right two look this is one if this
+
+446
+00:08:08,710 --> 00:08:08,720
+two right two look this is one if this
+ 
+
+447
+00:08:08,720 --> 00:08:10,070
+two right two look this is one if this
+group one
+
+448
+00:08:10,070 --> 00:08:10,080
+group one
+ 
+
+449
+00:08:10,080 --> 00:08:14,950
+group one
+group a right a a b b
+
+450
+00:08:14,950 --> 00:08:14,960
+
+ 
+
+451
+00:08:14,960 --> 00:08:16,950
+
+okay so what does this mean so you see
+
+452
+00:08:16,950 --> 00:08:16,960
+okay so what does this mean so you see
+ 
+
+453
+00:08:16,960 --> 00:08:18,390
+okay so what does this mean so you see
+every
+
+454
+00:08:18,390 --> 00:08:18,400
+every
+ 
+
+455
+00:08:18,400 --> 00:08:21,270
+every
+uh the group number needs to be at least
+
+456
+00:08:21,270 --> 00:08:21,280
+uh the group number needs to be at least
+ 
+
+457
+00:08:21,280 --> 00:08:22,309
+uh the group number needs to be at least
+at least
+
+458
+00:08:22,309 --> 00:08:22,319
+at least
+ 
+
+459
+00:08:22,319 --> 00:08:23,510
+at least
+two right
+
+460
+00:08:23,510 --> 00:08:23,520
+two right
+ 
+
+461
+00:08:23,520 --> 00:08:25,589
+two right
+and how about this even if he's
+
+462
+00:08:25,589 --> 00:08:25,599
+and how about this even if he's
+ 
+
+463
+00:08:25,599 --> 00:08:29,029
+and how about this even if he's
+4 here i know this is group c c
+
+464
+00:08:29,029 --> 00:08:29,039
+4 here i know this is group c c
+ 
+
+465
+00:08:29,039 --> 00:08:31,670
+4 here i know this is group c c
+only appears once right so if we can do
+
+466
+00:08:31,670 --> 00:08:31,680
+only appears once right so if we can do
+ 
+
+467
+00:08:31,680 --> 00:08:32,550
+only appears once right so if we can do
+this
+
+468
+00:08:32,550 --> 00:08:32,560
+this
+ 
+
+469
+00:08:32,560 --> 00:08:34,550
+this
+we can find we can put it in the counter
+
+470
+00:08:34,550 --> 00:08:34,560
+we can find we can put it in the counter
+ 
+
+471
+00:08:34,560 --> 00:08:38,149
+we can find we can put it in the counter
+right and we cop we just
+
+472
+00:08:38,149 --> 00:08:38,159
+
+ 
+
+473
+00:08:38,159 --> 00:08:40,469
+
+we just check the values
+
+474
+00:08:40,469 --> 00:08:40,479
+we just check the values
+ 
+
+475
+00:08:40,479 --> 00:08:42,230
+we just check the values
+the key is the goal number the value is
+
+476
+00:08:42,230 --> 00:08:42,240
+the key is the goal number the value is
+ 
+
+477
+00:08:42,240 --> 00:08:44,310
+the key is the goal number the value is
+the number of times the number of vertex
+
+478
+00:08:44,310 --> 00:08:44,320
+the number of times the number of vertex
+ 
+
+479
+00:08:44,320 --> 00:08:46,710
+the number of times the number of vertex
+it belongs to right if
+
+480
+00:08:46,710 --> 00:08:46,720
+it belongs to right if
+ 
+
+481
+00:08:46,720 --> 00:08:49,750
+it belongs to right if
+uh if the value is one what does it mean
+
+482
+00:08:49,750 --> 00:08:49,760
+uh if the value is one what does it mean
+ 
+
+483
+00:08:49,760 --> 00:08:51,590
+uh if the value is one what does it mean
+if the word value is one what does it
+
+484
+00:08:51,590 --> 00:08:51,600
+if the word value is one what does it
+ 
+
+485
+00:08:51,600 --> 00:08:53,990
+if the word value is one what does it
+mean there is only one friend there's a
+
+486
+00:08:53,990 --> 00:08:54,000
+mean there is only one friend there's a
+ 
+
+487
+00:08:54,000 --> 00:08:55,750
+mean there is only one friend there's a
+friend which doesn't have any friends
+
+488
+00:08:55,750 --> 00:08:55,760
+friend which doesn't have any friends
+ 
+
+489
+00:08:55,760 --> 00:08:56,949
+friend which doesn't have any friends
+right
+
+490
+00:08:56,949 --> 00:08:56,959
+right
+ 
+
+491
+00:08:56,959 --> 00:08:58,630
+right
+that's why the girl number is one
+
+492
+00:08:58,630 --> 00:08:58,640
+that's why the girl number is one
+ 
+
+493
+00:08:58,640 --> 00:09:00,150
+that's why the girl number is one
+because there's no other friend who
+
+494
+00:09:00,150 --> 00:09:00,160
+because there's no other friend who
+ 
+
+495
+00:09:00,160 --> 00:09:02,470
+because there's no other friend who
+shares the same group okay so let's do
+
+496
+00:09:02,470 --> 00:09:02,480
+shares the same group okay so let's do
+ 
+
+497
+00:09:02,480 --> 00:09:03,750
+shares the same group okay so let's do
+this
+
+498
+00:09:03,750 --> 00:09:03,760
+this
+ 
+
+499
+00:09:03,760 --> 00:09:05,829
+this
+it should be very easy right let's say
+
+500
+00:09:05,829 --> 00:09:05,839
+it should be very easy right let's say
+ 
+
+501
+00:09:05,839 --> 00:09:06,829
+it should be very easy right let's say
+define
+
+502
+00:09:06,829 --> 00:09:06,839
+define
+ 
+
+503
+00:09:06,839 --> 00:09:09,190
+define
+uh check okay let's just call it
+
+504
+00:09:09,190 --> 00:09:09,200
+uh check okay let's just call it
+ 
+
+505
+00:09:09,200 --> 00:09:11,030
+uh check okay let's just call it
+function full
+
+506
+00:09:11,030 --> 00:09:11,040
+function full
+ 
+
+507
+00:09:11,040 --> 00:09:12,630
+function full
+uh
+
+508
+00:09:12,630 --> 00:09:12,640
+uh
+ 
+
+509
+00:09:12,640 --> 00:09:14,389
+uh
+let's just call it g
+
+510
+00:09:14,389 --> 00:09:14,399
+let's just call it g
+ 
+
+511
+00:09:14,399 --> 00:09:18,389
+let's just call it g
+uh maybe edges
+
+512
+00:09:18,389 --> 00:09:18,399
+
+ 
+
+513
+00:09:18,399 --> 00:09:35,269
+
+okay so this john said this is
+
+514
+00:09:35,269 --> 00:09:35,279
+
+ 
+
+515
+00:09:35,279 --> 00:09:37,269
+
+okay and then we do is what
+
+516
+00:09:37,269 --> 00:09:37,279
+okay and then we do is what
+ 
+
+517
+00:09:37,279 --> 00:09:39,350
+okay and then we do is what
+for a b
+
+518
+00:09:39,350 --> 00:09:39,360
+for a b
+ 
+
+519
+00:09:39,360 --> 00:09:41,750
+for a b
+in ts
+
+520
+00:09:41,750 --> 00:09:41,760
+in ts
+ 
+
+521
+00:09:41,760 --> 00:09:44,790
+in ts
+a is a friend of b so we do this ts dot
+
+522
+00:09:44,790 --> 00:09:44,800
+a is a friend of b so we do this ts dot
+ 
+
+523
+00:09:44,800 --> 00:09:48,150
+a is a friend of b so we do this ts dot
+or which function is it
+
+524
+00:09:48,150 --> 00:09:48,160
+or which function is it
+ 
+
+525
+00:09:48,160 --> 00:09:52,949
+or which function is it
+come on
+
+526
+00:09:52,949 --> 00:09:52,959
+
+ 
+
+527
+00:09:52,959 --> 00:09:53,829
+
+right
+
+528
+00:09:53,829 --> 00:09:53,839
+right
+ 
+
+529
+00:09:53,839 --> 00:09:56,150
+right
+so now we call this look
+
+530
+00:09:56,150 --> 00:09:56,160
+so now we call this look
+ 
+
+531
+00:09:56,160 --> 00:09:58,389
+so now we call this look
+zero to one look look at me two and
+
+532
+00:09:58,389 --> 00:09:58,399
+zero to one look look at me two and
+ 
+
+533
+00:09:58,399 --> 00:10:02,230
+zero to one look look at me two and
+three again come on turn around please
+
+534
+00:10:02,230 --> 00:10:02,240
+three again come on turn around please
+ 
+
+535
+00:10:02,240 --> 00:10:03,269
+three again come on turn around please
+let's look
+
+536
+00:10:03,269 --> 00:10:03,279
+let's look
+ 
+
+537
+00:10:03,279 --> 00:10:05,110
+let's look
+zero to one one two two three there are
+
+538
+00:10:05,110 --> 00:10:05,120
+zero to one one two two three there are
+ 
+
+539
+00:10:05,120 --> 00:10:06,790
+zero to one one two two three there are
+two groups right but we want to find out
+
+540
+00:10:06,790 --> 00:10:06,800
+two groups right but we want to find out
+ 
+
+541
+00:10:06,800 --> 00:10:08,389
+two groups right but we want to find out
+the group number and put it in the
+
+542
+00:10:08,389 --> 00:10:08,399
+the group number and put it in the
+ 
+
+543
+00:10:08,399 --> 00:10:10,710
+the group number and put it in the
+counter right so look what
+
+544
+00:10:10,710 --> 00:10:10,720
+counter right so look what
+ 
+
+545
+00:10:10,720 --> 00:10:12,389
+counter right so look what
+uh let's say g
+
+546
+00:10:12,389 --> 00:10:12,399
+uh let's say g
+ 
+
+547
+00:10:12,399 --> 00:10:15,110
+uh let's say g
+equals counter
+
+548
+00:10:15,110 --> 00:10:15,120
+equals counter
+ 
+
+549
+00:10:15,120 --> 00:10:17,269
+equals counter
+counter
+
+550
+00:10:17,269 --> 00:10:17,279
+counter
+ 
+
+551
+00:10:17,279 --> 00:10:18,790
+counter
+uh
+
+552
+00:10:18,790 --> 00:10:18,800
+uh
+ 
+
+553
+00:10:18,800 --> 00:10:20,710
+uh
+ps
+
+554
+00:10:20,710 --> 00:10:20,720
+ps
+ 
+
+555
+00:10:20,720 --> 00:10:23,190
+ps
+uh group five group okay let's go find
+
+556
+00:10:23,190 --> 00:10:23,200
+uh group five group okay let's go find
+ 
+
+557
+00:10:23,200 --> 00:10:24,470
+uh group five group okay let's go find
+group
+
+558
+00:10:24,470 --> 00:10:24,480
+group
+ 
+
+559
+00:10:24,480 --> 00:10:25,750
+group
+five group
+
+560
+00:10:25,750 --> 00:10:25,760
+five group
+ 
+
+561
+00:10:25,760 --> 00:10:26,630
+five group
+i
+
+562
+00:10:26,630 --> 00:10:26,640
+i
+ 
+
+563
+00:10:26,640 --> 00:10:27,430
+i
+right
+
+564
+00:10:27,430 --> 00:10:27,440
+right
+ 
+
+565
+00:10:27,440 --> 00:10:29,590
+right
+this is the final group for each one and
+
+566
+00:10:29,590 --> 00:10:29,600
+this is the final group for each one and
+ 
+
+567
+00:10:29,600 --> 00:10:30,550
+this is the final group for each one and
+for
+
+568
+00:10:30,550 --> 00:10:30,560
+for
+ 
+
+569
+00:10:30,560 --> 00:10:34,069
+for
+i
+
+570
+00:10:34,069 --> 00:10:34,079
+
+ 
+
+571
+00:10:34,079 --> 00:10:38,710
+
+in range and right in range m that's it
+
+572
+00:10:38,710 --> 00:10:38,720
+
+ 
+
+573
+00:10:38,720 --> 00:10:42,310
+
+okay so now i just need to check return
+
+574
+00:10:42,310 --> 00:10:42,320
+okay so now i just need to check return
+ 
+
+575
+00:10:42,320 --> 00:10:44,069
+okay so now i just need to check return
+minimum
+
+576
+00:10:44,069 --> 00:10:44,079
+minimum
+ 
+
+577
+00:10:44,079 --> 00:10:48,069
+minimum
+g dot values
+
+578
+00:10:48,069 --> 00:10:48,079
+
+ 
+
+579
+00:10:48,079 --> 00:10:49,430
+
+what d w
+
+580
+00:10:49,430 --> 00:10:49,440
+what d w
+ 
+
+581
+00:10:49,440 --> 00:10:50,949
+what d w
+come on
+
+582
+00:10:50,949 --> 00:10:50,959
+come on
+ 
+
+583
+00:10:50,959 --> 00:10:53,750
+come on
+g dot value is the number of
+
+584
+00:10:53,750 --> 00:10:53,760
+g dot value is the number of
+ 
+
+585
+00:10:53,760 --> 00:10:57,190
+g dot value is the number of
+number of vertex that
+
+586
+00:10:57,190 --> 00:10:57,200
+number of vertex that
+ 
+
+587
+00:10:57,200 --> 00:11:00,790
+number of vertex that
+that has have the same group so if it's
+
+588
+00:11:00,790 --> 00:11:00,800
+that has have the same group so if it's
+ 
+
+589
+00:11:00,800 --> 00:11:02,230
+that has have the same group so if it's
+if it's uh
+
+590
+00:11:02,230 --> 00:11:02,240
+if it's uh
+ 
+
+591
+00:11:02,240 --> 00:11:03,829
+if it's uh
+if we are saying if you're saying that
+
+592
+00:11:03,829 --> 00:11:03,839
+if we are saying if you're saying that
+ 
+
+593
+00:11:03,839 --> 00:11:05,590
+if we are saying if you're saying that
+at least everybody has at least one
+
+594
+00:11:05,590 --> 00:11:05,600
+at least everybody has at least one
+ 
+
+595
+00:11:05,600 --> 00:11:07,750
+at least everybody has at least one
+friend so what's this
+
+596
+00:11:07,750 --> 00:11:07,760
+friend so what's this
+ 
+
+597
+00:11:07,760 --> 00:11:10,310
+friend so what's this
+the minimum the g dot value needs to be
+
+598
+00:11:10,310 --> 00:11:10,320
+the minimum the g dot value needs to be
+ 
+
+599
+00:11:10,320 --> 00:11:11,269
+the minimum the g dot value needs to be
+what
+
+600
+00:11:11,269 --> 00:11:11,279
+what
+ 
+
+601
+00:11:11,279 --> 00:11:13,030
+what
+at least two so it's bigger than one or
+
+602
+00:11:13,030 --> 00:11:13,040
+at least two so it's bigger than one or
+ 
+
+603
+00:11:13,040 --> 00:11:14,710
+at least two so it's bigger than one or
+l is two bigger yeah
+
+604
+00:11:14,710 --> 00:11:14,720
+l is two bigger yeah
+ 
+
+605
+00:11:14,720 --> 00:11:15,990
+l is two bigger yeah
+okay
+
+606
+00:11:15,990 --> 00:11:16,000
+okay
+ 
+
+607
+00:11:16,000 --> 00:11:17,990
+okay
+yeah you see this is the way we're using
+
+608
+00:11:17,990 --> 00:11:18,000
+yeah you see this is the way we're using
+ 
+
+609
+00:11:18,000 --> 00:11:18,710
+yeah you see this is the way we're using
+the
+
+610
+00:11:18,710 --> 00:11:18,720
+the
+ 
+
+611
+00:11:18,720 --> 00:11:21,350
+the
+this joint set to solve this problem uh
+
+612
+00:11:21,350 --> 00:11:21,360
+this joint set to solve this problem uh
+ 
+
+613
+00:11:21,360 --> 00:11:23,430
+this joint set to solve this problem uh
+but we can do it better right because
+
+614
+00:11:23,430 --> 00:11:23,440
+but we can do it better right because
+ 
+
+615
+00:11:23,440 --> 00:11:24,230
+but we can do it better right because
+look
+
+616
+00:11:24,230 --> 00:11:24,240
+look
+ 
+
+617
+00:11:24,240 --> 00:11:28,069
+look
+02 is the friend of one and so these two
+
+618
+00:11:28,069 --> 00:11:28,079
+02 is the friend of one and so these two
+ 
+
+619
+00:11:28,079 --> 00:11:30,790
+02 is the friend of one and so these two
+cannot be the answer right uh cannot be
+
+620
+00:11:30,790 --> 00:11:30,800
+cannot be the answer right uh cannot be
+ 
+
+621
+00:11:30,800 --> 00:11:33,030
+cannot be the answer right uh cannot be
+the the friend who doesn't have any
+
+622
+00:11:33,030 --> 00:11:33,040
+the the friend who doesn't have any
+ 
+
+623
+00:11:33,040 --> 00:11:34,949
+the the friend who doesn't have any
+friend any friend right
+
+624
+00:11:34,949 --> 00:11:34,959
+friend any friend right
+ 
+
+625
+00:11:34,959 --> 00:11:36,150
+friend any friend right
+okay
+
+626
+00:11:36,150 --> 00:11:36,160
+okay
+ 
+
+627
+00:11:36,160 --> 00:11:39,030
+okay
+so what we can allocate a pulling array
+
+628
+00:11:39,030 --> 00:11:39,040
+so what we can allocate a pulling array
+ 
+
+629
+00:11:39,040 --> 00:11:40,870
+so what we can allocate a pulling array
+a boolean pulling what's putting can you
+
+630
+00:11:40,870 --> 00:11:40,880
+a boolean pulling what's putting can you
+ 
+
+631
+00:11:40,880 --> 00:11:41,990
+a boolean pulling what's putting can you
+tell
+
+632
+00:11:41,990 --> 00:11:42,000
+tell
+ 
+
+633
+00:11:42,000 --> 00:11:43,829
+tell
+we talked about this before
+
+634
+00:11:43,829 --> 00:11:43,839
+we talked about this before
+ 
+
+635
+00:11:43,839 --> 00:11:47,829
+we talked about this before
+it has two values put in
+
+636
+00:11:47,829 --> 00:11:47,839
+
+ 
+
+637
+00:11:47,839 --> 00:11:48,630
+
+t
+
+638
+00:11:48,630 --> 00:11:48,640
+t
+ 
+
+639
+00:11:48,640 --> 00:11:50,790
+t
+and f once this
+
+640
+00:11:50,790 --> 00:11:50,800
+and f once this
+ 
+
+641
+00:11:50,800 --> 00:11:52,310
+and f once this
+come on
+
+642
+00:11:52,310 --> 00:11:52,320
+come on
+ 
+
+643
+00:11:52,320 --> 00:11:56,150
+come on
+what's this
+
+644
+00:11:56,150 --> 00:11:56,160
+
+ 
+
+645
+00:11:56,160 --> 00:11:58,069
+
+that's what it means binary true of yeah
+
+646
+00:11:58,069 --> 00:11:58,079
+that's what it means binary true of yeah
+ 
+
+647
+00:11:58,079 --> 00:12:00,150
+that's what it means binary true of yeah
+it's the binary yes finally
+
+648
+00:12:00,150 --> 00:12:00,160
+it's the binary yes finally
+ 
+
+649
+00:12:00,160 --> 00:12:02,550
+it's the binary yes finally
+so we have a boolean variable variable
+
+650
+00:12:02,550 --> 00:12:02,560
+so we have a boolean variable variable
+ 
+
+651
+00:12:02,560 --> 00:12:04,870
+so we have a boolean variable variable
+and at the beginning they all initialize
+
+652
+00:12:04,870 --> 00:12:04,880
+and at the beginning they all initialize
+ 
+
+653
+00:12:04,880 --> 00:12:06,230
+and at the beginning they all initialize
+to false
+
+654
+00:12:06,230 --> 00:12:06,240
+to false
+ 
+
+655
+00:12:06,240 --> 00:12:08,629
+to false
+right and if you look 0 is a friend of
+
+656
+00:12:08,629 --> 00:12:08,639
+right and if you look 0 is a friend of
+ 
+
+657
+00:12:08,639 --> 00:12:11,910
+right and if you look 0 is a friend of
+one so what do we do we set that zero to
+
+658
+00:12:11,910 --> 00:12:11,920
+one so what do we do we set that zero to
+ 
+
+659
+00:12:11,920 --> 00:12:12,710
+one so what do we do we set that zero to
+two
+
+660
+00:12:12,710 --> 00:12:12,720
+two
+ 
+
+661
+00:12:12,720 --> 00:12:14,710
+two
+we set a one to two
+
+662
+00:12:14,710 --> 00:12:14,720
+we set a one to two
+ 
+
+663
+00:12:14,720 --> 00:12:18,389
+we set a one to two
+if two is fine or three what do we do
+
+664
+00:12:18,389 --> 00:12:18,399
+if two is fine or three what do we do
+ 
+
+665
+00:12:18,399 --> 00:12:20,310
+if two is fine or three what do we do
+we say
+
+666
+00:12:20,310 --> 00:12:20,320
+we say
+ 
+
+667
+00:12:20,320 --> 00:12:23,430
+we say
+the two and then the two yeah
+
+668
+00:12:23,430 --> 00:12:23,440
+the two and then the two yeah
+ 
+
+669
+00:12:23,440 --> 00:12:25,829
+the two and then the two yeah
+we just need to check this array to see
+
+670
+00:12:25,829 --> 00:12:25,839
+we just need to check this array to see
+ 
+
+671
+00:12:25,839 --> 00:12:27,590
+we just need to check this array to see
+if it has a
+
+672
+00:12:27,590 --> 00:12:27,600
+if it has a
+ 
+
+673
+00:12:27,600 --> 00:12:29,269
+if it has a
+fourth right
+
+674
+00:12:29,269 --> 00:12:29,279
+fourth right
+ 
+
+675
+00:12:29,279 --> 00:12:31,030
+fourth right
+okay yeah
+
+676
+00:12:31,030 --> 00:12:31,040
+okay yeah
+ 
+
+677
+00:12:31,040 --> 00:12:32,700
+okay yeah
+okay let's do this
+
+678
+00:12:32,700 --> 00:12:32,710
+okay let's do this
+ 
+
+679
+00:12:32,710 --> 00:12:44,550
+okay let's do this
+[Music]
+
+680
+00:12:44,550 --> 00:12:44,560
+
+ 
+
+681
+00:12:44,560 --> 00:12:45,670
+
+okay
+
+682
+00:12:45,670 --> 00:12:45,680
+okay
+ 
+
+683
+00:12:45,680 --> 00:12:49,110
+okay
+okay so look so look uh let's say just
+
+684
+00:12:49,110 --> 00:12:49,120
+okay so look so look uh let's say just
+ 
+
+685
+00:12:49,120 --> 00:12:51,829
+okay so look so look uh let's say just
+uh what do we call we call it theta okay
+
+686
+00:12:51,829 --> 00:12:51,839
+uh what do we call we call it theta okay
+ 
+
+687
+00:12:51,839 --> 00:12:53,910
+uh what do we call we call it theta okay
+theta equals
+
+688
+00:12:53,910 --> 00:12:53,920
+theta equals
+ 
+
+689
+00:12:53,920 --> 00:12:56,150
+theta equals
+force
+
+690
+00:12:56,150 --> 00:12:56,160
+force
+ 
+
+691
+00:12:56,160 --> 00:12:57,430
+force
+force
+
+692
+00:12:57,430 --> 00:12:57,440
+force
+ 
+
+693
+00:12:57,440 --> 00:13:01,750
+force
+times n what does it mean first times n
+
+694
+00:13:01,750 --> 00:13:01,760
+times n what does it mean first times n
+ 
+
+695
+00:13:01,760 --> 00:13:03,269
+times n what does it mean first times n
+sorry
+
+696
+00:13:03,269 --> 00:13:03,279
+sorry
+ 
+
+697
+00:13:03,279 --> 00:13:05,190
+sorry
+come on times multiply for the value
+
+698
+00:13:05,190 --> 00:13:05,200
+come on times multiply for the value
+ 
+
+699
+00:13:05,200 --> 00:13:07,190
+come on times multiply for the value
+multiple n times what does it mean
+
+700
+00:13:07,190 --> 00:13:07,200
+multiple n times what does it mean
+ 
+
+701
+00:13:07,200 --> 00:13:10,069
+multiple n times what does it mean
+there's a list
+
+702
+00:13:10,069 --> 00:13:10,079
+there's a list
+ 
+
+703
+00:13:10,079 --> 00:13:13,110
+there's a list
+with all fours how many fours are there
+
+704
+00:13:13,110 --> 00:13:13,120
+with all fours how many fours are there
+ 
+
+705
+00:13:13,120 --> 00:13:15,670
+with all fours how many fours are there
+and easy yeah look at look at one times
+
+706
+00:13:15,670 --> 00:13:15,680
+and easy yeah look at look at one times
+ 
+
+707
+00:13:15,680 --> 00:13:18,150
+and easy yeah look at look at one times
+three what is what does it become
+
+708
+00:13:18,150 --> 00:13:18,160
+three what is what does it become
+ 
+
+709
+00:13:18,160 --> 00:13:21,030
+three what is what does it become
+one one one right yeah
+
+710
+00:13:21,030 --> 00:13:21,040
+one one one right yeah
+ 
+
+711
+00:13:21,040 --> 00:13:23,670
+one one one right yeah
+yeah easy yeah okay so and how about
+
+712
+00:13:23,670 --> 00:13:23,680
+yeah easy yeah okay so and how about
+ 
+
+713
+00:13:23,680 --> 00:13:24,949
+yeah easy yeah okay so and how about
+this
+
+714
+00:13:24,949 --> 00:13:24,959
+this
+ 
+
+715
+00:13:24,959 --> 00:13:26,389
+this
+a b c
+
+716
+00:13:26,389 --> 00:13:26,399
+a b c
+ 
+
+717
+00:13:26,399 --> 00:13:29,670
+a b c
+times two what is it what do we get
+
+718
+00:13:29,670 --> 00:13:29,680
+times two what is it what do we get
+ 
+
+719
+00:13:29,680 --> 00:13:31,990
+times two what is it what do we get
+a b c a b
+
+720
+00:13:31,990 --> 00:13:32,000
+a b c a b
+ 
+
+721
+00:13:32,000 --> 00:13:33,990
+a b c a b
+a b c we're done yeah you see this
+
+722
+00:13:33,990 --> 00:13:34,000
+a b c we're done yeah you see this
+ 
+
+723
+00:13:34,000 --> 00:13:36,069
+a b c we're done yeah you see this
+multiple is very powerful okay
+
+724
+00:13:36,069 --> 00:13:36,079
+multiple is very powerful okay
+ 
+
+725
+00:13:36,079 --> 00:13:38,629
+multiple is very powerful okay
+uh so we have this force and then what
+
+726
+00:13:38,629 --> 00:13:38,639
+uh so we have this force and then what
+ 
+
+727
+00:13:38,639 --> 00:13:40,310
+uh so we have this force and then what
+do we do for
+
+728
+00:13:40,310 --> 00:13:40,320
+do we do for
+ 
+
+729
+00:13:40,320 --> 00:13:44,310
+do we do for
+a b in edges yeah
+
+730
+00:13:44,310 --> 00:13:44,320
+a b in edges yeah
+ 
+
+731
+00:13:44,320 --> 00:13:46,150
+a b in edges yeah
+and then what should we do this a is
+
+732
+00:13:46,150 --> 00:13:46,160
+and then what should we do this a is
+ 
+
+733
+00:13:46,160 --> 00:13:49,990
+and then what should we do this a is
+friend with b so what should we do theta
+
+734
+00:13:49,990 --> 00:13:50,000
+friend with b so what should we do theta
+ 
+
+735
+00:13:50,000 --> 00:13:52,150
+friend with b so what should we do theta
+theta
+
+736
+00:13:52,150 --> 00:13:52,160
+theta
+ 
+
+737
+00:13:52,160 --> 00:13:57,350
+theta
+dot theta one theta is array theta
+
+738
+00:13:57,350 --> 00:13:57,360
+
+ 
+
+739
+00:13:57,360 --> 00:13:58,870
+
+d tower
+
+740
+00:13:58,870 --> 00:13:58,880
+d tower
+ 
+
+741
+00:13:58,880 --> 00:14:00,150
+d tower
+um
+
+742
+00:14:00,150 --> 00:14:00,160
+um
+ 
+
+743
+00:14:00,160 --> 00:14:02,389
+um
+a is in front of b look a is the front
+
+744
+00:14:02,389 --> 00:14:02,399
+a is in front of b look a is the front
+ 
+
+745
+00:14:02,399 --> 00:14:04,629
+a is in front of b look a is the front
+of b at the beginning f for sloth
+
+746
+00:14:04,629 --> 00:14:04,639
+of b at the beginning f for sloth
+ 
+
+747
+00:14:04,639 --> 00:14:06,310
+of b at the beginning f for sloth
+remember we talked about
+
+748
+00:14:06,310 --> 00:14:06,320
+remember we talked about
+ 
+
+749
+00:14:06,320 --> 00:14:08,389
+remember we talked about
+yeah a equals
+
+750
+00:14:08,389 --> 00:14:08,399
+yeah a equals
+ 
+
+751
+00:14:08,399 --> 00:14:09,590
+yeah a equals
+two
+
+752
+00:14:09,590 --> 00:14:09,600
+two
+ 
+
+753
+00:14:09,600 --> 00:14:11,110
+two
+two okay
+
+754
+00:14:11,110 --> 00:14:11,120
+two okay
+ 
+
+755
+00:14:11,120 --> 00:14:12,470
+two okay
+theta
+
+756
+00:14:12,470 --> 00:14:12,480
+theta
+ 
+
+757
+00:14:12,480 --> 00:14:15,269
+theta
+b equals one
+
+758
+00:14:15,269 --> 00:14:15,279
+b equals one
+ 
+
+759
+00:14:15,279 --> 00:14:17,430
+b equals one
+okay so actually you can write we write
+
+760
+00:14:17,430 --> 00:14:17,440
+okay so actually you can write we write
+ 
+
+761
+00:14:17,440 --> 00:14:19,350
+okay so actually you can write we write
+it into one line look you can write this
+
+762
+00:14:19,350 --> 00:14:19,360
+it into one line look you can write this
+ 
+
+763
+00:14:19,360 --> 00:14:22,629
+it into one line look you can write this
+one theta a equals theta b
+
+764
+00:14:22,629 --> 00:14:22,639
+one theta a equals theta b
+ 
+
+765
+00:14:22,639 --> 00:14:25,030
+one theta a equals theta b
+equals two right
+
+766
+00:14:25,030 --> 00:14:25,040
+equals two right
+ 
+
+767
+00:14:25,040 --> 00:14:29,350
+equals two right
+okay so now we have a way with this way
+
+768
+00:14:29,350 --> 00:14:29,360
+okay so now we have a way with this way
+ 
+
+769
+00:14:29,360 --> 00:14:31,110
+okay so now we have a way with this way
+okay so how can we how can we check
+
+770
+00:14:31,110 --> 00:14:31,120
+okay so how can we how can we check
+ 
+
+771
+00:14:31,120 --> 00:14:32,389
+okay so how can we how can we check
+easily what
+
+772
+00:14:32,389 --> 00:14:32,399
+easily what
+ 
+
+773
+00:14:32,399 --> 00:14:35,750
+easily what
+if there's a two values in in in here
+
+774
+00:14:35,750 --> 00:14:35,760
+if there's a two values in in in here
+ 
+
+775
+00:14:35,760 --> 00:14:38,310
+if there's a two values in in in here
+how do we check if there's uh only one
+
+776
+00:14:38,310 --> 00:14:38,320
+how do we check if there's uh only one
+ 
+
+777
+00:14:38,320 --> 00:14:41,910
+how do we check if there's uh only one
+kind of value here how do we check
+
+778
+00:14:41,910 --> 00:14:41,920
+kind of value here how do we check
+ 
+
+779
+00:14:41,920 --> 00:14:43,990
+kind of value here how do we check
+um
+
+780
+00:14:43,990 --> 00:14:44,000
+um
+ 
+
+781
+00:14:44,000 --> 00:14:46,470
+um
+so how do we check if there is uh
+
+782
+00:14:46,470 --> 00:14:46,480
+so how do we check if there is uh
+ 
+
+783
+00:14:46,480 --> 00:14:47,509
+so how do we check if there is uh
+uh
+
+784
+00:14:47,509 --> 00:14:47,519
+uh
+ 
+
+785
+00:14:47,519 --> 00:14:48,550
+uh
+okay so
+
+786
+00:14:48,550 --> 00:14:48,560
+okay so
+ 
+
+787
+00:14:48,560 --> 00:14:50,629
+okay so
+how do we check if there's a two a laser
+
+788
+00:14:50,629 --> 00:14:50,639
+how do we check if there's a two a laser
+ 
+
+789
+00:14:50,639 --> 00:14:52,629
+how do we check if there's a two a laser
+force in there
+
+790
+00:14:52,629 --> 00:14:52,639
+force in there
+ 
+
+791
+00:14:52,639 --> 00:14:55,509
+force in there
+so look if if everybody is true right so
+
+792
+00:14:55,509 --> 00:14:55,519
+so look if if everybody is true right so
+ 
+
+793
+00:14:55,519 --> 00:14:57,189
+so look if if everybody is true right so
+we want to check if there's a force here
+
+794
+00:14:57,189 --> 00:14:57,199
+we want to check if there's a force here
+ 
+
+795
+00:14:57,199 --> 00:15:00,710
+we want to check if there's a force here
+so one way is that for i in
+
+796
+00:15:00,710 --> 00:15:00,720
+so one way is that for i in
+ 
+
+797
+00:15:00,720 --> 00:15:02,470
+so one way is that for i in
+theta
+
+798
+00:15:02,470 --> 00:15:02,480
+theta
+ 
+
+799
+00:15:02,480 --> 00:15:03,350
+theta
+if
+
+800
+00:15:03,350 --> 00:15:03,360
+if
+ 
+
+801
+00:15:03,360 --> 00:15:04,470
+if
+not i
+
+802
+00:15:04,470 --> 00:15:04,480
+not i
+ 
+
+803
+00:15:04,480 --> 00:15:07,189
+not i
+if i right if not i
+
+804
+00:15:07,189 --> 00:15:07,199
+if i right if not i
+ 
+
+805
+00:15:07,199 --> 00:15:10,629
+if i right if not i
+if not i return four right
+
+806
+00:15:10,629 --> 00:15:10,639
+if not i return four right
+ 
+
+807
+00:15:10,639 --> 00:15:13,430
+if not i return four right
+return first otherwise would be ten two
+
+808
+00:15:13,430 --> 00:15:13,440
+return first otherwise would be ten two
+ 
+
+809
+00:15:13,440 --> 00:15:15,509
+return first otherwise would be ten two
+yeah this is what easy way yeah you go
+
+810
+00:15:15,509 --> 00:15:15,519
+yeah this is what easy way yeah you go
+ 
+
+811
+00:15:15,519 --> 00:15:17,350
+yeah this is what easy way yeah you go
+through each variables in your data and
+
+812
+00:15:17,350 --> 00:15:17,360
+through each variables in your data and
+ 
+
+813
+00:15:17,360 --> 00:15:19,990
+through each variables in your data and
+check it with false if uh if it's false
+
+814
+00:15:19,990 --> 00:15:20,000
+check it with false if uh if it's false
+ 
+
+815
+00:15:20,000 --> 00:15:21,990
+check it with false if uh if it's false
+if it's still false then we determine uh
+
+816
+00:15:21,990 --> 00:15:22,000
+if it's still false then we determine uh
+ 
+
+817
+00:15:22,000 --> 00:15:23,670
+if it's still false then we determine uh
+return force right all right it's
+
+818
+00:15:23,670 --> 00:15:23,680
+return force right all right it's
+ 
+
+819
+00:15:23,680 --> 00:15:26,710
+return force right all right it's
+written true right yeah we want to find
+
+820
+00:15:26,710 --> 00:15:26,720
+written true right yeah we want to find
+ 
+
+821
+00:15:26,720 --> 00:15:28,310
+written true right yeah we want to find
+out that what's
+
+822
+00:15:28,310 --> 00:15:28,320
+out that what's
+ 
+
+823
+00:15:28,320 --> 00:15:30,069
+out that what's
+new it means to
+
+824
+00:15:30,069 --> 00:15:30,079
+new it means to
+ 
+
+825
+00:15:30,079 --> 00:15:33,030
+new it means to
+when it's true it means that all of our
+
+826
+00:15:33,030 --> 00:15:33,040
+when it's true it means that all of our
+ 
+
+827
+00:15:33,040 --> 00:15:35,269
+when it's true it means that all of our
+values in data is true right so how
+
+828
+00:15:35,269 --> 00:15:35,279
+values in data is true right so how
+ 
+
+829
+00:15:35,279 --> 00:15:37,590
+values in data is true right so how
+about we can do this here we can just
+
+830
+00:15:37,590 --> 00:15:37,600
+about we can do this here we can just
+ 
+
+831
+00:15:37,600 --> 00:15:38,310
+about we can do this here we can just
+say
+
+832
+00:15:38,310 --> 00:15:38,320
+say
+ 
+
+833
+00:15:38,320 --> 00:15:41,189
+say
+return
+
+834
+00:15:41,189 --> 00:15:41,199
+return
+ 
+
+835
+00:15:41,199 --> 00:15:45,189
+return
+data look we can use this data.com
+
+836
+00:15:45,189 --> 00:15:45,199
+data look we can use this data.com
+ 
+
+837
+00:15:45,199 --> 00:15:47,509
+data look we can use this data.com
+count force
+
+838
+00:15:47,509 --> 00:15:47,519
+count force
+ 
+
+839
+00:15:47,519 --> 00:15:50,230
+count force
+we need to say count force equal equals
+
+840
+00:15:50,230 --> 00:15:50,240
+we need to say count force equal equals
+ 
+
+841
+00:15:50,240 --> 00:15:51,350
+we need to say count force equal equals
+zero okay
+
+842
+00:15:51,350 --> 00:15:51,360
+zero okay
+ 
+
+843
+00:15:51,360 --> 00:15:53,110
+zero okay
+so what does it mean you will go through
+
+844
+00:15:53,110 --> 00:15:53,120
+so what does it mean you will go through
+ 
+
+845
+00:15:53,120 --> 00:15:55,749
+so what does it mean you will go through
+the data to check that to count how many
+
+846
+00:15:55,749 --> 00:15:55,759
+the data to check that to count how many
+ 
+
+847
+00:15:55,759 --> 00:15:58,629
+the data to check that to count how many
+m how many values are equal to force
+
+848
+00:15:58,629 --> 00:15:58,639
+m how many values are equal to force
+ 
+
+849
+00:15:58,639 --> 00:16:00,550
+m how many values are equal to force
+right and this value needs to be zero
+
+850
+00:16:00,550 --> 00:16:00,560
+right and this value needs to be zero
+ 
+
+851
+00:16:00,560 --> 00:16:05,749
+right and this value needs to be zero
+right great what's the time complexity
+
+852
+00:16:05,749 --> 00:16:05,759
+
+ 
+
+853
+00:16:05,759 --> 00:16:08,150
+
+what's the space complexity what's the
+
+854
+00:16:08,150 --> 00:16:08,160
+what's the space complexity what's the
+ 
+
+855
+00:16:08,160 --> 00:16:08,949
+what's the space complexity what's the
+space
+
+856
+00:16:08,949 --> 00:16:08,959
+space
+ 
+
+857
+00:16:08,959 --> 00:16:13,749
+space
+ow what's a space commission
+
+858
+00:16:13,749 --> 00:16:13,759
+
+ 
+
+859
+00:16:13,759 --> 00:16:16,550
+
+come on are we using any space here
+
+860
+00:16:16,550 --> 00:16:16,560
+come on are we using any space here
+ 
+
+861
+00:16:16,560 --> 00:17:00,949
+come on are we using any space here
+how are you seeing any space here
+
+862
+00:17:00,949 --> 00:17:00,959
+
+ 
+
+863
+00:17:00,959 --> 00:17:02,829
+
+yeah because there should be
+
+864
+00:17:02,829 --> 00:17:02,839
+yeah because there should be
+ 
+
+865
+00:17:02,839 --> 00:17:05,590
+yeah because there should be
+no condo which should be lowercase okay
+
+866
+00:17:05,590 --> 00:17:05,600
+no condo which should be lowercase okay
+ 
+
+867
+00:17:05,600 --> 00:17:07,750
+no condo which should be lowercase okay
+it took one millisecond yeah the cost
+
+868
+00:17:07,750 --> 00:17:07,760
+it took one millisecond yeah the cost
+ 
+
+869
+00:17:07,760 --> 00:17:09,990
+it took one millisecond yeah the cost
+would be lowercase okay because
+
+870
+00:17:09,990 --> 00:17:10,000
+would be lowercase okay because
+ 
+
+871
+00:17:10,000 --> 00:17:11,750
+would be lowercase okay because
+the computer take one
+
+872
+00:17:11,750 --> 00:17:11,760
+the computer take one
+ 
+
+873
+00:17:11,760 --> 00:17:13,270
+the computer take one
+millisecond because
+
+874
+00:17:13,270 --> 00:17:13,280
+millisecond because
+ 
+
+875
+00:17:13,280 --> 00:17:14,949
+millisecond because
+it's really fast okay let's say for
+
+876
+00:17:14,949 --> 00:17:14,959
+it's really fast okay let's say for
+ 
+
+877
+00:17:14,959 --> 00:17:16,710
+it's really fast okay let's say for
+today good job
+
+878
+00:17:16,710 --> 00:17:16,720
+today good job
+ 
+
+879
+00:17:16,720 --> 00:17:20,069
+today good job
+good job say bye to people bye bye
+
+880
+00:17:20,069 --> 00:17:20,079
+good job say bye to people bye bye
+ 
+
+881
+00:17:20,079 --> 00:17:23,079
+good job say bye to people bye bye
+bye
+
