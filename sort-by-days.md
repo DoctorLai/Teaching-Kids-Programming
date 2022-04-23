@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 454 (2022-04-23): [Longest Palindrome String From Set of Characters](https://helloacm.com/teaching-kids-programming-longest-palindrome-string-from-set-of-characters/) 从给定字符集中构建最长回文字符串 [Youtube](https://youtu.be/x2jsjPLr1bY) - [B站](https://www.bilibili.com/video/BV18u411k7ph/)  - [西瓜](https://www.ixigua.com/7089907432381481485) 
 - Day 453 (2022-04-22): [Container With Most Water (Bruteforce, Two Pointer/Greedy Algorithm)](https://helloacm.com/teaching-kids-programming-container-with-most-water-two-pointer-algorithm/) 装水最多的容器(暴力穷举和双指针/贪心算法) [Youtube](https://youtu.be/bkmbUAR0CvQ) - [B站](https://www.bilibili.com/video/BV1cR4y1K7UB/)  - [西瓜](https://www.ixigua.com/7089744224907854373) 
 - Day 452 (2022-04-20): [Longest Increasing Path in a Matrix via Top Down Dynamic Programming Algorithm](https://helloacm.com/teaching-kids-programming-longest-increasing-path-in-a-matrix-via-top-down-dynamic-programming-algorithm/) 基于自顶向下动态规划算法的矩阵中的最长递增路径 [Youtube](https://youtu.be/QIXsXZkLgpc) - [B站](https://www.bilibili.com/video/BV12L4y1G7xs/)  - [西瓜](https://www.ixigua.com/7088795396247552526) 
 - Day 451 (2022-04-19): [Kth Smallest Element in a Binary Search Tree (BST) via Recursive Counting Algorithm](https://helloacm.com/teaching-kids-programming-kth-smallest-element-in-a-bst-via-recursive-counting-algorithm/) 通过递归计数算法在二叉搜索树中找第K个最小元素
