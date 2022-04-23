@@ -1,0 +1,9475 @@
+1
+00:00:00,480 --> 00:00:04,309
+
+hello hello mr mr ryan are you right
+
+2
+00:00:04,309 --> 00:00:04,319
+hello hello mr mr ryan are you right
+ 
+
+3
+00:00:04,319 --> 00:00:06,389
+hello hello mr mr ryan are you right
+yep okay so today we're going to talk
+
+4
+00:00:06,389 --> 00:00:06,399
+yep okay so today we're going to talk
+ 
+
+5
+00:00:06,399 --> 00:00:09,030
+yep okay so today we're going to talk
+about uh an interesting uh data
+
+6
+00:00:09,030 --> 00:00:09,040
+about uh an interesting uh data
+ 
+
+7
+00:00:09,040 --> 00:00:11,030
+about uh an interesting uh data
+structure okay so before we talk about a
+
+8
+00:00:11,030 --> 00:00:11,040
+structure okay so before we talk about a
+ 
+
+9
+00:00:11,040 --> 00:00:12,709
+structure okay so before we talk about a
+new data structure what kind of data
+
+10
+00:00:12,709 --> 00:00:12,719
+new data structure what kind of data
+ 
+
+11
+00:00:12,719 --> 00:00:14,709
+new data structure what kind of data
+structure have you learned so far
+
+12
+00:00:14,709 --> 00:00:14,719
+structure have you learned so far
+ 
+
+13
+00:00:14,719 --> 00:00:16,150
+structure have you learned so far
+they have structure you know what's data
+
+14
+00:00:16,150 --> 00:00:16,160
+they have structure you know what's data
+ 
+
+15
+00:00:16,160 --> 00:00:18,710
+they have structure you know what's data
+structure
+
+16
+00:00:18,710 --> 00:00:18,720
+
+ 
+
+17
+00:00:18,720 --> 00:00:20,790
+
+what's data structure come on
+
+18
+00:00:20,790 --> 00:00:20,800
+what's data structure come on
+ 
+
+19
+00:00:20,800 --> 00:00:22,950
+what's data structure come on
+um the thing is to
+
+20
+00:00:22,950 --> 00:00:22,960
+um the thing is to
+ 
+
+21
+00:00:22,960 --> 00:00:24,950
+um the thing is to
+hold data so what kind of data structure
+
+22
+00:00:24,950 --> 00:00:24,960
+hold data so what kind of data structure
+ 
+
+23
+00:00:24,960 --> 00:00:27,029
+hold data so what kind of data structure
+in computer science have you learned so
+
+24
+00:00:27,029 --> 00:00:27,039
+in computer science have you learned so
+ 
+
+25
+00:00:27,039 --> 00:00:30,230
+in computer science have you learned so
+far you have learned quite a lot right
+
+26
+00:00:30,230 --> 00:00:30,240
+far you have learned quite a lot right
+ 
+
+27
+00:00:30,240 --> 00:00:31,509
+far you have learned quite a lot right
+what are those can you give me an
+
+28
+00:00:31,509 --> 00:00:31,519
+what are those can you give me an
+ 
+
+29
+00:00:31,519 --> 00:00:33,430
+what are those can you give me an
+example three
+
+30
+00:00:33,430 --> 00:00:33,440
+example three
+ 
+
+31
+00:00:33,440 --> 00:00:35,670
+example three
+uh yes good job three is a data
+
+32
+00:00:35,670 --> 00:00:35,680
+uh yes good job three is a data
+ 
+
+33
+00:00:35,680 --> 00:00:38,549
+uh yes good job three is a data
+structure what else
+
+34
+00:00:38,549 --> 00:00:38,559
+structure what else
+ 
+
+35
+00:00:38,559 --> 00:00:40,709
+structure what else
+come on one you usually
+
+36
+00:00:40,709 --> 00:00:40,719
+come on one you usually
+ 
+
+37
+00:00:40,719 --> 00:00:46,840
+come on one you usually
+stack way down when you're back
+
+38
+00:00:46,840 --> 00:00:46,850
+
+ 
+
+39
+00:00:46,850 --> 00:00:56,549
+
+[Music]
+
+40
+00:00:56,549 --> 00:00:56,559
+
+ 
+
+41
+00:00:56,559 --> 00:00:58,229
+
+the one we talked about yesterday you
+
+42
+00:00:58,229 --> 00:00:58,239
+the one we talked about yesterday you
+ 
+
+43
+00:00:58,239 --> 00:00:59,510
+the one we talked about yesterday you
+know to
+
+44
+00:00:59,510 --> 00:00:59,520
+know to
+ 
+
+45
+00:00:59,520 --> 00:01:00,549
+know to
+start with
+
+46
+00:01:00,549 --> 00:01:00,559
+start with
+ 
+
+47
+00:01:00,559 --> 00:01:01,430
+start with
+g
+
+48
+00:01:01,430 --> 00:01:01,440
+g
+ 
+
+49
+00:01:01,440 --> 00:01:03,430
+g
+g q is sticky
+
+50
+00:01:03,430 --> 00:01:03,440
+g q is sticky
+ 
+
+51
+00:01:03,440 --> 00:01:05,990
+g q is sticky
+well done okay so these are our data
+
+52
+00:01:05,990 --> 00:01:06,000
+well done okay so these are our data
+ 
+
+53
+00:01:06,000 --> 00:01:06,870
+well done okay so these are our data
+structure
+
+54
+00:01:06,870 --> 00:01:06,880
+structure
+ 
+
+55
+00:01:06,880 --> 00:01:10,149
+structure
+set set or hash table yeah hash table
+
+56
+00:01:10,149 --> 00:01:10,159
+set set or hash table yeah hash table
+ 
+
+57
+00:01:10,159 --> 00:01:12,149
+set set or hash table yeah hash table
+notebook yeah these are all the same
+
+58
+00:01:12,149 --> 00:01:12,159
+notebook yeah these are all the same
+ 
+
+59
+00:01:12,159 --> 00:01:13,590
+notebook yeah these are all the same
+thing yeah yeah
+
+60
+00:01:13,590 --> 00:01:13,600
+thing yeah yeah
+ 
+
+61
+00:01:13,600 --> 00:01:16,149
+thing yeah yeah
+set settings contains unique numbers
+
+62
+00:01:16,149 --> 00:01:16,159
+set settings contains unique numbers
+ 
+
+63
+00:01:16,159 --> 00:01:18,550
+set settings contains unique numbers
+unique elements only hash table when we
+
+64
+00:01:18,550 --> 00:01:18,560
+unique elements only hash table when we
+ 
+
+65
+00:01:18,560 --> 00:01:21,109
+unique elements only hash table when we
+talk about a table we have these keys
+
+66
+00:01:21,109 --> 00:01:21,119
+talk about a table we have these keys
+ 
+
+67
+00:01:21,119 --> 00:01:23,990
+talk about a table we have these keys
+keys values key value pairs yeah
+
+68
+00:01:23,990 --> 00:01:24,000
+keys values key value pairs yeah
+ 
+
+69
+00:01:24,000 --> 00:01:27,030
+keys values key value pairs yeah
+the the time why we need this
+
+70
+00:01:27,030 --> 00:01:27,040
+the the time why we need this
+ 
+
+71
+00:01:27,040 --> 00:01:29,109
+the the time why we need this
+because we we want the constant time or
+
+72
+00:01:29,109 --> 00:01:29,119
+because we we want the constant time or
+ 
+
+73
+00:01:29,119 --> 00:01:31,830
+because we we want the constant time or
+one time to look up the items
+
+74
+00:01:31,830 --> 00:01:31,840
+one time to look up the items
+ 
+
+75
+00:01:31,840 --> 00:01:34,069
+one time to look up the items
+to check if the items exist in a table
+
+76
+00:01:34,069 --> 00:01:34,079
+to check if the items exist in a table
+ 
+
+77
+00:01:34,079 --> 00:01:37,030
+to check if the items exist in a table
+and then it takes the one constant term
+
+78
+00:01:37,030 --> 00:01:37,040
+and then it takes the one constant term
+ 
+
+79
+00:01:37,040 --> 00:01:38,149
+and then it takes the one constant term
+to put it
+
+80
+00:01:38,149 --> 00:01:38,159
+to put it
+ 
+
+81
+00:01:38,159 --> 00:01:40,069
+to put it
+update the entrance in the table okay
+
+82
+00:01:40,069 --> 00:01:40,079
+update the entrance in the table okay
+ 
+
+83
+00:01:40,079 --> 00:01:42,230
+update the entrance in the table okay
+and grab we talk about graph yes graph
+
+84
+00:01:42,230 --> 00:01:42,240
+and grab we talk about graph yes graph
+ 
+
+85
+00:01:42,240 --> 00:01:44,950
+and grab we talk about graph yes graph
+these contains the vertex and then edges
+
+86
+00:01:44,950 --> 00:01:44,960
+these contains the vertex and then edges
+ 
+
+87
+00:01:44,960 --> 00:01:46,630
+these contains the vertex and then edges
+it's a collection of the vertex and
+
+88
+00:01:46,630 --> 00:01:46,640
+it's a collection of the vertex and
+ 
+
+89
+00:01:46,640 --> 00:01:47,670
+it's a collection of the vertex and
+edges
+
+90
+00:01:47,670 --> 00:01:47,680
+edges
+ 
+
+91
+00:01:47,680 --> 00:01:49,910
+edges
+q stack yeah these are quite normal
+
+92
+00:01:49,910 --> 00:01:49,920
+q stack yeah these are quite normal
+ 
+
+93
+00:01:49,920 --> 00:01:51,510
+q stack yeah these are quite normal
+three and the most important thing we
+
+94
+00:01:51,510 --> 00:01:51,520
+three and the most important thing we
+ 
+
+95
+00:01:51,520 --> 00:01:54,389
+three and the most important thing we
+have least yeah at least
+
+96
+00:01:54,389 --> 00:01:54,399
+have least yeah at least
+ 
+
+97
+00:01:54,399 --> 00:01:56,709
+have least yeah at least
+and list arrays
+
+98
+00:01:56,709 --> 00:01:56,719
+and list arrays
+ 
+
+99
+00:01:56,719 --> 00:01:59,270
+and list arrays
+what else
+
+100
+00:01:59,270 --> 00:01:59,280
+
+ 
+
+101
+00:01:59,280 --> 00:02:01,910
+
+link list yeah
+
+102
+00:02:01,910 --> 00:02:01,920
+link list yeah
+ 
+
+103
+00:02:01,920 --> 00:02:04,230
+link list yeah
+linked list yeah english yeah we talk
+
+104
+00:02:04,230 --> 00:02:04,240
+linked list yeah english yeah we talk
+ 
+
+105
+00:02:04,240 --> 00:02:06,709
+linked list yeah english yeah we talk
+about several problems around english
+
+106
+00:02:06,709 --> 00:02:06,719
+about several problems around english
+ 
+
+107
+00:02:06,719 --> 00:02:11,029
+about several problems around english
+directional
+
+108
+00:02:11,029 --> 00:02:11,039
+
+ 
+
+109
+00:02:11,039 --> 00:02:12,869
+
+english one direction
+
+110
+00:02:12,869 --> 00:02:12,879
+english one direction
+ 
+
+111
+00:02:12,879 --> 00:02:14,869
+english one direction
+if it's two-dimensional we call it
+
+112
+00:02:14,869 --> 00:02:14,879
+if it's two-dimensional we call it
+ 
+
+113
+00:02:14,879 --> 00:02:17,030
+if it's two-dimensional we call it
+doppler
+
+114
+00:02:17,030 --> 00:02:17,040
+doppler
+ 
+
+115
+00:02:17,040 --> 00:02:19,670
+doppler
+doubly linguist okay two directional
+
+116
+00:02:19,670 --> 00:02:19,680
+doubly linguist okay two directional
+ 
+
+117
+00:02:19,680 --> 00:02:22,630
+doubly linguist okay two directional
+police these are all graphs yeah you can
+
+118
+00:02:22,630 --> 00:02:22,640
+police these are all graphs yeah you can
+ 
+
+119
+00:02:22,640 --> 00:02:24,390
+police these are all graphs yeah you can
+think about an english as a graph as
+
+120
+00:02:24,390 --> 00:02:24,400
+think about an english as a graph as
+ 
+
+121
+00:02:24,400 --> 00:02:26,949
+think about an english as a graph as
+well right the graph
+
+122
+00:02:26,949 --> 00:02:26,959
+well right the graph
+ 
+
+123
+00:02:26,959 --> 00:02:30,229
+well right the graph
+yeah dag yeah what's the energy
+
+124
+00:02:30,229 --> 00:02:30,239
+yeah dag yeah what's the energy
+ 
+
+125
+00:02:30,239 --> 00:02:33,910
+yeah dag yeah what's the energy
+directing a solid graph yes yes directly
+
+126
+00:02:33,910 --> 00:02:33,920
+directing a solid graph yes yes directly
+ 
+
+127
+00:02:33,920 --> 00:02:35,670
+directing a solid graph yes yes directly
+a cycle and it could be
+
+128
+00:02:35,670 --> 00:02:35,680
+a cycle and it could be
+ 
+
+129
+00:02:35,680 --> 00:02:39,350
+a cycle and it could be
+undirected right yeah
+
+130
+00:02:39,350 --> 00:02:39,360
+
+ 
+
+131
+00:02:39,360 --> 00:02:41,110
+
+it could be cycling as well and it could
+
+132
+00:02:41,110 --> 00:02:41,120
+it could be cycling as well and it could
+ 
+
+133
+00:02:41,120 --> 00:02:41,830
+it could be cycling as well and it could
+be
+
+134
+00:02:41,830 --> 00:02:41,840
+be
+ 
+
+135
+00:02:41,840 --> 00:02:42,550
+be
+yeah
+
+136
+00:02:42,550 --> 00:02:42,560
+yeah
+ 
+
+137
+00:02:42,560 --> 00:02:45,589
+yeah
+okay so three yeah we call it yeah okay
+
+138
+00:02:45,589 --> 00:02:45,599
+okay so three yeah we call it yeah okay
+ 
+
+139
+00:02:45,599 --> 00:02:46,470
+okay so three yeah we call it yeah okay
+yeah
+
+140
+00:02:46,470 --> 00:02:46,480
+yeah
+ 
+
+141
+00:02:46,480 --> 00:02:57,910
+yeah
+if two trees what do we call it
+
+142
+00:02:57,910 --> 00:02:57,920
+
+ 
+
+143
+00:02:57,920 --> 00:02:59,830
+
+yeah
+
+144
+00:02:59,830 --> 00:02:59,840
+yeah
+ 
+
+145
+00:02:59,840 --> 00:03:04,949
+yeah
+foreign
+
+146
+00:03:04,949 --> 00:03:04,959
+
+ 
+
+147
+00:03:04,959 --> 00:03:07,190
+
+uh today we're going to introduce a new
+
+148
+00:03:07,190 --> 00:03:07,200
+uh today we're going to introduce a new
+ 
+
+149
+00:03:07,200 --> 00:03:08,470
+uh today we're going to introduce a new
+data structure
+
+150
+00:03:08,470 --> 00:03:08,480
+data structure
+ 
+
+151
+00:03:08,480 --> 00:03:10,710
+data structure
+which is called
+
+152
+00:03:10,710 --> 00:03:10,720
+which is called
+ 
+
+153
+00:03:10,720 --> 00:03:13,509
+which is called
+disjoint
+
+154
+00:03:13,509 --> 00:03:13,519
+disjoint
+ 
+
+155
+00:03:13,519 --> 00:03:14,869
+disjoint
+set
+
+156
+00:03:14,869 --> 00:03:14,879
+set
+ 
+
+157
+00:03:14,879 --> 00:03:15,830
+set
+okay
+
+158
+00:03:15,830 --> 00:03:15,840
+okay
+ 
+
+159
+00:03:15,840 --> 00:03:34,550
+okay
+union
+
+160
+00:03:34,550 --> 00:03:34,560
+
+ 
+
+161
+00:03:34,560 --> 00:03:37,990
+
+okay so sets okay so interesting this
+
+162
+00:03:37,990 --> 00:03:38,000
+okay so sets okay so interesting this
+ 
+
+163
+00:03:38,000 --> 00:03:40,229
+okay so sets okay so interesting this
+this joint for example like this is
+
+164
+00:03:40,229 --> 00:03:40,239
+this joint for example like this is
+ 
+
+165
+00:03:40,239 --> 00:03:42,949
+this joint for example like this is
+number zero one two three
+
+166
+00:03:42,949 --> 00:03:42,959
+number zero one two three
+ 
+
+167
+00:03:42,959 --> 00:03:45,190
+number zero one two three
+so how many how many groups are there
+
+168
+00:03:45,190 --> 00:03:45,200
+so how many how many groups are there
+ 
+
+169
+00:03:45,200 --> 00:03:47,190
+so how many how many groups are there
+how many groups
+
+170
+00:03:47,190 --> 00:03:47,200
+how many groups
+ 
+
+171
+00:03:47,200 --> 00:03:49,270
+how many groups
+four four whether and if i tell you i
+
+172
+00:03:49,270 --> 00:03:49,280
+four four whether and if i tell you i
+ 
+
+173
+00:03:49,280 --> 00:03:50,470
+four four whether and if i tell you i
+want to
+
+174
+00:03:50,470 --> 00:03:50,480
+want to
+ 
+
+175
+00:03:50,480 --> 00:03:53,270
+want to
+i want to union these two and these two
+
+176
+00:03:53,270 --> 00:03:53,280
+i want to union these two and these two
+ 
+
+177
+00:03:53,280 --> 00:03:55,110
+i want to union these two and these two
+becomes a group right and how many
+
+178
+00:03:55,110 --> 00:03:55,120
+becomes a group right and how many
+ 
+
+179
+00:03:55,120 --> 00:03:57,509
+becomes a group right and how many
+groups are there
+
+180
+00:03:57,509 --> 00:03:57,519
+groups are there
+ 
+
+181
+00:03:57,519 --> 00:03:59,910
+groups are there
+three yeah yeah okay so this is the
+
+182
+00:03:59,910 --> 00:03:59,920
+three yeah yeah okay so this is the
+ 
+
+183
+00:03:59,920 --> 00:04:02,309
+three yeah yeah okay so this is the
+basic data structure so why is it useful
+
+184
+00:04:02,309 --> 00:04:02,319
+basic data structure so why is it useful
+ 
+
+185
+00:04:02,319 --> 00:04:04,070
+basic data structure so why is it useful
+remember
+
+186
+00:04:04,070 --> 00:04:04,080
+remember
+ 
+
+187
+00:04:04,080 --> 00:04:05,190
+remember
+remember
+
+188
+00:04:05,190 --> 00:04:05,200
+remember
+ 
+
+189
+00:04:05,200 --> 00:04:07,990
+remember
+remember we have these yeah
+
+190
+00:04:07,990 --> 00:04:08,000
+remember we have these yeah
+ 
+
+191
+00:04:08,000 --> 00:04:10,949
+remember we have these yeah
+we want to find out if there is a path
+
+192
+00:04:10,949 --> 00:04:10,959
+we want to find out if there is a path
+ 
+
+193
+00:04:10,959 --> 00:04:12,309
+we want to find out if there is a path
+between
+
+194
+00:04:12,309 --> 00:04:12,319
+between
+ 
+
+195
+00:04:12,319 --> 00:04:14,229
+between
+remember a few days ago we talked about
+
+196
+00:04:14,229 --> 00:04:14,239
+remember a few days ago we talked about
+ 
+
+197
+00:04:14,239 --> 00:04:14,949
+remember a few days ago we talked about
+it
+
+198
+00:04:14,949 --> 00:04:14,959
+it
+ 
+
+199
+00:04:14,959 --> 00:04:16,870
+it
+we want to find out if there's a path
+
+200
+00:04:16,870 --> 00:04:16,880
+we want to find out if there's a path
+ 
+
+201
+00:04:16,880 --> 00:04:18,710
+we want to find out if there's a path
+between zero
+
+202
+00:04:18,710 --> 00:04:18,720
+between zero
+ 
+
+203
+00:04:18,720 --> 00:04:19,830
+between zero
+to five
+
+204
+00:04:19,830 --> 00:04:19,840
+to five
+ 
+
+205
+00:04:19,840 --> 00:04:22,150
+to five
+right no yeah we use the
+
+206
+00:04:22,150 --> 00:04:22,160
+right no yeah we use the
+ 
+
+207
+00:04:22,160 --> 00:04:25,510
+right no yeah we use the
+volcano algorithm
+
+208
+00:04:25,510 --> 00:04:25,520
+
+ 
+
+209
+00:04:25,520 --> 00:04:27,110
+
+we have done two aggregates to solve
+
+210
+00:04:27,110 --> 00:04:27,120
+we have done two aggregates to solve
+ 
+
+211
+00:04:27,120 --> 00:04:28,629
+we have done two aggregates to solve
+this problem to find out if there's a
+
+212
+00:04:28,629 --> 00:04:28,639
+this problem to find out if there's a
+ 
+
+213
+00:04:28,639 --> 00:04:30,070
+this problem to find out if there's a
+path between
+
+214
+00:04:30,070 --> 00:04:30,080
+path between
+ 
+
+215
+00:04:30,080 --> 00:04:32,390
+path between
+bitterness
+
+216
+00:04:32,390 --> 00:04:32,400
+bitterness
+ 
+
+217
+00:04:32,400 --> 00:04:35,510
+bitterness
+we have uh we took between final parts
+
+218
+00:04:35,510 --> 00:04:35,520
+we have uh we took between final parts
+ 
+
+219
+00:04:35,520 --> 00:04:37,749
+we have uh we took between final parts
+e6 in the graph right
+
+220
+00:04:37,749 --> 00:04:37,759
+e6 in the graph right
+ 
+
+221
+00:04:37,759 --> 00:04:41,030
+e6 in the graph right
+yeah so what kind of agreement do we use
+
+222
+00:04:41,030 --> 00:04:41,040
+yeah so what kind of agreement do we use
+ 
+
+223
+00:04:41,040 --> 00:04:43,670
+yeah so what kind of agreement do we use
+come on to travis the graph
+
+224
+00:04:43,670 --> 00:04:43,680
+come on to travis the graph
+ 
+
+225
+00:04:43,680 --> 00:04:45,670
+come on to travis the graph
+to travel to the graph
+
+226
+00:04:45,670 --> 00:04:45,680
+to travel to the graph
+ 
+
+227
+00:04:45,680 --> 00:04:47,810
+to travel to the graph
+what kind of algorithm do we use
+
+228
+00:04:47,810 --> 00:04:47,820
+what kind of algorithm do we use
+ 
+
+229
+00:04:47,820 --> 00:04:49,510
+what kind of algorithm do we use
+[Music]
+
+230
+00:04:49,510 --> 00:04:49,520
+[Music]
+ 
+
+231
+00:04:49,520 --> 00:04:52,629
+[Music]
+um
+
+232
+00:04:52,629 --> 00:04:52,639
+
+ 
+
+233
+00:04:52,639 --> 00:04:55,110
+
+so for definition we find out if there
+
+234
+00:04:55,110 --> 00:04:55,120
+so for definition we find out if there
+ 
+
+235
+00:04:55,120 --> 00:04:57,590
+so for definition we find out if there
+pass for purposes also we expand it in
+
+236
+00:04:57,590 --> 00:04:57,600
+pass for purposes also we expand it in
+ 
+
+237
+00:04:57,600 --> 00:04:59,510
+pass for purposes also we expand it in
+the uh double ended queue and i will try
+
+238
+00:04:59,510 --> 00:04:59,520
+the uh double ended queue and i will try
+ 
+
+239
+00:04:59,520 --> 00:05:00,310
+the uh double ended queue and i will try
+to
+
+240
+00:05:00,310 --> 00:05:00,320
+to
+ 
+
+241
+00:05:00,320 --> 00:05:03,350
+to
+uh exhaust it all the nodes yeah before
+
+242
+00:05:03,350 --> 00:05:03,360
+uh exhaust it all the nodes yeah before
+ 
+
+243
+00:05:03,360 --> 00:05:06,469
+uh exhaust it all the nodes yeah before
+we we find if if there's a path if
+
+244
+00:05:06,469 --> 00:05:06,479
+we we find if if there's a path if
+ 
+
+245
+00:05:06,479 --> 00:05:08,469
+we we find if if there's a path if
+if it does pass we return to otherwise
+
+246
+00:05:08,469 --> 00:05:08,479
+if it does pass we return to otherwise
+ 
+
+247
+00:05:08,479 --> 00:05:11,029
+if it does pass we return to otherwise
+we determine first so so to solve this
+
+248
+00:05:11,029 --> 00:05:11,039
+we determine first so so to solve this
+ 
+
+249
+00:05:11,039 --> 00:05:13,510
+we determine first so so to solve this
+problem if we can consider this graph
+
+250
+00:05:13,510 --> 00:05:13,520
+problem if we can consider this graph
+ 
+
+251
+00:05:13,520 --> 00:05:15,029
+problem if we can consider this graph
+you know as different
+
+252
+00:05:15,029 --> 00:05:15,039
+you know as different
+ 
+
+253
+00:05:15,039 --> 00:05:16,950
+you know as different
+all right look at the beginning how many
+
+254
+00:05:16,950 --> 00:05:16,960
+all right look at the beginning how many
+ 
+
+255
+00:05:16,960 --> 00:05:18,070
+all right look at the beginning how many
+notes
+
+256
+00:05:18,070 --> 00:05:18,080
+notes
+ 
+
+257
+00:05:18,080 --> 00:05:19,110
+notes
+zero
+
+258
+00:05:19,110 --> 00:05:19,120
+zero
+ 
+
+259
+00:05:19,120 --> 00:05:22,710
+zero
+one two three four five if this is five
+
+260
+00:05:22,710 --> 00:05:22,720
+one two three four five if this is five
+ 
+
+261
+00:05:22,720 --> 00:05:24,469
+one two three four five if this is five
+notes okay
+
+262
+00:05:24,469 --> 00:05:24,479
+notes okay
+ 
+
+263
+00:05:24,479 --> 00:05:26,469
+notes okay
+uh that's six notes all right
+
+264
+00:05:26,469 --> 00:05:26,479
+uh that's six notes all right
+ 
+
+265
+00:05:26,479 --> 00:05:27,350
+uh that's six notes all right
+okay
+
+266
+00:05:27,350 --> 00:05:27,360
+okay
+ 
+
+267
+00:05:27,360 --> 00:05:29,590
+okay
+so zero to one
+
+268
+00:05:29,590 --> 00:05:29,600
+so zero to one
+ 
+
+269
+00:05:29,600 --> 00:05:31,909
+so zero to one
+these at the beginning these belongs to
+
+270
+00:05:31,909 --> 00:05:31,919
+these at the beginning these belongs to
+ 
+
+271
+00:05:31,919 --> 00:05:33,590
+these at the beginning these belongs to
+different groups how many groups are
+
+272
+00:05:33,590 --> 00:05:33,600
+different groups how many groups are
+ 
+
+273
+00:05:33,600 --> 00:05:34,790
+different groups how many groups are
+there
+
+274
+00:05:34,790 --> 00:05:34,800
+there
+ 
+
+275
+00:05:34,800 --> 00:05:37,510
+there
+six six zero okay so i found the h zero
+
+276
+00:05:37,510 --> 00:05:37,520
+six six zero okay so i found the h zero
+ 
+
+277
+00:05:37,520 --> 00:05:39,830
+six six zero okay so i found the h zero
+to one connected to the other one
+
+278
+00:05:39,830 --> 00:05:39,840
+to one connected to the other one
+ 
+
+279
+00:05:39,840 --> 00:05:41,670
+to one connected to the other one
+so what does it mean
+
+280
+00:05:41,670 --> 00:05:41,680
+so what does it mean
+ 
+
+281
+00:05:41,680 --> 00:05:43,189
+so what does it mean
+if there is an edge
+
+282
+00:05:43,189 --> 00:05:43,199
+if there is an edge
+ 
+
+283
+00:05:43,199 --> 00:05:44,950
+if there is an edge
+zero and one belongs to the same group
+
+284
+00:05:44,950 --> 00:05:44,960
+zero and one belongs to the same group
+ 
+
+285
+00:05:44,960 --> 00:05:45,990
+zero and one belongs to the same group
+right
+
+286
+00:05:45,990 --> 00:05:46,000
+right
+ 
+
+287
+00:05:46,000 --> 00:05:47,270
+right
+yeah
+
+288
+00:05:47,270 --> 00:05:47,280
+yeah
+ 
+
+289
+00:05:47,280 --> 00:05:49,749
+yeah
+so what do you mean i put it together
+
+290
+00:05:49,749 --> 00:05:49,759
+so what do you mean i put it together
+ 
+
+291
+00:05:49,759 --> 00:05:55,189
+so what do you mean i put it together
+okay two zero to two what does it mean
+
+292
+00:05:55,189 --> 00:05:55,199
+
+ 
+
+293
+00:05:55,199 --> 00:05:56,710
+
+i want to put the two in the same group
+
+294
+00:05:56,710 --> 00:05:56,720
+i want to put the two in the same group
+ 
+
+295
+00:05:56,720 --> 00:05:57,510
+i want to put the two in the same group
+right
+
+296
+00:05:57,510 --> 00:05:57,520
+right
+ 
+
+297
+00:05:57,520 --> 00:05:59,189
+right
+yeah
+
+298
+00:05:59,189 --> 00:05:59,199
+yeah
+ 
+
+299
+00:05:59,199 --> 00:06:00,870
+yeah
+so same group
+
+300
+00:06:00,870 --> 00:06:00,880
+so same group
+ 
+
+301
+00:06:00,880 --> 00:06:03,590
+so same group
+three to four
+
+302
+00:06:03,590 --> 00:06:03,600
+three to four
+ 
+
+303
+00:06:03,600 --> 00:06:07,189
+three to four
+same group right three to five
+
+304
+00:06:07,189 --> 00:06:07,199
+same group right three to five
+ 
+
+305
+00:06:07,199 --> 00:06:09,670
+same group right three to five
+same group
+
+306
+00:06:09,670 --> 00:06:09,680
+same group
+ 
+
+307
+00:06:09,680 --> 00:06:11,510
+same group
+is zero and five belongs to the same
+
+308
+00:06:11,510 --> 00:06:11,520
+is zero and five belongs to the same
+ 
+
+309
+00:06:11,520 --> 00:06:13,990
+is zero and five belongs to the same
+group
+
+310
+00:06:13,990 --> 00:06:14,000
+
+ 
+
+311
+00:06:14,000 --> 00:06:15,590
+
+they're a different group so they are
+
+312
+00:06:15,590 --> 00:06:15,600
+they're a different group so they are
+ 
+
+313
+00:06:15,600 --> 00:06:17,749
+they're a different group so they are
+not connected there's no path between
+
+314
+00:06:17,749 --> 00:06:17,759
+not connected there's no path between
+ 
+
+315
+00:06:17,759 --> 00:06:20,469
+not connected there's no path between
+zero to five
+
+316
+00:06:20,469 --> 00:06:20,479
+zero to five
+ 
+
+317
+00:06:20,479 --> 00:06:23,189
+zero to five
+is there a plus between zero to two yeah
+
+318
+00:06:23,189 --> 00:06:23,199
+is there a plus between zero to two yeah
+ 
+
+319
+00:06:23,199 --> 00:06:24,710
+is there a plus between zero to two yeah
+why is that because they belong to the
+
+320
+00:06:24,710 --> 00:06:24,720
+why is that because they belong to the
+ 
+
+321
+00:06:24,720 --> 00:06:30,070
+why is that because they belong to the
+same group
+
+322
+00:06:30,070 --> 00:06:30,080
+
+ 
+
+323
+00:06:30,080 --> 00:06:32,870
+
+yeah that's why we use the strong set i
+
+324
+00:06:32,870 --> 00:06:32,880
+yeah that's why we use the strong set i
+ 
+
+325
+00:06:32,880 --> 00:06:34,390
+yeah that's why we use the strong set i
+i'm just talking about
+
+326
+00:06:34,390 --> 00:06:34,400
+i'm just talking about
+ 
+
+327
+00:06:34,400 --> 00:06:36,309
+i'm just talking about
+how how to solve that problem even
+
+328
+00:06:36,309 --> 00:06:36,319
+how how to solve that problem even
+ 
+
+329
+00:06:36,319 --> 00:06:38,230
+how how to solve that problem even
+though this one is easier right
+
+330
+00:06:38,230 --> 00:06:38,240
+though this one is easier right
+ 
+
+331
+00:06:38,240 --> 00:06:40,070
+though this one is easier right
+yeah it seems easier yeah i just you
+
+332
+00:06:40,070 --> 00:06:40,080
+yeah it seems easier yeah i just you
+ 
+
+333
+00:06:40,080 --> 00:06:42,550
+yeah it seems easier yeah i just you
+know if i edge what does the edge means
+
+334
+00:06:42,550 --> 00:06:42,560
+know if i edge what does the edge means
+ 
+
+335
+00:06:42,560 --> 00:06:44,950
+know if i edge what does the edge means
+these do not belong to the same group
+
+336
+00:06:44,950 --> 00:06:44,960
+these do not belong to the same group
+ 
+
+337
+00:06:44,960 --> 00:06:45,830
+these do not belong to the same group
+right
+
+338
+00:06:45,830 --> 00:06:45,840
+right
+ 
+
+339
+00:06:45,840 --> 00:06:46,550
+right
+and
+
+340
+00:06:46,550 --> 00:06:46,560
+and
+ 
+
+341
+00:06:46,560 --> 00:06:49,270
+and
+it's now path between zero to four
+
+342
+00:06:49,270 --> 00:06:49,280
+it's now path between zero to four
+ 
+
+343
+00:06:49,280 --> 00:06:51,430
+it's now path between zero to four
+because they are only different group
+
+344
+00:06:51,430 --> 00:06:51,440
+because they are only different group
+ 
+
+345
+00:06:51,440 --> 00:06:53,350
+because they are only different group
+right
+
+346
+00:06:53,350 --> 00:06:53,360
+right
+ 
+
+347
+00:06:53,360 --> 00:06:55,430
+right
+so this is very useful so
+
+348
+00:06:55,430 --> 00:06:55,440
+so this is very useful so
+ 
+
+349
+00:06:55,440 --> 00:06:57,110
+so this is very useful so
+to solve this problem we need to
+
+350
+00:06:57,110 --> 00:06:57,120
+to solve this problem we need to
+ 
+
+351
+00:06:57,120 --> 00:06:59,510
+to solve this problem we need to
+discharge that at the beginning each
+
+352
+00:06:59,510 --> 00:06:59,520
+discharge that at the beginning each
+ 
+
+353
+00:06:59,520 --> 00:07:02,390
+discharge that at the beginning each
+note is different individual group
+
+354
+00:07:02,390 --> 00:07:02,400
+note is different individual group
+ 
+
+355
+00:07:02,400 --> 00:07:03,990
+note is different individual group
+but when we have a
+
+356
+00:07:03,990 --> 00:07:04,000
+but when we have a
+ 
+
+357
+00:07:04,000 --> 00:07:07,510
+but when we have a
+a function to call unite unite yeah is
+
+358
+00:07:07,510 --> 00:07:07,520
+a function to call unite unite yeah is
+ 
+
+359
+00:07:07,520 --> 00:07:10,550
+a function to call unite unite yeah is
+it the way to correctly spell the word
+
+360
+00:07:10,550 --> 00:07:10,560
+it the way to correctly spell the word
+ 
+
+361
+00:07:10,560 --> 00:07:13,670
+it the way to correctly spell the word
+merge to all we can to call it much
+
+362
+00:07:13,670 --> 00:07:13,680
+merge to all we can to call it much
+ 
+
+363
+00:07:13,680 --> 00:07:14,550
+merge to all we can to call it much
+much
+
+364
+00:07:14,550 --> 00:07:14,560
+much
+ 
+
+365
+00:07:14,560 --> 00:07:15,589
+much
+better
+
+366
+00:07:15,589 --> 00:07:15,599
+better
+ 
+
+367
+00:07:15,599 --> 00:07:17,749
+better
+if we merge what is mean general one and
+
+368
+00:07:17,749 --> 00:07:17,759
+if we merge what is mean general one and
+ 
+
+369
+00:07:17,759 --> 00:07:18,550
+if we merge what is mean general one and
+we
+
+370
+00:07:18,550 --> 00:07:18,560
+we
+ 
+
+371
+00:07:18,560 --> 00:07:21,189
+we
+update the data structure to make them
+
+372
+00:07:21,189 --> 00:07:21,199
+update the data structure to make them
+ 
+
+373
+00:07:21,199 --> 00:07:23,189
+update the data structure to make them
+make both
+
+374
+00:07:23,189 --> 00:07:23,199
+make both
+ 
+
+375
+00:07:23,199 --> 00:07:23,990
+make both
+uh
+
+376
+00:07:23,990 --> 00:07:24,000
+uh
+ 
+
+377
+00:07:24,000 --> 00:07:26,070
+uh
+belongs to the same group and we also
+
+378
+00:07:26,070 --> 00:07:26,080
+belongs to the same group and we also
+ 
+
+379
+00:07:26,080 --> 00:07:29,270
+belongs to the same group and we also
+have another function called find
+
+380
+00:07:29,270 --> 00:07:29,280
+have another function called find
+ 
+
+381
+00:07:29,280 --> 00:07:31,189
+have another function called find
+find parent
+
+382
+00:07:31,189 --> 00:07:31,199
+find parent
+ 
+
+383
+00:07:31,199 --> 00:07:33,589
+find parent
+find group okay find group
+
+384
+00:07:33,589 --> 00:07:33,599
+find group okay find group
+ 
+
+385
+00:07:33,599 --> 00:07:35,510
+find group okay find group
+so this will return a different group
+
+386
+00:07:35,510 --> 00:07:35,520
+so this will return a different group
+ 
+
+387
+00:07:35,520 --> 00:07:38,950
+so this will return a different group
+yeah find a group of two right yeah
+
+388
+00:07:38,950 --> 00:07:38,960
+yeah find a group of two right yeah
+ 
+
+389
+00:07:38,960 --> 00:07:41,909
+yeah find a group of two right yeah
+and we also have one
+
+390
+00:07:41,909 --> 00:07:41,919
+and we also have one
+ 
+
+391
+00:07:41,919 --> 00:07:45,110
+and we also have one
+group count group
+
+392
+00:07:45,110 --> 00:07:45,120
+group count group
+ 
+
+393
+00:07:45,120 --> 00:07:47,589
+group count group
+group count yeah to tell how many goals
+
+394
+00:07:47,589 --> 00:07:47,599
+group count yeah to tell how many goals
+ 
+
+395
+00:07:47,599 --> 00:07:49,749
+group count yeah to tell how many goals
+are there at the end there are two right
+
+396
+00:07:49,749 --> 00:07:49,759
+are there at the end there are two right
+ 
+
+397
+00:07:49,759 --> 00:07:52,309
+are there at the end there are two right
+and what else do we need uh what else do
+
+398
+00:07:52,309 --> 00:07:52,319
+and what else do we need uh what else do
+ 
+
+399
+00:07:52,319 --> 00:07:55,189
+and what else do we need uh what else do
+we need
+
+400
+00:07:55,189 --> 00:07:55,199
+
+ 
+
+401
+00:07:55,199 --> 00:07:57,670
+
+if it's a same group yeah belongs to
+
+402
+00:07:57,670 --> 00:07:57,680
+if it's a same group yeah belongs to
+ 
+
+403
+00:07:57,680 --> 00:07:59,189
+if it's a same group yeah belongs to
+same group
+
+404
+00:07:59,189 --> 00:07:59,199
+same group
+ 
+
+405
+00:07:59,199 --> 00:08:01,029
+same group
+so this is easier how do you implement
+
+406
+00:08:01,029 --> 00:08:01,039
+so this is easier how do you implement
+ 
+
+407
+00:08:01,039 --> 00:08:03,189
+so this is easier how do you implement
+the same group two numbers
+
+408
+00:08:03,189 --> 00:08:03,199
+the same group two numbers
+ 
+
+409
+00:08:03,199 --> 00:08:04,390
+the same group two numbers
+a and b
+
+410
+00:08:04,390 --> 00:08:04,400
+a and b
+ 
+
+411
+00:08:04,400 --> 00:08:07,110
+a and b
+you just need to check if the group is
+
+412
+00:08:07,110 --> 00:08:07,120
+you just need to check if the group is
+ 
+
+413
+00:08:07,120 --> 00:08:09,909
+you just need to check if the group is
+the same find group a equals to find
+
+414
+00:08:09,909 --> 00:08:09,919
+the same find group a equals to find
+ 
+
+415
+00:08:09,919 --> 00:08:12,390
+the same find group a equals to find
+group b right if they are same group
+
+416
+00:08:12,390 --> 00:08:12,400
+group b right if they are same group
+ 
+
+417
+00:08:12,400 --> 00:08:15,029
+group b right if they are same group
+they reproduce the group number okay so
+
+418
+00:08:15,029 --> 00:08:15,039
+they reproduce the group number okay so
+ 
+
+419
+00:08:15,039 --> 00:08:18,230
+they reproduce the group number okay so
+what's group so at the beginning okay so
+
+420
+00:08:18,230 --> 00:08:18,240
+what's group so at the beginning okay so
+ 
+
+421
+00:08:18,240 --> 00:08:22,390
+what's group so at the beginning okay so
+that's easy look how how can we do this
+
+422
+00:08:22,390 --> 00:08:22,400
+that's easy look how how can we do this
+ 
+
+423
+00:08:22,400 --> 00:08:24,869
+that's easy look how how can we do this
+okay so first of all we have a parent
+
+424
+00:08:24,869 --> 00:08:24,879
+okay so first of all we have a parent
+ 
+
+425
+00:08:24,879 --> 00:08:28,790
+okay so first of all we have a parent
+okay parent class let's define class
+
+426
+00:08:28,790 --> 00:08:28,800
+okay parent class let's define class
+ 
+
+427
+00:08:28,800 --> 00:08:32,630
+okay parent class let's define class
+disjoint set okay let's try disjoint set
+
+428
+00:08:32,630 --> 00:08:32,640
+disjoint set okay let's try disjoint set
+ 
+
+429
+00:08:32,640 --> 00:08:34,870
+disjoint set okay let's try disjoint set
+disjoint
+
+430
+00:08:34,870 --> 00:08:34,880
+disjoint
+ 
+
+431
+00:08:34,880 --> 00:08:36,870
+disjoint
+set
+
+432
+00:08:36,870 --> 00:08:36,880
+set
+ 
+
+433
+00:08:36,880 --> 00:08:38,469
+set
+okay so
+
+434
+00:08:38,469 --> 00:08:38,479
+okay so
+ 
+
+435
+00:08:38,479 --> 00:08:39,990
+okay so
+at the beginning we want to have a
+
+436
+00:08:39,990 --> 00:08:40,000
+at the beginning we want to have a
+ 
+
+437
+00:08:40,000 --> 00:08:42,230
+at the beginning we want to have a
+constructor remember how to construct
+
+438
+00:08:42,230 --> 00:08:42,240
+constructor remember how to construct
+ 
+
+439
+00:08:42,240 --> 00:08:43,750
+constructor remember how to construct
+because in it
+
+440
+00:08:43,750 --> 00:08:43,760
+because in it
+ 
+
+441
+00:08:43,760 --> 00:08:44,870
+because in it
+initially
+
+442
+00:08:44,870 --> 00:08:44,880
+initially
+ 
+
+443
+00:08:44,880 --> 00:08:47,190
+initially
+and we're given a n n is the number of
+
+444
+00:08:47,190 --> 00:08:47,200
+and we're given a n n is the number of
+ 
+
+445
+00:08:47,200 --> 00:08:48,389
+and we're given a n n is the number of
+the
+
+446
+00:08:48,389 --> 00:08:48,399
+the
+ 
+
+447
+00:08:48,399 --> 00:08:49,990
+the
+at the beginning and the initial group
+
+448
+00:08:49,990 --> 00:08:50,000
+at the beginning and the initial group
+ 
+
+449
+00:08:50,000 --> 00:08:51,670
+at the beginning and the initial group
+number okay if it is a
+
+450
+00:08:51,670 --> 00:08:51,680
+number okay if it is a
+ 
+
+451
+00:08:51,680 --> 00:08:53,350
+number okay if it is a
+0 1
+
+452
+00:08:53,350 --> 00:08:53,360
+0 1
+ 
+
+453
+00:08:53,360 --> 00:08:55,990
+0 1
+one two three four five so we just pass
+
+454
+00:08:55,990 --> 00:08:56,000
+one two three four five so we just pass
+ 
+
+455
+00:08:56,000 --> 00:08:56,870
+one two three four five so we just pass
+one
+
+456
+00:08:56,870 --> 00:08:56,880
+one
+ 
+
+457
+00:08:56,880 --> 00:09:00,310
+one
+six okay then you from zero to five
+
+458
+00:09:00,310 --> 00:09:00,320
+six okay then you from zero to five
+ 
+
+459
+00:09:00,320 --> 00:09:02,710
+six okay then you from zero to five
+so that lets herself then we can
+
+460
+00:09:02,710 --> 00:09:02,720
+so that lets herself then we can
+ 
+
+461
+00:09:02,720 --> 00:09:06,389
+so that lets herself then we can
+construct self the parent
+
+462
+00:09:06,389 --> 00:09:06,399
+
+ 
+
+463
+00:09:06,399 --> 00:09:09,190
+
+parent equals least
+
+464
+00:09:09,190 --> 00:09:09,200
+parent equals least
+ 
+
+465
+00:09:09,200 --> 00:09:11,430
+parent equals least
+range
+
+466
+00:09:11,430 --> 00:09:11,440
+range
+ 
+
+467
+00:09:11,440 --> 00:09:14,470
+range
+n okay so in the beginning if any given
+
+468
+00:09:14,470 --> 00:09:14,480
+n okay so in the beginning if any given
+ 
+
+469
+00:09:14,480 --> 00:09:16,310
+n okay so in the beginning if any given
+of six
+
+470
+00:09:16,310 --> 00:09:16,320
+of six
+ 
+
+471
+00:09:16,320 --> 00:09:20,150
+of six
+six so the parent is a list list of zero
+
+472
+00:09:20,150 --> 00:09:20,160
+six so the parent is a list list of zero
+ 
+
+473
+00:09:20,160 --> 00:09:23,990
+six so the parent is a list list of zero
+one two three four five
+
+474
+00:09:23,990 --> 00:09:24,000
+one two three four five
+ 
+
+475
+00:09:24,000 --> 00:09:25,990
+one two three four five
+okay so what does it mean at the
+
+476
+00:09:25,990 --> 00:09:26,000
+okay so what does it mean at the
+ 
+
+477
+00:09:26,000 --> 00:09:29,110
+okay so what does it mean at the
+beginning at the beginning zero one two
+
+478
+00:09:29,110 --> 00:09:29,120
+beginning at the beginning zero one two
+ 
+
+479
+00:09:29,120 --> 00:09:31,030
+beginning at the beginning zero one two
+three four five
+
+480
+00:09:31,030 --> 00:09:31,040
+three four five
+ 
+
+481
+00:09:31,040 --> 00:09:33,590
+three four five
+these six groups
+
+482
+00:09:33,590 --> 00:09:33,600
+these six groups
+ 
+
+483
+00:09:33,600 --> 00:09:34,790
+these six groups
+these six
+
+484
+00:09:34,790 --> 00:09:34,800
+these six
+ 
+
+485
+00:09:34,800 --> 00:09:37,190
+these six
+there are six group and the number is
+
+486
+00:09:37,190 --> 00:09:37,200
+there are six group and the number is
+ 
+
+487
+00:09:37,200 --> 00:09:39,670
+there are six group and the number is
+the group id right
+
+488
+00:09:39,670 --> 00:09:39,680
+the group id right
+ 
+
+489
+00:09:39,680 --> 00:09:41,430
+the group id right
+all right yeah
+
+490
+00:09:41,430 --> 00:09:41,440
+all right yeah
+ 
+
+491
+00:09:41,440 --> 00:09:43,910
+all right yeah
+so how how can we make if if i want to
+
+492
+00:09:43,910 --> 00:09:43,920
+so how how can we make if if i want to
+ 
+
+493
+00:09:43,920 --> 00:09:46,150
+so how how can we make if if i want to
+make a multi one and two
+
+494
+00:09:46,150 --> 00:09:46,160
+make a multi one and two
+ 
+
+495
+00:09:46,160 --> 00:09:47,509
+make a multi one and two
+so what does it mean
+
+496
+00:09:47,509 --> 00:09:47,519
+so what does it mean
+ 
+
+497
+00:09:47,519 --> 00:09:50,630
+so what does it mean
+i need to i need to change
+
+498
+00:09:50,630 --> 00:09:50,640
+i need to i need to change
+ 
+
+499
+00:09:50,640 --> 00:09:53,269
+i need to i need to change
+right if i want to look one and two if i
+
+500
+00:09:53,269 --> 00:09:53,279
+right if i want to look one and two if i
+ 
+
+501
+00:09:53,279 --> 00:09:55,990
+right if i want to look one and two if i
+want to merge these two what happens
+
+502
+00:09:55,990 --> 00:09:56,000
+want to merge these two what happens
+ 
+
+503
+00:09:56,000 --> 00:09:57,910
+want to merge these two what happens
+so i just need to change this value to
+
+504
+00:09:57,910 --> 00:09:57,920
+so i just need to change this value to
+ 
+
+505
+00:09:57,920 --> 00:09:59,590
+so i just need to change this value to
+one right
+
+506
+00:09:59,590 --> 00:09:59,600
+one right
+ 
+
+507
+00:09:59,600 --> 00:10:01,990
+one right
+yeah then these two belongs to the same
+
+508
+00:10:01,990 --> 00:10:02,000
+yeah then these two belongs to the same
+ 
+
+509
+00:10:02,000 --> 00:10:04,470
+yeah then these two belongs to the same
+group if i want to merge one three and
+
+510
+00:10:04,470 --> 00:10:04,480
+group if i want to merge one three and
+ 
+
+511
+00:10:04,480 --> 00:10:06,710
+group if i want to merge one three and
+five i can change three to five or five
+
+512
+00:10:06,710 --> 00:10:06,720
+five i can change three to five or five
+ 
+
+513
+00:10:06,720 --> 00:10:07,829
+five i can change three to five or five
+to three
+
+514
+00:10:07,829 --> 00:10:07,839
+to three
+ 
+
+515
+00:10:07,839 --> 00:10:08,790
+to three
+right
+
+516
+00:10:08,790 --> 00:10:08,800
+right
+ 
+
+517
+00:10:08,800 --> 00:10:12,790
+right
+yeah okay this is called a merge just to
+
+518
+00:10:12,790 --> 00:10:12,800
+yeah okay this is called a merge just to
+ 
+
+519
+00:10:12,800 --> 00:10:14,949
+yeah okay this is called a merge just to
+change one the pair just change the
+
+520
+00:10:14,949 --> 00:10:14,959
+change one the pair just change the
+ 
+
+521
+00:10:14,959 --> 00:10:17,509
+change one the pair just change the
+parent value of one note to and to a
+
+522
+00:10:17,509 --> 00:10:17,519
+parent value of one note to and to a
+ 
+
+523
+00:10:17,519 --> 00:10:18,870
+parent value of one note to and to a
+value that's a good writing and
+
+524
+00:10:18,870 --> 00:10:18,880
+value that's a good writing and
+ 
+
+525
+00:10:18,880 --> 00:10:21,030
+value that's a good writing and
+initially there are six group letter
+
+526
+00:10:21,030 --> 00:10:21,040
+initially there are six group letter
+ 
+
+527
+00:10:21,040 --> 00:10:23,190
+initially there are six group letter
+group id these are guru ideas zero one
+
+528
+00:10:23,190 --> 00:10:23,200
+group id these are guru ideas zero one
+ 
+
+529
+00:10:23,200 --> 00:10:25,430
+group id these are guru ideas zero one
+two three four five okay
+
+530
+00:10:25,430 --> 00:10:25,440
+two three four five okay
+ 
+
+531
+00:10:25,440 --> 00:10:26,470
+two three four five okay
+okay
+
+532
+00:10:26,470 --> 00:10:26,480
+okay
+ 
+
+533
+00:10:26,480 --> 00:10:28,230
+okay
+so now
+
+534
+00:10:28,230 --> 00:10:28,240
+so now
+ 
+
+535
+00:10:28,240 --> 00:10:31,590
+so now
+save the parents
+
+536
+00:10:31,590 --> 00:10:31,600
+
+ 
+
+537
+00:10:31,600 --> 00:10:34,150
+
+and then we need to find remember we
+
+538
+00:10:34,150 --> 00:10:34,160
+and then we need to find remember we
+ 
+
+539
+00:10:34,160 --> 00:10:36,710
+and then we need to find remember we
+need to find what uh same group okay
+
+540
+00:10:36,710 --> 00:10:36,720
+need to find what uh same group okay
+ 
+
+541
+00:10:36,720 --> 00:10:39,269
+need to find what uh same group okay
+that's same group same group
+
+542
+00:10:39,269 --> 00:10:39,279
+that's same group same group
+ 
+
+543
+00:10:39,279 --> 00:10:41,829
+that's same group same group
+given two numbers a b how can we find if
+
+544
+00:10:41,829 --> 00:10:41,839
+given two numbers a b how can we find if
+ 
+
+545
+00:10:41,839 --> 00:10:43,030
+given two numbers a b how can we find if
+the same group
+
+546
+00:10:43,030 --> 00:10:43,040
+the same group
+ 
+
+547
+00:10:43,040 --> 00:10:52,710
+the same group
+how can we find investing group
+
+548
+00:10:52,710 --> 00:10:52,720
+
+ 
+
+549
+00:10:52,720 --> 00:10:54,389
+
+tell me save the parent if they are
+
+550
+00:10:54,389 --> 00:10:54,399
+tell me save the parent if they are
+ 
+
+551
+00:10:54,399 --> 00:10:56,069
+tell me save the parent if they are
+single what what happened save the
+
+552
+00:10:56,069 --> 00:10:56,079
+single what what happened save the
+ 
+
+553
+00:10:56,079 --> 00:10:58,230
+single what what happened save the
+parent a and save the parent p what
+
+554
+00:10:58,230 --> 00:10:58,240
+parent a and save the parent p what
+ 
+
+555
+00:10:58,240 --> 00:11:05,030
+parent a and save the parent p what
+happened what
+
+556
+00:11:05,030 --> 00:11:05,040
+
+ 
+
+557
+00:11:05,040 --> 00:11:07,509
+
+what i love i mean if lesson group how
+
+558
+00:11:07,509 --> 00:11:07,519
+what i love i mean if lesson group how
+ 
+
+559
+00:11:07,519 --> 00:11:11,110
+what i love i mean if lesson group how
+can we find the same group
+
+560
+00:11:11,110 --> 00:11:11,120
+
+ 
+
+561
+00:11:11,120 --> 00:11:17,430
+
+we will
+
+562
+00:11:17,430 --> 00:11:17,440
+
+ 
+
+563
+00:11:17,440 --> 00:11:20,150
+
+it should be i mean okay so there's
+
+564
+00:11:20,150 --> 00:11:20,160
+it should be i mean okay so there's
+ 
+
+565
+00:11:20,160 --> 00:11:23,030
+it should be i mean okay so there's
+something missing here okay so look
+
+566
+00:11:23,030 --> 00:11:23,040
+something missing here okay so look
+ 
+
+567
+00:11:23,040 --> 00:11:24,230
+something missing here okay so look
+yellow
+
+568
+00:11:24,230 --> 00:11:24,240
+yellow
+ 
+
+569
+00:11:24,240 --> 00:11:25,190
+yellow
+uh
+
+570
+00:11:25,190 --> 00:11:25,200
+uh
+ 
+
+571
+00:11:25,200 --> 00:11:26,310
+uh
+one
+
+572
+00:11:26,310 --> 00:11:26,320
+one
+ 
+
+573
+00:11:26,320 --> 00:11:30,310
+one
+two right so if the same group at the
+
+574
+00:11:30,310 --> 00:11:30,320
+two right so if the same group at the
+ 
+
+575
+00:11:30,320 --> 00:11:31,750
+two right so if the same group at the
+beginning
+
+576
+00:11:31,750 --> 00:11:31,760
+beginning
+ 
+
+577
+00:11:31,760 --> 00:11:33,590
+beginning
+at the beginning we need to
+
+578
+00:11:33,590 --> 00:11:33,600
+at the beginning we need to
+ 
+
+579
+00:11:33,600 --> 00:11:37,190
+at the beginning we need to
+have a function to find the parent of it
+
+580
+00:11:37,190 --> 00:11:37,200
+have a function to find the parent of it
+ 
+
+581
+00:11:37,200 --> 00:11:39,430
+have a function to find the parent of it
+right to find the parents of it so how
+
+582
+00:11:39,430 --> 00:11:39,440
+right to find the parents of it so how
+ 
+
+583
+00:11:39,440 --> 00:11:41,509
+right to find the parents of it so how
+can we find the parameter i give this
+
+584
+00:11:41,509 --> 00:11:41,519
+can we find the parameter i give this
+ 
+
+585
+00:11:41,519 --> 00:11:43,990
+can we find the parameter i give this
+empty for for now so how can we find a
+
+586
+00:11:43,990 --> 00:11:44,000
+empty for for now so how can we find a
+ 
+
+587
+00:11:44,000 --> 00:11:47,750
+empty for for now so how can we find a
+parent we need to have this fine parent
+
+588
+00:11:47,750 --> 00:11:47,760
+parent we need to have this fine parent
+ 
+
+589
+00:11:47,760 --> 00:11:51,670
+parent we need to have this fine parent
+find parent function okay x let's find x
+
+590
+00:11:51,670 --> 00:11:51,680
+find parent function okay x let's find x
+ 
+
+591
+00:11:51,680 --> 00:11:53,829
+find parent function okay x let's find x
+okay so so what does it mean what does
+
+592
+00:11:53,829 --> 00:11:53,839
+okay so so what does it mean what does
+ 
+
+593
+00:11:53,839 --> 00:11:55,750
+okay so so what does it mean what does
+it mean look look
+
+594
+00:11:55,750 --> 00:11:55,760
+it mean look look
+ 
+
+595
+00:11:55,760 --> 00:11:57,990
+it mean look look
+look at eric look if d at the beginning
+
+596
+00:11:57,990 --> 00:11:58,000
+look at eric look if d at the beginning
+ 
+
+597
+00:11:58,000 --> 00:12:00,470
+look at eric look if d at the beginning
+this is zero and then zero will be point
+
+598
+00:12:00,470 --> 00:12:00,480
+this is zero and then zero will be point
+ 
+
+599
+00:12:00,480 --> 00:12:03,030
+this is zero and then zero will be point
+two itself yeah and then if most one to
+
+600
+00:12:03,030 --> 00:12:03,040
+two itself yeah and then if most one to
+ 
+
+601
+00:12:03,040 --> 00:12:06,389
+two itself yeah and then if most one to
+it one could be much here if we have
+
+602
+00:12:06,389 --> 00:12:06,399
+it one could be much here if we have
+ 
+
+603
+00:12:06,399 --> 00:12:08,829
+it one could be much here if we have
+another two vertically yeah
+
+604
+00:12:08,829 --> 00:12:08,839
+another two vertically yeah
+ 
+
+605
+00:12:08,839 --> 00:12:11,990
+another two vertically yeah
+three yeah so look
+
+606
+00:12:11,990 --> 00:12:12,000
+three yeah so look
+ 
+
+607
+00:12:12,000 --> 00:12:14,629
+three yeah so look
+if three's parents if three belongs to
+
+608
+00:12:14,629 --> 00:12:14,639
+if three's parents if three belongs to
+ 
+
+609
+00:12:14,639 --> 00:12:16,870
+if three's parents if three belongs to
+the two group or two two also becomes
+
+610
+00:12:16,870 --> 00:12:16,880
+the two group or two two also becomes
+ 
+
+611
+00:12:16,880 --> 00:12:19,590
+the two group or two two also becomes
+school of one so these are all connected
+
+612
+00:12:19,590 --> 00:12:19,600
+school of one so these are all connected
+ 
+
+613
+00:12:19,600 --> 00:12:21,670
+school of one so these are all connected
+right but how can i make sure at least i
+
+614
+00:12:21,670 --> 00:12:21,680
+right but how can i make sure at least i
+ 
+
+615
+00:12:21,680 --> 00:12:23,910
+right but how can i make sure at least i
+want to get the value of zero the group
+
+616
+00:12:23,910 --> 00:12:23,920
+want to get the value of zero the group
+ 
+
+617
+00:12:23,920 --> 00:12:25,750
+want to get the value of zero the group
+of zero because all these
+
+618
+00:12:25,750 --> 00:12:25,760
+of zero because all these
+ 
+
+619
+00:12:25,760 --> 00:12:28,550
+of zero because all these
+three belongs to two two belongs to one
+
+620
+00:12:28,550 --> 00:12:28,560
+three belongs to two two belongs to one
+ 
+
+621
+00:12:28,560 --> 00:12:30,550
+three belongs to two two belongs to one
+one belongs to zero it could be
+
+622
+00:12:30,550 --> 00:12:30,560
+one belongs to zero it could be
+ 
+
+623
+00:12:30,560 --> 00:12:32,310
+one belongs to zero it could be
+there could be a link right so i need to
+
+624
+00:12:32,310 --> 00:12:32,320
+there could be a link right so i need to
+ 
+
+625
+00:12:32,320 --> 00:12:34,710
+there could be a link right so i need to
+find out the parent of the x so how can
+
+626
+00:12:34,710 --> 00:12:34,720
+find out the parent of the x so how can
+ 
+
+627
+00:12:34,720 --> 00:12:36,069
+find out the parent of the x so how can
+i say if
+
+628
+00:12:36,069 --> 00:12:36,079
+i say if
+ 
+
+629
+00:12:36,079 --> 00:12:40,870
+i say if
+x not equals seventh apparent
+
+630
+00:12:40,870 --> 00:12:40,880
+x not equals seventh apparent
+ 
+
+631
+00:12:40,880 --> 00:12:44,069
+x not equals seventh apparent
+okay seventh of parent x
+
+632
+00:12:44,069 --> 00:12:44,079
+okay seventh of parent x
+ 
+
+633
+00:12:44,079 --> 00:12:46,790
+okay seventh of parent x
+if x equals seventh apparent x what does
+
+634
+00:12:46,790 --> 00:12:46,800
+if x equals seventh apparent x what does
+ 
+
+635
+00:12:46,800 --> 00:12:48,949
+if x equals seventh apparent x what does
+this mean if at the beginning look
+
+636
+00:12:48,949 --> 00:12:48,959
+this mean if at the beginning look
+ 
+
+637
+00:12:48,959 --> 00:12:51,750
+this mean if at the beginning look
+x equals ten separate x then this is the
+
+638
+00:12:51,750 --> 00:12:51,760
+x equals ten separate x then this is the
+ 
+
+639
+00:12:51,760 --> 00:12:53,110
+x equals ten separate x then this is the
+group group
+
+640
+00:12:53,110 --> 00:12:53,120
+group group
+ 
+
+641
+00:12:53,120 --> 00:12:55,030
+group group
+this is the parent of it right does it
+
+642
+00:12:55,030 --> 00:12:55,040
+this is the parent of it right does it
+ 
+
+643
+00:12:55,040 --> 00:12:57,509
+this is the parent of it right does it
+make sense eric i i yeah that makes
+
+644
+00:12:57,509 --> 00:12:57,519
+make sense eric i i yeah that makes
+ 
+
+645
+00:12:57,519 --> 00:13:00,150
+make sense eric i i yeah that makes
+sense
+
+646
+00:13:00,150 --> 00:13:00,160
+
+ 
+
+647
+00:13:00,160 --> 00:13:02,310
+
+um
+
+648
+00:13:02,310 --> 00:13:02,320
+um
+ 
+
+649
+00:13:02,320 --> 00:13:03,430
+um
+yeah
+
+650
+00:13:03,430 --> 00:13:03,440
+yeah
+ 
+
+651
+00:13:03,440 --> 00:13:04,230
+yeah
+okay
+
+652
+00:13:04,230 --> 00:13:04,240
+okay
+ 
+
+653
+00:13:04,240 --> 00:13:05,509
+okay
+look
+
+654
+00:13:05,509 --> 00:13:05,519
+look
+ 
+
+655
+00:13:05,519 --> 00:13:06,710
+look
+everything
+
+656
+00:13:06,710 --> 00:13:06,720
+everything
+ 
+
+657
+00:13:06,720 --> 00:13:08,710
+everything
+here is a look
+
+658
+00:13:08,710 --> 00:13:08,720
+here is a look
+ 
+
+659
+00:13:08,720 --> 00:13:11,990
+here is a look
+if yellow right this is a good idea if
+
+660
+00:13:11,990 --> 00:13:12,000
+if yellow right this is a good idea if
+ 
+
+661
+00:13:12,000 --> 00:13:15,430
+if yellow right this is a good idea if
+an elast right change here zero you know
+
+662
+00:13:15,430 --> 00:13:15,440
+an elast right change here zero you know
+ 
+
+663
+00:13:15,440 --> 00:13:17,350
+an elast right change here zero you know
+i want to find the group of the parents
+
+664
+00:13:17,350 --> 00:13:17,360
+i want to find the group of the parents
+ 
+
+665
+00:13:17,360 --> 00:13:18,829
+i want to find the group of the parents
+of the group of
+
+666
+00:13:18,829 --> 00:13:18,839
+of the group of
+ 
+
+667
+00:13:18,839 --> 00:13:22,069
+of the group of
+zero clubs yellow is equal to zero let
+
+668
+00:13:22,069 --> 00:13:22,079
+zero clubs yellow is equal to zero let
+ 
+
+669
+00:13:22,079 --> 00:13:23,910
+zero clubs yellow is equal to zero let
+me return here right
+
+670
+00:13:23,910 --> 00:13:23,920
+me return here right
+ 
+
+671
+00:13:23,920 --> 00:13:26,790
+me return here right
+if look if this is zero and i want to
+
+672
+00:13:26,790 --> 00:13:26,800
+if look if this is zero and i want to
+ 
+
+673
+00:13:26,800 --> 00:13:28,310
+if look if this is zero and i want to
+find the group of it
+
+674
+00:13:28,310 --> 00:13:28,320
+find the group of it
+ 
+
+675
+00:13:28,320 --> 00:13:30,389
+find the group of it
+apparently it's not equal
+
+676
+00:13:30,389 --> 00:13:30,399
+apparently it's not equal
+ 
+
+677
+00:13:30,399 --> 00:13:31,269
+apparently it's not equal
+right
+
+678
+00:13:31,269 --> 00:13:31,279
+right
+ 
+
+679
+00:13:31,279 --> 00:13:34,310
+right
+so what does it equal
+
+680
+00:13:34,310 --> 00:13:34,320
+so what does it equal
+ 
+
+681
+00:13:34,320 --> 00:13:36,069
+so what does it equal
+what does it equal look
+
+682
+00:13:36,069 --> 00:13:36,079
+what does it equal look
+ 
+
+683
+00:13:36,079 --> 00:13:38,949
+what does it equal look
+um x is one right
+
+684
+00:13:38,949 --> 00:13:38,959
+um x is one right
+ 
+
+685
+00:13:38,959 --> 00:13:41,670
+um x is one right
+x one is not equals to
+
+686
+00:13:41,670 --> 00:13:41,680
+x one is not equals to
+ 
+
+687
+00:13:41,680 --> 00:13:43,750
+x one is not equals to
+zero right
+
+688
+00:13:43,750 --> 00:13:43,760
+zero right
+ 
+
+689
+00:13:43,760 --> 00:13:46,069
+zero right
+yeah
+
+690
+00:13:46,069 --> 00:13:46,079
+
+ 
+
+691
+00:13:46,079 --> 00:13:48,389
+
+third parent x is one it's not equal to
+
+692
+00:13:48,389 --> 00:13:48,399
+third parent x is one it's not equal to
+ 
+
+693
+00:13:48,399 --> 00:13:50,310
+third parent x is one it's not equal to
+what so what happened what what's this
+
+694
+00:13:50,310 --> 00:13:50,320
+what so what happened what what's this
+ 
+
+695
+00:13:50,320 --> 00:13:52,230
+what so what happened what what's this
+it should be zero right
+
+696
+00:13:52,230 --> 00:13:52,240
+it should be zero right
+ 
+
+697
+00:13:52,240 --> 00:13:56,710
+it should be zero right
+so i need to do what i need to return
+
+698
+00:13:56,710 --> 00:13:56,720
+
+ 
+
+699
+00:13:56,720 --> 00:14:01,670
+
+what find parent
+
+700
+00:14:01,670 --> 00:14:01,680
+
+ 
+
+701
+00:14:01,680 --> 00:14:05,670
+
+501
+
+702
+00:14:05,670 --> 00:14:05,680
+
+ 
+
+703
+00:14:05,680 --> 00:14:08,470
+
+save the parent x
+
+704
+00:14:08,470 --> 00:14:08,480
+save the parent x
+ 
+
+705
+00:14:08,480 --> 00:14:09,590
+save the parent x
+yeah
+
+706
+00:14:09,590 --> 00:14:09,600
+yeah
+ 
+
+707
+00:14:09,600 --> 00:14:11,670
+yeah
+yeah i just call it cell root save the
+
+708
+00:14:11,670 --> 00:14:11,680
+yeah i just call it cell root save the
+ 
+
+709
+00:14:11,680 --> 00:14:12,870
+yeah i just call it cell root save the
+parent x
+
+710
+00:14:12,870 --> 00:14:12,880
+parent x
+ 
+
+711
+00:14:12,880 --> 00:14:15,269
+parent x
+theta parenthesis is zero
+
+712
+00:14:15,269 --> 00:14:15,279
+theta parenthesis is zero
+ 
+
+713
+00:14:15,279 --> 00:14:18,150
+theta parenthesis is zero
+yeah because the current is one
+
+714
+00:14:18,150 --> 00:14:18,160
+yeah because the current is one
+ 
+
+715
+00:14:18,160 --> 00:14:19,750
+yeah because the current is one
+one
+
+716
+00:14:19,750 --> 00:14:19,760
+one
+ 
+
+717
+00:14:19,760 --> 00:14:22,710
+one
+and then one is the same group as zero
+
+718
+00:14:22,710 --> 00:14:22,720
+and then one is the same group as zero
+ 
+
+719
+00:14:22,720 --> 00:14:25,110
+and then one is the same group as zero
+so i want to find out the zero group so
+
+720
+00:14:25,110 --> 00:14:25,120
+so i want to find out the zero group so
+ 
+
+721
+00:14:25,120 --> 00:14:26,790
+so i want to find out the zero group so
+i need to put this here so it could
+
+722
+00:14:26,790 --> 00:14:26,800
+i need to put this here so it could
+ 
+
+723
+00:14:26,800 --> 00:14:28,790
+i need to put this here so it could
+because we call itself right
+
+724
+00:14:28,790 --> 00:14:28,800
+because we call itself right
+ 
+
+725
+00:14:28,800 --> 00:14:31,509
+because we call itself right
+okay so that's what he here says look
+
+726
+00:14:31,509 --> 00:14:31,519
+okay so that's what he here says look
+ 
+
+727
+00:14:31,519 --> 00:14:32,550
+okay so that's what he here says look
+zero
+
+728
+00:14:32,550 --> 00:14:32,560
+zero
+ 
+
+729
+00:14:32,560 --> 00:14:35,269
+zero
+if if here is one
+
+730
+00:14:35,269 --> 00:14:35,279
+if if here is one
+ 
+
+731
+00:14:35,279 --> 00:14:36,629
+if if here is one
+right
+
+732
+00:14:36,629 --> 00:14:36,639
+right
+ 
+
+733
+00:14:36,639 --> 00:14:40,230
+right
+the second two is the same group as zero
+
+734
+00:14:40,230 --> 00:14:40,240
+the second two is the same group as zero
+ 
+
+735
+00:14:40,240 --> 00:14:42,790
+the second two is the same group as zero
+and then two is the same group as one
+
+736
+00:14:42,790 --> 00:14:42,800
+and then two is the same group as one
+ 
+
+737
+00:14:42,800 --> 00:14:44,790
+and then two is the same group as one
+right i want to find out the two the
+
+738
+00:14:44,790 --> 00:14:44,800
+right i want to find out the two the
+ 
+
+739
+00:14:44,800 --> 00:14:47,910
+right i want to find out the two the
+group of two here
+
+740
+00:14:47,910 --> 00:14:47,920
+group of two here
+ 
+
+741
+00:14:47,920 --> 00:14:49,910
+group of two here
+look i want to find out the group uh the
+
+742
+00:14:49,910 --> 00:14:49,920
+look i want to find out the group uh the
+ 
+
+743
+00:14:49,920 --> 00:14:50,710
+look i want to find out the group uh the
+group
+
+744
+00:14:50,710 --> 00:14:50,720
+group
+ 
+
+745
+00:14:50,720 --> 00:14:53,110
+group
+id of this one i need to find out
+
+746
+00:14:53,110 --> 00:14:53,120
+id of this one i need to find out
+ 
+
+747
+00:14:53,120 --> 00:14:54,710
+id of this one i need to find out
+in order to find out the group of these
+
+748
+00:14:54,710 --> 00:14:54,720
+in order to find out the group of these
+ 
+
+749
+00:14:54,720 --> 00:14:56,310
+in order to find out the group of these
+i need to find out the group of these in
+
+750
+00:14:56,310 --> 00:14:56,320
+i need to find out the group of these in
+ 
+
+751
+00:14:56,320 --> 00:14:57,829
+i need to find out the group of these in
+order to find out the group of one i
+
+752
+00:14:57,829 --> 00:14:57,839
+order to find out the group of one i
+ 
+
+753
+00:14:57,839 --> 00:14:59,829
+order to find out the group of one i
+need to find out the proof zero
+
+754
+00:14:59,829 --> 00:14:59,839
+need to find out the proof zero
+ 
+
+755
+00:14:59,839 --> 00:15:01,509
+need to find out the proof zero
+and here
+
+756
+00:15:01,509 --> 00:15:01,519
+and here
+ 
+
+757
+00:15:01,519 --> 00:15:04,710
+and here
+and here one and here the group of excel
+
+758
+00:15:04,710 --> 00:15:04,720
+and here one and here the group of excel
+ 
+
+759
+00:15:04,720 --> 00:15:05,910
+and here one and here the group of excel
+equals
+
+760
+00:15:05,910 --> 00:15:05,920
+equals
+ 
+
+761
+00:15:05,920 --> 00:15:08,629
+equals
+the zero the zero value equals the group
+
+762
+00:15:08,629 --> 00:15:08,639
+the zero the zero value equals the group
+ 
+
+763
+00:15:08,639 --> 00:15:09,509
+the zero the zero value equals the group
+of
+
+764
+00:15:09,509 --> 00:15:09,519
+of
+ 
+
+765
+00:15:09,519 --> 00:15:12,629
+of
+the parent of it right yeah got it
+
+766
+00:15:12,629 --> 00:15:12,639
+the parent of it right yeah got it
+ 
+
+767
+00:15:12,639 --> 00:15:14,069
+the parent of it right yeah got it
+okay
+
+768
+00:15:14,069 --> 00:15:14,079
+okay
+ 
+
+769
+00:15:14,079 --> 00:15:16,389
+okay
+yeah so that's why it says three
+
+770
+00:15:16,389 --> 00:15:16,399
+yeah so that's why it says three
+ 
+
+771
+00:15:16,399 --> 00:15:20,150
+yeah so that's why it says three
+points to two two points to one
+
+772
+00:15:20,150 --> 00:15:20,160
+
+ 
+
+773
+00:15:20,160 --> 00:15:21,829
+
+so
+
+774
+00:15:21,829 --> 00:15:21,839
+so
+ 
+
+775
+00:15:21,839 --> 00:15:23,990
+so
+look
+
+776
+00:15:23,990 --> 00:15:24,000
+look
+ 
+
+777
+00:15:24,000 --> 00:15:25,910
+look
+in the worst case right in the worst
+
+778
+00:15:25,910 --> 00:15:25,920
+in the worst case right in the worst
+ 
+
+779
+00:15:25,920 --> 00:15:27,350
+in the worst case right in the worst
+case what's the term complexity of
+
+780
+00:15:27,350 --> 00:15:27,360
+case what's the term complexity of
+ 
+
+781
+00:15:27,360 --> 00:15:29,990
+case what's the term complexity of
+looking at the parents of the
+
+782
+00:15:29,990 --> 00:15:30,000
+looking at the parents of the
+ 
+
+783
+00:15:30,000 --> 00:15:33,030
+looking at the parents of the
+of of the elements yeah in the worst
+
+784
+00:15:33,030 --> 00:15:33,040
+of of the elements yeah in the worst
+ 
+
+785
+00:15:33,040 --> 00:15:34,150
+of of the elements yeah in the worst
+case
+
+786
+00:15:34,150 --> 00:15:34,160
+case
+ 
+
+787
+00:15:34,160 --> 00:15:35,590
+case
+or
+
+788
+00:15:35,590 --> 00:15:35,600
+or
+ 
+
+789
+00:15:35,600 --> 00:15:37,910
+or
+oh and right now look if there are ten
+
+790
+00:15:37,910 --> 00:15:37,920
+oh and right now look if there are ten
+ 
+
+791
+00:15:37,920 --> 00:15:40,790
+oh and right now look if there are ten
+yeah look it could be yeah
+
+792
+00:15:40,790 --> 00:15:40,800
+yeah look it could be yeah
+ 
+
+793
+00:15:40,800 --> 00:15:43,430
+yeah look it could be yeah
+look if all these are connected
+
+794
+00:15:43,430 --> 00:15:43,440
+look if all these are connected
+ 
+
+795
+00:15:43,440 --> 00:15:44,629
+look if all these are connected
+what happened if i want to find out
+
+796
+00:15:44,629 --> 00:15:44,639
+what happened if i want to find out
+ 
+
+797
+00:15:44,639 --> 00:15:45,910
+what happened if i want to find out
+group of four
+
+798
+00:15:45,910 --> 00:15:45,920
+group of four
+ 
+
+799
+00:15:45,920 --> 00:15:47,990
+group of four
+it points it says okay the group of four
+
+800
+00:15:47,990 --> 00:15:48,000
+it points it says okay the group of four
+ 
+
+801
+00:15:48,000 --> 00:15:49,990
+it points it says okay the group of four
+is the same as group of three
+
+802
+00:15:49,990 --> 00:15:50,000
+is the same as group of three
+ 
+
+803
+00:15:50,000 --> 00:15:52,470
+is the same as group of three
+okay the group of three is
+
+804
+00:15:52,470 --> 00:15:52,480
+okay the group of three is
+ 
+
+805
+00:15:52,480 --> 00:15:53,670
+okay the group of three is
+two
+
+806
+00:15:53,670 --> 00:15:53,680
+two
+ 
+
+807
+00:15:53,680 --> 00:15:56,069
+two
+is
+
+808
+00:15:56,069 --> 00:15:56,079
+
+ 
+
+809
+00:15:56,079 --> 00:15:58,150
+
+right i need to follow the path right
+
+810
+00:15:58,150 --> 00:15:58,160
+right i need to follow the path right
+ 
+
+811
+00:15:58,160 --> 00:16:01,509
+right i need to follow the path right
+yeah is there a way to make it
+
+812
+00:16:01,509 --> 00:16:01,519
+yeah is there a way to make it
+ 
+
+813
+00:16:01,519 --> 00:16:03,910
+yeah is there a way to make it
+i mean better because i don't want to
+
+814
+00:16:03,910 --> 00:16:03,920
+i mean better because i don't want to
+ 
+
+815
+00:16:03,920 --> 00:16:06,550
+i mean better because i don't want to
+query so many so in order to do this i
+
+816
+00:16:06,550 --> 00:16:06,560
+query so many so in order to do this i
+ 
+
+817
+00:16:06,560 --> 00:16:09,670
+query so many so in order to do this i
+can can i need to compress compress the
+
+818
+00:16:09,670 --> 00:16:09,680
+can can i need to compress compress the
+ 
+
+819
+00:16:09,680 --> 00:16:10,870
+can can i need to compress compress the
+path
+
+820
+00:16:10,870 --> 00:16:10,880
+path
+ 
+
+821
+00:16:10,880 --> 00:16:13,670
+path
+compress the path so what is it the same
+
+822
+00:16:13,670 --> 00:16:13,680
+compress the path so what is it the same
+ 
+
+823
+00:16:13,680 --> 00:16:16,069
+compress the path so what is it the same
+as what zero
+
+824
+00:16:16,069 --> 00:16:16,079
+as what zero
+ 
+
+825
+00:16:16,079 --> 00:16:17,269
+as what zero
+one
+
+826
+00:16:17,269 --> 00:16:17,279
+one
+ 
+
+827
+00:16:17,279 --> 00:16:18,470
+one
+two
+
+828
+00:16:18,470 --> 00:16:18,480
+two
+ 
+
+829
+00:16:18,480 --> 00:16:19,509
+two
+three
+
+830
+00:16:19,509 --> 00:16:19,519
+three
+ 
+
+831
+00:16:19,519 --> 00:16:20,310
+three
+four
+
+832
+00:16:20,310 --> 00:16:20,320
+four
+ 
+
+833
+00:16:20,320 --> 00:16:21,749
+four
+right
+
+834
+00:16:21,749 --> 00:16:21,759
+right
+ 
+
+835
+00:16:21,759 --> 00:16:24,069
+right
+which one is uh more efficient including
+
+836
+00:16:24,069 --> 00:16:24,079
+which one is uh more efficient including
+ 
+
+837
+00:16:24,079 --> 00:16:26,710
+which one is uh more efficient including
+this one why is that it's at most one
+
+838
+00:16:26,710 --> 00:16:26,720
+this one why is that it's at most one
+ 
+
+839
+00:16:26,720 --> 00:16:30,069
+this one why is that it's at most one
+yeah for you know i can't create it for
+
+840
+00:16:30,069 --> 00:16:30,079
+yeah for you know i can't create it for
+ 
+
+841
+00:16:30,079 --> 00:16:33,189
+yeah for you know i can't create it for
+here zero zero points to the cell right
+
+842
+00:16:33,189 --> 00:16:33,199
+here zero zero points to the cell right
+ 
+
+843
+00:16:33,199 --> 00:16:36,150
+here zero zero points to the cell right
+yeah this is the root right the group
+
+844
+00:16:36,150 --> 00:16:36,160
+yeah this is the root right the group
+ 
+
+845
+00:16:36,160 --> 00:16:38,470
+yeah this is the root right the group
+root it's like a tree
+
+846
+00:16:38,470 --> 00:16:38,480
+root it's like a tree
+ 
+
+847
+00:16:38,480 --> 00:16:40,949
+root it's like a tree
+right everybody got it
+
+848
+00:16:40,949 --> 00:16:40,959
+right everybody got it
+ 
+
+849
+00:16:40,959 --> 00:16:42,629
+right everybody got it
+right and don't don't mess up with my
+
+850
+00:16:42,629 --> 00:16:42,639
+right and don't don't mess up with my
+ 
+
+851
+00:16:42,639 --> 00:16:45,269
+right and don't don't mess up with my
+camera okay okay so how can we do this
+
+852
+00:16:45,269 --> 00:16:45,279
+camera okay okay so how can we do this
+ 
+
+853
+00:16:45,279 --> 00:16:47,430
+camera okay okay so how can we do this
+how can we compress the trees
+
+854
+00:16:47,430 --> 00:16:47,440
+how can we compress the trees
+ 
+
+855
+00:16:47,440 --> 00:16:49,189
+how can we compress the trees
+at the past
+
+856
+00:16:49,189 --> 00:16:49,199
+at the past
+ 
+
+857
+00:16:49,199 --> 00:16:52,150
+at the past
+we just have to do one thing here
+
+858
+00:16:52,150 --> 00:16:52,160
+we just have to do one thing here
+ 
+
+859
+00:16:52,160 --> 00:16:53,749
+we just have to do one thing here
+but we just have to do one thing here
+
+860
+00:16:53,749 --> 00:16:53,759
+but we just have to do one thing here
+ 
+
+861
+00:16:53,759 --> 00:16:55,189
+but we just have to do one thing here
+eric
+
+862
+00:16:55,189 --> 00:16:55,199
+eric
+ 
+
+863
+00:16:55,199 --> 00:16:58,870
+eric
+in order to compress the path
+
+864
+00:16:58,870 --> 00:16:58,880
+in order to compress the path
+ 
+
+865
+00:16:58,880 --> 00:17:01,749
+in order to compress the path
+we will look it up
+
+866
+00:17:01,749 --> 00:17:01,759
+we will look it up
+ 
+
+867
+00:17:01,759 --> 00:17:03,990
+we will look it up
+all right when we look it up look listen
+
+868
+00:17:03,990 --> 00:17:04,000
+all right when we look it up look listen
+ 
+
+869
+00:17:04,000 --> 00:17:05,750
+all right when we look it up look listen
+listen otherwise i can continue when we
+
+870
+00:17:05,750 --> 00:17:05,760
+listen otherwise i can continue when we
+ 
+
+871
+00:17:05,760 --> 00:17:07,590
+listen otherwise i can continue when we
+look it up
+
+872
+00:17:07,590 --> 00:17:07,600
+look it up
+ 
+
+873
+00:17:07,600 --> 00:17:09,429
+look it up
+when we're looking on here
+
+874
+00:17:09,429 --> 00:17:09,439
+when we're looking on here
+ 
+
+875
+00:17:09,439 --> 00:17:12,150
+when we're looking on here
+we want to point it out to four to let's
+
+876
+00:17:12,150 --> 00:17:12,160
+we want to point it out to four to let's
+ 
+
+877
+00:17:12,160 --> 00:17:15,270
+we want to point it out to four to let's
+yellow right everything i i query up
+
+878
+00:17:15,270 --> 00:17:15,280
+yellow right everything i i query up
+ 
+
+879
+00:17:15,280 --> 00:17:17,669
+yellow right everything i i query up
+when i clear it up the tree the past i
+
+880
+00:17:17,669 --> 00:17:17,679
+when i clear it up the tree the past i
+ 
+
+881
+00:17:17,679 --> 00:17:20,710
+when i clear it up the tree the past i
+want to report the parents the group id
+
+882
+00:17:20,710 --> 00:17:20,720
+want to report the parents the group id
+ 
+
+883
+00:17:20,720 --> 00:17:21,909
+want to report the parents the group id
+to the loot
+
+884
+00:17:21,909 --> 00:17:21,919
+to the loot
+ 
+
+885
+00:17:21,919 --> 00:17:23,189
+to the loot
+right
+
+886
+00:17:23,189 --> 00:17:23,199
+right
+ 
+
+887
+00:17:23,199 --> 00:17:25,990
+right
+okay got it so in order to do this we
+
+888
+00:17:25,990 --> 00:17:26,000
+okay got it so in order to do this we
+ 
+
+889
+00:17:26,000 --> 00:17:28,549
+okay got it so in order to do this we
+just have to do two here
+
+890
+00:17:28,549 --> 00:17:28,559
+just have to do two here
+ 
+
+891
+00:17:28,559 --> 00:17:30,789
+just have to do two here
+we just have to do is our
+
+892
+00:17:30,789 --> 00:17:30,799
+we just have to do is our
+ 
+
+893
+00:17:30,799 --> 00:17:33,909
+we just have to do is our
+parent uh okay send the parent yes
+
+894
+00:17:33,909 --> 00:17:33,919
+parent uh okay send the parent yes
+ 
+
+895
+00:17:33,919 --> 00:17:35,430
+parent uh okay send the parent yes
+parent
+
+896
+00:17:35,430 --> 00:17:35,440
+parent
+ 
+
+897
+00:17:35,440 --> 00:17:36,470
+parent
+x
+
+898
+00:17:36,470 --> 00:17:36,480
+x
+ 
+
+899
+00:17:36,480 --> 00:17:38,710
+x
+equals one
+
+900
+00:17:38,710 --> 00:17:38,720
+equals one
+ 
+
+901
+00:17:38,720 --> 00:17:42,549
+equals one
+equals five parent
+
+902
+00:17:42,549 --> 00:17:42,559
+equals five parent
+ 
+
+903
+00:17:42,559 --> 00:17:44,710
+equals five parent
+pie parent
+
+904
+00:17:44,710 --> 00:17:44,720
+pie parent
+ 
+
+905
+00:17:44,720 --> 00:17:45,590
+pie parent
+uh
+
+906
+00:17:45,590 --> 00:17:45,600
+uh
+ 
+
+907
+00:17:45,600 --> 00:17:49,029
+uh
+five parents
+
+908
+00:17:49,029 --> 00:17:49,039
+
+ 
+
+909
+00:17:49,039 --> 00:17:52,070
+
+five parents uh parents
+
+910
+00:17:52,070 --> 00:17:52,080
+five parents uh parents
+ 
+
+911
+00:17:52,080 --> 00:17:54,710
+five parents uh parents
+all right and then return
+
+912
+00:17:54,710 --> 00:17:54,720
+all right and then return
+ 
+
+913
+00:17:54,720 --> 00:17:56,630
+all right and then return
+return what
+
+914
+00:17:56,630 --> 00:17:56,640
+return what
+ 
+
+915
+00:17:56,640 --> 00:17:57,909
+return what
+reason one
+
+916
+00:17:57,909 --> 00:17:57,919
+reason one
+ 
+
+917
+00:17:57,919 --> 00:18:07,029
+reason one
+return return
+
+918
+00:18:07,029 --> 00:18:07,039
+
+ 
+
+919
+00:18:07,039 --> 00:18:09,590
+
+parent x is this currently snow i want
+
+920
+00:18:09,590 --> 00:18:09,600
+parent x is this currently snow i want
+ 
+
+921
+00:18:09,600 --> 00:18:11,909
+parent x is this currently snow i want
+to point to the root and then this root
+
+922
+00:18:11,909 --> 00:18:11,919
+to point to the root and then this root
+ 
+
+923
+00:18:11,919 --> 00:18:15,029
+to point to the root and then this root
+is recursively obtained from current x
+
+924
+00:18:15,029 --> 00:18:15,039
+is recursively obtained from current x
+ 
+
+925
+00:18:15,039 --> 00:18:17,909
+is recursively obtained from current x
+uh five parent dot parent or x and then
+
+926
+00:18:17,909 --> 00:18:17,919
+uh five parent dot parent or x and then
+ 
+
+927
+00:18:17,919 --> 00:18:21,110
+uh five parent dot parent or x and then
+our friendly return c of the parallax
+
+928
+00:18:21,110 --> 00:18:21,120
+our friendly return c of the parallax
+ 
+
+929
+00:18:21,120 --> 00:18:22,710
+our friendly return c of the parallax
+okay
+
+930
+00:18:22,710 --> 00:18:22,720
+okay
+ 
+
+931
+00:18:22,720 --> 00:18:26,549
+okay
+okay so so what happened here look four
+
+932
+00:18:26,549 --> 00:18:26,559
+okay so so what happened here look four
+ 
+
+933
+00:18:26,559 --> 00:18:28,950
+okay so so what happened here look four
+points to three three points to two two
+
+934
+00:18:28,950 --> 00:18:28,960
+points to three three points to two two
+ 
+
+935
+00:18:28,960 --> 00:18:31,669
+points to three three points to two two
+points to one one points to zero yeah
+
+936
+00:18:31,669 --> 00:18:31,679
+points to one one points to zero yeah
+ 
+
+937
+00:18:31,679 --> 00:18:33,110
+points to one one points to zero yeah
+when i put it
+
+938
+00:18:33,110 --> 00:18:33,120
+when i put it
+ 
+
+939
+00:18:33,120 --> 00:18:35,350
+when i put it
+no no no no when i put when i query
+
+940
+00:18:35,350 --> 00:18:35,360
+no no no no when i put when i query
+ 
+
+941
+00:18:35,360 --> 00:18:36,950
+no no no no when i put when i query
+parent four
+
+942
+00:18:36,950 --> 00:18:36,960
+parent four
+ 
+
+943
+00:18:36,960 --> 00:18:39,510
+parent four
+okay what it does is what parent four i
+
+944
+00:18:39,510 --> 00:18:39,520
+okay what it does is what parent four i
+ 
+
+945
+00:18:39,520 --> 00:18:42,710
+okay what it does is what parent four i
+want to point to parent of three here
+
+946
+00:18:42,710 --> 00:18:42,720
+want to point to parent of three here
+ 
+
+947
+00:18:42,720 --> 00:18:44,470
+want to point to parent of three here
+which is parent two parallel one and
+
+948
+00:18:44,470 --> 00:18:44,480
+which is parent two parallel one and
+ 
+
+949
+00:18:44,480 --> 00:18:46,390
+which is parent two parallel one and
+paragraph so eventually this function
+
+950
+00:18:46,390 --> 00:18:46,400
+paragraph so eventually this function
+ 
+
+951
+00:18:46,400 --> 00:18:48,150
+paragraph so eventually this function
+will do some parentheses so i will point
+
+952
+00:18:48,150 --> 00:18:48,160
+will do some parentheses so i will point
+ 
+
+953
+00:18:48,160 --> 00:18:49,029
+will do some parentheses so i will point
+here
+
+954
+00:18:49,029 --> 00:18:49,039
+here
+ 
+
+955
+00:18:49,039 --> 00:18:50,870
+here
+i will move this and i will be point
+
+956
+00:18:50,870 --> 00:18:50,880
+i will move this and i will be point
+ 
+
+957
+00:18:50,880 --> 00:18:51,830
+i will move this and i will be point
+here
+
+958
+00:18:51,830 --> 00:18:51,840
+here
+ 
+
+959
+00:18:51,840 --> 00:18:54,549
+here
+i will move this i will be point here
+
+960
+00:18:54,549 --> 00:18:54,559
+i will move this i will be point here
+ 
+
+961
+00:18:54,559 --> 00:18:56,630
+i will move this i will be point here
+yeah so immediately you will become zero
+
+962
+00:18:56,630 --> 00:18:56,640
+yeah so immediately you will become zero
+ 
+
+963
+00:18:56,640 --> 00:18:57,909
+yeah so immediately you will become zero
+one two
+
+964
+00:18:57,909 --> 00:18:57,919
+one two
+ 
+
+965
+00:18:57,919 --> 00:19:00,630
+one two
+three four this is to call compress the
+
+966
+00:19:00,630 --> 00:19:00,640
+three four this is to call compress the
+ 
+
+967
+00:19:00,640 --> 00:19:04,630
+three four this is to call compress the
+path yeah so that will reduce the
+
+968
+00:19:04,630 --> 00:19:04,640
+path yeah so that will reduce the
+ 
+
+969
+00:19:04,640 --> 00:19:07,510
+path yeah so that will reduce the
+that will improve the complexity of the
+
+970
+00:19:07,510 --> 00:19:07,520
+that will improve the complexity of the
+ 
+
+971
+00:19:07,520 --> 00:19:12,630
+that will improve the complexity of the
+finding the past five parents from on
+
+972
+00:19:12,630 --> 00:19:12,640
+finding the past five parents from on
+ 
+
+973
+00:19:12,640 --> 00:19:16,950
+finding the past five parents from on
+roughly 201 constant time okay yeah
+
+974
+00:19:16,950 --> 00:19:16,960
+roughly 201 constant time okay yeah
+ 
+
+975
+00:19:16,960 --> 00:19:19,510
+roughly 201 constant time okay yeah
+yeah when we clearly release we we
+
+976
+00:19:19,510 --> 00:19:19,520
+yeah when we clearly release we we
+ 
+
+977
+00:19:19,520 --> 00:19:22,789
+yeah when we clearly release we we
+compress the path and this could be done
+
+978
+00:19:22,789 --> 00:19:22,799
+compress the path and this could be done
+ 
+
+979
+00:19:22,799 --> 00:19:25,029
+compress the path and this could be done
+using interactivity okay not not
+
+980
+00:19:25,029 --> 00:19:25,039
+using interactivity okay not not
+ 
+
+981
+00:19:25,039 --> 00:19:27,270
+using interactivity okay not not
+recursion how can we do this okay
+
+982
+00:19:27,270 --> 00:19:27,280
+recursion how can we do this okay
+ 
+
+983
+00:19:27,280 --> 00:19:29,669
+recursion how can we do this okay
+everybody okay
+
+984
+00:19:29,669 --> 00:19:29,679
+everybody okay
+ 
+
+985
+00:19:29,679 --> 00:19:31,909
+everybody okay
+uh define
+
+986
+00:19:31,909 --> 00:19:31,919
+uh define
+ 
+
+987
+00:19:31,919 --> 00:19:35,830
+uh define
+find parent
+
+988
+00:19:35,830 --> 00:19:35,840
+
+ 
+
+989
+00:19:35,840 --> 00:19:37,430
+
+first of all we want to find the parent
+
+990
+00:19:37,430 --> 00:19:37,440
+first of all we want to find the parent
+ 
+
+991
+00:19:37,440 --> 00:19:39,830
+first of all we want to find the parent
+of x yeah so how can we do this
+
+992
+00:19:39,830 --> 00:19:39,840
+of x yeah so how can we do this
+ 
+
+993
+00:19:39,840 --> 00:19:43,990
+of x yeah so how can we do this
+how can we do this
+
+994
+00:19:43,990 --> 00:19:44,000
+
+ 
+
+995
+00:19:44,000 --> 00:19:46,630
+
+we want to follow up yeah so
+
+996
+00:19:46,630 --> 00:19:46,640
+we want to follow up yeah so
+ 
+
+997
+00:19:46,640 --> 00:19:49,430
+we want to follow up yeah so
+we have this parent x equals x
+
+998
+00:19:49,430 --> 00:19:49,440
+we have this parent x equals x
+ 
+
+999
+00:19:49,440 --> 00:19:50,870
+we have this parent x equals x
+y
+
+1000
+00:19:50,870 --> 00:19:50,880
+y
+ 
+
+1001
+00:19:50,880 --> 00:19:54,310
+y
+p x not equals to x
+
+1002
+00:19:54,310 --> 00:19:54,320
+p x not equals to x
+ 
+
+1003
+00:19:54,320 --> 00:19:57,750
+p x not equals to x
+what p x equals parent
+
+1004
+00:19:57,750 --> 00:19:57,760
+what p x equals parent
+ 
+
+1005
+00:19:57,760 --> 00:20:00,710
+what p x equals parent
+okay apparently seven parentheses x
+
+1006
+00:20:00,710 --> 00:20:00,720
+okay apparently seven parentheses x
+ 
+
+1007
+00:20:00,720 --> 00:20:02,149
+okay apparently seven parentheses x
+so now
+
+1008
+00:20:02,149 --> 00:20:02,159
+so now
+ 
+
+1009
+00:20:02,159 --> 00:20:05,430
+so now
+p x naught equals x p x equals parent x
+
+1010
+00:20:05,430 --> 00:20:05,440
+p x naught equals x p x equals parent x
+ 
+
+1011
+00:20:05,440 --> 00:20:07,909
+p x naught equals x p x equals parent x
+what's this mean what's this mean
+
+1012
+00:20:07,909 --> 00:20:07,919
+what's this mean what's this mean
+ 
+
+1013
+00:20:07,919 --> 00:20:09,830
+what's this mean what's this mean
+what's this mean
+
+1014
+00:20:09,830 --> 00:20:09,840
+what's this mean
+ 
+
+1015
+00:20:09,840 --> 00:20:12,470
+what's this mean
+three points to two points to one points
+
+1016
+00:20:12,470 --> 00:20:12,480
+three points to two points to one points
+ 
+
+1017
+00:20:12,480 --> 00:20:16,310
+three points to two points to one points
+to zero what does it mean if x is three
+
+1018
+00:20:16,310 --> 00:20:16,320
+to zero what does it mean if x is three
+ 
+
+1019
+00:20:16,320 --> 00:20:18,390
+to zero what does it mean if x is three
+what's the value of p x eric what's the
+
+1020
+00:20:18,390 --> 00:20:18,400
+what's the value of p x eric what's the
+ 
+
+1021
+00:20:18,400 --> 00:20:22,789
+what's the value of p x eric what's the
+value of dx what's the value of px it is
+
+1022
+00:20:22,789 --> 00:20:22,799
+value of dx what's the value of px it is
+ 
+
+1023
+00:20:22,799 --> 00:20:25,909
+value of dx what's the value of px it is
+yeah
+
+1024
+00:20:25,909 --> 00:20:25,919
+
+ 
+
+1025
+00:20:25,919 --> 00:20:28,390
+
+yeah
+
+1026
+00:20:28,390 --> 00:20:28,400
+
+ 
+
+1027
+00:20:28,400 --> 00:20:30,470
+
+all right look
+
+1028
+00:20:30,470 --> 00:20:30,480
+all right look
+ 
+
+1029
+00:20:30,480 --> 00:20:31,909
+all right look
+p x is
+
+1030
+00:20:31,909 --> 00:20:31,919
+p x is
+ 
+
+1031
+00:20:31,919 --> 00:20:33,990
+p x is
+x is three
+
+1032
+00:20:33,990 --> 00:20:34,000
+x is three
+ 
+
+1033
+00:20:34,000 --> 00:20:37,270
+x is three
+why p x not equals x
+
+1034
+00:20:37,270 --> 00:20:37,280
+why p x not equals x
+ 
+
+1035
+00:20:37,280 --> 00:20:41,270
+why p x not equals x
+p x is not equals three uh
+
+1036
+00:20:41,270 --> 00:20:41,280
+
+ 
+
+1037
+00:20:41,280 --> 00:20:43,750
+
+yeah
+
+1038
+00:20:43,750 --> 00:20:43,760
+
+ 
+
+1039
+00:20:43,760 --> 00:20:46,870
+
+okay so there's a problem p x equals uh
+
+1040
+00:20:46,870 --> 00:20:46,880
+okay so there's a problem p x equals uh
+ 
+
+1041
+00:20:46,880 --> 00:20:49,350
+okay so there's a problem p x equals uh
+x y p x naught equals f of the parent
+
+1042
+00:20:49,350 --> 00:20:49,360
+x y p x naught equals f of the parent
+ 
+
+1043
+00:20:49,360 --> 00:20:51,750
+x y p x naught equals f of the parent
+okay so here is let me say okay
+
+1044
+00:20:51,750 --> 00:20:51,760
+okay so here is let me say okay
+ 
+
+1045
+00:20:51,760 --> 00:20:55,110
+okay so here is let me say okay
+y not equals to the parent x so because
+
+1046
+00:20:55,110 --> 00:20:55,120
+y not equals to the parent x so because
+ 
+
+1047
+00:20:55,120 --> 00:20:57,990
+y not equals to the parent x so because
+look if if p x equals parent x what does
+
+1048
+00:20:57,990 --> 00:20:58,000
+look if if p x equals parent x what does
+ 
+
+1049
+00:20:58,000 --> 00:21:03,669
+look if if p x equals parent x what does
+it mean if if a value x equals parent x
+
+1050
+00:21:03,669 --> 00:21:03,679
+it mean if if a value x equals parent x
+ 
+
+1051
+00:21:03,679 --> 00:21:06,390
+it mean if if a value x equals parent x
+then x is the group right it's the root
+
+1052
+00:21:06,390 --> 00:21:06,400
+then x is the group right it's the root
+ 
+
+1053
+00:21:06,400 --> 00:21:08,870
+then x is the group right it's the root
+right y is not the root
+
+1054
+00:21:08,870 --> 00:21:08,880
+right y is not the root
+ 
+
+1055
+00:21:08,880 --> 00:21:11,990
+right y is not the root
+why this is not a root i go up i go up i
+
+1056
+00:21:11,990 --> 00:21:12,000
+why this is not a root i go up i go up i
+ 
+
+1057
+00:21:12,000 --> 00:21:14,149
+why this is not a root i go up i go up i
+go out go up until i reach the root
+
+1058
+00:21:14,149 --> 00:21:14,159
+go out go up until i reach the root
+ 
+
+1059
+00:21:14,159 --> 00:21:16,390
+go out go up until i reach the root
+which is zero it's pointing itself right
+
+1060
+00:21:16,390 --> 00:21:16,400
+which is zero it's pointing itself right
+ 
+
+1061
+00:21:16,400 --> 00:21:17,590
+which is zero it's pointing itself right
+look alright
+
+1062
+00:21:17,590 --> 00:21:17,600
+look alright
+ 
+
+1063
+00:21:17,600 --> 00:21:19,990
+look alright
+so eventually this px will be number
+
+1064
+00:21:19,990 --> 00:21:20,000
+so eventually this px will be number
+ 
+
+1065
+00:21:20,000 --> 00:21:21,430
+so eventually this px will be number
+zero
+
+1066
+00:21:21,430 --> 00:21:21,440
+zero
+ 
+
+1067
+00:21:21,440 --> 00:21:22,710
+zero
+all right
+
+1068
+00:21:22,710 --> 00:21:22,720
+all right
+ 
+
+1069
+00:21:22,720 --> 00:21:25,350
+all right
+are you lost
+
+1070
+00:21:25,350 --> 00:21:25,360
+are you lost
+ 
+
+1071
+00:21:25,360 --> 00:21:28,580
+are you lost
+okay so what's the value of ps
+
+1072
+00:21:28,580 --> 00:21:28,590
+okay so what's the value of ps
+ 
+
+1073
+00:21:28,590 --> 00:21:30,390
+okay so what's the value of ps
+[Music]
+
+1074
+00:21:30,390 --> 00:21:30,400
+[Music]
+ 
+
+1075
+00:21:30,400 --> 00:21:33,590
+[Music]
+yeah i know but when when x is three
+
+1076
+00:21:33,590 --> 00:21:33,600
+yeah i know but when when x is three
+ 
+
+1077
+00:21:33,600 --> 00:21:35,590
+yeah i know but when when x is three
+so what's the parent what's the px after
+
+1078
+00:21:35,590 --> 00:21:35,600
+so what's the parent what's the px after
+ 
+
+1079
+00:21:35,600 --> 00:21:38,630
+so what's the parent what's the px after
+this loop p s naught equals parallel x
+
+1080
+00:21:38,630 --> 00:21:38,640
+this loop p s naught equals parallel x
+ 
+
+1081
+00:21:38,640 --> 00:21:40,870
+this loop p s naught equals parallel x
+pattern x is what
+
+1082
+00:21:40,870 --> 00:21:40,880
+pattern x is what
+ 
+
+1083
+00:21:40,880 --> 00:21:46,549
+pattern x is what
+what's pattern x
+
+1084
+00:21:46,549 --> 00:21:46,559
+
+ 
+
+1085
+00:21:46,559 --> 00:21:47,909
+
+yeah
+
+1086
+00:21:47,909 --> 00:21:47,919
+yeah
+ 
+
+1087
+00:21:47,919 --> 00:21:50,470
+yeah
+2 is not equal to parent x
+
+1088
+00:21:50,470 --> 00:21:50,480
+2 is not equal to parent x
+ 
+
+1089
+00:21:50,480 --> 00:21:53,029
+2 is not equal to parent x
+go here 0 is the parent x what's the
+
+1090
+00:21:53,029 --> 00:21:53,039
+go here 0 is the parent x what's the
+ 
+
+1091
+00:21:53,039 --> 00:22:03,270
+go here 0 is the parent x what's the
+value of x
+
+1092
+00:22:03,270 --> 00:22:03,280
+
+ 
+
+1093
+00:22:03,280 --> 00:22:05,750
+
+yeah so while
+
+1094
+00:22:05,750 --> 00:22:05,760
+yeah so while
+ 
+
+1095
+00:22:05,760 --> 00:22:08,470
+yeah so while
+x not equals to p x
+
+1096
+00:22:08,470 --> 00:22:08,480
+x not equals to p x
+ 
+
+1097
+00:22:08,480 --> 00:22:11,350
+x not equals to p x
+y x not equals to p x i want to compress
+
+1098
+00:22:11,350 --> 00:22:11,360
+y x not equals to p x i want to compress
+ 
+
+1099
+00:22:11,360 --> 00:22:13,430
+y x not equals to p x i want to compress
+the load there so first of all i need to
+
+1100
+00:22:13,430 --> 00:22:13,440
+the load there so first of all i need to
+ 
+
+1101
+00:22:13,440 --> 00:22:14,630
+the load there so first of all i need to
+do what
+
+1102
+00:22:14,630 --> 00:22:14,640
+do what
+ 
+
+1103
+00:22:14,640 --> 00:22:17,110
+do what
+i need to do what
+
+1104
+00:22:17,110 --> 00:22:17,120
+i need to do what
+ 
+
+1105
+00:22:17,120 --> 00:22:19,350
+i need to do what
+i need to have a value to save my value
+
+1106
+00:22:19,350 --> 00:22:19,360
+i need to have a value to save my value
+ 
+
+1107
+00:22:19,360 --> 00:22:21,110
+i need to have a value to save my value
+equals
+
+1108
+00:22:21,110 --> 00:22:21,120
+equals
+ 
+
+1109
+00:22:21,120 --> 00:22:24,230
+equals
+i want to save the value why
+
+1110
+00:22:24,230 --> 00:22:24,240
+i want to save the value why
+ 
+
+1111
+00:22:24,240 --> 00:22:26,870
+i want to save the value why
+save the parent at current x i want this
+
+1112
+00:22:26,870 --> 00:22:26,880
+save the parent at current x i want this
+ 
+
+1113
+00:22:26,880 --> 00:22:29,190
+save the parent at current x i want this
+this is the parent x value
+
+1114
+00:22:29,190 --> 00:22:29,200
+this is the parent x value
+ 
+
+1115
+00:22:29,200 --> 00:22:31,510
+this is the parent x value
+and then i've had an x
+
+1116
+00:22:31,510 --> 00:22:31,520
+and then i've had an x
+ 
+
+1117
+00:22:31,520 --> 00:22:35,029
+and then i've had an x
+parent x i want to shave to p x right
+
+1118
+00:22:35,029 --> 00:22:35,039
+parent x i want to shave to p x right
+ 
+
+1119
+00:22:35,039 --> 00:22:37,430
+parent x i want to shave to p x right
+i know what x will be v equals to v
+
+1120
+00:22:37,430 --> 00:22:37,440
+i know what x will be v equals to v
+ 
+
+1121
+00:22:37,440 --> 00:22:38,549
+i know what x will be v equals to v
+right
+
+1122
+00:22:38,549 --> 00:22:38,559
+right
+ 
+
+1123
+00:22:38,559 --> 00:22:39,750
+right
+yeah
+
+1124
+00:22:39,750 --> 00:22:39,760
+yeah
+ 
+
+1125
+00:22:39,760 --> 00:22:40,630
+yeah
+and then
+
+1126
+00:22:40,630 --> 00:22:40,640
+and then
+ 
+
+1127
+00:22:40,640 --> 00:22:42,630
+and then
+finally i will i want to return the loop
+
+1128
+00:22:42,630 --> 00:22:42,640
+finally i will i want to return the loop
+ 
+
+1129
+00:22:42,640 --> 00:22:44,710
+finally i will i want to return the loop
+which one is the root which value is the
+
+1130
+00:22:44,710 --> 00:22:44,720
+which one is the root which value is the
+ 
+
+1131
+00:22:44,720 --> 00:22:47,350
+which one is the root which value is the
+root
+
+1132
+00:22:47,350 --> 00:22:47,360
+
+ 
+
+1133
+00:22:47,360 --> 00:22:48,710
+
+come on
+
+1134
+00:22:48,710 --> 00:22:48,720
+come on
+ 
+
+1135
+00:22:48,720 --> 00:22:50,230
+come on
+which one is the root we're trying to
+
+1136
+00:22:50,230 --> 00:22:50,240
+which one is the root we're trying to
+ 
+
+1137
+00:22:50,240 --> 00:22:54,950
+which one is the root we're trying to
+find out
+
+1138
+00:22:54,950 --> 00:22:54,960
+
+ 
+
+1139
+00:22:54,960 --> 00:22:56,870
+
+so here is that when we are not reaching
+
+1140
+00:22:56,870 --> 00:22:56,880
+so here is that when we are not reaching
+ 
+
+1141
+00:22:56,880 --> 00:22:57,990
+so here is that when we are not reaching
+the
+
+1142
+00:22:57,990 --> 00:22:58,000
+the
+ 
+
+1143
+00:22:58,000 --> 00:23:00,310
+the
+when we following these we
+
+1144
+00:23:00,310 --> 00:23:00,320
+when we following these we
+ 
+
+1145
+00:23:00,320 --> 00:23:02,310
+when we following these we
+point this is to compress the path
+
+1146
+00:23:02,310 --> 00:23:02,320
+point this is to compress the path
+ 
+
+1147
+00:23:02,320 --> 00:23:03,750
+point this is to compress the path
+parent x
+
+1148
+00:23:03,750 --> 00:23:03,760
+parent x
+ 
+
+1149
+00:23:03,760 --> 00:23:06,310
+parent x
+i want to point to the px here yeah this
+
+1150
+00:23:06,310 --> 00:23:06,320
+i want to point to the px here yeah this
+ 
+
+1151
+00:23:06,320 --> 00:23:08,390
+i want to point to the px here yeah this
+this is what i mean and like x will go
+
+1152
+00:23:08,390 --> 00:23:08,400
+this is what i mean and like x will go
+ 
+
+1153
+00:23:08,400 --> 00:23:09,510
+this is what i mean and like x will go
+to the
+
+1154
+00:23:09,510 --> 00:23:09,520
+to the
+ 
+
+1155
+00:23:09,520 --> 00:23:11,510
+to the
+b which is parallax
+
+1156
+00:23:11,510 --> 00:23:11,520
+b which is parallax
+ 
+
+1157
+00:23:11,520 --> 00:23:14,630
+b which is parallax
+okay so this is the recursion version of
+
+1158
+00:23:14,630 --> 00:23:14,640
+okay so this is the recursion version of
+ 
+
+1159
+00:23:14,640 --> 00:23:16,870
+okay so this is the recursion version of
+the previous one okay so once we have
+
+1160
+00:23:16,870 --> 00:23:16,880
+the previous one okay so once we have
+ 
+
+1161
+00:23:16,880 --> 00:23:19,430
+the previous one okay so once we have
+this parent find parent yeah all right
+
+1162
+00:23:19,430 --> 00:23:19,440
+this parent find parent yeah all right
+ 
+
+1163
+00:23:19,440 --> 00:23:21,350
+this parent find parent yeah all right
+we talk about fine parent and how can we
+
+1164
+00:23:21,350 --> 00:23:21,360
+we talk about fine parent and how can we
+ 
+
+1165
+00:23:21,360 --> 00:23:23,510
+we talk about fine parent and how can we
+talk about uh check if the same group
+
+1166
+00:23:23,510 --> 00:23:23,520
+talk about uh check if the same group
+ 
+
+1167
+00:23:23,520 --> 00:23:24,630
+talk about uh check if the same group
+come on
+
+1168
+00:23:24,630 --> 00:23:24,640
+come on
+ 
+
+1169
+00:23:24,640 --> 00:23:26,149
+come on
+same group how can we check the same
+
+1170
+00:23:26,149 --> 00:23:26,159
+same group how can we check the same
+ 
+
+1171
+00:23:26,159 --> 00:23:26,950
+same group how can we check the same
+group
+
+1172
+00:23:26,950 --> 00:23:26,960
+group
+ 
+
+1173
+00:23:26,960 --> 00:23:30,310
+group
+a and b
+
+1174
+00:23:30,310 --> 00:23:30,320
+
+ 
+
+1175
+00:23:30,320 --> 00:23:32,549
+
+how do we check if a and b belongs to
+
+1176
+00:23:32,549 --> 00:23:32,559
+how do we check if a and b belongs to
+ 
+
+1177
+00:23:32,559 --> 00:23:33,830
+how do we check if a and b belongs to
+the sample
+
+1178
+00:23:33,830 --> 00:23:33,840
+the sample
+ 
+
+1179
+00:23:33,840 --> 00:23:35,510
+the sample
+can you give me can you explain to me
+
+1180
+00:23:35,510 --> 00:23:35,520
+can you give me can you explain to me
+ 
+
+1181
+00:23:35,520 --> 00:23:38,149
+can you give me can you explain to me
+not a coding can you explain to me how
+
+1182
+00:23:38,149 --> 00:23:38,159
+not a coding can you explain to me how
+ 
+
+1183
+00:23:38,159 --> 00:23:39,909
+not a coding can you explain to me how
+do we check if a and b belongs to the
+
+1184
+00:23:39,909 --> 00:23:39,919
+do we check if a and b belongs to the
+ 
+
+1185
+00:23:39,919 --> 00:23:43,669
+do we check if a and b belongs to the
+same group using which function yes
+
+1186
+00:23:43,669 --> 00:23:43,679
+same group using which function yes
+ 
+
+1187
+00:23:43,679 --> 00:23:47,909
+same group using which function yes
+look yeah which function we talk look
+
+1188
+00:23:47,909 --> 00:23:47,919
+look yeah which function we talk look
+ 
+
+1189
+00:23:47,919 --> 00:23:48,710
+look yeah which function we talk look
+what
+
+1190
+00:23:48,710 --> 00:23:48,720
+what
+ 
+
+1191
+00:23:48,720 --> 00:23:51,110
+what
+most can you be more specific
+
+1192
+00:23:51,110 --> 00:23:51,120
+most can you be more specific
+ 
+
+1193
+00:23:51,120 --> 00:23:51,990
+most can you be more specific
+with
+
+1194
+00:23:51,990 --> 00:23:52,000
+with
+ 
+
+1195
+00:23:52,000 --> 00:23:54,070
+with
+sample what function have we talked
+
+1196
+00:23:54,070 --> 00:23:54,080
+sample what function have we talked
+ 
+
+1197
+00:23:54,080 --> 00:23:55,190
+sample what function have we talked
+about
+
+1198
+00:23:55,190 --> 00:23:55,200
+about
+ 
+
+1199
+00:23:55,200 --> 00:23:59,669
+about
+one minute ago
+
+1200
+00:23:59,669 --> 00:23:59,679
+
+ 
+
+1201
+00:23:59,679 --> 00:24:02,549
+
+okay so if we find a parent if the
+
+1202
+00:24:02,549 --> 00:24:02,559
+okay so if we find a parent if the
+ 
+
+1203
+00:24:02,559 --> 00:24:05,190
+okay so if we find a parent if the
+parent find parent value of a and b is
+
+1204
+00:24:05,190 --> 00:24:05,200
+parent find parent value of a and b is
+ 
+
+1205
+00:24:05,200 --> 00:24:06,149
+parent find parent value of a and b is
+the same
+
+1206
+00:24:06,149 --> 00:24:06,159
+the same
+ 
+
+1207
+00:24:06,159 --> 00:24:10,950
+the same
+is it belongs to the same group
+
+1208
+00:24:10,950 --> 00:24:10,960
+
+ 
+
+1209
+00:24:10,960 --> 00:24:14,710
+
+yeah so look we can just do this we have
+
+1210
+00:24:14,710 --> 00:24:14,720
+yeah so look we can just do this we have
+ 
+
+1211
+00:24:14,720 --> 00:24:16,390
+yeah so look we can just do this we have
+find
+
+1212
+00:24:16,390 --> 00:24:16,400
+find
+ 
+
+1213
+00:24:16,400 --> 00:24:18,870
+find
+parents
+
+1214
+00:24:18,870 --> 00:24:18,880
+parents
+ 
+
+1215
+00:24:18,880 --> 00:24:19,830
+parents
+a
+
+1216
+00:24:19,830 --> 00:24:19,840
+a
+ 
+
+1217
+00:24:19,840 --> 00:24:21,909
+a
+and five
+
+1218
+00:24:21,909 --> 00:24:21,919
+and five
+ 
+
+1219
+00:24:21,919 --> 00:24:24,149
+and five
+parent
+
+1220
+00:24:24,149 --> 00:24:24,159
+parent
+ 
+
+1221
+00:24:24,159 --> 00:24:26,549
+parent
+b so what should i put here
+
+1222
+00:24:26,549 --> 00:24:26,559
+b so what should i put here
+ 
+
+1223
+00:24:26,559 --> 00:24:29,110
+b so what should i put here
+what should i put here
+
+1224
+00:24:29,110 --> 00:24:29,120
+what should i put here
+ 
+
+1225
+00:24:29,120 --> 00:24:31,190
+what should i put here
+five parent a and five planet b they
+
+1226
+00:24:31,190 --> 00:24:31,200
+five parent a and five planet b they
+ 
+
+1227
+00:24:31,200 --> 00:24:32,789
+five parent a and five planet b they
+have to be
+
+1228
+00:24:32,789 --> 00:24:32,799
+have to be
+ 
+
+1229
+00:24:32,799 --> 00:24:35,590
+have to be
+they have to to have to do one
+
+1230
+00:24:35,590 --> 00:24:35,600
+they have to to have to do one
+ 
+
+1231
+00:24:35,600 --> 00:24:36,390
+they have to to have to do one
+to
+
+1232
+00:24:36,390 --> 00:24:36,400
+to
+ 
+
+1233
+00:24:36,400 --> 00:24:40,070
+to
+if there are some group
+
+1234
+00:24:40,070 --> 00:24:40,080
+
+ 
+
+1235
+00:24:40,080 --> 00:24:43,350
+
+ryan any questions
+
+1236
+00:24:43,350 --> 00:24:43,360
+ryan any questions
+ 
+
+1237
+00:24:43,360 --> 00:24:45,669
+ryan any questions
+a and b belongs to the same girl what
+
+1238
+00:24:45,669 --> 00:24:45,679
+a and b belongs to the same girl what
+ 
+
+1239
+00:24:45,679 --> 00:24:47,430
+a and b belongs to the same girl what
+does it mean
+
+1240
+00:24:47,430 --> 00:24:47,440
+does it mean
+ 
+
+1241
+00:24:47,440 --> 00:24:48,710
+does it mean
+it means
+
+1242
+00:24:48,710 --> 00:24:48,720
+it means
+ 
+
+1243
+00:24:48,720 --> 00:24:53,830
+it means
+belong to the same group
+
+1244
+00:24:53,830 --> 00:24:53,840
+
+ 
+
+1245
+00:24:53,840 --> 00:24:57,110
+
+what they have to be equal or not
+
+1246
+00:24:57,110 --> 00:24:57,120
+what they have to be equal or not
+ 
+
+1247
+00:24:57,120 --> 00:25:00,470
+what they have to be equal or not
+they have to be equal or not yeah yes
+
+1248
+00:25:00,470 --> 00:25:00,480
+they have to be equal or not yeah yes
+ 
+
+1249
+00:25:00,480 --> 00:25:02,950
+they have to be equal or not yeah yes
+five pound a needs to be equals to five
+
+1250
+00:25:02,950 --> 00:25:02,960
+five pound a needs to be equals to five
+ 
+
+1251
+00:25:02,960 --> 00:25:05,269
+five pound a needs to be equals to five
+parent feet in order to be in the same
+
+1252
+00:25:05,269 --> 00:25:05,279
+parent feet in order to be in the same
+ 
+
+1253
+00:25:05,279 --> 00:25:06,549
+parent feet in order to be in the same
+group right
+
+1254
+00:25:06,549 --> 00:25:06,559
+group right
+ 
+
+1255
+00:25:06,559 --> 00:25:10,310
+group right
+that makes sense right yeah yeah okay
+
+1256
+00:25:10,310 --> 00:25:10,320
+that makes sense right yeah yeah okay
+ 
+
+1257
+00:25:10,320 --> 00:25:11,909
+that makes sense right yeah yeah okay
+so we have the same group and what have
+
+1258
+00:25:11,909 --> 00:25:11,919
+so we have the same group and what have
+ 
+
+1259
+00:25:11,919 --> 00:25:14,710
+so we have the same group and what have
+we what now we'll talk about this much
+
+1260
+00:25:14,710 --> 00:25:14,720
+we what now we'll talk about this much
+ 
+
+1261
+00:25:14,720 --> 00:25:17,430
+we what now we'll talk about this much
+okay how can we manage it
+
+1262
+00:25:17,430 --> 00:25:17,440
+okay how can we manage it
+ 
+
+1263
+00:25:17,440 --> 00:25:19,909
+okay how can we manage it
+yeah okay that's fine merge a and b we
+
+1264
+00:25:19,909 --> 00:25:19,919
+yeah okay that's fine merge a and b we
+ 
+
+1265
+00:25:19,919 --> 00:25:21,909
+yeah okay that's fine merge a and b we
+want to match that
+
+1266
+00:25:21,909 --> 00:25:21,919
+want to match that
+ 
+
+1267
+00:25:21,919 --> 00:25:24,310
+want to match that
+can you not do it
+
+1268
+00:25:24,310 --> 00:25:24,320
+can you not do it
+ 
+
+1269
+00:25:24,320 --> 00:25:25,830
+can you not do it
+can you not do it otherwise we have to
+
+1270
+00:25:25,830 --> 00:25:25,840
+can you not do it otherwise we have to
+ 
+
+1271
+00:25:25,840 --> 00:25:40,310
+can you not do it otherwise we have to
+do it again okay
+
+1272
+00:25:40,310 --> 00:25:40,320
+
+ 
+
+1273
+00:25:40,320 --> 00:25:41,990
+
+remember i talked about this before i
+
+1274
+00:25:41,990 --> 00:25:42,000
+remember i talked about this before i
+ 
+
+1275
+00:25:42,000 --> 00:25:44,710
+remember i talked about this before i
+just have to assign one to another right
+
+1276
+00:25:44,710 --> 00:25:44,720
+just have to assign one to another right
+ 
+
+1277
+00:25:44,720 --> 00:25:47,110
+just have to assign one to another right
+so in the in the best cases i if there
+
+1278
+00:25:47,110 --> 00:25:47,120
+so in the in the best cases i if there
+ 
+
+1279
+00:25:47,120 --> 00:25:49,110
+so in the in the best cases i if there
+are two if there too first of all i have
+
+1280
+00:25:49,110 --> 00:25:49,120
+are two if there too first of all i have
+ 
+
+1281
+00:25:49,120 --> 00:25:51,190
+are two if there too first of all i have
+to check yeah i have to check what the
+
+1282
+00:25:51,190 --> 00:25:51,200
+to check yeah i have to check what the
+ 
+
+1283
+00:25:51,200 --> 00:25:52,789
+to check yeah i have to check what the
+group a
+
+1284
+00:25:52,789 --> 00:25:52,799
+group a
+ 
+
+1285
+00:25:52,799 --> 00:25:54,710
+group a
+group a
+
+1286
+00:25:54,710 --> 00:25:54,720
+group a
+ 
+
+1287
+00:25:54,720 --> 00:25:58,549
+group a
+equals five parent yeah five parent
+
+1288
+00:25:58,549 --> 00:25:58,559
+equals five parent yeah five parent
+ 
+
+1289
+00:25:58,559 --> 00:26:00,310
+equals five parent yeah five parent
+a
+
+1290
+00:26:00,310 --> 00:26:00,320
+a
+ 
+
+1291
+00:26:00,320 --> 00:26:01,990
+a
+group b
+
+1292
+00:26:01,990 --> 00:26:02,000
+group b
+ 
+
+1293
+00:26:02,000 --> 00:26:04,149
+group b
+equals five parent b
+
+1294
+00:26:04,149 --> 00:26:04,159
+equals five parent b
+ 
+
+1295
+00:26:04,159 --> 00:26:05,750
+equals five parent b
+if group b
+
+1296
+00:26:05,750 --> 00:26:05,760
+if group b
+ 
+
+1297
+00:26:05,760 --> 00:26:07,269
+if group b
+group a
+
+1298
+00:26:07,269 --> 00:26:07,279
+group a
+ 
+
+1299
+00:26:07,279 --> 00:26:10,630
+group a
+equals group b what does it mean
+
+1300
+00:26:10,630 --> 00:26:10,640
+equals group b what does it mean
+ 
+
+1301
+00:26:10,640 --> 00:26:12,230
+equals group b what does it mean
+they already in the same group do i need
+
+1302
+00:26:12,230 --> 00:26:12,240
+they already in the same group do i need
+ 
+
+1303
+00:26:12,240 --> 00:26:13,590
+they already in the same group do i need
+to do anything else
+
+1304
+00:26:13,590 --> 00:26:13,600
+to do anything else
+ 
+
+1305
+00:26:13,600 --> 00:26:16,390
+to do anything else
+no i just pretend right yeah
+
+1306
+00:26:16,390 --> 00:26:16,400
+no i just pretend right yeah
+ 
+
+1307
+00:26:16,400 --> 00:26:19,029
+no i just pretend right yeah
+otherwise i i can do what i can do what
+
+1308
+00:26:19,029 --> 00:26:19,039
+otherwise i i can do what i can do what
+ 
+
+1309
+00:26:19,039 --> 00:26:21,669
+otherwise i i can do what i can do what
+i can do what parent
+
+1310
+00:26:21,669 --> 00:26:21,679
+i can do what parent
+ 
+
+1311
+00:26:21,679 --> 00:26:22,630
+i can do what parent
+okay
+
+1312
+00:26:22,630 --> 00:26:22,640
+okay
+ 
+
+1313
+00:26:22,640 --> 00:26:27,029
+okay
+parent a equals parent equals b right
+
+1314
+00:26:27,029 --> 00:26:27,039
+parent a equals parent equals b right
+ 
+
+1315
+00:26:27,039 --> 00:26:30,630
+parent a equals parent equals b right
+a equals one equals five parent b
+
+1316
+00:26:30,630 --> 00:26:30,640
+a equals one equals five parent b
+ 
+
+1317
+00:26:30,640 --> 00:26:32,149
+a equals one equals five parent b
+uh
+
+1318
+00:26:32,149 --> 00:26:32,159
+uh
+ 
+
+1319
+00:26:32,159 --> 00:26:33,909
+uh
+no the actual is good b
+
+1320
+00:26:33,909 --> 00:26:33,919
+no the actual is good b
+ 
+
+1321
+00:26:33,919 --> 00:26:37,669
+no the actual is good b
+okay we we already have this group b
+
+1322
+00:26:37,669 --> 00:26:37,679
+okay we we already have this group b
+ 
+
+1323
+00:26:37,679 --> 00:26:39,830
+okay we we already have this group b
+oh we can do this
+
+1324
+00:26:39,830 --> 00:26:39,840
+oh we can do this
+ 
+
+1325
+00:26:39,840 --> 00:26:42,070
+oh we can do this
+parent b equals
+
+1326
+00:26:42,070 --> 00:26:42,080
+parent b equals
+ 
+
+1327
+00:26:42,080 --> 00:26:43,909
+parent b equals
+what
+
+1328
+00:26:43,909 --> 00:26:43,919
+what
+ 
+
+1329
+00:26:43,919 --> 00:26:48,070
+what
+pattern a equals group b or parent what
+
+1330
+00:26:48,070 --> 00:26:48,080
+pattern a equals group b or parent what
+ 
+
+1331
+00:26:48,080 --> 00:26:49,350
+pattern a equals group b or parent what
+um
+
+1332
+00:26:49,350 --> 00:26:49,360
+um
+ 
+
+1333
+00:26:49,360 --> 00:26:55,190
+um
+or what
+
+1334
+00:26:55,190 --> 00:26:55,200
+
+ 
+
+1335
+00:26:55,200 --> 00:26:57,430
+
+come on we can do one of these one of
+
+1336
+00:26:57,430 --> 00:26:57,440
+come on we can do one of these one of
+ 
+
+1337
+00:26:57,440 --> 00:27:00,710
+come on we can do one of these one of
+these one of these that's no great that
+
+1338
+00:27:00,710 --> 00:27:00,720
+these one of these that's no great that
+ 
+
+1339
+00:27:00,720 --> 00:27:03,350
+these one of these that's no great that
+one of these pattern a
+
+1340
+00:27:03,350 --> 00:27:03,360
+one of these pattern a
+ 
+
+1341
+00:27:03,360 --> 00:27:05,430
+one of these pattern a
+i can send it to group b or parent d i
+
+1342
+00:27:05,430 --> 00:27:05,440
+i can send it to group b or parent d i
+ 
+
+1343
+00:27:05,440 --> 00:27:08,549
+i can send it to group b or parent d i
+can send it to guru hey okay yeah so
+
+1344
+00:27:08,549 --> 00:27:08,559
+can send it to guru hey okay yeah so
+ 
+
+1345
+00:27:08,559 --> 00:27:09,990
+can send it to guru hey okay yeah so
+yeah it's the same yeah
+
+1346
+00:27:09,990 --> 00:27:10,000
+yeah it's the same yeah
+ 
+
+1347
+00:27:10,000 --> 00:27:11,909
+yeah it's the same yeah
+yeah it's the same thing yeah
+
+1348
+00:27:11,909 --> 00:27:11,919
+yeah it's the same thing yeah
+ 
+
+1349
+00:27:11,919 --> 00:27:12,789
+yeah it's the same thing yeah
+but
+
+1350
+00:27:12,789 --> 00:27:12,799
+but
+ 
+
+1351
+00:27:12,799 --> 00:27:14,870
+but
+we want to improve this
+
+1352
+00:27:14,870 --> 00:27:14,880
+we want to improve this
+ 
+
+1353
+00:27:14,880 --> 00:27:17,110
+we want to improve this
+why because look
+
+1354
+00:27:17,110 --> 00:27:17,120
+why because look
+ 
+
+1355
+00:27:17,120 --> 00:27:18,470
+why because look
+look
+
+1356
+00:27:18,470 --> 00:27:18,480
+look
+ 
+
+1357
+00:27:18,480 --> 00:27:20,230
+look
+which one is better if if they are
+
+1358
+00:27:20,230 --> 00:27:20,240
+which one is better if if they are
+ 
+
+1359
+00:27:20,240 --> 00:27:23,510
+which one is better if if they are
+already too many if they are look okay
+
+1360
+00:27:23,510 --> 00:27:23,520
+already too many if they are look okay
+ 
+
+1361
+00:27:23,520 --> 00:27:26,789
+already too many if they are look okay
+just imagine if this is a minion group a
+
+1362
+00:27:26,789 --> 00:27:26,799
+just imagine if this is a minion group a
+ 
+
+1363
+00:27:26,799 --> 00:27:29,029
+just imagine if this is a minion group a
+group has a minion note right
+
+1364
+00:27:29,029 --> 00:27:29,039
+group has a minion note right
+ 
+
+1365
+00:27:29,039 --> 00:27:31,029
+group has a minion note right
+yeah
+
+1366
+00:27:31,029 --> 00:27:31,039
+yeah
+ 
+
+1367
+00:27:31,039 --> 00:27:33,990
+yeah
+and there's a group of just two notes
+
+1368
+00:27:33,990 --> 00:27:34,000
+and there's a group of just two notes
+ 
+
+1369
+00:27:34,000 --> 00:27:35,350
+and there's a group of just two notes
+okay
+
+1370
+00:27:35,350 --> 00:27:35,360
+okay
+ 
+
+1371
+00:27:35,360 --> 00:27:36,470
+okay
+yeah
+
+1372
+00:27:36,470 --> 00:27:36,480
+yeah
+ 
+
+1373
+00:27:36,480 --> 00:27:38,950
+yeah
+and i want to merge these two notes two
+
+1374
+00:27:38,950 --> 00:27:38,960
+and i want to merge these two notes two
+ 
+
+1375
+00:27:38,960 --> 00:27:41,269
+and i want to merge these two notes two
+groups
+
+1376
+00:27:41,269 --> 00:27:41,279
+groups
+ 
+
+1377
+00:27:41,279 --> 00:27:43,510
+groups
+i want to match the two groups which one
+
+1378
+00:27:43,510 --> 00:27:43,520
+i want to match the two groups which one
+ 
+
+1379
+00:27:43,520 --> 00:27:46,389
+i want to match the two groups which one
+is better moving this
+
+1380
+00:27:46,389 --> 00:27:46,399
+is better moving this
+ 
+
+1381
+00:27:46,399 --> 00:27:48,310
+is better moving this
+which one is better eric
+
+1382
+00:27:48,310 --> 00:27:48,320
+which one is better eric
+ 
+
+1383
+00:27:48,320 --> 00:27:49,830
+which one is better eric
+come on think about it this is a
+
+1384
+00:27:49,830 --> 00:27:49,840
+come on think about it this is a
+ 
+
+1385
+00:27:49,840 --> 00:27:51,430
+come on think about it this is a
+question
+
+1386
+00:27:51,430 --> 00:27:51,440
+question
+ 
+
+1387
+00:27:51,440 --> 00:27:54,710
+question
+okay i have a group a has a minion note
+
+1388
+00:27:54,710 --> 00:27:54,720
+okay i have a group a has a minion note
+ 
+
+1389
+00:27:54,720 --> 00:27:57,669
+okay i have a group a has a minion note
+i have a group b which is just two notes
+
+1390
+00:27:57,669 --> 00:27:57,679
+i have a group b which is just two notes
+ 
+
+1391
+00:27:57,679 --> 00:28:00,070
+i have a group b which is just two notes
+i want to merge these two groups
+
+1392
+00:28:00,070 --> 00:28:00,080
+i want to merge these two groups
+ 
+
+1393
+00:28:00,080 --> 00:28:00,950
+i want to merge these two groups
+so
+
+1394
+00:28:00,950 --> 00:28:00,960
+so
+ 
+
+1395
+00:28:00,960 --> 00:28:02,950
+so
+should i set these
+
+1396
+00:28:02,950 --> 00:28:02,960
+should i set these
+ 
+
+1397
+00:28:02,960 --> 00:28:05,110
+should i set these
+the parent of these the root at the
+
+1398
+00:28:05,110 --> 00:28:05,120
+the parent of these the root at the
+ 
+
+1399
+00:28:05,120 --> 00:28:06,870
+the parent of these the root at the
+beginning is pointer is that can i
+
+1400
+00:28:06,870 --> 00:28:06,880
+beginning is pointer is that can i
+ 
+
+1401
+00:28:06,880 --> 00:28:09,110
+beginning is pointer is that can i
+should i set these to
+
+1402
+00:28:09,110 --> 00:28:09,120
+should i set these to
+ 
+
+1403
+00:28:09,120 --> 00:28:12,310
+should i set these to
+these this is one way merge the b to a
+
+1404
+00:28:12,310 --> 00:28:12,320
+these this is one way merge the b to a
+ 
+
+1405
+00:28:12,320 --> 00:28:14,389
+these this is one way merge the b to a
+or should i say least
+
+1406
+00:28:14,389 --> 00:28:14,399
+or should i say least
+ 
+
+1407
+00:28:14,399 --> 00:28:17,510
+or should i say least
+like this is a loop to to to the root of
+
+1408
+00:28:17,510 --> 00:28:17,520
+like this is a loop to to to the root of
+ 
+
+1409
+00:28:17,520 --> 00:28:19,590
+like this is a loop to to to the root of
+it which one is better b
+
+1410
+00:28:19,590 --> 00:28:19,600
+it which one is better b
+ 
+
+1411
+00:28:19,600 --> 00:28:22,789
+it which one is better b
+b to a and and you
+
+1412
+00:28:22,789 --> 00:28:22,799
+b to a and and you
+ 
+
+1413
+00:28:22,799 --> 00:28:23,909
+b to a and and you
+i think
+
+1414
+00:28:23,909 --> 00:28:23,919
+i think
+ 
+
+1415
+00:28:23,919 --> 00:28:27,190
+i think
+you don't care okay b
+
+1416
+00:28:27,190 --> 00:28:27,200
+
+ 
+
+1417
+00:28:27,200 --> 00:28:28,789
+
+actually
+
+1418
+00:28:28,789 --> 00:28:28,799
+actually
+ 
+
+1419
+00:28:28,799 --> 00:28:31,830
+actually
+yeah this is oh any of these is okay but
+
+1420
+00:28:31,830 --> 00:28:31,840
+yeah this is oh any of these is okay but
+ 
+
+1421
+00:28:31,840 --> 00:28:35,110
+yeah this is oh any of these is okay but
+it's better to make b to a yeah
+
+1422
+00:28:35,110 --> 00:28:35,120
+it's better to make b to a yeah
+ 
+
+1423
+00:28:35,120 --> 00:28:37,830
+it's better to make b to a yeah
+yeah b to a i said i don't mind yeah
+
+1424
+00:28:37,830 --> 00:28:37,840
+yeah b to a i said i don't mind yeah
+ 
+
+1425
+00:28:37,840 --> 00:28:40,389
+yeah b to a i said i don't mind yeah
+okay but i explained why merging the b
+
+1426
+00:28:40,389 --> 00:28:40,399
+okay but i explained why merging the b
+ 
+
+1427
+00:28:40,399 --> 00:28:41,830
+okay but i explained why merging the b
+to a is better
+
+1428
+00:28:41,830 --> 00:28:41,840
+to a is better
+ 
+
+1429
+00:28:41,840 --> 00:28:43,510
+to a is better
+can cannot tell me why imagine the b two
+
+1430
+00:28:43,510 --> 00:28:43,520
+can cannot tell me why imagine the b two
+ 
+
+1431
+00:28:43,520 --> 00:28:45,750
+can cannot tell me why imagine the b two
+eight is better do you have that you're
+
+1432
+00:28:45,750 --> 00:28:45,760
+eight is better do you have that you're
+ 
+
+1433
+00:28:45,760 --> 00:28:46,870
+eight is better do you have that you're
+less yeah
+
+1434
+00:28:46,870 --> 00:28:46,880
+less yeah
+ 
+
+1435
+00:28:46,880 --> 00:28:48,950
+less yeah
+we want to merge the less
+
+1436
+00:28:48,950 --> 00:28:48,960
+we want to merge the less
+ 
+
+1437
+00:28:48,960 --> 00:28:51,590
+we want to merge the less
+the size the set the group of less size
+
+1438
+00:28:51,590 --> 00:28:51,600
+the size the set the group of less size
+ 
+
+1439
+00:28:51,600 --> 00:28:53,990
+the size the set the group of less size
+to the bigger size because in this case
+
+1440
+00:28:53,990 --> 00:28:54,000
+to the bigger size because in this case
+ 
+
+1441
+00:28:54,000 --> 00:28:56,470
+to the bigger size because in this case
+we are not into we are not increasingly
+
+1442
+00:28:56,470 --> 00:28:56,480
+we are not into we are not increasingly
+ 
+
+1443
+00:28:56,480 --> 00:28:59,750
+we are not into we are not increasingly
+over all parts right if if we move these
+
+1444
+00:28:59,750 --> 00:28:59,760
+over all parts right if if we move these
+ 
+
+1445
+00:28:59,760 --> 00:29:02,389
+over all parts right if if we move these
+to here what happened to all these parts
+
+1446
+00:29:02,389 --> 00:29:02,399
+to here what happened to all these parts
+ 
+
+1447
+00:29:02,399 --> 00:29:05,190
+to here what happened to all these parts
+that these will be more one more right
+
+1448
+00:29:05,190 --> 00:29:05,200
+that these will be more one more right
+ 
+
+1449
+00:29:05,200 --> 00:29:07,350
+that these will be more one more right
+okay because i have a minion nose i need
+
+1450
+00:29:07,350 --> 00:29:07,360
+okay because i have a minion nose i need
+ 
+
+1451
+00:29:07,360 --> 00:29:09,269
+okay because i have a minion nose i need
+to affect a minion pass
+
+1452
+00:29:09,269 --> 00:29:09,279
+to affect a minion pass
+ 
+
+1453
+00:29:09,279 --> 00:29:11,350
+to affect a minion pass
+right if i
+
+1454
+00:29:11,350 --> 00:29:11,360
+right if i
+ 
+
+1455
+00:29:11,360 --> 00:29:13,190
+right if i
+these note will be effective when i
+
+1456
+00:29:13,190 --> 00:29:13,200
+these note will be effective when i
+ 
+
+1457
+00:29:13,200 --> 00:29:14,789
+these note will be effective when i
+could release these snow will be
+
+1458
+00:29:14,789 --> 00:29:14,799
+could release these snow will be
+ 
+
+1459
+00:29:14,799 --> 00:29:17,269
+could release these snow will be
+affected remember yeah i want to shorten
+
+1460
+00:29:17,269 --> 00:29:17,279
+affected remember yeah i want to shorten
+ 
+
+1461
+00:29:17,279 --> 00:29:19,830
+affected remember yeah i want to shorten
+the path i want to shorten the path
+
+1462
+00:29:19,830 --> 00:29:19,840
+the path i want to shorten the path
+ 
+
+1463
+00:29:19,840 --> 00:29:21,909
+the path i want to shorten the path
+yeah i don't want i i want to compress
+
+1464
+00:29:21,909 --> 00:29:21,919
+yeah i don't want i i want to compress
+ 
+
+1465
+00:29:21,919 --> 00:29:24,470
+yeah i don't want i i want to compress
+this part right by when this moves in
+
+1466
+00:29:24,470 --> 00:29:24,480
+this part right by when this moves in
+ 
+
+1467
+00:29:24,480 --> 00:29:26,230
+this part right by when this moves in
+the bigger thicker set to the smaller
+
+1468
+00:29:26,230 --> 00:29:26,240
+the bigger thicker set to the smaller
+ 
+
+1469
+00:29:26,240 --> 00:29:28,710
+the bigger thicker set to the smaller
+cell what happened
+
+1470
+00:29:28,710 --> 00:29:28,720
+cell what happened
+ 
+
+1471
+00:29:28,720 --> 00:29:31,190
+cell what happened
+all these nodes will be affected
+
+1472
+00:29:31,190 --> 00:29:31,200
+all these nodes will be affected
+ 
+
+1473
+00:29:31,200 --> 00:29:33,510
+all these nodes will be affected
+if i move this the smaller set to these
+
+1474
+00:29:33,510 --> 00:29:33,520
+if i move this the smaller set to these
+ 
+
+1475
+00:29:33,520 --> 00:29:34,789
+if i move this the smaller set to these
+all these
+
+1476
+00:29:34,789 --> 00:29:34,799
+all these
+ 
+
+1477
+00:29:34,799 --> 00:29:37,430
+all these
+majority of this path
+
+1478
+00:29:37,430 --> 00:29:37,440
+majority of this path
+ 
+
+1479
+00:29:37,440 --> 00:29:40,070
+majority of this path
+will not be affected only it less okay
+
+1480
+00:29:40,070 --> 00:29:40,080
+will not be affected only it less okay
+ 
+
+1481
+00:29:40,080 --> 00:29:43,190
+will not be affected only it less okay
+so in order to do this we need to we can
+
+1482
+00:29:43,190 --> 00:29:43,200
+so in order to do this we need to we can
+ 
+
+1483
+00:29:43,200 --> 00:29:46,710
+so in order to do this we need to we can
+have these sizes okay we can have size
+
+1484
+00:29:46,710 --> 00:29:46,720
+have these sizes okay we can have size
+ 
+
+1485
+00:29:46,720 --> 00:29:49,669
+have these sizes okay we can have size
+at the beginning equals uh one times n
+
+1486
+00:29:49,669 --> 00:29:49,679
+at the beginning equals uh one times n
+ 
+
+1487
+00:29:49,679 --> 00:29:50,710
+at the beginning equals uh one times n
+right
+
+1488
+00:29:50,710 --> 00:29:50,720
+right
+ 
+
+1489
+00:29:50,720 --> 00:29:53,350
+right
+we have a size of each group right
+
+1490
+00:29:53,350 --> 00:29:53,360
+we have a size of each group right
+ 
+
+1491
+00:29:53,360 --> 00:29:55,669
+we have a size of each group right
+we have size of each screw and when we
+
+1492
+00:29:55,669 --> 00:29:55,679
+we have size of each screw and when we
+ 
+
+1493
+00:29:55,679 --> 00:29:58,070
+we have size of each screw and when we
+merge it which first of all we check the
+
+1494
+00:29:58,070 --> 00:29:58,080
+merge it which first of all we check the
+ 
+
+1495
+00:29:58,080 --> 00:30:00,710
+merge it which first of all we check the
+size which size which size is smaller
+
+1496
+00:30:00,710 --> 00:30:00,720
+size which size which size is smaller
+ 
+
+1497
+00:30:00,720 --> 00:30:03,029
+size which size which size is smaller
+right we which size bigger we can we can
+
+1498
+00:30:03,029 --> 00:30:03,039
+right we which size bigger we can we can
+ 
+
+1499
+00:30:03,039 --> 00:30:05,669
+right we which size bigger we can we can
+compare this if size a
+
+1500
+00:30:05,669 --> 00:30:05,679
+compare this if size a
+ 
+
+1501
+00:30:05,679 --> 00:30:10,789
+compare this if size a
+if size a is smaller than if size b then
+
+1502
+00:30:10,789 --> 00:30:10,799
+if size a is smaller than if size b then
+ 
+
+1503
+00:30:10,799 --> 00:30:13,510
+if size a is smaller than if size b then
+we merge the b uh
+
+1504
+00:30:13,510 --> 00:30:13,520
+we merge the b uh
+ 
+
+1505
+00:30:13,520 --> 00:30:15,750
+we merge the b uh
+a to b otherwise we'll merge the b to a
+
+1506
+00:30:15,750 --> 00:30:15,760
+a to b otherwise we'll merge the b to a
+ 
+
+1507
+00:30:15,760 --> 00:30:17,590
+a to b otherwise we'll merge the b to a
+right okay i'm not going to write it but
+
+1508
+00:30:17,590 --> 00:30:17,600
+right okay i'm not going to write it but
+ 
+
+1509
+00:30:17,600 --> 00:30:19,510
+right okay i'm not going to write it but
+you understand this problem right we
+
+1510
+00:30:19,510 --> 00:30:19,520
+you understand this problem right we
+ 
+
+1511
+00:30:19,520 --> 00:30:21,430
+you understand this problem right we
+want to merge the smaller size to the
+
+1512
+00:30:21,430 --> 00:30:21,440
+want to merge the smaller size to the
+ 
+
+1513
+00:30:21,440 --> 00:30:23,669
+want to merge the smaller size to the
+bigger size and we updated the size size
+
+1514
+00:30:23,669 --> 00:30:23,679
+bigger size and we updated the size size
+ 
+
+1515
+00:30:23,679 --> 00:30:26,070
+bigger size and we updated the size size
+x well self-doubt
+
+1516
+00:30:26,070 --> 00:30:26,080
+x well self-doubt
+ 
+
+1517
+00:30:26,080 --> 00:30:28,630
+x well self-doubt
+size group a plus
+
+1518
+00:30:28,630 --> 00:30:28,640
+size group a plus
+ 
+
+1519
+00:30:28,640 --> 00:30:30,950
+size group a plus
+equals sine square b all
+
+1520
+00:30:30,950 --> 00:30:30,960
+equals sine square b all
+ 
+
+1521
+00:30:30,960 --> 00:30:33,110
+equals sine square b all
+set of the size group b plus equals
+
+1522
+00:30:33,110 --> 00:30:33,120
+set of the size group b plus equals
+ 
+
+1523
+00:30:33,120 --> 00:30:34,950
+set of the size group b plus equals
+seven so size eight in this case we
+
+1524
+00:30:34,950 --> 00:30:34,960
+seven so size eight in this case we
+ 
+
+1525
+00:30:34,960 --> 00:30:38,149
+seven so size eight in this case we
+always maintaining always merging the
+
+1526
+00:30:38,149 --> 00:30:38,159
+always maintaining always merging the
+ 
+
+1527
+00:30:38,159 --> 00:30:40,070
+always maintaining always merging the
+set with smaller size into the bigger
+
+1528
+00:30:40,070 --> 00:30:40,080
+set with smaller size into the bigger
+ 
+
+1529
+00:30:40,080 --> 00:30:43,590
+set with smaller size into the bigger
+one okay so when we
+
+1530
+00:30:43,590 --> 00:30:43,600
+one okay so when we
+ 
+
+1531
+00:30:43,600 --> 00:30:44,789
+one okay so when we
+uh
+
+1532
+00:30:44,789 --> 00:30:44,799
+uh
+ 
+
+1533
+00:30:44,799 --> 00:30:48,389
+uh
+when we when we merge the size yeah we
+
+1534
+00:30:48,389 --> 00:30:48,399
+when we when we merge the size yeah we
+ 
+
+1535
+00:30:48,399 --> 00:30:49,830
+when we when we merge the size yeah we
+will merge the group what happened to
+
+1536
+00:30:49,830 --> 00:30:49,840
+will merge the group what happened to
+ 
+
+1537
+00:30:49,840 --> 00:30:50,950
+will merge the group what happened to
+the uh
+
+1538
+00:30:50,950 --> 00:30:50,960
+the uh
+ 
+
+1539
+00:30:50,960 --> 00:30:51,909
+the uh
+group
+
+1540
+00:30:51,909 --> 00:30:51,919
+group
+ 
+
+1541
+00:30:51,919 --> 00:30:54,630
+group
+group count all right okay it's almost
+
+1542
+00:30:54,630 --> 00:30:54,640
+group count all right okay it's almost
+ 
+
+1543
+00:30:54,640 --> 00:30:56,310
+group count all right okay it's almost
+going to be
+
+1544
+00:30:56,310 --> 00:30:56,320
+going to be
+ 
+
+1545
+00:30:56,320 --> 00:30:58,549
+going to be
+complete okay so look
+
+1546
+00:30:58,549 --> 00:30:58,559
+complete okay so look
+ 
+
+1547
+00:30:58,559 --> 00:31:00,149
+complete okay so look
+zero
+
+1548
+00:31:00,149 --> 00:31:00,159
+zero
+ 
+
+1549
+00:31:00,159 --> 00:31:01,590
+zero
+one
+
+1550
+00:31:01,590 --> 00:31:01,600
+one
+ 
+
+1551
+00:31:01,600 --> 00:31:02,389
+one
+two
+
+1552
+00:31:02,389 --> 00:31:02,399
+two
+ 
+
+1553
+00:31:02,399 --> 00:31:04,389
+two
+three there are four groups okay
+
+1554
+00:31:04,389 --> 00:31:04,399
+three there are four groups okay
+ 
+
+1555
+00:31:04,399 --> 00:31:05,350
+three there are four groups okay
+yeah
+
+1556
+00:31:05,350 --> 00:31:05,360
+yeah
+ 
+
+1557
+00:31:05,360 --> 00:31:07,269
+yeah
+if i merge two groups how many groups
+
+1558
+00:31:07,269 --> 00:31:07,279
+if i merge two groups how many groups
+ 
+
+1559
+00:31:07,279 --> 00:31:10,470
+if i merge two groups how many groups
+are there three if i move one one group
+
+1560
+00:31:10,470 --> 00:31:10,480
+are there three if i move one one group
+ 
+
+1561
+00:31:10,480 --> 00:31:12,789
+are there three if i move one one group
+another another what happened to the
+
+1562
+00:31:12,789 --> 00:31:12,799
+another another what happened to the
+ 
+
+1563
+00:31:12,799 --> 00:31:15,350
+another another what happened to the
+group count
+
+1564
+00:31:15,350 --> 00:31:15,360
+
+ 
+
+1565
+00:31:15,360 --> 00:31:17,350
+
+every time i merge two individual
+
+1566
+00:31:17,350 --> 00:31:17,360
+every time i merge two individual
+ 
+
+1567
+00:31:17,360 --> 00:31:18,870
+every time i merge two individual
+components what happened to the group of
+
+1568
+00:31:18,870 --> 00:31:18,880
+components what happened to the group of
+ 
+
+1569
+00:31:18,880 --> 00:31:21,909
+components what happened to the group of
+total groups
+
+1570
+00:31:21,909 --> 00:31:21,919
+
+ 
+
+1571
+00:31:21,919 --> 00:31:23,269
+
+minus two
+
+1572
+00:31:23,269 --> 00:31:23,279
+minus two
+ 
+
+1573
+00:31:23,279 --> 00:31:25,269
+minus two
+now there are four groups i mean these
+
+1574
+00:31:25,269 --> 00:31:25,279
+now there are four groups i mean these
+ 
+
+1575
+00:31:25,279 --> 00:31:27,509
+now there are four groups i mean these
+two how many goals
+
+1576
+00:31:27,509 --> 00:31:27,519
+two how many goals
+ 
+
+1577
+00:31:27,519 --> 00:31:30,310
+two how many goals
+three yeah so why you said minus two
+
+1578
+00:31:30,310 --> 00:31:30,320
+three yeah so why you said minus two
+ 
+
+1579
+00:31:30,320 --> 00:31:33,269
+three yeah so why you said minus two
+minus one minus one okay so i have i can
+
+1580
+00:31:33,269 --> 00:31:33,279
+minus one minus one okay so i have i can
+ 
+
+1581
+00:31:33,279 --> 00:31:36,549
+minus one minus one okay so i have i can
+i can have two yeah yeah i can have a
+
+1582
+00:31:36,549 --> 00:31:36,559
+i can have two yeah yeah i can have a
+ 
+
+1583
+00:31:36,559 --> 00:31:38,630
+i can have two yeah yeah i can have a
+connected count and every time i merge
+
+1584
+00:31:38,630 --> 00:31:38,640
+connected count and every time i merge
+ 
+
+1585
+00:31:38,640 --> 00:31:41,269
+connected count and every time i merge
+it yeah in the merge function i if i if
+
+1586
+00:31:41,269 --> 00:31:41,279
+it yeah in the merge function i if i if
+ 
+
+1587
+00:31:41,279 --> 00:31:43,430
+it yeah in the merge function i if i if
+they are not belonging to the same group
+
+1588
+00:31:43,430 --> 00:31:43,440
+they are not belonging to the same group
+ 
+
+1589
+00:31:43,440 --> 00:31:45,669
+they are not belonging to the same group
+i merge it yeah i i mark working so what
+
+1590
+00:31:45,669 --> 00:31:45,679
+i merge it yeah i i mark working so what
+ 
+
+1591
+00:31:45,679 --> 00:31:47,350
+i merge it yeah i i mark working so what
+happened to a good crop i can take the
+
+1592
+00:31:47,350 --> 00:31:47,360
+happened to a good crop i can take the
+ 
+
+1593
+00:31:47,360 --> 00:31:49,830
+happened to a good crop i can take the
+coupon minus one right i can say the
+
+1594
+00:31:49,830 --> 00:31:49,840
+coupon minus one right i can say the
+ 
+
+1595
+00:31:49,840 --> 00:31:51,750
+coupon minus one right i can say the
+groupon minus one and then i can have a
+
+1596
+00:31:51,750 --> 00:31:51,760
+groupon minus one and then i can have a
+ 
+
+1597
+00:31:51,760 --> 00:31:54,870
+groupon minus one and then i can have a
+function i can have a function to to
+
+1598
+00:31:54,870 --> 00:31:54,880
+function i can have a function to to
+ 
+
+1599
+00:31:54,880 --> 00:31:56,950
+function i can have a function to to
+yeah i can have a function to return the
+
+1600
+00:31:56,950 --> 00:31:56,960
+yeah i can have a function to return the
+ 
+
+1601
+00:31:56,960 --> 00:31:59,669
+yeah i can have a function to return the
+number of groups okay so this is the
+
+1602
+00:31:59,669 --> 00:31:59,679
+number of groups okay so this is the
+ 
+
+1603
+00:31:59,679 --> 00:32:03,110
+number of groups okay so this is the
+uh another function okay i think
+
+1604
+00:32:03,110 --> 00:32:03,120
+uh another function okay i think
+ 
+
+1605
+00:32:03,120 --> 00:32:04,870
+uh another function okay i think
+i think this is okay so how many
+
+1606
+00:32:04,870 --> 00:32:04,880
+i think this is okay so how many
+ 
+
+1607
+00:32:04,880 --> 00:32:06,870
+i think this is okay so how many
+functions for these two uh this joint
+
+1608
+00:32:06,870 --> 00:32:06,880
+functions for these two uh this joint
+ 
+
+1609
+00:32:06,880 --> 00:32:07,830
+functions for these two uh this joint
+set
+
+1610
+00:32:07,830 --> 00:32:07,840
+set
+ 
+
+1611
+00:32:07,840 --> 00:32:10,070
+set
+can you remember can you you don't need
+
+1612
+00:32:10,070 --> 00:32:10,080
+can you remember can you you don't need
+ 
+
+1613
+00:32:10,080 --> 00:32:10,870
+can you remember can you you don't need
+to
+
+1614
+00:32:10,870 --> 00:32:10,880
+to
+ 
+
+1615
+00:32:10,880 --> 00:32:12,950
+to
+uh you need don't need to remember the
+
+1616
+00:32:12,950 --> 00:32:12,960
+uh you need don't need to remember the
+ 
+
+1617
+00:32:12,960 --> 00:32:15,110
+uh you need don't need to remember the
+implementation details for now but tell
+
+1618
+00:32:15,110 --> 00:32:15,120
+implementation details for now but tell
+ 
+
+1619
+00:32:15,120 --> 00:32:16,950
+implementation details for now but tell
+me what kind of function do we need this
+
+1620
+00:32:16,950 --> 00:32:16,960
+me what kind of function do we need this
+ 
+
+1621
+00:32:16,960 --> 00:32:18,470
+me what kind of function do we need this
+john said come on
+
+1622
+00:32:18,470 --> 00:32:18,480
+john said come on
+ 
+
+1623
+00:32:18,480 --> 00:32:20,070
+john said come on
+find parent
+
+1624
+00:32:20,070 --> 00:32:20,080
+find parent
+ 
+
+1625
+00:32:20,080 --> 00:32:21,909
+find parent
+i'll give you an example find parents of
+
+1626
+00:32:21,909 --> 00:32:21,919
+i'll give you an example find parents of
+ 
+
+1627
+00:32:21,919 --> 00:32:22,950
+i'll give you an example find parents of
+a va of
+
+1628
+00:32:22,950 --> 00:32:22,960
+a va of
+ 
+
+1629
+00:32:22,960 --> 00:32:24,389
+a va of
+element x
+
+1630
+00:32:24,389 --> 00:32:24,399
+element x
+ 
+
+1631
+00:32:24,399 --> 00:32:28,789
+element x
+return answer 5 and what else come on
+
+1632
+00:32:28,789 --> 00:32:28,799
+return answer 5 and what else come on
+ 
+
+1633
+00:32:28,799 --> 00:32:31,110
+return answer 5 and what else come on
+how many methods we have talked about
+
+1634
+00:32:31,110 --> 00:32:31,120
+how many methods we have talked about
+ 
+
+1635
+00:32:31,120 --> 00:32:36,310
+how many methods we have talked about
+five parents and
+
+1636
+00:32:36,310 --> 00:32:36,320
+
+ 
+
+1637
+00:32:36,320 --> 00:32:39,029
+
+what math yeah we want to merge two yeah
+
+1638
+00:32:39,029 --> 00:32:39,039
+what math yeah we want to merge two yeah
+ 
+
+1639
+00:32:39,039 --> 00:32:40,830
+what math yeah we want to merge two yeah
+x and y and what
+
+1640
+00:32:40,830 --> 00:32:40,840
+x and y and what
+ 
+
+1641
+00:32:40,840 --> 00:32:43,509
+x and y and what
+else what what else we want to find out
+
+1642
+00:32:43,509 --> 00:32:43,519
+else what what else we want to find out
+ 
+
+1643
+00:32:43,519 --> 00:32:47,909
+else what what else we want to find out
+if they belongs to
+
+1644
+00:32:47,909 --> 00:32:47,919
+
+ 
+
+1645
+00:32:47,919 --> 00:32:48,789
+
+come on
+
+1646
+00:32:48,789 --> 00:32:48,799
+come on
+ 
+
+1647
+00:32:48,799 --> 00:32:51,029
+come on
+they belong to what
+
+1648
+00:32:51,029 --> 00:32:51,039
+they belong to what
+ 
+
+1649
+00:32:51,039 --> 00:32:53,029
+they belong to what
+same same group belongs to the same
+
+1650
+00:32:53,029 --> 00:32:53,039
+same same group belongs to the same
+ 
+
+1651
+00:32:53,039 --> 00:32:55,509
+same same group belongs to the same
+group okay same group
+
+1652
+00:32:55,509 --> 00:32:55,519
+group okay same group
+ 
+
+1653
+00:32:55,519 --> 00:32:57,669
+group okay same group
+and what that what else
+
+1654
+00:32:57,669 --> 00:32:57,679
+and what that what else
+ 
+
+1655
+00:32:57,679 --> 00:33:01,269
+and what that what else
+and we want to find out the number of
+
+1656
+00:33:01,269 --> 00:33:01,279
+and we want to find out the number of
+ 
+
+1657
+00:33:01,279 --> 00:33:03,830
+and we want to find out the number of
+no the number of
+
+1658
+00:33:03,830 --> 00:33:03,840
+no the number of
+ 
+
+1659
+00:33:03,840 --> 00:33:07,830
+no the number of
+no no number of
+
+1660
+00:33:07,830 --> 00:33:07,840
+
+ 
+
+1661
+00:33:07,840 --> 00:33:14,470
+
+what happens if we merge two groups
+
+1662
+00:33:14,470 --> 00:33:14,480
+
+ 
+
+1663
+00:33:14,480 --> 00:33:15,509
+
+no no no
+
+1664
+00:33:15,509 --> 00:33:15,519
+no no no
+ 
+
+1665
+00:33:15,519 --> 00:33:18,070
+no no no
+find five parents we come in a five
+
+1666
+00:33:18,070 --> 00:33:18,080
+find five parents we come in a five
+ 
+
+1667
+00:33:18,080 --> 00:33:20,630
+find five parents we come in a five
+parent we talk about a complex yes you
+
+1668
+00:33:20,630 --> 00:33:20,640
+parent we talk about a complex yes you
+ 
+
+1669
+00:33:20,640 --> 00:33:23,669
+parent we talk about a complex yes you
+notice we only merge the group we talk
+
+1670
+00:33:23,669 --> 00:33:23,679
+notice we only merge the group we talk
+ 
+
+1671
+00:33:23,679 --> 00:33:27,430
+notice we only merge the group we talk
+about much the smaller one to smaller
+
+1672
+00:33:27,430 --> 00:33:27,440
+about much the smaller one to smaller
+ 
+
+1673
+00:33:27,440 --> 00:33:30,549
+about much the smaller one to smaller
+one to the bigger one yeah
+
+1674
+00:33:30,549 --> 00:33:30,559
+one to the bigger one yeah
+ 
+
+1675
+00:33:30,559 --> 00:33:32,710
+one to the bigger one yeah
+same group same guru just calling the
+
+1676
+00:33:32,710 --> 00:33:32,720
+same group same guru just calling the
+ 
+
+1677
+00:33:32,720 --> 00:33:34,870
+same group same guru just calling the
+fine parent to to find out if the five
+
+1678
+00:33:34,870 --> 00:33:34,880
+fine parent to to find out if the five
+ 
+
+1679
+00:33:34,880 --> 00:33:37,269
+fine parent to to find out if the five
+parent x is the same as five percent
+
+1680
+00:33:37,269 --> 00:33:37,279
+parent x is the same as five percent
+ 
+
+1681
+00:33:37,279 --> 00:33:39,509
+parent x is the same as five percent
+right but if i want to know
+
+1682
+00:33:39,509 --> 00:33:39,519
+right but if i want to know
+ 
+
+1683
+00:33:39,519 --> 00:33:42,470
+right but if i want to know
+how many groups are there right
+
+1684
+00:33:42,470 --> 00:33:42,480
+how many groups are there right
+ 
+
+1685
+00:33:42,480 --> 00:33:44,950
+how many groups are there right
+number of groups yeah how many of them
+
+1686
+00:33:44,950 --> 00:33:44,960
+number of groups yeah how many of them
+ 
+
+1687
+00:33:44,960 --> 00:33:46,549
+number of groups yeah how many of them
+how can we implement this we just keep a
+
+1688
+00:33:46,549 --> 00:33:46,559
+how can we implement this we just keep a
+ 
+
+1689
+00:33:46,559 --> 00:33:48,470
+how can we implement this we just keep a
+counter
+
+1690
+00:33:48,470 --> 00:33:48,480
+counter
+ 
+
+1691
+00:33:48,480 --> 00:33:51,110
+counter
+number of groups yeah at the beginning
+
+1692
+00:33:51,110 --> 00:33:51,120
+number of groups yeah at the beginning
+ 
+
+1693
+00:33:51,120 --> 00:33:53,830
+number of groups yeah at the beginning
+they are angles yeah you know in uh
+
+1694
+00:33:53,830 --> 00:33:53,840
+they are angles yeah you know in uh
+ 
+
+1695
+00:33:53,840 --> 00:33:55,909
+they are angles yeah you know in uh
+at the beginning is their angles every
+
+1696
+00:33:55,909 --> 00:33:55,919
+at the beginning is their angles every
+ 
+
+1697
+00:33:55,919 --> 00:33:58,310
+at the beginning is their angles every
+time we merge merge two things if they
+
+1698
+00:33:58,310 --> 00:33:58,320
+time we merge merge two things if they
+ 
+
+1699
+00:33:58,320 --> 00:33:59,830
+time we merge merge two things if they
+don't belong the same group what
+
+1700
+00:33:59,830 --> 00:33:59,840
+don't belong the same group what
+ 
+
+1701
+00:33:59,840 --> 00:34:02,870
+don't belong the same group what
+happened we minus minus minus equals one
+
+1702
+00:34:02,870 --> 00:34:02,880
+happened we minus minus minus equals one
+ 
+
+1703
+00:34:02,880 --> 00:34:06,789
+happened we minus minus minus equals one
+yeah correct we minus equals one right
+
+1704
+00:34:06,789 --> 00:34:06,799
+yeah correct we minus equals one right
+ 
+
+1705
+00:34:06,799 --> 00:34:09,030
+yeah correct we minus equals one right
+okay
+
+1706
+00:34:09,030 --> 00:34:09,040
+okay
+ 
+
+1707
+00:34:09,040 --> 00:34:11,430
+
+okay so we talk about the disjoint uh
+
+1708
+00:34:11,430 --> 00:34:11,440
+okay so we talk about the disjoint uh
+ 
+
+1709
+00:34:11,440 --> 00:34:13,510
+okay so we talk about the disjoint uh
+this concept okay let's go back to that
+
+1710
+00:34:13,510 --> 00:34:13,520
+this concept okay let's go back to that
+ 
+
+1711
+00:34:13,520 --> 00:34:17,750
+this concept okay let's go back to that
+original problem okay and that's it
+
+1712
+00:34:17,750 --> 00:34:17,760
+
+ 
+
+1713
+00:34:17,760 --> 00:34:25,030
+
+a graph
+
+1714
+00:34:25,030 --> 00:34:25,040
+
+ 
+
+1715
+00:34:25,040 --> 00:34:26,790
+
+the graph
+
+1716
+00:34:26,790 --> 00:34:26,800
+the graph
+ 
+
+1717
+00:34:26,800 --> 00:34:28,869
+the graph
+the edges we won't find out if there's
+
+1718
+00:34:28,869 --> 00:34:28,879
+the edges we won't find out if there's
+ 
+
+1719
+00:34:28,879 --> 00:34:31,190
+the edges we won't find out if there's
+stuff like the path from start to end
+
+1720
+00:34:31,190 --> 00:34:31,200
+stuff like the path from start to end
+ 
+
+1721
+00:34:31,200 --> 00:34:36,629
+stuff like the path from start to end
+okay
+
+1722
+00:34:36,629 --> 00:34:36,639
+
+ 
+
+1723
+00:34:36,639 --> 00:34:39,270
+
+exists remember past exists and that's
+
+1724
+00:34:39,270 --> 00:34:39,280
+exists remember past exists and that's
+ 
+
+1725
+00:34:39,280 --> 00:34:41,349
+exists remember past exists and that's
+the edges
+
+1726
+00:34:41,349 --> 00:34:41,359
+the edges
+ 
+
+1727
+00:34:41,359 --> 00:34:44,069
+the edges
+edges
+
+1728
+00:34:44,069 --> 00:34:44,079
+
+ 
+
+1729
+00:34:44,079 --> 00:34:45,589
+
+okay look
+
+1730
+00:34:45,589 --> 00:34:45,599
+okay look
+ 
+
+1731
+00:34:45,599 --> 00:34:47,510
+okay look
+first of all i have a discharge set okay
+
+1732
+00:34:47,510 --> 00:34:47,520
+first of all i have a discharge set okay
+ 
+
+1733
+00:34:47,520 --> 00:34:51,030
+first of all i have a discharge set okay
+let's say you dijon set d s equals
+
+1734
+00:34:51,030 --> 00:34:51,040
+let's say you dijon set d s equals
+ 
+
+1735
+00:34:51,040 --> 00:34:53,510
+let's say you dijon set d s equals
+disjoint set
+
+1736
+00:34:53,510 --> 00:34:53,520
+disjoint set
+ 
+
+1737
+00:34:53,520 --> 00:34:56,389
+disjoint set
+disjoint
+
+1738
+00:34:56,389 --> 00:34:56,399
+
+ 
+
+1739
+00:34:56,399 --> 00:34:59,510
+
+set and there are n and edges yeah
+
+1740
+00:34:59,510 --> 00:34:59,520
+set and there are n and edges yeah
+ 
+
+1741
+00:34:59,520 --> 00:35:01,270
+set and there are n and edges yeah
+n equals length
+
+1742
+00:35:01,270 --> 00:35:01,280
+n equals length
+ 
+
+1743
+00:35:01,280 --> 00:35:03,190
+n equals length
+edges or whatever yeah
+
+1744
+00:35:03,190 --> 00:35:03,200
+edges or whatever yeah
+ 
+
+1745
+00:35:03,200 --> 00:35:05,670
+edges or whatever yeah
+okay now for
+
+1746
+00:35:05,670 --> 00:35:05,680
+okay now for
+ 
+
+1747
+00:35:05,680 --> 00:35:06,790
+okay now for
+star
+
+1748
+00:35:06,790 --> 00:35:06,800
+star
+ 
+
+1749
+00:35:06,800 --> 00:35:07,670
+star
+and
+
+1750
+00:35:07,670 --> 00:35:07,680
+and
+ 
+
+1751
+00:35:07,680 --> 00:35:11,589
+and
+in edges
+
+1752
+00:35:11,589 --> 00:35:11,599
+
+ 
+
+1753
+00:35:11,599 --> 00:35:13,750
+
+so what happened here i have a start
+
+1754
+00:35:13,750 --> 00:35:13,760
+so what happened here i have a start
+ 
+
+1755
+00:35:13,760 --> 00:35:15,270
+so what happened here i have a start
+remember at the beginning i talked about
+
+1756
+00:35:15,270 --> 00:35:15,280
+remember at the beginning i talked about
+ 
+
+1757
+00:35:15,280 --> 00:35:16,870
+remember at the beginning i talked about
+zero to one there is an edge between
+
+1758
+00:35:16,870 --> 00:35:16,880
+zero to one there is an edge between
+ 
+
+1759
+00:35:16,880 --> 00:35:18,310
+zero to one there is an edge between
+zero to one what happened what should i
+
+1760
+00:35:18,310 --> 00:35:18,320
+zero to one what happened what should i
+ 
+
+1761
+00:35:18,320 --> 00:35:20,390
+zero to one what happened what should i
+do with these what should i do
+
+1762
+00:35:20,390 --> 00:35:20,400
+do with these what should i do
+ 
+
+1763
+00:35:20,400 --> 00:35:23,750
+do with these what should i do
+considering the edges
+
+1764
+00:35:23,750 --> 00:35:23,760
+
+ 
+
+1765
+00:35:23,760 --> 00:35:26,790
+
+at the beginning there are n edges and
+
+1766
+00:35:26,790 --> 00:35:26,800
+at the beginning there are n edges and
+ 
+
+1767
+00:35:26,800 --> 00:35:28,310
+at the beginning there are n edges and
+not
+
+1768
+00:35:28,310 --> 00:35:28,320
+not
+ 
+
+1769
+00:35:28,320 --> 00:35:30,150
+not
+and i found out if there edge between
+
+1770
+00:35:30,150 --> 00:35:30,160
+and i found out if there edge between
+ 
+
+1771
+00:35:30,160 --> 00:35:33,190
+and i found out if there edge between
+zero to one what happened
+
+1772
+00:35:33,190 --> 00:35:33,200
+zero to one what happened
+ 
+
+1773
+00:35:33,200 --> 00:35:35,990
+zero to one what happened
+d s dot what which which function we're
+
+1774
+00:35:35,990 --> 00:35:36,000
+d s dot what which which function we're
+ 
+
+1775
+00:35:36,000 --> 00:35:37,349
+d s dot what which which function we're
+going to
+
+1776
+00:35:37,349 --> 00:35:37,359
+going to
+ 
+
+1777
+00:35:37,359 --> 00:35:38,710
+going to
+make these two
+
+1778
+00:35:38,710 --> 00:35:38,720
+make these two
+ 
+
+1779
+00:35:38,720 --> 00:35:41,510
+make these two
+come on we talk about a few functions
+
+1780
+00:35:41,510 --> 00:35:41,520
+come on we talk about a few functions
+ 
+
+1781
+00:35:41,520 --> 00:35:42,870
+come on we talk about a few functions
+what
+
+1782
+00:35:42,870 --> 00:35:42,880
+what
+ 
+
+1783
+00:35:42,880 --> 00:35:52,310
+what
+um
+
+1784
+00:35:52,310 --> 00:35:52,320
+
+ 
+
+1785
+00:35:52,320 --> 00:35:55,030
+
+this is s this e
+
+1786
+00:35:55,030 --> 00:35:55,040
+this is s this e
+ 
+
+1787
+00:35:55,040 --> 00:35:59,190
+this is s this e
+and we want to find out if there
+
+1788
+00:35:59,190 --> 00:35:59,200
+and we want to find out if there
+ 
+
+1789
+00:35:59,200 --> 00:36:02,870
+and we want to find out if there
+any there's a lesser uh star
+
+1790
+00:36:02,870 --> 00:36:02,880
+any there's a lesser uh star
+ 
+
+1791
+00:36:02,880 --> 00:36:04,710
+any there's a lesser uh star
+unless uh two yeah uh
+
+1792
+00:36:04,710 --> 00:36:04,720
+unless uh two yeah uh
+ 
+
+1793
+00:36:04,720 --> 00:36:06,390
+unless uh two yeah uh
+[Music]
+
+1794
+00:36:06,390 --> 00:36:06,400
+[Music]
+ 
+
+1795
+00:36:06,400 --> 00:36:09,349
+[Music]
+two okay so now we just need to find out
+
+1796
+00:36:09,349 --> 00:36:09,359
+two okay so now we just need to find out
+ 
+
+1797
+00:36:09,359 --> 00:36:11,430
+two okay so now we just need to find out
+if there are paths between start two so
+
+1798
+00:36:11,430 --> 00:36:11,440
+if there are paths between start two so
+ 
+
+1799
+00:36:11,440 --> 00:36:13,910
+if there are paths between start two so
+which function ds dot 1
+
+1800
+00:36:13,910 --> 00:36:13,920
+which function ds dot 1
+ 
+
+1801
+00:36:13,920 --> 00:36:16,710
+which function ds dot 1
+ds 1
+
+1802
+00:36:16,710 --> 00:36:16,720
+ds 1
+ 
+
+1803
+00:36:16,720 --> 00:36:18,470
+ds 1
+bcs dot
+
+1804
+00:36:18,470 --> 00:36:18,480
+bcs dot
+ 
+
+1805
+00:36:18,480 --> 00:36:20,230
+bcs dot
+merge
+
+1806
+00:36:20,230 --> 00:36:20,240
+merge
+ 
+
+1807
+00:36:20,240 --> 00:36:22,310
+merge
+we want to find out if there's a path
+
+1808
+00:36:22,310 --> 00:36:22,320
+we want to find out if there's a path
+ 
+
+1809
+00:36:22,320 --> 00:36:23,270
+we want to find out if there's a path
+between
+
+1810
+00:36:23,270 --> 00:36:23,280
+between
+ 
+
+1811
+00:36:23,280 --> 00:36:25,990
+between
+start 2 so for
+
+1812
+00:36:25,990 --> 00:36:26,000
+start 2 so for
+ 
+
+1813
+00:36:26,000 --> 00:36:28,550
+start 2 so for
+this john said what what function should
+
+1814
+00:36:28,550 --> 00:36:28,560
+this john said what what function should
+ 
+
+1815
+00:36:28,560 --> 00:36:29,670
+this john said what what function should
+we call
+
+1816
+00:36:29,670 --> 00:36:29,680
+we call
+ 
+
+1817
+00:36:29,680 --> 00:36:32,150
+we call
+to find out if there are two elements
+
+1818
+00:36:32,150 --> 00:36:32,160
+to find out if there are two elements
+ 
+
+1819
+00:36:32,160 --> 00:36:34,870
+to find out if there are two elements
+belongs to same group right
+
+1820
+00:36:34,870 --> 00:36:34,880
+belongs to same group right
+ 
+
+1821
+00:36:34,880 --> 00:36:41,109
+belongs to same group right
+so this is same group
+
+1822
+00:36:41,109 --> 00:36:41,119
+
+ 
+
+1823
+00:36:41,119 --> 00:36:41,910
+
+yeah
+
+1824
+00:36:41,910 --> 00:36:41,920
+yeah
+ 
+
+1825
+00:36:41,920 --> 00:36:42,870
+yeah
+you see
+
+1826
+00:36:42,870 --> 00:36:42,880
+you see
+ 
+
+1827
+00:36:42,880 --> 00:36:45,910
+you see
+so this one is it look
+
+1828
+00:36:45,910 --> 00:36:45,920
+so this one is it look
+ 
+
+1829
+00:36:45,920 --> 00:36:47,990
+so this one is it look
+no no no wait wait wait
+
+1830
+00:36:47,990 --> 00:36:48,000
+no no no wait wait wait
+ 
+
+1831
+00:36:48,000 --> 00:36:50,550
+no no no wait wait wait
+so remember before we use the definition
+
+1832
+00:36:50,550 --> 00:36:50,560
+so remember before we use the definition
+ 
+
+1833
+00:36:50,560 --> 00:36:52,950
+so remember before we use the definition
+first buff we study strong set look how
+
+1834
+00:36:52,950 --> 00:36:52,960
+first buff we study strong set look how
+ 
+
+1835
+00:36:52,960 --> 00:36:54,710
+first buff we study strong set look how
+simple it is yeah
+
+1836
+00:36:54,710 --> 00:36:54,720
+simple it is yeah
+ 
+
+1837
+00:36:54,720 --> 00:36:56,630
+simple it is yeah
+the implementation is single right i'm
+
+1838
+00:36:56,630 --> 00:36:56,640
+the implementation is single right i'm
+ 
+
+1839
+00:36:56,640 --> 00:36:59,990
+the implementation is single right i'm
+right 36 yeah do you understand
+
+1840
+00:36:59,990 --> 00:37:00,000
+right 36 yeah do you understand
+ 
+
+1841
+00:37:00,000 --> 00:37:02,069
+right 36 yeah do you understand
+37 that's okay what's the time
+
+1842
+00:37:02,069 --> 00:37:02,079
+37 that's okay what's the time
+ 
+
+1843
+00:37:02,079 --> 00:37:04,230
+37 that's okay what's the time
+complexity of the
+
+1844
+00:37:04,230 --> 00:37:04,240
+complexity of the
+ 
+
+1845
+00:37:04,240 --> 00:37:08,470
+complexity of the
+digital set normally
+
+1846
+00:37:08,470 --> 00:37:08,480
+digital set normally
+ 
+
+1847
+00:37:08,480 --> 00:37:11,109
+digital set normally
+which function which function yeah the
+
+1848
+00:37:11,109 --> 00:37:11,119
+which function which function yeah the
+ 
+
+1849
+00:37:11,119 --> 00:37:13,430
+which function which function yeah the
+fine the file in the worst case if
+
+1850
+00:37:13,430 --> 00:37:13,440
+fine the file in the worst case if
+ 
+
+1851
+00:37:13,440 --> 00:37:15,430
+fine the file in the worst case if
+you're not compressing the path the to
+
+1852
+00:37:15,430 --> 00:37:15,440
+you're not compressing the path the to
+ 
+
+1853
+00:37:15,440 --> 00:37:17,750
+you're not compressing the path the to
+find the parent takes ln right but
+
+1854
+00:37:17,750 --> 00:37:17,760
+find the parent takes ln right but
+ 
+
+1855
+00:37:17,760 --> 00:37:19,670
+find the parent takes ln right but
+usually if you compress the path in
+
+1856
+00:37:19,670 --> 00:37:19,680
+usually if you compress the path in
+ 
+
+1857
+00:37:19,680 --> 00:37:21,589
+usually if you compress the path in
+practical uses it's not just one
+
+1858
+00:37:21,589 --> 00:37:21,599
+practical uses it's not just one
+ 
+
+1859
+00:37:21,599 --> 00:37:24,390
+practical uses it's not just one
+constant right and then merge merge is
+
+1860
+00:37:24,390 --> 00:37:24,400
+constant right and then merge merge is
+ 
+
+1861
+00:37:24,400 --> 00:37:26,630
+constant right and then merge merge is
+simple or one right we just assign one
+
+1862
+00:37:26,630 --> 00:37:26,640
+simple or one right we just assign one
+ 
+
+1863
+00:37:26,640 --> 00:37:27,990
+simple or one right we just assign one
+to another right
+
+1864
+00:37:27,990 --> 00:37:28,000
+to another right
+ 
+
+1865
+00:37:28,000 --> 00:37:30,069
+to another right
+because it fundamentally causes the fine
+
+1866
+00:37:30,069 --> 00:37:30,079
+because it fundamentally causes the fine
+ 
+
+1867
+00:37:30,079 --> 00:37:32,230
+because it fundamentally causes the fine
+parents and then what
+
+1868
+00:37:32,230 --> 00:37:32,240
+parents and then what
+ 
+
+1869
+00:37:32,240 --> 00:37:34,310
+parents and then what
+check check the same group yeah they're
+
+1870
+00:37:34,310 --> 00:37:34,320
+check check the same group yeah they're
+ 
+
+1871
+00:37:34,320 --> 00:37:36,150
+check check the same group yeah they're
+calling the five parent
+
+1872
+00:37:36,150 --> 00:37:36,160
+calling the five parent
+ 
+
+1873
+00:37:36,160 --> 00:37:37,270
+calling the five parent
+and
+
+1874
+00:37:37,270 --> 00:37:37,280
+and
+ 
+
+1875
+00:37:37,280 --> 00:37:38,710
+and
+what else
+
+1876
+00:37:38,710 --> 00:37:38,720
+what else
+ 
+
+1877
+00:37:38,720 --> 00:37:40,630
+what else
+nothing yeah nothing
+
+1878
+00:37:40,630 --> 00:37:40,640
+nothing yeah nothing
+ 
+
+1879
+00:37:40,640 --> 00:37:43,190
+nothing yeah nothing
+okay so this is o n okay the time space
+
+1880
+00:37:43,190 --> 00:37:43,200
+okay so this is o n okay the time space
+ 
+
+1881
+00:37:43,200 --> 00:37:45,109
+okay so this is o n okay the time space
+complexity is also o m because there are
+
+1882
+00:37:45,109 --> 00:37:45,119
+complexity is also o m because there are
+ 
+
+1883
+00:37:45,119 --> 00:37:48,230
+complexity is also o m because there are
+n eighties no n notes and we n groups
+
+1884
+00:37:48,230 --> 00:37:48,240
+n eighties no n notes and we n groups
+ 
+
+1885
+00:37:48,240 --> 00:37:51,589
+n eighties no n notes and we n groups
+yeah we need strong set to to store the
+
+1886
+00:37:51,589 --> 00:37:51,599
+yeah we need strong set to to store the
+ 
+
+1887
+00:37:51,599 --> 00:37:53,670
+yeah we need strong set to to store the
+uh we have a list to store the number of
+
+1888
+00:37:53,670 --> 00:37:53,680
+uh we have a list to store the number of
+ 
+
+1889
+00:37:53,680 --> 00:37:55,190
+uh we have a list to store the number of
+the
+
+1890
+00:37:55,190 --> 00:37:55,200
+the
+ 
+
+1891
+00:37:55,200 --> 00:37:57,349
+the
+the groups for you for for for each note
+
+1892
+00:37:57,349 --> 00:37:57,359
+the groups for you for for for each note
+ 
+
+1893
+00:37:57,359 --> 00:37:59,510
+the groups for you for for for each note
+right okay okay that's it for today good
+
+1894
+00:37:59,510 --> 00:37:59,520
+right okay okay that's it for today good
+ 
+
+1895
+00:37:59,520 --> 00:38:02,520
+right okay okay that's it for today good
+job
+
