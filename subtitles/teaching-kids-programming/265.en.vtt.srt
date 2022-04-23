@@ -1,0 +1,4355 @@
+1
+00:00:00,830 --> 00:00:04,789
+
+[Music]
+
+2
+00:00:04,789 --> 00:00:04,799
+
+ 
+
+3
+00:00:04,799 --> 00:00:06,869
+
+okay what's prefix we talked about this
+
+4
+00:00:06,869 --> 00:00:06,879
+okay what's prefix we talked about this
+ 
+
+5
+00:00:06,879 --> 00:00:09,350
+okay what's prefix we talked about this
+prefix before prefix sum
+
+6
+00:00:09,350 --> 00:00:09,360
+prefix before prefix sum
+ 
+
+7
+00:00:09,360 --> 00:00:10,870
+prefix before prefix sum
+prefix what's the process for example
+
+8
+00:00:10,870 --> 00:00:10,880
+prefix what's the process for example
+ 
+
+9
+00:00:10,880 --> 00:00:12,629
+prefix what's the process for example
+what's prefix
+
+10
+00:00:12,629 --> 00:00:12,639
+what's prefix
+ 
+
+11
+00:00:12,639 --> 00:00:14,310
+what's prefix
+like look
+
+12
+00:00:14,310 --> 00:00:14,320
+like look
+ 
+
+13
+00:00:14,320 --> 00:00:17,029
+like look
+uh eric what's the prefix of the eric
+
+14
+00:00:17,029 --> 00:00:17,039
+uh eric what's the prefix of the eric
+ 
+
+15
+00:00:17,039 --> 00:00:20,550
+uh eric what's the prefix of the eric
+how many prefix
+
+16
+00:00:20,550 --> 00:00:20,560
+
+ 
+
+17
+00:00:20,560 --> 00:00:23,590
+
+how many prefix of these four what are
+
+18
+00:00:23,590 --> 00:00:23,600
+how many prefix of these four what are
+ 
+
+19
+00:00:23,600 --> 00:00:25,690
+how many prefix of these four what are
+those
+
+20
+00:00:25,690 --> 00:00:25,700
+those
+ 
+
+21
+00:00:25,700 --> 00:00:29,029
+those
+[Music]
+
+22
+00:00:29,029 --> 00:00:29,039
+
+ 
+
+23
+00:00:29,039 --> 00:00:31,429
+
+i see yeah and we also talk about
+
+24
+00:00:31,429 --> 00:00:31,439
+i see yeah and we also talk about
+ 
+
+25
+00:00:31,439 --> 00:00:33,990
+i see yeah and we also talk about
+surface yeah what's the surface of this
+
+26
+00:00:33,990 --> 00:00:34,000
+surface yeah what's the surface of this
+ 
+
+27
+00:00:34,000 --> 00:00:35,990
+surface yeah what's the surface of this
+what's the surface
+
+28
+00:00:35,990 --> 00:00:36,000
+what's the surface
+ 
+
+29
+00:00:36,000 --> 00:00:37,750
+what's the surface
+um
+
+30
+00:00:37,750 --> 00:00:37,760
+um
+ 
+
+31
+00:00:37,760 --> 00:00:40,069
+um
+come on the opposite c
+
+32
+00:00:40,069 --> 00:00:40,079
+come on the opposite c
+ 
+
+33
+00:00:40,079 --> 00:00:41,270
+come on the opposite c
+c i
+
+34
+00:00:41,270 --> 00:00:41,280
+c i
+ 
+
+35
+00:00:41,280 --> 00:00:46,790
+c i
+uh yeah i see
+
+36
+00:00:46,790 --> 00:00:46,800
+
+ 
+
+37
+00:00:46,800 --> 00:00:48,630
+
+you understand this okay and we also
+
+38
+00:00:48,630 --> 00:00:48,640
+you understand this okay and we also
+ 
+
+39
+00:00:48,640 --> 00:00:50,310
+you understand this okay and we also
+talked about the prefix sum okay we
+
+40
+00:00:50,310 --> 00:00:50,320
+talked about the prefix sum okay we
+ 
+
+41
+00:00:50,320 --> 00:00:52,709
+talked about the prefix sum okay we
+talked about quickly some today remember
+
+42
+00:00:52,709 --> 00:00:52,719
+talked about quickly some today remember
+ 
+
+43
+00:00:52,719 --> 00:00:54,470
+talked about quickly some today remember
+why do we need to quickly sign suppose
+
+44
+00:00:54,470 --> 00:00:54,480
+why do we need to quickly sign suppose
+ 
+
+45
+00:00:54,480 --> 00:00:56,150
+why do we need to quickly sign suppose
+we have an array like
+
+46
+00:00:56,150 --> 00:00:56,160
+we have an array like
+ 
+
+47
+00:00:56,160 --> 00:01:00,630
+we have an array like
+one two three four five six seven
+
+48
+00:01:00,630 --> 00:01:00,640
+one two three four five six seven
+ 
+
+49
+00:01:00,640 --> 00:01:03,110
+one two three four five six seven
+okay so this is an array with and i just
+
+50
+00:01:03,110 --> 00:01:03,120
+okay so this is an array with and i just
+ 
+
+51
+00:01:03,120 --> 00:01:06,149
+okay so this is an array with and i just
+items okay and if i tell you like i want
+
+52
+00:01:06,149 --> 00:01:06,159
+items okay and if i tell you like i want
+ 
+
+53
+00:01:06,159 --> 00:01:07,510
+items okay and if i tell you like i want
+to calculate
+
+54
+00:01:07,510 --> 00:01:07,520
+to calculate
+ 
+
+55
+00:01:07,520 --> 00:01:10,310
+to calculate
+the sum the sum between any two any
+
+56
+00:01:10,310 --> 00:01:10,320
+the sum the sum between any two any
+ 
+
+57
+00:01:10,320 --> 00:01:11,990
+the sum the sum between any two any
+ranges for example i want to calculate
+
+58
+00:01:11,990 --> 00:01:12,000
+ranges for example i want to calculate
+ 
+
+59
+00:01:12,000 --> 00:01:13,350
+ranges for example i want to calculate
+some between
+
+60
+00:01:13,350 --> 00:01:13,360
+some between
+ 
+
+61
+00:01:13,360 --> 00:01:15,910
+some between
+three to five so what's the sum
+
+62
+00:01:15,910 --> 00:01:15,920
+three to five so what's the sum
+ 
+
+63
+00:01:15,920 --> 00:01:18,230
+three to five so what's the sum
+three plus four plus five right
+
+64
+00:01:18,230 --> 00:01:18,240
+three plus four plus five right
+ 
+
+65
+00:01:18,240 --> 00:01:19,109
+three plus four plus five right
+yeah
+
+66
+00:01:19,109 --> 00:01:19,119
+yeah
+ 
+
+67
+00:01:19,119 --> 00:01:22,550
+yeah
+three plus four plus five which is
+
+68
+00:01:22,550 --> 00:01:22,560
+three plus four plus five which is
+ 
+
+69
+00:01:22,560 --> 00:01:24,950
+three plus four plus five which is
+twelve what's the term complexity if i
+
+70
+00:01:24,950 --> 00:01:24,960
+twelve what's the term complexity if i
+ 
+
+71
+00:01:24,960 --> 00:01:26,469
+twelve what's the term complexity if i
+just do it
+
+72
+00:01:26,469 --> 00:01:26,479
+just do it
+ 
+
+73
+00:01:26,479 --> 00:01:28,710
+just do it
+like that you know blue force if you if
+
+74
+00:01:28,710 --> 00:01:28,720
+like that you know blue force if you if
+ 
+
+75
+00:01:28,720 --> 00:01:30,310
+like that you know blue force if you if
+you tell me okay i want to start from
+
+76
+00:01:30,310 --> 00:01:30,320
+you tell me okay i want to start from
+ 
+
+77
+00:01:30,320 --> 00:01:31,030
+you tell me okay i want to start from
+the
+
+78
+00:01:31,030 --> 00:01:31,040
+the
+ 
+
+79
+00:01:31,040 --> 00:01:33,429
+the
+uh the lower ranges from three the upper
+
+80
+00:01:33,429 --> 00:01:33,439
+uh the lower ranges from three the upper
+ 
+
+81
+00:01:33,439 --> 00:01:35,030
+uh the lower ranges from three the upper
+branch is five
+
+82
+00:01:35,030 --> 00:01:35,040
+branch is five
+ 
+
+83
+00:01:35,040 --> 00:01:37,510
+branch is five
+and can you tell me the sum
+
+84
+00:01:37,510 --> 00:01:37,520
+and can you tell me the sum
+ 
+
+85
+00:01:37,520 --> 00:01:40,230
+and can you tell me the sum
+and then we just do a loop for i in
+
+86
+00:01:40,230 --> 00:01:40,240
+and then we just do a loop for i in
+ 
+
+87
+00:01:40,240 --> 00:01:42,870
+and then we just do a loop for i in
+range from three up to five okay and
+
+88
+00:01:42,870 --> 00:01:42,880
+range from three up to five okay and
+ 
+
+89
+00:01:42,880 --> 00:01:45,350
+range from three up to five okay and
+then some answer plus equals the value
+
+90
+00:01:45,350 --> 00:01:45,360
+then some answer plus equals the value
+ 
+
+91
+00:01:45,360 --> 00:01:46,149
+then some answer plus equals the value
+yeah
+
+92
+00:01:46,149 --> 00:01:46,159
+yeah
+ 
+
+93
+00:01:46,159 --> 00:01:51,590
+yeah
+what's the time complexity for this one
+
+94
+00:01:51,590 --> 00:01:51,600
+
+ 
+
+95
+00:01:51,600 --> 00:01:54,469
+
+and we're done because this the open if
+
+96
+00:01:54,469 --> 00:01:54,479
+and we're done because this the open if
+ 
+
+97
+00:01:54,479 --> 00:01:56,789
+and we're done because this the open if
+the end if the lower range is yellow
+
+98
+00:01:56,789 --> 00:01:56,799
+the end if the lower range is yellow
+ 
+
+99
+00:01:56,799 --> 00:01:57,990
+the end if the lower range is yellow
+right
+
+100
+00:01:57,990 --> 00:01:58,000
+right
+ 
+
+101
+00:01:58,000 --> 00:02:00,550
+right
+upper range is the end
+
+102
+00:02:00,550 --> 00:02:00,560
+upper range is the end
+ 
+
+103
+00:02:00,560 --> 00:02:01,429
+upper range is the end
+right
+
+104
+00:02:01,429 --> 00:02:01,439
+right
+ 
+
+105
+00:02:01,439 --> 00:02:03,830
+right
+and then this eventually will be
+
+106
+00:02:03,830 --> 00:02:03,840
+and then this eventually will be
+ 
+
+107
+00:02:03,840 --> 00:02:06,310
+and then this eventually will be
+looping all the i elements in the array
+
+108
+00:02:06,310 --> 00:02:06,320
+looping all the i elements in the array
+ 
+
+109
+00:02:06,320 --> 00:02:08,229
+looping all the i elements in the array
+and then getting this sound low v-o-n
+
+110
+00:02:08,229 --> 00:02:08,239
+and then getting this sound low v-o-n
+ 
+
+111
+00:02:08,239 --> 00:02:11,110
+and then getting this sound low v-o-n
+which is very slow uh not very fast okay
+
+112
+00:02:11,110 --> 00:02:11,120
+which is very slow uh not very fast okay
+ 
+
+113
+00:02:11,120 --> 00:02:14,229
+which is very slow uh not very fast okay
+so how can we do
+
+114
+00:02:14,229 --> 00:02:14,239
+
+ 
+
+115
+00:02:14,239 --> 00:02:17,190
+
+you know n is a minion it's a slow right
+
+116
+00:02:17,190 --> 00:02:17,200
+you know n is a minion it's a slow right
+ 
+
+117
+00:02:17,200 --> 00:02:19,750
+you know n is a minion it's a slow right
+yeah
+
+118
+00:02:19,750 --> 00:02:19,760
+
+ 
+
+119
+00:02:19,760 --> 00:02:22,150
+
+o-n is low compared to a one if we can
+
+120
+00:02:22,150 --> 00:02:22,160
+o-n is low compared to a one if we can
+ 
+
+121
+00:02:22,160 --> 00:02:24,630
+o-n is low compared to a one if we can
+do it over one how can we do this one if
+
+122
+00:02:24,630 --> 00:02:24,640
+do it over one how can we do this one if
+ 
+
+123
+00:02:24,640 --> 00:02:25,589
+do it over one how can we do this one if
+if
+
+124
+00:02:25,589 --> 00:02:25,599
+if
+ 
+
+125
+00:02:25,599 --> 00:02:27,990
+if
+if we already know if we do this you
+
+126
+00:02:27,990 --> 00:02:28,000
+if we already know if we do this you
+ 
+
+127
+00:02:28,000 --> 00:02:30,470
+if we already know if we do this you
+know if we're calling this many many
+
+128
+00:02:30,470 --> 00:02:30,480
+know if we're calling this many many
+ 
+
+129
+00:02:30,480 --> 00:02:33,830
+know if we're calling this many many
+times yes if we want to speed up the
+
+130
+00:02:33,830 --> 00:02:33,840
+times yes if we want to speed up the
+ 
+
+131
+00:02:33,840 --> 00:02:37,030
+times yes if we want to speed up the
+calculation of such uh such things such
+
+132
+00:02:37,030 --> 00:02:37,040
+calculation of such uh such things such
+ 
+
+133
+00:02:37,040 --> 00:02:39,270
+calculation of such uh such things such
+as the sum between n and range okay all
+
+134
+00:02:39,270 --> 00:02:39,280
+as the sum between n and range okay all
+ 
+
+135
+00:02:39,280 --> 00:02:41,430
+as the sum between n and range okay all
+right so how can we do this remember we
+
+136
+00:02:41,430 --> 00:02:41,440
+right so how can we do this remember we
+ 
+
+137
+00:02:41,440 --> 00:02:42,949
+right so how can we do this remember we
+talked about a prefix sum how can we
+
+138
+00:02:42,949 --> 00:02:42,959
+talked about a prefix sum how can we
+ 
+
+139
+00:02:42,959 --> 00:02:44,309
+talked about a prefix sum how can we
+calculate the previous sound so look
+
+140
+00:02:44,309 --> 00:02:44,319
+calculate the previous sound so look
+ 
+
+141
+00:02:44,319 --> 00:02:46,150
+calculate the previous sound so look
+what's the prefix sum
+
+142
+00:02:46,150 --> 00:02:46,160
+what's the prefix sum
+ 
+
+143
+00:02:46,160 --> 00:02:48,309
+what's the prefix sum
+what's the prefix sum of this eric can
+
+144
+00:02:48,309 --> 00:02:48,319
+what's the prefix sum of this eric can
+ 
+
+145
+00:02:48,319 --> 00:03:02,229
+what's the prefix sum of this eric can
+you tell me
+
+146
+00:03:02,229 --> 00:03:02,239
+
+ 
+
+147
+00:03:02,239 --> 00:03:04,710
+
+three plus three six yeah it's one plus
+
+148
+00:03:04,710 --> 00:03:04,720
+three plus three six yeah it's one plus
+ 
+
+149
+00:03:04,720 --> 00:03:06,790
+three plus three six yeah it's one plus
+two plus three yeah so basically the sum
+
+150
+00:03:06,790 --> 00:03:06,800
+two plus three yeah so basically the sum
+ 
+
+151
+00:03:06,800 --> 00:03:09,990
+two plus three yeah so basically the sum
+the values will be updated to the sum
+
+152
+00:03:09,990 --> 00:03:10,000
+the values will be updated to the sum
+ 
+
+153
+00:03:10,000 --> 00:03:12,550
+the values will be updated to the sum
+of all the elements from the beginning
+
+154
+00:03:12,550 --> 00:03:12,560
+of all the elements from the beginning
+ 
+
+155
+00:03:12,560 --> 00:03:16,070
+of all the elements from the beginning
+up to it right so what's next
+
+156
+00:03:16,070 --> 00:03:16,080
+up to it right so what's next
+ 
+
+157
+00:03:16,080 --> 00:03:18,390
+up to it right so what's next
+ten ten yeah
+
+158
+00:03:18,390 --> 00:03:18,400
+ten ten yeah
+ 
+
+159
+00:03:18,400 --> 00:03:22,869
+ten ten yeah
+and yeah 15 15 21
+
+160
+00:03:22,869 --> 00:03:22,879
+and yeah 15 15 21
+ 
+
+161
+00:03:22,879 --> 00:03:25,110
+and yeah 15 15 21
+wait
+
+162
+00:03:25,110 --> 00:03:25,120
+wait
+ 
+
+163
+00:03:25,120 --> 00:03:27,110
+wait
+so why is this useful because we only
+
+164
+00:03:27,110 --> 00:03:27,120
+so why is this useful because we only
+ 
+
+165
+00:03:27,120 --> 00:03:29,190
+so why is this useful because we only
+get to calculate these ones right we
+
+166
+00:03:29,190 --> 00:03:29,200
+get to calculate these ones right we
+ 
+
+167
+00:03:29,200 --> 00:03:30,869
+get to calculate these ones right we
+only calculate this one then we can use
+
+168
+00:03:30,869 --> 00:03:30,879
+only calculate this one then we can use
+ 
+
+169
+00:03:30,879 --> 00:03:33,190
+only calculate this one then we can use
+these to calculate the sum between three
+
+170
+00:03:33,190 --> 00:03:33,200
+these to calculate the sum between three
+ 
+
+171
+00:03:33,200 --> 00:03:35,830
+these to calculate the sum between three
+to five how do we get this
+
+172
+00:03:35,830 --> 00:03:35,840
+to five how do we get this
+ 
+
+173
+00:03:35,840 --> 00:03:38,149
+to five how do we get this
+how to get the sum between here
+
+174
+00:03:38,149 --> 00:03:38,159
+how to get the sum between here
+ 
+
+175
+00:03:38,159 --> 00:03:40,949
+how to get the sum between here
+okay the sum of these three elements is
+
+176
+00:03:40,949 --> 00:03:40,959
+okay the sum of these three elements is
+ 
+
+177
+00:03:40,959 --> 00:03:43,350
+okay the sum of these three elements is
+it because it's equal to the sum of
+
+178
+00:03:43,350 --> 00:03:43,360
+it because it's equal to the sum of
+ 
+
+179
+00:03:43,360 --> 00:03:45,589
+it because it's equal to the sum of
+these five elements but
+
+180
+00:03:45,589 --> 00:03:45,599
+these five elements but
+ 
+
+181
+00:03:45,599 --> 00:03:47,509
+these five elements but
+minus these two elements
+
+182
+00:03:47,509 --> 00:03:47,519
+minus these two elements
+ 
+
+183
+00:03:47,519 --> 00:03:48,710
+minus these two elements
+all right
+
+184
+00:03:48,710 --> 00:03:48,720
+all right
+ 
+
+185
+00:03:48,720 --> 00:03:50,949
+all right
+look this i want to get the
+
+186
+00:03:50,949 --> 00:03:50,959
+look this i want to get the
+ 
+
+187
+00:03:50,959 --> 00:03:53,670
+look this i want to get the
+ryan eric look ryan look
+
+188
+00:03:53,670 --> 00:03:53,680
+ryan eric look ryan look
+ 
+
+189
+00:03:53,680 --> 00:03:57,110
+ryan eric look ryan look
+the sum of three four five right right
+
+190
+00:03:57,110 --> 00:03:57,120
+the sum of three four five right right
+ 
+
+191
+00:03:57,120 --> 00:03:59,350
+the sum of three four five right right
+is it equals to the sum of one plus two
+
+192
+00:03:59,350 --> 00:03:59,360
+is it equals to the sum of one plus two
+ 
+
+193
+00:03:59,360 --> 00:04:01,589
+is it equals to the sum of one plus two
+plus three four five right minus the sum
+
+194
+00:04:01,589 --> 00:04:01,599
+plus three four five right minus the sum
+ 
+
+195
+00:04:01,599 --> 00:04:03,429
+plus three four five right minus the sum
+between one to two right
+
+196
+00:04:03,429 --> 00:04:03,439
+between one to two right
+ 
+
+197
+00:04:03,439 --> 00:04:05,110
+between one to two right
+so okay so can you tell me the sum of
+
+198
+00:04:05,110 --> 00:04:05,120
+so okay so can you tell me the sum of
+ 
+
+199
+00:04:05,120 --> 00:04:07,030
+so okay so can you tell me the sum of
+one to five which is
+
+200
+00:04:07,030 --> 00:04:07,040
+one to five which is
+ 
+
+201
+00:04:07,040 --> 00:04:08,229
+one to five which is
+fifteen
+
+202
+00:04:08,229 --> 00:04:08,239
+fifteen
+ 
+
+203
+00:04:08,239 --> 00:04:09,509
+fifteen
+the sum of
+
+204
+00:04:09,509 --> 00:04:09,519
+the sum of
+ 
+
+205
+00:04:09,519 --> 00:04:11,110
+the sum of
+one plus two
+
+206
+00:04:11,110 --> 00:04:11,120
+one plus two
+ 
+
+207
+00:04:11,120 --> 00:04:13,030
+one plus two
+yeah we just look it up yeah
+
+208
+00:04:13,030 --> 00:04:13,040
+yeah we just look it up yeah
+ 
+
+209
+00:04:13,040 --> 00:04:16,550
+yeah we just look it up yeah
+so the sum of three plus four five
+
+210
+00:04:16,550 --> 00:04:16,560
+so the sum of three plus four five
+ 
+
+211
+00:04:16,560 --> 00:04:17,670
+so the sum of three plus four five
+two
+
+212
+00:04:17,670 --> 00:04:17,680
+two
+ 
+
+213
+00:04:17,680 --> 00:04:20,150
+two
+which one which one is faster this one
+
+214
+00:04:20,150 --> 00:04:20,160
+which one which one is faster this one
+ 
+
+215
+00:04:20,160 --> 00:04:21,670
+which one which one is faster this one
+this one what's the time complexity for
+
+216
+00:04:21,670 --> 00:04:21,680
+this one what's the time complexity for
+ 
+
+217
+00:04:21,680 --> 00:04:22,469
+this one what's the time complexity for
+this one
+
+218
+00:04:22,469 --> 00:04:22,479
+this one
+ 
+
+219
+00:04:22,479 --> 00:04:25,030
+this one
+or one yeah if we are not considering
+
+220
+00:04:25,030 --> 00:04:25,040
+or one yeah if we are not considering
+ 
+
+221
+00:04:25,040 --> 00:04:26,790
+or one yeah if we are not considering
+the building up because we only need to
+
+222
+00:04:26,790 --> 00:04:26,800
+the building up because we only need to
+ 
+
+223
+00:04:26,800 --> 00:04:29,189
+the building up because we only need to
+build this up what's the time complexity
+
+224
+00:04:29,189 --> 00:04:29,199
+build this up what's the time complexity
+ 
+
+225
+00:04:29,199 --> 00:04:32,469
+build this up what's the time complexity
+to be at least the prefix array
+
+226
+00:04:32,469 --> 00:04:32,479
+to be at least the prefix array
+ 
+
+227
+00:04:32,479 --> 00:04:33,270
+to be at least the prefix array
+what
+
+228
+00:04:33,270 --> 00:04:33,280
+what
+ 
+
+229
+00:04:33,280 --> 00:04:34,629
+what
+what's that
+
+230
+00:04:34,629 --> 00:04:34,639
+what's that
+ 
+
+231
+00:04:34,639 --> 00:04:35,570
+what's that
+oh
+
+232
+00:04:35,570 --> 00:04:35,580
+oh
+ 
+
+233
+00:04:35,580 --> 00:04:37,590
+oh
+[Music]
+
+234
+00:04:37,590 --> 00:04:37,600
+[Music]
+ 
+
+235
+00:04:37,600 --> 00:04:39,110
+[Music]
+and yeah because we need to go through
+
+236
+00:04:39,110 --> 00:04:39,120
+and yeah because we need to go through
+ 
+
+237
+00:04:39,120 --> 00:04:40,629
+and yeah because we need to go through
+this
+
+238
+00:04:40,629 --> 00:04:40,639
+this
+ 
+
+239
+00:04:40,639 --> 00:04:41,350
+this
+one
+
+240
+00:04:41,350 --> 00:04:41,360
+one
+ 
+
+241
+00:04:41,360 --> 00:04:43,909
+one
+so okay let's review this how do we
+
+242
+00:04:43,909 --> 00:04:43,919
+so okay let's review this how do we
+ 
+
+243
+00:04:43,919 --> 00:04:46,390
+so okay let's review this how do we
+calculate these uh the prefix sum for
+
+244
+00:04:46,390 --> 00:04:46,400
+calculate these uh the prefix sum for
+ 
+
+245
+00:04:46,400 --> 00:04:49,590
+calculate these uh the prefix sum for
+the array okay how do we get today
+
+246
+00:04:49,590 --> 00:04:49,600
+the array okay how do we get today
+ 
+
+247
+00:04:49,600 --> 00:04:51,350
+the array okay how do we get today
+it's easier
+
+248
+00:04:51,350 --> 00:04:51,360
+it's easier
+ 
+
+249
+00:04:51,360 --> 00:04:53,110
+it's easier
+define
+
+250
+00:04:53,110 --> 00:04:53,120
+define
+ 
+
+251
+00:04:53,120 --> 00:04:56,870
+define
+prefix clear the prefix okay prefix sum
+
+252
+00:04:56,870 --> 00:04:56,880
+prefix clear the prefix okay prefix sum
+ 
+
+253
+00:04:56,880 --> 00:04:59,830
+prefix clear the prefix okay prefix sum
+if this is the data yeah data
+
+254
+00:04:59,830 --> 00:04:59,840
+if this is the data yeah data
+ 
+
+255
+00:04:59,840 --> 00:05:02,310
+if this is the data yeah data
+so how do we do this all right look
+
+256
+00:05:02,310 --> 00:05:02,320
+so how do we do this all right look
+ 
+
+257
+00:05:02,320 --> 00:05:04,230
+so how do we do this all right look
+how do we do this um
+
+258
+00:05:04,230 --> 00:05:04,240
+how do we do this um
+ 
+
+259
+00:05:04,240 --> 00:05:06,310
+how do we do this um
+n equals length
+
+260
+00:05:06,310 --> 00:05:06,320
+n equals length
+ 
+
+261
+00:05:06,320 --> 00:05:08,230
+n equals length
+theta right
+
+262
+00:05:08,230 --> 00:05:08,240
+theta right
+ 
+
+263
+00:05:08,240 --> 00:05:10,230
+theta right
+if n equals zero we just return all
+
+264
+00:05:10,230 --> 00:05:10,240
+if n equals zero we just return all
+ 
+
+265
+00:05:10,240 --> 00:05:12,469
+if n equals zero we just return all
+right because it's uh we just returned
+
+266
+00:05:12,469 --> 00:05:12,479
+right because it's uh we just returned
+ 
+
+267
+00:05:12,479 --> 00:05:13,830
+right because it's uh we just returned
+nothing okay
+
+268
+00:05:13,830 --> 00:05:13,840
+nothing okay
+ 
+
+269
+00:05:13,840 --> 00:05:15,430
+nothing okay
+and then what should we do
+
+270
+00:05:15,430 --> 00:05:15,440
+and then what should we do
+ 
+
+271
+00:05:15,440 --> 00:05:16,469
+and then what should we do
+all right
+
+272
+00:05:16,469 --> 00:05:16,479
+all right
+ 
+
+273
+00:05:16,479 --> 00:05:17,430
+all right
+for
+
+274
+00:05:17,430 --> 00:05:17,440
+for
+ 
+
+275
+00:05:17,440 --> 00:05:18,310
+for
+i
+
+276
+00:05:18,310 --> 00:05:18,320
+i
+ 
+
+277
+00:05:18,320 --> 00:05:19,350
+i
+in
+
+278
+00:05:19,350 --> 00:05:19,360
+in
+ 
+
+279
+00:05:19,360 --> 00:05:21,830
+in
+range we start from the first one right
+
+280
+00:05:21,830 --> 00:05:21,840
+range we start from the first one right
+ 
+
+281
+00:05:21,840 --> 00:05:23,270
+range we start from the first one right
+and up to n
+
+282
+00:05:23,270 --> 00:05:23,280
+and up to n
+ 
+
+283
+00:05:23,280 --> 00:05:25,749
+and up to n
+can you tell me what to do theta
+
+284
+00:05:25,749 --> 00:05:25,759
+can you tell me what to do theta
+ 
+
+285
+00:05:25,759 --> 00:05:27,670
+can you tell me what to do theta
+theta one look
+
+286
+00:05:27,670 --> 00:05:27,680
+theta one look
+ 
+
+287
+00:05:27,680 --> 00:05:29,990
+theta one look
+one two three we start from the second
+
+288
+00:05:29,990 --> 00:05:30,000
+one two three we start from the second
+ 
+
+289
+00:05:30,000 --> 00:05:33,590
+one two three we start from the second
+one second universe yeah so theta i
+
+290
+00:05:33,590 --> 00:05:33,600
+one second universe yeah so theta i
+ 
+
+291
+00:05:33,600 --> 00:05:35,510
+one second universe yeah so theta i
+equals one one
+
+292
+00:05:35,510 --> 00:05:35,520
+equals one one
+ 
+
+293
+00:05:35,520 --> 00:05:36,629
+equals one one
+right
+
+294
+00:05:36,629 --> 00:05:36,639
+right
+ 
+
+295
+00:05:36,639 --> 00:05:38,469
+right
+theta
+
+296
+00:05:38,469 --> 00:05:38,479
+theta
+ 
+
+297
+00:05:38,479 --> 00:05:41,430
+theta
+i need to plus the previous one right
+
+298
+00:05:41,430 --> 00:05:41,440
+i need to plus the previous one right
+ 
+
+299
+00:05:41,440 --> 00:05:44,550
+i need to plus the previous one right
+right and theta i plus equal
+
+300
+00:05:44,550 --> 00:05:44,560
+right and theta i plus equal
+ 
+
+301
+00:05:44,560 --> 00:05:48,230
+right and theta i plus equal
+minus theta i minus one yeah
+
+302
+00:05:48,230 --> 00:05:48,240
+minus theta i minus one yeah
+ 
+
+303
+00:05:48,240 --> 00:05:49,990
+minus theta i minus one yeah
+that's it
+
+304
+00:05:49,990 --> 00:05:50,000
+that's it
+ 
+
+305
+00:05:50,000 --> 00:05:52,390
+that's it
+look remember we use the function
+
+306
+00:05:52,390 --> 00:05:52,400
+look remember we use the function
+ 
+
+307
+00:05:52,400 --> 00:05:54,790
+look remember we use the function
+remember we can we don't know we talked
+
+308
+00:05:54,790 --> 00:05:54,800
+remember we can we don't know we talked
+ 
+
+309
+00:05:54,800 --> 00:05:57,510
+remember we can we don't know we talked
+about the accumulative function right
+
+310
+00:05:57,510 --> 00:05:57,520
+about the accumulative function right
+ 
+
+311
+00:05:57,520 --> 00:06:01,510
+about the accumulative function right
+this can be replaced by one
+
+312
+00:06:01,510 --> 00:06:01,520
+this can be replaced by one
+ 
+
+313
+00:06:01,520 --> 00:06:02,870
+this can be replaced by one
+accumulate
+
+314
+00:06:02,870 --> 00:06:02,880
+accumulate
+ 
+
+315
+00:06:02,880 --> 00:06:04,230
+accumulate
+remember we can
+
+316
+00:06:04,230 --> 00:06:04,240
+remember we can
+ 
+
+317
+00:06:04,240 --> 00:06:05,670
+remember we can
+from
+
+318
+00:06:05,670 --> 00:06:05,680
+from
+ 
+
+319
+00:06:05,680 --> 00:06:08,469
+from
+eater
+
+320
+00:06:08,469 --> 00:06:08,479
+
+ 
+
+321
+00:06:08,479 --> 00:06:10,790
+
+import
+
+322
+00:06:10,790 --> 00:06:10,800
+import
+ 
+
+323
+00:06:10,800 --> 00:06:13,189
+import
+accumulate what's accumulated i mean
+
+324
+00:06:13,189 --> 00:06:13,199
+accumulate what's accumulated i mean
+ 
+
+325
+00:06:13,199 --> 00:06:15,430
+accumulate what's accumulated i mean
+i mean accumulate
+
+326
+00:06:15,430 --> 00:06:15,440
+i mean accumulate
+ 
+
+327
+00:06:15,440 --> 00:06:19,350
+i mean accumulate
+what's this function mean
+
+328
+00:06:19,350 --> 00:06:19,360
+
+ 
+
+329
+00:06:19,360 --> 00:06:21,909
+
+it accumulate that accumulator you know
+
+330
+00:06:21,909 --> 00:06:21,919
+it accumulate that accumulator you know
+ 
+
+331
+00:06:21,919 --> 00:06:24,150
+it accumulate that accumulator you know
+bits by bits i put it together right so
+
+332
+00:06:24,150 --> 00:06:24,160
+bits by bits i put it together right so
+ 
+
+333
+00:06:24,160 --> 00:06:26,230
+bits by bits i put it together right so
+all these can be
+
+334
+00:06:26,230 --> 00:06:26,240
+all these can be
+ 
+
+335
+00:06:26,240 --> 00:06:29,140
+all these can be
+changed into uh
+
+336
+00:06:29,140 --> 00:06:29,150
+changed into uh
+ 
+
+337
+00:06:29,150 --> 00:06:30,710
+changed into uh
+[Music]
+
+338
+00:06:30,710 --> 00:06:30,720
+[Music]
+ 
+
+339
+00:06:30,720 --> 00:06:33,350
+[Music]
+i i uh at least return
+
+340
+00:06:33,350 --> 00:06:33,360
+i i uh at least return
+ 
+
+341
+00:06:33,360 --> 00:06:35,189
+i i uh at least return
+is written data and then i can just do
+
+342
+00:06:35,189 --> 00:06:35,199
+is written data and then i can just do
+ 
+
+343
+00:06:35,199 --> 00:06:38,070
+is written data and then i can just do
+it return
+
+344
+00:06:38,070 --> 00:06:38,080
+it return
+ 
+
+345
+00:06:38,080 --> 00:06:39,749
+it return
+convert to this because accumulator
+
+346
+00:06:39,749 --> 00:06:39,759
+convert to this because accumulator
+ 
+
+347
+00:06:39,759 --> 00:06:42,150
+convert to this because accumulator
+retain the iterator accumulate
+
+348
+00:06:42,150 --> 00:06:42,160
+retain the iterator accumulate
+ 
+
+349
+00:06:42,160 --> 00:06:44,390
+retain the iterator accumulate
+accumulate
+
+350
+00:06:44,390 --> 00:06:44,400
+accumulate
+ 
+
+351
+00:06:44,400 --> 00:06:46,950
+accumulate
+data and that's it
+
+352
+00:06:46,950 --> 00:06:46,960
+data and that's it
+ 
+
+353
+00:06:46,960 --> 00:06:48,870
+data and that's it
+yeah we talked about this before so this
+
+354
+00:06:48,870 --> 00:06:48,880
+yeah we talked about this before so this
+ 
+
+355
+00:06:48,880 --> 00:06:51,350
+yeah we talked about this before so this
+thing these three lines is equal to this
+
+356
+00:06:51,350 --> 00:06:51,360
+thing these three lines is equal to this
+ 
+
+357
+00:06:51,360 --> 00:06:52,790
+thing these three lines is equal to this
+accumulation okay like we have a
+
+358
+00:06:52,790 --> 00:06:52,800
+accumulation okay like we have a
+ 
+
+359
+00:06:52,800 --> 00:06:55,270
+accumulation okay like we have a
+built-in function okay okay let's review
+
+360
+00:06:55,270 --> 00:06:55,280
+built-in function okay okay let's review
+ 
+
+361
+00:06:55,280 --> 00:06:56,790
+built-in function okay okay let's review
+okay let's talk about the subject today
+
+362
+00:06:56,790 --> 00:06:56,800
+okay let's talk about the subject today
+ 
+
+363
+00:06:56,800 --> 00:06:59,270
+okay let's talk about the subject today
+which is the prefix sum for matching
+
+364
+00:06:59,270 --> 00:06:59,280
+which is the prefix sum for matching
+ 
+
+365
+00:06:59,280 --> 00:07:06,150
+which is the prefix sum for matching
+which is a 2d remember we
+
+366
+00:07:06,150 --> 00:07:06,160
+
+ 
+
+367
+00:07:06,160 --> 00:07:08,309
+
+yeah one dimensional okay don't touch it
+
+368
+00:07:08,309 --> 00:07:08,319
+yeah one dimensional okay don't touch it
+ 
+
+369
+00:07:08,319 --> 00:07:09,909
+yeah one dimensional okay don't touch it
+it's shaking okay
+
+370
+00:07:09,909 --> 00:07:09,919
+it's shaking okay
+ 
+
+371
+00:07:09,919 --> 00:07:12,150
+it's shaking okay
+the array is one dimensional right all
+
+372
+00:07:12,150 --> 00:07:12,160
+the array is one dimensional right all
+ 
+
+373
+00:07:12,160 --> 00:07:13,670
+the array is one dimensional right all
+right one d
+
+374
+00:07:13,670 --> 00:07:13,680
+right one d
+ 
+
+375
+00:07:13,680 --> 00:07:14,629
+right one d
+all right
+
+376
+00:07:14,629 --> 00:07:14,639
+all right
+ 
+
+377
+00:07:14,639 --> 00:07:18,150
+all right
+2d what's 2d
+
+378
+00:07:18,150 --> 00:07:18,160
+
+ 
+
+379
+00:07:18,160 --> 00:07:19,749
+
+2d
+
+380
+00:07:19,749 --> 00:07:19,759
+2d
+ 
+
+381
+00:07:19,759 --> 00:07:21,189
+2d
+look 1d
+
+382
+00:07:21,189 --> 00:07:21,199
+look 1d
+ 
+
+383
+00:07:21,199 --> 00:07:23,589
+look 1d
+1d a line 2d
+
+384
+00:07:23,589 --> 00:07:23,599
+1d a line 2d
+ 
+
+385
+00:07:23,599 --> 00:07:26,870
+1d a line 2d
+a plan 3d you know we are living in a 3d
+
+386
+00:07:26,870 --> 00:07:26,880
+a plan 3d you know we are living in a 3d
+ 
+
+387
+00:07:26,880 --> 00:07:29,270
+a plan 3d you know we are living in a 3d
+space right 3d yeah
+
+388
+00:07:29,270 --> 00:07:29,280
+space right 3d yeah
+ 
+
+389
+00:07:29,280 --> 00:07:31,430
+space right 3d yeah
+z right look at one d
+
+390
+00:07:31,430 --> 00:07:31,440
+z right look at one d
+ 
+
+391
+00:07:31,440 --> 00:07:32,309
+z right look at one d
+x
+
+392
+00:07:32,309 --> 00:07:32,319
+x
+ 
+
+393
+00:07:32,319 --> 00:07:34,230
+x
+is a line 2d
+
+394
+00:07:34,230 --> 00:07:34,240
+is a line 2d
+ 
+
+395
+00:07:34,240 --> 00:07:35,990
+is a line 2d
+x y
+
+396
+00:07:35,990 --> 00:07:36,000
+x y
+ 
+
+397
+00:07:36,000 --> 00:07:37,589
+x y
+what's 3d
+
+398
+00:07:37,589 --> 00:07:37,599
+what's 3d
+ 
+
+399
+00:07:37,599 --> 00:07:39,510
+what's 3d
+x
+
+400
+00:07:39,510 --> 00:07:39,520
+x
+ 
+
+401
+00:07:39,520 --> 00:07:42,230
+x
+y and then there's a z i can't put it
+
+402
+00:07:42,230 --> 00:07:42,240
+y and then there's a z i can't put it
+ 
+
+403
+00:07:42,240 --> 00:07:44,629
+y and then there's a z i can't put it
+here you know you you you put a you know
+
+404
+00:07:44,629 --> 00:07:44,639
+here you know you you you put a you know
+ 
+
+405
+00:07:44,639 --> 00:07:46,950
+here you know you you you put a you know
+this is the key way yeah cubic 3d yeah
+
+406
+00:07:46,950 --> 00:07:46,960
+this is the key way yeah cubic 3d yeah
+ 
+
+407
+00:07:46,960 --> 00:07:48,469
+this is the key way yeah cubic 3d yeah
+2d
+
+408
+00:07:48,469 --> 00:07:48,479
+2d
+ 
+
+409
+00:07:48,479 --> 00:07:51,670
+2d
+square one d a line okay
+
+410
+00:07:51,670 --> 00:07:51,680
+square one d a line okay
+ 
+
+411
+00:07:51,680 --> 00:07:55,350
+square one d a line okay
+yeah got it let's play basic so 2d magic
+
+412
+00:07:55,350 --> 00:07:55,360
+yeah got it let's play basic so 2d magic
+ 
+
+413
+00:07:55,360 --> 00:07:57,270
+yeah got it let's play basic so 2d magic
+we have a 2d x and y
+
+414
+00:07:57,270 --> 00:07:57,280
+we have a 2d x and y
+ 
+
+415
+00:07:57,280 --> 00:07:59,110
+we have a 2d x and y
+so look metric
+
+416
+00:07:59,110 --> 00:07:59,120
+so look metric
+ 
+
+417
+00:07:59,120 --> 00:08:01,830
+so look metric
+zero one two
+
+418
+00:08:01,830 --> 00:08:01,840
+zero one two
+ 
+
+419
+00:08:01,840 --> 00:08:03,749
+zero one two
+two one four
+
+420
+00:08:03,749 --> 00:08:03,759
+two one four
+ 
+
+421
+00:08:03,759 --> 00:08:06,710
+two one four
+that is a three two one okay this is the
+
+422
+00:08:06,710 --> 00:08:06,720
+that is a three two one okay this is the
+ 
+
+423
+00:08:06,720 --> 00:08:10,230
+that is a three two one okay this is the
+three times three matching
+
+424
+00:08:10,230 --> 00:08:10,240
+
+ 
+
+425
+00:08:10,240 --> 00:08:14,629
+
+how many rows does it have
+
+426
+00:08:14,629 --> 00:08:14,639
+
+ 
+
+427
+00:08:14,639 --> 00:08:17,350
+
+three yes the index will be zero one two
+
+428
+00:08:17,350 --> 00:08:17,360
+three yes the index will be zero one two
+ 
+
+429
+00:08:17,360 --> 00:08:21,430
+three yes the index will be zero one two
+what's the how many columns does it have
+
+430
+00:08:21,430 --> 00:08:21,440
+what's the how many columns does it have
+ 
+
+431
+00:08:21,440 --> 00:08:23,830
+what's the how many columns does it have
+three yeah three so zero one two the
+
+432
+00:08:23,830 --> 00:08:23,840
+three yeah three so zero one two the
+ 
+
+433
+00:08:23,840 --> 00:08:26,629
+three yeah three so zero one two the
+index okay so we want to change this to
+
+434
+00:08:26,629 --> 00:08:26,639
+index okay so we want to change this to
+ 
+
+435
+00:08:26,639 --> 00:08:28,150
+index okay so we want to change this to
+magic to
+
+436
+00:08:28,150 --> 00:08:28,160
+magic to
+ 
+
+437
+00:08:28,160 --> 00:08:30,150
+magic to
+convert it to a prefix method what's a
+
+438
+00:08:30,150 --> 00:08:30,160
+convert it to a prefix method what's a
+ 
+
+439
+00:08:30,160 --> 00:08:32,949
+convert it to a prefix method what's a
+prefix metric prefix sum matching
+
+440
+00:08:32,949 --> 00:08:32,959
+prefix metric prefix sum matching
+ 
+
+441
+00:08:32,959 --> 00:08:36,070
+prefix metric prefix sum matching
+so all every element will be updated to
+
+442
+00:08:36,070 --> 00:08:36,080
+so all every element will be updated to
+ 
+
+443
+00:08:36,080 --> 00:08:38,790
+so all every element will be updated to
+the sum of all elements from the top
+
+444
+00:08:38,790 --> 00:08:38,800
+the sum of all elements from the top
+ 
+
+445
+00:08:38,800 --> 00:08:40,469
+the sum of all elements from the top
+left corner to itself well for example
+
+446
+00:08:40,469 --> 00:08:40,479
+left corner to itself well for example
+ 
+
+447
+00:08:40,479 --> 00:08:42,870
+left corner to itself well for example
+like cll would be zero and here i want
+
+448
+00:08:42,870 --> 00:08:42,880
+like cll would be zero and here i want
+ 
+
+449
+00:08:42,880 --> 00:08:45,590
+like cll would be zero and here i want
+to update this one would be one error
+
+450
+00:08:45,590 --> 00:08:45,600
+to update this one would be one error
+ 
+
+451
+00:08:45,600 --> 00:08:48,710
+to update this one would be one error
+zero plus one okay and here look this is
+
+452
+00:08:48,710 --> 00:08:48,720
+zero plus one okay and here look this is
+ 
+
+453
+00:08:48,720 --> 00:08:50,630
+zero plus one okay and here look this is
+the first row is the same as we talked
+
+454
+00:08:50,630 --> 00:08:50,640
+the first row is the same as we talked
+ 
+
+455
+00:08:50,640 --> 00:08:51,990
+the first row is the same as we talked
+about the accumulated function right
+
+456
+00:08:51,990 --> 00:08:52,000
+about the accumulated function right
+ 
+
+457
+00:08:52,000 --> 00:08:54,870
+about the accumulated function right
+eric look will be zero plus one plus two
+
+458
+00:08:54,870 --> 00:08:54,880
+eric look will be zero plus one plus two
+ 
+
+459
+00:08:54,880 --> 00:08:55,670
+eric look will be zero plus one plus two
+right
+
+460
+00:08:55,670 --> 00:08:55,680
+right
+ 
+
+461
+00:08:55,680 --> 00:08:58,310
+right
+and then took zero plus two
+
+462
+00:08:58,310 --> 00:08:58,320
+and then took zero plus two
+ 
+
+463
+00:08:58,320 --> 00:08:59,269
+and then took zero plus two
+here
+
+464
+00:08:59,269 --> 00:08:59,279
+here
+ 
+
+465
+00:08:59,279 --> 00:09:00,710
+here
+here will be the sum of these four
+
+466
+00:09:00,710 --> 00:09:00,720
+here will be the sum of these four
+ 
+
+467
+00:09:00,720 --> 00:09:03,670
+here will be the sum of these four
+elements right zero plus one plus two
+
+468
+00:09:03,670 --> 00:09:03,680
+elements right zero plus one plus two
+ 
+
+469
+00:09:03,680 --> 00:09:05,829
+elements right zero plus one plus two
+plus one and then four
+
+470
+00:09:05,829 --> 00:09:05,839
+plus one and then four
+ 
+
+471
+00:09:05,839 --> 00:09:08,150
+plus one and then four
+will be the sum of all these six
+
+472
+00:09:08,150 --> 00:09:08,160
+will be the sum of all these six
+ 
+
+473
+00:09:08,160 --> 00:09:10,949
+will be the sum of all these six
+elements okay and here will be zero plus
+
+474
+00:09:10,949 --> 00:09:10,959
+elements okay and here will be zero plus
+ 
+
+475
+00:09:10,959 --> 00:09:12,870
+elements okay and here will be zero plus
+two plus three yeah
+
+476
+00:09:12,870 --> 00:09:12,880
+two plus three yeah
+ 
+
+477
+00:09:12,880 --> 00:09:14,150
+two plus three yeah
+and then two
+
+478
+00:09:14,150 --> 00:09:14,160
+and then two
+ 
+
+479
+00:09:14,160 --> 00:09:17,030
+and then two
+will be all these six elements right and
+
+480
+00:09:17,030 --> 00:09:17,040
+will be all these six elements right and
+ 
+
+481
+00:09:17,040 --> 00:09:18,949
+will be all these six elements right and
+one will be all the nine elements that's
+
+482
+00:09:18,949 --> 00:09:18,959
+one will be all the nine elements that's
+ 
+
+483
+00:09:18,959 --> 00:09:20,310
+one will be all the nine elements that's
+it yeah
+
+484
+00:09:20,310 --> 00:09:20,320
+it yeah
+ 
+
+485
+00:09:20,320 --> 00:09:26,150
+it yeah
+ah okay
+
+486
+00:09:26,150 --> 00:09:26,160
+
+ 
+
+487
+00:09:26,160 --> 00:09:28,949
+
+okay so how can we do this is there any
+
+488
+00:09:28,949 --> 00:09:28,959
+okay so how can we do this is there any
+ 
+
+489
+00:09:28,959 --> 00:09:31,110
+okay so how can we do this is there any
+idea of honey
+
+490
+00:09:31,110 --> 00:09:31,120
+idea of honey
+ 
+
+491
+00:09:31,120 --> 00:09:32,150
+idea of honey
+yeah i know
+
+492
+00:09:32,150 --> 00:09:32,160
+yeah i know
+ 
+
+493
+00:09:32,160 --> 00:09:35,269
+yeah i know
+then how do we do this we can do what
+
+494
+00:09:35,269 --> 00:09:35,279
+then how do we do this we can do what
+ 
+
+495
+00:09:35,279 --> 00:09:39,190
+then how do we do this we can do what
+yeah because these two yeah each element
+
+496
+00:09:39,190 --> 00:09:39,200
+yeah because these two yeah each element
+ 
+
+497
+00:09:39,200 --> 00:09:41,110
+yeah because these two yeah each element
+right
+
+498
+00:09:41,110 --> 00:09:41,120
+right
+ 
+
+499
+00:09:41,120 --> 00:09:44,630
+right
+right each element would be the sum
+
+500
+00:09:44,630 --> 00:09:44,640
+right each element would be the sum
+ 
+
+501
+00:09:44,640 --> 00:09:47,030
+right each element would be the sum
+will contain the sum of the previous one
+
+502
+00:09:47,030 --> 00:09:47,040
+will contain the sum of the previous one
+ 
+
+503
+00:09:47,040 --> 00:09:49,350
+will contain the sum of the previous one
+right so if we update the
+
+504
+00:09:49,350 --> 00:09:49,360
+right so if we update the
+ 
+
+505
+00:09:49,360 --> 00:09:51,990
+right so if we update the
+if look for each row eric what happened
+
+506
+00:09:51,990 --> 00:09:52,000
+if look for each row eric what happened
+ 
+
+507
+00:09:52,000 --> 00:09:54,470
+if look for each row eric what happened
+if for each row if i
+
+508
+00:09:54,470 --> 00:09:54,480
+if for each row if i
+ 
+
+509
+00:09:54,480 --> 00:09:56,790
+if for each row if i
+do this accumulate thing like a perfect
+
+510
+00:09:56,790 --> 00:09:56,800
+do this accumulate thing like a perfect
+ 
+
+511
+00:09:56,800 --> 00:09:59,110
+do this accumulate thing like a perfect
+sample of one d
+
+512
+00:09:59,110 --> 00:09:59,120
+sample of one d
+ 
+
+513
+00:09:59,120 --> 00:10:01,990
+sample of one d
+right then i can do this look how can i
+
+514
+00:10:01,990 --> 00:10:02,000
+right then i can do this look how can i
+ 
+
+515
+00:10:02,000 --> 00:10:04,790
+right then i can do this look how can i
+do this look zero one two yeah if i do
+
+516
+00:10:04,790 --> 00:10:04,800
+do this look zero one two yeah if i do
+ 
+
+517
+00:10:04,800 --> 00:10:08,069
+do this look zero one two yeah if i do
+it two step the first one is i do this
+
+518
+00:10:08,069 --> 00:10:08,079
+it two step the first one is i do this
+ 
+
+519
+00:10:08,079 --> 00:10:09,990
+it two step the first one is i do this
+for each row for each row i do that
+
+520
+00:10:09,990 --> 00:10:10,000
+for each row for each row i do that
+ 
+
+521
+00:10:10,000 --> 00:10:11,829
+for each row for each row i do that
+accumulate can you tell me the for the
+
+522
+00:10:11,829 --> 00:10:11,839
+accumulate can you tell me the for the
+ 
+
+523
+00:10:11,839 --> 00:10:14,949
+accumulate can you tell me the for the
+first one let's accumulate zero one two
+
+524
+00:10:14,949 --> 00:10:14,959
+first one let's accumulate zero one two
+ 
+
+525
+00:10:14,959 --> 00:10:16,550
+first one let's accumulate zero one two
+zero
+
+526
+00:10:16,550 --> 00:10:16,560
+zero
+ 
+
+527
+00:10:16,560 --> 00:10:18,710
+zero
+one and one
+
+528
+00:10:18,710 --> 00:10:18,720
+one and one
+ 
+
+529
+00:10:18,720 --> 00:10:22,230
+one and one
+ten no no no two plus one three
+
+530
+00:10:22,230 --> 00:10:22,240
+ten no no no two plus one three
+ 
+
+531
+00:10:22,240 --> 00:10:23,829
+ten no no no two plus one three
+okay two
+
+532
+00:10:23,829 --> 00:10:23,839
+okay two
+ 
+
+533
+00:10:23,839 --> 00:10:27,670
+okay two
+two and then one
+
+534
+00:10:27,670 --> 00:10:27,680
+
+ 
+
+535
+00:10:27,680 --> 00:10:32,069
+
+two plus one three yeah and then
+
+536
+00:10:32,069 --> 00:10:32,079
+
+ 
+
+537
+00:10:32,079 --> 00:10:34,230
+
+two plus one plus four
+
+538
+00:10:34,230 --> 00:10:34,240
+two plus one plus four
+ 
+
+539
+00:10:34,240 --> 00:10:35,430
+two plus one plus four
+seven all right
+
+540
+00:10:35,430 --> 00:10:35,440
+seven all right
+ 
+
+541
+00:10:35,440 --> 00:10:37,030
+seven all right
+and three
+
+542
+00:10:37,030 --> 00:10:37,040
+and three
+ 
+
+543
+00:10:37,040 --> 00:10:38,550
+and three
+three plus two
+
+544
+00:10:38,550 --> 00:10:38,560
+three plus two
+ 
+
+545
+00:10:38,560 --> 00:10:39,509
+three plus two
+five
+
+546
+00:10:39,509 --> 00:10:39,519
+five
+ 
+
+547
+00:10:39,519 --> 00:10:41,030
+five
+and
+
+548
+00:10:41,030 --> 00:10:41,040
+and
+ 
+
+549
+00:10:41,040 --> 00:10:43,269
+and
+um
+
+550
+00:10:43,269 --> 00:10:43,279
+um
+ 
+
+551
+00:10:43,279 --> 00:10:46,310
+um
+okay so now each row will be having this
+
+552
+00:10:46,310 --> 00:10:46,320
+okay so now each row will be having this
+ 
+
+553
+00:10:46,320 --> 00:10:48,069
+okay so now each row will be having this
+perfect song right i know what's your
+
+554
+00:10:48,069 --> 00:10:48,079
+perfect song right i know what's your
+ 
+
+555
+00:10:48,079 --> 00:10:50,340
+perfect song right i know what's your
+identity
+
+556
+00:10:50,340 --> 00:10:50,350
+identity
+ 
+
+557
+00:10:50,350 --> 00:10:51,509
+identity
+[Music]
+
+558
+00:10:51,509 --> 00:10:51,519
+[Music]
+ 
+
+559
+00:10:51,519 --> 00:10:55,509
+[Music]
+is that six survive to be bigger
+
+560
+00:10:55,509 --> 00:10:55,519
+is that six survive to be bigger
+ 
+
+561
+00:10:55,519 --> 00:10:58,310
+is that six survive to be bigger
+yeah good good question this this is the
+
+562
+00:10:58,310 --> 00:10:58,320
+yeah good good question this this is the
+ 
+
+563
+00:10:58,320 --> 00:11:00,389
+yeah good good question this this is the
+first step it's not yet finalized yeah
+
+564
+00:11:00,389 --> 00:11:00,399
+first step it's not yet finalized yeah
+ 
+
+565
+00:11:00,399 --> 00:11:02,710
+first step it's not yet finalized yeah
+oh yeah i i'm just doing this for for
+
+566
+00:11:02,710 --> 00:11:02,720
+oh yeah i i'm just doing this for for
+ 
+
+567
+00:11:02,720 --> 00:11:05,110
+oh yeah i i'm just doing this for for
+each row right containing the sum of the
+
+568
+00:11:05,110 --> 00:11:05,120
+each row right containing the sum of the
+ 
+
+569
+00:11:05,120 --> 00:11:06,550
+each row right containing the sum of the
+previous one and then can you guess
+
+570
+00:11:06,550 --> 00:11:06,560
+previous one and then can you guess
+ 
+
+571
+00:11:06,560 --> 00:11:08,069
+previous one and then can you guess
+what's next
+
+572
+00:11:08,069 --> 00:11:08,079
+what's next
+ 
+
+573
+00:11:08,079 --> 00:11:09,110
+what's next
+um
+
+574
+00:11:09,110 --> 00:11:09,120
+um
+ 
+
+575
+00:11:09,120 --> 00:11:13,269
+um
+can you tell guess what's next
+
+576
+00:11:13,269 --> 00:11:13,279
+
+ 
+
+577
+00:11:13,279 --> 00:11:15,269
+
+come on if i do the rows and what
+
+578
+00:11:15,269 --> 00:11:15,279
+come on if i do the rows and what
+ 
+
+579
+00:11:15,279 --> 00:11:17,509
+come on if i do the rows and what
+happened to the next column where the
+
+580
+00:11:17,509 --> 00:11:17,519
+happened to the next column where the
+ 
+
+581
+00:11:17,519 --> 00:11:20,470
+happened to the next column where the
+hot colors we just don't need that so
+
+582
+00:11:20,470 --> 00:11:20,480
+hot colors we just don't need that so
+ 
+
+583
+00:11:20,480 --> 00:11:22,790
+hot colors we just don't need that so
+each one i just do this yeah
+
+584
+00:11:22,790 --> 00:11:22,800
+each one i just do this yeah
+ 
+
+585
+00:11:22,800 --> 00:11:24,069
+each one i just do this yeah
+correct
+
+586
+00:11:24,069 --> 00:11:24,079
+correct
+ 
+
+587
+00:11:24,079 --> 00:11:27,110
+correct
+so how can can you tell me what's next
+
+588
+00:11:27,110 --> 00:11:27,120
+so how can can you tell me what's next
+ 
+
+589
+00:11:27,120 --> 00:11:30,310
+so how can can you tell me what's next
+okay can you tell me what's next
+
+590
+00:11:30,310 --> 00:11:30,320
+okay can you tell me what's next
+ 
+
+591
+00:11:30,320 --> 00:11:33,430
+okay can you tell me what's next
+it's yellow and antony what's that two
+
+592
+00:11:33,430 --> 00:11:33,440
+it's yellow and antony what's that two
+ 
+
+593
+00:11:33,440 --> 00:11:35,910
+it's yellow and antony what's that two
+and what's next
+
+594
+00:11:35,910 --> 00:11:35,920
+and what's next
+ 
+
+595
+00:11:35,920 --> 00:11:37,590
+and what's next
+five well done
+
+596
+00:11:37,590 --> 00:11:37,600
+five well done
+ 
+
+597
+00:11:37,600 --> 00:11:38,710
+five well done
+one
+
+598
+00:11:38,710 --> 00:11:38,720
+one
+ 
+
+599
+00:11:38,720 --> 00:11:40,630
+one
+what's next
+
+600
+00:11:40,630 --> 00:11:40,640
+what's next
+ 
+
+601
+00:11:40,640 --> 00:11:41,670
+what's next
+four
+
+602
+00:11:41,670 --> 00:11:41,680
+four
+ 
+
+603
+00:11:41,680 --> 00:11:42,949
+four
+what's next
+
+604
+00:11:42,949 --> 00:11:42,959
+what's next
+ 
+
+605
+00:11:42,959 --> 00:11:45,910
+what's next
+nine we're done three
+
+606
+00:11:45,910 --> 00:11:45,920
+nine we're done three
+ 
+
+607
+00:11:45,920 --> 00:11:48,389
+nine we're done three
+ten ten
+
+608
+00:11:48,389 --> 00:11:48,399
+ten ten
+ 
+
+609
+00:11:48,399 --> 00:11:51,190
+ten ten
+sixteen okay let's just check ten is it
+
+610
+00:11:51,190 --> 00:11:51,200
+sixteen okay let's just check ten is it
+ 
+
+611
+00:11:51,200 --> 00:11:53,350
+sixteen okay let's just check ten is it
+the same okay look zero plus one plus
+
+612
+00:11:53,350 --> 00:11:53,360
+the same okay look zero plus one plus
+ 
+
+613
+00:11:53,360 --> 00:11:54,550
+the same okay look zero plus one plus
+two
+
+614
+00:11:54,550 --> 00:11:54,560
+two
+ 
+
+615
+00:11:54,560 --> 00:11:56,790
+two
+three plus two
+
+616
+00:11:56,790 --> 00:11:56,800
+three plus two
+ 
+
+617
+00:11:56,800 --> 00:11:59,030
+three plus two
+five plus one
+
+618
+00:11:59,030 --> 00:11:59,040
+five plus one
+ 
+
+619
+00:11:59,040 --> 00:12:00,870
+five plus one
+six plus four
+
+620
+00:12:00,870 --> 00:12:00,880
+six plus four
+ 
+
+621
+00:12:00,880 --> 00:12:02,870
+six plus four
+ten yeah you see we got this correct
+
+622
+00:12:02,870 --> 00:12:02,880
+ten yeah you see we got this correct
+ 
+
+623
+00:12:02,880 --> 00:12:05,190
+ten yeah you see we got this correct
+let's check this again is it nine zero
+
+624
+00:12:05,190 --> 00:12:05,200
+let's check this again is it nine zero
+ 
+
+625
+00:12:05,200 --> 00:12:06,949
+let's check this again is it nine zero
+plus one
+
+626
+00:12:06,949 --> 00:12:06,959
+plus one
+ 
+
+627
+00:12:06,959 --> 00:12:07,829
+plus one
+two
+
+628
+00:12:07,829 --> 00:12:07,839
+two
+ 
+
+629
+00:12:07,839 --> 00:12:10,790
+two
+one plus two three plus one
+
+630
+00:12:10,790 --> 00:12:10,800
+one plus two three plus one
+ 
+
+631
+00:12:10,800 --> 00:12:13,030
+one plus two three plus one
+four plus three
+
+632
+00:12:13,030 --> 00:12:13,040
+four plus three
+ 
+
+633
+00:12:13,040 --> 00:12:14,949
+four plus three
+seven plus two
+
+634
+00:12:14,949 --> 00:12:14,959
+seven plus two
+ 
+
+635
+00:12:14,959 --> 00:12:17,350
+seven plus two
+nine okay yeah does it make sense so
+
+636
+00:12:17,350 --> 00:12:17,360
+nine okay yeah does it make sense so
+ 
+
+637
+00:12:17,360 --> 00:12:19,269
+nine okay yeah does it make sense so
+first of all we do the rows accumulate
+
+638
+00:12:19,269 --> 00:12:19,279
+first of all we do the rows accumulate
+ 
+
+639
+00:12:19,279 --> 00:12:21,590
+first of all we do the rows accumulate
+and we do the columns accumulate
+
+640
+00:12:21,590 --> 00:12:21,600
+and we do the columns accumulate
+ 
+
+641
+00:12:21,600 --> 00:12:23,990
+and we do the columns accumulate
+simple
+
+642
+00:12:23,990 --> 00:12:24,000
+simple
+ 
+
+643
+00:12:24,000 --> 00:12:25,750
+simple
+what's the term complexity for this
+
+644
+00:12:25,750 --> 00:12:25,760
+what's the term complexity for this
+ 
+
+645
+00:12:25,760 --> 00:12:28,550
+what's the term complexity for this
+approach i will see what's r and c
+
+646
+00:12:28,550 --> 00:12:28,560
+approach i will see what's r and c
+ 
+
+647
+00:12:28,560 --> 00:12:30,550
+approach i will see what's r and c
+right and columns we're done good job
+
+648
+00:12:30,550 --> 00:12:30,560
+right and columns we're done good job
+ 
+
+649
+00:12:30,560 --> 00:12:32,550
+right and columns we're done good job
+okay let's do this it should be quick
+
+650
+00:12:32,550 --> 00:12:32,560
+okay let's do this it should be quick
+ 
+
+651
+00:12:32,560 --> 00:12:34,060
+okay let's do this it should be quick
+okay
+
+652
+00:12:34,060 --> 00:12:34,070
+okay
+ 
+
+653
+00:12:34,070 --> 00:12:36,949
+okay
+[Music]
+
+654
+00:12:36,949 --> 00:12:36,959
+[Music]
+ 
+
+655
+00:12:36,959 --> 00:12:38,949
+[Music]
+you want more minutes right yeah and
+
+656
+00:12:38,949 --> 00:12:38,959
+you want more minutes right yeah and
+ 
+
+657
+00:12:38,959 --> 00:12:40,550
+you want more minutes right yeah and
+then you'll be a good boy okay because i
+
+658
+00:12:40,550 --> 00:12:40,560
+then you'll be a good boy okay because i
+ 
+
+659
+00:12:40,560 --> 00:12:42,710
+then you'll be a good boy okay because i
+want to play pokemon go
+
+660
+00:12:42,710 --> 00:12:42,720
+want to play pokemon go
+ 
+
+661
+00:12:42,720 --> 00:12:45,509
+want to play pokemon go
+like an hour or more
+
+662
+00:12:45,509 --> 00:12:45,519
+like an hour or more
+ 
+
+663
+00:12:45,519 --> 00:12:48,150
+like an hour or more
+yeah magic song okay let's do this from
+
+664
+00:12:48,150 --> 00:12:48,160
+yeah magic song okay let's do this from
+ 
+
+665
+00:12:48,160 --> 00:12:49,509
+yeah magic song okay let's do this from
+scratch
+
+666
+00:12:49,509 --> 00:12:49,519
+scratch
+ 
+
+667
+00:12:49,519 --> 00:12:55,190
+scratch
+let's do this um
+
+668
+00:12:55,190 --> 00:12:55,200
+
+ 
+
+669
+00:12:55,200 --> 00:12:57,269
+
+the magic is empty then we just simply
+
+670
+00:12:57,269 --> 00:12:57,279
+the magic is empty then we just simply
+ 
+
+671
+00:12:57,279 --> 00:12:59,670
+the magic is empty then we just simply
+return our empty yeah okay
+
+672
+00:12:59,670 --> 00:12:59,680
+return our empty yeah okay
+ 
+
+673
+00:12:59,680 --> 00:13:01,590
+return our empty yeah okay
+okay
+
+674
+00:13:01,590 --> 00:13:01,600
+okay
+ 
+
+675
+00:13:01,600 --> 00:13:18,200
+okay
+it's the same as yeah
+
+676
+00:13:18,200 --> 00:13:18,210
+
+ 
+
+677
+00:13:18,210 --> 00:13:26,629
+
+[Music]
+
+678
+00:13:26,629 --> 00:13:26,639
+
+ 
+
+679
+00:13:26,639 --> 00:13:28,710
+
+okay now let's do this
+
+680
+00:13:28,710 --> 00:13:28,720
+okay now let's do this
+ 
+
+681
+00:13:28,720 --> 00:13:31,030
+okay now let's do this
+for each row right we want to do this
+
+682
+00:13:31,030 --> 00:13:31,040
+for each row right we want to do this
+ 
+
+683
+00:13:31,040 --> 00:13:32,790
+for each row right we want to do this
+row right for r
+
+684
+00:13:32,790 --> 00:13:32,800
+row right for r
+ 
+
+685
+00:13:32,800 --> 00:13:42,310
+row right for r
+in
+
+686
+00:13:42,310 --> 00:13:42,320
+
+ 
+
+687
+00:13:42,320 --> 00:13:44,550
+
+for each row each row i can do this
+
+688
+00:13:44,550 --> 00:13:44,560
+for each row each row i can do this
+ 
+
+689
+00:13:44,560 --> 00:13:46,829
+for each row each row i can do this
+accumulate right we can do this for c in
+
+690
+00:13:46,829 --> 00:13:46,839
+accumulate right we can do this for c in
+ 
+
+691
+00:13:46,839 --> 00:13:50,069
+accumulate right we can do this for c in
+range for one two columns and then
+
+692
+00:13:50,069 --> 00:13:50,079
+range for one two columns and then
+ 
+
+693
+00:13:50,079 --> 00:13:51,110
+range for one two columns and then
+matching
+
+694
+00:13:51,110 --> 00:13:51,120
+matching
+ 
+
+695
+00:13:51,120 --> 00:13:51,800
+matching
+r c
+
+696
+00:13:51,800 --> 00:13:51,810
+r c
+ 
+
+697
+00:13:51,810 --> 00:13:53,910
+r c
+[Music]
+
+698
+00:13:53,910 --> 00:13:53,920
+[Music]
+ 
+
+699
+00:13:53,920 --> 00:13:54,870
+[Music]
+r
+
+700
+00:13:54,870 --> 00:13:54,880
+r
+ 
+
+701
+00:13:54,880 --> 00:13:57,030
+r
+c minus one right and we also can do
+
+702
+00:13:57,030 --> 00:13:57,040
+c minus one right and we also can do
+ 
+
+703
+00:13:57,040 --> 00:13:58,790
+c minus one right and we also can do
+this look magic
+
+704
+00:13:58,790 --> 00:13:58,800
+this look magic
+ 
+
+705
+00:13:58,800 --> 00:13:59,829
+this look magic
+ah
+
+706
+00:13:59,829 --> 00:13:59,839
+ah
+ 
+
+707
+00:13:59,839 --> 00:14:05,030
+ah
+equals least
+
+708
+00:14:05,030 --> 00:14:05,040
+
+ 
+
+709
+00:14:05,040 --> 00:14:07,509
+
+so this one is better yeah okay
+
+710
+00:14:07,509 --> 00:14:07,519
+so this one is better yeah okay
+ 
+
+711
+00:14:07,519 --> 00:14:10,310
+so this one is better yeah okay
+only all alternative look we can do this
+
+712
+00:14:10,310 --> 00:14:10,320
+only all alternative look we can do this
+ 
+
+713
+00:14:10,320 --> 00:14:13,430
+only all alternative look we can do this
+for c in range start from one to columns
+
+714
+00:14:13,430 --> 00:14:13,440
+for c in range start from one to columns
+ 
+
+715
+00:14:13,440 --> 00:14:14,949
+for c in range start from one to columns
+and then
+
+716
+00:14:14,949 --> 00:14:14,959
+and then
+ 
+
+717
+00:14:14,959 --> 00:14:15,829
+and then
+ah
+
+718
+00:14:15,829 --> 00:14:15,839
+ah
+ 
+
+719
+00:14:15,839 --> 00:14:19,670
+ah
+c plus equals matrix ah c minus one
+
+720
+00:14:19,670 --> 00:14:19,680
+c plus equals matrix ah c minus one
+ 
+
+721
+00:14:19,680 --> 00:14:20,550
+c plus equals matrix ah c minus one
+right
+
+722
+00:14:20,550 --> 00:14:20,560
+right
+ 
+
+723
+00:14:20,560 --> 00:14:22,150
+right
+this thing remember we talked about this
+
+724
+00:14:22,150 --> 00:14:22,160
+this thing remember we talked about this
+ 
+
+725
+00:14:22,160 --> 00:14:24,629
+this thing remember we talked about this
+five minutes ago right okay then after
+
+726
+00:14:24,629 --> 00:14:24,639
+five minutes ago right okay then after
+ 
+
+727
+00:14:24,639 --> 00:14:27,350
+five minutes ago right okay then after
+we do the rows we do the columns yeah so
+
+728
+00:14:27,350 --> 00:14:27,360
+we do the rows we do the columns yeah so
+ 
+
+729
+00:14:27,360 --> 00:14:29,189
+we do the rows we do the columns yeah so
+r
+
+730
+00:14:29,189 --> 00:14:29,199
+r
+ 
+
+731
+00:14:29,199 --> 00:14:32,389
+r
+for let's do for r in range
+
+732
+00:14:32,389 --> 00:14:32,399
+for let's do for r in range
+ 
+
+733
+00:14:32,399 --> 00:14:34,150
+for let's do for r in range
+from the first row right from the second
+
+734
+00:14:34,150 --> 00:14:34,160
+from the first row right from the second
+ 
+
+735
+00:14:34,160 --> 00:14:35,509
+from the first row right from the second
+we are not doing it from the first level
+
+736
+00:14:35,509 --> 00:14:35,519
+we are not doing it from the first level
+ 
+
+737
+00:14:35,519 --> 00:14:37,350
+we are not doing it from the first level
+from the second row right from the
+
+738
+00:14:37,350 --> 00:14:37,360
+from the second row right from the
+ 
+
+739
+00:14:37,360 --> 00:14:39,509
+from the second row right from the
+second row and then rows
+
+740
+00:14:39,509 --> 00:14:39,519
+second row and then rows
+ 
+
+741
+00:14:39,519 --> 00:14:41,509
+second row and then rows
+and now we need to do this for columns
+
+742
+00:14:41,509 --> 00:14:41,519
+and now we need to do this for columns
+ 
+
+743
+00:14:41,519 --> 00:14:42,870
+and now we need to do this for columns
+for c
+
+744
+00:14:42,870 --> 00:14:42,880
+for c
+ 
+
+745
+00:14:42,880 --> 00:14:44,870
+for c
+in range
+
+746
+00:14:44,870 --> 00:14:44,880
+in range
+ 
+
+747
+00:14:44,880 --> 00:14:47,430
+in range
+columns right
+
+748
+00:14:47,430 --> 00:14:47,440
+columns right
+ 
+
+749
+00:14:47,440 --> 00:14:49,910
+columns right
+i want zoido
+
+750
+00:14:49,910 --> 00:14:49,920
+i want zoido
+ 
+
+751
+00:14:49,920 --> 00:14:51,350
+i want zoido
+magic
+
+752
+00:14:51,350 --> 00:14:51,360
+magic
+ 
+
+753
+00:14:51,360 --> 00:14:52,710
+magic
+r
+
+754
+00:14:52,710 --> 00:14:52,720
+r
+ 
+
+755
+00:14:52,720 --> 00:14:54,069
+r
+c
+
+756
+00:14:54,069 --> 00:14:54,079
+c
+ 
+
+757
+00:14:54,079 --> 00:15:07,720
+c
+plus equal matrix
+
+758
+00:15:07,720 --> 00:15:07,730
+
+ 
+
+759
+00:15:07,730 --> 00:15:10,470
+
+[Music]
+
+760
+00:15:10,470 --> 00:15:10,480
+[Music]
+ 
+
+761
+00:15:10,480 --> 00:15:13,189
+[Music]
+why do we need this metric uh remember
+
+762
+00:15:13,189 --> 00:15:13,199
+why do we need this metric uh remember
+ 
+
+763
+00:15:13,199 --> 00:15:14,870
+why do we need this metric uh remember
+what's the advantage of using this
+
+764
+00:15:14,870 --> 00:15:14,880
+what's the advantage of using this
+ 
+
+765
+00:15:14,880 --> 00:15:16,949
+what's the advantage of using this
+metric previous uh the follow one d we
+
+766
+00:15:16,949 --> 00:15:16,959
+metric previous uh the follow one d we
+ 
+
+767
+00:15:16,959 --> 00:15:18,710
+metric previous uh the follow one d we
+want to calculate this we want to
+
+768
+00:15:18,710 --> 00:15:18,720
+want to calculate this we want to
+ 
+
+769
+00:15:18,720 --> 00:15:22,069
+want to calculate this we want to
+calculate the sum between any range
+
+770
+00:15:22,069 --> 00:15:22,079
+calculate the sum between any range
+ 
+
+771
+00:15:22,079 --> 00:15:23,829
+calculate the sum between any range
+you know in all
+
+772
+00:15:23,829 --> 00:15:23,839
+you know in all
+ 
+
+773
+00:15:23,839 --> 00:15:25,910
+you know in all
+one constant term right for the matching
+
+774
+00:15:25,910 --> 00:15:25,920
+one constant term right for the matching
+ 
+
+775
+00:15:25,920 --> 00:15:27,829
+one constant term right for the matching
+is the same thing look
+
+776
+00:15:27,829 --> 00:15:27,839
+is the same thing look
+ 
+
+777
+00:15:27,839 --> 00:15:31,280
+is the same thing look
+one two if it is the area
+
+778
+00:15:31,280 --> 00:15:31,290
+one two if it is the area
+ 
+
+779
+00:15:31,290 --> 00:15:33,269
+one two if it is the area
+[Music]
+
+780
+00:15:33,269 --> 00:15:33,279
+[Music]
+ 
+
+781
+00:15:33,279 --> 00:15:35,829
+[Music]
+uh let's like this okay
+
+782
+00:15:35,829 --> 00:15:35,839
+uh let's like this okay
+ 
+
+783
+00:15:35,839 --> 00:15:38,550
+uh let's like this okay
+let's just write some elements okay
+
+784
+00:15:38,550 --> 00:15:38,560
+let's just write some elements okay
+ 
+
+785
+00:15:38,560 --> 00:15:41,910
+let's just write some elements okay
+okay so look if i want to get the sum
+
+786
+00:15:41,910 --> 00:15:41,920
+okay so look if i want to get the sum
+ 
+
+787
+00:15:41,920 --> 00:15:44,150
+okay so look if i want to get the sum
+of these four elements all right
+
+788
+00:15:44,150 --> 00:15:44,160
+of these four elements all right
+ 
+
+789
+00:15:44,160 --> 00:15:47,269
+of these four elements all right
+all right yes
+
+790
+00:15:47,269 --> 00:15:47,279
+
+ 
+
+791
+00:15:47,279 --> 00:15:49,110
+
+if i want to get the sum of these four
+
+792
+00:15:49,110 --> 00:15:49,120
+if i want to get the sum of these four
+ 
+
+793
+00:15:49,120 --> 00:15:51,030
+if i want to get the sum of these four
+elements what is the equal can we use
+
+794
+00:15:51,030 --> 00:15:51,040
+elements what is the equal can we use
+ 
+
+795
+00:15:51,040 --> 00:15:54,710
+elements what is the equal can we use
+this
+
+796
+00:15:54,710 --> 00:15:54,720
+
+ 
+
+797
+00:15:54,720 --> 00:15:56,710
+
+no no no yeah i know but how can we do
+
+798
+00:15:56,710 --> 00:15:56,720
+no no no yeah i know but how can we do
+ 
+
+799
+00:15:56,720 --> 00:15:59,990
+no no no yeah i know but how can we do
+this how can we do it is it equal to
+
+800
+00:15:59,990 --> 00:16:00,000
+this how can we do it is it equal to
+ 
+
+801
+00:16:00,000 --> 00:16:02,389
+this how can we do it is it equal to
+what are those x's
+
+802
+00:16:02,389 --> 00:16:02,399
+what are those x's
+ 
+
+803
+00:16:02,399 --> 00:16:05,350
+what are those x's
+no no i'm talking look remember remember
+
+804
+00:16:05,350 --> 00:16:05,360
+no no i'm talking look remember remember
+ 
+
+805
+00:16:05,360 --> 00:16:07,910
+no no i'm talking look remember remember
+i talked about this one plus one two
+
+806
+00:16:07,910 --> 00:16:07,920
+i talked about this one plus one two
+ 
+
+807
+00:16:07,920 --> 00:16:11,269
+i talked about this one plus one two
+three four five six i want to calculate
+
+808
+00:16:11,269 --> 00:16:11,279
+three four five six i want to calculate
+ 
+
+809
+00:16:11,279 --> 00:16:12,870
+three four five six i want to calculate
+the sum between three to four right
+
+810
+00:16:12,870 --> 00:16:12,880
+the sum between three to four right
+ 
+
+811
+00:16:12,880 --> 00:16:14,470
+the sum between three to four right
+three three four five
+
+812
+00:16:14,470 --> 00:16:14,480
+three three four five
+ 
+
+813
+00:16:14,480 --> 00:16:17,749
+three three four five
+equals to this sum minus this sum right
+
+814
+00:16:17,749 --> 00:16:17,759
+equals to this sum minus this sum right
+ 
+
+815
+00:16:17,759 --> 00:16:18,949
+equals to this sum minus this sum right
+this is the same thing i want to
+
+816
+00:16:18,949 --> 00:16:18,959
+this is the same thing i want to
+ 
+
+817
+00:16:18,959 --> 00:16:21,030
+this is the same thing i want to
+calculate this for anyway is it equal to
+
+818
+00:16:21,030 --> 00:16:21,040
+calculate this for anyway is it equal to
+ 
+
+819
+00:16:21,040 --> 00:16:23,269
+calculate this for anyway is it equal to
+the sum of these
+
+820
+00:16:23,269 --> 00:16:23,279
+the sum of these
+ 
+
+821
+00:16:23,279 --> 00:16:24,629
+the sum of these
+right
+
+822
+00:16:24,629 --> 00:16:24,639
+right
+ 
+
+823
+00:16:24,639 --> 00:16:26,790
+right
+but i need to look at some of these and
+
+824
+00:16:26,790 --> 00:16:26,800
+but i need to look at some of these and
+ 
+
+825
+00:16:26,800 --> 00:16:28,710
+but i need to look at some of these and
+then minus one
+
+826
+00:16:28,710 --> 00:16:28,720
+then minus one
+ 
+
+827
+00:16:28,720 --> 00:16:30,710
+then minus one
+minus sum of
+
+828
+00:16:30,710 --> 00:16:30,720
+minus sum of
+ 
+
+829
+00:16:30,720 --> 00:16:32,870
+minus sum of
+these
+
+830
+00:16:32,870 --> 00:16:32,880
+these
+ 
+
+831
+00:16:32,880 --> 00:16:35,590
+these
+right and the minus this bit right
+
+832
+00:16:35,590 --> 00:16:35,600
+right and the minus this bit right
+ 
+
+833
+00:16:35,600 --> 00:16:36,550
+right and the minus this bit right
+yeah
+
+834
+00:16:36,550 --> 00:16:36,560
+yeah
+ 
+
+835
+00:16:36,560 --> 00:16:37,749
+yeah
+go ahead
+
+836
+00:16:37,749 --> 00:16:37,759
+go ahead
+ 
+
+837
+00:16:37,759 --> 00:16:39,910
+go ahead
+this makes sense eric
+
+838
+00:16:39,910 --> 00:16:39,920
+this makes sense eric
+ 
+
+839
+00:16:39,920 --> 00:16:40,949
+this makes sense eric
+uh
+
+840
+00:16:40,949 --> 00:16:40,959
+uh
+ 
+
+841
+00:16:40,959 --> 00:16:42,870
+uh
+yeah so if i want to calculate this
+
+842
+00:16:42,870 --> 00:16:42,880
+yeah so if i want to calculate this
+ 
+
+843
+00:16:42,880 --> 00:16:45,189
+yeah so if i want to calculate this
+fourth term i need to calculate i need
+
+844
+00:16:45,189 --> 00:16:45,199
+fourth term i need to calculate i need
+ 
+
+845
+00:16:45,199 --> 00:16:47,110
+fourth term i need to calculate i need
+to minus
+
+846
+00:16:47,110 --> 00:16:47,120
+to minus
+ 
+
+847
+00:16:47,120 --> 00:16:49,990
+to minus
+minus this repeater this will be this
+
+848
+00:16:49,990 --> 00:16:50,000
+minus this repeater this will be this
+ 
+
+849
+00:16:50,000 --> 00:16:52,470
+minus this repeater this will be this
+stupid okay but usually you need you
+
+850
+00:16:52,470 --> 00:16:52,480
+stupid okay but usually you need you
+ 
+
+851
+00:16:52,480 --> 00:16:57,509
+stupid okay but usually you need you
+want to get calculated minus one minus
+
+852
+00:16:57,509 --> 00:16:57,519
+
+ 
+
+853
+00:16:57,519 --> 00:16:58,790
+
+this bit
+
+854
+00:16:58,790 --> 00:16:58,800
+this bit
+ 
+
+855
+00:16:58,800 --> 00:17:02,550
+this bit
+then the sum of up to this point and
+
+856
+00:17:02,550 --> 00:17:02,560
+then the sum of up to this point and
+ 
+
+857
+00:17:02,560 --> 00:17:04,470
+then the sum of up to this point and
+and know to minus this point at this
+
+858
+00:17:04,470 --> 00:17:04,480
+and know to minus this point at this
+ 
+
+859
+00:17:04,480 --> 00:17:07,189
+and know to minus this point at this
+point okay
+
+860
+00:17:07,189 --> 00:17:07,199
+point okay
+ 
+
+861
+00:17:07,199 --> 00:17:09,429
+point okay
+does it make sense
+
+862
+00:17:09,429 --> 00:17:09,439
+does it make sense
+ 
+
+863
+00:17:09,439 --> 00:17:11,589
+does it make sense
+that's it for today
+
+864
+00:17:11,589 --> 00:17:11,599
+that's it for today
+ 
+
+865
+00:17:11,599 --> 00:17:13,990
+that's it for today
+[Music]
+
+866
+00:17:13,990 --> 00:17:14,000
+[Music]
+ 
+
+867
+00:17:14,000 --> 00:17:22,569
+[Music]
+that's what come on
+
+868
+00:17:22,569 --> 00:17:22,579
+
+ 
+
+869
+00:17:22,579 --> 00:17:31,510
+
+[Applause]
+
+870
+00:17:31,510 --> 00:17:31,520
+
+ 
+
+871
+00:17:31,520 --> 00:17:34,840
+
+bye bye
+
