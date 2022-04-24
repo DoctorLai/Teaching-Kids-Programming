@@ -1,0 +1,1032 @@
+1
+00:00:00,000 --> 00:00:03,520
+yo
+
+2
+00:00:00,799 --> 00:00:05,120
+hello mr mr ryan are you right
+
+3
+00:00:03,520 --> 00:00:07,120
+okay so let's talk about this the
+
+4
+00:00:05,120 --> 00:00:10,240
+longest increasing path okay we're given
+
+5
+00:00:07,120 --> 00:00:12,719
+this map of integer matrix and
+
+6
+00:00:10,240 --> 00:00:14,960
+we want to find out the longest strictly
+
+7
+00:00:12,719 --> 00:00:18,160
+strictly increasing strictly increasing
+
+8
+00:00:14,960 --> 00:00:20,480
+pass in metric so a path we can follow
+
+9
+00:00:18,160 --> 00:00:21,920
+the numbers horizontally or vertically
+
+10
+00:00:20,480 --> 00:00:23,680
+yeah there are two directions actually
+
+11
+00:00:21,920 --> 00:00:26,240
+there are four directions we can go up
+
+12
+00:00:23,680 --> 00:00:29,279
+down left right so
+
+13
+00:00:26,240 --> 00:00:31,599
+can you tell me that which
+
+14
+00:00:29,279 --> 00:00:34,399
+which one is the longest pass in in this
+
+15
+00:00:31,599 --> 00:00:35,920
+case everyone zero one three five six
+
+16
+00:00:34,399 --> 00:00:39,040
+nine okay
+
+17
+00:00:35,920 --> 00:00:40,160
+zero one three five six nine okay
+
+18
+00:00:39,040 --> 00:00:41,520
+anymore
+
+19
+00:00:40,160 --> 00:00:42,000
+yeah
+
+20
+00:00:41,520 --> 00:00:45,420
+zero
+
+21
+00:00:42,000 --> 00:00:45,420
+[Music]
+
+22
+00:00:46,000 --> 00:00:51,520
+okay so both the those are the longest
+
+23
+00:00:49,039 --> 00:00:54,879
+equally longest strictly increasing type
+
+24
+00:00:51,520 --> 00:00:56,960
+has six numbers yet okay
+
+25
+00:00:54,879 --> 00:00:59,520
+so this is the problem uh when we are
+
+26
+00:00:56,960 --> 00:01:02,879
+solving this today so any idea any idea
+
+27
+00:00:59,520 --> 00:01:03,600
+i mean you can say profess if you won't
+
+28
+00:01:02,879 --> 00:01:05,680
+yeah
+
+29
+00:01:03,600 --> 00:01:08,320
+how do we do first okay so my next
+
+30
+00:01:05,680 --> 00:01:10,479
+question how do we perform ryan
+
+31
+00:01:08,320 --> 00:01:12,479
+we check every single one
+
+32
+00:01:10,479 --> 00:01:14,080
+we check every single one we check every
+
+33
+00:01:12,479 --> 00:01:16,799
+single picture okay
+
+34
+00:01:14,080 --> 00:01:20,159
+so let's define it might take a long
+
+35
+00:01:16,799 --> 00:01:22,880
+time yeah let's define frc
+
+36
+00:01:20,159 --> 00:01:25,439
+is the representing the longest
+
+37
+00:01:22,880 --> 00:01:28,640
+longest path starting
+
+38
+00:01:25,439 --> 00:01:30,880
+starting at pixar rc the coordinate okay
+
+39
+00:01:28,640 --> 00:01:33,119
+so this actually returns an integer
+
+40
+00:01:30,880 --> 00:01:35,280
+telling the length the length of the the
+
+41
+00:01:33,119 --> 00:01:37,680
+length the length of the longest yeah
+
+42
+00:01:35,280 --> 00:01:38,799
+that's the longest
+
+43
+00:01:37,680 --> 00:01:42,399
+so then
+
+44
+00:01:38,799 --> 00:01:44,640
+then we can go through these possible
+
+45
+00:01:42,399 --> 00:01:47,040
+starting position and we
+
+46
+00:01:44,640 --> 00:01:49,520
+and calculate the maximum of it right
+
+47
+00:01:47,040 --> 00:01:52,000
+answer at the beginning so what's the
+
+48
+00:01:49,520 --> 00:01:55,840
+minimum what's the minimum length of the
+
+49
+00:01:52,000 --> 00:01:55,840
+longest path what's the minimum
+
+50
+00:01:56,180 --> 00:02:00,799
+[Music]
+
+51
+00:01:58,079 --> 00:02:03,119
+one exactly yeah yeah exactly each
+
+52
+00:02:00,799 --> 00:02:05,040
+number is each you can start with any
+
+53
+00:02:03,119 --> 00:02:06,000
+position and that gives us the longest
+
+54
+00:02:05,040 --> 00:02:07,920
+path
+
+55
+00:02:06,000 --> 00:02:09,840
+you know at least one right so answer
+
+56
+00:02:07,920 --> 00:02:13,440
+equals one and then four
+
+57
+00:02:09,840 --> 00:02:15,040
+r in rows with rows is the number of
+
+58
+00:02:13,440 --> 00:02:18,319
+rows in the metric
+
+59
+00:02:15,040 --> 00:02:20,560
+four c in current
+
+60
+00:02:18,319 --> 00:02:23,520
+the columns how many columns right so
+
+61
+00:02:20,560 --> 00:02:26,480
+answer equals maximum of answer does it
+
+62
+00:02:23,520 --> 00:02:28,800
+have to be three by three
+
+63
+00:02:26,480 --> 00:02:31,040
+no rows and columns then this is just a
+
+64
+00:02:28,800 --> 00:02:33,040
+very simple example okay
+
+65
+00:02:31,040 --> 00:02:34,840
+very good question okay by the way i
+
+66
+00:02:33,040 --> 00:02:37,680
+thought it was next answer
+
+67
+00:02:34,840 --> 00:02:39,440
+frc and then return answer yeah so the
+
+68
+00:02:37,680 --> 00:02:42,720
+the key thing here is
+
+69
+00:02:39,440 --> 00:02:45,040
+this an f something right something f
+
+70
+00:02:42,720 --> 00:02:47,760
+function so we start with this pixel and
+
+71
+00:02:45,040 --> 00:02:49,840
+we want to find out the num the long the
+
+72
+00:02:47,760 --> 00:02:51,360
+length of the longest path starting at
+
+73
+00:02:49,840 --> 00:02:52,800
+this position right
+
+74
+00:02:51,360 --> 00:02:54,800
+so
+
+75
+00:02:52,800 --> 00:02:57,920
+so this is it uh
+
+76
+00:02:54,800 --> 00:02:59,599
+so how we implement this rc function so
+
+77
+00:02:57,920 --> 00:03:01,519
+if we can
+
+78
+00:02:59,599 --> 00:03:03,440
+if we need to find out that we need to
+
+79
+00:03:01,519 --> 00:03:05,280
+find out if the neighboring pixel full
+
+80
+00:03:03,440 --> 00:03:06,720
+direction if it is strictly bigger than
+
+81
+00:03:05,280 --> 00:03:07,760
+the current pixel
+
+82
+00:03:06,720 --> 00:03:11,200
+right
+
+83
+00:03:07,760 --> 00:03:12,000
+then we can work right so so for example
+
+84
+00:03:11,200 --> 00:03:15,200
+look
+
+85
+00:03:12,000 --> 00:03:18,480
+okay so here look if frc is here look
+
+86
+00:03:15,200 --> 00:03:20,000
+it's f4 right and i'm realizing that 6
+
+87
+00:03:18,480 --> 00:03:21,120
+is bigger than 4
+
+88
+00:03:20,000 --> 00:03:24,640
+so f
+
+89
+00:03:21,120 --> 00:03:28,560
+this is what 0 1 0 1 f 1 1
+
+90
+00:03:24,640 --> 00:03:31,200
+will be equal to what mac 1 plus
+
+91
+00:03:28,560 --> 00:03:33,840
+1 plus f
+
+92
+00:03:31,200 --> 00:03:35,599
+if this is what coordinate will be there
+
+93
+00:03:33,840 --> 00:03:36,480
+that would be one two right right you
+
+94
+00:03:35,599 --> 00:03:37,840
+see
+
+95
+00:03:36,480 --> 00:03:38,799
+that
+
+96
+00:03:37,840 --> 00:03:40,799
+i'm right
+
+97
+00:03:38,799 --> 00:03:42,879
+because if i starting at this position i
+
+98
+00:03:40,799 --> 00:03:45,280
+can add one more pixel and the maxi one
+
+99
+00:03:42,879 --> 00:03:47,760
+plus you get it yeah
+
+100
+00:03:45,280 --> 00:03:50,080
+yeah yeah okay so do you
+
+101
+00:03:47,760 --> 00:03:52,879
+so so we we can just walk check four
+
+102
+00:03:50,080 --> 00:03:54,480
+direction and to to implement this to
+
+103
+00:03:52,879 --> 00:03:56,400
+increment this one
+
+104
+00:03:54,480 --> 00:03:58,239
+yeah if less restricted
+
+105
+00:03:56,400 --> 00:03:59,599
+if the next neighboring the four
+
+106
+00:03:58,239 --> 00:04:01,200
+direction the pixel number four
+
+107
+00:03:59,599 --> 00:04:02,720
+direction is bigger
+
+108
+00:04:01,200 --> 00:04:06,239
+it's bigger one of them is bigger than
+
+109
+00:04:02,720 --> 00:04:07,280
+we can just extend it one more bit okay
+
+110
+00:04:06,239 --> 00:04:08,879
+and then
+
+111
+00:04:07,280 --> 00:04:10,959
+obviously we need to
+
+112
+00:04:08,879 --> 00:04:12,560
+do one more thing one more magical
+
+113
+00:04:10,959 --> 00:04:15,040
+keyword to make it
+
+114
+00:04:12,560 --> 00:04:17,040
+efficient cash if exactly why is that if
+
+115
+00:04:15,040 --> 00:04:19,600
+we don't don't do that cash what will
+
+116
+00:04:17,040 --> 00:04:22,000
+happen everywhere
+
+117
+00:04:19,600 --> 00:04:24,160
+exponential how look if we starting from
+
+118
+00:04:22,000 --> 00:04:26,000
+this point yeah yeah
+
+119
+00:04:24,160 --> 00:04:27,840
+i know we somehow
+
+120
+00:04:26,000 --> 00:04:29,680
+somehow we need to calculate that
+
+121
+00:04:27,840 --> 00:04:31,280
+function from this point after the
+
+122
+00:04:29,680 --> 00:04:32,240
+function from this point f function from
+
+123
+00:04:31,280 --> 00:04:34,160
+this one
+
+124
+00:04:32,240 --> 00:04:35,759
+yeah and then we come back to these
+
+125
+00:04:34,160 --> 00:04:38,240
+functions and this pixel again and we
+
+126
+00:04:35,759 --> 00:04:40,479
+need to call this function again so but
+
+127
+00:04:38,240 --> 00:04:42,400
+we are obviously we have calculated this
+
+128
+00:04:40,479 --> 00:04:44,400
+pixel before
+
+129
+00:04:42,400 --> 00:04:46,320
+then we don't need to calculate again so
+
+130
+00:04:44,400 --> 00:04:49,360
+that that's the beauty of bringing in
+
+131
+00:04:46,320 --> 00:04:52,080
+the cash right yeah
+
+132
+00:04:49,360 --> 00:04:56,800
+i answer equals one right
+
+133
+00:04:52,080 --> 00:04:56,800
+so for the four directions yeah dr
+
+134
+00:05:02,080 --> 00:05:06,639
+minus one zero zero minus one yeah
+
+135
+00:05:04,320 --> 00:05:08,400
+that's the
+
+136
+00:05:06,639 --> 00:05:10,880
+that's the offset in the fourth
+
+137
+00:05:08,400 --> 00:05:12,479
+direction all right then what uh the
+
+138
+00:05:10,880 --> 00:05:13,360
+current
+
+139
+00:05:12,479 --> 00:05:17,280
+let's
+
+140
+00:05:13,360 --> 00:05:19,199
+define this f function uh c right and
+
+141
+00:05:17,280 --> 00:05:19,919
+then we put a cache here okay i'm going
+
+142
+00:05:19,199 --> 00:05:21,759
+to
+
+143
+00:05:19,919 --> 00:05:23,680
+i'm going to
+
+144
+00:05:21,759 --> 00:05:26,479
+mark it as
+
+145
+00:05:23,680 --> 00:05:28,240
+red so this is very important because if
+
+146
+00:05:26,479 --> 00:05:30,720
+we don't put this cash
+
+147
+00:05:28,240 --> 00:05:34,400
+this solution will be invisible it means
+
+148
+00:05:30,720 --> 00:05:35,360
+that impractical to to uh to solve in a
+
+149
+00:05:34,400 --> 00:05:38,400
+few
+
+150
+00:05:35,360 --> 00:05:41,360
+in a short amount of time right
+
+151
+00:05:38,400 --> 00:05:45,440
+okay so cash answer and then look
+
+152
+00:05:41,360 --> 00:05:48,720
+new new row equals r plus dr
+
+153
+00:05:45,440 --> 00:05:51,680
+news this column equals c plus dc then
+
+154
+00:05:48,720 --> 00:05:53,520
+we need to check if the is still in the
+
+155
+00:05:51,680 --> 00:05:56,479
+metric it's zero
+
+156
+00:05:53,520 --> 00:05:58,720
+bigger smaller than nr smaller than rows
+
+157
+00:05:56,479 --> 00:06:00,800
+rows is the number of columns number of
+
+158
+00:05:58,720 --> 00:06:03,759
+zeros yes and then
+
+159
+00:06:00,800 --> 00:06:06,400
+zero smaller equal nc is more than
+
+160
+00:06:03,759 --> 00:06:09,919
+columns if it's in with responsory
+
+161
+00:06:06,400 --> 00:06:12,319
+and also the metric
+
+162
+00:06:09,919 --> 00:06:17,039
+look matrix rc
+
+163
+00:06:12,319 --> 00:06:17,039
+is strictly smaller than metric
+
+164
+00:06:17,520 --> 00:06:22,880
+n r and c right this is the new
+
+165
+00:06:19,600 --> 00:06:24,319
+neighboring pixel and i see then one
+
+166
+00:06:22,880 --> 00:06:25,600
+plus
+
+167
+00:06:24,319 --> 00:06:26,720
+f
+
+168
+00:06:25,600 --> 00:06:29,759
+and r
+
+169
+00:06:26,720 --> 00:06:32,000
+and c return answer so what about this
+
+170
+00:06:29,759 --> 00:06:34,880
+cache yeah frc is the
+
+171
+00:06:32,000 --> 00:06:37,600
+last is the representing the length of
+
+172
+00:06:34,880 --> 00:06:39,199
+the longest path longest increasing
+
+173
+00:06:37,600 --> 00:06:41,039
+strictly increasing power starting with
+
+174
+00:06:39,199 --> 00:06:43,840
+this position rc
+
+175
+00:06:41,039 --> 00:06:46,479
+yeah the minimum is one if if the
+
+176
+00:06:43,840 --> 00:06:49,120
+neighbors if the neighbors are all
+
+177
+00:06:46,479 --> 00:06:51,120
+smaller or easier than the current pixel
+
+178
+00:06:49,120 --> 00:06:53,199
+then you'll be one right
+
+179
+00:06:51,120 --> 00:06:55,759
+drdc can you explain to me what it is
+
+180
+00:06:53,199 --> 00:06:58,720
+what's this for four vectors four
+
+181
+00:06:55,759 --> 00:07:01,280
+coordinates look what's this one zero
+
+182
+00:06:58,720 --> 00:07:04,639
+zero one minus one zero zero minus one
+
+183
+00:07:01,280 --> 00:07:04,639
+what's this representing
+
+184
+00:07:04,800 --> 00:07:09,840
+the four directions
+
+185
+00:07:07,759 --> 00:07:12,560
+this is one is
+
+186
+00:07:09,840 --> 00:07:14,560
+one zero one zero means down
+
+187
+00:07:12,560 --> 00:07:16,720
+zero one means right
+
+188
+00:07:14,560 --> 00:07:18,720
+minus one zero means left and what's
+
+189
+00:07:16,720 --> 00:07:21,280
+zero minus one
+
+190
+00:07:18,720 --> 00:07:23,680
+yeah zero minus one is up okay at least
+
+191
+00:07:21,280 --> 00:07:25,599
+it's the new coordinate and now you have
+
+192
+00:07:23,680 --> 00:07:27,680
+to check if it's in the boundary yeah
+
+193
+00:07:25,599 --> 00:07:30,160
+because it doesn't make sense if the the
+
+194
+00:07:27,680 --> 00:07:31,680
+new coordinate is beyond the boundary
+
+195
+00:07:30,160 --> 00:07:34,000
+right and then we have to check this
+
+196
+00:07:31,680 --> 00:07:37,280
+what's this what does this mean
+
+197
+00:07:34,000 --> 00:07:38,800
+yeah if metric rc is smaller than metric
+
+198
+00:07:37,280 --> 00:07:41,120
+n r and c
+
+199
+00:07:38,800 --> 00:07:44,080
+when do you understand this metric rc if
+
+200
+00:07:41,120 --> 00:07:47,520
+it's smaller than metric and not in c i
+
+201
+00:07:44,080 --> 00:07:48,879
+metric rc what's a 9 and c
+
+202
+00:07:47,520 --> 00:07:50,080
+what are we doing with these the four
+
+203
+00:07:48,879 --> 00:07:51,759
+directions
+
+204
+00:07:50,080 --> 00:07:55,199
+and r and c was
+
+205
+00:07:51,759 --> 00:07:57,520
+yeah and nic is the next cell okay so
+
+206
+00:07:55,199 --> 00:07:58,879
+metric rc is smaller than metric ni and
+
+207
+00:07:57,520 --> 00:08:01,840
+see what does it mean can you tell me
+
+208
+00:07:58,879 --> 00:08:04,639
+what's this represent me
+
+209
+00:08:01,840 --> 00:08:06,800
+uh so so if
+
+210
+00:08:04,639 --> 00:08:08,720
+so if
+
+211
+00:08:06,800 --> 00:08:15,389
+um
+
+212
+00:08:08,720 --> 00:08:15,389
+[Music]
+
+213
+00:08:16,639 --> 00:08:21,120
+yeah we can go to it we're done look we
+
+214
+00:08:18,560 --> 00:08:24,000
+can go to it how can we do it we can go
+
+215
+00:08:21,120 --> 00:08:26,319
+to it we one more yeah because if we put
+
+216
+00:08:24,000 --> 00:08:28,879
+one more which is the current pixel
+
+217
+00:08:26,319 --> 00:08:31,680
+right it makes the longest
+
+218
+00:08:28,879 --> 00:08:32,479
+pass one more number right and that's
+
+219
+00:08:31,680 --> 00:08:36,000
+the
+
+220
+00:08:32,479 --> 00:08:38,000
+that's the f and rnc is the longest part
+
+221
+00:08:36,000 --> 00:08:38,719
+starting with the next one next one
+
+222
+00:08:38,000 --> 00:08:40,880
+right
+
+223
+00:08:38,719 --> 00:08:43,039
+yeah and then if we put the current
+
+224
+00:08:40,880 --> 00:08:44,399
+pixel that will become one more right
+
+225
+00:08:43,039 --> 00:08:45,200
+you get it
+
+226
+00:08:44,399 --> 00:08:47,360
+yeah
+
+227
+00:08:45,200 --> 00:08:50,560
+so if we put the cash
+
+228
+00:08:47,360 --> 00:08:52,800
+then that means if if we put a cash then
+
+229
+00:08:50,560 --> 00:08:54,720
+it means what if it means that we the
+
+230
+00:08:52,800 --> 00:08:57,440
+maximum stay number of state we're
+
+231
+00:08:54,720 --> 00:08:59,680
+calculating is r times c
+
+232
+00:08:57,440 --> 00:09:02,000
+okay this is the number of states we
+
+233
+00:08:59,680 --> 00:09:04,800
+these are calculating then we iterate
+
+234
+00:09:02,000 --> 00:09:07,040
+over each pixel and we try to calculate
+
+235
+00:09:04,800 --> 00:09:09,360
+the length length of longest path
+
+236
+00:09:07,040 --> 00:09:10,800
+starting with legs what's the tango next
+
+237
+00:09:09,360 --> 00:09:13,279
+so
+
+238
+00:09:10,800 --> 00:09:15,040
+maybe not for r in
+
+239
+00:09:13,279 --> 00:09:18,800
+row yeah
+
+240
+00:09:15,040 --> 00:09:21,440
+for c in columns
+
+241
+00:09:18,800 --> 00:09:24,320
+and answer and the outside answer equals
+
+242
+00:09:21,440 --> 00:09:26,080
+one answer equals max
+
+243
+00:09:24,320 --> 00:09:28,800
+answer
+
+244
+00:09:26,080 --> 00:09:31,120
+f r c y and rc
+
+245
+00:09:28,800 --> 00:09:33,760
+here right so this is o r times c but
+
+246
+00:09:31,120 --> 00:09:34,880
+for each one we we can we calculate only
+
+247
+00:09:33,760 --> 00:09:36,399
+once
+
+248
+00:09:34,880 --> 00:09:38,240
+right so
+
+249
+00:09:36,399 --> 00:09:40,480
+so if the time connection is oh i see
+
+250
+00:09:38,240 --> 00:09:42,240
+okay oh i see
+
+251
+00:09:40,480 --> 00:09:44,320
+let's call talk down that let me program
+
+252
+00:09:42,240 --> 00:09:44,320
+here
+
+253
+00:09:45,120 --> 00:09:49,040
+yeah we need if we don't put a cache
+
+254
+00:09:47,040 --> 00:09:50,000
+that'll be exponential because for each
+
+255
+00:09:49,040 --> 00:09:52,800
+know maybe
+
+256
+00:09:50,000 --> 00:09:54,480
+maybe duplicate the
+
+257
+00:09:52,800 --> 00:09:58,920
+you know values we need to calculate
+
+258
+00:09:54,480 --> 00:09:58,920
+again again okay that's it for today bye
+
