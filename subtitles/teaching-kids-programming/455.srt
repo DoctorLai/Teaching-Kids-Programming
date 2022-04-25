@@ -1,0 +1,1884 @@
+1
+00:00:00,000 --> 00:00:05,200
+hello hello mister visa right now right
+
+2
+00:00:02,639 --> 00:00:08,399
+that's good okay so we are going to talk
+
+3
+00:00:05,200 --> 00:00:08,399
+about the long case
+
+4
+00:00:09,599 --> 00:00:12,960
+period what's paddington
+
+5
+00:00:13,120 --> 00:00:17,480
+what's paraguay can you give me an
+
+6
+00:00:14,480 --> 00:00:17,480
+example
+
+7
+00:00:24,920 --> 00:00:28,099
+[Music]
+
+8
+00:00:28,960 --> 00:00:34,480
+x w okay i see what you do you put it a
+
+9
+00:00:32,160 --> 00:00:36,719
+to z and then backwards again right so
+
+10
+00:00:34,480 --> 00:00:38,480
+basically the string it's reversed it's
+
+11
+00:00:36,719 --> 00:00:40,640
+the same then it's uh
+
+12
+00:00:38,480 --> 00:00:43,120
+it's parallel okay so in python how do
+
+13
+00:00:40,640 --> 00:00:45,440
+we check a string s is a pentagram any
+
+14
+00:00:43,120 --> 00:00:47,520
+idea look the easiest way can you tell
+
+15
+00:00:45,440 --> 00:00:49,600
+me the easiest way come on okay i think
+
+16
+00:00:47,520 --> 00:00:51,840
+you know this one if you want to find
+
+17
+00:00:49,600 --> 00:00:54,000
+out you know there's a quick syntax in
+
+18
+00:00:51,840 --> 00:00:56,320
+python that allows
+
+19
+00:00:54,000 --> 00:00:57,120
+yeah so s equals
+
+20
+00:00:56,320 --> 00:00:58,879
+s
+
+21
+00:00:57,120 --> 00:01:01,280
+column kernel management right so
+
+22
+00:00:58,879 --> 00:01:02,480
+basically look what's this look here
+
+23
+00:01:01,280 --> 00:01:03,840
+this is
+
+24
+00:01:02,480 --> 00:01:07,920
+wrong
+
+25
+00:01:03,840 --> 00:01:09,920
+the second is two the third is step okay
+
+26
+00:01:07,920 --> 00:01:11,760
+so we are we we're not giving any
+
+27
+00:01:09,920 --> 00:01:14,159
+parameters from the front so it starts
+
+28
+00:01:11,760 --> 00:01:16,640
+from a zero not giving anything to the
+
+29
+00:01:14,159 --> 00:01:19,040
+two parameters so it goes to the end end
+
+30
+00:01:16,640 --> 00:01:21,520
+of it so which is n and my n right and
+
+31
+00:01:19,040 --> 00:01:24,479
+even the n characters and step minus one
+
+32
+00:01:21,520 --> 00:01:26,799
+means reverse so so we can define you
+
+33
+00:01:24,479 --> 00:01:29,920
+know each pairing drum
+
+34
+00:01:26,799 --> 00:01:33,040
+print of s then we can just return
+
+35
+00:01:29,920 --> 00:01:36,320
+return s equals as common color minus
+
+36
+00:01:33,040 --> 00:01:38,320
+one so also you can do this e is telling
+
+37
+00:01:36,320 --> 00:01:40,880
+a lambda function a short function
+
+38
+00:01:38,320 --> 00:01:42,320
+without a short function we will not
+
+39
+00:01:40,880 --> 00:01:46,880
+define it
+
+40
+00:01:42,320 --> 00:01:49,840
+uh its parent drum equal e equals lambda
+
+41
+00:01:46,880 --> 00:01:52,320
+s and then we can say s
+
+42
+00:01:49,840 --> 00:01:54,640
+column column minus one equal equal s
+
+43
+00:01:52,320 --> 00:01:56,719
+okay so this is the quick syntax
+
+44
+00:01:54,640 --> 00:01:58,880
+otherwise we can use the two pointer
+
+45
+00:01:56,719 --> 00:02:00,960
+thing and we have pointer from the left
+
+46
+00:01:58,880 --> 00:02:03,439
+on the right we check if that both
+
+47
+00:02:00,960 --> 00:02:05,600
+characters at the at the index if it's
+
+48
+00:02:03,439 --> 00:02:08,000
+the same if it's the same then we keep
+
+49
+00:02:05,600 --> 00:02:09,759
+moving until they meet in the middle
+
+50
+00:02:08,000 --> 00:02:11,920
+otherwise it's not apparent all right
+
+51
+00:02:09,759 --> 00:02:14,480
+yeah so we talk about that the time
+
+52
+00:02:11,920 --> 00:02:17,440
+complexity is o n right obviously okay
+
+53
+00:02:14,480 --> 00:02:18,480
+so now i'm given a string right look
+
+54
+00:02:17,440 --> 00:02:20,400
+a
+
+55
+00:02:18,480 --> 00:02:21,360
+b b a
+
+56
+00:02:20,400 --> 00:02:22,800
+b
+
+57
+00:02:21,360 --> 00:02:24,080
+what's the longest
+
+58
+00:02:22,800 --> 00:02:25,920
+substring
+
+59
+00:02:24,080 --> 00:02:30,080
+palindrome what's the longest string
+
+60
+00:02:25,920 --> 00:02:30,080
+that is also kind of another substring
+
+61
+00:02:34,280 --> 00:02:40,160
+continuous yeah obviously okay so
+
+62
+00:02:37,040 --> 00:02:42,400
+substring continues subsequent which is
+
+63
+00:02:40,160 --> 00:02:46,000
+not continued yeah substring continue b
+
+64
+00:02:42,400 --> 00:02:50,720
+i i b okay another example
+
+65
+00:02:46,000 --> 00:02:50,720
+a b c d b c
+
+66
+00:02:52,560 --> 00:02:55,200
+okay
+
+67
+00:02:53,599 --> 00:02:57,280
+come on what's that what's the longest
+
+68
+00:02:55,200 --> 00:03:00,640
+substring what's the longest subject
+
+69
+00:02:57,280 --> 00:03:02,080
+what's the longest option a b c d d c b
+
+70
+00:03:00,640 --> 00:03:04,720
+a
+
+71
+00:03:02,080 --> 00:03:04,720
+a b c
+
+72
+00:03:12,319 --> 00:03:16,319
+okay how many of these one two three
+
+73
+00:03:14,000 --> 00:03:19,680
+four five six how many of these one two
+
+74
+00:03:16,319 --> 00:03:22,400
+three four five six seven seven eight
+
+75
+00:03:19,680 --> 00:03:24,720
+okay so this is clearly longer
+
+76
+00:03:22,400 --> 00:03:26,879
+one question if the whole string is a
+
+77
+00:03:24,720 --> 00:03:28,400
+parenthesis then the longest
+
+78
+00:03:26,879 --> 00:03:30,480
+substring
+
+79
+00:03:28,400 --> 00:03:32,959
+which is also which is also the longest
+
+80
+00:03:30,480 --> 00:03:35,920
+substring right
+
+81
+00:03:32,959 --> 00:03:38,239
+yeah a b b b a
+
+82
+00:03:35,920 --> 00:03:41,120
+c c what is what's the longest current
+
+83
+00:03:38,239 --> 00:03:43,599
+substring the whole thing exactly so now
+
+84
+00:03:41,120 --> 00:03:45,519
+okay so you understand so substring
+
+85
+00:03:43,599 --> 00:03:47,519
+continues usually when we solve this
+
+86
+00:03:45,519 --> 00:03:49,200
+kind of problem we need uh one square
+
+87
+00:03:47,519 --> 00:03:52,400
+right if the string even the n
+
+88
+00:03:49,200 --> 00:03:55,120
+characters yeah and there are cn2
+
+89
+00:03:52,400 --> 00:03:56,640
+tn1 right so why is that look if the
+
+90
+00:03:55,120 --> 00:03:58,879
+substring contains more than one
+
+91
+00:03:56,640 --> 00:04:00,319
+character than this cn2 if that contains
+
+92
+00:03:58,879 --> 00:04:02,159
+only one one character because one
+
+93
+00:04:00,319 --> 00:04:06,000
+character is also the substring so it's
+
+94
+00:04:02,159 --> 00:04:08,799
+cn1 so if we add these together cn2 is n
+
+95
+00:04:06,000 --> 00:04:10,879
+times n minus one divided by two c n one
+
+96
+00:04:08,799 --> 00:04:12,879
+is n obviously so if we add it up these
+
+97
+00:04:10,879 --> 00:04:15,519
+two together will be n n plus one
+
+98
+00:04:12,879 --> 00:04:16,320
+divided by two if if my math is correct
+
+99
+00:04:15,519 --> 00:04:19,040
+okay
+
+100
+00:04:16,320 --> 00:04:21,440
+so they are total these number of
+
+101
+00:04:19,040 --> 00:04:22,960
+substring and and plus one divided by
+
+102
+00:04:21,440 --> 00:04:24,960
+two so if we want to prove what's in
+
+103
+00:04:22,960 --> 00:04:27,440
+here so it needs the one square right
+
+104
+00:04:24,960 --> 00:04:30,080
+you get it
+
+105
+00:04:27,440 --> 00:04:31,199
+so how do we if we don't proof of these
+
+106
+00:04:30,080 --> 00:04:32,560
+uh
+
+107
+00:04:31,199 --> 00:04:33,600
+n square
+
+108
+00:04:32,560 --> 00:04:35,680
+uh
+
+109
+00:04:33,600 --> 00:04:38,400
+practices so what's the overall time
+
+110
+00:04:35,680 --> 00:04:41,280
+complexity of this argument
+
+111
+00:04:38,400 --> 00:04:43,520
+look we are we use o n square to prove
+
+112
+00:04:41,280 --> 00:04:45,280
+us all the substrings right but for each
+
+113
+00:04:43,520 --> 00:04:46,880
+substring we want to check if it's a
+
+114
+00:04:45,280 --> 00:04:48,320
+paragraph that's going to take over n
+
+115
+00:04:46,880 --> 00:04:50,639
+time right so what's the temperature
+
+116
+00:04:48,320 --> 00:04:51,190
+next week
+
+117
+00:04:50,639 --> 00:04:52,960
+anybody
+
+118
+00:04:51,190 --> 00:04:54,800
+[Music]
+
+119
+00:04:52,960 --> 00:04:55,830
+where downloading yes because o n
+
+120
+00:04:54,800 --> 00:04:58,870
+squared
+
+121
+00:04:55,830 --> 00:04:58,870
+[Music]
+
+122
+00:05:06,080 --> 00:05:11,120
+this is the total number of the
+
+123
+00:05:08,240 --> 00:05:12,639
+substring cn2 means that pic if the
+
+124
+00:05:11,120 --> 00:05:15,120
+substring contains more than one
+
+125
+00:05:12,639 --> 00:05:17,120
+characters cn1 means that if the subject
+
+126
+00:05:15,120 --> 00:05:18,080
+contains one characters okay
+
+127
+00:05:17,120 --> 00:05:19,759
+okay so
+
+128
+00:05:18,080 --> 00:05:21,759
+we we can do this okay but we can
+
+129
+00:05:19,759 --> 00:05:24,000
+optimize this a little bit it's all n
+
+130
+00:05:21,759 --> 00:05:26,160
+cubic yeah it's one cube and think how
+
+131
+00:05:24,000 --> 00:05:28,240
+do we make it o n square one easy way
+
+132
+00:05:26,160 --> 00:05:30,160
+would be to make the
+
+133
+00:05:28,240 --> 00:05:33,120
+pentagon check a one yeah but how do we
+
+134
+00:05:30,160 --> 00:05:35,440
+make o and uh preliminar one we can we
+
+135
+00:05:33,120 --> 00:05:37,680
+can compute we can calculate it in
+
+136
+00:05:35,440 --> 00:05:39,919
+advance and put it in the table right so
+
+137
+00:05:37,680 --> 00:05:41,919
+we can just look it up right all right
+
+138
+00:05:39,919 --> 00:05:44,400
+then that will make the check a one
+
+139
+00:05:41,919 --> 00:05:48,479
+right okay so now let's do this process
+
+140
+00:05:44,400 --> 00:05:48,479
+for example yes uh long case
+
+141
+00:05:48,960 --> 00:05:52,560
+ryan
+
+142
+00:05:50,240 --> 00:05:52,560
+what
+
+143
+00:05:55,440 --> 00:06:00,880
+so the easiest way right this way
+
+144
+00:05:58,240 --> 00:06:02,560
+so we want to store the left left and
+
+145
+00:06:00,880 --> 00:06:04,880
+right would be the
+
+146
+00:06:02,560 --> 00:06:07,440
+left and right index of the longest
+
+147
+00:06:04,880 --> 00:06:09,919
+current which is to minus one maybe okay
+
+148
+00:06:07,440 --> 00:06:10,800
+maybe better for
+
+149
+00:06:09,919 --> 00:06:11,680
+i
+
+150
+00:06:10,800 --> 00:06:13,440
+in
+
+151
+00:06:11,680 --> 00:06:15,759
+range and
+
+152
+00:06:13,440 --> 00:06:17,919
+come home this is the
+
+153
+00:06:15,759 --> 00:06:20,319
+blue force for j
+
+154
+00:06:17,919 --> 00:06:23,120
+in range
+
+155
+00:06:20,319 --> 00:06:25,199
+i to the end right
+
+156
+00:06:23,120 --> 00:06:26,880
+we have seen this before a long time
+
+157
+00:06:25,199 --> 00:06:29,360
+right all right
+
+158
+00:06:26,880 --> 00:06:30,800
+this is the classic way to go for
+
+159
+00:06:29,360 --> 00:06:32,639
+a
+
+160
+00:06:30,800 --> 00:06:35,120
+you know a substring right so we start
+
+161
+00:06:32,639 --> 00:06:37,440
+with i which is the left index j is the
+
+162
+00:06:35,120 --> 00:06:39,120
+right index and then the current string
+
+163
+00:06:37,440 --> 00:06:40,400
+will be one the substring current string
+
+164
+00:06:39,120 --> 00:06:43,680
+will be as
+
+165
+00:06:40,400 --> 00:06:46,160
+i up to j right up to j
+
+166
+00:06:43,680 --> 00:06:47,440
+and then we just have to check if
+
+167
+00:06:46,160 --> 00:06:50,319
+the c
+
+168
+00:06:47,440 --> 00:06:51,520
+minus minus my uh current minus 1 equals
+
+169
+00:06:50,319 --> 00:06:53,599
+c then
+
+170
+00:06:51,520 --> 00:06:56,240
+also we have to check if
+
+171
+00:06:53,599 --> 00:06:59,199
+the j minus i is bigger the length is
+
+172
+00:06:56,240 --> 00:07:02,479
+bigger than r minus f then
+
+173
+00:06:59,199 --> 00:07:06,240
+we recall that the r equals i
+
+174
+00:07:02,479 --> 00:07:08,319
+r equals j right and then we turn
+
+175
+00:07:06,240 --> 00:07:12,400
+x number one
+
+176
+00:07:08,319 --> 00:07:15,639
+r plus one right so this is the proof
+
+177
+00:07:12,400 --> 00:07:15,639
+from complexity
+
+178
+00:07:25,520 --> 00:07:30,400
+and then
+
+179
+00:07:27,680 --> 00:07:32,960
+okay so we need to check this this is o
+
+180
+00:07:30,400 --> 00:07:35,199
+n all right so o n times o n times one
+
+181
+00:07:32,960 --> 00:07:36,479
+so the thing is that this is so we don't
+
+182
+00:07:35,199 --> 00:07:38,960
+need to
+
+183
+00:07:36,479 --> 00:07:40,960
+every time we do this very don't check
+
+184
+00:07:38,960 --> 00:07:43,120
+it it takes time right it takes time so
+
+185
+00:07:40,960 --> 00:07:44,639
+we need to find out a way
+
+186
+00:07:43,120 --> 00:07:47,039
+to
+
+187
+00:07:44,639 --> 00:07:50,879
+to store these results so we can get it
+
+188
+00:07:47,039 --> 00:07:53,599
+in o and or one container
+
+189
+00:07:50,879 --> 00:07:56,240
+okay one one optimization is that look
+
+190
+00:07:53,599 --> 00:07:58,560
+that even this is o and cubic okay even
+
+191
+00:07:56,240 --> 00:07:59,840
+this is one cubic we can still optimize
+
+192
+00:07:58,560 --> 00:08:02,240
+this a little bit
+
+193
+00:07:59,840 --> 00:08:05,199
+so how can we optimize we can
+
+194
+00:08:02,240 --> 00:08:08,240
+we can reverse the order of the j index
+
+195
+00:08:05,199 --> 00:08:10,479
+right so instead from i to n look
+
+196
+00:08:08,240 --> 00:08:13,120
+here this is i
+
+197
+00:08:10,479 --> 00:08:16,240
+the index the the characters
+
+198
+00:08:13,120 --> 00:08:18,080
+goes this direction from zero to n minus
+
+199
+00:08:16,240 --> 00:08:20,879
+one
+
+200
+00:08:18,080 --> 00:08:23,840
+j will be j at the beginning of this
+
+201
+00:08:20,879 --> 00:08:25,360
+from the j will be from i to n if we
+
+202
+00:08:23,840 --> 00:08:27,919
+reverse this
+
+203
+00:08:25,360 --> 00:08:30,479
+if we reverse the j from this this side
+
+204
+00:08:27,919 --> 00:08:33,919
+from n minus 1 to this psi okay so what
+
+205
+00:08:30,479 --> 00:08:35,839
+happens if we reverse this bit
+
+206
+00:08:33,919 --> 00:08:38,159
+if we reverse this
+
+207
+00:08:35,839 --> 00:08:39,120
+n minus 1 up to i
+
+208
+00:08:38,159 --> 00:08:43,279
+we
+
+209
+00:08:39,120 --> 00:08:45,839
+reverse j from n minus one to i right
+
+210
+00:08:43,279 --> 00:08:48,399
+and minus one which is a step backwards
+
+211
+00:08:45,839 --> 00:08:50,320
+then if we follow the paren jump then we
+
+212
+00:08:48,399 --> 00:08:51,600
+can just break right because there's no
+
+213
+00:08:50,320 --> 00:08:53,200
+point to
+
+214
+00:08:51,600 --> 00:08:57,040
+no point to
+
+215
+00:08:53,200 --> 00:08:59,519
+keep finding it right he find it
+
+216
+00:08:57,040 --> 00:09:02,720
+okay what i'm saying is that look if we
+
+217
+00:08:59,519 --> 00:09:05,600
+found if we found a parent
+
+218
+00:09:02,720 --> 00:09:07,200
+if i we determine this i and we j we
+
+219
+00:09:05,600 --> 00:09:09,040
+determine we go
+
+220
+00:09:07,200 --> 00:09:10,720
+reverse direction if we found this is a
+
+221
+00:09:09,040 --> 00:09:12,800
+parent jump
+
+222
+00:09:10,720 --> 00:09:15,279
+then we don't need to keep from keep
+
+223
+00:09:12,800 --> 00:09:16,959
+moving the j towards the eye
+
+224
+00:09:15,279 --> 00:09:19,360
+right because if
+
+225
+00:09:16,959 --> 00:09:22,560
+we already found this is a parent if we
+
+226
+00:09:19,360 --> 00:09:24,959
+keep doing that the the palindrome the
+
+227
+00:09:22,560 --> 00:09:26,080
+substring will be shorter
+
+228
+00:09:24,959 --> 00:09:28,080
+you get it
+
+229
+00:09:26,080 --> 00:09:30,240
+so there is no point to iterate the j
+
+230
+00:09:28,080 --> 00:09:32,160
+right so we can break what's break in
+
+231
+00:09:30,240 --> 00:09:34,560
+the for loop what's the break what
+
+232
+00:09:32,160 --> 00:09:35,680
+happened what happened with the break up
+
+233
+00:09:34,560 --> 00:09:38,480
+here
+
+234
+00:09:35,680 --> 00:09:41,279
+it breaks it breaks it so four you will
+
+235
+00:09:38,480 --> 00:09:43,680
+break whatever j here your breaks and
+
+236
+00:09:41,279 --> 00:09:46,399
+then your tears and i will be increment
+
+237
+00:09:43,680 --> 00:09:49,120
+here next one right so that's it so we
+
+238
+00:09:46,399 --> 00:09:50,959
+can optimize this by
+
+239
+00:09:49,120 --> 00:09:53,040
+caching
+
+240
+00:09:50,959 --> 00:09:55,279
+catching the punishment check right so
+
+241
+00:09:53,040 --> 00:09:57,839
+we don't want to calculate if this
+
+242
+00:09:55,279 --> 00:09:59,600
+substring is apparent in real time so we
+
+243
+00:09:57,839 --> 00:10:01,920
+can use the
+
+244
+00:09:59,600 --> 00:10:04,399
+you know we can pre-calculate this this
+
+245
+00:10:01,920 --> 00:10:05,600
+table let's say we have this f function
+
+246
+00:10:04,399 --> 00:10:08,560
+f i j
+
+247
+00:10:05,600 --> 00:10:10,800
+so that would tell us if the string s
+
+248
+00:10:08,560 --> 00:10:13,760
+substring i to j
+
+249
+00:10:10,800 --> 00:10:15,839
+i to j include including the j index if
+
+250
+00:10:13,760 --> 00:10:17,440
+it's a parenthesis right so then we can
+
+251
+00:10:15,839 --> 00:10:19,600
+replace
+
+252
+00:10:17,440 --> 00:10:22,000
+you know we can replace this check yeah
+
+253
+00:10:19,600 --> 00:10:23,120
+we can replace this check
+
+254
+00:10:22,000 --> 00:10:25,519
+uh
+
+255
+00:10:23,120 --> 00:10:27,440
+we can replace this check here this is
+
+256
+00:10:25,519 --> 00:10:28,320
+expensive right we want to replace this
+
+257
+00:10:27,440 --> 00:10:30,399
+chair
+
+258
+00:10:28,320 --> 00:10:35,040
+yeah first of all we can use define this
+
+259
+00:10:30,399 --> 00:10:35,040
+function and define f i j
+
+260
+00:10:35,279 --> 00:10:43,040
+f i j it means that if s i to
+
+261
+00:10:39,440 --> 00:10:45,839
+s i to j j the index if it's a paren
+
+262
+00:10:43,040 --> 00:10:47,120
+drum right so if it's equal so let the
+
+263
+00:10:45,839 --> 00:10:51,120
+two-page
+
+264
+00:10:47,120 --> 00:10:52,880
+two-based cases fi if a single character
+
+265
+00:10:51,120 --> 00:10:55,040
+this is also a
+
+266
+00:10:52,880 --> 00:10:56,800
+parallel and this is a pendulum
+
+267
+00:10:55,040 --> 00:11:00,000
+how about f i
+
+268
+00:10:56,800 --> 00:11:02,320
+and i plus one right yeah f i and i plus
+
+269
+00:11:00,000 --> 00:11:05,440
+1 equals s i
+
+270
+00:11:02,320 --> 00:11:08,000
+equal equals i plus 1 right
+
+271
+00:11:05,440 --> 00:11:10,079
+so basically what it means is that what
+
+272
+00:11:08,000 --> 00:11:12,079
+if there's only one single character one
+
+273
+00:11:10,079 --> 00:11:13,040
+single character is a pentagon right
+
+274
+00:11:12,079 --> 00:11:15,040
+yeah
+
+275
+00:11:13,040 --> 00:11:18,160
+two single character that needs to be
+
+276
+00:11:15,040 --> 00:11:20,880
+the sum this is two base cases right and
+
+277
+00:11:18,160 --> 00:11:25,600
+otherwise f i j
+
+278
+00:11:20,880 --> 00:11:26,959
+equals f i plus one j minus one
+
+279
+00:11:25,600 --> 00:11:30,399
+and
+
+280
+00:11:26,959 --> 00:11:32,959
+s i equal equal as j right
+
+281
+00:11:30,399 --> 00:11:35,680
+so we might want to we put this in the
+
+282
+00:11:32,959 --> 00:11:40,640
+front yeah
+
+283
+00:11:35,680 --> 00:11:42,800
+yeah so as f i j equals s i j equals s i
+
+284
+00:11:40,640 --> 00:11:45,200
+equals three if these two characters so
+
+285
+00:11:42,800 --> 00:11:47,279
+basically look a
+
+286
+00:11:45,200 --> 00:11:52,079
+something something something something
+
+287
+00:11:47,279 --> 00:11:53,519
+a okay so let's f i here is i here's j
+
+288
+00:11:52,079 --> 00:11:57,040
+f i j
+
+289
+00:11:53,519 --> 00:11:59,839
+if it's equal look at a equals a then
+
+290
+00:11:57,040 --> 00:12:03,760
+it equals f i
+
+291
+00:11:59,839 --> 00:12:08,079
+f i plus 1 this is j plus j minus 1
+
+292
+00:12:03,760 --> 00:12:08,079
+right what kind of equivalent is this
+
+293
+00:12:08,480 --> 00:12:13,600
+not quite i mean look if i tell you that
+
+294
+00:12:11,120 --> 00:12:16,639
+there's something missing here
+
+295
+00:12:13,600 --> 00:12:19,040
+cash yeah cash yes what what's this what
+
+296
+00:12:16,639 --> 00:12:21,680
+argument do you put the cash
+
+297
+00:12:19,040 --> 00:12:24,639
+top down programming minimization
+
+298
+00:12:21,680 --> 00:12:25,360
+exactly yeah exactly so look so if we
+
+299
+00:12:24,639 --> 00:12:28,320
+want
+
+300
+00:12:25,360 --> 00:12:31,120
+we want to know f i j if it's uh the the
+
+301
+00:12:28,320 --> 00:12:32,480
+substring from i index i to j if it's a
+
+302
+00:12:31,120 --> 00:12:34,320
+pentagon
+
+303
+00:12:32,480 --> 00:12:36,880
+then we have to check the index the
+
+304
+00:12:34,320 --> 00:12:41,200
+characters index s i and sj they are
+
+305
+00:12:36,880 --> 00:12:43,519
+equal then also f i plus 1 j minus 1 it
+
+306
+00:12:41,200 --> 00:12:44,639
+needs to be apparent right needs to be
+
+307
+00:12:43,519 --> 00:12:47,760
+true right
+
+308
+00:12:44,639 --> 00:12:50,720
+easy by putting a cache here so so look
+
+309
+00:12:47,760 --> 00:12:54,639
+f i define f i j if
+
+310
+00:12:50,720 --> 00:12:56,000
+i equal equal j return
+
+311
+00:12:54,639 --> 00:12:57,519
+2 right
+
+312
+00:12:56,000 --> 00:12:59,760
+if i
+
+313
+00:12:57,519 --> 00:13:01,120
+plus 1 equal equal j then we need to
+
+314
+00:12:59,760 --> 00:13:04,240
+return
+
+315
+00:13:01,120 --> 00:13:06,639
+s i equal equal s j
+
+316
+00:13:04,240 --> 00:13:07,839
+otherwise we need to return
+
+317
+00:13:06,639 --> 00:13:10,240
+s i
+
+318
+00:13:07,839 --> 00:13:12,480
+equal equal as j
+
+319
+00:13:10,240 --> 00:13:16,240
+and
+
+320
+00:13:12,480 --> 00:13:18,959
+and f i plus 1 j minus 1 right so
+
+321
+00:13:16,240 --> 00:13:21,360
+sometimes we put another check if i is
+
+322
+00:13:18,959 --> 00:13:24,000
+bigger than j then we also return i i
+
+323
+00:13:21,360 --> 00:13:25,760
+don't know return true or false index i
+
+324
+00:13:24,000 --> 00:13:27,920
+should not be bigger than j right so it
+
+325
+00:13:25,760 --> 00:13:31,040
+should be smaller than three okay so we
+
+326
+00:13:27,920 --> 00:13:33,040
+put this s i equals j in the front
+
+327
+00:13:31,040 --> 00:13:35,279
+that's right why is that because if this
+
+328
+00:13:33,040 --> 00:13:37,120
+is false we don't need to continue
+
+329
+00:13:35,279 --> 00:13:39,199
+evaluating it right
+
+330
+00:13:37,120 --> 00:13:41,760
+do you get it yeah
+
+331
+00:13:39,199 --> 00:13:44,000
+why is that look if i'm saying
+
+332
+00:13:41,760 --> 00:13:46,399
+there's a thing a and b
+
+333
+00:13:44,000 --> 00:13:48,880
+what's a and b what's the a and b if
+
+334
+00:13:46,399 --> 00:13:50,639
+if pulling a and b you know true and
+
+335
+00:13:48,880 --> 00:13:52,480
+true right
+
+336
+00:13:50,639 --> 00:13:55,440
+two and two is true true and fourth is
+
+337
+00:13:52,480 --> 00:13:57,680
+false right two means n means then both
+
+338
+00:13:55,440 --> 00:14:00,240
+needs to be true all right yeah
+
+339
+00:13:57,680 --> 00:14:02,480
+okay if i am telling you this a is false
+
+340
+00:14:00,240 --> 00:14:04,560
+do i need to evaluate b
+
+341
+00:14:02,480 --> 00:14:07,199
+because it's false right okay how about
+
+342
+00:14:04,560 --> 00:14:10,079
+b how about a or b
+
+343
+00:14:07,199 --> 00:14:11,199
+o what's o
+
+344
+00:14:10,079 --> 00:14:13,760
+any
+
+345
+00:14:11,199 --> 00:14:16,160
+one is true is true right yeah
+
+346
+00:14:13,760 --> 00:14:18,160
+so if i'm telling you that a is true do
+
+347
+00:14:16,160 --> 00:14:20,480
+i need to evaluate b
+
+348
+00:14:18,160 --> 00:14:22,959
+because it doesn't matter no matter what
+
+349
+00:14:20,480 --> 00:14:25,279
+b value is this whole thing is true
+
+350
+00:14:22,959 --> 00:14:27,360
+right do you get it
+
+351
+00:14:25,279 --> 00:14:29,199
+yeah okay so that's why we put this in
+
+352
+00:14:27,360 --> 00:14:30,480
+the front okay then we can replace this
+
+353
+00:14:29,199 --> 00:14:32,399
+okay
+
+354
+00:14:30,480 --> 00:14:34,240
+replace this
+
+355
+00:14:32,399 --> 00:14:37,279
+and we don't need this line okay so we
+
+356
+00:14:34,240 --> 00:14:39,519
+can say if i f i j
+
+357
+00:14:37,279 --> 00:14:41,680
+then we can do this okay but let's see
+
+358
+00:14:39,519 --> 00:14:44,240
+look this is this is actually a
+
+359
+00:14:41,680 --> 00:14:46,320
+recursion and then function calls and we
+
+360
+00:14:44,240 --> 00:14:49,040
+want to save it so we can we can put
+
+361
+00:14:46,320 --> 00:14:51,839
+this in an array in a in a to this array
+
+362
+00:14:49,040 --> 00:14:53,839
+okay please array okay and we we don't
+
+363
+00:14:51,839 --> 00:14:54,639
+need to worry about the function call
+
+364
+00:14:53,839 --> 00:14:57,440
+there
+
+365
+00:14:54,639 --> 00:14:59,680
+so then we can again let me erase this
+
+366
+00:14:57,440 --> 00:15:01,040
+bit okay
+
+367
+00:14:59,680 --> 00:15:02,959
+so
+
+368
+00:15:01,040 --> 00:15:05,199
+f equals
+
+369
+00:15:02,959 --> 00:15:09,199
+at the beginning true
+
+370
+00:15:05,199 --> 00:15:12,480
+we set it to true for underscore in
+
+371
+00:15:09,199 --> 00:15:15,360
+range and we basically create
+
+372
+00:15:12,480 --> 00:15:17,839
+for underscore in range so this is the
+
+373
+00:15:15,360 --> 00:15:19,920
+two dimensional wave
+
+374
+00:15:17,839 --> 00:15:22,720
+n times an array so it's n times an
+
+375
+00:15:19,920 --> 00:15:24,560
+array and that begins the values is true
+
+376
+00:15:22,720 --> 00:15:27,279
+for all cases
+
+377
+00:15:24,560 --> 00:15:28,240
+four cases then we have to
+
+378
+00:15:27,279 --> 00:15:29,839
+for
+
+379
+00:15:28,240 --> 00:15:32,240
+i in
+
+380
+00:15:29,839 --> 00:15:32,240
+range
+
+381
+00:15:32,399 --> 00:15:39,839
+in order to compute this uh f value
+
+382
+00:15:36,800 --> 00:15:42,320
+we need to iterate the left index from n
+
+383
+00:15:39,839 --> 00:15:44,320
+minus two up to
+
+384
+00:15:42,320 --> 00:15:46,160
+up to zero okay
+
+385
+00:15:44,320 --> 00:15:47,279
+and then for j
+
+386
+00:15:46,160 --> 00:15:49,680
+in
+
+387
+00:15:47,279 --> 00:15:49,680
+range
+
+388
+00:15:49,920 --> 00:15:53,199
+i
+
+389
+00:15:51,120 --> 00:15:57,040
+plus one a single character is always
+
+390
+00:15:53,199 --> 00:15:58,720
+the paranormal and up to n one
+
+391
+00:15:57,040 --> 00:16:02,480
+one okay
+
+392
+00:15:58,720 --> 00:16:06,560
+then look f i j
+
+393
+00:16:02,480 --> 00:16:08,639
+equals s i equal equals j
+
+394
+00:16:06,560 --> 00:16:10,880
+and
+
+395
+00:16:08,639 --> 00:16:13,120
+f i plus 1
+
+396
+00:16:10,880 --> 00:16:15,360
+j minus 1 right look
+
+397
+00:16:13,120 --> 00:16:17,920
+yeah so this is the same thing but using
+
+398
+00:16:15,360 --> 00:16:20,240
+the iterative so we are feeding we are
+
+399
+00:16:17,920 --> 00:16:23,279
+computing the x values using the
+
+400
+00:16:20,240 --> 00:16:26,800
+necessity for loop right so look this
+
+401
+00:16:23,279 --> 00:16:29,279
+bit is o n square obviously yeah but we
+
+402
+00:16:26,800 --> 00:16:31,279
+only do it in front of these so look
+
+403
+00:16:29,279 --> 00:16:34,480
+this is our n square this is our n
+
+404
+00:16:31,279 --> 00:16:36,399
+square two o n square is zero n
+
+405
+00:16:34,480 --> 00:16:37,920
+o n square right so because look we are
+
+406
+00:16:36,399 --> 00:16:39,759
+optimizing it
+
+407
+00:16:37,920 --> 00:16:42,880
+optimizing it look
+
+408
+00:16:39,759 --> 00:16:44,079
+the key point today is what this
+
+409
+00:16:42,880 --> 00:16:46,160
+this check
+
+410
+00:16:44,079 --> 00:16:47,920
+takes a long time and then while we are
+
+411
+00:16:46,160 --> 00:16:50,880
+pre-computing it
+
+412
+00:16:47,920 --> 00:16:53,199
+we computing it use and put it in the f
+
+413
+00:16:50,880 --> 00:16:55,199
+array for lookup
+
+414
+00:16:53,199 --> 00:16:56,720
+and so so the time complexity overall
+
+415
+00:16:55,199 --> 00:16:58,399
+time frame this is one square and the
+
+416
+00:16:56,720 --> 00:17:00,000
+space complexity is solving square we're
+
+417
+00:16:58,399 --> 00:17:02,160
+using that and there are many other ways
+
+418
+00:17:00,000 --> 00:17:04,079
+of doing this yes we're going to talk
+
+419
+00:17:02,160 --> 00:17:06,000
+about in the next few lessons but this
+
+420
+00:17:04,079 --> 00:17:08,079
+is one of the i mean most
+
+421
+00:17:06,000 --> 00:17:09,839
+straightforward way right what have you
+
+422
+00:17:08,079 --> 00:17:10,959
+learned so far today
+
+423
+00:17:09,839 --> 00:17:12,079
+about
+
+424
+00:17:10,959 --> 00:17:14,319
+how
+
+425
+00:17:12,079 --> 00:17:16,470
+how do we optimize this from o and cubic
+
+426
+00:17:14,319 --> 00:17:18,799
+to one squared
+
+427
+00:17:16,470 --> 00:17:21,919
+[Music]
+
+428
+00:17:18,799 --> 00:17:24,400
+yeah so which power this one cubic
+
+429
+00:17:21,919 --> 00:17:25,679
+which power we can optimize
+
+430
+00:17:24,400 --> 00:17:29,039
+the
+
+431
+00:17:25,679 --> 00:17:31,360
+red circle yeah what what is these two
+
+432
+00:17:29,039 --> 00:17:31,360
+um
+
+433
+00:17:35,280 --> 00:17:38,720
+yeah but this is chicken in a real time
+
+434
+00:17:37,039 --> 00:17:42,400
+it takes all the time right
+
+435
+00:17:38,720 --> 00:17:42,400
+yeah i know what are we doing here
+
+436
+00:17:42,620 --> 00:17:47,919
+[Music]
+
+437
+00:17:45,280 --> 00:17:50,559
+yeah we are calculating we store this uh
+
+438
+00:17:47,919 --> 00:17:53,039
+we basically store f i j right look what
+
+439
+00:17:50,559 --> 00:17:56,400
+f i j is the substring we want to know
+
+440
+00:17:53,039 --> 00:17:58,559
+if uh the substring from index i to j if
+
+441
+00:17:56,400 --> 00:18:01,840
+it's a parameter right so that will be
+
+442
+00:17:58,559 --> 00:18:01,840
+calculating it in
+
+443
+00:18:02,000 --> 00:18:05,840
+and put it in a cache uh put it in the
+
+444
+00:18:03,919 --> 00:18:07,360
+table right so why can we do this in one
+
+445
+00:18:05,840 --> 00:18:09,840
+square because we're using the dynamic
+
+446
+00:18:07,360 --> 00:18:12,400
+programming look fij
+
+447
+00:18:09,840 --> 00:18:14,160
+is based on fi plus one j minus one
+
+448
+00:18:12,400 --> 00:18:15,919
+right so we are reusing it look at this
+
+449
+00:18:14,160 --> 00:18:18,559
+part right
+
+450
+00:18:15,919 --> 00:18:19,760
+right so what why we can do this in one
+
+451
+00:18:18,559 --> 00:18:22,240
+square look
+
+452
+00:18:19,760 --> 00:18:24,240
+we want to find out the index from the
+
+453
+00:18:22,240 --> 00:18:25,679
+substring from index i to index j if
+
+454
+00:18:24,240 --> 00:18:28,400
+it's apparent
+
+455
+00:18:25,679 --> 00:18:30,640
+right we we are not calculating it every
+
+456
+00:18:28,400 --> 00:18:33,200
+time instead we just check one more
+
+457
+00:18:30,640 --> 00:18:35,760
+thing which is index i equal index j
+
+458
+00:18:33,200 --> 00:18:37,440
+yeah and then yeah based on this yes
+
+459
+00:18:35,760 --> 00:18:39,520
+look at it yes
+
+460
+00:18:37,440 --> 00:18:42,480
+look at this one we want to check this
+
+461
+00:18:39,520 --> 00:18:44,480
+whole thing with the tension right right
+
+462
+00:18:42,480 --> 00:18:47,360
+this is our thing now we first of all in
+
+463
+00:18:44,480 --> 00:18:48,799
+chicago this a equal needs to be equal
+
+464
+00:18:47,360 --> 00:18:51,679
+to this a right
+
+465
+00:18:48,799 --> 00:18:52,400
+if it's equal then we compare we we want
+
+466
+00:18:51,679 --> 00:18:54,320
+to
+
+467
+00:18:52,400 --> 00:18:55,840
+check this is a pendulum but this has
+
+468
+00:18:54,320 --> 00:18:58,720
+been calculated before so we don't need
+
+469
+00:18:55,840 --> 00:19:00,930
+to over calculate it again right yeah
+
+470
+00:18:58,720 --> 00:19:04,699
+okay that's it for today bye-bye
+
+471
+00:19:00,930 --> 00:19:04,699
+[Music]
+
