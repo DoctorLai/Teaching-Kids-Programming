@@ -1,0 +1,904 @@
+1
+00:00:00,160 --> 00:00:05,359
+hello mister hello mr ryan all right
+
+2
+00:00:02,879 --> 00:00:08,640
+okay so let's say we have a string
+
+3
+00:00:05,359 --> 00:00:08,640
+pattern yeah tiger
+
+4
+00:00:08,720 --> 00:00:13,200
+and then suppose this this string
+
+5
+00:00:10,880 --> 00:00:14,719
+repeats itself infinitive time what's
+
+6
+00:00:13,200 --> 00:00:17,279
+infinity
+
+7
+00:00:14,719 --> 00:00:19,520
+white tiger i know it doesn't matter oh
+
+8
+00:00:17,279 --> 00:00:21,840
+you can say eric yeah
+
+9
+00:00:19,520 --> 00:00:23,199
+okay okay let's change it to arie
+
+10
+00:00:21,840 --> 00:00:25,439
+i like it
+
+11
+00:00:23,199 --> 00:00:28,000
+which is the best oh yeah okay
+
+12
+00:00:25,439 --> 00:00:29,840
+environment as well yeah okay so eric
+
+13
+00:00:28,000 --> 00:00:32,160
+yeah
+
+14
+00:00:29,840 --> 00:00:35,040
+and it repeats itself yeah
+
+15
+00:00:32,160 --> 00:00:39,760
+why infinitive time
+
+16
+00:00:35,040 --> 00:00:43,600
+so if i say i equals rice
+
+17
+00:00:39,760 --> 00:00:46,079
+i equals three right j equals 10. so can
+
+18
+00:00:43,600 --> 00:00:47,680
+you tell me the substring the you know
+
+19
+00:00:46,079 --> 00:00:50,320
+the index from
+
+20
+00:00:47,680 --> 00:00:52,160
+three zero one two three here this is i
+
+21
+00:00:50,320 --> 00:00:53,360
+equals three
+
+22
+00:00:52,160 --> 00:00:56,879
+and then ten
+
+23
+00:00:53,360 --> 00:01:00,079
+ten you know so it's i up to j not
+
+24
+00:00:56,879 --> 00:01:03,280
+including j so it should the last index
+
+25
+00:01:00,079 --> 00:01:06,640
+to be included is nine right so that
+
+26
+00:01:03,280 --> 00:01:07,920
+three four five six seven eight nine
+
+27
+00:01:06,640 --> 00:01:09,760
+nine yeah
+
+28
+00:01:07,920 --> 00:01:10,840
+this is nine
+
+29
+00:01:09,760 --> 00:01:15,119
+and
+
+30
+00:01:10,840 --> 00:01:17,040
+ryan right so that would be this is jake
+
+31
+00:01:15,119 --> 00:01:19,280
+yeah so you need to tell me this dream
+
+32
+00:01:17,040 --> 00:01:20,880
+yeah character
+
+33
+00:01:19,280 --> 00:01:21,920
+make sense
+
+34
+00:01:20,880 --> 00:01:23,680
+yeah
+
+35
+00:01:21,920 --> 00:01:27,840
+yeah okay
+
+36
+00:01:23,680 --> 00:01:27,840
+this is an easy question so
+
+37
+00:01:29,040 --> 00:01:32,799
+what's your thoughts about solving this
+
+38
+00:01:30,640 --> 00:01:34,320
+i mean i mean this is what you did
+
+39
+00:01:32,799 --> 00:01:36,079
+obviously
+
+40
+00:01:34,320 --> 00:01:38,320
+that could be a solution that allowed to
+
+41
+00:01:36,079 --> 00:01:40,479
+be very you know
+
+42
+00:01:38,320 --> 00:01:42,079
+but the thing is that uh
+
+43
+00:01:40,479 --> 00:01:43,520
+we want to
+
+44
+00:01:42,079 --> 00:01:46,079
+how how do we find out because this
+
+45
+00:01:43,520 --> 00:01:48,479
+stream never it's not existing you can't
+
+46
+00:01:46,079 --> 00:01:49,439
+put these three in memory it's infinity
+
+47
+00:01:48,479 --> 00:01:52,159
+yeah
+
+48
+00:01:49,439 --> 00:01:55,200
+it's in infinity so we we don't have
+
+49
+00:01:52,159 --> 00:01:56,880
+this string and memory this is infinity
+
+50
+00:01:55,200 --> 00:01:57,840
+yeah we can't put this string in the
+
+51
+00:01:56,880 --> 00:02:01,040
+memory
+
+52
+00:01:57,840 --> 00:02:03,040
+so we need to do some math right so we
+
+53
+00:02:01,040 --> 00:02:05,280
+need to do some math so we can go
+
+54
+00:02:03,040 --> 00:02:07,520
+through this index but how do we like
+
+55
+00:02:05,280 --> 00:02:10,239
+the key thing today is that how do we
+
+56
+00:02:07,520 --> 00:02:13,680
+map the index to the original index all
+
+57
+00:02:10,239 --> 00:02:16,239
+we have is e-r-i-c this index right so
+
+58
+00:02:13,680 --> 00:02:18,239
+if i'm saying e-i-c-c
+
+59
+00:02:16,239 --> 00:02:22,080
+needs to map to this one
+
+60
+00:02:18,239 --> 00:02:24,080
+e needs to map to this character ah yeah
+
+61
+00:02:22,080 --> 00:02:24,959
+you see what we're doing
+
+62
+00:02:24,080 --> 00:02:27,680
+yeah
+
+63
+00:02:24,959 --> 00:02:30,560
+so we only have a copy
+
+64
+00:02:27,680 --> 00:02:31,360
+and we want to go to the range here for
+
+65
+00:02:30,560 --> 00:02:34,400
+i
+
+66
+00:02:31,360 --> 00:02:35,440
+in let's say for x in
+
+67
+00:02:34,400 --> 00:02:38,560
+range
+
+68
+00:02:35,440 --> 00:02:41,599
+we start with i up to j right so now we
+
+69
+00:02:38,560 --> 00:02:44,640
+have this index x but how do we map this
+
+70
+00:02:41,599 --> 00:02:48,000
+x to the original index
+
+71
+00:02:44,640 --> 00:02:50,560
+any idea that's the backspace
+
+72
+00:02:48,000 --> 00:02:50,560
+what but
+
+73
+00:03:02,840 --> 00:03:10,000
+oh well my question is this index x from
+
+74
+00:03:07,599 --> 00:03:12,480
+i to j how do we map this x to the
+
+75
+00:03:10,000 --> 00:03:16,000
+original guys because that's all we have
+
+76
+00:03:12,480 --> 00:03:18,640
+one copy so how do we make this x to
+
+77
+00:03:16,000 --> 00:03:22,080
+resist to here so so for example like
+
+78
+00:03:18,640 --> 00:03:24,959
+this is three four okay so here is four
+
+79
+00:03:22,080 --> 00:03:26,879
+five six seven eight how do we make this
+
+80
+00:03:24,959 --> 00:03:27,920
+seven two
+
+81
+00:03:26,879 --> 00:03:29,599
+two three
+
+82
+00:03:27,920 --> 00:03:31,200
+you just count um
+
+83
+00:03:29,599 --> 00:03:32,959
+yeah under the count how do we count i
+
+84
+00:03:31,200 --> 00:03:35,760
+mean this is c
+
+85
+00:03:32,959 --> 00:03:37,519
+i equals seven how do we make it zero
+
+86
+00:03:35,760 --> 00:03:39,360
+one two three
+
+87
+00:03:37,519 --> 00:03:43,040
+that's my question how do you remember
+
+88
+00:03:39,360 --> 00:03:48,319
+this okay another example e
+
+89
+00:03:43,040 --> 00:03:50,239
+when i equals a how do we map it to zero
+
+90
+00:03:48,319 --> 00:03:52,799
+do i need to give you more example of
+
+91
+00:03:50,239 --> 00:03:55,040
+this it's very obvious yeah we can't we
+
+92
+00:03:52,799 --> 00:03:57,360
+go around the table so what kind of
+
+93
+00:03:55,040 --> 00:03:59,200
+operator is this i'm trying to get this
+
+94
+00:03:57,360 --> 00:04:01,599
+thing out of your mouth
+
+95
+00:03:59,200 --> 00:04:03,920
+we go look dear one two three and then
+
+96
+00:04:01,599 --> 00:04:04,879
+back to yellow one two three a tl one
+
+97
+00:04:03,920 --> 00:04:09,040
+two three
+
+98
+00:04:04,879 --> 00:04:09,040
+so what operator is this come on
+
+99
+00:04:09,280 --> 00:04:12,480
+modulus
+
+100
+00:04:10,959 --> 00:04:14,879
+yes wow
+
+101
+00:04:12,480 --> 00:04:16,000
+i'm getting this yeah i'm almost giving
+
+102
+00:04:14,879 --> 00:04:16,959
+it up
+
+103
+00:04:16,000 --> 00:04:19,519
+okay
+
+104
+00:04:16,959 --> 00:04:21,919
+yeah modules so we can just do this
+
+105
+00:04:19,519 --> 00:04:24,320
+answer equals at the beginning we put in
+
+106
+00:04:21,919 --> 00:04:26,560
+the list then answer
+
+107
+00:04:24,320 --> 00:04:30,720
+a pen
+
+108
+00:04:26,560 --> 00:04:33,919
+a pen uh the original copy let's say s
+
+109
+00:04:30,720 --> 00:04:37,040
+s okay x modulus
+
+110
+00:04:33,919 --> 00:04:39,199
+modulus the length yeah the length of
+
+111
+00:04:37,040 --> 00:04:39,199
+s
+
+112
+00:04:39,919 --> 00:04:43,600
+okay and then now we can return this is
+
+113
+00:04:42,080 --> 00:04:45,680
+at least we need to convert it to a
+
+114
+00:04:43,600 --> 00:04:48,800
+string dot join
+
+115
+00:04:45,680 --> 00:04:49,759
+all right join answer
+
+116
+00:04:48,800 --> 00:04:51,759
+yeah
+
+117
+00:04:49,759 --> 00:04:53,840
+and that would be like easy question the
+
+118
+00:04:51,759 --> 00:04:56,479
+most important thing is this
+
+119
+00:04:53,840 --> 00:05:02,280
+module yeah easy
+
+120
+00:04:56,479 --> 00:05:02,280
+so we can even use the one line return
+
+121
+00:05:03,840 --> 00:05:06,840
+um
+
+122
+00:05:23,120 --> 00:05:28,000
+going on you're not explaining it just
+
+123
+00:05:25,039 --> 00:05:31,199
+repeating my question so my what's john
+
+124
+00:05:28,000 --> 00:05:31,199
+here what's john doing
+
+125
+00:05:31,840 --> 00:05:34,400
+it together can you give me an example
+
+126
+00:05:33,600 --> 00:05:37,120
+yeah
+
+127
+00:05:34,400 --> 00:05:39,199
+it's common sense yeah okay can you
+
+128
+00:05:37,120 --> 00:05:40,320
+explain to me like i'm a five-year-old
+
+129
+00:05:39,199 --> 00:05:42,960
+boy
+
+130
+00:05:40,320 --> 00:05:42,960
+what's going on
+
+131
+00:05:48,880 --> 00:05:53,440
+where does split okay ryan you're
+
+132
+00:05:50,720 --> 00:05:53,610
+listening yeah right okay so what's join
+
+133
+00:05:53,440 --> 00:05:56,080
+uh
+
+134
+00:05:53,610 --> 00:05:58,319
+[Music]
+
+135
+00:05:56,080 --> 00:05:59,759
+okay so
+
+136
+00:05:58,319 --> 00:06:00,800
+oh what's split
+
+137
+00:05:59,759 --> 00:06:02,479
+like
+
+138
+00:06:00,800 --> 00:06:04,880
+cut in here
+
+139
+00:06:02,479 --> 00:06:06,720
+yeah okay so look
+
+140
+00:06:04,880 --> 00:06:08,160
+hey
+
+141
+00:06:06,720 --> 00:06:11,360
+a
+
+142
+00:06:08,160 --> 00:06:14,639
+space a plus b plus c if this is a
+
+143
+00:06:11,360 --> 00:06:17,520
+string if i split it start split
+
+144
+00:06:14,639 --> 00:06:19,280
+split by a plus then you'll give me a
+
+145
+00:06:17,520 --> 00:06:20,800
+list array of
+
+146
+00:06:19,280 --> 00:06:22,319
+a
+
+147
+00:06:20,800 --> 00:06:23,520
+b
+
+148
+00:06:22,319 --> 00:06:26,240
+c yeah
+
+149
+00:06:23,520 --> 00:06:28,639
+this is called delimiter separator yeah
+
+150
+00:06:26,240 --> 00:06:29,840
+easy and then join look
+
+151
+00:06:28,639 --> 00:06:30,880
+i can say
+
+152
+00:06:29,840 --> 00:06:32,960
+uh
+
+153
+00:06:30,880 --> 00:06:35,440
+well i can say x
+
+154
+00:06:32,960 --> 00:06:36,479
+dot join
+
+155
+00:06:35,440 --> 00:06:39,199
+every
+
+156
+00:06:36,479 --> 00:06:42,560
+ryan so yeah tell me what what do we get
+
+157
+00:06:39,199 --> 00:06:44,639
+here eric doctor no no no this is x dot
+
+158
+00:06:42,560 --> 00:06:46,960
+join everything right so what do we get
+
+159
+00:06:44,639 --> 00:06:48,880
+eric x ryan
+
+160
+00:06:46,960 --> 00:06:50,639
+exactly yeah you'll understand it yeah
+
+161
+00:06:48,880 --> 00:06:53,440
+so you need to better
+
+162
+00:06:50,639 --> 00:06:55,360
+you know explanation i know you you
+
+163
+00:06:53,440 --> 00:06:57,599
+understand but
+
+164
+00:06:55,360 --> 00:07:00,240
+one skill right
+
+165
+00:06:57,599 --> 00:07:02,240
+one skill is to explain it to other
+
+166
+00:07:00,240 --> 00:07:03,759
+people who don't know it right this is a
+
+167
+00:07:02,240 --> 00:07:04,560
+very important skill do you understand
+
+168
+00:07:03,759 --> 00:07:06,160
+yeah
+
+169
+00:07:04,560 --> 00:07:07,360
+yeah yeah yeah yeah yeah
+
+170
+00:07:06,160 --> 00:07:09,599
+yeah
+
+171
+00:07:07,360 --> 00:07:11,520
+okay so another way of doing it yeah
+
+172
+00:07:09,599 --> 00:07:14,160
+another way of doing this
+
+173
+00:07:11,520 --> 00:07:17,919
+this eye because this eye could be very
+
+174
+00:07:14,160 --> 00:07:19,440
+big right so if we modulus this length
+
+175
+00:07:17,919 --> 00:07:22,240
+length s
+
+176
+00:07:19,440 --> 00:07:26,080
+then this is the starting position how
+
+177
+00:07:22,240 --> 00:07:27,599
+many characters we need to return is j j
+
+178
+00:07:26,080 --> 00:07:28,639
+minus i right
+
+179
+00:07:27,599 --> 00:07:30,319
+so if
+
+180
+00:07:28,639 --> 00:07:32,720
+this is the number of character we need
+
+181
+00:07:30,319 --> 00:07:35,599
+to return not that come on this is the
+
+182
+00:07:32,720 --> 00:07:37,440
+number of characters we need to return
+
+183
+00:07:35,599 --> 00:07:39,280
+my fluffy
+
+184
+00:07:37,440 --> 00:07:41,440
+what's j minor
+
+185
+00:07:39,280 --> 00:07:44,560
+uh so it's basically
+
+186
+00:07:41,440 --> 00:07:44,560
+what's j minor sign
+
+187
+00:07:51,599 --> 00:07:54,720
+what does it mean
+
+188
+00:07:53,199 --> 00:07:58,080
+it means
+
+189
+00:07:54,720 --> 00:08:00,479
+that you kind of search
+
+190
+00:07:58,080 --> 00:08:02,240
+so what's this number k minus i come on
+
+191
+00:08:00,479 --> 00:08:03,199
+it's very obvious what you're looking
+
+192
+00:08:02,240 --> 00:08:07,440
+for
+
+193
+00:08:03,199 --> 00:08:07,440
+three minus i what's the same what is it
+
+194
+00:08:07,680 --> 00:08:13,759
+what is a equal equals that green bar
+
+195
+00:08:11,360 --> 00:08:16,479
+the number of what characters of the
+
+196
+00:08:13,759 --> 00:08:17,280
+return string right yeah yeah yeah okay
+
+197
+00:08:16,479 --> 00:08:18,879
+so
+
+198
+00:08:17,280 --> 00:08:20,720
+if this is n
+
+199
+00:08:18,879 --> 00:08:22,240
+and then the time conditions are when
+
+200
+00:08:20,720 --> 00:08:25,280
+the space complexities are when
+
+201
+00:08:22,240 --> 00:08:28,000
+obviously yeah so what we're saying is
+
+202
+00:08:25,280 --> 00:08:31,199
+that i model that's the star and then we
+
+203
+00:08:28,000 --> 00:08:35,519
+can do this i okay i equals
+
+204
+00:08:31,199 --> 00:08:36,399
+i modulus equals modulus equal length s
+
+205
+00:08:35,519 --> 00:08:38,880
+right
+
+206
+00:08:36,399 --> 00:08:41,200
+then k this is the number of character
+
+207
+00:08:38,880 --> 00:08:42,959
+we need to return j minus i
+
+208
+00:08:41,200 --> 00:08:46,080
+and then we have a
+
+209
+00:08:42,959 --> 00:08:47,680
+we need to construct a string that's uh
+
+210
+00:08:46,080 --> 00:08:51,040
+you know let's just string that one not
+
+211
+00:08:47,680 --> 00:08:53,120
+infinity right so p equals
+
+212
+00:08:51,040 --> 00:08:56,000
+how many times k times then we can do
+
+213
+00:08:53,120 --> 00:08:58,000
+this s times k plus one time right now
+
+214
+00:08:56,000 --> 00:08:58,640
+we can just do this return
+
+215
+00:08:58,000 --> 00:08:59,519
+p
+
+216
+00:08:58,640 --> 00:09:02,160
+i
+
+217
+00:08:59,519 --> 00:09:03,920
+i plus k because there are k strings
+
+218
+00:09:02,160 --> 00:09:05,440
+there are k characters we need to return
+
+219
+00:09:03,920 --> 00:09:08,959
+f k is the number of characters and we
+
+220
+00:09:05,440 --> 00:09:10,959
+need to return from index i i has been
+
+221
+00:09:08,959 --> 00:09:12,800
+down this modulus
+
+222
+00:09:10,959 --> 00:09:14,080
+to i plus k
+
+223
+00:09:12,800 --> 00:09:16,640
+okay
+
+224
+00:09:14,080 --> 00:09:18,800
+okay that's one way of doing it okay
+
+225
+00:09:16,640 --> 00:09:23,640
+yeah enough for that will be for today
+
+226
+00:09:18,800 --> 00:09:23,640
+bye bye bye
+
