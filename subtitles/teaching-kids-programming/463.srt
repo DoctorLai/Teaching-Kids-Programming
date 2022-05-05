@@ -1,0 +1,864 @@
+1
+00:00:00,560 --> 00:00:03,840
+hello mister miss all right
+
+2
+00:00:02,960 --> 00:00:06,000
+yeah
+
+3
+00:00:03,840 --> 00:00:09,760
+okay so let's say we have uh given uh we
+
+4
+00:00:06,000 --> 00:00:09,990
+are given a list of words yes hey
+
+5
+00:00:09,760 --> 00:00:11,679
+b
+
+6
+00:00:09,990 --> 00:00:13,519
+[Music]
+
+7
+00:00:11,679 --> 00:00:14,880
+a b
+
+8
+00:00:13,519 --> 00:00:15,570
+a b c
+
+9
+00:00:14,880 --> 00:00:17,199
+d
+
+10
+00:00:15,570 --> 00:00:21,520
+[Music]
+
+11
+00:00:17,199 --> 00:00:22,880
+this is a word it was a list of strings
+
+12
+00:00:21,520 --> 00:00:26,320
+and
+
+13
+00:00:22,880 --> 00:00:27,599
+we are given a s which is abc we want to
+
+14
+00:00:26,320 --> 00:00:29,599
+find out
+
+15
+00:00:27,599 --> 00:00:30,560
+how many words how many strings in this
+
+16
+00:00:29,599 --> 00:00:32,960
+case
+
+17
+00:00:30,560 --> 00:00:35,360
+it's a prefix of s okay it's a previous
+
+18
+00:00:32,960 --> 00:00:37,680
+x so what's prefix
+
+19
+00:00:35,360 --> 00:00:40,079
+a prefix is a
+
+20
+00:00:37,680 --> 00:00:44,520
+word up there playing the beginning of a
+
+21
+00:00:40,079 --> 00:00:44,520
+word it's the substring application
+
+22
+00:00:48,790 --> 00:00:52,000
+[Music]
+
+23
+00:00:56,640 --> 00:01:01,440
+subscribe
+
+24
+00:00:58,879 --> 00:01:04,400
+continuous okay so how many can you give
+
+25
+00:01:01,440 --> 00:01:07,420
+me some substrings that is uh
+
+26
+00:01:04,400 --> 00:01:08,960
+of that's the substring of eric
+
+27
+00:01:07,420 --> 00:01:09,680
+[Music]
+
+28
+00:01:08,960 --> 00:01:14,159
+e
+
+29
+00:01:09,680 --> 00:01:16,960
+e obviously one single character e r i c
+
+30
+00:01:14,159 --> 00:01:18,560
+if two character has to be continued e r
+
+31
+00:01:16,960 --> 00:01:19,600
+i i c f
+
+32
+00:01:18,560 --> 00:01:24,640
+e r
+
+33
+00:01:19,600 --> 00:01:27,040
+r i i c three characters e i i c f
+
+34
+00:01:24,640 --> 00:01:27,040
+yeah and
+
+35
+00:01:27,280 --> 00:01:31,439
+and sometimes empty string is also
+
+36
+00:01:29,520 --> 00:01:32,560
+considered as a substring okay so how
+
+37
+00:01:31,439 --> 00:01:35,840
+many places
+
+38
+00:01:32,560 --> 00:01:37,840
+one plus one plus four plus three plus
+
+39
+00:01:35,840 --> 00:01:38,840
+two plus one
+
+40
+00:01:37,840 --> 00:01:42,560
+how many of
+
+41
+00:01:38,840 --> 00:01:42,560
+these 11 okay
+
+42
+00:01:43,520 --> 00:01:47,759
+how can we do this look how how can we
+
+43
+00:01:45,439 --> 00:01:48,640
+get the 11 so for example like if we
+
+44
+00:01:47,759 --> 00:01:49,920
+pick
+
+45
+00:01:48,640 --> 00:01:51,680
+nothing
+
+46
+00:01:49,920 --> 00:01:53,200
+yeah it would be nothing out of 4
+
+47
+00:01:51,680 --> 00:01:56,159
+characters c
+
+48
+00:01:53,200 --> 00:01:59,040
+c four zero
+
+49
+00:01:56,159 --> 00:02:01,759
+that's one if we pick one characters
+
+50
+00:01:59,040 --> 00:02:03,680
+that's c four one yeah
+
+51
+00:02:01,759 --> 00:02:05,759
+that's four waves if the substring
+
+52
+00:02:03,680 --> 00:02:09,759
+contains more than one character so it's
+
+53
+00:02:05,759 --> 00:02:10,720
+actually c four two how can we interpret
+
+54
+00:02:09,759 --> 00:02:13,760
+this
+
+55
+00:02:10,720 --> 00:02:15,599
+so we are picking we are picking one
+
+56
+00:02:13,760 --> 00:02:17,200
+index from the left we are picking
+
+57
+00:02:15,599 --> 00:02:19,360
+another one from the right we just go
+
+58
+00:02:17,200 --> 00:02:20,879
+through each word and we check if it's a
+
+59
+00:02:19,360 --> 00:02:23,840
+if it is a
+
+60
+00:02:20,879 --> 00:02:26,319
+prefix of the s and so this is actually
+
+61
+00:02:23,840 --> 00:02:28,720
+quite trivial we just use this that star
+
+62
+00:02:26,319 --> 00:02:31,040
+with yes stars
+
+63
+00:02:28,720 --> 00:02:32,959
+with function of the string
+
+64
+00:02:31,040 --> 00:02:33,840
+so define
+
+65
+00:02:32,959 --> 00:02:36,800
+f
+
+66
+00:02:33,840 --> 00:02:39,440
+words and we're given this as string so
+
+67
+00:02:36,800 --> 00:02:44,800
+answer equal and the beginning zero so
+
+68
+00:02:39,440 --> 00:02:48,840
+we go through this word w in words
+
+69
+00:02:44,800 --> 00:02:50,560
+now we say if s dot starts
+
+70
+00:02:48,840 --> 00:02:53,920
+with
+
+71
+00:02:50,560 --> 00:02:56,959
+w and then we just increment the counter
+
+72
+00:02:53,920 --> 00:02:58,879
+very easy yeah return answers
+
+73
+00:02:56,959 --> 00:03:00,400
+okay
+
+74
+00:02:58,879 --> 00:03:03,360
+yeah all right
+
+75
+00:03:00,400 --> 00:03:05,760
+so actually these these lines can be
+
+76
+00:03:03,360 --> 00:03:07,680
+converted using what one liner we can
+
+77
+00:03:05,760 --> 00:03:10,319
+just return
+
+78
+00:03:07,680 --> 00:03:12,640
+return one we can use this method sum
+
+79
+00:03:10,319 --> 00:03:14,319
+and map function some
+
+80
+00:03:12,640 --> 00:03:15,280
+map
+
+81
+00:03:14,319 --> 00:03:19,080
+map
+
+82
+00:03:15,280 --> 00:03:19,080
+s dot stars
+
+83
+00:03:22,239 --> 00:03:25,680
+and then the second parameter would be
+
+84
+00:03:24,080 --> 00:03:27,680
+the words
+
+85
+00:03:25,680 --> 00:03:28,959
+the first parameter of the map is a
+
+86
+00:03:27,680 --> 00:03:31,280
+function
+
+87
+00:03:28,959 --> 00:03:33,280
+yeah okay and now we basically were
+
+88
+00:03:31,280 --> 00:03:34,560
+saying that let's
+
+89
+00:03:33,280 --> 00:03:37,920
+let's
+
+90
+00:03:34,560 --> 00:03:40,959
+apply this function to the words to to
+
+91
+00:03:37,920 --> 00:03:42,239
+release the list or iterator yeah
+
+92
+00:03:40,959 --> 00:03:44,799
+and then
+
+93
+00:03:42,239 --> 00:03:48,400
+with that sum let's count how many of
+
+94
+00:03:44,799 --> 00:03:49,599
+them are returned to this return to so
+
+95
+00:03:48,400 --> 00:03:51,840
+this is the
+
+96
+00:03:49,599 --> 00:03:54,159
+same thing okay
+
+97
+00:03:51,840 --> 00:03:56,000
+sometimes you can you also write it seem
+
+98
+00:03:54,159 --> 00:03:58,879
+uh slightly different for example like
+
+99
+00:03:56,000 --> 00:04:00,560
+you can say return
+
+100
+00:03:58,879 --> 00:04:02,560
+we can stop
+
+101
+00:04:00,560 --> 00:04:04,480
+starts
+
+102
+00:04:02,560 --> 00:04:06,319
+with
+
+103
+00:04:04,480 --> 00:04:09,519
+w for
+
+104
+00:04:06,319 --> 00:04:11,599
+w in word
+
+105
+00:04:09,519 --> 00:04:13,439
+this is a list with pulling true or
+
+106
+00:04:11,599 --> 00:04:17,040
+false now we can count how many of them
+
+107
+00:04:13,439 --> 00:04:20,720
+are true right slightly different okay
+
+108
+00:04:17,040 --> 00:04:22,639
+so we also talked about the try trie
+
+109
+00:04:20,720 --> 00:04:24,400
+remember what's what's this
+
+110
+00:04:22,639 --> 00:04:26,880
+pi
+
+111
+00:04:24,400 --> 00:04:28,800
+tri is a data structure remember we
+
+112
+00:04:26,880 --> 00:04:30,880
+talked about this try
+
+113
+00:04:28,800 --> 00:04:33,520
+yeah let's root
+
+114
+00:04:30,880 --> 00:04:35,360
+and we want to insert the eic so we we
+
+115
+00:04:33,520 --> 00:04:36,320
+insert e
+
+116
+00:04:35,360 --> 00:04:38,240
+yeah
+
+117
+00:04:36,320 --> 00:04:40,479
+r
+
+118
+00:04:38,240 --> 00:04:42,880
+i
+
+119
+00:04:40,479 --> 00:04:45,360
+c okay so this is three and we also
+
+120
+00:04:42,880 --> 00:04:48,080
+insert right in this way so we insert
+
+121
+00:04:45,360 --> 00:04:50,160
+another one ah
+
+122
+00:04:48,080 --> 00:04:52,400
+y
+
+123
+00:04:50,160 --> 00:04:52,400
+a
+
+124
+00:04:53,040 --> 00:04:57,520
+and okay so for example let's say we
+
+125
+00:04:55,120 --> 00:04:59,840
+want to insert another one called
+
+126
+00:04:57,520 --> 00:05:02,639
+rick ryik so
+
+127
+00:04:59,840 --> 00:05:02,639
+r y
+
+128
+00:05:03,039 --> 00:05:06,720
+i
+
+129
+00:05:04,400 --> 00:05:09,759
+k okay so basically this is the tree of
+
+130
+00:05:06,720 --> 00:05:11,840
+the letters exactly so what why do we
+
+131
+00:05:09,759 --> 00:05:13,919
+need this kind of tree try
+
+132
+00:05:11,840 --> 00:05:15,199
+all three i'm gonna try so basically
+
+133
+00:05:13,919 --> 00:05:17,280
+this is
+
+134
+00:05:15,199 --> 00:05:19,919
+because they're prefixed yeah if it
+
+135
+00:05:17,280 --> 00:05:21,840
+begins something like if you wanna find
+
+136
+00:05:19,919 --> 00:05:23,199
+a ride yeah
+
+137
+00:05:21,840 --> 00:05:26,560
+and then
+
+138
+00:05:23,199 --> 00:05:28,160
+and then you find go to art because
+
+139
+00:05:26,560 --> 00:05:29,199
+yeah yeah
+
+140
+00:05:28,160 --> 00:05:31,360
+and then you
+
+141
+00:05:29,199 --> 00:05:33,199
+yeah i find ryan that's it yeah so yeah
+
+142
+00:05:31,360 --> 00:05:34,639
+very good that's basically the data
+
+143
+00:05:33,199 --> 00:05:36,400
+structure that help us to find the
+
+144
+00:05:34,639 --> 00:05:38,479
+prefix or search
+
+145
+00:05:36,400 --> 00:05:41,120
+any words right such a number we can
+
+146
+00:05:38,479 --> 00:05:44,080
+just follow the root of the you know
+
+147
+00:05:41,120 --> 00:05:46,160
+follow the path of the tree so so we can
+
+148
+00:05:44,080 --> 00:05:48,880
+construct you know we can construct a
+
+149
+00:05:46,160 --> 00:05:51,360
+tree and insert that s
+
+150
+00:05:48,880 --> 00:05:53,199
+so for example this s is abc so inside
+
+151
+00:05:51,360 --> 00:05:54,800
+this abc
+
+152
+00:05:53,199 --> 00:05:57,280
+and with this tree
+
+153
+00:05:54,800 --> 00:05:59,280
+then we can go through each word we can
+
+154
+00:05:57,280 --> 00:06:02,960
+go through each word to ch to use the
+
+155
+00:05:59,280 --> 00:06:05,360
+try to find if this word is a prefix if
+
+156
+00:06:02,960 --> 00:06:08,000
+it's in it's a prefix by following that
+
+157
+00:06:05,360 --> 00:06:09,680
+right so basically you know i'm not
+
+158
+00:06:08,000 --> 00:06:12,400
+going to implement this try again
+
+159
+00:06:09,680 --> 00:06:16,960
+perfect so suppose we have at least try
+
+160
+00:06:12,400 --> 00:06:19,440
+t equals try and then t dot insert
+
+161
+00:06:16,960 --> 00:06:20,639
+insert s right and then this is the same
+
+162
+00:06:19,440 --> 00:06:23,680
+thing so
+
+163
+00:06:20,639 --> 00:06:25,600
+t dot enter s now we can do this sum
+
+164
+00:06:23,680 --> 00:06:28,319
+okay i'm going to use another
+
+165
+00:06:25,600 --> 00:06:28,319
+color sum
+
+166
+00:06:28,560 --> 00:06:32,840
+sum what some t
+
+167
+00:06:30,720 --> 00:06:37,440
+dot
+
+168
+00:06:32,840 --> 00:06:38,400
+such we find a search search
+
+169
+00:06:37,440 --> 00:06:42,000
+uh
+
+170
+00:06:38,400 --> 00:06:44,960
+some uh actually map some map as he does
+
+171
+00:06:42,000 --> 00:06:45,919
+search and then words
+
+172
+00:06:44,960 --> 00:06:48,400
+okay
+
+173
+00:06:45,919 --> 00:06:50,319
+and that will be return some of it okay
+
+174
+00:06:48,400 --> 00:06:52,800
+within some of it so what have you
+
+175
+00:06:50,319 --> 00:06:52,800
+learned today
+
+176
+00:06:53,759 --> 00:06:56,560
+yeah perfect what are we trying to solve
+
+177
+00:06:55,520 --> 00:06:57,360
+here
+
+178
+00:06:56,560 --> 00:06:59,680
+uh
+
+179
+00:06:57,360 --> 00:07:01,520
+you find the
+
+180
+00:06:59,680 --> 00:07:02,880
+number prefix
+
+181
+00:07:01,520 --> 00:07:04,960
+is
+
+182
+00:07:02,880 --> 00:07:07,199
+and then
+
+183
+00:07:04,960 --> 00:07:09,520
+in the you know as here so we want to
+
+184
+00:07:07,199 --> 00:07:12,240
+find we want to count how many words how
+
+185
+00:07:09,520 --> 00:07:14,720
+many string in the words is is a prefix
+
+186
+00:07:12,240 --> 00:07:16,400
+of s and prefix is basically like a
+
+187
+00:07:14,720 --> 00:07:18,080
+substring that occurs at the beginning
+
+188
+00:07:16,400 --> 00:07:20,479
+right
+
+189
+00:07:18,080 --> 00:07:22,560
+so look if we are using this we already
+
+190
+00:07:20,479 --> 00:07:24,800
+have these in tyson right look s dot
+
+191
+00:07:22,560 --> 00:07:26,639
+starts with this is string the star ways
+
+192
+00:07:24,800 --> 00:07:28,880
+we don't have to implement these right
+
+193
+00:07:26,639 --> 00:07:31,680
+because they are already given so we can
+
+194
+00:07:28,880 --> 00:07:34,319
+just use this sum map so
+
+195
+00:07:31,680 --> 00:07:36,400
+uh you know basically this is like uh we
+
+196
+00:07:34,319 --> 00:07:37,120
+go through each word and we check if s
+
+197
+00:07:36,400 --> 00:07:39,759
+is
+
+198
+00:07:37,120 --> 00:07:41,280
+if w is a prefix of x and we implement
+
+199
+00:07:39,759 --> 00:07:43,360
+that and that can be
+
+200
+00:07:41,280 --> 00:07:46,000
+also implemented using the one lambda
+
+201
+00:07:43,360 --> 00:07:48,000
+yeah because we don't use implement it
+
+202
+00:07:46,000 --> 00:07:51,120
+starts with right so it's already
+
+203
+00:07:48,000 --> 00:07:54,080
+provided as it is then we just use it if
+
+204
+00:07:51,120 --> 00:07:57,759
+we want to implement this we can use the
+
+205
+00:07:54,080 --> 00:07:58,960
+try right we can build a try actually
+
+206
+00:07:57,759 --> 00:08:02,160
+by
+
+207
+00:07:58,960 --> 00:08:05,120
+uh try tree and insert the prefix insert
+
+208
+00:08:02,160 --> 00:08:08,400
+s right and then flow through each word
+
+209
+00:08:05,120 --> 00:08:10,000
+and delete so return
+
+210
+00:08:08,400 --> 00:08:13,120
+return sum
+
+211
+00:08:10,000 --> 00:08:15,280
+map t dot search words okay
+
+212
+00:08:13,120 --> 00:08:18,400
+so basically we're replacing this uh
+
+213
+00:08:15,280 --> 00:08:21,520
+starts with with the try okay
+
+214
+00:08:18,400 --> 00:08:25,240
+yeah okay let that be it for today okay
+
+215
+00:08:21,520 --> 00:08:25,240
+that'll be bye
+
+216
+00:08:28,960 --> 00:08:31,039
+you
+

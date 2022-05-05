@@ -1,0 +1,1232 @@
+1
+00:00:03,520 --> 00:00:07,520
+yeah you're given a positive integer
+
+2
+00:00:05,200 --> 00:00:08,960
+within the inner format of string and
+
+3
+00:00:07,520 --> 00:00:12,240
+then we also give a
+
+4
+00:00:08,960 --> 00:00:15,200
+single digit like one so can you tell me
+
+5
+00:00:12,240 --> 00:00:17,600
+you can remove any one
+
+6
+00:00:15,200 --> 00:00:18,800
+in here and the result should be the
+
+7
+00:00:17,600 --> 00:00:20,640
+maximum
+
+8
+00:00:18,800 --> 00:00:22,800
+so if we can
+
+9
+00:00:20,640 --> 00:00:24,720
+even talking so how many ones in this
+
+10
+00:00:22,800 --> 00:00:28,480
+position obviously okay so which one
+
+11
+00:00:24,720 --> 00:00:30,640
+remove by removing the second one
+
+12
+00:00:28,480 --> 00:00:33,120
+by removing the second one what we got
+
+13
+00:00:30,640 --> 00:00:35,440
+is one two three four why by removing
+
+14
+00:00:33,120 --> 00:00:36,719
+the first one what we got a two three
+
+15
+00:00:35,440 --> 00:00:38,800
+one four
+
+16
+00:00:36,719 --> 00:00:40,160
+things two three one four is bigger than
+
+17
+00:00:38,800 --> 00:00:42,480
+one two three four so you need to tell
+
+18
+00:00:40,160 --> 00:00:45,440
+me it's two three five four got it
+
+19
+00:00:42,480 --> 00:00:47,920
+get it it's exactly the same
+
+20
+00:00:45,440 --> 00:00:50,399
+why is it exactly the same this number
+
+21
+00:00:47,920 --> 00:00:53,039
+22 000 is bigger than one thousand what
+
+22
+00:00:50,399 --> 00:00:55,920
+do you mean exactly the same
+
+23
+00:00:53,039 --> 00:00:57,840
+okay what is that
+
+24
+00:00:55,920 --> 00:00:59,440
+there's not the number in there good
+
+25
+00:00:57,840 --> 00:01:02,320
+question that's a very good question to
+
+26
+00:00:59,440 --> 00:01:04,239
+us that you just returned nothing
+
+27
+00:01:02,320 --> 00:01:06,159
+except
+
+28
+00:01:04,239 --> 00:01:08,720
+return one two three one four that's
+
+29
+00:01:06,159 --> 00:01:10,560
+right if at least i even use this like
+
+30
+00:01:08,720 --> 00:01:13,360
+nine for them
+
+31
+00:01:10,560 --> 00:01:15,680
+okay simple okay another example
+
+32
+00:01:13,360 --> 00:01:17,200
+five five six
+
+33
+00:01:15,680 --> 00:01:19,040
+five
+
+34
+00:01:17,200 --> 00:01:21,520
+two three
+
+35
+00:01:19,040 --> 00:01:24,080
+one if we want to remove the five so
+
+36
+00:01:21,520 --> 00:01:26,960
+which five remove gives the the next
+
+37
+00:01:24,080 --> 00:01:28,320
+second one the third one
+
+38
+00:01:26,960 --> 00:01:30,479
+the third one
+
+39
+00:01:28,320 --> 00:01:34,000
+yeah if you remove this one
+
+40
+00:01:30,479 --> 00:01:35,920
+that will be five five six two three one
+
+41
+00:01:34,000 --> 00:01:38,079
+yeah if we don't move the first one or
+
+42
+00:01:35,920 --> 00:01:41,040
+the second one it's all the same five
+
+43
+00:01:38,079 --> 00:01:41,040
+six five two
+
+44
+00:01:50,640 --> 00:01:53,280
+yeah it doesn't matter so
+
+45
+00:01:52,399 --> 00:01:54,560
+you just
+
+46
+00:01:53,280 --> 00:01:56,159
+so you just
+
+47
+00:01:54,560 --> 00:01:57,520
+the thing is that you need to tell me
+
+48
+00:01:56,159 --> 00:01:59,520
+this number
+
+49
+00:01:57,520 --> 00:02:02,159
+yeah it doesn't you don't need to tell
+
+50
+00:01:59,520 --> 00:02:04,079
+me which number which side we did it
+
+51
+00:02:02,159 --> 00:02:05,759
+okay
+
+52
+00:02:04,079 --> 00:02:07,680
+okay simple
+
+53
+00:02:05,759 --> 00:02:09,599
+any sauce
+
+54
+00:02:07,680 --> 00:02:13,040
+any sauce
+
+55
+00:02:09,599 --> 00:02:16,239
+uh you look at the number that's right
+
+56
+00:02:13,040 --> 00:02:18,160
+first of all look at numbers it has one
+
+57
+00:02:16,239 --> 00:02:20,840
+one of them and then easily just that
+
+58
+00:02:18,160 --> 00:02:21,920
+one okay okay that's that's a very good
+
+59
+00:02:20,840 --> 00:02:23,840
+point yeah
+
+60
+00:02:21,920 --> 00:02:26,160
+that's a very clever solution we go
+
+61
+00:02:23,840 --> 00:02:28,400
+through each digit if this digit is the
+
+62
+00:02:26,160 --> 00:02:30,640
+thing that we can delete right
+
+63
+00:02:28,400 --> 00:02:31,760
+then we try to do it to see what number
+
+64
+00:02:30,640 --> 00:02:32,959
+we can get
+
+65
+00:02:31,760 --> 00:02:35,040
+for things
+
+66
+00:02:32,959 --> 00:02:37,920
+and we maintain it back okay so look
+
+67
+00:02:35,040 --> 00:02:40,319
+this number okay so this is the one two
+
+68
+00:02:37,920 --> 00:02:44,239
+three four five okay so if we want to
+
+69
+00:02:40,319 --> 00:02:46,640
+remove this uh digit so this is i
+
+70
+00:02:44,239 --> 00:02:48,239
+this is the index i so we want to remove
+
+71
+00:02:46,640 --> 00:02:50,319
+the digit
+
+72
+00:02:48,239 --> 00:02:51,280
+sorry
+
+73
+00:02:50,319 --> 00:02:53,120
+so
+
+74
+00:02:51,280 --> 00:02:55,840
+s equals one two three four five if we
+
+75
+00:02:53,120 --> 00:02:59,360
+want to remove the index i i which is
+
+76
+00:02:55,840 --> 00:03:00,480
+here right so what we can do is look is
+
+77
+00:02:59,360 --> 00:03:02,480
+s
+
+78
+00:03:00,480 --> 00:03:06,400
+up to i not including right not
+
+79
+00:03:02,480 --> 00:03:09,519
+including this digit plus s
+
+80
+00:03:06,400 --> 00:03:11,760
+i plus 1 to the n right i plus 1 is here
+
+81
+00:03:09,519 --> 00:03:14,400
+to the end so basically what we are
+
+82
+00:03:11,760 --> 00:03:17,040
+saying by removing the
+
+83
+00:03:14,400 --> 00:03:19,360
+the index the character index 3
+
+84
+00:03:17,040 --> 00:03:21,120
+we are using the string
+
+85
+00:03:19,360 --> 00:03:24,480
+concatenation
+
+86
+00:03:21,120 --> 00:03:28,400
+up to i is 1 2 right look
+
+87
+00:03:24,480 --> 00:03:29,680
+s up to i is 1 2 x i plus 1 to the n is
+
+88
+00:03:28,400 --> 00:03:33,440
+4 5
+
+89
+00:03:29,680 --> 00:03:34,959
+so s up to i this big plus s i plus 1 to
+
+90
+00:03:33,440 --> 00:03:36,959
+the n this bit
+
+91
+00:03:34,959 --> 00:03:39,920
+1 2 plus 4 5.
+
+92
+00:03:36,959 --> 00:03:42,400
+it's the same thing as mu nu 3. okay
+
+93
+00:03:39,920 --> 00:03:43,840
+yeah got it that's so simple so we can
+
+94
+00:03:42,400 --> 00:03:46,000
+just do this
+
+95
+00:03:43,840 --> 00:03:47,200
+yeah today basically this is a simple
+
+96
+00:03:46,000 --> 00:03:50,319
+question
+
+97
+00:03:47,200 --> 00:03:52,400
+this is the question to test your python
+
+98
+00:03:50,319 --> 00:03:54,959
+the list the string
+
+99
+00:03:52,400 --> 00:03:57,599
+concatenation defined
+
+100
+00:03:54,959 --> 00:03:59,360
+as a max
+
+101
+00:03:57,599 --> 00:04:00,959
+remove
+
+102
+00:03:59,360 --> 00:04:01,920
+okay let's say we have given these
+
+103
+00:04:00,959 --> 00:04:03,200
+numbers
+
+104
+00:04:01,920 --> 00:04:06,720
+num
+
+105
+00:04:03,200 --> 00:04:09,680
+and we given this the k
+
+106
+00:04:06,720 --> 00:04:11,120
+okay so at the beginning answer you know
+
+107
+00:04:09,680 --> 00:04:12,959
+because these are
+
+108
+00:04:11,120 --> 00:04:14,640
+we are only given this the positive
+
+109
+00:04:12,959 --> 00:04:16,000
+individual right so we can just can
+
+110
+00:04:14,640 --> 00:04:19,600
+compare
+
+111
+00:04:16,000 --> 00:04:22,960
+two numbers by using compare
+
+112
+00:04:19,600 --> 00:04:26,000
+by comparing the layer string format so
+
+113
+00:04:22,960 --> 00:04:27,759
+what what i'm saying is that 1 2 3 is
+
+114
+00:04:26,000 --> 00:04:28,880
+bigger than
+
+115
+00:04:27,759 --> 00:04:30,479
+one
+
+116
+00:04:28,880 --> 00:04:32,800
+zero one right
+
+117
+00:04:30,479 --> 00:04:34,720
+this is the same thing as one two three
+
+118
+00:04:32,800 --> 00:04:36,160
+the integer bigger than one or one is
+
+119
+00:04:34,720 --> 00:04:38,560
+the same
+
+120
+00:04:36,160 --> 00:04:41,120
+yeah so we can either compare because
+
+121
+00:04:38,560 --> 00:04:43,680
+we're given this the string
+
+122
+00:04:41,120 --> 00:04:45,600
+we can compare directly the string or we
+
+123
+00:04:43,680 --> 00:04:48,240
+can convert it to integer
+
+124
+00:04:45,600 --> 00:04:50,320
+so if this one two three if we can
+
+125
+00:04:48,240 --> 00:04:52,400
+convert it to ind
+
+126
+00:04:50,320 --> 00:04:55,360
+this will give out one two three this is
+
+127
+00:04:52,400 --> 00:04:56,400
+the numerical format this is a string
+
+128
+00:04:55,360 --> 00:04:58,800
+vice versa
+
+129
+00:04:56,400 --> 00:05:01,600
+so we use the str functions
+
+130
+00:04:58,800 --> 00:05:04,080
+one two three this will give us
+
+131
+00:05:01,600 --> 00:05:05,520
+one two three okay so this is the basic
+
+132
+00:05:04,080 --> 00:05:07,919
+look
+
+133
+00:05:05,520 --> 00:05:09,840
+one two three this is a string we use
+
+134
+00:05:07,919 --> 00:05:12,320
+the int and they'll give us the
+
+135
+00:05:09,840 --> 00:05:14,400
+numerator if you want to think
+
+136
+00:05:12,320 --> 00:05:16,960
+in the opposite way one two three this
+
+137
+00:05:14,400 --> 00:05:19,039
+is the number we put str stands for
+
+138
+00:05:16,960 --> 00:05:20,960
+string we got the
+
+139
+00:05:19,039 --> 00:05:23,120
+quote one two three
+
+140
+00:05:20,960 --> 00:05:26,320
+when i said a code is a string it's not
+
+141
+00:05:23,120 --> 00:05:29,440
+a number but we can compare the number
+
+142
+00:05:26,320 --> 00:05:31,440
+the string yeah all the numerical values
+
+143
+00:05:29,440 --> 00:05:33,520
+that's what i'm saying so answer equals
+
+144
+00:05:31,440 --> 00:05:34,880
+at the beginning we put nothing there
+
+145
+00:05:33,520 --> 00:05:37,759
+okay
+
+146
+00:05:34,880 --> 00:05:39,840
+but okay so the thing is that previously
+
+147
+00:05:37,759 --> 00:05:41,680
+ryan you asked a very good question
+
+148
+00:05:39,840 --> 00:05:42,400
+what happened if k is not in numbers
+
+149
+00:05:41,680 --> 00:05:45,440
+yeah
+
+150
+00:05:42,400 --> 00:05:48,320
+yeah so we have to make a special
+
+151
+00:05:45,440 --> 00:05:49,919
+case for that to check okay so i'll talk
+
+152
+00:05:48,320 --> 00:05:53,360
+about that yeah
+
+153
+00:05:49,919 --> 00:05:54,800
+so look answer equal that then if we o4
+
+154
+00:05:53,360 --> 00:05:57,919
+i j
+
+155
+00:05:54,800 --> 00:05:59,600
+in enumerate okay what's enumerate i
+
+156
+00:05:57,919 --> 00:06:02,080
+talked about it i use this function a
+
+157
+00:05:59,600 --> 00:06:05,520
+lot in numerator what's that mean
+
+158
+00:06:02,080 --> 00:06:08,000
+uh index and values yeah
+
+159
+00:06:05,520 --> 00:06:10,720
+index value basically this is the very
+
+160
+00:06:08,000 --> 00:06:13,120
+helpful useful function so we don't have
+
+161
+00:06:10,720 --> 00:06:15,840
+to use it but by using that
+
+162
+00:06:13,120 --> 00:06:18,240
+yeah we can get the index and the value
+
+163
+00:06:15,840 --> 00:06:20,880
+at the same time if we don't use the
+
+164
+00:06:18,240 --> 00:06:22,160
+enumerate we have to do this for i in
+
+165
+00:06:20,880 --> 00:06:23,600
+range
+
+166
+00:06:22,160 --> 00:06:26,080
+lens number
+
+167
+00:06:23,600 --> 00:06:29,919
+then j would be
+
+168
+00:06:26,080 --> 00:06:32,960
+num i okay but by using this we make our
+
+169
+00:06:29,919 --> 00:06:34,880
+curve much cleaner for i j this is the
+
+170
+00:06:32,960 --> 00:06:37,039
+yeah top
+
+171
+00:06:34,880 --> 00:06:38,720
+topper is basically like a
+
+172
+00:06:37,039 --> 00:06:41,199
+immutable
+
+173
+00:06:38,720 --> 00:06:43,759
+list what's immutable
+
+174
+00:06:41,199 --> 00:06:46,160
+what's immutable anybody
+
+175
+00:06:43,759 --> 00:06:47,560
+can't change it yeah what's the opposite
+
+176
+00:06:46,160 --> 00:06:49,599
+of it
+
+177
+00:06:47,560 --> 00:06:52,080
+[Music]
+
+178
+00:06:49,599 --> 00:06:54,479
+means the opposite okay so for i j i is
+
+179
+00:06:52,080 --> 00:06:58,160
+the index j is the value okay so now we
+
+180
+00:06:54,479 --> 00:07:00,160
+check if j equal equal k okay okay
+
+181
+00:06:58,160 --> 00:07:01,440
+suppose this is the string
+
+182
+00:07:00,160 --> 00:07:04,160
+a character
+
+183
+00:07:01,440 --> 00:07:06,400
+if j character if current j character is
+
+184
+00:07:04,160 --> 00:07:09,039
+the character we can remove
+
+185
+00:07:06,400 --> 00:07:10,880
+right then we can do this answer equals
+
+186
+00:07:09,039 --> 00:07:12,400
+next answer we want to get a maximum
+
+187
+00:07:10,880 --> 00:07:13,680
+answer answer
+
+188
+00:07:12,400 --> 00:07:16,400
+what do we do
+
+189
+00:07:13,680 --> 00:07:17,599
+remember we talk about these yeah to get
+
+190
+00:07:16,400 --> 00:07:21,120
+uh
+
+191
+00:07:17,599 --> 00:07:22,240
+s equal as a string a string any string
+
+192
+00:07:21,120 --> 00:07:24,000
+ryan
+
+193
+00:07:22,240 --> 00:07:26,479
+and this is the index i we want to
+
+194
+00:07:24,000 --> 00:07:27,199
+remove so how do we move it
+
+195
+00:07:26,479 --> 00:07:28,800
+s
+
+196
+00:07:27,199 --> 00:07:33,039
+up to i
+
+197
+00:07:28,800 --> 00:07:36,560
+plus s i plus 1 to the n okay
+
+198
+00:07:33,039 --> 00:07:38,960
+yeah everyone right to get this point we
+
+199
+00:07:36,560 --> 00:07:41,680
+want to remove the string
+
+200
+00:07:38,960 --> 00:07:44,960
+we move the index i character from the
+
+201
+00:07:41,680 --> 00:07:47,039
+string s what we what we did is what we
+
+202
+00:07:44,960 --> 00:07:48,800
+use the string concatenation so
+
+203
+00:07:47,039 --> 00:07:51,039
+basically we are saying that okay we are
+
+204
+00:07:48,800 --> 00:07:53,759
+using the characters up to i
+
+205
+00:07:51,039 --> 00:07:55,759
+and we skip this character i and we use
+
+206
+00:07:53,759 --> 00:07:58,080
+the character
+
+207
+00:07:55,759 --> 00:08:00,400
+from i plus one to the n right so this
+
+208
+00:07:58,080 --> 00:08:02,160
+is this is the way to remove these ites
+
+209
+00:08:00,400 --> 00:08:03,199
+characters from the string
+
+210
+00:08:02,160 --> 00:08:05,759
+then
+
+211
+00:08:03,199 --> 00:08:07,759
+find the max answer
+
+212
+00:08:05,759 --> 00:08:09,039
+num
+
+213
+00:08:07,759 --> 00:08:10,000
+after i
+
+214
+00:08:09,039 --> 00:08:11,520
+plus
+
+215
+00:08:10,000 --> 00:08:13,440
+num
+
+216
+00:08:11,520 --> 00:08:15,280
+i plus one yeah
+
+217
+00:08:13,440 --> 00:08:18,160
+and then return
+
+218
+00:08:15,280 --> 00:08:20,000
+answer okay so look if if k is not here
+
+219
+00:08:18,160 --> 00:08:23,039
+that would return now right so
+
+220
+00:08:20,000 --> 00:08:24,560
+we probably can check we can answer if
+
+221
+00:08:23,039 --> 00:08:27,440
+answer
+
+222
+00:08:24,560 --> 00:08:28,720
+s yeah yes num right
+
+223
+00:08:27,440 --> 00:08:31,840
+okay
+
+224
+00:08:28,720 --> 00:08:31,840
+we can change these
+
+225
+00:08:32,080 --> 00:08:36,000
+into one line yeah so we can just say
+
+226
+00:08:33,919 --> 00:08:37,680
+return
+
+227
+00:08:36,000 --> 00:08:39,680
+maximum
+
+228
+00:08:37,680 --> 00:08:42,800
+maximum one
+
+229
+00:08:39,680 --> 00:08:46,240
+maximum of num
+
+230
+00:08:42,800 --> 00:08:49,279
+up to i plus num
+
+231
+00:08:46,240 --> 00:08:50,320
+i plus 1 to the n
+
+232
+00:08:49,279 --> 00:08:51,120
+for
+
+233
+00:08:50,320 --> 00:08:52,320
+i
+
+234
+00:08:51,120 --> 00:08:54,480
+j
+
+235
+00:08:52,320 --> 00:08:56,160
+in enumerate
+
+236
+00:08:54,480 --> 00:08:59,279
+num
+
+237
+00:08:56,160 --> 00:09:00,080
+if j equal equal k okay
+
+238
+00:08:59,279 --> 00:09:02,480
+okay
+
+239
+00:09:00,080 --> 00:09:05,440
+any question so far so so does this
+
+240
+00:09:02,480 --> 00:09:07,279
+handle the case that when the k
+
+241
+00:09:05,440 --> 00:09:08,640
+is not in
+
+242
+00:09:07,279 --> 00:09:11,519
+nouns
+
+243
+00:09:08,640 --> 00:09:14,399
+so if it's not in nouns okay look so
+
+244
+00:09:11,519 --> 00:09:16,480
+look if j is in not enough so look when
+
+245
+00:09:14,399 --> 00:09:18,320
+we call this max something
+
+246
+00:09:16,480 --> 00:09:21,440
+we're not going to get the maximum
+
+247
+00:09:18,320 --> 00:09:23,839
+element from a list yeah on from a list
+
+248
+00:09:21,440 --> 00:09:24,959
+if the list is empty then there will be
+
+249
+00:09:23,839 --> 00:09:27,279
+a problem
+
+250
+00:09:24,959 --> 00:09:28,480
+when the list is empty we try to get a
+
+251
+00:09:27,279 --> 00:09:30,480
+maximum
+
+252
+00:09:28,480 --> 00:09:32,720
+and then there will be a problem right
+
+253
+00:09:30,480 --> 00:09:35,440
+because the list is empty let's work
+
+254
+00:09:32,720 --> 00:09:37,839
+what when the j
+
+255
+00:09:35,440 --> 00:09:39,760
+when the k is not in the list so in this
+
+256
+00:09:37,839 --> 00:09:42,160
+case we have to put a second parameter
+
+257
+00:09:39,760 --> 00:09:44,080
+which is before we can say default
+
+258
+00:09:42,160 --> 00:09:45,839
+equals now okay
+
+259
+00:09:44,080 --> 00:09:48,640
+so what does it mean it means that when
+
+260
+00:09:45,839 --> 00:09:49,760
+the k is not in the list
+
+261
+00:09:48,640 --> 00:09:51,920
+then
+
+262
+00:09:49,760 --> 00:09:55,600
+these this the first parameter will be
+
+263
+00:09:51,920 --> 00:09:57,440
+empty then in the in the case when
+
+264
+00:09:55,600 --> 00:09:59,519
+when the list is empty now we return the
+
+265
+00:09:57,440 --> 00:10:00,399
+number so this is the basically
+
+266
+00:09:59,519 --> 00:10:03,839
+the
+
+267
+00:10:00,399 --> 00:10:05,360
+return answer is answer because if it is
+
+268
+00:10:03,839 --> 00:10:07,760
+there is no k
+
+269
+00:10:05,360 --> 00:10:10,079
+that equals to j then these will not
+
+270
+00:10:07,760 --> 00:10:11,440
+never be executed and an answer would be
+
+271
+00:10:10,079 --> 00:10:13,120
+always empty
+
+272
+00:10:11,440 --> 00:10:15,760
+and then if answer
+
+273
+00:10:13,120 --> 00:10:18,079
+if the answer is empty then we return
+
+274
+00:10:15,760 --> 00:10:20,480
+the number okay so we're changing one
+
+275
+00:10:18,079 --> 00:10:23,279
+two three four five five lines into one
+
+276
+00:10:20,480 --> 00:10:26,399
+ninth okay the time come back see
+
+277
+00:10:23,279 --> 00:10:29,120
+if there are n characters in the string
+
+278
+00:10:26,399 --> 00:10:32,320
+in the numbers what what what's the time
+
+279
+00:10:29,120 --> 00:10:34,800
+frame next um
+
+280
+00:10:32,320 --> 00:10:37,200
+space complexity are one constant right
+
+281
+00:10:34,800 --> 00:10:39,920
+so that if we consider
+
+282
+00:10:37,200 --> 00:10:41,839
+if we can see the these doesn't use
+
+283
+00:10:39,920 --> 00:10:45,040
+additional space okay
+
+284
+00:10:41,839 --> 00:10:46,720
+so a one okay but if this is needs
+
+285
+00:10:45,040 --> 00:10:49,839
+another space then
+
+286
+00:10:46,720 --> 00:10:51,120
+away okay so what have you learned today
+
+287
+00:10:49,839 --> 00:10:53,920
+about
+
+288
+00:10:51,120 --> 00:10:55,680
+that what what in one sentence can you
+
+289
+00:10:53,920 --> 00:10:58,240
+tell everybody like what have you
+
+290
+00:10:55,680 --> 00:10:58,740
+learned today just one sentence
+
+291
+00:10:58,240 --> 00:11:01,850
+um
+
+292
+00:10:58,740 --> 00:11:01,850
+[Music]
+
+293
+00:11:21,900 --> 00:11:25,080
+[Music]
+
+294
+00:11:26,720 --> 00:11:31,440
+and then you find the biggest
+
+295
+00:11:29,760 --> 00:11:34,160
+exactly another way
+
+296
+00:11:31,440 --> 00:11:36,640
+yeah and then what's the solution
+
+297
+00:11:34,160 --> 00:11:39,519
+what's our solution
+
+298
+00:11:36,640 --> 00:11:39,519
+how do we do this
+
+299
+00:11:40,240 --> 00:11:42,880
+yeah how do we
+
+300
+00:11:45,440 --> 00:11:48,640
+yeah
+
+301
+00:11:46,320 --> 00:11:50,720
+every possibility of removing each digit
+
+302
+00:11:48,640 --> 00:11:51,680
+yeah if we go through this digit one by
+
+303
+00:11:50,720 --> 00:11:53,839
+one
+
+304
+00:11:51,680 --> 00:11:55,920
+and if this digit we can delete it we
+
+305
+00:11:53,839 --> 00:11:59,600
+try to do it and we a
+
+306
+00:11:55,920 --> 00:12:02,350
+number yeah we compare
+
+307
+00:11:59,600 --> 00:12:05,720
+okay that's it for today bye bye
+
+308
+00:12:02,350 --> 00:12:05,720
+[Music]
+
