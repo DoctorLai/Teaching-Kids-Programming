@@ -18,7 +18,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 - B 站: [https://space.bilibili.com/1826201500](https://space.bilibili.com/1826201500)
 - 西瓜视频: [https://www.ixigua.com/home/1399016302059111](https://www.ixigua.com/home/1399016302059111)
 
-## Leetcode and BinarySearch
+## Problem ID at Leetcode and BinarySearch
 Most of the videos are based on a Leetcode and/or BinarySearch problem, which you could find the Problem ID on the video whiteboard left corner, or alternatively, you can find it at the [list](https://zhihua-lai.com/teaching/) i.e. the "Resource Links" column
 
 - [My Leetcode](https://leetcode.com/justyy/)
