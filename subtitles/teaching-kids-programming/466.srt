@@ -1,0 +1,1760 @@
+1
+00:00:00,080 --> 00:00:04,560
+hello hello mr mister right now right
+
+2
+00:00:02,480 --> 00:00:08,080
+okay so let's say we have numbers yeah
+
+3
+00:00:04,560 --> 00:00:11,360
+one two three four five yeah okay
+
+4
+00:00:08,080 --> 00:00:14,400
+six seven eight nine go go yeah
+
+5
+00:00:11,360 --> 00:00:18,240
+nine numbers yeah if you want to pick
+
+6
+00:00:14,400 --> 00:00:21,279
+k numbers these cannot be duplicate so
+
+7
+00:00:18,240 --> 00:00:22,480
+for example like if i pick k equals
+
+8
+00:00:21,279 --> 00:00:26,480
+three numbers
+
+9
+00:00:22,480 --> 00:00:27,840
+and n equal n is the sum n equals seven
+
+10
+00:00:26,480 --> 00:00:30,240
+so basically
+
+11
+00:00:27,840 --> 00:00:32,640
+picking three numbers you can only use
+
+12
+00:00:30,240 --> 00:00:34,960
+one number once yeah you can use any
+
+13
+00:00:32,640 --> 00:00:37,360
+digit any number one let's pick three
+
+14
+00:00:34,960 --> 00:00:39,920
+numbers out of these ten numbers and
+
+15
+00:00:37,360 --> 00:00:42,960
+each number can only use one and then
+
+16
+00:00:39,920 --> 00:00:44,719
+can we get a list of the sum
+
+17
+00:00:42,960 --> 00:00:46,719
+to seven
+
+18
+00:00:44,719 --> 00:00:48,399
+do i make myself clear so basically we
+
+19
+00:00:46,719 --> 00:00:51,120
+have we need to pick three numbers one
+
+20
+00:00:48,399 --> 00:00:52,640
+two four we're done one two one so can
+
+21
+00:00:51,120 --> 00:00:55,680
+you tell me
+
+22
+00:00:52,640 --> 00:00:56,800
+if xk is bigger than nine do we have a
+
+23
+00:00:55,680 --> 00:00:58,960
+solution
+
+24
+00:00:56,800 --> 00:01:00,239
+because
+
+25
+00:00:58,960 --> 00:01:03,120
+and then if we pick more than nine
+
+26
+00:01:00,239 --> 00:01:03,120
+numbers what will happen
+
+27
+00:01:04,640 --> 00:01:08,240
+that's right that would be difficult you
+
+28
+00:01:06,400 --> 00:01:10,640
+can't use reuse the number okay so k
+
+29
+00:01:08,240 --> 00:01:13,360
+equals nine we need to return empty this
+
+30
+00:01:10,640 --> 00:01:16,000
+and how about the sum can we put a
+
+31
+00:01:13,360 --> 00:01:18,960
+constraint on the sum each number we
+
+32
+00:01:16,000 --> 00:01:23,759
+need to pick at most once so what's the
+
+33
+00:01:18,960 --> 00:01:27,280
+thickest sum that the list can have
+
+34
+00:01:23,759 --> 00:01:30,000
+so what's the biggest uh thickest
+
+35
+00:01:27,280 --> 00:01:31,920
+why is that 24 7
+
+36
+00:01:30,000 --> 00:01:34,400
+not talking about this yeah you are very
+
+37
+00:01:31,920 --> 00:01:36,400
+very i'm i'm talking about any k and any
+
+38
+00:01:34,400 --> 00:01:37,200
+n so what's the thickest n
+
+39
+00:01:36,400 --> 00:01:39,759
+that
+
+40
+00:01:37,200 --> 00:01:42,560
+a list can have given the constraint we
+
+41
+00:01:39,759 --> 00:01:44,240
+are using only number each number once
+
+42
+00:01:42,560 --> 00:01:45,920
+we are very close if we pick in three
+
+43
+00:01:44,240 --> 00:01:47,600
+numbers seven eight nine how about if we
+
+44
+00:01:45,920 --> 00:01:49,360
+keep speaking
+
+45
+00:01:47,600 --> 00:01:52,360
+where down how do you connect for forty
+
+46
+00:01:49,360 --> 00:01:52,360
+five
+
+47
+00:01:54,079 --> 00:01:58,479
+which numbers
+
+48
+00:01:55,360 --> 00:01:58,479
+how do you get this multiplied
+
+49
+00:01:59,119 --> 00:02:04,399
+exactly yeah because this k nine number
+
+50
+00:02:01,759 --> 00:02:07,600
+uh this is nine numbers one plus two
+
+51
+00:02:04,399 --> 00:02:09,599
+nine okay yeah if k is bigger than 9 or
+
+52
+00:02:07,600 --> 00:02:11,360
+n bigger than 45 then we need to write
+
+53
+00:02:09,599 --> 00:02:13,360
+an empties because there's no need to
+
+54
+00:02:11,360 --> 00:02:15,120
+search right because it's
+
+55
+00:02:13,360 --> 00:02:17,200
+it's not satisfying
+
+56
+00:02:15,120 --> 00:02:20,480
+the fact that we only
+
+57
+00:02:17,200 --> 00:02:22,319
+picking one number once pick one
+
+58
+00:02:20,480 --> 00:02:24,640
+and most ones yeah and most ones each
+
+59
+00:02:22,319 --> 00:02:26,560
+number so what's your thought i mean
+
+60
+00:02:24,640 --> 00:02:28,720
+what's yourself how can we do this we
+
+61
+00:02:26,560 --> 00:02:30,480
+can use the breakfast search
+
+62
+00:02:28,720 --> 00:02:33,519
+we can use the preference search that's
+
+63
+00:02:30,480 --> 00:02:35,360
+also and different search travel search
+
+64
+00:02:33,519 --> 00:02:37,440
+test massage in this case we can you
+
+65
+00:02:35,360 --> 00:02:39,280
+know do some branching so that would be
+
+66
+00:02:37,440 --> 00:02:41,200
+a backtracking so for example let's say
+
+67
+00:02:39,280 --> 00:02:43,840
+if we let's start from picking one first
+
+68
+00:02:41,200 --> 00:02:45,120
+number yeah okay let's say picking first
+
+69
+00:02:43,840 --> 00:02:46,879
+number one
+
+70
+00:02:45,120 --> 00:02:48,560
+at the beginning we have empty picking
+
+71
+00:02:46,879 --> 00:02:49,760
+first number one
+
+72
+00:02:48,560 --> 00:02:51,120
+yeah
+
+73
+00:02:49,760 --> 00:02:53,519
+is it
+
+74
+00:02:51,120 --> 00:02:56,080
+do we have enough k numbers
+
+75
+00:02:53,519 --> 00:02:58,560
+yeah if k if we have enough k numbers we
+
+76
+00:02:56,080 --> 00:03:01,200
+check the sum if it's equal to n
+
+77
+00:02:58,560 --> 00:03:02,720
+right if it's e then then we place into
+
+78
+00:03:01,200 --> 00:03:05,200
+the list
+
+79
+00:03:02,720 --> 00:03:06,879
+if not we continue the next number we
+
+80
+00:03:05,200 --> 00:03:08,560
+can pick is more than one right because
+
+81
+00:03:06,879 --> 00:03:11,440
+we cannot reduce this
+
+82
+00:03:08,560 --> 00:03:12,239
+can we pick a one two number two right
+
+83
+00:03:11,440 --> 00:03:14,480
+so
+
+84
+00:03:12,239 --> 00:03:17,280
+so we try to pick each
+
+85
+00:03:14,480 --> 00:03:18,959
+number and i will try to see if we have
+
+86
+00:03:17,280 --> 00:03:21,920
+enough k numbers
+
+87
+00:03:18,959 --> 00:03:24,879
+also if we have already
+
+88
+00:03:21,920 --> 00:03:27,519
+well the sum right but if it is if we
+
+89
+00:03:24,879 --> 00:03:29,920
+satisfy the first requirement and we put
+
+90
+00:03:27,519 --> 00:03:33,599
+the candidate list into the
+
+91
+00:03:29,920 --> 00:03:35,760
+array right yeah and in and and the case
+
+92
+00:03:33,599 --> 00:03:37,920
+is if we have more than k numbers we
+
+93
+00:03:35,760 --> 00:03:39,280
+return we just go back we just go back
+
+94
+00:03:37,920 --> 00:03:41,200
+for example like
+
+95
+00:03:39,280 --> 00:03:43,519
+you know we if we only have k equals
+
+96
+00:03:41,200 --> 00:03:45,360
+three one two three
+
+97
+00:03:43,519 --> 00:03:46,959
+then if it's more than three numbers so
+
+98
+00:03:45,360 --> 00:03:48,720
+we just go back we don't
+
+99
+00:03:46,959 --> 00:03:52,159
+don't continue to pick
+
+100
+00:03:48,720 --> 00:03:55,040
+right and if it's the sum look if it's a
+
+101
+00:03:52,159 --> 00:03:57,040
+sum it's bigger than the current sum
+
+102
+00:03:55,040 --> 00:03:58,959
+is bigger than the sum then we don't
+
+103
+00:03:57,040 --> 00:04:01,599
+need to continue right because the
+
+104
+00:03:58,959 --> 00:04:03,439
+currently what we have is more than n so
+
+105
+00:04:01,599 --> 00:04:04,799
+there's no need to keep picking i'm
+
+106
+00:04:03,439 --> 00:04:06,959
+right
+
+107
+00:04:04,799 --> 00:04:09,599
+okay so this kind of thing is definite
+
+108
+00:04:06,959 --> 00:04:11,920
+search and if we apply the branch you
+
+109
+00:04:09,599 --> 00:04:13,200
+know chord then that they'll actually
+
+110
+00:04:11,920 --> 00:04:16,959
+become a
+
+111
+00:04:13,200 --> 00:04:16,959
+backtracking what's backtracking
+
+112
+00:04:17,440 --> 00:04:21,840
+backtracking
+
+113
+00:04:19,759 --> 00:04:23,440
+is
+
+114
+00:04:21,840 --> 00:04:25,919
+looking back
+
+115
+00:04:23,440 --> 00:04:28,479
+so so basically look
+
+116
+00:04:25,919 --> 00:04:30,400
+one so you go you visited the tree right
+
+117
+00:04:28,479 --> 00:04:32,720
+you visit the tree and then you find out
+
+118
+00:04:30,400 --> 00:04:34,400
+there's no need to continue you go back
+
+119
+00:04:32,720 --> 00:04:37,199
+checking right
+
+120
+00:04:34,400 --> 00:04:39,919
+you continue to dig as far as you can
+
+121
+00:04:37,199 --> 00:04:41,680
+but at some point you realize there's no
+
+122
+00:04:39,919 --> 00:04:44,320
+point to keep picking the next number
+
+123
+00:04:41,680 --> 00:04:45,840
+why is that because that
+
+124
+00:04:44,320 --> 00:04:48,160
+there could be two things
+
+125
+00:04:45,840 --> 00:04:49,520
+one is we have picked more than k
+
+126
+00:04:48,160 --> 00:04:50,560
+numbers
+
+127
+00:04:49,520 --> 00:04:54,560
+or
+
+128
+00:04:50,560 --> 00:04:58,479
+the currently the numbers on our basket
+
+129
+00:04:54,560 --> 00:05:00,320
+the sum is more than n right so in if
+
+130
+00:04:58,479 --> 00:05:02,479
+one of these satisfies there's no need
+
+131
+00:05:00,320 --> 00:05:03,919
+to continue then we go back
+
+132
+00:05:02,479 --> 00:05:05,680
+right so we don't
+
+133
+00:05:03,919 --> 00:05:08,160
+waste the time keep putting other
+
+134
+00:05:05,680 --> 00:05:09,759
+numbers yeah it's like a
+
+135
+00:05:08,160 --> 00:05:11,759
+picking number picking the you have a
+
+136
+00:05:09,759 --> 00:05:14,479
+basket you have numbers you put you try
+
+137
+00:05:11,759 --> 00:05:17,120
+to pick each numbers yeah yeah
+
+138
+00:05:14,479 --> 00:05:19,919
+now you have a big basket and then if we
+
+139
+00:05:17,120 --> 00:05:22,160
+want to pick look k equals three numbers
+
+140
+00:05:19,919 --> 00:05:24,560
+n equals seven the sum
+
+141
+00:05:22,160 --> 00:05:28,720
+right this is the basket
+
+142
+00:05:24,560 --> 00:05:30,800
+this is the available numbers yeah
+
+143
+00:05:28,720 --> 00:05:34,240
+available numbers
+
+144
+00:05:30,800 --> 00:05:36,000
+okay because currently my basket have
+
+145
+00:05:34,240 --> 00:05:38,880
+one four
+
+146
+00:05:36,000 --> 00:05:40,800
+eight
+
+147
+00:05:38,880 --> 00:05:44,000
+do i need to continue picking the
+
+148
+00:05:40,800 --> 00:05:45,440
+numbers taking the numbers put it here
+
+149
+00:05:44,000 --> 00:05:47,039
+why is that
+
+150
+00:05:45,440 --> 00:05:48,479
+because if
+
+151
+00:05:47,039 --> 00:05:50,960
+you're gonna
+
+152
+00:05:48,479 --> 00:05:53,759
+get over k
+
+153
+00:05:50,960 --> 00:05:55,440
+yeah yeah yeah and also okay so that's
+
+154
+00:05:53,759 --> 00:05:57,840
+maybe here
+
+155
+00:05:55,440 --> 00:05:59,680
+do we need to pick another number
+
+156
+00:05:57,840 --> 00:06:02,080
+no because it's over n
+
+157
+00:05:59,680 --> 00:06:05,039
+yeah exactly okay and how about look at
+
+158
+00:06:02,080 --> 00:06:08,080
+one and two and three
+
+159
+00:06:05,039 --> 00:06:10,479
+do we need to pick another number
+
+160
+00:06:08,080 --> 00:06:12,639
+nine because one more number will become
+
+161
+00:06:10,479 --> 00:06:15,600
+more than three numbers right exactly
+
+162
+00:06:12,639 --> 00:06:17,280
+yeah let's kind of backtracking so one
+
+163
+00:06:15,600 --> 00:06:19,680
+and twenty three
+
+164
+00:06:17,280 --> 00:06:21,120
+oh yeah so basically this is like a
+
+165
+00:06:19,680 --> 00:06:22,800
+thing yeah we
+
+166
+00:06:21,120 --> 00:06:24,800
+at some point it's a different search
+
+167
+00:06:22,800 --> 00:06:27,360
+it's in a different search but we apply
+
+168
+00:06:24,800 --> 00:06:29,600
+some logic in it
+
+169
+00:06:27,360 --> 00:06:33,120
+yeah if we don't apply this logic we
+
+170
+00:06:29,600 --> 00:06:35,360
+keep finding the numbers look you will
+
+171
+00:06:33,120 --> 00:06:36,720
+pick all the combination right and then
+
+172
+00:06:35,360 --> 00:06:38,240
+there's no point because they're not
+
+173
+00:06:36,720 --> 00:06:40,240
+part of the answer
+
+174
+00:06:38,240 --> 00:06:42,880
+we don't waste the time doing that it's
+
+175
+00:06:40,240 --> 00:06:45,280
+like a tree yeah we don't waste the time
+
+176
+00:06:42,880 --> 00:06:47,919
+doing that that could be a massive there
+
+177
+00:06:45,280 --> 00:06:50,479
+could be a massive tree here but we
+
+178
+00:06:47,919 --> 00:06:53,039
+don't export it why is that because we
+
+179
+00:06:50,479 --> 00:06:54,960
+find out there's no point keep doing
+
+180
+00:06:53,039 --> 00:06:56,720
+that we already know
+
+181
+00:06:54,960 --> 00:06:58,800
+no matter what numbers
+
+182
+00:06:56,720 --> 00:07:01,840
+chosen from now
+
+183
+00:06:58,800 --> 00:07:02,639
+yeah it won't be part of our collection
+
+184
+00:07:01,840 --> 00:07:04,639
+okay
+
+185
+00:07:02,639 --> 00:07:06,400
+so let's implement this the definition
+
+186
+00:07:04,639 --> 00:07:08,560
+and then now b
+
+187
+00:07:06,400 --> 00:07:10,160
+first of all we have this answer yeah
+
+188
+00:07:08,560 --> 00:07:12,960
+answer
+
+189
+00:07:10,160 --> 00:07:16,400
+then we have to check if n is bigger
+
+190
+00:07:12,960 --> 00:07:18,400
+than 45 or k is bigger than
+
+191
+00:07:16,400 --> 00:07:21,039
+nine that would return empty this yeah
+
+192
+00:07:18,400 --> 00:07:23,520
+there's no point to continue
+
+193
+00:07:21,039 --> 00:07:25,840
+okay bear this in mind okay this is very
+
+194
+00:07:23,520 --> 00:07:28,720
+important optimization
+
+195
+00:07:25,840 --> 00:07:31,120
+i know we have this different search
+
+196
+00:07:28,720 --> 00:07:32,240
+okay so we have the current selection
+
+197
+00:07:31,120 --> 00:07:34,639
+and
+
+198
+00:07:32,240 --> 00:07:37,840
+we have the next number to pick next
+
+199
+00:07:34,639 --> 00:07:38,720
+number to pick let's say a okay
+
+200
+00:07:37,840 --> 00:07:41,039
+right
+
+201
+00:07:38,720 --> 00:07:42,800
+and then i want to read i want to do
+
+202
+00:07:41,039 --> 00:07:45,840
+this step first at the beginning we
+
+203
+00:07:42,800 --> 00:07:48,240
+started empty this an empty basket and
+
+204
+00:07:45,840 --> 00:07:49,759
+we start from the first number right
+
+205
+00:07:48,240 --> 00:07:53,440
+let's say we start from the first number
+
+206
+00:07:49,759 --> 00:07:54,960
+okay so now if the length
+
+207
+00:07:53,440 --> 00:07:57,759
+of current
+
+208
+00:07:54,960 --> 00:07:59,360
+is bigger than
+
+209
+00:07:57,759 --> 00:08:00,720
+numbers or
+
+210
+00:07:59,360 --> 00:08:02,720
+one
+
+211
+00:08:00,720 --> 00:08:06,080
+or what all the sum
+
+212
+00:08:02,720 --> 00:08:08,160
+of the carbon is bigger than n
+
+213
+00:08:06,080 --> 00:08:10,479
+then there is no point we return okay
+
+214
+00:08:08,160 --> 00:08:13,759
+and then we do another check if length
+
+215
+00:08:10,479 --> 00:08:14,960
+current is equal k and
+
+216
+00:08:13,759 --> 00:08:17,440
+the sum
+
+217
+00:08:14,960 --> 00:08:18,479
+current is equal and then we put this
+
+218
+00:08:17,440 --> 00:08:22,319
+current
+
+219
+00:08:18,479 --> 00:08:24,960
+to the answer yeah answer that append
+
+220
+00:08:22,319 --> 00:08:27,039
+append current okay we need to make a
+
+221
+00:08:24,960 --> 00:08:29,280
+copy of the selection because it's a
+
+222
+00:08:27,039 --> 00:08:32,719
+list we need to make a copy
+
+223
+00:08:29,280 --> 00:08:35,360
+deep copy okay look this is the d copy
+
+224
+00:08:32,719 --> 00:08:37,760
+this one this one yeah so this is an
+
+225
+00:08:35,360 --> 00:08:42,560
+array yeah array
+
+226
+00:08:37,760 --> 00:08:45,680
+one two three if i say b equals a r
+
+227
+00:08:42,560 --> 00:08:49,200
+this is an alias array it's a it's it's
+
+228
+00:08:45,680 --> 00:08:52,240
+not a copy then we need to do this
+
+229
+00:08:49,200 --> 00:08:54,480
+okay put this column that's a diff copy
+
+230
+00:08:52,240 --> 00:08:58,080
+and then we'll return otherwise we try
+
+231
+00:08:54,480 --> 00:09:01,040
+the next number for i in range
+
+232
+00:08:58,080 --> 00:09:02,480
+we start from the next number right next
+
+233
+00:09:01,040 --> 00:09:04,320
+number would be
+
+234
+00:09:02,480 --> 00:09:08,480
+a
+
+235
+00:09:04,320 --> 00:09:10,880
+what a plus 1 to 10
+
+236
+00:09:08,480 --> 00:09:12,640
+tonight tonight actually included then
+
+237
+00:09:10,880 --> 00:09:13,920
+that first search
+
+238
+00:09:12,640 --> 00:09:15,920
+current
+
+239
+00:09:13,920 --> 00:09:17,920
+plus
+
+240
+00:09:15,920 --> 00:09:18,880
+i
+
+241
+00:09:17,920 --> 00:09:20,640
+uh
+
+242
+00:09:18,880 --> 00:09:22,640
+actually this is a
+
+243
+00:09:20,640 --> 00:09:23,440
+we start with the a
+
+244
+00:09:22,640 --> 00:09:26,000
+to
+
+245
+00:09:23,440 --> 00:09:28,160
+the next number if we pick the current
+
+246
+00:09:26,000 --> 00:09:30,000
+on the i then we the next number we can
+
+247
+00:09:28,160 --> 00:09:33,440
+pick is greater because we can't pick
+
+248
+00:09:30,000 --> 00:09:35,120
+the i again so it will be i plus one
+
+249
+00:09:33,440 --> 00:09:38,480
+okay yeah
+
+250
+00:09:35,120 --> 00:09:40,240
+and then we just pretend answer
+
+251
+00:09:38,480 --> 00:09:42,320
+okay
+
+252
+00:09:40,240 --> 00:09:44,240
+yeah that's the
+
+253
+00:09:42,320 --> 00:09:45,760
+that's the backtracking effort
+
+254
+00:09:44,240 --> 00:09:47,600
+backtracking okay
+
+255
+00:09:45,760 --> 00:09:49,839
+okay so the thing is that look every
+
+256
+00:09:47,600 --> 00:09:52,320
+time we need to do this sum
+
+257
+00:09:49,839 --> 00:09:53,760
+we can we can accumulate a sum when we
+
+258
+00:09:52,320 --> 00:09:56,720
+do this different
+
+259
+00:09:53,760 --> 00:09:59,519
+uh different search right look current
+
+260
+00:09:56,720 --> 00:10:01,360
+currently every time every iteration at
+
+261
+00:09:59,519 --> 00:10:03,440
+every recursion call we need to do this
+
+262
+00:10:01,360 --> 00:10:06,160
+and this is very time consuming and we
+
+263
+00:10:03,440 --> 00:10:07,760
+can do some optimization is by putting
+
+264
+00:10:06,160 --> 00:10:10,240
+this some at the beginning we haven't
+
+265
+00:10:07,760 --> 00:10:12,240
+picked anything so let's let's let's put
+
+266
+00:10:10,240 --> 00:10:14,720
+the thumb yellow here
+
+267
+00:10:12,240 --> 00:10:16,839
+okay and then i'll have i change here to
+
+268
+00:10:14,720 --> 00:10:20,320
+current sound
+
+269
+00:10:16,839 --> 00:10:22,880
+calendar instead of some current and i
+
+270
+00:10:20,320 --> 00:10:27,360
+we can do this current sum
+
+271
+00:10:22,880 --> 00:10:29,279
+yeah and this is the same current sum
+
+272
+00:10:27,360 --> 00:10:31,760
+and then
+
+273
+00:10:29,279 --> 00:10:34,399
+we pick the number i so the current sum
+
+274
+00:10:31,760 --> 00:10:35,440
+needs to be updated current sum plus i
+
+275
+00:10:34,399 --> 00:10:37,680
+okay
+
+276
+00:10:35,440 --> 00:10:39,760
+yeah so the time conductor is quite
+
+277
+00:10:37,680 --> 00:10:41,839
+tricky we love this you know it's this
+
+278
+00:10:39,760 --> 00:10:44,640
+yeah because look with this n is bigger
+
+279
+00:10:41,839 --> 00:10:46,240
+than 45 or k is bigger than nine
+
+280
+00:10:44,640 --> 00:10:50,480
+then we just written empty this there's
+
+281
+00:10:46,240 --> 00:10:53,440
+no point to search so we say in mind the
+
+282
+00:10:50,480 --> 00:10:56,240
+the problem is actually you know bounded
+
+283
+00:10:53,440 --> 00:10:57,600
+by the constant so the time complexity
+
+284
+00:10:56,240 --> 00:10:59,360
+will be a one
+
+285
+00:10:57,600 --> 00:11:01,920
+do you give me
+
+286
+00:10:59,360 --> 00:11:04,640
+yeah do you get me because we we have
+
+287
+00:11:01,920 --> 00:11:06,959
+this problem the upper bound is bounded
+
+288
+00:11:04,640 --> 00:11:09,120
+by a constant yeah because when the size
+
+289
+00:11:06,959 --> 00:11:10,640
+is bigger then there will be
+
+290
+00:11:09,120 --> 00:11:11,839
+we don't continue right so that's
+
+291
+00:11:10,640 --> 00:11:13,839
+limited
+
+292
+00:11:11,839 --> 00:11:16,240
+but if we don't consider this big if we
+
+293
+00:11:13,839 --> 00:11:17,519
+don't cancel this big this is the thing
+
+294
+00:11:16,240 --> 00:11:20,320
+is that there's
+
+295
+00:11:17,519 --> 00:11:22,399
+nine numbers we're picking k numbers
+
+296
+00:11:20,320 --> 00:11:23,519
+yeah what we talk about the c
+
+297
+00:11:22,399 --> 00:11:26,800
+c
+
+298
+00:11:23,519 --> 00:11:29,519
+nine numbers picking k numbers
+
+299
+00:11:26,800 --> 00:11:30,640
+equals one c not c is the combination
+
+300
+00:11:29,519 --> 00:11:32,079
+picking
+
+301
+00:11:30,640 --> 00:11:34,000
+picking
+
+302
+00:11:32,079 --> 00:11:35,920
+four apples speaking to apple how many
+
+303
+00:11:34,000 --> 00:11:37,519
+ways
+
+304
+00:11:35,920 --> 00:11:38,959
+there are four apples
+
+305
+00:11:37,519 --> 00:11:42,120
+picking two apples
+
+306
+00:11:38,959 --> 00:11:42,120
+it's hot
+
+307
+00:11:45,360 --> 00:11:49,760
+okay let's see this is equals to
+
+308
+00:11:48,160 --> 00:11:52,240
+four
+
+309
+00:11:49,760 --> 00:11:54,639
+factorial divided by
+
+310
+00:11:52,240 --> 00:11:55,839
+two factorial divided by four minus two
+
+311
+00:11:54,639 --> 00:11:58,639
+factorial
+
+312
+00:11:55,839 --> 00:12:01,519
+equals what equals four times three
+
+313
+00:11:58,639 --> 00:12:03,839
+divided by two times one is six yes
+
+314
+00:12:01,519 --> 00:12:07,360
+you're right six
+
+315
+00:12:03,839 --> 00:12:09,440
+c combination yeah the permutation is
+
+316
+00:12:07,360 --> 00:12:11,920
+with orders yeah so permutation is
+
+317
+00:12:09,440 --> 00:12:14,560
+actually without p 4 2 is actually
+
+318
+00:12:11,920 --> 00:12:18,320
+without these two terms yes
+
+319
+00:12:14,560 --> 00:12:20,800
+2 4 0 divided by 4 minus 2
+
+320
+00:12:18,320 --> 00:12:22,720
+4 minus 2 factorial okay
+
+321
+00:12:20,800 --> 00:12:24,959
+and then let's write it p
+
+322
+00:12:22,720 --> 00:12:28,399
+p and m
+
+323
+00:12:24,959 --> 00:12:29,839
+n items picking m items
+
+324
+00:12:28,399 --> 00:12:31,920
+with orders yes
+
+325
+00:12:29,839 --> 00:12:34,000
+n factorial divided by m factorial
+
+326
+00:12:31,920 --> 00:12:37,839
+divided by n minus n
+
+327
+00:12:34,000 --> 00:12:40,240
+factorial oh no without these okay
+
+328
+00:12:37,839 --> 00:12:41,680
+this is the permutation permutation yeah
+
+329
+00:12:40,240 --> 00:12:43,440
+permutation
+
+330
+00:12:41,680 --> 00:12:45,920
+one two three
+
+331
+00:12:43,440 --> 00:12:47,760
+three numbers four permutation one three
+
+332
+00:12:45,920 --> 00:12:50,160
+two two one three
+
+333
+00:12:47,760 --> 00:12:51,760
+two three one three one two three two
+
+334
+00:12:50,160 --> 00:12:53,519
+one there's six yeah three factorial
+
+335
+00:12:51,760 --> 00:12:55,680
+equals six okay
+
+336
+00:12:53,519 --> 00:13:00,240
+first of all we we perform the
+
+337
+00:12:55,680 --> 00:13:03,279
+permutation and then we divide it by m
+
+338
+00:13:00,240 --> 00:13:05,600
+we okay but this is n for permutation
+
+339
+00:13:03,279 --> 00:13:08,480
+right so that not be a combination right
+
+340
+00:13:05,600 --> 00:13:10,079
+yeah because all these one two three one
+
+341
+00:13:08,480 --> 00:13:13,040
+three two two one three two three one
+
+342
+00:13:10,079 --> 00:13:15,360
+three one two three two one this is one
+
+343
+00:13:13,040 --> 00:13:17,440
+combination right one combination so we
+
+344
+00:13:15,360 --> 00:13:19,600
+divided by three factorial this is what
+
+345
+00:13:17,440 --> 00:13:21,200
+it is here one factor right here okay
+
+346
+00:13:19,600 --> 00:13:22,880
+think about this way okay
+
+347
+00:13:21,200 --> 00:13:24,959
+so so the time connection without
+
+348
+00:13:22,880 --> 00:13:26,079
+looking at this one is c
+
+349
+00:13:24,959 --> 00:13:28,959
+c
+
+350
+00:13:26,079 --> 00:13:30,800
+c nine k okay and then at the end we
+
+351
+00:13:28,959 --> 00:13:33,200
+need to make a copy of the combination
+
+352
+00:13:30,800 --> 00:13:37,440
+so it's time k
+
+353
+00:13:33,200 --> 00:13:40,240
+right yeah there's a iterator from
+
+354
+00:13:37,440 --> 00:13:40,240
+italy
+
+355
+00:13:40,320 --> 00:13:44,560
+import
+
+356
+00:13:42,160 --> 00:13:45,519
+combination yeah then actually this is
+
+357
+00:13:44,560 --> 00:13:47,920
+already
+
+358
+00:13:45,519 --> 00:13:50,320
+provided and we have also permutation as
+
+359
+00:13:47,920 --> 00:13:53,040
+well so what does this mean combination
+
+360
+00:13:50,320 --> 00:13:55,600
+so we can do this combination
+
+361
+00:13:53,040 --> 00:13:57,600
+combination and then we can have this
+
+362
+00:13:55,600 --> 00:13:59,680
+range the first one parameter is the
+
+363
+00:13:57,600 --> 00:14:02,720
+iterator we want to perform a
+
+364
+00:13:59,680 --> 00:14:05,920
+combination of the one to nine numbers
+
+365
+00:14:02,720 --> 00:14:07,680
+and we want to pick k numbers yeah so
+
+366
+00:14:05,920 --> 00:14:09,360
+this gives the
+
+367
+00:14:07,680 --> 00:14:12,720
+combination and then we just have to
+
+368
+00:14:09,360 --> 00:14:15,040
+check if any combination of these so
+
+369
+00:14:12,720 --> 00:14:18,320
+return
+
+370
+00:14:15,040 --> 00:14:19,680
+x for x in
+
+371
+00:14:18,320 --> 00:14:21,440
+at least one
+
+372
+00:14:19,680 --> 00:14:23,760
+and this is the iterator so we have to
+
+373
+00:14:21,440 --> 00:14:24,639
+convert it to a list
+
+374
+00:14:23,760 --> 00:14:26,160
+if
+
+375
+00:14:24,639 --> 00:14:29,360
+sum
+
+376
+00:14:26,160 --> 00:14:31,120
+x equal equal n simple as that look
+
+377
+00:14:29,360 --> 00:14:33,600
+combination
+
+378
+00:14:31,120 --> 00:14:35,600
+the same thing goes with combination the
+
+379
+00:14:33,600 --> 00:14:38,399
+first parameter is that the thing we
+
+380
+00:14:35,600 --> 00:14:39,920
+want to pick the apples right so we want
+
+381
+00:14:38,399 --> 00:14:43,040
+to pick k
+
+382
+00:14:39,920 --> 00:14:45,519
+numbers out of 10
+
+383
+00:14:43,040 --> 00:14:46,320
+numbers and we want to check if any of
+
+384
+00:14:45,519 --> 00:14:47,760
+them
+
+385
+00:14:46,320 --> 00:14:48,959
+sum up to n
+
+386
+00:14:47,760 --> 00:14:50,320
+wow look
+
+387
+00:14:48,959 --> 00:14:52,000
+simple
+
+388
+00:14:50,320 --> 00:14:53,680
+simple
+
+389
+00:14:52,000 --> 00:14:56,720
+yeah yeah
+
+390
+00:14:53,680 --> 00:14:58,959
+for example like com com combination a
+
+391
+00:14:56,720 --> 00:15:01,440
+combination let's say
+
+392
+00:14:58,959 --> 00:15:02,880
+one two three and then if we want to
+
+393
+00:15:01,440 --> 00:15:04,800
+pick two
+
+394
+00:15:02,880 --> 00:15:08,160
+if you want to pick two so what does it
+
+395
+00:15:04,800 --> 00:15:10,000
+give us it'll give us one two
+
+396
+00:15:08,160 --> 00:15:12,800
+one three
+
+397
+00:15:10,000 --> 00:15:13,920
+two three and that's it look
+
+398
+00:15:12,800 --> 00:15:15,360
+very powerful and then for the
+
+399
+00:15:13,920 --> 00:15:16,720
+permutation if you change this to
+
+400
+00:15:15,360 --> 00:15:18,240
+permutation
+
+401
+00:15:16,720 --> 00:15:21,040
+what is what does it give us you will
+
+402
+00:15:18,240 --> 00:15:23,600
+give us one two
+
+403
+00:15:21,040 --> 00:15:23,600
+one three
+
+404
+00:15:23,760 --> 00:15:26,959
+two three
+
+405
+00:15:24,959 --> 00:15:28,399
+and then the reverse yeah
+
+406
+00:15:26,959 --> 00:15:29,920
+two one
+
+407
+00:15:28,399 --> 00:15:34,160
+three one
+
+408
+00:15:29,920 --> 00:15:36,880
+three two okay yeah look permutation
+
+409
+00:15:34,160 --> 00:15:40,240
+different order is kind of counted as a
+
+410
+00:15:36,880 --> 00:15:41,680
+different permutation but combination is
+
+411
+00:15:40,240 --> 00:15:43,040
+the same okay
+
+412
+00:15:41,680 --> 00:15:45,839
+yeah
+
+413
+00:15:43,040 --> 00:15:48,160
+okay what have you learned today so far
+
+414
+00:15:45,839 --> 00:15:48,160
+today
+
+415
+00:15:50,880 --> 00:15:53,920
+okay so what's the problem what's the
+
+416
+00:15:52,639 --> 00:15:56,300
+problem there's there is
+
+417
+00:15:53,920 --> 00:15:57,839
+what's the problem so we have n
+
+418
+00:15:56,300 --> 00:16:00,480
+[Music]
+
+419
+00:15:57,839 --> 00:16:01,519
+we have ten numbers one to nine and we
+
+420
+00:16:00,480 --> 00:16:05,839
+can pick
+
+421
+00:16:01,519 --> 00:16:08,160
+k numbers so it sum up to n right
+
+422
+00:16:05,839 --> 00:16:10,079
+so we can do this backtracking yeah
+
+423
+00:16:08,160 --> 00:16:13,600
+backtracking is basically the default
+
+424
+00:16:10,079 --> 00:16:15,600
+search with some branch optimization
+
+425
+00:16:13,600 --> 00:16:18,399
+right so we cut up some branch when we
+
+426
+00:16:15,600 --> 00:16:20,959
+realized it there's no point to continue
+
+427
+00:16:18,399 --> 00:16:23,279
+right this is the back charting okay and
+
+428
+00:16:20,959 --> 00:16:24,079
+we also can use the preferences
+
+429
+00:16:23,279 --> 00:16:26,000
+yeah
+
+430
+00:16:24,079 --> 00:16:28,639
+given time we're not implementing it
+
+431
+00:16:26,000 --> 00:16:29,839
+today and we also talked about this
+
+432
+00:16:28,639 --> 00:16:31,839
+from italy
+
+433
+00:16:29,839 --> 00:16:34,399
+combination permutation we can use this
+
+434
+00:16:31,839 --> 00:16:38,880
+one return x
+
+435
+00:16:34,399 --> 00:16:40,959
+for x in this combination range 110
+
+436
+00:16:38,880 --> 00:16:43,920
+this is the nine ten numbers we want to
+
+437
+00:16:40,959 --> 00:16:45,600
+pick k numbers do the combination i want
+
+438
+00:16:43,920 --> 00:16:48,959
+to check each combination which
+
+439
+00:16:45,600 --> 00:16:51,839
+combination sum up to end okay that's it
+
+440
+00:16:48,959 --> 00:16:51,839
+for today bye
+
