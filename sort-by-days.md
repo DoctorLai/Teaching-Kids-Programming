@@ -7,6 +7,8 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 468 (2022-05-13): [Populating Next Right Pointers in Each Node (Breadth First Search Algorithm)](https://helloacm.com/teaching-kids-programming-populating-next-right-pointers-in-each-node-breadth-first-search-algorithm/) 二叉树每个节点中填充下一个右指针(广度优先算法)
+ [Youtube](https://youtu.be/p6wTZU4OsNk) - [B站](https://www.bilibili.com/video/BV1LF41177i3/)  - [西瓜](https://www.ixigua.com/7097539552042353160) 
 - Day 467 (2022-05-12): [Find Combination Sum via Breadth First Search Algorithm](https://helloacm.com/teaching-kids-programming-find-combination-sum-via-breadth-first-search-algorithm/) 求组合数列表的广度优先搜索算法 [Youtube](https://youtu.be/_8njdPnPTLA) - [B站](https://www.bilibili.com/video/BV145411975E/)  - [西瓜](https://www.ixigua.com/7097130044522398216) 
 - Day 466 (2022-05-10): [Backtracking Algorithm to List the Combination Sum (Recursive Depth First Search)](https://helloacm.com/teaching-kids-programming-backtracking-algorithm-to-list-the-combination-sum-recursive-depth-first-search/) 求组合数列表的回溯算法(递归深度优先算法+剪枝) [Youtube](https://youtu.be/vbnnWHpTNqA) - [B站](https://www.bilibili.com/video/BV17Z4y1a7UU/)  - [西瓜](https://www.ixigua.com/7096589084386296334) 
 - Day 465 (2022-05-07): [Gray Code by Recursive Mirror Algorithm](https://helloacm.com/teaching-kids-programming-gray-code-by-recursive-mirror-algorithm/) 格雷码 (Gray Code) 递归镜像算法 [Youtube](https://youtu.be/5ab64TYXbs8) - [B站](https://www.bilibili.com/video/BV1JS4y1b7kq/)  - [西瓜](https://www.ixigua.com/7095307858438259208) 
