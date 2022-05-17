@@ -1,0 +1,856 @@
+1
+00:00:00,000 --> 00:00:03,360
+yo
+
+2
+00:00:01,040 --> 00:00:05,279
+hello me tell me mr runner all right
+
+3
+00:00:03,360 --> 00:00:07,120
+okay now let's look at this final tree
+
+4
+00:00:05,279 --> 00:00:10,160
+okay okay one
+
+5
+00:00:07,120 --> 00:00:12,639
+two what's finally trees a binary tree
+
+6
+00:00:10,160 --> 00:00:15,040
+is a tree with numbers
+
+7
+00:00:12,639 --> 00:00:17,440
+okay so upside down tree
+
+8
+00:00:15,040 --> 00:00:19,359
+the uptight the trunk
+
+9
+00:00:17,440 --> 00:00:21,119
+the leaves and the leaves don't have any
+
+10
+00:00:19,359 --> 00:00:22,960
+children the loot does not have any
+
+11
+00:00:21,119 --> 00:00:25,920
+pearls if you look outside now this is
+
+12
+00:00:22,960 --> 00:00:29,359
+the root here this is the root
+
+13
+00:00:25,920 --> 00:00:30,800
+okay upside down this is the leaves
+
+14
+00:00:29,359 --> 00:00:33,680
+okay
+
+15
+00:00:30,800 --> 00:00:34,559
+so the binary tree is is a graph
+
+16
+00:00:33,680 --> 00:00:37,360
+um
+
+17
+00:00:34,559 --> 00:00:40,480
+that does not have any cycles yeah
+
+18
+00:00:37,360 --> 00:00:41,200
+directly acyclic png
+
+19
+00:00:40,480 --> 00:00:43,680
+yeah
+
+20
+00:00:41,200 --> 00:00:46,160
+does that not have any cycles and
+
+21
+00:00:43,680 --> 00:00:49,120
+it's connected one in one piece okay if
+
+22
+00:00:46,160 --> 00:00:51,280
+we have a small tree what do we call it
+
+23
+00:00:49,120 --> 00:00:53,199
+you know if it is this is not connected
+
+24
+00:00:51,280 --> 00:00:56,079
+what do we call it
+
+25
+00:00:53,199 --> 00:00:58,800
+forest yeah exactly first
+
+26
+00:00:56,079 --> 00:01:00,960
+yeah so we only have one root right we
+
+27
+00:00:58,800 --> 00:01:03,760
+only have one root so for this one you
+
+28
+00:01:00,960 --> 00:01:06,640
+know multiple roots so multiple trees
+
+29
+00:01:03,760 --> 00:01:09,520
+and forests okay so today questions very
+
+30
+00:01:06,640 --> 00:01:13,200
+simple so we want to find out the sum
+
+31
+00:01:09,520 --> 00:01:15,759
+of the deepest leaves okay
+
+32
+00:01:13,200 --> 00:01:18,400
+some of these
+
+33
+00:01:15,759 --> 00:01:19,920
+leaves so what what how can we do this
+
+34
+00:01:18,400 --> 00:01:22,560
+what's the what's the sum of the
+
+35
+00:01:19,920 --> 00:01:25,200
+difference this thing is in this tree
+
+36
+00:01:22,560 --> 00:01:27,920
+come on six easy exactly okay how about
+
+37
+00:01:25,200 --> 00:01:30,960
+i add another one
+
+38
+00:01:27,920 --> 00:01:33,040
+okay what's the sum of 16 16 exactly
+
+39
+00:01:30,960 --> 00:01:34,880
+okay that's it the question is very
+
+40
+00:01:33,040 --> 00:01:37,280
+similar how can we do it
+
+41
+00:01:34,880 --> 00:01:38,799
+i'm going to do it easier it's easy so
+
+42
+00:01:37,280 --> 00:01:41,040
+how can we do it
+
+43
+00:01:38,799 --> 00:01:44,079
+how many ways we can traverse the binary
+
+44
+00:01:41,040 --> 00:01:46,320
+tree and how do we do it i mean
+
+45
+00:01:44,079 --> 00:01:49,280
+breakfast
+
+46
+00:01:46,320 --> 00:01:51,040
+which one you think is easier
+
+47
+00:01:49,280 --> 00:01:52,880
+in this case
+
+48
+00:01:51,040 --> 00:01:54,880
+better search and how about you which
+
+49
+00:01:52,880 --> 00:01:58,079
+one you think is easier both are okay so
+
+50
+00:01:54,880 --> 00:01:58,079
+which one you think is easier
+
+51
+00:01:58,479 --> 00:02:01,600
+to guess
+
+52
+00:01:59,520 --> 00:02:02,479
+why okay
+
+53
+00:02:01,600 --> 00:02:04,640
+yes
+
+54
+00:02:02,479 --> 00:02:06,799
+you're right
+
+55
+00:02:04,640 --> 00:02:08,879
+because
+
+56
+00:02:06,799 --> 00:02:10,720
+it's a wild guess well i guess okay so
+
+57
+00:02:08,879 --> 00:02:13,120
+buffer search you know professors will
+
+58
+00:02:10,720 --> 00:02:15,360
+travel a tree by a level by level and
+
+59
+00:02:13,120 --> 00:02:17,520
+then we updated the sun
+
+60
+00:02:15,360 --> 00:02:20,879
+to to do this in pepper search we have
+
+61
+00:02:17,520 --> 00:02:23,920
+the dictionary dictionary dictionary and
+
+62
+00:02:20,879 --> 00:02:25,920
+the keys will be the levels
+
+63
+00:02:23,920 --> 00:02:28,080
+and the value will be the sum so we
+
+64
+00:02:25,920 --> 00:02:29,120
+traverse the uh different search right
+
+65
+00:02:28,080 --> 00:02:31,360
+whichever
+
+66
+00:02:29,120 --> 00:02:33,280
+search and then we accumulate the sum
+
+67
+00:02:31,360 --> 00:02:36,080
+for each level right and once we have
+
+68
+00:02:33,280 --> 00:02:37,360
+this dictionary so for example
+
+69
+00:02:36,080 --> 00:02:40,080
+uh the sum
+
+70
+00:02:37,360 --> 00:02:42,239
+sub dictionary yeah some is dictionary
+
+71
+00:02:40,080 --> 00:02:44,640
+we go through we traverse the
+
+72
+00:02:42,239 --> 00:02:47,200
+binary tree and then we pass down the
+
+73
+00:02:44,640 --> 00:02:48,800
+levels and we accumulate the sum of for
+
+74
+00:02:47,200 --> 00:02:49,680
+each level and then we what we need to
+
+75
+00:02:48,800 --> 00:02:52,160
+do
+
+76
+00:02:49,680 --> 00:02:54,160
+so we just need to return the maximum
+
+77
+00:02:52,160 --> 00:02:58,400
+level right because it says the
+
+78
+00:02:54,160 --> 00:02:58,400
+difference yeah so you'll be max
+
+79
+00:02:58,480 --> 00:03:03,920
+s dot keys and that will be the sum okay
+
+80
+00:03:00,720 --> 00:03:05,760
+easy so i think i think definition is
+
+81
+00:03:03,920 --> 00:03:06,959
+easier to implement for the perfect
+
+82
+00:03:05,760 --> 00:03:09,120
+search
+
+83
+00:03:06,959 --> 00:03:11,040
+level by level yeah every time we take
+
+84
+00:03:09,120 --> 00:03:13,280
+the notes because we know all the notes
+
+85
+00:03:11,040 --> 00:03:16,080
+in the sentence in a queue remember we
+
+86
+00:03:13,280 --> 00:03:18,560
+talked about this a few days ago yeah
+
+87
+00:03:16,080 --> 00:03:21,040
+look if we every time we put uh the
+
+88
+00:03:18,560 --> 00:03:22,480
+first one we put the dude in we take it
+
+89
+00:03:21,040 --> 00:03:23,280
+out we put the kids
+
+90
+00:03:22,480 --> 00:03:25,280
+in
+
+91
+00:03:23,280 --> 00:03:28,879
+yeah we take it off
+
+92
+00:03:25,280 --> 00:03:30,640
+we put the kids four five zero we take
+
+93
+00:03:28,879 --> 00:03:33,920
+take all the notes i'll push their kids
+
+94
+00:03:30,640 --> 00:03:36,640
+six 10 so the la we always uh updated
+
+95
+00:03:33,920 --> 00:03:37,599
+the sum we keep a value of the sum for
+
+96
+00:03:36,640 --> 00:03:39,200
+the
+
+97
+00:03:37,599 --> 00:03:41,280
+for the current level
+
+98
+00:03:39,200 --> 00:03:43,760
+yeah when the weather search terminates
+
+99
+00:03:41,280 --> 00:03:45,760
+then the sum would be the
+
+100
+00:03:43,760 --> 00:03:46,480
+will be the level of the deepest leaves
+
+101
+00:03:45,760 --> 00:03:49,519
+okay
+
+102
+00:03:46,480 --> 00:03:52,239
+so let's go for the definition okay so
+
+103
+00:03:49,519 --> 00:03:54,239
+we can traverse the different search in
+
+104
+00:03:52,239 --> 00:03:56,480
+the tree in how many orders i'll give
+
+105
+00:03:54,239 --> 00:03:57,680
+you another example
+
+106
+00:03:56,480 --> 00:04:00,680
+pre-order
+
+107
+00:03:57,680 --> 00:04:00,680
+pre-order
+
+108
+00:04:01,200 --> 00:04:06,560
+what do we have pre-order in order and
+
+109
+00:04:03,519 --> 00:04:09,439
+what poisson yeah
+
+110
+00:04:06,560 --> 00:04:12,080
+these are typically three orders
+
+111
+00:04:09,439 --> 00:04:13,519
+yeah but maybe we can have this reverse
+
+112
+00:04:12,080 --> 00:04:16,639
+you know yeah
+
+113
+00:04:13,519 --> 00:04:18,720
+uh a binary search tree if we perform an
+
+114
+00:04:16,639 --> 00:04:20,799
+inorder on a banister stream we get this
+
+115
+00:04:18,720 --> 00:04:21,600
+in order right we get a list in order
+
+116
+00:04:20,799 --> 00:04:24,720
+okay
+
+117
+00:04:21,600 --> 00:04:26,720
+and let's say d equals the dictionary uh
+
+118
+00:04:24,720 --> 00:04:29,120
+before dictionary okay
+
+119
+00:04:26,720 --> 00:04:32,639
+because and then we want to
+
+120
+00:04:29,120 --> 00:04:34,880
+be able to use this before key which is
+
+121
+00:04:32,639 --> 00:04:37,280
+initialized to zero if we given the type
+
+122
+00:04:34,880 --> 00:04:39,840
+value type is in okay
+
+123
+00:04:37,280 --> 00:04:41,440
+define definite search and then we have
+
+124
+00:04:39,840 --> 00:04:44,240
+this first parameter as the rule the
+
+125
+00:04:41,440 --> 00:04:45,680
+second parameter is the level
+
+126
+00:04:44,240 --> 00:04:47,600
+level okay
+
+127
+00:04:45,680 --> 00:04:50,400
+if not root
+
+128
+00:04:47,600 --> 00:04:52,720
+if non-load will just return
+
+129
+00:04:50,400 --> 00:04:54,160
+otherwise what look d
+
+130
+00:04:52,720 --> 00:04:57,759
+level
+
+131
+00:04:54,160 --> 00:05:01,919
+plus equal blue dot value okay
+
+132
+00:04:57,759 --> 00:05:05,919
+and we just traverse the left tree
+
+133
+00:05:01,919 --> 00:05:05,919
+and then we traverse the right tree
+
+134
+00:05:06,160 --> 00:05:10,639
+and
+
+135
+00:05:07,759 --> 00:05:12,240
+and what do we do we can
+
+136
+00:05:10,639 --> 00:05:13,360
+d
+
+137
+00:05:12,240 --> 00:05:14,160
+max
+
+138
+00:05:13,360 --> 00:05:17,120
+the
+
+139
+00:05:14,160 --> 00:05:17,120
+keys okay
+
+140
+00:05:18,880 --> 00:05:23,120
+okay that's it look i'm going to
+
+141
+00:05:21,520 --> 00:05:25,039
+explain this and then you need to tell
+
+142
+00:05:23,120 --> 00:05:26,840
+me later back up
+
+143
+00:05:25,039 --> 00:05:29,039
+dictionary default dictionary
+
+144
+00:05:26,840 --> 00:05:31,840
+dictionary.com the keys would be the
+
+145
+00:05:29,039 --> 00:05:34,800
+number the value would be the sum i know
+
+146
+00:05:31,840 --> 00:05:36,960
+it just travels uh traversal uh okay so
+
+147
+00:05:34,800 --> 00:05:38,800
+we have to call this definite root and
+
+148
+00:05:36,960 --> 00:05:41,039
+then let's pass the parameter the first
+
+149
+00:05:38,800 --> 00:05:43,199
+one is never zero so we traverse a
+
+150
+00:05:41,039 --> 00:05:46,080
+recursively and then when we visit this
+
+151
+00:05:43,199 --> 00:05:48,960
+node look we accumulate
+
+152
+00:05:46,080 --> 00:05:51,120
+the sum the level with this blue dot
+
+153
+00:05:48,960 --> 00:05:53,600
+value and then we travel the left tree
+
+154
+00:05:51,120 --> 00:05:56,080
+will write really closely and then some
+
+155
+00:05:53,600 --> 00:05:57,520
+of the deepest leaves deepest which is
+
+156
+00:05:56,080 --> 00:06:00,560
+the max
+
+157
+00:05:57,520 --> 00:06:02,960
+level right the next level max
+
+158
+00:06:00,560 --> 00:06:04,080
+level d dot keys is the level max dot
+
+159
+00:06:02,960 --> 00:06:06,880
+levels
+
+160
+00:06:04,080 --> 00:06:09,919
+right and we want to get the values
+
+161
+00:06:06,880 --> 00:06:12,240
+so the the time conducting oh and yes we
+
+162
+00:06:09,919 --> 00:06:14,880
+have to traverse the order nodes each
+
+163
+00:06:12,240 --> 00:06:17,120
+node is visited exactly once the
+
+164
+00:06:14,880 --> 00:06:19,919
+space complexity is o
+
+165
+00:06:17,120 --> 00:06:22,240
+o n or o h h is the height of the tree
+
+166
+00:06:19,919 --> 00:06:23,520
+right in the worst case h will be the n
+
+167
+00:06:22,240 --> 00:06:26,000
+right
+
+168
+00:06:23,520 --> 00:06:28,479
+okay in what cases in the worst cases o
+
+169
+00:06:26,000 --> 00:06:30,800
+h equals o n why is that can you tell me
+
+170
+00:06:28,479 --> 00:06:32,960
+why the in the worst cases
+
+171
+00:06:30,800 --> 00:06:34,720
+why the height is the number of nodes
+
+172
+00:06:32,960 --> 00:06:36,800
+can you give me an example like in worst
+
+173
+00:06:34,720 --> 00:06:38,080
+cases what does the binary tree look
+
+174
+00:06:36,800 --> 00:06:39,759
+like
+
+175
+00:06:38,080 --> 00:06:42,000
+that's the highest line
+
+176
+00:06:39,759 --> 00:06:43,440
+where that is looks like line yeah
+
+177
+00:06:42,000 --> 00:06:44,800
+like that yeah
+
+178
+00:06:43,440 --> 00:06:47,280
+okay
+
+179
+00:06:44,800 --> 00:06:49,120
+not exactly not necessarily to produce a
+
+180
+00:06:47,280 --> 00:06:50,720
+straight line it could be
+
+181
+00:06:49,120 --> 00:06:54,000
+like that yeah
+
+182
+00:06:50,720 --> 00:06:56,080
+let's still o h equals one all right
+
+183
+00:06:54,000 --> 00:06:58,880
+yeah make sense
+
+184
+00:06:56,080 --> 00:07:01,199
+can you explain to me what's this
+
+185
+00:06:58,880 --> 00:07:01,199
+that's
+
+186
+00:07:01,599 --> 00:07:04,319
+so um
+
+187
+00:07:02,000 --> 00:07:06,800
+are adding we are we are accumulating
+
+188
+00:07:04,319 --> 00:07:09,840
+the sum for this level here okay
+
+189
+00:07:06,800 --> 00:07:11,759
+okay so there's another problem level
+
+190
+00:07:09,840 --> 00:07:13,680
+needs to pass one okay i forgot this
+
+191
+00:07:11,759 --> 00:07:15,199
+most important thing
+
+192
+00:07:13,680 --> 00:07:16,800
+okay yeah
+
+193
+00:07:15,199 --> 00:07:19,120
+because we're going
+
+194
+00:07:16,800 --> 00:07:21,440
+down we need to
+
+195
+00:07:19,120 --> 00:07:23,919
+we need to implement that am right
+
+196
+00:07:21,440 --> 00:07:24,800
+yeah okay what have you learned today so
+
+197
+00:07:23,919 --> 00:07:26,880
+far
+
+198
+00:07:24,800 --> 00:07:28,800
+about
+
+199
+00:07:26,880 --> 00:07:30,720
+whatever
+
+200
+00:07:28,800 --> 00:07:33,039
+what are we trying to do today and what
+
+201
+00:07:30,720 --> 00:07:34,160
+are we what kind of equipment should we
+
+202
+00:07:33,039 --> 00:07:36,720
+use today
+
+203
+00:07:34,160 --> 00:07:38,880
+we're using different assets
+
+204
+00:07:36,720 --> 00:07:41,199
+okay and then what kind of how do we
+
+205
+00:07:38,880 --> 00:07:44,880
+implement this staff research
+
+206
+00:07:41,199 --> 00:07:44,880
+how do we implement this definition
+
+207
+00:07:46,000 --> 00:07:49,599
+and what kind of data structure we need
+
+208
+00:07:47,520 --> 00:07:53,360
+to use to store the
+
+209
+00:07:49,599 --> 00:07:53,360
+sum for each level stack
+
+210
+00:07:53,520 --> 00:07:57,599
+what data structure you were using we're
+
+211
+00:07:56,160 --> 00:08:00,479
+not using any
+
+212
+00:07:57,599 --> 00:08:02,560
+stationery they stole the
+
+213
+00:08:00,479 --> 00:08:07,960
+keys
+
+214
+00:08:02,560 --> 00:08:07,960
+okay that's it for today bye bye bye
+

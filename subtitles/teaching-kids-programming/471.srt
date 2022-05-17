@@ -1,0 +1,932 @@
+1
+00:00:00,480 --> 00:00:05,200
+hello mr mr right now right
+
+2
+00:00:03,360 --> 00:00:08,080
+what have we done yesterday what's this
+
+3
+00:00:05,200 --> 00:00:10,639
+what have you learned back
+
+4
+00:00:08,080 --> 00:00:12,240
+no what's the sum of the time of the
+
+5
+00:00:10,639 --> 00:00:13,920
+tickets the leaves yeah yesterday we
+
+6
+00:00:12,240 --> 00:00:14,960
+were using the deficit recursion
+
+7
+00:00:13,920 --> 00:00:17,039
+deficits
+
+8
+00:00:14,960 --> 00:00:18,240
+you know we can implement a different
+
+9
+00:00:17,039 --> 00:00:20,640
+search in
+
+10
+00:00:18,240 --> 00:00:23,600
+iterated using the stack but it's uh
+
+11
+00:00:20,640 --> 00:00:25,760
+easier to implement using a recursion
+
+12
+00:00:23,600 --> 00:00:27,039
+right and then look at this thing
+
+13
+00:00:25,760 --> 00:00:29,359
+dictionary
+
+14
+00:00:27,039 --> 00:00:31,439
+hashmap we use it to keep tracking of
+
+15
+00:00:29,359 --> 00:00:33,040
+the sound we accumulate the sum for each
+
+16
+00:00:31,439 --> 00:00:34,800
+level the keys will be the levels the
+
+17
+00:00:33,040 --> 00:00:36,640
+values will be the same right and then
+
+18
+00:00:34,800 --> 00:00:38,480
+when we go down we will traverse the
+
+19
+00:00:36,640 --> 00:00:40,719
+left tree and right three will pass down
+
+20
+00:00:38,480 --> 00:00:42,719
+the level when we reach the note in the
+
+21
+00:00:40,719 --> 00:00:45,039
+next in the left triad and the right
+
+22
+00:00:42,719 --> 00:00:47,200
+side the level will be plus one right
+
+23
+00:00:45,039 --> 00:00:49,120
+and i'll use this level to
+
+24
+00:00:47,200 --> 00:00:51,280
+accumulate the sum here
+
+25
+00:00:49,120 --> 00:00:53,039
+we do this different search recursion it
+
+26
+00:00:51,280 --> 00:00:54,399
+doesn't matter which order we visit the
+
+27
+00:00:53,039 --> 00:00:55,920
+left tree first or right three but it
+
+28
+00:00:54,399 --> 00:00:56,559
+doesn't matter as long as we traverse
+
+29
+00:00:55,920 --> 00:00:59,120
+the
+
+30
+00:00:56,559 --> 00:01:00,879
+tree in a different uh definition
+
+31
+00:00:59,120 --> 00:01:03,520
+manner and then all the nodes will be
+
+32
+00:01:00,879 --> 00:01:05,519
+visited exactly once and
+
+33
+00:01:03,520 --> 00:01:07,920
+in order to return the
+
+34
+00:01:05,519 --> 00:01:10,880
+sum of the deepest leaf
+
+35
+00:01:07,920 --> 00:01:14,000
+we need to compute with next d dot keys
+
+36
+00:01:10,880 --> 00:01:16,080
+is the maximum the deepest level i know
+
+37
+00:01:14,000 --> 00:01:18,640
+is the key is to retrieve the sum of the
+
+38
+00:01:16,080 --> 00:01:20,960
+of the dps level okay
+
+39
+00:01:18,640 --> 00:01:23,920
+so let's definitely search so can you
+
+40
+00:01:20,960 --> 00:01:25,600
+guess what are we talking about today
+
+41
+00:01:23,920 --> 00:01:27,680
+exactly yeah we're using the processors
+
+42
+00:01:25,600 --> 00:01:31,200
+to solve this problem
+
+43
+00:01:27,680 --> 00:01:31,200
+so what is the perfect search
+
+44
+00:01:31,360 --> 00:01:34,880
+how do we travel what's the what's the
+
+45
+00:01:33,200 --> 00:01:36,799
+pressure
+
+46
+00:01:34,880 --> 00:01:40,400
+i mean what order for example like if
+
+47
+00:01:36,799 --> 00:01:40,400
+this is the binary tree what are the
+
+48
+00:01:40,560 --> 00:01:46,320
+one two three four five
+
+49
+00:01:44,320 --> 00:01:47,280
+six
+
+50
+00:01:46,320 --> 00:01:49,680
+seven
+
+51
+00:01:47,280 --> 00:01:51,799
+eight okay one two three four five six
+
+52
+00:01:49,680 --> 00:01:55,799
+seven eight but if we're using the
+
+53
+00:01:51,799 --> 00:01:55,799
+pre-order search
+
+54
+00:01:57,200 --> 00:02:00,799
+in order
+
+55
+00:01:58,560 --> 00:02:02,240
+what's in order
+
+56
+00:02:00,799 --> 00:02:06,000
+left
+
+57
+00:02:02,240 --> 00:02:07,119
+note right okay so left four
+
+58
+00:02:06,000 --> 00:02:10,239
+goes down
+
+59
+00:02:07,119 --> 00:02:13,040
+four one two three no no no no if it's
+
+60
+00:02:10,239 --> 00:02:16,080
+one if that's that's pre-order pre-order
+
+61
+00:02:13,040 --> 00:02:18,640
+is not left right then it's wrong it's
+
+62
+00:02:16,080 --> 00:02:19,520
+uh when you say it's correct one two
+
+63
+00:02:18,640 --> 00:02:22,239
+four
+
+64
+00:02:19,520 --> 00:02:23,440
+five six seven eight three okay but if
+
+65
+00:02:22,239 --> 00:02:25,280
+it's uh
+
+66
+00:02:23,440 --> 00:02:27,200
+in order so we go to the left three
+
+67
+00:02:25,280 --> 00:02:29,120
+first then which is the note and which
+
+68
+00:02:27,200 --> 00:02:30,000
+the right three so that'll be
+
+69
+00:02:29,120 --> 00:02:31,120
+two
+
+70
+00:02:30,000 --> 00:02:32,959
+four
+
+71
+00:02:31,120 --> 00:02:34,319
+two
+
+72
+00:02:32,959 --> 00:02:35,120
+one five
+
+73
+00:02:34,319 --> 00:02:37,760
+uh
+
+74
+00:02:35,120 --> 00:02:38,720
+five one three
+
+75
+00:02:37,760 --> 00:02:39,760
+six
+
+76
+00:02:38,720 --> 00:02:43,040
+five
+
+77
+00:02:39,760 --> 00:02:45,680
+seven six eight no no four for the note
+
+78
+00:02:43,040 --> 00:02:47,599
+uh for the left no to right for this
+
+79
+00:02:45,680 --> 00:02:49,519
+three so what other would be left three
+
+80
+00:02:47,599 --> 00:02:51,519
+we visit the left tree first yeah so
+
+81
+00:02:49,519 --> 00:02:54,319
+this one will go first and then one to
+
+82
+00:02:51,519 --> 00:02:57,840
+here so one tree at the end okay and in
+
+83
+00:02:54,319 --> 00:03:00,000
+order to visit these three in the no uh
+
+84
+00:02:57,840 --> 00:03:02,000
+in order so what do we what do we have
+
+85
+00:03:00,000 --> 00:03:02,959
+so we did left three first
+
+86
+00:03:02,000 --> 00:03:05,040
+right
+
+87
+00:03:02,959 --> 00:03:07,519
+that's three note and the right three
+
+88
+00:03:05,040 --> 00:03:09,280
+all right so it's four two and this bit
+
+89
+00:03:07,519 --> 00:03:10,959
+is this bit yeah
+
+90
+00:03:09,280 --> 00:03:13,200
+so again with the customer what's what
+
+91
+00:03:10,959 --> 00:03:15,440
+how do we visit this tree
+
+92
+00:03:13,200 --> 00:03:17,840
+so five yeah five because it has nothing
+
+93
+00:03:15,440 --> 00:03:20,800
+on the left five
+
+94
+00:03:17,840 --> 00:03:22,159
+five and then this bit
+
+95
+00:03:20,800 --> 00:03:25,280
+what was that
+
+96
+00:03:22,159 --> 00:03:27,599
+that's easier seven six eight yeah
+
+97
+00:03:25,280 --> 00:03:29,680
+seven six eight do you get it so all
+
+98
+00:03:27,599 --> 00:03:32,560
+together for the inorder is four two
+
+99
+00:03:29,680 --> 00:03:34,159
+five seven six a one three correct
+
+100
+00:03:32,560 --> 00:03:37,040
+yeah
+
+101
+00:03:34,159 --> 00:03:39,040
+for the first search we use the q dq
+
+102
+00:03:37,040 --> 00:03:40,799
+double and dq right
+
+103
+00:03:39,040 --> 00:03:42,959
+all right so
+
+104
+00:03:40,799 --> 00:03:45,360
+for example this one one okay i
+
+105
+00:03:42,959 --> 00:03:47,840
+shouldn't have erased this okay but
+
+106
+00:03:45,360 --> 00:03:47,840
+let's do this
+
+107
+00:03:48,239 --> 00:03:54,080
+okay that's a simple final treat okay so
+
+108
+00:03:51,200 --> 00:03:56,319
+we have a q dq first of all the we put a
+
+109
+00:03:54,080 --> 00:03:57,439
+note in it once
+
+110
+00:03:56,319 --> 00:04:00,159
+then
+
+111
+00:03:57,439 --> 00:04:01,599
+we dequeue all the notes in the queue
+
+112
+00:04:00,159 --> 00:04:03,360
+because they belongs to the same number
+
+113
+00:04:01,599 --> 00:04:05,519
+what's the kit of the one
+
+114
+00:04:03,360 --> 00:04:07,680
+two three two three and then we incur it
+
+115
+00:04:05,519 --> 00:04:09,840
+one by one okay and then we take all we
+
+116
+00:04:07,680 --> 00:04:11,360
+dequeue everything in the key because
+
+117
+00:04:09,840 --> 00:04:13,519
+two and three don't stand level we take
+
+118
+00:04:11,360 --> 00:04:16,880
+it out what's the kit of two and three
+
+119
+00:04:13,519 --> 00:04:17,840
+four five six seven yeah exactly
+
+120
+00:04:16,880 --> 00:04:20,239
+okay
+
+121
+00:04:17,840 --> 00:04:21,600
+so every time look this is the standard
+
+122
+00:04:20,239 --> 00:04:23,040
+breakfast search every time we take
+
+123
+00:04:21,600 --> 00:04:25,040
+everything out
+
+124
+00:04:23,040 --> 00:04:26,560
+when we push the kids
+
+125
+00:04:25,040 --> 00:04:29,120
+we're gonna push the kids back to the
+
+126
+00:04:26,560 --> 00:04:31,600
+queue then we can compute the sum we can
+
+127
+00:04:29,120 --> 00:04:33,440
+compute the sum of all the kids right
+
+128
+00:04:31,600 --> 00:04:36,320
+so now in this case the
+
+129
+00:04:33,440 --> 00:04:39,280
+the sum the sum will be updated
+
+130
+00:04:36,320 --> 00:04:40,080
+to four plus five plus six plus seven
+
+131
+00:04:39,280 --> 00:04:42,080
+right
+
+132
+00:04:40,080 --> 00:04:44,400
+but we keep updating the sum well every
+
+133
+00:04:42,080 --> 00:04:46,639
+level we dequeue every node right so
+
+134
+00:04:44,400 --> 00:04:48,800
+that we set we reset the sum to zero so
+
+135
+00:04:46,639 --> 00:04:52,160
+basically we just use the variable
+
+136
+00:04:48,800 --> 00:04:54,320
+answer to keep tracking of the sum of
+
+137
+00:04:52,160 --> 00:04:56,400
+the next
+
+138
+00:04:54,320 --> 00:04:58,960
+level right and when the preference
+
+139
+00:04:56,400 --> 00:05:02,479
+search terminates the sum will be
+
+140
+00:04:58,960 --> 00:05:04,000
+the sum of the la maximum level which is
+
+141
+00:05:02,479 --> 00:05:08,639
+the details
+
+142
+00:05:04,000 --> 00:05:09,759
+defined by first search okay node
+
+143
+00:05:08,639 --> 00:05:10,639
+root
+
+144
+00:05:09,759 --> 00:05:13,759
+okay
+
+145
+00:05:10,639 --> 00:05:15,919
+if not root we don't need to continue
+
+146
+00:05:13,759 --> 00:05:17,520
+return zero okay
+
+147
+00:05:15,919 --> 00:05:19,919
+and then
+
+148
+00:05:17,520 --> 00:05:22,960
+q equals dq
+
+149
+00:05:19,919 --> 00:05:25,360
+we put the root in it right
+
+150
+00:05:22,960 --> 00:05:27,520
+and then we have this answer sum equals
+
+151
+00:05:25,360 --> 00:05:29,440
+zero at the beginning and y and q why
+
+152
+00:05:27,520 --> 00:05:31,039
+there is a node in the queue so first of
+
+153
+00:05:29,440 --> 00:05:32,639
+all we need to get how many nodes the
+
+154
+00:05:31,039 --> 00:05:34,960
+number of nodes in the queue in the left
+
+155
+00:05:32,639 --> 00:05:36,639
+belongs to some level and length skill
+
+156
+00:05:34,960 --> 00:05:41,280
+and now we just have to
+
+157
+00:05:36,639 --> 00:05:41,280
+decube all these end nodes in range n
+
+158
+00:05:42,160 --> 00:05:45,919
+now first of all answer i have to copy
+
+159
+00:05:43,759 --> 00:05:48,160
+here i i have to reset it to zero right
+
+160
+00:05:45,919 --> 00:05:50,240
+that's what i'm saying answer equals
+
+161
+00:05:48,160 --> 00:05:53,039
+zero we reset this answer to zero
+
+162
+00:05:50,240 --> 00:05:55,039
+because that represents the sum of the
+
+163
+00:05:53,039 --> 00:05:57,680
+next level okay
+
+164
+00:05:55,039 --> 00:06:01,440
+and then what here's a
+
+165
+00:05:57,680 --> 00:06:03,919
+current equals q dot problem
+
+166
+00:06:01,440 --> 00:06:06,880
+and then if current on left what do we
+
+167
+00:06:03,919 --> 00:06:06,880
+do q
+
+168
+00:06:10,800 --> 00:06:14,720
+what should we do
+
+169
+00:06:12,240 --> 00:06:17,520
+can you feel the blank
+
+170
+00:06:14,720 --> 00:06:17,520
+q dot append
+
+171
+00:06:18,720 --> 00:06:23,840
+and now we need to uh answer plus input
+
+172
+00:06:22,400 --> 00:06:26,800
+yeah this is
+
+173
+00:06:23,840 --> 00:06:29,600
+no no no current current on that
+
+174
+00:06:26,800 --> 00:06:32,800
+i know what's this
+
+175
+00:06:29,600 --> 00:06:35,440
+answer plus current value okay
+
+176
+00:06:32,800 --> 00:06:36,319
+i'm gonna return
+
+177
+00:06:35,440 --> 00:06:38,479
+okay
+
+178
+00:06:36,319 --> 00:06:40,880
+this one yeah because we need to
+
+179
+00:06:38,479 --> 00:06:42,880
+accumulate some for the next level but
+
+180
+00:06:40,880 --> 00:06:45,120
+we are not accumulating the sum for all
+
+181
+00:06:42,880 --> 00:06:46,720
+the notes because we are resetting the
+
+182
+00:06:45,120 --> 00:06:49,440
+sum to zero
+
+183
+00:06:46,720 --> 00:06:50,880
+yeah make make sense yeah so okay can
+
+184
+00:06:49,440 --> 00:06:52,479
+you can you tell me what have you
+
+185
+00:06:50,880 --> 00:06:54,160
+learned today by this breakfast search
+
+186
+00:06:52,479 --> 00:06:56,960
+what are we trying to do today we're
+
+187
+00:06:54,160 --> 00:06:59,199
+trying to find the some of the deepest
+
+188
+00:06:56,960 --> 00:07:02,479
+leaves in the binary cream
+
+189
+00:06:59,199 --> 00:07:02,479
+and how we doing it
+
+190
+00:07:14,880 --> 00:07:20,479
+what does it mean double yeah two sides
+
+191
+00:07:18,160 --> 00:07:23,120
+and we can do this
+
+192
+00:07:20,479 --> 00:07:24,639
+a pen a pen to the right pop to the left
+
+193
+00:07:23,120 --> 00:07:26,720
+uh popular right
+
+194
+00:07:24,639 --> 00:07:29,120
+a pen up and left
+
+195
+00:07:26,720 --> 00:07:30,639
+top left okay so if you want to push in
+
+196
+00:07:29,120 --> 00:07:32,319
+or take it out from the left hand side
+
+197
+00:07:30,639 --> 00:07:34,319
+we have to put the left
+
+198
+00:07:32,319 --> 00:07:36,560
+to say it's from the left otherwise it's
+
+199
+00:07:34,319 --> 00:07:40,000
+from the right okay and then these four
+
+200
+00:07:36,560 --> 00:07:40,880
+operations are constant 01 constant time
+
+201
+00:07:40,000 --> 00:07:43,199
+right
+
+202
+00:07:40,880 --> 00:07:45,360
+yeah we can use the lift
+
+203
+00:07:43,199 --> 00:07:48,000
+yeah if we use if we declare the q
+
+204
+00:07:45,360 --> 00:07:48,720
+equals this empty list we can still use
+
+205
+00:07:48,000 --> 00:07:50,879
+the
+
+206
+00:07:48,720 --> 00:07:51,759
+use it as a
+
+207
+00:07:50,879 --> 00:07:54,240
+queue
+
+208
+00:07:51,759 --> 00:07:57,120
+but we have to use this top zero but
+
+209
+00:07:54,240 --> 00:08:00,479
+this is expensive this is linear time
+
+210
+00:07:57,120 --> 00:08:03,280
+okay that's why we use the dq because
+
+211
+00:08:00,479 --> 00:08:05,759
+this top left
+
+212
+00:08:03,280 --> 00:08:08,400
+is one which is better than this one
+
+213
+00:08:05,759 --> 00:08:10,879
+which is one linear term okay
+
+214
+00:08:08,400 --> 00:08:12,960
+okay so why why do we need to reset this
+
+215
+00:08:10,879 --> 00:08:14,960
+to zero at the beginning answer equals
+
+216
+00:08:12,960 --> 00:08:16,720
+zero and the answer is one right which
+
+217
+00:08:14,960 --> 00:08:19,520
+is sum of the next level and i set it to
+
+218
+00:08:16,720 --> 00:08:20,639
+zero answer equals two plus three five
+
+219
+00:08:19,520 --> 00:08:22,639
+okay
+
+220
+00:08:20,639 --> 00:08:24,400
+and i i set it to the answer equals four
+
+221
+00:08:22,639 --> 00:08:26,240
+plus five okay so can you tell me why we
+
+222
+00:08:24,400 --> 00:08:28,080
+need to set it to 0
+
+223
+00:08:26,240 --> 00:08:30,879
+what would this answer be if i don't
+
+224
+00:08:28,080 --> 00:08:33,200
+reset the 0 for h each level so what's
+
+225
+00:08:30,879 --> 00:08:35,200
+the sum going to be
+
+226
+00:08:33,200 --> 00:08:37,279
+all of the next we're down it'll be the
+
+227
+00:08:35,200 --> 00:08:39,440
+sum of all the notes i said we set it to
+
+228
+00:08:37,279 --> 00:08:40,399
+0. every time i start with the new level
+
+229
+00:08:39,440 --> 00:08:42,240
+right
+
+230
+00:08:40,399 --> 00:08:44,959
+yeah for them
+
+231
+00:08:42,240 --> 00:08:47,600
+does it make sense now yeah okay that
+
+232
+00:08:44,959 --> 00:08:50,600
+will be it for today good job bye bye
+
+233
+00:08:47,600 --> 00:08:50,600
+bye
+

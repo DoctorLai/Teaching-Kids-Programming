@@ -1,0 +1,1032 @@
+1
+00:00:00,240 --> 00:00:05,759
+hello mr miss narendra right yes okay so
+
+2
+00:00:03,439 --> 00:00:08,639
+last lesson we talk about uh combination
+
+3
+00:00:05,759 --> 00:00:09,679
+sum so there are nine numbers we want to
+
+4
+00:00:08,639 --> 00:00:12,160
+take
+
+5
+00:00:09,679 --> 00:00:14,000
+k numbers let's sum up to n yeah we want
+
+6
+00:00:12,160 --> 00:00:16,000
+to return such a you know a list of
+
+7
+00:00:14,000 --> 00:00:17,440
+these summaries so for example when k
+
+8
+00:00:16,000 --> 00:00:18,400
+equals three we want to find the three
+
+9
+00:00:17,440 --> 00:00:20,080
+numbers
+
+10
+00:00:18,400 --> 00:00:22,320
+you can pick the three numbers from one
+
+11
+00:00:20,080 --> 00:00:24,960
+to nine we have to pick three each
+
+12
+00:00:22,320 --> 00:00:27,840
+number can only be used once and can we
+
+13
+00:00:24,960 --> 00:00:30,400
+find such this that sums up to nine it
+
+14
+00:00:27,840 --> 00:00:34,079
+could be many yeah for example like six
+
+15
+00:00:30,400 --> 00:00:36,320
+one two three one three one five two one
+
+16
+00:00:34,079 --> 00:00:38,079
+four uh okay last lesson we talked about
+
+17
+00:00:36,320 --> 00:00:42,000
+the backtracking which is kind of like
+
+18
+00:00:38,079 --> 00:00:44,239
+uh definite search yeah we try to go as
+
+19
+00:00:42,000 --> 00:00:46,320
+deep as we can and we realize that at
+
+20
+00:00:44,239 --> 00:00:47,840
+some point there's no point continue
+
+21
+00:00:46,320 --> 00:00:50,719
+there's no point continuing not this
+
+22
+00:00:47,840 --> 00:00:52,480
+three yeah there's no point continue
+
+23
+00:00:50,719 --> 00:00:54,800
+based on the current state there's no
+
+24
+00:00:52,480 --> 00:00:57,120
+point to continue then we just backtrack
+
+25
+00:00:54,800 --> 00:01:00,000
+to the previous state okay so there's no
+
+26
+00:00:57,120 --> 00:01:01,440
+point wasting time searching
+
+27
+00:01:00,000 --> 00:01:03,760
+a subtree
+
+28
+00:01:01,440 --> 00:01:06,880
+when we realize that there's no point
+
+29
+00:01:03,760 --> 00:01:10,240
+doing so so for example if for each node
+
+30
+00:01:06,880 --> 00:01:12,880
+we can store the the current choice of
+
+31
+00:01:10,240 --> 00:01:14,720
+numbers and if we find out that we have
+
+32
+00:01:12,880 --> 00:01:16,640
+more than k numbers there's no point to
+
+33
+00:01:14,720 --> 00:01:19,439
+keep adding it right there's no point to
+
+34
+00:01:16,640 --> 00:01:21,360
+keep adding it and also if we find out
+
+35
+00:01:19,439 --> 00:01:24,159
+that the the sum
+
+36
+00:01:21,360 --> 00:01:26,000
+the sum of the current choice is smaller
+
+37
+00:01:24,159 --> 00:01:27,840
+than n and there's no point to keep
+
+38
+00:01:26,000 --> 00:01:30,640
+adding it why is that because if we keep
+
+39
+00:01:27,840 --> 00:01:32,640
+bringing more numbers then that would be
+
+40
+00:01:30,640 --> 00:01:34,640
+obviously more than n right which is
+
+41
+00:01:32,640 --> 00:01:35,840
+normal uh the thing we are looking for
+
+42
+00:01:34,640 --> 00:01:38,000
+okay
+
+43
+00:01:35,840 --> 00:01:38,799
+okay
+
+44
+00:01:38,000 --> 00:01:40,560
+so
+
+45
+00:01:38,799 --> 00:01:43,280
+we also talked about it to us from
+
+46
+00:01:40,560 --> 00:01:45,280
+literature input combination so and also
+
+47
+00:01:43,280 --> 00:01:48,079
+we can use the permutation so
+
+48
+00:01:45,280 --> 00:01:50,399
+return x for x in combinations you know
+
+49
+00:01:48,079 --> 00:01:52,399
+the first parameter will be the
+
+50
+00:01:50,399 --> 00:01:55,360
+the choice and the iterator so we are
+
+51
+00:01:52,399 --> 00:01:57,759
+giving it range 110 meaning that we have
+
+52
+00:01:55,360 --> 00:02:00,560
+nine numbers and we also pick numbers as
+
+53
+00:01:57,759 --> 00:02:03,759
+a combination i know we we can use the
+
+54
+00:02:00,560 --> 00:02:05,360
+least comprehension return x y x in this
+
+55
+00:02:03,759 --> 00:02:07,119
+you know this is the
+
+56
+00:02:05,360 --> 00:02:09,280
+proof of thing the
+
+57
+00:02:07,119 --> 00:02:11,200
+provost in all the combination right and
+
+58
+00:02:09,280 --> 00:02:14,000
+then if sum
+
+59
+00:02:11,200 --> 00:02:17,360
+equals n right and we can also use the
+
+60
+00:02:14,000 --> 00:02:19,440
+backtracking so how do we factor so we
+
+61
+00:02:17,360 --> 00:02:21,599
+keep adding the numbers you know until
+
+62
+00:02:19,440 --> 00:02:24,800
+we find the solution so basically it's
+
+63
+00:02:21,599 --> 00:02:26,879
+like uh define yeah define
+
+64
+00:02:24,800 --> 00:02:29,120
+the default search we have this current
+
+65
+00:02:26,879 --> 00:02:31,360
+list and then we have the current sum
+
+66
+00:02:29,120 --> 00:02:34,000
+and we have these current numbers
+
+67
+00:02:31,360 --> 00:02:38,400
+right current numbers i
+
+68
+00:02:34,000 --> 00:02:40,000
+if current sum current sum is is bigger
+
+69
+00:02:38,400 --> 00:02:42,640
+length and
+
+70
+00:02:40,000 --> 00:02:45,519
+or if the length of current is bigger
+
+71
+00:02:42,640 --> 00:02:47,840
+than k yeah because if we have more the
+
+72
+00:02:45,519 --> 00:02:50,080
+sum more than n or we have take more
+
+73
+00:02:47,840 --> 00:02:51,599
+than k numbers than we just repent and
+
+74
+00:02:50,080 --> 00:02:54,400
+then the other thing we need to check if
+
+75
+00:02:51,599 --> 00:02:57,360
+current sum equal equal n or the length
+
+76
+00:02:54,400 --> 00:02:59,200
+k length the current equal equal k when
+
+77
+00:02:57,360 --> 00:03:02,400
+we find the one this then we need to
+
+78
+00:02:59,200 --> 00:03:04,319
+append it so answer the append
+
+79
+00:03:02,400 --> 00:03:05,840
+append current and we need to make a
+
+80
+00:03:04,319 --> 00:03:08,080
+copy of that right
+
+81
+00:03:05,840 --> 00:03:10,720
+otherwise we just check the
+
+82
+00:03:08,080 --> 00:03:13,680
+next number for x in range
+
+83
+00:03:10,720 --> 00:03:16,640
+we check from the i to 10
+
+84
+00:03:13,680 --> 00:03:19,040
+uh up to 10 not including 10 to 9 then
+
+85
+00:03:16,640 --> 00:03:21,519
+we do this definite search if we use the
+
+86
+00:03:19,040 --> 00:03:23,040
+local number x then what will you
+
+87
+00:03:21,519 --> 00:03:24,799
+current plus
+
+88
+00:03:23,040 --> 00:03:27,840
+the x
+
+89
+00:03:24,799 --> 00:03:30,319
+the custom will be updated current sum
+
+90
+00:03:27,840 --> 00:03:32,400
+plus x and the next number we can use is
+
+91
+00:03:30,319 --> 00:03:34,319
+x plus one right
+
+92
+00:03:32,400 --> 00:03:36,560
+okay yeah yeah
+
+93
+00:03:34,319 --> 00:03:38,560
+yeah right just at the beginning we try
+
+94
+00:03:36,560 --> 00:03:40,000
+with the empty list and the current sum
+
+95
+00:03:38,560 --> 00:03:43,680
+is zero and we start with the first
+
+96
+00:03:40,000 --> 00:03:46,319
+number easy okay let's definitely search
+
+97
+00:03:43,680 --> 00:03:49,040
+backtracking okay so coming back to this
+
+98
+00:03:46,319 --> 00:03:50,799
+combination we can actually replace this
+
+99
+00:03:49,040 --> 00:03:52,959
+combination yeah
+
+100
+00:03:50,799 --> 00:03:55,840
+if we define this combination of a c o
+
+101
+00:03:52,959 --> 00:03:58,319
+and b combination so coming if we want
+
+102
+00:03:55,840 --> 00:04:00,319
+to replace this current i we want to
+
+103
+00:03:58,319 --> 00:04:01,840
+have this cover a combination which is
+
+104
+00:04:00,319 --> 00:04:03,920
+the first parameter would be the current
+
+105
+00:04:01,840 --> 00:04:04,799
+these current choice i will be the next
+
+106
+00:04:03,920 --> 00:04:07,120
+number
+
+107
+00:04:04,799 --> 00:04:08,799
+okay so then we need to if length
+
+108
+00:04:07,120 --> 00:04:10,720
+current equals k
+
+109
+00:04:08,799 --> 00:04:13,040
+then we can year yeah what's the year
+
+110
+00:04:10,720 --> 00:04:15,200
+year current and return
+
+111
+00:04:13,040 --> 00:04:19,680
+otherwise we can just try
+
+112
+00:04:15,200 --> 00:04:22,639
+for i in for x in range
+
+113
+00:04:19,680 --> 00:04:25,199
+i to the 10 up to 10 not including 10
+
+114
+00:04:22,639 --> 00:04:26,960
+then we can yeah from
+
+115
+00:04:25,199 --> 00:04:29,280
+yeah from
+
+116
+00:04:26,960 --> 00:04:32,479
+here from what current
+
+117
+00:04:29,280 --> 00:04:34,639
+plus x and then x plus one okay so
+
+118
+00:04:32,479 --> 00:04:37,840
+basically this function is just to to
+
+119
+00:04:34,639 --> 00:04:39,919
+generate the iterator yeah yeah yeah
+
+120
+00:04:37,840 --> 00:04:42,320
+meaningless promise yeah i promise you i
+
+121
+00:04:39,919 --> 00:04:43,360
+want to generate these for you when you
+
+122
+00:04:42,320 --> 00:04:44,400
+need it
+
+123
+00:04:43,360 --> 00:04:46,720
+so
+
+124
+00:04:44,400 --> 00:04:49,199
+in this current list and up that's the
+
+125
+00:04:46,720 --> 00:04:51,360
+number let's we can pick
+
+126
+00:04:49,199 --> 00:04:54,320
+right for example if this is 2 that
+
+127
+00:04:51,360 --> 00:04:56,800
+means that we can pick the numbers
+
+128
+00:04:54,320 --> 00:04:57,680
+greater or equal than two
+
+129
+00:04:56,800 --> 00:05:00,160
+okay
+
+130
+00:04:57,680 --> 00:05:02,479
+and then for each number we can just try
+
+131
+00:05:00,160 --> 00:05:04,720
+to the earth from okay yeah from and
+
+132
+00:05:02,479 --> 00:05:06,320
+then this is the location here from
+
+133
+00:05:04,720 --> 00:05:09,440
+combination
+
+134
+00:05:06,320 --> 00:05:11,680
+uh column plus x x plus one okay
+
+135
+00:05:09,440 --> 00:05:13,360
+this is the combination and how about
+
+136
+00:05:11,680 --> 00:05:15,120
+the preferences what kind of data
+
+137
+00:05:13,360 --> 00:05:17,120
+structure we need to use to implement a
+
+138
+00:05:15,120 --> 00:05:20,160
+purpose yes eq and impression
+
+139
+00:05:17,120 --> 00:05:21,520
+specifically is dq double and liquid
+
+140
+00:05:20,160 --> 00:05:23,520
+so so
+
+141
+00:05:21,520 --> 00:05:25,360
+it's just that because we have this
+
+142
+00:05:23,520 --> 00:05:27,199
+three right we have these three we can
+
+143
+00:05:25,360 --> 00:05:29,919
+visualize the search
+
+144
+00:05:27,199 --> 00:05:32,400
+by the tree so at the beginning we start
+
+145
+00:05:29,919 --> 00:05:34,639
+with the empty bs right empty this and
+
+146
+00:05:32,400 --> 00:05:37,039
+then the tree the first note would be if
+
+147
+00:05:34,639 --> 00:05:39,759
+left side try to put the number one okay
+
+148
+00:05:37,039 --> 00:05:42,080
+if we the number one let's that's still
+
+149
+00:05:39,759 --> 00:05:44,240
+okay to add more numbers then we start
+
+150
+00:05:42,080 --> 00:05:46,639
+with that number uh we add another
+
+151
+00:05:44,240 --> 00:05:47,919
+number two and keep going number number
+
+152
+00:05:46,639 --> 00:05:50,800
+three
+
+153
+00:05:47,919 --> 00:05:53,120
+so you know for the backtracking deficit
+
+154
+00:05:50,800 --> 00:05:54,800
+is going down as deep as we can and if
+
+155
+00:05:53,120 --> 00:05:55,680
+not we go back but for the breakfast
+
+156
+00:05:54,800 --> 00:05:58,080
+search
+
+157
+00:05:55,680 --> 00:05:59,440
+we're doing level by level so now we try
+
+158
+00:05:58,080 --> 00:06:02,000
+the first number we try the second
+
+159
+00:05:59,440 --> 00:06:04,400
+number with uh the number two number
+
+160
+00:06:02,000 --> 00:06:07,360
+three etcetera okay so level by level
+
+161
+00:06:04,400 --> 00:06:09,520
+we're using the dq okay so let's
+
+162
+00:06:07,360 --> 00:06:11,199
+implement this defined
+
+163
+00:06:09,520 --> 00:06:15,039
+preference search
+
+164
+00:06:11,199 --> 00:06:17,360
+at the beginning with the q q equals dq
+
+165
+00:06:15,039 --> 00:06:18,840
+and then we given this uh
+
+166
+00:06:17,360 --> 00:06:21,199
+couple the first one
+
+167
+00:06:18,840 --> 00:06:23,360
+is disk and the sum
+
+168
+00:06:21,199 --> 00:06:26,639
+the sum will be zero the next number we
+
+169
+00:06:23,360 --> 00:06:30,160
+want to try we can try from is one
+
+170
+00:06:26,639 --> 00:06:32,400
+okay and then wire q yeah right why
+
+171
+00:06:30,160 --> 00:06:34,160
+there are elements in the queue so we
+
+172
+00:06:32,400 --> 00:06:36,080
+need to find out how many of them let's
+
+173
+00:06:34,160 --> 00:06:39,199
+say size sc
+
+174
+00:06:36,080 --> 00:06:41,919
+equals the length of cube so
+
+175
+00:06:39,199 --> 00:06:44,319
+if we get this sd so it means that there
+
+176
+00:06:41,919 --> 00:06:45,919
+are sc numbers of nodes in the current
+
+177
+00:06:44,319 --> 00:06:48,880
+key which belongs to the same level and
+
+178
+00:06:45,919 --> 00:06:51,120
+then let's pop in then let's pop it out
+
+179
+00:06:48,880 --> 00:06:54,240
+each by it okay
+
+180
+00:06:51,120 --> 00:06:54,240
+in range fc
+
+181
+00:06:54,479 --> 00:06:59,360
+so now we have this current
+
+182
+00:06:57,199 --> 00:07:02,479
+current sum
+
+183
+00:06:59,360 --> 00:07:04,960
+and the x the note we want we can try
+
+184
+00:07:02,479 --> 00:07:06,880
+equals q's of top left
+
+185
+00:07:04,960 --> 00:07:09,759
+we're taking from the left first thing
+
+186
+00:07:06,880 --> 00:07:12,880
+first oh yeah so we need to dq from the
+
+187
+00:07:09,759 --> 00:07:12,880
+left of the queue okay
+
+188
+00:07:12,960 --> 00:07:17,840
+now so then we can try if the sum equal
+
+189
+00:07:16,400 --> 00:07:18,800
+equals n
+
+190
+00:07:17,840 --> 00:07:22,080
+and
+
+191
+00:07:18,800 --> 00:07:24,400
+the length of the current equal equal k
+
+192
+00:07:22,080 --> 00:07:25,759
+then we can just answer the append
+
+193
+00:07:24,400 --> 00:07:28,639
+append uh
+
+194
+00:07:25,759 --> 00:07:31,520
+append a copy of the current okay copy
+
+195
+00:07:28,639 --> 00:07:34,319
+okay
+
+196
+00:07:31,520 --> 00:07:35,919
+as as what as if
+
+197
+00:07:34,319 --> 00:07:39,599
+as if
+
+198
+00:07:35,919 --> 00:07:42,479
+carbon we want to find out
+
+199
+00:07:39,599 --> 00:07:46,080
+we want to find out as if the length of
+
+200
+00:07:42,479 --> 00:07:48,080
+the current is smaller than k
+
+201
+00:07:46,080 --> 00:07:50,720
+yeah we still have
+
+202
+00:07:48,080 --> 00:07:51,680
+we still have numbers to pick
+
+203
+00:07:50,720 --> 00:07:52,720
+and
+
+204
+00:07:51,680 --> 00:07:54,639
+the sum
+
+205
+00:07:52,720 --> 00:07:57,199
+the length of the sum
+
+206
+00:07:54,639 --> 00:07:59,840
+the sum is smaller than n yeah we the
+
+207
+00:07:57,199 --> 00:08:01,759
+numbers we pick do not exist the sum
+
+208
+00:07:59,840 --> 00:08:04,000
+okay then we actually we need to go
+
+209
+00:08:01,759 --> 00:08:06,720
+through the numbers for i in range we
+
+210
+00:08:04,000 --> 00:08:09,039
+start from the x up to 10 not including
+
+211
+00:08:06,720 --> 00:08:11,120
+10 q append
+
+212
+00:08:09,039 --> 00:08:12,879
+attend
+
+213
+00:08:11,120 --> 00:08:14,319
+dot plus
+
+214
+00:08:12,879 --> 00:08:17,120
+plus one
+
+215
+00:08:14,319 --> 00:08:19,840
+column plus the i
+
+216
+00:08:17,120 --> 00:08:22,560
+s plus i the sum needs to be incremented
+
+217
+00:08:19,840 --> 00:08:24,240
+by i and then the number needs to pick
+
+218
+00:08:22,560 --> 00:08:26,800
+is the
+
+219
+00:08:24,240 --> 00:08:29,280
+i plus 1 x if we pick the number i the
+
+220
+00:08:26,800 --> 00:08:30,319
+next number we can pick is i plus one
+
+221
+00:08:29,280 --> 00:08:31,840
+and now b
+
+222
+00:08:30,319 --> 00:08:34,560
+yeah okay
+
+223
+00:08:31,840 --> 00:08:36,159
+let's press the search
+
+224
+00:08:34,560 --> 00:08:38,780
+okay
+
+225
+00:08:36,159 --> 00:08:40,000
+so what have we learned today
+
+226
+00:08:38,780 --> 00:08:41,919
+[Music]
+
+227
+00:08:40,000 --> 00:08:42,959
+so what are we doing today what are we
+
+228
+00:08:41,919 --> 00:08:44,800
+doing
+
+229
+00:08:42,959 --> 00:08:46,560
+we're adding numbers
+
+230
+00:08:44,800 --> 00:08:48,720
+yeah so come on it's meant to be what
+
+231
+00:08:46,560 --> 00:08:50,640
+what what do we learn
+
+232
+00:08:48,720 --> 00:08:52,480
+what's the new what's some what's new
+
+233
+00:08:50,640 --> 00:08:55,040
+today
+
+234
+00:08:52,480 --> 00:08:58,240
+the problem is there are
+
+235
+00:08:55,040 --> 00:08:59,680
+only numbers one to nine yeah
+
+236
+00:08:58,240 --> 00:09:03,200
+and
+
+237
+00:08:59,680 --> 00:09:05,600
+you can use each one number one yes
+
+238
+00:09:03,200 --> 00:09:06,959
+and you have to make the target whatever
+
+239
+00:09:05,600 --> 00:09:08,320
+it's called yeah
+
+240
+00:09:06,959 --> 00:09:10,080
+yeah we talked about that yesterday and
+
+241
+00:09:08,320 --> 00:09:12,320
+the day before yesterday so what's new
+
+242
+00:09:10,080 --> 00:09:12,320
+today
+
+243
+00:09:12,959 --> 00:09:19,279
+what's the queue
+
+244
+00:09:15,680 --> 00:09:19,279
+yeah what's the anchor then come on
+
+245
+00:09:19,440 --> 00:09:23,200
+yeah
+
+246
+00:09:20,399 --> 00:09:25,519
+yeah uh last lesson we talked about the
+
+247
+00:09:23,200 --> 00:09:27,360
+deficit backtracking okay
+
+248
+00:09:25,519 --> 00:09:29,360
+so today it's just reference search for
+
+249
+00:09:27,360 --> 00:09:31,920
+the process you will use the dq but with
+
+250
+00:09:29,360 --> 00:09:33,839
+the dq we need to store all the nodes on
+
+251
+00:09:31,920 --> 00:09:35,440
+the same level but with the default
+
+252
+00:09:33,839 --> 00:09:37,120
+search we don't need to store all the
+
+253
+00:09:35,440 --> 00:09:37,920
+nodes in the same level right we just
+
+254
+00:09:37,120 --> 00:09:40,160
+kill
+
+255
+00:09:37,920 --> 00:09:42,640
+just follow the path as deep as we can
+
+256
+00:09:40,160 --> 00:09:45,200
+and if not we just go back okay
+
+257
+00:09:42,640 --> 00:09:48,200
+yeah okay that'll be for today bye bye
+
+258
+00:09:45,200 --> 00:09:48,200
+bye
+
