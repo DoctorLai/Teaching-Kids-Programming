@@ -1,0 +1,1508 @@
+1
+00:00:00,240 --> 00:00:07,120
+hello hello mr mission all right
+
+2
+00:00:04,160 --> 00:00:09,760
+okay so let's say we are given a final
+
+3
+00:00:07,120 --> 00:00:11,040
+treat what's the binary tree this is
+
+4
+00:00:09,760 --> 00:00:12,240
+tree
+
+5
+00:00:11,040 --> 00:00:14,799
+with
+
+6
+00:00:12,240 --> 00:00:16,000
+numbers it doesn't have to be necessary
+
+7
+00:00:14,799 --> 00:00:18,560
+numbers sometimes you can put the
+
+8
+00:00:16,000 --> 00:00:20,800
+strings you know the objects the
+
+9
+00:00:18,560 --> 00:00:22,720
+biscuits yeah basically the biscuit
+
+10
+00:00:20,800 --> 00:00:24,000
+objects the the sets the you know
+
+11
+00:00:22,720 --> 00:00:26,000
+anything
+
+12
+00:00:24,000 --> 00:00:28,320
+basically trees
+
+13
+00:00:26,000 --> 00:00:31,119
+data structures is used to
+
+14
+00:00:28,320 --> 00:00:33,040
+store the data right so what data
+
+15
+00:00:31,119 --> 00:00:35,120
+structure the kind of the
+
+16
+00:00:33,040 --> 00:00:37,440
+thing for computer to
+
+17
+00:00:35,120 --> 00:00:38,559
+you know to store the data yeah to store
+
+18
+00:00:37,440 --> 00:00:40,320
+the data
+
+19
+00:00:38,559 --> 00:00:43,520
+so this is the binary
+
+20
+00:00:40,320 --> 00:00:46,960
+and we have a copy of it let's say we
+
+21
+00:00:43,520 --> 00:00:49,760
+have a clone chrome clone
+
+22
+00:00:46,960 --> 00:00:49,760
+copy yeah
+
+23
+00:00:49,840 --> 00:00:53,840
+exactly the same same tree
+
+24
+00:00:53,920 --> 00:00:59,760
+it's a clone so it's a duplicate
+
+25
+00:00:57,280 --> 00:01:01,760
+these two trees exactly but they are not
+
+26
+00:00:59,760 --> 00:01:03,359
+their identity is not assembled just the
+
+27
+00:01:01,760 --> 00:01:05,840
+values the same yeah
+
+28
+00:01:03,359 --> 00:01:08,560
+if we are given a no here for example if
+
+29
+00:01:05,840 --> 00:01:10,880
+we are given this node yeah number five
+
+30
+00:01:08,560 --> 00:01:14,080
+okay your given is two three a and b
+
+31
+00:01:10,880 --> 00:01:16,479
+right so if we are given if we're given
+
+32
+00:01:14,080 --> 00:01:19,040
+this target typing
+
+33
+00:01:16,479 --> 00:01:21,840
+equals let's say five we need to find
+
+34
+00:01:19,040 --> 00:01:24,960
+the corresponding note in the
+
+35
+00:01:21,840 --> 00:01:27,280
+cookie tree which is this five okay so
+
+36
+00:01:24,960 --> 00:01:29,040
+if we are find if we given this five we
+
+37
+00:01:27,280 --> 00:01:31,040
+need to return this five if we given
+
+38
+00:01:29,040 --> 00:01:33,840
+this two we need to find it in the
+
+39
+00:01:31,040 --> 00:01:35,520
+copyright okay so chrome what's crown
+
+40
+00:01:33,840 --> 00:01:38,840
+what's the code
+
+41
+00:01:35,520 --> 00:01:40,400
+copy we're done a b
+
+42
+00:01:38,840 --> 00:01:43,119
+okay
+
+43
+00:01:40,400 --> 00:01:45,520
+okay so in the equal sign yeah remember
+
+44
+00:01:43,119 --> 00:01:47,920
+a equal equal in python we use number
+
+45
+00:01:45,520 --> 00:01:49,119
+equal right this is to check the values
+
+46
+00:01:47,920 --> 00:01:52,880
+for example
+
+47
+00:01:49,119 --> 00:01:56,880
+a equals one two three this is the list
+
+48
+00:01:52,880 --> 00:01:58,960
+b equals one two three if we say a equal
+
+49
+00:01:56,880 --> 00:02:00,560
+equal b
+
+50
+00:01:58,960 --> 00:02:02,000
+we check the values
+
+51
+00:02:00,560 --> 00:02:03,280
+so a
+
+52
+00:02:02,000 --> 00:02:04,399
+is a
+
+53
+00:02:03,280 --> 00:02:06,079
+b
+
+54
+00:02:04,399 --> 00:02:09,119
+so it should return true because look
+
+55
+00:02:06,079 --> 00:02:10,800
+these two the values are the same
+
+56
+00:02:09,119 --> 00:02:14,319
+then that will return to
+
+57
+00:02:10,800 --> 00:02:17,280
+another one a is b so can you guess
+
+58
+00:02:14,319 --> 00:02:19,920
+should return two of us
+
+59
+00:02:17,280 --> 00:02:22,640
+yeah we're done exactly first
+
+60
+00:02:19,920 --> 00:02:23,440
+is means the identity
+
+61
+00:02:22,640 --> 00:02:24,640
+right
+
+62
+00:02:23,440 --> 00:02:27,200
+so
+
+63
+00:02:24,640 --> 00:02:29,200
+if the value is the same if there are
+
+64
+00:02:27,200 --> 00:02:31,840
+different copies for example in memory
+
+65
+00:02:29,200 --> 00:02:34,080
+in computer ram look at this a and b
+
+66
+00:02:31,840 --> 00:02:37,200
+actually they are located at separate
+
+67
+00:02:34,080 --> 00:02:39,280
+memory so a is here one two three
+
+68
+00:02:37,200 --> 00:02:41,599
+b is here one two three
+
+69
+00:02:39,280 --> 00:02:42,560
+so even the contents is the same but
+
+70
+00:02:41,599 --> 00:02:44,959
+they are
+
+71
+00:02:42,560 --> 00:02:46,400
+they are different
+
+72
+00:02:44,959 --> 00:02:47,599
+okay
+
+73
+00:02:46,400 --> 00:02:50,959
+yeah
+
+74
+00:02:47,599 --> 00:02:54,800
+so the ease is identity so basically
+
+75
+00:02:50,959 --> 00:02:57,360
+this is is the same thing as id
+
+76
+00:02:54,800 --> 00:02:59,920
+that's the id function id a equal equal
+
+77
+00:02:57,360 --> 00:03:00,959
+idb okay so id
+
+78
+00:02:59,920 --> 00:03:03,280
+of a
+
+79
+00:03:00,959 --> 00:03:04,720
+parameter this parameter for the id it
+
+80
+00:03:03,280 --> 00:03:08,080
+returns a
+
+81
+00:03:04,720 --> 00:03:10,959
+a memory location it's a number if we
+
+82
+00:03:08,080 --> 00:03:12,879
+print the id a and b there will be two
+
+83
+00:03:10,959 --> 00:03:13,840
+different numbers which means they are
+
+84
+00:03:12,879 --> 00:03:16,000
+different
+
+85
+00:03:13,840 --> 00:03:18,800
+right they are different if it checks
+
+86
+00:03:16,000 --> 00:03:19,920
+the identity but if this one look if i
+
+87
+00:03:18,800 --> 00:03:21,360
+say b
+
+88
+00:03:19,920 --> 00:03:24,879
+equal a
+
+89
+00:03:21,360 --> 00:03:28,640
+then a is b that will return true
+
+90
+00:03:24,879 --> 00:03:31,760
+right because b is an alias so the
+
+91
+00:03:28,640 --> 00:03:33,519
+shallow copy is an alias right
+
+92
+00:03:31,760 --> 00:03:36,080
+it's not actually an individual copy
+
+93
+00:03:33,519 --> 00:03:38,720
+okay make sense okay so here look a and
+
+94
+00:03:36,080 --> 00:03:41,280
+b b is a separate yeah
+
+95
+00:03:38,720 --> 00:03:42,640
+it's a separate tree right if we are
+
+96
+00:03:41,280 --> 00:03:44,959
+given a note
+
+97
+00:03:42,640 --> 00:03:47,440
+if we are given a note in the tree a we
+
+98
+00:03:44,959 --> 00:03:49,920
+need to find the corresponding one in a
+
+99
+00:03:47,440 --> 00:03:53,280
+tree b because these two trees
+
+100
+00:03:49,920 --> 00:03:55,760
+share the same structure yeah
+
+101
+00:03:53,280 --> 00:03:58,319
+the structures the numbers and the
+
+102
+00:03:55,760 --> 00:03:59,680
+numbers and the values for each now okay
+
+103
+00:03:58,319 --> 00:04:01,280
+so
+
+104
+00:03:59,680 --> 00:04:04,400
+what's your song how can we solve this
+
+105
+00:04:01,280 --> 00:04:04,400
+problem i mean first of all
+
+106
+00:04:05,519 --> 00:04:09,360
+exactly yeah
+
+107
+00:04:06,959 --> 00:04:10,640
+given the financing given the tree given
+
+108
+00:04:09,360 --> 00:04:14,159
+a graph
+
+109
+00:04:10,640 --> 00:04:17,680
+the most popular two most popular three
+
+110
+00:04:14,159 --> 00:04:20,400
+traversal a graph traversal is
+
+111
+00:04:17,680 --> 00:04:22,240
+that's a search of breakfast okay and
+
+112
+00:04:20,400 --> 00:04:24,560
+for that research we can implement using
+
+113
+00:04:22,240 --> 00:04:26,720
+the recursion or iterative
+
+114
+00:04:24,560 --> 00:04:28,560
+and for graph research we travel the
+
+115
+00:04:26,720 --> 00:04:31,360
+tree level by level
+
+116
+00:04:28,560 --> 00:04:32,320
+and we're using the dq for the definite
+
+117
+00:04:31,360 --> 00:04:34,800
+search
+
+118
+00:04:32,320 --> 00:04:37,199
+we use the stack if we implement using
+
+119
+00:04:34,800 --> 00:04:39,600
+the application the computer maintain a
+
+120
+00:04:37,199 --> 00:04:41,759
+stack for us but we can implement it
+
+121
+00:04:39,600 --> 00:04:42,880
+using iterative and in this case we have
+
+122
+00:04:41,759 --> 00:04:45,600
+to
+
+123
+00:04:42,880 --> 00:04:47,120
+you know maintain a stack ourselves okay
+
+124
+00:04:45,600 --> 00:04:48,800
+so what's the difference between
+
+125
+00:04:47,120 --> 00:04:52,000
+devastation professors
+
+126
+00:04:48,800 --> 00:04:53,759
+episode jesus stack and breakfast
+
+127
+00:04:52,000 --> 00:04:55,199
+apart from this what's the
+
+128
+00:04:53,759 --> 00:04:58,560
+difference what's the major difference
+
+129
+00:04:55,199 --> 00:04:59,759
+of the definitive search i mean the name
+
+130
+00:04:58,560 --> 00:05:01,919
+the
+
+131
+00:04:59,759 --> 00:05:06,010
+how we traverse the tree i mean in terms
+
+132
+00:05:01,919 --> 00:05:09,389
+the order we choose to anybody
+
+133
+00:05:06,010 --> 00:05:09,389
+[Music]
+
+134
+00:05:10,960 --> 00:05:14,639
+on the other hand what's the deficits
+
+135
+00:05:12,800 --> 00:05:17,039
+doing
+
+136
+00:05:14,639 --> 00:05:19,120
+for example the definition for this one
+
+137
+00:05:17,039 --> 00:05:21,680
+for the tree what do we get
+
+138
+00:05:19,120 --> 00:05:23,280
+if we're using this the pre-order let's
+
+139
+00:05:21,680 --> 00:05:25,600
+say note
+
+140
+00:05:23,280 --> 00:05:26,960
+left to right okay so what's the
+
+141
+00:05:25,600 --> 00:05:28,560
+pre-order
+
+142
+00:05:26,960 --> 00:05:29,680
+that's the search pre-order of this
+
+143
+00:05:28,560 --> 00:05:30,720
+biometry
+
+144
+00:05:29,680 --> 00:05:32,880
+one
+
+145
+00:05:30,720 --> 00:05:34,240
+two four
+
+146
+00:05:32,880 --> 00:05:38,000
+five
+
+147
+00:05:34,240 --> 00:05:39,680
+five three six seven exactly okay and
+
+148
+00:05:38,000 --> 00:05:41,440
+and the preferred search is one two
+
+149
+00:05:39,680 --> 00:05:43,680
+three four five six seven eight seconds
+
+150
+00:05:41,440 --> 00:05:46,080
+okay let's uh let's implement the
+
+151
+00:05:43,680 --> 00:05:47,840
+definition today okay it should be quick
+
+152
+00:05:46,080 --> 00:05:50,720
+and easy yeah we have seen these
+
+153
+00:05:47,840 --> 00:05:51,840
+definitions many many times seven search
+
+154
+00:05:50,720 --> 00:05:53,840
+preferences professorship the most
+
+155
+00:05:51,840 --> 00:05:56,240
+important thing i mean i want you to
+
+156
+00:05:53,840 --> 00:05:58,000
+understand during these 400 more than
+
+157
+00:05:56,240 --> 00:05:59,520
+400 days yeah
+
+158
+00:05:58,000 --> 00:06:01,280
+of teaching
+
+159
+00:05:59,520 --> 00:06:03,759
+that's the most important takeaway
+
+160
+00:06:01,280 --> 00:06:07,280
+because deaf search and professors
+
+161
+00:06:03,759 --> 00:06:08,960
+are the two most popular important
+
+162
+00:06:07,280 --> 00:06:11,039
+very useful
+
+163
+00:06:08,960 --> 00:06:13,199
+three graph traversal agreement and it
+
+164
+00:06:11,039 --> 00:06:15,120
+can be used to solve many many problems
+
+165
+00:06:13,199 --> 00:06:17,199
+right as we can see we use the different
+
+166
+00:06:15,120 --> 00:06:18,319
+search processes to solve lots of lots
+
+167
+00:06:17,199 --> 00:06:20,800
+of the
+
+168
+00:06:18,319 --> 00:06:23,199
+three graph problems right
+
+169
+00:06:20,800 --> 00:06:25,440
+another thing to notice is that that's
+
+170
+00:06:23,199 --> 00:06:26,639
+the size look if this is the definition
+
+171
+00:06:25,440 --> 00:06:29,440
+if we want to
+
+172
+00:06:26,639 --> 00:06:31,440
+if you if we want to you know find the
+
+173
+00:06:29,440 --> 00:06:33,360
+solution to each other yeah if you don't
+
+174
+00:06:31,440 --> 00:06:36,080
+want to locate the node
+
+175
+00:06:33,360 --> 00:06:38,560
+yeah sometimes the default search are
+
+176
+00:06:36,080 --> 00:06:40,639
+quicker to find the solution right for
+
+177
+00:06:38,560 --> 00:06:43,840
+example if if the
+
+178
+00:06:40,639 --> 00:06:46,080
+if the solution is here yeah
+
+179
+00:06:43,840 --> 00:06:48,319
+if the solution is here which one which
+
+180
+00:06:46,080 --> 00:06:50,240
+aggregate do you think it's better to
+
+181
+00:06:48,319 --> 00:06:51,840
+find the solution quicker let's search
+
+182
+00:06:50,240 --> 00:06:53,199
+your preferences if you don't know if
+
+183
+00:06:51,840 --> 00:06:55,520
+the target node is here where we're
+
+184
+00:06:53,199 --> 00:06:57,440
+trying to find exactly because look it
+
+185
+00:06:55,520 --> 00:07:01,520
+goes it'll find it
+
+186
+00:06:57,440 --> 00:07:02,290
+and how about if i want even notice here
+
+187
+00:07:01,520 --> 00:07:03,440
+which method
+
+188
+00:07:02,290 --> 00:07:06,319
+[Music]
+
+189
+00:07:03,440 --> 00:07:08,160
+purposes yeah you see yeah you see so it
+
+190
+00:07:06,319 --> 00:07:10,720
+depends on the problem yeah it depends
+
+191
+00:07:08,160 --> 00:07:12,800
+on problem breakfast search if we find
+
+192
+00:07:10,720 --> 00:07:15,039
+it if we're doing the processor we find
+
+193
+00:07:12,800 --> 00:07:17,440
+it it's the shortest path if the edges
+
+194
+00:07:15,039 --> 00:07:19,759
+are unweighted the cost of between the
+
+195
+00:07:17,440 --> 00:07:21,360
+nodes is unweighted right do you
+
+196
+00:07:19,759 --> 00:07:23,440
+remember the graph yeah
+
+197
+00:07:21,360 --> 00:07:26,080
+sometimes the graph has at least weight
+
+198
+00:07:23,440 --> 00:07:29,440
+yeah that's one the cost of going from a
+
+199
+00:07:26,080 --> 00:07:32,000
+to b is one because of going from a to c
+
+200
+00:07:29,440 --> 00:07:34,639
+three these are the weights yeah if we
+
+201
+00:07:32,000 --> 00:07:38,160
+if we are using the breakfast search on
+
+202
+00:07:34,639 --> 00:07:39,840
+the unweighted graph right then uh
+
+203
+00:07:38,160 --> 00:07:42,800
+then you have always find the shortest
+
+204
+00:07:39,840 --> 00:07:45,039
+path right shortest path
+
+205
+00:07:42,800 --> 00:07:46,560
+because it travels level by level and
+
+206
+00:07:45,039 --> 00:07:48,240
+whenever we found it
+
+207
+00:07:46,560 --> 00:07:49,440
+i know you'll be the shortest to the
+
+208
+00:07:48,240 --> 00:07:51,360
+dude right
+
+209
+00:07:49,440 --> 00:07:53,120
+but for the depth search
+
+210
+00:07:51,360 --> 00:07:54,879
+not necessary because
+
+211
+00:07:53,120 --> 00:07:57,039
+for the different search it may not be
+
+212
+00:07:54,879 --> 00:07:59,680
+guaranteed to find a optimal solution
+
+213
+00:07:57,039 --> 00:08:02,000
+for example look here you may find this
+
+214
+00:07:59,680 --> 00:08:04,560
+first right but sometimes the optimal
+
+215
+00:08:02,000 --> 00:08:07,440
+solution is here right if this is also
+
+216
+00:08:04,560 --> 00:08:08,240
+okay but it finds these nodes first
+
+217
+00:08:07,440 --> 00:08:09,840
+then
+
+218
+00:08:08,240 --> 00:08:11,440
+this is not optimum
+
+219
+00:08:09,840 --> 00:08:13,199
+right
+
+220
+00:08:11,440 --> 00:08:15,280
+to get it yeah
+
+221
+00:08:13,199 --> 00:08:16,639
+if these two nodes are both okay if
+
+222
+00:08:15,280 --> 00:08:19,280
+using the default search you'll find
+
+223
+00:08:16,639 --> 00:08:20,960
+this node this node is not optimum
+
+224
+00:08:19,280 --> 00:08:22,879
+but for the first search is always
+
+225
+00:08:20,960 --> 00:08:24,639
+guarantee us to find the optimal
+
+226
+00:08:22,879 --> 00:08:26,720
+solution
+
+227
+00:08:24,639 --> 00:08:28,879
+in this case optimum means the shortest
+
+228
+00:08:26,720 --> 00:08:31,840
+path okay but we also talked about
+
+229
+00:08:28,879 --> 00:08:34,159
+iterative depending right iterative
+
+230
+00:08:31,840 --> 00:08:36,479
+depending search
+
+231
+00:08:34,159 --> 00:08:38,640
+long time ago first of all we set the
+
+232
+00:08:36,479 --> 00:08:41,279
+maximum depth to one then we do the
+
+233
+00:08:38,640 --> 00:08:43,599
+definition if we can't find it we said
+
+234
+00:08:41,279 --> 00:08:44,560
+that that we increment the max step to
+
+235
+00:08:43,599 --> 00:08:46,720
+two
+
+236
+00:08:44,560 --> 00:08:49,839
+and then we we use the repeat this
+
+237
+00:08:46,720 --> 00:08:52,000
+definition if we can find it we we
+
+238
+00:08:49,839 --> 00:08:54,480
+increment the path right in increment
+
+239
+00:08:52,000 --> 00:08:56,640
+the maximum limit
+
+240
+00:08:54,480 --> 00:08:59,120
+okay and for the different search we
+
+241
+00:08:56,640 --> 00:09:00,880
+don't need to store all the nodes
+
+242
+00:08:59,120 --> 00:09:03,279
+of the same level but for the first
+
+243
+00:09:00,880 --> 00:09:05,279
+search we need to use the queue to store
+
+244
+00:09:03,279 --> 00:09:07,120
+the all the nodes in the same level
+
+245
+00:09:05,279 --> 00:09:09,120
+right let's see one disadvantage of
+
+246
+00:09:07,120 --> 00:09:10,000
+using the brussels search is that it may
+
+247
+00:09:09,120 --> 00:09:13,040
+be
+
+248
+00:09:10,000 --> 00:09:16,720
+maybe memory inefficient yeah
+
+249
+00:09:13,040 --> 00:09:17,519
+makes sense yeah okay okay that's a lot
+
+250
+00:09:16,720 --> 00:09:20,320
+of
+
+251
+00:09:17,519 --> 00:09:23,200
+things to digest right that's using the
+
+252
+00:09:20,320 --> 00:09:25,600
+data search it should be very easy
+
+253
+00:09:23,200 --> 00:09:28,000
+you know the question easy
+
+254
+00:09:25,600 --> 00:09:29,920
+define that's the set we're going to
+
+255
+00:09:28,000 --> 00:09:32,560
+find that this is the
+
+256
+00:09:29,920 --> 00:09:36,160
+original tree this is the clone tree and
+
+257
+00:09:32,560 --> 00:09:38,480
+this is the target right if not a then
+
+258
+00:09:36,160 --> 00:09:40,000
+we return yeah we can't find it with
+
+259
+00:09:38,480 --> 00:09:41,519
+this hand
+
+260
+00:09:40,000 --> 00:09:42,800
+if
+
+261
+00:09:41,519 --> 00:09:45,600
+a
+
+262
+00:09:42,800 --> 00:09:48,240
+is t okay because t is a note in the
+
+263
+00:09:45,600 --> 00:09:51,279
+tree a so then we can use this identity
+
+264
+00:09:48,240 --> 00:09:55,120
+check right then we can set it to set
+
+265
+00:09:51,279 --> 00:09:58,399
+the answer equals b and then we do 10
+
+266
+00:09:55,120 --> 00:10:00,240
+and then we can definitely search
+
+267
+00:09:58,399 --> 00:10:02,959
+a to left
+
+268
+00:10:00,240 --> 00:10:05,360
+b left
+
+269
+00:10:02,959 --> 00:10:08,240
+t and then we also need to search the
+
+270
+00:10:05,360 --> 00:10:11,120
+right through excess dot
+
+271
+00:10:08,240 --> 00:10:12,560
+therefore search a dot right b dot right
+
+272
+00:10:11,120 --> 00:10:14,880
+p okay
+
+273
+00:10:12,560 --> 00:10:16,640
+we have given this node t which is a
+
+274
+00:10:14,880 --> 00:10:19,279
+node in a we want to find the
+
+275
+00:10:16,640 --> 00:10:21,680
+corresponding node in b right so we just
+
+276
+00:10:19,279 --> 00:10:23,600
+do this definition you see the order of
+
+277
+00:10:21,680 --> 00:10:25,600
+traverse traversal the def and right
+
+278
+00:10:23,600 --> 00:10:28,480
+three does not matter right
+
+279
+00:10:25,600 --> 00:10:31,920
+this is all that the definition
+
+280
+00:10:28,480 --> 00:10:34,240
+when we find it when a is t or a or you
+
+281
+00:10:31,920 --> 00:10:36,000
+can say a equal equal t
+
+282
+00:10:34,240 --> 00:10:37,920
+but that's not identity check that's the
+
+283
+00:10:36,000 --> 00:10:40,560
+value to check okay so it's better to
+
+284
+00:10:37,920 --> 00:10:43,440
+add to do this is because t is given a
+
+285
+00:10:40,560 --> 00:10:45,519
+note in a right if the tree contains the
+
+286
+00:10:43,440 --> 00:10:48,480
+duplicate number then if we put it a
+
+287
+00:10:45,519 --> 00:10:50,560
+equal equal t which might not work right
+
+288
+00:10:48,480 --> 00:10:51,920
+because it might return
+
+289
+00:10:50,560 --> 00:10:52,640
+incorrect
+
+290
+00:10:51,920 --> 00:10:54,480
+no
+
+291
+00:10:52,640 --> 00:10:56,720
+okay this is one way another way if we
+
+292
+00:10:54,480 --> 00:10:58,880
+want to return this return a note for
+
+293
+00:10:56,720 --> 00:11:01,279
+the differences we can do this
+
+294
+00:10:58,880 --> 00:11:03,519
+a b t okay
+
+295
+00:11:01,279 --> 00:11:06,240
+if not a
+
+296
+00:11:03,519 --> 00:11:07,440
+return nothing right return num okay or
+
+297
+00:11:06,240 --> 00:11:09,680
+written
+
+298
+00:11:07,440 --> 00:11:10,880
+or we just return by default is written
+
+299
+00:11:09,680 --> 00:11:13,200
+none
+
+300
+00:11:10,880 --> 00:11:14,959
+if a is t
+
+301
+00:11:13,200 --> 00:11:17,360
+then with return
+
+302
+00:11:14,959 --> 00:11:20,640
+instead of setting central answer which
+
+303
+00:11:17,360 --> 00:11:24,079
+is the outside scope of the function
+
+304
+00:11:20,640 --> 00:11:27,120
+then we return b if a is t then we can b
+
+305
+00:11:24,079 --> 00:11:29,920
+then we need to go in the left left tree
+
+306
+00:11:27,120 --> 00:11:31,600
+right so x equals definite search
+
+307
+00:11:29,920 --> 00:11:34,240
+a dot left
+
+308
+00:11:31,600 --> 00:11:35,200
+b left
+
+309
+00:11:34,240 --> 00:11:38,399
+t
+
+310
+00:11:35,200 --> 00:11:41,279
+then if x if we found it yeah if we
+
+311
+00:11:38,399 --> 00:11:43,360
+thought it would return x y
+
+312
+00:11:41,279 --> 00:11:45,680
+otherwise we return
+
+313
+00:11:43,360 --> 00:11:48,399
+if it's not in the left tree then let's
+
+314
+00:11:45,680 --> 00:11:50,160
+try it at the right tree okay
+
+315
+00:11:48,399 --> 00:11:52,480
+b
+
+316
+00:11:50,160 --> 00:11:55,480
+what's these two implementation in
+
+317
+00:11:52,480 --> 00:11:55,480
+common
+
+318
+00:11:56,399 --> 00:12:00,639
+that's similar yeah yeah obviously last
+
+319
+00:11:58,480 --> 00:12:02,639
+year what's the common thing can you
+
+320
+00:12:00,639 --> 00:12:06,079
+find a common bit
+
+321
+00:12:02,639 --> 00:12:07,839
+what are these two in common
+
+322
+00:12:06,079 --> 00:12:10,639
+abt
+
+323
+00:12:07,839 --> 00:12:13,760
+that's more like syntax i mean what i
+
+324
+00:12:10,639 --> 00:12:13,760
+mean is algorithm
+
+325
+00:12:14,079 --> 00:12:18,320
+search okay they both definitely and
+
+326
+00:12:16,079 --> 00:12:19,120
+they both implement it in
+
+327
+00:12:18,320 --> 00:12:21,600
+that
+
+328
+00:12:19,120 --> 00:12:24,560
+yeah what's what's the accuracy
+
+329
+00:12:21,600 --> 00:12:26,959
+recursion yeah levels recursion
+
+330
+00:12:24,560 --> 00:12:29,440
+yeah okay and they both traverse on the
+
+331
+00:12:26,959 --> 00:12:31,440
+left tree first and then the right three
+
+332
+00:12:29,440 --> 00:12:34,000
+right and then look at this one if we
+
+333
+00:12:31,440 --> 00:12:35,839
+found a note in the left tree we return
+
+334
+00:12:34,000 --> 00:12:38,240
+without the searching the right tree
+
+335
+00:12:35,839 --> 00:12:40,320
+this one is the same if we found it we
+
+336
+00:12:38,240 --> 00:12:42,160
+set the seventh answer equals the
+
+337
+00:12:40,320 --> 00:12:43,440
+corresponding note
+
+338
+00:12:42,160 --> 00:12:45,600
+in the
+
+339
+00:12:43,440 --> 00:12:47,200
+in the clone tree and we return we now
+
+340
+00:12:45,600 --> 00:12:48,160
+keep going right
+
+341
+00:12:47,200 --> 00:12:50,800
+okay
+
+342
+00:12:48,160 --> 00:12:53,839
+the time came next t o n if there are n
+
+343
+00:12:50,800 --> 00:12:56,000
+notes in the tree in the binary the
+
+344
+00:12:53,839 --> 00:12:58,880
+space connecting o n
+
+345
+00:12:56,000 --> 00:13:01,760
+yeah because we are using this recursion
+
+346
+00:12:58,880 --> 00:13:04,480
+and then recursion we the computer needs
+
+347
+00:13:01,760 --> 00:13:06,639
+to maintain the stack for us yeah there
+
+348
+00:13:04,480 --> 00:13:08,639
+will be a calling stack right uh
+
+349
+00:13:06,639 --> 00:13:11,600
+every time we uh the convention makes a
+
+350
+00:13:08,639 --> 00:13:13,519
+call do the do the function call it
+
+351
+00:13:11,600 --> 00:13:15,519
+needs to push the parameters into the
+
+352
+00:13:13,519 --> 00:13:18,240
+step okay okay one last question what
+
+353
+00:13:15,519 --> 00:13:20,639
+have you learned today about finding a
+
+354
+00:13:18,240 --> 00:13:24,000
+corresponding node of the binary tree in
+
+355
+00:13:20,639 --> 00:13:26,880
+a coin of that tree
+
+356
+00:13:24,000 --> 00:13:29,760
+okay so finding so we we are given a
+
+357
+00:13:26,880 --> 00:13:32,720
+node in the tree a
+
+358
+00:13:29,760 --> 00:13:35,360
+and b three b is a clone
+
+359
+00:13:32,720 --> 00:13:37,120
+is a copy of the tree a so basically
+
+360
+00:13:35,360 --> 00:13:38,240
+there are two trees they are separating
+
+361
+00:13:37,120 --> 00:13:40,480
+three
+
+362
+00:13:38,240 --> 00:13:42,959
+but these two three
+
+363
+00:13:40,480 --> 00:13:45,199
+look exactly the same the structures and
+
+364
+00:13:42,959 --> 00:13:47,360
+the values exactly the same and we are
+
+365
+00:13:45,199 --> 00:13:49,839
+given a note in the tree a
+
+366
+00:13:47,360 --> 00:13:51,120
+the task is to find the corresponding
+
+367
+00:13:49,839 --> 00:13:53,920
+node in the
+
+368
+00:13:51,120 --> 00:13:56,399
+copy in the clone tree okay the argument
+
+369
+00:13:53,920 --> 00:13:57,920
+we're using is definite search
+
+370
+00:13:56,399 --> 00:14:00,079
+the default search
+
+371
+00:13:57,920 --> 00:14:02,399
+we can use the recursion which
+
+372
+00:14:00,079 --> 00:14:05,600
+we we talked today and tomorrow we're
+
+373
+00:14:02,399 --> 00:14:07,600
+going to use the iterative approach to
+
+374
+00:14:05,600 --> 00:14:09,680
+implement the deficit and the day after
+
+375
+00:14:07,600 --> 00:14:11,680
+tomorrow we're going to use the
+
+376
+00:14:09,680 --> 00:14:15,959
+breakfast search okay
+
+377
+00:14:11,680 --> 00:14:15,959
+yeah that'll be for today bye
+
