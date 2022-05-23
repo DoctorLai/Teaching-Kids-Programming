@@ -1,0 +1,996 @@
+1
+00:00:00,399 --> 00:00:06,879
+hello mr mr wine
+
+2
+00:00:03,600 --> 00:00:09,120
+what are we talking about yesterday
+
+3
+00:00:06,879 --> 00:00:12,240
+find the corresponding node of behind
+
+4
+00:00:09,120 --> 00:00:13,679
+between the exactly okay bless you okay
+
+5
+00:00:12,240 --> 00:00:16,880
+yes yes so
+
+6
+00:00:13,679 --> 00:00:20,320
+basically we are given two trees so for
+
+7
+00:00:16,880 --> 00:00:22,000
+example we are given two trees here
+
+8
+00:00:20,320 --> 00:00:24,400
+this a
+
+9
+00:00:22,000 --> 00:00:26,000
+original tree b is the clone of that one
+
+10
+00:00:24,400 --> 00:00:29,039
+it's a copy so copy means that the
+
+11
+00:00:26,000 --> 00:00:31,359
+structures then content okay right
+
+12
+00:00:29,039 --> 00:00:33,200
+so we are given a note in a tree a for
+
+13
+00:00:31,359 --> 00:00:35,280
+example if we want to find given this
+
+14
+00:00:33,200 --> 00:00:38,160
+node this is the like
+
+15
+00:00:35,280 --> 00:00:39,920
+a node in three a it's an identical node
+
+16
+00:00:38,160 --> 00:00:41,920
+for example this node and we want to
+
+17
+00:00:39,920 --> 00:00:44,239
+find out the corresponding node in the
+
+18
+00:00:41,920 --> 00:00:46,399
+column tree okay so we're using
+
+19
+00:00:44,239 --> 00:00:47,920
+application that's a search
+
+20
+00:00:46,399 --> 00:00:49,360
+okay and then we have these two
+
+21
+00:00:47,920 --> 00:00:51,520
+different slightly different
+
+22
+00:00:49,360 --> 00:00:54,640
+implementations but they are both that
+
+23
+00:00:51,520 --> 00:00:56,559
+recursive data search so finding that
+
+24
+00:00:54,640 --> 00:00:58,320
+node in the left tree
+
+25
+00:00:56,559 --> 00:01:00,239
+if we find it will return otherwise we
+
+26
+00:00:58,320 --> 00:01:02,719
+will search for the tree and the time
+
+27
+00:01:00,239 --> 00:01:03,680
+and space complexity is both o n
+
+28
+00:01:02,719 --> 00:01:05,760
+okay
+
+29
+00:01:03,680 --> 00:01:07,600
+yeah make sense
+
+30
+00:01:05,760 --> 00:01:09,439
+so today we're going to still talk about
+
+31
+00:01:07,600 --> 00:01:11,280
+the step search but we implemented using
+
+32
+00:01:09,439 --> 00:01:13,600
+this iterated so we're using the
+
+33
+00:01:11,280 --> 00:01:15,520
+recursion to implement that the deficit
+
+34
+00:01:13,600 --> 00:01:16,960
+we don't actually manage the stack
+
+35
+00:01:15,520 --> 00:01:17,840
+ourselves because the computer manager
+
+36
+00:01:16,960 --> 00:01:19,920
+stack
+
+37
+00:01:17,840 --> 00:01:21,439
+for us every time we make the call
+
+38
+00:01:19,920 --> 00:01:23,040
+recursion call right there will be a
+
+39
+00:01:21,439 --> 00:01:24,960
+step involved
+
+40
+00:01:23,040 --> 00:01:27,439
+today we're going to use the stack to
+
+41
+00:01:24,960 --> 00:01:29,280
+implement the data search
+
+42
+00:01:27,439 --> 00:01:31,680
+the idea is that we have a stack what
+
+43
+00:01:29,280 --> 00:01:33,920
+stack by the way that's attacking
+
+44
+00:01:31,680 --> 00:01:35,280
+what's that is something to do with
+
+45
+00:01:33,920 --> 00:01:36,240
+themselves
+
+46
+00:01:35,280 --> 00:01:41,360
+first
+
+47
+00:01:36,240 --> 00:01:43,680
+out because yeah yeah man fifth okay
+
+48
+00:01:41,360 --> 00:01:45,759
+yes if i'm going to put an item one two
+
+49
+00:01:43,680 --> 00:01:47,280
+three in it and then
+
+50
+00:01:45,759 --> 00:01:49,040
+top it out
+
+51
+00:01:47,280 --> 00:01:51,280
+one by one what's the what's the
+
+52
+00:01:49,040 --> 00:01:52,720
+sequence to take the items down if i
+
+53
+00:01:51,280 --> 00:01:55,280
+want to put it one two three man what's
+
+54
+00:01:52,720 --> 00:01:57,200
+the sequence of taking it off
+
+55
+00:01:55,280 --> 00:01:59,920
+three to one exactly we're done you
+
+56
+00:01:57,200 --> 00:02:02,320
+wanna put it one two three okay so take
+
+57
+00:01:59,920 --> 00:02:04,560
+three out two one
+
+58
+00:02:02,320 --> 00:02:06,719
+first thing now okay
+
+59
+00:02:04,560 --> 00:02:06,719
+look
+
+60
+00:02:07,119 --> 00:02:10,800
+okay so let's say we have these three
+
+61
+00:02:09,119 --> 00:02:11,599
+yeah one
+
+62
+00:02:10,800 --> 00:02:13,760
+two
+
+63
+00:02:11,599 --> 00:02:16,879
+three so how can we use the stack to
+
+64
+00:02:13,760 --> 00:02:18,080
+implement the depth search so we try to
+
+65
+00:02:16,879 --> 00:02:20,400
+push
+
+66
+00:02:18,080 --> 00:02:22,640
+the left left
+
+67
+00:02:20,400 --> 00:02:24,879
+and we go to the left root
+
+68
+00:02:22,640 --> 00:02:26,959
+and we try to push the note in it and
+
+69
+00:02:24,879 --> 00:02:29,280
+then we take
+
+70
+00:02:26,959 --> 00:02:32,959
+and what so we take so for example like
+
+71
+00:02:29,280 --> 00:02:36,160
+one we are here this is the current root
+
+72
+00:02:32,959 --> 00:02:38,160
+okay we are here we push the one in and
+
+73
+00:02:36,160 --> 00:02:39,920
+then we go to the left we push the two
+
+74
+00:02:38,160 --> 00:02:42,319
+in okay and that's it
+
+75
+00:02:39,920 --> 00:02:45,840
+and now if we can't do that then we take
+
+76
+00:02:42,319 --> 00:02:47,519
+one note out of the stack we take it out
+
+77
+00:02:45,840 --> 00:02:50,640
+we take it out when we take it out so
+
+78
+00:02:47,519 --> 00:02:53,440
+it's two here i know we go to its right
+
+79
+00:02:50,640 --> 00:02:56,080
+do we have the right of it too no right
+
+80
+00:02:53,440 --> 00:02:59,040
+go again we take the one out
+
+81
+00:02:56,080 --> 00:03:02,400
+yeah take the one out and we
+
+82
+00:02:59,040 --> 00:03:04,640
+have a right yeah we go to each right
+
+83
+00:03:02,400 --> 00:03:06,480
+because it's right yeah we don't change
+
+84
+00:03:04,640 --> 00:03:08,879
+it right and
+
+85
+00:03:06,480 --> 00:03:10,159
+we push it to the stack okay and we take
+
+86
+00:03:08,879 --> 00:03:12,800
+it out
+
+87
+00:03:10,159 --> 00:03:15,599
+st stack empty we can use the disk to
+
+88
+00:03:12,800 --> 00:03:18,560
+represent the stack or cube you know so
+
+89
+00:03:15,599 --> 00:03:20,879
+we have this current equals okay if
+
+90
+00:03:18,560 --> 00:03:22,800
+we're not changing the load variable
+
+91
+00:03:20,879 --> 00:03:24,239
+wire
+
+92
+00:03:22,800 --> 00:03:26,720
+wire stack
+
+93
+00:03:24,239 --> 00:03:29,599
+or current
+
+94
+00:03:26,720 --> 00:03:32,480
+yeah and then we do this wire
+
+95
+00:03:29,599 --> 00:03:34,959
+wire current
+
+96
+00:03:32,480 --> 00:03:34,959
+append
+
+97
+00:03:35,440 --> 00:03:41,360
+append current and then we'll go to the
+
+98
+00:03:37,360 --> 00:03:43,440
+left current equal column dot left okay
+
+99
+00:03:41,360 --> 00:03:44,720
+and then we take the note from the stack
+
+100
+00:03:43,440 --> 00:03:48,799
+so
+
+101
+00:03:44,720 --> 00:03:51,040
+current equal st dot pop
+
+102
+00:03:48,799 --> 00:03:53,040
+and now we go to the right current equal
+
+103
+00:03:51,040 --> 00:03:55,439
+current right okay
+
+104
+00:03:53,040 --> 00:03:57,840
+this is basically the the template for
+
+105
+00:03:55,439 --> 00:03:59,920
+how we're using the whole implementation
+
+106
+00:03:57,840 --> 00:04:01,439
+particularly in this case what look two
+
+107
+00:03:59,920 --> 00:04:04,239
+one three what's the order of two and
+
+108
+00:04:01,439 --> 00:04:06,000
+three what's this in order
+
+109
+00:04:04,239 --> 00:04:08,319
+note left
+
+110
+00:04:06,000 --> 00:04:09,920
+right so what's this in order in order
+
+111
+00:04:08,319 --> 00:04:11,280
+in order so this is the template for
+
+112
+00:04:09,920 --> 00:04:12,840
+implementing the
+
+113
+00:04:11,280 --> 00:04:17,120
+in order
+
+114
+00:04:12,840 --> 00:04:18,000
+right of the that's the search okay
+
+115
+00:04:17,120 --> 00:04:20,560
+so
+
+116
+00:04:18,000 --> 00:04:22,880
+let's uh try another example okay so
+
+117
+00:04:20,560 --> 00:04:25,600
+let's see how about this one okay so
+
+118
+00:04:22,880 --> 00:04:28,479
+first of all we are here right here
+
+119
+00:04:25,600 --> 00:04:30,160
+one i put one in i go to the left
+
+120
+00:04:28,479 --> 00:04:32,800
+i put the two in
+
+121
+00:04:30,160 --> 00:04:35,680
+yeah i go to the left four
+
+122
+00:04:32,800 --> 00:04:37,280
+okay yeah i can't go any left
+
+123
+00:04:35,680 --> 00:04:39,680
+we take one level on the stack which is
+
+124
+00:04:37,280 --> 00:04:42,080
+four and i'm going to to the
+
+125
+00:04:39,680 --> 00:04:43,440
+to the right it doesn't have any light
+
+126
+00:04:42,080 --> 00:04:45,520
+and then it goes
+
+127
+00:04:43,440 --> 00:04:46,560
+it doesn't have any right so we go back
+
+128
+00:04:45,520 --> 00:04:49,360
+to here
+
+129
+00:04:46,560 --> 00:04:51,759
+stack of current stack is not empty
+
+130
+00:04:49,360 --> 00:04:54,590
+current is is empty right because it has
+
+131
+00:04:51,759 --> 00:04:56,960
+been is a vital form okay
+
+132
+00:04:54,590 --> 00:04:58,400
+[Music]
+
+133
+00:04:56,960 --> 00:05:00,240
+when look
+
+134
+00:04:58,400 --> 00:05:02,479
+this is empty current is empty so we
+
+135
+00:05:00,240 --> 00:05:03,199
+skip this path we take another one out
+
+136
+00:05:02,479 --> 00:05:06,000
+to
+
+137
+00:05:03,199 --> 00:05:06,000
+take it out too
+
+138
+00:05:06,160 --> 00:05:11,039
+and then we go to the right we go to the
+
+139
+00:05:08,320 --> 00:05:12,720
+right the current is five right and then
+
+140
+00:05:11,039 --> 00:05:14,800
+go back to here again
+
+141
+00:05:12,720 --> 00:05:15,759
+the stack is not empty the current is
+
+142
+00:05:14,800 --> 00:05:18,960
+fine
+
+143
+00:05:15,759 --> 00:05:20,560
+y current then expect a pen current
+
+144
+00:05:18,960 --> 00:05:22,960
+which is fine
+
+145
+00:05:20,560 --> 00:05:25,919
+and we can't go any further then come
+
+146
+00:05:22,960 --> 00:05:27,039
+here come here then take one out of the
+
+147
+00:05:25,919 --> 00:05:28,880
+stack
+
+148
+00:05:27,039 --> 00:05:30,400
+five
+
+149
+00:05:28,880 --> 00:05:33,280
+yeah and go to the right it doesn't have
+
+150
+00:05:30,400 --> 00:05:35,759
+any right for the five okay
+
+151
+00:05:33,280 --> 00:05:38,160
+then come back here the stack we stack
+
+152
+00:05:35,759 --> 00:05:40,479
+is not empty currently is empty current
+
+153
+00:05:38,160 --> 00:05:42,400
+is empty so we skip this bit and we take
+
+154
+00:05:40,479 --> 00:05:43,440
+another one out of the stack which is
+
+155
+00:05:42,400 --> 00:05:45,520
+one
+
+156
+00:05:43,440 --> 00:05:47,120
+so one
+
+157
+00:05:45,520 --> 00:05:49,600
+okay
+
+158
+00:05:47,120 --> 00:05:51,120
+stack is empty current is one
+
+159
+00:05:49,600 --> 00:05:53,520
+y current
+
+160
+00:05:51,120 --> 00:05:55,919
+stack dot append we take it right take
+
+161
+00:05:53,520 --> 00:05:58,160
+it one out we need to go to we we need
+
+162
+00:05:55,919 --> 00:06:00,960
+to go to the right okay so let's current
+
+163
+00:05:58,160 --> 00:06:03,280
+is three okay currently three so stack
+
+164
+00:06:00,960 --> 00:06:05,680
+is empty currently three why the stack
+
+165
+00:06:03,280 --> 00:06:08,639
+stack dot appends left so that would be
+
+166
+00:06:05,680 --> 00:06:10,800
+six we are playing the sixth in right
+
+167
+00:06:08,639 --> 00:06:12,639
+yeah and then we take it out
+
+168
+00:06:10,800 --> 00:06:14,400
+we take it off take it out every time we
+
+169
+00:06:12,639 --> 00:06:16,080
+take it out we just put it this is the
+
+170
+00:06:14,400 --> 00:06:18,560
+sequence take it out
+
+171
+00:06:16,080 --> 00:06:20,720
+to the right which is empty
+
+172
+00:06:18,560 --> 00:06:23,280
+six that would be three yeah i forgot to
+
+173
+00:06:20,720 --> 00:06:24,880
+push this so i think one hour i i know
+
+174
+00:06:23,280 --> 00:06:26,800
+it's a three three and then i go to the
+
+175
+00:06:24,880 --> 00:06:30,400
+right okay it's testing it so it's
+
+176
+00:06:26,800 --> 00:06:33,360
+six three seven okay
+
+177
+00:06:30,400 --> 00:06:36,080
+so this is the way okay how to describe
+
+178
+00:06:33,360 --> 00:06:37,280
+to me how to use the stack to do this in
+
+179
+00:06:36,080 --> 00:06:39,199
+order thing
+
+180
+00:06:37,280 --> 00:06:41,440
+so first of all we do
+
+181
+00:06:39,199 --> 00:06:44,319
+we got as deep as possible and then we
+
+182
+00:06:41,440 --> 00:06:45,360
+append we push these notes to the step
+
+183
+00:06:44,319 --> 00:06:47,520
+right
+
+184
+00:06:45,360 --> 00:06:49,840
+if we can't go any further we take one
+
+185
+00:06:47,520 --> 00:06:51,599
+alveolar step and we go to the one on
+
+186
+00:06:49,840 --> 00:06:52,800
+the right and we will repeat this
+
+187
+00:06:51,599 --> 00:06:54,720
+process
+
+188
+00:06:52,800 --> 00:06:57,120
+okay so how is this useful if we're
+
+189
+00:06:54,720 --> 00:06:59,120
+using these then we possibly because we
+
+190
+00:06:57,120 --> 00:07:01,039
+have this another column tree okay st
+
+191
+00:06:59,120 --> 00:07:04,319
+and then we have a clone one
+
+192
+00:07:01,039 --> 00:07:06,240
+st2 equals empty
+
+193
+00:07:04,319 --> 00:07:09,680
+first of all you can just use the c a
+
+194
+00:07:06,240 --> 00:07:12,080
+and b y s t or
+
+195
+00:07:09,680 --> 00:07:14,720
+o a right
+
+196
+00:07:12,080 --> 00:07:16,560
+then we change this to a
+
+197
+00:07:14,720 --> 00:07:20,000
+append a
+
+198
+00:07:16,560 --> 00:07:21,280
+a equals a dot next okay
+
+199
+00:07:20,000 --> 00:07:23,440
+and then
+
+200
+00:07:21,280 --> 00:07:26,639
+a equals st pop
+
+201
+00:07:23,440 --> 00:07:28,960
+a equals a dot right okay so so we just
+
+202
+00:07:26,639 --> 00:07:30,720
+have to insert the code for uh every
+
+203
+00:07:28,960 --> 00:07:32,560
+time we do this operation with the three
+
+204
+00:07:30,720 --> 00:07:34,319
+a we need to do this term with three b
+
+205
+00:07:32,560 --> 00:07:35,599
+okay so y
+
+206
+00:07:34,319 --> 00:07:39,039
+so that will be
+
+207
+00:07:35,599 --> 00:07:40,160
+a equals s t dot prod then we we do this
+
+208
+00:07:39,039 --> 00:07:41,919
+here if
+
+209
+00:07:40,160 --> 00:07:45,440
+a is t
+
+210
+00:07:41,919 --> 00:07:48,560
+then we return b right return b okay
+
+211
+00:07:45,440 --> 00:07:50,800
+otherwise a dot a a equals a to y b
+
+212
+00:07:48,560 --> 00:07:52,879
+equals b dot right right
+
+213
+00:07:50,800 --> 00:07:54,080
+we need basically we need to synchronize
+
+214
+00:07:52,879 --> 00:07:56,000
+two trees
+
+215
+00:07:54,080 --> 00:07:58,000
+right every time we go every time we
+
+216
+00:07:56,000 --> 00:08:00,000
+three a we go to the left three b we
+
+217
+00:07:58,000 --> 00:08:00,960
+need to also go to the to the left all
+
+218
+00:08:00,000 --> 00:08:02,960
+right
+
+219
+00:08:00,960 --> 00:08:05,360
+every time we go go to the right tree of
+
+220
+00:08:02,960 --> 00:08:07,759
+a we need to go to the right tree of b
+
+221
+00:08:05,360 --> 00:08:10,080
+if we we found a note in the tree a now
+
+222
+00:08:07,759 --> 00:08:12,080
+we know where is it in a tree b all
+
+223
+00:08:10,080 --> 00:08:13,919
+right so it's a like you know
+
+224
+00:08:12,080 --> 00:08:17,360
+synchronization
+
+225
+00:08:13,919 --> 00:08:18,800
+synchronization and then here y a st dot
+
+226
+00:08:17,360 --> 00:08:21,039
+append a a
+
+227
+00:08:18,800 --> 00:08:23,680
+equal a left and then we have to do this
+
+228
+00:08:21,039 --> 00:08:23,680
+st2
+
+229
+00:08:23,840 --> 00:08:27,360
+dot append
+
+230
+00:08:25,280 --> 00:08:30,800
+t dot append b
+
+231
+00:08:27,360 --> 00:08:33,199
+b equals b left okay
+
+232
+00:08:30,800 --> 00:08:33,199
+all right
+
+233
+00:08:33,760 --> 00:08:41,399
+and then here there's one thing missing
+
+234
+00:08:35,599 --> 00:08:41,399
+which is b equals s t two dot okay
+
+235
+00:08:43,200 --> 00:08:46,640
+so i mean what have you learned today so
+
+236
+00:08:45,120 --> 00:08:49,440
+far
+
+237
+00:08:46,640 --> 00:08:52,080
+we learned about
+
+238
+00:08:49,440 --> 00:08:52,080
+the same thing
+
+239
+00:08:52,320 --> 00:08:54,959
+what's new today what i was saying
+
+240
+00:08:53,839 --> 00:08:57,120
+what's new
+
+241
+00:08:54,959 --> 00:08:59,040
+different kind of different different
+
+242
+00:08:57,120 --> 00:09:00,800
+color yeah yes they were using recursion
+
+243
+00:08:59,040 --> 00:09:02,080
+today we're using the iterative using
+
+244
+00:09:00,800 --> 00:09:02,880
+the spec right
+
+245
+00:09:02,080 --> 00:09:06,560
+yeah
+
+246
+00:09:02,880 --> 00:09:08,540
+yeah okay it makes sense here
+
+247
+00:09:06,560 --> 00:09:09,680
+okay that will be for today bye-bye
+
+248
+00:09:08,540 --> 00:09:12,680
+[Music]
+
+249
+00:09:09,680 --> 00:09:12,680
+bye-bye
+
