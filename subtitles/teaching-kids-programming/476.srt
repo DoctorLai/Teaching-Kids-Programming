@@ -1,0 +1,792 @@
+1
+00:00:00,320 --> 00:00:04,880
+hello
+
+2
+00:00:01,439 --> 00:00:07,359
+hello guys hello mr mr ryan all right
+
+3
+00:00:04,880 --> 00:00:10,000
+okay so we have a string of integers
+
+4
+00:00:07,359 --> 00:00:13,519
+from zero to nine so for example
+
+5
+00:00:10,000 --> 00:00:15,839
+this string of numbers one one one two
+
+6
+00:00:13,519 --> 00:00:20,000
+two two three four
+
+7
+00:00:15,839 --> 00:00:22,880
+and then our task is to find the largest
+
+8
+00:00:20,000 --> 00:00:24,080
+substring of length three two okay
+
+9
+00:00:22,880 --> 00:00:26,320
+and then
+
+10
+00:00:24,080 --> 00:00:29,359
+okay you get it there so each the
+
+11
+00:00:26,320 --> 00:00:31,119
+substring contains only one unique digit
+
+12
+00:00:29,359 --> 00:00:32,880
+so it could be it should be one on one
+
+13
+00:00:31,119 --> 00:00:34,480
+two two two three three four four five
+
+14
+00:00:32,880 --> 00:00:35,280
+five etcetera okay
+
+15
+00:00:34,480 --> 00:00:38,960
+yeah
+
+16
+00:00:35,280 --> 00:00:40,079
+so two requirements substring
+
+17
+00:00:38,960 --> 00:00:42,800
+of three
+
+18
+00:00:40,079 --> 00:00:46,160
+the second requirement is unique one
+
+19
+00:00:42,800 --> 00:00:48,879
+unique digit these means there are only
+
+20
+00:00:46,160 --> 00:00:52,399
+10 possibilities right they only from 10
+
+21
+00:00:48,879 --> 00:00:54,960
+possibilities 0 000 1 1 2 2
+
+22
+00:00:52,399 --> 00:00:57,920
+recession to 999 okay
+
+23
+00:00:54,960 --> 00:01:00,320
+simple okay so what's your sauce
+
+24
+00:00:57,920 --> 00:01:01,840
+what's your sauce
+
+25
+00:01:00,320 --> 00:01:04,159
+how do we perform
+
+26
+00:01:01,840 --> 00:01:07,439
+every possibility how i mean there are
+
+27
+00:01:04,159 --> 00:01:08,560
+two ways of checking prosperity how
+
+28
+00:01:07,439 --> 00:01:10,159
+we check
+
+29
+00:01:08,560 --> 00:01:12,080
+every number
+
+30
+00:01:10,159 --> 00:01:14,320
+how do we check the possibility we want
+
+31
+00:01:12,080 --> 00:01:16,960
+to find out large is three digits in
+
+32
+00:01:14,320 --> 00:01:19,840
+this in a string in the numbers right
+
+33
+00:01:16,960 --> 00:01:23,040
+this substring of three needs to contain
+
+34
+00:01:19,840 --> 00:01:24,840
+only one unique digit one way is that
+
+35
+00:01:23,040 --> 00:01:26,159
+look because there are only ten
+
+36
+00:01:24,840 --> 00:01:28,000
+possibilities yeah
+
+37
+00:01:26,159 --> 00:01:29,920
+and let's just check
+
+38
+00:01:28,000 --> 00:01:32,240
+from 999 backwards
+
+39
+00:01:29,920 --> 00:01:34,799
+if it's 99 in the stream
+
+40
+00:01:32,240 --> 00:01:36,159
+yes we return it if not is aaa in the
+
+41
+00:01:34,799 --> 00:01:39,280
+string
+
+42
+00:01:36,159 --> 00:01:40,960
+yes we return it one case is that if we
+
+43
+00:01:39,280 --> 00:01:43,040
+don't find such string we return the
+
+44
+00:01:40,960 --> 00:01:44,240
+empty okay for example like
+
+45
+00:01:43,040 --> 00:01:45,840
+one two
+
+46
+00:01:44,240 --> 00:01:48,880
+three
+
+47
+00:01:45,840 --> 00:01:50,960
+there's no such substring that
+
+48
+00:01:48,880 --> 00:01:52,880
+contain only one unique digit right then
+
+49
+00:01:50,960 --> 00:01:54,799
+we return empty okay so that's that
+
+50
+00:01:52,880 --> 00:01:57,360
+could be one way yeah nine and nine
+
+51
+00:01:54,799 --> 00:01:58,320
+we check backwards and as long as we
+
+52
+00:01:57,360 --> 00:01:59,840
+find
+
+53
+00:01:58,320 --> 00:02:02,079
+the substring
+
+54
+00:01:59,840 --> 00:02:04,000
+in the original string immediately we
+
+55
+00:02:02,079 --> 00:02:06,320
+just return it because that's the
+
+56
+00:02:04,000 --> 00:02:09,520
+largest one that's one way the other way
+
+57
+00:02:06,320 --> 00:02:10,560
+is just continuous check this out string
+
+58
+00:02:09,520 --> 00:02:12,959
+right
+
+59
+00:02:10,560 --> 00:02:15,040
+recession is it satisfying this
+
+60
+00:02:12,959 --> 00:02:17,200
+requirement uh basically this one
+
+61
+00:02:15,040 --> 00:02:18,879
+because we're checking the three
+
+62
+00:02:17,200 --> 00:02:22,400
+digits at the time
+
+63
+00:02:18,879 --> 00:02:24,319
+when is it one unique digit yes we
+
+64
+00:02:22,400 --> 00:02:25,760
+remember it right
+
+65
+00:02:24,319 --> 00:02:28,080
+is this the
+
+66
+00:02:25,760 --> 00:02:30,879
+the same right no and we just keep
+
+67
+00:02:28,080 --> 00:02:32,400
+moving yeah that could be a a way to do
+
+68
+00:02:30,879 --> 00:02:34,640
+it right and then we remember the
+
+69
+00:02:32,400 --> 00:02:37,280
+maximum for example like
+
+70
+00:02:34,640 --> 00:02:39,200
+if this is the same okay
+
+71
+00:02:37,280 --> 00:02:42,239
+then look this is obviously not the same
+
+72
+00:02:39,200 --> 00:02:44,879
+right yeah but for simplicity we just
+
+73
+00:02:42,239 --> 00:02:48,000
+move keep moving so this is a three
+
+74
+00:02:44,879 --> 00:02:50,480
+digit three digit three digit
+
+75
+00:02:48,000 --> 00:02:54,239
+three digits three digits read it okay
+
+76
+00:02:50,480 --> 00:02:55,599
+so which way you think it's better
+
+77
+00:02:54,239 --> 00:02:57,120
+yeah that would be that would be better
+
+78
+00:02:55,599 --> 00:02:58,080
+okay so let's quickly divide this i'll
+
+79
+00:02:57,120 --> 00:03:00,830
+define
+
+80
+00:02:58,080 --> 00:03:02,400
+uh just the largest leaf okay
+
+81
+00:03:00,830 --> 00:03:05,040
+[Music]
+
+82
+00:03:02,400 --> 00:03:07,040
+and we given this s
+
+83
+00:03:05,040 --> 00:03:07,920
+so we just do this for
+
+84
+00:03:07,040 --> 00:03:09,120
+i
+
+85
+00:03:07,920 --> 00:03:11,840
+in
+
+86
+00:03:09,120 --> 00:03:14,879
+range we start from nine right because
+
+87
+00:03:11,840 --> 00:03:16,319
+it could be start from nine up to zero
+
+88
+00:03:14,879 --> 00:03:18,800
+after zero
+
+89
+00:03:16,319 --> 00:03:20,480
+so the end not including we should give
+
+90
+00:03:18,800 --> 00:03:23,200
+you a minus one and then the step would
+
+91
+00:03:20,480 --> 00:03:25,040
+be minus one this string would be a
+
+92
+00:03:23,200 --> 00:03:27,440
+equal str
+
+93
+00:03:25,040 --> 00:03:30,799
+i first of all we convert the integer
+
+94
+00:03:27,440 --> 00:03:34,000
+into the string yeah and we times three
+
+95
+00:03:30,799 --> 00:03:35,920
+okay 1 times
+
+96
+00:03:34,000 --> 00:03:37,519
+10 multiple 3
+
+97
+00:03:35,920 --> 00:03:40,159
+what does it give us
+
+98
+00:03:37,519 --> 00:03:41,599
+1 string multiple three what does it
+
+99
+00:03:40,159 --> 00:03:44,239
+give us
+
+100
+00:03:41,599 --> 00:03:46,480
+three ones three ones exactly one on one
+
+101
+00:03:44,239 --> 00:03:48,480
+how about this one count three
+
+102
+00:03:46,480 --> 00:03:50,560
+one times eight your turn
+
+103
+00:03:48,480 --> 00:03:51,920
+exactly okay so this is very basic we're
+
+104
+00:03:50,560 --> 00:03:54,080
+done both okay
+
+105
+00:03:51,920 --> 00:03:56,319
+so look at transfer right this is a
+
+106
+00:03:54,080 --> 00:03:57,920
+string marker okay so we can we
+
+107
+00:03:56,319 --> 00:04:00,560
+converted this b
+
+108
+00:03:57,920 --> 00:04:02,640
+a a will be 99 aaa
+
+109
+00:04:00,560 --> 00:04:03,840
+etc okay now we just say
+
+110
+00:04:02,640 --> 00:04:05,120
+if a
+
+111
+00:04:03,840 --> 00:04:07,519
+in
+
+112
+00:04:05,120 --> 00:04:09,599
+s right if it's the substring of that
+
+113
+00:04:07,519 --> 00:04:11,439
+then we return
+
+114
+00:04:09,599 --> 00:04:13,200
+we will just return a right and
+
+115
+00:04:11,439 --> 00:04:15,519
+otherwise if we can't find anything we
+
+116
+00:04:13,200 --> 00:04:17,120
+just return empty okay what's the time
+
+117
+00:04:15,519 --> 00:04:18,959
+complexity
+
+118
+00:04:17,120 --> 00:04:21,359
+even if
+
+119
+00:04:18,959 --> 00:04:22,800
+we're done look if the line is not easy
+
+120
+00:04:21,359 --> 00:04:25,360
+why is
+
+121
+00:04:22,800 --> 00:04:27,680
+n is the number of uh characters in a
+
+122
+00:04:25,360 --> 00:04:28,800
+string okay so why is it going look this
+
+123
+00:04:27,680 --> 00:04:31,680
+one
+
+124
+00:04:28,800 --> 00:04:33,600
+we iterate 10 times
+
+125
+00:04:31,680 --> 00:04:36,000
+so this is the constant loop
+
+126
+00:04:33,600 --> 00:04:38,240
+but here we check if a
+
+127
+00:04:36,000 --> 00:04:40,880
+string suction in if it's in the
+
+128
+00:04:38,240 --> 00:04:44,000
+original string right
+
+129
+00:04:40,880 --> 00:04:46,639
+then that's going to take on time right
+
+130
+00:04:44,000 --> 00:04:49,120
+there there's a famous kmp
+
+131
+00:04:46,639 --> 00:04:51,360
+string pattern matching so we don't want
+
+132
+00:04:49,120 --> 00:04:53,360
+to go into more details here but in
+
+133
+00:04:51,360 --> 00:04:55,280
+general in general this time complexity
+
+134
+00:04:53,360 --> 00:04:58,160
+is oven okay like you can think about it
+
+135
+00:04:55,280 --> 00:04:59,759
+there's always okay that's one way so
+
+136
+00:04:58,160 --> 00:05:02,639
+the other way we're talking about you
+
+137
+00:04:59,759 --> 00:05:03,440
+know we can just do go through for
+
+138
+00:05:02,639 --> 00:05:05,759
+i
+
+139
+00:05:03,440 --> 00:05:07,840
+in range
+
+140
+00:05:05,759 --> 00:05:10,400
+range any number of characters in the
+
+141
+00:05:07,840 --> 00:05:13,280
+original strings of n minus two we're
+
+142
+00:05:10,400 --> 00:05:16,160
+gonna check and here that every possible
+
+143
+00:05:13,280 --> 00:05:18,160
+substring of three digits
+
+144
+00:05:16,160 --> 00:05:20,160
+how do we check if the substring
+
+145
+00:05:18,160 --> 00:05:21,199
+contains only one unique number one way
+
+146
+00:05:20,160 --> 00:05:23,360
+would be
+
+147
+00:05:21,199 --> 00:05:24,560
+d equals s
+
+148
+00:05:23,360 --> 00:05:27,360
+i
+
+149
+00:05:24,560 --> 00:05:29,120
+i plus three okay so this is the
+
+150
+00:05:27,360 --> 00:05:32,479
+substring of three characters then we
+
+151
+00:05:29,120 --> 00:05:34,160
+how do we check it if the length of the
+
+152
+00:05:32,479 --> 00:05:36,000
+set of d
+
+153
+00:05:34,160 --> 00:05:38,240
+right we convert it to a
+
+154
+00:05:36,000 --> 00:05:40,479
+set if you only condense one unique
+
+155
+00:05:38,240 --> 00:05:42,880
+number now we just do this length of the
+
+156
+00:05:40,479 --> 00:05:45,280
+set convert it to the substring of three
+
+157
+00:05:42,880 --> 00:05:47,440
+and then we remember we need to remember
+
+158
+00:05:45,280 --> 00:05:49,759
+this answer answer at the beginning is
+
+159
+00:05:47,440 --> 00:05:52,560
+empty and we need to do this answer
+
+160
+00:05:49,759 --> 00:05:54,880
+equals the maximum of answer
+
+161
+00:05:52,560 --> 00:05:56,800
+and then d right and then we finally
+
+162
+00:05:54,880 --> 00:05:58,240
+return this answer this is the first way
+
+163
+00:05:56,800 --> 00:05:59,759
+of doing it okay
+
+164
+00:05:58,240 --> 00:06:02,479
+hello what have you learned today last
+
+165
+00:05:59,759 --> 00:06:06,720
+question what have you learned all right
+
+166
+00:06:02,479 --> 00:06:06,720
+what's the problem okay okay
+
+167
+00:06:08,080 --> 00:06:12,880
+yeah we want to find out we are given a
+
+168
+00:06:09,680 --> 00:06:15,039
+string of numbers okay okay
+
+169
+00:06:12,880 --> 00:06:17,759
+we are given a string of numbers yeah
+
+170
+00:06:15,039 --> 00:06:20,560
+positive numbers from 0 to
+
+171
+00:06:17,759 --> 00:06:22,560
+0 to 9 so there are 10 possible digits
+
+172
+00:06:20,560 --> 00:06:24,880
+in a string only right and we want to
+
+173
+00:06:22,560 --> 00:06:26,880
+find out the largest
+
+174
+00:06:24,880 --> 00:06:28,800
+substring of three that contains only
+
+175
+00:06:26,880 --> 00:06:32,400
+one unique digit so basically the only
+
+176
+00:06:28,800 --> 00:06:34,639
+ten possibilities yeah from 99 aaa
+
+177
+00:06:32,400 --> 00:06:37,039
+backwards to 000 how do we solve this
+
+178
+00:06:34,639 --> 00:06:38,240
+from what have we learned today
+
+179
+00:06:37,039 --> 00:06:40,800
+uh we
+
+180
+00:06:38,240 --> 00:06:43,039
+backwards going backwards
+
+181
+00:06:40,800 --> 00:06:44,960
+so how do we backwards
+
+182
+00:06:43,039 --> 00:06:46,520
+yeah yeah we basically prove first yeah
+
+183
+00:06:44,960 --> 00:06:49,599
+we check the
+
+184
+00:06:46,520 --> 00:06:51,759
+997 if it's in
+
+185
+00:06:49,599 --> 00:06:53,680
+the substring okay if it's an exception
+
+186
+00:06:51,759 --> 00:06:56,240
+when we talk about some complexity we
+
+187
+00:06:53,680 --> 00:06:57,280
+ignore this uh constant time right
+
+188
+00:06:56,240 --> 00:06:58,560
+because
+
+189
+00:06:57,280 --> 00:07:02,479
+this outer
+
+190
+00:06:58,560 --> 00:07:05,360
+outer loop iteration we only iterate 10
+
+191
+00:07:02,479 --> 00:07:07,759
+times right this is a concern okay
+
+192
+00:07:05,360 --> 00:07:09,680
+okay and the other way is we check we
+
+193
+00:07:07,759 --> 00:07:12,639
+continuous checking
+
+194
+00:07:09,680 --> 00:07:16,160
+every possible substring of three and we
+
+195
+00:07:12,639 --> 00:07:20,240
+if it's only containing one unique digit
+
+196
+00:07:16,160 --> 00:07:23,039
+we remember the maximum value of it okay
+
+197
+00:07:20,240 --> 00:07:27,080
+okay that's it for today goodbye
+
+198
+00:07:23,039 --> 00:07:27,080
+bye bye thank you bye
+

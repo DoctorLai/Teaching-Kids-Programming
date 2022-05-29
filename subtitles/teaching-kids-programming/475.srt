@@ -1,0 +1,888 @@
+1
+00:00:00,160 --> 00:00:04,480
+hello mr mr rhino are you right yeah
+
+2
+00:00:02,639 --> 00:00:07,279
+okay so let's look at this problem
+
+3
+00:00:04,480 --> 00:00:10,080
+partition an array into pairs and the
+
+4
+00:00:07,279 --> 00:00:13,120
+sum of each pair needs to be divisible
+
+5
+00:00:10,080 --> 00:00:15,839
+by k so we have this array all positive
+
+6
+00:00:13,120 --> 00:00:19,119
+numbers a k is also a positive number so
+
+7
+00:00:15,839 --> 00:00:21,760
+four two a one so we want to partition
+
+8
+00:00:19,119 --> 00:00:23,840
+the pair a pair is two numbers yeah can
+
+9
+00:00:21,760 --> 00:00:26,080
+we position this array into pairs so
+
+10
+00:00:23,840 --> 00:00:30,279
+that each pair the sum of each pair is
+
+11
+00:00:26,080 --> 00:00:30,279
+divisible by three anybody
+
+12
+00:00:33,520 --> 00:00:37,760
+so for example like four two a one four
+
+13
+00:00:36,239 --> 00:00:41,520
+plus two
+
+14
+00:00:37,760 --> 00:00:46,719
+divided by k is zero okay three and a
+
+15
+00:00:41,520 --> 00:00:46,719
+plus one divided by k equal equal
+
+16
+00:00:46,800 --> 00:00:54,559
+we also four plus a or two plus one is
+
+17
+00:00:50,079 --> 00:00:55,600
+both okay okay if two numbers a and b
+
+18
+00:00:54,559 --> 00:00:58,000
+need
+
+19
+00:00:55,600 --> 00:00:59,199
+the sum of a and b needs to be divided
+
+20
+00:00:58,000 --> 00:01:01,760
+by k
+
+21
+00:00:59,199 --> 00:01:05,280
+yeah we write it as modulus equal equals
+
+22
+00:01:01,760 --> 00:01:07,760
+zero it also means that a plus b is the
+
+23
+00:01:05,280 --> 00:01:10,560
+multiple of k yeah it's k times
+
+24
+00:01:07,760 --> 00:01:13,600
+something yeah k times something okay
+
+25
+00:01:10,560 --> 00:01:16,799
+so that's the that's how we check if the
+
+26
+00:01:13,600 --> 00:01:19,280
+sum can be divided by k okay so in
+
+27
+00:01:16,799 --> 00:01:21,680
+mathematics we have these three
+
+28
+00:01:19,280 --> 00:01:22,479
+lines two lines equal three line is
+
+29
+00:01:21,680 --> 00:01:25,439
+called
+
+30
+00:01:22,479 --> 00:01:27,119
+congruence more dura
+
+31
+00:01:25,439 --> 00:01:31,840
+okay so
+
+32
+00:01:27,119 --> 00:01:34,400
+a congruence is congruent to b modulus n
+
+33
+00:01:31,840 --> 00:01:38,840
+okay so let's take an example
+
+34
+00:01:34,400 --> 00:01:41,840
+24 is congruent to 36
+
+35
+00:01:38,840 --> 00:01:45,520
+mode 2f what does it mean it means that
+
+36
+00:01:41,840 --> 00:01:49,439
+24 divided by 2f remaining 0.
+
+37
+00:01:45,520 --> 00:01:50,240
+36 divided by 2f remaining 0 is the same
+
+38
+00:01:49,439 --> 00:01:51,040
+thing
+
+39
+00:01:50,240 --> 00:01:52,799
+a
+
+40
+00:01:51,040 --> 00:01:54,399
+congruent
+
+41
+00:01:52,799 --> 00:01:56,560
+10
+
+42
+00:01:54,399 --> 00:01:59,600
+more euros two right
+
+43
+00:01:56,560 --> 00:02:02,240
+because they both even numbers a divided
+
+44
+00:01:59,600 --> 00:02:04,399
+by two remains zero ten divided by two
+
+45
+00:02:02,240 --> 00:02:07,600
+remains zero
+
+46
+00:02:04,399 --> 00:02:10,640
+if however model three divided by three
+
+47
+00:02:07,600 --> 00:02:14,000
+modulus remain two eleven
+
+48
+00:02:10,640 --> 00:02:16,239
+divided by three remain two okay so that
+
+49
+00:02:14,000 --> 00:02:18,879
+that's what the congruence module is
+
+50
+00:02:16,239 --> 00:02:21,599
+okay so coming back to this question we
+
+51
+00:02:18,879 --> 00:02:22,959
+want to look for a plus b modulus k
+
+52
+00:02:21,599 --> 00:02:25,840
+equal to zero
+
+53
+00:02:22,959 --> 00:02:27,120
+so we can rewrite this as a plus a
+
+54
+00:02:25,840 --> 00:02:30,080
+modulus k
+
+55
+00:02:27,120 --> 00:02:31,680
+plus b modulus k
+
+56
+00:02:30,080 --> 00:02:35,200
+modulus k
+
+57
+00:02:31,680 --> 00:02:36,480
+equals k minus k okay now we can rewrite
+
+58
+00:02:35,200 --> 00:02:38,000
+this into
+
+59
+00:02:36,480 --> 00:02:41,519
+a modulus k
+
+60
+00:02:38,000 --> 00:02:43,040
+equals k minus b modulus k
+
+61
+00:02:41,519 --> 00:02:46,480
+okay so look
+
+62
+00:02:43,040 --> 00:02:49,360
+a and k minus b is a pair okay so for
+
+63
+00:02:46,480 --> 00:02:53,680
+example if this number is if this number
+
+64
+00:02:49,360 --> 00:02:55,840
+is 4 4 modulus 3 equals 1 right so it
+
+65
+00:02:53,680 --> 00:02:58,959
+has remained 1 so look
+
+66
+00:02:55,840 --> 00:03:01,920
+4 it has remained 1
+
+67
+00:02:58,959 --> 00:03:06,000
+so the other number for example a not 1
+
+68
+00:03:01,920 --> 00:03:09,280
+2 3 four five six seven eight okay it
+
+69
+00:03:06,000 --> 00:03:12,000
+has two actual right two extra what does
+
+70
+00:03:09,280 --> 00:03:14,319
+it mean a modulus k
+
+71
+00:03:12,000 --> 00:03:17,200
+a modulus three remain two it has two
+
+72
+00:03:14,319 --> 00:03:20,080
+extra yes so actually so this group has
+
+73
+00:03:17,200 --> 00:03:22,480
+two actual this group has one extra so
+
+74
+00:03:20,080 --> 00:03:24,799
+we have one more here and we have two
+
+75
+00:03:22,480 --> 00:03:27,920
+more here so put it together one plus
+
+76
+00:03:24,799 --> 00:03:30,159
+two is a multiple of k right so
+
+77
+00:03:27,920 --> 00:03:32,560
+so coming back to this question so we
+
+78
+00:03:30,159 --> 00:03:34,080
+can use the dictionary hash map
+
+79
+00:03:32,560 --> 00:03:36,480
+to store
+
+80
+00:03:34,080 --> 00:03:39,280
+to store one if the number is i we can
+
+81
+00:03:36,480 --> 00:03:40,959
+store the k i modulus okay to store the
+
+82
+00:03:39,280 --> 00:03:44,480
+remaining phase
+
+83
+00:03:40,959 --> 00:03:45,760
+right we can partition arrays only if we
+
+84
+00:03:44,480 --> 00:03:48,159
+have
+
+85
+00:03:45,760 --> 00:03:51,280
+we have a pairs in each remainder for
+
+86
+00:03:48,159 --> 00:03:54,879
+example like for the remainder one
+
+87
+00:03:51,280 --> 00:03:56,480
+for the remain one we have four
+
+88
+00:03:54,879 --> 00:03:58,720
+for the remainder
+
+89
+00:03:56,480 --> 00:04:02,319
+two we have eight
+
+90
+00:03:58,720 --> 00:04:04,799
+two these two numbers also remain two
+
+91
+00:04:02,319 --> 00:04:07,040
+this one also remain one look we have
+
+92
+00:04:04,799 --> 00:04:09,519
+two numbers in the remainder one we have
+
+93
+00:04:07,040 --> 00:04:12,000
+two numbers in the remain two so we
+
+94
+00:04:09,519 --> 00:04:14,239
+compare so we can pair four plus two or
+
+95
+00:04:12,000 --> 00:04:17,519
+we can play four plus a we can play one
+
+96
+00:04:14,239 --> 00:04:18,959
+plus a or we can play one plus two okay
+
+97
+00:04:17,519 --> 00:04:22,000
+so it has to be
+
+98
+00:04:18,959 --> 00:04:23,840
+an equal number of numbers in each pool
+
+99
+00:04:22,000 --> 00:04:26,000
+so each pool is the remainder yeah
+
+100
+00:04:23,840 --> 00:04:30,000
+remember four yeah got it
+
+101
+00:04:26,000 --> 00:04:33,120
+okay so define partition
+
+102
+00:04:30,000 --> 00:04:36,080
+k divisible number the number okay
+
+103
+00:04:33,120 --> 00:04:38,240
+so if the the number of elements in that
+
+104
+00:04:36,080 --> 00:04:41,759
+rate is odd number can we pair can we
+
+105
+00:04:38,240 --> 00:04:43,199
+plan why is that because
+
+106
+00:04:41,759 --> 00:04:45,040
+that's right because for example if i
+
+107
+00:04:43,199 --> 00:04:46,560
+give you five numbers can you can you
+
+108
+00:04:45,040 --> 00:04:48,560
+form them in pair no because they're
+
+109
+00:04:46,560 --> 00:04:49,759
+always one extra right
+
+110
+00:04:48,560 --> 00:04:50,800
+one
+
+111
+00:04:49,759 --> 00:04:52,000
+two
+
+112
+00:04:50,800 --> 00:04:55,590
+three
+
+113
+00:04:52,000 --> 00:04:58,620
+four and then
+
+114
+00:04:55,590 --> 00:04:58,620
+[Music]
+
+115
+00:05:05,360 --> 00:05:09,919
+ah okay
+
+116
+00:05:07,199 --> 00:05:13,120
+okay that's great so first of all first
+
+117
+00:05:09,919 --> 00:05:16,080
+of all n equals the length of numbers so
+
+118
+00:05:13,120 --> 00:05:18,400
+this has to be a even number if it's uh
+
+119
+00:05:16,080 --> 00:05:21,360
+if it's all number if it's a down number
+
+120
+00:05:18,400 --> 00:05:24,639
+will determine easy then we store the i
+
+121
+00:05:21,360 --> 00:05:27,199
+plus k uh i'm i modulus k in the
+
+122
+00:05:24,639 --> 00:05:28,960
+dictionary so we use the s for example s
+
+123
+00:05:27,199 --> 00:05:30,400
+equals before
+
+124
+00:05:28,960 --> 00:05:33,120
+this generally
+
+125
+00:05:30,400 --> 00:05:36,160
+the default time is in by default the
+
+126
+00:05:33,120 --> 00:05:38,000
+intel gives the value default value zero
+
+127
+00:05:36,160 --> 00:05:40,800
+when the key is not existing okay and
+
+128
+00:05:38,000 --> 00:05:43,759
+then we go through this number for i in
+
+129
+00:05:40,800 --> 00:05:47,039
+nums and then s i
+
+130
+00:05:43,759 --> 00:05:49,120
+modulus k plus equal one okay so we are
+
+131
+00:05:47,039 --> 00:05:52,560
+incrementing we are storing the
+
+132
+00:05:49,120 --> 00:05:57,280
+frequency remember remember these though
+
+133
+00:05:52,560 --> 00:06:00,560
+uh 4 a to 1 and k equals 3 so what we
+
+134
+00:05:57,280 --> 00:06:03,360
+are doing is that 1 s equals i modulus k
+
+135
+00:06:00,560 --> 00:06:08,080
+equals 1 and i'll be 4 and 1
+
+136
+00:06:03,360 --> 00:06:11,039
+now so s 1 is two in this case and then
+
+137
+00:06:08,080 --> 00:06:13,120
+the the other the remainder two
+
+138
+00:06:11,039 --> 00:06:15,759
+remainder two is two
+
+139
+00:06:13,120 --> 00:06:17,680
+a and two and then s two
+
+140
+00:06:15,759 --> 00:06:20,479
+is also two right two numbers here two
+
+141
+00:06:17,680 --> 00:06:23,039
+numbers here we have to consider the
+
+142
+00:06:20,479 --> 00:06:25,840
+special case when the remainder is 0
+
+143
+00:06:23,039 --> 00:06:28,560
+right if s 0 is a whole number we still
+
+144
+00:06:25,840 --> 00:06:31,919
+need to return 4 right for example for
+
+145
+00:06:28,560 --> 00:06:36,000
+example like if we have k equals 3
+
+146
+00:06:31,919 --> 00:06:39,199
+and then number is 369 right so these
+
+147
+00:06:36,000 --> 00:06:42,160
+numbers itself can be divisible by k so
+
+148
+00:06:39,199 --> 00:06:43,840
+we need even number of it right because
+
+149
+00:06:42,160 --> 00:06:46,560
+it can't so
+
+150
+00:06:43,840 --> 00:06:49,039
+these numbers have its own
+
+151
+00:06:46,560 --> 00:06:51,440
+three six nine right if
+
+152
+00:06:49,039 --> 00:06:53,520
+there are odd number of the numbers here
+
+153
+00:06:51,440 --> 00:06:54,800
+right so what happens so you can't find
+
+154
+00:06:53,520 --> 00:06:56,800
+a pair
+
+155
+00:06:54,800 --> 00:06:59,840
+it doesn't find it doesn't have its pair
+
+156
+00:06:56,800 --> 00:07:01,599
+okay it doesn't have its pair
+
+157
+00:06:59,840 --> 00:07:04,080
+so we need to return first otherwise we
+
+158
+00:07:01,599 --> 00:07:06,080
+just have to check the remainder i
+
+159
+00:07:04,080 --> 00:07:08,720
+needs to pair with k minus i then we
+
+160
+00:07:06,080 --> 00:07:11,360
+return fourth are you okay returns five
+
+161
+00:07:08,720 --> 00:07:13,680
+otherwise if we can't find anything here
+
+162
+00:07:11,360 --> 00:07:14,479
+then we can show so this whole thing
+
+163
+00:07:13,680 --> 00:07:16,080
+these
+
+164
+00:07:14,479 --> 00:07:18,479
+this number of lines can also be
+
+165
+00:07:16,080 --> 00:07:22,479
+rewritten as return all
+
+166
+00:07:18,479 --> 00:07:25,039
+s i equal equal s i k minus i
+
+167
+00:07:22,479 --> 00:07:26,720
+for i in range one k so the time
+
+168
+00:07:25,039 --> 00:07:28,240
+complexity is a when the space
+
+169
+00:07:26,720 --> 00:07:29,680
+complexity is always because we are
+
+170
+00:07:28,240 --> 00:07:31,120
+using that
+
+171
+00:07:29,680 --> 00:07:33,039
+we're using the deformation right the
+
+172
+00:07:31,120 --> 00:07:34,880
+number we go through the numbers yeah
+
+173
+00:07:33,039 --> 00:07:37,360
+once right
+
+174
+00:07:34,880 --> 00:07:40,000
+we can use that another way to uh to
+
+175
+00:07:37,360 --> 00:07:41,840
+write it quite okay so so the idea is
+
+176
+00:07:40,000 --> 00:07:44,879
+that when we find the numbers we can
+
+177
+00:07:41,840 --> 00:07:47,360
+just increment the counter right and we
+
+178
+00:07:44,879 --> 00:07:49,759
+if we don't find this number in the pair
+
+179
+00:07:47,360 --> 00:07:52,400
+we just decrement it right
+
+180
+00:07:49,759 --> 00:07:55,120
+f equals d4
+
+181
+00:07:52,400 --> 00:07:58,160
+dictionary in okay and then we c equals
+
+182
+00:07:55,120 --> 00:08:01,440
+zero c equals zero okay and then we just
+
+183
+00:07:58,160 --> 00:08:03,919
+go through this number for i in numbers
+
+184
+00:08:01,440 --> 00:08:07,120
+and then we just say a is the number i
+
+185
+00:08:03,919 --> 00:08:09,440
+divided by k b is the num the other
+
+186
+00:08:07,120 --> 00:08:11,039
+number in the pair so which is k minus a
+
+187
+00:08:09,440 --> 00:08:13,360
+divided by k
+
+188
+00:08:11,039 --> 00:08:15,440
+and then if f a
+
+189
+00:08:13,360 --> 00:08:18,080
+is bigger than zero then we what we do
+
+190
+00:08:15,440 --> 00:08:21,759
+we just decrement it f a minus equals
+
+191
+00:08:18,080 --> 00:08:25,680
+one c minus equals one as
+
+192
+00:08:21,759 --> 00:08:27,199
+fb plus equals one c plus equals one and
+
+193
+00:08:25,680 --> 00:08:29,039
+at the end we just have to check if
+
+194
+00:08:27,199 --> 00:08:31,520
+return c equal equal to zero okay so
+
+195
+00:08:29,039 --> 00:08:33,760
+that's why i say a and b is two numbers
+
+196
+00:08:31,520 --> 00:08:36,240
+in a pair if f a frequency bigger than
+
+197
+00:08:33,760 --> 00:08:38,560
+zero we have we have the numbers in the
+
+198
+00:08:36,240 --> 00:08:41,039
+pair then we decrement it we decrement
+
+199
+00:08:38,560 --> 00:08:42,159
+otherwise we increment it okay so at the
+
+200
+00:08:41,039 --> 00:08:44,720
+end
+
+201
+00:08:42,159 --> 00:08:47,360
+the numbers need to be needs to come in
+
+202
+00:08:44,720 --> 00:08:49,360
+the pairs this is one time because look
+
+203
+00:08:47,360 --> 00:08:51,440
+goes through these numbers and we use we
+
+204
+00:08:49,360 --> 00:08:53,360
+use the dictionary so that's one space
+
+205
+00:08:51,440 --> 00:08:55,839
+as well okay so to sum up what have you
+
+206
+00:08:53,360 --> 00:08:55,839
+learned today
+
+207
+00:08:56,880 --> 00:09:02,480
+uh the facebook okay so we have an array
+
+208
+00:09:00,480 --> 00:09:04,800
+of numbers the arrays
+
+209
+00:09:02,480 --> 00:09:06,240
+contains all positive numbers and we
+
+210
+00:09:04,800 --> 00:09:08,240
+want to position we want to find out if
+
+211
+00:09:06,240 --> 00:09:10,560
+we can partition the numbers into pairs
+
+212
+00:09:08,240 --> 00:09:13,360
+and each sum of the sum of each pair
+
+213
+00:09:10,560 --> 00:09:15,600
+needs to be divided by k right divided
+
+214
+00:09:13,360 --> 00:09:18,560
+by k and then we what are we doing here
+
+215
+00:09:15,600 --> 00:09:21,760
+is we use a dictionary to store the
+
+216
+00:09:18,560 --> 00:09:24,480
+storage remainder by k divide divided by
+
+217
+00:09:21,760 --> 00:09:27,440
+k remainder right for example k 3 if the
+
+218
+00:09:24,480 --> 00:09:29,040
+number divided by k remain 2 and the
+
+219
+00:09:27,440 --> 00:09:31,920
+number needs to be paired with the
+
+220
+00:09:29,040 --> 00:09:35,440
+number which divided by k remain 1
+
+221
+00:09:31,920 --> 00:09:40,200
+because 2 plus 1 is a multiple of k
+
+222
+00:09:35,440 --> 00:09:40,200
+right okay that's it for today bye
+
