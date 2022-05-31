@@ -1,0 +1,1452 @@
+1
+00:00:00,160 --> 00:00:04,720
+hello mr ray mister right now right make
+
+2
+00:00:02,480 --> 00:00:06,960
+a fury feature yeah
+
+3
+00:00:04,720 --> 00:00:09,840
+uh actually today is the
+
+4
+00:00:06,960 --> 00:00:11,519
+30th yes definitely
+
+5
+00:00:09,840 --> 00:00:14,160
+okay so what have we talked about
+
+6
+00:00:11,519 --> 00:00:14,160
+yesterday
+
+7
+00:00:14,320 --> 00:00:18,240
+yeah so we are given this the list of
+
+8
+00:00:16,320 --> 00:00:19,840
+words right so
+
+9
+00:00:18,240 --> 00:00:22,000
+and then we want to find out if we can
+
+10
+00:00:19,840 --> 00:00:25,519
+break the sentences by using the words
+
+11
+00:00:22,000 --> 00:00:25,519
+given okay so first of all
+
+12
+00:00:26,400 --> 00:00:30,480
+is a string okay so first of all we
+
+13
+00:00:28,080 --> 00:00:33,520
+convert it to set because by converting
+
+14
+00:00:30,480 --> 00:00:35,600
+the list to set we achieve a faster
+
+15
+00:00:33,520 --> 00:00:37,280
+a1 constant lookup time right because
+
+16
+00:00:35,600 --> 00:00:39,200
+using the hash table
+
+17
+00:00:37,280 --> 00:00:40,399
+and yesterday we talked about the data
+
+18
+00:00:39,200 --> 00:00:42,800
+search
+
+19
+00:00:40,399 --> 00:00:45,120
+without the cache is the buffer deficit
+
+20
+00:00:42,800 --> 00:00:48,160
+actually i is the index size we can also
+
+21
+00:00:45,120 --> 00:00:50,719
+pass the string as parameters to to
+
+22
+00:00:48,160 --> 00:00:52,879
+represent current string we have
+
+23
+00:00:50,719 --> 00:00:56,079
+construction right it's quicker to use
+
+24
+00:00:52,879 --> 00:00:58,640
+the index eye performance wise okay
+
+25
+00:00:56,079 --> 00:01:00,719
+by putting the cache we are remembering
+
+26
+00:00:58,640 --> 00:01:02,640
+the intermediate results so we don't
+
+27
+00:01:00,719 --> 00:01:04,159
+calculate over and over again this is
+
+28
+00:01:02,640 --> 00:01:07,040
+kind of like top-down dynamic
+
+29
+00:01:04,159 --> 00:01:10,720
+programming recursion minimizing
+
+30
+00:01:07,040 --> 00:01:13,760
+memorize minimization okay so
+
+31
+00:01:10,720 --> 00:01:17,200
+so we use these four we check the four
+
+32
+00:01:13,760 --> 00:01:20,400
+the index and yeah we iterate for each
+
+33
+00:01:17,200 --> 00:01:22,799
+recursion so we iterate over the next
+
+34
+00:01:20,400 --> 00:01:24,240
+split point right so for example like
+
+35
+00:01:22,799 --> 00:01:27,680
+every ryan
+
+36
+00:01:24,240 --> 00:01:28,799
+also we have another arabic ryan for
+
+37
+00:01:27,680 --> 00:01:29,520
+example
+
+38
+00:01:28,799 --> 00:01:31,920
+so
+
+39
+00:01:29,520 --> 00:01:34,320
+we are here we can split with the next
+
+40
+00:01:31,920 --> 00:01:36,320
+jump point could be here or the next
+
+41
+00:01:34,320 --> 00:01:39,040
+jump point could be every divided here
+
+42
+00:01:36,320 --> 00:01:42,640
+right right so it needs to check for
+
+43
+00:01:39,040 --> 00:01:45,840
+each for each index i need to check if
+
+44
+00:01:42,640 --> 00:01:49,600
+it's possible to jump to split you know
+
+45
+00:01:45,840 --> 00:01:51,600
+to the end yeah so there will be n
+
+46
+00:01:49,600 --> 00:01:53,920
+possibilities right so
+
+47
+00:01:51,600 --> 00:01:56,719
+if we put a cache here right so like
+
+48
+00:01:53,920 --> 00:01:58,960
+obviously there will be o and
+
+49
+00:01:56,719 --> 00:02:01,600
+for a string of size and there are n
+
+50
+00:01:58,960 --> 00:02:04,799
+plus one split points for each recursion
+
+51
+00:02:01,600 --> 00:02:07,200
+we are iterating over the possible jump
+
+52
+00:02:04,799 --> 00:02:09,440
+point till the end that's on here
+
+53
+00:02:07,200 --> 00:02:11,599
+and the substring is o n so like time
+
+54
+00:02:09,440 --> 00:02:14,319
+complexity overall is o n times o n
+
+55
+00:02:11,599 --> 00:02:16,720
+times o o and cubic the space complexity
+
+56
+00:02:14,319 --> 00:02:19,280
+is purely determined by the recursion
+
+57
+00:02:16,720 --> 00:02:22,080
+depth for this implementation the
+
+58
+00:02:19,280 --> 00:02:24,080
+recursion depth is the maximum is o n
+
+59
+00:02:22,080 --> 00:02:25,280
+the phase complex is our and
+
+60
+00:02:24,080 --> 00:02:28,720
+if we are here
+
+61
+00:02:25,280 --> 00:02:30,640
+dfs i i from zero to n
+
+62
+00:02:28,720 --> 00:02:33,760
+right so that will be the the recursion
+
+63
+00:02:30,640 --> 00:02:35,599
+depth is going up to n so we also talked
+
+64
+00:02:33,760 --> 00:02:39,120
+about slightly different yeah this one
+
+65
+00:02:35,599 --> 00:02:41,280
+is to iterate over the index the next
+
+66
+00:02:39,120 --> 00:02:44,480
+clipping we can also
+
+67
+00:02:41,280 --> 00:02:46,640
+iterate over the words in the dictionary
+
+68
+00:02:44,480 --> 00:02:50,000
+right and now we check if it's possible
+
+69
+00:02:46,640 --> 00:02:51,920
+if the word in the list is next possible
+
+70
+00:02:50,000 --> 00:02:53,840
+substring if it is then we can jump into
+
+71
+00:02:51,920 --> 00:02:56,160
+it it's slightly different but yeah the
+
+72
+00:02:53,840 --> 00:02:58,159
+time and space complexity is the same
+
+73
+00:02:56,160 --> 00:02:59,920
+okay at the beginning
+
+74
+00:02:58,159 --> 00:03:02,560
+at the beginning this is the search tree
+
+75
+00:02:59,920 --> 00:03:04,560
+so we can jump to eric
+
+76
+00:03:02,560 --> 00:03:06,000
+and then here we can next we jump to
+
+77
+00:03:04,560 --> 00:03:09,040
+eric uh
+
+78
+00:03:06,000 --> 00:03:11,040
+to write right so f y yeah that's a y
+
+79
+00:03:09,040 --> 00:03:12,560
+and then n right
+
+80
+00:03:11,040 --> 00:03:13,280
+away y
+
+81
+00:03:12,560 --> 00:03:15,519
+n
+
+82
+00:03:13,280 --> 00:03:17,360
+all right and possibly if we add another
+
+83
+00:03:15,519 --> 00:03:19,519
+keyword it would be
+
+84
+00:03:17,360 --> 00:03:20,400
+every right and then possibly you could
+
+85
+00:03:19,519 --> 00:03:23,440
+jump
+
+86
+00:03:20,400 --> 00:03:26,000
+everywhere yeah yeah
+
+87
+00:03:23,440 --> 00:03:27,599
+and then end you see
+
+88
+00:03:26,000 --> 00:03:30,239
+therefore search
+
+89
+00:03:27,599 --> 00:03:33,680
+going down as deep as we can buffer
+
+90
+00:03:30,239 --> 00:03:35,360
+search level by level see that i can in
+
+91
+00:03:33,680 --> 00:03:37,760
+order to implement the buffer search
+
+92
+00:03:35,360 --> 00:03:40,879
+what kind of data structure do we use to
+
+93
+00:03:37,760 --> 00:03:43,599
+implement a preference session um
+
+94
+00:03:40,879 --> 00:03:44,560
+yeah impression one exactly
+
+95
+00:03:43,599 --> 00:03:46,959
+dq
+
+96
+00:03:44,560 --> 00:03:46,959
+d e
+
+97
+00:03:50,080 --> 00:03:53,840
+so it's a
+
+98
+00:03:51,360 --> 00:03:54,640
+data structure which you can push and
+
+99
+00:03:53,840 --> 00:03:57,040
+pop
+
+100
+00:03:54,640 --> 00:04:00,080
+on both sides so from this side would be
+
+101
+00:03:57,040 --> 00:04:02,640
+push i will be a pen
+
+102
+00:04:00,080 --> 00:04:04,239
+and then if we want to open to the left
+
+103
+00:04:02,640 --> 00:04:05,599
+it will be apparent left
+
+104
+00:04:04,239 --> 00:04:08,159
+and top
+
+105
+00:04:05,599 --> 00:04:10,159
+right foot is the from to take an item
+
+106
+00:04:08,159 --> 00:04:11,920
+from the right hand side
+
+107
+00:04:10,159 --> 00:04:13,599
+and if we want to take items from the
+
+108
+00:04:11,920 --> 00:04:15,920
+left hand side let's call the top left
+
+109
+00:04:13,599 --> 00:04:19,120
+okay the first search so at the
+
+110
+00:04:15,920 --> 00:04:20,720
+beginning we put push the loot here take
+
+111
+00:04:19,120 --> 00:04:22,320
+everything out from the comment queue
+
+112
+00:04:20,720 --> 00:04:24,400
+with eq items
+
+113
+00:04:22,320 --> 00:04:25,280
+we push the kids back to the cube okay
+
+114
+00:04:24,400 --> 00:04:28,080
+so
+
+115
+00:04:25,280 --> 00:04:29,040
+every time we can take one item from the
+
+116
+00:04:28,080 --> 00:04:32,000
+queue
+
+117
+00:04:29,040 --> 00:04:34,240
+or we take everything and we append we
+
+118
+00:04:32,000 --> 00:04:35,759
+push the kids back to the cube let's
+
+119
+00:04:34,240 --> 00:04:37,919
+breakfast search
+
+120
+00:04:35,759 --> 00:04:39,360
+we can use the processors to solve it
+
+121
+00:04:37,919 --> 00:04:42,880
+okay
+
+122
+00:04:39,360 --> 00:04:44,000
+and also we need to use this hash set to
+
+123
+00:04:42,880 --> 00:04:46,160
+remember
+
+124
+00:04:44,000 --> 00:04:48,160
+the split points we have been
+
+125
+00:04:46,160 --> 00:04:49,919
+visiting right so we don't need to do it
+
+126
+00:04:48,160 --> 00:04:52,160
+again and again so this is the same
+
+127
+00:04:49,919 --> 00:04:55,440
+thing as lesson
+
+128
+00:04:52,160 --> 00:04:58,160
+w equals set words
+
+129
+00:04:55,440 --> 00:05:01,199
+convert converted to hash set to allow a
+
+130
+00:04:58,160 --> 00:05:03,600
+faster look after now we have a scene
+
+131
+00:05:01,199 --> 00:05:07,759
+equal set
+
+132
+00:05:03,600 --> 00:05:09,759
+q equals d q dot ndq at the beginning we
+
+133
+00:05:07,759 --> 00:05:13,280
+start at the index field of the first
+
+134
+00:05:09,759 --> 00:05:15,840
+index so wire q
+
+135
+00:05:13,280 --> 00:05:18,320
+now current position we just q dot top
+
+136
+00:05:15,840 --> 00:05:21,280
+left okay so now we need to check if the
+
+137
+00:05:18,320 --> 00:05:23,680
+current if current is in sin
+
+138
+00:05:21,280 --> 00:05:25,840
+then we continue because we these uh
+
+139
+00:05:23,680 --> 00:05:29,360
+position we haven't seen before we have
+
+140
+00:05:25,840 --> 00:05:31,759
+uh visited before so there's no need to
+
+141
+00:05:29,360 --> 00:05:34,880
+do it again right because we've done it
+
+142
+00:05:31,759 --> 00:05:37,280
+and then if it's uh not seen before then
+
+143
+00:05:34,880 --> 00:05:39,199
+the first thing we need to add it to the
+
+144
+00:05:37,280 --> 00:05:42,720
+the set so we know
+
+145
+00:05:39,199 --> 00:05:45,600
+next time we don't need to do it again
+
+146
+00:05:42,720 --> 00:05:48,000
+so scene.add
+
+147
+00:05:45,600 --> 00:05:50,000
+current this is to expand the kids in
+
+148
+00:05:48,000 --> 00:05:51,280
+the horizontal level level by level yeah
+
+149
+00:05:50,000 --> 00:05:53,039
+before
+
+150
+00:05:51,280 --> 00:05:55,680
+x in
+
+151
+00:05:53,039 --> 00:05:57,440
+branch right the next play point could
+
+152
+00:05:55,680 --> 00:06:00,000
+be from current
+
+153
+00:05:57,440 --> 00:06:01,440
+plus one up to the end length
+
+154
+00:06:00,000 --> 00:06:04,400
+s plus one
+
+155
+00:06:01,440 --> 00:06:06,880
+and this is the same as the definition
+
+156
+00:06:04,400 --> 00:06:11,039
+so we just have to check if
+
+157
+00:06:06,880 --> 00:06:12,560
+s starts with the current up to x
+
+158
+00:06:11,039 --> 00:06:16,240
+in w
+
+159
+00:06:12,560 --> 00:06:19,120
+the substring is in the list if x is
+
+160
+00:06:16,240 --> 00:06:20,400
+equal equals the length
+
+161
+00:06:19,120 --> 00:06:23,680
+then x
+
+162
+00:06:20,400 --> 00:06:27,039
+it's reaching the end we return true
+
+163
+00:06:23,680 --> 00:06:30,639
+otherwise we just q dot append
+
+164
+00:06:27,039 --> 00:06:32,639
+up and the next index would be
+
+165
+00:06:30,639 --> 00:06:35,039
+x right
+
+166
+00:06:32,639 --> 00:06:36,800
+and if we can't find any solution this
+
+167
+00:06:35,039 --> 00:06:39,280
+is to say we are jumping to the end if
+
+168
+00:06:36,800 --> 00:06:41,440
+we can't find anything then we return
+
+169
+00:06:39,280 --> 00:06:43,360
+first because there's no way to
+
+170
+00:06:41,440 --> 00:06:45,039
+jump to the end
+
+171
+00:06:43,360 --> 00:06:47,759
+this
+
+172
+00:06:45,039 --> 00:06:50,319
+converting the list to set
+
+173
+00:06:47,759 --> 00:06:52,880
+so we can look up faster yeah one
+
+174
+00:06:50,319 --> 00:06:54,160
+constant time this thing
+
+175
+00:06:52,880 --> 00:06:57,120
+has said
+
+176
+00:06:54,160 --> 00:06:59,680
+just to remember the index remember the
+
+177
+00:06:57,120 --> 00:07:01,520
+split point look eric
+
+178
+00:06:59,680 --> 00:07:04,800
+y and
+
+179
+00:07:01,520 --> 00:07:05,759
+n okay so we'll possibly hear right or
+
+180
+00:07:04,800 --> 00:07:08,479
+here
+
+181
+00:07:05,759 --> 00:07:10,639
+so if we can jump to eric or we can jump
+
+182
+00:07:08,479 --> 00:07:11,840
+to and then jump to ryan so you'll be
+
+183
+00:07:10,639 --> 00:07:13,360
+every here
+
+184
+00:07:11,840 --> 00:07:16,960
+and ryan
+
+185
+00:07:13,360 --> 00:07:19,360
+and and you can also do this uh
+
+186
+00:07:16,960 --> 00:07:21,120
+every provider if the every grinder is a
+
+187
+00:07:19,360 --> 00:07:23,840
+word in the given list
+
+188
+00:07:21,120 --> 00:07:25,680
+right so suppose we we are we are here
+
+189
+00:07:23,840 --> 00:07:27,919
+we visit everyone
+
+190
+00:07:25,680 --> 00:07:29,840
+right we visit the area right in here so
+
+191
+00:07:27,919 --> 00:07:31,120
+the next time we jump to everything
+
+192
+00:07:29,840 --> 00:07:32,960
+right we don't need to do it again
+
+193
+00:07:31,120 --> 00:07:35,360
+because we have this is the same path
+
+194
+00:07:32,960 --> 00:07:37,759
+from eric right
+
+195
+00:07:35,360 --> 00:07:40,400
+yeah okay so
+
+196
+00:07:37,759 --> 00:07:42,400
+in other words right right we want to
+
+197
+00:07:40,400 --> 00:07:44,400
+construct the sentence every question
+
+198
+00:07:42,400 --> 00:07:48,160
+there are two ways one way is every
+
+199
+00:07:44,400 --> 00:07:51,680
+class ryan the other way is everyone so
+
+200
+00:07:48,160 --> 00:07:53,680
+once we know we can construct every wire
+
+201
+00:07:51,680 --> 00:07:56,560
+right we don't need to
+
+202
+00:07:53,680 --> 00:07:59,440
+do it again right because we know we can
+
+203
+00:07:56,560 --> 00:08:02,080
+visit here this is the the the thing
+
+204
+00:07:59,440 --> 00:08:04,960
+here we are talking about uh if current
+
+205
+00:08:02,080 --> 00:08:06,160
+in visited and continue otherwise we add
+
+206
+00:08:04,960 --> 00:08:06,960
+it to that
+
+207
+00:08:06,160 --> 00:08:09,360
+c
+
+208
+00:08:06,960 --> 00:08:11,120
+and then we are iterating over next
+
+209
+00:08:09,360 --> 00:08:13,599
+possible jump points
+
+210
+00:08:11,120 --> 00:08:16,720
+yeah split point the substring is given
+
+211
+00:08:13,599 --> 00:08:18,319
+in the list then we check if we can jump
+
+212
+00:08:16,720 --> 00:08:20,479
+directly to the end
+
+213
+00:08:18,319 --> 00:08:23,919
+now we tend to otherwise we push this
+
+214
+00:08:20,479 --> 00:08:27,039
+the next jump point x the q contains the
+
+215
+00:08:23,919 --> 00:08:29,280
+index we can also store the substrings
+
+216
+00:08:27,039 --> 00:08:30,960
+right but storing the index the numbers
+
+217
+00:08:29,280 --> 00:08:32,320
+is more efficient than storing the
+
+218
+00:08:30,960 --> 00:08:34,959
+string
+
+219
+00:08:32,320 --> 00:08:37,599
+this is one way the other way would be
+
+220
+00:08:34,959 --> 00:08:39,519
+slightly different okay so it will be
+
+221
+00:08:37,599 --> 00:08:42,000
+the same as yesterday in the depth
+
+222
+00:08:39,519 --> 00:08:43,519
+session for x in w we are going through
+
+223
+00:08:42,000 --> 00:08:45,200
+the words
+
+224
+00:08:43,519 --> 00:08:48,240
+in the list
+
+225
+00:08:45,200 --> 00:08:49,120
+then we first of all we get the length
+
+226
+00:08:48,240 --> 00:08:52,160
+x
+
+227
+00:08:49,120 --> 00:08:53,360
+so we just check if s
+
+228
+00:08:52,160 --> 00:08:57,920
+current
+
+229
+00:08:53,360 --> 00:09:00,800
+current plus and x if is equal to x
+
+230
+00:08:57,920 --> 00:09:03,680
+right and then this is the same if
+
+231
+00:09:00,800 --> 00:09:06,480
+if nx if current
+
+232
+00:09:03,680 --> 00:09:08,880
+plus and x equal equal
+
+233
+00:09:06,480 --> 00:09:12,240
+the length of x
+
+234
+00:09:08,880 --> 00:09:16,160
+then we return to we can jump to the end
+
+235
+00:09:12,240 --> 00:09:16,160
+otherwise we just q dot append
+
+236
+00:09:17,279 --> 00:09:24,160
+current plus nx this method is to
+
+237
+00:09:20,800 --> 00:09:26,959
+iterate the next possible jump point
+
+238
+00:09:24,160 --> 00:09:29,519
+this method is to iterate a word in a
+
+239
+00:09:26,959 --> 00:09:31,760
+word in a given list right i don't know
+
+240
+00:09:29,519 --> 00:09:34,000
+because there if there are n words there
+
+241
+00:09:31,760 --> 00:09:36,399
+are impossibilities right and then we
+
+242
+00:09:34,000 --> 00:09:38,720
+just have to check if we can construct a
+
+243
+00:09:36,399 --> 00:09:41,680
+substring from the current position
+
+244
+00:09:38,720 --> 00:09:43,839
+to the length of the words
+
+245
+00:09:41,680 --> 00:09:46,080
+right and then if it is if we can jump
+
+246
+00:09:43,839 --> 00:09:48,160
+to the end nobody can throw otherwise we
+
+247
+00:09:46,080 --> 00:09:50,320
+push the next jump on this
+
+248
+00:09:48,160 --> 00:09:52,000
+uh yeah so slightly different but
+
+249
+00:09:50,320 --> 00:09:54,480
+bubbles are okay
+
+250
+00:09:52,000 --> 00:09:56,320
+the time convex steel is uh the same to
+
+251
+00:09:54,480 --> 00:09:58,560
+the depth of clutch with the
+
+252
+00:09:56,320 --> 00:10:00,399
+minimization so which part is the
+
+253
+00:09:58,560 --> 00:10:02,560
+minimization in this case you know with
+
+254
+00:10:00,399 --> 00:10:05,440
+the difference we'll use the cash
+
+255
+00:10:02,560 --> 00:10:07,200
+yeah this is minimalization
+
+256
+00:10:05,440 --> 00:10:09,600
+that was defined
+
+257
+00:10:07,200 --> 00:10:11,839
+reference search eye we remember every
+
+258
+00:10:09,600 --> 00:10:15,760
+eye index so but in this breakfast
+
+259
+00:10:11,839 --> 00:10:18,800
+search how do we minimize the index i
+
+260
+00:10:15,760 --> 00:10:20,320
+yes notebook but in this particular case
+
+261
+00:10:18,800 --> 00:10:22,160
+which we should
+
+262
+00:10:20,320 --> 00:10:23,839
+set we have seen we have seen it before
+
+263
+00:10:22,160 --> 00:10:26,079
+so we don't need to continue
+
+264
+00:10:23,839 --> 00:10:26,079
+yeah
+
+265
+00:10:26,480 --> 00:10:29,440
+okay so what have you learned today one
+
+266
+00:10:28,320 --> 00:10:32,640
+last question what have you learned
+
+267
+00:10:29,440 --> 00:10:34,720
+today breakfast search
+
+268
+00:10:32,640 --> 00:10:37,440
+what's the problem and then how do we
+
+269
+00:10:34,720 --> 00:10:40,399
+same problem as yesterday okay what's
+
+270
+00:10:37,440 --> 00:10:42,720
+the center from yesterday basically
+
+271
+00:10:40,399 --> 00:10:47,120
+yeah can you just explain to me okay i'm
+
+272
+00:10:42,720 --> 00:10:47,120
+sitting right here so can you explain
+
+273
+00:10:55,380 --> 00:10:58,160
+[Music]
+
+274
+00:10:56,560 --> 00:11:00,399
+yeah and we've got a big string and we
+
+275
+00:10:58,160 --> 00:11:04,800
+have to break it into words that we're
+
+276
+00:11:00,399 --> 00:11:04,800
+being given like this yeah
+
+277
+00:11:05,040 --> 00:11:07,279
+um
+
+278
+00:11:09,200 --> 00:11:12,760
+we start
+
+279
+00:11:20,240 --> 00:11:26,839
+okay
+
+280
+00:11:21,120 --> 00:11:26,839
+so you got a given word like this
+
+281
+00:11:38,079 --> 00:11:40,880
+yeah
+
+282
+00:11:39,600 --> 00:11:42,640
+yeah so
+
+283
+00:11:40,880 --> 00:11:44,160
+this is
+
+284
+00:11:42,640 --> 00:11:47,200
+this and
+
+285
+00:11:44,160 --> 00:11:49,519
+so you break it up exactly and each word
+
+286
+00:11:47,200 --> 00:11:51,279
+can be used as many times as you want we
+
+287
+00:11:49,519 --> 00:11:53,120
+don't have to actually need to use all
+
+288
+00:11:51,279 --> 00:11:55,440
+the words and for some words we can use
+
+289
+00:11:53,120 --> 00:11:56,639
+as many times as we want okay but what
+
+290
+00:11:55,440 --> 00:11:58,800
+if
+
+291
+00:11:56,639 --> 00:12:00,720
+what but what if there's two words in
+
+292
+00:11:58,800 --> 00:12:02,480
+words in the word
+
+293
+00:12:00,720 --> 00:12:04,720
+can you give me another one
+
+294
+00:12:02,480 --> 00:12:04,720
+like
+
+295
+00:12:05,120 --> 00:12:12,240
+eric eric and ryan and in the
+
+296
+00:12:10,639 --> 00:12:15,760
+okay yeah basically this is the problem
+
+297
+00:12:12,240 --> 00:12:18,079
+here and then in the string there is
+
+298
+00:12:15,760 --> 00:12:21,839
+erican varian
+
+299
+00:12:18,079 --> 00:12:26,959
+so the sentence what's the sentence eric
+
+300
+00:12:21,839 --> 00:12:28,240
+eric and ryan is word eric eric yeah
+
+301
+00:12:26,959 --> 00:12:30,959
+ryan
+
+302
+00:12:28,240 --> 00:12:33,440
+yeah and then we're given this eric ryan
+
+303
+00:12:30,959 --> 00:12:35,760
+yeah we can use it as i said we can use
+
+304
+00:12:33,440 --> 00:12:36,720
+this everything as many times
+
+305
+00:12:35,760 --> 00:12:40,079
+every day
+
+306
+00:12:36,720 --> 00:12:44,079
+it doesn't matter every area okay
+
+307
+00:12:40,079 --> 00:12:44,079
+what's the solution we are talking today
+
+308
+00:12:44,639 --> 00:12:49,279
+we're using preferences to search
+
+309
+00:12:47,120 --> 00:12:50,160
+the possibilities from the
+
+310
+00:12:49,279 --> 00:12:52,720
+from
+
+311
+00:12:50,160 --> 00:12:52,720
+to the end
+
+312
+00:12:55,839 --> 00:12:59,680
+so another another example very tricky
+
+313
+00:12:58,000 --> 00:13:02,399
+example is that
+
+314
+00:12:59,680 --> 00:13:03,839
+okay e r i c
+
+315
+00:13:02,399 --> 00:13:08,079
+eric
+
+316
+00:13:03,839 --> 00:13:10,079
+a and the ryan okay so eric can write if
+
+317
+00:13:08,079 --> 00:13:10,959
+we are given this word
+
+318
+00:13:10,079 --> 00:13:12,720
+e
+
+319
+00:13:10,959 --> 00:13:15,120
+r i c
+
+320
+00:13:12,720 --> 00:13:18,000
+c a and d
+
+321
+00:13:15,120 --> 00:13:22,480
+r y a and can we can we do this
+
+322
+00:13:18,000 --> 00:13:25,920
+no why is that because on eric here
+
+323
+00:13:22,480 --> 00:13:26,800
+and there's no c that's right yes
+
+324
+00:13:25,920 --> 00:13:28,800
+okay
+
+325
+00:13:26,800 --> 00:13:31,360
+exactly okay
+
+326
+00:13:28,800 --> 00:13:35,040
+what if we got a c somewhere else like
+
+327
+00:13:31,360 --> 00:13:37,360
+that no i still we have to construct the
+
+328
+00:13:35,040 --> 00:13:39,120
+whole sentences we can't
+
+329
+00:13:37,360 --> 00:13:41,279
+construct partially
+
+330
+00:13:39,120 --> 00:13:42,240
+it has to be a complete sentence
+
+331
+00:13:41,279 --> 00:13:44,399
+okay
+
+332
+00:13:42,240 --> 00:13:46,160
+okay so yeah so the breakfast search
+
+333
+00:13:44,399 --> 00:13:48,160
+breakfast search so basically we're
+
+334
+00:13:46,160 --> 00:13:49,839
+expanding the trees level by level
+
+335
+00:13:48,160 --> 00:13:51,040
+that's the difference okay never mind
+
+336
+00:13:49,839 --> 00:13:53,519
+ever
+
+337
+00:13:51,040 --> 00:13:56,240
+yesterday we are talking about a deficit
+
+338
+00:13:53,519 --> 00:13:59,440
+with minimization basis the deficit
+
+339
+00:13:56,240 --> 00:14:01,279
+we're using the dfs i
+
+340
+00:13:59,440 --> 00:14:03,040
+i is the index
+
+341
+00:14:01,279 --> 00:14:05,360
+where we are currently at the split
+
+342
+00:14:03,040 --> 00:14:07,360
+point for each index we can split into
+
+343
+00:14:05,360 --> 00:14:10,560
+we can break the sentencing by that
+
+344
+00:14:07,360 --> 00:14:12,880
+index i so bfs i means that if we can
+
+345
+00:14:10,560 --> 00:14:15,199
+break the sentence if we can break the
+
+346
+00:14:12,880 --> 00:14:17,440
+sentence from the index i okay and we
+
+347
+00:14:15,199 --> 00:14:20,320
+use the cache for the professors we are
+
+348
+00:14:17,440 --> 00:14:23,120
+traveling level by level so from index
+
+349
+00:14:20,320 --> 00:14:26,000
+zero the next prosperous
+
+350
+00:14:23,120 --> 00:14:28,160
+index could be maybe two three four
+
+351
+00:14:26,000 --> 00:14:31,279
+and then we are visiting two three four
+
+352
+00:14:28,160 --> 00:14:33,839
+and then again never mind i'm using the
+
+353
+00:14:31,279 --> 00:14:36,959
+queue for example for each for some
+
+354
+00:14:33,839 --> 00:14:39,920
+index we we can visit in many ways right
+
+355
+00:14:36,959 --> 00:14:42,480
+for example in uh index form zero to
+
+356
+00:14:39,920 --> 00:14:44,880
+four here maybe zero three four here so
+
+357
+00:14:42,480 --> 00:14:47,519
+look that the note 04
+
+358
+00:14:44,880 --> 00:14:48,480
+the note 4 has appeared many times so we
+
+359
+00:14:47,519 --> 00:14:50,160
+don't want to
+
+360
+00:14:48,480 --> 00:14:52,560
+calculate it over and over again so
+
+361
+00:14:50,160 --> 00:14:56,240
+that's why we use a zinc table to
+
+362
+00:14:52,560 --> 00:14:59,839
+remember to only calculate only one
+
+363
+00:14:56,240 --> 00:14:59,839
+okay that's it for today bye-bye
+
