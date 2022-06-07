@@ -1,0 +1,868 @@
+1
+00:00:00,000 --> 00:00:05,600
+we have two strings s and t we have some
+
+2
+00:00:02,960 --> 00:00:07,440
+lowercase letters in s and we want to
+
+3
+00:00:05,600 --> 00:00:09,840
+find out how many copies of t can we
+
+4
+00:00:07,440 --> 00:00:10,800
+make by using the letters in
+
+5
+00:00:09,840 --> 00:00:13,840
+s
+
+6
+00:00:10,800 --> 00:00:16,080
+we can rearrange the s okay
+
+7
+00:00:13,840 --> 00:00:20,480
+so two copies yeah because look we have
+
+8
+00:00:16,080 --> 00:00:23,359
+two e's to us two eyes two c's two us
+
+9
+00:00:20,480 --> 00:00:26,240
+okay look two ass here right this is two
+
+10
+00:00:23,359 --> 00:00:27,920
+are coming from here two who are okay
+
+11
+00:00:26,240 --> 00:00:29,279
+for us okay
+
+12
+00:00:27,920 --> 00:00:33,439
+and
+
+13
+00:00:29,279 --> 00:00:33,439
+a and ryan okay
+
+14
+00:00:34,960 --> 00:00:38,719
+okay so we can easily map it
+
+15
+00:00:39,520 --> 00:00:44,800
+yeah so two copies
+
+16
+00:00:42,079 --> 00:00:48,160
+okay how do we solve this problem what's
+
+17
+00:00:44,800 --> 00:00:49,840
+your thoughts every grind anybody
+
+18
+00:00:48,160 --> 00:00:51,840
+um
+
+19
+00:00:49,840 --> 00:00:53,440
+you can counter what do we do using the
+
+20
+00:00:51,840 --> 00:00:55,840
+counter for we can use the
+
+21
+00:00:53,440 --> 00:00:58,320
+dictionary yes indication we can use the
+
+22
+00:00:55,840 --> 00:00:59,520
+counter in person so what are we
+
+23
+00:00:58,320 --> 00:01:01,680
+counting
+
+24
+00:00:59,520 --> 00:01:03,039
+we're counting
+
+25
+00:01:01,680 --> 00:01:04,799
+the number of
+
+26
+00:01:03,039 --> 00:01:06,479
+of the
+
+27
+00:01:04,799 --> 00:01:08,479
+number of tests let's say the number of
+
+28
+00:01:06,479 --> 00:01:10,799
+letters exactly okay so for example if
+
+29
+00:01:08,479 --> 00:01:12,400
+like we have we want to construct the t
+
+30
+00:01:10,799 --> 00:01:15,119
+t equals area
+
+31
+00:01:12,400 --> 00:01:17,360
+for simplicity eic
+
+32
+00:01:15,119 --> 00:01:19,680
+and then if we use the counter e will be
+
+33
+00:01:17,360 --> 00:01:22,479
+1 times r will be 1 times i would be 1
+
+34
+00:01:19,680 --> 00:01:24,799
+times c will be one time and if we count
+
+35
+00:01:22,479 --> 00:01:28,960
+we do the same for the counter s
+
+36
+00:01:24,799 --> 00:01:32,159
+so if the s counter if e two times r has
+
+37
+00:01:28,960 --> 00:01:34,400
+three times i have two times c has three
+
+38
+00:01:32,159 --> 00:01:36,479
+times so how many copies can you get
+
+39
+00:01:34,400 --> 00:01:38,720
+three two okay
+
+40
+00:01:36,479 --> 00:01:41,759
+and if i is only one and how many how
+
+41
+00:01:38,720 --> 00:01:44,880
+many times copied one yeah why is that
+
+42
+00:01:41,759 --> 00:01:47,200
+because there's only one r and
+
+43
+00:01:44,880 --> 00:01:49,920
+it is two that
+
+44
+00:01:47,200 --> 00:01:52,399
+there's no another r yeah exactly so we
+
+45
+00:01:49,920 --> 00:01:55,119
+always aim for the minimum right so the
+
+46
+00:01:52,399 --> 00:01:57,280
+minimum the smallest number of uh
+
+47
+00:01:55,119 --> 00:01:59,520
+letters the frequency determines the
+
+48
+00:01:57,280 --> 00:02:02,240
+number of copies exactly so we can just
+
+49
+00:01:59,520 --> 00:02:03,759
+use the counter okay we can also yeah we
+
+50
+00:02:02,240 --> 00:02:05,360
+can also use the two force but blue
+
+51
+00:02:03,759 --> 00:02:07,759
+force is not very straightforward in
+
+52
+00:02:05,360 --> 00:02:10,160
+this case so basically how do you
+
+53
+00:02:07,759 --> 00:02:11,360
+propose we go through the letters in the
+
+54
+00:02:10,160 --> 00:02:14,800
+t
+
+55
+00:02:11,360 --> 00:02:16,959
+if this is e then we remove the e
+
+56
+00:02:14,800 --> 00:02:18,160
+in one copy of e
+
+57
+00:02:16,959 --> 00:02:20,800
+ah we do
+
+58
+00:02:18,160 --> 00:02:23,440
+r i we remove one eye
+
+59
+00:02:20,800 --> 00:02:26,720
+etc if we can finish the removing the
+
+60
+00:02:23,440 --> 00:02:29,200
+letters in s after going to the
+
+61
+00:02:26,720 --> 00:02:32,160
+one copy of t then we have one copy and
+
+62
+00:02:29,200 --> 00:02:33,200
+keep going in this way we can find out
+
+63
+00:02:32,160 --> 00:02:36,480
+the
+
+64
+00:02:33,200 --> 00:02:38,560
+number of copies we can make okay the
+
+65
+00:02:36,480 --> 00:02:39,920
+most efficient solution will be using
+
+66
+00:02:38,560 --> 00:02:42,239
+the counter we're using the counter
+
+67
+00:02:39,920 --> 00:02:45,200
+object right counter default dictionary
+
+68
+00:02:42,239 --> 00:02:46,879
+we'll go through the uh letters we think
+
+69
+00:02:45,200 --> 00:02:49,360
+of the letters by
+
+70
+00:02:46,879 --> 00:02:51,599
+uh by two string and then we update the
+
+71
+00:02:49,360 --> 00:02:53,440
+frequency but we we can also use the
+
+72
+00:02:51,599 --> 00:02:57,440
+counter right so using the content will
+
+73
+00:02:53,440 --> 00:03:01,440
+be easier so how do we use the counter
+
+74
+00:02:57,440 --> 00:03:04,159
+s equals counter bigger axis
+
+75
+00:03:01,440 --> 00:03:05,840
+t equals counter so we have these two
+
+76
+00:03:04,159 --> 00:03:08,879
+counter things
+
+77
+00:03:05,840 --> 00:03:12,159
+right so now we just have to find out
+
+78
+00:03:08,879 --> 00:03:13,920
+the minimum right so for example if e
+
+79
+00:03:12,159 --> 00:03:17,920
+the t
+
+80
+00:03:13,920 --> 00:03:19,920
+in t the e letter is has two times and
+
+81
+00:03:17,920 --> 00:03:22,000
+the s in s
+
+82
+00:03:19,920 --> 00:03:24,480
+okay listen in s but what if the
+
+83
+00:03:22,000 --> 00:03:26,640
+target's not in the string
+
+84
+00:03:24,480 --> 00:03:29,120
+the target that's a very good question
+
+85
+00:03:26,640 --> 00:03:31,200
+when the target is not in a string yeah
+
+86
+00:03:29,120 --> 00:03:33,120
+yeah that's very good point so we can't
+
+87
+00:03:31,200 --> 00:03:34,799
+make a copy any copy that would be zero
+
+88
+00:03:33,120 --> 00:03:36,480
+right so but
+
+89
+00:03:34,799 --> 00:03:40,879
+that's a that's a very good point so
+
+90
+00:03:36,480 --> 00:03:44,000
+look this if e two times here and in s
+
+91
+00:03:40,879 --> 00:03:47,040
+the only this is uh s yeah this is s
+
+92
+00:03:44,000 --> 00:03:48,400
+this is the target
+
+93
+00:03:47,040 --> 00:03:51,200
+eight times
+
+94
+00:03:48,400 --> 00:03:54,159
+so how many copies can we make
+
+95
+00:03:51,200 --> 00:03:56,959
+if there are eight times of e in s
+
+96
+00:03:54,159 --> 00:03:58,319
+anybody two times of e
+
+97
+00:03:56,959 --> 00:04:02,080
+in the target
+
+98
+00:03:58,319 --> 00:04:02,080
+so how many copies can we make
+
+99
+00:04:02,560 --> 00:04:07,360
+four yeah exactly okay so ryan you
+
+100
+00:04:05,280 --> 00:04:08,720
+mentioned about if there's no such in
+
+101
+00:04:07,360 --> 00:04:11,200
+the s
+
+102
+00:04:08,720 --> 00:04:14,159
+so if if this is zero so how many how
+
+103
+00:04:11,200 --> 00:04:14,159
+many copies can i make
+
+104
+00:04:17,359 --> 00:04:21,919
+okay so we we need to go through the t
+
+105
+00:04:19,840 --> 00:04:24,080
+and then we find
+
+106
+00:04:21,919 --> 00:04:25,120
+the corresponding counter and we divide
+
+107
+00:04:24,080 --> 00:04:27,120
+it by it
+
+108
+00:04:25,120 --> 00:04:29,759
+and i don't get the minimum right for
+
+109
+00:04:27,120 --> 00:04:31,759
+example this e is eight times okay
+
+110
+00:04:29,759 --> 00:04:35,759
+and how about r
+
+111
+00:04:31,759 --> 00:04:38,240
+i released two times and then here r is
+
+112
+00:04:35,759 --> 00:04:40,240
+one time so how many copies can we make
+
+113
+00:04:38,240 --> 00:04:42,720
+look
+
+114
+00:04:40,240 --> 00:04:45,280
+in the s we got a times of e and two
+
+115
+00:04:42,720 --> 00:04:47,680
+times r in the t we've got the two times
+
+116
+00:04:45,280 --> 00:04:49,759
+of e and one times r so how many copies
+
+117
+00:04:47,680 --> 00:04:51,360
+can we make
+
+118
+00:04:49,759 --> 00:04:51,890
+how many copies
+
+119
+00:04:51,360 --> 00:04:53,919
+uh
+
+120
+00:04:51,890 --> 00:04:56,240
+[Music]
+
+121
+00:04:53,919 --> 00:04:59,440
+two two times exactly because look two
+
+122
+00:04:56,240 --> 00:05:02,160
+divided by one two a divided by two four
+
+123
+00:04:59,440 --> 00:05:04,960
+we we get the minimum right yeah exactly
+
+124
+00:05:02,160 --> 00:05:06,639
+okay so we can just do this return
+
+125
+00:05:04,960 --> 00:05:07,520
+mean
+
+126
+00:05:06,639 --> 00:05:08,320
+s
+
+127
+00:05:07,520 --> 00:05:11,199
+i
+
+128
+00:05:08,320 --> 00:05:13,520
+divided by t i
+
+129
+00:05:11,199 --> 00:05:16,080
+okay so we use the double division here
+
+130
+00:05:13,520 --> 00:05:18,560
+double divide this is to get the integer
+
+131
+00:05:16,080 --> 00:05:20,880
+part which is the floor look this flow 3
+
+132
+00:05:18,560 --> 00:05:23,919
+divided by 2
+
+133
+00:05:20,880 --> 00:05:26,000
+so 1.5 look this is flowing okay look
+
+134
+00:05:23,919 --> 00:05:27,680
+this is for this is ceiling
+
+135
+00:05:26,000 --> 00:05:29,199
+we still remember
+
+136
+00:05:27,680 --> 00:05:31,039
+ceiling
+
+137
+00:05:29,199 --> 00:05:34,400
+floor ceiling
+
+138
+00:05:31,039 --> 00:05:37,759
+if we 1.5 we get a floor that equals to
+
+139
+00:05:34,400 --> 00:05:39,039
+one 1.5 ceiling that'll be two
+
+140
+00:05:37,759 --> 00:05:41,039
+yeah
+
+141
+00:05:39,039 --> 00:05:43,199
+1.5 here
+
+142
+00:05:41,039 --> 00:05:44,880
+look 1.5 here
+
+143
+00:05:43,199 --> 00:05:46,800
+floor one
+
+144
+00:05:44,880 --> 00:05:49,440
+ceiling two
+
+145
+00:05:46,800 --> 00:05:51,440
+using this notation okay so look
+
+146
+00:05:49,440 --> 00:05:54,000
+double divide is to
+
+147
+00:05:51,440 --> 00:05:56,560
+actually the same as the fraud so we
+
+148
+00:05:54,000 --> 00:05:57,280
+want to get a minimum of s i divided by
+
+149
+00:05:56,560 --> 00:05:58,160
+i
+
+150
+00:05:57,280 --> 00:05:58,960
+for
+
+151
+00:05:58,160 --> 00:06:00,080
+i
+
+152
+00:05:58,960 --> 00:06:03,199
+in
+
+153
+00:06:00,080 --> 00:06:05,600
+t dot key okay t dot k
+
+154
+00:06:03,199 --> 00:06:09,120
+so we want to go through the letters in
+
+155
+00:06:05,600 --> 00:06:11,120
+t and we find out the corresponding
+
+156
+00:06:09,120 --> 00:06:12,319
+s i divided by t and we want to get a
+
+157
+00:06:11,120 --> 00:06:14,400
+minimum
+
+158
+00:06:12,319 --> 00:06:17,680
+that should be the answer alternatively
+
+159
+00:06:14,400 --> 00:06:17,680
+we can do this answer
+
+160
+00:06:18,319 --> 00:06:24,720
+infinity then we go through and then we
+
+161
+00:06:20,479 --> 00:06:26,080
+get a get a copy of each one so for i in
+
+162
+00:06:24,720 --> 00:06:31,039
+t
+
+163
+00:06:26,080 --> 00:06:32,479
+and an answer equals mean answer
+
+164
+00:06:31,039 --> 00:06:34,560
+s i
+
+165
+00:06:32,479 --> 00:06:36,479
+divided by t i
+
+166
+00:06:34,560 --> 00:06:38,560
+this is also okay
+
+167
+00:06:36,479 --> 00:06:40,479
+written answer okay
+
+168
+00:06:38,560 --> 00:06:43,199
+so basically this line
+
+169
+00:06:40,479 --> 00:06:45,280
+this is the one thing if you don't want
+
+170
+00:06:43,199 --> 00:06:47,919
+to write this one and you can use this
+
+171
+00:06:45,280 --> 00:06:49,520
+answer equals master infinity and goes
+
+172
+00:06:47,919 --> 00:06:52,319
+to the key t
+
+173
+00:06:49,520 --> 00:06:54,960
+for t for i in t dot keys is actually
+
+174
+00:06:52,319 --> 00:06:58,240
+the same as for i and t okay
+
+175
+00:06:54,960 --> 00:07:00,880
+e answer equals max s i divided by t i
+
+176
+00:06:58,240 --> 00:07:02,960
+get the floor for par
+
+177
+00:07:00,880 --> 00:07:04,960
+okay the size of the
+
+178
+00:07:02,960 --> 00:07:08,319
+string s is n
+
+179
+00:07:04,960 --> 00:07:10,479
+the size of a string t is n
+
+180
+00:07:08,319 --> 00:07:13,199
+so basically we need to go through two
+
+181
+00:07:10,479 --> 00:07:15,440
+twice uh one time here one time here
+
+182
+00:07:13,199 --> 00:07:18,400
+okay so the time converter position oh n
+
+183
+00:07:15,440 --> 00:07:19,759
+plus m the space complexity would be o n
+
+184
+00:07:18,400 --> 00:07:20,800
+plus n because we're using the two
+
+185
+00:07:19,759 --> 00:07:22,800
+counters
+
+186
+00:07:20,800 --> 00:07:24,000
+yeah any questions so far
+
+187
+00:07:22,800 --> 00:07:25,680
+no
+
+188
+00:07:24,000 --> 00:07:28,160
+what have you learned today the last
+
+189
+00:07:25,680 --> 00:07:30,479
+question always about
+
+190
+00:07:28,160 --> 00:07:32,000
+how to rearrange characters to make
+
+191
+00:07:30,479 --> 00:07:34,160
+target string
+
+192
+00:07:32,000 --> 00:07:35,759
+yeah so we have two strings yeah
+
+193
+00:07:34,160 --> 00:07:38,639
+and then how do we
+
+194
+00:07:35,759 --> 00:07:40,240
+find out the question is that we have
+
+195
+00:07:38,639 --> 00:07:42,319
+two strings and we want to find out how
+
+196
+00:07:40,240 --> 00:07:45,039
+many copies of t can we make by using
+
+197
+00:07:42,319 --> 00:07:47,840
+the letters in s okay and
+
+198
+00:07:45,039 --> 00:07:50,720
+what's the solution how many how many
+
+199
+00:07:47,840 --> 00:07:52,960
+accurate can you
+
+200
+00:07:50,720 --> 00:07:57,039
+do yeah and
+
+201
+00:07:52,960 --> 00:07:58,479
+how about the profiles how do we propose
+
+202
+00:07:57,039 --> 00:08:01,039
+check
+
+203
+00:07:58,479 --> 00:08:03,120
+we go through the letters in t we remove
+
+204
+00:08:01,039 --> 00:08:05,440
+each letter from the s and then we can
+
+205
+00:08:03,120 --> 00:08:07,680
+see how many like how many copies can we
+
+206
+00:08:05,440 --> 00:08:09,759
+make by removing and then we rub out
+
+207
+00:08:07,680 --> 00:08:11,440
+yeah yeah exactly and by using the
+
+208
+00:08:09,759 --> 00:08:13,520
+counter we just basically counting the
+
+209
+00:08:11,440 --> 00:08:17,199
+letters in both strings
+
+210
+00:08:13,520 --> 00:08:19,520
+and the number of copy is determined by
+
+211
+00:08:17,199 --> 00:08:21,599
+x i divided by t i
+
+212
+00:08:19,520 --> 00:08:22,639
+right that's very obvious the smallest
+
+213
+00:08:21,599 --> 00:08:24,479
+one right
+
+214
+00:08:22,639 --> 00:08:26,720
+the smallest yeah
+
+215
+00:08:24,479 --> 00:08:28,400
+okay the time space complexities oppose
+
+216
+00:08:26,720 --> 00:08:32,840
+o n plus then
+
+217
+00:08:28,400 --> 00:08:32,840
+okay that's it for today good job bye
+

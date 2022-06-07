@@ -1,0 +1,1512 @@
+1
+00:00:00,080 --> 00:00:05,200
+hello mr mr right now all right
+
+2
+00:00:02,399 --> 00:00:06,960
+okay give it a positive integer number
+
+3
+00:00:05,200 --> 00:00:09,440
+we want to find out a list of factors
+
+4
+00:00:06,960 --> 00:00:13,360
+right for example 12. 2 times 6
+
+5
+00:00:09,440 --> 00:00:15,839
+3 times 4 2 times 2 times 3 okay
+
+6
+00:00:13,360 --> 00:00:18,160
+so the order of the factors do not
+
+7
+00:00:15,839 --> 00:00:19,279
+matter so 2 times 6 is the same as 6
+
+8
+00:00:18,160 --> 00:00:21,840
+times 2.
+
+9
+00:00:19,279 --> 00:00:23,519
+3 times 4 is the same as 4 times 3.
+
+10
+00:00:21,840 --> 00:00:25,119
+okay and the factors i can see that
+
+11
+00:00:23,519 --> 00:00:26,480
+bigger than 2 or equal than 2 and
+
+12
+00:00:25,119 --> 00:00:29,279
+smaller than n
+
+13
+00:00:26,480 --> 00:00:31,119
+okay look this is close this is open is
+
+14
+00:00:29,279 --> 00:00:33,760
+the same thing as the factor bigger or
+
+15
+00:00:31,119 --> 00:00:35,280
+equal than 2 and smaller than n okay
+
+16
+00:00:33,760 --> 00:00:37,440
+n equals 1
+
+17
+00:00:35,280 --> 00:00:40,000
+return empty because we can't find such
+
+18
+00:00:37,440 --> 00:00:42,879
+factor bigger than 2 smaller than n n
+
+19
+00:00:40,000 --> 00:00:44,719
+equals 2 return empty this is a very
+
+20
+00:00:42,879 --> 00:00:47,280
+special case here and equals two bigger
+
+21
+00:00:44,719 --> 00:00:50,399
+than two smaller than two we can't we
+
+22
+00:00:47,280 --> 00:00:51,600
+don't find such factors n equals five is
+
+23
+00:00:50,399 --> 00:00:54,000
+five
+
+24
+00:00:51,600 --> 00:00:55,840
+a prime number yes okay what's a prime
+
+25
+00:00:54,000 --> 00:00:58,719
+number it's a number that i only can
+
+26
+00:00:55,840 --> 00:01:00,079
+divided by one on itself okay one at the
+
+27
+00:00:58,719 --> 00:01:02,160
+exam okay
+
+28
+00:01:00,079 --> 00:01:05,119
+one and itself so
+
+29
+00:01:02,160 --> 00:01:07,200
+does this satisfy this requirement no
+
+30
+00:01:05,119 --> 00:01:09,280
+okay so for any prime numbers what do we
+
+31
+00:01:07,200 --> 00:01:11,520
+need to return nothing nothing empty
+
+32
+00:01:09,280 --> 00:01:15,680
+this okay another example
+
+33
+00:01:11,520 --> 00:01:17,920
+n equals 13 what's your return
+
+34
+00:01:15,680 --> 00:01:19,840
+exactly okay what's your thoughts about
+
+35
+00:01:17,920 --> 00:01:22,159
+these
+
+36
+00:01:19,840 --> 00:01:24,960
+two if it's a prime number
+
+37
+00:01:22,159 --> 00:01:26,640
+and if it is
+
+38
+00:01:24,960 --> 00:01:29,119
+okay if it's a prime number and yeah
+
+39
+00:01:26,640 --> 00:01:31,280
+yeah yeah obviously point number is one
+
+40
+00:01:29,119 --> 00:01:33,680
+of the test cases
+
+41
+00:01:31,280 --> 00:01:36,079
+but for these for the long prime numbers
+
+42
+00:01:33,680 --> 00:01:37,119
+like 12 how do we get these answers any
+
+43
+00:01:36,079 --> 00:01:39,600
+ideas
+
+44
+00:01:37,119 --> 00:01:39,600
+you just
+
+45
+00:01:46,399 --> 00:01:51,200
+yes okay two
+
+46
+00:01:48,560 --> 00:01:52,720
+three and two two three two
+
+47
+00:01:51,200 --> 00:01:53,680
+two three two is the same as two two
+
+48
+00:01:52,720 --> 00:01:54,560
+three
+
+49
+00:01:53,680 --> 00:01:56,799
+so
+
+50
+00:01:54,560 --> 00:01:59,439
+yeah two two three two is the same as
+
+51
+00:01:56,799 --> 00:02:01,680
+two two three so one way to avoid
+
+52
+00:01:59,439 --> 00:02:04,479
+duplicate these are difficult is that we
+
+53
+00:02:01,680 --> 00:02:06,079
+always treat the factors increasing yes
+
+54
+00:02:04,479 --> 00:02:09,039
+strictly
+
+55
+00:02:06,079 --> 00:02:12,560
+non-decreasing okay three four two two
+
+56
+00:02:09,039 --> 00:02:14,720
+three okay if we solve the factors
+
+57
+00:02:12,560 --> 00:02:17,200
+then there will be only one right two
+
+58
+00:02:14,720 --> 00:02:19,360
+two three two c two after something will
+
+59
+00:02:17,200 --> 00:02:23,560
+be all two two three okay all three two
+
+60
+00:02:19,360 --> 00:02:23,560
+two this this is
+
+61
+00:02:25,200 --> 00:02:27,920
+yeah because we cannot find such vectors
+
+62
+00:02:27,040 --> 00:02:29,200
+okay
+
+63
+00:02:27,920 --> 00:02:30,000
+yeah
+
+64
+00:02:29,200 --> 00:02:32,400
+so
+
+65
+00:02:30,000 --> 00:02:35,120
+we we can have many ways to solve this
+
+66
+00:02:32,400 --> 00:02:37,920
+problem one way is to prefer search yeah
+
+67
+00:02:35,120 --> 00:02:39,760
+i need cube yeah using q or we can
+
+68
+00:02:37,920 --> 00:02:41,920
+backtracking that's using data search
+
+69
+00:02:39,760 --> 00:02:44,319
+backtracking how do we backtrack so
+
+70
+00:02:41,920 --> 00:02:47,680
+every time we check with the
+
+71
+00:02:44,319 --> 00:02:51,040
+we have released that bfs yeah so first
+
+72
+00:02:47,680 --> 00:02:53,040
+of all the current integer remaining
+
+73
+00:02:51,040 --> 00:02:55,360
+and then the
+
+74
+00:02:53,040 --> 00:02:57,760
+in order to avoid duplicate this is the
+
+75
+00:02:55,360 --> 00:02:59,599
+standard backtracking problem you know
+
+76
+00:02:57,760 --> 00:03:02,319
+in order to avoid duplicating we keep
+
+77
+00:02:59,599 --> 00:03:04,879
+tracking of the last factor used okay so
+
+78
+00:03:02,319 --> 00:03:07,440
+for example if we we are using the last
+
+79
+00:03:04,879 --> 00:03:09,120
+track uh factor we're using is three so
+
+80
+00:03:07,440 --> 00:03:11,040
+the next one we pick
+
+81
+00:03:09,120 --> 00:03:12,879
+should be
+
+82
+00:03:11,040 --> 00:03:14,720
+three or more right
+
+83
+00:03:12,879 --> 00:03:17,840
+yeah we don't pick two
+
+84
+00:03:14,720 --> 00:03:20,720
+right because three two
+
+85
+00:03:17,840 --> 00:03:21,519
+2 will be covered by two three okay make
+
+86
+00:03:20,720 --> 00:03:26,080
+sense
+
+87
+00:03:21,519 --> 00:03:28,879
+yeah so this s is the last factor we use
+
+88
+00:03:26,080 --> 00:03:30,959
+so we use this we keep tracking of this
+
+89
+00:03:28,879 --> 00:03:33,599
+factor to
+
+90
+00:03:30,959 --> 00:03:36,080
+uh to incrementally you know to
+
+91
+00:03:33,599 --> 00:03:38,720
+incrementally build our
+
+92
+00:03:36,080 --> 00:03:39,519
+list of factors so this is the currently
+
+93
+00:03:38,720 --> 00:03:41,200
+so
+
+94
+00:03:39,519 --> 00:03:43,040
+with this backtracking we use the three
+
+95
+00:03:41,200 --> 00:03:44,840
+parameters the current and the current
+
+96
+00:03:43,040 --> 00:03:48,640
+integer
+
+97
+00:03:44,840 --> 00:03:51,200
+remaining the s the last used factor and
+
+98
+00:03:48,640 --> 00:03:53,519
+then c the current list of factors okay
+
+99
+00:03:51,200 --> 00:03:55,760
+so remember when we check about prime
+
+100
+00:03:53,519 --> 00:03:58,080
+numbers yeah how do we check if it's a
+
+101
+00:03:55,760 --> 00:04:00,400
+prime number for example how do we check
+
+102
+00:03:58,080 --> 00:04:01,519
+if the 12 is the prime number if it's a
+
+103
+00:04:00,400 --> 00:04:03,280
+number
+
+104
+00:04:01,519 --> 00:04:06,159
+how do we check normally how do you
+
+105
+00:04:03,280 --> 00:04:08,400
+usually check i check the
+
+106
+00:04:06,159 --> 00:04:10,560
+last digit and see if it's an even
+
+107
+00:04:08,400 --> 00:04:12,879
+number but how about two
+
+108
+00:04:10,560 --> 00:04:15,360
+yeah yeah okay so okay so for example
+
+109
+00:04:12,879 --> 00:04:17,040
+like 39. the two is a prime number two
+
+110
+00:04:15,360 --> 00:04:18,959
+is the prime number yeah that's good
+
+111
+00:04:17,040 --> 00:04:20,720
+yeah i haven't even finished my sentence
+
+112
+00:04:18,959 --> 00:04:22,560
+okay that's fine yeah okay
+
+113
+00:04:20,720 --> 00:04:24,720
+so
+
+114
+00:04:22,560 --> 00:04:28,240
+nice
+
+115
+00:04:24,720 --> 00:04:29,840
+any even numbers except two are not
+
+116
+00:04:28,240 --> 00:04:31,680
+prime number two is the very special
+
+117
+00:04:29,840 --> 00:04:33,440
+case two is the only even number there
+
+118
+00:04:31,680 --> 00:04:35,440
+is the time number okay how about 139 is
+
+119
+00:04:33,440 --> 00:04:36,479
+it the prime number
+
+120
+00:04:35,440 --> 00:04:39,280
+um
+
+121
+00:04:36,479 --> 00:04:43,040
+yes no no no no what is that three
+
+122
+00:04:39,280 --> 00:04:46,000
+tables three and nine okay okay so how
+
+123
+00:04:43,040 --> 00:04:48,880
+do we check if 13 39 is a per number
+
+124
+00:04:46,000 --> 00:04:50,880
+usually i mean how do you check i i just
+
+125
+00:04:48,880 --> 00:04:53,120
+remember it you just remember how about
+
+126
+00:04:50,880 --> 00:04:54,400
+how do i need the calculator your
+
+127
+00:04:53,120 --> 00:04:57,280
+calculator
+
+128
+00:04:54,400 --> 00:04:59,840
+i get a calculator by using the hydrogen
+
+129
+00:04:57,280 --> 00:05:02,320
+how do you check if it's 39 39 divided
+
+130
+00:04:59,840 --> 00:05:05,919
+by any number okay so you try yeah you
+
+131
+00:05:02,320 --> 00:05:08,160
+try with two if it's an even number okay
+
+132
+00:05:05,919 --> 00:05:10,800
+i divided by two i can see it's thirty
+
+133
+00:05:08,160 --> 00:05:13,520
+and thirty then the
+
+134
+00:05:10,800 --> 00:05:16,160
+because three plus nine is twelve and
+
+135
+00:05:13,520 --> 00:05:18,160
+one plus two is three where then where
+
+136
+00:05:16,160 --> 00:05:20,320
+yeah that's the way to check if the
+
+137
+00:05:18,160 --> 00:05:22,240
+number can be divisible by three okay
+
+138
+00:05:20,320 --> 00:05:23,919
+you add all the digits right we talked
+
+139
+00:05:22,240 --> 00:05:26,720
+about this before right we add all the
+
+140
+00:05:23,919 --> 00:05:28,880
+digital prove it mathematically why why
+
+141
+00:05:26,720 --> 00:05:30,479
+the number if we add all the digit and
+
+142
+00:05:28,880 --> 00:05:32,400
+then all the teacher can be divided by
+
+143
+00:05:30,479 --> 00:05:34,720
+three then the number itself can be
+
+144
+00:05:32,400 --> 00:05:35,600
+divided but what i'm talking about is
+
+145
+00:05:34,720 --> 00:05:38,639
+that
+
+146
+00:05:35,600 --> 00:05:41,360
+let's say i give a very
+
+147
+00:05:38,639 --> 00:05:44,310
+complex number i don't know maybe
+
+148
+00:05:41,360 --> 00:05:45,840
+121 is that problem
+
+149
+00:05:44,310 --> 00:05:48,880
+[Music]
+
+150
+00:05:45,840 --> 00:05:52,880
+no what is that because i remember it
+
+151
+00:05:48,880 --> 00:05:52,880
+in 11 times table i thought my time
+
+152
+00:05:59,520 --> 00:06:03,759
+how do we check if for example if you
+
+153
+00:06:01,600 --> 00:06:05,199
+don't know if it's in 11 times table how
+
+154
+00:06:03,759 --> 00:06:06,960
+do we check
+
+155
+00:06:05,199 --> 00:06:08,639
+you just go okay it's not an even number
+
+156
+00:06:06,960 --> 00:06:10,720
+so you don't divide by two okay you
+
+157
+00:06:08,639 --> 00:06:13,120
+check if it's a three times table if
+
+158
+00:06:10,720 --> 00:06:15,680
+it's four times table if it's five times
+
+159
+00:06:13,120 --> 00:06:20,000
+label right so okay so
+
+160
+00:06:15,680 --> 00:06:23,280
+it's it's a three digit number yeah so
+
+161
+00:06:20,000 --> 00:06:24,240
+so uh did you visit him so i asked
+
+162
+00:06:23,280 --> 00:06:26,400
+google
+
+163
+00:06:24,240 --> 00:06:30,720
+yeah oh alexa
+
+164
+00:06:26,400 --> 00:06:31,759
+yeah hi alexa is 121 the prime number
+
+165
+00:06:30,720 --> 00:06:35,039
+okay
+
+166
+00:06:31,759 --> 00:06:35,039
+she come here
+
+167
+00:06:37,199 --> 00:06:40,479
+okay
+
+168
+00:06:38,240 --> 00:06:42,800
+okay so for even numbers we can easily
+
+169
+00:06:40,479 --> 00:06:44,560
+rule out the even numbers except two are
+
+170
+00:06:42,800 --> 00:06:46,880
+no problem
+
+171
+00:06:44,560 --> 00:06:49,599
+for this number okay three you see in
+
+172
+00:06:46,880 --> 00:06:50,639
+three times seven no is it in five times
+
+173
+00:06:49,599 --> 00:06:51,360
+table
+
+174
+00:06:50,639 --> 00:06:52,960
+no
+
+175
+00:06:51,360 --> 00:06:54,800
+if it's in seven times table we don't
+
+176
+00:06:52,960 --> 00:06:57,039
+check the even numbers anymore because
+
+177
+00:06:54,800 --> 00:06:59,199
+we know it's it's not um right so we
+
+178
+00:06:57,039 --> 00:07:01,680
+don't check four and six because let's
+
+179
+00:06:59,199 --> 00:07:04,400
+point this am i right yeah so we skip
+
+180
+00:07:01,680 --> 00:07:06,720
+two three five seven nine
+
+181
+00:07:04,400 --> 00:07:08,720
+eleven okay okay eleven it can be
+
+182
+00:07:06,720 --> 00:07:12,000
+divided so it's not a prime number easy
+
+183
+00:07:08,720 --> 00:07:15,039
+okay but the thing is that a number we
+
+184
+00:07:12,000 --> 00:07:16,560
+we don't check up to how how big
+
+185
+00:07:15,039 --> 00:07:17,440
+how that's the number we need to check
+
+186
+00:07:16,560 --> 00:07:19,280
+if
+
+187
+00:07:17,440 --> 00:07:21,440
+in general okay this is the question we
+
+188
+00:07:19,280 --> 00:07:23,520
+talked about that before if a number is
+
+189
+00:07:21,440 --> 00:07:23,520
+n
+
+190
+00:07:23,759 --> 00:07:26,960
+the factors how many factors we need to
+
+191
+00:07:25,919 --> 00:07:30,000
+check
+
+192
+00:07:26,960 --> 00:07:32,560
+from 2 up to what
+
+193
+00:07:30,000 --> 00:07:35,039
+do you still remember from two up to one
+
+194
+00:07:32,560 --> 00:07:36,319
+if the number is n from two up to one
+
+195
+00:07:35,039 --> 00:07:38,800
+and
+
+196
+00:07:36,319 --> 00:07:40,080
+do you need to check up to n
+
+197
+00:07:38,800 --> 00:07:42,560
+half n
+
+198
+00:07:40,080 --> 00:07:43,759
+half n is a good guess yeah because out
+
+199
+00:07:42,560 --> 00:07:44,960
+of half we found
+
+200
+00:07:43,759 --> 00:07:47,039
+by two
+
+201
+00:07:44,960 --> 00:07:49,360
+yeah the half half and that's a good
+
+202
+00:07:47,039 --> 00:07:51,199
+guess but we still can make it
+
+203
+00:07:49,360 --> 00:07:52,720
+make it listen this is the make it
+
+204
+00:07:51,199 --> 00:07:58,120
+better
+
+205
+00:07:52,720 --> 00:07:58,120
+square root and why is that a hundred
+
+206
+00:07:58,160 --> 00:08:04,960
+we just have to check up to 10 why is
+
+207
+00:08:00,720 --> 00:08:06,080
+that look if we have a vector 5 a 2
+
+208
+00:08:04,960 --> 00:08:09,039
+so the
+
+209
+00:08:06,080 --> 00:08:10,319
+corresponding will be 50 right yeah
+
+210
+00:08:09,039 --> 00:08:13,199
+you see
+
+211
+00:08:10,319 --> 00:08:14,800
+yeah so if we have a 5 corresponding
+
+212
+00:08:13,199 --> 00:08:15,840
+will be 20.
+
+213
+00:08:14,800 --> 00:08:18,160
+correct
+
+214
+00:08:15,840 --> 00:08:21,840
+if we have 10 corresponding will be 10
+
+215
+00:08:18,160 --> 00:08:23,120
+right so look going on 20
+
+216
+00:08:21,840 --> 00:08:26,160
+5
+
+217
+00:08:23,120 --> 00:08:29,120
+you see 2 times 20 20 times 5
+
+218
+00:08:26,160 --> 00:08:31,039
+is the same so we just check up to 10
+
+219
+00:08:29,120 --> 00:08:33,519
+which is the square root let's make sure
+
+220
+00:08:31,039 --> 00:08:34,640
+that's 2 times 50.
+
+221
+00:08:33,519 --> 00:08:36,880
+okay okay
+
+222
+00:08:34,640 --> 00:08:39,760
+2 times 50 okay okay look at those 50
+
+223
+00:08:36,880 --> 00:08:39,760
+times 2 okay
+
+224
+00:08:41,120 --> 00:08:45,600
+does it make sense here yeah yeah so we
+
+225
+00:08:43,360 --> 00:08:48,000
+just have to check up to 10 which is the
+
+226
+00:08:45,600 --> 00:08:50,880
+square root square root of n
+
+227
+00:08:48,000 --> 00:08:52,320
+so this is obviously faster yeah square
+
+228
+00:08:50,880 --> 00:08:55,680
+root of n
+
+229
+00:08:52,320 --> 00:08:57,600
+is smaller or equal than n divided by 2a
+
+230
+00:08:55,680 --> 00:09:00,880
+when we talk about a complexity time
+
+231
+00:08:57,600 --> 00:09:03,040
+conduction this is linear oh and divided
+
+232
+00:09:00,880 --> 00:09:05,760
+by 2 is linear
+
+233
+00:09:03,040 --> 00:09:07,760
+okay we drop the constant
+
+234
+00:09:05,760 --> 00:09:08,399
+okay so let's let's see what i'm saying
+
+235
+00:09:07,760 --> 00:09:10,880
+here
+
+236
+00:09:08,399 --> 00:09:12,880
+so we just have to go through the
+
+237
+00:09:10,880 --> 00:09:14,399
+factors from s
+
+238
+00:09:12,880 --> 00:09:16,480
+here
+
+239
+00:09:14,399 --> 00:09:17,519
+square root of n okay and then we can
+
+240
+00:09:16,480 --> 00:09:19,120
+check
+
+241
+00:09:17,519 --> 00:09:21,120
+we can check
+
+242
+00:09:19,120 --> 00:09:22,959
+we can backtrack okay and then we append
+
+243
+00:09:21,120 --> 00:09:24,959
+this as okay i'm going to just quickly
+
+244
+00:09:22,959 --> 00:09:27,519
+divide this okay
+
+245
+00:09:24,959 --> 00:09:29,360
+you see define n s c okay and then we
+
+246
+00:09:27,519 --> 00:09:30,720
+have this answer somewhere answer equals
+
+247
+00:09:29,360 --> 00:09:31,760
+empty list
+
+248
+00:09:30,720 --> 00:09:35,200
+for
+
+249
+00:09:31,760 --> 00:09:37,600
+the factor i in range
+
+250
+00:09:35,200 --> 00:09:39,680
+we start from s yeah look we start from
+
+251
+00:09:37,600 --> 00:09:41,680
+s up to
+
+252
+00:09:39,680 --> 00:09:43,760
+square root of n okay square root of n
+
+253
+00:09:41,680 --> 00:09:46,640
+plus one so how do we implement this
+
+254
+00:09:43,760 --> 00:09:49,519
+square root of n in python
+
+255
+00:09:46,640 --> 00:09:52,000
+three ways one way
+
+256
+00:09:49,519 --> 00:09:53,200
+in integer buyer we get an integer bar
+
+257
+00:09:52,000 --> 00:09:55,120
+with n
+
+258
+00:09:53,200 --> 00:09:56,560
+w double star
+
+259
+00:09:55,120 --> 00:09:58,480
+0.5
+
+260
+00:09:56,560 --> 00:10:00,640
+okay
+
+261
+00:09:58,480 --> 00:10:03,920
+okay do you still remember this double
+
+262
+00:10:00,640 --> 00:10:04,720
+multiple is the exponential
+
+263
+00:10:03,920 --> 00:10:05,839
+x
+
+264
+00:10:04,720 --> 00:10:07,440
+y
+
+265
+00:10:05,839 --> 00:10:10,079
+x to the power of y
+
+266
+00:10:07,440 --> 00:10:12,720
+in person we can write it as x
+
+267
+00:10:10,079 --> 00:10:14,320
+times times y
+
+268
+00:10:12,720 --> 00:10:15,279
+x y
+
+269
+00:10:14,320 --> 00:10:20,480
+or
+
+270
+00:10:15,279 --> 00:10:22,640
+or we can write it as power x y okay
+
+271
+00:10:20,480 --> 00:10:25,519
+yeah this is also okay
+
+272
+00:10:22,640 --> 00:10:28,800
+yeah if it's zero function square root
+
+273
+00:10:25,519 --> 00:10:31,519
+of n we can write it also as s q r t
+
+274
+00:10:28,800 --> 00:10:34,399
+this is the function square root
+
+275
+00:10:31,519 --> 00:10:36,240
+solution one square root okay if it is
+
+276
+00:10:34,399 --> 00:10:38,560
+square root okay here
+
+277
+00:10:36,240 --> 00:10:40,560
+and what can i do
+
+278
+00:10:38,560 --> 00:10:43,120
+what do we do now
+
+279
+00:10:40,560 --> 00:10:45,760
+so we have to check if n
+
+280
+00:10:43,120 --> 00:10:46,640
+modulus i equal equals what does this
+
+281
+00:10:45,760 --> 00:10:49,360
+mean
+
+282
+00:10:46,640 --> 00:10:51,519
+anybody tell me percentage and modulus i
+
+283
+00:10:49,360 --> 00:10:56,240
+equal equals what does it mean
+
+284
+00:10:51,519 --> 00:10:58,880
+it means that if i is divided by n
+
+285
+00:10:56,240 --> 00:11:01,839
+put it in other words if i is a factor
+
+286
+00:10:58,880 --> 00:11:06,240
+of and right yeah so what do we get if i
+
+287
+00:11:01,839 --> 00:11:09,040
+is affected first of all c dot append
+
+288
+00:11:06,240 --> 00:11:12,320
+so this is the current list open i right
+
+289
+00:11:09,040 --> 00:11:14,480
+and then the answer answer that append
+
+290
+00:11:12,320 --> 00:11:14,480
+we
+
+291
+00:11:16,800 --> 00:11:19,600
+we make a copy and
+
+292
+00:11:18,800 --> 00:11:22,880
+n
+
+293
+00:11:19,600 --> 00:11:24,959
+divided by i okay so look if we have a
+
+294
+00:11:22,880 --> 00:11:27,360
+factor i
+
+295
+00:11:24,959 --> 00:11:29,680
+we have another factor n divided by i
+
+296
+00:11:27,360 --> 00:11:32,079
+okay and then we do that to the
+
+297
+00:11:29,680 --> 00:11:34,240
+backpacking okay so this is look
+
+298
+00:11:32,079 --> 00:11:37,360
+we have the factor i so what's the
+
+299
+00:11:34,240 --> 00:11:39,200
+remaining if we if n and now i'm
+
+300
+00:11:37,360 --> 00:11:40,839
+training we have a vector i so what's
+
+301
+00:11:39,200 --> 00:11:44,240
+the
+
+302
+00:11:40,839 --> 00:11:45,920
+remaining 12 and we know we have a two
+
+303
+00:11:44,240 --> 00:11:50,320
+so what's the remaining
+
+304
+00:11:45,920 --> 00:11:53,279
+six yeah so n divided by i all right
+
+305
+00:11:50,320 --> 00:11:55,120
+the next factor we are using i the next
+
+306
+00:11:53,279 --> 00:11:57,360
+vector should be more
+
+307
+00:11:55,120 --> 00:12:00,639
+should be equal or more
+
+308
+00:11:57,360 --> 00:12:02,320
+than i so we put i and the current list
+
+309
+00:12:00,639 --> 00:12:05,360
+will be c
+
+310
+00:12:02,320 --> 00:12:06,480
+okay and then here we need to restore
+
+311
+00:12:05,360 --> 00:12:09,680
+the
+
+312
+00:12:06,480 --> 00:12:13,120
+currently electric and if we do this
+
+313
+00:12:09,680 --> 00:12:15,040
+that such we start with and the smallest
+
+314
+00:12:13,120 --> 00:12:17,519
+vector should be is two
+
+315
+00:12:15,040 --> 00:12:18,880
+and then the current this will be empty
+
+316
+00:12:17,519 --> 00:12:19,920
+at the beginning we don't have any
+
+317
+00:12:18,880 --> 00:12:23,360
+seconds
+
+318
+00:12:19,920 --> 00:12:25,360
+this this is to put the i
+
+319
+00:12:23,360 --> 00:12:27,839
+it to the c so this is the same thing as
+
+320
+00:12:25,360 --> 00:12:30,639
+c plus equal i this is the same thing
+
+321
+00:12:27,839 --> 00:12:33,440
+okay this one this is the make a copy of
+
+322
+00:12:30,639 --> 00:12:35,519
+c so we can also do this deep copy
+
+323
+00:12:33,440 --> 00:12:36,480
+deep copy
+
+324
+00:12:35,519 --> 00:12:39,440
+copy
+
+325
+00:12:36,480 --> 00:12:42,320
+r c or we can convert it to a list see
+
+326
+00:12:39,440 --> 00:12:45,040
+this is also the same backtracking we
+
+327
+00:12:42,320 --> 00:12:47,360
+have a factor i so the remaining will be
+
+328
+00:12:45,040 --> 00:12:50,800
+n divided by i we we are using the
+
+329
+00:12:47,360 --> 00:12:52,959
+vector i so the next factor should be i
+
+330
+00:12:50,800 --> 00:12:54,800
+or more right and we're changing the
+
+331
+00:12:52,959 --> 00:12:56,880
+list because we're backtracking we are
+
+332
+00:12:54,800 --> 00:12:58,880
+changing the list here
+
+333
+00:12:56,880 --> 00:13:01,839
+so means after backtracking we need to
+
+334
+00:12:58,880 --> 00:13:05,040
+restore c dot pop what's c dot
+
+335
+00:13:01,839 --> 00:13:09,040
+two three the pop what happened if c
+
+336
+00:13:05,040 --> 00:13:10,639
+equals bad then c dot top will happen
+
+337
+00:13:09,040 --> 00:13:12,959
+it pops
+
+338
+00:13:10,639 --> 00:13:15,040
+three yeah so c will become two right
+
+339
+00:13:12,959 --> 00:13:17,600
+because what look three
+
+340
+00:13:15,040 --> 00:13:19,200
+is a pen here as
+
+341
+00:13:17,600 --> 00:13:22,639
+i
+
+342
+00:13:19,200 --> 00:13:24,639
+three is a pen to see if i is three
+
+343
+00:13:22,639 --> 00:13:25,920
+right and then after backtracking needs
+
+344
+00:13:24,639 --> 00:13:28,320
+to restore it
+
+345
+00:13:25,920 --> 00:13:30,240
+okay so this is backtracking
+
+346
+00:13:28,320 --> 00:13:32,639
+okay so what have you learned today
+
+347
+00:13:30,240 --> 00:13:35,279
+about factors okay what's the problem
+
+348
+00:13:32,639 --> 00:13:38,160
+and how are we solving this problem
+
+349
+00:13:35,279 --> 00:13:39,360
+the problem is well what's the problem
+
+350
+00:13:38,160 --> 00:13:40,720
+come on
+
+351
+00:13:39,360 --> 00:13:41,600
+ryan
+
+352
+00:13:40,720 --> 00:13:43,199
+then
+
+353
+00:13:41,600 --> 00:13:45,279
+yeah we're given the integer positive
+
+354
+00:13:43,199 --> 00:13:46,720
+integer and what are we trying to do is
+
+355
+00:13:45,279 --> 00:13:48,959
+we try
+
+356
+00:13:46,720 --> 00:13:51,120
+we factorize it yeah we're trying to
+
+357
+00:13:48,959 --> 00:13:53,040
+find a list of factors yeah
+
+358
+00:13:51,120 --> 00:13:55,279
+and you know how do we solve the problem
+
+359
+00:13:53,040 --> 00:13:57,600
+of the duplication
+
+360
+00:13:55,279 --> 00:13:59,839
+for example we solve the factor of
+
+361
+00:13:57,600 --> 00:14:02,560
+duplication like 2 2 3
+
+362
+00:13:59,839 --> 00:14:04,880
+is the same as 2 3 2. come on can
+
+363
+00:14:02,560 --> 00:14:06,560
+anybody tell me how do we
+
+364
+00:14:04,880 --> 00:14:08,880
+using this approach how do we solve the
+
+365
+00:14:06,560 --> 00:14:11,519
+problem multiplication you know we just
+
+366
+00:14:08,880 --> 00:14:13,199
+find 2 3 or not 2 3 2 because 2 3 2 is
+
+367
+00:14:11,519 --> 00:14:16,639
+the same as 2 3
+
+368
+00:14:13,199 --> 00:14:18,320
+which parameters controls the 2g3 yeah
+
+369
+00:14:16,639 --> 00:14:22,000
+which parameter look
+
+370
+00:14:18,320 --> 00:14:24,079
+controls the used last used factor
+
+371
+00:14:22,000 --> 00:14:27,120
+s that's where
+
+372
+00:14:24,079 --> 00:14:29,120
+n is the current remaining s is the last
+
+373
+00:14:27,120 --> 00:14:32,720
+use factor yeah
+
+374
+00:14:29,120 --> 00:14:33,600
+yeah c is the common list of factors
+
+375
+00:14:32,720 --> 00:14:35,360
+right
+
+376
+00:14:33,600 --> 00:14:36,800
+okay that's checking okay that's it for
+
+377
+00:14:35,360 --> 00:14:39,800
+today bye bye
+
+378
+00:14:36,800 --> 00:14:39,800
+bye
+
