@@ -1,0 +1,1124 @@
+1
+00:00:00,080 --> 00:00:04,960
+hello hello mr mr ryan how are you today
+
+2
+00:00:03,040 --> 00:00:06,160
+yeah i'm very good yesterday we talked
+
+3
+00:00:04,960 --> 00:00:07,919
+about this
+
+4
+00:00:06,160 --> 00:00:10,000
+factor combination so basically we're
+
+5
+00:00:07,919 --> 00:00:12,639
+trying to find out a list of factors
+
+6
+00:00:10,000 --> 00:00:16,160
+that whose product is the n right for
+
+7
+00:00:12,639 --> 00:00:18,080
+example 12 the list of products is we
+
+8
+00:00:16,160 --> 00:00:19,920
+can have is that two three two or two
+
+9
+00:00:18,080 --> 00:00:20,960
+two three these are considered as the
+
+10
+00:00:19,920 --> 00:00:23,760
+same right
+
+11
+00:00:20,960 --> 00:00:25,279
+okay so we the agreement we're using
+
+12
+00:00:23,760 --> 00:00:27,359
+yesterday is backtracking which is
+
+13
+00:00:25,279 --> 00:00:29,279
+basically like recursive data search
+
+14
+00:00:27,359 --> 00:00:30,880
+deficit with some
+
+15
+00:00:29,279 --> 00:00:33,680
+optimization so
+
+16
+00:00:30,880 --> 00:00:36,079
+so the one optimization is that we don't
+
+17
+00:00:33,680 --> 00:00:38,320
+want to continue with the duplication
+
+18
+00:00:36,079 --> 00:00:41,520
+for example like two two three is the
+
+19
+00:00:38,320 --> 00:00:43,440
+same as two three two the idea for this
+
+20
+00:00:41,520 --> 00:00:45,680
+optimization is that we keep tracking of
+
+21
+00:00:43,440 --> 00:00:48,559
+the last user factor okay so for the
+
+22
+00:00:45,680 --> 00:00:50,879
+next factor we're going to use it has to
+
+23
+00:00:48,559 --> 00:00:51,840
+be no less than the last user factor
+
+24
+00:00:50,879 --> 00:00:55,120
+okay
+
+25
+00:00:51,840 --> 00:00:57,360
+yeah yeah yeah yeah so look for this one
+
+26
+00:00:55,120 --> 00:00:59,840
+yeah level search n is the current
+
+27
+00:00:57,360 --> 00:01:02,160
+integer s is the last use vector c is
+
+28
+00:00:59,840 --> 00:01:03,680
+the current list of the factors
+
+29
+00:01:02,160 --> 00:01:06,720
+right and now we
+
+30
+00:01:03,680 --> 00:01:08,159
+start with the s up to square root of n
+
+31
+00:01:06,720 --> 00:01:10,320
+we talked about this square root of n
+
+32
+00:01:08,159 --> 00:01:14,080
+and right for example like if we want to
+
+33
+00:01:10,320 --> 00:01:16,720
+find out if a 100 is a prime number so
+
+34
+00:01:14,080 --> 00:01:19,280
+how do we do it usually you know 100 is
+
+35
+00:01:16,720 --> 00:01:21,040
+an even number for example like 121
+
+36
+00:01:19,280 --> 00:01:22,640
+if it's a point number how do you how do
+
+37
+00:01:21,040 --> 00:01:24,159
+you how would you usually check if it's
+
+38
+00:01:22,640 --> 00:01:27,720
+a kind of number
+
+39
+00:01:24,159 --> 00:01:27,720
+if it's
+
+40
+00:01:33,840 --> 00:01:40,960
+121 okay so
+
+41
+00:01:36,400 --> 00:01:40,960
+okay i just remember my times table
+
+42
+00:01:44,399 --> 00:01:47,680
+okay so but if you
+
+43
+00:01:45,920 --> 00:01:49,680
+for example if you're not remembering
+
+44
+00:01:47,680 --> 00:01:50,399
+those for example what which time table
+
+45
+00:01:49,680 --> 00:01:52,079
+you
+
+46
+00:01:50,399 --> 00:01:53,119
+start checking two times they about
+
+47
+00:01:52,079 --> 00:01:55,520
+three times
+
+48
+00:01:53,119 --> 00:01:57,840
+i'm starting the three time tables yeah
+
+49
+00:01:55,520 --> 00:01:59,439
+yeah yeah two times table we can easily
+
+50
+00:01:57,840 --> 00:02:01,119
+rule out for the
+
+51
+00:01:59,439 --> 00:02:02,880
+even numbers yeah if it's not even a
+
+52
+00:02:01,119 --> 00:02:04,880
+number so we don't need to check two
+
+53
+00:02:02,880 --> 00:02:06,960
+four six eight it doesn't matter right
+
+54
+00:02:04,880 --> 00:02:10,399
+right because it's not an even number it
+
+55
+00:02:06,960 --> 00:02:12,319
+certainly cannot be divided by 4 6 a all
+
+56
+00:02:10,399 --> 00:02:14,319
+right it's not in those
+
+57
+00:02:12,319 --> 00:02:18,160
+even numbers time table so we check
+
+58
+00:02:14,319 --> 00:02:20,959
+start with 3 3 5 7 9 11 right etcetera
+
+59
+00:02:18,160 --> 00:02:22,800
+so the idea is we check these factors up
+
+60
+00:02:20,959 --> 00:02:25,840
+to square root of l right for example
+
+61
+00:02:22,800 --> 00:02:27,840
+100 100 we have two and corresponding
+
+62
+00:02:25,840 --> 00:02:30,720
+which is 50. we have
+
+63
+00:02:27,840 --> 00:02:32,800
+four responding is 25 so
+
+64
+00:02:30,720 --> 00:02:34,879
+look we have a number which is less than
+
+65
+00:02:32,800 --> 00:02:36,720
+square root of n then sure if we have
+
+66
+00:02:34,879 --> 00:02:39,760
+another factor which is bigger than the
+
+67
+00:02:36,720 --> 00:02:42,080
+square root of n right to 4 times 25
+
+68
+00:02:39,760 --> 00:02:43,840
+equals 100 yeah
+
+69
+00:02:42,080 --> 00:02:47,680
+it means that we also have another pair
+
+70
+00:02:43,840 --> 00:02:47,680
+25 times 4 equals 100
+
+71
+00:02:48,000 --> 00:02:52,239
+so that we appeared in we are
+
+72
+00:02:49,599 --> 00:02:54,720
+incrementing building the list of the
+
+73
+00:02:52,239 --> 00:02:56,959
+factors c dot upon i
+
+74
+00:02:54,720 --> 00:03:00,400
+once we found out the i is a factor of
+
+75
+00:02:56,959 --> 00:03:01,680
+uh is a vector of n right so we
+
+76
+00:03:00,400 --> 00:03:04,720
+can bear
+
+77
+00:03:01,680 --> 00:03:05,920
+an answer which is the i
+
+78
+00:03:04,720 --> 00:03:07,280
+and n
+
+79
+00:03:05,920 --> 00:03:09,519
+divided by i
+
+80
+00:03:07,280 --> 00:03:12,000
+so then we backtrack we find the factor
+
+81
+00:03:09,519 --> 00:03:14,480
+i so the remaining factor would be n
+
+82
+00:03:12,000 --> 00:03:16,480
+divided by i and then the last use
+
+83
+00:03:14,480 --> 00:03:19,120
+factor would be i and at least we're
+
+84
+00:03:16,480 --> 00:03:21,680
+passing in so the idea of backtracking
+
+85
+00:03:19,120 --> 00:03:23,680
+is that afterwards we need to restore
+
+86
+00:03:21,680 --> 00:03:26,640
+the list okay the other way we don't
+
+87
+00:03:23,680 --> 00:03:30,239
+need to modify the c is that we pass a
+
+88
+00:03:26,640 --> 00:03:32,480
+copy so instead of c dot append i so
+
+89
+00:03:30,239 --> 00:03:35,760
+we just do it c
+
+90
+00:03:32,480 --> 00:03:38,159
+yeah and we put another one i and
+
+91
+00:03:35,760 --> 00:03:39,360
+divided by i and then
+
+92
+00:03:38,159 --> 00:03:40,159
+c
+
+93
+00:03:39,360 --> 00:03:42,959
+just
+
+94
+00:03:40,159 --> 00:03:45,040
+plus i okay
+
+95
+00:03:42,959 --> 00:03:46,720
+yeah so so we don't need to do this
+
+96
+00:03:45,040 --> 00:03:49,040
+right because we are passing a copy of
+
+97
+00:03:46,720 --> 00:03:50,400
+it so we don't need to restore it okay
+
+98
+00:03:49,040 --> 00:03:52,159
+so today we're going to talk about
+
+99
+00:03:50,400 --> 00:03:54,720
+breakfast search basically it's quite
+
+100
+00:03:52,159 --> 00:03:57,519
+similar than that but we are just
+
+101
+00:03:54,720 --> 00:03:59,840
+expanding our search tree level by level
+
+102
+00:03:57,519 --> 00:04:01,360
+in the level by level order okay so i
+
+103
+00:03:59,840 --> 00:04:03,360
+guess you must be very familiar with
+
+104
+00:04:01,360 --> 00:04:04,879
+specifics so how do usually you
+
+105
+00:04:03,360 --> 00:04:06,640
+implement the preferences using what
+
+106
+00:04:04,879 --> 00:04:10,159
+kind of data structure
+
+107
+00:04:06,640 --> 00:04:11,840
+dq double ndk okay answer
+
+108
+00:04:10,159 --> 00:04:13,840
+q dot
+
+109
+00:04:11,840 --> 00:04:16,720
+q
+
+110
+00:04:13,840 --> 00:04:19,440
+left here so we use the eq double ndq
+
+111
+00:04:16,720 --> 00:04:22,240
+because we want to achieve the all one
+
+112
+00:04:19,440 --> 00:04:24,160
+constant the most efficient way to do
+
+113
+00:04:22,240 --> 00:04:27,919
+this operation in both
+
+114
+00:04:24,160 --> 00:04:30,160
+sides of the cube pop top left a pen a
+
+115
+00:04:27,919 --> 00:04:31,280
+pen left if you don't specify the
+
+116
+00:04:30,160 --> 00:04:33,120
+directions
+
+117
+00:04:31,280 --> 00:04:35,440
+by default it means that to the right
+
+118
+00:04:33,120 --> 00:04:37,440
+okay if you want to pop from the left
+
+119
+00:04:35,440 --> 00:04:40,320
+hand side we have to put the left top
+
+120
+00:04:37,440 --> 00:04:43,440
+left append left okay if we say append
+
+121
+00:04:40,320 --> 00:04:45,440
+it's on the right if we say pop is from
+
+122
+00:04:43,440 --> 00:04:47,120
+the from the right okay
+
+123
+00:04:45,440 --> 00:04:49,600
+so
+
+124
+00:04:47,120 --> 00:04:51,120
+answer equals empty this this is the
+
+125
+00:04:49,600 --> 00:04:54,720
+answer we're building
+
+126
+00:04:51,120 --> 00:04:56,880
+so at the beginning dq
+
+127
+00:04:54,720 --> 00:04:58,800
+we put the you know because we look we
+
+128
+00:04:56,880 --> 00:05:01,280
+are we are requiring three parameters so
+
+129
+00:04:58,800 --> 00:05:03,039
+the n we're putting the n we start with
+
+130
+00:05:01,280 --> 00:05:05,759
+two because the
+
+131
+00:05:03,039 --> 00:05:07,600
+smallest uh factor could be two right
+
+132
+00:05:05,759 --> 00:05:09,280
+and the smallest factor factor is
+
+133
+00:05:07,600 --> 00:05:10,960
+considered as
+
+134
+00:05:09,280 --> 00:05:14,560
+up from 2
+
+135
+00:05:10,960 --> 00:05:15,919
+up to n not including okay this is the
+
+136
+00:05:14,560 --> 00:05:17,199
+closed
+
+137
+00:05:15,919 --> 00:05:18,880
+and this is
+
+138
+00:05:17,199 --> 00:05:20,960
+open
+
+139
+00:05:18,880 --> 00:05:24,960
+this is the same thing as factor bigger
+
+140
+00:05:20,960 --> 00:05:24,960
+than 2 and smaller than n okay
+
+141
+00:05:25,520 --> 00:05:30,479
+at the beginning is empty
+
+142
+00:05:27,919 --> 00:05:31,199
+uh this is empty we are pushing a couple
+
+143
+00:05:30,479 --> 00:05:33,440
+right
+
+144
+00:05:31,199 --> 00:05:35,360
+three three elements what's this what's
+
+145
+00:05:33,440 --> 00:05:36,479
+the difference between trouble and away
+
+146
+00:05:35,360 --> 00:05:39,479
+at least
+
+147
+00:05:36,479 --> 00:05:39,479
+anybody
+
+148
+00:05:49,440 --> 00:05:54,160
+so
+
+149
+00:05:50,320 --> 00:05:56,639
+why a q so this is the standard but for
+
+150
+00:05:54,160 --> 00:05:59,280
+search we take it from the queue we
+
+151
+00:05:56,639 --> 00:06:00,400
+dequeue it and we dequeue it so the
+
+152
+00:05:59,280 --> 00:06:02,800
+number
+
+153
+00:06:00,400 --> 00:06:07,440
+tomorrow i'm doing swimming oh yeah the
+
+154
+00:06:02,800 --> 00:06:11,440
+last factor and the coverage equal q dot
+
+155
+00:06:07,440 --> 00:06:14,720
+power one by using the dq as a q so we
+
+156
+00:06:11,440 --> 00:06:14,720
+need to queue the problem
+
+157
+00:06:16,400 --> 00:06:19,680
+and then these will be the same
+
+158
+00:06:17,520 --> 00:06:21,919
+therefore we need to check we need to
+
+159
+00:06:19,680 --> 00:06:24,960
+check the next
+
+160
+00:06:21,919 --> 00:06:26,240
+possible factor you know factor so
+
+161
+00:06:24,960 --> 00:06:29,520
+for
+
+162
+00:06:26,240 --> 00:06:31,840
+right for i in range
+
+163
+00:06:29,520 --> 00:06:33,600
+we start with the last we
+
+164
+00:06:31,840 --> 00:06:35,280
+go up to
+
+165
+00:06:33,600 --> 00:06:38,240
+num square root of
+
+166
+00:06:35,280 --> 00:06:42,400
+and num yeah square root of
+
+167
+00:06:38,240 --> 00:06:42,400
+n there are three ways of doing it right
+
+168
+00:06:42,560 --> 00:06:46,800
+integer
+
+169
+00:06:44,240 --> 00:06:48,720
+and mathematical multiple 0.5 we talk
+
+170
+00:06:46,800 --> 00:06:51,039
+about this how we can use the power
+
+171
+00:06:48,720 --> 00:06:52,479
+function or we use the sqrt function
+
+172
+00:06:51,039 --> 00:06:55,440
+those are okay
+
+173
+00:06:52,479 --> 00:06:57,680
+uh plus one
+
+174
+00:06:55,440 --> 00:07:00,960
+if num
+
+175
+00:06:57,680 --> 00:07:03,039
+divided by i remain zero right so it
+
+176
+00:07:00,960 --> 00:07:06,400
+means that if i is a factor of num
+
+177
+00:07:03,039 --> 00:07:09,280
+answer the append we push that we find
+
+178
+00:07:06,400 --> 00:07:10,240
+the one solution which is the current
+
+179
+00:07:09,280 --> 00:07:11,039
+plus
+
+180
+00:07:10,240 --> 00:07:14,080
+i
+
+181
+00:07:11,039 --> 00:07:16,319
+and n divided by i right once we have a
+
+182
+00:07:14,080 --> 00:07:18,960
+vector i we also have a corresponding n
+
+183
+00:07:16,319 --> 00:07:22,800
+divided by i and then we need to push
+
+184
+00:07:18,960 --> 00:07:25,039
+the result pushing the key q append
+
+185
+00:07:22,800 --> 00:07:26,800
+append
+
+186
+00:07:25,039 --> 00:07:29,120
+and
+
+187
+00:07:26,800 --> 00:07:32,319
+okay this is n
+
+188
+00:07:29,120 --> 00:07:34,639
+divided by i the last unit vector is i
+
+189
+00:07:32,319 --> 00:07:37,440
+and the list will be
+
+190
+00:07:34,639 --> 00:07:40,960
+current we make the copy
+
+191
+00:07:37,440 --> 00:07:42,000
+plus yes i
+
+192
+00:07:40,960 --> 00:07:43,759
+okay
+
+193
+00:07:42,000 --> 00:07:48,240
+so we're finishing with this with an
+
+194
+00:07:43,759 --> 00:07:48,240
+answer this is the numbers i okay
+
+195
+00:07:48,560 --> 00:07:51,360
+right now
+
+196
+00:07:53,360 --> 00:07:58,720
+so i is a factor of num so we push we
+
+197
+00:07:56,639 --> 00:08:00,879
+push the result we have a result with
+
+198
+00:07:58,720 --> 00:08:02,960
+current this is the current list of the
+
+199
+00:08:00,879 --> 00:08:05,120
+factors and plus
+
+200
+00:08:02,960 --> 00:08:06,720
+i and
+
+201
+00:08:05,120 --> 00:08:09,919
+num
+
+202
+00:08:06,720 --> 00:08:13,280
+divided by i okay and then the next
+
+203
+00:08:09,919 --> 00:08:14,479
+kit we're going to explore is
+
+204
+00:08:13,280 --> 00:08:17,440
+once we have
+
+205
+00:08:14,479 --> 00:08:19,919
+found the factor i the remaining is n
+
+206
+00:08:17,440 --> 00:08:22,240
+divided by i the next factor to be used
+
+207
+00:08:19,919 --> 00:08:23,680
+should be no less than i should be i
+
+208
+00:08:22,240 --> 00:08:25,520
+know more and then
+
+209
+00:08:23,680 --> 00:08:27,840
+the list yeah we found the eye and then
+
+210
+00:08:25,520 --> 00:08:30,400
+we append it right we need to make the
+
+211
+00:08:27,840 --> 00:08:33,599
+copy yeah we can either use this list
+
+212
+00:08:30,400 --> 00:08:35,919
+current or current you know this is
+
+213
+00:08:33,599 --> 00:08:37,280
+array slicing or we use the copy dot d
+
+214
+00:08:35,919 --> 00:08:39,440
+copy it's the same okay
+
+215
+00:08:37,280 --> 00:08:42,240
+[Music]
+
+216
+00:08:39,440 --> 00:08:44,159
+can anybody tell me what's deep copy
+
+217
+00:08:42,240 --> 00:08:45,730
+is it copy that
+
+218
+00:08:44,159 --> 00:08:48,000
+copy what's it what's steam copy
+
+219
+00:08:45,730 --> 00:08:50,959
+[Music]
+
+220
+00:08:48,000 --> 00:08:53,279
+yeah so what's the opposite of give copy
+
+221
+00:08:50,959 --> 00:08:55,360
+copy yeah so deep copy is copy
+
+222
+00:08:53,279 --> 00:08:57,360
+everything yeah you can tweet it and
+
+223
+00:08:55,360 --> 00:09:00,399
+copy everything serial copy is more like
+
+224
+00:08:57,360 --> 00:09:03,680
+the alias right alias so you just copy
+
+225
+00:09:00,399 --> 00:09:07,120
+the name right does it make sense please
+
+226
+00:09:03,680 --> 00:09:09,519
+okay for example like array equals one
+
+227
+00:09:07,120 --> 00:09:11,519
+b equals a is this yellow copy of the
+
+228
+00:09:09,519 --> 00:09:14,080
+copy
+
+229
+00:09:11,519 --> 00:09:16,320
+shallow copy b points to a so b and a is
+
+230
+00:09:14,080 --> 00:09:18,160
+the same pronunciation but if but if i
+
+231
+00:09:16,320 --> 00:09:19,279
+say this is the
+
+232
+00:09:18,160 --> 00:09:21,200
+b copy
+
+233
+00:09:19,279 --> 00:09:25,360
+yeah or we can use d copy copy dot b
+
+234
+00:09:21,200 --> 00:09:27,360
+copy a b equals copy this is the package
+
+235
+00:09:25,360 --> 00:09:28,160
+dot d copy
+
+236
+00:09:27,360 --> 00:09:29,200
+a
+
+237
+00:09:28,160 --> 00:09:32,399
+right
+
+238
+00:09:29,200 --> 00:09:33,360
+or b equals this a we convert into a
+
+239
+00:09:32,399 --> 00:09:34,959
+list
+
+240
+00:09:33,360 --> 00:09:38,480
+so look
+
+241
+00:09:34,959 --> 00:09:41,680
+this one this one and this one are all
+
+242
+00:09:38,480 --> 00:09:43,360
+deep copy all right but this one because
+
+243
+00:09:41,680 --> 00:09:44,320
+hey this is yellow
+
+244
+00:09:43,360 --> 00:09:46,080
+okay
+
+245
+00:09:44,320 --> 00:09:48,160
+okay so today what have you learned so
+
+246
+00:09:46,080 --> 00:09:51,839
+far what's the last what's the what's
+
+247
+00:09:48,160 --> 00:09:51,839
+the thing you learned today come on
+
+248
+00:09:52,720 --> 00:09:58,000
+okay so what's the problem and the
+
+249
+00:09:54,880 --> 00:09:59,920
+problem is we got we've been
+
+250
+00:09:58,000 --> 00:10:03,120
+we got
+
+251
+00:09:59,920 --> 00:10:04,560
+we got a number a positive number yes
+
+252
+00:10:03,120 --> 00:10:06,320
+and we have to
+
+253
+00:10:04,560 --> 00:10:08,160
+do all of the
+
+254
+00:10:06,320 --> 00:10:10,959
+we want to find out the list of factors
+
+255
+00:10:08,160 --> 00:10:14,000
+here the factor should be
+
+256
+00:10:10,959 --> 00:10:15,680
+more than 2 and less than n right so if
+
+257
+00:10:14,000 --> 00:10:17,839
+we're given a 2
+
+258
+00:10:15,680 --> 00:10:20,320
+we don't find such vectors bigger than
+
+259
+00:10:17,839 --> 00:10:22,640
+or equal than two and less than two
+
+260
+00:10:20,320 --> 00:10:24,959
+right there is no such thing and any
+
+261
+00:10:22,640 --> 00:10:28,000
+prime numbers we need to return empty
+
+262
+00:10:24,959 --> 00:10:30,399
+this is because we don't find such
+
+263
+00:10:28,000 --> 00:10:33,760
+valid factors in this range between two
+
+264
+00:10:30,399 --> 00:10:35,920
+and and not including them okay
+
+265
+00:10:33,760 --> 00:10:38,560
+so yesterday we talked about recursive
+
+266
+00:10:35,920 --> 00:10:40,959
+data search with some optimization which
+
+267
+00:10:38,560 --> 00:10:42,800
+is uh essentially is the backtracking
+
+268
+00:10:40,959 --> 00:10:44,560
+and backtracking is the best search with
+
+269
+00:10:42,800 --> 00:10:47,200
+optimization
+
+270
+00:10:44,560 --> 00:10:48,880
+level search we travel the search path
+
+271
+00:10:47,200 --> 00:10:51,360
+search tree
+
+272
+00:10:48,880 --> 00:10:53,120
+as deep as we can right and then we
+
+273
+00:10:51,360 --> 00:10:55,040
+backtrack if we can't find the solution
+
+274
+00:10:53,120 --> 00:10:57,839
+we don't keep continuing we don't
+
+275
+00:10:55,040 --> 00:11:00,800
+continue dig deeper if we found an
+
+276
+00:10:57,839 --> 00:11:00,800
+opportunity
+
+277
+00:11:05,279 --> 00:11:09,440
+and
+
+278
+00:11:06,399 --> 00:11:11,839
+in order to do this we use the q dq we
+
+279
+00:11:09,440 --> 00:11:14,160
+do this number by level okay okay that's
+
+280
+00:11:11,839 --> 00:11:17,160
+it for today bye
+
+281
+00:11:14,160 --> 00:11:17,160
+bye
+
