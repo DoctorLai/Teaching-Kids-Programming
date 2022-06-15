@@ -1,0 +1,960 @@
+1
+00:00:00,000 --> 00:00:05,520
+hello mr mr ryan are you right yes okay
+
+2
+00:00:03,199 --> 00:00:08,000
+so we're giving uh something
+
+3
+00:00:05,520 --> 00:00:09,760
+we said some words eric
+
+4
+00:00:08,000 --> 00:00:10,960
+eric
+
+5
+00:00:09,760 --> 00:00:12,400
+and
+
+6
+00:00:10,960 --> 00:00:14,880
+happy
+
+7
+00:00:12,400 --> 00:00:17,119
+ryan and
+
+8
+00:00:14,880 --> 00:00:19,920
+okay okay so we are given a sentence of
+
+9
+00:00:17,119 --> 00:00:24,000
+words separated by white space the first
+
+10
+00:00:19,920 --> 00:00:26,800
+one is eric the second one is ryan so
+
+11
+00:00:24,000 --> 00:00:29,840
+that could be many eric could be many
+
+12
+00:00:26,800 --> 00:00:33,600
+ryan in a string so the question is that
+
+13
+00:00:29,840 --> 00:00:36,399
+what's the shortest distance between
+
+14
+00:00:33,600 --> 00:00:38,559
+any error to any right in this string i
+
+15
+00:00:36,399 --> 00:00:38,559
+mean
+
+16
+00:00:38,640 --> 00:00:44,480
+two yeah yeah okay the shot is distance
+
+17
+00:00:41,520 --> 00:00:46,879
+means the number of words between those
+
+18
+00:00:44,480 --> 00:00:48,480
+right so look there are two words yeah
+
+19
+00:00:46,879 --> 00:00:52,320
+two words between everything right and
+
+20
+00:00:48,480 --> 00:00:52,320
+that's the closest all right
+
+21
+00:00:53,600 --> 00:00:57,840
+and okay if i add that right in here
+
+22
+00:00:56,000 --> 00:01:01,120
+what's the shortest distance between l
+
+23
+00:00:57,840 --> 00:01:03,920
+eric bryan 0 yeah 0. to repeat we are
+
+24
+00:01:01,120 --> 00:01:06,080
+given a string of words separated by y
+
+25
+00:01:03,920 --> 00:01:08,080
+space and we are given two words we want
+
+26
+00:01:06,080 --> 00:01:10,479
+to find out the shortest distance
+
+27
+00:01:08,080 --> 00:01:12,400
+that is different as defined as the
+
+28
+00:01:10,479 --> 00:01:13,600
+number of words between
+
+29
+00:01:12,400 --> 00:01:17,600
+any
+
+30
+00:01:13,600 --> 00:01:20,240
+what one on any one if there's no error
+
+31
+00:01:17,600 --> 00:01:23,840
+or if there's no ryan in the sentence
+
+32
+00:01:20,240 --> 00:01:25,520
+we'll return minus one okay
+
+33
+00:01:23,840 --> 00:01:27,600
+yeah first of all spread them that's
+
+34
+00:01:25,520 --> 00:01:31,520
+very good so first of all we split the
+
+35
+00:01:27,600 --> 00:01:34,799
+string yeah so array equals s dot split
+
+36
+00:01:31,520 --> 00:01:36,799
+so we split the string into array of
+
+37
+00:01:34,799 --> 00:01:38,720
+words so how do we solve this i just
+
+38
+00:01:36,799 --> 00:01:41,200
+need a general idea it doesn't have to
+
+39
+00:01:38,720 --> 00:01:43,600
+be a concrete
+
+40
+00:01:41,200 --> 00:01:45,520
+yeah we're going to enumerate and how
+
+41
+00:01:43,600 --> 00:01:46,640
+how do we do it
+
+42
+00:01:45,520 --> 00:01:49,520
+index
+
+43
+00:01:46,640 --> 00:01:54,399
+yes index of the word so how do we deal
+
+44
+00:01:49,520 --> 00:01:54,399
+with the index i visually see the word
+
+45
+00:02:04,799 --> 00:02:12,399
+so yeah you just connect this eric eric
+
+46
+00:02:08,879 --> 00:02:12,399
+you collect one index yes
+
+47
+00:02:13,280 --> 00:02:18,160
+and then what do you do suppose okay so
+
+48
+00:02:15,520 --> 00:02:20,560
+the index for ryan yeah index for ryan
+
+49
+00:02:18,160 --> 00:02:24,000
+is zero five right
+
+50
+00:02:20,560 --> 00:02:24,720
+i'm not index for eric is one two right
+
+51
+00:02:24,000 --> 00:02:27,120
+you
+
+52
+00:02:24,720 --> 00:02:29,920
+you find if there's like
+
+53
+00:02:27,120 --> 00:02:32,080
+do you just visually see this oh yeah
+
+54
+00:02:29,920 --> 00:02:34,840
+yeah it's still not yeah i understand
+
+55
+00:02:32,080 --> 00:02:35,040
+but fear not visually
+
+56
+00:02:34,840 --> 00:02:35,920
+yeah size which is this size this is two
+
+57
+00:02:35,040 --> 00:02:35,920
+it's yeah
+
+58
+00:02:38,480 --> 00:02:44,840
+and this is also two which is perfect
+
+59
+00:02:41,280 --> 00:02:46,959
+because you just maybe you just find the
+
+60
+00:02:44,840 --> 00:02:50,000
+smallest one
+
+61
+00:02:46,959 --> 00:02:50,720
+but this one is sorted so that's good
+
+62
+00:02:50,000 --> 00:02:53,280
+wait
+
+63
+00:02:50,720 --> 00:02:55,519
+this one is the smallest
+
+64
+00:02:53,280 --> 00:02:58,959
+and this is also the smallest
+
+65
+00:02:55,519 --> 00:03:01,040
+and and then you can just do like this
+
+66
+00:02:58,959 --> 00:03:02,000
+is the biggest and then this is the
+
+67
+00:03:01,040 --> 00:03:05,440
+biggest
+
+68
+00:03:02,000 --> 00:03:08,000
+this is roommate three and this and
+
+69
+00:03:05,440 --> 00:03:08,000
+smallest
+
+70
+00:03:08,080 --> 00:03:12,480
+one
+
+71
+00:03:10,159 --> 00:03:14,720
+this could be many many numbers instead
+
+72
+00:03:12,480 --> 00:03:18,400
+of two so it could be many many numbers
+
+73
+00:03:14,720 --> 00:03:20,400
+like zero two three four five okay for
+
+74
+00:03:18,400 --> 00:03:23,440
+the first one and the second one could
+
+75
+00:03:20,400 --> 00:03:26,159
+be many cases one two
+
+76
+00:03:23,440 --> 00:03:28,480
+six eight okay then you just do the
+
+77
+00:03:26,159 --> 00:03:30,239
+smallest one
+
+78
+00:03:28,480 --> 00:03:31,200
+smallest one yeah
+
+79
+00:03:30,239 --> 00:03:33,680
+see
+
+80
+00:03:31,200 --> 00:03:35,440
+you sure but look if the smallest one
+
+81
+00:03:33,680 --> 00:03:37,760
+could be like that
+
+82
+00:03:35,440 --> 00:03:38,720
+so clearly five this is four different
+
+83
+00:03:37,760 --> 00:03:40,159
+but
+
+84
+00:03:38,720 --> 00:03:42,560
+right here
+
+85
+00:03:40,159 --> 00:03:44,000
+the tree is starting with the maxima do
+
+86
+00:03:42,560 --> 00:03:46,640
+you see my point
+
+87
+00:03:44,000 --> 00:03:49,120
+so it doesn't work right yes we have
+
+88
+00:03:46,640 --> 00:03:51,519
+these two arrays sorted array
+
+89
+00:03:49,120 --> 00:03:53,360
+a and b sorted array
+
+90
+00:03:51,519 --> 00:03:55,920
+how do you find the smallest distance
+
+91
+00:03:53,360 --> 00:03:57,439
+between any two numbers in an array okay
+
+92
+00:03:55,920 --> 00:03:59,920
+that's the question man
+
+93
+00:03:57,439 --> 00:04:01,439
+what's the method to ask computers to
+
+94
+00:03:59,920 --> 00:04:02,319
+try
+
+95
+00:04:01,439 --> 00:04:04,879
+yeah
+
+96
+00:04:02,319 --> 00:04:07,439
+we can prove for them all right we can
+
+97
+00:04:04,879 --> 00:04:10,000
+profit the numbers but this does not use
+
+98
+00:04:07,439 --> 00:04:12,799
+the fact that they are both sorted right
+
+99
+00:04:10,000 --> 00:04:14,560
+yeah and in fact if we pull forcing the
+
+100
+00:04:12,799 --> 00:04:17,280
+time conductor will be o and square
+
+101
+00:04:14,560 --> 00:04:19,919
+right yeah orange square okay because we
+
+102
+00:04:17,280 --> 00:04:22,639
+have to find the pairs right right
+
+103
+00:04:19,919 --> 00:04:23,919
+this is too slow okay this is the key
+
+104
+00:04:22,639 --> 00:04:26,800
+thing today
+
+105
+00:04:23,919 --> 00:04:28,800
+yes this method could work if the size
+
+106
+00:04:26,800 --> 00:04:31,680
+of the string is small then possibly
+
+107
+00:04:28,800 --> 00:04:34,080
+that's okay we collect the index for
+
+108
+00:04:31,680 --> 00:04:35,919
+those words and i will try to pull first
+
+109
+00:04:34,080 --> 00:04:38,720
+any number from
+
+110
+00:04:35,919 --> 00:04:41,280
+ryan any number from eric and i try to
+
+111
+00:04:38,720 --> 00:04:44,080
+to see which two numbers
+
+112
+00:04:41,280 --> 00:04:46,240
+have a shortage distance right
+
+113
+00:04:44,080 --> 00:04:48,080
+that's very slow another way first of
+
+114
+00:04:46,240 --> 00:04:49,840
+all we obviously we need to split the
+
+115
+00:04:48,080 --> 00:04:53,600
+sentences forward we'll go through the
+
+116
+00:04:49,840 --> 00:04:54,400
+word yeah if it's the any of these words
+
+117
+00:04:53,600 --> 00:04:57,120
+right
+
+118
+00:04:54,400 --> 00:05:00,320
+then we check if it is the same as the
+
+119
+00:04:57,120 --> 00:05:02,080
+previous one if it's the same as the
+
+120
+00:05:00,320 --> 00:05:04,240
+last recorded one
+
+121
+00:05:02,080 --> 00:05:06,320
+okay if it's not then that's the
+
+122
+00:05:04,240 --> 00:05:10,320
+certificate we calculated
+
+123
+00:05:06,320 --> 00:05:12,320
+if it is we just update it i'm last okay
+
+124
+00:05:10,320 --> 00:05:14,320
+at the beginning i set it to 9. the
+
+125
+00:05:12,320 --> 00:05:16,880
+index here is 0.
+
+126
+00:05:14,320 --> 00:05:19,520
+this word is one of the areas in line
+
+127
+00:05:16,880 --> 00:05:22,560
+right it's in here we haven't made any
+
+128
+00:05:19,520 --> 00:05:26,000
+of these so i just set it to last equals
+
+129
+00:05:22,560 --> 00:05:29,360
+to zero right because it means that last
+
+130
+00:05:26,000 --> 00:05:31,680
+uh partition the last place that
+
+131
+00:05:29,360 --> 00:05:33,120
+any of these words appear is at index
+
+132
+00:05:31,680 --> 00:05:35,600
+zero okay
+
+133
+00:05:33,120 --> 00:05:38,400
+okay eric here
+
+134
+00:05:35,600 --> 00:05:40,240
+now i thought this is also in one of
+
+135
+00:05:38,400 --> 00:05:42,880
+these words so i check
+
+136
+00:05:40,240 --> 00:05:45,280
+if it's the same as the last one it's
+
+137
+00:05:42,880 --> 00:05:47,120
+not right it's not the answer would be
+
+138
+00:05:45,280 --> 00:05:49,440
+the minimum of these the distance would
+
+139
+00:05:47,120 --> 00:05:51,440
+be zero last i need to set it to one
+
+140
+00:05:49,440 --> 00:05:52,560
+right because this is one of the words i
+
+141
+00:05:51,440 --> 00:05:55,680
+we just met
+
+142
+00:05:52,560 --> 00:05:58,240
+eric is equal to the last so
+
+143
+00:05:55,680 --> 00:06:00,960
+i don't check the answer anymore
+
+144
+00:05:58,240 --> 00:06:03,759
+instead i update it to
+
+145
+00:06:00,960 --> 00:06:07,199
+2. to sum up we just go through the list
+
+146
+00:06:03,759 --> 00:06:10,400
+of words and then every time we update
+
+147
+00:06:07,199 --> 00:06:11,759
+the last index if we meet one of these
+
+148
+00:06:10,400 --> 00:06:14,880
+words right
+
+149
+00:06:11,759 --> 00:06:17,680
+and if this word current word is not the
+
+150
+00:06:14,880 --> 00:06:19,600
+same as last word we calculate distance
+
+151
+00:06:17,680 --> 00:06:21,520
+and remember the smallest
+
+152
+00:06:19,600 --> 00:06:25,600
+mean
+
+153
+00:06:21,520 --> 00:06:29,120
+mean distance as first of all ar equals
+
+154
+00:06:25,600 --> 00:06:31,919
+s dot split we split the sentence
+
+155
+00:06:29,120 --> 00:06:33,680
+at the beginning answer equals infinity
+
+156
+00:06:31,919 --> 00:06:35,600
+and the
+
+157
+00:06:33,680 --> 00:06:37,840
+last and the beginning we started to
+
+158
+00:06:35,600 --> 00:06:41,120
+numb this is the last place
+
+159
+00:06:37,840 --> 00:06:42,080
+that one of these words appear w1 or w2
+
+160
+00:06:41,120 --> 00:06:45,039
+for
+
+161
+00:06:42,080 --> 00:06:48,560
+the index and the current
+
+162
+00:06:45,039 --> 00:06:49,840
+in numerator what's eliminated
+
+163
+00:06:48,560 --> 00:06:53,840
+certainly
+
+164
+00:06:49,840 --> 00:06:56,400
+groups yeah yeah with what what's this
+
+165
+00:06:53,840 --> 00:07:00,160
+index what's this
+
+166
+00:06:56,400 --> 00:07:01,199
+i x in enumerate these so what what's i
+
+167
+00:07:00,160 --> 00:07:02,639
+index
+
+168
+00:07:01,199 --> 00:07:05,680
+one two three
+
+169
+00:07:02,639 --> 00:07:05,680
+what's the value of x
+
+170
+00:07:05,840 --> 00:07:09,280
+uh
+
+171
+00:07:07,039 --> 00:07:12,560
+yeah that's what it means so current is
+
+172
+00:07:09,280 --> 00:07:15,360
+the words the words right the words look
+
+173
+00:07:12,560 --> 00:07:17,919
+remember that eric ryan thing yeah
+
+174
+00:07:15,360 --> 00:07:20,560
+every lion thing this is the list of
+
+175
+00:07:17,919 --> 00:07:22,880
+words we converted okay
+
+176
+00:07:20,560 --> 00:07:26,319
+if current is in
+
+177
+00:07:22,880 --> 00:07:28,720
+w1 or w2 right right if it's in one of
+
+178
+00:07:26,319 --> 00:07:31,840
+these words if first of all last is not
+
+179
+00:07:28,720 --> 00:07:35,360
+not right because at the pin is not and
+
+180
+00:07:31,840 --> 00:07:37,520
+if the current is not equal to
+
+181
+00:07:35,360 --> 00:07:40,479
+that that stores the index it's not
+
+182
+00:07:37,520 --> 00:07:43,199
+equal to array last
+
+183
+00:07:40,479 --> 00:07:46,960
+right then we calculate the distance my
+
+184
+00:07:43,199 --> 00:07:49,120
+answer equals the minimum of answer
+
+185
+00:07:46,960 --> 00:07:52,080
+current index is i
+
+186
+00:07:49,120 --> 00:07:54,160
+the previous index is last
+
+187
+00:07:52,080 --> 00:07:56,479
+the number of words between them is
+
+188
+00:07:54,160 --> 00:08:00,240
+minus one all right the number of index
+
+189
+00:07:56,479 --> 00:08:02,720
+two this is eric this is ryan this index
+
+190
+00:08:00,240 --> 00:08:05,680
+is 2 this index is 3. how many words
+
+191
+00:08:02,720 --> 00:08:07,599
+between what everything right here
+
+192
+00:08:05,680 --> 00:08:09,440
+okay so how do we get zero this is two
+
+193
+00:08:07,599 --> 00:08:13,120
+index two this is index three how do we
+
+194
+00:08:09,440 --> 00:08:15,759
+get zero three minus two that's one
+
+195
+00:08:13,120 --> 00:08:19,039
+minus one yeah yeah we need to minus one
+
+196
+00:08:15,759 --> 00:08:21,840
+here look here's what i mean
+
+197
+00:08:19,039 --> 00:08:23,599
+okay and then look after every time it's
+
+198
+00:08:21,840 --> 00:08:27,599
+in the carbon right so we need to set
+
+199
+00:08:23,599 --> 00:08:28,720
+the last equals i right and then return
+
+200
+00:08:27,599 --> 00:08:32,880
+answer
+
+201
+00:08:28,720 --> 00:08:34,240
+if answer is not equal to infinity s
+
+202
+00:08:32,880 --> 00:08:37,200
+minus 1 right
+
+203
+00:08:34,240 --> 00:08:39,599
+if it's equal to infinity we don't find
+
+204
+00:08:37,200 --> 00:08:42,959
+anything here we don't find one of these
+
+205
+00:08:39,599 --> 00:08:45,440
+words so it's infinity okay
+
+206
+00:08:42,959 --> 00:08:46,880
+time for next t o n right space
+
+207
+00:08:45,440 --> 00:08:48,800
+complexity
+
+208
+00:08:46,880 --> 00:08:52,320
+we are using the array so let's space
+
+209
+00:08:48,800 --> 00:08:53,839
+complex p o n okay
+
+210
+00:08:52,320 --> 00:08:55,120
+to sum up what have you learned today
+
+211
+00:08:53,839 --> 00:08:57,839
+what's the problem and what have you
+
+212
+00:08:55,120 --> 00:08:57,839
+learned and that's it
+
+213
+00:08:58,880 --> 00:09:02,959
+what's the problem
+
+214
+00:09:00,160 --> 00:09:06,240
+the minimum difference of two words in
+
+215
+00:09:02,959 --> 00:09:07,120
+the sentence well not really something
+
+216
+00:09:06,240 --> 00:09:11,519
+yeah
+
+217
+00:09:07,120 --> 00:09:13,200
+sorry uh the distance between two words
+
+218
+00:09:11,519 --> 00:09:16,680
+in this kind of
+
+219
+00:09:13,200 --> 00:09:19,800
+long sentences
+
+220
+00:09:16,680 --> 00:09:19,800
+[Music]
+
+221
+00:09:35,200 --> 00:09:40,160
+and then check
+
+222
+00:09:37,440 --> 00:09:42,399
+the second one and check if it's
+
+223
+00:09:40,160 --> 00:09:44,480
+just same as the
+
+224
+00:09:42,399 --> 00:09:45,920
+last one yeah yeah you're getting there
+
+225
+00:09:44,480 --> 00:09:47,040
+yes and
+
+226
+00:09:45,920 --> 00:09:49,200
+if it
+
+227
+00:09:47,040 --> 00:09:52,240
+is
+
+228
+00:09:49,200 --> 00:09:54,800
+you just update it yeah
+
+229
+00:09:52,240 --> 00:09:56,399
+and you go to the next one
+
+230
+00:09:54,800 --> 00:09:58,640
+uh slightly
+
+231
+00:09:56,399 --> 00:10:00,959
+incorrect here so we always remember
+
+232
+00:09:58,640 --> 00:10:03,120
+that update the last one and if it's
+
+233
+00:10:00,959 --> 00:10:04,640
+only different right if it's the current
+
+234
+00:10:03,120 --> 00:10:06,720
+world it's different than the last one
+
+235
+00:10:04,640 --> 00:10:08,240
+we calculated this time all right
+
+236
+00:10:06,720 --> 00:10:10,240
+if it doesn't there's no point to
+
+237
+00:10:08,240 --> 00:10:11,920
+calculate right yeah
+
+238
+00:10:10,240 --> 00:10:15,440
+do you get it
+
+239
+00:10:11,920 --> 00:10:18,440
+okay that's it for today bye-bye
+
+240
+00:10:15,440 --> 00:10:18,440
+bye-bye
+
