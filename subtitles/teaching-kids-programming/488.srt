@@ -1,0 +1,1792 @@
+1
+00:00:00,000 --> 00:00:05,279
+hello mr and mr weiner all right
+
+2
+00:00:03,040 --> 00:00:06,720
+we talked about graph yeah what's graph
+
+3
+00:00:05,279 --> 00:00:09,360
+can you give me an example what's the
+
+4
+00:00:06,720 --> 00:00:10,480
+graph three oh yeah three is a graph
+
+5
+00:00:09,360 --> 00:00:14,160
+three
+
+6
+00:00:10,480 --> 00:00:15,280
+three finally two yeah first one
+
+7
+00:00:14,160 --> 00:00:17,279
+finally
+
+8
+00:00:15,280 --> 00:00:19,279
+graph is the data structure with the
+
+9
+00:00:17,279 --> 00:00:21,600
+vertex and edges
+
+10
+00:00:19,279 --> 00:00:23,519
+so it's a collection of vertex and edges
+
+11
+00:00:21,600 --> 00:00:25,359
+vertex what's vertex
+
+12
+00:00:23,519 --> 00:00:29,279
+vertex in
+
+13
+00:00:25,359 --> 00:00:29,279
+the text here vertex and edges
+
+14
+00:00:34,980 --> 00:00:37,200
+[Music]
+
+15
+00:00:36,160 --> 00:00:39,280
+okay
+
+16
+00:00:37,200 --> 00:00:41,520
+uh can we say that again
+
+17
+00:00:39,280 --> 00:00:44,879
+vertex is uh
+
+18
+00:00:41,520 --> 00:00:48,480
+is more than one point
+
+19
+00:00:44,879 --> 00:00:50,079
+okay it's like now they are no no okay
+
+20
+00:00:48,480 --> 00:00:52,399
+in a
+
+21
+00:00:50,079 --> 00:00:55,280
+3d shape initially
+
+22
+00:00:52,399 --> 00:00:57,600
+in the 3d space the vertex yes tree uh
+
+23
+00:00:55,280 --> 00:00:59,920
+tree is the graph graph is not a tree
+
+24
+00:00:57,600 --> 00:01:01,520
+it's not essentially a tree right okay
+
+25
+00:00:59,920 --> 00:01:03,359
+so for example this vertex there's three
+
+26
+00:01:01,520 --> 00:01:05,920
+vertices one two three and the edges one
+
+27
+00:01:03,359 --> 00:01:08,240
+two two two two three if the edges have
+
+28
+00:01:05,920 --> 00:01:10,479
+directions we call it directed directly
+
+29
+00:01:08,240 --> 00:01:11,920
+graph if it doesn't have any direction
+
+30
+00:01:10,479 --> 00:01:14,720
+you can go both way we call it
+
+31
+00:01:11,920 --> 00:01:16,960
+undirected graph yeah we have weight on
+
+32
+00:01:14,720 --> 00:01:19,840
+the edges yeah we can say okay from the
+
+33
+00:01:16,960 --> 00:01:22,320
+cost from one to two is two the cost
+
+34
+00:01:19,840 --> 00:01:24,000
+from two to three is four right then we
+
+35
+00:01:22,320 --> 00:01:25,920
+call it weighted weighted class today
+
+36
+00:01:24,000 --> 00:01:28,640
+we're going to introduce a new
+
+37
+00:01:25,920 --> 00:01:31,360
+concept which is called strongly strong
+
+38
+00:01:28,640 --> 00:01:34,240
+strongly connected component
+
+39
+00:01:31,360 --> 00:01:37,680
+s c c okay
+
+40
+00:01:34,240 --> 00:01:40,400
+super cool candy
+
+41
+00:01:37,680 --> 00:01:42,799
+strong strongly connected graph
+
+42
+00:01:40,400 --> 00:01:45,119
+strongly connected
+
+43
+00:01:42,799 --> 00:01:46,320
+so it's not it doesn't end in a jig
+
+44
+00:01:45,119 --> 00:01:49,439
+though
+
+45
+00:01:46,320 --> 00:01:51,200
+a strongly connected graph yeah
+
+46
+00:01:49,439 --> 00:01:53,439
+strong
+
+47
+00:01:51,200 --> 00:01:55,680
+strong connected component sorry sorry
+
+48
+00:01:53,439 --> 00:02:00,240
+component yeah you're right strong
+
+49
+00:01:55,680 --> 00:02:02,079
+connected component sc component okay so
+
+50
+00:02:00,240 --> 00:02:04,000
+so look if uh
+
+51
+00:02:02,079 --> 00:02:06,159
+what does it mean it means that if any
+
+52
+00:02:04,000 --> 00:02:08,879
+node any vertex in the graph is
+
+53
+00:02:06,159 --> 00:02:11,039
+reachable from any vertex okay so if we
+
+54
+00:02:08,879 --> 00:02:13,520
+have these one to two right
+
+55
+00:02:11,039 --> 00:02:16,239
+uh the direction two to three
+
+56
+00:02:13,520 --> 00:02:18,720
+three two one at least as scc strong
+
+57
+00:02:16,239 --> 00:02:21,040
+connected uh components
+
+58
+00:02:18,720 --> 00:02:22,720
+any vertex can be reachable from any
+
+59
+00:02:21,040 --> 00:02:23,599
+vertex is it
+
+60
+00:02:22,720 --> 00:02:25,280
+yeah
+
+61
+00:02:23,599 --> 00:02:27,040
+it's not that strong
+
+62
+00:02:25,280 --> 00:02:29,280
+so can we reach
+
+63
+00:02:27,040 --> 00:02:31,840
+one from two yeah two three one can we
+
+64
+00:02:29,280 --> 00:02:34,319
+reach one from three three one yes
+
+65
+00:02:31,840 --> 00:02:36,800
+two can we reach the
+
+66
+00:02:34,319 --> 00:02:39,519
+two from one one two can we reach two
+
+67
+00:02:36,800 --> 00:02:42,000
+from three three one two three
+
+68
+00:02:39,519 --> 00:02:43,840
+can we reach three from one one two
+
+69
+00:02:42,000 --> 00:02:45,680
+three can we reach three from two two
+
+70
+00:02:43,840 --> 00:02:47,920
+three okay so basically a strong
+
+71
+00:02:45,680 --> 00:02:50,080
+connective component is that any vertex
+
+72
+00:02:47,920 --> 00:02:52,879
+any vertex can be reachable from any
+
+73
+00:02:50,080 --> 00:02:54,720
+vertex that have that so it does from
+
+74
+00:02:52,879 --> 00:02:56,239
+connected or if it doesn't have any
+
+75
+00:02:54,720 --> 00:02:58,400
+arrows
+
+76
+00:02:56,239 --> 00:03:00,879
+uh that good point that's a very good
+
+77
+00:02:58,400 --> 00:03:01,680
+point okay so usually if it doesn't have
+
+78
+00:03:00,879 --> 00:03:03,599
+any
+
+79
+00:03:01,680 --> 00:03:06,080
+errors okay that's a very very nice
+
+80
+00:03:03,599 --> 00:03:08,319
+point it doesn't have any arrows so it
+
+81
+00:03:06,080 --> 00:03:11,200
+goes both way right if it goes both way
+
+82
+00:03:08,319 --> 00:03:13,519
+what happens if it's a single piece
+
+83
+00:03:11,200 --> 00:03:15,440
+connected component that's a strongly
+
+84
+00:03:13,519 --> 00:03:18,640
+connected component right
+
+85
+00:03:15,440 --> 00:03:21,200
+yeah yeah yeah makes sense so now
+
+86
+00:03:18,640 --> 00:03:22,400
+usually we talk about sccs we talk about
+
+87
+00:03:21,200 --> 00:03:24,640
+on uh
+
+88
+00:03:22,400 --> 00:03:27,280
+and direct directive
+
+89
+00:03:24,640 --> 00:03:28,400
+graph okay so let me give you another
+
+90
+00:03:27,280 --> 00:03:32,720
+example
+
+91
+00:03:28,400 --> 00:03:32,720
+is this a strongly connected girl
+
+92
+00:03:36,159 --> 00:03:40,640
+that's right yeah one we can't go to one
+
+93
+00:03:38,480 --> 00:03:42,640
+from any other notes right two three
+
+94
+00:03:40,640 --> 00:03:44,319
+four left but these are
+
+95
+00:03:42,640 --> 00:03:46,720
+cycles they can go from you know
+
+96
+00:03:44,319 --> 00:03:48,640
+anywhere to anywhere from here right but
+
+97
+00:03:46,720 --> 00:03:51,519
+you're apart from one so you've got the
+
+98
+00:03:48,640 --> 00:03:53,519
+concept that's easy okay directly graph
+
+99
+00:03:51,519 --> 00:03:56,319
+with directional directive one we want
+
+100
+00:03:53,519 --> 00:03:57,840
+to find out if it's a scc
+
+101
+00:03:56,319 --> 00:04:00,000
+how would you usually do it i forget
+
+102
+00:03:57,840 --> 00:04:01,760
+about the python coding whatever so
+
+103
+00:04:00,000 --> 00:04:04,560
+given the graph how how you you know
+
+104
+00:04:01,760 --> 00:04:07,519
+even you visualize it i mean we look at
+
+105
+00:04:04,560 --> 00:04:09,840
+it we use a dictionary how how do we how
+
+106
+00:04:07,519 --> 00:04:12,159
+to check if it's
+
+107
+00:04:09,840 --> 00:04:14,640
+so forget about any algorithm
+
+108
+00:04:12,159 --> 00:04:17,199
+just talk to me given this bro how how
+
+109
+00:04:14,640 --> 00:04:19,519
+do we find out if it's an sdc how to
+
+110
+00:04:17,199 --> 00:04:21,919
+check look at arrows
+
+111
+00:04:19,519 --> 00:04:24,720
+look at look for cycles
+
+112
+00:04:21,919 --> 00:04:27,720
+look for cycles and then what
+
+113
+00:04:24,720 --> 00:04:27,720
+um
+
+114
+00:04:31,240 --> 00:04:35,440
+[Music]
+
+115
+00:04:33,120 --> 00:04:38,240
+so our task is to find out if any now
+
+116
+00:04:35,440 --> 00:04:40,639
+can be reachable from any noun right
+
+117
+00:04:38,240 --> 00:04:43,040
+if you look at it it has to be like
+
+118
+00:04:40,639 --> 00:04:45,360
+strong and one shape
+
+119
+00:04:43,040 --> 00:04:48,000
+in one shape one shape also it has to be
+
+120
+00:04:45,360 --> 00:04:50,479
+one in in one shape connected yeah
+
+121
+00:04:48,000 --> 00:04:53,919
+yeah okay but connect it doesn't look
+
+122
+00:04:50,479 --> 00:04:56,639
+this is connected but it's not as easy
+
+123
+00:04:53,919 --> 00:04:59,840
+when you look at it and you lose that it
+
+124
+00:04:56,639 --> 00:05:02,880
+looks strong and like hardened but this
+
+125
+00:04:59,840 --> 00:05:05,360
+one it has a tail waggy which makes it
+
+126
+00:05:02,880 --> 00:05:07,840
+look a lot thicker
+
+127
+00:05:05,360 --> 00:05:11,840
+how about if i reverse the edges
+
+128
+00:05:07,840 --> 00:05:11,840
+okay so now is this a cc
+
+129
+00:05:12,639 --> 00:05:14,720
+no
+
+130
+00:05:13,360 --> 00:05:18,160
+no why is that
+
+131
+00:05:14,720 --> 00:05:20,400
+because they have a wacky thing
+
+132
+00:05:18,160 --> 00:05:23,039
+come on what seriously what why because
+
+133
+00:05:20,400 --> 00:05:26,000
+the arrows and this
+
+134
+00:05:23,039 --> 00:05:28,479
+you can't really go anywhere yeah three
+
+135
+00:05:26,000 --> 00:05:31,280
+yeah exactly okay so look it's not about
+
+136
+00:05:28,479 --> 00:05:34,240
+the shape it's also about the edges all
+
+137
+00:05:31,280 --> 00:05:35,919
+right yeah okay so how would you do it i
+
+138
+00:05:34,240 --> 00:05:38,400
+mean how would you simplify this
+
+139
+00:05:35,919 --> 00:05:40,160
+scenario can any now be reachable from
+
+140
+00:05:38,400 --> 00:05:42,320
+anyone okay i'll give you one thing okay
+
+141
+00:05:40,160 --> 00:05:45,360
+come on i'll give you one here so we
+
+142
+00:05:42,320 --> 00:05:48,160
+want to find out can any note
+
+143
+00:05:45,360 --> 00:05:50,720
+any vertex be reached
+
+144
+00:05:48,160 --> 00:05:53,520
+by any any vertex yeah
+
+145
+00:05:50,720 --> 00:05:56,160
+we don't we want to prove this
+
+146
+00:05:53,520 --> 00:05:58,000
+so how about if i tell you okay so there
+
+147
+00:05:56,160 --> 00:06:00,800
+are two things i need to check the first
+
+148
+00:05:58,000 --> 00:06:02,639
+thing is that if i'm telling you for a
+
+149
+00:06:00,800 --> 00:06:04,240
+single any single vertex yeah for
+
+150
+00:06:02,639 --> 00:06:06,960
+example you like that's for simplicity
+
+151
+00:06:04,240 --> 00:06:09,199
+let's just take one so if i tell you
+
+152
+00:06:06,960 --> 00:06:11,120
+that i can
+
+153
+00:06:09,199 --> 00:06:12,160
+reach
+
+154
+00:06:11,120 --> 00:06:14,319
+any
+
+155
+00:06:12,160 --> 00:06:16,639
+vertex from one
+
+156
+00:06:14,319 --> 00:06:19,360
+okay so basically saying that okay from
+
+157
+00:06:16,639 --> 00:06:22,800
+one i can go from n to any
+
+158
+00:06:19,360 --> 00:06:25,360
+ass anywhere else in the glove okay
+
+159
+00:06:22,800 --> 00:06:26,240
+yeah so what else do i need to prove
+
+160
+00:06:25,360 --> 00:06:28,560
+that
+
+161
+00:06:26,240 --> 00:06:31,120
+in order to with with these two
+
+162
+00:06:28,560 --> 00:06:34,400
+statements i can conclude this
+
+163
+00:06:31,120 --> 00:06:36,240
+so i can reach any vertex from one and
+
+164
+00:06:34,400 --> 00:06:38,160
+then
+
+165
+00:06:36,240 --> 00:06:41,280
+the second statement needs to be true in
+
+166
+00:06:38,160 --> 00:06:42,000
+order to prove that then any vertex can
+
+167
+00:06:41,280 --> 00:06:44,960
+be
+
+168
+00:06:42,000 --> 00:06:48,080
+reachable by any vertex so look i can go
+
+169
+00:06:44,960 --> 00:06:49,840
+to anywhere from one
+
+170
+00:06:48,080 --> 00:06:52,960
+you can go
+
+171
+00:06:49,840 --> 00:06:54,560
+you can reach any b from anywhere
+
+172
+00:06:52,960 --> 00:06:56,720
+yeah that's the thing we want to prove
+
+173
+00:06:54,560 --> 00:06:59,039
+but now i can tell you that i can reach
+
+174
+00:06:56,720 --> 00:07:02,479
+any vertical one
+
+175
+00:06:59,039 --> 00:07:02,479
+like i can reach any
+
+176
+00:07:02,960 --> 00:07:06,800
+we need to
+
+177
+00:07:04,880 --> 00:07:08,400
+come think about it look this is logic
+
+178
+00:07:06,800 --> 00:07:10,720
+this is not about
+
+179
+00:07:08,400 --> 00:07:13,199
+programming algorithm computer science
+
+180
+00:07:10,720 --> 00:07:16,240
+whatever it's it's about logic i want to
+
+181
+00:07:13,199 --> 00:07:18,240
+prove that i can anybody can go to
+
+182
+00:07:16,240 --> 00:07:19,919
+anybody's house all right for example
+
+183
+00:07:18,240 --> 00:07:21,840
+anybody's house
+
+184
+00:07:19,919 --> 00:07:24,319
+from one
+
+185
+00:07:21,840 --> 00:07:26,479
+you can you know i just take any note
+
+186
+00:07:24,319 --> 00:07:28,400
+for example right you live in one yeah
+
+187
+00:07:26,479 --> 00:07:30,880
+it doesn't matter you can take two for
+
+188
+00:07:28,400 --> 00:07:32,639
+simplicity just one okay yeah because
+
+189
+00:07:30,880 --> 00:07:34,639
+look i want to prove that any note can
+
+190
+00:07:32,639 --> 00:07:38,400
+go to any number and now i'm telling you
+
+191
+00:07:34,639 --> 00:07:39,440
+that from one i can go to any note so
+
+192
+00:07:38,400 --> 00:07:42,080
+one
+
+193
+00:07:39,440 --> 00:07:43,599
+can go to any other note right for
+
+194
+00:07:42,080 --> 00:07:45,599
+example this
+
+195
+00:07:43,599 --> 00:07:48,720
+one can go to two
+
+196
+00:07:45,599 --> 00:07:49,840
+one can go to three one can go to four
+
+197
+00:07:48,720 --> 00:07:51,520
+right
+
+198
+00:07:49,840 --> 00:07:53,840
+so look
+
+199
+00:07:51,520 --> 00:07:55,919
+from one i can go to anywhere
+
+200
+00:07:53,840 --> 00:07:58,400
+but in order to prove that any interval
+
+201
+00:07:55,919 --> 00:08:00,720
+can go to any node
+
+202
+00:07:58,400 --> 00:08:02,319
+so look for two needs to go to any node
+
+203
+00:08:00,720 --> 00:08:03,199
+so what does it mean to do
+
+204
+00:08:02,319 --> 00:08:05,360
+one
+
+205
+00:08:03,199 --> 00:08:07,039
+yeah so two goes to one and then can go
+
+206
+00:08:05,360 --> 00:08:11,720
+to anywhere right
+
+207
+00:08:07,039 --> 00:08:11,720
+okay so what else do i need to move
+
+208
+00:08:15,170 --> 00:08:18,639
+[Music]
+
+209
+00:08:16,400 --> 00:08:19,520
+exactly perfect that's the thing yeah do
+
+210
+00:08:18,639 --> 00:08:21,680
+get it
+
+211
+00:08:19,520 --> 00:08:23,759
+yeah we're done that's very clever okay
+
+212
+00:08:21,680 --> 00:08:26,400
+i can go to anywhere
+
+213
+00:08:23,759 --> 00:08:28,639
+yeah i can go to anywhere i prove it and
+
+214
+00:08:26,400 --> 00:08:29,840
+i also need to prove anybody can go to
+
+215
+00:08:28,639 --> 00:08:32,399
+me
+
+216
+00:08:29,840 --> 00:08:34,959
+right so then how do we anybody can go
+
+217
+00:08:32,399 --> 00:08:36,719
+to anybody anybody go to me and me can
+
+218
+00:08:34,959 --> 00:08:39,599
+go to anybody so that proves that
+
+219
+00:08:36,719 --> 00:08:42,080
+anybody can go to anybody all right
+
+220
+00:08:39,599 --> 00:08:43,839
+perfect yeah you say perfect
+
+221
+00:08:42,080 --> 00:08:46,160
+yeah so anybody
+
+222
+00:08:43,839 --> 00:08:47,279
+any v can reach me
+
+223
+00:08:46,160 --> 00:08:49,760
+all right
+
+224
+00:08:47,279 --> 00:08:52,720
+okay so this the first one is what is
+
+225
+00:08:49,760 --> 00:08:54,800
+one can go to any v yeah
+
+226
+00:08:52,720 --> 00:08:57,600
+okay so with these two then we can say
+
+227
+00:08:54,800 --> 00:08:58,880
+any v can go to any v okay any vertex
+
+228
+00:08:57,600 --> 00:09:00,800
+goes back
+
+229
+00:08:58,880 --> 00:09:02,560
+you mentioned about a definition we can
+
+230
+00:09:00,800 --> 00:09:05,040
+do this type of search yeah even they
+
+231
+00:09:02,560 --> 00:09:08,000
+are n so given graph will give a graph
+
+232
+00:09:05,040 --> 00:09:10,480
+with n vertex from 0 to n minus one
+
+233
+00:09:08,000 --> 00:09:12,480
+right now we use the definition
+
+234
+00:09:10,480 --> 00:09:14,720
+we use step research we can prove this
+
+235
+00:09:12,480 --> 00:09:17,200
+uh from first the first point from one
+
+236
+00:09:14,720 --> 00:09:19,519
+to n in v with replacing single data
+
+237
+00:09:17,200 --> 00:09:21,680
+search easy why is that
+
+238
+00:09:19,519 --> 00:09:23,680
+definition recursion
+
+239
+00:09:21,680 --> 00:09:26,959
+now we just have to check we just have
+
+240
+00:09:23,680 --> 00:09:29,760
+to check the visited size is equal to n
+
+241
+00:09:26,959 --> 00:09:33,760
+right but how do we check any v can we
+
+242
+00:09:29,760 --> 00:09:35,200
+go to mean with a single data set
+
+243
+00:09:33,760 --> 00:09:37,839
+think of the opposite what's the
+
+244
+00:09:35,200 --> 00:09:37,839
+opposite
+
+245
+00:09:38,320 --> 00:09:42,399
+no no no i can go to
+
+246
+00:09:40,240 --> 00:09:43,680
+one to v one to two what's the opposite
+
+247
+00:09:42,399 --> 00:09:47,760
+if i want
+
+248
+00:09:43,680 --> 00:09:50,320
+so i just need to reverse the edge
+
+249
+00:09:47,760 --> 00:09:51,600
+i reverse the edge and then i do a test
+
+250
+00:09:50,320 --> 00:09:52,480
+search
+
+251
+00:09:51,600 --> 00:09:54,800
+yeah
+
+252
+00:09:52,480 --> 00:09:57,360
+then that proves that anybody can go to
+
+253
+00:09:54,800 --> 00:09:59,200
+me am i right make sense
+
+254
+00:09:57,360 --> 00:10:00,959
+okay so let me write this definite
+
+255
+00:09:59,200 --> 00:10:02,880
+search okay
+
+256
+00:10:00,959 --> 00:10:05,360
+with the definition we can usually write
+
+257
+00:10:02,880 --> 00:10:08,079
+it in two ways one is location the other
+
+258
+00:10:05,360 --> 00:10:09,760
+one is using the wire the you know the
+
+259
+00:10:08,079 --> 00:10:11,839
+stack yeah which one you think is more
+
+260
+00:10:09,760 --> 00:10:13,279
+easy to implement
+
+261
+00:10:11,839 --> 00:10:14,480
+which one you think more easy to
+
+262
+00:10:13,279 --> 00:10:16,240
+implement
+
+263
+00:10:14,480 --> 00:10:18,240
+i mean therefore search the two ways the
+
+264
+00:10:16,240 --> 00:10:20,240
+recursion and the iterative using the
+
+265
+00:10:18,240 --> 00:10:22,079
+stack we maintain the stack of ourselves
+
+266
+00:10:20,240 --> 00:10:25,760
+or we let the consistent maintain a step
+
+267
+00:10:22,079 --> 00:10:28,000
+by recursion so we try anything easier
+
+268
+00:10:25,760 --> 00:10:30,560
+yeah of course we couldn't filter it's
+
+269
+00:10:28,000 --> 00:10:33,440
+shorter let's define
+
+270
+00:10:30,560 --> 00:10:36,560
+check cc okay check see here
+
+271
+00:10:33,440 --> 00:10:37,760
+so strong connected strongly connected
+
+272
+00:10:36,560 --> 00:10:40,959
+component
+
+273
+00:10:37,760 --> 00:10:42,160
+so at the beginning we're given these n
+
+274
+00:10:40,959 --> 00:10:45,519
+the number of
+
+275
+00:10:42,160 --> 00:10:48,880
+vertex and we got given these edges
+
+276
+00:10:45,519 --> 00:10:51,839
+first of all we need to define uh define
+
+277
+00:10:48,880 --> 00:10:53,839
+a check functionality check function
+
+278
+00:10:51,839 --> 00:10:55,760
+we start with the current node yeah we
+
+279
+00:10:53,839 --> 00:10:57,519
+want to do a different search we want to
+
+280
+00:10:55,760 --> 00:10:58,480
+do a different search from covering node
+
+281
+00:10:57,519 --> 00:11:01,519
+to
+
+282
+00:10:58,480 --> 00:11:05,839
+we studies graph right using this graph
+
+283
+00:11:01,519 --> 00:11:06,640
+we have already seen equals hashtag set
+
+284
+00:11:05,839 --> 00:11:09,839
+okay
+
+285
+00:11:06,640 --> 00:11:11,600
+set say it's a hash table okay
+
+286
+00:11:09,839 --> 00:11:14,959
+so this thing
+
+287
+00:11:11,600 --> 00:11:16,959
+is used to remember the number of vertex
+
+288
+00:11:14,959 --> 00:11:20,399
+we have visited so we do a different
+
+289
+00:11:16,959 --> 00:11:22,320
+search from the node 0 or node current
+
+290
+00:11:20,399 --> 00:11:25,360
+and now we just have to check if the
+
+291
+00:11:22,320 --> 00:11:27,839
+size of the visited scene is equal to n
+
+292
+00:11:25,360 --> 00:11:31,680
+and if it's n it means that i can i can
+
+293
+00:11:27,839 --> 00:11:34,079
+visit any any node from current okay
+
+294
+00:11:31,680 --> 00:11:36,240
+we find therefore search we can define a
+
+295
+00:11:34,079 --> 00:11:38,160
+function inside a function look this is
+
+296
+00:11:36,240 --> 00:11:40,320
+defined we have a list defined and we
+
+297
+00:11:38,160 --> 00:11:43,040
+have another design okay we have a
+
+298
+00:11:40,320 --> 00:11:44,560
+defined function from another uh insider
+
+299
+00:11:43,040 --> 00:11:46,640
+another function we can have a list
+
+300
+00:11:44,560 --> 00:11:47,920
+defined function okay let's search
+
+301
+00:11:46,640 --> 00:11:50,800
+current
+
+302
+00:11:47,920 --> 00:11:53,040
+so look if we have seen this
+
+303
+00:11:50,800 --> 00:11:55,120
+vertex before we just return
+
+304
+00:11:53,040 --> 00:11:57,680
+and otherwise the first thing to do is
+
+305
+00:11:55,120 --> 00:12:00,000
+to add it to the notebook yes in the ad
+
+306
+00:11:57,680 --> 00:12:00,880
+current and then for
+
+307
+00:12:00,000 --> 00:12:03,680
+i
+
+308
+00:12:00,880 --> 00:12:05,600
+in graph we use the adjacent list so
+
+309
+00:12:03,680 --> 00:12:08,720
+basically g
+
+310
+00:12:05,600 --> 00:12:11,200
+one equals two three four what does it
+
+311
+00:12:08,720 --> 00:12:13,440
+mean it means that the vertex one has
+
+312
+00:12:11,200 --> 00:12:14,959
+the edges to two
+
+313
+00:12:13,440 --> 00:12:18,000
+three
+
+314
+00:12:14,959 --> 00:12:21,120
+four okay that's what it means the g
+
+315
+00:12:18,000 --> 00:12:23,440
+g is the default dictionary and uh
+
+316
+00:12:21,120 --> 00:12:27,200
+defaultionally the default type is the
+
+317
+00:12:23,440 --> 00:12:29,519
+list list of integer list of vertex
+
+318
+00:12:27,200 --> 00:12:31,120
+okay and then we just have to do data
+
+319
+00:12:29,519 --> 00:12:34,079
+search i
+
+320
+00:12:31,120 --> 00:12:35,200
+right and then look we we do this step
+
+321
+00:12:34,079 --> 00:12:36,880
+search
+
+322
+00:12:35,200 --> 00:12:38,399
+with the current
+
+323
+00:12:36,880 --> 00:12:40,079
+and then we start
+
+324
+00:12:38,399 --> 00:12:42,959
+with the current and we just have to
+
+325
+00:12:40,079 --> 00:12:44,639
+check return
+
+326
+00:12:42,959 --> 00:12:48,399
+length of the
+
+327
+00:12:44,639 --> 00:12:50,720
+scene if it's equal to n that's a search
+
+328
+00:12:48,399 --> 00:12:51,519
+okay so this function we want to check
+
+329
+00:12:50,720 --> 00:12:54,240
+if
+
+330
+00:12:51,519 --> 00:12:56,320
+if from current can we reach any node in
+
+331
+00:12:54,240 --> 00:12:58,399
+the graph that's what it means the scene
+
+332
+00:12:56,320 --> 00:13:01,680
+is a hashtag the notebook
+
+333
+00:12:58,399 --> 00:13:03,200
+it stores the vertex we have visited and
+
+334
+00:13:01,680 --> 00:13:05,120
+then inside we have
+
+335
+00:13:03,200 --> 00:13:06,959
+another type of search look
+
+336
+00:13:05,120 --> 00:13:08,800
+a search we have defined another
+
+337
+00:13:06,959 --> 00:13:09,680
+function with the comment look if the
+
+338
+00:13:08,800 --> 00:13:12,639
+note
+
+339
+00:13:09,680 --> 00:13:14,560
+is visited then we just return yeah and
+
+340
+00:13:12,639 --> 00:13:16,800
+then if it's not visited the first thing
+
+341
+00:13:14,560 --> 00:13:19,200
+we will remember you will visit it and
+
+342
+00:13:16,800 --> 00:13:22,079
+now it goes through there it's a it's a
+
+343
+00:13:19,200 --> 00:13:23,360
+it's connected it's a connected vertex
+
+344
+00:13:22,079 --> 00:13:25,600
+and we'll do a different thing this is
+
+345
+00:13:23,360 --> 00:13:27,519
+recursion here here this is the
+
+346
+00:13:25,600 --> 00:13:30,079
+recursion okay
+
+347
+00:13:27,519 --> 00:13:31,600
+this part yeah recursion
+
+348
+00:13:30,079 --> 00:13:33,600
+and i will do this stuff as such and we
+
+349
+00:13:31,600 --> 00:13:35,519
+just need to check the size of the
+
+350
+00:13:33,600 --> 00:13:37,440
+visited node is n
+
+351
+00:13:35,519 --> 00:13:38,720
+and now look at the first thing to do we
+
+352
+00:13:37,440 --> 00:13:40,800
+do the graph
+
+353
+00:13:38,720 --> 00:13:43,760
+g equals before
+
+354
+00:13:40,800 --> 00:13:44,560
+dictionary at the beginning we have a
+
+355
+00:13:43,760 --> 00:13:47,760
+a
+
+356
+00:13:44,560 --> 00:13:49,199
+graph attrition graph a tuition
+
+357
+00:13:47,760 --> 00:13:52,480
+and then for
+
+358
+00:13:49,199 --> 00:13:53,920
+a b in edges
+
+359
+00:13:52,480 --> 00:13:55,920
+then g
+
+360
+00:13:53,920 --> 00:13:56,800
+a dot append
+
+361
+00:13:55,920 --> 00:13:58,800
+b
+
+362
+00:13:56,800 --> 00:14:00,720
+and the reverse square why do we need to
+
+363
+00:13:58,800 --> 00:14:02,639
+reverse the edges we want to check if
+
+364
+00:14:00,720 --> 00:14:04,720
+any note can reach me right so the
+
+365
+00:14:02,639 --> 00:14:05,680
+simplest way we can do is revert the
+
+366
+00:14:04,720 --> 00:14:07,199
+edges
+
+367
+00:14:05,680 --> 00:14:09,279
+yeah
+
+368
+00:14:07,199 --> 00:14:11,920
+we want to check if anybody can reach me
+
+369
+00:14:09,279 --> 00:14:14,480
+now we can reverse the edges right if we
+
+370
+00:14:11,920 --> 00:14:17,360
+reverse edges okay for example two to
+
+371
+00:14:14,480 --> 00:14:19,040
+one three two two one now if we reverse
+
+372
+00:14:17,360 --> 00:14:21,040
+edges
+
+373
+00:14:19,040 --> 00:14:23,040
+then becomes one two one two three then
+
+374
+00:14:21,040 --> 00:14:25,040
+we can start with the note right we
+
+375
+00:14:23,040 --> 00:14:26,880
+thought we solved it and we and the
+
+376
+00:14:25,040 --> 00:14:29,120
+problem becomes the same
+
+377
+00:14:26,880 --> 00:14:31,519
+as checking if the note
+
+378
+00:14:29,120 --> 00:14:33,360
+if we can visit any node from
+
+379
+00:14:31,519 --> 00:14:35,839
+node one okay
+
+380
+00:14:33,360 --> 00:14:37,279
+g slash equals the same default
+
+381
+00:14:35,839 --> 00:14:38,639
+dictionary
+
+382
+00:14:37,279 --> 00:14:39,760
+list
+
+383
+00:14:38,639 --> 00:14:43,519
+and for
+
+384
+00:14:39,760 --> 00:14:45,600
+a b in edges this is the same yeah for a
+
+385
+00:14:43,519 --> 00:14:47,279
+in edges g
+
+386
+00:14:45,600 --> 00:14:48,560
+reverse edges how do we reverse the
+
+387
+00:14:47,279 --> 00:14:50,240
+edges look
+
+388
+00:14:48,560 --> 00:14:52,560
+a b a
+
+389
+00:14:50,240 --> 00:14:55,199
+there's a there's an edge from a to b
+
+390
+00:14:52,560 --> 00:14:57,440
+how do we reverse the edges
+
+391
+00:14:55,199 --> 00:15:00,560
+the ga up and b so how do we reverse the
+
+392
+00:14:57,440 --> 00:15:00,560
+edge if you can get this one
+
+393
+00:15:01,040 --> 00:15:05,199
+perfect yes
+
+394
+00:15:02,399 --> 00:15:07,199
+gb the open a
+
+395
+00:15:05,199 --> 00:15:09,440
+okay and now we have this key step then
+
+396
+00:15:07,199 --> 00:15:12,959
+we just have to do this check so return
+
+397
+00:15:09,440 --> 00:15:14,399
+check the last thing return check
+
+398
+00:15:12,959 --> 00:15:17,760
+check uh
+
+399
+00:15:14,399 --> 00:15:18,959
+let's start with the zero yeah glo g
+
+400
+00:15:17,760 --> 00:15:20,000
+and
+
+401
+00:15:18,959 --> 00:15:25,639
+check
+
+402
+00:15:20,000 --> 00:15:25,639
+cll g slash okay how do you call this
+
+403
+00:15:26,240 --> 00:15:30,079
+okay okay
+
+404
+00:15:27,680 --> 00:15:32,560
+so this is the reverse reverse graph
+
+405
+00:15:30,079 --> 00:15:35,120
+okay we will reverse the edges
+
+406
+00:15:32,560 --> 00:15:37,360
+and that concludes them to
+
+407
+00:15:35,120 --> 00:15:39,600
+prove that any node can reach an enough
+
+408
+00:15:37,360 --> 00:15:41,839
+okay the time and space complexity for
+
+409
+00:15:39,600 --> 00:15:44,160
+the single device search the times and
+
+410
+00:15:41,839 --> 00:15:47,279
+space complexity is all
+
+411
+00:15:44,160 --> 00:15:48,639
+v plus e okay v number at vertex e
+
+412
+00:15:47,279 --> 00:15:52,079
+number of edges
+
+413
+00:15:48,639 --> 00:15:53,839
+and we do this twice so it's g
+
+414
+00:15:52,079 --> 00:15:55,759
+these times two and we've only talked
+
+415
+00:15:53,839 --> 00:15:57,920
+about complexity we drop the constant so
+
+416
+00:15:55,759 --> 00:15:59,519
+that the time specs complexity is still
+
+417
+00:15:57,920 --> 00:16:01,759
+of importance okay
+
+418
+00:15:59,519 --> 00:16:05,120
+what's the scc and
+
+419
+00:16:01,759 --> 00:16:06,800
+how do we check if a graph is an acc and
+
+420
+00:16:05,120 --> 00:16:08,639
+what's the approach and what have you
+
+421
+00:16:06,800 --> 00:16:10,480
+learned today what's new have you done
+
+422
+00:16:08,639 --> 00:16:11,279
+something new today come on that's it
+
+423
+00:16:10,480 --> 00:16:14,639
+yeah
+
+424
+00:16:11,279 --> 00:16:17,920
+okay if we can uh
+
+425
+00:16:14,639 --> 00:16:18,560
+anybody can go to anybody okay so what's
+
+426
+00:16:17,920 --> 00:16:21,360
+the
+
+427
+00:16:18,560 --> 00:16:24,399
+what's sec strong connected component in
+
+428
+00:16:21,360 --> 00:16:27,120
+a graph so it means that if any vertex
+
+429
+00:16:24,399 --> 00:16:29,680
+can be reached from any vertex right
+
+430
+00:16:27,120 --> 00:16:31,279
+okay so we're given a directive graph
+
+431
+00:16:29,680 --> 00:16:33,120
+directly and weighted graph okay it
+
+432
+00:16:31,279 --> 00:16:35,360
+doesn't have matter if it's weighted or
+
+433
+00:16:33,120 --> 00:16:37,839
+not directive weighted
+
+434
+00:16:35,360 --> 00:16:39,759
+usually if it's undirected
+
+435
+00:16:37,839 --> 00:16:41,759
+if it's undirected it means that edges
+
+436
+00:16:39,759 --> 00:16:43,920
+go both ways then it will be very easy
+
+437
+00:16:41,759 --> 00:16:45,759
+to check if it's the scc right
+
+438
+00:16:43,920 --> 00:16:47,519
+we just have to check if it's a single
+
+439
+00:16:45,759 --> 00:16:49,839
+component right all right
+
+440
+00:16:47,519 --> 00:16:52,480
+yeah but for the direction of directive
+
+441
+00:16:49,839 --> 00:16:55,360
+graph how do we prove that any node can
+
+442
+00:16:52,480 --> 00:16:57,199
+which be can be reachable by any number
+
+443
+00:16:55,360 --> 00:16:58,560
+so how do we check
+
+444
+00:16:57,199 --> 00:17:02,130
+we know
+
+445
+00:16:58,560 --> 00:17:05,500
+like one can go to energy
+
+446
+00:17:02,130 --> 00:17:05,500
+[Music]
+
+447
+00:17:07,360 --> 00:17:13,480
+okay so that's it for today bye bye
+
+448
+00:17:10,160 --> 00:17:13,480
+bye bye
+
