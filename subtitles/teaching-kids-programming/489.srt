@@ -1,0 +1,1024 @@
+1
+00:00:00,160 --> 00:00:04,400
+hello mr eric misawa all right so we are
+
+2
+00:00:02,639 --> 00:00:07,040
+given a string of
+
+3
+00:00:04,400 --> 00:00:09,120
+letters uppercase and lowercase letters
+
+4
+00:00:07,040 --> 00:00:11,599
+and we want to find out the greatest
+
+5
+00:00:09,120 --> 00:00:13,759
+letter that appears in both cases
+
+6
+00:00:11,599 --> 00:00:15,920
+alphabetically and if we don't find such
+
+7
+00:00:13,759 --> 00:00:18,400
+letter appears depositing application
+
+8
+00:00:15,920 --> 00:00:21,119
+okay so we return the empty string okay
+
+9
+00:00:18,400 --> 00:00:23,439
+so let's take a look at this example
+
+10
+00:00:21,119 --> 00:00:25,039
+so which letters appear in both
+
+11
+00:00:23,439 --> 00:00:27,519
+uppercase and lowercase
+
+12
+00:00:25,039 --> 00:00:30,320
+t yeah t is bigger than b
+
+13
+00:00:27,519 --> 00:00:32,480
+so we return the t in uppercase okay and
+
+14
+00:00:30,320 --> 00:00:35,440
+how about this one which letters appear
+
+15
+00:00:32,480 --> 00:00:37,760
+r a and p
+
+16
+00:00:35,440 --> 00:00:40,160
+r a and p
+
+17
+00:00:37,760 --> 00:00:41,120
+ah so we return r how do we solve this
+
+18
+00:00:40,160 --> 00:00:44,120
+problem
+
+19
+00:00:41,120 --> 00:00:44,120
+um
+
+20
+00:00:49,120 --> 00:00:54,800
+the last to the first and then so the
+
+21
+00:00:52,079 --> 00:00:58,840
+first one we need we will capital it and
+
+22
+00:00:54,800 --> 00:00:58,840
+the case will be
+
+23
+00:01:00,399 --> 00:01:06,560
+much quicker we start checking from z
+
+24
+00:01:04,239 --> 00:01:09,040
+up downwards to a right and the first
+
+25
+00:01:06,560 --> 00:01:10,479
+letter that appears in both cases
+
+26
+00:01:09,040 --> 00:01:13,119
+in the string and we return it that will
+
+27
+00:01:10,479 --> 00:01:15,520
+be the answer how many possibilities
+
+28
+00:01:13,119 --> 00:01:17,600
+26 27 if
+
+29
+00:01:15,520 --> 00:01:19,280
+none of the letters appear in both cases
+
+30
+00:01:17,600 --> 00:01:20,159
+then we'll do that empty string so which
+
+31
+00:01:19,280 --> 00:01:22,479
+is
+
+32
+00:01:20,159 --> 00:01:26,080
+which is nothing okay
+
+33
+00:01:22,479 --> 00:01:27,680
+so let's check the letters from z to a
+
+34
+00:01:26,080 --> 00:01:30,479
+right so how do we check the letters
+
+35
+00:01:27,680 --> 00:01:32,479
+from z to a ascii what's asking to do is
+
+36
+00:01:30,479 --> 00:01:34,640
+remember i forgot
+
+37
+00:01:32,479 --> 00:01:34,640
+okay
+
+38
+00:01:35,360 --> 00:01:40,159
+it's basically you know
+
+39
+00:01:37,040 --> 00:01:43,520
+a mapping between the code and the
+
+40
+00:01:40,159 --> 00:01:45,680
+integer and the alphabet okay so
+
+41
+00:01:43,520 --> 00:01:49,920
+what's 65
+
+42
+00:01:45,680 --> 00:01:52,560
+mapping from 65 to what what 97 to what
+
+43
+00:01:49,920 --> 00:01:55,520
+do you still remember
+
+44
+00:01:52,560 --> 00:01:57,920
+the 65 i think is uppercase a wherever
+
+45
+00:01:55,520 --> 00:01:59,680
+the 97 is located
+
+46
+00:01:57,920 --> 00:02:03,520
+and then from left to the right we use
+
+47
+00:01:59,680 --> 00:02:06,399
+the chr chr function 65.
+
+48
+00:02:03,520 --> 00:02:09,119
+that will give us a and if we go back
+
+49
+00:02:06,399 --> 00:02:12,000
+this way orb
+
+50
+00:02:09,119 --> 00:02:18,400
+a that will give us
+
+51
+00:02:12,000 --> 00:02:19,840
+65 okay so 65 is a 66 is b 67 is c
+
+52
+00:02:18,400 --> 00:02:22,879
+etcetera okay
+
+53
+00:02:19,840 --> 00:02:27,120
+and the sun goes with this 98 lowercase
+
+54
+00:02:22,879 --> 00:02:28,800
+b 99 is low kc etc okay
+
+55
+00:02:27,120 --> 00:02:31,360
+so for
+
+56
+00:02:28,800 --> 00:02:35,040
+i in range
+
+57
+00:02:31,360 --> 00:02:37,280
+we start with 25 up to zero and
+
+58
+00:02:35,040 --> 00:02:39,920
+equipment every time uppercase letter
+
+59
+00:02:37,280 --> 00:02:42,800
+equals chr
+
+60
+00:02:39,920 --> 00:02:45,200
+65 plus i right
+
+61
+00:02:42,800 --> 00:02:47,440
+okay because this i
+
+62
+00:02:45,200 --> 00:02:48,840
+is from 25
+
+63
+00:02:47,440 --> 00:02:51,840
+up to zero
+
+64
+00:02:48,840 --> 00:02:56,000
+depending and the lower case
+
+65
+00:02:51,840 --> 00:02:56,959
+is chr 97 plus i
+
+66
+00:02:56,000 --> 00:02:58,720
+right
+
+67
+00:02:56,959 --> 00:03:02,879
+now we just have to check
+
+68
+00:02:58,720 --> 00:03:05,599
+if uppercase is in a string and
+
+69
+00:03:02,879 --> 00:03:07,840
+lowercase is in a string
+
+70
+00:03:05,599 --> 00:03:09,920
+then we return uppercase
+
+71
+00:03:07,840 --> 00:03:13,120
+and then return empty string if we found
+
+72
+00:03:09,920 --> 00:03:13,120
+nothing yep
+
+73
+00:03:13,920 --> 00:03:17,920
+anything we can improve here look
+
+74
+00:03:15,760 --> 00:03:20,480
+remember s is a string what's the time
+
+75
+00:03:17,920 --> 00:03:23,120
+complexity here
+
+76
+00:03:20,480 --> 00:03:25,840
+particularly speed to check our n this
+
+77
+00:03:23,120 --> 00:03:29,360
+is 26 iteration so that's a constant so
+
+78
+00:03:25,840 --> 00:03:32,000
+the time complexity is o n this is our n
+
+79
+00:03:29,360 --> 00:03:34,879
+can we make it better
+
+80
+00:03:32,000 --> 00:03:36,879
+see can we make it better yeah yeah if a
+
+81
+00:03:34,879 --> 00:03:38,879
+character in a string how do we make it
+
+82
+00:03:36,879 --> 00:03:41,200
+yeah we convert it to set okay so we
+
+83
+00:03:38,879 --> 00:03:43,920
+convert this to set
+
+84
+00:03:41,200 --> 00:03:47,680
+equal set x and then now then we make
+
+85
+00:03:43,920 --> 00:03:49,720
+this one constant okay yeah
+
+86
+00:03:47,680 --> 00:03:52,959
+okay so look this one
+
+87
+00:03:49,720 --> 00:03:55,519
+65.97 it looks like a magic number right
+
+88
+00:03:52,959 --> 00:03:58,159
+it's not very nice isn't it right
+
+89
+00:03:55,519 --> 00:04:01,040
+so we can improve this
+
+90
+00:03:58,159 --> 00:04:03,680
+so we can just do this for i
+
+91
+00:04:01,040 --> 00:04:05,599
+in let's predefine
+
+92
+00:04:03,680 --> 00:04:08,080
+ascii
+
+93
+00:04:05,599 --> 00:04:10,560
+lowercase underscore or uppercase yeah
+
+94
+00:04:08,080 --> 00:04:12,480
+it is lowercase uppercase let's iterate
+
+95
+00:04:10,560 --> 00:04:13,280
+our uppercase
+
+96
+00:04:12,480 --> 00:04:17,519
+and
+
+97
+00:04:13,280 --> 00:04:19,919
+ascii uppercase this is basically a b c
+
+98
+00:04:17,519 --> 00:04:22,720
+to z right and we want it in reverse
+
+99
+00:04:19,919 --> 00:04:26,639
+order so how do we reverse a thing in in
+
+100
+00:04:22,720 --> 00:04:26,639
+python the easiest way would be
+
+101
+00:04:28,240 --> 00:04:33,199
+minus one then these i would become
+
+102
+00:04:31,360 --> 00:04:34,800
+z
+
+103
+00:04:33,199 --> 00:04:36,320
+y
+
+104
+00:04:34,800 --> 00:04:37,680
+etc up to
+
+105
+00:04:36,320 --> 00:04:39,440
+a right
+
+106
+00:04:37,680 --> 00:04:44,000
+now we just have to check
+
+107
+00:04:39,440 --> 00:04:46,560
+so we don't need these two if i in s
+
+108
+00:04:44,000 --> 00:04:48,160
+yeah obviously this s still needs to be
+
+109
+00:04:46,560 --> 00:04:49,440
+converted to set
+
+110
+00:04:48,160 --> 00:04:51,600
+and
+
+111
+00:04:49,440 --> 00:04:53,360
+i thought lower
+
+112
+00:04:51,600 --> 00:04:56,639
+in s right
+
+113
+00:04:53,360 --> 00:05:00,080
+but if i is other case if it's in less
+
+114
+00:04:56,639 --> 00:05:02,639
+and it's lowercase in s then we return i
+
+115
+00:05:00,080 --> 00:05:04,800
+right and return
+
+116
+00:05:02,639 --> 00:05:07,759
+empty yeah
+
+117
+00:05:04,800 --> 00:05:10,160
+can you guess what the swap case mean
+
+118
+00:05:07,759 --> 00:05:11,120
+lowercase dot swap case so what does it
+
+119
+00:05:10,160 --> 00:05:12,000
+return
+
+120
+00:05:11,120 --> 00:05:15,440
+and
+
+121
+00:05:12,000 --> 00:05:18,639
+uppercase does work sub case
+
+122
+00:05:15,440 --> 00:05:20,479
+a and uppercase lowercase yeah
+
+123
+00:05:18,639 --> 00:05:22,320
+okay yeah that's what it basically means
+
+124
+00:05:20,479 --> 00:05:24,160
+if it's uppercase a swap case will
+
+125
+00:05:22,320 --> 00:05:26,880
+become lowercase if it's a lowercase a
+
+126
+00:05:24,160 --> 00:05:27,680
+you become uppercase for
+
+127
+00:05:26,880 --> 00:05:31,919
+i
+
+128
+00:05:27,680 --> 00:05:34,479
+in sorted we saw the s in the reverse
+
+129
+00:05:31,919 --> 00:05:36,400
+order so the original set strings you
+
+130
+00:05:34,479 --> 00:05:39,039
+know reverse order
+
+131
+00:05:36,400 --> 00:05:40,320
+if i is in s
+
+132
+00:05:39,039 --> 00:05:43,360
+and
+
+133
+00:05:40,320 --> 00:05:45,520
+i dot swap case
+
+134
+00:05:43,360 --> 00:05:47,120
+sub case in s
+
+135
+00:05:45,520 --> 00:05:49,680
+if it is in
+
+136
+00:05:47,120 --> 00:05:52,800
+s and its alternative
+
+137
+00:05:49,680 --> 00:05:55,039
+case is in s then we return
+
+138
+00:05:52,800 --> 00:05:57,280
+i dot after right we are not sure which
+
+139
+00:05:55,039 --> 00:05:59,600
+case is it but we cannot
+
+140
+00:05:57,280 --> 00:06:01,520
+otherwise would return nothing basically
+
+141
+00:05:59,600 --> 00:06:03,680
+we return the first character that
+
+142
+00:06:01,520 --> 00:06:06,560
+appears in both cases the use case of
+
+143
+00:06:03,680 --> 00:06:09,199
+the sword case another algorithm we can
+
+144
+00:06:06,560 --> 00:06:11,600
+use the set so first of all we can say
+
+145
+00:06:09,199 --> 00:06:14,000
+uppers uppercase
+
+146
+00:06:11,600 --> 00:06:15,759
+uppers equals
+
+147
+00:06:14,000 --> 00:06:17,039
+x
+
+148
+00:06:15,759 --> 00:06:19,199
+for
+
+149
+00:06:17,039 --> 00:06:20,720
+x in s
+
+150
+00:06:19,199 --> 00:06:21,919
+if x
+
+151
+00:06:20,720 --> 00:06:24,319
+dot
+
+152
+00:06:21,919 --> 00:06:27,360
+is upper right so we go through the set
+
+153
+00:06:24,319 --> 00:06:29,360
+we we get all the uppercase letters
+
+154
+00:06:27,360 --> 00:06:31,520
+and then lowers
+
+155
+00:06:29,360 --> 00:06:33,039
+equals
+
+156
+00:06:31,520 --> 00:06:38,800
+x for
+
+157
+00:06:33,039 --> 00:06:41,520
+x in s if x dot is lower i deliberately
+
+158
+00:06:38,800 --> 00:06:44,880
+change the lowercase into uppercase the
+
+159
+00:06:41,520 --> 00:06:47,440
+upper here i can get a set of both cases
+
+160
+00:06:44,880 --> 00:06:49,520
+then i can say uppers
+
+161
+00:06:47,440 --> 00:06:51,440
+and lowers
+
+162
+00:06:49,520 --> 00:06:53,520
+this is the same thing as upper stock
+
+163
+00:06:51,440 --> 00:06:55,199
+intersection lowercase so look at
+
+164
+00:06:53,520 --> 00:06:56,400
+uppercase here
+
+165
+00:06:55,199 --> 00:06:58,880
+uppercase
+
+166
+00:06:56,400 --> 00:07:00,560
+and then lowercase i also change it to
+
+167
+00:06:58,880 --> 00:07:03,199
+uppercase so
+
+168
+00:07:00,560 --> 00:07:05,120
+so the letters that appears in both
+
+169
+00:07:03,199 --> 00:07:07,840
+cases will be in the meter right in the
+
+170
+00:07:05,120 --> 00:07:10,080
+middle that's the uh both that's the
+
+171
+00:07:07,840 --> 00:07:10,880
+both those are here
+
+172
+00:07:10,080 --> 00:07:13,680
+all right
+
+173
+00:07:10,880 --> 00:07:15,360
+so now i just have to solve both
+
+174
+00:07:13,680 --> 00:07:17,840
+return
+
+175
+00:07:15,360 --> 00:07:21,039
+salted
+
+176
+00:07:17,840 --> 00:07:23,199
+salted both
+
+177
+00:07:21,039 --> 00:07:25,039
+in reverse obviously we need to reverse
+
+178
+00:07:23,199 --> 00:07:27,919
+it order equals true
+
+179
+00:07:25,039 --> 00:07:30,720
+and then the first one zero right
+
+180
+00:07:27,919 --> 00:07:32,960
+if both
+
+181
+00:07:30,720 --> 00:07:35,520
+as we return we should return empty
+
+182
+00:07:32,960 --> 00:07:37,919
+string if if there's no
+
+183
+00:07:35,520 --> 00:07:39,919
+such letter that appears in both cases
+
+184
+00:07:37,919 --> 00:07:41,360
+the both will be none right it will be
+
+185
+00:07:39,919 --> 00:07:44,240
+empty set
+
+186
+00:07:41,360 --> 00:07:46,080
+and we console the empty set we just
+
+187
+00:07:44,240 --> 00:07:48,000
+return the empty string
+
+188
+00:07:46,080 --> 00:07:51,039
+and if there's at least one element in
+
+189
+00:07:48,000 --> 00:07:52,639
+the post in a set of both then we sort
+
+190
+00:07:51,039 --> 00:07:54,720
+it and we defend the first one in a
+
+191
+00:07:52,639 --> 00:07:56,720
+reverse order okay
+
+192
+00:07:54,720 --> 00:07:59,120
+this is the same thing if we don't don't
+
+193
+00:07:56,720 --> 00:08:00,800
+reverse the order we can use the minus
+
+194
+00:07:59,120 --> 00:08:03,120
+one right you can use the minus one to
+
+195
+00:08:00,800 --> 00:08:05,199
+retrieve the last letter which will be
+
+196
+00:08:03,120 --> 00:08:07,360
+the greatest
+
+197
+00:08:05,199 --> 00:08:08,879
+coming back to the last question
+
+198
+00:08:07,360 --> 00:08:11,440
+what's the
+
+199
+00:08:08,879 --> 00:08:13,199
+thing you learned today i have talk
+
+200
+00:08:11,440 --> 00:08:14,800
+about four approach
+
+201
+00:08:13,199 --> 00:08:18,240
+um
+
+202
+00:08:14,800 --> 00:08:19,759
+the problem is we have these
+
+203
+00:08:18,240 --> 00:08:22,479
+letters
+
+204
+00:08:19,759 --> 00:08:25,440
+we have for what glasses we have letters
+
+205
+00:08:22,479 --> 00:08:27,599
+yeah we're given a string
+
+206
+00:08:25,440 --> 00:08:30,000
+both uppercase and lowercase letters we
+
+207
+00:08:27,599 --> 00:08:31,120
+want to find our writing where it is
+
+208
+00:08:30,000 --> 00:08:32,880
+letter
+
+209
+00:08:31,120 --> 00:08:35,440
+appear in
+
+210
+00:08:32,880 --> 00:08:37,839
+the application location
+
+211
+00:08:35,440 --> 00:08:39,519
+okay so to sum up we are given a string
+
+212
+00:08:37,839 --> 00:08:42,000
+of letters
+
+213
+00:08:39,519 --> 00:08:43,919
+we're asking letters asking letters we
+
+214
+00:08:42,000 --> 00:08:46,480
+put those application lowercase and we
+
+215
+00:08:43,919 --> 00:08:48,320
+want to find out the greatest letter
+
+216
+00:08:46,480 --> 00:08:50,720
+that appears in both cases and when we
+
+217
+00:08:48,320 --> 00:08:52,800
+turn the uppercase version of it i have
+
+218
+00:08:50,720 --> 00:08:55,279
+talked about four solutions today for
+
+219
+00:08:52,800 --> 00:08:58,080
+implementation basically the first two
+
+220
+00:08:55,279 --> 00:09:00,399
+is actually the same the third one is
+
+221
+00:08:58,080 --> 00:09:02,000
+slightly different the fourth one is
+
+222
+00:09:00,399 --> 00:09:05,000
+based on a set
+
+223
+00:09:02,000 --> 00:09:05,000
+yeah
+
+224
+00:09:15,279 --> 00:09:19,040
+if we
+
+225
+00:09:16,640 --> 00:09:23,080
+checking from z to a we don't need to
+
+226
+00:09:19,040 --> 00:09:23,080
+solve the original method
+
+227
+00:09:31,839 --> 00:09:36,800
+we checking from z to a and we find the
+
+228
+00:09:34,720 --> 00:09:38,080
+first letter that
+
+229
+00:09:36,800 --> 00:09:39,920
+appears
+
+230
+00:09:38,080 --> 00:09:41,519
+in both cases to read attendees right at
+
+231
+00:09:39,920 --> 00:09:44,320
+the beginning we need to
+
+232
+00:09:41,519 --> 00:09:46,720
+change the string to set that takes a
+
+233
+00:09:44,320 --> 00:09:49,360
+long time and then we will do this check
+
+234
+00:09:46,720 --> 00:09:51,440
+it takes at most 26 iterations then
+
+235
+00:09:49,360 --> 00:09:53,839
+that's one okay okay
+
+236
+00:09:51,440 --> 00:09:55,600
+the the first two approach are checking
+
+237
+00:09:53,839 --> 00:09:58,080
+the letters from c to a the third
+
+238
+00:09:55,600 --> 00:10:00,320
+approach is sorting the original
+
+239
+00:09:58,080 --> 00:10:02,000
+string and then we check the both cases
+
+240
+00:10:00,320 --> 00:10:04,240
+if it appears in a string and written
+
+241
+00:10:02,000 --> 00:10:07,120
+after the case of it the fourth version
+
+242
+00:10:04,240 --> 00:10:09,040
+is that first of all we get a set of
+
+243
+00:10:07,120 --> 00:10:10,880
+these letters this is lowercase letter
+
+244
+00:10:09,040 --> 00:10:12,800
+but particularly we change the lowercase
+
+245
+00:10:10,880 --> 00:10:14,800
+to uppercase here because we want to
+
+246
+00:10:12,800 --> 00:10:16,399
+find the intersection
+
+247
+00:10:14,800 --> 00:10:19,440
+right we want to find the intersection
+
+248
+00:10:16,399 --> 00:10:21,800
+so follows is uppercase in lowercase
+
+249
+00:10:19,440 --> 00:10:24,480
+this is the intersection both
+
+250
+00:10:21,800 --> 00:10:26,480
+uppercase.intersection lowercase
+
+251
+00:10:24,480 --> 00:10:28,240
+then we find all the letters that appear
+
+252
+00:10:26,480 --> 00:10:30,800
+in both applications and lowercase then
+
+253
+00:10:28,240 --> 00:10:32,480
+we can solve a common part and we find
+
+254
+00:10:30,800 --> 00:10:35,320
+the greatest part of it
+
+255
+00:10:32,480 --> 00:10:39,320
+yeah that'll be it for today bye
+
+256
+00:10:35,320 --> 00:10:39,320
+bye bye
+
