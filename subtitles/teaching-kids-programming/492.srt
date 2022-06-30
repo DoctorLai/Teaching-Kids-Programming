@@ -1,0 +1,1308 @@
+1
+00:00:00,160 --> 00:00:05,120
+we are given an array of positive
+
+2
+00:00:02,560 --> 00:00:08,639
+integers positive numbers we also given
+
+3
+00:00:05,120 --> 00:00:09,840
+a number k we need to take exactly k
+
+4
+00:00:08,639 --> 00:00:11,759
+numbers
+
+5
+00:00:09,840 --> 00:00:14,080
+from the array from the beginning or the
+
+6
+00:00:11,759 --> 00:00:16,400
+end right so we want to maximize the
+
+7
+00:00:14,080 --> 00:00:18,480
+total numbers taken right so given this
+
+8
+00:00:16,400 --> 00:00:19,520
+example like look we want to take three
+
+9
+00:00:18,480 --> 00:00:20,240
+numbers
+
+10
+00:00:19,520 --> 00:00:22,560
+so
+
+11
+00:00:20,240 --> 00:00:24,240
+let's take each number one one number at
+
+12
+00:00:22,560 --> 00:00:26,080
+a time the first number we can take is
+
+13
+00:00:24,240 --> 00:00:28,400
+this one or this one right so it doesn't
+
+14
+00:00:26,080 --> 00:00:31,599
+matter so we can take for example take
+
+15
+00:00:28,400 --> 00:00:33,680
+this one the points we've taken is one
+
+16
+00:00:31,599 --> 00:00:35,680
+so if we take this number so the next
+
+17
+00:00:33,680 --> 00:00:37,280
+number we can take is this two or this
+
+18
+00:00:35,680 --> 00:00:39,040
+one right
+
+19
+00:00:37,280 --> 00:00:39,840
+so for example we can take this one
+
+20
+00:00:39,040 --> 00:00:42,000
+right
+
+21
+00:00:39,840 --> 00:00:44,719
+take this one then the number would be
+
+22
+00:00:42,000 --> 00:00:47,600
+two three four five six left so
+
+23
+00:00:44,719 --> 00:00:49,920
+we have six we can choose six yeah
+
+24
+00:00:47,600 --> 00:00:51,840
+so the total number we have taken is
+
+25
+00:00:49,920 --> 00:00:53,280
+eight we can take the numbers from the
+
+26
+00:00:51,840 --> 00:00:56,399
+beginning or the end and now we want to
+
+27
+00:00:53,280 --> 00:00:58,239
+maximize the total number of taken okay
+
+28
+00:00:56,399 --> 00:01:01,359
+so it's given this example what's the
+
+29
+00:00:58,239 --> 00:01:03,680
+maximum number we can take 12 because
+
+30
+00:01:01,359 --> 00:01:05,600
+one six five at the end one six five
+
+31
+00:01:03,680 --> 00:01:07,840
+okay so what's your strategy
+
+32
+00:01:05,600 --> 00:01:09,840
+why is it five six one
+
+33
+00:01:07,840 --> 00:01:12,159
+it's because you need
+
+34
+00:01:09,840 --> 00:01:13,920
+because you look from the beginning and
+
+35
+00:01:12,159 --> 00:01:15,920
+the end
+
+36
+00:01:13,920 --> 00:01:18,960
+they're both ones so you could
+
+37
+00:01:15,920 --> 00:01:20,960
+so first you need to have one and then
+
+38
+00:01:18,960 --> 00:01:23,119
+if but
+
+39
+00:01:20,960 --> 00:01:25,520
+the next one is two i think you always
+
+40
+00:01:23,119 --> 00:01:27,920
+choose the biggest one out those
+
+41
+00:01:25,520 --> 00:01:29,439
+so six is there and then three or five
+
+42
+00:01:27,920 --> 00:01:31,439
+so it's five
+
+43
+00:01:29,439 --> 00:01:32,880
+okay but look this is supposed to one so
+
+44
+00:01:31,439 --> 00:01:34,159
+how do you decide which one is it
+
+45
+00:01:32,880 --> 00:01:37,360
+because i just
+
+46
+00:01:34,159 --> 00:01:38,400
+look visually and cut in half because
+
+47
+00:01:37,360 --> 00:01:40,479
+because
+
+48
+00:01:38,400 --> 00:01:43,360
+these numbers are bigger than these
+
+49
+00:01:40,479 --> 00:01:45,119
+numbers it's because these numbers are
+
+50
+00:01:43,360 --> 00:01:46,240
+bigger than those
+
+51
+00:01:45,119 --> 00:01:48,640
+this is
+
+52
+00:01:46,240 --> 00:01:50,479
+value six on this advantage
+
+53
+00:01:48,640 --> 00:01:52,479
+but how do you i mean this visual i mean
+
+54
+00:01:50,479 --> 00:01:54,799
+this might be a simple example which you
+
+55
+00:01:52,479 --> 00:01:55,680
+can tell you know it's like where your
+
+56
+00:01:54,799 --> 00:01:57,840
+guess
+
+57
+00:01:55,680 --> 00:01:59,119
+the hunch
+
+58
+00:01:57,840 --> 00:02:01,759
+from just
+
+59
+00:01:59,119 --> 00:02:03,119
+just a count you look at it okay you say
+
+60
+00:02:01,759 --> 00:02:04,880
+okay maybe
+
+61
+00:02:03,119 --> 00:02:08,220
+it's better we pick from the right so
+
+62
+00:02:04,880 --> 00:02:11,270
+you keep doing from the right
+
+63
+00:02:08,220 --> 00:02:11,270
+[Music]
+
+64
+00:02:21,200 --> 00:02:25,599
+the separating those
+
+65
+00:02:23,520 --> 00:02:27,920
+okay so let's put it this way if we want
+
+66
+00:02:25,599 --> 00:02:29,040
+to prove false how do we prove first
+
+67
+00:02:27,920 --> 00:02:32,160
+we check
+
+68
+00:02:29,040 --> 00:02:34,239
+every possibility how what's the for
+
+69
+00:02:32,160 --> 00:02:36,560
+each possibility yes what's the age
+
+70
+00:02:34,239 --> 00:02:38,720
+possibility so and numbers there are k
+
+71
+00:02:36,560 --> 00:02:40,400
+numbers to take right yep
+
+72
+00:02:38,720 --> 00:02:42,800
+at each point how many choices do we
+
+73
+00:02:40,400 --> 00:02:44,640
+have come on let's say two yeah we can
+
+74
+00:02:42,800 --> 00:02:47,040
+pick from the beginning or the end now
+
+75
+00:02:44,640 --> 00:02:49,440
+to two choices so the k numbers we want
+
+76
+00:02:47,040 --> 00:02:51,120
+to pick k numbers and for each number we
+
+77
+00:02:49,440 --> 00:02:53,680
+have two choice so what's the time
+
+78
+00:02:51,120 --> 00:02:54,879
+complexity how many chores total
+
+79
+00:02:53,680 --> 00:02:56,879
+ign
+
+80
+00:02:54,879 --> 00:02:58,239
+2 to the power of k let's think of this
+
+81
+00:02:56,879 --> 00:03:00,159
+way all the numbers could be at the
+
+82
+00:02:58,239 --> 00:03:01,280
+beginning or all the numbers could be at
+
+83
+00:03:00,159 --> 00:03:03,680
+the end
+
+84
+00:03:01,280 --> 00:03:06,080
+all the mixed so some numbers at the
+
+85
+00:03:03,680 --> 00:03:07,599
+beginning some numbers at the end right
+
+86
+00:03:06,080 --> 00:03:09,840
+what's the opportunity look we want to
+
+87
+00:03:07,599 --> 00:03:10,879
+pick the numbers and maximize the
+
+88
+00:03:09,840 --> 00:03:13,440
+numbers
+
+89
+00:03:10,879 --> 00:03:15,440
+what's left look suppose look we could
+
+90
+00:03:13,440 --> 00:03:17,760
+have some numbers left
+
+91
+00:03:15,440 --> 00:03:19,360
+this is sub-array service so what's the
+
+92
+00:03:17,760 --> 00:03:21,280
+opposite we want to pick some numbers
+
+93
+00:03:19,360 --> 00:03:23,760
+from the beginning combine you know from
+
+94
+00:03:21,280 --> 00:03:26,319
+the beginning only at the end so what's
+
+95
+00:03:23,760 --> 00:03:29,200
+left left is the green bit okay it could
+
+96
+00:03:26,319 --> 00:03:31,360
+be any green big right the byte has to
+
+97
+00:03:29,200 --> 00:03:34,400
+be continued sub array right we want to
+
+98
+00:03:31,360 --> 00:03:36,879
+maximize the numbers that are not a
+
+99
+00:03:34,400 --> 00:03:40,480
+green bit we want to maximize look
+
+100
+00:03:36,879 --> 00:03:43,519
+suppose this sum is s s is the sum of
+
+101
+00:03:40,480 --> 00:03:46,879
+the ari okay a i i
+
+102
+00:03:43,519 --> 00:03:48,720
+i from i equals 0 to n minus 1 right so
+
+103
+00:03:46,879 --> 00:03:50,480
+this is the sum of the
+
+104
+00:03:48,720 --> 00:03:52,239
+total array right
+
+105
+00:03:50,480 --> 00:03:55,040
+this is when we know this we can
+
+106
+00:03:52,239 --> 00:03:57,280
+calculate it in one go go into all the
+
+107
+00:03:55,040 --> 00:04:00,000
+numbers sum of all the numbers right
+
+108
+00:03:57,280 --> 00:04:01,040
+some sum the numbers the green bit is
+
+109
+00:04:00,000 --> 00:04:03,680
+the sum
+
+110
+00:04:01,040 --> 00:04:06,400
+of uh any continuous sub array
+
+111
+00:04:03,680 --> 00:04:08,879
+so what's the numbers that are not the
+
+112
+00:04:06,400 --> 00:04:11,599
+green bit one six
+
+113
+00:04:08,879 --> 00:04:13,840
+one so that could be one choice
+
+114
+00:04:11,599 --> 00:04:15,280
+we want to maximize the
+
+115
+00:04:13,840 --> 00:04:18,079
+black bead
+
+116
+00:04:15,280 --> 00:04:20,639
+the total sum is six the black bit plus
+
+117
+00:04:18,079 --> 00:04:23,360
+the green bit is the s
+
+118
+00:04:20,639 --> 00:04:26,080
+so we want to maximize the black numbers
+
+119
+00:04:23,360 --> 00:04:29,919
+this is the green beam is a
+
+120
+00:04:26,080 --> 00:04:32,240
+so what's the black pink s minus green
+
+121
+00:04:29,919 --> 00:04:35,600
+is a right this is the number we want to
+
+122
+00:04:32,240 --> 00:04:38,000
+maximize we want to maximize this s is
+
+123
+00:04:35,600 --> 00:04:39,919
+fixed we know it it doesn't change so
+
+124
+00:04:38,000 --> 00:04:42,800
+what do we do with this a
+
+125
+00:04:39,919 --> 00:04:44,560
+we get smaller and least
+
+126
+00:04:42,800 --> 00:04:45,759
+so what does it mean what's the opposite
+
+127
+00:04:44,560 --> 00:04:48,320
+of maximize
+
+128
+00:04:45,759 --> 00:04:51,440
+minimize yeah so we want to maximize
+
+129
+00:04:48,320 --> 00:04:54,560
+this s is not changed it's a sum
+
+130
+00:04:51,440 --> 00:04:57,520
+yeah of every number so a needs to be
+
+131
+00:04:54,560 --> 00:04:58,560
+minimized so we want to minimize these a
+
+132
+00:04:57,520 --> 00:05:01,120
+right
+
+133
+00:04:58,560 --> 00:05:03,360
+the a is continuous we want to minimize
+
+134
+00:05:01,120 --> 00:05:05,440
+it look k equals three we want to pick
+
+135
+00:05:03,360 --> 00:05:08,160
+three numbers of the black bit
+
+136
+00:05:05,440 --> 00:05:10,320
+what's the size of the green bit
+
+137
+00:05:08,160 --> 00:05:11,199
+there are total n numbers and then there
+
+138
+00:05:10,320 --> 00:05:12,720
+are k
+
+139
+00:05:11,199 --> 00:05:14,880
+numbers we want to pick so what's the
+
+140
+00:05:12,720 --> 00:05:16,800
+size of these
+
+141
+00:05:14,880 --> 00:05:19,120
+i minus k
+
+142
+00:05:16,800 --> 00:05:21,120
+so n minus say this is continuous yeah
+
+143
+00:05:19,120 --> 00:05:24,280
+what can we do with this the minus k
+
+144
+00:05:21,120 --> 00:05:24,280
+four numbers
+
+145
+00:05:24,479 --> 00:05:28,880
+what's this
+
+146
+00:05:26,960 --> 00:05:31,120
+two pointers yeah two point starting
+
+147
+00:05:28,880 --> 00:05:33,039
+winner look ten
+
+148
+00:05:31,120 --> 00:05:35,919
+what's the sum of these two plus three
+
+149
+00:05:33,039 --> 00:05:37,840
+plus four plus five fourteen okay what's
+
+150
+00:05:35,919 --> 00:05:40,880
+the sum of these
+
+151
+00:05:37,840 --> 00:05:43,600
+okay look at the beginning 10
+
+152
+00:05:40,880 --> 00:05:43,600
+14 yeah
+
+153
+00:05:43,680 --> 00:05:48,960
+18 18
+
+154
+00:05:46,639 --> 00:05:50,720
+16
+
+155
+00:05:48,960 --> 00:05:54,960
+all the numbers added together what's
+
+156
+00:05:50,720 --> 00:05:56,400
+the sum quick 22 we want to maximize 22
+
+157
+00:05:54,960 --> 00:05:58,720
+minus a
+
+158
+00:05:56,400 --> 00:06:02,400
+we want to minimize this a so what's the
+
+159
+00:05:58,720 --> 00:06:05,759
+minimize 10 10 we want to pick the 10
+
+160
+00:06:02,400 --> 00:06:07,520
+so what's the value 22 minus 10
+
+161
+00:06:05,759 --> 00:06:09,840
+twelve
+
+162
+00:06:07,520 --> 00:06:12,560
+five plus six times one yeah so can you
+
+163
+00:06:09,840 --> 00:06:14,319
+explain to me what i'm doing here
+
+164
+00:06:12,560 --> 00:06:17,520
+what i'm doing here
+
+165
+00:06:14,319 --> 00:06:21,120
+it has to be connected block it can't be
+
+166
+00:06:17,520 --> 00:06:21,120
+separated and you just
+
+167
+00:06:23,440 --> 00:06:26,529
+[Music]
+
+168
+00:06:32,240 --> 00:06:36,720
+so we give an array of numbers
+
+169
+00:06:34,400 --> 00:06:39,360
+and we want to take k numbers from the
+
+170
+00:06:36,720 --> 00:06:41,680
+array at each number we can take from
+
+171
+00:06:39,360 --> 00:06:44,319
+the beginning or from the end at the end
+
+172
+00:06:41,680 --> 00:06:46,880
+so we want to maximize the numbers taken
+
+173
+00:06:44,319 --> 00:06:48,400
+so if we go for approvals we can take
+
+174
+00:06:46,880 --> 00:06:50,080
+for each number we can take from the
+
+175
+00:06:48,400 --> 00:06:52,800
+beginning or at the end there are two
+
+176
+00:06:50,080 --> 00:06:55,680
+choices and for k numbers they are 2 to
+
+177
+00:06:52,800 --> 00:06:58,400
+the power of k that's exponential which
+
+178
+00:06:55,680 --> 00:07:00,960
+is very slow so we can think of it the
+
+179
+00:06:58,400 --> 00:07:02,720
+opposite way right so we want to take k
+
+180
+00:07:00,960 --> 00:07:04,880
+numbers from the beginning or the end
+
+181
+00:07:02,720 --> 00:07:07,280
+well a is bigger than
+
+182
+00:07:04,880 --> 00:07:09,680
+the numbers of the
+
+183
+00:07:07,280 --> 00:07:11,120
+card points good point so we just take
+
+184
+00:07:09,680 --> 00:07:14,000
+everything right
+
+185
+00:07:11,120 --> 00:07:15,919
+all right i haven't took k numbers good
+
+186
+00:07:14,000 --> 00:07:17,759
+point you can't take more than k numbers
+
+187
+00:07:15,919 --> 00:07:20,800
+that's obvious
+
+188
+00:07:17,759 --> 00:07:22,720
+when we take k numbers what's left is a
+
+189
+00:07:20,800 --> 00:07:24,000
+sub array right it's a continuous other
+
+190
+00:07:22,720 --> 00:07:26,560
+rate so
+
+191
+00:07:24,000 --> 00:07:28,479
+we want to minimize the sum of the
+
+192
+00:07:26,560 --> 00:07:30,240
+continue the remaining numbers right
+
+193
+00:07:28,479 --> 00:07:33,039
+because the total number the sum of the
+
+194
+00:07:30,240 --> 00:07:34,800
+total numbers is is not changing all the
+
+195
+00:07:33,039 --> 00:07:36,560
+number the sum of all the numbers is not
+
+196
+00:07:34,800 --> 00:07:39,199
+changing minus
+
+197
+00:07:36,560 --> 00:07:42,880
+the remaining part would be the the sum
+
+198
+00:07:39,199 --> 00:07:45,680
+we are trying to maximize right so look
+
+199
+00:07:42,880 --> 00:07:48,319
+s minus a we want to maximize these so s
+
+200
+00:07:45,680 --> 00:07:50,639
+is not changing right s is given as a
+
+201
+00:07:48,319 --> 00:07:53,039
+constant yeah all the numbers
+
+202
+00:07:50,639 --> 00:07:55,280
+we know for sure all the the sum of all
+
+203
+00:07:53,039 --> 00:07:56,560
+the numbers so we are trying to minimize
+
+204
+00:07:55,280 --> 00:07:58,879
+with it
+
+205
+00:07:56,560 --> 00:08:00,479
+right so how do we minimize this bit we
+
+206
+00:07:58,879 --> 00:08:02,960
+want to take k numbers and they are n
+
+207
+00:08:00,479 --> 00:08:05,360
+numbers so they are n minus k numbers
+
+208
+00:08:02,960 --> 00:08:07,360
+left so the size of the window is n
+
+209
+00:08:05,360 --> 00:08:09,680
+minus k so we're just using the sliding
+
+210
+00:08:07,360 --> 00:08:13,120
+window to calculate the minimum sum of
+
+211
+00:08:09,680 --> 00:08:17,120
+the sliding window okay array
+
+212
+00:08:13,120 --> 00:08:19,280
+k numbers n equals length a
+
+213
+00:08:17,120 --> 00:08:20,879
+window equals
+
+214
+00:08:19,280 --> 00:08:22,800
+sum of
+
+215
+00:08:20,879 --> 00:08:24,800
+a
+
+216
+00:08:22,800 --> 00:08:26,639
+up to what's the size of a window n
+
+217
+00:08:24,800 --> 00:08:29,120
+minus k right so
+
+218
+00:08:26,639 --> 00:08:30,879
+size would be n minus k
+
+219
+00:08:29,120 --> 00:08:33,680
+at the beginning we want to go to the n
+
+220
+00:08:30,879 --> 00:08:36,479
+minus k this is the index right so we
+
+221
+00:08:33,680 --> 00:08:38,479
+need to move this to the end so why are
+
+222
+00:08:36,479 --> 00:08:39,919
+i smaller than n
+
+223
+00:08:38,479 --> 00:08:43,120
+we want to find the minimum right
+
+224
+00:08:39,919 --> 00:08:47,040
+minimum a so m a equals at the beginning
+
+225
+00:08:43,120 --> 00:08:47,040
+you'll be the sum of it so win
+
+226
+00:08:49,839 --> 00:08:54,080
+a
+
+227
+00:08:50,640 --> 00:08:56,399
+b c b if the size of window is four
+
+228
+00:08:54,080 --> 00:08:58,720
+right always move the window to the
+
+229
+00:08:56,399 --> 00:09:00,240
+right one position to the right what
+
+230
+00:08:58,720 --> 00:09:03,200
+happened to the sun
+
+231
+00:09:00,240 --> 00:09:05,760
+it becomes becomes one becomes minus a
+
+232
+00:09:03,200 --> 00:09:07,680
+and plus e yeah plus e minus a where
+
+233
+00:09:05,760 --> 00:09:09,680
+that plus e minus
+
+234
+00:09:07,680 --> 00:09:12,560
+so
+
+235
+00:09:09,680 --> 00:09:13,680
+wind plus equals
+
+236
+00:09:12,560 --> 00:09:14,720
+the a
+
+237
+00:09:13,680 --> 00:09:16,160
+i
+
+238
+00:09:14,720 --> 00:09:18,000
+i'm going
+
+239
+00:09:16,160 --> 00:09:19,920
+minus equal
+
+240
+00:09:18,000 --> 00:09:22,480
+a
+
+241
+00:09:19,920 --> 00:09:23,680
+now it's i what's the size i minus and
+
+242
+00:09:22,480 --> 00:09:24,560
+minus k
+
+243
+00:09:23,680 --> 00:09:27,200
+right
+
+244
+00:09:24,560 --> 00:09:28,560
+and then we need to minimize this
+
+245
+00:09:27,200 --> 00:09:30,240
+mean
+
+246
+00:09:28,560 --> 00:09:32,320
+minimize of the
+
+247
+00:09:30,240 --> 00:09:35,680
+window
+
+248
+00:09:32,320 --> 00:09:38,480
+and then i plus equals one and we can
+
+249
+00:09:35,680 --> 00:09:40,640
+what's the sum sum of everything
+
+250
+00:09:38,480 --> 00:09:42,480
+minus m a
+
+251
+00:09:40,640 --> 00:09:46,399
+so one
+
+252
+00:09:42,480 --> 00:09:49,040
+two three four five six one right that's
+
+253
+00:09:46,399 --> 00:09:51,519
+the array equal at k equals three so
+
+254
+00:09:49,040 --> 00:09:51,519
+what happened
+
+255
+00:09:52,640 --> 00:09:59,279
+so when equals sum a dot dot
+
+256
+00:09:57,839 --> 00:10:01,200
+so what's win
+
+257
+00:09:59,279 --> 00:10:03,839
+window is
+
+258
+00:10:01,200 --> 00:10:06,880
+window and n minus k
+
+259
+00:10:03,839 --> 00:10:10,399
+is a window since this is k
+
+260
+00:10:06,880 --> 00:10:13,760
+a minus k is four
+
+261
+00:10:10,399 --> 00:10:14,880
+right yeah four okay so win equals one
+
+262
+00:10:13,760 --> 00:10:16,800
+four
+
+263
+00:10:14,880 --> 00:10:20,079
+what's the size of the window
+
+264
+00:10:16,800 --> 00:10:20,959
+four okay so sum a up to four what's the
+
+265
+00:10:20,079 --> 00:10:23,760
+sum
+
+266
+00:10:20,959 --> 00:10:26,880
+ten yeah okay so that's right the window
+
+267
+00:10:23,760 --> 00:10:28,959
+here is ten okay so now i will be equals
+
+268
+00:10:26,880 --> 00:10:31,440
+to four right so zero one two three four
+
+269
+00:10:28,959 --> 00:10:36,000
+i over here why we haven't reached the
+
+270
+00:10:31,440 --> 00:10:37,760
+end so window plus a i so plus five but
+
+271
+00:10:36,000 --> 00:10:41,040
+we need to minus what
+
+272
+00:10:37,760 --> 00:10:43,839
+one yeah the next iteration
+
+273
+00:10:41,040 --> 00:10:46,720
+and this number minus this number and
+
+274
+00:10:43,839 --> 00:10:48,720
+this number minus this number okay when
+
+275
+00:10:46,720 --> 00:10:51,360
+now i goes to the end
+
+276
+00:10:48,720 --> 00:10:54,000
+we break this the sum of all everything
+
+277
+00:10:51,360 --> 00:10:55,600
+will be 22 the minimum a will be 10 at
+
+278
+00:10:54,000 --> 00:10:57,040
+the beginning the last question what
+
+279
+00:10:55,600 --> 00:10:59,120
+have you learned today what's the time
+
+280
+00:10:57,040 --> 00:11:01,040
+the next day
+
+281
+00:10:59,120 --> 00:11:03,120
+yes or when why is low end
+
+282
+00:11:01,040 --> 00:11:07,680
+because you need to
+
+283
+00:11:03,120 --> 00:11:07,680
+go through you know what goes on what
+
+284
+00:11:08,800 --> 00:11:14,000
+uh n yeah it goes for the other numbers
+
+285
+00:11:11,279 --> 00:11:14,000
+so you have this
+
+286
+00:11:21,519 --> 00:11:24,000
+yes
+
+287
+00:11:22,720 --> 00:11:25,120
+and so
+
+288
+00:11:24,000 --> 00:11:27,920
+yeah
+
+289
+00:11:25,120 --> 00:11:29,680
+so how do we solve this problem
+
+290
+00:11:27,920 --> 00:11:30,480
+two pointers
+
+291
+00:11:29,680 --> 00:11:32,240
+yeah
+
+292
+00:11:30,480 --> 00:11:33,440
+okay so how what's the two first how do
+
+293
+00:11:32,240 --> 00:11:36,000
+we move forward
+
+294
+00:11:33,440 --> 00:11:38,720
+by taking every possibility what's each
+
+295
+00:11:36,000 --> 00:11:42,720
+possibilities
+
+296
+00:11:38,720 --> 00:11:44,480
+the window and then i mean okay yes for
+
+297
+00:11:42,720 --> 00:11:47,279
+each number how many choices
+
+298
+00:11:44,480 --> 00:11:49,920
+okay two to the power okay what's the
+
+299
+00:11:47,279 --> 00:11:50,720
+sliding window so you have this window
+
+300
+00:11:49,920 --> 00:11:51,600
+it
+
+301
+00:11:50,720 --> 00:11:57,040
+is
+
+302
+00:11:51,600 --> 00:11:59,279
+it is the size of n minus k yes and
+
+303
+00:11:57,040 --> 00:12:00,560
+and so we basically
+
+304
+00:11:59,279 --> 00:12:01,440
+move it
+
+305
+00:12:00,560 --> 00:12:02,480
+and
+
+306
+00:12:01,440 --> 00:12:03,760
+and
+
+307
+00:12:02,480 --> 00:12:06,000
+to get
+
+308
+00:12:03,760 --> 00:12:08,320
+minimize the
+
+309
+00:12:06,000 --> 00:12:10,480
+window why do we want to minimize the
+
+310
+00:12:08,320 --> 00:12:13,920
+window
+
+311
+00:12:10,480 --> 00:12:15,120
+so your score can get the
+
+312
+00:12:13,920 --> 00:12:17,040
+highest
+
+313
+00:12:15,120 --> 00:12:19,760
+yeah because we will maximize the
+
+314
+00:12:17,040 --> 00:12:22,160
+remaining so we need to minimize the the
+
+315
+00:12:19,760 --> 00:12:24,959
+bit we want to minimize the sub-array so
+
+316
+00:12:22,160 --> 00:12:26,720
+the rest will be maximized right
+
+317
+00:12:24,959 --> 00:12:27,839
+okay at the time directly because we're
+
+318
+00:12:26,720 --> 00:12:29,279
+going to the
+
+319
+00:12:27,839 --> 00:12:32,240
+arrays uh
+
+320
+00:12:29,279 --> 00:12:34,959
+you know once we update look be here
+
+321
+00:12:32,240 --> 00:12:37,680
+for to update to to update the sum of
+
+322
+00:12:34,959 --> 00:12:40,720
+the window so every time we move one
+
+323
+00:12:37,680 --> 00:12:43,760
+element we move the window one to the
+
+324
+00:12:40,720 --> 00:12:47,440
+right so when we take the new number
+
+325
+00:12:43,760 --> 00:12:49,839
+we discard the leftmost number all right
+
+326
+00:12:47,440 --> 00:12:54,040
+that's the sliding window link
+
+327
+00:12:49,839 --> 00:12:54,040
+okay that's it for today bye
+

@@ -1,0 +1,1424 @@
+1
+00:00:03,199 --> 00:00:06,640
+okay so yesterday we talked about this
+
+2
+00:00:04,799 --> 00:00:09,120
+problem yeah we're given this an array
+
+3
+00:00:06,640 --> 00:00:11,679
+of numbers and uh we want to pick k
+
+4
+00:00:09,120 --> 00:00:13,280
+numbers and for each number we can pick
+
+5
+00:00:11,679 --> 00:00:15,120
+from the beginning of all in the end
+
+6
+00:00:13,280 --> 00:00:17,359
+right and we want to maximize the
+
+7
+00:00:15,120 --> 00:00:18,720
+numbers we picked each time you pick a
+
+8
+00:00:17,359 --> 00:00:20,720
+number you can pick from the beginning
+
+9
+00:00:18,720 --> 00:00:23,119
+or the end there are two choices so
+
+10
+00:00:20,720 --> 00:00:25,519
+there are k numbers to pick so that's 2
+
+11
+00:00:23,119 --> 00:00:27,359
+to the power of k right that's too slow
+
+12
+00:00:25,519 --> 00:00:30,400
+and we also talked about the sliding
+
+13
+00:00:27,359 --> 00:00:32,960
+window right if we there are n numbers
+
+14
+00:00:30,400 --> 00:00:36,160
+and we want to pick k numbers right so
+
+15
+00:00:32,960 --> 00:00:39,280
+the remaining will be n minus k numbers
+
+16
+00:00:36,160 --> 00:00:41,600
+so if that sum of everything or every
+
+17
+00:00:39,280 --> 00:00:44,399
+number is s and if the sum of the
+
+18
+00:00:41,600 --> 00:00:46,079
+remaining is a so we want to maximize
+
+19
+00:00:44,399 --> 00:00:49,440
+this right this is the sum of the
+
+20
+00:00:46,079 --> 00:00:51,520
+numbers p we want to maximize this
+
+21
+00:00:49,440 --> 00:00:53,440
+we want to minimize this a all right
+
+22
+00:00:51,520 --> 00:00:55,600
+yeah yeah
+
+23
+00:00:53,440 --> 00:00:58,559
+for example this one if the window size
+
+24
+00:00:55,600 --> 00:01:00,640
+is 4 and we move one position to the
+
+25
+00:00:58,559 --> 00:01:04,320
+right so what happened to the sum
+
+26
+00:01:00,640 --> 00:01:06,400
+minus a plus e yeah minus a plus a so we
+
+27
+00:01:04,320 --> 00:01:07,600
+keep updating the windows right the sum
+
+28
+00:01:06,400 --> 00:01:08,840
+of the windows
+
+29
+00:01:07,600 --> 00:01:11,360
+instead of
+
+30
+00:01:08,840 --> 00:01:12,960
+recalculating the sum if we calculate
+
+31
+00:01:11,360 --> 00:01:14,560
+the sum that's going to take longer
+
+32
+00:01:12,960 --> 00:01:16,960
+right we want to talk about another
+
+33
+00:01:14,560 --> 00:01:20,240
+approach today it's quite similar so
+
+34
+00:01:16,960 --> 00:01:23,040
+look with one two three four five six
+
+35
+00:01:20,240 --> 00:01:24,880
+one right we want to pick three numbers
+
+36
+00:01:23,040 --> 00:01:26,640
+k is equal to three
+
+37
+00:01:24,880 --> 00:01:29,200
+we want to pick three numbers
+
+38
+00:01:26,640 --> 00:01:31,840
+so if we pick zero numbers at the
+
+39
+00:01:29,200 --> 00:01:33,200
+beginning if we pick one numbers from
+
+40
+00:01:31,840 --> 00:01:34,960
+the beginning
+
+41
+00:01:33,200 --> 00:01:36,640
+if we pick two numbers from the
+
+42
+00:01:34,960 --> 00:01:39,040
+beginning if we pick three numbers
+
+43
+00:01:36,640 --> 00:01:41,439
+beginning look if we pick zero numbers
+
+44
+00:01:39,040 --> 00:01:43,200
+beginning so what else do i pick
+
+45
+00:01:41,439 --> 00:01:44,799
+how many numbers i should pick from the
+
+46
+00:01:43,200 --> 00:01:46,720
+right
+
+47
+00:01:44,799 --> 00:01:48,159
+so k equals three so it means that i
+
+48
+00:01:46,720 --> 00:01:50,240
+want to put zero numbers from the
+
+49
+00:01:48,159 --> 00:01:51,920
+beginning three numbers at the end
+
+50
+00:01:50,240 --> 00:01:54,079
+pick one numbers from the beginning two
+
+51
+00:01:51,920 --> 00:01:55,840
+numbers at the end right two numbers
+
+52
+00:01:54,079 --> 00:01:57,680
+from the beginning one numbers at the
+
+53
+00:01:55,840 --> 00:01:59,920
+end three numbers from the beginning
+
+54
+00:01:57,680 --> 00:02:02,880
+zero from the end right so if they are k
+
+55
+00:01:59,920 --> 00:02:05,119
+numbers they are k plus one choice
+
+56
+00:02:02,880 --> 00:02:08,560
+all right
+
+57
+00:02:05,119 --> 00:02:10,000
+so we can do this we can brief of this k
+
+58
+00:02:08,560 --> 00:02:13,040
+cll number from the beginning three
+
+59
+00:02:10,000 --> 00:02:14,560
+numbers from the end so what's the sum
+
+60
+00:02:13,040 --> 00:02:16,400
+12
+
+61
+00:02:14,560 --> 00:02:18,160
+one number from the beginning two
+
+62
+00:02:16,400 --> 00:02:20,000
+numbers on the end what's the sum one
+
+63
+00:02:18,160 --> 00:02:21,040
+plus six plus one
+
+64
+00:02:20,000 --> 00:02:22,879
+eight
+
+65
+00:02:21,040 --> 00:02:25,200
+two numbers from the beginning one
+
+66
+00:02:22,879 --> 00:02:27,280
+number from the end one plus two plus
+
+67
+00:02:25,200 --> 00:02:29,360
+one four three numbers from the
+
+68
+00:02:27,280 --> 00:02:32,319
+beginning zero number from the end
+
+69
+00:02:29,360 --> 00:02:35,200
+one plus two plus three
+
+70
+00:02:32,319 --> 00:02:37,519
+so we just pick the maximum which is 12.
+
+71
+00:02:35,200 --> 00:02:39,920
+okay this is more straightforward am i
+
+72
+00:02:37,519 --> 00:02:41,840
+right yesterday we are minimizing the
+
+73
+00:02:39,920 --> 00:02:44,319
+sum of the sub array
+
+74
+00:02:41,840 --> 00:02:47,200
+but this subway is the remaining so we
+
+75
+00:02:44,319 --> 00:02:48,840
+need to minimize it and we use the
+
+76
+00:02:47,200 --> 00:02:51,200
+s minus the
+
+77
+00:02:48,840 --> 00:02:53,920
+minimizing the sum then that would be
+
+78
+00:02:51,200 --> 00:02:56,080
+the sum of the numbers we picked
+
+79
+00:02:53,920 --> 00:02:58,720
+yeah s minus a we want to minimize this
+
+80
+00:02:56,080 --> 00:03:01,200
+bit but now we are directly calculating
+
+81
+00:02:58,720 --> 00:03:04,400
+the sum so we are maximizing this
+
+82
+00:03:01,200 --> 00:03:05,519
+i want to calculate some of these
+
+83
+00:03:04,400 --> 00:03:06,720
+these
+
+84
+00:03:05,519 --> 00:03:08,560
+these
+
+85
+00:03:06,720 --> 00:03:11,440
+this array is not changing right we want
+
+86
+00:03:08,560 --> 00:03:13,519
+to be able to calculate the sum of uh
+
+87
+00:03:11,440 --> 00:03:15,680
+first one number first two numbers first
+
+88
+00:03:13,519 --> 00:03:18,080
+three numbers and we want to be able to
+
+89
+00:03:15,680 --> 00:03:20,720
+calculate the sum of last number last
+
+90
+00:03:18,080 --> 00:03:23,200
+two numbers last three numbers
+
+91
+00:03:20,720 --> 00:03:25,040
+so what comes into mind
+
+92
+00:03:23,200 --> 00:03:27,680
+can we calculate this
+
+93
+00:03:25,040 --> 00:03:29,519
+so we we use the accumulator remember we
+
+94
+00:03:27,680 --> 00:03:31,599
+use the prefix sum the sum of the first
+
+95
+00:03:29,519 --> 00:03:33,920
+element is one the sum of the first two
+
+96
+00:03:31,599 --> 00:03:36,040
+elements is one plus two
+
+97
+00:03:33,920 --> 00:03:38,319
+one plus two plus three we are
+
+98
+00:03:36,040 --> 00:03:39,840
+pre-calculating the sum
+
+99
+00:03:38,319 --> 00:03:41,760
+all right and then we talk about this
+
+100
+00:03:39,840 --> 00:03:44,640
+accumulate function remember
+
+101
+00:03:41,760 --> 00:03:47,200
+accumulate accumulate
+
+102
+00:03:44,640 --> 00:03:48,879
+so when we accumulate look this is array
+
+103
+00:03:47,200 --> 00:03:50,239
+when we perform this accumulator what
+
+104
+00:03:48,879 --> 00:03:52,879
+does it become
+
+105
+00:03:50,239 --> 00:03:55,599
+this is array right a equals this
+
+106
+00:03:52,879 --> 00:03:57,519
+if we perform the accumulate
+
+107
+00:03:55,599 --> 00:03:59,040
+so you become 1
+
+108
+00:03:57,519 --> 00:04:00,959
+1 plus 2
+
+109
+00:03:59,040 --> 00:04:03,760
+1 plus 2 plus 3
+
+110
+00:04:00,959 --> 00:04:05,680
+1 plus 2 plus 3 plus 4. so that's what
+
+111
+00:04:03,760 --> 00:04:07,760
+it accumulates
+
+112
+00:04:05,680 --> 00:04:09,599
+so why this is useful so we can just
+
+113
+00:04:07,760 --> 00:04:12,239
+look it up right what's the sum of the
+
+114
+00:04:09,599 --> 00:04:14,080
+first four numbers we just look it up
+
+115
+00:04:12,239 --> 00:04:15,760
+this value we don't need to calculate
+
+116
+00:04:14,080 --> 00:04:17,199
+when we need it one plus two plus three
+
+117
+00:04:15,760 --> 00:04:18,320
+plus four because that's going to take
+
+118
+00:04:17,199 --> 00:04:20,560
+longer
+
+119
+00:04:18,320 --> 00:04:21,600
+we look it up yeah because we know
+
+120
+00:04:20,560 --> 00:04:23,600
+already
+
+121
+00:04:21,600 --> 00:04:25,440
+when we calculate the prefix sum from
+
+122
+00:04:23,600 --> 00:04:27,600
+the left to the right we know the number
+
+123
+00:04:25,440 --> 00:04:29,600
+yeah we know the sum we can have this
+
+124
+00:04:27,600 --> 00:04:32,479
+running sum right now current sum is
+
+125
+00:04:29,600 --> 00:04:34,560
+zero the current sum plus one is one
+
+126
+00:04:32,479 --> 00:04:36,400
+current sum plus two plus three plus
+
+127
+00:04:34,560 --> 00:04:38,639
+four plus five
+
+128
+00:04:36,400 --> 00:04:40,560
+okay so the other problem is we know how
+
+129
+00:04:38,639 --> 00:04:42,160
+to calculate the sum of first few
+
+130
+00:04:40,560 --> 00:04:43,790
+numbers how about the sum of the last
+
+131
+00:04:42,160 --> 00:04:45,040
+few numbers
+
+132
+00:04:43,790 --> 00:04:48,720
+[Music]
+
+133
+00:04:45,040 --> 00:04:51,280
+think about it okay we know okay sorry 3
+
+134
+00:04:48,720 --> 00:04:53,280
+minus exactly yeah we know all of it and
+
+135
+00:04:51,280 --> 00:04:55,120
+then we know the first few numbers the
+
+136
+00:04:53,280 --> 00:04:58,000
+sum minus the few numbers is the
+
+137
+00:04:55,120 --> 00:04:59,680
+remaining define max
+
+138
+00:04:58,000 --> 00:05:00,720
+point
+
+139
+00:04:59,680 --> 00:05:02,160
+array
+
+140
+00:05:00,720 --> 00:05:04,400
+a
+
+141
+00:05:02,160 --> 00:05:06,160
+and we want to pick k numbers first of
+
+142
+00:05:04,400 --> 00:05:08,400
+all let's get the numbers how many
+
+143
+00:05:06,160 --> 00:05:10,240
+numbers
+
+144
+00:05:08,400 --> 00:05:15,280
+and accumulate we want to have this
+
+145
+00:05:10,240 --> 00:05:15,280
+prefix sum of keywords yes so prefix um
+
+146
+00:05:16,560 --> 00:05:19,919
+he was accumulate
+
+147
+00:05:21,840 --> 00:05:26,400
+hey
+
+148
+00:05:23,280 --> 00:05:28,639
+we want to convert it to a list
+
+149
+00:05:26,400 --> 00:05:30,080
+because accumulator returns an iterator
+
+150
+00:05:28,639 --> 00:05:34,400
+iterator
+
+151
+00:05:30,080 --> 00:05:35,919
+iterator is not at least is like
+
+152
+00:05:34,400 --> 00:05:38,720
+what's iterator
+
+153
+00:05:35,919 --> 00:05:40,639
+in the year thing so you i promise you
+
+154
+00:05:38,720 --> 00:05:42,160
+to give you at least a few numbers so
+
+155
+00:05:40,639 --> 00:05:44,479
+i'm not giving you
+
+156
+00:05:42,160 --> 00:05:46,160
+all at once when you ask for it i'll
+
+157
+00:05:44,479 --> 00:05:48,240
+give you one when you ask me for the
+
+158
+00:05:46,160 --> 00:05:50,080
+keyword when we put this list we can
+
+159
+00:05:48,240 --> 00:05:53,199
+write it on the list by the beginning
+
+160
+00:05:50,080 --> 00:05:56,240
+i'm going to put a 0 at the beginning
+
+161
+00:05:53,199 --> 00:05:58,960
+okay so look one two three four right so
+
+162
+00:05:56,240 --> 00:06:01,919
+when we do this accumulate you become
+
+163
+00:05:58,960 --> 00:06:04,240
+become what can you tell me one
+
+164
+00:06:01,919 --> 00:06:04,240
+three
+
+165
+00:06:04,720 --> 00:06:09,840
+what what come on
+
+166
+00:06:06,800 --> 00:06:11,280
+fill the banks six ten six ten okay
+
+167
+00:06:09,840 --> 00:06:13,680
+weather
+
+168
+00:06:11,280 --> 00:06:16,479
+i want to put a zero in the beginning
+
+169
+00:06:13,680 --> 00:06:18,800
+because look because we only pick k
+
+170
+00:06:16,479 --> 00:06:19,680
+numbers as i said they are k plus one
+
+171
+00:06:18,800 --> 00:06:21,840
+choice
+
+172
+00:06:19,680 --> 00:06:23,440
+so how many choices is this
+
+173
+00:06:21,840 --> 00:06:25,600
+four okay
+
+174
+00:06:23,440 --> 00:06:27,360
+so that k plus one right so i put a zero
+
+175
+00:06:25,600 --> 00:06:29,759
+means that if i pick nothing from the
+
+176
+00:06:27,360 --> 00:06:29,759
+beginning
+
+177
+00:06:30,319 --> 00:06:34,319
+we need to brief us all these k plus one
+
+178
+00:06:32,639 --> 00:06:37,759
+choice for
+
+179
+00:06:34,319 --> 00:06:40,479
+i in range
+
+180
+00:06:37,759 --> 00:06:42,319
+k plus one right we need to do this sum
+
+181
+00:06:40,479 --> 00:06:44,720
+as well sum will be everything and sum
+
+182
+00:06:42,319 --> 00:06:47,199
+of uh everything some a
+
+183
+00:06:44,720 --> 00:06:50,080
+that's going to take over time
+
+184
+00:06:47,199 --> 00:06:52,160
+look what we we iterate k times here but
+
+185
+00:06:50,080 --> 00:06:53,840
+let's going to take o in time so what's
+
+186
+00:06:52,160 --> 00:06:55,680
+the time convexity
+
+187
+00:06:53,840 --> 00:06:58,960
+look there are n times here there are k
+
+188
+00:06:55,680 --> 00:07:01,520
+times here so the time convex is our n
+
+189
+00:06:58,960 --> 00:07:03,599
+k is smaller than n so
+
+190
+00:07:01,520 --> 00:07:05,599
+o n okay
+
+191
+00:07:03,599 --> 00:07:07,680
+the sum the current sum
+
+192
+00:07:05,599 --> 00:07:11,360
+the current sound let's see okay c
+
+193
+00:07:07,680 --> 00:07:15,199
+equals prefix i
+
+194
+00:07:11,360 --> 00:07:16,720
+plus plus the overall we pick
+
+195
+00:07:15,199 --> 00:07:19,759
+here
+
+196
+00:07:16,720 --> 00:07:20,639
+so if we are at it fetching the value
+
+197
+00:07:19,759 --> 00:07:23,919
+here
+
+198
+00:07:20,639 --> 00:07:25,199
+if this k equals 3 we pick nothing from
+
+199
+00:07:23,919 --> 00:07:27,199
+the beginning
+
+200
+00:07:25,199 --> 00:07:30,319
+so we need to pick
+
+201
+00:07:27,199 --> 00:07:33,199
+three numbers from the end right so how
+
+202
+00:07:30,319 --> 00:07:34,000
+many numbers and numbers
+
+203
+00:07:33,199 --> 00:07:36,800
+right
+
+204
+00:07:34,000 --> 00:07:38,560
+so now we pick we need to pick k numbers
+
+205
+00:07:36,800 --> 00:07:40,960
+and then we pick nothing at the
+
+206
+00:07:38,560 --> 00:07:43,199
+beginning so how many numbers left k
+
+207
+00:07:40,960 --> 00:07:45,199
+minus i right
+
+208
+00:07:43,199 --> 00:07:47,199
+and then from the n from the end because
+
+209
+00:07:45,199 --> 00:07:49,360
+we are adding a yellow
+
+210
+00:07:47,199 --> 00:07:51,919
+so the last value will be
+
+211
+00:07:49,360 --> 00:07:56,400
+n the index here will be n
+
+212
+00:07:51,919 --> 00:07:58,720
+so it's n minus x right so is
+
+213
+00:07:56,400 --> 00:08:01,440
+n is p
+
+214
+00:07:58,720 --> 00:08:02,319
+n minus k minus i
+
+215
+00:08:01,440 --> 00:08:03,199
+right
+
+216
+00:08:02,319 --> 00:08:04,960
+so
+
+217
+00:08:03,199 --> 00:08:07,440
+but we need to
+
+218
+00:08:04,960 --> 00:08:09,360
+subtract these from s right
+
+219
+00:08:07,440 --> 00:08:10,720
+this is total sum
+
+220
+00:08:09,360 --> 00:08:13,360
+right
+
+221
+00:08:10,720 --> 00:08:15,919
+this is the prefix sum
+
+222
+00:08:13,360 --> 00:08:17,919
+so we do this as subtraction that would
+
+223
+00:08:15,919 --> 00:08:20,879
+be the last the sum of the last few
+
+224
+00:08:17,919 --> 00:08:23,680
+numbers right and then we just have to
+
+225
+00:08:20,879 --> 00:08:24,960
+get the maximum answer equals maximum
+
+226
+00:08:23,680 --> 00:08:27,520
+of answer
+
+227
+00:08:24,960 --> 00:08:28,720
+c return
+
+228
+00:08:27,520 --> 00:08:32,479
+answer
+
+229
+00:08:28,720 --> 00:08:32,479
+answer the beginning is zero okay
+
+230
+00:08:32,880 --> 00:08:36,880
+some people might be able to write this
+
+231
+00:08:34,719 --> 00:08:39,680
+using this one language this is not a
+
+232
+00:08:36,880 --> 00:08:42,240
+mandatory i actually prefer writing it
+
+233
+00:08:39,680 --> 00:08:44,800
+in a very clear way so okay what's new
+
+234
+00:08:42,240 --> 00:08:46,080
+today what have you learned
+
+235
+00:08:44,800 --> 00:08:47,120
+learned about
+
+236
+00:08:46,080 --> 00:08:48,959
+so many
+
+237
+00:08:47,120 --> 00:08:51,360
+points
+
+238
+00:08:48,959 --> 00:08:52,880
+what's the problem and what do we talk
+
+239
+00:08:51,360 --> 00:08:55,839
+how many approaches have we learned
+
+240
+00:08:52,880 --> 00:08:55,839
+today
+
+241
+00:09:07,680 --> 00:09:14,720
+that one has accumulate okay now what's
+
+242
+00:09:11,360 --> 00:09:17,519
+our q a accumulate is basically
+
+243
+00:09:14,720 --> 00:09:19,440
+like zero one three six ten what is
+
+244
+00:09:17,519 --> 00:09:21,200
+what's the meaning of the accumulation
+
+245
+00:09:19,440 --> 00:09:24,720
+what it means
+
+246
+00:09:21,200 --> 00:09:26,240
+in english i don't know
+
+247
+00:09:24,720 --> 00:09:28,880
+accumulate
+
+248
+00:09:26,240 --> 00:09:31,360
+accumulate put it all together
+
+249
+00:09:28,880 --> 00:09:32,320
+little by little
+
+250
+00:09:31,360 --> 00:09:33,920
+yeah
+
+251
+00:09:32,320 --> 00:09:35,279
+accumulate you can
+
+252
+00:09:33,920 --> 00:09:37,680
+impress and
+
+253
+00:09:35,279 --> 00:09:40,000
+basically like prefix
+
+254
+00:09:37,680 --> 00:09:42,160
+do you still remember why we need to do
+
+255
+00:09:40,000 --> 00:09:43,120
+this accumulate look okay what's the sum
+
+256
+00:09:42,160 --> 00:09:46,320
+of uh
+
+257
+00:09:43,120 --> 00:09:46,320
+two part three plus four
+
+258
+00:09:46,720 --> 00:09:48,640
+nine
+
+259
+00:09:47,519 --> 00:09:50,080
+okay
+
+260
+00:09:48,640 --> 00:09:52,080
+we are given this array all right we
+
+261
+00:09:50,080 --> 00:09:53,360
+want to calculate the sum of any
+
+262
+00:09:52,080 --> 00:09:55,279
+intervals
+
+263
+00:09:53,360 --> 00:09:57,279
+all right how how would you do it the
+
+264
+00:09:55,279 --> 00:09:59,600
+normal way would be
+
+265
+00:09:57,279 --> 00:10:00,880
+you just calculate two plus three plus
+
+266
+00:09:59,600 --> 00:10:03,760
+one right
+
+267
+00:10:00,880 --> 00:10:05,760
+okay so look if consider look
+
+268
+00:10:03,760 --> 00:10:08,000
+listen can see that this is a very big
+
+269
+00:10:05,760 --> 00:10:09,440
+number one to a minion
+
+270
+00:10:08,000 --> 00:10:12,320
+okay
+
+271
+00:10:09,440 --> 00:10:16,079
+one two three four
+
+272
+00:10:12,320 --> 00:10:16,079
+a minion i don't know okay
+
+273
+00:10:16,320 --> 00:10:21,680
+i know it could be many let's say i want
+
+274
+00:10:18,880 --> 00:10:23,360
+to calculate a interval somewhere
+
+275
+00:10:21,680 --> 00:10:25,839
+for example i want to keep cancer from
+
+276
+00:10:23,360 --> 00:10:27,120
+two to a minute minus one how would you
+
+277
+00:10:25,839 --> 00:10:29,279
+do it
+
+278
+00:10:27,120 --> 00:10:30,640
+the stupid way would be just two plus
+
+279
+00:10:29,279 --> 00:10:32,560
+three plus one right you're going to
+
+280
+00:10:30,640 --> 00:10:34,640
+take forever right
+
+281
+00:10:32,560 --> 00:10:37,360
+but how would you do it if i'm saying
+
+282
+00:10:34,640 --> 00:10:40,160
+this array is not changing
+
+283
+00:10:37,360 --> 00:10:42,320
+but how about accumulate prefix sum
+
+284
+00:10:40,160 --> 00:10:44,720
+so look i calculate one
+
+285
+00:10:42,320 --> 00:10:45,600
+one plus two three one plus two plus
+
+286
+00:10:44,720 --> 00:10:46,399
+three
+
+287
+00:10:45,600 --> 00:10:49,760
+6
+
+288
+00:10:46,399 --> 00:10:51,839
+10 et cetera okay so taking this example
+
+289
+00:10:49,760 --> 00:10:55,680
+so this number will be
+
+290
+00:10:51,839 --> 00:10:58,800
+prefix sum will be 1 3 6 10 15
+
+291
+00:10:55,680 --> 00:11:00,560
+21 okay and what's the sum of of 2 plus
+
+292
+00:10:58,800 --> 00:11:03,360
+3 plus four
+
+293
+00:11:00,560 --> 00:11:05,680
+is it equals to one plus two plus three
+
+294
+00:11:03,360 --> 00:11:06,720
+plus four minus one
+
+295
+00:11:05,680 --> 00:11:09,200
+yeah
+
+296
+00:11:06,720 --> 00:11:10,399
+okay so one plus two plus three power is
+
+297
+00:11:09,200 --> 00:11:13,600
+ten
+
+298
+00:11:10,399 --> 00:11:15,920
+okay what's the sum of up to one and one
+
+299
+00:11:13,600 --> 00:11:18,399
+so what's the sum
+
+300
+00:11:15,920 --> 00:11:19,440
+ten minus one for this array i calculate
+
+301
+00:11:18,399 --> 00:11:21,279
+once
+
+302
+00:11:19,440 --> 00:11:23,120
+so i can just look it up look it up two
+
+303
+00:11:21,279 --> 00:11:25,040
+values look at the two values and do
+
+304
+00:11:23,120 --> 00:11:25,920
+this subtraction
+
+305
+00:11:25,040 --> 00:11:27,519
+right
+
+306
+00:11:25,920 --> 00:11:29,760
+is it quicker
+
+307
+00:11:27,519 --> 00:11:30,720
+looking up is it quicker yeah
+
+308
+00:11:29,760 --> 00:11:33,200
+okay
+
+309
+00:11:30,720 --> 00:11:35,040
+okay so okay let me repeat
+
+310
+00:11:33,200 --> 00:11:37,200
+yesterday we talked about
+
+311
+00:11:35,040 --> 00:11:39,200
+these using the two-pointer sliding
+
+312
+00:11:37,200 --> 00:11:40,959
+window thing because they we want to
+
+313
+00:11:39,200 --> 00:11:42,560
+maximize
+
+314
+00:11:40,959 --> 00:11:43,519
+s minus a
+
+315
+00:11:42,560 --> 00:11:47,040
+a
+
+316
+00:11:43,519 --> 00:11:47,839
+is the sum of the remaining numbers
+
+317
+00:11:47,040 --> 00:11:50,320
+right
+
+318
+00:11:47,839 --> 00:11:52,079
+we want to maximize this so
+
+319
+00:11:50,320 --> 00:11:54,320
+it means that we need to minimize the
+
+320
+00:11:52,079 --> 00:11:56,320
+remaining numbers right
+
+321
+00:11:54,320 --> 00:11:59,519
+for the remaining numbers we use the
+
+322
+00:11:56,320 --> 00:12:02,079
+sliding window to keep updating
+
+323
+00:11:59,519 --> 00:12:03,360
+updating the sum of the windows size and
+
+324
+00:12:02,079 --> 00:12:05,040
+minus k
+
+325
+00:12:03,360 --> 00:12:07,839
+right that will work
+
+326
+00:12:05,040 --> 00:12:10,160
+today we are talking about a different
+
+327
+00:12:07,839 --> 00:12:12,320
+approach to pick k numbers we have k
+
+328
+00:12:10,160 --> 00:12:14,240
+plus one choice
+
+329
+00:12:12,320 --> 00:12:15,760
+picking zero numbers from the beginning
+
+330
+00:12:14,240 --> 00:12:17,200
+picking one numbers from beginner
+
+331
+00:12:15,760 --> 00:12:19,519
+picking two numbers from beginning
+
+332
+00:12:17,200 --> 00:12:22,399
+picking k numbers from beginning zero to
+
+333
+00:12:19,519 --> 00:12:24,959
+k layer k plus one possibilities
+
+334
+00:12:22,399 --> 00:12:28,240
+for each possibility we can use the
+
+335
+00:12:24,959 --> 00:12:30,880
+accumulated prefix sum to get the sum of
+
+336
+00:12:28,240 --> 00:12:33,279
+the first few numbers right that's easy
+
+337
+00:12:30,880 --> 00:12:34,320
+we're doing this lookup
+
+338
+00:12:33,279 --> 00:12:36,720
+but
+
+339
+00:12:34,320 --> 00:12:39,200
+we also need the sum of the last few
+
+340
+00:12:36,720 --> 00:12:42,480
+numbers in order to do that we use the
+
+341
+00:12:39,200 --> 00:12:44,880
+subtraction right we know the sum of all
+
+342
+00:12:42,480 --> 00:12:47,120
+the numbers we just need to minus a few
+
+343
+00:12:44,880 --> 00:12:49,279
+numbers then that'll be the sum of the
+
+344
+00:12:47,120 --> 00:12:50,160
+last few numbers am right
+
+345
+00:12:49,279 --> 00:12:52,880
+okay
+
+346
+00:12:50,160 --> 00:12:54,480
+okay and then the time complexity look
+
+347
+00:12:52,880 --> 00:12:57,040
+accumulate
+
+348
+00:12:54,480 --> 00:13:00,160
+a one time space over in space
+
+349
+00:12:57,040 --> 00:13:02,000
+sum or when time so it's o m plus o n
+
+350
+00:13:00,160 --> 00:13:04,639
+plus okay
+
+351
+00:13:02,000 --> 00:13:08,079
+okay so let's open time space complexity
+
+352
+00:13:04,639 --> 00:13:10,399
+we're using the accumulate prefix array
+
+353
+00:13:08,079 --> 00:13:12,720
+so that's all going to take oven
+
+354
+00:13:10,399 --> 00:13:14,160
+space okay that's it for today bye bye
+
+355
+00:13:12,720 --> 00:13:17,160
+bye
+
+356
+00:13:14,160 --> 00:13:17,160
+bye
+

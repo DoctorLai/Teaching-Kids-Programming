@@ -1,0 +1,912 @@
+1
+00:00:00,399 --> 00:00:04,560
+hello mr hurry mr rhino right
+
+2
+00:00:03,199 --> 00:00:07,520
+what's this
+
+3
+00:00:04,560 --> 00:00:08,480
+a boundary tree finally three a tree a
+
+4
+00:00:07,520 --> 00:00:10,960
+tree
+
+5
+00:00:08,480 --> 00:00:14,480
+any aluminum grass a graph yes
+
+6
+00:00:10,960 --> 00:00:16,720
+this is the fine tree in 270 days we
+
+7
+00:00:14,480 --> 00:00:22,080
+talk about to get the
+
+8
+00:00:16,720 --> 00:00:24,880
+maximum average that's 274 days 274 days
+
+9
+00:00:22,080 --> 00:00:26,800
+subtree we want to find out on the day
+
+10
+00:00:24,880 --> 00:00:29,359
+we talk about the death search to find
+
+11
+00:00:26,800 --> 00:00:30,720
+out the maximum average of subtree look
+
+12
+00:00:29,359 --> 00:00:33,120
+at this note
+
+13
+00:00:30,720 --> 00:00:36,239
+this is a subtree right
+
+14
+00:00:33,120 --> 00:00:37,600
+the average is two this is average two
+
+15
+00:00:36,239 --> 00:00:39,520
+and these
+
+16
+00:00:37,600 --> 00:00:42,800
+average is also two two plus two plus
+
+17
+00:00:39,520 --> 00:00:45,520
+two divided by three probabilities
+
+18
+00:00:42,800 --> 00:00:46,879
+sub subtree so basically you add all the
+
+19
+00:00:45,520 --> 00:00:48,960
+numbers
+
+20
+00:00:46,879 --> 00:00:50,239
+and divide it by the number of the nodes
+
+21
+00:00:48,960 --> 00:00:53,039
+right and we want to find out the
+
+22
+00:00:50,239 --> 00:00:55,039
+maximum right and we use the data search
+
+23
+00:00:53,039 --> 00:00:57,680
+and then we want to find the maximum
+
+24
+00:00:55,039 --> 00:01:00,000
+two right let's see let's see what's the
+
+25
+00:00:57,680 --> 00:01:02,320
+this is this is two obviously
+
+26
+00:01:00,000 --> 00:01:04,960
+this is one yeah we have we have average
+
+27
+00:01:02,320 --> 00:01:07,439
+two one and what's the average of these
+
+28
+00:01:04,960 --> 00:01:10,479
+ten divided by one two three four five
+
+29
+00:01:07,439 --> 00:01:13,439
+also two right average this is seven
+
+30
+00:01:10,479 --> 00:01:15,040
+okay we got a winner what's the average
+
+31
+00:01:13,439 --> 00:01:17,680
+of the entire tree
+
+32
+00:01:15,040 --> 00:01:19,040
+five plus seven plus three
+
+33
+00:01:17,680 --> 00:01:21,759
+fifteen ten
+
+34
+00:01:19,040 --> 00:01:24,479
+fifteen plus one sixteen
+
+35
+00:01:21,759 --> 00:01:26,960
+sixteen plus six twenty two divided by
+
+36
+00:01:24,479 --> 00:01:28,720
+one two three four five six seven
+
+37
+00:01:26,960 --> 00:01:31,119
+twenty two divided by two divided by
+
+38
+00:01:28,720 --> 00:01:33,040
+seven so okay so it's roughly three
+
+39
+00:01:31,119 --> 00:01:35,840
+point something right so
+
+40
+00:01:33,040 --> 00:01:37,759
+the largest will be seven okay so have
+
+41
+00:01:35,840 --> 00:01:41,280
+you noticed what did i do you know the
+
+42
+00:01:37,759 --> 00:01:41,280
+two seven
+
+43
+00:01:41,360 --> 00:01:44,880
+that's seven this is excel with the
+
+44
+00:01:42,960 --> 00:01:46,720
+substrate so what in order to calculate
+
+45
+00:01:44,880 --> 00:01:48,720
+the average because there's seven
+
+46
+00:01:46,720 --> 00:01:50,399
+numbers
+
+47
+00:01:48,720 --> 00:01:52,840
+oh yeah these seven knobs yes you're
+
+48
+00:01:50,399 --> 00:01:56,320
+right okay so in order to calculate the
+
+49
+00:01:52,840 --> 00:01:58,560
+average what do we need to know
+
+50
+00:01:56,320 --> 00:01:59,360
+you need to know how many
+
+51
+00:01:58,560 --> 00:02:01,200
+and
+
+52
+00:01:59,360 --> 00:02:03,040
+and every
+
+53
+00:02:01,200 --> 00:02:04,960
+every night
+
+54
+00:02:03,040 --> 00:02:07,119
+the sum how do we calculate some i think
+
+55
+00:02:04,960 --> 00:02:08,720
+it's like exactly
+
+56
+00:02:07,119 --> 00:02:11,520
+the exact thing okay so what do this
+
+57
+00:02:08,720 --> 00:02:13,840
+mean sum sum sum divided by the number
+
+58
+00:02:11,520 --> 00:02:16,560
+of nodes yeah and we talk about the
+
+59
+00:02:13,840 --> 00:02:18,800
+depth search so in order to do this we
+
+60
+00:02:16,560 --> 00:02:21,280
+need this type of search function to
+
+61
+00:02:18,800 --> 00:02:23,520
+return two values can you guess what are
+
+62
+00:02:21,280 --> 00:02:24,319
+those you probably already know all
+
+63
+00:02:23,520 --> 00:02:26,640
+right
+
+64
+00:02:24,319 --> 00:02:28,160
+define definitely
+
+65
+00:02:26,640 --> 00:02:30,560
+root
+
+66
+00:02:28,160 --> 00:02:34,160
+and this is the maximum average okay
+
+67
+00:02:30,560 --> 00:02:36,160
+come on so if if it's an empty tree
+
+68
+00:02:34,160 --> 00:02:39,040
+we return to value can you tell me what
+
+69
+00:02:36,160 --> 00:02:40,879
+are these two values zero zero
+
+70
+00:02:39,040 --> 00:02:43,200
+what are these two values for the
+
+71
+00:02:40,879 --> 00:02:44,400
+definition to return zero zero what does
+
+72
+00:02:43,200 --> 00:02:45,440
+it mean
+
+73
+00:02:44,400 --> 00:02:47,360
+means
+
+74
+00:02:45,440 --> 00:02:48,640
+the sum sum
+
+75
+00:02:47,360 --> 00:02:51,200
+numbers
+
+76
+00:02:48,640 --> 00:02:53,680
+the numbers were n the n the number of
+
+77
+00:02:51,200 --> 00:02:55,760
+nodes yeah okay two values one for the
+
+78
+00:02:53,680 --> 00:02:59,200
+sum one for the number of nodes left sum
+
+79
+00:02:55,760 --> 00:03:01,760
+and left node equals definite search
+
+80
+00:02:59,200 --> 00:03:04,800
+blue dot left right
+
+81
+00:03:01,760 --> 00:03:06,319
+and then right s y n equals that's the
+
+82
+00:03:04,800 --> 00:03:09,360
+search can you tell me what what am i
+
+83
+00:03:06,319 --> 00:03:11,360
+doing here do the right
+
+84
+00:03:09,360 --> 00:03:14,159
+okay so now look we've got the four
+
+85
+00:03:11,360 --> 00:03:15,760
+values the left side left no number of
+
+86
+00:03:14,159 --> 00:03:17,519
+notes right sum
+
+87
+00:03:15,760 --> 00:03:19,920
+the sum of the
+
+88
+00:03:17,519 --> 00:03:21,519
+right trees and the number of the right
+
+89
+00:03:19,920 --> 00:03:23,920
+trees right and now we want to get the
+
+90
+00:03:21,519 --> 00:03:27,040
+maximum of the average we have this
+
+91
+00:03:23,920 --> 00:03:29,040
+answer equals maximum of answer this is
+
+92
+00:03:27,040 --> 00:03:31,680
+we want to get the maximum average right
+
+93
+00:03:29,040 --> 00:03:35,680
+so the average will be the sum left sum
+
+94
+00:03:31,680 --> 00:03:39,120
+plus right sum plus do the value right
+
+95
+00:03:35,680 --> 00:03:40,000
+and divided by left null plus right now
+
+96
+00:03:39,120 --> 00:03:43,080
+plus
+
+97
+00:03:40,000 --> 00:03:44,640
+so this bit the sum of the luxury
+
+98
+00:03:43,080 --> 00:03:48,879
+is
+
+99
+00:03:44,640 --> 00:03:51,519
+the sum of the right tree is rs and l s
+
+100
+00:03:48,879 --> 00:03:54,000
+plus rs plus root of value is the sum of
+
+101
+00:03:51,519 --> 00:03:56,319
+this entire tree okay
+
+102
+00:03:54,000 --> 00:03:58,400
+and then the number of nodes how so
+
+103
+00:03:56,319 --> 00:04:00,879
+what's missing here can you tell me the
+
+104
+00:03:58,400 --> 00:04:02,640
+left number of notes the number of the
+
+105
+00:04:00,879 --> 00:04:04,879
+notes in the left tree plus the number
+
+106
+00:04:02,640 --> 00:04:07,760
+of notes in the right three plus what's
+
+107
+00:04:04,879 --> 00:04:11,280
+the number of notes in the root how many
+
+108
+00:04:07,760 --> 00:04:14,959
+notes is in the loop one one
+
+109
+00:04:11,280 --> 00:04:14,959
+the number of notes in the loop come
+
+110
+00:04:17,519 --> 00:04:22,479
+okay so look this because we are
+
+111
+00:04:20,160 --> 00:04:24,160
+calculating the answer yeah but in order
+
+112
+00:04:22,479 --> 00:04:25,360
+to access this value we need to put a
+
+113
+00:04:24,160 --> 00:04:27,680
+longer
+
+114
+00:04:25,360 --> 00:04:29,360
+answer and then return
+
+115
+00:04:27,680 --> 00:04:32,000
+we want to return
+
+116
+00:04:29,360 --> 00:04:35,199
+we can again we we just need to return
+
+117
+00:04:32,000 --> 00:04:37,040
+these two values yes so this is 274 days
+
+118
+00:04:35,199 --> 00:04:39,919
+okay coming back to today's question so
+
+119
+00:04:37,040 --> 00:04:40,800
+we want to find out the number of nodes
+
+120
+00:04:39,919 --> 00:04:44,000
+that
+
+121
+00:04:40,800 --> 00:04:48,080
+is equals to the average of sub 3 so for
+
+122
+00:04:44,000 --> 00:04:50,880
+example the average of these three is 2x
+
+123
+00:04:48,080 --> 00:04:53,680
+so we count one two equals two how many
+
+124
+00:04:50,880 --> 00:04:56,560
+other nodes value is equals to the
+
+125
+00:04:53,680 --> 00:04:58,000
+average of that subtree can you find any
+
+126
+00:04:56,560 --> 00:04:59,120
+more
+
+127
+00:04:58,000 --> 00:05:01,039
+three
+
+128
+00:04:59,120 --> 00:05:02,880
+yeah of course the leaf node onto
+
+129
+00:05:01,039 --> 00:05:06,320
+counting the number of nodes that like
+
+130
+00:05:02,880 --> 00:05:08,880
+equals to the average of the subtree
+
+131
+00:05:06,320 --> 00:05:10,960
+so look the average of the leaf nodes
+
+132
+00:05:08,880 --> 00:05:14,000
+the average of this node
+
+133
+00:05:10,960 --> 00:05:15,440
+2 to a equals to except the average
+
+134
+00:05:14,000 --> 00:05:19,280
+number two
+
+135
+00:05:15,440 --> 00:05:20,720
+two okay up at least one three okay
+
+136
+00:05:19,280 --> 00:05:23,280
+how about this number
+
+137
+00:05:20,720 --> 00:05:26,000
+ten plus divided one two three four five
+
+138
+00:05:23,280 --> 00:05:27,840
+two so one is not equal to two so how
+
+139
+00:05:26,000 --> 00:05:30,800
+many notes one two three four will
+
+140
+00:05:27,840 --> 00:05:32,000
+return four that's what it means
+
+141
+00:05:30,800 --> 00:05:34,240
+okay
+
+142
+00:05:32,000 --> 00:05:35,039
+this is a different search look look at
+
+143
+00:05:34,240 --> 00:05:37,600
+this
+
+144
+00:05:35,039 --> 00:05:40,800
+this is the recursion
+
+145
+00:05:37,600 --> 00:05:44,160
+equivalent to find the largest the
+
+146
+00:05:40,800 --> 00:05:46,240
+maximum average of any sub tree right
+
+147
+00:05:44,160 --> 00:05:47,680
+we understand this approach to count how
+
+148
+00:05:46,240 --> 00:05:50,080
+many nodes
+
+149
+00:05:47,680 --> 00:05:52,560
+left equals to the average of that
+
+150
+00:05:50,080 --> 00:05:55,039
+subtree which line here is to calculate
+
+151
+00:05:52,560 --> 00:05:57,039
+the maximum average
+
+152
+00:05:55,039 --> 00:05:59,840
+the second last one
+
+153
+00:05:57,039 --> 00:06:01,440
+this one yeah okay good job so this one
+
+154
+00:05:59,840 --> 00:06:02,800
+is to get the average so we want to
+
+155
+00:06:01,440 --> 00:06:06,800
+change it
+
+156
+00:06:02,800 --> 00:06:08,000
+m plus r n plus one this is average
+
+157
+00:06:06,800 --> 00:06:10,800
+right
+
+158
+00:06:08,000 --> 00:06:14,240
+so if this is equal to rules of value so
+
+159
+00:06:10,800 --> 00:06:16,639
+if bluetooth value
+
+160
+00:06:14,240 --> 00:06:18,160
+equals this bit
+
+161
+00:06:16,639 --> 00:06:19,520
+length
+
+162
+00:06:18,160 --> 00:06:22,639
+answer
+
+163
+00:06:19,520 --> 00:06:24,160
+plus equal one that's it
+
+164
+00:06:22,639 --> 00:06:26,720
+doesn't make sense man
+
+165
+00:06:24,160 --> 00:06:28,319
+okay so what have you learned today
+
+166
+00:06:26,720 --> 00:06:30,160
+um
+
+167
+00:06:28,319 --> 00:06:31,600
+the problem is
+
+168
+00:06:30,160 --> 00:06:35,560
+that
+
+169
+00:06:31,600 --> 00:06:35,560
+there's a subtree
+
+170
+00:06:35,919 --> 00:06:39,520
+there's a tree yeah and we want to count
+
+171
+00:06:38,160 --> 00:06:42,400
+the nodes
+
+172
+00:06:39,520 --> 00:06:44,880
+the equal nodes to average
+
+173
+00:06:42,400 --> 00:06:47,039
+so we have a tree and
+
+174
+00:06:44,880 --> 00:06:50,479
+and we have the
+
+175
+00:06:47,039 --> 00:06:52,319
+want to calculate how much notes
+
+176
+00:06:50,479 --> 00:06:54,560
+uh like
+
+177
+00:06:52,319 --> 00:06:56,639
+have the subtree
+
+178
+00:06:54,560 --> 00:06:59,919
+of
+
+179
+00:06:56,639 --> 00:07:01,599
+the same value thing yeah okay and how
+
+180
+00:06:59,919 --> 00:07:04,400
+do we solve this
+
+181
+00:07:01,599 --> 00:07:04,400
+by using
+
+182
+00:07:04,479 --> 00:07:08,240
+different search okay so definite search
+
+183
+00:07:06,960 --> 00:07:09,759
+what's this
+
+184
+00:07:08,240 --> 00:07:12,080
+does the search what are these two
+
+185
+00:07:09,759 --> 00:07:14,400
+values
+
+186
+00:07:12,080 --> 00:07:16,639
+and the numbers of notes why do we need
+
+187
+00:07:14,400 --> 00:07:18,160
+to return a topic containing one of the
+
+188
+00:07:16,639 --> 00:07:20,400
+sum one of the
+
+189
+00:07:18,160 --> 00:07:22,720
+number of nodes what do we mean off
+
+190
+00:07:20,400 --> 00:07:25,199
+because then we can calculate the
+
+191
+00:07:22,720 --> 00:07:27,360
+average whether we can calculate average
+
+192
+00:07:25,199 --> 00:07:28,400
+and at this point we are calculating the
+
+193
+00:07:27,360 --> 00:07:31,120
+average
+
+194
+00:07:28,400 --> 00:07:32,720
+of the substrate of a loop right and
+
+195
+00:07:31,120 --> 00:07:34,319
+then if we just have to check if the
+
+196
+00:07:32,720 --> 00:07:37,840
+root of value
+
+197
+00:07:34,319 --> 00:07:40,479
+is equals to the average of that subtree
+
+198
+00:07:37,840 --> 00:07:44,080
+then we increment this answer right
+
+199
+00:07:40,479 --> 00:07:46,800
+this is basically the same as 274 days
+
+200
+00:07:44,080 --> 00:07:50,160
+which where we calculate maximum average
+
+201
+00:07:46,800 --> 00:07:53,680
+yeah this bit is the 274 day where we
+
+202
+00:07:50,160 --> 00:07:55,280
+use the recursive data search today
+
+203
+00:07:53,680 --> 00:07:57,120
+just slightly different you know the
+
+204
+00:07:55,280 --> 00:07:59,599
+code is pretty much the same except this
+
+205
+00:07:57,120 --> 00:08:02,639
+one right for that recursion that search
+
+206
+00:07:59,599 --> 00:08:05,520
+every time we return two values the sum
+
+207
+00:08:02,639 --> 00:08:07,120
+and the number of notes in the subtree
+
+208
+00:08:05,520 --> 00:08:09,199
+with these two values we can calculate
+
+209
+00:08:07,120 --> 00:08:10,800
+the average you can get this that
+
+210
+00:08:09,199 --> 00:08:12,400
+maximum average
+
+211
+00:08:10,800 --> 00:08:14,479
+or you can calculate
+
+212
+00:08:12,400 --> 00:08:17,440
+you can count how many nodes
+
+213
+00:08:14,479 --> 00:08:20,319
+the values equals to their average
+
+214
+00:08:17,440 --> 00:08:23,440
+the time convex the space complexity
+
+215
+00:08:20,319 --> 00:08:25,440
+time convexity or n because we visited
+
+216
+00:08:23,440 --> 00:08:28,160
+each node exactly once
+
+217
+00:08:25,440 --> 00:08:30,960
+the space compresses on right we're
+
+218
+00:08:28,160 --> 00:08:33,519
+using the recursion implies that
+
+219
+00:08:30,960 --> 00:08:37,039
+when calling stack the maximum number of
+
+220
+00:08:33,519 --> 00:08:39,200
+the recursion depth is n in a worst case
+
+221
+00:08:37,039 --> 00:08:40,399
+it will be a linked list if a final tree
+
+222
+00:08:39,200 --> 00:08:42,240
+is this way
+
+223
+00:08:40,399 --> 00:08:44,320
+look at the unknowns
+
+224
+00:08:42,240 --> 00:08:47,279
+or this way or it could be this way
+
+225
+00:08:44,320 --> 00:08:50,000
+right if the endnotes the step will be n
+
+226
+00:08:47,279 --> 00:08:51,920
+and that's the maximum number of the
+
+227
+00:08:50,000 --> 00:08:54,920
+stack usage okay that's it for today
+
+228
+00:08:51,920 --> 00:08:54,920
+bye-bye
+
