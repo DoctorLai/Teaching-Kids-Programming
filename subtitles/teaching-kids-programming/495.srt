@@ -1,0 +1,2508 @@
+1
+00:00:00,160 --> 00:00:04,480
+yes okay so we are given this the
+
+2
+00:00:02,399 --> 00:00:06,720
+underlying graph we talked about count
+
+3
+00:00:04,480 --> 00:00:08,720
+the number of unreachable pairs in an
+
+4
+00:00:06,720 --> 00:00:11,200
+alternative graph right so given this
+
+5
+00:00:08,720 --> 00:00:13,360
+identity graph and directive means that
+
+6
+00:00:11,200 --> 00:00:15,360
+the edges do not have these directions
+
+7
+00:00:13,360 --> 00:00:16,880
+and then look there are three nodes in
+
+8
+00:00:15,360 --> 00:00:19,279
+the first connected component there are
+
+9
+00:00:16,880 --> 00:00:21,439
+two nodes in the second connected
+
+10
+00:00:19,279 --> 00:00:23,840
+component so the number of unreachable
+
+11
+00:00:21,439 --> 00:00:26,240
+pairs we can have is
+
+12
+00:00:23,840 --> 00:00:28,400
+three times two there are six pairs look
+
+13
+00:00:26,240 --> 00:00:31,119
+each vertex in the same connected
+
+14
+00:00:28,400 --> 00:00:33,440
+component forms the same number of
+
+15
+00:00:31,119 --> 00:00:35,840
+atmosphere pairs right for example like
+
+16
+00:00:33,440 --> 00:00:36,800
+zero we can form a pair unreachable
+
+17
+00:00:35,840 --> 00:00:39,520
+pairs
+
+18
+00:00:36,800 --> 00:00:42,559
+by connecting to all the vertex other
+
+19
+00:00:39,520 --> 00:00:45,760
+than the components the vertex in right
+
+20
+00:00:42,559 --> 00:00:47,680
+so look zero three zero four and this
+
+21
+00:00:45,760 --> 00:00:51,840
+there are two right then one three one
+
+22
+00:00:47,680 --> 00:00:53,760
+four two two three two four two okay so
+
+23
+00:00:51,840 --> 00:00:56,800
+we talked about the differences so by
+
+24
+00:00:53,760 --> 00:00:59,920
+using the definition we count the number
+
+25
+00:00:56,800 --> 00:01:02,000
+of vertex in the component so
+
+26
+00:00:59,920 --> 00:01:04,000
+we have double such release then we come
+
+27
+00:01:02,000 --> 00:01:06,799
+okay so we know there are three vertex
+
+28
+00:01:04,000 --> 00:01:07,680
+there are five vertex over all right so
+
+29
+00:01:06,799 --> 00:01:10,400
+three
+
+30
+00:01:07,680 --> 00:01:13,360
+times five minus three
+
+31
+00:01:10,400 --> 00:01:16,320
+right so for each connected component we
+
+32
+00:01:13,360 --> 00:01:18,479
+only calculate the contributions once
+
+33
+00:01:16,320 --> 00:01:20,240
+first component has added this
+
+34
+00:01:18,479 --> 00:01:22,000
+contribution three times five minus
+
+35
+00:01:20,240 --> 00:01:24,640
+three five minus three is the number of
+
+36
+00:01:22,000 --> 00:01:27,360
+nodes other than the components that the
+
+37
+00:01:24,640 --> 00:01:31,119
+vertex is when we calculate these then
+
+38
+00:01:27,360 --> 00:01:32,799
+it's two times five minus two right
+
+39
+00:01:31,119 --> 00:01:34,560
+and then we need to add it together but
+
+40
+00:01:32,799 --> 00:01:36,960
+we need to divide it by two right
+
+41
+00:01:34,560 --> 00:01:39,520
+because look when we calculate three
+
+42
+00:01:36,960 --> 00:01:41,920
+times five minus three we have counted
+
+43
+00:01:39,520 --> 00:01:44,240
+the pair zero and then when we come to
+
+44
+00:01:41,920 --> 00:01:46,240
+three we counted the pairs three zero so
+
+45
+00:01:44,240 --> 00:01:49,520
+let's consider as
+
+46
+00:01:46,240 --> 00:01:51,840
+a center so we divided by two okay we
+
+47
+00:01:49,520 --> 00:01:54,720
+also talked about these the number of
+
+48
+00:01:51,840 --> 00:01:57,280
+edges equals to the sum of all the
+
+49
+00:01:54,720 --> 00:01:58,719
+degree of a vertex right
+
+50
+00:01:57,280 --> 00:02:00,560
+divided by two
+
+51
+00:01:58,719 --> 00:02:02,079
+i
+
+52
+00:02:00,560 --> 00:02:03,280
+vertex
+
+53
+00:02:02,079 --> 00:02:06,880
+this is the
+
+54
+00:02:03,280 --> 00:02:07,920
+in belongs to okay so it means the i
+
+55
+00:02:06,880 --> 00:02:10,319
+is
+
+56
+00:02:07,920 --> 00:02:13,200
+in the set of vertex
+
+57
+00:02:10,319 --> 00:02:15,840
+so how many edges
+
+58
+00:02:13,200 --> 00:02:17,840
+we can sum the degree of all the vertex
+
+59
+00:02:15,840 --> 00:02:20,400
+the degree the number of edges connected
+
+60
+00:02:17,840 --> 00:02:23,760
+to the vertex look at least we have a
+
+61
+00:02:20,400 --> 00:02:26,400
+one plus these two
+
+62
+00:02:23,760 --> 00:02:28,160
+plus these one two three three
+
+63
+00:02:26,400 --> 00:02:30,160
+plus these two
+
+64
+00:02:28,160 --> 00:02:32,879
+plus these two
+
+65
+00:02:30,160 --> 00:02:34,319
+divided by two five edges
+
+66
+00:02:32,879 --> 00:02:36,480
+we need to divide it by two we talked
+
+67
+00:02:34,319 --> 00:02:38,959
+about this yeah because look edges has
+
+68
+00:02:36,480 --> 00:02:41,599
+two end points we added a contribution
+
+69
+00:02:38,959 --> 00:02:43,840
+twice so we have to divide it by two
+
+70
+00:02:41,599 --> 00:02:46,239
+the edges this degree has been at the
+
+71
+00:02:43,840 --> 00:02:48,319
+ones here and add ones here
+
+72
+00:02:46,239 --> 00:02:50,720
+right so for one edges we added the
+
+73
+00:02:48,319 --> 00:02:53,920
+degree twice so each edges
+
+74
+00:02:50,720 --> 00:02:54,879
+contributes to the degree of two that's
+
+75
+00:02:53,920 --> 00:02:56,160
+why we
+
+76
+00:02:54,879 --> 00:02:58,720
+divided by
+
+77
+00:02:56,160 --> 00:03:00,560
+this is the definition so with this step
+
+78
+00:02:58,720 --> 00:03:02,480
+research as we talked about we can use
+
+79
+00:03:00,560 --> 00:03:05,840
+the multiplication to
+
+80
+00:03:02,480 --> 00:03:08,800
+add the contribution of the unusual
+
+81
+00:03:05,840 --> 00:03:11,760
+pairs from the one component right so we
+
+82
+00:03:08,800 --> 00:03:14,800
+multiply the number of the components by
+
+83
+00:03:11,760 --> 00:03:17,920
+the number the remaining of the vertex
+
+84
+00:03:14,800 --> 00:03:20,480
+alternatively we can sum up the
+
+85
+00:03:17,920 --> 00:03:21,599
+contribution for each vertex for example
+
+86
+00:03:20,480 --> 00:03:25,120
+this one
+
+87
+00:03:21,599 --> 00:03:26,720
+so this one can form three unusual pairs
+
+88
+00:03:25,120 --> 00:03:29,280
+one two
+
+89
+00:03:26,720 --> 00:03:33,599
+three okay and this one
+
+90
+00:03:29,280 --> 00:03:34,879
+one two three and this one one two three
+
+91
+00:03:33,599 --> 00:03:36,319
+okay
+
+92
+00:03:34,879 --> 00:03:38,159
+we go through the vertex in the
+
+93
+00:03:36,319 --> 00:03:40,400
+connected component right so
+
+94
+00:03:38,159 --> 00:03:42,720
+we need to use the definition to count
+
+95
+00:03:40,400 --> 00:03:45,120
+the number of vertex in the component we
+
+96
+00:03:42,720 --> 00:03:46,799
+can add the contribution one by one or
+
+97
+00:03:45,120 --> 00:03:48,799
+we can just do this multiplication that
+
+98
+00:03:46,799 --> 00:03:50,720
+would be quicker because we know by
+
+99
+00:03:48,799 --> 00:03:52,480
+using the word deficit we know how many
+
+100
+00:03:50,720 --> 00:03:54,080
+notes in your connected component and we
+
+101
+00:03:52,480 --> 00:03:56,319
+can just do this to multiplication
+
+102
+00:03:54,080 --> 00:03:58,959
+instead of adding one by one right and
+
+103
+00:03:56,319 --> 00:04:00,879
+if we add the contribution one by one
+
+104
+00:03:58,959 --> 00:04:03,040
+and that means that for each vertex we
+
+105
+00:04:00,879 --> 00:04:04,959
+need we need to do a definite search
+
+106
+00:04:03,040 --> 00:04:07,360
+separately in the worst case the term
+
+107
+00:04:04,959 --> 00:04:09,360
+complexity will be o n squared or o v
+
+108
+00:04:07,360 --> 00:04:11,599
+square n is the number of vertex right
+
+109
+00:04:09,360 --> 00:04:13,519
+because for each vertex we have to do
+
+110
+00:04:11,599 --> 00:04:15,519
+this different search to count the
+
+111
+00:04:13,519 --> 00:04:17,840
+number of connected vertex and in the
+
+112
+00:04:15,519 --> 00:04:19,840
+worst case they're in a dialectic graph
+
+113
+00:04:17,840 --> 00:04:23,440
+there's only one single component guess
+
+114
+00:04:19,840 --> 00:04:23,440
+what we are going to talk about today
+
+115
+00:04:24,320 --> 00:04:30,240
+okay so what's processor
+
+116
+00:04:26,880 --> 00:04:32,400
+is when you breathe okay so which one
+
+117
+00:04:30,240 --> 00:04:34,000
+the last one
+
+118
+00:04:32,400 --> 00:04:35,199
+wrong answer okay give you one more
+
+119
+00:04:34,000 --> 00:04:37,360
+chance one
+
+120
+00:04:35,199 --> 00:04:37,360
+no
+
+121
+00:04:39,120 --> 00:04:43,400
+so eric if you're having a breakfast
+
+122
+00:04:44,400 --> 00:04:47,520
+what's this theory
+
+123
+00:04:48,400 --> 00:04:51,919
+why this guy has no hairs
+
+124
+00:04:52,000 --> 00:04:55,880
+these guys no ears
+
+125
+00:05:09,120 --> 00:05:12,880
+it's this graph press means that
+
+126
+00:05:11,520 --> 00:05:15,120
+horizontally
+
+127
+00:05:12,880 --> 00:05:16,000
+as opposed to definitive
+
+128
+00:05:15,120 --> 00:05:17,520
+thief
+
+129
+00:05:16,000 --> 00:05:20,520
+how do we usually implement the
+
+130
+00:05:17,520 --> 00:05:20,520
+performance
+
+131
+00:05:24,560 --> 00:05:29,520
+q dq okay
+
+132
+00:05:26,320 --> 00:05:32,080
+so q dq double and dq two sides so means
+
+133
+00:05:29,520 --> 00:05:32,960
+that we can push and pop from both sides
+
+134
+00:05:32,080 --> 00:05:35,199
+and then
+
+135
+00:05:32,960 --> 00:05:36,160
+they all those operations are one
+
+136
+00:05:35,199 --> 00:05:37,600
+constant
+
+137
+00:05:36,160 --> 00:05:38,639
+pq
+
+138
+00:05:37,600 --> 00:05:40,720
+let's
+
+139
+00:05:38,639 --> 00:05:42,720
+take a look at these three and we talked
+
+140
+00:05:40,720 --> 00:05:45,280
+about this a lot when we're solving the
+
+141
+00:05:42,720 --> 00:05:47,680
+problems of the trees finally chip so
+
+142
+00:05:45,280 --> 00:05:49,600
+what's the different search orders if we
+
+143
+00:05:47,680 --> 00:05:51,440
+visit the left tree first
+
+144
+00:05:49,600 --> 00:05:54,080
+left tree
+
+145
+00:05:51,440 --> 00:05:56,560
+and then which is the root the current
+
+146
+00:05:54,080 --> 00:05:57,680
+node and then different search because
+
+147
+00:05:56,560 --> 00:05:59,280
+that's the such
+
+148
+00:05:57,680 --> 00:06:01,680
+loose on right
+
+149
+00:05:59,280 --> 00:06:02,720
+okay so what's the order of these left
+
+150
+00:06:01,680 --> 00:06:03,680
+tree
+
+151
+00:06:02,720 --> 00:06:04,560
+node
+
+152
+00:06:03,680 --> 00:06:07,280
+right
+
+153
+00:06:04,560 --> 00:06:10,240
+one two four five three six seven okay
+
+154
+00:06:07,280 --> 00:06:13,199
+and how about the question search uh one
+
+155
+00:06:10,240 --> 00:06:15,759
+two three four five six seven
+
+156
+00:06:13,199 --> 00:06:18,720
+different search less visit
+
+157
+00:06:15,759 --> 00:06:21,120
+one yeah therefore searches one two four
+
+158
+00:06:18,720 --> 00:06:23,759
+five three six seven preferences is one
+
+159
+00:06:21,120 --> 00:06:26,319
+two three level by level okay so we use
+
+160
+00:06:23,759 --> 00:06:28,319
+the dq so first of all we push the root
+
+161
+00:06:26,319 --> 00:06:30,000
+in it yeah so that's one in that there
+
+162
+00:06:28,319 --> 00:06:31,759
+are two ways of doing this breakfast
+
+163
+00:06:30,000 --> 00:06:33,759
+search one way is that every time we
+
+164
+00:06:31,759 --> 00:06:36,000
+take everything out of the queue we
+
+165
+00:06:33,759 --> 00:06:39,039
+empty the queue and then we append there
+
+166
+00:06:36,000 --> 00:06:41,840
+we incube the trojan of all the nodes
+
+167
+00:06:39,039 --> 00:06:44,319
+one by one for example i take one out
+
+168
+00:06:41,840 --> 00:06:47,039
+what's the kit of one two three
+
+169
+00:06:44,319 --> 00:06:49,039
+i push it back to the cube now two three
+
+170
+00:06:47,039 --> 00:06:51,120
+are in the same level right so now i
+
+171
+00:06:49,039 --> 00:06:53,280
+take everything out of the cube
+
+172
+00:06:51,120 --> 00:06:54,800
+so i take everything out of here what's
+
+173
+00:06:53,280 --> 00:06:56,960
+the kit of two
+
+174
+00:06:54,800 --> 00:07:00,000
+four five what's the kit of three
+
+175
+00:06:56,960 --> 00:07:01,039
+six seven now look four five six seven
+
+176
+00:07:00,000 --> 00:07:03,520
+up
+
+177
+00:07:01,039 --> 00:07:05,680
+or in the same level right so then i
+
+178
+00:07:03,520 --> 00:07:07,840
+take everything out of the key four five
+
+179
+00:07:05,680 --> 00:07:09,680
+six seven i push that keep like nothing
+
+180
+00:07:07,840 --> 00:07:12,240
+that's one way the other way is that we
+
+181
+00:07:09,680 --> 00:07:14,400
+every time we take that one note up one
+
+182
+00:07:12,240 --> 00:07:16,960
+what's the kit of it let's take one hour
+
+183
+00:07:14,400 --> 00:07:18,000
+once again two three let's take one now
+
+184
+00:07:16,960 --> 00:07:21,120
+two
+
+185
+00:07:18,000 --> 00:07:24,080
+what's the kit of two four five
+
+186
+00:07:21,120 --> 00:07:26,960
+the next note coming out from q is three
+
+187
+00:07:24,080 --> 00:07:28,800
+what's the kid of three six seven
+
+188
+00:07:26,960 --> 00:07:30,800
+now i take the four it doesn't have hit
+
+189
+00:07:28,800 --> 00:07:33,680
+i take it five doesn't have to get six
+
+190
+00:07:30,800 --> 00:07:35,759
+seven etcetera okay so when we're taking
+
+191
+00:07:33,680 --> 00:07:37,840
+kids out of the queue it's on the left
+
+192
+00:07:35,759 --> 00:07:39,680
+hand side first interest rate right this
+
+193
+00:07:37,840 --> 00:07:41,360
+is configured
+
+194
+00:07:39,680 --> 00:07:43,039
+b q
+
+195
+00:07:41,360 --> 00:07:45,759
+when we push the kids back to the kill
+
+196
+00:07:43,039 --> 00:07:48,479
+it's called inquiry that's inquiry
+
+197
+00:07:45,759 --> 00:07:51,199
+define bfs
+
+198
+00:07:48,479 --> 00:07:53,440
+uh i this is the load okay so this is
+
+199
+00:07:51,199 --> 00:07:55,919
+the same thing if i in c
+
+200
+00:07:53,440 --> 00:07:58,000
+if we have seen this node
+
+201
+00:07:55,919 --> 00:07:59,680
+before we just return zero okay so we
+
+202
+00:07:58,000 --> 00:08:02,479
+don't need to edit twice the
+
+203
+00:07:59,680 --> 00:08:03,759
+contribution first sim dot add this part
+
+204
+00:08:02,479 --> 00:08:06,400
+is the same
+
+205
+00:08:03,759 --> 00:08:11,199
+uh answer equals zero
+
+206
+00:08:06,400 --> 00:08:15,039
+q equals dq right dq i
+
+207
+00:08:11,199 --> 00:08:17,440
+so why are q why we have elements in the
+
+208
+00:08:15,039 --> 00:08:19,360
+queue or why this is the same as we're
+
+209
+00:08:17,440 --> 00:08:22,720
+checking the length of the field one is
+
+210
+00:08:19,360 --> 00:08:25,520
+the element current equals q dot
+
+211
+00:08:22,720 --> 00:08:27,840
+left poplar if we don't specify left
+
+212
+00:08:25,520 --> 00:08:29,599
+what does it mean what's the meaning
+
+213
+00:08:27,840 --> 00:08:31,759
+right that's right if we don't specify
+
+214
+00:08:29,599 --> 00:08:34,080
+the direction you'll take it from the
+
+215
+00:08:31,759 --> 00:08:35,919
+right okay so why is it right
+
+216
+00:08:34,080 --> 00:08:36,959
+the default is on the right it's like
+
+217
+00:08:35,919 --> 00:08:40,320
+the stack
+
+218
+00:08:36,959 --> 00:08:42,159
+right is right excellent rider is right
+
+219
+00:08:40,320 --> 00:08:44,320
+okay the bike for the kill look by
+
+220
+00:08:42,159 --> 00:08:46,480
+default taking from the right it's like
+
+221
+00:08:44,320 --> 00:08:48,959
+a stack if we don't specify the left
+
+222
+00:08:46,480 --> 00:08:52,000
+it's actually a stack of pop
+
+223
+00:08:48,959 --> 00:08:52,800
+top is taken out from the right kill a
+
+224
+00:08:52,000 --> 00:08:55,600
+pen
+
+225
+00:08:52,800 --> 00:08:58,480
+is pushing to the right top left append
+
+226
+00:08:55,600 --> 00:09:00,560
+that the advantage of using eq over the
+
+227
+00:08:58,480 --> 00:09:02,640
+simple list is that
+
+228
+00:09:00,560 --> 00:09:06,399
+when we talk about the operation on the
+
+229
+00:09:02,640 --> 00:09:09,040
+left hand side pq is faster if we
+
+230
+00:09:06,399 --> 00:09:11,839
+perform the operation on the left side
+
+231
+00:09:09,040 --> 00:09:15,120
+only as a list on this list here then
+
+232
+00:09:11,839 --> 00:09:18,320
+you'll be on in here we take it out from
+
+233
+00:09:15,120 --> 00:09:20,160
+a queue and then we need to answer plus
+
+234
+00:09:18,320 --> 00:09:22,800
+equals one right
+
+235
+00:09:20,160 --> 00:09:24,240
+and then we need to push its kit for
+
+236
+00:09:22,800 --> 00:09:27,279
+x
+
+237
+00:09:24,240 --> 00:09:29,680
+yes for x in g
+
+238
+00:09:27,279 --> 00:09:32,800
+i we are iterating the
+
+239
+00:09:29,680 --> 00:09:36,480
+vertex that connects to i right
+
+240
+00:09:32,800 --> 00:09:38,320
+and then q dot append
+
+241
+00:09:36,480 --> 00:09:40,959
+append x
+
+242
+00:09:38,320 --> 00:09:44,240
+so we're just appending the kids
+
+243
+00:09:40,959 --> 00:09:46,399
+of the vertex that connects to i
+
+244
+00:09:44,240 --> 00:09:48,640
+and then we turn and
+
+245
+00:09:46,399 --> 00:09:50,560
+this is the basically we're just doing
+
+246
+00:09:48,640 --> 00:09:53,120
+implementing these speed level search
+
+247
+00:09:50,560 --> 00:09:55,920
+using the question search gi means that
+
+248
+00:09:53,120 --> 00:09:57,760
+the vertex that connects to i so g g
+
+249
+00:09:55,920 --> 00:09:58,800
+stationary right look
+
+250
+00:09:57,760 --> 00:10:00,080
+one
+
+251
+00:09:58,800 --> 00:10:01,839
+two
+
+252
+00:10:00,080 --> 00:10:04,320
+three
+
+253
+00:10:01,839 --> 00:10:06,079
+four okay and then we have these five
+
+254
+00:10:04,320 --> 00:10:08,560
+here if we want to store this and
+
+255
+00:10:06,079 --> 00:10:11,519
+directly graph in the dictionary so we
+
+256
+00:10:08,560 --> 00:10:14,959
+use the user g this is the partitioner
+
+257
+00:10:11,519 --> 00:10:18,240
+so g what does g have g the keys will be
+
+258
+00:10:14,959 --> 00:10:20,720
+the vertex one one connected edges has
+
+259
+00:10:18,240 --> 00:10:22,480
+edges to two three four right so
+
+260
+00:10:20,720 --> 00:10:23,760
+two three four
+
+261
+00:10:22,480 --> 00:10:27,680
+two
+
+262
+00:10:23,760 --> 00:10:30,560
+have the edges to one and five right
+
+263
+00:10:27,680 --> 00:10:33,120
+three have the edges to one
+
+264
+00:10:30,560 --> 00:10:35,680
+four have the edges to one okay so look
+
+265
+00:10:33,120 --> 00:10:38,480
+the keys are the vertex and the values
+
+266
+00:10:35,680 --> 00:10:40,800
+are the list of vertex that has edges to
+
+267
+00:10:38,480 --> 00:10:42,800
+connect it to so gi
+
+268
+00:10:40,800 --> 00:10:44,399
+means that we're going to the vertex
+
+269
+00:10:42,800 --> 00:10:46,800
+right the vertices like he has
+
+270
+00:10:44,399 --> 00:10:49,040
+connections too and then we'll append
+
+271
+00:10:46,800 --> 00:10:50,800
+the vertex back to the queue
+
+272
+00:10:49,040 --> 00:10:53,920
+right let's play for search level by
+
+273
+00:10:50,800 --> 00:10:56,560
+level right in the binary tree
+
+274
+00:10:53,920 --> 00:10:58,800
+or tree it's very easy to see it's a
+
+275
+00:10:56,560 --> 00:11:00,480
+it's a level by another thing right yeah
+
+276
+00:10:58,800 --> 00:11:02,880
+because three
+
+277
+00:11:00,480 --> 00:11:04,720
+upside down yeah level by level
+
+278
+00:11:02,880 --> 00:11:06,959
+what's level by level in the identity
+
+279
+00:11:04,720 --> 00:11:08,160
+graph
+
+280
+00:11:06,959 --> 00:11:09,519
+one
+
+281
+00:11:08,160 --> 00:11:11,040
+two
+
+282
+00:11:09,519 --> 00:11:13,040
+three
+
+283
+00:11:11,040 --> 00:11:15,279
+four
+
+284
+00:11:13,040 --> 00:11:17,440
+five
+
+285
+00:11:15,279 --> 00:11:18,880
+six okay so what's the preferred search
+
+286
+00:11:17,440 --> 00:11:22,399
+order
+
+287
+00:11:18,880 --> 00:11:24,240
+zero two zero one two
+
+288
+00:11:22,399 --> 00:11:26,560
+four five
+
+289
+00:11:24,240 --> 00:11:28,399
+six three okay look because the distance
+
+290
+00:11:26,560 --> 00:11:30,720
+the one and two are closer
+
+291
+00:11:28,399 --> 00:11:33,680
+zero one two
+
+292
+00:11:30,720 --> 00:11:34,640
+and then these two notes level one
+
+293
+00:11:33,680 --> 00:11:37,120
+all right
+
+294
+00:11:34,640 --> 00:11:40,240
+and all other notes
+
+295
+00:11:37,120 --> 00:11:43,120
+number two okay so it's zero one two
+
+296
+00:11:40,240 --> 00:11:44,959
+three four five six okay
+
+297
+00:11:43,120 --> 00:11:47,680
+there might be a problem here
+
+298
+00:11:44,959 --> 00:11:49,200
+because we have to check if the vertex
+
+299
+00:11:47,680 --> 00:11:50,320
+has been visited so we have to check
+
+300
+00:11:49,200 --> 00:11:54,000
+here if
+
+301
+00:11:50,320 --> 00:11:56,880
+x not in c right and then we do this q
+
+302
+00:11:54,000 --> 00:11:56,880
+dot pen and then
+
+303
+00:12:00,160 --> 00:12:05,040
+because in binary tree
+
+304
+00:12:02,880 --> 00:12:07,279
+we don't usually check if the vertex has
+
+305
+00:12:05,040 --> 00:12:10,399
+been visited we don't go back so there's
+
+306
+00:12:07,279 --> 00:12:14,000
+no chance to visit this same vertex
+
+307
+00:12:10,399 --> 00:12:16,720
+twice but in a graph it seems the edges
+
+308
+00:12:14,000 --> 00:12:17,839
+are undirected so the vertex can be
+
+309
+00:12:16,720 --> 00:12:20,320
+visited
+
+310
+00:12:17,839 --> 00:12:22,720
+more than one so so we have to mark it
+
+311
+00:12:20,320 --> 00:12:24,639
+as digitally so it doesn't go back make
+
+312
+00:12:22,720 --> 00:12:25,839
+sense what's the problem now what have
+
+313
+00:12:24,639 --> 00:12:26,880
+you learned today
+
+314
+00:12:25,839 --> 00:12:27,839
+there's
+
+315
+00:12:26,880 --> 00:12:30,079
+a
+
+316
+00:12:27,839 --> 00:12:31,279
+graph there's a graph yeah season
+
+317
+00:12:30,079 --> 00:12:33,519
+breakfast
+
+318
+00:12:31,279 --> 00:12:35,760
+we were given a graph and directed graph
+
+319
+00:12:33,519 --> 00:12:37,600
+and what what do we want to do with it
+
+320
+00:12:35,760 --> 00:12:39,519
+we want to count the
+
+321
+00:12:37,600 --> 00:12:40,480
+pad or notes
+
+322
+00:12:39,519 --> 00:12:42,240
+in it
+
+323
+00:12:40,480 --> 00:12:44,480
+why do we use the breakfast search
+
+324
+00:12:42,240 --> 00:12:47,200
+what's the professor's going to do
+
+325
+00:12:44,480 --> 00:12:48,160
+zero one two
+
+326
+00:12:47,200 --> 00:12:50,959
+three
+
+327
+00:12:48,160 --> 00:12:52,639
+four okay so how many i need to prepare
+
+328
+00:12:50,959 --> 00:12:54,480
+zero here
+
+329
+00:12:52,639 --> 00:12:56,160
+so the point for certain differences you
+
+330
+00:12:54,480 --> 00:12:58,079
+count the vertex in this component there
+
+331
+00:12:56,160 --> 00:12:59,760
+too right so how many knows all together
+
+332
+00:12:58,079 --> 00:13:02,240
+there are five so the contribution of
+
+333
+00:12:59,760 --> 00:13:03,760
+these three components is two times
+
+334
+00:13:02,240 --> 00:13:06,160
+five minus two
+
+335
+00:13:03,760 --> 00:13:08,880
+here the contribution of these is what
+
+336
+00:13:06,160 --> 00:13:11,680
+the same 2 times 5 minus 2 the
+
+337
+00:13:08,880 --> 00:13:12,880
+contribution of this one is 1 times 5
+
+338
+00:13:11,680 --> 00:13:15,519
+minus 1
+
+339
+00:13:12,880 --> 00:13:17,200
+right we added these together
+
+340
+00:13:15,519 --> 00:13:21,279
+we added all these we have to divide by
+
+341
+00:13:17,200 --> 00:13:23,440
+2 remember that's it for today bye
+
+342
+00:13:21,279 --> 00:13:25,760
+we are given a undirected graph we want
+
+343
+00:13:23,440 --> 00:13:29,839
+to count how many unreachable pairs from
+
+344
+00:13:25,760 --> 00:13:31,040
+each other right so look the note yes 0
+
+345
+00:13:29,839 --> 00:13:32,480
+1
+
+346
+00:13:31,040 --> 00:13:33,279
+2
+
+347
+00:13:32,480 --> 00:13:34,959
+3
+
+348
+00:13:33,279 --> 00:13:36,720
+four this is not very clear what's the
+
+349
+00:13:34,959 --> 00:13:39,760
+difference between undirected one and
+
+350
+00:13:36,720 --> 00:13:42,639
+directly graph one directly
+
+351
+00:13:39,760 --> 00:13:44,320
+in a direction that's right no direction
+
+352
+00:13:42,639 --> 00:13:46,560
+so it means that both way the edges
+
+353
+00:13:44,320 --> 00:13:49,040
+coming and go for the both way right the
+
+354
+00:13:46,560 --> 00:13:49,040
+direction
+
+355
+00:13:49,199 --> 00:13:53,760
+yeah so it means that zero can go to one
+
+356
+00:13:51,279 --> 00:13:56,000
+but not one go to zero okay and we also
+
+357
+00:13:53,760 --> 00:13:59,040
+talk about the formula the number of
+
+358
+00:13:56,000 --> 00:14:02,959
+edges equals the sum of the
+
+359
+00:13:59,040 --> 00:14:04,639
+degree for all the vertex i belongs to
+
+360
+00:14:02,959 --> 00:14:06,000
+all the vertex okay so this is the
+
+361
+00:14:04,639 --> 00:14:07,839
+formula
+
+362
+00:14:06,000 --> 00:14:10,720
+v is the sum of the degrees so the
+
+363
+00:14:07,839 --> 00:14:12,880
+directive graph the degree consists of
+
+364
+00:14:10,720 --> 00:14:14,399
+two parts the incoming and outgoing
+
+365
+00:14:12,880 --> 00:14:16,880
+right incoming
+
+366
+00:14:14,399 --> 00:14:20,240
+is the edges number of edges going into
+
+367
+00:14:16,880 --> 00:14:22,639
+a vertex the outgoing is degree is the
+
+368
+00:14:20,240 --> 00:14:25,120
+number of edges going out for example
+
+369
+00:14:22,639 --> 00:14:26,959
+this one
+
+370
+00:14:25,120 --> 00:14:29,199
+this is the direct requirement the
+
+371
+00:14:26,959 --> 00:14:31,760
+integral for the vertex one is how many
+
+372
+00:14:29,199 --> 00:14:33,760
+edges going into one one one how many
+
+373
+00:14:31,760 --> 00:14:35,839
+edges coming out from one
+
+374
+00:14:33,760 --> 00:14:37,920
+two two yeah okay so the in degree would
+
+375
+00:14:35,839 --> 00:14:40,160
+be one our degree would be two and the
+
+376
+00:14:37,920 --> 00:14:42,880
+degree for one is three one plus two
+
+377
+00:14:40,160 --> 00:14:44,880
+okay for the direction for an directive
+
+378
+00:14:42,880 --> 00:14:47,600
+it doesn't have directions so the degree
+
+379
+00:14:44,880 --> 00:14:50,160
+for any vertex is just the number of the
+
+380
+00:14:47,600 --> 00:14:52,800
+edges so for the the degree
+
+381
+00:14:50,160 --> 00:14:54,880
+for the vertex 0 is 3 by 3 edges so the
+
+382
+00:14:52,800 --> 00:14:56,880
+sum of all the degrees from the vertex
+
+383
+00:14:54,880 --> 00:14:59,279
+equals the number of edges that's taken
+
+384
+00:14:56,880 --> 00:15:00,240
+these examples zero
+
+385
+00:14:59,279 --> 00:15:01,120
+one
+
+386
+00:15:00,240 --> 00:15:02,639
+two
+
+387
+00:15:01,120 --> 00:15:04,800
+three right
+
+388
+00:15:02,639 --> 00:15:06,480
+zero one two right there are three edges
+
+389
+00:15:04,800 --> 00:15:09,040
+sum of all the degrees
+
+390
+00:15:06,480 --> 00:15:10,800
+two plus two plus two
+
+391
+00:15:09,040 --> 00:15:13,120
+yeah the six divided by two is three
+
+392
+00:15:10,800 --> 00:15:15,199
+three edges why we need to divide it by
+
+393
+00:15:13,120 --> 00:15:17,519
+two we talked about left right because
+
+394
+00:15:15,199 --> 00:15:20,079
+for one edge there are two end points
+
+395
+00:15:17,519 --> 00:15:22,320
+and two m means that
+
+396
+00:15:20,079 --> 00:15:25,360
+the number the degree has been added
+
+397
+00:15:22,320 --> 00:15:27,920
+twice right so look these edges we added
+
+398
+00:15:25,360 --> 00:15:30,240
+one equation for this vertex 0 we added
+
+399
+00:15:27,920 --> 00:15:32,560
+another degree for the vertex one okay
+
+400
+00:15:30,240 --> 00:15:35,199
+so we divided by two this part adjacent
+
+401
+00:15:32,560 --> 00:15:38,000
+is we usually we use the adjacent disk
+
+402
+00:15:35,199 --> 00:15:40,320
+to represent the graph data structure
+
+403
+00:15:38,000 --> 00:15:43,199
+the g default dictionary
+
+404
+00:15:40,320 --> 00:15:46,320
+the keys are the vertex the values of
+
+405
+00:15:43,199 --> 00:15:47,519
+the list of the vertex that it has edges
+
+406
+00:15:46,320 --> 00:15:49,839
+to right
+
+407
+00:15:47,519 --> 00:15:53,440
+okay so let's change the list look 0 1 2
+
+408
+00:15:49,839 --> 00:15:55,440
+3 look 0 the vertex 0 connects to two
+
+409
+00:15:53,440 --> 00:15:57,120
+three there's an another concept called
+
+410
+00:15:55,440 --> 00:15:59,440
+weighted or unknowated graph what's
+
+411
+00:15:57,120 --> 00:16:02,959
+weighted weighted means that
+
+412
+00:15:59,440 --> 00:16:05,360
+you have this label cost for the edges
+
+413
+00:16:02,959 --> 00:16:06,959
+so we can label the edges on the cost
+
+414
+00:16:05,360 --> 00:16:09,839
+for example like one
+
+415
+00:16:06,959 --> 00:16:12,079
+two three means that from zero it costs
+
+416
+00:16:09,839 --> 00:16:14,639
+one to go to one from zero it costs two
+
+417
+00:16:12,079 --> 00:16:16,880
+to go to two for zero it costs three to
+
+418
+00:16:14,639 --> 00:16:19,120
+go to the left weighted yeah weighted if
+
+419
+00:16:16,880 --> 00:16:20,959
+we don't have this weight over the edges
+
+420
+00:16:19,120 --> 00:16:23,680
+then let's unweight it and we can think
+
+421
+00:16:20,959 --> 00:16:25,120
+of it as uniform that's uh each weight
+
+422
+00:16:23,680 --> 00:16:28,320
+the cost of uh
+
+423
+00:16:25,120 --> 00:16:30,800
+between the edges are uniform it's one
+
+424
+00:16:28,320 --> 00:16:33,199
+you can use the adjacent disk to store
+
+425
+00:16:30,800 --> 00:16:35,519
+the weights as well instead of simple
+
+426
+00:16:33,199 --> 00:16:37,920
+this of vertex we can use the tougher
+
+427
+00:16:35,519 --> 00:16:41,279
+yes for example zero to one
+
+428
+00:16:37,920 --> 00:16:43,680
+is one and one one okay zero to two
+
+429
+00:16:41,279 --> 00:16:45,680
+is two is two two okay zero two is three
+
+430
+00:16:43,680 --> 00:16:47,680
+three okay we're using the recursion to
+
+431
+00:16:45,680 --> 00:16:49,839
+implement the temperature
+
+432
+00:16:47,680 --> 00:16:51,839
+for each component we only calculate it
+
+433
+00:16:49,839 --> 00:16:54,320
+once right that's why we have at least
+
+434
+00:16:51,839 --> 00:16:55,199
+if seen we check if it has been visited
+
+435
+00:16:54,320 --> 00:16:57,279
+so
+
+436
+00:16:55,199 --> 00:16:59,199
+if we are looking at these right we
+
+437
+00:16:57,279 --> 00:17:00,959
+count their three
+
+438
+00:16:59,199 --> 00:17:03,600
+and then we mark the
+
+439
+00:17:00,959 --> 00:17:05,760
+vertex in the same component
+
+440
+00:17:03,600 --> 00:17:07,839
+visited so the next time we don't add it
+
+441
+00:17:05,760 --> 00:17:09,600
+again right we can
+
+442
+00:17:07,839 --> 00:17:11,679
+add a contribution for each vertex
+
+443
+00:17:09,600 --> 00:17:14,160
+separately we will be taking a little
+
+444
+00:17:11,679 --> 00:17:17,919
+bit slower right so look 0 how many
+
+445
+00:17:14,160 --> 00:17:20,720
+pairs 2 so it means that 2 plus 2 plus 2
+
+446
+00:17:17,919 --> 00:17:22,160
+right so for each vertex if we do the
+
+447
+00:17:20,720 --> 00:17:24,079
+different search
+
+448
+00:17:22,160 --> 00:17:26,959
+it probably needs to take another n
+
+449
+00:17:24,079 --> 00:17:29,760
+times if there are n number of vertex so
+
+450
+00:17:26,959 --> 00:17:32,320
+the time conducts if we count it if we
+
+451
+00:17:29,760 --> 00:17:35,120
+added a contribution for each vertex in
+
+452
+00:17:32,320 --> 00:17:36,960
+the same component uh separate that's
+
+453
+00:17:35,120 --> 00:17:40,160
+going to create o and
+
+454
+00:17:36,960 --> 00:17:42,559
+om squared right ov square v is the
+
+455
+00:17:40,160 --> 00:17:44,400
+number of vertices right but instead for
+
+456
+00:17:42,559 --> 00:17:46,720
+each component we just do it overall
+
+457
+00:17:44,400 --> 00:17:49,440
+once so there are three so we use three
+
+458
+00:17:46,720 --> 00:17:50,550
+times two so any question about this
+
+459
+00:17:49,440 --> 00:17:52,160
+path
+
+460
+00:17:50,550 --> 00:17:54,240
+[Music]
+
+461
+00:17:52,160 --> 00:17:55,520
+that's good okay so this this bit this
+
+462
+00:17:54,240 --> 00:17:57,360
+is the adjacent list yeah we're
+
+463
+00:17:55,520 --> 00:17:58,880
+converting the edges to addition this
+
+464
+00:17:57,360 --> 00:18:01,280
+okay so now today we're going to talk
+
+465
+00:17:58,880 --> 00:18:02,559
+about a processor what's your breakfast
+
+466
+00:18:01,280 --> 00:18:05,039
+do you still remember what square
+
+467
+00:18:02,559 --> 00:18:08,080
+footage it's when you eat
+
+468
+00:18:05,039 --> 00:18:11,360
+no no not a breakfast breakfast
+
+469
+00:18:08,080 --> 00:18:13,440
+what's breakfast and when you use kiwi
+
+470
+00:18:11,360 --> 00:18:15,919
+yeah yeah yeah so it's never my level
+
+471
+00:18:13,440 --> 00:18:17,919
+right so we talk about breakfast bss a
+
+472
+00:18:15,919 --> 00:18:20,160
+lot when we are solving the problems of
+
+473
+00:18:17,919 --> 00:18:22,320
+the trees please our graph right here's
+
+474
+00:18:20,160 --> 00:18:23,760
+the graph what's the breakfast search
+
+475
+00:18:22,320 --> 00:18:25,919
+order
+
+476
+00:18:23,760 --> 00:18:28,080
+zero one two three four five six yeah
+
+477
+00:18:25,919 --> 00:18:29,679
+level by level we use a cube okay and if
+
+478
+00:18:28,080 --> 00:18:31,280
+we use another search which is in the
+
+479
+00:18:29,679 --> 00:18:32,240
+left tree first there therefore search
+
+480
+00:18:31,280 --> 00:18:34,640
+left
+
+481
+00:18:32,240 --> 00:18:37,200
+and then reaching the root
+
+482
+00:18:34,640 --> 00:18:43,400
+visiting the root one full and then
+
+483
+00:18:37,200 --> 00:18:43,400
+definitely right okay one four five zero
+
+484
+00:18:45,360 --> 00:18:51,360
+zero one four five two
+
+485
+00:18:48,799 --> 00:18:54,080
+six three we're done okay now we usually
+
+486
+00:18:51,360 --> 00:18:55,840
+we use the recursion to improvement uh
+
+487
+00:18:54,080 --> 00:18:57,760
+the definition right
+
+488
+00:18:55,840 --> 00:19:00,320
+we also talked about using the stack
+
+489
+00:18:57,760 --> 00:19:02,720
+right using the step we use the queue
+
+490
+00:19:00,320 --> 00:19:04,559
+double antique in python to implement
+
+491
+00:19:02,720 --> 00:19:06,799
+the preferences so how would you how
+
+492
+00:19:04,559 --> 00:19:09,120
+would you do it first of all we put the
+
+493
+00:19:06,799 --> 00:19:11,440
+zero the load in there right there are
+
+494
+00:19:09,120 --> 00:19:14,080
+two ways of implementing breakfast
+
+495
+00:19:11,440 --> 00:19:15,200
+search one way is look yellow i take
+
+496
+00:19:14,080 --> 00:19:18,080
+everything
+
+497
+00:19:15,200 --> 00:19:19,039
+out from the queue dq yeah and i push it
+
+498
+00:19:18,080 --> 00:19:21,760
+to kit
+
+499
+00:19:19,039 --> 00:19:24,000
+is one two three one two three
+
+500
+00:19:21,760 --> 00:19:26,000
+and then i take everything out and push
+
+501
+00:19:24,000 --> 00:19:28,559
+their kids one by one take it out and
+
+502
+00:19:26,000 --> 00:19:30,720
+then the kids for the one is four five
+
+503
+00:19:28,559 --> 00:19:32,400
+the kids follow two is six the kids was
+
+504
+00:19:30,720 --> 00:19:34,559
+three is nothing so four by six okay
+
+505
+00:19:32,400 --> 00:19:36,320
+that's one way another way is we take
+
+506
+00:19:34,559 --> 00:19:39,280
+one note at a time
+
+507
+00:19:36,320 --> 00:19:41,280
+so zero we take it off we push this kit
+
+508
+00:19:39,280 --> 00:19:42,480
+it's one two three
+
+509
+00:19:41,280 --> 00:19:44,640
+then the next
+
+510
+00:19:42,480 --> 00:19:47,360
+note to take out is one right take a one
+
+511
+00:19:44,640 --> 00:19:48,480
+out its kit is four five push it back to
+
+512
+00:19:47,360 --> 00:19:51,679
+the cube
+
+513
+00:19:48,480 --> 00:19:53,440
+two we take it out push it skip six
+
+514
+00:19:51,679 --> 00:19:55,600
+right three we take it out it doesn't
+
+515
+00:19:53,440 --> 00:19:57,440
+have any kids four we take it out
+
+516
+00:19:55,600 --> 00:19:59,840
+doesn't have any kids five and six
+
+517
+00:19:57,440 --> 00:20:02,159
+etcetera we just need to convert these
+
+518
+00:19:59,840 --> 00:20:04,880
+to breakfast search the rest will be
+
+519
+00:20:02,159 --> 00:20:08,799
+defined by for such the i
+
+520
+00:20:04,880 --> 00:20:10,799
+first of all the same yeah if i in sin
+
+521
+00:20:08,799 --> 00:20:13,520
+then we we just don't calculate okay
+
+522
+00:20:10,799 --> 00:20:14,720
+return zero so if i in c return zero it
+
+523
+00:20:13,520 --> 00:20:16,480
+means that look
+
+524
+00:20:14,720 --> 00:20:20,240
+so let all the vertex in the same
+
+525
+00:20:16,480 --> 00:20:22,320
+component we only calculate it once
+
+526
+00:20:20,240 --> 00:20:24,400
+because look we have added three three
+
+527
+00:20:22,320 --> 00:20:25,919
+times two when we were doing this
+
+528
+00:20:24,400 --> 00:20:29,280
+different search on this
+
+529
+00:20:25,919 --> 00:20:31,919
+vertex 0 we added the contribution of
+
+530
+00:20:29,280 --> 00:20:32,880
+the number of pairs and which is 3 times
+
+531
+00:20:31,919 --> 00:20:34,799
+2
+
+532
+00:20:32,880 --> 00:20:37,200
+and then when we go through this vertex
+
+533
+00:20:34,799 --> 00:20:38,880
+again do we need to add a contribution
+
+534
+00:20:37,200 --> 00:20:41,039
+of three times two
+
+535
+00:20:38,880 --> 00:20:43,760
+no because we have been adding it so we
+
+536
+00:20:41,039 --> 00:20:45,919
+will skip the notes skip the vertex in
+
+537
+00:20:43,760 --> 00:20:47,200
+the same component okay so that's the
+
+538
+00:20:45,919 --> 00:20:50,720
+same thing here
+
+539
+00:20:47,200 --> 00:20:54,159
+so uh seeing this is the same simple as
+
+540
+00:20:50,720 --> 00:20:56,640
+i okay and then q how do we use the q in
+
+541
+00:20:54,159 --> 00:20:56,640
+python
+
+542
+00:20:57,679 --> 00:21:02,799
+eq what's d mean
+
+543
+00:21:00,080 --> 00:21:02,799
+the blended
+
+544
+00:21:12,159 --> 00:21:16,400
+at this point we at least have one
+
+545
+00:21:14,159 --> 00:21:17,679
+vertex in the component okay so answer
+
+546
+00:21:16,400 --> 00:21:21,679
+equals one
+
+547
+00:21:17,679 --> 00:21:24,640
+y or q why we still have like vertex y
+
+548
+00:21:21,679 --> 00:21:27,120
+q means that why we have elements in the
+
+549
+00:21:24,640 --> 00:21:29,200
+queue so why there is at least one
+
+550
+00:21:27,120 --> 00:21:31,760
+vertex in the queue this is the same
+
+551
+00:21:29,200 --> 00:21:32,640
+thing as y length q bigger than zero
+
+552
+00:21:31,760 --> 00:21:35,360
+right
+
+553
+00:21:32,640 --> 00:21:37,760
+and all white landscape okay current
+
+554
+00:21:35,360 --> 00:21:39,760
+equals q dot top left and you mentioned
+
+555
+00:21:37,760 --> 00:21:42,080
+about this that means that look at the
+
+556
+00:21:39,760 --> 00:21:44,480
+cube top left we're taking the element
+
+557
+00:21:42,080 --> 00:21:47,520
+from the left hand side okay if we don't
+
+558
+00:21:44,480 --> 00:21:49,440
+specify left cue the top what does it do
+
+559
+00:21:47,520 --> 00:21:51,760
+right side the right side
+
+560
+00:21:49,440 --> 00:21:54,080
+a pen from the right hand side append
+
+561
+00:21:51,760 --> 00:21:56,000
+left from left side so basically if we
+
+562
+00:21:54,080 --> 00:21:58,240
+specify the left it's from the left if
+
+563
+00:21:56,000 --> 00:22:00,080
+we don't specify it's on the right okay
+
+564
+00:21:58,240 --> 00:22:01,840
+two sides yeah double-ended means that
+
+565
+00:22:00,080 --> 00:22:04,400
+look like the cube is
+
+566
+00:22:01,840 --> 00:22:07,440
+is two sides it's like a pipe and you
+
+567
+00:22:04,400 --> 00:22:09,840
+can take from the left a pen from the
+
+568
+00:22:07,440 --> 00:22:12,720
+left take from the right a pen from the
+
+569
+00:22:09,840 --> 00:22:15,919
+right okay so both sides so the four
+
+570
+00:22:12,720 --> 00:22:17,919
+operations one constant time
+
+571
+00:22:15,919 --> 00:22:20,960
+current kill the popular actually let's
+
+572
+00:22:17,919 --> 00:22:23,840
+make b zero an answer increment here and
+
+573
+00:22:20,960 --> 00:22:25,440
+equal plus equal one for
+
+574
+00:22:23,840 --> 00:22:28,080
+x in
+
+575
+00:22:25,440 --> 00:22:29,440
+g the graph g
+
+576
+00:22:28,080 --> 00:22:32,080
+current
+
+577
+00:22:29,440 --> 00:22:34,960
+so that means that we want to iterate
+
+578
+00:22:32,080 --> 00:22:36,960
+over the vertex it connects to the
+
+579
+00:22:34,960 --> 00:22:41,200
+current right and then we just do this
+
+580
+00:22:36,960 --> 00:22:42,799
+if x not in scene
+
+581
+00:22:41,200 --> 00:22:45,520
+if it's we haven't
+
+582
+00:22:42,799 --> 00:22:49,360
+seen this vertex before then we push it
+
+583
+00:22:45,520 --> 00:22:52,880
+back to the q q dot append x and then
+
+584
+00:22:49,360 --> 00:22:54,960
+we mark it as syn so c dot f x and at
+
+585
+00:22:52,880 --> 00:22:56,960
+the end will get an answer
+
+586
+00:22:54,960 --> 00:22:58,960
+so the rest will be the same c will be
+
+587
+00:22:56,960 --> 00:23:01,200
+the number of vertex in the
+
+588
+00:22:58,960 --> 00:23:03,280
+component and then we do this c times n
+
+589
+00:23:01,200 --> 00:23:04,640
+times c with sum
+
+590
+00:23:03,280 --> 00:23:08,320
+sum c
+
+591
+00:23:04,640 --> 00:23:11,120
+n minus c sorry sum t minus c so c is
+
+592
+00:23:08,320 --> 00:23:14,000
+the number of vertex in the component n
+
+593
+00:23:11,120 --> 00:23:16,559
+minus c is the number of vertex
+
+594
+00:23:14,000 --> 00:23:18,480
+not in the current kinetic component
+
+595
+00:23:16,559 --> 00:23:21,280
+then that's the number total number of
+
+596
+00:23:18,480 --> 00:23:23,600
+pairs unreachable pairs right because
+
+597
+00:23:21,280 --> 00:23:24,640
+all the vertex in the current component
+
+598
+00:23:23,600 --> 00:23:27,120
+can be
+
+599
+00:23:24,640 --> 00:23:28,880
+connected so look this is the all the
+
+600
+00:23:27,120 --> 00:23:31,280
+nodes here right on the left we know
+
+601
+00:23:28,880 --> 00:23:33,919
+here look there are two components or
+
+602
+00:23:31,280 --> 00:23:36,080
+maybe i add another one here too
+
+603
+00:23:33,919 --> 00:23:38,640
+so i'm visiting the nodes in this
+
+604
+00:23:36,080 --> 00:23:40,000
+component here right so look all these
+
+605
+00:23:38,640 --> 00:23:42,799
+vertex
+
+606
+00:23:40,000 --> 00:23:45,360
+there's three i can connect any node
+
+607
+00:23:42,799 --> 00:23:47,600
+here in these components to all other
+
+608
+00:23:45,360 --> 00:23:50,080
+nodes right so i can make a connection
+
+609
+00:23:47,600 --> 00:23:51,520
+right so each node be be able to
+
+610
+00:23:50,080 --> 00:23:53,919
+contribute
+
+611
+00:23:51,520 --> 00:23:56,480
+these number of edges and which book
+
+612
+00:23:53,919 --> 00:24:00,240
+edges so we just need to multiply that
+
+613
+00:23:56,480 --> 00:24:01,840
+c is the three and minus c is all other
+
+614
+00:24:00,240 --> 00:24:05,480
+nodes right
+
+615
+00:24:01,840 --> 00:24:05,480
+what have you learned today
+
+616
+00:24:06,960 --> 00:24:10,880
+what's the problem and what's uh the
+
+617
+00:24:08,960 --> 00:24:13,600
+thing you we learned today
+
+618
+00:24:10,880 --> 00:24:16,240
+that's a graph and direct graph yes
+
+619
+00:24:13,600 --> 00:24:18,320
+and you want to count the unreachable
+
+620
+00:24:16,240 --> 00:24:20,320
+pairs or vertex we want to count the
+
+621
+00:24:18,320 --> 00:24:22,720
+number of unreachable pairs using
+
+622
+00:24:20,320 --> 00:24:25,440
+breakfast yeah we're using purposes what
+
+623
+00:24:22,720 --> 00:24:27,520
+was the accurate we used last time
+
+624
+00:24:25,440 --> 00:24:29,520
+therefore search it's quite similar yeah
+
+625
+00:24:27,520 --> 00:24:30,960
+quite just different ways of traversing
+
+626
+00:24:29,520 --> 00:24:35,880
+the graph
+
+627
+00:24:30,960 --> 00:24:35,880
+traverse the notes in the class okay
+
