@@ -1,0 +1,2680 @@
+1
+00:00:00,080 --> 00:00:04,799
+hello mr mr ryan all right
+
+2
+00:00:02,800 --> 00:00:07,440
+okay so we have been talking about this
+
+3
+00:00:04,799 --> 00:00:09,120
+problem for like two days yeah so the
+
+4
+00:00:07,440 --> 00:00:11,360
+problem is that we are given an
+
+5
+00:00:09,120 --> 00:00:13,759
+undirected graph we want to count how
+
+6
+00:00:11,360 --> 00:00:15,679
+many unreachable pairs in this
+
+7
+00:00:13,759 --> 00:00:17,760
+undirected graph right and we talked
+
+8
+00:00:15,679 --> 00:00:20,560
+about the data search we talked about
+
+9
+00:00:17,760 --> 00:00:23,840
+progressive search the key point here is
+
+10
+00:00:20,560 --> 00:00:25,760
+to compute the number of the vertex in
+
+11
+00:00:23,840 --> 00:00:27,920
+this connected component
+
+12
+00:00:25,760 --> 00:00:29,840
+if we do the same percentage of purposes
+
+13
+00:00:27,920 --> 00:00:32,399
+of this connected component if you find
+
+14
+00:00:29,840 --> 00:00:36,160
+out the number of vertex is c they are
+
+15
+00:00:32,399 --> 00:00:38,239
+total and vertex so the number of vertex
+
+16
+00:00:36,160 --> 00:00:41,440
+that are not in these connected
+
+17
+00:00:38,239 --> 00:00:42,399
+components is a minus c okay
+
+18
+00:00:41,440 --> 00:00:45,520
+so
+
+19
+00:00:42,399 --> 00:00:47,200
+if we keep doing that we sum up c times
+
+20
+00:00:45,520 --> 00:00:49,840
+n minus z
+
+21
+00:00:47,200 --> 00:00:51,280
+right then we need to divide by two
+
+22
+00:00:49,840 --> 00:00:53,199
+that's the total number of the
+
+23
+00:00:51,280 --> 00:00:55,440
+unreachable pairs so definite search
+
+24
+00:00:53,199 --> 00:00:58,399
+breakfast search just differs the way
+
+25
+00:00:55,440 --> 00:01:01,359
+the order the traverse the vertex in the
+
+26
+00:00:58,399 --> 00:01:05,119
+graph in the undirected graph and for
+
+27
+00:01:01,359 --> 00:01:07,360
+all the vertex in the same component
+
+28
+00:01:05,119 --> 00:01:08,640
+connected component we only added the
+
+29
+00:01:07,360 --> 00:01:11,280
+contribution
+
+30
+00:01:08,640 --> 00:01:14,479
+c times n minus c once right then we use
+
+31
+00:01:11,280 --> 00:01:17,040
+the hash set to remember the vertex that
+
+32
+00:01:14,479 --> 00:01:19,600
+uh have been visited this is definite
+
+33
+00:01:17,040 --> 00:01:20,640
+search recursion preference search using
+
+34
+00:01:19,600 --> 00:01:22,799
+the queue
+
+35
+00:01:20,640 --> 00:01:26,240
+okay and the key point here is
+
+36
+00:01:22,799 --> 00:01:30,159
+c equals definition of reference c and
+
+37
+00:01:26,240 --> 00:01:32,400
+answer plus equal c times n minus c and
+
+38
+00:01:30,159 --> 00:01:34,960
+at the end we need to return answer
+
+39
+00:01:32,400 --> 00:01:37,360
+divided by 2 because look if we're
+
+40
+00:01:34,960 --> 00:01:40,000
+looking at this vertex here we form the
+
+41
+00:01:37,360 --> 00:01:42,079
+pairs and which prepares to to for
+
+42
+00:01:40,000 --> 00:01:44,479
+example like this vertex when we
+
+43
+00:01:42,079 --> 00:01:46,399
+traverse a component
+
+44
+00:01:44,479 --> 00:01:48,399
+right your phone and which per pair to
+
+45
+00:01:46,399 --> 00:01:50,320
+the front we already calculated so we
+
+46
+00:01:48,399 --> 00:01:53,200
+need to divide it by two okay
+
+47
+00:01:50,320 --> 00:01:57,280
+we learned about this formula the number
+
+48
+00:01:53,200 --> 00:01:59,439
+of edges equals to the sum of the degree
+
+49
+00:01:57,280 --> 00:02:00,399
+for all the vertex divided by 2 right
+
+50
+00:01:59,439 --> 00:02:03,280
+remember
+
+51
+00:02:00,399 --> 00:02:04,880
+the unknown edges equals the sum of all
+
+52
+00:02:03,280 --> 00:02:08,319
+the
+
+53
+00:02:04,880 --> 00:02:09,599
+vertex degrees divided by 2 and then i
+
+54
+00:02:08,319 --> 00:02:12,080
+belongs to
+
+55
+00:02:09,599 --> 00:02:14,959
+the vertex okay
+
+56
+00:02:12,080 --> 00:02:16,480
+look at this and directly graph
+
+57
+00:02:14,959 --> 00:02:20,080
+how many edges
+
+58
+00:02:16,480 --> 00:02:21,280
+one two three we sum the degree right
+
+59
+00:02:20,080 --> 00:02:24,000
+one
+
+60
+00:02:21,280 --> 00:02:26,239
+plus two plus two plus one divided by
+
+61
+00:02:24,000 --> 00:02:28,560
+two we need to divide it by two because
+
+62
+00:02:26,239 --> 00:02:30,959
+one edges contributes to the degree of
+
+63
+00:02:28,560 --> 00:02:31,840
+two because the edge has two endpoints
+
+64
+00:02:30,959 --> 00:02:34,640
+right
+
+65
+00:02:31,840 --> 00:02:37,120
+and for the undirected graph the degree
+
+66
+00:02:34,640 --> 00:02:39,840
+of the vertex is just the number of
+
+67
+00:02:37,120 --> 00:02:42,879
+edges connected to it and for a directed
+
+68
+00:02:39,840 --> 00:02:45,040
+graph the number of the vertex can be
+
+69
+00:02:42,879 --> 00:02:46,720
+divided by two two counts right one is
+
+70
+00:02:45,040 --> 00:02:49,840
+the incoming the other one is the
+
+71
+00:02:46,720 --> 00:02:52,000
+outgoing so the degree is the sum of
+
+72
+00:02:49,840 --> 00:02:53,680
+both incoming and outgoing
+
+73
+00:02:52,000 --> 00:02:56,239
+edges
+
+74
+00:02:53,680 --> 00:02:57,840
+okay so now
+
+75
+00:02:56,239 --> 00:03:00,560
+we want to talk about solving this
+
+76
+00:02:57,840 --> 00:03:02,480
+problem using a union file this joint
+
+77
+00:03:00,560 --> 00:03:04,159
+set right
+
+78
+00:03:02,480 --> 00:03:06,400
+remember we talked about the disjoint
+
+79
+00:03:04,159 --> 00:03:06,400
+side
+
+80
+00:03:08,080 --> 00:03:11,680
+so that vertex for example therefore
+
+81
+00:03:10,239 --> 00:03:14,560
+right
+
+82
+00:03:11,680 --> 00:03:17,120
+let's just do this zero one two three
+
+83
+00:03:14,560 --> 00:03:19,360
+okay so how many unreachable pairs here
+
+84
+00:03:17,120 --> 00:03:21,440
+four four two times two right so if
+
+85
+00:03:19,360 --> 00:03:24,560
+we're using differences we prefer search
+
+86
+00:03:21,440 --> 00:03:27,599
+we do this two times four minus two plus
+
+87
+00:03:24,560 --> 00:03:30,560
+two times four minus two divided by two
+
+88
+00:03:27,599 --> 00:03:32,720
+right we need to sum up the contribution
+
+89
+00:03:30,560 --> 00:03:35,599
+and then divide by two for example is
+
+90
+00:03:32,720 --> 00:03:38,000
+zero one two three zero one two three
+
+91
+00:03:35,599 --> 00:03:39,360
+okay so there are four vertex zero to
+
+92
+00:03:38,000 --> 00:03:41,519
+one
+
+93
+00:03:39,360 --> 00:03:45,040
+so zero and one it belongs to the same
+
+94
+00:03:41,519 --> 00:03:46,400
+group right so we add edge
+
+95
+00:03:45,040 --> 00:03:48,879
+three and two
+
+96
+00:03:46,400 --> 00:03:50,799
+okay two so there are two groups now
+
+97
+00:03:48,879 --> 00:03:53,040
+two groups then we just have to go
+
+98
+00:03:50,799 --> 00:03:54,560
+through you know we use the uniform go
+
+99
+00:03:53,040 --> 00:03:57,280
+through these and then we find out the
+
+100
+00:03:54,560 --> 00:03:59,680
+number of the size of it right yeah the
+
+101
+00:03:57,280 --> 00:04:01,680
+size of it so that's two that's two and
+
+102
+00:03:59,680 --> 00:04:04,959
+then we do the same let's say union five
+
+103
+00:04:01,680 --> 00:04:06,080
+equals disjoint set okay and now and
+
+104
+00:04:04,959 --> 00:04:07,840
+vertex
+
+105
+00:04:06,080 --> 00:04:09,040
+yeah we're going to implement this later
+
+106
+00:04:07,840 --> 00:04:13,200
+okay and then
+
+107
+00:04:09,040 --> 00:04:17,040
+for a b in edges
+
+108
+00:04:13,200 --> 00:04:19,759
+then we do this uf dot dot merge okay
+
+109
+00:04:17,040 --> 00:04:20,560
+merge a and b so it means that we want
+
+110
+00:04:19,759 --> 00:04:22,479
+to
+
+111
+00:04:20,560 --> 00:04:25,040
+make a and b
+
+112
+00:04:22,479 --> 00:04:26,479
+belongs to the same group okay
+
+113
+00:04:25,040 --> 00:04:29,280
+and then answer
+
+114
+00:04:26,479 --> 00:04:32,000
+equals zero then four
+
+115
+00:04:29,280 --> 00:04:34,720
+goes to the vertex
+
+116
+00:04:32,000 --> 00:04:34,720
+range and
+
+117
+00:04:35,120 --> 00:04:39,600
+c equals we want to get uh
+
+118
+00:04:37,759 --> 00:04:41,199
+get the size
+
+119
+00:04:39,600 --> 00:04:43,360
+get the size
+
+120
+00:04:41,199 --> 00:04:45,199
+you have to get size i
+
+121
+00:04:43,360 --> 00:04:48,400
+then answer
+
+122
+00:04:45,199 --> 00:04:50,320
+plus equals c times n minus c
+
+123
+00:04:48,400 --> 00:04:52,800
+returns
+
+124
+00:04:50,320 --> 00:04:55,040
+answer divided by two okay shift
+
+125
+00:04:52,800 --> 00:04:56,800
+distribution to the right one position
+
+126
+00:04:55,040 --> 00:04:58,080
+to the right that's the surface divided
+
+127
+00:04:56,800 --> 00:05:00,240
+by two
+
+128
+00:04:58,080 --> 00:05:02,000
+simple right so like the key thing here
+
+129
+00:05:00,240 --> 00:05:03,919
+is this joints that we implement this
+
+130
+00:05:02,000 --> 00:05:06,960
+before right this joint set and we talk
+
+131
+00:05:03,919 --> 00:05:09,759
+about remember we talk about merging
+
+132
+00:05:06,960 --> 00:05:10,560
+so which one is better is it better if
+
+133
+00:05:09,759 --> 00:05:12,960
+we
+
+134
+00:05:10,560 --> 00:05:15,440
+merge for these all things probably all
+
+135
+00:05:12,960 --> 00:05:18,320
+the vertex or bigger size into a smaller
+
+136
+00:05:15,440 --> 00:05:21,280
+one or put a smaller group into the big
+
+137
+00:05:18,320 --> 00:05:23,199
+one remember we talked about
+
+138
+00:05:21,280 --> 00:05:26,160
+why is better
+
+139
+00:05:23,199 --> 00:05:28,400
+because it's less decreasing
+
+140
+00:05:26,160 --> 00:05:30,960
+it's less confusing yes you're right yes
+
+141
+00:05:28,400 --> 00:05:32,880
+so look if we look we want to actually
+
+142
+00:05:30,960 --> 00:05:35,039
+we want to compress we want to minimize
+
+143
+00:05:32,880 --> 00:05:37,919
+the total number of the paths right the
+
+144
+00:05:35,039 --> 00:05:38,720
+distance that we have this operation of
+
+145
+00:05:37,919 --> 00:05:42,160
+to
+
+146
+00:05:38,720 --> 00:05:45,759
+compress the path if if we want to merge
+
+147
+00:05:42,160 --> 00:05:48,160
+two components we prefer putting the
+
+148
+00:05:45,759 --> 00:05:50,240
+group of smaller sides into the thicker
+
+149
+00:05:48,160 --> 00:05:52,639
+one we also have to add in the sketch
+
+150
+00:05:50,240 --> 00:05:54,720
+size the good size function we can keep
+
+151
+00:05:52,639 --> 00:05:57,600
+tracking of the size of the components
+
+152
+00:05:54,720 --> 00:06:00,720
+when we do this merge okay uh
+
+153
+00:05:57,600 --> 00:06:04,080
+whoopsie davies define
+
+154
+00:06:00,720 --> 00:06:07,039
+actually that's a class okay class cross
+
+155
+00:06:04,080 --> 00:06:07,039
+destroying set
+
+156
+00:06:12,280 --> 00:06:16,319
+initialization let's uh
+
+157
+00:06:14,880 --> 00:06:18,000
+construct
+
+158
+00:06:16,319 --> 00:06:22,000
+self and n
+
+159
+00:06:18,000 --> 00:06:23,759
+then we want to give a sector and is the
+
+160
+00:06:22,000 --> 00:06:26,080
+end that's the number of the vertex
+
+161
+00:06:23,759 --> 00:06:28,160
+number of the initial group
+
+162
+00:06:26,080 --> 00:06:30,800
+set of parent
+
+163
+00:06:28,160 --> 00:06:32,880
+parent at the beginning is
+
+164
+00:06:30,800 --> 00:06:36,319
+is least
+
+165
+00:06:32,880 --> 00:06:39,199
+range and okay so at the beginning each
+
+166
+00:06:36,319 --> 00:06:41,759
+vertex belongs to is a group of this
+
+167
+00:06:39,199 --> 00:06:44,400
+cell okay so that the group will be zero
+
+168
+00:06:41,759 --> 00:06:48,280
+one to r to n
+
+169
+00:06:44,400 --> 00:06:48,280
+and now we have a size
+
+170
+00:06:51,520 --> 00:06:55,039
+the size
+
+171
+00:06:52,720 --> 00:06:57,199
+will be all one right at the beginning
+
+172
+00:06:55,039 --> 00:06:59,280
+each vertex is
+
+173
+00:06:57,199 --> 00:07:01,039
+a group of one this is to find the
+
+174
+00:06:59,280 --> 00:07:03,599
+parent of a group
+
+175
+00:07:01,039 --> 00:07:05,680
+x we want to find the parent of x
+
+176
+00:07:03,599 --> 00:07:07,680
+we can do this iteratively all the
+
+177
+00:07:05,680 --> 00:07:11,759
+recursion right look if
+
+178
+00:07:07,680 --> 00:07:13,360
+x not equal self.parent
+
+179
+00:07:11,759 --> 00:07:16,319
+x
+
+180
+00:07:13,360 --> 00:07:18,240
+then self.parent
+
+181
+00:07:16,319 --> 00:07:20,080
+x equals
+
+182
+00:07:18,240 --> 00:07:24,319
+sign
+
+183
+00:07:20,080 --> 00:07:26,960
+say have to find x okay and then we can
+
+184
+00:07:24,319 --> 00:07:27,840
+set the pattern this is the easiest way
+
+185
+00:07:26,960 --> 00:07:30,720
+so
+
+186
+00:07:27,840 --> 00:07:34,400
+here this is to compress the path if
+
+187
+00:07:30,720 --> 00:07:36,720
+this number is not equal to the
+
+188
+00:07:34,400 --> 00:07:38,960
+it's not the top element right because
+
+189
+00:07:36,720 --> 00:07:41,120
+at the beginning the vertex 0 belongs to
+
+190
+00:07:38,960 --> 00:07:43,840
+the group 0. the vertex 1 belongs to the
+
+191
+00:07:41,120 --> 00:07:46,479
+blue one so if this is not a top element
+
+192
+00:07:43,840 --> 00:07:49,039
+then we keep finding keep tracking until
+
+193
+00:07:46,479 --> 00:07:51,599
+we find it so but we also need to
+
+194
+00:07:49,039 --> 00:07:53,759
+compress the path missing five is to
+
+195
+00:07:51,599 --> 00:07:56,000
+compress the path okay and we can do
+
+196
+00:07:53,759 --> 00:07:57,840
+this iteratively as well so
+
+197
+00:07:56,000 --> 00:08:00,240
+by doing iteratively first of all we
+
+198
+00:07:57,840 --> 00:08:03,280
+need to find the root right so why x not
+
+199
+00:08:00,240 --> 00:08:05,280
+equals to serve the parent x then x
+
+200
+00:08:03,280 --> 00:08:06,800
+equals save the parent x then we have
+
+201
+00:08:05,280 --> 00:08:08,960
+this parent uh
+
+202
+00:08:06,800 --> 00:08:11,520
+parent x which is the root
+
+203
+00:08:08,960 --> 00:08:14,400
+we can go through these uh paths again
+
+204
+00:08:11,520 --> 00:08:16,720
+and compressed by reassigning the path
+
+205
+00:08:14,400 --> 00:08:20,400
+so look we have a group of these we want
+
+206
+00:08:16,720 --> 00:08:22,160
+to find these the parent of this one so
+
+207
+00:08:20,400 --> 00:08:25,120
+the parent of this one is this so what
+
+208
+00:08:22,160 --> 00:08:26,479
+does it become so that's yellow one two
+
+209
+00:08:25,120 --> 00:08:27,680
+three
+
+210
+00:08:26,479 --> 00:08:29,599
+so
+
+211
+00:08:27,680 --> 00:08:32,159
+so look at the three the parent of three
+
+212
+00:08:29,599 --> 00:08:34,000
+is zero right so at the end
+
+213
+00:08:32,159 --> 00:08:36,719
+the zero
+
+214
+00:08:34,000 --> 00:08:39,760
+and then that's three right the two's
+
+215
+00:08:36,719 --> 00:08:42,479
+parent is zero as well so
+
+216
+00:08:39,760 --> 00:08:44,560
+one parent here okay
+
+217
+00:08:42,479 --> 00:08:47,040
+this is inefficient it's like a linked
+
+218
+00:08:44,560 --> 00:08:49,519
+list in the worst case it's old and
+
+219
+00:08:47,040 --> 00:08:52,080
+linear time to traversal right to find
+
+220
+00:08:49,519 --> 00:08:55,440
+it so we want this kind of structure to
+
+221
+00:08:52,080 --> 00:08:57,120
+make it like one constant time yes so
+
+222
+00:08:55,440 --> 00:08:58,240
+that's why we need to compress the path
+
+223
+00:08:57,120 --> 00:09:00,720
+this way
+
+224
+00:08:58,240 --> 00:09:02,640
+okay so this is the to fight find the
+
+225
+00:09:00,720 --> 00:09:05,200
+parents when we find the parent we do
+
+226
+00:09:02,640 --> 00:09:07,760
+this compression of the path much we
+
+227
+00:09:05,200 --> 00:09:10,080
+don't merge to
+
+228
+00:09:07,760 --> 00:09:12,959
+two groups x y okay
+
+229
+00:09:10,080 --> 00:09:17,440
+so look first of all we need to find the
+
+230
+00:09:12,959 --> 00:09:18,800
+group a b equals self to find
+
+231
+00:09:17,440 --> 00:09:20,240
+x
+
+232
+00:09:18,800 --> 00:09:21,440
+left of 5
+
+233
+00:09:20,240 --> 00:09:23,519
+y
+
+234
+00:09:21,440 --> 00:09:25,519
+right if a and b
+
+235
+00:09:23,519 --> 00:09:27,200
+if they belongs to already belongs to
+
+236
+00:09:25,519 --> 00:09:28,320
+the same group we just return first
+
+237
+00:09:27,200 --> 00:09:30,080
+right
+
+238
+00:09:28,320 --> 00:09:32,320
+there's no point to
+
+239
+00:09:30,080 --> 00:09:34,560
+merge them if they already belongs to
+
+240
+00:09:32,320 --> 00:09:36,880
+samples if they are not in the same
+
+241
+00:09:34,560 --> 00:09:40,320
+group then we have to check the sizes
+
+242
+00:09:36,880 --> 00:09:41,760
+itself the size save the size x is
+
+243
+00:09:40,320 --> 00:09:43,839
+smaller than
+
+244
+00:09:41,760 --> 00:09:46,000
+seventh of size
+
+245
+00:09:43,839 --> 00:09:46,000
+y
+
+246
+00:09:46,480 --> 00:09:51,200
+then we can
+
+247
+00:09:48,320 --> 00:09:52,640
+swap x y equals y x so basically seven
+
+248
+00:09:51,200 --> 00:09:54,800
+times x
+
+249
+00:09:52,640 --> 00:09:57,279
+x is now bigger right now we want to
+
+250
+00:09:54,800 --> 00:10:00,080
+merge the group of smaller ones into the
+
+251
+00:09:57,279 --> 00:10:02,240
+bigger one okay this is a and b yeah a
+
+252
+00:10:00,080 --> 00:10:04,240
+if we want to check the size
+
+253
+00:10:02,240 --> 00:10:06,320
+a b
+
+254
+00:10:04,240 --> 00:10:09,360
+equals b a
+
+255
+00:10:06,320 --> 00:10:10,000
+and then says the parent
+
+256
+00:10:09,360 --> 00:10:13,040
+b
+
+257
+00:10:10,000 --> 00:10:16,000
+equals a right now a is bigger so we
+
+258
+00:10:13,040 --> 00:10:17,760
+want to move the b to a right make the
+
+259
+00:10:16,000 --> 00:10:19,200
+group of b a
+
+260
+00:10:17,760 --> 00:10:23,360
+serve the
+
+261
+00:10:19,200 --> 00:10:26,160
+size a plus equals cell dot size b so
+
+262
+00:10:23,360 --> 00:10:28,640
+look this is a
+
+263
+00:10:26,160 --> 00:10:31,120
+this is b right i'm going to merge b
+
+264
+00:10:28,640 --> 00:10:33,519
+into a so what happens the size of a
+
+265
+00:10:31,120 --> 00:10:34,959
+needs to be incremented by size of b
+
+266
+00:10:33,519 --> 00:10:36,720
+that's what it means
+
+267
+00:10:34,959 --> 00:10:37,760
+here right
+
+268
+00:10:36,720 --> 00:10:39,600
+and
+
+269
+00:10:37,760 --> 00:10:42,160
+size of b because we want to have
+
+270
+00:10:39,600 --> 00:10:44,240
+another function defined size case size
+
+271
+00:10:42,160 --> 00:10:45,519
+right we want to use this function case
+
+272
+00:10:44,240 --> 00:10:46,880
+size
+
+273
+00:10:45,519 --> 00:10:50,480
+then we have to
+
+274
+00:10:46,880 --> 00:10:51,360
+reset size b equals zero
+
+275
+00:10:50,480 --> 00:10:53,279
+okay
+
+276
+00:10:51,360 --> 00:10:57,760
+along return true
+
+277
+00:10:53,279 --> 00:11:01,360
+okay size we tend to say the size
+
+278
+00:10:57,760 --> 00:11:03,680
+x okay so this is the disjoint set
+
+279
+00:11:01,360 --> 00:11:06,399
+and we perform we can use the disjoint
+
+280
+00:11:03,680 --> 00:11:08,959
+set to perform union fight right union
+
+281
+00:11:06,399 --> 00:11:12,399
+fight so at the beginning
+
+282
+00:11:08,959 --> 00:11:14,720
+they are n vertex so they are n groups
+
+283
+00:11:12,399 --> 00:11:17,600
+and if we go through the edges for
+
+284
+00:11:14,720 --> 00:11:21,440
+example if you laser edges a one to two
+
+285
+00:11:17,600 --> 00:11:23,360
+we merge vertex one to merge two right
+
+286
+00:11:21,440 --> 00:11:26,000
+and we have a guess size function to
+
+287
+00:11:23,360 --> 00:11:28,320
+return the number of vertex in the in
+
+288
+00:11:26,000 --> 00:11:30,399
+the group for example if it's c and
+
+289
+00:11:28,320 --> 00:11:33,839
+which of the pairs would be c times n
+
+290
+00:11:30,399 --> 00:11:36,240
+minus c that that part is the same
+
+291
+00:11:33,839 --> 00:11:39,120
+if we merge two groups then the total
+
+292
+00:11:36,240 --> 00:11:41,279
+number of groups minus equals one right
+
+293
+00:11:39,120 --> 00:11:43,680
+and another function is to check if it's
+
+294
+00:11:41,279 --> 00:11:45,360
+too connected
+
+295
+00:11:43,680 --> 00:11:47,920
+if we took connected we just have to
+
+296
+00:11:45,360 --> 00:11:48,720
+find look connected x y we just have to
+
+297
+00:11:47,920 --> 00:11:51,839
+check
+
+298
+00:11:48,720 --> 00:11:53,760
+if self define x equals self to find y
+
+299
+00:11:51,839 --> 00:11:55,360
+we just have to find the parent right if
+
+300
+00:11:53,760 --> 00:11:57,600
+the parents are
+
+301
+00:11:55,360 --> 00:11:58,399
+the same then that belongs to the sample
+
+302
+00:11:57,600 --> 00:11:59,760
+okay
+
+303
+00:11:58,399 --> 00:12:01,600
+what's the problem and what have you
+
+304
+00:11:59,760 --> 00:12:03,680
+learned today what's the approach we are
+
+305
+00:12:01,600 --> 00:12:07,120
+taking to solve this problem
+
+306
+00:12:03,680 --> 00:12:09,680
+the problem is we have these
+
+307
+00:12:07,120 --> 00:12:09,680
+graphs
+
+308
+00:12:15,680 --> 00:12:20,800
+okay let me do this okay it's yellow
+
+309
+00:12:18,800 --> 00:12:23,120
+okay so we don't need actually the
+
+310
+00:12:20,800 --> 00:12:23,120
+number
+
+311
+00:12:23,360 --> 00:12:28,639
+so how many are reached for a pair
+
+312
+00:12:26,959 --> 00:12:30,639
+terminator vertex
+
+313
+00:12:28,639 --> 00:12:33,440
+seven vertex n equals seven okay so how
+
+314
+00:12:30,639 --> 00:12:35,040
+do we get the number of the atmosphere
+
+315
+00:12:33,440 --> 00:12:37,600
+two
+
+316
+00:12:35,040 --> 00:12:39,440
+times seven minus two
+
+317
+00:12:37,600 --> 00:12:40,320
+plus
+
+318
+00:12:39,440 --> 00:12:41,440
+three
+
+319
+00:12:40,320 --> 00:12:43,200
+times
+
+320
+00:12:41,440 --> 00:12:44,800
+seven minus three
+
+321
+00:12:43,200 --> 00:12:47,839
+plus two
+
+322
+00:12:44,800 --> 00:12:50,000
+times seven minus two
+
+323
+00:12:47,839 --> 00:12:51,680
+can you tell me what's these why do we
+
+324
+00:12:50,000 --> 00:12:52,880
+need to subtract
+
+325
+00:12:51,680 --> 00:12:54,720
+two vertex
+
+326
+00:12:52,880 --> 00:12:57,279
+so how many unreachable pairs can we
+
+327
+00:12:54,720 --> 00:13:00,000
+form we can form unreachable pairs from
+
+328
+00:12:57,279 --> 00:13:02,000
+the vertex here to layer
+
+329
+00:13:00,000 --> 00:13:04,240
+all the vertex other than these two
+
+330
+00:13:02,000 --> 00:13:06,160
+vertex i'm right so that's two times
+
+331
+00:13:04,240 --> 00:13:08,240
+seven minus two seven minus two means
+
+332
+00:13:06,160 --> 00:13:10,560
+there are five vertex other than these
+
+333
+00:13:08,240 --> 00:13:14,720
+two vertex i'm right
+
+334
+00:13:10,560 --> 00:13:17,839
+the same but what's the thing we forget
+
+335
+00:13:14,720 --> 00:13:17,839
+that's it for today bye-bye
+
+336
+00:13:18,320 --> 00:13:22,560
+hey
+
+337
+00:13:19,279 --> 00:13:24,560
+hello mr eric mr ryan all right
+
+338
+00:13:22,560 --> 00:13:27,760
+okay so we're given this a directive
+
+339
+00:13:24,560 --> 00:13:29,600
+graph we want to find the number of
+
+340
+00:13:27,760 --> 00:13:31,760
+unreachable pairs right and which
+
+341
+00:13:29,600 --> 00:13:33,680
+repairs and we talk about the deficits
+
+342
+00:13:31,760 --> 00:13:35,360
+we talk about the breakfast search and
+
+343
+00:13:33,680 --> 00:13:38,000
+today we're going to talk about using
+
+344
+00:13:35,360 --> 00:13:40,079
+this the union find data structure union
+
+345
+00:13:38,000 --> 00:13:41,920
+fund to solve this problem by using
+
+346
+00:13:40,079 --> 00:13:44,800
+unified algorithm we also need to
+
+347
+00:13:41,920 --> 00:13:46,639
+mention this the disjoint set okay
+
+348
+00:13:44,800 --> 00:13:49,040
+data structure we have talked about this
+
+349
+00:13:46,639 --> 00:13:51,199
+before so we are given an undirected
+
+350
+00:13:49,040 --> 00:13:53,040
+graph we want to find out the number of
+
+351
+00:13:51,199 --> 00:13:55,279
+unreachable pairs
+
+352
+00:13:53,040 --> 00:13:57,440
+one two three four five the unusual
+
+353
+00:13:55,279 --> 00:14:02,959
+pairs is one three
+
+354
+00:13:57,440 --> 00:14:05,760
+one four one five two three two four 2 5
+
+355
+00:14:02,959 --> 00:14:08,240
+right so 1 3 is the same as 3 1 so we
+
+356
+00:14:05,760 --> 00:14:09,839
+don't count these uh duplicate pairs
+
+357
+00:14:08,240 --> 00:14:11,760
+okay previously we're using the
+
+358
+00:14:09,839 --> 00:14:14,160
+definition processors to solve this
+
+359
+00:14:11,760 --> 00:14:15,600
+problem the idea is to count the number
+
+360
+00:14:14,160 --> 00:14:18,880
+of the
+
+361
+00:14:15,600 --> 00:14:19,680
+vertex in a connected component
+
+362
+00:14:18,880 --> 00:14:22,160
+so
+
+363
+00:14:19,680 --> 00:14:27,519
+so the answer for example given this
+
+364
+00:14:22,160 --> 00:14:30,959
+identity graph is 2 times 5 minus 2 plus
+
+365
+00:14:27,519 --> 00:14:34,399
+3 times 5 minus three divided by two
+
+366
+00:14:30,959 --> 00:14:36,639
+so there are five five vertex total so
+
+367
+00:14:34,399 --> 00:14:38,800
+two times five minus two
+
+368
+00:14:36,639 --> 00:14:41,440
+means that we have we have two vertex
+
+369
+00:14:38,800 --> 00:14:43,760
+here and then five minus two is the the
+
+370
+00:14:41,440 --> 00:14:46,800
+number of vertex other than these two
+
+371
+00:14:43,760 --> 00:14:49,120
+vertex right so it means that look for
+
+372
+00:14:46,800 --> 00:14:51,360
+each vertex in this connected group we
+
+373
+00:14:49,120 --> 00:14:53,199
+can form an unreachable pairs by
+
+374
+00:14:51,360 --> 00:14:54,320
+connecting this vertex to all other
+
+375
+00:14:53,199 --> 00:14:57,199
+vertex
+
+376
+00:14:54,320 --> 00:14:59,760
+and same goes with this 3
+
+377
+00:14:57,199 --> 00:15:01,760
+times five minus three here
+
+378
+00:14:59,760 --> 00:15:04,240
+so but we add it together we need to
+
+379
+00:15:01,760 --> 00:15:06,240
+divide by two because that one three and
+
+380
+00:15:04,240 --> 00:15:08,560
+three one it counted twice we need to
+
+381
+00:15:06,240 --> 00:15:10,399
+divide by two right there we're using
+
+382
+00:15:08,560 --> 00:15:12,480
+the definite search question search
+
+383
+00:15:10,399 --> 00:15:15,519
+basically we just want to
+
+384
+00:15:12,480 --> 00:15:17,920
+calculate this sum c times n minus c
+
+385
+00:15:15,519 --> 00:15:20,000
+divided by 2 c
+
+386
+00:15:17,920 --> 00:15:22,480
+the number of vertex in each connected
+
+387
+00:15:20,000 --> 00:15:24,639
+component and n is the number of all the
+
+388
+00:15:22,480 --> 00:15:26,880
+vertex in this undirected graph today
+
+389
+00:15:24,639 --> 00:15:28,720
+we're going to use this joint set
+
+390
+00:15:26,880 --> 00:15:30,320
+data structure we want to find out
+
+391
+00:15:28,720 --> 00:15:32,720
+number of vertex in this connected
+
+392
+00:15:30,320 --> 00:15:34,079
+component using this disjoint set and
+
+393
+00:15:32,720 --> 00:15:35,519
+union finder
+
+394
+00:15:34,079 --> 00:15:37,199
+so this joins that when we talk about
+
+395
+00:15:35,519 --> 00:15:39,839
+the insurance set is the data structure
+
+396
+00:15:37,199 --> 00:15:42,320
+when we talk about unifying instant
+
+397
+00:15:39,839 --> 00:15:44,480
+okay so but all these
+
+398
+00:15:42,320 --> 00:15:46,959
+different search preferences and this
+
+399
+00:15:44,480 --> 00:15:48,480
+union fund basically wants to solve this
+
+400
+00:15:46,959 --> 00:15:51,440
+problem by
+
+401
+00:15:48,480 --> 00:15:54,000
+computing the c and minus c the sum of
+
+402
+00:15:51,440 --> 00:15:56,480
+it right the main task is to find out
+
+403
+00:15:54,000 --> 00:15:58,079
+the number of the vertex in the
+
+404
+00:15:56,480 --> 00:16:01,040
+connected component
+
+405
+00:15:58,079 --> 00:16:02,560
+if the direct graph is one finger piece
+
+406
+00:16:01,040 --> 00:16:05,120
+of component then the number of
+
+407
+00:16:02,560 --> 00:16:08,160
+unreachable pairs is zero so everything
+
+408
+00:16:05,120 --> 00:16:10,639
+is connected so it does not have any
+
+409
+00:16:08,160 --> 00:16:13,199
+unreachable pairs to other vertex
+
+410
+00:16:10,639 --> 00:16:16,800
+destroyer means that long overlapping so
+
+411
+00:16:13,199 --> 00:16:19,920
+at the beginning we have n vertex each
+
+412
+00:16:16,800 --> 00:16:23,600
+one has its own group its own set right
+
+413
+00:16:19,920 --> 00:16:25,440
+so this 0 one two three four if there's
+
+414
+00:16:23,600 --> 00:16:28,800
+an edge between zero to one for example
+
+415
+00:16:25,440 --> 00:16:31,040
+zero to one we just merge these two sets
+
+416
+00:16:28,800 --> 00:16:33,839
+at the end we just need to get the
+
+417
+00:16:31,040 --> 00:16:35,920
+number of the vertex number of elements
+
+418
+00:16:33,839 --> 00:16:38,320
+in each set okay so this answer the
+
+419
+00:16:35,920 --> 00:16:40,720
+number of identical pairs then we can go
+
+420
+00:16:38,320 --> 00:16:42,399
+through these edges these joints that
+
+421
+00:16:40,720 --> 00:16:45,360
+don't merge
+
+422
+00:16:42,399 --> 00:16:48,160
+a b okay this disturbance set at the
+
+423
+00:16:45,360 --> 00:16:51,360
+beginning we create a disjoint set with
+
+424
+00:16:48,160 --> 00:16:53,759
+the end vertex then we need to sum this
+
+425
+00:16:51,360 --> 00:16:55,279
+okay so i in range
+
+426
+00:16:53,759 --> 00:16:59,120
+and
+
+427
+00:16:55,279 --> 00:17:01,120
+c equals d s dot get size we want to get
+
+428
+00:16:59,120 --> 00:17:03,279
+the number of elements in
+
+429
+00:17:01,120 --> 00:17:07,120
+vertex i
+
+430
+00:17:03,279 --> 00:17:08,640
+and then answer plus equal c times
+
+431
+00:17:07,120 --> 00:17:11,120
+n minus c
+
+432
+00:17:08,640 --> 00:17:13,120
+and at the end we need to return divided
+
+433
+00:17:11,120 --> 00:17:14,959
+by two
+
+434
+00:17:13,120 --> 00:17:17,760
+or and the
+
+435
+00:17:14,959 --> 00:17:19,679
+shift 61 percent to the right the key
+
+436
+00:17:17,760 --> 00:17:21,679
+thing here is that we need to implement
+
+437
+00:17:19,679 --> 00:17:24,160
+this we need to
+
+438
+00:17:21,679 --> 00:17:26,959
+get the number of vertex in
+
+439
+00:17:24,160 --> 00:17:29,039
+in the group of i the advantage of using
+
+440
+00:17:26,959 --> 00:17:31,840
+this destroying set is that it provides
+
+441
+00:17:29,039 --> 00:17:36,640
+the near constant time in the operation
+
+442
+00:17:31,840 --> 00:17:39,520
+of at the new set merge to set on find
+
+443
+00:17:36,640 --> 00:17:41,520
+if a element in a set
+
+444
+00:17:39,520 --> 00:17:44,400
+in order to achieve the near constant
+
+445
+00:17:41,520 --> 00:17:47,600
+time we need to compress the path so for
+
+446
+00:17:44,400 --> 00:17:49,840
+example like zero one two three four
+
+447
+00:17:47,600 --> 00:17:51,039
+five right if we don't compress the path
+
+448
+00:17:49,840 --> 00:17:54,559
+every time
+
+449
+00:17:51,039 --> 00:17:57,280
+we merge let's say merge zero to one
+
+450
+00:17:54,559 --> 00:17:59,280
+zero to one okay and then if we merge
+
+451
+00:17:57,280 --> 00:18:02,480
+one to two
+
+452
+00:17:59,280 --> 00:18:05,200
+okay if we merge 2 to 3 et cetera if we
+
+453
+00:18:02,480 --> 00:18:07,039
+don't complex the path
+
+454
+00:18:05,200 --> 00:18:09,280
+it's it's like the
+
+455
+00:18:07,039 --> 00:18:12,080
+linked list and in order to find the
+
+456
+00:18:09,280 --> 00:18:15,039
+root of 0 it needs to take 0 and 10 so
+
+457
+00:18:12,080 --> 00:18:17,280
+that's very inefficient so we have to
+
+458
+00:18:15,039 --> 00:18:19,360
+compress the path so when we find the
+
+459
+00:18:17,280 --> 00:18:22,640
+root we can reassign
+
+460
+00:18:19,360 --> 00:18:25,360
+the root we can compress the path so we
+
+461
+00:18:22,640 --> 00:18:27,840
+can store the number of sizes we can
+
+462
+00:18:25,360 --> 00:18:30,720
+store the sizes for the group always oh
+
+463
+00:18:27,840 --> 00:18:33,600
+we can store the rank okay so rank is
+
+464
+00:18:30,720 --> 00:18:35,200
+like the upper bound of the height the
+
+465
+00:18:33,600 --> 00:18:37,679
+size will be more straightforward so
+
+466
+00:18:35,200 --> 00:18:39,679
+let's use this size size for example
+
+467
+00:18:37,679 --> 00:18:40,840
+like if we have a
+
+468
+00:18:39,679 --> 00:18:44,240
+element
+
+469
+00:18:40,840 --> 00:18:46,000
+here right so we have these this is size
+
+470
+00:18:44,240 --> 00:18:47,919
+one two three four and then if we have
+
+471
+00:18:46,000 --> 00:18:50,799
+another two here so
+
+472
+00:18:47,919 --> 00:18:53,280
+it it's better to merge these the
+
+473
+00:18:50,799 --> 00:18:54,880
+smaller size into the bigger one rather
+
+474
+00:18:53,280 --> 00:18:57,280
+than from the bigger one into the
+
+475
+00:18:54,880 --> 00:19:00,080
+smaller one class
+
+476
+00:18:57,280 --> 00:19:01,600
+disjoin set
+
+477
+00:19:00,080 --> 00:19:03,280
+object
+
+478
+00:19:01,600 --> 00:19:06,960
+define
+
+479
+00:19:03,280 --> 00:19:08,160
+init init is the constructor
+
+480
+00:19:06,960 --> 00:19:10,160
+self
+
+481
+00:19:08,160 --> 00:19:13,840
+and
+
+482
+00:19:10,160 --> 00:19:16,000
+so self top parent at the beginning the
+
+483
+00:19:13,840 --> 00:19:18,480
+parents is the
+
+484
+00:19:16,000 --> 00:19:20,480
+from 0 to n minus 1 so we give you the
+
+485
+00:19:18,480 --> 00:19:23,200
+least range
+
+486
+00:19:20,480 --> 00:19:25,840
+range n is from 0 to n minus 1 so the
+
+487
+00:19:23,200 --> 00:19:28,080
+parents will be from zero to n minus one
+
+488
+00:19:25,840 --> 00:19:30,400
+and the size it will be at the beginning
+
+489
+00:19:28,080 --> 00:19:31,280
+will be all one at the beginning each
+
+490
+00:19:30,400 --> 00:19:34,640
+number
+
+491
+00:19:31,280 --> 00:19:38,960
+is assigned to its own group on set a
+
+492
+00:19:34,640 --> 00:19:40,559
+set dot total component so total total
+
+493
+00:19:38,960 --> 00:19:42,640
+total size
+
+494
+00:19:40,559 --> 00:19:44,880
+equals at the beginning and so this is
+
+495
+00:19:42,640 --> 00:19:46,960
+usually if we merge successfully merge
+
+496
+00:19:44,880 --> 00:19:48,320
+two components we can increment this
+
+497
+00:19:46,960 --> 00:19:52,559
+total
+
+498
+00:19:48,320 --> 00:19:54,799
+much we want to merge a and b all right
+
+499
+00:19:52,559 --> 00:19:57,679
+so at the beginning we need to find a
+
+500
+00:19:54,799 --> 00:19:59,280
+and b equals five self-define okay so
+
+501
+00:19:57,679 --> 00:20:03,200
+let's define
+
+502
+00:19:59,280 --> 00:20:06,320
+a self define b okay
+
+503
+00:20:03,200 --> 00:20:08,159
+then if a equals equal b if the parent
+
+504
+00:20:06,320 --> 00:20:10,240
+is the same if they already belong to
+
+505
+00:20:08,159 --> 00:20:12,880
+the same group and we just return first
+
+506
+00:20:10,240 --> 00:20:15,039
+there's no need to continue now we just
+
+507
+00:20:12,880 --> 00:20:17,280
+need to find the size if
+
+508
+00:20:15,039 --> 00:20:18,840
+the size okay say of the size
+
+509
+00:20:17,280 --> 00:20:23,520
+save the size
+
+510
+00:20:18,840 --> 00:20:26,080
+a is smaller than self the size b
+
+511
+00:20:23,520 --> 00:20:27,919
+now let's swap it okay a b equals b and
+
+512
+00:20:26,080 --> 00:20:30,559
+this is the way to solve these two
+
+513
+00:20:27,919 --> 00:20:33,039
+variables so at this point the size of a
+
+514
+00:20:30,559 --> 00:20:35,760
+is bigger than size of b equal or more
+
+515
+00:20:33,039 --> 00:20:38,400
+than size of b and then we can we attach
+
+516
+00:20:35,760 --> 00:20:40,960
+b to a so says
+
+517
+00:20:38,400 --> 00:20:41,760
+the parent
+
+518
+00:20:40,960 --> 00:20:46,720
+b
+
+519
+00:20:41,760 --> 00:20:51,120
+equals a then says the size of a
+
+520
+00:20:46,720 --> 00:20:55,679
+needs to plus equals cell the size
+
+521
+00:20:51,120 --> 00:20:58,000
+b right so because this is the size of a
+
+522
+00:20:55,679 --> 00:21:00,480
+this is the size of b and we want to
+
+523
+00:20:58,000 --> 00:21:02,960
+merge these b into a
+
+524
+00:21:00,480 --> 00:21:06,159
+right so the size of a
+
+525
+00:21:02,960 --> 00:21:08,480
+has been incremented by the size of b
+
+526
+00:21:06,159 --> 00:21:12,240
+but at the same time we need to set the
+
+527
+00:21:08,480 --> 00:21:12,240
+size of b equals to nothing
+
+528
+00:21:13,520 --> 00:21:18,000
+b equals zero right so we can use this
+
+529
+00:21:16,240 --> 00:21:19,200
+size function later this is very
+
+530
+00:21:18,000 --> 00:21:20,080
+important
+
+531
+00:21:19,200 --> 00:21:21,280
+and
+
+532
+00:21:20,080 --> 00:21:23,200
+return
+
+533
+00:21:21,280 --> 00:21:24,720
+true
+
+534
+00:21:23,200 --> 00:21:26,720
+okay and now we need to implement this
+
+535
+00:21:24,720 --> 00:21:29,520
+fine function this line function we use
+
+536
+00:21:26,720 --> 00:21:31,520
+the iterated or recursion
+
+537
+00:21:29,520 --> 00:21:34,080
+so that replication will be very easy to
+
+538
+00:21:31,520 --> 00:21:35,760
+implement define find
+
+539
+00:21:34,080 --> 00:21:37,919
+self a
+
+540
+00:21:35,760 --> 00:21:42,559
+okay so with the recursion we just have
+
+541
+00:21:37,919 --> 00:21:45,280
+to check if a is not equal to served
+
+542
+00:21:42,559 --> 00:21:46,880
+the parent of a
+
+543
+00:21:45,280 --> 00:21:48,000
+save the
+
+544
+00:21:46,880 --> 00:21:53,120
+parent
+
+545
+00:21:48,000 --> 00:21:53,120
+e a equals self defined
+
+546
+00:21:53,280 --> 00:21:57,840
+save the parent a
+
+547
+00:21:55,039 --> 00:22:00,400
+okay so this is recursion
+
+548
+00:21:57,840 --> 00:22:02,080
+if a is not the root right
+
+549
+00:22:00,400 --> 00:22:04,400
+if a
+
+550
+00:22:02,080 --> 00:22:06,640
+is not in the root we might go go up to
+
+551
+00:22:04,400 --> 00:22:08,880
+the path right if we haven't reached the
+
+552
+00:22:06,640 --> 00:22:11,200
+root yes this is to compress the path we
+
+553
+00:22:08,880 --> 00:22:13,440
+need to compress the path and
+
+554
+00:22:11,200 --> 00:22:15,200
+this is recursion to find this loop at
+
+555
+00:22:13,440 --> 00:22:18,000
+the end which is written
+
+556
+00:22:15,200 --> 00:22:20,480
+serve the parent way
+
+557
+00:22:18,000 --> 00:22:21,919
+if a path is like that we want to find
+
+558
+00:22:20,480 --> 00:22:23,520
+the root of these
+
+559
+00:22:21,919 --> 00:22:27,200
+so at the end
+
+560
+00:22:23,520 --> 00:22:29,760
+these will be pointing to here and these
+
+561
+00:22:27,200 --> 00:22:32,720
+will be pointing to here you'll become a
+
+562
+00:22:29,760 --> 00:22:34,960
+balanced structure so the total cost of
+
+563
+00:22:32,720 --> 00:22:37,280
+tracing the node will be minimized if
+
+564
+00:22:34,960 --> 00:22:39,760
+it's like a linked list then finding the
+
+565
+00:22:37,280 --> 00:22:42,240
+root of this needs to take all in time
+
+566
+00:22:39,760 --> 00:22:44,000
+by rearranging the parents and we can
+
+567
+00:22:42,240 --> 00:22:46,240
+minimize the cost
+
+568
+00:22:44,000 --> 00:22:48,559
+so this is recursion we can also use the
+
+569
+00:22:46,240 --> 00:22:50,240
+lung recursive method at the beginning
+
+570
+00:22:48,559 --> 00:22:53,360
+we need to find the
+
+571
+00:22:50,240 --> 00:22:55,120
+root okay lu equals a
+
+572
+00:22:53,360 --> 00:22:56,080
+wire
+
+573
+00:22:55,120 --> 00:22:59,360
+root
+
+574
+00:22:56,080 --> 00:23:01,600
+not equals theft
+
+575
+00:22:59,360 --> 00:23:03,679
+stock parent root
+
+576
+00:23:01,600 --> 00:23:05,200
+this is iterative
+
+577
+00:23:03,679 --> 00:23:06,840
+when root
+
+578
+00:23:05,200 --> 00:23:08,799
+equals
+
+579
+00:23:06,840 --> 00:23:10,000
+cell the
+
+580
+00:23:08,799 --> 00:23:11,760
+parent
+
+581
+00:23:10,000 --> 00:23:13,520
+root
+
+582
+00:23:11,760 --> 00:23:15,600
+now we get the root and then we need to
+
+583
+00:23:13,520 --> 00:23:19,840
+traverse the x again
+
+584
+00:23:15,600 --> 00:23:22,559
+x equals a why x not equal served
+
+585
+00:23:19,840 --> 00:23:24,799
+dot parent x
+
+586
+00:23:22,559 --> 00:23:28,640
+right then we need to find out the
+
+587
+00:23:24,799 --> 00:23:29,919
+parent of it so p x equals seventh
+
+588
+00:23:28,640 --> 00:23:30,880
+the parent
+
+589
+00:23:29,919 --> 00:23:34,720
+x
+
+590
+00:23:30,880 --> 00:23:37,280
+and now set the parent x
+
+591
+00:23:34,720 --> 00:23:39,360
+now we need to reassign these to root
+
+592
+00:23:37,280 --> 00:23:42,880
+right equals root
+
+593
+00:23:39,360 --> 00:23:45,600
+and then x equals p x okay
+
+594
+00:23:42,880 --> 00:23:47,200
+and we tend we can root right because
+
+595
+00:23:45,600 --> 00:23:50,080
+when this function returns the rule we
+
+596
+00:23:47,200 --> 00:23:53,679
+just need to find the root parent of the
+
+597
+00:23:50,080 --> 00:23:56,960
+a and then this is to compress the path
+
+598
+00:23:53,679 --> 00:23:59,679
+so let union find right so union this is
+
+599
+00:23:56,960 --> 00:24:02,159
+union this is fine and this the whole
+
+600
+00:23:59,679 --> 00:24:04,080
+thing is the destroying set based on
+
+601
+00:24:02,159 --> 00:24:06,720
+these we can calculate the number of
+
+602
+00:24:04,080 --> 00:24:08,080
+sizes for each component define
+
+603
+00:24:06,720 --> 00:24:09,440
+guest size
+
+604
+00:24:08,080 --> 00:24:12,000
+self
+
+605
+00:24:09,440 --> 00:24:15,120
+a now we just return
+
+606
+00:24:12,000 --> 00:24:19,679
+self dot size a
+
+607
+00:24:15,120 --> 00:24:23,039
+okay property okay define count
+
+608
+00:24:19,679 --> 00:24:26,960
+and then save we can just return
+
+609
+00:24:23,039 --> 00:24:29,360
+return set save the total
+
+610
+00:24:26,960 --> 00:24:30,799
+but i want to merge it so because we
+
+611
+00:24:29,360 --> 00:24:32,799
+said when we merge it we need to
+
+612
+00:24:30,799 --> 00:24:35,279
+decrement this all right so before this
+
+613
+00:24:32,799 --> 00:24:37,120
+the return true we need to say cell
+
+614
+00:24:35,279 --> 00:24:38,960
+dot total
+
+615
+00:24:37,120 --> 00:24:41,120
+minus equals one because every time we
+
+616
+00:24:38,960 --> 00:24:42,159
+merge two components the total number of
+
+617
+00:24:41,120 --> 00:24:44,080
+components
+
+618
+00:24:42,159 --> 00:24:45,279
+should be decremented by one
+
+619
+00:24:44,080 --> 00:24:48,000
+what's the problem and what have you
+
+620
+00:24:45,279 --> 00:24:50,720
+done today the problem is we have
+
+621
+00:24:48,000 --> 00:24:51,760
+this uh
+
+622
+00:24:50,720 --> 00:24:54,480
+nose
+
+623
+00:24:51,760 --> 00:24:56,799
+yeah we are given this time
+
+624
+00:24:54,480 --> 00:24:58,960
+and directly graph and what's the task
+
+625
+00:24:56,799 --> 00:25:02,400
+we're going to
+
+626
+00:24:58,960 --> 00:25:04,880
+find solve number of multiple nodes yeah
+
+627
+00:25:02,400 --> 00:25:06,880
+unreachable pairs okay so given these
+
+628
+00:25:04,880 --> 00:25:08,400
+there are three components yes this is
+
+629
+00:25:06,880 --> 00:25:10,640
+undirected graph
+
+630
+00:25:08,400 --> 00:25:14,080
+the one there's edge here there's two
+
+631
+00:25:10,640 --> 00:25:15,600
+edge so how to calculate the number of
+
+632
+00:25:14,080 --> 00:25:17,440
+unusual players
+
+633
+00:25:15,600 --> 00:25:19,600
+so
+
+634
+00:25:17,440 --> 00:25:23,120
+so the number of
+
+635
+00:25:19,600 --> 00:25:25,360
+like connected things yeah there's
+
+636
+00:25:23,120 --> 00:25:27,600
+a connected thing
+
+637
+00:25:25,360 --> 00:25:30,640
+a part
+
+638
+00:25:27,600 --> 00:25:33,039
+the number of notes in the other parts
+
+639
+00:25:30,640 --> 00:25:35,679
+yes for example these there are
+
+640
+00:25:33,039 --> 00:25:39,200
+six notes right so the number of
+
+641
+00:25:35,679 --> 00:25:39,200
+original players is like this
+
+642
+00:25:39,279 --> 00:25:44,000
+times
+
+643
+00:25:40,799 --> 00:25:45,279
+one that's one note here times one times
+
+644
+00:25:44,000 --> 00:25:48,320
+four
+
+645
+00:25:45,279 --> 00:25:49,679
+five six minus one yeah okay plus okay
+
+646
+00:25:48,320 --> 00:25:50,880
+how about this one
+
+647
+00:25:49,679 --> 00:25:53,200
+two
+
+648
+00:25:50,880 --> 00:25:57,440
+times times
+
+649
+00:25:53,200 --> 00:25:59,440
+six minus two plus three times six minus
+
+650
+00:25:57,440 --> 00:26:01,600
+three okay and
+
+651
+00:25:59,440 --> 00:26:03,360
+divide by two yeah
+
+652
+00:26:01,600 --> 00:26:05,919
+all together divided right okay we know
+
+653
+00:26:03,360 --> 00:26:08,000
+the total number is six no six minus one
+
+654
+00:26:05,919 --> 00:26:10,400
+is all other vertex not in this
+
+655
+00:26:08,000 --> 00:26:11,919
+connected component and and similarly
+
+656
+00:26:10,400 --> 00:26:14,240
+etcetera and we add it all together we
+
+657
+00:26:11,919 --> 00:26:16,480
+need to divide it by two because
+
+658
+00:26:14,240 --> 00:26:18,080
+any pairs are counted twice that's why
+
+659
+00:26:16,480 --> 00:26:19,840
+we need to divide by two and previously
+
+660
+00:26:18,080 --> 00:26:22,400
+we're using the definition of purpose
+
+661
+00:26:19,840 --> 00:26:24,720
+search traversal and vertices
+
+662
+00:26:22,400 --> 00:26:27,360
+component disjoint set non-overlapping
+
+663
+00:26:24,720 --> 00:26:29,760
+set so we can use this data structure to
+
+664
+00:26:27,360 --> 00:26:32,400
+find the number of vertex in one
+
+665
+00:26:29,760 --> 00:26:35,360
+component and that serves the purpose so
+
+666
+00:26:32,400 --> 00:26:38,320
+we just have to count the sum of c times
+
+667
+00:26:35,360 --> 00:26:40,400
+n minus c divided by two c is the number
+
+668
+00:26:38,320 --> 00:26:42,320
+of vertex in each
+
+669
+00:26:40,400 --> 00:26:46,200
+component okay
+
+670
+00:26:42,320 --> 00:26:46,200
+that's it bye
+
