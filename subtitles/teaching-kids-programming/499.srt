@@ -1,0 +1,984 @@
+1
+00:00:00,399 --> 00:00:05,279
+hello mr mitchell rhino you right
+
+2
+00:00:03,280 --> 00:00:07,200
+yeah okay so today we talk about a
+
+3
+00:00:05,279 --> 00:00:09,760
+cartesian product we talked about that i
+
+4
+00:00:07,200 --> 00:00:11,759
+mentioned that a few times ago condition
+
+5
+00:00:09,760 --> 00:00:15,519
+product is the mathematic
+
+6
+00:00:11,759 --> 00:00:17,680
+uh concept okay so it's used on the set
+
+7
+00:00:15,519 --> 00:00:19,680
+all right in python we have set right so
+
+8
+00:00:17,680 --> 00:00:23,119
+look a is a set
+
+9
+00:00:19,680 --> 00:00:24,720
+condition for the b what do we get is
+
+10
+00:00:23,119 --> 00:00:26,800
+it's a set yeah
+
+11
+00:00:24,720 --> 00:00:28,800
+so a b
+
+12
+00:00:26,800 --> 00:00:31,760
+tuple right
+
+13
+00:00:28,800 --> 00:00:36,079
+and a is belongs to
+
+14
+00:00:31,760 --> 00:00:38,320
+a and b is belongs to b
+
+15
+00:00:36,079 --> 00:00:40,000
+yeah that's why it is let's take a look
+
+16
+00:00:38,320 --> 00:00:40,800
+at a very simple example
+
+17
+00:00:40,000 --> 00:00:44,480
+a
+
+18
+00:00:40,800 --> 00:00:48,000
+a if is is a set of one two
+
+19
+00:00:44,480 --> 00:00:51,360
+b if it's a set of three four
+
+20
+00:00:48,000 --> 00:00:53,840
+so a transition for the b so we take one
+
+21
+00:00:51,360 --> 00:00:55,360
+element from the first set
+
+22
+00:00:53,840 --> 00:00:56,840
+and then we can
+
+23
+00:00:55,360 --> 00:00:59,920
+do this all
+
+24
+00:00:56,840 --> 00:01:01,840
+combinations of the other sets
+
+25
+00:00:59,920 --> 00:01:04,559
+so it's
+
+26
+00:01:01,840 --> 00:01:06,240
+one three
+
+27
+00:01:04,559 --> 00:01:07,280
+one four
+
+28
+00:01:06,240 --> 00:01:09,200
+and then
+
+29
+00:01:07,280 --> 00:01:14,000
+two three
+
+30
+00:01:09,200 --> 00:01:17,280
+two four okay now your turn about a is
+
+31
+00:01:14,000 --> 00:01:21,600
+one two three b is
+
+32
+00:01:17,280 --> 00:01:23,840
+four five so a cartesian product times b
+
+33
+00:01:21,600 --> 00:01:25,680
+one four
+
+34
+00:01:23,840 --> 00:01:27,280
+one five
+
+35
+00:01:25,680 --> 00:01:32,400
+two four
+
+36
+00:01:27,280 --> 00:01:35,200
+two five three four three five
+
+37
+00:01:32,400 --> 00:01:37,600
+yeah exactly okay you got it yeah
+
+38
+00:01:35,200 --> 00:01:40,320
+okay so this is condition product in
+
+39
+00:01:37,600 --> 00:01:41,840
+python we can from
+
+40
+00:01:40,320 --> 00:01:45,119
+eta tour
+
+41
+00:01:41,840 --> 00:01:45,119
+import product
+
+42
+00:01:45,200 --> 00:01:52,119
+we use this product from the intertours
+
+43
+00:01:47,280 --> 00:01:52,119
+so let's take a look at this example
+
+44
+00:01:54,880 --> 00:01:57,920
+so look
+
+45
+00:01:56,079 --> 00:02:00,640
+in python let's say
+
+46
+00:01:57,920 --> 00:02:04,560
+a equals
+
+47
+00:02:00,640 --> 00:02:06,719
+1 2 okay b equals 3 for
+
+48
+00:02:04,560 --> 00:02:10,640
+c equals
+
+49
+00:02:06,719 --> 00:02:10,640
+condition per day for that
+
+50
+00:02:11,920 --> 00:02:14,720
+and a
+
+51
+00:02:13,360 --> 00:02:17,599
+b
+
+52
+00:02:14,720 --> 00:02:20,160
+this is a returning uh iterator so we
+
+53
+00:02:17,599 --> 00:02:23,760
+convert it to a list then what do we
+
+54
+00:02:20,160 --> 00:02:25,520
+have then you give us c equals one three
+
+55
+00:02:23,760 --> 00:02:27,440
+one four
+
+56
+00:02:25,520 --> 00:02:29,840
+two three
+
+57
+00:02:27,440 --> 00:02:31,840
+two four okay simple step let's
+
+58
+00:02:29,840 --> 00:02:34,800
+transition to that okay so
+
+59
+00:02:31,840 --> 00:02:36,640
+a cartesian product b is equal to b
+
+60
+00:02:34,800 --> 00:02:38,319
+condition product a come on that's a one
+
+61
+00:02:36,640 --> 00:02:40,319
+question no
+
+62
+00:02:38,319 --> 00:02:42,640
+no right it's not definitely a look
+
+63
+00:02:40,319 --> 00:02:44,239
+because look one three one four
+
+64
+00:02:42,640 --> 00:02:47,840
+two three two four and how about b
+
+65
+00:02:44,239 --> 00:02:50,160
+condition for the a three one three two
+
+66
+00:02:47,840 --> 00:02:52,000
+four one four definitely not right okay
+
+67
+00:02:50,160 --> 00:02:54,560
+so that's very good so how about the
+
+68
+00:02:52,000 --> 00:02:55,280
+carbon energy cardinality what's this
+
+69
+00:02:54,560 --> 00:02:57,280
+what
+
+70
+00:02:55,280 --> 00:02:59,040
+continuity
+
+71
+00:02:57,280 --> 00:03:01,920
+i don't know how to spell cardinality
+
+72
+00:02:59,040 --> 00:03:04,800
+this is basically the number of
+
+73
+00:03:01,920 --> 00:03:07,280
+the number of these elements in the
+
+74
+00:03:04,800 --> 00:03:09,120
+condition product so so look there are
+
+75
+00:03:07,280 --> 00:03:11,440
+two elements here and there are two
+
+76
+00:03:09,120 --> 00:03:15,440
+elements here so what's the number of
+
+77
+00:03:11,440 --> 00:03:15,440
+elements in the conditional product
+
+78
+00:03:16,080 --> 00:03:20,800
+okay so how about one three one two
+
+79
+00:03:18,959 --> 00:03:22,480
+three four five how many in the
+
+80
+00:03:20,800 --> 00:03:23,920
+transition product
+
+81
+00:03:22,480 --> 00:03:26,159
+there are two here there are three here
+
+82
+00:03:23,920 --> 00:03:28,319
+so how many all together condition for
+
+83
+00:03:26,159 --> 00:03:31,200
+that thanks yeah so
+
+84
+00:03:28,319 --> 00:03:33,040
+you can do that so we use these to mean
+
+85
+00:03:31,200 --> 00:03:34,879
+the length of
+
+86
+00:03:33,040 --> 00:03:36,959
+the cardinality so
+
+87
+00:03:34,879 --> 00:03:39,760
+a condition product b
+
+88
+00:03:36,959 --> 00:03:42,480
+is is equals to a
+
+89
+00:03:39,760 --> 00:03:45,120
+times b simple as that right we get the
+
+90
+00:03:42,480 --> 00:03:46,879
+cardinality of the a and cardinality of
+
+91
+00:03:45,120 --> 00:03:47,760
+b and i will multiply it together let's
+
+92
+00:03:46,879 --> 00:03:49,599
+see
+
+93
+00:03:47,760 --> 00:03:52,080
+total number of these
+
+94
+00:03:49,599 --> 00:03:54,159
+elements in the product we mentioned
+
+95
+00:03:52,080 --> 00:03:56,080
+about the graph graph algorithm the
+
+96
+00:03:54,159 --> 00:03:57,840
+shortest path remember the shortest path
+
+97
+00:03:56,080 --> 00:04:00,159
+accurate in the directive way to graph
+
+98
+00:03:57,840 --> 00:04:01,840
+we can use the uniform cause search and
+
+99
+00:04:00,159 --> 00:04:04,239
+we mentioned that we talked about a long
+
+100
+00:04:01,840 --> 00:04:05,840
+time ago if it's an indirectly and i
+
+101
+00:04:04,239 --> 00:04:06,720
+weighted gua we can use the vertical
+
+102
+00:04:05,840 --> 00:04:08,879
+search
+
+103
+00:04:06,720 --> 00:04:10,480
+and we can also use d castra okay i
+
+104
+00:04:08,879 --> 00:04:12,159
+don't know how to pronounce it thicker
+
+105
+00:04:10,480 --> 00:04:14,000
+we're going to
+
+106
+00:04:12,159 --> 00:04:15,519
+talk about that in the next few days get
+
+107
+00:04:14,000 --> 00:04:18,160
+stronger okay
+
+108
+00:04:15,519 --> 00:04:21,040
+we also talked about this flawed floor
+
+109
+00:04:18,160 --> 00:04:24,000
+there why are you getting thickest right
+
+110
+00:04:21,040 --> 00:04:26,320
+there's no eyes you can't take it
+
+111
+00:04:24,000 --> 00:04:28,880
+okay it's a name
+
+112
+00:04:26,320 --> 00:04:28,880
+a texture
+
+113
+00:04:40,160 --> 00:04:44,560
+between
+
+114
+00:04:41,440 --> 00:04:46,000
+b to i plus i to j
+
+115
+00:04:44,560 --> 00:04:47,759
+is shorter
+
+116
+00:04:46,000 --> 00:04:50,320
+than i to j
+
+117
+00:04:47,759 --> 00:04:53,840
+then we can replace
+
+118
+00:04:50,320 --> 00:04:56,320
+the cost from i to j with these shorter
+
+119
+00:04:53,840 --> 00:04:58,320
+paths right so for example look i have
+
+120
+00:04:56,320 --> 00:05:00,560
+another you know very complex graph i'm
+
+121
+00:04:58,320 --> 00:05:04,160
+going to compute the minimum shortest
+
+122
+00:05:00,560 --> 00:05:06,240
+path from from a to b right look at b i
+
+123
+00:05:04,160 --> 00:05:08,000
+found out like i to j the cost maybe a
+
+124
+00:05:06,240 --> 00:05:12,639
+hundred and then later i found out that
+
+125
+00:05:08,000 --> 00:05:15,440
+i to k is 50 k to j is 20. so how can we
+
+126
+00:05:12,639 --> 00:05:18,479
+improve the shortest path between a to b
+
+127
+00:05:15,440 --> 00:05:19,919
+my current shortest path from a to b is
+
+128
+00:05:18,479 --> 00:05:21,919
+through this path right look it's
+
+129
+00:05:19,919 --> 00:05:22,880
+release path
+
+130
+00:05:21,919 --> 00:05:26,080
+yeah
+
+131
+00:05:22,880 --> 00:05:28,639
+now i found out that i to k is 50 k to j
+
+132
+00:05:26,080 --> 00:05:31,280
+is 20.
+
+133
+00:05:28,639 --> 00:05:33,600
+i can replace the i to j with this
+
+134
+00:05:31,280 --> 00:05:35,840
+shorter path right because 50 plus 20 is
+
+135
+00:05:33,600 --> 00:05:37,360
+smaller than 100 so i can replace this
+
+136
+00:05:35,840 --> 00:05:40,240
+path
+
+137
+00:05:37,360 --> 00:05:42,240
+from here so it will provide us the
+
+138
+00:05:40,240 --> 00:05:44,400
+shutter pass right that's the spirit of
+
+139
+00:05:42,240 --> 00:05:47,440
+this angle okay so it's basically like a
+
+140
+00:05:44,400 --> 00:05:48,320
+dynamic programming so
+
+141
+00:05:47,440 --> 00:05:51,039
+for
+
+142
+00:05:48,320 --> 00:05:54,160
+k in range
+
+143
+00:05:51,039 --> 00:05:55,520
+it's uh the time to next is the ov
+
+144
+00:05:54,160 --> 00:05:56,319
+cubic
+
+145
+00:05:55,520 --> 00:05:58,000
+n
+
+146
+00:05:56,319 --> 00:06:01,199
+and then for
+
+147
+00:05:58,000 --> 00:06:02,240
+i in range
+
+148
+00:06:01,199 --> 00:06:06,080
+n
+
+149
+00:06:02,240 --> 00:06:08,080
+for j in range
+
+150
+00:06:06,080 --> 00:06:09,919
+n right and now we can say look if the
+
+151
+00:06:08,080 --> 00:06:11,759
+shot is part d
+
+152
+00:06:09,919 --> 00:06:12,720
+d i j
+
+153
+00:06:11,759 --> 00:06:15,360
+yeah
+
+154
+00:06:12,720 --> 00:06:17,600
+is the minimum we only get a minimum d i
+
+155
+00:06:15,360 --> 00:06:17,600
+j
+
+156
+00:06:19,199 --> 00:06:23,199
+and then d
+
+157
+00:06:20,720 --> 00:06:24,800
+i to k
+
+158
+00:06:23,199 --> 00:06:28,160
+plus d
+
+159
+00:06:24,800 --> 00:06:30,960
+k to j right so that's
+
+160
+00:06:28,160 --> 00:06:33,440
+the spirit right
+
+161
+00:06:30,960 --> 00:06:36,800
+i to j
+
+162
+00:06:33,440 --> 00:06:40,400
+and we found out that k right so if the
+
+163
+00:06:36,800 --> 00:06:43,520
+i to j the cos is bigger than i to k n
+
+164
+00:06:40,400 --> 00:06:46,240
+plus k to j then we can replace i to j
+
+165
+00:06:43,520 --> 00:06:49,360
+using this part right that's what it is
+
+166
+00:06:46,240 --> 00:06:52,400
+for k to n that takes n iteration and
+
+167
+00:06:49,360 --> 00:06:54,800
+each iteration takes n iteration and for
+
+168
+00:06:52,400 --> 00:06:58,240
+each iteration takes any iteration so
+
+169
+00:06:54,800 --> 00:07:02,240
+that time connect is o and q h okay so
+
+170
+00:06:58,240 --> 00:07:05,440
+for this this one yeah look this is i j
+
+171
+00:07:02,240 --> 00:07:07,520
+i j yeah this is the
+
+172
+00:07:05,440 --> 00:07:10,319
+tuple right so we can use the
+
+173
+00:07:07,520 --> 00:07:12,240
+cartesian product so look because look
+
+174
+00:07:10,319 --> 00:07:15,440
+this is the same yeah this is the same
+
+175
+00:07:12,240 --> 00:07:16,479
+so basically we can replace this one for
+
+176
+00:07:15,440 --> 00:07:18,080
+k
+
+177
+00:07:16,479 --> 00:07:21,360
+i j
+
+178
+00:07:18,080 --> 00:07:22,960
+in product yeah we can use this
+
+179
+00:07:21,360 --> 00:07:24,240
+syntax for that what
+
+180
+00:07:22,960 --> 00:07:26,000
+product
+
+181
+00:07:24,240 --> 00:07:28,240
+range
+
+182
+00:07:26,000 --> 00:07:30,639
+range n and then we pass the second
+
+183
+00:07:28,240 --> 00:07:33,759
+parameter repeat
+
+184
+00:07:30,639 --> 00:07:36,240
+repeat equal three times okay
+
+185
+00:07:33,759 --> 00:07:38,319
+look so b three four loops can be
+
+186
+00:07:36,240 --> 00:07:40,639
+replaced by this one for loop this is
+
+187
+00:07:38,319 --> 00:07:45,039
+the time complexity sphere o and qp
+
+188
+00:07:40,639 --> 00:07:47,520
+for k i j right k i j that's a topper
+
+189
+00:07:45,039 --> 00:07:49,360
+basically this range and
+
+190
+00:07:47,520 --> 00:07:51,520
+cartesian product itself three times
+
+191
+00:07:49,360 --> 00:07:54,400
+that's what it means okay so condition
+
+192
+00:07:51,520 --> 00:07:55,199
+products can be done in multiple sets
+
+193
+00:07:54,400 --> 00:07:57,039
+a
+
+194
+00:07:55,199 --> 00:07:59,199
+conditional product b condition product
+
+195
+00:07:57,039 --> 00:08:02,000
+c contingent verb b
+
+196
+00:07:59,199 --> 00:08:03,039
+a b c d right
+
+197
+00:08:02,000 --> 00:08:07,039
+then
+
+198
+00:08:03,039 --> 00:08:09,440
+a is belongs to a b is belongs to b c is
+
+199
+00:08:07,039 --> 00:08:11,280
+belong to c d is belongs to d okay
+
+200
+00:08:09,440 --> 00:08:14,080
+that's what it means so
+
+201
+00:08:11,280 --> 00:08:16,319
+one two three four
+
+202
+00:08:14,080 --> 00:08:19,120
+five six the cartesian product will be
+
+203
+00:08:16,319 --> 00:08:22,080
+will be one can you guess look if the a
+
+204
+00:08:19,120 --> 00:08:24,160
+is one two b is three four c is five six
+
+205
+00:08:22,080 --> 00:08:27,120
+so what's the condition product
+
+206
+00:08:24,160 --> 00:08:27,120
+we've last reset
+
+207
+00:08:29,360 --> 00:08:34,719
+yeah is it like one three
+
+208
+00:08:32,159 --> 00:08:38,560
+one three one you need to take one for
+
+209
+00:08:34,719 --> 00:08:41,039
+each set one three five yeah one three
+
+210
+00:08:38,560 --> 00:08:41,919
+six yeah
+
+211
+00:08:41,039 --> 00:08:44,240
+one
+
+212
+00:08:41,919 --> 00:08:46,800
+four five
+
+213
+00:08:44,240 --> 00:08:49,839
+one four six
+
+214
+00:08:46,800 --> 00:08:52,399
+two three five
+
+215
+00:08:49,839 --> 00:08:54,959
+two three six
+
+216
+00:08:52,399 --> 00:08:56,399
+two four five
+
+217
+00:08:54,959 --> 00:08:58,320
+two four six
+
+218
+00:08:56,399 --> 00:09:00,560
+you got it yeah okay so that's the
+
+219
+00:08:58,320 --> 00:09:03,200
+beauty of the condition problem we can
+
+220
+00:09:00,560 --> 00:09:06,640
+replace these right look
+
+221
+00:09:03,200 --> 00:09:08,160
+o n o n two o and q b by this
+
+222
+00:09:06,640 --> 00:09:09,519
+right
+
+223
+00:09:08,160 --> 00:09:11,279
+yeah okay
+
+224
+00:09:09,519 --> 00:09:13,279
+and that's the
+
+225
+00:09:11,279 --> 00:09:14,959
+shortest class when we talk about this
+
+226
+00:09:13,279 --> 00:09:18,000
+algorithm any questions today what have
+
+227
+00:09:14,959 --> 00:09:18,000
+you learned today that's it
+
+228
+00:09:20,080 --> 00:09:25,440
+okay so what's this what's what what
+
+229
+00:09:22,720 --> 00:09:28,000
+happened come on combination product
+
+230
+00:09:25,440 --> 00:09:30,640
+condition product okay condition
+
+231
+00:09:28,000 --> 00:09:31,440
+all right so okay so can you tell me
+
+232
+00:09:30,640 --> 00:09:34,080
+uh
+
+233
+00:09:31,440 --> 00:09:36,399
+a if it's an empty set yeah a condition
+
+234
+00:09:34,080 --> 00:09:38,640
+product empty empty in mathematics using
+
+235
+00:09:36,399 --> 00:09:38,640
+this
+
+236
+00:09:38,959 --> 00:09:44,720
+a condition product empty what do we get
+
+237
+00:09:42,160 --> 00:09:47,200
+empty yeah so it's equals to empty
+
+238
+00:09:44,720 --> 00:09:50,399
+condition product a but generally a
+
+239
+00:09:47,200 --> 00:09:52,080
+condition product b is not equal to b
+
+240
+00:09:50,399 --> 00:09:54,880
+condition for the a okay we talk about
+
+241
+00:09:52,080 --> 00:09:55,839
+that okay yeah
+
+242
+00:09:54,880 --> 00:09:57,519
+because
+
+243
+00:09:55,839 --> 00:09:59,279
+we will be doing it yeah that'll be it
+
+244
+00:09:57,519 --> 00:10:02,279
+for the day bye
+
+245
+00:09:59,279 --> 00:10:02,279
+bye
+
+246
+00:10:04,560 --> 00:10:06,640
+you
+
