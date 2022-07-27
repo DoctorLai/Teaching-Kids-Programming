@@ -1,0 +1,1040 @@
+1
+00:00:00,000 --> 00:00:04,799
+hello mr mr ryan all right
+
+2
+00:00:02,480 --> 00:00:07,040
+okay good so yesterday we talked about
+
+3
+00:00:04,799 --> 00:00:08,960
+finding the shortest path on directive
+
+4
+00:00:07,040 --> 00:00:11,759
+and weighted graph okay directly means
+
+5
+00:00:08,960 --> 00:00:14,080
+the graph has these errors and weighting
+
+6
+00:00:11,759 --> 00:00:15,360
+means the the cost between the vertex if
+
+7
+00:00:14,080 --> 00:00:17,920
+less edge
+
+8
+00:00:15,360 --> 00:00:20,800
+is uniform is one we can think of it as
+
+9
+00:00:17,920 --> 00:00:22,240
+one this equivalent freud is a much
+
+10
+00:00:20,800 --> 00:00:24,880
+thought shortest path aggregate
+
+11
+00:00:22,240 --> 00:00:26,960
+multi-source means that by running the
+
+12
+00:00:24,880 --> 00:00:29,039
+equilibrium we'll be able to find out
+
+13
+00:00:26,960 --> 00:00:29,840
+the shortest path between any pairs of
+
+14
+00:00:29,039 --> 00:00:33,680
+the
+
+15
+00:00:29,840 --> 00:00:36,559
+vertex so this is the o and o v cubic
+
+16
+00:00:33,680 --> 00:00:37,920
+equivalent o v cubic times an o
+
+17
+00:00:36,559 --> 00:00:40,320
+v square
+
+18
+00:00:37,920 --> 00:00:43,200
+space okay because we need a
+
+19
+00:00:40,320 --> 00:00:45,760
+ov square to hold the shortest path
+
+20
+00:00:43,200 --> 00:00:48,000
+between any pair okay so this is not the
+
+21
+00:00:45,760 --> 00:00:50,719
+most efficient but it allows us to to
+
+22
+00:00:48,000 --> 00:00:53,120
+find the shortest path on the directed
+
+23
+00:00:50,719 --> 00:00:55,840
+or iron directly weighted or unweighted
+
+24
+00:00:53,120 --> 00:00:58,399
+graph and how about the graph has these
+
+25
+00:00:55,840 --> 00:01:00,640
+negative values negative cycles does
+
+26
+00:00:58,399 --> 00:01:02,480
+they have a shortest path for example
+
+27
+00:01:00,640 --> 00:01:03,600
+like this one look
+
+28
+00:01:02,480 --> 00:01:05,199
+one
+
+29
+00:01:03,600 --> 00:01:07,280
+this is
+
+30
+00:01:05,199 --> 00:01:08,320
+two
+
+31
+00:01:07,280 --> 00:01:10,240
+three
+
+32
+00:01:08,320 --> 00:01:13,200
+four
+
+33
+00:01:10,240 --> 00:01:14,080
+okay and then five
+
+34
+00:01:13,200 --> 00:01:15,600
+okay
+
+35
+00:01:14,080 --> 00:01:17,520
+so look
+
+36
+00:01:15,600 --> 00:01:19,840
+this is a directed
+
+37
+00:01:17,520 --> 00:01:22,640
+direct directive weighty graph okay
+
+38
+00:01:19,840 --> 00:01:24,080
+let's say cos10 here
+
+39
+00:01:22,640 --> 00:01:24,880
+minus five
+
+40
+00:01:24,080 --> 00:01:27,520
+one
+
+41
+00:01:24,880 --> 00:01:30,000
+two seven
+
+42
+00:01:27,520 --> 00:01:31,840
+so given this directive uh waiting for
+
+43
+00:01:30,000 --> 00:01:35,040
+do we have a shortest path can we
+
+44
+00:01:31,840 --> 00:01:35,040
+calculate the shortest path
+
+45
+00:01:35,680 --> 00:01:40,880
+look at this is waiting to where
+
+46
+00:01:38,000 --> 00:01:43,360
+so yeah good question from one to five
+
+47
+00:01:40,880 --> 00:01:45,360
+look at this uh directed way to grab do
+
+48
+00:01:43,360 --> 00:01:46,799
+we have a shortest path between one to
+
+49
+00:01:45,360 --> 00:01:48,399
+five
+
+50
+00:01:46,799 --> 00:01:49,759
+one
+
+51
+00:01:48,399 --> 00:01:52,240
+two three
+
+52
+00:01:49,759 --> 00:01:55,119
+three you can go to that
+
+53
+00:01:52,240 --> 00:01:57,600
+okay so maybe here
+
+54
+00:01:55,119 --> 00:01:59,520
+okay this is a cycle okay
+
+55
+00:01:57,600 --> 00:02:01,439
+so you can go that way
+
+56
+00:01:59,520 --> 00:02:04,320
+so look at this directive way to go
+
+57
+00:02:01,439 --> 00:02:06,719
+right there's no shortest path why look
+
+58
+00:02:04,320 --> 00:02:08,640
+down the cycle you could go around you
+
+59
+00:02:06,719 --> 00:02:09,599
+can go round and round because like the
+
+60
+00:02:08,640 --> 00:02:12,239
+cycle
+
+61
+00:02:09,599 --> 00:02:13,760
+what's the sum of this cycle minus five
+
+62
+00:02:12,239 --> 00:02:16,000
+plus one plus two
+
+63
+00:02:13,760 --> 00:02:17,760
+minus two okay so what does it mean i go
+
+64
+00:02:16,000 --> 00:02:20,319
+one cycle
+
+65
+00:02:17,760 --> 00:02:23,120
+what minus two i got another cycle minus
+
+66
+00:02:20,319 --> 00:02:25,280
+two always shorter distance if laser
+
+67
+00:02:23,120 --> 00:02:27,920
+negative weight cycle then there's no
+
+68
+00:02:25,280 --> 00:02:30,080
+shortest path flow is the shortest path
+
+69
+00:02:27,920 --> 00:02:31,840
+that can be applied in directed or
+
+70
+00:02:30,080 --> 00:02:33,599
+undirected weighted low and weighted
+
+71
+00:02:31,840 --> 00:02:35,440
+graph and then the term complexities or
+
+72
+00:02:33,599 --> 00:02:38,080
+v square the speed complexity is all
+
+73
+00:02:35,440 --> 00:02:40,400
+these two okay v is the number of vertex
+
+74
+00:02:38,080 --> 00:02:41,519
+or you can say o and cubic o and o n
+
+75
+00:02:40,400 --> 00:02:43,519
+square okay
+
+76
+00:02:41,519 --> 00:02:44,640
+okay this graph is directly unweighted
+
+77
+00:02:43,519 --> 00:02:46,080
+one and
+
+78
+00:02:44,640 --> 00:02:47,920
+right and you said we can use the
+
+79
+00:02:46,080 --> 00:02:50,239
+breakfast search because it's uh
+
+80
+00:02:47,920 --> 00:02:51,920
+unweighted right because it's unweighted
+
+81
+00:02:50,239 --> 00:02:53,920
+then we can apply this breakfast search
+
+82
+00:02:51,920 --> 00:02:55,920
+do you still remember how do we use the
+
+83
+00:02:53,920 --> 00:02:59,120
+preference session p
+
+84
+00:02:55,920 --> 00:03:01,360
+q t q yes q whatever search can be
+
+85
+00:02:59,120 --> 00:03:03,760
+applied on the graph right and then
+
+86
+00:03:01,360 --> 00:03:05,120
+three is a graph right so we talk about
+
+87
+00:03:03,760 --> 00:03:07,680
+like trees that
+
+88
+00:03:05,120 --> 00:03:09,840
+are essentially a tree tree is a very
+
+89
+00:03:07,680 --> 00:03:11,760
+special kind of quick water the thing
+
+90
+00:03:09,840 --> 00:03:13,200
+about a tree is that
+
+91
+00:03:11,760 --> 00:03:15,599
+we can travel
+
+92
+00:03:13,200 --> 00:03:18,080
+to love children from a parent but we
+
+93
+00:03:15,599 --> 00:03:20,080
+cannot travel from children back to the
+
+94
+00:03:18,080 --> 00:03:22,959
+parent okay we can travel from current
+
+95
+00:03:20,080 --> 00:03:25,200
+to children but not a vice versa so
+
+96
+00:03:22,959 --> 00:03:27,440
+that's the key difference between the
+
+97
+00:03:25,200 --> 00:03:30,000
+trees and graphs photograph if it's a
+
+98
+00:03:27,440 --> 00:03:31,599
+directly undirected graph you can all
+
+99
+00:03:30,000 --> 00:03:34,159
+usually travel
+
+100
+00:03:31,599 --> 00:03:35,519
+fourth and backwards right look
+
+101
+00:03:34,159 --> 00:03:38,000
+if it's uh
+
+102
+00:03:35,519 --> 00:03:40,239
+directly on that requires goes both ways
+
+103
+00:03:38,000 --> 00:03:42,560
+look one can go to two two can go to one
+
+104
+00:03:40,239 --> 00:03:44,959
+so that cost is a problem right if we
+
+105
+00:03:42,560 --> 00:03:47,040
+use the breakfast search whatever search
+
+106
+00:03:44,959 --> 00:03:50,159
+what problem we have to remember the
+
+107
+00:03:47,040 --> 00:03:53,120
+vertex otherwise we're traveling between
+
+108
+00:03:50,159 --> 00:03:56,000
+the vertex forever right so we use this
+
+109
+00:03:53,120 --> 00:03:58,640
+hash map great for search the q
+
+110
+00:03:56,000 --> 00:04:02,000
+yeah the q eq
+
+111
+00:03:58,640 --> 00:04:05,920
+in python we're using dq double and dq
+
+112
+00:04:02,000 --> 00:04:07,519
+double ldq means that we can do this uh
+
+113
+00:04:05,920 --> 00:04:08,720
+pop
+
+114
+00:04:07,519 --> 00:04:12,080
+a pen
+
+115
+00:04:08,720 --> 00:04:15,360
+on both sides left and right so on the
+
+116
+00:04:12,080 --> 00:04:18,239
+left hand side is top left
+
+117
+00:04:15,360 --> 00:04:20,400
+and a pen left on the right hand side is
+
+118
+00:04:18,239 --> 00:04:22,560
+just top and the pen
+
+119
+00:04:20,400 --> 00:04:25,280
+and these four operations are 0 1
+
+120
+00:04:22,560 --> 00:04:27,440
+constant time
+
+121
+00:04:25,280 --> 00:04:29,600
+so it means that it's better than we
+
+122
+00:04:27,440 --> 00:04:30,880
+using this the simple list in person
+
+123
+00:04:29,600 --> 00:04:33,120
+because
+
+124
+00:04:30,880 --> 00:04:34,000
+in in python we're using the list like
+
+125
+00:04:33,120 --> 00:04:36,240
+that
+
+126
+00:04:34,000 --> 00:04:38,080
+yeah if it's a on the right hand side
+
+127
+00:04:36,240 --> 00:04:40,080
+it's a one constant time if we want to
+
+128
+00:04:38,080 --> 00:04:42,800
+do this operation on the left hand side
+
+129
+00:04:40,080 --> 00:04:45,919
+it's our linear time so it's it's not
+
+130
+00:04:42,800 --> 00:04:47,840
+very efficient so we prefer using the dq
+
+131
+00:04:45,919 --> 00:04:50,080
+for the breakfast search how do we
+
+132
+00:04:47,840 --> 00:04:53,520
+improve graphics search first of all
+
+133
+00:04:50,080 --> 00:04:54,880
+we want to get the shortest path between
+
+134
+00:04:53,520 --> 00:04:57,520
+a
+
+135
+00:04:54,880 --> 00:05:00,000
+a and b right you might travel at some
+
+136
+00:04:57,520 --> 00:05:02,560
+points here right
+
+137
+00:05:00,000 --> 00:05:05,919
+okay let's leave here a
+
+138
+00:05:02,560 --> 00:05:06,800
+okay let's put it numbers zero one two
+
+139
+00:05:05,919 --> 00:05:09,039
+three
+
+140
+00:05:06,800 --> 00:05:11,680
+four
+
+141
+00:05:09,039 --> 00:05:13,360
+so this is a directive angle we want to
+
+142
+00:05:11,680 --> 00:05:15,520
+find all the shortest paths between zero
+
+143
+00:05:13,360 --> 00:05:17,520
+to three so in the beginning at the
+
+144
+00:05:15,520 --> 00:05:20,000
+beginning we'll put a zero we incur the
+
+145
+00:05:17,520 --> 00:05:22,000
+zero in the queue right
+
+146
+00:05:20,000 --> 00:05:23,520
+and then we take everything out and
+
+147
+00:05:22,000 --> 00:05:25,759
+we'll turn it keep
+
+148
+00:05:23,520 --> 00:05:27,600
+one
+
+149
+00:05:25,759 --> 00:05:30,880
+when we take everything out
+
+150
+00:05:27,600 --> 00:05:32,880
+we append each kid so from one we can go
+
+151
+00:05:30,880 --> 00:05:34,000
+to two three four right so look two
+
+152
+00:05:32,880 --> 00:05:36,320
+three four
+
+153
+00:05:34,000 --> 00:05:39,120
+now we have three here we know we have
+
+154
+00:05:36,320 --> 00:05:42,080
+three so let's distance between zero to
+
+155
+00:05:39,120 --> 00:05:42,880
+three how many steps one step two step
+
+156
+00:05:42,080 --> 00:05:43,840
+okay
+
+157
+00:05:42,880 --> 00:05:45,520
+so
+
+158
+00:05:43,840 --> 00:05:48,880
+we talk about the breakfast search we
+
+159
+00:05:45,520 --> 00:05:50,320
+have two ways of taking out the items dq
+
+160
+00:05:48,880 --> 00:05:52,320
+from the from the queue right we can
+
+161
+00:05:50,320 --> 00:05:54,800
+take one at a time or we can take
+
+162
+00:05:52,320 --> 00:05:56,880
+everything out of time so in this case
+
+163
+00:05:54,800 --> 00:05:58,639
+we can do both right so
+
+164
+00:05:56,880 --> 00:06:00,400
+so we can take everything out of time or
+
+165
+00:05:58,639 --> 00:06:02,800
+we can take one hour at a time
+
+166
+00:06:00,400 --> 00:06:07,039
+define breakfast that we want to
+
+167
+00:06:02,800 --> 00:06:08,400
+calculate distance between i to j
+
+168
+00:06:07,039 --> 00:06:10,639
+at the beginning look at we have to
+
+169
+00:06:08,400 --> 00:06:12,400
+check if i equal equals j then we just
+
+170
+00:06:10,639 --> 00:06:14,880
+return zero right
+
+171
+00:06:12,400 --> 00:06:16,479
+if the source is the destination there's
+
+172
+00:06:14,880 --> 00:06:21,919
+no point to perform the perfect search
+
+173
+00:06:16,479 --> 00:06:24,160
+which is written here then q equals dq
+
+174
+00:06:21,919 --> 00:06:26,319
+at the beginning we put i in it
+
+175
+00:06:24,160 --> 00:06:28,319
+right now we have a electric unit that
+
+176
+00:06:26,319 --> 00:06:31,680
+distance will be zero
+
+177
+00:06:28,319 --> 00:06:33,360
+right so wire
+
+178
+00:06:31,680 --> 00:06:36,240
+q
+
+179
+00:06:33,360 --> 00:06:39,440
+uh before that we need to have a
+
+180
+00:06:36,240 --> 00:06:42,240
+scene equal set we want to remember the
+
+181
+00:06:39,440 --> 00:06:45,039
+vertex we have visited so we don't visit
+
+182
+00:06:42,240 --> 00:06:46,479
+it again and again why kill this is the
+
+183
+00:06:45,039 --> 00:06:48,160
+same as
+
+184
+00:06:46,479 --> 00:06:51,039
+checking if there are elements in the
+
+185
+00:06:48,160 --> 00:06:53,199
+queue is the same as y length q
+
+186
+00:06:51,039 --> 00:06:55,360
+of length q bigger than zero okay this
+
+187
+00:06:53,199 --> 00:06:57,840
+is the same thing every time
+
+188
+00:06:55,360 --> 00:07:00,880
+we take everything out of the queue then
+
+189
+00:06:57,840 --> 00:07:05,520
+the distance will be increment by one so
+
+190
+00:07:00,880 --> 00:07:07,680
+d plus equals one and n equals
+
+191
+00:07:05,520 --> 00:07:10,639
+the length of q this is the next number
+
+192
+00:07:07,680 --> 00:07:12,240
+of the notes that in the next level so
+
+193
+00:07:10,639 --> 00:07:15,120
+four and
+
+194
+00:07:12,240 --> 00:07:17,280
+we need to take n items from the q in
+
+195
+00:07:15,120 --> 00:07:18,319
+range
+
+196
+00:07:17,280 --> 00:07:22,080
+and
+
+197
+00:07:18,319 --> 00:07:25,120
+c equals q dot poplar we take the
+
+198
+00:07:22,080 --> 00:07:29,280
+one element from the q
+
+199
+00:07:25,120 --> 00:07:32,639
+then for x in gc
+
+200
+00:07:29,280 --> 00:07:36,000
+c means the vertex that connects to c
+
+201
+00:07:32,639 --> 00:07:37,199
+so if x not in
+
+202
+00:07:36,000 --> 00:07:39,440
+in scene
+
+203
+00:07:37,199 --> 00:07:42,720
+right we haven't visited the scene the
+
+204
+00:07:39,440 --> 00:07:45,440
+first thing is to put it in the notebook
+
+205
+00:07:42,720 --> 00:07:48,080
+at x
+
+206
+00:07:45,440 --> 00:07:48,879
+right and then q dot append
+
+207
+00:07:48,080 --> 00:07:51,520
+x
+
+208
+00:07:48,879 --> 00:07:53,520
+so c equals q the problem if at this
+
+209
+00:07:51,520 --> 00:07:55,360
+point we find out that
+
+210
+00:07:53,520 --> 00:07:59,039
+that is j then we need to return right
+
+211
+00:07:55,360 --> 00:08:01,840
+so we need to add that here if c equal
+
+212
+00:07:59,039 --> 00:08:04,080
+equals j then we need to return
+
+213
+00:08:01,840 --> 00:08:06,800
+d minus one right because we already
+
+214
+00:08:04,080 --> 00:08:08,639
+plus one here if we can't find the j
+
+215
+00:08:06,800 --> 00:08:11,599
+when we do this better search we need to
+
+216
+00:08:08,639 --> 00:08:13,759
+return zero the cost is zero or infinity
+
+217
+00:08:11,599 --> 00:08:15,840
+depending on the requirement so this is
+
+218
+00:08:13,759 --> 00:08:18,080
+the preference search so
+
+219
+00:08:15,840 --> 00:08:19,120
+we are taking everything out of the
+
+220
+00:08:18,080 --> 00:08:22,000
+queue
+
+221
+00:08:19,120 --> 00:08:25,919
+so we can use this d to
+
+222
+00:08:22,000 --> 00:08:28,960
+compute the cost the number of steps
+
+223
+00:08:25,919 --> 00:08:31,199
+right so when we find us j
+
+224
+00:08:28,960 --> 00:08:32,719
+when we find the destination that d will
+
+225
+00:08:31,199 --> 00:08:35,360
+be the distance
+
+226
+00:08:32,719 --> 00:08:36,560
+if not if we take one element out of q
+
+227
+00:08:35,360 --> 00:08:38,719
+we have to
+
+228
+00:08:36,560 --> 00:08:42,159
+put the top up we have to remember the
+
+229
+00:08:38,719 --> 00:08:44,800
+cost by the vertex so we can push the
+
+230
+00:08:42,159 --> 00:08:46,399
+uh like i and then the cost will be zero
+
+231
+00:08:44,800 --> 00:08:47,920
+when we do this ink you're putting an
+
+232
+00:08:46,399 --> 00:08:50,000
+item back to the key we need to
+
+233
+00:08:47,920 --> 00:08:52,000
+increment the cost by plus equal one
+
+234
+00:08:50,000 --> 00:08:53,600
+this is another approach okay
+
+235
+00:08:52,000 --> 00:08:54,880
+let's pray for search any questions so
+
+236
+00:08:53,600 --> 00:08:56,640
+far
+
+237
+00:08:54,880 --> 00:08:59,760
+really okay so what have you learned
+
+238
+00:08:56,640 --> 00:08:59,760
+today what's new
+
+239
+00:09:02,240 --> 00:09:06,160
+about breakfast
+
+240
+00:09:04,080 --> 00:09:06,700
+about finding
+
+241
+00:09:06,160 --> 00:09:09,859
+the
+
+242
+00:09:06,700 --> 00:09:09,859
+[Music]
+
+243
+00:09:12,240 --> 00:09:16,080
+that's very good yeah for the unweighted
+
+244
+00:09:14,240 --> 00:09:17,600
+graph we can use the preferences but if
+
+245
+00:09:16,080 --> 00:09:19,360
+it's weighted grab we cannot use the
+
+246
+00:09:17,600 --> 00:09:21,200
+preference session for the weighted
+
+247
+00:09:19,360 --> 00:09:23,360
+graph we can use the uniform cross
+
+248
+00:09:21,200 --> 00:09:25,680
+search or we can use the dick saucer or
+
+249
+00:09:23,360 --> 00:09:28,160
+we can use fried washer there are quite
+
+250
+00:09:25,680 --> 00:09:30,000
+a few different uh shortest parts like
+
+251
+00:09:28,160 --> 00:09:32,320
+maybe different different scenarios we
+
+252
+00:09:30,000 --> 00:09:34,560
+can apply each algorithm too okay the
+
+253
+00:09:32,320 --> 00:09:37,360
+qualification is quite useful real life
+
+254
+00:09:34,560 --> 00:09:39,680
+application can be visualized can be
+
+255
+00:09:37,360 --> 00:09:42,000
+modeled as the graph problem and we can
+
+256
+00:09:39,680 --> 00:09:43,279
+find the shortest path right we can find
+
+257
+00:09:42,000 --> 00:09:45,680
+the shutter pass
+
+258
+00:09:43,279 --> 00:09:48,680
+okay let's see bye bye
+
+259
+00:09:45,680 --> 00:09:48,680
+bye
+
+260
+00:09:50,480 --> 00:09:52,560
+you
+
