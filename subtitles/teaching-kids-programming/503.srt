@@ -1,0 +1,692 @@
+1
+00:00:00,000 --> 00:00:03,000
+right
+
+2
+00:00:03,659 --> 00:00:09,500
+on the space 2D Space X Y right X Y you
+
+3
+00:00:07,020 --> 00:00:09,500
+know this is
+
+4
+00:00:09,800 --> 00:00:16,260
+the condition X Y right so any we we are
+
+5
+00:00:13,920 --> 00:00:18,900
+talking about any four points any four
+
+6
+00:00:16,260 --> 00:00:21,960
+points on the space can you tell me
+
+7
+00:00:18,900 --> 00:00:25,580
+if we can use these four points to make
+
+8
+00:00:21,960 --> 00:00:28,619
+a square yes
+
+9
+00:00:25,580 --> 00:00:31,980
+so how do we check if it's a square
+
+10
+00:00:28,619 --> 00:00:34,739
+edges so edges by these four points you
+
+11
+00:00:31,980 --> 00:00:37,320
+have P1 P2 P3 P4 is not given in order
+
+12
+00:00:34,739 --> 00:00:41,700
+so you know it could be P1 here P2 here
+
+13
+00:00:37,320 --> 00:00:43,440
+P3 here P4 here so as long as uh these
+
+14
+00:00:41,700 --> 00:00:45,300
+four four points computation we can make
+
+15
+00:00:43,440 --> 00:00:47,700
+that square then return true so any idea
+
+16
+00:00:45,300 --> 00:00:50,640
+I mean each he said edges the distance
+
+17
+00:00:47,700 --> 00:00:52,379
+given two points on Space how do we
+
+18
+00:00:50,640 --> 00:00:55,559
+calculate the distance
+
+19
+00:00:52,379 --> 00:00:57,180
+you know this here here how do we
+
+20
+00:00:55,559 --> 00:01:01,859
+calculate the distance
+
+21
+00:00:57,180 --> 00:01:05,220
+for example if this one is X1 y1 this
+
+22
+00:01:01,859 --> 00:01:08,280
+one is X2 Y2 if we are talking about 2D
+
+23
+00:01:05,220 --> 00:01:10,860
+Dimension so the distance distance
+
+24
+00:01:08,280 --> 00:01:13,520
+how do you calculate distance
+
+25
+00:01:10,860 --> 00:01:13,520
+is
+
+26
+00:01:14,040 --> 00:01:19,380
+is what so easily this this is a
+
+27
+00:01:17,880 --> 00:01:22,439
+triangle right triangle yeah we talk
+
+28
+00:01:19,380 --> 00:01:25,619
+about this right triangle
+
+29
+00:01:22,439 --> 00:01:28,920
+okay this is a this is B
+
+30
+00:01:25,619 --> 00:01:32,939
+this is C remember yeah so what do we
+
+31
+00:01:28,920 --> 00:01:35,579
+have a square plus p square equals c
+
+32
+00:01:32,939 --> 00:01:38,460
+square right very important this is y
+
+33
+00:01:35,579 --> 00:01:42,720
+times 90 degree A and B so look at this
+
+34
+00:01:38,460 --> 00:01:44,159
+speed this bit is X1 minus X2 or X2
+
+35
+00:01:42,720 --> 00:01:48,240
+minus X1
+
+36
+00:01:44,159 --> 00:01:52,259
+yeah this absolute value okay this bit
+
+37
+00:01:48,240 --> 00:01:53,939
+y1 minus Y2 or Y 2 minus y1 right so if
+
+38
+00:01:52,259 --> 00:01:58,259
+we Square it
+
+39
+00:01:53,939 --> 00:02:00,420
+squared plus y1 minus y 2 squared and
+
+40
+00:01:58,259 --> 00:02:05,780
+then equal this the distance square
+
+41
+00:02:00,420 --> 00:02:05,780
+equals distance square right look so
+
+42
+00:02:08,099 --> 00:02:13,620
+so we just do this uh square root of
+
+43
+00:02:10,860 --> 00:02:16,980
+both sides right so that become D
+
+44
+00:02:13,620 --> 00:02:21,720
+distance equals square root of X1 minus
+
+45
+00:02:16,980 --> 00:02:24,300
+X2 square plus y y minus Y2 Square now
+
+46
+00:02:21,720 --> 00:02:25,920
+Four Points so we can just prove us the
+
+47
+00:02:24,300 --> 00:02:28,739
+distance we calculate the distance
+
+48
+00:02:25,920 --> 00:02:31,920
+between any two pairs any two points
+
+49
+00:02:28,739 --> 00:02:34,680
+and then we put it in a set
+
+50
+00:02:31,920 --> 00:02:36,360
+so how many different distance do we
+
+51
+00:02:34,680 --> 00:02:38,580
+have if it's a square come on this is a
+
+52
+00:02:36,360 --> 00:02:39,780
+question if we calculate any pair of
+
+53
+00:02:38,580 --> 00:02:41,819
+distance
+
+54
+00:02:39,780 --> 00:02:44,580
+how many possibilities if it's a square
+
+55
+00:02:41,819 --> 00:02:47,400
+how many possibilities okay so look
+
+56
+00:02:44,580 --> 00:02:50,160
+maybe my question was not clear so if we
+
+57
+00:02:47,400 --> 00:02:52,440
+calculate the distance right so between
+
+58
+00:02:50,160 --> 00:02:54,660
+any two points so how many possibilities
+
+59
+00:02:52,440 --> 00:02:56,099
+if it's a square right if it's a square
+
+60
+00:02:54,660 --> 00:02:58,400
+how many possibilities how about the
+
+61
+00:02:56,099 --> 00:03:00,560
+values how about this the diagonals okay
+
+62
+00:02:58,400 --> 00:03:02,879
+yeah
+
+63
+00:03:00,560 --> 00:03:06,540
+so how many possibilities
+
+64
+00:03:02,879 --> 00:03:09,360
+two two yeah yeah look at these at least
+
+65
+00:03:06,540 --> 00:03:11,519
+yeah look at least four same
+
+66
+00:03:09,360 --> 00:03:15,840
+the diagnose the same right
+
+67
+00:03:11,519 --> 00:03:17,879
+so so simple Four Points we prove us the
+
+68
+00:03:15,840 --> 00:03:19,800
+pairs
+
+69
+00:03:17,879 --> 00:03:21,720
+yeah if it's different like you'll
+
+70
+00:03:19,800 --> 00:03:22,760
+calculate this distance distance
+
+71
+00:03:21,720 --> 00:03:25,620
+distance distance
+
+72
+00:03:22,760 --> 00:03:27,299
+and we put it in a set and if it's a
+
+73
+00:03:25,620 --> 00:03:30,360
+square then
+
+74
+00:03:27,299 --> 00:03:32,400
+the set the number of distance different
+
+75
+00:03:30,360 --> 00:03:35,340
+kind of distance in a set should be two
+
+76
+00:03:32,400 --> 00:03:36,780
+right because it's but there's a very
+
+77
+00:03:35,340 --> 00:03:40,319
+special case
+
+78
+00:03:36,780 --> 00:03:45,299
+it's not it's not enough look how about
+
+79
+00:03:40,319 --> 00:03:48,540
+look if P1 P2 and P3
+
+80
+00:03:45,299 --> 00:03:50,580
+the three values they they are the same
+
+81
+00:03:48,540 --> 00:03:52,920
+they collect
+
+82
+00:03:50,580 --> 00:03:54,959
+in one point and how about P4 is here so
+
+83
+00:03:52,920 --> 00:03:58,920
+how many how many distance here some
+
+84
+00:03:54,959 --> 00:04:02,040
+distance two right the one distance P1
+
+85
+00:03:58,920 --> 00:04:04,379
+and P1 distance to P2 is zero so zero
+
+86
+00:04:02,040 --> 00:04:06,480
+and that is also two so but we have to
+
+87
+00:04:04,379 --> 00:04:09,060
+is through this this situation am I
+
+88
+00:04:06,480 --> 00:04:11,879
+right yeah okay so the idea is that we
+
+89
+00:04:09,060 --> 00:04:14,519
+put we compute the distance between all
+
+90
+00:04:11,879 --> 00:04:17,459
+pair of combinations of vertex therefore
+
+91
+00:04:14,519 --> 00:04:19,440
+right so we can prove something easily
+
+92
+00:04:17,459 --> 00:04:22,919
+and I will check the size of the
+
+93
+00:04:19,440 --> 00:04:24,840
+distance set it has to be two and also
+
+94
+00:04:22,919 --> 00:04:27,780
+we checked
+
+95
+00:04:24,840 --> 00:04:30,060
+the distance of zero it shouldn't be any
+
+96
+00:04:27,780 --> 00:04:32,400
+because if it's any means that two
+
+97
+00:04:30,060 --> 00:04:34,080
+points or more they are the same right
+
+98
+00:04:32,400 --> 00:04:36,419
+they are the same points they just
+
+99
+00:04:34,080 --> 00:04:39,000
+Collide in space
+
+100
+00:04:36,419 --> 00:04:41,639
+okay so okay coming back to this this is
+
+101
+00:04:39,000 --> 00:04:43,919
+the coefficient distance for the 2D
+
+102
+00:04:41,639 --> 00:04:46,380
+space and we can extend this to 3D space
+
+103
+00:04:43,919 --> 00:04:47,460
+as well look look what's the distance
+
+104
+00:04:46,380 --> 00:04:50,580
+between
+
+105
+00:04:47,460 --> 00:04:53,580
+please please send this look XYZ right
+
+106
+00:04:50,580 --> 00:04:55,740
+the first street is 3D for the 3D look
+
+107
+00:04:53,580 --> 00:04:58,220
+this is 2D right 3D
+
+108
+00:04:55,740 --> 00:04:58,220
+X
+
+109
+00:04:59,160 --> 00:05:04,560
+y okay if you have to imagine and Z okay
+
+110
+00:05:02,400 --> 00:05:07,139
+so 3D space
+
+111
+00:05:04,560 --> 00:05:10,620
+x y z
+
+112
+00:05:07,139 --> 00:05:12,120
+okay let me just write it here
+
+113
+00:05:10,620 --> 00:05:14,220
+okay
+
+114
+00:05:12,120 --> 00:05:17,639
+so therefore Point P one p two P three p
+
+115
+00:05:14,220 --> 00:05:19,320
+four okay T equals D4 fictionally we're
+
+116
+00:05:17,639 --> 00:05:21,060
+going to count right we don't count the
+
+117
+00:05:19,320 --> 00:05:23,699
+distance the keys will be distance the
+
+118
+00:05:21,060 --> 00:05:28,199
+variables will be uh how many times of
+
+119
+00:05:23,699 --> 00:05:32,720
+this distance an array equals we put it
+
+120
+00:05:28,199 --> 00:05:38,520
+in a sample P1 P2
+
+121
+00:05:32,720 --> 00:05:41,820
+P3 T4 and then for distance for I in
+
+122
+00:05:38,520 --> 00:05:46,440
+range 4 right we are given four points
+
+123
+00:05:41,820 --> 00:05:49,320
+for J in range for J in range I okay so
+
+124
+00:05:46,440 --> 00:05:53,699
+then we can calculate the distance of a
+
+125
+00:05:49,320 --> 00:06:00,620
+r i to a r j so the distance would be
+
+126
+00:05:53,699 --> 00:06:03,000
+distance d i s t a r r i a r r z
+
+127
+00:06:00,620 --> 00:06:05,699
+okay we come back to this all right
+
+128
+00:06:03,000 --> 00:06:07,340
+distance actually is very simple Define
+
+129
+00:06:05,699 --> 00:06:11,600
+distance
+
+130
+00:06:07,340 --> 00:06:15,419
+uh a b V10
+
+131
+00:06:11,600 --> 00:06:20,639
+sqrt square root square root square root
+
+132
+00:06:15,419 --> 00:06:24,900
+of a0 minus B zero
+
+133
+00:06:20,639 --> 00:06:28,620
+Square Times 2 plus
+
+134
+00:06:24,900 --> 00:06:32,400
+a 1 minus P1
+
+135
+00:06:28,620 --> 00:06:38,520
+times 2 squared okay this is a distance
+
+136
+00:06:32,400 --> 00:06:40,440
+so d d okay then we use t d d plus
+
+137
+00:06:38,520 --> 00:06:42,539
+equals right we take it at the distance
+
+138
+00:06:40,440 --> 00:06:44,639
+with plus equals one we count how many
+
+139
+00:06:42,539 --> 00:06:47,639
+how many times the distance appear in
+
+140
+00:06:44,639 --> 00:06:49,620
+the in a in a sec in this is a
+
+141
+00:06:47,639 --> 00:06:50,900
+dictionary okay and then at the end we
+
+142
+00:06:49,620 --> 00:06:52,699
+just have to check
+
+143
+00:06:50,900 --> 00:06:57,000
+DD
+
+144
+00:06:52,699 --> 00:07:00,120
+t zero needs to be zero right
+
+145
+00:06:57,000 --> 00:07:03,000
+we don't allowed any two points that are
+
+146
+00:07:00,120 --> 00:07:04,259
+the same right zero distance zero should
+
+147
+00:07:03,000 --> 00:07:05,759
+be zero
+
+148
+00:07:04,259 --> 00:07:09,539
+and
+
+149
+00:07:05,759 --> 00:07:11,880
+men's T needs to equals how many how
+
+150
+00:07:09,539 --> 00:07:14,520
+many two yeah
+
+151
+00:07:11,880 --> 00:07:16,580
+why I love it right what's the time time
+
+152
+00:07:14,520 --> 00:07:18,539
+like see if you look at this
+
+153
+00:07:16,580 --> 00:07:19,979
+yeah because we're working on four
+
+154
+00:07:18,539 --> 00:07:21,900
+points and we just do some calculation
+
+155
+00:07:19,979 --> 00:07:23,340
+what have you learned today what's the
+
+156
+00:07:21,900 --> 00:07:26,819
+problem what have you done today
+
+157
+00:07:23,340 --> 00:07:28,280
+The Violet Square we have given four
+
+158
+00:07:26,819 --> 00:07:31,259
+points
+
+159
+00:07:28,280 --> 00:07:33,180
+square if we can make a square out of
+
+160
+00:07:31,259 --> 00:07:35,280
+these four points right so how do we
+
+161
+00:07:33,180 --> 00:07:39,660
+check we count
+
+162
+00:07:35,280 --> 00:07:41,520
+the distance between the vertex right
+
+163
+00:07:39,660 --> 00:07:44,099
+if it's a square how many kinds of
+
+164
+00:07:41,520 --> 00:07:45,780
+distance do we have two yeah but also
+
+165
+00:07:44,099 --> 00:07:47,340
+there's a very special case we have to
+
+166
+00:07:45,780 --> 00:07:50,099
+rule out which is
+
+167
+00:07:47,340 --> 00:07:53,400
+this one three points actually the same
+
+168
+00:07:50,099 --> 00:07:56,280
+analyze P4 because look if you calculate
+
+169
+00:07:53,400 --> 00:07:59,940
+the distance there will be two right
+
+170
+00:07:56,280 --> 00:08:03,539
+it's yellow because the points Collide
+
+171
+00:07:59,940 --> 00:08:07,639
+the the distance zero right the same and
+
+172
+00:08:03,539 --> 00:08:07,639
+pin one to P4 another one okay
+
+173
+00:08:07,879 --> 00:08:11,879
+bye-bye bye
+
