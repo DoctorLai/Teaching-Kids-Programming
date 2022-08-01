@@ -1,0 +1,788 @@
+1
+00:00:00,000 --> 00:00:05,040
+hello mr mr rhino right
+
+2
+00:00:02,480 --> 00:00:05,040
+what's this
+
+3
+00:00:05,920 --> 00:00:09,679
+square oh yeah square oh what's this
+
+4
+00:00:08,320 --> 00:00:11,040
+data structure
+
+5
+00:00:09,679 --> 00:00:12,240
+cycle
+
+6
+00:00:11,040 --> 00:00:16,519
+yeah so what kind of thing we are
+
+7
+00:00:12,240 --> 00:00:16,519
+talking about when we talk about cycles
+
+8
+00:00:21,039 --> 00:00:24,800
+the thing i'm looking for here okay wow
+
+9
+00:00:23,439 --> 00:00:27,199
+okay so look
+
+10
+00:00:24,800 --> 00:00:28,640
+imagine this is the bus stop right zero
+
+11
+00:00:27,199 --> 00:00:31,359
+therefore bus stop and then there are
+
+12
+00:00:28,640 --> 00:00:33,840
+cycles yeah the bus stop so the
+
+13
+00:00:31,359 --> 00:00:36,160
+distance between zero and one the vertex
+
+14
+00:00:33,840 --> 00:00:38,000
+here in the graph is one and one to two
+
+15
+00:00:36,160 --> 00:00:40,079
+is two two two three three three two
+
+16
+00:00:38,000 --> 00:00:42,719
+four is uh three to zero
+
+17
+00:00:40,079 --> 00:00:45,719
+undirected weighted class and directly
+
+18
+00:00:42,719 --> 00:00:45,719
+radical
+
+19
+00:00:47,200 --> 00:00:53,039
+wait wait it means that
+
+20
+00:00:50,320 --> 00:00:54,800
+the edge is between the vertex that
+
+21
+00:00:53,039 --> 00:00:55,680
+is noted right
+
+22
+00:00:54,800 --> 00:00:58,640
+here
+
+23
+00:00:55,680 --> 00:01:00,640
+okay so if we given a start and stop
+
+24
+00:00:58,640 --> 00:01:02,160
+right for example like we're given a
+
+25
+00:01:00,640 --> 00:01:03,120
+star and
+
+26
+00:01:02,160 --> 00:01:05,119
+here
+
+27
+00:01:03,120 --> 00:01:06,720
+and a stop and here we're given only two
+
+28
+00:01:05,119 --> 00:01:08,960
+vertex here so we want to find out the
+
+29
+00:01:06,720 --> 00:01:10,799
+shortest distance between them so what's
+
+30
+00:01:08,960 --> 00:01:12,880
+the shortest distance between perfect
+
+31
+00:01:10,799 --> 00:01:14,640
+zero and vertex one if you look at this
+
+32
+00:01:12,880 --> 00:01:16,400
+graph yeah if you're looking at let's go
+
+33
+00:01:14,640 --> 00:01:19,119
+ahead and this one
+
+34
+00:01:16,400 --> 00:01:21,360
+one one okay if i put this eight what's
+
+35
+00:01:19,119 --> 00:01:23,119
+the self-existence between
+
+36
+00:01:21,360 --> 00:01:24,720
+maybe not eighteen okay what's the
+
+37
+00:01:23,119 --> 00:01:27,520
+celtics this one between zero two and
+
+38
+00:01:24,720 --> 00:01:29,920
+one that can be that's impossible why
+
+39
+00:01:27,520 --> 00:01:30,880
+because they would they have the same
+
+40
+00:01:29,920 --> 00:01:34,240
+length
+
+41
+00:01:30,880 --> 00:01:36,000
+but they have different lengths but yeah
+
+42
+00:01:34,240 --> 00:01:38,479
+i know fuck it up at least it's weighted
+
+43
+00:01:36,000 --> 00:01:40,880
+yeah at the bottom it's three but at the
+
+44
+00:01:38,479 --> 00:01:40,880
+top is
+
+45
+00:01:43,920 --> 00:01:48,640
+we're not actually looking at the length
+
+46
+00:01:46,560 --> 00:01:50,479
+that's why we say weighted what's the
+
+47
+00:01:48,640 --> 00:01:55,799
+shortest system between zero and one or
+
+48
+00:01:50,479 --> 00:01:55,799
+one two two nine how do you get that
+
+49
+00:01:55,920 --> 00:01:59,200
+yeah so basically how many choices can
+
+50
+00:01:57,759 --> 00:02:00,880
+we get
+
+51
+00:01:59,200 --> 00:02:02,799
+travel between two stops in this
+
+52
+00:02:00,880 --> 00:02:04,719
+particular and weighted direction i'm
+
+53
+00:02:02,799 --> 00:02:06,479
+waiting wait
+
+54
+00:02:04,719 --> 00:02:08,720
+yeah yeah in this square and direct
+
+55
+00:02:06,479 --> 00:02:10,879
+weight graph remember we we have list
+
+56
+00:02:08,720 --> 00:02:14,560
+here too yeah so we want to find the
+
+57
+00:02:10,879 --> 00:02:16,480
+minimum of it we are given uh undirected
+
+58
+00:02:14,560 --> 00:02:19,200
+right both way and directly means both
+
+59
+00:02:16,480 --> 00:02:22,400
+ways weighted graph means the
+
+60
+00:02:19,200 --> 00:02:24,720
+cost between the edges are different
+
+61
+00:02:22,400 --> 00:02:27,360
+right if it's a weight and weighted it
+
+62
+00:02:24,720 --> 00:02:30,080
+means the cost between the edges are all
+
+63
+00:02:27,360 --> 00:02:32,480
+the same we can think of it as
+
+64
+00:02:30,080 --> 00:02:33,760
+one or equal yeah
+
+65
+00:02:32,480 --> 00:02:37,040
+okay so
+
+66
+00:02:33,760 --> 00:02:38,560
+if an aggregate can be used on a
+
+67
+00:02:37,040 --> 00:02:40,800
+directed
+
+68
+00:02:38,560 --> 00:02:44,080
+graph then it can also be used in the
+
+69
+00:02:40,800 --> 00:02:47,040
+undirected one am right yeah if a
+
+70
+00:02:44,080 --> 00:02:49,360
+aggregate can be used on a weighty graph
+
+71
+00:02:47,040 --> 00:02:51,519
+then it can also be used on the iota
+
+72
+00:02:49,360 --> 00:02:53,599
+graph this is a simple question we can
+
+73
+00:02:51,519 --> 00:02:55,360
+just like uh compare the minimum two
+
+74
+00:02:53,599 --> 00:02:57,760
+parts to make sure the first index
+
+75
+00:02:55,360 --> 00:03:00,319
+always comes before the second index we
+
+76
+00:02:57,760 --> 00:03:01,840
+can compute the distance of these and
+
+77
+00:03:00,319 --> 00:03:04,480
+then the distance of that and we could
+
+78
+00:03:01,840 --> 00:03:05,840
+get a minimum define the shortest
+
+79
+00:03:04,480 --> 00:03:07,760
+distance
+
+80
+00:03:05,840 --> 00:03:09,519
+in the graph right in the graph we given
+
+81
+00:03:07,760 --> 00:03:11,200
+this the distance and then we have
+
+82
+00:03:09,519 --> 00:03:13,280
+released the star
+
+83
+00:03:11,200 --> 00:03:15,599
+and we have a stop
+
+84
+00:03:13,280 --> 00:03:17,920
+so the star
+
+85
+00:03:15,599 --> 00:03:20,159
+star may come after stop in the ground
+
+86
+00:03:17,920 --> 00:03:22,640
+right the star maybe comes after the
+
+87
+00:03:20,159 --> 00:03:25,920
+stop so in the in the case we can swap
+
+88
+00:03:22,640 --> 00:03:27,840
+it so if star is bigger than stop
+
+89
+00:03:25,920 --> 00:03:30,480
+then we swap it how do we swap two
+
+90
+00:03:27,840 --> 00:03:33,040
+variables a and b how do we swap a and b
+
+91
+00:03:30,480 --> 00:03:35,040
+here
+
+92
+00:03:33,040 --> 00:03:37,519
+a b equals one b
+
+93
+00:03:35,040 --> 00:03:39,200
+easy only in python you can do this but
+
+94
+00:03:37,519 --> 00:03:42,159
+if it's other problem in language we
+
+95
+00:03:39,200 --> 00:03:44,159
+need to use that another variable
+
+96
+00:03:42,159 --> 00:03:46,480
+another variable to do it so for the t
+
+97
+00:03:44,159 --> 00:03:49,200
+equals a a equals b
+
+98
+00:03:46,480 --> 00:03:51,280
+b equals b right
+
+99
+00:03:49,200 --> 00:03:52,400
+yeah
+
+100
+00:03:51,280 --> 00:03:55,360
+we need to
+
+101
+00:03:52,400 --> 00:03:58,000
+to make a copy of the value of a and
+
+102
+00:03:55,360 --> 00:04:00,000
+before i assign a new value b
+
+103
+00:03:58,000 --> 00:04:02,640
+right and then this this is to restore
+
+104
+00:04:00,000 --> 00:04:04,640
+the value original value of a so this is
+
+105
+00:04:02,640 --> 00:04:07,120
+the traditional way of changing two
+
+106
+00:04:04,640 --> 00:04:10,879
+variables using the third variable
+
+107
+00:04:07,120 --> 00:04:14,000
+if start you can stop then start stop
+
+108
+00:04:10,879 --> 00:04:16,079
+uh equals stop star okay we're just uh
+
+109
+00:04:14,000 --> 00:04:16,959
+changing these two variables so after
+
+110
+00:04:16,079 --> 00:04:19,680
+this
+
+111
+00:04:16,959 --> 00:04:21,199
+so the star is always smaller than stop
+
+112
+00:04:19,680 --> 00:04:23,600
+okay now we want to calculate the
+
+113
+00:04:21,199 --> 00:04:26,479
+distance here this distance
+
+114
+00:04:23,600 --> 00:04:28,720
+d1 equals
+
+115
+00:04:26,479 --> 00:04:31,440
+sum we're using the sum right
+
+116
+00:04:28,720 --> 00:04:34,240
+some distance of uh star
+
+117
+00:04:31,440 --> 00:04:34,240
+up to stop
+
+118
+00:04:34,880 --> 00:04:38,160
+this is this thing how do we calculate
+
+119
+00:04:36,880 --> 00:04:40,000
+this this bit
+
+120
+00:04:38,160 --> 00:04:42,960
+how do you get this bit come on there
+
+121
+00:04:40,000 --> 00:04:45,600
+are two ways of doing it this bit is d y
+
+122
+00:04:42,960 --> 00:04:48,639
+which is calculated d1 equals sum b star
+
+123
+00:04:45,600 --> 00:04:50,160
+to stop what's the distance of this bit
+
+124
+00:04:48,639 --> 00:04:51,759
+how to get that
+
+125
+00:04:50,160 --> 00:04:52,880
+two way there are two ways of doing
+
+126
+00:04:51,759 --> 00:04:54,960
+adding
+
+127
+00:04:52,880 --> 00:04:57,199
+adding yeah we can add it or we can do
+
+128
+00:04:54,960 --> 00:05:01,039
+this subtraction yeah we know if we know
+
+129
+00:04:57,199 --> 00:05:01,840
+this all together if we say d
+
+130
+00:05:01,039 --> 00:05:05,440
+d
+
+131
+00:05:01,840 --> 00:05:07,919
+zero equals sum of everything d
+
+132
+00:05:05,440 --> 00:05:12,160
+right so this is every chord then with d
+
+133
+00:05:07,919 --> 00:05:14,800
+two would be t 0 minus b 1 right right
+
+134
+00:05:12,160 --> 00:05:17,600
+the total cost is 18 plus 2 plus 3 plus
+
+135
+00:05:14,800 --> 00:05:20,160
+4 minus 18 and of course will be the
+
+136
+00:05:17,600 --> 00:05:22,240
+other part the cost the distance between
+
+137
+00:05:20,160 --> 00:05:23,199
+other times so we just return the
+
+138
+00:05:22,240 --> 00:05:24,800
+minimum
+
+139
+00:05:23,199 --> 00:05:26,880
+minimum of
+
+140
+00:05:24,800 --> 00:05:30,720
+d1
+
+141
+00:05:26,880 --> 00:05:32,800
+and then d2 here this is star
+
+142
+00:05:30,720 --> 00:05:34,240
+and this is stop
+
+143
+00:05:32,800 --> 00:05:36,000
+another way will be
+
+144
+00:05:34,240 --> 00:05:39,520
+calculate this bit
+
+145
+00:05:36,000 --> 00:05:42,880
+this bit plus this bit okay so
+
+146
+00:05:39,520 --> 00:05:44,160
+so this d2 can also be written as
+
+147
+00:05:42,880 --> 00:05:45,360
+sum
+
+148
+00:05:44,160 --> 00:05:48,720
+of the
+
+149
+00:05:45,360 --> 00:05:48,720
+d up to star
+
+150
+00:05:49,919 --> 00:05:54,479
+plus sum b
+
+151
+00:05:53,120 --> 00:05:56,880
+stop
+
+152
+00:05:54,479 --> 00:05:57,919
+to the end right
+
+153
+00:05:56,880 --> 00:06:00,960
+one way
+
+154
+00:05:57,919 --> 00:06:01,919
+we know this t1 yeah d1 is start to stop
+
+155
+00:06:00,960 --> 00:06:04,840
+here
+
+156
+00:06:01,919 --> 00:06:07,520
+so one way is to to do this
+
+157
+00:06:04,840 --> 00:06:10,080
+subtraction the other way is calculate
+
+158
+00:06:07,520 --> 00:06:12,319
+the distance between the star and the
+
+159
+00:06:10,080 --> 00:06:13,199
+distance after the stop because these
+
+160
+00:06:12,319 --> 00:06:14,319
+two
+
+161
+00:06:13,199 --> 00:06:16,400
+these two
+
+162
+00:06:14,319 --> 00:06:18,880
+runs up a circle right look at this
+
+163
+00:06:16,400 --> 00:06:21,520
+these two wrong double center
+
+164
+00:06:18,880 --> 00:06:23,360
+yeah
+
+165
+00:06:21,520 --> 00:06:26,240
+one last question what's the problem and
+
+166
+00:06:23,360 --> 00:06:26,240
+what have you learned today
+
+167
+00:06:29,520 --> 00:06:33,600
+what what do we have here what do we
+
+168
+00:06:31,199 --> 00:06:35,520
+have here this is bus stop mr bus stop
+
+169
+00:06:33,600 --> 00:06:37,919
+and what do we have
+
+170
+00:06:35,520 --> 00:06:40,400
+we have
+
+171
+00:06:37,919 --> 00:06:42,720
+a graph we have got what kind of graph
+
+172
+00:06:40,400 --> 00:06:42,720
+is it
+
+173
+00:06:42,960 --> 00:06:47,120
+i directly weighted one we want to
+
+174
+00:06:45,280 --> 00:06:49,199
+calculate the shortest distance and
+
+175
+00:06:47,120 --> 00:06:51,759
+there's only two possibilities this is a
+
+176
+00:06:49,199 --> 00:06:53,599
+very simple graph it's a regular graph
+
+177
+00:06:51,759 --> 00:06:55,120
+uh okay so we let's talk about the
+
+178
+00:06:53,599 --> 00:06:57,039
+concept the graphical graph regular
+
+179
+00:06:55,120 --> 00:06:58,960
+graph is that any vertex in the graph
+
+180
+00:06:57,039 --> 00:07:01,440
+has the same number of neighbors for
+
+181
+00:06:58,960 --> 00:07:03,440
+example each vertex in the in
+
+182
+00:07:01,440 --> 00:07:06,000
+has a same number of vertex right the
+
+183
+00:07:03,440 --> 00:07:08,160
+number of same number of neighbors this
+
+184
+00:07:06,000 --> 00:07:10,160
+is the squad which has a cycle it's a
+
+185
+00:07:08,160 --> 00:07:12,720
+regular graph it's a connected graph
+
+186
+00:07:10,160 --> 00:07:15,199
+right all of uh neighbors can be visited
+
+187
+00:07:12,720 --> 00:07:17,280
+by any all the vertex can be visited by
+
+188
+00:07:15,199 --> 00:07:20,000
+any vertex right and then it's a
+
+189
+00:07:17,280 --> 00:07:21,919
+indirectly it's a wavy graph and then we
+
+190
+00:07:20,000 --> 00:07:24,400
+only have two possibilities we just
+
+191
+00:07:21,919 --> 00:07:27,440
+iterate we just pull for 6 right the
+
+192
+00:07:24,400 --> 00:07:29,599
+time complexity is o and if n vertex
+
+193
+00:07:27,440 --> 00:07:32,080
+right because we want to calculate the
+
+194
+00:07:29,599 --> 00:07:33,919
+distance the sum of the distance between
+
+195
+00:07:32,080 --> 00:07:35,280
+a newton's stop okay that's it for today
+
+196
+00:07:33,919 --> 00:07:38,280
+bye bye
+
+197
+00:07:35,280 --> 00:07:38,280
+bye
+
