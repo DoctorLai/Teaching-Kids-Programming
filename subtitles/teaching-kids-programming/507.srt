@@ -1,0 +1,1264 @@
+1
+00:00:00,240 --> 00:00:06,240
+hello hello mr mr ryan are you right yes
+
+2
+00:00:04,480 --> 00:00:07,279
+okay okay that's it that's it no more
+
+3
+00:00:06,240 --> 00:00:09,680
+yeah
+
+4
+00:00:07,279 --> 00:00:09,680
+okay
+
+5
+00:00:10,559 --> 00:00:15,120
+yeah yeah that's it
+
+6
+00:00:12,559 --> 00:00:18,560
+we talked about the graph ignorant for a
+
+7
+00:00:15,120 --> 00:00:20,160
+few days now we talk about backstrike
+
+8
+00:00:18,560 --> 00:00:21,520
+we talk about
+
+9
+00:00:20,160 --> 00:00:23,279
+floyd
+
+10
+00:00:21,520 --> 00:00:25,039
+water
+
+11
+00:00:23,279 --> 00:00:27,599
+we talk about
+
+12
+00:00:25,039 --> 00:00:29,199
+breakfast search definite search
+
+13
+00:00:27,599 --> 00:00:30,640
+and also
+
+14
+00:00:29,199 --> 00:00:33,280
+one is missing
+
+15
+00:00:30,640 --> 00:00:37,440
+uniform cross search these currently are
+
+16
+00:00:33,280 --> 00:00:37,440
+five churches plus equal right now okay
+
+17
+00:00:37,840 --> 00:00:42,320
+extra
+
+18
+00:00:39,360 --> 00:00:45,840
+weighted yeah we can use it on weighted
+
+19
+00:00:42,320 --> 00:00:45,840
+freud water weighted as well
+
+20
+00:00:46,000 --> 00:00:50,719
+breakfast search and weighted deficit
+
+21
+00:00:48,719 --> 00:00:53,120
+and weighted uniform cost is the
+
+22
+00:00:50,719 --> 00:00:54,079
+variance of the extra which is weighted
+
+23
+00:00:53,120 --> 00:00:57,360
+right
+
+24
+00:00:54,079 --> 00:00:59,280
+the time complexity this one o
+
+25
+00:00:57,360 --> 00:01:01,440
+e plus v
+
+26
+00:00:59,280 --> 00:01:03,440
+log b
+
+27
+00:01:01,440 --> 00:01:07,040
+formulas are always
+
+28
+00:01:03,440 --> 00:01:08,400
+cubic breakfast search o v plus e
+
+29
+00:01:07,040 --> 00:01:12,320
+therefore search is the same just
+
+30
+00:01:08,400 --> 00:01:14,320
+differs the way that expand the notes
+
+31
+00:01:12,320 --> 00:01:16,080
+minimum cost search is the same as that
+
+32
+00:01:14,320 --> 00:01:17,759
+okay
+
+33
+00:01:16,080 --> 00:01:19,200
+this is the time consistency okay so
+
+34
+00:01:17,759 --> 00:01:20,479
+when we talk about the context for
+
+35
+00:01:19,200 --> 00:01:23,119
+example the preference of the
+
+36
+00:01:20,479 --> 00:01:25,600
+differences we usually like to represent
+
+37
+00:01:23,119 --> 00:01:28,640
+it as a v-plus inverse vertical edges
+
+38
+00:01:25,600 --> 00:01:30,000
+but sometimes we can also use this o
+
+39
+00:01:28,640 --> 00:01:33,520
+b
+
+40
+00:01:30,000 --> 00:01:33,520
+d okay b d
+
+41
+00:01:33,759 --> 00:01:38,240
+b to the power of d b is the branching
+
+42
+00:01:36,159 --> 00:01:41,360
+factor so for example a tree right a
+
+43
+00:01:38,240 --> 00:01:43,840
+tree we talk about the trees a tree
+
+44
+00:01:41,360 --> 00:01:46,000
+branching factor here is two right
+
+45
+00:01:43,840 --> 00:01:48,560
+because each node has two kids crunching
+
+46
+00:01:46,000 --> 00:01:49,680
+factor two d is the depth
+
+47
+00:01:48,560 --> 00:01:51,920
+okay
+
+48
+00:01:49,680 --> 00:01:53,840
+so you can imagine that in order to do
+
+49
+00:01:51,920 --> 00:01:54,799
+this definition breakfast search on this
+
+50
+00:01:53,840 --> 00:01:57,280
+tree
+
+51
+00:01:54,799 --> 00:01:59,040
+binary tree the time complexes out to
+
+52
+00:01:57,280 --> 00:02:01,520
+the power of d
+
+53
+00:01:59,040 --> 00:02:03,840
+right because at each step if we
+
+54
+00:02:01,520 --> 00:02:06,479
+increment the depth number of nodes with
+
+55
+00:02:03,840 --> 00:02:09,520
+the bw we also talk about
+
+56
+00:02:06,479 --> 00:02:11,280
+the iterated deepening long time ago
+
+57
+00:02:09,520 --> 00:02:13,520
+iterated differently
+
+58
+00:02:11,280 --> 00:02:15,760
+this is basically like a graphic search
+
+59
+00:02:13,520 --> 00:02:18,000
+and deficit combined together the
+
+60
+00:02:15,760 --> 00:02:21,520
+problem with breakfast search is that we
+
+61
+00:02:18,000 --> 00:02:23,520
+need a space to store all the notes in
+
+62
+00:02:21,520 --> 00:02:25,520
+the same level so the space complexity
+
+63
+00:02:23,520 --> 00:02:26,879
+for this one if we talk about this b and
+
+64
+00:02:25,520 --> 00:02:28,400
+d is o
+
+65
+00:02:26,879 --> 00:02:29,680
+b to the power
+
+66
+00:02:28,400 --> 00:02:32,959
+b
+
+67
+00:02:29,680 --> 00:02:35,360
+the space convexity or o v right
+
+68
+00:02:32,959 --> 00:02:38,319
+but for the default search we only need
+
+69
+00:02:35,360 --> 00:02:40,400
+to need to store the look we need to
+
+70
+00:02:38,319 --> 00:02:42,959
+store one note per level so the space
+
+71
+00:02:40,400 --> 00:02:45,519
+complexities of the the preferred search
+
+72
+00:02:42,959 --> 00:02:47,519
+gives this optimal result
+
+73
+00:02:45,519 --> 00:02:50,080
+on an awaited graph if we search the
+
+74
+00:02:47,519 --> 00:02:51,680
+first node e5 is the shortest to the
+
+75
+00:02:50,080 --> 00:02:53,680
+source
+
+76
+00:02:51,680 --> 00:02:55,760
+the problem is that it uses too much
+
+77
+00:02:53,680 --> 00:02:56,959
+space the default search
+
+78
+00:02:55,760 --> 00:02:58,800
+it uses
+
+79
+00:02:56,959 --> 00:03:01,360
+less space but it's not optimal for
+
+80
+00:02:58,800 --> 00:03:03,599
+example like if the the optimum
+
+81
+00:03:01,360 --> 00:03:06,000
+node here is here right and the death
+
+82
+00:03:03,599 --> 00:03:08,400
+massage finds another number here and
+
+83
+00:03:06,000 --> 00:03:09,760
+you return it doesn't find this one
+
+84
+00:03:08,400 --> 00:03:10,800
+right it's not ultimate it's not
+
+85
+00:03:09,760 --> 00:03:13,440
+complete
+
+86
+00:03:10,800 --> 00:03:16,080
+iterative deepening search on the other
+
+87
+00:03:13,440 --> 00:03:18,720
+hand is it's a combination of death
+
+88
+00:03:16,080 --> 00:03:21,440
+search and preferences so so we have a
+
+89
+00:03:18,720 --> 00:03:23,680
+limit so we have a d so at the beginning
+
+90
+00:03:21,440 --> 00:03:26,640
+we said that d equals one then we
+
+91
+00:03:23,680 --> 00:03:29,920
+perform the definition but when the
+
+92
+00:03:26,640 --> 00:03:31,360
+nodes are beyond this d the depth still
+
+93
+00:03:29,920 --> 00:03:32,879
+stop
+
+94
+00:03:31,360 --> 00:03:34,319
+if we find it
+
+95
+00:03:32,879 --> 00:03:36,720
+great that's the
+
+96
+00:03:34,319 --> 00:03:38,640
+optimum right because d now is the
+
+97
+00:03:36,720 --> 00:03:41,680
+minimum right it's a minimum and then
+
+98
+00:03:38,640 --> 00:03:43,840
+now we if we don't find it we increment
+
+99
+00:03:41,680 --> 00:03:46,319
+d to b equals two and then we perform a
+
+100
+00:03:43,840 --> 00:03:50,159
+definition with the
+
+101
+00:03:46,319 --> 00:03:52,640
+dfs actually we perform a deficit
+
+102
+00:03:50,159 --> 00:03:55,040
+with maximum depth equals two sometimes
+
+103
+00:03:52,640 --> 00:03:58,080
+we call it that's limit search
+
+104
+00:03:55,040 --> 00:04:00,480
+okay and if we found a node that's the
+
+105
+00:03:58,080 --> 00:04:04,480
+ultimate node but if not we keep
+
+106
+00:04:00,480 --> 00:04:07,439
+incrementing the d until we find it one
+
+107
+00:04:04,480 --> 00:04:09,760
+so now that we want to find is uh
+
+108
+00:04:07,439 --> 00:04:10,640
+somewhere here this node yeah productive
+
+109
+00:04:09,760 --> 00:04:12,720
+search
+
+110
+00:04:10,640 --> 00:04:15,439
+to list right do this
+
+111
+00:04:12,720 --> 00:04:17,440
+for the preferences
+
+112
+00:04:15,439 --> 00:04:19,359
+here we find it this is the optimal well
+
+113
+00:04:17,440 --> 00:04:21,680
+for the test limit search iterated
+
+114
+00:04:19,359 --> 00:04:23,600
+differently okay so we set the limit to
+
+115
+00:04:21,680 --> 00:04:26,240
+one node so we perform a different
+
+116
+00:04:23,600 --> 00:04:29,040
+search and that's it we increment d and
+
+117
+00:04:26,240 --> 00:04:31,199
+we perform the of search
+
+118
+00:04:29,040 --> 00:04:33,040
+that's it we don't find any and we
+
+119
+00:04:31,199 --> 00:04:36,479
+increment d and
+
+120
+00:04:33,040 --> 00:04:36,479
+we perform a different search
+
+121
+00:04:36,639 --> 00:04:39,919
+and we still don't find it and when we
+
+122
+00:04:38,639 --> 00:04:42,800
+increment the d
+
+123
+00:04:39,919 --> 00:04:44,720
+we perform the differences
+
+124
+00:04:42,800 --> 00:04:46,560
+okay and then we find it
+
+125
+00:04:44,720 --> 00:04:49,120
+so this way we combine the different
+
+126
+00:04:46,560 --> 00:04:51,759
+search and graphics search we uh
+
+127
+00:04:49,120 --> 00:04:53,680
+into this iterated deepening
+
+128
+00:04:51,759 --> 00:04:56,479
+we have talked about this iterated
+
+129
+00:04:53,680 --> 00:04:58,560
+deepening a long time ago okay so look b
+
+130
+00:04:56,479 --> 00:05:01,280
+equal at the beginning we said zero so
+
+131
+00:04:58,560 --> 00:05:03,600
+while d smaller look we have defined
+
+132
+00:05:01,280 --> 00:05:06,400
+this uh iterative
+
+133
+00:05:03,600 --> 00:05:08,240
+depending search with the graph
+
+134
+00:05:06,400 --> 00:05:11,280
+and we want to find the
+
+135
+00:05:08,240 --> 00:05:13,520
+shortest path between s and e so look at
+
+136
+00:05:11,280 --> 00:05:16,320
+the iterative differences usually we use
+
+137
+00:05:13,520 --> 00:05:19,120
+the only and weight equation okay
+
+138
+00:05:16,320 --> 00:05:22,080
+y t is more than the maximum
+
+139
+00:05:19,120 --> 00:05:23,520
+so usually we want to give a maximum
+
+140
+00:05:22,080 --> 00:05:26,400
+depth right so
+
+141
+00:05:23,520 --> 00:05:28,320
+in a graph the longest the longest
+
+142
+00:05:26,400 --> 00:05:29,680
+distance you can travel is the number of
+
+143
+00:05:28,320 --> 00:05:30,800
+vertices right
+
+144
+00:05:29,680 --> 00:05:33,039
+yeah
+
+145
+00:05:30,800 --> 00:05:35,919
+the longest so we can say n equals the
+
+146
+00:05:33,039 --> 00:05:39,039
+length of g if this g is adjacent matrix
+
+147
+00:05:35,919 --> 00:05:40,080
+attrition this
+
+148
+00:05:39,039 --> 00:05:41,440
+answer
+
+149
+00:05:40,080 --> 00:05:44,639
+equals
+
+150
+00:05:41,440 --> 00:05:48,160
+that's the limit search
+
+151
+00:05:44,639 --> 00:05:49,199
+with this g we want to find the s to the
+
+152
+00:05:48,160 --> 00:05:53,199
+n
+
+153
+00:05:49,199 --> 00:05:57,680
+and with the depth right
+
+154
+00:05:53,199 --> 00:06:00,319
+if answer is we found it if we find it
+
+155
+00:05:57,680 --> 00:06:02,720
+then we write an answer
+
+156
+00:06:00,319 --> 00:06:04,960
+otherwise we just increment
+
+157
+00:06:02,720 --> 00:06:06,960
+that right and then return here will be
+
+158
+00:06:04,960 --> 00:06:08,720
+written not found
+
+159
+00:06:06,960 --> 00:06:10,960
+right so look at this is internally
+
+160
+00:06:08,720 --> 00:06:12,479
+different so it's just a while to
+
+161
+00:06:10,960 --> 00:06:14,800
+increment it
+
+162
+00:06:12,479 --> 00:06:17,120
+the depth max of death
+
+163
+00:06:14,800 --> 00:06:18,000
+if we don't find it we keep incrementing
+
+164
+00:06:17,120 --> 00:06:20,000
+the d
+
+165
+00:06:18,000 --> 00:06:24,240
+this is the depth and search that's
+
+166
+00:06:20,000 --> 00:06:25,600
+limit search dls is basically dfs
+
+167
+00:06:24,240 --> 00:06:27,120
+plus a
+
+168
+00:06:25,600 --> 00:06:28,639
+max
+
+169
+00:06:27,120 --> 00:06:30,720
+depth okay
+
+170
+00:06:28,639 --> 00:06:33,600
+so what makes them is that
+
+171
+00:06:30,720 --> 00:06:37,039
+if the depth goes beyond a d now we stop
+
+172
+00:06:33,600 --> 00:06:37,039
+we don't uh continue
+
+173
+00:06:37,520 --> 00:06:41,520
+okay look this tree might be very deep
+
+174
+00:06:40,240 --> 00:06:44,000
+right
+
+175
+00:06:41,520 --> 00:06:45,919
+okay so if i'm saying d the maximum d
+
+176
+00:06:44,000 --> 00:06:48,319
+equals three
+
+177
+00:06:45,919 --> 00:06:49,919
+okay then if we perform a depth leave me
+
+178
+00:06:48,319 --> 00:06:51,759
+search what happened look
+
+179
+00:06:49,919 --> 00:06:53,039
+what's the death zone let me search like
+
+180
+00:06:51,759 --> 00:06:57,280
+one two
+
+181
+00:06:53,039 --> 00:06:59,599
+three four five six seven eight nine
+
+182
+00:06:57,280 --> 00:07:01,759
+okay so if we perform this limit search
+
+183
+00:06:59,599 --> 00:07:05,039
+on this squad on this tree
+
+184
+00:07:01,759 --> 00:07:07,440
+and with the limit three so what's the
+
+185
+00:07:05,039 --> 00:07:10,080
+order what's the definition order with
+
+186
+00:07:07,440 --> 00:07:11,440
+the maximum level three
+
+187
+00:07:10,080 --> 00:07:12,560
+one
+
+188
+00:07:11,440 --> 00:07:13,599
+two
+
+189
+00:07:12,560 --> 00:07:15,120
+four
+
+190
+00:07:13,599 --> 00:07:17,520
+should we go beyond
+
+191
+00:07:15,120 --> 00:07:18,720
+because it reaches limit then we go back
+
+192
+00:07:17,520 --> 00:07:20,560
+three
+
+193
+00:07:18,720 --> 00:07:23,440
+five six that's what it means yeah if we
+
+194
+00:07:20,560 --> 00:07:26,479
+don't find it we keep incrementing this
+
+195
+00:07:23,440 --> 00:07:28,800
+depth let me search iterated deepening
+
+196
+00:07:26,479 --> 00:07:30,479
+okay that's great okay we can implement
+
+197
+00:07:28,800 --> 00:07:32,560
+that that's limited but first of all
+
+198
+00:07:30,479 --> 00:07:34,639
+let's implement the deficit and now we
+
+199
+00:07:32,560 --> 00:07:37,599
+can change it to definite research
+
+200
+00:07:34,639 --> 00:07:39,280
+define definition we want to find s to
+
+201
+00:07:37,599 --> 00:07:40,319
+the n right
+
+202
+00:07:39,280 --> 00:07:44,960
+okay
+
+203
+00:07:40,319 --> 00:07:47,360
+so if s equal equal e language
+
+204
+00:07:44,960 --> 00:07:49,520
+we find it right if let's start is the
+
+205
+00:07:47,360 --> 00:07:50,319
+same as the destination and we find it
+
+206
+00:07:49,520 --> 00:07:52,319
+okay
+
+207
+00:07:50,319 --> 00:07:54,080
+then if not then
+
+208
+00:07:52,319 --> 00:07:55,759
+answer at the beginning we set it to
+
+209
+00:07:54,080 --> 00:07:59,919
+infinity for
+
+210
+00:07:55,759 --> 00:08:03,120
+the next vertex in gs
+
+211
+00:07:59,919 --> 00:08:04,720
+an answer equals the mean
+
+212
+00:08:03,120 --> 00:08:06,160
+answer
+
+213
+00:08:04,720 --> 00:08:09,840
+d f s
+
+214
+00:08:06,160 --> 00:08:13,680
+v e right need to plus one here
+
+215
+00:08:09,840 --> 00:08:15,440
+yeah need to perform and return and
+
+216
+00:08:13,680 --> 00:08:17,759
+so look at this this stafford search is
+
+217
+00:08:15,440 --> 00:08:19,759
+not very suitable in finding the
+
+218
+00:08:17,759 --> 00:08:21,599
+shortest path because it needs to extort
+
+219
+00:08:19,759 --> 00:08:24,319
+all the paths and that's very expensive
+
+220
+00:08:21,599 --> 00:08:26,879
+okay that's very expensive
+
+221
+00:08:24,319 --> 00:08:29,360
+but one thing we can improve is
+
+222
+00:08:26,879 --> 00:08:31,680
+uh here
+
+223
+00:08:29,360 --> 00:08:33,760
+the the problem here is what the other
+
+224
+00:08:31,680 --> 00:08:35,919
+thing that is that if we're using a
+
+225
+00:08:33,760 --> 00:08:37,760
+graph we need to remember the nodes that
+
+226
+00:08:35,919 --> 00:08:40,560
+have been visited otherwise
+
+227
+00:08:37,760 --> 00:08:42,080
+look if the one goes to two two goes to
+
+228
+00:08:40,560 --> 00:08:44,480
+one and then
+
+229
+00:08:42,080 --> 00:08:46,320
+we don't want to go going for them back
+
+230
+00:08:44,480 --> 00:08:47,040
+right so we first of all we need to add
+
+231
+00:08:46,320 --> 00:08:49,440
+a
+
+232
+00:08:47,040 --> 00:08:52,839
+sim here
+
+233
+00:08:49,440 --> 00:08:56,080
+a hash map and then we can say
+
+234
+00:08:52,839 --> 00:08:58,640
+if s in sin
+
+235
+00:08:56,080 --> 00:09:01,600
+then okay return infinite if we have
+
+236
+00:08:58,640 --> 00:09:02,320
+found this before we return infinity
+
+237
+00:09:01,600 --> 00:09:03,920
+and
+
+238
+00:09:02,320 --> 00:09:06,880
+if not with the first thing is to put
+
+239
+00:09:03,920 --> 00:09:08,720
+this s into the uh the vertex that we
+
+240
+00:09:06,880 --> 00:09:12,000
+have seen so s
+
+241
+00:09:08,720 --> 00:09:13,760
+scene dot at s
+
+242
+00:09:12,000 --> 00:09:16,080
+okay
+
+243
+00:09:13,760 --> 00:09:18,959
+and before because we added so before
+
+244
+00:09:16,080 --> 00:09:20,880
+that we need to restore it so seeing the
+
+245
+00:09:18,959 --> 00:09:24,320
+erase or remove
+
+246
+00:09:20,880 --> 00:09:24,320
+remove s
+
+247
+00:09:24,480 --> 00:09:29,360
+so let's this is the step search
+
+248
+00:09:27,360 --> 00:09:32,000
+okay so now we want to change this to
+
+249
+00:09:29,360 --> 00:09:34,480
+depth limit search so we have to add
+
+250
+00:09:32,000 --> 00:09:36,640
+another parameter called d
+
+251
+00:09:34,480 --> 00:09:38,399
+and then here as well if d smaller than
+
+252
+00:09:36,640 --> 00:09:40,000
+zero line will return
+
+253
+00:09:38,399 --> 00:09:42,080
+infinity right
+
+254
+00:09:40,000 --> 00:09:44,640
+and then we just have to
+
+255
+00:09:42,080 --> 00:09:47,920
+give this parameter d minus one here
+
+256
+00:09:44,640 --> 00:09:50,640
+right and that's the that's the message
+
+257
+00:09:47,920 --> 00:09:52,560
+simple as that okay so the advantage of
+
+258
+00:09:50,640 --> 00:09:54,399
+iterative deepening is that it's
+
+259
+00:09:52,560 --> 00:09:56,640
+complete as the breakfast search it
+
+260
+00:09:54,399 --> 00:09:59,519
+allows us to find the solution the
+
+261
+00:09:56,640 --> 00:10:02,480
+optimal solution if there's any it also
+
+262
+00:09:59,519 --> 00:10:04,480
+uses the same memory as the data search
+
+263
+00:10:02,480 --> 00:10:06,800
+right because look at the deficit
+
+264
+00:10:04,480 --> 00:10:08,399
+we don't need to store the nodes of the
+
+265
+00:10:06,800 --> 00:10:10,480
+same level right we don't need to
+
+266
+00:10:08,399 --> 00:10:11,920
+maintain the cube we just need to
+
+267
+00:10:10,480 --> 00:10:14,800
+remember the
+
+268
+00:10:11,920 --> 00:10:16,240
+the path right this path
+
+269
+00:10:14,800 --> 00:10:19,440
+you know
+
+270
+00:10:16,240 --> 00:10:21,600
+it uses the less space than storing the
+
+271
+00:10:19,440 --> 00:10:23,600
+nodes of the same level right okay so
+
+272
+00:10:21,600 --> 00:10:26,399
+tell me what's the iterated dependent
+
+273
+00:10:23,600 --> 00:10:28,160
+search it's like breakfast
+
+274
+00:10:26,399 --> 00:10:29,279
+it's a combination of that for surgical
+
+275
+00:10:28,160 --> 00:10:31,760
+search right
+
+276
+00:10:29,279 --> 00:10:33,760
+so it's already different it's like we
+
+277
+00:10:31,760 --> 00:10:35,600
+are performing the data search
+
+278
+00:10:33,760 --> 00:10:37,920
+right but we are performing in an
+
+279
+00:10:35,600 --> 00:10:40,399
+incremental order let's do a different
+
+280
+00:10:37,920 --> 00:10:43,279
+search and then let's stop let's not
+
+281
+00:10:40,399 --> 00:10:45,120
+explore the notes beyond the
+
+282
+00:10:43,279 --> 00:10:47,519
+distance one
+
+283
+00:10:45,120 --> 00:10:49,360
+okay if we find it would return this is
+
+284
+00:10:47,519 --> 00:10:51,279
+the optimum right
+
+285
+00:10:49,360 --> 00:10:53,120
+okay we don't find it right like one
+
+286
+00:10:51,279 --> 00:10:55,600
+meter we don't find it in one meter okay
+
+287
+00:10:53,120 --> 00:10:56,959
+let's increment the next step to two
+
+288
+00:10:55,600 --> 00:10:59,200
+meters
+
+289
+00:10:56,959 --> 00:11:00,640
+right and let's perform a test research
+
+290
+00:10:59,200 --> 00:11:03,440
+on
+
+291
+00:11:00,640 --> 00:11:05,680
+on this graph along with the graph
+
+292
+00:11:03,440 --> 00:11:08,160
+with max distance too
+
+293
+00:11:05,680 --> 00:11:10,560
+if we find it great we return we stop
+
+294
+00:11:08,160 --> 00:11:13,680
+the iterative differences if not we
+
+295
+00:11:10,560 --> 00:11:15,839
+increment the depth to three right the
+
+296
+00:11:13,680 --> 00:11:17,519
+time complexity for this one is actually
+
+297
+00:11:15,839 --> 00:11:19,839
+quite tricky
+
+298
+00:11:17,519 --> 00:11:23,839
+so if we perform this on this three for
+
+299
+00:11:19,839 --> 00:11:26,800
+example right so look the last level d
+
+300
+00:11:23,839 --> 00:11:29,680
+only explore once right so it's b to the
+
+301
+00:11:26,800 --> 00:11:31,279
+power of d the second to the last level
+
+302
+00:11:29,680 --> 00:11:32,399
+exposed twice
+
+303
+00:11:31,279 --> 00:11:35,360
+so it's
+
+304
+00:11:32,399 --> 00:11:38,560
+two times b b minus one
+
+305
+00:11:35,360 --> 00:11:42,399
+the third to the last expo three times
+
+306
+00:11:38,560 --> 00:11:44,640
+right so it's three plus b b minus 2 etc
+
+307
+00:11:42,399 --> 00:11:46,480
+so but the most dominant thing is this
+
+308
+00:11:44,640 --> 00:11:49,120
+one so the time complexity is the same
+
+309
+00:11:46,480 --> 00:11:51,120
+as the definition of breakfast is also
+
+310
+00:11:49,120 --> 00:11:53,839
+ob e to the power b
+
+311
+00:11:51,120 --> 00:11:57,200
+right okay the space complexity is the
+
+312
+00:11:53,839 --> 00:11:59,360
+same as f search which is the
+
+313
+00:11:57,200 --> 00:12:00,399
+od
+
+314
+00:11:59,360 --> 00:12:02,160
+okay
+
+315
+00:12:00,399 --> 00:12:06,040
+that's it for today bye bye
+
+316
+00:12:02,160 --> 00:12:06,040
+bye bye bye
+

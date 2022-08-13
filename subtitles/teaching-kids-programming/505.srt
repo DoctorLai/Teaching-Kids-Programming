@@ -1,0 +1,1600 @@
+1
+00:00:00,240 --> 00:00:05,439
+hello mr mitchell
+
+2
+00:00:02,960 --> 00:00:05,439
+okay okay
+
+3
+00:00:07,200 --> 00:00:10,240
+okay
+
+4
+00:00:08,080 --> 00:00:12,240
+so yeah today we're going to talk about
+
+5
+00:00:10,240 --> 00:00:14,480
+this very famous the shortest path
+
+6
+00:00:12,240 --> 00:00:16,720
+excellent called backtrack how do you
+
+7
+00:00:14,480 --> 00:00:19,119
+pronounce this
+
+8
+00:00:16,720 --> 00:00:21,439
+that is that's right it's a shortest
+
+9
+00:00:19,119 --> 00:00:21,439
+game
+
+10
+00:00:21,760 --> 00:00:25,680
+this is
+
+11
+00:00:22,800 --> 00:00:30,080
+the name of a person so he invented this
+
+12
+00:00:25,680 --> 00:00:32,960
+okay so texture is a shortest path
+
+13
+00:00:30,080 --> 00:00:32,960
+stop this price
+
+14
+00:00:33,920 --> 00:00:38,000
+single source circuit pass angle so it's
+
+15
+00:00:35,920 --> 00:00:40,399
+called sssp
+
+16
+00:00:38,000 --> 00:00:42,239
+finger sauce shortest path
+
+17
+00:00:40,399 --> 00:00:44,800
+okay so when we talk about the guava
+
+18
+00:00:42,239 --> 00:00:46,399
+this is a weighted and directed right
+
+19
+00:00:44,800 --> 00:00:48,160
+weighted and directly
+
+20
+00:00:46,399 --> 00:00:50,399
+waiting means look at these numbers
+
+21
+00:00:48,160 --> 00:00:53,440
+labeling the edges so you can imagine
+
+22
+00:00:50,399 --> 00:00:55,680
+this the vertex this abcdefg you can
+
+23
+00:00:53,440 --> 00:00:57,520
+think of it as a town a bus stop right
+
+24
+00:00:55,680 --> 00:00:58,800
+we talked about the bus stop yesterday
+
+25
+00:00:57,520 --> 00:01:01,199
+so from a
+
+26
+00:00:58,800 --> 00:01:04,159
+to c it takes three minutes
+
+27
+00:01:01,199 --> 00:01:05,040
+from c to d cost four minutes right this
+
+28
+00:01:04,159 --> 00:01:07,119
+is and
+
+29
+00:01:05,040 --> 00:01:09,680
+uh directed so it means both way but we
+
+30
+00:01:07,119 --> 00:01:10,840
+can put a direction as well
+
+31
+00:01:09,680 --> 00:01:14,080
+[Music]
+
+32
+00:01:10,840 --> 00:01:15,840
+yeah so it's a graph i mean when we talk
+
+33
+00:01:14,080 --> 00:01:18,000
+about weighting don't look at the actual
+
+34
+00:01:15,840 --> 00:01:20,240
+distance okay so maybe
+
+35
+00:01:18,000 --> 00:01:22,400
+that if what's the shortest path between
+
+36
+00:01:20,240 --> 00:01:24,159
+eight 635
+
+37
+00:01:22,400 --> 00:01:24,840
+what's the shortest distance between a
+
+38
+00:01:24,159 --> 00:01:26,720
+to
+
+39
+00:01:24,840 --> 00:01:27,840
+b uh
+
+40
+00:01:26,720 --> 00:01:30,479
+let's see
+
+41
+00:01:27,840 --> 00:01:32,799
+three four one now
+
+42
+00:01:30,479 --> 00:01:35,280
+yeah two
+
+43
+00:01:32,799 --> 00:01:38,079
+three four one
+
+44
+00:01:35,280 --> 00:01:40,079
+three three one two no yeah three one
+
+45
+00:01:38,079 --> 00:01:41,759
+three one two yeah so that's six okay we
+
+46
+00:01:40,079 --> 00:01:43,840
+can solve this problem if it's a very
+
+47
+00:01:41,759 --> 00:01:45,920
+small one right but if you imagine if
+
+48
+00:01:43,840 --> 00:01:48,880
+it's a big one so it's not easy to put
+
+49
+00:01:45,920 --> 00:01:51,200
+it at glass and for computer we need a
+
+50
+00:01:48,880 --> 00:01:53,119
+algorithm to find out the shutter speed
+
+51
+00:01:51,200 --> 00:01:55,520
+so this is what the back structure the
+
+52
+00:01:53,119 --> 00:01:57,759
+texture is the single source meaning
+
+53
+00:01:55,520 --> 00:02:00,399
+that if i start from a i can get the
+
+54
+00:01:57,759 --> 00:02:02,880
+shortest distance to all other vertex
+
+55
+00:02:00,399 --> 00:02:05,040
+yeah all other vertices
+
+56
+00:02:02,880 --> 00:02:06,880
+so the the texture angle actually is
+
+57
+00:02:05,040 --> 00:02:10,319
+quite simple let's just two steps so
+
+58
+00:02:06,880 --> 00:02:13,520
+first step is update the estimate
+
+59
+00:02:10,319 --> 00:02:13,520
+update the estimate
+
+60
+00:02:13,760 --> 00:02:21,319
+the second step is to pick the next
+
+61
+00:02:16,879 --> 00:02:21,319
+vertex pick the next vertex
+
+62
+00:02:23,040 --> 00:02:27,200
+okay so look we have start from a right
+
+63
+00:02:25,840 --> 00:02:29,760
+so the distance
+
+64
+00:02:27,200 --> 00:02:32,480
+a to a is zero we know that right right
+
+65
+00:02:29,760 --> 00:02:34,319
+we are here so the distance here
+
+66
+00:02:32,480 --> 00:02:37,120
+we notice this we put it in the set
+
+67
+00:02:34,319 --> 00:02:40,319
+right so we are here the distance to a
+
+68
+00:02:37,120 --> 00:02:42,720
+is here obviously all other vertex this
+
+69
+00:02:40,319 --> 00:02:45,760
+is called an x4 right this is exposed
+
+70
+00:02:42,720 --> 00:02:48,080
+explore these are unexplored so we don't
+
+71
+00:02:45,760 --> 00:02:50,080
+know yet so we call it infinity and look
+
+72
+00:02:48,080 --> 00:02:52,480
+this is infinity in mathematics this is
+
+73
+00:02:50,080 --> 00:02:54,000
+infinity we don't know right
+
+74
+00:02:52,480 --> 00:02:57,280
+yeah
+
+75
+00:02:54,000 --> 00:02:58,239
+okay now let's update estimate so now
+
+76
+00:02:57,280 --> 00:03:00,640
+look
+
+77
+00:02:58,239 --> 00:03:02,879
+this is i i take this one this is the
+
+78
+00:03:00,640 --> 00:03:04,640
+current vertex
+
+79
+00:03:02,879 --> 00:03:07,280
+here right
+
+80
+00:03:04,640 --> 00:03:10,319
+i can go to
+
+81
+00:03:07,280 --> 00:03:13,040
+i can go to c and cos three i can go to
+
+82
+00:03:10,319 --> 00:03:15,360
+the c and cos three right yeah
+
+83
+00:03:13,040 --> 00:03:17,680
+so it's better than the infinity right
+
+84
+00:03:15,360 --> 00:03:20,400
+right because the estimate is infinity
+
+85
+00:03:17,680 --> 00:03:22,959
+for c but i can go to i now i'm a i can
+
+86
+00:03:20,400 --> 00:03:25,360
+go to c at cos 3 so it's better than
+
+87
+00:03:22,959 --> 00:03:27,280
+infinity so i i change this
+
+88
+00:03:25,360 --> 00:03:29,040
+to three
+
+89
+00:03:27,280 --> 00:03:32,799
+i use the red color to represent the
+
+90
+00:03:29,040 --> 00:03:35,200
+estimate and i i can go to f at two so
+
+91
+00:03:32,799 --> 00:03:38,000
+the estimate is zero plus two
+
+92
+00:03:35,200 --> 00:03:40,080
+is better than infinity right
+
+93
+00:03:38,000 --> 00:03:42,080
+so two okay
+
+94
+00:03:40,080 --> 00:03:44,799
+now i found the first step the second
+
+95
+00:03:42,080 --> 00:03:46,959
+step pick the next vertex how do we pick
+
+96
+00:03:44,799 --> 00:03:49,760
+the next vertex so we pick the vertex
+
+97
+00:03:46,959 --> 00:03:51,280
+which is in unexplored is the smallest
+
+98
+00:03:49,760 --> 00:03:53,760
+distance this is
+
+99
+00:03:51,280 --> 00:03:56,000
+the idx four f we are exploring and any
+
+100
+00:03:53,760 --> 00:03:58,400
+source is this way with a small distance
+
+101
+00:03:56,000 --> 00:04:00,959
+with small cos two or three
+
+102
+00:03:58,400 --> 00:04:02,000
+two right okay two so right here repeat
+
+103
+00:04:00,959 --> 00:04:03,360
+two
+
+104
+00:04:02,000 --> 00:04:04,239
+f two
+
+105
+00:04:03,360 --> 00:04:06,799
+c
+
+106
+00:04:04,239 --> 00:04:08,560
+two plus three is five it's bigger than
+
+107
+00:04:06,799 --> 00:04:10,720
+three so we don't update it right we
+
+108
+00:04:08,560 --> 00:04:14,239
+don't update it because the the previous
+
+109
+00:04:10,720 --> 00:04:17,280
+estimator c is three is better than our
+
+110
+00:04:14,239 --> 00:04:21,199
+current estimate 2 plus 3 right
+
+111
+00:04:17,280 --> 00:04:23,040
+f to e is 5 5 is better than infinity
+
+112
+00:04:21,199 --> 00:04:26,400
+right 2 plus 2 is better than infinity
+
+113
+00:04:23,040 --> 00:04:27,680
+so we update it to 5.
+
+114
+00:04:26,400 --> 00:04:28,560
+f 2
+
+115
+00:04:27,680 --> 00:04:31,520
+b
+
+116
+00:04:28,560 --> 00:04:35,120
+is 2 plus 6
+
+117
+00:04:31,520 --> 00:04:36,240
+infinity we update it to 8
+
+118
+00:04:35,120 --> 00:04:37,199
+f 2
+
+119
+00:04:36,240 --> 00:04:40,400
+g
+
+120
+00:04:37,199 --> 00:04:43,600
+7 right 2 plus 5 better than infinity so
+
+121
+00:04:40,400 --> 00:04:44,560
+i update it to seven okay these two are
+
+122
+00:04:43,600 --> 00:04:47,280
+extra
+
+123
+00:04:44,560 --> 00:04:50,080
+and all others are understood so what's
+
+124
+00:04:47,280 --> 00:04:51,759
+the smallest vertex that in in the
+
+125
+00:04:50,080 --> 00:04:53,840
+unexpected
+
+126
+00:04:51,759 --> 00:04:55,520
+c right because look three five seven i
+
+127
+00:04:53,840 --> 00:04:56,560
+pick a three
+
+128
+00:04:55,520 --> 00:04:59,840
+yeah
+
+129
+00:04:56,560 --> 00:05:01,360
+so now i'm here i pick the three
+
+130
+00:04:59,840 --> 00:05:02,400
+remember
+
+131
+00:05:01,360 --> 00:05:04,800
+a c
+
+132
+00:05:02,400 --> 00:05:08,160
+the numbers with the numbers these are
+
+133
+00:05:04,800 --> 00:05:10,960
+exposed i pick a three
+
+134
+00:05:08,160 --> 00:05:15,039
+c to d three plus four is better than
+
+135
+00:05:10,960 --> 00:05:15,039
+infinity so i change it to seven
+
+136
+00:05:15,680 --> 00:05:20,240
+c two to e
+
+137
+00:05:17,680 --> 00:05:22,639
+right so it's the three plus one equals
+
+138
+00:05:20,240 --> 00:05:24,240
+four four is better than five right four
+
+139
+00:05:22,639 --> 00:05:25,280
+is better than right so we change it to
+
+140
+00:05:24,240 --> 00:05:27,360
+four
+
+141
+00:05:25,280 --> 00:05:29,600
+right that would be it the all edge is
+
+142
+00:05:27,360 --> 00:05:30,800
+connected to to it right
+
+143
+00:05:29,600 --> 00:05:33,600
+one two
+
+144
+00:05:30,800 --> 00:05:36,000
+three four i explore right so which one
+
+145
+00:05:33,600 --> 00:05:39,680
+is exposed so we could pick a we pick
+
+146
+00:05:36,000 --> 00:05:42,080
+the b we put c so in the aliexpo we want
+
+147
+00:05:39,680 --> 00:05:44,160
+to pick the smallest distance so it's e
+
+148
+00:05:42,080 --> 00:05:47,680
+is e right it's e
+
+149
+00:05:44,160 --> 00:05:50,240
+because e we haven't explored it yet
+
+150
+00:05:47,680 --> 00:05:52,720
+okay so now let's could do this
+
+151
+00:05:50,240 --> 00:05:55,440
+estimate again e to
+
+152
+00:05:52,720 --> 00:05:56,800
+b right four plus two six better than a
+
+153
+00:05:55,440 --> 00:05:59,759
+right
+
+154
+00:05:56,800 --> 00:06:01,919
+we reach the b right so b six is the
+
+155
+00:05:59,759 --> 00:06:04,319
+smallest right who answer the six you
+
+156
+00:06:01,919 --> 00:06:05,360
+say six right yes okay
+
+157
+00:06:04,319 --> 00:06:08,240
+so look
+
+158
+00:06:05,360 --> 00:06:11,600
+two steps update the estimate pick the
+
+159
+00:06:08,240 --> 00:06:13,919
+next vertex which is an explore and then
+
+160
+00:06:11,600 --> 00:06:17,280
+with the smallest cost
+
+161
+00:06:13,919 --> 00:06:19,199
+so this is district and look remember
+
+162
+00:06:17,280 --> 00:06:20,479
+when we explore when we explore the
+
+163
+00:06:19,199 --> 00:06:21,600
+vertex
+
+164
+00:06:20,479 --> 00:06:24,000
+we
+
+165
+00:06:21,600 --> 00:06:25,600
+assume we already have the best answer
+
+166
+00:06:24,000 --> 00:06:28,319
+so that's why it's fast the term
+
+167
+00:06:25,600 --> 00:06:32,000
+complexity is if we're using the
+
+168
+00:06:28,319 --> 00:06:34,479
+classic area so so it's o h
+
+169
+00:06:32,000 --> 00:06:37,199
+plus v times log of v v is the number of
+
+170
+00:06:34,479 --> 00:06:37,199
+that vertex
+
+171
+00:06:37,440 --> 00:06:39,039
+okay
+
+172
+00:06:38,240 --> 00:06:40,400
+yeah
+
+173
+00:06:39,039 --> 00:06:42,639
+so look
+
+174
+00:06:40,400 --> 00:06:44,880
+it doesn't work with the negative weight
+
+175
+00:06:42,639 --> 00:06:47,520
+sometimes why is that look
+
+176
+00:06:44,880 --> 00:06:49,599
+when we explore the speed right we
+
+177
+00:06:47,520 --> 00:06:52,080
+explore this p which is six
+
+178
+00:06:49,599 --> 00:06:55,120
+so we we assume we get the shortest path
+
+179
+00:06:52,080 --> 00:06:57,360
+but if this edge here if this is a minus
+
+180
+00:06:55,120 --> 00:06:58,880
+a hundred and certainly you know any
+
+181
+00:06:57,360 --> 00:07:01,280
+path passing through this would be
+
+182
+00:06:58,880 --> 00:07:02,960
+better than these six right so it
+
+183
+00:07:01,280 --> 00:07:04,319
+doesn't work why is that because when we
+
+184
+00:07:02,960 --> 00:07:05,120
+explore the b
+
+185
+00:07:04,319 --> 00:07:06,800
+e
+
+186
+00:07:05,120 --> 00:07:08,880
+it's the shortest we know it's a
+
+187
+00:07:06,800 --> 00:07:10,720
+shorting we assume it's the shortest why
+
+188
+00:07:08,880 --> 00:07:11,919
+can we assume it's certainly because all
+
+189
+00:07:10,720 --> 00:07:14,479
+the edges
+
+190
+00:07:11,919 --> 00:07:17,039
+all the edges are positive so when when
+
+191
+00:07:14,479 --> 00:07:19,039
+the vertex x is 4 it means that we
+
+192
+00:07:17,039 --> 00:07:21,520
+cannot find a better solution by adding
+
+193
+00:07:19,039 --> 00:07:24,400
+the positive way right look because look
+
+194
+00:07:21,520 --> 00:07:27,680
+if those two here uh
+
+195
+00:07:24,400 --> 00:07:30,400
+this is 1 is 2 a b c
+
+196
+00:07:27,680 --> 00:07:33,360
+right so we explore this c here which is
+
+197
+00:07:30,400 --> 00:07:36,560
+the costly it means that it's the best
+
+198
+00:07:33,360 --> 00:07:38,560
+we cannot find any more edges
+
+199
+00:07:36,560 --> 00:07:40,400
+connecting to it by
+
+200
+00:07:38,560 --> 00:07:42,880
+by making it better because all the way
+
+201
+00:07:40,400 --> 00:07:45,199
+all our edges are positive right so it
+
+202
+00:07:42,880 --> 00:07:47,360
+means that this method only works for
+
+203
+00:07:45,199 --> 00:07:48,720
+holograph which doesn't have a negative
+
+204
+00:07:47,360 --> 00:07:50,879
+weight okay
+
+205
+00:07:48,720 --> 00:07:52,879
+single source uh shortest path right and
+
+206
+00:07:50,879 --> 00:07:55,360
+then when we implemented we're using the
+
+207
+00:07:52,879 --> 00:07:57,759
+priority queue so textual we we
+
+208
+00:07:55,360 --> 00:08:00,479
+mentioned about like uniform cost search
+
+209
+00:07:57,759 --> 00:08:03,599
+this is actually a variant of dextro so
+
+210
+00:08:00,479 --> 00:08:06,479
+there are many many factual variants so
+
+211
+00:08:03,599 --> 00:08:08,720
+they can classify it as the best search
+
+212
+00:08:06,479 --> 00:08:11,199
+so have you got this look pick the next
+
+213
+00:08:08,720 --> 00:08:13,280
+vertex from the from the unexplored
+
+214
+00:08:11,199 --> 00:08:15,520
+vertex which has the smallest cost
+
+215
+00:08:13,280 --> 00:08:17,440
+remember the breakfast search remember
+
+216
+00:08:15,520 --> 00:08:19,199
+yeah we use a queue
+
+217
+00:08:17,440 --> 00:08:21,120
+first thing first out right
+
+218
+00:08:19,199 --> 00:08:23,199
+so we are replacing the first universal
+
+219
+00:08:21,120 --> 00:08:26,240
+with the priority queue first thing best
+
+220
+00:08:23,199 --> 00:08:28,479
+out yeah so this is the variant of that
+
+221
+00:08:26,240 --> 00:08:29,759
+shot so for the press research it only
+
+222
+00:08:28,479 --> 00:08:32,080
+works on the
+
+223
+00:08:29,759 --> 00:08:34,000
+unweighted graph although all the
+
+224
+00:08:32,080 --> 00:08:35,680
+weighted gua with all the weights equal
+
+225
+00:08:34,000 --> 00:08:37,039
+or with the equal weight yeah and
+
+226
+00:08:35,680 --> 00:08:39,680
+weighted graph
+
+227
+00:08:37,039 --> 00:08:41,360
+right i already got but for this extra
+
+228
+00:08:39,680 --> 00:08:42,800
+variance it works on the you know
+
+229
+00:08:41,360 --> 00:08:44,880
+weighted one
+
+230
+00:08:42,800 --> 00:08:46,320
+because the cost is different right the
+
+231
+00:08:44,880 --> 00:08:48,160
+cost is different
+
+232
+00:08:46,320 --> 00:08:50,399
+so the difference between processors
+
+233
+00:08:48,160 --> 00:08:52,320
+yeah well let's talk about uh lisa
+
+234
+00:08:50,399 --> 00:08:55,279
+database preference search preference
+
+235
+00:08:52,320 --> 00:08:59,279
+search is using a queue
+
+236
+00:08:55,279 --> 00:09:01,279
+buffer search and this texture
+
+237
+00:08:59,279 --> 00:09:03,040
+all the ucs right
+
+238
+00:09:01,279 --> 00:09:06,160
+this is the variant
+
+239
+00:09:03,040 --> 00:09:08,640
+so this one is using the queue this one
+
+240
+00:09:06,160 --> 00:09:10,640
+using the priority queue or hip priority
+
+241
+00:09:08,640 --> 00:09:11,519
+queue or hip
+
+242
+00:09:10,640 --> 00:09:13,360
+all right
+
+243
+00:09:11,519 --> 00:09:16,000
+so they
+
+244
+00:09:13,360 --> 00:09:18,000
+it was on now and weighted and weighted
+
+245
+00:09:16,000 --> 00:09:20,080
+guard and 20 qualities it works on
+
+246
+00:09:18,000 --> 00:09:22,080
+waiting for so if it's only weighted
+
+247
+00:09:20,080 --> 00:09:23,839
+well if a grain can be used on the
+
+248
+00:09:22,080 --> 00:09:25,600
+weighted graph it can also be used on a
+
+249
+00:09:23,839 --> 00:09:27,040
+vertical right because the weight equal
+
+250
+00:09:25,600 --> 00:09:29,680
+anointing
+
+251
+00:09:27,040 --> 00:09:30,880
+is is a subset of vertigo
+
+252
+00:09:29,680 --> 00:09:32,000
+i'm right
+
+253
+00:09:30,880 --> 00:09:33,600
+because the
+
+254
+00:09:32,000 --> 00:09:36,080
+weighted graph
+
+255
+00:09:33,600 --> 00:09:38,959
+if we set all the weights to 1 to equal
+
+256
+00:09:36,080 --> 00:09:40,880
+weights that will be unweighted right
+
+257
+00:09:38,959 --> 00:09:42,880
+so and the time conduction for this
+
+258
+00:09:40,880 --> 00:09:45,680
+processor usually we can
+
+259
+00:09:42,880 --> 00:09:48,240
+think of it o v e plus v in the worst
+
+260
+00:09:45,680 --> 00:09:52,080
+case then all edges all vertex i exposed
+
+261
+00:09:48,240 --> 00:09:54,720
+and for the texture is o e plus v log of
+
+262
+00:09:52,080 --> 00:09:57,120
+v right because we're using the heat
+
+263
+00:09:54,720 --> 00:09:59,040
+here and each time to extract the
+
+264
+00:09:57,120 --> 00:10:01,519
+minimum from the q is low v time and
+
+265
+00:09:59,040 --> 00:10:03,279
+then in worst case it'll be ov right
+
+266
+00:10:01,519 --> 00:10:05,360
+right
+
+267
+00:10:03,279 --> 00:10:08,000
+uh okay so let's implement this a little
+
+268
+00:10:05,360 --> 00:10:10,800
+bit okay so we will talk about a uh
+
+269
+00:10:08,000 --> 00:10:14,560
+uniform course search uh again in in the
+
+270
+00:10:10,800 --> 00:10:17,560
+next few lessons so that's what define
+
+271
+00:10:14,560 --> 00:10:17,560
+that
+
+272
+00:10:18,240 --> 00:10:22,480
+so there are many variants of texture so
+
+273
+00:10:20,320 --> 00:10:23,440
+for the one i shown before is that we
+
+274
+00:10:22,480 --> 00:10:26,880
+have to
+
+275
+00:10:23,440 --> 00:10:28,959
+put all the vertex in the an expo set
+
+276
+00:10:26,880 --> 00:10:30,640
+beginning but there's no point of doing
+
+277
+00:10:28,959 --> 00:10:33,760
+that in the practical use so we will
+
+278
+00:10:30,640 --> 00:10:35,680
+write a classic dark shot okay
+
+279
+00:10:33,760 --> 00:10:36,720
+uh g
+
+280
+00:10:35,680 --> 00:10:37,600
+and and
+
+281
+00:10:36,720 --> 00:10:38,640
+star
+
+282
+00:10:37,600 --> 00:10:40,000
+and
+
+283
+00:10:38,640 --> 00:10:43,040
+so
+
+284
+00:10:40,000 --> 00:10:46,320
+distance equals before at the beginning
+
+285
+00:10:43,040 --> 00:10:48,000
+this default dictionary
+
+286
+00:10:46,320 --> 00:10:49,920
+infinity right infinity and the
+
+287
+00:10:48,000 --> 00:10:52,800
+beginning t is the
+
+288
+00:10:49,920 --> 00:10:55,360
+theme is the distance to all other
+
+289
+00:10:52,800 --> 00:10:57,200
+vertex remember this is a single source
+
+290
+00:10:55,360 --> 00:10:59,839
+shortest path so t s
+
+291
+00:10:57,200 --> 00:11:00,640
+is zero right so start process we know
+
+292
+00:10:59,839 --> 00:11:03,200
+this
+
+293
+00:11:00,640 --> 00:11:06,160
+is the cost is zero and we we need to
+
+294
+00:11:03,200 --> 00:11:08,160
+have a heap right so q equals at the
+
+295
+00:11:06,160 --> 00:11:11,200
+beginning we put a
+
+296
+00:11:08,160 --> 00:11:14,399
+cost the vertex of the star which is
+
+297
+00:11:11,200 --> 00:11:18,160
+zero the cost and the vertex
+
+298
+00:11:14,399 --> 00:11:20,800
+and then we also need to have a
+
+299
+00:11:18,160 --> 00:11:23,120
+a hash table to remember the vertex we
+
+300
+00:11:20,800 --> 00:11:24,240
+have explored so we have to distinguish
+
+301
+00:11:23,120 --> 00:11:27,760
+between the
+
+302
+00:11:24,240 --> 00:11:28,959
+x4 and it's four sets right so why
+
+303
+00:11:27,760 --> 00:11:32,240
+y of
+
+304
+00:11:28,959 --> 00:11:35,839
+y y iq then we take one element so we
+
+305
+00:11:32,240 --> 00:11:37,279
+cause the the vertex equals equals
+
+306
+00:11:35,839 --> 00:11:38,399
+keep
+
+307
+00:11:37,279 --> 00:11:42,160
+keep proof
+
+308
+00:11:38,399 --> 00:11:44,079
+pop q right we we take one this is to
+
+309
+00:11:42,160 --> 00:11:46,480
+extract the minimum to extract the
+
+310
+00:11:44,079 --> 00:11:49,040
+minimum from the heap from the other key
+
+311
+00:11:46,480 --> 00:11:51,360
+with the minimum cost right so now look
+
+312
+00:11:49,040 --> 00:11:53,040
+if if v in sync
+
+313
+00:11:51,360 --> 00:11:56,000
+if we haven't seen this if it's already
+
+314
+00:11:53,040 --> 00:11:58,639
+in x4 we just continue
+
+315
+00:11:56,000 --> 00:12:00,800
+otherwise we put it in the headset
+
+316
+00:11:58,639 --> 00:12:01,600
+single f v for
+
+317
+00:12:00,800 --> 00:12:03,680
+uh
+
+318
+00:12:01,600 --> 00:12:07,440
+for getting the next
+
+319
+00:12:03,680 --> 00:12:11,120
+vertex next weight in g
+
+320
+00:12:07,440 --> 00:12:13,680
+v right so this is to getting the edges
+
+321
+00:12:11,120 --> 00:12:16,240
+edges the the vertex and the weight
+
+322
+00:12:13,680 --> 00:12:18,320
+connects to the vertex v and we have to
+
+323
+00:12:16,240 --> 00:12:19,440
+check if
+
+324
+00:12:18,320 --> 00:12:22,399
+uh
+
+325
+00:12:19,440 --> 00:12:23,519
+if the cos the current cost is c plus
+
+326
+00:12:22,399 --> 00:12:26,480
+this v
+
+327
+00:12:23,519 --> 00:12:29,839
+is if it's smaller than d
+
+328
+00:12:26,480 --> 00:12:32,560
+d x right so we find a better we have to
+
+329
+00:12:29,839 --> 00:12:36,639
+find a better uh path a shorter path
+
+330
+00:12:32,560 --> 00:12:39,279
+then we update it dx equals c plus v
+
+331
+00:12:36,639 --> 00:12:41,600
+and we have to hit push
+
+332
+00:12:39,279 --> 00:12:44,000
+he push
+
+333
+00:12:41,600 --> 00:12:44,000
+q
+
+334
+00:12:44,240 --> 00:12:47,440
+c plus
+
+335
+00:12:45,839 --> 00:12:52,639
+uh
+
+336
+00:12:47,440 --> 00:12:54,720
+actually c plus w c plus w x
+
+337
+00:12:52,639 --> 00:12:56,240
+right and then return
+
+338
+00:12:54,720 --> 00:12:57,279
+return t
+
+339
+00:12:56,240 --> 00:12:58,880
+e
+
+340
+00:12:57,279 --> 00:12:59,920
+look d e
+
+341
+00:12:58,880 --> 00:13:03,040
+e
+
+342
+00:12:59,920 --> 00:13:05,200
+d is the dictionary right so deposition
+
+343
+00:13:03,040 --> 00:13:07,600
+right if we can also use the
+
+344
+00:13:05,200 --> 00:13:09,920
+dot equals these but
+
+345
+00:13:07,600 --> 00:13:12,320
+if we use this one we have to
+
+346
+00:13:09,920 --> 00:13:15,360
+be careful when the key is not existent
+
+347
+00:13:12,320 --> 00:13:16,560
+so this has to be changed as to d dot
+
+348
+00:13:15,360 --> 00:13:19,920
+get
+
+349
+00:13:16,560 --> 00:13:22,959
+x infinity so by default by default the
+
+350
+00:13:19,920 --> 00:13:25,680
+value is infinity means that if we uh
+
+351
+00:13:22,959 --> 00:13:27,839
+the initial cause to the vertex
+
+352
+00:13:25,680 --> 00:13:30,160
+x is infinity right
+
+353
+00:13:27,839 --> 00:13:31,920
+this is the extension okay so texture is
+
+354
+00:13:30,160 --> 00:13:34,399
+very famous because
+
+355
+00:13:31,920 --> 00:13:36,560
+based on this assumption that the other
+
+356
+00:13:34,399 --> 00:13:39,120
+weights are positive so it can achieve
+
+357
+00:13:36,560 --> 00:13:41,760
+the optimum it's usually the optimum
+
+358
+00:13:39,120 --> 00:13:43,519
+solution or ignorance right
+
+359
+00:13:41,760 --> 00:13:47,199
+to compute the shortest path between a
+
+360
+00:13:43,519 --> 00:13:50,079
+point s to any other vertex okay so
+
+361
+00:13:47,199 --> 00:13:52,639
+after doing this we we get all the
+
+362
+00:13:50,079 --> 00:13:54,880
+shortest paths to from s to all other
+
+363
+00:13:52,639 --> 00:13:56,560
+vertex right this is talk complete and
+
+364
+00:13:54,880 --> 00:13:57,440
+remember when we find the breakfast
+
+365
+00:13:56,560 --> 00:14:00,079
+search
+
+366
+00:13:57,440 --> 00:14:01,680
+yeah usually we'll find the destination
+
+367
+00:14:00,079 --> 00:14:03,120
+and we just return and this is not
+
+368
+00:14:01,680 --> 00:14:05,440
+complete right because it doesn't find
+
+369
+00:14:03,120 --> 00:14:07,680
+the shortest path between s to all other
+
+370
+00:14:05,440 --> 00:14:10,160
+vertex right but this angle is complete
+
+371
+00:14:07,680 --> 00:14:11,839
+okay so yeah this is direction it's very
+
+372
+00:14:10,160 --> 00:14:14,399
+useful and there are many many variants
+
+373
+00:14:11,839 --> 00:14:18,000
+and this is one of the variant that uses
+
+374
+00:14:14,399 --> 00:14:20,720
+the priority cue okay uh so okay so what
+
+375
+00:14:18,000 --> 00:14:20,720
+have you learned today
+
+376
+00:14:21,519 --> 00:14:25,600
+fixed diagram shot is fast accurate okay
+
+377
+00:14:23,680 --> 00:14:26,959
+so what did you get
+
+378
+00:14:25,600 --> 00:14:29,519
+so
+
+379
+00:14:26,959 --> 00:14:32,880
+so okay one question can the shot can an
+
+380
+00:14:29,519 --> 00:14:35,680
+extra egg run work on uh and weighted
+
+381
+00:14:32,880 --> 00:14:37,360
+quality yes yes yes because it wasn't
+
+382
+00:14:35,680 --> 00:14:39,440
+weighted quality of course you can work
+
+383
+00:14:37,360 --> 00:14:41,760
+on our way to go right so professor is
+
+384
+00:14:39,440 --> 00:14:44,000
+working and waiting for uh wow you can
+
+385
+00:14:41,760 --> 00:14:45,839
+work on waiting oh yeah yeah and way to
+
+386
+00:14:44,000 --> 00:14:48,399
+go okay the point massage can only work
+
+387
+00:14:45,839 --> 00:14:49,839
+on a weighted graph okay uh have a
+
+388
+00:14:48,399 --> 00:14:52,240
+deficit
+
+389
+00:14:49,839 --> 00:14:53,680
+very good question definitely usually
+
+390
+00:14:52,240 --> 00:14:55,519
+not suitable for the finding the
+
+391
+00:14:53,680 --> 00:14:57,600
+shortest part because it has to exhaust
+
+392
+00:14:55,519 --> 00:14:58,639
+all the parts in the graph but we have
+
+393
+00:14:57,600 --> 00:15:01,440
+this
+
+394
+00:14:58,639 --> 00:15:03,440
+tax limit such and combined with the you
+
+395
+00:15:01,440 --> 00:15:04,720
+know iterative deepening then we can
+
+396
+00:15:03,440 --> 00:15:07,680
+achieve that just finding the shortest
+
+397
+00:15:04,720 --> 00:15:09,680
+path by by combining of these uh depth
+
+398
+00:15:07,680 --> 00:15:11,519
+limit search with iterative detailing
+
+399
+00:15:09,680 --> 00:15:15,480
+yeah we mentioned that before
+
+400
+00:15:11,519 --> 00:15:15,480
+okay that's it for today bye
+

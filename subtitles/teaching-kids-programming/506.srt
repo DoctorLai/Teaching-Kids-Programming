@@ -1,0 +1,880 @@
+1
+00:00:00,080 --> 00:00:04,319
+yesterday we talked about actual which
+
+2
+00:00:01,839 --> 00:00:07,279
+is the single source shortest path echo
+
+3
+00:00:04,319 --> 00:00:09,920
+so texture is the shortest path that we
+
+4
+00:00:07,279 --> 00:00:11,920
+can use on weighted graph so if we can
+
+5
+00:00:09,920 --> 00:00:14,320
+use the weighty guy it can be also used
+
+6
+00:00:11,920 --> 00:00:17,039
+from angulated graph right this
+
+7
+00:00:14,320 --> 00:00:19,840
+extra icon cannot be used on the gua
+
+8
+00:00:17,039 --> 00:00:21,760
+which has decent negative weight because
+
+9
+00:00:19,840 --> 00:00:23,519
+it has this negative weight then
+
+10
+00:00:21,760 --> 00:00:26,160
+sometimes it does not give this optimal
+
+11
+00:00:23,519 --> 00:00:28,720
+result and you know because we assume
+
+12
+00:00:26,160 --> 00:00:31,119
+that graph contains only positive way so
+
+13
+00:00:28,720 --> 00:00:32,399
+that's why it's fast the time complexity
+
+14
+00:00:31,119 --> 00:00:33,120
+is o
+
+15
+00:00:32,399 --> 00:00:36,399
+uh
+
+16
+00:00:33,120 --> 00:00:39,120
+e h plus v times log of v
+
+17
+00:00:36,399 --> 00:00:40,559
+log v comes from these extracting the
+
+18
+00:00:39,120 --> 00:00:42,559
+minimum yeah
+
+19
+00:00:40,559 --> 00:00:45,840
+extracting the minimum from the heat of
+
+20
+00:00:42,559 --> 00:00:47,760
+500k so with this g g is the adjacent
+
+21
+00:00:45,840 --> 00:00:49,680
+disk something like that it's a data
+
+22
+00:00:47,760 --> 00:00:51,760
+structure that we use to install the
+
+23
+00:00:49,680 --> 00:00:53,840
+graph we can use also the adjacent
+
+24
+00:00:51,760 --> 00:00:56,480
+metric right this in this case is
+
+25
+00:00:53,840 --> 00:00:58,800
+adjacent list which gives the keys as
+
+26
+00:00:56,480 --> 00:01:01,440
+the vertex the values is the list of
+
+27
+00:00:58,800 --> 00:01:02,719
+verses it connects to so for example
+
+28
+00:01:01,440 --> 00:01:05,680
+these graphs
+
+29
+00:01:02,719 --> 00:01:07,600
+one two three one to two the vertex one
+
+30
+00:01:05,680 --> 00:01:09,920
+connects to two and three vertex two
+
+31
+00:01:07,600 --> 00:01:12,479
+connects to three and four vertex three
+
+32
+00:01:09,920 --> 00:01:15,119
+connects to four and five right so this
+
+33
+00:01:12,479 --> 00:01:16,799
+is unweighted but if we don't use this
+
+34
+00:01:15,119 --> 00:01:18,880
+same thing to store the weighted graph
+
+35
+00:01:16,799 --> 00:01:21,119
+instead of storing a single vertex we
+
+36
+00:01:18,880 --> 00:01:22,960
+can store a tatter with your weight we
+
+37
+00:01:21,119 --> 00:01:24,880
+also talked about breakfast for a long
+
+38
+00:01:22,960 --> 00:01:27,119
+long time right the breakfast search is
+
+39
+00:01:24,880 --> 00:01:29,280
+the shortest path algorithm we can use
+
+40
+00:01:27,119 --> 00:01:31,520
+online and weighted graph
+
+41
+00:01:29,280 --> 00:01:33,759
+let's take a look at this question again
+
+42
+00:01:31,520 --> 00:01:35,840
+and you can find a lot of similarities
+
+43
+00:01:33,759 --> 00:01:36,640
+between breakfast search and directra
+
+44
+00:01:35,840 --> 00:01:37,920
+and
+
+45
+00:01:36,640 --> 00:01:40,159
+also the
+
+46
+00:01:37,920 --> 00:01:42,479
+you know the uniform course search we
+
+47
+00:01:40,159 --> 00:01:46,159
+talked about the uniform costs that ucs
+
+48
+00:01:42,479 --> 00:01:48,640
+in day 387 right you probably forget
+
+49
+00:01:46,159 --> 00:01:51,040
+yeah so prefer search we use the queue
+
+50
+00:01:48,640 --> 00:01:52,799
+right first in first off in python we
+
+51
+00:01:51,040 --> 00:01:56,640
+use the dq right
+
+52
+00:01:52,799 --> 00:01:59,280
+q equals dq so at the beginning we push
+
+53
+00:01:56,640 --> 00:02:00,719
+the s and the source in and of course we
+
+54
+00:01:59,280 --> 00:02:03,360
+need a
+
+55
+00:02:00,719 --> 00:02:05,439
+hash set to remember the the vertex we
+
+56
+00:02:03,360 --> 00:02:06,880
+have visited if we apply the preference
+
+57
+00:02:05,439 --> 00:02:09,440
+search on trees so we probably don't
+
+58
+00:02:06,880 --> 00:02:11,120
+need a scene the hashtag table because
+
+59
+00:02:09,440 --> 00:02:13,599
+the only way we can travel is from the
+
+60
+00:02:11,120 --> 00:02:16,480
+parents to the kid but in an
+
+61
+00:02:13,599 --> 00:02:18,800
+weighted graph especially if it's a
+
+62
+00:02:16,480 --> 00:02:20,560
+undirected graph then we can travel
+
+63
+00:02:18,800 --> 00:02:23,120
+between the vertex here here and there
+
+64
+00:02:20,560 --> 00:02:25,520
+right so we have to remember the vertex
+
+65
+00:02:23,120 --> 00:02:27,599
+we have visited so we don't go back you
+
+66
+00:02:25,520 --> 00:02:29,760
+know visiting it again
+
+67
+00:02:27,599 --> 00:02:32,239
+so why are q
+
+68
+00:02:29,760 --> 00:02:34,720
+y or q means that way we have these
+
+69
+00:02:32,239 --> 00:02:36,400
+elements in the queue or why the q is
+
+70
+00:02:34,720 --> 00:02:39,280
+not empty why the length scale bigger
+
+71
+00:02:36,400 --> 00:02:44,160
+than zero the length so we take element
+
+72
+00:02:39,280 --> 00:02:45,280
+take element z equals q dot pop left
+
+73
+00:02:44,160 --> 00:02:49,599
+right
+
+74
+00:02:45,280 --> 00:02:51,519
+and then we have to check if v in
+
+75
+00:02:49,599 --> 00:02:53,840
+scene
+
+76
+00:02:51,519 --> 00:02:56,560
+then we continue we have visited this
+
+77
+00:02:53,840 --> 00:02:57,280
+before we can otherwise we put it
+
+78
+00:02:56,560 --> 00:02:58,879
+if
+
+79
+00:02:57,280 --> 00:03:01,680
+if it's not visited we put it in the
+
+80
+00:02:58,879 --> 00:03:05,200
+scene table in dot add
+
+81
+00:03:01,680 --> 00:03:07,840
+at least and then we travel the next
+
+82
+00:03:05,200 --> 00:03:10,879
+vertex right we append the kit
+
+83
+00:03:07,840 --> 00:03:12,000
+for x in g
+
+84
+00:03:10,879 --> 00:03:15,120
+g
+
+85
+00:03:12,000 --> 00:03:18,640
+v right then we append it back to the q
+
+86
+00:03:15,120 --> 00:03:22,640
+so q dot append
+
+87
+00:03:18,640 --> 00:03:25,360
+x right so here we forgot to check if
+
+88
+00:03:22,640 --> 00:03:29,120
+we have to check here right so uh put it
+
+89
+00:03:25,360 --> 00:03:31,440
+here so if v equal equal e language we
+
+90
+00:03:29,120 --> 00:03:32,400
+10 we find it yeah we return you know we
+
+91
+00:03:31,440 --> 00:03:34,480
+can return
+
+92
+00:03:32,400 --> 00:03:35,680
+if it's a automatic wall we can return
+
+93
+00:03:34,480 --> 00:03:37,599
+the
+
+94
+00:03:35,680 --> 00:03:40,400
+destination or return the
+
+95
+00:03:37,599 --> 00:03:42,400
+the path we can have a variable uh uh
+
+96
+00:03:40,400 --> 00:03:44,080
+storing the distance from the stop
+
+97
+00:03:42,400 --> 00:03:46,640
+between the distance for example if we
+
+98
+00:03:44,080 --> 00:03:47,440
+push the distance along with the source
+
+99
+00:03:46,640 --> 00:03:50,400
+so
+
+100
+00:03:47,440 --> 00:03:52,080
+here is still s right so now we have
+
+101
+00:03:50,400 --> 00:03:56,000
+this cost
+
+102
+00:03:52,080 --> 00:03:58,799
+c v right then we return c here
+
+103
+00:03:56,000 --> 00:04:01,200
+right and and then instead of append and
+
+104
+00:03:58,799 --> 00:04:02,000
+open x we can append
+
+105
+00:04:01,200 --> 00:04:06,080
+the
+
+106
+00:04:02,000 --> 00:04:08,799
+c plus one x right because when we visit
+
+107
+00:04:06,080 --> 00:04:09,920
+the kids the distance is incremented by
+
+108
+00:04:08,799 --> 00:04:11,680
+one
+
+109
+00:04:09,920 --> 00:04:13,760
+right and if we can't find it we just
+
+110
+00:04:11,680 --> 00:04:16,320
+return infinity or return minus one
+
+111
+00:04:13,760 --> 00:04:18,320
+right so look this is perfect search do
+
+112
+00:04:16,320 --> 00:04:19,919
+you see the difference and similarity
+
+113
+00:04:18,320 --> 00:04:22,000
+between the question search and that
+
+114
+00:04:19,919 --> 00:04:24,639
+shot here kind of difference
+
+115
+00:04:22,000 --> 00:04:27,360
+processors on and weighted graph
+
+116
+00:04:24,639 --> 00:04:30,960
+texture on weighty graph
+
+117
+00:04:27,360 --> 00:04:34,080
+right buffer search the time complexity
+
+118
+00:04:30,960 --> 00:04:37,440
+of e plus v
+
+119
+00:04:34,080 --> 00:04:39,520
+extra o e plus v log of v in the worst
+
+120
+00:04:37,440 --> 00:04:41,440
+case all the edges of vertex will be
+
+121
+00:04:39,520 --> 00:04:43,440
+explored by a point search
+
+122
+00:04:41,440 --> 00:04:45,759
+right and here
+
+123
+00:04:43,440 --> 00:04:47,759
+we're using the dq
+
+124
+00:04:45,759 --> 00:04:49,199
+here we're using the
+
+125
+00:04:47,759 --> 00:04:50,560
+heap
+
+126
+00:04:49,199 --> 00:04:53,040
+heap
+
+127
+00:04:50,560 --> 00:04:55,440
+they both use the hash set to remember
+
+128
+00:04:53,040 --> 00:04:57,199
+the vertex it's been visited this is
+
+129
+00:04:55,440 --> 00:04:59,520
+similar to append
+
+130
+00:04:57,199 --> 00:05:01,919
+right look this is quite similar but
+
+131
+00:04:59,520 --> 00:05:04,400
+here it checks the update november this
+
+132
+00:05:01,919 --> 00:05:07,199
+structure we update estimate and we pick
+
+133
+00:05:04,400 --> 00:05:09,680
+yeah it has an extra step of
+
+134
+00:05:07,199 --> 00:05:10,800
+updating the estimate this is updating
+
+135
+00:05:09,680 --> 00:05:13,520
+estimate
+
+136
+00:05:10,800 --> 00:05:15,840
+if we find a shorter task we update
+
+137
+00:05:13,520 --> 00:05:16,639
+d and here it uses d
+
+138
+00:05:15,840 --> 00:05:18,880
+d
+
+139
+00:05:16,639 --> 00:05:21,280
+stores the shortest path just this
+
+140
+00:05:18,880 --> 00:05:23,840
+distance between the source to all other
+
+141
+00:05:21,280 --> 00:05:26,400
+vertex but here we don't have these data
+
+142
+00:05:23,840 --> 00:05:28,639
+structure to store the shortest path
+
+143
+00:05:26,400 --> 00:05:30,400
+from the source here we just find a
+
+144
+00:05:28,639 --> 00:05:32,400
+single source find a certain distance
+
+145
+00:05:30,400 --> 00:05:33,360
+between s and e we just find this
+
+146
+00:05:32,400 --> 00:05:35,360
+surface
+
+147
+00:05:33,360 --> 00:05:38,000
+distance between a pair of vertex when
+
+148
+00:05:35,360 --> 00:05:40,720
+we perform this texture we have this d
+
+149
+00:05:38,000 --> 00:05:42,479
+it's complete so the actual is complete
+
+150
+00:05:40,720 --> 00:05:43,759
+process search here in this case
+
+151
+00:05:42,479 --> 00:05:47,280
+particular is
+
+152
+00:05:43,759 --> 00:05:49,680
+is not complete we talk about ucs ucs
+
+153
+00:05:47,280 --> 00:05:51,759
+uniform cost search is the variant of
+
+154
+00:05:49,680 --> 00:05:52,560
+that shot right it's a variant objection
+
+155
+00:05:51,759 --> 00:05:53,600
+so
+
+156
+00:05:52,560 --> 00:05:55,520
+we can
+
+157
+00:05:53,600 --> 00:05:57,680
+change least bit
+
+158
+00:05:55,520 --> 00:06:00,400
+slightly then you'll become a uniform
+
+159
+00:05:57,680 --> 00:06:02,800
+constructor you'll be amazed at how easy
+
+160
+00:06:00,400 --> 00:06:04,160
+it is to remember like uniform core
+
+161
+00:06:02,800 --> 00:06:07,039
+search
+
+162
+00:06:04,160 --> 00:06:09,840
+so the idea is that every time we take
+
+163
+00:06:07,039 --> 00:06:11,680
+the best out we visit the best uh
+
+164
+00:06:09,840 --> 00:06:13,199
+instead of the first influence now we
+
+165
+00:06:11,680 --> 00:06:16,639
+just change it to
+
+166
+00:06:13,199 --> 00:06:18,880
+first in best up priority out okay
+
+167
+00:06:16,639 --> 00:06:21,360
+so okay i'm just going to squeeze here
+
+168
+00:06:18,880 --> 00:06:22,639
+so uniform process okay i'm going to use
+
+169
+00:06:21,360 --> 00:06:24,880
+the green
+
+170
+00:06:22,639 --> 00:06:27,919
+so here this is the same
+
+171
+00:06:24,880 --> 00:06:27,919
+so we change it to
+
+172
+00:06:28,319 --> 00:06:32,479
+q equals
+
+173
+00:06:30,720 --> 00:06:33,840
+is a hip
+
+174
+00:06:32,479 --> 00:06:35,759
+0
+
+175
+00:06:33,840 --> 00:06:36,639
+right this is the same
+
+176
+00:06:35,759 --> 00:06:40,400
+all right
+
+177
+00:06:36,639 --> 00:06:41,759
+q top top left we use this so this one
+
+178
+00:06:40,400 --> 00:06:43,680
+we followed it
+
+179
+00:06:41,759 --> 00:06:47,520
+yeah
+
+180
+00:06:43,680 --> 00:06:49,039
+and this one we just follow this one
+
+181
+00:06:47,520 --> 00:06:50,560
+okay
+
+182
+00:06:49,039 --> 00:06:51,520
+i like it
+
+183
+00:06:50,560 --> 00:06:53,039
+so look
+
+184
+00:06:51,520 --> 00:06:55,759
+with the breakfast search we change
+
+185
+00:06:53,039 --> 00:06:58,240
+three places and it becomes a uniform
+
+186
+00:06:55,759 --> 00:07:00,479
+course search first of all instead of
+
+187
+00:06:58,240 --> 00:07:03,280
+using the queue double ndq first
+
+188
+00:07:00,479 --> 00:07:05,360
+infrastructure we use a heap
+
+189
+00:07:03,280 --> 00:07:07,599
+which is a priority queue first thing
+
+190
+00:07:05,360 --> 00:07:09,599
+best out right here
+
+191
+00:07:07,599 --> 00:07:10,560
+we get it up
+
+192
+00:07:09,599 --> 00:07:12,080
+and then
+
+193
+00:07:10,560 --> 00:07:14,800
+instead of
+
+194
+00:07:12,080 --> 00:07:16,960
+a pen and we need to hit push
+
+195
+00:07:14,800 --> 00:07:18,960
+and we don't have this step of updating
+
+196
+00:07:16,960 --> 00:07:21,360
+the estimate right this is uniform
+
+197
+00:07:18,960 --> 00:07:23,039
+clusters which is the value of the xr
+
+198
+00:07:21,360 --> 00:07:24,160
+and the time complexity is the same as
+
+199
+00:07:23,039 --> 00:07:26,560
+the extra
+
+200
+00:07:24,160 --> 00:07:28,880
+right it's not complete because as long
+
+201
+00:07:26,560 --> 00:07:30,479
+as we find a destination we just return
+
+202
+00:07:28,880 --> 00:07:32,560
+the function right
+
+203
+00:07:30,479 --> 00:07:35,280
+instead of finding all other shortest
+
+204
+00:07:32,560 --> 00:07:37,360
+paths to all other vertex to sum up the
+
+205
+00:07:35,280 --> 00:07:41,440
+uniform course search uniform code
+
+206
+00:07:37,360 --> 00:07:44,479
+search in day 387 uniform code search is
+
+207
+00:07:41,440 --> 00:07:47,360
+a variant of texture both use the
+
+208
+00:07:44,479 --> 00:07:49,919
+priority queue or keep first invest out
+
+209
+00:07:47,360 --> 00:07:52,400
+with the texture he has this update
+
+210
+00:07:49,919 --> 00:07:54,560
+estimate it's a complete it computes the
+
+211
+00:07:52,400 --> 00:07:58,000
+shortest platform from single source to
+
+212
+00:07:54,560 --> 00:08:00,160
+all vertex for the uniform core search
+
+213
+00:07:58,000 --> 00:08:01,520
+is not complete it's more similar to
+
+214
+00:08:00,160 --> 00:08:03,520
+processors
+
+215
+00:08:01,520 --> 00:08:05,680
+the difference between the uniform
+
+216
+00:08:03,520 --> 00:08:08,240
+construction professors is that the use
+
+217
+00:08:05,680 --> 00:08:10,080
+of queue or priority queue
+
+218
+00:08:08,240 --> 00:08:12,780
+or others are the same
+
+219
+00:08:10,080 --> 00:08:16,999
+okay that's it for today bye
+
+220
+00:08:12,780 --> 00:08:16,999
+[Music]
+

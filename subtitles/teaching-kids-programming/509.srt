@@ -1,0 +1,1040 @@
+1
+00:00:00,320 --> 00:00:03,919
+hello mr mr ryan all right
+
+2
+00:00:02,960 --> 00:00:07,440
+yeah
+
+3
+00:00:03,919 --> 00:00:08,400
+on day 179 yeah we talked about to
+
+4
+00:00:07,440 --> 00:00:11,280
+delete
+
+5
+00:00:08,400 --> 00:00:14,400
+the even leaves in the finance
+
+6
+00:00:11,280 --> 00:00:17,119
+the sub tree so as long as any subtree
+
+7
+00:00:14,400 --> 00:00:19,199
+has all the even notes then we remove it
+
+8
+00:00:17,119 --> 00:00:20,320
+the even leaves
+
+9
+00:00:19,199 --> 00:00:23,199
+six
+
+10
+00:00:20,320 --> 00:00:25,519
+so we remove that even this
+
+11
+00:00:23,199 --> 00:00:27,680
+and now these become even dips we keep
+
+12
+00:00:25,519 --> 00:00:30,240
+removing it right now
+
+13
+00:00:27,680 --> 00:00:30,960
+two we can remove it for we can remove
+
+14
+00:00:30,240 --> 00:00:34,079
+it
+
+15
+00:00:30,960 --> 00:00:36,320
+no more because this is odd right
+
+16
+00:00:34,079 --> 00:00:38,800
+so we use the recursion we use the
+
+17
+00:00:36,320 --> 00:00:40,399
+recursion to recursively remove it
+
+18
+00:00:38,800 --> 00:00:42,840
+define
+
+19
+00:00:40,399 --> 00:00:44,399
+remove
+
+20
+00:00:42,840 --> 00:00:45,200
+evenly
+
+21
+00:00:44,399 --> 00:00:48,399
+leave
+
+22
+00:00:45,200 --> 00:00:50,640
+of a binary tree a loot which is a three
+
+23
+00:00:48,399 --> 00:00:52,559
+note right it's a three note
+
+24
+00:00:50,640 --> 00:00:55,039
+we can specify the type
+
+25
+00:00:52,559 --> 00:00:58,160
+and then it needs to return a tree now
+
+26
+00:00:55,039 --> 00:01:00,320
+okay three note if not root if this is
+
+27
+00:00:58,160 --> 00:01:03,199
+already empty that will just return
+
+28
+00:01:00,320 --> 00:01:06,640
+return or return none
+
+29
+00:01:03,199 --> 00:01:08,960
+right so now look we are here root right
+
+30
+00:01:06,640 --> 00:01:11,119
+so this is blue dot left you know it
+
+31
+00:01:08,960 --> 00:01:12,880
+might be a subtree rule.right it might
+
+32
+00:01:11,119 --> 00:01:14,640
+be a subject right
+
+33
+00:01:12,880 --> 00:01:17,040
+so now we just because we call this
+
+34
+00:01:14,640 --> 00:01:19,439
+function right so
+
+35
+00:01:17,040 --> 00:01:22,000
+blue dot left
+
+36
+00:01:19,439 --> 00:01:24,560
+which is this bit move dot left
+
+37
+00:01:22,000 --> 00:01:26,720
+we want to recursively remove the evenly
+
+38
+00:01:24,560 --> 00:01:28,720
+so root of that right so if
+
+39
+00:01:26,720 --> 00:01:32,479
+we move we call this
+
+40
+00:01:28,720 --> 00:01:35,840
+itself remove even this
+
+41
+00:01:32,479 --> 00:01:38,320
+blue dot left okay
+
+42
+00:01:35,840 --> 00:01:39,280
+and can you try the next one
+
+43
+00:01:38,320 --> 00:01:41,280
+right
+
+44
+00:01:39,280 --> 00:01:43,840
+yeah so we just copy it basically glue
+
+45
+00:01:41,280 --> 00:01:46,320
+them right right
+
+46
+00:01:43,840 --> 00:01:47,439
+to the right do the right this bit and
+
+47
+00:01:46,320 --> 00:01:49,439
+we want to
+
+48
+00:01:47,439 --> 00:01:52,799
+remove the even leaves of the noodle
+
+49
+00:01:49,439 --> 00:01:55,119
+right so we are cleaning we are removing
+
+50
+00:01:52,799 --> 00:01:56,799
+the even leaves of the left tree even
+
+51
+00:01:55,119 --> 00:01:59,119
+leaves of the right tree so there's a
+
+52
+00:01:56,799 --> 00:02:01,520
+possibility that all the subtree has
+
+53
+00:01:59,119 --> 00:02:03,840
+been deleted right and all the right
+
+54
+00:02:01,520 --> 00:02:05,920
+trees have been deleted i'm right
+
+55
+00:02:03,840 --> 00:02:08,720
+so when it's deleted
+
+56
+00:02:05,920 --> 00:02:10,640
+how many possibilities if i'm removing
+
+57
+00:02:08,720 --> 00:02:13,920
+this so there are two possibilities
+
+58
+00:02:10,640 --> 00:02:17,120
+after removing the even leaf this bit
+
+59
+00:02:13,920 --> 00:02:19,120
+has at least one note or it's all gone
+
+60
+00:02:17,120 --> 00:02:21,360
+right we can remove everything right the
+
+61
+00:02:19,120 --> 00:02:22,640
+only two possibilities right if we are
+
+62
+00:02:21,360 --> 00:02:24,239
+removing
+
+63
+00:02:22,640 --> 00:02:26,000
+everything on the left to your virtual
+
+64
+00:02:24,239 --> 00:02:28,400
+at least become the newly then we have
+
+65
+00:02:26,000 --> 00:02:30,800
+to check if it's evenly we can take this
+
+66
+00:02:28,400 --> 00:02:33,680
+out am i yeah
+
+67
+00:02:30,800 --> 00:02:37,040
+on the first example you
+
+68
+00:02:33,680 --> 00:02:38,560
+you didn't remember
+
+69
+00:02:37,040 --> 00:02:41,120
+good point that's a very good point
+
+70
+00:02:38,560 --> 00:02:42,959
+because i have i still have to check if
+
+71
+00:02:41,120 --> 00:02:45,200
+this is the event
+
+72
+00:02:42,959 --> 00:02:48,400
+okay yeah correct me yeah yeah
+
+73
+00:02:45,200 --> 00:02:51,760
+i was not entirely precise okay we can
+
+74
+00:02:48,400 --> 00:02:53,440
+remove this note now if this bit this
+
+75
+00:02:51,760 --> 00:02:55,519
+tree has been deleted at least right
+
+76
+00:02:53,440 --> 00:02:57,840
+three has been deleted and also this
+
+77
+00:02:55,519 --> 00:03:00,560
+dude is even now right now we can take
+
+78
+00:02:57,840 --> 00:03:01,360
+it out if it's odd now we can't right if
+
+79
+00:03:00,560 --> 00:03:05,680
+do
+
+80
+00:03:01,360 --> 00:03:07,200
+we can just say not rule or left
+
+81
+00:03:05,680 --> 00:03:09,920
+and
+
+82
+00:03:07,200 --> 00:03:12,080
+not root or right right so this is
+
+83
+00:03:09,920 --> 00:03:14,640
+just basically saying that
+
+84
+00:03:12,080 --> 00:03:16,560
+the both subtree has been gone if one
+
+85
+00:03:14,640 --> 00:03:18,879
+states what happened if one state this
+
+86
+00:03:16,560 --> 00:03:20,640
+is not a leaf now right
+
+87
+00:03:18,879 --> 00:03:22,720
+this is not leaf though this this
+
+88
+00:03:20,640 --> 00:03:24,560
+becomes the new leaf node if both
+
+89
+00:03:22,720 --> 00:03:28,080
+subtree has been depicted
+
+90
+00:03:24,560 --> 00:03:30,720
+and root value is an even node it's an
+
+91
+00:03:28,080 --> 00:03:34,319
+evenness so we can use n1
+
+92
+00:03:30,720 --> 00:03:36,560
+equal equals zero all modulus too right
+
+93
+00:03:34,319 --> 00:03:38,239
+modulus two equal equals zero this is
+
+94
+00:03:36,560 --> 00:03:40,560
+also the same
+
+95
+00:03:38,239 --> 00:03:41,840
+and one equal equal one okay both are
+
+96
+00:03:40,560 --> 00:03:43,920
+the same
+
+97
+00:03:41,840 --> 00:03:44,720
+when we remove it we just return none
+
+98
+00:03:43,920 --> 00:03:46,720
+right
+
+99
+00:03:44,720 --> 00:03:48,560
+otherwise we just return the root
+
+100
+00:03:46,720 --> 00:03:50,400
+recursion
+
+101
+00:03:48,560 --> 00:03:52,560
+beautifully done right
+
+102
+00:03:50,400 --> 00:03:55,040
+if we're using the other
+
+103
+00:03:52,560 --> 00:03:57,360
+egg not be complicated but the recursion
+
+104
+00:03:55,040 --> 00:03:59,599
+this location is the perfect case use
+
+105
+00:03:57,360 --> 00:04:01,439
+case in this scenario okay so today's
+
+106
+00:03:59,599 --> 00:04:04,319
+problem given the spinal tree we want to
+
+107
+00:04:01,439 --> 00:04:07,200
+remove every subtree not containing one
+
+108
+00:04:04,319 --> 00:04:09,280
+okay so this is removing the leaves
+
+109
+00:04:07,200 --> 00:04:11,280
+right we will because we're removing the
+
+110
+00:04:09,280 --> 00:04:13,120
+even leaves right what are we doing here
+
+111
+00:04:11,280 --> 00:04:15,519
+today is that we want to
+
+112
+00:04:13,120 --> 00:04:17,199
+remove
+
+113
+00:04:15,519 --> 00:04:19,759
+every
+
+114
+00:04:17,199 --> 00:04:21,680
+sub tree
+
+115
+00:04:19,759 --> 00:04:24,000
+not containing one
+
+116
+00:04:21,680 --> 00:04:26,080
+so every substrate not contain one okay
+
+117
+00:04:24,000 --> 00:04:26,960
+so how can we use this
+
+118
+00:04:26,080 --> 00:04:28,560
+so
+
+119
+00:04:26,960 --> 00:04:31,040
+there's only one thing we need to change
+
+120
+00:04:28,560 --> 00:04:33,199
+here what is it which line needs to be
+
+121
+00:04:31,040 --> 00:04:35,040
+changed not containing one look we are
+
+122
+00:04:33,199 --> 00:04:36,880
+removing every structure we can we can
+
+123
+00:04:35,040 --> 00:04:39,360
+first learn
+
+124
+00:04:36,880 --> 00:04:40,400
+yeah this is obviously the function yeah
+
+125
+00:04:39,360 --> 00:04:42,320
+we're done
+
+126
+00:04:40,400 --> 00:04:44,240
+pruning or remove you're just pruning
+
+127
+00:04:42,320 --> 00:04:46,000
+okay pulling the tree
+
+128
+00:04:44,240 --> 00:04:48,560
+pruning binary
+
+129
+00:04:46,000 --> 00:04:50,240
+okay we first of all if we that's right
+
+130
+00:04:48,560 --> 00:04:51,199
+we have to correct the
+
+131
+00:04:50,240 --> 00:04:53,360
+function
+
+132
+00:04:51,199 --> 00:04:55,680
+okay so this speed is the same a little
+
+133
+00:04:53,360 --> 00:04:59,199
+bit yeah we recursively
+
+134
+00:04:55,680 --> 00:05:01,120
+removing the subtree on the left subtree
+
+135
+00:04:59,199 --> 00:05:02,880
+if it does not contain one and remove
+
+136
+00:05:01,120 --> 00:05:05,840
+the sub tree knocking in one and then
+
+137
+00:05:02,880 --> 00:05:07,440
+this becomes a sub tree right a
+
+138
+00:05:05,840 --> 00:05:09,919
+leaf node and
+
+139
+00:05:07,440 --> 00:05:12,720
+so we have to check if this is not one
+
+140
+00:05:09,919 --> 00:05:16,560
+this is you know this is one right yeah
+
+141
+00:05:12,720 --> 00:05:17,360
+the top one the top left top left is one
+
+142
+00:05:16,560 --> 00:05:20,240
+right
+
+143
+00:05:17,360 --> 00:05:22,080
+there's nine there isn't anything there
+
+144
+00:05:20,240 --> 00:05:23,520
+okay so this one yeah
+
+145
+00:05:22,080 --> 00:05:25,039
+yeah
+
+146
+00:05:23,520 --> 00:05:27,120
+okay so we want to remove every
+
+147
+00:05:25,039 --> 00:05:28,320
+substrate that's containing one
+
+148
+00:05:27,120 --> 00:05:30,400
+right
+
+149
+00:05:28,320 --> 00:05:31,840
+not containing one so we can remove this
+
+150
+00:05:30,400 --> 00:05:32,639
+this is actually not containing one
+
+151
+00:05:31,840 --> 00:05:35,440
+right
+
+152
+00:05:32,639 --> 00:05:35,440
+so this is gone
+
+153
+00:05:36,840 --> 00:05:42,000
+anymore this contains one this contains
+
+154
+00:05:39,840 --> 00:05:44,479
+one because this is not delta so
+
+155
+00:05:42,000 --> 00:05:46,880
+obviously any subtree that containing
+
+156
+00:05:44,479 --> 00:05:50,160
+this cannot be known right so this is
+
+157
+00:05:46,880 --> 00:05:52,639
+zero right if this is zero so
+
+158
+00:05:50,160 --> 00:05:53,600
+we don't know this yeah we can remove
+
+159
+00:05:52,639 --> 00:05:55,520
+the leaves
+
+160
+00:05:53,600 --> 00:05:57,919
+because the leaves is the smallest
+
+161
+00:05:55,520 --> 00:06:00,479
+substrate right we do more relief and we
+
+162
+00:05:57,919 --> 00:06:02,880
+remove this at least become a new leaf
+
+163
+00:06:00,479 --> 00:06:04,479
+and we keep removing it and this is a
+
+164
+00:06:02,880 --> 00:06:06,240
+two different way of saying the same
+
+165
+00:06:04,479 --> 00:06:08,319
+thing right we are removing every
+
+166
+00:06:06,240 --> 00:06:10,560
+substrate not containing one so what's
+
+167
+00:06:08,319 --> 00:06:12,720
+the smallest substrate
+
+168
+00:06:10,560 --> 00:06:15,840
+leaf a leaf yeah so it's basically
+
+169
+00:06:12,720 --> 00:06:18,639
+saying that we want to remove every node
+
+170
+00:06:15,840 --> 00:06:21,039
+every leaf because every leaf not one
+
+171
+00:06:18,639 --> 00:06:23,520
+right so what was the previous question
+
+172
+00:06:21,039 --> 00:06:25,759
+we want to remove every even leaves we
+
+173
+00:06:23,520 --> 00:06:28,400
+want to repeatedly delete
+
+174
+00:06:25,759 --> 00:06:30,400
+that evenly and now this is the same so
+
+175
+00:06:28,400 --> 00:06:32,800
+we want to repeatedly
+
+176
+00:06:30,400 --> 00:06:34,960
+recursively evade
+
+177
+00:06:32,800 --> 00:06:38,960
+the leaves which are not white which
+
+178
+00:06:34,960 --> 00:06:38,960
+lines of color we need to change here
+
+179
+00:06:40,400 --> 00:06:43,280
+yeah okay so we just have to change this
+
+180
+00:06:42,240 --> 00:06:45,199
+to
+
+181
+00:06:43,280 --> 00:06:46,840
+not containing one
+
+182
+00:06:45,199 --> 00:06:51,280
+so what does it
+
+183
+00:06:46,840 --> 00:06:52,960
+mean is not containing one it's not one
+
+184
+00:06:51,280 --> 00:06:54,880
+right because we are here we are
+
+185
+00:06:52,960 --> 00:06:56,720
+checking because here look we don't move
+
+186
+00:06:54,880 --> 00:06:59,919
+the animation
+
+187
+00:06:56,720 --> 00:07:01,759
+yeah why not so look at the left subtree
+
+188
+00:06:59,919 --> 00:07:04,160
+is gone the right subtree is gone and
+
+189
+00:07:01,759 --> 00:07:05,199
+the root is the new leaf it's a new
+
+190
+00:07:04,160 --> 00:07:07,759
+subtree
+
+191
+00:07:05,199 --> 00:07:10,800
+and we just basically have to check if
+
+192
+00:07:07,759 --> 00:07:14,080
+root top value
+
+193
+00:07:10,800 --> 00:07:17,360
+is not equal one right when we turn now
+
+194
+00:07:14,080 --> 00:07:19,759
+previously on day 179 we talked about
+
+195
+00:07:17,360 --> 00:07:21,599
+the recursion recursive agreement to
+
+196
+00:07:19,759 --> 00:07:23,919
+delete evenly
+
+197
+00:07:21,599 --> 00:07:26,080
+which is uh recursively calling the
+
+198
+00:07:23,919 --> 00:07:28,639
+function to remove the evenly from the
+
+199
+00:07:26,080 --> 00:07:31,120
+left subtree and right subject and once
+
+200
+00:07:28,639 --> 00:07:33,759
+the both subtrees are becoming empty
+
+201
+00:07:31,120 --> 00:07:36,400
+that means the root becomes the new leaf
+
+202
+00:07:33,759 --> 00:07:38,800
+and then we have to check if the root
+
+203
+00:07:36,400 --> 00:07:40,400
+is uh even not if it's a even now we can
+
+204
+00:07:38,800 --> 00:07:44,000
+take it out right
+
+205
+00:07:40,400 --> 00:07:45,840
+this is 179 and today our problem is
+
+206
+00:07:44,000 --> 00:07:48,720
+that we want to remove every sub tree
+
+207
+00:07:45,840 --> 00:07:50,479
+which is not one not containing one
+
+208
+00:07:48,720 --> 00:07:53,199
+yeah it's quite tricky not containing
+
+209
+00:07:50,479 --> 00:07:55,440
+one so it's basically saying that so we
+
+210
+00:07:53,199 --> 00:07:57,360
+want to remove every
+
+211
+00:07:55,440 --> 00:07:59,440
+leaf now which is no one it's the same
+
+212
+00:07:57,360 --> 00:08:00,960
+thing yeah because every subtree not
+
+213
+00:07:59,440 --> 00:08:02,800
+containing one
+
+214
+00:08:00,960 --> 00:08:04,319
+then we can start checking from the leaf
+
+215
+00:08:02,800 --> 00:08:06,879
+node because the leaf nodes are the
+
+216
+00:08:04,319 --> 00:08:09,280
+minimum substrate even the subtree the
+
+217
+00:08:06,879 --> 00:08:11,360
+leaf nodes are substrate if it's not one
+
+218
+00:08:09,280 --> 00:08:12,560
+not containing one not containing one
+
+219
+00:08:11,360 --> 00:08:14,800
+it's not one
+
+220
+00:08:12,560 --> 00:08:17,199
+so not containing one for sub three it's
+
+221
+00:08:14,800 --> 00:08:19,199
+the same thing as if the leaf node is no
+
+222
+00:08:17,199 --> 00:08:20,720
+one if we leave now it's not one we take
+
+223
+00:08:19,199 --> 00:08:22,319
+it out so basically
+
+224
+00:08:20,720 --> 00:08:25,680
+just we just have to change one and of
+
+225
+00:08:22,319 --> 00:08:27,840
+course okay the time temperature we are
+
+226
+00:08:25,680 --> 00:08:30,080
+traveling the binary using the depth
+
+227
+00:08:27,840 --> 00:08:32,240
+search recursively like that research
+
+228
+00:08:30,080 --> 00:08:35,039
+each node has been visited once the
+
+229
+00:08:32,240 --> 00:08:37,919
+space complexity or when in worst case
+
+230
+00:08:35,039 --> 00:08:41,200
+the binary tree is a linkage if the
+
+231
+00:08:37,919 --> 00:08:43,039
+final tree has only one kit for each
+
+232
+00:08:41,200 --> 00:08:43,919
+note the binary tree could be like that
+
+233
+00:08:43,039 --> 00:08:46,240
+right
+
+234
+00:08:43,919 --> 00:08:48,720
+zigzag to each note look each note has
+
+235
+00:08:46,240 --> 00:08:50,560
+only one kid left or right then in this
+
+236
+00:08:48,720 --> 00:08:52,880
+case that there are n notes and the
+
+237
+00:08:50,560 --> 00:08:54,480
+depth of the final tree is n okay so
+
+238
+00:08:52,880 --> 00:08:57,360
+what's new today what have you learned
+
+239
+00:08:54,480 --> 00:08:59,360
+that's why we have a
+
+240
+00:08:57,360 --> 00:09:00,480
+tree yeah we have a tree yeah binary
+
+241
+00:08:59,360 --> 00:09:01,279
+tree
+
+242
+00:09:00,480 --> 00:09:02,720
+which
+
+243
+00:09:01,279 --> 00:09:06,080
+we wanna
+
+244
+00:09:02,720 --> 00:09:07,200
+delete every sub tree which doesn't have
+
+245
+00:09:06,080 --> 00:09:09,519
+any
+
+246
+00:09:07,200 --> 00:09:10,880
+thing okay yeah
+
+247
+00:09:09,519 --> 00:09:13,519
+and then yeah
+
+248
+00:09:10,880 --> 00:09:15,760
+so how are we doing this if i'm looking
+
+249
+00:09:13,519 --> 00:09:17,360
+at this code how do i doing this
+
+250
+00:09:15,760 --> 00:09:18,880
+we're doing it
+
+251
+00:09:17,360 --> 00:09:21,040
+by
+
+252
+00:09:18,880 --> 00:09:21,040
+uh
+
+253
+00:09:21,519 --> 00:09:26,000
+yeah recursion so what yeah so i mean
+
+254
+00:09:24,560 --> 00:09:28,480
+half
+
+255
+00:09:26,000 --> 00:09:32,160
+so it's the same thing as what
+
+256
+00:09:28,480 --> 00:09:32,160
+we get like the same thing
+
+257
+00:09:32,880 --> 00:09:37,640
+deleting every is
+
+258
+00:09:42,000 --> 00:09:47,320
+that's it for today bye-bye
+
+259
+00:09:44,320 --> 00:09:47,320
+bye-bye
+
+260
+00:09:50,560 --> 00:09:52,640
+you
+
