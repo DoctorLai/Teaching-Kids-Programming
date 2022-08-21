@@ -1,0 +1,1708 @@
+1
+00:00:00,160 --> 00:00:06,000
+hello mister here mr ryan are you right
+
+2
+00:00:02,560 --> 00:00:08,480
+yes on day 28 okay on day 28 we talk
+
+3
+00:00:06,000 --> 00:00:10,880
+about how to check if a binary search
+
+4
+00:00:08,480 --> 00:00:14,480
+tree is valid yeah
+
+5
+00:00:10,880 --> 00:00:15,940
+what's binary search tree it's a tree
+
+6
+00:00:14,480 --> 00:00:26,370
+it's a tree
+
+7
+00:00:15,940 --> 00:00:26,370
+[Music]
+
+8
+00:00:27,599 --> 00:00:31,599
+why is that because
+
+9
+00:00:29,199 --> 00:00:33,440
+minus one isn't
+
+10
+00:00:31,599 --> 00:00:35,200
+greater than yeah that's right so
+
+11
+00:00:33,440 --> 00:00:36,800
+finally surgery obviously at the
+
+12
+00:00:35,200 --> 00:00:38,559
+beginning it should be a binary tree
+
+13
+00:00:36,800 --> 00:00:40,399
+final tree is that each node has at most
+
+14
+00:00:38,559 --> 00:00:42,480
+two kids right but this is the blue the
+
+15
+00:00:40,399 --> 00:00:44,559
+notes with no children are called leaves
+
+16
+00:00:42,480 --> 00:00:46,160
+there's only one which doesn't have any
+
+17
+00:00:44,559 --> 00:00:48,320
+parent that we call it dude for each you
+
+18
+00:00:46,160 --> 00:00:50,640
+know it has at most two kids let's
+
+19
+00:00:48,320 --> 00:00:53,360
+finish it and finally surgery has this
+
+20
+00:00:50,640 --> 00:00:55,440
+additional criteria like the notes on
+
+21
+00:00:53,360 --> 00:00:57,520
+the left trees are strictly smaller than
+
+22
+00:00:55,440 --> 00:00:59,680
+the parent the notes on the right three
+
+23
+00:00:57,520 --> 00:01:02,239
+are strictly bigger right so look this
+
+24
+00:00:59,680 --> 00:01:04,799
+minus one is smaller than two but
+
+25
+00:01:02,239 --> 00:01:07,360
+it should be bigger than one
+
+26
+00:01:04,799 --> 00:01:09,520
+so this is not a binary search tree but
+
+27
+00:01:07,360 --> 00:01:11,600
+if i put these here one point five is
+
+28
+00:01:09,520 --> 00:01:14,320
+this a finishes tree
+
+29
+00:01:11,600 --> 00:01:18,479
+yes this is the perfect advantage so on
+
+30
+00:01:14,320 --> 00:01:20,720
+day 28 so we want to check if a banana
+
+31
+00:01:18,479 --> 00:01:21,840
+tree is the finest tree
+
+32
+00:01:20,720 --> 00:01:24,000
+at that point we talked about a
+
+33
+00:01:21,840 --> 00:01:26,159
+recursive agreement so basically we we
+
+34
+00:01:24,000 --> 00:01:29,840
+have a maintainer window so minimum
+
+35
+00:01:26,159 --> 00:01:32,640
+value and maximum value maximum value so
+
+36
+00:01:29,840 --> 00:01:33,759
+we maintain this window for the node
+
+37
+00:01:32,640 --> 00:01:35,920
+value
+
+38
+00:01:33,759 --> 00:01:38,159
+so one look at the beginning we don't
+
+39
+00:01:35,920 --> 00:01:40,720
+know the window so we set it to minus
+
+40
+00:01:38,159 --> 00:01:42,640
+infinity and positive infinity right as
+
+41
+00:01:40,720 --> 00:01:45,040
+soon as we travel to the left or travel
+
+42
+00:01:42,640 --> 00:01:48,799
+to the right if we travel to the left
+
+43
+00:01:45,040 --> 00:01:51,040
+look this window yeah left and right
+
+44
+00:01:48,799 --> 00:01:52,640
+it should be bigger than the left and
+
+45
+00:01:51,040 --> 00:01:55,119
+smaller than the right
+
+46
+00:01:52,640 --> 00:01:57,439
+so if we travel to the left what
+
+47
+00:01:55,119 --> 00:01:58,240
+happened
+
+48
+00:01:57,439 --> 00:01:59,840
+look
+
+49
+00:01:58,240 --> 00:02:01,360
+the range of the value for the current
+
+50
+00:01:59,840 --> 00:02:03,280
+node is from
+
+51
+00:02:01,360 --> 00:02:05,680
+infinity minus infinity to positive
+
+52
+00:02:03,280 --> 00:02:07,280
+infinity this one is at this strength if
+
+53
+00:02:05,680 --> 00:02:10,319
+i go to the left
+
+54
+00:02:07,280 --> 00:02:10,319
+what happened to the window
+
+55
+00:02:11,039 --> 00:02:16,160
+smaller yeah look at this one so the
+
+56
+00:02:13,520 --> 00:02:18,080
+window becomes minus infinity to one if
+
+57
+00:02:16,160 --> 00:02:20,560
+we go to the right what happen
+
+58
+00:02:18,080 --> 00:02:22,400
+the number should be bigger than one and
+
+59
+00:02:20,560 --> 00:02:24,160
+smaller than infinity right so every
+
+60
+00:02:22,400 --> 00:02:25,360
+time we travel to the left we update a
+
+61
+00:02:24,160 --> 00:02:27,280
+window and
+
+62
+00:02:25,360 --> 00:02:29,200
+accordingly if we travel to the right we
+
+63
+00:02:27,280 --> 00:02:32,000
+update the window accordingly and at
+
+64
+00:02:29,200 --> 00:02:34,160
+each node we just check if the value is
+
+65
+00:02:32,000 --> 00:02:36,720
+inside the window all right
+
+66
+00:02:34,160 --> 00:02:39,840
+okay so can we have these duplicate
+
+67
+00:02:36,720 --> 00:02:41,599
+values in the final research
+
+68
+00:02:39,840 --> 00:02:42,879
+why is that because
+
+69
+00:02:41,599 --> 00:02:45,599
+because
+
+70
+00:02:42,879 --> 00:02:48,640
+because if this duplicates it it
+
+71
+00:02:45,599 --> 00:02:49,920
+wouldn't be strictly smaller exactly yes
+
+72
+00:02:48,640 --> 00:02:51,360
+because we're talking about strictly
+
+73
+00:02:49,920 --> 00:02:53,120
+smaller and strictly bigger if that
+
+74
+00:02:51,360 --> 00:02:54,720
+duplicates that then certainly doesn't
+
+75
+00:02:53,120 --> 00:02:57,120
+mean this requirement okay
+
+76
+00:02:54,720 --> 00:02:59,120
+this is a very straightforward recursion
+
+77
+00:02:57,120 --> 00:03:01,040
+algorithm we just keep tracking of the
+
+78
+00:02:59,120 --> 00:03:02,560
+window and then if we move to the left
+
+79
+00:03:01,040 --> 00:03:04,000
+we update the window if we move to the
+
+80
+00:03:02,560 --> 00:03:06,720
+right we update the window and then we
+
+81
+00:03:04,000 --> 00:03:08,959
+validate the final retreat to see if
+
+82
+00:03:06,720 --> 00:03:10,800
+each node is within that window okay
+
+83
+00:03:08,959 --> 00:03:13,519
+let's define
+
+84
+00:03:10,800 --> 00:03:16,879
+f at the beginning root the window
+
+85
+00:03:13,519 --> 00:03:18,640
+minimum value and the maximum value
+
+86
+00:03:16,879 --> 00:03:20,800
+right at the beginning we can set this
+
+87
+00:03:18,640 --> 00:03:23,120
+mean value maximum value by default
+
+88
+00:03:20,800 --> 00:03:24,640
+minus infinity to positive infinity okay
+
+89
+00:03:23,120 --> 00:03:26,720
+if not good
+
+90
+00:03:24,640 --> 00:03:28,799
+if there is no losing validity we just
+
+91
+00:03:26,720 --> 00:03:31,280
+return to
+
+92
+00:03:28,799 --> 00:03:34,799
+right so now look
+
+93
+00:03:31,280 --> 00:03:38,239
+if this value if root of value
+
+94
+00:03:34,799 --> 00:03:40,560
+is smaller than mean value right
+
+95
+00:03:38,239 --> 00:03:42,879
+or the root of value
+
+96
+00:03:40,560 --> 00:03:45,200
+is bigger than the max value
+
+97
+00:03:42,879 --> 00:03:47,760
+now what should we do return two of us
+
+98
+00:03:45,200 --> 00:03:49,120
+current window is mean to
+
+99
+00:03:47,760 --> 00:03:51,599
+max not
+
+100
+00:03:49,120 --> 00:03:53,680
+equal right because as we said we don't
+
+101
+00:03:51,599 --> 00:03:56,720
+have a duplicate value so it's strictly
+
+102
+00:03:53,680 --> 00:04:00,080
+bigger than mean smaller than uh max so
+
+103
+00:03:56,720 --> 00:04:02,640
+if this value turned out to be at
+
+104
+00:04:00,080 --> 00:04:04,959
+somewhere here or somewhere here
+
+105
+00:04:02,640 --> 00:04:06,319
+then we should return two of us
+
+106
+00:04:04,959 --> 00:04:08,000
+if it's not in the window we should
+
+107
+00:04:06,319 --> 00:04:09,360
+return two of us
+
+108
+00:04:08,000 --> 00:04:11,360
+first perfect
+
+109
+00:04:09,360 --> 00:04:13,280
+we just have to check the left tree the
+
+110
+00:04:11,360 --> 00:04:14,720
+left tree has to be the final search
+
+111
+00:04:13,280 --> 00:04:16,880
+tree and the right way has to be a
+
+112
+00:04:14,720 --> 00:04:18,639
+spanish tree right in order for the
+
+113
+00:04:16,880 --> 00:04:21,600
+whole tree to be a binary surgery right
+
+114
+00:04:18,639 --> 00:04:23,680
+look if this is a one and then this is
+
+115
+00:04:21,600 --> 00:04:25,759
+the left tree this is the right tree
+
+116
+00:04:23,680 --> 00:04:28,080
+okay so
+
+117
+00:04:25,759 --> 00:04:30,800
+we want to check if this expiratory is
+
+118
+00:04:28,080 --> 00:04:33,120
+the financial stream right so now the
+
+119
+00:04:30,800 --> 00:04:35,680
+i'm telling this one is within the range
+
+120
+00:04:33,120 --> 00:04:37,440
+so we have to check if at least this bit
+
+121
+00:04:35,680 --> 00:04:39,280
+and this bit is a balancer shift and
+
+122
+00:04:37,440 --> 00:04:42,080
+this bit is a balancer stream right this
+
+123
+00:04:39,280 --> 00:04:45,040
+is a sub problem because if no problem
+
+124
+00:04:42,080 --> 00:04:47,360
+so look we have to check f blue dot left
+
+125
+00:04:45,040 --> 00:04:49,520
+this is the left tree and then the
+
+126
+00:04:47,360 --> 00:04:51,919
+window the window thing
+
+127
+00:04:49,520 --> 00:04:54,479
+we go to the left we go to the left the
+
+128
+00:04:51,919 --> 00:04:55,759
+left boundary does not change so this is
+
+129
+00:04:54,479 --> 00:04:57,919
+mean that v
+
+130
+00:04:55,759 --> 00:04:59,520
+what's that right what what should we do
+
+131
+00:04:57,919 --> 00:05:01,440
+with the maximum
+
+132
+00:04:59,520 --> 00:05:03,199
+if we go to the left what's the maximum
+
+133
+00:05:01,440 --> 00:05:06,639
+it's going to be this window
+
+134
+00:05:03,199 --> 00:05:08,320
+the node here what's the maximum
+
+135
+00:05:06,639 --> 00:05:11,440
+if we go to the left what's the maximum
+
+136
+00:05:08,320 --> 00:05:13,039
+of this now
+
+137
+00:05:11,440 --> 00:05:16,160
+one right
+
+138
+00:05:13,039 --> 00:05:20,639
+load of value but not equal to right
+
+139
+00:05:16,160 --> 00:05:20,639
+and okay now we go to we check the right
+
+140
+00:05:21,600 --> 00:05:25,520
+so if we go to the right what happened
+
+141
+00:05:23,120 --> 00:05:27,360
+to the mean value
+
+142
+00:05:25,520 --> 00:05:30,080
+what happened to the remark if we go to
+
+143
+00:05:27,360 --> 00:05:30,080
+the right what happened
+
+144
+00:05:31,039 --> 00:05:33,039
+what
+
+145
+00:05:31,840 --> 00:05:34,720
+what's here
+
+146
+00:05:33,039 --> 00:05:37,120
+what's here
+
+147
+00:05:34,720 --> 00:05:39,360
+if we go to the right what's the mean
+
+148
+00:05:37,120 --> 00:05:41,280
+we rule the value yeah
+
+149
+00:05:39,360 --> 00:05:42,639
+and what's the the right country does
+
+150
+00:05:41,280 --> 00:05:44,960
+not change yeah if you go to the right
+
+151
+00:05:42,639 --> 00:05:47,600
+the right boundary does not change okay
+
+152
+00:05:44,960 --> 00:05:49,840
+so localistic location time connects to
+
+153
+00:05:47,600 --> 00:05:51,120
+o n whichever every node the space
+
+154
+00:05:49,840 --> 00:05:53,280
+number is the
+
+155
+00:05:51,120 --> 00:05:55,120
+yeah because we're using location here
+
+156
+00:05:53,280 --> 00:05:58,240
+technically i mean more precisely the
+
+157
+00:05:55,120 --> 00:06:00,080
+space complexity is o h okay h is the
+
+158
+00:05:58,240 --> 00:06:02,639
+height of the boundary in the worst case
+
+159
+00:06:00,080 --> 00:06:05,120
+h equals the number of nodes
+
+160
+00:06:02,639 --> 00:06:06,400
+and we can tell these on a day day 28
+
+161
+00:06:05,120 --> 00:06:08,400
+we'll just talk about recursion but we
+
+162
+00:06:06,400 --> 00:06:10,800
+don't talk about how do we turn this
+
+163
+00:06:08,400 --> 00:06:13,360
+into iterating we can use the iterative
+
+164
+00:06:10,800 --> 00:06:15,280
+right the point is that when we maintain
+
+165
+00:06:13,360 --> 00:06:16,960
+the stack ourselves for the recursion we
+
+166
+00:06:15,280 --> 00:06:19,680
+we ask the computer to maintain a stack
+
+167
+00:06:16,960 --> 00:06:21,680
+right so the you know recursion calling
+
+168
+00:06:19,680 --> 00:06:23,680
+itself right let's computer calling
+
+169
+00:06:21,680 --> 00:06:25,759
+excel this maintains the stack class so
+
+170
+00:06:23,680 --> 00:06:27,680
+we can maintain the stack ourselves but
+
+171
+00:06:25,759 --> 00:06:29,360
+for the elements in the state every time
+
+172
+00:06:27,680 --> 00:06:31,759
+we need to push the route the the
+
+173
+00:06:29,360 --> 00:06:33,600
+current node and the left that value and
+
+174
+00:06:31,759 --> 00:06:35,840
+the right value the window right so now
+
+175
+00:06:33,600 --> 00:06:37,120
+we can validate the values
+
+176
+00:06:35,840 --> 00:06:39,600
+sec
+
+177
+00:06:37,120 --> 00:06:41,360
+yeah back at the beginning we put it to
+
+178
+00:06:39,600 --> 00:06:43,120
+the root and then
+
+179
+00:06:41,360 --> 00:06:45,360
+at the beginning the window is minimal
+
+180
+00:06:43,120 --> 00:06:47,120
+infinity to positive infinity
+
+181
+00:06:45,360 --> 00:06:48,800
+all right this is the type of content
+
+182
+00:06:47,120 --> 00:06:52,560
+three elements what's trouble what's the
+
+183
+00:06:48,800 --> 00:06:52,560
+difference between topper and a list
+
+184
+00:06:54,880 --> 00:06:57,199
+change table
+
+185
+00:06:56,400 --> 00:06:59,599
+right
+
+186
+00:06:57,199 --> 00:07:02,479
+this can yeah it's immutable in mutable
+
+187
+00:06:59,599 --> 00:07:05,280
+content right so for example a equals 1
+
+188
+00:07:02,479 --> 00:07:06,319
+2 3. i can't say a 0. i want to change
+
+189
+00:07:05,280 --> 00:07:08,479
+it to
+
+190
+00:07:06,319 --> 00:07:10,960
+6 i can't do that this is because in
+
+191
+00:07:08,479 --> 00:07:15,120
+mutable but if i say a equals this this
+
+192
+00:07:10,960 --> 00:07:17,840
+is the bit 1 2 3. if i say a 0 equals 6
+
+193
+00:07:15,120 --> 00:07:20,800
+then what happened a will become
+
+194
+00:07:17,840 --> 00:07:23,360
+6 2 3. okay we change it right this is a
+
+195
+00:07:20,800 --> 00:07:25,280
+tupper immutable this is the least
+
+196
+00:07:23,360 --> 00:07:28,720
+mutable okay at the beginning we push
+
+197
+00:07:25,280 --> 00:07:32,720
+these loose elements okay if not good we
+
+198
+00:07:28,720 --> 00:07:35,680
+better to check if not return true okay
+
+199
+00:07:32,720 --> 00:07:37,919
+we push the root the minimum infinity to
+
+200
+00:07:35,680 --> 00:07:40,560
+positive the window is huge right
+
+201
+00:07:37,919 --> 00:07:44,560
+infinity at the beginning now we check
+
+202
+00:07:40,560 --> 00:07:49,120
+wire st then we get the root
+
+203
+00:07:44,560 --> 00:07:50,160
+the lower the right equals s t dot top
+
+204
+00:07:49,120 --> 00:07:52,400
+top
+
+205
+00:07:50,160 --> 00:07:53,199
+and we we check
+
+206
+00:07:52,400 --> 00:07:55,360
+if
+
+207
+00:07:53,199 --> 00:07:58,479
+root of value if load of value is
+
+208
+00:07:55,360 --> 00:08:00,960
+smaller than r or smaller equal our rule
+
+209
+00:07:58,479 --> 00:08:02,800
+of value
+
+210
+00:08:00,960 --> 00:08:04,080
+is bigger than equal and island will
+
+211
+00:08:02,800 --> 00:08:05,120
+determine fourth
+
+212
+00:08:04,080 --> 00:08:06,800
+and then
+
+213
+00:08:05,120 --> 00:08:10,000
+return first then
+
+214
+00:08:06,800 --> 00:08:12,639
+if loads are left if we have a left kit
+
+215
+00:08:10,000 --> 00:08:16,960
+then we push apparent append
+
+216
+00:08:12,639 --> 00:08:16,960
+attenua apparently the left
+
+217
+00:08:17,919 --> 00:08:23,360
+we go to the left we update uh
+
+218
+00:08:20,800 --> 00:08:25,120
+the boundary the mean the left is the
+
+219
+00:08:23,360 --> 00:08:28,080
+understand which is the air the right
+
+220
+00:08:25,120 --> 00:08:30,800
+boundary is blue dot value right
+
+221
+00:08:28,080 --> 00:08:32,560
+and then the same goes to the root of
+
+222
+00:08:30,800 --> 00:08:33,839
+right if root and right if we have a
+
+223
+00:08:32,560 --> 00:08:35,839
+neutral right
+
+224
+00:08:33,839 --> 00:08:37,360
+we see the append
+
+225
+00:08:35,839 --> 00:08:39,519
+blue dot right
+
+226
+00:08:37,360 --> 00:08:41,599
+ruler like the left boundary becomes the
+
+227
+00:08:39,519 --> 00:08:42,880
+root of value the right boundary stays
+
+228
+00:08:41,599 --> 00:08:46,160
+unchanged
+
+229
+00:08:42,880 --> 00:08:48,399
+and if we finish this iterative search
+
+230
+00:08:46,160 --> 00:08:50,880
+then we return through on the right this
+
+231
+00:08:48,399 --> 00:08:52,880
+is just the iterated version of the left
+
+232
+00:08:50,880 --> 00:08:55,519
+which is the recursion this is one way
+
+233
+00:08:52,880 --> 00:08:57,519
+another way about final search tree so
+
+234
+00:08:55,519 --> 00:08:59,440
+look what's what's so important about
+
+235
+00:08:57,519 --> 00:09:01,680
+binary searches what's good thing about
+
+236
+00:08:59,440 --> 00:09:03,279
+banners why are we organizing the data
+
+237
+00:09:01,680 --> 00:09:04,959
+in such a way like the left that's more
+
+238
+00:09:03,279 --> 00:09:07,930
+than the writer figure what advantage
+
+239
+00:09:04,959 --> 00:09:11,890
+can you get
+
+240
+00:09:07,930 --> 00:09:11,890
+[Music]
+
+241
+00:09:14,070 --> 00:09:17,179
+[Music]
+
+242
+00:09:18,080 --> 00:09:23,600
+okay so we we are separating the data so
+
+243
+00:09:21,360 --> 00:09:25,279
+so write this as string so if we want to
+
+244
+00:09:23,600 --> 00:09:27,360
+look for a value in the binary search
+
+245
+00:09:25,279 --> 00:09:29,360
+tree then that would give us advantage
+
+246
+00:09:27,360 --> 00:09:31,600
+by using the binary search right yes yep
+
+247
+00:09:29,360 --> 00:09:34,160
+it's like if i want to look at this if i
+
+248
+00:09:31,600 --> 00:09:34,959
+want to look for 1.5 it's bigger than
+
+249
+00:09:34,160 --> 00:09:37,040
+one
+
+250
+00:09:34,959 --> 00:09:38,880
+then it's definitely on the right right
+
+251
+00:09:37,040 --> 00:09:41,360
+it's not on the left
+
+252
+00:09:38,880 --> 00:09:43,440
+if like that has lots of big data we can
+
+253
+00:09:41,360 --> 00:09:45,120
+just ignore that right because it's not
+
+254
+00:09:43,440 --> 00:09:47,360
+there it's bigger than that is it on the
+
+255
+00:09:45,120 --> 00:09:48,959
+right tree if it's smaller than two it's
+
+256
+00:09:47,360 --> 00:09:51,600
+on the left tree right
+
+257
+00:09:48,959 --> 00:09:53,360
+right if this binding surgery is highly
+
+258
+00:09:51,600 --> 00:09:54,399
+balanced right highly balanced means
+
+259
+00:09:53,360 --> 00:09:56,399
+that the
+
+260
+00:09:54,399 --> 00:09:57,760
+maximum difference between the left the
+
+261
+00:09:56,399 --> 00:09:59,920
+depth of the left tree and the right
+
+262
+00:09:57,760 --> 00:10:01,680
+tree are no more than one that is highly
+
+263
+00:09:59,920 --> 00:10:02,560
+balanced highly balanced if the end
+
+264
+00:10:01,680 --> 00:10:05,279
+nodes
+
+265
+00:10:02,560 --> 00:10:08,240
+on average the height the height equals
+
+266
+00:10:05,279 --> 00:10:09,360
+the log log n right so
+
+267
+00:10:08,240 --> 00:10:11,519
+log in
+
+268
+00:10:09,360 --> 00:10:13,839
+so if we want to look for a number in a
+
+269
+00:10:11,519 --> 00:10:16,240
+tree with n numbers then we just need
+
+270
+00:10:13,839 --> 00:10:19,200
+log n right this is the major
+
+271
+00:10:16,240 --> 00:10:20,720
+improvement and the linear search right
+
+272
+00:10:19,200 --> 00:10:22,800
+so
+
+273
+00:10:20,720 --> 00:10:24,880
+if there are a million numbers
+
+274
+00:10:22,800 --> 00:10:26,480
+unsorted a minimum number
+
+275
+00:10:24,880 --> 00:10:28,079
+in the worst case if you're really
+
+276
+00:10:26,480 --> 00:10:30,240
+really unlucky if you want to find the
+
+277
+00:10:28,079 --> 00:10:32,959
+number in a million numbers how many
+
+278
+00:10:30,240 --> 00:10:34,560
+times can you try in the worst case
+
+279
+00:10:32,959 --> 00:10:36,320
+yeah yeah you try from the first one
+
+280
+00:10:34,560 --> 00:10:38,880
+second one third one until the end right
+
+281
+00:10:36,320 --> 00:10:40,160
+it's linear right but we if this number
+
+282
+00:10:38,880 --> 00:10:41,519
+is sorted
+
+283
+00:10:40,160 --> 00:10:43,920
+right remember we talked about binary
+
+284
+00:10:41,519 --> 00:10:46,160
+search yeah the same thing goes here
+
+285
+00:10:43,920 --> 00:10:47,600
+right final search if the numbers are
+
+286
+00:10:46,160 --> 00:10:50,079
+sorted
+
+287
+00:10:47,600 --> 00:10:52,000
+right one to a hundred remember the
+
+288
+00:10:50,079 --> 00:10:55,360
+guessing game i have a number in my mind
+
+289
+00:10:52,000 --> 00:10:57,200
+can you guess fifty uh fifty yeah you
+
+290
+00:10:55,360 --> 00:11:01,040
+guess always in the fifty i say okay the
+
+291
+00:10:57,200 --> 00:11:02,720
+number you guys is bigger um 75
+
+292
+00:11:01,040 --> 00:11:05,120
+is bigger than
+
+293
+00:11:02,720 --> 00:11:07,440
+yeah you go for the lower half okay so
+
+294
+00:11:05,120 --> 00:11:10,160
+always cut in a half right so this
+
+295
+00:11:07,440 --> 00:11:12,079
+speeds up so logan okay okay so coming
+
+296
+00:11:10,160 --> 00:11:14,000
+back to the spanish century in what
+
+297
+00:11:12,079 --> 00:11:15,760
+order if we travel the final surgery in
+
+298
+00:11:14,000 --> 00:11:17,279
+what kind of order that gives like all
+
+299
+00:11:15,760 --> 00:11:19,200
+the list
+
+300
+00:11:17,279 --> 00:11:22,000
+okay so we perform which order on the
+
+301
+00:11:19,200 --> 00:11:23,760
+final surgery then give us the order
+
+302
+00:11:22,000 --> 00:11:25,760
+sequence
+
+303
+00:11:23,760 --> 00:11:26,959
+in order yeah in order now we get to the
+
+304
+00:11:25,760 --> 00:11:28,959
+left tree
+
+305
+00:11:26,959 --> 00:11:30,720
+root and right here
+
+306
+00:11:28,959 --> 00:11:31,760
+if we perform this another thing then we
+
+307
+00:11:30,720 --> 00:11:34,480
+can
+
+308
+00:11:31,760 --> 00:11:37,040
+check if the root value if this value is
+
+309
+00:11:34,480 --> 00:11:38,959
+the bigger than the previous one right
+
+310
+00:11:37,040 --> 00:11:41,040
+if it's smaller than the previous value
+
+311
+00:11:38,959 --> 00:11:42,959
+then it's not true right so okay let's
+
+312
+00:11:41,040 --> 00:11:45,440
+quickly divide it do you understand this
+
+313
+00:11:42,959 --> 00:11:47,760
+if we travel the financial tree in in
+
+314
+00:11:45,440 --> 00:11:48,959
+order and we always remember the last
+
+315
+00:11:47,760 --> 00:11:51,440
+value
+
+316
+00:11:48,959 --> 00:11:53,120
+right and the last value should not be
+
+317
+00:11:51,440 --> 00:11:55,600
+bigger or equal than the current value
+
+318
+00:11:53,120 --> 00:11:57,839
+right so the previous one previous one
+
+319
+00:11:55,600 --> 00:11:58,720
+equals at the beginning minus infinity
+
+320
+00:11:57,839 --> 00:12:00,720
+right
+
+321
+00:11:58,720 --> 00:12:04,480
+this is the lower bound
+
+322
+00:12:00,720 --> 00:12:07,279
+define that massage in order root right
+
+323
+00:12:04,480 --> 00:12:07,279
+if not root
+
+324
+00:12:07,920 --> 00:12:12,000
+return true this is the same
+
+325
+00:12:12,240 --> 00:12:15,200
+okay
+
+326
+00:12:13,360 --> 00:12:19,279
+now look if
+
+327
+00:12:15,200 --> 00:12:21,200
+do the value if this value is smaller on
+
+328
+00:12:19,279 --> 00:12:23,040
+or equal than previous
+
+329
+00:12:21,200 --> 00:12:24,480
+if it's smaller than previous then we
+
+330
+00:12:23,040 --> 00:12:25,839
+return two of us
+
+331
+00:12:24,480 --> 00:12:27,279
+this one
+
+332
+00:12:25,839 --> 00:12:29,920
+zero
+
+333
+00:12:27,279 --> 00:12:32,079
+two so this is the current blue value
+
+334
+00:12:29,920 --> 00:12:33,680
+previous value is this one if this value
+
+335
+00:12:32,079 --> 00:12:34,639
+is smaller or equal than this one what
+
+336
+00:12:33,680 --> 00:12:36,399
+happened
+
+337
+00:12:34,639 --> 00:12:38,240
+if this value is smaller or equal than
+
+338
+00:12:36,399 --> 00:12:40,399
+the previous value so what happened
+
+339
+00:12:38,240 --> 00:12:42,800
+previous value in order what happened
+
+340
+00:12:40,399 --> 00:12:45,200
+return two of us if this value is
+
+341
+00:12:42,800 --> 00:12:48,000
+smaller than the previous value in the
+
+342
+00:12:45,200 --> 00:12:50,160
+in order so what one fourth depends on
+
+343
+00:12:48,000 --> 00:12:53,040
+we just have to update previous equals
+
+344
+00:12:50,160 --> 00:12:55,040
+new daw value and now we just retire we
+
+345
+00:12:53,040 --> 00:12:56,800
+just keep checking we just keep checking
+
+346
+00:12:55,040 --> 00:13:00,320
+the right tree so which is that's my
+
+347
+00:12:56,800 --> 00:13:01,760
+search blue dot right okay
+
+348
+00:13:00,320 --> 00:13:03,519
+okay
+
+349
+00:13:01,760 --> 00:13:04,880
+to sum up this ignore the traversal
+
+350
+00:13:03,519 --> 00:13:06,800
+because we perform another travel
+
+351
+00:13:04,880 --> 00:13:09,920
+traversal final surgery then we give
+
+352
+00:13:06,800 --> 00:13:13,760
+another so we when we do this in order
+
+353
+00:13:09,920 --> 00:13:15,360
+we use a previous to remember the last
+
+354
+00:13:13,760 --> 00:13:17,040
+value so the
+
+355
+00:13:15,360 --> 00:13:19,279
+last value in
+
+356
+00:13:17,040 --> 00:13:22,480
+you know before before this current
+
+357
+00:13:19,279 --> 00:13:24,480
+value right so if this root of value is
+
+358
+00:13:22,480 --> 00:13:26,800
+smaller or equal if it's smaller than
+
+359
+00:13:24,480 --> 00:13:29,680
+the previous one then obviously this is
+
+360
+00:13:26,800 --> 00:13:31,440
+not uh sorted after the inorder and it
+
+361
+00:13:29,680 --> 00:13:33,600
+is not a binary session right but at the
+
+362
+00:13:31,440 --> 00:13:35,040
+same time conducting on time
+
+363
+00:13:33,600 --> 00:13:37,440
+our space
+
+364
+00:13:35,040 --> 00:13:39,519
+we can also turn this into the iterative
+
+365
+00:13:37,440 --> 00:13:41,279
+okay iterative i'm going to quickly
+
+366
+00:13:39,519 --> 00:13:42,560
+write it iterate it
+
+367
+00:13:41,279 --> 00:13:44,000
+and
+
+368
+00:13:42,560 --> 00:13:45,360
+that will be and just think about what
+
+369
+00:13:44,000 --> 00:13:48,600
+have you learned today for the last
+
+370
+00:13:45,360 --> 00:13:48,600
+question everyone
+
+371
+00:13:48,880 --> 00:13:53,360
+st equals
+
+372
+00:13:51,120 --> 00:13:56,320
+at the beginning empty the previous
+
+373
+00:13:53,360 --> 00:13:57,600
+equals is minus infinity
+
+374
+00:13:56,320 --> 00:14:00,320
+where
+
+375
+00:13:57,600 --> 00:14:03,680
+st or root
+
+376
+00:14:00,320 --> 00:14:06,079
+wire loot we keep pushing the left
+
+377
+00:14:03,680 --> 00:14:07,600
+st dot append
+
+378
+00:14:06,079 --> 00:14:11,120
+blue
+
+379
+00:14:07,600 --> 00:14:13,360
+blue equals glue the left so the idea of
+
+380
+00:14:11,120 --> 00:14:15,680
+this iteratively so we keep going to the
+
+381
+00:14:13,360 --> 00:14:18,079
+left as deep as we want and we push that
+
+382
+00:14:15,680 --> 00:14:20,320
+we will push the key to the to the stack
+
+383
+00:14:18,079 --> 00:14:22,399
+right and then now we get it out r
+
+384
+00:14:20,320 --> 00:14:26,000
+equals sp
+
+385
+00:14:22,399 --> 00:14:28,959
+then we compare if if root of value is
+
+386
+00:14:26,000 --> 00:14:32,240
+smaller or equal than the previous one
+
+387
+00:14:28,959 --> 00:14:32,240
+then we return false
+
+388
+00:14:32,720 --> 00:14:38,000
+all right otherwise we remember the
+
+389
+00:14:34,720 --> 00:14:40,160
+previous one equals rule value
+
+390
+00:14:38,000 --> 00:14:42,480
+and then we go to the right rule equals
+
+391
+00:14:40,160 --> 00:14:45,040
+rule right right this is the standard
+
+392
+00:14:42,480 --> 00:14:47,839
+approach of cleaning these
+
+393
+00:14:45,040 --> 00:14:49,839
+in order from the execution to the uh to
+
+394
+00:14:47,839 --> 00:14:51,519
+the iterative and and at the end will
+
+395
+00:14:49,839 --> 00:14:53,279
+return true
+
+396
+00:14:51,519 --> 00:14:54,959
+okay
+
+397
+00:14:53,279 --> 00:14:56,240
+okay at the same time complexity and
+
+398
+00:14:54,959 --> 00:14:58,720
+space can relax what have you learned
+
+399
+00:14:56,240 --> 00:15:00,320
+today come on the last question about
+
+400
+00:14:58,720 --> 00:15:02,959
+that
+
+401
+00:15:00,320 --> 00:15:05,519
+what what's new today so on day 28 we
+
+402
+00:15:02,959 --> 00:15:08,800
+talk about recursive uh ignorance to
+
+403
+00:15:05,519 --> 00:15:08,800
+validate the balance sheet
+
+404
+00:15:09,040 --> 00:15:14,079
+so the first angle we talk about is the
+
+405
+00:15:11,519 --> 00:15:15,839
+window window thing we go to the left we
+
+406
+00:15:14,079 --> 00:15:17,920
+narrow the window we go to the right
+
+407
+00:15:15,839 --> 00:15:19,680
+with narrow window so we just check each
+
+408
+00:15:17,920 --> 00:15:21,680
+node to see if it falls in the window
+
+409
+00:15:19,680 --> 00:15:23,600
+this can be done in recursion and
+
+410
+00:15:21,680 --> 00:15:27,040
+iterated today
+
+411
+00:15:23,600 --> 00:15:30,160
+what's this what are we doing here
+
+412
+00:15:27,040 --> 00:15:30,160
+yeah so what do we do
+
+413
+00:15:31,360 --> 00:15:36,320
+yeah we usually know the traversal to
+
+414
+00:15:33,759 --> 00:15:38,160
+travel by necessary and then we just
+
+415
+00:15:36,320 --> 00:15:40,320
+have to validate the finances to
+
+416
+00:15:38,160 --> 00:15:42,399
+validate the no to see if it's strictly
+
+417
+00:15:40,320 --> 00:15:44,320
+bigger than the previous note in a
+
+418
+00:15:42,399 --> 00:15:45,600
+sequence because let's based on the fact
+
+419
+00:15:44,320 --> 00:15:47,519
+that if we perform you know the
+
+420
+00:15:45,600 --> 00:15:50,000
+traversal on the binary search three we
+
+421
+00:15:47,519 --> 00:15:52,639
+get an order sequence right so we have
+
+422
+00:15:50,000 --> 00:15:55,199
+to check if it's smaller or equal than
+
+423
+00:15:52,639 --> 00:15:56,880
+the previous noun and it's not a binary
+
+424
+00:15:55,199 --> 00:15:59,040
+question i know obviously we can do this
+
+425
+00:15:56,880 --> 00:16:01,199
+in recursion and iterate okay that's it
+
+426
+00:15:59,040 --> 00:16:04,440
+for today bye bye
+
+427
+00:16:01,199 --> 00:16:04,440
+bye bye
+

@@ -1,0 +1,1152 @@
+1
+00:00:00,080 --> 00:00:04,080
+mister mister right
+
+2
+00:00:02,399 --> 00:00:06,879
+yeah look at these
+
+3
+00:00:04,080 --> 00:00:10,000
+numbers n times and magic in mathematics
+
+4
+00:00:06,879 --> 00:00:12,240
+n times and magic and in python we can
+
+5
+00:00:10,000 --> 00:00:14,880
+at least array two dimensional ray
+
+6
+00:00:12,240 --> 00:00:16,480
+metric right so let's look at this three
+
+7
+00:00:14,880 --> 00:00:19,279
+times three metric
+
+8
+00:00:16,480 --> 00:00:21,199
+so the rows are three two one one seven
+
+9
+00:00:19,279 --> 00:00:23,600
+six two seven seven and the columns are
+
+10
+00:00:21,199 --> 00:00:26,400
+like this our task is to find out the
+
+11
+00:00:23,600 --> 00:00:28,840
+number of pairs are equal to each other
+
+12
+00:00:26,400 --> 00:00:32,880
+so for example the
+
+13
+00:00:28,840 --> 00:00:34,880
+row i and column j if not equal let's
+
+14
+00:00:32,880 --> 00:00:39,040
+count how many of it so for example look
+
+15
+00:00:34,880 --> 00:00:40,399
+277 right this is 277 and then 277. so
+
+16
+00:00:39,040 --> 00:00:43,440
+there's one pair
+
+17
+00:00:40,399 --> 00:00:45,120
+these pair this pair so we return one
+
+18
+00:00:43,440 --> 00:00:47,520
+and how about this how many pairs of
+
+19
+00:00:45,120 --> 00:00:48,960
+these are equal the rows and columns are
+
+20
+00:00:47,520 --> 00:00:50,000
+equal to each other
+
+21
+00:00:48,960 --> 00:00:51,440
+um
+
+22
+00:00:50,000 --> 00:00:52,239
+can you tell
+
+23
+00:00:51,440 --> 00:00:54,000
+one
+
+24
+00:00:52,239 --> 00:00:56,399
+three two
+
+25
+00:00:54,000 --> 00:00:58,079
+which one which one
+
+26
+00:00:56,399 --> 00:01:00,719
+two four two two and then here we have
+
+27
+00:00:58,079 --> 00:01:03,120
+two four two two twice right so look
+
+28
+00:01:00,719 --> 00:01:04,879
+this one and this one one pair these one
+
+29
+00:01:03,120 --> 00:01:07,040
+and this one two pairs so
+
+30
+00:01:04,879 --> 00:01:10,720
+anymore yeah three one two two okay two
+
+31
+00:01:07,040 --> 00:01:13,920
+one two okay so look three one two two
+
+32
+00:01:10,720 --> 00:01:15,680
+two photo two two four two twice right
+
+33
+00:01:13,920 --> 00:01:17,280
+two quarter two times without the coding
+
+34
+00:01:15,680 --> 00:01:18,960
+just tell me how would you saw it i mean
+
+35
+00:01:17,280 --> 00:01:21,000
+this is a very straightforward how would
+
+36
+00:01:18,960 --> 00:01:23,680
+you count it uh
+
+37
+00:01:21,000 --> 00:01:26,000
+[Music]
+
+38
+00:01:23,680 --> 00:01:28,479
+refreshing is a good way here so through
+
+39
+00:01:26,000 --> 00:01:30,240
+forcing so we can just go through each
+
+40
+00:01:28,479 --> 00:01:32,159
+row for example if we go through this
+
+41
+00:01:30,240 --> 00:01:33,920
+each row three one two two then we count
+
+42
+00:01:32,159 --> 00:01:36,960
+how many of the columns are equal to it
+
+43
+00:01:33,920 --> 00:01:38,720
+right if there's one we plus one and now
+
+44
+00:01:36,960 --> 00:01:39,680
+we go through the second row
+
+45
+00:01:38,720 --> 00:01:41,520
+and we
+
+46
+00:01:39,680 --> 00:01:44,240
+go through it right
+
+47
+00:01:41,520 --> 00:01:46,159
+third row and then we check the columns
+
+48
+00:01:44,240 --> 00:01:48,960
+and count the columns with the same
+
+49
+00:01:46,159 --> 00:01:51,680
+numbers that equals to the rows right
+
+50
+00:01:48,960 --> 00:01:52,720
+okay for blueforce the term complexity
+
+51
+00:01:51,680 --> 00:01:54,799
+would be
+
+52
+00:01:52,720 --> 00:01:57,280
+huge why is that because look we have to
+
+53
+00:01:54,799 --> 00:01:58,079
+go through the each row they are in row
+
+54
+00:01:57,280 --> 00:02:00,799
+right
+
+55
+00:01:58,079 --> 00:02:03,600
+there and rows and for each n rows we
+
+56
+00:02:00,799 --> 00:02:05,680
+want to times up the n columns
+
+57
+00:02:03,600 --> 00:02:08,160
+right we need to compare if they are
+
+58
+00:02:05,680 --> 00:02:10,640
+equal right we have to compare equal so
+
+59
+00:02:08,160 --> 00:02:12,720
+we have two times another end
+
+60
+00:02:10,640 --> 00:02:14,720
+o and cubic to count each one if we
+
+61
+00:02:12,720 --> 00:02:16,640
+match each other if it is then we
+
+62
+00:02:14,720 --> 00:02:18,720
+increment the one right
+
+63
+00:02:16,640 --> 00:02:21,680
+one better way would be to use the
+
+64
+00:02:18,720 --> 00:02:24,239
+dictionary counter right we can treat
+
+65
+00:02:21,680 --> 00:02:26,480
+these as a you know as a thing that we
+
+66
+00:02:24,239 --> 00:02:28,400
+count how many of these
+
+67
+00:02:26,480 --> 00:02:29,760
+all right so for example this one three
+
+68
+00:02:28,400 --> 00:02:32,800
+one one two two
+
+69
+00:02:29,760 --> 00:02:36,640
+three one two two we use the topper okay
+
+70
+00:02:32,800 --> 00:02:39,200
+so you want to do that one time right
+
+71
+00:02:36,640 --> 00:02:43,599
+one four four four
+
+72
+00:02:39,200 --> 00:02:46,720
+one times and then two four two two
+
+73
+00:02:43,599 --> 00:02:49,040
+once let's count the columns first okay
+
+74
+00:02:46,720 --> 00:02:50,800
+and then two five two two one times and
+
+75
+00:02:49,040 --> 00:02:54,000
+then this is column
+
+76
+00:02:50,800 --> 00:02:56,000
+and then we have little rows here
+
+77
+00:02:54,000 --> 00:02:59,680
+rows again three
+
+78
+00:02:56,000 --> 00:03:01,360
+okay rows uh three one two two
+
+79
+00:02:59,680 --> 00:03:06,879
+one
+
+80
+00:03:01,360 --> 00:03:08,560
+one four four five one right and then
+
+81
+00:03:06,879 --> 00:03:11,519
+two four two two
+
+82
+00:03:08,560 --> 00:03:13,920
+one two times right but as long as we
+
+83
+00:03:11,519 --> 00:03:15,840
+can call this we can count this then
+
+84
+00:03:13,920 --> 00:03:18,800
+what's the answer what's the answer how
+
+85
+00:03:15,840 --> 00:03:21,680
+do we get three out of these numbers
+
+86
+00:03:18,800 --> 00:03:24,000
+so first of all three one two two
+
+87
+00:03:21,680 --> 00:03:26,000
+we times the look this is one and we
+
+88
+00:03:24,000 --> 00:03:30,560
+find the corresponding key which is one
+
+89
+00:03:26,000 --> 00:03:30,560
+to two so one one times one plus
+
+90
+00:03:30,959 --> 00:03:36,879
+one four four four here nothing right
+
+91
+00:03:33,440 --> 00:03:39,599
+sorry one times zero is zero
+
+92
+00:03:36,879 --> 00:03:41,440
+two four two two here is two right so
+
+93
+00:03:39,599 --> 00:03:43,680
+it's one times two
+
+94
+00:03:41,440 --> 00:03:45,680
+two five two two there's no two five two
+
+95
+00:03:43,680 --> 00:03:48,239
+two here so it's zero so the answer is
+
+96
+00:03:45,680 --> 00:03:50,640
+one times ten plus one times two right
+
+97
+00:03:48,239 --> 00:03:53,200
+three yeah it's three okay so look we
+
+98
+00:03:50,640 --> 00:03:55,760
+separated counting by the rows and terms
+
+99
+00:03:53,200 --> 00:03:58,000
+then we sum it up right if this key is
+
+100
+00:03:55,760 --> 00:03:59,680
+not existing in other one so
+
+101
+00:03:58,000 --> 00:04:02,080
+it's before by zero you can use the
+
+102
+00:03:59,680 --> 00:04:05,519
+default dictionary all the counter right
+
+103
+00:04:02,080 --> 00:04:07,760
+in the counter the keys the keys here
+
+104
+00:04:05,519 --> 00:04:10,159
+what's this what's this remember we
+
+105
+00:04:07,760 --> 00:04:13,280
+talked about last thing what's this
+
+106
+00:04:10,159 --> 00:04:15,360
+what does this mean in person
+
+107
+00:04:13,280 --> 00:04:17,919
+so look we use the tupper to
+
+108
+00:04:15,360 --> 00:04:20,000
+represent the rows of columns right and
+
+109
+00:04:17,919 --> 00:04:20,880
+then we can use the template to as a
+
+110
+00:04:20,000 --> 00:04:22,720
+keys
+
+111
+00:04:20,880 --> 00:04:25,360
+to the dictionary
+
+112
+00:04:22,720 --> 00:04:27,600
+deformationally on the counter because
+
+113
+00:04:25,360 --> 00:04:30,400
+these couple are immutable we can use it
+
+114
+00:04:27,600 --> 00:04:32,400
+as a key right we can hash it
+
+115
+00:04:30,400 --> 00:04:34,800
+we will talk about hashing function but
+
+116
+00:04:32,400 --> 00:04:36,800
+if it's at least it's mutable uh we
+
+117
+00:04:34,800 --> 00:04:37,840
+can't do it right so we have to make it
+
+118
+00:04:36,800 --> 00:04:39,440
+immutable
+
+119
+00:04:37,840 --> 00:04:40,479
+like
+
+120
+00:04:39,440 --> 00:04:41,280
+define
+
+121
+00:04:40,479 --> 00:04:43,680
+f
+
+122
+00:04:41,280 --> 00:04:47,440
+message
+
+123
+00:04:43,680 --> 00:04:50,000
+so the rows the rows equals counter we
+
+124
+00:04:47,440 --> 00:04:52,160
+can use the default dictionary let me go
+
+125
+00:04:50,000 --> 00:04:53,440
+if we go before dictionary okay before
+
+126
+00:04:52,160 --> 00:04:55,440
+dictionary
+
+127
+00:04:53,440 --> 00:04:56,960
+at the beginning integer
+
+128
+00:04:55,440 --> 00:04:59,360
+default dictionary as opposed
+
+129
+00:04:56,960 --> 00:05:00,240
+traditionally default dictionary gives
+
+130
+00:04:59,360 --> 00:05:02,000
+the
+
+131
+00:05:00,240 --> 00:05:04,720
+default value when the key is not
+
+132
+00:05:02,000 --> 00:05:07,199
+existent in the dictionary integer the
+
+133
+00:05:04,720 --> 00:05:09,199
+default value for integer is zero okay
+
+134
+00:05:07,199 --> 00:05:11,039
+so we can go through this for
+
+135
+00:05:09,199 --> 00:05:12,400
+are in m
+
+136
+00:05:11,039 --> 00:05:13,280
+then ah
+
+137
+00:05:12,400 --> 00:05:14,320
+okay
+
+138
+00:05:13,280 --> 00:05:16,320
+r
+
+139
+00:05:14,320 --> 00:05:18,160
+plus equal one okay so these three
+
+140
+00:05:16,320 --> 00:05:20,880
+things actually can be
+
+141
+00:05:18,160 --> 00:05:21,680
+converted to
+
+142
+00:05:20,880 --> 00:05:24,240
+r
+
+143
+00:05:21,680 --> 00:05:25,520
+equals counter okay we talk about
+
+144
+00:05:24,240 --> 00:05:27,280
+counter
+
+145
+00:05:25,520 --> 00:05:28,080
+tapa
+
+146
+00:05:27,280 --> 00:05:29,039
+r
+
+147
+00:05:28,080 --> 00:05:30,800
+for
+
+148
+00:05:29,039 --> 00:05:32,400
+r in
+
+149
+00:05:30,800 --> 00:05:35,199
+n okay this is the same thing we can
+
+150
+00:05:32,400 --> 00:05:38,400
+duplicate these to change it to c but
+
+151
+00:05:35,199 --> 00:05:40,560
+for r in n is this right but we want uh
+
+152
+00:05:38,400 --> 00:05:42,960
+to get the column right this is the
+
+153
+00:05:40,560 --> 00:05:45,360
+another important thing here right for r
+
+154
+00:05:42,960 --> 00:05:48,400
+in m then it gives us the
+
+155
+00:05:45,360 --> 00:05:51,360
+uh the row one by one right look and how
+
+156
+00:05:48,400 --> 00:05:53,120
+about if we want to get the columns
+
+157
+00:05:51,360 --> 00:05:55,120
+any idea
+
+158
+00:05:53,120 --> 00:05:57,039
+look eric right you mentioned something
+
+159
+00:05:55,120 --> 00:05:58,960
+look we want to get a
+
+160
+00:05:57,039 --> 00:06:02,479
+column
+
+161
+00:05:58,960 --> 00:06:04,639
+the rows here this way the columns yeah
+
+162
+00:06:02,479 --> 00:06:06,400
+you mentioned a chip from here okay so
+
+163
+00:06:04,639 --> 00:06:07,919
+why why can't we use the g function
+
+164
+00:06:06,400 --> 00:06:10,639
+together these
+
+165
+00:06:07,919 --> 00:06:13,919
+columns look the difference what's cheap
+
+166
+00:06:10,639 --> 00:06:15,120
+from here what's the chip
+
+167
+00:06:13,919 --> 00:06:17,600
+chip
+
+168
+00:06:15,120 --> 00:06:21,039
+one two three
+
+169
+00:06:17,600 --> 00:06:22,880
+four five six if we tip this what do we
+
+170
+00:06:21,039 --> 00:06:24,960
+get
+
+171
+00:06:22,880 --> 00:06:26,880
+what do we get
+
+172
+00:06:24,960 --> 00:06:28,720
+remember one two three
+
+173
+00:06:26,880 --> 00:06:30,960
+four five six if we chip it what do we
+
+174
+00:06:28,720 --> 00:06:33,440
+get
+
+175
+00:06:30,960 --> 00:06:36,080
+what do we get four three five yeah okay
+
+176
+00:06:33,440 --> 00:06:37,039
+exactly look one four it's a tuple okay
+
+177
+00:06:36,080 --> 00:06:38,319
+one four
+
+178
+00:06:37,039 --> 00:06:40,240
+two five
+
+179
+00:06:38,319 --> 00:06:42,560
+three six okay
+
+180
+00:06:40,240 --> 00:06:43,600
+so this is zip if we want to find the
+
+181
+00:06:42,560 --> 00:06:45,199
+columns
+
+182
+00:06:43,600 --> 00:06:46,800
+this way so
+
+183
+00:06:45,199 --> 00:06:50,960
+this is the two dimensional array right
+
+184
+00:06:46,800 --> 00:06:50,960
+so it's a three two one
+
+185
+00:06:51,039 --> 00:06:56,639
+one seven six
+
+186
+00:06:53,520 --> 00:06:58,400
+two seven seven
+
+187
+00:06:56,639 --> 00:07:00,479
+so it's a two dimensional right and then
+
+188
+00:06:58,400 --> 00:07:01,360
+if we use this
+
+189
+00:07:00,479 --> 00:07:02,400
+star
+
+190
+00:07:01,360 --> 00:07:05,039
+m
+
+191
+00:07:02,400 --> 00:07:07,039
+star m means that star i want to remove
+
+192
+00:07:05,039 --> 00:07:10,000
+the external bracket
+
+193
+00:07:07,039 --> 00:07:12,479
+right and then if i use the jit function
+
+194
+00:07:10,000 --> 00:07:15,520
+then we get that three one two two seven
+
+195
+00:07:12,479 --> 00:07:17,280
+seven one six seven so three one two two
+
+196
+00:07:15,520 --> 00:07:19,120
+seven seven one six seven is exactly
+
+197
+00:07:17,280 --> 00:07:21,039
+what we are looking for we want to get
+
+198
+00:07:19,120 --> 00:07:23,039
+the columns right so if we want to
+
+199
+00:07:21,039 --> 00:07:24,400
+duplicate these we have to change this
+
+200
+00:07:23,039 --> 00:07:25,280
+for r in
+
+201
+00:07:24,400 --> 00:07:28,000
+chip
+
+202
+00:07:25,280 --> 00:07:29,280
+star m then we get the columns and c
+
+203
+00:07:28,000 --> 00:07:33,440
+copper
+
+204
+00:07:29,280 --> 00:07:36,400
+c plus e cosine now we can return
+
+205
+00:07:33,440 --> 00:07:36,400
+written sum
+
+206
+00:07:37,039 --> 00:07:39,680
+r
+
+207
+00:07:38,720 --> 00:07:41,919
+x
+
+208
+00:07:39,680 --> 00:07:46,400
+times c x
+
+209
+00:07:41,919 --> 00:07:48,800
+for x in r all for x in c doesn't matter
+
+210
+00:07:46,400 --> 00:07:50,319
+right so the point is that we want to
+
+211
+00:07:48,800 --> 00:07:52,720
+multiply
+
+212
+00:07:50,319 --> 00:07:55,280
+the values of the same keys in both rows
+
+213
+00:07:52,720 --> 00:07:58,000
+and columns the keys has to be in the
+
+214
+00:07:55,280 --> 00:08:00,319
+rows right in the rows or we can iterate
+
+215
+00:07:58,000 --> 00:08:02,639
+over the columns it's the same
+
+216
+00:08:00,319 --> 00:08:04,960
+the time complexity okay let's analyze
+
+217
+00:08:02,639 --> 00:08:07,440
+the time context
+
+218
+00:08:04,960 --> 00:08:09,759
+the time connection we go through the
+
+219
+00:08:07,440 --> 00:08:12,160
+rows which goes through the columns
+
+220
+00:08:09,759 --> 00:08:15,039
+right this is the most dominant impact
+
+221
+00:08:12,160 --> 00:08:17,039
+so there are n rows and columns and for
+
+222
+00:08:15,039 --> 00:08:18,720
+each one we need to
+
+223
+00:08:17,039 --> 00:08:21,280
+do this hashing function okay let's
+
+224
+00:08:18,720 --> 00:08:22,560
+assume this is n right this is our one
+
+225
+00:08:21,280 --> 00:08:25,520
+constant okay
+
+226
+00:08:22,560 --> 00:08:27,680
+right so the time convex is om plus o n
+
+227
+00:08:25,520 --> 00:08:29,360
+plus we want to sum it up
+
+228
+00:08:27,680 --> 00:08:32,240
+right sum it up
+
+229
+00:08:29,360 --> 00:08:34,640
+sorry about it another one right
+
+230
+00:08:32,240 --> 00:08:36,240
+if each rows are different and each
+
+231
+00:08:34,640 --> 00:08:37,680
+columns are different then we need to go
+
+232
+00:08:36,240 --> 00:08:39,680
+through the instrument so the time
+
+233
+00:08:37,680 --> 00:08:41,599
+convex one is so much better than the
+
+234
+00:08:39,680 --> 00:08:43,919
+previous one i went through bit but this
+
+235
+00:08:41,599 --> 00:08:46,399
+one r probably has to go through each
+
+236
+00:08:43,919 --> 00:08:48,640
+element to make it copper
+
+237
+00:08:46,399 --> 00:08:50,800
+so if this is o n and the time template
+
+238
+00:08:48,640 --> 00:08:52,560
+is o n square i it's still better than
+
+239
+00:08:50,800 --> 00:08:55,920
+the previous one or in qubit okay the
+
+240
+00:08:52,560 --> 00:08:58,160
+lower the better i'm right yeah
+
+241
+00:08:55,920 --> 00:08:59,920
+the lower the better right we want to
+
+242
+00:08:58,160 --> 00:09:02,160
+look for the
+
+243
+00:08:59,920 --> 00:09:04,240
+solution which gives the optimum time
+
+244
+00:09:02,160 --> 00:09:07,440
+and space the computer is very fast but
+
+245
+00:09:04,240 --> 00:09:10,080
+if you ask him to do the job in the very
+
+246
+00:09:07,440 --> 00:09:13,120
+you know stupid way it's going to take
+
+247
+00:09:10,080 --> 00:09:15,440
+time right so the important takeaways
+
+248
+00:09:13,120 --> 00:09:16,240
+today first of all is the zip function
+
+249
+00:09:15,440 --> 00:09:17,839
+yeah
+
+250
+00:09:16,240 --> 00:09:18,880
+g function and if we want to get the
+
+251
+00:09:17,839 --> 00:09:21,519
+columns
+
+252
+00:09:18,880 --> 00:09:23,600
+we need to chip start n
+
+253
+00:09:21,519 --> 00:09:26,080
+g function we will talk about the chip
+
+254
+00:09:23,600 --> 00:09:28,560
+longest as well if the two
+
+255
+00:09:26,080 --> 00:09:31,519
+thing look it's one is longer the other
+
+256
+00:09:28,560 --> 00:09:32,959
+one is shorter the g function the
+
+257
+00:09:31,519 --> 00:09:35,360
+shorter one according to the shorter
+
+258
+00:09:32,959 --> 00:09:36,399
+length look seven right
+
+259
+00:09:35,360 --> 00:09:38,640
+chip
+
+260
+00:09:36,399 --> 00:09:40,640
+one two three four five six seven
+
+261
+00:09:38,640 --> 00:09:42,240
+then the result will be one four two
+
+262
+00:09:40,640 --> 00:09:44,320
+five seven six
+
+263
+00:09:42,240 --> 00:09:46,399
+if i have cheap longest
+
+264
+00:09:44,320 --> 00:09:48,320
+then you will have actual element with
+
+265
+00:09:46,399 --> 00:09:49,519
+which is nine
+
+266
+00:09:48,320 --> 00:09:51,120
+seven okay
+
+267
+00:09:49,519 --> 00:09:52,480
+yeah make sense
+
+268
+00:09:51,120 --> 00:09:54,959
+okay
+
+269
+00:09:52,480 --> 00:09:58,399
+and the other takeaway is that we use
+
+270
+00:09:54,959 --> 00:10:00,480
+the tuple as the keys to count the rows
+
+271
+00:09:58,399 --> 00:10:03,600
+and the columns and we sum them by
+
+272
+00:10:00,480 --> 00:10:04,800
+multiplying uh together as a sum okay so
+
+273
+00:10:03,600 --> 00:10:08,880
+what have you done
+
+274
+00:10:04,800 --> 00:10:08,880
+about this what's the problem
+
+275
+00:10:10,880 --> 00:10:13,040
+and
+
+276
+00:10:14,399 --> 00:10:19,680
+trying to count count what the number of
+
+277
+00:10:17,279 --> 00:10:23,279
+pairs of equal
+
+278
+00:10:19,680 --> 00:10:25,200
+numbers rows and columns right so we can
+
+279
+00:10:23,279 --> 00:10:26,160
+do as you mentioned earlier we can proof
+
+280
+00:10:25,200 --> 00:10:28,160
+us
+
+281
+00:10:26,160 --> 00:10:33,200
+the time complexity i will incubate but
+
+282
+00:10:28,160 --> 00:10:36,959
+if we use a counter hatch map right
+
+283
+00:10:33,200 --> 00:10:38,240
+to count it now we can make it faster
+
+284
+00:10:36,959 --> 00:10:39,200
+am right
+
+285
+00:10:38,240 --> 00:10:41,839
+okay
+
+286
+00:10:39,200 --> 00:10:44,839
+okay that's it for today bye bye
+
+287
+00:10:41,839 --> 00:10:44,839
+bye
+
+288
+00:10:47,519 --> 00:10:49,600
+you
+
