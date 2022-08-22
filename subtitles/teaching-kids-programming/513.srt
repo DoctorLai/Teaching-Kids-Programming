@@ -1,0 +1,1104 @@
+1
+00:00:00,400 --> 00:00:03,280
+[Music]
+
+2
+00:00:00,719 --> 00:00:06,240
+hello mr mr ryan are you right so we are
+
+3
+00:00:03,280 --> 00:00:08,240
+given an array of numbers right uh each
+
+4
+00:00:06,240 --> 00:00:10,639
+move you are allowed to pick a number
+
+5
+00:00:08,240 --> 00:00:12,639
+and delete all the currents of it right
+
+6
+00:00:10,639 --> 00:00:15,599
+so for example if we pick a two there
+
+7
+00:00:12,639 --> 00:00:17,920
+are two twos then we can remove them
+
+8
+00:00:15,599 --> 00:00:20,720
+so the question is that what's the
+
+9
+00:00:17,920 --> 00:00:24,960
+minimum number of moves that in order to
+
+10
+00:00:20,720 --> 00:00:27,519
+reduce this array to half or less 2
+
+11
+00:00:24,960 --> 00:00:29,199
+how i mean what number you pick
+
+12
+00:00:27,519 --> 00:00:30,160
+3
+
+13
+00:00:29,199 --> 00:00:32,880
+two
+
+14
+00:00:30,160 --> 00:00:35,440
+two moves right all three moves uh wait
+
+15
+00:00:32,880 --> 00:00:36,719
+wait i mean like how many numbers five
+
+16
+00:00:35,440 --> 00:00:38,800
+three
+
+17
+00:00:36,719 --> 00:00:41,040
+three
+
+18
+00:00:38,800 --> 00:00:43,040
+five uh two
+
+19
+00:00:41,040 --> 00:00:44,559
+three five and two yeah
+
+20
+00:00:43,040 --> 00:00:46,399
+first of all how many numbers did you
+
+21
+00:00:44,559 --> 00:00:48,239
+make here
+
+22
+00:00:46,399 --> 00:00:50,320
+one two three four five six seven eight
+
+23
+00:00:48,239 --> 00:00:52,399
+nine ten eleven twelve i think
+
+24
+00:00:50,320 --> 00:00:54,480
+four
+
+25
+00:00:52,399 --> 00:00:57,920
+eight ten so yeah
+
+26
+00:00:54,480 --> 00:00:59,840
+we want to reduce the array to half
+
+27
+00:00:57,920 --> 00:01:02,800
+right to half
+
+28
+00:00:59,840 --> 00:01:05,040
+so to five numbers or less right
+
+29
+00:01:02,800 --> 00:01:07,040
+five numbers so you pick three
+
+30
+00:01:05,040 --> 00:01:09,119
+so if we remove these
+
+31
+00:01:07,040 --> 00:01:10,080
+there are six numbers left if we pick
+
+32
+00:01:09,119 --> 00:01:11,920
+five
+
+33
+00:01:10,080 --> 00:01:14,240
+there are two numbers so it's less than
+
+34
+00:01:11,920 --> 00:01:17,040
+half of five
+
+35
+00:01:14,240 --> 00:01:20,080
+ah ah okay okay we'll pick half and then
+
+36
+00:01:17,040 --> 00:01:23,520
+the remaining is three numbers so we
+
+37
+00:01:20,080 --> 00:01:25,600
+only need two numbers right
+
+38
+00:01:23,520 --> 00:01:28,000
+okay so how would you solve this problem
+
+39
+00:01:25,600 --> 00:01:30,479
+i mean normally if we give it a number
+
+40
+00:01:28,000 --> 00:01:32,240
+how would you solve it counter yeah we
+
+41
+00:01:30,479 --> 00:01:34,479
+want the counter so why are we counting
+
+42
+00:01:32,240 --> 00:01:37,600
+the numbers why do we have to write them
+
+43
+00:01:34,479 --> 00:01:39,439
+the most popular number where the most
+
+44
+00:01:37,600 --> 00:01:42,079
+popular so we count the numbers for
+
+45
+00:01:39,439 --> 00:01:44,079
+example here three how many times
+
+46
+00:01:42,079 --> 00:01:47,040
+four times
+
+47
+00:01:44,079 --> 00:01:48,799
+uh two how many times four
+
+48
+00:01:47,040 --> 00:01:51,439
+five how many times
+
+49
+00:01:48,799 --> 00:01:55,240
+three seven how many times one okay so
+
+50
+00:01:51,439 --> 00:01:55,240
+how would you pick the numbers
+
+51
+00:01:55,360 --> 00:02:01,040
+so which numbers you pick three
+
+52
+00:01:58,719 --> 00:02:03,680
+uh-huh because these four is the largest
+
+53
+00:02:01,040 --> 00:02:06,159
+and the next one five five yeah okay
+
+54
+00:02:03,680 --> 00:02:08,560
+we're picking the numbers in such order
+
+55
+00:02:06,159 --> 00:02:11,120
+that you know from the popularity we
+
+56
+00:02:08,560 --> 00:02:13,920
+want to pick the numbers that are most
+
+57
+00:02:11,120 --> 00:02:15,599
+popular with the highest frequency uh to
+
+58
+00:02:13,920 --> 00:02:17,680
+the lowest frequency and now we need to
+
+59
+00:02:15,599 --> 00:02:19,200
+check yeah because when we pick this
+
+60
+00:02:17,680 --> 00:02:21,280
+number right we know that all the
+
+61
+00:02:19,200 --> 00:02:22,480
+numbers is ten numbers so we pick three
+
+62
+00:02:21,280 --> 00:02:24,800
+four numbers
+
+63
+00:02:22,480 --> 00:02:27,360
+now we pick four numbers it's not enough
+
+64
+00:02:24,800 --> 00:02:29,040
+right it's not bigger than half right
+
+65
+00:02:27,360 --> 00:02:31,200
+now we pick three numbers four past
+
+66
+00:02:29,040 --> 00:02:32,879
+three seven numbers it's more than half
+
+67
+00:02:31,200 --> 00:02:34,480
+then we return
+
+68
+00:02:32,879 --> 00:02:35,519
+two numbers right
+
+69
+00:02:34,480 --> 00:02:37,280
+all right
+
+70
+00:02:35,519 --> 00:02:38,560
+okay so culture yeah we can use the
+
+71
+00:02:37,280 --> 00:02:40,560
+comments so
+
+72
+00:02:38,560 --> 00:02:43,519
+culture is from
+
+73
+00:02:40,560 --> 00:02:46,640
+this is from collections yeah collection
+
+74
+00:02:43,519 --> 00:02:48,400
+import counter we know that already
+
+75
+00:02:46,640 --> 00:02:50,720
+counter is basically a dictionary right
+
+76
+00:02:48,400 --> 00:02:52,400
+decently we can say b equals this
+
+77
+00:02:50,720 --> 00:02:54,800
+dictionary then we go through this
+
+78
+00:02:52,400 --> 00:02:57,040
+number for i in numbers
+
+79
+00:02:54,800 --> 00:02:58,080
+this is the same thing as d i plus one
+
+80
+00:02:57,040 --> 00:03:01,120
+right
+
+81
+00:02:58,080 --> 00:03:03,280
+right all these three convert it to d
+
+82
+00:03:01,120 --> 00:03:04,720
+equals counter
+
+83
+00:03:03,280 --> 00:03:06,480
+called uh
+
+84
+00:03:04,720 --> 00:03:08,080
+numbers
+
+85
+00:03:06,480 --> 00:03:11,040
+this is just a
+
+86
+00:03:08,080 --> 00:03:13,200
+shortcut much better way to
+
+87
+00:03:11,040 --> 00:03:14,800
+make it simpler okay we have this thing
+
+88
+00:03:13,200 --> 00:03:16,720
+so we want to find out the most common
+
+89
+00:03:14,800 --> 00:03:18,080
+we want to get this part so we have this
+
+90
+00:03:16,720 --> 00:03:21,280
+function called
+
+91
+00:03:18,080 --> 00:03:23,680
+the most common we have this one so what
+
+92
+00:03:21,280 --> 00:03:25,360
+does it give us you give us
+
+93
+00:03:23,680 --> 00:03:28,720
+this
+
+94
+00:03:25,360 --> 00:03:31,760
+a list of uh three is four times the
+
+95
+00:03:28,720 --> 00:03:34,720
+second popular is five is three times
+
+96
+00:03:31,760 --> 00:03:35,760
+two is two times and seven is one time
+
+97
+00:03:34,720 --> 00:03:37,120
+right
+
+98
+00:03:35,760 --> 00:03:39,040
+right so look
+
+99
+00:03:37,120 --> 00:03:40,799
+most popular
+
+100
+00:03:39,040 --> 00:03:42,400
+right three appears four times five
+
+101
+00:03:40,799 --> 00:03:44,400
+appears three times right this is very
+
+102
+00:03:42,400 --> 00:03:45,280
+convenient for us right
+
+103
+00:03:44,400 --> 00:03:47,440
+so
+
+104
+00:03:45,280 --> 00:03:49,760
+we can use this most common um by
+
+105
+00:03:47,440 --> 00:03:52,000
+putting the numbers if we put a two then
+
+106
+00:03:49,760 --> 00:03:54,000
+we will return top most popular
+
+107
+00:03:52,000 --> 00:03:56,480
+this number the parameters
+
+108
+00:03:54,000 --> 00:03:58,560
+so if we want to use this command to get
+
+109
+00:03:56,480 --> 00:04:00,640
+the least comment how would you do it
+
+110
+00:03:58,560 --> 00:04:02,640
+which part is the least common
+
+111
+00:04:00,640 --> 00:04:04,799
+this is the most term
+
+112
+00:04:02,640 --> 00:04:06,959
+so so what do we do with this comment
+
+113
+00:04:04,799 --> 00:04:07,760
+for example if we do the same thing and
+
+114
+00:04:06,959 --> 00:04:09,519
+then
+
+115
+00:04:07,760 --> 00:04:11,760
+the list
+
+116
+00:04:09,519 --> 00:04:13,840
+no there's no such function called this
+
+117
+00:04:11,760 --> 00:04:15,200
+comma but we can use most comments to
+
+118
+00:04:13,840 --> 00:04:18,079
+get the least comment how would you do
+
+119
+00:04:15,200 --> 00:04:19,600
+it come on it's very nice most common
+
+120
+00:04:18,079 --> 00:04:21,359
+and
+
+121
+00:04:19,600 --> 00:04:23,280
+look this is most common so which part
+
+122
+00:04:21,359 --> 00:04:26,320
+about this woman what youtube cars are
+
+123
+00:04:23,280 --> 00:04:29,320
+these comments least common multiplier
+
+124
+00:04:26,320 --> 00:04:29,320
+um
+
+125
+00:04:29,600 --> 00:04:33,680
+yeah yeah yeah so look this is a list
+
+126
+00:04:31,520 --> 00:04:35,759
+right so this comment we just have to
+
+127
+00:04:33,680 --> 00:04:39,440
+get it from the right right for example
+
+128
+00:04:35,759 --> 00:04:41,840
+this command one is the minus one right
+
+129
+00:04:39,440 --> 00:04:44,160
+right uh actually minus one right so
+
+130
+00:04:41,840 --> 00:04:45,919
+even together these two
+
+131
+00:04:44,160 --> 00:04:49,040
+we can do this
+
+132
+00:04:45,919 --> 00:04:51,680
+uh minus two to the n and we reverse
+
+133
+00:04:49,040 --> 00:04:52,800
+this part right or we can use this uh
+
+134
+00:04:51,680 --> 00:04:55,680
+formula
+
+135
+00:04:52,800 --> 00:04:57,600
+column minus n minus one
+
+136
+00:04:55,680 --> 00:04:58,479
+minus one this means that we want to get
+
+137
+00:04:57,600 --> 00:05:01,600
+the
+
+138
+00:04:58,479 --> 00:05:03,199
+last and element in the reverse order
+
+139
+00:05:01,600 --> 00:05:05,280
+right because this is the least common
+
+140
+00:05:03,199 --> 00:05:06,560
+this is the second this comma right but
+
+141
+00:05:05,280 --> 00:05:08,800
+the least
+
+142
+00:05:06,560 --> 00:05:11,280
+most common just give this in the other
+
+143
+00:05:08,800 --> 00:05:14,080
+sequence we have to reverse this
+
+144
+00:05:11,280 --> 00:05:15,840
+this most common is very convenient a
+
+145
+00:05:14,080 --> 00:05:18,400
+equals
+
+146
+00:05:15,840 --> 00:05:20,720
+we have this d right the thing we need
+
+147
+00:05:18,400 --> 00:05:22,880
+is just this one and we don't care about
+
+148
+00:05:20,720 --> 00:05:24,960
+what value am i right it doesn't matter
+
+149
+00:05:22,880 --> 00:05:28,240
+right this three changes to a million
+
+150
+00:05:24,960 --> 00:05:29,919
+doesn't matter these five change to
+
+151
+00:05:28,240 --> 00:05:32,320
+a trillion doesn't matter the most
+
+152
+00:05:29,919 --> 00:05:34,160
+important thing is the counter how many
+
+153
+00:05:32,320 --> 00:05:35,120
+times they appear right
+
+154
+00:05:34,160 --> 00:05:36,479
+x
+
+155
+00:05:35,120 --> 00:05:37,520
+for
+
+156
+00:05:36,479 --> 00:05:38,560
+y
+
+157
+00:05:37,520 --> 00:05:41,039
+y
+
+158
+00:05:38,560 --> 00:05:44,800
+x in
+
+159
+00:05:41,039 --> 00:05:46,639
+d dot items
+
+160
+00:05:44,800 --> 00:05:48,240
+right and then we can just solve this a
+
+161
+00:05:46,639 --> 00:05:50,720
+dot solved
+
+162
+00:05:48,240 --> 00:05:53,280
+eight also what look x is the number of
+
+163
+00:05:50,720 --> 00:05:55,840
+times y is the key
+
+164
+00:05:53,280 --> 00:05:57,919
+the value indeed items and we can just
+
+165
+00:05:55,840 --> 00:06:00,080
+add a store reverse
+
+166
+00:05:57,919 --> 00:06:02,000
+equals two because we want to pick the
+
+167
+00:06:00,080 --> 00:06:03,280
+most frequent one
+
+168
+00:06:02,000 --> 00:06:05,680
+okay
+
+169
+00:06:03,280 --> 00:06:09,120
+and once we have this a okay so let's
+
+170
+00:06:05,680 --> 00:06:10,800
+put this in the a equal left for example
+
+171
+00:06:09,120 --> 00:06:12,639
+answer equal at the beginning we pick
+
+172
+00:06:10,800 --> 00:06:14,160
+nothing so for
+
+173
+00:06:12,639 --> 00:06:17,199
+i in
+
+174
+00:06:14,160 --> 00:06:19,199
+a okay let's assume this a is the most
+
+175
+00:06:17,199 --> 00:06:21,280
+common is this bit right so about a
+
+176
+00:06:19,199 --> 00:06:23,759
+equals
+
+177
+00:06:21,280 --> 00:06:25,199
+we want the least number right so it's y
+
+178
+00:06:23,759 --> 00:06:28,000
+for
+
+179
+00:06:25,199 --> 00:06:29,440
+x y in
+
+180
+00:06:28,000 --> 00:06:31,600
+b
+
+181
+00:06:29,440 --> 00:06:34,240
+most common right and then a will be
+
+182
+00:06:31,600 --> 00:06:36,639
+something like this for a then we add it
+
+183
+00:06:34,240 --> 00:06:39,120
+right the number we pick this is the
+
+184
+00:06:36,639 --> 00:06:41,280
+four three two one right in this case
+
+185
+00:06:39,120 --> 00:06:44,080
+the a will be four three two one it's at
+
+186
+00:06:41,280 --> 00:06:45,280
+least four three two one
+
+187
+00:06:44,080 --> 00:06:47,759
+and then
+
+188
+00:06:45,280 --> 00:06:49,919
+we want to have a counter t equals zero
+
+189
+00:06:47,759 --> 00:06:51,199
+the total numbers we have picked t plus
+
+190
+00:06:49,919 --> 00:06:53,919
+equals i
+
+191
+00:06:51,199 --> 00:06:55,120
+and answer we have picked one number and
+
+192
+00:06:53,919 --> 00:06:58,000
+if t
+
+193
+00:06:55,120 --> 00:07:00,479
+plus t bigger than equal and the length
+
+194
+00:06:58,000 --> 00:07:03,759
+of all the numbers
+
+195
+00:07:00,479 --> 00:07:06,880
+right and then we just return answer
+
+196
+00:07:03,759 --> 00:07:09,280
+okay make sense look yeah
+
+197
+00:07:06,880 --> 00:07:11,919
+a is four three two one four three two
+
+198
+00:07:09,280 --> 00:07:14,080
+one so we pick four numbers we check
+
+199
+00:07:11,919 --> 00:07:17,280
+we pick one one time we pick four
+
+200
+00:07:14,080 --> 00:07:18,560
+numbers we check if it's more than half
+
+201
+00:07:17,280 --> 00:07:21,039
+this is not more than half we keep
+
+202
+00:07:18,560 --> 00:07:22,479
+picking pixel in number now we have pick
+
+203
+00:07:21,039 --> 00:07:24,880
+seven numbers
+
+204
+00:07:22,479 --> 00:07:27,520
+so seven is more than half right seven
+
+205
+00:07:24,880 --> 00:07:29,280
+plus seven is bigger than ten
+
+206
+00:07:27,520 --> 00:07:31,520
+then we determine answer in this case
+
+207
+00:07:29,280 --> 00:07:35,199
+would be two all right the time come
+
+208
+00:07:31,520 --> 00:07:35,199
+actually it's a bit tricky
+
+209
+00:07:38,720 --> 00:07:40,639
+very close
+
+210
+00:07:39,340 --> 00:07:42,639
+[Music]
+
+211
+00:07:40,639 --> 00:07:44,960
+most common
+
+212
+00:07:42,639 --> 00:07:44,960
+soft
+
+213
+00:07:52,220 --> 00:07:58,319
+[Music]
+
+214
+00:07:55,919 --> 00:08:00,080
+obviously we're using the addition rate
+
+215
+00:07:58,319 --> 00:08:02,879
+so that's one
+
+216
+00:08:00,080 --> 00:08:04,879
+we're using the dictionary oh and
+
+217
+00:08:02,879 --> 00:08:07,360
+if the numbers are within the range
+
+218
+00:08:04,879 --> 00:08:08,800
+right if the numbers for example is uh
+
+219
+00:08:07,360 --> 00:08:10,720
+bigger than one and smaller than a
+
+220
+00:08:08,800 --> 00:08:12,319
+hundred it's a lesser range then we can
+
+221
+00:08:10,720 --> 00:08:14,240
+also use the pakistan we talk about the
+
+222
+00:08:12,319 --> 00:08:17,039
+back is talking yeah we have a hundred
+
+223
+00:08:14,240 --> 00:08:18,720
+buckets right then we can count how many
+
+224
+00:08:17,039 --> 00:08:22,080
+times they appear right for example
+
+225
+00:08:18,720 --> 00:08:25,039
+three then we increment three bucket one
+
+226
+00:08:22,080 --> 00:08:26,800
+so in this case the numbers we have in
+
+227
+00:08:25,039 --> 00:08:28,160
+way are we in the range well now we can
+
+228
+00:08:26,800 --> 00:08:30,319
+you should package something and the
+
+229
+00:08:28,160 --> 00:08:31,840
+time complexity can be improved
+
+230
+00:08:30,319 --> 00:08:34,000
+okay so what have you learned today come
+
+231
+00:08:31,840 --> 00:08:35,039
+on what have you learned today that's it
+
+232
+00:08:34,000 --> 00:08:37,039
+about
+
+233
+00:08:35,039 --> 00:08:41,399
+what have you learned come on what's the
+
+234
+00:08:37,039 --> 00:08:41,399
+problem and what have you learned eric
+
+235
+00:08:46,880 --> 00:08:51,760
+so how do we reduce it i mean we use a
+
+236
+00:08:48,880 --> 00:08:54,080
+counter and then we have these numbers
+
+237
+00:08:51,760 --> 00:08:55,680
+yeah we have the numbers at each time we
+
+238
+00:08:54,080 --> 00:08:56,959
+can pick a
+
+239
+00:08:55,680 --> 00:08:59,440
+number and
+
+240
+00:08:56,959 --> 00:09:01,600
+remove one
+
+241
+00:08:59,440 --> 00:09:03,920
+of it
+
+242
+00:09:01,600 --> 00:09:04,800
+this number all of these occurrences
+
+243
+00:09:03,920 --> 00:09:07,440
+right
+
+244
+00:09:04,800 --> 00:09:08,480
+and then and then what do we need to do
+
+245
+00:09:07,440 --> 00:09:09,600
+counter
+
+246
+00:09:08,480 --> 00:09:12,399
+what do we
+
+247
+00:09:09,600 --> 00:09:15,600
+what are we achieving yeah
+
+248
+00:09:12,399 --> 00:09:18,080
+reducing the number of
+
+249
+00:09:15,600 --> 00:09:18,800
+number of numbers by half
+
+250
+00:09:18,080 --> 00:09:21,040
+so
+
+251
+00:09:18,800 --> 00:09:24,320
+we want to find out the minimum right
+
+252
+00:09:21,040 --> 00:09:27,200
+yeah minimum so how would you do this to
+
+253
+00:09:24,320 --> 00:09:27,200
+achieve the minimum
+
+254
+00:09:27,279 --> 00:09:31,040
+yeah this is the approach but how would
+
+255
+00:09:28,800 --> 00:09:33,200
+you do it strategically i mean how
+
+256
+00:09:31,040 --> 00:09:37,040
+what's a what's your approach
+
+257
+00:09:33,200 --> 00:09:37,040
+what's your approach dictionary why do
+
+258
+00:09:40,720 --> 00:09:46,480
+so which numbers would you pick
+
+259
+00:09:44,080 --> 00:09:48,000
+the biggest so so what are three and
+
+260
+00:09:46,480 --> 00:09:50,320
+fives the biggest
+
+261
+00:09:48,000 --> 00:09:52,959
+the what pick is this is the number this
+
+262
+00:09:50,320 --> 00:09:54,720
+is the number terminal
+
+263
+00:09:52,959 --> 00:09:56,560
+number
+
+264
+00:09:54,720 --> 00:09:58,800
+we want to pick the numbers we use the
+
+265
+00:09:56,560 --> 00:10:00,399
+highest frequency so every time we pick
+
+266
+00:09:58,800 --> 00:10:01,920
+the number with the highest frequency i
+
+267
+00:10:00,399 --> 00:10:04,480
+will remove it from the array and then
+
+268
+00:10:01,920 --> 00:10:06,560
+we pick the second highest frequency and
+
+269
+00:10:04,480 --> 00:10:08,399
+then we remove it right yeah the time
+
+270
+00:10:06,560 --> 00:10:10,640
+the next is our login because there's a
+
+271
+00:10:08,399 --> 00:10:12,640
+sorting here the most common and thought
+
+272
+00:10:10,640 --> 00:10:14,320
+right let's all know that space
+
+273
+00:10:12,640 --> 00:10:16,240
+complexity is oh and because we are
+
+274
+00:10:14,320 --> 00:10:17,600
+using a dictionary okay that's it for
+
+275
+00:10:16,240 --> 00:10:19,839
+today bye-bye
+
+276
+00:10:17,600 --> 00:10:19,839
+bye
+
