@@ -1,0 +1,1516 @@
+1
+00:00:00,320 --> 00:00:03,600
+hello mystery mr lauren are you right
+
+2
+00:00:02,720 --> 00:00:05,120
+yeah
+
+3
+00:00:03,600 --> 00:00:07,759
+okay so
+
+4
+00:00:05,120 --> 00:00:11,040
+i put a zero here so another stop array
+
+5
+00:00:07,759 --> 00:00:13,840
+right sub array continues some array as
+
+6
+00:00:11,040 --> 00:00:16,480
+to subsequent
+
+7
+00:00:13,840 --> 00:00:18,480
+subsequence is not continuous separate
+
+8
+00:00:16,480 --> 00:00:21,439
+like one two three
+
+9
+00:00:18,480 --> 00:00:23,359
+if this is a ray sub array one two three
+
+10
+00:00:21,439 --> 00:00:25,119
+one two two three one two three continue
+
+11
+00:00:23,359 --> 00:00:28,880
+subsequence does not have to be
+
+12
+00:00:25,119 --> 00:00:30,640
+continuous one one three two right so
+
+13
+00:00:28,880 --> 00:00:32,239
+sub sequence
+
+14
+00:00:30,640 --> 00:00:34,160
+and sub array what's the relation
+
+15
+00:00:32,239 --> 00:00:36,160
+between subsequent and separate
+
+16
+00:00:34,160 --> 00:00:38,000
+is sub array or subsequence or is
+
+17
+00:00:36,160 --> 00:00:39,680
+subsequently separate sub array is
+
+18
+00:00:38,000 --> 00:00:42,239
+continuous right subsequence doesn't
+
+19
+00:00:39,680 --> 00:00:43,680
+have to be continuous so it's sub array
+
+20
+00:00:42,239 --> 00:00:45,280
+a subsequence
+
+21
+00:00:43,680 --> 00:00:48,239
+suffering
+
+22
+00:00:45,280 --> 00:00:50,239
+yes but it's subsequence of suffering
+
+23
+00:00:48,239 --> 00:00:52,879
+no that's right so subarray is a
+
+24
+00:00:50,239 --> 00:00:55,199
+subsequent so subsequent outside right
+
+25
+00:00:52,879 --> 00:00:57,840
+the coincidence yeah someone right here
+
+26
+00:00:55,199 --> 00:01:01,359
+right somewhere
+
+27
+00:00:57,840 --> 00:01:02,879
+so okay so zero i have an array contains
+
+28
+00:01:01,359 --> 00:01:05,119
+only zero you want to find out the
+
+29
+00:01:02,879 --> 00:01:07,119
+number total number of sub arrays
+
+30
+00:01:05,119 --> 00:01:10,159
+containing the zeros only for example
+
+31
+00:01:07,119 --> 00:01:14,080
+like how many sub arrays containing
+
+32
+00:01:10,159 --> 00:01:16,799
+zero in this case one one exactly
+
+33
+00:01:14,080 --> 00:01:17,840
+how many sub arrays containing zeros
+
+34
+00:01:16,799 --> 00:01:20,080
+how many
+
+35
+00:01:17,840 --> 00:01:21,840
+sub arrays are there not empty you know
+
+36
+00:01:20,080 --> 00:01:23,439
+empty is also a subreddit but we're
+
+37
+00:01:21,840 --> 00:01:26,320
+excluding empty here so how many sub
+
+38
+00:01:23,439 --> 00:01:29,200
+arrays here three three okay yeah so
+
+39
+00:01:26,320 --> 00:01:31,520
+here is one here three okay keep going
+
+40
+00:01:29,200 --> 00:01:33,200
+if i put one more how many sub arrays
+
+41
+00:01:31,520 --> 00:01:35,280
+six six
+
+42
+00:01:33,200 --> 00:01:36,159
+okay i put one more
+
+43
+00:01:35,280 --> 00:01:38,159
+ten
+
+44
+00:01:36,159 --> 00:01:40,320
+okay so what's the new thing what
+
+45
+00:01:38,159 --> 00:01:40,320
+happened
+
+46
+00:01:44,079 --> 00:01:48,159
+so what's on the next
+
+47
+00:01:45,759 --> 00:01:54,960
+15 okay what's the next
+
+48
+00:01:48,159 --> 00:01:54,960
+228 one okay so look if n equal if any
+
+49
+00:02:02,159 --> 00:02:08,640
+so how do you get this if i want to
+
+50
+00:02:04,640 --> 00:02:09,599
+generalize this so when n equals 10
+
+51
+00:02:08,640 --> 00:02:11,920
+what's the
+
+52
+00:02:09,599 --> 00:02:14,640
+answer how do we get it adding one more
+
+53
+00:02:11,920 --> 00:02:16,480
+becomes 15. how do we get 15
+
+54
+00:02:14,640 --> 00:02:18,879
+so if we know dn
+
+55
+00:02:16,480 --> 00:02:20,160
+what we have now is 10
+
+56
+00:02:18,879 --> 00:02:23,360
+right look
+
+57
+00:02:20,160 --> 00:02:25,360
+we n equals four we have ten if i have
+
+58
+00:02:23,360 --> 00:02:27,920
+one more n equals five
+
+59
+00:02:25,360 --> 00:02:30,480
+why is it fifteen why is the fifteen
+
+60
+00:02:27,920 --> 00:02:32,480
+come on when n is four i have ten when i
+
+61
+00:02:30,480 --> 00:02:34,720
+add one more zero what happened
+
+62
+00:02:32,480 --> 00:02:37,120
+how many more can we get how do we know
+
+63
+00:02:34,720 --> 00:02:39,760
+is fifteen here
+
+64
+00:02:37,120 --> 00:02:42,080
+this is 50 right we need to add five so
+
+65
+00:02:39,760 --> 00:02:46,239
+what happens why is this 5 coming from
+
+66
+00:02:42,080 --> 00:02:48,959
+if i add a 0 here why is it 5 extra
+
+67
+00:02:46,239 --> 00:02:52,319
+look i have a 0 here
+
+68
+00:02:48,959 --> 00:02:54,640
+if i had one zero how many extra
+
+69
+00:02:52,319 --> 00:02:55,920
+how many episodes right how many extra
+
+70
+00:02:54,640 --> 00:02:58,159
+why is it two
+
+71
+00:02:55,920 --> 00:03:00,319
+which two are actual
+
+72
+00:02:58,159 --> 00:03:02,720
+which two are actually i put a zero here
+
+73
+00:03:00,319 --> 00:03:05,720
+so which two are actual quantum count is
+
+74
+00:03:02,720 --> 00:03:05,720
+three
+
+75
+00:03:06,210 --> 00:03:09,300
+[Music]
+
+76
+00:03:10,480 --> 00:03:15,599
+yeah okay okay so what we have got is
+
+77
+00:03:13,680 --> 00:03:17,360
+the new one right we add one more zero
+
+78
+00:03:15,599 --> 00:03:19,360
+in new one and
+
+79
+00:03:17,360 --> 00:03:21,599
+the one the previous one right the
+
+80
+00:03:19,360 --> 00:03:23,840
+previous only one connects to it so
+
+81
+00:03:21,599 --> 00:03:26,560
+that's another one how about this
+
+82
+00:03:23,840 --> 00:03:28,239
+another two so if i add one more you
+
+83
+00:03:26,560 --> 00:03:31,200
+know how many
+
+84
+00:03:28,239 --> 00:03:33,360
+the original two we know is three yeah
+
+85
+00:03:31,200 --> 00:03:34,880
+and then here we have three more becomes
+
+86
+00:03:33,360 --> 00:03:36,239
+six
+
+87
+00:03:34,880 --> 00:03:38,640
+[Music]
+
+88
+00:03:36,239 --> 00:03:41,360
+right yeah what are the other two
+
+89
+00:03:38,640 --> 00:03:43,200
+the one of the beginnings
+
+90
+00:03:41,360 --> 00:03:45,200
+yeah okay so you see you get the excel
+
+91
+00:03:43,200 --> 00:03:46,959
+here and here right
+
+92
+00:03:45,200 --> 00:03:48,000
+yeah and then here right
+
+93
+00:03:46,959 --> 00:03:50,000
+okay
+
+94
+00:03:48,000 --> 00:03:52,080
+the same thing go here i put another
+
+95
+00:03:50,000 --> 00:03:54,159
+zero here
+
+96
+00:03:52,080 --> 00:03:55,519
+so what do we have
+
+97
+00:03:54,159 --> 00:03:56,720
+one
+
+98
+00:03:55,519 --> 00:03:58,000
+two
+
+99
+00:03:56,720 --> 00:03:59,200
+three
+
+100
+00:03:58,000 --> 00:04:00,480
+four
+
+101
+00:03:59,200 --> 00:04:04,400
+five
+
+102
+00:04:00,480 --> 00:04:06,319
+correct so if i add one i have n more so
+
+103
+00:04:04,400 --> 00:04:09,200
+this is the same thing as one plus two
+
+104
+00:04:06,319 --> 00:04:11,200
+plus three plus four plus and and at
+
+105
+00:04:09,200 --> 00:04:12,400
+least we know this
+
+106
+00:04:11,200 --> 00:04:13,680
+what's this
+
+107
+00:04:12,400 --> 00:04:15,599
+you notice
+
+108
+00:04:13,680 --> 00:04:18,079
+one plus two plus three plus four plus
+
+109
+00:04:15,599 --> 00:04:20,079
+two hundred what's the answer
+
+110
+00:04:18,079 --> 00:04:22,130
+what's the answer plus n equals two
+
+111
+00:04:20,079 --> 00:04:24,240
+hundred what's the answer
+
+112
+00:04:22,130 --> 00:04:27,120
+[Music]
+
+113
+00:04:24,240 --> 00:04:28,800
+value so this is the sum of
+
+114
+00:04:27,120 --> 00:04:29,840
+i equals 1
+
+115
+00:04:28,800 --> 00:04:33,199
+to n
+
+116
+00:04:29,840 --> 00:04:36,320
+and i right so here n equals 10 so this
+
+117
+00:04:33,199 --> 00:04:37,680
+would be n times m plus 1 divided by 2
+
+118
+00:04:36,320 --> 00:04:40,240
+yeah we talked about that in the early
+
+119
+00:04:37,680 --> 00:04:43,360
+days how do we get this so when n equals
+
+120
+00:04:40,240 --> 00:04:46,240
+4 4 times five divided by two
+
+121
+00:04:43,360 --> 00:04:49,040
+equals ten when equals five
+
+122
+00:04:46,240 --> 00:04:51,919
+what do we get five times five plus one
+
+123
+00:04:49,040 --> 00:04:55,199
+divided by two that's fifteen right
+
+124
+00:04:51,919 --> 00:04:58,479
+we are given an array of integers
+
+125
+00:04:55,199 --> 00:05:00,880
+so we want to find out how many
+
+126
+00:04:58,479 --> 00:05:02,960
+subarray containing zeros the previous
+
+127
+00:05:00,880 --> 00:05:05,120
+one we only have a array with containing
+
+128
+00:05:02,960 --> 00:05:08,000
+all zeros now we have an array with
+
+129
+00:05:05,120 --> 00:05:10,479
+numbers not necessary to be zeros so we
+
+130
+00:05:08,000 --> 00:05:13,120
+want to find out the
+
+131
+00:05:10,479 --> 00:05:15,039
+number of us sub array that containing
+
+132
+00:05:13,120 --> 00:05:17,360
+zeros how do we do it
+
+133
+00:05:15,039 --> 00:05:19,039
+how many sub arrays containing zeros in
+
+134
+00:05:17,360 --> 00:05:20,800
+this case
+
+135
+00:05:19,039 --> 00:05:22,400
+so what's the approach i mean look i
+
+136
+00:05:20,800 --> 00:05:24,720
+have an array
+
+137
+00:05:22,400 --> 00:05:26,400
+containing numbers not necessary to be
+
+138
+00:05:24,720 --> 00:05:27,919
+zero so we want to find out how many
+
+139
+00:05:26,400 --> 00:05:28,880
+arrays several were containing only
+
+140
+00:05:27,919 --> 00:05:30,960
+zeros
+
+141
+00:05:28,880 --> 00:05:32,720
+so how do we solve this problem
+
+142
+00:05:30,960 --> 00:05:34,720
+could you buy
+
+143
+00:05:32,720 --> 00:05:36,720
+where down grow by
+
+144
+00:05:34,720 --> 00:05:39,759
+how do we count so first of all we call
+
+145
+00:05:36,720 --> 00:05:40,880
+this right two we know how to count it
+
+146
+00:05:39,759 --> 00:05:42,880
+previously
+
+147
+00:05:40,880 --> 00:05:45,199
+we can learn how to count it we have how
+
+148
+00:05:42,880 --> 00:05:47,280
+to count we just add it together right
+
+149
+00:05:45,199 --> 00:05:49,360
+okay so how many sub arrays and then
+
+150
+00:05:47,280 --> 00:05:51,840
+zero two three yeah we know only three
+
+151
+00:05:49,360 --> 00:05:54,639
+how many here one how many one yeah
+
+152
+00:05:51,840 --> 00:05:57,600
+three plus one plus one right yeah we
+
+153
+00:05:54,639 --> 00:06:00,319
+use the group back this is array right
+
+154
+00:05:57,600 --> 00:06:02,880
+we talked about this little tours
+
+155
+00:06:00,319 --> 00:06:06,160
+from italy's import go back so what do
+
+156
+00:06:02,880 --> 00:06:09,039
+we have if we have ether to us this is
+
+157
+00:06:06,160 --> 00:06:11,280
+the package stock grew by
+
+158
+00:06:09,039 --> 00:06:14,960
+we talked about that through by
+
+159
+00:06:11,280 --> 00:06:16,319
+ar so this is an iterator if we say
+
+160
+00:06:14,960 --> 00:06:17,680
+for
+
+161
+00:06:16,319 --> 00:06:21,360
+a b
+
+162
+00:06:17,680 --> 00:06:22,560
+in group i so what what is a it will
+
+163
+00:06:21,360 --> 00:06:24,800
+give us a
+
+164
+00:06:22,560 --> 00:06:27,199
+a would be
+
+165
+00:06:24,800 --> 00:06:28,560
+a will be what a will be when a will be
+
+166
+00:06:27,199 --> 00:06:29,919
+one
+
+167
+00:06:28,560 --> 00:06:32,240
+then
+
+168
+00:06:29,919 --> 00:06:34,400
+this is the iterator right then the b
+
+169
+00:06:32,240 --> 00:06:37,759
+will be the integrator of the
+
+170
+00:06:34,400 --> 00:06:41,280
+actual continuous value so you'll be one
+
+171
+00:06:37,759 --> 00:06:44,560
+and then zero you'll be two zero
+
+172
+00:06:41,280 --> 00:06:48,240
+and then one will be one
+
+173
+00:06:44,560 --> 00:06:49,680
+okay and then zero will be one zero two
+
+174
+00:06:48,240 --> 00:06:52,080
+will be zero
+
+175
+00:06:49,680 --> 00:06:54,639
+and then zero will be zero so basically
+
+176
+00:06:52,080 --> 00:06:58,400
+if we run this it's a true or group five
+
+177
+00:06:54,639 --> 00:07:01,120
+the a will be the unique values the b
+
+178
+00:06:58,400 --> 00:07:04,240
+will be pointing to each group so
+
+179
+00:07:01,120 --> 00:07:05,759
+look if we have two zeros here so zero
+
+180
+00:07:04,240 --> 00:07:08,319
+and then you'll be two zeros another
+
+181
+00:07:05,759 --> 00:07:09,840
+example two two
+
+182
+00:07:08,319 --> 00:07:11,360
+two three
+
+183
+00:07:09,840 --> 00:07:13,680
+three two
+
+184
+00:07:11,360 --> 00:07:16,560
+okay so what do we have is a would be
+
+185
+00:07:13,680 --> 00:07:19,120
+two pointing to three twos
+
+186
+00:07:16,560 --> 00:07:20,720
+but this is a iterator okay three
+
+187
+00:07:19,120 --> 00:07:21,919
+would be
+
+188
+00:07:20,720 --> 00:07:24,479
+two three
+
+189
+00:07:21,919 --> 00:07:27,360
+and two would be one two okay
+
+190
+00:07:24,479 --> 00:07:29,599
+so if we go through this b the length of
+
+191
+00:07:27,360 --> 00:07:32,479
+the b right if we learn the length of b
+
+192
+00:07:29,599 --> 00:07:35,199
+which is n then we can count how many
+
+193
+00:07:32,479 --> 00:07:38,000
+a sub array containing the
+
+194
+00:07:35,199 --> 00:07:40,800
+zero so it's n plus n times one divided
+
+195
+00:07:38,000 --> 00:07:43,280
+by two right we can verify the value
+
+196
+00:07:40,800 --> 00:07:46,319
+when n is one one times
+
+197
+00:07:43,280 --> 00:07:47,360
+2 divided by 2 is 1 right 1 n is 2 2
+
+198
+00:07:46,319 --> 00:07:49,360
+times
+
+199
+00:07:47,360 --> 00:07:51,680
+3 divided by 2
+
+200
+00:07:49,360 --> 00:07:53,520
+2 times 3 divided by 2 equals 3 right
+
+201
+00:07:51,680 --> 00:07:56,080
+that's one way we use the group right
+
+202
+00:07:53,520 --> 00:07:57,199
+well the code is pretty simple okay so
+
+203
+00:07:56,080 --> 00:07:58,560
+let's just
+
+204
+00:07:57,199 --> 00:08:00,960
+read the code
+
+205
+00:07:58,560 --> 00:08:03,599
+out without writing it okay so
+
+206
+00:08:00,960 --> 00:08:08,560
+answer equals zero
+
+207
+00:08:03,599 --> 00:08:11,199
+for a b iterate to stop going by array
+
+208
+00:08:08,560 --> 00:08:13,759
+if okay we have to check if a is zero
+
+209
+00:08:11,199 --> 00:08:15,120
+right if a is not zero we don't count if
+
+210
+00:08:13,759 --> 00:08:18,080
+a is zero
+
+211
+00:08:15,120 --> 00:08:20,800
+then n equals length this b
+
+212
+00:08:18,080 --> 00:08:23,520
+and then answer plus equal n times n
+
+213
+00:08:20,800 --> 00:08:26,160
+plus one divided by two and that'll be
+
+214
+00:08:23,520 --> 00:08:29,280
+right another way would be originally
+
+215
+00:08:26,160 --> 00:08:31,840
+array and we use the counter zero
+
+216
+00:08:29,280 --> 00:08:34,959
+representing the number of zero we have
+
+217
+00:08:31,840 --> 00:08:37,279
+met if it's uh if it's not yellow we set
+
+218
+00:08:34,959 --> 00:08:39,120
+it to zero right if it's zero we plus
+
+219
+00:08:37,279 --> 00:08:41,680
+equal one
+
+220
+00:08:39,120 --> 00:08:44,320
+if i have a zero here i have m one more
+
+221
+00:08:41,680 --> 00:08:46,880
+zero then this zero contributes this
+
+222
+00:08:44,320 --> 00:08:48,160
+number of uh sub array right so look if
+
+223
+00:08:46,880 --> 00:08:50,959
+i have uh
+
+224
+00:08:48,160 --> 00:08:53,680
+three zero now right z equals three
+
+225
+00:08:50,959 --> 00:08:54,399
+i have one more zero so
+
+226
+00:08:53,680 --> 00:08:57,040
+the
+
+227
+00:08:54,399 --> 00:08:58,160
+total contribution of this zero is
+
+228
+00:08:57,040 --> 00:09:00,880
+plus
+
+229
+00:08:58,160 --> 00:09:03,519
+what three or four z will be
+
+230
+00:09:00,880 --> 00:09:05,040
+the number of zero before
+
+231
+00:09:03,519 --> 00:09:06,959
+and then the total number of
+
+232
+00:09:05,040 --> 00:09:12,240
+contribution will be
+
+233
+00:09:06,959 --> 00:09:14,480
+plus equal z right so define okay count
+
+234
+00:09:12,240 --> 00:09:16,959
+zero
+
+235
+00:09:14,480 --> 00:09:16,959
+array
+
+236
+00:09:17,200 --> 00:09:21,200
+answer equals
+
+237
+00:09:19,120 --> 00:09:22,880
+zero at the beginning
+
+238
+00:09:21,200 --> 00:09:24,640
+equal 0.
+
+239
+00:09:22,880 --> 00:09:26,560
+for
+
+240
+00:09:24,640 --> 00:09:30,880
+this is the the number of continuous
+
+241
+00:09:26,560 --> 00:09:33,839
+zero we have messed over for i in array
+
+242
+00:09:30,880 --> 00:09:36,720
+if i equal equals zero
+
+243
+00:09:33,839 --> 00:09:38,399
+right we have one more zero then c plus
+
+244
+00:09:36,720 --> 00:09:41,120
+equal one
+
+245
+00:09:38,399 --> 00:09:43,200
+answer plus equals z
+
+246
+00:09:41,120 --> 00:09:45,680
+errors will be set to
+
+247
+00:09:43,200 --> 00:09:47,360
+z to zero and written answer wow that's
+
+248
+00:09:45,680 --> 00:09:49,920
+so simple right
+
+249
+00:09:47,360 --> 00:09:51,600
+the time to maxi anybody the time
+
+250
+00:09:49,920 --> 00:09:55,360
+conductor we're going through that right
+
+251
+00:09:51,600 --> 00:09:55,360
+away exactly let's take honestly
+
+252
+00:09:55,680 --> 00:09:59,839
+a one yes so this is one way okay look
+
+253
+00:09:58,959 --> 00:10:03,279
+z
+
+254
+00:09:59,839 --> 00:10:05,360
+see here if we make one zero if we were
+
+255
+00:10:03,279 --> 00:10:07,519
+1 0 this is the
+
+256
+00:10:05,360 --> 00:10:09,680
+number of zeros we have met so far
+
+257
+00:10:07,519 --> 00:10:11,519
+continuous right if it's not zero we
+
+258
+00:10:09,680 --> 00:10:14,480
+reset it to zero right
+
+259
+00:10:11,519 --> 00:10:17,600
+and the answer plus equals zero
+
+260
+00:10:14,480 --> 00:10:20,399
+look zero we have one zero right c
+
+261
+00:10:17,600 --> 00:10:22,560
+equals zero so z equals one
+
+262
+00:10:20,399 --> 00:10:24,560
+right the answer will be the answer will
+
+263
+00:10:22,560 --> 00:10:26,880
+be one right
+
+264
+00:10:24,560 --> 00:10:28,959
+okay i have one more zero now
+
+265
+00:10:26,880 --> 00:10:31,200
+i have one more zero so
+
+266
+00:10:28,959 --> 00:10:33,680
+zero equals two
+
+267
+00:10:31,200 --> 00:10:36,720
+answer plus equals two
+
+268
+00:10:33,680 --> 00:10:39,040
+three okay now i have uh
+
+269
+00:10:36,720 --> 00:10:42,160
+i have one so what happened here this is
+
+270
+00:10:39,040 --> 00:10:44,560
+not zero so we set this to
+
+271
+00:10:42,160 --> 00:10:48,000
+zero right it's not zero okay another
+
+272
+00:10:44,560 --> 00:10:50,720
+zero what happened i increment this
+
+273
+00:10:48,000 --> 00:10:53,279
+look i increment this to one
+
+274
+00:10:50,720 --> 00:10:55,440
+and the answer plus equal one okay
+
+275
+00:10:53,279 --> 00:10:57,519
+okay your turn if i have one more zero
+
+276
+00:10:55,440 --> 00:10:58,880
+what happened
+
+277
+00:10:57,519 --> 00:11:01,839
+if this is one more zero what happened
+
+278
+00:10:58,880 --> 00:11:03,760
+to here this is the number of zero we
+
+279
+00:11:01,839 --> 00:11:06,560
+have made right so we need to plus equal
+
+280
+00:11:03,760 --> 00:11:09,279
+one right so two plus equals two okay so
+
+281
+00:11:06,560 --> 00:11:11,120
+if i have one more zero what happened
+
+282
+00:11:09,279 --> 00:11:13,360
+what happened
+
+283
+00:11:11,120 --> 00:11:15,600
+what should we do with these two
+
+284
+00:11:13,360 --> 00:11:17,120
+change it to 3 to 23. i know what should
+
+285
+00:11:15,600 --> 00:11:20,720
+we happen to hear
+
+286
+00:11:17,120 --> 00:11:22,800
+plus one plus b plus three okay okay
+
+287
+00:11:20,720 --> 00:11:24,560
+okay and i have one here what happened
+
+288
+00:11:22,800 --> 00:11:25,680
+what should we do now and we set it to
+
+289
+00:11:24,560 --> 00:11:29,360
+zero
+
+290
+00:11:25,680 --> 00:11:31,279
+okay okay zero what happened
+
+291
+00:11:29,360 --> 00:11:33,519
+comes another zero whatever
+
+292
+00:11:31,279 --> 00:11:35,839
+one and plus one
+
+293
+00:11:33,519 --> 00:11:38,399
+another zero one
+
+294
+00:11:35,839 --> 00:11:40,959
+three two plus two right
+
+295
+00:11:38,399 --> 00:11:43,920
+analogy one
+
+296
+00:11:40,959 --> 00:11:46,560
+three three plus three okay
+
+297
+00:11:43,920 --> 00:11:49,360
+and then i have one here whatever
+
+298
+00:11:46,560 --> 00:11:52,160
+reset it we set it to zero okay this is
+
+299
+00:11:49,360 --> 00:11:54,079
+simple right we just set it this zero
+
+300
+00:11:52,160 --> 00:11:56,160
+means that the number of zeros
+
+301
+00:11:54,079 --> 00:11:57,440
+continuous zero we have now including
+
+302
+00:11:56,160 --> 00:11:59,680
+the column
+
+303
+00:11:57,440 --> 00:12:00,959
+why we need to plus the z
+
+304
+00:11:59,680 --> 00:12:02,000
+as we said
+
+305
+00:12:00,959 --> 00:12:04,959
+zero
+
+306
+00:12:02,000 --> 00:12:06,880
+we have one and if i press one more zero
+
+307
+00:12:04,959 --> 00:12:08,079
+we need to plus two right if we have one
+
+308
+00:12:06,880 --> 00:12:10,480
+more zero
+
+309
+00:12:08,079 --> 00:12:11,920
+we have plus three right if we have one
+
+310
+00:12:10,480 --> 00:12:14,560
+more zero
+
+311
+00:12:11,920 --> 00:12:16,160
+plus one right y plus one
+
+312
+00:12:14,560 --> 00:12:17,120
+here one
+
+313
+00:12:16,160 --> 00:12:19,040
+two
+
+314
+00:12:17,120 --> 00:12:21,360
+three four
+
+315
+00:12:19,040 --> 00:12:22,720
+okay accumulate this is one way the
+
+316
+00:12:21,360 --> 00:12:24,639
+previous one
+
+317
+00:12:22,720 --> 00:12:27,360
+ether to group i
+
+318
+00:12:24,639 --> 00:12:30,000
+right when we use that function then we
+
+319
+00:12:27,360 --> 00:12:32,160
+can count how many
+
+320
+00:12:30,000 --> 00:12:34,480
+zeros in one group
+
+321
+00:12:32,160 --> 00:12:35,839
+if it's n n equals
+
+322
+00:12:34,480 --> 00:12:37,040
+list
+
+323
+00:12:35,839 --> 00:12:41,600
+b okay
+
+324
+00:12:37,040 --> 00:12:43,279
+for a b in italian go by
+
+325
+00:12:41,600 --> 00:12:47,279
+array
+
+326
+00:12:43,279 --> 00:12:50,320
+right and then answer plus equal n times
+
+327
+00:12:47,279 --> 00:12:52,639
+times n plus one divided by two okay
+
+328
+00:12:50,320 --> 00:12:53,519
+we use the mathematic formula
+
+329
+00:12:52,639 --> 00:12:56,240
+right
+
+330
+00:12:53,519 --> 00:12:58,480
+answer equals zero
+
+331
+00:12:56,240 --> 00:13:01,440
+and return answer
+
+332
+00:12:58,480 --> 00:13:03,200
+okay two ways easy
+
+333
+00:13:01,440 --> 00:13:05,120
+which way you prefer
+
+334
+00:13:03,200 --> 00:13:06,480
+okay last question which which way you
+
+335
+00:13:05,120 --> 00:13:08,480
+prefer which way
+
+336
+00:13:06,480 --> 00:13:09,519
+you think it's more easy to understand
+
+337
+00:13:08,480 --> 00:13:10,880
+that one
+
+338
+00:13:09,519 --> 00:13:12,880
+this one
+
+339
+00:13:10,880 --> 00:13:15,120
+using my eater tooth okay
+
+340
+00:13:12,880 --> 00:13:16,720
+one one last question what's the problem
+
+341
+00:13:15,120 --> 00:13:18,639
+what have you learned you know i'm going
+
+342
+00:13:16,720 --> 00:13:21,600
+to ask this question anyway okay so
+
+343
+00:13:18,639 --> 00:13:23,440
+anybody ryan you want to give it a go
+
+344
+00:13:21,600 --> 00:13:24,800
+learn about
+
+345
+00:13:23,440 --> 00:13:27,279
+yeah
+
+346
+00:13:24,800 --> 00:13:29,600
+how to
+
+347
+00:13:27,279 --> 00:13:32,560
+so what's the problem
+
+348
+00:13:29,600 --> 00:13:34,800
+and what are we doing is a list a list
+
+349
+00:13:32,560 --> 00:13:36,959
+of numbers numbers and then we want to
+
+350
+00:13:34,800 --> 00:13:39,120
+count how many
+
+351
+00:13:36,959 --> 00:13:40,160
+how many sub arrays that containing zero
+
+352
+00:13:39,120 --> 00:13:43,040
+right
+
+353
+00:13:40,160 --> 00:13:44,240
+right so at the beginning i show you how
+
+354
+00:13:43,040 --> 00:13:47,440
+to count
+
+355
+00:13:44,240 --> 00:13:49,839
+the number of zeros if it's an array
+
+356
+00:13:47,440 --> 00:13:51,600
+with only zeros right and then we just
+
+357
+00:13:49,839 --> 00:13:54,240
+have to
+
+358
+00:13:51,600 --> 00:13:57,519
+count each group of zeros separate and
+
+359
+00:13:54,240 --> 00:13:58,639
+add them together am right
+
+360
+00:13:57,519 --> 00:13:59,680
+yeah
+
+361
+00:13:58,639 --> 00:14:01,120
+okay
+
+362
+00:13:59,680 --> 00:14:02,959
+you want to give it a go
+
+363
+00:14:01,120 --> 00:14:06,160
+what's the problem and why have we
+
+364
+00:14:02,959 --> 00:14:06,160
+learned so far what's the approach
+
+365
+00:14:06,390 --> 00:14:09,679
+[Music]
+
+366
+00:14:10,000 --> 00:14:14,279
+a list of numbers we're done okay
+
+367
+00:14:28,959 --> 00:14:34,320
+would you okay even if it's a array
+
+368
+00:14:31,519 --> 00:14:36,320
+containing all zeros and the length is n
+
+369
+00:14:34,320 --> 00:14:38,959
+how many sub arrays
+
+370
+00:14:36,320 --> 00:14:41,839
+how many sub arrays
+
+371
+00:14:38,959 --> 00:14:43,279
+yeah the formula is less right what we
+
+372
+00:14:41,839 --> 00:14:46,560
+have to do is
+
+373
+00:14:43,279 --> 00:14:48,480
+count zeroes in each subroute with only
+
+374
+00:14:46,560 --> 00:14:50,160
+zeros and add it up together right the
+
+375
+00:14:48,480 --> 00:14:51,920
+time to next though and stay converts to
+
+376
+00:14:50,160 --> 00:14:53,120
+be a one okay and that's it for today
+
+377
+00:14:51,920 --> 00:14:56,120
+bye-bye
+
+378
+00:14:53,120 --> 00:14:56,120
+bye-bye
+
+379
+00:14:59,519 --> 00:15:01,600
+you
+
