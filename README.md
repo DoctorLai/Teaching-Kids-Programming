@@ -667,5 +667,8 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Design and Develop an Apple Catching Game on Microbit using Python | Microbit 游戏编程之吃苹果 (Python) | [Youtube](https://youtu.be/WySLvLMEoZ0) - [B站](https://www.bilibili.com/video/BV15u411X7Xw/) - [西瓜](https://www.ixigua.com/7065824507780399623) | [Design and Develop an Apple Catching Game on Microbit using Python](https://helloacm.com/teaching-kids-programming-design-and-develop-an-apple-catching-game-on-microbit-using-python/) | 2022-02-17 |
 | Introduction to Microbit Programming in Python | Microbit 编程入门简介(Python) | [Youtube](https://youtu.be/MbpJT7c_AwM) - [B站](https://www.bilibili.com/video/BV1mi4y1f7hh/) - [西瓜](https://www.ixigua.com/7065054670393180686) | [Introduction to Microbit Programming in Python](https://helloacm.com/teaching-kids-programming-introduction-to-microbit-programming-in-python/) | 2022-02-15 |
 
+# Database & SQL 数据库
+| What is a Computer Database? A Quick Introduction | 计算机数据库是什么？给娃讲啥是数据库？ | [Youtube](https://youtu.be/ZSCSCarPHLA) - [B站](https://www.bilibili.com/video/BV12G4y167Fz/) - [西瓜](https://www.ixigua.com/7138857702708478471) | [What is a Computer Database? A Quick Introduction](https://helloacm.com/teaching-kids-programming-what-is-a-computer-database-a-quick-introduction/) | 2022-09-01 |
+
 ## Tags
 #algorithms #algorithm #math #python #pythonprogramming #programming #coding #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #learning #tutorial #computing #coding
