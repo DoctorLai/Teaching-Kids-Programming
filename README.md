@@ -671,6 +671,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
 | What is a Computer Database? A Quick Introduction | 计算机数据库是什么？给娃讲啥是数据库？ | [Youtube](https://youtu.be/ZSCSCarPHLA) - [B站](https://www.bilibili.com/video/BV12G4y167Fz/) - [西瓜](https://www.ixigua.com/7138857702708478471) | [What is a Computer Database? A Quick Introduction](https://helloacm.com/teaching-kids-programming-what-is-a-computer-database-a-quick-introduction/) | 2022-09-01 |
+| Introduction to SQL and the SELECT | 数据库SQL语言之SELECT选择 | [Youtube](https://youtu.be/BPnMvi4D_Bk) - [B站](https://www.bilibili.com/video/BV1gB4y137WQ/) - [西瓜](https://www.ixigua.com/7139920342977348128) | [Introduction to SQL and the SELECT](https://helloacm.com/teaching-kids-programming-introduction-to-sql-and-the-select/) | 2022-09-04 |
 
 ## Tags
 #algorithms #algorithm #math #python #pythonprogramming #programming #coding #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #learning #tutorial #computing #coding
