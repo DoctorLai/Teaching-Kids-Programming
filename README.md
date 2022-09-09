@@ -672,6 +672,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 |:----:|:----:|:-------:|:----:|:----:|
 | What is a Computer Database? A Quick Introduction | 计算机数据库是什么？给娃讲啥是数据库？ | [Youtube](https://youtu.be/ZSCSCarPHLA) - [B站](https://www.bilibili.com/video/BV12G4y167Fz/) - [西瓜](https://www.ixigua.com/7138857702708478471) | [What is a Computer Database? A Quick Introduction](https://helloacm.com/teaching-kids-programming-what-is-a-computer-database-a-quick-introduction/) | 2022-09-01 |
 | Introduction to SQL and the SELECT | 数据库SQL语言之SELECT选择 | [Youtube](https://youtu.be/BPnMvi4D_Bk) - [B站](https://www.bilibili.com/video/BV1gB4y137WQ/) - [西瓜](https://www.ixigua.com/7139920342977348128) | [Introduction to SQL and the SELECT](https://helloacm.com/teaching-kids-programming-introduction-to-sql-and-the-select/) | 2022-09-04 |
+| Most Common SQL keywords (Select, Update, Insert, Delete) | 数据库SQL语句: 选择、更新、插入、删除 | [Youtube](https://youtu.be/jWgTyEyqBic) - [B站](https://www.bilibili.com/video/BV1cG411V7Fi/) - [西瓜](https://www.ixigua.com/7141328927846302246) | [Most Common SQL keywords (Select, Update, Insert, Delete)](https://helloacm.com/teaching-kids-programming-most-common-sql-keywords-select-update-insert-delete/) | 2022-09-06 |
 
 ## Tags
 #algorithms #algorithm #math #python #pythonprogramming #programming #coding #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #learning #tutorial #computing #coding
