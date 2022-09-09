@@ -1,0 +1,1068 @@
+1
+00:00:00,320 --> 00:00:06,560
+hello mr mr ryan are you right yeah
+
+2
+00:00:03,520 --> 00:00:09,599
+what have we learned last lessons sql
+
+3
+00:00:06,560 --> 00:00:11,599
+what's sql structured
+
+4
+00:00:09,599 --> 00:00:13,440
+structure query language so basically
+
+5
+00:00:11,599 --> 00:00:16,160
+it's a programming language it's a
+
+6
+00:00:13,440 --> 00:00:18,880
+language that we use to interact with
+
+7
+00:00:16,160 --> 00:00:19,840
+database right database organized data
+
+8
+00:00:18,880 --> 00:00:22,320
+remember
+
+9
+00:00:19,840 --> 00:00:24,560
+in relational database
+
+10
+00:00:22,320 --> 00:00:26,320
+we use the tables right tables the
+
+11
+00:00:24,560 --> 00:00:28,560
+columns the rows
+
+12
+00:00:26,320 --> 00:00:31,359
+the columns these are metadata
+
+13
+00:00:28,560 --> 00:00:33,360
+attributes right look hit point attack
+
+14
+00:00:31,359 --> 00:00:37,200
+defense special attack special different
+
+15
+00:00:33,360 --> 00:00:38,559
+speed gender and each row pokemon right
+
+16
+00:00:37,200 --> 00:00:41,360
+and we talk about the select the
+
+17
+00:00:38,559 --> 00:00:44,079
+basically the select is to retrieve the
+
+18
+00:00:41,360 --> 00:00:45,680
+data we want to filter out some data and
+
+19
+00:00:44,079 --> 00:00:48,399
+retrieve the data from the database this
+
+20
+00:00:45,680 --> 00:00:51,200
+pokemon table could contain a minions i
+
+21
+00:00:48,399 --> 00:00:53,199
+know we're only interested in a few so
+
+22
+00:00:51,200 --> 00:00:56,559
+we we can use the synthetic
+
+23
+00:00:53,199 --> 00:00:58,960
+so that's something from pokemon a place
+
+24
+00:00:56,559 --> 00:01:01,760
+where the conditions yeah we use the
+
+25
+00:00:58,960 --> 00:01:03,280
+square statement to figure out the data
+
+26
+00:01:01,760 --> 00:01:06,000
+we want right for example we are
+
+27
+00:01:03,280 --> 00:01:09,040
+interested in the top five
+
+28
+00:01:06,000 --> 00:01:12,240
+pokemons which have the largest
+
+29
+00:01:09,040 --> 00:01:14,560
+hit point okay so we can do this select
+
+30
+00:01:12,240 --> 00:01:17,119
+name hit point from pokemon
+
+31
+00:01:14,560 --> 00:01:20,240
+where you know we can skip this
+
+32
+00:01:17,119 --> 00:01:22,000
+order by hit point but it returns all
+
+33
+00:01:20,240 --> 00:01:23,759
+the programmers sorted by hitpoint we
+
+34
+00:01:22,000 --> 00:01:26,000
+only interested in the top five for
+
+35
+00:01:23,759 --> 00:01:29,360
+example then we can use the keyword top
+
+36
+00:01:26,000 --> 00:01:31,759
+see that top five or some sql version is
+
+37
+00:01:29,360 --> 00:01:34,640
+supposed to limit like mysql
+
+38
+00:01:31,759 --> 00:01:36,960
+order by limit five it means that we're
+
+39
+00:01:34,640 --> 00:01:38,479
+only returning five okay
+
+40
+00:01:36,960 --> 00:01:39,280
+slap top
+
+41
+00:01:38,479 --> 00:01:41,600
+or
+
+42
+00:01:39,280 --> 00:01:43,840
+limit limit five
+
+43
+00:01:41,600 --> 00:01:47,040
+so we use the select to retrieve the
+
+44
+00:01:43,840 --> 00:01:49,439
+data what kind of possible operations do
+
+45
+00:01:47,040 --> 00:01:51,439
+we need to talk to you know to deal with
+
+46
+00:01:49,439 --> 00:01:54,799
+this table plus
+
+47
+00:01:51,439 --> 00:01:55,759
+plus what's plus minus yeah plus or
+
+48
+00:01:54,799 --> 00:01:58,640
+minus
+
+49
+00:01:55,759 --> 00:02:00,560
+okay yeah plus is insert
+
+50
+00:01:58,640 --> 00:02:03,520
+minus is what
+
+51
+00:02:00,560 --> 00:02:05,920
+we want to put the new data in it we
+
+52
+00:02:03,520 --> 00:02:08,959
+call it insert we want to remove the
+
+53
+00:02:05,920 --> 00:02:12,239
+data in it we call it the div okay so
+
+54
+00:02:08,959 --> 00:02:14,640
+insert and delete
+
+55
+00:02:12,239 --> 00:02:16,160
+one is missing insert delete and what's
+
+56
+00:02:14,640 --> 00:02:18,480
+the other one
+
+57
+00:02:16,160 --> 00:02:20,480
+you could possibly think of wait update
+
+58
+00:02:18,480 --> 00:02:22,400
+where then update yeah you just want to
+
+59
+00:02:20,480 --> 00:02:23,200
+update this value for example to 100
+
+60
+00:02:22,400 --> 00:02:24,800
+right
+
+61
+00:02:23,200 --> 00:02:26,959
+so these three
+
+62
+00:02:24,800 --> 00:02:28,640
+together is the select okay
+
+63
+00:02:26,959 --> 00:02:31,599
+are the four
+
+64
+00:02:28,640 --> 00:02:34,480
+most popular sql statement a database
+
+65
+00:02:31,599 --> 00:02:36,560
+could have many tables right pokemon's a
+
+66
+00:02:34,480 --> 00:02:38,720
+table fight
+
+67
+00:02:36,560 --> 00:02:43,040
+pokemon fight each other right we stole
+
+68
+00:02:38,720 --> 00:02:45,840
+those outcomes in a separate kisses
+
+69
+00:02:43,040 --> 00:02:47,360
+so we could have some table like this
+
+70
+00:02:45,840 --> 00:02:48,800
+pokemon fight
+
+71
+00:02:47,360 --> 00:02:51,360
+pokemon fight
+
+72
+00:02:48,800 --> 00:02:54,879
+we have a name of a pokemon one
+
+73
+00:02:51,360 --> 00:02:55,920
+name of the pokemon two and five results
+
+74
+00:02:54,879 --> 00:02:58,720
+okay
+
+75
+00:02:55,920 --> 00:03:00,080
+and maybe a date time so when they fight
+
+76
+00:02:58,720 --> 00:03:01,680
+before we talk about those four
+
+77
+00:03:00,080 --> 00:03:04,640
+statements we can use the create
+
+78
+00:03:01,680 --> 00:03:06,720
+database to create empty database so
+
+79
+00:03:04,640 --> 00:03:08,640
+insert insert keyword okay let's talk
+
+80
+00:03:06,720 --> 00:03:09,840
+about insert keyword so we can say
+
+81
+00:03:08,640 --> 00:03:11,680
+insert
+
+82
+00:03:09,840 --> 00:03:12,800
+into pokemon
+
+83
+00:03:11,680 --> 00:03:15,599
+right
+
+84
+00:03:12,800 --> 00:03:18,080
+the column and release the columns and
+
+85
+00:03:15,599 --> 00:03:20,080
+then values the syntax for user is
+
+86
+00:03:18,080 --> 00:03:21,360
+insert
+
+87
+00:03:20,080 --> 00:03:24,560
+into
+
+88
+00:03:21,360 --> 00:03:24,560
+table okay pokemon
+
+89
+00:03:25,120 --> 00:03:28,560
+and
+
+90
+00:03:26,319 --> 00:03:32,480
+we're going to have this hp
+
+91
+00:03:28,560 --> 00:03:35,599
+a essentially and then values
+
+92
+00:03:32,480 --> 00:03:37,040
+values hp will be a hundred a would be
+
+93
+00:03:35,599 --> 00:03:39,040
+something 90
+
+94
+00:03:37,040 --> 00:03:40,959
+okay and that would insert a new record
+
+95
+00:03:39,040 --> 00:03:43,680
+at the end another thing that would be
+
+96
+00:03:40,959 --> 00:03:48,560
+insert into set
+
+97
+00:03:43,680 --> 00:03:49,599
+hp equals 100 comma a equals 90
+
+98
+00:03:48,560 --> 00:03:50,959
+okay
+
+99
+00:03:49,599 --> 00:03:53,920
+did it
+
+100
+00:03:50,959 --> 00:03:55,680
+it's quite similar to a select
+
+101
+00:03:53,920 --> 00:03:58,319
+delete from
+
+102
+00:03:55,680 --> 00:03:59,599
+pokemon if we just say different
+
+103
+00:03:58,319 --> 00:04:00,480
+programmer and everything will be
+
+104
+00:03:59,599 --> 00:04:02,959
+removed
+
+105
+00:04:00,480 --> 00:04:06,959
+but we can add a where
+
+106
+00:04:02,959 --> 00:04:09,599
+where hp equals 91 then first of all it
+
+107
+00:04:06,959 --> 00:04:12,159
+will locate this 91 and you just remove
+
+108
+00:04:09,599 --> 00:04:13,519
+it from database delete from something
+
+109
+00:04:12,159 --> 00:04:15,120
+where condition
+
+110
+00:04:13,519 --> 00:04:16,560
+it's english
+
+111
+00:04:15,120 --> 00:04:18,959
+insert into
+
+112
+00:04:16,560 --> 00:04:21,440
+set the new record hp equals 100 a
+
+113
+00:04:18,959 --> 00:04:23,840
+equals 90. so it means the numerator
+
+114
+00:04:21,440 --> 00:04:25,759
+has the hp equals 100 a equal 90 and
+
+115
+00:04:23,840 --> 00:04:28,320
+blah blah blah okay or insert into
+
+116
+00:04:25,759 --> 00:04:31,600
+pokemon and you specify the columns and
+
+117
+00:04:28,320 --> 00:04:34,000
+values that's another syntax and update
+
+118
+00:04:31,600 --> 00:04:36,800
+can you imagine that what's update
+
+119
+00:04:34,000 --> 00:04:37,840
+so update tokens
+
+120
+00:04:36,800 --> 00:04:39,280
+right
+
+121
+00:04:37,840 --> 00:04:41,199
+set
+
+122
+00:04:39,280 --> 00:04:42,800
+i want i want to change this i want to
+
+123
+00:04:41,199 --> 00:04:45,280
+change this so
+
+124
+00:04:42,800 --> 00:04:46,960
+update performance set
+
+125
+00:04:45,280 --> 00:04:49,520
+a equals
+
+126
+00:04:46,960 --> 00:04:50,800
+for example 90
+
+127
+00:04:49,520 --> 00:04:53,040
+where
+
+128
+00:04:50,800 --> 00:04:54,639
+where okay if i don't specify where what
+
+129
+00:04:53,040 --> 00:04:57,280
+happened
+
+130
+00:04:54,639 --> 00:05:00,160
+this column will be changed
+
+131
+00:04:57,280 --> 00:05:04,960
+to all 90 right i don't want to do that
+
+132
+00:05:00,160 --> 00:05:06,479
+so update pokemon set a equals 90
+
+133
+00:05:04,960 --> 00:05:08,560
+where
+
+134
+00:05:06,479 --> 00:05:11,759
+name equals viral
+
+135
+00:05:08,560 --> 00:05:12,880
+from right now whatever okay so look at
+
+136
+00:05:11,759 --> 00:05:15,360
+this name
+
+137
+00:05:12,880 --> 00:05:18,320
+this name is a primary key primary key
+
+138
+00:05:15,360 --> 00:05:19,360
+in database is a special column which
+
+139
+00:05:18,320 --> 00:05:24,160
+unique
+
+140
+00:05:19,360 --> 00:05:26,160
+identifies a record record the name is
+
+141
+00:05:24,160 --> 00:05:28,320
+the primary key each table has a primary
+
+142
+00:05:26,160 --> 00:05:30,800
+key it's recommended to have a primary
+
+143
+00:05:28,320 --> 00:05:33,840
+key for each table like a primary key is
+
+144
+00:05:30,800 --> 00:05:36,800
+a special column in a table that
+
+145
+00:05:33,840 --> 00:05:39,120
+uniquely identifies a record right for
+
+146
+00:05:36,800 --> 00:05:43,039
+example like there's only one
+
+147
+00:05:39,120 --> 00:05:45,840
+pokemon called the villa plum right
+
+148
+00:05:43,039 --> 00:05:48,800
+okay vile vial
+
+149
+00:05:45,840 --> 00:05:51,120
+clean wire from okay you can put another
+
+150
+00:05:48,800 --> 00:05:53,360
+document called the via premiere because
+
+151
+00:05:51,120 --> 00:05:55,600
+this is the primary key
+
+152
+00:05:53,360 --> 00:05:58,240
+if we insert into pokemon
+
+153
+00:05:55,600 --> 00:06:00,639
+and then we set set name equals
+
+154
+00:05:58,240 --> 00:06:02,800
+via prompt database where we call error
+
+155
+00:06:00,639 --> 00:06:04,479
+say okay we already have a via prompt
+
+156
+00:06:02,800 --> 00:06:07,919
+here you can't
+
+157
+00:06:04,479 --> 00:06:09,600
+tell me to add another record okay
+
+158
+00:06:07,919 --> 00:06:11,759
+so let's update
+
+159
+00:06:09,600 --> 00:06:13,919
+okay if we want to remove everything we
+
+160
+00:06:11,759 --> 00:06:15,440
+can use the db from right we just say oh
+
+161
+00:06:13,919 --> 00:06:19,639
+we can use another keyword called
+
+162
+00:06:15,440 --> 00:06:19,639
+truncate let's truncate
+
+163
+00:06:20,639 --> 00:06:25,680
+truncate pokemon and then that means
+
+164
+00:06:23,199 --> 00:06:27,440
+that we remove everything but keep the
+
+165
+00:06:25,680 --> 00:06:29,600
+table structure we keep the table
+
+166
+00:06:27,440 --> 00:06:32,479
+structure we remove the content truncate
+
+167
+00:06:29,600 --> 00:06:34,720
+the token is the same as td from pokemon
+
+168
+00:06:32,479 --> 00:06:38,560
+what have we talked about today select
+
+169
+00:06:34,720 --> 00:06:41,120
+select top select limit select top
+
+170
+00:06:38,560 --> 00:06:43,440
+but we're returning the top five or top
+
+171
+00:06:41,120 --> 00:06:46,720
+we can select top 50 percent something
+
+172
+00:06:43,440 --> 00:06:49,520
+like that or we can see let limit 10
+
+173
+00:06:46,720 --> 00:06:52,319
+returning only the first 10 uh
+
+174
+00:06:49,520 --> 00:06:55,680
+performance okay insert
+
+175
+00:06:52,319 --> 00:06:58,960
+delete update another syntax insert into
+
+176
+00:06:55,680 --> 00:07:01,120
+pokemon inside into document select
+
+177
+00:06:58,960 --> 00:07:02,960
+from another table so we are selecting
+
+178
+00:07:01,120 --> 00:07:05,520
+something from another source another
+
+179
+00:07:02,960 --> 00:07:07,360
+table and then we try to import it uh to
+
+180
+00:07:05,520 --> 00:07:08,479
+try to insert it in here for example
+
+181
+00:07:07,360 --> 00:07:10,960
+like we have a
+
+182
+00:07:08,479 --> 00:07:13,759
+pokemon one is this one right
+
+183
+00:07:10,960 --> 00:07:16,160
+and then we have another pokemon too
+
+184
+00:07:13,759 --> 00:07:18,720
+we want to copy all everything here to
+
+185
+00:07:16,160 --> 00:07:21,039
+pokemon 2 so we can say
+
+186
+00:07:18,720 --> 00:07:22,880
+insert into pokemon too
+
+187
+00:07:21,039 --> 00:07:25,680
+right
+
+188
+00:07:22,880 --> 00:07:27,759
+these columns i select this column from
+
+189
+00:07:25,680 --> 00:07:29,840
+pokemon right they get it so so
+
+190
+00:07:27,759 --> 00:07:32,000
+basically we are trying to copy all the
+
+191
+00:07:29,840 --> 00:07:34,240
+records from the source from see that
+
+192
+00:07:32,000 --> 00:07:37,280
+source into another also we have a talk
+
+193
+00:07:34,240 --> 00:07:38,960
+about create database job database job
+
+194
+00:07:37,280 --> 00:07:40,080
+so we want to drop everything in a
+
+195
+00:07:38,960 --> 00:07:42,080
+database
+
+196
+00:07:40,080 --> 00:07:44,479
+a database contains many tables for
+
+197
+00:07:42,080 --> 00:07:47,199
+example like pokemon's contains uh two
+
+198
+00:07:44,479 --> 00:07:49,680
+tables program one pokemon two
+
+199
+00:07:47,199 --> 00:07:51,440
+now we want to drop database programming
+
+200
+00:07:49,680 --> 00:07:52,240
+and then pokemon one and pokemon 2 will
+
+201
+00:07:51,440 --> 00:07:53,360
+be
+
+202
+00:07:52,240 --> 00:07:55,440
+removed
+
+203
+00:07:53,360 --> 00:07:56,240
+everything will be removed okay so sum
+
+204
+00:07:55,440 --> 00:07:59,280
+up
+
+205
+00:07:56,240 --> 00:08:00,879
+how many keywords create database
+
+206
+00:07:59,280 --> 00:08:04,400
+job database
+
+207
+00:08:00,879 --> 00:08:07,520
+truncate table truncate truncate pokemon
+
+208
+00:08:04,400 --> 00:08:08,800
+it select something from somewhere where
+
+209
+00:08:07,520 --> 00:08:11,440
+condition
+
+210
+00:08:08,800 --> 00:08:12,800
+limit or select top
+
+211
+00:08:11,440 --> 00:08:15,680
+insert
+
+212
+00:08:12,800 --> 00:08:18,720
+into table columns and values inside the
+
+213
+00:08:15,680 --> 00:08:20,800
+tables column equals value 1 column 2
+
+214
+00:08:18,720 --> 00:08:21,840
+equals value 2.
+
+215
+00:08:20,800 --> 00:08:22,960
+okay
+
+216
+00:08:21,840 --> 00:08:26,000
+insert
+
+217
+00:08:22,960 --> 00:08:28,479
+into and then select did delete
+
+218
+00:08:26,000 --> 00:08:30,479
+delete from tables data from tables
+
+219
+00:08:28,479 --> 00:08:32,560
+where to remove the records from the
+
+220
+00:08:30,479 --> 00:08:34,640
+database update
+
+221
+00:08:32,560 --> 00:08:38,080
+update tables
+
+222
+00:08:34,640 --> 00:08:40,880
+set column a equals something where
+
+223
+00:08:38,080 --> 00:08:43,200
+condition we want to change specifically
+
+224
+00:08:40,880 --> 00:08:45,839
+a value or two values multiple columns
+
+225
+00:08:43,200 --> 00:08:47,920
+one question we want to update
+
+226
+00:08:45,839 --> 00:08:50,000
+all the attacks
+
+227
+00:08:47,920 --> 00:08:53,519
+we want to increment all the attacks by
+
+228
+00:08:50,000 --> 00:08:56,480
+10 we want to increase this column by 10
+
+229
+00:08:53,519 --> 00:08:58,000
+every value increased by 10. update
+
+230
+00:08:56,480 --> 00:08:59,360
+pokemons
+
+231
+00:08:58,000 --> 00:09:00,240
+set
+
+232
+00:08:59,360 --> 00:09:02,720
+a
+
+233
+00:09:00,240 --> 00:09:04,480
+equals a plus 10
+
+234
+00:09:02,720 --> 00:09:07,519
+right and that will increase everything
+
+235
+00:09:04,480 --> 00:09:11,279
+here or we can say we want to increase
+
+236
+00:09:07,519 --> 00:09:13,200
+the attack by 10 if it's lower than 100
+
+237
+00:09:11,279 --> 00:09:15,760
+right if it's lower than 100 so how do
+
+238
+00:09:13,200 --> 00:09:15,760
+we marry
+
+239
+00:09:16,720 --> 00:09:19,360
+update
+
+240
+00:09:19,839 --> 00:09:24,880
+pokemon that table
+
+241
+00:09:23,600 --> 00:09:28,399
+set
+
+242
+00:09:24,880 --> 00:09:30,800
+a equals a plus 10 where
+
+243
+00:09:28,399 --> 00:09:33,279
+a is smaller than 100 what's happening
+
+244
+00:09:30,800 --> 00:09:33,279
+after this
+
+245
+00:09:33,680 --> 00:09:36,800
+so we choose two columns which is three
+
+246
+00:09:35,839 --> 00:09:38,640
+columns
+
+247
+00:09:36,800 --> 00:09:41,040
+so here this three yeah
+
+248
+00:09:38,640 --> 00:09:43,839
+so this will be changed to 85 this will
+
+249
+00:09:41,040 --> 00:09:46,320
+change it to 90 this change to
+
+250
+00:09:43,839 --> 00:09:49,560
+92 okay that's what it is what have you
+
+251
+00:09:46,320 --> 00:09:49,560
+learned today
+
+252
+00:09:50,320 --> 00:09:55,120
+okay so what operations can we do with
+
+253
+00:09:52,959 --> 00:09:56,959
+the sql what are the keywords you
+
+254
+00:09:55,120 --> 00:10:00,160
+learned today update
+
+255
+00:09:56,959 --> 00:10:02,080
+update and delete delete
+
+256
+00:10:00,160 --> 00:10:05,120
+insert
+
+257
+00:10:02,080 --> 00:10:05,120
+select select
+
+258
+00:10:17,200 --> 00:10:21,519
+shirt from closet where clean equals one
+
+259
+00:10:19,760 --> 00:10:24,160
+and color you construct
+
+260
+00:10:21,519 --> 00:10:26,959
+yeah select something from somewhere
+
+261
+00:10:24,160 --> 00:10:29,360
+where conditions claim equals one means
+
+262
+00:10:26,959 --> 00:10:31,920
+it's green grain equals zero not cream
+
+263
+00:10:29,360 --> 00:10:34,000
+dirty and color equals black so we
+
+264
+00:10:31,920 --> 00:10:36,720
+probably have to give a black this is
+
+265
+00:10:34,000 --> 00:10:38,560
+the constant string yeah okay that's it
+
+266
+00:10:36,720 --> 00:10:41,560
+for today bye-bye
+
+267
+00:10:38,560 --> 00:10:41,560
+bye-bye
+
