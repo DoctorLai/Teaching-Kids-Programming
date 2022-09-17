@@ -1,7 +1,8 @@
 
-## Teaching Wife Programming in Chinese
-教小白媳妇编程，比教娃有难度. 不定期更新，对应教娃视频。
+## Teaching Wife Programming / EXCEL in Chinese
+教小白媳妇编程 & 教媳妇小白 EXCEL
 - [所有教妻子编程视频](https://zhihua-lai.com/teaching/ch/?cat=wife)
+- [所有教妻子EXCEL视频](https://zhihua-lai.com/teaching/ch/?cat=excel)
 - [按天排序 Sort by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)
 - [主目录 Index](https://github.com/DoctorLai/Teaching-Kids-Programming)
 
@@ -48,3 +49,15 @@
 | Variables and For Loop in Python | 第3课 教媳妇编程: 3分钟讲Python的变量和For循环 | [Youtube](https://youtu.be/iWC1h9UqtJc) - [B站](https://www.bilibili.com/video/BV1Fg411w77q/)  - [西瓜](https://www.ixigua.com/7040499001002557959) |  -  | 2021-09-26 |
 | From Linear Search to Binary Search | 第2课 教媳妇编程: 从暴力搜索(线性搜索)到二分查找算法 | [Youtube](https://youtu.be/pvOW-ZraGFw) - [B站](https://www.bilibili.com/video/BV1734y1D7Zf/)  - [西瓜](https://www.ixigua.com/7040509882163954184) | [From Linear Search to Binary Search](https://helloacm.com/teaching-kids-programming-from-linear-search-to-binary-search-algorithm/) | 2021-09-22 |
 | Recursion in Five Minutes | 第1课 教媳妇编程: 5分钟讲递归 | [Youtube](https://youtu.be/ZuEf7dyjL3k) - [B站](https://www.bilibili.com/video/BV1EQ4y1k7TV/)  - [西瓜](https://www.ixigua.com/7040512865710637575) | [Recursion in Five Minutes](https://helloacm.com/teaching-kids-programming-recursion-in-five-minutes/) | 2021-09-20 |
+
+
+## Teaching Wife EXCEL in Chinese
+教媳妇小白 EXCEL
+- [所有教妻子EXCEL视频](https://zhihua-lai.com/teaching/ch/?cat=excel)
+- [按天排序 Sort by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)
+- [主目录 Index](https://github.com/DoctorLai/Teaching-Kids-Programming)
+
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Excel: Two Dimensional Table Lookup via Index and Match Function | 教媳妇 EXCEL - 用INDEX和MATCH函数来实现二维表格查找 | [Youtube](https://youtu.be/XH6JulWjDe8) - [B站](https://www.bilibili.com/video/BV1EB4y1n7XW/)  - [西瓜](https://www.ixigua.com/7143018287797010982) |  -  | 2022-09-11 |
+| The vlookup, hlookup and xlookup functions in Excel | 教媳妇 EXCEL - 十分钟学会 vlookup, hlookup 和 xlookup | [Youtube](https://youtu.be/cAk_pw4T6sM) - [B站](https://www.bilibili.com/video/BV1Dt4y1L7ap)  - [西瓜](https://www.ixigua.com/7141397633876099622) |  -  | 2022-09-08 |
