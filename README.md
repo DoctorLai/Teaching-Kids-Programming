@@ -36,10 +36,15 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 教小白媳妇编程，比教娃有难度. 不定期更新，对应教娃视频。
 - [列表](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
+## Data Format 数据格式
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| Introduction to XML Data Format | XML数据格式简介 | [Youtube](https://youtu.be/sZNGQeO6TOc) - [B站](https://www.bilibili.com/video/BV1hT411K7xT/) - [西瓜](https://www.ixigua.com/7150671318306783755) | [Introduction to XML Data Format](https://helloacm.com/teaching-kids-programming-introduction-to-xml-data-format/) | 2022-10-01 |
+| What is JSON? Simply Explained | JSON简介 | [Youtube](https://youtu.be/-JU96_A1-v4) - [B站](https://www.bilibili.com/video/BV1SB4y1J7x5/) - [西瓜](https://www.ixigua.com/7147255376436527649) | [What is JSON? Simply Explained](https://helloacm.com/teaching-kids-programming-what-is-json-simply-explained/) | 2022-09-23 |
+
 ## Programming Fundamentals 基础知识
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
-| What is JSON? Simply Explained | JSON简介 | [Youtube](https://youtu.be/-JU96_A1-v4) - [B站](https://www.bilibili.com/video/BV1SB4y1J7x5/) - [西瓜](https://www.ixigua.com/7147255376436527649) | [What is JSON? Simply Explained](https://helloacm.com/teaching-kids-programming-what-is-json-simply-explained/) | 2022-09-23 |
 | Pass by Values, References or Object-References in Python | Python中传递值、引用或对象引用 | [Youtube](https://youtu.be/PeCJ48BbibI) - [B站](https://www.bilibili.com/video/BV1Ci4y1k7Fe/) - [西瓜](https://www.ixigua.com/7078574301171057159) | [Pass by Values, References or Object-References in Python](https://helloacm.com/teaching-kids-programming-pass-by-values-references-or-object-references-in-python/) | 2022-03-23 |
 | Kadane's Algorithm to Compute Maximum Subarray Sum (Math) | Kadane 算法计算最大子数组之和 | [Youtube](https://www.youtube.com/watch?v=_uw5OQ22wP0) - [B站](https://www.bilibili.com/video/BV1Zf4y1u7Sv/) - [西瓜](https://www.ixigua.com/7019043922731074084) | [Kadane's Algorithm to Compute Maximum Subarray Sum (Math)](https://helloacm.com/teaching-kids-programming-max-subarray-sum-by-kadanes-algorithm/) | 2021-10-14 |
 | First Number Equal or Larger Than Target using Next Function | 用next方法找出数组中大于等于目标的第一个数(Python 入门) | [Youtube](https://youtu.be/CwUz9y6VLaY) - [B站](https://www.bilibili.com/video/BV1b34y1U7u6/) - [西瓜](https://www.ixigua.com/7016813978093519367) | [First Number Equal or Larger Than Target using Next Function](https://helloacm.com/teaching-kids-programming-first-number-equal-or-larger-than-target-using-next-function/) | 2021-10-08 |
