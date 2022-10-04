@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 525 (2022-10-01): [Introduction to XML Data Format](https://helloacm.com/teaching-kids-programming-introduction-to-xml-data-format/) XML数据格式简介 [Youtube](https://youtu.be/sZNGQeO6TOc) - [B站](https://www.bilibili.com/video/BV1hT411K7xT/)  - [西瓜](https://www.ixigua.com/7150671318306783755) 
 - Day 524 (2022-09-28): [Count Days Spent Together (Intersection of Two Intervals + Line Sweep Algorithm)](https://helloacm.com/teaching-kids-programming-count-days-spent-together-intersection-of-two-intervals-line-sweep-algorithm/) 计算一起度过的天数(两个区间的交集+线扫描算法) [Youtube](https://youtu.be/g5Ql1nHiQb4) - [B站](https://www.bilibili.com/video/BV1re4y1B7SZ/)  - [西瓜](https://www.ixigua.com/7149833449384346145) 
 - Day 523 (2022-09-25): [Concatenation of Consecutive Binary Numbers](https://helloacm.com/teaching-kids-programming-concatenation-of-consecutive-binary-numbers/) 计算连续二进制数的串联的值 [Youtube](https://youtu.be/4gLDKpDwAuw) - [B站](https://www.bilibili.com/video/BV1zG411J7AZ/)  - [西瓜](https://www.ixigua.com/7148594308906648103) 
 - Day 522 (2022-09-23): [What is JSON? Simply Explained](https://helloacm.com/teaching-kids-programming-what-is-json-simply-explained/) JSON简介 [Youtube](https://youtu.be/-JU96_A1-v4) - [B站](https://www.bilibili.com/video/BV1SB4y1J7x5/)  - [西瓜](https://www.ixigua.com/7147255376436527649) 
