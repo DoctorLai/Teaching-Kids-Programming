@@ -1,0 +1,1808 @@
+1
+00:00:00,000 --> 00:00:06,180
+hello okay hello Mysterio right
+
+2
+00:00:04,620 --> 00:00:09,000
+yeah today we're going to look at this
+
+3
+00:00:06,180 --> 00:00:12,240
+uh cloud and safe from
+
+4
+00:00:09,000 --> 00:00:15,000
+cow and say
+
+5
+00:00:12,240 --> 00:00:18,420
+so let's start with the first number one
+
+6
+00:00:15,000 --> 00:00:21,060
+right so when n equals one when given is
+
+7
+00:00:18,420 --> 00:00:23,580
+the integer n we need to say is one
+
+8
+00:00:21,060 --> 00:00:25,320
+right that's the base cases so how do
+
+9
+00:00:23,580 --> 00:00:27,840
+you say well how do you count and how
+
+10
+00:00:25,320 --> 00:00:33,300
+many ones are there in this one
+
+11
+00:00:27,840 --> 00:00:38,340
+uh one so it's one one okay so one one
+
+12
+00:00:33,300 --> 00:00:42,239
+10 into 1 1. so how do you say this
+
+13
+00:00:38,340 --> 00:00:46,260
+no cow then say how many ones
+
+14
+00:00:42,239 --> 00:00:50,160
+two ones so two ones
+
+15
+00:00:46,260 --> 00:00:52,200
+all right so it becomes two one click so
+
+16
+00:00:50,160 --> 00:00:54,120
+how do you come and say this one like
+
+17
+00:00:52,200 --> 00:00:57,059
+that one two one more
+
+18
+00:00:54,120 --> 00:01:00,719
+well done so one two
+
+19
+00:00:57,059 --> 00:01:03,600
+one one so it becomes one two
+
+20
+00:01:00,719 --> 00:01:06,780
+one one okay and how do you say this
+
+21
+00:01:03,600 --> 00:01:09,240
+three one one two uh okay that's a good
+
+22
+00:01:06,780 --> 00:01:11,400
+point so you count and say from the left
+
+23
+00:01:09,240 --> 00:01:12,420
+so you're not merging them together it's
+
+24
+00:01:11,400 --> 00:01:16,020
+one one
+
+25
+00:01:12,420 --> 00:01:17,880
+two two one okay
+
+26
+00:01:16,020 --> 00:01:25,680
+so one one
+
+27
+00:01:17,880 --> 00:01:28,439
+two two one that becomes one one one two
+
+28
+00:01:25,680 --> 00:01:32,520
+two one okay
+
+29
+00:01:28,439 --> 00:01:35,400
+so that's n equals two n equals three n
+
+30
+00:01:32,520 --> 00:01:37,920
+equals four n equals five
+
+31
+00:01:35,400 --> 00:01:40,200
+for example if you want to solved n
+
+32
+00:01:37,920 --> 00:01:42,960
+equals 5 so what information do we need
+
+33
+00:01:40,200 --> 00:01:45,720
+to get before we solving n equals 5. so
+
+34
+00:01:42,960 --> 00:01:47,220
+before we get this this string right we
+
+35
+00:01:45,720 --> 00:01:49,200
+need to return a string before we return
+
+36
+00:01:47,220 --> 00:01:53,299
+this we need to attend what kind of
+
+37
+00:01:49,200 --> 00:01:53,299
+information how do we get this number
+
+38
+00:01:59,460 --> 00:02:04,740
+n equals 4 what do we need to do
+
+39
+00:02:02,520 --> 00:02:06,479
+a nickel three exactly and then coming
+
+40
+00:02:04,740 --> 00:02:09,179
+back to n equals one so what kind of
+
+41
+00:02:06,479 --> 00:02:11,220
+algorithm coming to your mind like FN
+
+42
+00:02:09,179 --> 00:02:13,980
+let's say F1 Returns the answer we need
+
+43
+00:02:11,220 --> 00:02:17,280
+to get this F at minus one and then f n
+
+44
+00:02:13,980 --> 00:02:20,099
+minus 2 and f i minus 3 and here F1
+
+45
+00:02:17,280 --> 00:02:22,620
+which is we already know is one right so
+
+46
+00:02:20,099 --> 00:02:25,920
+what kind of Agron is this
+
+47
+00:02:22,620 --> 00:02:29,459
+FN we need to call FNL minus one to get
+
+48
+00:02:25,920 --> 00:02:31,739
+the answer what is this in general if we
+
+49
+00:02:29,459 --> 00:02:34,680
+have a function FN and then we need to
+
+50
+00:02:31,739 --> 00:02:36,540
+call the FN minus one and in f n minus
+
+51
+00:02:34,680 --> 00:02:38,400
+one it needs to call F and minus two so
+
+52
+00:02:36,540 --> 00:02:41,400
+what is this the one with stars are
+
+53
+00:02:38,400 --> 00:02:43,160
+calling is what do you call it
+
+54
+00:02:41,400 --> 00:02:46,319
+recursion yes
+
+55
+00:02:43,160 --> 00:02:48,599
+thank you Ryan okay
+
+56
+00:02:46,319 --> 00:02:51,180
+done okay so
+
+57
+00:02:48,599 --> 00:02:53,879
+Supply application on it right so the
+
+58
+00:02:51,180 --> 00:02:56,220
+the thing is that we need to count and
+
+59
+00:02:53,879 --> 00:02:58,800
+say for example like that so we need to
+
+60
+00:02:56,220 --> 00:03:00,959
+count how many ones look how many ones
+
+61
+00:02:58,800 --> 00:03:02,640
+are we and how many tools are we so we
+
+62
+00:03:00,959 --> 00:03:04,680
+can use a function called Rule but we
+
+63
+00:03:02,640 --> 00:03:06,420
+talk about that right Global E2 is
+
+64
+00:03:04,680 --> 00:03:09,900
+called glue back so first of all let's
+
+65
+00:03:06,420 --> 00:03:12,540
+start with f Define FN so for any
+
+66
+00:03:09,900 --> 00:03:15,180
+recursion we need to define the base
+
+67
+00:03:12,540 --> 00:03:17,220
+case right so we have to tell it's a
+
+68
+00:03:15,180 --> 00:03:19,860
+computer at some point how do we solve
+
+69
+00:03:17,220 --> 00:03:21,900
+the very basic problem last Fibonacci
+
+70
+00:03:19,860 --> 00:03:23,400
+number F1 equals one right if we don't
+
+71
+00:03:21,900 --> 00:03:26,159
+have the computer
+
+72
+00:03:23,400 --> 00:03:28,440
+F1 equals what if we just say Okay FN
+
+73
+00:03:26,159 --> 00:03:30,239
+equals f n minus 1 plus f n minus so
+
+74
+00:03:28,440 --> 00:03:32,519
+what happened the computer with because
+
+75
+00:03:30,239 --> 00:03:35,760
+we're calling itself but it doesn't know
+
+76
+00:03:32,519 --> 00:03:37,680
+how to solve the very basic case
+
+77
+00:03:35,760 --> 00:03:40,920
+so the problem with the curse itself
+
+78
+00:03:37,680 --> 00:03:44,459
+into minus infinity which means the
+
+79
+00:03:40,920 --> 00:03:47,879
+problem never gets solved so if and
+
+80
+00:03:44,459 --> 00:03:50,760
+equal equal one return
+
+81
+00:03:47,879 --> 00:03:52,620
+one okay now this is the base case so we
+
+82
+00:03:50,760 --> 00:03:54,720
+are telling computer okay when in n
+
+83
+00:03:52,620 --> 00:03:56,879
+equals one we don't need to recurse
+
+84
+00:03:54,720 --> 00:03:59,640
+anymore we know the answer which is one
+
+85
+00:03:56,879 --> 00:04:04,200
+okay otherwise
+
+86
+00:03:59,640 --> 00:04:09,900
+we put this answer into a list okay
+
+87
+00:04:04,200 --> 00:04:13,319
+and four i j in Theta towards the group
+
+88
+00:04:09,900 --> 00:04:15,659
+by previous answer is a so a equals F
+
+89
+00:04:13,319 --> 00:04:17,459
+and minus one here look this is
+
+90
+00:04:15,659 --> 00:04:19,919
+recursion calling the previous number
+
+91
+00:04:17,459 --> 00:04:21,419
+right because you said you want to solve
+
+92
+00:04:19,919 --> 00:04:23,520
+FL
+
+93
+00:04:21,419 --> 00:04:24,419
+the previous answer is f n minus one
+
+94
+00:04:23,520 --> 00:04:26,820
+look
+
+95
+00:04:24,419 --> 00:04:29,639
+so we need to go out for a equals one
+
+96
+00:04:26,820 --> 00:04:31,440
+one one one two one okay so we need to
+
+97
+00:04:29,639 --> 00:04:34,680
+go by this answer this is the previous
+
+98
+00:04:31,440 --> 00:04:36,419
+result so we grew by this we grew by
+
+99
+00:04:34,680 --> 00:04:39,240
+using the group by function and then you
+
+100
+00:04:36,419 --> 00:04:43,280
+Group by continuously groups so that's
+
+101
+00:04:39,240 --> 00:04:47,100
+two one so you return a key and a group
+
+102
+00:04:43,280 --> 00:04:52,680
+points to the group two and here is the
+
+103
+00:04:47,100 --> 00:04:56,280
+two two and here's one one okay I
+
+104
+00:04:52,680 --> 00:04:58,320
+will be the keys J will be the iterator
+
+105
+00:04:56,280 --> 00:05:00,300
+so we need to convert this iterator to a
+
+106
+00:04:58,320 --> 00:05:03,780
+list and then get the lens get the lens
+
+107
+00:05:00,300 --> 00:05:05,880
+uh let's one one okay answer the append
+
+108
+00:05:03,780 --> 00:05:08,460
+first of all we want to append the count
+
+109
+00:05:05,880 --> 00:05:10,860
+how many of them which is here right so
+
+110
+00:05:08,460 --> 00:05:14,580
+how many of them is first of all we
+
+111
+00:05:10,860 --> 00:05:20,400
+convert to at least let's do this and
+
+112
+00:05:14,580 --> 00:05:20,400
+then we get a length right
+
+113
+00:05:26,699 --> 00:05:32,759
+okay or we can merge these here I answer
+
+114
+00:05:30,419 --> 00:05:34,680
+the pen star somebody to at least
+
+115
+00:05:32,759 --> 00:05:38,039
+converting or getting the lens
+
+116
+00:05:34,680 --> 00:05:40,620
+converting a string plus the I and then
+
+117
+00:05:38,039 --> 00:05:42,180
+return
+
+118
+00:05:40,620 --> 00:05:44,759
+this answer is the least how do we
+
+119
+00:05:42,180 --> 00:05:47,639
+convert this to a string which function
+
+120
+00:05:44,759 --> 00:05:50,759
+we're using join where that so we joined
+
+121
+00:05:47,639 --> 00:05:53,340
+by empty string join answer and now beat
+
+122
+00:05:50,759 --> 00:05:55,919
+right we don't need to put a cache here
+
+123
+00:05:53,340 --> 00:05:58,740
+right why is that the cash is optional
+
+124
+00:05:55,919 --> 00:06:03,240
+right because FN only depends on f n
+
+125
+00:05:58,740 --> 00:06:05,400
+minus one so FN for example f n any FN
+
+126
+00:06:03,240 --> 00:06:08,100
+is only used once
+
+127
+00:06:05,400 --> 00:06:10,259
+makes sense that F3
+
+128
+00:06:08,100 --> 00:06:13,020
+in order to calculate F3 we need to know
+
+129
+00:06:10,259 --> 00:06:14,160
+F2 in order to know F2 we need to call
+
+130
+00:06:13,020 --> 00:06:16,560
+F1
+
+131
+00:06:14,160 --> 00:06:18,000
+line F1 we know this answer is one and
+
+132
+00:06:16,560 --> 00:06:21,900
+we come back right we're going back
+
+133
+00:06:18,000 --> 00:06:23,780
+right back so any FM we only use once so
+
+134
+00:06:21,900 --> 00:06:25,860
+we don't need to put a question
+
+135
+00:06:23,780 --> 00:06:32,940
+Fibonacci number we need to put the cash
+
+136
+00:06:25,860 --> 00:06:36,600
+why look F4 equals F3 plus F2 right F3
+
+137
+00:06:32,940 --> 00:06:39,600
+equals F2 plus F1 so do you see why do
+
+138
+00:06:36,600 --> 00:06:40,560
+we need to put a cash yeah F2 here F2
+
+139
+00:06:39,600 --> 00:06:42,960
+here
+
+140
+00:06:40,560 --> 00:06:44,639
+right so it means that we need to put a
+
+141
+00:06:42,960 --> 00:06:46,680
+cache otherwise F2 might be calculated
+
+142
+00:06:44,639 --> 00:06:48,600
+over and over again all right but here
+
+143
+00:06:46,680 --> 00:06:50,520
+look it's just single branch
+
+144
+00:06:48,600 --> 00:06:51,620
+S2 only calculate ones so we don't need
+
+145
+00:06:50,520 --> 00:06:54,419
+to pull the cash
+
+146
+00:06:51,620 --> 00:06:57,300
+the key thing today take away here is
+
+147
+00:06:54,419 --> 00:07:01,740
+goodbye yeah goodbye what does goodbye
+
+148
+00:06:57,300 --> 00:07:05,520
+to give us 1 1 2 2 3 3. if you go by
+
+149
+00:07:01,740 --> 00:07:09,120
+this then you tell us one which is a
+
+150
+00:07:05,520 --> 00:07:11,940
+group of one one right two
+
+151
+00:07:09,120 --> 00:07:13,520
+all string only two two
+
+152
+00:07:11,940 --> 00:07:15,300
+and three
+
+153
+00:07:13,520 --> 00:07:15,860
+three
+
+154
+00:07:15,300 --> 00:07:18,360
+three
+
+155
+00:07:15,860 --> 00:07:20,759
+we can implement the group by ourselves
+
+156
+00:07:18,360 --> 00:07:23,880
+but this is the very convenient method
+
+157
+00:07:20,759 --> 00:07:28,139
+one two three so the keys will be the
+
+158
+00:07:23,880 --> 00:07:29,880
+unique element in that group continuous
+
+159
+00:07:28,139 --> 00:07:31,979
+and the values
+
+160
+00:07:29,880 --> 00:07:33,419
+will be an iterator
+
+161
+00:07:31,979 --> 00:07:36,419
+iterator
+
+162
+00:07:33,419 --> 00:07:39,060
+to let at your group okay
+
+163
+00:07:36,419 --> 00:07:40,979
+okay please tell this uh group to
+
+164
+00:07:39,060 --> 00:07:43,319
+convert to a list and now we get the
+
+165
+00:07:40,979 --> 00:07:44,580
+length so we know how many we this is
+
+166
+00:07:43,319 --> 00:07:48,060
+the part of count
+
+167
+00:07:44,580 --> 00:07:49,979
+and say count and say the element is
+
+168
+00:07:48,060 --> 00:07:52,319
+this yeah the element is the group in
+
+169
+00:07:49,979 --> 00:07:56,639
+that okay I know we do cursively calling
+
+170
+00:07:52,319 --> 00:07:59,400
+the previous one until we got a F1 okay
+
+171
+00:07:56,639 --> 00:08:04,319
+okay what have you done today so the
+
+172
+00:07:59,400 --> 00:08:05,940
+countdown today is like you basically
+
+173
+00:08:04,319 --> 00:08:10,319
+saying like
+
+174
+00:08:05,940 --> 00:08:13,740
+like when the num the number and
+
+175
+00:08:10,319 --> 00:08:17,460
+the num the number and how many of the
+
+176
+00:08:13,740 --> 00:08:22,440
+numbers so like for example one one one
+
+177
+00:08:17,460 --> 00:08:25,979
+two two one there's three ones
+
+178
+00:08:22,440 --> 00:08:28,979
+um so and two twos
+
+179
+00:08:25,979 --> 00:08:34,320
+and then one one hmm
+
+180
+00:08:28,979 --> 00:08:36,300
+it says to be three one two two
+
+181
+00:08:34,320 --> 00:08:39,719
+what kind of eggplant can we use to
+
+182
+00:08:36,300 --> 00:08:41,880
+apply to solve this one really buy and
+
+183
+00:08:39,719 --> 00:08:44,399
+what's the algorithm called
+
+184
+00:08:41,880 --> 00:08:46,800
+solving a smaller size a problem and
+
+185
+00:08:44,399 --> 00:08:48,720
+then what's that recursion recursion
+
+186
+00:08:46,800 --> 00:08:51,060
+yeah the cursing basically we saw this
+
+187
+00:08:48,720 --> 00:08:53,040
+smaller size here all right look a
+
+188
+00:08:51,060 --> 00:08:55,080
+equals F of minus one so because we need
+
+189
+00:08:53,040 --> 00:08:58,140
+the F and minus 1 results to call and
+
+190
+00:08:55,080 --> 00:09:01,140
+say it and these F minus one because if
+
+191
+00:08:58,140 --> 00:09:04,019
+we call in F A minus two f n minus three
+
+192
+00:09:01,140 --> 00:09:06,180
+until we reach F1 right okay suppose we
+
+193
+00:09:04,019 --> 00:09:07,680
+are given this n is positive okay if we
+
+194
+00:09:06,180 --> 00:09:10,800
+give at least negative number it doesn't
+
+195
+00:09:07,680 --> 00:09:13,260
+make any sense so we can just say we can
+
+196
+00:09:10,800 --> 00:09:14,940
+put here if and smaller equal than zero
+
+197
+00:09:13,260 --> 00:09:18,420
+then we tend nothing okay just return
+
+198
+00:09:14,940 --> 00:09:22,019
+nothing just to avoid this uh functions
+
+199
+00:09:18,420 --> 00:09:24,959
+those errors all right yeah look if we
+
+200
+00:09:22,019 --> 00:09:26,160
+don't have this if we call it f minus
+
+201
+00:09:24,959 --> 00:09:28,680
+two what happened
+
+202
+00:09:26,160 --> 00:09:32,399
+if we don't uh tell the computer to
+
+203
+00:09:28,680 --> 00:09:34,560
+check the N if it's negative f minus two
+
+204
+00:09:32,399 --> 00:09:35,519
+all right now you will call F and minus
+
+205
+00:09:34,560 --> 00:09:38,760
+three right
+
+206
+00:09:35,519 --> 00:09:41,220
+FN minus 3 calling f n minus 12 minus 12
+
+207
+00:09:38,760 --> 00:09:43,740
+minus 5 minus six minus 7 minus infinity
+
+208
+00:09:41,220 --> 00:09:46,320
+because the the computer coding is
+
+209
+00:09:43,740 --> 00:09:48,060
+without solving any kind of problem so
+
+210
+00:09:46,320 --> 00:09:50,940
+that's why the N needs to be positive
+
+211
+00:09:48,060 --> 00:09:53,040
+another way we can just put a sub
+
+212
+00:09:50,940 --> 00:09:55,440
+I said here we just make this double
+
+213
+00:09:53,040 --> 00:09:57,300
+check L is bigger than or equal than one
+
+214
+00:09:55,440 --> 00:10:00,360
+okay a third and bigger and equal to one
+
+215
+00:09:57,300 --> 00:10:03,839
+the complexity this is a bit complicated
+
+216
+00:10:00,360 --> 00:10:05,459
+this is all uh 4 to the power of n
+
+217
+00:10:03,839 --> 00:10:08,399
+divided by three okay we are not going
+
+218
+00:10:05,459 --> 00:10:13,080
+to details today here because it's uh
+
+219
+00:10:08,399 --> 00:10:17,459
+too complicated so S S Plus T equals FS
+
+220
+00:10:13,080 --> 00:10:19,920
+plus ft if the last digit of s is not
+
+221
+00:10:17,459 --> 00:10:22,980
+the same as the first digit of T makes
+
+222
+00:10:19,920 --> 00:10:26,880
+sense right so look f
+
+223
+00:10:22,980 --> 00:10:29,700
+one two three plus okay
+
+224
+00:10:26,880 --> 00:10:31,620
+four five six right you count and say
+
+225
+00:10:29,700 --> 00:10:34,500
+this one two three four five six it's
+
+226
+00:10:31,620 --> 00:10:36,420
+the same as f one two three call and say
+
+227
+00:10:34,500 --> 00:10:39,060
+one two three plus F four five six one
+
+228
+00:10:36,420 --> 00:10:41,220
+easier easy to understand right if the
+
+229
+00:10:39,060 --> 00:10:44,700
+last digit of s is not the same as the
+
+230
+00:10:41,220 --> 00:10:46,620
+first digit of t make sense yeah so from
+
+231
+00:10:44,700 --> 00:10:48,060
+that point we'll be able to understand a
+
+232
+00:10:46,620 --> 00:10:50,279
+little bit more up on the term and space
+
+233
+00:10:48,060 --> 00:10:52,519
+complexity okay that's it for today bye
+
+234
+00:10:50,279 --> 00:10:52,519
+bye
+
+235
+00:10:53,160 --> 00:10:59,399
+nice hello Mr Ryan all right
+
+236
+00:10:57,360 --> 00:11:04,079
+So today we're going to look at these
+
+237
+00:10:59,399 --> 00:11:06,779
+numbers when n equals one
+
+238
+00:11:04,079 --> 00:11:09,959
+we set one right okay so how would you
+
+239
+00:11:06,779 --> 00:11:12,060
+say one how many ones one okay so it's
+
+240
+00:11:09,959 --> 00:11:16,019
+one
+
+241
+00:11:12,060 --> 00:11:17,880
+one okay so we turn that into one one
+
+242
+00:11:16,019 --> 00:11:20,640
+says
+
+243
+00:11:17,880 --> 00:11:25,680
+so that's n equals to how do you say
+
+244
+00:11:20,640 --> 00:11:27,600
+this how do you say this T1 two ones two
+
+245
+00:11:25,680 --> 00:11:29,279
+once
+
+246
+00:11:27,600 --> 00:11:31,860
+to one right
+
+247
+00:11:29,279 --> 00:11:34,800
+how do you say this you count and say
+
+248
+00:11:31,860 --> 00:11:41,040
+how many twos one two one two one one
+
+249
+00:11:34,800 --> 00:11:43,320
+right so one two one one so that becomes
+
+250
+00:11:41,040 --> 00:11:46,980
+one two one one
+
+251
+00:11:43,320 --> 00:11:49,680
+and equals four okay n equals five
+
+252
+00:11:46,980 --> 00:11:51,680
+so how do you call and say this one
+
+253
+00:11:49,680 --> 00:11:56,820
+one one
+
+254
+00:11:51,680 --> 00:11:58,459
+two two one yeah one one one two one one
+
+255
+00:11:56,820 --> 00:12:03,300
+one one two
+
+256
+00:11:58,459 --> 00:12:05,700
+and two ones one one one one two two one
+
+257
+00:12:03,300 --> 00:12:07,019
+right and then these keep going right so
+
+258
+00:12:05,700 --> 00:12:09,540
+given n
+
+259
+00:12:07,019 --> 00:12:12,019
+we need to return the string on the
+
+260
+00:12:09,540 --> 00:12:12,019
+right hand side
+
+261
+00:12:12,620 --> 00:12:18,000
+yes what's groova so basically we need
+
+262
+00:12:15,540 --> 00:12:20,820
+to grow by the numbers and then count
+
+263
+00:12:18,000 --> 00:12:22,980
+all right yeah we want to find out n
+
+264
+00:12:20,820 --> 00:12:25,440
+equals five so what's the result depend
+
+265
+00:12:22,980 --> 00:12:27,240
+on so before we figure out what's the
+
+266
+00:12:25,440 --> 00:12:29,480
+answer of n equals five what do we need
+
+267
+00:12:27,240 --> 00:12:29,480
+to get
+
+268
+00:12:29,940 --> 00:12:32,940
+right
+
+269
+00:12:39,560 --> 00:12:45,779
+it depends on n equals to so what kind
+
+270
+00:12:42,720 --> 00:12:48,600
+of algorithm coming to your mind uh FN
+
+271
+00:12:45,779 --> 00:12:50,760
+right we need to find out f n minus one
+
+272
+00:12:48,600 --> 00:12:52,800
+and then we need to find out F and minus
+
+273
+00:12:50,760 --> 00:12:55,500
+two so what's this
+
+274
+00:12:52,800 --> 00:12:57,720
+we want to find out FN and then FN
+
+275
+00:12:55,500 --> 00:13:00,120
+depends on f n minus one f n minus 20
+
+276
+00:12:57,720 --> 00:13:02,519
+times F minus two so what kind of the
+
+277
+00:13:00,120 --> 00:13:06,660
+equivalent can we apply here we want to
+
+278
+00:13:02,519 --> 00:13:09,240
+find out FN and then FN minus 1 f n
+
+279
+00:13:06,660 --> 00:13:13,019
+minus two so what's this until we reach
+
+280
+00:13:09,240 --> 00:13:16,339
+FN which we need to know is one because
+
+281
+00:13:13,019 --> 00:13:19,079
+you're calling itself yes because
+
+282
+00:13:16,339 --> 00:13:21,480
+I forgot how to say it right okay
+
+283
+00:13:19,079 --> 00:13:24,300
+location okay so we can use that
+
+284
+00:13:21,480 --> 00:13:26,459
+recursion right so the thing is that we
+
+285
+00:13:24,300 --> 00:13:28,980
+get this from the F and minus one and
+
+286
+00:13:26,459 --> 00:13:33,240
+then we count and save from the FN minus
+
+287
+00:13:28,980 --> 00:13:35,940
+one right so Define f and
+
+288
+00:13:33,240 --> 00:13:38,100
+is n equal equal one this is the base
+
+289
+00:13:35,940 --> 00:13:40,800
+case Louis 10
+
+290
+00:13:38,100 --> 00:13:43,019
+one right this is the base case right
+
+291
+00:13:40,800 --> 00:13:45,480
+when n equals one will return one single
+
+292
+00:13:43,019 --> 00:13:48,240
+one this is a string now we get the
+
+293
+00:13:45,480 --> 00:13:51,300
+previous which is f and minus one right
+
+294
+00:13:48,240 --> 00:13:53,040
+this is how we recursively solve the
+
+295
+00:13:51,300 --> 00:13:56,880
+problem with n minus one smallest
+
+296
+00:13:53,040 --> 00:13:59,160
+problem so when we have this a right so
+
+297
+00:13:56,880 --> 00:14:02,040
+we need to call it for example
+
+298
+00:13:59,160 --> 00:14:04,320
+one two x this is if a is going to then
+
+299
+00:14:02,040 --> 00:14:06,899
+we need to count this string right all
+
+300
+00:14:04,320 --> 00:14:09,660
+right so how do we call it the idea is
+
+301
+00:14:06,899 --> 00:14:11,399
+to group by right we can Implement a
+
+302
+00:14:09,660 --> 00:14:14,100
+group by ourselves but we have this Glue
+
+303
+00:14:11,399 --> 00:14:17,519
+by function so we Group by the same
+
+304
+00:14:14,100 --> 00:14:20,820
+for example like that the same digit so
+
+305
+00:14:17,519 --> 00:14:23,760
+Group by this right so once we Group by
+
+306
+00:14:20,820 --> 00:14:25,019
+we know how many two one there are one
+
+307
+00:14:23,760 --> 00:14:26,040
+there are two ones and there's three
+
+308
+00:14:25,019 --> 00:14:27,540
+twos
+
+309
+00:14:26,040 --> 00:14:30,240
+okay
+
+310
+00:14:27,540 --> 00:14:31,279
+so for
+
+311
+00:14:30,240 --> 00:14:38,160
+for
+
+312
+00:14:31,279 --> 00:14:41,639
+i j in Google is from itatura group by
+
+313
+00:14:38,160 --> 00:14:44,240
+Group by a right and before that we put
+
+314
+00:14:41,639 --> 00:14:47,760
+the answer into a list
+
+315
+00:14:44,240 --> 00:14:51,420
+so if Group by if we apply the group by
+
+316
+00:14:47,760 --> 00:14:52,920
+In This suppose this group by a a is
+
+317
+00:14:51,420 --> 00:14:56,160
+this one right this is the previous
+
+318
+00:14:52,920 --> 00:14:58,440
+result if you could buy the I would be
+
+319
+00:14:56,160 --> 00:15:01,139
+it's the iterator yeah I would be one
+
+320
+00:14:58,440 --> 00:15:05,899
+the the element the unique element in
+
+321
+00:15:01,139 --> 00:15:08,880
+that group and the values would be uh
+
+322
+00:15:05,899 --> 00:15:11,519
+iterator to uh
+
+323
+00:15:08,880 --> 00:15:12,660
+to the to each group so it's one one
+
+324
+00:15:11,519 --> 00:15:14,880
+something like that but this is the
+
+325
+00:15:12,660 --> 00:15:18,000
+iterator so two
+
+326
+00:15:14,880 --> 00:15:20,339
+two two two right so let's go back so
+
+327
+00:15:18,000 --> 00:15:22,440
+now we want to find out how many of them
+
+328
+00:15:20,339 --> 00:15:24,899
+right so we can apply the lens function
+
+329
+00:15:22,440 --> 00:15:28,019
+to the list of the iterator so there's
+
+330
+00:15:24,899 --> 00:15:30,899
+two ones and that's three tooth and the
+
+331
+00:15:28,019 --> 00:15:33,199
+unique element we know right answer dot
+
+332
+00:15:30,899 --> 00:15:33,199
+a pen
+
+333
+00:15:33,779 --> 00:15:40,320
+right how many ones comes from here so
+
+334
+00:15:37,320 --> 00:15:42,300
+we first of all converted star lens
+
+335
+00:15:40,320 --> 00:15:45,019
+list
+
+336
+00:15:42,300 --> 00:15:45,019
+J
+
+337
+00:15:45,120 --> 00:15:52,500
+uh uh yeah so what this means this J
+
+338
+00:15:49,560 --> 00:15:55,019
+converting this into a list a length
+
+339
+00:15:52,500 --> 00:15:58,860
+which it gives the two and we convert it
+
+340
+00:15:55,019 --> 00:16:01,440
+to a string plus plus this one right so
+
+341
+00:15:58,860 --> 00:16:04,019
+we just have to put an i here
+
+342
+00:16:01,440 --> 00:16:07,800
+now this is how we count
+
+343
+00:16:04,019 --> 00:16:10,560
+and say count call the numbers and say
+
+344
+00:16:07,800 --> 00:16:13,560
+it out right and then return
+
+345
+00:16:10,560 --> 00:16:15,959
+how do we convert a
+
+346
+00:16:13,560 --> 00:16:18,120
+this to a string
+
+347
+00:16:15,959 --> 00:16:20,279
+how do we convert this look one two
+
+348
+00:16:18,120 --> 00:16:22,380
+three into one two three well which
+
+349
+00:16:20,279 --> 00:16:25,740
+function is it we talk about like how do
+
+350
+00:16:22,380 --> 00:16:28,760
+we convert US array array to a string
+
+351
+00:16:25,740 --> 00:16:32,880
+what's the opposite of split
+
+352
+00:16:28,760 --> 00:16:36,300
+yeah so return empty string dot join
+
+353
+00:16:32,880 --> 00:16:38,940
+this is a separator join answer
+
+354
+00:16:36,300 --> 00:16:40,980
+so f l depends on f n minus one so we
+
+355
+00:16:38,940 --> 00:16:42,600
+don't need to put the cash here right we
+
+356
+00:16:40,980 --> 00:16:45,180
+don't need to put the cash because it's
+
+357
+00:16:42,600 --> 00:16:47,279
+it's not reusing any other results if
+
+358
+00:16:45,180 --> 00:16:50,699
+you want to get the FN you have to
+
+359
+00:16:47,279 --> 00:16:53,040
+calculate from F1 F2 F3 until F1
+
+360
+00:16:50,699 --> 00:16:56,040
+this is the question right in order to
+
+361
+00:16:53,040 --> 00:16:59,100
+calculate FM we need to the result for f
+
+362
+00:16:56,040 --> 00:17:00,839
+minus one right the FN minus one
+
+363
+00:16:59,100 --> 00:17:02,820
+suppose it's something like that and
+
+364
+00:17:00,839 --> 00:17:05,520
+then we have to group by Group by this
+
+365
+00:17:02,820 --> 00:17:07,679
+the string at a f a minus one is a
+
+366
+00:17:05,520 --> 00:17:10,020
+string then we could I will use the
+
+367
+00:17:07,679 --> 00:17:12,900
+group by to count there are two ones and
+
+368
+00:17:10,020 --> 00:17:16,860
+three twos the reason we use the array
+
+369
+00:17:12,900 --> 00:17:20,220
+to store the each component store each
+
+370
+00:17:16,860 --> 00:17:21,780
+each group is that when we join it it
+
+371
+00:17:20,220 --> 00:17:24,720
+will be more efficient instead because
+
+372
+00:17:21,780 --> 00:17:27,900
+the string continuation is inefficient
+
+373
+00:17:24,720 --> 00:17:30,780
+and it's better we put the string into a
+
+374
+00:17:27,900 --> 00:17:34,140
+list and then we use the join join is
+
+375
+00:17:30,780 --> 00:17:36,299
+the reverse operation of split the join
+
+376
+00:17:34,140 --> 00:17:37,799
+a string The Joint the separator is
+
+377
+00:17:36,299 --> 00:17:40,559
+nothing so it means we put it together
+
+378
+00:17:37,799 --> 00:17:42,240
+if we put a plus here then that will
+
+379
+00:17:40,559 --> 00:17:44,520
+become one plus two plus three something
+
+380
+00:17:42,240 --> 00:17:46,740
+like that right if we put an empty
+
+381
+00:17:44,520 --> 00:17:49,440
+string then it'll be one two three
+
+382
+00:17:46,740 --> 00:17:52,020
+okay the terminal space complexity I
+
+383
+00:17:49,440 --> 00:17:54,000
+mean it's very complex right it's uh
+
+384
+00:17:52,020 --> 00:17:56,160
+we're not going to sew into details it's
+
+385
+00:17:54,000 --> 00:17:59,460
+uh around this right the time and space
+
+386
+00:17:56,160 --> 00:18:02,820
+complexity it depends only the FN
+
+387
+00:17:59,460 --> 00:18:08,340
+function we know FS plus T equals FS
+
+388
+00:18:02,820 --> 00:18:11,700
+plus ft is the last digit of s is not
+
+389
+00:18:08,340 --> 00:18:13,620
+the same as the first digit of T then we
+
+390
+00:18:11,700 --> 00:18:15,960
+have least then we can continue analyze
+
+391
+00:18:13,620 --> 00:18:17,820
+it but it's a very complex we're not
+
+392
+00:18:15,960 --> 00:18:20,220
+going to go into details but this is
+
+393
+00:18:17,820 --> 00:18:22,679
+roughly the time and space complexity
+
+394
+00:18:20,220 --> 00:18:24,600
+okay okay so what have you learned today
+
+395
+00:18:22,679 --> 00:18:27,480
+and then that's it
+
+396
+00:18:24,600 --> 00:18:31,799
+um number one is
+
+397
+00:18:27,480 --> 00:18:34,200
+and you lose one the other one one
+
+398
+00:18:31,799 --> 00:18:39,360
+because you need because
+
+399
+00:18:34,200 --> 00:18:40,860
+there's the number one and we
+
+400
+00:18:39,360 --> 00:18:43,559
+and
+
+401
+00:18:40,860 --> 00:18:46,799
+and there's only one of it yeah and then
+
+402
+00:18:43,559 --> 00:18:49,380
+we called and say it out and forming a
+
+403
+00:18:46,799 --> 00:18:51,720
+new string am I right so what's the egg
+
+404
+00:18:49,380 --> 00:18:55,919
+room we're using today
+
+405
+00:18:51,720 --> 00:18:58,980
+could we buy and split join no no what's
+
+406
+00:18:55,919 --> 00:19:01,140
+the algorithm we're using recursion
+
+407
+00:18:58,980 --> 00:19:02,880
+what's the recursion
+
+408
+00:19:01,140 --> 00:19:04,679
+yeah Colleen said why do we need a
+
+409
+00:19:02,880 --> 00:19:06,539
+recursion here if we want to capture F
+
+410
+00:19:04,679 --> 00:19:09,120
+and why do we need to call FN minus one
+
+411
+00:19:06,539 --> 00:19:12,059
+if we want to count FN it depends on F
+
+412
+00:19:09,120 --> 00:19:15,000
+and minus one right so let's recursion
+
+413
+00:19:12,059 --> 00:19:18,059
+FN depends on FN minus one s n minus one
+
+414
+00:19:15,000 --> 00:19:20,820
+depends on F and minus antia F1 we which
+
+415
+00:19:18,059 --> 00:19:23,100
+we know is one that's the base cases so
+
+416
+00:19:20,820 --> 00:19:25,380
+recursion we have to define a terminal
+
+417
+00:19:23,100 --> 00:19:26,820
+case which is the base case if we don't
+
+418
+00:19:25,380 --> 00:19:30,419
+have this what happened can you tell me
+
+419
+00:19:26,820 --> 00:19:32,640
+if we don't end here what happened it'll
+
+420
+00:19:30,419 --> 00:19:34,860
+keep going live again and you will never
+
+421
+00:19:32,640 --> 00:19:36,780
+end right because look F1 and then if
+
+422
+00:19:34,860 --> 00:19:39,539
+you don't tell what to solve if there's
+
+423
+00:19:36,780 --> 00:19:42,900
+nothing to solve you because into s0 F
+
+424
+00:19:39,539 --> 00:19:43,919
+minus one F minus two F minus three F to
+
+425
+00:19:42,900 --> 00:19:46,380
+Infinity
+
+426
+00:19:43,919 --> 00:19:49,620
+which the computer don't know how to
+
+427
+00:19:46,380 --> 00:19:50,880
+solve at some point the communication at
+
+428
+00:19:49,620 --> 00:19:53,820
+some point you have to let the computer
+
+429
+00:19:50,880 --> 00:19:56,160
+to solve the very basic thing all right
+
+430
+00:19:53,820 --> 00:19:58,980
+this is what the recursion is right for
+
+431
+00:19:56,160 --> 00:20:01,620
+example the factory one factorial is one
+
+432
+00:19:58,980 --> 00:20:04,679
+two factorial is two three five three is
+
+433
+00:20:01,620 --> 00:20:08,580
+six right and for Clear equals n times n
+
+434
+00:20:04,679 --> 00:20:11,940
+minus one factorial all right look so f
+
+435
+00:20:08,580 --> 00:20:14,280
+n equals n times F and minus one right
+
+436
+00:20:11,940 --> 00:20:17,280
+for example we have to left computer now
+
+437
+00:20:14,280 --> 00:20:20,100
+F1 equals one right if we don't have
+
+438
+00:20:17,280 --> 00:20:21,960
+computer F1 equals one then computers
+
+439
+00:20:20,100 --> 00:20:25,320
+don't know what's F1 and you will need
+
+440
+00:20:21,960 --> 00:20:26,580
+to recurse into F0 F minus one F minus
+
+441
+00:20:25,320 --> 00:20:27,919
+so I'm right
+
+442
+00:20:26,580 --> 00:20:32,160
+yeah
+
+443
+00:20:27,919 --> 00:20:35,520
+then this problem never gets soft F1
+
+444
+00:20:32,160 --> 00:20:38,460
+equals one right look f n then it needs
+
+445
+00:20:35,520 --> 00:20:41,280
+the FN minus one F minus two and then
+
+446
+00:20:38,460 --> 00:20:44,400
+gets to F1 okay the computer knows F1
+
+447
+00:20:41,280 --> 00:20:45,780
+equals one and come back to F2 equals
+
+448
+00:20:44,400 --> 00:20:51,059
+two
+
+449
+00:20:45,780 --> 00:20:53,340
+okay two times F1 3 times F2 four times
+
+450
+00:20:51,059 --> 00:20:57,299
+F3 okay
+
+451
+00:20:53,340 --> 00:20:59,539
+yeah and then until it gets the value F1
+
+452
+00:20:57,299 --> 00:20:59,539
+foreign
+

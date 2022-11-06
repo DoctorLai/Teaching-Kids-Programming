@@ -1,0 +1,2104 @@
+1
+00:00:00,000 --> 00:00:09,480
+yeah yeah so what's this uh three uh and
+
+2
+00:00:06,180 --> 00:00:12,920
+it's a tree and it's also a
+
+3
+00:00:09,480 --> 00:00:15,839
+um binary and also it's uh
+
+4
+00:00:12,920 --> 00:00:19,980
+is it a Furniture tree
+
+5
+00:00:15,839 --> 00:00:21,960
+no it's not oh yeah on the left is to be
+
+6
+00:00:19,980 --> 00:00:24,180
+strictly smaller than a little down the
+
+7
+00:00:21,960 --> 00:00:27,840
+right should be bigger so this one is
+
+8
+00:00:24,180 --> 00:00:30,119
+not right it's not balances a tree it's
+
+9
+00:00:27,840 --> 00:00:32,820
+a graph right and for the trees it's
+
+10
+00:00:30,119 --> 00:00:35,640
+like the direct a cyclical right
+
+11
+00:00:32,820 --> 00:00:39,000
+directly a cyclical directly means that
+
+12
+00:00:35,640 --> 00:00:41,820
+the only the parent goes to the kids
+
+13
+00:00:39,000 --> 00:00:44,399
+like this is the parent node the kids
+
+14
+00:00:41,820 --> 00:00:46,620
+now parent to the children notes
+
+15
+00:00:44,399 --> 00:00:48,840
+the ones we love the children we call it
+
+16
+00:00:46,620 --> 00:00:51,420
+leaves the one without the parents we
+
+17
+00:00:48,840 --> 00:00:53,879
+call it loot there's only one loot in a
+
+18
+00:00:51,420 --> 00:00:58,620
+in a tree right and there's the only
+
+19
+00:00:53,879 --> 00:01:01,320
+maximum two kids per note in a balanced
+
+20
+00:00:58,620 --> 00:01:04,080
+treatment okay so given these are buying
+
+21
+00:01:01,320 --> 00:01:06,780
+a tree I mean it could be any vanity so
+
+22
+00:01:04,080 --> 00:01:09,420
+with numbers okay positive numbers and
+
+23
+00:01:06,780 --> 00:01:12,659
+we want to find out if there's a path
+
+24
+00:01:09,420 --> 00:01:15,000
+from a loot to the leaf that equals to
+
+25
+00:01:12,659 --> 00:01:19,500
+the Target 22. you know can you find the
+
+26
+00:01:15,000 --> 00:01:22,860
+parts to the leaf beef note that the sum
+
+27
+00:01:19,500 --> 00:01:24,479
+of all the notes equals to 22 in this
+
+28
+00:01:22,860 --> 00:01:27,900
+particular binary
+
+29
+00:01:24,479 --> 00:01:29,759
+oh yeah five from eleven two yeah five
+
+30
+00:01:27,900 --> 00:01:31,619
+or eleven two Okay so
+
+31
+00:01:29,759 --> 00:01:34,259
+how did you find these two I want to
+
+32
+00:01:31,619 --> 00:01:37,560
+know how how did you find this look how
+
+33
+00:01:34,259 --> 00:01:39,900
+did you find that thing You Know Carl I
+
+34
+00:01:37,560 --> 00:01:42,479
+mean how do how did you find this
+
+35
+00:01:39,900 --> 00:01:44,939
+particularly pass that equals the the
+
+36
+00:01:42,479 --> 00:01:47,400
+sum of the all the nodes equals to 22.
+
+37
+00:01:44,939 --> 00:01:50,060
+you're trying right you're trying it's
+
+38
+00:01:47,400 --> 00:01:54,560
+it's possibility I'm right
+
+39
+00:01:50,060 --> 00:01:54,560
+a deficit deficit and
+
+40
+00:02:00,439 --> 00:02:05,460
+will you talk about these two algorithms
+
+41
+00:02:03,240 --> 00:02:08,099
+when we're solving a lot of the three
+
+42
+00:02:05,460 --> 00:02:10,619
+problems right so for the trees most
+
+43
+00:02:08,099 --> 00:02:13,140
+likely you use the one travel cycle
+
+44
+00:02:10,619 --> 00:02:14,940
+which is could be pepper search or
+
+45
+00:02:13,140 --> 00:02:17,220
+perfect search there are quite a few
+
+46
+00:02:14,940 --> 00:02:18,200
+different deficitors right remember the
+
+47
+00:02:17,220 --> 00:02:22,040
+traveler
+
+48
+00:02:18,200 --> 00:02:22,040
+the pre-order
+
+49
+00:02:22,319 --> 00:02:27,599
+in order yeah
+
+50
+00:02:25,020 --> 00:02:30,920
+close order yeah
+
+51
+00:02:27,599 --> 00:02:34,560
+B3 and also you know reverse in order
+
+52
+00:02:30,920 --> 00:02:38,160
+the pre-order what's pre-order pre-order
+
+53
+00:02:34,560 --> 00:02:40,800
+is the note left to right right in order
+
+54
+00:02:38,160 --> 00:02:44,340
+is left and now right those are the
+
+55
+00:02:40,800 --> 00:02:46,800
+reason left right now okay if we're
+
+56
+00:02:44,340 --> 00:02:48,599
+going for this pre-order so what's the
+
+57
+00:02:46,800 --> 00:02:50,819
+order of the default search between
+
+58
+00:02:48,599 --> 00:02:53,640
+order the note left to right so what's
+
+59
+00:02:50,819 --> 00:02:55,260
+the pre-order five
+
+60
+00:02:53,640 --> 00:02:56,819
+full
+
+61
+00:02:55,260 --> 00:02:58,019
+eleven
+
+62
+00:02:56,819 --> 00:02:59,400
+seven
+
+63
+00:02:58,019 --> 00:03:00,500
+two
+
+64
+00:02:59,400 --> 00:03:05,280
+eight
+
+65
+00:03:00,500 --> 00:03:07,800
+thirteen four one eight well done okay
+
+66
+00:03:05,280 --> 00:03:11,280
+and how about the breakfast search
+
+67
+00:03:07,800 --> 00:03:12,720
+all the whatever eight eleven thirty
+
+68
+00:03:11,280 --> 00:03:15,000
+four seventy one
+
+69
+00:03:12,720 --> 00:03:17,459
+so it's basically a level by level yeah
+
+70
+00:03:15,000 --> 00:03:20,099
+we use the Q remember double mdq yeah
+
+71
+00:03:17,459 --> 00:03:23,099
+the Q first thing first off we go this
+
+72
+00:03:20,099 --> 00:03:26,700
+way this is in Q we put push an element
+
+73
+00:03:23,099 --> 00:03:29,940
+to the Q we take one out of the Q okay
+
+74
+00:03:26,700 --> 00:03:31,860
+Okay so coming back to this question we
+
+75
+00:03:29,940 --> 00:03:33,659
+can solve this using the default search
+
+76
+00:03:31,860 --> 00:03:36,780
+right it doesn't matter which order it
+
+77
+00:03:33,659 --> 00:03:39,420
+is right as long as we need to carry out
+
+78
+00:03:36,780 --> 00:03:41,760
+the sum right so it could be done with
+
+79
+00:03:39,420 --> 00:03:44,700
+two ways so when we do this type of such
+
+80
+00:03:41,760 --> 00:03:47,220
+recursion we can store the current total
+
+81
+00:03:44,700 --> 00:03:48,900
+sum from the loot right
+
+82
+00:03:47,220 --> 00:03:50,879
+and this is one way and you tell me
+
+83
+00:03:48,900 --> 00:03:54,540
+which is the other way okay current time
+
+84
+00:03:50,879 --> 00:03:55,580
+is five current sum is nine current sum
+
+85
+00:03:54,540 --> 00:03:59,159
+is
+
+86
+00:03:55,580 --> 00:04:02,159
+20. current time is 27 countenance time
+
+87
+00:03:59,159 --> 00:04:03,599
+is 22. current time is 5.
+
+88
+00:04:02,159 --> 00:04:07,680
+13
+
+89
+00:04:03,599 --> 00:04:11,819
+and here is 26 here is 17 and 18 right
+
+90
+00:04:07,680 --> 00:04:14,459
+so we pass the current sum to the leaf
+
+91
+00:04:11,819 --> 00:04:15,900
+notes on the way we traveled in
+
+92
+00:04:14,459 --> 00:04:17,940
+different search am I right we
+
+93
+00:04:15,900 --> 00:04:19,919
+accumulate the sum right we still
+
+94
+00:04:17,940 --> 00:04:22,139
+accumulation from the loot to the
+
+95
+00:04:19,919 --> 00:04:24,000
+current node what's the other way what's
+
+96
+00:04:22,139 --> 00:04:26,880
+the opposite why are we storing the
+
+97
+00:04:24,000 --> 00:04:29,160
+accumulation from the low to you know to
+
+98
+00:04:26,880 --> 00:04:32,160
+the current node so we can compare if it
+
+99
+00:04:29,160 --> 00:04:33,180
+is equals to Target right is it sorry to
+
+100
+00:04:32,160 --> 00:04:36,479
+figure out
+
+101
+00:04:33,180 --> 00:04:38,460
+if it's 22 no yeah to figure out if it's
+
+102
+00:04:36,479 --> 00:04:41,340
+22 and also it has to be a leave now
+
+103
+00:04:38,460 --> 00:04:44,280
+right and what's the other way instead
+
+104
+00:04:41,340 --> 00:04:46,560
+of adding we can well
+
+105
+00:04:44,280 --> 00:04:49,199
+so yeah whether we can structure the
+
+106
+00:04:46,560 --> 00:04:51,780
+notes from the Target and I'm going to
+
+107
+00:04:49,199 --> 00:04:55,680
+reach the thief notes it has to be zero
+
+108
+00:04:51,780 --> 00:04:58,740
+all right so 22 okay now I visit here so
+
+109
+00:04:55,680 --> 00:05:00,780
+I take five out which is 17.
+
+110
+00:04:58,740 --> 00:05:02,520
+I take four out
+
+111
+00:05:00,780 --> 00:05:05,520
+13.
+
+112
+00:05:02,520 --> 00:05:08,639
+take 11 out which two
+
+113
+00:05:05,520 --> 00:05:10,979
+take two up is zero okay so I'm reaching
+
+114
+00:05:08,639 --> 00:05:14,580
+and leave now and it's the sum is zero
+
+115
+00:05:10,979 --> 00:05:17,400
+so we found one path all right
+
+116
+00:05:14,580 --> 00:05:19,740
+yeah the other way is to edit so current
+
+117
+00:05:17,400 --> 00:05:21,120
+sum is zero plus five
+
+118
+00:05:19,740 --> 00:05:24,539
+plus four
+
+119
+00:05:21,120 --> 00:05:27,360
+plus eleven plus two is twenty-two right
+
+120
+00:05:24,539 --> 00:05:29,940
+so this is the recursion deficit and the
+
+121
+00:05:27,360 --> 00:05:32,340
+Order of traversal the tree does not
+
+122
+00:05:29,940 --> 00:05:35,460
+matter and we can implement the default
+
+123
+00:05:32,340 --> 00:05:37,680
+search using the recursion and iterative
+
+124
+00:05:35,460 --> 00:05:39,539
+right the iterative I'm going to talk
+
+125
+00:05:37,680 --> 00:05:41,280
+about that in the breakfast next lesson
+
+126
+00:05:39,539 --> 00:05:44,759
+because it's quite similar like only
+
+127
+00:05:41,280 --> 00:05:47,720
+difference is that we can change the Q
+
+128
+00:05:44,759 --> 00:05:51,000
+to stack and then it becomes the
+
+129
+00:05:47,720 --> 00:05:53,900
+iterative deficit okay so I'm going to
+
+130
+00:05:51,000 --> 00:05:58,080
+write this okay Define that first search
+
+131
+00:05:53,900 --> 00:06:00,120
+so loot and then current sum which way
+
+132
+00:05:58,080 --> 00:06:03,060
+you like to accumulate or to subtract
+
+133
+00:06:00,120 --> 00:06:05,039
+plus then plus okay so look at this is
+
+134
+00:06:03,060 --> 00:06:08,520
+current summary current sum
+
+135
+00:06:05,039 --> 00:06:11,460
+so first of all if not root
+
+136
+00:06:08,520 --> 00:06:15,080
+then we do 10 true or false if the tree
+
+137
+00:06:11,460 --> 00:06:15,080
+is empty we do tend two of us
+
+138
+00:06:17,280 --> 00:06:21,660
+question okay that's a very good
+
+139
+00:06:19,139 --> 00:06:24,060
+question if the sum is yellow and that's
+
+140
+00:06:21,660 --> 00:06:24,780
+arguable right if you're given an empty
+
+141
+00:06:24,060 --> 00:06:27,180
+tree
+
+142
+00:06:24,780 --> 00:06:29,039
+and then you say the target is some is
+
+143
+00:06:27,180 --> 00:06:30,300
+zero in this case you return true or
+
+144
+00:06:29,039 --> 00:06:32,400
+false
+
+145
+00:06:30,300 --> 00:06:34,979
+all right it's a it's arguable but let's
+
+146
+00:06:32,400 --> 00:06:37,080
+say we do 104 right because that it's an
+
+147
+00:06:34,979 --> 00:06:38,100
+empty tree how can you sum up an empty
+
+148
+00:06:37,080 --> 00:06:41,600
+tree
+
+149
+00:06:38,100 --> 00:06:43,680
+S Plus equal right
+
+150
+00:06:41,600 --> 00:06:47,160
+value right
+
+151
+00:06:43,680 --> 00:06:49,380
+then if we check if s equals equal equal
+
+152
+00:06:47,160 --> 00:06:53,160
+Target right
+
+153
+00:06:49,380 --> 00:06:56,280
+and also the current loot is a leaf node
+
+154
+00:06:53,160 --> 00:06:57,180
+so how do you check if a note is a leaf
+
+155
+00:06:56,280 --> 00:07:00,419
+node
+
+156
+00:06:57,180 --> 00:07:05,400
+uh if it doesn't have any children so
+
+157
+00:07:00,419 --> 00:07:07,400
+and do the left is none
+
+158
+00:07:05,400 --> 00:07:09,840
+and
+
+159
+00:07:07,400 --> 00:07:13,080
+Pluto y
+
+160
+00:07:09,840 --> 00:07:15,960
+is none okay we can also say if not do
+
+161
+00:07:13,080 --> 00:07:17,819
+the left if not do that right right land
+
+162
+00:07:15,960 --> 00:07:19,680
+return true right
+
+163
+00:07:17,819 --> 00:07:22,680
+we need to recursively check the left
+
+164
+00:07:19,680 --> 00:07:24,419
+tree and right three right so return
+
+165
+00:07:22,680 --> 00:07:26,759
+that first search
+
+166
+00:07:24,419 --> 00:07:30,900
+left
+
+167
+00:07:26,759 --> 00:07:33,599
+pass down the sum and no o
+
+168
+00:07:30,900 --> 00:07:36,840
+here is no off
+
+169
+00:07:33,599 --> 00:07:39,599
+this should be n or or one question for
+
+170
+00:07:36,840 --> 00:07:41,520
+you this function because we check if
+
+171
+00:07:39,599 --> 00:07:42,539
+the current subtree is starting with the
+
+172
+00:07:41,520 --> 00:07:45,240
+loot
+
+173
+00:07:42,539 --> 00:07:47,580
+right and the sum
+
+174
+00:07:45,240 --> 00:07:48,360
+can we find the path that equals to the
+
+175
+00:07:47,580 --> 00:07:51,840
+Target
+
+176
+00:07:48,360 --> 00:07:53,460
+right on each note we updated the sum
+
+177
+00:07:51,840 --> 00:07:54,539
+and pass it down to the left tree and
+
+178
+00:07:53,460 --> 00:07:58,259
+the right tree
+
+179
+00:07:54,539 --> 00:08:01,199
+so here let's show it use the end or all
+
+180
+00:07:58,259 --> 00:08:03,720
+so oh yeah obviously look in the left
+
+181
+00:08:01,199 --> 00:08:05,940
+tree or in the right tree right so here
+
+182
+00:08:03,720 --> 00:08:08,639
+we should use the O right if we want to
+
+183
+00:08:05,940 --> 00:08:11,280
+subtract which way we need to change
+
+184
+00:08:08,639 --> 00:08:13,680
+we accumulate the sum from the root to
+
+185
+00:08:11,280 --> 00:08:17,520
+the leaf node and if we want to do this
+
+186
+00:08:13,680 --> 00:08:21,120
+opposite way which is to subtract so
+
+187
+00:08:17,520 --> 00:08:22,500
+minus equal n what else should I change
+
+188
+00:08:21,120 --> 00:08:24,900
+yes
+
+189
+00:08:22,500 --> 00:08:26,580
+yellow okay and that will be it okay so
+
+190
+00:08:24,900 --> 00:08:29,400
+therefore search each note is written
+
+191
+00:08:26,580 --> 00:08:31,919
+only once so the term complexity is O
+
+192
+00:08:29,400 --> 00:08:33,180
+and and N is the number of notes in the
+
+193
+00:08:31,919 --> 00:08:35,399
+binary tree okay and the space
+
+194
+00:08:33,180 --> 00:08:36,779
+complexity we're using a recursion as
+
+195
+00:08:35,399 --> 00:08:40,440
+the implicit
+
+196
+00:08:36,779 --> 00:08:43,260
+um usage of Stack the complexity is o h
+
+197
+00:08:40,440 --> 00:08:45,480
+okay H is the height of the tree and in
+
+198
+00:08:43,260 --> 00:08:49,200
+the worst case h equals n in the best
+
+199
+00:08:45,480 --> 00:08:52,440
+case is H equals log n right H equals
+
+200
+00:08:49,200 --> 00:08:56,279
+log n in the best cases why is that look
+
+201
+00:08:52,440 --> 00:08:58,440
+in Balance financially there are seven
+
+202
+00:08:56,279 --> 00:09:01,200
+nodes right seven notes and the height
+
+203
+00:08:58,440 --> 00:09:03,660
+is only three so it's locked to seven
+
+204
+00:09:01,200 --> 00:09:06,480
+which approximately equals three okay
+
+205
+00:09:03,660 --> 00:09:09,920
+this is how we get the Old Log edge here
+
+206
+00:09:06,480 --> 00:09:09,920
+so what have you learned today
+
+207
+00:09:12,200 --> 00:09:15,800
+how can we solve it
+
+208
+00:09:15,899 --> 00:09:19,640
+back by the tree and
+
+209
+00:09:17,940 --> 00:09:23,940
+um
+
+210
+00:09:19,640 --> 00:09:25,980
+we we have Target yeah so what are we
+
+211
+00:09:23,940 --> 00:09:28,320
+trying to do with the target
+
+212
+00:09:25,980 --> 00:09:30,480
+doing the Sun
+
+213
+00:09:28,320 --> 00:09:33,200
+so what are we trying to do trying to
+
+214
+00:09:30,480 --> 00:09:33,200
+find out what
+
+215
+00:09:37,980 --> 00:09:44,700
+if we do any leaf
+
+216
+00:09:40,760 --> 00:09:47,040
+the sun will add up to with tea we're
+
+217
+00:09:44,700 --> 00:09:49,200
+done and then I work now we're using
+
+218
+00:09:47,040 --> 00:09:54,060
+today we have a certain difference
+
+219
+00:09:49,200 --> 00:09:54,060
+is this a deficit your professor yeah
+
+220
+00:09:54,660 --> 00:09:59,000
+see
+
+221
+00:09:56,220 --> 00:10:01,940
+from the rich people
+
+222
+00:09:59,000 --> 00:10:06,180
+leave we even
+
+223
+00:10:01,940 --> 00:10:07,860
+add or subtract and so that adds so you
+
+224
+00:10:06,180 --> 00:10:10,560
+just add the numbers as you don't know
+
+225
+00:10:07,860 --> 00:10:13,320
+and then see if we can add up to tick
+
+226
+00:10:10,560 --> 00:10:14,519
+and and then all but Contracting a bit
+
+227
+00:10:13,320 --> 00:10:18,060
+is
+
+228
+00:10:14,519 --> 00:10:21,540
+um you you get tea and subtract the
+
+229
+00:10:18,060 --> 00:10:23,339
+number as you go on along the Earth kind
+
+230
+00:10:21,540 --> 00:10:27,080
+of thing okay what's the time come next
+
+231
+00:10:23,339 --> 00:10:27,080
+week what is n
+
+232
+00:10:28,140 --> 00:10:34,260
+the N is the number of the notes in the
+
+233
+00:10:31,740 --> 00:10:36,240
+tree what's that space complexity what's
+
+234
+00:10:34,260 --> 00:10:39,180
+this look following recursion needs to
+
+235
+00:10:36,240 --> 00:10:42,000
+go that deep o h h is the height right
+
+236
+00:10:39,180 --> 00:10:44,760
+in the balance tree The Edge is the
+
+237
+00:10:42,000 --> 00:10:49,740
+roughly equals to the login right okay
+
+238
+00:10:44,760 --> 00:10:49,740
+that's it for today bye bye-bye
+
+239
+00:10:51,000 --> 00:10:55,519
+nice let's take a look at these two
+
+240
+00:10:53,220 --> 00:10:58,079
+approaches those are recursion deficit
+
+241
+00:10:55,519 --> 00:11:00,420
+let's take a look at this the one on the
+
+242
+00:10:58,079 --> 00:11:03,360
+left so we calling this step a search
+
+243
+00:11:00,420 --> 00:11:05,579
+function with the target the end is to
+
+244
+00:11:03,360 --> 00:11:07,800
+subtract node values from the targets
+
+245
+00:11:05,579 --> 00:11:09,899
+until you reach the leaf nodes this is
+
+246
+00:11:07,800 --> 00:11:11,880
+to check if it's a leaf node and if the
+
+247
+00:11:09,899 --> 00:11:13,980
+sum has become zero then it will turn
+
+248
+00:11:11,880 --> 00:11:16,380
+true if it's a leaf now we need to check
+
+249
+00:11:13,980 --> 00:11:18,120
+if the sum becomes zero otherwise we'll
+
+250
+00:11:16,380 --> 00:11:20,519
+recursively check in the left tree and
+
+251
+00:11:18,120 --> 00:11:22,920
+the right tree right and the one on the
+
+252
+00:11:20,519 --> 00:11:24,839
+right is slightly different we we are
+
+253
+00:11:22,920 --> 00:11:27,120
+calling and beginning with the Lord when
+
+254
+00:11:24,839 --> 00:11:30,540
+we saturated sum remaining sum from the
+
+255
+00:11:27,120 --> 00:11:32,820
+target so instead of subtracting
+
+256
+00:11:30,540 --> 00:11:35,100
+at the beginning of location we put it
+
+257
+00:11:32,820 --> 00:11:37,760
+we delayed it we delayed it when we are
+
+258
+00:11:35,100 --> 00:11:41,160
+calling the recursion right so
+
+259
+00:11:37,760 --> 00:11:44,760
+4K in left and right so it has two kids
+
+260
+00:11:41,160 --> 00:11:47,640
+then if K if the left tree or right tree
+
+261
+00:11:44,760 --> 00:11:49,560
+is not empty it's not new now we're
+
+262
+00:11:47,640 --> 00:11:51,660
+calling the recursion with the remaining
+
+263
+00:11:49,560 --> 00:11:53,880
+sum if any of those
+
+264
+00:11:51,660 --> 00:11:55,860
+we found the path then we return to
+
+265
+00:11:53,880 --> 00:11:57,480
+otherwise return before okay so this is
+
+266
+00:11:55,860 --> 00:11:59,640
+static difference updating the sum
+
+267
+00:11:57,480 --> 00:12:02,279
+happens when calling the recursion
+
+268
+00:11:59,640 --> 00:12:05,940
+function and this one is not updating
+
+269
+00:12:02,279 --> 00:12:08,160
+the sum happens at the beginning of the
+
+270
+00:12:05,940 --> 00:12:10,560
+recursion we can accumulate some instead
+
+271
+00:12:08,160 --> 00:12:12,839
+of minors we can accumulate some and
+
+272
+00:12:10,560 --> 00:12:17,160
+check if s equals to the Target in both
+
+273
+00:12:12,839 --> 00:12:19,440
+cases a few moments later hello Ryan I
+
+274
+00:12:17,160 --> 00:12:22,019
+okay so look at these this is the final
+
+275
+00:12:19,440 --> 00:12:24,420
+tree right find another tree we are also
+
+276
+00:12:22,019 --> 00:12:27,360
+given a Target so can you find the pass
+
+277
+00:12:24,420 --> 00:12:28,860
+from the loot to the leaf that the sum
+
+278
+00:12:27,360 --> 00:12:31,320
+of the notes that equal to the Target
+
+279
+00:12:28,860 --> 00:12:33,899
+and look these are the leaf notes which
+
+280
+00:12:31,320 --> 00:12:35,399
+does not have any kids this one a salute
+
+281
+00:12:33,899 --> 00:12:38,579
+which does not have an appearance okay
+
+282
+00:12:35,399 --> 00:12:41,459
+yeah the beef nose allows without any
+
+283
+00:12:38,579 --> 00:12:43,079
+kit and this is the pantry each now has
+
+284
+00:12:41,459 --> 00:12:45,720
+almost two kids
+
+285
+00:12:43,079 --> 00:12:48,420
+all right we're given a Target P equals
+
+286
+00:12:45,720 --> 00:12:51,959
+nine can you find out if there is a such
+
+287
+00:12:48,420 --> 00:12:55,339
+pass from the loot to the leaves that
+
+288
+00:12:51,959 --> 00:12:58,440
+the sum equals the target
+
+289
+00:12:55,339 --> 00:13:00,540
+yeah exactly one plus two plus six okay
+
+290
+00:12:58,440 --> 00:13:01,800
+yeah yeah yeah yeah now you get it there
+
+291
+00:13:00,540 --> 00:13:04,500
+okay
+
+292
+00:13:01,800 --> 00:13:06,720
+okay so this question let me rephrase it
+
+293
+00:13:04,500 --> 00:13:09,600
+again so we're given the binary right
+
+294
+00:13:06,720 --> 00:13:12,000
+and each planetary each node contains uh
+
+295
+00:13:09,600 --> 00:13:14,100
+integer uh positive negative doesn't
+
+296
+00:13:12,000 --> 00:13:15,720
+matter and we also given a Target the
+
+297
+00:13:14,100 --> 00:13:18,660
+task is that we want to find out if it's
+
+298
+00:13:15,720 --> 00:13:19,980
+possible to travel from the root to the
+
+299
+00:13:18,660 --> 00:13:23,100
+any eighth note
+
+300
+00:13:19,980 --> 00:13:26,700
+let the notes the sum of the the notes
+
+301
+00:13:23,100 --> 00:13:29,519
+that we visited equals to the Target
+
+302
+00:13:26,700 --> 00:13:33,860
+am I so remind me what kind of the
+
+303
+00:13:29,519 --> 00:13:33,860
+agreement can we apply in the final tree
+
+304
+00:13:34,260 --> 00:13:39,180
+how do we travel as a binary usually
+
+305
+00:13:37,380 --> 00:13:40,459
+level by level what do you call it
+
+306
+00:13:39,180 --> 00:13:45,000
+breakfast
+
+307
+00:13:40,459 --> 00:13:47,639
+PFS and BFF okay in PFS what kind of
+
+308
+00:13:45,000 --> 00:13:49,860
+order is this one two four five six
+
+309
+00:13:47,639 --> 00:13:51,959
+seven well done so it's never by level
+
+310
+00:13:49,860 --> 00:13:53,399
+we use the Q DQ double and the Q yeah
+
+311
+00:13:51,959 --> 00:13:55,560
+you'll remember that all right we talk
+
+312
+00:13:53,399 --> 00:13:58,320
+about lots of these three algorithm
+
+313
+00:13:55,560 --> 00:14:01,260
+right and the default search if we are
+
+314
+00:13:58,320 --> 00:14:04,079
+going deepest yeah deep is
+
+315
+00:14:01,260 --> 00:14:06,500
+six foot seven yeah yeah we're done
+
+316
+00:14:04,079 --> 00:14:09,660
+that's one particular type of search
+
+317
+00:14:06,500 --> 00:14:12,480
+contains a lot of orders so if we visit
+
+318
+00:14:09,660 --> 00:14:16,019
+the node first and let's write or visit
+
+319
+00:14:12,480 --> 00:14:18,480
+the left note right or visit the
+
+320
+00:14:16,019 --> 00:14:20,519
+this one right or sometimes we have this
+
+321
+00:14:18,480 --> 00:14:22,860
+reverse in order so this is pre-order
+
+322
+00:14:20,519 --> 00:14:25,320
+because look look at this
+
+323
+00:14:22,860 --> 00:14:28,620
+look at the now the visit if we order in
+
+324
+00:14:25,320 --> 00:14:31,079
+order close order right and then what
+
+325
+00:14:28,620 --> 00:14:33,300
+you said is but basically the pre-order
+
+326
+00:14:31,079 --> 00:14:35,339
+meaning we reach the due to know first
+
+327
+00:14:33,300 --> 00:14:37,139
+and then we visit the left tree left
+
+328
+00:14:35,339 --> 00:14:39,139
+tree this part and then we visit the
+
+329
+00:14:37,139 --> 00:14:42,060
+right way so it's one
+
+330
+00:14:39,139 --> 00:14:44,339
+two five six four seven okay and
+
+331
+00:14:42,060 --> 00:14:47,220
+sometimes we have a reverse in order so
+
+332
+00:14:44,339 --> 00:14:50,100
+reverse in order will be I don't know
+
+333
+00:14:47,220 --> 00:14:52,260
+maybe R and a right something like that
+
+334
+00:14:50,100 --> 00:14:54,600
+reversing order or reverse because or
+
+335
+00:14:52,260 --> 00:14:57,180
+the reverse per order today we're going
+
+336
+00:14:54,600 --> 00:14:58,740
+to talk about the deficit to do this and
+
+337
+00:14:57,180 --> 00:15:01,199
+then in the next lesson we're going to
+
+338
+00:14:58,740 --> 00:15:03,120
+talk about professors so this deficit
+
+339
+00:15:01,199 --> 00:15:05,699
+preferences you have the two most
+
+340
+00:15:03,120 --> 00:15:08,220
+important aegon that we can apply on the
+
+341
+00:15:05,699 --> 00:15:11,459
+trees and graphs Etc because the binary
+
+342
+00:15:08,220 --> 00:15:14,360
+is a graph it's a dag do you still
+
+343
+00:15:11,459 --> 00:15:14,360
+remember what's the AG
+
+344
+00:15:14,399 --> 00:15:19,079
+um
+
+345
+00:15:15,120 --> 00:15:20,639
+black tag yes directed a cyclic graph
+
+346
+00:15:19,079 --> 00:15:22,440
+directly means that there's a direction
+
+347
+00:15:20,639 --> 00:15:25,199
+basically I don't draw the direction
+
+348
+00:15:22,440 --> 00:15:27,899
+here from the parents to the kids right
+
+349
+00:15:25,199 --> 00:15:30,540
+so usually you given the note you can
+
+350
+00:15:27,899 --> 00:15:32,459
+only visit the kit from parents but you
+
+351
+00:15:30,540 --> 00:15:35,220
+cannot call vice versa so directly a
+
+352
+00:15:32,459 --> 00:15:37,560
+cycle a cycle there's no cycle graph a
+
+353
+00:15:35,220 --> 00:15:39,899
+tree is a graph okay given this attack
+
+354
+00:15:37,560 --> 00:15:41,880
+and we can apply the deficit to find out
+
+355
+00:15:39,899 --> 00:15:44,880
+if let's pass from the root of the leaf
+
+356
+00:15:41,880 --> 00:15:47,519
+right previously you said okay there was
+
+357
+00:15:44,880 --> 00:15:49,800
+a past one plus two plus six equals the
+
+358
+00:15:47,519 --> 00:15:52,399
+nine so how did you find this it just
+
+359
+00:15:49,800 --> 00:15:52,399
+looked right
+
+360
+00:16:03,800 --> 00:16:08,160
+that's right yeah so we just look at it
+
+361
+00:16:06,060 --> 00:16:10,620
+but this is a very tiny planetary right
+
+362
+00:16:08,160 --> 00:16:13,980
+if it's a big one how would you do it I
+
+363
+00:16:10,620 --> 00:16:16,740
+mean if like lots of notes right so
+
+364
+00:16:13,980 --> 00:16:18,060
+for every person you have to recalculate
+
+365
+00:16:16,740 --> 00:16:21,060
+or something for example in this case
+
+366
+00:16:18,060 --> 00:16:22,980
+here this path is one plus two plus five
+
+367
+00:16:21,060 --> 00:16:24,660
+and here this past is one plus two plus
+
+368
+00:16:22,980 --> 00:16:27,660
+six so you should notice anything in
+
+369
+00:16:24,660 --> 00:16:29,880
+common one plus two plus five one plus
+
+370
+00:16:27,660 --> 00:16:31,440
+two plus six anything in common let's
+
+371
+00:16:29,880 --> 00:16:33,600
+have one plus two plus
+
+372
+00:16:31,440 --> 00:16:37,079
+so what does it mean so as long as we
+
+373
+00:16:33,600 --> 00:16:40,860
+travel down the tree we can carry the
+
+374
+00:16:37,079 --> 00:16:43,740
+Sun from the loo to the current right
+
+375
+00:16:40,860 --> 00:16:45,839
+all right so look at here is one plus
+
+376
+00:16:43,740 --> 00:16:47,880
+two here is one plus four and here is
+
+377
+00:16:45,839 --> 00:16:50,519
+one plus two plus five here is one plus
+
+378
+00:16:47,880 --> 00:16:53,579
+two plus six here is one plus four plus
+
+379
+00:16:50,519 --> 00:16:54,839
+seven so we do remember this so it means
+
+380
+00:16:53,579 --> 00:16:57,660
+that we don't have to every time we
+
+381
+00:16:54,839 --> 00:16:59,820
+don't have to go back to the loot to
+
+382
+00:16:57,660 --> 00:17:03,120
+calculate the sum so we just traveled
+
+383
+00:16:59,820 --> 00:17:04,860
+the tree using depth search and then we
+
+384
+00:17:03,120 --> 00:17:07,319
+can accumulate some right and the other
+
+385
+00:17:04,860 --> 00:17:09,360
+way is the opposite so look here we have
+
+386
+00:17:07,319 --> 00:17:11,040
+one plus two plus five one plus two plus
+
+387
+00:17:09,360 --> 00:17:14,520
+six and we check if it equals to the
+
+388
+00:17:11,040 --> 00:17:19,260
+nine another way is we take one out from
+
+389
+00:17:14,520 --> 00:17:22,740
+nine five eight eight minus two
+
+390
+00:17:19,260 --> 00:17:24,600
+I'm six minus six zero and they need to
+
+391
+00:17:22,740 --> 00:17:26,160
+be zero when it reaches they're leaving
+
+392
+00:17:24,600 --> 00:17:28,500
+away there are two ways right it's
+
+393
+00:17:26,160 --> 00:17:30,900
+similar right yeah okay so let's do this
+
+394
+00:17:28,500 --> 00:17:33,600
+type of search as long as we carrying
+
+395
+00:17:30,900 --> 00:17:36,780
+the sum accumulate some or we keep
+
+396
+00:17:33,600 --> 00:17:40,140
+subtracting the value of current root
+
+397
+00:17:36,780 --> 00:17:44,700
+from the sum remaining sum okay
+
+398
+00:17:40,140 --> 00:17:47,760
+Define that for such root the current
+
+399
+00:17:44,700 --> 00:17:50,880
+sum right so if not load
+
+400
+00:17:47,760 --> 00:17:53,100
+or if loot is empty then we return two
+
+401
+00:17:50,880 --> 00:17:54,440
+of us if the note is empty with the
+
+402
+00:17:53,100 --> 00:17:57,240
+tension of us
+
+403
+00:17:54,440 --> 00:18:00,419
+first let's try yes first
+
+404
+00:17:57,240 --> 00:18:03,179
+otherwise we first of all S Plus equal
+
+405
+00:18:00,419 --> 00:18:04,559
+if we accumulate X Plus equal root of
+
+406
+00:18:03,179 --> 00:18:07,080
+value right
+
+407
+00:18:04,559 --> 00:18:09,240
+we added the value the sum this is
+
+408
+00:18:07,080 --> 00:18:11,340
+accumulation we added this value right
+
+409
+00:18:09,240 --> 00:18:14,460
+we added one plus two and then we have
+
+410
+00:18:11,340 --> 00:18:16,919
+to check if s equals equal equal T if we
+
+411
+00:18:14,460 --> 00:18:18,380
+get this T but we also have to check if
+
+412
+00:18:16,919 --> 00:18:22,020
+n
+
+413
+00:18:18,380 --> 00:18:24,539
+and do top left
+
+414
+00:18:22,020 --> 00:18:26,760
+is none how do you check if a node is a
+
+415
+00:18:24,539 --> 00:18:28,440
+leaf node how do you check if you know
+
+416
+00:18:26,760 --> 00:18:31,080
+this is a leaf note
+
+417
+00:18:28,440 --> 00:18:32,880
+we check if I have any kids if the sun
+
+418
+00:18:31,080 --> 00:18:34,799
+with your time is Target and then if
+
+419
+00:18:32,880 --> 00:18:37,100
+this node is additional will return true
+
+420
+00:18:34,799 --> 00:18:37,100
+right
+
+421
+00:18:40,140 --> 00:18:45,600
+so look we have accumulated some Target
+
+422
+00:18:43,260 --> 00:18:47,340
+and then this node is a leaf node now we
+
+423
+00:18:45,600 --> 00:18:49,020
+listen true otherwise we have two
+
+424
+00:18:47,340 --> 00:18:52,140
+recursive check in the left three and
+
+425
+00:18:49,020 --> 00:18:55,140
+the right tree right yep so return
+
+426
+00:18:52,140 --> 00:18:55,140
+left
+
+427
+00:18:56,039 --> 00:19:04,980
+s and therefore search through the right
+
+428
+00:19:01,620 --> 00:19:08,220
+F okay so can you tell me here
+
+429
+00:19:04,980 --> 00:19:10,620
+whether I should put a n or should I put
+
+430
+00:19:08,220 --> 00:19:14,700
+an O which one
+
+431
+00:19:10,620 --> 00:19:17,039
+now I have to check if let's pass on the
+
+432
+00:19:14,700 --> 00:19:18,059
+left tree or even letter pass on the
+
+433
+00:19:17,039 --> 00:19:21,059
+right tree
+
+434
+00:19:18,059 --> 00:19:23,340
+so is this n or
+
+435
+00:19:21,059 --> 00:19:25,919
+I have to check because we on the left
+
+436
+00:19:23,340 --> 00:19:28,740
+tree or on the right tree so it's this
+
+437
+00:19:25,919 --> 00:19:31,860
+error oh obviously I just said it right
+
+438
+00:19:28,740 --> 00:19:33,720
+I just say it's all right so it's all we
+
+439
+00:19:31,860 --> 00:19:36,059
+accumulate the sum and we pass it down
+
+440
+00:19:33,720 --> 00:19:37,200
+because we have done it here so we can
+
+441
+00:19:36,059 --> 00:19:39,660
+pass the sum
+
+442
+00:19:37,200 --> 00:19:41,100
+here to the left tree we're not visiting
+
+443
+00:19:39,660 --> 00:19:43,740
+the left tree and the right tree we just
+
+444
+00:19:41,100 --> 00:19:46,200
+have to basically check if laser path
+
+445
+00:19:43,740 --> 00:19:48,299
+on the left tree or if you let the
+
+446
+00:19:46,200 --> 00:19:50,820
+surprise on the right tree and we pass
+
+447
+00:19:48,299 --> 00:19:52,860
+down the accumulation right the other
+
+448
+00:19:50,820 --> 00:19:54,720
+way the opposite way is to take the sum
+
+449
+00:19:52,860 --> 00:19:58,500
+taking the value out of the topic
+
+450
+00:19:54,720 --> 00:20:00,120
+something right yeah nine take one out
+
+451
+00:19:58,500 --> 00:20:02,700
+which is a
+
+452
+00:20:00,120 --> 00:20:05,220
+k for R which is four take seven out
+
+453
+00:20:02,700 --> 00:20:06,360
+which is not zero right
+
+454
+00:20:05,220 --> 00:20:10,200
+so
+
+455
+00:20:06,360 --> 00:20:13,280
+I just have to change this to minus
+
+456
+00:20:10,200 --> 00:20:15,960
+and then I have to change this to zero
+
+457
+00:20:13,280 --> 00:20:19,140
+so if it's accumulating something we can
+
+458
+00:20:15,960 --> 00:20:21,900
+just say return that first search blue
+
+459
+00:20:19,140 --> 00:20:24,419
+start with the zero
+
+460
+00:20:21,900 --> 00:20:26,640
+if we are taking that value out of the
+
+461
+00:20:24,419 --> 00:20:31,160
+remaining sum then we have to call it as
+
+462
+00:20:26,640 --> 00:20:34,980
+def as such low the target okay
+
+463
+00:20:31,160 --> 00:20:36,360
+the time till next day oh if they are
+
+464
+00:20:34,980 --> 00:20:37,679
+unknowns in the financial what's the
+
+465
+00:20:36,360 --> 00:20:39,000
+time let's see
+
+466
+00:20:37,679 --> 00:20:42,299
+oh
+
+467
+00:20:39,000 --> 00:20:45,840
+and well because we are visiting each no
+
+468
+00:20:42,299 --> 00:20:48,120
+exactly one right now we have
+
+469
+00:20:45,840 --> 00:20:50,039
+accumulated some we have this update is
+
+470
+00:20:48,120 --> 00:20:52,140
+done remaining some are accumulation it
+
+471
+00:20:50,039 --> 00:20:55,919
+doesn't matter okay the space complexity
+
+472
+00:20:52,140 --> 00:20:58,799
+oh and and yes in the worst case it's
+
+473
+00:20:55,919 --> 00:21:01,260
+Owen but precisely oh
+
+474
+00:20:58,799 --> 00:21:02,880
+H is the height of the binary tree right
+
+475
+00:21:01,260 --> 00:21:06,539
+so because the recursion this is
+
+476
+00:21:02,880 --> 00:21:09,720
+recursion in a recursion calling step
+
+477
+00:21:06,539 --> 00:21:13,200
+calling depth yes the edge in the worst
+
+478
+00:21:09,720 --> 00:21:15,360
+case is n you know the when the tree is
+
+479
+00:21:13,200 --> 00:21:18,419
+like that right you know
+
+480
+00:21:15,360 --> 00:21:19,740
+when each note of the tree has only one
+
+481
+00:21:18,419 --> 00:21:22,080
+kit
+
+482
+00:21:19,740 --> 00:21:24,900
+why look there are three nodes and the
+
+483
+00:21:22,080 --> 00:21:28,740
+height is three all right yeah
+
+484
+00:21:24,900 --> 00:21:31,320
+okay so in the best cases when a tree is
+
+485
+00:21:28,740 --> 00:21:34,140
+balanced so there are seven nodes
+
+486
+00:21:31,320 --> 00:21:37,740
+and is seven height is approximately
+
+487
+00:21:34,140 --> 00:21:39,960
+lock lock 7 which is three okay
+
+488
+00:21:37,740 --> 00:21:42,780
+approximately three okay
+
+489
+00:21:39,960 --> 00:21:45,600
+am I right does it make sense you know
+
+490
+00:21:42,780 --> 00:21:48,360
+why the login yeah the final research
+
+491
+00:21:45,600 --> 00:21:50,760
+each time we cut in half right so when
+
+492
+00:21:48,360 --> 00:21:53,700
+we go to the left we abandon the right
+
+493
+00:21:50,760 --> 00:21:56,340
+tree when we go to the right we abandon
+
+494
+00:21:53,700 --> 00:21:58,620
+the left tree so let every time we cut
+
+495
+00:21:56,340 --> 00:22:00,960
+it in half let's lock in well that's
+
+496
+00:21:58,620 --> 00:22:03,720
+where the login is for in the best cases
+
+497
+00:22:00,960 --> 00:22:06,620
+when the tree is balanced balance means
+
+498
+00:22:03,720 --> 00:22:09,240
+the height the absolute High difference
+
+499
+00:22:06,620 --> 00:22:12,120
+is smaller than equal than one between
+
+500
+00:22:09,240 --> 00:22:14,400
+the left and the right that's a Delta H
+
+501
+00:22:12,120 --> 00:22:16,080
+is the high difference okay so what have
+
+502
+00:22:14,400 --> 00:22:17,280
+you learned today and that's it Ryan
+
+503
+00:22:16,080 --> 00:22:19,200
+what have you learned today what's the
+
+504
+00:22:17,280 --> 00:22:21,860
+problem and what what eggline are we
+
+505
+00:22:19,200 --> 00:22:21,860
+using today
+
+506
+00:22:22,020 --> 00:22:26,520
+we we have we have a tree we have binary
+
+507
+00:22:24,419 --> 00:22:29,840
+specifically and what are we trying to
+
+508
+00:22:26,520 --> 00:22:32,580
+find out t what's the
+
+509
+00:22:29,840 --> 00:22:34,260
+number yeah what are we trying to find
+
+510
+00:22:32,580 --> 00:22:37,100
+out here
+
+511
+00:22:34,260 --> 00:22:39,059
+can you say a whole sentence
+
+512
+00:22:37,100 --> 00:22:40,679
+add number
+
+513
+00:22:39,059 --> 00:22:42,659
+equals
+
+514
+00:22:40,679 --> 00:22:45,059
+we want to find out if there's a pass
+
+515
+00:22:42,659 --> 00:22:47,400
+from the loot to the leaf node let the
+
+516
+00:22:45,059 --> 00:22:50,220
+sum of the notes we have visited equals
+
+517
+00:22:47,400 --> 00:22:53,159
+to the Target right am I so there are
+
+518
+00:22:50,220 --> 00:22:55,559
+two ways of uh solving it
+
+519
+00:22:53,159 --> 00:22:57,179
+yeah and for deficitors we can do it
+
+520
+00:22:55,559 --> 00:22:59,280
+like two ways
+
+521
+00:22:57,179 --> 00:23:00,960
+yeah it's easier so next one we're going
+
+522
+00:22:59,280 --> 00:23:05,039
+to talk about purposes for the 10th
+
+523
+00:23:00,960 --> 00:23:06,900
+research we can uh pass down the value
+
+524
+00:23:05,039 --> 00:23:08,940
+that accumulate some line it could be
+
+525
+00:23:06,900 --> 00:23:13,820
+accumulation or it could be a dimension
+
+526
+00:23:08,940 --> 00:23:13,820
+okay that's it for today bye-bye bye bye
+

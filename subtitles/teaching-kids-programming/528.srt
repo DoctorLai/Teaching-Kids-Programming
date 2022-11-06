@@ -1,0 +1,2236 @@
+1
+00:00:00,060 --> 00:00:04,799
+hello Mr Eric I right
+
+2
+00:00:02,520 --> 00:00:08,280
+so let's take a look at this advice so
+
+3
+00:00:04,799 --> 00:00:10,260
+we talk about the concept of sub-array
+
+4
+00:00:08,280 --> 00:00:13,920
+sub array
+
+5
+00:00:10,260 --> 00:00:16,080
+or sub-list before right and we also
+
+6
+00:00:13,920 --> 00:00:19,279
+talk about subsequently do you still
+
+7
+00:00:16,080 --> 00:00:19,279
+remember what's the difference
+
+8
+00:00:19,560 --> 00:00:24,660
+what's the difference between Subway
+
+9
+00:00:21,240 --> 00:00:27,119
+Surface or algorithm is continuous and
+
+10
+00:00:24,660 --> 00:00:31,220
+others we can just pick out numbers
+
+11
+00:00:27,119 --> 00:00:31,220
+that's right so which one is continuous
+
+12
+00:00:32,040 --> 00:00:36,000
+no it's the opposite okay but it doesn't
+
+13
+00:00:34,200 --> 00:00:37,440
+matter actually it doesn't matter but as
+
+14
+00:00:36,000 --> 00:00:39,420
+long as you understand the one is
+
+15
+00:00:37,440 --> 00:00:41,040
+continuous one is not right this is just
+
+16
+00:00:39,420 --> 00:00:43,379
+the different names we're calling it
+
+17
+00:00:41,040 --> 00:00:44,840
+right okay stop away and sublist that
+
+18
+00:00:43,379 --> 00:00:48,480
+continues
+
+19
+00:00:44,840 --> 00:00:51,600
+subsequence is obtained by removing
+
+20
+00:00:48,480 --> 00:00:53,219
+zero or more elements from array so for
+
+21
+00:00:51,600 --> 00:00:55,500
+example if I can remove these two remove
+
+22
+00:00:53,219 --> 00:00:57,780
+this one and the remaining is ten five
+
+23
+00:00:55,500 --> 00:01:00,660
+ten right this is the subsequent the
+
+24
+00:00:57,780 --> 00:01:06,479
+subtle array is continued service right
+
+25
+00:01:00,660 --> 00:01:08,939
+10 20. 20 30 20 35 okay some array if a
+
+26
+00:01:06,479 --> 00:01:11,820
+problem is a Subway then usually we can
+
+27
+00:01:08,939 --> 00:01:14,100
+do it in o n Square time right o n
+
+28
+00:01:11,820 --> 00:01:16,200
+Square sub array continues so it means
+
+29
+00:01:14,100 --> 00:01:19,140
+that if we have a
+
+30
+00:01:16,200 --> 00:01:21,600
+left and if we have a right then we can
+
+31
+00:01:19,140 --> 00:01:25,259
+determine a sub array right so many
+
+32
+00:01:21,600 --> 00:01:28,080
+different sub arrays if there are ends
+
+33
+00:01:25,259 --> 00:01:30,720
+elements in Array they are how many so
+
+34
+00:01:28,080 --> 00:01:33,420
+each individual element is a sub array
+
+35
+00:01:30,720 --> 00:01:36,600
+right so it is cn1
+
+36
+00:01:33,420 --> 00:01:40,380
+and choice we pick one and animal we
+
+37
+00:01:36,600 --> 00:01:42,659
+pick one or if the sub array contains
+
+38
+00:01:40,380 --> 00:01:45,119
+more than one element is C and two all
+
+39
+00:01:42,659 --> 00:01:47,579
+right there are n numbers we pick one
+
+40
+00:01:45,119 --> 00:01:49,740
+one single number is a separate way it's
+
+41
+00:01:47,579 --> 00:01:52,079
+also a subsequent Subway is a subsequent
+
+42
+00:01:49,740 --> 00:01:54,479
+but no devices all right and this one
+
+43
+00:01:52,079 --> 00:01:56,100
+picking two what does it mean by picking
+
+44
+00:01:54,479 --> 00:01:58,979
+two you will pick this one and pick
+
+45
+00:01:56,100 --> 00:02:02,759
+another one pick two numbers out of the
+
+46
+00:01:58,979 --> 00:02:04,500
+array and then use it as the leftmost or
+
+47
+00:02:02,759 --> 00:02:07,619
+right mode right for example if we pick
+
+48
+00:02:04,500 --> 00:02:10,560
+ten and five and then we have a sub
+
+49
+00:02:07,619 --> 00:02:13,260
+array which is 10 20 35. if we pick 20
+
+50
+00:02:10,560 --> 00:02:17,700
+and we pick 50 it means we have a sub
+
+51
+00:02:13,260 --> 00:02:19,920
+array 20 35 10.50 races okay subsequence
+
+52
+00:02:17,700 --> 00:02:22,680
+usually it's uh you know the naive
+
+53
+00:02:19,920 --> 00:02:24,480
+solution the proof of solution is O2 to
+
+54
+00:02:22,680 --> 00:02:26,879
+the power n
+
+55
+00:02:24,480 --> 00:02:30,239
+subsequent each element we have two
+
+56
+00:02:26,879 --> 00:02:32,760
+choice we pick on our Peak right two
+
+57
+00:02:30,239 --> 00:02:35,819
+the second element we have two choice
+
+58
+00:02:32,760 --> 00:02:37,980
+pick on a pick right like an element so
+
+59
+00:02:35,819 --> 00:02:40,920
+two times two times two times two times
+
+60
+00:02:37,980 --> 00:02:42,900
+n times two to the power of n okay okay
+
+61
+00:02:40,920 --> 00:02:44,519
+so let's coming back to this question so
+
+62
+00:02:42,900 --> 00:02:47,160
+we want to find out
+
+63
+00:02:44,519 --> 00:02:49,019
+the separate way right containing the
+
+64
+00:02:47,160 --> 00:02:51,660
+max possible sum
+
+65
+00:02:49,019 --> 00:02:54,060
+however
+
+66
+00:02:51,660 --> 00:02:56,220
+there's only one requirement which is it
+
+67
+00:02:54,060 --> 00:02:59,879
+has to be ascending can you tell me
+
+68
+00:02:56,220 --> 00:03:02,220
+which sub arrays here in this one is
+
+69
+00:02:59,879 --> 00:03:08,060
+ascending containing ascending numbers
+
+70
+00:03:02,220 --> 00:03:13,860
+so increasing right 18 20 30. yeah yeah
+
+71
+00:03:08,060 --> 00:03:18,260
+and 5 10 50. okay so we have two right
+
+72
+00:03:13,860 --> 00:03:18,260
+so which one has the most Sun
+
+73
+00:03:19,440 --> 00:03:25,680
+okay so the question needs to be
+
+74
+00:03:21,599 --> 00:03:28,620
+answered 65. ascending ascending
+
+75
+00:03:25,680 --> 00:03:31,319
+this is quite similar to uh longest
+
+76
+00:03:28,620 --> 00:03:33,120
+increasing subsequent not unnecessary
+
+77
+00:03:31,319 --> 00:03:34,980
+continuous so long is increasing
+
+78
+00:03:33,120 --> 00:03:37,019
+subsequence we use the dynamic
+
+79
+00:03:34,980 --> 00:03:38,940
+programming and greedy prime minister we
+
+80
+00:03:37,019 --> 00:03:41,340
+talked about a long time ago right but
+
+81
+00:03:38,940 --> 00:03:45,420
+today we are focusing on sub array which
+
+82
+00:03:41,340 --> 00:03:47,340
+is the maximum increasing stock array
+
+83
+00:03:45,420 --> 00:03:49,760
+sum okay
+
+84
+00:03:47,340 --> 00:03:53,640
+is there gonna be negative numbers
+
+85
+00:03:49,760 --> 00:03:54,720
+that's a very good question you
+
+86
+00:03:53,640 --> 00:03:57,560
+you get
+
+87
+00:03:54,720 --> 00:03:57,560
+even get the same
+
+88
+00:04:00,599 --> 00:04:06,000
+person yeah okay the most naive solution
+
+89
+00:04:03,360 --> 00:04:07,140
+which will be I just said Ln square
+
+90
+00:04:06,000 --> 00:04:11,159
+right
+
+91
+00:04:07,140 --> 00:04:13,739
+we do this right four I in
+
+92
+00:04:11,159 --> 00:04:18,840
+in range
+
+93
+00:04:13,739 --> 00:04:23,400
+and the left yeah for J in red
+
+94
+00:04:18,840 --> 00:04:25,380
+we start from the I uh start from I
+
+95
+00:04:23,400 --> 00:04:27,360
+right to n
+
+96
+00:04:25,380 --> 00:04:31,860
+and then the sub array is what some
+
+97
+00:04:27,360 --> 00:04:34,919
+array is number a r r i to J plus one
+
+98
+00:04:31,860 --> 00:04:38,220
+right to J plus one meaning inclusive J
+
+99
+00:04:34,919 --> 00:04:40,919
+okay so then we have to check if s is
+
+100
+00:04:38,220 --> 00:04:43,199
+increasing and strictly increasing right
+
+101
+00:04:40,919 --> 00:04:45,660
+if it's strictly increasing then answer
+
+102
+00:04:43,199 --> 00:04:50,280
+at the beginning zero answer equals
+
+103
+00:04:45,660 --> 00:04:52,259
+maximum of answer and then sum of s
+
+104
+00:04:50,280 --> 00:04:54,060
+right yeah
+
+105
+00:04:52,259 --> 00:04:55,919
+so return answer
+
+106
+00:04:54,060 --> 00:04:59,160
+so what's the time complexity if you're
+
+107
+00:04:55,919 --> 00:05:00,600
+looking at this naive solution yeah
+
+108
+00:04:59,160 --> 00:05:03,419
+oh and
+
+109
+00:05:00,600 --> 00:05:05,699
+always Square this is to check if the
+
+110
+00:05:03,419 --> 00:05:07,560
+array is strictly increasing that's our
+
+111
+00:05:05,699 --> 00:05:12,900
+n
+
+112
+00:05:07,560 --> 00:05:15,600
+so here o n o n o n o n o n o n
+
+113
+00:05:12,900 --> 00:05:18,660
+and here is our Empire this is in the
+
+114
+00:05:15,600 --> 00:05:21,120
+same so linear time here right I'm not
+
+115
+00:05:18,660 --> 00:05:22,800
+so oh and cubic a naive solution is over
+
+116
+00:05:21,120 --> 00:05:24,000
+and give you do we have a better
+
+117
+00:05:22,800 --> 00:05:25,500
+solution
+
+118
+00:05:24,000 --> 00:05:28,440
+okay
+
+119
+00:05:25,500 --> 00:05:31,560
+10 30 60
+
+120
+00:05:28,440 --> 00:05:33,539
+oh this is too small
+
+121
+00:05:31,560 --> 00:05:37,139
+so I start five
+
+122
+00:05:33,539 --> 00:05:41,120
+fifteen sixty five
+
+123
+00:05:37,139 --> 00:05:41,120
+so what did I do hmm
+
+124
+00:05:44,110 --> 00:05:47,199
+[Music]
+
+125
+00:05:48,320 --> 00:05:53,880
+do we start when it's too small it's
+
+126
+00:05:51,000 --> 00:05:55,680
+yeah it's perfect this is like a a land
+
+127
+00:05:53,880 --> 00:05:56,960
+and then if it's too small it means
+
+128
+00:05:55,680 --> 00:05:59,400
+there's a river
+
+129
+00:05:56,960 --> 00:06:02,400
+so we're basically finding the size
+
+130
+00:05:59,400 --> 00:06:04,080
+maximum size of the length and you can
+
+131
+00:06:02,400 --> 00:06:07,259
+think of a river and then we jump when
+
+132
+00:06:04,080 --> 00:06:09,840
+we jump to the next one then we have to
+
+133
+00:06:07,259 --> 00:06:12,720
+restart reset the counter right okay so
+
+134
+00:06:09,840 --> 00:06:16,220
+we have a answer at the beginning zero
+
+135
+00:06:12,720 --> 00:06:20,400
+and we have a carbon sum which is zero
+
+136
+00:06:16,220 --> 00:06:22,680
+okay look 10
+
+137
+00:06:20,400 --> 00:06:26,039
+10. yeah
+
+138
+00:06:22,680 --> 00:06:28,740
+the answer is the maximum of these
+
+139
+00:06:26,039 --> 00:06:32,160
+current answer like 10.
+
+140
+00:06:28,740 --> 00:06:36,060
+class 20 right this is still increasing
+
+141
+00:06:32,160 --> 00:06:39,419
+plus 20 so plus 20 here plus 30
+
+142
+00:06:36,060 --> 00:06:40,680
+plus 30 kilo F okay so so the next one
+
+143
+00:06:39,419 --> 00:06:43,620
+is smaller
+
+144
+00:06:40,680 --> 00:06:45,660
+right so we have to reset it to
+
+145
+00:06:43,620 --> 00:06:48,600
+five right
+
+146
+00:06:45,660 --> 00:06:51,479
+now look 5 compared to the answer is
+
+147
+00:06:48,600 --> 00:06:54,600
+smaller so we just ignore it right pi
+
+148
+00:06:51,479 --> 00:06:58,199
+plus the next one is increasing plus 10
+
+149
+00:06:54,600 --> 00:07:00,000
+all right 15 is smaller than the maximum
+
+150
+00:06:58,199 --> 00:07:04,440
+we have seen so far we're just ignoring
+
+151
+00:07:00,000 --> 00:07:08,940
+and now five plus ten plus 50.
+
+152
+00:07:04,440 --> 00:07:11,880
+right what's the sum 65 65 is larger
+
+153
+00:07:08,940 --> 00:07:13,919
+than 100 best we update the current
+
+154
+00:07:11,880 --> 00:07:15,419
+price to 65.
+
+155
+00:07:13,919 --> 00:07:18,860
+make sense
+
+156
+00:07:15,419 --> 00:07:21,120
+which one is better which one is quicker
+
+157
+00:07:18,860 --> 00:07:24,720
+this one is quicker because we're just
+
+158
+00:07:21,120 --> 00:07:27,120
+going to once but for this one I have to
+
+159
+00:07:24,720 --> 00:07:29,880
+go through this and then for each eye we
+
+160
+00:07:27,120 --> 00:07:33,660
+have to go to J and then again to
+
+161
+00:07:29,880 --> 00:07:35,819
+calculate sum of the sub array right and
+
+162
+00:07:33,660 --> 00:07:37,860
+for this one the time complexity oh n
+
+163
+00:07:35,819 --> 00:07:40,020
+times o n times this one checking if
+
+164
+00:07:37,860 --> 00:07:42,360
+it's in strictly increasing this is
+
+165
+00:07:40,020 --> 00:07:45,479
+taking another o n times so o n cube
+
+166
+00:07:42,360 --> 00:07:47,880
+right the sum we can do this accumulate
+
+167
+00:07:45,479 --> 00:07:50,880
+sum so for this one it doesn't next we
+
+168
+00:07:47,880 --> 00:07:53,639
+take or when we can optimize this b201
+
+169
+00:07:50,880 --> 00:07:56,039
+but still because overall time
+
+170
+00:07:53,639 --> 00:07:58,560
+complexity is o n times o n times o n
+
+171
+00:07:56,039 --> 00:08:00,479
+which is o n q b okay for this one okay
+
+172
+00:07:58,560 --> 00:08:02,220
+so let's implement this a little bit
+
+173
+00:08:00,479 --> 00:08:03,539
+okay think about it what have you
+
+174
+00:08:02,220 --> 00:08:05,039
+learned okay I'm gonna ask you a
+
+175
+00:08:03,539 --> 00:08:08,840
+question later
+
+176
+00:08:05,039 --> 00:08:12,919
+Define this is the max
+
+177
+00:08:08,840 --> 00:08:12,919
+increasing sub array
+
+178
+00:08:13,139 --> 00:08:17,340
+sum okay
+
+179
+00:08:15,000 --> 00:08:20,280
+all right
+
+180
+00:08:17,340 --> 00:08:23,819
+n equals the length we first of all get
+
+181
+00:08:20,280 --> 00:08:26,220
+the lens how many elements in Array if
+
+182
+00:08:23,819 --> 00:08:28,620
+not n if it's an empty array you just
+
+183
+00:08:26,220 --> 00:08:32,719
+written zero right it will give me
+
+184
+00:08:28,620 --> 00:08:36,300
+nothing then simply answer zero answer
+
+185
+00:08:32,719 --> 00:08:38,760
+equals carbon current sum equals the
+
+186
+00:08:36,300 --> 00:08:42,839
+first number is arr0
+
+187
+00:08:38,760 --> 00:08:50,820
+then four I invent
+
+188
+00:08:42,839 --> 00:08:53,339
+one to n so look 10 20 35 10 50 right so
+
+189
+00:08:50,820 --> 00:08:55,680
+we start with this number second number
+
+190
+00:08:53,339 --> 00:09:00,360
+by comparing to the previous one right
+
+191
+00:08:55,680 --> 00:09:03,720
+so look if a r r i is bigger than the
+
+192
+00:09:00,360 --> 00:09:06,839
+previous one which is a r r i minus one
+
+193
+00:09:03,720 --> 00:09:08,279
+right so look we are here AI it is this
+
+194
+00:09:06,839 --> 00:09:10,920
+one number is bigger than the previous
+
+195
+00:09:08,279 --> 00:09:13,620
+one so it's increasing right so
+
+196
+00:09:10,920 --> 00:09:16,260
+increasing man carbon this is the
+
+197
+00:09:13,620 --> 00:09:19,080
+current sum current sum plus equals a r
+
+198
+00:09:16,260 --> 00:09:21,600
+r i right because current at the
+
+199
+00:09:19,080 --> 00:09:24,180
+beginning is set to the uh the first
+
+200
+00:09:21,600 --> 00:09:25,980
+number right now we have 20. so 20 is
+
+201
+00:09:24,180 --> 00:09:28,140
+bigger than the previous number so the
+
+202
+00:09:25,980 --> 00:09:30,480
+sum is 30 all right
+
+203
+00:09:28,140 --> 00:09:32,399
+else okay you tell me what's this if
+
+204
+00:09:30,480 --> 00:09:36,300
+it's not strictly bigger what should we
+
+205
+00:09:32,399 --> 00:09:38,339
+do if AR if this number is not bigger
+
+206
+00:09:36,300 --> 00:09:40,500
+than the previous number so what should
+
+207
+00:09:38,339 --> 00:09:43,740
+we do here this number is bigger than
+
+208
+00:09:40,500 --> 00:09:46,260
+the previous one so the sum is 30. if
+
+209
+00:09:43,740 --> 00:09:48,060
+this number is like 5
+
+210
+00:09:46,260 --> 00:09:50,839
+is like five
+
+211
+00:09:48,060 --> 00:09:56,700
+so what's the sum of this current land
+
+212
+00:09:50,839 --> 00:10:02,300
+five so comma equals this is a r r i
+
+213
+00:09:56,700 --> 00:10:02,300
+this is a r r i minus one okay
+
+214
+00:10:03,320 --> 00:10:09,300
+what's current current means the sum of
+
+215
+00:10:06,360 --> 00:10:11,040
+the current increasing sub array so if
+
+216
+00:10:09,300 --> 00:10:12,000
+this number is bigger than the previous
+
+217
+00:10:11,040 --> 00:10:16,080
+one
+
+218
+00:10:12,000 --> 00:10:18,420
+so the current increasing sum the sum of
+
+219
+00:10:16,080 --> 00:10:19,980
+current increasing salary plus 20 am I
+
+220
+00:10:18,420 --> 00:10:23,160
+right
+
+221
+00:10:19,980 --> 00:10:25,080
+now look if this is five or six smaller
+
+222
+00:10:23,160 --> 00:10:27,360
+than the previous number the current
+
+223
+00:10:25,080 --> 00:10:29,100
+increasing sum should be set to which
+
+224
+00:10:27,360 --> 00:10:31,140
+number
+
+225
+00:10:29,100 --> 00:10:34,500
+should be set to which number because we
+
+226
+00:10:31,140 --> 00:10:38,040
+are restarting with counting anyway I
+
+227
+00:10:34,500 --> 00:10:41,040
+currently I okay now current sum we have
+
+228
+00:10:38,040 --> 00:10:42,959
+this current we have foreign sum which
+
+229
+00:10:41,040 --> 00:10:45,480
+is the sum of the current increasing
+
+230
+00:10:42,959 --> 00:10:48,060
+Subway so here we need to update it
+
+231
+00:10:45,480 --> 00:10:49,700
+check the Maxima answer equals Max
+
+232
+00:10:48,060 --> 00:10:54,360
+current
+
+233
+00:10:49,700 --> 00:10:56,579
+and the second parameter yeah
+
+234
+00:10:54,360 --> 00:11:00,899
+every time the answer stores in maximum
+
+235
+00:10:56,579 --> 00:11:03,800
+currently I will return return
+
+236
+00:11:00,899 --> 00:11:03,800
+answer
+
+237
+00:11:06,620 --> 00:11:11,220
+what's else
+
+238
+00:11:08,579 --> 00:11:13,740
+the numbers
+
+239
+00:11:11,220 --> 00:11:16,560
+n is the numbers does it make sense
+
+240
+00:11:13,740 --> 00:11:17,880
+what's n the number
+
+241
+00:11:16,560 --> 00:11:20,040
+what numbers
+
+242
+00:11:17,880 --> 00:11:23,399
+in that number
+
+243
+00:11:20,040 --> 00:11:26,399
+and okay so n is one number yeah
+
+244
+00:11:23,399 --> 00:11:26,399
+nice
+
+245
+00:11:26,480 --> 00:11:32,720
+oh and what's m and means
+
+246
+00:11:30,260 --> 00:11:36,060
+what numbers
+
+247
+00:11:32,720 --> 00:11:38,820
+so what are but what about those numbers
+
+248
+00:11:36,060 --> 00:11:42,300
+is it a particular number or what we are
+
+249
+00:11:38,820 --> 00:11:44,160
+given an array what's m hooray array
+
+250
+00:11:42,300 --> 00:11:47,160
+it's is it a number
+
+251
+00:11:44,160 --> 00:11:47,160
+yes
+
+252
+00:11:48,240 --> 00:11:53,940
+what nose number it's a single number or
+
+253
+00:11:50,519 --> 00:11:55,920
+inside oh and what do I talk about array
+
+254
+00:11:53,940 --> 00:11:59,339
+yeah
+
+255
+00:11:55,920 --> 00:12:01,140
+yeah what do you understand what's on
+
+256
+00:11:59,339 --> 00:12:05,579
+it's the
+
+257
+00:12:01,140 --> 00:12:07,800
+you need to take the amount of
+
+258
+00:12:05,579 --> 00:12:11,220
+those numbers
+
+259
+00:12:07,800 --> 00:12:14,160
+okay so look o and n is the number of
+
+260
+00:12:11,220 --> 00:12:16,500
+elements in the array so what's Owen O N
+
+261
+00:12:14,160 --> 00:12:19,380
+means that when the size look if this is
+
+262
+00:12:16,500 --> 00:12:23,339
+five uh this is six elements
+
+263
+00:12:19,380 --> 00:12:25,380
+if this array contains 600
+
+264
+00:12:23,339 --> 00:12:28,019
+right so what happened
+
+265
+00:12:25,380 --> 00:12:32,399
+the time complexity so it's a linear
+
+266
+00:12:28,019 --> 00:12:35,339
+Nina yeah this is n this is T time so
+
+267
+00:12:32,399 --> 00:12:38,100
+it's linear o n right it describes how
+
+268
+00:12:35,339 --> 00:12:40,380
+the complexity scale with the size of
+
+269
+00:12:38,100 --> 00:12:44,220
+the problem the N is the size of the
+
+270
+00:12:40,380 --> 00:12:48,920
+program which is the lump of the numbers
+
+271
+00:12:44,220 --> 00:12:48,920
+the number of the numbers make sense
+
+272
+00:12:49,279 --> 00:12:55,320
+is a number yeah but it's not very clear
+
+273
+00:12:52,560 --> 00:12:58,680
+when you describe it we make it 10 times
+
+274
+00:12:55,320 --> 00:13:01,860
+more of the size the size becomes 10
+
+275
+00:12:58,680 --> 00:13:03,899
+times more the tongue spending the comes
+
+276
+00:13:01,860 --> 00:13:07,680
+next to spending will be 10 times more
+
+277
+00:13:03,899 --> 00:13:11,040
+that's om right right but look o n
+
+278
+00:13:07,680 --> 00:13:13,260
+Square will be like that right oh log n
+
+279
+00:13:11,040 --> 00:13:15,300
+would be like that right so it describes
+
+280
+00:13:13,260 --> 00:13:18,480
+the complexity so which one is better
+
+281
+00:13:15,300 --> 00:13:21,660
+obviously login right and increases the
+
+282
+00:13:18,480 --> 00:13:23,279
+scale the size the scale of the time
+
+283
+00:13:21,660 --> 00:13:27,000
+complexity
+
+284
+00:13:23,279 --> 00:13:30,240
+does not increase so much as linear or
+
+285
+00:13:27,000 --> 00:13:33,839
+quadratic we call it this quadratic yeah
+
+286
+00:13:30,240 --> 00:13:37,139
+face complexity are we using any
+
+287
+00:13:33,839 --> 00:13:38,519
+one a one we are using constant space Oh
+
+288
+00:13:37,139 --> 00:13:40,860
+that means that we are using constant
+
+289
+00:13:38,519 --> 00:13:43,200
+space look n here
+
+290
+00:13:40,860 --> 00:13:46,620
+answer current these are only three
+
+291
+00:13:43,200 --> 00:13:48,720
+variables and possibly here yeah four
+
+292
+00:13:46,620 --> 00:13:51,540
+variables one two three four four
+
+293
+00:13:48,720 --> 00:13:53,940
+variables when the size of the array
+
+294
+00:13:51,540 --> 00:13:55,100
+gets to a minion how many variables do
+
+295
+00:13:53,940 --> 00:13:58,740
+we need
+
+296
+00:13:55,100 --> 00:14:00,720
+uh fool when this size of the element
+
+297
+00:13:58,740 --> 00:14:03,959
+gets to a trillion a billion whatever
+
+298
+00:14:00,720 --> 00:14:07,519
+how many variables four that's right a
+
+299
+00:14:03,959 --> 00:14:10,680
+one constant what a one yeah
+
+300
+00:14:07,519 --> 00:14:13,800
+look this is X this is y right one is
+
+301
+00:14:10,680 --> 00:14:15,600
+here so when the N increases the value
+
+302
+00:14:13,800 --> 00:14:18,480
+doesn't change right that's why it means
+
+303
+00:14:15,600 --> 00:14:19,800
+a one okay what have you learned today
+
+304
+00:14:18,480 --> 00:14:23,339
+[Music]
+
+305
+00:14:19,800 --> 00:14:25,700
+about numbers and you're gonna add
+
+306
+00:14:23,339 --> 00:14:27,920
+find the
+
+307
+00:14:25,700 --> 00:14:31,980
+sub the
+
+308
+00:14:27,920 --> 00:14:34,860
+this this the greatest sum of the
+
+309
+00:14:31,980 --> 00:14:36,480
+celebrate and it's it's ending summary
+
+310
+00:14:34,860 --> 00:14:38,639
+and yeah
+
+311
+00:14:36,480 --> 00:14:42,839
+that's the problem and how are we doing
+
+312
+00:14:38,639 --> 00:14:46,800
+it we are doing it by
+
+313
+00:14:42,839 --> 00:14:50,220
+we have two solutions and that one is
+
+314
+00:14:46,800 --> 00:14:55,380
+the one when you go through the the
+
+315
+00:14:50,220 --> 00:14:59,820
+numbers of the numbers and and you
+
+316
+00:14:55,380 --> 00:15:03,959
+e plus the numbers on the way and and if
+
+317
+00:14:59,820 --> 00:15:07,920
+you have a drop to a smaller number you
+
+318
+00:15:03,959 --> 00:15:10,320
+restart and and restarts the current and
+
+319
+00:15:07,920 --> 00:15:15,000
+an nvnd
+
+320
+00:15:10,320 --> 00:15:17,579
+give a fine give the greatest look for
+
+321
+00:15:15,000 --> 00:15:19,980
+the greatest comment and and then that's
+
+322
+00:15:17,579 --> 00:15:22,800
+the answer we're done perfect let me
+
+323
+00:15:19,980 --> 00:15:24,420
+repeat okay to sum up so today we
+
+324
+00:15:22,800 --> 00:15:27,060
+describe a problem we want to find out
+
+325
+00:15:24,420 --> 00:15:29,639
+the maximum sum of the increasing sub
+
+326
+00:15:27,060 --> 00:15:32,040
+array right and we can use the proof of
+
+327
+00:15:29,639 --> 00:15:34,760
+the most straightforward solution most
+
+328
+00:15:32,040 --> 00:15:37,380
+intuitive solution which is to iterate
+
+329
+00:15:34,760 --> 00:15:40,880
+overload some arrays and we can do this
+
+330
+00:15:37,380 --> 00:15:43,860
+in o n Square to go over those actual
+
+331
+00:15:40,880 --> 00:15:46,019
+summaries but again when we get a
+
+332
+00:15:43,860 --> 00:15:47,940
+summary we need to check if it's a
+
+333
+00:15:46,019 --> 00:15:50,339
+strictly increasing and that takes our
+
+334
+00:15:47,940 --> 00:15:52,740
+end time if it is strictly increasing we
+
+335
+00:15:50,339 --> 00:15:55,079
+calculate sum which could be accumulated
+
+336
+00:15:52,740 --> 00:15:57,959
+right it doesn't have to be linear to
+
+337
+00:15:55,079 --> 00:16:00,420
+calculate the sum of the sub array so
+
+338
+00:15:57,959 --> 00:16:02,820
+that takes o and QB that's too slow way
+
+339
+00:16:00,420 --> 00:16:05,459
+too slow the way we're proposing here
+
+340
+00:16:02,820 --> 00:16:07,860
+yeah is that we keep tracking of two
+
+341
+00:16:05,459 --> 00:16:10,740
+variables one is the global maximum the
+
+342
+00:16:07,860 --> 00:16:15,060
+other one is the current sum of the
+
+343
+00:16:10,740 --> 00:16:17,820
+increasing sub array right so we check
+
+344
+00:16:15,060 --> 00:16:20,279
+if currently if we have this increase in
+
+345
+00:16:17,820 --> 00:16:22,800
+salary if it is then we updated the
+
+346
+00:16:20,279 --> 00:16:25,199
+current sum and we update the global
+
+347
+00:16:22,800 --> 00:16:26,160
+maximum otherwise but not even the next
+
+348
+00:16:25,199 --> 00:16:28,639
+number
+
+349
+00:16:26,160 --> 00:16:32,639
+yeah if we meet a new number which is
+
+350
+00:16:28,639 --> 00:16:35,820
+decreasing or it's equal then we have to
+
+351
+00:16:32,639 --> 00:16:38,699
+reset the current sum all right we have
+
+352
+00:16:35,820 --> 00:16:40,560
+to reset the current time yeah so this
+
+353
+00:16:38,699 --> 00:16:42,720
+is our end time because we just simply
+
+354
+00:16:40,560 --> 00:16:45,480
+go to the array once the space
+
+355
+00:16:42,720 --> 00:16:47,880
+complexity is a one constant and we're
+
+356
+00:16:45,480 --> 00:16:50,480
+using constantial space okay that's it
+
+357
+00:16:47,880 --> 00:16:50,480
+for today bye
+
+358
+00:16:51,839 --> 00:16:56,820
+hello Ryan
+
+359
+00:16:54,360 --> 00:16:59,220
+look uh we have given this array of
+
+360
+00:16:56,820 --> 00:17:02,160
+numbers positive numbers yeah for
+
+361
+00:16:59,220 --> 00:17:05,339
+Simplicity so we want to find out the
+
+362
+00:17:02,160 --> 00:17:09,179
+maximum possible sum of a sub array
+
+363
+00:17:05,339 --> 00:17:11,280
+which is ascending so summary and all
+
+364
+00:17:09,179 --> 00:17:15,120
+sublets right we talk about the concept
+
+365
+00:17:11,280 --> 00:17:17,699
+array service and subsequence do you
+
+366
+00:17:15,120 --> 00:17:21,980
+still remember what's the difference
+
+367
+00:17:17,699 --> 00:17:21,980
+which one is continuous which one is not
+
+368
+00:17:22,140 --> 00:17:27,900
+array is continuous continuous
+
+369
+00:17:25,020 --> 00:17:31,620
+sequence is not right subsequent is
+
+370
+00:17:27,900 --> 00:17:33,840
+obtained by removing zero or more
+
+371
+00:17:31,620 --> 00:17:35,280
+element from the original race for
+
+372
+00:17:33,840 --> 00:17:37,380
+example I can remove any possible
+
+373
+00:17:35,280 --> 00:17:40,440
+combination of the arrays and the
+
+374
+00:17:37,380 --> 00:17:42,059
+remaining is the subsequent subarray is
+
+375
+00:17:40,440 --> 00:17:45,360
+continuous so basically you have the
+
+376
+00:17:42,059 --> 00:17:47,580
+left and right and everything continues
+
+377
+00:17:45,360 --> 00:17:50,400
+that's a salary right convenience so we
+
+378
+00:17:47,580 --> 00:17:53,700
+want to find out the possible maximum
+
+379
+00:17:50,400 --> 00:17:56,340
+sum of sub array right continuous and
+
+380
+00:17:53,700 --> 00:17:59,340
+the only requirement is that the subway
+
+381
+00:17:56,340 --> 00:18:01,500
+consists the ascending numbers so it has
+
+382
+00:17:59,340 --> 00:18:03,360
+to be ascending right that's the one
+
+383
+00:18:01,500 --> 00:18:05,220
+problem we used to look at which is the
+
+384
+00:18:03,360 --> 00:18:08,039
+longest increasing subsequent right and
+
+385
+00:18:05,220 --> 00:18:10,020
+we use the two ways one is the dynamic
+
+386
+00:18:08,039 --> 00:18:11,640
+programming the other one is the 3D
+
+387
+00:18:10,020 --> 00:18:13,980
+original balance search for that right
+
+388
+00:18:11,640 --> 00:18:15,660
+so given this what's the maximum sum of
+
+389
+00:18:13,980 --> 00:18:18,299
+sub-array
+
+390
+00:18:15,660 --> 00:18:20,580
+which has the increasing numbers can you
+
+391
+00:18:18,299 --> 00:18:23,940
+find it so we want to find out the
+
+392
+00:18:20,580 --> 00:18:26,700
+maximum Max sum
+
+393
+00:18:23,940 --> 00:18:29,100
+of sub array which is increasing right
+
+394
+00:18:26,700 --> 00:18:32,340
+so for number 10 20 30. this is the
+
+395
+00:18:29,100 --> 00:18:36,960
+summary it's increasing right so the sum
+
+396
+00:18:32,340 --> 00:18:40,200
+is 60. there's what 10 20 35 10 and 5.
+
+397
+00:18:36,960 --> 00:18:44,220
+okay yes so this one yeah and this one
+
+398
+00:18:40,200 --> 00:18:46,500
+so which one has the largest sum no the
+
+399
+00:18:44,220 --> 00:18:47,460
+the second one doesn't include the last
+
+400
+00:18:46,500 --> 00:18:50,760
+five
+
+401
+00:18:47,460 --> 00:18:53,340
+is only 5 10. uh oh okay yeah you're
+
+402
+00:18:50,760 --> 00:18:55,559
+right actually this is 50. okay the
+
+403
+00:18:53,340 --> 00:18:57,660
+second one second one that's 65 okay
+
+404
+00:18:55,559 --> 00:19:00,780
+you're right yeah 65
+
+405
+00:18:57,660 --> 00:19:02,700
+yeah one number right for the second
+
+406
+00:19:00,780 --> 00:19:04,559
+example what's the maximum sum of uh
+
+407
+00:19:02,700 --> 00:19:06,419
+increasing salary
+
+408
+00:19:04,559 --> 00:19:07,799
+I'm 10 25
+
+409
+00:19:06,419 --> 00:19:09,299
+yeah everything yeah because it's
+
+410
+00:19:07,799 --> 00:19:11,480
+increasing okay and how about the third
+
+411
+00:19:09,299 --> 00:19:11,480
+one
+
+412
+00:19:12,480 --> 00:19:17,840
+we're done 10 11 12. this is bigger than
+
+413
+00:19:15,419 --> 00:19:20,400
+that right
+
+414
+00:19:17,840 --> 00:19:22,260
+how do you find out the second one is
+
+415
+00:19:20,400 --> 00:19:24,059
+the the increasing how do you know it's
+
+416
+00:19:22,260 --> 00:19:25,380
+increasing just look at it
+
+417
+00:19:24,059 --> 00:19:28,640
+and then it's all increasing in
+
+418
+00:19:25,380 --> 00:19:28,640
+syncreasing and how about this one
+
+419
+00:19:29,580 --> 00:19:32,059
+yeah
+
+420
+00:19:30,539 --> 00:19:35,460
+but now
+
+421
+00:19:32,059 --> 00:19:39,620
+so what happened when the next number is
+
+422
+00:19:35,460 --> 00:19:42,840
+smaller it's not increasing anymore yeah
+
+423
+00:19:39,620 --> 00:19:45,000
+we start with restart here right yes
+
+424
+00:19:42,840 --> 00:19:47,340
+yes okay so yes you're right yes so
+
+425
+00:19:45,000 --> 00:19:50,039
+let's look at this we keep checking of
+
+426
+00:19:47,340 --> 00:19:52,080
+the sum of the current surface if we
+
+427
+00:19:50,039 --> 00:19:54,780
+break it somehow if we move to a smaller
+
+428
+00:19:52,080 --> 00:19:57,840
+Lumber which is our equal number which
+
+429
+00:19:54,780 --> 00:20:00,360
+is not increasing anymore then we reset
+
+430
+00:19:57,840 --> 00:20:03,539
+the sum all right we will say the sum
+
+431
+00:20:00,360 --> 00:20:05,820
+and we accumulate again and then in the
+
+432
+00:20:03,539 --> 00:20:07,860
+meanwhile we have to keep tracking of a
+
+433
+00:20:05,820 --> 00:20:11,039
+global maximum all right
+
+434
+00:20:07,860 --> 00:20:13,559
+common sum equals zero and the maximum
+
+435
+00:20:11,039 --> 00:20:15,299
+equals yellow first of all we start with
+
+436
+00:20:13,559 --> 00:20:17,880
+the first one so current sum is 10
+
+437
+00:20:15,299 --> 00:20:20,760
+maximum is 10 right because every single
+
+438
+00:20:17,880 --> 00:20:24,000
+number is increasing seven right
+
+439
+00:20:20,760 --> 00:20:28,020
+the next one is bigger so the current
+
+440
+00:20:24,000 --> 00:20:29,520
+sum plus 20 all right it's bigger the
+
+441
+00:20:28,020 --> 00:20:32,520
+maximum sum
+
+442
+00:20:29,520 --> 00:20:34,860
+10 and 30 which is
+
+443
+00:20:32,520 --> 00:20:40,740
+30 people all right
+
+444
+00:20:34,860 --> 00:20:44,760
+and then plus 30 60 60. and 60 and Max
+
+445
+00:20:40,740 --> 00:20:46,620
+30 60 is bigger so we updated 60. okay
+
+446
+00:20:44,760 --> 00:20:47,700
+what happened here five we don't add the
+
+447
+00:20:46,620 --> 00:20:50,280
+five right
+
+448
+00:20:47,700 --> 00:20:53,039
+so instead we change it to Five Sixty
+
+449
+00:20:50,280 --> 00:20:54,720
+and Five Sixty we keep 60.
+
+450
+00:20:53,039 --> 00:20:57,480
+10.
+
+451
+00:20:54,720 --> 00:21:02,280
+11 15 right
+
+452
+00:20:57,480 --> 00:21:07,380
+15 and 60. we keep 60. and then next one
+
+453
+00:21:02,280 --> 00:21:09,360
+65 65 and 60. we keep 65 right that's
+
+454
+00:21:07,380 --> 00:21:11,160
+why we find the 60 okay let's try this
+
+455
+00:21:09,360 --> 00:21:15,179
+example okay
+
+456
+00:21:11,160 --> 00:21:17,340
+a current sum equals 12 which is
+
+457
+00:21:15,179 --> 00:21:21,240
+defaulted to the first number the
+
+458
+00:21:17,340 --> 00:21:26,880
+maximum sum which is 12 as well okay 12
+
+459
+00:21:21,240 --> 00:21:30,320
+and 70 plus 70. obviously this is Theta
+
+460
+00:21:26,880 --> 00:21:33,900
+next one is smaller to listen to 15 okay
+
+461
+00:21:30,320 --> 00:21:36,360
+15 and this one this one is bigger
+
+462
+00:21:33,900 --> 00:21:38,940
+the next one is smaller so we reset it
+
+463
+00:21:36,360 --> 00:21:39,960
+to 13. nothing is smaller than that
+
+464
+00:21:38,940 --> 00:21:42,240
+right
+
+465
+00:21:39,960 --> 00:21:45,000
+and the next one
+
+466
+00:21:42,240 --> 00:21:47,940
+is smaller than 13 so we reset it to 10
+
+467
+00:21:45,000 --> 00:21:51,240
+and this one is bigger 10 the next one
+
+468
+00:21:47,940 --> 00:21:53,400
+is 11. 10 plus 11 right
+
+469
+00:21:51,240 --> 00:21:56,159
+10 plus u time and smaller than this one
+
+470
+00:21:53,400 --> 00:21:58,620
+we keep this one and the next one
+
+471
+00:21:56,159 --> 00:22:01,380
+is part of the increasing service with
+
+472
+00:21:58,620 --> 00:22:03,299
+plus 12. so this one is bigger right
+
+473
+00:22:01,380 --> 00:22:05,880
+this one is bigger than that so we will
+
+474
+00:22:03,299 --> 00:22:06,960
+place the global sum with 10 plus 11
+
+475
+00:22:05,880 --> 00:22:09,419
+plus
+
+476
+00:22:06,960 --> 00:22:11,760
+all right and then that equals five
+
+477
+00:22:09,419 --> 00:22:14,039
+three yeah so this way okay so for the
+
+478
+00:22:11,760 --> 00:22:16,380
+second example we always increment this
+
+479
+00:22:14,039 --> 00:22:18,240
+current sum because there's no breakage
+
+480
+00:22:16,380 --> 00:22:21,200
+right there's no breakage so if
+
+481
+00:22:18,240 --> 00:22:24,600
+everything is increasing okay
+
+482
+00:22:21,200 --> 00:22:27,059
+defy with the style function declaration
+
+483
+00:22:24,600 --> 00:22:29,460
+using Define the
+
+484
+00:22:27,059 --> 00:22:31,640
+maximum
+
+485
+00:22:29,460 --> 00:22:34,860
+sub list
+
+486
+00:22:31,640 --> 00:22:37,020
+increasing sum okay
+
+487
+00:22:34,860 --> 00:22:41,280
+all right
+
+488
+00:22:37,020 --> 00:22:45,179
+if not array if we are given the empty
+
+489
+00:22:41,280 --> 00:22:48,480
+array we can zeros and equal the length
+
+490
+00:22:45,179 --> 00:22:53,720
+of the array the current sum equals the
+
+491
+00:22:48,480 --> 00:22:56,580
+first number AR 0 and then the answer
+
+492
+00:22:53,720 --> 00:22:58,620
+equals the first number as well we go
+
+493
+00:22:56,580 --> 00:23:00,600
+through the second number to the end for
+
+494
+00:22:58,620 --> 00:23:03,059
+I in range
+
+495
+00:23:00,600 --> 00:23:05,880
+1 to the end
+
+496
+00:23:03,059 --> 00:23:07,440
+all right look if this number well if
+
+497
+00:23:05,880 --> 00:23:12,600
+this number is bigger than the previous
+
+498
+00:23:07,440 --> 00:23:15,059
+one if a r r i is bigger than a r r i
+
+499
+00:23:12,600 --> 00:23:17,039
+minus one right if this number these
+
+500
+00:23:15,059 --> 00:23:19,200
+numbers Ari
+
+501
+00:23:17,039 --> 00:23:22,260
+is bigger than the previous number which
+
+502
+00:23:19,200 --> 00:23:27,780
+is a r i minus one
+
+503
+00:23:22,260 --> 00:23:32,820
+then C S plus equals a r r i right
+
+504
+00:23:27,780 --> 00:23:34,860
+as we reset it to CS equals a r r i all
+
+505
+00:23:32,820 --> 00:23:37,140
+right look at the difference
+
+506
+00:23:34,860 --> 00:23:40,200
+if this number is bigger than previous
+
+507
+00:23:37,140 --> 00:23:43,080
+one then we accumulate it if not we
+
+508
+00:23:40,200 --> 00:23:45,179
+start a new Subway right yeah and then
+
+509
+00:23:43,080 --> 00:23:47,220
+here we need to keep tracking of the
+
+510
+00:23:45,179 --> 00:23:49,980
+maximum Max
+
+511
+00:23:47,220 --> 00:23:51,840
+answer which value is it
+
+512
+00:23:49,980 --> 00:23:54,500
+can you tell me which value which value
+
+513
+00:23:51,840 --> 00:23:54,500
+I should put here
+
+514
+00:24:01,799 --> 00:24:06,480
+um we're done
+
+515
+00:24:04,500 --> 00:24:08,100
+okay so what's the problem what have you
+
+516
+00:24:06,480 --> 00:24:09,000
+learned what's the takeaway today we
+
+517
+00:24:08,100 --> 00:24:11,820
+have
+
+518
+00:24:09,000 --> 00:24:13,380
+an away we have a array of numbers and
+
+519
+00:24:11,820 --> 00:24:16,320
+I'm trying to try to say small things
+
+520
+00:24:13,380 --> 00:24:18,770
+come on try to say in you know remember
+
+521
+00:24:16,320 --> 00:24:25,180
+later you want to teach daddy right
+
+522
+00:24:18,770 --> 00:24:25,180
+[Music]
+
+523
+00:24:26,220 --> 00:24:33,840
+okay put down the maximum plus person
+
+524
+00:24:29,220 --> 00:24:36,480
+open it is 17 ascending separate Subway
+
+525
+00:24:33,840 --> 00:24:38,700
+okay so we want to find out the maximum
+
+526
+00:24:36,480 --> 00:24:41,159
+possible sum of Subway which is
+
+527
+00:24:38,700 --> 00:24:44,640
+increasing uh which is ascending okay
+
+528
+00:24:41,159 --> 00:24:46,620
+strictly ascending do you have CS CS
+
+529
+00:24:44,640 --> 00:24:48,480
+which stands for our current sum and
+
+530
+00:24:46,620 --> 00:24:51,179
+then we have the answer here so every
+
+531
+00:24:48,480 --> 00:24:54,480
+time we check and if it's
+
+532
+00:24:51,179 --> 00:24:56,460
+hey girl you added yeah add it to the
+
+533
+00:24:54,480 --> 00:24:58,380
+currency if it's smaller you start new
+
+534
+00:24:56,460 --> 00:25:01,260
+one start new one by resetting to
+
+535
+00:24:58,380 --> 00:25:03,780
+resetting to the number right yeah look
+
+536
+00:25:01,260 --> 00:25:06,059
+this if this speaker is part of the
+
+537
+00:25:03,780 --> 00:25:08,159
+increasing we accumulate otherwise we
+
+538
+00:25:06,059 --> 00:25:12,900
+start a new Subway which is the current
+
+539
+00:25:08,159 --> 00:25:16,080
+number am I look one two three ten nine
+
+540
+00:25:12,900 --> 00:25:17,220
+eight ten okay look one two three one
+
+541
+00:25:16,080 --> 00:25:20,460
+two
+
+542
+00:25:17,220 --> 00:25:23,580
+one two look one one two one two three
+
+543
+00:25:20,460 --> 00:25:27,000
+okay one two three ten
+
+544
+00:25:23,580 --> 00:25:28,559
+okay now it's decreasing right so we
+
+545
+00:25:27,000 --> 00:25:31,320
+just abandoned the previous one we start
+
+546
+00:25:28,559 --> 00:25:34,620
+a new one we say nine
+
+547
+00:25:31,320 --> 00:25:38,400
+a which is decreasing so we abandon this
+
+548
+00:25:34,620 --> 00:25:39,659
+we start a new one a 10 a 10 right makes
+
+549
+00:25:38,400 --> 00:25:42,900
+sense
+
+550
+00:25:39,659 --> 00:25:44,940
+bigger yeah yeah okay
+
+551
+00:25:42,900 --> 00:25:48,539
+the time collects the oh and right we're
+
+552
+00:25:44,940 --> 00:25:51,059
+just going once the entire array oh and
+
+553
+00:25:48,539 --> 00:25:53,520
+it's the number of numbers in the array
+
+554
+00:25:51,059 --> 00:25:55,799
+let's face complex three or one we are
+
+555
+00:25:53,520 --> 00:25:58,620
+not using any linear space we're only
+
+556
+00:25:55,799 --> 00:26:01,350
+using constant space okay that's it for
+
+557
+00:25:58,620 --> 00:26:04,540
+today bye bye bye bye bye
+
+558
+00:26:01,350 --> 00:26:04,540
+[Music]
+
+559
+00:26:04,860 --> 00:26:07,580
+foreign
+

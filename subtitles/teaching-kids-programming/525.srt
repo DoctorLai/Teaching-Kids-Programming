@@ -1,0 +1,1128 @@
+1
+00:00:00,000 --> 00:00:05,460
+last time we talked about Jason
+
+2
+00:00:02,760 --> 00:00:07,440
+JavaScript object notation it's like the
+
+3
+00:00:05,460 --> 00:00:09,660
+dictionary in Python right something
+
+4
+00:00:07,440 --> 00:00:11,880
+like that yeah curly brace
+
+5
+00:00:09,660 --> 00:00:14,940
+it could be in the form of curly brace
+
+6
+00:00:11,880 --> 00:00:18,840
+like defined as an object on an array
+
+7
+00:00:14,940 --> 00:00:21,720
+name the keys are interval code name
+
+8
+00:00:18,840 --> 00:00:23,039
+like Eric
+
+9
+00:00:21,720 --> 00:00:26,640
+comma
+
+10
+00:00:23,039 --> 00:00:29,099
+and H okay something like that and it
+
+11
+00:00:26,640 --> 00:00:31,320
+could be another object and then it
+
+12
+00:00:29,099 --> 00:00:34,260
+could be another curly brace or it could
+
+13
+00:00:31,320 --> 00:00:37,559
+be an array right this is Json pretty
+
+14
+00:00:34,260 --> 00:00:40,559
+much similar like the dictionary so why
+
+15
+00:00:37,559 --> 00:00:43,079
+do we need a Json we need this to store
+
+16
+00:00:40,559 --> 00:00:45,360
+and transport the data it's used to
+
+17
+00:00:43,079 --> 00:00:48,780
+carry the data right it's used to carry
+
+18
+00:00:45,360 --> 00:00:51,300
+data especially in application between
+
+19
+00:00:48,780 --> 00:00:53,460
+the client and server and look at this
+
+20
+00:00:51,300 --> 00:00:54,960
+moment if you write this format if you
+
+21
+00:00:53,460 --> 00:00:56,579
+store the data in this one you can give
+
+22
+00:00:54,960 --> 00:00:58,140
+it to other people and people cannot
+
+23
+00:00:56,579 --> 00:00:59,760
+understand it right it's pretty
+
+24
+00:00:58,140 --> 00:01:02,039
+stressful one right
+
+25
+00:00:59,760 --> 00:01:04,320
+yeah and the computer is very good at
+
+26
+00:01:02,039 --> 00:01:07,560
+passing this data How about if the
+
+27
+00:01:04,320 --> 00:01:09,780
+values has that code now let's just
+
+28
+00:01:07,560 --> 00:01:12,900
+tested how about if I want to store the
+
+29
+00:01:09,780 --> 00:01:15,840
+code double code in in the value field
+
+30
+00:01:12,900 --> 00:01:17,700
+so we need to escape it right we need to
+
+31
+00:01:15,840 --> 00:01:22,320
+escape for example we want to store the
+
+32
+00:01:17,700 --> 00:01:24,299
+e r i c with this code so I can't just
+
+33
+00:01:22,320 --> 00:01:27,180
+put it here right this could be causing
+
+34
+00:01:24,299 --> 00:01:29,640
+the problem so what do we need to do is
+
+35
+00:01:27,180 --> 00:01:31,680
+we just have to do this
+
+36
+00:01:29,640 --> 00:01:33,659
+a backscape Escape Escape
+
+37
+00:01:31,680 --> 00:01:36,020
+you know you can find a key
+
+38
+00:01:33,659 --> 00:01:38,820
+just around the
+
+39
+00:01:36,020 --> 00:01:41,579
+where's the key where's the basket is
+
+40
+00:01:38,820 --> 00:01:43,619
+here this is a part of the above the
+
+41
+00:01:41,579 --> 00:01:46,920
+answer right so this is just to mean
+
+42
+00:01:43,619 --> 00:01:50,220
+like the next character yeah
+
+43
+00:01:46,920 --> 00:01:52,799
+we it's actually the code the value we
+
+44
+00:01:50,220 --> 00:01:53,579
+want to store it's not part of the you
+
+45
+00:01:52,799 --> 00:01:55,380
+know
+
+46
+00:01:53,579 --> 00:01:58,979
+part of the syntax
+
+47
+00:01:55,380 --> 00:02:00,060
+all right okay so this is Jason So today
+
+48
+00:01:58,979 --> 00:02:02,759
+we're going to talk about another
+
+49
+00:02:00,060 --> 00:02:05,040
+another format data format called XML
+
+50
+00:02:02,759 --> 00:02:07,819
+which is very popular as well so this is
+
+51
+00:02:05,040 --> 00:02:11,120
+Jason this is XML XMS stands for
+
+52
+00:02:07,819 --> 00:02:14,099
+extensible expensive markup languages
+
+53
+00:02:11,120 --> 00:02:16,319
+markup language okay
+
+54
+00:02:14,099 --> 00:02:18,860
+so what does it look like
+
+55
+00:02:16,319 --> 00:02:18,860
+a person
+
+56
+00:02:22,080 --> 00:02:24,680
+name
+
+57
+00:02:25,140 --> 00:02:27,680
+Eric
+
+58
+00:02:27,959 --> 00:02:30,860
+named
+
+59
+00:02:31,200 --> 00:02:36,920
+h
+
+60
+00:02:33,239 --> 00:02:36,920
+10. age
+
+61
+00:02:37,980 --> 00:02:42,780
+and then Hobbies uh games for example
+
+62
+00:02:41,220 --> 00:02:45,720
+you want the game right
+
+63
+00:02:42,780 --> 00:02:48,599
+again so we have to do this game
+
+64
+00:02:45,720 --> 00:02:50,959
+and I don't know what can we like
+
+65
+00:02:48,599 --> 00:02:50,959
+Pokemon
+
+66
+00:02:51,180 --> 00:02:54,800
+Pokemon also you could be running away
+
+67
+00:02:52,680 --> 00:02:54,800
+right
+
+68
+00:02:56,160 --> 00:03:01,920
+copies game program so again I'm running
+
+69
+00:03:00,000 --> 00:03:03,300
+out of space no game and then this
+
+70
+00:03:01,920 --> 00:03:05,580
+should be
+
+71
+00:03:03,300 --> 00:03:07,739
+Hobbies right Hobbies
+
+72
+00:03:05,580 --> 00:03:09,000
+and then puppies
+
+73
+00:03:07,739 --> 00:03:13,760
+and
+
+74
+00:03:09,000 --> 00:03:17,420
+game and so we have a Pokemon so Pokemon
+
+75
+00:03:13,760 --> 00:03:22,560
+okay game okay I need to close it Eric
+
+76
+00:03:17,420 --> 00:03:23,840
+is 10 years old and it's Hobbies is is
+
+77
+00:03:22,560 --> 00:03:27,420
+games
+
+78
+00:03:23,840 --> 00:03:29,580
+okay so again similar to the Json it's
+
+79
+00:03:27,420 --> 00:03:32,879
+very easy to read right this is the
+
+80
+00:03:29,580 --> 00:03:36,060
+format the syntax of the XML so
+
+81
+00:03:32,879 --> 00:03:39,420
+as you can see look these so if you have
+
+82
+00:03:36,060 --> 00:03:42,360
+this person yeah this is an element and
+
+83
+00:03:39,420 --> 00:03:45,239
+you need to close it by forward stash
+
+84
+00:03:42,360 --> 00:03:46,200
+this is called element element
+
+85
+00:03:45,239 --> 00:03:49,379
+right
+
+86
+00:03:46,200 --> 00:03:52,620
+and each XML should have only one loot
+
+87
+00:03:49,379 --> 00:03:54,060
+element only one loot okay you cannot
+
+88
+00:03:52,620 --> 00:03:56,040
+have multiple rules
+
+89
+00:03:54,060 --> 00:03:58,440
+okay you can put another thing here
+
+90
+00:03:56,040 --> 00:04:03,000
+called the address
+
+91
+00:03:58,440 --> 00:04:06,239
+so each xml5 has only one nude element
+
+92
+00:04:03,000 --> 00:04:09,840
+so each root element can contain text
+
+93
+00:04:06,239 --> 00:04:13,019
+txt text could be a string or you could
+
+94
+00:04:09,840 --> 00:04:15,959
+input template it as an value like Edge
+
+95
+00:04:13,019 --> 00:04:18,060
+and you can also contain some other
+
+96
+00:04:15,959 --> 00:04:21,359
+elements look this person contains other
+
+97
+00:04:18,060 --> 00:04:24,300
+elements okay okay so and another thing
+
+98
+00:04:21,359 --> 00:04:26,940
+about XML is the element can contain the
+
+99
+00:04:24,300 --> 00:04:29,160
+attribute so the name you can have a
+
+100
+00:04:26,940 --> 00:04:33,060
+name and then you have this type
+
+101
+00:04:29,160 --> 00:04:37,139
+can attribute title Mr
+
+102
+00:04:33,060 --> 00:04:40,139
+all right and then Eric
+
+103
+00:04:37,139 --> 00:04:43,820
+name okay
+
+104
+00:04:40,139 --> 00:04:46,979
+look this is the element star element
+
+105
+00:04:43,820 --> 00:04:49,080
+and end element with this syntax and
+
+106
+00:04:46,979 --> 00:04:51,180
+then look at least attribute key value
+
+107
+00:04:49,080 --> 00:04:53,400
+key value pairs key value you could have
+
+108
+00:04:51,180 --> 00:04:57,060
+multiple attributes this is called
+
+109
+00:04:53,400 --> 00:04:59,280
+attribute so to sum up a XML file
+
+110
+00:04:57,060 --> 00:05:03,360
+contains only one Loop element and then
+
+111
+00:04:59,280 --> 00:05:06,000
+it could have other elements uh the text
+
+112
+00:05:03,360 --> 00:05:09,540
+attribute and it could be mixed on them
+
+113
+00:05:06,000 --> 00:05:11,160
+so XML is used to carry data right and
+
+114
+00:05:09,540 --> 00:05:13,440
+then it's only carries data it doesn't
+
+115
+00:05:11,160 --> 00:05:15,660
+do with any other logic so it doesn't
+
+116
+00:05:13,440 --> 00:05:17,580
+tell you where the data is for it
+
+117
+00:05:15,660 --> 00:05:19,680
+doesn't tell you how to display the data
+
+118
+00:05:17,580 --> 00:05:22,919
+right we're probably going to tell about
+
+119
+00:05:19,680 --> 00:05:27,919
+HTML in a browser yeah you type in the
+
+120
+00:05:22,919 --> 00:05:31,080
+URL for example google.com yeah http
+
+121
+00:05:27,919 --> 00:05:33,479
+as google.com and then there's a search
+
+122
+00:05:31,080 --> 00:05:36,780
+box and another search here right this
+
+123
+00:05:33,479 --> 00:05:39,840
+is the page displayed in browser so what
+
+124
+00:05:36,780 --> 00:05:43,460
+describes the page the layout is HTML
+
+125
+00:05:39,840 --> 00:05:46,740
+it's quite similar to this XML but XML
+
+126
+00:05:43,460 --> 00:05:49,380
+is used to store data only to carry data
+
+127
+00:05:46,740 --> 00:05:52,320
+on the HTML HTML
+
+128
+00:05:49,380 --> 00:05:55,500
+is used to you know describe how the
+
+129
+00:05:52,320 --> 00:05:57,539
+page looks like okay so if none element
+
+130
+00:05:55,500 --> 00:05:59,580
+load element does not contain anything
+
+131
+00:05:57,539 --> 00:06:02,100
+because for example you can say like
+
+132
+00:05:59,580 --> 00:06:04,680
+copies yeah Hobbies if you don't have
+
+133
+00:06:02,100 --> 00:06:06,600
+any copies you can do it this way and
+
+134
+00:06:04,680 --> 00:06:08,699
+this is to close it
+
+135
+00:06:06,600 --> 00:06:11,400
+oh you just you know just do this hobby
+
+136
+00:06:08,699 --> 00:06:13,800
+with nothing in there right even there's
+
+137
+00:06:11,400 --> 00:06:16,680
+nothing there's no tax inside a text
+
+138
+00:06:13,800 --> 00:06:20,400
+look this is start ending tag you can
+
+139
+00:06:16,680 --> 00:06:22,800
+just do this change this here and put
+
+140
+00:06:20,400 --> 00:06:27,660
+okay this means that it has an element
+
+141
+00:06:22,800 --> 00:06:30,900
+copy but it's empty okay yes we talk
+
+142
+00:06:27,660 --> 00:06:33,180
+about elements in XML we talk about the
+
+143
+00:06:30,900 --> 00:06:35,880
+attribute we talk about the text we talk
+
+144
+00:06:33,180 --> 00:06:38,520
+about the empty tag okay so we could
+
+145
+00:06:35,880 --> 00:06:40,800
+have a pollock in XML at the beginning
+
+146
+00:06:38,520 --> 00:06:44,100
+of the XML document so it looks like
+
+147
+00:06:40,800 --> 00:06:47,220
+something like this so in XML prologue
+
+148
+00:06:44,100 --> 00:06:49,800
+we declare the versions The encodings so
+
+149
+00:06:47,220 --> 00:06:52,440
+the default encoding is utf-8 we could
+
+150
+00:06:49,800 --> 00:06:55,560
+have utf-16 or different encoding
+
+151
+00:06:52,440 --> 00:06:57,780
+specified in the XML document the XML
+
+152
+00:06:55,560 --> 00:07:00,240
+prologue is optional it's not mandatory
+
+153
+00:06:57,780 --> 00:07:02,039
+I like Json it could have a comment so
+
+154
+00:07:00,240 --> 00:07:04,560
+Json does not have comments everything
+
+155
+00:07:02,039 --> 00:07:07,020
+is part of the data in XML we could have
+
+156
+00:07:04,560 --> 00:07:09,240
+comments declared in this way so this is
+
+157
+00:07:07,020 --> 00:07:11,280
+not part of the you know data it's not
+
+158
+00:07:09,240 --> 00:07:14,280
+part of the syntax this is just for
+
+159
+00:07:11,280 --> 00:07:16,740
+humans okay so and here let's take a
+
+160
+00:07:14,280 --> 00:07:20,220
+look at this simple XML and the XML can
+
+161
+00:07:16,740 --> 00:07:22,979
+have only one loot element and which we
+
+162
+00:07:20,220 --> 00:07:27,360
+can have different uh XML text nasty
+
+163
+00:07:22,979 --> 00:07:29,819
+inside another so here look this C tag
+
+164
+00:07:27,360 --> 00:07:31,919
+does not have any closing
+
+165
+00:07:29,819 --> 00:07:34,080
+packs here but instead we use this
+
+166
+00:07:31,919 --> 00:07:35,880
+simple syntax to close it if there is
+
+167
+00:07:34,080 --> 00:07:37,620
+nothing in there and then we have
+
+168
+00:07:35,880 --> 00:07:40,199
+attributes we can have a different
+
+169
+00:07:37,620 --> 00:07:43,020
+number of attributes for each tag so
+
+170
+00:07:40,199 --> 00:07:45,840
+okay so let me write a Json and then can
+
+171
+00:07:43,020 --> 00:07:48,180
+you convert it to XML there is no right
+
+172
+00:07:45,840 --> 00:07:50,780
+or wrong answer just to test your
+
+173
+00:07:48,180 --> 00:07:55,680
+knowledge about XML how it looks like
+
+174
+00:07:50,780 --> 00:07:57,240
+what Pokemon comes into your mind well
+
+175
+00:07:55,680 --> 00:07:58,380
+um Christmas
+
+176
+00:07:57,240 --> 00:08:01,380
+okay
+
+177
+00:07:58,380 --> 00:08:04,620
+name alternate
+
+178
+00:08:01,380 --> 00:08:05,759
+Christmas audio space n
+
+179
+00:08:04,620 --> 00:08:09,060
+e
+
+180
+00:08:05,759 --> 00:08:13,020
+c r
+
+181
+00:08:09,060 --> 00:08:17,039
+V and a
+
+182
+00:08:13,020 --> 00:08:20,340
+and then does it have a any attributes
+
+183
+00:08:17,039 --> 00:08:23,340
+right the psychic type type
+
+184
+00:08:20,340 --> 00:08:23,340
+psychic
+
+185
+00:08:25,500 --> 00:08:29,460
+p
+
+186
+00:08:26,759 --> 00:08:33,659
+s why
+
+187
+00:08:29,460 --> 00:08:36,899
+c h i
+
+188
+00:08:33,659 --> 00:08:39,320
+C or do we convert this to XML Pokemon
+
+189
+00:08:36,899 --> 00:08:44,279
+name you want to give a joke
+
+190
+00:08:39,320 --> 00:08:46,080
+yeah because this is Jason XML
+
+191
+00:08:44,279 --> 00:08:48,899
+you need to have one root element
+
+192
+00:08:46,080 --> 00:08:52,440
+remember we talk about so probably I'll
+
+193
+00:08:48,899 --> 00:08:55,560
+fix this for you so have a Pokemon right
+
+194
+00:08:52,440 --> 00:08:58,399
+Pokemon and then start here at the end
+
+195
+00:08:55,560 --> 00:08:58,399
+there's a Pokemon
+
+196
+00:08:59,010 --> 00:09:02,330
+[Music]
+
+197
+00:09:02,580 --> 00:09:06,260
+yeah
+
+198
+00:09:03,660 --> 00:09:06,260
+okay
+
+199
+00:09:14,279 --> 00:09:17,580
+uh
+
+200
+00:09:15,839 --> 00:09:20,160
+you can have tests so you don't need
+
+201
+00:09:17,580 --> 00:09:22,560
+this right and then you need to close it
+
+202
+00:09:20,160 --> 00:09:24,480
+okay that's good just that yeah and then
+
+203
+00:09:22,560 --> 00:09:27,500
+what else hey
+
+204
+00:09:24,480 --> 00:09:27,500
+what's the time here
+
+205
+00:09:27,620 --> 00:09:33,959
+and then uh
+
+206
+00:09:30,720 --> 00:09:36,360
+-huh yeah yeah look and this is eczema
+
+207
+00:09:33,959 --> 00:09:40,080
+so it's basically we use this kind of
+
+208
+00:09:36,360 --> 00:09:42,180
+thing to carrying the data huh
+
+209
+00:09:40,080 --> 00:09:43,320
+and then you need to close it guys close
+
+210
+00:09:42,180 --> 00:09:47,279
+it
+
+211
+00:09:43,320 --> 00:09:49,080
+okay we need a double clue to wrap up
+
+212
+00:09:47,279 --> 00:09:50,519
+the values right but if the value
+
+213
+00:09:49,080 --> 00:09:52,800
+contains the double code you need to
+
+214
+00:09:50,519 --> 00:09:56,040
+escape it right how about here what kind
+
+215
+00:09:52,800 --> 00:09:58,320
+of characters we need to escape here
+
+216
+00:09:56,040 --> 00:10:01,080
+so it doesn't confuse FIFA this one yeah
+
+217
+00:09:58,320 --> 00:10:03,839
+look this one yeah we need to capture a
+
+218
+00:10:01,080 --> 00:10:06,180
+leaf right escape this these two left
+
+219
+00:10:03,839 --> 00:10:09,360
+right for example if I want to carry
+
+220
+00:10:06,180 --> 00:10:12,300
+this data like the a we don't carry this
+
+221
+00:10:09,360 --> 00:10:14,899
+data in XML so if you put that name here
+
+222
+00:10:12,300 --> 00:10:14,899
+what happened
+
+223
+00:10:15,300 --> 00:10:20,519
+you confuse the XML so is this an
+
+224
+00:10:17,760 --> 00:10:23,040
+element or is this the text right yeah
+
+225
+00:10:20,519 --> 00:10:24,420
+so it's a text so how do we fix it so we
+
+226
+00:10:23,040 --> 00:10:27,000
+use it
+
+227
+00:10:24,420 --> 00:10:29,459
+now we want to we want to start it how
+
+228
+00:10:27,000 --> 00:10:32,160
+do we store it so it doesn't confuse the
+
+229
+00:10:29,459 --> 00:10:33,180
+XML it's a tag it's an element so we can
+
+230
+00:10:32,160 --> 00:10:36,779
+use this
+
+231
+00:10:33,180 --> 00:10:43,200
+will change to n
+
+232
+00:10:36,779 --> 00:10:44,880
+t Okay least we change it to n
+
+233
+00:10:43,200 --> 00:10:48,000
+GT
+
+234
+00:10:44,880 --> 00:10:51,899
+what does it mean look less
+
+235
+00:10:48,000 --> 00:10:54,240
+greater and and end is the
+
+236
+00:10:51,899 --> 00:10:57,240
+the thing on number seven number seven
+
+237
+00:10:54,240 --> 00:11:00,720
+not basically this symbol and semicolon
+
+238
+00:10:57,240 --> 00:11:03,480
+okay semicolon yeah this is how it is
+
+239
+00:11:00,720 --> 00:11:06,240
+heavy so we we can do this here
+
+240
+00:11:03,480 --> 00:11:09,660
+LT
+
+241
+00:11:06,240 --> 00:11:12,720
+GT okay so but in this case we know this
+
+242
+00:11:09,660 --> 00:11:14,160
+is a value this is not attacked same
+
+243
+00:11:12,720 --> 00:11:17,279
+thing here look if we don't have a
+
+244
+00:11:14,160 --> 00:11:19,440
+double quote a in a name right in that
+
+245
+00:11:17,279 --> 00:11:22,140
+name we can't just write it here like
+
+246
+00:11:19,440 --> 00:11:25,680
+that right because they're confused with
+
+247
+00:11:22,140 --> 00:11:27,180
+the Json is this starting uh or is this
+
+248
+00:11:25,680 --> 00:11:30,480
+an ending
+
+249
+00:11:27,180 --> 00:11:33,899
+ending the value type you can add a
+
+250
+00:11:30,480 --> 00:11:36,120
+backscape we can escape the double chord
+
+251
+00:11:33,899 --> 00:11:38,040
+here okay so what have you learned today
+
+252
+00:11:36,120 --> 00:11:39,540
+and that's it what have you done
+
+253
+00:11:38,040 --> 00:11:42,540
+about
+
+254
+00:11:39,540 --> 00:11:42,540
+um XML
+
+255
+00:11:42,620 --> 00:11:50,160
+x m a extensible markup language
+
+256
+00:11:48,300 --> 00:11:52,260
+so in computers in many many
+
+257
+00:11:50,160 --> 00:11:54,660
+applications programs computerized
+
+258
+00:11:52,260 --> 00:11:57,060
+programs we use the XML to store the
+
+259
+00:11:54,660 --> 00:11:59,220
+configuration look which leave
+
+260
+00:11:57,060 --> 00:12:01,680
+it's easy for human to understand right
+
+261
+00:11:59,220 --> 00:12:03,660
+it's very easier very straightforward we
+
+262
+00:12:01,680 --> 00:12:05,820
+have this efficient algorithm to pass
+
+263
+00:12:03,660 --> 00:12:09,360
+with XML look if I want to get the value
+
+264
+00:12:05,820 --> 00:12:12,600
+type then I can say Pokemon DOT type
+
+265
+00:12:09,360 --> 00:12:15,540
+hi and it's a path now we know then
+
+266
+00:12:12,600 --> 00:12:17,820
+computer knows to get a value here
+
+267
+00:12:15,540 --> 00:12:19,620
+document okay and here's the same this
+
+268
+00:12:17,820 --> 00:12:20,640
+is the entire object right the third
+
+269
+00:12:19,620 --> 00:12:23,040
+type
+
+270
+00:12:20,640 --> 00:12:25,620
+one question for you think about it so
+
+271
+00:12:23,040 --> 00:12:27,779
+given a same data right if I want to
+
+272
+00:12:25,620 --> 00:12:29,459
+store the name and type which one you
+
+273
+00:12:27,779 --> 00:12:32,220
+think is shorter
+
+274
+00:12:29,459 --> 00:12:34,079
+which one you think is shorter Json yeah
+
+275
+00:12:32,220 --> 00:12:37,200
+obviously because look this has the
+
+276
+00:12:34,079 --> 00:12:42,240
+overhead storing that element text right
+
+277
+00:12:37,200 --> 00:12:45,300
+yeah which one is easier to understand
+
+278
+00:12:42,240 --> 00:12:47,399
+simple to read XML it's very rare
+
+279
+00:12:45,300 --> 00:12:49,500
+structures right the element has the
+
+280
+00:12:47,399 --> 00:12:52,680
+names but this one is just the key value
+
+281
+00:12:49,500 --> 00:12:55,639
+pairs right okay that's it for today bye
+
+282
+00:12:52,680 --> 00:12:55,639
+bye bye bye
+

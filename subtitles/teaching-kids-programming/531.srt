@@ -1,0 +1,876 @@
+1
+00:00:00,000 --> 00:00:02,840
+foreign
+
+2
+00:00:29,840 --> 00:00:36,300
+16a 16 divided by a remaining zero one
+
+3
+00:00:34,380 --> 00:00:39,480
+is remaining zero this is the greatest
+
+4
+00:00:36,300 --> 00:00:42,660
+common division 24 and 32 what's the
+
+5
+00:00:39,480 --> 00:00:45,480
+greatest common divisor uh is it um
+
+6
+00:00:42,660 --> 00:00:50,340
+eight eight yes how to do it 24 divided
+
+7
+00:00:45,480 --> 00:00:53,160
+by 32 remaining 24 move it here 50 32
+
+8
+00:00:50,340 --> 00:00:55,860
+24. so basically when a is smaller than
+
+9
+00:00:53,160 --> 00:01:01,500
+b we just swap it around 32 divided by
+
+10
+00:00:55,860 --> 00:01:05,100
+24 remaining eight right look 34 8
+
+11
+00:01:01,500 --> 00:01:07,020
+24 divided by a remaining zero what is
+
+12
+00:01:05,100 --> 00:01:09,479
+the remaining zeros this is eight okay
+
+13
+00:01:07,020 --> 00:01:12,119
+this is the way we calculate the
+
+14
+00:01:09,479 --> 00:01:14,760
+greatest common divisor and do you still
+
+15
+00:01:12,119 --> 00:01:19,619
+remember this and SCM
+
+16
+00:01:14,760 --> 00:01:25,520
+please comment multiples okay what's the
+
+17
+00:01:19,619 --> 00:01:25,520
+least common multiple of uh 16 and 24.
+
+18
+00:01:25,700 --> 00:01:36,180
+so you basically
+
+19
+00:01:28,640 --> 00:01:40,979
+a million no no 32 144 48 million what
+
+20
+00:01:36,180 --> 00:01:44,100
+40a am I so it's 48 am I 48 is because
+
+21
+00:01:40,979 --> 00:01:46,380
+how do we get it for the a so 16 times
+
+22
+00:01:44,100 --> 00:01:48,860
+24 divided by the greatest common
+
+23
+00:01:46,380 --> 00:01:53,520
+divisor of both
+
+24
+00:01:48,860 --> 00:01:56,759
+this is a right so look so it's 16 times
+
+25
+00:01:53,520 --> 00:01:58,860
+24 divided by 8 so that's 48 that's how
+
+26
+00:01:56,759 --> 00:02:01,020
+we get the least common multiple so
+
+27
+00:01:58,860 --> 00:02:03,240
+basically this common multiple of two
+
+28
+00:02:01,020 --> 00:02:09,899
+number A B can be calculated as a times
+
+29
+00:02:03,240 --> 00:02:14,340
+B divided by g c d a b so y uh B is not
+
+30
+00:02:09,899 --> 00:02:16,440
+equal zero a b equals B A modulus B okay
+
+31
+00:02:14,340 --> 00:02:19,800
+and then return
+
+32
+00:02:16,440 --> 00:02:24,300
+return a okay at least can be done in a
+
+33
+00:02:19,800 --> 00:02:27,200
+recursion so Define gcp a b if B
+
+34
+00:02:24,300 --> 00:02:31,260
+okay if B return
+
+35
+00:02:27,200 --> 00:02:34,200
+gcp B A modulus B
+
+36
+00:02:31,260 --> 00:02:35,940
+otherwise return a okay so that's the
+
+37
+00:02:34,200 --> 00:02:37,920
+recursion that's the iterative coming
+
+38
+00:02:35,940 --> 00:02:40,080
+back to today's problem so we're given
+
+39
+00:02:37,920 --> 00:02:41,400
+an array we are given an array right
+
+40
+00:02:40,080 --> 00:02:43,920
+array
+
+41
+00:02:41,400 --> 00:02:46,560
+we want to find out the minimum splits
+
+42
+00:02:43,920 --> 00:02:48,300
+of these numbers so we want to split the
+
+43
+00:02:46,560 --> 00:02:49,739
+numbers into continuous groups start
+
+44
+00:02:48,300 --> 00:02:51,540
+away subtle right we talk about sub
+
+45
+00:02:49,739 --> 00:02:53,340
+array and sub list right Subaru and
+
+46
+00:02:51,540 --> 00:02:54,959
+subjects are continuous subsequence is
+
+47
+00:02:53,340 --> 00:02:58,440
+not continuous so in some ways of
+
+48
+00:02:54,959 --> 00:03:00,780
+continuous so we want to split the
+
+49
+00:02:58,440 --> 00:03:04,860
+array into sub arrays each number
+
+50
+00:03:00,780 --> 00:03:07,739
+belongs to one Subway only and then each
+
+51
+00:03:04,860 --> 00:03:09,840
+group each group The GCB the greatest
+
+52
+00:03:07,739 --> 00:03:13,440
+common divisor of all of it
+
+53
+00:03:09,840 --> 00:03:18,060
+is is more than one if two numbers the
+
+54
+00:03:13,440 --> 00:03:20,700
+GCB A and B if we equal equal one right
+
+55
+00:03:18,060 --> 00:03:22,620
+for example like three and seven the gcd
+
+56
+00:03:20,700 --> 00:03:25,200
+of three and seven is one
+
+57
+00:03:22,620 --> 00:03:27,780
+then we can say that three and seven are
+
+58
+00:03:25,200 --> 00:03:29,819
+Co Prime co Prime
+
+59
+00:03:27,780 --> 00:03:32,580
+pillow plant because their greatest
+
+60
+00:03:29,819 --> 00:03:34,739
+common devices is one okay so coming
+
+61
+00:03:32,580 --> 00:03:37,379
+back to this question so we want to find
+
+62
+00:03:34,739 --> 00:03:39,360
+out the minimum split minimum means
+
+63
+00:03:37,379 --> 00:03:42,360
+split of separate
+
+64
+00:03:39,360 --> 00:03:45,000
+other ways so that the greatest common
+
+65
+00:03:42,360 --> 00:03:47,940
+divisor of the numbers in each group is
+
+66
+00:03:45,000 --> 00:03:50,540
+more than one twelve six three what's
+
+67
+00:03:47,940 --> 00:03:53,220
+the greatest common divisor of this
+
+68
+00:03:50,540 --> 00:03:55,440
+three yeah three it's more than one
+
+69
+00:03:53,220 --> 00:03:58,739
+what's the common divisor of this
+
+70
+00:03:55,440 --> 00:04:01,019
+two right so yeah bigger than one bigger
+
+71
+00:03:58,739 --> 00:04:03,780
+than one if 14 in the first group what's
+
+72
+00:04:01,019 --> 00:04:07,140
+the greatest common divisor of of these
+
+73
+00:04:03,780 --> 00:04:09,299
+these four numbers one yeah so it is not
+
+74
+00:04:07,140 --> 00:04:11,220
+satisfy the requirement all right so we
+
+75
+00:04:09,299 --> 00:04:13,500
+want to find out the minimum speed the
+
+76
+00:04:11,220 --> 00:04:15,900
+subway is continuous so we can do this
+
+77
+00:04:13,500 --> 00:04:17,760
+uh greatly right what's the idea what's
+
+78
+00:04:15,900 --> 00:04:20,340
+the what's the idea we can apply in the
+
+79
+00:04:17,760 --> 00:04:22,740
+greedy agreement if we can include the
+
+80
+00:04:20,340 --> 00:04:26,540
+next number in the sub array
+
+81
+00:04:22,740 --> 00:04:26,540
+or include it right
+
+82
+00:04:27,060 --> 00:04:32,940
+bless you again okay
+
+83
+00:04:29,100 --> 00:04:35,460
+so look prayer we can do this book 12.
+
+84
+00:04:32,940 --> 00:04:37,560
+the greatest common divisor 12 right 6
+
+85
+00:04:35,460 --> 00:04:39,720
+12 and 6 squared is common divisor which
+
+86
+00:04:37,560 --> 00:04:42,360
+is six am I
+
+87
+00:04:39,720 --> 00:04:45,000
+it's still bigger than one one three
+
+88
+00:04:42,360 --> 00:04:47,520
+question divided by three so look when
+
+89
+00:04:45,000 --> 00:04:48,300
+we are at 12 and 6 the next number is
+
+90
+00:04:47,520 --> 00:04:51,540
+three
+
+91
+00:04:48,300 --> 00:04:53,699
+all right but including the next number
+
+92
+00:04:51,540 --> 00:04:55,320
+our greatest common divisor of current
+
+93
+00:04:53,699 --> 00:04:58,259
+group is still bigger than one still
+
+94
+00:04:55,320 --> 00:05:00,540
+means the requirements so we can just
+
+95
+00:04:58,259 --> 00:05:04,620
+take it all right because when we take
+
+96
+00:05:00,540 --> 00:05:06,060
+it it does not compromise the global the
+
+97
+00:05:04,620 --> 00:05:08,639
+optimal solution because we are looking
+
+98
+00:05:06,060 --> 00:05:11,639
+for the Minimus break if we can include
+
+99
+00:05:08,639 --> 00:05:14,759
+the next number in the current group we
+
+100
+00:05:11,639 --> 00:05:16,560
+do not compromise the global Optima does
+
+101
+00:05:14,759 --> 00:05:18,240
+it make sense yeah because we are
+
+102
+00:05:16,560 --> 00:05:20,580
+looking for a Minimus break minimum
+
+103
+00:05:18,240 --> 00:05:23,460
+spray what does it mean minimum speed so
+
+104
+00:05:20,580 --> 00:05:26,539
+we want to include as many numbers as
+
+105
+00:05:23,460 --> 00:05:29,520
+possible in the current group make sense
+
+106
+00:05:26,539 --> 00:05:31,320
+so this is uh this is the green thing so
+
+107
+00:05:29,520 --> 00:05:33,360
+we want to find out the minimum split
+
+108
+00:05:31,320 --> 00:05:35,580
+minimum split right so we want to
+
+109
+00:05:33,360 --> 00:05:37,919
+minimum speed that means that we want to
+
+110
+00:05:35,580 --> 00:05:40,500
+have as many numbers as possible in the
+
+111
+00:05:37,919 --> 00:05:43,919
+current group as long as it does satisfy
+
+112
+00:05:40,500 --> 00:05:46,080
+the requirement right so look 12.6 my
+
+113
+00:05:43,919 --> 00:05:47,900
+current group is 12 and 6. so by
+
+114
+00:05:46,080 --> 00:05:51,360
+including the next number
+
+115
+00:05:47,900 --> 00:05:54,479
+which brings the GCT to three it stays
+
+116
+00:05:51,360 --> 00:05:56,400
+good so we want to take it right am I
+
+117
+00:05:54,479 --> 00:05:58,620
+right it's better we take it if we not
+
+118
+00:05:56,400 --> 00:06:00,720
+take it we leave it to the next group
+
+119
+00:05:58,620 --> 00:06:03,900
+things may get worse I mean right let's
+
+120
+00:06:00,720 --> 00:06:07,380
+create it okay what's great strategy is
+
+121
+00:06:03,900 --> 00:06:09,419
+that you always make a decision and in
+
+122
+00:06:07,380 --> 00:06:12,180
+the best of your entry at the coloring
+
+123
+00:06:09,419 --> 00:06:15,000
+point right you'll have a bananas 10
+
+124
+00:06:12,180 --> 00:06:17,460
+bananas you can have six bananas now and
+
+125
+00:06:15,000 --> 00:06:20,520
+four later or you can have four bananas
+
+126
+00:06:17,460 --> 00:06:23,039
+now or six later on the greedy strategy
+
+127
+00:06:20,520 --> 00:06:25,020
+you always pick them the best strategy
+
+128
+00:06:23,039 --> 00:06:27,199
+at your point which is six right Ryan
+
+129
+00:06:25,020 --> 00:06:31,860
+you'll pick six now right
+
+130
+00:06:27,199 --> 00:06:35,460
+Define mean spirit
+
+131
+00:06:31,860 --> 00:06:38,639
+okay so at the beginning answer equals
+
+132
+00:06:35,460 --> 00:06:42,199
+yellow carbon gcd and let's send it to
+
+133
+00:06:38,639 --> 00:06:42,199
+one okay we can go through the numbers
+
+134
+00:06:42,259 --> 00:06:46,280
+what does it mean in numerate
+
+135
+00:06:47,720 --> 00:06:54,419
+or doesn't like cheese and values so for
+
+136
+00:06:51,840 --> 00:06:57,300
+example like uh a b c okay if we
+
+137
+00:06:54,419 --> 00:07:01,800
+enumerate it it will become zero a
+
+138
+00:06:57,300 --> 00:07:04,860
+that's a Tapper okay and one b
+
+139
+00:07:01,800 --> 00:07:06,600
+two c okay so the key is here this is
+
+140
+00:07:04,860 --> 00:07:09,060
+the template okay actually it's no keys
+
+141
+00:07:06,600 --> 00:07:12,180
+but it's the first element in a couple
+
+142
+00:07:09,060 --> 00:07:14,759
+is the index the second value uh in the
+
+143
+00:07:12,180 --> 00:07:19,500
+table is the actual value okay so we go
+
+144
+00:07:14,759 --> 00:07:22,319
+to i j in enumerate
+
+145
+00:07:19,500 --> 00:07:24,360
+uh array okay
+
+146
+00:07:22,319 --> 00:07:27,720
+all away
+
+147
+00:07:24,360 --> 00:07:32,099
+so now we have to check we have to apply
+
+148
+00:07:27,720 --> 00:07:36,660
+the current current equals gcd carbon
+
+149
+00:07:32,099 --> 00:07:39,120
+and J J right and if carbon if the gcd
+
+150
+00:07:36,660 --> 00:07:41,280
+is one if electricity is what means that
+
+151
+00:07:39,120 --> 00:07:43,080
+this number needs to be in the next
+
+152
+00:07:41,280 --> 00:07:44,940
+group not this group because the
+
+153
+00:07:43,080 --> 00:07:47,340
+greatest common divisor of all the
+
+154
+00:07:44,940 --> 00:07:49,740
+numbers up to now this group is one so
+
+155
+00:07:47,340 --> 00:07:52,080
+we can't include this number
+
+156
+00:07:49,740 --> 00:07:54,060
+and index I right so we have to
+
+157
+00:07:52,080 --> 00:07:57,780
+increment the answer we need one more
+
+158
+00:07:54,060 --> 00:08:00,599
+group one more split and the current we
+
+159
+00:07:57,780 --> 00:08:05,360
+need to set it to this new number J here
+
+160
+00:08:00,599 --> 00:08:09,000
+right and at the end we do 10 and 12 6 3
+
+161
+00:08:05,360 --> 00:08:11,759
+and then 14 uh seven right I think this
+
+162
+00:08:09,000 --> 00:08:15,120
+this was the example okay so look answer
+
+163
+00:08:11,759 --> 00:08:16,560
+equals zero and gcd equals one the
+
+164
+00:08:15,120 --> 00:08:20,340
+current equals one
+
+165
+00:08:16,560 --> 00:08:21,720
+12 plus 1 and 12 gcd is one so we need
+
+166
+00:08:20,340 --> 00:08:25,139
+to increment the answer
+
+167
+00:08:21,720 --> 00:08:28,020
+and gcd set to 12 the current set to 12.
+
+168
+00:08:25,139 --> 00:08:29,160
+12 and 6 the greatest common divisor
+
+169
+00:08:28,020 --> 00:08:31,199
+becomes six
+
+170
+00:08:29,160 --> 00:08:34,140
+right becomes 6 is not equals one then
+
+171
+00:08:31,199 --> 00:08:36,120
+we continue six and six and three the
+
+172
+00:08:34,140 --> 00:08:38,279
+greatest common divisor becomes three
+
+173
+00:08:36,120 --> 00:08:40,440
+is three bigger than one okay now three
+
+174
+00:08:38,279 --> 00:08:42,839
+and fourteen look quantities common
+
+175
+00:08:40,440 --> 00:08:44,760
+divisor becomes one right becomes one so
+
+176
+00:08:42,839 --> 00:08:47,040
+what happened we plus one here answer
+
+177
+00:08:44,760 --> 00:08:48,899
+plus one right and then we set the
+
+178
+00:08:47,040 --> 00:08:52,560
+greatest common divisor here to 14.
+
+179
+00:08:48,899 --> 00:08:52,560
+right 14.
+
+180
+00:08:58,519 --> 00:09:04,220
+make sense
+
+181
+00:09:01,040 --> 00:09:04,220
+what's the
+
+182
+00:09:04,260 --> 00:09:08,540
+that's a good guess this is our an
+
+183
+00:09:06,180 --> 00:09:11,640
+obviously but here
+
+184
+00:09:08,540 --> 00:09:12,959
+gcp we talk about ggd the complexity of
+
+185
+00:09:11,640 --> 00:09:18,480
+gcd
+
+186
+00:09:12,959 --> 00:09:20,880
+uh AP is block the minimum of a b okay
+
+187
+00:09:18,480 --> 00:09:23,839
+okay so this is kind of that we have to
+
+188
+00:09:20,880 --> 00:09:28,200
+take it into consideration that o n
+
+189
+00:09:23,839 --> 00:09:29,700
+times gcd leaves or n Times login maybe
+
+190
+00:09:28,200 --> 00:09:32,760
+11 times
+
+191
+00:09:29,700 --> 00:09:34,760
+block but okay
+
+192
+00:09:32,760 --> 00:09:34,760
+okay
+
+193
+00:09:34,800 --> 00:09:38,700
+this is the upper bound okay in practice
+
+194
+00:09:36,959 --> 00:09:42,540
+speaking Yeah they come to the next
+
+195
+00:09:38,700 --> 00:09:47,300
+thing this is very fast okay but we have
+
+196
+00:09:42,540 --> 00:09:51,959
+these numbers yeah and we go
+
+197
+00:09:47,300 --> 00:09:54,779
+flip them into groups yes and then the
+
+198
+00:09:51,959 --> 00:09:57,899
+requirement of each group is is
+
+199
+00:09:54,779 --> 00:10:00,420
+the greatest common divisor of them is
+
+200
+00:09:57,899 --> 00:10:02,399
+it must be strictly greater than one
+
+201
+00:10:00,420 --> 00:10:06,180
+what's the key word today what's the
+
+202
+00:10:02,399 --> 00:10:08,160
+strategy pretty yes we saw yeah okay so
+
+203
+00:10:06,180 --> 00:10:08,940
+how how do we interpret this query they
+
+204
+00:10:08,160 --> 00:10:12,540
+think
+
+205
+00:10:08,940 --> 00:10:14,700
+so if the next number yeah even the next
+
+206
+00:10:12,540 --> 00:10:16,920
+number we can include it in the current
+
+207
+00:10:14,700 --> 00:10:20,300
+group we might just take it okay well
+
+208
+00:10:16,920 --> 00:10:23,100
+space complexity is a one constant right
+
+209
+00:10:20,300 --> 00:10:25,200
+this strategy is uh very popular it's
+
+210
+00:10:23,100 --> 00:10:27,480
+one of the classic algorithm in computer
+
+211
+00:10:25,200 --> 00:10:30,000
+science so it means that you always
+
+212
+00:10:27,480 --> 00:10:32,700
+choose yeah best choice at that point
+
+213
+00:10:30,000 --> 00:10:34,860
+you don't consider somehow in the future
+
+214
+00:10:32,700 --> 00:10:36,180
+they have six banana and four bananas in
+
+215
+00:10:34,860 --> 00:10:39,120
+front of you you don't care what
+
+216
+00:10:36,180 --> 00:10:42,060
+happened next you just pick the best LED
+
+217
+00:10:39,120 --> 00:10:44,500
+Point that's greedy okay yeah
+
+218
+00:10:42,060 --> 00:10:47,929
+okay that's it for today bye bye
+
+219
+00:10:44,500 --> 00:10:47,929
+[Music]
+
