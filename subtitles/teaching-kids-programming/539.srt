@@ -1,0 +1,700 @@
+1
+00:00:00,299 --> 00:00:06,000
+hello Miss Mary Mr Rhino right
+
+2
+00:00:02,940 --> 00:00:09,420
+Okay so we've given this uh four digit
+
+3
+00:00:06,000 --> 00:00:11,940
+number and our test is to split the
+
+4
+00:00:09,420 --> 00:00:14,219
+number into two we can use the digit
+
+5
+00:00:11,940 --> 00:00:17,640
+this is these four digit so we want to
+
+6
+00:00:14,219 --> 00:00:19,500
+split the digit into two and now we want
+
+7
+00:00:17,640 --> 00:00:24,019
+to minimize the sum for example like
+
+8
+00:00:19,500 --> 00:00:27,359
+this one if we split these into one two
+
+9
+00:00:24,019 --> 00:00:29,699
+and three four and by the way you can
+
+10
+00:00:27,359 --> 00:00:32,880
+rearrange these numbers right you can be
+
+11
+00:00:29,699 --> 00:00:36,059
+2 1 or 43 and we want to minimize some
+
+12
+00:00:32,880 --> 00:00:40,020
+so the sum is 46 can you find the
+
+13
+00:00:36,059 --> 00:00:45,140
+smaller one yes what is this 13 and 24
+
+14
+00:00:40,020 --> 00:00:48,960
+13 plus 24 Max
+
+15
+00:00:45,140 --> 00:00:50,940
+37 that's smaller and anymore
+
+16
+00:00:48,960 --> 00:00:56,039
+14 and 23
+
+17
+00:00:50,940 --> 00:01:00,559
+14 and 23 that's it's 47. is it the same
+
+18
+00:00:56,039 --> 00:01:00,559
+answer this one yeah okay anymore
+
+19
+00:01:01,980 --> 00:01:07,740
+okay so basically we can prove off right
+
+20
+00:01:04,739 --> 00:01:12,380
+do we have to try splitting the number
+
+21
+00:01:07,740 --> 00:01:12,380
+into three digits and one digit no
+
+22
+00:01:13,700 --> 00:01:18,780
+yes because of no matter which three
+
+23
+00:01:16,439 --> 00:01:20,580
+digit is at least three digits right
+
+24
+00:01:18,780 --> 00:01:22,759
+there will be a hundreds right maybe
+
+25
+00:01:20,580 --> 00:01:25,560
+hundreds
+
+26
+00:01:22,759 --> 00:01:28,200
+good question one zero zero one okay two
+
+27
+00:01:25,560 --> 00:01:30,360
+two yeah we can have bleeding yellows
+
+28
+00:01:28,200 --> 00:01:32,100
+bleeding zeros so like obviously this is
+
+29
+00:01:30,360 --> 00:01:35,340
+four units you know one plus zero one
+
+30
+00:01:32,100 --> 00:01:38,220
+right it's two okay how about this one
+
+31
+00:01:35,340 --> 00:01:40,799
+do one plus zero zero thirty four one
+
+32
+00:01:38,220 --> 00:01:44,159
+two five four and two sorry what did you
+
+33
+00:01:40,799 --> 00:01:46,560
+say one two three four one two five four
+
+34
+00:01:44,159 --> 00:01:49,560
+one two three four and two one plus zero
+
+35
+00:01:46,560 --> 00:01:52,640
+zero one okay okay yes yes we'll add two
+
+36
+00:01:49,560 --> 00:01:52,640
+very special case
+
+37
+00:01:59,240 --> 00:02:03,780
+this is 27
+
+38
+00:02:01,799 --> 00:02:04,680
+. okay so how do you know this is the
+
+39
+00:02:03,780 --> 00:02:06,780
+smallest
+
+40
+00:02:04,680 --> 00:02:08,580
+yeah we can try I mean obviously this is
+
+41
+00:02:06,780 --> 00:02:10,920
+just four digits we can prove us right
+
+42
+00:02:08,580 --> 00:02:12,480
+four digit we can prove ourselves as we
+
+43
+00:02:10,920 --> 00:02:13,739
+said that we don't want to try the three
+
+44
+00:02:12,480 --> 00:02:17,520
+teachers thing right so how many
+
+45
+00:02:13,739 --> 00:02:21,180
+possibilities so four digit we just pick
+
+46
+00:02:17,520 --> 00:02:23,879
+two as the first number right and this
+
+47
+00:02:21,180 --> 00:02:27,120
+is the normal way of picking the
+
+48
+00:02:23,879 --> 00:02:31,560
+two-digit and now we need to times two
+
+49
+00:02:27,120 --> 00:02:34,319
+right this is the overall proof of if we
+
+50
+00:02:31,560 --> 00:02:36,480
+don't try three digit thing right so
+
+51
+00:02:34,319 --> 00:02:38,520
+what's this number four Apple speaking
+
+52
+00:02:36,480 --> 00:02:40,500
+to Apples right there for that five plus
+
+53
+00:02:38,520 --> 00:02:43,019
+we just have to pick two apples as the
+
+54
+00:02:40,500 --> 00:02:45,060
+first number and then how many ways so
+
+55
+00:02:43,019 --> 00:02:46,680
+this is basically
+
+56
+00:02:45,060 --> 00:02:49,019
+p
+
+57
+00:02:46,680 --> 00:02:51,660
+four apples picking two apples but with
+
+58
+00:02:49,019 --> 00:02:56,040
+sequence right so it's four times
+
+59
+00:02:51,660 --> 00:02:58,620
+3 12 waves right this is just 12 12
+
+60
+00:02:56,040 --> 00:03:01,500
+different ways we have to prove us three
+
+61
+00:02:58,620 --> 00:03:05,760
+different ways right okay
+
+62
+00:03:01,500 --> 00:03:08,700
+so this one if I saw this number
+
+63
+00:03:05,760 --> 00:03:10,680
+okay if I saw this number this is the
+
+64
+00:03:08,700 --> 00:03:13,680
+small list this is the biggest
+
+65
+00:03:10,680 --> 00:03:15,959
+so obviously this this big is number
+
+66
+00:03:13,680 --> 00:03:17,240
+where do we want to keep this biggest
+
+67
+00:03:15,959 --> 00:03:18,599
+number
+
+68
+00:03:17,240 --> 00:03:21,840
+[Music]
+
+69
+00:03:18,599 --> 00:03:23,700
+the biggest digit we want it to be hands
+
+70
+00:03:21,840 --> 00:03:26,099
+or we only repeat it once
+
+71
+00:03:23,700 --> 00:03:28,019
+we only be once obviously right so we
+
+72
+00:03:26,099 --> 00:03:30,420
+want to be two ones here
+
+73
+00:03:28,019 --> 00:03:33,060
+okay so here there are two numbers put
+
+74
+00:03:30,420 --> 00:03:36,840
+us together this is the ones how about
+
+75
+00:03:33,060 --> 00:03:39,780
+this number this is the smallest put it
+
+76
+00:03:36,840 --> 00:03:41,640
+before before yeah so this is I wanted
+
+77
+00:03:39,780 --> 00:03:45,060
+to obviously I want to put it here right
+
+78
+00:03:41,640 --> 00:03:48,360
+so yeah and then these two which one is
+
+79
+00:03:45,060 --> 00:03:51,420
+bigger so it's bigger so the bigger one
+
+80
+00:03:48,360 --> 00:03:54,480
+we want to put it in right in the ones
+
+81
+00:03:51,420 --> 00:03:57,720
+right yeah in a while
+
+82
+00:03:54,480 --> 00:04:01,080
+so this is the smallest 27 one two three
+
+83
+00:03:57,720 --> 00:04:01,920
+four so four I want to put it you know
+
+84
+00:04:01,080 --> 00:04:05,040
+once
+
+85
+00:04:01,920 --> 00:04:08,159
+one and put it in a tens and then two
+
+86
+00:04:05,040 --> 00:04:10,860
+three seven okay this is just common
+
+87
+00:04:08,159 --> 00:04:14,879
+sense right the big digit I want it to
+
+88
+00:04:10,860 --> 00:04:17,880
+be in uh once that's not the digit we
+
+89
+00:04:14,879 --> 00:04:19,199
+can put it in the tens okay if we're
+
+90
+00:04:17,880 --> 00:04:21,239
+given these four digits how do we
+
+91
+00:04:19,199 --> 00:04:23,940
+extract each digit well we can convert
+
+92
+00:04:21,239 --> 00:04:26,880
+it to a string right one way or because
+
+93
+00:04:23,940 --> 00:04:29,160
+this is four digits if this is n all
+
+94
+00:04:26,880 --> 00:04:31,080
+right how do we convert it to each
+
+95
+00:04:29,160 --> 00:04:33,960
+Studio first of all we convert it to a
+
+96
+00:04:31,080 --> 00:04:36,240
+string all right convert to a string and
+
+97
+00:04:33,960 --> 00:04:38,880
+then we
+
+98
+00:04:36,240 --> 00:04:42,419
+split we convert it to an array of
+
+99
+00:04:38,880 --> 00:04:46,139
+digits and then we have to map it as
+
+100
+00:04:42,419 --> 00:04:49,620
+method as integer right
+
+101
+00:04:46,139 --> 00:04:53,639
+okay I know we need to sort it
+
+102
+00:04:49,620 --> 00:04:56,040
+salt it right so look this is two three
+
+103
+00:04:53,639 --> 00:04:59,580
+four one if this is two three four one
+
+104
+00:04:56,040 --> 00:05:02,900
+Str will put a cloth that's the string
+
+105
+00:04:59,580 --> 00:05:05,639
+least if we do this list you'll become
+
+106
+00:05:02,900 --> 00:05:06,960
+two three
+
+107
+00:05:05,639 --> 00:05:09,720
+four
+
+108
+00:05:06,960 --> 00:05:13,320
+one right this is the list we map it to
+
+109
+00:05:09,720 --> 00:05:16,199
+integer so that will become two three
+
+110
+00:05:13,320 --> 00:05:19,560
+four one all right I know we sort it now
+
+111
+00:05:16,199 --> 00:05:21,720
+become one two three four okay that's
+
+112
+00:05:19,560 --> 00:05:23,400
+basically what it is right and then we
+
+113
+00:05:21,720 --> 00:05:25,380
+just have to return
+
+114
+00:05:23,400 --> 00:05:28,560
+this number
+
+115
+00:05:25,380 --> 00:05:30,419
+this number times 10 plus
+
+116
+00:05:28,560 --> 00:05:34,440
+this number
+
+117
+00:05:30,419 --> 00:05:37,440
+and then plus this number times 10
+
+118
+00:05:34,440 --> 00:05:39,720
+right because it's in the tens Plus
+
+119
+00:05:37,440 --> 00:05:42,600
+this number okay and now okay okay
+
+120
+00:05:39,720 --> 00:05:45,180
+another way I'll do three four one if we
+
+121
+00:05:42,600 --> 00:05:49,139
+want to get it into each number so this
+
+122
+00:05:45,180 --> 00:05:51,180
+if this is n and modulus 10 that will
+
+123
+00:05:49,139 --> 00:05:53,460
+give us one right and then we need to
+
+124
+00:05:51,180 --> 00:05:56,100
+divide this number into ten now become
+
+125
+00:05:53,460 --> 00:05:58,919
+two three four and then
+
+126
+00:05:56,100 --> 00:06:02,039
+we keep doing this right we remove the
+
+127
+00:05:58,919 --> 00:06:04,320
+last digit that the ones a number like
+
+128
+00:06:02,039 --> 00:06:08,000
+one two three four how do we get this
+
+129
+00:06:04,320 --> 00:06:08,000
+how to get the digit only once
+
+130
+00:06:08,120 --> 00:06:14,580
+yeah modular scent right
+
+131
+00:06:11,880 --> 00:06:16,919
+yeah and then how do we remove that last
+
+132
+00:06:14,580 --> 00:06:19,020
+digit we just divided by 10 right
+
+133
+00:06:16,919 --> 00:06:20,639
+divided by 10 it will be one two three
+
+134
+00:06:19,020 --> 00:06:22,680
+point four but we converted to the
+
+135
+00:06:20,639 --> 00:06:23,780
+integer so one one two three okay one
+
+136
+00:06:22,680 --> 00:06:27,419
+two three
+
+137
+00:06:23,780 --> 00:06:31,460
+123 models ten divided by 10 remaining
+
+138
+00:06:27,419 --> 00:06:31,460
+three okay yeah make sense
+
+139
+00:06:31,940 --> 00:06:38,100
+yeah one two three six is the same yeah
+
+140
+00:06:34,560 --> 00:06:41,819
+so one two three six six six equals one
+
+141
+00:06:38,100 --> 00:06:44,940
+two three six modulus ten and then
+
+142
+00:06:41,819 --> 00:06:48,720
+one two three equals one two three six
+
+143
+00:06:44,940 --> 00:06:52,440
+divided by divided ten right in Python
+
+144
+00:06:48,720 --> 00:06:55,440
+okay in Python right modulus divided
+
+145
+00:06:52,440 --> 00:06:57,960
+yeah you see six I want to get this last
+
+146
+00:06:55,440 --> 00:07:00,600
+the lowermost digit I'm not understand I
+
+147
+00:06:57,960 --> 00:07:04,400
+want to remove the rightmost digit I
+
+148
+00:07:00,600 --> 00:07:07,919
+divided by 10. double divide means to
+
+149
+00:07:04,400 --> 00:07:10,979
+divide by 10 and only keep the integer
+
+150
+00:07:07,919 --> 00:07:12,300
+part forget about the fraction okay okay
+
+151
+00:07:10,979 --> 00:07:14,639
+so what have you learned today and
+
+152
+00:07:12,300 --> 00:07:18,180
+that's it I learned about numbers
+
+153
+00:07:14,639 --> 00:07:21,780
+there's a full digit number and split it
+
+154
+00:07:18,180 --> 00:07:25,259
+and we split it and to get to like the
+
+155
+00:07:21,780 --> 00:07:28,500
+lower sum okay so do we have to try the
+
+156
+00:07:25,259 --> 00:07:31,620
+three digit and one digit right okay why
+
+157
+00:07:28,500 --> 00:07:34,919
+because it'll be big it will be big
+
+158
+00:07:31,620 --> 00:07:36,900
+right three digit you guaranteed it's a
+
+159
+00:07:34,919 --> 00:07:38,819
+three digit thing once we did this thing
+
+160
+00:07:36,900 --> 00:07:41,060
+you guarantee there's a hundred right a
+
+161
+00:07:38,819 --> 00:07:41,060
+hundred
+
+162
+00:07:45,080 --> 00:07:50,940
+this problem is founded there are only
+
+163
+00:07:48,120 --> 00:07:54,960
+12. if we try to expect four numbers
+
+164
+00:07:50,940 --> 00:07:58,080
+four digits into uh two digits Plato
+
+165
+00:07:54,960 --> 00:08:00,360
+digit so it's it's basically the same
+
+166
+00:07:58,080 --> 00:08:04,080
+thing like four iPods speaking to apples
+
+167
+00:08:00,360 --> 00:08:07,500
+with sequence that's that's p
+
+168
+00:08:04,080 --> 00:08:09,960
+two apple five for picking two apples is
+
+169
+00:08:07,500 --> 00:08:12,599
+equals let's pick two apples out of four
+
+170
+00:08:09,960 --> 00:08:15,240
+apples and then permutate it permutated
+
+171
+00:08:12,599 --> 00:08:16,500
+okay permutated first of all we pick
+
+172
+00:08:15,240 --> 00:08:18,180
+like two a plus
+
+173
+00:08:16,500 --> 00:08:19,800
+and then we can rearrange these two
+
+174
+00:08:18,180 --> 00:08:23,539
+apples that's basically the way it is
+
+175
+00:08:19,800 --> 00:08:23,539
+okay that's it for today bye
+

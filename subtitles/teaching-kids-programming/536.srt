@@ -1,0 +1,1380 @@
+1
+00:00:00,979 --> 00:00:05,120
+right
+
+2
+00:00:02,639 --> 00:00:08,280
+yeah what did we talked about yesterday
+
+3
+00:00:05,120 --> 00:00:11,460
+about minimum genetic mutation yeah
+
+4
+00:00:08,280 --> 00:00:13,200
+minimum genetic mutations we use the
+
+5
+00:00:11,460 --> 00:00:15,839
+breakfast search to solve this problem
+
+6
+00:00:13,200 --> 00:00:18,840
+right so the problem is that we given
+
+7
+00:00:15,839 --> 00:00:22,140
+these genes right gin strings the chin
+
+8
+00:00:18,840 --> 00:00:25,740
+string there are four types acgt A
+
+9
+00:00:22,140 --> 00:00:27,660
+pair with d c parent with G right I
+
+10
+00:00:25,740 --> 00:00:30,660
+would also talk about why why the gene
+
+11
+00:00:27,660 --> 00:00:33,239
+is like that right so look it's a double
+
+12
+00:00:30,660 --> 00:00:35,460
+strand Right double strand so look if
+
+13
+00:00:33,239 --> 00:00:37,739
+this is side is a and the other side is
+
+14
+00:00:35,460 --> 00:00:40,320
+T if this side is G the other side is C
+
+15
+00:00:37,739 --> 00:00:43,079
+right so DNA is small robust meaning
+
+16
+00:00:40,320 --> 00:00:46,320
+that if one of them is missing your body
+
+17
+00:00:43,079 --> 00:00:48,899
+knows how to repair it all right so this
+
+18
+00:00:46,320 --> 00:00:50,340
+your DNA carries information right
+
+19
+00:00:48,899 --> 00:00:52,320
+calories information it's a double
+
+20
+00:00:50,340 --> 00:00:54,719
+strange right and each one has four type
+
+21
+00:00:52,320 --> 00:00:56,460
+of Gene it's like finally but it's four
+
+22
+00:00:54,719 --> 00:00:59,579
+the equivalent is the information and
+
+23
+00:00:56,460 --> 00:01:02,039
+DNA needs to copy copy and this is more
+
+24
+00:00:59,579 --> 00:01:04,140
+like the checksum all right so when you
+
+25
+00:01:02,039 --> 00:01:06,119
+copies he knows he knows if this
+
+26
+00:01:04,140 --> 00:01:08,159
+information is correct or not okay and
+
+27
+00:01:06,119 --> 00:01:11,040
+we're given this Gene right and then
+
+28
+00:01:08,159 --> 00:01:13,619
+we've also given a list of the very Gene
+
+29
+00:01:11,040 --> 00:01:15,720
+in a bank so we call it Bank of Gene
+
+30
+00:01:13,619 --> 00:01:18,060
+right Bank of gin
+
+31
+00:01:15,720 --> 00:01:20,520
+so we want to fry it out from the start
+
+32
+00:01:18,060 --> 00:01:22,500
+starting right starting may not appear
+
+33
+00:01:20,520 --> 00:01:27,240
+in the bench of June but it's very
+
+34
+00:01:22,500 --> 00:01:29,880
+charging and when we apply the mutation
+
+35
+00:01:27,240 --> 00:01:32,580
+how many steps the minimum number of
+
+36
+00:01:29,880 --> 00:01:34,619
+steps to reach to the engine right and
+
+37
+00:01:32,580 --> 00:01:37,040
+then all the mutation needs to be in the
+
+38
+00:01:34,619 --> 00:01:40,439
+bank of Gene so one mutation for example
+
+39
+00:01:37,040 --> 00:01:43,820
+acct mutation one mutation we talk about
+
+40
+00:01:40,439 --> 00:01:46,200
+one mutation mutation the opposite of
+
+41
+00:01:43,820 --> 00:01:49,259
+immutable right immutable content
+
+42
+00:01:46,200 --> 00:01:51,119
+mutation means change so we pick one
+
+43
+00:01:49,259 --> 00:01:53,460
+Gene and then we can change to other
+
+44
+00:01:51,119 --> 00:01:55,380
+three types for example we pick this C
+
+45
+00:01:53,460 --> 00:01:58,259
+if we pick this C
+
+46
+00:01:55,380 --> 00:02:02,159
+right so we have G
+
+47
+00:01:58,259 --> 00:02:04,619
+a p so we can change the second Gene to
+
+48
+00:02:02,159 --> 00:02:06,899
+all three other types okay and we use
+
+49
+00:02:04,619 --> 00:02:10,080
+the first message uh because the perfect
+
+50
+00:02:06,899 --> 00:02:13,860
+search is suitable to find the minimum
+
+51
+00:02:10,080 --> 00:02:17,340
+Steps From the Source to a destination
+
+52
+00:02:13,860 --> 00:02:19,379
+in the undirected or I directed I'm
+
+53
+00:02:17,340 --> 00:02:21,780
+waiting it has to be unwritical and
+
+54
+00:02:19,379 --> 00:02:24,060
+waiting means that the cost between the
+
+55
+00:02:21,780 --> 00:02:26,459
+notes the edges having the same weight
+
+56
+00:02:24,060 --> 00:02:28,739
+because that each mutation costs one
+
+57
+00:02:26,459 --> 00:02:31,080
+step it's all the same so this is
+
+58
+00:02:28,739 --> 00:02:34,800
+perfect search and because they are only
+
+59
+00:02:31,080 --> 00:02:36,780
+a limited number of genes in the bank so
+
+60
+00:02:34,800 --> 00:02:40,080
+the time complexity for the prefer
+
+61
+00:02:36,780 --> 00:02:42,780
+search is OB right because for each
+
+62
+00:02:40,080 --> 00:02:45,300
+mutation it has to be in the bank right
+
+63
+00:02:42,780 --> 00:02:49,080
+this is about it about the preferences
+
+64
+00:02:45,300 --> 00:02:51,900
+so what's the other search algorithm you
+
+65
+00:02:49,080 --> 00:02:53,760
+know not perfect that's a search okay so
+
+66
+00:02:51,900 --> 00:02:56,940
+we can apply the deficit in this case
+
+67
+00:02:53,760 --> 00:02:58,260
+right because it's more trickier yes
+
+68
+00:02:56,940 --> 00:03:01,400
+it's more chicken
+
+69
+00:02:58,260 --> 00:03:03,540
+you might go to a different end okay
+
+70
+00:03:01,400 --> 00:03:05,700
+you know that we use the double English
+
+71
+00:03:03,540 --> 00:03:08,220
+to level by level right level by level
+
+72
+00:03:05,700 --> 00:03:12,480
+so when we find it
+
+73
+00:03:08,220 --> 00:03:14,700
+the first note we find it which is the
+
+74
+00:03:12,480 --> 00:03:16,500
+target is the guarantees the shortest
+
+75
+00:03:14,700 --> 00:03:18,420
+distance right right because you're just
+
+76
+00:03:16,500 --> 00:03:21,900
+searching basically level by level the
+
+77
+00:03:18,420 --> 00:03:24,540
+first note the talking note you find is
+
+78
+00:03:21,900 --> 00:03:26,580
+the answer the optimal right if it's the
+
+79
+00:03:24,540 --> 00:03:27,900
+defa search it does not guarantee the
+
+80
+00:03:26,580 --> 00:03:30,720
+shortest
+
+81
+00:03:27,900 --> 00:03:33,360
+look if the destination is here and
+
+82
+00:03:30,720 --> 00:03:35,700
+possibly another one here right look
+
+83
+00:03:33,360 --> 00:03:38,099
+when you perform a text message you go
+
+84
+00:03:35,700 --> 00:03:40,500
+least here here here here you find it
+
+85
+00:03:38,099 --> 00:03:42,360
+right this is now you find it but this
+
+86
+00:03:40,500 --> 00:03:45,480
+is not the optimum this is not your test
+
+87
+00:03:42,360 --> 00:03:47,700
+here this is the shortest so in order to
+
+88
+00:03:45,480 --> 00:03:48,420
+calculate guarantee the shortest
+
+89
+00:03:47,700 --> 00:03:51,840
+um
+
+90
+00:03:48,420 --> 00:03:54,239
+such is the distance we can do approvals
+
+91
+00:03:51,840 --> 00:03:57,180
+using the deficiency so basically we
+
+92
+00:03:54,239 --> 00:03:59,519
+exhaust the search we can exhaust all
+
+93
+00:03:57,180 --> 00:04:00,900
+the paths right what we find is what you
+
+94
+00:03:59,519 --> 00:04:02,700
+should remain by but we are not
+
+95
+00:04:00,900 --> 00:04:05,280
+returning because we haven't finished
+
+96
+00:04:02,700 --> 00:04:08,220
+the whole tree right we just continue
+
+97
+00:04:05,280 --> 00:04:11,040
+searching searching and here we update
+
+98
+00:04:08,220 --> 00:04:12,720
+the optimum right so basically the first
+
+99
+00:04:11,040 --> 00:04:15,900
+search in this case is more like a blue
+
+100
+00:04:12,720 --> 00:04:18,780
+Force because we have to extort all the
+
+101
+00:04:15,900 --> 00:04:20,840
+paths but the way you're searching like
+
+102
+00:04:18,780 --> 00:04:24,240
+that if it does not
+
+103
+00:04:20,840 --> 00:04:26,759
+that's that's yeah yeah that was such
+
+104
+00:04:24,240 --> 00:04:29,400
+the thing here is that when we perform a
+
+105
+00:04:26,759 --> 00:04:31,080
+differences usually we return right but
+
+106
+00:04:29,400 --> 00:04:33,900
+here we're not returning because we are
+
+107
+00:04:31,080 --> 00:04:37,139
+not sure if this is the optimum
+
+108
+00:04:33,900 --> 00:04:39,060
+am I right yeah so we can apply the
+
+109
+00:04:37,139 --> 00:04:41,220
+default search in this case right
+
+110
+00:04:39,060 --> 00:04:44,340
+because the there's number of The
+
+111
+00:04:41,220 --> 00:04:47,040
+Limited uh genes in the bank
+
+112
+00:04:44,340 --> 00:04:49,320
+if there is no such limit this uh to
+
+113
+00:04:47,040 --> 00:04:52,500
+exhort all a paths industry might take
+
+114
+00:04:49,320 --> 00:04:54,419
+uh longer right ideally ideally this is
+
+115
+00:04:52,500 --> 00:04:57,180
+not a very good approach but we just uh
+
+116
+00:04:54,419 --> 00:04:59,580
+showing you here today okay to give you
+
+117
+00:04:57,180 --> 00:05:01,199
+an idea so in the next lesson we're
+
+118
+00:04:59,580 --> 00:05:03,660
+going to revisit this using the
+
+119
+00:05:01,199 --> 00:05:06,960
+iterative deepening search which is the
+
+120
+00:05:03,660 --> 00:05:08,280
+combined who is the death limit such
+
+121
+00:05:06,960 --> 00:05:11,580
+incrementally
+
+122
+00:05:08,280 --> 00:05:14,580
+set the max depth for the temperature
+
+123
+00:05:11,580 --> 00:05:17,280
+why did you write IDF iterative
+
+124
+00:05:14,580 --> 00:05:20,460
+deepening such it's like that okay so
+
+125
+00:05:17,280 --> 00:05:21,900
+let's start with the Step Zero the
+
+126
+00:05:20,460 --> 00:05:24,419
+maximum
+
+127
+00:05:21,900 --> 00:05:26,820
+depth is the distance is zero so we stop
+
+128
+00:05:24,419 --> 00:05:29,100
+here and then okay we don't find it so
+
+129
+00:05:26,820 --> 00:05:32,060
+let's increment the math step to one so
+
+130
+00:05:29,100 --> 00:05:32,060
+we do a default
+
+131
+00:05:37,440 --> 00:05:42,240
+we're not going because the test is too
+
+132
+00:05:39,600 --> 00:05:44,100
+maximum two and we'll go back so def's
+
+133
+00:05:42,240 --> 00:05:46,440
+limit search what's Steph's name is such
+
+134
+00:05:44,100 --> 00:05:50,460
+we perform at that first search with a
+
+135
+00:05:46,440 --> 00:05:51,960
+maximum depth okay theft limit search is
+
+136
+00:05:50,460 --> 00:05:55,039
+that first search
+
+137
+00:05:51,960 --> 00:05:59,039
+plus please
+
+138
+00:05:55,039 --> 00:06:02,280
+limit okay that's what it is okay so
+
+139
+00:05:59,039 --> 00:06:04,020
+okay so we go to implement the type of
+
+140
+00:06:02,280 --> 00:06:05,940
+search so definite search usually we can
+
+141
+00:06:04,020 --> 00:06:07,560
+use the recursion and non-recursion
+
+142
+00:06:05,940 --> 00:06:09,360
+right the recursion is more easier to
+
+143
+00:06:07,560 --> 00:06:11,400
+implement all right yeah because the
+
+144
+00:06:09,360 --> 00:06:14,280
+computer maintenance that class okay
+
+145
+00:06:11,400 --> 00:06:16,220
+first of all uh set the answer to
+
+146
+00:06:14,280 --> 00:06:20,280
+Infinity right we haven't found it
+
+147
+00:06:16,220 --> 00:06:22,620
+infinitive Define therefore such we want
+
+148
+00:06:20,280 --> 00:06:25,919
+to have a star we have n and current
+
+149
+00:06:22,620 --> 00:06:27,120
+distance current steps and we need to
+
+150
+00:06:25,919 --> 00:06:30,000
+have a
+
+151
+00:06:27,120 --> 00:06:32,160
+paper has table to remember the notes we
+
+152
+00:06:30,000 --> 00:06:35,280
+have visited right yeah because mutation
+
+153
+00:06:32,160 --> 00:06:37,560
+if a change to t t might change to a
+
+154
+00:06:35,280 --> 00:06:39,720
+again right a changes to C C my change
+
+155
+00:06:37,560 --> 00:06:42,600
+to a again we don't want left right we
+
+156
+00:06:39,720 --> 00:06:45,180
+don't want that if we don't remember the
+
+157
+00:06:42,600 --> 00:06:48,960
+notes we have seen what could happen if
+
+158
+00:06:45,180 --> 00:06:52,580
+we're not remembering this explanation
+
+159
+00:06:48,960 --> 00:06:54,440
+then we're working out with same thing
+
+160
+00:06:52,580 --> 00:06:57,120
+yeah
+
+161
+00:06:54,440 --> 00:06:59,520
+take forever the problem will never end
+
+162
+00:06:57,120 --> 00:07:01,979
+right because you just walk here walk
+
+163
+00:06:59,520 --> 00:07:03,360
+down pause and backwards okay so we need
+
+164
+00:07:01,979 --> 00:07:05,580
+to remember for example we need to
+
+165
+00:07:03,360 --> 00:07:06,900
+remember this remember this then we're
+
+166
+00:07:05,580 --> 00:07:10,819
+not coming back okay we're not coming
+
+167
+00:07:06,900 --> 00:07:10,819
+back we're not coming back if
+
+168
+00:07:13,580 --> 00:07:19,259
+visited the destination n right so we
+
+169
+00:07:17,160 --> 00:07:21,539
+need to remember the current distance
+
+170
+00:07:19,259 --> 00:07:24,660
+which is save the answer we want to get
+
+171
+00:07:21,539 --> 00:07:26,940
+the minimum right and then distance and
+
+172
+00:07:24,660 --> 00:07:30,240
+then return okay you can return true to
+
+173
+00:07:26,940 --> 00:07:33,780
+say okay to say we will record it and
+
+174
+00:07:30,240 --> 00:07:35,160
+then okay if not if the current node is
+
+175
+00:07:33,780 --> 00:07:38,819
+in the scene
+
+176
+00:07:35,160 --> 00:07:40,500
+why yeah if we we have seen this before
+
+177
+00:07:38,819 --> 00:07:42,960
+then we'll return first right return
+
+178
+00:07:40,500 --> 00:07:45,660
+first this is the pattern right every
+
+179
+00:07:42,960 --> 00:07:48,360
+time we check if the thing is in the
+
+180
+00:07:45,660 --> 00:07:49,800
+headset if it's a visited before then we
+
+181
+00:07:48,360 --> 00:07:51,900
+do 10 you look at the things in the
+
+182
+00:07:49,800 --> 00:07:54,000
+notebook if it's not there
+
+183
+00:07:51,900 --> 00:07:57,120
+what do you want to do next of course
+
+184
+00:07:54,000 --> 00:07:59,160
+out mark it down okay so I put one here
+
+185
+00:07:57,120 --> 00:08:02,880
+because I have visited enough right so
+
+186
+00:07:59,160 --> 00:08:06,780
+he allowed look scene dot add
+
+187
+00:08:02,880 --> 00:08:09,240
+F right and then I'm going to
+
+188
+00:08:06,780 --> 00:08:11,460
+come to do the next one the mutation
+
+189
+00:08:09,240 --> 00:08:15,080
+right mutation mute
+
+190
+00:08:11,460 --> 00:08:15,080
+in there are four types
+
+191
+00:08:16,220 --> 00:08:21,840
+mutations stencil or mutation okay I'm
+
+192
+00:08:18,780 --> 00:08:24,960
+just lazy mutton okay amazing what's my
+
+193
+00:08:21,840 --> 00:08:26,160
+turn in a sheep oh the meat the mutton
+
+194
+00:08:24,960 --> 00:08:28,740
+okay yeah
+
+195
+00:08:26,160 --> 00:08:31,199
+yeah they're only four times right so we
+
+196
+00:08:28,740 --> 00:08:35,399
+talk about how to do limitations at Ace
+
+197
+00:08:31,199 --> 00:08:39,839
+GCT so we can check every uh we can
+
+198
+00:08:35,399 --> 00:08:40,979
+mutate every Gene right so for I in
+
+199
+00:08:39,839 --> 00:08:44,339
+range
+
+200
+00:08:40,979 --> 00:08:47,339
+the length of uh current this is going
+
+201
+00:08:44,339 --> 00:08:49,440
+to the index and the next one the need
+
+202
+00:08:47,339 --> 00:08:51,660
+label right we want to mutate this
+
+203
+00:08:49,440 --> 00:08:53,820
+position now we take all the characters
+
+204
+00:08:51,660 --> 00:08:55,800
+all the genes before and the origin
+
+205
+00:08:53,820 --> 00:08:59,580
+after and then we need to mutate right
+
+206
+00:08:55,800 --> 00:09:03,300
+so all the genes before is s up to I
+
+207
+00:08:59,580 --> 00:09:06,779
+plus current Gene will mutated mu mat
+
+208
+00:09:03,300 --> 00:09:10,140
+plus s i plus 1 to the end
+
+209
+00:09:06,779 --> 00:09:12,600
+okay and of course this neon can't be
+
+210
+00:09:10,140 --> 00:09:13,920
+the same as s right because if it's the
+
+211
+00:09:12,600 --> 00:09:15,300
+same thing
+
+212
+00:09:13,920 --> 00:09:17,519
+if it's the same thing there is no
+
+213
+00:09:15,300 --> 00:09:20,940
+mutation right look we're just iterating
+
+214
+00:09:17,519 --> 00:09:22,440
+look acct for example I want to mutate
+
+215
+00:09:20,940 --> 00:09:24,540
+the second one so the second one has
+
+216
+00:09:22,440 --> 00:09:27,720
+four Choice AC
+
+217
+00:09:24,540 --> 00:09:29,880
+GT the original one is C right so we
+
+218
+00:09:27,720 --> 00:09:31,500
+don't want to continue doing this right
+
+219
+00:09:29,880 --> 00:09:35,700
+because it's the same so we cross our
+
+220
+00:09:31,500 --> 00:09:39,000
+right one so a g c p a g t okay and if
+
+221
+00:09:35,700 --> 00:09:41,640
+not equals the original if there's a no
+
+222
+00:09:39,000 --> 00:09:44,459
+mutation and then we need to Def as such
+
+223
+00:09:41,640 --> 00:09:47,399
+that first search now
+
+224
+00:09:44,459 --> 00:09:49,860
+and distance plus one right we're doing
+
+225
+00:09:47,399 --> 00:09:52,800
+one more mutation and then scene at the
+
+226
+00:09:49,860 --> 00:09:55,320
+end we need to remove it from remove
+
+227
+00:09:52,800 --> 00:09:56,940
+remove the S voice so because the
+
+228
+00:09:55,320 --> 00:09:59,640
+deficit search yeah we have seen this
+
+229
+00:09:56,940 --> 00:10:02,880
+before we have seen this before but when
+
+230
+00:09:59,640 --> 00:10:05,220
+we visit this this another path we we
+
+231
+00:10:02,880 --> 00:10:07,740
+haven't seen this now before so we have
+
+232
+00:10:05,220 --> 00:10:10,140
+to unmark it for the default search if
+
+233
+00:10:07,740 --> 00:10:12,600
+you mark it you know if you're traveling
+
+234
+00:10:10,140 --> 00:10:14,160
+the past traveling the tree using the
+
+235
+00:10:12,600 --> 00:10:16,620
+deathless search if you mark it you have
+
+236
+00:10:14,160 --> 00:10:18,839
+to unmark it somewhere okay and also we
+
+237
+00:10:16,620 --> 00:10:20,640
+have to check if the neighbor is in a
+
+238
+00:10:18,839 --> 00:10:23,100
+bank this is most important I forgot
+
+239
+00:10:20,640 --> 00:10:25,019
+this yeah because the neighbor has to be
+
+240
+00:10:23,100 --> 00:10:27,360
+that the mutation has to be in effect
+
+241
+00:10:25,019 --> 00:10:29,279
+this is one more criteria and then we're
+
+242
+00:10:27,360 --> 00:10:31,260
+doing the third research and therefore
+
+243
+00:10:29,279 --> 00:10:33,600
+such against okay now time complexity
+
+244
+00:10:31,260 --> 00:10:37,440
+and space complexity for this one is a
+
+245
+00:10:33,600 --> 00:10:40,800
+lot trickier because we can't is that uh
+
+246
+00:10:37,440 --> 00:10:42,540
+Bank of Gene criteria if we don't have
+
+247
+00:10:40,800 --> 00:10:45,180
+this criteria what happened how do we
+
+248
+00:10:42,540 --> 00:10:47,820
+analyze the time complexity of deficit
+
+249
+00:10:45,180 --> 00:10:48,899
+we just check look even this note how
+
+250
+00:10:47,820 --> 00:10:51,060
+many kids
+
+251
+00:10:48,899 --> 00:10:51,720
+how many kids have it or if there are
+
+252
+00:10:51,060 --> 00:10:53,160
+two
+
+253
+00:10:51,720 --> 00:10:54,720
+for example if it's a buying a tree
+
+254
+00:10:53,160 --> 00:10:58,860
+what's the time complexity of deficit
+
+255
+00:10:54,720 --> 00:11:01,620
+surgery on the binary tree so is is o p
+
+256
+00:10:58,860 --> 00:11:04,260
+t okay so we use this notation B is the
+
+257
+00:11:01,620 --> 00:11:06,540
+branching Factor D is the depth okay
+
+258
+00:11:04,260 --> 00:11:07,740
+prompting Factor look to function Factor
+
+259
+00:11:06,540 --> 00:11:10,920
+two
+
+260
+00:11:07,740 --> 00:11:13,260
+death okay yeah because for each note
+
+261
+00:11:10,920 --> 00:11:15,360
+you have two choice right there's always
+
+262
+00:11:13,260 --> 00:11:17,579
+two to the power of C right this is more
+
+263
+00:11:15,360 --> 00:11:21,000
+General kind of the analyze of the
+
+264
+00:11:17,579 --> 00:11:23,220
+deficit on the tree but for this one the
+
+265
+00:11:21,000 --> 00:11:24,899
+three right another three how many
+
+266
+00:11:23,220 --> 00:11:28,200
+possibilities
+
+267
+00:11:24,899 --> 00:11:32,880
+if the size if the size of gene is n
+
+268
+00:11:28,200 --> 00:11:34,560
+right so for n if a gene is n size A C C
+
+269
+00:11:32,880 --> 00:11:36,839
+T for example if there are n characters
+
+270
+00:11:34,560 --> 00:11:39,000
+here n characters here so how many
+
+271
+00:11:36,839 --> 00:11:42,779
+possibilities for each one for how many
+
+272
+00:11:39,000 --> 00:11:44,399
+mutations so I can pick n of them well I
+
+273
+00:11:42,779 --> 00:11:45,660
+can pick n on them each one has three
+
+274
+00:11:44,399 --> 00:11:48,899
+choice right
+
+275
+00:11:45,660 --> 00:11:52,380
+each one has three Choice make sense so
+
+276
+00:11:48,899 --> 00:11:55,140
+it's three times n right three times n
+
+277
+00:11:52,380 --> 00:11:59,399
+so this is the function Factor function
+
+278
+00:11:55,140 --> 00:12:02,160
+factor and the T the test test is length
+
+279
+00:11:59,399 --> 00:12:06,060
+of B right the length of B so so love
+
+280
+00:12:02,160 --> 00:12:09,000
+bank so is O3 times n
+
+281
+00:12:06,060 --> 00:12:11,040
+to the power of a bank right
+
+282
+00:12:09,000 --> 00:12:12,779
+this is branching Factor branching
+
+283
+00:12:11,040 --> 00:12:16,019
+factor three three to the power of n
+
+284
+00:12:12,779 --> 00:12:19,860
+three times n right or n right we drop a
+
+285
+00:12:16,019 --> 00:12:21,720
+constant maybe n to the power of b b is
+
+286
+00:12:19,860 --> 00:12:24,120
+not the branching factor or anything
+
+287
+00:12:21,720 --> 00:12:26,760
+it's the length of the genes in the bank
+
+288
+00:12:24,120 --> 00:12:29,459
+right because it gives the you the valid
+
+289
+00:12:26,760 --> 00:12:31,680
+move value mutation okay yeah for that
+
+290
+00:12:29,459 --> 00:12:33,600
+first search the space complexity is the
+
+291
+00:12:31,680 --> 00:12:35,880
+maximum depth of the tree if the
+
+292
+00:12:33,600 --> 00:12:37,260
+distance the maximum density and the
+
+293
+00:12:35,880 --> 00:12:39,839
+space complexity is already for the
+
+294
+00:12:37,260 --> 00:12:41,940
+deficit okay but for breakfast search is
+
+295
+00:12:39,839 --> 00:12:42,899
+determined by because we have to use the
+
+296
+00:12:41,940 --> 00:12:46,040
+Q
+
+297
+00:12:42,899 --> 00:12:46,040
+okay yes
+
+298
+00:12:46,880 --> 00:12:50,160
+okay so what have you learned today
+
+299
+00:12:48,959 --> 00:12:53,400
+what's the problem what have you learned
+
+300
+00:12:50,160 --> 00:12:54,740
+today and that's it I mean you go first
+
+301
+00:12:53,400 --> 00:12:59,519
+[Music]
+
+302
+00:12:54,740 --> 00:13:02,160
+yesterday but it deficit yeah so can you
+
+303
+00:12:59,519 --> 00:13:03,600
+tell more about this deficit search I
+
+304
+00:13:02,160 --> 00:13:05,459
+mean why
+
+305
+00:13:03,600 --> 00:13:08,279
+why we
+
+306
+00:13:05,459 --> 00:13:12,000
+well you have this notebook and and so
+
+307
+00:13:08,279 --> 00:13:16,740
+we don't really do the same thing so so
+
+308
+00:13:12,000 --> 00:13:20,760
+whenever yeah we and every so often we
+
+309
+00:13:16,740 --> 00:13:24,540
+market so we don't do it again yeah and
+
+310
+00:13:20,760 --> 00:13:27,060
+market and don't do it again yeah Market
+
+311
+00:13:24,540 --> 00:13:28,740
+unmark it right the first search we
+
+312
+00:13:27,060 --> 00:13:31,139
+checked with marketing people if it's
+
+313
+00:13:28,740 --> 00:13:33,899
+visited we can close right yeah and if
+
+314
+00:13:31,139 --> 00:13:35,160
+we find this then we update the shortest
+
+315
+00:13:33,899 --> 00:13:37,440
+path
+
+316
+00:13:35,160 --> 00:13:39,959
+shortest distance this is kind of brute
+
+317
+00:13:37,440 --> 00:13:41,700
+force in a text message manner okay so
+
+318
+00:13:39,959 --> 00:13:44,459
+it only works in this kind of particular
+
+319
+00:13:41,700 --> 00:13:46,380
+problem if this tree is unbounded then
+
+320
+00:13:44,459 --> 00:13:47,760
+this will take forever the ultimate
+
+321
+00:13:46,380 --> 00:13:49,260
+solution is breakfast such we talked
+
+322
+00:13:47,760 --> 00:13:52,620
+about yesterday never by level because
+
+323
+00:13:49,260 --> 00:13:54,600
+it guarantees the minimum distance as
+
+324
+00:13:52,620 --> 00:13:57,600
+long as we find it right the first note
+
+325
+00:13:54,600 --> 00:14:00,300
+we find it impressive search is the
+
+326
+00:13:57,600 --> 00:14:01,560
+ultimate in uh in an animated graph it
+
+327
+00:14:00,300 --> 00:14:04,440
+doesn't matter if it's directly or
+
+328
+00:14:01,560 --> 00:14:07,560
+animated okay it has to be unweighted
+
+329
+00:14:04,440 --> 00:14:09,240
+okay you can be directly or undirected
+
+330
+00:14:07,560 --> 00:14:11,279
+but it has to be unweighted okay make
+
+331
+00:14:09,240 --> 00:14:13,440
+sense can you tell me what have you
+
+332
+00:14:11,279 --> 00:14:16,579
+learned today and I'm just saying
+
+333
+00:14:13,440 --> 00:14:16,579
+what's the same thing
+
+334
+00:14:17,160 --> 00:14:23,660
+okay so what's the problem and what how
+
+335
+00:14:20,940 --> 00:14:23,660
+do we solve it
+
+336
+00:14:25,920 --> 00:14:28,700
+Stefan search
+
+337
+00:14:30,079 --> 00:14:35,940
+yes going deeper as we can yes
+
+338
+00:14:33,720 --> 00:14:37,440
+okay and how we usually implement the
+
+339
+00:14:35,940 --> 00:14:40,440
+depth as such
+
+340
+00:14:37,440 --> 00:14:40,440
+please
+
+341
+00:14:41,180 --> 00:14:47,839
+use a light blue forcing what's what's
+
+342
+00:14:44,639 --> 00:14:51,980
+up calling yourself yeah yeah
+
+343
+00:14:47,839 --> 00:14:56,060
+because your hair looks Eric yeah yeah
+
+344
+00:14:51,980 --> 00:14:59,360
+okay yeah that's it for today bye-bye
+
+345
+00:14:56,060 --> 00:14:59,360
+bye bye
+
