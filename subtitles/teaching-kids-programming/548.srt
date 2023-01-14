@@ -1,0 +1,1456 @@
+1
+00:00:24,620 --> 00:00:27,699
+[Music]
+
+2
+00:00:28,160 --> 00:00:34,260
+so we are given a list of the integers
+
+3
+00:00:31,019 --> 00:00:38,719
+uh a list of single digits like one two
+
+4
+00:00:34,260 --> 00:00:42,800
+you know we could have a duplication
+
+5
+00:00:38,719 --> 00:00:46,680
+so our task is to find all okay
+
+6
+00:00:42,800 --> 00:00:49,440
+or three digit number
+
+7
+00:00:46,680 --> 00:00:51,600
+which is also even right and it does not
+
+8
+00:00:49,440 --> 00:00:53,820
+have relieving zeros okay I do not have
+
+9
+00:00:51,600 --> 00:00:56,039
+a living kilos for example
+
+10
+00:00:53,820 --> 00:00:59,840
+one two two three zero
+
+11
+00:00:56,039 --> 00:01:04,260
+so what we can have is one two two
+
+12
+00:00:59,840 --> 00:01:06,960
+zero right and one three one two one
+
+13
+00:01:04,260 --> 00:01:09,780
+zero three one two three yeah yeah so
+
+14
+00:01:06,960 --> 00:01:11,880
+all these three digit even numbers do
+
+15
+00:01:09,780 --> 00:01:15,119
+not have leading zeros and has to be
+
+16
+00:01:11,880 --> 00:01:17,159
+sorted in the uh distance in a returned
+
+17
+00:01:15,119 --> 00:01:21,380
+array okay yes and then we talk about
+
+18
+00:01:17,159 --> 00:01:21,380
+two masters one method is to
+
+19
+00:01:21,860 --> 00:01:28,799
+basically this is just to permutate
+
+20
+00:01:24,920 --> 00:01:33,240
+three digits out of this end we
+
+21
+00:01:28,799 --> 00:01:35,759
+permutate this pn3 picking three out of
+
+22
+00:01:33,240 --> 00:01:38,460
+n digits and then once we have this
+
+23
+00:01:35,759 --> 00:01:40,320
+commutation we need to check if the even
+
+24
+00:01:38,460 --> 00:01:42,900
+number it does not have a leading zero
+
+25
+00:01:40,320 --> 00:01:44,900
+and then we need to add it to the set
+
+26
+00:01:42,900 --> 00:01:47,640
+right
+
+27
+00:01:44,900 --> 00:01:48,540
+okay so why do we need the set do you
+
+28
+00:01:47,640 --> 00:01:50,640
+remember
+
+29
+00:01:48,540 --> 00:01:52,740
+so you don't want the duplicate right so
+
+30
+00:01:50,640 --> 00:01:54,299
+that's why we use the set okay so why
+
+31
+00:01:52,740 --> 00:01:55,860
+are you using set because we don't want
+
+32
+00:01:54,299 --> 00:01:57,659
+to install the duplicates uh we only
+
+33
+00:01:55,860 --> 00:01:59,579
+want that you need the numbers and then
+
+34
+00:01:57,659 --> 00:02:01,680
+before we return we need to sort it
+
+35
+00:01:59,579 --> 00:02:03,600
+right the time connects to your sorting
+
+36
+00:02:01,680 --> 00:02:06,659
+is over and again and that permutation
+
+37
+00:02:03,600 --> 00:02:08,459
+is pn3 this is the time complexity and
+
+38
+00:02:06,659 --> 00:02:11,959
+the space and complexity obviously if
+
+39
+00:02:08,459 --> 00:02:15,000
+all the numbers if all the numbers are
+
+40
+00:02:11,959 --> 00:02:19,020
+unique and even digits for example if we
+
+41
+00:02:15,000 --> 00:02:22,440
+have an array of 2 4 6A right
+
+42
+00:02:19,020 --> 00:02:25,319
+and then the full permutation every
+
+43
+00:02:22,440 --> 00:02:27,959
+possibility every commutation of three
+
+44
+00:02:25,319 --> 00:02:33,060
+digits is a good answer and we need to
+
+45
+00:02:27,959 --> 00:02:34,680
+add it to the results and that takes pm3
+
+46
+00:02:33,060 --> 00:02:36,660
+space
+
+47
+00:02:34,680 --> 00:02:39,060
+but this is not efficient right one
+
+48
+00:02:36,660 --> 00:02:42,180
+efficient way the more efficient way is
+
+49
+00:02:39,060 --> 00:02:43,500
+to get to iterate cancer
+
+50
+00:02:42,180 --> 00:02:45,959
+yeah
+
+51
+00:02:43,500 --> 00:02:48,480
+so we want to prove us because they are
+
+52
+00:02:45,959 --> 00:02:53,220
+limited number of three digits right so
+
+53
+00:02:48,480 --> 00:02:56,040
+we proof of we try each even number we
+
+54
+00:02:53,220 --> 00:02:59,879
+seen this ring we try basically we are
+
+55
+00:02:56,040 --> 00:03:02,879
+saying that we try every three digit
+
+56
+00:02:59,879 --> 00:03:05,879
+even number and to see if it can be made
+
+57
+00:03:02,879 --> 00:03:08,220
+from the given digits right and how do
+
+58
+00:03:05,879 --> 00:03:10,560
+we determine if it can be made out of
+
+59
+00:03:08,220 --> 00:03:13,080
+this given array of digits we just use
+
+60
+00:03:10,560 --> 00:03:15,480
+the counter we count the number of the
+
+61
+00:03:13,080 --> 00:03:17,760
+appearance for each digit and then we
+
+62
+00:03:15,480 --> 00:03:21,000
+compare two counters
+
+63
+00:03:17,760 --> 00:03:22,920
+if the counter of these digits the even
+
+64
+00:03:21,000 --> 00:03:26,459
+number three digit even number is
+
+65
+00:03:22,920 --> 00:03:29,040
+smaller than the given counter then we
+
+66
+00:03:26,459 --> 00:03:31,500
+say it's possible to make these three
+
+67
+00:03:29,040 --> 00:03:33,780
+digit even number using those digits
+
+68
+00:03:31,500 --> 00:03:36,000
+right and this is more efficient because
+
+69
+00:03:33,780 --> 00:03:38,879
+look this is a constant Loop we just
+
+70
+00:03:36,000 --> 00:03:43,459
+have to iterate how many times you know
+
+71
+00:03:38,879 --> 00:03:43,459
+how many even numbers of three digits
+
+72
+00:03:45,980 --> 00:03:51,420
+minus 100 divided by two
+
+73
+00:03:49,019 --> 00:03:53,879
+I need to plus one this is the number of
+
+74
+00:03:51,420 --> 00:03:55,739
+the three digit even numbers this is a
+
+75
+00:03:53,879 --> 00:03:56,580
+constant number so this is a constant
+
+76
+00:03:55,739 --> 00:03:59,459
+Loop
+
+77
+00:03:56,580 --> 00:04:01,200
+constant time complexity if this is not
+
+78
+00:03:59,459 --> 00:04:02,640
+considered okay if we are not
+
+79
+00:04:01,200 --> 00:04:05,159
+considering the
+
+80
+00:04:02,640 --> 00:04:07,200
+time complexity of turning the digit
+
+81
+00:04:05,159 --> 00:04:09,360
+into account least bit we're just
+
+82
+00:04:07,200 --> 00:04:13,640
+talking about this this bit as this
+
+83
+00:04:09,360 --> 00:04:13,640
+constant of we talk about this we don't
+
+84
+00:04:13,920 --> 00:04:19,019
+use this from ether tools import
+
+85
+00:04:16,560 --> 00:04:23,400
+permutation right and at least gives us
+
+86
+00:04:19,019 --> 00:04:24,960
+a nice uh easy to use tool to to do this
+
+87
+00:04:23,400 --> 00:04:27,479
+permutation
+
+88
+00:04:24,960 --> 00:04:29,639
+of three digit and this is the iterated
+
+89
+00:04:27,479 --> 00:04:32,880
+but basically we're saying that
+
+90
+00:04:29,639 --> 00:04:36,180
+we want to find a permutation of three
+
+91
+00:04:32,880 --> 00:04:38,040
+digits based on these digits given right
+
+92
+00:04:36,180 --> 00:04:40,440
+and then we check if it doesn't have a
+
+93
+00:04:38,040 --> 00:04:43,979
+leading zero if it's an even number last
+
+94
+00:04:40,440 --> 00:04:47,520
+digit is the even number then we add it
+
+95
+00:04:43,979 --> 00:04:50,040
+a this is 100 P this is the 10 see this
+
+96
+00:04:47,520 --> 00:04:52,740
+is once I learned
+
+97
+00:04:50,040 --> 00:04:54,720
+answer is a set this is to prevent the
+
+98
+00:04:52,740 --> 00:04:56,580
+duplicate numbers and then at the end we
+
+99
+00:04:54,720 --> 00:05:00,479
+need to sort it all right sorry this is
+
+100
+00:04:56,580 --> 00:05:04,500
+om log m n is pn3 so okay so the time
+
+101
+00:05:00,479 --> 00:05:07,880
+for next is pn3 this bit
+
+102
+00:05:04,500 --> 00:05:12,380
+plus right plus plus
+
+103
+00:05:07,880 --> 00:05:16,620
+p uh N3 Times log p and z Oh this is the
+
+104
+00:05:12,380 --> 00:05:19,440
+n log n right and as I said n equals p
+
+105
+00:05:16,620 --> 00:05:21,479
+and three I mentioned the paper search
+
+106
+00:05:19,440 --> 00:05:23,340
+prefer search we can solve this using
+
+107
+00:05:21,479 --> 00:05:25,320
+type of search and in the next lesson we
+
+108
+00:05:23,340 --> 00:05:27,180
+are solving this using professors okay
+
+109
+00:05:25,320 --> 00:05:29,240
+what's the difference between defenses
+
+110
+00:05:27,180 --> 00:05:31,919
+and Professor anybody
+
+111
+00:05:29,240 --> 00:05:34,199
+searching good level by level but
+
+112
+00:05:31,919 --> 00:05:36,300
+deficit you go deep as you can that's
+
+113
+00:05:34,199 --> 00:05:40,259
+right and how do we get there
+
+114
+00:05:36,300 --> 00:05:43,139
+uses stack and breakfast at Jesus key
+
+115
+00:05:40,259 --> 00:05:44,880
+good man okay so
+
+116
+00:05:43,139 --> 00:05:47,400
+what are we trying to do with the
+
+117
+00:05:44,880 --> 00:05:49,199
+deficit here right we are trying to
+
+118
+00:05:47,400 --> 00:05:51,660
+implement this communication right we
+
+119
+00:05:49,199 --> 00:05:54,060
+want three digits even number and this
+
+120
+00:05:51,660 --> 00:05:55,320
+is from the mathematics perspective we
+
+121
+00:05:54,060 --> 00:05:57,419
+want to find out the three digit
+
+122
+00:05:55,320 --> 00:05:59,639
+communication using the deficit
+
+123
+00:05:57,419 --> 00:06:02,160
+suppose we have this digit right how do
+
+124
+00:05:59,639 --> 00:06:05,280
+we do this switch patient anybody what
+
+125
+00:06:02,160 --> 00:06:10,139
+are those possible Communications
+
+126
+00:06:05,280 --> 00:06:13,199
+um one two one two two and one two three
+
+127
+00:06:10,139 --> 00:06:14,699
+one two three no no no yeah yeah one two
+
+128
+00:06:13,199 --> 00:06:16,199
+three yeah that's okay forget about it
+
+129
+00:06:14,699 --> 00:06:18,000
+even number I'm just saying the three
+
+130
+00:06:16,199 --> 00:06:20,880
+digit permutation how to do it one two
+
+131
+00:06:18,000 --> 00:06:23,699
+three okay it's enough one two zero here
+
+132
+00:06:20,880 --> 00:06:26,460
+right so that long right we want to find
+
+133
+00:06:23,699 --> 00:06:28,560
+out a three-digit permutation using the
+
+134
+00:06:26,460 --> 00:06:30,360
+number of digits given right so we can
+
+135
+00:06:28,560 --> 00:06:32,280
+do this step as such and how do we use
+
+136
+00:06:30,360 --> 00:06:33,780
+the default search let's do this deficit
+
+137
+00:06:32,280 --> 00:06:35,520
+first of all we need to counter I
+
+138
+00:06:33,780 --> 00:06:38,220
+counted the digits right we need to
+
+139
+00:06:35,520 --> 00:06:39,300
+obviously notice the frequency C equals
+
+140
+00:06:38,220 --> 00:06:41,699
+counter
+
+141
+00:06:39,300 --> 00:06:45,060
+counter digit
+
+142
+00:06:41,699 --> 00:06:49,139
+okay and then Define self massage let's
+
+143
+00:06:45,060 --> 00:06:52,500
+say the current number is X right and if
+
+144
+00:06:49,139 --> 00:06:55,259
+X is bigger than 99 or bigger or equal
+
+145
+00:06:52,500 --> 00:06:59,160
+than 100 it means that it's a three
+
+146
+00:06:55,259 --> 00:07:01,620
+digit number right if x and y equal
+
+147
+00:06:59,160 --> 00:07:04,740
+equal if it's an even number right
+
+148
+00:07:01,620 --> 00:07:07,139
+answer equals that we just put it in a
+
+149
+00:07:04,740 --> 00:07:09,780
+set answer dot add X
+
+150
+00:07:07,139 --> 00:07:11,940
+right and then we ten if we have already
+
+151
+00:07:09,780 --> 00:07:14,340
+three digits if it's an even number we
+
+152
+00:07:11,940 --> 00:07:19,380
+add it to the answer if not we'll do 10
+
+153
+00:07:14,340 --> 00:07:22,199
+okay and then for I in range
+
+154
+00:07:19,380 --> 00:07:25,500
+10 right we're going through each digit
+
+155
+00:07:22,199 --> 00:07:27,060
+0 1 2 3 4 5 up to nine and then we check
+
+156
+00:07:25,500 --> 00:07:31,139
+if
+
+157
+00:07:27,060 --> 00:07:33,419
+this c c i if we have enough digit of I
+
+158
+00:07:31,139 --> 00:07:35,699
+this is the counting how many digits of
+
+159
+00:07:33,419 --> 00:07:38,160
+the features we are given right if it's
+
+160
+00:07:35,699 --> 00:07:39,300
+bigger than zero let me do this step
+
+161
+00:07:38,160 --> 00:07:42,000
+massage
+
+162
+00:07:39,300 --> 00:07:44,180
+okay so I'm gonna put it here and then
+
+163
+00:07:42,000 --> 00:07:48,060
+if it's bigger than Seattle
+
+164
+00:07:44,180 --> 00:07:49,620
+but I have to c i minus equals one and
+
+165
+00:07:48,060 --> 00:07:52,680
+then c i
+
+166
+00:07:49,620 --> 00:07:54,900
+plus equal one right and then here this
+
+167
+00:07:52,680 --> 00:07:58,020
+is the sun return sorting
+
+168
+00:07:54,900 --> 00:07:59,880
+sorted answer one thing is missing here
+
+169
+00:07:58,020 --> 00:08:01,620
+this one
+
+170
+00:07:59,880 --> 00:08:04,319
+that's a search
+
+171
+00:08:01,620 --> 00:08:06,720
+we have this x this is the traveling
+
+172
+00:08:04,319 --> 00:08:09,060
+number right it could be one it could be
+
+173
+00:08:06,720 --> 00:08:10,860
+two at the beginning is zero okay we
+
+174
+00:08:09,060 --> 00:08:13,680
+don't have enough digits here so we go
+
+175
+00:08:10,860 --> 00:08:16,979
+to here and we try each
+
+176
+00:08:13,680 --> 00:08:20,160
+digits from 0 to 9.
+
+177
+00:08:16,979 --> 00:08:22,740
+look if c i is bigger than zero it means
+
+178
+00:08:20,160 --> 00:08:25,080
+that original number we have enough
+
+179
+00:08:22,740 --> 00:08:26,340
+digit from zero to nine right zero to
+
+180
+00:08:25,080 --> 00:08:29,220
+nine times zero
+
+181
+00:08:26,340 --> 00:08:32,640
+so zero this is turning it into counter
+
+182
+00:08:29,220 --> 00:08:36,000
+is zero one time one one time two two
+
+183
+00:08:32,640 --> 00:08:38,099
+times three one time right okay so zero
+
+184
+00:08:36,000 --> 00:08:40,140
+we have one time that's good
+
+185
+00:08:38,099 --> 00:08:43,260
+it's bigger than zero we're using this
+
+186
+00:08:40,140 --> 00:08:45,480
+ZL right so we take it we take it take
+
+187
+00:08:43,260 --> 00:08:46,920
+this material and we turn it into zero
+
+188
+00:08:45,480 --> 00:08:50,519
+right and then with that first search
+
+189
+00:08:46,920 --> 00:08:52,680
+current number X so x times ten
+
+190
+00:08:50,519 --> 00:08:55,260
+class I
+
+191
+00:08:52,680 --> 00:08:57,300
+so what does it mean means that look if
+
+192
+00:08:55,260 --> 00:08:59,399
+his current number is one two right and
+
+193
+00:08:57,300 --> 00:09:02,519
+I'm taking another three right one two
+
+194
+00:08:59,399 --> 00:09:04,860
+so I'm taking the digit three I equals
+
+195
+00:09:02,519 --> 00:09:08,519
+three so what's X
+
+196
+00:09:04,860 --> 00:09:11,940
+one two times ten plus three it becomes
+
+197
+00:09:08,519 --> 00:09:13,920
+one two three okay yeah and after we do
+
+198
+00:09:11,940 --> 00:09:16,140
+this recursion we have to
+
+199
+00:09:13,920 --> 00:09:18,480
+give it back give the teacher back I get
+
+200
+00:09:16,140 --> 00:09:21,420
+back right make sense do we talk about
+
+201
+00:09:18,480 --> 00:09:23,580
+the maze problem remember we mark it and
+
+202
+00:09:21,420 --> 00:09:27,600
+we need to unmark it
+
+203
+00:09:23,580 --> 00:09:30,060
+okay we follow the digit I here look at
+
+204
+00:09:27,600 --> 00:09:32,220
+we are checking the digit from zero zero
+
+205
+00:09:30,060 --> 00:09:34,740
+one two three two up to nine then we say
+
+206
+00:09:32,220 --> 00:09:38,160
+okay if we have enough digit C remember
+
+207
+00:09:34,740 --> 00:09:40,200
+C is the counter of original if we have
+
+208
+00:09:38,160 --> 00:09:43,380
+enough digit of I
+
+209
+00:09:40,200 --> 00:09:45,060
+then we follow it c i minus equal one we
+
+210
+00:09:43,380 --> 00:09:47,519
+follow it and we do the test as such
+
+211
+00:09:45,060 --> 00:09:50,220
+after we do the research we do we turn
+
+212
+00:09:47,519 --> 00:09:52,260
+it we give it back right so how do we do
+
+213
+00:09:50,220 --> 00:09:54,600
+the deficiency this is the location
+
+214
+00:09:52,260 --> 00:09:57,000
+current number is X Y for example is X
+
+215
+00:09:54,600 --> 00:10:00,180
+is 12. and we want to
+
+216
+00:09:57,000 --> 00:10:03,660
+follow the digit three right so what
+
+217
+00:10:00,180 --> 00:10:06,360
+happened to the number I have 12. and I
+
+218
+00:10:03,660 --> 00:10:09,300
+want to put a three on the right what
+
+219
+00:10:06,360 --> 00:10:11,459
+happened to this x so now X is 12 right
+
+220
+00:10:09,300 --> 00:10:13,500
+I've tried two digits now I need one
+
+221
+00:10:11,459 --> 00:10:16,500
+more digit the three I have enough three
+
+222
+00:10:13,500 --> 00:10:18,120
+so I can put a three on the right hand
+
+223
+00:10:16,500 --> 00:10:20,519
+side of the one two so what happened to
+
+224
+00:10:18,120 --> 00:10:22,800
+this x it becomes old
+
+225
+00:10:20,519 --> 00:10:24,959
+yeah I know but you know when the X
+
+226
+00:10:22,800 --> 00:10:27,660
+passing here if you go to real because
+
+227
+00:10:24,959 --> 00:10:31,800
+it's bigger than 99 it's 36 right so
+
+228
+00:10:27,660 --> 00:10:34,800
+here so what happened if x equals 12
+
+229
+00:10:31,800 --> 00:10:37,200
+and then I borrow a number three digit
+
+230
+00:10:34,800 --> 00:10:39,000
+three put it put it on on the right so
+
+231
+00:10:37,200 --> 00:10:41,760
+what happened to this X
+
+232
+00:10:39,000 --> 00:10:43,620
+it's very obvious one two and what
+
+233
+00:10:41,760 --> 00:10:47,519
+happened
+
+234
+00:10:43,620 --> 00:10:49,920
+um if it gets free it becomes 120 yeah
+
+235
+00:10:47,519 --> 00:10:53,459
+so it means that look at 12 times 10
+
+236
+00:10:49,920 --> 00:10:56,040
+here right times that means 12 times 10
+
+237
+00:10:53,459 --> 00:10:58,200
+it means that I I put I want to put one
+
+238
+00:10:56,040 --> 00:10:59,160
+digit on the right and then plus three
+
+239
+00:10:58,200 --> 00:11:02,160
+okay
+
+240
+00:10:59,160 --> 00:11:02,160
+search
+
+241
+00:11:02,220 --> 00:11:06,480
+make sense yep
+
+242
+00:11:04,560 --> 00:11:08,640
+so we need to give you back right if we
+
+243
+00:11:06,480 --> 00:11:10,079
+don't give it back then the digital will
+
+244
+00:11:08,640 --> 00:11:13,560
+be running out and then there's some
+
+245
+00:11:10,079 --> 00:11:17,399
+solution will be missing okay yeah which
+
+246
+00:11:13,560 --> 00:11:18,959
+line of code says is commutation of
+
+247
+00:11:17,399 --> 00:11:21,060
+three digits
+
+248
+00:11:18,959 --> 00:11:22,850
+from where you can see it's a three
+
+249
+00:11:21,060 --> 00:11:25,960
+digit permutation
+
+250
+00:11:22,850 --> 00:11:25,960
+[Music]
+
+251
+00:11:27,740 --> 00:11:34,140
+99 means the the only is three digits
+
+252
+00:11:31,860 --> 00:11:36,380
+and it's three digit here there will be
+
+253
+00:11:34,140 --> 00:11:36,380
+a return
+
+254
+00:11:38,240 --> 00:11:43,800
+so that maximum digit is three digit
+
+255
+00:11:41,940 --> 00:11:45,540
+it's not possible to get four digits
+
+256
+00:11:43,800 --> 00:11:48,000
+using this right because after three
+
+257
+00:11:45,540 --> 00:11:49,740
+digits we do ten we don't do the
+
+258
+00:11:48,000 --> 00:11:51,899
+recursion anymore right this is the
+
+259
+00:11:49,740 --> 00:11:53,820
+terminal case right and at the beginning
+
+260
+00:11:51,899 --> 00:11:55,620
+we call that first search you know at
+
+261
+00:11:53,820 --> 00:11:58,019
+the beginning we have nothing and then
+
+262
+00:11:55,620 --> 00:12:01,260
+you will try each digit okay
+
+263
+00:11:58,019 --> 00:12:03,680
+and which part of code says that it's an
+
+264
+00:12:01,260 --> 00:12:03,680
+even number
+
+265
+00:12:03,839 --> 00:12:08,240
+um
+
+266
+00:12:04,760 --> 00:12:11,399
+if x is
+
+267
+00:12:08,240 --> 00:12:14,060
+which part of code says uh is less
+
+268
+00:12:11,399 --> 00:12:14,060
+notification
+
+269
+00:12:15,240 --> 00:12:18,260
+is accepted yeah okay
+
+270
+00:12:22,380 --> 00:12:25,440
+okay unique digit for example a equals
+
+271
+00:12:24,660 --> 00:12:30,959
+set
+
+272
+00:12:25,440 --> 00:12:34,019
+by a DOT add one okay so a DOT at
+
+273
+00:12:30,959 --> 00:12:36,120
+two a DOT add
+
+274
+00:12:34,019 --> 00:12:39,360
+three okay one
+
+275
+00:12:36,120 --> 00:12:43,320
+a is one right contains one a DOT add
+
+276
+00:12:39,360 --> 00:12:45,360
+two so one two so a DOT S three one two
+
+277
+00:12:43,320 --> 00:12:48,300
+three okay so how about eight dot add
+
+278
+00:12:45,360 --> 00:12:51,600
+three what happens a is a set of one two
+
+279
+00:12:48,300 --> 00:12:54,060
+three right one two three I want to add
+
+280
+00:12:51,600 --> 00:12:55,200
+one more three into the set what
+
+281
+00:12:54,060 --> 00:12:58,260
+happened
+
+282
+00:12:55,200 --> 00:13:00,779
+set Only Stores unique numbers and if I
+
+283
+00:12:58,260 --> 00:13:02,519
+have one two three already in a set and
+
+284
+00:13:00,779 --> 00:13:04,920
+I want to add one more three to the set
+
+285
+00:13:02,519 --> 00:13:07,500
+nothing will happen you can add as many
+
+286
+00:13:04,920 --> 00:13:10,079
+numbers in it but you only stores one
+
+287
+00:13:07,500 --> 00:13:12,680
+two three and that's it right okay this
+
+288
+00:13:10,079 --> 00:13:15,420
+is the one that set is okay
+
+289
+00:13:12,680 --> 00:13:17,760
+and which part of curve guarantees the
+
+290
+00:13:15,420 --> 00:13:20,820
+answer is sorted
+
+291
+00:13:17,760 --> 00:13:22,680
+um yeah that's an easy one right okay so
+
+292
+00:13:20,820 --> 00:13:25,920
+what have you learned today about the
+
+293
+00:13:22,680 --> 00:13:28,740
+same as yesterday fighting finding three
+
+294
+00:13:25,920 --> 00:13:31,800
+digit even numbers what what's the new
+
+295
+00:13:28,740 --> 00:13:35,700
+today we use that for such yes what's
+
+296
+00:13:31,800 --> 00:13:35,700
+the time complexity uh
+
+297
+00:13:37,040 --> 00:13:42,300
+yeah this is the permutation this means
+
+298
+00:13:39,839 --> 00:13:44,880
+picking three digits out of entity
+
+299
+00:13:42,300 --> 00:13:47,579
+what's the difference between pm3 and
+
+300
+00:13:44,880 --> 00:13:50,820
+cn3 okay one last question anybody pm3
+
+301
+00:13:47,579 --> 00:13:53,040
+is like it's like picking three apples
+
+302
+00:13:50,820 --> 00:13:55,500
+out and apples and what's the difference
+
+303
+00:13:53,040 --> 00:13:58,440
+between p and C and C and C okay let's
+
+304
+00:13:55,500 --> 00:14:00,000
+say p three two and C32 what's the
+
+305
+00:13:58,440 --> 00:14:03,800
+difference right so yeah plus one two
+
+306
+00:14:00,000 --> 00:14:03,800
+three okay one two three
+
+307
+00:14:04,459 --> 00:14:11,239
+is one of them kind of like
+
+308
+00:14:08,110 --> 00:14:11,239
+[Music]
+
+309
+00:14:17,660 --> 00:14:23,660
+give us
+
+310
+00:14:19,620 --> 00:14:23,660
+so yeah for picking two what are those
+
+311
+00:14:26,399 --> 00:14:29,180
+what are those
+
+312
+00:14:30,720 --> 00:14:34,339
+see the way you see is um
+
+313
+00:14:35,540 --> 00:14:45,720
+whatever is a bacteria and C is she is
+
+314
+00:14:41,940 --> 00:14:49,320
+like how much possibilities he can pick
+
+315
+00:14:45,720 --> 00:14:52,220
+from the bottom one and and the third
+
+316
+00:14:49,320 --> 00:14:56,880
+one is how much okay
+
+317
+00:14:52,220 --> 00:14:59,360
+you can pick and and you just need to um
+
+318
+00:14:56,880 --> 00:15:02,160
+see how much possibilities
+
+319
+00:14:59,360 --> 00:15:04,079
+I'm trying to understand what it says
+
+320
+00:15:02,160 --> 00:15:07,279
+[Music]
+
+321
+00:15:04,079 --> 00:15:07,279
+it got me confused
+
+322
+00:15:07,920 --> 00:15:09,860
+is
+
+323
+00:15:08,760 --> 00:15:14,180
+like
+
+324
+00:15:09,860 --> 00:15:17,699
+instead of like the picking it is
+
+325
+00:15:14,180 --> 00:15:19,920
+putting the numbers like
+
+326
+00:15:17,699 --> 00:15:21,199
+but I didn't remember like one two one
+
+327
+00:15:19,920 --> 00:15:23,880
+three
+
+328
+00:15:21,199 --> 00:15:25,940
+Okay so
+
+329
+00:15:23,880 --> 00:15:25,940
+yeah
+
+330
+00:15:26,120 --> 00:15:35,160
+and obviously obviously one is how much
+
+331
+00:15:30,660 --> 00:15:36,839
+how much is the popularity and and two
+
+332
+00:15:35,160 --> 00:15:39,899
+is it how much you have
+
+333
+00:15:36,839 --> 00:15:42,060
+I have to pick basically they're pretty
+
+334
+00:15:39,899 --> 00:15:44,339
+similar instead of seeds doesn't really
+
+335
+00:15:42,060 --> 00:15:46,740
+care about the numbers and and you can
+
+336
+00:15:44,339 --> 00:15:53,399
+use anything like apples or apples or
+
+337
+00:15:46,740 --> 00:15:56,160
+bananas and yum no PNG numbers
+
+338
+00:15:53,399 --> 00:15:58,579
+it says like one three one two one
+
+339
+00:15:56,160 --> 00:15:58,579
+million
+
+340
+00:16:01,459 --> 00:16:08,220
+okay see see combination for picking two
+
+341
+00:16:06,060 --> 00:16:10,820
+apples how many ways how many ways yeah
+
+342
+00:16:08,220 --> 00:16:10,820
+how many ways
+
+343
+00:16:26,040 --> 00:16:31,440
+c one two is the same as two one right
+
+344
+00:16:29,160 --> 00:16:34,380
+but P one two is different than two one
+
+345
+00:16:31,440 --> 00:16:38,100
+okay that's what's the difference C is
+
+346
+00:16:34,380 --> 00:16:39,779
+this speed p is both ended up together
+
+347
+00:16:38,100 --> 00:16:43,920
+okay
+
+348
+00:16:39,779 --> 00:16:47,100
+there was a p32 is one two two one one
+
+349
+00:16:43,920 --> 00:16:49,079
+three three one two three three two c is
+
+350
+00:16:47,100 --> 00:16:51,600
+one two one three two three right
+
+351
+00:16:49,079 --> 00:16:55,019
+combination without considering the
+
+352
+00:16:51,600 --> 00:16:58,259
+order all the order doesn't matter P
+
+353
+00:16:55,019 --> 00:17:00,000
+commutation full permutation yeah one
+
+354
+00:16:58,259 --> 00:17:02,339
+two three one three two this is
+
+355
+00:17:00,000 --> 00:17:04,559
+permutation right two one three two
+
+356
+00:17:02,339 --> 00:17:06,780
+three one three one two three two one
+
+357
+00:17:04,559 --> 00:17:09,179
+look full formulation and exact earlier
+
+358
+00:17:06,780 --> 00:17:11,040
+yeah we talk about that okay yep
+
+359
+00:17:09,179 --> 00:17:12,600
+everyone you talk about it too that I
+
+360
+00:17:11,040 --> 00:17:15,059
+would say listen to you for like five
+
+361
+00:17:12,600 --> 00:17:16,860
+minutes before I figure out your kind of
+
+362
+00:17:15,059 --> 00:17:19,860
+like jumping right good job okay see you
+
+363
+00:17:16,860 --> 00:17:22,520
+later bye bye bye
+
+364
+00:17:19,860 --> 00:17:22,520
+foreign
+

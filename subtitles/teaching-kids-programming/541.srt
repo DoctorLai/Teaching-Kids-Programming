@@ -1,0 +1,440 @@
+1
+00:00:02,780 --> 00:00:08,040
+okay so we have uh different ways of
+
+2
+00:00:06,000 --> 00:00:10,740
+cutting a circle like if you can imagine
+
+3
+00:00:08,040 --> 00:00:14,040
+that's a pizza right these are the two
+
+4
+00:00:10,740 --> 00:00:17,480
+Valley cards so you can cut directly
+
+5
+00:00:14,040 --> 00:00:21,539
+through into that diameter okay
+
+6
+00:00:17,480 --> 00:00:23,900
+or you can do this half cut one touches
+
+7
+00:00:21,539 --> 00:00:26,279
+the edge of the pizza and the other one
+
+8
+00:00:23,900 --> 00:00:29,099
+touches the center of the pizza at least
+
+9
+00:00:26,279 --> 00:00:31,080
+it's not a very cut right so the
+
+10
+00:00:29,099 --> 00:00:33,239
+question is that we want to cut this
+
+11
+00:00:31,080 --> 00:00:36,360
+piece up this circle into an equal
+
+12
+00:00:33,239 --> 00:00:38,940
+slices equal slices right you can do it
+
+13
+00:00:36,360 --> 00:00:41,579
+this way cut into two half or you can do
+
+14
+00:00:38,940 --> 00:00:44,160
+this half cut right but this is not
+
+15
+00:00:41,579 --> 00:00:46,920
+cutting into two slices this is just two
+
+16
+00:00:44,160 --> 00:00:49,980
+half cup okay so the question is that we
+
+17
+00:00:46,920 --> 00:00:53,219
+want to do the minimum cut that cut into
+
+18
+00:00:49,980 --> 00:00:55,079
+the N slices equal slices all right so
+
+19
+00:00:53,219 --> 00:00:58,440
+for example yeah as you can see we draw
+
+20
+00:00:55,079 --> 00:01:01,980
+here right if n equals the one so we do
+
+21
+00:00:58,440 --> 00:01:05,519
+zero card right and n equals 1 so that
+
+22
+00:01:01,980 --> 00:01:07,500
+means zero cut right n equals two
+
+23
+00:01:05,519 --> 00:01:10,500
+okay this is n equals two you do this
+
+24
+00:01:07,500 --> 00:01:13,500
+one cut right into two so n equals two
+
+25
+00:01:10,500 --> 00:01:17,820
+we need to do one cut and equal three
+
+26
+00:01:13,500 --> 00:01:20,460
+yeah you do this yeah because it depends
+
+27
+00:01:17,820 --> 00:01:22,200
+n equals three so you do
+
+28
+00:01:20,460 --> 00:01:25,140
+three
+
+29
+00:01:22,200 --> 00:01:27,780
+half cut so that's three
+
+30
+00:01:25,140 --> 00:01:31,080
+all right n equals four which one is
+
+31
+00:01:27,780 --> 00:01:36,140
+that initial for this one yeah this one
+
+32
+00:01:31,080 --> 00:01:36,140
+so two four cuts
+
+33
+00:01:36,420 --> 00:01:41,159
+n equals five which one is that equals
+
+34
+00:01:39,180 --> 00:01:44,759
+five which one
+
+35
+00:01:41,159 --> 00:01:47,640
+two three four five okay
+
+36
+00:01:44,759 --> 00:01:51,119
+I equals six
+
+37
+00:01:47,640 --> 00:01:54,299
+this one so how many cards of this
+
+38
+00:01:51,119 --> 00:01:56,939
+okay right three three okay and then
+
+39
+00:01:54,299 --> 00:01:59,579
+equals seven
+
+40
+00:01:56,939 --> 00:02:02,299
+I'm gonna cut
+
+41
+00:01:59,579 --> 00:02:02,299
+seven seven
+
+42
+00:02:04,439 --> 00:02:10,500
+yeah do you see the strategy
+
+43
+00:02:07,860 --> 00:02:15,000
+so what's the strategies you can use it
+
+44
+00:02:10,500 --> 00:02:17,400
+is that from one is that from one yeah
+
+45
+00:02:15,000 --> 00:02:19,680
+it's kind of different to the other side
+
+46
+00:02:17,400 --> 00:02:24,180
+yeah special cases this is the even
+
+47
+00:02:19,680 --> 00:02:26,879
+number you can it's Heaven yeah and and
+
+48
+00:02:24,180 --> 00:02:28,319
+if it's the old number it's just that's
+
+49
+00:02:26,879 --> 00:02:30,599
+right yes you are right very good
+
+50
+00:02:28,319 --> 00:02:34,700
+observation so if it's a look if n
+
+51
+00:02:30,599 --> 00:02:38,040
+equals six n equals six so it will be
+
+52
+00:02:34,700 --> 00:02:41,459
+so we can do this uh half right so n
+
+53
+00:02:38,040 --> 00:02:44,819
+equals six is this this way right yeah
+
+54
+00:02:41,459 --> 00:02:47,280
+so look look at this half
+
+55
+00:02:44,819 --> 00:02:49,739
+so that's three three slices
+
+56
+00:02:47,280 --> 00:02:52,440
+but with the three slices look we can
+
+57
+00:02:49,739 --> 00:02:55,500
+extend this to that so it's it just
+
+58
+00:02:52,440 --> 00:02:58,379
+requires half of it all right yeah we
+
+59
+00:02:55,500 --> 00:03:01,920
+cut half on a circle half our pizza into
+
+60
+00:02:58,379 --> 00:03:04,319
+slide uh three slices just you know this
+
+61
+00:03:01,920 --> 00:03:06,420
+this is three slices but we can map it
+
+62
+00:03:04,319 --> 00:03:08,760
+so and honestly it's like this so if
+
+63
+00:03:06,420 --> 00:03:11,400
+this is n equals six right so it's even
+
+64
+00:03:08,760 --> 00:03:13,500
+number we can uh half and it half and
+
+65
+00:03:11,400 --> 00:03:16,500
+half a cut
+
+66
+00:03:13,500 --> 00:03:17,459
+right but if it's a odd number how would
+
+67
+00:03:16,500 --> 00:03:20,580
+you do it
+
+68
+00:03:17,459 --> 00:03:22,980
+you just do this on one server right to
+
+69
+00:03:20,580 --> 00:03:27,300
+130 just equally
+
+70
+00:03:22,980 --> 00:03:29,099
+equally space right okay and n equals
+
+71
+00:03:27,300 --> 00:03:35,700
+one is a special case
+
+72
+00:03:29,099 --> 00:03:41,099
+so be fine uh F if n if n equals one
+
+73
+00:03:35,700 --> 00:03:45,239
+return zero special case if n is odd
+
+74
+00:03:41,099 --> 00:03:50,180
+right n one or modulus two if n n one or
+
+75
+00:03:45,239 --> 00:03:53,519
+if if n modulus 2 equal equal one
+
+76
+00:03:50,180 --> 00:03:57,540
+land three ten and right if it's all
+
+77
+00:03:53,519 --> 00:04:00,360
+number written n otherwise return and
+
+78
+00:03:57,540 --> 00:04:04,820
+divide divide divided by two heavily
+
+79
+00:04:00,360 --> 00:04:06,319
+okay common space complexity
+
+80
+00:04:04,820 --> 00:04:10,200
+[Music]
+
+81
+00:04:06,319 --> 00:04:12,180
+exactly look just mess space or one
+
+82
+00:04:10,200 --> 00:04:14,939
+right okay so what have you learned
+
+83
+00:04:12,180 --> 00:04:17,040
+today about cut okay so if you want to
+
+84
+00:04:14,939 --> 00:04:20,519
+describe this to Mommy or how would you
+
+85
+00:04:17,040 --> 00:04:23,880
+say come on we have a cool Pizza yeah
+
+86
+00:04:20,519 --> 00:04:26,400
+you have a pizza that we need to eat
+
+87
+00:04:23,880 --> 00:04:27,979
+and we need to cut it
+
+88
+00:04:26,400 --> 00:04:31,740
+and
+
+89
+00:04:27,979 --> 00:04:36,120
+try the minimum equal slices yeah yeah
+
+90
+00:04:31,740 --> 00:04:38,940
+so what's the strategy we just
+
+91
+00:04:36,120 --> 00:04:42,320
+we just have any even numbers
+
+92
+00:04:38,940 --> 00:04:45,259
+uh to the minimum and then the other
+
+93
+00:04:42,320 --> 00:04:49,800
+okay
+
+94
+00:04:45,259 --> 00:04:54,960
+so we have a circle and we we only can
+
+95
+00:04:49,800 --> 00:04:57,740
+do the cuts of of straight through or or
+
+96
+00:04:54,960 --> 00:05:02,100
+a half cup
+
+97
+00:04:57,740 --> 00:05:06,720
+a a half car and so so if you want to
+
+98
+00:05:02,100 --> 00:05:10,199
+cut it into n equal slices and so it's
+
+99
+00:05:06,720 --> 00:05:13,460
+just like a pizza and the strategy is
+
+100
+00:05:10,199 --> 00:05:18,120
+if it's an even number you can just it's
+
+101
+00:05:13,460 --> 00:05:19,320
+haha because because you can you can do
+
+102
+00:05:18,120 --> 00:05:23,419
+two
+
+103
+00:05:19,320 --> 00:05:27,780
+two hot two half cuts which makes one
+
+104
+00:05:23,419 --> 00:05:31,919
+just like two half Cuts makes one street
+
+105
+00:05:27,780 --> 00:05:36,300
+Cuts so it has and and the odd number is
+
+106
+00:05:31,919 --> 00:05:40,139
+just it but but the N equals one is
+
+107
+00:05:36,300 --> 00:05:42,539
+special as as you can see here oh so you
+
+108
+00:05:40,139 --> 00:05:44,880
+don't need to zero but
+
+109
+00:05:42,539 --> 00:05:49,460
+well that's good that's it for today
+
+110
+00:05:44,880 --> 00:05:49,460
+bye-bye bye bye bye
+

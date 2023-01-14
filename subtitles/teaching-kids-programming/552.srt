@@ -1,0 +1,1412 @@
+1
+00:00:00,240 --> 00:00:05,160
+right
+
+2
+00:00:03,179 --> 00:00:07,560
+Okay so yesterday we talked about this
+
+3
+00:00:05,160 --> 00:00:10,380
+maze problem so to sum up we're given
+
+4
+00:00:07,560 --> 00:00:12,540
+this maze uh filled with zeros and ones
+
+5
+00:00:10,380 --> 00:00:15,299
+okay and then we are placed initially
+
+6
+00:00:12,540 --> 00:00:17,699
+placed on the top left corner and on
+
+7
+00:00:15,299 --> 00:00:19,920
+each move we can go to the right and we
+
+8
+00:00:17,699 --> 00:00:21,000
+go to the bottom two directions right
+
+9
+00:00:19,920 --> 00:00:23,640
+and down
+
+10
+00:00:21,000 --> 00:00:26,640
+and we want to find out if there's a
+
+11
+00:00:23,640 --> 00:00:29,400
+task that when we cross it the number of
+
+12
+00:00:26,640 --> 00:00:32,759
+zeros is equal to the number of ones
+
+13
+00:00:29,400 --> 00:00:35,940
+right and the destination is on the
+
+14
+00:00:32,759 --> 00:00:39,620
+bottom icon there's a maze like a three
+
+15
+00:00:35,940 --> 00:00:43,500
+times three is there a path no no why
+
+16
+00:00:39,620 --> 00:00:45,780
+because number what odd number three by
+
+17
+00:00:43,500 --> 00:00:48,660
+three equals nine three plus three
+
+18
+00:00:45,780 --> 00:00:50,700
+equals okay so look precisely speaking
+
+19
+00:00:48,660 --> 00:00:53,820
+right look this three times three we
+
+20
+00:00:50,700 --> 00:00:56,039
+need to work five three yeah five so
+
+21
+00:00:53,820 --> 00:00:58,860
+it's uh three plus three minus one
+
+22
+00:00:56,039 --> 00:01:02,520
+that's an odd number so it's impossible
+
+23
+00:00:58,860 --> 00:01:04,680
+to spread into equal numbers of ones and
+
+24
+00:01:02,520 --> 00:01:06,840
+zeros okay and yesterday we talk about
+
+25
+00:01:04,680 --> 00:01:08,760
+profiles which is Step as such and by
+
+26
+00:01:06,840 --> 00:01:12,720
+putting the cash we make it top down
+
+27
+00:01:08,760 --> 00:01:15,360
+dynamic programming so tfsrc coordinate
+
+28
+00:01:12,720 --> 00:01:17,939
+this is the position RC clothing Rose
+
+29
+00:01:15,360 --> 00:01:20,939
+columns and a b is the balance which
+
+30
+00:01:17,939 --> 00:01:24,000
+means that the number of ones
+
+31
+00:01:20,939 --> 00:01:26,700
+between the ones and zero by meeting a
+
+32
+00:01:24,000 --> 00:01:28,920
+one with plus one to the parents by
+
+33
+00:01:26,700 --> 00:01:31,799
+meeting a zero in minus one with
+
+34
+00:01:28,920 --> 00:01:34,020
+decrement the balance right so if we
+
+35
+00:01:31,799 --> 00:01:36,680
+have an equal number of ones and zeros
+
+36
+00:01:34,020 --> 00:01:39,960
+then the balance needs to be zero
+
+37
+00:01:36,680 --> 00:01:43,860
+four plus three plus three minus one
+
+38
+00:01:39,960 --> 00:01:46,500
+thing yeah it is plus three you do three
+
+39
+00:01:43,860 --> 00:01:48,540
+plus three because besides right
+
+40
+00:01:46,500 --> 00:01:50,640
+yeah it's three plus three
+
+41
+00:01:48,540 --> 00:01:52,619
+and a minus one this is the number of
+
+42
+00:01:50,640 --> 00:01:53,340
+steps from the top left to the bottom
+
+43
+00:01:52,619 --> 00:01:57,000
+right
+
+44
+00:01:53,340 --> 00:01:59,520
+three plus three doesn't it like always
+
+45
+00:01:57,000 --> 00:02:01,259
+be oh it's like four plus four minus one
+
+46
+00:01:59,520 --> 00:02:03,540
+it could be
+
+47
+00:02:01,259 --> 00:02:05,939
+like that three times well so how many
+
+48
+00:02:03,540 --> 00:02:08,399
+steps one two three four five six that's
+
+49
+00:02:05,939 --> 00:02:11,520
+six steps so like three plus four minus
+
+50
+00:02:08,399 --> 00:02:13,879
+one okay so it doesn't have to be a
+
+51
+00:02:11,520 --> 00:02:16,760
+square Matrix Square mix
+
+52
+00:02:13,879 --> 00:02:19,739
+okay
+
+53
+00:02:16,760 --> 00:02:22,220
+good point yes if it's a square then
+
+54
+00:02:19,739 --> 00:02:25,739
+it's odd right so we can find it because
+
+55
+00:02:22,220 --> 00:02:27,959
+n plus n minus one this is even a minus
+
+56
+00:02:25,739 --> 00:02:30,239
+one that's all we talk about the unique
+
+57
+00:02:27,959 --> 00:02:33,000
+parts right so it's quite similar so we
+
+58
+00:02:30,239 --> 00:02:35,879
+are finding a unique parts from this
+
+59
+00:02:33,000 --> 00:02:38,819
+position top left to the bottom right if
+
+60
+00:02:35,879 --> 00:02:40,980
+this is dimension is M this is n if this
+
+61
+00:02:38,819 --> 00:02:44,640
+is M this is n the number total number
+
+62
+00:02:40,980 --> 00:02:46,680
+of steps to move down is M minus one the
+
+63
+00:02:44,640 --> 00:02:49,379
+total number of steps to moving right is
+
+64
+00:02:46,680 --> 00:02:52,440
+M minus one so this is the number of
+
+65
+00:02:49,379 --> 00:02:55,260
+steps for us to move from top left to
+
+66
+00:02:52,440 --> 00:02:57,480
+the right but it needs this step and
+
+67
+00:02:55,260 --> 00:02:58,500
+this is the number of a step and we need
+
+68
+00:02:57,480 --> 00:03:01,500
+to pick
+
+69
+00:02:58,500 --> 00:03:03,959
+n minus one step to go to the right all
+
+70
+00:03:01,500 --> 00:03:06,900
+equally we pick M minus one step to go
+
+71
+00:03:03,959 --> 00:03:10,440
+to the bottom so the number of steps is
+
+72
+00:03:06,900 --> 00:03:12,900
+c m plus n minus 2 and minus one five
+
+73
+00:03:10,440 --> 00:03:15,780
+this is the number of steps
+
+74
+00:03:12,900 --> 00:03:18,000
+number of unique Parts if we want to
+
+75
+00:03:15,780 --> 00:03:20,220
+travel from this
+
+76
+00:03:18,000 --> 00:03:22,560
+top left corner to the bottom right
+
+77
+00:03:20,220 --> 00:03:25,379
+corner if we can only go to the right or
+
+78
+00:03:22,560 --> 00:03:28,440
+go to the bottom and we can go back okay
+
+79
+00:03:25,379 --> 00:03:29,940
+make sense simple example okay so how
+
+80
+00:03:28,440 --> 00:03:33,000
+many ways
+
+81
+00:03:29,940 --> 00:03:34,140
+from the top left to the other right how
+
+82
+00:03:33,000 --> 00:03:36,420
+many ways
+
+83
+00:03:34,140 --> 00:03:38,580
+look here this is three this is three
+
+84
+00:03:36,420 --> 00:03:41,819
+okay how many ways
+
+85
+00:03:38,580 --> 00:03:43,860
+how do you call for one
+
+86
+00:03:41,819 --> 00:03:45,860
+two
+
+87
+00:03:43,860 --> 00:03:45,860
+three
+
+88
+00:03:46,500 --> 00:03:52,080
+four five so how do we get five look how
+
+89
+00:03:49,799 --> 00:03:55,019
+many steps look at this is three yeah so
+
+90
+00:03:52,080 --> 00:03:57,599
+how many steps to go to the uh the
+
+91
+00:03:55,019 --> 00:03:59,940
+bottom right so you need a two
+
+92
+00:03:57,599 --> 00:04:01,860
+two to go to the town yeah you need to
+
+93
+00:03:59,940 --> 00:04:04,140
+move two steps down and two steps to the
+
+94
+00:04:01,860 --> 00:04:06,360
+right so two plus two this is four you
+
+95
+00:04:04,140 --> 00:04:08,040
+need the fourth step and then in this
+
+96
+00:04:06,360 --> 00:04:09,599
+first step you need to pick two of them
+
+97
+00:04:08,040 --> 00:04:11,819
+to go to the right or go to the bottom
+
+98
+00:04:09,599 --> 00:04:14,099
+picking two apples after four
+
+99
+00:04:11,819 --> 00:04:16,260
+okay so let's how many four times three
+
+100
+00:04:14,099 --> 00:04:19,079
+divided by two actually this is six so
+
+101
+00:04:16,260 --> 00:04:21,660
+last six ways so one way is missing
+
+102
+00:04:19,079 --> 00:04:24,019
+always missing
+
+103
+00:04:21,660 --> 00:04:24,019
+okay
+
+104
+00:04:24,180 --> 00:04:26,540
+okay
+
+105
+00:04:28,800 --> 00:04:33,180
+one two
+
+106
+00:04:30,180 --> 00:04:33,180
+three four
+
+107
+00:04:33,900 --> 00:04:39,840
+five and what's that what's what's the
+
+108
+00:04:36,720 --> 00:04:43,340
+one that I haven't counted I lost track
+
+109
+00:04:39,840 --> 00:04:43,340
+okay one
+
+110
+00:04:43,440 --> 00:04:45,440
+two
+
+111
+00:04:46,080 --> 00:04:48,080
+three
+
+112
+00:04:49,800 --> 00:04:54,440
+down right four
+
+113
+00:04:53,280 --> 00:04:57,840
+five
+
+114
+00:04:54,440 --> 00:05:00,960
+six okay so six yeah you don't want to
+
+115
+00:04:57,840 --> 00:05:06,000
+do the same top no which one this this
+
+116
+00:05:00,960 --> 00:05:08,360
+this twice no no no here this one and
+
+117
+00:05:06,000 --> 00:05:10,680
+this one that's different
+
+118
+00:05:08,360 --> 00:05:12,240
+okay let's try again that's why I can
+
+119
+00:05:10,680 --> 00:05:15,020
+come up let's try again
+
+120
+00:05:12,240 --> 00:05:15,020
+one
+
+121
+00:05:15,060 --> 00:05:20,580
+two yeah
+
+122
+00:05:17,699 --> 00:05:22,919
+three all right I need more coming from
+
+123
+00:05:20,580 --> 00:05:25,580
+here now right
+
+124
+00:05:22,919 --> 00:05:25,580
+four
+
+125
+00:05:25,919 --> 00:05:28,380
+five
+
+126
+00:05:26,320 --> 00:05:31,820
+[Applause]
+
+127
+00:05:28,380 --> 00:05:31,820
+six right yeah
+
+128
+00:05:32,000 --> 00:05:37,860
+this is the oven that's why I calculate
+
+129
+00:05:35,400 --> 00:05:39,900
+it right there are four steps from the
+
+130
+00:05:37,860 --> 00:05:41,820
+top left to the bottom right and I need
+
+131
+00:05:39,900 --> 00:05:44,820
+to pick two of them to go to the right
+
+132
+00:05:41,820 --> 00:05:47,039
+or go to the bottom so this is C4 to
+
+133
+00:05:44,820 --> 00:05:51,240
+picking two out of four today
+
+134
+00:05:47,039 --> 00:05:54,199
+PFS prefer search level by level EQ we
+
+135
+00:05:51,240 --> 00:05:54,199
+use the TQ yesterday
+
+136
+00:05:54,500 --> 00:05:58,139
+recursion and we're putting the cash to
+
+137
+00:05:56,759 --> 00:06:00,479
+make it dynamic programming and
+
+138
+00:05:58,139 --> 00:06:02,100
+Professor is the same but
+
+139
+00:06:00,479 --> 00:06:04,380
+in order to solve this problem because
+
+140
+00:06:02,100 --> 00:06:06,960
+the duplication we need to use a set to
+
+141
+00:06:04,380 --> 00:06:08,880
+remember the state not exactly the
+
+142
+00:06:06,960 --> 00:06:11,820
+position we need to remember the state
+
+143
+00:06:08,880 --> 00:06:14,600
+which is RC Balance we need to remember
+
+144
+00:06:11,820 --> 00:06:18,960
+this state
+
+145
+00:06:14,600 --> 00:06:22,740
+that could be many many times that many
+
+146
+00:06:18,960 --> 00:06:25,259
+paths cross a point okay so you know
+
+147
+00:06:22,740 --> 00:06:27,240
+given the size of me you know how many
+
+148
+00:06:25,259 --> 00:06:29,639
+ways to travel from top left to the
+
+149
+00:06:27,240 --> 00:06:33,360
+bottom line right I just told you if
+
+150
+00:06:29,639 --> 00:06:35,940
+this is M this is n so it's c m plus n
+
+151
+00:06:33,360 --> 00:06:39,360
+minus two and minus one this is the
+
+152
+00:06:35,940 --> 00:06:42,539
+total number of Parts but if I say if we
+
+153
+00:06:39,360 --> 00:06:44,460
+must cross this point we must cross this
+
+154
+00:06:42,539 --> 00:06:46,800
+point so how many ways you don't need to
+
+155
+00:06:44,460 --> 00:06:48,900
+tell me the exact number but just you
+
+156
+00:06:46,800 --> 00:06:51,000
+know how do we solve this problem
+
+157
+00:06:48,900 --> 00:06:53,720
+so if I say okay there could be many
+
+158
+00:06:51,000 --> 00:06:57,180
+many parts but let's count how many ways
+
+159
+00:06:53,720 --> 00:06:58,979
+passing this point interesting right so
+
+160
+00:06:57,180 --> 00:07:02,400
+how do we do it this can be broken down
+
+161
+00:06:58,979 --> 00:07:04,860
+into two steps first of all we count how
+
+162
+00:07:02,400 --> 00:07:05,940
+many ways from this point to hit this
+
+163
+00:07:04,860 --> 00:07:09,900
+one yeah
+
+164
+00:07:05,940 --> 00:07:12,300
+yeah this is let's say a like how many
+
+165
+00:07:09,900 --> 00:07:14,100
+times from this point to this point and
+
+166
+00:07:12,300 --> 00:07:16,560
+we know how to solve this B so what's
+
+167
+00:07:14,100 --> 00:07:18,840
+the answer a times B that's the number
+
+168
+00:07:16,560 --> 00:07:20,400
+of parts that from top left to the right
+
+169
+00:07:18,840 --> 00:07:22,919
+but the crossing this term must be
+
+170
+00:07:20,400 --> 00:07:25,199
+Crossing at this point am I right so we
+
+171
+00:07:22,919 --> 00:07:27,360
+separate it we make it smaller this is
+
+172
+00:07:25,199 --> 00:07:30,240
+smaller maze two smaller Maze and when
+
+173
+00:07:27,360 --> 00:07:33,419
+we can use these to count how many parts
+
+174
+00:07:30,240 --> 00:07:35,699
+from this point to this one A to B and
+
+175
+00:07:33,419 --> 00:07:37,919
+how many parts from B to C and then the
+
+176
+00:07:35,699 --> 00:07:41,039
+number so the number will pass
+
+177
+00:07:37,919 --> 00:07:43,979
+from a to c Crossing B is a b this is
+
+178
+00:07:41,039 --> 00:07:45,960
+answer a b c this is B right yeah
+
+179
+00:07:43,979 --> 00:07:49,740
+interesting this is mathematics
+
+180
+00:07:45,960 --> 00:07:51,840
+you may appear in your exam paper okay
+
+181
+00:07:49,740 --> 00:07:53,340
+graphic search I'm just going to write
+
+182
+00:07:51,840 --> 00:07:54,479
+it okay okay I'm going to write a
+
+183
+00:07:53,340 --> 00:07:56,940
+question
+
+184
+00:07:54,479 --> 00:07:59,780
+and try to find out the mistake okay if
+
+185
+00:07:56,940 --> 00:08:02,039
+there's any uh Define
+
+186
+00:07:59,780 --> 00:08:04,800
+normally means you're gonna put some
+
+187
+00:08:02,039 --> 00:08:07,139
+mistakes no I don't know we're just
+
+188
+00:08:04,800 --> 00:08:08,880
+writing the code because you don't know
+
+189
+00:08:07,139 --> 00:08:11,520
+but you know
+
+190
+00:08:08,880 --> 00:08:14,099
+I may know okay writing the code on the
+
+191
+00:08:11,520 --> 00:08:16,139
+Whiteboard is not easy sometimes you may
+
+192
+00:08:14,099 --> 00:08:18,060
+mistake you're not aware of I just write
+
+193
+00:08:16,139 --> 00:08:20,220
+the code there's no computer to check my
+
+194
+00:08:18,060 --> 00:08:22,379
+code if I write that code using the
+
+195
+00:08:20,220 --> 00:08:24,500
+keyboard when I click the submit
+
+196
+00:08:22,379 --> 00:08:26,940
+the computer will check the code right
+
+197
+00:08:24,500 --> 00:08:29,099
+and then we'll tell me if there's a
+
+198
+00:08:26,940 --> 00:08:31,020
+mistake but if I write it on here so who
+
+199
+00:08:29,099 --> 00:08:34,620
+is on the chat YouTube
+
+200
+00:08:31,020 --> 00:08:37,940
+okay okay Define okay this is uh what's
+
+201
+00:08:34,620 --> 00:08:37,940
+this problem find
+
+202
+00:08:38,300 --> 00:08:47,100
+and then we given the maze Q equals DQ
+
+203
+00:08:44,099 --> 00:08:50,100
+yellow zero and then let's define a
+
+204
+00:08:47,100 --> 00:08:53,459
+function f 0 0 so I tell you what's this
+
+205
+00:08:50,100 --> 00:08:56,040
+function for so seeing
+
+206
+00:08:53,459 --> 00:08:58,200
+equals set this F function we talked
+
+207
+00:08:56,040 --> 00:09:01,320
+about yesterday
+
+208
+00:08:58,200 --> 00:09:04,680
+this is the return the value of the of
+
+209
+00:09:01,320 --> 00:09:08,040
+that maze but if it's one returns one if
+
+210
+00:09:04,680 --> 00:09:12,480
+this is passive saying if r m r c equals
+
+211
+00:09:08,040 --> 00:09:14,519
+1 then we do ten One S with 10 minus one
+
+212
+00:09:12,480 --> 00:09:16,920
+right if it's zero with a minus one and
+
+213
+00:09:14,519 --> 00:09:20,940
+we all we can write it in one number we
+
+214
+00:09:16,920 --> 00:09:23,100
+turn one if M R C equals one s minus one
+
+215
+00:09:20,940 --> 00:09:27,300
+or return we can write it this way
+
+216
+00:09:23,100 --> 00:09:28,680
+return a cutter minus one one and then
+
+217
+00:09:27,300 --> 00:09:31,620
+mace
+
+218
+00:09:28,680 --> 00:09:34,980
+maze RC okay
+
+219
+00:09:31,620 --> 00:09:38,660
+okay this m is global okay
+
+220
+00:09:34,980 --> 00:09:45,000
+then wire Q
+
+221
+00:09:38,660 --> 00:09:47,220
+r c p equals Q dot pop work
+
+222
+00:09:45,000 --> 00:09:49,680
+a q we want to take it from our other
+
+223
+00:09:47,220 --> 00:09:50,640
+side yeah top left if we don't specify
+
+224
+00:09:49,680 --> 00:09:52,440
+the left
+
+225
+00:09:50,640 --> 00:09:53,300
+taking from the right hand side okay you
+
+226
+00:09:52,440 --> 00:09:56,240
+know that
+
+227
+00:09:53,300 --> 00:09:58,820
+and if
+
+228
+00:09:56,240 --> 00:10:03,899
+Rose minus one
+
+229
+00:09:58,820 --> 00:10:06,600
+and C equals minus one so this means
+
+230
+00:10:03,899 --> 00:10:09,839
+that if it's in
+
+231
+00:10:06,600 --> 00:10:14,040
+destination now we need to check if B
+
+232
+00:10:09,839 --> 00:10:16,860
+equals zero return true and we need to
+
+233
+00:10:14,040 --> 00:10:19,200
+continue here anyway
+
+234
+00:10:16,860 --> 00:10:22,019
+all right and then select two locations
+
+235
+00:10:19,200 --> 00:10:25,940
+we need to go right then we just check
+
+236
+00:10:22,019 --> 00:10:29,459
+if R plus one is smaller than those
+
+237
+00:10:25,940 --> 00:10:33,360
+a pen
+
+238
+00:10:29,459 --> 00:10:35,839
+R plus one C uh and then this is f on
+
+239
+00:10:33,360 --> 00:10:39,360
+your f plus one C
+
+240
+00:10:35,839 --> 00:10:42,540
+is C plus one smaller than columns if we
+
+241
+00:10:39,360 --> 00:10:47,760
+can go to the right to the append
+
+242
+00:10:42,540 --> 00:10:49,980
+r c plus one f r c plus one okay okay so
+
+243
+00:10:47,760 --> 00:10:52,620
+now we need to use this scene okay so as
+
+244
+00:10:49,980 --> 00:10:55,500
+I said we need to remember the states
+
+245
+00:10:52,620 --> 00:10:56,880
+this is okay this is true false this is
+
+246
+00:10:55,500 --> 00:10:59,640
+the Brute Force version of breakfast
+
+247
+00:10:56,880 --> 00:11:02,160
+search remember the death research
+
+248
+00:10:59,640 --> 00:11:04,380
+recursion the Full Source version of the
+
+249
+00:11:02,160 --> 00:11:06,420
+different search but we couldn't attach
+
+250
+00:11:04,380 --> 00:11:08,160
+here right remember we're gonna catch to
+
+251
+00:11:06,420 --> 00:11:10,860
+make it top down the element programming
+
+252
+00:11:08,160 --> 00:11:13,680
+so here we need to implement this cache
+
+253
+00:11:10,860 --> 00:11:16,040
+here this is the cache this scene
+
+254
+00:11:13,680 --> 00:11:22,140
+remember that
+
+255
+00:11:16,040 --> 00:11:26,399
+the state which is RC RC Balance so
+
+256
+00:11:22,140 --> 00:11:28,680
+here we just said if r c balance in
+
+257
+00:11:26,399 --> 00:11:31,079
+scene right you calculated this before
+
+258
+00:11:28,680 --> 00:11:34,079
+then we just need to
+
+259
+00:11:31,079 --> 00:11:37,320
+continue right continue then otherwise C
+
+260
+00:11:34,079 --> 00:11:39,899
+dot add RCB okay okay this is okay
+
+261
+00:11:37,320 --> 00:11:42,600
+because if we found this we immediately
+
+262
+00:11:39,899 --> 00:11:45,899
+exit okay so we don't need to remember
+
+263
+00:11:42,600 --> 00:11:48,000
+this actual value of a state RCP right
+
+264
+00:11:45,899 --> 00:11:50,459
+because this is just saying that okay
+
+265
+00:11:48,000 --> 00:11:53,160
+when we cross this from RC and with the
+
+266
+00:11:50,459 --> 00:11:55,920
+balance we already push this into the
+
+267
+00:11:53,160 --> 00:11:57,300
+queue so we don't need to push it back
+
+268
+00:11:55,920 --> 00:12:00,120
+to the queue again
+
+269
+00:11:57,300 --> 00:12:03,540
+this is to enqueue right if we can go to
+
+270
+00:12:00,120 --> 00:12:06,720
+the bottom then we push its key kit R
+
+271
+00:12:03,540 --> 00:12:08,820
+plus one see the next location with the
+
+272
+00:12:06,720 --> 00:12:10,980
+balance with the new band ah okay so
+
+273
+00:12:08,820 --> 00:12:13,260
+there's actually one mistake
+
+274
+00:12:10,980 --> 00:12:15,779
+this is the pattern right this is better
+
+275
+00:12:13,260 --> 00:12:18,899
+so it needs to be plastic right current
+
+276
+00:12:15,779 --> 00:12:21,300
+balance is B plus this and the new cell
+
+277
+00:12:18,899 --> 00:12:25,620
+the new set is it plus one or minus one
+
+278
+00:12:21,300 --> 00:12:27,779
+right okay make sense
+
+279
+00:12:25,620 --> 00:12:30,000
+okay so look we are checking the
+
+280
+00:12:27,779 --> 00:12:31,019
+duplication here so actually this can be
+
+281
+00:12:30,000 --> 00:12:32,579
+moved
+
+282
+00:12:31,019 --> 00:12:34,980
+when we
+
+283
+00:12:32,579 --> 00:12:37,279
+pushing the new kids back to the queue
+
+284
+00:12:34,980 --> 00:12:40,500
+right or we can do it when we actually
+
+285
+00:12:37,279 --> 00:12:43,500
+dequeuing pulling the kids out of the
+
+286
+00:12:40,500 --> 00:12:45,899
+cube layer two ways both okay there's a
+
+287
+00:12:43,500 --> 00:12:48,180
+slight difference one is to check for
+
+288
+00:12:45,899 --> 00:12:50,180
+duplication to see if this node has been
+
+289
+00:12:48,180 --> 00:12:52,139
+visited when we're actually pulling
+
+290
+00:12:50,180 --> 00:12:55,139
+pulling the note
+
+291
+00:12:52,139 --> 00:12:57,120
+pulling a note okay so putting the note
+
+292
+00:12:55,139 --> 00:12:59,160
+from that queue so we check if it's a
+
+293
+00:12:57,120 --> 00:13:02,519
+duplication that's one way the other way
+
+294
+00:12:59,160 --> 00:13:04,560
+is that when we try to push we take this
+
+295
+00:13:02,519 --> 00:13:07,260
+note out we try to push it to kids right
+
+296
+00:13:04,560 --> 00:13:09,000
+we're not about to push the kid back to
+
+297
+00:13:07,260 --> 00:13:11,339
+the queue we check if the purification
+
+298
+00:13:09,000 --> 00:13:14,339
+checking duplication could happen here
+
+299
+00:13:11,339 --> 00:13:16,740
+or here but for professors usually
+
+300
+00:13:14,339 --> 00:13:18,480
+checking the duplication when we're
+
+301
+00:13:16,740 --> 00:13:20,820
+about to push it back to the queue it's
+
+302
+00:13:18,480 --> 00:13:21,480
+better okay but you know this is also
+
+303
+00:13:20,820 --> 00:13:24,600
+okay
+
+304
+00:13:21,480 --> 00:13:26,160
+uh the time complexity also similar to
+
+305
+00:13:24,600 --> 00:13:28,560
+the default search with the cache
+
+306
+00:13:26,160 --> 00:13:30,000
+top-down dynamic programming okay so
+
+307
+00:13:28,560 --> 00:13:31,980
+it's actually similar why is that
+
+308
+00:13:30,000 --> 00:13:33,779
+similar
+
+309
+00:13:31,980 --> 00:13:36,839
+to be the similar thing just different
+
+310
+00:13:33,779 --> 00:13:39,600
+ways of visiting the nodes the time and
+
+311
+00:13:36,839 --> 00:13:41,160
+space complex is quite similar right the
+
+312
+00:13:39,600 --> 00:13:43,380
+only difference about the space
+
+313
+00:13:41,160 --> 00:13:45,720
+complexity is that the preference search
+
+314
+00:13:43,380 --> 00:13:49,560
+will use the queue so every time we need
+
+315
+00:13:45,720 --> 00:13:51,720
+to maintain a list of the notes in the
+
+316
+00:13:49,560 --> 00:13:54,300
+current step but for that first search
+
+317
+00:13:51,720 --> 00:13:56,459
+look for the depth as such we only
+
+318
+00:13:54,300 --> 00:13:59,519
+maintain
+
+319
+00:13:56,459 --> 00:14:02,880
+the path current path right we don't
+
+320
+00:13:59,519 --> 00:14:04,800
+store the nose in the same level okay so
+
+321
+00:14:02,880 --> 00:14:06,660
+what have you learned today
+
+322
+00:14:04,800 --> 00:14:08,779
+we use the perfect search how do we
+
+323
+00:14:06,660 --> 00:14:11,820
+implement the perfect
+
+324
+00:14:08,779 --> 00:14:13,880
+in Python how do we Define a queue
+
+325
+00:14:11,820 --> 00:14:17,040
+what's the e means
+
+326
+00:14:13,880 --> 00:14:19,260
+what does double ending mean two sides
+
+327
+00:14:17,040 --> 00:14:21,779
+two sides we can push and pop from the
+
+328
+00:14:19,260 --> 00:14:24,060
+both sides so what's the alternative of
+
+329
+00:14:21,779 --> 00:14:25,860
+DQ if we don't use the DQ we can just
+
+330
+00:14:24,060 --> 00:14:28,019
+use a simple list right but the problem
+
+331
+00:14:25,860 --> 00:14:31,079
+of the simplest is that the operation
+
+332
+00:14:28,019 --> 00:14:32,760
+the problem of the simplest is that the
+
+333
+00:14:31,079 --> 00:14:35,459
+operation on the left hand side is
+
+334
+00:14:32,760 --> 00:14:38,720
+costing is O and linear okay so another
+
+335
+00:14:35,459 --> 00:14:43,079
+thing is that this size right uh rows
+
+336
+00:14:38,720 --> 00:14:45,480
+equals lens M and columns equal this is
+
+337
+00:14:43,079 --> 00:14:49,339
+the size of dimension of the maze
+
+338
+00:14:45,480 --> 00:14:52,079
+and then we can say if both plus columns
+
+339
+00:14:49,339 --> 00:14:53,519
+minus one and one if this is the all
+
+340
+00:14:52,079 --> 00:14:55,740
+number one we just immediately return
+
+341
+00:14:53,519 --> 00:14:58,440
+false right so we just checked as I said
+
+342
+00:14:55,740 --> 00:15:00,480
+right if the dimension if the rows plus
+
+343
+00:14:58,440 --> 00:15:03,000
+columns minus one if it's an odd number
+
+344
+00:15:00,480 --> 00:15:04,680
+then we don't need to perform the prefer
+
+345
+00:15:03,000 --> 00:15:06,240
+search or definite search am I right
+
+346
+00:15:04,680 --> 00:15:08,040
+this is an improvement right because
+
+347
+00:15:06,240 --> 00:15:09,839
+you've given me a maze I don't need to
+
+348
+00:15:08,040 --> 00:15:11,699
+perform a breakfast socio Professor so I
+
+349
+00:15:09,839 --> 00:15:13,560
+can tell you there's no pass
+
+350
+00:15:11,699 --> 00:15:15,120
+okay so we put this chip at the
+
+351
+00:15:13,560 --> 00:15:17,000
+beginning of the algorithm okay that's
+
+352
+00:15:15,120 --> 00:15:20,300
+it for today bye
+
+353
+00:15:17,000 --> 00:15:20,300
+bye bye
+

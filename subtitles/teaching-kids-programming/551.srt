@@ -1,0 +1,1540 @@
+1
+00:00:00,539 --> 00:00:03,539
+right
+
+2
+00:00:03,840 --> 00:00:12,240
+okay so we given this maze which only
+
+3
+00:00:06,480 --> 00:00:14,400
+contains zero or ones and originally
+
+4
+00:00:12,240 --> 00:00:16,680
+okay zeros and one okay originally
+
+5
+00:00:14,400 --> 00:00:19,680
+you're at top left corner okay so yeah
+
+6
+00:00:16,680 --> 00:00:20,400
+here there we go and Ryan yeah you are
+
+7
+00:00:19,680 --> 00:00:23,820
+here
+
+8
+00:00:20,400 --> 00:00:26,220
+and for each move you can move right
+
+9
+00:00:23,820 --> 00:00:28,560
+one position to the right or move one
+
+10
+00:00:26,220 --> 00:00:30,359
+position to the top so you can only move
+
+11
+00:00:28,560 --> 00:00:31,920
+to the east
+
+12
+00:00:30,359 --> 00:00:34,559
+oh
+
+13
+00:00:31,920 --> 00:00:38,160
+South okay one position
+
+14
+00:00:34,559 --> 00:00:40,320
+and the destination obviously you can't
+
+15
+00:00:38,160 --> 00:00:44,120
+cross borders
+
+16
+00:00:40,320 --> 00:00:44,120
+this is your destination
+
+17
+00:00:45,780 --> 00:00:51,480
+so I'm just asking can you find a path
+
+18
+00:00:48,780 --> 00:00:54,780
+can you find the route that uh write
+
+19
+00:00:51,480 --> 00:00:57,180
+down write down right and then listen
+
+20
+00:00:54,780 --> 00:00:59,820
+can you find the look is there such a
+
+21
+00:00:57,180 --> 00:01:02,399
+task that you when you cross the path
+
+22
+00:00:59,820 --> 00:01:05,820
+you know when you walk through the dude
+
+23
+00:01:02,399 --> 00:01:07,439
+you meet equal numbers of ones and
+
+24
+00:01:05,820 --> 00:01:11,100
+dealers
+
+25
+00:01:07,439 --> 00:01:15,540
+okay so equal numbers of 1 and 0.
+
+26
+00:01:11,100 --> 00:01:17,760
+equal ones yeah and equals what Ryan
+
+27
+00:01:15,540 --> 00:01:21,080
+just said what was that right down right
+
+28
+00:01:17,760 --> 00:01:25,020
+down right yeah right now right right
+
+29
+00:01:21,080 --> 00:01:28,159
+down right okay so how many ones three
+
+30
+00:01:25,020 --> 00:01:32,520
+how many zeros three okay another one
+
+31
+00:01:28,159 --> 00:01:34,740
+write down down right right okay okay so
+
+32
+00:01:32,520 --> 00:01:37,439
+this is a small base we obviously we can
+
+33
+00:01:34,740 --> 00:01:39,900
+look at it but if it's a very big one so
+
+34
+00:01:37,439 --> 00:01:42,180
+what's your thought uh one hint is that
+
+35
+00:01:39,900 --> 00:01:43,979
+it you can only move two direction it's
+
+36
+00:01:42,180 --> 00:01:46,079
+not like four directions it's just two
+
+37
+00:01:43,979 --> 00:01:48,180
+direction it can only work to the right
+
+38
+00:01:46,079 --> 00:01:49,560
+or walk to the downs we have been
+
+39
+00:01:48,180 --> 00:01:52,079
+talking about similar program before
+
+40
+00:01:49,560 --> 00:01:54,420
+right we are trying to find out how many
+
+41
+00:01:52,079 --> 00:01:56,759
+ways we can
+
+42
+00:01:54,420 --> 00:01:58,439
+chills from the top left to the right
+
+43
+00:01:56,759 --> 00:02:02,299
+bottom
+
+44
+00:01:58,439 --> 00:02:06,060
+and also we mentioned if we want to
+
+45
+00:02:02,299 --> 00:02:08,759
+bypass if this root needs to bypass one
+
+46
+00:02:06,060 --> 00:02:10,800
+certain point right we talked about a
+
+47
+00:02:08,759 --> 00:02:12,360
+long time ago we use the combination so
+
+48
+00:02:10,800 --> 00:02:16,520
+for example here
+
+49
+00:02:12,360 --> 00:02:20,640
+there are three rows here they are four
+
+50
+00:02:16,520 --> 00:02:23,099
+columns right to sum up you need to make
+
+51
+00:02:20,640 --> 00:02:24,900
+three pounds
+
+52
+00:02:23,099 --> 00:02:27,480
+and four
+
+53
+00:02:24,900 --> 00:02:29,400
+right in order to get to this point
+
+54
+00:02:27,480 --> 00:02:31,980
+right so this is kind of like
+
+55
+00:02:29,400 --> 00:02:35,040
+combination problem all right let's to
+
+56
+00:02:31,980 --> 00:02:36,480
+calculate the number of ways from the
+
+57
+00:02:35,040 --> 00:02:38,099
+top left to the right button but this
+
+58
+00:02:36,480 --> 00:02:40,140
+this problem is slightly different we
+
+59
+00:02:38,099 --> 00:02:42,420
+want to find out if there's a such pass
+
+60
+00:02:40,140 --> 00:02:45,680
+that when we can work on it we have this
+
+61
+00:02:42,420 --> 00:02:48,720
+equal numbers of zeros and ones
+
+62
+00:02:45,680 --> 00:02:51,080
+so any idea earlier just random Source
+
+63
+00:02:48,720 --> 00:02:51,080
+any idea
+
+64
+00:02:52,150 --> 00:02:58,580
+[Music]
+
+65
+00:02:54,440 --> 00:03:02,780
+but tell me how do you prove us
+
+66
+00:02:58,580 --> 00:03:02,780
+how do we check every possibility
+
+67
+00:03:02,940 --> 00:03:07,739
+so if I'm here with how many
+
+68
+00:03:05,640 --> 00:03:10,319
+possibilities do we have at each point
+
+69
+00:03:07,739 --> 00:03:13,440
+how many possibilities at each single
+
+70
+00:03:10,319 --> 00:03:15,720
+cell how many possibilities yeah two so
+
+71
+00:03:13,440 --> 00:03:17,340
+for each one we have two right so let's
+
+72
+00:03:15,720 --> 00:03:19,680
+say we have a function that's a search
+
+73
+00:03:17,340 --> 00:03:23,000
+right that's a search you remember what
+
+74
+00:03:19,680 --> 00:03:23,000
+you want to references
+
+75
+00:03:23,570 --> 00:03:29,519
+[Music]
+
+76
+00:03:25,819 --> 00:03:35,580
+okay so by thinking about that which
+
+77
+00:03:29,519 --> 00:03:35,580
+method is suited research says
+
+78
+00:03:35,940 --> 00:03:41,159
+look we are trying to find out if such
+
+79
+00:03:38,280 --> 00:03:44,099
+paths exists therefore such we just you
+
+80
+00:03:41,159 --> 00:03:47,040
+know just walk down a loot until we find
+
+81
+00:03:44,099 --> 00:03:49,739
+one right so that's as such okay let's
+
+82
+00:03:47,040 --> 00:03:52,620
+coordinate ah C
+
+83
+00:03:49,739 --> 00:03:54,920
+and B can you guess what are these
+
+84
+00:03:52,620 --> 00:03:54,920
+values
+
+85
+00:03:55,080 --> 00:04:00,299
+what's this okay something what's this
+
+86
+00:03:57,299 --> 00:04:02,459
+yes Rose columns this is this means life
+
+87
+00:04:00,299 --> 00:04:04,440
+look okay so I'm saying this function
+
+88
+00:04:02,459 --> 00:04:07,440
+returns that between
+
+89
+00:04:04,440 --> 00:04:07,440
+okay
+
+90
+00:04:11,700 --> 00:04:15,599
+that's that's as such I'm saying this
+
+91
+00:04:14,040 --> 00:04:18,660
+function I'm defining a function that
+
+92
+00:04:15,599 --> 00:04:20,340
+can tell me if like the past then wait
+
+93
+00:04:18,660 --> 00:04:24,660
+this function returns true or false
+
+94
+00:04:20,340 --> 00:04:28,199
+right it tells me it tells me
+
+95
+00:04:24,660 --> 00:04:31,919
+it tells me no Killers listen it tells
+
+96
+00:04:28,199 --> 00:04:33,780
+me if I can find a pass from RC from
+
+97
+00:04:31,919 --> 00:04:36,600
+this location to to the right bottom
+
+98
+00:04:33,780 --> 00:04:38,639
+right as if you if yeah that's a good
+
+99
+00:04:36,600 --> 00:04:41,220
+guess it's rows column which which
+
+100
+00:04:38,639 --> 00:04:43,680
+partition right B over if I say it's
+
+101
+00:04:41,220 --> 00:04:46,400
+balanced can you tell me what does he
+
+102
+00:04:43,680 --> 00:04:46,400
+means
+
+103
+00:04:46,940 --> 00:04:51,840
+it's equal
+
+104
+00:04:49,380 --> 00:04:54,300
+parents how about if I say okay if I can
+
+105
+00:04:51,840 --> 00:04:59,340
+see violence means you
+
+106
+00:04:54,300 --> 00:05:01,560
+know it is here it's like the same value
+
+107
+00:04:59,340 --> 00:05:05,660
+parents what's better
+
+108
+00:05:01,560 --> 00:05:05,660
+it's it's kind of it's kind
+
+109
+00:05:05,880 --> 00:05:11,479
+of like it's it's equal and yeah it's
+
+110
+00:05:09,240 --> 00:05:15,180
+equal yes one
+
+111
+00:05:11,479 --> 00:05:17,759
+and also honestly it has the same value
+
+112
+00:05:15,180 --> 00:05:19,440
+okay so in order to find the PATH so
+
+113
+00:05:17,759 --> 00:05:22,620
+this balance needs to be oh you can
+
+114
+00:05:19,440 --> 00:05:24,480
+balance them okay come on yeah yeah
+
+115
+00:05:22,620 --> 00:05:25,979
+listen oh
+
+116
+00:05:24,480 --> 00:05:29,280
+[Music]
+
+117
+00:05:25,979 --> 00:05:31,259
+you were full of okay so both yeah
+
+118
+00:05:29,280 --> 00:05:33,360
+parents okay so what's this this is
+
+119
+00:05:31,259 --> 00:05:36,720
+better okay so in order to find the past
+
+120
+00:05:33,360 --> 00:05:38,759
+this balance needs to be equal and
+
+121
+00:05:36,720 --> 00:05:41,100
+what's the usual value we will present
+
+122
+00:05:38,759 --> 00:05:42,900
+your balance is equal what should I put
+
+123
+00:05:41,100 --> 00:05:45,419
+here what should I put here well what am
+
+124
+00:05:42,900 --> 00:05:48,360
+I looking for come on it's a balance
+
+125
+00:05:45,419 --> 00:05:50,280
+so okay so this is once how many ones
+
+126
+00:05:48,360 --> 00:05:52,620
+how many zeros okay how many zeros how
+
+127
+00:05:50,280 --> 00:05:55,800
+many ones okay so in order to find the
+
+128
+00:05:52,620 --> 00:05:59,160
+pass we need these patterns to be yeah
+
+129
+00:05:55,800 --> 00:06:01,440
+right balance maybe here this is yellow
+
+130
+00:05:59,160 --> 00:06:04,139
+right so how about yellow then I said
+
+131
+00:06:01,440 --> 00:06:06,600
+five minus one because it's it's zero
+
+132
+00:06:04,139 --> 00:06:10,259
+okay minus one we said
+
+133
+00:06:06,600 --> 00:06:13,680
+this is uh positive yeah positive this
+
+134
+00:06:10,259 --> 00:06:15,360
+is negative if we meet one zero we
+
+135
+00:06:13,680 --> 00:06:18,479
+decrement the balance
+
+136
+00:06:15,360 --> 00:06:23,039
+by one if we meet one once we increment
+
+137
+00:06:18,479 --> 00:06:26,699
+the balance by one and the number of
+
+138
+00:06:23,039 --> 00:06:30,539
+equal zeros and ones it means that the
+
+139
+00:06:26,699 --> 00:06:32,340
+balance will be zero right look plus one
+
+140
+00:06:30,539 --> 00:06:36,139
+plus one plus one
+
+141
+00:06:32,340 --> 00:06:39,360
+one one there are three zero zero zero
+
+142
+00:06:36,139 --> 00:06:41,490
+minus three three plus minus three zero
+
+143
+00:06:39,360 --> 00:06:44,619
+makes sense so here you don't use
+
+144
+00:06:41,490 --> 00:06:44,619
+[Music]
+
+145
+00:06:45,780 --> 00:06:50,160
+good point yeah but I'm trying to say
+
+146
+00:06:48,120 --> 00:06:53,639
+look yeah that's a very good point yeah
+
+147
+00:06:50,160 --> 00:06:57,419
+look I'm trying to say at this point
+
+148
+00:06:53,639 --> 00:06:58,319
+we are here tfs00 and the balance will
+
+149
+00:06:57,419 --> 00:07:01,680
+be
+
+150
+00:06:58,319 --> 00:07:03,419
+the balance will be minus one right the
+
+151
+00:07:01,680 --> 00:07:06,120
+dependence will be
+
+152
+00:07:03,419 --> 00:07:09,360
+zero the balance will be
+
+153
+00:07:06,120 --> 00:07:11,639
+one the balance will be zero the balance
+
+154
+00:07:09,360 --> 00:07:15,240
+will be one the parents will be zero
+
+155
+00:07:11,639 --> 00:07:17,580
+when we reach respond we check if this
+
+156
+00:07:15,240 --> 00:07:19,380
+balance is zero right if it's zero it
+
+157
+00:07:17,580 --> 00:07:22,020
+means that we have equal number of ones
+
+158
+00:07:19,380 --> 00:07:25,319
+and zero makes sense yes so to sum up
+
+159
+00:07:22,020 --> 00:07:27,419
+when we meet zeros we decrease the
+
+160
+00:07:25,319 --> 00:07:29,940
+balance by one when we meet one we
+
+161
+00:07:27,419 --> 00:07:34,620
+increment the balance time one okay
+
+162
+00:07:29,940 --> 00:07:36,360
+okay so that this is okay and we can
+
+163
+00:07:34,620 --> 00:07:37,680
+solve this using Professor which I'm
+
+164
+00:07:36,360 --> 00:07:40,039
+going to talk about in the next next
+
+165
+00:07:37,680 --> 00:07:40,039
+time okay
+
+166
+00:07:40,500 --> 00:07:46,979
+yeah which is tomorrow next year come
+
+167
+00:07:44,280 --> 00:07:48,900
+online okay so that's uh look at this
+
+168
+00:07:46,979 --> 00:07:50,699
+and then you can improve it later okay
+
+169
+00:07:48,900 --> 00:07:53,160
+this is quite similar to some problems
+
+170
+00:07:50,699 --> 00:07:56,160
+we have talked about before right
+
+171
+00:07:53,160 --> 00:07:56,160
+balance
+
+172
+00:07:57,479 --> 00:08:04,919
+balance plus equal one if this makes
+
+173
+00:08:01,860 --> 00:08:08,759
+maze RC
+
+174
+00:08:04,919 --> 00:08:11,400
+is one right is one as we need to minus
+
+175
+00:08:08,759 --> 00:08:14,039
+one right okay so this means that if the
+
+176
+00:08:11,400 --> 00:08:15,960
+maze current position is one
+
+177
+00:08:14,039 --> 00:08:18,360
+we increment the parents by one
+
+178
+00:08:15,960 --> 00:08:21,900
+otherwise we decrement right so we can
+
+179
+00:08:18,360 --> 00:08:25,020
+also do this P plus equal because it has
+
+180
+00:08:21,900 --> 00:08:28,379
+only two values minus one one and then
+
+181
+00:08:25,020 --> 00:08:30,960
+Maze We can do this RC because this is a
+
+182
+00:08:28,379 --> 00:08:33,419
+Topper cutter contains two values couple
+
+183
+00:08:30,960 --> 00:08:36,599
+zero is minus one table one is one right
+
+184
+00:08:33,419 --> 00:08:38,820
+so I will use it this couple and we use
+
+185
+00:08:36,599 --> 00:08:41,459
+the value of the maze to retrieve the
+
+186
+00:08:38,820 --> 00:08:43,440
+value of the minus one or one and then
+
+187
+00:08:41,459 --> 00:08:46,140
+if B plus equal and then we leave a
+
+188
+00:08:43,440 --> 00:08:49,920
+check if r equal equal rows minus one if
+
+189
+00:08:46,140 --> 00:08:52,860
+it's the uh the last row and if the
+
+190
+00:08:49,920 --> 00:08:55,860
+columns C equals equal columns minus one
+
+191
+00:08:52,860 --> 00:08:59,100
+if it's the destination then we need to
+
+192
+00:08:55,860 --> 00:09:00,420
+return return if b equal equals zero
+
+193
+00:08:59,100 --> 00:09:03,540
+right
+
+194
+00:09:00,420 --> 00:09:06,899
+okay now look I'm at this point right
+
+195
+00:09:03,540 --> 00:09:09,720
+that's a search RCB right I'm moving
+
+196
+00:09:06,899 --> 00:09:12,660
+down so what's this that's a search R
+
+197
+00:09:09,720 --> 00:09:14,399
+plus one C
+
+198
+00:09:12,660 --> 00:09:16,080
+B right
+
+199
+00:09:14,399 --> 00:09:18,360
+I'm moving right
+
+200
+00:09:16,080 --> 00:09:22,200
+this is what that's a search
+
+201
+00:09:18,360 --> 00:09:24,779
+ah C plus one B am I the only two
+
+202
+00:09:22,200 --> 00:09:30,480
+position right yeah but we have to check
+
+203
+00:09:24,779 --> 00:09:31,920
+the boundary if ah smaller than Rose
+
+204
+00:09:30,480 --> 00:09:35,160
+and
+
+205
+00:09:31,920 --> 00:09:40,500
+that's my search R plus one
+
+206
+00:09:35,160 --> 00:09:44,160
+c d level between two and similarly if C
+
+207
+00:09:40,500 --> 00:09:46,019
+plus one uh R plus one okay R plus one
+
+208
+00:09:44,160 --> 00:09:49,560
+smaller if C plus one is smaller than
+
+209
+00:09:46,019 --> 00:09:49,560
+columns and
+
+210
+00:09:49,740 --> 00:09:56,640
+therefore such r c plus one b
+
+211
+00:09:54,600 --> 00:09:58,860
+then return true
+
+212
+00:09:56,640 --> 00:10:02,660
+okay otherwise will be 10 false right
+
+213
+00:09:58,860 --> 00:10:05,279
+look does it make sense here
+
+214
+00:10:02,660 --> 00:10:08,519
+look we are at this point recursion
+
+215
+00:10:05,279 --> 00:10:12,899
+right I'm at this point position
+
+216
+00:10:08,519 --> 00:10:16,019
+I'm here I'm here so I have two choice
+
+217
+00:10:12,899 --> 00:10:17,820
+I can go down or I can go right I can go
+
+218
+00:10:16,019 --> 00:10:18,839
+down or I can go right all right go
+
+219
+00:10:17,820 --> 00:10:21,480
+right
+
+220
+00:10:18,839 --> 00:10:23,760
+so if I can go down
+
+221
+00:10:21,480 --> 00:10:26,100
+if I can go down and call this deficit
+
+222
+00:10:23,760 --> 00:10:27,720
+if I can go down I find the past then I
+
+223
+00:10:26,100 --> 00:10:30,420
+limited return true I don't need to try
+
+224
+00:10:27,720 --> 00:10:32,940
+the other route right make sense because
+
+225
+00:10:30,420 --> 00:10:37,459
+the question I was asking is there such
+
+226
+00:10:32,940 --> 00:10:37,459
+a path do I need to proof of all of us
+
+227
+00:10:45,620 --> 00:10:50,220
+and if
+
+228
+00:10:47,399 --> 00:10:52,860
+by walking down I have a path I know
+
+229
+00:10:50,220 --> 00:10:54,959
+there's a path not return true
+
+230
+00:10:52,860 --> 00:10:56,820
+okay if there is no pass I need to try
+
+231
+00:10:54,959 --> 00:10:59,279
+working why right I need to try working
+
+232
+00:10:56,820 --> 00:11:01,200
+right okay so this balance thing is
+
+233
+00:10:59,279 --> 00:11:04,140
+updated here right at the beginning of
+
+234
+00:11:01,200 --> 00:11:05,940
+recursion right instead of updating here
+
+235
+00:11:04,140 --> 00:11:08,459
+okay
+
+236
+00:11:05,940 --> 00:11:12,120
+so is there a problem with this approach
+
+237
+00:11:08,459 --> 00:11:14,220
+yes what's that yes it just keeps going
+
+238
+00:11:12,120 --> 00:11:16,920
+Rock sorry does it just keep on going by
+
+239
+00:11:14,220 --> 00:11:19,320
+don't just keep going down there are two
+
+240
+00:11:16,920 --> 00:11:22,040
+yeah each partition I can have two parts
+
+241
+00:11:19,320 --> 00:11:22,040
+but
+
+242
+00:11:27,680 --> 00:11:31,860
+this is a
+
+243
+00:11:29,700 --> 00:11:34,500
+look this is a performance
+
+244
+00:11:31,860 --> 00:11:36,720
+putting your cash this is the top down
+
+245
+00:11:34,500 --> 00:11:40,079
+dynamic programming why there's a
+
+246
+00:11:36,720 --> 00:11:42,560
+duplication we need to remember
+
+247
+00:11:40,079 --> 00:11:42,560
+okay
+
+248
+00:11:44,640 --> 00:11:49,079
+let's Okay okay let's look at this point
+
+249
+00:11:46,560 --> 00:11:53,820
+so how many ways from here to here learn
+
+250
+00:11:49,079 --> 00:11:56,360
+a lot right so here here
+
+251
+00:11:53,820 --> 00:11:56,360
+here
+
+252
+00:11:57,720 --> 00:12:03,360
+supposedly I know laser path well
+
+253
+00:12:01,200 --> 00:12:06,180
+there's a path I already calculate this
+
+254
+00:12:03,360 --> 00:12:08,459
+when the balance is one I can't find the
+
+255
+00:12:06,180 --> 00:12:11,640
+PATH but the thing is that there are
+
+256
+00:12:08,459 --> 00:12:14,760
+many times that this point is passed you
+
+257
+00:12:11,640 --> 00:12:16,740
+know we need to cross this point
+
+258
+00:12:14,760 --> 00:12:21,060
+we need to cross this point therefore
+
+259
+00:12:16,740 --> 00:12:23,220
+says RC Balance so the first time we
+
+260
+00:12:21,060 --> 00:12:26,339
+cross this point for example this value
+
+261
+00:12:23,220 --> 00:12:28,140
+RC Balance we know there is no path
+
+262
+00:12:26,339 --> 00:12:30,540
+there is no such path
+
+263
+00:12:28,140 --> 00:12:33,360
+the second time we cross it with the
+
+264
+00:12:30,540 --> 00:12:34,800
+same RC Balance do we need to do this
+
+265
+00:12:33,360 --> 00:12:37,860
+again
+
+266
+00:12:34,800 --> 00:12:40,940
+suppose this is huge this is a very huge
+
+267
+00:12:37,860 --> 00:12:45,180
+area it takes like an hour to calculate
+
+268
+00:12:40,940 --> 00:12:47,220
+RCB okay so we're done right
+
+269
+00:12:45,180 --> 00:12:48,420
+we don't because we already know there's
+
+270
+00:12:47,220 --> 00:12:49,800
+no path
+
+271
+00:12:48,420 --> 00:12:51,720
+okay
+
+272
+00:12:49,800 --> 00:12:53,639
+if when I surpass will return in meters
+
+273
+00:12:51,720 --> 00:12:56,820
+we don't need to catch it actually but
+
+274
+00:12:53,639 --> 00:12:59,760
+if it's a false if there's no path we
+
+275
+00:12:56,820 --> 00:13:02,519
+don't want to spend time calculating it
+
+276
+00:12:59,760 --> 00:13:06,360
+again because we already know we tried
+
+277
+00:13:02,519 --> 00:13:10,279
+last time there's no pass we remember
+
+278
+00:13:06,360 --> 00:13:10,279
+there's no point to keep trying
+
+279
+00:13:10,380 --> 00:13:15,540
+I might say yeah this point there are
+
+280
+00:13:13,260 --> 00:13:18,180
+lots of ways
+
+281
+00:13:15,540 --> 00:13:19,279
+eventually will come to this point right
+
+282
+00:13:18,180 --> 00:13:21,540
+okay okay
+
+283
+00:13:19,279 --> 00:13:24,240
+the first time we calculate the result
+
+284
+00:13:21,540 --> 00:13:27,540
+remember it so look the time came back
+
+285
+00:13:24,240 --> 00:13:29,279
+stay we allow the cash this is
+
+286
+00:13:27,540 --> 00:13:32,880
+explanation right right it's
+
+287
+00:13:29,279 --> 00:13:34,980
+relationship because each point would be
+
+288
+00:13:32,880 --> 00:13:37,200
+computed many many times it's
+
+289
+00:13:34,980 --> 00:13:39,660
+exponential but with least cache the
+
+290
+00:13:37,200 --> 00:13:40,620
+number of total States we calculate it
+
+291
+00:13:39,660 --> 00:13:42,300
+is
+
+292
+00:13:40,620 --> 00:13:45,120
+Rose
+
+293
+00:13:42,300 --> 00:13:47,459
+times columns right look because look
+
+294
+00:13:45,120 --> 00:13:50,279
+each position when we calculate it we
+
+295
+00:13:47,459 --> 00:13:52,500
+saw it how many numbers in this maze
+
+296
+00:13:50,279 --> 00:13:54,899
+R times C right
+
+297
+00:13:52,500 --> 00:13:56,160
+but we need to remember the third one is
+
+298
+00:13:54,899 --> 00:13:59,459
+the balance
+
+299
+00:13:56,160 --> 00:14:01,860
+companies in RC transparents okay this
+
+300
+00:13:59,459 --> 00:14:04,500
+is the range this is the range okay
+
+301
+00:14:01,860 --> 00:14:07,279
+let's face complexity obviously
+
+302
+00:14:04,500 --> 00:14:10,560
+the same yeah we need a
+
+303
+00:14:07,279 --> 00:14:12,600
+array to study this is top down we're
+
+304
+00:14:10,560 --> 00:14:14,639
+using a cache the computer does the job
+
+305
+00:14:12,600 --> 00:14:16,560
+first the computer maintains a notebook
+
+306
+00:14:14,639 --> 00:14:18,540
+for us but we can do this in photo app
+
+307
+00:14:16,560 --> 00:14:21,120
+dynamic programming as well the opposite
+
+308
+00:14:18,540 --> 00:14:24,060
+photo app is non-trivial to right to
+
+309
+00:14:21,120 --> 00:14:26,279
+implement top down is easier
+
+310
+00:14:24,060 --> 00:14:28,320
+compound is easier because we just put
+
+311
+00:14:26,279 --> 00:14:31,620
+in the cash this is the magic keyword to
+
+312
+00:14:28,320 --> 00:14:33,480
+turn these proofers into uh top Cloud
+
+313
+00:14:31,620 --> 00:14:35,420
+anime programming by the numbering this
+
+314
+00:14:33,480 --> 00:14:39,480
+is quite similar and Fibonacci number
+
+315
+00:14:35,420 --> 00:14:43,019
+Fibonacci number F and equal f f n minus
+
+316
+00:14:39,480 --> 00:14:46,260
+1 plus f n minus two
+
+317
+00:14:43,019 --> 00:14:49,019
+yeah look quite similar look in order to
+
+318
+00:14:46,260 --> 00:14:51,660
+calculate FN we need to two recursive
+
+319
+00:14:49,019 --> 00:14:53,100
+call with a smaller problem right with a
+
+320
+00:14:51,660 --> 00:14:55,320
+smaller phone
+
+321
+00:14:53,100 --> 00:14:56,220
+yeah this is quite similar look at each
+
+322
+00:14:55,320 --> 00:14:59,760
+location
+
+323
+00:14:56,220 --> 00:15:02,160
+we need to solve two recursive functions
+
+324
+00:14:59,760 --> 00:15:05,040
+if it's flowing to two we need to
+
+325
+00:15:02,160 --> 00:15:07,139
+remember but if it's flowing to one we
+
+326
+00:15:05,040 --> 00:15:09,959
+may not need to remember another example
+
+327
+00:15:07,139 --> 00:15:14,639
+why we may not need to remember the
+
+328
+00:15:09,959 --> 00:15:15,480
+factorial f n equals n times f n minus 1
+
+329
+00:15:14,639 --> 00:15:18,000
+right
+
+330
+00:15:15,480 --> 00:15:20,699
+do we need to pull the cash here no
+
+331
+00:15:18,000 --> 00:15:22,620
+probably no right cover now because each
+
+332
+00:15:20,699 --> 00:15:24,480
+F value is only calculate once if you
+
+333
+00:15:22,620 --> 00:15:27,180
+want to calculate F4 you need to
+
+334
+00:15:24,480 --> 00:15:29,459
+calculate F3 in order to calculate F3
+
+335
+00:15:27,180 --> 00:15:31,320
+you need F2 in order to pack your F2 you
+
+336
+00:15:29,459 --> 00:15:34,500
+need to take the F1 which we know is one
+
+337
+00:15:31,320 --> 00:15:36,720
+right so when we get the one we come
+
+338
+00:15:34,500 --> 00:15:40,920
+back to calculate F2 come back to take
+
+339
+00:15:36,720 --> 00:15:43,279
+the S3 F1 but when we calculate F4 F3 F2
+
+340
+00:15:40,920 --> 00:15:46,680
+F1 it's only calculated once am I right
+
+341
+00:15:43,279 --> 00:15:47,899
+but here here why is it pregnant more
+
+342
+00:15:46,680 --> 00:15:52,199
+than one
+
+343
+00:15:47,899 --> 00:15:56,399
+F4 equals F3
+
+344
+00:15:52,199 --> 00:16:00,720
+plus F2 F3 equals
+
+345
+00:15:56,399 --> 00:16:03,779
+F2 plus F1 you see the problem
+
+346
+00:16:00,720 --> 00:16:05,399
+F2 here F2 here
+
+347
+00:16:03,779 --> 00:16:06,959
+okay
+
+348
+00:16:05,399 --> 00:16:08,959
+so we need to calculate because
+
+349
+00:16:06,959 --> 00:16:12,720
+otherwise we spend time
+
+350
+00:16:08,959 --> 00:16:16,199
+recalculating it F2 equals F1 plus F0
+
+351
+00:16:12,720 --> 00:16:17,760
+okay look F1 again okay so what have you
+
+352
+00:16:16,199 --> 00:16:20,339
+learned today
+
+353
+00:16:17,760 --> 00:16:22,860
+and about a maze
+
+354
+00:16:20,339 --> 00:16:26,779
+problem so what are we trying to do what
+
+355
+00:16:22,860 --> 00:16:26,779
+kind of solution we have and that's it
+
+356
+00:16:32,600 --> 00:16:40,980
+the numbers like what one zero ones or
+
+357
+00:16:37,320 --> 00:16:43,079
+zeros or ones and zeros and so we were
+
+358
+00:16:40,980 --> 00:16:46,800
+we gonna
+
+359
+00:16:43,079 --> 00:16:49,440
+we're gonna reached the top left is the
+
+360
+00:16:46,800 --> 00:16:52,860
+star and the top and bottom right into
+
+361
+00:16:49,440 --> 00:16:54,600
+the destination and so
+
+362
+00:16:52,860 --> 00:16:59,160
+and so
+
+363
+00:16:54,600 --> 00:17:04,620
+we wanted to have a we want a part of my
+
+364
+00:16:59,160 --> 00:17:08,360
+hat must I have we want to know if if is
+
+365
+00:17:04,620 --> 00:17:13,140
+there any possible part that the pub
+
+366
+00:17:08,360 --> 00:17:16,740
+contains the same number of zeros and
+
+367
+00:17:13,140 --> 00:17:19,500
+ones we can do three four seven candy
+
+368
+00:17:16,740 --> 00:17:21,299
+top down okay let me tell them yeah
+
+369
+00:17:19,500 --> 00:17:23,720
+dynamic programming what's dynamic
+
+370
+00:17:21,299 --> 00:17:23,720
+programming
+
+371
+00:17:24,079 --> 00:17:28,980
+yeah the key thing is remembering and
+
+372
+00:17:26,819 --> 00:17:31,559
+using an intermediate results okay this
+
+373
+00:17:28,980 --> 00:17:33,960
+is solving the smallest size problem
+
+374
+00:17:31,559 --> 00:17:36,240
+okay another thing is that look we're
+
+375
+00:17:33,960 --> 00:17:39,600
+working from the top left to the bottom
+
+376
+00:17:36,240 --> 00:17:42,720
+line and we all can also do the opposite
+
+377
+00:17:39,600 --> 00:17:44,340
+walking from the bottom right to the Top
+
+378
+00:17:42,720 --> 00:17:47,280
+Line it's the same right we talk about
+
+379
+00:17:44,340 --> 00:17:49,559
+finding the nearest exit in the maze
+
+380
+00:17:47,280 --> 00:17:52,559
+we can start from the engine to find the
+
+381
+00:17:49,559 --> 00:17:55,320
+exit or we can start from any exit to
+
+382
+00:17:52,559 --> 00:17:56,340
+find the entry this is bi-directional
+
+383
+00:17:55,320 --> 00:17:59,220
+right
+
+384
+00:17:56,340 --> 00:18:03,000
+okay that's it for today happy New Year
+
+385
+00:17:59,220 --> 00:18:03,000
+happy New Year bye
+

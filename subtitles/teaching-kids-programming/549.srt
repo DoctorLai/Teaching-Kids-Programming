@@ -1,0 +1,1300 @@
+1
+00:00:00,000 --> 00:00:03,000
+numbers
+
+2
+00:00:03,400 --> 00:00:06,469
+[Music]
+
+3
+00:00:12,240 --> 00:00:17,160
+what's my list
+
+4
+00:00:14,160 --> 00:00:19,260
+so we're given an array of digits single
+
+5
+00:00:17,160 --> 00:00:23,060
+digit and they could be a duplicate
+
+6
+00:00:19,260 --> 00:00:23,060
+right it could be duplicate yes
+
+7
+00:00:23,580 --> 00:00:28,580
+yes and we want to find all three digits
+
+8
+00:00:29,760 --> 00:00:35,180
+and no leadings uniforms no leading
+
+9
+00:00:32,579 --> 00:00:35,180
+zeros okay
+
+10
+00:00:36,540 --> 00:00:42,300
+so we can't have like zero one two this
+
+11
+00:00:39,660 --> 00:00:46,320
+is not a good number right but we could
+
+12
+00:00:42,300 --> 00:00:49,440
+have one to zero to one zero and since
+
+13
+00:00:46,320 --> 00:00:51,300
+there are two two so we only keep one
+
+14
+00:00:49,440 --> 00:00:53,700
+copy of that which is two one zero Okay
+
+15
+00:00:51,300 --> 00:00:58,440
+so
+
+16
+00:00:53,700 --> 00:00:58,440
+we talk about it both of us yeah
+
+17
+00:00:58,680 --> 00:01:03,739
+how do you pull fast we talk about
+
+18
+00:01:00,920 --> 00:01:08,299
+permutation try to
+
+19
+00:01:03,739 --> 00:01:08,299
+try to check everything
+
+20
+00:01:08,840 --> 00:01:14,420
+and I and then start from my
+
+21
+00:01:18,799 --> 00:01:25,140
+skip every odd number and check if it
+
+22
+00:01:22,619 --> 00:01:27,960
+can be even numbers and if it can be
+
+23
+00:01:25,140 --> 00:01:29,580
+made from the array excellent yes so
+
+24
+00:01:27,960 --> 00:01:31,560
+there are two ways of proof of one way
+
+25
+00:01:29,580 --> 00:01:34,320
+is because it's a three digit right so
+
+26
+00:01:31,560 --> 00:01:39,960
+we approvals try every even number from
+
+27
+00:01:34,320 --> 00:01:44,460
+100 to 998 yeah skip two so for I in
+
+28
+00:01:39,960 --> 00:01:46,560
+range 100 here 999 step two and once we
+
+29
+00:01:44,460 --> 00:01:49,079
+have this number for example one zero
+
+30
+00:01:46,560 --> 00:01:52,200
+two we come back to check if one zero
+
+31
+00:01:49,079 --> 00:01:53,520
+two can be made from a given digit at
+
+32
+00:01:52,200 --> 00:01:55,140
+least it's more efficient because there
+
+33
+00:01:53,520 --> 00:01:56,759
+are limited number of the three digit
+
+34
+00:01:55,140 --> 00:01:59,000
+numbers and we can just do this in
+
+35
+00:01:56,759 --> 00:02:02,399
+constant term
+
+36
+00:01:59,000 --> 00:02:04,320
+the other way our profile so it's using
+
+37
+00:02:02,399 --> 00:02:06,840
+the permutation because we have permuted
+
+38
+00:02:04,320 --> 00:02:10,259
+actually permutating three digits out of
+
+39
+00:02:06,840 --> 00:02:12,180
+these and digit okay we can prove us
+
+40
+00:02:10,259 --> 00:02:15,060
+these the whole number or we can prove
+
+41
+00:02:12,180 --> 00:02:17,879
+was each single digit right so let's say
+
+42
+00:02:15,060 --> 00:02:23,099
+ABC left this is the three digit number
+
+43
+00:02:17,879 --> 00:02:25,140
+so we can do this for a in range no
+
+44
+00:02:23,099 --> 00:02:27,300
+readings you know right because there's
+
+45
+00:02:25,140 --> 00:02:31,220
+no living zero so it's always one up to
+
+46
+00:02:27,300 --> 00:02:33,239
+ten right no readings you know
+
+47
+00:02:31,220 --> 00:02:35,760
+in French
+
+48
+00:02:33,239 --> 00:02:37,500
+the second digit it could be any from 0
+
+49
+00:02:35,760 --> 00:02:41,940
+to 9 right
+
+50
+00:02:37,500 --> 00:02:43,800
+for C in range the third number okay so
+
+51
+00:02:41,940 --> 00:02:46,319
+what's the third number the third number
+
+52
+00:02:43,800 --> 00:02:49,140
+has to be even digit
+
+53
+00:02:46,319 --> 00:02:51,900
+right because it has to be even number
+
+54
+00:02:49,140 --> 00:02:56,220
+so the third number would be from 0 to
+
+55
+00:02:51,900 --> 00:02:58,440
+10 step two right so zero two four six
+
+56
+00:02:56,220 --> 00:03:01,080
+eight this is what it means and then
+
+57
+00:02:58,440 --> 00:03:04,500
+once we have this IDC we check if
+
+58
+00:03:01,080 --> 00:03:05,580
+counter ABC is smaller than the this
+
+59
+00:03:04,500 --> 00:03:07,739
+counter
+
+60
+00:03:05,580 --> 00:03:10,140
+then we don't need to check a leading
+
+61
+00:03:07,739 --> 00:03:11,640
+dealer right because a cannot be it's
+
+62
+00:03:10,140 --> 00:03:14,760
+yellow well you don't need to check for
+
+63
+00:03:11,640 --> 00:03:17,700
+even numbers right because C
+
+64
+00:03:14,760 --> 00:03:19,560
+with step two right and then after that
+
+65
+00:03:17,700 --> 00:03:21,780
+then we can push this to the answer
+
+66
+00:03:19,560 --> 00:03:24,599
+which is eight times a hundred
+
+67
+00:03:21,780 --> 00:03:26,099
+eight times a hundred plus b times ten
+
+68
+00:03:24,599 --> 00:03:29,519
+plus
+
+69
+00:03:26,099 --> 00:03:31,319
+C okay do we need to solve this using
+
+70
+00:03:29,519 --> 00:03:33,959
+this uh kind of for Loop do we need to
+
+71
+00:03:31,319 --> 00:03:36,900
+solve these numbers not really because a
+
+72
+00:03:33,959 --> 00:03:39,480
+is one to ten yeah look at when the
+
+73
+00:03:36,900 --> 00:03:41,640
+numbers generated so a from the smallest
+
+74
+00:03:39,480 --> 00:03:43,560
+to the thickest B for the smallest to
+
+75
+00:03:41,640 --> 00:03:46,019
+the ticket C from the smallest to the
+
+76
+00:03:43,560 --> 00:03:47,940
+biggest right so this number generated
+
+77
+00:03:46,019 --> 00:03:49,440
+is also from the smallest to the
+
+78
+00:03:47,940 --> 00:03:55,400
+previous this is the same thing like
+
+79
+00:03:49,440 --> 00:03:55,400
+this for Loop for 100 to 998 step two
+
+80
+00:03:58,220 --> 00:04:02,220
+IPM free
+
+81
+00:04:00,060 --> 00:04:04,379
+picking three out of and with the
+
+82
+00:04:02,220 --> 00:04:07,680
+sequence cn3 is
+
+83
+00:04:04,379 --> 00:04:10,140
+taking three out of n with a the order
+
+84
+00:04:07,680 --> 00:04:13,140
+does not matter so pn3 is actually C and
+
+85
+00:04:10,140 --> 00:04:14,580
+three times the p33 okay this is the
+
+86
+00:04:13,140 --> 00:04:17,340
+full communication we're using the
+
+87
+00:04:14,580 --> 00:04:19,199
+default last lesson left as such and we
+
+88
+00:04:17,340 --> 00:04:21,660
+can use the pressure search but because
+
+89
+00:04:19,199 --> 00:04:23,340
+we are only picking three
+
+90
+00:04:21,660 --> 00:04:25,800
+all right well because we're only
+
+91
+00:04:23,340 --> 00:04:27,900
+picking three so we can also do this not
+
+92
+00:04:25,800 --> 00:04:30,479
+looping over the numbers we're looking
+
+93
+00:04:27,900 --> 00:04:35,580
+over the index if not n so we can say
+
+94
+00:04:30,479 --> 00:04:40,979
+for the first index is range and right
+
+95
+00:04:35,580 --> 00:04:43,860
+the second index for J in range n
+
+96
+00:04:40,979 --> 00:04:48,000
+Force the third index is also from when
+
+97
+00:04:43,860 --> 00:04:50,040
+uh we have to check if I equal equal J
+
+98
+00:04:48,000 --> 00:04:51,840
+then we continue we don't want a
+
+99
+00:04:50,040 --> 00:04:55,620
+duplicate Index right because each index
+
+100
+00:04:51,840 --> 00:04:59,340
+can only be picked once if I equal K or
+
+101
+00:04:55,620 --> 00:05:01,919
+J equal k then we continue we ignore it
+
+102
+00:04:59,340 --> 00:05:04,800
+right so and once we have the i j k we
+
+103
+00:05:01,919 --> 00:05:06,840
+can test if this number is an even
+
+104
+00:05:04,800 --> 00:05:08,460
+number without a leaving zero and then
+
+105
+00:05:06,840 --> 00:05:10,919
+if it is they will push it back to the
+
+106
+00:05:08,460 --> 00:05:12,479
+result but after this we need to solve
+
+107
+00:05:10,919 --> 00:05:13,500
+it right because we are just picking the
+
+108
+00:05:12,479 --> 00:05:16,199
+index
+
+109
+00:05:13,500 --> 00:05:18,419
+okay so definitely such I will use the
+
+110
+00:05:16,199 --> 00:05:20,940
+recursion and then once we pick it we
+
+111
+00:05:18,419 --> 00:05:23,039
+pick this number we follow it and we
+
+112
+00:05:20,940 --> 00:05:25,979
+need to keep it back right
+
+113
+00:05:23,039 --> 00:05:26,880
+now how do we implement the perfect
+
+114
+00:05:25,979 --> 00:05:31,740
+search
+
+115
+00:05:26,880 --> 00:05:31,740
+anybody perfect okay
+
+116
+00:05:33,800 --> 00:05:41,520
+first search because yeah
+
+117
+00:05:37,560 --> 00:05:43,680
+if and it's bigger than equal to 99. we
+
+118
+00:05:41,520 --> 00:05:46,199
+need to check if n is
+
+119
+00:05:43,680 --> 00:05:49,880
+uh even number and if it's a even number
+
+120
+00:05:46,199 --> 00:05:54,539
+we push this answer a pen
+
+121
+00:05:49,880 --> 00:05:58,259
+uh append answer copious is a set okay
+
+122
+00:05:54,539 --> 00:06:00,840
+success answer for ADD
+
+123
+00:05:58,259 --> 00:06:03,900
+and another 10.
+
+124
+00:06:00,840 --> 00:06:06,620
+I know we need to go to each digit for I
+
+125
+00:06:03,900 --> 00:06:06,620
+in range
+
+126
+00:06:07,500 --> 00:06:15,199
+10 right and then if this frequency IF
+
+127
+00:06:11,820 --> 00:06:18,120
+frequency I is bigger than yellow
+
+128
+00:06:15,199 --> 00:06:19,620
+lands we follow it right we have enough
+
+129
+00:06:18,120 --> 00:06:21,199
+digit of I
+
+130
+00:06:19,620 --> 00:06:26,340
+we follow it
+
+131
+00:06:21,199 --> 00:06:30,360
+I minus equals one and then f as such so
+
+132
+00:06:26,340 --> 00:06:33,000
+current number is n so n times 10 plus I
+
+133
+00:06:30,360 --> 00:06:34,800
+okay after recursion we need to give it
+
+134
+00:06:33,000 --> 00:06:37,380
+back frequency
+
+135
+00:06:34,800 --> 00:06:39,720
+I plus equal one
+
+136
+00:06:37,380 --> 00:06:42,660
+and therefore such at the beginning we
+
+137
+00:06:39,720 --> 00:06:45,120
+start with zero and then return
+
+138
+00:06:42,660 --> 00:06:50,699
+sorted
+
+139
+00:06:45,120 --> 00:06:53,280
+salted answer right okay so this is the
+
+140
+00:06:50,699 --> 00:06:54,960
+ever such at the beginning the frequency
+
+141
+00:06:53,280 --> 00:06:58,380
+it needs to
+
+142
+00:06:54,960 --> 00:07:01,940
+be computed using this counter widget
+
+143
+00:06:58,380 --> 00:07:04,860
+this is deficit that stories
+
+144
+00:07:01,940 --> 00:07:07,380
+you said you use a q first in first
+
+145
+00:07:04,860 --> 00:07:10,440
+element okay first inverter so we push
+
+146
+00:07:07,380 --> 00:07:12,419
+the kids every time we take you we take
+
+147
+00:07:10,440 --> 00:07:15,660
+one from the left hand side pushes the
+
+148
+00:07:12,419 --> 00:07:18,419
+kid back to the cube okay so the clever
+
+149
+00:07:15,660 --> 00:07:20,419
+such level by level that was such as
+
+150
+00:07:18,419 --> 00:07:22,860
+steep as we can
+
+151
+00:07:20,419 --> 00:07:26,580
+which method current is that the first
+
+152
+00:07:22,860 --> 00:07:29,340
+solution we get is the optimum if we are
+
+153
+00:07:26,580 --> 00:07:30,780
+looking for the shortest purposes okay
+
+154
+00:07:29,340 --> 00:07:32,699
+but in this case it doesn't matter
+
+155
+00:07:30,780 --> 00:07:34,860
+because we are finding all the three
+
+156
+00:07:32,699 --> 00:07:36,900
+digits right we actually finding all the
+
+157
+00:07:34,860 --> 00:07:38,039
+three Institute even numbers so it
+
+158
+00:07:36,900 --> 00:07:40,020
+doesn't matter differences you
+
+159
+00:07:38,039 --> 00:07:43,280
+preferences we have to perform the
+
+160
+00:07:40,020 --> 00:07:46,699
+entire search using the default search
+
+161
+00:07:43,280 --> 00:07:49,560
+different order okay at the beginning
+
+162
+00:07:46,699 --> 00:07:53,580
+why we're using the set anybody
+
+163
+00:07:49,560 --> 00:07:56,880
+because we need to store London
+
+164
+00:07:53,580 --> 00:08:00,900
+we don't want that duplicates yeah okay
+
+165
+00:07:56,880 --> 00:08:03,060
+set the unique things the numbers that's
+
+166
+00:08:00,900 --> 00:08:04,979
+right unique numbers so it doesn't store
+
+167
+00:08:03,060 --> 00:08:07,500
+duplicate like for example if it's
+
+168
+00:08:04,979 --> 00:08:09,780
+answer is at least it's a list of this
+
+169
+00:08:07,500 --> 00:08:13,979
+is this right answer the door open one
+
+170
+00:08:09,780 --> 00:08:16,380
+answer to open one another one right you
+
+171
+00:08:13,979 --> 00:08:20,360
+store three elements but answer if it's
+
+172
+00:08:16,380 --> 00:08:20,360
+a set answer dot append one
+
+173
+00:08:23,120 --> 00:08:28,919
+nothing changed because one is already
+
+174
+00:08:26,400 --> 00:08:31,699
+in the set nothing changed okay this is
+
+175
+00:08:28,919 --> 00:08:31,699
+the major difference
+
+176
+00:08:32,120 --> 00:08:36,899
+we can do this uh push and pop on both
+
+177
+00:08:35,039 --> 00:08:39,599
+sides PQ
+
+178
+00:08:36,899 --> 00:08:42,479
+we need to store the current number and
+
+179
+00:08:39,599 --> 00:08:43,979
+the digits right we need to install the
+
+180
+00:08:42,479 --> 00:08:47,700
+current number in the digit so the color
+
+181
+00:08:43,979 --> 00:08:52,260
+number is zero the digit is counter
+
+182
+00:08:47,700 --> 00:08:54,779
+count uh AR okay so this is a couple and
+
+183
+00:08:52,260 --> 00:08:59,580
+then wire Q
+
+184
+00:08:54,779 --> 00:09:01,500
+so n f equal Q dot Pub left
+
+185
+00:08:59,580 --> 00:09:03,600
+taking from the left hand side kill the
+
+186
+00:09:01,500 --> 00:09:08,220
+problem and this is the current number f
+
+187
+00:09:03,600 --> 00:09:10,620
+is the remaining digit okay so here if n
+
+188
+00:09:08,220 --> 00:09:13,080
+is bigger or equal if bigger than 99
+
+189
+00:09:10,620 --> 00:09:15,180
+okay actually there okay so it's bigger
+
+190
+00:09:13,080 --> 00:09:18,060
+than 99 not equal okay three digit
+
+191
+00:09:15,180 --> 00:09:21,080
+figure 99 or bigger or equal to 100.
+
+192
+00:09:18,060 --> 00:09:25,740
+well if n is
+
+193
+00:09:21,080 --> 00:09:27,240
+odd number then answer add answer dot
+
+194
+00:09:25,740 --> 00:09:30,000
+add and
+
+195
+00:09:27,240 --> 00:09:33,000
+we tell here otherwise we need to go
+
+196
+00:09:30,000 --> 00:09:34,440
+through each digit for I in range
+
+197
+00:09:33,000 --> 00:09:36,660
+fan
+
+198
+00:09:34,440 --> 00:09:38,399
+so now we need to make a copy of the
+
+199
+00:09:36,660 --> 00:09:41,220
+counter right counter is the object so
+
+200
+00:09:38,399 --> 00:09:42,240
+counter let's say C equals copy dot d
+
+201
+00:09:41,220 --> 00:09:45,600
+copy
+
+202
+00:09:42,240 --> 00:09:48,060
+copy this is a package deep copy what's
+
+203
+00:09:45,600 --> 00:09:50,220
+the difference between deep copy and
+
+204
+00:09:48,060 --> 00:09:51,959
+Cheryl coffee
+
+205
+00:09:50,220 --> 00:09:54,540
+deep copies
+
+206
+00:09:51,959 --> 00:09:57,980
+what kind of deep is it I I think you
+
+207
+00:09:54,540 --> 00:09:57,980
+call it something like aliens
+
+208
+00:09:59,160 --> 00:10:06,720
+did copy what's the tip is clone okay a
+
+209
+00:10:02,640 --> 00:10:09,360
+equals one two three okay if I said P
+
+210
+00:10:06,720 --> 00:10:12,240
+equals a this is not deep copy because
+
+211
+00:10:09,360 --> 00:10:15,480
+if I said P zero I want to change it to
+
+212
+00:10:12,240 --> 00:10:17,459
+four so what happened here B will be
+
+213
+00:10:15,480 --> 00:10:20,339
+equal the first element to four right
+
+214
+00:10:17,459 --> 00:10:23,100
+four two three a is also changes to four
+
+215
+00:10:20,339 --> 00:10:26,240
+to three because b equals a b is just an
+
+216
+00:10:23,100 --> 00:10:28,440
+alias pointing to the same yeah yeah
+
+217
+00:10:26,240 --> 00:10:33,180
+that's called Shadow copy this is
+
+218
+00:10:28,440 --> 00:10:37,200
+channel copy but it's p equals copy dot
+
+219
+00:10:33,180 --> 00:10:39,480
+d copy a then b and a is a separate it's
+
+220
+00:10:37,200 --> 00:10:41,760
+like everything I want to make a column
+
+221
+00:10:39,480 --> 00:10:43,459
+of Eric and another separate average is
+
+222
+00:10:41,760 --> 00:10:46,620
+here
+
+223
+00:10:43,459 --> 00:10:49,500
+yeah I touched this area it doesn't mean
+
+224
+00:10:46,620 --> 00:10:51,120
+I touch Diana Eric right this is a
+
+225
+00:10:49,500 --> 00:10:54,180
+separate coffee
+
+226
+00:10:51,120 --> 00:10:55,620
+the D copy we can also do this syntax P
+
+227
+00:10:54,180 --> 00:10:57,959
+equals a
+
+228
+00:10:55,620 --> 00:11:01,500
+and then put the
+
+229
+00:10:57,959 --> 00:11:01,500
+what's this yeah
+
+230
+00:11:03,350 --> 00:11:07,260
+[Music]
+
+231
+00:11:05,579 --> 00:11:09,420
+instead of
+
+232
+00:11:07,260 --> 00:11:12,120
+them so this is two tops yeah this is
+
+233
+00:11:09,420 --> 00:11:15,240
+least comprehension it's also means a
+
+234
+00:11:12,120 --> 00:11:17,579
+deep copy okay and we copy this and then
+
+235
+00:11:15,240 --> 00:11:20,880
+if you see I is bigger than zero right
+
+236
+00:11:17,579 --> 00:11:22,980
+if we still have enough digit of I then
+
+237
+00:11:20,880 --> 00:11:25,680
+we can make a copy and then push it back
+
+238
+00:11:22,980 --> 00:11:28,740
+to the cube Q dot append so what's the
+
+239
+00:11:25,680 --> 00:11:32,279
+next next is current digit is n minus n
+
+240
+00:11:28,740 --> 00:11:34,800
+times 10 plus I and then did copy which
+
+241
+00:11:32,279 --> 00:11:37,200
+is a c here
+
+242
+00:11:34,800 --> 00:11:39,240
+okay and then we turn we need to solve
+
+243
+00:11:37,200 --> 00:11:40,200
+it right again we need to solve the
+
+244
+00:11:39,240 --> 00:11:42,959
+answer
+
+245
+00:11:40,200 --> 00:11:45,240
+here we don't need to give it back okay
+
+246
+00:11:42,959 --> 00:11:47,700
+so if CI bigger then we copy it and then
+
+247
+00:11:45,240 --> 00:11:50,160
+we see I minus equals one right we need
+
+248
+00:11:47,700 --> 00:11:52,140
+to decrement because we're using one
+
+249
+00:11:50,160 --> 00:11:53,820
+more digit of I but we don't need to
+
+250
+00:11:52,140 --> 00:11:57,000
+give it back because we're making a deep
+
+251
+00:11:53,820 --> 00:11:59,760
+copy okay it's different than
+
+252
+00:11:57,000 --> 00:12:02,480
+deaf as such because this frequency is
+
+253
+00:11:59,760 --> 00:12:07,380
+the is kind of global
+
+254
+00:12:02,480 --> 00:12:11,760
+is is modifying this uh counter so once
+
+255
+00:12:07,380 --> 00:12:13,820
+we decrement we follow the digit I we
+
+256
+00:12:11,760 --> 00:12:17,399
+need to give it back does it make sense
+
+257
+00:12:13,820 --> 00:12:20,220
+okay here we don't because we make a big
+
+258
+00:12:17,399 --> 00:12:22,620
+copy we push it to the queue the note in
+
+259
+00:12:20,220 --> 00:12:27,180
+the queue
+
+260
+00:12:22,620 --> 00:12:28,500
+has a number and a counter so it's a
+
+261
+00:12:27,180 --> 00:12:29,940
+different counter right different
+
+262
+00:12:28,500 --> 00:12:34,019
+counter so it doesn't matter you don't
+
+263
+00:12:29,940 --> 00:12:37,260
+need to change it change it back okay so
+
+264
+00:12:34,019 --> 00:12:39,240
+by looking at this both uh approach the
+
+265
+00:12:37,260 --> 00:12:40,560
+definite search Professor you know the
+
+266
+00:12:39,240 --> 00:12:42,480
+same time complexity in this case
+
+267
+00:12:40,560 --> 00:12:44,880
+because we need to find all the three
+
+268
+00:12:42,480 --> 00:12:46,980
+digit even numbers we are actually prove
+
+269
+00:12:44,880 --> 00:12:51,980
+something using different uh travels and
+
+270
+00:12:46,980 --> 00:12:55,560
+order but that's as such space usage is
+
+271
+00:12:51,980 --> 00:12:58,380
+because professors we need to store all
+
+272
+00:12:55,560 --> 00:12:59,279
+the nodes in that field right for that
+
+273
+00:12:58,380 --> 00:13:02,700
+massage
+
+274
+00:12:59,279 --> 00:13:04,500
+we don't make sense
+
+275
+00:13:02,700 --> 00:13:06,800
+last time we talked about iterative
+
+276
+00:13:04,500 --> 00:13:06,800
+difference
+
+277
+00:13:07,339 --> 00:13:12,899
+in the space usage okay
+
+278
+00:13:10,980 --> 00:13:16,560
+about finding free
+
+279
+00:13:12,899 --> 00:13:20,160
+even three digit numbers from an array
+
+280
+00:13:16,560 --> 00:13:21,779
+I'm using deficit
+
+281
+00:13:20,160 --> 00:13:24,920
+this is deficit we are not talking about
+
+282
+00:13:21,779 --> 00:13:24,920
+differences what's it is
+
+283
+00:13:26,899 --> 00:13:32,100
+okay so this is not new today this is
+
+284
+00:13:29,579 --> 00:13:34,079
+what we talked about last time okay just
+
+285
+00:13:32,100 --> 00:13:36,000
+different ways of solving this problem
+
+286
+00:13:34,079 --> 00:13:38,120
+okay
+
+287
+00:13:36,000 --> 00:13:38,120
+um
+
+288
+00:13:38,779 --> 00:13:43,339
+the three digit uh
+
+289
+00:13:45,180 --> 00:13:47,180
+um
+
+290
+00:13:52,100 --> 00:13:58,500
+so we don't have to borrow it because in
+
+291
+00:13:55,860 --> 00:14:01,139
+something like yeah probably what
+
+292
+00:13:58,500 --> 00:14:04,440
+channel it doesn't do both kind of like
+
+293
+00:14:01,139 --> 00:14:07,380
+it's like a mirror and so like what do
+
+294
+00:14:04,440 --> 00:14:09,680
+you do to one it does two hours it's
+
+295
+00:14:07,380 --> 00:14:13,680
+kind of like a mirror
+
+296
+00:14:09,680 --> 00:14:16,800
+so so you do something to be you have to
+
+297
+00:14:13,680 --> 00:14:21,300
+do it to a that you don't want to do a
+
+298
+00:14:16,800 --> 00:14:23,639
+so so you put a back so again and so
+
+299
+00:14:21,300 --> 00:14:26,700
+that's why you think
+
+300
+00:14:23,639 --> 00:14:28,680
+okay one last question what do we store
+
+301
+00:14:26,700 --> 00:14:31,200
+in the notes of the prefer search like
+
+302
+00:14:28,680 --> 00:14:33,600
+in the queue it's a tablet so what's
+
+303
+00:14:31,200 --> 00:14:34,980
+what's zero what's counter what's this
+
+304
+00:14:33,600 --> 00:14:36,300
+what's the first number what's this
+
+305
+00:14:34,980 --> 00:14:38,579
+what's f
+
+306
+00:14:36,300 --> 00:14:41,699
+kill the problem look we're taking the
+
+307
+00:14:38,579 --> 00:14:43,880
+note from the Q so what do we store in a
+
+308
+00:14:41,699 --> 00:14:43,880
+note
+
+309
+00:14:45,779 --> 00:14:50,519
+the common number
+
+310
+00:14:48,120 --> 00:14:52,139
+n is the value is current number we
+
+311
+00:14:50,519 --> 00:14:54,260
+improved something that three digits
+
+312
+00:14:52,139 --> 00:14:58,920
+right this is calculum f is the
+
+313
+00:14:54,260 --> 00:15:01,380
+remaining digit we can put on the right
+
+314
+00:14:58,920 --> 00:15:03,720
+hand side of the current number now you
+
+315
+00:15:01,380 --> 00:15:06,300
+get it right so that's why we check if c
+
+316
+00:15:03,720 --> 00:15:08,339
+i bigger than zero we have sphere have
+
+317
+00:15:06,300 --> 00:15:11,880
+remaining digit of I then we can put it
+
+318
+00:15:08,339 --> 00:15:14,699
+on the right hand side n times 10 plus I
+
+319
+00:15:11,880 --> 00:15:19,320
+but for example if n equals 12
+
+320
+00:15:14,699 --> 00:15:21,060
+times 10 is 120 plus 3 is 1 2 3.
+
+321
+00:15:19,320 --> 00:15:23,760
+and then remaining
+
+322
+00:15:21,060 --> 00:15:25,740
+remaining digit is C we made a deep copy
+
+323
+00:15:23,760 --> 00:15:31,240
+of the current remaining digits and we
+
+324
+00:15:25,740 --> 00:15:34,690
+decrease by one okay okay that's it bye
+
+325
+00:15:31,240 --> 00:15:34,690
+[Music]
+

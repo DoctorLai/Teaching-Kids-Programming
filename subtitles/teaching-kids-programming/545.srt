@@ -1,0 +1,676 @@
+1
+00:00:04,880 --> 00:00:09,960
+so we are given a sentence a string
+
+2
+00:00:07,620 --> 00:00:12,179
+right uh separated by a white space so
+
+3
+00:00:09,960 --> 00:00:14,519
+we have a list of words right and we
+
+4
+00:00:12,179 --> 00:00:17,960
+want to find out if this is the circular
+
+5
+00:00:14,519 --> 00:00:20,760
+sentence no sentence
+
+6
+00:00:17,960 --> 00:00:22,439
+they don't have a full stop good
+
+7
+00:00:20,760 --> 00:00:23,600
+question okay how about we ignore that
+
+8
+00:00:22,439 --> 00:00:27,840
+okay
+
+9
+00:00:23,600 --> 00:00:30,660
+you can't say this this suit was this
+
+10
+00:00:27,840 --> 00:00:33,840
+okay okay dirty circular what's the
+
+11
+00:00:30,660 --> 00:00:37,620
+circular it's not cool what is the verb
+
+12
+00:00:33,840 --> 00:00:39,960
+a circle and so in this case and and
+
+13
+00:00:37,620 --> 00:00:42,239
+dirty is adjective you don't actually
+
+14
+00:00:39,960 --> 00:00:45,840
+need the adjective well you need a
+
+15
+00:00:42,239 --> 00:00:48,360
+subject and a verb subject and an object
+
+16
+00:00:45,840 --> 00:00:52,879
+okay this is not a English method okay
+
+17
+00:00:48,360 --> 00:00:52,879
+coming back to this okay what's uh
+
+18
+00:00:53,640 --> 00:00:59,219
+so look so the last letter of the first
+
+19
+00:00:57,000 --> 00:01:02,039
+word equals the
+
+20
+00:00:59,219 --> 00:01:05,600
+first letter of next word and then the
+
+21
+00:01:02,039 --> 00:01:05,600
+last letter of the last word
+
+22
+00:01:05,659 --> 00:01:14,240
+so let's just assume it's all lowercase
+
+23
+00:01:09,060 --> 00:01:17,340
+so for example another one a b b c c d e
+
+24
+00:01:14,240 --> 00:01:18,780
+f a this is the circular right because
+
+25
+00:01:17,340 --> 00:01:22,439
+look
+
+26
+00:01:18,780 --> 00:01:24,600
+this is the same this is the same uh
+
+27
+00:01:22,439 --> 00:01:27,299
+this is not okay this is the same all
+
+28
+00:01:24,600 --> 00:01:30,119
+right and then the last one right at
+
+29
+00:01:27,299 --> 00:01:32,939
+least it's not right hello
+
+30
+00:01:30,119 --> 00:01:35,400
+what this is not
+
+31
+00:01:32,939 --> 00:01:39,720
+okay and how about the finger word
+
+32
+00:01:35,400 --> 00:01:42,900
+sentence how about hello is it a is it a
+
+33
+00:01:39,720 --> 00:01:47,700
+circular sentence no no this is it it's
+
+34
+00:01:42,900 --> 00:01:50,399
+only one word yeah but h e l h this is a
+
+35
+00:01:47,700 --> 00:01:53,600
+circular but what's that word no I just
+
+36
+00:01:50,399 --> 00:01:53,600
+made it okay
+
+37
+00:01:55,320 --> 00:01:59,880
+what's a solution here
+
+38
+00:01:58,140 --> 00:02:01,439
+um we
+
+39
+00:01:59,880 --> 00:02:04,220
+um what's the solution what kind of
+
+40
+00:02:01,439 --> 00:02:04,220
+problem is this
+
+41
+00:02:07,200 --> 00:02:12,120
+because you may work here but we don't
+
+42
+00:02:09,780 --> 00:02:13,739
+need it right look we just go through
+
+43
+00:02:12,120 --> 00:02:14,940
+the water we just check all right
+
+44
+00:02:13,739 --> 00:02:17,459
+basically we just
+
+45
+00:02:14,940 --> 00:02:20,780
+yeah yeah we just checked right this is
+
+46
+00:02:17,459 --> 00:02:24,000
+simulation right it's least
+
+47
+00:02:20,780 --> 00:02:27,300
+next at the beginning of the next one I
+
+48
+00:02:24,000 --> 00:02:30,480
+will stop and we turn fast if we found
+
+49
+00:02:27,300 --> 00:02:32,640
+this match right do it split okay so the
+
+50
+00:02:30,480 --> 00:02:36,000
+first thing to this is a string to
+
+51
+00:02:32,640 --> 00:02:39,599
+together words we need to split right
+
+52
+00:02:36,000 --> 00:02:42,599
+Define if this is checked okay check
+
+53
+00:02:39,599 --> 00:02:44,819
+circulars okay check circular s array
+
+54
+00:02:42,599 --> 00:02:46,319
+first of all array equals s dot split
+
+55
+00:02:44,819 --> 00:02:49,319
+right
+
+56
+00:02:46,319 --> 00:02:52,019
+by the meter but if we don't give it a
+
+57
+00:02:49,319 --> 00:02:54,660
+delimiter it will split our y space okay
+
+58
+00:02:52,019 --> 00:02:57,620
+we can give a delimiter right here right
+
+59
+00:02:54,660 --> 00:02:57,620
+if
+
+60
+00:03:03,840 --> 00:03:07,980
+listen through okay let's make it true
+
+61
+00:03:05,819 --> 00:03:09,959
+right because the empty empty thing is
+
+62
+00:03:07,980 --> 00:03:14,700
+the circulation that's that's just that
+
+63
+00:03:09,959 --> 00:03:16,319
+assume that okay okay so now uh n equal
+
+64
+00:03:14,700 --> 00:03:18,360
+at least is the length of the walls
+
+65
+00:03:16,319 --> 00:03:23,840
+right because it was
+
+66
+00:03:18,360 --> 00:03:23,840
+four I for I in range
+
+67
+00:03:24,180 --> 00:03:28,379
+two and
+
+68
+00:03:26,040 --> 00:03:34,080
+right if
+
+69
+00:03:28,379 --> 00:03:37,200
+a r r i the one the current word last
+
+70
+00:03:34,080 --> 00:03:39,420
+letter right minus one right if it is
+
+71
+00:03:37,200 --> 00:03:41,599
+not equal the next block what's the next
+
+72
+00:03:39,420 --> 00:03:41,599
+one
+
+73
+00:03:48,920 --> 00:03:53,400
+return four
+
+74
+00:03:51,360 --> 00:03:54,780
+okay that's a slight problem here can
+
+75
+00:03:53,400 --> 00:03:57,180
+you tell me and otherwise if we're
+
+76
+00:03:54,780 --> 00:04:02,280
+passing all the Checkmate entry right
+
+77
+00:03:57,180 --> 00:04:06,019
+that's the problem because the a a b
+
+78
+00:04:02,280 --> 00:04:10,260
+C okay so for example last three words
+
+79
+00:04:06,019 --> 00:04:12,120
+index from I here to this one well I
+
+80
+00:04:10,260 --> 00:04:14,640
+plus one right this is the next one I
+
+81
+00:04:12,120 --> 00:04:17,579
+plus one there's nothing here so we want
+
+82
+00:04:14,640 --> 00:04:20,639
+to rewind it to to the beginning right
+
+83
+00:04:17,579 --> 00:04:22,440
+look when I is here
+
+84
+00:04:20,639 --> 00:04:25,380
+I plus one
+
+85
+00:04:22,440 --> 00:04:27,600
+what's I plus one yeah I the last law
+
+86
+00:04:25,380 --> 00:04:30,419
+was I plus one you should go back to the
+
+87
+00:04:27,600 --> 00:04:33,060
+first first of all right
+
+88
+00:04:30,419 --> 00:04:36,840
+otherwise array I plus one that would be
+
+89
+00:04:33,060 --> 00:04:40,800
+out of index the index ARR is only valid
+
+90
+00:04:36,840 --> 00:04:42,960
+from zero to n minus one right but but
+
+91
+00:04:40,800 --> 00:04:45,360
+you're telling me eight I plus one this
+
+92
+00:04:42,960 --> 00:04:47,100
+is out of index it should be pointing
+
+93
+00:04:45,360 --> 00:04:50,040
+back to the first row right so how do we
+
+94
+00:04:47,100 --> 00:04:51,900
+fix this sorry does it have to do that
+
+95
+00:04:50,040 --> 00:04:55,380
+yeah the last one we have to check the
+
+96
+00:04:51,900 --> 00:04:57,780
+password if it matches if
+
+97
+00:04:55,380 --> 00:05:00,060
+so how do we do this how do we wind it
+
+98
+00:04:57,780 --> 00:05:03,300
+remember we need to use if
+
+99
+00:05:00,060 --> 00:05:06,000
+we can do it but we can do better
+
+100
+00:05:03,300 --> 00:05:08,699
+um all right we can do you know this
+
+101
+00:05:06,000 --> 00:05:10,040
+remember we how do we calculate what's
+
+102
+00:05:08,699 --> 00:05:13,860
+this
+
+103
+00:05:10,040 --> 00:05:16,199
+modules yes and modulus and it becomes
+
+104
+00:05:13,860 --> 00:05:19,860
+zero right all right so we just have to
+
+105
+00:05:16,199 --> 00:05:21,419
+model us here modules and like and then
+
+106
+00:05:19,860 --> 00:05:24,300
+you make it back to the first one
+
+107
+00:05:21,419 --> 00:05:26,660
+another way is how do we fix it another
+
+108
+00:05:24,300 --> 00:05:26,660
+way
+
+109
+00:05:27,840 --> 00:05:34,020
+how about I push a here
+
+110
+00:05:31,620 --> 00:05:37,740
+okay and then we just keep looping the
+
+111
+00:05:34,020 --> 00:05:40,979
+index at the beginning I put that extra
+
+112
+00:05:37,740 --> 00:05:44,160
+I copy the extra the first element
+
+113
+00:05:40,979 --> 00:05:46,979
+back to the other way right am I
+
+114
+00:05:44,160 --> 00:05:49,440
+make sense okay so these three lines
+
+115
+00:05:46,979 --> 00:05:53,759
+like look what's this kind of pattern
+
+116
+00:05:49,440 --> 00:05:56,160
+okay we are checking the violation here
+
+117
+00:05:53,759 --> 00:05:58,680
+right if we find a mismatch we do 10
+
+118
+00:05:56,160 --> 00:06:00,720
+fast am I right yeah
+
+119
+00:05:58,680 --> 00:06:04,080
+does it make sense if we don't find any
+
+120
+00:06:00,720 --> 00:06:07,680
+violation we return true make sense we
+
+121
+00:06:04,080 --> 00:06:09,800
+can use the all keyword right return or
+
+122
+00:06:07,680 --> 00:06:12,840
+or
+
+123
+00:06:09,800 --> 00:06:15,120
+means everything here needs to be need
+
+124
+00:06:12,840 --> 00:06:16,620
+to be there two need to be true any
+
+125
+00:06:15,120 --> 00:06:18,479
+what's the difference between all and
+
+126
+00:06:16,620 --> 00:06:21,360
+any kinectomy
+
+127
+00:06:18,479 --> 00:06:23,600
+any of them but all
+
+128
+00:06:21,360 --> 00:06:27,539
+so anyway
+
+129
+00:06:23,600 --> 00:06:29,520
+it can be at least one and all it has to
+
+130
+00:06:27,539 --> 00:06:30,900
+be everything that's right yes so return
+
+131
+00:06:29,520 --> 00:06:36,300
+or
+
+132
+00:06:30,900 --> 00:06:38,880
+this thing and all this thing here four
+
+133
+00:06:36,300 --> 00:06:42,360
+comes here right right so we can say
+
+134
+00:06:38,880 --> 00:06:45,240
+return or ar I minus one this is the
+
+135
+00:06:42,360 --> 00:06:48,840
+last letter of the world but we have to
+
+136
+00:06:45,240 --> 00:06:49,680
+neglect oh this is the opposite it needs
+
+137
+00:06:48,840 --> 00:06:54,360
+to be
+
+138
+00:06:49,680 --> 00:06:57,660
+equal or everything needs to be equal
+
+139
+00:06:54,360 --> 00:06:59,400
+for I in range n right because look this
+
+140
+00:06:57,660 --> 00:07:02,580
+is checking the violation but obviously
+
+141
+00:06:59,400 --> 00:07:05,220
+we have to check the operative which is
+
+142
+00:07:02,580 --> 00:07:08,819
+that each wall connects to the next word
+
+143
+00:07:05,220 --> 00:07:10,080
+okay return any this is just checking if
+
+144
+00:07:08,819 --> 00:07:12,000
+any of them
+
+145
+00:07:10,080 --> 00:07:15,680
+satisfy everything okay the Time come
+
+146
+00:07:12,000 --> 00:07:19,319
+back stay if there are n-words
+
+147
+00:07:15,680 --> 00:07:22,280
+and each word has the length a what's
+
+148
+00:07:19,319 --> 00:07:22,280
+the type of next thing
+
+149
+00:07:24,020 --> 00:07:33,259
+times eight okay I have three Choice o n
+
+150
+00:07:28,319 --> 00:07:33,259
+o a no o and a okay
+
+151
+00:07:34,280 --> 00:07:38,280
+this is a simple question so what have
+
+152
+00:07:37,020 --> 00:07:40,680
+you learned today what's the most
+
+153
+00:07:38,280 --> 00:07:43,440
+important takeaway the sentence and we
+
+154
+00:07:40,680 --> 00:07:46,080
+use split to split the sentence string
+
+155
+00:07:43,440 --> 00:07:48,539
+into a list of words and now we just
+
+156
+00:07:46,080 --> 00:07:50,940
+have to go through n times and we are
+
+157
+00:07:48,539 --> 00:07:54,000
+suppose they are inwards and then check
+
+158
+00:07:50,940 --> 00:07:56,580
+for the violation if the coverage was
+
+159
+00:07:54,000 --> 00:07:58,620
+the last letter minus one is if it's not
+
+160
+00:07:56,580 --> 00:08:00,960
+equals to the beginning of the next row
+
+161
+00:07:58,620 --> 00:08:02,580
+I plus one then we return first
+
+162
+00:08:00,960 --> 00:08:04,759
+otherwise we'll retention and then the
+
+163
+00:08:02,580 --> 00:08:07,620
+place of paper is that the last word
+
+164
+00:08:04,759 --> 00:08:09,720
+last one is to chip be checked against
+
+165
+00:08:07,620 --> 00:08:13,560
+the first row and we can use the modulus
+
+166
+00:08:09,720 --> 00:08:15,910
+MRI erase yes yes yes okay let's see for
+
+167
+00:08:13,560 --> 00:08:17,280
+the day bye-bye
+
+168
+00:08:15,910 --> 00:08:19,880
+[Music]
+
+169
+00:08:17,280 --> 00:08:19,880
+foreign
+

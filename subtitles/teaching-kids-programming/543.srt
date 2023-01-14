@@ -1,0 +1,1324 @@
+1
+00:00:00,060 --> 00:00:05,580
+hello Mr Mr Ryan all right
+
+2
+00:00:02,940 --> 00:00:09,080
+that's a few lessons we talk about the
+
+3
+00:00:05,580 --> 00:00:09,080
+maze program right amazed
+
+4
+00:00:10,679 --> 00:00:15,240
+so basically we want to find out the
+
+5
+00:00:12,719 --> 00:00:17,520
+nearest exit to the engine in the Maze
+
+6
+00:00:15,240 --> 00:00:19,619
+okay and the entrance could be anywhere
+
+7
+00:00:17,520 --> 00:00:21,960
+actually it doesn't actually have to be
+
+8
+00:00:19,619 --> 00:00:24,779
+on the border but let's to simplify the
+
+9
+00:00:21,960 --> 00:00:28,320
+engine is the empty cell On the Border
+
+10
+00:00:24,779 --> 00:00:31,019
+and the axes are empty cells on the
+
+11
+00:00:28,320 --> 00:00:32,520
+border right the empty sets for example
+
+12
+00:00:31,019 --> 00:00:35,640
+these two okay
+
+13
+00:00:32,520 --> 00:00:37,800
+so obviously the entrance is not the
+
+14
+00:00:35,640 --> 00:00:40,020
+exit if we put the people here little
+
+15
+00:00:37,800 --> 00:00:42,120
+people here and we can't go back to
+
+16
+00:00:40,020 --> 00:00:44,760
+where the the same engine right it's not
+
+17
+00:00:42,120 --> 00:00:46,140
+counted as an exit we talk about the
+
+18
+00:00:44,760 --> 00:00:48,000
+first massage
+
+19
+00:00:46,140 --> 00:00:51,780
+and we'll talk about the deficit search
+
+20
+00:00:48,000 --> 00:00:54,360
+right so these two are the popular past
+
+21
+00:00:51,780 --> 00:00:56,100
+finding algorithm in the in a graph we
+
+22
+00:00:54,360 --> 00:00:59,039
+want to find out the shortest path in
+
+23
+00:00:56,100 --> 00:01:02,100
+this unweighted graph the anointed
+
+24
+00:00:59,039 --> 00:01:04,799
+because each step right so if we are
+
+25
+00:01:02,100 --> 00:01:07,740
+here so we have four directions to go
+
+26
+00:01:04,799 --> 00:01:10,260
+and each time we move one position it
+
+27
+00:01:07,740 --> 00:01:12,780
+costs one step this is animated okay
+
+28
+00:01:10,260 --> 00:01:14,700
+yeah it has to be animated because if
+
+29
+00:01:12,780 --> 00:01:17,760
+it's a weighted then
+
+30
+00:01:14,700 --> 00:01:20,159
+Massachusetts is not working right it
+
+31
+00:01:17,760 --> 00:01:22,920
+has to be animated so perfect search
+
+32
+00:01:20,159 --> 00:01:25,380
+level by level we use the DQ level by
+
+33
+00:01:22,920 --> 00:01:28,439
+level these are perfect search argument
+
+34
+00:01:25,380 --> 00:01:31,740
+guarantees that as soon as we find the
+
+35
+00:01:28,439 --> 00:01:34,080
+exit is the shortest right so for
+
+36
+00:01:31,740 --> 00:01:36,119
+example like in this graph it could be
+
+37
+00:01:34,080 --> 00:01:38,040
+two axis right it could be one actually
+
+38
+00:01:36,119 --> 00:01:40,860
+here one that says here but if we
+
+39
+00:01:38,040 --> 00:01:44,640
+perform the processors level by level
+
+40
+00:01:40,860 --> 00:01:45,960
+this axis is the shortest but not the
+
+41
+00:01:44,640 --> 00:01:47,820
+deficit
+
+42
+00:01:45,960 --> 00:01:51,360
+Dash we perform the default search
+
+43
+00:01:47,820 --> 00:01:53,159
+because as deep as we can and then the
+
+44
+00:01:51,360 --> 00:01:55,500
+first action we find is this one this
+
+45
+00:01:53,159 --> 00:01:58,140
+one is clearly not the ultimate the
+
+46
+00:01:55,500 --> 00:01:59,820
+ultimate is this one right okay but we
+
+47
+00:01:58,140 --> 00:02:01,979
+can apply the deficits to find the
+
+48
+00:01:59,820 --> 00:02:04,259
+shortest class if we explore all the
+
+49
+00:02:01,979 --> 00:02:06,180
+paths right if we just pull Force the
+
+50
+00:02:04,259 --> 00:02:09,360
+graph and then we know they have to
+
+51
+00:02:06,180 --> 00:02:12,120
+access and obviously we know this one is
+
+52
+00:02:09,360 --> 00:02:15,420
+the shortest it's the ultimate buffer
+
+53
+00:02:12,120 --> 00:02:18,599
+search Q DQ first in first sound will
+
+54
+00:02:15,420 --> 00:02:19,739
+push the note into the queue and then we
+
+55
+00:02:18,599 --> 00:02:21,480
+take it out from the left hand side
+
+56
+00:02:19,739 --> 00:02:23,760
+let's pop left
+
+57
+00:02:21,480 --> 00:02:26,459
+and I will push its next step back to
+
+58
+00:02:23,760 --> 00:02:28,879
+the queue this is in queue when we push
+
+59
+00:02:26,459 --> 00:02:31,620
+the kids back to the queue we have to
+
+60
+00:02:28,879 --> 00:02:33,599
+make sure this note is not visited
+
+61
+00:02:31,620 --> 00:02:36,660
+before so we use the headset or
+
+62
+00:02:33,599 --> 00:02:39,959
+alternatively we can mark the visitors
+
+63
+00:02:36,660 --> 00:02:43,379
+say walls right okay so look because
+
+64
+00:02:39,959 --> 00:02:46,680
+each cell we can only visit it once
+
+65
+00:02:43,379 --> 00:02:48,840
+so as long as we put it into the queue
+
+66
+00:02:46,680 --> 00:02:51,060
+we can mark it as a wall right so it's
+
+67
+00:02:48,840 --> 00:02:53,040
+not pick up again and for that massage
+
+68
+00:02:51,060 --> 00:02:55,800
+the same thing okay but for def research
+
+69
+00:02:53,040 --> 00:02:57,660
+we have to mark and unmark and we talk
+
+70
+00:02:55,800 --> 00:03:00,800
+about this problem right look if this is
+
+71
+00:02:57,660 --> 00:03:04,319
+exit this here is exit
+
+72
+00:03:00,800 --> 00:03:07,140
+so the deficit it could be somewhere
+
+73
+00:03:04,319 --> 00:03:10,260
+here right here right we found the path
+
+74
+00:03:07,140 --> 00:03:12,659
+but this is not Optima this is Optimum
+
+75
+00:03:10,260 --> 00:03:13,739
+right but if we're not unmarking this
+
+76
+00:03:12,659 --> 00:03:16,140
+picture
+
+77
+00:03:13,739 --> 00:03:18,620
+so this picture is taken so obviously
+
+78
+00:03:16,140 --> 00:03:20,760
+you can go through these parts again
+
+79
+00:03:18,620 --> 00:03:23,280
+yeah and that's why I was going to leave
+
+80
+00:03:20,760 --> 00:03:25,080
+the first search we have to unmark it a
+
+81
+00:03:23,280 --> 00:03:26,640
+market Mark and a market and we use the
+
+82
+00:03:25,080 --> 00:03:29,940
+recursion right we talk about that last
+
+83
+00:03:26,640 --> 00:03:31,500
+lesson right okay so Ryan you said this
+
+84
+00:03:29,940 --> 00:03:33,860
+lesson we're going to talk about what
+
+85
+00:03:31,500 --> 00:03:36,440
+kind of addresses
+
+86
+00:03:33,860 --> 00:03:39,900
+different search okay iterated
+
+87
+00:03:36,440 --> 00:03:42,420
+dependencies it's simple but to do this
+
+88
+00:03:39,900 --> 00:03:45,120
+iterative differences we have to find
+
+89
+00:03:42,420 --> 00:03:47,580
+out how do we do this test
+
+90
+00:03:45,120 --> 00:03:50,099
+let me search
+
+91
+00:03:47,580 --> 00:03:52,560
+okay let me search what steps limited
+
+92
+00:03:50,099 --> 00:03:56,159
+it's actually that first search
+
+93
+00:03:52,560 --> 00:03:59,819
+but with the limit right with the limit
+
+94
+00:03:56,159 --> 00:04:04,140
+PFS so FD research is actually that
+
+95
+00:03:59,819 --> 00:04:06,659
+first search plus limit which limit okay
+
+96
+00:04:04,140 --> 00:04:08,519
+look at this uh tree we're gonna find
+
+97
+00:04:06,659 --> 00:04:11,879
+the tree or it doesn't have to be
+
+98
+00:04:08,519 --> 00:04:14,159
+managed actually it's a coach tree right
+
+99
+00:04:11,879 --> 00:04:17,160
+what's called
+
+100
+00:04:14,159 --> 00:04:19,859
+q u a d means four right what is it for
+
+101
+00:04:17,160 --> 00:04:22,199
+each cell a mouse has four kids right
+
+102
+00:04:19,859 --> 00:04:24,720
+you can move to the neighboring for kids
+
+103
+00:04:22,199 --> 00:04:27,620
+so it could be four four feet is this
+
+104
+00:04:24,720 --> 00:04:27,620
+means for in English
+
+105
+00:04:44,000 --> 00:04:50,639
+so this is not the axis we stop
+
+106
+00:04:47,580 --> 00:04:52,860
+we increment the limit to one
+
+107
+00:04:50,639 --> 00:04:54,780
+okay so when we increment the limit to
+
+108
+00:04:52,860 --> 00:04:57,360
+one so basically we're seeing this
+
+109
+00:04:54,780 --> 00:05:00,000
+simplified code tree so we perform a
+
+110
+00:04:57,360 --> 00:05:02,820
+double search we don't fight it we
+
+111
+00:05:00,000 --> 00:05:05,220
+increment the limit okay so we perform a
+
+112
+00:05:02,820 --> 00:05:08,300
+deficit look and I found the exit right
+
+113
+00:05:05,220 --> 00:05:08,300
+and then this is the settings
+
+114
+00:05:08,699 --> 00:05:13,500
+good question well that means that this
+
+115
+00:05:11,340 --> 00:05:15,360
+is the exit secret what are sequence to
+
+116
+00:05:13,500 --> 00:05:17,360
+finding this exit the iterative
+
+117
+00:05:15,360 --> 00:05:20,759
+difference
+
+118
+00:05:17,360 --> 00:05:24,919
+has been on some black men and red and
+
+119
+00:05:20,759 --> 00:05:24,919
+red mixed with the black okay
+
+120
+00:05:25,199 --> 00:05:28,800
+let's do the prefer search professors
+
+121
+00:05:27,479 --> 00:05:31,699
+order
+
+122
+00:05:28,800 --> 00:05:31,699
+easy one
+
+123
+00:05:32,280 --> 00:05:37,560
+okay we found it this is the shortest
+
+124
+00:05:35,039 --> 00:05:40,560
+okay what's the type of search on it
+
+125
+00:05:37,560 --> 00:05:40,560
+right
+
+126
+00:05:56,300 --> 00:06:00,180
+okay we find this this is not the
+
+127
+00:05:58,740 --> 00:06:02,220
+optimum right so we need to continue
+
+128
+00:06:00,180 --> 00:06:03,960
+three seven tenants
+
+129
+00:06:02,220 --> 00:06:05,639
+okay and then we'll find this and this
+
+130
+00:06:03,960 --> 00:06:08,280
+is uh okay what's the iterating
+
+131
+00:06:05,639 --> 00:06:11,580
+difference we set the tabs to zero
+
+132
+00:06:08,280 --> 00:06:13,259
+what's the order now one right yeah this
+
+133
+00:06:11,580 --> 00:06:15,120
+is the limit basically I want to say
+
+134
+00:06:13,259 --> 00:06:17,639
+that to Yellow it means that we only see
+
+135
+00:06:15,120 --> 00:06:20,900
+these three we only see these three okay
+
+136
+00:06:17,639 --> 00:06:20,900
+this is one okay
+
+137
+00:06:22,260 --> 00:06:30,259
+[Laughter]
+
+138
+00:06:25,940 --> 00:06:30,259
+so what do we see yeah
+
+139
+00:06:32,660 --> 00:06:37,500
+we increment
+
+140
+00:06:34,979 --> 00:06:39,780
+okay what's the temperature one two four
+
+141
+00:06:37,500 --> 00:06:42,300
+two four five six three seven eight
+
+142
+00:06:39,780 --> 00:06:44,419
+sorry okay we found it yeah at the
+
+143
+00:06:42,300 --> 00:06:44,419
+beginning
+
+144
+00:06:46,440 --> 00:06:52,919
+so the maximum D given is maze this is
+
+145
+00:06:49,860 --> 00:06:55,139
+the columns C and this is r
+
+146
+00:06:52,919 --> 00:06:57,960
+can you imagine what's the longest
+
+147
+00:06:55,139 --> 00:07:02,210
+what's in Siri what's the longest uh
+
+148
+00:06:57,960 --> 00:07:05,260
+path for entering to the exit
+
+149
+00:07:02,210 --> 00:07:05,260
+[Music]
+
+150
+00:07:06,020 --> 00:07:11,400
+what's the longest you can imagine
+
+151
+00:07:10,080 --> 00:07:14,160
+the longest I'm not talking about
+
+152
+00:07:11,400 --> 00:07:16,280
+shortage longest so in what cases you
+
+153
+00:07:14,160 --> 00:07:20,039
+can get a long distance
+
+154
+00:07:16,280 --> 00:07:22,280
+you never go to the exit or place an
+
+155
+00:07:20,039 --> 00:07:26,160
+axis what's the axis
+
+156
+00:07:22,280 --> 00:07:28,740
+look yeah no you can't Loop that's
+
+157
+00:07:26,160 --> 00:07:30,539
+actually a very good point okay if we
+
+158
+00:07:28,740 --> 00:07:33,120
+can move but there is no longest right
+
+159
+00:07:30,539 --> 00:07:36,900
+you can just go round and round okay how
+
+160
+00:07:33,120 --> 00:07:39,300
+about you can Loop a myth a very long
+
+161
+00:07:36,900 --> 00:07:41,639
+way from top left to bottom left that's
+
+162
+00:07:39,300 --> 00:07:43,080
+right yeah the entrance is here right
+
+163
+00:07:41,639 --> 00:07:44,520
+the exit will be here you could be back
+
+164
+00:07:43,080 --> 00:07:45,680
+there right
+
+165
+00:07:44,520 --> 00:07:48,599
+um
+
+166
+00:07:45,680 --> 00:07:51,060
+okay this is long exactly so that's our
+
+167
+00:07:48,599 --> 00:07:55,680
+time to see right I can't see you Siri
+
+168
+00:07:51,060 --> 00:07:57,840
+right in series okay so why are T is
+
+169
+00:07:55,680 --> 00:07:59,699
+smaller than because we start with zero
+
+170
+00:07:57,840 --> 00:08:02,160
+it's smaller than three right like if we
+
+171
+00:07:59,699 --> 00:08:06,300
+perform this step we may search with the
+
+172
+00:08:02,160 --> 00:08:09,120
+currency and an entry yeah the entrance
+
+173
+00:08:06,300 --> 00:08:11,940
+and then obviously we need to have a
+
+174
+00:08:09,120 --> 00:08:14,160
+headset or marking the position visit
+
+175
+00:08:11,940 --> 00:08:16,199
+the position walls and I Market okay
+
+176
+00:08:14,160 --> 00:08:19,440
+let's use the headset first scene table
+
+177
+00:08:16,199 --> 00:08:23,340
+so we put a set headset a notebook right
+
+178
+00:08:19,440 --> 00:08:25,620
+if we find it let me turn T right
+
+179
+00:08:23,340 --> 00:08:28,020
+okay so one question can you tell me why
+
+180
+00:08:25,620 --> 00:08:30,660
+if we find that node and it guarantees
+
+181
+00:08:28,020 --> 00:08:33,180
+the circus so how to use true it's a
+
+182
+00:08:30,660 --> 00:08:35,760
+shortage if we I just visually look at
+
+183
+00:08:33,180 --> 00:08:37,740
+it yeah I know I mean the definitely
+
+184
+00:08:35,760 --> 00:08:40,740
+message while we do this iterative
+
+185
+00:08:37,740 --> 00:08:41,599
+differences you know because it's
+
+186
+00:08:40,740 --> 00:08:44,880
+because
+
+187
+00:08:41,599 --> 00:08:48,300
+you can go like level by level you're
+
+188
+00:08:44,880 --> 00:08:51,300
+basically yeah it basically like
+
+189
+00:08:48,300 --> 00:08:51,300
+foreign
+
+190
+00:09:10,940 --> 00:09:16,680
+that's the difference right we find
+
+191
+00:09:13,680 --> 00:09:19,620
+definitely research D the entering right
+
+192
+00:09:16,680 --> 00:09:24,180
+the current position okay position
+
+193
+00:09:19,620 --> 00:09:27,420
+and scene table if if the partition is
+
+194
+00:09:24,180 --> 00:09:30,959
+exit is Exit okay I'm writing this and
+
+195
+00:09:27,420 --> 00:09:33,060
+also position is not entering
+
+196
+00:09:30,959 --> 00:09:36,660
+then we find it right we finally exit
+
+197
+00:09:33,060 --> 00:09:38,940
+then we turn two okay and then if this
+
+198
+00:09:36,660 --> 00:09:41,580
+position already seen before return
+
+199
+00:09:38,940 --> 00:09:44,100
+false we don't go back otherwise the
+
+200
+00:09:41,580 --> 00:09:46,140
+first thing is to put it in a notebook
+
+201
+00:09:44,100 --> 00:09:49,760
+right and then we have to check look if
+
+202
+00:09:46,140 --> 00:09:49,760
+T is smaller than zero
+
+203
+00:09:54,200 --> 00:10:00,720
+and otherwise you know what to do right
+
+204
+00:09:56,580 --> 00:10:02,580
+for a drbc in four direction right in
+
+205
+00:10:00,720 --> 00:10:05,940
+four Direction indones in four Direction
+
+206
+00:10:02,580 --> 00:10:07,019
+one zero zero one one uh one zero zero
+
+207
+00:10:05,940 --> 00:10:09,540
+one
+
+208
+00:10:07,019 --> 00:10:12,660
+this is the direction of set okay fourth
+
+209
+00:10:09,540 --> 00:10:16,860
+Direction zero minus one minus one zero
+
+210
+00:10:12,660 --> 00:10:19,920
+and then n r and C equals the d r plus r
+
+211
+00:10:16,860 --> 00:10:22,380
+d c plus c okay RC is actually from
+
+212
+00:10:19,920 --> 00:10:26,220
+partition R C equals position okay
+
+213
+00:10:22,380 --> 00:10:28,500
+and then if we need to check n r is uh
+
+214
+00:10:26,220 --> 00:10:31,019
+is within the range
+
+215
+00:10:28,500 --> 00:10:35,760
+and
+
+216
+00:10:31,019 --> 00:10:38,880
+NC is also with the range and also
+
+217
+00:10:35,760 --> 00:10:40,800
+if the Maze and I and C it's not a word
+
+218
+00:10:38,880 --> 00:10:42,959
+right it's not what we don't go to the
+
+219
+00:10:40,800 --> 00:10:44,760
+wall right if it's a wall we don't go in
+
+220
+00:10:42,959 --> 00:10:47,180
+there there's no point we can't pass
+
+221
+00:10:44,760 --> 00:10:49,500
+through the wall if that's B Mister
+
+222
+00:10:47,180 --> 00:10:51,959
+that's the question this is basically a
+
+223
+00:10:49,500 --> 00:10:54,120
+recession which is the T minus one right
+
+224
+00:10:51,959 --> 00:10:56,700
+with the T minus one that's the search
+
+225
+00:10:54,120 --> 00:10:59,160
+this T is incrementing and I definitely
+
+226
+00:10:56,700 --> 00:11:00,779
+message we can do it uh opposite which
+
+227
+00:10:59,160 --> 00:11:02,160
+is incrementing we decrement the
+
+228
+00:11:00,779 --> 00:11:04,740
+positivity
+
+229
+00:11:02,160 --> 00:11:07,320
+because here is passing the positive D
+
+230
+00:11:04,740 --> 00:11:09,899
+we decrement The anti-e Falls below zero
+
+231
+00:11:07,320 --> 00:11:13,560
+or below or equals zero okay and then we
+
+232
+00:11:09,899 --> 00:11:16,440
+turn through y the position nine T the
+
+233
+00:11:13,560 --> 00:11:19,140
+scene table and then return four okay so
+
+234
+00:11:16,440 --> 00:11:22,320
+look here we add it so we have to unmark
+
+235
+00:11:19,140 --> 00:11:24,000
+it remove right remove our RC okay look
+
+236
+00:11:22,320 --> 00:11:26,040
+at this is pretty much like the deficit
+
+237
+00:11:24,000 --> 00:11:29,040
+the only difference
+
+238
+00:11:26,040 --> 00:11:30,120
+the only difference is one look uh this
+
+239
+00:11:29,040 --> 00:11:31,920
+this one
+
+240
+00:11:30,120 --> 00:11:34,019
+what's this
+
+241
+00:11:31,920 --> 00:11:35,820
+if T is smaller or equal than zero
+
+242
+00:11:34,019 --> 00:11:38,399
+written first what's what's this mean
+
+243
+00:11:35,820 --> 00:11:41,180
+why are we adding this Criterion one
+
+244
+00:11:38,399 --> 00:11:41,180
+question because it's
+
+245
+00:11:42,240 --> 00:11:47,640
+like yeah basically we perform a
+
+246
+00:11:45,060 --> 00:11:50,399
+definitely massage yeah if we set the
+
+247
+00:11:47,640 --> 00:11:53,100
+limit to here then we don't go to the
+
+248
+00:11:50,399 --> 00:11:56,040
+deeper one we leave it to the Future
+
+249
+00:11:53,100 --> 00:11:58,620
+right this is what it means yeah all the
+
+250
+00:11:56,040 --> 00:12:00,720
+rest similar to deficit okay so this
+
+251
+00:11:58,620 --> 00:12:03,420
+actually guarantees the shot is passed
+
+252
+00:12:00,720 --> 00:12:05,640
+right and then it's more efficient than
+
+253
+00:12:03,420 --> 00:12:08,640
+deficit obviously but it's not as
+
+254
+00:12:05,640 --> 00:12:10,800
+efficient as professors right but why do
+
+255
+00:12:08,640 --> 00:12:13,920
+we need this uh iterated differences
+
+256
+00:12:10,800 --> 00:12:15,720
+that first search right this is not a
+
+257
+00:12:13,920 --> 00:12:18,200
+good player here right this is not
+
+258
+00:12:15,720 --> 00:12:18,200
+Optimum
+
+259
+00:12:24,260 --> 00:12:28,560
+why do we need to use the iterative
+
+260
+00:12:26,820 --> 00:12:30,480
+differences and why do we need to use
+
+261
+00:12:28,560 --> 00:12:32,279
+preferences in some cases
+
+262
+00:12:30,480 --> 00:12:35,519
+Okay so
+
+263
+00:12:32,279 --> 00:12:37,860
+these two first okay but first search
+
+264
+00:12:35,519 --> 00:12:40,860
+because we have a queue right we have a
+
+265
+00:12:37,860 --> 00:12:44,279
+Q we have a Q
+
+266
+00:12:40,860 --> 00:12:46,560
+so this has this larger space use right
+
+267
+00:12:44,279 --> 00:12:50,040
+the iterative differences is basically
+
+268
+00:12:46,560 --> 00:12:52,500
+you know recursion so it has a oh look
+
+269
+00:12:50,040 --> 00:12:55,740
+when you set the harmony to T right it
+
+270
+00:12:52,500 --> 00:12:58,860
+has an OD space using right because look
+
+271
+00:12:55,740 --> 00:13:02,480
+the only store current pass which is
+
+272
+00:12:58,860 --> 00:13:02,480
+three now right yeah
+
+273
+00:13:04,160 --> 00:13:10,860
+if this is this you only install the
+
+274
+00:13:08,220 --> 00:13:14,220
+path the space uses you only store this
+
+275
+00:13:10,860 --> 00:13:17,220
+past right but from The Breakfast search
+
+276
+00:13:14,220 --> 00:13:18,959
+for search you need to store all the
+
+277
+00:13:17,220 --> 00:13:21,779
+nodes in the current level which could
+
+278
+00:13:18,959 --> 00:13:24,000
+be very big so the space uses in terms
+
+279
+00:13:21,779 --> 00:13:27,000
+of space uses this is efficient and
+
+280
+00:13:24,000 --> 00:13:29,700
+processor iterative research is also has
+
+281
+00:13:27,000 --> 00:13:31,139
+the same space uses in the deficitors
+
+282
+00:13:29,700 --> 00:13:33,240
+yeah that's such
+
+283
+00:13:31,139 --> 00:13:36,560
+okay so okay so what have you learned
+
+284
+00:13:33,240 --> 00:13:39,480
+today about may I do need to resin
+
+285
+00:13:36,560 --> 00:13:42,180
+iterated deepening step
+
+286
+00:13:39,480 --> 00:13:46,680
+okay so I mean more details please
+
+287
+00:13:42,180 --> 00:13:49,220
+whatever you go first okay so I'll do my
+
+288
+00:13:46,680 --> 00:13:53,220
+integrated 15 minutes
+
+289
+00:13:49,220 --> 00:13:56,220
+yeah and it's basically for the search
+
+290
+00:13:53,220 --> 00:13:59,700
+and you have a limit for your depth and
+
+291
+00:13:56,220 --> 00:14:02,040
+then you search for the exit and then if
+
+292
+00:13:59,700 --> 00:14:03,240
+there's another x that you increase your
+
+293
+00:14:02,040 --> 00:14:07,320
+limit
+
+294
+00:14:03,240 --> 00:14:10,860
+one step further and then and on and
+
+295
+00:14:07,320 --> 00:14:14,700
+then so on until you get you get finally
+
+296
+00:14:10,860 --> 00:14:15,600
+exit and which is the cutest exit and
+
+297
+00:14:14,700 --> 00:14:17,220
+also
+
+298
+00:14:15,600 --> 00:14:18,180
+I learned
+
+299
+00:14:17,220 --> 00:14:21,720
+um
+
+300
+00:14:18,180 --> 00:14:27,060
+it's written they didn't remember even
+
+301
+00:14:21,720 --> 00:14:30,720
+more like it's not it's more like use it
+
+302
+00:14:27,060 --> 00:14:35,720
+it has less use of space than both
+
+303
+00:14:30,720 --> 00:14:39,660
+search as as if Jesse perfect
+
+304
+00:14:35,720 --> 00:14:43,019
+really touch just chalk super nurse in
+
+305
+00:14:39,660 --> 00:14:44,940
+the queue and well iterating different
+
+306
+00:14:43,019 --> 00:14:47,100
+definitely search
+
+307
+00:14:44,940 --> 00:14:50,880
+just only
+
+308
+00:14:47,100 --> 00:14:53,160
+uses like the only like one light bar
+
+309
+00:14:50,880 --> 00:14:54,920
+yeah yeah we're done good job good job
+
+310
+00:14:53,160 --> 00:14:58,019
+okay
+
+311
+00:14:54,920 --> 00:15:00,779
+finding the nearest exit to the engine
+
+312
+00:14:58,019 --> 00:15:02,180
+in the Maze we have so far cover three
+
+313
+00:15:00,779 --> 00:15:05,279
+aggro that's
+
+314
+00:15:02,180 --> 00:15:07,500
+iterated differences okay so these three
+
+315
+00:15:05,279 --> 00:15:09,420
+are the parts find in a in a graph right
+
+316
+00:15:07,500 --> 00:15:11,880
+basically we can visualize it in the
+
+317
+00:15:09,420 --> 00:15:15,060
+graph find the tree you know try three
+
+318
+00:15:11,880 --> 00:15:17,519
+quarter tree a graph and directed graph
+
+319
+00:15:15,060 --> 00:15:20,160
+waiting I'm waiting graph it has to be
+
+320
+00:15:17,519 --> 00:15:22,680
+unweighted okay because if it's weighted
+
+321
+00:15:20,160 --> 00:15:24,959
+then we can apply the professor we have
+
+322
+00:15:22,680 --> 00:15:27,440
+to use the decade straw remember we
+
+323
+00:15:24,959 --> 00:15:31,019
+talked about the shortest part decostra
+
+324
+00:15:27,440 --> 00:15:32,420
+yeah yeah for your washer yeah the
+
+325
+00:15:31,019 --> 00:15:36,860
+Castro
+
+326
+00:15:32,420 --> 00:15:36,860
+b-i-k J D Construction
+
+327
+00:15:39,420 --> 00:15:43,500
+okay
+
+328
+00:15:40,320 --> 00:15:46,880
+a uniform causes yeah we cover that in
+
+329
+00:15:43,500 --> 00:15:50,459
+about 100 day 200 days of the Unison
+
+330
+00:15:46,880 --> 00:15:53,459
+yeah okay that's it for today bye
+
+331
+00:15:50,459 --> 00:15:53,459
+bye
+
