@@ -241,6 +241,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Bruteforce 暴力穷举
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Sum of Number and Its Reverse (Bruteforce Algorithm) | 数字和它的逆之和(穷举算法) | [Youtube](https://youtu.be/5mYxLEk3Qrw) - [B站](https://www.bilibili.com/video/BV1yP4y167Lj/) - [西瓜](https://www.ixigua.com/7188947023058436612) | [Sum of Number and Its Reverse (Bruteforce Algorithm)](https://helloacm.com/teaching-kids-programming-sum-of-number-and-its-reverse-bruteforce-algorithm/) | 2023-01-12 |
 | Largest 3-Same-Digit Number in String (Math, Bruteforce Algorithm) | 字符串中最大的3位数字(数学, 穷举暴力) | [Youtube](https://youtu.be/Lov2WHwFJ3A) - [B站](https://www.bilibili.com/video/BV1ZB4y1Q7jV/) - [西瓜](https://www.ixigua.com/7102769594930037261) | [Largest 3-Same-Digit Number in String (Math, Bruteforce Algorithm)](https://helloacm.com/teaching-kids-programming-largest-3-same-digit-number-in-string/) | 2022-05-26 |
 | Counting the Number of Squares and Rectangles of a Rubik Cube | 数N阶魔方正方形和矩形的数量(暴力穷举算法) | [Youtube](https://youtu.be/NvCNiIs9BJ0) - [B站](https://www.bilibili.com/video/BV1d44y1P7VQ/) - [西瓜](https://www.ixigua.com/7077673002250273288) | [Counting the Number of Squares and Rectangles of a Rubik Cube](https://helloacm.com/teaching-kids-programming-counting-the-number-of-squares-and-rectangles-for-a-nxn-rubik-cube/) | 2022-03-21 |
 
