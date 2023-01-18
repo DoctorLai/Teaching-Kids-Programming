@@ -723,5 +723,10 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Introduction to SQL and the SELECT | 数据库SQL语言之SELECT选择 | [Youtube](https://youtu.be/BPnMvi4D_Bk) - [B站](https://www.bilibili.com/video/BV1gB4y137WQ/) - [西瓜](https://www.ixigua.com/7139920342977348128) | [Introduction to SQL and the SELECT](https://helloacm.com/teaching-kids-programming-introduction-to-sql-and-the-select/) | 2022-09-04 |
 | Most Common SQL keywords (Select, Update, Insert, Delete) | 数据库SQL语句: 选择、更新、插入、删除 | [Youtube](https://youtu.be/jWgTyEyqBic) - [B站](https://www.bilibili.com/video/BV1cG411V7Fi/) - [西瓜](https://www.ixigua.com/7141328927846302246) | [Most Common SQL keywords (Select, Update, Insert, Delete)](https://helloacm.com/teaching-kids-programming-most-common-sql-keywords-select-update-insert-delete/) | 2022-09-06 |
 
+# Algorithms Design & 算法设计
+| Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
+| How to Design a Random Maze? Random Maze Generation Algorithm | 迷宫随机生成算法 | [Youtube](https://youtu.be/3Q7-9CWbE5w) - [B站](https://www.bilibili.com/video/BV1384y187LP/) - [西瓜](https://www.ixigua.com/7190140014452277798) | [How to Design a Random Maze? Random Maze Generation Algorithm](https://helloacm.com/teaching-kids-programming-maze-design-algorithm-how-to-generate-a-random-maze/) | 2023-01-15 |
+
 ## Tags
 #algorithms #algorithm #math #python #pythonprogramming #programming #coding #pythonforkids #pythonforeverybody #learning #teaching #teachingkids #learning #tutorial #computing #coding
