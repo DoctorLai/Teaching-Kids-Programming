@@ -22,7 +22,9 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 Most of the videos are based on a Leetcode and/or BinarySearch problem, which you could find the Problem ID on the video whiteboard left corner, or alternatively, you can find it at the [list](https://zhihua-lai.com/teaching/) i.e. the "Resource Links" column
 
 - [My Leetcode](https://leetcode.com/justyy/)
-- [My Binary Search](https://binarysearch.com/@/justyy)
+- [My Leetcode CN](https://leetcode-cn.com/u/justyy/)
+
+I used to submit solutions to binarysearch.com however it seems the website is down forever.
 
 <a rel="nofollow" href="http://helloacm.com/out/buymecoffee" target="_blank"><img src="https://user-images.githubusercontent.com/1764434/161362754-c45a85d3-5c80-4e10-b05c-62af49291d0b.png" alt="Buy me a Coffee"/></a>
 
