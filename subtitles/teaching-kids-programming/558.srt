@@ -1,0 +1,1124 @@
+1
+00:00:02,899 --> 00:00:06,200
+what's this
+
+2
+00:00:06,240 --> 00:00:10,980
+the tree and
+
+3
+00:00:07,620 --> 00:00:14,280
+a tree with numbers okay so what is a
+
+4
+00:00:10,980 --> 00:00:17,279
+tree it's a tree finally three yeah is
+
+5
+00:00:14,280 --> 00:00:20,939
+it oh yeah because the h l has at most
+
+6
+00:00:17,279 --> 00:00:25,500
+two kids and also a tree is uh a tree is
+
+7
+00:00:20,939 --> 00:00:28,820
+a diagram a graph a graph yes a tree and
+
+8
+00:00:25,500 --> 00:00:34,680
+also we can that's great that's great
+
+9
+00:00:28,820 --> 00:00:38,840
+yeah pH okay wow okay also it's uh we
+
+10
+00:00:34,680 --> 00:00:38,840
+can say a tree is a t a g right
+
+11
+00:00:39,379 --> 00:00:46,820
+because it has a direction and it
+
+12
+00:00:41,879 --> 00:00:50,579
+doesn't have uh Cycles a cyclic directed
+
+13
+00:00:46,820 --> 00:00:53,820
+directly okay a cyclic
+
+14
+00:00:50,579 --> 00:00:55,800
+means no cycle okay
+
+15
+00:00:53,820 --> 00:00:58,559
+what's that
+
+16
+00:00:55,800 --> 00:01:00,539
+that's a great but yes a grave is a
+
+17
+00:00:58,559 --> 00:01:03,960
+graph okay
+
+18
+00:01:00,539 --> 00:01:06,659
+and then you can think of it as a tree
+
+19
+00:01:03,960 --> 00:01:10,080
+as well okay okay so we want to count
+
+20
+00:01:06,659 --> 00:01:12,060
+how many nodes right how many
+
+21
+00:01:10,080 --> 00:01:13,680
+how many cores the sum of its uh
+
+22
+00:01:12,060 --> 00:01:15,119
+descendants descendants what's
+
+23
+00:01:13,680 --> 00:01:18,000
+descendant means
+
+24
+00:01:15,119 --> 00:01:22,700
+bottom you send them basically I mean
+
+25
+00:01:18,000 --> 00:01:25,380
+their children right children right yeah
+
+26
+00:01:22,700 --> 00:01:28,619
+okay so what's that descendant what's
+
+27
+00:01:25,380 --> 00:01:30,540
+the kids are all the kids of ten three
+
+28
+00:01:28,619 --> 00:01:33,299
+I ended up together 10
+
+29
+00:01:30,540 --> 00:01:35,640
+because of that okay anymore
+
+30
+00:01:33,299 --> 00:01:37,920
+three is two one that's right so we
+
+31
+00:01:35,640 --> 00:01:40,560
+defend two four is zero
+
+32
+00:01:37,920 --> 00:01:43,860
+good point if the note has no children
+
+33
+00:01:40,560 --> 00:01:45,840
+the sum of The Descendant is zero we
+
+34
+00:01:43,860 --> 00:01:49,079
+want to count how many notes right how
+
+35
+00:01:45,840 --> 00:01:50,939
+many notes equals the sum of its
+
+36
+00:01:49,079 --> 00:01:53,759
+descendants for example it's 10 the
+
+37
+00:01:50,939 --> 00:01:58,740
+descendants of ten is three four two one
+
+38
+00:01:53,759 --> 00:02:00,360
+all the kids together can be zero all of
+
+39
+00:01:58,740 --> 00:02:02,780
+them can be zero and all of them will
+
+40
+00:02:00,360 --> 00:02:02,780
+have it
+
+41
+00:02:02,880 --> 00:02:07,439
+ah you mentioned you're saying that zero
+
+42
+00:02:05,880 --> 00:02:10,860
+zero
+
+43
+00:02:07,439 --> 00:02:12,780
+zero yeah yeah that's good yes yeah
+
+44
+00:02:10,860 --> 00:02:16,140
+exactly because everything is zero okay
+
+45
+00:02:12,780 --> 00:02:17,760
+okay so the kids of three this sentence
+
+46
+00:02:16,140 --> 00:02:21,480
+is two and one two plus one equals six
+
+47
+00:02:17,760 --> 00:02:23,340
+yeah I think in 490 days or something we
+
+48
+00:02:21,480 --> 00:02:25,800
+talk about a similar program which is
+
+49
+00:02:23,340 --> 00:02:29,640
+the counting the number of nodes which
+
+50
+00:02:25,800 --> 00:02:32,160
+equals the average average of it okay so
+
+51
+00:02:29,640 --> 00:02:35,040
+for example like 10 of this substrate
+
+52
+00:02:32,160 --> 00:02:37,140
+right ten three four two one this is 20
+
+53
+00:02:35,040 --> 00:02:39,180
+20 divided by one two three four five
+
+54
+00:02:37,140 --> 00:02:40,560
+average is four okay and if this is now
+
+55
+00:02:39,180 --> 00:02:42,660
+is four then we count it right it's
+
+56
+00:02:40,560 --> 00:02:44,819
+similar right it's similar instead of
+
+57
+00:02:42,660 --> 00:02:48,000
+counting the average we are counting the
+
+58
+00:02:44,819 --> 00:02:50,340
+sum okay so on that day we use the data
+
+59
+00:02:48,000 --> 00:02:52,920
+search we use the recursion deficit to
+
+60
+00:02:50,340 --> 00:02:55,800
+retain the number of uh notes and then
+
+61
+00:02:52,920 --> 00:02:58,080
+the sum of it okay so each deficit score
+
+62
+00:02:55,800 --> 00:03:00,900
+returns a couple number of nodes and the
+
+63
+00:02:58,080 --> 00:03:02,640
+sum so for this case we just need to
+
+64
+00:03:00,900 --> 00:03:04,920
+return the summer we want to return the
+
+65
+00:03:02,640 --> 00:03:07,080
+sum how do we check if time equals all
+
+66
+00:03:04,920 --> 00:03:11,700
+this okay so now I'm telling you that
+
+67
+00:03:07,080 --> 00:03:13,560
+some of this path is six you know
+
+68
+00:03:11,700 --> 00:03:16,080
+without looking into the details that
+
+69
+00:03:13,560 --> 00:03:17,940
+some of the left tree is six the sum of
+
+70
+00:03:16,080 --> 00:03:19,860
+a right tree is four how do you know if
+
+71
+00:03:17,940 --> 00:03:21,480
+it's do you have to work to work it out
+
+72
+00:03:19,860 --> 00:03:23,519
+good point we're using a recursion
+
+73
+00:03:21,480 --> 00:03:25,860
+that's a search right so look this is
+
+74
+00:03:23,519 --> 00:03:27,900
+four without looking at the details I'm
+
+75
+00:03:25,860 --> 00:03:30,300
+telling you the sum of its or the left
+
+76
+00:03:27,900 --> 00:03:32,400
+note is six some of all that right now
+
+77
+00:03:30,300 --> 00:03:34,440
+is four and then you can check right six
+
+78
+00:03:32,400 --> 00:03:36,959
+plus four equals 10 we increment account
+
+79
+00:03:34,440 --> 00:03:39,659
+of one easier this is the big picture
+
+80
+00:03:36,959 --> 00:03:42,720
+but how do we get this recursion we talk
+
+81
+00:03:39,659 --> 00:03:44,540
+about the recursion uh defines to go
+
+82
+00:03:42,720 --> 00:03:46,500
+through the left three right tree
+
+83
+00:03:44,540 --> 00:03:48,239
+accordingly right and then we can return
+
+84
+00:03:46,500 --> 00:03:50,459
+the number of the nodes or we can return
+
+85
+00:03:48,239 --> 00:03:53,239
+the sum of it how do we count how many
+
+86
+00:03:50,459 --> 00:03:56,640
+nodes in here very simple right Define
+
+87
+00:03:53,239 --> 00:04:00,500
+that first search loot
+
+88
+00:03:56,640 --> 00:04:00,500
+uh if not root
+
+89
+00:04:00,780 --> 00:04:04,680
+we just returns yellow right otherwise
+
+90
+00:04:03,299 --> 00:04:07,980
+return
+
+91
+00:04:04,680 --> 00:04:11,700
+def as such how many notes in the last
+
+92
+00:04:07,980 --> 00:04:14,220
+three here plus how many notes in the
+
+93
+00:04:11,700 --> 00:04:16,979
+right tree right plus one note of itself
+
+94
+00:04:14,220 --> 00:04:18,060
+recursion right recursion that's the
+
+95
+00:04:16,979 --> 00:04:21,720
+search
+
+96
+00:04:18,060 --> 00:04:23,880
+if we are given an nothing return zero
+
+97
+00:04:21,720 --> 00:04:25,320
+how many notes in the left three how
+
+98
+00:04:23,880 --> 00:04:27,419
+many notes in the right tree plus one
+
+99
+00:04:25,320 --> 00:04:30,060
+now okay so if we want to transform this
+
+100
+00:04:27,419 --> 00:04:31,919
+function to return the sum of all the
+
+101
+00:04:30,060 --> 00:04:34,919
+nodes in the tree
+
+102
+00:04:31,919 --> 00:04:36,479
+which numbers should we change let's
+
+103
+00:04:34,919 --> 00:04:39,540
+continue this function recursion
+
+104
+00:04:36,479 --> 00:04:41,100
+function Returns the number of nodes but
+
+105
+00:04:39,540 --> 00:04:42,900
+if we want to change it to return the
+
+106
+00:04:41,100 --> 00:04:44,340
+sum of the nodes we just have to change
+
+107
+00:04:42,900 --> 00:04:46,320
+two place
+
+108
+00:04:44,340 --> 00:04:49,380
+actually no we just have to change one
+
+109
+00:04:46,320 --> 00:04:51,380
+place we just change it to
+
+110
+00:04:49,380 --> 00:04:51,380
+um
+
+111
+00:04:51,960 --> 00:04:55,639
+value right yeah
+
+112
+00:04:56,660 --> 00:05:00,020
+to solve
+
+113
+00:05:06,479 --> 00:05:12,600
+yeah do you need to call this bit here
+
+114
+00:05:10,620 --> 00:05:14,520
+because yeah okay we have this function
+
+115
+00:05:12,600 --> 00:05:18,360
+to return the sum of it and then how do
+
+116
+00:05:14,520 --> 00:05:20,880
+we do it that first search Define
+
+117
+00:05:18,360 --> 00:05:24,199
+search loot right
+
+118
+00:05:20,880 --> 00:05:24,199
+if not load
+
+119
+00:05:24,360 --> 00:05:29,520
+returns yellow right the sum of empty
+
+120
+00:05:26,759 --> 00:05:31,979
+now is zero the left sum
+
+121
+00:05:29,520 --> 00:05:36,000
+equals that's as such
+
+122
+00:05:31,979 --> 00:05:37,680
+Blue Dot left right this bit this is a s
+
+123
+00:05:36,000 --> 00:05:41,880
+a s
+
+124
+00:05:37,680 --> 00:05:44,340
+yeah please wait the RS right sum equals
+
+125
+00:05:41,880 --> 00:05:46,740
+seven search what
+
+126
+00:05:44,340 --> 00:05:49,740
+Blue Dot right right in this video
+
+127
+00:05:46,740 --> 00:05:52,860
+because eventually this application code
+
+128
+00:05:49,740 --> 00:05:54,000
+will call itself right otherwise we need
+
+129
+00:05:52,860 --> 00:05:57,060
+to return
+
+130
+00:05:54,000 --> 00:06:00,120
+the left sum plus the Y sum plus the
+
+131
+00:05:57,060 --> 00:06:01,139
+loser value right but here we need to
+
+132
+00:06:00,120 --> 00:06:02,699
+check
+
+133
+00:06:01,139 --> 00:06:07,500
+if
+
+134
+00:06:02,699 --> 00:06:11,900
+air sum plus us as if the sum of a left
+
+135
+00:06:07,500 --> 00:06:11,900
+3 plus the sum of the right tree equal
+
+136
+00:06:16,940 --> 00:06:23,460
+the answer is defined here answer equals
+
+137
+00:06:20,460 --> 00:06:28,460
+zero and if we want to increment this
+
+138
+00:06:23,460 --> 00:06:28,460
+answer we put a number right now to q1
+
+139
+00:06:28,500 --> 00:06:32,520
+okay and then we turn
+
+140
+00:06:30,900 --> 00:06:34,919
+answer
+
+141
+00:06:32,520 --> 00:06:37,020
+that's a search root
+
+142
+00:06:34,919 --> 00:06:38,699
+okay so basically just there for such
+
+143
+00:06:37,020 --> 00:06:40,919
+we're just adding this check and that's
+
+144
+00:06:38,699 --> 00:06:41,699
+it okay so this function without this
+
+145
+00:06:40,919 --> 00:06:44,220
+bit
+
+146
+00:06:41,699 --> 00:06:46,199
+it's just calculating the summer we want
+
+147
+00:06:44,220 --> 00:06:48,539
+to calculate the sum of this entire tree
+
+148
+00:06:46,199 --> 00:06:51,300
+we need to know three things
+
+149
+00:06:48,539 --> 00:06:53,160
+the value of this note which is 10 we
+
+150
+00:06:51,300 --> 00:06:55,039
+can get it and the sum of that tree the
+
+151
+00:06:53,160 --> 00:06:57,600
+sum of the right tree which can be done
+
+152
+00:06:55,039 --> 00:06:59,220
+recursively right because the deficits
+
+153
+00:06:57,600 --> 00:07:00,840
+recursively
+
+154
+00:06:59,220 --> 00:07:03,180
+okay
+
+155
+00:07:00,840 --> 00:07:06,539
+and then return the sum of the left tree
+
+156
+00:07:03,180 --> 00:07:08,759
+plus the sum of the right tree plus the
+
+157
+00:07:06,539 --> 00:07:11,639
+null itself okay
+
+158
+00:07:08,759 --> 00:07:14,460
+yes and I'll just have to add this okay
+
+159
+00:07:11,639 --> 00:07:17,580
+if the sum of the left tree plus the sum
+
+160
+00:07:14,460 --> 00:07:19,919
+of the right tree six plus four
+
+161
+00:07:17,580 --> 00:07:22,979
+if it's equals to 10
+
+162
+00:07:19,919 --> 00:07:25,199
+if it's equal to 10 then
+
+163
+00:07:22,979 --> 00:07:26,819
+we increment the answer that's it that's
+
+164
+00:07:25,199 --> 00:07:29,639
+an easy question okay
+
+165
+00:07:26,819 --> 00:07:32,280
+this is kind of like a photo of the
+
+166
+00:07:29,639 --> 00:07:35,400
+photo up but here this is top this is
+
+167
+00:07:32,280 --> 00:07:36,660
+button from the leaf when we visit the
+
+168
+00:07:35,400 --> 00:07:38,819
+leaf node
+
+169
+00:07:36,660 --> 00:07:42,060
+When I visit the leaf now the sum of it
+
+170
+00:07:38,819 --> 00:07:44,880
+is two and then here sum of these two
+
+171
+00:07:42,060 --> 00:07:46,520
+plus one plus three okay and then we go
+
+172
+00:07:44,880 --> 00:07:49,740
+in this because
+
+173
+00:07:46,520 --> 00:07:53,099
+the time complexity is o n because each
+
+174
+00:07:49,740 --> 00:07:55,800
+note is visited only once okay make
+
+175
+00:07:53,099 --> 00:07:58,080
+sense the space complexity is all
+
+176
+00:07:55,800 --> 00:08:02,039
+usually for the recursion definitions oh
+
+177
+00:07:58,080 --> 00:08:04,500
+H is the height of the final Tree in a
+
+178
+00:08:02,039 --> 00:08:07,919
+worst case h equals n can you tell me
+
+179
+00:08:04,500 --> 00:08:11,520
+why in which case h equals equals n
+
+180
+00:08:07,919 --> 00:08:13,620
+roughly equals to n in wordscape the
+
+181
+00:08:11,520 --> 00:08:16,440
+final three it could be just degraded
+
+182
+00:08:13,620 --> 00:08:18,180
+into a single line or you know it
+
+183
+00:08:16,440 --> 00:08:20,879
+doesn't have to be a single line
+
+184
+00:08:18,180 --> 00:08:23,340
+right as long as each node has only one
+
+185
+00:08:20,879 --> 00:08:25,919
+kid right it could be zigzag right
+
+186
+00:08:23,340 --> 00:08:28,080
+height is n right am I right
+
+187
+00:08:25,919 --> 00:08:32,060
+that makes sense yeah all this right
+
+188
+00:08:28,080 --> 00:08:32,060
+okay okay so what have you learned today
+
+189
+00:08:34,210 --> 00:08:37,289
+[Music]
+
+190
+00:08:42,419 --> 00:08:51,120
+the problem is we figure we trying to
+
+191
+00:08:46,040 --> 00:08:54,360
+have uh but how much noise have the sum
+
+192
+00:08:51,120 --> 00:08:56,640
+of the descendants to the parents yeah
+
+193
+00:08:54,360 --> 00:09:00,300
+to the parents and what the Agron are we
+
+194
+00:08:56,640 --> 00:09:03,959
+using we're using this precaution to
+
+195
+00:09:00,300 --> 00:09:06,839
+find out the left right and the root
+
+196
+00:09:03,959 --> 00:09:09,420
+and then when we never left
+
+197
+00:09:06,839 --> 00:09:12,420
+you can see if they're adult and and
+
+198
+00:09:09,420 --> 00:09:14,040
+then we can just add one yeah otherwise
+
+199
+00:09:12,420 --> 00:09:16,980
+we won't do the check this is actually
+
+200
+00:09:14,040 --> 00:09:18,899
+the same as a similar idea to counting
+
+201
+00:09:16,980 --> 00:09:20,700
+the average right checking which you
+
+202
+00:09:18,899 --> 00:09:22,860
+know is the average of each entire
+
+203
+00:09:20,700 --> 00:09:25,040
+subtree we're using recursion deficit
+
+204
+00:09:22,860 --> 00:09:27,839
+and we can also incrementally using the
+
+205
+00:09:25,040 --> 00:09:29,940
+iterated deficit okay which I'm going to
+
+206
+00:09:27,839 --> 00:09:32,519
+tell you know next lesson properly okay
+
+207
+00:09:29,940 --> 00:09:34,860
+it's trivial to implement a deaf as such
+
+208
+00:09:32,519 --> 00:09:37,320
+Fusion recursion looks so easy right I
+
+209
+00:09:34,860 --> 00:09:40,080
+just call itself left and right and do
+
+210
+00:09:37,320 --> 00:09:42,120
+this like recursion is very easy to to
+
+211
+00:09:40,080 --> 00:09:45,300
+understand and we usually use the
+
+212
+00:09:42,120 --> 00:09:47,899
+deficit to illustrate the the idea we
+
+213
+00:09:45,300 --> 00:09:52,019
+can implement this using the iterated
+
+214
+00:09:47,899 --> 00:09:53,760
+deficit iterative fashion okay can we
+
+215
+00:09:52,019 --> 00:09:55,260
+use the prefer search to solve this I'm
+
+216
+00:09:53,760 --> 00:09:57,240
+not quite sure maybe it's not very easy
+
+217
+00:09:55,260 --> 00:09:59,700
+to do this in first message okay but
+
+218
+00:09:57,240 --> 00:10:01,860
+defenses is the way to go because we are
+
+219
+00:09:59,700 --> 00:10:03,660
+calling this supporter up right when we
+
+220
+00:10:01,860 --> 00:10:06,600
+call it location
+
+221
+00:10:03,660 --> 00:10:07,860
+we go to the leaf node at the leaf notes
+
+222
+00:10:06,600 --> 00:10:10,260
+we know
+
+223
+00:10:07,860 --> 00:10:11,580
+right at the leaf nodes
+
+224
+00:10:10,260 --> 00:10:13,320
+here too
+
+225
+00:10:11,580 --> 00:10:15,660
+and then you close it left and right
+
+226
+00:10:13,320 --> 00:10:18,740
+right left and right which is zero two
+
+227
+00:10:15,660 --> 00:10:22,140
+so that if now the sum of this now
+
+228
+00:10:18,740 --> 00:10:24,000
+is The Descendant is zero but itself is
+
+229
+00:10:22,140 --> 00:10:26,580
+two right so and it goes the other way
+
+230
+00:10:24,000 --> 00:10:30,000
+around to uh from about half okay
+
+231
+00:10:26,580 --> 00:10:32,519
+definitely search calling the trees left
+
+232
+00:10:30,000 --> 00:10:34,380
+and right recursively people as we can
+
+233
+00:10:32,519 --> 00:10:36,720
+right and then we will reach the least
+
+234
+00:10:34,380 --> 00:10:39,120
+notes we go back okay that's the idea of
+
+235
+00:10:36,720 --> 00:10:40,760
+the depth search okay and then that's as
+
+236
+00:10:39,120 --> 00:10:44,160
+you as you know we have different
+
+237
+00:10:40,760 --> 00:10:46,380
+traversal order we order in all the pose
+
+238
+00:10:44,160 --> 00:10:48,980
+or the reverse pose or the reversing
+
+239
+00:10:46,380 --> 00:10:55,200
+order okay just a quick one
+
+240
+00:10:48,980 --> 00:10:58,260
+one two three four five six seven okay
+
+241
+00:10:55,200 --> 00:11:01,140
+and then here eight what's the prefer
+
+242
+00:10:58,260 --> 00:11:03,899
+search order for this binary tree one
+
+243
+00:11:01,140 --> 00:11:07,560
+two three four five six seven eight yeah
+
+244
+00:11:03,899 --> 00:11:09,839
+we use a q yeah what's the the first
+
+245
+00:11:07,560 --> 00:11:12,480
+search bar is last note
+
+246
+00:11:09,839 --> 00:11:14,940
+left no right no so this is in order
+
+247
+00:11:12,480 --> 00:11:17,040
+which is the left three first note and
+
+248
+00:11:14,940 --> 00:11:20,700
+right
+
+249
+00:11:17,040 --> 00:11:22,860
+left three first two two seven left
+
+250
+00:11:20,700 --> 00:11:25,160
+three first so okay so left three is
+
+251
+00:11:22,860 --> 00:11:25,160
+four
+
+252
+00:11:25,320 --> 00:11:31,079
+that looks like a seven four five six
+
+253
+00:11:30,000 --> 00:11:36,899
+and right
+
+254
+00:11:31,079 --> 00:11:40,500
+two five eight one three six seven
+
+255
+00:11:36,899 --> 00:11:42,680
+no look at left no one one no no no no
+
+256
+00:11:40,500 --> 00:11:48,779
+no no no two two
+
+257
+00:11:42,680 --> 00:11:51,740
+four sorry four eight four okay four two
+
+258
+00:11:48,779 --> 00:11:53,839
+five four two
+
+259
+00:11:51,740 --> 00:11:58,680
+A5
+
+260
+00:11:53,839 --> 00:12:01,920
+1 6 3 7. okay and then if we want to
+
+261
+00:11:58,680 --> 00:12:04,860
+visit the note left off so that's the
+
+262
+00:12:01,920 --> 00:12:11,880
+note that now this is pre-order so it's
+
+263
+00:12:04,860 --> 00:12:13,740
+one two four five eight three six seven
+
+264
+00:12:11,880 --> 00:12:17,040
+yeah you'll get it yeah that's so much
+
+265
+00:12:13,740 --> 00:12:18,480
+easier than Eleanor yeah this is
+
+266
+00:12:17,040 --> 00:12:19,980
+miniature okay I want to fit to the left
+
+267
+00:12:18,480 --> 00:12:22,380
+three first and then now and the right
+
+268
+00:12:19,980 --> 00:12:24,000
+trick so left three of one is this big I
+
+269
+00:12:22,380 --> 00:12:25,920
+want to visit this tree and then again
+
+270
+00:12:24,000 --> 00:12:28,740
+for this tree I want to beat it this bit
+
+271
+00:12:25,920 --> 00:12:30,540
+right so it's four and then two and then
+
+272
+00:12:28,740 --> 00:12:33,000
+this is the right video I want to visit
+
+273
+00:12:30,540 --> 00:12:34,980
+the a the last three first so for each
+
+274
+00:12:33,000 --> 00:12:36,600
+subtree we always go for the left tree
+
+275
+00:12:34,980 --> 00:12:38,399
+and then the no and the right to record
+
+276
+00:12:36,600 --> 00:12:40,740
+it it's a recursion it's a recursive
+
+277
+00:12:38,399 --> 00:12:43,139
+manner okay so the final three trees
+
+278
+00:12:40,740 --> 00:12:44,700
+those kind of thing is recursive and the
+
+279
+00:12:43,139 --> 00:12:46,980
+answer we can use an application right
+
+280
+00:12:44,700 --> 00:12:50,839
+by default okay so it's very good okay
+
+281
+00:12:46,980 --> 00:12:50,839
+that's it for today bye-bye
+

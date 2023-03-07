@@ -1,0 +1,1292 @@
+1
+00:00:00,490 --> 00:00:03,620
+[Music]
+
+2
+00:00:04,500 --> 00:00:09,480
+yeah two arrays of integers and we want
+
+3
+00:00:07,020 --> 00:00:12,179
+to find the smallest the minimum common
+
+4
+00:00:09,480 --> 00:00:15,599
+value so put it otherwise uh we want to
+
+5
+00:00:12,179 --> 00:00:18,720
+find the the smallest value if it is
+
+6
+00:00:15,599 --> 00:00:21,420
+that appearing imposed arrays yeah in
+
+7
+00:00:18,720 --> 00:00:23,580
+this case Zero okay
+
+8
+00:00:21,420 --> 00:00:26,240
+what's your source and if we can find
+
+9
+00:00:23,580 --> 00:00:28,439
+such numbers minus one
+
+10
+00:00:26,240 --> 00:00:30,720
+minus one yes
+
+11
+00:00:28,439 --> 00:00:31,439
+if we can't find any return minus one
+
+12
+00:00:30,720 --> 00:00:33,679
+okay
+
+13
+00:00:31,439 --> 00:00:33,679
+foreign
+
+14
+00:00:34,440 --> 00:00:39,780
+any idea
+
+15
+00:00:37,079 --> 00:00:42,899
+um so we thought both of them and then
+
+16
+00:00:39,780 --> 00:00:44,879
+just walk along good job thought right
+
+17
+00:00:42,899 --> 00:00:47,340
+okay so I didn't tell you it started
+
+18
+00:00:44,879 --> 00:00:49,260
+okay so we started okay but if it's
+
+19
+00:00:47,340 --> 00:00:51,059
+salty we don't need to sort it so how do
+
+20
+00:00:49,260 --> 00:00:53,640
+we work through it these two are already
+
+21
+00:00:51,059 --> 00:00:55,820
+salty right let's check how do it works
+
+22
+00:00:53,640 --> 00:00:55,820
+too
+
+23
+00:00:56,960 --> 00:01:03,780
+and if like so that so the B one is
+
+24
+00:01:01,680 --> 00:01:07,320
+smaller so we just moved to the right
+
+25
+00:01:03,780 --> 00:01:09,420
+now the A1 is smaller than the B one so
+
+26
+00:01:07,320 --> 00:01:14,540
+we move the right it's still smaller and
+
+27
+00:01:09,420 --> 00:01:14,540
+uh which one is here yeah and still
+
+28
+00:01:15,420 --> 00:01:20,780
+okay
+
+29
+00:01:17,000 --> 00:01:20,780
+if I put one Whatever
+
+30
+00:01:21,200 --> 00:01:28,020
+B yeah let me see if I one moves to two
+
+31
+00:01:25,320 --> 00:01:31,140
+two moves to a hundred five means see a
+
+32
+00:01:28,020 --> 00:01:32,759
+thousand and and then and then a hundred
+
+33
+00:01:31,140 --> 00:01:34,200
+and you see nothing and that one is
+
+34
+00:01:32,759 --> 00:01:35,880
+nothing with the 10 by this one that's a
+
+35
+00:01:34,200 --> 00:01:38,040
+good job okay that's very good we are
+
+36
+00:01:35,880 --> 00:01:39,960
+given to sort it already let's say we
+
+37
+00:01:38,040 --> 00:01:42,299
+give it to solve it array already okay
+
+38
+00:01:39,960 --> 00:01:45,119
+so if we want to solve them if this is
+
+39
+00:01:42,299 --> 00:01:47,880
+uh the length is n then the time from X
+
+40
+00:01:45,119 --> 00:01:50,040
+is our login right okay so if we are
+
+41
+00:01:47,880 --> 00:01:53,520
+given already two sorted array and if
+
+42
+00:01:50,040 --> 00:01:55,860
+the then is n the length is M what's the
+
+43
+00:01:53,520 --> 00:01:58,320
+time complexity how many steps maximum
+
+44
+00:01:55,860 --> 00:01:59,420
+together two pointers yeah I know what's
+
+45
+00:01:58,320 --> 00:02:02,700
+the time
+
+46
+00:01:59,420 --> 00:02:05,579
+and and what should I put here
+
+47
+00:02:02,700 --> 00:02:07,740
+plus yes because at most you are working
+
+48
+00:02:05,579 --> 00:02:10,319
+M plus M right okay so this is the
+
+49
+00:02:07,740 --> 00:02:13,500
+temperature if the arrays are not sorted
+
+50
+00:02:10,319 --> 00:02:15,720
+we can use the set right so we just
+
+51
+00:02:13,500 --> 00:02:21,060
+convert it to set so set
+
+52
+00:02:15,720 --> 00:02:22,739
+a by converting these to set and set b n
+
+53
+00:02:21,060 --> 00:02:25,140
+right intersection right look remember
+
+54
+00:02:22,739 --> 00:02:30,000
+this is a a
+
+55
+00:02:25,140 --> 00:02:32,760
+this is B this is a this is B A and B is
+
+56
+00:02:30,000 --> 00:02:35,879
+here right the common part and then we
+
+57
+00:02:32,760 --> 00:02:38,280
+need to sort it right a common part we
+
+58
+00:02:35,879 --> 00:02:41,099
+sorted sort it then we converted the
+
+59
+00:02:38,280 --> 00:02:43,319
+list and then return the first one if we
+
+60
+00:02:41,099 --> 00:02:46,080
+didn't say anyway if less any if not we
+
+61
+00:02:43,319 --> 00:02:50,280
+determine minus one so we set a answer B
+
+62
+00:02:46,080 --> 00:02:52,920
+if N is a b we put it as C C equals n c
+
+63
+00:02:50,280 --> 00:02:55,019
+b and then if C we sort it and return
+
+64
+00:02:52,920 --> 00:02:57,840
+the first one the term complexity for
+
+65
+00:02:55,019 --> 00:03:02,099
+this one is look if they are n
+
+66
+00:02:57,840 --> 00:03:04,319
+elements M elements right and if they uh
+
+67
+00:03:02,099 --> 00:03:07,140
+pulls the same right if both arrays are
+
+68
+00:03:04,319 --> 00:03:09,840
+the same so n let's say n the times of x
+
+69
+00:03:07,140 --> 00:03:13,500
+t is O and Logan
+
+70
+00:03:09,840 --> 00:03:15,959
+okay if a and b are exactly the same so
+
+71
+00:03:13,500 --> 00:03:18,300
+the intersection is itself right and
+
+72
+00:03:15,959 --> 00:03:20,340
+then we need to solve it it's our login
+
+73
+00:03:18,300 --> 00:03:22,500
+and then get the first one if there's
+
+74
+00:03:20,340 --> 00:03:24,840
+any this is the case that when the two
+
+75
+00:03:22,500 --> 00:03:27,300
+arrays are not sorted first solution is
+
+76
+00:03:24,840 --> 00:03:30,239
+oh and now can I when
+
+77
+00:03:27,300 --> 00:03:32,580
+login which is using the set a space
+
+78
+00:03:30,239 --> 00:03:36,840
+complexity so well the second approach
+
+79
+00:03:32,580 --> 00:03:39,060
+is O uh o n plus n and the space
+
+80
+00:03:36,840 --> 00:03:42,299
+complexity is 101 right because we don't
+
+81
+00:03:39,060 --> 00:03:44,459
+use any other space before we go into
+
+82
+00:03:42,299 --> 00:03:46,080
+the third approach let's just quickly
+
+83
+00:03:44,459 --> 00:03:49,440
+implement the second approach which is
+
+84
+00:03:46,080 --> 00:03:52,260
+the two pointer the length of a equals
+
+85
+00:03:49,440 --> 00:03:55,620
+the length of a the length of b equals
+
+86
+00:03:52,260 --> 00:03:59,220
+the length of B and then the left equals
+
+87
+00:03:55,620 --> 00:04:00,840
+right equals zero f 2.0 left and right
+
+88
+00:03:59,220 --> 00:04:04,080
+wire
+
+89
+00:04:00,840 --> 00:04:08,159
+less smaller than air a and
+
+90
+00:04:04,080 --> 00:04:10,640
+Y is smaller than a of B right when we
+
+91
+00:04:08,159 --> 00:04:16,799
+haven't reached the n
+
+92
+00:04:10,640 --> 00:04:18,239
+is a air equals equal equal p r then we
+
+93
+00:04:16,799 --> 00:04:20,519
+return
+
+94
+00:04:18,239 --> 00:04:23,940
+Al right it's the same with the calories
+
+95
+00:04:20,519 --> 00:04:30,560
+otherwise L if if
+
+96
+00:04:23,940 --> 00:04:33,670
+this is as if if a air smaller than PR
+
+97
+00:04:30,560 --> 00:04:33,670
+[Music]
+
+98
+00:04:37,860 --> 00:04:43,460
+um
+
+99
+00:04:38,880 --> 00:04:43,460
+air plus equal one yes
+
+100
+00:04:44,300 --> 00:04:49,560
+and then if we don't find anything after
+
+101
+00:04:46,979 --> 00:04:52,139
+the loop when we reach the end the
+
+102
+00:04:49,560 --> 00:04:55,199
+conditions do not meet at any moment we
+
+103
+00:04:52,139 --> 00:04:57,419
+return minus one here right
+
+104
+00:04:55,199 --> 00:04:59,940
+let me take minus okay so this is the
+
+105
+00:04:57,419 --> 00:05:02,699
+two points I think the third approach is
+
+106
+00:04:59,940 --> 00:05:04,740
+that look because two arrays are already
+
+107
+00:05:02,699 --> 00:05:06,419
+sorted we combine the research right so
+
+108
+00:05:04,740 --> 00:05:09,180
+we go through this each number minus
+
+109
+00:05:06,419 --> 00:05:14,280
+three now we finally search this number
+
+110
+00:05:09,180 --> 00:05:16,139
+in this sorted array right four I in a
+
+111
+00:05:14,280 --> 00:05:18,120
+and we go through each number and then
+
+112
+00:05:16,139 --> 00:05:19,620
+you tell me the terminal and then we
+
+113
+00:05:18,120 --> 00:05:21,479
+need to bicep right five set left
+
+114
+00:05:19,620 --> 00:05:24,780
+remember the bicep left and bison right
+
+115
+00:05:21,479 --> 00:05:27,320
+the bind research yeah okay so look
+
+116
+00:05:24,780 --> 00:05:27,320
+twice enough
+
+117
+00:05:27,979 --> 00:05:33,259
+Zillow one two two three
+
+118
+00:05:35,580 --> 00:05:40,139
+then if we fight that look every time I
+
+119
+00:05:38,460 --> 00:05:43,199
+talk about bison left I will talk about
+
+120
+00:05:40,139 --> 00:05:46,860
+this example if I said left which array
+
+121
+00:05:43,199 --> 00:05:49,979
+is a okay a let's find two
+
+122
+00:05:46,860 --> 00:05:54,120
+five two then you will return this
+
+123
+00:05:49,979 --> 00:05:56,400
+position but if a pi said right A2 you
+
+124
+00:05:54,120 --> 00:05:58,199
+will return this position okay this is
+
+125
+00:05:56,400 --> 00:06:00,720
+the difference so it basically depends
+
+126
+00:05:58,199 --> 00:06:03,539
+that this position where to put the
+
+127
+00:06:00,720 --> 00:06:07,020
+new too you could still sort it right
+
+128
+00:06:03,539 --> 00:06:10,680
+it's a level right so we we find it if
+
+129
+00:06:07,020 --> 00:06:12,960
+the element is not in the array
+
+130
+00:06:10,680 --> 00:06:14,699
+then it retains the partition where we
+
+131
+00:06:12,960 --> 00:06:17,639
+can put that element in right so how do
+
+132
+00:06:14,699 --> 00:06:19,800
+we use the python left to check if the
+
+133
+00:06:17,639 --> 00:06:23,400
+element is in a sorted array we can do
+
+134
+00:06:19,800 --> 00:06:25,319
+this right x equals bicep
+
+135
+00:06:23,400 --> 00:06:27,419
+left percent
+
+136
+00:06:25,319 --> 00:06:29,460
+e-i-s-e-t
+
+137
+00:06:27,419 --> 00:06:33,360
+left
+
+138
+00:06:29,460 --> 00:06:37,440
+P we want to find element I in Array 30
+
+139
+00:06:33,360 --> 00:06:40,319
+B right and if x is smaller than the
+
+140
+00:06:37,440 --> 00:06:45,360
+length of B and also we come back to
+
+141
+00:06:40,319 --> 00:06:48,120
+check if b x equal equal I right look
+
+142
+00:06:45,360 --> 00:06:51,780
+this is to check if we found the element
+
+143
+00:06:48,120 --> 00:06:52,560
+I in the array B like if it is then we
+
+144
+00:06:51,780 --> 00:06:55,979
+turn
+
+145
+00:06:52,560 --> 00:06:59,220
+I otherwise only 10 minus one so we are
+
+146
+00:06:55,979 --> 00:07:02,160
+going through the numbers in Array a and
+
+147
+00:06:59,220 --> 00:07:03,840
+we check if the numbers can be found in
+
+148
+00:07:02,160 --> 00:07:05,880
+the second array and like because the
+
+149
+00:07:03,840 --> 00:07:07,740
+second array is sorted right so we can
+
+150
+00:07:05,880 --> 00:07:09,240
+use the binary search if it's not sorted
+
+151
+00:07:07,740 --> 00:07:10,740
+in the worst case is how do we check it
+
+152
+00:07:09,240 --> 00:07:12,539
+we just go through the first number
+
+153
+00:07:10,740 --> 00:07:14,340
+second number third number right and the
+
+154
+00:07:12,539 --> 00:07:17,039
+time complexity for that one is wrong oh
+
+155
+00:07:14,340 --> 00:07:20,280
+n times n right the proof of o n times M
+
+156
+00:07:17,039 --> 00:07:24,060
+okay this is another approach 11 times
+
+157
+00:07:20,280 --> 00:07:26,580
+o n times n go into the first number
+
+158
+00:07:24,060 --> 00:07:29,280
+already in the first moment check if the
+
+159
+00:07:26,580 --> 00:07:32,699
+second array has six but the thing is
+
+160
+00:07:29,280 --> 00:07:34,860
+that this m this second array is sorted
+
+161
+00:07:32,699 --> 00:07:37,259
+so we can use the binary search the
+
+162
+00:07:34,860 --> 00:07:41,340
+linear search linear search is om and
+
+163
+00:07:37,259 --> 00:07:43,919
+when we binary search is all log M right
+
+164
+00:07:41,340 --> 00:07:45,240
+we print out the complexity of Logan so
+
+165
+00:07:43,919 --> 00:07:49,620
+the temperature is before this one is
+
+166
+00:07:45,240 --> 00:07:51,900
+all n Times log and move right so
+
+167
+00:07:49,620 --> 00:07:53,639
+because this is a sorted array so how do
+
+168
+00:07:51,900 --> 00:07:56,520
+we find such element in the solid array
+
+169
+00:07:53,639 --> 00:07:59,759
+we use the bicep Left Right bicep left
+
+170
+00:07:56,520 --> 00:08:02,340
+so remember the numbers you think zero
+
+171
+00:07:59,759 --> 00:08:06,419
+to 100 cut in a minute 50 cut in a meter
+
+172
+00:08:02,340 --> 00:08:07,500
+25 all right twelve six
+
+173
+00:08:06,419 --> 00:08:10,680
+okay
+
+174
+00:08:07,500 --> 00:08:14,580
+we find the inside position and if it's
+
+175
+00:08:10,680 --> 00:08:16,979
+uh in within the
+
+176
+00:08:14,580 --> 00:08:19,379
+if it's a wish in the range right
+
+177
+00:08:16,979 --> 00:08:21,479
+because it possibly will be here right
+
+178
+00:08:19,379 --> 00:08:23,460
+now the temperature will be here we want
+
+179
+00:08:21,479 --> 00:08:26,699
+it to be the instant Position will be
+
+180
+00:08:23,460 --> 00:08:29,280
+here right here and also if in the
+
+181
+00:08:26,699 --> 00:08:31,319
+position the value that we come back to
+
+182
+00:08:29,280 --> 00:08:33,659
+check if the value equals I then it
+
+183
+00:08:31,319 --> 00:08:35,580
+means that the number in Array right so
+
+184
+00:08:33,659 --> 00:08:38,159
+look at it two it retains this position
+
+185
+00:08:35,580 --> 00:08:40,800
+then we come back to the chair a 2
+
+186
+00:08:38,159 --> 00:08:44,820
+equals 2 then okay so we have two here
+
+187
+00:08:40,800 --> 00:08:47,519
+how about if we want to find 2.5 2.5 you
+
+188
+00:08:44,820 --> 00:08:49,680
+will return the position here right here
+
+189
+00:08:47,519 --> 00:08:52,200
+but when we come back to check it there
+
+190
+00:08:49,680 --> 00:08:55,740
+is no 2.5 in this array so if it's not
+
+191
+00:08:52,200 --> 00:08:57,300
+there right makes sense okay so look
+
+192
+00:08:55,740 --> 00:08:59,279
+there are two arrays we can go through
+
+193
+00:08:57,300 --> 00:09:01,019
+the second array finally search it in
+
+194
+00:08:59,279 --> 00:09:03,959
+the first survey which one is better two
+
+195
+00:09:01,019 --> 00:09:04,800
+arrays I didn't say it's the same lens
+
+196
+00:09:03,959 --> 00:09:07,260
+right
+
+197
+00:09:04,800 --> 00:09:09,180
+okay these approach I was just saying
+
+198
+00:09:07,260 --> 00:09:10,860
+finally we go through the numbers in the
+
+199
+00:09:09,180 --> 00:09:13,500
+first array find the research the second
+
+200
+00:09:10,860 --> 00:09:15,060
+one or we can go through the arrays in
+
+201
+00:09:13,500 --> 00:09:16,260
+the second one final research is the
+
+202
+00:09:15,060 --> 00:09:18,120
+number you know first one which one is
+
+203
+00:09:16,260 --> 00:09:20,580
+better I mean so basically look this is
+
+204
+00:09:18,120 --> 00:09:22,080
+a this is a the first approach is go to
+
+205
+00:09:20,580 --> 00:09:24,899
+the numbers in the first one and check
+
+206
+00:09:22,080 --> 00:09:26,820
+if the number appears from there and I
+
+207
+00:09:24,899 --> 00:09:28,500
+the second approach is that I go through
+
+208
+00:09:26,820 --> 00:09:30,720
+that number in the second one and check
+
+209
+00:09:28,500 --> 00:09:33,180
+if the numbers appear in the first one
+
+210
+00:09:30,720 --> 00:09:38,160
+using the binary search if it's a proof
+
+211
+00:09:33,180 --> 00:09:41,880
+of o n times m equals o m times n right
+
+212
+00:09:38,160 --> 00:09:44,700
+because n times m equals n times n right
+
+213
+00:09:41,880 --> 00:09:46,320
+this is simple right but with the final
+
+214
+00:09:44,700 --> 00:09:49,380
+search it's different right binary
+
+215
+00:09:46,320 --> 00:09:52,140
+surgery is what n Times log m
+
+216
+00:09:49,380 --> 00:09:55,140
+and N Times log n right
+
+217
+00:09:52,140 --> 00:10:00,660
+okay so which one is better said that
+
+218
+00:09:55,140 --> 00:10:03,779
+that day it doesn't you can't it does
+
+219
+00:10:00,660 --> 00:10:06,540
+not always like the same size yeah so we
+
+220
+00:10:03,779 --> 00:10:10,019
+need to check if n is so big and bigger
+
+221
+00:10:06,540 --> 00:10:10,920
+than ammo right if n is this is this is
+
+222
+00:10:10,019 --> 00:10:13,140
+big
+
+223
+00:10:10,920 --> 00:10:16,980
+we want to make it binary search right
+
+224
+00:10:13,140 --> 00:10:20,580
+all right if N is a million if N is a
+
+225
+00:10:16,980 --> 00:10:22,620
+million a million okay so it it's better
+
+226
+00:10:20,580 --> 00:10:25,080
+I put it locked in right because look
+
+227
+00:10:22,620 --> 00:10:28,260
+remember the lock-end thing is this this
+
+228
+00:10:25,080 --> 00:10:30,959
+right so it brings out that complexity
+
+229
+00:10:28,260 --> 00:10:33,180
+so if you want to put an end and it's so
+
+230
+00:10:30,959 --> 00:10:35,040
+big so you might want to consider this
+
+231
+00:10:33,180 --> 00:10:37,320
+one pretty clear to bring down the
+
+232
+00:10:35,040 --> 00:10:40,980
+complexities right so when n is bigger
+
+233
+00:10:37,320 --> 00:10:43,260
+than M we choose the second one when n
+
+234
+00:10:40,980 --> 00:10:45,240
+is smaller than m is bigger then we
+
+235
+00:10:43,260 --> 00:10:48,360
+choose the first one make sense
+
+236
+00:10:45,240 --> 00:10:49,260
+does it make sense yes yeah
+
+237
+00:10:48,360 --> 00:10:52,079
+okay
+
+238
+00:10:49,260 --> 00:10:54,240
+first of all prove us as actually the
+
+239
+00:10:52,079 --> 00:10:56,160
+proof of n times MF we go through each
+
+240
+00:10:54,240 --> 00:10:57,720
+number and then we just prove us to
+
+241
+00:10:56,160 --> 00:10:59,519
+check if it appears on the second one
+
+242
+00:10:57,720 --> 00:11:01,680
+the second approach
+
+243
+00:10:59,519 --> 00:11:04,500
+using the headset right we're using a
+
+244
+00:11:01,680 --> 00:11:06,300
+headset so we turn this a into a
+
+245
+00:11:04,500 --> 00:11:08,640
+secondary speed into the set we use the
+
+246
+00:11:06,300 --> 00:11:10,380
+intersection n right and then when we
+
+247
+00:11:08,640 --> 00:11:13,079
+have the intersection we still have to
+
+248
+00:11:10,380 --> 00:11:15,240
+sort it in the worst case A and B is the
+
+249
+00:11:13,079 --> 00:11:19,079
+same that all the elements are the same
+
+250
+00:11:15,240 --> 00:11:22,200
+so we convert it to the set is O times n
+
+251
+00:11:19,079 --> 00:11:25,560
+plus and we need to do the Sorting right
+
+252
+00:11:22,200 --> 00:11:28,260
+so the Sorting is our login right okay
+
+253
+00:11:25,560 --> 00:11:30,480
+and let's face complexity obviously okay
+
+254
+00:11:28,260 --> 00:11:32,700
+the second the third approach every by
+
+255
+00:11:30,480 --> 00:11:34,740
+the way very well done is two points I
+
+256
+00:11:32,700 --> 00:11:37,380
+think this is actually quite similar and
+
+257
+00:11:34,740 --> 00:11:41,220
+merging merging to sorted language
+
+258
+00:11:37,380 --> 00:11:45,060
+remember we merge it right to array two
+
+259
+00:11:41,220 --> 00:11:48,779
+arrays zero two four six ten another way
+
+260
+00:11:45,060 --> 00:11:52,260
+one three five seven nine yeah how do we
+
+261
+00:11:48,779 --> 00:11:53,459
+merge it bye 2.9 the same idea right
+
+262
+00:11:52,260 --> 00:11:56,279
+smaller
+
+263
+00:11:53,459 --> 00:11:59,100
+smaller use this one move it smaller
+
+264
+00:11:56,279 --> 00:12:00,959
+move this one use it okay this is
+
+265
+00:11:59,100 --> 00:12:02,760
+actually exactly the same exact letter
+
+266
+00:12:00,959 --> 00:12:05,040
+we are looking for the common uh element
+
+267
+00:12:02,760 --> 00:12:06,959
+instead of merging them together and the
+
+268
+00:12:05,040 --> 00:12:09,420
+time table let's say om plus M let's
+
+269
+00:12:06,959 --> 00:12:12,720
+make on let's say oh one right and the
+
+270
+00:12:09,420 --> 00:12:14,339
+fourth approach is a binary search so
+
+271
+00:12:12,720 --> 00:12:16,680
+because
+
+272
+00:12:14,339 --> 00:12:18,180
+both are very assaulted we can go to one
+
+273
+00:12:16,680 --> 00:12:21,240
+array and then find research in another
+
+274
+00:12:18,180 --> 00:12:23,880
+way so the time convex is this one all n
+
+275
+00:12:21,240 --> 00:12:27,720
+times o and which one is better look at
+
+276
+00:12:23,880 --> 00:12:30,300
+least one big better than or n plus m
+
+277
+00:12:27,720 --> 00:12:34,579
+which is which one is better o n Times
+
+278
+00:12:30,300 --> 00:12:34,579
+log M or om plus n
+
+279
+00:12:36,120 --> 00:12:41,480
+um which one is bigger which one is
+
+280
+00:12:37,920 --> 00:12:44,519
+smaller okay I'm saying oh n plus n
+
+281
+00:12:41,480 --> 00:12:48,120
+or n Times log m
+
+282
+00:12:44,519 --> 00:12:50,339
+which one is smaller if N is a minion
+
+283
+00:12:48,120 --> 00:12:52,860
+then there is going through two million
+
+284
+00:12:50,339 --> 00:12:54,720
+times and here is a minion
+
+285
+00:12:52,860 --> 00:12:57,420
+a million times
+
+286
+00:12:54,720 --> 00:12:59,940
+again this is bigger than two right so
+
+287
+00:12:57,420 --> 00:13:01,620
+back this is better tuning your skin is
+
+288
+00:12:59,940 --> 00:13:05,399
+better than this one okay
+
+289
+00:13:01,620 --> 00:13:06,899
+yeah because luck Armenia is obviously
+
+290
+00:13:05,399 --> 00:13:09,480
+bigger than two
+
+291
+00:13:06,899 --> 00:13:11,880
+okay and then this is just two okay so
+
+292
+00:13:09,480 --> 00:13:14,880
+everything your approach is the optimum
+
+293
+00:13:11,880 --> 00:13:17,760
+it's the the best okay because you just
+
+294
+00:13:14,880 --> 00:13:19,800
+just tuning your skin and this one the
+
+295
+00:13:17,760 --> 00:13:21,959
+problem of this one is that you have to
+
+296
+00:13:19,800 --> 00:13:23,820
+go through each number and then for each
+
+297
+00:13:21,959 --> 00:13:25,620
+number you have to find a research in
+
+298
+00:13:23,820 --> 00:13:28,740
+the second array in the other way so it
+
+299
+00:13:25,620 --> 00:13:31,380
+takes more time am I right yeah yeah the
+
+300
+00:13:28,740 --> 00:13:35,040
+problem we want to solve is we have two
+
+301
+00:13:31,380 --> 00:13:39,240
+arrays with the numbers in them and we
+
+302
+00:13:35,040 --> 00:13:43,100
+want to find the the nice uh smallest
+
+303
+00:13:39,240 --> 00:13:48,120
+number that appears in both of them
+
+304
+00:13:43,100 --> 00:13:49,920
+if if it's if there isn't any we return
+
+305
+00:13:48,120 --> 00:13:51,180
+minus one
+
+306
+00:13:49,920 --> 00:13:55,980
+mm-hmm
+
+307
+00:13:51,180 --> 00:13:59,880
+so one approach is you before you one
+
+308
+00:13:55,980 --> 00:14:03,839
+approach is uh you scan um
+
+309
+00:13:59,880 --> 00:14:06,120
+you do two point I think uh one that one
+
+310
+00:14:03,839 --> 00:14:09,720
+and a one and B
+
+311
+00:14:06,120 --> 00:14:15,420
+or or whatever you can call it right
+
+312
+00:14:09,720 --> 00:14:18,120
+left and and so and so if one is smaller
+
+313
+00:14:15,420 --> 00:14:21,540
+smaller than the other then we just move
+
+314
+00:14:18,120 --> 00:14:23,639
+it and and then if one of them is bigger
+
+315
+00:14:21,540 --> 00:14:27,240
+than the other we need we just move the
+
+316
+00:14:23,639 --> 00:14:32,579
+smaller one and and then it it it it
+
+317
+00:14:27,240 --> 00:14:35,760
+goes on until until you reach the end or
+
+318
+00:14:32,579 --> 00:14:37,100
+or you find a matching pair yeah well
+
+319
+00:14:35,760 --> 00:14:39,540
+done good job
+
+320
+00:14:37,100 --> 00:14:41,279
+yeah two pointer okay and the proof of
+
+321
+00:14:39,540 --> 00:14:43,800
+the obviously I'm buying a search okay
+
+322
+00:14:41,279 --> 00:14:48,360
+okay and then using a set intersection
+
+323
+00:14:43,800 --> 00:14:48,360
+of two sets okay bye-bye bye
+

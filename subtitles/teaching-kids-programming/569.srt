@@ -1,0 +1,832 @@
+1
+00:00:00,000 --> 00:00:03,000
+Maybe
+
+2
+00:00:04,380 --> 00:00:10,700
+what's playing on the tree hey did you
+
+3
+00:00:06,359 --> 00:00:10,700
+know that five years ago dad had
+
+4
+00:00:12,420 --> 00:00:17,520
+nothing what's financially uh it's a
+
+5
+00:00:14,880 --> 00:00:20,039
+tree data structure right it's a data
+
+6
+00:00:17,520 --> 00:00:24,560
+structure binary tree is a it's like
+
+7
+00:00:20,039 --> 00:00:28,460
+this is a graph with
+
+8
+00:00:24,560 --> 00:00:31,260
+maximum two it's dag yeah attack
+
+9
+00:00:28,460 --> 00:00:34,020
+yeah directly means that some parents
+
+10
+00:00:31,260 --> 00:00:36,360
+took it okay so it's a data structure
+
+11
+00:00:34,020 --> 00:00:39,360
+hey that structure is how the computer
+
+12
+00:00:36,360 --> 00:00:41,640
+how we ask computer how to store the
+
+13
+00:00:39,360 --> 00:00:45,239
+data in an organized way okay data
+
+14
+00:00:41,640 --> 00:00:47,040
+structure so financially what kind of
+
+15
+00:00:45,239 --> 00:00:50,520
+order does the web for search order is
+
+16
+00:00:47,040 --> 00:00:53,100
+for this particular tree one two three
+
+17
+00:00:50,520 --> 00:00:55,860
+four five six seven level by level
+
+18
+00:00:53,100 --> 00:00:58,020
+what's the data structure we need to use
+
+19
+00:00:55,860 --> 00:01:01,739
+to perform a buffer search
+
+20
+00:00:58,020 --> 00:01:04,739
+q q yes Q
+
+21
+00:01:01,739 --> 00:01:04,739
+foreign
+
+22
+00:01:11,040 --> 00:01:17,880
+Zach what's the zika so one three two
+
+23
+00:01:15,780 --> 00:01:21,960
+and then the next one will be four five
+
+24
+00:01:17,880 --> 00:01:24,540
+six seven eleven ten nine okay so what's
+
+25
+00:01:21,960 --> 00:01:30,540
+this that's not a zigzag it's a line
+
+26
+00:01:24,540 --> 00:01:32,040
+like one yeah if full had another kid it
+
+27
+00:01:30,540 --> 00:01:34,680
+would be Sports
+
+28
+00:01:32,040 --> 00:01:36,180
+seven it's yeah that's what I'm saying
+
+29
+00:01:34,680 --> 00:01:38,720
+if four had another kid it would be
+
+30
+00:01:36,180 --> 00:01:38,720
+squashed
+
+31
+00:01:39,200 --> 00:01:42,619
+is uneven
+
+32
+00:01:43,340 --> 00:01:49,140
+salmon is a baby
+
+33
+00:01:45,560 --> 00:01:51,000
+yeah yeah okay so the the key thing here
+
+34
+00:01:49,140 --> 00:01:53,100
+is that
+
+35
+00:01:51,000 --> 00:01:54,840
+professor she always from left to the
+
+36
+00:01:53,100 --> 00:01:58,680
+right right yes
+
+37
+00:01:54,840 --> 00:02:02,640
+so now I'm just changing the order of uh
+
+38
+00:01:58,680 --> 00:02:05,040
+every other level okay so one one is
+
+39
+00:02:02,640 --> 00:02:08,160
+from left to the right
+
+40
+00:02:05,040 --> 00:02:10,440
+next level is from right to the left the
+
+41
+00:02:08,160 --> 00:02:14,420
+next one is from left to the right the
+
+42
+00:02:10,440 --> 00:02:17,340
+next one is from right to the left okay
+
+43
+00:02:14,420 --> 00:02:19,140
+yes I'm going to return this you know
+
+44
+00:02:17,340 --> 00:02:21,360
+away other ways so we're going to
+
+45
+00:02:19,140 --> 00:02:23,700
+pretend this
+
+46
+00:02:21,360 --> 00:02:25,340
+okay
+
+47
+00:02:23,700 --> 00:02:27,200
+why is
+
+48
+00:02:25,340 --> 00:02:29,760
+[Music]
+
+49
+00:02:27,200 --> 00:02:31,620
+instead of two three that's good
+
+50
+00:02:29,760 --> 00:02:34,920
+question that's how we perform a zigzag
+
+51
+00:02:31,620 --> 00:02:36,720
+okay make it make it more interesting so
+
+52
+00:02:34,920 --> 00:02:39,360
+one from left to the right and the next
+
+53
+00:02:36,720 --> 00:02:41,879
+one right to the left next one left to
+
+54
+00:02:39,360 --> 00:02:44,700
+the right next one right to the left
+
+55
+00:02:41,879 --> 00:02:48,500
+so what kind of the algorithm can we use
+
+56
+00:02:44,700 --> 00:02:48,500
+to to give this a kind of order
+
+57
+00:02:55,040 --> 00:03:01,440
+where in the code we need to modify that
+
+58
+00:02:58,560 --> 00:03:04,200
+to make it dig them you mentioned that
+
+59
+00:03:01,440 --> 00:03:06,480
+we need to use the Q double ndq first in
+
+60
+00:03:04,200 --> 00:03:10,980
+first out right
+
+61
+00:03:06,480 --> 00:03:13,680
+before I prefer search we have a loot
+
+62
+00:03:10,980 --> 00:03:16,860
+the special case is that if the loot
+
+63
+00:03:13,680 --> 00:03:19,080
+given is empty if not rooted if loot is
+
+64
+00:03:16,860 --> 00:03:22,140
+9 we just need to return immediately
+
+65
+00:03:19,080 --> 00:03:23,400
+okay with an empty this answer equals
+
+66
+00:03:22,140 --> 00:03:28,319
+this
+
+67
+00:03:23,400 --> 00:03:30,420
+at the beginning we use the Q equals DQ
+
+68
+00:03:28,319 --> 00:03:33,260
+at the beginning we put a note in right
+
+69
+00:03:30,420 --> 00:03:33,260
+there's only one note
+
+70
+00:03:36,720 --> 00:03:42,120
+okay a kill at the beginning I put a one
+
+71
+00:03:39,720 --> 00:03:44,040
+in when there is Anime in the queue I
+
+72
+00:03:42,120 --> 00:03:46,080
+take it out right so but when you want
+
+73
+00:03:44,040 --> 00:03:49,080
+to take all the notes in the same level
+
+74
+00:03:46,080 --> 00:03:50,940
+we need to know how many nodes in the
+
+75
+00:03:49,080 --> 00:03:53,580
+same level which is this lens I can't
+
+76
+00:03:50,940 --> 00:03:57,000
+remember let's put it in carbon at the
+
+77
+00:03:53,580 --> 00:03:59,459
+beginning it's empty with these stores
+
+78
+00:03:57,000 --> 00:04:02,959
+the number of nodes in the center like
+
+79
+00:03:59,459 --> 00:04:07,680
+one two three four five okay so for
+
+80
+00:04:02,959 --> 00:04:09,780
+underscore in range and there are nodes
+
+81
+00:04:07,680 --> 00:04:10,860
+in the camera right and I need to pop it
+
+82
+00:04:09,780 --> 00:04:14,099
+out
+
+83
+00:04:10,860 --> 00:04:15,360
+so x equals Q dot we want to take this
+
+84
+00:04:14,099 --> 00:04:17,419
+element out
+
+85
+00:04:15,360 --> 00:04:19,859
+what's the message
+
+86
+00:04:17,419 --> 00:04:22,680
+up left
+
+87
+00:04:19,859 --> 00:04:24,840
+if we don't specify the lab which side
+
+88
+00:04:22,680 --> 00:04:27,000
+does it take right side effect and we
+
+89
+00:04:24,840 --> 00:04:29,639
+look this side is a pen
+
+90
+00:04:27,000 --> 00:04:31,620
+okay and you've learned a pen on the
+
+91
+00:04:29,639 --> 00:04:33,240
+left hand side what do we call it this
+
+92
+00:04:31,620 --> 00:04:37,880
+is a pen
+
+93
+00:04:33,240 --> 00:04:37,880
+a pen a pen left right A pen left
+
+94
+00:04:38,820 --> 00:04:45,000
+and this side is top if we don't specify
+
+95
+00:04:42,240 --> 00:04:47,220
+the left it's on the right okay this is
+
+96
+00:04:45,000 --> 00:04:50,100
+double ended because we can do this push
+
+97
+00:04:47,220 --> 00:04:52,800
+and pop on two sides double ended kill
+
+98
+00:04:50,100 --> 00:04:54,300
+that pop left
+
+99
+00:04:52,800 --> 00:04:58,139
+okay
+
+100
+00:04:54,300 --> 00:05:02,040
+current a pen x right then if x start
+
+101
+00:04:58,139 --> 00:05:04,259
+left we have a left now Q dot append
+
+102
+00:05:02,040 --> 00:05:06,120
+extra left and we need to do this for
+
+103
+00:05:04,259 --> 00:05:08,759
+the same for the right tree if there is
+
+104
+00:05:06,120 --> 00:05:11,400
+the right tree
+
+105
+00:05:08,759 --> 00:05:13,860
+Q dot upon
+
+106
+00:05:11,400 --> 00:05:16,380
+x dot y
+
+107
+00:05:13,860 --> 00:05:19,199
+and return
+
+108
+00:05:16,380 --> 00:05:20,820
+answer okay so now we have this current
+
+109
+00:05:19,199 --> 00:05:23,940
+right after these
+
+110
+00:05:20,820 --> 00:05:27,380
+no we need to push it to answer answer
+
+111
+00:05:23,940 --> 00:05:27,380
+the apparent carbon node
+
+112
+00:05:27,960 --> 00:05:30,740
+different answer
+
+113
+00:05:31,500 --> 00:05:36,180
+this is standard pressure search this is
+
+114
+00:05:34,139 --> 00:05:39,240
+kind of repeated right if we checking if
+
+115
+00:05:36,180 --> 00:05:42,000
+let node has the left note we push it
+
+116
+00:05:39,240 --> 00:05:45,000
+two in it has a rhino push to it right
+
+117
+00:05:42,000 --> 00:05:46,860
+so we can do a loop for Loop for Kit
+
+118
+00:05:45,000 --> 00:05:48,240
+yeah kit
+
+119
+00:05:46,860 --> 00:05:52,020
+in
+
+120
+00:05:48,240 --> 00:05:54,960
+x dot net x dot y right
+
+121
+00:05:52,020 --> 00:05:57,680
+and then if the kid is not known if kit
+
+122
+00:05:54,960 --> 00:06:01,560
+or if kit is not long then we do this Q
+
+123
+00:05:57,680 --> 00:06:04,620
+dot a pen okay right and that's it yes
+
+124
+00:06:01,560 --> 00:06:07,020
+so okay so let's emulate these
+
+125
+00:06:04,620 --> 00:06:08,699
+professors okay I put a one in right I
+
+126
+00:06:07,020 --> 00:06:09,600
+take everything in a queue how many
+
+127
+00:06:08,699 --> 00:06:11,759
+notes
+
+128
+00:06:09,600 --> 00:06:14,340
+now
+
+129
+00:06:11,759 --> 00:06:16,020
+one right just one right so I take it
+
+130
+00:06:14,340 --> 00:06:19,680
+out one here
+
+131
+00:06:16,020 --> 00:06:22,500
+what's the kit of one three three
+
+132
+00:06:19,680 --> 00:06:25,259
+yeah three and two so I push it two and
+
+133
+00:06:22,500 --> 00:06:27,360
+three you know right two and three how
+
+134
+00:06:25,259 --> 00:06:30,300
+many kids are in the queue now
+
+135
+00:06:27,360 --> 00:06:31,979
+two yeah which are two and three two and
+
+136
+00:06:30,300 --> 00:06:35,340
+three they are innocent level right so I
+
+137
+00:06:31,979 --> 00:06:40,080
+take it off what's the kid up too
+
+138
+00:06:35,340 --> 00:06:42,060
+four or five okay what's kid of three
+
+139
+00:06:40,080 --> 00:06:44,580
+okay nothing we just skip okay so
+
+140
+00:06:42,060 --> 00:06:46,380
+basically this is what a professor is on
+
+141
+00:06:44,580 --> 00:06:48,840
+the left-hand side Lisa keep the order
+
+142
+00:06:46,380 --> 00:06:50,699
+one two three four five so which line of
+
+143
+00:06:48,840 --> 00:06:53,340
+code we need to change to make it you
+
+144
+00:06:50,699 --> 00:06:56,720
+know zigzag coming back to the subject
+
+145
+00:06:53,340 --> 00:06:56,720
+the second the
+
+146
+00:06:58,620 --> 00:07:02,940
+last yeah so this one needs to be
+
+147
+00:07:01,199 --> 00:07:05,039
+reversed but it's not not right this
+
+148
+00:07:02,940 --> 00:07:06,979
+neither so how do we know if it's an
+
+149
+00:07:05,039 --> 00:07:10,259
+even land
+
+150
+00:07:06,979 --> 00:07:11,759
+we check so look at this answer thing
+
+151
+00:07:10,259 --> 00:07:13,860
+right one
+
+152
+00:07:11,759 --> 00:07:16,680
+two three
+
+153
+00:07:13,860 --> 00:07:21,000
+four five right something like that so
+
+154
+00:07:16,680 --> 00:07:22,919
+we are adding the one two three Low by
+
+155
+00:07:21,000 --> 00:07:25,560
+row to it so we just have to check the
+
+156
+00:07:22,919 --> 00:07:26,520
+length of the answer right so if it's
+
+157
+00:07:25,560 --> 00:07:29,539
+the
+
+158
+00:07:26,520 --> 00:07:29,539
+if current
+
+159
+00:07:30,080 --> 00:07:35,160
+elements of answers
+
+160
+00:07:32,520 --> 00:07:37,380
+is odd number then we need to reverse
+
+161
+00:07:35,160 --> 00:07:39,000
+this right so we need to reverse these
+
+162
+00:07:37,380 --> 00:07:41,580
+two three all right but not left right
+
+163
+00:07:39,000 --> 00:07:44,940
+so how can we do this so we just have to
+
+164
+00:07:41,580 --> 00:07:47,340
+check change a bit slow right yeah the
+
+165
+00:07:44,940 --> 00:07:50,400
+answer not a pen current right make
+
+166
+00:07:47,340 --> 00:07:52,199
+sense so we just have to check if the
+
+167
+00:07:50,400 --> 00:07:54,240
+length of the answer is an odd number
+
+168
+00:07:52,199 --> 00:07:56,759
+right if it's an odd number then the
+
+169
+00:07:54,240 --> 00:07:58,560
+next one I need to I need to reverse it
+
+170
+00:07:56,759 --> 00:08:01,259
+if it's a odd number
+
+171
+00:07:58,560 --> 00:08:03,120
+answer a pen
+
+172
+00:08:01,259 --> 00:08:06,500
+how do you reverse it
+
+173
+00:08:03,120 --> 00:08:06,500
+how do we reverse current
+
+174
+00:08:06,780 --> 00:08:11,759
+column color Madison
+
+175
+00:08:08,759 --> 00:08:14,160
+otherwise answer dot a pen just put it
+
+176
+00:08:11,759 --> 00:08:15,900
+straight away okay this is only the
+
+177
+00:08:14,160 --> 00:08:19,080
+difference right we just want to make it
+
+178
+00:08:15,900 --> 00:08:20,819
+more interesting by reversing the even
+
+179
+00:08:19,080 --> 00:08:23,280
+row okay
+
+180
+00:08:20,819 --> 00:08:25,800
+when we have odd number of reverse in
+
+181
+00:08:23,280 --> 00:08:27,660
+the answer the next one to reverse okay
+
+182
+00:08:25,800 --> 00:08:28,860
+and then next one not next one could
+
+183
+00:08:27,660 --> 00:08:31,220
+reverse
+
+184
+00:08:28,860 --> 00:08:31,220
+okay
+
+185
+00:08:31,339 --> 00:08:36,240
+one two three four five how do you
+
+186
+00:08:34,260 --> 00:08:37,800
+reverse it colonialism but if we want to
+
+187
+00:08:36,240 --> 00:08:39,360
+use the equivalent what kind of eggplant
+
+188
+00:08:37,800 --> 00:08:42,180
+how do we do verse one two three four
+
+189
+00:08:39,360 --> 00:08:44,399
+five two points up yeah it's left and
+
+190
+00:08:42,180 --> 00:08:46,220
+right one five what do we do with one
+
+191
+00:08:44,399 --> 00:08:50,480
+block
+
+192
+00:08:46,220 --> 00:08:50,480
+I'll become fire and one line
+
+193
+00:08:50,899 --> 00:08:54,260
+what do we do
+
+194
+00:08:55,880 --> 00:09:01,580
+support them
+
+195
+00:08:58,500 --> 00:09:04,980
+and if they meet today that's it okay
+
+196
+00:09:01,580 --> 00:09:08,220
+time to next day for Lisa
+
+197
+00:09:04,980 --> 00:09:10,380
+obviously we need to visit every single
+
+198
+00:09:08,220 --> 00:09:12,480
+tree every note in a tree right so
+
+199
+00:09:10,380 --> 00:09:15,570
+what's the name of today
+
+200
+00:09:12,480 --> 00:09:17,180
+how to make a zigzag okay
+
+201
+00:09:15,570 --> 00:09:20,000
+[Music]
+
+202
+00:09:17,180 --> 00:09:24,060
+do we use today
+
+203
+00:09:20,000 --> 00:09:25,860
+yeah but there's one modification of the
+
+204
+00:09:24,060 --> 00:09:28,980
+perfect search
+
+205
+00:09:25,860 --> 00:09:30,899
+I need to reverse the even yeah we need
+
+206
+00:09:28,980 --> 00:09:33,360
+to reverse it an even number of rows
+
+207
+00:09:30,899 --> 00:09:35,959
+okay okay let's see for today bye-bye
+
+208
+00:09:33,360 --> 00:09:35,959
+bye bye
+

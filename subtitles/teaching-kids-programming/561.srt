@@ -1,0 +1,1300 @@
+1
+00:00:03,319 --> 00:00:08,700
+okay so we're given the integer I want
+
+2
+00:00:06,839 --> 00:00:11,120
+to transform that to something on the
+
+3
+00:00:08,700 --> 00:00:14,340
+right so basically we extract each digit
+
+4
+00:00:11,120 --> 00:00:16,980
+and you see five two three five minus
+
+5
+00:00:14,340 --> 00:00:19,619
+two plus three equals six three two one
+
+6
+00:00:16,980 --> 00:00:21,720
+zero three minus two plus one minus zero
+
+7
+00:00:19,619 --> 00:00:23,760
+one just one one two three one minus two
+
+8
+00:00:21,720 --> 00:00:25,320
+plus three equals two it doesn't have to
+
+9
+00:00:23,760 --> 00:00:28,560
+be minus plus
+
+10
+00:00:25,320 --> 00:00:31,500
+that's right yes so the leftmost we call
+
+11
+00:00:28,560 --> 00:00:33,540
+it the most uh significant digit okay
+
+12
+00:00:31,500 --> 00:00:35,700
+most significant digit on the left right
+
+13
+00:00:33,540 --> 00:00:38,040
+because this is the most significant at
+
+14
+00:00:35,700 --> 00:00:40,800
+least one is this one on the right hand
+
+15
+00:00:38,040 --> 00:00:43,079
+side this is one right these are the
+
+16
+00:00:40,800 --> 00:00:45,300
+least significant digits
+
+17
+00:00:43,079 --> 00:00:48,539
+okay so we start with most significant
+
+18
+00:00:45,300 --> 00:00:51,899
+digit always with plus one and the next
+
+19
+00:00:48,539 --> 00:00:54,120
+and the next digit is -1 and the next
+
+20
+00:00:51,899 --> 00:00:57,059
+digit is plus one again so alternative
+
+21
+00:00:54,120 --> 00:00:58,980
+sine digit okay so we just want to know
+
+22
+00:00:57,059 --> 00:01:01,079
+the sum what's your thoughts about it
+
+23
+00:00:58,980 --> 00:01:03,539
+are you given the number on the left
+
+24
+00:01:01,079 --> 00:01:05,760
+yeah I will not get this number on the
+
+25
+00:01:03,539 --> 00:01:09,180
+right you only have like one choice like
+
+26
+00:01:05,760 --> 00:01:12,659
+minus plus minus plus yeah one choice
+
+27
+00:01:09,180 --> 00:01:14,520
+yes yeah yeah and so you're giving given
+
+28
+00:01:12,659 --> 00:01:16,200
+the one the number on the left and
+
+29
+00:01:14,520 --> 00:01:18,960
+you're trying to give the number on the
+
+30
+00:01:16,200 --> 00:01:21,479
+right that's right yes okay I feel
+
+31
+00:01:18,960 --> 00:01:23,780
+confess it and then so what's your sauce
+
+32
+00:01:21,479 --> 00:01:23,780
+okay
+
+33
+00:01:24,240 --> 00:01:27,020
+I think we're done
+
+34
+00:01:29,759 --> 00:01:33,240
+so it's easy
+
+35
+00:01:31,259 --> 00:01:34,860
+easy it's simulation it's basically
+
+36
+00:01:33,240 --> 00:01:35,880
+doing what you're told right so you're
+
+37
+00:01:34,860 --> 00:01:38,880
+basically
+
+38
+00:01:35,880 --> 00:01:38,880
+okay
+
+39
+00:01:43,740 --> 00:01:48,960
+how do we extract each digit so you
+
+40
+00:01:46,020 --> 00:01:52,200
+start with the first first number which
+
+41
+00:01:48,960 --> 00:01:56,579
+you said is the most significant digit
+
+42
+00:01:52,200 --> 00:01:59,579
+and then for every two numbers every two
+
+43
+00:01:56,579 --> 00:02:02,399
+numbers leave every two digits you
+
+44
+00:01:59,579 --> 00:02:05,880
+subtract that digit okay and then for
+
+45
+00:02:02,399 --> 00:02:07,560
+others we add it yeah okay okay so my
+
+46
+00:02:05,880 --> 00:02:09,239
+question was more like how do you get
+
+47
+00:02:07,560 --> 00:02:11,340
+the five how do you get the two how do
+
+48
+00:02:09,239 --> 00:02:12,900
+you get the three and then there are two
+
+49
+00:02:11,340 --> 00:02:14,400
+ways right you can start from the left
+
+50
+00:02:12,900 --> 00:02:17,760
+to the right or you can start from right
+
+51
+00:02:14,400 --> 00:02:21,420
+to the left right which one is better
+
+52
+00:02:17,760 --> 00:02:25,379
+from the left to the right I think it's
+
+53
+00:02:21,420 --> 00:02:30,420
+tiver it depends on what or or what the
+
+54
+00:02:25,379 --> 00:02:32,400
+number is like moderate I think yes but
+
+55
+00:02:30,420 --> 00:02:34,319
+I'm saying that okay so five two three
+
+56
+00:02:32,400 --> 00:02:35,459
+you start from the left to the right or
+
+57
+00:02:34,319 --> 00:02:37,319
+you start from the right to the left
+
+58
+00:02:35,459 --> 00:02:39,599
+that's what I'm saying left you right
+
+59
+00:02:37,319 --> 00:02:42,780
+left to the right end
+
+60
+00:02:39,599 --> 00:02:45,360
+he says we're left I think it I think
+
+61
+00:02:42,780 --> 00:02:47,640
+left to right is how you do it because
+
+62
+00:02:45,360 --> 00:02:50,400
+English you like read it like that way
+
+63
+00:02:47,640 --> 00:02:52,500
+but and also you said it's the most
+
+64
+00:02:50,400 --> 00:02:54,780
+significant yeah yeah
+
+65
+00:02:52,500 --> 00:02:56,640
+right yeah okay so that's what I want to
+
+66
+00:02:54,780 --> 00:02:58,920
+know yeah because five two three yeah
+
+67
+00:02:56,640 --> 00:03:01,620
+always start with the positive right so
+
+68
+00:02:58,920 --> 00:03:03,480
+you know intuitively yeah five two three
+
+69
+00:03:01,620 --> 00:03:06,239
+we start from the left to the right
+
+70
+00:03:03,480 --> 00:03:08,220
+there are only two choice if it's even
+
+71
+00:03:06,239 --> 00:03:09,540
+number of digits or if it's the odd
+
+72
+00:03:08,220 --> 00:03:11,400
+number of these right you don't know
+
+73
+00:03:09,540 --> 00:03:13,739
+which one is it
+
+74
+00:03:11,400 --> 00:03:15,360
+all right so you can still do it from
+
+75
+00:03:13,739 --> 00:03:17,400
+left to the right as long as we come
+
+76
+00:03:15,360 --> 00:03:19,019
+release into
+
+77
+00:03:17,400 --> 00:03:21,300
+string
+
+78
+00:03:19,019 --> 00:03:23,940
+so with the string then I can cut each
+
+79
+00:03:21,300 --> 00:03:26,159
+digit we can also do it from right to
+
+80
+00:03:23,940 --> 00:03:27,959
+the left but the problem with the right
+
+81
+00:03:26,159 --> 00:03:30,840
+to the left is that you don't know which
+
+82
+00:03:27,959 --> 00:03:33,000
+one you know if you five two three these
+
+83
+00:03:30,840 --> 00:03:35,400
+three this is one this is plus one and
+
+84
+00:03:33,000 --> 00:03:39,180
+this is past right but if it's five two
+
+85
+00:03:35,400 --> 00:03:40,920
+three four this will be minus right plus
+
+86
+00:03:39,180 --> 00:03:43,739
+minus
+
+87
+00:03:40,920 --> 00:03:45,299
+plus minus MRI if you start from the
+
+88
+00:03:43,739 --> 00:03:49,379
+right to the left but you're not sure
+
+89
+00:03:45,299 --> 00:03:51,540
+which one is the least significant digit
+
+90
+00:03:49,379 --> 00:03:53,400
+right but why do we need to care about
+
+91
+00:03:51,540 --> 00:03:56,099
+starting from right to the left because
+
+92
+00:03:53,400 --> 00:03:59,040
+it's easy to do the math modulus right
+
+93
+00:03:56,099 --> 00:04:00,120
+look five two three four how do we get
+
+94
+00:03:59,040 --> 00:04:04,140
+the four
+
+95
+00:04:00,120 --> 00:04:06,140
+models by 10. multiply 10 and then
+
+96
+00:04:04,140 --> 00:04:08,879
+divided by 10. how do we get a three
+
+97
+00:04:06,140 --> 00:04:12,239
+modules by ten
+
+98
+00:04:08,879 --> 00:04:14,280
+divided by 10 modules by 10 divided by
+
+99
+00:04:12,239 --> 00:04:17,160
+10. let's do this uh the first approach
+
+100
+00:04:14,280 --> 00:04:20,100
+using the converting to the string as
+
+101
+00:04:17,160 --> 00:04:22,620
+equal if the number is uh defined okay f
+
+102
+00:04:20,100 --> 00:04:26,460
+n okay and then this needs to return
+
+103
+00:04:22,620 --> 00:04:28,800
+integer Type S equals Str we convert it
+
+104
+00:04:26,460 --> 00:04:30,360
+to a string answer equals elevation zero
+
+105
+00:04:28,800 --> 00:04:32,699
+sine
+
+106
+00:04:30,360 --> 00:04:34,620
+plus one minus one right so at the
+
+107
+00:04:32,699 --> 00:04:37,919
+beginning is plus one yeah
+
+108
+00:04:34,620 --> 00:04:39,360
+for I in s
+
+109
+00:04:37,919 --> 00:04:43,919
+answer
+
+110
+00:04:39,360 --> 00:04:47,580
+plus equal and the plus equal I I this
+
+111
+00:04:43,919 --> 00:04:51,360
+is the string we cover T2 integer
+
+112
+00:04:47,580 --> 00:04:53,160
+converted to integer yeah times
+
+113
+00:04:51,360 --> 00:04:57,180
+sign
+
+114
+00:04:53,160 --> 00:04:59,699
+okay yeah I learned I need to make plus
+
+115
+00:04:57,180 --> 00:05:02,220
+one two minus one how do I neglect The
+
+116
+00:04:59,699 --> 00:05:03,720
+Sign Plus make it minus if it's minus I
+
+117
+00:05:02,220 --> 00:05:05,220
+want to make a plus how do I do this
+
+118
+00:05:03,720 --> 00:05:09,080
+sign equals what
+
+119
+00:05:05,220 --> 00:05:12,199
+uh equals minus minus sign
+
+120
+00:05:09,080 --> 00:05:15,780
+oh sign
+
+121
+00:05:12,199 --> 00:05:17,460
+equals sine times equal minus one one
+
+122
+00:05:15,780 --> 00:05:19,919
+times minus one
+
+123
+00:05:17,460 --> 00:05:22,919
+is minus one and minus one times minus
+
+124
+00:05:19,919 --> 00:05:28,080
+one is one and then we turn
+
+125
+00:05:22,919 --> 00:05:30,419
+and look if the number n has n digit and
+
+126
+00:05:28,080 --> 00:05:32,820
+digit the time complexity we're going
+
+127
+00:05:30,419 --> 00:05:35,039
+through each one so o n
+
+128
+00:05:32,820 --> 00:05:38,880
+phase complexity we need to convert it
+
+129
+00:05:35,039 --> 00:05:41,160
+to a string and this is O and Y if n is
+
+130
+00:05:38,880 --> 00:05:42,419
+the number of digits okay number of
+
+131
+00:05:41,160 --> 00:05:45,479
+digits
+
+132
+00:05:42,419 --> 00:05:48,539
+yeah so n is the number of digits then
+
+133
+00:05:45,479 --> 00:05:50,220
+it's block 10 face the N right look
+
+134
+00:05:48,539 --> 00:05:52,979
+because block one two three four how
+
+135
+00:05:50,220 --> 00:05:56,699
+many digits four digits so one two three
+
+136
+00:05:52,979 --> 00:05:58,740
+four is the inner scale of log ten one
+
+137
+00:05:56,699 --> 00:06:01,740
+two three four okay
+
+138
+00:05:58,740 --> 00:06:06,300
+n is the number of digits and log 10
+
+139
+00:06:01,740 --> 00:06:09,180
+base 10. block 10 100 what's this number
+
+140
+00:06:06,300 --> 00:06:12,120
+10 to the what power equals a hundred
+
+141
+00:06:09,180 --> 00:06:15,360
+two two not ten a hundred equals two
+
+142
+00:06:12,120 --> 00:06:16,680
+okay mixes okay the other way we're
+
+143
+00:06:15,360 --> 00:06:19,680
+going through the number from the right
+
+144
+00:06:16,680 --> 00:06:22,020
+to the left okay okay so that's a trick
+
+145
+00:06:19,680 --> 00:06:24,000
+to do this
+
+146
+00:06:22,020 --> 00:06:26,160
+that's a trick with tourists okay
+
+147
+00:06:24,000 --> 00:06:27,840
+previously I was talking about that we
+
+148
+00:06:26,160 --> 00:06:30,300
+are not sure that this significant digit
+
+149
+00:06:27,840 --> 00:06:33,240
+if it's the plus or minus right yeah
+
+150
+00:06:30,300 --> 00:06:37,020
+yeah yeah okay how about let's try with
+
+151
+00:06:33,240 --> 00:06:41,100
+minus one one two three four okay yeah
+
+152
+00:06:37,020 --> 00:06:44,280
+minus four plus three minus two plus one
+
+153
+00:06:41,100 --> 00:06:47,340
+and if I add another digit minus five
+
+154
+00:06:44,280 --> 00:06:49,979
+plus four minus three plus two minus one
+
+155
+00:06:47,340 --> 00:06:52,680
+minus one plus one minus one plus one so
+
+156
+00:06:49,979 --> 00:06:54,660
+plus one and the last one minus one plus
+
+157
+00:06:52,680 --> 00:06:56,340
+one minus one plus one minus one this is
+
+158
+00:06:54,660 --> 00:06:59,280
+one two three four yeah the answer
+
+159
+00:06:56,340 --> 00:07:02,039
+should be one minus two plus three minus
+
+160
+00:06:59,280 --> 00:07:04,319
+four this is equals to minus two okay
+
+161
+00:07:02,039 --> 00:07:07,080
+this is the answer this is correct and
+
+162
+00:07:04,319 --> 00:07:09,000
+the sign is plus one one minus two okay
+
+163
+00:07:07,080 --> 00:07:12,600
+I'm confused
+
+164
+00:07:09,000 --> 00:07:15,979
+one minus two plus three two two and
+
+165
+00:07:12,600 --> 00:07:20,220
+five one two three four five seven seven
+
+166
+00:07:15,979 --> 00:07:23,180
+minus one seven minus two this is seven
+
+167
+00:07:20,220 --> 00:07:28,259
+why is it seven hundred
+
+168
+00:07:23,180 --> 00:07:30,720
+this is one this is one one so this is
+
+169
+00:07:28,259 --> 00:07:34,560
+three okay I know what we get from here
+
+170
+00:07:30,720 --> 00:07:38,780
+seven minus one minus one minus three
+
+171
+00:07:34,560 --> 00:07:42,479
+plus two minus one that's minus four
+
+172
+00:07:38,780 --> 00:07:44,819
+minus two minus three okay
+
+173
+00:07:42,479 --> 00:07:46,380
+okay so look if we are always starting
+
+174
+00:07:44,819 --> 00:07:49,919
+with the minus one on the least
+
+175
+00:07:46,380 --> 00:07:51,360
+significant digit for the odd number of
+
+176
+00:07:49,919 --> 00:07:54,660
+digit number
+
+177
+00:07:51,360 --> 00:07:57,060
+we need to we need to negate this right
+
+178
+00:07:54,660 --> 00:07:59,759
+so but it's okay because at the end the
+
+179
+00:07:57,060 --> 00:08:02,880
+sign is minus one we just need to fix
+
+180
+00:07:59,759 --> 00:08:04,680
+the Sun by times the sun okay does it
+
+181
+00:08:02,880 --> 00:08:06,780
+make sense yeah
+
+182
+00:08:04,680 --> 00:08:09,300
+yeah okay let me repeat okay this is a
+
+183
+00:08:06,780 --> 00:08:11,340
+little bit tricky tricky let's have a
+
+184
+00:08:09,300 --> 00:08:14,039
+little strategy okay let's start with
+
+185
+00:08:11,340 --> 00:08:16,919
+minus one from the right to the left so
+
+186
+00:08:14,039 --> 00:08:18,180
+this equals to minus two plus one
+
+187
+00:08:16,919 --> 00:08:21,180
+okay
+
+188
+00:08:18,180 --> 00:08:23,599
+this is minus one if we have another
+
+189
+00:08:21,180 --> 00:08:27,120
+value with the three digit one two three
+
+190
+00:08:23,599 --> 00:08:29,220
+this is minus three plus two minus one
+
+191
+00:08:27,120 --> 00:08:30,240
+this is minus two
+
+192
+00:08:29,220 --> 00:08:32,219
+okay
+
+193
+00:08:30,240 --> 00:08:34,560
+but the answer for this one should be
+
+194
+00:08:32,219 --> 00:08:38,219
+one minus two plus three this would be
+
+195
+00:08:34,560 --> 00:08:40,320
+two all right but we get minus two
+
+196
+00:08:38,219 --> 00:08:42,060
+but that's okay
+
+197
+00:08:40,320 --> 00:08:44,219
+we want to change the minus two to two
+
+198
+00:08:42,060 --> 00:08:46,980
+we need just need to fix the sign by
+
+199
+00:08:44,219 --> 00:08:51,060
+times the other side sine look
+
+200
+00:08:46,980 --> 00:08:52,860
+minus one plus one minus one times sun
+
+201
+00:08:51,060 --> 00:08:55,019
+when you turn this okay and how about
+
+202
+00:08:52,860 --> 00:08:57,420
+this one minus one
+
+203
+00:08:55,019 --> 00:08:59,399
+plus one when you still need to fix the
+
+204
+00:08:57,420 --> 00:09:01,980
+Sun but it's okay because minus one
+
+205
+00:08:59,399 --> 00:09:03,180
+times one equals one so we times percent
+
+206
+00:09:01,980 --> 00:09:05,640
+okay
+
+207
+00:09:03,180 --> 00:09:07,620
+so the strategy is that we start from
+
+208
+00:09:05,640 --> 00:09:09,360
+the least significant digit from right
+
+209
+00:09:07,620 --> 00:09:12,480
+to the left and we keep tracking of the
+
+210
+00:09:09,360 --> 00:09:15,060
+sun sun star is minus one plus one minus
+
+211
+00:09:12,480 --> 00:09:17,640
+one plus one and at the end we just have
+
+212
+00:09:15,060 --> 00:09:21,000
+to fix the sign by multiplying the
+
+213
+00:09:17,640 --> 00:09:23,160
+answer to the side does it make sense
+
+214
+00:09:21,000 --> 00:09:26,820
+we can do this uh look from right to the
+
+215
+00:09:23,160 --> 00:09:30,180
+left okay F and N is a digit it needs to
+
+216
+00:09:26,820 --> 00:09:32,820
+return the integer I answer equals zero
+
+217
+00:09:30,180 --> 00:09:36,480
+so at the beginning we set it one but we
+
+218
+00:09:32,820 --> 00:09:40,019
+immediately times it to minus one wire
+
+219
+00:09:36,480 --> 00:09:41,000
+and it's bigger than zero answer plus
+
+220
+00:09:40,019 --> 00:09:44,279
+equal
+
+221
+00:09:41,000 --> 00:09:46,500
+sign okay I need to change the sign sine
+
+222
+00:09:44,279 --> 00:09:48,540
+equals minus sign right
+
+223
+00:09:46,500 --> 00:09:50,399
+at the beginning is one and we are
+
+224
+00:09:48,540 --> 00:09:52,800
+starting from right to the left so you
+
+225
+00:09:50,399 --> 00:09:54,680
+immediately become minus one okay
+
+226
+00:09:52,800 --> 00:09:58,260
+sign
+
+227
+00:09:54,680 --> 00:09:59,760
+times N I want to get this n number one
+
+228
+00:09:58,260 --> 00:10:02,700
+two three I want to get this three how
+
+229
+00:09:59,760 --> 00:10:04,920
+do we get it us more do you understand
+
+230
+00:10:02,700 --> 00:10:07,760
+and then we need to get rid of sweet how
+
+231
+00:10:04,920 --> 00:10:07,760
+do we get rid of it
+
+232
+00:10:09,480 --> 00:10:15,480
+divided by 10 and then okay now we get
+
+233
+00:10:13,260 --> 00:10:16,860
+this now this answer we need to
+
+234
+00:10:15,480 --> 00:10:22,019
+return
+
+235
+00:10:16,860 --> 00:10:24,779
+answer times sine right okay this is the
+
+236
+00:10:22,019 --> 00:10:27,420
+last step to fix the sign okay this is
+
+237
+00:10:24,779 --> 00:10:29,040
+from right to the left yeah
+
+238
+00:10:27,420 --> 00:10:30,540
+time complexity
+
+239
+00:10:29,040 --> 00:10:33,440
+oh
+
+240
+00:10:30,540 --> 00:10:37,800
+and space come back to be first
+
+241
+00:10:33,440 --> 00:10:40,440
+uh one a one okay or one because there's
+
+242
+00:10:37,800 --> 00:10:42,360
+no arrays you know we're given n we just
+
+243
+00:10:40,440 --> 00:10:44,519
+have a few variables or one the time
+
+244
+00:10:42,360 --> 00:10:47,279
+till next day it's hard
+
+245
+00:10:44,519 --> 00:10:50,940
+at least not so what are we doing with
+
+246
+00:10:47,279 --> 00:10:53,220
+this end look at one two three four five
+
+247
+00:10:50,940 --> 00:10:54,899
+what's and look we just get rid of this
+
+248
+00:10:53,220 --> 00:10:58,320
+video get rid of this did you get rid of
+
+249
+00:10:54,899 --> 00:11:00,260
+this the end digit right so it's o n is
+
+250
+00:10:58,320 --> 00:11:03,060
+it simple
+
+251
+00:11:00,260 --> 00:11:06,839
+but you need to tell me what's the end
+
+252
+00:11:03,060 --> 00:11:08,220
+if we did and usually itself is well one
+
+253
+00:11:06,839 --> 00:11:10,019
+when you say oh one you don't need to
+
+254
+00:11:08,220 --> 00:11:12,180
+say and because there's no letter but
+
+255
+00:11:10,019 --> 00:11:14,579
+when you say o n you need to tell me
+
+256
+00:11:12,180 --> 00:11:18,360
+what n is n could be anything
+
+257
+00:11:14,579 --> 00:11:21,720
+n is n okay and N is the number of
+
+258
+00:11:18,360 --> 00:11:23,339
+digits in decimal format of of this
+
+259
+00:11:21,720 --> 00:11:25,380
+number for example one two three four
+
+260
+00:11:23,339 --> 00:11:28,620
+and N is four
+
+261
+00:11:25,380 --> 00:11:30,959
+because what are we doing here is
+
+262
+00:11:28,620 --> 00:11:32,459
+get the least significant digit get rid
+
+263
+00:11:30,959 --> 00:11:35,160
+of it you don't need to explain because
+
+264
+00:11:32,459 --> 00:11:38,279
+they all you need to know is o n
+
+265
+00:11:35,160 --> 00:11:40,740
+now use o n when you say o n it's just
+
+266
+00:11:38,279 --> 00:11:43,320
+50 percent when I ask you what's the
+
+267
+00:11:40,740 --> 00:11:44,940
+time complexity you say o n but I don't
+
+268
+00:11:43,320 --> 00:11:47,399
+know what n is you need to tell me what
+
+269
+00:11:44,940 --> 00:11:49,019
+n is n is the number of Digit I think
+
+270
+00:11:47,399 --> 00:11:51,620
+you know what n is because you written
+
+271
+00:11:49,019 --> 00:11:54,120
+no I could be anything okay okay
+
+272
+00:11:51,620 --> 00:11:57,240
+this is oh and it's the number of days
+
+273
+00:11:54,120 --> 00:12:00,380
+required okay so he said it is the
+
+274
+00:11:57,240 --> 00:12:04,040
+number of digits yes
+
+275
+00:12:00,380 --> 00:12:04,040
+divided by 10 okay
+
+276
+00:12:05,399 --> 00:12:09,420
+or you don't convert it to string this
+
+277
+00:12:07,200 --> 00:12:11,760
+is all mathematics right all numbers all
+
+278
+00:12:09,420 --> 00:12:14,579
+numbers numbers numbers
+
+279
+00:12:11,760 --> 00:12:16,860
+number we get the digit by modulus so
+
+280
+00:12:14,579 --> 00:12:18,720
+it's all numbers the thing here is we
+
+281
+00:12:16,860 --> 00:12:20,399
+need to multiply the sign as I said this
+
+282
+00:12:18,720 --> 00:12:22,680
+is a tricky way from right to the left
+
+283
+00:12:20,399 --> 00:12:25,320
+but from the left to the right we can
+
+284
+00:12:22,680 --> 00:12:27,360
+convert it to a string and get each
+
+285
+00:12:25,320 --> 00:12:28,680
+digit right and then we convert it to a
+
+286
+00:12:27,360 --> 00:12:31,260
+string and then we need to convert it
+
+287
+00:12:28,680 --> 00:12:34,860
+back using the in in I block two is
+
+288
+00:12:31,260 --> 00:12:36,720
+usually for binary 15. in binary is one
+
+289
+00:12:34,860 --> 00:12:39,300
+one one right you know that right and if
+
+290
+00:12:36,720 --> 00:12:41,880
+we want to go through the digit in
+
+291
+00:12:39,300 --> 00:12:43,440
+binary format is one one one and the
+
+292
+00:12:41,880 --> 00:12:44,660
+time conversation usually in this case
+
+293
+00:12:43,440 --> 00:12:46,320
+is
+
+294
+00:12:44,660 --> 00:12:51,060
+locked
+
+295
+00:12:46,320 --> 00:12:54,959
+n and log base 2 and N is the number is
+
+296
+00:12:51,060 --> 00:12:57,660
+15. log base n now this four in binary
+
+297
+00:12:54,959 --> 00:13:00,600
+one one one okay every time we get one
+
+298
+00:12:57,660 --> 00:13:02,940
+we shift it make sense yeah yeah what
+
+299
+00:13:00,600 --> 00:13:07,279
+have you learned today numbers and we're
+
+300
+00:13:02,940 --> 00:13:07,279
+doing some stuff sounds
+
+301
+00:13:09,480 --> 00:13:16,019
+plus minus plus minus
+
+302
+00:13:11,880 --> 00:13:18,779
+antique on all the digits and and then
+
+303
+00:13:16,019 --> 00:13:21,000
+we're getting the sound we're done and
+
+304
+00:13:18,779 --> 00:13:22,700
+then how can we do it uh usually how
+
+305
+00:13:21,000 --> 00:13:27,000
+many ways we learned how to do it today
+
+306
+00:13:22,700 --> 00:13:28,860
+what are those uh from left to right and
+
+307
+00:13:27,000 --> 00:13:31,320
+right to it yeah and which one you think
+
+308
+00:13:28,860 --> 00:13:33,779
+is better that's right
+
+309
+00:13:31,320 --> 00:13:35,959
+it's easy to implement but which one is
+
+310
+00:13:33,779 --> 00:13:39,380
+more efficient in terms of space
+
+311
+00:13:35,959 --> 00:13:39,380
+why because
+
+312
+00:13:42,360 --> 00:13:47,399
+complexity for the left to the right
+
+313
+00:13:45,779 --> 00:13:50,220
+oh
+
+314
+00:13:47,399 --> 00:13:52,800
+oh we need to convert it to a string so
+
+315
+00:13:50,220 --> 00:13:54,240
+our end what's the space n is the number
+
+316
+00:13:52,800 --> 00:13:57,120
+of digits okay what's the space
+
+317
+00:13:54,240 --> 00:13:58,620
+complexity for right to the left one so
+
+318
+00:13:57,120 --> 00:14:00,779
+which one is better
+
+319
+00:13:58,620 --> 00:14:04,139
+right left because the one is better
+
+320
+00:14:00,779 --> 00:14:07,200
+than om right both uh time complexity is
+
+321
+00:14:04,139 --> 00:14:09,240
+o n the L is the number of digits in the
+
+322
+00:14:07,200 --> 00:14:11,880
+in the taximal format of n okay let's
+
+323
+00:14:09,240 --> 00:14:13,680
+see for today bye-bye goodbye hello bye
+
+324
+00:14:11,880 --> 00:14:16,399
+bye
+
+325
+00:14:13,680 --> 00:14:16,399
+foreign
+

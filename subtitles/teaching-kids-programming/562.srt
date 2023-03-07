@@ -1,0 +1,1832 @@
+1
+00:00:00,000 --> 00:00:04,680
+bye-bye hello Mr Mr right now right yeah
+
+2
+00:00:04,020 --> 00:00:08,160
+okay
+
+3
+00:00:04,680 --> 00:00:10,980
+okay so we're given an array of integer
+
+4
+00:00:08,160 --> 00:00:11,820
+and the size of the array is Power of
+
+5
+00:00:10,980 --> 00:00:18,060
+Two
+
+6
+00:00:11,820 --> 00:00:20,580
+one minus 1 0 4 2 3 8.
+
+7
+00:00:18,060 --> 00:00:22,800
+there are eight numbers a is power of
+
+8
+00:00:20,580 --> 00:00:24,000
+two okay so why do we need the power two
+
+9
+00:00:22,800 --> 00:00:27,680
+I'll tell you
+
+10
+00:00:24,000 --> 00:00:30,480
+so we want to visualize it as like the
+
+11
+00:00:27,680 --> 00:00:33,300
+leaves of the trees you know in another
+
+12
+00:00:30,480 --> 00:00:36,120
+tree span actually here so look these
+
+13
+00:00:33,300 --> 00:00:37,980
+two and these two these two and this two
+
+14
+00:00:36,120 --> 00:00:39,480
+these children need to release to him
+
+15
+00:00:37,980 --> 00:00:42,120
+okay we group
+
+16
+00:00:39,480 --> 00:00:44,879
+consecutive two numbers right and I want
+
+17
+00:00:42,120 --> 00:00:47,219
+to get this this is in the magic I want
+
+18
+00:00:44,879 --> 00:00:49,320
+to get the mean here we want to get the
+
+19
+00:00:47,219 --> 00:00:51,960
+maximum here we have to get the mean
+
+20
+00:00:49,320 --> 00:00:54,500
+here we want to get a maximum here
+
+21
+00:00:51,960 --> 00:00:56,760
+so the minimum of two one is one one
+
+22
+00:00:54,500 --> 00:00:57,840
+maximum zero
+
+23
+00:00:56,760 --> 00:00:58,640
+four
+
+24
+00:00:57,840 --> 00:01:03,840
+four
+
+25
+00:00:58,640 --> 00:01:07,439
+I mean oh yeah two two eight okay so how
+
+26
+00:01:03,840 --> 00:01:09,360
+many numbers we eliminated half of it
+
+27
+00:01:07,439 --> 00:01:11,840
+right so we have four okay so now we can
+
+28
+00:01:09,360 --> 00:01:11,840
+clue two
+
+29
+00:01:12,260 --> 00:01:16,920
+total number of numbers at the beginning
+
+30
+00:01:15,299 --> 00:01:19,380
+is an odd number
+
+31
+00:01:16,920 --> 00:01:21,600
+part of two the size of the array yeah
+
+32
+00:01:19,380 --> 00:01:24,000
+but what they're the same number the
+
+33
+00:01:21,600 --> 00:01:26,640
+same numbers and then return any of it
+
+34
+00:01:24,000 --> 00:01:28,920
+so what do you mean the odd number so
+
+35
+00:01:26,640 --> 00:01:32,100
+oh yeah
+
+36
+00:01:28,920 --> 00:01:35,159
+boy for you like you have men yeah if
+
+37
+00:01:32,100 --> 00:01:38,280
+the if the first number two yeah with
+
+38
+00:01:35,159 --> 00:01:40,079
+the one okay so you say one one the
+
+39
+00:01:38,280 --> 00:01:42,420
+minimum of one and one is one the
+
+40
+00:01:40,079 --> 00:01:45,000
+maximum of one and one is one
+
+41
+00:01:42,420 --> 00:01:46,920
+okay the larger one right even they are
+
+42
+00:01:45,000 --> 00:01:49,979
+equal you can still get the minimum of
+
+43
+00:01:46,920 --> 00:01:51,840
+the maximum all right yes okay so now
+
+44
+00:01:49,979 --> 00:01:55,140
+look we have reduce
+
+45
+00:01:51,840 --> 00:01:57,840
+half size with this
+
+46
+00:01:55,140 --> 00:01:59,460
+oh yeah yeah so we did use half of it
+
+47
+00:01:57,840 --> 00:02:00,899
+and then we continue this process the
+
+48
+00:01:59,460 --> 00:02:02,460
+mean always start with the mean the left
+
+49
+00:02:00,899 --> 00:02:04,140
+Mouse is
+
+50
+00:02:02,460 --> 00:02:07,140
+yellow Max
+
+51
+00:02:04,140 --> 00:02:09,360
+hey okay and then get them in which is
+
+52
+00:02:07,140 --> 00:02:12,239
+zero once we have only one number we'll
+
+53
+00:02:09,360 --> 00:02:14,340
+return this number which is together
+
+54
+00:02:12,239 --> 00:02:17,400
+okay any questions so far for this
+
+55
+00:02:14,340 --> 00:02:20,280
+problem what's the first power of two
+
+56
+00:02:17,400 --> 00:02:23,280
+power of two what number is pi of two
+
+57
+00:02:20,280 --> 00:02:25,800
+one one is power of two which is two to
+
+58
+00:02:23,280 --> 00:02:30,360
+the power zero two two to the power one
+
+59
+00:02:25,800 --> 00:02:32,840
+four two to the power of two a yeah this
+
+60
+00:02:30,360 --> 00:02:36,300
+goes on where okay
+
+61
+00:02:32,840 --> 00:02:39,180
+what if you have one number one number
+
+62
+00:02:36,300 --> 00:02:41,580
+yeah so we just return it this is the
+
+63
+00:02:39,180 --> 00:02:43,580
+terminal cases okay
+
+64
+00:02:41,580 --> 00:02:43,580
+okay
+
+65
+00:02:46,140 --> 00:02:50,640
+good point yeah it doesn't matter why
+
+66
+00:02:48,239 --> 00:02:52,260
+because the cutting the minimum and the
+
+67
+00:02:50,640 --> 00:02:53,940
+maximum of two number it doesn't have to
+
+68
+00:02:52,260 --> 00:02:56,519
+be integer but yeah too far
+
+69
+00:02:53,940 --> 00:03:00,000
+simplistically we just use the integers
+
+70
+00:02:56,519 --> 00:03:03,420
+right to sum up we're given this uh
+
+71
+00:03:00,000 --> 00:03:05,940
+array which is size 12 and we want to
+
+72
+00:03:03,420 --> 00:03:08,940
+continue this process group each two
+
+73
+00:03:05,940 --> 00:03:12,599
+numbers and then from that to the right
+
+74
+00:03:08,940 --> 00:03:14,700
+mean Max mean Max this is a three right
+
+75
+00:03:12,599 --> 00:03:18,180
+this is the root
+
+76
+00:03:14,700 --> 00:03:19,980
+okay so this is the loot zero
+
+77
+00:03:18,180 --> 00:03:24,959
+and then
+
+78
+00:03:19,980 --> 00:03:26,099
+yeah yeah zero eight right and then one
+
+79
+00:03:24,959 --> 00:03:29,099
+zero
+
+80
+00:03:26,099 --> 00:03:32,159
+and then you see this is a tree actually
+
+81
+00:03:29,099 --> 00:03:34,800
+we are given the leaves if the height is
+
+82
+00:03:32,159 --> 00:03:38,099
+H the notes is 2 to the power of H minus
+
+83
+00:03:34,800 --> 00:03:40,680
+one n equals that right this is a
+
+84
+00:03:38,099 --> 00:03:42,299
+complete final three right I think it's
+
+85
+00:03:40,680 --> 00:03:44,519
+perfect perfect financially okay I
+
+86
+00:03:42,299 --> 00:03:47,760
+forgot the details so that's good
+
+87
+00:03:44,519 --> 00:03:49,500
+completed is that balance oh your
+
+88
+00:03:47,760 --> 00:03:52,080
+balance is the other story perfect
+
+89
+00:03:49,500 --> 00:03:56,400
+complete and full okay
+
+90
+00:03:52,080 --> 00:03:59,400
+okay balances is the any trees the left
+
+91
+00:03:56,400 --> 00:04:02,040
+and the right and the data type data
+
+92
+00:03:59,400 --> 00:04:05,640
+height is smaller or equal than one okay
+
+93
+00:04:02,040 --> 00:04:07,799
+so this is the balance tree right
+
+94
+00:04:05,640 --> 00:04:10,200
+but this is not
+
+95
+00:04:07,799 --> 00:04:12,060
+right this is not I mean we're given
+
+96
+00:04:10,200 --> 00:04:13,060
+this what's your Source about this
+
+97
+00:04:12,060 --> 00:04:16,240
+I think
+
+98
+00:04:13,060 --> 00:04:16,240
+[Music]
+
+99
+00:04:16,620 --> 00:04:23,220
+I think I think it's it's kind of like
+
+100
+00:04:18,600 --> 00:04:26,100
+the other day it's kind of like math you
+
+101
+00:04:23,220 --> 00:04:28,199
+you you do the same thing but maybe
+
+102
+00:04:26,100 --> 00:04:32,040
+you're just presenting it differently
+
+103
+00:04:28,199 --> 00:04:34,320
+forwards backwards video just do math
+
+104
+00:04:32,040 --> 00:04:36,660
+good job yeah because this is kind of
+
+105
+00:04:34,320 --> 00:04:39,300
+thing that you do what it says right
+
+106
+00:04:36,660 --> 00:04:41,400
+you're told what to do you just follow
+
+107
+00:04:39,300 --> 00:04:43,979
+it if the steps this is just called
+
+108
+00:04:41,400 --> 00:04:46,620
+simulation right so that's good this is
+
+109
+00:04:43,979 --> 00:04:49,500
+kind of implementation uh problem so we
+
+110
+00:04:46,620 --> 00:04:51,840
+just Implement what we are told it's
+
+111
+00:04:49,500 --> 00:04:53,040
+similar like yesterday yeah do you still
+
+112
+00:04:51,840 --> 00:04:54,780
+remember what are we talking about
+
+113
+00:04:53,040 --> 00:04:55,979
+yesterday what have we talked about
+
+114
+00:04:54,780 --> 00:04:59,520
+yesterday
+
+115
+00:04:55,979 --> 00:05:01,759
+we were talking about numbers
+
+116
+00:04:59,520 --> 00:05:01,759
+foreign
+
+117
+00:05:02,660 --> 00:05:07,820
+what's the problem we have to talk about
+
+118
+00:05:04,800 --> 00:05:07,820
+yesterday I think
+
+119
+00:05:11,580 --> 00:05:16,139
+I think thank you for reminding me yeah
+
+120
+00:05:13,800 --> 00:05:18,540
+okay so this is kind of thing simulation
+
+121
+00:05:16,139 --> 00:05:21,180
+okay we can use the recursion right so
+
+122
+00:05:18,540 --> 00:05:23,520
+if the array has only one number then we
+
+123
+00:05:21,180 --> 00:05:28,620
+just return it right otherwise we reduce
+
+124
+00:05:23,520 --> 00:05:31,400
+it to half but defined F array okay and
+
+125
+00:05:28,620 --> 00:05:34,560
+equal we get the size
+
+126
+00:05:31,400 --> 00:05:37,680
+if n equal equal one if there is only
+
+127
+00:05:34,560 --> 00:05:39,660
+one number in Array we return the first
+
+128
+00:05:37,680 --> 00:05:42,000
+element otherwise look the new array
+
+129
+00:05:39,660 --> 00:05:43,979
+right let's say new array equals that so
+
+130
+00:05:42,000 --> 00:05:48,840
+we do this for
+
+131
+00:05:43,979 --> 00:05:51,419
+I in range we start from the zero up to
+
+132
+00:05:48,840 --> 00:05:53,639
+n with step two right every time we step
+
+133
+00:05:51,419 --> 00:05:58,020
+two the first one is minimum the next
+
+134
+00:05:53,639 --> 00:06:01,020
+one is maximum right array dot a pen
+
+135
+00:05:58,020 --> 00:06:01,020
+I
+
+136
+00:06:01,440 --> 00:06:06,240
+a uh uh I plus one right now look at
+
+137
+00:06:05,160 --> 00:06:09,840
+this G
+
+138
+00:06:06,240 --> 00:06:11,580
+at the beginning g equals minimum right
+
+139
+00:06:09,840 --> 00:06:15,360
+at the beginning it's minimal the
+
+140
+00:06:11,580 --> 00:06:17,940
+leftmost the left Mouse is minimum mean
+
+141
+00:06:15,360 --> 00:06:20,940
+the next one is Max the next one is mean
+
+142
+00:06:17,940 --> 00:06:23,160
+so what do we call this mess mean Max
+
+143
+00:06:20,940 --> 00:06:26,039
+mean Max mean Max mean mix so now it's
+
+144
+00:06:23,160 --> 00:06:29,340
+mean now I need to change it to Max so I
+
+145
+00:06:26,039 --> 00:06:32,580
+can say g equals Max this is a function
+
+146
+00:06:29,340 --> 00:06:35,600
+I assign it to a variable equals max if
+
+147
+00:06:32,580 --> 00:06:39,120
+current g equals
+
+148
+00:06:35,600 --> 00:06:41,880
+the next one has to be Max otherwise is
+
+149
+00:06:39,120 --> 00:06:46,500
+mean right so this is actually the same
+
+150
+00:06:41,880 --> 00:06:49,100
+as if G equal Max as D equals mean okay
+
+151
+00:06:46,500 --> 00:06:49,100
+and then
+
+152
+00:06:52,560 --> 00:06:56,639
+recursion what are we doing here this is
+
+153
+00:06:55,259 --> 00:06:59,940
+terminal cases
+
+154
+00:06:56,639 --> 00:07:01,800
+but if array has only one element we
+
+155
+00:06:59,940 --> 00:07:03,600
+return we know how to solve it right if
+
+156
+00:07:01,800 --> 00:07:05,940
+it only has one element we written is
+
+157
+00:07:03,600 --> 00:07:08,759
+the first element yeah otherwise I'm
+
+158
+00:07:05,940 --> 00:07:12,300
+just doing this group two numbers
+
+159
+00:07:08,759 --> 00:07:15,600
+I need two numbers yeah so look a is the
+
+160
+00:07:12,300 --> 00:07:17,580
+half of the array right so this one this
+
+161
+00:07:15,600 --> 00:07:20,520
+one this one this one I put all these
+
+162
+00:07:17,580 --> 00:07:22,979
+numbers into a
+
+163
+00:07:20,520 --> 00:07:25,380
+okay into a and then this Gene at the
+
+164
+00:07:22,979 --> 00:07:28,319
+beginning is mean and after iteration
+
+165
+00:07:25,380 --> 00:07:31,380
+you become Max so mean Max mean Max
+
+166
+00:07:28,319 --> 00:07:34,199
+right so this is mean this is Max mean
+
+167
+00:07:31,380 --> 00:07:36,840
+Max this is G Okay g will be mean Max
+
+168
+00:07:34,199 --> 00:07:40,080
+mean Max and after I got the a
+
+169
+00:07:36,840 --> 00:07:42,300
+the size of the half of the array right
+
+170
+00:07:40,080 --> 00:07:43,860
+can anybody explain to me what's this
+
+171
+00:07:42,300 --> 00:07:46,979
+what's this bit
+
+172
+00:07:43,860 --> 00:07:49,199
+a is the half of it so why do we need to
+
+173
+00:07:46,979 --> 00:07:50,699
+call the F function again why do we need
+
+174
+00:07:49,199 --> 00:07:53,340
+to call it as a hundred again because
+
+175
+00:07:50,699 --> 00:07:55,860
+you don't same thing same thing with the
+
+176
+00:07:53,340 --> 00:07:57,780
+hover size until it reaches one animal
+
+177
+00:07:55,860 --> 00:07:59,759
+right this indication right calling
+
+178
+00:07:57,780 --> 00:08:01,800
+recursion to solve a smaller size
+
+179
+00:07:59,759 --> 00:08:04,740
+opponent but we have to define the base
+
+180
+00:08:01,800 --> 00:08:07,199
+cases all right good job so this is
+
+181
+00:08:04,740 --> 00:08:09,360
+using the recursion the time complexity
+
+182
+00:08:07,199 --> 00:08:11,940
+and space from next thing okay let's
+
+183
+00:08:09,360 --> 00:08:15,240
+face complexity obviously we need to use
+
+184
+00:08:11,940 --> 00:08:18,000
+the a new array to store the new element
+
+185
+00:08:15,240 --> 00:08:20,099
+half size element again right the time
+
+186
+00:08:18,000 --> 00:08:23,280
+complexity how many steps if layer and
+
+187
+00:08:20,099 --> 00:08:25,620
+element how many steps to reduce to one
+
+188
+00:08:23,280 --> 00:08:28,020
+there are eight eight elements how many
+
+189
+00:08:25,620 --> 00:08:29,699
+steps to reduce to one element three
+
+190
+00:08:28,020 --> 00:08:31,640
+yeah
+
+191
+00:08:29,699 --> 00:08:35,700
+okay
+
+192
+00:08:31,640 --> 00:08:41,180
+128 how many steps to reduce to one
+
+193
+00:08:35,700 --> 00:08:41,180
+six okay so is it six no
+
+194
+00:08:43,740 --> 00:08:49,200
+one two three four five six yeah you're
+
+195
+00:08:46,380 --> 00:08:53,760
+all right so yeah yeah yeah so it's lock
+
+196
+00:08:49,200 --> 00:08:57,480
+phase two no no I'm not correct if eight
+
+197
+00:08:53,760 --> 00:08:59,279
+two one is three then I'm not correct ah
+
+198
+00:08:57,480 --> 00:09:02,700
+okay okay because four eight you count
+
+199
+00:08:59,279 --> 00:09:04,320
+for one yeah not base two n right yeah
+
+200
+00:09:02,700 --> 00:09:06,560
+this is the log two function everything
+
+201
+00:09:04,320 --> 00:09:09,779
+reduce
+
+202
+00:09:06,560 --> 00:09:12,720
+four two one and you were two people of
+
+203
+00:09:09,779 --> 00:09:16,980
+32 16 8 4 2
+
+204
+00:09:12,720 --> 00:09:19,080
+4 2. okay and that's six but but you
+
+205
+00:09:16,980 --> 00:09:21,600
+didn't count from one so so it must be
+
+206
+00:09:19,080 --> 00:09:23,880
+seven yeah good points uh details okay
+
+207
+00:09:21,600 --> 00:09:25,560
+that's good we're just changing mean Max
+
+208
+00:09:23,880 --> 00:09:28,080
+mean Max and we can use another function
+
+209
+00:09:25,560 --> 00:09:31,260
+called cycle what's cycle mean from
+
+210
+00:09:28,080 --> 00:09:34,019
+ether tools you go on the bike and cycle
+
+211
+00:09:31,260 --> 00:09:37,800
+what does this one mean circle is like
+
+212
+00:09:34,019 --> 00:09:41,580
+going over like going in a process that
+
+213
+00:09:37,800 --> 00:09:45,839
+that leads over again again like recycle
+
+214
+00:09:41,580 --> 00:09:49,440
+it goes it it recycles to something new
+
+215
+00:09:45,839 --> 00:09:54,380
+and and then it like recycles and Cycles
+
+216
+00:09:49,440 --> 00:09:56,820
+the wheels go round and yeah
+
+217
+00:09:54,380 --> 00:09:59,940
+okay so look at this cycle so we can
+
+218
+00:09:56,820 --> 00:10:04,140
+change this uh g equals we can say it's
+
+219
+00:09:59,940 --> 00:10:05,779
+a cycle cycle I mean Max right because
+
+220
+00:10:04,140 --> 00:10:08,339
+look there are only two elements
+
+221
+00:10:05,779 --> 00:10:10,860
+basically just like okay I want to mean
+
+222
+00:10:08,339 --> 00:10:14,040
+and I look at the max right it's a cycle
+
+223
+00:10:10,860 --> 00:10:16,200
+right okay so this returns an iterator
+
+224
+00:10:14,040 --> 00:10:17,940
+currently it's mean the next one is Max
+
+225
+00:10:16,200 --> 00:10:20,040
+and the next one is mean the next one is
+
+226
+00:10:17,940 --> 00:10:22,740
+Max right instead of doing this I don't
+
+227
+00:10:20,040 --> 00:10:24,000
+need this anymore a 10 G I can say next
+
+228
+00:10:22,740 --> 00:10:26,640
+G
+
+229
+00:10:24,000 --> 00:10:29,399
+okay next to you will give me the next
+
+230
+00:10:26,640 --> 00:10:32,279
+if it's a mean then the next will be Max
+
+231
+00:10:29,399 --> 00:10:34,680
+and min max okay so this is the fancy
+
+232
+00:10:32,279 --> 00:10:37,380
+syntax using the cycle to make the code
+
+233
+00:10:34,680 --> 00:10:40,620
+clean easy to understand the other way
+
+234
+00:10:37,380 --> 00:10:43,680
+we can use the Q to do it so we just
+
+235
+00:10:40,620 --> 00:10:46,320
+turn the numbers into the Q and then
+
+236
+00:10:43,680 --> 00:10:48,300
+every time we pop two elements we pop
+
+237
+00:10:46,320 --> 00:10:51,720
+two elements right and then we push it
+
+238
+00:10:48,300 --> 00:10:55,980
+back to the cube Define f a r r q equals
+
+239
+00:10:51,720 --> 00:10:58,620
+DQ you turn the array into the Q
+
+240
+00:10:55,980 --> 00:11:01,140
+and wire
+
+241
+00:10:58,620 --> 00:11:04,320
+the length of a queue is bigger than
+
+242
+00:11:01,140 --> 00:11:07,019
+what should I put here zero one
+
+243
+00:11:04,320 --> 00:11:09,300
+one yeah because if it has more than one
+
+244
+00:11:07,019 --> 00:11:11,160
+element then we need to pop two elements
+
+245
+00:11:09,300 --> 00:11:14,579
+at a time right but we need to get the
+
+246
+00:11:11,160 --> 00:11:16,620
+lens first so now I'm saying there are n
+
+247
+00:11:14,579 --> 00:11:19,079
+elements in a way so how many times we
+
+248
+00:11:16,620 --> 00:11:21,300
+need to pop two elements now there are
+
+249
+00:11:19,079 --> 00:11:23,640
+eight elements yeah yeah I'm saying each
+
+250
+00:11:21,300 --> 00:11:26,459
+time I pop two I take two so how many
+
+251
+00:11:23,640 --> 00:11:32,000
+times I need to take four yeah four
+
+252
+00:11:26,459 --> 00:11:32,000
+times okay so four I in range
+
+253
+00:11:47,540 --> 00:11:54,480
+the groups the groups that is like that
+
+254
+00:11:51,720 --> 00:11:56,399
+there's five groups and then you need to
+
+255
+00:11:54,480 --> 00:11:58,320
+and then you like me and my
+
+256
+00:11:56,399 --> 00:11:59,959
+no that's not possible because I said
+
+257
+00:11:58,320 --> 00:12:04,140
+sub Power of Two
+
+258
+00:11:59,959 --> 00:12:05,880
+yeah three numbers in one okay means
+
+259
+00:12:04,140 --> 00:12:09,540
+that you can always divide half half
+
+260
+00:12:05,880 --> 00:12:11,120
+half until you get one right okay a b a
+
+261
+00:12:09,540 --> 00:12:15,600
+comma b equals
+
+262
+00:12:11,120 --> 00:12:18,480
+so I take two they are a here right
+
+263
+00:12:15,600 --> 00:12:20,880
+yeah here so I take two I take two I
+
+264
+00:12:18,480 --> 00:12:23,880
+take two I take two I take four times or
+
+265
+00:12:20,880 --> 00:12:27,920
+two and again I the G function here
+
+266
+00:12:23,880 --> 00:12:27,920
+right so I can say Q dot a pen
+
+267
+00:12:28,620 --> 00:12:35,940
+a pen G function G function a b i Pop I
+
+268
+00:12:33,720 --> 00:12:37,440
+use the G function which is mean or Max
+
+269
+00:12:35,940 --> 00:12:39,779
+and
+
+270
+00:12:37,440 --> 00:12:44,040
+and push it back to the queue right and
+
+271
+00:12:39,779 --> 00:12:46,440
+then at the end just return q0 right
+
+272
+00:12:44,040 --> 00:12:49,680
+okay so this G function the same thing
+
+273
+00:12:46,440 --> 00:12:52,500
+here G I can do this D cycle thing or I
+
+274
+00:12:49,680 --> 00:12:55,200
+can use the g equals max if g equals
+
+275
+00:12:52,500 --> 00:12:58,500
+mean as mean right G cycle thing so I
+
+276
+00:12:55,200 --> 00:13:02,760
+can just say g equals the only here and
+
+277
+00:12:58,500 --> 00:13:06,240
+then instead of G I will say next G okay
+
+278
+00:13:02,760 --> 00:13:09,120
+okay yeah Akil this is the same thing
+
+279
+00:13:06,240 --> 00:13:11,940
+right and this is basically like this
+
+280
+00:13:09,120 --> 00:13:13,680
+instead instead we use the cube so this
+
+281
+00:13:11,940 --> 00:13:16,440
+is the Q right this is a q four four
+
+282
+00:13:13,680 --> 00:13:19,019
+four four oh so I pop four times I take
+
+283
+00:13:16,440 --> 00:13:20,820
+two at a time and I do this the mess me
+
+284
+00:13:19,019 --> 00:13:22,680
+Max and I push it back to the cube so
+
+285
+00:13:20,820 --> 00:13:24,839
+this is I push it back to the queue yeah
+
+286
+00:13:22,680 --> 00:13:26,940
+I push it back to the kill here push
+
+287
+00:13:24,839 --> 00:13:29,040
+back to the Q here push back here and
+
+288
+00:13:26,940 --> 00:13:31,440
+then there are four right and I again do
+
+289
+00:13:29,040 --> 00:13:33,300
+these two two at a time until it only
+
+290
+00:13:31,440 --> 00:13:35,579
+has one element and I return it right
+
+291
+00:13:33,300 --> 00:13:38,279
+make sense yeah yeah okay so so far
+
+292
+00:13:35,579 --> 00:13:41,279
+these two approach use additional space
+
+293
+00:13:38,279 --> 00:13:42,899
+right a queue can we do it in place can
+
+294
+00:13:41,279 --> 00:13:44,339
+we do it in place for example like we
+
+295
+00:13:42,899 --> 00:13:47,160
+have array
+
+296
+00:13:44,339 --> 00:13:49,740
+we have array here
+
+297
+00:13:47,160 --> 00:13:53,300
+one two three four just these four
+
+298
+00:13:49,740 --> 00:13:53,300
+numbers can we do it in place
+
+299
+00:13:54,000 --> 00:13:58,260
+previously these two methods I need to
+
+300
+00:13:56,100 --> 00:14:01,139
+allocate another array which is the mean
+
+301
+00:13:58,260 --> 00:14:04,579
+this is One Max is this one this is
+
+302
+00:14:01,139 --> 00:14:08,279
+another way another two is
+
+303
+00:14:04,579 --> 00:14:10,440
+okay but instead of allocating already
+
+304
+00:14:08,279 --> 00:14:13,560
+this is using a curious see you in the
+
+305
+00:14:10,440 --> 00:14:15,660
+recursion and an additional array we can
+
+306
+00:14:13,560 --> 00:14:19,079
+save this variable in place
+
+307
+00:14:15,660 --> 00:14:21,060
+one two three four five six seven eight
+
+308
+00:14:19,079 --> 00:14:25,560
+okay
+
+309
+00:14:21,060 --> 00:14:27,180
+so every time I cut in half right after
+
+310
+00:14:25,560 --> 00:14:28,680
+the first iteration there are only four
+
+311
+00:14:27,180 --> 00:14:30,120
+left
+
+312
+00:14:28,680 --> 00:14:31,920
+so look
+
+313
+00:14:30,120 --> 00:14:33,720
+this one
+
+314
+00:14:31,920 --> 00:14:36,480
+so one
+
+315
+00:14:33,720 --> 00:14:39,180
+one two this is one
+
+316
+00:14:36,480 --> 00:14:40,260
+okay and the second element is three
+
+317
+00:14:39,180 --> 00:14:42,660
+four
+
+318
+00:14:40,260 --> 00:14:44,279
+okay look at look at what I did look at
+
+319
+00:14:42,660 --> 00:14:47,519
+what I did
+
+320
+00:14:44,279 --> 00:14:51,360
+this is Speaker four this is what
+
+321
+00:14:47,519 --> 00:14:54,420
+smaller five this is bigger
+
+322
+00:14:51,360 --> 00:14:57,180
+hey got it do you see this I can
+
+323
+00:14:54,420 --> 00:14:59,760
+override this I can override
+
+324
+00:14:57,180 --> 00:15:01,019
+I can overlay okay look one and four
+
+325
+00:14:59,760 --> 00:15:02,399
+four
+
+326
+00:15:01,019 --> 00:15:04,199
+one
+
+327
+00:15:02,399 --> 00:15:06,300
+five and a
+
+328
+00:15:04,199 --> 00:15:09,360
+eight eight
+
+329
+00:15:06,300 --> 00:15:12,240
+okay so every time I can override this
+
+330
+00:15:09,360 --> 00:15:13,920
+variable I need to cut in half this n
+
+331
+00:15:12,240 --> 00:15:16,139
+equals a at the beginning the second
+
+332
+00:15:13,920 --> 00:15:18,839
+iteration a equals four and then two by
+
+333
+00:15:16,139 --> 00:15:20,760
+one because I'm writing the values and I
+
+334
+00:15:18,839 --> 00:15:23,220
+don't care what happened here but in
+
+335
+00:15:20,760 --> 00:15:26,279
+order to get these if I'm iterating over
+
+336
+00:15:23,220 --> 00:15:30,060
+this index one I need to get the element
+
+337
+00:15:26,279 --> 00:15:32,279
+two times I this is two times I this is
+
+338
+00:15:30,060 --> 00:15:35,699
+two times I plus one right
+
+339
+00:15:32,279 --> 00:15:40,019
+okay make sense I just noticed if you
+
+340
+00:15:35,699 --> 00:15:42,240
+have a numbers sorted the answer is the
+
+341
+00:15:40,019 --> 00:15:45,660
+smallest number
+
+342
+00:15:42,240 --> 00:15:47,600
+how can you prove I don't know but it
+
+343
+00:15:45,660 --> 00:15:51,600
+looks like it right it looks like it
+
+344
+00:15:47,600 --> 00:15:55,740
+because look because you because you
+
+345
+00:15:51,600 --> 00:15:57,180
+because you always end up end up having
+
+346
+00:15:55,740 --> 00:15:59,699
+like women
+
+347
+00:15:57,180 --> 00:16:02,040
+and the and the first number the
+
+348
+00:15:59,699 --> 00:16:03,959
+smallest numbers ever beginning and and
+
+349
+00:16:02,040 --> 00:16:06,899
+that's where the minimum is going
+
+350
+00:16:03,959 --> 00:16:10,139
+minimum Max minimum Max and it starts at
+
+351
+00:16:06,899 --> 00:16:11,820
+the minimum so the most minimum goes
+
+352
+00:16:10,139 --> 00:16:14,220
+down and then the most minimum because
+
+353
+00:16:11,820 --> 00:16:16,139
+it's always ever start so and it always
+
+354
+00:16:14,220 --> 00:16:18,959
+starts at minimum so it's always
+
+355
+00:16:16,139 --> 00:16:21,420
+Obviously good path and then eventually
+
+356
+00:16:18,959 --> 00:16:23,399
+eventually it's going to go to minimum
+
+357
+00:16:21,420 --> 00:16:25,500
+and then good job good job excellent
+
+358
+00:16:23,399 --> 00:16:27,180
+that's a weird uh Discovery yes yes
+
+359
+00:16:25,500 --> 00:16:29,339
+you're right it won't improve it if it's
+
+360
+00:16:27,180 --> 00:16:30,959
+increasing this is always uh winning
+
+361
+00:16:29,339 --> 00:16:33,720
+right it's always winning because the
+
+362
+00:16:30,959 --> 00:16:36,660
+leftmost is always you know meaning okay
+
+363
+00:16:33,720 --> 00:16:39,660
+that's very good okay so I can use the
+
+364
+00:16:36,660 --> 00:16:42,779
+index I can override this variable or is
+
+365
+00:16:39,660 --> 00:16:44,940
+its index 2 times I plus one and two
+
+366
+00:16:42,779 --> 00:16:46,500
+times I okay that's the last message and
+
+367
+00:16:44,940 --> 00:16:50,639
+then think about which one is the best
+
+368
+00:16:46,500 --> 00:16:52,920
+Define f a r r okay we are overwriting
+
+369
+00:16:50,639 --> 00:16:55,440
+this uh what's in place
+
+370
+00:16:52,920 --> 00:16:57,360
+what's the implant in place means that I
+
+371
+00:16:55,440 --> 00:16:59,399
+don't want to allocate additional array
+
+372
+00:16:57,360 --> 00:17:01,199
+I just want to change the original array
+
+373
+00:16:59,399 --> 00:17:04,439
+this is this is an original right you
+
+374
+00:17:01,199 --> 00:17:06,059
+can change it let's call in place I am
+
+375
+00:17:04,439 --> 00:17:08,939
+in place
+
+376
+00:17:06,059 --> 00:17:10,559
+so I'm multiplying the input in place so
+
+377
+00:17:08,939 --> 00:17:14,100
+I don't need to allocate other places
+
+378
+00:17:10,559 --> 00:17:19,579
+and equals length ARR
+
+379
+00:17:14,100 --> 00:17:19,579
+okay wire n is bigger than one
+
+380
+00:17:20,720 --> 00:17:32,520
+for I in range n over over 2 right
+
+381
+00:17:27,120 --> 00:17:34,559
+divided by two and then a ah look a r i
+
+382
+00:17:32,520 --> 00:17:37,380
+I'm changing this variable now I'm
+
+383
+00:17:34,559 --> 00:17:40,320
+changing the input equals g function
+
+384
+00:17:37,380 --> 00:17:44,840
+Okay g function is listening ARR
+
+385
+00:17:40,320 --> 00:17:49,160
+2 times I okay this is 2 times I and a r
+
+386
+00:17:44,840 --> 00:17:49,160
+2 times I plus 1 right
+
+387
+00:17:50,700 --> 00:17:53,760
+yes look
+
+388
+00:17:52,200 --> 00:17:56,580
+here here
+
+389
+00:17:53,760 --> 00:18:00,539
+this is I right this number is 2 times I
+
+390
+00:17:56,580 --> 00:18:03,720
+this number is 2 times I plus one
+
+391
+00:18:00,539 --> 00:18:06,539
+okay this is I this is 2 times I this is
+
+392
+00:18:03,720 --> 00:18:08,940
+2 times I plus one okay makes sense yes
+
+393
+00:18:06,539 --> 00:18:13,020
+okay and after this
+
+394
+00:18:08,940 --> 00:18:16,260
+and divided by divided by two what's
+
+395
+00:18:13,020 --> 00:18:20,120
+this mean it means it's divided by two
+
+396
+00:18:16,260 --> 00:18:20,120
+yeah why do we need to divide by two
+
+397
+00:18:25,919 --> 00:18:32,700
+and then we get one and so that's half
+
+398
+00:18:29,640 --> 00:18:35,640
+and you end up having half of a original
+
+399
+00:18:32,700 --> 00:18:37,860
+yeah yeah so every time we do this one
+
+400
+00:18:35,640 --> 00:18:40,320
+iteration we deduce the size to half
+
+401
+00:18:37,860 --> 00:18:42,840
+right so n divided by by two is the same
+
+402
+00:18:40,320 --> 00:18:44,520
+as n shift is Shifty equal one right we
+
+403
+00:18:42,840 --> 00:18:45,500
+shift the N to the one partition all
+
+404
+00:18:44,520 --> 00:18:49,140
+right and then
+
+405
+00:18:45,500 --> 00:18:51,780
+310. a r ZL right
+
+406
+00:18:49,140 --> 00:18:55,860
+okay and I think that would be it right
+
+407
+00:18:51,780 --> 00:18:59,700
+eighth element four pairs
+
+408
+00:18:55,860 --> 00:19:03,179
+16 elements a pairs right this is what
+
+409
+00:18:59,700 --> 00:19:05,820
+it does eight divided by two so one this
+
+410
+00:19:03,179 --> 00:19:08,039
+original value one needs to take care of
+
+411
+00:19:05,820 --> 00:19:10,020
+one and two these two needs to take care
+
+412
+00:19:08,039 --> 00:19:12,480
+to three and four these three needs to
+
+413
+00:19:10,020 --> 00:19:14,340
+take care five and six this four needs
+
+414
+00:19:12,480 --> 00:19:16,919
+to take care of seven and eight okay
+
+415
+00:19:14,340 --> 00:19:18,720
+let's see the time the next thing is the
+
+416
+00:19:16,919 --> 00:19:21,480
+same log n
+
+417
+00:19:18,720 --> 00:19:23,940
+the space complexity or one we are
+
+418
+00:19:21,480 --> 00:19:25,500
+modifying the original value Okay so to
+
+419
+00:19:23,940 --> 00:19:27,799
+sum up the first one recursion the
+
+420
+00:19:25,500 --> 00:19:30,299
+second one using the queue the third one
+
+421
+00:19:27,799 --> 00:19:33,840
+modifying our original array the three
+
+422
+00:19:30,299 --> 00:19:36,480
+approach the time complexity or uh log n
+
+423
+00:19:33,840 --> 00:19:38,760
+because it takes log n step to reduce
+
+424
+00:19:36,480 --> 00:19:41,640
+the size of n to one the space
+
+425
+00:19:38,760 --> 00:19:43,260
+complexity the first one when the second
+
+426
+00:19:41,640 --> 00:19:45,240
+one you know
+
+427
+00:19:43,260 --> 00:19:47,840
+um a one right the third one a one so
+
+428
+00:19:45,240 --> 00:19:50,840
+which one is the best the size one yeah
+
+429
+00:19:47,840 --> 00:19:50,840
+is
+
+430
+00:19:53,419 --> 00:19:57,260
+very good okay so what have you learned
+
+431
+00:19:55,919 --> 00:20:00,179
+today nothing
+
+432
+00:19:57,260 --> 00:20:02,160
+okay should we do it okay
+
+433
+00:20:00,179 --> 00:20:06,419
+okay what have we learned today okay I
+
+434
+00:20:02,160 --> 00:20:07,620
+have learned about the numbers no so we
+
+435
+00:20:06,419 --> 00:20:09,440
+have
+
+436
+00:20:07,620 --> 00:20:15,059
+um
+
+437
+00:20:09,440 --> 00:20:17,720
+total amount of digits have to be uh in
+
+438
+00:20:15,059 --> 00:20:21,840
+the towel too because you're halfing up
+
+439
+00:20:17,720 --> 00:20:27,919
+which are numbers which which
+
+440
+00:20:21,840 --> 00:20:27,919
+we can hop until it's one yes
+
+441
+00:20:40,400 --> 00:20:49,740
+left we uh yeah okay so what are the
+
+442
+00:20:44,880 --> 00:20:53,600
+approaches yeah we have recursion yeah
+
+443
+00:20:49,740 --> 00:20:53,600
+we have a Q yes
+
+444
+00:20:54,059 --> 00:20:58,820
+um
+
+445
+00:20:55,020 --> 00:20:58,820
+and we have uh
+
+446
+00:21:04,280 --> 00:21:10,440
+yeah okay so because this is modifying
+
+447
+00:21:08,160 --> 00:21:12,660
+yeah so okay before I forgot yeah this G
+
+448
+00:21:10,440 --> 00:21:14,160
+function this G is the same yeah cycle
+
+449
+00:21:12,660 --> 00:21:16,440
+yes cycle you learn this new function
+
+450
+00:21:14,160 --> 00:21:18,360
+from meter to an import cycle right and
+
+451
+00:21:16,440 --> 00:21:21,720
+it's basically it Returns the iterator
+
+452
+00:21:18,360 --> 00:21:24,120
+so you can do this next one is next is
+
+453
+00:21:21,720 --> 00:21:27,120
+mean the next one will be Max it's an
+
+454
+00:21:24,120 --> 00:21:29,640
+indefinite indefinite iterator right you
+
+455
+00:21:27,120 --> 00:21:32,039
+can call it called the next function on
+
+456
+00:21:29,640 --> 00:21:34,620
+the G function as long as you define G
+
+457
+00:21:32,039 --> 00:21:39,620
+cycle mean Max okay
+
+458
+00:21:34,620 --> 00:21:39,620
+okay that's it for today bye-bye bye bye
+

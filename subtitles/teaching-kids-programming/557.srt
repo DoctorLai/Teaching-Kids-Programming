@@ -1,0 +1,1096 @@
+1
+00:00:03,600 --> 00:00:12,480
+okay so what's uh Sudoku
+
+2
+00:00:06,480 --> 00:00:15,900
+it's like a 9x9 square and it's filled
+
+3
+00:00:12,480 --> 00:00:18,900
+with numbers not all of them but and
+
+4
+00:00:15,900 --> 00:00:22,560
+there's nine squares with nine squares
+
+5
+00:00:18,900 --> 00:00:24,480
+inside and nine columns each okay like
+
+6
+00:00:22,560 --> 00:00:27,240
+that all right so each one is nine times
+
+7
+00:00:24,480 --> 00:00:29,779
+nine right and then what are the rules
+
+8
+00:00:27,240 --> 00:00:29,779
+for that
+
+9
+00:00:37,920 --> 00:00:43,140
+so you try to fill the numbers with one
+
+10
+00:00:40,020 --> 00:00:45,480
+to nine right and also the rows and
+
+11
+00:00:43,140 --> 00:00:47,760
+columns did one to nine okay and they
+
+12
+00:00:45,480 --> 00:00:49,340
+all have to eat and they all have to
+
+13
+00:00:47,760 --> 00:00:51,960
+equal
+
+14
+00:00:49,340 --> 00:00:57,559
+one day one day and then also one there
+
+15
+00:00:51,960 --> 00:00:57,559
+right yeah yeah so like I I
+
+16
+00:00:57,960 --> 00:01:02,600
+and they will have to equal up I see I
+
+17
+00:01:00,239 --> 00:01:02,600
+see yeah
+
+18
+00:01:03,140 --> 00:01:08,760
+tonight well um well I'm not sure it's
+
+19
+00:01:06,119 --> 00:01:12,920
+after number actually so yeah to sum up
+
+20
+00:01:08,760 --> 00:01:12,920
+yeah we put the numbers one to nine
+
+21
+00:01:14,600 --> 00:01:21,060
+we put the numbers one to nine in each
+
+22
+00:01:18,960 --> 00:01:23,460
+box little box there are nine of them
+
+23
+00:01:21,060 --> 00:01:26,100
+and the numbers
+
+24
+00:01:23,460 --> 00:01:30,240
+each number can only appear once in each
+
+25
+00:01:26,100 --> 00:01:34,280
+row each column and obviously in its own
+
+26
+00:01:30,240 --> 00:01:37,380
+sale okay when we talk about this
+
+27
+00:01:34,280 --> 00:01:39,780
+we talk about you know how to complete
+
+28
+00:01:37,380 --> 00:01:41,340
+how to solve it with some numbers in
+
+29
+00:01:39,780 --> 00:01:43,259
+that but some numbers we need to
+
+30
+00:01:41,340 --> 00:01:44,579
+determine right so we use the
+
+31
+00:01:43,259 --> 00:01:46,799
+backtracking
+
+32
+00:01:44,579 --> 00:01:49,560
+so how do we backtracking I show you
+
+33
+00:01:46,799 --> 00:01:53,220
+it's very easy yeah basically that's a
+
+34
+00:01:49,560 --> 00:01:55,619
+search so if this number is missing then
+
+35
+00:01:53,220 --> 00:01:58,380
+we try to determine right and then we
+
+36
+00:01:55,619 --> 00:02:01,200
+can try you know we can try one two
+
+37
+00:01:58,380 --> 00:02:04,380
+three four up to nine and if it violates
+
+38
+00:02:01,200 --> 00:02:06,899
+the existing rule we just try the next
+
+39
+00:02:04,380 --> 00:02:09,000
+one if it doesn't violence for example
+
+40
+00:02:06,899 --> 00:02:10,140
+if I can put a 4 here right so I move to
+
+41
+00:02:09,000 --> 00:02:13,319
+the next one
+
+42
+00:02:10,140 --> 00:02:15,720
+I move the next empty cell and I keep
+
+43
+00:02:13,319 --> 00:02:17,879
+trying step as such backtracking the
+
+44
+00:02:15,720 --> 00:02:20,099
+idea is very simple definitely go deep
+
+45
+00:02:17,879 --> 00:02:23,640
+as deeper as you can right so if we can
+
+46
+00:02:20,099 --> 00:02:26,160
+put a number four then we move to the
+
+47
+00:02:23,640 --> 00:02:28,560
+next one if we can put the number four
+
+48
+00:02:26,160 --> 00:02:31,200
+here we try number five if we running
+
+49
+00:02:28,560 --> 00:02:33,660
+out of Digit up to nine then we go back
+
+50
+00:02:31,200 --> 00:02:35,640
+to the previous solution previous uh
+
+51
+00:02:33,660 --> 00:02:38,459
+empty cell for example the previous one
+
+52
+00:02:35,640 --> 00:02:41,040
+is uh three and then we increment this
+
+53
+00:02:38,459 --> 00:02:43,920
+to five this is the backtracking to
+
+54
+00:02:41,040 --> 00:02:45,959
+solve this problem okay so today
+
+55
+00:02:43,920 --> 00:02:50,040
+expression similar like yesterday we
+
+56
+00:02:45,959 --> 00:02:53,540
+designed the maze so the question is we
+
+57
+00:02:50,040 --> 00:02:57,900
+want to design that again like design
+
+58
+00:02:53,540 --> 00:03:01,440
+it doesn't have to be so when you say
+
+59
+00:02:57,900 --> 00:03:03,440
+designers Sudoku so we want to return a
+
+60
+00:03:01,440 --> 00:03:05,819
+fully solved
+
+61
+00:03:03,440 --> 00:03:08,640
+that's a very good question so I just
+
+62
+00:03:05,819 --> 00:03:10,980
+said design uh Sudoku and that's it you
+
+63
+00:03:08,640 --> 00:03:13,080
+need to ask a lot of questions before we
+
+64
+00:03:10,980 --> 00:03:15,959
+actually go into the details okay so
+
+65
+00:03:13,080 --> 00:03:18,540
+these are questions to clarify the
+
+66
+00:03:15,959 --> 00:03:21,300
+requirement okay so you're saying does
+
+67
+00:03:18,540 --> 00:03:24,540
+it have to be fully solvable right do
+
+68
+00:03:21,300 --> 00:03:28,260
+you have to return a solved certificate
+
+69
+00:03:24,540 --> 00:03:30,060
+no your playlist game right all numbers
+
+70
+00:03:28,260 --> 00:03:32,940
+are filled in we don't play right it's
+
+71
+00:03:30,060 --> 00:03:36,599
+already layer so the question is that
+
+72
+00:03:32,940 --> 00:03:39,060
+design uh Sudoku that returns partially
+
+73
+00:03:36,599 --> 00:03:41,159
+right so it can be played we can play on
+
+74
+00:03:39,060 --> 00:03:44,159
+it right and that's a very good question
+
+75
+00:03:41,159 --> 00:03:45,900
+so is uh partially right it has to be
+
+76
+00:03:44,159 --> 00:03:48,480
+partially filled
+
+77
+00:03:45,900 --> 00:03:50,940
+all parts of the completed the second
+
+78
+00:03:48,480 --> 00:03:54,060
+one is any more questions
+
+79
+00:03:50,940 --> 00:03:57,959
+any more questions we can ask any more
+
+80
+00:03:54,060 --> 00:03:59,879
+questions when you play this Dooku
+
+81
+00:03:57,959 --> 00:04:02,159
+it's solvable that's a good question
+
+82
+00:03:59,879 --> 00:04:04,260
+yeah obviously it has to be solvable if
+
+83
+00:04:02,159 --> 00:04:06,540
+it's not solvable the worst case I can
+
+84
+00:04:04,260 --> 00:04:08,159
+just put random numbers in there and you
+
+85
+00:04:06,540 --> 00:04:11,340
+can find the solution right for example
+
+86
+00:04:08,159 --> 00:04:13,739
+I return a Sudoku and with two ones here
+
+87
+00:04:11,340 --> 00:04:15,299
+no matter what the rest it's not
+
+88
+00:04:13,739 --> 00:04:18,299
+solvable because one and one is eight
+
+89
+00:04:15,299 --> 00:04:21,620
+right okay so it has to be solvable and
+
+90
+00:04:18,299 --> 00:04:21,620
+any more questions
+
+91
+00:04:21,840 --> 00:04:27,720
+it had to have nine by nine squares
+
+92
+00:04:25,020 --> 00:04:29,940
+obviously Sudoku is nine by nine okay so
+
+93
+00:04:27,720 --> 00:04:33,600
+when you play the game you can choose
+
+94
+00:04:29,940 --> 00:04:36,600
+something to play you can set the level
+
+95
+00:04:33,600 --> 00:04:40,139
+of who is that when you play the game
+
+96
+00:04:36,600 --> 00:04:43,160
+usually you can set the level of what
+
+97
+00:04:40,139 --> 00:04:47,720
+level of what
+
+98
+00:04:43,160 --> 00:04:50,880
+easy yeah yeah yeah what is it called
+
+99
+00:04:47,720 --> 00:04:53,639
+yeah difficulty right the level of
+
+100
+00:04:50,880 --> 00:04:57,360
+difficulties yeah all right that could
+
+101
+00:04:53,639 --> 00:05:00,180
+be one of that level of difficulty
+
+102
+00:04:57,360 --> 00:05:02,460
+and another one is
+
+103
+00:05:00,180 --> 00:05:05,820
+how many solutions
+
+104
+00:05:02,460 --> 00:05:07,919
+okay because some Sudoku could have many
+
+105
+00:05:05,820 --> 00:05:10,500
+solutions right if you're saying okay
+
+106
+00:05:07,919 --> 00:05:13,020
+there's only one unique Solutions yeah
+
+107
+00:05:10,500 --> 00:05:14,759
+okay maybe one unique solution right so
+
+108
+00:05:13,020 --> 00:05:18,960
+there's only one way right
+
+109
+00:05:14,759 --> 00:05:22,259
+obviously if you are given uh empty
+
+110
+00:05:18,960 --> 00:05:24,680
+empty stuku there are how many
+
+111
+00:05:22,259 --> 00:05:28,139
+these two numbers huh
+
+112
+00:05:24,680 --> 00:05:30,259
+6.679 times 10 to the power of 21 so 10
+
+113
+00:05:28,139 --> 00:05:34,560
+this number followed by
+
+114
+00:05:30,259 --> 00:05:38,220
+21-0 this is a huge number so this is
+
+115
+00:05:34,560 --> 00:05:41,639
+the number of total Sudoku Valley States
+
+116
+00:05:38,220 --> 00:05:44,280
+right but if we do move the duplications
+
+117
+00:05:41,639 --> 00:05:47,340
+duplication like you know some states
+
+118
+00:05:44,280 --> 00:05:50,639
+may be the same if you transform uh if
+
+119
+00:05:47,340 --> 00:05:53,280
+you rotate it nearly right and it brings
+
+120
+00:05:50,639 --> 00:05:57,539
+down the number to 5.4 times 10 to the
+
+121
+00:05:53,280 --> 00:05:59,340
+power of 9 very solvable States okay
+
+122
+00:05:57,539 --> 00:06:02,460
+yeah make sense
+
+123
+00:05:59,340 --> 00:06:05,160
+okay so we're saying that if we return
+
+124
+00:06:02,460 --> 00:06:07,979
+an empty cell and then obviously this is
+
+125
+00:06:05,160 --> 00:06:09,539
+not unique okay okay so these are not
+
+126
+00:06:07,979 --> 00:06:12,419
+requirements all right we want to return
+
+127
+00:06:09,539 --> 00:06:14,400
+a partially field State and it has to be
+
+128
+00:06:12,419 --> 00:06:16,560
+solvable if it's not soluble there's no
+
+129
+00:06:14,400 --> 00:06:18,539
+point right and then the level of
+
+130
+00:06:16,560 --> 00:06:21,060
+difficulty this is optional we need to
+
+131
+00:06:18,539 --> 00:06:23,699
+consider the number of different usually
+
+132
+00:06:21,060 --> 00:06:26,520
+okay so how do you know if it's easy
+
+133
+00:06:23,699 --> 00:06:29,280
+easy to do how do you know it's hard
+
+134
+00:06:26,520 --> 00:06:32,039
+by looking at our numbers
+
+135
+00:06:29,280 --> 00:06:33,900
+the the number how I mean how do we know
+
+136
+00:06:32,039 --> 00:06:35,759
+it's an easy how do we know it's a
+
+137
+00:06:33,900 --> 00:06:38,100
+difficult
+
+138
+00:06:35,759 --> 00:06:42,620
+by giving you two how do you tell which
+
+139
+00:06:38,100 --> 00:06:42,620
+one is easy to solve one of these is
+
+140
+00:06:43,440 --> 00:06:48,539
+let's try yes because the more numbers
+
+141
+00:06:45,259 --> 00:06:51,060
+more clues right so it's easy to solve
+
+142
+00:06:48,539 --> 00:06:54,120
+last number you have to try right all
+
+143
+00:06:51,060 --> 00:06:55,440
+right yeah then it's a more difficult to
+
+144
+00:06:54,120 --> 00:06:58,020
+solve that's exactly what I thought
+
+145
+00:06:55,440 --> 00:07:00,479
+about the numbers the number of numbers
+
+146
+00:06:58,020 --> 00:07:05,120
+yes yes I understand good job numbers
+
+147
+00:07:00,479 --> 00:07:05,120
+okay okay so how can we design that
+
+148
+00:07:11,060 --> 00:07:19,199
+I think we have to get a Sudoku
+
+149
+00:07:16,380 --> 00:07:21,419
+um and and fill all of it and then and
+
+150
+00:07:19,199 --> 00:07:24,300
+then delete a load of them very good
+
+151
+00:07:21,419 --> 00:07:25,919
+very good so first of all we need to
+
+152
+00:07:24,300 --> 00:07:31,160
+find
+
+153
+00:07:25,919 --> 00:07:34,440
+a complete complete it Sudoku right
+
+154
+00:07:31,160 --> 00:07:35,699
+and then remove numbers and then we move
+
+155
+00:07:34,440 --> 00:07:38,880
+the numbers
+
+156
+00:07:35,699 --> 00:07:42,180
+remove a teacher at one right step two
+
+157
+00:07:38,880 --> 00:07:44,099
+I remove a digit and that will return a
+
+158
+00:07:42,180 --> 00:07:46,139
+valid solvable state right these two
+
+159
+00:07:44,099 --> 00:07:49,280
+steps satisfy this one and this one how
+
+160
+00:07:46,139 --> 00:07:49,280
+about level of difficulties
+
+161
+00:07:50,900 --> 00:07:56,940
+yeah okay so we can simply remove a
+
+162
+00:07:54,660 --> 00:07:59,160
+certain amount yeah yeah so we can
+
+163
+00:07:56,940 --> 00:08:01,080
+simply repeat the step two to make it
+
+164
+00:07:59,160 --> 00:08:02,759
+this one but how about this one how many
+
+165
+00:08:01,080 --> 00:08:04,380
+solutions if we want to make sure it's
+
+166
+00:08:02,759 --> 00:08:08,180
+only one
+
+167
+00:08:04,380 --> 00:08:08,180
+how do we make sure if it's only one
+
+168
+00:08:08,880 --> 00:08:14,280
+um that's that's basically the first
+
+169
+00:08:11,400 --> 00:08:15,960
+time we are finding a complete let's
+
+170
+00:08:14,280 --> 00:08:17,940
+start right complete and then he has
+
+171
+00:08:15,960 --> 00:08:19,860
+stupid random right yeah we don't want
+
+172
+00:08:17,940 --> 00:08:22,139
+to we want we don't want to return the
+
+173
+00:08:19,860 --> 00:08:23,699
+same uh every time it has to be rendered
+
+174
+00:08:22,139 --> 00:08:26,520
+okay we come back to the step one later
+
+175
+00:08:23,699 --> 00:08:29,699
+remove a digit right and then we need to
+
+176
+00:08:26,520 --> 00:08:32,039
+check if it is solvable right and
+
+177
+00:08:29,699 --> 00:08:34,560
+obviously it's solvable and
+
+178
+00:08:32,039 --> 00:08:37,260
+check if it's over and only one solution
+
+179
+00:08:34,560 --> 00:08:39,300
+right if it is solvable and if we have
+
+180
+00:08:37,260 --> 00:08:40,860
+removed a number certain number of
+
+181
+00:08:39,300 --> 00:08:43,020
+digits right this could be a parameter
+
+182
+00:08:40,860 --> 00:08:45,720
+like if we want to remove n digit so for
+
+183
+00:08:43,020 --> 00:08:48,720
+example if we remove the one digit one
+
+184
+00:08:45,720 --> 00:08:50,580
+if we removed one to ten digits then we
+
+185
+00:08:48,720 --> 00:08:53,940
+say it's easy okay
+
+186
+00:08:50,580 --> 00:08:55,920
+if we do more 10 to 20 digit 11 to 20
+
+187
+00:08:53,940 --> 00:08:57,779
+this will say medium okay for example if
+
+188
+00:08:55,920 --> 00:09:00,540
+we know 21 to
+
+189
+00:08:57,779 --> 00:09:02,399
+upwards it will be hard okay okay this
+
+190
+00:09:00,540 --> 00:09:04,440
+is just example of configuration of the
+
+191
+00:09:02,399 --> 00:09:06,779
+game if we remove the up to 10 digit
+
+192
+00:09:04,440 --> 00:09:09,480
+it's easy okay remove one digit at the
+
+193
+00:09:06,779 --> 00:09:12,360
+time if we go back to check if the
+
+194
+00:09:09,480 --> 00:09:14,040
+Sudoku can be solved and contains only
+
+195
+00:09:12,360 --> 00:09:16,440
+one solution right we can use the
+
+196
+00:09:14,040 --> 00:09:17,580
+backtracking right to count how many
+
+197
+00:09:16,440 --> 00:09:20,220
+solutions
+
+198
+00:09:17,580 --> 00:09:22,860
+if we already remove ntg then that's it
+
+199
+00:09:20,220 --> 00:09:26,459
+right if it not okay what happened if we
+
+200
+00:09:22,860 --> 00:09:28,740
+leave digit we do it move these two many
+
+201
+00:09:26,459 --> 00:09:30,540
+solutions then we have to pull a digit
+
+202
+00:09:28,740 --> 00:09:31,980
+back right because if we remove the
+
+203
+00:09:30,540 --> 00:09:33,060
+digit for example if we do more or less
+
+204
+00:09:31,980 --> 00:09:34,740
+9
+
+205
+00:09:33,060 --> 00:09:36,839
+and then we found out there are two
+
+206
+00:09:34,740 --> 00:09:39,540
+solutions right then we have to put the
+
+207
+00:09:36,839 --> 00:09:41,880
+number nine back right make sense okay
+
+208
+00:09:39,540 --> 00:09:45,300
+so the first one find the completed
+
+209
+00:09:41,880 --> 00:09:47,279
+random Sudoku how do we find we can just
+
+210
+00:09:45,300 --> 00:09:50,519
+simply do the backtracking all right but
+
+211
+00:09:47,279 --> 00:09:52,800
+with some random randomness so we try
+
+212
+00:09:50,519 --> 00:09:55,440
+for example we can try instead of trying
+
+213
+00:09:52,800 --> 00:09:57,300
+from one to nine we can randomly select
+
+214
+00:09:55,440 --> 00:10:00,420
+the number we can Shuffle the selections
+
+215
+00:09:57,300 --> 00:10:02,820
+right the next number we could Shuffle
+
+216
+00:10:00,420 --> 00:10:05,640
+so for example the next one is empty
+
+217
+00:10:02,820 --> 00:10:07,920
+self right empty set then we can
+
+218
+00:10:05,640 --> 00:10:10,680
+randomly pick an integer from one to
+
+219
+00:10:07,920 --> 00:10:12,600
+nine instead of trying from one two
+
+220
+00:10:10,680 --> 00:10:16,080
+three up to nine right previously when
+
+221
+00:10:12,600 --> 00:10:18,360
+we do the backtracking to find
+
+222
+00:10:16,080 --> 00:10:20,580
+a solution we always try from one right
+
+223
+00:10:18,360 --> 00:10:23,940
+so but we want to return some Randomness
+
+224
+00:10:20,580 --> 00:10:26,760
+then we can choose the random integer
+
+225
+00:10:23,940 --> 00:10:30,000
+layer and once we complete uh find a
+
+226
+00:10:26,760 --> 00:10:33,300
+Sudoku State we remove a digit and we we
+
+227
+00:10:30,000 --> 00:10:35,279
+check if these Sudoku is solvable and
+
+228
+00:10:33,300 --> 00:10:37,860
+only one solution right only one
+
+229
+00:10:35,279 --> 00:10:41,940
+solution and if it is we keep removing
+
+230
+00:10:37,860 --> 00:10:43,440
+until n digit right make sense
+
+231
+00:10:41,940 --> 00:10:47,480
+yes
+
+232
+00:10:43,440 --> 00:10:47,480
+okay so what have you learned today
+
+233
+00:10:49,160 --> 00:10:56,160
+so to make a Sudoku yeah okay
+
+234
+00:10:54,120 --> 00:10:59,160
+I mean obviously
+
+235
+00:10:56,160 --> 00:11:01,260
+The Brute Force way is I just randomly
+
+236
+00:10:59,160 --> 00:11:03,480
+generate number I put the numbers there
+
+237
+00:11:01,260 --> 00:11:04,700
+and I randomly take it out and I check
+
+238
+00:11:03,480 --> 00:11:06,959
+if it is
+
+239
+00:11:04,700 --> 00:11:09,660
+solvable but that's going to take more
+
+240
+00:11:06,959 --> 00:11:12,120
+time right yeah because when you run
+
+241
+00:11:09,660 --> 00:11:13,640
+then you put the numbers in you cannot
+
+242
+00:11:12,120 --> 00:11:16,140
+guarantee that
+
+243
+00:11:13,640 --> 00:11:18,560
+this one yeah yeah that's what I meant
+
+244
+00:11:16,140 --> 00:11:22,380
+right because
+
+245
+00:11:18,560 --> 00:11:23,700
+yeah I know I know this way is a it's a
+
+246
+00:11:22,380 --> 00:11:26,640
+very very inefficient it's not
+
+247
+00:11:23,700 --> 00:11:29,399
+practically uh useful right when you
+
+248
+00:11:26,640 --> 00:11:31,380
+randomly generate the numbers so when
+
+249
+00:11:29,399 --> 00:11:33,660
+you run the Nintendo numbers it could be
+
+250
+00:11:31,380 --> 00:11:36,240
+anything and it could already be
+
+251
+00:11:33,660 --> 00:11:38,220
+unsolvable and no matter what numbers
+
+252
+00:11:36,240 --> 00:11:40,320
+you've taken out it's still unsolvable
+
+253
+00:11:38,220 --> 00:11:43,680
+and you have to check you can do this
+
+254
+00:11:40,320 --> 00:11:46,260
+repeat you generate a random blending uh
+
+255
+00:11:43,680 --> 00:11:48,180
+sudo check if it's a solver if it's
+
+256
+00:11:46,260 --> 00:11:49,920
+solver then break otherwise to repeat
+
+257
+00:11:48,180 --> 00:11:52,079
+but this is not very good okay that's
+
+258
+00:11:49,920 --> 00:11:54,480
+what I said one better way here is that
+
+259
+00:11:52,079 --> 00:11:58,440
+we use the backtracking algorithm to to
+
+260
+00:11:54,480 --> 00:12:00,300
+find uh come completed Sudoku with some
+
+261
+00:11:58,440 --> 00:12:02,459
+random yeah we want to we want this uh
+
+262
+00:12:00,300 --> 00:12:04,920
+stucco to be random and after that we
+
+263
+00:12:02,459 --> 00:12:07,500
+remove a digit at the time all right we
+
+264
+00:12:04,920 --> 00:12:09,540
+can remove any random digit at the time
+
+265
+00:12:07,500 --> 00:12:12,480
+and if after we're doing the moving
+
+266
+00:12:09,540 --> 00:12:14,760
+around that digit if it has more than
+
+267
+00:12:12,480 --> 00:12:16,920
+one solution we put it back we put the
+
+268
+00:12:14,760 --> 00:12:19,380
+digit back we'll try the next one right
+
+269
+00:12:16,920 --> 00:12:21,899
+if it's uh only one
+
+270
+00:12:19,380 --> 00:12:24,959
+solution now we can keep removing it
+
+271
+00:12:21,899 --> 00:12:27,120
+until ended it and this is n digit this
+
+272
+00:12:24,959 --> 00:12:28,079
+is the level of difficulty okay does it
+
+273
+00:12:27,120 --> 00:12:32,000
+make sense
+
+274
+00:12:28,079 --> 00:12:32,000
+okay that's it for the day bye-bye
+

@@ -1,0 +1,1780 @@
+1
+00:00:01,399 --> 00:00:07,560
+right okay so we're given the numbers
+
+2
+00:00:04,380 --> 00:00:10,200
+array array of integers positive
+
+3
+00:00:07,560 --> 00:00:14,219
+negative and zero zeros are neither
+
+4
+00:00:10,200 --> 00:00:17,940
+positive nor negative right yeah so we
+
+5
+00:00:14,219 --> 00:00:20,039
+want to find out the maximum count of
+
+6
+00:00:17,940 --> 00:00:22,140
+the positive number of negative so
+
+7
+00:00:20,039 --> 00:00:23,820
+taking this uh for example like how many
+
+8
+00:00:22,140 --> 00:00:26,220
+positive numbers here
+
+9
+00:00:23,820 --> 00:00:27,680
+how many positive numbers
+
+10
+00:00:26,220 --> 00:00:30,720
+um
+
+11
+00:00:27,680 --> 00:00:32,880
+no I I was just saying that zeros are
+
+12
+00:00:30,720 --> 00:00:36,540
+not positive and are not negative okay
+
+13
+00:00:32,880 --> 00:00:39,840
+two okay so how many negative numbers
+
+14
+00:00:36,540 --> 00:00:42,960
+three okay so you need to tell me is
+
+15
+00:00:39,840 --> 00:00:47,180
+sweet is that easy it's very trivial
+
+16
+00:00:42,960 --> 00:00:49,200
+okay okay another example numbers equals
+
+17
+00:00:47,180 --> 00:00:52,200
+is a limit
+
+18
+00:00:49,200 --> 00:00:52,200
+negative
+
+19
+00:01:03,820 --> 00:01:09,780
+[Music]
+
+20
+00:01:07,979 --> 00:01:11,400
+we have to count the negative and
+
+21
+00:01:09,780 --> 00:01:13,380
+positive number and compare which one is
+
+22
+00:01:11,400 --> 00:01:14,060
+bigger basically this is what it is am I
+
+23
+00:01:13,380 --> 00:01:16,979
+right
+
+24
+00:01:14,060 --> 00:01:20,159
+you have to say negative or positive
+
+25
+00:01:16,979 --> 00:01:23,159
+yeah positive or negative we count yeah
+
+26
+00:01:20,159 --> 00:01:24,840
+we just count yeah how do we count
+
+27
+00:01:23,159 --> 00:01:27,960
+counter
+
+28
+00:01:24,840 --> 00:01:30,860
+uh we don't need them no the counter is
+
+29
+00:01:27,960 --> 00:01:30,860
+more like uh
+
+30
+00:01:30,960 --> 00:01:35,159
+now the counter is more like you want to
+
+31
+00:01:33,180 --> 00:01:37,380
+know how many times the number appears
+
+32
+00:01:35,159 --> 00:01:39,299
+right but here we just want to know how
+
+33
+00:01:37,380 --> 00:01:42,420
+many times a positive any positive
+
+34
+00:01:39,299 --> 00:01:44,579
+numbers or any negative numbers here oh
+
+35
+00:01:42,420 --> 00:01:45,720
+we can just go from the left to the
+
+36
+00:01:44,579 --> 00:01:49,140
+right
+
+37
+00:01:45,720 --> 00:01:51,540
+yeah should come right negative two
+
+38
+00:01:49,140 --> 00:01:52,380
+negative three negative okay three
+
+39
+00:01:51,540 --> 00:01:56,399
+negative
+
+40
+00:01:52,380 --> 00:01:59,220
+yellow zero we ignore positive positive
+
+41
+00:01:56,399 --> 00:02:02,340
+to annually compare why are you always
+
+42
+00:01:59,220 --> 00:02:05,219
+writing numbers which are sorted
+
+43
+00:02:02,340 --> 00:02:06,899
+that's a very good observation okay so
+
+44
+00:02:05,219 --> 00:02:08,880
+this is the proof of us right I didn't
+
+45
+00:02:06,899 --> 00:02:11,099
+tell you that it's salty right
+
+46
+00:02:08,880 --> 00:02:12,780
+that's very good very good yes I need
+
+47
+00:02:11,099 --> 00:02:14,760
+your eyes on this that's very good
+
+48
+00:02:12,780 --> 00:02:16,739
+actually if it's not salty if it's
+
+49
+00:02:14,760 --> 00:02:18,780
+unsalted that's the only way we can do
+
+50
+00:02:16,739 --> 00:02:21,540
+right it's a random the only way we can
+
+51
+00:02:18,780 --> 00:02:24,239
+check is go into all the numbers and
+
+52
+00:02:21,540 --> 00:02:27,060
+then just classify them right if it's a
+
+53
+00:02:24,239 --> 00:02:30,420
+positive just imagine there's a two
+
+54
+00:02:27,060 --> 00:02:32,700
+bucket if it's a positive plus one if
+
+55
+00:02:30,420 --> 00:02:34,620
+it's a negative a plus one if it's zero
+
+56
+00:02:32,700 --> 00:02:36,840
+so right away at the end we just compare
+
+57
+00:02:34,620 --> 00:02:40,200
+these two numbers right this is the case
+
+58
+00:02:36,840 --> 00:02:42,420
+when the level does yes the numbers are
+
+59
+00:02:40,200 --> 00:02:44,040
+unsorted right okay so let's quickly
+
+60
+00:02:42,420 --> 00:02:46,080
+write it it should be very easy right
+
+61
+00:02:44,040 --> 00:02:48,300
+okay and then think about how we can
+
+62
+00:02:46,080 --> 00:02:50,879
+improve it when it's sorted okay so look
+
+63
+00:02:48,300 --> 00:02:55,700
+positive equals zero negative equals
+
+64
+00:02:50,879 --> 00:02:59,040
+zero four I in numbers look
+
+65
+00:02:55,700 --> 00:03:04,080
+if p is positive
+
+66
+00:02:59,040 --> 00:03:08,160
+if I is positive P plus equal one L if L
+
+67
+00:03:04,080 --> 00:03:11,220
+if this is s if plus short for L if okay
+
+68
+00:03:08,160 --> 00:03:13,560
+and if I is smaller than zero negative
+
+69
+00:03:11,220 --> 00:03:15,120
+plus equal one and after we're going
+
+70
+00:03:13,560 --> 00:03:19,319
+through the all the numbers we just
+
+71
+00:03:15,120 --> 00:03:21,480
+return depend maximum if it's a p bigger
+
+72
+00:03:19,319 --> 00:03:23,519
+or and bigger this is Trivial right it
+
+73
+00:03:21,480 --> 00:03:25,860
+should be understand this in you know a
+
+74
+00:03:23,519 --> 00:03:27,659
+second a Time complexity
+
+75
+00:03:25,860 --> 00:03:28,739
+leave without a number what's the
+
+76
+00:03:27,659 --> 00:03:31,440
+temperature
+
+77
+00:03:28,739 --> 00:03:33,540
+oh well obviously we have to
+
+78
+00:03:31,440 --> 00:03:35,760
+finish seconding right that's today's
+
+79
+00:03:33,540 --> 00:03:39,000
+complexity a one right because we just
+
+80
+00:03:35,760 --> 00:03:40,620
+need a constant space okay excuse me to
+
+81
+00:03:39,000 --> 00:03:43,980
+sort it if I tell you these numbers
+
+82
+00:03:40,620 --> 00:03:45,180
+sorted in non-decreasing order so in
+
+83
+00:03:43,980 --> 00:03:48,659
+other words it's ascending
+
+84
+00:03:45,180 --> 00:03:50,340
+non-decreasing right
+
+85
+00:03:48,659 --> 00:03:52,760
+yellow yes why we look for geolog
+
+86
+00:03:50,340 --> 00:03:52,760
+because
+
+87
+00:03:54,360 --> 00:04:00,900
+that's good so what is sorted how we can
+
+88
+00:03:56,940 --> 00:04:04,500
+improve this uh we just I just we I just
+
+89
+00:04:00,900 --> 00:04:08,099
+can't go before go from beginning until
+
+90
+00:04:04,500 --> 00:04:11,099
+it's until it's positive or zero
+
+91
+00:04:08,099 --> 00:04:14,040
+and he is positive or zero which one the
+
+92
+00:04:11,099 --> 00:04:16,380
+country is you have to have zero
+
+93
+00:04:14,040 --> 00:04:18,600
+yes that could be zeros in there no but
+
+94
+00:04:16,380 --> 00:04:20,820
+do you have to what do you mean do you
+
+95
+00:04:18,600 --> 00:04:22,380
+have to yeah yeah because I have to have
+
+96
+00:04:20,820 --> 00:04:25,320
+is it right it doesn't have to have a
+
+97
+00:04:22,380 --> 00:04:27,780
+zero or can it notice if I'm negatives
+
+98
+00:04:25,320 --> 00:04:30,020
+it could be having a jealous you can't
+
+99
+00:04:27,780 --> 00:04:34,199
+make assumptions
+
+100
+00:04:30,020 --> 00:04:36,780
+when the negative ends it comes to zero
+
+101
+00:04:34,199 --> 00:04:39,720
+or another positive so if we delete
+
+102
+00:04:36,780 --> 00:04:40,979
+those two zeros with us we'll count
+
+103
+00:04:39,720 --> 00:04:43,560
+oh
+
+104
+00:04:40,979 --> 00:04:45,479
+if you let us know the ganza is the sin
+
+105
+00:04:43,560 --> 00:04:48,240
+and that's why I said that yellow is not
+
+106
+00:04:45,479 --> 00:04:50,580
+positive not negative yeah yeah
+
+107
+00:04:48,240 --> 00:04:51,720
+but the thing is um my point
+
+108
+00:04:50,580 --> 00:04:54,540
+is
+
+109
+00:04:51,720 --> 00:05:00,080
+do we have to have a zero in it
+
+110
+00:04:54,540 --> 00:05:00,080
+do we have had to chill in the uh
+
+111
+00:05:00,240 --> 00:05:06,300
+you can say yes
+
+112
+00:05:02,280 --> 00:05:08,940
+so we have to if it hasn't then then it
+
+113
+00:05:06,300 --> 00:05:10,560
+will turn to positive yeah of course but
+
+114
+00:05:08,940 --> 00:05:13,380
+the answer is still the same
+
+115
+00:05:10,560 --> 00:05:16,199
+yeah I know yeah but you're you're
+
+116
+00:05:13,380 --> 00:05:18,780
+thinking about the answer changing but
+
+117
+00:05:16,199 --> 00:05:21,199
+what I'm talking about is how when we're
+
+118
+00:05:18,780 --> 00:05:21,199
+negative
+
+119
+00:05:21,780 --> 00:05:28,800
+and it either stops at zero or another
+
+120
+00:05:25,139 --> 00:05:31,620
+positive okay so yes I understand your
+
+121
+00:05:28,800 --> 00:05:35,699
+point now but so you need to tell me a
+
+122
+00:05:31,620 --> 00:05:37,919
+way that works for both cases if the
+
+123
+00:05:35,699 --> 00:05:41,220
+zeros in there or if the deals are not
+
+124
+00:05:37,919 --> 00:05:43,380
+in there so if the array is sorted if
+
+125
+00:05:41,220 --> 00:05:46,020
+numbers are sorted if we meet the
+
+126
+00:05:43,380 --> 00:05:48,419
+positive we just stop can we because we
+
+127
+00:05:46,020 --> 00:05:51,000
+don't need to continue so with scan scan
+
+128
+00:05:48,419 --> 00:05:53,300
+scan we check check check okay it's a
+
+129
+00:05:51,000 --> 00:05:53,300
+positive
+
+130
+00:05:53,340 --> 00:05:59,820
+we don't need to count the rest we don't
+
+131
+00:05:57,240 --> 00:06:03,000
+need to continue suppose look yeah minus
+
+132
+00:05:59,820 --> 00:06:05,100
+one zero one two three
+
+133
+00:06:03,000 --> 00:06:08,699
+up to a minute
+
+134
+00:06:05,100 --> 00:06:11,520
+I mean how many zeros okay okay so here
+
+135
+00:06:08,699 --> 00:06:14,280
+this is a very extreme cases okay so now
+
+136
+00:06:11,520 --> 00:06:18,300
+now I'm telling you
+
+137
+00:06:14,280 --> 00:06:21,360
+okay okay thank you for correction okay
+
+138
+00:06:18,300 --> 00:06:24,539
+thank you so look the number of the
+
+139
+00:06:21,360 --> 00:06:27,539
+numbers in the array is a million and
+
+140
+00:06:24,539 --> 00:06:29,940
+two right very specific Facebook okay
+
+141
+00:06:27,539 --> 00:06:31,979
+this is the total number assume you can
+
+142
+00:06:29,940 --> 00:06:34,440
+get this number you know how many
+
+143
+00:06:31,979 --> 00:06:36,539
+numbers in the number in the array right
+
+144
+00:06:34,440 --> 00:06:38,880
+this is the number okay so do I need to
+
+145
+00:06:36,539 --> 00:06:42,240
+finish counting tier list no look
+
+146
+00:06:38,880 --> 00:06:43,319
+negative negative number
+
+147
+00:06:42,240 --> 00:06:45,600
+one
+
+148
+00:06:43,319 --> 00:06:48,240
+zero ignore
+
+149
+00:06:45,600 --> 00:06:50,220
+one it's positive so how do we calculate
+
+150
+00:06:48,240 --> 00:06:53,639
+the number of positive numbers
+
+151
+00:06:50,220 --> 00:06:56,940
+I know I already visit two numbers so so
+
+152
+00:06:53,639 --> 00:06:59,819
+for it's just like forever was it called
+
+153
+00:06:56,940 --> 00:07:02,280
+like the maze thing like you plus one
+
+154
+00:06:59,819 --> 00:07:05,940
+and the one time you tell us like plus
+
+155
+00:07:02,280 --> 00:07:08,940
+one minus one so for the negative we may
+
+156
+00:07:05,940 --> 00:07:10,759
+be minus one and and then for the
+
+157
+00:07:08,940 --> 00:07:14,180
+positively plus one
+
+158
+00:07:10,759 --> 00:07:18,000
+uh okay
+
+159
+00:07:14,180 --> 00:07:21,900
+because look let's say you have those
+
+160
+00:07:18,000 --> 00:07:25,440
+yeah you you have a negative yeah
+
+161
+00:07:21,900 --> 00:07:27,500
+whatever and a positive so when you have
+
+162
+00:07:25,440 --> 00:07:31,979
+something like I don't know
+
+163
+00:07:27,500 --> 00:07:34,759
+this and so when you mean minus one you
+
+164
+00:07:31,979 --> 00:07:34,759
+minus one
+
+165
+00:07:35,060 --> 00:07:41,580
+and then when you
+
+166
+00:07:37,440 --> 00:07:44,220
+um okay so so you start with zero as
+
+167
+00:07:41,580 --> 00:07:48,060
+always and then and then you minus one
+
+168
+00:07:44,220 --> 00:07:50,520
+two minus one and and then and then and
+
+169
+00:07:48,060 --> 00:07:52,919
+then you meet a zero and when you meet a
+
+170
+00:07:50,520 --> 00:07:55,740
+zero it's it's still the same and then
+
+171
+00:07:52,919 --> 00:07:57,419
+the next must be positive and then it
+
+172
+00:07:55,740 --> 00:07:59,280
+makes it a zero and then another
+
+173
+00:07:57,419 --> 00:08:01,380
+positive is one and you don't need to
+
+174
+00:07:59,280 --> 00:08:03,240
+count there because because you know all
+
+175
+00:08:01,380 --> 00:08:05,280
+the rest are going to be positive so
+
+176
+00:08:03,240 --> 00:08:07,259
+look I already counted two
+
+177
+00:08:05,280 --> 00:08:08,699
+right and then now I have a positive
+
+178
+00:08:07,259 --> 00:08:10,919
+number
+
+179
+00:08:08,699 --> 00:08:12,960
+I already counted two which is like are
+
+180
+00:08:10,919 --> 00:08:14,880
+not positive number and I know total
+
+181
+00:08:12,960 --> 00:08:16,440
+numbers how many positive numbers
+
+182
+00:08:14,880 --> 00:08:18,900
+there are two numbers which you are not
+
+183
+00:08:16,440 --> 00:08:20,099
+positive and I told the numbers in the
+
+184
+00:08:18,900 --> 00:08:22,500
+array so how many different numbers
+
+185
+00:08:20,099 --> 00:08:24,539
+simple math a million that's right a
+
+186
+00:08:22,500 --> 00:08:26,220
+million and two minus two right this is
+
+187
+00:08:24,539 --> 00:08:28,800
+what I'm saying right so because look
+
+188
+00:08:26,220 --> 00:08:30,479
+I've counted this and then I made the
+
+189
+00:08:28,800 --> 00:08:32,459
+first positive I don't need to continue
+
+190
+00:08:30,479 --> 00:08:34,860
+to the end this is a huge I can just do
+
+191
+00:08:32,459 --> 00:08:37,440
+a simple mess as long as we know this
+
+192
+00:08:34,860 --> 00:08:39,419
+number and normally this number is a one
+
+193
+00:08:37,440 --> 00:08:42,120
+we get this number one right
+
+194
+00:08:39,419 --> 00:08:43,919
+but some problem in language don't
+
+195
+00:08:42,120 --> 00:08:46,440
+provide these in order to know the
+
+196
+00:08:43,919 --> 00:08:48,300
+number of elements in the array you know
+
+197
+00:08:46,440 --> 00:08:50,220
+possibly what they do is that they count
+
+198
+00:08:48,300 --> 00:08:52,860
+it until the end that's very stupid way
+
+199
+00:08:50,220 --> 00:08:54,360
+right you can't imagine how stupid this
+
+200
+00:08:52,860 --> 00:08:56,700
+computer is now
+
+201
+00:08:54,360 --> 00:08:58,620
+you know if it has to count each number
+
+202
+00:08:56,700 --> 00:09:00,540
+to know how many numbers right normally
+
+203
+00:08:58,620 --> 00:09:02,519
+this is not the case normally there will
+
+204
+00:09:00,540 --> 00:09:05,040
+be a counter somewhere saying okay how
+
+205
+00:09:02,519 --> 00:09:06,660
+many uh how many numbers in the array
+
+206
+00:09:05,040 --> 00:09:09,000
+and then if we add one more number we'll
+
+207
+00:09:06,660 --> 00:09:10,380
+just add the this counter or we take a
+
+208
+00:09:09,000 --> 00:09:12,660
+number out there with decremental
+
+209
+00:09:10,380 --> 00:09:14,940
+counter so this is uh one simple way so
+
+210
+00:09:12,660 --> 00:09:17,399
+we can just improve this right so uh
+
+211
+00:09:14,940 --> 00:09:19,440
+negative equals zero total equals the
+
+212
+00:09:17,399 --> 00:09:22,320
+length of the array right negative
+
+213
+00:09:19,440 --> 00:09:25,560
+equals zero right now positive let's say
+
+214
+00:09:22,320 --> 00:09:26,640
+at the beginning we said to nine four I
+
+215
+00:09:25,560 --> 00:09:30,540
+in
+
+216
+00:09:26,640 --> 00:09:33,779
+numbers right if I is smaller than zero
+
+217
+00:09:30,540 --> 00:09:35,040
+the negative plus equal one right here
+
+218
+00:09:33,779 --> 00:09:38,700
+if
+
+219
+00:09:35,040 --> 00:09:41,220
+if I is bigger than zero if we meet the
+
+220
+00:09:38,700 --> 00:09:44,519
+first positive number so in this case
+
+221
+00:09:41,220 --> 00:09:47,100
+the positive equals what the total
+
+222
+00:09:44,519 --> 00:09:50,399
+right okay so we need to know the index
+
+223
+00:09:47,100 --> 00:09:52,519
+right so I V in illuminate right you
+
+224
+00:09:50,399 --> 00:09:54,660
+know this function right you numer like
+
+225
+00:09:52,519 --> 00:09:56,399
+illuminated function and then we need to
+
+226
+00:09:54,660 --> 00:10:00,240
+change this to V
+
+227
+00:09:56,399 --> 00:10:03,000
+V the I is the indexes of zero this is
+
+228
+00:10:00,240 --> 00:10:05,640
+the zero this is one Index this is two
+
+229
+00:10:03,000 --> 00:10:08,339
+so we need to minus this one right so P
+
+230
+00:10:05,640 --> 00:10:10,380
+equals total minus I this is Index right
+
+231
+00:10:08,339 --> 00:10:12,420
+and then we need to break we don't need
+
+232
+00:10:10,380 --> 00:10:14,580
+to continue here this is the the
+
+233
+00:10:12,420 --> 00:10:16,620
+optimization we need to break right we
+
+234
+00:10:14,580 --> 00:10:20,399
+need to play and return this is the same
+
+235
+00:10:16,620 --> 00:10:22,200
+return maximum p and v okay the time
+
+236
+00:10:20,399 --> 00:10:24,240
+comma x t come on this is a tricky one
+
+237
+00:10:22,200 --> 00:10:25,620
+we have a third Improvement the time
+
+238
+00:10:24,240 --> 00:10:27,420
+from next day when we talk about the
+
+239
+00:10:25,620 --> 00:10:29,399
+time complexity we always talk about in
+
+240
+00:10:27,420 --> 00:10:30,500
+the worst case so what's the times I'm
+
+241
+00:10:29,399 --> 00:10:32,399
+listing
+
+242
+00:10:30,500 --> 00:10:35,010
+oh
+
+243
+00:10:32,399 --> 00:10:36,600
+be brave say it out
+
+244
+00:10:35,010 --> 00:10:39,180
+[Music]
+
+245
+00:10:36,600 --> 00:10:41,300
+in worst case what could be in the worst
+
+246
+00:10:39,180 --> 00:10:41,300
+case
+
+247
+00:10:42,300 --> 00:10:48,120
+no in in the worst
+
+248
+00:10:46,040 --> 00:10:50,459
+in the worst case
+
+249
+00:10:48,120 --> 00:10:53,279
+these optimization slight optimization
+
+250
+00:10:50,459 --> 00:10:56,760
+is not useful at all when
+
+251
+00:10:53,279 --> 00:10:58,980
+they know positive number right if there
+
+252
+00:10:56,760 --> 00:11:01,019
+is no positive number it's the same as
+
+253
+00:10:58,980 --> 00:11:01,800
+the previous one so the time complexity
+
+254
+00:11:01,019 --> 00:11:04,800
+is
+
+255
+00:11:01,800 --> 00:11:06,779
+oh and oh and because in the worst case
+
+256
+00:11:04,800 --> 00:11:09,180
+you still have to go through each
+
+257
+00:11:06,779 --> 00:11:11,880
+numbers when there is no positive number
+
+258
+00:11:09,180 --> 00:11:14,519
+right okay so this optimization may not
+
+259
+00:11:11,880 --> 00:11:16,680
+work please optimization works if like
+
+260
+00:11:14,519 --> 00:11:18,060
+there are lots of the
+
+261
+00:11:16,680 --> 00:11:21,360
+positive numbers
+
+262
+00:11:18,060 --> 00:11:23,700
+right like this we just count two and
+
+263
+00:11:21,360 --> 00:11:26,279
+then we can exit oh we're given is
+
+264
+00:11:23,700 --> 00:11:28,860
+sorted arrays one algorithm we can think
+
+265
+00:11:26,279 --> 00:11:30,899
+of is what kind of ignorant we need to
+
+266
+00:11:28,860 --> 00:11:33,120
+think you know one we're given something
+
+267
+00:11:30,899 --> 00:11:35,420
+sorted we need to think one algorithm
+
+268
+00:11:33,120 --> 00:11:38,040
+which is like Ryan you talk about
+
+269
+00:11:35,420 --> 00:11:39,720
+finding zero zero is a very important
+
+270
+00:11:38,040 --> 00:11:42,480
+part so look
+
+271
+00:11:39,720 --> 00:11:48,079
+this number right minus five minus four
+
+272
+00:11:42,480 --> 00:11:48,079
+minus 3 0 1 100 a million
+
+273
+00:11:49,079 --> 00:11:52,920
+so we want to find the zeros here these
+
+274
+00:11:51,180 --> 00:11:55,260
+are very exotic so how do we find it
+
+275
+00:11:52,920 --> 00:11:58,459
+because it's sorted
+
+276
+00:11:55,260 --> 00:11:58,459
+sorry we can
+
+277
+00:11:58,800 --> 00:12:02,660
+binary
+
+278
+00:12:00,920 --> 00:12:06,180
+gas
+
+279
+00:12:02,660 --> 00:12:08,940
+spinosis yes exactly yeah yeah if we can
+
+280
+00:12:06,180 --> 00:12:11,760
+finally search we can reduce the
+
+281
+00:12:08,940 --> 00:12:13,920
+complexity from o n to O log n guessing
+
+282
+00:12:11,760 --> 00:12:16,019
+the number not example I've given you
+
+283
+00:12:13,920 --> 00:12:16,920
+many many times I have a number in my
+
+284
+00:12:16,019 --> 00:12:19,140
+head
+
+285
+00:12:16,920 --> 00:12:21,480
+and I can't tell you you get the number
+
+286
+00:12:19,140 --> 00:12:24,899
+what's your story is it 50 okay the
+
+287
+00:12:21,480 --> 00:12:26,579
+number in my head is smaller 25 okay
+
+288
+00:12:24,899 --> 00:12:29,640
+you're not a strategy you're always cut
+
+289
+00:12:26,579 --> 00:12:31,980
+in half when look so I have a number a
+
+290
+00:12:29,640 --> 00:12:34,140
+zero to a hundred and then you guess the
+
+291
+00:12:31,980 --> 00:12:35,339
+in the meter right if it's a
+
+292
+00:12:34,140 --> 00:12:38,579
+figure
+
+293
+00:12:35,339 --> 00:12:42,360
+you guess from 51 to 100 if it's smaller
+
+294
+00:12:38,579 --> 00:12:45,240
+it gets from zero to 49 right every time
+
+295
+00:12:42,360 --> 00:12:46,800
+you walk you abandon half of it you
+
+296
+00:12:45,240 --> 00:12:49,680
+don't need to check any numbers here
+
+297
+00:12:46,800 --> 00:12:52,139
+right your abundant half of it so let's
+
+298
+00:12:49,680 --> 00:12:54,120
+improve the speed right like cut the
+
+299
+00:12:52,139 --> 00:12:56,760
+search space into half right so we can
+
+300
+00:12:54,120 --> 00:12:58,860
+finally search right and we can find and
+
+301
+00:12:56,760 --> 00:13:01,380
+search the zero this is very important
+
+302
+00:12:58,860 --> 00:13:03,600
+but we need to understand how to win
+
+303
+00:13:01,380 --> 00:13:05,160
+final research the zero we talked about
+
+304
+00:13:03,600 --> 00:13:07,079
+five seconds five seconds left and
+
+305
+00:13:05,160 --> 00:13:09,839
+biceps right right we talked about that
+
+306
+00:13:07,079 --> 00:13:11,160
+probably 200 days ago
+
+307
+00:13:09,839 --> 00:13:16,139
+okay
+
+308
+00:13:11,160 --> 00:13:18,660
+one example okay five seven left
+
+309
+00:13:16,139 --> 00:13:21,720
+five set
+
+310
+00:13:18,660 --> 00:13:24,060
+right find the search okay we can
+
+311
+00:13:21,720 --> 00:13:26,760
+Implement search but the python function
+
+312
+00:13:24,060 --> 00:13:29,820
+is this one when the item we are looking
+
+313
+00:13:26,760 --> 00:13:31,380
+for in a sorted array does not exist
+
+314
+00:13:29,820 --> 00:13:33,660
+these two function Returns the same
+
+315
+00:13:31,380 --> 00:13:38,940
+thing when it's not exist okay so look
+
+316
+00:13:33,660 --> 00:13:41,820
+zero one two two two two three I have
+
+317
+00:13:38,940 --> 00:13:44,399
+lots of tools right so if I'm saying
+
+318
+00:13:41,820 --> 00:13:47,040
+that I want to buy set that the numbers
+
+319
+00:13:44,399 --> 00:13:50,100
+right this is numbers
+
+320
+00:13:47,040 --> 00:13:52,320
+okay numbers
+
+321
+00:13:50,100 --> 00:13:53,160
+okay and I want to find the two where is
+
+322
+00:13:52,320 --> 00:13:56,519
+the two
+
+323
+00:13:53,160 --> 00:13:59,220
+okay look I want to find the two
+
+324
+00:13:56,519 --> 00:14:01,860
+but I said left and right works on the
+
+325
+00:13:59,220 --> 00:14:03,839
+salty the lumbars needs to be sorted and
+
+326
+00:14:01,860 --> 00:14:05,940
+then you're looking for two looking for
+
+327
+00:14:03,839 --> 00:14:09,480
+two so five and left you will return
+
+328
+00:14:05,940 --> 00:14:12,060
+this position this is five set left
+
+329
+00:14:09,480 --> 00:14:14,940
+it means that this is the position that
+
+330
+00:14:12,060 --> 00:14:17,720
+you can put the new another tool to make
+
+331
+00:14:14,940 --> 00:14:17,720
+it salty right
+
+332
+00:14:17,959 --> 00:14:24,660
+is here look here this is the difference
+
+333
+00:14:22,260 --> 00:14:26,399
+so first advice is that when you put
+
+334
+00:14:24,660 --> 00:14:29,220
+this partition here
+
+335
+00:14:26,399 --> 00:14:31,380
+why is salted okay this is a new index
+
+336
+00:14:29,220 --> 00:14:33,000
+okay
+
+337
+00:14:31,380 --> 00:14:35,540
+yeah
+
+338
+00:14:33,000 --> 00:14:35,540
+so
+
+339
+00:14:37,800 --> 00:14:44,639
+minus five minus four minus three zero
+
+340
+00:14:40,860 --> 00:14:47,040
+zero zero one two three okay so look
+
+341
+00:14:44,639 --> 00:14:50,100
+we're looking for pi set left
+
+342
+00:14:47,040 --> 00:14:52,980
+is here please position price and right
+
+343
+00:14:50,100 --> 00:14:55,740
+is this one okay so look
+
+344
+00:14:52,980 --> 00:14:57,720
+if we do divisor left faster than how
+
+345
+00:14:55,740 --> 00:15:01,040
+many negative numbers
+
+346
+00:14:57,720 --> 00:15:01,040
+yeah all right
+
+347
+00:15:01,440 --> 00:15:06,180
+how many positive numbers
+
+348
+00:15:03,959 --> 00:15:08,639
+how many positive numbers this bit but
+
+349
+00:15:06,180 --> 00:15:10,980
+we know this Index right we know it is
+
+350
+00:15:08,639 --> 00:15:13,139
+index so we know how many total numbers
+
+351
+00:15:10,980 --> 00:15:16,260
+the minus the spices right and then
+
+352
+00:15:13,139 --> 00:15:19,860
+that's it okay makes sense so simple
+
+353
+00:15:16,260 --> 00:15:23,160
+right this end is this total total
+
+354
+00:15:19,860 --> 00:15:27,839
+equals the length of the numbers
+
+355
+00:15:23,160 --> 00:15:31,199
+okay the negative number equals five set
+
+356
+00:15:27,839 --> 00:15:33,420
+left the numbers
+
+357
+00:15:31,199 --> 00:15:37,279
+zero this is the number of negative
+
+358
+00:15:33,420 --> 00:15:39,600
+numbers and positive number equals total
+
+359
+00:15:37,279 --> 00:15:41,459
+minus 5 set
+
+360
+00:15:39,600 --> 00:15:42,959
+right
+
+361
+00:15:41,459 --> 00:15:45,480
+numbers
+
+362
+00:15:42,959 --> 00:15:47,160
+zero and then we can
+
+363
+00:15:45,480 --> 00:15:50,220
+maximum
+
+364
+00:15:47,160 --> 00:15:52,440
+negative positive this speed is the same
+
+365
+00:15:50,220 --> 00:15:53,279
+okay one two three four four lines of
+
+366
+00:15:52,440 --> 00:15:55,740
+code
+
+367
+00:15:53,279 --> 00:15:57,959
+and the time complexity oh look n plus o
+
+368
+00:15:55,740 --> 00:16:02,040
+log n two
+
+369
+00:15:57,959 --> 00:16:04,680
+login oh login plus o login equals o log
+
+370
+00:16:02,040 --> 00:16:07,980
+n times two we drop the constant so it's
+
+371
+00:16:04,680 --> 00:16:09,540
+O log n okay the first approach oh n the
+
+372
+00:16:07,980 --> 00:16:12,260
+second approach is n the third position
+
+373
+00:16:09,540 --> 00:16:14,300
+which one is better which one is faster
+
+374
+00:16:12,260 --> 00:16:16,740
+okay
+
+375
+00:16:14,300 --> 00:16:20,160
+the first approach you know some people
+
+376
+00:16:16,740 --> 00:16:22,680
+might write it as one return in a
+
+377
+00:16:20,160 --> 00:16:27,180
+maximum all right you can say some I
+
+378
+00:16:22,680 --> 00:16:30,120
+smaller than zero for I in numbers all
+
+379
+00:16:27,180 --> 00:16:33,720
+right this is to count how many negative
+
+380
+00:16:30,120 --> 00:16:36,300
+numbers and some I bigger than zero for
+
+381
+00:16:33,720 --> 00:16:38,940
+IE numbers right but the problem of this
+
+382
+00:16:36,300 --> 00:16:41,100
+is that the max function requires two
+
+383
+00:16:38,940 --> 00:16:43,320
+parameters here we need to go through
+
+384
+00:16:41,100 --> 00:16:45,660
+the array twice right so you go to one
+
+385
+00:16:43,320 --> 00:16:47,339
+array once to find out how many are
+
+386
+00:16:45,660 --> 00:16:49,079
+negative numbers you go through another
+
+387
+00:16:47,339 --> 00:16:52,920
+time to find out the positive number so
+
+388
+00:16:49,079 --> 00:16:54,899
+it's actually o n plus n which is o2n we
+
+389
+00:16:52,920 --> 00:16:56,820
+drop the constant even the time
+
+390
+00:16:54,899 --> 00:16:58,800
+complexity is still on the performance
+
+391
+00:16:56,820 --> 00:17:00,540
+is worse than the first as you remember
+
+392
+00:16:58,800 --> 00:17:02,100
+we just go through it away and we have
+
+393
+00:17:00,540 --> 00:17:03,480
+counter to count how many are negative
+
+394
+00:17:02,100 --> 00:17:04,860
+numbers how many are positive number
+
+395
+00:17:03,480 --> 00:17:09,020
+right it's just single person all right
+
+396
+00:17:04,860 --> 00:17:09,020
+okay so what have you learned
+
+397
+00:17:11,059 --> 00:17:16,679
+these numbers and there's a range of
+
+398
+00:17:14,160 --> 00:17:19,620
+negative and positive numbers but then
+
+399
+00:17:16,679 --> 00:17:22,079
+we're supposed to counter the negative
+
+400
+00:17:19,620 --> 00:17:23,000
+and positive numbers and then the most
+
+401
+00:17:22,079 --> 00:17:27,839
+popular
+
+402
+00:17:23,000 --> 00:17:31,380
+positive or negative number we we return
+
+403
+00:17:27,839 --> 00:17:35,100
+the clarity of positive or negative
+
+404
+00:17:31,380 --> 00:17:37,440
+number and also zero zero doesn't count
+
+405
+00:17:35,100 --> 00:17:40,020
+so we can just program a bin
+
+406
+00:17:37,440 --> 00:17:42,559
+okay good so what kind of equivalent can
+
+407
+00:17:40,020 --> 00:17:42,559
+we use here
+
+408
+00:17:45,240 --> 00:17:51,000
+the only if the numbers are in order
+
+409
+00:17:48,419 --> 00:17:52,440
+yeah even they are not in order we can
+
+410
+00:17:51,000 --> 00:17:56,160
+prove us from the left to the right
+
+411
+00:17:52,440 --> 00:18:00,080
+right yes okay right on your turn
+
+412
+00:17:56,160 --> 00:18:00,080
+to learn about that there's like
+
+413
+00:18:01,080 --> 00:18:07,620
+it's even negative
+
+414
+00:18:03,000 --> 00:18:09,660
+yes and sometimes somebody arrives yes I
+
+415
+00:18:07,620 --> 00:18:12,059
+know you want to find out the biggest
+
+416
+00:18:09,660 --> 00:18:15,120
+number we want to find out if there are
+
+417
+00:18:12,059 --> 00:18:17,940
+more positive numbers or negative
+
+418
+00:18:15,120 --> 00:18:20,460
+numbers right okay so if the numbers are
+
+419
+00:18:17,940 --> 00:18:21,900
+sorted what what can we do with it we
+
+420
+00:18:20,460 --> 00:18:24,720
+can basically
+
+421
+00:18:21,900 --> 00:18:27,240
+can't use that bicep thing and also we
+
+422
+00:18:24,720 --> 00:18:29,880
+could count the negative numbers and
+
+423
+00:18:27,240 --> 00:18:32,760
+then these quick maths that's true and
+
+424
+00:18:29,880 --> 00:18:35,700
+the pie set is finally first yeah so we
+
+425
+00:18:32,760 --> 00:18:37,620
+are buying a research of what
+
+426
+00:18:35,700 --> 00:18:39,840
+we want to find this but basically what
+
+427
+00:18:37,620 --> 00:18:42,179
+are we trying to do with the binaries
+
+428
+00:18:39,840 --> 00:18:45,299
+bicep thing we want to look for the
+
+429
+00:18:42,179 --> 00:18:47,940
+zeros right the left zeros and the light
+
+430
+00:18:45,299 --> 00:18:50,820
+zeros and based on the index but because
+
+431
+00:18:47,940 --> 00:18:53,220
+spacer left retains the index python
+
+432
+00:18:50,820 --> 00:18:55,140
+right it also Returns the index so we
+
+433
+00:18:53,220 --> 00:18:58,919
+can paste on the index to do the math
+
+434
+00:18:55,140 --> 00:19:01,440
+because bicep is by research takes a
+
+435
+00:18:58,919 --> 00:19:03,240
+long end time it's faster and the bicep
+
+436
+00:19:01,440 --> 00:19:06,120
+left and python right basically the same
+
+437
+00:19:03,240 --> 00:19:08,220
+if the element if the element is not
+
+438
+00:19:06,120 --> 00:19:10,380
+existent in a way right for example if
+
+439
+00:19:08,220 --> 00:19:12,840
+I'm looking for 0.5
+
+440
+00:19:10,380 --> 00:19:14,940
+if I are looking for serum for Thai uh
+
+441
+00:19:12,840 --> 00:19:16,559
+using python level right basically will
+
+442
+00:19:14,940 --> 00:19:19,620
+tell me it's here you don't need to make
+
+443
+00:19:16,559 --> 00:19:21,860
+a difference if the element is in the
+
+444
+00:19:19,620 --> 00:19:25,770
+array okay that's it for today bye bye
+
+445
+00:19:21,860 --> 00:19:25,770
+[Music]
+

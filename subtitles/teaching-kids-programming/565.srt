@@ -1,0 +1,1164 @@
+1
+00:00:03,200 --> 00:00:09,599
+yeah okay so we know the string right so
+
+2
+00:00:06,779 --> 00:00:14,160
+string like uh hello this is string
+
+3
+00:00:09,599 --> 00:00:15,480
+hello Eric and Ryan okay so look this is
+
+4
+00:00:14,160 --> 00:00:19,440
+a string s
+
+5
+00:00:15,480 --> 00:00:22,140
+so just guess what's the output as the
+
+6
+00:00:19,440 --> 00:00:25,279
+find e f
+
+7
+00:00:22,140 --> 00:00:31,140
+s Define
+
+8
+00:00:25,279 --> 00:00:33,960
+A and D okay so what's the output k h e
+
+9
+00:00:31,140 --> 00:00:36,620
+i okay so what does this mean just guess
+
+10
+00:00:33,960 --> 00:00:40,200
+if it is
+
+11
+00:00:36,620 --> 00:00:43,860
+yeah I think you written through the 10
+
+12
+00:00:40,200 --> 00:00:45,960
+true okay quite close and you can't find
+
+13
+00:00:43,860 --> 00:00:47,879
+it because it's Capital that's right
+
+14
+00:00:45,960 --> 00:00:50,399
+yeah let's go find it okay so this is
+
+15
+00:00:47,879 --> 00:00:52,379
+fine obviously we're trying to find so
+
+16
+00:00:50,399 --> 00:00:53,879
+we are trying to find a substring right
+
+17
+00:00:52,379 --> 00:00:57,239
+substring
+
+18
+00:00:53,879 --> 00:00:59,940
+to see if it's in the original screen so
+
+19
+00:00:57,239 --> 00:01:03,000
+this is like pattern this is a string so
+
+20
+00:00:59,940 --> 00:01:06,240
+if we find it when we turn the index the
+
+21
+00:01:03,000 --> 00:01:08,159
+index here is zero one index one it
+
+22
+00:01:06,240 --> 00:01:10,680
+finds it so it returns
+
+23
+00:01:08,159 --> 00:01:12,600
+one but you can't find it yeah that's a
+
+24
+00:01:10,680 --> 00:01:16,020
+good point if you can't find it returns
+
+25
+00:01:12,600 --> 00:01:19,020
+minus one okay so another example as to
+
+26
+00:01:16,020 --> 00:01:22,080
+find what what if the string is nothing
+
+27
+00:01:19,020 --> 00:01:24,479
+nothing that's a good point if you find
+
+28
+00:01:22,080 --> 00:01:26,939
+nothing in return zero okay so you
+
+29
+00:01:24,479 --> 00:01:29,820
+assume nothing is a you know always
+
+30
+00:01:26,939 --> 00:01:31,860
+found okay this is a substring it can
+
+31
+00:01:29,820 --> 00:01:34,080
+contain the more than one character how
+
+32
+00:01:31,860 --> 00:01:36,299
+about index
+
+33
+00:01:34,080 --> 00:01:37,860
+how about if I replace the fight with
+
+34
+00:01:36,299 --> 00:01:39,420
+the index
+
+35
+00:01:37,860 --> 00:01:41,340
+the difference we didn't find anything
+
+36
+00:01:39,420 --> 00:01:44,100
+what's the index
+
+37
+00:01:41,340 --> 00:01:47,119
+what does it mean in that it's basically
+
+38
+00:01:44,100 --> 00:01:51,360
+like you in the book of my non-fiction
+
+39
+00:01:47,119 --> 00:01:53,220
+and you go to the page about are things
+
+40
+00:01:51,360 --> 00:01:55,259
+like indexes
+
+41
+00:01:53,220 --> 00:01:57,420
+are they like value
+
+42
+00:01:55,259 --> 00:02:00,119
+true okay so find an index is quite
+
+43
+00:01:57,420 --> 00:02:02,220
+similar right so what's fine you try to
+
+44
+00:02:00,119 --> 00:02:03,479
+find the index right okay so when you
+
+45
+00:02:02,220 --> 00:02:05,219
+say it's fine
+
+46
+00:02:03,479 --> 00:02:06,899
+are you sure you're going to find it or
+
+47
+00:02:05,219 --> 00:02:08,819
+not
+
+48
+00:02:06,899 --> 00:02:11,340
+now that's why we have minus one right
+
+49
+00:02:08,819 --> 00:02:12,420
+but when you say index it's there right
+
+50
+00:02:11,340 --> 00:02:14,040
+yeah
+
+51
+00:02:12,420 --> 00:02:16,500
+yeah okay so normally difference between
+
+52
+00:02:14,040 --> 00:02:17,580
+find the indexes like when the item is
+
+53
+00:02:16,500 --> 00:02:19,500
+not filed
+
+54
+00:02:17,580 --> 00:02:22,440
+when the item is not found gonna find
+
+55
+00:02:19,500 --> 00:02:24,660
+returns minus one the index will return
+
+56
+00:02:22,440 --> 00:02:26,940
+a value error
+
+57
+00:02:24,660 --> 00:02:28,920
+value error this is an exception all
+
+58
+00:02:26,940 --> 00:02:31,739
+right that's the only difference that's
+
+59
+00:02:28,920 --> 00:02:34,560
+for the string and if this is a list
+
+60
+00:02:31,739 --> 00:02:37,739
+okay if it is like
+
+61
+00:02:34,560 --> 00:02:40,379
+you know at least one two three four
+
+62
+00:02:37,739 --> 00:02:42,420
+okay this is list and then you can do
+
+63
+00:02:40,379 --> 00:02:46,860
+list of index
+
+64
+00:02:42,420 --> 00:02:49,080
+okay index two what is it return
+
+65
+00:02:46,860 --> 00:02:50,760
+one two three four this is this index
+
+66
+00:02:49,080 --> 00:02:53,580
+two what is a great time it could be the
+
+67
+00:02:50,760 --> 00:02:55,760
+chapter what does it return
+
+68
+00:02:53,580 --> 00:02:55,760
+s two
+
+69
+00:02:58,019 --> 00:03:03,720
+why is this three two zero is zero zero
+
+70
+00:03:01,860 --> 00:03:05,040
+one two three so index two what is it
+
+71
+00:03:03,720 --> 00:03:08,760
+written three
+
+72
+00:03:05,040 --> 00:03:11,819
+three why is this way because three
+
+73
+00:03:08,760 --> 00:03:13,140
+three zero one one two index two we're
+
+74
+00:03:11,819 --> 00:03:18,500
+on to five two
+
+75
+00:03:13,140 --> 00:03:18,500
+oh one yeah zero one yes okay okay
+
+76
+00:03:20,640 --> 00:03:25,680
+the place then you use this person right
+
+77
+00:03:23,040 --> 00:03:27,720
+you finish this two then zero one two
+
+78
+00:03:25,680 --> 00:03:31,440
+and return three okay this is the how we
+
+79
+00:03:27,720 --> 00:03:34,920
+index find the cutter find the element
+
+80
+00:03:31,440 --> 00:03:38,580
+at index two for a tuple array on this
+
+81
+00:03:34,920 --> 00:03:40,620
+or whatever and if this is like a five
+
+82
+00:03:38,580 --> 00:03:42,659
+then you will throw the arrow right so
+
+83
+00:03:40,620 --> 00:03:45,360
+this value error because the index but
+
+84
+00:03:42,659 --> 00:03:47,519
+for at least it doesn't have a finite
+
+85
+00:03:45,360 --> 00:03:49,260
+function as I said find
+
+86
+00:03:47,519 --> 00:03:52,519
+three times minus one if it's the
+
+87
+00:03:49,260 --> 00:03:54,480
+element it's not found index
+
+88
+00:03:52,519 --> 00:03:57,299
+Returns the
+
+89
+00:03:54,480 --> 00:04:00,900
+value error this is exception so raise
+
+90
+00:03:57,299 --> 00:04:02,819
+this is basically raised very well it's
+
+91
+00:04:00,900 --> 00:04:05,220
+an expression what's extension it's
+
+92
+00:04:02,819 --> 00:04:08,459
+basically like computer screaming okay
+
+93
+00:04:05,220 --> 00:04:11,220
+so you you ask computer okay what's the
+
+94
+00:04:08,459 --> 00:04:13,379
+index of elements I in this list the
+
+95
+00:04:11,220 --> 00:04:16,260
+computer just screen because I don't
+
+96
+00:04:13,379 --> 00:04:19,139
+have it you are trying to you're trying
+
+97
+00:04:16,260 --> 00:04:20,880
+to ask me for the index I can't do it
+
+98
+00:04:19,139 --> 00:04:24,300
+right but if it's fine it's different
+
+99
+00:04:20,880 --> 00:04:27,180
+you ask me is there a element five in
+
+100
+00:04:24,300 --> 00:04:29,100
+this list right you're asking like a
+
+101
+00:04:27,180 --> 00:04:31,139
+more gentle way and I said okay I don't
+
+102
+00:04:29,100 --> 00:04:34,139
+have it but I return you minus one okay
+
+103
+00:04:31,139 --> 00:04:37,500
+yeah this is the difference you're
+
+104
+00:04:34,139 --> 00:04:39,840
+asking if if he does have a size then
+
+105
+00:04:37,500 --> 00:04:42,479
+you're telling the computer to do
+
+106
+00:04:39,840 --> 00:04:45,600
+something with five even when he doesn't
+
+107
+00:04:42,479 --> 00:04:47,280
+have it yeah yeah true too yeah okay so
+
+108
+00:04:45,600 --> 00:04:48,540
+given the least how do we find the
+
+109
+00:04:47,280 --> 00:04:50,580
+element
+
+110
+00:04:48,540 --> 00:04:53,220
+what's the strategy how do we find the
+
+111
+00:04:50,580 --> 00:04:56,280
+element in the array
+
+112
+00:04:53,220 --> 00:04:58,740
+we look real way how do we look for you
+
+113
+00:04:56,280 --> 00:05:00,960
+what's the strategy
+
+114
+00:04:58,740 --> 00:05:02,100
+you know one two three four I give it
+
+115
+00:05:00,960 --> 00:05:05,100
+away
+
+116
+00:05:02,100 --> 00:05:07,860
+you know one two three
+
+117
+00:05:05,100 --> 00:05:09,419
+I want to fight like the nine right now
+
+118
+00:05:07,860 --> 00:05:10,979
+it could be here so how do we find it
+
+119
+00:05:09,419 --> 00:05:13,199
+how do we ask computer level how does
+
+120
+00:05:10,979 --> 00:05:15,419
+the computer find this Knight try to
+
+121
+00:05:13,199 --> 00:05:17,060
+find locate where is the nice return the
+
+122
+00:05:15,419 --> 00:05:20,600
+index okay
+
+123
+00:05:17,060 --> 00:05:22,800
+sorry left and right this is
+
+124
+00:05:20,600 --> 00:05:24,320
+if there are any elements what's the
+
+125
+00:05:22,800 --> 00:05:28,460
+time cameras
+
+126
+00:05:24,320 --> 00:05:28,460
+in the worst case what happened
+
+127
+00:05:30,060 --> 00:05:34,380
+or not in
+
+128
+00:05:32,220 --> 00:05:36,720
+that or if it's not in the array then
+
+129
+00:05:34,380 --> 00:05:38,280
+the computer needs to you know go
+
+130
+00:05:36,720 --> 00:05:39,720
+through all the elements in the right in
+
+131
+00:05:38,280 --> 00:05:42,479
+the efficient okay
+
+132
+00:05:39,720 --> 00:05:44,520
+okay if they already sorted how do we go
+
+133
+00:05:42,479 --> 00:05:46,620
+through it how do we search it
+
+134
+00:05:44,520 --> 00:05:49,139
+if it's in the array it's okay like one
+
+135
+00:05:46,620 --> 00:05:54,060
+two three to a hundred I want to locate
+
+136
+00:05:49,139 --> 00:05:57,419
+if like the number 30 how do we do it
+
+137
+00:05:54,060 --> 00:06:00,240
+you can't do it like yeah what does it
+
+138
+00:05:57,419 --> 00:06:02,720
+call binary binary watch binary size
+
+139
+00:06:00,240 --> 00:06:05,699
+what's the time research
+
+140
+00:06:02,720 --> 00:06:07,440
+okay that's good yeah overlooking yeah
+
+141
+00:06:05,699 --> 00:06:08,699
+because every time we cut in her life if
+
+142
+00:06:07,440 --> 00:06:11,400
+it's smaller
+
+143
+00:06:08,699 --> 00:06:12,960
+yeah if the animal is in this half we
+
+144
+00:06:11,400 --> 00:06:16,500
+don't need to search any of those right
+
+145
+00:06:12,960 --> 00:06:19,560
+so we abandon every time we abandon half
+
+146
+00:06:16,500 --> 00:06:25,340
+of the search domain okay okay so let's
+
+147
+00:06:19,560 --> 00:06:25,340
+Implement a fine function for the list
+
+148
+00:06:30,479 --> 00:06:36,780
+40 what do you mean okay
+
+149
+00:06:32,900 --> 00:06:39,240
+the first element is 14. okay 40 50. it
+
+150
+00:06:36,780 --> 00:06:41,220
+doesn't matter right yeah
+
+151
+00:06:39,240 --> 00:06:43,500
+yeah when we say look in the meter we're
+
+152
+00:06:41,220 --> 00:06:46,680
+not saying the value meter we're saying
+
+153
+00:06:43,500 --> 00:06:49,680
+that the meter of the array right so let
+
+154
+00:06:46,680 --> 00:06:52,440
+me tell it could be 100 or 300 let's put
+
+155
+00:06:49,680 --> 00:06:55,380
+another element it doesn't matter like
+
+156
+00:06:52,440 --> 00:06:57,240
+okay so the meter is this one okay so we
+
+157
+00:06:55,380 --> 00:07:00,360
+compare with this one 30 is smaller than
+
+158
+00:06:57,240 --> 00:07:04,080
+that right yeah so we don't need to
+
+159
+00:07:00,360 --> 00:07:06,660
+do any of this what is it what's the
+
+160
+00:07:04,080 --> 00:07:08,039
+middle is two numbers like before it
+
+161
+00:07:06,660 --> 00:07:10,560
+doesn't matter you can pick any one it
+
+162
+00:07:08,039 --> 00:07:12,539
+doesn't matter right because that's just
+
+163
+00:07:10,560 --> 00:07:14,340
+one difference this makes sense you need
+
+164
+00:07:12,539 --> 00:07:17,100
+this half I don't need to search any of
+
+165
+00:07:14,340 --> 00:07:19,080
+those and then here again it's smaller
+
+166
+00:07:17,100 --> 00:07:20,580
+than that I go into here and it's
+
+167
+00:07:19,080 --> 00:07:23,759
+smaller than that okay well right now of
+
+168
+00:07:20,580 --> 00:07:26,220
+choice is a minus one okay so as I said
+
+169
+00:07:23,759 --> 00:07:27,960
+let's Implement a fight using the linear
+
+170
+00:07:26,220 --> 00:07:30,060
+search okay because the away income
+
+171
+00:07:27,960 --> 00:07:33,120
+issue is salted python doesn't have a
+
+172
+00:07:30,060 --> 00:07:35,099
+file for the list okay and before I
+
+173
+00:07:33,120 --> 00:07:37,680
+forgot the index function right index
+
+174
+00:07:35,099 --> 00:07:40,259
+function and the fight function the
+
+175
+00:07:37,680 --> 00:07:43,380
+first element is the Target and then
+
+176
+00:07:40,259 --> 00:07:45,960
+there are options so you can start an n
+
+177
+00:07:43,380 --> 00:07:48,240
+and the range so let's say we don't want
+
+178
+00:07:45,960 --> 00:07:50,940
+to search the entire list let's say we
+
+179
+00:07:48,240 --> 00:07:52,620
+want to start from the index 2 to index
+
+180
+00:07:50,940 --> 00:07:54,419
+five then we can put the two and five
+
+181
+00:07:52,620 --> 00:07:57,419
+here does it make sense this is optional
+
+182
+00:07:54,419 --> 00:08:02,699
+parameters right you can give a star and
+
+183
+00:07:57,419 --> 00:08:04,800
+get the n yeah yeah okay Define five
+
+184
+00:08:02,699 --> 00:08:07,259
+we want to fight for a list all right
+
+185
+00:08:04,800 --> 00:08:08,880
+not iterable all right okay let's make
+
+186
+00:08:07,259 --> 00:08:12,000
+it all right and we want to find a
+
+187
+00:08:08,880 --> 00:08:13,919
+Target and an optional s and n if we
+
+188
+00:08:12,000 --> 00:08:17,520
+don't give a star parameter the optional
+
+189
+00:08:13,919 --> 00:08:20,460
+it's it's yellow and if we don't give a
+
+190
+00:08:17,520 --> 00:08:23,460
+optional that's minus one okay I can set
+
+191
+00:08:20,460 --> 00:08:26,520
+a default value for the parameters
+
+192
+00:08:23,460 --> 00:08:28,800
+if you don't give a value for S it's
+
+193
+00:08:26,520 --> 00:08:32,580
+zero if you don't give a value for e is
+
+194
+00:08:28,800 --> 00:08:34,560
+minus one if e is is minus one then we
+
+195
+00:08:32,580 --> 00:08:37,800
+need to correct it to the length of the
+
+196
+00:08:34,560 --> 00:08:41,580
+T right if we don't give a parameters
+
+197
+00:08:37,800 --> 00:08:46,200
+for the end boundary we set it to the
+
+198
+00:08:41,580 --> 00:08:48,540
+end of the the list each rows for I in
+
+199
+00:08:46,200 --> 00:08:52,459
+range from the start to the end and
+
+200
+00:08:48,540 --> 00:08:52,459
+we'll just check if a r i
+
+201
+00:09:00,920 --> 00:09:06,360
+minus one
+
+202
+00:09:03,480 --> 00:09:10,519
+okay so if we decide to sew an exception
+
+203
+00:09:06,360 --> 00:09:13,320
+we just replace this return with raise
+
+204
+00:09:10,519 --> 00:09:15,779
+a message here we can use the next
+
+205
+00:09:13,320 --> 00:09:22,220
+function right so we can say answer
+
+206
+00:09:15,779 --> 00:09:24,600
+equals next I for I in range
+
+207
+00:09:22,220 --> 00:09:29,760
+s e
+
+208
+00:09:24,600 --> 00:09:32,459
+e a r r i equal equal t
+
+209
+00:09:29,760 --> 00:09:34,980
+otherwise we return minus one if you not
+
+210
+00:09:32,459 --> 00:09:39,060
+fuck and then we can answer or if answer
+
+211
+00:09:34,980 --> 00:09:41,279
+equal equal minus one then we raise the
+
+212
+00:09:39,060 --> 00:09:43,380
+exception raise variable if we are
+
+213
+00:09:41,279 --> 00:09:45,540
+implementing the index function if it's
+
+214
+00:09:43,380 --> 00:09:47,880
+a five function which is written minus
+
+215
+00:09:45,540 --> 00:09:49,380
+one right so return answer
+
+216
+00:09:47,880 --> 00:09:52,019
+okay
+
+217
+00:09:49,380 --> 00:09:55,260
+okay so look this is the five function
+
+218
+00:09:52,019 --> 00:09:57,180
+for a list we can pass the at least a
+
+219
+00:09:55,260 --> 00:10:01,380
+chapter right so how do we use this
+
+220
+00:09:57,180 --> 00:10:04,320
+function five at least one two three all
+
+221
+00:10:01,380 --> 00:10:07,440
+one two three and then we want to find
+
+222
+00:10:04,320 --> 00:10:10,200
+the target three and look that's it if
+
+223
+00:10:07,440 --> 00:10:12,779
+we don't specify the S and E star and N
+
+224
+00:10:10,200 --> 00:10:15,660
+the S will be zero e will be minus one
+
+225
+00:10:12,779 --> 00:10:17,940
+but when e is minus one e will be uh
+
+226
+00:10:15,660 --> 00:10:19,440
+corrected to the length of the given
+
+227
+00:10:17,940 --> 00:10:20,470
+parameter right okay so what have you
+
+228
+00:10:19,440 --> 00:10:21,839
+learned today
+
+229
+00:10:20,470 --> 00:10:24,060
+[Music]
+
+230
+00:10:21,839 --> 00:10:27,560
+find an index right what's the
+
+231
+00:10:24,060 --> 00:10:27,560
+difference between find and index
+
+232
+00:10:29,040 --> 00:10:33,360
+yeah what's the difference between final
+
+233
+00:10:30,660 --> 00:10:39,360
+index okay
+
+234
+00:10:33,360 --> 00:10:43,019
+um index is your brain you can you try
+
+235
+00:10:39,360 --> 00:10:45,200
+to find like the like Place whatever
+
+236
+00:10:43,019 --> 00:10:48,180
+it's called
+
+237
+00:10:45,200 --> 00:10:51,120
+and and for the find the original
+
+238
+00:10:48,180 --> 00:10:53,820
+finding for it okay so what's the
+
+239
+00:10:51,120 --> 00:10:55,200
+difference the difference is it is not
+
+240
+00:10:53,820 --> 00:10:58,560
+there yeah
+
+241
+00:10:55,200 --> 00:11:02,820
+because if you're finding it it could be
+
+242
+00:10:58,560 --> 00:11:05,760
+there or not there before index and for
+
+243
+00:11:02,820 --> 00:11:08,839
+index you're you're telling something
+
+244
+00:11:05,760 --> 00:11:13,459
+you're telling me to do something within
+
+245
+00:11:08,839 --> 00:11:17,220
+elements but if that element isn't that
+
+246
+00:11:13,459 --> 00:11:19,860
+uh is a problem it's a problem the way
+
+247
+00:11:17,220 --> 00:11:22,380
+it's a very exception okay and the final
+
+248
+00:11:19,860 --> 00:11:25,019
+will be 10 minus one if it's not there
+
+249
+00:11:22,380 --> 00:11:27,420
+okay yeah you're trying to find
+
+250
+00:11:25,019 --> 00:11:29,760
+something you could be now you could not
+
+251
+00:11:27,420 --> 00:11:31,500
+be there it could be not existent right
+
+252
+00:11:29,760 --> 00:11:33,839
+but for the index you're pretty sure
+
+253
+00:11:31,500 --> 00:11:35,040
+it's there that's why you're asked to
+
+254
+00:11:33,839 --> 00:11:37,740
+find the index
+
+255
+00:11:35,040 --> 00:11:39,000
+when you say okay give me the index of
+
+256
+00:11:37,740 --> 00:11:41,640
+element
+
+257
+00:11:39,000 --> 00:11:42,839
+are you sure like it's there right and
+
+258
+00:11:41,640 --> 00:11:44,640
+if it's not that and it's going to be
+
+259
+00:11:42,839 --> 00:11:46,620
+perfect but it's like find me in the
+
+260
+00:11:44,640 --> 00:11:49,019
+index and it could could be the case
+
+261
+00:11:46,620 --> 00:11:51,180
+that it's not that right okay and now we
+
+262
+00:11:49,019 --> 00:11:53,279
+use the linear search we just do this
+
+263
+00:11:51,180 --> 00:11:56,040
+from a search start to the end and
+
+264
+00:11:53,279 --> 00:11:57,839
+finally we try to check each element to
+
+265
+00:11:56,040 --> 00:12:00,240
+see if it's equals to that right also
+
+266
+00:11:57,839 --> 00:12:03,120
+the find the index suppose the option
+
+267
+00:12:00,240 --> 00:12:05,519
+the parameter so so we can given range
+
+268
+00:12:03,120 --> 00:12:07,800
+from s to e we want to find a different
+
+269
+00:12:05,519 --> 00:12:11,100
+P okay so for example the last question
+
+270
+00:12:07,800 --> 00:12:12,839
+okay s top five
+
+271
+00:12:11,100 --> 00:12:15,779
+Eric
+
+272
+00:12:12,839 --> 00:12:18,300
+and Ryan okay
+
+273
+00:12:15,779 --> 00:12:22,140
+and I'm give a parameter
+
+274
+00:12:18,300 --> 00:12:23,360
+0 to 2 what does it return
+
+275
+00:12:22,140 --> 00:12:26,279
+pause
+
+276
+00:12:23,360 --> 00:12:28,440
+minus one y is minus one because there
+
+277
+00:12:26,279 --> 00:12:31,740
+is
+
+278
+00:12:28,440 --> 00:12:33,839
+yeah zero and one two so he's basically
+
+279
+00:12:31,740 --> 00:12:34,760
+trying to find it here and
+
+280
+00:12:33,839 --> 00:12:38,399
+everything
+
+281
+00:12:34,760 --> 00:12:41,160
+that has more values at than two true
+
+282
+00:12:38,399 --> 00:12:43,620
+yes true yeah okay yeah this is a simple
+
+283
+00:12:41,160 --> 00:12:45,240
+way to check right simple way to check
+
+284
+00:12:43,620 --> 00:12:46,680
+but what's underneath how do we
+
+285
+00:12:45,240 --> 00:12:50,940
+implement this this is a very
+
+286
+00:12:46,680 --> 00:12:52,980
+complicated topic it is called KMP you
+
+287
+00:12:50,940 --> 00:12:55,440
+know substring matching okay this is out
+
+288
+00:12:52,980 --> 00:12:57,180
+of scope of this talk yeah probably in
+
+289
+00:12:55,440 --> 00:13:01,500
+the future we can come back to this okay
+
+290
+00:12:57,180 --> 00:13:04,160
+that's it for today bye-bye bye bye
+
+291
+00:13:01,500 --> 00:13:04,160
+foreign
+

@@ -1,0 +1,1192 @@
+1
+00:00:00,120 --> 00:00:06,660
+hello hello Mr Mr Runner right so what's
+
+2
+00:00:04,740 --> 00:00:09,480
+finally says tree
+
+3
+00:00:06,660 --> 00:00:11,960
+is
+
+4
+00:00:09,480 --> 00:00:15,240
+and the one on the left side has to be
+
+5
+00:00:11,960 --> 00:00:17,760
+smaller than the this parent and the one
+
+6
+00:00:15,240 --> 00:00:21,539
+on the right hand needs to be bigger and
+
+7
+00:00:17,760 --> 00:00:24,600
+and they still need to be the same so
+
+8
+00:00:21,539 --> 00:00:26,640
+like if the one in the left if the one
+
+9
+00:00:24,600 --> 00:00:30,660
+on the bigger is still have to be
+
+10
+00:00:26,640 --> 00:00:34,640
+smaller than the the part of the one of
+
+11
+00:00:30,660 --> 00:00:34,640
+its parents is this a PSD
+
+12
+00:00:47,059 --> 00:00:51,480
+that's right because this on this side
+
+13
+00:00:49,320 --> 00:00:54,480
+needs to be bigger than seven okay so
+
+14
+00:00:51,480 --> 00:00:56,460
+let's put eight right this is the final
+
+15
+00:00:54,480 --> 00:00:58,219
+search given the binary search tree we
+
+16
+00:00:56,460 --> 00:01:01,079
+want to find out the minimum difference
+
+17
+00:00:58,219 --> 00:01:03,719
+minimum difference of any two notes in
+
+18
+00:01:01,079 --> 00:01:06,260
+the binary substrate what's the smallest
+
+19
+00:01:03,719 --> 00:01:10,500
+distance the difference
+
+20
+00:01:06,260 --> 00:01:12,659
+nine and eight okay so these two notes
+
+21
+00:01:10,500 --> 00:01:15,299
+yeah seven and eight okay so just to
+
+22
+00:01:12,659 --> 00:01:17,600
+return one okay return one the minimum
+
+23
+00:01:15,299 --> 00:01:17,600
+difference
+
+24
+00:01:17,820 --> 00:01:21,840
+okay opening two notes for example A and
+
+25
+00:01:20,340 --> 00:01:24,840
+B so we want to get the minimum
+
+26
+00:01:21,840 --> 00:01:27,540
+difference which is the absolute value A
+
+27
+00:01:24,840 --> 00:01:29,700
+and B right this is absolute value do
+
+28
+00:01:27,540 --> 00:01:33,119
+you still remember this okay X
+
+29
+00:01:29,700 --> 00:01:37,320
+mathematics equals x if x bigger than
+
+30
+00:01:33,119 --> 00:01:39,900
+zero zero if x equals zero minus x if x
+
+31
+00:01:37,320 --> 00:01:41,700
+is right this is absolute value this is
+
+32
+00:01:39,900 --> 00:01:44,640
+minor one the distance to the number
+
+33
+00:01:41,700 --> 00:01:46,200
+zero this is one right for any positive
+
+34
+00:01:44,640 --> 00:01:49,200
+number the distance
+
+35
+00:01:46,200 --> 00:01:51,899
+to the zero is Excel for the negative
+
+36
+00:01:49,200 --> 00:01:54,299
+number the distance is negative X okay
+
+37
+00:01:51,899 --> 00:01:58,740
+so this one for
+
+38
+00:01:54,299 --> 00:02:00,720
+A and B belongs to all the nodes in the
+
+39
+00:01:58,740 --> 00:02:02,880
+VST okay
+
+40
+00:02:00,720 --> 00:02:05,399
+any idea how we're doing this remember
+
+41
+00:02:02,880 --> 00:02:07,860
+we are even a binary surgery what can we
+
+42
+00:02:05,399 --> 00:02:11,640
+do about the binary search tree why are
+
+43
+00:02:07,860 --> 00:02:14,760
+we giving the minus 3.
+
+44
+00:02:11,640 --> 00:02:16,500
+finally search three is already sorted
+
+45
+00:02:14,760 --> 00:02:19,200
+but we need just need to perform what
+
+46
+00:02:16,500 --> 00:02:22,020
+kind of order to make it assertive in
+
+47
+00:02:19,200 --> 00:02:24,720
+order yes well what's in order you know
+
+48
+00:02:22,020 --> 00:02:28,040
+there is a type of water yes so you know
+
+49
+00:02:24,720 --> 00:02:31,500
+there is an order for a level
+
+50
+00:02:28,040 --> 00:02:34,500
+is it in order that makes the one
+
+51
+00:02:31,500 --> 00:02:37,379
+research free in order okay so this is
+
+52
+00:02:34,500 --> 00:02:39,840
+no left three yeah another Library so
+
+53
+00:02:37,379 --> 00:02:41,760
+the order will be the last three will be
+
+54
+00:02:39,840 --> 00:02:43,739
+to the left three first and the node and
+
+55
+00:02:41,760 --> 00:02:45,720
+the right shoe right because this this
+
+56
+00:02:43,739 --> 00:02:48,300
+is seven right we want to visit the
+
+57
+00:02:45,720 --> 00:02:50,400
+nodes that are smaller than seven
+
+58
+00:02:48,300 --> 00:02:53,420
+right and then we visited now server and
+
+59
+00:02:50,400 --> 00:02:53,420
+we visited the notifications
+
+60
+00:02:54,140 --> 00:02:59,160
+doing this in order I think on the left
+
+61
+00:02:57,000 --> 00:03:01,860
+tree and right three recursively and
+
+62
+00:02:59,160 --> 00:03:02,700
+then that gives us a salty list make
+
+63
+00:03:01,860 --> 00:03:05,519
+sense
+
+64
+00:03:02,700 --> 00:03:07,800
+so we can perform that in order then we
+
+65
+00:03:05,519 --> 00:03:09,599
+get the salty list so what do we do with
+
+66
+00:03:07,800 --> 00:03:11,340
+the sausages so after this that will be
+
+67
+00:03:09,599 --> 00:03:16,739
+minus my
+
+68
+00:03:11,340 --> 00:03:18,900
+and minus five one seven eight nine a
+
+69
+00:03:16,739 --> 00:03:21,080
+hundred so okay so we have this 30 days
+
+70
+00:03:18,900 --> 00:03:24,000
+what do we do with it
+
+71
+00:03:21,080 --> 00:03:26,879
+we get me to the line with first two
+
+72
+00:03:24,000 --> 00:03:29,040
+numbers and just yeah compare can you
+
+73
+00:03:26,879 --> 00:03:30,420
+prove to me can you explain to me why we
+
+74
+00:03:29,040 --> 00:03:32,640
+just need to check these two numbers
+
+75
+00:03:30,420 --> 00:03:36,300
+enabling two numbers or you know not any
+
+76
+00:03:32,640 --> 00:03:38,760
+other numbers because it is in order so
+
+77
+00:03:36,300 --> 00:03:40,500
+it's it's like if humanity is obviously
+
+78
+00:03:38,760 --> 00:03:42,659
+gonna be even different it's gonna be
+
+79
+00:03:40,500 --> 00:03:44,040
+greater than these two yes because they
+
+80
+00:03:42,659 --> 00:03:46,319
+solve it right because it's a very good
+
+81
+00:03:44,040 --> 00:03:48,000
+explanation the minimum we are looking
+
+82
+00:03:46,319 --> 00:03:50,580
+for a minimum difference it has to be
+
+83
+00:03:48,000 --> 00:03:52,560
+the neighbor to numbers in a substitute
+
+84
+00:03:50,580 --> 00:03:56,940
+so we can just do this right do this do
+
+85
+00:03:52,560 --> 00:03:58,680
+this and then we get a minute okay so by
+
+86
+00:03:56,940 --> 00:04:00,599
+converting to a list right we can use
+
+87
+00:03:58,680 --> 00:04:02,519
+the you know we can convert into a list
+
+88
+00:04:00,599 --> 00:04:04,440
+or we can use the generator here the
+
+89
+00:04:02,519 --> 00:04:07,620
+thing right prefer search
+
+90
+00:04:04,440 --> 00:04:10,260
+prefer search in order right loot
+
+91
+00:04:07,620 --> 00:04:13,500
+is not loot
+
+92
+00:04:10,260 --> 00:04:15,420
+if we have empty nodes you know we've
+
+93
+00:04:13,500 --> 00:04:17,579
+reached the end I'll just return
+
+94
+00:04:15,420 --> 00:04:19,560
+we visit the left part first right so
+
+95
+00:04:17,579 --> 00:04:22,079
+years from
+
+96
+00:04:19,560 --> 00:04:25,440
+yet from yeah from default search
+
+97
+00:04:22,079 --> 00:04:28,740
+recursion X such low down left let's
+
+98
+00:04:25,440 --> 00:04:31,800
+visit the left tree recursively and then
+
+99
+00:04:28,740 --> 00:04:34,860
+get whatever nose there yeah the year
+
+100
+00:04:31,800 --> 00:04:37,620
+from that and then now it is time to
+
+101
+00:04:34,860 --> 00:04:40,740
+visit the calendar right so yeah if we
+
+102
+00:04:37,620 --> 00:04:43,560
+only eat a single the year load of value
+
+103
+00:04:40,740 --> 00:04:45,300
+and can you guess what's next
+
+104
+00:04:43,560 --> 00:04:47,100
+when you visit the left tree you visit
+
+105
+00:04:45,300 --> 00:04:50,460
+the current now and what should we do
+
+106
+00:04:47,100 --> 00:04:52,020
+now we did the right tree so yeah
+
+107
+00:04:50,460 --> 00:04:56,340
+from
+
+108
+00:04:52,020 --> 00:04:58,080
+that massage was sex right lose don't
+
+109
+00:04:56,340 --> 00:05:01,380
+write okay
+
+110
+00:04:58,080 --> 00:05:03,540
+numbers equals this is a return Purpose
+
+111
+00:05:01,380 --> 00:05:04,320
+with the year so we need to convert it
+
+112
+00:05:03,540 --> 00:05:07,080
+to
+
+113
+00:05:04,320 --> 00:05:09,120
+we need to convert it to least year
+
+114
+00:05:07,080 --> 00:05:11,280
+defensive shoes so basically at least
+
+115
+00:05:09,120 --> 00:05:13,080
+you would you know travel through using
+
+116
+00:05:11,280 --> 00:05:16,259
+it in order and after that we can just
+
+117
+00:05:13,080 --> 00:05:18,680
+do this for you know answer at the
+
+118
+00:05:16,259 --> 00:05:22,259
+beginning is infinity right Infinity for
+
+119
+00:05:18,680 --> 00:05:24,000
+I in range
+
+120
+00:05:22,259 --> 00:05:25,380
+lens
+
+121
+00:05:24,000 --> 00:05:30,060
+numbers
+
+122
+00:05:25,380 --> 00:05:32,460
+minus one and answer equals minimum we
+
+123
+00:05:30,060 --> 00:05:35,220
+also get a minimum answer
+
+124
+00:05:32,460 --> 00:05:39,539
+absolute value
+
+125
+00:05:35,220 --> 00:05:40,919
+numbers I minus numbers I plus one right
+
+126
+00:05:39,539 --> 00:05:43,699
+the neighboring
+
+127
+00:05:40,919 --> 00:05:43,699
+written answer
+
+128
+00:05:43,860 --> 00:05:48,180
+okay so if the root is
+
+129
+00:05:46,139 --> 00:05:49,620
+F if it were given an empty tree then we
+
+130
+00:05:48,180 --> 00:05:51,060
+will return Infinity if we want to
+
+131
+00:05:49,620 --> 00:05:53,280
+return zero then we have to check here
+
+132
+00:05:51,060 --> 00:05:55,740
+we can answer if answer
+
+133
+00:05:53,280 --> 00:05:57,539
+not equal Infinity otherwise still okay
+
+134
+00:05:55,740 --> 00:06:01,160
+we're looking for the minimum so we can
+
+135
+00:05:57,539 --> 00:06:04,320
+say return mean
+
+136
+00:06:01,160 --> 00:06:07,860
+absolute numbers I minus num I plus one
+
+137
+00:06:04,320 --> 00:06:11,280
+for I in range length Lambs I minus one
+
+138
+00:06:07,860 --> 00:06:13,800
+54 equals zero if it's a robust is empty
+
+139
+00:06:11,280 --> 00:06:16,320
+so the function return mean this
+
+140
+00:06:13,800 --> 00:06:18,860
+iterable yeah
+
+141
+00:06:16,320 --> 00:06:23,340
+before
+
+142
+00:06:18,860 --> 00:06:26,039
+so when the eat when it is empty before
+
+143
+00:06:23,340 --> 00:06:28,080
+it's zero otherwise will return the
+
+144
+00:06:26,039 --> 00:06:31,020
+minimum of the all the elements in the
+
+145
+00:06:28,080 --> 00:06:34,199
+in the either of us this is using the
+
+146
+00:06:31,020 --> 00:06:37,680
+year right so we still when we go into
+
+147
+00:06:34,199 --> 00:06:40,139
+the other notes in the tree we still
+
+148
+00:06:37,680 --> 00:06:42,600
+have to use the additional space which
+
+149
+00:06:40,139 --> 00:06:44,160
+is o n the tantumplex diesel and N is
+
+150
+00:06:42,600 --> 00:06:48,060
+the number of nodes in a balances tree
+
+151
+00:06:44,160 --> 00:06:49,860
+the space complexity is o h h in the
+
+152
+00:06:48,060 --> 00:06:53,220
+worst case is n
+
+153
+00:06:49,860 --> 00:06:55,680
+n minus 1 actually so it's n right so H
+
+154
+00:06:53,220 --> 00:06:57,900
+the height of the tree
+
+155
+00:06:55,680 --> 00:07:00,539
+because what space complexity for uh
+
+156
+00:06:57,900 --> 00:07:03,660
+recursion it's according depth right in
+
+157
+00:07:00,539 --> 00:07:05,840
+what cases H is n minus one it's like a
+
+158
+00:07:03,660 --> 00:07:05,840
+line
+
+159
+00:07:22,099 --> 00:07:27,900
+numbers and then we can do this number
+
+160
+00:07:25,020 --> 00:07:30,660
+extend all the thing yeah all the things
+
+161
+00:07:27,900 --> 00:07:32,880
+from devices to the left and numbers
+
+162
+00:07:30,660 --> 00:07:35,220
+append this value and numbers don't
+
+163
+00:07:32,880 --> 00:07:38,280
+extend all the numbers from like it's
+
+164
+00:07:35,220 --> 00:07:40,080
+not as elegant as this approach using a
+
+165
+00:07:38,280 --> 00:07:43,080
+year do we need to store all the numbers
+
+166
+00:07:40,080 --> 00:07:44,580
+in that array we don't right we just
+
+167
+00:07:43,080 --> 00:07:46,979
+need to you know get these two numbers
+
+168
+00:07:44,580 --> 00:07:49,020
+right we don't need to keep tracking all
+
+169
+00:07:46,979 --> 00:07:50,759
+the numbers in our way how do we find
+
+170
+00:07:49,020 --> 00:07:52,319
+out the distance this is one is the
+
+171
+00:07:50,759 --> 00:07:54,660
+minimum
+
+172
+00:07:52,319 --> 00:07:56,699
+do we need to get all the numbers and
+
+173
+00:07:54,660 --> 00:07:59,340
+put it down on the list we don't like we
+
+174
+00:07:56,699 --> 00:08:01,860
+just need to know the previous previous
+
+175
+00:07:59,340 --> 00:08:03,960
+one remember the previous one okay seven
+
+176
+00:08:01,860 --> 00:08:05,160
+what's the previous six six go to the
+
+177
+00:08:03,960 --> 00:08:07,259
+previous three
+
+178
+00:08:05,160 --> 00:08:10,919
+okay six months I went to the previous
+
+179
+00:08:07,259 --> 00:08:14,280
+six hey what's the previous seven a
+
+180
+00:08:10,919 --> 00:08:15,900
+hundred what's the previous nine okay as
+
+181
+00:08:14,280 --> 00:08:18,180
+long as I know the previous I can get
+
+182
+00:08:15,900 --> 00:08:20,099
+the distance I have this previous and
+
+183
+00:08:18,180 --> 00:08:22,220
+the beginning is now right at the
+
+184
+00:08:20,099 --> 00:08:22,220
+beginning
+
+185
+00:08:26,240 --> 00:08:32,099
+we need to go to the left tree first
+
+186
+00:08:29,220 --> 00:08:34,440
+left versus do the left
+
+187
+00:08:32,099 --> 00:08:36,360
+okay and then now I have to check if the
+
+188
+00:08:34,440 --> 00:08:37,740
+previous if there's a previous right
+
+189
+00:08:36,360 --> 00:08:39,479
+obviously at the beginning there's no
+
+190
+00:08:37,740 --> 00:08:41,279
+previous even the previous then I can
+
+191
+00:08:39,479 --> 00:08:43,020
+say answer right answer at the beginning
+
+192
+00:08:41,279 --> 00:08:45,899
+Infinity
+
+193
+00:08:43,020 --> 00:08:47,580
+answer by the way in order to assess
+
+194
+00:08:45,899 --> 00:08:50,220
+these two value you have to add the
+
+195
+00:08:47,580 --> 00:08:53,220
+global or longer okay depending on the
+
+196
+00:08:50,220 --> 00:08:58,040
+context answer if answer equals the
+
+197
+00:08:53,220 --> 00:09:02,339
+minimum answer absolute value previous
+
+198
+00:08:58,040 --> 00:09:04,080
+Top Value minus noodle value right if
+
+199
+00:09:02,339 --> 00:09:06,660
+laser is the previous value
+
+200
+00:09:04,080 --> 00:09:09,959
+I get a distance I can compute the
+
+201
+00:09:06,660 --> 00:09:11,940
+distance and I save the minimum before
+
+202
+00:09:09,959 --> 00:09:13,920
+going to the right right before going to
+
+203
+00:09:11,940 --> 00:09:14,760
+the right which no I should set to the
+
+204
+00:09:13,920 --> 00:09:17,640
+previous
+
+205
+00:09:14,760 --> 00:09:18,480
+okay now I'm here right look I'm at null
+
+206
+00:09:17,640 --> 00:09:21,720
+seven
+
+207
+00:09:18,480 --> 00:09:23,700
+okay and I'm going to travel these three
+
+208
+00:09:21,720 --> 00:09:26,399
+to the right tree which one is the
+
+209
+00:09:23,700 --> 00:09:28,800
+previous value seven yeah so I'm here
+
+210
+00:09:26,399 --> 00:09:32,540
+right I'm about to travel this slide
+
+211
+00:09:28,800 --> 00:09:32,540
+three so that to the left
+
+212
+00:09:32,600 --> 00:09:37,260
+is it seven
+
+213
+00:09:34,680 --> 00:09:39,300
+yeah seven I'm about to travel the right
+
+214
+00:09:37,260 --> 00:09:40,860
+tree and then I'm in the dude I'm
+
+215
+00:09:39,300 --> 00:09:42,899
+traveling the right tree so I need to
+
+216
+00:09:40,860 --> 00:09:45,240
+set the value here the previous value
+
+217
+00:09:42,899 --> 00:09:46,920
+this is the previous value of whatever
+
+218
+00:09:45,240 --> 00:09:48,660
+the right show you right if it's a
+
+219
+00:09:46,920 --> 00:09:50,459
+single node so I'm about to travel to
+
+220
+00:09:48,660 --> 00:09:53,459
+nine what's the previous value of nine
+
+221
+00:09:50,459 --> 00:09:55,260
+seven yeah then it makes sense okay I'm
+
+222
+00:09:53,459 --> 00:09:57,600
+about to travel these three what's the
+
+223
+00:09:55,260 --> 00:10:00,000
+previous value of these seven seven
+
+224
+00:09:57,600 --> 00:10:03,420
+right because look eight okay so now I
+
+225
+00:10:00,000 --> 00:10:06,420
+just have to say previous equals loot
+
+226
+00:10:03,420 --> 00:10:06,420
+foreign
+
+227
+00:10:08,880 --> 00:10:15,200
+dude
+
+228
+00:10:11,000 --> 00:10:15,200
+what's the news about right
+
+229
+00:10:15,600 --> 00:10:21,240
+and after least I definitely search root
+
+230
+00:10:18,260 --> 00:10:23,700
+and I already know the mean answer here
+
+231
+00:10:21,240 --> 00:10:26,760
+they can answer
+
+232
+00:10:23,700 --> 00:10:31,700
+okay what is an answer
+
+233
+00:10:26,760 --> 00:10:31,700
+so again yeah we have to visit all the
+
+234
+00:10:32,760 --> 00:10:37,800
+not the minimum difference of any two
+
+235
+00:10:35,040 --> 00:10:41,100
+notes in a given binary search tree am I
+
+236
+00:10:37,800 --> 00:10:43,740
+right so what's any tool
+
+237
+00:10:41,100 --> 00:10:46,800
+right you have to travel
+
+238
+00:10:43,740 --> 00:10:49,260
+all the notes to find out the minimum am
+
+239
+00:10:46,800 --> 00:10:51,360
+I right does it make sense so that means
+
+240
+00:10:49,260 --> 00:10:53,519
+that the time connects is o n but for
+
+241
+00:10:51,360 --> 00:10:56,820
+this one the space complexity we don't
+
+242
+00:10:53,519 --> 00:10:58,560
+need to store the addition uh the
+
+243
+00:10:56,820 --> 00:11:00,420
+numbers in the additional way right
+
+244
+00:10:58,560 --> 00:11:02,760
+there is no array here right there's no
+
+245
+00:11:00,420 --> 00:11:05,399
+here let's do nothing but for this one
+
+246
+00:11:02,760 --> 00:11:08,279
+the space complexity
+
+247
+00:11:05,399 --> 00:11:10,140
+this is still oh because it's using
+
+248
+00:11:08,279 --> 00:11:11,940
+recursion right you can't really say
+
+249
+00:11:10,140 --> 00:11:14,100
+there's no nothing because there is
+
+250
+00:11:11,940 --> 00:11:17,279
+something there before you said then no
+
+251
+00:11:14,100 --> 00:11:19,500
+no think there is something there okay
+
+252
+00:11:17,279 --> 00:11:21,720
+so even a note is nothing we have to
+
+253
+00:11:19,500 --> 00:11:24,000
+define the base cases if no if we're
+
+254
+00:11:21,720 --> 00:11:25,800
+reaching a hundred I know what's next
+
+255
+00:11:24,000 --> 00:11:29,220
+what is left nothing what is right
+
+256
+00:11:25,800 --> 00:11:30,720
+nothing right this is the nothing like
+
+257
+00:11:29,220 --> 00:11:32,940
+for each node
+
+258
+00:11:30,720 --> 00:11:34,620
+the binary tree for each you know there
+
+259
+00:11:32,940 --> 00:11:36,240
+are two pointers to the left three and
+
+260
+00:11:34,620 --> 00:11:38,399
+right three and if it's like this no
+
+261
+00:11:36,240 --> 00:11:40,320
+this is nothing this is nothing okay
+
+262
+00:11:38,399 --> 00:11:45,000
+it's nothing but you said they know
+
+263
+00:11:40,320 --> 00:11:47,880
+nothing so damages okay not nothing
+
+264
+00:11:45,000 --> 00:11:50,880
+it's not Standard English
+
+265
+00:11:47,880 --> 00:11:53,519
+okay so how can I say it perfectly
+
+266
+00:11:50,880 --> 00:11:55,680
+there's no left part of it there's no
+
+267
+00:11:53,519 --> 00:11:57,360
+right part okay that's it the left tree
+
+268
+00:11:55,680 --> 00:11:59,880
+and the right tree is empty it's a leaf
+
+269
+00:11:57,360 --> 00:12:01,800
+now right even you know right right this
+
+270
+00:11:59,880 --> 00:12:04,459
+nose these are these notes okay what
+
+271
+00:12:01,800 --> 00:12:04,459
+have you learned today
+
+272
+00:12:06,120 --> 00:12:14,399
+the minimum difference between
+
+273
+00:12:10,019 --> 00:12:16,860
+between number in the list in the binary
+
+274
+00:12:14,399 --> 00:12:19,260
+surgery right yeah and you use a list
+
+275
+00:12:16,860 --> 00:12:20,760
+yeah sometimes one question why are we
+
+276
+00:12:19,260 --> 00:12:24,180
+giving a binary substitute what
+
+277
+00:12:20,760 --> 00:12:26,760
+advantage of it is basically is in order
+
+278
+00:12:24,180 --> 00:12:28,980
+and that's o-n right if we are not
+
+279
+00:12:26,760 --> 00:12:31,260
+giving up another Street then we sort it
+
+280
+00:12:28,980 --> 00:12:34,079
+what's the time complexity oh and Logan
+
+281
+00:12:31,260 --> 00:12:36,240
+right so look and numbers in the final
+
+282
+00:12:34,079 --> 00:12:38,279
+three yeah we use the O and performance
+
+283
+00:12:36,240 --> 00:12:40,800
+in order like give us a salted wrist
+
+284
+00:12:38,279 --> 00:12:43,740
+right this is Owen but if this is not by
+
+285
+00:12:40,800 --> 00:12:45,720
+necessary we put it in a list we need to
+
+286
+00:12:43,740 --> 00:12:48,000
+sort it that's our login right that's
+
+287
+00:12:45,720 --> 00:12:50,639
+the thing because this is the binary
+
+288
+00:12:48,000 --> 00:12:53,279
+search tree that's why performing a o n
+
+289
+00:12:50,639 --> 00:12:55,980
+gives us a 30 piece if it's not a fine
+
+290
+00:12:53,279 --> 00:12:59,040
+necessary we sort it that would require
+
+291
+00:12:55,980 --> 00:13:00,899
+over login right doesn't make sense okay
+
+292
+00:12:59,040 --> 00:13:03,380
+so which method is better this one
+
+293
+00:13:00,899 --> 00:13:03,380
+another one
+
+294
+00:13:13,100 --> 00:13:17,579
+yeah because we don't have to put all
+
+295
+00:13:15,420 --> 00:13:20,339
+the numbers on the list that's a great
+
+296
+00:13:17,579 --> 00:13:22,500
+advantage of using it right make sense
+
+297
+00:13:20,339 --> 00:13:25,820
+yeah okay that's it for today bye-bye
+
+298
+00:13:22,500 --> 00:13:25,820
+bye bye bye
+
