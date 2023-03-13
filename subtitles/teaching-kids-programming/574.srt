@@ -1,0 +1,1132 @@
+1
+00:00:00,299 --> 00:00:07,440
+hello Mr Mr Reiner right yeah okay so
+
+2
+00:00:04,620 --> 00:00:12,420
+let's say we have 10 persons from one to
+
+3
+00:00:07,440 --> 00:00:14,639
+n right so one two three four up to n
+
+4
+00:00:12,420 --> 00:00:16,980
+and at the beginning the first person
+
+5
+00:00:14,639 --> 00:00:20,039
+has the pillow pillow here
+
+6
+00:00:16,980 --> 00:00:22,260
+and it takes one second to pass the
+
+7
+00:00:20,039 --> 00:00:23,760
+period from one person to another to the
+
+8
+00:00:22,260 --> 00:00:25,380
+neighbor right so at the beginning the
+
+9
+00:00:23,760 --> 00:00:27,779
+first person passed the pillows to
+
+10
+00:00:25,380 --> 00:00:29,460
+second person and in another second the
+
+11
+00:00:27,779 --> 00:00:32,460
+second person passed the period to the
+
+12
+00:00:29,460 --> 00:00:34,440
+third person and when the pillar reaches
+
+13
+00:00:32,460 --> 00:00:37,920
+when the pillar reaches the nth person
+
+14
+00:00:34,440 --> 00:00:40,320
+and the next time you pass it back so
+
+15
+00:00:37,920 --> 00:00:42,239
+after 30 seconds we want to know where
+
+16
+00:00:40,320 --> 00:00:47,579
+the appear is let's take the example and
+
+17
+00:00:42,239 --> 00:00:47,579
+the three percent right so daddy Ryan
+
+18
+00:00:51,079 --> 00:00:56,579
+after four seconds who has the period
+
+19
+00:00:53,340 --> 00:00:59,300
+after four seconds four seconds
+
+20
+00:00:56,579 --> 00:00:59,300
+second seconds
+
+21
+00:00:59,820 --> 00:01:04,440
+the third second pass it back
+
+22
+00:01:02,879 --> 00:01:06,360
+the fourth second
+
+23
+00:01:04,440 --> 00:01:07,680
+okay after four seconds ready has it
+
+24
+00:01:06,360 --> 00:01:09,900
+right
+
+25
+00:01:07,680 --> 00:01:13,740
+and then the fifth second sixth second
+
+26
+00:01:09,900 --> 00:01:17,880
+seven a nine ten eleven and this is the
+
+27
+00:01:13,740 --> 00:01:21,000
+parameter of N and T we want to find out
+
+28
+00:01:17,880 --> 00:01:23,040
+who has an appearance at the end the N
+
+29
+00:01:21,000 --> 00:01:25,439
+antique arbitrary like T could be a
+
+30
+00:01:23,040 --> 00:01:26,520
+Minion Okay this is nothing p p could be
+
+31
+00:01:25,439 --> 00:01:28,680
+a minion
+
+32
+00:01:26,520 --> 00:01:32,159
+if you didn't know that that many
+
+33
+00:01:28,680 --> 00:01:34,140
+persons life is that if you want to do a
+
+34
+00:01:32,159 --> 00:01:38,400
+million seconds under a million persons
+
+35
+00:01:34,140 --> 00:01:41,100
+it's a it's the second last person yes
+
+36
+00:01:38,400 --> 00:01:43,920
+okay but nnt could be arbitrary that's
+
+37
+00:01:41,100 --> 00:01:46,619
+the thing so how do we find out easily I
+
+38
+00:01:43,920 --> 00:01:49,860
+mean obviously we can what did Daddy
+
+39
+00:01:46,619 --> 00:01:52,860
+just do we can simulate right we can
+
+40
+00:01:49,860 --> 00:01:54,840
+simulate the process but this is not
+
+41
+00:01:52,860 --> 00:01:57,479
+very efficient because tea is a medium
+
+42
+00:01:54,840 --> 00:01:59,399
+and it takes many all iteration that's
+
+43
+00:01:57,479 --> 00:02:03,680
+very slow right
+
+44
+00:01:59,399 --> 00:02:03,680
+so any better ways to do it
+
+45
+00:02:07,680 --> 00:02:12,959
+take it all around the back okay I know
+
+46
+00:02:11,220 --> 00:02:16,280
+what was that if there are three person
+
+47
+00:02:12,959 --> 00:02:19,620
+how many seconds to go back to four yeah
+
+48
+00:02:16,280 --> 00:02:21,599
+one two three four yes if they are
+
+49
+00:02:19,620 --> 00:02:24,360
+another one money yeah how many seconds
+
+50
+00:02:21,599 --> 00:02:27,239
+four percent how many seconds
+
+51
+00:02:24,360 --> 00:02:31,620
+one two three four five six okay so and
+
+52
+00:02:27,239 --> 00:02:34,200
+how many seconds to take a long trip and
+
+53
+00:02:31,620 --> 00:02:36,540
+two okay and times two minus two okay
+
+54
+00:02:34,200 --> 00:02:39,120
+this is the same thing as n minus one
+
+55
+00:02:36,540 --> 00:02:41,099
+times two right n times two minus two
+
+56
+00:02:39,120 --> 00:02:44,519
+okay okay so we know
+
+57
+00:02:41,099 --> 00:02:46,980
+the amount of seconds it takes to do a
+
+58
+00:02:44,519 --> 00:02:49,319
+long trip and then we are given T
+
+59
+00:02:46,980 --> 00:02:51,540
+seconds so what can we do about it so do
+
+60
+00:02:49,319 --> 00:02:55,379
+we need to you know do these uh long
+
+61
+00:02:51,540 --> 00:02:57,840
+trips no right because after a long trip
+
+62
+00:02:55,379 --> 00:03:00,239
+it doesn't change right all right so
+
+63
+00:02:57,840 --> 00:03:02,480
+what do we do with this tea goodbye
+
+64
+00:03:00,239 --> 00:03:02,480
+goodbye
+
+65
+00:03:04,800 --> 00:03:09,540
+divided it's modulus right we want
+
+66
+00:03:06,959 --> 00:03:13,319
+together yeah yeah because we want to
+
+67
+00:03:09,540 --> 00:03:16,220
+reduce this big number if like you get
+
+68
+00:03:13,319 --> 00:03:16,220
+the integer and
+
+69
+00:03:19,379 --> 00:03:23,280
+and they've easily just put it but if
+
+70
+00:03:21,420 --> 00:03:26,400
+it's odd number then you're still on the
+
+71
+00:03:23,280 --> 00:03:28,019
+way back X modulus 39 how many
+
+72
+00:03:26,400 --> 00:03:30,360
+possibilities
+
+73
+00:03:28,019 --> 00:03:34,620
+what's the possible values
+
+74
+00:03:30,360 --> 00:03:37,620
+0 to 38 39 various right so any number
+
+75
+00:03:34,620 --> 00:03:39,000
+three modulus this one is this number of
+
+76
+00:03:37,620 --> 00:03:41,459
+hospitalities all right so we're
+
+77
+00:03:39,000 --> 00:03:44,940
+reducing the T to end right make sense
+
+78
+00:03:41,459 --> 00:03:50,940
+so after that okay so let's say
+
+79
+00:03:44,940 --> 00:03:53,879
+t modules n minus one times two
+
+80
+00:03:50,940 --> 00:03:57,299
+this is K okay suppose we have this
+
+81
+00:03:53,879 --> 00:04:00,540
+number K this is first person after the
+
+82
+00:03:57,299 --> 00:04:03,239
+wrong tricks they are K remains so how
+
+83
+00:04:00,540 --> 00:04:06,480
+many possibilities
+
+84
+00:04:03,239 --> 00:04:09,360
+do for now persons yeah I know it could
+
+85
+00:04:06,480 --> 00:04:11,099
+be this way or it could be this way all
+
+86
+00:04:09,360 --> 00:04:12,900
+the way back yeah yeah it could be yeah
+
+87
+00:04:11,099 --> 00:04:14,159
+it could be here or it could be on the
+
+88
+00:04:12,900 --> 00:04:17,519
+way back right so there are two
+
+89
+00:04:14,159 --> 00:04:22,620
+possibilities Ela is here all the way
+
+90
+00:04:17,519 --> 00:04:26,280
+back this bit is equals to n times two
+
+91
+00:04:22,620 --> 00:04:30,120
+minus K so we just have to get a minimum
+
+92
+00:04:26,280 --> 00:04:32,580
+right it could be this way or leave
+
+93
+00:04:30,120 --> 00:04:35,100
+whichever is minimum for example like
+
+94
+00:04:32,580 --> 00:04:37,400
+five percent right one two three four
+
+95
+00:04:35,100 --> 00:04:41,340
+five five percent k equals four
+
+96
+00:04:37,400 --> 00:04:44,340
+obviously it's this one right k equals a
+
+97
+00:04:41,340 --> 00:04:47,699
+k equals four this year
+
+98
+00:04:44,340 --> 00:04:50,780
+k equals a which person is it yeah but
+
+99
+00:04:47,699 --> 00:04:54,180
+if k equals four then you'll be five
+
+100
+00:04:50,780 --> 00:04:55,500
+because yeah okay that's a plus one yes
+
+101
+00:04:54,180 --> 00:04:57,180
+it does
+
+102
+00:04:55,500 --> 00:04:59,780
+it has a five week subtract two because
+
+103
+00:04:57,180 --> 00:04:59,780
+because
+
+104
+00:05:03,680 --> 00:05:10,560
+okay so k equals these plus one okay A
+
+105
+00:05:08,220 --> 00:05:13,500
+plus one here because when the remaining
+
+106
+00:05:10,560 --> 00:05:15,600
+is a star from zero right remain is zero
+
+107
+00:05:13,500 --> 00:05:18,060
+I plus one to make it the first person
+
+108
+00:05:15,600 --> 00:05:21,300
+so let's say k equals four so obviously
+
+109
+00:05:18,060 --> 00:05:24,000
+the fourth person k equals a one two
+
+110
+00:05:21,300 --> 00:05:27,020
+three four five six seven eight is here
+
+111
+00:05:24,000 --> 00:05:27,020
+all right
+
+112
+00:05:29,360 --> 00:05:36,060
+how do we get these two from eight
+
+113
+00:05:32,820 --> 00:05:39,419
+is five times two minus
+
+114
+00:05:36,060 --> 00:05:42,840
+a okay what it means is that we want to
+
+115
+00:05:39,419 --> 00:05:45,720
+find out if it's closer to this side
+
+116
+00:05:42,840 --> 00:05:48,180
+yeah to the left because if it's closer
+
+117
+00:05:45,720 --> 00:05:51,180
+to the left this K is closer to the left
+
+118
+00:05:48,180 --> 00:05:53,639
+then it's the speed it is on the way to
+
+119
+00:05:51,180 --> 00:05:56,520
+to the to the right if it's a closer to
+
+120
+00:05:53,639 --> 00:06:00,060
+the left the round trip right this K is
+
+121
+00:05:56,520 --> 00:06:02,460
+bigger than this portion is closer to
+
+122
+00:06:00,060 --> 00:06:04,919
+the left all right yes okay so the
+
+123
+00:06:02,460 --> 00:06:07,020
+answer will be just there the minimum of
+
+124
+00:06:04,919 --> 00:06:10,139
+these two but what if it's like going
+
+125
+00:06:07,020 --> 00:06:12,419
+back this is the way to go back go back
+
+126
+00:06:10,139 --> 00:06:13,919
+is this bit go back is this bit we want
+
+127
+00:06:12,419 --> 00:06:16,919
+to calculate this bit right to the left
+
+128
+00:06:13,919 --> 00:06:19,199
+uh yeah we actually want to find out who
+
+129
+00:06:16,919 --> 00:06:23,580
+owns the pillow actually is the the left
+
+130
+00:06:19,199 --> 00:06:27,840
+bit right is this bit or this bit
+
+131
+00:06:23,580 --> 00:06:30,780
+huh well let's say there's like four
+
+132
+00:06:27,840 --> 00:06:33,919
+people and the Seven seconds
+
+133
+00:06:30,780 --> 00:06:40,139
+four people in seven seconds yeah
+
+134
+00:06:33,919 --> 00:06:42,720
+one two three four five six seven yeah
+
+135
+00:06:40,139 --> 00:06:45,960
+uh-huh I mean like how would you work it
+
+136
+00:06:42,720 --> 00:06:48,419
+out and nothing like okay
+
+137
+00:06:45,960 --> 00:06:51,300
+four percent n equals four how many
+
+138
+00:06:48,419 --> 00:06:54,319
+seconds to travel around is
+
+139
+00:06:51,300 --> 00:06:57,900
+total T is eight
+
+140
+00:06:54,319 --> 00:06:59,460
+minus six six right six and then you say
+
+141
+00:06:57,900 --> 00:07:03,720
+seven seconds right yeah
+
+142
+00:06:59,460 --> 00:07:05,940
+seven multiples six is
+
+143
+00:07:03,720 --> 00:07:09,240
+one right yeah
+
+144
+00:07:05,940 --> 00:07:11,220
+one and one needs to pass one because uh
+
+145
+00:07:09,240 --> 00:07:15,000
+plus one to make it two
+
+146
+00:07:11,220 --> 00:07:17,940
+okay yeah so two so we want to find out
+
+147
+00:07:15,000 --> 00:07:20,280
+two left four percent four times two
+
+148
+00:07:17,940 --> 00:07:23,580
+minus minus two
+
+149
+00:07:20,280 --> 00:07:25,919
+two and six which is smaller is two so
+
+150
+00:07:23,580 --> 00:07:29,340
+it's the second person okay
+
+151
+00:07:25,919 --> 00:07:33,240
+okay do you understand why we need to do
+
+152
+00:07:29,340 --> 00:07:36,840
+the minimum of K and N times two minus K
+
+153
+00:07:33,240 --> 00:07:40,620
+okay so let me repeat okay is it is
+
+154
+00:07:36,840 --> 00:07:43,979
+there any situation that it will be the
+
+155
+00:07:40,620 --> 00:07:45,840
+right side by n times T minus K let's do
+
+156
+00:07:43,979 --> 00:07:49,740
+this the example again like let's say
+
+157
+00:07:45,840 --> 00:07:51,840
+how many seconds let's say 10 yeah eight
+
+158
+00:07:49,740 --> 00:07:53,940
+nine ten right ten okay that's a good
+
+159
+00:07:51,840 --> 00:07:57,180
+example ten so this speed is the same
+
+160
+00:07:53,940 --> 00:08:01,039
+right so uh which is that t equals six n
+
+161
+00:07:57,180 --> 00:08:06,120
+equals four n equals four T equals six
+
+162
+00:08:01,039 --> 00:08:08,220
+the small T equals ten right ten modulus
+
+163
+00:08:06,120 --> 00:08:10,560
+6 is
+
+164
+00:08:08,220 --> 00:08:12,300
+4. we need to plus one right we want to
+
+165
+00:08:10,560 --> 00:08:15,900
+find out five and
+
+166
+00:08:12,300 --> 00:08:18,060
+minus 2 and N times two a minus five
+
+167
+00:08:15,900 --> 00:08:20,940
+three okay
+
+168
+00:08:18,060 --> 00:08:22,979
+so five and three plus three seven eight
+
+169
+00:08:20,940 --> 00:08:24,660
+nine ten so sweet this is on the way
+
+170
+00:08:22,979 --> 00:08:27,599
+back this speed
+
+171
+00:08:24,660 --> 00:08:31,020
+this bit or
+
+172
+00:08:27,599 --> 00:08:34,260
+or listed whichever is smaller this is K
+
+173
+00:08:31,020 --> 00:08:36,419
+and this speed is n times two minus K if
+
+174
+00:08:34,260 --> 00:08:39,180
+this n minus two is K is smaller than
+
+175
+00:08:36,419 --> 00:08:41,640
+this k then it's on the way back
+
+176
+00:08:39,180 --> 00:08:46,080
+otherwise it's on the way to the right
+
+177
+00:08:41,640 --> 00:08:49,019
+yes Define f and T
+
+178
+00:08:46,080 --> 00:08:51,660
+so total round of T equals n minus one
+
+179
+00:08:49,019 --> 00:08:54,420
+times two and T
+
+180
+00:08:51,660 --> 00:08:57,120
+T modulus
+
+181
+00:08:54,420 --> 00:08:59,339
+equal T and then we need the t plus
+
+182
+00:08:57,120 --> 00:09:01,500
+equal one right modular give the value
+
+183
+00:08:59,339 --> 00:09:05,220
+start from zero we need plus one to make
+
+184
+00:09:01,500 --> 00:09:11,180
+it the person right anonymity so we just
+
+185
+00:09:05,220 --> 00:09:11,180
+return minimum of t and n times two
+
+186
+00:09:16,680 --> 00:09:21,120
+do we use any addition of one yes
+
+187
+00:09:19,080 --> 00:09:22,260
+arbitrary and then T we can just
+
+188
+00:09:21,120 --> 00:09:25,140
+calculate it
+
+189
+00:09:22,260 --> 00:09:28,260
+almost immediately right another one to
+
+190
+00:09:25,140 --> 00:09:31,320
+solve it if n and T is smaller
+
+191
+00:09:28,260 --> 00:09:33,480
+okay so let's say x equals at the
+
+192
+00:09:31,320 --> 00:09:39,720
+beginning t
+
+193
+00:09:33,480 --> 00:09:44,300
+four underscore in range t t equals one
+
+194
+00:09:39,720 --> 00:09:49,800
+okay and then X plus equals d
+
+195
+00:09:44,300 --> 00:09:54,180
+if x equal equal 1 or x equal equal n
+
+196
+00:09:49,800 --> 00:09:58,080
+D times equal minus one return
+
+197
+00:09:54,180 --> 00:09:58,920
+x x equals one t equals one range T
+
+198
+00:09:58,080 --> 00:10:02,339
+times
+
+199
+00:09:58,920 --> 00:10:05,459
+X Plus equal D if x equals one or x
+
+200
+00:10:02,339 --> 00:10:09,200
+equals n then T times minus one okay so
+
+201
+00:10:05,459 --> 00:10:09,200
+return x what does it do
+
+202
+00:10:12,779 --> 00:10:18,300
+so yeah this simulation right pull on
+
+203
+00:10:15,180 --> 00:10:20,700
+the pillow after T second okay the next
+
+204
+00:10:18,300 --> 00:10:23,580
+two is key second time for each second X
+
+205
+00:10:20,700 --> 00:10:25,980
+pass equals d p is the how much times t
+
+206
+00:10:23,580 --> 00:10:27,480
+t equals one and then times equals minus
+
+207
+00:10:25,980 --> 00:10:29,580
+one will be minus one and then times
+
+208
+00:10:27,480 --> 00:10:32,399
+minus one will be one minus one one
+
+209
+00:10:29,580 --> 00:10:35,100
+minus one what's this thing yeah it's
+
+210
+00:10:32,399 --> 00:10:38,220
+like which way is going like it is that
+
+211
+00:10:35,100 --> 00:10:40,560
+yeah which way so X plus d if D is one
+
+212
+00:10:38,220 --> 00:10:43,380
+if T is one it's going right if TV was
+
+213
+00:10:40,560 --> 00:10:44,880
+minus one coming left right so when do
+
+214
+00:10:43,380 --> 00:10:46,920
+we change the D
+
+215
+00:10:44,880 --> 00:10:48,959
+well we change the B
+
+216
+00:10:46,920 --> 00:10:50,640
+when the partition is at the first
+
+217
+00:10:48,959 --> 00:10:53,100
+person or the last person will change
+
+218
+00:10:50,640 --> 00:10:55,620
+the direction and then after T re round
+
+219
+00:10:53,100 --> 00:10:57,540
+and X is the person who holds the
+
+220
+00:10:55,620 --> 00:11:01,320
+periods right what's the time come next
+
+221
+00:10:57,540 --> 00:11:03,240
+before this one o t o t yes we are
+
+222
+00:11:01,320 --> 00:11:05,339
+talking about the complexity yeah it
+
+223
+00:11:03,240 --> 00:11:07,019
+means T iterated okay let's face some
+
+224
+00:11:05,339 --> 00:11:10,620
+Legacy
+
+225
+00:11:07,019 --> 00:11:14,100
+oh any additional space constant space
+
+226
+00:11:10,620 --> 00:11:16,079
+only right oh what yeah okay OT do you
+
+227
+00:11:14,100 --> 00:11:18,540
+understand this Ultimo yeah yes that
+
+228
+00:11:16,079 --> 00:11:20,720
+simulation that's a mess so which one is
+
+229
+00:11:18,540 --> 00:11:20,720
+better
+
+230
+00:11:20,820 --> 00:11:24,180
+one okay left one okay this is the
+
+231
+00:11:22,500 --> 00:11:27,000
+exception and today I talk about the
+
+232
+00:11:24,180 --> 00:11:29,880
+Ultima at the beginning and this is to
+
+233
+00:11:27,000 --> 00:11:31,440
+give you an example okay
+
+234
+00:11:29,880 --> 00:11:33,420
+so
+
+235
+00:11:31,440 --> 00:11:35,940
+so why this is better than this one
+
+236
+00:11:33,420 --> 00:11:39,240
+because I won
+
+237
+00:11:35,940 --> 00:11:41,940
+the computer just do this simulation it
+
+238
+00:11:39,240 --> 00:11:44,160
+takes time right if T is very big like a
+
+239
+00:11:41,940 --> 00:11:47,820
+minion then this takes a million
+
+240
+00:11:44,160 --> 00:11:48,959
+iterations to n right OT right yeah but
+
+241
+00:11:47,820 --> 00:11:52,500
+this one
+
+242
+00:11:48,959 --> 00:11:57,180
+if T is a minion it doesn't matter look
+
+243
+00:11:52,500 --> 00:12:00,600
+the second line T modulus please you
+
+244
+00:11:57,180 --> 00:12:01,579
+immediately you'll become smaller value
+
+245
+00:12:00,600 --> 00:12:03,840
+okay
+
+246
+00:12:01,579 --> 00:12:06,300
+what have you learned today that's it
+
+247
+00:12:03,840 --> 00:12:09,839
+[Music]
+
+248
+00:12:06,300 --> 00:12:12,079
+yeah people think yeah so what's uh what
+
+249
+00:12:09,839 --> 00:12:14,700
+have you learned I mean what what
+
+250
+00:12:12,079 --> 00:12:15,860
+solution here can you tell me the
+
+251
+00:12:14,700 --> 00:12:19,380
+problem
+
+252
+00:12:15,860 --> 00:12:23,470
+and solution and that's it
+
+253
+00:12:19,380 --> 00:12:25,440
+uh so the problem is we have the
+
+254
+00:12:23,470 --> 00:12:27,540
+[Music]
+
+255
+00:12:25,440 --> 00:12:29,519
+have to have another second with his
+
+256
+00:12:27,540 --> 00:12:31,279
+teeth and
+
+257
+00:12:29,519 --> 00:12:37,320
+and so
+
+258
+00:12:31,279 --> 00:12:39,540
+so we end every second the person path
+
+259
+00:12:37,320 --> 00:12:43,019
+to the next person and to the next
+
+260
+00:12:39,540 --> 00:12:46,700
+person and at the end of the line the
+
+261
+00:12:43,019 --> 00:12:50,040
+last person I'll pass it back
+
+262
+00:12:46,700 --> 00:12:53,820
+and we want to find out what person
+
+263
+00:12:50,040 --> 00:12:56,639
+doesn't end after finishing 30 seconds
+
+264
+00:12:53,820 --> 00:13:00,060
+so we have a left one which is basically
+
+265
+00:12:56,639 --> 00:13:03,180
+like math you just find out the the N
+
+266
+00:13:00,060 --> 00:13:05,639
+minus one times two and then we just
+
+267
+00:13:03,180 --> 00:13:07,920
+moderate it and then give a remainder
+
+268
+00:13:05,639 --> 00:13:10,079
+and then you you have to remember to
+
+269
+00:13:07,920 --> 00:13:13,320
+plus one because when the first person
+
+270
+00:13:10,079 --> 00:13:15,720
+passes pass it on the first second this
+
+271
+00:13:13,320 --> 00:13:18,779
+is on the second person and you don't
+
+272
+00:13:15,720 --> 00:13:20,820
+count the first person because nobody is
+
+273
+00:13:18,779 --> 00:13:23,579
+passing through the first person on the
+
+274
+00:13:20,820 --> 00:13:28,040
+first time why are this is minimum of
+
+275
+00:13:23,579 --> 00:13:31,200
+tea and a minus two because because
+
+276
+00:13:28,040 --> 00:13:34,279
+uh it might have a remainder which is
+
+277
+00:13:31,200 --> 00:13:34,279
+which is larger
+
+278
+00:13:36,540 --> 00:13:41,339
+to go back yeah go back this go back and
+
+279
+00:13:39,300 --> 00:13:43,380
+we have to check which way is there but
+
+280
+00:13:41,339 --> 00:13:46,019
+is it on the way or is it on the way
+
+281
+00:13:43,380 --> 00:13:48,139
+back okay okay that's it for today bye
+
+282
+00:13:46,019 --> 00:13:48,139
+bye bye
+
+283
+00:13:48,420 --> 00:13:51,079
+foreign
+
