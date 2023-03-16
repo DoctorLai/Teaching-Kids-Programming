@@ -1,0 +1,1032 @@
+1
+00:00:00,000 --> 00:00:03,000
+right
+
+2
+00:00:03,959 --> 00:00:08,460
+okay so today
+
+3
+00:00:06,240 --> 00:00:10,679
+let's look at these simple questions we
+
+4
+00:00:08,460 --> 00:00:13,200
+are given an integer right four three
+
+5
+00:00:10,679 --> 00:00:17,039
+seven five positive integer non-negative
+
+6
+00:00:13,200 --> 00:00:20,340
+integer and we want to find out the
+
+7
+00:00:17,039 --> 00:00:23,820
+minimum sum of splitting it into two
+
+8
+00:00:20,340 --> 00:00:26,880
+non-negative integers so we achieve the
+
+9
+00:00:23,820 --> 00:00:29,220
+minimum sum so using these digits we
+
+10
+00:00:26,880 --> 00:00:31,380
+want to split into two
+
+11
+00:00:29,220 --> 00:00:35,100
+number one
+
+12
+00:00:31,380 --> 00:00:37,399
+and number two these are non-negative
+
+13
+00:00:35,100 --> 00:00:39,600
+numbers which can contain
+
+14
+00:00:37,399 --> 00:00:42,059
+ddlers we want to find out the minimum
+
+15
+00:00:39,600 --> 00:00:43,800
+sum of number one plus them two okay so
+
+16
+00:00:42,059 --> 00:00:47,300
+for example this one how many ways can
+
+17
+00:00:43,800 --> 00:00:47,300
+you split into two integers
+
+18
+00:00:47,899 --> 00:00:55,800
+you can split 47 and 75 you place it
+
+19
+00:00:52,020 --> 00:01:00,020
+together that's 118 right you can split
+
+20
+00:00:55,800 --> 00:01:01,800
+into four three seven and five number
+
+21
+00:01:00,020 --> 00:01:05,400
+right
+
+22
+00:01:01,800 --> 00:01:10,860
+this adds up to four four two way you
+
+23
+00:01:05,400 --> 00:01:14,100
+can split into 35 Plus 47 these
+
+24
+00:01:10,860 --> 00:01:15,540
+is 82. okay so we want to find out the
+
+25
+00:01:14,100 --> 00:01:19,439
+minimum okay
+
+26
+00:01:15,540 --> 00:01:23,040
+so yeah yeah the minimum sum so for
+
+27
+00:01:19,439 --> 00:01:25,560
+example the minimum sum I guess is 30.
+
+28
+00:01:23,040 --> 00:01:27,240
+is it thirty five okay you already done
+
+29
+00:01:25,560 --> 00:01:27,730
+that that's the minimum yeah is it the
+
+30
+00:01:27,240 --> 00:01:29,040
+minimum
+
+31
+00:01:27,730 --> 00:01:32,299
+[Music]
+
+32
+00:01:29,040 --> 00:01:38,420
+let's try a few other examples like
+
+33
+00:01:32,299 --> 00:01:43,380
+75 no I always down like that 74 plus 53
+
+34
+00:01:38,420 --> 00:01:47,880
+equals 127. okay so any idea how we get
+
+35
+00:01:43,380 --> 00:01:50,700
+this minimum so so there's two things
+
+36
+00:01:47,880 --> 00:01:52,680
+so we can so we want the minimum so
+
+37
+00:01:50,700 --> 00:01:55,740
+we're not obviously not gonna have a
+
+38
+00:01:52,680 --> 00:01:58,619
+three digit plus a one digit so we got a
+
+39
+00:01:55,740 --> 00:02:01,079
+two two digit and two digit so if we
+
+40
+00:01:58,619 --> 00:02:03,659
+want to find the smallest tens and and
+
+41
+00:02:01,079 --> 00:02:06,719
+then we can leave a bigger digits to
+
+42
+00:02:03,659 --> 00:02:08,459
+develop uh ones yeah that's a very good
+
+43
+00:02:06,719 --> 00:02:10,380
+thinking so how about you say the two
+
+44
+00:02:08,459 --> 00:02:12,360
+and two how about three digits like one
+
+45
+00:02:10,380 --> 00:02:15,239
+two three what's the minimum
+
+46
+00:02:12,360 --> 00:02:17,040
+you can't split evenly right but in this
+
+47
+00:02:15,239 --> 00:02:18,900
+case what's the minimum you can speak
+
+48
+00:02:17,040 --> 00:02:21,000
+one two plus three you can speak one
+
+49
+00:02:18,900 --> 00:02:23,819
+three plus two this is
+
+50
+00:02:21,000 --> 00:02:26,940
+okay you can speed with two three plus
+
+51
+00:02:23,819 --> 00:02:32,760
+one or two one plus three
+
+52
+00:02:26,940 --> 00:02:36,900
+this is first 15 this goes the 24.
+
+53
+00:02:32,760 --> 00:02:38,580
+I obviously this is the minimum so for
+
+54
+00:02:36,900 --> 00:02:42,300
+the minimum
+
+55
+00:02:38,580 --> 00:02:45,300
+Digi you uh put it as like the biggest
+
+56
+00:02:42,300 --> 00:02:49,440
+place value so you can put like
+
+57
+00:02:45,300 --> 00:02:52,019
+the tens so when you put one on tens
+
+58
+00:02:49,440 --> 00:02:55,280
+okay so what's your schedule you said
+
+59
+00:02:52,019 --> 00:02:55,280
+Put it on Wednesday put
+
+60
+00:03:14,520 --> 00:03:17,569
+[Music]
+
+61
+00:03:18,920 --> 00:03:22,879
+will be the minimum one
+
+62
+00:03:22,920 --> 00:03:26,580
+the
+
+63
+00:03:23,460 --> 00:03:26,580
+[Music]
+
+64
+00:03:26,819 --> 00:03:32,519
+two so we put it into five five I'm not
+
+65
+00:03:30,360 --> 00:03:35,099
+saying one two three
+
+66
+00:03:32,519 --> 00:03:37,860
+um I'm saying wait can we put the zero
+
+67
+00:03:35,099 --> 00:03:43,400
+in at the front of course yes so so we
+
+68
+00:03:37,860 --> 00:03:43,400
+put zero and one and yes
+
+69
+00:03:44,420 --> 00:03:50,720
+two three like
+
+70
+00:03:46,940 --> 00:03:50,720
+uh-huh okay
+
+71
+00:03:54,120 --> 00:03:59,340
+yeah okay okay so this is the optimal
+
+72
+00:03:56,459 --> 00:04:02,280
+yes you're right yes so we always keep
+
+73
+00:03:59,340 --> 00:04:04,319
+the smallest smallest and the biggest
+
+74
+00:04:02,280 --> 00:04:06,959
+number is going at the end that's right
+
+75
+00:04:04,319 --> 00:04:09,239
+so one at a time right another and it
+
+76
+00:04:06,959 --> 00:04:12,000
+doesn't matter if there's a odd number
+
+77
+00:04:09,239 --> 00:04:14,400
+so we just have one more extra for one
+
+78
+00:04:12,000 --> 00:04:17,160
+application because because the bigger
+
+79
+00:04:14,400 --> 00:04:19,919
+digits if you put the biggest they get
+
+80
+00:04:17,160 --> 00:04:21,780
+it as like the ones in the ones place
+
+81
+00:04:19,919 --> 00:04:25,139
+the first three is like eight and nine
+
+82
+00:04:21,780 --> 00:04:27,479
+it'll be as as less value if it if you
+
+83
+00:04:25,139 --> 00:04:30,240
+could have a like front like well done
+
+84
+00:04:27,479 --> 00:04:32,100
+okay so for any arbitrary Lumber right a
+
+85
+00:04:30,240 --> 00:04:33,840
+big number what's your strategy the
+
+86
+00:04:32,100 --> 00:04:35,820
+first step you need to tell me how we
+
+87
+00:04:33,840 --> 00:04:38,360
+designed this algorithm right so first
+
+88
+00:04:35,820 --> 00:04:38,360
+step is
+
+89
+00:04:40,940 --> 00:04:47,220
+so what do we do with this okay
+
+90
+00:04:44,460 --> 00:04:48,540
+I don't know so for this digit how would
+
+91
+00:04:47,220 --> 00:04:51,740
+you do it
+
+92
+00:04:48,540 --> 00:04:51,740
+so first step is
+
+93
+00:04:55,639 --> 00:05:00,360
+salty that's the thing I'm looking for
+
+94
+00:04:57,960 --> 00:05:05,780
+keywords sort it so we sold it so let's
+
+95
+00:05:00,360 --> 00:05:09,540
+zero zero one two two three six seven
+
+96
+00:05:05,780 --> 00:05:10,919
+eight nine nine right okay and then we
+
+97
+00:05:09,540 --> 00:05:13,560
+started what's next
+
+98
+00:05:10,919 --> 00:05:18,120
+and then and then we put the first two
+
+99
+00:05:13,560 --> 00:05:20,580
+the first two yeah as as the first to
+
+100
+00:05:18,120 --> 00:05:22,380
+get as a this is the first digit uh
+
+101
+00:05:20,580 --> 00:05:26,000
+first digit this is the second digit
+
+102
+00:05:22,380 --> 00:05:28,800
+second number okay so so
+
+103
+00:05:26,000 --> 00:05:30,660
+how we describe this process
+
+104
+00:05:28,800 --> 00:05:31,940
+zero or one
+
+105
+00:05:30,660 --> 00:05:35,180
+one
+
+106
+00:05:31,940 --> 00:05:35,180
+two two
+
+107
+00:05:35,710 --> 00:05:37,699
+[Music]
+
+108
+00:05:36,419 --> 00:05:43,199
+three
+
+109
+00:05:37,699 --> 00:05:44,940
+six seven eight nine nine suppose I have
+
+110
+00:05:43,199 --> 00:05:46,800
+another nine here I just can just put it
+
+111
+00:05:44,940 --> 00:05:49,680
+there yeah it doesn't matter doesn't
+
+112
+00:05:46,800 --> 00:05:52,860
+matter put it here out here no actually
+
+113
+00:05:49,680 --> 00:05:55,500
+it matters right yeah so yeah we want to
+
+114
+00:05:52,860 --> 00:05:57,960
+put it here right so we always pick in
+
+115
+00:05:55,500 --> 00:05:59,520
+turn there are a couple ways of solving
+
+116
+00:05:57,960 --> 00:06:01,380
+these questions all right so today we're
+
+117
+00:05:59,520 --> 00:06:03,000
+just going to one and the next one we
+
+118
+00:06:01,380 --> 00:06:05,900
+talk about the second solution and the
+
+119
+00:06:03,000 --> 00:06:09,900
+next lesson nine on the
+
+120
+00:06:05,900 --> 00:06:12,240
+if it's old and you have one spare
+
+121
+00:06:09,900 --> 00:06:13,440
+when it's bad do you put it on the
+
+122
+00:06:12,240 --> 00:06:16,259
+smallest
+
+123
+00:06:13,440 --> 00:06:18,180
+we just take in ten right because the
+
+124
+00:06:16,259 --> 00:06:19,680
+first number is always we pick this
+
+125
+00:06:18,180 --> 00:06:22,039
+number this is the smallest right yes
+
+126
+00:06:19,680 --> 00:06:22,039
+yes
+
+127
+00:06:25,020 --> 00:06:30,360
+remember that's right yes we just take
+
+128
+00:06:27,600 --> 00:06:33,660
+digit in turn right take it in turn
+
+129
+00:06:30,360 --> 00:06:35,400
+right make sense and then okay so as I
+
+130
+00:06:33,660 --> 00:06:38,400
+said there are a couple ways of doing
+
+131
+00:06:35,400 --> 00:06:39,660
+this okay the first way is sorting the
+
+132
+00:06:38,400 --> 00:06:41,759
+digit
+
+133
+00:06:39,660 --> 00:06:43,740
+sorted the digit right
+
+134
+00:06:41,759 --> 00:06:45,360
+the second way is we use the package
+
+135
+00:06:43,740 --> 00:06:47,880
+stop we should we are going to talk
+
+136
+00:06:45,360 --> 00:06:50,759
+about like sorting why we can use the
+
+137
+00:06:47,880 --> 00:06:53,340
+bakkie stop remember we have a limited
+
+138
+00:06:50,759 --> 00:06:55,460
+digit right that only 10 buckets all
+
+139
+00:06:53,340 --> 00:06:55,460
+right
+
+140
+00:06:56,960 --> 00:07:04,139
+you can imagine there are 10 buckets
+
+141
+00:07:01,259 --> 00:07:06,300
+yellow this is color number zero one two
+
+142
+00:07:04,139 --> 00:07:08,759
+right so we go through this number and
+
+143
+00:07:06,300 --> 00:07:10,139
+we count how many digits of zero how
+
+144
+00:07:08,759 --> 00:07:12,000
+many this is the one right okay we'll
+
+145
+00:07:10,139 --> 00:07:13,860
+talk about that in the next lesson the
+
+146
+00:07:12,000 --> 00:07:17,520
+Third Way is using the parallel Cube or
+
+147
+00:07:13,860 --> 00:07:21,000
+hip right so the idea is that we peel
+
+148
+00:07:17,520 --> 00:07:24,120
+the hip and particle right every time we
+
+149
+00:07:21,000 --> 00:07:26,460
+take a digit the next smallest digit
+
+150
+00:07:24,120 --> 00:07:28,800
+for the first number and the next model
+
+151
+00:07:26,460 --> 00:07:31,800
+digit if there is for the second number
+
+152
+00:07:28,800 --> 00:07:33,840
+and we take these digits internal okay
+
+153
+00:07:31,800 --> 00:07:34,860
+but today we focus on this sorting the
+
+154
+00:07:33,840 --> 00:07:37,080
+digit
+
+155
+00:07:34,860 --> 00:07:40,680
+so it's actually quite simple right so
+
+156
+00:07:37,080 --> 00:07:43,680
+let's give a digit is uh individual time
+
+157
+00:07:40,680 --> 00:07:45,960
+right so minimum sum
+
+158
+00:07:43,680 --> 00:07:48,419
+so we're given this n which is the
+
+159
+00:07:45,960 --> 00:07:50,940
+integer type and we want to return the
+
+160
+00:07:48,419 --> 00:07:53,460
+integer the minimum sum I
+
+161
+00:07:50,940 --> 00:07:56,340
+okay so this is the integer why we want
+
+162
+00:07:53,460 --> 00:07:57,900
+to get that digit so it's we want to
+
+163
+00:07:56,340 --> 00:08:01,380
+solve the digit so we convert it to a
+
+164
+00:07:57,900 --> 00:08:03,840
+string right okay so Str converted the
+
+165
+00:08:01,380 --> 00:08:06,539
+string but we want to
+
+166
+00:08:03,840 --> 00:08:09,300
+sort it right converting a string how do
+
+167
+00:08:06,539 --> 00:08:12,660
+we saw that string
+
+168
+00:08:09,300 --> 00:08:16,500
+string is immutable right so we can
+
+169
+00:08:12,660 --> 00:08:20,940
+ah we can convert it to an array of
+
+170
+00:08:16,500 --> 00:08:24,720
+digits right and then we sort it
+
+171
+00:08:20,940 --> 00:08:25,620
+sort it so this is a
+
+172
+00:08:24,720 --> 00:08:28,560
+okay
+
+173
+00:08:25,620 --> 00:08:31,919
+so after this what's a look if this is
+
+174
+00:08:28,560 --> 00:08:34,560
+one two three okay str123
+
+175
+00:08:31,919 --> 00:08:35,640
+back to the code to make it string type
+
+176
+00:08:34,560 --> 00:08:38,880
+least
+
+177
+00:08:35,640 --> 00:08:40,320
+if we do like this three it will be one
+
+178
+00:08:38,880 --> 00:08:41,940
+two
+
+179
+00:08:40,320 --> 00:08:44,039
+three right
+
+180
+00:08:41,940 --> 00:08:46,980
+array of teaching and sort it it's
+
+181
+00:08:44,039 --> 00:08:50,100
+already insulted so after that we want
+
+182
+00:08:46,980 --> 00:08:53,339
+to pick in turn right so look one
+
+183
+00:08:50,100 --> 00:08:55,200
+two three four five six seven so for the
+
+184
+00:08:53,339 --> 00:08:59,399
+first number for the first number we
+
+185
+00:08:55,200 --> 00:09:02,279
+want to pick these these this this life
+
+186
+00:08:59,399 --> 00:09:04,500
+for the second number we want to take
+
+187
+00:09:02,279 --> 00:09:06,360
+this this okay
+
+188
+00:09:04,500 --> 00:09:08,580
+[Music]
+
+189
+00:09:06,360 --> 00:09:09,720
+and then it plays the a here I want to
+
+190
+00:09:08,580 --> 00:09:11,519
+pick here right
+
+191
+00:09:09,720 --> 00:09:12,540
+so how do we put it this way so the
+
+192
+00:09:11,519 --> 00:09:16,320
+first number
+
+193
+00:09:12,540 --> 00:09:17,880
+S1 equals a is least right so we want to
+
+194
+00:09:16,320 --> 00:09:21,000
+do this a
+
+195
+00:09:17,880 --> 00:09:22,440
+dash dash two jumped
+
+196
+00:09:21,000 --> 00:09:24,959
+step two right
+
+197
+00:09:22,440 --> 00:09:27,060
+this is a list we want to convert it to
+
+198
+00:09:24,959 --> 00:09:29,040
+uh convert it to a string and then
+
+199
+00:09:27,060 --> 00:09:30,360
+convert it to an integer so how do we
+
+200
+00:09:29,040 --> 00:09:33,300
+convert a
+
+201
+00:09:30,360 --> 00:09:35,700
+array to a string
+
+202
+00:09:33,300 --> 00:09:38,399
+split what's the opposite of split join
+
+203
+00:09:35,700 --> 00:09:40,740
+yeah we want to join with empty join
+
+204
+00:09:38,399 --> 00:09:42,600
+and then now this is a string and I will
+
+205
+00:09:40,740 --> 00:09:45,839
+convert it to the integer right
+
+206
+00:09:42,600 --> 00:09:47,100
+okay and then S2 equals in this is the
+
+207
+00:09:45,839 --> 00:09:49,440
+same
+
+208
+00:09:47,100 --> 00:09:51,540
+The Joy but there's a slight difference
+
+209
+00:09:49,440 --> 00:09:54,420
+a
+
+210
+00:09:51,540 --> 00:09:56,880
+Bata two what should I put here
+
+211
+00:09:54,420 --> 00:09:59,279
+what should I put here
+
+212
+00:09:56,880 --> 00:10:01,680
+one way you don't put anything here this
+
+213
+00:09:59,279 --> 00:10:03,779
+is zero but for the second number we
+
+214
+00:10:01,680 --> 00:10:06,540
+want to start from yes one exactly we're
+
+215
+00:10:03,779 --> 00:10:10,380
+done okay and that's it no no yeah
+
+216
+00:10:06,540 --> 00:10:13,019
+actually 10 S1 plus s2y this is the
+
+217
+00:10:10,380 --> 00:10:15,060
+minimum so this is called the python the
+
+218
+00:10:13,019 --> 00:10:17,100
+least comprehension so for at least
+
+219
+00:10:15,060 --> 00:10:20,760
+right interval you can entice and you
+
+220
+00:10:17,100 --> 00:10:25,200
+can do listen this is the least one you
+
+221
+00:10:20,760 --> 00:10:28,260
+can do I column J column k
+
+222
+00:10:25,200 --> 00:10:33,000
+so it means that from I to J not
+
+223
+00:10:28,260 --> 00:10:36,060
+including the J step K when I is omitted
+
+224
+00:10:33,000 --> 00:10:38,820
+is equal to zero When J is emitted is
+
+225
+00:10:36,060 --> 00:10:41,580
+default to length of the a when K is
+
+226
+00:10:38,820 --> 00:10:43,040
+omitting is defaulted to one column
+
+227
+00:10:41,580 --> 00:10:45,899
+column minus one what does it mean
+
+228
+00:10:43,040 --> 00:10:48,380
+reverse so it's the same as look it's
+
+229
+00:10:45,899 --> 00:10:48,380
+the same as
+
+230
+00:10:50,959 --> 00:10:57,420
+which is if this is a and then minus one
+
+231
+00:10:55,320 --> 00:10:59,399
+okay so it means that from left to the
+
+232
+00:10:57,420 --> 00:11:02,220
+right but I want to step minus one going
+
+233
+00:10:59,399 --> 00:11:04,920
+backwards so let's reverse
+
+234
+00:11:02,220 --> 00:11:08,579
+okay so the time complexity for this one
+
+235
+00:11:04,920 --> 00:11:12,420
+right if there are n digits if this is n
+
+236
+00:11:08,579 --> 00:11:15,540
+digit uh Pick N digit then we obviously
+
+237
+00:11:12,420 --> 00:11:16,920
+we need to solve it so o and log begin
+
+238
+00:11:15,540 --> 00:11:20,420
+okay
+
+239
+00:11:16,920 --> 00:11:20,420
+okay so what have you learned today
+
+240
+00:11:20,700 --> 00:11:25,040
+about a thousand splitting
+
+241
+00:11:26,040 --> 00:11:30,959
+minimum what number sum okay so what's
+
+242
+00:11:29,279 --> 00:11:33,600
+your strategy today what's the algorithm
+
+243
+00:11:30,959 --> 00:11:37,700
+we talked about today
+
+244
+00:11:33,600 --> 00:11:41,459
+yeah so we thought it so what what
+
+245
+00:11:37,700 --> 00:11:43,260
+do you call it a number the number the
+
+246
+00:11:41,459 --> 00:11:45,060
+digits right the digit of these numbers
+
+247
+00:11:43,260 --> 00:11:46,920
+and we need to First convert it to a
+
+248
+00:11:45,060 --> 00:11:48,060
+string right we started the string right
+
+249
+00:11:46,920 --> 00:11:50,519
+yeah
+
+250
+00:11:48,060 --> 00:11:52,040
+and then what's the strategy of picking
+
+251
+00:11:50,519 --> 00:11:56,519
+them
+
+252
+00:11:52,040 --> 00:11:59,220
+into spaces yeah so we take the digit
+
+253
+00:11:56,519 --> 00:12:01,380
+for two numbers we take the digit uh the
+
+254
+00:11:59,220 --> 00:12:04,860
+smaller digit in term right we construct
+
+255
+00:12:01,380 --> 00:12:08,339
+the smallest number we take turn to take
+
+256
+00:12:04,860 --> 00:12:09,540
+the digit and right yes okay that's it
+
+257
+00:12:08,339 --> 00:12:12,540
+for today bye
+
+258
+00:12:09,540 --> 00:12:12,540
+bye
+
