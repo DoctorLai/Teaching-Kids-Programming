@@ -1,0 +1,1352 @@
+1
+00:00:02,179 --> 00:00:06,000
+all right
+
+2
+00:00:03,840 --> 00:00:07,680
+okay so last lesson we talked about this
+
+3
+00:00:06,000 --> 00:00:09,860
+uh problem all right we're given an
+
+4
+00:00:07,680 --> 00:00:12,300
+integer and we want to split it into two
+
+5
+00:00:09,860 --> 00:00:15,059
+integers obviously this is the
+
+6
+00:00:12,300 --> 00:00:17,580
+non-negative integers and both integers
+
+7
+00:00:15,059 --> 00:00:19,740
+can have these leading zeros I'm going
+
+8
+00:00:17,580 --> 00:00:23,820
+to find out a minimum sum right and the
+
+9
+00:00:19,740 --> 00:00:27,359
+strategy we taken is creative right so
+
+10
+00:00:23,820 --> 00:00:29,880
+we saw the digits and then we try to
+
+11
+00:00:27,359 --> 00:00:31,740
+pick the digit from a smaller one to the
+
+12
+00:00:29,880 --> 00:00:33,960
+bigger one all right because we want to
+
+13
+00:00:31,740 --> 00:00:36,840
+leave the larger digit to the right hand
+
+14
+00:00:33,960 --> 00:00:38,760
+side right yeah okay so look this is a
+
+15
+00:00:36,840 --> 00:00:40,260
+strategy we sort of the digit yeah we
+
+16
+00:00:38,760 --> 00:00:42,960
+convert it obviously we converted the
+
+17
+00:00:40,260 --> 00:00:45,600
+integer to the string we break it down
+
+18
+00:00:42,960 --> 00:00:50,100
+into an array of the digit characters
+
+19
+00:00:45,600 --> 00:00:52,320
+and we solved it this is a sorted array
+
+20
+00:00:50,100 --> 00:00:55,559
+and then we use the list complications
+
+21
+00:00:52,320 --> 00:00:57,480
+to pick every other digit the first
+
+22
+00:00:55,559 --> 00:00:59,520
+number we start picking every other
+
+23
+00:00:57,480 --> 00:01:01,199
+digit from the first digit the second
+
+24
+00:00:59,520 --> 00:01:03,000
+number we start picking every other
+
+25
+00:01:01,199 --> 00:01:06,000
+digit from the second digit so you will
+
+26
+00:01:03,000 --> 00:01:09,240
+pick the second the fourth the sixth
+
+27
+00:01:06,000 --> 00:01:12,960
+right and Etc when we pick the digit is
+
+28
+00:01:09,240 --> 00:01:14,580
+a list We join it to a string and now we
+
+29
+00:01:12,960 --> 00:01:15,960
+need to convert it back to the integer
+
+30
+00:01:14,580 --> 00:01:18,659
+and then we add it up right the Time
+
+31
+00:01:15,960 --> 00:01:21,240
+come back stays oh and again if n is the
+
+32
+00:01:18,659 --> 00:01:23,400
+number of digits okay the key thing here
+
+33
+00:01:21,240 --> 00:01:25,140
+is that we sort it right we have done
+
+34
+00:01:23,400 --> 00:01:27,600
+quite a few sorting again right and
+
+35
+00:01:25,140 --> 00:01:29,820
+quick saw the merge so much bubble
+
+36
+00:01:27,600 --> 00:01:32,100
+sorting selection so insertions over and
+
+37
+00:01:29,820 --> 00:01:33,479
+we also mentioned about the Pakistan we
+
+38
+00:01:32,100 --> 00:01:35,340
+saw about using bucket
+
+39
+00:01:33,479 --> 00:01:37,560
+bucket that's right basically like a
+
+40
+00:01:35,340 --> 00:01:40,020
+package each packet is a counter to
+
+41
+00:01:37,560 --> 00:01:42,360
+count the number of digits right given
+
+42
+00:01:40,020 --> 00:01:45,200
+this you know in decimal how many
+
+43
+00:01:42,360 --> 00:01:48,479
+different types of digits we have
+
+44
+00:01:45,200 --> 00:01:50,460
+yes 10 from zero to nine right you know
+
+45
+00:01:48,479 --> 00:01:52,140
+any number can be represented by at
+
+46
+00:01:50,460 --> 00:01:53,939
+least 10 digits right so we can just
+
+47
+00:01:52,140 --> 00:01:56,340
+count right for example we can count
+
+48
+00:01:53,939 --> 00:01:58,979
+using these buckets so how do we call
+
+49
+00:01:56,340 --> 00:02:01,200
+these in a bucket look so just imagine
+
+50
+00:01:58,979 --> 00:02:02,399
+how many packages created at the
+
+51
+00:02:01,200 --> 00:02:04,500
+beginning okay
+
+52
+00:02:02,399 --> 00:02:06,600
+yeah so 10 packets right each bucket for
+
+53
+00:02:04,500 --> 00:02:09,300
+each digit right so look I pack it right
+
+54
+00:02:06,600 --> 00:02:11,039
+I'm just going to draw a simple version
+
+55
+00:02:09,300 --> 00:02:14,039
+of it okay
+
+56
+00:02:11,039 --> 00:02:14,039
+right
+
+57
+00:02:15,500 --> 00:02:21,080
+here one two three four five six seven
+
+58
+00:02:18,180 --> 00:02:24,239
+eight nine ten eleven okay so this is
+
+59
+00:02:21,080 --> 00:02:27,239
+yellow one
+
+60
+00:02:24,239 --> 00:02:27,239
+okay
+
+61
+00:02:28,560 --> 00:02:35,340
+okay so Etc okay so let's consider this
+
+62
+00:02:31,560 --> 00:02:36,660
+number two three uh one four four seven
+
+63
+00:02:35,340 --> 00:02:38,760
+okay
+
+64
+00:02:36,660 --> 00:02:41,160
+this number
+
+65
+00:02:38,760 --> 00:02:43,800
+so two
+
+66
+00:02:41,160 --> 00:02:45,300
+two first introduce the second bucket
+
+67
+00:02:43,800 --> 00:02:48,300
+all right zero one two so the third
+
+68
+00:02:45,300 --> 00:02:54,780
+bucket so this is one here
+
+69
+00:02:48,300 --> 00:02:56,879
+three one one here four here four okay
+
+70
+00:02:54,780 --> 00:02:57,959
+another four so we increment this
+
+71
+00:02:56,879 --> 00:03:00,540
+counter
+
+72
+00:02:57,959 --> 00:03:04,019
+seven
+
+73
+00:03:00,540 --> 00:03:06,360
+yeah okay bye so now we have ten buckets
+
+74
+00:03:04,019 --> 00:03:09,420
+each bucket has is a counter
+
+75
+00:03:06,360 --> 00:03:12,000
+right so okay so just imagine okay now
+
+76
+00:03:09,420 --> 00:03:14,700
+and all the rest is zero how do you
+
+77
+00:03:12,000 --> 00:03:16,379
+construct this S1 s two two numbers
+
+78
+00:03:14,700 --> 00:03:18,300
+okay you could do it
+
+79
+00:03:16,379 --> 00:03:20,640
+all right we just go through these
+
+80
+00:03:18,300 --> 00:03:23,760
+digits and then we uh
+
+81
+00:03:20,640 --> 00:03:26,280
+count how many times they appear right
+
+82
+00:03:23,760 --> 00:03:28,019
+yeah make sense
+
+83
+00:03:26,280 --> 00:03:30,060
+okay so how do we construct these
+
+84
+00:03:28,019 --> 00:03:32,159
+stitches so obviously we need to check
+
+85
+00:03:30,060 --> 00:03:33,900
+from left to the right right the left is
+
+86
+00:03:32,159 --> 00:03:37,680
+zero this is the smallest number right
+
+87
+00:03:33,900 --> 00:03:40,620
+look here F1 S2
+
+88
+00:03:37,680 --> 00:03:41,700
+now I have one zeros here so where does
+
+89
+00:03:40,620 --> 00:03:44,760
+it go
+
+90
+00:03:41,700 --> 00:03:48,299
+here right yeah
+
+91
+00:03:44,760 --> 00:03:50,879
+see hello nothing one where is Jessica I
+
+92
+00:03:48,299 --> 00:03:52,920
+have one two two for tip digital I have
+
+93
+00:03:50,879 --> 00:03:54,840
+one where does it go
+
+94
+00:03:52,920 --> 00:03:56,879
+yeah all right
+
+95
+00:03:54,840 --> 00:03:58,379
+and move next where does it go let's
+
+96
+00:03:56,879 --> 00:04:00,299
+wait
+
+97
+00:03:58,379 --> 00:04:04,940
+yeah
+
+98
+00:04:00,299 --> 00:04:04,940
+okay move next four I have two
+
+99
+00:04:05,580 --> 00:04:13,860
+okay four yeah right because I have two
+
+100
+00:04:09,379 --> 00:04:15,060
+zero zero zero now like seven please you
+
+101
+00:04:13,860 --> 00:04:16,979
+all right
+
+102
+00:04:15,060 --> 00:04:20,699
+okay so the minimum
+
+103
+00:04:16,979 --> 00:04:22,460
+what what is it why is there two in the
+
+104
+00:04:20,699 --> 00:04:25,800
+second
+
+105
+00:04:22,460 --> 00:04:28,220
+okay zero so this is a mistake yeah
+
+106
+00:04:25,800 --> 00:04:31,020
+[Music]
+
+107
+00:04:28,220 --> 00:04:34,259
+okay so actually it's here yeah
+
+108
+00:04:31,020 --> 00:04:35,940
+sorry so this one should be here right
+
+109
+00:04:34,259 --> 00:04:38,160
+okay
+
+110
+00:04:35,940 --> 00:04:40,320
+so what's the sun yeah is this the
+
+111
+00:04:38,160 --> 00:04:41,699
+minimum one two three four four seven
+
+112
+00:04:40,320 --> 00:04:44,100
+it's the same right it's the same as
+
+113
+00:04:41,699 --> 00:04:47,220
+sorting right one two three four four
+
+114
+00:04:44,100 --> 00:04:49,919
+seven so one two three four
+
+115
+00:04:47,220 --> 00:04:51,780
+four seven yeah okay so this is
+
+116
+00:04:49,919 --> 00:04:54,259
+basically the same as sorting but we use
+
+117
+00:04:51,780 --> 00:04:57,540
+the Pakistan because we know there can
+
+118
+00:04:54,259 --> 00:05:00,120
+different digits and then we just count
+
+119
+00:04:57,540 --> 00:05:01,740
+how many of them but when we count it we
+
+120
+00:05:00,120 --> 00:05:03,419
+can pick the numbers from the left hand
+
+121
+00:05:01,740 --> 00:05:04,979
+side to the right hand side so we are
+
+122
+00:05:03,419 --> 00:05:06,720
+now dealing with the numbers here we are
+
+123
+00:05:04,979 --> 00:05:08,699
+not in number one number two number
+
+124
+00:05:06,720 --> 00:05:11,220
+three number four if there are more than
+
+125
+00:05:08,699 --> 00:05:12,419
+one we can just keep doing that am I
+
+126
+00:05:11,220 --> 00:05:14,520
+right this makes sense
+
+127
+00:05:12,419 --> 00:05:16,080
+yeah okay let me try another example
+
+128
+00:05:14,520 --> 00:05:17,580
+okay just to make sure you actually
+
+129
+00:05:16,080 --> 00:05:22,560
+understand
+
+130
+00:05:17,580 --> 00:05:25,080
+and then we can do the coding okay so uh
+
+131
+00:05:22,560 --> 00:05:29,759
+try another number right
+
+132
+00:05:25,080 --> 00:05:32,460
+um four four three two two seven seven
+
+133
+00:05:29,759 --> 00:05:35,039
+six okay how many numbers a number let's
+
+134
+00:05:32,460 --> 00:05:37,199
+make it another zero here certain
+
+135
+00:05:35,039 --> 00:05:39,419
+package yeah
+
+136
+00:05:37,199 --> 00:05:42,080
+okay this is ten bucket
+
+137
+00:05:39,419 --> 00:05:42,080
+four
+
+138
+00:05:42,360 --> 00:05:45,539
+four
+
+139
+00:05:43,800 --> 00:05:46,800
+make it two right
+
+140
+00:05:45,539 --> 00:05:47,880
+three
+
+141
+00:05:46,800 --> 00:05:50,160
+one
+
+142
+00:05:47,880 --> 00:05:53,400
+two one
+
+143
+00:05:50,160 --> 00:05:54,800
+two make it to one yeah that's one not
+
+144
+00:05:53,400 --> 00:05:58,199
+two
+
+145
+00:05:54,800 --> 00:06:00,120
+one not two okay so yeah that was a
+
+146
+00:05:58,199 --> 00:06:01,800
+mistake yeah you always listening yeah
+
+147
+00:06:00,120 --> 00:06:06,539
+that was testing
+
+148
+00:06:01,800 --> 00:06:09,780
+okay good job seven six
+
+149
+00:06:06,539 --> 00:06:11,340
+yellow yeah so what are the rest what
+
+150
+00:06:09,780 --> 00:06:14,340
+should I put here it's yellow okay good
+
+151
+00:06:11,340 --> 00:06:14,340
+okay
+
+152
+00:06:14,639 --> 00:06:20,039
+now okay so now S1 S2
+
+153
+00:06:17,580 --> 00:06:23,100
+we have one zeros
+
+154
+00:06:20,039 --> 00:06:26,100
+so where should I put it on the number
+
+155
+00:06:23,100 --> 00:06:28,860
+yeah okay
+
+156
+00:06:26,100 --> 00:06:31,280
+okay now move it what do we do is it
+
+157
+00:06:28,860 --> 00:06:31,280
+nothing
+
+158
+00:06:33,440 --> 00:06:37,500
+okay and
+
+159
+00:06:35,639 --> 00:06:39,000
+and then give it to your first number
+
+160
+00:06:37,500 --> 00:06:42,419
+yeah and
+
+161
+00:06:39,000 --> 00:06:44,819
+one move where because two huh
+
+162
+00:06:42,419 --> 00:06:46,259
+and what's next put three in the second
+
+163
+00:06:44,819 --> 00:06:48,319
+three
+
+164
+00:06:46,259 --> 00:06:50,759
+and
+
+165
+00:06:48,319 --> 00:06:53,160
+perform in the first room and then put
+
+166
+00:06:50,759 --> 00:06:56,039
+four in the second string yeah then move
+
+167
+00:06:53,160 --> 00:06:59,100
+and then skip dancing and then put six
+
+168
+00:06:56,039 --> 00:06:59,880
+in the first ring and then move on and
+
+169
+00:06:59,100 --> 00:07:03,360
+then
+
+170
+00:06:59,880 --> 00:07:05,220
+put seven in the 739 the first ring and
+
+171
+00:07:03,360 --> 00:07:07,280
+then it's getting arrested okay so this
+
+172
+00:07:05,220 --> 00:07:07,280
+is
+
+173
+00:07:08,699 --> 00:07:13,139
+my sense zero two three three four four
+
+174
+00:07:11,220 --> 00:07:15,240
+six seven yeah so it's basically this
+
+175
+00:07:13,139 --> 00:07:17,880
+number plus this number
+
+176
+00:07:15,240 --> 00:07:20,039
+okay why can't we do it why this
+
+177
+00:07:17,880 --> 00:07:22,380
+approach is okay
+
+178
+00:07:20,039 --> 00:07:26,400
+can you just say okay why this is the
+
+179
+00:07:22,380 --> 00:07:28,860
+gives the optimum the minimum because
+
+180
+00:07:26,400 --> 00:07:31,620
+because place values and you can put
+
+181
+00:07:28,860 --> 00:07:35,099
+digits in different place values because
+
+182
+00:07:31,620 --> 00:07:37,919
+like there's in the fat one's column two
+
+183
+00:07:35,099 --> 00:07:40,860
+tens column like if you put like a one
+
+184
+00:07:37,919 --> 00:07:42,660
+in the ones column will be one but if
+
+185
+00:07:40,860 --> 00:07:45,060
+you put one's in like a thousand column
+
+186
+00:07:42,660 --> 00:07:48,120
+it'll be a thousand so it'll get B more
+
+187
+00:07:45,060 --> 00:07:50,880
+so you want to give a smaller so you put
+
+188
+00:07:48,120 --> 00:07:53,099
+the the smallest number or in the bigger
+
+189
+00:07:50,880 --> 00:07:55,319
+values and the bigger numbers in the
+
+190
+00:07:53,099 --> 00:07:57,720
+smaller values so they'll they'll uh
+
+191
+00:07:55,319 --> 00:07:59,880
+value less good job yes that's basically
+
+192
+00:07:57,720 --> 00:08:02,160
+it yeah so basically we are sorting yeah
+
+193
+00:07:59,880 --> 00:08:04,020
+it's the same as sorting right so last
+
+194
+00:08:02,160 --> 00:08:07,080
+time when we sold it we just sold it
+
+195
+00:08:04,020 --> 00:08:09,900
+right what do we get zero two two three
+
+196
+00:08:07,080 --> 00:08:11,460
+four four six seven seven right and then
+
+197
+00:08:09,900 --> 00:08:13,319
+we
+
+198
+00:08:11,460 --> 00:08:15,240
+pick the number from left to the right
+
+199
+00:08:13,319 --> 00:08:16,979
+right this is the same thing right so we
+
+200
+00:08:15,240 --> 00:08:18,539
+just count it we have these ten buckets
+
+201
+00:08:16,979 --> 00:08:20,520
+because there are only 10 possible
+
+202
+00:08:18,539 --> 00:08:22,500
+digits and we just count how many times
+
+203
+00:08:20,520 --> 00:08:24,660
+they appear is there a packet right if
+
+204
+00:08:22,500 --> 00:08:27,300
+you have one more two you just increment
+
+205
+00:08:24,660 --> 00:08:29,160
+the counter two and then we try from the
+
+206
+00:08:27,300 --> 00:08:31,080
+left to the right because the left this
+
+207
+00:08:29,160 --> 00:08:33,240
+is the zero the smallest
+
+208
+00:08:31,080 --> 00:08:35,880
+five zero one two this is in the
+
+209
+00:08:33,240 --> 00:08:38,779
+sourcing order and if it's zero if the
+
+210
+00:08:35,880 --> 00:08:38,779
+counter is zero just get
+
+211
+00:08:39,779 --> 00:08:45,360
+it is the the Sorting this is the faster
+
+212
+00:08:42,419 --> 00:08:48,060
+why is it faster because we only have 10
+
+213
+00:08:45,360 --> 00:08:50,580
+buckets if we are empty it here
+
+214
+00:08:48,060 --> 00:08:53,339
+we just go through these end times and
+
+215
+00:08:50,580 --> 00:08:55,980
+then we have all the digits in place
+
+216
+00:08:53,339 --> 00:08:58,680
+right but for 13 if not regular salt in
+
+217
+00:08:55,980 --> 00:09:01,200
+quick shot the time complexity is O and
+
+218
+00:08:58,680 --> 00:09:03,300
+again right and then if we use the
+
+219
+00:09:01,200 --> 00:09:04,140
+bucket sorting look what's the tandemic
+
+220
+00:09:03,300 --> 00:09:06,899
+speed
+
+221
+00:09:04,140 --> 00:09:08,580
+what's the time from Leslie OS right
+
+222
+00:09:06,899 --> 00:09:10,680
+which one is better this one is better
+
+223
+00:09:08,580 --> 00:09:12,300
+right because they have 10 buckets so it
+
+224
+00:09:10,680 --> 00:09:13,800
+just goes to one
+
+225
+00:09:12,300 --> 00:09:16,440
+okay
+
+226
+00:09:13,800 --> 00:09:19,200
+okay so yeah that's a strategy but
+
+227
+00:09:16,440 --> 00:09:20,940
+writing this in code may not be elegant
+
+228
+00:09:19,200 --> 00:09:22,200
+as the first approach remember the first
+
+229
+00:09:20,940 --> 00:09:24,779
+approach is just three line number two
+
+230
+00:09:22,200 --> 00:09:27,300
+right but for this one it takes the more
+
+231
+00:09:24,779 --> 00:09:30,060
+than three lines of code and it's not as
+
+232
+00:09:27,300 --> 00:09:34,260
+elegant as the first approach the bucket
+
+233
+00:09:30,060 --> 00:09:37,260
+equals at the beginning 10 10 buckets
+
+234
+00:09:34,260 --> 00:09:37,260
+four
+
+235
+00:09:38,580 --> 00:09:48,540
+I in this n Str n converted to a string
+
+236
+00:09:43,920 --> 00:09:51,899
+this I and then B integer I automated
+
+237
+00:09:48,540 --> 00:09:54,740
+back to the index the values plus equals
+
+238
+00:09:51,899 --> 00:09:57,060
+one right this is bucket oh yeah
+
+239
+00:09:54,740 --> 00:10:00,060
+incrementing we are putting the numbers
+
+240
+00:09:57,060 --> 00:10:01,560
+in the bucket right this is the bucket
+
+241
+00:10:00,060 --> 00:10:04,140
+and we're putting the we go through the
+
+242
+00:10:01,560 --> 00:10:06,720
+digits and we put in the DJI to that
+
+243
+00:10:04,140 --> 00:10:08,880
+bucket okay and
+
+244
+00:10:06,720 --> 00:10:12,180
+and once we have that then we can start
+
+245
+00:10:08,880 --> 00:10:15,899
+S1 equals zero S2 equals zero right and
+
+246
+00:10:12,180 --> 00:10:17,399
+y i equals zero wire I is smaller than
+
+247
+00:10:15,899 --> 00:10:18,720
+10.
+
+248
+00:10:17,399 --> 00:10:21,480
+all right
+
+249
+00:10:18,720 --> 00:10:23,820
+first of all we need to skip the packet
+
+250
+00:10:21,480 --> 00:10:26,100
+which is yellow so
+
+251
+00:10:23,820 --> 00:10:28,140
+how do we skip the bucket which is you
+
+252
+00:10:26,100 --> 00:10:31,140
+know wire
+
+253
+00:10:28,140 --> 00:10:36,000
+why I is smaller than 10 and
+
+254
+00:10:31,140 --> 00:10:41,120
+s i is is actually p i is is actually
+
+255
+00:10:36,000 --> 00:10:41,120
+zero then I plus equal one right
+
+256
+00:10:41,160 --> 00:10:46,920
+so we skip the empty packets and then
+
+257
+00:10:45,540 --> 00:10:49,320
+and now we need to take the numbers
+
+258
+00:10:46,920 --> 00:10:52,380
+right we need to take the numbers so so
+
+259
+00:10:49,320 --> 00:10:56,160
+how do we take a number S1 equals S1
+
+260
+00:10:52,380 --> 00:10:59,279
+times 10 plus now this is the bucket we
+
+261
+00:10:56,160 --> 00:11:00,899
+are now a bucket I so packet I now once
+
+262
+00:10:59,279 --> 00:11:02,760
+we take the one bucket what should we do
+
+263
+00:11:00,899 --> 00:11:04,700
+with it we need to decrement the counter
+
+264
+00:11:02,760 --> 00:11:08,279
+right
+
+265
+00:11:04,700 --> 00:11:11,040
+I take one four already so I need to
+
+266
+00:11:08,279 --> 00:11:13,260
+decrement it to one right so right now I
+
+267
+00:11:11,040 --> 00:11:16,440
+take this eye and I need to decrement it
+
+268
+00:11:13,260 --> 00:11:19,260
+which is b i minus equal one so once we
+
+269
+00:11:16,440 --> 00:11:21,180
+take this bucket now we need to check if
+
+270
+00:11:19,260 --> 00:11:24,360
+the voltage is for the next number right
+
+271
+00:11:21,180 --> 00:11:27,240
+so we need to obviously we need to keep
+
+272
+00:11:24,360 --> 00:11:31,380
+skipping this digit right and
+
+273
+00:11:27,240 --> 00:11:34,940
+p i if if zero then still I plus equal
+
+274
+00:11:31,380 --> 00:11:37,380
+one and if I is already as a 10
+
+275
+00:11:34,940 --> 00:11:41,760
+if we are using up all the digits then
+
+276
+00:11:37,380 --> 00:11:46,800
+we just break otherwise S2 equals S2
+
+277
+00:11:41,760 --> 00:11:48,180
+times 10 plus I and p i minus equal one
+
+278
+00:11:46,800 --> 00:11:50,519
+okay
+
+279
+00:11:48,180 --> 00:11:53,880
+and then at the end return
+
+280
+00:11:50,519 --> 00:11:56,399
+S1 plus S2
+
+281
+00:11:53,880 --> 00:11:57,240
+okay so look at this is not very elegant
+
+282
+00:11:56,399 --> 00:11:59,060
+right
+
+283
+00:11:57,240 --> 00:12:03,660
+because there's some
+
+284
+00:11:59,060 --> 00:12:06,120
+special case we have to make yeah but
+
+285
+00:12:03,660 --> 00:12:08,940
+the strategy the point is that
+
+286
+00:12:06,120 --> 00:12:11,399
+we take the digit we all always take the
+
+287
+00:12:08,940 --> 00:12:14,459
+digit in turn right in turn and then we
+
+288
+00:12:11,399 --> 00:12:16,320
+move the counter I
+
+289
+00:12:14,459 --> 00:12:20,820
+move this I to the right until it
+
+290
+00:12:16,320 --> 00:12:23,579
+reaches the the 10th for example the S1
+
+291
+00:12:20,820 --> 00:12:26,700
+is zero to four right so if I take the
+
+292
+00:12:23,579 --> 00:12:30,480
+digit six what does the S1 become
+
+293
+00:12:26,700 --> 00:12:32,100
+now S1 is 24 so if I take the one more
+
+294
+00:12:30,480 --> 00:12:34,279
+digit and put it on the right what does
+
+295
+00:12:32,100 --> 00:12:36,360
+as one become
+
+296
+00:12:34,279 --> 00:12:40,320
+246 I
+
+297
+00:12:36,360 --> 00:12:44,100
+so how do we get 246 from 24
+
+298
+00:12:40,320 --> 00:12:47,040
+24 times 10. and put a 6 on the right
+
+299
+00:12:44,100 --> 00:12:49,740
+let's let's basically it right so we
+
+300
+00:12:47,040 --> 00:12:53,040
+multiply the number current value times
+
+301
+00:12:49,740 --> 00:12:55,200
+10 means that okay this is the number I
+
+302
+00:12:53,040 --> 00:12:57,480
+have I multiply it by 10.
+
+303
+00:12:55,200 --> 00:13:00,240
+yeah yeah I squeeze one
+
+304
+00:12:57,480 --> 00:13:03,839
+location for for the new digit right
+
+305
+00:13:00,240 --> 00:13:07,139
+this is 24. so 24 becomes 240 plus 6.
+
+306
+00:13:03,839 --> 00:13:10,380
+this is where it is well done so we
+
+307
+00:13:07,139 --> 00:13:13,200
+take the number Take the bucket I and we
+
+308
+00:13:10,380 --> 00:13:15,680
+need to decrement it right take a move
+
+309
+00:13:13,200 --> 00:13:18,420
+it and then we move to the right okay
+
+310
+00:13:15,680 --> 00:13:21,360
+okay that's it what have you learned
+
+311
+00:13:18,420 --> 00:13:24,060
+today I learned about how to what we
+
+312
+00:13:21,360 --> 00:13:26,880
+didn't like last time we could end on
+
+313
+00:13:24,060 --> 00:13:29,579
+Monday about it's fine it's splitting
+
+314
+00:13:26,880 --> 00:13:32,339
+number and I don't remember and today
+
+315
+00:13:29,579 --> 00:13:35,459
+we're using bucket sort okay so okay so
+
+316
+00:13:32,339 --> 00:13:38,160
+what is bucket sorting bucket sorting is
+
+317
+00:13:35,459 --> 00:13:41,100
+basically using buckets or counters
+
+318
+00:13:38,160 --> 00:13:42,899
+yes okay okay and then you and then you
+
+319
+00:13:41,100 --> 00:13:45,120
+lay them out and can't get enough of
+
+320
+00:13:42,899 --> 00:13:47,639
+them put them in the rebels inside and
+
+321
+00:13:45,120 --> 00:13:49,740
+they don't have right hammer and then
+
+322
+00:13:47,639 --> 00:13:51,420
+you go through them and then just put
+
+323
+00:13:49,740 --> 00:13:53,399
+them in three one strings and keep a
+
+324
+00:13:51,420 --> 00:13:56,760
+good part yeah the fucking sauce is
+
+325
+00:13:53,399 --> 00:13:59,100
+useful if we know the lumber the the
+
+326
+00:13:56,760 --> 00:14:00,540
+data the data type is limited for
+
+327
+00:13:59,100 --> 00:14:02,579
+example in this case there are only 10
+
+328
+00:14:00,540 --> 00:14:04,740
+digits right so we can go through it
+
+329
+00:14:02,579 --> 00:14:07,019
+once and put it in different buckets but
+
+330
+00:14:04,740 --> 00:14:09,420
+if the data is a lot of the you know
+
+331
+00:14:07,019 --> 00:14:12,959
+different contents you can always have
+
+332
+00:14:09,420 --> 00:14:15,120
+unlimited buckets all right
+
+333
+00:14:12,959 --> 00:14:18,360
+make sense if you have if you have
+
+334
+00:14:15,120 --> 00:14:21,720
+unlimited packets the performance will
+
+335
+00:14:18,360 --> 00:14:24,240
+be not as efficient as this limited
+
+336
+00:14:21,720 --> 00:14:25,620
+buckets make sense anyway any comments
+
+337
+00:14:24,240 --> 00:14:30,560
+no
+
+338
+00:14:25,620 --> 00:14:30,560
+that's it for today bye bye bye bye
+
