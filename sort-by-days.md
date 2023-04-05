@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 580 (2023-03-27): [K Items With the Maximum Sum](https://helloacm.com/teaching-kids-programming-k-items-with-the-maximum-sum/) 取K项求最大总和 [Youtube](https://youtu.be/Pszd9P_i5fo) - [B站](https://www.bilibili.com/video/BV1wm4y1B77C/)  - [西瓜](https://www.ixigua.com/7218575723169219087) 
 - Day 579 (2023-03-25): [URL Simply Explained](https://helloacm.com/teaching-kids-programming-url-simply-explained/) URL简介 [Youtube](https://youtu.be/X2EodlUpFVM) - [B站](https://www.bilibili.com/video/BV1qX4y1R7oU/)  - [西瓜](https://www.ixigua.com/7216036997981274676) 
 - Day 578 (2023-03-20): [Split With Minimum Sum (Heap, Priority Queue)](https://helloacm.com/teaching-kids-programming-split-with-minimum-sum-heap-priority-queue/) 整数最小总和拆分算法(堆, 优先队列) [Youtube](https://youtu.be/cE6mKeJU5XA) - [B站](https://www.bilibili.com/video/BV1Dv4y157P1/)  - [西瓜](https://www.ixigua.com/7214474445400834597) 
 - Day 577 (2023-03-18): [Split With Minimum Sum (Bucket Sorting Algorithm)](https://helloacm.com/teaching-kids-programming-split-with-minimum-sum-bucket-sorting-algorithm/) 整数最小总和拆分算法(桶排序) [Youtube](https://youtu.be/R0KOK0CgSMo) - [B站](https://www.bilibili.com/video/BV1G84y1G7Fe/)  - [西瓜](https://www.ixigua.com/7213843467833704997) 
