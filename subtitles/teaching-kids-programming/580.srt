@@ -1,0 +1,1260 @@
+1
+00:00:04,100 --> 00:00:12,000
+okay so just imagine I have three bags
+
+2
+00:00:07,680 --> 00:00:14,580
+three different bags okay so three
+
+3
+00:00:12,000 --> 00:00:18,420
+different kinds of bags so each pack is
+
+4
+00:00:14,580 --> 00:00:21,300
+given a number zero minus one one yeah
+
+5
+00:00:18,420 --> 00:00:25,800
+three kinds of bag so the question is
+
+6
+00:00:21,300 --> 00:00:27,779
+that we want to pick a exactly K bags
+
+7
+00:00:25,800 --> 00:00:29,580
+there are only three kinds of bags right
+
+8
+00:00:27,779 --> 00:00:31,679
+and then I tell you how many of each
+
+9
+00:00:29,580 --> 00:00:34,079
+candies all right so for example like
+
+10
+00:00:31,679 --> 00:00:37,260
+this is zeros yeah
+
+11
+00:00:34,079 --> 00:00:39,059
+there are zeros there are Z
+
+12
+00:00:37,260 --> 00:00:41,899
+Eros
+
+13
+00:00:39,059 --> 00:00:45,780
+this is minus one negative one next
+
+14
+00:00:41,899 --> 00:00:49,500
+minus one and this is the one so we say
+
+15
+00:00:45,780 --> 00:00:52,739
+one okay if we have five bags of zero
+
+16
+00:00:49,500 --> 00:00:56,520
+three bags of minus one and two bags of
+
+17
+00:00:52,739 --> 00:01:01,079
+one and we want to pick pick the K bags
+
+18
+00:00:56,520 --> 00:01:03,420
+K is smaller or equal then these three
+
+19
+00:01:01,079 --> 00:01:07,500
+numbers added together okay obviously
+
+20
+00:01:03,420 --> 00:01:08,460
+right so if we want to pick k equals two
+
+21
+00:01:07,500 --> 00:01:10,680
+bags
+
+22
+00:01:08,460 --> 00:01:12,780
+so we want to maximize the sum so what's
+
+23
+00:01:10,680 --> 00:01:14,939
+the sum easy question you say everybody
+
+24
+00:01:12,780 --> 00:01:17,880
+it's easy okay so put it this way no
+
+25
+00:01:14,939 --> 00:01:21,240
+back so I find numbers you know three
+
+26
+00:01:17,880 --> 00:01:23,400
+numbers three times minus one
+
+27
+00:01:21,240 --> 00:01:25,560
+for number one we have two times and we
+
+28
+00:01:23,400 --> 00:01:27,540
+want to pick two times we want to pick
+
+29
+00:01:25,560 --> 00:01:29,880
+two numbers we want to maximize the
+
+30
+00:01:27,540 --> 00:01:33,299
+numbers we pick is it
+
+31
+00:01:29,880 --> 00:01:35,100
+two yes two okay if I want to pick
+
+32
+00:01:33,299 --> 00:01:37,439
+exactly three numbers what's the sum
+
+33
+00:01:35,100 --> 00:01:39,960
+look I have five zeros which one is the
+
+34
+00:01:37,439 --> 00:01:43,380
+noun and which one is the amount
+
+35
+00:01:39,960 --> 00:01:45,960
+it's numbers okay this is a mouth
+
+36
+00:01:43,380 --> 00:01:49,520
+oh this is the number
+
+37
+00:01:45,960 --> 00:01:49,520
+oh okay
+
+38
+00:01:49,579 --> 00:01:56,640
+I want to pick three numbers the ones
+
+39
+00:01:52,979 --> 00:01:58,560
+the ones and uh and one of the zeros
+
+40
+00:01:56,640 --> 00:02:00,299
+yeah so that's three or two right okay
+
+41
+00:01:58,560 --> 00:02:01,520
+you get it okay I want to pick seven
+
+42
+00:02:00,299 --> 00:02:04,259
+numbers
+
+43
+00:02:01,520 --> 00:02:07,799
+you get all the twos and then
+
+44
+00:02:04,259 --> 00:02:11,879
+the zeros what's awesome two I want to
+
+45
+00:02:07,799 --> 00:02:16,040
+pick a numbers versus some one okay good
+
+46
+00:02:11,879 --> 00:02:16,040
+then okay so that's good you understand
+
+47
+00:02:21,319 --> 00:02:26,280
+too hard
+
+48
+00:02:23,580 --> 00:02:29,160
+it's hard to explain right
+
+49
+00:02:26,280 --> 00:02:32,220
+so do you understand this zero minus one
+
+50
+00:02:29,160 --> 00:02:34,920
+one I have five times of zero three
+
+51
+00:02:32,220 --> 00:02:37,379
+times a minus one two times a one the
+
+52
+00:02:34,920 --> 00:02:40,800
+question is I want to pick K exactly K
+
+53
+00:02:37,379 --> 00:02:42,959
+numbers and K is smaller and equal than
+
+54
+00:02:40,800 --> 00:02:46,260
+all the three numbers added up together
+
+55
+00:02:42,959 --> 00:02:48,180
+so in this case it's ten K is smaller
+
+56
+00:02:46,260 --> 00:02:50,940
+than 10 obviously because they only ten
+
+57
+00:02:48,180 --> 00:02:54,360
+items I want to pick K item which is
+
+58
+00:02:50,940 --> 00:02:56,280
+smaller than 10 right so if we want to
+
+59
+00:02:54,360 --> 00:02:58,920
+pick two items obviously we'll pick the
+
+60
+00:02:56,280 --> 00:03:01,379
+ones because they give you maximum then
+
+61
+00:02:58,920 --> 00:03:03,360
+if I want to pick three numbers so you
+
+62
+00:03:01,379 --> 00:03:05,580
+picked it from a zero right it doesn't
+
+63
+00:03:03,360 --> 00:03:07,800
+change and if I want to pick seven
+
+64
+00:03:05,580 --> 00:03:11,040
+numbers obviously you take all the tools
+
+65
+00:03:07,800 --> 00:03:12,620
+and all the zeros right the sum is still
+
+66
+00:03:11,040 --> 00:03:14,760
+two if I want to pick a numbers
+
+67
+00:03:12,620 --> 00:03:17,360
+unfortunately you have to take a minus
+
+68
+00:03:14,760 --> 00:03:20,819
+one am I
+
+69
+00:03:17,360 --> 00:03:22,140
+make sense now no which probably you
+
+70
+00:03:20,819 --> 00:03:24,900
+don't understand
+
+71
+00:03:22,140 --> 00:03:26,700
+in the last part he said unfortunately
+
+72
+00:03:24,900 --> 00:03:28,620
+you have to take away yeah because the
+
+73
+00:03:26,700 --> 00:03:31,319
+question is that we have to take exactly
+
+74
+00:03:28,620 --> 00:03:34,319
+K numbers
+
+75
+00:03:31,319 --> 00:03:37,080
+okay yeah so I want to find out the sum
+
+76
+00:03:34,319 --> 00:03:40,519
+what's the stress again to get the ones
+
+77
+00:03:37,080 --> 00:03:40,519
+all of them and
+
+78
+00:03:44,460 --> 00:03:47,520
+[Music]
+
+79
+00:03:48,620 --> 00:03:54,599
+oh yeah I thought you had to make a sum
+
+80
+00:03:51,780 --> 00:03:57,120
+of two and I was like two ones is two
+
+81
+00:03:54,599 --> 00:04:00,360
+and and it's like five zeros and two
+
+82
+00:03:57,120 --> 00:04:02,400
+ones is two and I I and then and then I
+
+83
+00:04:00,360 --> 00:04:04,519
+was so confused when you said you minus
+
+84
+00:04:02,400 --> 00:04:08,280
+one okay so let me rephrase this okay
+
+85
+00:04:04,519 --> 00:04:11,159
+the only three types of items zero minus
+
+86
+00:04:08,280 --> 00:04:13,379
+one one right they've done this and we
+
+87
+00:04:11,159 --> 00:04:16,139
+know exactly how many of each
+
+88
+00:04:13,379 --> 00:04:18,500
+all right I want to pick exactly we want
+
+89
+00:04:16,139 --> 00:04:18,500
+to pick
+
+90
+00:04:18,840 --> 00:04:24,479
+K numbers
+
+91
+00:04:21,120 --> 00:04:27,120
+PK numbers and we want to maximize the
+
+92
+00:04:24,479 --> 00:04:28,560
+sum maximize the sound
+
+93
+00:04:27,120 --> 00:04:31,440
+okay
+
+94
+00:04:28,560 --> 00:04:33,180
+so let's strategy yes we picked the ones
+
+95
+00:04:31,440 --> 00:04:35,759
+first you pick the bigger numbers
+
+96
+00:04:33,180 --> 00:04:37,440
+because it's worth all of them
+
+97
+00:04:35,759 --> 00:04:39,600
+so how do we solve this problem because
+
+98
+00:04:37,440 --> 00:04:42,300
+we said okay we pick these numbers first
+
+99
+00:04:39,600 --> 00:04:44,639
+we pick the ones and if we still have to
+
+100
+00:04:42,300 --> 00:04:47,100
+pick one we pick the zeros if we still
+
+101
+00:04:44,639 --> 00:04:50,000
+have to pick more we pick a negative one
+
+102
+00:04:47,100 --> 00:04:50,000
+right okay
+
+103
+00:04:53,400 --> 00:04:57,660
+that's a corner case I like that I like
+
+104
+00:04:55,740 --> 00:05:00,199
+the way you think okay Corner case
+
+105
+00:04:57,660 --> 00:05:03,000
+what's Corner cases
+
+106
+00:05:00,199 --> 00:05:05,040
+when you pick more than that right okay
+
+107
+00:05:03,000 --> 00:05:07,259
+so this is the requirement it's smaller
+
+108
+00:05:05,040 --> 00:05:10,080
+so you can pick more than 10 numbers
+
+109
+00:05:07,259 --> 00:05:12,360
+here don't get it okay so there's one
+
+110
+00:05:10,080 --> 00:05:14,220
+corner case think about it what's
+
+111
+00:05:12,360 --> 00:05:16,320
+another Corner cases look this is the
+
+112
+00:05:14,220 --> 00:05:19,500
+color cases you want to pick more what
+
+113
+00:05:16,320 --> 00:05:21,360
+happened okay so the question already uh
+
+114
+00:05:19,500 --> 00:05:23,100
+said you can't pick more than that right
+
+115
+00:05:21,360 --> 00:05:25,800
+this is the constraint
+
+116
+00:05:23,100 --> 00:05:30,080
+on the other hand if we pick nothing
+
+117
+00:05:25,800 --> 00:05:30,080
+what happened right if K is yellow
+
+118
+00:05:30,500 --> 00:05:37,259
+just given these three numbers right
+
+119
+00:05:32,820 --> 00:05:39,900
+like this is the z neck one and then
+
+120
+00:05:37,259 --> 00:05:42,900
+this K how do we get the sum maximize
+
+121
+00:05:39,900 --> 00:05:45,120
+some how do you implement it yeah I know
+
+122
+00:05:42,900 --> 00:05:47,520
+the solution is that okay we want to
+
+123
+00:05:45,120 --> 00:05:49,680
+pick this pick we are pillar but but how
+
+124
+00:05:47,520 --> 00:05:52,979
+would you do it and pick the biggest
+
+125
+00:05:49,680 --> 00:05:54,240
+numbers if K is smaller than one what
+
+126
+00:05:52,979 --> 00:05:56,699
+should we return
+
+127
+00:05:54,240 --> 00:05:58,620
+if K it will pick one number what should
+
+128
+00:05:56,699 --> 00:06:02,400
+return
+
+129
+00:05:58,620 --> 00:06:05,160
+just one right but if there are two
+
+130
+00:06:02,400 --> 00:06:07,800
+million two million ones and if we want
+
+131
+00:06:05,160 --> 00:06:11,160
+to pick a hundred what's the answer
+
+132
+00:06:07,800 --> 00:06:14,400
+okay what's the answer this is two
+
+133
+00:06:11,160 --> 00:06:16,500
+million a million yeah and how about if
+
+134
+00:06:14,400 --> 00:06:18,419
+I want to pick two minion and one what's
+
+135
+00:06:16,500 --> 00:06:20,580
+the answer
+
+136
+00:06:18,419 --> 00:06:22,860
+that's right yeah okay so we can do this
+
+137
+00:06:20,580 --> 00:06:25,620
+if else right
+
+138
+00:06:22,860 --> 00:06:27,720
+and check if this K is smaller than one
+
+139
+00:06:25,620 --> 00:06:30,600
+if K is smaller than this number right
+
+140
+00:06:27,720 --> 00:06:33,120
+let's make it all okay just to to be
+
+141
+00:06:30,600 --> 00:06:34,440
+different than this number one if K is
+
+142
+00:06:33,120 --> 00:06:36,840
+smaller than o
+
+143
+00:06:34,440 --> 00:06:39,060
+then we do 10K otherwise we need to pick
+
+144
+00:06:36,840 --> 00:06:42,539
+all the O's
+
+145
+00:06:39,060 --> 00:06:44,819
+and we still have K minus o
+
+146
+00:06:42,539 --> 00:06:46,380
+numbers to pick right I know we have to
+
+147
+00:06:44,819 --> 00:06:49,740
+compare this number
+
+148
+00:06:46,380 --> 00:06:52,319
+to this to this Z right
+
+149
+00:06:49,740 --> 00:06:54,180
+and if it's more than that then we have
+
+150
+00:06:52,319 --> 00:06:55,819
+to pick the minus one right
+
+151
+00:06:54,180 --> 00:06:58,080
+does it make sense
+
+152
+00:06:55,819 --> 00:07:00,180
+not really anything right you have too
+
+153
+00:06:58,080 --> 00:07:02,639
+many effects how about if I tell you
+
+154
+00:07:00,180 --> 00:07:05,039
+this away here all right minus one minus
+
+155
+00:07:02,639 --> 00:07:09,020
+one minus one minus one all right and
+
+156
+00:07:05,039 --> 00:07:12,180
+zero zero zero zero and one one one one
+
+157
+00:07:09,020 --> 00:07:15,479
+okay so now a lot you know how many of
+
+158
+00:07:12,180 --> 00:07:18,860
+these right this is n times this is z
+
+159
+00:07:15,479 --> 00:07:18,860
+times and this is
+
+160
+00:07:20,940 --> 00:07:25,020
+yeah this is a possibly three numbers
+
+161
+00:07:23,039 --> 00:07:27,300
+only three numbers I mean if you want to
+
+162
+00:07:25,020 --> 00:07:29,580
+pick K so which side are you going to
+
+163
+00:07:27,300 --> 00:07:32,940
+pick we want to pick the K numbers
+
+164
+00:07:29,580 --> 00:07:34,800
+pick from the right yes so okay so this
+
+165
+00:07:32,940 --> 00:07:36,300
+is the array right I don't want to just
+
+166
+00:07:34,800 --> 00:07:39,180
+pick a
+
+167
+00:07:36,300 --> 00:07:43,139
+from here we want to pick K items so how
+
+168
+00:07:39,180 --> 00:07:45,419
+do we write it minus K to the end
+
+169
+00:07:43,139 --> 00:07:48,180
+and we just need to return some of it
+
+170
+00:07:45,419 --> 00:07:50,759
+sum only 10 summer return
+
+171
+00:07:48,180 --> 00:07:54,479
+so how do we get this a we notice three
+
+172
+00:07:50,759 --> 00:07:55,380
+numbers right so a equals n times minus
+
+173
+00:07:54,479 --> 00:08:01,199
+one
+
+174
+00:07:55,380 --> 00:08:01,940
+plus c times zero plus
+
+175
+00:08:01,199 --> 00:08:03,840
+plus
+
+176
+00:08:01,940 --> 00:08:06,660
+o times
+
+177
+00:08:03,840 --> 00:08:09,599
+one right okay so we construct this and
+
+178
+00:08:06,660 --> 00:08:12,960
+we do 10 this and obviously K if K is
+
+179
+00:08:09,599 --> 00:08:15,060
+zero we have to check otherwise it will
+
+180
+00:08:12,960 --> 00:08:16,800
+not work right because if k equals zero
+
+181
+00:08:15,060 --> 00:08:18,660
+minus zero equals zero and you will
+
+182
+00:08:16,800 --> 00:08:21,539
+return the sum of everything which is
+
+183
+00:08:18,660 --> 00:08:24,120
+currently lonely answer so we have to
+
+184
+00:08:21,539 --> 00:08:26,759
+check if k equals zero then we can zero
+
+185
+00:08:24,120 --> 00:08:28,740
+otherwise return at least bit right the
+
+186
+00:08:26,759 --> 00:08:31,800
+times the next day for this one check
+
+187
+00:08:28,740 --> 00:08:33,899
+this one the time complexity position
+
+188
+00:08:31,800 --> 00:08:36,719
+we have to construct the speed right and
+
+189
+00:08:33,899 --> 00:08:39,000
+we have to do this right so the time
+
+190
+00:08:36,719 --> 00:08:42,779
+complexity is all
+
+191
+00:08:39,000 --> 00:08:45,959
+this n plus Z Plus o
+
+192
+00:08:42,779 --> 00:08:48,420
+and plus KK obviously is smaller than
+
+193
+00:08:45,959 --> 00:08:50,120
+this term so we can drop it so it's all
+
+194
+00:08:48,420 --> 00:08:52,620
+this one right
+
+195
+00:08:50,120 --> 00:08:54,180
+because we
+
+196
+00:08:52,620 --> 00:08:55,740
+wait and we wanted to pick the numbers
+
+197
+00:08:54,180 --> 00:08:58,980
+from the right hand side do you get it
+
+198
+00:08:55,740 --> 00:09:01,560
+yes okay another way another way is
+
+199
+00:08:58,980 --> 00:09:04,080
+simpler but it's harder to think about
+
+200
+00:09:01,560 --> 00:09:06,120
+let me write it here and you tell me you
+
+201
+00:09:04,080 --> 00:09:07,620
+explain to me okay return
+
+202
+00:09:06,120 --> 00:09:10,980
+I mean
+
+203
+00:09:07,620 --> 00:09:14,220
+okay I will number of ones
+
+204
+00:09:10,980 --> 00:09:17,640
+okay one k minus one
+
+205
+00:09:14,220 --> 00:09:20,519
+minus zero okay and that's it
+
+206
+00:09:17,640 --> 00:09:25,760
+but this bit this one
+
+207
+00:09:20,519 --> 00:09:25,760
+okay obviously why you you guys
+
+208
+00:09:26,459 --> 00:09:29,839
+it's masculine yes
+
+209
+00:09:30,380 --> 00:09:36,720
+concise okay yeah this is the maximum
+
+210
+00:09:33,839 --> 00:09:39,839
+what this is the maximum you can get the
+
+211
+00:09:36,720 --> 00:09:42,120
+ones if ones is more obviously your
+
+212
+00:09:39,839 --> 00:09:45,420
+return okay if K is more you return once
+
+213
+00:09:42,120 --> 00:09:46,980
+yes this is two minutes that's a cool
+
+214
+00:09:45,420 --> 00:09:49,800
+question let's take a look at that later
+
+215
+00:09:46,980 --> 00:09:52,140
+I'm saying this this one just once this
+
+216
+00:09:49,800 --> 00:09:54,779
+is the ones we can get right if this is
+
+217
+00:09:52,140 --> 00:09:57,000
+two million this is a hundred obviously
+
+218
+00:09:54,779 --> 00:09:58,980
+return 100 if this is three million this
+
+219
+00:09:57,000 --> 00:10:01,279
+is two million obviously less than two
+
+220
+00:09:58,980 --> 00:10:04,560
+million all right
+
+221
+00:10:01,279 --> 00:10:07,980
+okay so now we pick the ones
+
+222
+00:10:04,560 --> 00:10:11,820
+now we need to pick the zeros if K if K
+
+223
+00:10:07,980 --> 00:10:14,580
+is smaller or equal than once plus zeros
+
+224
+00:10:11,820 --> 00:10:16,140
+it doesn't change right if it's more
+
+225
+00:10:14,580 --> 00:10:19,320
+than that then we have to pick the
+
+226
+00:10:16,140 --> 00:10:21,600
+negative ones right am I right yeah
+
+227
+00:10:19,320 --> 00:10:23,820
+this is the thing to pick the negative
+
+228
+00:10:21,600 --> 00:10:25,740
+one and obviously it's smaller than zero
+
+229
+00:10:23,820 --> 00:10:29,459
+then we don't have to pick okay
+
+230
+00:10:25,740 --> 00:10:31,920
+yeah I do notice here there is no even
+
+231
+00:10:29,459 --> 00:10:34,680
+mentioning about the negative ones
+
+232
+00:10:31,920 --> 00:10:36,720
+because we don't need to use the value
+
+233
+00:10:34,680 --> 00:10:38,339
+does it make sense
+
+234
+00:10:36,720 --> 00:10:41,820
+a tiny bit which pick if you don't
+
+235
+00:10:38,339 --> 00:10:44,100
+understand I don't really answer
+
+236
+00:10:41,820 --> 00:10:46,820
+so this is the picking once right I
+
+237
+00:10:44,100 --> 00:10:49,920
+don't really understand the canines
+
+238
+00:10:46,820 --> 00:10:52,579
+that's a good question K minus one but
+
+239
+00:10:49,920 --> 00:10:56,220
+you understand this bit right yeah
+
+240
+00:10:52,579 --> 00:10:58,140
+yes and you pick the ones and then you
+
+241
+00:10:56,220 --> 00:11:00,240
+subtract you need to subtract what in
+
+242
+00:10:58,140 --> 00:11:03,060
+what cases does the answer change
+
+243
+00:11:00,240 --> 00:11:04,560
+if we haven't reached the step to pick
+
+244
+00:11:03,060 --> 00:11:07,320
+negative one it doesn't change right
+
+245
+00:11:04,560 --> 00:11:10,440
+yeah because if there are enough zeros
+
+246
+00:11:07,320 --> 00:11:12,600
+it doesn't change right so K minus ones
+
+247
+00:11:10,440 --> 00:11:16,019
+because we have to pick ones yeah bless
+
+248
+00:11:12,600 --> 00:11:18,779
+you look K minus minus one we have pick
+
+249
+00:11:16,019 --> 00:11:20,579
+ones yeah and then when you want to pick
+
+250
+00:11:18,779 --> 00:11:23,399
+the zeros right
+
+251
+00:11:20,579 --> 00:11:25,680
+and if we pick pick the ones and pick
+
+252
+00:11:23,399 --> 00:11:28,700
+the zero if this number is still bigger
+
+253
+00:11:25,680 --> 00:11:28,700
+than zero what does it mean
+
+254
+00:11:28,740 --> 00:11:31,279
+yeah yeah
+
+255
+00:11:32,339 --> 00:11:37,079
+it doesn't change the answer right
+
+256
+00:11:33,959 --> 00:11:38,220
+because here Max is yellow here if this
+
+257
+00:11:37,079 --> 00:11:42,060
+is negative
+
+258
+00:11:38,220 --> 00:11:44,700
+this bit is zero minus zero is zero only
+
+259
+00:11:42,060 --> 00:11:45,420
+if this number is like two what does it
+
+260
+00:11:44,700 --> 00:11:47,300
+mean
+
+261
+00:11:45,420 --> 00:11:49,440
+s
+
+262
+00:11:47,300 --> 00:11:51,360
+yeah because we need to pick two
+
+263
+00:11:49,440 --> 00:11:52,920
+negative ones right yes
+
+264
+00:11:51,360 --> 00:11:56,180
+there's no negative
+
+265
+00:11:52,920 --> 00:11:56,180
+oh that's a good question
+
+266
+00:11:56,880 --> 00:12:05,100
+okay smaller than equal than once plus
+
+267
+00:12:00,120 --> 00:12:07,560
+zeros plus negative one right yeah
+
+268
+00:12:05,100 --> 00:12:09,060
+if this is zero
+
+269
+00:12:07,560 --> 00:12:12,060
+yeah
+
+270
+00:12:09,060 --> 00:12:15,420
+if this is zero K will be ones and zero
+
+271
+00:12:12,060 --> 00:12:18,779
+so if this is zero so what happened K
+
+272
+00:12:15,420 --> 00:12:20,880
+minus ones minus zeros smaller than
+
+273
+00:12:18,779 --> 00:12:22,620
+equal to zero so what does it mean this
+
+274
+00:12:20,880 --> 00:12:24,779
+is smaller than zero then this bit is
+
+275
+00:12:22,620 --> 00:12:27,360
+zero because that's additional time
+
+276
+00:12:24,779 --> 00:12:29,579
+because that's very good makes sense
+
+277
+00:12:27,360 --> 00:12:32,000
+okay that's very good okay so what have
+
+278
+00:12:29,579 --> 00:12:32,000
+you learned today
+
+279
+00:12:35,279 --> 00:12:41,519
+we learned about this we have K back the
+
+280
+00:12:38,820 --> 00:12:44,940
+three bears and we want to find
+
+281
+00:12:41,519 --> 00:12:48,600
+okay the maximum number you could get it
+
+282
+00:12:44,940 --> 00:12:49,620
+and exactly K numbers of the amount of
+
+283
+00:12:48,600 --> 00:12:52,920
+the bag
+
+284
+00:12:49,620 --> 00:12:53,639
+yeah what's the strategy basically we
+
+285
+00:12:52,920 --> 00:12:57,360
+like
+
+286
+00:12:53,639 --> 00:12:59,940
+get the ones and then and then if they
+
+287
+00:12:57,360 --> 00:13:04,139
+decays more we have to go to the zeros
+
+288
+00:12:59,940 --> 00:13:06,180
+so if it's still more we have to we have
+
+289
+00:13:04,139 --> 00:13:08,700
+to go to the negatives
+
+290
+00:13:06,180 --> 00:13:12,860
+use the negative level what's the time
+
+291
+00:13:08,700 --> 00:13:12,860
+complexity for this one if there's like
+
+292
+00:13:13,260 --> 00:13:16,160
+nothing
+
+293
+00:13:17,279 --> 00:13:22,500
+zero zero zero yeah yeah then K must be
+
+294
+00:13:20,639 --> 00:13:23,399
+zero because that's the additional
+
+295
+00:13:22,500 --> 00:13:26,760
+requirement
+
+296
+00:13:23,399 --> 00:13:29,540
+K is smaller than equivalent zero so K
+
+297
+00:13:26,760 --> 00:13:34,459
+is a positive number so K is a zero uh
+
+298
+00:13:29,540 --> 00:13:34,459
+number okay what's the time complexity
+
+299
+00:13:34,800 --> 00:13:39,420
+um
+
+300
+00:13:36,420 --> 00:13:39,420
+oh
+
+301
+00:13:40,560 --> 00:13:46,560
+Wow Come on under this number right then
+
+302
+00:13:43,560 --> 00:13:46,560
+remember
+
+303
+00:13:49,560 --> 00:13:53,820
+what's the number I should put here okay
+
+304
+00:13:51,959 --> 00:13:56,360
+what should I put here
+
+305
+00:13:53,820 --> 00:13:56,360
+okay
+
+306
+00:13:56,519 --> 00:14:00,660
+come on what's the time of last day
+
+307
+00:13:58,860 --> 00:14:03,420
+we're just doing this mess what's up
+
+308
+00:14:00,660 --> 00:14:05,940
+remember this one remember what did I
+
+309
+00:14:03,420 --> 00:14:08,100
+say what number should I play right
+
+310
+00:14:05,940 --> 00:14:10,620
+number not a letter
+
+311
+00:14:08,100 --> 00:14:13,320
+yeah I saw one right because we're just
+
+312
+00:14:10,620 --> 00:14:14,120
+doing Real mess yes this makes sense no
+
+313
+00:14:13,320 --> 00:14:18,360
+okay
+
+314
+00:14:14,120 --> 00:14:21,500
+if you say no I'm gonna repeat okay okay
+
+315
+00:14:18,360 --> 00:14:21,500
+thank you bye-bye
+

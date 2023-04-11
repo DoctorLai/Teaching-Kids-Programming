@@ -1,0 +1,948 @@
+1
+00:00:00,670 --> 00:00:05,880
+[Music]
+
+2
+00:00:03,480 --> 00:00:08,480
+yeah okay so what's this problem I mean
+
+3
+00:00:05,880 --> 00:00:11,400
+do you still remember
+
+4
+00:00:08,480 --> 00:00:14,160
+a number into
+
+5
+00:00:11,400 --> 00:00:16,560
+two parts and I give them up to get to
+
+6
+00:00:14,160 --> 00:00:18,119
+get to minimum song yeah minimum sum so
+
+7
+00:00:16,560 --> 00:00:20,340
+we give in the number we want to split
+
+8
+00:00:18,119 --> 00:00:22,920
+into two parts and we want to minimize
+
+9
+00:00:20,340 --> 00:00:24,600
+the sum and we have to talk about two
+
+10
+00:00:22,920 --> 00:00:26,699
+solutions so far right the first
+
+11
+00:00:24,600 --> 00:00:28,980
+solution is solar digit we apply this
+
+12
+00:00:26,699 --> 00:00:31,260
+greedy strategy we saw the digit and we
+
+13
+00:00:28,980 --> 00:00:33,840
+start picking that digit from a small
+
+14
+00:00:31,260 --> 00:00:35,520
+list to the largest right because we
+
+15
+00:00:33,840 --> 00:00:37,800
+want to leave the larger difference to
+
+16
+00:00:35,520 --> 00:00:41,040
+the right hand side to the ones am I
+
+17
+00:00:37,800 --> 00:00:42,960
+right yeah the time complexity for the
+
+18
+00:00:41,040 --> 00:00:45,480
+one is oh and okay because it takes the
+
+19
+00:00:42,960 --> 00:00:47,340
+o n log n term to so the teacher if they
+
+20
+00:00:45,480 --> 00:00:48,780
+are integers the second approach we're
+
+21
+00:00:47,340 --> 00:00:52,260
+using the topic starting because there
+
+22
+00:00:48,780 --> 00:00:53,579
+are only 10 digits and we can sort the
+
+23
+00:00:52,260 --> 00:00:56,579
+number
+
+24
+00:00:53,579 --> 00:00:59,160
+we can solve the digits by placing them
+
+25
+00:00:56,579 --> 00:01:02,399
+in corresponding packets
+
+26
+00:00:59,160 --> 00:01:04,559
+what I mean by putting that digit in the
+
+27
+00:01:02,399 --> 00:01:06,960
+bucket we just simply increment the
+
+28
+00:01:04,559 --> 00:01:09,900
+counter for the bucket right and once we
+
+29
+00:01:06,960 --> 00:01:13,320
+have 10 buckets of the counters meaning
+
+30
+00:01:09,900 --> 00:01:14,280
+how many digits for each packet then we
+
+31
+00:01:13,320 --> 00:01:16,860
+can
+
+32
+00:01:14,280 --> 00:01:18,780
+what can we do we can go through from
+
+33
+00:01:16,860 --> 00:01:21,540
+left to the right
+
+34
+00:01:18,780 --> 00:01:24,540
+because the left is the the leftmost the
+
+35
+00:01:21,540 --> 00:01:26,340
+bucket is zero by zero one two three
+
+36
+00:01:24,540 --> 00:01:28,140
+four up to nine
+
+37
+00:01:26,340 --> 00:01:30,659
+this is it okay
+
+38
+00:01:28,140 --> 00:01:33,119
+so we're just taking here we talk about
+
+39
+00:01:30,659 --> 00:01:35,520
+it we're picking these numbers from the
+
+40
+00:01:33,119 --> 00:01:38,220
+smallest to the biggest okay so today
+
+41
+00:01:35,520 --> 00:01:41,759
+we're going to solve this problem using
+
+42
+00:01:38,220 --> 00:01:42,840
+this uh yeah using this priority queue
+
+43
+00:01:41,759 --> 00:01:45,840
+and hip
+
+44
+00:01:42,840 --> 00:01:45,840
+hip
+
+45
+00:01:47,820 --> 00:01:51,659
+so let's attain a structure I have do
+
+46
+00:01:49,920 --> 00:01:52,799
+you still remember what's a priority
+
+47
+00:01:51,659 --> 00:01:57,200
+queue
+
+48
+00:01:52,799 --> 00:01:57,200
+is using Heap yeah probably
+
+49
+00:01:57,619 --> 00:02:04,320
+the Q is FIFA priority Q is
+
+50
+00:02:02,060 --> 00:02:06,960
+that's what I literally said what does
+
+51
+00:02:04,320 --> 00:02:09,479
+it stand for first in priority out yeah
+
+52
+00:02:06,960 --> 00:02:12,480
+first thing priority all so in Python we
+
+53
+00:02:09,479 --> 00:02:16,500
+use this hip right hipify if we hit P5
+
+54
+00:02:12,480 --> 00:02:19,500
+and the next item to Hip Hop is the
+
+55
+00:02:16,500 --> 00:02:23,400
+smallest we can helpify the digits
+
+56
+00:02:19,500 --> 00:02:25,860
+and then we can just ask it Hip Hop
+
+57
+00:02:23,400 --> 00:02:28,860
+and then if they are more digits we can
+
+58
+00:02:25,860 --> 00:02:32,099
+heat up again all right yes because the
+
+59
+00:02:28,860 --> 00:02:35,400
+hip-hop you give us the next smaller
+
+60
+00:02:32,099 --> 00:02:37,200
+smallest digit doesn't make sense okay
+
+61
+00:02:35,400 --> 00:02:40,500
+so I'm going to write the code and then
+
+62
+00:02:37,200 --> 00:02:43,340
+tell me you explain to me right like I'm
+
+63
+00:02:40,500 --> 00:02:43,340
+five okay
+
+64
+00:02:44,819 --> 00:02:52,560
+Define name some
+
+65
+00:02:47,940 --> 00:02:54,180
+and we have this and the digit equals
+
+66
+00:02:52,560 --> 00:02:57,540
+list
+
+67
+00:02:54,180 --> 00:03:02,160
+star and
+
+68
+00:02:57,540 --> 00:03:03,420
+S1 equals zero S2 equals zero
+
+69
+00:03:02,160 --> 00:03:06,420
+keep
+
+70
+00:03:03,420 --> 00:03:06,420
+P5
+
+71
+00:03:06,500 --> 00:03:10,500
+pp5 ep5p
+
+72
+00:03:11,159 --> 00:03:19,200
+wire B why we have digits
+
+73
+00:03:16,500 --> 00:03:24,780
+while we have a digit what do we do so
+
+74
+00:03:19,200 --> 00:03:29,159
+S1 equals S1 times 10 plus the integer
+
+75
+00:03:24,780 --> 00:03:31,260
+part of Hip Hop
+
+76
+00:03:29,159 --> 00:03:34,440
+d
+
+77
+00:03:31,260 --> 00:03:35,540
+if digit if we have still have one more
+
+78
+00:03:34,440 --> 00:03:41,700
+digit
+
+79
+00:03:35,540 --> 00:03:44,280
+S2 equals S2 times 10 plus integer
+
+80
+00:03:41,700 --> 00:03:45,780
+here pop
+
+81
+00:03:44,280 --> 00:03:50,760
+the
+
+82
+00:03:45,780 --> 00:03:53,280
+return S1 plus S2 that's it
+
+83
+00:03:50,760 --> 00:03:56,280
+okay so let me explain it and then you
+
+84
+00:03:53,280 --> 00:03:58,440
+tell me again okay
+
+85
+00:03:56,280 --> 00:04:00,299
+Define your function we need some given
+
+86
+00:03:58,440 --> 00:04:05,220
+this parameter n which is the integer
+
+87
+00:04:00,299 --> 00:04:07,620
+type is a digit number so Str converted
+
+88
+00:04:05,220 --> 00:04:11,340
+to a string least breaking
+
+89
+00:04:07,620 --> 00:04:14,280
+the digits the string digit into a into
+
+90
+00:04:11,340 --> 00:04:16,500
+you know characters into array a list of
+
+91
+00:04:14,280 --> 00:04:18,419
+the characters
+
+92
+00:04:16,500 --> 00:04:21,299
+S1 S2
+
+93
+00:04:18,419 --> 00:04:23,540
+F2 list is just the the value integer
+
+94
+00:04:21,299 --> 00:04:26,940
+value of the two integer we want to
+
+95
+00:04:23,540 --> 00:04:30,300
+split okay hipify
+
+96
+00:04:26,940 --> 00:04:32,759
+hippie file even this parameter T we
+
+97
+00:04:30,300 --> 00:04:35,460
+want to keep if I we want to make it a
+
+98
+00:04:32,759 --> 00:04:38,520
+hip okay so if we want to use the heat
+
+99
+00:04:35,460 --> 00:04:42,479
+push Hip Hop we have to hit before at
+
+100
+00:04:38,520 --> 00:04:45,360
+least uh the hit first okay by now look
+
+101
+00:04:42,479 --> 00:04:46,860
+D this is an array we hit if I and we
+
+102
+00:04:45,360 --> 00:04:50,340
+can use the Hip Hop
+
+103
+00:04:46,860 --> 00:04:54,660
+okay YT is the same thing as y layer
+
+104
+00:04:50,340 --> 00:04:57,720
+elements in the array in a d or why
+
+105
+00:04:54,660 --> 00:04:58,860
+lens the bigger than zero okay it's the
+
+106
+00:04:57,720 --> 00:05:01,500
+same thing
+
+107
+00:04:58,860 --> 00:05:04,080
+so we have digit we we still have the
+
+108
+00:05:01,500 --> 00:05:06,900
+digit here
+
+109
+00:05:04,080 --> 00:05:09,540
+we have a digits so what do we do we can
+
+110
+00:05:06,900 --> 00:05:14,340
+take the next smallest digit
+
+111
+00:05:09,540 --> 00:05:17,520
+S1 equals S1 times 10. remember that if
+
+112
+00:05:14,340 --> 00:05:22,320
+this number S1 is one two and then the
+
+113
+00:05:17,520 --> 00:05:24,419
+next digit is three so S1 times 10.
+
+114
+00:05:22,320 --> 00:05:26,639
+plus three okay
+
+115
+00:05:24,419 --> 00:05:28,740
+and after we take one digit because
+
+116
+00:05:26,639 --> 00:05:32,220
+we're taking two digits each by digit
+
+117
+00:05:28,740 --> 00:05:35,100
+right so we give one digit to S1 and
+
+118
+00:05:32,220 --> 00:05:38,639
+then we check if they are more digits to
+
+119
+00:05:35,100 --> 00:05:40,680
+give to S2 if they are more digits if we
+
+120
+00:05:38,639 --> 00:05:43,080
+still have at least one digit then we
+
+121
+00:05:40,680 --> 00:05:46,740
+give it to S2 and we repeat this process
+
+122
+00:05:43,080 --> 00:05:49,800
+until all the digits are taken at Pop
+
+123
+00:05:46,740 --> 00:05:52,320
+hip-hop okay the key thing is that you
+
+124
+00:05:49,800 --> 00:05:56,479
+know hip-hop is taking you know just
+
+125
+00:05:52,320 --> 00:05:56,479
+like Q right first in priority queue
+
+126
+00:05:56,720 --> 00:06:01,800
+the hip you can think of it as a
+
+127
+00:05:59,340 --> 00:06:03,180
+priority queue first in priority up
+
+128
+00:06:01,800 --> 00:06:05,160
+okay
+
+129
+00:06:03,180 --> 00:06:06,720
+the first thing first of all right the
+
+130
+00:06:05,160 --> 00:06:08,840
+first important means the priority
+
+131
+00:06:06,720 --> 00:06:11,820
+what's priority here
+
+132
+00:06:08,840 --> 00:06:13,800
+the higher priority the smaller digit
+
+133
+00:06:11,820 --> 00:06:16,139
+the higher priority right two and three
+
+134
+00:06:13,800 --> 00:06:18,360
+which one has more priority two yeah
+
+135
+00:06:16,139 --> 00:06:20,580
+okay you're listening okay good
+
+136
+00:06:18,360 --> 00:06:22,759
+okay so then we take the priority out
+
+137
+00:06:20,580 --> 00:06:26,400
+right and I take the number we stand
+
+138
+00:06:22,759 --> 00:06:28,500
+higher priority means the smaller lower
+
+139
+00:06:26,400 --> 00:06:30,900
+number exactly okay and then we repeat
+
+140
+00:06:28,500 --> 00:06:33,600
+this process until all the numbers are
+
+141
+00:06:30,900 --> 00:06:35,400
+taken good yes so the time complexity
+
+142
+00:06:33,600 --> 00:06:36,360
+okay if there are n digits right and
+
+143
+00:06:35,400 --> 00:06:39,300
+digit
+
+144
+00:06:36,360 --> 00:06:42,479
+so obviously this is O and we need to
+
+145
+00:06:39,300 --> 00:06:46,020
+convert it to the list pp5 oh and if we
+
+146
+00:06:42,479 --> 00:06:49,139
+are building a hip out of array is om
+
+147
+00:06:46,020 --> 00:06:51,960
+right but if we are building a hit by
+
+148
+00:06:49,139 --> 00:06:54,479
+pushing heat push and element
+
+149
+00:06:51,960 --> 00:06:56,220
+n times let's o and log in okay that's
+
+150
+00:06:54,479 --> 00:07:00,300
+the difference
+
+151
+00:06:56,220 --> 00:07:02,280
+okay now heat talk is login so look we
+
+152
+00:07:00,300 --> 00:07:04,500
+are taking n digit
+
+153
+00:07:02,280 --> 00:07:06,840
+and here all the digits are taken so the
+
+154
+00:07:04,500 --> 00:07:08,340
+time convex is O and Logan right because
+
+155
+00:07:06,840 --> 00:07:11,220
+here is o n
+
+156
+00:07:08,340 --> 00:07:15,539
+and here is login so over login
+
+157
+00:07:11,220 --> 00:07:17,819
+okay yes okay so these are the three
+
+158
+00:07:15,539 --> 00:07:20,099
+approach and obviously there are more
+
+159
+00:07:17,819 --> 00:07:22,680
+like we can do first right
+
+160
+00:07:20,099 --> 00:07:25,139
+yeah how many ways we can put we can
+
+161
+00:07:22,680 --> 00:07:27,360
+split into two digits not a lot right
+
+162
+00:07:25,139 --> 00:07:28,740
+it's no trivia to the right approvals
+
+163
+00:07:27,360 --> 00:07:30,539
+right
+
+164
+00:07:28,740 --> 00:07:33,539
+yeah you can prove for using the test
+
+165
+00:07:30,539 --> 00:07:36,180
+research process search we can find the
+
+166
+00:07:33,539 --> 00:07:38,699
+different ways of uh splitting this
+
+167
+00:07:36,180 --> 00:07:40,740
+number into two but this is not the most
+
+168
+00:07:38,699 --> 00:07:42,060
+elegant most optimal solution there are
+
+169
+00:07:40,740 --> 00:07:43,979
+three approaches
+
+170
+00:07:42,060 --> 00:07:45,960
+the first one so the digit which is
+
+171
+00:07:43,979 --> 00:07:49,680
+creating the second approach bucket
+
+172
+00:07:45,960 --> 00:07:51,840
+sorting which is greedy greetings yeah
+
+173
+00:07:49,680 --> 00:07:54,300
+the second approach is so yeah it's also
+
+174
+00:07:51,840 --> 00:07:56,460
+the equities okay a third approach using
+
+175
+00:07:54,300 --> 00:07:58,080
+the parameter Cube okay okay so what
+
+176
+00:07:56,460 --> 00:08:00,120
+have you learned today we learned about
+
+177
+00:07:58,080 --> 00:08:03,380
+using YouTube and what we learned yes
+
+178
+00:08:00,120 --> 00:08:06,599
+last time which is yesterday I think
+
+179
+00:08:03,380 --> 00:08:09,900
+okay so what's that yeah and we and
+
+180
+00:08:06,599 --> 00:08:12,419
+we're using this one okay which is very
+
+181
+00:08:09,900 --> 00:08:14,699
+close first in priority out okay so
+
+182
+00:08:12,419 --> 00:08:17,699
+what's this function doing pp5 what does
+
+183
+00:08:14,699 --> 00:08:20,180
+it do sort it it makes it a hip in
+
+184
+00:08:17,699 --> 00:08:22,800
+English why five something like that
+
+185
+00:08:20,180 --> 00:08:25,500
+make it make it yeah so you basically
+
+186
+00:08:22,800 --> 00:08:28,020
+make it yeah make it a thick this is
+
+187
+00:08:25,500 --> 00:08:29,720
+what it means so the original is an
+
+188
+00:08:28,020 --> 00:08:32,459
+array at least when you're making it
+
+189
+00:08:29,720 --> 00:08:35,039
+because when we're making a hip we can
+
+190
+00:08:32,459 --> 00:08:38,279
+use the hip push or heat pump right hip
+
+191
+00:08:35,039 --> 00:08:39,839
+push is push the element to the to the
+
+192
+00:08:38,279 --> 00:08:42,360
+hip and then
+
+193
+00:08:39,839 --> 00:08:44,159
+in the meantime the hip will be
+
+194
+00:08:42,360 --> 00:08:46,140
+maintained right the structure will be
+
+195
+00:08:44,159 --> 00:08:48,600
+maintained so we can hit proper can so
+
+196
+00:08:46,140 --> 00:08:50,519
+hip hop who is taking the next element
+
+197
+00:08:48,600 --> 00:08:54,180
+with the higher priority which is the
+
+198
+00:08:50,519 --> 00:08:56,880
+smaller one okay yeah and it's also hip
+
+199
+00:08:54,180 --> 00:08:58,560
+replace can you guess what hip will
+
+200
+00:08:56,880 --> 00:09:01,100
+replace
+
+201
+00:08:58,560 --> 00:09:05,279
+just guess what what does it do replaces
+
+202
+00:09:01,100 --> 00:09:05,279
+all the replaces
+
+203
+00:09:06,560 --> 00:09:13,260
+oh no no keep replaced it's basically
+
+204
+00:09:09,540 --> 00:09:17,000
+hip-hop and he push okay so we take one
+
+205
+00:09:13,260 --> 00:09:20,519
+out and we push another in okay okay so
+
+206
+00:09:17,000 --> 00:09:23,040
+yeah let's replace it yes yes okay so um
+
+207
+00:09:20,519 --> 00:09:25,080
+these are the three approaches I believe
+
+208
+00:09:23,040 --> 00:09:28,440
+we've covered it all
+
+209
+00:09:25,080 --> 00:09:31,080
+and which one is the optimum
+
+210
+00:09:28,440 --> 00:09:33,600
+the first one is the Owen Logan the
+
+211
+00:09:31,080 --> 00:09:35,760
+third one is our login the second one is
+
+212
+00:09:33,600 --> 00:09:37,080
+Owen why because Buck is something so
+
+213
+00:09:35,760 --> 00:09:39,600
+which one is better which one is nothing
+
+214
+00:09:37,080 --> 00:09:43,320
+it's the second one
+
+215
+00:09:39,600 --> 00:09:46,940
+second you know no not always sorry
+
+216
+00:09:43,320 --> 00:09:49,620
+sometimes not always okay and also it is
+
+217
+00:09:46,940 --> 00:09:52,320
+different to the rest so why would two
+
+218
+00:09:49,620 --> 00:09:54,000
+of the be the most of it when you say
+
+219
+00:09:52,320 --> 00:09:56,060
+you're just gonna be one you know
+
+220
+00:09:54,000 --> 00:09:58,860
+there's no question I'm just saying
+
+221
+00:09:56,060 --> 00:10:00,959
+there's a two of them are looking and
+
+222
+00:09:58,860 --> 00:10:03,600
+one of them is obviously gonna be a
+
+223
+00:10:00,959 --> 00:10:05,700
+because why would you why would two of
+
+224
+00:10:03,600 --> 00:10:08,100
+them be defaulted when you said which is
+
+225
+00:10:05,700 --> 00:10:09,899
+the fastest so it must be only one of
+
+226
+00:10:08,100 --> 00:10:12,120
+them yeah I didn't say that I don't care
+
+227
+00:10:09,899 --> 00:10:13,920
+but that's a good point yes yes there
+
+228
+00:10:12,120 --> 00:10:16,560
+could be two solutions which are equally
+
+229
+00:10:13,920 --> 00:10:20,600
+the best right I didn't say that yeah
+
+230
+00:10:16,560 --> 00:10:23,220
+that means I know the best okay yeah
+
+231
+00:10:20,600 --> 00:10:24,899
+equally the best right in English you
+
+232
+00:10:23,220 --> 00:10:26,940
+can say they are equally the best right
+
+233
+00:10:24,899 --> 00:10:29,600
+like Eric Ryan you are equally the best
+
+234
+00:10:26,940 --> 00:10:32,600
+okay yeah but you didn't
+
+235
+00:10:29,600 --> 00:10:32,600
+okay
+
+236
+00:10:33,260 --> 00:10:39,180
+okay bye-bye
+
+237
+00:10:36,180 --> 00:10:39,180
+hahaha
+

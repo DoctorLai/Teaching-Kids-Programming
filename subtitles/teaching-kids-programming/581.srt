@@ -1,0 +1,1116 @@
+1
+00:00:03,319 --> 00:00:11,700
+okay so let's look at these numbers two
+
+2
+00:00:06,720 --> 00:00:14,759
+for a 6 okay so we are given a list of
+
+3
+00:00:11,700 --> 00:00:17,400
+integers positive integers and we want
+
+4
+00:00:14,759 --> 00:00:20,039
+to find out the product of it right so
+
+5
+00:00:17,400 --> 00:00:21,720
+we Transit together what's for that I
+
+6
+00:00:20,039 --> 00:00:23,939
+can't do numbers together
+
+7
+00:00:21,720 --> 00:00:30,599
+for that this is a way I we've given
+
+8
+00:00:23,939 --> 00:00:30,599
+this which is 64 times 16. 1024
+
+9
+00:00:36,620 --> 00:00:42,120
+that's right for example like this 1024
+
+10
+00:00:39,780 --> 00:00:45,180
+can be represented as 2 to the power of
+
+11
+00:00:42,120 --> 00:00:48,660
+10 right okay this is the plan Point
+
+12
+00:00:45,180 --> 00:00:51,420
+number so we want to find out that this
+
+13
+00:00:48,660 --> 00:00:53,520
+thing number of the prime number
+
+14
+00:00:51,420 --> 00:00:56,719
+right which is two so you return one
+
+15
+00:00:53,520 --> 00:00:56,719
+let's take another example
+
+16
+00:00:56,879 --> 00:01:00,960
+two
+
+17
+00:00:58,500 --> 00:01:03,719
+four three it doesn't have to be
+
+18
+00:01:00,960 --> 00:01:06,019
+ascending order okay what's the answer
+
+19
+00:01:03,719 --> 00:01:06,019
+here
+
+20
+00:01:06,979 --> 00:01:14,060
+one six eight
+
+21
+00:01:09,420 --> 00:01:14,060
+so what's this number is it
+
+22
+00:01:19,920 --> 00:01:26,640
+okay so 168 equals two to the power of
+
+23
+00:01:23,479 --> 00:01:28,380
+three times three seven is it so how
+
+24
+00:01:26,640 --> 00:01:29,700
+many numbers one two three so we'll
+
+25
+00:01:28,380 --> 00:01:31,500
+return three numbers
+
+26
+00:01:29,700 --> 00:01:34,500
+okay so what's your thoughts about
+
+27
+00:01:31,500 --> 00:01:37,700
+solving this problem Oh yes do the math
+
+28
+00:01:34,500 --> 00:01:37,700
+the two times four
+
+29
+00:01:38,640 --> 00:01:41,840
+times yes
+
+30
+00:01:42,200 --> 00:01:48,119
+you want to calculate all the numbers
+
+31
+00:01:44,460 --> 00:01:50,159
+with the products okay and then okay so
+
+32
+00:01:48,119 --> 00:01:52,259
+once we have this number so what do we
+
+33
+00:01:50,159 --> 00:01:54,659
+do yeah we give them no no I don't know
+
+34
+00:01:52,259 --> 00:01:57,479
+what we do what do you call this process
+
+35
+00:01:54,659 --> 00:02:00,899
+one six a becomes that that we call it
+
+36
+00:01:57,479 --> 00:02:00,899
+uh factorization
+
+37
+00:02:02,299 --> 00:02:08,520
+if I get to the power of three
+
+38
+00:02:06,119 --> 00:02:10,380
+two to the power of three why each
+
+39
+00:02:08,520 --> 00:02:14,160
+integer yes so that's a good question
+
+40
+00:02:10,380 --> 00:02:17,459
+each integer can be represented as P1 a
+
+41
+00:02:14,160 --> 00:02:19,860
+p two B times together okay so this P
+
+42
+00:02:17,459 --> 00:02:21,959
+are the prime numbers ABC this is
+
+43
+00:02:19,860 --> 00:02:24,060
+non-negative integers why is it two to
+
+44
+00:02:21,959 --> 00:02:25,920
+the power three two this is already a
+
+45
+00:02:24,060 --> 00:02:29,400
+point number two to the power one this
+
+46
+00:02:25,920 --> 00:02:32,520
+12. is 2 to the power of 2 2 to the
+
+47
+00:02:29,400 --> 00:02:35,400
+power 1 to 2 to the power 2 equals 2 to
+
+48
+00:02:32,520 --> 00:02:37,379
+the power 6 okay and three and seven is
+
+49
+00:02:35,400 --> 00:02:39,900
+already a prime number we can convert
+
+50
+00:02:37,379 --> 00:02:42,239
+integer back to this format right we
+
+51
+00:02:39,900 --> 00:02:44,580
+call it the factorization okay your
+
+52
+00:02:42,239 --> 00:02:46,800
+solution is that we find out the product
+
+53
+00:02:44,580 --> 00:02:50,040
+and then we do this process right to
+
+54
+00:02:46,800 --> 00:02:51,599
+this person so 168 we just try if it can
+
+55
+00:02:50,040 --> 00:02:54,560
+be divided by the first prime number
+
+56
+00:02:51,599 --> 00:02:57,239
+which is two if it can then
+
+57
+00:02:54,560 --> 00:03:00,660
+168 divided by two
+
+58
+00:02:57,239 --> 00:03:04,379
+this is 2 times 84. 84 can be divided by
+
+59
+00:03:00,660 --> 00:03:08,160
+2. so this is equal 42.
+
+60
+00:03:04,379 --> 00:03:09,000
+times 2 right 42 can be again divided by
+
+61
+00:03:08,160 --> 00:03:11,640
+two
+
+62
+00:03:09,000 --> 00:03:13,800
+is two times twenty one right okay so
+
+63
+00:03:11,640 --> 00:03:15,840
+look how many two three
+
+64
+00:03:13,800 --> 00:03:17,760
+okay so what's the next number because
+
+65
+00:03:15,840 --> 00:03:19,500
+it can't be divided by two again so
+
+66
+00:03:17,760 --> 00:03:22,819
+what's next Point number which is three
+
+67
+00:03:19,500 --> 00:03:22,819
+right so 21.
+
+68
+00:03:28,040 --> 00:03:33,659
+make sense okay so okay so one question
+
+69
+00:03:31,739 --> 00:03:36,480
+this number could be very big do we have
+
+70
+00:03:33,659 --> 00:03:39,599
+to do we have to to find out a product
+
+71
+00:03:36,480 --> 00:03:41,519
+know no right we don't have to put oh
+
+72
+00:03:39,599 --> 00:03:43,500
+what why would you ask that we are given
+
+73
+00:03:41,519 --> 00:03:45,180
+this array right we don't need to
+
+74
+00:03:43,500 --> 00:03:47,819
+multiply it together we just have to
+
+75
+00:03:45,180 --> 00:03:49,799
+find out the factorization of this
+
+76
+00:03:47,819 --> 00:03:53,040
+number and this number this number this
+
+77
+00:03:49,799 --> 00:03:55,379
+number and then we find our owner this P
+
+78
+00:03:53,040 --> 00:03:57,420
+listing prime factors and put it in the
+
+79
+00:03:55,379 --> 00:03:59,700
+set then we count the number of the
+
+80
+00:03:57,420 --> 00:04:02,580
+distinct because set Only Stores the
+
+81
+00:03:59,700 --> 00:04:04,379
+unique uh numbers and right yes
+
+82
+00:04:02,580 --> 00:04:07,080
+doesn't make sense okay so let's repeat
+
+83
+00:04:04,379 --> 00:04:11,340
+this process okay let's take a look at a
+
+84
+00:04:07,080 --> 00:04:12,420
+more complex example two four nine eight
+
+85
+00:04:11,340 --> 00:04:15,659
+ten
+
+86
+00:04:12,420 --> 00:04:17,160
+a okay so one approach we also is
+
+87
+00:04:15,659 --> 00:04:18,959
+something together and do this person
+
+88
+00:04:17,160 --> 00:04:21,359
+right but this number could be very big
+
+89
+00:04:18,959 --> 00:04:24,060
+so how do we do it look these two
+
+90
+00:04:21,359 --> 00:04:25,139
+to the power one this four two to the
+
+91
+00:04:24,060 --> 00:04:29,100
+power of two
+
+92
+00:04:25,139 --> 00:04:31,919
+this nine three to the power of two
+
+93
+00:04:29,100 --> 00:04:35,699
+10 2 times 5 right
+
+94
+00:04:31,919 --> 00:04:38,040
+a two to the power C okay so we just
+
+95
+00:04:35,699 --> 00:04:42,780
+look at this number how many twos one
+
+96
+00:04:38,040 --> 00:04:45,060
+one one one okay that's two that's three
+
+97
+00:04:42,780 --> 00:04:47,280
+and that's five so we'll return three
+
+98
+00:04:45,060 --> 00:04:49,199
+doesn't make sense our task is to
+
+99
+00:04:47,280 --> 00:04:51,000
+multiply together right we multiply it
+
+100
+00:04:49,199 --> 00:04:52,620
+together we're still doing the same
+
+101
+00:04:51,000 --> 00:04:55,680
+process right so we don't have to
+
+102
+00:04:52,620 --> 00:04:57,360
+multiply does it make sense okay so if
+
+103
+00:04:55,680 --> 00:04:58,860
+we multiply it
+
+104
+00:04:57,360 --> 00:05:00,180
+what's the number
+
+105
+00:04:58,860 --> 00:05:02,300
+hey
+
+106
+00:05:00,180 --> 00:05:06,240
+72
+
+107
+00:05:02,300 --> 00:05:08,699
+320 times a right times a that could be
+
+108
+00:05:06,240 --> 00:05:11,699
+I don't know you know but once you get
+
+109
+00:05:08,699 --> 00:05:13,560
+this number you do this reverse right
+
+110
+00:05:11,699 --> 00:05:14,479
+you don't need this verse
+
+111
+00:05:13,560 --> 00:05:17,940
+yeah
+
+112
+00:05:14,479 --> 00:05:19,919
+so I'm already missing number eventually
+
+113
+00:05:17,940 --> 00:05:21,960
+you're going backwards right so there's
+
+114
+00:05:19,919 --> 00:05:24,419
+no point to multiply because we already
+
+115
+00:05:21,960 --> 00:05:28,620
+know what numbers comprise of it right
+
+116
+00:05:24,419 --> 00:05:32,000
+okay it's five seven six zero five seven
+
+117
+00:05:28,620 --> 00:05:35,759
+six zero okay so this number is 2 times
+
+118
+00:05:32,000 --> 00:05:38,300
+again this number two times one for
+
+119
+00:05:35,759 --> 00:05:38,300
+foreign
+
+120
+00:05:46,259 --> 00:05:49,979
+obviously
+
+121
+00:05:48,060 --> 00:05:51,479
+talk about how to improve it
+
+122
+00:05:49,979 --> 00:05:54,000
+and we're going to talk about the
+
+123
+00:05:51,479 --> 00:05:56,220
+Improvement in the next lesson okay be
+
+124
+00:05:54,000 --> 00:05:58,320
+fine let's say F function only given
+
+125
+00:05:56,220 --> 00:06:00,960
+these numbers we put all the prime
+
+126
+00:05:58,320 --> 00:06:02,759
+factors in the set right
+
+127
+00:06:00,960 --> 00:06:04,860
+we put all the prime factors in the same
+
+128
+00:06:02,759 --> 00:06:06,479
+let's say a equals set it's a data
+
+129
+00:06:04,860 --> 00:06:10,979
+structure yeah what's the difference
+
+130
+00:06:06,479 --> 00:06:13,740
+between a set and uh array is everyone
+
+131
+00:06:10,979 --> 00:06:15,660
+I said what was that stores are unique
+
+132
+00:06:13,740 --> 00:06:17,039
+it's a hash Table Restaurant unique
+
+133
+00:06:15,660 --> 00:06:19,800
+number right we want to find out the
+
+134
+00:06:17,039 --> 00:06:21,780
+number of distinct factors okay yeah it
+
+135
+00:06:19,800 --> 00:06:25,100
+doesn't make sense right
+
+136
+00:06:21,780 --> 00:06:28,319
+because of each number X in numbers
+
+137
+00:06:25,100 --> 00:06:33,120
+first prime number let's say is 2y P
+
+138
+00:06:28,319 --> 00:06:34,440
+equals two wire X not equal one
+
+139
+00:06:33,120 --> 00:06:38,900
+wire
+
+140
+00:06:34,440 --> 00:06:41,580
+X can be divided by the p
+
+141
+00:06:38,900 --> 00:06:44,100
+then we put this point number in the
+
+142
+00:06:41,580 --> 00:06:44,880
+headstep right this is the headset and
+
+143
+00:06:44,100 --> 00:06:47,940
+then
+
+144
+00:06:44,880 --> 00:06:50,160
+x divided by P right so this is
+
+145
+00:06:47,940 --> 00:06:53,460
+basically saying that if this number if
+
+146
+00:06:50,160 --> 00:06:54,660
+if this current number can be divided by
+
+147
+00:06:53,460 --> 00:06:57,180
+P
+
+148
+00:06:54,660 --> 00:07:00,539
+which is the point number then we keep
+
+149
+00:06:57,180 --> 00:07:02,220
+dividing it right okay and if we can't
+
+150
+00:07:00,539 --> 00:07:05,460
+divide it by a letter we try the next
+
+151
+00:07:02,220 --> 00:07:08,880
+Point number P E plus equal one okay and
+
+152
+00:07:05,460 --> 00:07:11,940
+okay we try the next number then return
+
+153
+00:07:08,880 --> 00:07:15,180
+the length of a
+
+154
+00:07:11,940 --> 00:07:17,580
+Can you spot the knees you know problems
+
+155
+00:07:15,180 --> 00:07:19,080
+here or any questions here so far okay
+
+156
+00:07:17,580 --> 00:07:21,060
+I'm telling you this is the prime number
+
+157
+00:07:19,080 --> 00:07:25,199
+right this is
+
+158
+00:07:21,060 --> 00:07:27,000
+and if this number is not one then we
+
+159
+00:07:25,199 --> 00:07:29,340
+check it can be divided by this prime
+
+160
+00:07:27,000 --> 00:07:31,080
+number and we keep dividing it and I
+
+161
+00:07:29,340 --> 00:07:33,240
+will put this P into the set because
+
+162
+00:07:31,080 --> 00:07:36,000
+this set it stores the unique numbers
+
+163
+00:07:33,240 --> 00:07:37,680
+right unique number so we finally return
+
+164
+00:07:36,000 --> 00:07:40,740
+the length of the set which is the
+
+165
+00:07:37,680 --> 00:07:43,020
+listing number right okay so any
+
+166
+00:07:40,740 --> 00:07:46,880
+problems here any questions I mean it's
+
+167
+00:07:43,020 --> 00:07:46,880
+not a problem but any questions so far
+
+168
+00:07:47,890 --> 00:07:53,520
+[Laughter]
+
+169
+00:07:51,680 --> 00:07:55,740
+prime number
+
+170
+00:07:53,520 --> 00:07:58,259
+why is it plus one here
+
+171
+00:07:55,740 --> 00:08:00,240
+second plus one season prime number so
+
+172
+00:07:58,259 --> 00:08:02,520
+next prime if you find next prime number
+
+173
+00:08:00,240 --> 00:08:05,160
+first one is the next phone number no
+
+174
+00:08:02,520 --> 00:08:07,440
+okay so that's the problem okay U plus
+
+175
+00:08:05,160 --> 00:08:09,900
+one is not the next one number right
+
+176
+00:08:07,440 --> 00:08:12,599
+yeah because two what's the next three
+
+177
+00:08:09,900 --> 00:08:16,080
+what's the next four right do we need to
+
+178
+00:08:12,599 --> 00:08:19,379
+check the four no right five right
+
+179
+00:08:16,080 --> 00:08:21,120
+so because of this P we try to let it
+
+180
+00:08:19,379 --> 00:08:22,680
+represent the prime number but here we
+
+181
+00:08:21,120 --> 00:08:24,120
+just plus one now this approach still
+
+182
+00:08:22,680 --> 00:08:26,160
+works because it just you know keep
+
+183
+00:08:24,120 --> 00:08:28,319
+doing two three four five it's just
+
+184
+00:08:26,160 --> 00:08:31,860
+doing some useless work when it's coming
+
+185
+00:08:28,319 --> 00:08:34,620
+to four coming to six because look
+
+186
+00:08:31,860 --> 00:08:36,419
+when P equals four there is no point to
+
+187
+00:08:34,620 --> 00:08:38,219
+do this right there is no point to do
+
+188
+00:08:36,419 --> 00:08:41,159
+this
+
+189
+00:08:38,219 --> 00:08:43,080
+when P equals six there is no point hey
+
+190
+00:08:41,159 --> 00:08:45,660
+no point why is that because one p
+
+191
+00:08:43,080 --> 00:08:47,700
+equals two it's already checking if it
+
+192
+00:08:45,660 --> 00:08:49,440
+can be divided by two and then if it can
+
+193
+00:08:47,700 --> 00:08:52,380
+be there divided by two it would just
+
+194
+00:08:49,440 --> 00:08:53,700
+repeatedly divide it right so when it
+
+195
+00:08:52,380 --> 00:08:55,980
+gets to the four there's no point right
+
+196
+00:08:53,700 --> 00:08:59,640
+it doesn't make sense yeah
+
+197
+00:08:55,980 --> 00:09:01,980
+okay so let's take an example a
+
+198
+00:08:59,640 --> 00:09:04,680
+so look it comes to this you can divide
+
+199
+00:09:01,980 --> 00:09:07,440
+it by two four divided by two two
+
+200
+00:09:04,680 --> 00:09:09,120
+divided by two one right when it reaches
+
+201
+00:09:07,440 --> 00:09:11,880
+one that's it how do we find all the
+
+202
+00:09:09,120 --> 00:09:15,120
+prime numbers under 100. you just
+
+203
+00:09:11,880 --> 00:09:16,920
+basically one two check it every time
+
+204
+00:09:15,120 --> 00:09:19,320
+table and then cross it out yeah that's
+
+205
+00:09:16,920 --> 00:09:20,700
+diagonal I'm talking about one two why I
+
+206
+00:09:19,320 --> 00:09:23,240
+don't know the name right
+
+207
+00:09:20,700 --> 00:09:23,240
+okay
+
+208
+00:09:24,000 --> 00:09:30,240
+okay suppose uh this is a hundred so
+
+209
+00:09:28,320 --> 00:09:33,120
+first of all one is not prime number
+
+210
+00:09:30,240 --> 00:09:35,580
+because okay okay two
+
+211
+00:09:33,120 --> 00:09:38,660
+two is the prime number because without
+
+212
+00:09:35,580 --> 00:09:38,660
+the multiples
+
+213
+00:09:39,480 --> 00:09:45,120
+okay nice one three because of the
+
+214
+00:09:42,540 --> 00:09:46,200
+multiples six already because of nine
+
+215
+00:09:45,120 --> 00:09:48,420
+right
+
+216
+00:09:46,200 --> 00:09:51,180
+Etc five E three and the remaining is
+
+217
+00:09:48,420 --> 00:09:52,980
+the prime number right yeah okay so this
+
+218
+00:09:51,180 --> 00:09:55,860
+is similar idea okay this is the similar
+
+219
+00:09:52,980 --> 00:09:58,620
+idea right yeah but yeah when you take
+
+220
+00:09:55,860 --> 00:10:00,899
+three you're gonna check six which is
+
+221
+00:09:58,620 --> 00:10:02,580
+already that's right one is closer it's
+
+222
+00:10:00,899 --> 00:10:03,959
+close up right a number cannot be
+
+223
+00:10:02,580 --> 00:10:07,040
+crossed out twice
+
+224
+00:10:03,959 --> 00:10:10,140
+yeah I'm saying yeah
+
+225
+00:10:07,040 --> 00:10:12,420
+yeah I know but this is still the the
+
+226
+00:10:10,140 --> 00:10:15,300
+most efficient experience to find all
+
+227
+00:10:12,420 --> 00:10:17,339
+the prime numbers uh under the ranger
+
+228
+00:10:15,300 --> 00:10:19,620
+given a range okay so one Improvement
+
+229
+00:10:17,339 --> 00:10:22,980
+you can imagine is that instead of P
+
+230
+00:10:19,620 --> 00:10:25,500
+right so how about if I can get the
+
+231
+00:10:22,980 --> 00:10:28,320
+equivalent so if we calculate the prime
+
+232
+00:10:25,500 --> 00:10:30,540
+numbers if these numbers are given a
+
+233
+00:10:28,320 --> 00:10:32,940
+range is smaller than a thousand right
+
+234
+00:10:30,540 --> 00:10:34,620
+so if all the numbers are smaller than a
+
+235
+00:10:32,940 --> 00:10:36,720
+thousand and we find out all the prime
+
+236
+00:10:34,620 --> 00:10:39,779
+numbers under a thousand and instead of
+
+237
+00:10:36,720 --> 00:10:43,019
+incrementing one we just get the next
+
+238
+00:10:39,779 --> 00:10:45,120
+prime number does it make sense yeah so
+
+239
+00:10:43,019 --> 00:10:47,160
+instead of p p equals to what's the next
+
+240
+00:10:45,120 --> 00:10:49,560
+number here P plus equal one that's not
+
+241
+00:10:47,160 --> 00:10:51,839
+very efficient we say get me the next
+
+242
+00:10:49,560 --> 00:10:54,120
+prime number which is three get me in
+
+243
+00:10:51,839 --> 00:10:55,920
+the next one number which is fine get me
+
+244
+00:10:54,120 --> 00:10:57,420
+in the next prime number seven and
+
+245
+00:10:55,920 --> 00:11:00,360
+what's the next number
+
+246
+00:10:57,420 --> 00:11:02,399
+phone number eleven eleven yes instead
+
+247
+00:11:00,360 --> 00:11:05,040
+of plus one you can get this right okay
+
+248
+00:11:02,399 --> 00:11:07,200
+okay so what have you learned today
+
+249
+00:11:05,040 --> 00:11:09,360
+we want to find out that this thing
+
+250
+00:11:07,200 --> 00:11:11,700
+prime factors of the product of the
+
+251
+00:11:09,360 --> 00:11:15,600
+array so we need to find out the product
+
+252
+00:11:11,700 --> 00:11:18,019
+of an array no why because we could just
+
+253
+00:11:15,600 --> 00:11:20,820
+you could just count
+
+254
+00:11:18,019 --> 00:11:23,940
+if you could divide the by T each number
+
+255
+00:11:20,820 --> 00:11:26,640
+and then count five numbers are in that
+
+256
+00:11:23,940 --> 00:11:29,399
+thingy and then return how much numbers
+
+257
+00:11:26,640 --> 00:11:31,500
+are in that you counted okay so we want
+
+258
+00:11:29,399 --> 00:11:34,519
+to find out this thing so how do we find
+
+259
+00:11:31,500 --> 00:11:34,519
+out that this thing here
+
+260
+00:11:34,700 --> 00:11:41,300
+suppose a unique number okay so for
+
+261
+00:11:37,380 --> 00:11:41,300
+example like a equals
+
+262
+00:11:42,480 --> 00:11:49,260
+one a DOT add two a DOT add three three
+
+263
+00:11:46,380 --> 00:11:51,060
+three okay what's the length of a adding
+
+264
+00:11:49,260 --> 00:11:53,220
+one adding to adding three adding three
+
+265
+00:11:51,060 --> 00:11:56,519
+adding three what's the length of the a
+
+266
+00:11:53,220 --> 00:12:01,019
+the set stores the unique numbers one
+
+267
+00:11:56,519 --> 00:12:02,700
+two three three one three okay a equals
+
+268
+00:12:01,019 --> 00:12:04,740
+at least
+
+269
+00:12:02,700 --> 00:12:07,380
+a DOT a pen
+
+270
+00:12:04,740 --> 00:12:09,540
+one a DOT ten two a DOT ten three three
+
+271
+00:12:07,380 --> 00:12:12,240
+three what's the length of number of a
+
+272
+00:12:09,540 --> 00:12:14,100
+how many elements in a one two three
+
+273
+00:12:12,240 --> 00:12:18,380
+three how many elements do you know five
+
+274
+00:12:14,100 --> 00:12:18,380
+five okay so if I change this to set
+
+275
+00:12:18,899 --> 00:12:23,579
+only three right because one two three
+
+276
+00:12:21,000 --> 00:12:25,380
+three is a duplicate it doesn't go in
+
+277
+00:12:23,579 --> 00:12:28,260
+three is there another deal okay going
+
+278
+00:12:25,380 --> 00:12:31,980
+make sense yes yeah okay that's it for
+
+279
+00:12:28,260 --> 00:12:31,980
+today bye bye bye
+
