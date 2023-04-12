@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 582 (2023-04-03): [Find the Longest Balanced Substring of a Binary String](https://helloacm.com/teaching-kids-programming-find-the-longest-balanced-substring-of-a-binary-string/) 查找二进制字符串的最长平衡子串 [Youtube](https://youtu.be/uqds2Su9fuk) - [B站](https://www.bilibili.com/video/BV1Yk4y1e7PU/)  - [西瓜](https://www.ixigua.com/7221203099061649960) 
 - Day 581 (2023-04-01): [Distinct Prime Factors of Product of Array (Math)](https://helloacm.com/teaching-kids-programming-distinct-prime-factors-of-product-of-array/) 数数组乘积的不同质数因子数(数学) [Youtube](https://youtu.be/urgtn2m9Fko) - [B站](https://www.bilibili.com/video/BV1aX4y167Rc/)  - [西瓜](https://www.ixigua.com/7219414590591861283) 
 - Day 580 (2023-03-27): [K Items With the Maximum Sum](https://helloacm.com/teaching-kids-programming-k-items-with-the-maximum-sum/) 取K项求最大总和 [Youtube](https://youtu.be/Pszd9P_i5fo) - [B站](https://www.bilibili.com/video/BV1wm4y1B77C/)  - [西瓜](https://www.ixigua.com/7218575723169219087) 
 - Day 579 (2023-03-25): [URL Simply Explained](https://helloacm.com/teaching-kids-programming-url-simply-explained/) URL简介 [Youtube](https://youtu.be/X2EodlUpFVM) - [B站](https://www.bilibili.com/video/BV1qX4y1R7oU/)  - [西瓜](https://www.ixigua.com/7216036997981274676) 
