@@ -776,6 +776,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 # Algorithms Design & 算法设计
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Algorithms to Count Houses in a Circular Street | 计算环形街道上房屋数的算法设计 | [Youtube](https://youtu.be/4gZTIGhFclU) - [B站](https://www.bilibili.com/video/BV1Lu411h7QX/) - [西瓜](https://www.ixigua.com/7250077730169946685) | [Algorithms to Count Houses in a Circular Street](https://helloacm.com/teaching-kids-programming-algorithms-to-count-houses-in-a-circular-street/) | 2023-06-23 |
 | How to Design a Random Sudoku? Algorithm to Design a Random Sudoku | 数独随机生成算法 | [Youtube](https://youtu.be/Bt4c3le2ZMw) - [B站](https://www.bilibili.com/video/BV1ox4y1T7Xc/) - [西瓜](https://www.ixigua.com/7190730195052003872) | [How to Design a Random Sudoku? Algorithm to Design a Random Sudoku](https://helloacm.com/teaching-kids-programming-algorithm-to-design-a-random-sudoku/) | 2023-01-16 |
 | How to Design a Random Maze? Random Maze Generation Algorithm | 迷宫随机生成算法 | [Youtube](https://youtu.be/3Q7-9CWbE5w) - [B站](https://www.bilibili.com/video/BV1384y187LP/) - [西瓜](https://www.ixigua.com/7190140014452277798) | [How to Design a Random Maze? Random Maze Generation Algorithm](https://helloacm.com/teaching-kids-programming-maze-design-algorithm-how-to-generate-a-random-maze/) | 2023-01-15 |
 
