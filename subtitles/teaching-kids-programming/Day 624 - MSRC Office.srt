@@ -1,0 +1,1800 @@
+1
+00:00:00,500 --> 00:00:01,466
+Hello Mr Eric, Mr Ryan
+
+2
+00:00:01,466 --> 00:00:02,700
+Are you all right?
+
+3
+00:00:02,700 --> 00:00:03,900
+okay so
+
+4
+00:00:04,133 --> 00:00:06,666
+binary tree, right, binary search tree
+
+5
+00:00:07,866 --> 00:00:08,800
+do you still remember?
+
+6
+00:00:09,300 --> 00:00:10,100
+yeah
+
+7
+00:00:10,700 --> 00:00:12,200
+but we are in your office
+
+8
+00:00:12,466 --> 00:00:13,266
+yeah
+
+9
+00:00:15,100 --> 00:00:16,533
+okay so this is the binary tree
+
+10
+00:00:16,533 --> 00:00:17,900
+also Binary Search Tree
+
+11
+00:00:17,900 --> 00:00:20,500
+because the left nodes are smaller than the root
+
+12
+00:00:20,800 --> 00:00:21,600
+than the parents
+
+13
+00:00:21,600 --> 00:00:25,133
+the right nodes are strictly bigger than the parent
+
+14
+00:00:25,133 --> 00:00:28,200
+okay this is a valid binary search tree
+
+15
+00:00:28,266 --> 00:00:29,866
+let's look at this as well
+
+16
+00:00:36,400 --> 00:00:38,166
+that one is gonna be invalid
+
+17
+00:00:38,166 --> 00:00:38,700
+1.5
+
+18
+00:00:38,700 --> 00:00:41,800
+yeah that node you're gonna write is gonna be imblanced
+
+19
+00:00:41,800 --> 00:00:43,000
+no no I'm not going to
+
+20
+00:00:43,000 --> 00:00:44,200
+that's a -1
+
+21
+00:00:44,800 --> 00:00:45,700
+that's invalid
+
+22
+00:00:45,700 --> 00:00:46,600
+why is it invalid
+
+23
+00:00:46,600 --> 00:00:47,900
+because it's on the right
+
+24
+00:00:48,166 --> 00:00:49,333
+still on the right side
+
+25
+00:00:49,800 --> 00:00:51,300
+no because it's bigger than 1
+
+26
+00:00:51,500 --> 00:00:53,300
+yeah this one is less than 1
+
+27
+00:00:53,333 --> 00:00:56,500
+yeah but even this node is smaller than 2
+
+28
+00:00:56,500 --> 00:00:59,266
+but it's bigger than 1 which is not right okay
+
+29
+00:00:59,333 --> 00:01:00,100
+it's less than 1
+
+30
+00:01:00,100 --> 00:01:01,100
+but it's less than
+
+31
+00:01:01,533 --> 00:01:03,800
+it's less than 1 so this is invalid
+
+32
+00:01:03,933 --> 00:01:05,166
+so what's the
+
+33
+00:01:05,333 --> 00:01:08,066
+most important thing about this binary search tree
+
+34
+00:01:08,366 --> 00:01:09,066
+is that
+
+35
+00:01:09,066 --> 00:01:12,200
+is that we can put it In-order and it will be in order
+
+36
+00:01:12,200 --> 00:01:14,066
+that's right if we perform an in order traversal
+
+37
+00:01:14,066 --> 00:01:16,300
+so basically we visit the left tree first
+
+38
+00:01:16,300 --> 00:01:18,400
+and the current node and the right tree
+
+39
+00:01:18,400 --> 00:01:19,500
+that will give us an
+
+40
+00:01:19,700 --> 00:01:20,933
+in order okay
+
+41
+00:01:21,266 --> 00:01:22,900
+there we can see your shadow
+
+42
+00:01:24,000 --> 00:01:25,100
+that's fine okay
+
+43
+00:01:25,166 --> 00:01:28,666
+so let's look at a simple binary search tree
+
+44
+00:01:28,766 --> 00:01:29,700
+which is
+
+45
+00:01:30,700 --> 00:01:34,866
+0 1 2 3,  4 nodes
+
+46
+00:01:36,133 --> 00:01:38,133
+so is this a binary search tree?
+
+47
+00:01:39,733 --> 00:01:41,900
+is this a binary search tree? yes?
+
+48
+00:01:42,000 --> 00:01:43,066
+yeah 1 2 3
+
+49
+00:01:43,066 --> 00:01:44,700
+yeah it's a linked list, it's also a binary search tree
+
+50
+00:01:44,700 --> 00:01:47,400
+but what's different what's so special about it
+
+51
+00:01:47,400 --> 00:01:47,733
+it is one line
+
+52
+00:01:47,733 --> 00:01:50,133
+one line, so
+
+53
+00:01:50,533 --> 00:01:53,400
+is it a good is is it a good binary search tree
+
+54
+00:01:53,466 --> 00:01:54,500
+it's imbalance
+
+55
+00:01:54,500 --> 00:01:57,166
+it's imbalance yes what I'm talking about is imbalance
+
+56
+00:01:58,866 --> 00:01:59,800
+what's balance
+
+57
+00:02:00,333 --> 00:02:03,066
+balance is, a balance tree
+
+58
+00:02:03,066 --> 00:02:04,566
+a balance binary tree
+
+59
+00:02:04,900 --> 00:02:08,133
+is that the difference of any
+
+60
+00:02:09,133 --> 00:02:09,466
+different
+
+61
+00:02:09,466 --> 00:02:11,800
+the difference of the left tree and the right tree
+
+62
+00:02:11,800 --> 00:02:14,300
+for any node should be no more than 1
+
+63
+00:02:14,300 --> 00:02:15,666
+okay for but for this one
+
+64
+00:02:15,966 --> 00:02:18,500
+is imbalance because look at this node
+
+65
+00:02:18,733 --> 00:02:20,266
+the left tree the distance
+
+66
+00:02:20,400 --> 00:02:22,933
+the depth is zero the right is 1, 2, 3
+
+67
+00:02:22,933 --> 00:02:24,966
+three minus zero is more than 1
+
+68
+00:02:24,966 --> 00:02:25,900
+this is imbalance
+
+69
+00:02:25,900 --> 00:02:28,400
+but in the meantime if we put the one here
+
+70
+00:02:29,200 --> 00:02:30,000
+zero
+
+71
+00:02:30,866 --> 00:02:32,800
+uh two three
+
+72
+00:02:34,166 --> 00:02:35,300
+this is balance
+
+73
+00:02:35,300 --> 00:02:37,700
+okay this is balance because look this is one
+
+74
+00:02:37,700 --> 00:02:38,933
+this is 2,  Two Minus One
+
+75
+00:02:38,933 --> 00:02:40,133
+no more than one
+
+76
+00:02:40,133 --> 00:02:41,900
+right the difference no more than one is one
+
+77
+00:02:41,900 --> 00:02:44,866
+okay makes sense? this is the balance also
+
+78
+00:02:45,533 --> 00:02:47,300
+what can we do? two
+
+79
+00:02:49,700 --> 00:02:50,500
+1
+
+80
+00:02:51,366 --> 00:02:52,933
+0, 3, right
+
+81
+00:02:53,566 --> 00:02:55,666
+this is also a balance binary tree
+
+82
+00:02:55,666 --> 00:02:56,800
+binary search tree
+
+83
+00:02:57,066 --> 00:03:01,400
+all 1 2 3 all these three are binary search trees
+
+84
+00:03:01,500 --> 00:03:02,800
+this is not balanced
+
+85
+00:03:03,100 --> 00:03:03,966
+this is balanced
+
+86
+00:03:03,966 --> 00:03:05,100
+this is balanced
+
+87
+00:03:05,166 --> 00:03:08,266
+right here what if the one has a number
+
+88
+00:03:10,066 --> 00:03:11,666
+what do you mean with it
+
+89
+00:03:11,700 --> 00:03:13,566
+with the one here
+
+90
+00:03:15,166 --> 00:03:17,800
+uh you mean what do you put here I'm
+
+91
+00:03:17,900 --> 00:03:20,700
+no no okay are you in 1.5
+
+92
+00:03:21,366 --> 00:03:23,400
+yeah yeah yeah is is it a
+
+93
+00:03:24,000 --> 00:03:25,766
+yes it's a binary search tree, for any
+
+94
+00:03:25,766 --> 00:03:27,900
+any node, look the difference left one is
+
+95
+00:03:28,333 --> 00:03:29,800
+uh the same yeah I'm saying
+
+96
+00:03:29,800 --> 00:03:32,333
+is that, you're talking about the 2-1
+
+97
+00:03:33,100 --> 00:03:35,266
+any questions so far for the, isn't that 3
+
+98
+00:03:35,466 --> 00:03:37,400
+isn't that 3 um
+
+99
+00:03:37,766 --> 00:03:40,533
+you were talking about with 2 - 1 thing
+
+100
+00:03:41,500 --> 00:03:43,900
+the difference the absolute difference left
+
+101
+00:03:43,900 --> 00:03:45,400
+| left-right | is more
+
+102
+00:03:45,400 --> 00:03:47,200
+what's the difference in that one?
+
+103
+00:03:47,600 --> 00:03:48,400
+this one yeah
+
+104
+00:03:49,700 --> 00:03:51,466
+okay let's look at this node the
+
+105
+00:03:51,466 --> 00:03:52,500
+the left tree
+
+106
+00:03:52,933 --> 00:03:56,100
+the depth is 1 2, the right tree is 1
+
+107
+00:03:56,366 --> 00:03:58,300
+oh yeah so for any node
+
+108
+00:03:58,300 --> 00:04:00,933
+for any node every node sorry for every node
+
+109
+00:04:00,933 --> 00:04:02,533
+okay but for this one look
+
+110
+00:04:02,733 --> 00:04:05,333
+the difference, the left is 0 the right is 1 2 3
+
+111
+00:04:05,500 --> 00:04:07,966
+3-0 is bigger than 1
+
+112
+00:04:08,066 --> 00:04:08,400
+that is what I am saying..
+
+113
+00:04:08,400 --> 00:04:11,100
+the depths of the the left tree and the right tree
+
+114
+00:04:11,100 --> 00:04:11,933
+for every node
+
+115
+00:04:11,933 --> 00:04:13,300
+for every node okay
+
+116
+00:04:13,700 --> 00:04:15,866
+every node, why do we prefer
+
+117
+00:04:15,866 --> 00:04:18,900
+do you know we prefer the balance over imbalance
+
+118
+00:04:18,900 --> 00:04:19,533
+why?
+
+119
+00:04:19,533 --> 00:04:22,166
+because imbalance is usually the worst case
+
+120
+00:04:22,166 --> 00:04:24,366
+is why why in worst case in what
+
+121
+00:04:24,733 --> 00:04:26,566
+in some problems
+
+122
+00:04:26,566 --> 00:04:27,866
+some problem, what kind of problem?
+
+123
+00:04:28,966 --> 00:04:30,900
+what do we need a binary search tree for?
+
+124
+00:04:31,566 --> 00:04:33,066
+um, to find the solution
+
+125
+00:04:33,066 --> 00:04:35,666
+putting things in order to find a solution
+
+126
+00:04:35,666 --> 00:04:36,333
+to find a
+
+127
+00:04:36,333 --> 00:04:39,066
+yeah to find for example if I want to find a 2 here
+
+128
+00:04:39,066 --> 00:04:41,100
+so there's only one way I can go right
+
+129
+00:04:41,666 --> 00:04:42,533
+yeah? find 2 or 3
+
+130
+00:04:42,533 --> 00:04:45,100
+find two or three, in the worst case I need to travel N steps
+
+131
+00:04:45,400 --> 00:04:46,800
+Am I right? there's only one way
+
+132
+00:04:46,800 --> 00:04:48,733
+so basically it's linear search
+
+133
+00:04:49,300 --> 00:04:52,500
+we are not making use of the binary search property
+
+134
+00:04:52,500 --> 00:04:55,366
+but for this one if I want to look for number two
+
+135
+00:04:56,566 --> 00:04:58,266
+right, balance, I don't
+
+136
+00:04:58,600 --> 00:05:00,900
+yeah I don't need to look for anything here right
+
+137
+00:05:01,166 --> 00:05:02,333
+then there could be a
+
+138
+00:05:02,666 --> 00:05:05,000
+very big number of nodes on the left tree
+
+139
+00:05:05,066 --> 00:05:06,366
+so at each
+
+140
+00:05:07,466 --> 00:05:11,133
+at each step I can abandon almost half of it (binary search)
+
+141
+00:05:11,133 --> 00:05:13,533
+but what if there's nothing on the left side
+
+142
+00:05:13,600 --> 00:05:14,500
+then this, look
+
+143
+00:05:14,500 --> 00:05:15,466
+yeah that's what I'm saying
+
+144
+00:05:15,466 --> 00:05:17,366
+this is imbalance for imbalance tree
+
+145
+00:05:17,366 --> 00:05:18,566
+if we perform a
+
+146
+00:05:18,766 --> 00:05:22,300
+search it will be degraded into a linear search
+
+147
+00:05:22,766 --> 00:05:24,533
+because we are not making use of
+
+148
+00:05:25,266 --> 00:05:27,700
+the property that the left trees are smaller
+
+149
+00:05:27,700 --> 00:05:29,333
+and the right are bigger trees - basically one line
+
+150
+00:05:30,466 --> 00:05:32,366
+that's right yes okay so
+
+151
+00:05:32,600 --> 00:05:34,133
+okay so we've given a
+
+152
+00:05:34,533 --> 00:05:37,066
+binary search tree we want to make it a balance
+
+153
+00:05:37,066 --> 00:05:39,333
+you can, I mean obviously look there are many
+
+154
+00:05:39,533 --> 00:05:40,600
+there are more than one
+
+155
+00:05:40,866 --> 00:05:44,133
+balance versions of the same binary search tree, right?
+
+156
+00:05:44,333 --> 00:05:46,533
+so you can return any of it
+
+157
+00:05:46,566 --> 00:05:48,333
+okay so for example we given any
+
+158
+00:05:48,566 --> 00:05:50,666
+binary search tree, we want to make it balanced
+
+159
+00:05:51,333 --> 00:05:52,133
+okay?
+
+160
+00:05:52,666 --> 00:05:53,766
+so any idea?
+
+161
+00:05:54,300 --> 00:05:57,300
+so if we've given these any binary search tree okay
+
+162
+00:05:57,366 --> 00:05:59,600
+we've given any binary search tree
+
+163
+00:06:00,200 --> 00:06:03,000
+given we're given a BST, we want to balance it
+
+164
+00:06:03,000 --> 00:06:04,800
+we want to make a balanced version of it
+
+165
+00:06:04,800 --> 00:06:06,966
+and because they are more than one
+
+166
+00:06:07,333 --> 00:06:08,566
+they are more than one
+
+167
+00:06:08,600 --> 00:06:11,366
+usually and they could be more than one
+
+168
+00:06:11,800 --> 00:06:14,166
+they could be more than one balanced version of this
+
+169
+00:06:14,166 --> 00:06:16,700
+same BST we can just return any of them
+
+170
+00:06:16,700 --> 00:06:17,933
+what I mean by
+
+171
+00:06:18,166 --> 00:06:20,900
+the same version is that if we perform an in order
+
+172
+00:06:21,133 --> 00:06:22,966
+we get the same sorted list right?
+
+173
+00:06:22,966 --> 00:06:25,333
+if we perform an in order we get the sorted list
+
+174
+00:06:26,300 --> 00:06:27,100
+okay
+
+175
+00:06:27,966 --> 00:06:28,966
+that's a hint
+
+176
+00:06:29,666 --> 00:06:31,366
+so how can we do it? any idea?
+
+177
+00:06:35,466 --> 00:06:36,266
+so, it's a
+
+178
+00:06:37,000 --> 00:06:38,333
+left node right
+
+179
+00:06:38,566 --> 00:06:39,966
+yes what what's this?
+
+180
+00:06:39,966 --> 00:06:42,133
+the left node right what are we doing there?
+
+181
+00:06:42,333 --> 00:06:44,866
+uh it's in order
+
+182
+00:06:44,966 --> 00:06:47,666
+okay so we can make an In-order
+
+183
+00:06:47,966 --> 00:06:50,266
+of the BST then we got the sorted list
+
+184
+00:06:50,266 --> 00:06:51,800
+am I right? that's the first step right
+
+185
+00:06:51,800 --> 00:06:54,333
+so for example like this one we have a sorted list
+
+186
+00:06:54,333 --> 00:06:56,933
+1 2 3 4 5 6 7
+
+187
+00:06:57,100 --> 00:06:59,333
+so how do we make a balance
+
+188
+00:06:59,466 --> 00:07:01,133
+binary search tree out of it
+
+189
+00:07:01,500 --> 00:07:03,066
+so which node should be in the
+
+190
+00:07:03,166 --> 00:07:05,366
+root node if we want to make a balance
+
+191
+00:07:05,366 --> 00:07:07,066
+so which node should be the root
+
+192
+00:07:07,133 --> 00:07:09,300
+um... 4
+
+193
+00:07:09,766 --> 00:07:12,400
+4, yes, we choose the middle right, for example like
+
+194
+00:07:12,566 --> 00:07:15,766
+yeah we can get this sorted list, right
+
+195
+00:07:15,766 --> 00:07:18,800
+by performing the in order of any binary search tree
+
+196
+00:07:18,800 --> 00:07:20,366
+we get the sorted list and then we
+
+197
+00:07:20,700 --> 00:07:23,200
+we pick the middle as the root right, so okay four
+
+198
+00:07:23,200 --> 00:07:27,166
+so what nodes are on the left? what nodes are on the right?
+
+199
+00:07:28,400 --> 00:07:30,466
+what nodes are on the left? what nodes are on the right?
+
+200
+00:07:30,466 --> 00:07:33,300
+1 2 3 is on the left and 5 6 7 is on the right
+
+201
+00:07:33,500 --> 00:07:36,166
+that's right yes so 1 2 3 is here right
+
+202
+00:07:36,500 --> 00:07:37,700
+that's 1 2 3 here
+
+203
+00:07:37,966 --> 00:07:39,500
+5 6 7 is here right
+
+204
+00:07:39,600 --> 00:07:40,400
+yes, so...
+
+205
+00:07:40,500 --> 00:07:41,500
+okay and then
+
+206
+00:07:41,500 --> 00:07:43,866
+4 to 6 and then 6
+
+207
+00:07:44,600 --> 00:07:45,966
+it is 5 and 7
+
+208
+00:07:45,966 --> 00:07:46,566
+yeah okay
+
+209
+00:07:46,566 --> 00:07:47,600
+okay so now look
+
+210
+00:07:47,600 --> 00:07:50,166
+what's this? look we pick the root node
+
+211
+00:07:50,500 --> 00:07:52,266
+and then these nodes are on the left
+
+212
+00:07:52,266 --> 00:07:53,466
+these nodes are on right
+
+213
+00:07:53,533 --> 00:07:54,566
+so we can
+
+214
+00:07:54,866 --> 00:07:57,500
+continue working out on this sub-problem right
+
+215
+00:07:57,500 --> 00:07:59,333
+so for 1 2 3 this is sorted list
+
+216
+00:07:59,333 --> 00:08:00,600
+what node should be in the middle?
+
+217
+00:08:01,500 --> 00:08:04,000
+so four should be connected to two
+
+218
+00:08:04,733 --> 00:08:06,600
+yes so 2 should be in the middle right
+
+219
+00:08:06,666 --> 00:08:07,766
+okay so what's that
+
+220
+00:08:08,566 --> 00:08:09,366
+uh
+
+221
+00:08:09,933 --> 00:08:11,800
+1, what's that? 3
+
+222
+00:08:11,800 --> 00:08:12,800
+oh what's right okay three
+
+223
+00:08:12,800 --> 00:08:15,566
+okay and this one as well, so we pick six 6
+
+224
+00:08:16,600 --> 00:08:19,266
+and 5 and 7 okay so
+
+225
+00:08:20,133 --> 00:08:21,666
+this is the recursive problem - recursion
+
+226
+00:08:21,666 --> 00:08:23,666
+recursion right, every time we pick in the middle
+
+227
+00:08:23,866 --> 00:08:25,500
+the left is the left tree
+
+228
+00:08:25,666 --> 00:08:27,366
+the right is the right tree
+
+229
+00:08:27,366 --> 00:08:30,300
+and we continue dividing this sub problem
+
+230
+00:08:30,366 --> 00:08:31,866
+until we get only one node
+
+231
+00:08:31,866 --> 00:08:32,900
+if it's one node
+
+232
+00:08:33,466 --> 00:08:35,866
+we don't need to divide anymore, am I right?
+
+233
+00:08:36,533 --> 00:08:37,333
+yeah
+
+234
+00:08:37,666 --> 00:08:39,933
+if it is one node, we just return it, ok, so
+
+235
+00:08:40,533 --> 00:08:41,700
+the in order thing that
+
+236
+00:08:41,700 --> 00:08:44,566
+let's do the in order thing first and then we do this
+
+237
+00:08:45,600 --> 00:08:48,666
+then the next step is to build it using the recursion
+
+238
+00:08:49,366 --> 00:08:50,166
+okay
+
+239
+00:08:51,133 --> 00:08:53,666
+so we talk about this In-order thing many many times
+
+240
+00:08:53,666 --> 00:08:55,066
+we can do it many ways
+
+241
+00:08:55,066 --> 00:08:56,333
+the recursion is the way to go
+
+242
+00:08:56,333 --> 00:08:58,266
+and we can use the Iterator right
+
+243
+00:08:58,466 --> 00:08:59,266
+define
+
+244
+00:09:00,000 --> 00:09:01,066
+depth first search
+
+245
+00:09:01,300 --> 00:09:02,200
+the root
+
+246
+00:09:03,000 --> 00:09:04,366
+if not root
+
+247
+00:09:06,100 --> 00:09:07,166
+then return
+
+248
+00:09:08,100 --> 00:09:10,733
+ok then, yield from, right, we talked about that in
+
+249
+00:09:11,133 --> 00:09:12,733
+in previous lesson
+
+250
+00:09:12,733 --> 00:09:15,333
+yield from dfs(root.left)
+
+251
+00:09:15,766 --> 00:09:17,566
+I will visit the left tree first
+
+252
+00:09:17,766 --> 00:09:20,500
+then yield, remember this yield keyword?
+
+253
+00:09:20,666 --> 00:09:21,966
+I promise you
+
+254
+00:09:22,366 --> 00:09:27,366
+to give you £5 every month, I promise you to give you £5
+
+255
+00:09:27,766 --> 00:09:32,600
+that at the end of every month, yield root.val, ok?
+
+256
+00:09:33,533 --> 00:09:34,333
+and then
+
+257
+00:09:34,933 --> 00:09:38,000
+what's next? we visit the left tree, we visit the
+
+258
+00:09:38,000 --> 00:09:39,566
+we visit the current node, what's next?
+
+259
+00:09:40,300 --> 00:09:41,933
+look this is the root
+
+260
+00:09:42,666 --> 00:09:46,933
+we visit the root.left here, yield from root.left
+
+261
+00:09:46,933 --> 00:09:49,466
+because there could be a many so we yield from here
+
+262
+00:09:50,000 --> 00:09:51,966
+yield from okay we yield from
+
+263
+00:09:52,333 --> 00:09:55,400
+this place yield this value and what's next?
+
+264
+00:09:55,966 --> 00:09:57,333
+root.right
+
+265
+00:09:57,666 --> 00:09:59,133
+yield from root.right
+
+266
+00:10:00,100 --> 00:10:01,600
+so yield from
+
+267
+00:10:03,933 --> 00:10:07,533
+dfs(root.right), ok
+
+268
+00:10:07,900 --> 00:10:09,366
+we can do it by
+
+269
+00:10:09,500 --> 00:10:12,400
+inserting so if we have this array here
+
+270
+00:10:12,400 --> 00:10:15,166
+we can inserting instead of yield from we can say
+
+271
+00:10:15,166 --> 00:10:17,300
+array.append uh
+
+272
+00:10:17,300 --> 00:10:19,600
+we can Depth First Search root.left and then
+
+273
+00:10:19,600 --> 00:10:20,733
+and then array.append(root.val)
+
+274
+00:10:20,733 --> 00:10:23,400
+dfs(root.right), ok, this is
+
+275
+00:10:23,400 --> 00:10:24,600
+this is much cleaner syntax
+
+276
+00:10:24,800 --> 00:10:25,500
+syntax sugar
+
+277
+00:10:25,500 --> 00:10:28,266
+okay then with this DFS and then we can array
+
+278
+00:10:28,500 --> 00:10:29,966
+equals, that we converted the
+
+279
+00:10:29,966 --> 00:10:31,800
+because it's a iterator we converted
+
+280
+00:10:31,800 --> 00:10:33,166
+converted to a list
+
+281
+00:10:33,566 --> 00:10:34,533
+dfs
+
+282
+00:10:34,733 --> 00:10:36,500
+now we have a sorted list
+
+283
+00:10:36,733 --> 00:10:37,900
+we have a sorted list
+
+284
+00:10:37,900 --> 00:10:38,966
+now we want to
+
+285
+00:10:40,000 --> 00:10:42,333
+build/construct the binary search tree
+
+286
+00:10:42,333 --> 00:10:44,933
+balance binary search tree using this approach
+
+287
+00:10:44,933 --> 00:10:46,466
+recursion using this approach
+
+288
+00:10:46,466 --> 00:10:48,566
+okay so how do we do it
+
+289
+00:10:49,966 --> 00:10:51,066
+using recursion
+
+290
+00:10:51,266 --> 00:10:53,133
+define let's say f
+
+291
+00:10:53,133 --> 00:10:53,933
+def f
+
+292
+00:10:54,800 --> 00:10:57,866
+we say build tree, ok, build, build tree
+
+293
+00:10:58,966 --> 00:11:01,466
+build binary search tree BST
+
+294
+00:11:03,100 --> 00:11:04,600
+so we want to build it here
+
+295
+00:11:04,600 --> 00:11:06,700
+we need to give a left or right pointer right
+
+296
+00:11:06,700 --> 00:11:07,800
+left or right pointer
+
+297
+00:11:08,933 --> 00:11:10,766
+if the left is
+
+298
+00:11:11,133 --> 00:11:11,933
+bigger than right
+
+299
+00:11:11,933 --> 00:11:14,366
+and we just return because there's no point right
+
+300
+00:11:14,366 --> 00:11:15,333
+left or right pointer
+
+301
+00:11:15,533 --> 00:11:17,266
+we use the left or right point right
+
+302
+00:11:17,733 --> 00:11:19,566
+the left at the beginning we put it here
+
+303
+00:11:19,566 --> 00:11:20,933
+right here
+
+304
+00:11:21,366 --> 00:11:23,500
+if L == R
+
+305
+00:11:24,333 --> 00:11:27,100
+if there's only one node, then we just return right
+
+306
+00:11:27,166 --> 00:11:28,600
+return TreeNode
+
+307
+00:11:31,200 --> 00:11:32,533
+what's what if that is an even number
+
+308
+00:11:32,533 --> 00:11:33,333
+array
+
+309
+00:11:34,700 --> 00:11:37,066
+arr[L].val
+
+310
+00:11:37,066 --> 00:11:38,166
+okay what do you mean?
+
+311
+00:11:38,600 --> 00:11:39,800
+what if it is an even number?
+
+312
+00:11:39,800 --> 00:11:43,166
+for example if it's 8 and then there's no center
+
+313
+00:11:43,466 --> 00:11:45,400
+okay so that's a very good point
+
+314
+00:11:45,400 --> 00:11:47,333
+okay so if there's 8 nodes, there's no center
+
+315
+00:11:47,333 --> 00:11:48,333
+you can pick four or five
+
+316
+00:11:48,333 --> 00:11:50,300
+it doesn't matter as long as it's balance
+
+317
+00:11:50,366 --> 00:11:54,066
+right we can prove that by choosing the middle one
+
+318
+00:11:54,500 --> 00:11:56,133
+either is this one or that one
+
+319
+00:11:56,133 --> 00:11:58,066
+it gives us the optimal
+
+320
+00:11:58,066 --> 00:11:59,300
+right because the balance
+
+321
+00:11:59,300 --> 00:12:01,366
+tree is that the difference is no more than 1
+
+322
+00:12:01,366 --> 00:12:03,700
+okay now if if there's only 1 node
+
+323
+00:12:03,700 --> 00:12:06,066
+then we just return of it, right
+
+324
+00:12:06,066 --> 00:12:08,300
+otherwise root equals TreeNode
+
+325
+00:12:08,300 --> 00:12:09,100
+TreeNode
+
+326
+00:12:09,400 --> 00:12:10,566
+we want to get the middle right
+
+327
+00:12:10,566 --> 00:12:11,500
+the middle one is what
+
+328
+00:12:11,500 --> 00:12:15,300
+the middle one is left plus right divided by 2 right
+
+329
+00:12:15,300 --> 00:12:17,000
+or shifts one position to the right e.g. >>1
+
+330
+00:12:17,333 --> 00:12:18,500
+Am I right? the middle one
+
+331
+00:12:18,500 --> 00:12:19,566
+how do you get the middle
+
+332
+00:12:19,733 --> 00:12:21,866
+(L+R)/2
+
+333
+00:12:21,966 --> 00:12:22,766
+Am I Right? Yes
+
+334
+00:12:23,166 --> 00:12:24,300
+okay the middle one
+
+335
+00:12:24,300 --> 00:12:26,666
+TreeNode, root, Array
+
+336
+00:12:27,666 --> 00:12:29,866
+array[middle one].val
+
+337
+00:12:30,200 --> 00:12:32,333
+now we want to build the left tree, right? root
+
+338
+00:12:32,866 --> 00:12:35,933
+root.left = buildTree
+
+339
+00:12:37,333 --> 00:12:38,366
+now the left bit
+
+340
+00:12:38,366 --> 00:12:40,333
+okay look this is middle right?
+
+341
+00:12:40,600 --> 00:12:42,000
+yeah
+
+342
+00:12:42,266 --> 00:12:43,133
+this is middle
+
+343
+00:12:43,133 --> 00:12:44,800
+now this middle is root
+
+344
+00:12:44,966 --> 00:12:46,300
+now the left tree is
+
+345
+00:12:46,966 --> 00:12:50,200
+root on left equals build tree, recursion right?
+
+346
+00:12:50,200 --> 00:12:51,566
+the left to be L
+
+347
+00:12:52,500 --> 00:12:54,766
+middle minus 1 right yeah
+
+348
+00:12:54,800 --> 00:12:57,566
+look root.right equals what?
+
+349
+00:12:58,800 --> 00:13:00,500
+root.right = build tree
+
+350
+00:13:01,800 --> 00:13:04,133
+what's the, what's the index I should give it
+
+351
+00:13:05,066 --> 00:13:06,366
+this one is M plus 1
+
+352
+00:13:06,366 --> 00:13:07,333
+middle plus one
+
+353
+00:13:07,733 --> 00:13:11,000
+up to R okay and then, return root
+
+354
+00:13:12,333 --> 00:13:16,166
+okay you see, using the recursion, 2 recursions
+
+355
+00:13:16,600 --> 00:13:19,133
+the left recursion is to perform
+
+356
+00:13:19,133 --> 00:13:21,133
+an in order on the binary search tree
+
+357
+00:13:21,133 --> 00:13:22,266
+and we get a
+
+358
+00:13:22,666 --> 00:13:24,333
+array, sorted array
+
+359
+00:13:24,766 --> 00:13:26,166
+the right recursion
+
+360
+00:13:26,266 --> 00:13:28,366
+we are building a binary search tree
+
+361
+00:13:28,366 --> 00:13:29,666
+balance binary search tree
+
+362
+00:13:29,666 --> 00:13:32,733
+by following the strategy always pick the middle
+
+363
+00:13:33,366 --> 00:13:37,000
+as the root, once we pick the middle we know the left
+
+364
+00:13:37,800 --> 00:13:39,566
+the numbers on the left
+
+365
+00:13:39,666 --> 00:13:41,266
+we know the numbers on the right
+
+366
+00:13:41,400 --> 00:13:43,166
+and we recursively build it
+
+367
+00:13:44,766 --> 00:13:49,066
+yeah if there's only one root, then we return
+
+368
+00:13:49,166 --> 00:13:50,166
+just return
+
+369
+00:13:50,866 --> 00:13:52,666
+the leaf node, this is the leaf node
+
+370
+00:13:52,666 --> 00:13:54,466
+otherwise we get the middle
+
+371
+00:13:54,733 --> 00:13:57,800
+and the left part we're using the recursion to build it
+
+372
+00:13:57,800 --> 00:14:00,000
+the right part we're using the recursion to build it
+
+373
+00:14:00,000 --> 00:14:02,333
+and we return the root, ok
+
+374
+00:14:05,300 --> 00:14:08,133
+okay any questions so far? no
+
+375
+00:14:08,133 --> 00:14:09,133
+okay so what have you learned today?
+
+376
+00:14:09,133 --> 00:14:12,700
+Ummm, we learned about...
+
+377
+00:14:12,700 --> 00:14:14,000
+Can you just
+
+378
+00:14:14,500 --> 00:14:18,100
+present this solution here just like Daddy, come on
+
+379
+00:14:18,200 --> 00:14:20,766
+quickly bonus 5 minutes (watching TV time)
+
+380
+00:14:22,400 --> 00:14:24,166
+you can, two, you two can come on
+
+381
+00:14:25,666 --> 00:14:26,533
+come on come on come on
+
+382
+00:14:27,533 --> 00:14:29,533
+demonstrate on the whiteboard, come on
+
+383
+00:14:30,300 --> 00:14:31,766
+yeah 5 minutes
+
+384
+00:14:31,766 --> 00:14:32,566
+me
+
+385
+00:14:34,866 --> 00:14:36,400
+yeah yeah both
+
+386
+00:14:37,100 --> 00:14:39,400
+you two can work as a team
+
+387
+00:14:39,400 --> 00:14:43,433
+we have a binary search tree
+
+388
+00:14:44,700 --> 00:14:47,533
+imbalance, ... should I
+
+389
+00:14:48,166 --> 00:14:49,700
+I mean, you can, there are two
+
+390
+00:14:49,700 --> 00:14:51,666
+you can both present one okay?
+
+391
+00:14:51,733 --> 00:14:54,333
+so okay so we have a
+
+392
+00:14:55,866 --> 00:14:58,366
+a binary search tree, and
+
+393
+00:14:58,766 --> 00:14:59,566
+and we
+
+394
+00:14:59,933 --> 00:15:01,666
+so first of all in
+
+395
+00:15:02,266 --> 00:15:06,066
+we wanna make it a balance not imbalance
+
+396
+00:15:06,133 --> 00:15:06,600
+that's right
+
+397
+00:15:06,600 --> 00:15:08,600
+imbalance is when the depths
+
+398
+00:15:09,100 --> 00:15:12,800
+the depths of the left, and of the right trees, is, Uhm
+
+399
+00:15:14,333 --> 00:15:15,866
+more over one
+
+400
+00:15:15,900 --> 00:15:17,466
+difference, the depths
+
+401
+00:15:17,466 --> 00:15:18,566
+yeah that's what I just said
+
+402
+00:15:18,566 --> 00:15:19,366
+okay
+
+403
+00:15:19,500 --> 00:15:21,200
+and then okay so
+
+404
+00:15:21,666 --> 00:15:24,866
+so we give you those like numbers
+
+405
+00:15:25,733 --> 00:15:29,200
+uh yeah here we do 2 pointer and then we
+
+406
+00:15:29,300 --> 00:15:31,733
+and then we close the gap, until it's
+
+407
+00:15:31,966 --> 00:15:34,300
+until they are the same, Uhm
+
+408
+00:15:35,366 --> 00:15:37,866
+um until they meet like
+
+409
+00:15:38,200 --> 00:15:42,166
+in the center or if it is even
+
+410
+00:15:42,733 --> 00:15:44,366
+and then you just
+
+411
+00:15:45,666 --> 00:15:46,800
+you can choose the left
+
+412
+00:15:46,933 --> 00:15:49,766
+uh left or right if there is no center
+
+413
+00:15:49,933 --> 00:15:51,733
+yeah you have get
+
+414
+00:15:51,733 --> 00:15:53,300
+get a chunk to the left side
+
+415
+00:15:53,300 --> 00:15:54,866
+and get a chunk to the right side
+
+416
+00:15:55,266 --> 00:15:58,266
+yeah and and yeah hmm
+
+417
+00:15:58,733 --> 00:16:01,466
+what you were drawing that was interesting, can you
+
+418
+00:16:01,466 --> 00:16:03,266
+can you say it, a tiny binary search tree
+
+419
+00:16:03,733 --> 00:16:06,700
+tiny.. okay so can you say in one or two sentence
+
+420
+00:16:06,700 --> 00:16:09,000
+two or three sentences what are we doing today
+
+421
+00:16:09,500 --> 00:16:14,300
+we have a BST, and we want to make it balanced
+
+422
+00:16:14,700 --> 00:16:16,166
+wow that's very concise
+
+423
+00:16:16,166 --> 00:16:17,666
+yes that's what we're doing here
+
+424
+00:16:18,300 --> 00:16:21,300
+what kind of strategy are we using to build the balanced
+
+425
+00:16:21,300 --> 00:16:22,100
+balanced binary search tree
+
+426
+00:16:25,566 --> 00:16:26,366
+we
+
+427
+00:16:27,133 --> 00:16:30,200
+just use computer
+
+428
+00:16:32,133 --> 00:16:33,166
+okay so Ryan
+
+429
+00:16:33,166 --> 00:16:35,600
+yeah so the solution is that we
+
+430
+00:16:35,600 --> 00:16:37,333
+because it's the binary search tree
+
+431
+00:16:37,600 --> 00:16:40,766
+we perform in order we get the sorted list, right？
+
+432
+00:16:40,766 --> 00:16:42,533
+do you understand this part？ yes
+
+433
+00:16:42,700 --> 00:16:43,933
+now with the sorted list
+
+434
+00:16:43,933 --> 00:16:44,466
+then
+
+435
+00:16:44,466 --> 00:16:46,733
+every time we pick the one in the middle as the root
+
+436
+00:16:47,133 --> 00:16:49,266
+so root 1 2 3 4 5 6 7
+
+437
+00:16:49,366 --> 00:16:50,333
+we pick the 4
+
+438
+00:16:50,766 --> 00:16:53,333
+as the root and the 1 2 3 should be on the left side
+
+439
+00:16:53,400 --> 00:16:55,500
+5 6 7 should be on the right side, right?
+
+440
+00:16:55,533 --> 00:16:57,166
+and for the left tree and right tree
+
+441
+00:16:57,200 --> 00:16:58,800
+1 2 3, for 1 2 3
+
+442
+00:16:58,900 --> 00:17:00,300
+the 2 should be in the middle right?
+
+443
+00:17:00,400 --> 00:17:01,666
+so 2 should be in the middle
+
+444
+00:17:01,666 --> 00:17:02,733
+1 should be in the
+
+445
+00:17:02,733 --> 00:17:04,000
+left and 3 should be the right
+
+446
+00:17:04,000 --> 00:17:06,166
+so we can recursively divide this problem into the
+
+447
+00:17:06,366 --> 00:17:07,533
+sub problem, do you get it?
+
+448
+00:17:07,533 --> 00:17:10,100
+and this way we can build the balanced binary search tree
+
+449
+00:17:10,100 --> 00:17:12,766
+okay, good job, that is it for today, Bye Bye!
+
+450
+00:17:13,300 --> 00:17:14,766
+bye bye bye
+
