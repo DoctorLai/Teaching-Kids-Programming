@@ -7,6 +7,7 @@ The days listed in this page may not be accurate due to some date-input-errors, 
 - [教小白媳妇编程 - 中文](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/teaching-wife-programming-in-chinese.md)
 
 ## Sort by Days
+- Day 628 (2023-09-04): [Count Number of Even and Odd Bits (Binary)](https://helloacm.com/teaching-kids-programming-number-of-even-and-odd-bits/) 数整数上奇数和偶数位上的1的个数(二进制) [Youtube](https://youtu.be/Zaivn5Chu54) - [B站](https://www.bilibili.com/video/BV15p4y1A7y8/)  - [西瓜](https://www.ixigua.com/7278710464618431017) 
 - Day 627 (2023-08-31): [Further Point from Origin (Hash Map)](https://helloacm.com/teaching-kids-programming-furthest-point-from-origin-hash-map/) 离原点最远的点(哈希表) [Youtube](https://youtu.be/Q1qRGHE1yhE) - [B站](https://www.bilibili.com/video/BV1iH4y1X7PT/)  - [西瓜](https://www.ixigua.com/7277260018741674496) 
 - Day 626 (2023-08-30): [Two Algorithms to Find All Numbers Disappeared in an Array (Hash Set)](https://helloacm.com/teaching-kids-programming-two-algorithms-to-find-all-numbers-disappeared-in-an-array/) 查找数组中所有消失数字的两种算法(哈希集) [Youtube](https://youtu.be/FSpjhf8p6xk) - [B站](https://www.bilibili.com/video/BV1Bu411w7Ue/)  - [西瓜](https://www.ixigua.com/7276928118315549223) 
 - Day 625 (2023-08-25): [Count Servers that Communicate (Hash Map - Counter)](https://helloacm.com/teaching-kids-programming-count-servers-that-communicate-hash-map-counter/) 对通信的服务器进行计数(哈希表 - 计数器) [Youtube](https://youtu.be/MZuSkZSmc2w) - [B站](https://www.bilibili.com/video/BV1zp4y177pJ/)  - [西瓜](https://www.ixigua.com/7275043133857989183) 
