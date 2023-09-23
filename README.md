@@ -412,6 +412,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Line Sweeping 扫描线
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Count the Intersection Points Given Intervals (Line Sweep Algorithm) | 数线段间隔的交点数(线扫描算法) | [Youtube](https://youtu.be/HsYiXKRLVAw) - [B站](https://www.bilibili.com/video/BV1xC4y1Z7dw/) - [西瓜](https://www.ixigua.com/7282095139479093796) | [Count the Intersection Points Given Intervals (Line Sweep Algorithm)](https://helloacm.com/teaching-kids-programming-count-the-intersection-points-given-intervals-line-sweep-algorithm/) | 2023-09-15 |
 | Line Sweeping Algorithm to Compute the Most Frequent Number in Intervals | 通过Line Sweeping算法查找线段区间中出现最频的整数 | [Youtube](https://youtu.be/sDlLQ_GaPWA) - [B站](https://www.bilibili.com/video/BV11q4y1N7HG/) | [Line Sweeping Algorithm to Compute the Most Frequent Number in Intervals](https://helloacm.com/teaching-kids-programming-line-sweeping-algorithm-to-compute-the-most-frequent-number-in-intervals/) | 2021-09-11 |
 
 ## Divide and Conquer 分而治之
