@@ -1,5 +1,5 @@
 # Teaching Kids Programming
-I teach my sons (currently they are aged 9 and 10) programming. I upload the video and write the blog. 
+I teach my sons (currently they are aged 10 and 11) programming. I upload the video and write the blog. 
 
 **If you would like to suggest the topics, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new?title=[Suggest%20Topic]).**
 
@@ -619,6 +619,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Puzzles 刷题
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| Remove Duplicates from Sorted Linked List (Using Hash Set) | 排序链表中删除重复项(哈希表) | [Youtube](https://youtu.be/Mgktmc6kHI4) - [B站](https://www.bilibili.com/video/BV1M4421A781/) - [西瓜](https://www.ixigua.com/7329997925952520754) | [Remove Duplicates from Sorted Linked List (Using Hash Set)](https://helloacm.com/teaching-kids-programming-remove-duplicates-from-sorted-linked-list-using-hash-set/) | 2024-01-21 |
 | Check if Bitwise OR Has Trailing Zeros (Binary) | 数组是否有两个数进行或位操作后有末尾零(二进制) | [Youtube](https://youtu.be/hP2oJZLss50) - [B站](https://www.bilibili.com/video/BV1Ei4y1W7zc/) - [西瓜](https://www.ixigua.com/7326254432780288521) | [Check if Bitwise OR Has Trailing Zeros (Binary)](https://helloacm.com/teaching-kids-programming-check-if-bitwise-or-has-trailing-zeros-binary/) | 2024-01-07 |
 | Largest Substring Between Two Equal Characters (Brute Force, Find/Index) | 两个相等字符之间的最大子串(穷举/查找索引) | [Youtube](https://youtu.be/NXoE19A0N6Q) - [B站](https://www.bilibili.com/video/BV1Pk4y1X7TD/) - [西瓜](https://www.ixigua.com/7324481518351417867) | [Largest Substring Between Two Equal Characters (Brute Force, Find/Index)](https://helloacm.com/teaching-kids-programming-largest-substring-between-two-equal-characters-brute-force-find-index/) | 2024-01-05 |
 | Largest Substring Between Two Equal Characters (Hash Map) | 两个相等字符之间的最大子串(哈希表) | [Youtube](https://youtu.be/X-H6UHsvXMk) - [B站](https://www.bilibili.com/video/BV1xe411H79C/) - [西瓜](https://www.ixigua.com/7322905423873638950) | [Largest Substring Between Two Equal Characters (Hash Map)](https://helloacm.com/teaching-kids-programming-largest-substring-between-two-equal-characters-hash-map/) | 2024-01-03 |
