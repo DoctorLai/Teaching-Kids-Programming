@@ -315,6 +315,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 ## Random 随机算法
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
+| N-Repeated Element in Size 2N Array (Random Algorithm) | 大小为2N的数组中的N重复元素(随机算法) | [Youtube](https://youtu.be/k1cHtcyqN2M) - [B站](https://www.bilibili.com/video/BV1Gt421b7qU/) - [西瓜](https://www.ixigua.com/7337275368287502859) | [N-Repeated Element in Size 2N Array (Random Algorithm)](https://helloacm.com/teaching-kids-programming-n-repeated-element-in-size-2n-array-random-algorithm/) | 2024-02-11 |
 | The Fisher–Yates Random Shuffle Algorithm in Python | Fisher-Yates 随机洗牌算法 (Python) | [Youtube](https://youtu.be/L0x1jePVfaA) - [B站](https://www.bilibili.com/video/BV1c44y1i7F9/) - [西瓜](https://www.ixigua.com/7023881688295932430) | [The Fisher–Yates Random Shuffle Algorithm in Python](https://helloacm.com/teaching-kids-programming-the-fisher-yates-random-shuffle-algorithm-in-python/) | 2021-10-27 |
 
 ## Dynamic Programming Algorithms 动态规划算法
