@@ -1,7 +1,7 @@
 # Teaching Kids Programming
 I teach my sons (currently they are aged 10 and 11) programming. I upload the video and write the blog. 
 
-**If you would like to suggest the topics or found an issue/bug, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new). Thanks!**
+**If you would like to suggest a topic or found an issue/bug, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new). Thanks!**
 
 The videos and blog are in **English**. The Teaching Programming Language is **Python**.
 
