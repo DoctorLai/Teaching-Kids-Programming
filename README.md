@@ -6,6 +6,7 @@ I teach my sons (currently they are aged 10 and 12) programming. I upload the vi
 The videos and blog are in **English**. The Teaching Programming Language is **Python**.
 
 **------>[All Videos/Posts sorted by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)<----------**
+**------>[All Videos/Posts/Resources](https://zhihua-lai.com/teaching/)<----------**
 
 ## About Me
 I am currently a Senior Software Engineer at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). Prior to that I worked as a SDE (Software Development Engineer aka Someone Does Everything) for Amazon Web Service ([S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/)) and as a Staff Software Engineer for [General Electric Smallworld](https://www.ge.com/digital/applications/smallworld-gis-geospatial-asset-management) when I added while loop, regex, http library and so much more to the [Magik Programming Language](https://en.wikipedia.org/wiki/Magik_(programming_language)).
