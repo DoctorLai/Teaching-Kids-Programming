@@ -1,5 +1,5 @@
 # Teaching Kids Programming
-I teach my sons (currently they are aged 10 and 11) programming. I upload the video and write the blog. 
+I teach my sons (currently they are aged 10 and 12) programming. I upload the video and write the blog. 
 
 **If you would like to suggest a topic or found an issue/bug, please could you open [an issue](https://github.com/DoctorLai/Teaching-Kids-Programming/issues/new). Thanks!**
 
@@ -22,7 +22,7 @@ My profile at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/res
 Most of the videos are based on a Leetcode and/or BinarySearch problem, which you could find the Problem ID on the video whiteboard left corner, or alternatively, you can find it at the [list](https://zhihua-lai.com/teaching/) i.e. the "Resource Links" column
 
 - [My Leetcode](https://leetcode.com/justyy/)
-- [My Leetcode CN](https://leetcode-cn.com/u/justyy/)
+- [My Leetcode CN](https://leetcode-cn.com/u/justyyuk/)
 
 I used to submit solutions to binarysearch.com however it seems the website is down forever.
 
