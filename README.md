@@ -6,6 +6,7 @@ I teach my sons (currently they are aged 10 and 12) programming. I upload the vi
 The videos and blog are in **English**. The Teaching Programming Language is **Python**.
 
 **------>[All Videos/Posts sorted by Days](https://github.com/DoctorLai/Teaching-Kids-Programming/blob/main/sort-by-days.md)<----------**
+<BR/>
 **------>[All Videos/Posts/Resources](https://zhihua-lai.com/teaching/)<----------**
 
 ## About Me
