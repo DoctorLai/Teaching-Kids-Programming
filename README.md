@@ -89,6 +89,7 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 
 ##  Computational Theory and Logics 计算机理论和逻辑
 | Title | Title Chinese | Video | Blog | Date |
+|:----:|:----:|:-------:|:----:|:----:|
 | The Halting Problem - Paradox | 停机问题/悖论 | [Youtube](https://youtu.be/le6cyVQzXfg) - [B站](https://www.bilibili.com/video/BV14me86HEoe/) | [The Halting Problem - Paradox](https://helloacm.com/teaching-kids-programming-the-halting-problem-paradoxes-self-reference-and-why-some-problems-are-impossible-to-solve/) | 2025-06-22 |
 
 ## Permutations and Combinations 排列组合数学
