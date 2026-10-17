@@ -87,6 +87,10 @@ You can improve this! Thanks. [see here](https://github.com/DoctorLai/Teaching-K
 | Introduction to Object Oriented Programming (OOP) | 面向对象编程简介 OOP | [Youtube](https://www.youtube.com/watch?v=9K1HLlau8zI) - [B站](https://www.bilibili.com/video/BV1jV411h7Ed/) | [Introduction to Object Oriented Programming (OOP)](https://helloacm.com/teaching-kids-programming-introduction-to-object-oriented-programming/) | 2020-12-16 |
 | Merge Two Sorted Lists | 合并两个有序的数列 | [Youtube](https://www.youtube.com/watch?v=0SaOITbfbrw) - [B站](https://www.bilibili.com/video/BV1t64y1f7Gd/) | [Merge Two Sorted Lists](https://helloacm.com/teaching-kids-programming-merging-two-sorted-list/) | 2020-12-09 |
 
+##  Computational Theory and Logics 计算机理论和逻辑
+| Title | Title Chinese | Video | Blog | Date |
+| The Halting Problem - Paradox | 停机问题/悖论 | [Youtube](https://youtu.be/le6cyVQzXfg) - [B站](https://www.bilibili.com/video/BV14me86HEoe/) | [The Halting Problem - Paradox](https://helloacm.com/teaching-kids-programming-the-halting-problem-paradoxes-self-reference-and-why-some-problems-are-impossible-to-solve/) | 2025-06-22 |
+
 ## Permutations and Combinations 排列组合数学
 | Title | Title Chinese | Video | Blog | Date |
 |:----:|:----:|:-------:|:----:|:----:|
